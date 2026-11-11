@@ -1,0 +1,41 @@
+rules_version = '2';
+// Firebase Spark (gratuit). Authentification : Anonymous Auth (candidats) + Email/Mot de passe (personnel).
+// Personnel = document /staff/{uid} créé À LA MAIN dans la console Firebase (voir README).
+service cloud.firestore {
+  match /databases/{db}/documents {
+    function signedIn() { return request.auth != null; }
+    function isStaff() { return signedIn() && exists(/databases/$(db)/documents/staff/$(request.auth.uid)); }
+
+    match /staff/{u} { allow read: if signedIn() && request.auth.uid == u; }
+
+    // Énoncés : lisibles par tout appareil authentifié (anonyme compris). Écriture : personnel.
+    match /tests_public/{c} { allow read: if signedIn(); allow write: if isStaff(); }
+    // Corrigés et grilles : PERSONNEL UNIQUEMENT. Jamais lisibles par un candidat.
+    match /tests_key/{c} { allow read, write: if isStaff(); }
+
+    // Sessions : id = code à 6 chiffres. Le candidat peut LIRE sa session (get uniquement, pas de list)
+    // et mettre à jour ses champs de progression tant que l'écrit n'est pas terminé.
+    match /sessions/{id} {
+      allow get: if signedIn();
+      allow list: if isStaff();
+      allow create, delete: if isStaff();
+      allow update: if isStaff() || (signedIn()
+        && resource.data.status in ['created', 'waiting', 'running']
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(
+             ['status', 'identity', 'progress', 'part', 'qIndex', 'total', 'pct', 'timeLeft', 'exits', 'lastSeen', 'startedAt', 'finishedAt'])
+        && request.resource.data.status in ['waiting', 'running', 'finished']);
+      // Réponses : écrites par l'appareil du candidat, jamais de champ « correct ».
+      match /answers/{n} {
+        allow read: if isStaff() || (signedIn() && get(/databases/$(db)/documents/sessions/$(id)).data.status in ['waiting', 'running', 'finished']);
+        allow create, update: if isStaff() || (signedIn()
+          && get(/databases/$(db)/documents/sessions/$(id)).data.status in ['created', 'waiting', 'running']
+          && request.resource.data.keys().hasOnly(['v', 't']));
+        allow delete: if isStaff();
+      }
+    }
+    match /results/{id}  { allow read, write: if isStaff(); }
+    match /people/{id}   { allow read, write: if isStaff(); }
+    match /counters/{id} { allow read, write: if isStaff(); }
+    match /settings/{id} { allow read, write: if isStaff(); }
+  }
+}
