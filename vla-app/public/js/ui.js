@@ -30,9 +30,9 @@ export function resizePhoto(file, size = 240) {
   });
 }
 
-export function qrSvg(text, cell = 6) {
+export function qrSvg(text, cell = 6, ecc = 'M') {
   if (typeof qrcode === 'undefined') return '';
-  const q = qrcode(0, 'M'); q.addData(text); q.make();
+  const q = qrcode(0, ecc); q.addData(text); q.make();
   return q.createSvgTag({ cellSize: cell, margin: 2, scalable: true });
 }
 
@@ -40,4 +40,8 @@ export function waLink(phone, text) {
   const p = String(phone || '').replace(/[^\d]/g, '');
   const num = p.length === 9 ? '237' + p : p; // numéros camerounais saisis sans indicatif
   return `https://wa.me/${num}?text=${encodeURIComponent(text || '')}`;
+}
+
+export function loadScript(src) {
+  return new Promise((res, rej) => { if (document.querySelector(`script[data-src="${src}"]`)) return res(); const s = document.createElement('script'); s.src = src; s.dataset.src = src; s.onload = res; s.onerror = rej; document.head.append(s); });
 }

@@ -1,6 +1,6 @@
 // Service worker : l'app et les énoncés fonctionnent hors ligne. Les audios sont gérés par l'app (IndexedDB).
-const V = 'vla-v1';
-const SHELL = ['./', 'index.html', 'css/app.css', 'js/main.js', 'js/backend.js', 'js/idb.js', 'js/candidate.js', 'js/staff.js', 'js/correct.js', 'js/scoring.js', 'js/ui.js', 'js/firebase-config.js', 'js/vendor/qrcode.js',
+const V = 'vla-v2';
+const SHELL = ['./', 'index.html', 'css/app.css', 'js/main.js', 'js/backend.js', 'js/idb.js', 'js/candidate.js', 'js/staff.js', 'js/correct.js', 'js/scoring.js', 'js/ui.js', 'js/identity.js', 'js/vendor/jspdf.umd.min.js', 'js/vendor/html2canvas.min.js', 'assets/swoosh.svg', 'assets/seal.png', 'js/firebase-config.js', 'js/vendor/qrcode.js',
   'assets/logo_vla.png', 'data/public_ADU.json', 'data/public_ENF.json', 'data/public_IEL.json', 'manifest.webmanifest',
   ...['formatrice', 'candidat1', 'candidat4', 'enfant1', 'enfant2', 'valerie'].map((n) => `assets/people/${n}.jpg`)];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(V).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting())); });

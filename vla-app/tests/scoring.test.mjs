@@ -115,3 +115,21 @@ test('IEL : admission et estimation', () => {
   const r2 = computeResult(IEL.key, {}, {}, { writing: '< B1', oral: '< B1' });
   assert.equal(r2.admission.admitted, false);
 });
+
+import { validateIdentity, cleanPhone237, cleanPrenom, ageFrom } from '../public/js/identity.js';
+test('identité : champs obligatoires et normalisation', () => {
+  const now = new Date('2026-11-11');
+  const bad = validateIdentity({}, false, now);
+  for (const k of ['civilite', 'nom', 'prenom', 'naissance', 'ville', 'tel', 'photo']) assert.ok(bad.errors[k], k);
+  const ok = validateIdentity({ civilite: 'M', nom: ' essama  ', prenom: 'jean-paul marie', naissance: '2000-11-12', ville: 'Garoua', tel: '677123456', photo: 'data:x' }, false, now);
+  assert.equal(ok.ok, true);
+  assert.equal(ok.clean.nom, 'ESSAMA');
+  assert.equal(ok.clean.prenom, 'Jean-Paul Marie');
+  assert.equal(ok.clean.tel, '+237 6 77 12 34 56');
+  assert.equal(ok.clean.age, 25);
+  assert.equal(cleanPrenom("n'dongo"), "N'Dongo");
+  assert.equal(ageFrom('2026-02-30', now), null);
+  assert.ok(validateIdentity({ civilite: 'M', nom: 'A1', prenom: 'Bo', naissance: '2000-01-01', ville: 'x', tel: '12', photo: 'x', email: 'zz' }, false, now).errors.email);
+  const kid = validateIdentity({ civilite: 'F', nom: 'Dupont', prenom: 'Lea', naissance: '2016-05-05', parent: 'Mme Dupont', tel: '699000111', photo: 'x' }, true, now);
+  assert.equal(kid.ok, true);
+});

@@ -46,3 +46,16 @@ Dans les deux cas le résultat oral est enregistré dans la même fiche, et entr
 * Non testé sur de vrais appareils ni contre un vrai projet Firebase (adaptateur écrit mais non exécuté ici).
 * Une écoute interrompue (page fermée pendant l'audio) est comptée comme faite : l'audio n'est jamais rejoué.
 * PDF de l'attestation : impression navigateur → « Enregistrer au format PDF » (A5 paysage), sans service payant.
+
+## Fidélité aux maquettes et corrections apportées
+Le design reprend les maquettes (en-têtes marine, bandeaux de partie, cartes bleu/crème, QCM en 2 colonnes, vague or/turquoise en pied de page, barre latérale de Valérie, fiches et statistiques). Défauts des images corrigés :
+* **Attestation** : faute « LALÉRIE » sur le cachet (refait : « VALÉRIE LANGUAGE ACADEMY »), « Poucentage », ville « Yaoundé » alors que le centre est à **Garoua** (ville configurable), nom de la directrice supposé (à saisir dans Paramètres, avec la signature numérique), A5 paysage réel.
+* **Notes** : les maquettes additionnaient les points de tout le test (« 67/90, 74 % »). Le guide du correcteur l'interdit : le niveau se calcule **par paliers**. L'attestation affiche donc le niveau et le résultat du palier décisif ; les critères /5 de l'écriture et de l'oral servent d'aide à la notation.
+* **Contenu réel** : nombre de questions lu dans les JSON (pas « 20 questions » partout), exercice enfant en **anglais** (la maquette montrait du français), message de fin d'écrit adapté à l'oral **en salle** ou **à distance**, plus de « REC » fictif (aucun enregistrement n'est réalisé), statistiques calculées sur les données réelles.
+* **QR code** en correction d'erreur élevée (logo retiré de la zone de lecture), accessibilité au clavier et aux A−/A+.
+
+## Informations obligatoires du candidat (imprimées sur l'attestation)
+Civilité, nom, prénom(s), date de naissance, ville, téléphone WhatsApp et **photo** (adulte) ; pour l'enfant : nom du parent à la place de la ville. Validation à la saisie (`public/js/identity.js`, testée) : nom en MAJUSCULES, prénoms normalisés, téléphone mis au format +237, date plausible. Le candidat relit et confirme avant de commencer ; Valérie peut corriger l'orthographe dans l'onglet Récapitulatif, et la validation du résultat est **bloquée** tant qu'une information obligatoire manque.
+
+## PDF
+« Télécharger le PDF » génère un vrai fichier A5 paysage dans le navigateur (html2canvas + jsPDF, embarqués dans `public/js/vendor`, aucun service payant). « Envoyer par WhatsApp » partage le PDF directement sur mobile (Web Share) ; sur ordinateur il est téléchargé puis le lien WhatsApp s'ouvre.
