@@ -283,7 +283,7 @@ async function settingsPage(view, ctx) {
   view.innerHTML = `<div class="pagehead"><h2><span class="pic">⚙️</span>Paramètres</h2></div><div class="panel"><h2>Centre et attestation</h2><div class="grid2">
     <label class="f">Nom affiché<input class="txt" id="nm" value="${esc(s.name || 'Valérie')}"></label>
     <label class="f">Ville (« Fait à … »)<input class="txt" id="ci" value="${esc(s.city || 'Garoua')}"></label>
-    <label class="f">Nom de la directrice (signature)<input class="txt" id="dn" value="${esc(s.director || '')}" placeholder="Mme … (apparaît sur l’attestation)"></label>
+    <label class="f">Nom de la directrice (signature)<input class="txt" id="dn" value="${esc(s.director ?? 'Mme FOTSA NOUMESSING Valérie épouse TEKEUTSA')}" placeholder="Mme … (apparaît sur l’attestation)"></label>
     <label class="f">Fonction<input class="txt" id="dt" value="${esc(s.directorTitle || 'La Directrice')}"></label>
     <label class="f">Téléphones<input class="txt" id="tl" value="${esc(s.phones || '')}" placeholder="+237 6 xx xx xx xx"></label>
     <label class="f">Adresse<input class="txt" id="ad" value="${esc(s.address || '')}" placeholder="Quartier, Garoua"></label></div>

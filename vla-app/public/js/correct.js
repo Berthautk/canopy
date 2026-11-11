@@ -262,12 +262,12 @@ export async function renderAttestation(view, ctx, id) {
     <div class="prio">${R.priorities?.length ? '<b>À travailler en priorité :</b> ' + esc(R.priorities.join(' · ')) : ''}</div>
     <div class="fait">Fait à ${esc(set.city || 'Garoua')}, le ${esc(longDate(R.validatedAt))}.</div></div>
     <img class="seal" src="assets/seal.png" alt="">
-    <div class="sign">${esc(set.directorTitle || 'La Directrice')},<div class="box">${set.signature ? `<img src="${esc(set.signature)}" style="mix-blend-mode:multiply" alt="">` : ''}</div><b>${esc(set.director || '')}</b></div></div></div>
+    <div class="sign">${esc(set.directorTitle || 'La Directrice')},<div class="box">${set.signature ? `<img src="${esc(set.signature)}" style="mix-blend-mode:multiply" alt="">` : ''}</div><b>${esc(set.director ?? 'Mme FOTSA NOUMESSING Valérie épouse TEKEUTSA')}</b></div></div></div>
     <div class="valid l2"><span>Test de placement : il oriente vers le bon cours et ne remplace pas un examen officiel.</span><span>Résultat valable 6 mois, jusqu’au ${esc(longDate(until))}.</span></div>
     <div class="valid"><span>${esc(set.address || 'Valérie Language Academy · Garoua')}</span><span>${esc(set.phones || '')}</span></div></div>`;
   view.innerHTML = `<div class="pagehead"><h2><span class="pic">🎖️</span>Attestation ${esc(R.attestationNo)} <small>${esc(name)}</small></h2><a class="btn sm" href="#/staff/correct/${id}">← Retour</a></div>
     <div class="panel row"><button class="btn primary" id="pdf">⬇ Télécharger le PDF</button><button class="btn" id="pr">🖨 Imprimer</button><button class="btn wa" id="wa">💬 Envoyer par WhatsApp</button><button class="btn gold" id="dl">✔ Marquer « Attestation remise »</button></div>
-    <div class="info mb"><span class="i">i</span><div>Le PDF est au format <b>A5 paysage</b>. Imprimez-le, signez et tamponnez-le, ou envoyez-le directement. ${set.director ? '' : '<b>Astuce :</b> renseignez le nom de la directrice et la signature dans <a href="#/staff/settings">Paramètres</a>.'}</div></div>
+    <div class="info mb"><span class="i">i</span><div>Le PDF est au format <b>A5 paysage</b>. Imprimez-le, signez et tamponnez-le, ou envoyez-le directement. ${set.signature ? '' : '<b>Astuce :</b> ajoutez la signature numérique de la directrice dans <a href="#/staff/settings">Paramètres</a>.'}</div></div>
     <div style="overflow-x:auto;padding-bottom:10px">${att}</div>`;
   const el = $('#att', view);
   const fit = () => { const w = view.clientWidth - 8; if (w < 794) { el.style.transformOrigin = 'top left'; el.style.zoom = String(w / 794); } };
