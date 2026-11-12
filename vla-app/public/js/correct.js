@@ -3,6 +3,7 @@ import { esc, $, $$, fmtTime, fmtDate, toast, waLink, loadScript, IMG, TEST_NAME
 import { computeResult, countWords, iterQuestions } from './scoring.js';
 import { validateIdentity, fullName, civ, cleanPhone237 } from './identity.js';
 import { resizePhoto } from './ui.js';
+import { CECR, CECR_LONG, SKILLS, DEFAULT_DIRECTOR, buildAttData, attestationHtml, attFileName, buildPdf, fitAtt } from './attestation.js';
 
 const cache = {};
 export const KEYS = {
@@ -22,8 +23,6 @@ const FORM_DEFAULT = {
 const PRIORITIES = ['Compréhension orale', 'Prononciation', 'Grammaire', 'Vocabulaire', 'Écriture', 'Aisance à l’oral'];
 const WCRIT = ['Respect de la consigne', 'Organisation du texte', 'Vocabulaire', 'Grammaire', 'Orthographe / ponctuation'];
 const OCRIT = ['Fluidité', 'Vocabulaire', 'Grammaire', 'Prononciation', 'Interaction'];
-const CECR = { 'Pré-A1': 'Découverte', A1: 'Utilisateur élémentaire (débutant)', A2: 'Utilisateur élémentaire', B1: 'Utilisateur indépendant', B2: 'Utilisateur indépendant avancé', C1: 'Utilisateur expérimenté', Débutant: 'Découverte', Starter: 'Utilisateur élémentaire (débutant)', '< B1': 'Niveau inférieur à B1' };
-const CECR_LONG = { 'Pré-A1': 'Peut reconnaître quelques mots et expressions très courants.', A1: 'Peut comprendre et utiliser des expressions familières et très simples.', A2: 'Peut communiquer lors de tâches simples et habituelles sur des sujets familiers.', B1: 'Peut comprendre les points essentiels, s’exprimer clairement sur des sujets familiers et gérer la plupart des situations de la vie quotidienne.', B2: 'Peut comprendre des textes complexes, communiquer avec spontanéité et argumenter son point de vue.', C1: 'Peut s’exprimer avec aisance et de façon structurée sur des sujets variés, y compris abstraits.', Débutant: 'Découvre l’anglais.', Starter: 'Comprend et utilise des mots et phrases très simples.', '< B1': 'Doit consolider les bases avant de viser un examen.' };
 // Appréciation automatique (modifiable) par compétence et par tranche de niveau.
 const TIER = (sc, lv) => { const i = sc.indexOf(lv); const r = sc.length > 1 ? i / (sc.length - 1) : 0; return r < .2 ? 0 : r < .4 ? 1 : r < .6 ? 2 : r < .8 ? 3 : 4; };
 const APPR = {
@@ -32,7 +31,6 @@ const APPR = {
   writing: ['Écrit des mots isolés ou des phrases très courtes.', 'Écrit des phrases simples sur lui/elle-même.', 'S’exprime par des phrases reliées, avec des erreurs.', 'S’exprime de façon claire et structurée.', 'Rédige des textes détaillés, nuancés et variés.'],
   oral: ['Répond par des mots isolés.', 'Communique avec des phrases très simples.', 'Communique sur des sujets familiers avec hésitations.', 'Communique avec aisance sur des sujets familiers.', 'S’exprime avec spontanéité et nuance.'],
 };
-const SKILLS = [['listening', 'Compréhension orale', 'Listening', '🎧'], ['language', 'Langue & lecture', 'Language & Reading', '📖'], ['writing', 'Expression écrite', 'Writing', '✍️'], ['oral', 'Expression orale', 'Speaking', '🎤']];
 
 const persist = (ctx, id, R) => { clearTimeout(persist.t); persist.t = setTimeout(() => ctx.backend.putResult(id, R).catch(() => toast('Enregistrement impossible')), 400); };
 const sum = (o, n) => Array.from({ length: n }, (_, i) => Number(o?.[i] || 0)).reduce((a, b) => a + b, 0);
@@ -213,6 +211,7 @@ export async function renderCorrection(view, ctx, id) {
       const I = S.identity || {};
       await ctx.backend.putPerson({ ...(old || {}), id: old?.id || 'p' + id, sessionId: id, nom: I.nom || '', prenom: I.prenom || '', tel: I.tel || '', email: I.email || '', ville: I.ville || '', photo: I.photo || '', profession: I.profession || '', testCode: S.testCode, level: now.global, formation: (R.formations || []).join(' · ') || now.placement, testDate: R.validatedAt, attestationNo: R.attestationNo, decision: R.decision || old?.decision || '', status: old?.status === 'Inscrit' ? 'Inscrit' : 'Testé · prospect' });
       if (S.status !== 'delivered') await ctx.backend.patchSession(id, { status: 'corrected' });
+      if (ctx.settings.autoPublish !== false) await ctx.backend.patchSession(id, { result: buildAttData(S, R, ctx.settings, key.scale) });
       toast('Résultat validé ✔'); header(); tabResult();
     });
   }
@@ -242,54 +241,23 @@ export async function renderAttestation(view, ctx, id) {
   const R = await ctx.backend.getResult(id);
   const key = S && (await KEYS.get(ctx.backend, S.testCode));
   if (!S || !R?.validatedAt || !key) return (view.innerHTML = '<div class="panel">Validez d\'abord le résultat. <a href="#/staff/correct/' + id + '">Retour à la correction</a></div>');
-  const set = ctx.settings, sc = key.scale, lv = R.levels || {}, I = S.identity || {};
+  const set = ctx.settings, I = S.identity || {};
+  const d = buildAttData(S, R, set, key.scale);
   const name = `${I.prenom || ''} ${I.nom || ''}`.trim();
-  const longDate = (t) => new Date(t).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
-  const until = new Date(R.validatedAt); until.setMonth(until.getMonth() + 6);
-  const duration = S.startedAt && S.finishedAt ? dur(S.finishedAt - S.startedAt) : '';
-  const formation = (R.formations && R.formations.length ? R.formations.join(' · ') : R.placement) || '';
-  const att = `<div class="att" id="att"><img class="wm" src="${IMG.logo}" alt=""><div class="topband"></div><div class="gline"></div><div class="frame"></div>
-    <img class="logo" src="${IMG.logo}" alt=""><div class="org">Valérie<br>Language Academy<small>English Opens Doors, We Give You The Keys</small></div>
-    <div class="refno">Réf. VLA-PT-${S.testCode}<br><b>N° ${esc(R.attestationNo)}</b></div>
-    <h1>Attestation de Résultat</h1><div class="ribbon">Test de placement en anglais</div>
-    <div class="certify">La Valérie Language Academy (VLA) atteste que :</div>
-    ${I.photo ? `<img class="photo" src="${esc(I.photo)}" alt="">` : ''}
-    <div class="idl"><div><span>Nom et prénoms</span><b>: ${esc(civ(I))} ${esc(name)}</b></div><div><span>Né(e) le</span>: ${I.naissance ? esc(longDate(I.naissance)) : '—'}</div><div><span>Code candidat</span>: ${esc(S.id)}</div><div><span>Date du test</span>: ${esc(longDate(S.finishedAt || R.validatedAt))}</div>${duration && S.finishedAt - S.startedAt >= 60000 ? `<div><span>Durée de l’écrit</span>: ${esc(duration)}</div>` : ''}</div>
-    <div class="glbox"><div class="h">Niveau global (CECR)</div><div class="v">${esc(R.global)}</div><div class="d">${esc(CECR[R.global] || '')}${R.estimate ? `<br><b>${esc(R.estimate)}</b>` : ''}</div></div>
-    <div class="lower"><table><tr><th style="text-align:left;width:31%">Compétence</th><th style="width:11%">Niveau</th><th style="width:19%">Résultat</th><th>Appréciation</th></tr>
-    ${SKILLS.map(([k, lab, en, ic]) => `<tr><td class="l">${ic} ${lab} <span style="font-weight:400;color:#6b7280">(${en})</span></td><td class="lv"><b>${esc(lv[k] || '—')}</b></td><td>${esc((R.details && R.details[k]) || '')}</td><td class="ap">${esc((R.appr && R.appr[k]) || '')}</td></tr>`).join('')}</table>
-    <div class="bottom"><div><div class="formation"><span style="font-size:22px">🎓</span><div><b>Formation conseillée :</b>${esc(formation)}</div></div>
-    <div class="prio">${R.priorities?.length ? '<b>À travailler en priorité :</b> ' + esc(R.priorities.join(' · ')) : ''}</div>
-    <div class="fait">Fait à ${esc(set.city || 'Garoua')}, le ${esc(longDate(R.validatedAt))}.</div></div>
-    <img class="seal" src="assets/seal.png" alt="">
-    <div class="sign">${esc(set.directorTitle || 'La Directrice')},<div class="box">${set.signature ? `<img src="${esc(set.signature)}" style="mix-blend-mode:multiply" alt="">` : ''}</div><b>${esc(set.director ?? 'Mme FOTSA NOUMESSING Valérie épouse TEKEUTSA')}</b></div></div></div>
-    <div class="valid l2"><span>Test de placement : il oriente vers le bon cours et ne remplace pas un examen officiel.</span><span>Résultat valable 6 mois, jusqu’au ${esc(longDate(until))}.</span></div>
-    <div class="valid"><span>${esc(set.address || 'Valérie Language Academy · Garoua')}</span><span>${esc(set.phones || '')}</span></div></div>`;
   view.innerHTML = `<div class="pagehead"><h2><span class="pic">🎖️</span>Attestation ${esc(R.attestationNo)} <small>${esc(name)}</small></h2><a class="btn sm" href="#/staff/correct/${id}">← Retour</a></div>
-    <div class="panel row"><button class="btn primary" id="pdf">⬇ Télécharger le PDF</button><button class="btn" id="pr">🖨 Imprimer</button><button class="btn wa" id="wa">💬 Envoyer par WhatsApp</button><button class="btn gold" id="dl">✔ Marquer « Attestation remise »</button></div>
-    <div class="info mb"><span class="i">i</span><div>Le PDF est au format <b>A5 paysage</b>. Imprimez-le, signez et tamponnez-le, ou envoyez-le directement. ${set.signature ? '' : '<b>Astuce :</b> ajoutez la signature numérique de la directrice dans <a href="#/staff/settings">Paramètres</a>.'}</div></div>
-    <div style="overflow-x:auto;padding-bottom:10px">${att}</div>`;
+    <div class="panel row"><button class="btn primary" id="pdf">⬇ Télécharger le PDF</button><button class="btn" id="pr">🖨 Imprimer</button><button class="btn wa" id="wa">💬 Envoyer par WhatsApp</button><button class="btn teal" id="pub">📲 ${S.result ? 'Republier au candidat' : 'Publier au candidat'}</button><button class="btn gold" id="dl">✔ Marquer « Attestation remise »</button></div>
+    <div class="info mb"><span class="i">i</span><div>Le PDF est au <b>A5 paysage</b>. « Publier au candidat » affiche son résultat et son attestation directement sur son écran (sans aucun corrigé). ${set.signature ? '' : '<b>Astuce :</b> ajoutez la signature numérique de la directrice dans <a href="#/staff/settings">Paramètres</a>.'}</div></div>
+    <div style="overflow-x:auto;padding-bottom:10px">${attestationHtml(d)}</div>`;
   const el = $('#att', view);
-  const fit = () => { const w = view.clientWidth - 8; if (w < 794) { el.style.transformOrigin = 'top left'; el.style.zoom = String(w / 794); } };
-  fit();
-  const makePdf = async () => {
-    await loadScript('js/vendor/html2canvas.min.js'); await loadScript('js/vendor/jspdf.umd.min.js');
-    const z = el.style.zoom; el.style.zoom = '1';
-    if (document.fonts?.ready) await document.fonts.ready;
-    const canvas = await html2canvas(el, { scale: 3, backgroundColor: '#fffdf8', useCORS: true, logging: false });
-    el.style.zoom = z;
-    const pdf = new window.jspdf.jsPDF({ orientation: 'landscape', unit: 'mm', format: 'a5' });
-    pdf.addImage(canvas.toDataURL('image/jpeg', 0.96), 'JPEG', 0, 0, 210, 148);
-    pdf.setProperties({ title: `Attestation ${R.attestationNo}`, author: 'Valérie Language Academy', subject: 'Attestation de résultat — test de placement' });
-    return pdf;
-  };
-  const fname = `Attestation_${R.attestationNo}_${(I.nom || 'candidat').replace(/[^\w-]+/g, '_')}.pdf`;
-  $('#pdf', view).onclick = async (e) => { e.target.disabled = true; try { (await makePdf()).save(fname); } catch (err) { toast('Génération du PDF impossible : ' + err.message); } e.target.disabled = false; };
+  fitAtt(el, view.clientWidth - 8);
+  const fname = attFileName(d);
+  $('#pdf', view).onclick = async (e) => { e.target.disabled = true; try { (await buildPdf(el, d)).save(fname); } catch (err) { toast('Génération du PDF impossible : ' + err.message); } e.target.disabled = false; };
   $('#pr', view).onclick = () => window.print();
+  $('#pub', view).onclick = async () => { await ctx.backend.patchSession(id, { result: d }); toast('Résultat publié sur l’écran du candidat'); };
   $('#wa', view).onclick = async () => {
     const text = `Bonjour ${I.prenom || ''}, voici votre attestation de résultat VLA n° ${R.attestationNo} : niveau ${R.global}. Merci d'avoir passé votre test de placement chez Valérie Language Academy !`;
     try {
-      const pdf = await makePdf(); const file = new File([pdf.output('blob')], fname, { type: 'application/pdf' });
+      const pdf = await buildPdf(el, d); const file = new File([pdf.output('blob')], fname, { type: 'application/pdf' });
       if (navigator.canShare?.({ files: [file] })) { await navigator.share({ files: [file], text }); return; }
       pdf.save(fname); toast('PDF téléchargé : joignez-le dans la conversation WhatsApp');
     } catch (err) { if (err.name === 'AbortError') return; }

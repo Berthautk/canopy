@@ -144,6 +144,9 @@ label.f{display:block;font-weight:600;font-size:.92rem;color:var(--navy)}label.f
 .top h1{color:#fff;margin:0;font-size:1.9rem;font-weight:700}.top .sub{font-size:1.05rem;color:#dfe7f6}
 .top .me{display:flex;gap:14px;align-items:center;font-weight:700}
 .bell{position:relative;font-size:1.7rem}.bell:after{content:"";position:absolute;right:-2px;top:0;width:12px;height:12px;border-radius:50%;background:var(--gold-l)}
+.sections{display:flex;gap:10px;padding:0 26px 14px;background:linear-gradient(90deg,#0F1F44,#1B2A4A 60%,#223a73);flex-wrap:wrap}
+.sections a{padding:10px 22px;border-radius:99px;color:#e8edf7;text-decoration:none;font-weight:700;border:2px solid rgba(255,255,255,.25)}
+.sections a.on{background:linear-gradient(#F7D769,#E2B230);color:var(--navy);border-color:#C9A02A}
 .content{padding:22px 26px 60px;background:linear-gradient(180deg,#F1F6FD,#F8FAFD);flex:1;border-top-left-radius:34px;box-shadow:inset 0 6px 16px rgba(15,31,68,.1)}
 .pagehead{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px;flex-wrap:wrap}
 .pagehead h2{display:flex;align-items:center;gap:14px;font-size:1.9rem;margin:0}.pagehead h2 .pic{width:54px;height:54px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center;font-size:1.5rem}

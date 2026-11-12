@@ -78,6 +78,12 @@ function localAdapter() {
       await put('counters', 'attestation', { year, n });
       return `VLA-${year}-${String(n).padStart(4, '0')}`;
     },
+    // Accès générique aux collections (Centre, Entraînement…)
+    listCol: (c) => all(c),
+    getDoc: (c, id) => get(c, id),
+    putDoc: (c, id, v) => put(c, id, v),
+    delDoc: async (c, id) => { await idb.del(`${c}/${id}`); notify(c); },
+    onCol: (c, cb) => watch(c, () => all(c), cb),
     listPeople: () => all('people'),
     putPerson: (p) => put('people', p.id, p),
     onPeople: (cb) => watch('people', () => all('people'), cb),
@@ -138,6 +144,11 @@ async function firebaseAdapter(cfg) {
       t.set(ref, { year, n });
       return `VLA-${year}-${String(n).padStart(4, '0')}`;
     }),
+    listCol: async (c) => (await F.getDocs(C(c))).docs.map((d) => d.data()),
+    getDoc: (c, id) => snapDoc(D(c, id)),
+    putDoc: (c, id, v) => F.setDoc(D(c, id), JSON.parse(JSON.stringify(v))),
+    delDoc: (c, id) => F.deleteDoc(D(c, id)),
+    onCol: (c, cb) => F.onSnapshot(C(c), (s) => cb(s.docs.map((d) => d.data()))),
     listPeople: async () => (await F.getDocs(C('people'))).docs.map((d) => d.data()),
     putPerson: (p) => F.setDoc(D('people', p.id), JSON.parse(JSON.stringify(p))),
     onPeople: (cb) => F.onSnapshot(C('people'), (s) => cb(s.docs.map((d) => d.data()))),

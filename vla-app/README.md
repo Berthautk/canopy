@@ -59,3 +59,9 @@ Civilité, nom, prénom(s), date de naissance, ville, téléphone WhatsApp et **
 
 ## PDF
 « Télécharger le PDF » génère un vrai fichier A5 paysage dans le navigateur (html2canvas + jsPDF, embarqués dans `public/js/vendor`, aucun service payant). « Envoyer par WhatsApp » partage le PDF directement sur mobile (Web Share) ; sur ordinateur il est téléchargé puis le lien WhatsApp s'ouvre.
+
+## Trois sections
+Barre de sections en haut de l'espace de Valérie : **🎯 Test de placement** · **🏫 Centre** · **📚 Entraînement**.
+* **Centre** (`#/centre`) : vue d'ensemble, élèves (téléphone et frais visibles du personnel seulement), classes & leçons (présence), activités, import des prospects testés. « Publier le tableau de bord » écrit un résumé général (compteurs, classes, activités, prénom + initiale) visible des apprenants connectés ; aucun téléphone, frais ou note n'y figure.
+* **Entraînement** (`#/train` côté Valérie, `#/learn` côté apprenant) : l'apprenant entre son code personnel, reçoit chaque jour 10 questions de son niveau (répétition espacée : les erreurs reviennent), voit la correction expliquée en français, sa série de jours, sa maîtrise du niveau ; Valérie voit le suivi et fait passer au niveau suivant. Banque de 40 questions A1–B2 fournie, enrichissable (ajout ou import JSON).
+* **Résultat du test envoyé au candidat** : à la validation, le niveau et l'attestation (sans aucun corrigé) apparaissent sur l'écran du candidat avec un bouton de téléchargement PDF (option désactivable dans Paramètres).

@@ -4,6 +4,7 @@ import { idb } from './idb.js';
 import { esc, $, $$, fmtTime, uid, toast, resizePhoto, IMG, TEST_NAMES } from './ui.js';
 import { countWords } from './scoring.js';
 import { validateIdentity, fullName, civ } from './identity.js';
+import { attestationHtml, buildPdf, attFileName } from './attestation.js';
 
 const PART_NAMES = { A: 'Écoute', B: 'Langue & lecture', C: 'Écriture' };
 const PART_ICON = { A: '🎧', B: '📘', C: '✍️' };
@@ -528,6 +529,26 @@ function screenDone(C) {
     if (o.mode === 'distance' && o.live && o.link) parts.push(`<a class="btn teal big" href="${esc(o.link)}" target="_blank" rel="noopener">🎥 Rejoindre l’entretien (visio)</a>`);
     else if (o.live) parts.push('<div class="info" style="background:var(--ok-soft)">🗣️ Entretien en cours avec votre formateur.</div>');
     else parts.push('<div class="btn primary big" style="pointer-events:none">🎧 En attente de l’examinateur…</div>');
+    if (sess?.result) {
+      // Résultat publié par Valérie : le candidat reçoit son niveau et son attestation (aucun corrigé).
+      const r = sess.result;
+      if (C.shownResult !== r.attestationNo + r.validatedAt) {
+        C.shownResult = r.attestationNo + r.validatedAt;
+        box.innerHTML = `<div class="panel" style="background:linear-gradient(135deg,#FFF3D6,#fff);border:2px solid var(--gold)"><h2 style="font-size:1.5rem">🎉 Votre résultat est prêt !</h2>
+          <div class="glob">Votre niveau :<b>${esc(r.global)}</b></div><p class="qbig mt" style="font-weight:500">${esc(r.formation || '')}</p>
+          <button class="btn primary big" id="myatt">⬇ Télécharger mon attestation (PDF)</button><div id="attwrap" style="position:absolute;left:-9999px;top:0"></div></div>`;
+        $('#myatt', C.root).onclick = async (e) => {
+          e.target.disabled = true;
+          try {
+            const wrap = $('#attwrap', C.root); wrap.innerHTML = attestationHtml(r);
+            const pdf = await buildPdf($('#att', wrap), r); pdf.save(attFileName(r));
+          } catch (err) { toast('Téléchargement impossible : ' + err.message); }
+          e.target.disabled = false;
+        };
+      }
+      return;
+    }
+    C.shownResult = null;
     box.innerHTML = parts.join('');
   });
 }

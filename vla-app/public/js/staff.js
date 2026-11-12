@@ -4,42 +4,56 @@ import { esc, $, $$, fmtTime, fmtDate, fmtDateTime, toast, qrSvg, waLink, resize
 import { splitTest } from './scoring.js';
 import { fullName } from './identity.js';
 import { renderCorrection, renderAttestation, KEYS } from './correct.js';
+import { overview, students, classes, events } from './centre.js';
+import { bank, followup } from './train.js';
 
 export const STATUS = {
   created: ['En attente', 'grey'], waiting: ['Connecté', 'wait'], running: ['En cours', 'run'], finished: ['Écrit terminé', 'done'],
   corrected: ['Corrigé', 'ok'], delivered: ['Attestation remise', 'ok'],
 };
-const NAV = [
-  ['', '🏠', 'Tableau de bord'], ['new', '➕', 'Créer un test'], ['live', '☰', 'Mes sessions'], ['people', '👥', 'Candidats'],
-  ['results', '📊', 'Résultats & notes'], ['attest', '🎖️', 'Attestations'], ['stats', '📈', 'Statistiques'], ['settings', '⚙️', 'Paramètres'],
-];
+const SECTIONS = [['placement', '🎯', 'Test de placement', '#/staff'], ['centre', '🏫', 'Centre', '#/centre'], ['train', '📚', 'Entraînement', '#/train']];
+const NAVS = {
+  placement: [['', '🏠', 'Tableau de bord'], ['new', '➕', 'Créer un test'], ['live', '☰', 'Mes sessions'], ['people', '👥', 'Candidats'], ['results', '📊', 'Résultats & notes'], ['attest', '🎖️', 'Attestations'], ['stats', '📈', 'Statistiques'], ['settings', '⚙️', 'Paramètres']],
+  centre: [['', '🏫', 'Vue d’ensemble'], ['students', '🎓', 'Élèves'], ['classes', '📖', 'Classes & leçons'], ['events', '📅', 'Activités'], ['people', '🧑‍🤝‍🧑', 'Prospects (tests)'], ['settings', '⚙️', 'Paramètres']],
+  train: [['', '📈', 'Suivi des apprenants'], ['bank', '📚', 'Banque d’exercices'], ['settings', '⚙️', 'Paramètres']],
+};
 const TITLES = {
-  '': ['🏠', 'Tableau de bord des tests de placement'], new: ['＋', 'Gestion des tests et des candidats'], live: ['🖥️', 'Suivi en temps réel des tests de placement'], people: ['👥', 'Gestion des prospects'],
-  person: ['👥', 'Gestion des prospects'], results: ['📊', 'Correction et notation des tests de placement'], correct: ['✏️', 'Correction et notation des tests de placement'], attest: ['🎖️', 'Attestations de résultat'],
-  attestation: ['🎖️', 'Attestation de résultat'], stats: ['📊', 'Statistiques et performance'], settings: ['⚙️', 'Paramètres du centre'], session: ['🖥️', 'Suivi du candidat'],
+  placement: {
+    '': ['🏠', 'Tableau de bord des tests de placement'], new: ['＋', 'Gestion des tests et des candidats'], live: ['🖥️', 'Suivi en temps réel des tests de placement'], people: ['👥', 'Gestion des prospects'],
+    person: ['👥', 'Gestion des prospects'], results: ['📊', 'Correction et notation des tests de placement'], correct: ['✏️', 'Correction et notation des tests de placement'], attest: ['🎖️', 'Attestations de résultat'],
+    attestation: ['🎖️', 'Attestation de résultat'], stats: ['📊', 'Statistiques et performance'], settings: ['⚙️', 'Paramètres du centre'], session: ['🖥️', 'Suivi du candidat'],
+  },
+  centre: { '': ['🏫', 'Pilotage du centre'], students: ['🎓', 'Élèves et inscriptions'], classes: ['📖', 'Classes et leçons'], events: ['📅', 'Activités du centre'], people: ['🧑‍🤝‍🧑', 'Prospects issus des tests'], person: ['🧑‍🤝‍🧑', 'Fiche prospect'], settings: ['⚙️', 'Paramètres du centre'] },
+  train: { '': ['📈', 'Suivi des apprenants'], bank: ['📚', 'Banque d’exercices'], settings: ['⚙️', 'Paramètres du centre'] },
 };
 
-export async function runStaff(root, backend, path) {
+export async function runStaff(root, backend, path, section = 'placement') {
   const st = await backend.staffState();
   if (!st.user) return login(root, backend, st);
   const settings = await backend.getSettings();
   const ctx = { root, backend, settings, user: st.user, cleanup: [] };
   window.__vlaCleanup?.forEach((f) => f()); window.__vlaCleanup = ctx.cleanup;
   const [page, a] = path;
-  const on = { person: 'people', correct: 'results', session: 'live', attestation: 'attest' }[page] ?? (page || '');
-  const [ic, sub] = TITLES[page || ''] || TITLES[''];
+  const base = SECTIONS.find((x) => x[0] === section)[3];
+  const on = section === 'placement' ? ({ person: 'people', correct: 'results', session: 'live', attestation: 'attest' }[page] ?? (page || '')) : (({ person: 'people' })[page] ?? (page || ''));
+  const [ic, sub] = TITLES[section][page || ''] || TITLES[section][''];
   root.innerHTML = `<div class="app">
     <aside class="side"><div class="brand"><img src="${IMG.logo}" alt=""><div>Valérie<br>Language<br>Academy</div></div>
-      <nav class="nav">${NAV.map(([p, i, l]) => `<a href="#/staff${p ? '/' + p : ''}" class="${on === p ? 'on' : ''}"><span style="width:26px;text-align:center">${i}</span>${l}</a>`).join('')}
-      <div class="sp"></div><hr><a href="#/c" target="_blank"><span style="width:26px;text-align:center">🧑‍🎓</span>Écran candidat</a><a href="#" id="out"><span style="width:26px;text-align:center">⏻</span>Déconnexion</a></nav></aside>
+      <nav class="nav">${NAVS[section].map(([p, i, l]) => `<a href="${base}${p ? '/' + p : ''}" class="${on === p ? 'on' : ''}"><span style="width:26px;text-align:center">${i}</span>${l}</a>`).join('')}
+      <div class="sp"></div><hr><a href="#/c" target="_blank"><span style="width:26px;text-align:center">🧑‍🎓</span>Écran candidat</a><a href="#/learn" target="_blank"><span style="width:26px;text-align:center">📚</span>Espace apprenant</a><a href="#" id="out"><span style="width:26px;text-align:center">⏻</span>Déconnexion</a></nav></aside>
     <div class="mainwrap"><div class="top"><div class="ttl"><span class="ic">${ic}</span><div><h1>Espace de Valérie</h1><div class="sub">${sub}</div></div></div>
       <div class="me"><span class="pill ${backend.mode === 'firebase' ? 'ok' : 'done'}">${backend.mode === 'firebase' ? '● En ligne' : '● Mode local'}</span><span class="bell">🔔</span>
       <img class="avatar sm" style="width:52px;height:52px;border-color:var(--gold-l)" src="${esc(settings.avatar || IMG.valerie)}" alt=""><div>${esc(settings.name || 'Valérie')}<br><span style="font-weight:400;font-size:.85rem">Administratrice</span></div></div></div>
+      <div class="sections">${SECTIONS.map(([k, i, l, h]) => `<a href="${h}" class="${k === section ? 'on' : ''}">${i} ${l}</a>`).join('')}</div>
       <div class="content" id="view"></div></div></div>`;
   $('#out', root).onclick = async (e) => { e.preventDefault(); await backend.staffLogout(); location.hash = '#/staff'; location.reload(); };
   const view = $('#view', root);
-  const pages = { '': dashboard, new: newTest, live, people, person, results, attest, stats, settings: settingsPage, correct: renderCorrection, attestation: renderAttestation, session: sessionDetail };
-  await (pages[page || ''] || dashboard)(view, ctx, a, path);
+  const PAGES = {
+    placement: { '': dashboard, new: newTest, live, people, person, results, attest, stats, settings: settingsPage, correct: renderCorrection, attestation: renderAttestation, session: sessionDetail },
+    centre: { '': overview, students, classes, events, people, person, settings: settingsPage },
+    train: { '': followup, bank, settings: settingsPage },
+  }[section];
+  await (PAGES[page || ''] || PAGES[''])(view, ctx, a, path);
 }
 
 /* ------------------------------ Connexion ------------------------------ */
@@ -211,7 +225,7 @@ async function people(view, ctx) {
     const q = $('#q', view).value.toLowerCase(), f = $('#fl', view).value, t = $('#ft', view).value;
     const rows = list.filter((p) => (!q || (p.nom + p.prenom + p.tel).toLowerCase().includes(q)) && (!f || (f === 'inscrit' ? p.status === 'Inscrit' : p.decision === f)) && (!t || p.testCode === t)).sort((a, b) => b.testDate - a.testDate);
     $('#tb', view).innerHTML = rows.length ? `<table class="t"><tr><th></th><th>Nom</th><th>Test</th><th>Niveau</th><th>Formation</th><th>Date</th><th>Décision</th></tr>${rows.map((p) => `<tr class="click" data-id="${p.id}"><td><img class="avatar sm" src="${esc(p.photo || IMG.logo)}"></td><td><b>${esc(p.prenom)} ${esc(p.nom)}</b><br><span class="muted">${esc(p.tel || '')}</span></td><td>${p.testCode}</td><td><span class="pill done">${esc(p.level || '—')}</span></td><td>${esc(p.formation || '')}</td><td>${fmtDate(p.testDate)}</td><td>${p.status === 'Inscrit' ? '<span class="pill ok">Inscrit</span>' : `<span class="pill ${p.decision === 'souhaitée' ? 'ok' : p.decision === 'non' ? 'bad' : 'wait'}">${p.decision || 'à voir'}</span>`}</td></tr>`).join('')}</table>` : '<p class="muted">Aucun prospect. Ils apparaissent ici quand vous validez un résultat.</p>';
-    $$('tr.click', view).forEach((r) => (r.onclick = () => (location.hash = '#/staff/person/' + r.dataset.id)));
+    $$('tr.click', view).forEach((r) => (r.onclick = () => (location.hash = (location.hash.startsWith('#/centre') ? '#/centre' : '#/staff') + '/person/' + r.dataset.id)));
   };
   ['#q', '#fl', '#ft'].forEach((s) => ($(s, view).oninput = paint));
   subscribe(ctx, ctx.backend.onPeople((l) => { list = l; paint(); }));
@@ -289,6 +303,8 @@ async function settingsPage(view, ctx) {
     <label class="f">Adresse<input class="txt" id="ad" value="${esc(s.address || '')}" placeholder="Quartier, Garoua"></label></div>
     <div class="row mt"><div class="photo-pick"><img class="avatar lg" id="av" src="${esc(s.avatar || IMG.valerie)}"><div><b>Photo de profil</b><br><input type="file" id="avf" accept="image/*" class="hidden"><button class="btn sm" id="avb">📷 Choisir une photo</button></div></div>
     <div class="photo-pick"><div style="width:200px;height:90px;border:1px dashed #9aa6bd;border-radius:10px;display:grid;place-items:center;background:#fff"><img id="sg" src="${esc(s.signature || '')}" style="max-width:190px;max-height:80px;${s.signature ? '' : 'display:none'}"><span class="muted" id="sgp" style="${s.signature ? 'display:none' : ''}">Pas de signature</span></div><div><b>Signature numérique</b><br><span class="muted" style="font-size:.85rem">Photo ou scan de la signature, fond blanc.</span><br><input type="file" id="sgf" accept="image/*" class="hidden"><button class="btn sm" id="sgb">✍️ Ajouter la signature</button></div></div></div>
+    <div class="mt"><label class="checkline" style="padding:2px 0"><input type="checkbox" id="ap" ${s.autoPublish === false ? '' : 'checked'}> Publier automatiquement le résultat et l’attestation sur l’écran du candidat quand je valide</label>
+    <label class="checkline" style="padding:2px 0"><input type="checkbox" id="bn" ${s.boardNames === false ? '' : 'checked'}> Montrer les prénoms (+ initiale) des élèves dans « Vie du centre » (jamais téléphones, frais ni notes)</label></div>
     <button class="btn primary mt" id="sv">Enregistrer</button></div>
     <div class="panel"><h2>Corrigés des tests</h2><p class="muted">Les corrigés restent réservés au personnel (collection <code>tests_key</code>). Sélectionnez les 3 fichiers <code>test_ADU.json</code>, <code>test_ENF.json</code>, <code>test_IEL.json</code> complets (énoncés + corrigés).</p>
     <p>${['ADU', 'ENF', 'IEL'].map((c) => `<span class="pill ${have.includes(c) ? 'ok' : 'bad'}">${c} ${have.includes(c) ? '✔ importé' : '✖ manquant'}</span>`).join(' ')}</p>
@@ -300,7 +316,7 @@ async function settingsPage(view, ctx) {
   $('#avf', view).onchange = async (e) => { if (e.target.files[0]) { avatar = await resizePhoto(e.target.files[0]); $('#av', view).src = avatar; } };
   $('#sgb', view).onclick = () => $('#sgf', view).click();
   $('#sgf', view).onchange = async (e) => { if (e.target.files[0]) { signature = await resizeSig(e.target.files[0]); const g = $('#sg', view); g.src = signature; g.style.display = ''; $('#sgp', view).style.display = 'none'; } };
-  $('#sv', view).onclick = async () => { await ctx.backend.putSettings({ ...s, name: $('#nm', view).value, city: $('#ci', view).value, director: $('#dn', view).value, directorTitle: $('#dt', view).value, phones: $('#tl', view).value, address: $('#ad', view).value, avatar, signature }); toast('Enregistré'); setTimeout(() => location.reload(), 500); };
+  $('#sv', view).onclick = async () => { await ctx.backend.putSettings({ ...s, name: $('#nm', view).value, city: $('#ci', view).value, director: $('#dn', view).value, directorTitle: $('#dt', view).value, phones: $('#tl', view).value, address: $('#ad', view).value, avatar, signature, autoPublish: $('#ap', view).checked, boardNames: $('#bn', view).checked }); toast('Enregistré'); setTimeout(() => location.reload(), 500); };
   $('#imp', view).onchange = async (e) => {
     const out = [];
     for (const f of e.target.files) {

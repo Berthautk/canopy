@@ -1,6 +1,7 @@
 import { createBackend } from './backend.js';
 import { runCandidate } from './candidate.js';
 import { runStaff } from './staff.js';
+import { runLearner } from './learn.js';
 import { IMG } from './ui.js';
 
 const root = document.getElementById('root');
@@ -11,7 +12,7 @@ function landing() {
   <main class="cmain"><div class="ccard hero" style="background:linear-gradient(120deg,#fff 35%,#E8F1FC)"><div><div class="herotitle">Bienvenue à<b>Valérie Language Academy</b></div>
     <div class="rule2">Test de placement d’anglais</div>
     <p class="qbig" style="text-align:center;font-weight:500;line-height:1.5">Ce test sert à trouver le bon cours pour vous.<br>Il est normal de ne pas tout réussir.<br><i style="font-weight:700">Faites de votre mieux !</i></p>
-    <a class="btn primary big" href="#/c">▶ &nbsp;Accéder au test &nbsp;❯</a><a class="btn big mt" style="min-height:52px;font-size:1.05rem" href="#/staff">🔐 Espace de Valérie (formateurs)</a></div>
+    <a class="btn primary big" href="#/c">▶ &nbsp;Accéder au test &nbsp;❯</a><a class="btn big mt" style="min-height:52px;font-size:1.05rem" href="#/learn">📚 Espace apprenant — m’entraîner</a><a class="btn big mt" style="min-height:52px;font-size:1.05rem" href="#/staff">🔐 Espace de Valérie (formateurs)</a></div>
     <img class="ph" src="assets/people/formatrice.jpg" alt=""></div><p class="muted" style="text-align:center;font-style:italic">Votre avenir commence ici !</p></main></div>`;
 }
 
@@ -25,6 +26,9 @@ async function route() {
     return runCandidate(root, backend, parts[1]);
   }
   if (parts[0] === 'staff') return runStaff(root, backend, parts.slice(1));
+  if (parts[0] === 'centre') return runStaff(root, backend, parts.slice(1), 'centre');
+  if (parts[0] === 'train') return runStaff(root, backend, parts.slice(1), 'train');
+  if (parts[0] === 'learn') return runLearner(root, backend);
   landing();
 }
 
