@@ -4,8 +4,8 @@ import { esc, $, $$, fmtTime, fmtDate, fmtDateTime, toast, qrSvg, waLink, resize
 import { splitTest } from './scoring.js';
 import { fullName } from './identity.js';
 import { renderCorrection, renderAttestation, KEYS } from './correct.js';
-import { overview, students, classes, events } from './centre.js';
-import { bank, followup } from './train.js';
+import { overview, students, classes, events, reports } from './centre.js';
+import { bank, followup, trainStats } from './train.js';
 
 export const STATUS = {
   created: ['En attente', 'grey'], waiting: ['Connecté', 'wait'], running: ['En cours', 'run'], finished: ['Écrit terminé', 'done'],
@@ -14,8 +14,8 @@ export const STATUS = {
 const SECTIONS = [['placement', '🎯', 'Test de placement', '#/staff'], ['centre', '🏫', 'Centre', '#/centre'], ['train', '📚', 'Entraînement', '#/train']];
 const NAVS = {
   placement: [['', '🏠', 'Tableau de bord'], ['new', '➕', 'Créer un test'], ['live', '☰', 'Mes sessions'], ['people', '👥', 'Candidats'], ['results', '📊', 'Résultats & notes'], ['attest', '🎖️', 'Attestations'], ['stats', '📈', 'Statistiques'], ['settings', '⚙️', 'Paramètres']],
-  centre: [['', '🏫', 'Vue d’ensemble'], ['students', '🎓', 'Élèves'], ['classes', '📖', 'Classes & leçons'], ['events', '📅', 'Activités'], ['people', '🧑‍🤝‍🧑', 'Prospects (tests)'], ['settings', '⚙️', 'Paramètres']],
-  train: [['', '📈', 'Suivi des apprenants'], ['bank', '📚', 'Banque d’exercices'], ['settings', '⚙️', 'Paramètres']],
+  centre: [['', '🏠', 'Vue d’ensemble'], ['students', '🎓', 'Élèves'], ['classes', '📖', 'Classes & leçons'], ['events', '📅', 'Activités'], ['people', '🧑‍🤝‍🧑', 'Prospects (tests)'], ['reports', '📊', 'Rapports'], ['settings', '⚙️', 'Paramètres']],
+  train: [['', '📈', 'Suivi des apprenants'], ['bank', '📚', 'Banque d’exercices'], ['stats', '📊', 'Résultats & stat.'], ['settings', '⚙️', 'Paramètres']],
 };
 const TITLES = {
   placement: {
@@ -23,8 +23,8 @@ const TITLES = {
     person: ['👥', 'Gestion des prospects'], results: ['📊', 'Correction et notation des tests de placement'], correct: ['✏️', 'Correction et notation des tests de placement'], attest: ['🎖️', 'Attestations de résultat'],
     attestation: ['🎖️', 'Attestation de résultat'], stats: ['📊', 'Statistiques et performance'], settings: ['⚙️', 'Paramètres du centre'], session: ['🖥️', 'Suivi du candidat'],
   },
-  centre: { '': ['🏫', 'Pilotage du centre'], students: ['🎓', 'Élèves et inscriptions'], classes: ['📖', 'Classes et leçons'], events: ['📅', 'Activités du centre'], people: ['🧑‍🤝‍🧑', 'Prospects issus des tests'], person: ['🧑‍🤝‍🧑', 'Fiche prospect'], settings: ['⚙️', 'Paramètres du centre'] },
-  train: { '': ['📈', 'Suivi des apprenants'], bank: ['📚', 'Banque d’exercices'], settings: ['⚙️', 'Paramètres du centre'] },
+  centre: { reports: ['📊', 'Rapports'], '': ['🏫', 'Pilotage du centre'], students: ['🎓', 'Élèves et inscriptions'], classes: ['📖', 'Classes et leçons'], events: ['📅', 'Activités du centre'], people: ['🧑‍🤝‍🧑', 'Prospects issus des tests'], person: ['🧑‍🤝‍🧑', 'Fiche prospect'], settings: ['⚙️', 'Paramètres du centre'] },
+  train: { stats: ['📊', 'Résultats'], '': ['📈', 'Suivi des apprenants'], bank: ['📚', 'Banque d’exercices'], settings: ['⚙️', 'Paramètres du centre'] },
 };
 
 export async function runStaff(root, backend, path, section = 'placement') {
@@ -37,21 +37,20 @@ export async function runStaff(root, backend, path, section = 'placement') {
   const base = SECTIONS.find((x) => x[0] === section)[3];
   const on = section === 'placement' ? ({ person: 'people', correct: 'results', session: 'live', attestation: 'attest' }[page] ?? (page || '')) : (({ person: 'people' })[page] ?? (page || ''));
   const [ic, sub] = TITLES[section][page || ''] || TITLES[section][''];
-  root.innerHTML = `<div class="app">
-    <aside class="side"><div class="brand"><img src="${IMG.logo}" alt=""><div>Valérie<br>Language<br>Academy</div></div>
-      <nav class="nav">${NAVS[section].map(([p, i, l]) => `<a href="${base}${p ? '/' + p : ''}" class="${on === p ? 'on' : ''}"><span style="width:26px;text-align:center">${i}</span>${l}</a>`).join('')}
-      <div class="sp"></div><hr><a href="#/c" target="_blank"><span style="width:26px;text-align:center">🧑‍🎓</span>Écran candidat</a><a href="#/learn" target="_blank"><span style="width:26px;text-align:center">📚</span>Espace apprenant</a><a href="#" id="out"><span style="width:26px;text-align:center">⏻</span>Déconnexion</a></nav></aside>
-    <div class="mainwrap"><div class="top"><div class="ttl"><span class="ic">${ic}</span><div><h1>Espace de Valérie</h1><div class="sub">${sub}</div></div></div>
+  root.innerHTML = `<div class="shell">
+    <header class="topbrand"><img class="lg" src="${IMG.logo}" alt=""><div class="nm">Valérie Language Academy<small>English Opens Doors, We Give You The Keys</small></div>
       <div class="me"><span class="pill ${backend.mode === 'firebase' ? 'ok' : 'done'}">${backend.mode === 'firebase' ? '● En ligne' : '● Mode local'}</span><span class="bell">🔔</span>
-      <img class="avatar sm" style="width:52px;height:52px;border-color:var(--gold-l)" src="${esc(settings.avatar || IMG.valerie)}" alt=""><div>${esc(settings.name || 'Valérie')}<br><span style="font-weight:400;font-size:.85rem">Administratrice</span></div></div></div>
-      <div class="sections">${SECTIONS.map(([k, i, l, h]) => `<a href="${h}" class="${k === section ? 'on' : ''}">${i} ${l}</a>`).join('')}</div>
-      <div class="content" id="view"></div></div></div>`;
+      <img class="avatar sm" style="width:48px;height:48px;border-color:var(--gold-l)" src="${esc(settings.avatar || IMG.valerie)}" alt=""><div>${esc(settings.name || 'Valérie')}<br><span style="font-weight:400;font-size:.85rem">Administratrice</span></div></div></header>
+    <div class="secbar"><span class="lbl">🖥️ ESPACE DE VALÉRIE</span><div class="tabs3">${SECTIONS.map(([k, i, l, h]) => `<a href="${h}" class="${k === section ? 'on' : ''}">${i} ${l}</a>`).join('')}</div></div>
+    <div class="shellbody"><nav class="sidenav">${NAVS[section].map(([p, i, l]) => `<a href="${base}${p ? '/' + p : ''}" class="${on === p ? 'on' : ''}"><span class="ic">${i}</span>${l}</a>`).join('')}
+      <hr><a href="#/c" target="_blank"><span class="ic">🧑‍🎓</span>Écran candidat</a><a href="#/learn" target="_blank"><span class="ic">📚</span>Espace apprenant</a><a href="#" id="out"><span class="ic">⏻</span>Déconnexion</a></nav>
+      <div class="shellmain" id="view"></div></div></div>`;
   $('#out', root).onclick = async (e) => { e.preventDefault(); await backend.staffLogout(); location.hash = '#/staff'; location.reload(); };
   const view = $('#view', root);
   const PAGES = {
     placement: { '': dashboard, new: newTest, live, people, person, results, attest, stats, settings: settingsPage, correct: renderCorrection, attestation: renderAttestation, session: sessionDetail },
-    centre: { '': overview, students, classes, events, people, person, settings: settingsPage },
-    train: { '': followup, bank, settings: settingsPage },
+    centre: { '': overview, students, classes, events, people, person, reports, settings: settingsPage },
+    train: { '': followup, bank, stats: trainStats, settings: settingsPage },
   }[section];
   await (PAGES[page || ''] || PAGES[''])(view, ctx, a, path);
 }

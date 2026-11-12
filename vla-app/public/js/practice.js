@@ -28,7 +28,7 @@ export const answerText = (q) => (q.type === 'mcq' ? q.options[q.answer] : q.typ
 
 /** Questions du jour : d'abord celles à revoir, puis les nouvelles, puis le reste. */
 export function pickDaily(bank, progress, n = 10, today = dayIndex()) {
-  const pool = bank.filter((q) => q.level === progress.level);
+  const pool = bank.filter((q) => q.level === progress.level && q.status !== 'draft');
   const st = (q) => progress.items[q.id];
   const due = pool.filter((q) => st(q) && st(q).due <= today).sort((a, b) => st(a).box - st(b).box || st(a).due - st(b).due);
   const fresh = pool.filter((q) => !st(q)).sort((a, b) => hash(a.id + today) - hash(b.id + today));

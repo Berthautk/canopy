@@ -36,6 +36,15 @@ const persist = (ctx, id, R) => { clearTimeout(persist.t); persist.t = setTimeou
 const sum = (o, n) => Array.from({ length: n }, (_, i) => Number(o?.[i] || 0)).reduce((a, b) => a + b, 0);
 const dur = (ms) => { const m = Math.round(ms / 60000); return m >= 60 ? `${Math.floor(m / 60)} h ${String(m % 60).padStart(2, '0')} min` : `${m} min`; };
 
+
+/** Publie le résultat (sans corrigé) sur l'écran du candidat et dans la fiche « membre » de l'apprenant correspondant. */
+export async function publishResult(ctx, S, d) {
+  await ctx.backend.patchSession(S.id, { result: d });
+  const tel = (S.identity?.tel || '').replace(/\D/g, '');
+  const stu = (await ctx.backend.listCol('students').catch(() => [])).find((x) => tel && (x.tel || '').replace(/\D/g, '') === tel);
+  if (stu) { const m = (await ctx.backend.getDoc('members', stu.id)) || { id: stu.id }; await ctx.backend.putDoc('members', stu.id, { ...m, result: d }); }
+}
+
 /* ================================ CORRECTION ================================ */
 export async function renderCorrection(view, ctx, id) {
   let S = await ctx.backend.getSession(id);
@@ -211,7 +220,7 @@ export async function renderCorrection(view, ctx, id) {
       const I = S.identity || {};
       await ctx.backend.putPerson({ ...(old || {}), id: old?.id || 'p' + id, sessionId: id, nom: I.nom || '', prenom: I.prenom || '', tel: I.tel || '', email: I.email || '', ville: I.ville || '', photo: I.photo || '', profession: I.profession || '', testCode: S.testCode, level: now.global, formation: (R.formations || []).join(' · ') || now.placement, testDate: R.validatedAt, attestationNo: R.attestationNo, decision: R.decision || old?.decision || '', status: old?.status === 'Inscrit' ? 'Inscrit' : 'Testé · prospect' });
       if (S.status !== 'delivered') await ctx.backend.patchSession(id, { status: 'corrected' });
-      if (ctx.settings.autoPublish !== false) await ctx.backend.patchSession(id, { result: buildAttData(S, R, ctx.settings, key.scale) });
+      if (ctx.settings.autoPublish !== false) await publishResult(ctx, S, buildAttData(S, R, ctx.settings, key.scale));
       toast('Résultat validé ✔'); header(); tabResult();
     });
   }
@@ -253,7 +262,7 @@ export async function renderAttestation(view, ctx, id) {
   const fname = attFileName(d);
   $('#pdf', view).onclick = async (e) => { e.target.disabled = true; try { (await buildPdf(el, d)).save(fname); } catch (err) { toast('Génération du PDF impossible : ' + err.message); } e.target.disabled = false; };
   $('#pr', view).onclick = () => window.print();
-  $('#pub', view).onclick = async () => { await ctx.backend.patchSession(id, { result: d }); toast('Résultat publié sur l’écran du candidat'); };
+  $('#pub', view).onclick = async () => { await publishResult(ctx, S, d); toast('Résultat publié sur l’écran du candidat'); };
   $('#wa', view).onclick = async () => {
     const text = `Bonjour ${I.prenom || ''}, voici votre attestation de résultat VLA n° ${R.attestationNo} : niveau ${R.global}. Merci d'avoir passé votre test de placement chez Valérie Language Academy !`;
     try {
