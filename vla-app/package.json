@@ -1,1 +1,1 @@
-{"private":true,"type":"module","scripts":{"test":"node --test tests/*.test.mjs","split":"node tools/split.mjs","serve":"node tools/serve.mjs"}}
+{"private":true,"type":"module","scripts":{"test":"node --test tests/*.test.mjs","split":"node tools/split.mjs","serve":"node tools/serve.mjs","build":"node tools/build-site.mjs","serve:site":"SITE=1 node tools/serve.mjs"}}

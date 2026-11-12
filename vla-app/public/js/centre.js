@@ -4,6 +4,7 @@
 import { esc, $, $$, fmtDate, toast, uid, IMG, waLink, resizePhoto } from './ui.js';
 import { fullName } from './identity.js';
 import { practiceLevelFor } from './practice.js';
+import { hasHost, hostDB, hostClasses, syncFromHost } from './host.js';
 
 export const initial = (s) => `${s.prenom || ''} ${(s.nom || '').slice(0, 1)}${s.nom ? '.' : ''}`.trim();
 const LV = ['A1', 'A2', 'B1', 'B2', 'C1'];
@@ -35,14 +36,18 @@ export function nextLessonDate(days, from = new Date()) {
 
 /** Recalcule le résumé public (Valérie le publie : aucune Cloud Function nécessaire). */
 export async function publishBoard(backend) {
-  const [students, classes, lessons, events, ann] = await Promise.all(['students', 'classes', 'lessons', 'events', 'announcements'].map((c) => backend.listCol(c)));
+  const host = hasHost();
+  if (host) await syncFromHost(backend);
+  const [students, classes0, lessons, events, ann] = await Promise.all(['students', 'classes', 'lessons', 'events', 'announcements'].map((c) => backend.listCol(c)));
   const act = students.filter((s) => s.status === 'inscrit');
   const settings = await backend.getSettings();
   const showNames = settings.boardNames !== false;
+  const classes = host ? hostClasses() : classes0;
+  const lessonsDone = host ? Object.keys(hostDB().reports || {}).length : lessons.length;
   await backend.putDoc('board', 'summary', {
-    id: 'summary', updatedAt: Date.now(), contact: settings.phones || '', inscrits: act.length, classes: classes.length, lessonsDone: lessons.length,
+    id: 'summary', updatedAt: Date.now(), contact: settings.phones || (host ? hostDB().settings?.phone || '' : ''), inscrits: act.length, classes: classes.length, lessonsDone,
     byLevel: LV.map((l) => ({ level: l, n: act.filter((s) => s.level === l).length })),
-    classList: classes.map((c) => ({ id: c.id, name: c.name, level: c.level, days: c.days || [], time: c.time || '', trainer: c.trainer || '', size: act.filter((s) => s.classId === c.id).length, lessons: lessons.filter((x) => x.classId === c.id).length, last: lessons.filter((x) => x.classId === c.id).sort((a, b) => b.date.localeCompare(a.date))[0]?.topic || '' })),
+    classList: host ? classes : classes.map((c) => ({ id: c.id, name: c.name, level: c.level, days: c.days || [], time: c.time || '', trainer: c.trainer || '', size: act.filter((s) => s.classId === c.id).length, lessons: lessons.filter((x) => x.classId === c.id).length, last: lessons.filter((x) => x.classId === c.id).sort((a, b) => b.date.localeCompare(a.date))[0]?.topic || '' })),
     events: events.filter((e) => e.date >= today()).sort((a, b) => a.date.localeCompare(b.date)).slice(0, 10).map((e) => ({ id: e.id, title: e.title, date: e.date, time: e.time || '', place: e.place || '', type: e.type || 'autre', audience: e.audience || '' })),
     announcements: ann.sort((a, b) => b.date.localeCompare(a.date)).slice(0, 5).map((a) => ({ id: a.id, text: a.text, date: a.date })),
     names: showNames ? act.map((s) => ({ n: initial(s), level: s.level, classId: s.classId || '' })).sort((a, b) => a.n.localeCompare(b.n)) : [],
@@ -186,7 +191,11 @@ export async function classes(view, ctx) {
 /* ------------------------------ Activités ------------------------------ */
 export async function events(view, ctx) {
   let ym = new Date().toISOString().slice(0, 7), E = [], R = [], S = [];
-  view.innerHTML = '<div class="pagehead"><h2><span class="pic">📅</span>Centre – Activités</h2><div class="row"><span id="yrw"></span><button class="btn gold" id="add">➕ Ajouter une activité</button></div></div><div id="form"></div><div class="split" style="grid-template-columns:360px 1fr"><div class="panel"><div id="cal"></div></div><div><div id="kp"></div><div class="panel"><h2>📋 Liste des activités</h2><div id="lst"></div></div></div></div>';
+  view.innerHTML = '<div class="pagehead"><h2><span class="pic">📅</span>Centre – Activités</h2><div class="row"><span id="yrw"></span><button class="btn gold" id="add">➕ Ajouter une activité</button></div></div><div id="form"></div><div class="split" style="grid-template-columns:360px 1fr"><div class="panel"><div id="cal"></div></div><div><div id="kp"></div><div class="panel"><h2>📋 Liste des activités</h2><div id="lst"></div></div></div><div class="panel tint-gold"><h2>📢 Annonces aux apprenants</h2><div id="an"></div><div class="row mt"><input class="txt grow" id="at" placeholder="Nouvelle annonce…"><button class="btn sm gold" id="aa">Ajouter</button></div></div></div></div>';
+  let A = [];
+  const paintAnn = () => { $('#an', view).innerHTML = A.length ? [...A].sort((a, b) => b.date.localeCompare(a.date)).map((a) => `<div class="row sb" style="padding:4px 0;border-bottom:1px solid var(--line)"><span>• ${esc(a.text)}</span><button class="btn sm danger" data-da="${a.id}">✕</button></div>`).join('') : '<p class="muted">Aucune annonce.</p>'; $$('[data-da]', view).forEach((b) => (b.onclick = async () => { await ctx.backend.delDoc('announcements', b.dataset.da); queueBoard(ctx.backend); })); };
+  $('#aa', view).onclick = async () => { const t = $('#at', view).value.trim(); if (!t) return; const id = uid(); await ctx.backend.putDoc('announcements', id, { id, text: t, date: today() }); $('#at', view).value = ''; queueBoard(ctx.backend); };
+  subscribe(ctx, ctx.backend.onCol('announcements', (l) => { A = l; paintAnn(); }));
   const paint = () => {
     const y = curYear(), ev = E.filter((e) => schoolYearOf(e.date) === y);
     $('#yrw', view).innerHTML = yearSelect(E.map((e) => schoolYearOf(e.date))); bindYear(view, paint);

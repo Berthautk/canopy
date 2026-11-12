@@ -3,6 +3,7 @@
 //  • firebase : Firestore + Auth (Spark gratuit) — temps réel entre appareils
 import { idb } from './idb.js';
 import { firebaseConfig } from './firebase-config.js';
+import { hasHost, hostUser, hostLogin, hostLogout, canUsePlacement } from './host.js';
 
 const FB = 'https://www.gstatic.com/firebasejs/10.12.2/';
 const bc = 'BroadcastChannel' in self ? new BroadcastChannel('vla') : null;
@@ -29,15 +30,19 @@ function localAdapter() {
     mode: 'local',
     async init() {},
     // Authentification du personnel : code PIN local défini au premier lancement
-    async staffState() { return { hasPin: !!(await get('settings', 'pin')), user: sessionStorage.getItem('vla-staff') ? { name: 'Valérie' } : null }; },
-    async staffLogin({ pin }) {
+    async staffState() {
+      if (hasHost()) { const u = hostUser(); return { hasPin: true, host: true, user: canUsePlacement(u) ? u : null, denied: !!u && !canUsePlacement(u) }; }
+      return { hasPin: !!(await get('settings', 'pin')), user: sessionStorage.getItem('vla-staff') ? { name: 'Valérie', role: 'manager' } : null };
+    },
+    async staffLogin({ pin, pseudo, code }) {
+      if (hasHost()) { const u = hostLogin(pseudo, code); if (!canUsePlacement(u)) throw new Error('Accès réservé à la manager et au secrétariat.'); return u; }
       const saved = await get('settings', 'pin');
       const h = await sha(pin);
       if (!saved) { await put('settings', 'pin', h); } else if (saved !== h) throw new Error('Code incorrect');
       sessionStorage.setItem('vla-staff', '1');
-      return { name: 'Valérie' };
+      return { name: 'Valérie', role: 'manager' };
     },
-    async staffLogout() { sessionStorage.removeItem('vla-staff'); },
+    async staffLogout() { if (hasHost()) hostLogout(); sessionStorage.removeItem('vla-staff'); },
     async candidateAuth() {},
     async getTestPublic(code) {
       const cached = await get('tests_public', code);

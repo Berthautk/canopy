@@ -2,6 +2,7 @@
 import { esc, $, $$, fmtTime, fmtDate, toast, waLink, loadScript, IMG, TEST_NAMES, LEVEL_NAMES } from './ui.js';
 import { computeResult, countWords, iterQuestions } from './scoring.js';
 import { validateIdentity, fullName, civ, cleanPhone237 } from './identity.js';
+import { upsertLearner, hasHost } from './host.js';
 import { resizePhoto } from './ui.js';
 import { CECR, CECR_LONG, SKILLS, DEFAULT_DIRECTOR, buildAttData, attestationHtml, attFileName, buildPdf, fitAtt } from './attestation.js';
 
@@ -219,6 +220,7 @@ export async function renderCorrection(view, ctx, id) {
       const old = all.find((p) => p.sessionId === id || (tel && (p.tel || '').replace(/\D/g, '') === tel));
       const I = S.identity || {};
       await ctx.backend.putPerson({ ...(old || {}), id: old?.id || 'p' + id, sessionId: id, nom: I.nom || '', prenom: I.prenom || '', tel: I.tel || '', email: I.email || '', ville: I.ville || '', photo: I.photo || '', profession: I.profession || '', testCode: S.testCode, level: now.global, formation: (R.formations || []).join(' · ') || now.placement, testDate: R.validatedAt, attestationNo: R.attestationNo, decision: R.decision || old?.decision || '', status: old?.status === 'Inscrit' ? 'Inscrit' : 'Testé · prospect' });
+      if (hasHost()) { const r = upsertLearner({ ...I, age: I.age }, { level: now.global, testCode: S.testCode, attestationNo: R.attestationNo, sessionId: id }); if (r) toast(r.created ? 'Candidat ajouté aux Apprenants de VLA Gestion ✔' : 'Fiche apprenant mise à jour dans VLA Gestion ✔'); }
       if (S.status !== 'delivered') await ctx.backend.patchSession(id, { status: 'corrected' });
       if (ctx.settings.autoPublish !== false) await publishResult(ctx, S, buildAttData(S, R, ctx.settings, key.scale));
       toast('Résultat validé ✔'); header(); tabResult();

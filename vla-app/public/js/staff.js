@@ -6,16 +6,18 @@ import { fullName } from './identity.js';
 import { renderCorrection, renderAttestation, KEYS } from './correct.js';
 import { overview, students, classes, events, reports } from './centre.js';
 import { bank, followup, trainStats } from './train.js';
+import { hasHost, canManage } from './host.js';
 
 export const STATUS = {
   created: ['En attente', 'grey'], waiting: ['Connecté', 'wait'], running: ['En cours', 'run'], finished: ['Écrit terminé', 'done'],
   corrected: ['Corrigé', 'ok'], delivered: ['Attestation remise', 'ok'],
 };
 const SECTIONS = [['placement', '🎯', 'Test de placement', '#/staff'], ['centre', '🏫', 'Centre', '#/centre'], ['train', '📚', 'Entraînement', '#/train']];
+const sectionsFor = (u) => SECTIONS.filter((x) => canManage(u) || x[0] === 'placement' || !u?.role).map((x) => (x[0] === 'centre' && hasHost() ? [x[0], x[1], 'Centre (gestion)', '../'] : x));
 const NAVS = {
   placement: [['', '🏠', 'Tableau de bord'], ['new', '➕', 'Créer un test'], ['live', '☰', 'Mes sessions'], ['people', '👥', 'Candidats'], ['results', '📊', 'Résultats & notes'], ['attest', '🎖️', 'Attestations'], ['stats', '📈', 'Statistiques'], ['settings', '⚙️', 'Paramètres']],
   centre: [['', '🏠', 'Vue d’ensemble'], ['students', '🎓', 'Élèves'], ['classes', '📖', 'Classes & leçons'], ['events', '📅', 'Activités'], ['people', '🧑‍🤝‍🧑', 'Prospects (tests)'], ['reports', '📊', 'Rapports'], ['settings', '⚙️', 'Paramètres']],
-  train: [['', '📈', 'Suivi des apprenants'], ['bank', '📚', 'Banque d’exercices'], ['stats', '📊', 'Résultats & stat.'], ['settings', '⚙️', 'Paramètres']],
+  train: [['', '📈', 'Suivi des apprenants'], ['bank', '📚', 'Banque d’exercices'], ['stats', '📊', 'Résultats & stat.'], ['events', '📅', 'Activités & annonces'], ['settings', '⚙️', 'Paramètres']],
 };
 const TITLES = {
   placement: {
@@ -24,7 +26,7 @@ const TITLES = {
     attestation: ['🎖️', 'Attestation de résultat'], stats: ['📊', 'Statistiques et performance'], settings: ['⚙️', 'Paramètres du centre'], session: ['🖥️', 'Suivi du candidat'],
   },
   centre: { reports: ['📊', 'Rapports'], '': ['🏫', 'Pilotage du centre'], students: ['🎓', 'Élèves et inscriptions'], classes: ['📖', 'Classes et leçons'], events: ['📅', 'Activités du centre'], people: ['🧑‍🤝‍🧑', 'Prospects issus des tests'], person: ['🧑‍🤝‍🧑', 'Fiche prospect'], settings: ['⚙️', 'Paramètres du centre'] },
-  train: { stats: ['📊', 'Résultats'], '': ['📈', 'Suivi des apprenants'], bank: ['📚', 'Banque d’exercices'], settings: ['⚙️', 'Paramètres du centre'] },
+  train: { events: ['📅', 'Activités et annonces'], stats: ['📊', 'Résultats'], '': ['📈', 'Suivi des apprenants'], bank: ['📚', 'Banque d’exercices'], settings: ['⚙️', 'Paramètres du centre'] },
 };
 
 export async function runStaff(root, backend, path, section = 'placement') {
@@ -33,6 +35,7 @@ export async function runStaff(root, backend, path, section = 'placement') {
   const settings = await backend.getSettings();
   const ctx = { root, backend, settings, user: st.user, cleanup: [] };
   window.__vlaCleanup?.forEach((f) => f()); window.__vlaCleanup = ctx.cleanup;
+  if (st.user.role === 'secretaire' && (section !== 'placement' || ['settings', 'stats'].includes(path[0]))) { location.hash = '#/staff'; return; }
   const [page, a] = path;
   const base = SECTIONS.find((x) => x[0] === section)[3];
   const on = section === 'placement' ? ({ person: 'people', correct: 'results', session: 'live', attestation: 'attest' }[page] ?? (page || '')) : (({ person: 'people' })[page] ?? (page || ''));
@@ -41,31 +44,31 @@ export async function runStaff(root, backend, path, section = 'placement') {
     <header class="topbrand"><img class="lg" src="${IMG.logo}" alt=""><div class="nm">Valérie Language Academy<small>English Opens Doors, We Give You The Keys</small></div>
       <div class="me"><span class="pill ${backend.mode === 'firebase' ? 'ok' : 'done'}">${backend.mode === 'firebase' ? '● En ligne' : '● Mode local'}</span><span class="bell">🔔</span>
       <img class="avatar sm" style="width:48px;height:48px;border-color:var(--gold-l)" src="${esc(settings.avatar || IMG.valerie)}" alt=""><div>${esc(settings.name || 'Valérie')}<br><span style="font-weight:400;font-size:.85rem">Administratrice</span></div></div></header>
-    <div class="secbar"><span class="lbl">🖥️ ESPACE DE VALÉRIE</span><div class="tabs3">${SECTIONS.map(([k, i, l, h]) => `<a href="${h}" class="${k === section ? 'on' : ''}">${i} ${l}</a>`).join('')}</div></div>
+    <div class="secbar"><span class="lbl">🖥️ ESPACE DE VALÉRIE</span><div class="tabs3">${sectionsFor(st.user).map(([k, i, l, h]) => `<a href="${h}" class="${k === section ? 'on' : ''}">${i} ${l}</a>`).join('')}</div></div>
     <div class="shellbody"><nav class="sidenav">${NAVS[section].map(([p, i, l]) => `<a href="${base}${p ? '/' + p : ''}" class="${on === p ? 'on' : ''}"><span class="ic">${i}</span>${l}</a>`).join('')}
-      <hr><a href="#/c" target="_blank"><span class="ic">🧑‍🎓</span>Écran candidat</a><a href="#/learn" target="_blank"><span class="ic">📚</span>Espace apprenant</a><a href="#" id="out"><span class="ic">⏻</span>Déconnexion</a></nav>
+      <hr>${hasHost() ? '<a href="../"><span class="ic">🏠</span>Retour à VLA Gestion</a>' : ''}<a href="#/c" target="_blank"><span class="ic">🧑‍🎓</span>Écran candidat</a><a href="#/learn" target="_blank"><span class="ic">📚</span>Espace apprenant</a><a href="#" id="out"><span class="ic">⏻</span>Déconnexion</a></nav>
       <div class="shellmain" id="view"></div></div></div>`;
   $('#out', root).onclick = async (e) => { e.preventDefault(); await backend.staffLogout(); location.hash = '#/staff'; location.reload(); };
   const view = $('#view', root);
   const PAGES = {
     placement: { '': dashboard, new: newTest, live, people, person, results, attest, stats, settings: settingsPage, correct: renderCorrection, attestation: renderAttestation, session: sessionDetail },
     centre: { '': overview, students, classes, events, people, person, reports, settings: settingsPage },
-    train: { '': followup, bank, stats: trainStats, settings: settingsPage },
+    train: { '': followup, bank, stats: trainStats, events, settings: settingsPage },
   }[section];
   await (PAGES[page || ''] || PAGES[''])(view, ctx, a, path);
 }
 
 /* ------------------------------ Connexion ------------------------------ */
 function login(root, backend, st) {
-  const local = backend.mode === 'local';
+  const local = backend.mode === 'local' && !st.host;
   root.innerHTML = `<div class="login"><img src="${IMG.logo}" width="110" style="border-radius:50%"><h1>Espace de Valérie</h1>
-    <p class="muted">${local ? (st.hasPin ? 'Saisissez votre code PIN.' : 'Première utilisation : choisissez un code PIN (4 chiffres ou plus).') : 'Connectez-vous avec votre compte.'}</p>
-    ${local ? '<input class="txt" id="pin" type="password" inputmode="numeric" placeholder="Code PIN" autocomplete="off">'
+    <p class="muted">${st.host ? (st.denied ? 'Cet espace est réservé à la manager et au secrétariat.' : 'Connectez-vous avec vos accès VLA Gestion (pseudo + code).') : local ? (st.hasPin ? 'Saisissez votre code PIN.' : 'Première utilisation : choisissez un code PIN (4 chiffres ou plus).') : 'Connectez-vous avec votre compte.'}</p>
+    ${st.host ? '<input class="txt" id="ps" placeholder="Pseudo" autocomplete="username"><input class="txt mt" id="cd" type="password" inputmode="numeric" placeholder="Code" autocomplete="current-password">' : local ? '<input class="txt" id="pin" type="password" inputmode="numeric" placeholder="Code PIN" autocomplete="off">'
       : '<input class="txt" id="em" type="email" placeholder="Email" autocomplete="username"><input class="txt mt" id="pw" type="password" placeholder="Mot de passe" autocomplete="current-password">'}
     <p id="le" style="color:var(--err)"></p><button class="btn primary big" id="ok">Se connecter</button>
     <p class="mt"><a href="#/c">← Écran candidat</a></p></div>`;
   const go = async () => {
-    try { await backend.staffLogin(local ? { pin: $('#pin', root).value } : { email: $('#em', root).value, password: $('#pw', root).value }); location.reload(); }
+    try { await backend.staffLogin(st.host ? { pseudo: $('#ps', root).value, code: $('#cd', root).value } : local ? { pin: $('#pin', root).value } : { email: $('#em', root).value, password: $('#pw', root).value }); location.reload(); }
     catch (e) { $('#le', root).textContent = e.message || 'Connexion refusée'; }
   };
   $('#ok', root).onclick = go; root.onkeydown = (e) => e.key === 'Enter' && go();

@@ -2,7 +2,7 @@
 // via /__dev/key/<CODE>.json afin de tester sans Firebase. Ne pas utiliser en production.
 import http from 'node:http'; import { readFileSync, existsSync, statSync } from 'node:fs'; import { extname, join, normalize } from 'node:path';
 import { splitTest } from '../public/js/scoring.js';
-const root = new URL('../public/', import.meta.url).pathname, src = new URL('../source-data/', import.meta.url).pathname;
+const root = new URL(process.env.SITE ? '../dist/' : '../public/', import.meta.url).pathname, src = new URL('../source-data/', import.meta.url).pathname;
 const T = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.png': 'image/png', '.jpg': 'image/jpeg', '.webmanifest': 'application/manifest+json', '.svg': 'image/svg+xml' };
 const port = Number(process.env.PORT || 8080);
 http.createServer((req, res) => {

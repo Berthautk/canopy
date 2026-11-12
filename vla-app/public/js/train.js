@@ -1,7 +1,9 @@
 // Section « Entraînement » côté Valérie : suivi des apprenants, banque d'exercices, résultats.
 import { esc, $, $$, toast, fmtDate, uid, IMG } from './ui.js';
 import { PRACTICE_LEVELS, mastery, weakTopics, dayIndex } from './practice.js';
-import { queueBoard } from './centre.js';
+import { queueBoard, events } from './centre.js';
+import { hasHost, syncFromHost } from './host.js';
+export { events };
 
 const subscribe = (ctx, u) => ctx.cleanup.push(u);
 const kpi = (ic, n, l, cls = '') => `<div class="kpi ${cls}"><div class="ic">${ic}</div><div><b>${n}</b><span>${l}</span></div></div>`;
@@ -19,7 +21,8 @@ export async function bankAll(ctx) {
 
 /* ------------------------------ Suivi des apprenants ------------------------------ */
 export async function followup(view, ctx) {
-  view.innerHTML = `<div class="pagehead"><h2><span class="pic">🎓</span>Entraînement – Suivi des apprenants</h2><div class="row"><select class="txt" id="fl" style="width:auto"><option value="">Tous les niveaux</option>${PRACTICE_LEVELS.map((l) => `<option>${l}</option>`).join('')}</select><input class="txt" id="q" placeholder="🔍 Rechercher un apprenant…" style="width:240px"></div></div>
+  if (hasHost()) { const r = await syncFromHost(ctx.backend).catch(() => ({ n: 0 })); if (r.n) queueBoard(ctx.backend); }
+  view.innerHTML = `<div class="pagehead"><h2><span class="pic">🎓</span>Entraînement – Suivi des apprenants</h2><div class="row">${hasHost() ? '<span class="pill ok">● Apprenants de VLA Gestion (inscrits et en formation)</span>' : ''}<select class="txt" id="fl" style="width:auto"><option value="">Tous les niveaux</option>${PRACTICE_LEVELS.map((l) => `<option>${l}</option>`).join('')}</select><input class="txt" id="q" placeholder="🔍 Rechercher un apprenant…" style="width:240px"></div></div>
     <div id="kp"></div><div class="split" style="grid-template-columns:1.7fr 1fr"><div class="panel"><div class="tablewrap" id="tb"></div><div id="pg"></div></div><div id="dt"></div></div>`;
   let S = [], P = [], B = await bankAll(ctx), page = 1, sel = null;
   const PER = 8, week = () => Date.now() - 7 * 864e5;
