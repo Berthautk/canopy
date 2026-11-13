@@ -11,8 +11,8 @@ Application chrétienne d'édification, d'évangélisation, de prière et de lec
 | Phase | Contenu | État |
 |---|---|---|
 | 0 | Nettoyage du dépôt, initialisation, extraction des éléments graphiques, icônes PWA | Terminée |
-| 1 | Coquille PWA, design system, navigation 5 onglets, Accueil, À propos, Paramètres | Terminée, en attente de validation |
-| 2 | Bible Louis Segond 1910 complète | À faire |
+| 1 | Coquille PWA, design system, navigation 5 onglets, Accueil, À propos, Paramètres, photo de profil | Terminée |
+| 2 | Bible Louis Segond 1910 complète (voir `tools/bible/SOURCE.md`) | Terminée, en attente de validation |
 | 3 | Lecteur audio, hors ligne, partage | À faire |
 | 4 | Prière, Grandir, Nouveau converti, Évangéliser, Dialogues | À faire |
 | 5 | Jouer et apprendre (quiz) | À faire |
