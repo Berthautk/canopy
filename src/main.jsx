@@ -5,9 +5,11 @@ import './styles/base.css';
 import './styles/ecrans.css';
 import { App } from './app.jsx';
 import { appliquer, chargerReglages } from './donnees/reglages.js';
+import { chargerProfil } from './donnees/profil.js';
 
 appliquer();                 // thème et taille du texte depuis la copie locale, avant le premier rendu
 chargerReglages();           // puis lecture d'IndexedDB
+chargerProfil();
 render(<App />, document.getElementById('app'));
 
 // Service worker : hors ligne après la première ouverture (uniquement dans la version construite).

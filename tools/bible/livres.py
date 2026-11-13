@@ -1,0 +1,22 @@
+# Les 66 livres : code USFM, nom français, abréviations reconnues par la recherche.
+LIVRES = [
+ ("GEN","Genèse",["gn","gen","ge"]),("EXO","Exode",["ex","exo","exod"]),("LEV","Lévitique",["lv","lev","le"]),
+ ("NUM","Nombres",["nb","nomb","no","nom"]),("DEU","Deutéronome",["dt","deut","de"]),("JOS","Josué",["jos","js"]),
+ ("JDG","Juges",["jg","jug"]),("RUT","Ruth",["rt","ru"]),("1SA","1 Samuel",["1s","1sa","1sam"]),("2SA","2 Samuel",["2s","2sa","2sam"]),
+ ("1KI","1 Rois",["1r","1ro"]),("2KI","2 Rois",["2r","2ro"]),("1CH","1 Chroniques",["1ch","1chr","1chro"]),
+ ("2CH","2 Chroniques",["2ch","2chr","2chro"]),("EZR","Esdras",["esd"]),("NEH","Néhémie",["ne","neh"]),("EST","Esther",["est","es"]),
+ ("JOB","Job",["jb"]),("PSA","Psaumes",["ps","psa","psaume","psm"]),("PRO","Proverbes",["pr","pro","prov"]),
+ ("ECC","Ecclésiaste",["ec","ecc","eccl","qo"]),("SNG","Cantique des cantiques",["ct","cant","cantique"]),("ISA","Ésaïe",["es","esa","is","isaie"]),
+ ("JER","Jérémie",["jr","jer"]),("LAM","Lamentations",["lm","lam"]),("EZK","Ézéchiel",["ez","eze","ezec"]),("DAN","Daniel",["dn","da","dan"]),
+ ("HOS","Osée",["os"]),("JOL","Joël",["jl","joe"]),("AMO","Amos",["am"]),("OBA","Abdias",["ab","abd"]),("JON","Jonas",["jon"]),
+ ("MIC","Michée",["mi","mic"]),("NAM","Nahum",["na","nah"]),("HAB","Habacuc",["ha","hab"]),("ZEP","Sophonie",["so","soph"]),
+ ("HAG","Aggée",["ag","agg"]),("ZEC","Zacharie",["za","zac","zach"]),("MAL","Malachie",["ml","mal"]),
+ ("MAT","Matthieu",["mt","mat","matt"]),("MRK","Marc",["mc","mr","mar"]),("LUK","Luc",["lc","lu"]),("JHN","Jean",["jn","jean"]),
+ ("ACT","Actes",["ac","act","actes des apotres"]),("ROM","Romains",["rm","ro","rom"]),("1CO","1 Corinthiens",["1co","1cor"]),
+ ("2CO","2 Corinthiens",["2co","2cor"]),("GAL","Galates",["ga","gal"]),("EPH","Éphésiens",["ep","eph"]),("PHP","Philippiens",["ph","phil","php"]),
+ ("COL","Colossiens",["col"]),("1TH","1 Thessaloniciens",["1th","1thes","1thess"]),("2TH","2 Thessaloniciens",["2th","2thes","2thess"]),
+ ("1TI","1 Timothée",["1tm","1ti","1tim"]),("2TI","2 Timothée",["2tm","2ti","2tim"]),("TIT","Tite",["tt","tit"]),("PHM","Philémon",["phm","philem"]),
+ ("HEB","Hébreux",["he","heb"]),("JAS","Jacques",["jc","jq","jac"]),("1PE","1 Pierre",["1p","1pi","1pe"]),("2PE","2 Pierre",["2p","2pi","2pe"]),
+ ("1JN","1 Jean",["1jn","1j"]),("2JN","2 Jean",["2jn","2j"]),("3JN","3 Jean",["3jn","3j"]),("JUD","Jude",["jd","jud"]),
+ ("REV","Apocalypse",["ap","apo","apoc"]),
+]

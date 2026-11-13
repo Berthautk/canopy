@@ -1,6 +1,9 @@
 import { useState } from 'preact/hooks';
 import { Icone, Embleme } from './Icone.jsx';
 import { aller, retour } from '../outils/routeur.js';
+import { Avatar } from './Avatar.jsx';
+import { profil } from '../donnees/profil.js';
+import { useSignal } from '../outils/signal.js';
 
 export function Logo() {
   return (
@@ -62,15 +65,16 @@ const MENU = [
 ];
 
 export function Tiroir({ ouvert, fermer }) {
+  const p = useSignal(profil);
   if (!ouvert) return null;
   return (
     <>
       <div class="voile" onClick={fermer} />
       <aside class="tiroir" role="dialog" aria-label="Menu">
         <div class="tiroir__tete">
-          <img src="/icons/icon-192.png" alt="" width="48" height="48" />
+          <a href="#/parametres" onClick={fermer} aria-label="Mon profil"><Avatar taille={52} /></a>
           <div>
-            <h2 style="font-size:1.1rem">Yeshaya</h2>
+            <h2 style="font-size:1.1rem">{p.prenom ? `Bonjour ${p.prenom}` : 'Yeshaya'}</h2>
             <p style="font-size:.8rem;color:var(--texte-doux)">« L'Éternel est salut »</p>
           </div>
         </div>

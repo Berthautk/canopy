@@ -1,7 +1,49 @@
-import { useEffect, useState } from 'preact/hooks';
+import { useEffect, useRef, useState } from 'preact/hooks';
 import { Icone } from '../composants/Icone.jsx';
 import { reglages, modifierReglages } from '../donnees/reglages.js';
 import { useSignal } from '../outils/signal.js';
+import { profil, changerPhoto, retirerPhoto, changerPrenom } from '../donnees/profil.js';
+import { Avatar } from '../composants/Avatar.jsx';
+
+// Section « Mon profil » : photo et prénom, gardés uniquement sur ce téléphone.
+function MonProfil() {
+  const p = useSignal(profil);
+  const entree = useRef(null);
+  const [message, setMessage] = useState('');
+  const [prenom, setPrenom] = useState(p.prenom);
+  useEffect(() => setPrenom(p.prenom), [p.prenom]);
+
+  async function choisir(e) {
+    const f = e.target.files?.[0]; e.target.value = '';
+    if (!f) return;
+    setMessage('Préparation de la photo…');
+    try { await changerPhoto(f); setMessage('Photo enregistrée sur ce téléphone.'); }
+    catch { setMessage('Cette image ne peut pas être lue. Essayez une autre photo.'); }
+  }
+
+  return (
+    <section class="carte profil">
+      <button class="profil__photo" onClick={() => entree.current.click()} aria-label="Changer ma photo de profil">
+        <Avatar taille={96} />
+        <span class="profil__badge" aria-hidden="true"><Icone nom="appareil" taille={16} /></span>
+      </button>
+      <div class="profil__corps">
+        <label class="profil__label" for="prenom">Mon prénom (facultatif)</label>
+        <input id="prenom" class="champ" value={prenom} maxLength={40} placeholder="Ex. : Grâce"
+          onInput={(e) => setPrenom(e.currentTarget.value)} onBlur={() => changerPrenom(prenom)} autocomplete="given-name" />
+        <div class="profil__actions">
+          <button class="bouton bouton--plein bouton--petit" onClick={() => entree.current.click()}>
+            {p.photo ? 'Changer la photo' : 'Ajouter une photo'}
+          </button>
+          {p.photo && <button class="bouton bouton--contour bouton--petit" onClick={() => { retirerPhoto(); setMessage('Photo retirée.'); }}>Retirer</button>}
+        </div>
+      </div>
+      <input ref={entree} type="file" accept="image/*" hidden onChange={choisir} />
+      {message && <p class="profil__message" role="status">{message}</p>}
+      <p class="profil__note"><Icone nom="bouclier" taille={14} /> Votre photo reste sur ce téléphone. Elle n'est jamais envoyée sur internet.</p>
+    </section>
+  );
+}
 
 const TAILLES = [['normal', 'Normale'], ['grand', 'Grande'], ['tres-grand', 'Très grande']];
 const THEMES = [['clair', 'Clair', 'soleil'], ['sombre', 'Sombre', 'lune'], ['auto', 'Auto', 'reglages']];
@@ -26,13 +68,8 @@ export function Parametres() {
 
   return (
     <div class="page">
-      <div class="param-hero">
-        <img src="/assets/personnages/femme-souriante.webp" alt="" />
-        <div>
-          <h2>Mes paramètres</h2>
-          <p>Personnalisez Yeshaya selon vos préférences.</p>
-        </div>
-      </div>
+      <h2 class="titre-section">Mon profil</h2>
+      <MonProfil />
 
       <h2 class="titre-section">Affichage</h2>
       <div class="carte param-bloc">
