@@ -1,0 +1,8 @@
+{
+  "name": "yeshaya",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Yeshaya — « L'Éternel est salut ». Application chrétienne gratuite, sans compte, hors ligne (PWA).",
+  "license": "UNLICENSED",
+  "type": "module"
+}

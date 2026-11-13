@@ -1,0 +1,42 @@
+YESHAYA — DOSSIER DE LIVRAISON POUR LE DÉVELOPPEUR
+====================================================
+
+CONTENU
+-------
+01_Ecrans_01_a_34/
+  34 fichiers d'écran nommés et rangés dans l'ordre.
+  Les écrans 25 à 34 ont été découpés depuis la planche de synthèse 10 écrans
+  afin de fournir un fichier individuel pour chacun.
+
+02_Planches_A_a_T/
+  Planches visuelles A à T, renommées avec leur thème.
+
+03_Identite_visuelle_et_references/
+  Références photo de Jésus fournies par le client, logo et présentation de l'identité.
+
+04_Maquettes_composites_et_variantes/
+  Autres exports visuels YESHAYA disponibles dans la session : variantes, planches
+  composites et aperçus multi-écrans. Les noms de fichiers sources sont conservés.
+
+POINTS DE CONTRÔLE AVANT INTÉGRATION
+------------------------------------
+- Les deux fichiers Reference_Jesus_* sont les photos de référence fournies par le client.
+  Elles doivent guider toute future représentation de Jésus.
+- Les planches sont des compositions/mosaïques de référence. Elles ne sont pas encore
+  découpées en fichiers PNG individuels à fond transparent.
+- Écran 13 (Paramètres) : vérifier qu'aucun libellé « compte/connexion » ne subsiste,
+  car l'application doit fonctionner sans compte.
+- Écran 14 (À propos) : vérifier la formulation exacte :
+  « Yeshaya est le nom hébreu du prophète Isaïe. Il signifie : "l'Éternel est salut". »
+  et afficher les cinq engagements ainsi que la gratuité, l'absence de publicité,
+  l'absence de compte, le stockage local et le fonctionnement hors ligne.
+- Les captures sont des maquettes visuelles, pas des composants UI exportés ni du code.
+- La Bible Louis Segond 1910 doit être intégrée avec un texte sous licence/domaine public
+  vérifié et les versets contrôlés mot pour mot avant publication.
+
+RÈGLE DE NOMMAGE
+----------------
+Ecran_XX = numéro de l'écran dans le parcours 1 à 34.
+Planche_A à Planche_T = bibliothèque visuelle thématique.
+Les fichiers originaux complémentaires gardent leur nom source pour traçabilité.
+

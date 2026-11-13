@@ -1,7 +1,0 @@
-.docker
-cmd/tps/data
-# Python virtual environments
-**/.venv
-**/__pycache__
-**/*.pyc
-**/node_modules

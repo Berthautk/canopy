@@ -1,0 +1,3384 @@
+{
+ "exports": [
+  {
+   "fichier": "jesus/jesus-portrait-serein.webp",
+   "origine": "a-01",
+   "octets": 22396,
+   "qualite": 82,
+   "dim": [
+    376,
+    408
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "jesus/jesus-main-tendue.webp",
+   "origine": "a-02",
+   "octets": 23696,
+   "qualite": 82,
+   "dim": [
+    373,
+    408
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "jesus/jesus-regard-vers-le-ciel.webp",
+   "origine": "a-03",
+   "octets": 21850,
+   "qualite": 82,
+   "dim": [
+    375,
+    408
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "jesus/jesus-en-priere.webp",
+   "origine": "a-04",
+   "octets": 21794,
+   "qualite": 82,
+   "dim": [
+    367,
+    408
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "jesus/jesus-marche-sur-le-chemin.webp",
+   "origine": "a-05",
+   "octets": 47990,
+   "qualite": 82,
+   "dim": [
+    374,
+    437
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "jesus/jesus-assis-coucher-de-soleil.webp",
+   "origine": "a-06",
+   "octets": 31450,
+   "qualite": 82,
+   "dim": [
+    404,
+    437
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "jesus/jesus-sourire.webp",
+   "origine": "a-07",
+   "octets": 27544,
+   "qualite": 82,
+   "dim": [
+    357,
+    437
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "jesus/jesus-etreinte-enfant.webp",
+   "origine": "a-08",
+   "octets": 24330,
+   "qualite": 82,
+   "dim": [
+    356,
+    437
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/homme-en-priere.webp",
+   "origine": "b-01",
+   "octets": 10302,
+   "qualite": 82,
+   "dim": [
+    224,
+    275
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/femme-foulard-en-priere.webp",
+   "origine": "b-02",
+   "octets": 14210,
+   "qualite": 82,
+   "dim": [
+    204,
+    277
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/jeune-homme-joyeux.webp",
+   "origine": "b-03",
+   "octets": 15482,
+   "qualite": 82,
+   "dim": [
+    209,
+    275
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/fille-en-priere.webp",
+   "origine": "b-04",
+   "octets": 15254,
+   "qualite": 82,
+   "dim": [
+    208,
+    275
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/femme-voilee-regard-ciel.webp",
+   "origine": "b-05",
+   "octets": 13338,
+   "qualite": 82,
+   "dim": [
+    216,
+    275
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/homme-lunettes-reflexion.webp",
+   "origine": "b-06",
+   "octets": 13640,
+   "qualite": 82,
+   "dim": [
+    213,
+    275
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/femme-souriante.webp",
+   "origine": "b-07",
+   "octets": 11250,
+   "qualite": 82,
+   "dim": [
+    210,
+    275
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/famille-lit-la-bible.webp",
+   "origine": "b-08",
+   "octets": 20398,
+   "qualite": 82,
+   "dim": [
+    393,
+    245
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/amis-lisent-la-bible.webp",
+   "origine": "b-09",
+   "octets": 19126,
+   "qualite": 82,
+   "dim": [
+    377,
+    243
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/jeune-ecoute-au-casque.webp",
+   "origine": "b-10",
+   "octets": 10614,
+   "qualite": 82,
+   "dim": [
+    214,
+    244
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/femme-louange.webp",
+   "origine": "b-11",
+   "octets": 18456,
+   "qualite": 82,
+   "dim": [
+    257,
+    246
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/predicateur-bible-en-main.webp",
+   "origine": "b-12",
+   "octets": 12284,
+   "qualite": 82,
+   "dim": [
+    258,
+    246
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/vieillard-biblique.webp",
+   "origine": "b-13",
+   "octets": 21806,
+   "qualite": 82,
+   "dim": [
+    187,
+    315
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/berger-biblique.webp",
+   "origine": "b-14",
+   "octets": 14982,
+   "qualite": 82,
+   "dim": [
+    185,
+    315
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/femme-biblique.webp",
+   "origine": "b-15",
+   "octets": 12320,
+   "qualite": 82,
+   "dim": [
+    190,
+    315
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/roi-biblique.webp",
+   "origine": "b-16",
+   "octets": 16940,
+   "qualite": 82,
+   "dim": [
+    185,
+    315
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/vieillard-biblique-en-priere.webp",
+   "origine": "b-17",
+   "octets": 20104,
+   "qualite": 82,
+   "dim": [
+    207,
+    315
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/soldat-romain.webp",
+   "origine": "b-18",
+   "octets": 14888,
+   "qualite": 82,
+   "dim": [
+    173,
+    315
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/homme-biblique-joyeux.webp",
+   "origine": "b-19",
+   "octets": 19470,
+   "qualite": 82,
+   "dim": [
+    174,
+    315
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "personnages/enfant-biblique.webp",
+   "origine": "b-20",
+   "octets": 14362,
+   "qualite": 82,
+   "dim": [
+    169,
+    315
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/bible-ouverte.webp",
+   "origine": "c-01",
+   "octets": 17042,
+   "qualite": 82,
+   "dim": [
+    363,
+    238
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/bible-noire-croix.webp",
+   "origine": "c-02",
+   "octets": 17486,
+   "qualite": 82,
+   "dim": [
+    284,
+    238
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/livres-et-diplome.webp",
+   "origine": "c-03",
+   "octets": 13650,
+   "qualite": 82,
+   "dim": [
+    299,
+    238
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/rouleau-parchemin.webp",
+   "origine": "c-04",
+   "octets": 10656,
+   "qualite": 82,
+   "dim": [
+    249,
+    238
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/couronne-or.webp",
+   "origine": "c-05",
+   "octets": 15300,
+   "qualite": 82,
+   "dim": [
+    293,
+    238
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/coupe-or.webp",
+   "origine": "c-06",
+   "octets": 8572,
+   "qualite": 82,
+   "dim": [
+    228,
+    216
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/pain-et-raisin.webp",
+   "origine": "c-07",
+   "octets": 16904,
+   "qualite": 82,
+   "dim": [
+    333,
+    216
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/couronne-epines.webp",
+   "origine": "c-08",
+   "octets": 20092,
+   "qualite": 82,
+   "dim": [
+    336,
+    216
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/lanterne.webp",
+   "origine": "c-09",
+   "octets": 12308,
+   "qualite": 82,
+   "dim": [
+    258,
+    216
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/croix-sur-colline.webp",
+   "origine": "c-10",
+   "octets": 13666,
+   "qualite": 82,
+   "dim": [
+    334,
+    216
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/colombe.webp",
+   "origine": "c-11",
+   "octets": 6294,
+   "qualite": 82,
+   "dim": [
+    278,
+    189
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/shofar.webp",
+   "origine": "c-12",
+   "octets": 12884,
+   "qualite": 82,
+   "dim": [
+    300,
+    189
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/baton-de-berger.webp",
+   "origine": "c-13",
+   "octets": 12520,
+   "qualite": 82,
+   "dim": [
+    245,
+    189
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/tables-de-la-loi.webp",
+   "origine": "c-14",
+   "octets": 26586,
+   "qualite": 82,
+   "dim": [
+    331,
+    189
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/pains-et-poissons.webp",
+   "origine": "c-15",
+   "octets": 21732,
+   "qualite": 82,
+   "dim": [
+    334,
+    189
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/tombeau-vide.webp",
+   "origine": "c-16",
+   "octets": 25016,
+   "qualite": 82,
+   "dim": [
+    326,
+    197
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/creche.webp",
+   "origine": "c-17",
+   "octets": 17942,
+   "qualite": 82,
+   "dim": [
+    298,
+    197
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/jarre-argile.webp",
+   "origine": "c-18",
+   "octets": 11884,
+   "qualite": 82,
+   "dim": [
+    246,
+    197
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/barque-et-filets.webp",
+   "origine": "c-19",
+   "octets": 20318,
+   "qualite": 82,
+   "dim": [
+    365,
+    197
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-bibliques/lampe-a-huile.webp",
+   "origine": "c-20",
+   "octets": 6788,
+   "qualite": 82,
+   "dim": [
+    253,
+    197
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "lieux-bibliques/tombeau-ouvert.webp",
+   "origine": "d-01",
+   "octets": 44500,
+   "qualite": 82,
+   "dim": [
+    435,
+    243
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "lieux-bibliques/jerusalem-vue-generale.webp",
+   "origine": "d-02",
+   "octets": 50570,
+   "qualite": 82,
+   "dim": [
+    610,
+    243
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "lieux-bibliques/temple.webp",
+   "origine": "d-03",
+   "octets": 28156,
+   "qualite": 82,
+   "dim": [
+    469,
+    243
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "lieux-bibliques/lac-et-olivier.webp",
+   "origine": "d-04",
+   "octets": 32550,
+   "qualite": 82,
+   "dim": [
+    381,
+    225
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "lieux-bibliques/ruelle-de-village.webp",
+   "origine": "d-05",
+   "octets": 35364,
+   "qualite": 82,
+   "dim": [
+    377,
+    225
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "lieux-bibliques/maison-en-pierre.webp",
+   "origine": "d-06",
+   "octets": 35156,
+   "qualite": 82,
+   "dim": [
+    387,
+    225
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "lieux-bibliques/village-sur-colline.webp",
+   "origine": "d-07",
+   "octets": 33204,
+   "qualite": 82,
+   "dim": [
+    366,
+    225
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "lieux-bibliques/sentier-coucher-de-soleil.webp",
+   "origine": "d-08",
+   "octets": 17798,
+   "qualite": 82,
+   "dim": [
+    312,
+    198
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "lieux-bibliques/riviere.webp",
+   "origine": "d-09",
+   "octets": 25888,
+   "qualite": 82,
+   "dim": [
+    311,
+    197
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "lieux-bibliques/tente.webp",
+   "origine": "d-10",
+   "octets": 20110,
+   "qualite": 82,
+   "dim": [
+    299,
+    197
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "lieux-bibliques/marche-de-village.webp",
+   "origine": "d-11",
+   "octets": 23514,
+   "qualite": 82,
+   "dim": [
+    305,
+    197
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "lieux-bibliques/ruines-antiques.webp",
+   "origine": "d-12",
+   "octets": 19270,
+   "qualite": 82,
+   "dim": [
+    276,
+    198
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "lieux-bibliques/oliveraie.webp",
+   "origine": "d-13",
+   "octets": 35288,
+   "qualite": 82,
+   "dim": [
+    376,
+    207
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "lieux-bibliques/cour-bancs-de-pierre.webp",
+   "origine": "d-14",
+   "octets": 33004,
+   "qualite": 82,
+   "dim": [
+    382,
+    206
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "lieux-bibliques/barque-sur-le-rivage.webp",
+   "origine": "d-15",
+   "octets": 22262,
+   "qualite": 82,
+   "dim": [
+    382,
+    206
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "lieux-bibliques/grotte.webp",
+   "origine": "d-16",
+   "octets": 25900,
+   "qualite": 82,
+   "dim": [
+    368,
+    206
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "paysages/lever-soleil-collines.webp",
+   "origine": "e-01",
+   "octets": 26934,
+   "qualite": 82,
+   "dim": [
+    506,
+    247
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "paysages/montagne.webp",
+   "origine": "e-02",
+   "octets": 43510,
+   "qualite": 82,
+   "dim": [
+    504,
+    247
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "paysages/coucher-soleil-lac.webp",
+   "origine": "e-03",
+   "octets": 35362,
+   "qualite": 82,
+   "dim": [
+    509,
+    247
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "paysages/chemin-oliviers.webp",
+   "origine": "e-04",
+   "octets": 34128,
+   "qualite": 82,
+   "dim": [
+    389,
+    216
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "paysages/champ-de-ble.webp",
+   "origine": "e-05",
+   "octets": 19926,
+   "qualite": 82,
+   "dim": [
+    369,
+    216
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "paysages/collines-vertes.webp",
+   "origine": "e-06",
+   "octets": 25978,
+   "qualite": 82,
+   "dim": [
+    384,
+    216
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "paysages/cascade.webp",
+   "origine": "e-07",
+   "octets": 31406,
+   "qualite": 82,
+   "dim": [
+    371,
+    217
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "paysages/oliveraie-ensoleillee.webp",
+   "origine": "e-08",
+   "octets": 30350,
+   "qualite": 82,
+   "dim": [
+    380,
+    189
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "paysages/champ-de-fleurs.webp",
+   "origine": "e-09",
+   "octets": 20910,
+   "qualite": 82,
+   "dim": [
+    364,
+    189
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "paysages/moutons-au-paturage.webp",
+   "origine": "e-10",
+   "octets": 26510,
+   "qualite": 82,
+   "dim": [
+    345,
+    189
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "paysages/coucher-soleil-montagnes.webp",
+   "origine": "e-11",
+   "octets": 11884,
+   "qualite": 82,
+   "dim": [
+    422,
+    189
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "paysages/rivage-du-lac.webp",
+   "origine": "e-12",
+   "octets": 18676,
+   "qualite": 82,
+   "dim": [
+    380,
+    212
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "paysages/sentier-de-montagne.webp",
+   "origine": "e-13",
+   "octets": 24366,
+   "qualite": 82,
+   "dim": [
+    377,
+    211
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "paysages/riviere.webp",
+   "origine": "e-14",
+   "octets": 31850,
+   "qualite": 82,
+   "dim": [
+    364,
+    211
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "paysages/arbre-coucher-de-soleil.webp",
+   "origine": "e-15",
+   "octets": 27332,
+   "qualite": 82,
+   "dim": [
+    391,
+    211
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "vie-chretienne/femme-en-priere.webp",
+   "origine": "f-01",
+   "octets": 13572,
+   "qualite": 82,
+   "dim": [
+    300,
+    242
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "vie-chretienne/homme-louange-soleil.webp",
+   "origine": "f-02",
+   "octets": 13436,
+   "qualite": 82,
+   "dim": [
+    316,
+    241
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "vie-chretienne/femme-lit-la-bible.webp",
+   "origine": "f-03",
+   "octets": 14164,
+   "qualite": 82,
+   "dim": [
+    248,
+    242
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "vie-chretienne/homme-etudie-la-bible.webp",
+   "origine": "f-04",
+   "octets": 10454,
+   "qualite": 82,
+   "dim": [
+    263,
+    242
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "vie-chretienne/groupe-etude-biblique.webp",
+   "origine": "f-05",
+   "octets": 20666,
+   "qualite": 82,
+   "dim": [
+    372,
+    241
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "vie-chretienne/predicateur-en-chaire.webp",
+   "origine": "f-06",
+   "octets": 11450,
+   "qualite": 82,
+   "dim": [
+    347,
+    240
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "vie-chretienne/culte-louange.webp",
+   "origine": "f-07",
+   "octets": 23614,
+   "qualite": 82,
+   "dim": [
+    403,
+    240
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "vie-chretienne/evangelisation-dans-la-rue.webp",
+   "origine": "f-08",
+   "octets": 21578,
+   "qualite": 82,
+   "dim": [
+    403,
+    241
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "vie-chretienne/bapteme.webp",
+   "origine": "f-09",
+   "octets": 18732,
+   "qualite": 82,
+   "dim": [
+    353,
+    240
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "vie-chretienne/sainte-cene.webp",
+   "origine": "f-10",
+   "octets": 15080,
+   "qualite": 82,
+   "dim": [
+    320,
+    192
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "vie-chretienne/groupe-de-priere.webp",
+   "origine": "f-11",
+   "octets": 24168,
+   "qualite": 82,
+   "dim": [
+    433,
+    191
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "vie-chretienne/famille-et-bible.webp",
+   "origine": "f-12",
+   "octets": 17202,
+   "qualite": 82,
+   "dim": [
+    379,
+    191
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "vie-chretienne/entraide-don.webp",
+   "origine": "f-13",
+   "octets": 22056,
+   "qualite": 82,
+   "dim": [
+    374,
+    191
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "vie-chretienne/priere-au-pied-de-la-croix.webp",
+   "origine": "f-14",
+   "octets": 8170,
+   "qualite": 82,
+   "dim": [
+    355,
+    204
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "vie-chretienne/communaute-silhouettes.webp",
+   "origine": "f-15",
+   "octets": 9358,
+   "qualite": 82,
+   "dim": [
+    392,
+    203
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "vie-chretienne/eglise-batiment.webp",
+   "origine": "f-16",
+   "octets": 15970,
+   "qualite": 82,
+   "dim": [
+    389,
+    204
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "vie-chretienne/mains-en-priere-sur-bible.webp",
+   "origine": "f-17",
+   "octets": 10756,
+   "qualite": 82,
+   "dim": [
+    371,
+    204
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/accueil.webp",
+   "origine": "g-01",
+   "octets": 2082,
+   "qualite": 82,
+   "dim": [
+    116,
+    103
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/bible.webp",
+   "origine": "g-02",
+   "octets": 2112,
+   "qualite": 82,
+   "dim": [
+    109,
+    103
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/priere.webp",
+   "origine": "g-03",
+   "octets": 2520,
+   "qualite": 82,
+   "dim": [
+    109,
+    103
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/meditations.webp",
+   "origine": "g-04",
+   "octets": 1666,
+   "qualite": 82,
+   "dim": [
+    110,
+    103
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/ecouter.webp",
+   "origine": "g-05",
+   "octets": 2454,
+   "qualite": 82,
+   "dim": [
+    109,
+    103
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/formations.webp",
+   "origine": "g-06",
+   "octets": 2172,
+   "qualite": 82,
+   "dim": [
+    112,
+    103
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/foi.webp",
+   "origine": "g-07",
+   "octets": 1800,
+   "qualite": 82,
+   "dim": [
+    105,
+    105
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/croissance.webp",
+   "origine": "g-08",
+   "octets": 2572,
+   "qualite": 82,
+   "dim": [
+    106,
+    105
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/liberation.webp",
+   "origine": "g-09",
+   "octets": 2740,
+   "qualite": 82,
+   "dim": [
+    107,
+    105
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/protection.webp",
+   "origine": "g-10",
+   "octets": 2302,
+   "qualite": 82,
+   "dim": [
+    109,
+    105
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/guerison.webp",
+   "origine": "g-11",
+   "octets": 1974,
+   "qualite": 82,
+   "dim": [
+    106,
+    105
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/famille.webp",
+   "origine": "g-12",
+   "octets": 2412,
+   "qualite": 82,
+   "dim": [
+    109,
+    105
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/communaute.webp",
+   "origine": "g-13",
+   "octets": 2364,
+   "qualite": 82,
+   "dim": [
+    119,
+    98
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/plan-de-lecture.webp",
+   "origine": "g-14",
+   "octets": 2118,
+   "qualite": 82,
+   "dim": [
+    112,
+    99
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/defis.webp",
+   "origine": "g-15",
+   "octets": 2216,
+   "qualite": 82,
+   "dim": [
+    107,
+    99
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/favoris.webp",
+   "origine": "g-16",
+   "octets": 1822,
+   "qualite": 82,
+   "dim": [
+    108,
+    99
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/telecharger.webp",
+   "origine": "g-17",
+   "octets": 1702,
+   "qualite": 82,
+   "dim": [
+    108,
+    99
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/parametres.webp",
+   "origine": "g-18",
+   "octets": 2130,
+   "qualite": 82,
+   "dim": [
+    106,
+    100
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/finances.webp",
+   "origine": "g-19",
+   "octets": 2218,
+   "qualite": 82,
+   "dim": [
+    105,
+    103
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/travail.webp",
+   "origine": "g-20",
+   "octets": 1512,
+   "qualite": 82,
+   "dim": [
+    106,
+    104
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/mariage.webp",
+   "origine": "g-21",
+   "octets": 1984,
+   "qualite": 82,
+   "dim": [
+    104,
+    104
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/service.webp",
+   "origine": "g-22",
+   "octets": 1946,
+   "qualite": 82,
+   "dim": [
+    104,
+    104
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/evangelisation.webp",
+   "origine": "g-23",
+   "octets": 2570,
+   "qualite": 82,
+   "dim": [
+    105,
+    103
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/royaume.webp",
+   "origine": "g-24",
+   "octets": 2160,
+   "qualite": 82,
+   "dim": [
+    106,
+    104
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/fond-croix-montagne.webp",
+   "origine": "g-25",
+   "octets": 8420,
+   "qualite": 82,
+   "dim": [
+    272,
+    176
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/fond-bible-lumiere.webp",
+   "origine": "g-26",
+   "octets": 10662,
+   "qualite": 82,
+   "dim": [
+    274,
+    176
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "icones/fond-montagnes-soleil.webp",
+   "origine": "g-27",
+   "octets": 8446,
+   "qualite": 82,
+   "dim": [
+    277,
+    174
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "jeux/banniere-quiz-biblique.webp",
+   "origine": "h-01",
+   "octets": 27340,
+   "qualite": 82,
+   "dim": [
+    549,
+    272
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "jeux/banniere-duel-biblique.webp",
+   "origine": "h-02",
+   "octets": 34446,
+   "qualite": 82,
+   "dim": [
+    537,
+    273
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "jeux/banniere-enigme-biblique.webp",
+   "origine": "h-03",
+   "octets": 30588,
+   "qualite": 82,
+   "dim": [
+    429,
+    273
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "jeux/personnage-moise.webp",
+   "origine": "h (découpe manuelle)",
+   "octets": 8520,
+   "qualite": 82,
+   "dim": [
+    157,
+    176
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "jeux/personnage-abraham.webp",
+   "origine": "h (découpe manuelle)",
+   "octets": 7954,
+   "qualite": 82,
+   "dim": [
+    157,
+    170
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "jeux/personnage-david.webp",
+   "origine": "h (découpe manuelle)",
+   "octets": 8702,
+   "qualite": 82,
+   "dim": [
+    156,
+    176
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "jeux/personnage-daniel.webp",
+   "origine": "h (découpe manuelle)",
+   "octets": 7892,
+   "qualite": 82,
+   "dim": [
+    147,
+    176
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "jeux/personnage-esther.webp",
+   "origine": "h (découpe manuelle)",
+   "octets": 7868,
+   "qualite": 82,
+   "dim": [
+    141,
+    176
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "jeux/personnage-joseph.webp",
+   "origine": "h (découpe manuelle)",
+   "octets": 8014,
+   "qualite": 82,
+   "dim": [
+    147,
+    170
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "jeux/personnage-ruth.webp",
+   "origine": "h (découpe manuelle)",
+   "octets": 8722,
+   "qualite": 82,
+   "dim": [
+    153,
+    170
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "jeux/personnage-paul.webp",
+   "origine": "h (découpe manuelle)",
+   "octets": 7358,
+   "qualite": 82,
+   "dim": [
+    141,
+    170
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "scenes-bibliques/guerison-aveugle.webp",
+   "origine": "i-01",
+   "octets": 22016,
+   "qualite": 82,
+   "dim": [
+    415,
+    230
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "scenes-bibliques/sermon-sur-la-montagne.webp",
+   "origine": "i-02",
+   "octets": 25356,
+   "qualite": 82,
+   "dim": [
+    414,
+    230
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "scenes-bibliques/multiplication-des-pains.webp",
+   "origine": "i-03",
+   "octets": 26820,
+   "qualite": 82,
+   "dim": [
+    416,
+    231
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "scenes-bibliques/tempete-apaisee.webp",
+   "origine": "i-04",
+   "octets": 25210,
+   "qualite": 82,
+   "dim": [
+    412,
+    230
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "scenes-bibliques/marche-sur-les-eaux.webp",
+   "origine": "i-05",
+   "octets": 21928,
+   "qualite": 82,
+   "dim": [
+    415,
+    228
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "scenes-bibliques/parabole-du-semeur.webp",
+   "origine": "i-06",
+   "octets": 22648,
+   "qualite": 82,
+   "dim": [
+    414,
+    229
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "scenes-bibliques/bon-samaritain.webp",
+   "origine": "i-07",
+   "octets": 31682,
+   "qualite": 82,
+   "dim": [
+    415,
+    229
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "scenes-bibliques/brebis-perdue.webp",
+   "origine": "i-08",
+   "octets": 20620,
+   "qualite": 82,
+   "dim": [
+    410,
+    229
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "scenes-bibliques/femmes-au-tombeau-vide.webp",
+   "origine": "i-09",
+   "octets": 31100,
+   "qualite": 82,
+   "dim": [
+    413,
+    229
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "scenes-bibliques/jesus-ressuscite-et-disciples.webp",
+   "origine": "i-10",
+   "octets": 19330,
+   "qualite": 82,
+   "dim": [
+    415,
+    229
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "scenes-bibliques/guerison-malade.webp",
+   "origine": "i-11",
+   "octets": 26020,
+   "qualite": 82,
+   "dim": [
+    413,
+    229
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "scenes-bibliques/resurrection-de-lazare.webp",
+   "origine": "i-12",
+   "octets": 26892,
+   "qualite": 82,
+   "dim": [
+    413,
+    229
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "scenes-bibliques/appel-des-pecheurs.webp",
+   "origine": "i-13",
+   "octets": 27940,
+   "qualite": 82,
+   "dim": [
+    414,
+    234
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "scenes-bibliques/pentecote.webp",
+   "origine": "i-14",
+   "octets": 26556,
+   "qualite": 82,
+   "dim": [
+    416,
+    234
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "scenes-bibliques/paul-ecrit-une-lettre.webp",
+   "origine": "i-15",
+   "octets": 21786,
+   "qualite": 82,
+   "dim": [
+    411,
+    234
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "scenes-bibliques/dernier-repas.webp",
+   "origine": "i-16",
+   "octets": 21084,
+   "qualite": 82,
+   "dim": [
+    414,
+    234
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "nouveau-converti/joie-de-la-rencontre.webp",
+   "origine": "j-01 (gauche)",
+   "octets": 22766,
+   "qualite": 82,
+   "dim": [
+    369,
+    320
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "nouveau-converti/accompagnement-pasteur.webp",
+   "origine": "j-01 (droite)",
+   "octets": 31858,
+   "qualite": 82,
+   "dim": [
+    449,
+    320
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "nouveau-converti/bapteme.webp",
+   "origine": "j-02",
+   "octets": 31492,
+   "qualite": 82,
+   "dim": [
+    468,
+    320
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "nouveau-converti/etude-de-la-bible.webp",
+   "origine": "j-03",
+   "octets": 29400,
+   "qualite": 82,
+   "dim": [
+    373,
+    324
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "nouveau-converti/priere-a-la-bougie.webp",
+   "origine": "j-04",
+   "octets": 21262,
+   "qualite": 82,
+   "dim": [
+    377,
+    314
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "nouveau-converti/louange-au-soleil.webp",
+   "origine": "j-05",
+   "octets": 25600,
+   "qualite": 82,
+   "dim": [
+    425,
+    313
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "nouveau-converti/groupe-de-partage.webp",
+   "origine": "j-06",
+   "octets": 38264,
+   "qualite": 82,
+   "dim": [
+    486,
+    314
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "nouveau-converti/temoignage-a-eglise.webp",
+   "origine": "j-07",
+   "octets": 19196,
+   "qualite": 82,
+   "dim": [
+    365,
+    313
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "nouveau-converti/liste-de-progres.webp",
+   "origine": "j-08",
+   "octets": 19938,
+   "qualite": 82,
+   "dim": [
+    411,
+    296
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "nouveau-converti/marche-vers-la-croix.webp",
+   "origine": "j-09",
+   "octets": 27724,
+   "qualite": 82,
+   "dim": [
+    428,
+    295
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "nouveau-converti/service-et-don.webp",
+   "origine": "j-10",
+   "octets": 37170,
+   "qualite": 82,
+   "dim": [
+    458,
+    296
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "nouveau-converti/joie-bible-en-main.webp",
+   "origine": "j-11",
+   "octets": 23974,
+   "qualite": 82,
+   "dim": [
+    355,
+    296
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "evangelisation/partage-bible-dans-la-rue.webp",
+   "origine": "k-01",
+   "octets": 28482,
+   "qualite": 82,
+   "dim": [
+    512,
+    316
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "evangelisation/dialogue-entre-femmes.webp",
+   "origine": "k-02",
+   "octets": 51536,
+   "qualite": 82,
+   "dim": [
+    589,
+    316
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "evangelisation/dialogue-avec-un-ancien.webp",
+   "origine": "k-03",
+   "octets": 35236,
+   "qualite": 82,
+   "dim": [
+    557,
+    316
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "evangelisation/don-de-livre.webp",
+   "origine": "k-04",
+   "octets": 45834,
+   "qualite": 82,
+   "dim": [
+    479,
+    307
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "evangelisation/enseignement-au-tableau.webp",
+   "origine": "k-05",
+   "octets": 42470,
+   "qualite": 82,
+   "dim": [
+    737,
+    309
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "evangelisation/priere-pour-quelqu-un.webp",
+   "origine": "k-06",
+   "octets": 25494,
+   "qualite": 82,
+   "dim": [
+    441,
+    308
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "evangelisation/temoignage-au-micro.webp",
+   "origine": "k-07",
+   "octets": 22132,
+   "qualite": 82,
+   "dim": [
+    412,
+    304
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "evangelisation/joie-de-la-conversion.webp",
+   "origine": "k-08",
+   "octets": 18874,
+   "qualite": 82,
+   "dim": [
+    356,
+    304
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "evangelisation/etreinte.webp",
+   "origine": "k-09",
+   "octets": 35084,
+   "qualite": 82,
+   "dim": [
+    370,
+    304
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "evangelisation/reunion-en-plein-air.webp",
+   "origine": "k-10",
+   "octets": 51772,
+   "qualite": 82,
+   "dim": [
+    510,
+    304
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "audio/homme-ecoute-au-casque.webp",
+   "origine": "l-01",
+   "octets": 16516,
+   "qualite": 82,
+   "dim": [
+    413,
+    251
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "audio/casque-et-bible.webp",
+   "origine": "l-02",
+   "octets": 19114,
+   "qualite": 82,
+   "dim": [
+    414,
+    253
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "audio/micro-de-studio.webp",
+   "origine": "l-03",
+   "octets": 18202,
+   "qualite": 82,
+   "dim": [
+    415,
+    253
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "audio/femme-ecouteurs.webp",
+   "origine": "l-04",
+   "octets": 18156,
+   "qualite": 82,
+   "dim": [
+    412,
+    252
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "audio/telephone-lecteur-audio.webp",
+   "origine": "l-05",
+   "octets": 15790,
+   "qualite": 82,
+   "dim": [
+    413,
+    236
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "audio/animateur-podcast.webp",
+   "origine": "l-06",
+   "octets": 17288,
+   "qualite": 82,
+   "dim": [
+    420,
+    238
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "audio/bible-et-cafe-du-matin.webp",
+   "origine": "l-07",
+   "octets": 18910,
+   "qualite": 82,
+   "dim": [
+    411,
+    235
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "audio/studio-et-console.webp",
+   "origine": "l-08",
+   "octets": 21106,
+   "qualite": 82,
+   "dim": [
+    412,
+    236
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "audio/femme-casque-en-priere.webp",
+   "origine": "l-09",
+   "octets": 18744,
+   "qualite": 82,
+   "dim": [
+    419,
+    221
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "audio/casque-et-micro.webp",
+   "origine": "l-10",
+   "octets": 17174,
+   "qualite": 82,
+   "dim": [
+    416,
+    221
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "audio/enceinte-portable.webp",
+   "origine": "l-11",
+   "octets": 21980,
+   "qualite": 82,
+   "dim": [
+    402,
+    219
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "audio/homme-casque-nature.webp",
+   "origine": "l-12",
+   "octets": 18702,
+   "qualite": 82,
+   "dim": [
+    414,
+    219
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "audio/enregistrement-ordinateur.webp",
+   "origine": "l-13",
+   "octets": 22036,
+   "qualite": 82,
+   "dim": [
+    419,
+    217
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "audio/femme-casque-repos.webp",
+   "origine": "l-14",
+   "octets": 20242,
+   "qualite": 82,
+   "dim": [
+    412,
+    217
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "audio/telephone-micro-et-bible.webp",
+   "origine": "l-15",
+   "octets": 22152,
+   "qualite": 82,
+   "dim": [
+    402,
+    217
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "audio/homme-casque-reflexion.webp",
+   "origine": "l-16",
+   "octets": 13376,
+   "qualite": 82,
+   "dim": [
+    418,
+    217
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "famille-quotidien/mariage.webp",
+   "origine": "m-01",
+   "octets": 20528,
+   "qualite": 82,
+   "dim": [
+    412,
+    233
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "famille-quotidien/famille-lecture.webp",
+   "origine": "m-02",
+   "octets": 24462,
+   "qualite": 82,
+   "dim": [
+    415,
+    233
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "famille-quotidien/couple-en-priere.webp",
+   "origine": "m-03",
+   "octets": 23846,
+   "qualite": 82,
+   "dim": [
+    415,
+    233
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "famille-quotidien/mere-et-enfants.webp",
+   "origine": "m-04",
+   "octets": 21876,
+   "qualite": 82,
+   "dim": [
+    412,
+    233
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "famille-quotidien/travail-ordinateur.webp",
+   "origine": "m-05",
+   "octets": 15034,
+   "qualite": 82,
+   "dim": [
+    412,
+    231
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "famille-quotidien/commercante-au-marche.webp",
+   "origine": "m-06",
+   "octets": 26652,
+   "qualite": 82,
+   "dim": [
+    415,
+    230
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "famille-quotidien/medecin-et-patiente.webp",
+   "origine": "m-07",
+   "octets": 23284,
+   "qualite": 82,
+   "dim": [
+    415,
+    230
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "famille-quotidien/visite-a-hopital.webp",
+   "origine": "m-08",
+   "octets": 16700,
+   "qualite": 82,
+   "dim": [
+    411,
+    231
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "famille-quotidien/consolation-deuil.webp",
+   "origine": "m-09",
+   "octets": 24130,
+   "qualite": 82,
+   "dim": [
+    413,
+    216
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "famille-quotidien/souvenir-deuil.webp",
+   "origine": "m-10",
+   "octets": 17830,
+   "qualite": 82,
+   "dim": [
+    380,
+    216
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "famille-quotidien/aide-colis.webp",
+   "origine": "m-11",
+   "octets": 23930,
+   "qualite": 82,
+   "dim": [
+    421,
+    216
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "famille-quotidien/groupe-mains-jointes.webp",
+   "origine": "m-12",
+   "octets": 22806,
+   "qualite": 82,
+   "dim": [
+    440,
+    217
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "famille-quotidien/mere-aide-aux-devoirs.webp",
+   "origine": "m-13",
+   "octets": 23182,
+   "qualite": 82,
+   "dim": [
+    388,
+    245
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "famille-quotidien/mentorat-jeune.webp",
+   "origine": "m-14",
+   "octets": 18740,
+   "qualite": 82,
+   "dim": [
+    410,
+    245
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "famille-quotidien/couple-et-budget.webp",
+   "origine": "m-15",
+   "octets": 23428,
+   "qualite": 82,
+   "dim": [
+    383,
+    245
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "famille-quotidien/meditation-face-a-la-croix.webp",
+   "origine": "m-16",
+   "octets": 18840,
+   "qualite": 82,
+   "dim": [
+    468,
+    245
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "eglise/louange-assemblee.webp",
+   "origine": "n-01",
+   "octets": 24054,
+   "qualite": 82,
+   "dim": [
+    413,
+    230
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "eglise/pasteur-predication.webp",
+   "origine": "n-02",
+   "octets": 14436,
+   "qualite": 82,
+   "dim": [
+    412,
+    230
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "eglise/chorale.webp",
+   "origine": "n-03",
+   "octets": 23338,
+   "qualite": 82,
+   "dim": [
+    412,
+    230
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "eglise/batteur.webp",
+   "origine": "n-04",
+   "octets": 16358,
+   "qualite": 82,
+   "dim": [
+    413,
+    231
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "eglise/louange-guitare.webp",
+   "origine": "n-05",
+   "octets": 22358,
+   "qualite": 82,
+   "dim": [
+    413,
+    229
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "eglise/priere-assemblee.webp",
+   "origine": "n-06",
+   "octets": 27298,
+   "qualite": 82,
+   "dim": [
+    414,
+    228
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "eglise/table-sainte-cene.webp",
+   "origine": "n-07",
+   "octets": 17444,
+   "qualite": 82,
+   "dim": [
+    412,
+    228
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "eglise/accueil-poignee-de-main.webp",
+   "origine": "n-08",
+   "octets": 18606,
+   "qualite": 82,
+   "dim": [
+    411,
+    228
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "eglise/etude-biblique-en-groupe.webp",
+   "origine": "n-09",
+   "octets": 28372,
+   "qualite": 82,
+   "dim": [
+    414,
+    228
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "eglise/distribution-de-dons.webp",
+   "origine": "n-10",
+   "octets": 25528,
+   "qualite": 82,
+   "dim": [
+    413,
+    228
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "eglise/ecole-du-dimanche.webp",
+   "origine": "n-11",
+   "octets": 26122,
+   "qualite": 82,
+   "dim": [
+    411,
+    228
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "eglise/accueil-a-la-porte.webp",
+   "origine": "n-12",
+   "octets": 18050,
+   "qualite": 82,
+   "dim": [
+    413,
+    228
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "eglise/facade-eglise.webp",
+   "origine": "n-13",
+   "octets": 22464,
+   "qualite": 82,
+   "dim": [
+    413,
+    235
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "eglise/assemblee-au-culte.webp",
+   "origine": "n-14",
+   "octets": 21386,
+   "qualite": 82,
+   "dim": [
+    413,
+    235
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "eglise/bapteme-en-bassin.webp",
+   "origine": "n-15",
+   "octets": 22956,
+   "qualite": 82,
+   "dim": [
+    412,
+    235
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "eglise/entretien-de-eglise.webp",
+   "origine": "n-16",
+   "octets": 21196,
+   "qualite": 82,
+   "dim": [
+    413,
+    235
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/telephone.webp",
+   "origine": "o-01",
+   "octets": 16440,
+   "qualite": 82,
+   "dim": [
+    331,
+    256
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/bible-cuir.webp",
+   "origine": "o-02",
+   "octets": 21400,
+   "qualite": 82,
+   "dim": [
+    320,
+    256
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/bible-ouverte-sur-table.webp",
+   "origine": "o-03",
+   "octets": 16270,
+   "qualite": 82,
+   "dim": [
+    329,
+    256
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/carnet-et-stylo.webp",
+   "origine": "o-04",
+   "octets": 14368,
+   "qualite": 82,
+   "dim": [
+    331,
+    256
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/calendrier.webp",
+   "origine": "o-05",
+   "octets": 14316,
+   "qualite": 82,
+   "dim": [
+    332,
+    256
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/casque.webp",
+   "origine": "o-06",
+   "octets": 11902,
+   "qualite": 82,
+   "dim": [
+    337,
+    241
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/ecouteurs.webp",
+   "origine": "o-07",
+   "octets": 7192,
+   "qualite": 82,
+   "dim": [
+    268,
+    241
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/sac-a-dos.webp",
+   "origine": "o-08",
+   "octets": 13930,
+   "qualite": 82,
+   "dim": [
+    375,
+    241
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/sacoche.webp",
+   "origine": "o-09",
+   "octets": 13660,
+   "qualite": 82,
+   "dim": [
+    332,
+    240
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/lampe-de-bureau.webp",
+   "origine": "o-10",
+   "octets": 10322,
+   "qualite": 82,
+   "dim": [
+    331,
+    241
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/ordinateur.webp",
+   "origine": "o-11",
+   "octets": 12298,
+   "qualite": 82,
+   "dim": [
+    343,
+    198
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/pile-de-livres.webp",
+   "origine": "o-12",
+   "octets": 11808,
+   "qualite": 82,
+   "dim": [
+    314,
+    198
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/eau-et-the.webp",
+   "origine": "o-13",
+   "octets": 12104,
+   "qualite": 82,
+   "dim": [
+    336,
+    198
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/reveil.webp",
+   "origine": "o-14",
+   "octets": 12018,
+   "qualite": 82,
+   "dim": [
+    327,
+    199
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/surligneurs.webp",
+   "origine": "o-15",
+   "octets": 14082,
+   "qualite": 82,
+   "dim": [
+    321,
+    198
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/globe.webp",
+   "origine": "o-16",
+   "octets": 14474,
+   "qualite": 82,
+   "dim": [
+    318,
+    226
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/boussole-et-jumelles.webp",
+   "origine": "o-17",
+   "octets": 20106,
+   "qualite": 82,
+   "dim": [
+    325,
+    226
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/croix-et-lanterne.webp",
+   "origine": "o-18",
+   "octets": 15364,
+   "qualite": 82,
+   "dim": [
+    339,
+    226
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/gourde-et-tapis.webp",
+   "origine": "o-19",
+   "octets": 14420,
+   "qualite": 82,
+   "dim": [
+    351,
+    226
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "objets-quotidien/crayons-et-notes.webp",
+   "origine": "o-20",
+   "octets": 13512,
+   "qualite": 82,
+   "dim": [
+    308,
+    226
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "symboles/croix-coucher-de-soleil.webp",
+   "origine": "p-01",
+   "octets": 17484,
+   "qualite": 82,
+   "dim": [
+    413,
+    232
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "symboles/colombe-dans-le-ciel.webp",
+   "origine": "p-02",
+   "octets": 11888,
+   "qualite": 82,
+   "dim": [
+    413,
+    232
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "symboles/bible-dans-la-lumiere.webp",
+   "origine": "p-03",
+   "octets": 18652,
+   "qualite": 82,
+   "dim": [
+    412,
+    232
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "symboles/chemin-sur-la-colline.webp",
+   "origine": "p-04",
+   "octets": 33580,
+   "qualite": 82,
+   "dim": [
+    413,
+    232
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "symboles/tombeau-lumineux.webp",
+   "origine": "p-05",
+   "octets": 26698,
+   "qualite": 82,
+   "dim": [
+    413,
+    229
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "symboles/porte-ouverte.webp",
+   "origine": "p-06",
+   "octets": 25232,
+   "qualite": 82,
+   "dim": [
+    414,
+    229
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "symboles/semence-dans-la-main.webp",
+   "origine": "p-07",
+   "octets": 19096,
+   "qualite": 82,
+   "dim": [
+    412,
+    228
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "symboles/jeune-pousse.webp",
+   "origine": "p-08",
+   "octets": 15608,
+   "qualite": 82,
+   "dim": [
+    413,
+    229
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "symboles/couronne-epines.webp",
+   "origine": "p-09",
+   "octets": 22418,
+   "qualite": 82,
+   "dim": [
+    413,
+    227
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "symboles/couronne-de-gloire.webp",
+   "origine": "p-10",
+   "octets": 16402,
+   "qualite": 82,
+   "dim": [
+    414,
+    227
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "symboles/agneau.webp",
+   "origine": "p-11",
+   "octets": 22840,
+   "qualite": 82,
+   "dim": [
+    412,
+    225
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "symboles/coupe-et-pain.webp",
+   "origine": "p-12",
+   "octets": 19652,
+   "qualite": 82,
+   "dim": [
+    413,
+    226
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "symboles/priere-silhouette.webp",
+   "origine": "p-13",
+   "octets": 13472,
+   "qualite": 82,
+   "dim": [
+    413,
+    236
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "symboles/linceul-sur-la-pierre.webp",
+   "origine": "p-14",
+   "octets": 26720,
+   "qualite": 82,
+   "dim": [
+    414,
+    238
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "symboles/ancre-esperance.webp",
+   "origine": "p-15",
+   "octets": 18486,
+   "qualite": 82,
+   "dim": [
+    412,
+    238
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "symboles/mains-ouvertes-lumiere.webp",
+   "origine": "p-16",
+   "octets": 13834,
+   "qualite": 82,
+   "dim": [
+    413,
+    238
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "interface/fond-montagnes-aube.webp",
+   "origine": "q-01",
+   "octets": 18372,
+   "qualite": 82,
+   "dim": [
+    438,
+    219
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "interface/fond-lumiere-feuilles.webp",
+   "origine": "q-02",
+   "octets": 5528,
+   "qualite": 82,
+   "dim": [
+    408,
+    219
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "interface/fond-ciel-bleu.webp",
+   "origine": "q-03",
+   "octets": 4218,
+   "qualite": 82,
+   "dim": [
+    402,
+    219
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "interface/fond-bible-croix.webp",
+   "origine": "q-04",
+   "octets": 18140,
+   "qualite": 82,
+   "dim": [
+    396,
+    219
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "interface/cadre-laurier.webp",
+   "origine": "q-08",
+   "octets": 4800,
+   "qualite": 82,
+   "dim": [
+    182,
+    181
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "interface/fanion-bleu.webp",
+   "origine": "q-09",
+   "octets": 2136,
+   "qualite": 82,
+   "dim": [
+    147,
+    176
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "interface/medaille-or.webp",
+   "origine": "q-10",
+   "octets": 4010,
+   "qualite": 82,
+   "dim": [
+    130,
+    174
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "interface/illustration-hors-ligne.webp",
+   "origine": "q-35",
+   "octets": 4540,
+   "qualite": 82,
+   "dim": [
+    189,
+    156
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "interface/rubans-banniere.webp",
+   "origine": "q-40",
+   "octets": 4326,
+   "qualite": 82,
+   "dim": [
+    251,
+    170
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "priere/femme-en-priere.webp",
+   "origine": "r-01",
+   "octets": 23384,
+   "qualite": 82,
+   "dim": [
+    409,
+    308
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "priere/mains-levees.webp",
+   "origine": "r-02",
+   "octets": 18936,
+   "qualite": 82,
+   "dim": [
+    413,
+    308
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "priere/combat-spirituel.webp",
+   "origine": "r-03",
+   "octets": 26422,
+   "qualite": 82,
+   "dim": [
+    414,
+    308
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "priere/priere-en-famille.webp",
+   "origine": "r-04",
+   "octets": 30562,
+   "qualite": 82,
+   "dim": [
+    408,
+    308
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "priere/priere-pour-un-malade.webp",
+   "origine": "r-05",
+   "octets": 29802,
+   "qualite": 82,
+   "dim": [
+    409,
+    309
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "priere/priere-en-groupe.webp",
+   "origine": "r-06",
+   "octets": 33316,
+   "qualite": 82,
+   "dim": [
+    414,
+    310
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "priere/priere-pour-la-nation.webp",
+   "origine": "r-07",
+   "octets": 20480,
+   "qualite": 82,
+   "dim": [
+    414,
+    310
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "priere/priere-pour-eglise.webp",
+   "origine": "r-08",
+   "octets": 29636,
+   "qualite": 82,
+   "dim": [
+    408,
+    309
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "priere/priere-pour-la-ville.webp",
+   "origine": "r-09",
+   "octets": 24008,
+   "qualite": 82,
+   "dim": [
+    419,
+    309
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "priere/priere-pour-le-monde.webp",
+   "origine": "r-10",
+   "octets": 21576,
+   "qualite": 82,
+   "dim": [
+    410,
+    310
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "priere/priere-avec-larmes.webp",
+   "origine": "r-11",
+   "octets": 24872,
+   "qualite": 82,
+   "dim": [
+    408,
+    309
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "priere/priere-et-bible.webp",
+   "origine": "r-12",
+   "octets": 24288,
+   "qualite": 82,
+   "dim": [
+    408,
+    310
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "etude-biblique/la-sainte-bible.webp",
+   "origine": "s-01",
+   "octets": 22618,
+   "qualite": 82,
+   "dim": [
+    412,
+    235
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "etude-biblique/bible-annotee.webp",
+   "origine": "s-02",
+   "octets": 20912,
+   "qualite": 82,
+   "dim": [
+    410,
+    236
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "etude-biblique/livres-des-testaments.webp",
+   "origine": "s-03",
+   "octets": 20094,
+   "qualite": 82,
+   "dim": [
+    409,
+    236
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "etude-biblique/rouleau-ancien.webp",
+   "origine": "s-04",
+   "octets": 24836,
+   "qualite": 82,
+   "dim": [
+    412,
+    235
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "etude-biblique/manuscrit.webp",
+   "origine": "s-05",
+   "octets": 33340,
+   "qualite": 82,
+   "dim": [
+    412,
+    226
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "etude-biblique/carnet-etude.webp",
+   "origine": "s-07",
+   "octets": 17512,
+   "qualite": 82,
+   "dim": [
+    409,
+    226
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "etude-biblique/loupe-et-carte.webp",
+   "origine": "s-09",
+   "octets": 19806,
+   "qualite": 82,
+   "dim": [
+    411,
+    225
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "etude-biblique/bible-surlignee.webp",
+   "origine": "s-13",
+   "octets": 20890,
+   "qualite": 82,
+   "dim": [
+    412,
+    233
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "etude-biblique/boussole-et-carnet.webp",
+   "origine": "s-14",
+   "octets": 22672,
+   "qualite": 82,
+   "dim": [
+    410,
+    233
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "etude-biblique/bible-et-tasse.webp",
+   "origine": "s-16",
+   "octets": 22690,
+   "qualite": 82,
+   "dim": [
+    412,
+    233
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "temoignage/temoignage-au-micro.webp",
+   "origine": "t-01",
+   "octets": 14392,
+   "qualite": 82,
+   "dim": [
+    409,
+    232
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "temoignage/avant-apres.webp",
+   "origine": "t-02",
+   "octets": 20688,
+   "qualite": 82,
+   "dim": [
+    440,
+    232
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "temoignage/reconnaissance.webp",
+   "origine": "t-03",
+   "octets": 21046,
+   "qualite": 82,
+   "dim": [
+    386,
+    232
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "temoignage/victoire-bras-leves.webp",
+   "origine": "t-04",
+   "octets": 18506,
+   "qualite": 82,
+   "dim": [
+    410,
+    232
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "temoignage/bapteme.webp",
+   "origine": "t-05",
+   "octets": 24092,
+   "qualite": 82,
+   "dim": [
+    412,
+    227
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "temoignage/joie-bible-contre-coeur.webp",
+   "origine": "t-06",
+   "octets": 19964,
+   "qualite": 82,
+   "dim": [
+    410,
+    227
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "temoignage/chaines-brisees.webp",
+   "origine": "t-07",
+   "octets": 13290,
+   "qualite": 82,
+   "dim": [
+    413,
+    227
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "temoignage/louange-au-casque.webp",
+   "origine": "t-08",
+   "octets": 13452,
+   "qualite": 82,
+   "dim": [
+    410,
+    226
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "temoignage/famille-restauree.webp",
+   "origine": "t-09",
+   "octets": 27548,
+   "qualite": 82,
+   "dim": [
+    415,
+    228
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "temoignage/reussite-au-travail.webp",
+   "origine": "t-10",
+   "octets": 13718,
+   "qualite": 82,
+   "dim": [
+    408,
+    227
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "temoignage/couple-marie.webp",
+   "origine": "t-11",
+   "octets": 17316,
+   "qualite": 82,
+   "dim": [
+    410,
+    228
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "temoignage/croix-sur-colline.webp",
+   "origine": "t-12",
+   "octets": 17932,
+   "qualite": 82,
+   "dim": [
+    414,
+    228
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "temoignage/artiste-peintre.webp",
+   "origine": "t-13",
+   "octets": 22482,
+   "qualite": 82,
+   "dim": [
+    413,
+    235
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "temoignage/nouveau-depart.webp",
+   "origine": "t-14",
+   "octets": 17392,
+   "qualite": 82,
+   "dim": [
+    410,
+    235
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "temoignage/nouvelle-pousse.webp",
+   "origine": "t-15",
+   "octets": 17246,
+   "qualite": 82,
+   "dim": [
+    410,
+    235
+   ],
+   "ok_budget": true
+  },
+  {
+   "fichier": "temoignage/jesus-accompagne.webp",
+   "origine": "t-16",
+   "octets": 17048,
+   "qualite": 82,
+   "dim": [
+    414,
+    235
+   ],
+   "ok_budget": true
+  }
+ ],
+ "exclus": {
+  "g-28": "planche d'éléments décoratifs en mosaïque (vagues, colombe, pastilles) : à refaire en SVG/CSS",
+  "h-04": "panneau composite (Moïse, Abraham) : portraits découpés à la main séparément",
+  "h-05": "panneau composite (6 héros) : portraits découpés à la main séparément",
+  "h-06": "panneau composite types de jeux + niveaux + récompenses avec textes incrustés",
+  "h-07": "panneau composite indices et aides avec textes incrustés",
+  "h-08": "panneau composite résultats avec textes incrustés",
+  "h-09": "bannière « Bravo ! » avec confettis : utilisable seulement entière, texte incrusté",
+  "j-01": "deux photos collées sans marge : séparées en deux fichiers",
+  "s-06": "contient le texte de Jean 3:16 incrusté (règle : aucun verset tiré d'une image)",
+  "s-08": "frise « grandes étapes de la Bible » avec textes incrustés non vérifiés",
+  "s-10": "onglets des livres avec texte déformé (« Lévitique » mal écrit)",
+  "s-11": "contient le texte du Psaume 23 incrusté",
+  "s-12": "contient le texte de Romains 12 incrusté",
+  "s-15": "contient le texte du Psaume 119:105 incrusté",
+  "q-05": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-06": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-07": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-11": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-12": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-13": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-14": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-15": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-16": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-17": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-18": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-19": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-20": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-21": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-22": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-23": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-24": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-25": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-26": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-27": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-28": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-29": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-30": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-31": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-32": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-33": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-34": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-36": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-37": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-38": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG",
+  "q-39": "élément d'interface mal isolé (bouton, case, interrupteur, barre, cadre) : à faire en CSS/SVG"
+ }
+}
