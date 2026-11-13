@@ -1,0 +1,21 @@
+{
+ "id": "pardon",
+ "titre": "Pardon",
+ "ordre": 8,
+ "image": "/assets/symboles/mains-ouvertes-lumiere.webp",
+ "description": "Recevoir le pardon de Dieu et pardonner aux autres.",
+ "versets": [
+  "1 Jn 1:9",
+  "Ép 4:32",
+  "Mt 6:14-15",
+  "Col 3:13",
+  "Ps 103:12",
+  "És 1:18",
+  "Mt 18:21-22"
+ ],
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "audio": null,
+ "duree": null,
+ "date_ajout": "2026-11-13"
+}

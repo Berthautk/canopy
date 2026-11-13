@@ -1,0 +1,27 @@
+{
+ "id": "plans-de-lecture",
+ "plans": [
+  {
+   "id": "classique",
+   "titre": "Classique",
+   "description": "Toute la Bible dans l'ordre, de la Genèse à l'Apocalypse.",
+   "type": "genere",
+   "disponible": true
+  },
+  {
+   "id": "parallele",
+   "titre": "Ancien et Nouveau Testament",
+   "description": "Chaque jour, une lecture de l'Ancien Testament et une du Nouveau.",
+   "type": "genere",
+   "disponible": true
+  },
+  {
+   "id": "chronologique",
+   "titre": "Chronologique",
+   "description": "Les livres dans l'ordre des événements.",
+   "type": "fichier",
+   "disponible": false,
+   "note": "Bientôt disponible : il faut une source fiable pour l'ordre chronologique."
+  }
+ ]
+}

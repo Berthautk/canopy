@@ -1,0 +1,21 @@
+{
+ "id": "salut",
+ "titre": "Salut",
+ "ordre": 1,
+ "image": "/assets/symboles/croix-coucher-de-soleil.webp",
+ "description": "Comment être sauvé et en avoir l'assurance.",
+ "versets": [
+  "Jn 3:16",
+  "Ac 4:12",
+  "Rm 10:9",
+  "Ép 2:8-9",
+  "Jn 14:6",
+  "Tt 3:5",
+  "Ps 3:9"
+ ],
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "audio": null,
+ "duree": null,
+ "date_ajout": "2026-11-13"
+}

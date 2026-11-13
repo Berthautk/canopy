@@ -1,0 +1,21 @@
+{
+ "id": "foi",
+ "titre": "Foi",
+ "ordre": 3,
+ "image": "/assets/symboles/semence-dans-la-main.webp",
+ "description": "Croire et faire confiance à Dieu.",
+ "versets": [
+  "Hé 11:1",
+  "Hé 11:6",
+  "Rm 10:17",
+  "Mc 9:23",
+  "Mc 11:24",
+  "Ga 2:20",
+  "Pr 3:5-6"
+ ],
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "audio": null,
+ "duree": null,
+ "date_ajout": "2026-11-13"
+}

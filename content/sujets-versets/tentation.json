@@ -1,0 +1,20 @@
+{
+ "id": "tentation",
+ "titre": "Tentation",
+ "ordre": 9,
+ "image": "/assets/temoignage/chaines-brisees.webp",
+ "description": "Résister au mal avec l'aide de Dieu.",
+ "versets": [
+  "1 Co 10:13",
+  "Jc 1:12",
+  "Jc 4:7",
+  "Hé 4:15-16",
+  "Mt 26:41",
+  "Ga 5:16"
+ ],
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "audio": null,
+ "duree": null,
+ "date_ajout": "2026-11-13"
+}

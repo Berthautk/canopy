@@ -1,0 +1,21 @@
+{
+ "id": "paix",
+ "titre": "Paix",
+ "ordre": 2,
+ "image": "/assets/paysages/rivage-du-lac.webp",
+ "description": "La paix que Dieu donne, au milieu des difficultés.",
+ "versets": [
+  "Jn 14:27",
+  "Ph 4:6-7",
+  "És 26:3",
+  "Rm 5:1",
+  "Nb 6:24-26",
+  "Col 3:15",
+  "Jn 16:33"
+ ],
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "audio": null,
+ "duree": null,
+ "date_ajout": "2026-11-13"
+}

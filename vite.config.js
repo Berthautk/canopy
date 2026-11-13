@@ -18,9 +18,15 @@ export default defineConfig({
         // Coquille de l'app : précachée pour fonctionner hors ligne dès la 1re visite.
         globPatterns: ['**/*.{js,css,html,woff2,ico,webmanifest}', 'icons/*.png'],
         // Les illustrations ne sont pas précachées (poids) : mises en cache à la demande.
-        globIgnores: ['assets/**'],
+        globIgnores: ['assets/**', 'bible/**'],
         navigateFallback: '/index.html',
         runtimeCaching: [
+          {
+            // La Bible : téléchargée une fois, puis lue depuis le téléphone (même cache que src/bible/bible.js).
+            urlPattern: ({ url }) => url.pathname.startsWith('/bible/'),
+            handler: 'CacheFirst',
+            options: { cacheName: 'yeshaya-bible' },
+          },
           {
             urlPattern: ({ url }) => url.pathname.startsWith('/assets/'),
             handler: 'CacheFirst',

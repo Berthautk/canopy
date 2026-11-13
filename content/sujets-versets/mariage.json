@@ -1,0 +1,21 @@
+{
+ "id": "mariage",
+ "titre": "Mariage",
+ "ordre": 10,
+ "image": "/assets/famille-quotidien/mariage.webp",
+ "description": "L'amour et la fidélité dans le couple.",
+ "versets": [
+  "Gn 2:24",
+  "Ép 5:25",
+  "Ép 5:33",
+  "1 Co 13:4-7",
+  "Hé 13:4",
+  "Pr 18:22",
+  "Mc 10:9"
+ ],
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "audio": null,
+ "duree": null,
+ "date_ajout": "2026-11-13"
+}

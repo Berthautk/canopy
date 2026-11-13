@@ -1,4 +1,8 @@
 import { Icone } from '../composants/Icone.jsx';
+import { usePassage, TextePassage, cheminMontrer } from '../composants/Verset.jsx';
+import { TelechargementBible } from '../composants/TelechargementBible.jsx';
+import { versetDuJour } from '../donnees/contenu.js';
+import { ecrireReference } from '../bible/references.js';
 
 const ACCES = [
   ['priere', 'Prière', 'priere', 'var(--tuile-priere)', '#2F6FB5'],
@@ -9,6 +13,7 @@ const ACCES = [
 
 // Écran 2 : accueil.
 export function Accueil() {
+  const etat = usePassage(versetDuJour());
   return (
     <div class="accueil">
       <div class="accueil__hero">
@@ -16,11 +21,11 @@ export function Accueil() {
       </div>
 
       <div class="page">
-        {/* Verset du jour : le texte sera lu dans le fichier Louis Segond 1910 (phase 2), jamais tapé à la main. */}
+        {/* Verset du jour : texte lu dans la Bible LSG 1910 (référence tirée de content/versets-du-jour.json). */}
         <section class="carte verset-jour" aria-labelledby="vj">
           <span class="pastille pastille--or verset-jour__pastille"><Icone nom="calendrier" taille={16} /> <span id="vj">Verset du jour</span></span>
-          <p class="verset-jour__attente">Le texte du verset s'affichera ici dès que la Bible Louis Segond 1910 sera installée.</p>
-          <span class="pastille pastille--ref">Psaume 3:9</span>
+          <TextePassage etat={etat} />
+          {etat.ref && <a class="pastille pastille--ref" href={'#/' + cheminMontrer(etat.ref)}>{ecrireReference(etat.ref)}</a>}
         </section>
 
         <section class="carte audio-jour">
@@ -43,6 +48,8 @@ export function Accueil() {
             </a>
           ))}
         </nav>
+
+        <div style="margin-top:12px"><TelechargementBible compact /></div>
 
         <a class="jouer-carte" href="#/jouer">
           <img src="/assets/objets-bibliques/couronne-or.webp" alt="" loading="lazy" />

@@ -1,0 +1,54 @@
+{
+ "id": "chemin-du-salut",
+ "titre": "Le chemin du salut",
+ "exemple": false,
+ "verifie": false,
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "audio": null,
+ "duree": null,
+ "date_ajout": "2026-11-13",
+ "introduction": "Un parcours simple, verset après verset, pour comprendre la bonne nouvelle et la partager.",
+ "etapes": [
+  {
+   "titre": "Tous ont péché",
+   "reference": "Rm 3:23",
+   "explication": "Personne n'est parfait devant Dieu. Le péché nous sépare de lui, quels que soient notre origine ou nos efforts."
+  },
+  {
+   "titre": "Le prix du péché",
+   "reference": "Rm 6:23",
+   "explication": "Le péché conduit à la mort, c'est-à-dire à la séparation d'avec Dieu. Mais Dieu offre un don gratuit : la vie éternelle en Jésus-Christ."
+  },
+  {
+   "titre": "L'amour de Dieu",
+   "reference": "Rm 5:8",
+   "explication": "Dieu n'a pas attendu que nous soyons meilleurs. Jésus est mort pour nous alors que nous étions encore pécheurs."
+  },
+  {
+   "titre": "Le don de son Fils",
+   "reference": "Jn 3:16",
+   "explication": "Dieu a donné son Fils unique. Quiconque croit en lui reçoit la vie éternelle."
+  },
+  {
+   "titre": "Un seul chemin",
+   "reference": "Jn 14:6",
+   "explication": "Jésus est le chemin vers Dieu le Père. Le salut se trouve en lui."
+  },
+  {
+   "titre": "Par grâce, par la foi",
+   "reference": "Ép 2:8-9",
+   "explication": "Le salut ne s'achète pas et ne se mérite pas. C'est un cadeau de Dieu, reçu par la foi."
+  },
+  {
+   "titre": "Croire et confesser",
+   "reference": "Rm 10:9-10",
+   "explication": "Reconnaître de sa bouche que Jésus est Seigneur, et croire dans son cœur que Dieu l'a ressuscité : voilà comment on reçoit le salut."
+  },
+  {
+   "titre": "L'assurance du salut",
+   "reference": "1 Jn 5:13",
+   "explication": "Celui qui croit au Fils de Dieu peut savoir qu'il a la vie éternelle. Ce n'est pas un espoir incertain, c'est une promesse."
+  }
+ ]
+}

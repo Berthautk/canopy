@@ -1,0 +1,20 @@
+{
+ "id": "famille",
+ "titre": "Famille",
+ "ordre": 11,
+ "image": "/assets/famille-quotidien/famille-lecture.webp",
+ "description": "Bâtir sa maison sur Dieu.",
+ "versets": [
+  "Jos 24:15",
+  "Ps 127:1",
+  "Pr 22:6",
+  "Ép 6:1-4",
+  "Col 3:20-21",
+  "Ac 16:31"
+ ],
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "audio": null,
+ "duree": null,
+ "date_ajout": "2026-11-13"
+}

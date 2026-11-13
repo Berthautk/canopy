@@ -1,0 +1,21 @@
+{
+ "id": "priere",
+ "titre": "Prière",
+ "ordre": 4,
+ "image": "/assets/priere/femme-en-priere.webp",
+ "description": "Parler à Dieu avec confiance.",
+ "versets": [
+  "Ph 4:6",
+  "Mt 6:6",
+  "1 Th 5:17",
+  "Jc 5:16",
+  "Mt 7:7",
+  "Jr 33:3",
+  "1 Jn 5:14"
+ ],
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "audio": null,
+ "duree": null,
+ "date_ajout": "2026-11-13"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "peur",
+ "titre": "Peur",
+ "ordre": 5,
+ "image": "/assets/paysages/lever-soleil-collines.webp",
+ "description": "Quand l'inquiétude et la crainte nous envahissent.",
+ "versets": [
+  "És 41:10",
+  "Jos 1:9",
+  "Ps 27:1",
+  "2 Tm 1:7",
+  "Ps 56:4",
+  "Jn 14:27",
+  "Ps 91:5"
+ ],
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "audio": null,
+ "duree": null,
+ "date_ajout": "2026-11-13"
+}

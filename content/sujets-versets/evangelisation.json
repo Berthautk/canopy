@@ -1,0 +1,21 @@
+{
+ "id": "evangelisation",
+ "titre": "Évangélisation",
+ "ordre": 15,
+ "image": "/assets/evangelisation/partage-bible-dans-la-rue.webp",
+ "description": "Partager la bonne nouvelle autour de soi.",
+ "versets": [
+  "Mt 28:19-20",
+  "Mc 16:15",
+  "Rm 10:14",
+  "Rm 1:16",
+  "Ac 1:8",
+  "1 Pi 3:15",
+  "Rm 10:13"
+ ],
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "audio": null,
+ "duree": null,
+ "date_ajout": "2026-11-13"
+}

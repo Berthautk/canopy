@@ -1,0 +1,20 @@
+{
+ "id": "finances",
+ "titre": "Finances",
+ "ordre": 12,
+ "image": "/assets/famille-quotidien/couple-et-budget.webp",
+ "description": "Faire confiance à Dieu pour ses besoins.",
+ "versets": [
+  "Ph 4:19",
+  "Pr 3:9-10",
+  "Mt 6:33",
+  "Ml 3:10",
+  "Hé 13:5",
+  "1 Tm 6:10"
+ ],
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "audio": null,
+ "duree": null,
+ "date_ajout": "2026-11-13"
+}

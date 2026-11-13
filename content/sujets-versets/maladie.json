@@ -1,0 +1,21 @@
+{
+ "id": "maladie",
+ "titre": "Maladie",
+ "ordre": 7,
+ "image": "/assets/famille-quotidien/visite-a-hopital.webp",
+ "description": "Prier et espérer dans la maladie.",
+ "versets": [
+  "Jc 5:14-15",
+  "Ps 103:2-3",
+  "És 53:5",
+  "Ex 15:26",
+  "Jr 17:14",
+  "Mt 8:17",
+  "2 Co 12:9"
+ ],
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "audio": null,
+ "duree": null,
+ "date_ajout": "2026-11-13"
+}
