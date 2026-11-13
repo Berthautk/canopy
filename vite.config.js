@@ -1,0 +1,37 @@
+import { defineConfig } from 'vite';
+import preact from '@preact/preset-vite';
+import { VitePWA } from 'vite-plugin-pwa';
+
+import { readFileSync } from 'node:fs';
+
+const { version } = JSON.parse(readFileSync(new URL('./package.json', import.meta.url), 'utf8'));
+
+export default defineConfig({
+  define: { __VERSION__: JSON.stringify(version) },
+  plugins: [
+    preact(),
+    VitePWA({
+      registerType: 'autoUpdate',
+      injectRegister: false,       // enregistrement fait à la main dans src/main.jsx
+      manifest: false,             // on garde public/manifest.webmanifest
+      workbox: {
+        // Coquille de l'app : précachée pour fonctionner hors ligne dès la 1re visite.
+        globPatterns: ['**/*.{js,css,html,woff2,ico,webmanifest}', 'icons/*.png'],
+        // Les illustrations ne sont pas précachées (poids) : mises en cache à la demande.
+        globIgnores: ['assets/**'],
+        navigateFallback: '/index.html',
+        runtimeCaching: [
+          {
+            urlPattern: ({ url }) => url.pathname.startsWith('/assets/'),
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'yeshaya-images',
+              expiration: { maxEntries: 400, maxAgeSeconds: 60 * 60 * 24 * 365 },
+            },
+          },
+        ],
+      },
+    }),
+  ],
+  build: { target: 'es2019', assetsInlineLimit: 0 },
+});

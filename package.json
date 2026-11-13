@@ -4,5 +4,21 @@
   "private": true,
   "description": "Yeshaya — « L'Éternel est salut ». Application chrétienne gratuite, sans compte, hors ligne (PWA).",
   "license": "UNLICENSED",
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/poppins": "^5.3.0",
+    "@fontsource/roboto": "^5.3.0",
+    "idb-keyval": "^6.3.0",
+    "preact": "^11.2.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.6",
+    "vite": "^8.3.8",
+    "vite-plugin-pwa": "^2.0.0"
+  }
 }

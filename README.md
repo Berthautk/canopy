@@ -10,8 +10,8 @@ Application chrétienne d'édification, d'évangélisation, de prière et de lec
 
 | Phase | Contenu | État |
 |---|---|---|
-| 0 | Nettoyage du dépôt, initialisation, extraction des éléments graphiques, icônes PWA | Terminée, en attente de validation |
-| 1 | Coquille PWA, design system, navigation 5 onglets, Accueil, À propos, Paramètres | À faire |
+| 0 | Nettoyage du dépôt, initialisation, extraction des éléments graphiques, icônes PWA | Terminée |
+| 1 | Coquille PWA, design system, navigation 5 onglets, Accueil, À propos, Paramètres | Terminée, en attente de validation |
 | 2 | Bible Louis Segond 1910 complète | À faire |
 | 3 | Lecteur audio, hors ligne, partage | À faire |
 | 4 | Prière, Grandir, Nouveau converti, Évangéliser, Dialogues | À faire |
@@ -28,7 +28,21 @@ public/
   icons/           icônes PWA (192, 512, maskable, apple-touch, favicons)
   manifest.webmanifest
 tools/design/      scripts Python de découpe des planches (reproductibles)
-index.html         page provisoire (la vraie coquille arrive en phase 1)
+src/               code de l'application (Preact)
+  composants/      en-tête, barre d'onglets, menu, icônes SVG
+  ecrans/          un fichier par écran
+  donnees/         réglages et stockage local (IndexedDB)
+  styles/          design system (thème clair/sombre, polices)
+index.html         point d'entrée
+```
+
+## Lancer l'application
+
+```bash
+npm install
+npm run dev       # développement
+npm run build     # version de production dans dist/
+npm run preview   # tester la version de production (avec le mode hors ligne)
 ```
 
 ## Identité visuelle

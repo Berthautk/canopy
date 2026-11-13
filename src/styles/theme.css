@@ -1,0 +1,59 @@
+/* ===== Design system Yeshaya =====
+   Palette issue de design/identite/Identite_visuelle_Yeshaya.webp */
+:root {
+  --bleu-nuit: #172B49;
+  --bleu-nuit-2: #22395E;
+  --or: #C9A85B;
+  --or-fonce: #A8873C;
+  --ivoire: #F6F1E6;
+  --sauge: #347C75;
+  --blanc: #FFFFFF;
+  --gris: #454B55;
+
+  /* Rôles (mode clair) */
+  --fond: var(--ivoire);
+  --surface: var(--blanc);
+  --surface-2: #FBF8F1;
+  --texte: #1E2733;
+  --texte-doux: var(--gris);
+  --titre: var(--bleu-nuit);
+  --accent: var(--or);
+  --accent-texte: #8A6A24;          /* or lisible sur fond clair (contraste AA) */
+  --bord: #E6DDCB;
+  --ombre: 0 2px 10px rgba(23, 43, 73, .08);
+  --entete: var(--bleu-nuit);
+  --entete-texte: #FFFFFF;
+
+  /* Tuiles d'accès rapide */
+  --tuile-priere: #E7F0FA;
+  --tuile-grandir: #E8F3E6;
+  --tuile-evang: #FBF0DC;
+  --tuile-bible: #EFEAF8;
+
+  --rayon: 16px;
+  --rayon-s: 10px;
+  --barre-h: 64px;
+  --echelle: 1;                     /* taille du texte (Paramètres) */
+
+  --police-titre: 'Poppins', system-ui, sans-serif;
+  --police-texte: 'Roboto', system-ui, sans-serif;
+  color-scheme: light;
+}
+
+:root[data-theme='sombre'] {
+  --fond: #0F1A2C;
+  --surface: #182740;
+  --surface-2: #1D2E4B;
+  --texte: #E9E4D8;
+  --texte-doux: #B7BDC8;
+  --titre: #F3ECDC;
+  --accent-texte: #D9BC75;
+  --bord: #2A3C5C;
+  --ombre: 0 2px 10px rgba(0, 0, 0, .35);
+  --entete: #0A1322;
+  --tuile-priere: #1C3150;
+  --tuile-grandir: #1B3A36;
+  --tuile-evang: #3A3020;
+  --tuile-bible: #2C2848;
+  color-scheme: dark;
+}
