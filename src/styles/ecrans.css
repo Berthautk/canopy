@@ -403,3 +403,4 @@
 .decouvrir-carte img { width: 68px; height: 68px; border-radius: 12px; object-fit: cover; flex: none; }
 .enseignement-court p { line-height: 1.6; }
 .priere-decision { border-color: var(--or); border-width: 2px; }
+.auteur-ens { text-align: center; font-family: var(--police-titre); font-weight: 600; color: var(--titre); margin: -4px 0 10px; display: grid; justify-items: center; gap: 2px; }

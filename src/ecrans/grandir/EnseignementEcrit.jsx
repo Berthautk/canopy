@@ -3,6 +3,7 @@ import { CarteVerset } from '../../composants/Verset.jsx';
 import { TexteRefs } from '../../composants/TexteRefs.jsx';
 import { ENSEIGNEMENTS } from '../../donnees/contenu.js';
 import { partager } from '../../outils/partage.js';
+import { SujetsACocher } from '../priere/Veille.jsx';
 
 // Enseignement écrit (sans audio) : objectifs, introduction, sections ; les versets sont lus dans la Bible.
 export function EnseignementEcrit({ id }) {
@@ -13,6 +14,7 @@ export function EnseignementEcrit({ id }) {
       <div class="theme-hero"><img src={e.image} alt="" />
         <div class="theme-hero__texte"><span class="pastille pastille--or">{e.theme} · {e.lecture_minutes} min de lecture</span><h2>{e.titre}</h2></div></div>
       <p class="veille__theme">{e.resume}</p>
+      {e.auteur && !e.auteur.startsWith("L'Arsenal") && <p class="auteur-ens">{e.auteur}{e.autorisation === 'oui' && <span class="ecouter__autorisation"><Icone nom="verifie" taille={14} /> Utilisé avec autorisation</span>}</p>}
       {e.verset_de_base && <CarteVerset reference={e.verset_de_base} />}
       {e.objectifs?.length > 0 && (
         <section class="carte bloc"><h3><span class="ligne__icone"><Icone nom="cible" /></span> Objectifs</h3>
@@ -27,9 +29,10 @@ export function EnseignementEcrit({ id }) {
           {s.blocs.map((b) => b.verset ? <CarteVerset reference={b.verset} /> : b.sous_titre ? <h3 class="section-ens__sous">{b.sous_titre}</h3> : <p class="section-ens__texte"><TexteRefs texte={b.texte} /></p>)}
         </section>
       ))}
+      {e.sujets?.length > 0 && <><h2 class="titre-section">Sujets de prière</h2><SujetsACocher sujets={e.sujets} /></>}
       <button class="bouton bouton--contour" style="width:100%;margin-top:16px" onClick={() => partager({ titre: e.titre, texte: `${e.titre}\n${e.resume}`, chemin: 'grandir/enseignement/' + e.id })}>
         <Icone nom="partager" taille={18} /> Partager cet enseignement</button>
-      {e.source && <p class="source-mention">Source : {e.auteur}</p>}
+      {e.source && <p class="source-mention">{e.source.startsWith('Arsenal') ? 'Source : ' + e.auteur : e.source}</p>}
     </div>
   );
 }
