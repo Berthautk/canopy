@@ -1,0 +1,68 @@
+{
+ "id": "priere-mon-eglise",
+ "categorie": "Ma vie avec Dieu",
+ "ordre": 15,
+ "titre": "Mon église locale",
+ "nom_court": "Mon église",
+ "image": "/assets/priere/priere-pour-eglise.webp",
+ "resume": "Sujets de prière pour son église locale, ses responsables, ses membres et sa mission.",
+ "enseignement": "Christ a aimé l'Église et s'est livré pour elle (Éphésiens 5:25). Prier pour son église, c'est participer à l'œuvre que Jésus accomplit en elle.",
+ "versets": [
+  "Ac 2:42",
+  "Ép 4:11-12",
+  "Hé 13:17"
+ ],
+ "auteur": "Yeshaya",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "sujets": [
+  {
+   "titre": "Remercier pour l'église",
+   "texte": "Remercions Dieu pour notre église locale, pour ceux qui nous y ont accueillis et pour tout ce que nous y avons reçu. (Éphésiens 2:19)"
+  },
+  {
+   "titre": "Le pasteur",
+   "texte": "Prions pour notre pasteur et sa famille : que Dieu les garde, les fortifie et leur donne sa sagesse pour veiller sur nos âmes. (Hébreux 13:17)"
+  },
+  {
+   "titre": "Les responsables",
+   "texte": "Demandons à Dieu de bénir les anciens, diacres et responsables, et de les garder humbles et fidèles. (1 Thessaloniciens 5:12-13)"
+  },
+  {
+   "titre": "L'enseignement",
+   "texte": "Prions afin que la Parole soit enseignée fidèlement dans notre église et que nous persévérions dans l'enseignement des apôtres. (Actes 2:42)"
+  },
+  {
+   "titre": "L'unité",
+   "texte": "Implorons la grâce de Dieu afin qu'il garde notre église dans l'unité de l'Esprit par le lien de la paix. (Éphésiens 4:3)"
+  },
+  {
+   "titre": "L'amour fraternel",
+   "texte": "Demandons au Seigneur que l'on reconnaisse ses disciples à l'amour qu'ils ont les uns pour les autres. (Jean 13:35)"
+  },
+  {
+   "titre": "Les membres éloignés",
+   "texte": "Prions pour ceux qui ont abandonné l'assemblée, afin que Dieu les ramène et les restaure. (Hébreux 10:25)"
+  },
+  {
+   "titre": "Les jeunes et les enfants",
+   "texte": "Demandons à Dieu de garder les enfants et les jeunes de notre église, et de susciter parmi eux des serviteurs. (Psaume 78:4)"
+  },
+  {
+   "titre": "Les dons et le service",
+   "texte": "Prions afin que chaque membre trouve sa place et mette au service des autres le don qu'il a reçu. (1 Pierre 4:10)"
+  },
+  {
+   "titre": "La mission",
+   "texte": "Demandons au Seigneur d'ajouter chaque jour à l'Église ceux qui sont sauvés, et de faire de notre église une lumière dans le quartier. (Actes 2:47)"
+  },
+  {
+   "titre": "La prière",
+   "texte": "Prions afin que notre église soit une maison de prière, où l'on prie avec persévérance. (Matthieu 21:13)"
+  },
+  {
+   "titre": "La protection",
+   "texte": "Demandons à Dieu de protéger notre église contre les divisions, les fausses doctrines et les attaques de l'ennemi. (Matthieu 16:18 ; Actes 20:28-30)"
+  }
+ ]
+}
