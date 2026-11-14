@@ -601,3 +601,5 @@
 .verset-memoire { font-family: var(--police-verset, serif); font-size: 1.15rem; line-height: 1.7; letter-spacing: .3px; margin: 10px 0 12px; }
 .defi--prochain { outline: 2px solid var(--or); }
 .temoignage-carte h3 { margin: 4px 0; }
+.diaporama__verset { text-align: center; }
+.diaporama__verset .verset__texte { color: #fff; font-size: 1.1rem; line-height: 1.6; }

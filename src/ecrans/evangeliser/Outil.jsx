@@ -21,6 +21,10 @@ export function Outil({ id }) {
   const [diapo, setDiapo] = useState(false);
   const [fait, setFait] = useState(false);
   const [ordre, setOrdre] = useState(o?.ordres ? Object.keys(o.ordres)[0] : null);
+  // Les étapes ne s'affichent qu'au fur et à mesure de la présentation (pour que l'on suive le message).
+  const cleVu = 'yeshaya:vu-' + id + '-' + (ordre || '');
+  const [vu, setVu] = useState(() => { try { return +localStorage.getItem(cleVu) || 0; } catch { return 0; } });
+  const noterVu = (n) => setVu((x) => { const m = Math.max(x, n); try { localStorage.setItem(cleVu, m); } catch {} return m; });
   if (!o) return <div class="page"><p class="ligne__desc">Contenu introuvable.</p></div>;
 
   // Blocs lus à voix haute, dans l'ordre de la page (l'index sert au surlignage).
@@ -50,15 +54,15 @@ export function Outil({ id }) {
           <span class="ligne__desc">Chaque image apparaît, la voix explique, puis « Suivant ». Idéal pour montrer à quelqu'un.</span></span>
       </button>
       {o.ordres && <div class="segments" role="group" aria-label="Commencer par" style="margin-top:12px">
-        {Object.keys(o.ordres).map((k) => <button aria-pressed={ordre === k} onClick={() => { arreterVoix(); setOrdre(k); }}>{k}</button>)}
+        {Object.keys(o.ordres).map((k) => <button aria-pressed={ordre === k} onClick={() => { arreterVoix(); setOrdre(k); try { setVu(+localStorage.getItem('yeshaya:vu-' + id + '-' + k) || 0); } catch { setVu(0); } }}>{k}</button>)}
       </div>}
-      <BarreEcoute key={ordre} id={o.id} titre="Écouter toute la présentation" blocs={blocs} />
-      {diapo && <Presentation id={o.id} titre={o.titre} fermer={() => setDiapo(false)}
+      {diapo && <Presentation id={o.id} titre={o.titre} fermer={() => setDiapo(false)} surEtape={noterVu}
         diapos={[...etapes.map((e) => ({ image: e.image, titre: e.titre, blocs: [blocs[e.iTitre], ...e.iTextes.map((i) => blocs[i]), ...e.iVersets.map((i) => blocs[i])] })),
           { image: etapes[etapes.length - 1].image, titre: o.decision ? 'Prière' : 'Prière pour recevoir Jésus', blocs: [blocs[iIntro], blocs[iPriere]] }]}
         finale={<BoutonDecision o={o} p={p} fait={fait} setFait={setFait} style="width:100%;margin:8px 0" classe="bouton bouton--or" />} />}
 
-      {etapes.map((e) => (
+      {vu === 0 && <p class="ligne__desc" style="margin:14px 4px">Les étapes apparaîtront ici au fur et à mesure de la présentation.</p>}
+      {etapes.slice(0, vu).map((e) => (
         <section class="carte etape-outil">
           <img class="etape-outil__image" src={e.image} alt={e.titre} loading="lazy" />
           <div class="etape-outil__corps">
@@ -69,6 +73,7 @@ export function Outil({ id }) {
         </section>
       ))}
 
+      {vu > etapes.length && <>
       <section class="carte bloc priere-modele" {...va(iPriere)}>
         <h3><span class="ligne__icone"><Icone nom="priere" /></span> {o.decision ? 'Prière' : 'Prière pour recevoir Jésus'}</h3>
         <p class="ligne__desc" {...va(iIntro)}>Prions ensemble. Répète après moi, du fond de ton cœur.</p>
@@ -81,6 +86,7 @@ export function Outil({ id }) {
         <a class="bouton bouton--plein" href="#/grandir/enseignement/affermissement-1-le-salut" style="width:100%">Grandir : « Le salut, ce que Dieu a fait pour toi »</a>
         <a class="bouton bouton--contour" href="#/grandir/nouveau-converti" style="width:100%;margin-top:8px">Commencer le parcours « Nouveau converti »</a>
       </section>
+      </>}
       {o.video && <LienVideo url={o.video} auteur={o.video_auteur} />}
       <div class="verset__actions" style="justify-content:center;margin-top:12px">
         <button class="bouton bouton--contour bouton--petit" onClick={() => partager({ titre: o.titre, texte: o.resume, chemin: 'evangeliser/outil/' + o.id })}><Icone nom="partager" taille={18} /> Partager</button>
