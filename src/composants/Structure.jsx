@@ -4,6 +4,7 @@ import { aller, retour } from '../outils/routeur.js';
 import { Avatar } from './Avatar.jsx';
 import { profil } from '../donnees/profil.js';
 import { useSignal } from '../outils/signal.js';
+import { reglages, modifierReglages } from '../donnees/reglages.js';
 
 export function Logo() {
   return (
@@ -65,18 +66,22 @@ const MENU = [
 ];
 
 export function Tiroir({ ouvert, fermer }) {
-  const p = useSignal(profil);
+  const p = useSignal(profil), r = useSignal(reglages);
   if (!ouvert) return null;
   return (
     <>
       <div class="voile" onClick={fermer} />
       <aside class="tiroir" role="dialog" aria-label="Menu">
-        <div class="tiroir__tete">
-          <a href="#/parametres" onClick={fermer} aria-label="Mon profil"><Avatar taille={52} /></a>
+        <a class="tiroir__tete" href="#/parametres" onClick={fermer} aria-label="Modifier mon profil">
+          <Avatar taille={52} />
           <div>
-            <h2 style="font-size:1.1rem">{p.prenom ? `Bonjour ${p.prenom}` : 'Yeshaya'}</h2>
-            <p style="font-size:.8rem;color:var(--texte-doux)">« L'Éternel est salut »</p>
+            <h2 style="font-size:1.1rem">{p.prenom ? `Bonjour ${p.prenom}` : 'Mon profil'}</h2>
+            <p style="font-size:.8rem;color:var(--or-fonce);font-weight:600">Modifier ma photo et mon prénom ›</p>
           </div>
+        </a>
+        <p class="ligne__desc" style="margin:4px 4px 6px">Affichage</p>
+        <div class="segments" role="group" aria-label="Thème" style="margin-bottom:12px">
+          {[['clair', 'Clair'], ['sombre', 'Sombre'], ['auto', 'Auto']].map(([v, t]) => <button aria-pressed={r.theme === v} onClick={() => modifierReglages({ theme: v })}>{t}</button>)}
         </div>
         <div class="liste">
           {MENU.map(([id, libelle, icone]) => (

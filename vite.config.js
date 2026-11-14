@@ -45,8 +45,8 @@ export default defineConfig({
         skipWaiting: true,
         // Coquille de l'app : précachée pour fonctionner hors ligne dès la 1re visite.
         globPatterns: ['**/*.{js,css,html,woff2,ico,webmanifest}', 'icons/*.png'],
-        // Les illustrations ne sont pas précachées (poids) : mises en cache à la demande.
-        globIgnores: ['assets/**', 'bible/**', 'contenus/**'],
+        // Les illustrations ne sont pas précachées (poids) : mises en cache à la demande, ou toutes d'un coup (Mes téléchargements).
+        globIgnores: ['assets/**', 'bible/**'],   // les textes (contenus/) sont précachés : toute l'app fonctionne hors ligne
         navigateFallback: '/index.html',
         navigateFallbackDenylist: [/^\/api\//, /^\/confidentialite\.html/],
         runtimeCaching: [

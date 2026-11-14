@@ -5,11 +5,14 @@ import { notifier } from '../../composants/Notification.jsx';
 import { telecharges, enCours, supprimer, toutSupprimer, tailleTotale, formatTaille } from '../../audio/telechargements.js';
 import { etatTelechargement, verifierHorsLigne, CACHE_BIBLE } from '../../bible/bible.js';
 import { useSignal } from '../../outils/signal.js';
+import { etatImages, verifierImages, telechargerImages } from '../../outils/horsLigne.js';
 
 // Écran 12 : mes téléchargements (audios hors ligne, Bible, espace utilisé).
 export function Telechargements() {
   const t = useSignal(telecharges), e = useSignal(enCours), bible = useSignal(etatTelechargement);
   const [estimation, setEstimation] = useState(null);
+  const img = useSignal(etatImages);
+  useEffect(() => { verifierImages(); }, []);
   useEffect(() => { verifierHorsLigne(); navigator.storage?.estimate?.().then(setEstimation).catch(() => {}); }, [t, bible.statut]);
   const liste = Object.entries(t).sort(([, a], [, b]) => b.date.localeCompare(a.date));
   const total = tailleTotale(t);
@@ -44,6 +47,15 @@ export function Telechargements() {
           </div>
         )}
       </div>
+
+      <h2 class="titre-section">Toute l'application sans internet</h2>
+      <section class="carte bloc">
+        <p style="margin-top:0">Les textes de l'application (enseignements, prières, parcours, jeux) sont déjà gardés sur ce téléphone : ils fonctionnent sans internet. Pour que <b>tout</b> fonctionne hors ligne, téléchargez aussi les illustrations (environ 7 Mo) et la Bible (environ 4,5 Mo), une seule fois.</p>
+        <p class="ligne__desc">Illustrations : {img.total ? `${img.fait} sur ${img.total}` : '…'}{img.statut === 'complet' ? ' · toutes disponibles hors ligne' : ''}</p>
+        {img.total > 0 && <div class="progression"><span style={{ width: (img.fait / img.total) * 100 + '%' }} /></div>}
+        {img.statut !== 'complet' && <button class="bouton bouton--or" style="width:100%;margin-top:10px" disabled={img.statut === 'encours'} onClick={async () => { await telechargerImages(); notifier('Illustrations disponibles sans internet'); }}>
+          <Icone nom="telecharger" taille={18} /> {img.statut === 'encours' ? 'Téléchargement…' : 'Télécharger les illustrations'}</button>}
+      </section>
 
       <h2 class="titre-section">Bible</h2>
       <div class="carte ligne">

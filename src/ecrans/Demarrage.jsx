@@ -7,12 +7,12 @@ const PROMESSES = [
   'Aucune publicité',
   'Aucun compte',
   'Votre journal et vos notes restent sur votre téléphone',
-  'Fonctionne sans internet',
+  'Fonctionne sans internet (la Bible et les images se téléchargent une seule fois)',
 ];
 
 // Écran 1 : démarrage. Au premier lancement, affiche le bandeau des engagements et un bouton « Commencer ».
 export function Demarrage({ premierLancement, surCommencer }) {
-  const [etape, setEtape] = useState('accueil');   // accueil → politique → (refus)
+  const [etape, setEtape] = useState('vision');   // vision → accueil → politique
   return (
     <div class="demarrage">
       <img class="demarrage__fond" src="/assets/lieux-bibliques/sentier-coucher-de-soleil.webp" alt="" />
@@ -22,7 +22,14 @@ export function Demarrage({ premierLancement, surCommencer }) {
         <h1 class="demarrage__nom">YESHAYA</h1>
         <p class="demarrage__slogan">« L'Éternel est salut »</p>
       </div>
-      {premierLancement && etape === 'accueil' ? (
+      {premierLancement && etape === 'vision' ? (
+        <div class="demarrage__bandeau carte demarrage__vision">
+          <h2>Notre vision</h2>
+          <p>Conduire chaque personne à Jésus-Christ, l'affermir dans la foi, et en faire un disciple qui prie, qui grandit dans la sainteté et qui annonce l'Évangile autour de lui.</p>
+          <p class="ligne__desc">Prière · Bible · Enseignements · Évangélisation · Jeux bibliques</p>
+          <button class="bouton bouton--plein" onClick={() => setEtape('accueil')}>Découvrir Yeshaya</button>
+        </div>
+      ) : premierLancement && etape === 'accueil' ? (
         <div class="demarrage__bandeau carte">
           <ul>
             {PROMESSES.map((p) => <li>{p}</li>)}

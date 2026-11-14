@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node tools/generer-politique.mjs && vite build",
+    "build": "node tools/generer-politique.mjs && node tools/generer-liste-assets.mjs && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

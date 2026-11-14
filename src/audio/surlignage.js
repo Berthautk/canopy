@@ -34,12 +34,13 @@ function suivre(el, rectMot) {
   mesurerHaut();
   const r = rectMot || el.getBoundingClientRect();
   const h = innerHeight;
-  if (r.top < HAUT - 40 || r.bottom > h - BAS) scrollBy({ top: r.top - HAUT, behavior: 'smooth' });
+  if (r.bottom > h - BAS) scrollBy({ top: Math.min(r.bottom - (h - BAS) + 48, r.top - HAUT), behavior: 'smooth' });   // juste assez pour voir la ligne
+  else if (r.bottom < HAUT) scrollBy({ top: r.top - HAUT, behavior: 'smooth' });
 }
 function mettreAJour(v) {
   const elActif = v.id && v.lecture ? document.querySelector('[data-voix-actif="oui"]') : null;
   const cle = v.id + ':' + v.index;
-  if (elActif && cle !== dernierBloc) { dernierBloc = cle; mesurerHaut(); const r = elActif.getBoundingClientRect(); if (r.top < HAUT - 40 || r.top > innerHeight - BAS - 60) suivre(elActif); }
+  if (elActif && cle !== dernierBloc) { dernierBloc = cle; mesurerHaut(); const r = elActif.getBoundingClientRect(); if (r.bottom < HAUT || r.top > innerHeight - BAS - 30) suivre(elActif); }
   if (!possible) return;
   if (!v.id || !v.lecture || reglages.valeur.suivi === 'paragraphe' || !v.phrases?.length) { effacer(); return; }
   const el = document.querySelector('[data-voix-actif="oui"]');
