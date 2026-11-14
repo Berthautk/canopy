@@ -1,7 +1,7 @@
 import { Icone } from '../composants/Icone.jsx';
 import { usePassage, TextePassage, cheminMontrer } from '../composants/Verset.jsx';
 import { TelechargementBible } from '../composants/TelechargementBible.jsx';
-import { versetDuJour, audioDuJour, veilleDuMoment, meditationDuJour } from '../donnees/contenu.js';
+import { versetDuJour, enseignementDuJour, veilleDuMoment, meditationDuJour } from '../donnees/contenu.js';
 import { orizon, jourCourant } from '../donnees/orizon.js';
 import { BoutonLecture } from '../composants/Audio.jsx';
 import { derniereEcoute, jouer, formatTemps, lecteur } from '../audio/lecteur.js';
@@ -14,7 +14,7 @@ export function Accueil() {
   const etat = usePassage(versetDuJour());
   const v = veilleDuMoment(), m = meditationDuJour(new Date());
   const o = useSignal(orizon);
-  const piste = audioDuJour();
+  const ens = enseignementDuJour(new Date());
   const derniere = useSignal(derniereEcoute);
   const enCours = useSignal(lecteur).piste;
   const reprendre = derniere && derniere.position > 5 && derniere.position < derniere.duree - 5 && enCours?.id !== derniere.piste.id ? derniere : null;
@@ -42,15 +42,15 @@ export function Accueil() {
           <a class="carte aujourdhui__carte" href={o.faits.length ? '#/orizon/jour/' + jourCourant() : '#/grandir/formation'}><Icone nom="grandir" taille={22} /><b>{o.faits.length ? 'Mon parcours' : 'Former le disciple'}</b><span>{o.faits.length ? 'Vaincre en 90 jours · jour ' + jourCourant() : '40 leçons pour grandir'}</span></a>
         </div>
 
-        {piste && (
+        {ens && (
           <section class="carte audio-jour">
-            <a href={'#/ecouter/' + piste.id}><img src={piste.image} alt="" loading="lazy" /></a>
-            <a class="audio-jour__corps" href={'#/ecouter/' + piste.id}>
-              <h2>Audio du jour {piste.exemple && <span class="etiquette-exemple">EXEMPLE</span>}</h2>
-              <p class="audio-jour__auteur">{piste.auteur}</p>
-              <p class="audio-jour__titre">{piste.titre}</p>
+            <a href={'#/grandir/enseignement/' + ens.id}><img src={ens.image} alt="" loading="lazy" /></a>
+            <a class="audio-jour__corps" href={'#/grandir/enseignement/' + ens.id}>
+              <h2>Enseignement du jour</h2>
+              <p class="audio-jour__auteur">{ens.lecture_minutes} min · lu à voix haute</p>
+              <p class="audio-jour__titre">{ens.titre}</p>
             </a>
-            <BoutonLecture piste={piste} />
+            <a class="btn-lecture" style="width:52px;height:52px" href={'#/grandir/enseignement/' + ens.id + '?ecouter=1'} aria-label={'Écouter ' + ens.titre}><Icone nom="lecture" taille={24} /></a>
           </section>
         )}
         {reprendre && (

@@ -642,8 +642,9 @@
 .niveau-onglet { display: grid; gap: 2px; text-align: left; padding: 10px 12px; border-radius: 14px; border: 1.5px solid var(--bord); background: var(--surface); color: var(--titre); }
 .niveau-onglet b { font-family: var(--police-titre); font-size: .98rem; }
 .niveau-onglet span { font-size: .76rem; color: var(--texte-doux); line-height: 1.25; }
-.niveau-onglet[aria-selected='true'] { background: var(--bleu-nuit, #142340); border-color: var(--bleu-nuit, #142340); color: #fff; }
-.niveau-onglet[aria-selected='true'] span { color: #DCE3EE; }
+.niveau-onglet[aria-selected='true'] { background: var(--or); border-color: var(--or); color: var(--bleu-nuit, #142340); box-shadow: 0 4px 12px rgba(0,0,0,.18); }
+.niveau-onglet[aria-selected='true'] span { color: #3a3320; }
+.niveau-onglet[aria-selected='true'] .niveau-onglet__marche i { background: var(--bleu-nuit, #142340); }
 .niveau-onglet--tout { grid-column: 1 / -1; grid-template-columns: auto 1fr; column-gap: 10px; align-items: center; }
 .niveau-onglet--tout .niveau-onglet__marche { grid-row: span 2; }
 .niveau-onglet__marche { display: flex; align-items: flex-end; gap: 2px; height: 16px; margin-bottom: 4px; color: var(--or); }
@@ -700,3 +701,4 @@
 .veille-ligne--active { border: 2px solid var(--or); }
 .pq-carte { border: 2px solid var(--or); }
 .categorie-priere__voir { margin-left: auto; font-size: .78rem; font-weight: 700; color: var(--or-fonce); }
+.etape-commandes--collant { position: sticky; top: calc(108px + env(safe-area-inset-top)); z-index: 12; background: var(--fond); padding: 8px 0; margin: 8px 0 0; }

@@ -46,6 +46,7 @@ export function Veille({ id, guide }) {
   const etapes = [...v.phases, { num: 'proc', titre: 'Proclamations', texte: 'Termine en déclarant à voix haute ces paroles de foi.', sujets: v.proclamations }];
   const [n, setN] = useState(-1);
   const fois = useSignal(aiPrie)[v.id] || [];
+  const vaE = useVoixActive(`${v.id}-${n}`);
 
   if (n < 0) return (
     <div class="page">
@@ -70,12 +71,14 @@ export function Veille({ id, guide }) {
     <div class="page">
       <div class="progression progression--fine" style="margin-top:12px"><span style={{ width: ((n + 1) / etapes.length) * 100 + '%' }} /></div>
       <p class="quiz__compteur">{v.titre} · étape {n + 1} sur {etapes.length}</p>
-      <h2 class="phase__titre">{e.num !== 'proc' && <span class="phase__num">{e.num}</span>}{e.titre}</h2>
-      {e.sous_titre && <p class="phase__sous-titre"><TexteRefs texte={e.sous_titre} /></p>}
-      {e.texte && <p class="phase__texte"><TexteRefs texte={e.texte} /></p>}
-      <GuidePhase num={e.num} />
       <BarreEcoute key={'v' + n} id={`${v.id}-${n}`} titre="Écouter cette étape"
         blocs={[{ texte: `${e.titre}. ${e.sous_titre || ''}. ${e.texte || ''}` }, ...blocsSujets(e.sujets)]} />
+      <div {...vaE(0)}>
+        <h2 class="phase__titre">{e.num !== 'proc' && <span class="phase__num">{e.num}</span>}{e.titre}</h2>
+        {e.sous_titre && <p class="phase__sous-titre"><TexteRefs texte={e.sous_titre} /></p>}
+        {e.texte && <p class="phase__texte"><TexteRefs texte={e.texte} /></p>}
+      </div>
+      <GuidePhase num={e.num} />
       <SujetsACocher key={n} sujets={e.sujets} voixId={`${v.id}-${n}`} debut={1} />
       <div class="chemin-etape__nav">
         <button class="bouton bouton--contour" onClick={() => { setN(n - 1); scrollTo(0, 0); }}><Icone nom="precedent" taille={18} /> {n === 0 ? 'Sommaire' : 'Précédent'}</button>

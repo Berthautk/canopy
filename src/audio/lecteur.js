@@ -16,7 +16,7 @@ const maj = (c) => { lecteur.valeur = { ...lecteur.valeur, ...c }; };
 let positions = {};
 export const derniereEcoute = signal(null);
 export async function chargerLecteur() {
-  try { positions = (await get(CLE_POS)) || {}; derniereEcoute.valeur = (await get(CLE_DERNIERE)) || null; } catch {}
+  try { positions = (await get(CLE_POS)) || {}; const d = (await get(CLE_DERNIERE)) || null; derniereEcoute.valeur = d?.piste?.exemple ? null : d; } catch {}
 }
 let dernierEnregistrement = 0;
 function memoriser(force) {

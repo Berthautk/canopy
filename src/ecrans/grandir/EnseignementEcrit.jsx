@@ -4,7 +4,8 @@ import { CarteVerset } from '../../composants/Verset.jsx';
 import { TexteRefs } from '../../composants/TexteRefs.jsx';
 import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 import { LienVideo } from '../../composants/LienVideo.jsx';
-import { useEffect, useState } from 'preact/hooks';
+import { useEffect, useState, useRef } from 'preact/hooks';
+import { lireAVoixHaute } from '../../audio/voix.js';
 import { chargerEnseignement } from '../../donnees/contenu.js';
 import { partager } from '../../outils/partage.js';
 import { SujetsACocher, blocsSujets } from '../priere/Veille.jsx';
@@ -29,7 +30,7 @@ function plan(e) {
 }
 
 // Enseignement écrit : objectifs, introduction, sections ; versets lus dans la Bible ; écoute à voix haute.
-export function EnseignementEcrit({ id }) {
+export function EnseignementEcrit({ id, ecouter }) {
   const [etat, setEtat] = useState({ chargement: true });
   useEffect(() => {
     let actif = true; setEtat({ chargement: true });
@@ -37,12 +38,14 @@ export function EnseignementEcrit({ id }) {
     return () => { actif = false; };
   }, [id]);
   const va = useVoixActive(id);
+  const lance = useRef(false);
   const e = etat.e;
   if (etat.chargement) return <div class="page"><p class="verset__attente" style="margin-top:16px">Chargement de l'enseignement…</p></div>;
   if (etat.erreur) return <div class="page"><p class="verset__erreur" style="margin-top:16px">Cet enseignement n'est pas encore sur votre téléphone. Connectez-vous une fois pour l'ouvrir : il restera ensuite disponible hors ligne.</p></div>;
   if (!e) return <div class="page"><p class="ligne__desc">Enseignement introuvable.</p></div>;
   const { blocs, pos } = plan(e);
   const imgs = illustrations(e);
+  if (ecouter && !lance.current) { lance.current = true; setTimeout(() => lireAVoixHaute(id, blocs), 300); }
   return (
     <div class="page enseignement-ecrit">
       <div class="theme-hero"><img src={e.image} alt="" />

@@ -71,6 +71,18 @@ export function Outil({ id }) {
       <div class="etape-progres" aria-hidden="true"><span style={{ width: `${((k + (lue ? 1 : 0.4)) / (nb + 1)) * 100}%` }} /></div>
       <p class="diaporama__etape" style="color:var(--texte-doux);margin:6px 0 0">{priere ? 'Prière' : `Étape ${k + 1} sur ${nb}`}</p>
 
+      <div class="etape-commandes etape-commandes--collant">
+        <button class="rond rond--grand" disabled={k === 0} onClick={() => aller(k - 1)} aria-label="Étape précédente"><Icone nom="precedent" taille={24} /></button>
+        {v.disponible && (ici && v.lecture
+          ? <button class="bouton bouton--contour" onClick={pauseVoix}><Icone nom="pause" taille={20} /> Pause</button>
+          : ici && !v.termine
+            ? <button class="bouton bouton--contour" onClick={reprendreVoix}><Icone nom="lecture" taille={20} /> Reprendre</button>
+            : <button class={'bouton ' + (lue ? 'bouton--contour' : 'bouton--or')} onClick={ecouter}><Icone nom={lue ? 'rejouer' : 'lecture'} taille={20} /> {lue ? 'Réécouter' : 'Écouter'}</button>)}
+        {!priere && <button class="bouton bouton--plein" disabled={!lue} onClick={() => aller(k + 1)}>
+          <>Suivant <Icone nom="chevron" taille={20} /></></button>}
+      </div>
+      {!lue && <p class="ligne__desc" style="text-align:center;margin:6px 0 0">{v.disponible ? '« Suivant » s\'active quand la voix a fini.' : 'Prends le temps de lire ; « Suivant » s\'active dans un instant.'}</p>}
+
       {!priere ? (
         <section class="carte etape-outil" key={vid}>
           <img class="etape-outil__image" src={e.image} alt={e.titre} />
@@ -87,18 +99,6 @@ export function Outil({ id }) {
           <p {...va(1)}><em>{o.priere}</em></p>
         </section>
       )}
-
-      <div class="etape-commandes">
-        <button class="rond rond--grand" disabled={k === 0} onClick={() => aller(k - 1)} aria-label="Étape précédente"><Icone nom="precedent" taille={24} /></button>
-        {v.disponible && (ici && v.lecture
-          ? <button class="bouton bouton--contour" onClick={pauseVoix}><Icone nom="pause" taille={20} /> Pause</button>
-          : ici && !v.termine
-            ? <button class="bouton bouton--contour" onClick={reprendreVoix}><Icone nom="lecture" taille={20} /> Reprendre</button>
-            : <button class={'bouton ' + (lue ? 'bouton--contour' : 'bouton--or')} onClick={ecouter}><Icone nom={lue ? 'rejouer' : 'lecture'} taille={20} /> {lue ? 'Réécouter' : 'Écouter'}</button>)}
-        {!priere && <button class="bouton bouton--plein" disabled={!lue} onClick={() => aller(k + 1)}>
-          <>Suivant <Icone nom="chevron" taille={20} /></></button>}
-      </div>
-      {!lue && <p class="ligne__desc" style="text-align:center;margin:6px 0 0">{v.disponible ? '« Suivant » s\'active quand la voix a fini.' : 'Prends le temps de lire ; « Suivant » s\'active dans un instant.'}</p>}
 
       {priere && lue && <>
         <BoutonDecision o={o} p={p} fait={fait} setFait={setFait} style="width:100%;margin-top:12px" classe="bouton bouton--or" />

@@ -23,7 +23,23 @@ function motsDe(el) {
 
 function effacer() { try { CSS.highlights.delete('voix-mot'); CSS.highlights.delete('voix-lu'); } catch {} }
 
+// Suivre la lecture sans faire sauter la page : on ne fait défiler que si le passage lu (ou le mot prononcé)
+// sort de l'écran, et on le replace juste sous les barres du haut.
+const BAS = 96;
+let HAUT = 190;
+// Hauteur occupée en haut par l'en-tête et les barres collantes (barre d'écoute, commandes).
+const mesurerHaut = () => { let h = 0; document.querySelectorAll('.entete, .barre-ecoute--active, .etape-commandes--collant').forEach((x) => { const b = x.getBoundingClientRect().bottom; if (b > h && b < innerHeight / 2) h = b; }); HAUT = Math.max(120, h + 14); };
+let dernierBloc = '';
+function suivre(el, rectMot) {
+  mesurerHaut();
+  const r = rectMot || el.getBoundingClientRect();
+  const h = innerHeight;
+  if (r.top < HAUT - 40 || r.bottom > h - BAS) scrollBy({ top: r.top - HAUT, behavior: 'smooth' });
+}
 function mettreAJour(v) {
+  const elActif = v.id && v.lecture ? document.querySelector('[data-voix-actif="oui"]') : null;
+  const cle = v.id + ':' + v.index;
+  if (elActif && cle !== dernierBloc) { dernierBloc = cle; mesurerHaut(); const r = elActif.getBoundingClientRect(); if (r.top < HAUT - 40 || r.top > innerHeight - BAS - 60) suivre(elActif); }
   if (!possible) return;
   if (!v.id || !v.lecture || reglages.valeur.suivi === 'paragraphe' || !v.phrases?.length) { effacer(); return; }
   const el = document.querySelector('[data-voix-actif="oui"]');
@@ -39,10 +55,11 @@ function mettreAJour(v) {
   try {
     const r = new Range(); r.setStart(mots[k].n, mots[k].d); r.setEnd(mots[k].n, mots[k].f);
     CSS.highlights.set('voix-mot', new Highlight(r));
+    const rm = r.getBoundingClientRect(); if (rm.bottom > innerHeight - BAS) suivre(el, rm);
     if (k > 0) { const lu = new Range(); lu.setStart(mots[0].n, mots[0].d); lu.setEnd(mots[k - 1].n, mots[k - 1].f); CSS.highlights.set('voix-lu', new Highlight(lu)); }
     else CSS.highlights.delete('voix-lu');
   } catch { effacer(); }
 }
 
 let prevu = 0;
-if (possible) voix.abonner((v) => { cancelAnimationFrame(prevu); prevu = requestAnimationFrame(() => mettreAJour(v)); });
+voix.abonner((v) => { cancelAnimationFrame(prevu); prevu = requestAnimationFrame(() => mettreAJour(v)); });

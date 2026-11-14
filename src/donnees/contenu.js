@@ -14,7 +14,8 @@ export const MEDITATIONS = dossier('meditations').sort((a, b) => (a.numero ?? 0)
 export const CHEMIN_DU_SALUT = fichiers['/content/chemin-du-salut.json'];
 export const VERSETS_DU_JOUR = fichiers['/content/versets-du-jour.json']?.versets ?? [];
 export const PLANS = fichiers['/content/plans/plans.json']?.plans ?? [];
-export const ENSEIGNEMENTS = [...INDEX_ENSEIGNEMENTS].sort((a, b) => (b.date_ajout || '').localeCompare(a.date_ajout || '') || a.titre.localeCompare(b.titre));
+// Les exemples de démonstration (faux audios) ne sont plus affichés.
+export const ENSEIGNEMENTS = [...INDEX_ENSEIGNEMENTS].filter((e) => !e.exemple).sort((a, b) => (b.date_ajout || '').localeCompare(a.date_ajout || '') || a.titre.localeCompare(b.titre));
 export const AUTEURS = fichiers['/content/auteurs.json']?.auteurs ?? [];
 const parOrdre = (a, b) => (a.ordre ?? 99) - (b.ordre ?? 99) || a.titre.localeCompare(b.titre);
 export const PRIERES = dossier('prieres').sort(parOrdre);
@@ -58,6 +59,8 @@ export const AUDIOS = Object.fromEntries([...Object.entries(fichiers), ...INDEX_
     url: urlAudio(v.audio), image: v.image || '/assets/audio/casque-et-bible.webp', duree: v.duree || null,
     type: TYPES[k.split('/')[2]] || 'Audio', exemple: !!v.exemple,
   }]));
+// Enseignement du jour : un enseignement écrit, lu à voix haute par l'application.
+export const enseignementDuJour = (d) => { const l = ENSEIGNEMENTS.filter((e) => e.lecture_minutes && !e.audio); return l.length ? l[(jourDeLAnnee(d) * 7) % l.length] : null; };
 export const audioDuJour = (d) => { const l = ENSEIGNEMENTS.filter((e) => AUDIOS[e.id]); return l.length ? AUDIOS[l[(jourDeLAnnee(d) - 1) % l.length].id] : null; };
 
 // Numéro du jour dans l'année (1 à 366), pour faire tourner versets et méditations.

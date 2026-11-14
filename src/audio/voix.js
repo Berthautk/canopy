@@ -58,7 +58,6 @@ async function lireBloc(i, g) {
   phrases = await preparerBloc(i); iPhrase = 0;
   if (g !== generation) return;
   maj({ phrases, iPhrase: 0, mot: null });
-  document.querySelector(`[data-voix="${i}"]`)?.scrollIntoView?.({ block: 'center', behavior: 'smooth' });
   direPhrase(i, g);
 }
 
