@@ -5,7 +5,7 @@ import { chargerLivre } from '../../bible/bible.js';
 import { PAR_CODE, LIVRES, cleVerset, ecrireReference, lireReference } from '../../bible/references.js';
 import { annotations, COULEURS, surligner, basculerFavori, ecrireNote, memoriserPosition } from '../../donnees/annotations.js';
 import { useSignal } from '../../outils/signal.js';
-import { partager, copier } from '../../outils/partage.js';
+import { partager, copier, partagerImageVerset } from '../../outils/partage.js';
 import { aller, remplacer } from '../../outils/routeur.js';
 import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 
@@ -185,6 +185,7 @@ export function Lecture({ code, c, vise }) {
               <Icone nom="copier" /><span>Copier</span></button>
             <button onClick={() => partager({ titre: refSel, texte: `« ${texteSel} » — ${refSel} (LSG)`, chemin: `bible/lire/${code}/${c}/${sel}` })}>
               <Icone nom="partager" /><span>Partager</span></button>
+            <button onClick={async () => { const r = await partagerImageVerset({ texte: texteSel, reference: refSel }); if (r === 'telecharge') notifier('Image enregistrée'); }}><Icone nom="appareil" /><span>Image</span></button>
             <a href={`#/montrer/${code}/${c}/${plages[0][0]}${plages.length === 1 && plages[0][1] > plages[0][0] ? '-' + plages[0][1] : ''}`}><Icone nom="agrandir" /><span>Montrer</span></a>
           </div>
         </div>

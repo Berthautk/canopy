@@ -1,6 +1,9 @@
 import { useMemo, useState, useEffect } from 'preact/hooks';
 import { genererEtape, genererDefi, infoEtape, estEtape, numeroEtape, PREMIERE_ETAPE } from '../../jeux/generateur.js';
 import { aujourdhui } from '../../jeux/hasard.js';
+import { route } from '../../outils/routeur.js';
+import { partager } from '../../outils/partage.js';
+import { profil } from '../../donnees/profil.js';
 import { lireAVoixHaute, arreterVoix, voix } from '../../audio/voix.js';
 import { Icone } from '../../composants/Icone.jsx';
 import { NIVEAUX_CHEMIN, QUIZ } from '../../donnees/contenu.js';
@@ -102,6 +105,7 @@ function Partie({ n, k, rejouer }) {
   const [rep, setRep] = useState(null);       // { juste, choix }
   const [fin, setFin] = useState(null);
   const [quitter, setQuitter] = useState(false);
+  const p = route.valeur.params, defi = p.defi ? { score: +p.defi, nom: p.nom } : null;
   const q = qs[i];
   useEffect(() => () => arreterVoix(), []);
   const ecouterQ = () => lireAVoixHaute('jeu-q', [{ texte: (q.type === 'vf' ? 'Vrai ou faux ? ' : '') + q.question }, ...(q.type === 'qcm' ? ordre.map((c, j) => ({ texte: `Réponse ${'ABCD'[j]} : ${q.choix[c]}.` })) : [])]);
@@ -144,6 +148,8 @@ function Partie({ n, k, rejouer }) {
             ? <p class="fin-niveau__etoiles">{[1, 2, 3].map((j) => <span class={j <= fin.etoiles ? 'pleine' : ''} style={{ animationDelay: j * 0.25 + 's' }}>★</span>)}</p>
             : <p>Tu as perdu tes 3 vies. Ce n'est pas grave : relis les explications et réessaie, chaque partie te fait grandir.</p>}
           <p class="fin-niveau__xp">+{fin.gain} points</p>
+          {defi && <p class="carte bloc" style="margin:8px 0">⚔️ {defi.nom || 'Ton ami'} avait fait <b>{defi.score} points</b>. {fin.gain > defi.score ? 'Tu as gagné le duel ! 🎉' : fin.gain === defi.score ? 'Égalité !' : 'Il te bat cette fois… revanche ?'}</p>}
+          {(k < 0) && <button class="bouton bouton--contour" style="width:100%;margin:6px 0" onClick={() => partager({ titre: 'Défi Yeshaya', texte: `${profil.valeur.prenom || 'Un ami'} te défie sur « ${n.titre} » : ${fin.gain} points. Fais mieux si tu peux !`, chemin: `jouer/${k === -2 ? 'defi' : 'chemin/' + n.id}?${k === -2 ? 'jour=' + n.id.slice(5) + '&' : ''}defi=${fin.gain}&nom=${encodeURIComponent(profil.valeur.prenom || '')}` })}>⚔️ Défier un ami sur cette étape</button>}
           {k === -2 && <p class="carte bloc" style="margin:8px 0">🔥 {jDefi > 1 ? `${jDefi} jours de suite ! Reviens demain pour le prochain défi.` : 'Reviens demain pour un nouveau défi !'} <span class="ligne__desc" style="display:block">Si tu manques un jour, ce n'est pas grave : ta série recommence, simplement.</span></p>}
           {fin.nouveauRang && <div class="carte nouveau-rang"><b>Nouveau rang : {fin.nouveauRang.nom} !</b><br />{fin.nouveauRang.desc}</div>}
           {fin.record && <p class="ligne__desc">Nouveau record d'étoiles pour ce niveau !</p>}
@@ -173,6 +179,7 @@ function Partie({ n, k, rejouer }) {
         <span class="partie-chemin__xp">{xp} pts</span>
       </div>
       <div class="progression progression--fine"><span style={{ width: ((i + (rep ? 1 : 0)) / qs.length) * 100 + '%' }} /></div>
+      {defi && i === 0 && !rep && <p class="guide-phase" style="margin:8px 0"><span>⚔️ {defi.nom || 'Un ami'} t'a défié : il a fait {defi.score} points sur cette étape. À toi de jouer !</span></p>}
       {combo >= 3 && <p class="combo" key={combo}>🔥 Combo × {combo} : +{BONUS_COMBO} bonus</p>}
       <p class="quiz__compteur">Question {i + 1} / {qs.length}</p>
       <section class="carte quiz__question"><Icone nom="bible" taille={28} /><h2>{q.type === 'vf' ? 'Vrai ou faux ? ' : ''}{q.question}</h2>
@@ -200,7 +207,7 @@ function Partie({ n, k, rejouer }) {
 
 // Défi biblique du jour : 10 questions nouvelles chaque jour, avec une série douce (aucune pénalité si on manque un jour).
 export function DefiDuJour() {
-  const j = aujourdhui();
+  const j = route.valeur.params.jour || aujourdhui();   // un défi reçu par lien garde les questions du jour où il a été lancé
   const [d, setD] = useState(null);
   const [partie, setPartie] = useState(0);
   useEffect(() => { genererDefi(j).then(setD).catch(() => setD({ erreur: true })); }, [j]);

@@ -7,6 +7,7 @@ import { BoutonLecture } from '../composants/Audio.jsx';
 import { derniereEcoute, jouer, formatTemps, lecteur } from '../audio/lecteur.js';
 import { useSignal } from '../outils/signal.js';
 import { ecrireReference } from '../bible/references.js';
+import { partagerImageVerset } from '../outils/partage.js';
 
 
 // Écran 2 : accueil.
@@ -30,6 +31,7 @@ export function Accueil() {
           <span class="pastille pastille--or verset-jour__pastille"><Icone nom="calendrier" taille={16} /> <span id="vj">Verset du jour</span></span>
           <TextePassage etat={etat} />
           {etat.ref && <a class="pastille pastille--ref" href={'#/' + cheminMontrer(etat.ref)}>{ecrireReference(etat.ref)}</a>}
+          {etat.texte && <button class="lien" style="display:block;margin:8px auto 0" onClick={() => partagerImageVerset({ texte: etat.texte, reference: ecrireReference(etat.ref) })}>📷 Partager en image</button>}
         </section>
 
         <h2 class="titre-section sous-rubrique">Pour aujourd'hui</h2>

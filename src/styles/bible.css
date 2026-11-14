@@ -91,7 +91,7 @@
 .actions-verset__ref { display: flex; justify-content: space-between; align-items: center; font-family: var(--police-titre); font-weight: 700;
   color: var(--titre); padding: 0 4px 6px; }
 .actions-verset__ref button { width: 36px; height: 36px; display: grid; place-items: center; border-radius: 50%; color: var(--texte-doux); }
-.actions-verset__boutons { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 2px; }
+.actions-verset__boutons { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: 6px; gap: 2px; }
 .actions-verset__boutons > * { display: flex; flex-direction: column; align-items: center; gap: 3px; min-height: 56px; justify-content: center;
   border-radius: 10px; color: var(--titre); font-size: .7rem; font-weight: 500; }
 .actions-verset__boutons svg { color: var(--or-fonce); }
