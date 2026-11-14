@@ -5,9 +5,10 @@ import { OUTILS } from '../../donnees/contenu.js';
 import { parcours, noterDecision } from '../../donnees/priere.js';
 import { useSignal } from '../../outils/signal.js';
 import { useState } from 'preact/hooks';
-import { voix, lireAVoixHaute, pauseVoix, reprendreVoix, arreterVoix } from '../../audio/voix.js';
+import { arreterVoix } from '../../audio/voix.js';
 import { notifier } from '../../composants/Notification.jsx';
 import { partager } from '../../outils/partage.js';
+import { Presentation } from '../../composants/Presentation.jsx';
 
 // Outil d'évangélisation en images (ex. « Le cœur de l'homme ») : une image, puis l'explication, étape par étape.
 // Tout le texte peut être écouté ; la prière de conversion termine la présentation.
@@ -40,16 +41,20 @@ export function Outil({ id }) {
         <div class="theme-hero__texte"><span class="pastille pastille--or">Présenter l'Évangile · {o.duree_estimee}</span><h2>{o.titre}</h2></div>
       </div>
       <p class="guide-phase" style="margin-top:12px"><Icone nom="info" taille={18} /><span>{o.conseil}</span></p>
-      <button class="carte priere-guidee__lancer" onClick={() => { setDiapo(true); lireAVoixHaute(o.id, blocs); }}>
+      <button class="carte priere-guidee__lancer" onClick={() => { arreterVoix(); setDiapo(true); }}>
         <span class="priere-guidee__icone" aria-hidden="true"><Icone nom="lecture" taille={26} /></span>
-        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Regarder et écouter (diaporama)</span>
-          <span class="ligne__desc">La voix explique, les images défilent. Idéal pour montrer à quelqu'un.</span></span>
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Regarder et écouter (présentation)</span>
+          <span class="ligne__desc">Chaque image apparaît, la voix explique, puis « Suivant ». Idéal pour montrer à quelqu'un.</span></span>
       </button>
       {o.ordres && <div class="segments" role="group" aria-label="Commencer par" style="margin-top:12px">
         {Object.keys(o.ordres).map((k) => <button aria-pressed={ordre === k} onClick={() => { arreterVoix(); setOrdre(k); }}>{k}</button>)}
       </div>}
       <BarreEcoute key={ordre} id={o.id} titre="Écouter toute la présentation" blocs={blocs} />
-      {diapo && <Diaporama o={o} etapes={etapes} blocs={blocs} iIntro={iIntro} fermer={() => { arreterVoix(); setDiapo(false); }} />}
+      {diapo && <Presentation id={o.id} titre={o.titre} fermer={() => setDiapo(false)}
+        diapos={[...etapes.map((e) => ({ image: e.image, titre: e.titre, blocs: [blocs[e.iTitre], ...e.iTextes.map((i) => blocs[i]), ...e.iVersets.map((i) => blocs[i])] })),
+          { image: etapes[etapes.length - 1].image, titre: 'Prière pour recevoir Jésus', blocs: [blocs[iIntro], blocs[iPriere]] }]}
+        finale={p.decision ? null : <button class="bouton bouton--or" style="width:100%;margin:8px 0" onClick={() => { noterDecision(o.id); notifier('Bienvenue dans la famille de Dieu !'); }}>
+          <Icone nom="coeur" taille={20} /> J'ai prié pour recevoir le Seigneur Jésus</button>} />}
 
       {etapes.map((e) => (
         <section class="carte etape-outil">
@@ -81,33 +86,6 @@ export function Outil({ id }) {
         <button class="bouton bouton--contour bouton--petit" onClick={() => partager({ titre: o.titre, texte: o.resume, chemin: 'evangeliser/outil/' + o.id })}><Icone nom="partager" taille={18} /> Partager</button>
       </div>
       {o.source && <p class="source-mention">{o.source}</p>}
-    </div>
-  );
-}
-
-// Diaporama : l'image de l'étape en cours s'affiche pendant que la voix lit le texte.
-function Diaporama({ o, etapes, blocs, iIntro, fermer }) {
-  const v = useSignal(voix);
-  const i = v.id === o.id ? v.index : 0;
-  let k = 0; etapes.forEach((e, j) => { if (e.iTitre <= i) k = j; });
-  const enPriere = i >= iIntro;
-  const e = etapes[k], b = blocs[i] || {};
-  const aller = (j) => lireAVoixHaute(o.id, blocs, j);
-  return (
-    <div class="priere-guidee diaporama" role="dialog" aria-modal="true" aria-label={'Diaporama : ' + o.titre}>
-      <div class="priere-guidee__tete"><span>{enPriere ? 'Prière pour recevoir Jésus' : e.titre}</span>
-        <button class="rond" onClick={fermer} aria-label="Quitter"><Icone nom="fermer" taille={20} /></button></div>
-      <div class="priere-guidee__progres" aria-hidden="true"><span style={{ width: `${((i + 1) / blocs.length) * 100}%` }} /></div>
-      <img class="diaporama__image" src={enPriere ? etapes[etapes.length - 1].image : e.image} alt="" />
-      <div class="priere-guidee__corps diaporama__texte">
-        <p class="priere-guidee__texte">{b.texte ? (i === e.iTitre && !enPriere ? e.titre : b.texte) : b.reference ? '📖 ' + b.reference : ''}</p>
-      </div>
-      <div class="priere-guidee__commandes">
-        <button class="rond rond--grand" onClick={() => aller(etapes[Math.max(0, enPriere ? etapes.length - 1 : k - 1)].iTitre)} aria-label="Image précédente"><Icone nom="precedent" taille={26} /></button>
-        <button class="bouton bouton--plein priere-guidee__ok" onClick={v.lecture ? pauseVoix : (v.id === o.id ? reprendreVoix : () => aller(0))}>
-          <Icone nom={v.lecture ? 'pause' : 'lecture'} taille={26} /> {v.lecture ? 'Pause' : 'Écouter'}</button>
-        <button class="rond rond--grand" onClick={() => aller(k + 1 < etapes.length ? etapes[k + 1].iTitre : iIntro)} aria-label="Image suivante"><Icone nom="chevron" taille={26} /></button>
-      </div>
     </div>
   );
 }

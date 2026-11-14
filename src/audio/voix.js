@@ -6,7 +6,7 @@ import { textePassage } from '../bible/bible.js';
 import { pause as pauseAudio } from './lecteur.js';
 
 export const VITESSES_VOIX = [0.8, 1, 1.2];
-export const voix = signal({ id: null, index: 0, total: 0, lecture: false, vitesse: 1, disponible: typeof speechSynthesis !== 'undefined', aucuneVoixFr: false });
+export const voix = signal({ id: null, index: 0, total: 0, lecture: false, termine: false, vitesse: 1, disponible: typeof speechSynthesis !== 'undefined', aucuneVoixFr: false });
 const maj = (c) => { voix.valeur = { ...voix.valeur, ...c }; };
 
 let blocs = [], phrases = [], iPhrase = 0, generation = 0;
@@ -45,7 +45,7 @@ async function preparerBloc(i) {
 
 async function lireBloc(i, g) {
   if (g !== generation) return;
-  if (i >= blocs.length) { maj({ lecture: false, index: 0 }); return; }
+  if (i >= blocs.length) { maj({ lecture: false, index: 0, termine: true }); return; }
   maj({ index: i, lecture: true });
   phrases = await preparerBloc(i); iPhrase = 0;
   if (g !== generation) return;
@@ -68,7 +68,7 @@ export function lireAVoixHaute(id, listeBlocs, depuis = 0) {
   pauseAudio();                                   // pas deux sons en même temps
   speechSynthesis.cancel(); generation++;
   blocs = listeBlocs.map((b) => b || {});   // les blocs vides sont sautés à la lecture, sans décaler la numérotation
-  maj({ id, total: blocs.length, aucuneVoixFr: speechSynthesis.getVoices().length > 0 && !voixFrancaise() });
+  maj({ id, total: blocs.length, termine: false, aucuneVoixFr: speechSynthesis.getVoices().length > 0 && !voixFrancaise() });
   lireBloc(depuis, generation);
 }
 // « Pause » = arrêt en gardant la position (la vraie pause est peu fiable sur Android).

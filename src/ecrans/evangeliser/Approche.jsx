@@ -3,11 +3,15 @@ import { CarteVerset } from '../../composants/Verset.jsx';
 import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 import { TexteRefs } from '../../composants/TexteRefs.jsx';
 import { APPROCHES } from '../../donnees/contenu.js';
+import { useState } from 'preact/hooks';
+import { Presentation } from '../../composants/Presentation.jsx';
+import { arreterVoix } from '../../audio/voix.js';
 
 // Approche d'évangélisation pour un public donné : comprendre, comment s'y prendre, objections, dialogue écoutable.
 export function Approche({ id }) {
   const a = APPROCHES.find((x) => x.id === id);
   const va = useVoixActive(a?.id);
+  const [pres, setPres] = useState(false);
   if (!a) return <div class="page"><p class="ligne__desc">Contenu introuvable.</p></div>;
 
   const blocs = [];
@@ -26,7 +30,17 @@ export function Approche({ id }) {
         <div class="theme-hero__texte"><span class="pastille pastille--or">Approche · {a.public}</span><h2>{a.titre}</h2></div>
       </div>
       <p class="guide-phase" style="margin-top:12px"><Icone nom="info" taille={18} /><span>{a.resume}</span></p>
+      <button class="carte priere-guidee__lancer" onClick={() => { arreterVoix(); setPres(true); }}>
+        <span class="priere-guidee__icone" aria-hidden="true"><Icone nom="lecture" taille={26} /></span>
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Regarder et écouter (présentation)</span>
+          <span class="ligne__desc">Chaque partie apparaît avec son image, la voix explique, puis « Suivant ».</span></span>
+      </button>
       <BarreEcoute id={a.id} titre="Écouter l'enseignement et le dialogue" blocs={blocs} />
+      {pres && <Presentation id={a.id} titre={a.titre} fermer={() => setPres(false)} diapos={[
+        ...parties.map((p) => ({ image: p.image || a.image, titre: p.titre, blocs: [blocs[p.iTitre], ...p.iTextes.map((i) => blocs[i])] })),
+        ...(objections.length ? [{ image: a.image, titre: 'Questions et objections', blocs: objections.flatMap((o) => [blocs[o.iQ], blocs[o.iR]]) }] : []),
+        ...(d ? [{ image: d.image || a.image, titre: 'Dialogue', blocs: [blocs[iSituation], ...repliques.map((r) => blocs[r.i])] }] : []),
+      ]} />}
 
       {parties.map((p) => (
         <section class="carte bloc article">
