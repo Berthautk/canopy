@@ -1,0 +1,56 @@
+{
+ "id": "priere-bapteme-et-cene",
+ "categorie": "Ma vie avec Dieu",
+ "ordre": 16,
+ "titre": "Le baptême et la sainte cène",
+ "nom_court": "Baptême et cène",
+ "image": "/assets/eglise/table-sainte-cene.webp",
+ "resume": "Sujets de prière pour vivre son baptême et prendre la sainte cène avec foi.",
+ "enseignement": "Le baptême et la sainte cène sont les deux gestes que Jésus a confiés à son Église. Le baptême dit : je suis mort et ressuscité avec Christ. La cène dit : je me souviens de sa croix et j'attends son retour (Romains 6:4 ; 1 Corinthiens 11:26).",
+ "versets": [
+  "Rm 6:4",
+  "1 Co 11:26",
+  "1 Co 10:17"
+ ],
+ "auteur": "Yeshaya",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "sujets": [
+  {
+   "titre": "Merci pour la nouvelle vie",
+   "texte": "Remercions Dieu de nous avoir ensevelis et ressuscités avec Christ, et de nous avoir donné une vie nouvelle. (Colossiens 2:12)"
+  },
+  {
+   "titre": "Ceux qui doivent être baptisés",
+   "texte": "Prions pour ceux qui ont cru et ne sont pas encore baptisés, afin qu'ils obéissent au Seigneur sans tarder. (Actes 8:36)"
+  },
+  {
+   "titre": "Morts au péché",
+   "texte": "Demandons à Dieu la grâce de nous regarder comme morts au péché et vivants pour Dieu en Jésus-Christ. (Romains 6:11)"
+  },
+  {
+   "titre": "Revêtir Christ",
+   "texte": "Prions afin que ceux qui ont été baptisés en Christ revêtent Christ dans leur conduite de chaque jour. (Galates 3:27)"
+  },
+  {
+   "titre": "Une cène vivante",
+   "texte": "Prions afin que la sainte cène ne devienne jamais une habitude, mais un vrai moment de souvenir, d'adoration et de communion. (Luc 22:19)"
+  },
+  {
+   "titre": "S'examiner",
+   "texte": "Demandons au Saint-Esprit de sonder notre cœur avant chaque cène, et de nous montrer ce que nous devons confesser. (1 Corinthiens 11:28)"
+  },
+  {
+   "titre": "La réconciliation",
+   "texte": "Implorons la grâce de Dieu afin de nous réconcilier avec nos frères avant de partager le même pain. (Matthieu 5:23-24)"
+  },
+  {
+   "titre": "L'unité du corps",
+   "texte": "Prions pour l'unité de notre église, afin que nous soyons un seul corps autour du même pain. (1 Corinthiens 10:17)"
+  },
+  {
+   "titre": "Le retour du Seigneur",
+   "texte": "Prions afin que chaque cène ravive notre attente du retour de Jésus et notre désir d'être prêts. (1 Corinthiens 11:26)"
+  }
+ ]
+}

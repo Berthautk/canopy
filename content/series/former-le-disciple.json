@@ -55,12 +55,12 @@
     {
      "numero": 10,
      "titre": "Témoigner de Jésus",
-     "enseignement": null
+     "enseignement": "affermissement-10-temoigner"
     },
     {
      "numero": 11,
      "titre": "Le baptême et la cène",
-     "enseignement": null
+     "enseignement": "affermissement-11-bapteme-et-cene"
     },
     {
      "numero": 12,
@@ -121,7 +121,7 @@
     {
      "numero": 9,
      "titre": "Appelé à la sainteté",
-     "enseignement": null
+     "enseignement": "enseignement-sanctification"
     },
     {
      "numero": 10,
@@ -131,7 +131,7 @@
     {
      "numero": 11,
      "titre": "Ce qui est permis n'est pas toujours utile",
-     "enseignement": null
+     "enseignement": "enseignement-corps-temple"
     },
     {
      "numero": 12,
