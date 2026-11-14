@@ -498,3 +498,50 @@
 
 .diaporama__etape { text-align: center; margin: 6px 0 0; font-size: .8rem; color: #cfe0ff; }
 .priere-guidee__ok:disabled { background: rgba(255,255,255,.18); border-color: transparent; color: #cfe0ff; opacity: 1; }
+
+/* Le Chemin de la foi */
+.chemin-entree { display: flex; align-items: center; gap: 12px; padding: 14px; margin-top: 10px; background: linear-gradient(135deg, #1f3a63, #2c5a8f); color: #fff; border: 0; }
+.chemin-entree .ligne__titre, .chemin-entree .ligne__desc { color: #fff; }
+.chemin-entree__icone { font-size: 2.2rem; }
+.rang-carte { padding: 12px 14px; margin-top: 10px; }
+.rang-carte__tete { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.rang-carte__badge { font-size: 1.8rem; width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; background: var(--surface-2, #f6efe2); }
+.chemin-hero { text-align: center; padding: 14px 8px 4px; }
+.chemin-hero h2 { margin: 0 0 6px; }
+.chemin { list-style: none; padding: 0; margin: 14px 0 0; position: relative; }
+.chemin::before { content: ''; position: absolute; left: 50%; top: 20px; bottom: 20px; border-left: 4px dashed var(--or); opacity: .5; }
+.chemin__etape { position: relative; margin: 0 0 14px; padding-right: 18%; }
+.chemin__etape--droite { padding-right: 0; padding-left: 18%; }
+.chemin__niveau { display: flex; align-items: center; gap: 10px; padding: 10px; position: relative; text-decoration: none; }
+.chemin__niveau img { width: 54px; height: 54px; border-radius: 12px; object-fit: cover; flex: none; }
+.chemin__niveau--ferme { filter: grayscale(1); opacity: .55; }
+.chemin__num { position: absolute; top: -8px; left: -8px; width: 30px; height: 30px; border-radius: 50%; background: var(--or); color: var(--bleu-nuit); display: grid; place-items: center; font-weight: 700; font-size: .9rem; }
+.chemin__etoiles { display: block; letter-spacing: 2px; color: #cfc7b6; font-size: 1.05rem; }
+.chemin__etoiles .pleine, .fin-niveau__etoiles .pleine { color: #E0B324; }
+.partie-chemin__tete { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 12px 0 8px; }
+.partie-chemin__vies .vie { color: #d6303f; font-size: 1.3rem; margin-right: 2px; transition: transform .3s; }
+.partie-chemin__vies .vie--perdue { color: #cfc7b6; transform: scale(.8); }
+.partie-chemin__niveau { font-weight: 600; font-size: .9rem; color: var(--titre); text-align: center; flex: 1; }
+.partie-chemin__xp { font-weight: 700; color: var(--or-fonce); }
+.combo { text-align: center; font-weight: 700; color: #d9480f; margin: 8px 0 0; animation: pop .4s ease; }
+.quiz__choix--vf { grid-template-columns: 1fr 1fr; }
+.choix--bon { border-color: #2e9d5b !important; background: rgba(46,157,91,.14) !important; }
+.choix--faux { border-color: #c0392b !important; background: rgba(192,57,43,.12) !important; animation: secoue .35s; }
+.choix--eteint { opacity: .5; }
+.reponse-chemin { margin-top: 12px; animation: monte .25s ease; }
+.reponse-chemin--juste h3 { color: #2e9d5b; }
+.reponse-chemin--faux h3 { color: #c0392b; }
+.fin-niveau { text-align: center; position: relative; overflow: hidden; margin-top: 14px; }
+.fin-niveau__emoji { font-size: 3.4rem; margin: 6px 0 0; animation: pop .6s ease; }
+.fin-niveau__etoiles { font-size: 2.8rem; letter-spacing: 6px; color: #cfc7b6; margin: 6px 0; }
+.fin-niveau__etoiles span { display: inline-block; animation: pop .5s ease both; }
+.fin-niveau__xp { font-size: 1.4rem; font-weight: 700; color: var(--or-fonce); margin: 4px 0 10px; }
+.fin-niveau__actions { display: flex; flex-direction: column; gap: 8px; margin-top: 14px; }
+.nouveau-rang { background: linear-gradient(135deg, #fff3c4, #ffe08a); color: #4a3800; padding: 12px; margin: 10px 0; animation: pop .6s ease; }
+.confettis { position: absolute; inset: 0; pointer-events: none; }
+.confettis i { position: absolute; top: -12px; width: 8px; height: 14px; border-radius: 2px; animation: tombe 2.2s ease-in forwards; }
+@keyframes tombe { to { transform: translateY(520px) rotate(540deg); opacity: 0; } }
+@keyframes pop { 0% { transform: scale(.3); opacity: 0; } 70% { transform: scale(1.15); opacity: 1; } 100% { transform: scale(1); } }
+@keyframes secoue { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
+@keyframes monte { from { transform: translateY(10px); opacity: 0; } to { transform: none; opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .confettis, .combo, .fin-niveau__emoji, .fin-niveau__etoiles span, .nouveau-rang, .choix--faux, .reponse-chemin { animation: none !important; } }

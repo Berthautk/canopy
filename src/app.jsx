@@ -30,6 +30,7 @@ import { Dialogue } from './ecrans/evangeliser/Dialogue.jsx';
 import { Outil } from './ecrans/evangeliser/Outil.jsx';
 import { Approche } from './ecrans/evangeliser/Approche.jsx';
 import { Admin } from './ecrans/Admin.jsx';
+import { CheminFoi, NiveauChemin } from './ecrans/jeux/Chemin.jsx';
 import { Confidentialite, VERSION_POLITIQUE } from './ecrans/Confidentialite.jsx';
 import { DemanderPriere } from './ecrans/priere/DemanderPriere.jsx';
 import { compterPage } from './donnees/mesure.js';
@@ -62,7 +63,7 @@ function titre([a, b, c]) {
   if (a === 'priere' && b === 'demander') return 'Demander la prière';
   if (a === 'jouer') return {
     'quiz-du-jour': 'Quiz du jour', themes: c ? (QUIZ.find((q) => q.id === 'quiz-' + c)?.theme ?? 'Quiz') : 'Quiz par thème', complete: 'Complète le verset',
-    'qui-suis-je': 'Qui suis-je ?', ordre: "Remets dans l'ordre", duel: 'Duel à deux', badges: 'Mes badges',
+    'qui-suis-je': 'Qui suis-je ?', chemin: 'Le Chemin de la foi', ordre: "Remets dans l'ordre", duel: 'Duel à deux', badges: 'Mes badges',
   }[b] ?? 'Jouer et apprendre';
   if (a === 'telechargements') return 'Mes téléchargements';
   if (a === 'ecouter') return 'Écouter';
@@ -95,7 +96,7 @@ function Ecran({ r }) {
   if (a === 'a-propos') return <APropos />;
   if (a === 'telechargements') return <Telechargements />;
   if (a === 'jouer') return ({ 'quiz-du-jour': <QuizDuJour />, themes: <QuizThemes theme={c} niveau={d} />, complete: <CompleteVerset />,
-    'qui-suis-je': <QuiSuisJe />, ordre: <Ordre id={c} />, duel: <Duel />, badges: <Badges /> })[b] ?? <Jouer />;
+    'qui-suis-je': <QuiSuisJe />, ordre: <Ordre id={c} />, duel: <Duel />, badges: <Badges />, chemin: c ? <NiveauChemin id={c} /> : <CheminFoi /> })[b] ?? <Jouer />;
   if (a === 'priere') return b === 'demander' ? <DemanderPriere /> : b === 'journal' ? <Journal nouveau={r.params.nouveau} /> : b === 'theme' ? <ThemePriere id={c} /> : b === 'veille' ? <Veille id={c} /> : b === 'combat' ? <FicheCombat id={c} /> : <Priere />;
   if (a === 'grandir') return PARCOURS[b] ? <Parcours id={b} jour={c} /> : b === 'enseignement' ? <EnseignementEcrit id={c} /> : <Grandir />;
   if (a === 'evangeliser') return b === 'article' ? <Article id={c} /> : b === 'dialogue' ? <Dialogue id={c} /> : b === 'outil' ? <Outil id={c} /> : b === 'approche' ? <Approche id={c} /> : <Evangeliser />;

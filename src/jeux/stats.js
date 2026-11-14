@@ -4,7 +4,7 @@ import { signal } from '../outils/signal.js';
 import { aujourdhui } from './hasard.js';
 
 const CLE = 'yeshaya:jeux';
-const VIDE = { quizJoues: 0, bonnes: 0, parfaits: 0, joursQuizDuJour: [], quiSuisJe: 0, ordre: 0, complete: 0, duels: 0, badges: {} };
+const VIDE = { quizJoues: 0, bonnes: 0, parfaits: 0, joursQuizDuJour: [], quiSuisJe: 0, ordre: 0, complete: 0, duels: 0, cheminNiveaux: 0, cheminEtoiles: 0, badges: {} };
 export const stats = signal({ ...VIDE });
 export async function chargerStats() { try { stats.valeur = { ...VIDE, ...((await get(CLE)) || {}) }; } catch {} }
 
@@ -18,6 +18,9 @@ export const BADGES = [
   ['historien', 'Historien', 'Remettre 3 histoires dans le bon ordre', 'liste', (s) => Math.min(1, s.ordre / 3)],
   ['memoire', 'Mémoire de la Parole', 'Compléter 10 versets', 'bible', (s) => Math.min(1, s.complete / 10)],
   ['equipe', 'Esprit d\'équipe', 'Jouer un duel à deux', 'groupe', (s) => Math.min(1, s.duels)],
+  ['pelerin', 'Pèlerin', 'Réussir 5 niveaux du Chemin de la foi', 'grandir', (s) => Math.min(1, (s.cheminNiveaux || 0) / 5)],
+  ['chemin-complet', 'Toute la Bible', 'Réussir les 10 niveaux du Chemin de la foi', 'croix', (s) => Math.min(1, (s.cheminNiveaux || 0) / 10)],
+  ['etoiles', 'Pluie d\'étoiles', 'Gagner 25 étoiles sur le Chemin de la foi', 'etoile', (s) => Math.min(1, (s.cheminEtoiles || 0) / 25)],
 ];
 
 async function enregistrer(changement) {
@@ -34,3 +37,4 @@ export const finQuiz = (bonnes, total, duJour) => enregistrer((s) => ({
 }));
 export const ajouter = (champ, n = 1) => enregistrer((s) => ({ [champ]: s[champ] + n }));
 export const badge = (id) => BADGES.find((b) => b[0] === id);
+export const majChemin = (niveaux, etoiles) => enregistrer(() => ({ cheminNiveaux: niveaux, cheminEtoiles: etoiles }));

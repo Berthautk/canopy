@@ -1,0 +1,758 @@
+{
+ "niveaux": [
+  {
+   "id": "commencement",
+   "titre": "Au commencement",
+   "sous_titre": "La création et les débuts",
+   "image": "/assets/paysages/lever-soleil-collines.webp",
+   "questions": [
+    {
+     "type": "qcm",
+     "question": "Au commencement, qu'est-ce que Dieu créa ?",
+     "choix": [
+      "Les cieux et la terre",
+      "Seulement les anges",
+      "Seulement l'homme",
+      "Seulement le soleil"
+     ],
+     "reponse": 0,
+     "explication": "La Bible commence ainsi : au commencement, Dieu créa les cieux et la terre.",
+     "reference": "Gn 1:1",
+     "verifie": false
+    },
+    {
+     "type": "vf",
+     "question": "Dieu a créé l'homme à son image.",
+     "vrai": true,
+     "explication": "Dieu créa l'homme à son image : homme et femme, il les créa.",
+     "reference": "Gn 1:27",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Quel jour Dieu se reposa-t-il de toute son œuvre ?",
+     "choix": [
+      "Le sixième",
+      "Le septième",
+      "Le troisième",
+      "Le quarantième"
+     ],
+     "reponse": 1,
+     "explication": "Dieu acheva son œuvre et se reposa au septième jour.",
+     "reference": "Gn 2:2",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Où Dieu plaça-t-il le premier homme ?",
+     "choix": [
+      "Dans un jardin en Éden",
+      "À Jérusalem",
+      "Dans le désert",
+      "À Babylone"
+     ],
+     "reponse": 0,
+     "explication": "L'Éternel Dieu planta un jardin en Éden et y mit l'homme qu'il avait formé.",
+     "reference": "Gn 2:8",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Qui tua son frère Abel ?",
+     "choix": [
+      "Seth",
+      "Caïn",
+      "Hénoc",
+      "Lémec"
+     ],
+     "reponse": 1,
+     "explication": "Caïn se jeta sur son frère Abel et le tua : le péché avait déjà grandi dans le cœur de l'homme.",
+     "reference": "Gn 4:8",
+     "verifie": false
+    },
+    {
+     "id": "personnages-01"
+    },
+    {
+     "type": "qcm",
+     "question": "Quel signe Dieu plaça-t-il dans la nue après le déluge ?",
+     "choix": [
+      "Une étoile",
+      "Un arc",
+      "Une colombe",
+      "Un buisson ardent"
+     ],
+     "reponse": 1,
+     "explication": "Dieu plaça son arc dans la nue comme signe d'alliance avec la terre.",
+     "reference": "Gn 9:13",
+     "verifie": false
+    },
+    {
+     "type": "vf",
+     "question": "À Babel, l'Éternel confondit le langage de toute la terre.",
+     "vrai": true,
+     "explication": "Les hommes voulaient se faire un nom ; Dieu confondit leur langage et les dispersa.",
+     "reference": "Gn 11:9",
+     "verifie": false
+    }
+   ]
+  },
+  {
+   "id": "patriarches",
+   "titre": "Les patriarches",
+   "sous_titre": "Abraham, Isaac, Jacob et Joseph",
+   "image": "/assets/personnages/vieillard-biblique.webp",
+   "questions": [
+    {
+     "type": "qcm",
+     "question": "Quel nouveau nom Dieu donna-t-il à Abram ?",
+     "choix": [
+      "Abraham",
+      "Israël",
+      "Isaac",
+      "Ismaël"
+     ],
+     "reponse": 0,
+     "explication": "Dieu l'appela Abraham, car il le rendait père d'une multitude de nations.",
+     "reference": "Gn 17:5",
+     "verifie": false
+    },
+    {
+     "id": "personnages-07"
+    },
+    {
+     "type": "qcm",
+     "question": "Quel animal Abraham offrit-il à la place de son fils Isaac ?",
+     "choix": [
+      "Un agneau",
+      "Un bélier",
+      "Un taureau",
+      "Une colombe"
+     ],
+     "reponse": 1,
+     "explication": "Abraham vit un bélier retenu par les cornes et l'offrit à la place de son fils : une image du sacrifice que Dieu donnerait.",
+     "reference": "Gn 22:13",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Qui vendit son droit d'aînesse à Jacob ?",
+     "choix": [
+      "Ruben",
+      "Ésaü",
+      "Laban",
+      "Isaac"
+     ],
+     "reponse": 1,
+     "explication": "Ésaü vendit son droit d'aînesse à son frère Jacob pour un plat de lentilles.",
+     "reference": "Gn 25:33",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Quel nom Jacob reçut-il après avoir lutté avec Dieu ?",
+     "choix": [
+      "Israël",
+      "Juda",
+      "Benjamin",
+      "Abraham"
+     ],
+     "reponse": 0,
+     "explication": "Ton nom ne sera plus Jacob, mais tu seras appelé Israël.",
+     "reference": "Gn 32:28",
+     "verifie": false
+    },
+    {
+     "type": "vf",
+     "question": "Jacob avait douze fils.",
+     "vrai": true,
+     "explication": "Les fils de Jacob étaient au nombre de douze : ils sont à l'origine des tribus d'Israël.",
+     "reference": "Gn 35:22",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Que fit Jacob pour Joseph, son fils préféré ?",
+     "choix": [
+      "Une tunique de plusieurs couleurs",
+      "Un anneau d'or",
+      "Une maison",
+      "Une épée"
+     ],
+     "reponse": 0,
+     "explication": "Israël aimait Joseph plus que ses autres fils et lui fit une tunique de plusieurs couleurs, ce qui rendit ses frères jaloux.",
+     "reference": "Gn 37:3",
+     "verifie": false
+    },
+    {
+     "id": "personnages-05"
+    }
+   ]
+  },
+  {
+   "id": "exode",
+   "titre": "Moïse et l'Exode",
+   "sous_titre": "La sortie d'Égypte",
+   "image": "/assets/lieux-bibliques/sentier-coucher-de-soleil.webp",
+   "questions": [
+    {
+     "type": "qcm",
+     "question": "Dans quoi la mère de Moïse le cacha-t-elle sur le fleuve ?",
+     "choix": [
+      "Une caisse de jonc",
+      "Un panier de fruits",
+      "Une barque de pêcheur",
+      "Un tonneau"
+     ],
+     "reponse": 0,
+     "explication": "Elle prit une caisse de jonc, l'enduisit de bitume et y déposa l'enfant parmi les roseaux.",
+     "reference": "Ex 2:3",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Comment l'ange de l'Éternel apparut-il à Moïse ?",
+     "choix": [
+      "Dans une flamme de feu, au milieu d'un buisson",
+      "Dans un rêve",
+      "Sur une montagne de glace",
+      "Dans un tremblement de terre"
+     ],
+     "reponse": 0,
+     "explication": "Le buisson était tout en feu, et il ne se consumait point.",
+     "reference": "Ex 3:2",
+     "verifie": false
+    },
+    {
+     "type": "vf",
+     "question": "À la Pâque, les Israélites mirent du sang de l'agneau sur les poteaux et le linteau de leurs portes.",
+     "vrai": true,
+     "explication": "Dieu dit : je verrai le sang, et je passerai par-dessus vous. C'est une image de Jésus, l'Agneau de Dieu.",
+     "reference": "Ex 12:7",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Dans quelle mer l'armée de Pharaon fut-elle engloutie ?",
+     "choix": [
+      "La mer Morte",
+      "La mer Rouge",
+      "La mer de Galilée",
+      "La grande mer"
+     ],
+     "reponse": 1,
+     "explication": "Dieu ouvrit un chemin à son peuple, et les chars de Pharaon furent engloutis dans la mer Rouge.",
+     "reference": "Ex 15:4",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Quel nom Israël donna-t-il à la nourriture que Dieu envoyait dans le désert ?",
+     "choix": [
+      "La manne",
+      "Le pain de vie",
+      "Le froment",
+      "Le miel"
+     ],
+     "reponse": 0,
+     "explication": "La maison d'Israël appela cette nourriture la manne.",
+     "reference": "Ex 16:31",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Sur quelle montagne Dieu donna-t-il à Moïse les tables de pierre ?",
+     "choix": [
+      "Le Sinaï",
+      "Le Carmel",
+      "Le mont des Oliviers",
+      "Le Thabor"
+     ],
+     "reponse": 0,
+     "explication": "Sur la montagne de Sinaï, Dieu lui donna les deux tables du témoignage.",
+     "reference": "Ex 31:18",
+     "verifie": false
+    },
+    {
+     "type": "vf",
+     "question": "Israël a marché quarante années dans le désert.",
+     "vrai": true,
+     "explication": "Souviens-toi de tout le chemin que l'Éternel t'a fait faire pendant ces quarante années dans le désert.",
+     "reference": "Dt 8:2",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Qui conduisit le peuple dans le pays promis après la mort de Moïse ?",
+     "choix": [
+      "Aaron",
+      "Josué",
+      "Caleb",
+      "Gédéon"
+     ],
+     "reponse": 1,
+     "explication": "Dieu dit à Josué : Moïse, mon serviteur, est mort ; lève-toi, passe ce Jourdain.",
+     "reference": "Jos 1:2",
+     "verifie": false
+    }
+   ]
+  },
+  {
+   "id": "rois",
+   "titre": "Juges, rois et héros",
+   "sous_titre": "De Josué à Esther",
+   "image": "/assets/personnages/roi-biblique.webp",
+   "questions": [
+    {
+     "type": "qcm",
+     "question": "Quelle ville vit ses murailles tomber quand le peuple poussa des cris au son des trompettes ?",
+     "choix": [
+      "Jéricho",
+      "Jérusalem",
+      "Aï",
+      "Ninive"
+     ],
+     "reponse": 0,
+     "explication": "Le peuple poussa de grands cris, et la muraille s'écroula.",
+     "reference": "Jos 6:20",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Pourquoi le rasoir n'était-il jamais passé sur la tête de Samson ?",
+     "choix": [
+      "Il était consacré à Dieu dès le ventre de sa mère",
+      "Il n'aimait pas les barbiers",
+      "C'était la mode",
+      "Il avait fait un pari"
+     ],
+     "reponse": 0,
+     "explication": "Samson était consacré à Dieu : sa force venait de cette consécration.",
+     "reference": "Jg 16:17",
+     "verifie": false
+    },
+    {
+     "id": "personnages-04"
+    },
+    {
+     "type": "qcm",
+     "question": "Quel enfant répondit : Parle, car ton serviteur écoute ?",
+     "choix": [
+      "Samuel",
+      "David",
+      "Salomon",
+      "Joas"
+     ],
+     "reponse": 0,
+     "explication": "L'Éternel appela Samuel, et le jeune garçon répondit : Parle, car ton serviteur écoute.",
+     "reference": "1 S 3:10",
+     "verifie": false
+    },
+    {
+     "id": "personnages-02"
+    },
+    {
+     "type": "qcm",
+     "question": "Que demanda Salomon à Dieu ?",
+     "choix": [
+      "Un cœur intelligent pour juger le peuple",
+      "De grandes richesses",
+      "Une longue vie",
+      "La victoire sur ses ennemis"
+     ],
+     "reponse": 0,
+     "explication": "Salomon demanda un cœur intelligent pour discerner le bien du mal, et cela plut à Dieu.",
+     "reference": "1 R 3:9",
+     "verifie": false
+    },
+    {
+     "type": "vf",
+     "question": "Le psaume « L'Éternel est mon berger » est un cantique de David.",
+     "vrai": true,
+     "explication": "Le Psaume 23 est un cantique de David, le jeune berger devenu roi.",
+     "reference": "Ps 23:1",
+     "verifie": false
+    },
+    {
+     "id": "personnages-06"
+    }
+   ]
+  },
+  {
+   "id": "prophetes",
+   "titre": "Les prophètes",
+   "sous_titre": "Dieu parle à son peuple",
+   "image": "/assets/personnages/vieillard-biblique-en-priere.webp",
+   "questions": [
+    {
+     "id": "prophetes-01"
+    },
+    {
+     "id": "prophetes-02"
+    },
+    {
+     "type": "vf",
+     "question": "Pendant la sécheresse, des corbeaux apportaient du pain et de la viande à Élie.",
+     "vrai": true,
+     "explication": "Dieu nourrit Élie près du torrent : les corbeaux lui apportaient du pain et de la viande, matin et soir.",
+     "reference": "1 R 17:6",
+     "verifie": false
+    },
+    {
+     "id": "prophetes-05"
+    },
+    {
+     "type": "qcm",
+     "question": "Quel prophète répondit à Dieu : je ne sais point parler, car je suis un enfant ?",
+     "choix": [
+      "Jérémie",
+      "Ézéchiel",
+      "Amos",
+      "Daniel"
+     ],
+     "reponse": 0,
+     "explication": "Dieu appela Jérémie très jeune, et lui promit d'être avec lui.",
+     "reference": "Jr 1:6",
+     "verifie": false
+    },
+    {
+     "id": "prophetes-03"
+    },
+    {
+     "id": "prophetes-04"
+    },
+    {
+     "id": "personnages-03"
+    }
+   ]
+  },
+  {
+   "id": "naissance",
+   "titre": "Jésus est né",
+   "sous_titre": "Naissance et jeunesse de Jésus",
+   "image": "/assets/jesus/jesus-sourire.webp",
+   "questions": [
+    {
+     "type": "qcm",
+     "question": "Quel ange fut envoyé à Marie ?",
+     "choix": [
+      "Michel",
+      "Gabriel",
+      "Raphaël",
+      "Uriel"
+     ],
+     "reponse": 1,
+     "explication": "Au sixième mois, l'ange Gabriel fut envoyé par Dieu à Nazareth.",
+     "reference": "Lc 1:26",
+     "verifie": false
+    },
+    {
+     "id": "vie-de-jesus-01"
+    },
+    {
+     "type": "qcm",
+     "question": "Qui vint d'Orient pour adorer le roi des Juifs, guidé par son étoile ?",
+     "choix": [
+      "Des bergers",
+      "Des mages",
+      "Des soldats romains",
+      "Des sacrificateurs"
+     ],
+     "reponse": 1,
+     "explication": "Des mages vinrent d'Orient : nous avons vu son étoile en Orient, et nous sommes venus pour l'adorer.",
+     "reference": "Mt 2:2",
+     "verifie": false
+    },
+    {
+     "id": "vie-de-jesus-05"
+    },
+    {
+     "type": "vf",
+     "question": "À douze ans, Jésus fut retrouvé dans le temple, assis au milieu des docteurs.",
+     "vrai": true,
+     "explication": "Ses parents le trouvèrent dans le temple, écoutant et interrogeant les docteurs.",
+     "reference": "Lc 2:46",
+     "verifie": false
+    },
+    {
+     "id": "vie-de-jesus-02"
+    },
+    {
+     "id": "vie-de-jesus-04"
+    },
+    {
+     "id": "vie-de-jesus-03"
+    }
+   ]
+  },
+  {
+   "id": "ministere",
+   "titre": "Miracles et paraboles",
+   "sous_titre": "Jésus enseigne et guérit",
+   "image": "/assets/scenes-bibliques/sermon-sur-la-montagne.webp",
+   "questions": [
+    {
+     "id": "miracles-01"
+    },
+    {
+     "id": "paraboles-01"
+    },
+    {
+     "id": "miracles-02"
+    },
+    {
+     "id": "paraboles-02"
+    },
+    {
+     "id": "miracles-04"
+    },
+    {
+     "id": "paraboles-03"
+    },
+    {
+     "id": "miracles-03"
+    },
+    {
+     "id": "paraboles-05"
+    }
+   ]
+  },
+  {
+   "id": "croix",
+   "titre": "La croix et la résurrection",
+   "sous_titre": "Le cœur de l'Évangile",
+   "image": "/assets/symboles/croix-coucher-de-soleil.webp",
+   "questions": [
+    {
+     "type": "qcm",
+     "question": "Combien Judas reçut-il pour livrer Jésus ?",
+     "choix": [
+      "Dix pièces d'argent",
+      "Trente pièces d'argent",
+      "Cinquante pièces d'or",
+      "Cent deniers"
+     ],
+     "reponse": 1,
+     "explication": "Ils lui payèrent trente pièces d'argent.",
+     "reference": "Mt 26:15",
+     "verifie": false
+    },
+    {
+     "id": "vie-de-jesus-07"
+    },
+    {
+     "id": "vie-de-jesus-06"
+    },
+    {
+     "type": "qcm",
+     "question": "Comment se nomme le lieu où Jésus fut crucifié ?",
+     "choix": [
+      "Golgotha",
+      "Béthanie",
+      "Gethsémané",
+      "Capernaüm"
+     ],
+     "reponse": 0,
+     "explication": "Jésus, portant sa croix, arriva au lieu du crâne, qui se nomme en hébreu Golgotha.",
+     "reference": "Jn 19:17",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Quelle parole Jésus prononça-t-il juste avant de rendre l'esprit ?",
+     "choix": [
+      "Tout est accompli",
+      "Je reviendrai bientôt",
+      "Ayez la foi",
+      "Allez en paix"
+     ],
+     "reponse": 0,
+     "explication": "Jésus dit : Tout est accompli. La dette du péché était payée.",
+     "reference": "Jn 19:30",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "À qui Jésus ressuscité apparut-il d'abord ?",
+     "choix": [
+      "Pierre",
+      "Marie de Magdala",
+      "Jean",
+      "Thomas"
+     ],
+     "reponse": 1,
+     "explication": "Il apparut d'abord à Marie de Magdala, de laquelle il avait chassé sept démons.",
+     "reference": "Mc 16:9",
+     "verifie": false
+    },
+    {
+     "type": "vf",
+     "question": "Thomas dit qu'il ne croirait pas sans voir dans les mains de Jésus la marque des clous.",
+     "vrai": true,
+     "explication": "Huit jours après, Jésus se montra à Thomas, qui s'écria : Mon Seigneur et mon Dieu !",
+     "reference": "Jn 20:25",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Le combientième jour Christ est-il ressuscité, selon les Écritures ?",
+     "choix": [
+      "Le troisième",
+      "Le septième",
+      "Le quarantième",
+      "Le premier"
+     ],
+     "reponse": 0,
+     "explication": "Christ est mort pour nos péchés, il a été enseveli, et il est ressuscité le troisième jour.",
+     "reference": "1 Co 15:4",
+     "verifie": false
+    }
+   ]
+  },
+  {
+   "id": "eglise",
+   "titre": "L'Église naît",
+   "sous_titre": "Les Actes des apôtres",
+   "image": "/assets/vie-chretienne/communaute-silhouettes.webp",
+   "questions": [
+    {
+     "type": "vf",
+     "question": "Jésus fut élevé au ciel pendant que les disciples le regardaient.",
+     "vrai": true,
+     "explication": "Une nuée le déroba à leurs yeux ; il reviendra de la même manière.",
+     "reference": "Ac 1:9",
+     "verifie": false
+    },
+    {
+     "id": "actes-01"
+    },
+    {
+     "id": "actes-04"
+    },
+    {
+     "id": "actes-03"
+    },
+    {
+     "id": "actes-05"
+    },
+    {
+     "id": "actes-02"
+    },
+    {
+     "id": "actes-06"
+    },
+    {
+     "id": "actes-07"
+    }
+   ]
+  },
+  {
+   "id": "disciple",
+   "titre": "Vivre en disciple",
+   "sous_titre": "Les lettres et l'espérance",
+   "image": "/assets/temoignage/victoire-bras-leves.webp",
+   "questions": [
+    {
+     "type": "qcm",
+     "question": "Lequel de ces éléments fait partie du fruit de l'Esprit ?",
+     "choix": [
+      "La richesse",
+      "La patience",
+      "La célébrité",
+      "La force physique"
+     ],
+     "reponse": 1,
+     "explication": "Le fruit de l'Esprit, c'est l'amour, la joie, la paix, la patience, la bonté…",
+     "reference": "Ga 5:22",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Quelle est la plus grande de ces trois choses : la foi, l'espérance, la charité ?",
+     "choix": [
+      "La foi",
+      "L'espérance",
+      "La charité",
+      "Aucune"
+     ],
+     "reponse": 2,
+     "explication": "Ces trois choses demeurent, mais la plus grande de ces choses, c'est la charité.",
+     "reference": "1 Co 13:13",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Dans l'armure de Dieu, qu'est-ce que l'épée de l'Esprit ?",
+     "choix": [
+      "La prière",
+      "La parole de Dieu",
+      "La foi",
+      "L'Église"
+     ],
+     "reponse": 1,
+     "explication": "Prenez l'épée de l'Esprit, qui est la parole de Dieu.",
+     "reference": "Ép 6:17",
+     "verifie": false
+    },
+    {
+     "type": "vf",
+     "question": "Nous sommes sauvés par nos bonnes œuvres.",
+     "vrai": false,
+     "explication": "C'est par la grâce que nous sommes sauvés, par le moyen de la foi ; ce n'est point par les œuvres.",
+     "reference": "Ép 2:8-9",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Que devons-nous faire sans cesse, selon l'apôtre Paul ?",
+     "choix": [
+      "Jeûner",
+      "Prier",
+      "Voyager",
+      "Chanter"
+     ],
+     "reponse": 1,
+     "explication": "Priez sans cesse.",
+     "reference": "1 Th 5:17",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Comment Hébreux 11 définit-il la foi ?",
+     "choix": [
+      "Une ferme assurance des choses qu'on espère",
+      "Un sentiment passager",
+      "Une tradition de famille",
+      "Une récompense"
+     ],
+     "reponse": 0,
+     "explication": "La foi est une ferme assurance des choses qu'on espère, une démonstration de celles qu'on ne voit pas.",
+     "reference": "Hé 11:1",
+     "verifie": false
+    },
+    {
+     "type": "vf",
+     "question": "Jésus a promis de revenir chercher les siens.",
+     "vrai": true,
+     "explication": "Je reviendrai, et je vous prendrai avec moi, afin que là où je suis vous y soyez aussi.",
+     "reference": "Jn 14:3",
+     "verifie": false
+    },
+    {
+     "type": "qcm",
+     "question": "Quel est le dernier livre de la Bible ?",
+     "choix": [
+      "Malachie",
+      "Jude",
+      "Apocalypse",
+      "Actes"
+     ],
+     "reponse": 2,
+     "explication": "L'Apocalypse termine la Bible par la promesse du retour de Jésus et de toutes choses nouvelles.",
+     "reference": "Ap 22:21",
+     "verifie": false
+    }
+   ]
+  }
+ ]
+}

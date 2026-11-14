@@ -14,6 +14,7 @@ import { chargerTelechargements } from './audio/telechargements.js';
 import { chargerPriere } from './donnees/priere.js';
 import { demarrerMesure } from './donnees/mesure.js';
 import { chargerStats } from './jeux/stats.js';
+import { chargerChemin } from './jeux/chemin.js';
 
 appliquer();                 // thème et taille du texte depuis la copie locale, avant le premier rendu
 chargerReglages();           // puis lecture d'IndexedDB
@@ -26,6 +27,7 @@ chargerTelechargements();
 chargerPriere();
 demarrerMesure();
 chargerStats();
+chargerChemin();
 render(<App />, document.getElementById('app'));
 
 // Service worker : hors ligne après la première ouverture (uniquement dans la version construite).

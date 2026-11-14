@@ -4,6 +4,7 @@ import { stats, BADGES } from '../../jeux/stats.js';
 import { generateur, melanger, aujourdhui } from '../../jeux/hasard.js';
 import { useSignal } from '../../outils/signal.js';
 import { PartieQuiz } from './Quiz.jsx';
+import { CarteRang } from './Chemin.jsx';
 
 export const TOUTES = () => QUIZ.flatMap((t) => t.questions.map((q) => ({ ...q, theme: t.theme })));
 const NIVEAUX = [['facile', 'Facile'], ['moyen', 'Moyen'], ['expert', 'Expert']];
@@ -24,6 +25,13 @@ export function Jouer() {
         <img src="/assets/jeux/banniere-quiz-biblique.webp" alt="" />
       </div>
       <p class="jouer-intro">Apprends, révise et renforce ta foi autrement !</p>
+      <a class="carte chemin-entree" href="#/jouer/chemin">
+        <span class="chemin-entree__icone" aria-hidden="true">🗺️</span>
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block;font-size:1.15rem">Le Chemin de la foi</span>
+          <span class="ligne__desc">10 niveaux de la Genèse à l'Apocalypse · vies, étoiles et rangs</span></span>
+        <Icone nom="chevron" taille={22} />
+      </a>
+      <CarteRang compacte />
       <a class="carte quiz-du-jour" href="#/jouer/quiz-du-jour">
         <span class="quiz-du-jour__icone"><Icone nom="trophee" taille={34} /></span>
         <span class="ligne__corps"><span class="ligne__titre" style="display:block;font-size:1.15rem">Quiz du jour</span>

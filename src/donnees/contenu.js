@@ -35,6 +35,7 @@ export function veilleDuMoment(d = new Date()) {
 }
 export const QUIZ = dossier('quiz').sort((a, b) => a.theme.localeCompare(b.theme, 'fr'));
 export const QUI_SUIS_JE = fichiers['/content/jeux/qui-suis-je.json']?.personnages ?? [];
+export const NIVEAUX_CHEMIN = fichiers['/content/jeux/chemin-de-la-foi.json']?.niveaux ?? [];
 export const HISTOIRES = fichiers['/content/jeux/remets-dans-l-ordre.json']?.histoires ?? [];
 
 // Catalogue de tous les contenus qui ont un audio : id -> piste prête pour le lecteur.
