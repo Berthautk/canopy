@@ -21,6 +21,7 @@ Tous les tests ont été faits dans Chromium sur un écran de **360 px**. **Aucu
 | **Grandir** | Parcours « Découvrir Jésus » (10 leçons, avec la prière pour recevoir Jésus et la décision datée) ; parcours Nouveau converti complet (30 jours) ; 10 enseignements écrits (de l'Arsenal) + 3 audios d'exemple |
 | **Évangéliser** | Motivation, formation, objections, dialogues en bulles avec audio |
 | **Jouer et apprendre** | Quiz du jour, quiz par thème et niveau, Complète le verset, Qui suis-je ?, Remets dans l'ordre, Duel à deux, 8 badges |
+| **Écoute à voix haute** | Bouton « Écouter » sur les enseignements écrits, les 40 leçons des parcours, la méditation, les veilles et thèmes de prière, les fiches de combat, l'évangélisation et chaque chapitre de la Bible : voix de synthèse du téléphone, 0 Mo, hors ligne si la voix française est installée ; surlignage du passage lu, pause, précédent/suivant, vitesse. Testé avec une voix simulée (le navigateur de test n'a pas de voix) |
 | **Sauvegarde** | Fichier `.json` (30 Ko avec photo) ; envoi par WhatsApp ; restauration testée d'un navigateur vierge à un autre : tout revient |
 | **Réseau lent** | 3G lente simulée (400 kbit/s, latence 400 ms, processeur ÷4) : écran de démarrage en 4,4 s à la 1re visite (634 Ko), 1,6 s ensuite |
 | **Références bibliques** | 1 767 références des contenus vérifiées automatiquement, 0 erreur |
@@ -41,7 +42,7 @@ Tous les tests ont été faits dans Chromium sur un écran de **360 px**. **Aucu
 | **Éléments graphiques non découpés** | Boutons et cadres de la planche Q (refaits en CSS), panneaux de jeux avec texte incrusté, images contenant des versets (voir `design/ASSETS.md`) |
 | **Mise en ligne** | **Pas encore faite** : je ne peux pas créer de compte Cloudflare ni de dépôt GitHub depuis cette session. Tout est prêt : voir `DEPLOIEMENT.md` |
 | **Audio depuis GitHub Pages** | Non testé (le dépôt n'existe pas encore). GitHub Pages autorise en principe le chargement depuis une autre adresse ; à vérifier après création |
-| **Vrai téléphone** | Non testé : surtout l'écoute écran éteint, l'installation et le partage WhatsApp |
+| **Vrai téléphone** | Non testé : surtout la voix de synthèse française (qualité, voix installée), l'écoute écran éteint, l'installation et le partage WhatsApp. La lecture à voix haute s'arrête quand l'écran s'éteint (limite des navigateurs) |
 
 ## 3. Tailles
 

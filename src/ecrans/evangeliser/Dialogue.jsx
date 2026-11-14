@@ -2,6 +2,7 @@ import { Icone } from '../../composants/Icone.jsx';
 import { CarteVerset } from '../../composants/Verset.jsx';
 import { BoutonLecture } from '../../composants/Audio.jsx';
 import { DIALOGUES, AUDIOS } from '../../donnees/contenu.js';
+import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 
 // Écran 9 : dialogue (audio + texte en bulles).
 export function Dialogue({ id }) {
@@ -9,6 +10,7 @@ export function Dialogue({ id }) {
   if (!d) return <div class="page"><p class="ligne__desc">Dialogue introuvable.</p></div>;
   const role = Object.fromEntries(d.personnes.map((p) => [p.nom, p.role]));
   const piste = AUDIOS[d.id];
+  const va = useVoixActive(d.id);
   return (
     <div class="page">
       <div class="bandeau-titre">
@@ -23,11 +25,12 @@ export function Dialogue({ id }) {
             <span class="ligne__desc">{piste.auteur}{piste.duree ? ' · ' + piste.duree : ''}</span></a>
         </section>
       )}
+      {!piste && <BarreEcoute id={d.id} titre="Écouter le dialogue" blocs={[{ texte: d.situation }, ...d.repliques.map((r) => ({ texte: `${r.personne} : ${r.texte}` }))]} />}
       <div class="bulles">
-        {d.repliques.map((r) => {
+        {d.repliques.map((r, k) => {
           const chretien = role[r.personne] === 'chretien';
           return (
-            <div class={'bulle ' + (chretien ? 'bulle--chretien' : 'bulle--ami')}>
+            <div class={'bulle ' + (chretien ? 'bulle--chretien' : 'bulle--ami')} {...va(k + 1)}>
               <span class="bulle__avatar" aria-hidden="true">{r.personne[0]}</span>
               <div class="bulle__corps">
                 <span class="bulle__nom">{r.personne}{chretien ? ' (chrétien)' : ''}</span>

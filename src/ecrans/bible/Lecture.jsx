@@ -7,6 +7,7 @@ import { annotations, COULEURS, surligner, basculerFavori, ecrireNote, memoriser
 import { useSignal } from '../../outils/signal.js';
 import { partager, copier } from '../../outils/partage.js';
 import { aller, remplacer } from '../../outils/routeur.js';
+import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 
 function voisin(code, c, sens) {
   const l = PAR_CODE[code], i = LIVRES.indexOf(l);
@@ -24,6 +25,7 @@ export function Lecture({ code, c, vise }) {
   const [note, setNote] = useState(null);          // texte de la note en cours d'édition
   const notes = useSignal(annotations);
   const appui = useRef(null);
+  const va = useVoixActive(`bible-${code}-${c}`);
 
   useEffect(() => {
     let actif = true; setChap(null); setErreur(null); setSel(null); setNote(null);
@@ -59,6 +61,8 @@ export function Lecture({ code, c, vise }) {
       </div>
 
       <article class="page lecture__texte" lang="fr">
+        {chap && <BarreEcoute id={`bible-${code}-${c}`} titre={'Écouter ' + ecrireReference({ code, c })}
+          blocs={[{ texte: (code === 'PSA' ? ecrireReference({ code, c }) : ecrireReference({ code, c }).replace(/ (\d+)$/, ', chapitre $1')) + '.' }, ...chap.map((t) => ({ texte: (t || '').replace(/\n/g, ' ') }))]} />}
         <h2 class="lecture__titre">{ecrireReference({ code, c })}</h2>
         {erreur && <p class="verset__erreur">{erreur}</p>}
         {!chap && !erreur && <p class="verset__attente">Chargement…</p>}
@@ -66,7 +70,7 @@ export function Lecture({ code, c, vise }) {
           if (!t) return null;
           const v = i + 1, k = cleVerset(code, c, v), an = notes[k] || {};
           return (
-            <p id={'v' + v} class={'v' + (sel === v ? ' v--sel' : '')} style={an.couleur ? { background: COULEURS[an.couleur] } : undefined}
+            <p id={'v' + v} {...va(v)} class={'v' + (sel === v ? ' v--sel' : '')} style={an.couleur ? { background: COULEURS[an.couleur] } : undefined}
               onClick={() => { setSel(sel === v ? null : v); setPalette(false); setNote(null); }}
               onTouchStart={() => debutAppui(v)} onTouchEnd={finAppui} onTouchMove={finAppui}
               role="button" tabIndex={0} aria-pressed={sel === v} onKeyDown={(e) => e.key === 'Enter' && setSel(v)}>

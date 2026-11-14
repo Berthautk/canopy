@@ -6,16 +6,18 @@ import { notifier } from '../../composants/Notification.jsx';
 import { VEILLES, GUIDE_PHASES } from '../../donnees/contenu.js';
 import { noterPriere, aiPrie } from '../../donnees/priere.js';
 import { useSignal } from '../../outils/signal.js';
+import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 
 // Liste de sujets à cocher (« appuie sur chaque point après l'avoir prié »).
-export function SujetsACocher({ sujets, cle, numerote }) {
+export function SujetsACocher({ sujets, cle, numerote, voixId, debut = 0 }) {
   const [faits, setFaits] = useState({});
+  const va = useVoixActive(voixId);
   const tous = sujets.length && sujets.every((_, i) => faits[i]);
   return (
     <>
       <ol class={'sujets' + (numerote ? ' sujets--numerotes' : '')}>
         {sujets.map((s, i) => (
-          <li class={'carte sujet-priere' + (faits[i] ? ' sujet-priere--fait' : '')}>
+          <li class={'carte sujet-priere' + (faits[i] ? ' sujet-priere--fait' : '')} {...(voixId ? va(debut + i) : {})}>
             <button class="sujet-priere__case" aria-pressed={!!faits[i]} aria-label={faits[i] ? 'Prié' : 'Marquer comme prié'}
               onClick={() => setFaits({ ...faits, [i]: !faits[i] })}>{faits[i] ? <Icone nom="verifie" taille={16} /> : numerote ? i + 1 : ''}</button>
             <div class="sujet-priere__corps">
@@ -70,7 +72,9 @@ export function Veille({ id }) {
       {e.sous_titre && <p class="phase__sous-titre"><TexteRefs texte={e.sous_titre} /></p>}
       {e.texte && <p class="phase__texte"><TexteRefs texte={e.texte} /></p>}
       <GuidePhase num={e.num} />
-      <SujetsACocher key={n} sujets={e.sujets} />
+      <BarreEcoute key={'v' + n} id={`${v.id}-${n}`} titre="Écouter cette étape"
+        blocs={[{ texte: `${e.titre}. ${e.sous_titre || ''}. ${e.texte || ''}` }, ...blocsSujets(e.sujets)]} />
+      <SujetsACocher key={n} sujets={e.sujets} voixId={`${v.id}-${n}`} debut={1} />
       <div class="chemin-etape__nav">
         <button class="bouton bouton--contour" onClick={() => { setN(n - 1); scrollTo(0, 0); }}><Icone nom="precedent" taille={18} /> {n === 0 ? 'Sommaire' : 'Précédent'}</button>
         {derniere ? <button class="bouton bouton--or" onClick={() => { noterPriere(v.id); notifier('Amen ! Que Dieu exauce ta prière.'); setN(-1); scrollTo(0, 0); }}>J'ai prié <Icone nom="verifie" taille={18} /></button>
@@ -79,3 +83,5 @@ export function Veille({ id }) {
     </div>
   );
 }
+
+export const blocsSujets = (sujets, numerote) => sujets.map((s, i) => ({ texte: `${numerote ? (i + 1) + '. ' : ''}${s.titre ? s.titre + '. ' : ''}${s.texte}` }));

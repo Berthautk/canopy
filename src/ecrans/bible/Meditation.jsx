@@ -5,6 +5,7 @@ import { notifier } from '../../composants/Notification.jsx';
 import { usePassage, TextePassage, cheminMontrer } from '../../composants/Verset.jsx';
 import { meditationDuJour, AUDIOS } from '../../donnees/contenu.js';
 import { jouer } from '../../audio/lecteur.js';
+import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 import { ecrireReference } from '../../bible/references.js';
 import { partager } from '../../outils/partage.js';
 
@@ -14,6 +15,7 @@ const CLE = 'yeshaya:reflexions';
 export function Meditation() {
   const m = meditationDuJour();
   const etat = usePassage(m.reference);
+  const va = useVoixActive(m.id);
   const [reflexion, setReflexion] = useState('');
   const [ouverte, setOuverte] = useState(false);
   useEffect(() => { get(CLE).then((t) => { const x = (t || {})[m.id]; if (x) { setReflexion(x.texte); setOuverte(true); } }).catch(() => {}); }, [m.id]);
@@ -32,22 +34,24 @@ export function Meditation() {
         <div><h2>Méditation du matin</h2><p>{date}</p></div>
       </div>
 
-      <section class="carte meditation__verset">
+      {!AUDIOS[m.id] && <BarreEcoute id={m.id} titre="Écouter la méditation"
+        blocs={[{ texte: 'Méditation du matin. ' + m.titre }, { reference: m.reference }, { texte: m.texte }, { texte: 'Question pour réfléchir. ' + m.question }, { texte: 'Prière. ' + m.priere }]} />}
+      <section class="carte meditation__verset" {...va(1)}>
         <span class="pastille pastille--or"><Icone nom="bible" taille={16} /> Lecture du jour</span>
         {etat.ref && <h3>{ecrireReference(etat.ref)}</h3>}
         <TextePassage etat={etat} />
         {etat.ref && <a class="lien" href={'#/' + cheminMontrer(etat.ref)}>Montrer ce verset</a>}
       </section>
 
-      <section class="carte meditation__bloc">
+      <section class="carte meditation__bloc" {...va(2)}>
         <h3><span class="ligne__icone"><Icone nom="grandir" /></span> {m.titre} {m.exemple && <span class="etiquette-exemple">EXEMPLE</span>}</h3>
         <p>{m.texte}</p>
       </section>
-      <section class="carte meditation__bloc">
+      <section class="carte meditation__bloc" {...va(3)}>
         <h3><span class="ligne__icone"><Icone nom="cible" /></span> Question pour réfléchir</h3>
         <p>{m.question}</p>
       </section>
-      <section class="carte meditation__bloc meditation__priere">
+      <section class="carte meditation__bloc meditation__priere" {...va(4)}>
         <h3><span class="ligne__icone"><Icone nom="priere" /></span> Prière</h3>
         <p><em>{m.priere}</em></p>
       </section>

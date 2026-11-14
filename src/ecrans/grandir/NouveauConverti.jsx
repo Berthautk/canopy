@@ -3,7 +3,8 @@ import { CarteVerset } from '../../composants/Verset.jsx';
 import { TexteRefs } from '../../composants/TexteRefs.jsx';
 import { BoutonLecture } from '../../composants/Audio.jsx';
 import { notifier } from '../../composants/Notification.jsx';
-import { SujetsACocher } from '../priere/Veille.jsx';
+import { SujetsACocher, blocsSujets } from '../priere/Veille.jsx';
+import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 import { NOUVEAU_CONVERTI, DECOUVRIR_JESUS, AUDIOS, JOURS_PARCOURS } from '../../donnees/contenu.js';
 import { parcours, terminerJour, jourDebloque, noterDecision } from '../../donnees/priere.js';
 import { lireReference, ecrireReference } from '../../bible/references.js';
@@ -61,24 +62,30 @@ export function Parcours({ id, jour }) {
 
 function Etape({ cfg, id, n, faits, decision }) {
   const j = cfg.liste().find((x) => x.jour === n);
+  const vid = `${id}-${n}`, va = useVoixActive(vid);
   if (!j || !jourDebloque(n, faits)) return <div class="page"><p class="ligne__desc" style="margin-top:16px">Cette étape n'est pas encore disponible. Termine d'abord la précédente.</p></div>;
   const piste = AUDIOS[j.id], fait = faits.includes(n), total = cfg.total();
+  const corps = j.sections ? j.sections.map((s) => ({ texte: `${s.titre}. ${s.texte}` })) : [{ texte: j.texte }];
+  const blocs = [{ texte: `${cfg.unite} ${n}. ${j.titre}.` }, ...corps, ...j.versets.map((r) => ({ reference: r })), { texte: 'Pour réfléchir. ' + j.question },
+    ...(j.sujets?.length ? [{ texte: 'Sujets de prière.' }, ...blocsSujets(j.sujets)] : []), ...(j.priere ? [{ texte: (j.decision ? 'Prière pour recevoir Jésus. ' : 'Prière. ') + j.priere }] : [])];
+  const iV = 1 + corps.length, iQ = iV + j.versets.length, iS = iQ + 1, iP = iS + (j.sujets?.length ? j.sujets.length + 1 : 0);
   const terminer = () => { terminerJour(n, cfg.cle); notifier(`Bravo, ${cfg.unite.toLowerCase()} ${n} terminé${cfg.unite === 'Leçon' ? 'e' : ''} !`); aller('grandir/' + id); };
   return (
     <div class="page">
       <div class="theme-hero"><img src={j.image} alt="" />
         <div class="theme-hero__texte"><span class="pastille pastille--or">{cfg.unite} {n} sur {total}</span><h2>{j.titre}</h2></div></div>
       {j.exemple && <p style="margin:8px 4px 0"><span class="etiquette-exemple">EXEMPLE</span> Contenu de démonstration.</p>}
+      {!piste && <BarreEcoute id={vid} blocs={blocs} titre={'Écouter ' + (cfg.unite === 'Leçon' ? 'la leçon' : 'le jour')} />}
       <section class="carte bloc enseignement-court">
-        {j.sections ? j.sections.map((s) => <><h3 class="section-ens__sous" style="margin:0">{s.titre}</h3><p><TexteRefs texte={s.texte} /></p></>) : <p><TexteRefs texte={j.texte} /></p>}
+        {j.sections ? j.sections.map((s, k) => <div {...va(1 + k)}><h3 class="section-ens__sous" style="margin:0">{s.titre}</h3><p><TexteRefs texte={s.texte} /></p></div>) : <p {...va(1)}><TexteRefs texte={j.texte} /></p>}
         {piste && <div class="bloc__audio"><BoutonLecture piste={piste} taille={44} /><span class="ligne__corps"><span class="ligne__titre">Écouter</span></span></div>}
       </section>
       <h2 class="titre-section">À lire</h2>
-      <div class="liste">{j.versets.map((r) => <CarteVerset reference={r} />)}</div>
-      <section class="carte bloc" style="margin-top:12px"><h3><span class="ligne__icone"><Icone nom="cible" /></span> Pour réfléchir</h3><p>{j.question}</p></section>
-      {j.sujets?.length > 0 && <><h2 class="titre-section">Sujets de prière</h2><SujetsACocher sujets={j.sujets} /></>}
+      <div class="liste">{j.versets.map((r, k) => <div {...va(iV + k)}><CarteVerset reference={r} /></div>)}</div>
+      <section class="carte bloc" style="margin-top:12px" {...va(iQ)}><h3><span class="ligne__icone"><Icone nom="cible" /></span> Pour réfléchir</h3><p>{j.question}</p></section>
+      {j.sujets?.length > 0 && <><h2 class="titre-section">Sujets de prière</h2><SujetsACocher sujets={j.sujets} voixId={vid} debut={iS + 1} /></>}
       {j.priere && (
-        <section class={'carte bloc priere-modele' + (j.decision ? ' priere-decision' : '')}>
+        <section class={'carte bloc priere-modele' + (j.decision ? ' priere-decision' : '')} {...va(iP)}>
           <h3><span class="ligne__icone"><Icone nom="priere" /></span> {j.decision ? 'Prière pour recevoir Jésus' : 'Prière'}</h3>
           {j.decision && <p class="ligne__desc">Si tu le désires de tout ton cœur, dis cette prière à Dieu, avec tes propres mots si tu préfères.</p>}
           <p><em>{j.priere}</em></p>

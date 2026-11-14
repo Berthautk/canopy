@@ -404,3 +404,15 @@
 .enseignement-court p { line-height: 1.6; }
 .priere-decision { border-color: var(--or); border-width: 2px; }
 .auteur-ens { text-align: center; font-family: var(--police-titre); font-weight: 600; color: var(--titre); margin: -4px 0 10px; display: grid; justify-items: center; gap: 2px; }
+
+/* ===== Lecture à voix haute ===== */
+.barre-ecoute { margin-top: 12px; padding: 10px 12px; display: grid; gap: 8px; }
+.barre-ecoute--active { position: sticky; top: calc(108px + env(safe-area-inset-top)); z-index: 12; border-color: var(--or); box-shadow: 0 6px 18px rgba(0,0,0,.15); }
+.barre-ecoute__lancer { display: flex; align-items: center; gap: 12px; width: 100%; text-align: left; color: var(--titre); }
+.barre-ecoute__commandes { display: flex; align-items: center; justify-content: center; gap: 14px; }
+.barre-ecoute__pied { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.segments--mini { grid-auto-columns: 46px; padding: 2px; }
+.segments--mini button { min-height: 32px; font-size: .78rem; padding: 0; }
+[data-voix-actif='oui'] { outline: 3px solid var(--or); outline-offset: 3px; border-radius: 12px; }
+.lecture .barre-ecoute--active { top: calc(164px + env(safe-area-inset-top)); }
+.lecture .barre-ecoute { margin: 10px 0 4px; }
