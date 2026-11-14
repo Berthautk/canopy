@@ -47,6 +47,7 @@ export default defineConfig({
         // Les illustrations ne sont pas précachées (poids) : mises en cache à la demande.
         globIgnores: ['assets/**', 'bible/**', 'contenus/**'],
         navigateFallback: '/index.html',
+        navigateFallbackDenylist: [/^\/api\//, /^\/confidentialite\.html/],
         runtimeCaching: [
           {
             // Texte des enseignements : téléchargé à l'ouverture, puis gardé pour la lecture hors ligne.

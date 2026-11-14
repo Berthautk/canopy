@@ -4,7 +4,7 @@ import { envoyerDemande, compter } from '../../donnees/mesure.js';
 
 // « Demander la prière » : message envoyé à l'équipe de Yeshaya, qui prie (et répond si la personne le souhaite).
 export function DemanderPriere() {
-  const [f, setF] = useState({ texte: '', prenom: '', contact: '', repondre: false });
+  const [f, setF] = useState({ texte: '', prenom: '', contact: '', repondre: false, accord: false });
   const [etat, setEtat] = useState(null);
   const maj = (k) => (e) => setF({ ...f, [k]: e.currentTarget.type === 'checkbox' ? e.currentTarget.checked : e.currentTarget.value });
   async function envoyer(e) {
@@ -35,7 +35,9 @@ export function DemanderPriere() {
           <label class="choix-ens" style="margin-top:12px"><input type="checkbox" checked={f.repondre} onChange={maj('repondre')} /><span>Je souhaite qu'on me recontacte</span></label>
           {f.repondre && <><label class="etiquette-champ" for="dp-contact">Numéro WhatsApp ou e-mail</label>
             <input id="dp-contact" class="champ" maxLength={80} value={f.contact} onInput={maj('contact')} required /></>}
-          <button class="bouton bouton--plein" style="width:100%;margin-top:14px" disabled={f.texte.trim().length < 3 || etat === 'envoi'}>{etat === 'envoi' ? 'Envoi…' : 'Envoyer ma demande'}</button>
+          <label class="choix-ens" style="margin-top:12px"><input type="checkbox" checked={f.accord} onChange={maj('accord')} required />
+            <span>J'accepte que ce message (qui peut parler de ma foi ou de ma santé) soit envoyé à l'équipe de Yeshaya pour prier pour moi, et conservé 12 mois au plus. J'ai au moins 15 ans, ou un parent est d'accord.</span></label>
+          <button class="bouton bouton--plein" style="width:100%;margin-top:14px" disabled={f.texte.trim().length < 3 || !f.accord || etat === 'envoi'}>{etat === 'envoi' ? 'Envoi…' : 'Envoyer ma demande'}</button>
         </form>
         <p class="ligne__desc" style="margin-top:10px">Voir la <a class="lien" href="#/confidentialite">politique de confidentialité</a>.</p>
       </section>

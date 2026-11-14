@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
 import { Icone } from '../composants/Icone.jsx';
+import { choisirStats } from '../donnees/mesure.js';
 import { reglages, modifierReglages } from '../donnees/reglages.js';
 import { useSignal } from '../outils/signal.js';
 import { profil, changerPhoto, retirerPhoto, changerPrenom } from '../donnees/profil.js';
@@ -147,9 +148,10 @@ export function Parametres() {
         </a>
         <div class="carte param-bloc">
           <div class="param-bloc__titre"><span class="ligne__icone"><Icone nom="donnees" /></span> Données et confidentialité</div>
-          <p class="ligne__desc">Ton profil, ton journal, tes notes et tes réponses restent sur ce téléphone.
+          <p class="ligne__desc">Ton profil, ton journal, tes notes et tes réponses restent sur ce téléphone et ne sont jamais envoyés.
             {persistant === true && ' Stockage protégé contre l\'effacement automatique.'}</p>
-          <p class="ligne__desc" style="margin-top:8px">Des statistiques anonymes (rubriques et contenus utilisés, sans nom ni contact) sont envoyées pour améliorer l'application et prier pour ses utilisateurs.</p>
+          <p class="ligne__desc" style="margin-top:8px"><b>Statistiques anonymes</b> : des compteurs sans nom ni contact (rubriques et contenus utilisés, sujets priés, décisions pour Jésus) qui aident à améliorer Yeshaya et à prier pour ses utilisateurs.</p>
+          <Segments libelle="Statistiques anonymes" options={{ oui: 'Activées', non: 'Désactivées' }} valeur={r.statsAnonymes ? 'oui' : 'non'} surChoix={(v) => choisirStats(v === 'oui')} />
           <a class="lien" href="#/confidentialite" style="display:inline-block;margin-top:8px">Lire la politique de confidentialité</a>
         </div>
         <a class="carte ligne" href="#/a-propos">

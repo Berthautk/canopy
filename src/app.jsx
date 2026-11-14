@@ -134,7 +134,7 @@ export function App() {
   if (demarrage) {
     return (
       <Demarrage premierLancement={!accepte}
-        surCommencer={() => { modifierReglages({ premierLancementVu: true, politiqueAcceptee: VERSION_POLITIQUE, statsAnonymes: true }); demanderStockagePersistant(); setDemarrage(false); }} />
+        surCommencer={(oui) => { modifierReglages({ premierLancementVu: true, politiqueAcceptee: VERSION_POLITIQUE, statsAnonymes: !!oui, dateChoixStats: new Date().toISOString() }); demanderStockagePersistant(); setDemarrage(false); }} />
     );
   }
 

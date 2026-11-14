@@ -1,0 +1,88 @@
+{
+ "version": 2,
+ "date": "14 novembre 2026",
+ "contact": "[À COMPLÉTER : adresse e-mail de contact de Yeshaya]",
+ "resume": [
+  "Yeshaya est gratuit, sans publicité et sans compte. Votre profil, votre journal, vos notes et votre progression restent sur votre téléphone.",
+  "Si vous l'acceptez, l'application envoie des statistiques d'utilisation anonymes (rubriques et contenus utilisés, nombre de sujets priés, décisions pour Jésus). Elles nous aident à améliorer Yeshaya et à prier pour ses utilisateurs.",
+  "Vous pouvez refuser : l'application fonctionne exactement de la même façon. Vous pouvez changer d'avis à tout moment dans les Paramètres."
+ ],
+ "sections": [
+  [
+   "Qui est responsable de vos données ?",
+   [
+    "Le responsable du traitement est l'éditeur de l'application Yeshaya, joignable à l'adresse : {contact}. Yeshaya est une application chrétienne gratuite, sans but commercial, qui aide à lire la Bible, prier, grandir dans la foi et partager l'Évangile."
+   ]
+  ],
+  [
+   "Ce qui reste uniquement sur votre téléphone",
+   [
+    "Votre prénom et votre photo de profil, votre journal de prière, vos notes, surlignages et favoris, vos réponses aux quiz, votre progression, vos réglages et vos téléchargements sont enregistrés uniquement dans la mémoire de votre téléphone (stockage de l'application). Nous n'y avons pas accès et ils ne sont jamais envoyés.",
+    "La sauvegarde (Paramètres → Mes données) crée un fichier sur votre téléphone ; vous seul décidez où le conserver.",
+    "Ces données sont effacées si vous supprimez les données de l'application ou la désinstallez."
+   ]
+  ],
+  [
+   "Statistiques d'utilisation (uniquement avec votre accord)",
+   [
+    "Si vous acceptez, l'application envoie des compteurs regroupés par jour, par exemple : « la rubrique Prière a été ouverte 3 fois », « l'enseignement Le salut a été ouvert », « 12 sujets de prière ont été priés », « une personne a indiqué avoir donné sa vie à Jésus après la présentation Le cœur de l'homme ».",
+    "Ces compteurs ne contiennent ni nom, ni numéro, ni adresse e-mail, ni position, ni identifiant d'appareil, ni texte que vous avez écrit. Nous ne pouvons pas savoir qui a fait quoi, ni relier deux envois à la même personne. En attendant une connexion internet, ils sont conservés quelques jours sur votre téléphone.",
+    "Base légale : votre consentement. Vous pouvez le retirer à tout moment dans Paramètres → Données et confidentialité ; les compteurs en attente sont alors effacés et plus rien n'est envoyé."
+   ]
+  ],
+  [
+   "Demandes de prière (uniquement si vous les envoyez)",
+   [
+    "Si vous utilisez « Demander la prière », votre message nous est transmis avec, si vous le souhaitez, votre prénom et un moyen de vous recontacter. Un sujet de prière peut révéler vos convictions religieuses ou votre santé : nous ne le recevons qu'avec votre accord explicite, donné en cochant la case prévue avant l'envoi.",
+    "Il sert uniquement à prier pour vous et, si vous le demandez, à vous répondre. Il n'est lu que par le responsable de Yeshaya. Il est supprimé au plus tard 12 mois après réception, ou plus tôt sur simple demande.",
+    "Base légale : votre consentement explicite, que vous pouvez retirer en nous demandant de supprimer votre message."
+   ]
+  ],
+  [
+   "Ce que nous ne faisons jamais",
+   [
+    "Pas de publicité, pas de profilage, pas de revente ni de location de données, pas de partage avec des annonceurs. Vos données ne seront jamais utilisées contre vous."
+   ]
+  ],
+  [
+   "Hébergement, sous-traitant et transferts",
+   [
+    "L'application, les statistiques et les demandes de prière sont hébergées par Cloudflare, qui agit comme sous-traitant. Pour acheminer les données et protéger le service, ses serveurs traitent techniquement l'adresse IP de connexion ; nous ne l'enregistrons ni dans les statistiques ni avec les demandes de prière.",
+    "Les serveurs de Cloudflare peuvent se trouver en dehors de votre pays, notamment aux États-Unis ; ces transferts sont encadrés par les garanties prévues par la loi (clauses contractuelles types de la Commission européenne et cadre de protection des données UE–États-Unis).",
+    "Les fichiers audio sont servis par GitHub Pages, qui traite techniquement l'adresse IP pour les transmettre ; aucune donnée personnelle ne lui est envoyée par l'application."
+   ]
+  ],
+  [
+   "Durées de conservation",
+   [
+    "Statistiques : compteurs anonymes conservés tant qu'ils sont utiles au suivi de l'application. Demandes de prière : 12 mois au plus. Données sur votre téléphone : tant que vous ne les effacez pas."
+   ]
+  ],
+  [
+   "Vos droits",
+   [
+    "Selon la loi de votre pays (par exemple le Règlement général sur la protection des données dans l'Union européenne, ou les lois de protection des données personnelles en vigueur en Afrique), vous disposez notamment des droits d'accès, de rectification, d'effacement, d'opposition, de limitation et de retrait du consentement.",
+    "Les statistiques étant anonymes, nous ne pouvons pas retrouver celles qui vous concernent. Pour une demande de prière, écrivez-nous à {contact} en indiquant la date et le prénom utilisés.",
+    "Vous pouvez aussi introduire une réclamation auprès de l'autorité de protection des données de votre pays (par exemple la CNIL en France)."
+   ]
+  ],
+  [
+   "Enfants",
+   [
+    "Yeshaya peut être utilisée par toute la famille. Les enfants de moins de 15 ans ne doivent pas envoyer de demande de prière sans l'accord d'un parent ; les statistiques anonymes ne permettent d'identifier personne, quel que soit l'âge."
+   ]
+  ],
+  [
+   "Sécurité",
+   [
+    "Les échanges avec nos serveurs sont chiffrés (HTTPS). L'accès aux statistiques et aux demandes de prière est protégé par un mot de passe connu du seul responsable."
+   ]
+  ],
+  [
+   "Modifications",
+   [
+    "Si cette politique change de façon importante, la nouvelle version vous sera présentée à l'ouverture de l'application et vous pourrez faire à nouveau votre choix."
+   ]
+  ]
+ ]
+}

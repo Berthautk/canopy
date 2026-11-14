@@ -1,4 +1,4 @@
-// Statistiques anonymes (acceptées à l'entrée avec la politique de confidentialité).
+// Statistiques anonymes : envoyées uniquement si l'utilisateur l'a accepté (choix à l'entrée, modifiable dans les Paramètres).
 // Ce qui part : des compteurs par jour, par exemple « ouverture:priere = 3 » ou « decision = 1 ».
 // Ce qui ne part jamais : nom, profil, journal de prière, notes, adresse, pays, identifiant d'appareil.
 // Hors ligne, les compteurs attendent sur le téléphone et partent au retour d'internet.
@@ -9,7 +9,7 @@ const CLE_FILE = 'yeshaya:mesure-file';
 const URL_ENVOI = '/api/evenements';
 let file = null, minuteur = null;
 
-const actif = () => reglages.valeur.statsAnonymes === true || (reglages.valeur.politiqueAcceptee || 0) >= 1;
+const actif = () => reglages.valeur.statsAnonymes === true;   // uniquement avec le consentement de l'utilisateur
 const jour = () => new Date().toISOString().slice(0, 10);
 const propre = (s) => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9-]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 80);
 

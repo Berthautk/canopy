@@ -34,14 +34,11 @@ export function Demarrage({ premierLancement, surCommencer }) {
           <h2>Confidentialité</h2>
           <ul>{RESUME_POLITIQUE.map((p) => <li>{p}</li>)}</ul>
           <details><summary>Lire la politique de confidentialité complète</summary><TextePolitique /></details>
-          <p class="ligne__desc">En appuyant sur « J'accepte », vous acceptez la politique de confidentialité et l'envoi de statistiques anonymes.</p>
-          <button class="bouton bouton--plein" onClick={surCommencer}>J'accepte et je continue</button>
-          <button class="bouton bouton--contour" style="margin-top:8px" onClick={() => setEtape('refus')}>Je refuse</button>
-        </div>
-      ) : premierLancement && etape === 'refus' ? (
-        <div class="demarrage__bandeau carte">
-          <p>Sans votre accord, l'application ne peut pas être utilisée. Vous pouvez la fermer, ou revenir en arrière si vous changez d'avis.</p>
-          <button class="bouton bouton--plein" onClick={() => setEtape('politique')}>Revenir</button>
+          <p class="ligne__desc">Acceptez-vous l'envoi de statistiques anonymes pour aider Yeshaya ? Votre choix ne change rien à l'utilisation de l'application, et vous pourrez le modifier dans les Paramètres.</p>
+          <div class="demarrage__choix">
+            <button class="bouton bouton--plein" onClick={() => surCommencer(true)}>J'accepte</button>
+            <button class="bouton bouton--plein" onClick={() => surCommencer(false)}>Je refuse</button>
+          </div>
         </div>
       ) : (
         <div class="demarrage__chargement" role="progressbar" aria-label="Chargement"><span /></div>
