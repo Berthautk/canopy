@@ -13,7 +13,8 @@ import { chargerLecteur } from './audio/lecteur.js';
 import { chargerTelechargements } from './audio/telechargements.js';
 import { chargerPriere } from './donnees/priere.js';
 import { demarrerMesure } from './donnees/mesure.js';
-import { chargerRythme } from './donnees/rythme.js';
+import { chargerRythme, verifierRappels } from './donnees/rythme.js';
+import { notifier } from './composants/Notification.jsx';
 import { chargerProgressionOrizon } from './donnees/orizon.js';
 import { chargerDisciple } from './donnees/disciple.js';
 import { chargerStats } from './jeux/stats.js';
@@ -30,6 +31,7 @@ chargerTelechargements();
 chargerPriere();
 demarrerMesure();
 chargerRythme();
+setInterval(() => verifierRappels(notifier), 30000);   // rappels pendant que l'application est ouverte
 chargerProgressionOrizon();
 chargerDisciple();
 chargerStats();

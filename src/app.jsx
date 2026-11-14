@@ -30,7 +30,7 @@ import { Dialogue } from './ecrans/evangeliser/Dialogue.jsx';
 import { Outil } from './ecrans/evangeliser/Outil.jsx';
 import { Approche } from './ecrans/evangeliser/Approche.jsx';
 import { Admin } from './ecrans/Admin.jsx';
-import { Equilibre } from './ecrans/Equilibre.jsx';
+import { Equilibre, Rappels } from './ecrans/Equilibre.jsx';
 import { Formation } from './ecrans/grandir/Formation.jsx';
 import { Disciple, DefiJour, VersetSemaine, Temoignages, ListeCinq } from './ecrans/grandir/Disciple.jsx';
 import { OrizonAccueil, OrizonDoc, OrizonJour } from './ecrans/orizon/Orizon.jsx';
@@ -64,7 +64,7 @@ function titre([a, b, c]) {
   if (a === 'parametres') return "Paramètres de l'application";
   if (a === 'a-propos') return 'À propos de Yeshaya';
   if (a === 'admin') return 'Espace administrateur';
-  if (a === 'equilibre') return 'Mon équilibre avec Dieu';
+  if (a === 'equilibre') return b === 'rappels' ? 'Mes rappels' : 'Mon équilibre avec Dieu';
   if (a === 'disciple') return { defi: 'Défi de 21 jours', verset: 'Le verset de la semaine', temoignages: 'Mes témoignages', cinq: 'Ma liste des 5' }[b] || 'Mes outils de disciple';
   if (a === 'orizon') return b === 'jour' ? 'Vaincre en 90 jours · Jour ' + c : 'Vaincre en 90 jours';
   if (a === 'confidentialite') return 'Confidentialité';
@@ -100,7 +100,7 @@ function Ecran({ r }) {
   if (a === 'accueil') return <Accueil />;
   if (a === 'parametres') return <Parametres />;
   if (a === 'admin') return <Admin />;
-  if (a === 'equilibre') return <Equilibre modifier={b === 'modifier'} />;
+  if (a === 'equilibre') return b === 'rappels' ? <Rappels /> : <Equilibre modifier={b === 'modifier'} />;
   if (a === 'disciple') return b === 'defi' ? <DefiJour id={c} /> : b === 'verset' ? <VersetSemaine /> : b === 'temoignages' ? <Temoignages /> : b === 'cinq' ? <ListeCinq /> : <Disciple />;
   if (a === 'orizon') return b === 'jour' ? <OrizonJour j={c} /> : b === 'doc' ? <OrizonDoc id={c} /> : <OrizonAccueil />;
   if (a === 'confidentialite') return <Confidentialite />;

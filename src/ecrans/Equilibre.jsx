@@ -2,7 +2,7 @@ import { useState } from 'preact/hooks';
 import { Icone } from '../composants/Icone.jsx';
 import { useSignal } from '../outils/signal.js';
 import { notifier } from '../composants/Notification.jsx';
-import { ACTIVITES, rythme, temps, sauverRythme, bilan, cocher, faitsDuJour, fichierCalendrier } from '../donnees/rythme.js';
+import { ACTIVITES, rythme, temps, sauverRythme, bilan, cocher, faitsDuJour, fichierCalendrier, MODELES_RAPPEL } from '../donnees/rythme.js';
 import { compter } from '../donnees/mesure.js';
 
 const MOMENTS = [['05:30', 'Tôt le matin'], ['07:00', 'Le matin'], ['12:30', 'À midi'], ['19:00', 'Le soir'], ['21:30', 'Avant de dormir']];
@@ -41,6 +41,7 @@ function Questionnaire({ existant }) {
         <p>Réponds à 6 questions simples. L'application te proposera un emploi du temps, pourra l'ajouter à l'agenda de ton téléphone pour te rappeler chaque moment, et te montrera ton équilibre au fil des semaines.</p>
         <p class="ligne__desc">Tes réponses restent sur ton téléphone.</p>
         <button class="bouton bouton--plein" style="width:100%" onClick={() => setK(0)}>Commencer</button>
+        <a class="bouton bouton--contour" style="width:100%;margin-top:8px" href="#/equilibre/rappels">Je préfère créer mes rappels moi-même</a>
       </section>
     </div>
   );
@@ -166,9 +167,92 @@ function Tableau({ r }) {
       <div class="liste">{r.items.map((it) => <LigneItem it={it} />)}</div>
       <button class="bouton bouton--plein" style="width:100%;margin-top:12px" onClick={telecharger}><Icone nom="calendrier" taille={20} /> Ajouter les rappels à mon agenda</button>
       <p class="ligne__desc" style="margin:6px 4px">Un fichier d'agenda est créé : ouvre-le avec l'application Agenda ou Calendrier de ton téléphone pour recevoir une notification à chaque moment prévu.</p>
-      <a class="bouton bouton--contour" href="#/equilibre/modifier" style="width:100%;margin-top:8px">Modifier mon rythme</a>
+      <a class="bouton bouton--plein" href="#/equilibre/rappels" style="width:100%;margin-top:8px">Modifier mes rappels (jour par jour)</a>
+      <a class="bouton bouton--contour" href="#/equilibre/modifier" style="width:100%;margin-top:8px">Refaire le questionnaire</a>
       <a class="carte ligne" href="#/disciple" style="margin-top:12px"><span class="ligne__icone"><Icone nom="grandir" /></span>
         <span class="ligne__corps"><span class="ligne__titre" style="display:block">Mes outils de disciple</span><span class="ligne__desc">Défis de 21 jours, verset de la semaine, ma liste des 5</span></span><Icone nom="chevron" taille={20} /></a>
+    </div>
+  );
+}
+
+// Mes rappels : la personne crée, modifie ou supprime ses rappels, jour par jour, puis les ajoute à l'agenda du téléphone.
+export function Rappels() {
+  const r = useSignal(rythme) || { items: [] };
+  const items = r?.items || [];
+  const [edition, setEdition] = useState(null);   // rappel en cours de modification (ou nouveau)
+  const [msg, setMsg] = useState(null);
+  const nouveau = (m) => setEdition({ id: 'r' + Date.now().toString(36), libelle: m.libelle, activite: m.activite, heure: m.heure, minutes: m.minutes, lien: m.lien, jours: [...TOUS] });
+  async function enregistrer() {
+    const autres = items.filter((x) => x.id !== edition.id);
+    await sauverRythme({ ...(r || {}), items: [...autres, edition].sort((a, b) => a.heure.localeCompare(b.heure)), cree: r?.cree || new Date().toISOString() });
+    setMsg(`Enregistré. ${edition.jours.length === 7 ? 'Chaque jour' : 'Chaque ' + nomsJours(edition.jours).toLowerCase()}, à ${edition.heure.replace(':', ' h ')}, tu recevras un rappel : « ${edition.libelle} ». Pense à mettre à jour ton agenda avec le bouton ci-dessous.`);
+    setEdition(null); compter('rappel-enregistre');
+    try { if ('Notification' in window && Notification.permission === 'default') Notification.requestPermission(); } catch {}
+  }
+  const supprimer = (id) => sauverRythme({ ...r, items: items.filter((x) => x.id !== id) });
+  function telecharger() {
+    const blob = new Blob([fichierCalendrier({ items })], { type: 'text/calendar' });
+    const u = URL.createObjectURL(blob), lien = document.createElement('a');
+    lien.href = u; lien.download = 'yeshaya-mes-rappels.ics'; document.body.appendChild(lien); lien.click(); lien.remove();
+    setTimeout(() => URL.revokeObjectURL(u), 5000); compter('rythme-calendrier');
+    notifier('Ouvre le fichier pour ajouter les rappels à ton agenda.');
+  }
+
+  if (edition) {
+    const maj = (c) => setEdition({ ...edition, ...c });
+    return (
+      <div class="page">
+        <section class="carte bloc questionnaire" style="margin-top:12px">
+          <h3 style="margin-top:0">{items.some((x) => x.id === edition.id) ? 'Modifier le rappel' : 'Nouveau rappel'}</h3>
+          <label class="etiquette-champ" for="rp-nom">Nom du rappel</label>
+          <input id="rp-nom" class="champ" maxLength={60} value={edition.libelle} onInput={(e) => maj({ libelle: e.currentTarget.value })} />
+          <p class="etiquette-champ">Activité</p>
+          <div class="puces">{Object.entries(ACTIVITES).map(([k, a]) => <button aria-pressed={edition.activite === k} onClick={() => maj({ activite: k })}>{a.nom}</button>)}</div>
+          <label class="etiquette-champ" for="rp-heure">Heure</label>
+          <input id="rp-heure" class="champ" type="time" value={edition.heure} onInput={(e) => maj({ heure: e.currentTarget.value })} />
+          <p class="etiquette-champ">Jours</p>
+          <div class="puces">
+            {JOURS.map(([j, l]) => <button aria-pressed={edition.jours.includes(j)} onClick={() => maj({ jours: edition.jours.includes(j) ? edition.jours.filter((x) => x !== j) : [...edition.jours, j] })}>{l}</button>)}
+            <button onClick={() => maj({ jours: [...TOUS] })}>Tous</button>
+          </div>
+          <p class="etiquette-champ">Durée</p>
+          <div class="puces">{[[10, '10 min'], [15, '15 min'], [20, '20 min'], [30, '30 min'], [60, '1 h'], [120, '2 h']].map(([m, l]) => <button aria-pressed={edition.minutes === m} onClick={() => maj({ minutes: m })}>{l}</button>)}</div>
+        </section>
+        <div class="fin-niveau__actions">
+          <button class="bouton bouton--plein" disabled={!edition.libelle.trim() || !edition.heure || !edition.jours.length} onClick={enregistrer}><Icone nom="verifie" taille={20} /> Enregistrer</button>
+          <button class="bouton bouton--contour" onClick={() => setEdition(null)}>Annuler</button>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div class="page">
+      <h2 class="titre-section">Mes rappels</h2>
+      <p class="ligne__desc" style="margin:0 4px 10px">C'est toi qui choisis tes moments avec Dieu. Chaque jour peut être différent : ajoute, modifie ou supprime tes rappels selon ton programme.</p>
+      {msg && <section class="carte bloc" style="border:2px solid #2e9d5b"><p style="margin:0"><Icone nom="verifie" /> {msg}</p></section>}
+      <div class="liste">
+        {items.map((it) => (
+          <div class="carte ligne">
+            <span class="ligne__icone"><Icone nom={ACTIVITES[it.activite].icone} /></span>
+            <span class="ligne__corps"><span class="ligne__titre" style="display:block">{it.libelle || ACTIVITES[it.activite].nom}</span>
+              <span class="ligne__desc">{it.heure.replace(':', ' h ')} · {it.minutes} min · {nomsJours(it.jours)}</span></span>
+            <span class="rappel__actions">
+              <button class="rond" aria-label="Modifier" onClick={() => setEdition({ libelle: ACTIVITES[it.activite].nom, ...it })}><Icone nom="note" taille={18} /></button>
+              <button class="rond" aria-label="Supprimer" onClick={() => confirm('Supprimer ce rappel ?') && supprimer(it.id)}><Icone nom="corbeille" taille={18} /></button>
+            </span>
+          </div>
+        ))}
+        {!items.length && <p class="ligne__desc">Aucun rappel pour l'instant. Choisis-en un ci-dessous.</p>}
+      </div>
+      <h2 class="titre-section">Ajouter un rappel</h2>
+      <div class="puces">{MODELES_RAPPEL.map((m) => <button onClick={() => nouveau(m)}>+ {m.libelle}</button>)}
+        <button onClick={() => nouveau({ libelle: '', activite: 'priere', heure: '07:00', minutes: 15, lien: '' })}>+ Autre</button></div>
+      {items.length > 0 && <>
+        <button class="bouton bouton--or" style="width:100%;margin-top:16px" onClick={telecharger}><Icone nom="calendrier" taille={20} /> Mettre mes rappels dans l'agenda du téléphone</button>
+        <p class="ligne__desc" style="margin:6px 4px">Le fichier s'ouvre avec l'application Agenda ou Calendrier : elle sonnera à chaque moment, même si Yeshaya est fermée. Après une modification, refais cette étape. Quand Yeshaya est ouverte, tu reçois aussi une notification.</p>
+      </>}
+      <a class="bouton bouton--contour" href="#/equilibre" style="width:100%;margin-top:8px">Voir mon équilibre</a>
     </div>
   );
 }

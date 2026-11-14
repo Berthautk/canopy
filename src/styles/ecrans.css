@@ -611,3 +611,5 @@
 .suivi__avenir { color: rgba(255,255,255,.45); }
 .suivi__mot { background: #e0b324; color: #142340; border-radius: 4px; padding: 0 2px; }
 .suivi--verset { font-family: var(--police-verset, serif); font-style: italic; }
+
+.rappel__actions { display: flex; gap: 6px; flex: none; }

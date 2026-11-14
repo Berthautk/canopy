@@ -40,6 +40,7 @@ export default defineConfig({
       injectRegister: false,       // enregistrement fait à la main dans src/main.jsx
       manifest: false,             // on garde public/manifest.webmanifest
       workbox: {
+        importScripts: ['sw-notifications.js'],   // clic sur une notification de rappel
         clientsClaim: true,   // contrôle la page dès la 1re visite : ce qui est ouvert est gardé pour le hors ligne
         skipWaiting: true,
         // Coquille de l'app : précachée pour fonctionner hors ligne dès la 1re visite.
