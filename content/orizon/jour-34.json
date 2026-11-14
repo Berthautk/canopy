@@ -1,1 +1,91 @@
-{"jour": 34, "titre": "La solitude des jours non structurés", "blocs": [{"t": "h", "x": "Enseignement"}, {"t": "p", "x": "Depuis lundi, tu as vécu trois jours sans enseignement structuré. Peut-être que tout s'est bien passé. Peut-être que mardi soir, ou mercredi après-midi, tu as senti une brèche — un moment de vide, d'ennui, de solitude, où la vieille habitude a chuchoté."}, {"t": "p", "x": "Si c'est le cas, tu viens de découvrir le vrai champ de bataille de la Phase 2 : les jours non structurés."}, {"t": "p", "x": "En Phase 1, chaque jour avait un contenu. Tu n'avais pas le temps de t'ennuyer spirituellement. En Phase 2, cinq jours par semaine sont à toi. Et ces cinq jours sont exactement ceux où le plateau peut devenir une pente."}, {"t": "p", "x": "Le prophète Élie l'a vécu. Après la victoire spectaculaire du mont Carmel — feu du ciel, prophètes de Baal défaits, pluie qui revient — Élie se retrouve seul, épuisé, dans le désert. Et là, dans le silence, dans le vide après l'intensité, il demande à mourir :"}, {"t": "cit", "x": "« C'est assez ! Maintenant, Éternel, prends mon âme, car je ne suis pas meilleur que mes pères. » 1 Rois 19:4"}, {"t": "p", "x": "Élie n'a pas été vaincu par Jézabel. Il a été vaincu par le vide après la victoire. C'est exactement ce qui menace en Phase 2."}, {"t": "p", "x": "Et que fait Dieu ? Il ne lui dit pas « ressaisis-toi ». Il l'envoie dormir, Il le nourrit, et Il lui donne un compagnon — Élisée (1 Rois 19:19-21). Sommeil, nourriture, compagnonnage. Les trois mêmes choses que tu as installées en Phase 1."}, {"t": "p", "x": "Ta réponse aux jours non structurés n'est pas d'en refaire des jours structurés. C'est de vérifier que tes fondations de Phase 1 tiennent dans le quotidien ordinaire :"}, {"t": "p", "x": "— Routine matinale maintenue ? Oui ou non. — Téléphone hors chambre ? Oui ou non. — Filtre actif, codes détenus par un tiers ? Oui ou non. — Contact avec ton frère/ta sœur cette semaine ? Oui ou non. — Sommeil régulier ? Oui ou non."}, {"t": "p", "x": "Si quatre réponses sur cinq sont « oui » — tu tiens. Si deux ou plus sont « non » — tu es en train de t'effilocher, et tu as besoin d'un recadrage avant que la brèche devienne une porte."}, {"t": "h", "x": "Verset du jour"}, {"t": "cit", "x": "« Veillez et priez, afin que vous ne tombiez pas dans la tentation ; l'esprit est bien disposé, mais la chair est faible. » Matthieu 26:41"}, {"t": "h", "x": "Exercice concret"}, {"t": "li", "x": "Fais le diagnostic des 5 fondations ci-dessus. Note tes réponses dans ton journal. Si une ou plusieurs sont « non », corrige aujourd'hui — pas demain."}, {"t": "li", "x": "Crée un « rituel de transition » pour les soirs de jours non structurés — le moment le plus vulnérable. Ce rituel doit durer 10 minutes maximum et marquer le passage du soir actif au soir sûr. Exemple : à 21h, poser le téléphone dans le salon, lire un Psaume debout, réciter ton verset de combat, dire à voix haute « cette soirée est sous Ton autorité, Seigneur ». Fais-le ce soir."}, {"t": "li", "x": "Envoie un message court à ton frère/ta sœur de combat : « Jour 34. Les fondations tiennent. » Ou : « Jour 34. J'ai besoin qu'on parle. »"}, {"t": "h", "x": "Journal de bord"}, {"t": "p", "x": "— Quel jour non structuré de cette semaine a été le plus difficile — et à quelle heure exacte ? — Mon rituel de transition du soir est-il réaliste, ou est-ce que je l'ai conçu pour être beau sur papier ? — Quelle fondation de Phase 1 est en train de s'effilocher sans que je l'aie encore admis ?"}, {"t": "h", "x": "Prière du jour"}, {"t": "cit", "x": "« Père, Je suis dans le vide ordinaire d'un jour sans structure. Et je découvre que c'est ici, dans l'ordinaire, que la chair murmure le plus fort. Apprends-moi à veiller quand personne ne me surveille. Apprends-moi à prier quand personne ne me le demande. Apprends-moi à être fidèle dans les mardis de la vie — pas seulement dans les dimanches. Au nom puissant de Jésus-Christ, amen. »"}], "accroche": "Aujourd'hui, j'apprends à vivre un mardi ordinaire sans rail — et sans tomber."}
+{
+ "jour": 34,
+ "titre": "La solitude des jours non structurés",
+ "blocs": [
+  {
+   "t": "h",
+   "x": "Enseignement"
+  },
+  {
+   "t": "p",
+   "x": "Depuis lundi, tu as vécu trois jours sans enseignement structuré. Peut-être que tout s'est bien passé. Peut-être que mardi soir, ou mercredi après-midi, tu as senti une brèche — un moment de vide, d'ennui, de solitude, où la vieille habitude a chuchoté."
+  },
+  {
+   "t": "p",
+   "x": "Si c'est le cas, tu viens de découvrir le vrai champ de bataille de la Phase 2 : les jours non structurés."
+  },
+  {
+   "t": "p",
+   "x": "En Phase 1, chaque jour avait un contenu. Tu n'avais pas le temps de t'ennuyer spirituellement. En Phase 2, cinq jours par semaine sont à toi. Et ces cinq jours sont exactement ceux où le plateau peut devenir une pente."
+  },
+  {
+   "t": "p",
+   "x": "Le prophète Élie l'a vécu. Après la victoire spectaculaire du mont Carmel — feu du ciel, prophètes de Baal défaits, pluie qui revient — Élie se retrouve seul, épuisé, dans le désert. Et là, dans le silence, dans le vide après l'intensité, il demande à mourir :"
+  },
+  {
+   "t": "cit",
+   "x": "« C'est assez ! Maintenant, Éternel, prends mon âme, car je ne suis pas meilleur que mes pères. » 1 Rois 19:4"
+  },
+  {
+   "t": "p",
+   "x": "Élie n'a pas été vaincu par Jézabel. Il a été vaincu par le vide après la victoire. C'est exactement ce qui menace en Phase 2."
+  },
+  {
+   "t": "p",
+   "x": "Et que fait Dieu ? Il ne lui dit pas « ressaisis-toi ». Il l'envoie dormir, Il le nourrit, et Il lui donne un compagnon — Élisée (1 Rois 19:19-21). Sommeil, nourriture, compagnonnage. Les trois mêmes choses que tu as installées en Phase 1."
+  },
+  {
+   "t": "p",
+   "x": "Ta réponse aux jours non structurés n'est pas d'en refaire des jours structurés. C'est de vérifier que tes fondations de Phase 1 tiennent dans le quotidien ordinaire :"
+  },
+  {
+   "t": "p",
+   "x": "— Routine matinale maintenue ? Oui ou non. — Téléphone hors chambre ? Oui ou non. — Filtre actif, codes détenus par un tiers ? Oui ou non. — Contact avec ton frère/ta sœur cette semaine ? Oui ou non. — Sommeil régulier ? Oui ou non."
+  },
+  {
+   "t": "p",
+   "x": "Si quatre réponses sur cinq sont « oui » — tu tiens. Si deux ou plus sont « non » — tu es en train de t'effilocher, et tu as besoin d'un recadrage avant que la brèche devienne une porte."
+  },
+  {
+   "t": "h",
+   "x": "Verset du jour"
+  },
+  {
+   "t": "cit",
+   "x": "« Veillez et priez, afin que vous ne tombiez pas dans la tentation ; l'esprit est bien disposé, mais la chair est faible. » Matthieu 26:41"
+  },
+  {
+   "t": "h",
+   "x": "Exercice concret"
+  },
+  {
+   "t": "li",
+   "x": "Fais le diagnostic des 5 fondations ci-dessus. Note tes réponses dans ton journal. Si une ou plusieurs sont « non », corrige aujourd'hui — pas demain."
+  },
+  {
+   "t": "li",
+   "x": "Crée un « rituel de transition » pour les soirs de jours non structurés — le moment le plus vulnérable. Ce rituel doit durer 10 minutes maximum et marquer le passage du soir actif au soir sûr. Exemple : à 21h, poser le téléphone dans le salon, lire un Psaume debout, réciter ton verset de combat, dire à voix haute « cette soirée est sous Ton autorité, Seigneur ». Fais-le ce soir."
+  },
+  {
+   "t": "li",
+   "x": "Envoie un message court à ton frère/ta sœur de combat : « Jour 34. Les fondations tiennent. » Ou : « Jour 34. J'ai besoin qu'on parle. »"
+  },
+  {
+   "t": "h",
+   "x": "Journal de bord"
+  },
+  {
+   "t": "p",
+   "x": "— Quel jour non structuré de cette semaine a été le plus difficile — et à quelle heure exacte ? — Mon rituel de transition du soir est-il réaliste, ou est-ce que je l'ai conçu pour être beau sur papier ? — Quelle fondation de Phase 1 est en train de s'effilocher sans que je l'aie encore admis ?"
+  },
+  {
+   "t": "h",
+   "x": "Prière du jour"
+  },
+  {
+   "t": "cit",
+   "x": "« Père, Je suis dans le vide ordinaire d'un jour sans structure. Et je découvre que c'est ici, dans l'ordinaire, que la chair murmure le plus fort. Apprends-moi à veiller quand personne ne me surveille. Apprends-moi à prier quand personne ne me le demande. Apprends-moi à être fidèle dans les mardis de la vie — pas seulement dans les dimanches. Au nom puissant de Jésus-Christ, amen. »"
+  }
+ ],
+ "accroche": "Aujourd'hui, j'apprends à vivre un mardi ordinaire sans rail — et sans tomber."
+}

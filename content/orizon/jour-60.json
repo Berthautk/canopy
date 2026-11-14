@@ -1,1 +1,51 @@
-{"jour": 60, "titre": "Sabbat élargi : célébration et renouvellement", "blocs": [{"t": "h", "x": "Enseignement"}, {"t": "p", "x": "Soixante jours, frère, sœur. Deux mois. Pose ce livre. Respire. Et dis à voix haute : « Père, merci. Tu es fidèle. »"}, {"t": "p", "x": "Ce jour n'est pas un jour de travail. C'est un Sabbat élargi — un jour de repos, de gratitude, et de passage. Tu passes aujourd'hui du statut de combattant en enracinement à celui de combattant en consolidation. Ce n'est pas un diplôme. C'est un seuil."}, {"t": "p", "x": "Célèbre. Pas en fanfare. En paix. Comme un homme, une femme, qui a marché 60 jours avec Dieu et qui sait — dans son corps, dans son âme, dans son esprit — que quelque chose a changé en profondeur."}, {"t": "h", "x": "Exercice concret"}, {"t": "li", "x": "Pas de plan structuré aujourd'hui. Pas d'exercice. Pas de journal obligatoire. Juste un jour avec Dieu."}, {"t": "li", "x": "Si possible, passe une partie de la journée dans un lieu différent : une marche en forêt, un temps dans une chapelle, un après-midi dans un parc. Change de décor. Respire."}, {"t": "li", "x": "Prends la Sainte Cène ce soir — en couple, avec ton frère/ta sœur de combat, ou seul(e) devant Dieu. C'est le sceau de passage entre la Phase 2 et la Phase 3."}, {"t": "li", "x": "Écris une seule phrase dans ton journal : ce que tu veux que les 30 prochains jours produisent dans ta vie. Une seule phrase. Claire. Engagée."}, {"t": "h", "x": "Prière du jour"}, {"t": "cit", "x": "« Père, Soixante jours. Et je suis là. Debout. Pas parfait(e). Debout. Tu m'as porté(e) dans les jours de feu et dans les jours de silence. Tu m'as tenu(e) quand le plateau m'a fait douter. Tu m'as gardé(e) quand la confiance voulait devenir orgueil. Maintenant, conduis-moi dans la Phase 3. Fais de moi non seulement un homme libre, une femme libre — mais un porteur de liberté pour d'autres. Que ces 30 derniers jours soient les plus féconds de tout le parcours — non pour moi, mais pour ceux que Tu mettras sur ma route. Au nom puissant de Jésus-Christ, amen. »"}], "accroche": "Aujourd'hui est un jour sacré. Je m'arrête. Je célèbre. Et je passe le seuil de la Phase 3."}
+{
+ "jour": 60,
+ "titre": "Sabbat élargi : célébration et renouvellement",
+ "blocs": [
+  {
+   "t": "h",
+   "x": "Enseignement"
+  },
+  {
+   "t": "p",
+   "x": "Soixante jours, frère, sœur. Deux mois. Pose ce livre. Respire. Et dis à voix haute : « Père, merci. Tu es fidèle. »"
+  },
+  {
+   "t": "p",
+   "x": "Ce jour n'est pas un jour de travail. C'est un Sabbat élargi — un jour de repos, de gratitude, et de passage. Tu passes aujourd'hui du statut de combattant en enracinement à celui de combattant en consolidation. Ce n'est pas un diplôme. C'est un seuil."
+  },
+  {
+   "t": "p",
+   "x": "Célèbre. Pas en fanfare. En paix. Comme un homme, une femme, qui a marché 60 jours avec Dieu et qui sait — dans son corps, dans son âme, dans son esprit — que quelque chose a changé en profondeur."
+  },
+  {
+   "t": "h",
+   "x": "Exercice concret"
+  },
+  {
+   "t": "li",
+   "x": "Pas de plan structuré aujourd'hui. Pas d'exercice. Pas de journal obligatoire. Juste un jour avec Dieu."
+  },
+  {
+   "t": "li",
+   "x": "Si possible, passe une partie de la journée dans un lieu différent : une marche en forêt, un temps dans une chapelle, un après-midi dans un parc. Change de décor. Respire."
+  },
+  {
+   "t": "li",
+   "x": "Prends la Sainte Cène ce soir — en couple, avec ton frère/ta sœur de combat, ou seul(e) devant Dieu. C'est le sceau de passage entre la Phase 2 et la Phase 3."
+  },
+  {
+   "t": "li",
+   "x": "Écris une seule phrase dans ton journal : ce que tu veux que les 30 prochains jours produisent dans ta vie. Une seule phrase. Claire. Engagée."
+  },
+  {
+   "t": "h",
+   "x": "Prière du jour"
+  },
+  {
+   "t": "cit",
+   "x": "« Père, Soixante jours. Et je suis là. Debout. Pas parfait(e). Debout. Tu m'as porté(e) dans les jours de feu et dans les jours de silence. Tu m'as tenu(e) quand le plateau m'a fait douter. Tu m'as gardé(e) quand la confiance voulait devenir orgueil. Maintenant, conduis-moi dans la Phase 3. Fais de moi non seulement un homme libre, une femme libre — mais un porteur de liberté pour d'autres. Que ces 30 derniers jours soient les plus féconds de tout le parcours — non pour moi, mais pour ceux que Tu mettras sur ma route. Au nom puissant de Jésus-Christ, amen. »"
+  }
+ ],
+ "accroche": "Aujourd'hui est un jour sacré. Je m'arrête. Je célèbre. Et je passe le seuil de la Phase 3."
+}

@@ -1,1 +1,79 @@
-{"jour": 89, "titre": "Veille d'armes : la dernière nuit avant le Jour 90", "blocs": [{"t": "h", "x": "Enseignement"}, {"t": "p", "x": "Demain, tu seras au Jour 90."}, {"t": "p", "x": "Mais ce soir, tu es au Jour 89. Et je veux que ce soir soit un soir différent de tous les autres."}, {"t": "p", "x": "Dans la tradition chevaleresque chrétienne, la nuit qui précédait l'adoubement s'appelait la veille d'armes. Le futur chevalier passait la nuit entière dans la chapelle, seul, à genoux devant l'autel, en prière et en silence. Il ne dormait pas. Il veillait. Il se préparait à recevoir, au matin, un nom nouveau — celui de chevalier. Et ce nom n'était pas un titre. C'était un engagement à vie : protéger les faibles, servir le Roi, marcher dans l'honneur."}, {"t": "p", "x": "Ce soir, tu es ce futur chevalier. Demain, tu ne recevras pas un titre — mais tu poseras un engagement à vie. L'engagement de marcher dans la pureté, dans la transparence, dans le service, dans la vigilance — non pour 90 jours, mais pour le restant de ta vie."}, {"t": "p", "x": "L'apôtre Paul, à la fin de sa vie, a écrit à Timothée les mots les plus sobres et les plus puissants de toutes ses lettres :"}, {"t": "cit", "x": "« J'ai combattu le bon combat, j'ai achevé la course, j'ai gardé la foi. Désormais la couronne de justice m'est réservée ; le Seigneur, le juste juge, me la donnera dans ce jour-là, et non seulement à moi, mais encore à tous ceux qui auront aimé son avènement. » 2 Timothée 4:7-8"}, {"t": "p", "x": "Paul ne dit pas « je n'ai jamais chuté ». Il ne dit pas « j'ai été parfait ». Il dit : « J'ai combattu. J'ai achevé. J'ai gardé. » C'est la fidélité qui compte — pas la perfection. Et c'est cette fidélité que tu vas sceller demain."}, {"t": "p", "x": "Ce soir, prépare-toi."}, {"t": "h", "x": "Verset du jour"}, {"t": "cit", "x": "« J'ai combattu le bon combat, j'ai achevé la course, j'ai gardé la foi. » 2 Timothée 4:7"}, {"t": "h", "x": "Exercice concret"}, {"t": "li", "x": "Ce soir, consacre 1 heure au silence devant Dieu. Pas de musique, pas de livre, pas de téléphone. Juste toi, une bougie si tu veux, et la présence de Dieu. Assieds-toi ou mets-toi à genoux. Et reste."}, {"t": "li", "x": "Pendant cette heure, relis — lentement, à voix haute — les quatre documents de ton dossier de vie : — Ton pacte du Jour 1. — Ton témoignage du Jour 27. — Ta grille des six axes. — Ta vision à 5 ans du Jour 75."}, {"t": "li", "x": "Puis ferme les yeux et pose à Dieu une seule question : « Père, qu'est-ce que Tu veux me dire, ce soir, avant que je franchisse le seuil demain ? » Et écoute. Pas avec les oreilles — avec le cœur. Ce qui monte, note-le dans ton journal."}, {"t": "li", "x": "Avant de te coucher, envoie un message à ton frère/ta sœur de combat : « Demain, Jour 90. Merci d'avoir marché avec moi. »"}, {"t": "h", "x": "Prière du jour"}, {"t": "cit", "x": "« Père, Ce soir est ma veille d'armes. Demain, je franchirai un seuil que je n'aurais jamais cru atteindre il y a 89 jours. Je ne suis pas parfait(e). Tu le sais mieux que moi. J'ai tenu certains jours par la foi, d'autres par l'habitude, d'autres encore par la peur de retomber. Mais j'ai tenu. Et c'est Toi qui m'as tenu. Ce soir, je veille devant Toi. Comme un futur chevalier dans la chapelle. Comme un fils, une fille, qui se prépare à recevoir un engagement. Parle-moi dans le silence de cette nuit. Et demain matin, quand je me lèverai, que ce soit avec la certitude tranquille de celui, de celle, qui a combattu le bon combat — et qui continuera. Au nom puissant de Jésus-Christ, amen. »"}], "accroche": "Aujourd'hui, je me prépare à franchir le seuil — non comme une fin, mais comme un commencement."}
+{
+ "jour": 89,
+ "titre": "Veille d'armes : la dernière nuit avant le Jour 90",
+ "blocs": [
+  {
+   "t": "h",
+   "x": "Enseignement"
+  },
+  {
+   "t": "p",
+   "x": "Demain, tu seras au Jour 90."
+  },
+  {
+   "t": "p",
+   "x": "Mais ce soir, tu es au Jour 89. Et je veux que ce soir soit un soir différent de tous les autres."
+  },
+  {
+   "t": "p",
+   "x": "Dans la tradition chevaleresque chrétienne, la nuit qui précédait l'adoubement s'appelait la veille d'armes. Le futur chevalier passait la nuit entière dans la chapelle, seul, à genoux devant l'autel, en prière et en silence. Il ne dormait pas. Il veillait. Il se préparait à recevoir, au matin, un nom nouveau — celui de chevalier. Et ce nom n'était pas un titre. C'était un engagement à vie : protéger les faibles, servir le Roi, marcher dans l'honneur."
+  },
+  {
+   "t": "p",
+   "x": "Ce soir, tu es ce futur chevalier. Demain, tu ne recevras pas un titre — mais tu poseras un engagement à vie. L'engagement de marcher dans la pureté, dans la transparence, dans le service, dans la vigilance — non pour 90 jours, mais pour le restant de ta vie."
+  },
+  {
+   "t": "p",
+   "x": "L'apôtre Paul, à la fin de sa vie, a écrit à Timothée les mots les plus sobres et les plus puissants de toutes ses lettres :"
+  },
+  {
+   "t": "cit",
+   "x": "« J'ai combattu le bon combat, j'ai achevé la course, j'ai gardé la foi. Désormais la couronne de justice m'est réservée ; le Seigneur, le juste juge, me la donnera dans ce jour-là, et non seulement à moi, mais encore à tous ceux qui auront aimé son avènement. » 2 Timothée 4:7-8"
+  },
+  {
+   "t": "p",
+   "x": "Paul ne dit pas « je n'ai jamais chuté ». Il ne dit pas « j'ai été parfait ». Il dit : « J'ai combattu. J'ai achevé. J'ai gardé. » C'est la fidélité qui compte — pas la perfection. Et c'est cette fidélité que tu vas sceller demain."
+  },
+  {
+   "t": "p",
+   "x": "Ce soir, prépare-toi."
+  },
+  {
+   "t": "h",
+   "x": "Verset du jour"
+  },
+  {
+   "t": "cit",
+   "x": "« J'ai combattu le bon combat, j'ai achevé la course, j'ai gardé la foi. » 2 Timothée 4:7"
+  },
+  {
+   "t": "h",
+   "x": "Exercice concret"
+  },
+  {
+   "t": "li",
+   "x": "Ce soir, consacre 1 heure au silence devant Dieu. Pas de musique, pas de livre, pas de téléphone. Juste toi, une bougie si tu veux, et la présence de Dieu. Assieds-toi ou mets-toi à genoux. Et reste."
+  },
+  {
+   "t": "li",
+   "x": "Pendant cette heure, relis — lentement, à voix haute — les quatre documents de ton dossier de vie : — Ton pacte du Jour 1. — Ton témoignage du Jour 27. — Ta grille des six axes. — Ta vision à 5 ans du Jour 75."
+  },
+  {
+   "t": "li",
+   "x": "Puis ferme les yeux et pose à Dieu une seule question : « Père, qu'est-ce que Tu veux me dire, ce soir, avant que je franchisse le seuil demain ? » Et écoute. Pas avec les oreilles — avec le cœur. Ce qui monte, note-le dans ton journal."
+  },
+  {
+   "t": "li",
+   "x": "Avant de te coucher, envoie un message à ton frère/ta sœur de combat : « Demain, Jour 90. Merci d'avoir marché avec moi. »"
+  },
+  {
+   "t": "h",
+   "x": "Prière du jour"
+  },
+  {
+   "t": "cit",
+   "x": "« Père, Ce soir est ma veille d'armes. Demain, je franchirai un seuil que je n'aurais jamais cru atteindre il y a 89 jours. Je ne suis pas parfait(e). Tu le sais mieux que moi. J'ai tenu certains jours par la foi, d'autres par l'habitude, d'autres encore par la peur de retomber. Mais j'ai tenu. Et c'est Toi qui m'as tenu. Ce soir, je veille devant Toi. Comme un futur chevalier dans la chapelle. Comme un fils, une fille, qui se prépare à recevoir un engagement. Parle-moi dans le silence de cette nuit. Et demain matin, quand je me lèverai, que ce soit avec la certitude tranquille de celui, de celle, qui a combattu le bon combat — et qui continuera. Au nom puissant de Jésus-Christ, amen. »"
+  }
+ ],
+ "accroche": "Aujourd'hui, je me prépare à franchir le seuil — non comme une fin, mais comme un commencement."
+}
