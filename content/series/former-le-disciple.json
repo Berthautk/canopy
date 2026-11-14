@@ -1,7 +1,7 @@
 {
  "id": "former-le-disciple",
  "titre": "Former le disciple",
- "resume": "Un parcours d'affermissement d'environ deux ans, en 40 leçons et 3 volumes : chaque leçon est un enseignement complet, avec des questions pour vérifier sa compréhension et un travail de la semaine à faire seul ou à corriger en groupe le dimanche.",
+ "resume": "Un parcours d'affermissement d'environ deux ans, en 38 leçons et 3 volumes : chaque leçon est un enseignement complet, avec des questions pour vérifier sa compréhension et un travail de la semaine à faire seul ou à corriger en groupe le dimanche.",
  "volumes": [
   {
    "titre": "Volume 1 · Les premiers pas",
@@ -81,77 +81,72 @@
     {
      "numero": 1,
      "titre": "Connaître Dieu",
-     "enseignement": null
+     "enseignement": "disciple-v2-01-connaitre-dieu"
     },
     {
      "numero": 2,
      "titre": "Jésus, mon modèle",
-     "enseignement": null
+     "enseignement": "disciple-v2-02-jesus-mon-modele"
     },
     {
      "numero": 3,
      "titre": "Appelé à servir",
-     "enseignement": null
+     "enseignement": "disciple-v2-03-appele-a-servir"
     },
     {
      "numero": 4,
      "titre": "Qui je suis en Christ",
-     "enseignement": null
+     "enseignement": "disciple-v2-04-qui-je-suis-en-christ"
     },
     {
      "numero": 5,
      "titre": "Le combat spirituel",
-     "enseignement": null
+     "enseignement": "disciple-v2-05-le-combat-spirituel"
     },
     {
      "numero": 6,
      "titre": "Les armes que Dieu me donne",
-     "enseignement": null
+     "enseignement": "disciple-v2-06-les-armes-de-dieu"
     },
     {
      "numero": 7,
-     "titre": "Pardonner pour être libre",
-     "enseignement": null
+     "titre": "Le pardon : pardonner, demander pardon, réparer",
+     "enseignement": "disciple-v2-07-le-pardon"
     },
     {
      "numero": 8,
-     "titre": "Demander pardon et réparer",
-     "enseignement": null
-    },
-    {
-     "numero": 9,
      "titre": "Appelé à la sainteté",
      "enseignement": "enseignement-sanctification"
     },
     {
-     "numero": 10,
+     "numero": 9,
      "titre": "Le chrétien et l'argent",
-     "enseignement": null
+     "enseignement": "disciple-v2-09-chretien-et-argent"
     },
     {
-     "numero": 11,
+     "numero": 10,
      "titre": "Ce qui est permis n'est pas toujours utile",
      "enseignement": "enseignement-corps-temple"
     },
     {
-     "numero": 12,
+     "numero": 11,
      "titre": "Le discernement",
-     "enseignement": null
+     "enseignement": "disciple-v2-11-le-discernement"
+    },
+    {
+     "numero": 12,
+     "titre": "Parler de Christ autour de moi",
+     "enseignement": "disciple-v2-12-parler-de-christ"
     },
     {
      "numero": 13,
-     "titre": "Parler de Christ autour de moi",
-     "enseignement": null
+     "titre": "L'avenir selon la Bible",
+     "enseignement": "disciple-v2-13-l-avenir"
     },
     {
      "numero": 14,
-     "titre": "L'avenir selon la Bible",
-     "enseignement": null
-    },
-    {
-     "numero": 15,
      "titre": "Le retour de Jésus et l'éternité",
-     "enseignement": null
+     "enseignement": "disciple-v2-14-retour-et-eternite"
     }
    ]
   },
@@ -191,31 +186,26 @@
     },
     {
      "numero": 7,
-     "titre": "Se pardonner les uns les autres",
-     "enseignement": null
-    },
-    {
-     "numero": 8,
      "titre": "S'accepter les uns les autres",
      "enseignement": null
     },
     {
-     "numero": 9,
+     "numero": 8,
      "titre": "S'exhorter les uns les autres",
      "enseignement": null
     },
     {
-     "numero": 10,
+     "numero": 9,
      "titre": "Se reprendre avec douceur",
      "enseignement": null
     },
     {
-     "numero": 11,
+     "numero": 10,
      "titre": "Se saluer et s'accueillir",
      "enseignement": null
     },
     {
-     "numero": 12,
+     "numero": 11,
      "titre": "L'hospitalité",
      "enseignement": null
     }

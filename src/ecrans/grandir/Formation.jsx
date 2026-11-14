@@ -2,14 +2,14 @@ import { Icone } from '../../composants/Icone.jsx';
 import { FORMATION, ENSEIGNEMENTS } from '../../donnees/contenu.js';
 import { stats } from '../../jeux/stats.js';
 
-// « Former le disciple » : 40 leçons en 3 volumes ; chaque leçon rédigée ouvre un enseignement complet.
+// « Former le disciple » : 38 leçons en 3 volumes ; chaque leçon rédigée ouvre un enseignement complet.
 export function Formation() {
   const ecrites = FORMATION.volumes.flatMap((v) => v.lecons).filter((l) => l.enseignement && ENSEIGNEMENTS.some((e) => e.id === l.enseignement)).length;
   let n = 0;
   return (
     <div class="page">
       <div class="chemin-hero"><h2>{FORMATION.titre}</h2><p>{FORMATION.resume}</p></div>
-      <p class="ligne__desc" style="margin:0 4px 8px">{ecrites} leçon{ecrites > 1 ? 's' : ''} disponible{ecrites > 1 ? 's' : ''} sur 40 · les suivantes arrivent au fil des mises à jour.</p>
+      <p class="ligne__desc" style="margin:0 4px 8px">{ecrites} leçon{ecrites > 1 ? 's' : ''} disponible{ecrites > 1 ? 's' : ''} sur {FORMATION.volumes.flatMap((v) => v.lecons).length}{ecrites < FORMATION.volumes.flatMap((v) => v.lecons).length ? " · les suivantes arrivent au fil des mises à jour." : "."}</p>
       {FORMATION.volumes.map((v) => (
         <section class="carte bloc">
           <h3 style="margin-top:0">{v.titre}</h3>
