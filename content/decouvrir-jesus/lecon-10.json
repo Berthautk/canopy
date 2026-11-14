@@ -6,15 +6,24 @@
  "sections": [
   {
    "titre": "Le dire autour de soi",
-   "texte": "Jésus dit que celui qui le confessera devant les hommes, il le confessera devant son Père. Commence par dire simplement à une personne de confiance que tu as donné ta vie à Jésus."
+   "texte": [
+    "Jésus a dit : quiconque me confessera devant les hommes, je le confesserai aussi devant mon Père qui est dans les cieux (Matthieu 10:32). Ne cache pas ta décision. Dis-la à ta famille, à tes amis, avec simplicité et sans orgueil.",
+    "Certains se moqueront peut-être. D'autres seront curieux. Ton témoignage est puissant, parce que c'est ton histoire. Et il protège ta décision : celui qui a dit publiquement « je suis à Jésus » est plus fort face à la tentation."
+   ]
   },
   {
    "titre": "Le baptême et l'Église",
-   "texte": "Les premiers croyants se faisaient baptiser et persévéraient ensemble dans l'enseignement des apôtres, la communion, la fraction du pain et les prières. Cherche une Église locale qui enseigne la Bible."
+   "texte": [
+    "Le jour de la Pentecôte, ceux qui acceptèrent la parole furent baptisés, et ils persévéraient dans l'enseignement des apôtres, dans la communion fraternelle, dans la fraction du pain, et dans les prières (Actes 2:41-42). Le baptême est le premier acte d'obéissance du nouveau croyant : il montre publiquement que tu es mort et ressuscité avec Christ.",
+    "Ne reste pas seul. Cherche une église où l'on prêche la Bible, où l'on appelle à la repentance et à la sainteté, et où Jésus est au centre. N'abandonnons pas notre assemblée, comme c'est la coutume de quelques-uns (Hébreux 10:25). Un charbon qu'on retire du feu s'éteint vite."
+   ]
   },
   {
    "titre": "Se nourrir chaque jour",
-   "texte": "Comme un nouveau-né désire le lait, désire la Parole de Dieu. Le parcours « Nouveau converti » t'accompagne ensuite pendant 30 jours."
+   "texte": [
+    "Désirez, comme des enfants nouveau-nés, le lait spirituel et pur, afin que par lui vous croissiez pour le salut (1 Pierre 2:2). Lis la Bible chaque jour, en commençant par l'Évangile de Jean. Parle à Dieu chaque jour, simplement, comme à un Père. Tu peux utiliser l'application : la Bible lue à voix haute, les veilles de prière, les enseignements.",
+    "Rompre avec le passé fait aussi partie de la croissance : brûle les fétiches, supprime ce qui te fait tomber, éloigne-toi des mauvaises compagnies. Et continue : le parcours « Nouveau converti » et « Former le disciple » t'accompagneront pas à pas."
+   ]
   }
  ],
  "versets": [
@@ -39,5 +48,13 @@
  "autorisation": "oui",
  "date_ajout": "2026-11-14",
  "relu": false,
- "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original."
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
+ "introduction": [
+  "Recevoir Jésus, ce n'est pas la fin : c'est le début d'une nouvelle vie. Un bébé qui vient de naître a besoin de nourriture, d'une famille et de soins pour grandir. Celui qui vient de naître de nouveau aussi.",
+  "Dans cette dernière leçon, nous verrons trois premiers pas : le dire autour de soi, se faire baptiser et rejoindre une église, et se nourrir chaque jour de la Parole et de la prière."
+ ],
+ "conclusion": [
+  "Tu as fini ce parcours. Si tu as reçu Jésus, tu es maintenant enfant de Dieu, et tout le ciel s'en réjouit. Ce n'est que le début.",
+  "Choisis aujourd'hui ton premier pas : parler à quelqu'un, demander le baptême, ou commencer la lecture de l'Évangile de Jean. Et souviens-toi : celui qui a commencé en toi cette bonne œuvre la rendra parfaite jusqu'au jour de Jésus-Christ (Philippiens 1:6)."
+ ]
 }

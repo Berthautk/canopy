@@ -6,15 +6,24 @@
  "sections": [
   {
    "titre": "Le tombeau vide",
-   "texte": "Trois jours après sa mort, des femmes venues au tombeau l'ont trouvé vide. Un ange leur a dit : il n'est point ici, il est ressuscité."
+   "texte": [
+    "Le dimanche matin, des femmes sont venues au tombeau pour embaumer le corps de Jésus. Elles ont trouvé la pierre roulée et le tombeau vide. Des anges leur ont dit : il n'est point ici, mais il est ressuscité (Luc 24:6).",
+    "Les ennemis de Jésus avaient pourtant tout fait : une grosse pierre, un sceau officiel, des soldats romains. Ils auraient pu montrer le corps pour arrêter la prédication des apôtres. Ils ne l'ont jamais fait, parce qu'il n'y avait plus de corps."
+   ]
   },
   {
    "titre": "Des témoins nombreux",
-   "texte": "Jésus ressuscité est apparu à Marie de Magdala, à ses disciples, à Thomas qui doutait, puis à plus de cinq cents personnes à la fois. Ces témoins ont préféré mourir plutôt que de renier ce qu'ils avaient vu."
+   "texte": [
+    "Jésus ressuscité n'est pas apparu une seule fois à une seule personne. Paul énumère les témoins : il est apparu à Pierre, puis aux douze, puis à plus de cinq cents frères à la fois, dont la plupart étaient encore vivants quand Paul écrivait (1 Corinthiens 15:3-6). On pouvait aller les interroger.",
+    "Et ces témoins ont été transformés. Des disciples peureux, cachés derrière des portes fermées, sont devenus des hommes courageux qui ont annoncé la résurrection devant les autorités, et beaucoup sont morts pour ce témoignage. Personne ne meurt pour un mensonge qu'il a lui-même inventé."
+   ]
   },
   {
    "titre": "Le Seigneur de tous",
-   "texte": "La résurrection prouve que Jésus a vaincu le péché et la mort. Il est vivant aujourd'hui, et il peut transformer ta vie."
+   "texte": [
+    "Quand Thomas, qui doutait, a vu Jésus ressuscité, il a dit : mon Seigneur et mon Dieu ! (Jean 20:28). La résurrection prouve que Jésus est bien celui qu'il disait être, et que son sacrifice a été accepté par le Père.",
+    "Le jour de la Pentecôte, Pierre a conclu : que toute la maison d'Israël sache donc avec certitude que Dieu a fait Seigneur et Christ ce Jésus que vous avez crucifié (Actes 2:36). Jésus est vivant aujourd'hui. Il n'est pas une statue ni un souvenir : il entend, il parle, il sauve, il délivre, il revient."
+   ]
   }
  ],
  "versets": [
@@ -39,5 +48,13 @@
  "autorisation": "oui",
  "date_ajout": "2026-11-14",
  "relu": false,
- "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original."
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
+ "introduction": [
+  "Si Jésus était mort et resté dans le tombeau, il ne serait qu'un homme de plus, admirable peut-être, mais vaincu. Les fondateurs de religions sont tous morts, et leurs tombes sont connues. Le tombeau de Jésus, lui, est vide. C'est le cœur de l'Évangile : Jésus est ressuscité.",
+  "Dans cette leçon, nous verrons le tombeau vide, les nombreux témoins, et ce que la résurrection signifie : Jésus est le Seigneur de tous."
+ ],
+ "conclusion": [
+  "Jésus est vivant. C'est pourquoi tu peux lui parler aujourd'hui, et il peut entrer dans ta vie. Sa résurrection est aussi la promesse de la nôtre : la mort n'a plus le dernier mot pour ceux qui sont à lui.",
+  "Mais un Jésus vivant demande une réponse. La prochaine leçon parle de la première réponse qu'il attend : se repentir."
+ ]
 }

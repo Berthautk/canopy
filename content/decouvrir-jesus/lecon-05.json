@@ -6,15 +6,24 @@
  "sections": [
   {
    "titre": "L'Agneau de Dieu",
-   "texte": "Jean-Baptiste a présenté Jésus comme l'Agneau de Dieu qui ôte le péché du monde. Dans l'Ancien Testament, un agneau était sacrifié à la place du coupable. Jésus est venu prendre cette place."
+   "texte": [
+    "Quand Jean-Baptiste a vu Jésus, il a dit : voici l'Agneau de Dieu, qui ôte le péché du monde (Jean 1:29). Pendant des siècles, le peuple d'Israël avait offert des agneaux en sacrifice. Le sang de l'animal était versé, et Dieu couvrait le péché. Ces sacrifices disaient une vérité terrible : le péché mérite la mort, et sans effusion de sang il n'y a pas de pardon.",
+    "Mais le sang des animaux ne pouvait pas vraiment ôter les péchés. Il annonçait le vrai sacrifice. Jésus est cet Agneau parfait, sans tache, envoyé par Dieu lui-même. C'est pourquoi le chrétien n'a plus besoin d'offrir des sacrifices aux ancêtres, aux esprits ou à Dieu : le sacrifice parfait a été offert une fois pour toutes."
+   ]
   },
   {
    "titre": "Il a porté nos fautes",
-   "texte": "Jésus n'est pas mort parce qu'il était faible ou coupable. Il a donné sa vie volontairement. Il a été blessé pour nos péchés : la punition qui nous revenait est tombée sur lui."
+   "texte": [
+    "Ésaïe l'avait décrit : il était blessé pour nos péchés, brisé pour nos iniquités ; le châtiment qui nous donne la paix est tombé sur lui, et c'est par ses meurtrissures que nous sommes guéris (Ésaïe 53:5). Remarque les mots : nos péchés, nos iniquités. Jésus est mort pour ce que nous avons fait.",
+    "Pierre écrit : lui qui a porté lui-même nos péchés en son corps sur le bois, afin que morts aux péchés nous vivions pour la justice (1 Pierre 2:24). À la croix, Jésus a pris ta place. Le jugement que tu méritais est tombé sur lui. Ta dette a été payée."
+   ]
   },
   {
    "titre": "La preuve de l'amour",
-   "texte": "Dieu n'a pas attendu que nous devenions meilleurs. Christ est mort pour nous alors que nous étions encore des pécheurs. Voilà jusqu'où va son amour."
+   "texte": [
+    "Dieu prouve son amour envers nous, en ce que, lorsque nous étions encore des pécheurs, Christ est mort pour nous (Romains 5:8). Il n'a pas attendu que nous devenions meilleurs. Il est mort pour nous quand nous étions encore ses ennemis.",
+    "Si un jour tu doutes que Dieu t'aime, ne regarde pas tes circonstances, regarde la croix. Personne ne t'a aimé autant. Et ce sacrifice est suffisant : il n'y a rien à y ajouter, ni tes œuvres, ni tes rites, ni l'aide d'un marabout."
+   ]
   }
  ],
  "versets": [
@@ -39,5 +48,13 @@
  "autorisation": "oui",
  "date_ajout": "2026-11-14",
  "relu": false,
- "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original."
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
+ "introduction": [
+  "La croix est le centre de la foi chrétienne. Mais pourquoi Jésus, qui n'avait fait aucun mal, a-t-il été cloué sur une croix comme un criminel ? Était-ce un accident, un échec, la victoire de ses ennemis ? Non. La Bible montre que c'était le plan de Dieu pour nous sauver.",
+  "Dans cette leçon, nous verrons que Jésus est l'Agneau de Dieu, qu'il a porté nos fautes à notre place, et que la croix est la plus grande preuve de l'amour de Dieu."
+ ],
+ "conclusion": [
+  "Jésus n'est pas mort par accident : il a donné sa vie volontairement, pour payer le prix de nos péchés. La croix montre à la fois la gravité de notre péché et la grandeur de l'amour de Dieu.",
+  "Mais l'histoire ne s'arrête pas au tombeau. La prochaine leçon parle de la nouvelle qui a bouleversé le monde : Jésus est vivant."
+ ]
 }

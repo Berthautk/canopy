@@ -6,15 +6,24 @@
  "sections": [
   {
    "titre": "Un cadeau à recevoir",
-   "texte": "Le salut ne s'achète pas et ne se mérite pas : c'est un don de Dieu, reçu par la foi. Mais un cadeau doit être reçu. À tous ceux qui ont reçu Jésus, il a donné le pouvoir de devenir enfants de Dieu."
+   "texte": [
+    "C'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres, afin que personne ne se glorifie (Éphésiens 2:8-9). On ne gagne pas un cadeau, on ne l'achète pas : on le reçoit.",
+    "Mais un cadeau qui reste dans le papier ne sert à rien. La Bible dit : à tous ceux qui l'ont reçu, à ceux qui croient en son nom, il a donné le pouvoir de devenir enfants de Dieu (Jean 1:12). On ne naît pas enfant de Dieu ; on le devient en recevant Jésus."
+   ]
   },
   {
    "titre": "Croire et confesser",
-   "texte": "Si tu confesses de ta bouche le Seigneur Jésus, et si tu crois dans ton cœur que Dieu l'a ressuscité des morts, tu seras sauvé. Ce n'est pas une formule magique : c'est la réponse sincère d'un cœur."
+   "texte": [
+    "Si tu confesses de ta bouche le Seigneur Jésus, et si tu crois dans ton cœur que Dieu l'a ressuscité des morts, tu seras sauvé (Romains 10:9). Croire dans ton cœur, c'est mettre toute ta confiance en Jésus, comme on s'assoit sur une chaise en lui faisant confiance. Confesser de ta bouche, c'est dire ouvertement : Jésus est mon Seigneur.",
+    "Le dire, c'est aussi accepter qu'il soit le Seigneur, c'est-à-dire le chef de ta vie. On ne reçoit pas Jésus comme Sauveur pour garder le volant de sa vie. On le reçoit tout entier : Sauveur et Seigneur."
+   ]
   },
   {
    "titre": "Jésus frappe à la porte",
-   "texte": "Jésus dit qu'il se tient à la porte et qu'il frappe. Si quelqu'un entend sa voix et ouvre, il entrera. Aujourd'hui, tu peux lui ouvrir."
+   "texte": [
+    "Jésus dit : voici, je me tiens à la porte, et je frappe. Si quelqu'un entend ma voix et ouvre la porte, j'entrerai chez lui (Apocalypse 3:20). Jésus ne force personne. Il frappe. La poignée est de ton côté.",
+    "Peut-être qu'il frappe depuis longtemps. Tu as entendu des prédications, des témoignages, des chants. Aujourd'hui, ne remets pas à plus tard. Personne ne sait s'il aura demain. Voici maintenant le temps favorable, voici maintenant le jour du salut."
+   ]
   }
  ],
  "versets": [
@@ -40,5 +49,13 @@
  "date_ajout": "2026-11-14",
  "relu": false,
  "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
- "decision": true
+ "decision": true,
+ "introduction": [
+  "Tu as appris qui est Dieu, ce qu'est le péché, qui est Jésus, pourquoi il est mort et ressuscité, et ce que veut dire se repentir. Maintenant vient la question la plus personnelle : qu'est-ce que tu vas faire de Jésus ? Connaître des choses sur lui ne sauve personne. Le diable aussi sait qui est Jésus. Il faut le recevoir.",
+  "Dans cette leçon, nous verrons que le salut est un cadeau, qu'il se reçoit en croyant et en confessant, et que Jésus frappe à la porte de ton cœur."
+ ],
+ "conclusion": [
+  "Si tu veux recevoir Jésus aujourd'hui, la prière ci-dessous peut t'aider. Ce ne sont pas des mots magiques : c'est la décision de ton cœur qui compte. Dis-la à Dieu, sincèrement, avec tes propres mots si tu préfères.",
+  "Et si tu l'as priée, dis-le à quelqu'un : à la personne qui t'a fait connaître ce parcours, ou à un chrétien de confiance. Puis continue jusqu'à la dernière leçon."
+ ]
 }

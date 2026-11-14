@@ -5,16 +5,25 @@
  "image": "/assets/temoignage/chaines-brisees.webp",
  "sections": [
   {
-   "titre": "Tous concernés",
-   "texte": "La Bible ne classe pas les gens en bons et en mauvais : elle dit que tous ont péché. Le péché, ce n'est pas seulement les grandes fautes ; c'est aussi l'orgueil, le mensonge, la rancune, l'indifférence envers Dieu."
+   "titre": "Tous sont concernés",
+   "texte": [
+    "La Bible ne fait pas d'exception : tous ont péché et sont privés de la gloire de Dieu (Romains 3:23). Tous : le pasteur et le voleur, le riche et le pauvre, le religieux et le païen, toi et moi. Personne ne peut dire : « Moi, je suis une bonne personne. »",
+    "Le péché, ce n'est pas seulement tuer ou voler. C'est mentir, tricher, haïr, convoiter, désobéir à ses parents, regarder la pornographie, consulter un marabout, utiliser le nom de Dieu à la légère, aimer l'argent plus que Dieu. C'est aussi ne pas faire le bien qu'on sait devoir faire. Si nous mesurons notre vie à la loi de Dieu, nous sommes tous coupables."
+   ]
   },
   {
    "titre": "Un mal qui vient du cœur",
-   "texte": "Jésus explique que le mal ne vient pas d'abord de l'extérieur, mais du cœur de l'homme. C'est pourquoi les efforts, la religion ou les bonnes œuvres ne suffisent pas à nous rendre purs."
+   "texte": [
+    "Jésus a dit : c'est du dedans, c'est du cœur des hommes, que sortent les mauvaises pensées, les adultères, les impudicités, les meurtres, les vols, les cupidités, les méchancetés, la fraude, le dérèglement, le regard envieux, la calomnie, l'orgueil, la folie (Marc 7:21-23). Le problème n'est pas d'abord notre environnement : c'est notre cœur.",
+    "C'est pourquoi les bonnes résolutions ne suffisent pas. On peut changer d'habitudes, de quartier ou de religion, mais on ne peut pas changer son propre cœur. Il faut que Dieu nous donne un cœur nouveau."
+   ]
   },
   {
-   "titre": "Une séparation",
-   "texte": "Le péché crée une séparation entre Dieu et nous. Son salaire, c'est la mort. Mais le même verset annonce aussi un don gratuit : la vie éternelle."
+   "titre": "Une séparation, et un salaire",
+   "texte": [
+    "Ésaïe le dit clairement : ce sont vos crimes qui mettent une séparation entre vous et votre Dieu ; ce sont vos péchés qui vous cachent sa face (Ésaïe 59:2). Le péché a creusé un fossé entre l'homme et Dieu. C'est pourquoi beaucoup de gens prient sans sentir de réponse, et vivent avec un vide intérieur que rien ne remplit.",
+    "Et le péché a un prix : le salaire du péché, c'est la mort (Romains 6:23). Pas seulement la mort du corps, mais la séparation éternelle d'avec Dieu, ce que Jésus appelle l'enfer. Je te le dis avec amour, mais sans détour : si rien ne change, le péché conduit à la perdition."
+   ]
   }
  ],
  "versets": [
@@ -39,5 +48,13 @@
  "autorisation": "oui",
  "date_ajout": "2026-11-14",
  "relu": false,
- "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original."
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
+ "introduction": [
+  "Beaucoup de gens pensent que leur problème, c'est l'argent, la maladie, le travail, les sorciers du village ou leur famille. Ces choses sont réelles. Mais la Bible dit que le vrai problème de l'homme est plus profond : c'est le péché. Tant que ce problème n'est pas réglé, tous les autres ne sont que des symptômes.",
+  "Dans cette leçon, nous verrons que tous sont concernés, que le péché vient du cœur, et qu'il nous sépare de Dieu. C'est une leçon difficile, mais nécessaire : on ne cherche pas un médecin tant qu'on ne sait pas qu'on est malade."
+ ],
+ "conclusion": [
+  "Voilà le problème : nous sommes tous pécheurs, notre cœur est malade, et nous sommes séparés de Dieu. Aucun sacrifice, aucune bonne œuvre, aucune religion ne peut effacer ce péché. Mais écoute la fin du verset : le don gratuit de Dieu, c'est la vie éternelle en Jésus-Christ notre Seigneur (Romains 6:23).",
+  "Dans les prochaines leçons, nous allons rencontrer ce Jésus qui est venu régler le problème que personne d'autre ne pouvait régler."
+ ]
 }

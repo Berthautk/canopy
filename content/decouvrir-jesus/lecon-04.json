@@ -6,15 +6,24 @@
  "sections": [
   {
    "titre": "Plus qu'un prophète",
-   "texte": "Jésus n'est pas seulement un homme sage ou un grand prophète. La Bible dit que la Parole, qui était Dieu, a été faite chair et a habité parmi nous."
+   "texte": [
+    "Les prophètes disaient : « Ainsi parle l'Éternel. » Jésus, lui, disait : « Moi, je vous dis. » Il parlait avec sa propre autorité. Il pardonnait les péchés, ce que Dieu seul peut faire. Il acceptait l'adoration, ce qu'aucun prophète ni aucun ange n'aurait accepté.",
+    "L'Évangile de Jean commence ainsi : au commencement était la Parole, et la Parole était avec Dieu, et la Parole était Dieu. Et un peu plus loin : la Parole a été faite chair, et elle a habité parmi nous, pleine de grâce et de vérité (Jean 1:1, 14). Jésus n'a pas commencé d'exister à Bethléhem. Il existait avant la création. Il est venu d'auprès du Père."
+   ]
   },
   {
    "titre": "Des signes uniques",
-   "texte": "Sa naissance avait été annoncée des siècles à l'avance. Il a vécu sans péché, a guéri les malades, calmé la tempête, chassé les esprits mauvais et ressuscité des morts."
+   "texte": [
+    "Jésus a guéri des aveugles de naissance, des lépreux, des paralysés. Il a chassé les démons d'une seule parole. Il a calmé la tempête. Il a multiplié cinq pains pour nourrir des milliers de personnes. Il a ressuscité des morts, comme Lazare, qui était dans le tombeau depuis quatre jours.",
+    "Et surtout, il a vécu sans péché. Même ses ennemis n'ont rien trouvé contre lui. La Bible dit qu'il a été tenté comme nous en toutes choses, sans commettre de péché (Hébreux 4:15). Aucun homme, aucun prophète, aucun fondateur de religion ne peut en dire autant."
+   ]
   },
   {
    "titre": "Dieu rendu visible",
-   "texte": "Jésus a dit : celui qui m'a vu a vu le Père. En regardant Jésus, on voit le cœur de Dieu : sa sainteté, sa compassion et son pardon."
+   "texte": [
+    "Sept cents ans avant sa naissance, Ésaïe l'avait annoncé : un enfant nous est né, un fils nous est donné ; on l'appellera Admirable, Conseiller, Dieu puissant, Père éternel, Prince de la paix (Ésaïe 9:5). Un enfant, et pourtant Dieu puissant. C'est le grand mystère : Jésus est vraiment homme et vraiment Dieu.",
+    "Quand Philippe lui a demandé de leur montrer le Père, Jésus a répondu : celui qui m'a vu a vu le Père (Jean 14:9). Si tu veux savoir comment Dieu regarde le pécheur, regarde Jésus avec la Samaritaine, avec Zachée, avec la femme adultère. Si tu veux savoir ce que Dieu pense du péché, regarde Jésus à la croix."
+   ]
   }
  ],
  "versets": [
@@ -40,5 +49,13 @@
  "autorisation": "oui",
  "date_ajout": "2026-11-14",
  "relu": false,
- "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original."
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
+ "introduction": [
+  "Tout le monde a une opinion sur Jésus. Pour les uns, c'est un grand prophète. Pour d'autres, un sage, un révolutionnaire ou le fondateur d'une religion. Mais Jésus a lui-même posé la question à ses disciples : et vous, qui dites-vous que je suis ? (Matthieu 16:15). C'est la question la plus importante de ta vie, car ta réponse décide de ton éternité.",
+  "Dans cette leçon, nous verrons que Jésus est plus qu'un prophète, qu'il a fait ce que personne d'autre n'a fait, et qu'il est Dieu venu parmi les hommes."
+ ],
+ "conclusion": [
+  "Jésus n'est pas seulement un bon maître : il est le Fils de Dieu, Dieu venu dans la chair. On ne peut pas rester neutre devant lui. Soit il a menti, soit il était fou, soit il est vraiment le Seigneur. Les faits montrent qu'il est le Seigneur.",
+  "Pose-toi honnêtement sa question : et toi, qui dis-tu qu'il est ? La prochaine leçon expliquera pourquoi celui qui est Dieu est mort sur une croix."
+ ]
 }

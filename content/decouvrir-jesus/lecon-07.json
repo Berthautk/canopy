@@ -6,15 +6,24 @@
  "sections": [
   {
    "titre": "Ce que veut dire se repentir",
-   "texte": "Se repentir, ce n'est pas seulement regretter. C'est reconnaître son péché devant Dieu, en être attristé, et décider de changer de direction : se détourner du mal pour se tourner vers Dieu."
+   "texte": [
+    "Se repentir, ce n'est pas seulement regretter. Judas a regretté, mais il ne s'est pas repenti. Se repentir, c'est changer de direction : reconnaître devant Dieu que l'on a péché, sans excuse, avoir le cœur brisé à cause de cela, et décider de s'en détourner.",
+    "La Bible dit : celui qui cache ses transgressions ne prospère point, mais celui qui les avoue et les délaisse obtient miséricorde (Proverbes 28:13). Deux verbes : avouer et délaisser. Avouer, c'est appeler le péché par son nom. Délaisser, c'est l'abandonner : le mensonge, l'impudicité, les fétiches, la colère, le vol. On ne peut pas suivre Jésus en gardant ses idoles dans la poche."
+   ]
   },
   {
    "titre": "Dieu l'ordonne à tous",
-   "texte": "Dieu annonce à tous les hommes, en tous lieux, qu'ils ont à se repentir. Ce n'est pas une menace : c'est une porte ouverte. Il ne veut qu'aucun ne périsse."
+   "texte": [
+    "Ce n'est pas une option. Dieu annonce maintenant à tous les hommes, en tous lieux, qu'ils aient à se repentir, parce qu'il a fixé un jour où il jugera le monde selon la justice (Actes 17:30-31). Tous les hommes : les religieux et les incroyants, les jeunes et les vieux.",
+    "Jésus a été très direct : si vous ne vous repentez, vous périrez tous (Luc 13:3). Ce n'est pas une menace pour faire peur, c'est un avertissement d'amour, comme celui qui crie à quelqu'un qui marche vers un précipice."
+   ]
   },
   {
    "titre": "Le Père qui accueille",
-   "texte": "Dans la parabole du fils prodigue, le père voit son fils de loin, court vers lui et l'embrasse. Voilà comment Dieu accueille celui qui revient à lui."
+   "texte": [
+    "Jésus a raconté l'histoire d'un fils qui avait gaspillé tout l'héritage de son père dans la débauche. Ruiné, il décide de rentrer. Et voici ce que fait le père : comme il était encore loin, son père le vit et fut ému de compassion, il courut se jeter à son cou et le baisa (Luc 15:20). Le père n'a pas attendu qu'il finisse ses excuses.",
+    "C'est ainsi que Dieu accueille celui qui se repent. Pierre disait : repentez-vous donc et convertissez-vous, pour que vos péchés soient effacés (Actes 3:19). Effacés, comme on efface un tableau. Peu importe ce que tu as fait : si tu reviens sincèrement, Dieu t'attend les bras ouverts."
+   ]
   }
  ],
  "versets": [
@@ -43,5 +52,13 @@
  "autorisation": "oui",
  "date_ajout": "2026-11-14",
  "relu": false,
- "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original."
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
+ "introduction": [
+  "Le premier mot de la prédication de Jésus a été : repentez-vous, et croyez à la bonne nouvelle (Marc 1:15). Beaucoup veulent un Jésus qui bénit, qui guérit, qui donne du travail, mais sans se repentir. Ce n'est pas l'Évangile. Sans repentance, il n'y a pas de salut.",
+  "Dans cette leçon, nous verrons ce que veut dire se repentir, que Dieu l'ordonne à tous, et comment le Père accueille celui qui revient."
+ ],
+ "conclusion": [
+  "Se repentir, c'est se retourner : tourner le dos au péché et faire face à Dieu. C'est la porte d'entrée de la vie avec Jésus.",
+  "Prends quelques minutes, seul devant Dieu, pour lui dire honnêtement ce que tu as fait de mal, et décider de t'en détourner. La prochaine leçon t'expliquera comment donner ta vie à Jésus."
+ ]
 }

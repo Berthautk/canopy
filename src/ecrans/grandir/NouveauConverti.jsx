@@ -65,7 +65,14 @@ function Etape({ cfg, id, n, faits, decision }) {
   const vid = `${id}-${n}`, va = useVoixActive(vid);
   if (!j || !jourDebloque(n, faits)) return <div class="page"><p class="ligne__desc" style="margin-top:16px">Cette étape n'est pas encore disponible. Termine d'abord la précédente.</p></div>;
   const piste = AUDIOS[j.id], fait = faits.includes(n), total = cfg.total();
-  const corps = j.sections ? j.sections.map((s) => ({ texte: `${s.titre}. ${s.texte}` })) : [{ texte: j.texte }];
+  // Corps de la leçon : introduction, points numérotés (un ou plusieurs paragraphes), conclusion.
+  const paras = (t) => (Array.isArray(t) ? t : [t]).filter(Boolean);
+  const items = j.sections ? [
+    ...paras(j.introduction).map((t) => ({ k: 'p', texte: t })),
+    ...j.sections.flatMap((s, i) => [{ k: 'h', texte: (j.introduction ? `${i + 1}. ` : '') + s.titre }, ...paras(s.texte).map((t) => ({ k: 'p', texte: t }))]),
+    ...(j.conclusion ? [{ k: 'h', texte: 'Pour conclure' }, ...paras(j.conclusion).map((t) => ({ k: 'p', texte: t }))] : []),
+  ] : [{ k: 'p', texte: j.texte }];
+  const corps = items.map((x) => ({ texte: x.k === 'h' ? x.texte + '.' : x.texte }));
   const blocs = [{ texte: `${cfg.unite} ${n}. ${j.titre}.` }, ...corps, ...j.versets.map((r) => ({ reference: r })), { texte: 'Pour réfléchir. ' + j.question },
     ...(j.sujets?.length ? [{ texte: 'Sujets de prière.' }, ...blocsSujets(j.sujets)] : []), ...(j.priere ? [{ texte: (j.decision ? 'Prière pour recevoir Jésus. ' : 'Prière. ') + j.priere }] : [])];
   const iV = 1 + corps.length, iQ = iV + j.versets.length, iS = iQ + 1, iP = iS + (j.sujets?.length ? j.sujets.length + 1 : 0);
@@ -77,7 +84,7 @@ function Etape({ cfg, id, n, faits, decision }) {
       {j.exemple && <p style="margin:8px 4px 0"><span class="etiquette-exemple">EXEMPLE</span> Contenu de démonstration.</p>}
       {!piste && <BarreEcoute id={vid} blocs={blocs} titre={'Écouter ' + (cfg.unite === 'Leçon' ? 'la leçon' : 'le jour')} />}
       <section class="carte bloc enseignement-court">
-        {j.sections ? j.sections.map((s, k) => <div {...va(1 + k)}><h3 class="section-ens__sous" style="margin:0">{s.titre}</h3><p><TexteRefs texte={s.texte} /></p></div>) : <p {...va(1)}><TexteRefs texte={j.texte} /></p>}
+        {items.map((x, k) => x.k === 'h' ? <h3 class="section-ens__sous" style="margin:14px 0 4px" {...va(1 + k)}>{x.texte}</h3> : <p {...va(1 + k)}><TexteRefs texte={x.texte} /></p>)}
         {piste && <div class="bloc__audio"><BoutonLecture piste={piste} taille={44} /><span class="ligne__corps"><span class="ligne__titre">Écouter</span></span></div>}
       </section>
       <h2 class="titre-section">À lire</h2>

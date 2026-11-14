@@ -5,16 +5,27 @@
  "image": "/assets/paysages/coucher-soleil-montagnes.webp",
  "sections": [
   {
-   "titre": "Créés pour Dieu",
-   "texte": "Dieu a créé l'homme et la femme à son image, pour vivre en amitié avec lui. Tout ce qu'il avait fait était très bon."
+   "titre": "Créés par Dieu et pour Dieu",
+   "texte": [
+    "Au commencement, Dieu créa l'homme à son image : homme et femme, il les créa (Genèse 1:27). Être à l'image de Dieu, c'est avoir une valeur immense. Tu n'es pas un animal évolué ni un accident : tu as été voulu, pensé et façonné par Dieu.",
+    "Et quand Dieu a regardé tout ce qu'il avait fait, voici, cela était très bon (Genèse 1:31). Il n'y avait ni maladie, ni mort, ni haine. L'homme vivait dans la communion avec Dieu, dans un jardin préparé pour lui. Il était fait pour connaître Dieu, l'aimer, lui obéir et vivre avec lui pour toujours."
+   ]
   },
   {
    "titre": "Le choix de désobéir",
-   "texte": "Dieu avait donné une seule interdiction, et un avertissement : la désobéissance conduit à la mort. L'homme a choisi d'écouter une autre voix que celle de Dieu. C'est ainsi que le péché est entré dans le monde."
+   "texte": [
+    "Dieu a donné à l'homme une liberté réelle. Il lui a dit : tu pourras manger de tous les arbres du jardin ; mais tu ne mangeras pas de l'arbre de la connaissance du bien et du mal, car le jour où tu en mangeras, tu mourras (Genèse 2:16-17). Ce commandement était simple. Il demandait seulement à l'homme de faire confiance à Dieu.",
+    "Mais le serpent, le diable, est venu semer le doute : « Dieu a-t-il réellement dit ? Vous ne mourrez point ; vous serez comme des dieux. » Et l'homme a choisi de croire le mensonge plutôt que Dieu. Il a désobéi. Ce n'était pas un petit fruit : c'était une révolte. L'homme a voulu décider lui-même du bien et du mal, sans Dieu.",
+    "C'est encore le cœur du péché aujourd'hui : vivre comme si Dieu n'avait rien à nous dire, faire ce que nous voulons, et nous mettre nous-mêmes à la place de Dieu."
+   ]
   },
   {
    "titre": "Les conséquences",
-   "texte": "Depuis, la séparation d'avec Dieu, la souffrance et la mort touchent toute l'humanité. Chacun de nous, à son tour, a choisi sa propre voie plutôt que celle de Dieu."
+   "texte": [
+    "La mort est entrée dans le monde. La Bible dit : par un seul homme le péché est entré dans le monde, et par le péché la mort, et ainsi la mort s'est étendue sur tous les hommes, parce que tous ont péché (Romains 5:12). La mort spirituelle d'abord : l'homme a été séparé de Dieu et chassé du jardin. Puis la mort physique, la maladie, la souffrance.",
+    "Et depuis, chaque être humain naît avec cette nature tournée vers le mal. Nous étions tous errants comme des brebis, chacun suivait sa propre voie (Ésaïe 53:6). Le mal que tu vois dans le monde, tu le trouves aussi dans ton propre cœur : l'égoïsme, la colère, le mensonge, la convoitise.",
+    "Mais le même verset d'Ésaïe ajoute une promesse : l'Éternel a fait retomber sur lui l'iniquité de nous tous. Dès la chute, Dieu avait déjà prévu un Sauveur."
+   ]
   }
  ],
  "versets": [
@@ -40,5 +51,13 @@
  "autorisation": "oui",
  "date_ajout": "2026-11-14",
  "relu": false,
- "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original."
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
+ "introduction": [
+  "Si Dieu est bon et saint, pourquoi y a-t-il tant de mal dans le monde ? Pourquoi la maladie, la guerre, la sorcellerie, la trahison, la mort ? C'est la question que beaucoup se posent, et certains accusent Dieu. La Bible répond clairement : le mal ne vient pas de Dieu. Il est entré dans le monde par la désobéissance de l'homme.",
+  "Dans cette leçon, nous allons voir comment Dieu a créé l'homme, comment l'homme a choisi de désobéir, et quelles en ont été les conséquences, pour lui et pour nous."
+ ],
+ "conclusion": [
+  "Le mal dans le monde n'est pas la faute de Dieu : c'est le fruit de la révolte de l'homme. Mais Dieu n'a pas abandonné l'homme. Avant même de les chasser du jardin, il a revêtu Adam et Ève d'habits de peau : un animal est mort pour couvrir leur honte. C'était l'annonce du sacrifice de Jésus.",
+  "Ne mets pas toute la faute sur Adam : demande-toi plutôt comment toi aussi, tu as choisi ton propre chemin. C'est le sujet de la prochaine leçon."
+ ]
 }

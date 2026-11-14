@@ -6,15 +6,26 @@
  "sections": [
   {
    "titre": "Dieu existe et il se fait connaître",
-   "texte": "Le ciel, la terre, la vie elle-même parlent d'un Créateur. Mais Dieu ne s'est pas contenté de laisser des traces : il a parlé. Par la Bible, et surtout par Jésus, il nous dit qui il est."
+   "texte": [
+    "Regarde le ciel la nuit, la terre qui porte la vie, le corps humain si bien fait. Rien de tout cela n'est arrivé par hasard. La Bible dit que les perfections invisibles de Dieu, sa puissance éternelle et sa divinité, se voient comme à l'œil nu depuis la création du monde (Romains 1:20). La création est comme une signature : elle montre qu'il y a un Créateur.",
+    "Mais Dieu ne s'est pas contenté de laisser des traces. Il a parlé. Il a parlé par les prophètes, et il a fini par parler par son Fils, Jésus-Christ (Hébreux 1:1-2). Si tu veux savoir qui est Dieu, tu n'as pas besoin de deviner : il s'est révélé dans la Bible, et surtout en Jésus. Jésus a dit : celui qui m'a vu a vu le Père (Jean 14:9).",
+    "Dieu est Esprit (Jean 4:24). On ne peut pas le voir avec les yeux du corps, ni l'enfermer dans une statue, un arbre sacré ou un objet. Il est partout, il voit tout, il sait tout. Rien n'est caché devant lui : ni ce que tu fais en secret, ni ce que tu penses."
+   ]
   },
   {
-   "titre": "Un Dieu saint",
-   "texte": "Dieu est parfaitement pur. Il n'y a en lui aucune ombre, aucun mensonge, aucune injustice. Devant sa sainteté, le prophète Ésaïe a compris combien il était lui-même impur."
+   "titre": "Dieu est saint",
+   "texte": [
+    "Le premier mot que les anges disent de Dieu, ce n'est pas « il est gentil », c'est : saint, saint, saint (Ésaïe 6:3). Saint veut dire pur, séparé de tout mal. Dieu est lumière, et il n'y a point en lui de ténèbres (1 Jean 1:5). Il n'y a en lui aucun mensonge, aucune injustice, aucune impureté.",
+    "Quand le prophète Ésaïe a vu la sainteté de Dieu, il ne s'est pas senti fier de lui. Il a crié : malheur à moi ! je suis perdu, car je suis un homme dont les lèvres sont impures (Ésaïe 6:5). Devant la sainteté de Dieu, l'homme découvre qui il est vraiment. C'est une vérité que beaucoup refusent d'entendre aujourd'hui : Dieu ne tolère pas le péché. Il ne ferme pas les yeux. Il est juste, et il jugera chaque homme."
+   ]
   },
   {
-   "titre": "Un Dieu d'amour",
-   "texte": "Ce Dieu saint n'est pas lointain. Il est lent à la colère, riche en bonté, et il aime chaque personne, y compris toi. Il ne change pas : ce qu'il a promis, il le fera."
+   "titre": "Dieu est amour",
+   "texte": [
+    "Et pourtant, ce Dieu saint n'est pas un Dieu lointain et froid. Quand il s'est présenté à Moïse, il a dit : l'Éternel, Dieu miséricordieux et compatissant, lent à la colère, riche en bonté et en fidélité (Exode 34:6). Il est saint, mais il aime. Il hait le péché, mais il aime le pécheur.",
+    "La plus grande preuve de cet amour, c'est Jésus. Car Dieu a tant aimé le monde qu'il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu'il ait la vie éternelle (Jean 3:16). « Le monde », cela veut dire toi aussi : ton nom, ton histoire, tes blessures et tes fautes.",
+    "Enfin, Dieu ne change pas : je suis l'Éternel, je ne change pas (Malachie 3:6). Les hommes changent d'avis, les amis trahissent, les promesses humaines s'oublient. Dieu, lui, reste le même. Ce qu'il a promis, il le fera."
+   ]
   }
  ],
  "versets": [
@@ -40,5 +51,13 @@
  "autorisation": "oui",
  "date_ajout": "2026-11-14",
  "relu": false,
- "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original."
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
+ "introduction": [
+  "Avant de parler de Jésus, il faut parler de Dieu. Beaucoup de gens disent qu'ils croient en Dieu, mais quand on leur demande qui il est, ils ne savent pas répondre. Pour certains, Dieu est un grand-père lointain qui ne s'occupe pas de nous. Pour d'autres, c'est un juge fâché qu'il faut calmer avec des sacrifices. Pour d'autres encore, c'est une force sans visage.",
+  "Dans cette première leçon, nous allons voir trois choses : Dieu existe et il se fait connaître ; Dieu est saint ; et Dieu est amour. Ces trois vérités sont la base de tout le reste du parcours."
+ ],
+ "conclusion": [
+  "Retiens ces trois vérités : Dieu existe et il parle ; Dieu est saint ; Dieu est amour. Sa sainteté nous montre notre besoin, et son amour nous montre son remède. Dans les prochaines leçons, nous verrons pourquoi l'homme est séparé de ce Dieu saint, et comment il a ouvert un chemin pour revenir à lui.",
+  "Ne fais pas de ce parcours une simple lecture. Demande à Dieu, sincèrement, de se faire connaître à toi. Il a promis : invoque-moi, et je te répondrai (Jérémie 33:3)."
+ ]
 }
