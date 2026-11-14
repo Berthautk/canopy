@@ -346,6 +346,51 @@ Le texte biblique affiché ci-dessous est lu automatiquement dans la Bible LSG 1
   5. Dieu donne les dix commandements.
      - Exode 20:3 : « Tu n’auras pas d’autres dieux devant ma face. »
 
+## Textes rédigés à relire (`"relu": false`)
+
+Ces textes sont originaux (plans inspirés de ubdavid.org, sans reprise de leurs textes). Relisez-les, puis passez `"relu"` à `true`.
+
+- [ ] `content/decouvrir-jesus/lecon-01.json` : Qui est Dieu ?
+- [ ] `content/decouvrir-jesus/lecon-02.json` : D'où vient le mal dans le monde ?
+- [ ] `content/decouvrir-jesus/lecon-03.json` : Notre vrai problème : le péché
+- [ ] `content/decouvrir-jesus/lecon-04.json` : Qui est Jésus ?
+- [ ] `content/decouvrir-jesus/lecon-05.json` : Pourquoi Jésus est mort
+- [ ] `content/decouvrir-jesus/lecon-06.json` : Jésus est vivant
+- [ ] `content/decouvrir-jesus/lecon-07.json` : Se repentir : changer de direction
+- [ ] `content/decouvrir-jesus/lecon-08.json` : Donner sa vie à Jésus
+- [ ] `content/decouvrir-jesus/lecon-09.json` : Être sûr de son salut
+- [ ] `content/decouvrir-jesus/lecon-10.json` : Mes premiers pas avec Jésus
+- [ ] `content/nouveau-converti/jour-01.json` : Tu as fait le bon choix
+- [ ] `content/nouveau-converti/jour-02.json` : Dieu t'aime sans condition
+- [ ] `content/nouveau-converti/jour-03.json` : Prier, c'est parler avec Dieu
+- [ ] `content/nouveau-converti/jour-04.json` : Lire la Bible chaque jour
+- [ ] `content/nouveau-converti/jour-05.json` : Une nouvelle naissance
+- [ ] `content/nouveau-converti/jour-06.json` : En Christ, une nouvelle identité
+- [ ] `content/nouveau-converti/jour-07.json` : Le Saint-Esprit habite en toi
+- [ ] `content/nouveau-converti/jour-08.json` : Les faits avant les sentiments
+- [ ] `content/nouveau-converti/jour-09.json` : Quand je tombe : la confession
+- [ ] `content/nouveau-converti/jour-10.json` : Le baptême
+- [ ] `content/nouveau-converti/jour-11.json` : L'Église, ta nouvelle famille
+- [ ] `content/nouveau-converti/jour-12.json` : Le repas du Seigneur
+- [ ] `content/nouveau-converti/jour-13.json` : Le premier ennemi : le monde
+- [ ] `content/nouveau-converti/jour-14.json` : Le deuxième ennemi : la chair
+- [ ] `content/nouveau-converti/jour-15.json` : Le troisième ennemi : le diable
+- [ ] `content/nouveau-converti/jour-16.json` : Vaincre la tentation
+- [ ] `content/nouveau-converti/jour-17.json` : L'armure de Dieu
+- [ ] `content/nouveau-converti/jour-18.json` : La prière persévérante
+- [ ] `content/nouveau-converti/jour-19.json` : Le jeûne
+- [ ] `content/nouveau-converti/jour-20.json` : La louange et la reconnaissance
+- [ ] `content/nouveau-converti/jour-21.json` : Pardonner
+- [ ] `content/nouveau-converti/jour-22.json` : Maîtriser sa colère
+- [ ] `content/nouveau-converti/jour-23.json` : La pureté
+- [ ] `content/nouveau-converti/jour-24.json` : Témoigner de sa foi
+- [ ] `content/nouveau-converti/jour-25.json` : Servir Dieu avec ses dons
+- [ ] `content/nouveau-converti/jour-26.json` : Gérer son argent selon Dieu
+- [ ] `content/nouveau-converti/jour-27.json` : Apprendre le contentement
+- [ ] `content/nouveau-converti/jour-28.json` : Aimer et honorer les autres
+- [ ] `content/nouveau-converti/jour-29.json` : Jésus va revenir
+- [ ] `content/nouveau-converti/jour-30.json` : Persévérer jusqu'au bout
+
 ## « Complète le verset »
 
 Rien à vérifier à la main : les versets sont tirés automatiquement de la Bible LSG 1910 (liste des versets du jour et des sujets), et les mots à trouver sont choisis par l'application.

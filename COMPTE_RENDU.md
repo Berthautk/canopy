@@ -18,7 +18,7 @@ Tous les tests ont été faits dans Chromium sur un écran de **360 px**. **Aucu
 | **Méditation, sujets, chemin du salut** | Méditation du matin, 15 sujets (101 versets), chemin du salut en 8 étapes |
 | **Audio** | Lecture continue d'un écran à l'autre, ±15 s, vitesse 0,75× à 1,5×, reprise à la position, « Continuer l'écoute », écran verrouillé (Media Session), téléchargement hors ligne, écran « Mes téléchargements » |
 | **Prière** | « Prier maintenant » selon l'heure ; veilles de l'Aube, de Midi et du Soir guidées étape par étape (annulation, adoration, Notre Père, proclamations) ; 18 thèmes par phases du Notre Père ; 16 fiches de combat ; journal de prière ; « J'ai prié » |
-| **Grandir** | 10 enseignements écrits (de l'Arsenal) + 3 audios d'exemple ; parcours Nouveau converti (déblocage jour après jour) |
+| **Grandir** | Parcours « Découvrir Jésus » (10 leçons, avec la prière pour recevoir Jésus et la décision datée) ; parcours Nouveau converti complet (30 jours) ; 10 enseignements écrits (de l'Arsenal) + 3 audios d'exemple |
 | **Évangéliser** | Motivation, formation, objections, dialogues en bulles avec audio |
 | **Jouer et apprendre** | Quiz du jour, quiz par thème et niveau, Complète le verset, Qui suis-je ?, Remets dans l'ordre, Duel à deux, 8 badges |
 | **Sauvegarde** | Fichier `.json` (30 Ko avec photo) ; envoi par WhatsApp ; restauration testée d'un navigateur vierge à un autre : tout revient |
@@ -32,11 +32,11 @@ Tous les tests ont été faits dans Chromium sur un écran de **360 px**. **Aucu
 | **Questions de jeu** | 40 questions + 8 personnages + 5 histoires en `"verifie": false` : à relire avec **`A_VERIFIER.md`** |
 | **Contenus d'exemple** | 20 fichiers marqués EXEMPLE (affichés « EXEMPLE ») : 3 enseignements audio, 3 méditations, 3 jours du parcours, évangélisation, dialogues, 1 thème de prière. Textes rédigés par Claude : **à relire par une personne de confiance**, puis à remplacer ou valider |
 | **Audios** | Les 3 MP3 sont des sons de test de 50 s. Aucun vrai enseignement audio |
-| **Parcours Nouveau converti** | Jours 1 à 3 rédigés ; jours 4 à 30 affichés « À venir » |
+| **Découvrir Jésus et Nouveau converti** | 40 textes originaux rédigés par Claude (plans inspirés de ubdavid.org) : à relire, liste dans `A_VERIFIER.md` |
 | **Plan chronologique** | « Bientôt disponible » : pas de source fiable pour l'ordre chronologique |
 | **Radio Yeshaya** | Carte « Bientôt » sur l'écran À propos (non activée, comme demandé) |
 | **Contenus de l'Arsenal** | Repris de ton application (formulations conservées). Les références ont été mises à la numérotation de la LSG imprimée (79 corrections) et 12 citations qui n'étaient pas le texte LSG ont été remplacées par le texte LSG exact (liste dans `tools/arsenal/journal-conversion.json`) |
-| **ubdavid.org** | **Non consulté** : site bloqué par le réseau de cette session. Les enseignements « qui est Jésus / donner sa vie à Jésus » restent à créer |
+| **ubdavid.org** | Consulté. Contenu « tous droits réservés » (Mailbox Club International) : seuls les plans et les références ont été repris, les textes sont originaux. Pour citer leurs leçons, il faudrait leur autorisation écrite |
 | **Bible : numérotation à confirmer** | Actes 19:40-41, 2 Corinthiens 13:13, 3 Jean 1:15, Apocalypse 12:18 (voir `tools/bible/SOURCE.md`) |
 | **Éléments graphiques non découpés** | Boutons et cadres de la planche Q (refaits en CSS), panneaux de jeux avec texte incrusté, images contenant des versets (voir `design/ASSETS.md`) |
 | **Mise en ligne** | **Pas encore faite** : je ne peux pas créer de compte Cloudflare ni de dépôt GitHub depuis cette session. Tout est prêt : voir `DEPLOIEMENT.md` |

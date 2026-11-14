@@ -1,0 +1,43 @@
+{
+ "id": "decouvrir-jesus-06",
+ "jour": 6,
+ "titre": "Jésus est vivant",
+ "image": "/assets/lieux-bibliques/tombeau-ouvert.webp",
+ "sections": [
+  {
+   "titre": "Le tombeau vide",
+   "texte": "Trois jours après sa mort, des femmes venues au tombeau l'ont trouvé vide. Un ange leur a dit : il n'est point ici, il est ressuscité."
+  },
+  {
+   "titre": "Des témoins nombreux",
+   "texte": "Jésus ressuscité est apparu à Marie de Magdala, à ses disciples, à Thomas qui doutait, puis à plus de cinq cents personnes à la fois. Ces témoins ont préféré mourir plutôt que de renier ce qu'ils avaient vu."
+  },
+  {
+   "titre": "Le Seigneur de tous",
+   "texte": "La résurrection prouve que Jésus a vaincu le péché et la mort. Il est vivant aujourd'hui, et il peut transformer ta vie."
+  }
+ ],
+ "versets": [
+  "Lc 24:6",
+  "1 Co 15:3-6",
+  "Jn 20:28",
+  "Ac 2:36"
+ ],
+ "question": "Qu'est-ce que cela change que Jésus soit vivant, et pas seulement un souvenir ?",
+ "sujets": [
+  {
+   "titre": "Rencontrer le Vivant",
+   "texte": "Demande à Jésus ressuscité de se faire connaître à toi comme il l'a fait pour Thomas. (Jean 20:27-28)"
+  },
+  {
+   "titre": "Vaincre la peur",
+   "texte": "Confie-lui ta peur de la mort et de l'avenir : il a vaincu la mort. (Jean 11:25-26)"
+  }
+ ],
+ "priere": "Jésus, tu es vivant. Je veux te rencontrer, toi le Seigneur ressuscité. Amen.",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original."
+}

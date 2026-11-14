@@ -30,6 +30,14 @@ L.push('## Remets dans l\'ordre (`content/jeux/remets-dans-l-ordre.json`)', '');
 for (const h of ord.histoires) { n++; if (h.verifie) ok++;
   L.push(`- [${h.verifie ? 'x' : ' '}] **${h.titre}** (ordre attendu)`, ...h.etapes.map((e, k) => `  ${k + 1}. ${e.texte}\n     - ${texte(e.reference)}`), ''); }
 L.splice(6, 0, `**État : ${ok} élément(s) vérifié(s) sur ${n}.** (40 questions de quiz, ${qsj.personnages.length} personnages, ${ord.histoires.length} histoires)`, '');
+L.push('## Textes rédigés à relire (`"relu": false`)', '', 'Ces textes sont originaux (plans inspirés de ubdavid.org, sans reprise de leurs textes). Relisez-les, puis passez `"relu"` à `true`.', '');
+for (const d of ['decouvrir-jesus', 'nouveau-converti']) {
+  for (const f of fs.readdirSync(path.join(R, 'content', d)).sort()) {
+    const x = JSON.parse(fs.readFileSync(path.join(R, 'content', d, f)));
+    L.push(`- [${x.relu ? 'x' : ' '}] \`content/${d}/${f}\` : ${x.titre}`);
+  }
+}
+L.push('');
 L.push('## « Complète le verset »', '', 'Rien à vérifier à la main : les versets sont tirés automatiquement de la Bible LSG 1910 (liste des versets du jour et des sujets), et les mots à trouver sont choisis par l\'application.');
 fs.writeFileSync(path.join(R, 'A_VERIFIER.md'), L.join('\n') + '\n');
 console.log(`A_VERIFIER.md : ${n} éléments, ${ok} vérifiés.`);

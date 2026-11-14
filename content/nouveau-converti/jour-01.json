@@ -7,12 +7,22 @@
   "Jn 1:12",
   "2 Co 5:17"
  ],
- "texte": "En recevant Jésus, tu es devenu enfant de Dieu. Ce n'est pas une récompense pour tes efforts : c'est un cadeau. Tes fautes passées sont pardonnées, et une vie nouvelle commence. Elle grandira jour après jour.",
+ "texte": "En recevant Jésus, tu es devenu enfant de Dieu. Ce n'est pas une récompense pour tes efforts : c'est un cadeau. Ton passé est pardonné et une vie nouvelle commence. Elle grandira jour après jour, à mesure que tu marches avec lui.",
  "question": "Qu'est-ce qui a changé dans ton cœur depuis que tu as reçu Jésus ?",
- "audio": "/audio-exemples/exemple-1.mp3",
- "duree": "0:50",
- "auteur": "Nom de l'orateur",
+ "sujets": [
+  {
+   "titre": "Merci pour le salut",
+   "texte": "Remercie Dieu de t'avoir adopté comme son enfant. (Jean 1:12)"
+  },
+  {
+   "titre": "Un nouveau départ",
+   "texte": "Remets-lui ton passé et accepte son pardon complet. (2 Corinthiens 5:17)"
+  }
+ ],
+ "priere": "Père, merci de m'avoir fait ton enfant. Je commence ce chemin avec toi. Amen.",
+ "auteur": "Équipe Yeshaya",
  "autorisation": "oui",
  "date_ajout": "2026-11-14",
- "exemple": true
+ "relu": false,
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
 }

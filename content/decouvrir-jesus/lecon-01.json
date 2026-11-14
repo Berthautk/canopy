@@ -1,0 +1,44 @@
+{
+ "id": "decouvrir-jesus-01",
+ "jour": 1,
+ "titre": "Qui est Dieu ?",
+ "image": "/assets/symboles/bible-dans-la-lumiere.webp",
+ "sections": [
+  {
+   "titre": "Dieu existe et il se fait connaître",
+   "texte": "Le ciel, la terre, la vie elle-même parlent d'un Créateur. Mais Dieu ne s'est pas contenté de laisser des traces : il a parlé. Par la Bible, et surtout par Jésus, il nous dit qui il est."
+  },
+  {
+   "titre": "Un Dieu saint",
+   "texte": "Dieu est parfaitement pur. Il n'y a en lui aucune ombre, aucun mensonge, aucune injustice. Devant sa sainteté, le prophète Ésaïe a compris combien il était lui-même impur."
+  },
+  {
+   "titre": "Un Dieu d'amour",
+   "texte": "Ce Dieu saint n'est pas lointain. Il est lent à la colère, riche en bonté, et il aime chaque personne, y compris toi. Il ne change pas : ce qu'il a promis, il le fera."
+  }
+ ],
+ "versets": [
+  "Jn 4:24",
+  "1 Jn 1:5",
+  "Ex 34:6",
+  "Ml 3:6",
+  "Jn 3:16"
+ ],
+ "question": "Quelle image avais-tu de Dieu jusqu'ici ? En quoi ces versets la changent-ils ?",
+ "sujets": [
+  {
+   "titre": "Se laisser connaître",
+   "texte": "Demande à Dieu de se révéler à toi tel qu'il est vraiment, et non tel que tu l'imagines. (Jérémie 33:3)"
+  },
+  {
+   "titre": "Un cœur ouvert",
+   "texte": "Demande-lui d'ouvrir ton cœur pour comprendre sa Parole pendant ce parcours. (Psaume 119:18)"
+  }
+ ],
+ "priere": "Dieu, si tu existes et si tu m'aimes, fais-toi connaître à moi. Ouvre mes yeux pendant ce parcours. Amen.",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original."
+}

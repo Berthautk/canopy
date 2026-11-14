@@ -1,0 +1,43 @@
+{
+ "id": "decouvrir-jesus-09",
+ "jour": 9,
+ "titre": "Être sûr de son salut",
+ "image": "/assets/symboles/ancre-esperance.webp",
+ "sections": [
+  {
+   "titre": "Une certitude, pas un espoir vague",
+   "texte": "Dieu ne veut pas que tu vives dans le doute. Jean a écrit afin que ceux qui croient sachent qu'ils ont la vie éternelle."
+  },
+  {
+   "titre": "Fondée sur la Parole",
+   "texte": "Ton assurance ne repose pas sur tes émotions, qui changent, mais sur la promesse de Dieu, qui ne change pas. Jésus dit que personne ne peut ravir ses brebis de sa main."
+  },
+  {
+   "titre": "Confirmée par la vie",
+   "texte": "Le Saint-Esprit rend témoignage à ton esprit que tu es enfant de Dieu, et ta vie commence à changer : tu es une nouvelle créature."
+  }
+ ],
+ "versets": [
+  "1 Jn 5:11-13",
+  "Jn 10:28",
+  "Rm 8:16",
+  "2 Co 5:17"
+ ],
+ "question": "Sur quoi repose ton assurance d'être sauvé : sur tes sentiments ou sur la promesse de Dieu ?",
+ "sujets": [
+  {
+   "titre": "L'assurance",
+   "texte": "Remercie Dieu pour sa promesse : celui qui a le Fils a la vie. (1 Jean 5:12)"
+  },
+  {
+   "titre": "Contre le doute",
+   "texte": "Quand le doute vient, déclare la Parole de Dieu plutôt que tes sentiments. (Jean 10:28-29)"
+  }
+ ],
+ "priere": "Père, merci pour ta promesse. Je crois ta Parole : j'ai la vie éternelle en Jésus. Amen.",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original."
+}

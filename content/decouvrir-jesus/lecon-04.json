@@ -1,0 +1,44 @@
+{
+ "id": "decouvrir-jesus-04",
+ "jour": 4,
+ "titre": "Qui est Jésus ?",
+ "image": "/assets/jesus/jesus-portrait-serein.webp",
+ "sections": [
+  {
+   "titre": "Plus qu'un prophète",
+   "texte": "Jésus n'est pas seulement un homme sage ou un grand prophète. La Bible dit que la Parole, qui était Dieu, a été faite chair et a habité parmi nous."
+  },
+  {
+   "titre": "Des signes uniques",
+   "texte": "Sa naissance avait été annoncée des siècles à l'avance. Il a vécu sans péché, a guéri les malades, calmé la tempête, chassé les esprits mauvais et ressuscité des morts."
+  },
+  {
+   "titre": "Dieu rendu visible",
+   "texte": "Jésus a dit : celui qui m'a vu a vu le Père. En regardant Jésus, on voit le cœur de Dieu : sa sainteté, sa compassion et son pardon."
+  }
+ ],
+ "versets": [
+  "Jn 1:1",
+  "Jn 1:14",
+  "És 9:5",
+  "Jn 14:9",
+  "Hé 4:15"
+ ],
+ "question": "Pour toi, qui est Jésus ? Ta réponse a-t-elle changé en lisant ces versets ?",
+ "sujets": [
+  {
+   "titre": "Le connaître personnellement",
+   "texte": "Demande à Dieu de te faire connaître Jésus, pas seulement comme un personnage de l'histoire, mais comme une personne vivante. (Jean 17:3)"
+  },
+  {
+   "titre": "La foi",
+   "texte": "Demande-lui de t'aider à croire. (Marc 9:24)"
+  }
+ ],
+ "priere": "Jésus, je veux te connaître tel que tu es vraiment. Aide-moi à croire. Amen.",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original."
+}

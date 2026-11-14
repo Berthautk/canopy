@@ -398,3 +398,8 @@
 .section-ens__refs { font-size: .82rem; margin: -4px 4px 2px; }
 .section-ens__texte { line-height: 1.6; margin: 0 4px; }
 .section-ens__sous { font-size: 1rem; margin: 6px 4px 0; color: var(--or-fonce); }
+.decouvrir-carte { margin-top: 12px; display: flex; align-items: center; gap: 12px; padding: 10px; color: var(--titre); border-color: var(--or); background: linear-gradient(135deg, var(--surface), #FFF6E0); }
+:root[data-theme='sombre'] .decouvrir-carte { background: linear-gradient(135deg, var(--surface), #2E2818); }
+.decouvrir-carte img { width: 68px; height: 68px; border-radius: 12px; object-fit: cover; flex: none; }
+.enseignement-court p { line-height: 1.6; }
+.priere-decision { border-color: var(--or); border-width: 2px; }

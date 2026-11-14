@@ -7,10 +7,22 @@
   "Ph 4:6-7",
   "Mt 6:6"
  ],
- "texte": "Prier n'exige pas de grands mots. Tu peux parler à Dieu simplement, comme à un père qui t'écoute : le remercier, lui confier tes soucis, lui demander de l'aide.",
+ "texte": "Prier n'exige pas de grands mots. Tu peux parler à Dieu simplement, comme à un père qui t'écoute : le remercier, lui confier tes soucis, lui demander de l'aide. Choisis un moment et un lieu calmes chaque jour. La section Prière de l'application peut te guider pas à pas.",
  "question": "Quels sont trois sujets que tu veux confier à Dieu aujourd'hui ?",
- "auteur": "Nom de l'orateur",
+ "sujets": [
+  {
+   "titre": "Un rendez-vous quotidien",
+   "texte": "Demande à Dieu de t'aider à fixer un moment de prière chaque jour. (Marc 1:35)"
+  },
+  {
+   "titre": "Mes trois sujets",
+   "texte": "Présente-lui tes trois sujets, avec confiance. (Philippiens 4:6)"
+  }
+ ],
+ "priere": "Père, apprends-moi à prier. Je veux te parler chaque jour. Amen.",
+ "auteur": "Équipe Yeshaya",
  "autorisation": "oui",
  "date_ajout": "2026-11-14",
- "exemple": true
+ "relu": false,
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
 }

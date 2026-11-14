@@ -68,6 +68,13 @@ export function Accueil() {
 
         <div style="margin-top:12px"><TelechargementBible compact /></div>
 
+        <a class="carte decouvrir-carte" href="#/grandir/decouvrir-jesus">
+          <img src="/assets/jesus/jesus-main-tendue.webp" alt="" loading="lazy" />
+          <span class="ligne__corps"><span class="ligne__titre" style="display:block">Découvrir Jésus</span>
+            <span class="ligne__desc">Qui est-il vraiment ? Comment lui donner ta vie ? 10 courtes leçons.</span></span>
+          <Icone nom="chevron" taille={20} />
+        </a>
+
         <a class="jouer-carte" href="#/jouer">
           <img src="/assets/objets-bibliques/couronne-or.webp" alt="" loading="lazy" />
           <div>

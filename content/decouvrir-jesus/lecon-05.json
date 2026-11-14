@@ -1,0 +1,43 @@
+{
+ "id": "decouvrir-jesus-05",
+ "jour": 5,
+ "titre": "Pourquoi Jésus est mort",
+ "image": "/assets/symboles/croix-coucher-de-soleil.webp",
+ "sections": [
+  {
+   "titre": "L'Agneau de Dieu",
+   "texte": "Jean-Baptiste a présenté Jésus comme l'Agneau de Dieu qui ôte le péché du monde. Dans l'Ancien Testament, un agneau était sacrifié à la place du coupable. Jésus est venu prendre cette place."
+  },
+  {
+   "titre": "Il a porté nos fautes",
+   "texte": "Jésus n'est pas mort parce qu'il était faible ou coupable. Il a donné sa vie volontairement. Il a été blessé pour nos péchés : la punition qui nous revenait est tombée sur lui."
+  },
+  {
+   "titre": "La preuve de l'amour",
+   "texte": "Dieu n'a pas attendu que nous devenions meilleurs. Christ est mort pour nous alors que nous étions encore des pécheurs. Voilà jusqu'où va son amour."
+  }
+ ],
+ "versets": [
+  "Jn 1:29",
+  "És 53:5",
+  "1 Pi 2:24",
+  "Rm 5:8"
+ ],
+ "question": "Que ressens-tu en sachant que Jésus a pris ta place sur la croix ?",
+ "sujets": [
+  {
+   "titre": "Merci pour la croix",
+   "texte": "Remercie Jésus d'avoir porté sur la croix la punition que tu méritais. (Ésaïe 53:5)"
+  },
+  {
+   "titre": "Comprendre cet amour",
+   "texte": "Demande à Dieu de te faire comprendre la grandeur de son amour pour toi. (Éphésiens 3:18-19)"
+  }
+ ],
+ "priere": "Seigneur Jésus, merci d'être mort à ma place. Je ne mérite pas un tel amour. Amen.",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original."
+}

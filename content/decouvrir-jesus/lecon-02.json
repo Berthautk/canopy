@@ -1,0 +1,44 @@
+{
+ "id": "decouvrir-jesus-02",
+ "jour": 2,
+ "titre": "D'où vient le mal dans le monde ?",
+ "image": "/assets/paysages/coucher-soleil-montagnes.webp",
+ "sections": [
+  {
+   "titre": "Créés pour Dieu",
+   "texte": "Dieu a créé l'homme et la femme à son image, pour vivre en amitié avec lui. Tout ce qu'il avait fait était très bon."
+  },
+  {
+   "titre": "Le choix de désobéir",
+   "texte": "Dieu avait donné une seule interdiction, et un avertissement : la désobéissance conduit à la mort. L'homme a choisi d'écouter une autre voix que celle de Dieu. C'est ainsi que le péché est entré dans le monde."
+  },
+  {
+   "titre": "Les conséquences",
+   "texte": "Depuis, la séparation d'avec Dieu, la souffrance et la mort touchent toute l'humanité. Chacun de nous, à son tour, a choisi sa propre voie plutôt que celle de Dieu."
+  }
+ ],
+ "versets": [
+  "Gn 1:27",
+  "Gn 1:31",
+  "Gn 2:17",
+  "Rm 5:12",
+  "És 53:6"
+ ],
+ "question": "Reconnais-tu, dans ta propre vie, cette tendance à suivre ta voie plutôt que celle de Dieu ?",
+ "sujets": [
+  {
+   "titre": "La vérité sur moi-même",
+   "texte": "Demande à Dieu de te montrer avec douceur les domaines où tu as suivi ta propre voie. (Psaume 139:23-24)"
+  },
+  {
+   "titre": "Un monde blessé",
+   "texte": "Présente à Dieu la souffrance que tu vois autour de toi, et demande-lui d'y apporter sa lumière. (Romains 8:22)"
+  }
+ ],
+ "priere": "Seigneur, je reconnais que, comme tout le monde, j'ai souvent préféré ma voie à la tienne. Montre-moi la vérité. Amen.",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original."
+}

@@ -1,0 +1,43 @@
+{
+ "id": "decouvrir-jesus-10",
+ "jour": 10,
+ "titre": "Mes premiers pas avec Jésus",
+ "image": "/assets/nouveau-converti/bapteme.webp",
+ "sections": [
+  {
+   "titre": "Le dire autour de soi",
+   "texte": "Jésus dit que celui qui le confessera devant les hommes, il le confessera devant son Père. Commence par dire simplement à une personne de confiance que tu as donné ta vie à Jésus."
+  },
+  {
+   "titre": "Le baptême et l'Église",
+   "texte": "Les premiers croyants se faisaient baptiser et persévéraient ensemble dans l'enseignement des apôtres, la communion, la fraction du pain et les prières. Cherche une Église locale qui enseigne la Bible."
+  },
+  {
+   "titre": "Se nourrir chaque jour",
+   "texte": "Comme un nouveau-né désire le lait, désire la Parole de Dieu. Le parcours « Nouveau converti » t'accompagne ensuite pendant 30 jours."
+  }
+ ],
+ "versets": [
+  "Mt 10:32",
+  "Ac 2:41-42",
+  "Hé 10:25",
+  "1 Pi 2:2"
+ ],
+ "question": "Quelle est la première personne à qui tu vas parler de ta décision ?",
+ "sujets": [
+  {
+   "titre": "Le courage de témoigner",
+   "texte": "Demande à Dieu le courage de parler de Jésus avec simplicité. (Actes 4:29)"
+  },
+  {
+   "titre": "Une famille spirituelle",
+   "texte": "Demande-lui de te conduire vers une Église où tu pourras grandir. (Hébreux 10:25)"
+  }
+ ],
+ "priere": "Seigneur, merci de m'avoir accueilli. Conduis mes premiers pas, donne-moi une famille spirituelle et le courage de te suivre. Amen.",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original."
+}

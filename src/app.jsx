@@ -24,7 +24,7 @@ import { Veille } from './ecrans/priere/Veille.jsx';
 import { FicheCombat } from './ecrans/priere/Priere.jsx';
 import { EnseignementEcrit } from './ecrans/grandir/EnseignementEcrit.jsx';
 import { Grandir } from './ecrans/grandir/Grandir.jsx';
-import { NouveauConverti } from './ecrans/grandir/NouveauConverti.jsx';
+import { Parcours, PARCOURS } from './ecrans/grandir/NouveauConverti.jsx';
 import { Evangeliser, Article } from './ecrans/evangeliser/Evangeliser.jsx';
 import { Dialogue } from './ecrans/evangeliser/Dialogue.jsx';
 import { Jouer, QuizDuJour, QuizThemes } from './ecrans/jeux/Jouer.jsx';
@@ -63,6 +63,7 @@ function titre([a, b, c]) {
   if (a === 'priere' && b === 'combat') return 'Combat spirituel';
   if (a === 'grandir' && b === 'enseignement') return ENSEIGNEMENTS.find((x) => x.id === c)?.titre ?? 'Enseignement';
   if (a === 'grandir' && b === 'nouveau-converti') return c ? `Nouveau converti : jour ${c}` : 'Parcours Nouveau converti';
+  if (a === 'grandir' && b === 'decouvrir-jesus') return c ? `Découvrir Jésus : leçon ${c}` : 'Découvrir Jésus';
   if (a === 'evangeliser' && b === 'article') return EVANGELISATION.find((x) => x.id === c)?.titre ?? 'Évangéliser';
   if (a === 'evangeliser' && b === 'dialogue') return 'Dialogue';
   if (a !== 'bible' || !b) return null;
@@ -83,7 +84,7 @@ function Ecran({ r }) {
   if (a === 'jouer') return ({ 'quiz-du-jour': <QuizDuJour />, themes: <QuizThemes theme={c} niveau={d} />, complete: <CompleteVerset />,
     'qui-suis-je': <QuiSuisJe />, ordre: <Ordre id={c} />, duel: <Duel />, badges: <Badges /> })[b] ?? <Jouer />;
   if (a === 'priere') return b === 'journal' ? <Journal nouveau={r.params.nouveau} /> : b === 'theme' ? <ThemePriere id={c} /> : b === 'veille' ? <Veille id={c} /> : b === 'combat' ? <FicheCombat id={c} /> : <Priere />;
-  if (a === 'grandir') return b === 'nouveau-converti' ? <NouveauConverti jour={c} /> : b === 'enseignement' ? <EnseignementEcrit id={c} /> : <Grandir />;
+  if (a === 'grandir') return PARCOURS[b] ? <Parcours id={b} jour={c} /> : b === 'enseignement' ? <EnseignementEcrit id={c} /> : <Grandir />;
   if (a === 'evangeliser') return b === 'article' ? <Article id={c} /> : b === 'dialogue' ? <Dialogue id={c} /> : <Evangeliser />;
   if (a === 'ecouter') return <Ecouter id={b} />;
   if (a === 'bible') {

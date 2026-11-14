@@ -34,6 +34,15 @@ export function Grandir() {
         <div><h2>Grandir dans la foi</h2><p>Enseignements, séries et parcours pour une vie chrétienne solide.</p></div>
       </div>
 
+      <a class="carte parcours-carte" href="#/grandir/decouvrir-jesus" style="margin-bottom:10px">
+        <img src="/assets/jesus/jesus-main-tendue.webp" alt="" />
+        <span class="ligne__corps">
+          <span class="ligne__titre" style="display:block">Découvrir Jésus : 10 leçons</span>
+          <span class="ligne__desc" style="display:block">{p.dj?.length ? `${p.dj.length} leçon${p.dj.length > 1 ? 's' : ''} sur 10 terminée${p.dj.length > 1 ? 's' : ''}` : 'Qui est Jésus ? Comment lui donner ta vie ?'}</span>
+          <span class="progression progression--fine"><span style={{ width: ((p.dj?.length || 0) / 10) * 100 + '%' }} /></span>
+        </span>
+        <Icone nom="chevron" taille={20} />
+      </a>
       <a class="carte parcours-carte" href="#/grandir/nouveau-converti">
         <img src="/assets/nouveau-converti/joie-de-la-rencontre.webp" alt="" />
         <span class="ligne__corps">

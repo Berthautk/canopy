@@ -18,6 +18,7 @@ export const NOUVEAU_CONVERTI = dossier('nouveau-converti').sort((a, b) => a.jou
 export const EVANGELISATION = dossier('evangelisation').sort(parOrdre);
 export const DIALOGUES = dossier('dialogues').sort(parOrdre);
 export const JOURS_PARCOURS = 30;
+export const DECOUVRIR_JESUS = dossier('decouvrir-jesus').sort((a, b) => a.jour - b.jour);
 export const VEILLES = dossier('veilles').filter((v) => Array.isArray(v.phases)).sort((a, b) => a.ordre - b.ordre);
 export const GUIDE_PHASES = fichiers['/content/veilles/guide-des-phases.json'];
 export const COMBAT = dossier('combat').sort((a, b) => a.ordre - b.ordre);

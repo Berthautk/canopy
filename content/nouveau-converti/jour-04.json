@@ -1,0 +1,29 @@
+{
+ "id": "nouveau-converti-jour-04",
+ "jour": 4,
+ "titre": "Lire la Bible chaque jour",
+ "image": "/assets/nouveau-converti/etude-de-la-bible.webp",
+ "versets": [
+  "Ps 119:105",
+  "1 Pi 2:2",
+  "Jos 1:8"
+ ],
+ "texte": "La Bible est la Parole de Dieu. Elle éclaire ton chemin, nourrit ta foi et te protège. Commence par l'Évangile de Jean, un chapitre par jour. Lis lentement, demande-toi ce que Dieu te dit, puis prie avec ce que tu as lu. Le plan de lecture de l'application peut t'accompagner.",
+ "question": "Quel moment de la journée vas-tu réserver à la lecture de la Bible ?",
+ "sujets": [
+  {
+   "titre": "La faim de la Parole",
+   "texte": "Demande à Dieu de te donner le désir de sa Parole, comme un nouveau-né désire le lait. (1 Pierre 2:2)"
+  },
+  {
+   "titre": "Comprendre",
+   "texte": "Demande au Saint-Esprit d'éclairer ce que tu lis. (Psaume 119:18)"
+  }
+ ],
+ "priere": "Seigneur, ouvre mes yeux pour que je comprenne ta Parole et que je la mette en pratique. Amen.",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+}

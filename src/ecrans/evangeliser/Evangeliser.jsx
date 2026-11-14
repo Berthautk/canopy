@@ -41,7 +41,13 @@ export function Evangeliser() {
           </a>
         ))}
       </div>
-      <a class="carte ligne" href="#/bible/chemin" style="margin-top:14px">
+      <a class="carte ligne" href="#/grandir/decouvrir-jesus" style="margin-top:14px">
+        <span class="ligne__icone"><Icone nom="coeur" /></span>
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Découvrir Jésus (10 leçons)</span>
+          <span class="ligne__desc">À partager à un ami qui veut connaître Jésus.</span></span>
+        <Icone nom="chevron" taille={20} />
+      </a>
+      <a class="carte ligne" href="#/bible/chemin" style="margin-top:8px">
         <span class="ligne__icone"><Icone nom="croix" /></span>
         <span class="ligne__corps"><span class="ligne__titre" style="display:block">Le chemin du salut</span>
           <span class="ligne__desc">8 versets à montrer, un par un.</span></span>
