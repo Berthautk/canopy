@@ -1,0 +1,99 @@
+{
+ "id": "quiz-miracles",
+ "theme": "Miracles",
+ "icone": "eau",
+ "questions": [
+  {
+   "id": "miracles-01",
+   "niveau": "facile",
+   "question": "Quel fut le premier miracle de Jésus, aux noces de Cana ?",
+   "choix": [
+    "Guérir un aveugle",
+    "Changer l'eau en vin",
+    "Marcher sur l'eau",
+    "Multiplier les pains"
+   ],
+   "reponse": 1,
+   "explication": "Aux noces de Cana, Jésus changea l'eau en vin : ce fut le premier de ses miracles.",
+   "reference": "Jn 2:11",
+   "verifie": false
+  },
+  {
+   "id": "miracles-02",
+   "niveau": "facile",
+   "question": "Combien de pains Jésus a-t-il multipliés pour nourrir environ cinq mille hommes ?",
+   "choix": [
+    "Deux",
+    "Cinq",
+    "Sept",
+    "Douze"
+   ],
+   "reponse": 1,
+   "explication": "Les disciples n'avaient que cinq pains et deux poissons ; Jésus les multiplia et tous furent rassasiés.",
+   "reference": "Mt 14:17-21",
+   "verifie": false
+  },
+  {
+   "id": "miracles-03",
+   "niveau": "moyen",
+   "question": "Quel ami de Jésus sortit vivant du tombeau, après quatre jours ?",
+   "choix": [
+    "Lazare",
+    "Jaïrus",
+    "Bartimée",
+    "Zachée"
+   ],
+   "reponse": 0,
+   "explication": "Jésus appela Lazare d'une voix forte, et celui qui était mort depuis quatre jours sortit du tombeau.",
+   "reference": "Jn 11:43-44",
+   "verifie": false
+  },
+  {
+   "id": "miracles-04",
+   "niveau": "moyen",
+   "question": "Quel disciple a marché sur les eaux pour aller vers Jésus ?",
+   "choix": [
+    "Jean",
+    "Pierre",
+    "André",
+    "Thomas"
+   ],
+   "reponse": 1,
+   "explication": "À l'appel de Jésus, Pierre sortit de la barque et marcha sur les eaux pour aller vers lui.",
+   "reference": "Mt 14:29",
+   "verifie": false
+  },
+  {
+   "id": "miracles-05",
+   "niveau": "moyen",
+   "question": "Comment s'appelait l'aveugle guéri à la sortie de Jéricho ?",
+   "choix": [
+    "Bartimée",
+    "Zachée",
+    "Lazare",
+    "Malchus"
+   ],
+   "reponse": 0,
+   "explication": "Bartimée, mendiant aveugle, était assis au bord du chemin à la sortie de Jéricho ; Jésus lui rendit la vue.",
+   "reference": "Mc 10:46",
+   "verifie": false
+  },
+  {
+   "id": "miracles-06",
+   "niveau": "expert",
+   "question": "Combien de lépreux Jésus a-t-il guéris, dont un seul est revenu le remercier ?",
+   "choix": [
+    "Trois",
+    "Sept",
+    "Dix",
+    "Douze"
+   ],
+   "reponse": 2,
+   "explication": "Jésus guérit dix lépreux, mais un seul revint lui rendre gloire : un Samaritain.",
+   "reference": "Lc 17:15-17",
+   "verifie": false
+  }
+ ],
+ "auteur": "Équipe Yeshaya",
+ "date_ajout": "2026-11-14"
+}

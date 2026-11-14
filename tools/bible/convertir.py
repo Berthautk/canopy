@@ -20,6 +20,8 @@ EXCLUS = {"id","ide","h","toc1","toc2","toc3","mt","mt1","mt2","mt3","imt","imt1
 CORRECTIONS = {
     # Ps 119:115 est saisi « \v 11 5Éloignez » : le numéro est coupé en deux.
     ("PSA", "\\v 11 5Éloignez"): "\\v 115 Éloignez",
+    # Gn 12:1 : trait d'union manquant (« Vat’en »), écrit « Va-t’en » partout ailleurs dans la source.
+    ("GEN", "Vat’en de ton pays"): "Va-t’en de ton pays",
 }
 POESIE = {"q","q1","q2","q3","qc","qr","qm","qm1","qm2","li","li1","li2","pi","pi1","pi2"}
 

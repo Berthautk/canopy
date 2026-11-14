@@ -81,7 +81,9 @@ Dans **`content/quiz/`**, un fichier par thème (modèle : `content/_modeles/que
 
 - `reponse` : le numéro de la bonne réponse **en comptant à partir de 0** (0 = première, 1 = deuxième, etc.) ;
 - `niveau` : `facile`, `moyen` ou `expert` ;
-- `reference` : **obligatoire** ; `verifie` : passez à `true` une fois la question relue.
+- `reference` : **obligatoire**, et elle doit contenir la réponse (le texte LSG est affiché sous l'explication) ;
+- `verifie` : passez à `true` une fois la question relue. La liste à relire se régénère avec `node tools/generer-a-verifier.mjs` (fichier `A_VERIFIER.md`).
+- Dans les questions et explications, **ne citez pas un verset entre guillemets** : reformulez, le vrai texte est affiché automatiquement.
 
 ## Ajouter des versets par sujet, une méditation ou un verset du jour
 

@@ -18,6 +18,9 @@ export const NOUVEAU_CONVERTI = dossier('nouveau-converti').sort((a, b) => a.jou
 export const EVANGELISATION = dossier('evangelisation').sort(parOrdre);
 export const DIALOGUES = dossier('dialogues').sort(parOrdre);
 export const JOURS_PARCOURS = 30;
+export const QUIZ = dossier('quiz').sort((a, b) => a.theme.localeCompare(b.theme, 'fr'));
+export const QUI_SUIS_JE = fichiers['/content/jeux/qui-suis-je.json']?.personnages ?? [];
+export const HISTOIRES = fichiers['/content/jeux/remets-dans-l-ordre.json']?.histoires ?? [];
 
 // Catalogue de tous les contenus qui ont un audio : id -> piste prête pour le lecteur.
 const TYPES = { enseignements: 'Enseignement', meditations: 'Méditation', prieres: 'Prière', dialogues: 'Dialogue', evangelisation: 'Évangélisation', 'nouveau-converti': 'Nouveau converti' };

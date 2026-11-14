@@ -1,0 +1,222 @@
+{
+ "id": "qui-suis-je",
+ "titre": "Qui suis-je ?",
+ "personnages": [
+  {
+   "id": "moise",
+   "nom": "Moïse",
+   "image": "/assets/jeux/personnage-moise.webp",
+   "indices": [
+    {
+     "texte": "J'ai été sauvé des eaux quand j'étais bébé, et la fille de Pharaon m'a adopté.",
+     "reference": "Ex 2:10"
+    },
+    {
+     "texte": "Dieu m'a appelé du milieu d'un buisson ardent.",
+     "reference": "Ex 3:4"
+    },
+    {
+     "texte": "J'ai reçu de Dieu les dix commandements sur deux tables de pierre.",
+     "reference": "Ex 34:28"
+    }
+   ],
+   "choix": [
+    "Aaron",
+    "Moïse",
+    "Josué",
+    "Élie"
+   ],
+   "reponse": 1,
+   "verifie": false
+  },
+  {
+   "id": "abraham",
+   "nom": "Abraham",
+   "image": "/assets/jeux/personnage-abraham.webp",
+   "indices": [
+    {
+     "texte": "Dieu m'a demandé de quitter mon pays et ma famille.",
+     "reference": "Gn 12:1"
+    },
+    {
+     "texte": "Dieu a changé mon nom, et m'a promis d'être le père d'une multitude de nations.",
+     "reference": "Gn 17:5"
+    },
+    {
+     "texte": "J'avais cent ans à la naissance de mon fils Isaac.",
+     "reference": "Gn 21:5"
+    }
+   ],
+   "choix": [
+    "Isaac",
+    "Jacob",
+    "Abraham",
+    "Noé"
+   ],
+   "reponse": 2,
+   "verifie": false
+  },
+  {
+   "id": "david",
+   "nom": "David",
+   "image": "/assets/jeux/personnage-david.webp",
+   "indices": [
+    {
+     "texte": "Je gardais les brebis de mon père.",
+     "reference": "1 S 16:11"
+    },
+    {
+     "texte": "Samuel m'a oint d'huile devant mes frères.",
+     "reference": "1 S 16:13"
+    },
+    {
+     "texte": "J'ai vaincu Goliath avec une fronde et une pierre.",
+     "reference": "1 S 17:50"
+    }
+   ],
+   "choix": [
+    "Saül",
+    "David",
+    "Salomon",
+    "Élie"
+   ],
+   "reponse": 1,
+   "verifie": false
+  },
+  {
+   "id": "daniel",
+   "nom": "Daniel",
+   "image": "/assets/jeux/personnage-daniel.webp",
+   "indices": [
+    {
+     "texte": "J'ai été emmené captif à Babylone quand j'étais jeune.",
+     "reference": "Dn 1:6"
+    },
+    {
+     "texte": "Dieu m'a révélé le songe du roi Nebucadnetsar.",
+     "reference": "Dn 2:19"
+    },
+    {
+     "texte": "Mon Dieu a envoyé son ange et fermé la gueule des lions.",
+     "reference": "Dn 6:22"
+    }
+   ],
+   "choix": [
+    "Joseph",
+    "Néhémie",
+    "Daniel",
+    "Ézéchiel"
+   ],
+   "reponse": 2,
+   "verifie": false
+  },
+  {
+   "id": "esther",
+   "nom": "Esther",
+   "image": "/assets/jeux/personnage-esther.webp",
+   "indices": [
+    {
+     "texte": "J'ai été élevée par mon cousin Mardochée.",
+     "reference": "Est 2:7"
+    },
+    {
+     "texte": "Le roi m'a choisie et j'ai reçu la couronne royale.",
+     "reference": "Est 2:17"
+    },
+    {
+     "texte": "J'ai risqué ma vie en allant vers le roi pour sauver mon peuple.",
+     "reference": "Est 4:16"
+    }
+   ],
+   "choix": [
+    "Ruth",
+    "Débora",
+    "Sara",
+    "Esther"
+   ],
+   "reponse": 3,
+   "verifie": false
+  },
+  {
+   "id": "joseph",
+   "nom": "Joseph",
+   "image": "/assets/jeux/personnage-joseph.webp",
+   "indices": [
+    {
+     "texte": "Mon père m'aimait et m'a fait une tunique de plusieurs couleurs.",
+     "reference": "Gn 37:3"
+    },
+    {
+     "texte": "Mes frères m'ont vendu à des marchands.",
+     "reference": "Gn 37:28"
+    },
+    {
+     "texte": "J'ai expliqué les songes de Pharaon.",
+     "reference": "Gn 41:25"
+    }
+   ],
+   "choix": [
+    "Joseph",
+    "Benjamin",
+    "Daniel",
+    "Moïse"
+   ],
+   "reponse": 0,
+   "verifie": false
+  },
+  {
+   "id": "ruth",
+   "nom": "Ruth",
+   "image": "/assets/jeux/personnage-ruth.webp",
+   "indices": [
+    {
+     "texte": "Je suis moabite, et j'ai épousé un fils d'une famille de Bethléhem.",
+     "reference": "Rt 1:4"
+    },
+    {
+     "texte": "J'ai suivi ma belle-mère Naomi dans son pays.",
+     "reference": "Rt 1:16"
+    },
+    {
+     "texte": "J'ai glané des épis dans le champ de Boaz.",
+     "reference": "Rt 2:3"
+    }
+   ],
+   "choix": [
+    "Orpa",
+    "Ruth",
+    "Naomi",
+    "Rahab"
+   ],
+   "reponse": 1,
+   "verifie": false
+  },
+  {
+   "id": "paul",
+   "nom": "Paul",
+   "image": "/assets/jeux/personnage-paul.webp",
+   "indices": [
+    {
+     "texte": "Je ravageais l'Église et je jetais les croyants en prison.",
+     "reference": "Ac 8:3"
+    },
+    {
+     "texte": "Jésus m'est apparu sur le chemin de Damas.",
+     "reference": "Ac 9:3-5"
+    },
+    {
+     "texte": "J'ai écrit aux chrétiens de Rome que je n'ai pas honte de l'Évangile.",
+     "reference": "Rm 1:16"
+    }
+   ],
+   "choix": [
+    "Pierre",
+    "Barnabas",
+    "Paul",
+    "Silas"
+   ],
+   "reponse": 2,
+   "verifie": false
+  }
+ ]
+}

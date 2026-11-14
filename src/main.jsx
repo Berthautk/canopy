@@ -12,6 +12,7 @@ import { chargerPlan } from './bible/plans.js';
 import { chargerLecteur } from './audio/lecteur.js';
 import { chargerTelechargements } from './audio/telechargements.js';
 import { chargerPriere } from './donnees/priere.js';
+import { chargerStats } from './jeux/stats.js';
 
 appliquer();                 // thème et taille du texte depuis la copie locale, avant le premier rendu
 chargerReglages();           // puis lecture d'IndexedDB
@@ -22,6 +23,7 @@ chargerPlan();
 chargerLecteur();
 chargerTelechargements();
 chargerPriere();
+chargerStats();
 render(<App />, document.getElementById('app'));
 
 // Service worker : hors ligne après la première ouverture (uniquement dans la version construite).

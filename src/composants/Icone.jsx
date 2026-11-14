@@ -45,6 +45,8 @@ const P = {
   avancer15: <><path d="M21 12a9 9 0 1 1-3-6.7L21 8" /><path d="M21 3v5h-5" /><text x="12" y="15.5" font-size="7.5" font-weight="700" text-anchor="middle" fill="currentColor" stroke="none" font-family="sans-serif">15</text></>,
   corbeille: <><path d="M3 6h18M8 6V4h8v2M6 6l1 14h10l1-14M10 11v6M14 11v6" /></>,
   cadenas: <><rect x="4" y="10.5" width="16" height="11" rx="2" /><path d="M8 10.5V7a4 4 0 0 1 8 0v3.5" /></>,
+  rejouer: <><path d="M3 12a9 9 0 1 0 3-6.7L3 8" /><path d="M3 3v5h5" /></>,
+  trier: <><path d="M7 4v16M3 8l4-4 4 4M17 20V4M13 16l4 4 4-4" /></>,
   fermer: <><path d="M6 6l12 12M18 6 6 18" /></>,
   verifie: <><path d="m5 12.5 4.5 4.5L19 7.5" /></>,
 };

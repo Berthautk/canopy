@@ -230,3 +230,116 @@
 .bulle__nom { display: block; font-family: var(--police-titre); font-weight: 700; font-size: .8rem; color: var(--bleu-nuit); margin-bottom: 2px; }
 :root[data-theme='sombre'] .bulle__nom { color: #F3ECDC; }
 .bulle p { font-size: .95rem; line-height: 1.45; }
+
+/* ===== Phase 5 : Jouer et apprendre ===== */
+.jouer-hero { margin: 10px 0 0; border-radius: var(--rayon); overflow: hidden; height: 160px; box-shadow: var(--ombre); }
+.jouer-hero img { width: 100%; height: 100%; object-fit: cover; }
+.jouer-intro { text-align: center; font-family: var(--police-titre); font-weight: 500; color: var(--titre); margin: 12px 4px; }
+.quiz-du-jour { display: flex; align-items: center; gap: 12px; padding: 14px; background: linear-gradient(135deg, #FFF3D1, #FBE7B0); border-color: #EBD08A; color: var(--titre); }
+:root[data-theme='sombre'] .quiz-du-jour { background: linear-gradient(135deg, #3A3020, #4A3B1F); border-color: #57482B; }
+.quiz-du-jour__icone { width: 56px; height: 56px; flex: none; border-radius: 16px; display: grid; place-items: center; background: var(--or); color: #fff; }
+.grille-jeux { margin-top: 12px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+:root[data-taille='tres-grand'] .grille-jeux { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.tuile-jeu { min-height: 96px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; padding: 10px 4px; text-align: center;
+  font-family: var(--police-titre); font-weight: 600; font-size: .8rem; line-height: 1.2; color: var(--titre); }
+.tuile-jeu svg { color: var(--or-fonce); }
+.quiz { padding-top: 12px; }
+.quiz__joueur { text-align: center; font-family: var(--police-titre); font-weight: 700; color: var(--sauge); }
+.quiz__compteur { text-align: center; font-family: var(--police-titre); font-weight: 600; color: var(--titre); margin: 4px 0; }
+.quiz__question { margin-top: 14px; padding: 16px; display: flex; gap: 12px; align-items: center; background: #FFF8E6; border-color: #EBD9A8; }
+:root[data-theme='sombre'] .quiz__question { background: #2E2818; border-color: #57482B; }
+.quiz__question svg { color: var(--or-fonce); flex: none; }
+.quiz__question h2 { font-size: 1.15rem; line-height: 1.3; }
+.quiz__choix { margin-top: 12px; display: grid; gap: 10px; }
+.choix { width: 100%; min-height: 56px; display: flex; align-items: center; gap: 12px; padding: 8px 14px; text-align: left; font-size: 1.02rem; color: var(--titre); }
+.choix:not(:disabled):active { background: var(--surface-2); }
+.choix__lettre { width: 34px; height: 34px; flex: none; border-radius: 50%; display: grid; place-items: center; background: var(--or); color: #fff; font-family: var(--police-titre); font-weight: 700; }
+.choix--centre { justify-content: center; text-align: center; font-family: var(--police-titre); font-weight: 600; }
+.choix--juste { background: #E3F2EE; border-color: var(--sauge); }
+.choix--faux { background: #FBE9E4; border-color: #D9806B; }
+:root[data-theme='sombre'] .choix--juste { background: #1B3A36; }
+:root[data-theme='sombre'] .choix--faux { background: #3B2420; }
+.choix--juste svg { margin-left: auto; color: var(--sauge); }
+.choix:disabled { opacity: 1; }
+.verdict { margin-top: 14px; padding: 16px; display: flex; gap: 14px; align-items: center; }
+.verdict--juste { background: #E3F2EE; border-color: var(--sauge); }
+.verdict--faux { background: #FBE9E4; border-color: #D9806B; }
+:root[data-theme='sombre'] .verdict--juste { background: #1B3A36; }
+:root[data-theme='sombre'] .verdict--faux { background: #3B2420; }
+.verdict__icone { width: 54px; height: 54px; flex: none; border-radius: 50%; display: grid; place-items: center; color: #fff; background: var(--sauge); }
+.verdict--faux .verdict__icone { background: #C9634C; }
+.verdict h2 { font-size: 1.25rem; }
+.ref-lien { padding: 10px 12px; color: var(--titre); }
+.quiz__suivant { width: 100%; margin-top: 16px; min-height: 54px; }
+.resultat-quiz { text-align: center; display: flex; flex-direction: column; align-items: center; gap: 8px; padding-top: 18px; }
+.resultat-quiz__trophee { width: 110px; height: 110px; border-radius: 50%; display: grid; place-items: center; background: radial-gradient(circle, #FFF3D1, #F3D98E); color: var(--or-fonce); }
+.resultat-quiz__libelle { font-family: var(--police-titre); font-weight: 600; color: var(--texte-doux); }
+.resultat-quiz__score { font-family: var(--police-titre); font-weight: 700; font-size: 2.6rem; color: var(--titre); line-height: 1; }
+.resultat-quiz h2 { font-size: 1.6rem; color: var(--or-fonce); }
+.resultat-quiz__texte { max-width: 320px; color: var(--texte); }
+.resultat-quiz__actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: 100%; margin-top: 10px; }
+.bouton--whatsapp { background: #1F9D55; color: #fff; }
+.badge-obtenu { display: flex; align-items: center; gap: 12px; padding: 10px 14px; text-align: left; background: #FFF8E6; }
+:root[data-theme='sombre'] .badge-obtenu { background: #2E2818; }
+.badge-obtenu__icone { width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; background: var(--or); color: #fff; }
+.theme-quiz { padding: 12px; display: grid; gap: 10px; }
+.theme-quiz__tete { display: flex; justify-content: space-between; align-items: center; }
+.theme-quiz__niveaux { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.niveau { min-height: 44px; border-radius: 10px; display: flex; align-items: center; justify-content: center; gap: 6px; font-family: var(--police-titre); font-weight: 600; font-size: .85rem; }
+.niveau small { font-size: .7rem; opacity: .75; }
+.niveau--facile { background: #E3F2EE; color: #22675F; }
+.niveau--moyen { background: #FBF0DC; color: #8A5E12; }
+.niveau--expert { background: #F4E4F0; color: #7E3B6A; }
+.niveau--vide { background: var(--surface-2); color: var(--texte-doux); opacity: .6; }
+.complete__verset { margin-top: 10px; padding: 16px; display: grid; gap: 12px; justify-items: center; background: #FFF8E6; }
+:root[data-theme='sombre'] .complete__verset { background: #2E2818; }
+.complete__verset p { font-family: Georgia, serif; font-size: 1.15rem; line-height: 1.7; color: var(--titre); text-align: center; }
+.trou { display: inline-block; min-width: 60px; padding: 0 4px; border-bottom: 2px solid var(--or); color: var(--texte-doux); font-style: italic; }
+.trou--rempli { color: var(--sauge); font-weight: 700; font-style: normal; }
+.qsj-hero { position: relative; margin: 10px 0 0; height: 150px; border-radius: var(--rayon); overflow: hidden; box-shadow: var(--ombre); }
+.qsj-hero img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
+.qsj-hero__question { position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--police-titre); font-size: 4.5rem; font-weight: 700;
+  color: #fff; text-shadow: 0 4px 16px rgba(0,0,0,.5); background: rgba(10,19,34,.25); }
+.indices { list-style: none; margin: 10px 0; padding: 0; display: grid; gap: 8px; }
+.indice { padding: 10px 12px; display: grid; gap: 2px; }
+.indice__num { font-family: var(--police-titre); font-weight: 700; font-size: .8rem; color: var(--or-fonce); }
+.indice--cache { display: flex; align-items: center; justify-content: space-between; opacity: .6; }
+.indice__ref { font-size: .78rem; color: var(--sauge); font-weight: 600; }
+.qsj-question { text-align: center; font-family: var(--police-titre); font-weight: 700; color: var(--or-fonce); margin: 6px 0 8px; }
+.qsj-choix { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.qsj-verdict { text-align: center; margin-top: 10px; font-family: var(--police-titre); font-weight: 600; color: #A0412D; }
+.qsj-verdict.ok { color: var(--sauge); }
+.ordre { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; touch-action: none; }
+.etape-ordre { display: flex; align-items: center; gap: 10px; padding: 8px 8px 8px 10px; color: var(--titre); }
+.etape-ordre .ligne__corps { display: grid; gap: 2px; font-size: .95rem; }
+.etape-ordre__num { width: 30px; height: 30px; flex: none; border-radius: 50%; display: grid; place-items: center; background: var(--or); color: #fff; font-family: var(--police-titre); font-weight: 700; }
+.etape-ordre__fleches { display: grid; gap: 2px; flex: none; }
+.etape-ordre__fleches button { width: 36px; height: 26px; border-radius: 8px; background: var(--surface-2); border: 1px solid var(--bord); color: var(--titre); font-size: .7rem; }
+.etape-ordre__fleches button:disabled { opacity: .3; }
+.etape-ordre__poignee { width: 28px; height: 44px; flex: none; display: grid; place-items: center; color: var(--texte-doux); cursor: grab; touch-action: none; }
+.etape-ordre--juste { border-color: var(--sauge); background: #E3F2EE; }
+.etape-ordre--faux { border-color: #D9806B; background: #FBE9E4; }
+:root[data-theme='sombre'] .etape-ordre--juste { background: #1B3A36; }
+:root[data-theme='sombre'] .etape-ordre--faux { background: #3B2420; }
+.duel-joueur { display: flex; align-items: center; gap: 12px; padding: 10px; margin-top: 10px; }
+.duel-joueur__num { width: 40px; height: 40px; flex: none; border-radius: 50%; display: grid; place-items: center; background: var(--or); color: var(--bleu-nuit); font-family: var(--police-titre); font-weight: 700; }
+.duel-tour { min-height: 60vh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; text-align: center; }
+.duel-tour__avatar { width: 96px; height: 96px; border-radius: 50%; display: grid; place-items: center; background: var(--bleu-nuit); color: #fff; font-family: var(--police-titre); font-size: 2.6rem; font-weight: 700; }
+.duel-tour h2 { font-size: 1.6rem; }
+.duel-scores { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: 100%; }
+.duel-scores > div { padding: 12px; display: grid; gap: 4px; }
+.duel-scores b { font-family: var(--police-titre); font-size: 1.5rem; color: var(--titre); }
+.duel-scores--gagnant { border-color: var(--or); background: #FFF8E6; }
+:root[data-theme='sombre'] .duel-scores--gagnant { background: #2E2818; }
+.grille-badges { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.badge { padding: 12px 10px; display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; opacity: .75; }
+.badge--ok { opacity: 1; border-color: var(--or); }
+.badge__icone { width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; background: var(--surface-2); color: var(--texte-doux); }
+.badge--ok .badge__icone { background: var(--or); color: #fff; }
+.badge__nom { font-family: var(--police-titre); font-weight: 700; color: var(--titre); font-size: .9rem; }
+.badge__desc { font-size: .75rem; color: var(--texte-doux); line-height: 1.3; }
+.badge__etat { display: inline-flex; align-items: center; gap: 4px; font-size: .75rem; font-weight: 600; color: var(--sauge); }
+
+.ref-lien { display: grid; gap: 8px; }
+.ref-lien__tete { display: flex; align-items: center; gap: 12px; }
+.ref-lien .verset__texte { font-size: .98rem; }

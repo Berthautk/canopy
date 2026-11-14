@@ -14,8 +14,8 @@ Application chrétienne d'édification, d'évangélisation, de prière et de lec
 | 1 | Coquille PWA, design system, navigation 5 onglets, Accueil, À propos, Paramètres, photo de profil | Terminée |
 | 2 | Bible Louis Segond 1910 complète (voir `tools/bible/SOURCE.md`) | Terminée |
 | 3 | Lecteur audio, téléchargement hors ligne, mini-lecteur, écran verrouillé, partage (voir `GUIDE_AUDIO.md`) | Terminée |
-| 4 | Prière, journal, Grandir, Nouveau converti, Évangéliser, Dialogues (voir `GUIDE_CONTENU.md`) | Terminée, en attente de validation |
-| 5 | Jouer et apprendre (quiz) | À faire |
+| 4 | Prière, journal, Grandir, Nouveau converti, Évangéliser, Dialogues (voir `GUIDE_CONTENU.md`) | Terminée |
+| 5 | Jouer et apprendre : quiz, Complète le verset, Qui suis-je ?, Remets dans l'ordre, Duel, badges (voir `A_VERIFIER.md`) | Terminée, en attente de validation |
 | 6 | Sauvegarde, tests 360 px / réseau lent, déploiement Cloudflare Pages | À faire |
 
 ## Organisation du dépôt

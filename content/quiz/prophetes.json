@@ -1,0 +1,99 @@
+{
+ "id": "quiz-prophetes",
+ "theme": "Prophètes",
+ "icone": "parchemin",
+ "questions": [
+  {
+   "id": "prophetes-01",
+   "niveau": "facile",
+   "question": "Quel prophète fut englouti par un grand poisson ?",
+   "choix": [
+    "Jonas",
+    "Élie",
+    "Amos",
+    "Osée"
+   ],
+   "reponse": 0,
+   "explication": "L'Éternel fit venir un grand poisson pour engloutir Jonas ; il y resta trois jours et trois nuits.",
+   "reference": "Jon 2:1",
+   "verifie": false
+  },
+  {
+   "id": "prophetes-02",
+   "niveau": "facile",
+   "question": "Quel prophète monta au ciel dans un tourbillon ?",
+   "choix": [
+    "Élisée",
+    "Élie",
+    "Ésaïe",
+    "Ézéchiel"
+   ],
+   "reponse": 1,
+   "explication": "Un char de feu sépara Élie et Élisée, et Élie monta au ciel dans un tourbillon.",
+   "reference": "2 R 2:11",
+   "verifie": false
+  },
+  {
+   "id": "prophetes-03",
+   "niveau": "moyen",
+   "question": "Quel prophète a annoncé qu'une jeune fille enfanterait un fils appelé Emmanuel ?",
+   "choix": [
+    "Jérémie",
+    "Ésaïe",
+    "Michée",
+    "Daniel"
+   ],
+   "reponse": 1,
+   "explication": "Ésaïe annonce un fils dont le nom, Emmanuel, signifie « Dieu avec nous ».",
+   "reference": "És 7:14",
+   "verifie": false
+  },
+  {
+   "id": "prophetes-04",
+   "niveau": "moyen",
+   "question": "Quel prophète a annoncé que le chef d'Israël sortirait de Bethléhem ?",
+   "choix": [
+    "Michée",
+    "Joël",
+    "Amos",
+    "Malachie"
+   ],
+   "reponse": 0,
+   "explication": "Michée annonce que celui qui dominera sur Israël sortira de Bethléhem, petite ville de Juda.",
+   "reference": "Mi 5:1",
+   "verifie": false
+  },
+  {
+   "id": "prophetes-05",
+   "niveau": "moyen",
+   "question": "Sur quel mont Élie a-t-il affronté les prophètes de Baal ?",
+   "choix": [
+    "Le Sinaï",
+    "Le Carmel",
+    "Le mont Sion",
+    "L'Hermon"
+   ],
+   "reponse": 1,
+   "explication": "Élie fit rassembler tout Israël et les prophètes de Baal sur le mont Carmel.",
+   "reference": "1 R 18:19",
+   "verifie": false
+  },
+  {
+   "id": "prophetes-06",
+   "niveau": "expert",
+   "question": "Quel prophète a vu en vision une vallée remplie d'ossements ?",
+   "choix": [
+    "Ézéchiel",
+    "Daniel",
+    "Zacharie",
+    "Jérémie"
+   ],
+   "reponse": 0,
+   "explication": "La main de l'Éternel transporta Ézéchiel dans une vallée remplie d'ossements, auxquels Dieu rendit la vie.",
+   "reference": "Ez 37:1",
+   "verifie": false
+  }
+ ],
+ "auteur": "Équipe Yeshaya",
+ "date_ajout": "2026-11-14"
+}

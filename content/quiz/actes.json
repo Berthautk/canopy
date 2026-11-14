@@ -1,0 +1,114 @@
+{
+ "id": "quiz-actes",
+ "theme": "Actes des apôtres",
+ "icone": "feu",
+ "questions": [
+  {
+   "id": "actes-01",
+   "niveau": "facile",
+   "question": "Quel jour le Saint-Esprit est-il descendu sur les disciples réunis ?",
+   "choix": [
+    "Le jour de la Pâque",
+    "Le jour de la Pentecôte",
+    "Le jour du sabbat",
+    "Le jour de Noël"
+   ],
+   "reponse": 1,
+   "explication": "Le jour de la Pentecôte, les disciples étaient réunis quand le Saint-Esprit est descendu sur eux.",
+   "reference": "Ac 2:1-4",
+   "verifie": false
+  },
+  {
+   "id": "actes-02",
+   "niveau": "facile",
+   "question": "Près de quelle ville Saul a-t-il rencontré Jésus ressuscité ?",
+   "choix": [
+    "Jérusalem",
+    "Antioche",
+    "Damas",
+    "Rome"
+   ],
+   "reponse": 2,
+   "explication": "Saul approchait de Damas quand une lumière venue du ciel l'entoura et que Jésus lui parla.",
+   "reference": "Ac 9:3-5",
+   "verifie": false
+  },
+  {
+   "id": "actes-03",
+   "niveau": "moyen",
+   "question": "Qui fut lapidé en priant pour ceux qui le tuaient ?",
+   "choix": [
+    "Étienne",
+    "Jacques",
+    "Philippe",
+    "Barnabas"
+   ],
+   "reponse": 0,
+   "explication": "Étienne mourut lapidé en confiant son esprit au Seigneur Jésus et en priant pour ceux qui le tuaient, comme Jésus sur la croix.",
+   "reference": "Ac 7:59-60",
+   "verifie": false
+  },
+  {
+   "id": "actes-04",
+   "niveau": "moyen",
+   "question": "Combien de personnes furent ajoutées aux disciples le jour de la Pentecôte ?",
+   "choix": [
+    "Environ cent vingt",
+    "Environ cinq cents",
+    "Environ trois mille",
+    "Environ cinq mille"
+   ],
+   "reponse": 2,
+   "explication": "Ceux qui acceptèrent le message de Pierre furent baptisés : environ trois mille personnes ce jour-là.",
+   "reference": "Ac 2:41",
+   "verifie": false
+  },
+  {
+   "id": "actes-05",
+   "niveau": "moyen",
+   "question": "D'où venait le haut fonctionnaire que Philippe a baptisé sur la route de Gaza ?",
+   "choix": [
+    "D'Égypte",
+    "D'Éthiopie",
+    "De Syrie",
+    "De Grèce"
+   ],
+   "reponse": 1,
+   "explication": "Philippe rencontra un Éthiopien, ministre de la reine Candace, lui annonça Jésus et le baptisa.",
+   "reference": "Ac 8:27",
+   "verifie": false
+  },
+  {
+   "id": "actes-06",
+   "niveau": "expert",
+   "question": "Dans quelle ville les disciples furent-ils appelés chrétiens pour la première fois ?",
+   "choix": [
+    "Jérusalem",
+    "Antioche",
+    "Éphèse",
+    "Corinthe"
+   ],
+   "reponse": 1,
+   "explication": "C'est à Antioche que, pour la première fois, les disciples furent appelés chrétiens.",
+   "reference": "Ac 11:26",
+   "verifie": false
+  },
+  {
+   "id": "actes-07",
+   "niveau": "expert",
+   "question": "Comment s'appelait la marchande de pourpre dont le Seigneur ouvrit le cœur à Philippes ?",
+   "choix": [
+    "Lydie",
+    "Priscille",
+    "Dorcas",
+    "Marthe"
+   ],
+   "reponse": 0,
+   "explication": "À Philippes, Lydie, marchande de pourpre, écoutait Paul ; le Seigneur ouvrit son cœur et elle crut.",
+   "reference": "Ac 16:14",
+   "verifie": false
+  }
+ ],
+ "auteur": "Équipe Yeshaya",
+ "date_ajout": "2026-11-14"
+}

@@ -24,6 +24,13 @@ import { Grandir } from './ecrans/grandir/Grandir.jsx';
 import { NouveauConverti } from './ecrans/grandir/NouveauConverti.jsx';
 import { Evangeliser, Article } from './ecrans/evangeliser/Evangeliser.jsx';
 import { Dialogue } from './ecrans/evangeliser/Dialogue.jsx';
+import { Jouer, QuizDuJour, QuizThemes } from './ecrans/jeux/Jouer.jsx';
+import { CompleteVerset } from './ecrans/jeux/CompleteVerset.jsx';
+import { QuiSuisJe } from './ecrans/jeux/QuiSuisJe.jsx';
+import { Ordre } from './ecrans/jeux/Ordre.jsx';
+import { Duel } from './ecrans/jeux/Duel.jsx';
+import { Badges } from './ecrans/jeux/Badges.jsx';
+import { QUIZ } from './donnees/contenu.js';
 import { PRIERES, EVANGELISATION, DIALOGUES } from './donnees/contenu.js';
 import { lecteur } from './audio/lecteur.js';
 import { route, ONGLET_DE } from './outils/routeur.js';
@@ -35,14 +42,16 @@ import { PAR_CODE } from './bible/references.js';
 
 // Écrans des phases suivantes : affichés comme « Bientôt disponible » en attendant.
 const A_VENIR = {
-  jouer: ['Jouer et apprendre', '/assets/jeux/banniere-quiz-biblique.webp', 'Quiz du jour, « Complète le verset », « Qui suis-je ? », duel à deux et badges.'],
 };
 
 // Titre de la barre secondaire (avec bouton retour) selon l'écran.
 function titre([a, b, c]) {
   if (a === 'parametres') return "Paramètres de l'application";
   if (a === 'a-propos') return 'À propos de Yeshaya';
-  if (a === 'jouer') return 'Jouer et apprendre';
+  if (a === 'jouer') return {
+    'quiz-du-jour': 'Quiz du jour', themes: c ? (QUIZ.find((q) => q.id === 'quiz-' + c)?.theme ?? 'Quiz') : 'Quiz par thème', complete: 'Complète le verset',
+    'qui-suis-je': 'Qui suis-je ?', ordre: "Remets dans l'ordre", duel: 'Duel à deux', badges: 'Mes badges',
+  }[b] ?? 'Jouer et apprendre';
   if (a === 'telechargements') return 'Mes téléchargements';
   if (a === 'ecouter') return 'Écouter';
   if (a === 'priere' && b === 'journal') return 'Mon journal de prière';
@@ -65,6 +74,8 @@ function Ecran({ r }) {
   if (a === 'parametres') return <Parametres />;
   if (a === 'a-propos') return <APropos />;
   if (a === 'telechargements') return <Telechargements />;
+  if (a === 'jouer') return ({ 'quiz-du-jour': <QuizDuJour />, themes: <QuizThemes theme={c} niveau={d} />, complete: <CompleteVerset />,
+    'qui-suis-je': <QuiSuisJe />, ordre: <Ordre id={c} />, duel: <Duel />, badges: <Badges /> })[b] ?? <Jouer />;
   if (a === 'priere') return b === 'journal' ? <Journal nouveau={r.params.nouveau} /> : b === 'theme' ? <ThemePriere id={c} /> : <Priere />;
   if (a === 'grandir') return b === 'nouveau-converti' ? <NouveauConverti jour={c} /> : <Grandir />;
   if (a === 'evangeliser') return b === 'article' ? <Article id={c} /> : b === 'dialogue' ? <Dialogue id={c} /> : <Evangeliser />;

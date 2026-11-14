@@ -1,0 +1,114 @@
+{
+ "id": "quiz-vie-de-jesus",
+ "theme": "Vie de Jésus",
+ "icone": "couronne",
+ "questions": [
+  {
+   "id": "vie-de-jesus-01",
+   "niveau": "facile",
+   "question": "Dans quelle ville Jésus est-il né ?",
+   "choix": [
+    "Nazareth",
+    "Bethléhem",
+    "Jérusalem",
+    "Capernaüm"
+   ],
+   "reponse": 1,
+   "explication": "Jésus est né à Bethléhem, en Judée, au temps du roi Hérode.",
+   "reference": "Mt 2:1",
+   "verifie": false
+  },
+  {
+   "id": "vie-de-jesus-02",
+   "niveau": "facile",
+   "question": "Qui a baptisé Jésus dans le Jourdain ?",
+   "choix": [
+    "Pierre",
+    "Jean-Baptiste",
+    "Jacques",
+    "André"
+   ],
+   "reponse": 1,
+   "explication": "Jésus est venu de Galilée jusqu'au Jourdain pour être baptisé par Jean-Baptiste.",
+   "reference": "Mt 3:13",
+   "verifie": false
+  },
+  {
+   "id": "vie-de-jesus-03",
+   "niveau": "facile",
+   "question": "Combien d'apôtres Jésus a-t-il établis ?",
+   "choix": [
+    "Sept",
+    "Dix",
+    "Douze",
+    "Soixante-dix"
+   ],
+   "reponse": 2,
+   "explication": "Jésus a établi douze apôtres pour qu'ils soient avec lui et pour les envoyer prêcher.",
+   "reference": "Mc 3:14",
+   "verifie": false
+  },
+  {
+   "id": "vie-de-jesus-04",
+   "niveau": "moyen",
+   "question": "Combien de jours Jésus a-t-il jeûné dans le désert ?",
+   "choix": [
+    "Sept",
+    "Douze",
+    "Trente",
+    "Quarante"
+   ],
+   "reponse": 3,
+   "explication": "Jésus a jeûné quarante jours et quarante nuits dans le désert, avant d'être tenté.",
+   "reference": "Mt 4:2",
+   "verifie": false
+  },
+  {
+   "id": "vie-de-jesus-05",
+   "niveau": "moyen",
+   "question": "Dans quelle ville Jésus a-t-il grandi ?",
+   "choix": [
+    "Bethléhem",
+    "Nazareth",
+    "Jéricho",
+    "Béthanie"
+   ],
+   "reponse": 1,
+   "explication": "Joseph s'est établi à Nazareth avec Marie et l'enfant : c'est pourquoi Jésus fut appelé Nazaréen.",
+   "reference": "Mt 2:23",
+   "verifie": false
+  },
+  {
+   "id": "vie-de-jesus-06",
+   "niveau": "moyen",
+   "question": "Quel disciple a renié Jésus trois fois ?",
+   "choix": [
+    "Jean",
+    "Judas",
+    "Pierre",
+    "Thomas"
+   ],
+   "reponse": 2,
+   "explication": "Jésus avait annoncé que Pierre le renierait trois fois avant que le coq chante, et c'est ce qui arriva.",
+   "reference": "Lc 22:60-61",
+   "verifie": false
+  },
+  {
+   "id": "vie-de-jesus-07",
+   "niveau": "expert",
+   "question": "Chez quel souverain sacrificateur Jésus fut-il conduit après son arrestation, selon Matthieu ?",
+   "choix": [
+    "Caïphe",
+    "Gamaliel",
+    "Nicodème",
+    "Zacharie"
+   ],
+   "reponse": 0,
+   "explication": "Après son arrestation, Jésus fut emmené chez Caïphe, où étaient réunis les scribes et les anciens.",
+   "reference": "Mt 26:57",
+   "verifie": false
+  }
+ ],
+ "auteur": "Équipe Yeshaya",
+ "date_ajout": "2026-11-14"
+}

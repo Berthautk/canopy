@@ -1,0 +1,114 @@
+{
+ "id": "quiz-personnages",
+ "theme": "Personnages bibliques",
+ "icone": "personne",
+ "questions": [
+  {
+   "id": "personnages-01",
+   "niveau": "facile",
+   "question": "Qui a construit l'arche sur l'ordre de Dieu ?",
+   "choix": [
+    "Moïse",
+    "Noé",
+    "Abraham",
+    "David"
+   ],
+   "reponse": 1,
+   "explication": "Dieu demanda à Noé de construire une arche pour sauver sa famille et les animaux du déluge.",
+   "reference": "Gn 6:14",
+   "verifie": false
+  },
+  {
+   "id": "personnages-02",
+   "niveau": "facile",
+   "question": "Quel jeune berger a vaincu le géant Goliath ?",
+   "choix": [
+    "Saül",
+    "Samuel",
+    "David",
+    "Jonathan"
+   ],
+   "reponse": 2,
+   "explication": "David vainquit le Philistin avec une fronde et une pierre.",
+   "reference": "1 S 17:50",
+   "verifie": false
+  },
+  {
+   "id": "personnages-03",
+   "niveau": "facile",
+   "question": "Qui fut jeté dans la fosse aux lions ?",
+   "choix": [
+    "Daniel",
+    "Joseph",
+    "Jérémie",
+    "Élie"
+   ],
+   "reponse": 0,
+   "explication": "Daniel continuait de prier son Dieu ; le roi le fit jeter dans la fosse aux lions, mais Dieu le garda.",
+   "reference": "Dn 6:16",
+   "verifie": false
+  },
+  {
+   "id": "personnages-04",
+   "niveau": "moyen",
+   "question": "Quelle Moabite a promis à sa belle-mère de faire de son peuple son peuple et de son Dieu son Dieu ?",
+   "choix": [
+    "Ruth",
+    "Orpa",
+    "Esther",
+    "Rahab"
+   ],
+   "reponse": 0,
+   "explication": "Ruth refusa de quitter Naomi et choisit de suivre le Dieu d'Israël.",
+   "reference": "Rt 1:16",
+   "verifie": false
+  },
+  {
+   "id": "personnages-05",
+   "niveau": "moyen",
+   "question": "Qui fut vendu par ses frères puis établi sur tout le pays d'Égypte ?",
+   "choix": [
+    "Joseph",
+    "Benjamin",
+    "Moïse",
+    "Jacob"
+   ],
+   "reponse": 0,
+   "explication": "Après avoir expliqué les songes de Pharaon, Joseph fut établi sur tout le pays d'Égypte.",
+   "reference": "Gn 41:41",
+   "verifie": false
+  },
+  {
+   "id": "personnages-06",
+   "niveau": "moyen",
+   "question": "Quelle reine a accepté de risquer sa vie en allant vers le roi pour sauver son peuple ?",
+   "choix": [
+    "Esther",
+    "Jézabel",
+    "La reine de Séba",
+    "Vasthi"
+   ],
+   "reponse": 0,
+   "explication": "Esther demanda à son peuple de jeûner pour elle, puis alla vers le roi, prête à mourir s'il le fallait.",
+   "reference": "Est 4:16",
+   "verifie": false
+  },
+  {
+   "id": "personnages-07",
+   "niveau": "expert",
+   "question": "Quel âge avait Abraham à la naissance d'Isaac ?",
+   "choix": [
+    "75 ans",
+    "90 ans",
+    "100 ans",
+    "120 ans"
+   ],
+   "reponse": 2,
+   "explication": "Abraham était âgé de cent ans à la naissance d'Isaac, son fils.",
+   "reference": "Gn 21:5",
+   "verifie": false
+  }
+ ],
+ "auteur": "Équipe Yeshaya",
+ "date_ajout": "2026-11-14"
+}

@@ -1,0 +1,114 @@
+{
+ "id": "quiz-paraboles",
+ "theme": "Paraboles",
+ "icone": "graine",
+ "questions": [
+  {
+   "id": "paraboles-01",
+   "niveau": "facile",
+   "question": "Dans la parabole du semeur, que représente la semence ?",
+   "choix": [
+    "L'argent",
+    "La parole de Dieu",
+    "Les anges",
+    "Le pain"
+   ],
+   "reponse": 1,
+   "explication": "Jésus explique lui-même la parabole : la semence représente la parole de Dieu.",
+   "reference": "Lc 8:11",
+   "verifie": false
+  },
+  {
+   "id": "paraboles-02",
+   "niveau": "facile",
+   "question": "Combien de brebis le berger laisse-t-il pour aller chercher celle qui est perdue ?",
+   "choix": [
+    "Neuf",
+    "Douze",
+    "Cinquante",
+    "Quatre-vingt-dix-neuf"
+   ],
+   "reponse": 3,
+   "explication": "Le berger laisse les quatre-vingt-dix-neuf autres brebis pour chercher celle qui est perdue, jusqu'à ce qu'il la retrouve.",
+   "reference": "Lc 15:4",
+   "verifie": false
+  },
+  {
+   "id": "paraboles-03",
+   "niveau": "moyen",
+   "question": "Qui s'est arrêté pour secourir l'homme blessé sur la route de Jéricho ?",
+   "choix": [
+    "Un sacrificateur",
+    "Un Lévite",
+    "Un Samaritain",
+    "Un soldat"
+   ],
+   "reponse": 2,
+   "explication": "Un Samaritain, en voyage, fut ému de compassion et prit soin de lui.",
+   "reference": "Lc 10:33",
+   "verifie": false
+  },
+  {
+   "id": "paraboles-04",
+   "niveau": "moyen",
+   "question": "Que fait le père quand il voit de loin son fils prodigue revenir ?",
+   "choix": [
+    "Il le renvoie",
+    "Il court se jeter à son cou",
+    "Il le punit",
+    "Il fait semblant de ne pas le voir"
+   ],
+   "reponse": 1,
+   "explication": "Ému de compassion, le père court se jeter au cou de son fils et l'embrasse : une image de l'accueil de Dieu.",
+   "reference": "Lc 15:20",
+   "verifie": false
+  },
+  {
+   "id": "paraboles-05",
+   "niveau": "moyen",
+   "question": "Sur quoi l'homme prudent a-t-il bâti sa maison ?",
+   "choix": [
+    "Sur le sable",
+    "Sur le roc",
+    "Sur la boue",
+    "Sur le bois"
+   ],
+   "reponse": 1,
+   "explication": "Celui qui écoute les paroles de Jésus et les met en pratique ressemble à l'homme prudent qui a bâti sur le roc.",
+   "reference": "Mt 7:24",
+   "verifie": false
+  },
+  {
+   "id": "paraboles-06",
+   "niveau": "expert",
+   "question": "Dans la parabole des dix vierges, combien étaient sages ?",
+   "choix": [
+    "Deux",
+    "Trois",
+    "Cinq",
+    "Sept"
+   ],
+   "reponse": 2,
+   "explication": "Cinq vierges étaient sages et cinq folles : les sages avaient pris de l'huile pour leurs lampes.",
+   "reference": "Mt 25:2",
+   "verifie": false
+  },
+  {
+   "id": "paraboles-07",
+   "niveau": "expert",
+   "question": "À quelle petite semence Jésus compare-t-il le royaume des cieux ?",
+   "choix": [
+    "Un grain de sénevé",
+    "Un grain de blé",
+    "Une graine de figuier",
+    "Un noyau d'olive"
+   ],
+   "reponse": 0,
+   "explication": "Le royaume des cieux est comme un grain de sénevé : la plus petite des semences devient un grand arbre.",
+   "reference": "Mt 13:31",
+   "verifie": false
+  }
+ ],
+ "auteur": "Équipe Yeshaya",
+ "date_ajout": "2026-11-14"
+}

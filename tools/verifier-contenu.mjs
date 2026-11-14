@@ -14,7 +14,7 @@ let erreurs = 0, total = 0;
 const texte = (r) => { const l = JSON.parse(fs.readFileSync(path.join(RACINE, 'public/bible', PAR_CODE[r.code].fichier))); const ch = l.chapitres[r.c - 1]; return ch.slice((r.v || 1) - 1, r.fin || r.v || ch.length).join(' ').replace(/\n/g, ' '); };
 for (const f of fichiers) {
   let j; try { j = JSON.parse(fs.readFileSync(f, 'utf8')); } catch (e) { console.log(`\n✗ ${path.relative(RACINE, f)} : JSON invalide (${e.message})`); erreurs++; continue; }
-  const refs = [...(j.versets || []), ...(j.etapes || []).map((e) => e.reference), j.reference, j.verset_a_partager, ...(j.questions || []).map((q) => q.reference)].filter(Boolean);
+  const refs = [...(j.versets || []), ...(j.etapes || []).map((e) => e.reference), j.reference, j.verset_a_partager, ...(j.questions || []).map((q) => q.reference), ...(j.personnages || []).flatMap((x) => x.indices.map((i) => i.reference)), ...(j.histoires || []).flatMap((h) => h.etapes.map((e) => e.reference))].filter(Boolean);
   if (!refs.length) continue;
   console.log(`\n## ${path.relative(RACINE, f)}`);
   for (const s of refs) {

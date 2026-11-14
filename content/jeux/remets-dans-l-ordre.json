@@ -1,0 +1,141 @@
+{
+ "id": "remets-dans-l-ordre",
+ "titre": "Remets dans l'ordre",
+ "histoires": [
+  {
+   "id": "jonas",
+   "titre": "L'histoire de Jonas",
+   "etapes": [
+    {
+     "texte": "Dieu envoie Jonas à Ninive.",
+     "reference": "Jon 1:2"
+    },
+    {
+     "texte": "Jonas s'enfuit vers Tarsis.",
+     "reference": "Jon 1:3"
+    },
+    {
+     "texte": "Jonas est jeté à la mer.",
+     "reference": "Jon 1:15"
+    },
+    {
+     "texte": "Un grand poisson l'engloutit.",
+     "reference": "Jon 2:1"
+    },
+    {
+     "texte": "Jonas prêche à Ninive.",
+     "reference": "Jon 3:4"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "joseph",
+   "titre": "L'histoire de Joseph",
+   "etapes": [
+    {
+     "texte": "Jacob donne à Joseph une tunique de plusieurs couleurs.",
+     "reference": "Gn 37:3"
+    },
+    {
+     "texte": "Ses frères le vendent à des marchands.",
+     "reference": "Gn 37:28"
+    },
+    {
+     "texte": "Joseph est mis en prison.",
+     "reference": "Gn 39:20"
+    },
+    {
+     "texte": "Il explique les songes de Pharaon.",
+     "reference": "Gn 41:25"
+    },
+    {
+     "texte": "Il se fait reconnaître de ses frères.",
+     "reference": "Gn 45:4"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "jesus",
+   "titre": "La vie de Jésus",
+   "etapes": [
+    {
+     "texte": "Jésus naît à Bethléhem.",
+     "reference": "Lc 2:7"
+    },
+    {
+     "texte": "Jésus est baptisé dans le Jourdain.",
+     "reference": "Mt 3:16"
+    },
+    {
+     "texte": "Jésus appelle ses premiers disciples.",
+     "reference": "Mc 1:17"
+    },
+    {
+     "texte": "Jésus est crucifié.",
+     "reference": "Lc 23:33"
+    },
+    {
+     "texte": "Jésus ressuscite.",
+     "reference": "Lc 24:6"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "creation",
+   "titre": "La création",
+   "etapes": [
+    {
+     "texte": "Dieu crée la lumière.",
+     "reference": "Gn 1:3"
+    },
+    {
+     "texte": "Dieu fait l'étendue, qu'il appelle ciel.",
+     "reference": "Gn 1:8"
+    },
+    {
+     "texte": "La terre sèche paraît et produit la verdure.",
+     "reference": "Gn 1:12"
+    },
+    {
+     "texte": "Dieu fait le soleil, la lune et les étoiles.",
+     "reference": "Gn 1:16"
+    },
+    {
+     "texte": "Dieu crée l'homme à son image.",
+     "reference": "Gn 1:27"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "exode",
+   "titre": "La sortie d'Égypte",
+   "etapes": [
+    {
+     "texte": "Dieu parle à Moïse dans le buisson ardent.",
+     "reference": "Ex 3:4"
+    },
+    {
+     "texte": "Les eaux du fleuve sont changées en sang.",
+     "reference": "Ex 7:20"
+    },
+    {
+     "texte": "Le sang de l'agneau protège les maisons d'Israël.",
+     "reference": "Ex 12:13"
+    },
+    {
+     "texte": "Israël traverse la mer à pied sec.",
+     "reference": "Ex 14:22"
+    },
+    {
+     "texte": "Dieu donne les dix commandements.",
+     "reference": "Ex 20:3"
+    }
+   ],
+   "verifie": false
+  }
+ ]
+}

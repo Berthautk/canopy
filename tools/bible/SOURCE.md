@@ -19,12 +19,13 @@
 
 | Endroit | Problème dans la source | Correction |
 |---|---|---|
+| Genèse 12:1 | « Vat’en de ton pays » : trait d'union manquant (coquille isolée ; « Va-t’en » partout ailleurs). | « Va-t’en de ton pays ». |
 | Psaume 119:115 | Saisi « \\v 11 5Éloignez » : le numéro était coupé, et ce verset écrasait le Psaume 119:11. | Remis en 119:115. |
 | Marc 9:50 | Verset coupé en deux (9:50 et 9:51). | Réuni en 9:50, comme dans la LSG imprimée. |
 | Marc 10:52 | Verset coupé en deux (10:52 et 10:53). | Réuni en 10:52. |
 | Ecclésiaste 11:9-10 | Placés à tort en 12:1-2, ce qui décalait tout le chapitre 12. | Remis en 11:9-10 ; « Souviens-toi de ton créateur » redevient 12:1. |
 
-Aucun mot du texte n'est changé : seuls les numéros de versets ont été remis en place.
+À part ce trait d'union, aucun mot du texte n'est changé : les autres corrections ne touchent que les numéros de versets.
 
 ## Contre-vérification
 
