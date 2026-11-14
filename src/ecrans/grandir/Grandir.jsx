@@ -42,6 +42,14 @@ export function Grandir() {
         </span>
         <Icone nom="chevron" taille={20} />
       </a>
+      <a class="carte parcours-carte" href="#/disciple" style="margin-bottom:10px">
+        <img src="/assets/nouveau-converti/liste-de-progres.webp" alt="" />
+        <span class="ligne__corps">
+          <span class="ligne__titre" style="display:block">Mes outils de disciple</span>
+          <span class="ligne__desc" style="display:block">Défis de 21 jours, verset de la semaine, témoignages, ma liste des 5.</span>
+        </span>
+        <Icone nom="chevron" taille={20} />
+      </a>
       <a class="carte parcours-carte" href="#/orizon" style="margin-bottom:10px">
         <img src="/assets/temoignage/chaines-brisees.webp" alt="" />
         <span class="ligne__corps">

@@ -1,0 +1,157 @@
+{
+ "id": "defi-pardon",
+ "ordre": 3,
+ "titre": "21 jours de pardon et de réconciliation",
+ "resume": "Un parcours pour recevoir le pardon de Dieu, pardonner à ceux qui nous ont blessés et réparer nos relations.",
+ "image": "/assets/evangelisation/etreinte.webp",
+ "jours": [
+  {
+   "jour": 1,
+   "titre": "Le pardon reçu",
+   "lecture": "Col 1:13-14",
+   "action": "Remercie Dieu pour chaque péché qu'il t'a pardonné.",
+   "priere": "Remercions Dieu pour le pardon reçu en Jésus. (Colossiens 1:14)"
+  },
+  {
+   "jour": 2,
+   "titre": "Le serviteur impitoyable",
+   "lecture": "Mt 18:23-35",
+   "action": "Lis la parabole et écris ce qu'elle t'apprend.",
+   "priere": "Demandons à Dieu un cœur qui pardonne comme il a pardonné. (Matthieu 18:33)"
+  },
+  {
+   "jour": 3,
+   "titre": "Nommer les blessures",
+   "lecture": "Ps 147:3",
+   "action": "Écris en privé les noms des personnes qui t'ont blessé.",
+   "priere": "Implorons Dieu de guérir nos cœurs brisés. (Psaume 147:3)"
+  },
+  {
+   "jour": 4,
+   "titre": "Pardonner n'est pas oublier",
+   "lecture": "Ép 4:31-32",
+   "action": "Choisis de pardonner à une première personne de ta liste.",
+   "priere": "Prions afin de pardonner comme Dieu nous a pardonné en Christ. (Éphésiens 4:32)"
+  },
+  {
+   "jour": 5,
+   "titre": "Bénir au lieu de maudire",
+   "lecture": "Lc 6:28",
+   "action": "Prie pour la bénédiction de cette personne.",
+   "priere": "Bénissons ceux qui nous maudissent. (Luc 6:28)"
+  },
+  {
+   "jour": 6,
+   "titre": "La racine d'amertume",
+   "lecture": "Hé 12:15",
+   "action": "Demande à Dieu s'il reste de l'amertume en toi.",
+   "priere": "Demandons que nulle racine d'amertume ne pousse en nous. (Hébreux 12:15)"
+  },
+  {
+   "jour": 7,
+   "titre": "Sabbat",
+   "lecture": "Ps 103:12",
+   "action": "Médite le Psaume 103 et repose-toi dans l'amour de Dieu.",
+   "priere": "Louons Dieu qui éloigne de nous nos transgressions. (Psaume 103:12)"
+  },
+  {
+   "jour": 8,
+   "titre": "Joseph pardonne",
+   "lecture": "Gn 50:19-21",
+   "action": "Lis l'histoire et vois comment Dieu change le mal en bien.",
+   "priere": "Prions afin que Dieu tourne en bien ce que nous avons subi. (Genèse 50:20)"
+  },
+  {
+   "jour": 9,
+   "titre": "Pardonner à ses parents",
+   "lecture": "Ép 6:2",
+   "action": "Pardonne à tes parents ce qui t'a blessé, et honore-les.",
+   "priere": "Demandons la grâce d'honorer nos parents. (Éphésiens 6:2)"
+  },
+  {
+   "jour": 10,
+   "titre": "Pardonner dans le couple ou la famille",
+   "lecture": "Col 3:13",
+   "action": "Pardonne une offense récente dans ta maison.",
+   "priere": "Prions afin de nous supporter et de nous pardonner. (Colossiens 3:13)"
+  },
+  {
+   "jour": 11,
+   "titre": "Se pardonner à soi-même",
+   "lecture": "Rm 8:1",
+   "action": "Refuse la condamnation que Dieu a ôtée.",
+   "priere": "Recevons la vérité : plus de condamnation en Christ. (Romains 8:1)"
+  },
+  {
+   "jour": 12,
+   "titre": "Demander pardon",
+   "lecture": "Mt 5:23-24",
+   "action": "Identifie une personne à qui tu dois demander pardon.",
+   "priere": "Demandons l'humilité d'aller nous réconcilier. (Matthieu 5:24)"
+  },
+  {
+   "jour": 13,
+   "titre": "Aller demander pardon",
+   "lecture": "Pr 28:13",
+   "action": "Va demander pardon, ou écris-lui un message.",
+   "priere": "Prions pour que cette démarche porte du fruit. (Proverbes 28:13)"
+  },
+  {
+   "jour": 14,
+   "titre": "Sabbat",
+   "lecture": "Ps 32:1",
+   "action": "Remercie Dieu pour la paix retrouvée.",
+   "priere": "Rendons grâces : heureux celui dont la transgression est remise. (Psaume 32:1)"
+  },
+  {
+   "jour": 15,
+   "titre": "Réparer",
+   "lecture": "Lc 19:8",
+   "action": "Comme Zachée, répare un tort concret.",
+   "priere": "Demandons à Dieu le courage de réparer. (Luc 19:8)"
+  },
+  {
+   "jour": 16,
+   "titre": "Aimer ses ennemis",
+   "lecture": "Mt 5:44",
+   "action": "Fais un geste de bonté envers quelqu'un qui t'a fait du mal.",
+   "priere": "Prions pour ceux qui nous maltraitent. (Matthieu 5:44)"
+  },
+  {
+   "jour": 17,
+   "titre": "Ne pas rendre le mal",
+   "lecture": "Rm 12:17-21",
+   "action": "Renonce à toute vengeance, même en parole.",
+   "priere": "Demandons de surmonter le mal par le bien. (Romains 12:21)"
+  },
+  {
+   "jour": 18,
+   "titre": "Garder la paix",
+   "lecture": "Rm 12:18",
+   "action": "Fais un pas de paix dans une relation difficile.",
+   "priere": "Prions pour être en paix avec tous, autant que cela dépend de nous. (Romains 12:18)"
+  },
+  {
+   "jour": 19,
+   "titre": "Pardonner encore",
+   "lecture": "Mt 18:21-22",
+   "action": "Si la blessure revient, pardonne de nouveau.",
+   "priere": "Demandons un cœur qui pardonne sans compter. (Matthieu 18:22)"
+  },
+  {
+   "jour": 20,
+   "titre": "Témoigner",
+   "lecture": "Ps 66:16",
+   "action": "Raconte à quelqu'un ce que Dieu a fait pendant ce parcours.",
+   "priere": "Remercions Dieu pour ce qu'il a fait en nous. (Psaume 66:16)"
+  },
+  {
+   "jour": 21,
+   "titre": "Une vie de pardon",
+   "lecture": "1 Pi 4:8",
+   "action": "Écris ta décision de vivre dans le pardon.",
+   "priere": "Prions afin que l'amour couvre une multitude de péchés. (1 Pierre 4:8)"
+  }
+ ],
+ "relu": false
+}

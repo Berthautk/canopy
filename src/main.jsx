@@ -15,6 +15,7 @@ import { chargerPriere } from './donnees/priere.js';
 import { demarrerMesure } from './donnees/mesure.js';
 import { chargerRythme } from './donnees/rythme.js';
 import { chargerProgressionOrizon } from './donnees/orizon.js';
+import { chargerDisciple } from './donnees/disciple.js';
 import { chargerStats } from './jeux/stats.js';
 import { chargerChemin } from './jeux/chemin.js';
 
@@ -30,6 +31,7 @@ chargerPriere();
 demarrerMesure();
 chargerRythme();
 chargerProgressionOrizon();
+chargerDisciple();
 chargerStats();
 chargerChemin();
 render(<App />, document.getElementById('app'));

@@ -167,6 +167,8 @@ function Tableau({ r }) {
       <button class="bouton bouton--plein" style="width:100%;margin-top:12px" onClick={telecharger}><Icone nom="calendrier" taille={20} /> Ajouter les rappels à mon agenda</button>
       <p class="ligne__desc" style="margin:6px 4px">Un fichier d'agenda est créé : ouvre-le avec l'application Agenda ou Calendrier de ton téléphone pour recevoir une notification à chaque moment prévu.</p>
       <a class="bouton bouton--contour" href="#/equilibre/modifier" style="width:100%;margin-top:8px">Modifier mon rythme</a>
+      <a class="carte ligne" href="#/disciple" style="margin-top:12px"><span class="ligne__icone"><Icone nom="grandir" /></span>
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Mes outils de disciple</span><span class="ligne__desc">Défis de 21 jours, verset de la semaine, ma liste des 5</span></span><Icone nom="chevron" taille={20} /></a>
     </div>
   );
 }

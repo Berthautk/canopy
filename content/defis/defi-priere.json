@@ -1,0 +1,157 @@
+{
+ "id": "defi-priere",
+ "ordre": 1,
+ "titre": "21 jours pour apprendre à prier",
+ "resume": "Chaque jour, un passage sur la prière, une action simple et un sujet à prier.",
+ "image": "/assets/priere/priere-et-bible.webp",
+ "jours": [
+  {
+   "jour": 1,
+   "titre": "Commencer petit",
+   "lecture": "Mt 6:6",
+   "action": "Choisis un lieu et une heure fixes ; prie 10 minutes.",
+   "priere": "Demandons à Dieu de nous attirer chaque jour dans le lieu secret. (Matthieu 6:6)"
+  },
+  {
+   "jour": 2,
+   "titre": "Dieu est notre Père",
+   "lecture": "Mt 6:9",
+   "action": "Commence ta prière en disant simplement « Père » et prends le temps de le remercier.",
+   "priere": "Remercions Dieu parce qu'il est notre Père. (Romains 8:15)"
+  },
+  {
+   "jour": 3,
+   "titre": "Adorer",
+   "lecture": "Ps 100:4",
+   "action": "Passe 5 minutes uniquement à louer Dieu pour qui il est.",
+   "priere": "Louons Dieu pour sa bonté et sa fidélité. (Psaume 100:4-5)"
+  },
+  {
+   "jour": 4,
+   "titre": "Confesser",
+   "lecture": "1 Jn 1:9",
+   "action": "Demande au Saint-Esprit de te montrer un péché à confesser, et confesse-le.",
+   "priere": "Implorons le pardon de Dieu et recevons-le par la foi. (1 Jean 1:9)"
+  },
+  {
+   "jour": 5,
+   "titre": "Remercier",
+   "lecture": "1 Th 5:18",
+   "action": "Écris dix sujets de reconnaissance.",
+   "priere": "Rendons grâces en toutes choses. (1 Thessaloniciens 5:18)"
+  },
+  {
+   "jour": 6,
+   "titre": "Demander",
+   "lecture": "Mt 7:7",
+   "action": "Présente à Dieu trois besoins précis et note-les dans ton journal.",
+   "priere": "Demandons avec foi, cherchons et frappons. (Matthieu 7:7)"
+  },
+  {
+   "jour": 7,
+   "titre": "Sabbat de prière",
+   "lecture": "Ps 46:11",
+   "action": "Prends 20 minutes de silence devant Dieu, sans rien demander.",
+   "priere": "Arrêtons-nous et reconnaissons qu'il est Dieu. (Psaume 46:11)"
+  },
+  {
+   "jour": 8,
+   "titre": "Prier la Parole",
+   "lecture": "Ps 119:18",
+   "action": "Lis un psaume et transforme chaque verset en prière.",
+   "priere": "Demandons à Dieu d'ouvrir nos yeux sur les merveilles de sa loi. (Psaume 119:18)"
+  },
+  {
+   "jour": 9,
+   "titre": "Prier pour sa famille",
+   "lecture": "Jos 24:15",
+   "action": "Prie pour chaque membre de ta famille, par son nom.",
+   "priere": "Prions afin que toute notre maison serve l'Éternel. (Josué 24:15)"
+  },
+  {
+   "jour": 10,
+   "titre": "Prier pour l'Église",
+   "lecture": "Ép 6:18",
+   "action": "Prie pour ton pasteur et pour trois frères ou sœurs.",
+   "priere": "Prions pour tous les saints, avec persévérance. (Éphésiens 6:18)"
+  },
+  {
+   "jour": 11,
+   "titre": "Prier pour les perdus",
+   "lecture": "1 Ti 2:4",
+   "action": "Prie pour trois personnes qui ne connaissent pas Jésus.",
+   "priere": "Prions afin que tous les hommes soient sauvés. (1 Timothée 2:3-4)"
+  },
+  {
+   "jour": 12,
+   "titre": "Prier pour les autorités",
+   "lecture": "1 Ti 2:1-2",
+   "action": "Prie pour les dirigeants de ton pays.",
+   "priere": "Intercédons pour les rois et ceux qui sont élevés en dignité. (1 Timothée 2:1-2)"
+  },
+  {
+   "jour": 13,
+   "titre": "Prier avec persévérance",
+   "lecture": "Lc 18:1",
+   "action": "Reprends un sujet que tu as abandonné et prie-le de nouveau.",
+   "priere": "Demandons à Dieu de ne pas nous relâcher dans la prière. (Luc 18:1)"
+  },
+  {
+   "jour": 14,
+   "titre": "Sabbat de prière",
+   "lecture": "Ps 62:2",
+   "action": "Relis tes notes de la semaine et remercie Dieu pour ce qu'il a fait.",
+   "priere": "Reposons-nous en Dieu seul. (Psaume 62:2)"
+  },
+  {
+   "jour": 15,
+   "titre": "Prier selon sa volonté",
+   "lecture": "1 Jn 5:14",
+   "action": "Demande-toi pour chaque sujet : est-ce selon la volonté de Dieu ?",
+   "priere": "Prions avec assurance selon sa volonté. (1 Jean 5:14-15)"
+  },
+  {
+   "jour": 16,
+   "titre": "Prier dans l'Esprit",
+   "lecture": "Rm 8:26",
+   "action": "Demande au Saint-Esprit de te conduire dans ta prière.",
+   "priere": "Demandons à l'Esprit de nous aider dans notre faiblesse. (Romains 8:26)"
+  },
+  {
+   "jour": 17,
+   "titre": "Prier avec un autre",
+   "lecture": "Mt 18:19",
+   "action": "Prie avec une autre personne, même au téléphone.",
+   "priere": "Prions d'un commun accord. (Matthieu 18:19-20)"
+  },
+  {
+   "jour": 18,
+   "titre": "Le jeûne",
+   "lecture": "Mt 6:17-18",
+   "action": "Jeûne un repas et consacre ce temps à la prière.",
+   "priere": "Demandons à Dieu de bénir notre jeûne. (Matthieu 6:17-18)"
+  },
+  {
+   "jour": 19,
+   "titre": "Prier sans cesse",
+   "lecture": "1 Th 5:17",
+   "action": "Fais trois courtes prières à des moments différents de la journée.",
+   "priere": "Prions sans cesse. (1 Thessaloniciens 5:17)"
+  },
+  {
+   "jour": 20,
+   "titre": "Écouter Dieu",
+   "lecture": "1 S 3:10",
+   "action": "Termine ta prière par 5 minutes d'écoute : « Parle, ton serviteur écoute ».",
+   "priere": "Demandons à Dieu de nous apprendre à écouter sa voix. (1 Samuel 3:10)"
+  },
+  {
+   "jour": 21,
+   "titre": "Une habitude pour la vie",
+   "lecture": "Dn 6:10",
+   "action": "Écris ton rythme de prière pour la suite et ajoute-le à ton agenda.",
+   "priere": "Demandons la fidélité de Daniel dans la prière. (Daniel 6:10)"
+  }
+ ],
+ "relu": false
+}

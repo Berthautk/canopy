@@ -35,6 +35,7 @@ export function veilleDuMoment(d = new Date()) {
 }
 export const QUIZ = dossier('quiz').sort((a, b) => a.theme.localeCompare(b.theme, 'fr'));
 export const QUI_SUIS_JE = fichiers['/content/jeux/qui-suis-je.json']?.personnages ?? [];
+export const DEFIS = dossier('defis').sort(parOrdre);
 export const FORMATION = fichiers['/content/series/former-le-disciple.json'];
 export const ORIZON = fichiers['/content/orizon-index.json'];
 const corpsOrizon = import.meta.glob('/content/orizon/*.json', { import: 'default' });   // texte du parcours, chargé à l'ouverture

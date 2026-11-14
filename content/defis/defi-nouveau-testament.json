@@ -1,0 +1,157 @@
+{
+ "id": "defi-nouveau-testament",
+ "ordre": 2,
+ "titre": "21 jours dans l'Évangile de Jean",
+ "resume": "Lire l'Évangile de Jean en 21 jours : un chapitre par jour, une question, une prière.",
+ "image": "/assets/vie-chretienne/homme-etudie-la-bible.webp",
+ "jours": [
+  {
+   "jour": 1,
+   "titre": "Jean 1",
+   "lecture": "Jn 1:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 2,
+   "titre": "Jean 2",
+   "lecture": "Jn 2:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 3,
+   "titre": "Jean 3",
+   "lecture": "Jn 3:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 4,
+   "titre": "Jean 4",
+   "lecture": "Jn 4:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 5,
+   "titre": "Jean 5",
+   "lecture": "Jn 5:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 6,
+   "titre": "Jean 6",
+   "lecture": "Jn 6:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 7,
+   "titre": "Jean 7",
+   "lecture": "Jn 7:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 8,
+   "titre": "Jean 8",
+   "lecture": "Jn 8:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 9,
+   "titre": "Jean 9",
+   "lecture": "Jn 9:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 10,
+   "titre": "Jean 10",
+   "lecture": "Jn 10:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 11,
+   "titre": "Jean 11",
+   "lecture": "Jn 11:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 12,
+   "titre": "Jean 12",
+   "lecture": "Jn 12:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 13,
+   "titre": "Jean 13",
+   "lecture": "Jn 13:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 14,
+   "titre": "Jean 14",
+   "lecture": "Jn 14:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 15,
+   "titre": "Jean 15",
+   "lecture": "Jn 15:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 16,
+   "titre": "Jean 16",
+   "lecture": "Jn 16:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 17,
+   "titre": "Jean 17",
+   "lecture": "Jn 17:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 18,
+   "titre": "Jean 18",
+   "lecture": "Jn 18:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 19,
+   "titre": "Jean 19",
+   "lecture": "Jn 19:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 20,
+   "titre": "Jean 20",
+   "lecture": "Jn 20:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  },
+  {
+   "jour": 21,
+   "titre": "Jean 21",
+   "lecture": "Jn 21:1",
+   "action": "Lis tout le chapitre et note ce que tu découvres sur Jésus.",
+   "priere": "Demandons à Dieu de nous révéler Jésus dans sa Parole. (Jean 20:31)"
+  }
+ ],
+ "relu": false
+}
