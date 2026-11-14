@@ -1,0 +1,47 @@
+{
+ "id": "occultisme",
+ "nom": "Sorcellerie, magie et occultisme",
+ "ordre": 45,
+ "cles": [
+  "sorcellerie",
+  "sorcier",
+  "marabout",
+  "magie",
+  "fetiche",
+  "fetichisme",
+  "voyance",
+  "horoscope",
+  "astrologie",
+  "divination",
+  "charlatan",
+  "totem",
+  "talisman",
+  "gri-gri",
+  "nganga"
+ ],
+ "mots": [
+  "sorc",
+  "magi",
+  "enchant",
+  "devin",
+  "astrolog",
+  "augure",
+  "morts",
+  "esprits",
+  "idole"
+ ],
+ "versets": [
+  "Dt 18:10-12",
+  "Lv 19:31",
+  "Lv 20:6",
+  "És 8:19-20",
+  "Ac 19:18-20",
+  "Ga 5:19-21",
+  "Ap 21:8",
+  "Ex 22:18",
+  "1 S 15:23",
+  "Ac 16:16-18",
+  "Ac 8:9-13",
+  "2 R 21:6"
+ ]
+}

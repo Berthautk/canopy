@@ -1,0 +1,35 @@
+{
+ "id": "anges",
+ "nom": "Les anges",
+ "ordre": 55,
+ "cles": [
+  "ange",
+  "anges",
+  "archange",
+  "gabriel",
+  "michel",
+  "cherubin",
+  "seraphin"
+ ],
+ "mots": [
+  "ange",
+  "cherubin",
+  "seraphin",
+  "archange",
+  "armees celestes"
+ ],
+ "versets": [
+  "Hé 1:14",
+  "Ps 91:11-12",
+  "Ps 34:8",
+  "Lc 1:26-28",
+  "Dn 10:13",
+  "Ap 12:7-9",
+  "Mt 18:10",
+  "Hé 13:2",
+  "Ac 12:7-11",
+  "Lc 15:10",
+  "És 6:1-3",
+  "2 R 6:17"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "alcool",
+ "nom": "Alcool, vin et ivresse",
+ "ordre": 39,
+ "cles": [
+  "alcool",
+  "vin",
+  "biere",
+  "boisson",
+  "boire",
+  "ivresse",
+  "ivrogne",
+  "ivrognerie",
+  "saoul",
+  "bar",
+  "liqueur"
+ ],
+ "mots": [
+  "vin",
+  "ivre",
+  "ivrogn",
+  "enivr",
+  "boissons fortes",
+  "liqueurs fortes",
+  "sobre",
+  "buveurs"
+ ],
+ "versets": [
+  "Ép 5:18",
+  "Pr 20:1",
+  "Pr 23:29-35",
+  "Gn 9:20-21",
+  "Pr 31:4-5",
+  "És 5:11",
+  "És 5:22",
+  "Ga 5:19-21",
+  "Rm 13:13",
+  "1 Co 6:10",
+  "1 P 4:3",
+  "Lc 21:34",
+  "1 Tm 3:3",
+  "Rm 14:21"
+ ]
+}

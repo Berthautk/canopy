@@ -1,0 +1,52 @@
+{
+ "id": "mode",
+ "nom": "Mode, habillement et apparence",
+ "ordre": 42,
+ "cles": [
+  "mode",
+  "habillement",
+  "vetement",
+  "habit",
+  "tenue",
+  "maquillage",
+  "vernis",
+  "ongles",
+  "meches",
+  "perruque",
+  "coiffure",
+  "bijoux",
+  "pudeur",
+  "decence",
+  "mini-jupe",
+  "tatouage"
+ ],
+ "mots": [
+  "vetu",
+  "vetement",
+  "habit",
+  "parure",
+  "parez",
+  "tresses",
+  "pudeur",
+  "modestie",
+  "decente",
+  "nudite",
+  "fard",
+  "ornements",
+  "figures sur vous"
+ ],
+ "versets": [
+  "1 Tm 2:9-10",
+  "1 P 3:3-4",
+  "Dt 22:5",
+  "És 3:16-24",
+  "Lv 19:28",
+  "2 R 9:30",
+  "1 S 16:7",
+  "Pr 31:30",
+  "Rm 12:2",
+  "1 Th 5:22",
+  "Gn 3:21",
+  "Pr 7:10"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "depression",
+ "nom": "Découragement, dépression et idées noires",
+ "ordre": 60,
+ "cles": [
+  "depression",
+  "deprime",
+  "decouragement",
+  "suicide",
+  "idees noires",
+  "desespoir",
+  "envie de mourir",
+  "fatigue",
+  "burn-out"
+ ],
+ "mots": [
+  "abattu",
+  "decourag",
+  "desespoir",
+  "mourir",
+  "las",
+  "fatigue",
+  "angoiss"
+ ],
+ "versets": [
+  "1 R 19:4-8",
+  "Ps 42:6",
+  "Ps 34:19",
+  "Mt 11:28-30",
+  "És 40:29-31",
+  "2 Co 4:8-9",
+  "Ps 40:2-4",
+  "Ph 4:6-7",
+  "Jn 10:10",
+  "Ps 73:26",
+  "Lm 3:21-23",
+  "1 P 5:7"
+ ]
+}

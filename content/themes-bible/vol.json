@@ -1,0 +1,41 @@
+{
+ "id": "vol",
+ "nom": "Vol, corruption et honnêteté",
+ "ordre": 48,
+ "cles": [
+  "vol",
+  "voler",
+  "voleur",
+  "corruption",
+  "pot-de-vin",
+  "fraude",
+  "detournement",
+  "honnetete",
+  "integrite",
+  "tricherie"
+ ],
+ "mots": [
+  "derob",
+  "voleur",
+  "vole",
+  "present corrompt",
+  "pots-de-vin",
+  "injust",
+  "balance fausse",
+  "fraud"
+ ],
+ "versets": [
+  "Ex 20:15",
+  "Ép 4:28",
+  "Pr 11:1",
+  "Pr 17:23",
+  "Ex 23:8",
+  "Lc 19:8",
+  "Lc 3:12-14",
+  "Pr 10:2",
+  "1 Co 6:10",
+  "Mi 6:10-11",
+  "Pr 22:16",
+  "Lv 19:35-36"
+ ]
+}

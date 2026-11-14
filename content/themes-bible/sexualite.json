@@ -1,0 +1,41 @@
+{
+ "id": "sexualite",
+ "nom": "Sexualité et impudicité",
+ "ordre": 44,
+ "cles": [
+  "sexualite",
+  "sexe",
+  "impudicite",
+  "fornication",
+  "prostitution",
+  "pornographie",
+  "masturbation",
+  "homosexualite",
+  "viol",
+  "inceste",
+  "adultere"
+ ],
+ "mots": [
+  "impudic",
+  "debauche",
+  "prostitu",
+  "adult",
+  "convoit",
+  "fornic",
+  "souill"
+ ],
+ "versets": [
+  "1 Co 6:18-20",
+  "1 Th 4:3-8",
+  "Hé 13:4",
+  "Mt 5:27-28",
+  "Ga 5:19",
+  "Ép 5:3",
+  "Rm 1:24-27",
+  "1 Co 6:9-11",
+  "Pr 5:15-20",
+  "Gn 39:9-12",
+  "Jb 31:1",
+  "Ap 21:8"
+ ]
+}

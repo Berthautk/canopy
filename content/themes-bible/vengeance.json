@@ -1,0 +1,36 @@
+{
+ "id": "vengeance",
+ "nom": "Vengeance, injustice et pardon des ennemis",
+ "ordre": 57,
+ "cles": [
+  "vengeance",
+  "venger",
+  "ennemi",
+  "ennemis",
+  "injustice",
+  "persecution",
+  "calomnie",
+  "sorcier qui m'attaque"
+ ],
+ "mots": [
+  "veng",
+  "ennemi",
+  "rendez le mal",
+  "persecut",
+  "calomni"
+ ],
+ "versets": [
+  "Rm 12:17-21",
+  "Mt 5:43-45",
+  "Lc 6:27-28",
+  "Pr 20:22",
+  "Pr 25:21-22",
+  "1 P 3:9",
+  "Lv 19:18",
+  "Ps 37:1-7",
+  "Dt 32:35",
+  "1 Th 5:15",
+  "Ps 109:4",
+  "Lc 23:34"
+ ]
+}

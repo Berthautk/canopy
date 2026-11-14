@@ -1,0 +1,40 @@
+{
+ "id": "dettes",
+ "nom": "Dettes, épargne et gestion de l'argent",
+ "ordre": 50,
+ "cles": [
+  "dette",
+  "dettes",
+  "emprunt",
+  "credit",
+  "pret",
+  "epargne",
+  "budget",
+  "gestion",
+  "economie",
+  "tontine"
+ ],
+ "mots": [
+  "dette",
+  "emprunt",
+  "prete",
+  "creancier",
+  "caution",
+  "amasse",
+  "fourmi"
+ ],
+ "versets": [
+  "Rm 13:8",
+  "Pr 22:7",
+  "Pr 22:26-27",
+  "Ps 37:21",
+  "Pr 6:6-8",
+  "Pr 21:20",
+  "Lc 14:28-30",
+  "Pr 13:11",
+  "Pr 27:23-24",
+  "2 R 4:1-7",
+  "Mt 25:14-30",
+  "1 Tm 6:6-8"
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "id": "reves",
+ "nom": "Rêves et visions",
+ "ordre": 54,
+ "cles": [
+  "reve",
+  "reves",
+  "cauchemar",
+  "vision",
+  "visions",
+  "songe",
+  "songes",
+  "nuit"
+ ],
+ "mots": [
+  "songe",
+  "reve",
+  "vision",
+  "la nuit"
+ ],
+ "versets": [
+  "Gn 37:5-9",
+  "Gn 41:15-16",
+  "Dn 2:19",
+  "Jl 2:28",
+  "Mt 1:20",
+  "Mt 2:12",
+  "Jb 33:14-16",
+  "Ac 16:9-10",
+  "Jr 23:28",
+  "Ec 5:2",
+  "Ps 4:9",
+  "Ps 127:2"
+ ]
+}

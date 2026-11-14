@@ -1,0 +1,43 @@
+{
+ "id": "copinage",
+ "nom": "Copinage, fiançailles et pureté avant le mariage",
+ "ordre": 43,
+ "cles": [
+  "copinage",
+  "copain",
+  "copine",
+  "petit ami",
+  "petite amie",
+  "relation amoureuse",
+  "sortir avec",
+  "fiancailles",
+  "fiance",
+  "fiancee",
+  "celibat",
+  "celibataire",
+  "flirt"
+ ],
+ "mots": [
+  "fianc",
+  "vierge",
+  "impudic",
+  "pas marie",
+  "toucher de femme",
+  "debauche",
+  "convoit"
+ ],
+ "versets": [
+  "1 Co 7:1-2",
+  "1 Co 7:32-35",
+  "1 Co 6:18",
+  "1 Th 4:3-5",
+  "Hé 13:4",
+  "2 Tm 2:22",
+  "Ct 2:7",
+  "Gn 24:67",
+  "Mt 1:18-19",
+  "Dt 22:28-29",
+  "2 S 13:14-15",
+  "Pr 6:27-29"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "ancetres",
+ "nom": "Les ancêtres, les morts et les traditions",
+ "ordre": 46,
+ "cles": [
+  "ancetres",
+  "culte des ancetres",
+  "morts",
+  "defunts",
+  "funerailles",
+  "deuil",
+  "tradition",
+  "coutume",
+  "veuvage",
+  "crane"
+ ],
+ "mots": [
+  "morts",
+  "peres",
+  "tradition",
+  "idole",
+  "consult"
+ ],
+ "versets": [
+  "Dt 18:11",
+  "És 8:19",
+  "Lc 16:26",
+  "Hé 9:27",
+  "Mc 7:8-9",
+  "Col 2:8",
+  "Ec 9:5",
+  "1 Th 4:13-14",
+  "Lv 19:28",
+  "Ex 20:3-5",
+  "1 Co 10:20-21",
+  "2 S 12:22-23"
+ ]
+}

@@ -55,7 +55,12 @@ export function Recherche({ q: qInitial = '' }) {
     if (!qInitial.trim() || lireReference(qInitial)) { setRes(null); return; }
     let actif = true; setEncours(true);
     const t = trouverTheme(qInitial);
-    chercherMot(qInitial, 300, t ? [...new Set([simplifier(qInitial.trim()), ...t.mots])] : null).then((r) => { if (actif) { setRes(r); setEncours(false); } });
+    chercherMot(qInitial, 300, t ? [...new Set([simplifier(qInitial.trim()), ...t.mots])] : null).then(async (r) => {
+      // Aucun verset avec ce mot exact : on essaie la racine du mot (« polygamie » → « polyg… »).
+      const q0 = simplifier(qInitial.trim());
+      if (!t && r.total === 0 && q0.length > 5 && !q0.includes(' ')) { const r2 = await chercherMot(q0.slice(0, Math.max(4, q0.length - 3))); if (r2.total) r = { ...r2, racine: true }; }
+      if (actif) { setRes(r); setEncours(false); }
+    });
     return () => { actif = false; };
   }, [qInitial]);
 
@@ -103,7 +108,9 @@ export function Recherche({ q: qInitial = '' }) {
           </div>
           {theme && <p class="ligne__desc">Mots recherchés : {theme.mots.join(', ')}…</p>}
           {res.total > res.resultats.length && <p class="ligne__desc">Les {res.resultats.length} {theme ? 'plus proches du thème' : 'premiers'} sont affichés.{theme ? '' : ' Ajoutez un mot pour préciser.'}</p>}
-          {res.total === 0 && <p class="ligne__desc">Aucun verset ne contient ce mot. Vérifiez l'orthographe ou essayez un mot proche.</p>}
+          {res.racine && <p class="ligne__desc">Aucun verset ne contient ce mot exact : voici les versets avec des mots de la même famille.</p>}
+          {res.total === 0 && <p class="ligne__desc">Aucun verset ne contient ce mot. Essayez un mot proche, ou choisissez un thème ci-dessous.</p>}
+          {res.total === 0 && <div class="puces" style="margin-top:8px">{THEMES_BIBLE.map((t) => <button class="puce" onClick={() => remplacer('bible/recherche?q=' + encodeURIComponent(t.nom))}>{t.nom}</button>)}</div>}
           <div class="liste">
             {res.resultats.map((x) => (
               <a class="carte resultat" href={`#/bible/lire/${x.code}/${x.c}/${x.v}`}>

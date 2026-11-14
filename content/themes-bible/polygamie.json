@@ -1,0 +1,45 @@
+{
+ "id": "polygamie",
+ "nom": "Polygamie et fidélité dans le mariage",
+ "ordre": 38,
+ "cles": [
+  "polygamie",
+  "polygame",
+  "deux femmes",
+  "plusieurs femmes",
+  "concubine",
+  "concubines",
+  "deuxieme bureau",
+  "maitresse",
+  "infidelite",
+  "adultere"
+ ],
+ "mots": [
+  "deux femmes",
+  "concubine",
+  "ses femmes",
+  "plusieurs femmes",
+  "rivale",
+  "femme de ta jeunesse",
+  "adult",
+  "infid",
+  "une seule femme",
+  "mari d'une seule"
+ ],
+ "versets": [
+  "Gn 2:24",
+  "Mt 19:4-6",
+  "Ml 2:14-16",
+  "Gn 4:19",
+  "Gn 16:1-4",
+  "Gn 29:30-31",
+  "1 S 1:6",
+  "1 R 11:3-4",
+  "Dt 17:17",
+  "1 Tm 3:2",
+  "Pr 5:18-20",
+  "Hé 13:4",
+  "Ex 20:14",
+  "1 Co 7:2"
+ ]
+}

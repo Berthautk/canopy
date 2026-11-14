@@ -1,0 +1,39 @@
+{
+ "id": "tabac",
+ "nom": "Tabac, drogues et dépendances",
+ "ordre": 40,
+ "cles": [
+  "tabac",
+  "cigarette",
+  "fumer",
+  "fumee",
+  "chicha",
+  "drogue",
+  "cannabis",
+  "dependance",
+  "addiction",
+  "esclavage"
+ ],
+ "mots": [
+  "temple du saint-esprit",
+  "asservir",
+  "esclave",
+  "souillure de la chair",
+  "corps",
+  "sobres"
+ ],
+ "versets": [
+  "1 Co 6:19-20",
+  "1 Co 6:12",
+  "1 Co 3:16-17",
+  "2 Co 7:1",
+  "Rm 12:1",
+  "Rm 6:16",
+  "Jn 8:36",
+  "Ga 5:1",
+  "1 Co 10:31",
+  "Tt 2:11-12",
+  "1 P 5:8",
+  "Pr 23:21"
+ ]
+}

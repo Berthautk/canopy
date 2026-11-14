@@ -1,0 +1,36 @@
+{
+ "id": "jalousie",
+ "nom": "Jalousie, envie et rivalité",
+ "ordre": 49,
+ "cles": [
+  "jalousie",
+  "jaloux",
+  "envie",
+  "envieux",
+  "rivalite",
+  "rancune",
+  "haine",
+  "comparaison"
+ ],
+ "mots": [
+  "jalous",
+  "envie",
+  "rival",
+  "haine",
+  "hai"
+ ],
+ "versets": [
+  "Pr 14:30",
+  "Jc 3:14-16",
+  "Ga 5:26",
+  "1 Co 13:4",
+  "Gn 37:11",
+  "1 S 18:8-9",
+  "Ph 2:3",
+  "1 P 2:1",
+  "Tt 3:3",
+  "Pr 27:4",
+  "Rm 13:13",
+  "Ex 20:17"
+ ]
+}

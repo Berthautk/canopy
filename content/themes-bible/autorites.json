@@ -1,0 +1,42 @@
+{
+ "id": "autorites",
+ "nom": "Autorités, gouvernement et impôts",
+ "ordre": 51,
+ "cles": [
+  "autorite",
+  "autorites",
+  "gouvernement",
+  "president",
+  "politique",
+  "impot",
+  "impots",
+  "taxe",
+  "police",
+  "elections",
+  "loi"
+ ],
+ "mots": [
+  "autorit",
+  "roi",
+  "rois",
+  "magistrat",
+  "impot",
+  "tribut",
+  "gouvern",
+  "cesar"
+ ],
+ "versets": [
+  "Rm 13:1-7",
+  "1 P 2:13-17",
+  "Mt 22:21",
+  "1 Tm 2:1-2",
+  "Tt 3:1",
+  "Pr 21:1",
+  "Dn 2:21",
+  "Ac 5:29",
+  "Pr 29:2",
+  "Jr 29:7",
+  "Pr 14:34",
+  "Ps 33:12"
+ ]
+}
