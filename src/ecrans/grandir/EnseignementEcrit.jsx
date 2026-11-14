@@ -7,6 +7,7 @@ import { useEffect, useState } from 'preact/hooks';
 import { chargerEnseignement } from '../../donnees/contenu.js';
 import { partager } from '../../outils/partage.js';
 import { SujetsACocher, blocsSujets } from '../priere/Veille.jsx';
+import { compter } from '../../donnees/mesure.js';
 
 // Liste ordonnée de tout ce qui se lit à voix haute ; l'index sert aussi au surlignage.
 function plan(e) {
@@ -55,7 +56,7 @@ export function EnseignementEcrit({ id }) {
       )}
       {e.introduction && <section class="carte bloc" {...va(pos.intro)}><h3><span class="ligne__icone"><Icone nom="info" /></span> Introduction</h3><p><TexteRefs texte={e.introduction} /></p></section>}
       {e.sections.map((s, i) => (
-        <section class="section-ens">
+        <section class="section-ens" id={'point-' + s.numero}>
           <div {...va(pos[`s${i}`])}>
             {s.transition && <p class="section-ens__transition"><TexteRefs texte={s.transition} /></p>}
             <h2 class="phase__titre"><span class="phase__num">{s.numero}</span>{s.titre}</h2>
@@ -70,6 +71,7 @@ export function EnseignementEcrit({ id }) {
         </section>
       ))}
       {e.sujets?.length > 0 && <><h2 class="titre-section" {...va(pos.sujets)}>Sujets de prière</h2><SujetsACocher sujets={e.sujets} voixId={id} debut={pos.sujets + 1} /></>}
+      {e.questions?.length > 0 && <Questions e={e} />}
       <LienVideo url={e.video} duree={e.video_duree} auteur={e.auteur} />
       <button class="bouton bouton--contour" style="width:100%;margin-top:16px" onClick={() => partager({ titre: e.titre, texte: `${e.titre}\n${e.resume}${e.video ? '\nVidéo : ' + e.video : ''}`, chemin: 'grandir/enseignement/' + e.id })}>
         <Icone nom="partager" taille={18} /> Partager cet enseignement</button>
@@ -77,5 +79,42 @@ export function EnseignementEcrit({ id }) {
       {e.traduction && <p class="source-mention">{e.traduction}</p>}
       {e.source && <p class="source-mention">{e.source.startsWith('Arsenal') ? 'Source : ' + e.auteur : e.source}</p>}
     </div>
+  );
+}
+
+// Questions de compréhension à la fin de l'enseignement : on coche, on vérifie, on voit ce qu'il faut revoir.
+function Questions({ e }) {
+  const [rep, setRep] = useState({});
+  const [verifie, setVerifie] = useState(false);
+  const qs = e.questions, bonnes = qs.filter((q, i) => rep[i] === q.reponse).length;
+  const verifier = () => { setVerifie(true); compter('enseignement-fini', e.id); if (bonnes === qs.length) compter('questions-reussies', e.id); };
+  return (
+    <section class="carte bloc questions-ens">
+      <h3><span class="ligne__icone"><Icone nom="cible" /></span> As-tu bien compris ?</h3>
+      <p class="ligne__desc">Réponds aux {qs.length} questions, puis appuie sur « Voir mes réponses ».</p>
+      {qs.map((q, i) => (
+        <fieldset class="question-ens">
+          <legend><b>{i + 1}.</b> {q.question}</legend>
+          {q.choix.map((c, k) => {
+            const etat = !verifie ? '' : k === q.reponse ? ' choix-ens--bon' : rep[i] === k ? ' choix-ens--faux' : '';
+            return (
+              <label class={'choix-ens' + etat}>
+                <input type="radio" name={'q' + i} checked={rep[i] === k} disabled={verifie} onChange={() => setRep({ ...rep, [i]: k })} />
+                <span>{c}</span>
+              </label>
+            );
+          })}
+          {verifie && <p class={'reponse-ens ' + (rep[i] === q.reponse ? 'reponse-ens--bon' : 'reponse-ens--faux')}>
+            <b>{rep[i] === q.reponse ? 'Juste !' : 'Pas tout à fait.'}</b> <TexteRefs texte={q.explication} />
+            {rep[i] !== q.reponse && q.section && <> <a class="lien" href={'#point-' + q.section} onClick={(ev) => { ev.preventDefault(); document.getElementById('point-' + q.section)?.scrollIntoView({ behavior: 'smooth' }); }}>Revoir le point {q.section}</a></>}</p>}
+        </fieldset>
+      ))}
+      {!verifie
+        ? <button class="bouton bouton--plein" style="width:100%" disabled={Object.keys(rep).length < qs.length} onClick={verifier}>Voir mes réponses</button>
+        : <>
+            <p class="score-ens">{bonnes} bonne{bonnes > 1 ? 's' : ''} réponse{bonnes > 1 ? 's' : ''} sur {qs.length}. {bonnes === qs.length ? 'Bravo, tu as compris l\'essentiel !' : 'Relis les points indiqués, puis réessaie.'}</p>
+            <button class="bouton bouton--contour" style="width:100%" onClick={() => { setRep({}); setVerifie(false); }}>Recommencer</button>
+          </>}
+    </section>
   );
 }

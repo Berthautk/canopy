@@ -34,6 +34,14 @@ export function Grandir() {
         <div><h2>Grandir dans la foi</h2><p>Enseignements, séries et parcours pour une vie chrétienne solide.</p></div>
       </div>
 
+      <a class="carte parcours-carte" href="#/grandir/enseignement/affermissement-1-le-salut" style="margin-bottom:10px">
+        <img src="/assets/symboles/croix-coucher-de-soleil.webp" alt="" />
+        <span class="ligne__corps">
+          <span class="ligne__titre" style="display:block">Affermissement : les fondements</span>
+          <span class="ligne__desc" style="display:block">Le salut, l'assurance du salut, la tentation… Enseignements complets avec questions.</span>
+        </span>
+        <Icone nom="chevron" taille={20} />
+      </a>
       <a class="carte parcours-carte" href="#/grandir/decouvrir-jesus" style="margin-bottom:10px">
         <img src="/assets/jesus/jesus-main-tendue.webp" alt="" />
         <span class="ligne__corps">

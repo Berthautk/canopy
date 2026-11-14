@@ -468,3 +468,16 @@
 .consentement { margin-top: 14px; }
 .consentement .boutons { display: flex; gap: 8px; margin-top: 10px; }
 .consentement .boutons .bouton { flex: 1; }
+
+/* Questions de compréhension */
+.questions-ens { margin-top: 18px; }
+.question-ens { border: 0; padding: 0; margin: 14px 0; }
+.question-ens legend { font-weight: 600; color: var(--titre); margin-bottom: 8px; line-height: 1.4; }
+.choix-ens { display: flex; gap: 10px; align-items: flex-start; padding: 10px 12px; border: 1.5px solid var(--bord); border-radius: 10px; margin: 6px 0; cursor: pointer; line-height: 1.4; }
+.choix-ens input { margin-top: 3px; accent-color: var(--or-fonce); }
+.choix-ens--bon { border-color: #2e9d5b; background: rgba(46,157,91,.12); }
+.choix-ens--faux { border-color: #c0392b; background: rgba(192,57,43,.1); }
+.reponse-ens { margin: 6px 2px 0; font-size: .92rem; line-height: 1.5; }
+.reponse-ens--bon b { color: #2e9d5b; }
+.reponse-ens--faux b { color: #c0392b; }
+.score-ens { font-weight: 600; text-align: center; margin: 12px 0; }

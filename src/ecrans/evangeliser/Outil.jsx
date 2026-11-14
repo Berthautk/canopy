@@ -69,7 +69,8 @@ export function Outil({ id }) {
       <section class="carte bloc article" style="margin-top:12px">
         <h3>Et maintenant ?</h3>
         {o.apres.map((t, k) => <p {...va(iApres[k])}>{t}</p>)}
-        <a class="bouton bouton--contour" href="#/grandir/nouveau-converti" style="width:100%">Commencer le parcours « Nouveau converti »</a>
+        <a class="bouton bouton--plein" href="#/grandir/enseignement/affermissement-1-le-salut" style="width:100%">Grandir : « Le salut, ce que Dieu a fait pour toi »</a>
+        <a class="bouton bouton--contour" href="#/grandir/nouveau-converti" style="width:100%;margin-top:8px">Commencer le parcours « Nouveau converti »</a>
       </section>
       <div class="verset__actions" style="justify-content:center;margin-top:12px">
         <button class="bouton bouton--contour bouton--petit" onClick={() => partager({ titre: o.titre, texte: o.resume, chemin: 'evangeliser/outil/' + o.id })}><Icone nom="partager" taille={18} /> Partager</button>
