@@ -7,6 +7,7 @@ import { VEILLES, GUIDE_PHASES } from '../../donnees/contenu.js';
 import { noterPriere, aiPrie } from '../../donnees/priere.js';
 import { useSignal } from '../../outils/signal.js';
 import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
+import { PriereGuidee } from '../../composants/PriereGuidee.jsx';
 
 // Liste de sujets à cocher (« appuie sur chaque point après l'avoir prié »).
 export function SujetsACocher({ sujets, cle, numerote, voixId, debut = 0 }) {
@@ -57,6 +58,7 @@ export function Veille({ id }) {
       <ol class="carte deroulement">
         {etapes.map((e, i) => <li><button onClick={() => setN(i)}><span class="deroulement__num">{e.num === 'proc' ? '✦' : e.num}</span><span>{e.titre}</span><Icone nom="chevron" taille={18} /></button></li>)}
       </ol>
+      <PriereGuidee id={v.id} titre={v.titre} etapes={etapes.map((e) => ({ titre: e.titre, texte: e.num === 'proc' ? e.texte : null, sujets: e.sujets }))} />
       <button class="bouton bouton--or" style="width:100%;margin-top:14px" onClick={() => setN(0)}><Icone nom="priere" taille={20} /> Commencer la prière</button>
       {fois.length > 0 && <p class="ligne__desc" style="text-align:center;margin-top:8px">Tu as prié cette veille {fois.length} fois.</p>}
       <p class="source-mention">Source : {v.auteur}</p>

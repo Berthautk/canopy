@@ -2,7 +2,7 @@
  "id": "outil-coeur-de-l-homme",
  "ordre": 1,
  "titre": "Le cœur de l'homme",
- "resume": "Une présentation de l'Évangile en 5 images : le cœur rempli de péché, la croix, Jésus à la porte, la mort sans Christ et la mort de celui qui a reçu Jésus.",
+ "resume": "Une présentation de l'Évangile en 8 images : le cœur rempli de péché, la Parole qui conduit à la repentance, la croix, Jésus à la porte, le cœur où Jésus habite, la mort sans Christ, la mort de celui qui a reçu Jésus, et l'appel.",
  "image": "/assets/coeur-de-l-homme/1-coeur-pecheur.svg",
  "duree_estimee": "15 à 20 min",
  "conseil": "Montre chaque image à la personne, laisse-la regarder un moment, puis explique. Tu peux aussi appuyer sur « Écouter » et suivre ensemble. Parle avec amour, sans juger : toi aussi, ton cœur était ainsi avant Jésus.",
@@ -18,18 +18,37 @@
     "Le porc, c'est l'ivrognerie, les excès de table, la recherche des plaisirs sans limite : vivre seulement pour son ventre et pour ce qui fait plaisir maintenant.",
     "Le serpent, c'est le mensonge, la ruse, l'envie et la jalousie. Souviens-toi : c'est par la bouche du serpent que le mensonge est entré dans le jardin d'Éden. Jésus dit que le diable est le père du mensonge.",
     "Le tigre, c'est la colère, la haine, la violence, le désir de vengeance, les paroles qui blessent. Le crapaud, c'est l'avarice, l'amour de l'argent, qui est une racine de tous les maux. Et la tortue, c'est la paresse : celui qui remet toujours à demain, même les choses de Dieu, et qui reste tiède.",
+    "Regarde aussi, en haut du cœur, cet œil : c'est l'œil de Dieu. Rien n'est caché devant lui ; il voit tout ce qui se passe dans le cœur, même ce que personne d'autre ne sait. La petite étoile, c'est la conscience : cette petite voix que Dieu a mise en chaque homme, qui nous dit que quelque chose n'est pas bien. Et la colombe, dehors, c'est le Saint-Esprit. Il ne peut pas habiter dans un cœur rempli de péché ; il attend à l'extérieur, et il appelle.",
     "Peut-être que tu me dis : « Moi, je ne suis pas un grand pécheur, je n'ai tué personne. » Mais regarde honnêtement ton cœur. Y a-t-il de l'orgueil ? Un mensonge ? Une colère gardée ? Une pensée impure ? La Bible dit que tous ont péché et sont privés de la gloire de Dieu. Pas seulement les autres : tous, toi et moi.",
     "Et le problème, c'est que le salaire du péché, c'est la mort : la séparation d'avec Dieu, pour toujours. Personne ne peut nettoyer ce cœur tout seul. On peut aller à l'église, faire de bonnes œuvres, prendre des résolutions ; les animaux restent à l'intérieur. Il faut quelqu'un de plus fort que nous."
    ],
    "versets": [
     "Mc 7:21-23",
+    "Hé 4:13",
     "Rm 3:23",
     "Rm 6:23"
    ]
   },
   {
+   "image": "/assets/coeur-de-l-homme/2b-la-parole-convainc.svg",
+   "titre": "2. La Parole de Dieu touche le cœur : la repentance",
+   "texte": [
+    "Sur cette image, la lumière entre dans le cœur. L'épée, c'est la Parole de Dieu. La Bible dit qu'elle est vivante et efficace, plus tranchante qu'une épée à deux tranchants, et qu'elle juge les sentiments et les pensées du cœur.",
+    "Quand quelqu'un écoute vraiment la Parole de Dieu, quelque chose se passe : il commence à voir son péché tel que Dieu le voit. Il n'accuse plus les autres ; il ne cherche plus d'excuses. Il dit comme le fils prodigue : « Mon père, j'ai péché contre le ciel et contre toi. » Cette goutte, c'est une larme : la tristesse selon Dieu, qui conduit au salut.",
+    "C'est cela, la repentance. Se repentir, ce n'est pas seulement regretter les conséquences de ses fautes. C'est reconnaître devant Dieu : « J'ai péché. » C'est confesser son péché sans le cacher, et décider de s'en détourner pour se tourner vers Dieu. Regarde : déjà, certains animaux commencent à sortir du cœur.",
+    "N'aie pas peur de dire la vérité sur ton cœur. Celui qui cache ses transgressions ne prospère point, mais celui qui les avoue et les délaisse obtient miséricorde. Dieu ne repousse pas un cœur brisé et contrit.",
+    "Jésus a commencé sa prédication par ces mots : repentez-vous, et croyez à la bonne nouvelle. Mais la repentance seule ne suffit pas à nettoyer le cœur. Il faut quelqu'un qui paie pour nos péchés. C'est ce que montre l'image suivante."
+   ],
+   "versets": [
+    "Hé 4:12",
+    "Pr 28:13",
+    "Ps 51:19",
+    "Mc 1:15"
+   ]
+  },
+  {
    "image": "/assets/coeur-de-l-homme/2-coeur-et-la-croix.svg",
-   "titre": "2. L'homme a besoin de Jésus",
+   "titre": "3. À la croix, Jésus a payé pour ton péché",
    "texte": [
     "Maintenant, regarde cette deuxième image. C'est le même cœur, mais tout a changé. Au centre, il y a la croix de Jésus. La lumière remplit le cœur, et les animaux sont chassés dehors. La colombe, au-dessus, représente le Saint-Esprit, qui vient habiter dans ce cœur.",
     "Qu'est-ce qui s'est passé ? Dieu nous aime. Il a tant aimé le monde qu'il a donné son Fils unique, Jésus. Jésus n'a jamais péché, et pourtant il est mort sur la croix pour nos péchés. Il a pris notre place. Le châtiment que nous méritions est tombé sur lui. Sur la croix, il a dit : « Tout est accompli. » Le prix est payé.",
@@ -50,7 +69,7 @@
   },
   {
    "image": "/assets/coeur-de-l-homme/3-jesus-a-la-porte.svg",
-   "titre": "3. Jésus frappe à la porte de ton cœur",
+   "titre": "4. Jésus frappe à la porte de ton cœur",
    "texte": [
     "Sur cette image, tu vois Jésus qui se tient à la porte du cœur. Il frappe. Il ne force pas la porte : il attend qu'on lui ouvre. Il dit : « Voici, je me tiens à la porte, et je frappe. Si quelqu'un entend ma voix et ouvre la porte, j'entrerai chez lui, je souperai avec lui, et lui avec moi. »",
     "Être chrétien, ce n'est pas d'abord porter un nom, appartenir à une église ou suivre une tradition. Être chrétien, c'est avoir Christ en soi. La Bible appelle cela le mystère de Dieu : Christ en vous, l'espérance de la gloire. Celui qui a le Fils a la vie ; celui qui n'a pas le Fils de Dieu n'a pas la vie.",
@@ -65,8 +84,25 @@
    ]
   },
   {
+   "image": "/assets/coeur-de-l-homme/3b-christ-habite.svg",
+   "titre": "5. Le cœur où Jésus habite",
+   "texte": [
+    "Voici maintenant le cœur de celui qui a ouvert la porte à Jésus. Il est rempli de lumière. Le péché n'y règne plus. Jésus y habite, et il en est le Roi : c'est pourquoi tu vois la couronne et la croix au centre. La colombe, le Saint-Esprit, n'est plus dehors : il habite dedans.",
+    "Ce cœur est devenu le temple de Dieu. La Bible dit : ne savez-vous pas que vous êtes le temple de Dieu, et que l'Esprit de Dieu habite en vous ? Jésus a promis que le Père et lui viendraient faire leur demeure chez celui qui l'aime et garde sa parole.",
+    "Les raisins représentent le fruit : celui qui demeure en Jésus, comme le sarment sur le cep, porte beaucoup de fruit. L'amour, la joie, la paix, la patience apparaissent dans sa vie. La Bible ouverte et le feu disent qu'il aime maintenant la Parole de Dieu et la prière.",
+    "C'est cela, être chrétien : Christ en toi. Ce n'est pas d'abord une religion, ce sont des personnes changées de l'intérieur. Si quelqu'un est en Christ, il est une nouvelle créature ; les choses anciennes sont passées, toutes choses sont devenues nouvelles.",
+    "Mais il faut veiller. Celui qui laisse de nouveau entrer le péché et retourne en arrière laisse revenir les animaux dans son cœur. Jésus nous dit : demeurez en moi. Lis sa Parole, prie, reste avec ses enfants, et confesse tout de suite ce qui revient."
+   ],
+   "versets": [
+    "1 Co 3:16",
+    "Jn 14:23",
+    "Jn 15:4-5",
+    "2 Co 5:17"
+   ]
+  },
+  {
    "image": "/assets/coeur-de-l-homme/4-la-mort-sans-christ.svg",
-   "titre": "4. Quand la mort vient sans Christ",
+   "titre": "6. Quand la mort vient sans Christ",
    "texte": [
     "Regarde maintenant cette image. Un homme est couché. La mort est venue le chercher, et il a peur. Il n'avait pas prévu que ce serait ce soir. Il avait encore des projets, il se disait : « Je verrai Dieu plus tard. »",
     "Certains entendent ce message et le refusent. Ils disent : « Pas maintenant. » Mais un jour, nous allons tous mourir. Personne ne sait quand. La mort ne prévient pas ; elle nous surprend. Jésus raconte l'histoire d'un homme riche qui avait rempli ses greniers, et Dieu lui dit : « Insensé ! Cette nuit même ton âme te sera redemandée. »",
@@ -82,7 +118,7 @@
   },
   {
    "image": "/assets/coeur-de-l-homme/5-la-mort-du-juste.svg",
-   "titre": "5. Quand la mort vient pour celui qui a reçu Jésus",
+   "titre": "7. Quand la mort vient pour celui qui a reçu Jésus",
    "texte": [
     "Et voici la dernière image. Un homme est couché sur son lit, la Bible sur sa poitrine. Son visage est paisible. Son âme monte vers le ciel, et une couronne l'attend dans la lumière.",
     "C'est celui qui a reçu le message. Lui aussi ne savait pas quand la fin viendrait. Mais quand elle est arrivée, il n'a pas eu peur : il savait où il allait. Jésus a dit : « Je suis la résurrection et la vie. Celui qui croit en moi vivra, quand même il serait mort. » Pour lui, la mort est un gain, car il s'en va pour être avec Christ, ce qui est de beaucoup le meilleur.",
@@ -97,10 +133,10 @@
    ]
   },
   {
-   "image": "/assets/coeur-de-l-homme/3-jesus-a-la-porte.svg",
-   "titre": "6. Aujourd'hui, reçois Jésus",
+   "image": "/assets/coeur-de-l-homme/3b-christ-habite.svg",
+   "titre": "8. Aujourd'hui, repens-toi et reçois Jésus",
    "texte": [
-    "Maintenant, je te pose la question : veux-tu ouvrir la porte de ton cœur à Jésus aujourd'hui ? Veux-tu qu'il vienne habiter en toi, qu'il chasse ce qui salit ton cœur, qu'il te pardonne et te donne la vie éternelle ?",
+    "Maintenant, je te pose la question : veux-tu te repentir de tes péchés aujourd'hui, et ouvrir la porte de ton cœur à Jésus ? Veux-tu qu'il vienne habiter en toi, qu'il chasse ce qui salit ton cœur, qu'il te pardonne et te donne la vie éternelle ?",
     "Si tu le veux, tu peux lui parler maintenant, simplement, comme on parle à quelqu'un qui est là. Ce ne sont pas des mots magiques : c'est ton cœur qui compte. Si tu es d'accord, prie avec moi à voix haute la prière qui suit."
    ],
    "versets": [
@@ -114,7 +150,7 @@
   "Dis-le à quelqu'un : à la personne qui t'a partagé ce message, ou à un chrétien que tu connais. Commence à lire la Bible, par exemple l'Évangile de Jean, à prier chaque jour, et cherche une église où l'on enseigne la Parole de Dieu.",
   "Le parcours « Nouveau converti » de l'application t'accompagne pas à pas pendant 30 jours."
  ],
- "source": "Présentation inspirée d'une méthode ancienne et répandue, « Le cœur de l'homme » (J. E. Gossner, 1812), avec des illustrations originales réalisées pour Yeshaya. Texte rédigé pour Yeshaya à partir de la façon de prêcher du porteur du projet.",
+ "source": "Présentation inspirée d'une méthode ancienne et répandue, « Le cœur de l'homme » (miroir spirituel du cœur, XVIIIe siècle), avec des illustrations originales et un texte rédigés pour Yeshaya selon la façon de prêcher du porteur du projet.",
  "date_ajout": "2026-11-14",
  "relu": false
 }

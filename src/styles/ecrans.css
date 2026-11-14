@@ -429,3 +429,26 @@
 .objection summary { cursor: pointer; list-style: none; }
 .objection summary::-webkit-details-marker { display: none; }
 .objection p { margin: 10px 0 0; line-height: 1.55; }
+
+/* Prière guidée à la voix (écoute, répète et prie) */
+.priere-guidee__lancer { width: 100%; display: flex; align-items: center; gap: 12px; margin-top: 14px; padding: 14px; text-align: left; border: 2px solid var(--or); background: var(--surface); cursor: pointer; }
+.priere-guidee__icone { flex: none; width: 52px; height: 52px; border-radius: 50%; display: grid; place-items: center; background: var(--or); color: var(--bleu-nuit); }
+.priere-guidee { position: fixed; inset: 0; z-index: 60; display: flex; flex-direction: column; background: var(--bleu-nuit, #142340); color: #fff; padding: 12px 16px calc(16px + env(safe-area-inset-bottom)); }
+.priere-guidee__tete { display: flex; align-items: center; justify-content: space-between; gap: 10px; font-family: var(--police-titre); font-weight: 600; }
+.priere-guidee__tete .rond { color: #fff; background: rgba(255,255,255,.12); }
+.priere-guidee__progres { height: 6px; border-radius: 3px; background: rgba(255,255,255,.15); margin: 10px 0 0; overflow: hidden; }
+.priere-guidee__progres span { display: block; height: 100%; background: var(--or); transition: width .3s; }
+.priere-guidee__corps { flex: 1; overflow-y: auto; display: flex; flex-direction: column; justify-content: center; text-align: center; padding: 16px 4px; }
+.priere-guidee__corps h2 { color: #fff; font-size: 1.35rem; margin: 6px 0 12px; }
+.priere-guidee__etape { color: var(--or); font-weight: 600; font-size: .9rem; margin: 0; }
+.priere-guidee__texte { font-size: 1.15rem; line-height: 1.6; margin: 0; }
+.priere-guidee__texte a { color: #ffe08a; }
+.priere-guidee__consigne { display: flex; gap: 8px; justify-content: center; align-items: center; margin-top: 18px; color: #cfe0ff; }
+.priere-guidee__commandes { display: flex; align-items: center; gap: 10px; }
+.priere-guidee__commandes .rond { color: #fff; background: rgba(255,255,255,.14); }
+.rond--grand { width: 56px; height: 56px; flex: none; }
+.priere-guidee__ok { flex: 1; min-height: 64px; font-size: 1.15rem; display: flex; align-items: center; justify-content: center; gap: 8px; background: #2e9d5b; border-color: #2e9d5b; color: #fff; }
+
+.diaporama__image { width: 100%; max-height: 42vh; object-fit: contain; margin-top: 12px; border-radius: 12px; background: #111; }
+.diaporama__texte { justify-content: flex-start; }
+.diaporama__texte .priere-guidee__texte { font-size: 1.05rem; }

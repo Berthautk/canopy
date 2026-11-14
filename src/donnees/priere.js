@@ -4,17 +4,20 @@ import { signal } from '../outils/signal.js';
 
 const CLE_JOURNAL = 'yeshaya:journal';       // [{ id, titre, detail, date, exaucee: null | { date, temoignage } }]
 const CLE_PRIE = 'yeshaya:j-ai-prie';         // { themeId: [dates ISO] }
-const CLE_PARCOURS = 'yeshaya:parcours-nc';   // { faits: [jours Nouveau converti], dj: [leçons Découvrir Jésus], decision: date ISO }
+const CLE_PARCOURS = 'yeshaya:parcours-nc';
+const CLE_STATS = 'yeshaya:statistiques';     // { sujets: { 'AAAA-MM-JJ': nombre de sujets priés ce jour-là } }   // { faits: [jours Nouveau converti], dj: [leçons Découvrir Jésus], decision: date ISO }
 
 export const journal = signal([]);
 export const aiPrie = signal({});
 export const parcours = signal({ faits: [], dj: [], decision: null });
+export const statistiques = signal({ sujets: {} });
 
 export async function chargerPriere() {
   try {
     journal.valeur = (await get(CLE_JOURNAL)) || [];
     aiPrie.valeur = (await get(CLE_PRIE)) || {};
     parcours.valeur = { faits: [], dj: [], decision: null, ...((await get(CLE_PARCOURS)) || {}) };
+    statistiques.valeur = { sujets: {}, ...((await get(CLE_STATS)) || {}) };
   } catch {}
 }
 const sauver = (cle, sig, v) => { sig.valeur = v; return set(cle, v).catch(() => {}); };
@@ -31,6 +34,13 @@ export const supprimerRequete = (id) => sauver(CLE_JOURNAL, journal, journal.val
 
 // ----- « J'ai prié » -----
 export const noterPriere = (themeId) => sauver(CLE_PRIE, aiPrie, { ...aiPrie.valeur, [themeId]: [...(aiPrie.valeur[themeId] || []), new Date().toISOString()] });
+
+// ----- Statistiques personnelles (restent sur le téléphone) -----
+const aujourdhui = () => new Date().toISOString().slice(0, 10);
+export function noterSujetPrie(n = 1) {
+  const j = aujourdhui(), st = statistiques.valeur;
+  return sauver(CLE_STATS, statistiques, { ...st, sujets: { ...st.sujets, [j]: (st.sujets[j] || 0) + n } });
+}
 
 // ----- Parcours Nouveau converti : un jour se débloque quand le précédent est terminé -----
 export const terminerJour = (n, cle = 'faits') => sauver(CLE_PARCOURS, parcours, { ...parcours.valeur, [cle]: [...new Set([...(parcours.valeur[cle] || []), n])].sort((a, b) => a - b) });

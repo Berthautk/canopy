@@ -6,5 +6,5 @@
 <text x="105" y="88">🦚</text><text x="255" y="88">🐍</text><text x="180" y="112">🐐</text>
 <text x="118" y="140">🐷</text><text x="242" y="140">🐯</text><text x="152" y="178">🐸</text><text x="208" y="178">🐢</text>
 </g>
-<circle cx="180" cy="36" r="0" />
+<text x="180" y="62" font-size="20" text-anchor="middle" font-family="Noto Color Emoji, sans-serif">👁️</text><text x="180" y="150" font-size="18" text-anchor="middle" fill="#c9a227">✶</text><text x="330" y="40" font-size="26" text-anchor="middle" font-family="Noto Color Emoji, sans-serif" opacity=".8">🕊️</text>
 </svg>

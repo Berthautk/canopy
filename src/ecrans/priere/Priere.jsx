@@ -5,6 +5,7 @@ import { TexteRefs } from '../../composants/TexteRefs.jsx';
 import { BoutonLecture, BoutonTelecharger } from '../../composants/Audio.jsx';
 import { notifier } from '../../composants/Notification.jsx';
 import { SujetsACocher, GuidePhase, blocsSujets } from './Veille.jsx';
+import { PriereGuidee } from '../../composants/PriereGuidee.jsx';
 import { BarreEcoute } from '../../composants/Ecouter.jsx';
 import { PRIERES, COMBAT, VEILLES, AUDIOS, veilleDuMoment } from '../../donnees/contenu.js';
 import { aiPrie, noterPriere, journal } from '../../donnees/priere.js';
@@ -118,6 +119,7 @@ export function ThemePriere({ id }) {
         <div class="theme-hero__texte"><span class="pastille pastille--or">{p.categorie}</span><h2>{p.titre}</h2></div>
       </div>
       {p.exemple && <p style="margin:8px 4px 0"><span class="etiquette-exemple">EXEMPLE</span> Contenu de démonstration.</p>}
+      <PriereGuidee id={p.id} titre={p.titre} etapes={p.phases ? p.phases.map((ph) => ({ titre: ph.titre, sujets: ph.sujets })) : [{ titre: p.titre, sujets: p.sujets }]} />
       {(p.enseignement || piste) && (
         <section class="carte bloc">
           <h3><span class="ligne__icone"><Icone nom="ampoule" /></span> Enseignement</h3>
@@ -168,6 +170,7 @@ export function FicheCombat({ id }) {
       <div class="bandeau-titre"><span class="combat-emoji" aria-hidden="true">{c.emoji}</span><div><h2>{c.titre}</h2><p>Combat spirituel · {c.sujets.length} sujets</p></div></div>
       {c.introduction && <section class="carte bloc"><p><TexteRefs texte={c.introduction} /></p></section>}
       {c.versets.length > 0 && <><h2 class="titre-section">Versets de base</h2><div class="liste">{c.versets.map((r) => <CarteVerset reference={r} />)}</div></>}
+      <PriereGuidee id={c.id} titre={c.titre} etapes={[{ titre: c.titre, sujets: c.sujets }]} />
       <h2 class="titre-section">À prier</h2>
       <p class="guide-phase"><Icone nom="info" taille={18} /><span>Prie chaque point avec foi, à voix haute si possible. Remplace « [...] » par les noms des personnes concernées.</span></p>
       <BarreEcoute id={c.id} titre="Écouter la fiche" blocs={[{ texte: c.titre + '. ' + (c.introduction || '') }, ...blocsSujets(c.sujets, true)]} />
