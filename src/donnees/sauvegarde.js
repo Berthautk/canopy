@@ -16,7 +16,7 @@ export const libelle = (k) => LIBELLES[k] || k;
 export async function creerSauvegarde() {
   const donnees = {};
   for (const [k, v] of await entries()) {
-    if (typeof k !== 'string' || !k.startsWith(PREFIXE) || k === 'yeshaya:telechargements' || k === 'yeshaya:mesure-file' || k === 'yeshaya:priere-a-envoyer') continue;   // les audios ne sont pas inclus (trop lourds)
+    if (typeof k !== 'string' || !k.startsWith(PREFIXE) || k === 'yeshaya:telechargements' || k === 'yeshaya:mesure-file' || k === 'yeshaya:priere-a-envoyer') continue;   // rythme et temps : inclus   // les audios ne sont pas inclus (trop lourds)
     donnees[k.slice(PREFIXE.length)] = v instanceof Blob ? { __blob: await blobVersTexte(v) } : v;
   }
   return { format: FORMAT, version: 1, application: 'Yeshaya', date: new Date().toISOString(), donnees };

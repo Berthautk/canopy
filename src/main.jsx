@@ -13,6 +13,7 @@ import { chargerLecteur } from './audio/lecteur.js';
 import { chargerTelechargements } from './audio/telechargements.js';
 import { chargerPriere } from './donnees/priere.js';
 import { demarrerMesure } from './donnees/mesure.js';
+import { chargerRythme } from './donnees/rythme.js';
 import { chargerStats } from './jeux/stats.js';
 import { chargerChemin } from './jeux/chemin.js';
 
@@ -26,6 +27,7 @@ chargerLecteur();
 chargerTelechargements();
 chargerPriere();
 demarrerMesure();
+chargerRythme();
 chargerStats();
 chargerChemin();
 render(<App />, document.getElementById('app'));

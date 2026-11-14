@@ -30,6 +30,8 @@ import { Dialogue } from './ecrans/evangeliser/Dialogue.jsx';
 import { Outil } from './ecrans/evangeliser/Outil.jsx';
 import { Approche } from './ecrans/evangeliser/Approche.jsx';
 import { Admin } from './ecrans/Admin.jsx';
+import { Equilibre } from './ecrans/Equilibre.jsx';
+import { suivreRubrique } from './donnees/rythme.js';
 import { CheminFoi, NiveauChemin } from './ecrans/jeux/Chemin.jsx';
 import { Confidentialite, VERSION_POLITIQUE } from './ecrans/Confidentialite.jsx';
 import { DemanderPriere } from './ecrans/priere/DemanderPriere.jsx';
@@ -59,6 +61,7 @@ function titre([a, b, c]) {
   if (a === 'parametres') return "Paramètres de l'application";
   if (a === 'a-propos') return 'À propos de Yeshaya';
   if (a === 'admin') return 'Espace administrateur';
+  if (a === 'equilibre') return 'Mon équilibre avec Dieu';
   if (a === 'confidentialite') return 'Confidentialité';
   if (a === 'priere' && b === 'demander') return 'Demander la prière';
   if (a === 'jouer') return {
@@ -92,6 +95,7 @@ function Ecran({ r }) {
   if (a === 'accueil') return <Accueil />;
   if (a === 'parametres') return <Parametres />;
   if (a === 'admin') return <Admin />;
+  if (a === 'equilibre') return <Equilibre modifier={b === 'modifier'} />;
   if (a === 'confidentialite') return <Confidentialite />;
   if (a === 'a-propos') return <APropos />;
   if (a === 'telechargements') return <Telechargements />;
@@ -120,7 +124,7 @@ function Ecran({ r }) {
 export function App() {
   const r = useSignal(route);
   const cleRoute = r.segments.join('/');
-  useEffect(() => { compterPage(r.segments); }, [cleRoute]);
+  useEffect(() => { compterPage(r.segments); suivreRubrique(r.segments); }, [cleRoute]);
   const reg = useSignal(reglages);
   const l = useSignal(lecteur);
   const tiroir = useTiroir();
