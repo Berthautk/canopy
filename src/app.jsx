@@ -80,7 +80,7 @@ function titre([a, b, c]) {
   }[b] ?? (b ? 'Jouer et apprendre' : null);
   if (a === 'telechargements') return 'Mes téléchargements';
   if (a === 'ecouter') return 'Écouter';
-  if (a === 'priere' && b === 'pour-quelqu-un') return c === 'jour' ? 'Prier pour quelqu\'un · Jour ' + arguments[0][3] : "Jeûner et prier pour quelqu'un";
+  if (a === 'priere' && b === 'pour-quelqu-un') return c === 'jour' ? 'Prier pour un proche · Jour ' + arguments[0][3] : 'Prier pour un proche';
   if (a === 'priere' && b === 'sommeil') return "Prier pour s'endormir";
   if (a === 'priere' && b === 'maintenant') return 'Prier maintenant';
   if (a === 'priere' && b === 'journal') return 'Mon journal de prière';

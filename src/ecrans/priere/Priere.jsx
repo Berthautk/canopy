@@ -56,11 +56,11 @@ export function Priere() {
         <span class="veille-ligne__ouvrir">Ouvrir <Icone nom="chevron" taille={18} /></span>
       </a>
 
-      <h2 class="titre-section">Jeûner et prier pour quelqu'un</h2>
+      <h2 class="titre-section">Prier pour un proche</h2>
       <a class="carte theme pq-carte" href="#/priere/pour-quelqu-un">
-        <img src="/assets/priere/priere-pour-un-malade.webp" alt="" loading="lazy" />
-        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Pour un proche malade ou en difficulté</span>
-          <span class="ligne__desc">21 jours de jeûne, puis la Veille, un jour une prière, mois après mois. Écris son prénom : les sujets s'adaptent.</span></span>
+        <img src="/assets/priere/priere-en-famille.webp" alt="" loading="lazy" />
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Programmes pour les familles et les couples</span>
+          <span class="ligne__desc">Maladie, foyer en crise, enfant prodigue, salut d'un proche, emploi, examen. Écris son prénom : chaque jour, les sujets s'adaptent.</span></span>
         <Icone nom="chevron" taille={20} />
       </a>
       <a class="carte ligne" href="#/grandir/enseignement/jeune-0-troisieme-force" style="margin-top:8px">

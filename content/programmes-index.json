@@ -1,7 +1,7 @@
 {
  "id": "pour-quelqu-un",
- "titre": "Jeûner et prier pour quelqu'un",
- "resume": "Pour un parent, un frère, une sœur ou un ami malade, ou qui traverse une situation difficile. Un jour, une prière : tu écris son prénom, et chaque jour l'application te dit quoi lire, quoi proclamer et pour quoi prier.",
+ "titre": "Prier pour un proche",
+ "resume": "Des programmes de prière spécialisés pour les couples et les familles qui traversent une situation précise : une maladie, un foyer en crise, un enfant qui s'est éloigné, un proche qui ne connaît pas Jésus, un chômage, un examen. Tu choisis la situation, tu écris le prénom, et chaque jour l'application te guide : quoi lire, quoi proclamer et pour quoi prier. Tu peux jeûner pendant ces jours si tu le souhaites.",
  "source": "Ces fiches ont été écrites et utilisées pour Magloire SIMEU, gravement malade, par son épouse et un frère qui priaient avec lui. Dieu a répondu : il va bien. Elles sont adaptées ici pour que d'autres puissent prier de la même manière.",
  "etapes": [
   {
@@ -71,7 +71,94 @@
      "t": "p",
      "x": "Dans l'application, le bouton « Écouter et prier » te lit tout cela dans l'ordre : tu n'as rien à chercher. Le jour suivant s'ouvre après minuit."
     }
-   ]
+   ],
+   "categorie": "Une maladie grave ou une épreuve lourde",
+   "icone": "coeur",
+   "adaptable": true,
+   "suite": "veille"
+  },
+  {
+   "id": "foyer-14",
+   "format": "veille",
+   "titre": "14 jours pour un foyer en crise",
+   "court": "Foyer en crise",
+   "duree": 14,
+   "description": "Pour un couple en difficulté : disputes, infidélité, séparation, menace de divorce, problèmes d'argent. Chaque jour : un texte, un partage, des sujets de prière et un axe pour la gloire de Dieu. Indique le prénom du conjoint dans les réglages.",
+   "intro": [
+    {
+     "t": "h",
+     "x": "Combattre pour le foyer de {nom}"
+    },
+    {
+     "t": "p",
+     "x": "Un foyer en crise n'est pas seulement une affaire de caractères. C'est souvent un combat spirituel, où l'ennemi veut détruire ce que Dieu a uni. Pendant ces 14 jours, nous allons prier selon la Parole : pour que Dieu redevienne le bâtisseur de la maison, pour la fidélité, le pardon, la parole douce, les enfants, la provision, et contre les puissances qui veulent diviser."
+    },
+    {
+     "t": "li",
+     "x": "Lis le texte du jour à voix haute, puis le partage."
+    },
+    {
+     "t": "li",
+     "x": "Prie chaque sujet en nommant {nom} et {conjoint}."
+    },
+    {
+     "t": "li",
+     "x": "Si tu fais partie de ce couple, commence toujours par ta propre repentance : ne prie pas seulement pour que l'autre change."
+    },
+    {
+     "t": "li",
+     "x": "Si tu le peux, jeûne certains jours, et cherche aussi l'aide de ton pasteur."
+    },
+    {
+     "t": "p",
+     "x": "Après ces 14 jours, continue avec la Veille, un jour une prière. Rien n'est impossible à Dieu."
+    }
+   ],
+   "categorie": "Un couple, un foyer en crise",
+   "icone": "groupe",
+   "couple": true,
+   "suite": "veille"
+  },
+  {
+   "id": "prodigue-21",
+   "format": "veille",
+   "titre": "21 jours pour un enfant prodigue",
+   "court": "Enfant prodigue",
+   "duree": 21,
+   "description": "Pour un fils, une fille, un frère ou une sœur qui a quitté la maison, la foi ou le droit chemin : mauvaises compagnies, dépendances, rupture avec la famille. Chaque jour : un texte, un partage, des sujets de prière, et un axe pour la gloire de Dieu.",
+   "intro": [
+    {
+     "t": "h",
+     "x": "Attendre le retour de {nom}"
+    },
+    {
+     "t": "p",
+     "x": "Le père de la parabole n'a pas couru après son fils dans le pays éloigné : il l'a laissé partir, il a attendu, et il a couru vers lui dès qu'il l'a vu revenir. Pendant ces 21 jours, nous prions pour que Dieu ramène {nom}, et aussi pour que nos cœurs soient prêts à l'accueillir."
+    },
+    {
+     "t": "li",
+     "x": "Lis le texte du jour et le partage, puis prie chaque sujet en nommant {nom}."
+    },
+    {
+     "t": "li",
+     "x": "Ne transforme pas tes appels et tes messages en sermons. Prie d'abord, parle ensuite, et peu."
+    },
+    {
+     "t": "li",
+     "x": "Si {nom} est en danger (drogue, violence, idées de suicide), la prière ne suffit pas : cherche aussi une aide médicale, sociale ou juridique."
+    },
+    {
+     "t": "li",
+     "x": "Si tu le peux, jeûne un ou deux jours par semaine pour {nom}."
+    },
+    {
+     "t": "p",
+     "x": "Après ces 21 jours, continue avec la Veille. Le Père n'a pas oublié {nom}."
+    }
+   ],
+   "categorie": "Un enfant ou un proche qui s'est éloigné",
+   "icone": "accueil",
+   "suite": "veille"
   },
   {
    "id": "salut-21",
@@ -117,45 +204,75 @@
      "t": "p",
      "x": "Après les 21 jours, ne t'arrête pas : passe à la Veille, un jour une prière, et continue jusqu'à la réponse. Dieu est fidèle."
     }
-   ]
+   ],
+   "categorie": "Le salut d'un proche",
+   "icone": "croix",
+   "suite": "veille"
   },
   {
-   "id": "foyer-14",
+   "id": "emploi-14",
    "format": "veille",
-   "titre": "14 jours pour un foyer en crise",
-   "court": "Foyer en crise",
+   "titre": "14 jours pour un emploi",
+   "court": "Emploi",
    "duree": 14,
-   "description": "Pour un couple en difficulté : disputes, infidélité, séparation, menace de divorce, problèmes d'argent. Chaque jour : un texte, un partage, des sujets de prière et un axe pour la gloire de Dieu. Indique le prénom du conjoint dans les réglages.",
+   "description": "Pour un proche au chômage, en recherche d'emploi, ou dans un travail menacé. On prie pour les portes ouvertes, la faveur, l'intégrité face à la corruption, la provision pendant l'attente et le bon emploi.",
    "intro": [
     {
      "t": "h",
-     "x": "Combattre pour le foyer de {nom}"
+     "x": "Prier pour le travail de {nom}"
     },
     {
      "t": "p",
-     "x": "Un foyer en crise n'est pas seulement une affaire de caractères. C'est souvent un combat spirituel, où l'ennemi veut détruire ce que Dieu a uni. Pendant ces 14 jours, nous allons prier selon la Parole : pour que Dieu redevienne le bâtisseur de la maison, pour la fidélité, le pardon, la parole douce, les enfants, la provision, et contre les puissances qui veulent diviser."
+     "x": "Le chômage n'est pas seulement un problème d'argent : il touche la dignité, la famille et la foi. Pendant ces 14 jours, nous remettons la carrière de {nom} à Dieu, et nous prions pour qu'{il} trouve un travail sans renier sa foi ni entrer dans la corruption."
     },
     {
      "t": "li",
-     "x": "Lis le texte du jour à voix haute, puis le partage."
+     "x": "La prière accompagne la recherche, elle ne la remplace pas : continue de déposer des demandes, de te former et de frapper aux portes."
     },
     {
      "t": "li",
-     "x": "Prie chaque sujet en nommant {nom} et {conjoint}."
+     "x": "Prie chaque sujet en nommant {nom}. Si tu le peux, jeûne certains jours."
     },
     {
      "t": "li",
-     "x": "Si tu fais partie de ce couple, commence toujours par ta propre repentance : ne prie pas seulement pour que l'autre change."
-    },
-    {
-     "t": "li",
-     "x": "Si tu le peux, jeûne certains jours, et cherche aussi l'aide de ton pasteur."
+     "x": "Refuse toute porte qui demande de l'argent sous la table, un compromis sexuel ou de renier Christ."
     },
     {
      "t": "p",
-     "x": "Après ces 14 jours, continue avec la Veille, un jour une prière. Rien n'est impossible à Dieu."
+     "x": "Après ces 14 jours, continue avec la Veille jusqu'à la réponse."
     }
-   ]
+   ],
+   "categorie": "Un emploi, un travail",
+   "icone": "cible",
+   "suite": "veille"
+  },
+  {
+   "id": "examens-7",
+   "format": "veille",
+   "titre": "7 jours avant un examen",
+   "court": "Examen",
+   "duree": 7,
+   "description": "La semaine qui précède un examen, un concours ou une soutenance : sagesse, discipline, mémoire, intégrité, paix, le jour de l'épreuve et le résultat.",
+   "intro": [
+    {
+     "t": "h",
+     "x": "Une semaine de prière pour {nom}"
+    },
+    {
+     "t": "p",
+     "x": "Dieu bénit le travail, il ne le remplace pas. Pendant ces 7 jours, nous prions pour que {nom} étudie avec sérieux, garde la paix, refuse la fraude, et rende gloire à Dieu quel que soit le résultat."
+    },
+    {
+     "t": "li",
+     "x": "Commence ce programme 7 jours avant l'examen, et prie de préférence avec {nom}."
+    },
+    {
+     "t": "li",
+     "x": "Garde aussi du temps pour réviser, dormir et manger : ce sont aussi des réponses de Dieu."
+    }
+   ],
+   "categorie": "Un examen, un concours",
+   "icone": "note"
   },
   {
    "id": "veille",
@@ -213,7 +330,10 @@
      "t": "p",
      "x": "Ainsi personne n'est indispensable : chacun peut conduire à son tour, et la veille ne s'interrompt jamais. Même quand la personne est guérie, on continue : pour rendre grâce, pour que Dieu maintienne ce qu'il a commencé, et pour qu'elle grandisse dans la foi."
     }
-   ]
+   ],
+   "categorie": "Continuer chaque jour, mois après mois",
+   "icone": "calendrier",
+   "adaptable": true
   },
   {
    "id": "vie-nouvelle",
@@ -259,7 +379,10 @@
      "t": "p",
      "x": "Édification d'abord, combat ensuite, jamais l'inverse. Et tout cela accompagne le suivi médical, sans jamais le remplacer."
     }
-   ]
+   ],
+   "categorie": "Après la réponse : la vie nouvelle en couple",
+   "icone": "soleil",
+   "adaptable": true
   }
  ]
 }

@@ -717,3 +717,7 @@
 .meditation__question .ligne__titre { display: block; margin-bottom: 4px; font-size: .95rem; }
 .meditation__defi { border: 2px solid var(--or); }
 .meditation__question .champ--zone { min-height: 56px; height: 56px; }
+.pq-choix { width: 100%; }
+.pq-choix__cat { display: block; font-size: .78rem; font-weight: 700; color: var(--or-fonce, #9a7419); text-transform: uppercase; letter-spacing: .02em; margin-bottom: 2px; }
+.pq-choix .ligne__desc { font-weight: 400; }
+.pq-reglages { scroll-margin-top: 120px; }

@@ -139,7 +139,7 @@ function Questions({ e }) {
 function PrieresLiees({ liens }) {
   const items = liens.map((l) => {
     const [type, id] = l.split(':');
-    if (type === 'pq') return { titre: "Jeûner et prier pour quelqu'un", image: '/assets/priere/priere-pour-un-malade.webp', lien: '#/priere/pour-quelqu-un', desc: 'Programmes de jeûne et de prière pour un proche, un foyer, une situation' };
+    if (type === 'pq') return { titre: 'Prier pour un proche', image: '/assets/priere/priere-pour-un-malade.webp', lien: '#/priere/pour-quelqu-un', desc: 'Programmes de prière et de jeûne pour un malade, un foyer, un enfant prodigue, un emploi, un examen' };
     if (type === 'enseignement') { const e = ENSEIGNEMENTS.find((x) => x.id === id); return e && { titre: e.titre, image: e.image, lien: '#/grandir/enseignement/' + id, desc: "L'enseignement suivant" }; }
     const x = type === 'theme' ? PRIERES.find((p) => p.id === id) : type === 'combat' ? COMBAT.find((c) => c.id === id) : VEILLES.find((v) => v.id === 'veille-' + id);
     return x && { titre: x.titre, image: x.image, lien: `#/priere/${type}/${id}?guide=1` };

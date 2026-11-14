@@ -22,78 +22,91 @@ function Bloc({ b, c }) {
   return <p class="orizon-p"><TexteRefs texte={x} /></p>;
 }
 
-// Réglages : pour qui, homme ou femme, quelle situation.
+// Une carte de programme (choix ou changement de programme).
+function CarteProgramme({ e, actif, onClick, c }) {
+  return (
+    <button class={'carte pq-choix' + (actif ? ' pq-choix--actif' : '')} onClick={onClick} aria-pressed={actif}>
+      <span class="ligne__icone"><Icone nom={e.icone || 'priere'} /></span>
+      <span class="ligne__corps"><span class="pq-choix__cat">{e.categorie}</span><b>{e.titre}</b>
+        <span class="ligne__desc" style="display:block">{c ? adapter(e.description, c) : e.description.replace(/\{[a-z_]+\}/g, '…')}</span></span>
+    </button>
+  );
+}
+
+// Réglages : d'abord la situation (le programme), puis pour qui.
 function Reglages({ c, fini }) {
-  const [f, setF] = useState({ nom: c?.nom || '', sexe: c?.sexe || 'h', situation: c?.situation || 'maladie', detail: c?.detail || '', conjoint: c?.conjoint || '', etape: c?.etape || 'jeune-21' });
+  const [f, setF] = useState({ nom: c?.nom || '', sexe: c?.sexe || 'h', situation: c?.situation || 'maladie', detail: c?.detail || '', conjoint: c?.conjoint || '', etape: c?.etape || '' });
   const maj = (k, v) => setF({ ...f, [k]: v });
+  const e = I.etapes.find((x) => x.id === f.etape);
+  if (!c && !e) return (
+    <section class="pq-reglages">
+      <h3 class="titre-section" style="margin-top:4px">1 · Quelle est la situation ?</h3>
+      <div class="liste">{I.etapes.filter((x) => !x.cache).map((x) => <CarteProgramme e={x} onClick={() => { maj('etape', x.id); setTimeout(() => document.querySelector('.pq-reglages')?.scrollIntoView({ block: 'start' }), 50); }} />)}</div>
+    </section>
+  );
   return (
     <section class="carte bloc pq-reglages">
-      <h3 style="margin-top:0">{c ? 'Modifier' : 'Pour qui veux-tu prier ?'}</h3>
+      {!c && <><p class="ligne__desc" style="margin:0">Programme choisi</p>
+        <p class="ligne__titre" style="margin:2px 0 4px">{e.titre}</p>
+        <button class="lien" onClick={() => maj('etape', '')}>Choisir une autre situation</button>
+        <h3>2 · Pour qui veux-tu prier ?</h3></>}
+      {c && <h3 style="margin-top:0">Modifier</h3>}
       <label class="ligne__titre" for="pq-nom">Son prénom (et son nom si tu veux)</label>
-      <input id="pq-nom" class="champ" value={f.nom} maxLength={40} placeholder="Ex. : Paul, maman Esther…" onInput={(e) => maj('nom', e.currentTarget.value)} />
+      <input id="pq-nom" class="champ" value={f.nom} maxLength={40} placeholder="Ex. : Paul, maman Esther…" onInput={(ev) => maj('nom', ev.currentTarget.value)} />
       <p class="ligne__titre" style="margin:12px 0 6px">C'est…</p>
       <div class="segments" role="group" aria-label="Homme ou femme">
-        <button aria-pressed={f.sexe === 'h'} onClick={() => maj('sexe', 'h')}>un homme</button>
-        <button aria-pressed={f.sexe === 'f'} onClick={() => maj('sexe', 'f')}>une femme</button>
+        <button aria-pressed={f.sexe === 'h'} onClick={() => maj('sexe', 'h')}>un homme, un garçon</button>
+        <button aria-pressed={f.sexe === 'f'} onClick={() => maj('sexe', 'f')}>une femme, une fille</button>
       </div>
-      <p class="ligne__titre" style="margin:12px 0 6px">Pour quelle situation ?</p>
-      <div class="segments" role="group" aria-label="Situation">
-        <button aria-pressed={f.situation === 'maladie'} onClick={() => maj('situation', 'maladie')}>Une maladie</button>
-        <button aria-pressed={f.situation === 'epreuve'} onClick={() => maj('situation', 'epreuve')}>Une autre épreuve</button>
-      </div>
-      <input class="champ" style="margin-top:8px" value={f.detail} maxLength={80} placeholder="En quelques mots (facultatif) : ex. un cancer, un procès, un chômage…" onInput={(e) => maj('detail', e.currentTarget.value)} />
-      <label class="ligne__titre" for="pq-conj" style="display:block;margin-top:12px">Prénom de son conjoint (facultatif, pour l'étape en couple)</label>
-      <input id="pq-conj" class="champ" value={f.conjoint} maxLength={40} placeholder="Ex. : Marie" onInput={(e) => maj('conjoint', e.currentTarget.value)} />
-      {!c && <>
-        <p class="ligne__titre" style="margin:12px 0 6px">Par où commencer ?</p>
-        <div class="liste">{I.etapes.map((e, i) => (
-          <button class={'carte pq-choix' + (f.etape === e.id ? ' pq-choix--actif' : '')} onClick={() => maj('etape', e.id)}>
-            <span class="orizon-etape__num">{i + 1}</span><span class="ligne__corps"><b>{e.titre}</b><span class="ligne__desc" style="display:block">{e.description}</span></span>
-          </button>))}</div>
-      </>}
-      <button class="bouton bouton--or" style="width:100%;margin-top:14px" disabled={!f.nom.trim()} onClick={() => { configurer(f); fini?.(); compter('pour-quelqu-un', f.etape); }}>
+      {(c || e?.adaptable) && <>
+        <p class="ligne__titre" style="margin:12px 0 6px">Pour quelle situation ?</p>
+        <div class="segments" role="group" aria-label="Situation">
+          <button aria-pressed={f.situation === 'maladie'} onClick={() => maj('situation', 'maladie')}>Une maladie</button>
+          <button aria-pressed={f.situation === 'epreuve'} onClick={() => maj('situation', 'epreuve')}>Une autre épreuve</button>
+        </div></>}
+      <input class="champ" style="margin-top:8px" value={f.detail} maxLength={80} placeholder="En quelques mots (facultatif) : ex. un cancer, un procès, le bac…" onInput={(ev) => maj('detail', ev.currentTarget.value)} />
+      {(c || e?.couple) && <>
+        <label class="ligne__titre" for="pq-conj" style="display:block;margin-top:12px">Prénom de son conjoint{e?.couple ? '' : ' (facultatif)'}</label>
+        <input id="pq-conj" class="champ" value={f.conjoint} maxLength={40} placeholder="Ex. : Marie" onInput={(ev) => maj('conjoint', ev.currentTarget.value)} /></>}
+      <button class="bouton bouton--or" style="width:100%;margin-top:14px" disabled={!f.nom.trim()} onClick={() => { configurer({ ...f, situation: (c || e?.adaptable) ? f.situation : 'epreuve' }); fini?.(); scrollTo(0, 0); compter('pour-quelqu-un', f.etape); }}>
         {c ? 'Enregistrer' : `Commencer à prier pour ${f.nom.trim() || '…'}`}</button>
-      <p class="ligne__desc" style="margin-top:8px">Tout reste sur ton téléphone. Les textes s'adaptent automatiquement au prénom et à la situation.</p>
+      <p class="ligne__desc" style="margin-top:8px">Tout reste sur ton téléphone. Les textes s'adaptent automatiquement au prénom.</p>
     </section>
   );
 }
 
-// Accueil : pour qui, l'étape en cours, le jour du jour, les jours suivants.
+// Accueil : pour qui, le programme en cours, le jour du jour, les jours suivants.
 export function PourQuelquun({ jour }) {
   const c = useSignal(pq);
   const [modif, setModif] = useState(false);
+  const [changer, setChanger] = useState(false);
   if (jour && c) return <JourPQ n={+jour} c={c} />;
   if (!c || modif) return (
     <div class="page">
-      <div class="theme-hero"><img src="/assets/priere/priere-pour-un-malade.webp" alt="" />
-        <div class="theme-hero__texte"><span class="pastille pastille--or">Un jour, une prière</span><h2>{I.titre}</h2></div></div>
+      <div class="theme-hero"><img src="/assets/priere/priere-en-famille.webp" alt="" />
+        <div class="theme-hero__texte"><span class="pastille pastille--or">Programmes de prière</span><h2>{I.titre}</h2></div></div>
       <p class="niveau-description">{I.resume}</p>
-      <a class="carte ligne" href="#/grandir/enseignement/jeune-0-troisieme-force" style="margin-bottom:10px;border:2px solid var(--or)">
+      <Reglages c={modif ? c : null} fini={() => setModif(false)} />
+      <a class="carte ligne" href="#/grandir/enseignement/jeune-0-troisieme-force" style="margin-top:12px">
         <span class="ligne__icone"><Icone nom="ampoule" /></span>
-        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Comprendre le jeûne d'abord</span>
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Jeûner pendant ces jours ?</span>
           <span class="ligne__desc">Série de 6 enseignements : le jeûne, troisième force d'intervention, et les cinq jeûnes de la Bible.</span></span>
         <Icone nom="chevron" taille={20} /></a>
-      <Reglages c={modif ? c : null} fini={() => setModif(false)} />
       <p class="source-mention">{I.source}</p>
     </div>
   );
   const e = etapeDe(c.etape), faits = faitsDe(e.id, c), n = jourCourantPQ(e.id, e.duree, c);
   const bloque = debutCycleBloque(e.id, c), et = bloque ? 'demain' : etatJourPQ(e.id, n, c);
   const cycle = c.cycles?.[e.id] || 1;
+  const suite = e.suite && I.etapes.find((x) => x.id === e.suite);
   return (
     <div class="page">
       <section class="carte bloc pq-tete">
         <p class="ligne__desc" style="margin:0">Tu pries pour</p>
         <h2 style="margin:2px 0">{c.nom}</h2>
-        <p class="ligne__desc" style="margin:0">{c.situation === 'maladie' ? 'Maladie' : 'Épreuve'}{c.detail ? ' · ' + c.detail : ''}</p>
+        <p class="ligne__desc" style="margin:0">{e.categorie}{c.detail ? ' · ' + c.detail : ''}</p>
         <button class="lien" style="margin-top:6px" onClick={() => setModif(true)}>Modifier</button>
       </section>
-
-      <h2 class="titre-section">Les étapes</h2>
-      <div class="pq-etapes">{I.etapes.map((x, i) => (
-        <button class={'pq-etape' + (x.id === e.id ? ' pq-etape--active' : '')} onClick={() => x.id !== e.id && configurer({ etape: x.id })} aria-pressed={x.id === e.id}>
-          <span class="orizon-etape__num">{i + 1}</span><span>{x.court}</span></button>))}</div>
-      <p class="niveau-description">{adapter(e.description, c)}</p>
 
       <section class="carte bloc pq-jour">
         <p class="ligne__desc" style="margin:0">{e.titre}{e.perpetuel ? ` · cycle ${cycle}` : ''}</p>
@@ -103,6 +116,7 @@ export function PourQuelquun({ jour }) {
           ? <p class="orizon-attente" style="margin-top:10px"><Icone nom="cadenas" taille={18} /> Tu as prié aujourd'hui. Le jour {n} s'ouvrira demain, après minuit.</p>
           : <a class="bouton bouton--or" style="width:100%;margin-top:10px" href={'#/priere/pour-quelqu-un/jour/' + n}><Icone nom="lecture" taille={20} /> Prier le jour {n}</a>}
       </section>
+      <p class="niveau-description">{adapter(e.description, c)}</p>
 
       <details class="carte bloc pq-comment">
         <summary><Icone nom="info" taille={18} /> Comment ça marche ? <span class="ligne__desc">(toucher pour lire)</span></summary>
@@ -118,7 +132,12 @@ export function PourQuelquun({ jour }) {
         })}
       </div>
       <p class="ligne__desc" style="margin:6px 4px">Un jour s'ouvre chaque jour, après minuit. Les jours déjà priés restent accessibles.</p>
-      {faits.length === e.duree - 1 || (!e.perpetuel && faits.length === e.duree) ? <p class="guide-phase"><Icone nom="info" taille={18} /><span>Après la dernière journée, passe à l'étape suivante (en haut) pour continuer de prier, même si Dieu a déjà répondu : pour rendre grâce, et pour qu'il maintienne ce qu'il a fait.</span></p> : null}
+      {suite && (faits.length >= e.duree - 1) ? <button class="carte guide-phase" style="width:100%;text-align:left" onClick={() => configurer({ etape: suite.id })}><Icone nom="info" taille={18} /><span>Après la dernière journée, continue avec <b>{suite.titre}</b> (toucher pour passer), même si Dieu a déjà répondu : pour rendre grâce, et pour qu'il maintienne ce qu'il a fait.</span></button> : null}
+
+      <h2 class="titre-section">Prier pour une autre situation</h2>
+      {!changer ? <button class="bouton bouton--contour" style="width:100%" onClick={() => setChanger(true)}><Icone nom="liste" taille={18} /> Voir tous les programmes</button>
+        : <div class="liste">{I.etapes.map((x) => <CarteProgramme e={x} c={c} actif={x.id === e.id} onClick={() => { configurer({ etape: x.id }); setChanger(false); scrollTo(0, 0); }} />)}</div>}
+      <p class="ligne__desc" style="margin:6px 4px">Ta progression dans chaque programme est gardée. Pour prier pour une autre personne, touche « Modifier » en haut.</p>
       <p class="source-mention">{I.source}</p>
     </div>
   );
