@@ -151,7 +151,7 @@ export function Parametres() {
           <p class="ligne__desc">Ton profil, ton journal, tes notes et tes réponses restent sur ce téléphone et ne sont jamais envoyés.
             {persistant === true && ' Stockage protégé contre l\'effacement automatique.'}</p>
           <p class="ligne__desc" style="margin-top:8px"><b>Statistiques anonymes</b> : des compteurs sans nom ni contact (rubriques et contenus utilisés, sujets priés, décisions pour Jésus) qui aident à améliorer Yeshaya et à prier pour ses utilisateurs.</p>
-          <Segments libelle="Statistiques anonymes" options={{ oui: 'Activées', non: 'Désactivées' }} valeur={r.statsAnonymes ? 'oui' : 'non'} surChoix={(v) => choisirStats(v === 'oui')} />
+          <Segments libelle="Statistiques anonymes" options={[['oui', 'Activées'], ['non', 'Désactivées']]} valeur={r.statsAnonymes ? 'oui' : 'non'} surChoix={(v) => choisirStats(v === 'oui')} />
           <a class="lien" href="#/confidentialite" style="display:inline-block;margin-top:8px">Lire la politique de confidentialité</a>
         </div>
         <a class="carte ligne" href="#/a-propos">
