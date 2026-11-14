@@ -1,0 +1,192 @@
+{
+ "id": "conversation-route-des-romains",
+ "ordre": 2,
+ "titre": "La route des Romains",
+ "resume": "Une conversation interactive en 5 étapes, à travers la lettre aux Romains : le péché, sa conséquence, le don de Dieu, comment le recevoir, et la paix avec Dieu.",
+ "image": "/assets/jesus/jesus-main-tendue.webp",
+ "duree_estimee": "8 à 10 min",
+ "conseil": "Idéal avec quelqu'un qui accepte d'ouvrir la Bible. La voix lit chaque étape, puis la personne répond en touchant sa réponse.",
+ "noeuds": {
+  "debut": {
+   "dit": [
+    "Bonjour ! Je voudrais faire avec toi un petit voyage dans la Bible, sur ce qu'on appelle « la route des Romains » : quelques versets de la lettre de l'apôtre Paul aux Romains, qui expliquent comment être sauvé. À chaque étape, je te pose une question.",
+    "Pour commencer : as-tu déjà lu la Bible, ou entendu parler de la lettre aux Romains ?"
+   ],
+   "versets": [],
+   "choix": [
+    {
+     "texte": "Oui",
+     "aller": "etape1"
+    },
+    {
+     "texte": "Un peu",
+     "aller": "etape1"
+    },
+    {
+     "texte": "Jamais",
+     "aller": "etape1"
+    }
+   ]
+  },
+  "etape1": {
+   "dit": [
+    "Première étape. La Bible dit : Il n'y a point de juste, pas même un seul. Et encore : tous ont péché et sont privés de la gloire de Dieu.",
+    "« Tous », cela veut dire le pasteur, le président, moi, et toi aussi. Le péché, c'est désobéir à Dieu : mentir, voler, haïr, convoiter, vivre comme si Dieu n'existait pas.",
+    "Es-tu d'accord que tu as, toi aussi, péché contre Dieu ?"
+   ],
+   "versets": [
+    "Rm 3:10",
+    "Rm 3:23"
+   ],
+   "choix": [
+    {
+     "texte": "Oui, j'ai péché",
+     "aller": "etape2"
+    },
+    {
+     "texte": "Je ne suis pas pire que les autres",
+     "aller": "comparaison"
+    }
+   ]
+  },
+  "comparaison": {
+   "dit": [
+    "C'est vrai, beaucoup font pire. Mais Dieu ne nous compare pas aux autres : il nous compare à sa sainteté. Si trois personnes essaient de sauter jusqu'à la lune, peu importe que l'une saute plus haut : aucune n'y arrive. De même, aucun de nous n'atteint la gloire de Dieu par lui-même."
+   ],
+   "versets": [],
+   "choix": [
+    {
+     "texte": "Je comprends, j'ai péché",
+     "aller": "etape2"
+    }
+   ]
+  },
+  "etape2": {
+   "dit": [
+    "Deuxième étape. D'où vient le péché ? La Bible explique que par un seul homme, Adam, le péché est entré dans le monde, et par le péché la mort. Depuis, chaque être humain naît avec un cœur tourné vers le mal.",
+    "Et il y a une conséquence : le salaire du péché, c'est la mort. Un salaire, c'est ce qu'on mérite après avoir travaillé. Le péché nous a « mérité » la mort : pas seulement la mort du corps, mais la séparation éternelle d'avec Dieu.",
+    "Savais-tu que le péché a des conséquences aussi graves ?"
+   ],
+   "versets": [
+    "Rm 5:12",
+    "Rm 6:23"
+   ],
+   "choix": [
+    {
+     "texte": "Non, je ne savais pas",
+     "aller": "etape3"
+    },
+    {
+     "texte": "Oui, je le savais",
+     "aller": "etape3"
+    }
+   ]
+  },
+  "etape3": {
+   "dit": [
+    "Troisième étape, la plus belle : le même verset continue. Mais le don gratuit de Dieu, c'est la vie éternelle en Jésus-Christ notre Seigneur.",
+    "Un don gratuit, on ne le gagne pas, on ne l'achète pas : on le reçoit. Et voici comment Dieu nous a montré son amour : lorsque nous étions encore des pécheurs, Christ est mort pour nous. Jésus a pris notre salaire, la mort, sur la croix. Puis Dieu l'a ressuscité le troisième jour.",
+    "Que penses-tu de cet amour ?"
+   ],
+   "versets": [
+    "Rm 6:23",
+    "Rm 5:8"
+   ],
+   "choix": [
+    {
+     "texte": "C'est incroyable",
+     "aller": "etape4"
+    },
+    {
+     "texte": "Pourquoi ferait-il cela pour moi ?",
+     "aller": "pourquoi"
+    }
+   ]
+  },
+  "pourquoi": {
+   "dit": [
+    "Parce qu'il t'aime, simplement. Pas parce que tu le mérites, mais parce que Dieu est amour. Rien ne peut nous séparer de l'amour de Dieu manifesté en Jésus-Christ. Tu as tellement de valeur à ses yeux qu'il a donné son Fils pour toi."
+   ],
+   "versets": [
+    "Rm 8:38-39"
+   ],
+   "choix": [
+    {
+     "texte": "Je veux savoir comment le recevoir",
+     "aller": "etape4"
+    }
+   ]
+  },
+  "etape4": {
+   "dit": [
+    "Quatrième étape : comment recevoir ce don ? La Bible est très claire. Si tu confesses de ta bouche le Seigneur Jésus, et si tu crois dans ton cœur que Dieu l'a ressuscité des morts, tu seras sauvé.",
+    "Croire dans ton cœur, ce n'est pas seulement savoir que Jésus a existé. C'est lui faire confiance, te détourner de ton péché pour revenir à Dieu, et l'accueillir dans ta vie. Confesser de ta bouche, c'est le dire : Jésus est mon Seigneur.",
+    "Et c'est pour tout le monde, sans exception : quiconque invoquera le nom du Seigneur sera sauvé. « Quiconque », c'est toi aussi."
+   ],
+   "versets": [
+    "Rm 10:9-10",
+    "Rm 10:13"
+   ],
+   "choix": [
+    {
+     "texte": "Et après, que se passe-t-il ?",
+     "aller": "etape5"
+    }
+   ]
+  },
+  "etape5": {
+   "dit": [
+    "Dernière étape : ce que tu reçois. Étant justifiés par la foi, nous avons la paix avec Dieu. Justifié, cela veut dire déclaré juste, comme si tu n'avais jamais péché, parce que Jésus a payé.",
+    "Et il n'y a donc maintenant aucune condamnation pour ceux qui sont en Jésus-Christ. Plus de condamnation : le pardon, la paix, et la vie éternelle.",
+    "Veux-tu recevoir Jésus aujourd'hui, te détourner de ton péché et lui faire confiance comme ton Sauveur et ton Seigneur ?"
+   ],
+   "versets": [
+    "Rm 5:1",
+    "Rm 8:1"
+   ],
+   "choix": [
+    {
+     "texte": "Oui, je le veux",
+     "aller": "priere"
+    },
+    {
+     "texte": "Pas encore",
+     "aller": "pas-encore"
+    }
+   ]
+  },
+  "pas-encore": {
+   "dit": [
+    "Je respecte ta décision. Garde ces versets dans ton cœur et relis-les : Romains 3:23, 6:23, 5:8, 10:9. Et souviens-toi : voici maintenant le temps favorable, voici maintenant le jour du salut. Tu peux revenir à cette conversation quand tu veux."
+   ],
+   "versets": [
+    "2 Co 6:2"
+   ],
+   "choix": [
+    {
+     "texte": "Finalement, je veux prier maintenant",
+     "aller": "priere"
+    }
+   ],
+   "fin": "pas-encore"
+  },
+  "priere": {
+   "dit": [
+    "Gloire à Dieu ! Prions ensemble. Répète après moi, du fond de ton cœur.",
+    "Seigneur Jésus, je viens à toi aujourd'hui. Je reconnais que j'ai péché contre toi : mon cœur est rempli d'orgueil, de mensonge, d'impureté et de tant de choses mauvaises. Je ne peux pas me sauver moi-même. Je te demande pardon. Je crois que tu es le Fils de Dieu, que tu es mort sur la croix pour mes péchés, et je crois dans mon cœur que Dieu t'a ressuscité des morts. Je me détourne de mes péchés. J'ouvre la porte de mon cœur : entre, Seigneur Jésus, viens habiter en moi. Je te reçois aujourd'hui comme mon Sauveur et mon Seigneur. Lave-moi par ton sang, remplis-moi de ton Saint-Esprit, et aide-moi à te suivre chaque jour. Merci pour ta Parole, merci de m'avoir sauvé. Au nom de Jésus. Amen."
+   ],
+   "versets": [],
+   "choix": [],
+   "fin": "priere"
+  }
+ },
+ "apres": [
+  "Si tu as prié cette prière avec sincérité, la Bible dit que tu es devenu enfant de Dieu. Ce n'est pas un sentiment qui te le garantit, c'est sa promesse : quiconque invoquera le nom du Seigneur sera sauvé.",
+  "Dis-le à quelqu'un : à la personne qui t'a partagé ce message, ou à un chrétien que tu connais. Commence à lire la Bible, par exemple l'Évangile de Jean, à prier chaque jour, et cherche une église où l'on enseigne la Parole de Dieu.",
+  "Le parcours « Nouveau converti » de l'application t'accompagne pas à pas pendant 30 jours."
+ ],
+ "source": "« La route des Romains » est une manière classique, utilisée par de nombreuses églises, de présenter l'Évangile avec la lettre aux Romains. Texte original du ministère Yeshaya.",
+ "auteur": "Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14"
+}
