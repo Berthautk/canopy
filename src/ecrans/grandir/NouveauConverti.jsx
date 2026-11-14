@@ -93,7 +93,7 @@ function Etape({ cfg, id, n, faits, decision }) {
       )}
       {j.decision && (decision
         ? <p class="hors-ligne-ok" style="justify-content:center;margin-top:12px"><Icone nom="verifie" taille={18} /> Tu as donné ta vie à Jésus le {new Date(decision).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}. Bienvenue dans la famille de Dieu !</p>
-        : <button class="bouton bouton--plein" style="width:100%;margin-top:12px" onClick={() => { noterDecision(); notifier('Bienvenue dans la famille de Dieu !'); }}>
+        : <button class="bouton bouton--plein" style="width:100%;margin-top:12px" onClick={() => { noterDecision('parcours'); notifier('Bienvenue dans la famille de Dieu !'); }}>
             <Icone nom="coeur" taille={18} /> J'ai donné ma vie à Jésus</button>)}
       {fait ? <p class="hors-ligne-ok" style="justify-content:center;margin-top:14px"><Icone nom="verifie" taille={18} /> Terminé</p>
         : <button class="bouton bouton--or" style="width:100%;margin-top:14px" onClick={terminer}><Icone nom="verifie" taille={18} /> J'ai terminé {cfg.unite === 'Leçon' ? 'cette leçon' : 'ce jour'}</button>}

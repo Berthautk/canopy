@@ -1,6 +1,7 @@
 // Journal de prière, « J'ai prié » et parcours Nouveau converti : tout reste sur le téléphone.
 import { get, set } from 'idb-keyval';
 import { signal } from '../outils/signal.js';
+import { compter } from './mesure.js';
 
 const CLE_JOURNAL = 'yeshaya:journal';       // [{ id, titre, detail, date, exaucee: null | { date, temoignage } }]
 const CLE_PRIE = 'yeshaya:j-ai-prie';         // { themeId: [dates ISO] }
@@ -33,11 +34,12 @@ export const remettreEnPriere = (id) => sauver(CLE_JOURNAL, journal, journal.val
 export const supprimerRequete = (id) => sauver(CLE_JOURNAL, journal, journal.valeur.filter((r) => r.id !== id));
 
 // ----- « J'ai prié » -----
-export const noterPriere = (themeId) => sauver(CLE_PRIE, aiPrie, { ...aiPrie.valeur, [themeId]: [...(aiPrie.valeur[themeId] || []), new Date().toISOString()] });
+export const noterPriere = (themeId) => (compter('j-ai-prie', themeId), sauver(CLE_PRIE, aiPrie, { ...aiPrie.valeur, [themeId]: [...(aiPrie.valeur[themeId] || []), new Date().toISOString()] }));
 
 // ----- Statistiques personnelles (restent sur le téléphone) -----
 const aujourdhui = () => new Date().toISOString().slice(0, 10);
 export function noterSujetPrie(n = 1) {
+  compter('sujet-prie');
   const j = aujourdhui(), st = statistiques.valeur;
   return sauver(CLE_STATS, statistiques, { ...st, sujets: { ...st.sujets, [j]: (st.sujets[j] || 0) + n } });
 }
@@ -45,5 +47,5 @@ export function noterSujetPrie(n = 1) {
 // ----- Parcours Nouveau converti : un jour se débloque quand le précédent est terminé -----
 export const terminerJour = (n, cle = 'faits') => sauver(CLE_PARCOURS, parcours, { ...parcours.valeur, [cle]: [...new Set([...(parcours.valeur[cle] || []), n])].sort((a, b) => a - b) });
 export const jourDebloque = (n, faits = parcours.valeur.faits) => n === 1 || faits.includes(n - 1);
-export const noterDecision = () => sauver(CLE_PARCOURS, parcours, { ...parcours.valeur, decision: parcours.valeur.decision || new Date().toISOString() });
+export const noterDecision = (source = 'app') => (parcours.valeur.decision || compter('decision', source), sauver(CLE_PARCOURS, parcours, { ...parcours.valeur, decision: parcours.valeur.decision || new Date().toISOString() }));
 export const dateCourte = (iso) => new Date(iso).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' });

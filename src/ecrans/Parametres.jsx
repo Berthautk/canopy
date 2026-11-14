@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
 import { Icone } from '../composants/Icone.jsx';
+import { choisirStats } from '../donnees/mesure.js';
 import { reglages, modifierReglages } from '../donnees/reglages.js';
 import { useSignal } from '../outils/signal.js';
 import { profil, changerPhoto, retirerPhoto, changerPrenom } from '../donnees/profil.js';
@@ -145,14 +146,12 @@ export function Parametres() {
             <span class="ligne__desc" style="display:block">Espace utilisé, contenus hors ligne.</span></span>
           <span class="ligne__fin"><Icone nom="chevron" taille={20} /></span>
         </a>
-        <div class="carte ligne">
-          <span class="ligne__icone"><Icone nom="donnees" /></span>
-          <span class="ligne__corps"><span class="ligne__titre">Données et confidentialité</span>
-            <span class="ligne__desc" style="display:block">
-              Tout reste sur ce téléphone. Rien n'est envoyé sur internet.
-              {persistant === true && ' Stockage protégé contre l\'effacement automatique.'}
-            </span></span>
-          <span class="ligne__fin" style="color:var(--sauge)"><Icone nom="bouclier" taille={22} /></span>
+        <div class="carte param-bloc">
+          <div class="param-bloc__titre"><span class="ligne__icone"><Icone nom="donnees" /></span> Données et confidentialité</div>
+          <p class="ligne__desc">Ton profil, ton journal, tes notes et tes réponses restent sur ce téléphone.
+            {persistant === true && ' Stockage protégé contre l\'effacement automatique.'}</p>
+          <p class="ligne__desc" style="margin-top:8px"><b>Statistiques anonymes</b> : envoyer seulement des chiffres (par exemple « un enseignement a été ouvert », « une personne a donné sa vie à Jésus »), sans nom, sans contact, sans pays. Cela aide l'équipe à savoir ce qui est utile.</p>
+          <Segments libelle="Statistiques anonymes" options={{ oui: 'Oui, j\'aide', non: 'Non merci' }} valeur={r.statsAnonymes === true ? 'oui' : r.statsAnonymes === false ? 'non' : ''} surChoix={(v) => choisirStats(v === 'oui')} />
         </div>
         <a class="carte ligne" href="#/a-propos">
           <span class="ligne__icone"><Icone nom="info" /></span>
@@ -161,6 +160,7 @@ export function Parametres() {
           <span class="ligne__fin"><Icone nom="chevron" taille={20} /></span>
         </a>
       </div>
+      <p style="text-align:center;margin-top:18px"><a class="lien" href="#/admin" style="font-size:.8rem;color:var(--texte-doux)">Espace administrateur</a></p>
     </div>
   );
 }

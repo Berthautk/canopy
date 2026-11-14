@@ -64,7 +64,7 @@ export function Outil({ id }) {
       </section>
       {p.decision
         ? <p class="carte bloc" style="text-align:center"><Icone nom="verifie" /> Tu as noté le {new Date(p.decision).toLocaleDateString('fr-FR')} que tu as donné ta vie à Jésus. Bienvenue dans la famille de Dieu !</p>
-        : <button class="bouton bouton--plein" style="width:100%;margin-top:12px" onClick={() => { noterDecision(); notifier('Bienvenue dans la famille de Dieu !'); }}>
+        : <button class="bouton bouton--plein" style="width:100%;margin-top:12px" onClick={() => { noterDecision(o.id); notifier('Bienvenue dans la famille de Dieu !'); }}>
             <Icone nom="coeur" taille={20} /> J'ai prié pour recevoir le Seigneur Jésus</button>}
       <section class="carte bloc article" style="margin-top:12px">
         <h3>Et maintenant ?</h3>

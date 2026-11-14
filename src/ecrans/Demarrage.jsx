@@ -4,7 +4,7 @@ const PROMESSES = [
   '100 % gratuit',
   'Aucune publicité',
   'Aucun compte',
-  'Vos données restent sur votre téléphone',
+  'Vos données personnelles restent sur votre téléphone',
   'Fonctionne sans internet',
 ];
 

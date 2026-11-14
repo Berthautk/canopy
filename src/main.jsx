@@ -12,6 +12,7 @@ import { chargerPlan } from './bible/plans.js';
 import { chargerLecteur } from './audio/lecteur.js';
 import { chargerTelechargements } from './audio/telechargements.js';
 import { chargerPriere } from './donnees/priere.js';
+import { demarrerMesure } from './donnees/mesure.js';
 import { chargerStats } from './jeux/stats.js';
 
 appliquer();                 // thème et taille du texte depuis la copie locale, avant le premier rendu
@@ -23,6 +24,7 @@ chargerPlan();
 chargerLecteur();
 chargerTelechargements();
 chargerPriere();
+demarrerMesure();
 chargerStats();
 render(<App />, document.getElementById('app'));
 

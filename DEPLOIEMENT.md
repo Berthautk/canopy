@@ -74,3 +74,20 @@ npm install
 npm run build
 npm run preview      # puis ouvrez l'adresse affichée ; mode avion pour tester le hors ligne
 ```
+
+## Statistiques anonymes et espace administrateur
+
+L'application peut envoyer des **compteurs anonymes** (uniquement si l'utilisateur a dit « Oui, j'aide ») :
+sections ouvertes, contenus ouverts, sujets priés, « j'ai donné ma vie à Jésus ». Jamais de nom, de contact, de pays,
+ni de texte saisi. Le code serveur est dans `functions/` (Cloudflare Pages Functions).
+
+À faire **une seule fois** dans Cloudflare :
+
+1. **Workers & Pages → D1 → Create database**, nom : `yeshaya-stats`.
+2. Dans le projet Pages **yeshaya → Settings → Bindings → Add → D1 database** : nom de variable `DB`, base `yeshaya-stats`.
+   (La table est créée automatiquement au premier envoi.)
+3. **Settings → Variables and Secrets → Add** : type *Secret*, nom `ADMIN_MOT_DE_PASSE`, valeur : un mot de passe d'au moins 12 caractères.
+4. Redéployer (Deployments → Retry deployment, ou nouveau commit).
+
+Ensuite : dans l'application, **Paramètres → Espace administrateur** (lien en bas de page) ou `https://yeshaya.pages.dev/#/admin`,
+puis le mot de passe. Sans ces réglages, l'application fonctionne normalement : les compteurs restent simplement en attente sur les téléphones.

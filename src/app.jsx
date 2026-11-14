@@ -29,6 +29,8 @@ import { Evangeliser, Article } from './ecrans/evangeliser/Evangeliser.jsx';
 import { Dialogue } from './ecrans/evangeliser/Dialogue.jsx';
 import { Outil } from './ecrans/evangeliser/Outil.jsx';
 import { Approche } from './ecrans/evangeliser/Approche.jsx';
+import { Admin } from './ecrans/Admin.jsx';
+import { compterPage } from './donnees/mesure.js';
 import { Jouer, QuizDuJour, QuizThemes } from './ecrans/jeux/Jouer.jsx';
 import { CompleteVerset } from './ecrans/jeux/CompleteVerset.jsx';
 import { QuiSuisJe } from './ecrans/jeux/QuiSuisJe.jsx';
@@ -53,6 +55,7 @@ const A_VENIR = {
 function titre([a, b, c]) {
   if (a === 'parametres') return "Paramètres de l'application";
   if (a === 'a-propos') return 'À propos de Yeshaya';
+  if (a === 'admin') return 'Espace administrateur';
   if (a === 'jouer') return {
     'quiz-du-jour': 'Quiz du jour', themes: c ? (QUIZ.find((q) => q.id === 'quiz-' + c)?.theme ?? 'Quiz') : 'Quiz par thème', complete: 'Complète le verset',
     'qui-suis-je': 'Qui suis-je ?', ordre: "Remets dans l'ordre", duel: 'Duel à deux', badges: 'Mes badges',
@@ -83,6 +86,7 @@ function Ecran({ r }) {
   const pos = useSignal(positionLecture);
   if (a === 'accueil') return <Accueil />;
   if (a === 'parametres') return <Parametres />;
+  if (a === 'admin') return <Admin />;
   if (a === 'a-propos') return <APropos />;
   if (a === 'telechargements') return <Telechargements />;
   if (a === 'jouer') return ({ 'quiz-du-jour': <QuizDuJour />, themes: <QuizThemes theme={c} niveau={d} />, complete: <CompleteVerset />,
@@ -109,6 +113,8 @@ function Ecran({ r }) {
 
 export function App() {
   const r = useSignal(route);
+  const cleRoute = r.segments.join('/');
+  useEffect(() => { compterPage(r.segments); }, [cleRoute]);
   const reg = useSignal(reglages);
   const l = useSignal(lecteur);
   const tiroir = useTiroir();
