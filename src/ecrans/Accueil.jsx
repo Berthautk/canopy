@@ -1,22 +1,19 @@
 import { Icone } from '../composants/Icone.jsx';
 import { usePassage, TextePassage, cheminMontrer } from '../composants/Verset.jsx';
 import { TelechargementBible } from '../composants/TelechargementBible.jsx';
-import { versetDuJour, audioDuJour } from '../donnees/contenu.js';
+import { versetDuJour, audioDuJour, veilleDuMoment, meditationDuJour } from '../donnees/contenu.js';
+import { orizon, jourCourant } from '../donnees/orizon.js';
 import { BoutonLecture } from '../composants/Audio.jsx';
 import { derniereEcoute, jouer, formatTemps, lecteur } from '../audio/lecteur.js';
 import { useSignal } from '../outils/signal.js';
 import { ecrireReference } from '../bible/references.js';
 
-const ACCES = [
-  ['priere', 'Prière', 'priere', 'var(--tuile-priere)', '#2F6FB5'],
-  ['grandir', 'Grandir', 'grandir', 'var(--tuile-grandir)', '#3E8A3A'],
-  ['evangeliser', 'Évangéliser', 'evangeliser', 'var(--tuile-evang)', '#B7832A'],
-  ['bible', 'Bible', 'bible', 'var(--tuile-bible)', '#6A55A8'],
-];
 
 // Écran 2 : accueil.
 export function Accueil() {
   const etat = usePassage(versetDuJour());
+  const v = veilleDuMoment(), m = meditationDuJour(new Date());
+  const o = useSignal(orizon);
   const piste = audioDuJour();
   const derniere = useSignal(derniereEcoute);
   const enCours = useSignal(lecteur).piste;
@@ -34,6 +31,16 @@ export function Accueil() {
           <TextePassage etat={etat} />
           {etat.ref && <a class="pastille pastille--ref" href={'#/' + cheminMontrer(etat.ref)}>{ecrireReference(etat.ref)}</a>}
         </section>
+
+        <h2 class="titre-section sous-rubrique">Pour aujourd'hui</h2>
+        <a class="carte accueil-priere" href={'#/priere/veille/' + v.id.replace('veille-', '')}>
+          <img src={v.image} alt="" loading="lazy" />
+          <span class="accueil-priere__texte"><span class="pastille pastille--or">Prier maintenant · {v.heures}</span><b>{v.titre}</b><span>{v.theme}</span></span>
+        </a>
+        <div class="aujourdhui">
+          <a class="carte aujourdhui__carte" href="#/bible/meditation"><Icone nom="ampoule" taille={22} /><b>Méditation du jour</b><span>{m?.titre || 'Un verset à méditer'}</span></a>
+          <a class="carte aujourdhui__carte" href={o.faits.length ? '#/orizon/jour/' + jourCourant() : '#/grandir/formation'}><Icone nom="grandir" taille={22} /><b>{o.faits.length ? 'Mon parcours' : 'Former le disciple'}</b><span>{o.faits.length ? 'Vaincre en 90 jours · jour ' + jourCourant() : '40 leçons pour grandir'}</span></a>
+        </div>
 
         {piste && (
           <section class="carte audio-jour">
@@ -57,14 +64,6 @@ export function Accueil() {
           </button>
         )}
 
-        <nav class="acces" aria-label="Accès rapides">
-          {ACCES.map(([id, libelle, icone, fond, couleur]) => (
-            <a class="acces__tuile" href={'#/' + id} style={{ background: fond }}>
-              <span style={{ color: couleur }}><Icone nom={icone} taille={34} stroke-width="1.8" /></span>
-              <span class="acces__libelle">{libelle}</span>
-            </a>
-          ))}
-        </nav>
 
         <div style="margin-top:12px"><TelechargementBible compact /></div>
 

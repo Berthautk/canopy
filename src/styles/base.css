@@ -120,3 +120,6 @@ a { color: inherit; text-decoration: none; }
 .ligne-bloc { padding: 0; }
 .restauration { display: grid; gap: 6px; }
 .restauration__alerte { color: #A0412D; font-size: .88rem; font-weight: 500; }
+/* Tous les titres de sous-rubrique portent une barre dorée, pour les distinguer du contenu. */
+.titre-section { display: flex; align-items: center; gap: 8px; color: var(--titre); }
+.titre-section::before { content: ''; flex: none; width: 4px; height: 18px; border-radius: 2px; background: var(--or); }

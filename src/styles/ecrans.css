@@ -652,3 +652,16 @@
 .niveau-onglet__marche i:nth-child(3) { height: 13px; } .niveau-onglet__marche i:nth-child(4) { height: 16px; }
 .niveau-description { margin: 12px 4px; line-height: 1.5; color: var(--texte); }
 .enseignement__num { display: inline-grid; place-items: center; min-width: 22px; height: 22px; padding: 0 4px; margin-right: 6px; border-radius: 11px; background: var(--or); color: var(--bleu-nuit, #142340); font-size: .75rem; vertical-align: 1px; }
+
+/* Sous-rubriques : un titre coloré, pour savoir où l'on est */
+.sous-rubrique { display: flex; align-items: center; gap: 8px; color: var(--or-fonce); text-transform: uppercase; letter-spacing: .06em; font-size: .82rem; font-weight: 700; }
+.sous-rubrique::before { content: ''; width: 4px; height: 16px; border-radius: 2px; background: var(--or); }
+.accueil-priere { display: grid; grid-template-columns: 96px 1fr; gap: 12px; padding: 8px; align-items: center; color: var(--titre); border: 2px solid var(--or); }
+.accueil-priere img { width: 96px; height: 80px; object-fit: cover; border-radius: 12px; }
+.accueil-priere__texte { display: grid; gap: 3px; justify-items: start; }
+.accueil-priere__texte b { font-family: var(--police-titre); font-size: 1.05rem; }
+.accueil-priere__texte span:last-child { font-size: .82rem; color: var(--texte-doux); }
+.aujourdhui { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
+.aujourdhui__carte { display: grid; gap: 4px; padding: 12px; color: var(--titre); }
+.aujourdhui__carte svg { color: var(--or-fonce); }
+.aujourdhui__carte span { font-size: .8rem; color: var(--texte-doux); line-height: 1.3; }
