@@ -2,6 +2,7 @@ import { Icone } from '../../composants/Icone.jsx';
 import { CarteVerset } from '../../composants/Verset.jsx';
 import { TexteRefs } from '../../composants/TexteRefs.jsx';
 import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
+import { LienVideo } from '../../composants/LienVideo.jsx';
 import { ENSEIGNEMENTS } from '../../donnees/contenu.js';
 import { partager } from '../../outils/partage.js';
 import { SujetsACocher, blocsSujets } from '../priere/Veille.jsx';
@@ -35,6 +36,7 @@ export function EnseignementEcrit({ id }) {
       <p class="veille__theme" {...va(pos.titre)}>{e.resume}</p>
       {e.auteur && !e.auteur.startsWith("L'Arsenal") && <p class="auteur-ens">{e.auteur}{e.autorisation === 'oui' && <span class="ecouter__autorisation"><Icone nom="verifie" taille={14} /> Utilisé avec autorisation</span>}</p>}
       <BarreEcoute id={id} blocs={blocs} titre="Écouter l'enseignement" />
+      <LienVideo url={e.video} duree={e.video_duree} auteur={e.auteur} />
       {e.verset_de_base && <div {...va(pos.base)}><CarteVerset reference={e.verset_de_base} /></div>}
       {e.objectifs?.length > 0 && (
         <section class="carte bloc" {...va(pos.objectifs)}><h3><span class="ligne__icone"><Icone nom="cible" /></span> Objectifs</h3>
@@ -57,7 +59,8 @@ export function EnseignementEcrit({ id }) {
         </section>
       ))}
       {e.sujets?.length > 0 && <><h2 class="titre-section" {...va(pos.sujets)}>Sujets de prière</h2><SujetsACocher sujets={e.sujets} voixId={id} debut={pos.sujets + 1} /></>}
-      <button class="bouton bouton--contour" style="width:100%;margin-top:16px" onClick={() => partager({ titre: e.titre, texte: `${e.titre}\n${e.resume}`, chemin: 'grandir/enseignement/' + e.id })}>
+      <LienVideo url={e.video} duree={e.video_duree} auteur={e.auteur} />
+      <button class="bouton bouton--contour" style="width:100%;margin-top:16px" onClick={() => partager({ titre: e.titre, texte: `${e.titre}\n${e.resume}${e.video ? '\nVidéo : ' + e.video : ''}`, chemin: 'grandir/enseignement/' + e.id })}>
         <Icone nom="partager" taille={18} /> Partager cet enseignement</button>
       {e.source && <p class="source-mention">{e.source.startsWith('Arsenal') ? 'Source : ' + e.auteur : e.source}</p>}
     </div>

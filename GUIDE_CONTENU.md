@@ -47,6 +47,11 @@ Copiez `content/_modeles/enseignement.json` dans **`content/enseignements/`**. C
 - `serie` : regroupement dans l'onglet « Séries » (ex. `Les bases de la foi`) ;
 - `audio` et `duree` : l'audio et sa durée (ex. `"25:10"`).
 
+Pour un **enseignement écrit** (comme « Comment conserver sa délivrance »), voir `content/enseignements/conserver-sa-delivrance.json` :
+`introduction`, `sections` (avec `blocs` de texte ou `{ "verset": "Jn 5:14" }`) et `sujets` de prière. Le bouton « Écouter » (voix de synthèse) apparaît automatiquement.
+Pour ajouter le lien vers la prédication complète : `"video": "https://www.youtube.com/watch?v=…"` et `"video_duree": "46 min"`.
+Aucun lecteur YouTube n'est intégré (pas de traceur) : c'est un simple lien.
+
 Les plus récents (`date_ajout`) apparaissent en premier. L'« Audio du jour » de l'accueil tourne parmi les enseignements qui ont un audio.
 
 ## Ajouter un jour au parcours Nouveau converti (écran 7)

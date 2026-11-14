@@ -416,3 +416,5 @@
 [data-voix-actif='oui'] { outline: 3px solid var(--or); outline-offset: 3px; border-radius: 12px; }
 .lecture .barre-ecoute--active { top: calc(164px + env(safe-area-inset-top)); }
 .lecture .barre-ecoute { margin: 10px 0 4px; }
+.lien-video { margin-top: 10px; display: flex; align-items: center; gap: 12px; padding: 10px 12px; color: var(--titre); }
+.lien-video__icone { width: 44px; height: 44px; flex: none; border-radius: 12px; display: grid; place-items: center; background: #C4302B; color: #fff; }

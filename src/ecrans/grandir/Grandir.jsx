@@ -14,7 +14,7 @@ function Enseignement({ e }) {
       <a class="ligne__corps" href={lien}>
         <span class="ligne__titre" style="display:block">{e.titre} {e.exemple && <span class="etiquette-exemple">EXEMPLE</span>}</span>
         <span class="ligne__desc" style="display:block">{e.resume}</span>
-        <span class="enseignement__meta"><Icone nom={piste ? 'musique' : 'bible'} taille={13} /> {piste ? `${e.auteur}${e.duree ? ' · ' + e.duree : ''}` : `À lire · ${e.lecture_minutes} min`}</span>
+        <span class="enseignement__meta"><Icone nom={piste ? 'musique' : 'bible'} taille={13} /> {piste ? `${e.auteur}${e.duree ? ' · ' + e.duree : ''}` : `À lire ou écouter · ${e.lecture_minutes} min${e.video ? ' · vidéo' : ''}`}</span>
       </a>
       {piste && <div class="enseignement__boutons"><BoutonLecture piste={piste} taille={40} /><BoutonTelecharger piste={piste} compact /></div>}
     </article>
