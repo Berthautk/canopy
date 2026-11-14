@@ -3,7 +3,8 @@ import { Icone } from '../../composants/Icone.jsx';
 import { lireReference, ecrireReference, simplifier } from '../../bible/references.js';
 import { chercherMot } from '../../bible/bible.js';
 import { remplacer, aller } from '../../outils/routeur.js';
-import { THEMES_BIBLE } from '../../donnees/contenu.js';
+import { THEMES_BIBLE, ENSEIGNEMENTS } from '../../donnees/contenu.js';
+const ENS = Object.fromEntries(ENSEIGNEMENTS.map((e) => [e.id, e]));
 import { usePassage, cheminLire } from '../../composants/Verset.jsx';
 
 // Un thème correspond-il à la recherche ? (« évangélisation », « pauvres », « argent »…)
@@ -94,6 +95,10 @@ export function Recherche({ q: qInitial = '' }) {
         <section class="theme-recherche">
           <div class="resultats__tete"><h2>Thème : {theme.nom}</h2><span class="pastille pastille--or">{theme.versets.length} passages clés</span></div>
           <p class="ligne__desc" style="margin:0 4px 8px">Les passages essentiels sur ce thème, puis tous les versets qui en parlent (mots de la même famille et mots proches).</p>
+          {theme.enseignement && ENS[theme.enseignement] && <a class="carte ligne" href={'#/grandir/enseignement/' + theme.enseignement} style="margin-bottom:10px;border:2px solid var(--or)">
+            <span class="ligne__icone"><Icone nom="ampoule" /></span>
+            <span class="ligne__corps"><span class="ligne__desc" style="display:block">Enseignement sur ce thème</span><span class="ligne__titre">{ENS[theme.enseignement].titre}</span></span>
+            <Icone nom="chevron" taille={20} /></a>}
           <div class="liste">{theme.versets.map((r) => <PassageCle reference={r} />)}</div>
         </section>
       )}
