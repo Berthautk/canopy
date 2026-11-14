@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240">
+<defs><linearGradient id="c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1a22"/><stop offset="1" stop-color="#3b2f2f"/></linearGradient></defs>
+<rect width="360" height="240" fill="url(#c)"/>
+<rect x="0" y="196" width="360" height="44" fill="#2a2222"/>
+<rect x="40" y="150" width="150" height="20" rx="4" fill="#6b5b4b"/><rect x="40" y="168" width="10" height="30" fill="#4a3d33"/><rect x="180" y="168" width="10" height="30" fill="#4a3d33"/>
+<rect x="40" y="128" width="16" height="42" rx="4" fill="#4a3d33"/>
+<g transform="translate(95 118)"><circle cx="0" cy="0" r="13" fill="#d9b48f"/><path d="M-6 -2 l4 2 M6 -2 l-4 2" stroke="#222" stroke-width="2"/><ellipse cx="0" cy="7" rx="3" ry="4" fill="#222"/>
+<path d="M-10 14 L-22 32 L52 32 L40 14 Z" fill="#7a8ca3"/><path d="M14 18 L34 -6" stroke="#d9b48f" stroke-width="6" stroke-linecap="round"/></g>
+<g transform="translate(270 70)" opacity=".92">
+<path d="M-34 130 Q-40 20 0 0 Q40 20 34 130 Z" fill="#0b0b10"/>
+<circle cx="0" cy="22" r="18" fill="#111118"/>
+<path d="M-28 70 L-62 52" stroke="#0b0b10" stroke-width="9" stroke-linecap="round"/>
+<g transform="translate(-70 46)"><path d="M-9 -12 L9 -12 L0 0 L9 12 L-9 12 L0 0 Z" fill="#c9a227" opacity=".8"/></g>
+</g>
+<text x="180" y="226" font-family="sans-serif" font-size="14" fill="#e7d9c9" text-anchor="middle">« Vous ne savez ni le jour, ni l’heure. »</text>
+</svg>

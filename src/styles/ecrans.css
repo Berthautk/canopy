@@ -205,7 +205,7 @@
 .jour__statut--fait { background: var(--sauge); color: #fff; }
 .jour__statut--ouvert { background: var(--or); color: #fff; }
 .jour__num { flex: none; font-family: var(--police-titre); font-weight: 600; font-size: .78rem; padding: 3px 9px; border-radius: 999px; background: var(--surface-2); color: var(--titre); }
-.grille-evang { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+.grille-evang { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
 :root[data-taille='tres-grand'] .grille-evang { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .tuile-evang { min-height: 78px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 8px 2px;
   font-family: var(--police-titre); font-weight: 600; font-size: .74rem; color: var(--titre); }
@@ -418,3 +418,14 @@
 .lecture .barre-ecoute { margin: 10px 0 4px; }
 .lien-video { margin-top: 10px; display: flex; align-items: center; gap: 12px; padding: 10px 12px; color: var(--titre); }
 .lien-video__icone { width: 44px; height: 44px; flex: none; border-radius: 12px; display: grid; place-items: center; background: #C4302B; color: #fff; }
+
+/* Outil d'évangélisation en images */
+.etape-outil { padding: 0; overflow: hidden; margin-top: 14px; }
+.etape-outil__image { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; background: #222; }
+.etape-outil__corps { padding: 12px 14px 4px; }
+.etape-outil__corps p { line-height: 1.6; margin: 0 0 10px; }
+.etape-outil__titre { font-size: 1.1rem; margin: 2px 0 10px; color: var(--titre); }
+.objection { margin-top: 8px; }
+.objection summary { cursor: pointer; list-style: none; }
+.objection summary::-webkit-details-marker { display: none; }
+.objection p { margin: 10px 0 0; line-height: 1.55; }

@@ -1,0 +1,120 @@
+{
+ "id": "outil-coeur-de-l-homme",
+ "ordre": 1,
+ "titre": "Le cœur de l'homme",
+ "resume": "Une présentation de l'Évangile en 5 images : le cœur rempli de péché, la croix, Jésus à la porte, la mort sans Christ et la mort de celui qui a reçu Jésus.",
+ "image": "/assets/coeur-de-l-homme/1-coeur-pecheur.svg",
+ "duree_estimee": "15 à 20 min",
+ "conseil": "Montre chaque image à la personne, laisse-la regarder un moment, puis explique. Tu peux aussi appuyer sur « Écouter » et suivre ensemble. Parle avec amour, sans juger : toi aussi, ton cœur était ainsi avant Jésus.",
+ "etapes": [
+  {
+   "image": "/assets/coeur-de-l-homme/1-coeur-pecheur.svg",
+   "titre": "1. Le cœur de l'homme sans Dieu",
+   "texte": [
+    "Regarde bien cette image. C'est un cœur. Ce cœur, c'est le cœur de l'homme, c'est ton cœur et c'était aussi le mien. Il n'est pas question ici du muscle qui bat dans notre poitrine, mais de l'intérieur de notre vie : nos pensées, nos désirs, nos choix, ce que nous sommes vraiment quand personne ne nous voit.",
+    "Tu vois qu'à l'intérieur, il y a des animaux. Chacun représente un péché qui habite dans le cœur de l'homme. La Bible dit que c'est du dedans, du cœur des hommes, que sortent les mauvaises pensées et toutes les choses mauvaises qui souillent l'homme.",
+    "Le paon, qui fait la roue pour qu'on l'admire, c'est l'orgueil : vouloir être vu, se croire meilleur que les autres, ne pas avoir besoin de Dieu. La Bible dit que l'orgueil précède la chute.",
+    "Le bouc, c'est l'impureté : l'impudicité, l'adultère, les pensées sales, la pornographie, tout ce qui salit le corps et le mariage.",
+    "Le porc, c'est l'ivrognerie, les excès de table, la recherche des plaisirs sans limite : vivre seulement pour son ventre et pour ce qui fait plaisir maintenant.",
+    "Le serpent, c'est le mensonge, la ruse, l'envie et la jalousie. Souviens-toi : c'est par la bouche du serpent que le mensonge est entré dans le jardin d'Éden. Jésus dit que le diable est le père du mensonge.",
+    "Le tigre, c'est la colère, la haine, la violence, le désir de vengeance, les paroles qui blessent. Le crapaud, c'est l'avarice, l'amour de l'argent, qui est une racine de tous les maux. Et la tortue, c'est la paresse : celui qui remet toujours à demain, même les choses de Dieu, et qui reste tiède.",
+    "Peut-être que tu me dis : « Moi, je ne suis pas un grand pécheur, je n'ai tué personne. » Mais regarde honnêtement ton cœur. Y a-t-il de l'orgueil ? Un mensonge ? Une colère gardée ? Une pensée impure ? La Bible dit que tous ont péché et sont privés de la gloire de Dieu. Pas seulement les autres : tous, toi et moi.",
+    "Et le problème, c'est que le salaire du péché, c'est la mort : la séparation d'avec Dieu, pour toujours. Personne ne peut nettoyer ce cœur tout seul. On peut aller à l'église, faire de bonnes œuvres, prendre des résolutions ; les animaux restent à l'intérieur. Il faut quelqu'un de plus fort que nous."
+   ],
+   "versets": [
+    "Mc 7:21-23",
+    "Rm 3:23",
+    "Rm 6:23"
+   ]
+  },
+  {
+   "image": "/assets/coeur-de-l-homme/2-coeur-et-la-croix.svg",
+   "titre": "2. L'homme a besoin de Jésus",
+   "texte": [
+    "Maintenant, regarde cette deuxième image. C'est le même cœur, mais tout a changé. Au centre, il y a la croix de Jésus. La lumière remplit le cœur, et les animaux sont chassés dehors. La colombe, au-dessus, représente le Saint-Esprit, qui vient habiter dans ce cœur.",
+    "Qu'est-ce qui s'est passé ? Dieu nous aime. Il a tant aimé le monde qu'il a donné son Fils unique, Jésus. Jésus n'a jamais péché, et pourtant il est mort sur la croix pour nos péchés. Il a pris notre place. Le châtiment que nous méritions est tombé sur lui. Sur la croix, il a dit : « Tout est accompli. » Le prix est payé.",
+    "Mais Jésus n'est pas resté dans le tombeau. Le troisième jour, Dieu l'a ressuscité des morts. C'est très important. S'il n'était pas ressuscité, il serait un homme mort comme les autres, et notre foi serait vaine. Sa résurrection prouve que Dieu a accepté son sacrifice, que la mort est vaincue, et qu'il est vivant aujourd'hui pour sauver celui qui vient à lui. La Bible dit qu'il a été livré pour nos offenses et qu'il est ressuscité pour notre justification.",
+    "Alors, que faut-il faire ? La Bible le dit clairement : « Si tu confesses de ta bouche le Seigneur Jésus, et si tu crois dans ton cœur que Dieu l'a ressuscité des morts, tu seras sauvé. »",
+    "Croire, ce n'est pas seulement savoir que Jésus a existé. Même les démons croient qu'il y a un seul Dieu, et ils tremblent. Croire, c'est faire confiance : s'appuyer de tout son poids sur Jésus, comme on s'assoit sur une chaise en étant sûr qu'elle va nous porter. C'est dire : « Je ne compte plus sur mes efforts, je compte sur ce que Jésus a fait pour moi. »",
+    "Pourquoi croire dans le cœur ? Parce que c'est le cœur qui est malade. Une foi seulement dans la tête ne change pas la vie ; c'est quand le cœur s'ouvre que Dieu entre et le transforme. C'est en croyant du cœur qu'on parvient à la justice.",
+    "Et pourquoi confesser de la bouche ? Parce que ce que le cœur a reçu, la bouche le déclare. Dire « Jésus est mon Seigneur », c'est le reconnaître comme le maître de ma vie, c'est me tourner vers lui et me détourner du péché : c'est cela, la repentance.",
+    "Le sang de Jésus purifie de tout péché. Il n'y a pas de péché trop grand. Il n'y a de salut en aucun autre : c'est par la grâce qu'on est sauvé, par le moyen de la foi ; cela ne vient pas de nous, c'est le don de Dieu."
+   ],
+   "versets": [
+    "Jn 3:16",
+    "Rm 5:8",
+    "1 Co 15:3-4",
+    "Rm 10:9-10",
+    "Ep 2:8-9"
+   ]
+  },
+  {
+   "image": "/assets/coeur-de-l-homme/3-jesus-a-la-porte.svg",
+   "titre": "3. Jésus frappe à la porte de ton cœur",
+   "texte": [
+    "Sur cette image, tu vois Jésus qui se tient à la porte du cœur. Il frappe. Il ne force pas la porte : il attend qu'on lui ouvre. Il dit : « Voici, je me tiens à la porte, et je frappe. Si quelqu'un entend ma voix et ouvre la porte, j'entrerai chez lui, je souperai avec lui, et lui avec moi. »",
+    "Être chrétien, ce n'est pas d'abord porter un nom, appartenir à une église ou suivre une tradition. Être chrétien, c'est avoir Christ en soi. La Bible appelle cela le mystère de Dieu : Christ en vous, l'espérance de la gloire. Celui qui a le Fils a la vie ; celui qui n'a pas le Fils de Dieu n'a pas la vie.",
+    "À tous ceux qui l'ont reçu, à ceux qui croient en son nom, il a donné le pouvoir de devenir enfants de Dieu. Jésus a promis : « Si quelqu'un m'aime, il gardera ma parole, et mon Père l'aimera ; nous viendrons à lui, et nous ferons notre demeure chez lui. » Et il nous dit : « Demeurez en moi, et je demeurerai en vous. »",
+    "Aujourd'hui, Jésus frappe à la porte de ton cœur. Tu l'entends à travers ces paroles. La question n'est pas de savoir si tu es assez bon pour lui ouvrir : personne ne l'est. La question est : vas-tu lui ouvrir ?"
+   ],
+   "versets": [
+    "Ap 3:20",
+    "Jn 1:12",
+    "Col 1:27",
+    "1 Jn 5:12"
+   ]
+  },
+  {
+   "image": "/assets/coeur-de-l-homme/4-la-mort-sans-christ.svg",
+   "titre": "4. Quand la mort vient sans Christ",
+   "texte": [
+    "Regarde maintenant cette image. Un homme est couché. La mort est venue le chercher, et il a peur. Il n'avait pas prévu que ce serait ce soir. Il avait encore des projets, il se disait : « Je verrai Dieu plus tard. »",
+    "Certains entendent ce message et le refusent. Ils disent : « Pas maintenant. » Mais un jour, nous allons tous mourir. Personne ne sait quand. La mort ne prévient pas ; elle nous surprend. Jésus raconte l'histoire d'un homme riche qui avait rempli ses greniers, et Dieu lui dit : « Insensé ! Cette nuit même ton âme te sera redemandée. »",
+    "La Bible dit qu'il est réservé aux hommes de mourir une seule fois, après quoi vient le jugement. Celui qui ne croit pas au Fils ne verra point la vie. Mourir sans Christ, c'est aller vers la séparation éternelle d'avec Dieu : c'est cela, la mort éternelle.",
+    "Je ne te dis pas cela pour te faire peur, mais parce que je t'aime et que Dieu t'aime. Il ne faut pas que la mort te surprenne sans Jésus. Qu'est-ce que notre vie ? Une vapeur qui paraît pour un peu de temps, puis disparaît. Voici maintenant le temps favorable, voici maintenant le jour du salut."
+   ],
+   "versets": [
+    "Lc 12:20",
+    "Hé 9:27",
+    "Jc 4:14",
+    "2 Co 6:2"
+   ]
+  },
+  {
+   "image": "/assets/coeur-de-l-homme/5-la-mort-du-juste.svg",
+   "titre": "5. Quand la mort vient pour celui qui a reçu Jésus",
+   "texte": [
+    "Et voici la dernière image. Un homme est couché sur son lit, la Bible sur sa poitrine. Son visage est paisible. Son âme monte vers le ciel, et une couronne l'attend dans la lumière.",
+    "C'est celui qui a reçu le message. Lui aussi ne savait pas quand la fin viendrait. Mais quand elle est arrivée, il n'a pas eu peur : il savait où il allait. Jésus a dit : « Je suis la résurrection et la vie. Celui qui croit en moi vivra, quand même il serait mort. » Pour lui, la mort est un gain, car il s'en va pour être avec Christ, ce qui est de beaucoup le meilleur.",
+    "L'apôtre Paul, à la fin de sa vie, disait : « Désormais la couronne de justice m'est réservée. » Pour celui qui a reçu Jésus, il n'y a plus de condamnation : il est passé de la mort à la vie. Il entre dans la joie éternelle, dans la gloire avec le Père, là où Dieu essuiera toute larme de leurs yeux, où la mort ne sera plus, ni deuil, ni cri, ni douleur.",
+    "Voilà ce que Dieu veut pour nous tous. Il ne veut pas que tu périsses ; il veut que tu aies la vie éternelle. Il y a deux chemins et deux fins. Lequel choisis-tu ?"
+   ],
+   "versets": [
+    "Jn 11:25",
+    "2 Tm 4:8",
+    "Jn 5:24",
+    "Ap 21:4"
+   ]
+  },
+  {
+   "image": "/assets/coeur-de-l-homme/3-jesus-a-la-porte.svg",
+   "titre": "6. Aujourd'hui, reçois Jésus",
+   "texte": [
+    "Maintenant, je te pose la question : veux-tu ouvrir la porte de ton cœur à Jésus aujourd'hui ? Veux-tu qu'il vienne habiter en toi, qu'il chasse ce qui salit ton cœur, qu'il te pardonne et te donne la vie éternelle ?",
+    "Si tu le veux, tu peux lui parler maintenant, simplement, comme on parle à quelqu'un qui est là. Ce ne sont pas des mots magiques : c'est ton cœur qui compte. Si tu es d'accord, prie avec moi à voix haute la prière qui suit."
+   ],
+   "versets": [
+    "Rm 10:13"
+   ]
+  }
+ ],
+ "priere": "Seigneur Jésus, je viens à toi aujourd'hui. Je reconnais que j'ai péché contre toi : mon cœur est rempli d'orgueil, de mensonge, d'impureté et de tant de choses mauvaises. Je ne peux pas me sauver moi-même. Je te demande pardon. Je crois que tu es le Fils de Dieu, que tu es mort sur la croix pour mes péchés, et je crois dans mon cœur que Dieu t'a ressuscité des morts. Je me détourne de mes péchés. J'ouvre la porte de mon cœur : entre, Seigneur Jésus, viens habiter en moi. Je te reçois aujourd'hui comme mon Sauveur et mon Seigneur. Lave-moi par ton sang, remplis-moi de ton Saint-Esprit, et aide-moi à te suivre chaque jour. Merci pour ta Parole, merci de m'avoir sauvé. Au nom de Jésus. Amen.",
+ "apres": [
+  "Si tu as prié cette prière avec sincérité, la Bible dit que tu es devenu enfant de Dieu. Ce n'est pas un sentiment qui te le garantit, c'est sa promesse : quiconque invoquera le nom du Seigneur sera sauvé.",
+  "Dis-le à quelqu'un : à la personne qui t'a partagé ce message, ou à un chrétien que tu connais. Commence à lire la Bible, par exemple l'Évangile de Jean, à prier chaque jour, et cherche une église où l'on enseigne la Parole de Dieu.",
+  "Le parcours « Nouveau converti » de l'application t'accompagne pas à pas pendant 30 jours."
+ ],
+ "source": "Présentation inspirée d'une méthode ancienne et répandue, « Le cœur de l'homme » (J. E. Gossner, 1812), avec des illustrations originales réalisées pour Yeshaya. Texte rédigé pour Yeshaya à partir de la façon de prêcher du porteur du projet.",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}

@@ -20,6 +20,8 @@ export const PRIERES = dossier('prieres').sort(parOrdre);
 export const NOUVEAU_CONVERTI = dossier('nouveau-converti').sort((a, b) => a.jour - b.jour);
 export const EVANGELISATION = dossier('evangelisation').sort(parOrdre);
 export const DIALOGUES = dossier('dialogues').sort(parOrdre);
+export const OUTILS = dossier('outils-evangelisation').sort(parOrdre);
+export const APPROCHES = dossier('approches').sort(parOrdre);
 export const JOURS_PARCOURS = 30;
 export const DECOUVRIR_JESUS = dossier('decouvrir-jesus').sort((a, b) => a.jour - b.jour);
 export const VEILLES = dossier('veilles').filter((v) => Array.isArray(v.phases)).sort((a, b) => a.ordre - b.ordre);

@@ -2,21 +2,24 @@ import { useState } from 'preact/hooks';
 import { Icone } from '../../composants/Icone.jsx';
 import { CarteVerset } from '../../composants/Verset.jsx';
 import { BoutonLecture } from '../../composants/Audio.jsx';
-import { EVANGELISATION, DIALOGUES, AUDIOS } from '../../donnees/contenu.js';
+import { EVANGELISATION, DIALOGUES, AUDIOS, OUTILS, APPROCHES } from '../../donnees/contenu.js';
 import { partager } from '../../outils/partage.js';
 import { BarreEcoute } from '../../composants/Ecouter.jsx';
 
 const SECTIONS = [
+  ['presenter', 'Présenter', 'croix', "Des outils pour annoncer l'Évangile jusqu'à la prière pour recevoir Jésus."],
+  ['approches', 'Approches', 'cible', 'Comment parler de Jésus selon la personne : musulman, athée, religieux, traditionnel…'],
   ['motivation', 'Motivation', 'coeur', 'Pourquoi et dans quel esprit partager sa foi.'],
   ['formation', 'Formation', 'ampoule', 'Des outils simples pour témoigner.'],
   ['dialogues', 'Dialogues', 'groupe', 'Exemples de conversations réelles et bienveillantes.'],
-  ['objection', 'Objections', 'cible', 'Répondre avec douceur et respect aux questions difficiles.'],
+  ['objection', 'Objections', 'info', 'Répondre avec douceur et respect aux questions difficiles.'],
 ];
 
 // Écran 8 : Évangéliser.
 export function Evangeliser() {
-  const [vue, setVue] = useState('motivation');
-  const liste = vue === 'dialogues' ? DIALOGUES : EVANGELISATION.filter((x) => x.type === vue);
+  const [vue, setVue] = useState('presenter');
+  const liste = vue === 'dialogues' ? DIALOGUES : vue === 'presenter' ? OUTILS : vue === 'approches' ? APPROCHES : EVANGELISATION.filter((x) => x.type === vue);
+  const lien = (x) => '#/evangeliser/' + ({ dialogues: 'dialogue', presenter: 'outil', approches: 'approche' }[vue] || 'article') + '/' + x.id;
   const s = SECTIONS.find((x) => x[0] === vue);
   return (
     <div class="page">
@@ -32,11 +35,11 @@ export function Evangeliser() {
       <p class="ligne__desc" style="margin:14px 4px 8px">{s[3]}</p>
       <div class="liste">
         {liste.map((x) => (
-          <a class="carte theme" href={vue === 'dialogues' ? '#/evangeliser/dialogue/' + x.id : '#/evangeliser/article/' + x.id}>
+          <a class="carte theme" href={lien(x)}>
             <img src={x.image} alt="" loading="lazy" />
             <span class="ligne__corps">
               <span class="ligne__titre" style="display:block">{x.titre} {x.exemple && <span class="etiquette-exemple">EXEMPLE</span>}</span>
-              <span class="ligne__desc">{x.question || x.situation || (x.texte && x.texte[0])}</span>
+              <span class="ligne__desc">{x.resume || x.question || x.situation || (x.texte && x.texte[0])}</span>
             </span>
             <Icone nom="chevron" taille={20} />
           </a>
