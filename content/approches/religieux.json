@@ -1,0 +1,138 @@
+{
+ "id": "approche-religieux",
+ "ordre": 5,
+ "nom_court": "Religieux non convertis",
+ "titre": "Parler de Jésus à quelqu'un qui va à l'église mais n'est pas né de nouveau",
+ "public": "Catholiques, protestants et religieux de nom",
+ "image": "/assets/vie-chretienne/eglise-batiment.webp",
+ "resume": "Sans attaquer l'église de la personne, l'amener à distinguer la religion d'une relation vivante avec Jésus, à comprendre la nouvelle naissance, et à recevoir le salut par la grâce et la foi.",
+ "parties": [
+  {
+   "titre": "1. Un terrain délicat",
+   "texte": [
+    "Beaucoup de personnes sont baptisées, vont à l'église, connaissent des prières et des cantiques, mais n'ont jamais rencontré personnellement Jésus. Elles pensent être chrétiennes parce qu'elles sont nées dans une famille chrétienne ou parce qu'elles pratiquent. Jésus a parlé d'un peuple qui l'honore des lèvres, mais dont le cœur est éloigné de lui (Matthieu 15:8).",
+    "Le piège serait de critiquer leur église ou leur dénomination. On gagne rarement quelqu'un en attaquant ce qu'il aime. Le vrai sujet n'est pas l'église à laquelle on appartient, mais la relation avec Jésus."
+   ]
+  },
+  {
+   "titre": "2. Poser les bonnes questions",
+   "texte": [
+    "Commence par des questions qui font réfléchir : « Si tu mourais ce soir, es-tu sûr d'aller auprès de Dieu ? Pourquoi ? » La réponse est souvent : « Parce que je vais à l'église, que je suis baptisé, que je fais de mon mieux. » Cela montre sur quoi la personne s'appuie.",
+    "Autre question : « As-tu déjà vécu un moment où tu as personnellement donné ta vie à Jésus ? » ou « Pour toi, quelle est la différence entre connaître des choses sur Jésus et connaître Jésus ? »"
+   ]
+  },
+  {
+   "titre": "3. Nicodème : naître de nouveau",
+   "texte": [
+    "Nicodème était un homme très religieux, respecté, enseignant de la Bible. Pourtant Jésus lui a dit : il faut que vous naissiez de nouveau (Jean 3:3-7). La religion ne suffit pas ; il faut une vie nouvelle donnée par l'Esprit de Dieu.",
+    "Jésus a aussi dit que ceux qui lui disent « Seigneur, Seigneur » n'entreront pas tous dans le royaume des cieux (Matthieu 7:21). Ce qui compte, c'est d'être connu de lui et de faire la volonté du Père."
+   ]
+  },
+  {
+   "titre": "4. La grâce, pas les œuvres",
+   "texte": [
+    "Explique que les sacrements, les prières, l'assiduité et les bonnes œuvres sont précieux, mais qu'ils ne peuvent pas nous sauver. C'est par la grâce que nous sommes sauvés, par le moyen de la foi ; cela ne vient pas de nous, c'est le don de Dieu (Éphésiens 2:8-9).",
+    "Le salut commence par la repentance personnelle et la foi en Jésus : reconnaître son péché, se confier en lui seul, le recevoir dans son cœur (Jean 1:12). Ensuite, la vie à l'église prend tout son sens : elle devient la vie d'un enfant de Dieu, et non un effort pour mériter le ciel."
+   ]
+  },
+  {
+   "titre": "5. Inviter à une décision personnelle",
+   "texte": [
+    "Demande avec respect : « Veux-tu aujourd'hui recevoir Jésus personnellement, pas seulement par tradition, mais parce que tu crois en lui et que tu veux qu'il soit le Seigneur de ta vie ? » Si la personne est prête, prie avec elle.",
+    "Encourage-la ensuite à lire la Bible chaque jour, à prier personnellement, et à chercher des frères et sœurs qui vivent une foi vivante."
+   ]
+  },
+  {
+   "titre": "À éviter",
+   "texte": [
+    "Les débats sur les dénominations, l'orgueil spirituel, le ton supérieur. Tu as toi aussi été sauvé par grâce seulement."
+   ]
+  }
+ ],
+ "objections": [
+  {
+   "question": "Je suis baptisé depuis ma naissance, je suis donc chrétien.",
+   "reponse": "Ton baptême est important. Mais Jésus a dit à Nicodème, un homme très religieux, qu'il fallait naître de nouveau (Jean 3:7). As-tu personnellement placé ta confiance en Jésus et reçu son pardon ? C'est cela qui fait de nous des enfants de Dieu (Jean 1:12)."
+  },
+  {
+   "question": "Je fais de mon mieux, Dieu en tiendra compte.",
+   "reponse": "Personne ne peut faire assez pour effacer ses péchés. La bonne nouvelle, c'est que Jésus a tout payé. Le salut est un don, pas un salaire (Éphésiens 2:8-9). Nos bonnes œuvres sont la réponse à ce don, pas son prix."
+  },
+  {
+   "question": "Tu veux me faire changer d'église.",
+   "reponse": "Non. Je ne te parle pas d'église, je te parle de Jésus. Ce qui compte, c'est que tu le connaisses personnellement. Ensuite, demande à Dieu où il veut que tu grandisses."
+  }
+ ],
+ "dialogue": {
+  "situation": "Esther, chrétienne, parle avec sa voisine Marie, qui va régulièrement à la messe.",
+  "personnes": [
+   {
+    "nom": "Esther",
+    "role": "chretien"
+   },
+   {
+    "nom": "Marie",
+    "role": "ami"
+   }
+  ],
+  "repliques": [
+   {
+    "personne": "Marie",
+    "texte": "Tu sais, Esther, moi aussi je suis chrétienne. Je vais à l'église chaque dimanche depuis toujours."
+   },
+   {
+    "personne": "Esther",
+    "texte": "C'est beau, Marie. Je peux te poser une question un peu personnelle ? Si tu mourais ce soir, est-ce que tu es sûre d'aller auprès de Dieu ?"
+   },
+   {
+    "personne": "Marie",
+    "texte": "Je l'espère. Je fais de mon mieux, je prie, je ne fais de mal à personne."
+   },
+   {
+    "personne": "Esther",
+    "texte": "Moi aussi, pendant longtemps, j'espérais. J'allais à l'église, mais je ne connaissais pas vraiment Jésus. Tu connais l'histoire de Nicodème ?"
+   },
+   {
+    "personne": "Marie",
+    "texte": "Un peu… c'est celui qui est venu voir Jésus la nuit ?"
+   },
+   {
+    "personne": "Esther",
+    "texte": "Oui. C'était un grand religieux, et Jésus lui a dit : il faut que tu naisses de nouveau. Ce n'était pas une question de religion, mais de vie nouvelle donnée par Dieu."
+   },
+   {
+    "personne": "Marie",
+    "texte": "Et comment on naît de nouveau ?"
+   },
+   {
+    "personne": "Esther",
+    "texte": "En reconnaissant qu'on est pécheur, qu'on ne peut pas se sauver soi-même, et en recevant Jésus personnellement comme Sauveur et Seigneur. La Bible dit que c'est par la grâce qu'on est sauvé, par la foi, et non par nos œuvres."
+   },
+   {
+    "personne": "Marie",
+    "texte": "Je n'ai jamais fait ça de manière personnelle. J'ai toujours suivi ce qu'on m'a appris."
+   },
+   {
+    "personne": "Esther",
+    "texte": "Tu peux le faire aujourd'hui, si tu veux. Ce n'est pas changer d'église, c'est donner ta vie à Jésus. Je peux prier avec toi."
+   },
+   {
+    "personne": "Marie",
+    "texte": "Oui… je crois que j'en ai besoin."
+   },
+   {
+    "personne": "Esther",
+    "texte": "Alors prions ensemble. Et après, on pourra lire l'Évangile de Jean toutes les deux."
+   }
+  ]
+ },
+ "versets": [
+  "Jn 3:3",
+  "Mt 7:21",
+  "Ép 2:8-9",
+  "Jn 1:12"
+ ],
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "source": "Contenu rédigé pour Yeshaya à partir d'approches d'évangélisation largement pratiquées. À relire par un responsable d'évangélisation."
+}

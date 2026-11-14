@@ -1,0 +1,138 @@
+{
+ "id": "approche-bouddhistes",
+ "ordre": 6,
+ "nom_court": "Bouddhistes",
+ "titre": "Parler de Jésus à un ami bouddhiste ou attiré par les spiritualités orientales",
+ "public": "Bouddhistes et spiritualités orientales",
+ "image": "/assets/paysages/coucher-soleil-lac.webp",
+ "resume": "Partir de la souffrance et de la recherche de paix, présenter un Dieu personnel qui pardonne, et Jésus qui donne gratuitement ce que l'effort humain ne peut atteindre.",
+ "parties": [
+  {
+   "titre": "1. Comprendre",
+   "texte": [
+    "Le bouddhisme enseigne en général que la vie est marquée par la souffrance, que cette souffrance vient du désir et de l'attachement, et qu'on peut s'en libérer par un chemin de discipline, de méditation et de détachement, au fil de nombreuses vies. Il n'y a pas, dans beaucoup de courants, de Dieu créateur personnel. Il existe d'ailleurs de nombreuses formes de bouddhisme : demande à ton ami ce qu'il croit, lui.",
+    "Beaucoup de personnes, en Afrique comme ailleurs, sont attirées par la méditation, le yoga ou la « paix intérieure » sans adhérer à tout le système. Ce qu'elles cherchent souvent, c'est la paix, l'équilibre, la fin de l'angoisse."
+   ]
+  },
+  {
+   "titre": "2. Les points de contact",
+   "texte": [
+    "Comme ton ami, la Bible prend la souffrance au sérieux. Elle reconnaît aussi que nos désirs désordonnés nous rendent esclaves. Tu peux reconnaître ce qui est juste dans sa recherche : le désir de paix, de compassion, de maîtrise de soi.",
+    "Puis pose la question : « Est-ce que tu as trouvé la paix que tu cherches ? Est-ce que tu es sûr d'y arriver un jour par tes efforts ? » Beaucoup avouent que le chemin est très long et incertain."
+   ]
+  },
+  {
+   "titre": "3. Un Dieu personnel qui pardonne",
+   "texte": [
+    "La grande différence, c'est que la Bible révèle un Dieu personnel, qui nous a créés par amour et qui veut une relation avec nous. Le problème n'est pas seulement la souffrance, mais le péché qui nous sépare de ce Dieu. Et la solution n'est pas de s'éteindre ou de se détacher de tout, mais d'être réconcilié avec lui.",
+    "Jésus dit : venez à moi, vous tous qui êtes fatigués et chargés, et je vous donnerai du repos (Matthieu 11:28). Ce repos, il ne le donne pas au terme d'innombrables efforts, mais comme un cadeau, par la grâce (Éphésiens 2:8-9)."
+   ]
+  },
+  {
+   "titre": "4. Une seule vie, un Sauveur",
+   "texte": [
+    "La Bible enseigne qu'il est réservé aux hommes de mourir une seule fois, après quoi vient le jugement (Hébreux 9:27). Il n'y a pas de cycle de vies successives pour réparer nos fautes. C'est grave, mais c'est aussi une bonne nouvelle : Jésus a porté nos fautes une fois pour toutes, et il offre la vie éternelle aujourd'hui.",
+    "Présente Jésus : sa compassion, son enseignement, sa mort pour nos péchés, et surtout sa résurrection. Aucun maître spirituel n'a vaincu la mort ; Jésus l'a fait."
+   ]
+  },
+  {
+   "titre": "5. Inviter",
+   "texte": [
+    "Propose de lire ensemble l'Évangile de Jean ou le sermon sur la montagne (Matthieu 5 à 7), qui touchent souvent les personnes en quête spirituelle. Invite ton ami à prier simplement Jésus, comme une personne vivante, et à lui demander de se révéler.",
+    "Quand il comprend, appelle-le à la repentance et à la foi : reconnaître son péché devant Dieu, se confier en Jésus seul, et le recevoir dans son cœur."
+   ]
+  },
+  {
+   "titre": "À éviter",
+   "texte": [
+    "Mépriser ses pratiques ou ses maîtres, ou utiliser un vocabulaire chrétien qu'il ne comprend pas sans l'expliquer (péché, grâce, salut). Prends le temps de définir les mots."
+   ]
+  }
+ ],
+ "objections": [
+  {
+   "question": "Toutes les voies mènent au même sommet.",
+   "reponse": "Les grandes voies spirituelles disent des choses très différentes : un Dieu personnel ou pas de Dieu, une seule vie ou des renaissances, le salut par grâce ou par l'effort. Elles ne peuvent pas toutes être vraies. Jésus a dit : je suis le chemin, la vérité et la vie (Jean 14:6)."
+  },
+  {
+   "question": "Je n'ai pas besoin d'un sauveur, je travaille sur moi-même.",
+   "reponse": "Le travail sur soi peut aider, mais il ne peut pas effacer nos fautes devant un Dieu saint, ni vaincre la mort. Jésus offre ce que nous ne pouvons pas atteindre seuls : le pardon, une vie nouvelle et la vie éternelle."
+  },
+  {
+   "question": "Le karma s'occupera de la justice.",
+   "reponse": "Le karma laisse chacun seul face à ses dettes. L'Évangile dit que Dieu est juste et qu'il a lui-même payé la dette en Jésus. La justice est faite, et la grâce est offerte."
+  }
+ ],
+ "dialogue": {
+  "situation": "Jonathan, chrétien, parle avec son ami Kevin qui pratique la méditation bouddhiste.",
+  "personnes": [
+   {
+    "nom": "Jonathan",
+    "role": "chretien"
+   },
+   {
+    "nom": "Kevin",
+    "role": "ami"
+   }
+  ],
+  "repliques": [
+   {
+    "personne": "Kevin",
+    "texte": "La méditation m'aide beaucoup. J'essaie de me détacher de mes désirs pour ne plus souffrir."
+   },
+   {
+    "personne": "Jonathan",
+    "texte": "Je comprends. Tu cherches la paix. Est-ce que tu as l'impression d'y arriver ?"
+   },
+   {
+    "personne": "Kevin",
+    "texte": "Par moments. Mais c'est long. On dit qu'il faut parfois beaucoup de vies pour y arriver."
+   },
+   {
+    "personne": "Jonathan",
+    "texte": "Moi aussi je cherchais la paix. Ce qui m'a frappé chez Jésus, c'est qu'il dit : venez à moi, vous qui êtes fatigués et chargés, et je vous donnerai du repos. Il le donne, on ne le gagne pas."
+   },
+   {
+    "personne": "Kevin",
+    "texte": "Mais il faut bien faire des efforts."
+   },
+   {
+    "personne": "Jonathan",
+    "texte": "Les efforts viennent après, par amour. Le problème, d'après la Bible, ce n'est pas seulement la souffrance, c'est que nous sommes séparés de Dieu par nos fautes. Et Jésus est venu payer pour elles et nous réconcilier avec Dieu."
+   },
+   {
+    "personne": "Kevin",
+    "texte": "Je ne suis pas sûr de croire en un Dieu personnel."
+   },
+   {
+    "personne": "Jonathan",
+    "texte": "C'est une vraie question. Jésus a dit qu'il était venu nous montrer le Père. Et il a fait quelque chose qu'aucun maître n'a fait : il est revenu de la mort."
+   },
+   {
+    "personne": "Kevin",
+    "texte": "C'est ce que croient les chrétiens, oui."
+   },
+   {
+    "personne": "Jonathan",
+    "texte": "Tu veux lire avec moi le sermon sur la montagne ? C'est l'enseignement de Jésus sur la vraie paix du cœur. Tu me diras ce que tu en penses."
+   },
+   {
+    "personne": "Kevin",
+    "texte": "D'accord, ça m'intéresse."
+   },
+   {
+    "personne": "Jonathan",
+    "texte": "Et si tu veux, tu peux aussi lui parler directement, comme à quelqu'un de vivant. Demande-lui de se montrer à toi."
+   }
+  ]
+ },
+ "versets": [
+  "Mt 11:28",
+  "Hé 9:27",
+  "Jn 14:6",
+  "Ép 2:8-9"
+ ],
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "source": "Contenu rédigé pour Yeshaya à partir d'approches d'évangélisation largement pratiquées. À relire par un responsable d'évangélisation."
+}
