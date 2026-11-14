@@ -27,6 +27,7 @@ import { Grandir } from './ecrans/grandir/Grandir.jsx';
 import { Parcours, PARCOURS } from './ecrans/grandir/NouveauConverti.jsx';
 import { Evangeliser, Article } from './ecrans/evangeliser/Evangeliser.jsx';
 import { Dialogue } from './ecrans/evangeliser/Dialogue.jsx';
+import { Conversation } from './ecrans/evangeliser/Conversation.jsx';
 import { Outil } from './ecrans/evangeliser/Outil.jsx';
 import { Approche } from './ecrans/evangeliser/Approche.jsx';
 import { Admin } from './ecrans/Admin.jsx';
@@ -46,7 +47,7 @@ import { Ordre } from './ecrans/jeux/Ordre.jsx';
 import { Duel } from './ecrans/jeux/Duel.jsx';
 import { Badges } from './ecrans/jeux/Badges.jsx';
 import { QUIZ } from './donnees/contenu.js';
-import { PRIERES, EVANGELISATION, DIALOGUES, VEILLES, COMBAT, ENSEIGNEMENTS, OUTILS, APPROCHES } from './donnees/contenu.js';
+import { PRIERES, EVANGELISATION, DIALOGUES, VEILLES, COMBAT, ENSEIGNEMENTS, OUTILS, APPROCHES, CONVERSATIONS } from './donnees/contenu.js';
 import { lecteur } from './audio/lecteur.js';
 import { route, ONGLET_DE } from './outils/routeur.js';
 import { useSignal } from './outils/signal.js';
@@ -84,6 +85,7 @@ function titre([a, b, c]) {
   if (a === 'grandir' && b === 'decouvrir-jesus') return c ? `Découvrir Jésus : leçon ${c}` : 'Découvrir Jésus';
   if (a === 'evangeliser' && b === 'article') return EVANGELISATION.find((x) => x.id === c)?.titre ?? 'Évangéliser';
   if (a === 'evangeliser' && b === 'dialogue') return 'Dialogue';
+  if (a === 'evangeliser' && b === 'conversation') return CONVERSATIONS.find((x) => x.id === c)?.titre ?? 'Évangéliser';
   if (a === 'evangeliser' && b === 'outil') return OUTILS.find((x) => x.id === c)?.titre ?? 'Évangéliser';
   if (a === 'evangeliser' && b === 'approche') return APPROCHES.find((x) => x.id === c)?.nom_court ?? 'Évangéliser';
   if (a !== 'bible' || !b) return null;
@@ -110,7 +112,7 @@ function Ecran({ r }) {
     'qui-suis-je': <QuiSuisJe />, ordre: <Ordre id={c} />, duel: <Duel />, badges: <Badges />, chemin: c ? <NiveauChemin id={c} /> : <CheminFoi /> })[b] ?? <Jouer />;
   if (a === 'priere') return b === 'demander' ? <DemanderPriere /> : b === 'journal' ? <Journal nouveau={r.params.nouveau} /> : b === 'theme' ? <ThemePriere id={c} guide={r.params.guide === '1'} /> : b === 'veille' ? <Veille id={c} guide={r.params.guide === '1'} /> : b === 'combat' ? <FicheCombat id={c} guide={r.params.guide === '1'} /> : <Priere />;
   if (a === 'grandir') return PARCOURS[b] ? <Parcours id={b} jour={c} /> : b === 'enseignement' ? <EnseignementEcrit id={c} /> : b === 'formation' ? <Formation /> : <Grandir />;
-  if (a === 'evangeliser') return b === 'article' ? <Article id={c} /> : b === 'dialogue' ? <Dialogue id={c} /> : b === 'outil' ? <Outil id={c} /> : b === 'approche' ? <Approche id={c} /> : <Evangeliser />;
+  if (a === 'evangeliser') return b === 'article' ? <Article id={c} /> : b === 'dialogue' ? <Dialogue id={c} /> : b === 'outil' ? <Outil id={c} /> : b === 'conversation' ? <Conversation id={c} /> : b === 'approche' ? <Approche id={c} /> : <Evangeliser />;
   if (a === 'ecouter') return <Ecouter id={b} />;
   if (a === 'bible') {
     if (!b) return <BibleAccueil />;

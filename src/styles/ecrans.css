@@ -626,3 +626,8 @@
 .etape-commandes { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 12px; }
 .etape-commandes .bouton { flex: 1; min-height: 52px; }
 .etape-commandes .bouton:disabled { opacity: .55; }
+/* Conversation interactive */
+.conv__app .bulle__corps p { margin: 0 0 8px; line-height: 1.55; }
+.conv__priere { font-style: italic; }
+.conv__choix { display: grid; gap: 8px; margin-top: 12px; }
+.conv__choix .bouton { min-height: 50px; white-space: normal; }

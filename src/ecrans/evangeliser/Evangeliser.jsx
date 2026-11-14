@@ -2,7 +2,7 @@ import { useState } from 'preact/hooks';
 import { Icone } from '../../composants/Icone.jsx';
 import { CarteVerset } from '../../composants/Verset.jsx';
 import { BoutonLecture } from '../../composants/Audio.jsx';
-import { EVANGELISATION, DIALOGUES, AUDIOS, OUTILS, APPROCHES } from '../../donnees/contenu.js';
+import { EVANGELISATION, DIALOGUES, AUDIOS, OUTILS, APPROCHES, CONVERSATIONS } from '../../donnees/contenu.js';
 import { partager } from '../../outils/partage.js';
 import { BarreEcoute } from '../../composants/Ecouter.jsx';
 
@@ -18,8 +18,8 @@ const SECTIONS = [
 // Écran 8 : Évangéliser.
 export function Evangeliser() {
   const [vue, setVue] = useState('presenter');
-  const liste = vue === 'dialogues' ? DIALOGUES : vue === 'presenter' ? OUTILS : vue === 'approches' ? APPROCHES : EVANGELISATION.filter((x) => x.type === vue);
-  const lien = (x) => '#/evangeliser/' + ({ dialogues: 'dialogue', presenter: 'outil', approches: 'approche' }[vue] || 'article') + '/' + x.id;
+  const liste = vue === 'dialogues' ? DIALOGUES : vue === 'presenter' ? [...CONVERSATIONS, ...OUTILS] : vue === 'approches' ? APPROCHES : EVANGELISATION.filter((x) => x.type === vue);
+  const lien = (x) => '#/evangeliser/' + (x.noeuds ? 'conversation' : { dialogues: 'dialogue', presenter: 'outil', approches: 'approche' }[vue] || 'article') + '/' + x.id;
   const s = SECTIONS.find((x) => x[0] === vue);
   return (
     <div class="page">

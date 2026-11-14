@@ -1,0 +1,545 @@
+{
+ "id": "conversation-bonne-personne",
+ "ordre": 1,
+ "titre": "Es-tu une bonne personne ?",
+ "resume": "Une conversation interactive : l'application pose les questions, la personne répond en touchant sa réponse. La loi de Dieu montre le péché, puis la grâce montre Jésus.",
+ "image": "/assets/coeur-de-l-homme/8-l-appel.webp",
+ "duree_estimee": "10 à 15 min",
+ "conseil": "Donne le téléphone à la personne, ou réponds avec elle. La voix pose chaque question ; les réponses apparaissent quand elle a fini de parler.",
+ "noeuds": {
+  "debut": {
+   "dit": [
+    "Bonjour ! Merci de prendre quelques minutes avec moi. Je voudrais te poser quelques questions simples, et tu réponds en touchant la réponse qui te correspond. Il n'y a pas de piège : sois simplement honnête.",
+    "Première question : penses-tu être une bonne personne ?"
+   ],
+   "versets": [],
+   "choix": [
+    {
+     "texte": "Oui, je pense",
+     "aller": "oui-bon"
+    },
+    {
+     "texte": "Pas vraiment",
+     "aller": "pas-bon"
+    },
+    {
+     "texte": "Je ne sais pas",
+     "aller": "pas-bon"
+    }
+   ]
+  },
+  "oui-bon": {
+   "dit": [
+    "C'est ce que pensent la plupart des gens. La Bible le remarque déjà : beaucoup de gens proclament leur bonté.",
+    "Mais être bon par rapport aux autres, ce n'est pas la même chose qu'être bon aux yeux de Dieu. Faisons un petit test avec quelques-uns des dix commandements, la loi de Dieu. D'accord ?"
+   ],
+   "versets": [
+    "Pr 20:6"
+   ],
+   "choix": [
+    {
+     "texte": "D'accord",
+     "aller": "mensonge"
+    },
+    {
+     "texte": "Pourquoi les commandements ?",
+     "aller": "pourquoi-loi"
+    }
+   ]
+  },
+  "pas-bon": {
+   "dit": [
+    "Merci pour ton honnêteté, c'est déjà un grand pas. Faisons un petit test ensemble avec quelques-uns des dix commandements, la loi de Dieu. Ils sont comme un miroir : ils nous montrent à quoi nous ressemblons vraiment. D'accord ?"
+   ],
+   "versets": [],
+   "choix": [
+    {
+     "texte": "D'accord",
+     "aller": "mensonge"
+    },
+    {
+     "texte": "Pourquoi les commandements ?",
+     "aller": "pourquoi-loi"
+    }
+   ]
+  },
+  "pourquoi-loi": {
+   "dit": [
+    "Parce que c'est la mesure de Dieu, pas la nôtre. Un miroir ne nettoie pas le visage, mais il montre qu'il est sale. La loi de Dieu fait la même chose : elle nous montre notre péché, pour que nous comprenions pourquoi nous avons besoin d'un Sauveur."
+   ],
+   "versets": [
+    "Rm 3:20",
+    "Ga 3:24"
+   ],
+   "choix": [
+    {
+     "texte": "Je comprends, continuons",
+     "aller": "mensonge"
+    }
+   ]
+  },
+  "mensonge": {
+   "dit": [
+    "Première question. Combien de mensonges penses-tu avoir dit dans toute ta vie ?"
+   ],
+   "versets": [],
+   "choix": [
+    {
+     "texte": "Quelques-uns",
+     "aller": "menteur"
+    },
+    {
+     "texte": "Beaucoup",
+     "aller": "menteur"
+    },
+    {
+     "texte": "Jamais",
+     "aller": "jamais-menti"
+    }
+   ]
+  },
+  "jamais-menti": {
+   "dit": [
+    "Vraiment jamais ? Même un petit mensonge, pour éviter une punition étant enfant, ou pour ne pas vexer quelqu'un ? La Bible dit que si nous disons que nous n'avons pas de péché, nous nous trompons nous-mêmes."
+   ],
+   "versets": [
+    "1 Jn 1:8"
+   ],
+   "choix": [
+    {
+     "texte": "Bon, si, j'ai déjà menti",
+     "aller": "menteur"
+    },
+    {
+     "texte": "Non, jamais",
+     "aller": "vol"
+    }
+   ]
+  },
+  "menteur": {
+   "dit": [
+    "Merci d'être honnête. Comment appelle-t-on quelqu'un qui ment ?"
+   ],
+   "versets": [],
+   "choix": [
+    {
+     "texte": "Un menteur",
+     "aller": "vol"
+    },
+    {
+     "texte": "Ce n'étaient que de petits mensonges",
+     "aller": "petits-mensonges"
+    }
+   ]
+  },
+  "petits-mensonges": {
+   "dit": [
+    "Pour nous, ce sont de petits mensonges. Mais Dieu n'a pas dit « Tu ne mentiras pas trop ». Il a dit : Tu ne porteras point de faux témoignage. Un mensonge, petit ou grand, reste un mensonge, et celui qui ment est un menteur."
+   ],
+   "versets": [
+    "Ex 20:16"
+   ],
+   "choix": [
+    {
+     "texte": "C'est vrai",
+     "aller": "vol"
+    }
+   ]
+  },
+  "vol": {
+   "dit": [
+    "Deuxième question. As-tu déjà pris quelque chose qui ne t'appartenait pas, même une petite chose : un objet, de l'argent, un bonbon, une réponse à un examen ?"
+   ],
+   "versets": [],
+   "choix": [
+    {
+     "texte": "Oui",
+     "aller": "voleur"
+    },
+    {
+     "texte": "Non, jamais",
+     "aller": "blaspheme"
+    }
+   ]
+  },
+  "voleur": {
+   "dit": [
+    "Et comment appelle-t-on quelqu'un qui prend ce qui ne lui appartient pas ? Un voleur. Le commandement est clair : Tu ne déroberas point. La valeur de l'objet ne change rien : c'est le cœur qui a volé."
+   ],
+   "versets": [
+    "Ex 20:15"
+   ],
+   "choix": [
+    {
+     "texte": "Je comprends",
+     "aller": "blaspheme"
+    }
+   ]
+  },
+  "blaspheme": {
+   "dit": [
+    "Troisième question. As-tu déjà utilisé le nom de Dieu à la légère, comme un juron, quand tu étais fâché ou surpris ? Par exemple : « Mon Dieu ! » sans parler à Dieu, ou pire."
+   ],
+   "versets": [],
+   "choix": [
+    {
+     "texte": "Oui",
+     "aller": "blasphemateur"
+    },
+    {
+     "texte": "Non",
+     "aller": "adultere"
+    }
+   ]
+  },
+  "blasphemateur": {
+   "dit": [
+    "Le nom de Dieu est saint. Le commandement dit : Tu ne prendras point le nom de l'Éternel, ton Dieu, en vain, car l'Éternel ne laissera point impuni celui qui prendra son nom en vain. Utiliser ce nom avec mépris, c'est du blasphème."
+   ],
+   "versets": [
+    "Ex 20:7"
+   ],
+   "choix": [
+    {
+     "texte": "Je ne savais pas que c'était si grave",
+     "aller": "adultere"
+    }
+   ]
+  },
+  "adultere": {
+   "dit": [
+    "Quatrième question, plus personnelle. Jésus a dit que quiconque regarde une femme pour la convoiter a déjà commis un adultère avec elle dans son cœur. Cela vaut aussi pour une femme qui regarde un homme.",
+    "As-tu déjà regardé quelqu'un avec convoitise, ou regardé de la pornographie ?"
+   ],
+   "versets": [
+    "Mt 5:28"
+   ],
+   "choix": [
+    {
+     "texte": "Oui",
+     "aller": "haine"
+    },
+    {
+     "texte": "Non",
+     "aller": "haine"
+    }
+   ]
+  },
+  "haine": {
+   "dit": [
+    "Dernière question. As-tu déjà haï quelqu'un, gardé de la rancune, ou souhaité du mal à une personne ? La Bible dit que quiconque hait son frère est un meurtrier aux yeux de Dieu."
+   ],
+   "versets": [
+    "1 Jn 3:15"
+   ],
+   "choix": [
+    {
+     "texte": "Oui",
+     "aller": "bilan"
+    },
+    {
+     "texte": "Non",
+     "aller": "bilan"
+    }
+   ]
+  },
+  "bilan": {
+   "dit": [
+    "Merci d'avoir répondu avec honnêteté. Ce n'est pas moi qui te juge : moi aussi, j'ai fait ces choses. Mais regardons ensemble ce que dit la loi de Dieu.",
+    "Nous n'avons parlé que de cinq commandements, et la Bible dit que celui qui pèche contre un seul commandement devient coupable de tous.",
+    "Alors une question importante : si Dieu te jugeait selon ces commandements, au jour du jugement, serais-tu innocent ou coupable ?"
+   ],
+   "versets": [
+    "Jc 2:10"
+   ],
+   "choix": [
+    {
+     "texte": "Coupable",
+     "aller": "destination"
+    },
+    {
+     "texte": "Innocent",
+     "aller": "innocent"
+    },
+    {
+     "texte": "Dieu est bon, il me pardonnera",
+     "aller": "dieu-bon"
+    }
+   ]
+  },
+  "innocent": {
+   "dit": [
+    "Imagine un juge devant qui on amène un homme qui a menti, volé et frappé quelqu'un. L'homme dit : « Mais j'ai aussi fait de bonnes choses ! » Un bon juge peut-il le laisser partir sans punir ses fautes ? Non : ce serait un juge injuste.",
+    "Dieu est un juste juge. Nos bonnes actions n'effacent pas nos fautes. La Bible dit : tous ont péché et sont privés de la gloire de Dieu."
+   ],
+   "versets": [
+    "Ps 7:12",
+    "Rm 3:23"
+   ],
+   "choix": [
+    {
+     "texte": "Alors je suis coupable",
+     "aller": "destination"
+    }
+   ]
+  },
+  "dieu-bon": {
+   "dit": [
+    "Tu as raison : Dieu est bon, et même très bon. Mais justement, parce qu'il est bon, il ne peut pas fermer les yeux sur le mal. Un juge bon punit le crime ; un juge qui libère les coupables n'est pas bon, il est corrompu.",
+    "La bonté de Dieu ne veut pas dire qu'il ignore le péché. Elle veut dire qu'il nous pousse à la repentance, et qu'il a préparé un moyen de nous pardonner justement. Tu vas voir lequel."
+   ],
+   "versets": [
+    "Rm 2:4"
+   ],
+   "choix": [
+    {
+     "texte": "Je veux comprendre",
+     "aller": "destination"
+    }
+   ]
+  },
+  "destination": {
+   "dit": [
+    "Si tu es coupable devant Dieu, la Bible dit qu'il est réservé aux hommes de mourir une seule fois, après quoi vient le jugement. Elle dit aussi que le salaire du péché, c'est la mort, une séparation éternelle d'avec Dieu.",
+    "Selon toi, si tu mourais aujourd'hui, irais-tu au ciel ou en enfer ?"
+   ],
+   "versets": [
+    "Hé 9:27",
+    "Rm 6:23"
+   ],
+   "choix": [
+    {
+     "texte": "En enfer, selon ce que j'ai fait",
+     "aller": "inquiet"
+    },
+    {
+     "texte": "Au ciel",
+     "aller": "ciel"
+    },
+    {
+     "texte": "Je ne sais pas",
+     "aller": "inquiet"
+    }
+   ]
+  },
+  "ciel": {
+   "dit": [
+    "Pourquoi irais-tu au ciel, si tu es coupable d'après la loi de Dieu ? Si c'est parce que tu essaies d'être bon, nous avons vu que nos bonnes œuvres ne peuvent pas effacer nos fautes. Toute notre justice est comme un vêtement souillé devant Dieu.",
+    "Il n'y a qu'un seul chemin, et ce n'est pas nos efforts. Laisse-moi te l'expliquer."
+   ],
+   "versets": [
+    "És 64:5"
+   ],
+   "choix": [
+    {
+     "texte": "Explique-moi",
+     "aller": "inquiet"
+    }
+   ]
+  },
+  "inquiet": {
+   "dit": [
+    "Est-ce que cela t'inquiète ?"
+   ],
+   "versets": [],
+   "choix": [
+    {
+     "texte": "Oui",
+     "aller": "evangile"
+    },
+    {
+     "texte": "Pas vraiment",
+     "aller": "pas-inquiet"
+    }
+   ]
+  },
+  "pas-inquiet": {
+   "dit": [
+    "Je comprends. Mais ce n'est pas pour te faire peur que je te dis cela : c'est parce que tu as de la valeur. Si ta maison brûlait pendant que tu dors, tu voudrais que quelqu'un te réveille, même brutalement. Dieu ne veut pas qu'aucun périsse, mais que tous arrivent à la repentance. Écoute la bonne nouvelle."
+   ],
+   "versets": [
+    "2 P 3:9"
+   ],
+   "choix": [
+    {
+     "texte": "Je t'écoute",
+     "aller": "evangile"
+    }
+   ]
+  },
+  "evangile": {
+   "dit": [
+    "Voici la bonne nouvelle. Imagine : tu es devant le tribunal, coupable, avec une amende énorme que tu ne peux pas payer. Et juste avant la sentence, quelqu'un entre et paie toute l'amende à ta place. Le juge peut alors te laisser partir, et il reste juste, parce que la dette est payée.",
+    "C'est ce que Dieu a fait. Il a tant aimé le monde qu'il a donné son Fils unique, Jésus. Jésus n'a jamais péché, et pourtant il est mort sur la croix pour payer l'amende de nos péchés : le mensonge, le vol, le blasphème, la convoitise, la haine. Trois jours plus tard, il est ressuscité. Il est vivant !",
+    "Dieu prouve son amour envers nous en ce que, lorsque nous étions encore des pécheurs, Christ est mort pour nous."
+   ],
+   "versets": [
+    "Jn 3:16",
+    "2 Co 5:21",
+    "Rm 5:8"
+   ],
+   "choix": [
+    {
+     "texte": "Je comprends",
+     "aller": "repentance"
+    },
+    {
+     "texte": "Explique-moi encore",
+     "aller": "encore"
+    }
+   ]
+  },
+  "encore": {
+   "dit": [
+    "Bien sûr. Ta faute, c'est d'avoir désobéi à Dieu. La punition, c'est la mort et la séparation d'avec lui. Jésus, qui était sans péché, a pris sur lui ta punition. Il a pris ta place sur la croix. Il est mort à ta place, puis il est ressuscité.",
+    "Ce n'est pas une récompense pour les gens bien : c'est un cadeau pour les coupables qui le reconnaissent. C'est par la grâce que vous êtes sauvés, par le moyen de la foi, ce n'est pas par les œuvres."
+   ],
+   "versets": [
+    "Ep 2:8-9"
+   ],
+   "choix": [
+    {
+     "texte": "Maintenant je comprends",
+     "aller": "repentance"
+    }
+   ]
+  },
+  "repentance": {
+   "dit": [
+    "Alors, que dois-tu faire pour recevoir ce pardon ? Pas faire de bonnes œuvres, mais deux choses que Jésus lui-même a dites : Repentez-vous, et croyez à la bonne nouvelle.",
+    "Se repentir, c'est reconnaître ses péchés devant Dieu, en avoir le cœur brisé, et s'en détourner. Celui qui cache ses transgressions ne prospère point, mais celui qui les avoue et les délaisse obtient miséricorde.",
+    "Croire, c'est mettre toute ta confiance en Jésus, comme tu mets ta confiance dans un parachute quand tu sautes : pas seulement penser qu'il existe, mais t'abandonner à lui. Et le recevoir dans ton cœur, pour qu'il habite en toi et devienne ton Seigneur.",
+    "Veux-tu te repentir et faire confiance à Jésus aujourd'hui ?"
+   ],
+   "versets": [
+    "Mc 1:15",
+    "Pr 28:13",
+    "Rm 10:9"
+   ],
+   "choix": [
+    {
+     "texte": "Oui, je le veux",
+     "aller": "priere"
+    },
+    {
+     "texte": "Pas encore",
+     "aller": "pas-encore"
+    },
+    {
+     "texte": "J'ai une question",
+     "aller": "questions"
+    }
+   ]
+  },
+  "questions": {
+   "dit": [
+    "Bien sûr, c'est normal d'avoir des questions. Laquelle te ressemble le plus ?"
+   ],
+   "versets": [],
+   "choix": [
+    {
+     "texte": "Je ne crois pas que Dieu existe",
+     "aller": "q-dieu"
+    },
+    {
+     "texte": "Toutes les religions se valent",
+     "aller": "q-religions"
+    },
+    {
+     "texte": "Je le ferai plus tard",
+     "aller": "pas-encore"
+    },
+    {
+     "texte": "Mes péchés sont trop graves",
+     "aller": "q-trop"
+    }
+   ]
+  },
+  "q-dieu": {
+   "dit": [
+    "Quand tu vois une maison, tu sais qu'il y a eu un constructeur, même si tu ne l'as jamais vu. La création, avec son ordre et sa beauté, montre qu'il y a un Créateur. Les cieux racontent la gloire de Dieu.",
+    "Et ta conscience, cette voix qui t'a dit tout à l'heure que mentir ou voler, c'est mal, montre que la loi de Dieu est écrite dans ton cœur."
+   ],
+   "versets": [
+    "Ps 19:2",
+    "Rm 1:20"
+   ],
+   "choix": [
+    {
+     "texte": "Je veux réfléchir à la suite",
+     "aller": "repentance"
+    }
+   ]
+  },
+  "q-religions": {
+   "dit": [
+    "Toutes les religions demandent à l'homme de faire des efforts pour atteindre Dieu. L'Évangile, c'est l'inverse : c'est Dieu qui vient à l'homme et qui paie lui-même sa dette. Jésus a dit : Je suis le chemin, la vérité, et la vie. Nul ne vient au Père que par moi.",
+    "Aucun autre n'est mort pour tes péchés et ressuscité. Il n'y a de salut en aucun autre."
+   ],
+   "versets": [
+    "Jn 14:6",
+    "Ac 4:12"
+   ],
+   "choix": [
+    {
+     "texte": "Je comprends",
+     "aller": "repentance"
+    }
+   ]
+  },
+  "q-trop": {
+   "dit": [
+    "Aucun péché n'est trop grand pour le sang de Jésus. L'apôtre Paul avait persécuté et fait tuer des chrétiens, et Dieu l'a pardonné. Si nos péchés sont comme le cramoisi, ils deviendront blancs comme la neige.",
+    "Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et pour nous purifier de toute iniquité."
+   ],
+   "versets": [
+    "És 1:18",
+    "1 Jn 1:9"
+   ],
+   "choix": [
+    {
+     "texte": "Alors je veux venir à lui",
+     "aller": "priere"
+    },
+    {
+     "texte": "Je veux encore réfléchir",
+     "aller": "pas-encore"
+    }
+   ]
+  },
+  "pas-encore": {
+   "dit": [
+    "Je respecte ta décision. Mais je t'en prie, ne remets pas cela à trop tard : personne ne connaît le jour de sa mort. La Bible dit : voici maintenant le temps favorable, voici maintenant le jour du salut.",
+    "Ce soir, avant de dormir, parle à Dieu honnêtement. Lis l'Évangile de Jean. Et si tu veux, l'application t'accompagne avec le parcours « Découvrir Jésus »."
+   ],
+   "versets": [
+    "2 Co 6:2"
+   ],
+   "choix": [
+    {
+     "texte": "Finalement, je veux prier maintenant",
+     "aller": "priere"
+    }
+   ],
+   "fin": "pas-encore"
+  },
+  "priere": {
+   "dit": [
+    "Gloire à Dieu ! Alors prions ensemble. Répète après moi, du fond de ton cœur. Ce ne sont pas les mots qui sauvent, c'est Jésus, quand tu lui fais confiance de tout ton cœur.",
+    "Seigneur Jésus, je viens à toi aujourd'hui. Je reconnais que j'ai péché contre toi : mon cœur est rempli d'orgueil, de mensonge, d'impureté et de tant de choses mauvaises. Je ne peux pas me sauver moi-même. Je te demande pardon. Je crois que tu es le Fils de Dieu, que tu es mort sur la croix pour mes péchés, et je crois dans mon cœur que Dieu t'a ressuscité des morts. Je me détourne de mes péchés. J'ouvre la porte de mon cœur : entre, Seigneur Jésus, viens habiter en moi. Je te reçois aujourd'hui comme mon Sauveur et mon Seigneur. Lave-moi par ton sang, remplis-moi de ton Saint-Esprit, et aide-moi à te suivre chaque jour. Merci pour ta Parole, merci de m'avoir sauvé. Au nom de Jésus. Amen."
+   ],
+   "versets": [],
+   "choix": [],
+   "fin": "priere"
+  }
+ },
+ "apres": [
+  "Si tu as prié cette prière avec sincérité, la Bible dit que tu es devenu enfant de Dieu. Ce n'est pas un sentiment qui te le garantit, c'est sa promesse : quiconque invoquera le nom du Seigneur sera sauvé.",
+  "Dis-le à quelqu'un : à la personne qui t'a partagé ce message, ou à un chrétien que tu connais. Commence à lire la Bible, par exemple l'Évangile de Jean, à prier chaque jour, et cherche une église où l'on enseigne la Parole de Dieu.",
+  "Le parcours « Nouveau converti » de l'application t'accompagne pas à pas pendant 30 jours."
+ ],
+ "source": "Méthode inspirée de « The Way of the Master » (Ray Comfort et Kirk Cameron, Living Waters) : la loi de Dieu pour montrer le péché, puis la grâce. Texte original du ministère Yeshaya.",
+ "auteur": "Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14"
+}

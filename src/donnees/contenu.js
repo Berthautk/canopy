@@ -22,6 +22,7 @@ export const NOUVEAU_CONVERTI = dossier('nouveau-converti').sort((a, b) => a.jou
 export const EVANGELISATION = dossier('evangelisation').sort(parOrdre);
 export const DIALOGUES = dossier('dialogues').sort(parOrdre);
 export const OUTILS = dossier('outils-evangelisation').sort(parOrdre);
+export const CONVERSATIONS = dossier('conversations').sort(parOrdre);
 export const APPROCHES = dossier('approches').sort(parOrdre);
 export const JOURS_PARCOURS = 30;
 export const DECOUVRIR_JESUS = dossier('decouvrir-jesus').sort((a, b) => a.jour - b.jour);
