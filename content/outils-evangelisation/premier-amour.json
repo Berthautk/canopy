@@ -2,10 +2,10 @@
  "id": "outil-premier-amour",
  "ordre": 3,
  "titre": "Reviens à ton premier amour",
- "resume": "Un message pour ceux qui ont connu Jésus et qui se sont refroidis ou éloignés : souviens-toi, repens-toi, reviens. Le Père t'attend.",
+ "resume": "Un message pour ceux qui ont connu Jésus et dont l'amour s'est refroidi : qu'est-ce que le premier amour, ce qui l'étouffe (les soucis de la vie, l'habitude, le découragement), et comment revenir. Adapté du message du pasteur Abel Nkomba.",
  "image": "/assets/evangelisation/etreinte.webp",
- "duree_estimee": "15 min",
- "conseil": "Ce message s'adresse à quelqu'un qui a déjà suivi Jésus et qui s'est éloigné : il ne prie plus, ne va plus à l'église, est retourné à d'anciens péchés ou s'est simplement refroidi. Parle sans condamner, avec la tendresse du Père.",
+ "duree_estimee": "20 min",
+ "conseil": "Ce message s'adresse à quelqu'un qui a déjà suivi Jésus et qui s'est refroidi ou éloigné. Laisse-le écouter jusqu'au bout, sans juger : c'est le Seigneur qui dit, avec amour, « tu ne m'aimes plus comme avant ».",
  "video": "https://youtu.be/xqiU1wvZOmw",
  "decision": {
   "bouton": "J'ai prié pour revenir à Jésus",
@@ -15,78 +15,107 @@
  "etapes": [
   {
    "image": "/assets/temoignage/joie-bible-contre-coeur.webp",
-   "titre": "1. Te souviens-tu ?",
+   "titre": "1. « Tu ne m'aimes plus comme avant »",
    "texte": [
-    "Te souviens-tu du jour où tu as rencontré Jésus ? Peut-être que tu pleurais de joie. Tu avais faim de la Bible, tu priais avec ferveur, tu parlais de lui à tout le monde. Tu n'avais pas besoin qu'on te pousse pour aller à l'église : tu y courais. Tu aimais Jésus, et tu savais qu'il t'aimait.",
-    "Dieu, lui, s'en souvient. Par le prophète Jérémie, il disait à son peuple : je me souviens de ton amour lorsque tu étais jeune, quand tu me suivais au désert. Dieu n'a pas oublié ces moments. Il les garde comme un père garde le souvenir des premiers pas de son enfant."
+    "Écoute ce que le Seigneur Jésus dit à l'Église d'Éphèse. Il commence par reconnaître tout ce qu'elle fait : je connais tes œuvres, ton travail, ta persévérance ; tu as souffert à cause de mon nom et tu ne t'es point lassé. Puis il ajoute : mais ce que j'ai contre toi, c'est que tu as abandonné ton premier amour. Souviens-toi donc d'où tu es tombé, repens-toi, et pratique tes premières œuvres.",
+    "Remarque bien : cette Église travaillait, elle venait aux réunions, elle résistait au mal. Et pourtant, Jésus lui dit en quelque sorte : tu ne m'aimes plus comme avant. Toutes ces activités ne remplaçaient pas l'essentiel.",
+    "La vie chrétienne, c'est une relation personnelle d'amour entre le Seigneur et son enfant. Une relation d'amour, pas une relation d'intérêt. Le Seigneur aime son fils, sa fille, pour lequel il a versé son sang à la croix, et il attend de lui de l'amour en retour. Quand il n'y a plus d'amour, ce n'est plus vraiment la vie de Christ : ça devient autre chose.",
+    "Après sa résurrection, quand Jésus a retrouvé Pierre, il ne lui a pas demandé : as-tu travaillé ? As-tu prêché ? Il lui a demandé une seule chose : m'aimes-tu ? Aujourd'hui, il te pose la même question."
    ],
    "versets": [
-    "Jr 2:2"
+    "Ap 2:2-5",
+    "Jn 21:15"
+   ]
+  },
+  {
+   "image": "/assets/nouveau-converti/joie-de-la-rencontre.webp",
+   "titre": "2. Qu'est-ce que le premier amour ?",
+   "texte": [
+    "Le premier amour, c'est d'abord l'amour que tu as ressenti pour Dieu juste après ta conversion. Le jour où tu as entendu la Parole, où le Saint-Esprit t'a convaincu, où tu as décidé d'abandonner le chemin du péché pour donner ta vie à Christ. Ce jour-là, les choses du monde ne te disaient plus rien. Tout ce que tu voulais, c'était Jésus et la vie éternelle qu'il t'offrait.",
+    "C'est ce que Paul décrit : ces choses qui étaient pour moi des gains, je les ai regardées comme une perte à cause de Christ ; et même je regarde toutes choses comme une perte à cause de l'excellence de la connaissance de Jésus-Christ mon Seigneur.",
+    "Pierre a vécu ce premier amour dans sa barque : après une nuit sans rien prendre, Jésus lui a dit de jeter les filets, la pêche a été miraculeuse, et Pierre a tout laissé pour le suivre. Mais après la mort de Jésus, ce même Pierre a dit : je vais pêcher. Il retournait à sa vie d'avant. Et Jésus est venu le retrouver là, au même endroit, pour raviver cet amour.",
+    "Le premier amour, c'est ensuite le zèle, l'empressement que tu avais au début pour les choses de Dieu. Souviens-toi : tu aimais prier, tu jeûnais, tu méditais la Parole, tu ne manquais pas un culte. Certains fermaient même leur commerce au marché pour aller à l'église. Tu parlais de Jésus à tous ceux que tu rencontrais, tu étais prêt à donner ton argent pour l'œuvre de Dieu.",
+    "Enfin, le premier amour, c'est le désir de plaire à Dieu en toute chose, même dans les moindres détails, sans aucun intérêt, simplement parce qu'on l'aime. Au début, après avoir écouté la Parole, tu as décidé toi-même : ceci, je ne peux plus le regarder ; là, je ne peux plus aller ; cette fréquentation, je l'arrête. Où en es-tu aujourd'hui ?",
+    "Il y a une différence entre refuser le péché parce qu'on a peur de l'enfer, et refuser le péché parce qu'on aime Jésus. L'amour fait que l'on ne veut pas blesser celui qu'on aime."
+   ],
+   "versets": [
+    "Ph 3:7-8",
+    "Lc 5:11",
+    "Jn 21:3"
    ]
   },
   {
    "image": "/assets/personnages/homme-lunettes-reflexion.webp",
-   "titre": "2. Que s'est-il passé ?",
+   "titre": "3. Relation d'amour ou relation d'intérêt ?",
    "texte": [
-    "Et aujourd'hui ? Peut-être que la prière est devenue rare, la Bible reste fermée, l'église n'est plus qu'un souvenir. Peut-être que d'anciens péchés sont revenus. Peut-être qu'une blessure, une déception dans l'église, une épreuve, un deuil ou simplement les soucis de la vie t'ont éloigné petit à petit.",
-    "Ce refroidissement arrive rarement d'un coup. C'est comme un feu qu'on ne nourrit plus : il ne s'éteint pas en une minute, mais les braises deviennent de plus en plus pâles. Jésus avait prévenu que, parce que l'iniquité se serait accrue, la charité du plus grand nombre se refroidirait.",
-    "À l'Église d'Éphèse, une église active, qui travaillait dur et qui supportait les difficultés, Jésus a dit : ce que j'ai contre toi, c'est que tu as abandonné ton premier amour. On peut continuer certaines activités religieuses et avoir pourtant perdu l'essentiel : l'amour pour Jésus lui-même."
+    "Imagine un homme fiancé. Chaque fois que sa fiancée l'appelle, c'est pour dire : j'ai faim, je n'ai pas de téléphone, je n'ai pas d'habits neufs. Mais quand il lui dit : viens, asseyons-nous, parlons de notre vie, apprenons à nous connaître, elle répond : non, j'ai une fête, je n'ai pas le temps. Ce fiancé finira par se demander : où est l'amour ?",
+    "Pense aussi à quelqu'un qui écrit une demande d'emploi. Il adresse sa lettre au directeur, mais ce qu'il veut, ce n'est pas le directeur : c'est le travail. Il signe son contrat, fait ses tâches, reçoit son salaire, et n'a aucune relation avec le directeur. La vie chrétienne n'est pas cela. Nous ne venons pas à Dieu pour obtenir un emploi, mais pour être en relation avec lui. C'est pourquoi Jésus nous a appris à dire : Notre Père.",
+    "Un jour, un couple vient voir un pasteur. La femme dit : mon mari ne prend pas soin de moi. Le mari répond : mais je la nourris, je l'habille, je lui donne tout ce qu'elle demande. Il ne comprenait pas que sa femme avait d'abord besoin de lui, de son temps, de sa présence, pas seulement de ce qu'il lui donnait. Il en est de même avec Dieu : tout ce que tu fais pour lui est bon, mais c'est toi qu'il veut.",
+    "Pose-toi la question honnêtement : ta relation avec Jésus est-elle une relation d'amour, ou une relation d'intérêt ?"
    ],
    "versets": [
-    "Mt 24:12",
-    "Ap 2:4"
+    "Mt 6:33"
    ]
   },
   {
-   "image": "/assets/jesus/jesus-main-tendue.webp",
-   "titre": "3. Jésus ne t'a pas abandonné",
+   "image": "/assets/famille-quotidien/travail-ordinateur.webp",
+   "titre": "4. Ce qui étouffe le premier amour : les soucis de la vie",
    "texte": [
-    "Écoute bien ceci : même si tu t'es éloigné de Jésus, lui ne s'est pas éloigné de toi. Il te connaît, il sait ce que tu as traversé, il sait pourquoi tu es tombé. Et il t'aime encore.",
-    "Pense à Pierre. Il avait juré qu'il ne laisserait jamais tomber Jésus, et la même nuit il l'a renié trois fois. Alors le Seigneur s'est retourné et a regardé Pierre. Ce n'était pas un regard de condamnation, c'était un regard d'amour. Pierre est sorti et il a pleuré amèrement.",
-    "Après sa résurrection, Jésus est venu chercher Pierre au bord du lac. Il ne lui a pas fait de reproches. Il lui a posé trois fois la même question : m'aimes-tu ? Trois questions pour effacer trois reniements. Et il lui a redonné sa mission. Ce que Jésus a fait pour Pierre, il veut le faire pour toi aujourd'hui."
+    "Jésus explique, dans la parabole du semeur, que la Parole tombée parmi les épines est étouffée par les soucis, les richesses et les plaisirs de la vie. C'est la première chose qui détruit le premier amour.",
+    "Dans beaucoup de prières, on ne dit plus : Seigneur, aide-moi à te connaître, révèle-moi ta volonté. On dit : donne-moi un bon travail, un bon salaire, un bon mariage ; bénis mes affaires ; que mon chiffre d'affaires augmente. Ce n'est pas mal de présenter ses besoins à Dieu, la Bible nous le demande. Mais quand toute notre relation avec Dieu se résume à cela, nous avons renversé l'ordre. Jésus a dit : cherchez premièrement le royaume et la justice de Dieu, et toutes ces choses vous seront données par-dessus.",
+    "Un serviteur de Dieu racontait que presque tous les messages qu'il reçoit parlent des soucis de la vie : homme de Dieu, rien ne marche, que Dieu me donne un travail, une maison, un mariage. Très peu écrivent : j'ai besoin de connaître la volonté de Dieu pour ma vie ; aidez-moi à comprendre ce verset.",
+    "La Bible dit que l'amour de l'argent est une racine de tous les maux, et que quelques-uns, en étant possédés, se sont égarés loin de la foi. Jésus a même dit que nul ne peut servir deux maîtres : Dieu et l'argent. L'argent est un moyen, pas un but. Celui qui aime Jésus sait que Dieu pourvoira à tous ses besoins selon sa richesse, avec gloire, en Jésus-Christ.",
+    "On voit des gens qui, quand ils n'avaient rien, étaient à l'église tous les jours. Puis Dieu les bénit, et on ne les voit plus : ils n'ont plus le temps pour Dieu. Si c'est dans cette vie seulement que nous espérons en Christ, nous sommes les plus malheureux de tous les hommes. Pour toi, homme de Dieu, fuis ces choses, et recherche la justice, la piété, la foi, la charité, la patience, la douceur."
    ],
    "versets": [
-    "Lc 22:61-62",
-    "Jn 21:17"
+    "Lc 8:14",
+    "Mt 6:24",
+    "1 Ti 6:10-11",
+    "Ph 4:19",
+    "1 Co 15:19"
    ]
   },
   {
-   "image": "/assets/priere/priere-avec-larmes.webp",
-   "titre": "4. Souviens-toi, repens-toi, reviens",
+   "image": "/assets/personnages/homme-lunettes-reflexion.webp",
+   "titre": "5. L'habitude et le découragement",
    "texte": [
-    "Jésus donne à l'Église d'Éphèse trois mots pour revenir. Le premier : souviens-toi. Souviens-toi d'où tu es tombé. Ne te mens pas à toi-même ; regarde honnêtement ta vie, et reconnais la distance qu'il y a entre ton premier amour et ce que tu vis aujourd'hui.",
-    "Le deuxième : repens-toi. Se repentir, c'est reconnaître devant Dieu : j'ai péché, je me suis éloigné, j'ai mis d'autres choses à ta place. C'est confesser ce qui t'a éloigné, sans excuses, et décider de t'en détourner. Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner.",
-    "Le troisième : pratique tes premières œuvres. Reviens à ce que tu faisais au début : prier chaque jour, lire la Parole, retrouver la communion des frères et sœurs, adorer, témoigner. L'amour se nourrit de la présence. Approchez-vous de Dieu, et il s'approchera de vous."
+    "La deuxième chose qui détruit le premier amour, c'est l'habitude. Un petit enfant veut absolument un jouet ; le jour où on le lui achète, il ne le lâche plus. Quelques jours plus tard, le jouet traîne dehors, et l'enfant passe à côté sans le regarder. L'habitude diminue la valeur des choses.",
+    "Beaucoup d'enfants de Dieu se sont habitués aux choses de Dieu. Ils deviennent des religieux : ils sont au temple, ils font tout ce que font les chrétiens, mais dans le cœur, il n'y a plus d'amour. Dieu disait déjà par Ésaïe : ce peuple m'honore de la bouche et des lèvres, mais son cœur est éloigné de moi. Alors on mélange : on chante à l'église, et ailleurs on fait les choses du monde. Ni froid ni bouillant.",
+    "Dieu n'est pas un Dieu d'habitude. Dans l'Apocalypse, les vingt-quatre vieillards se prosternent sans cesse devant le trône. On peut imaginer qu'à chaque fois qu'ils relèvent la tête, ils découvrent encore quelque chose de nouveau de sa gloire, et se prosternent de nouveau en disant : tu es digne. On ne sert pas Dieu par habitude, mais par obéissance ; et pour obéir, il faut le chercher et l'écouter chaque jour.",
+    "La troisième chose, c'est le découragement. Certains, en venant à Jésus, s'attendaient à ce que tout aille bien tout de suite : plus de problèmes, plus de combats, la prospérité. Cela n'est pas venu comme ils l'espéraient. Et ils regardent ceux qui ne croient pas : eux semblent réussir. Le psalmiste a connu cela : mes pas étaient sur le point de glisser, car je portais envie aux insensés en voyant le bonheur des méchants ; c'est donc en vain que j'ai purifié mon cœur.",
+    "Au temps de Malachie, le peuple disait : c'est en vain que l'on sert Dieu ; qu'avons-nous gagné à observer ses préceptes ? Les méchants prospèrent. Le découragement pousse certains jusqu'à retourner chez le féticheur, comme ce frère à qui l'on avait volé tout son argent et qui voulait aller demander au féticheur qui l'avait volé. L'amour pour Christ avait été étouffé par le découragement."
    ],
    "versets": [
-    "Ap 2:5",
-    "1 Jn 1:9",
-    "Jc 4:8"
+    "Es 29:13",
+    "Ap 3:16",
+    "Ps 73:2-3",
+    "Ml 3:14-15"
    ]
   },
   {
    "image": "/assets/evangelisation/etreinte.webp",
-   "titre": "5. Le Père court vers toi",
+   "titre": "6. Aime-le malgré tout",
    "texte": [
-    "Tu as peut-être peur de revenir. Tu te dis : j'ai trop déçu Dieu, je ne mérite plus rien, que vont dire les autres ? C'est exactement ce que pensait le fils prodigue. Il préparait un discours pour être accepté comme un simple serviteur.",
-    "Mais regarde le père : comme son fils était encore loin, il le vit, fut ému de compassion, courut se jeter à son cou et l'embrassa. Il ne l'a pas laissé finir son discours ; il lui a rendu la robe, l'anneau et les souliers, et il a fait une fête.",
-    "Dieu dit : revenez à moi, et je reviendrai à vous. Il ne se lasse pas de pardonner. Ses bontés ne sont pas épuisées ; elles se renouvellent chaque matin. Aujourd'hui est un nouveau matin pour toi."
+    "Voici ce que Dieu attend de toi : reviens à ton premier amour. C'est tout. Ne te laisse pas décourager par le diable. Ne t'habitue pas aux choses de Dieu. Ne te focalise pas sur ta propre vie et sur le bonheur terrestre. Focalise-toi sur Christ, et aime-le malgré tout.",
+    "Il ne te laissera pas dans la situation où tu es. Mais d'abord, il veut ton amour. La Bible dit : toutes choses concourent au bien de ceux qui aiment Dieu. La condition, c'est d'aimer Dieu. Même la crise, même la maladie, même la souffrance d'aujourd'hui : Dieu peut les faire travailler pour le bien de celui qui l'aime. Joseph l'a vécu : ses frères lui avaient voulu du mal, et Dieu l'a changé en bien.",
+    "On te chasse de ta maison parce que tu n'as pas pu payer le loyer ? Ne te plains pas, ne te décourage pas. Dis-lui : même si je n'ai pas où aller, tu demeures mon Seigneur, je t'aime, Jésus. Qu'il te donne ou pas, qu'il te guérisse maintenant ou plus tard, il reste ton Seigneur. Les gens se moquent de toi ? Reste attaché à Jésus : au temps marqué, il te justifiera.",
+    "Lui qui n'a point épargné son propre Fils, comment ne nous donnera-t-il pas aussi toutes choses avec lui ? Arrête de courir après les bénédictions : suis Jésus, cherche à le connaître, et les bénédictions te suivront. Une bénédiction n'est vraiment une bénédiction que lorsque Jésus est dedans."
    ],
    "versets": [
-    "Lc 15:20",
-    "Ml 3:7",
-    "Lm 3:22-23"
+    "Rm 8:28",
+    "Gn 50:20",
+    "Rm 8:32"
    ]
   },
   {
    "image": "/assets/temoignage/nouveau-depart.webp",
-   "titre": "6. Aujourd'hui, reviens",
+   "titre": "7. Aujourd'hui, reviens",
    "texte": [
-    "La Bible dit : exhortez-vous les uns les autres chaque jour, aussi longtemps qu'on peut dire : aujourd'hui, afin qu'aucun de vous ne s'endurcisse par la séduction du péché. Ne remets pas ton retour à plus tard. Le cœur s'endurcit quand on repousse sans cesse l'appel de Dieu.",
-    "Jésus se tient encore à la porte de ton cœur, et il frappe. Il veut entrer de nouveau, souper avec toi, rallumer le feu. Veux-tu lui ouvrir ? Si tu le veux, prie maintenant avec moi la prière qui suit."
+    "Le Seigneur Jésus te dit aujourd'hui : mon fils, ma fille, tu ne m'aimes plus comme avant. Il réclame le premier amour. Donne-lui ton amour, et tu verras le reste.",
+    "Souviens-toi d'où tu es tombé. Repens-toi des soucis qui ont pris sa place, de l'habitude qui a refroidi ton cœur, du découragement qui t'a éloigné de lui. Et reviens à tes premières œuvres : la prière, la Parole, la communion des frères, le témoignage, par amour.",
+    "Si tu veux revenir aujourd'hui, prie maintenant avec moi la prière qui suit."
    ],
    "versets": [
-    "Hé 3:13",
     "Ap 3:20"
    ]
   }
@@ -97,8 +126,9 @@
   "Recommence simplement : un moment de prière chaque jour, un passage de la Bible, et retourne dès cette semaine dans une église où l'on aime Jésus. Dis à un frère ou une sœur de confiance que tu es revenu, pour qu'il prie avec toi.",
   "Les moments de prière guidés et l'enseignement « Le salut, ce que Dieu a fait pour toi » peuvent t'aider à repartir."
  ],
- "source": "Message rédigé pour Yeshaya à partir de l'Écriture (Apocalypse 2:4-5, Luc 15, Jean 21). Pour aller plus loin, voir le message vidéo du pasteur Abel Nkomba.",
+ "source": "Adapté du message « Reviens à ton premier amour pour Jésus-Christ » du pasteur Abel Nkomba (voir la vidéo complète ci-dessous), pour le ministère Yeshaya.",
  "date_ajout": "2026-11-14",
  "relu": false,
- "video_auteur": "Pasteur Abel Nkomba"
+ "video_auteur": "Pasteur Abel Nkomba",
+ "autorisation": "a_confirmer"
 }
