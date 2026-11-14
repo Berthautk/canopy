@@ -606,10 +606,23 @@
 
 /* Texte suivi au rythme de la voix */
 .suivi span { transition: color .25s, background .25s; }
-.suivi__lu { color: #ffe08a; }
+.suivi__lu { color: var(--mot-lu, #ffe08a); }
+:root[data-theme='clair'] .priere-guidee .suivi__lu { color: #ffe08a; }
 .suivi__encours { color: #fff; background: rgba(224,179,36,.22); border-radius: 6px; box-decoration-break: clone; -webkit-box-decoration-break: clone; padding: 0 2px; }
 .suivi__avenir { color: rgba(255,255,255,.45); }
-.suivi__mot { background: #e0b324; color: #142340; border-radius: 4px; padding: 0 2px; }
+.suivi__mot { background: var(--mot-fond, #e0b324); color: var(--mot-texte, #142340); border-radius: 4px; padding: 0 2px; }
 .suivi--verset { font-family: var(--police-verset, serif); font-style: italic; }
 
 .rappel__actions { display: flex; gap: 6px; flex: none; }
+
+/* Mot prononcé, coloré partout où l'on écoute (voir src/audio/surlignage.js) */
+::highlight(voix-mot) { background-color: var(--mot-fond, #E0B324); color: var(--mot-texte, #142340); }
+::highlight(voix-lu) { color: var(--mot-lu, #9A7408); }
+.couleurs-mot { display: flex; gap: 8px; flex-wrap: wrap; }
+.couleurs-mot button { min-width: 58px; min-height: 40px; border-radius: 20px; font-size: .8rem; font-weight: 600; border: 2px solid transparent; display: grid; place-items: center; }
+.couleurs-mot button[aria-pressed='true'] { border-color: var(--titre); box-shadow: 0 0 0 2px var(--surface) inset; }
+.etape-progres { height: 6px; border-radius: 3px; background: var(--bordure, rgba(127,127,127,.25)); margin-top: 14px; overflow: hidden; }
+.etape-progres span { display: block; height: 100%; background: var(--or); transition: width .3s; }
+.etape-commandes { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 12px; }
+.etape-commandes .bouton { flex: 1; min-height: 52px; }
+.etape-commandes .bouton:disabled { opacity: .55; }

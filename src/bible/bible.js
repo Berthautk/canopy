@@ -72,11 +72,11 @@ export async function telechargerBible() {
 // ===== Recherche par mot (Web Worker) =====
 let worker = null, compteur = 0;
 const attentes = new Map();
-export function chercherMot(q, limite = 300) {
+export function chercherMot(q, limite = 300, champ = null) {
   if (!worker) {
     worker = new Worker(new URL('./recherche.worker.js', import.meta.url), { type: 'module' });
     worker.onmessage = (e) => { const f = attentes.get(e.data.id); if (f) { attentes.delete(e.data.id); f(e.data); } };
   }
   const id = ++compteur;
-  return new Promise((ok) => { attentes.set(id, ok); worker.postMessage({ id, q, limite }); });
+  return new Promise((ok) => { attentes.set(id, ok); worker.postMessage({ id, q, limite, champ }); });
 }

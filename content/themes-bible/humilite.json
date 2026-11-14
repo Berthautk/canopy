@@ -1,0 +1,36 @@
+{
+ "id": "humilite",
+ "nom": "Orgueil et humilité",
+ "ordre": 21,
+ "cles": [
+  "orgueil",
+  "humilite",
+  "humble",
+  "fierte",
+  "vanite",
+  "arrogance"
+ ],
+ "mots": [
+  "orgueil",
+  "humil",
+  "humble",
+  "hautain",
+  "arrogan",
+  "vanite",
+  "s'eleve"
+ ],
+ "versets": [
+  "Pr 16:18",
+  "Jc 4:6",
+  "1 P 5:5-6",
+  "Ph 2:3-8",
+  "Mi 6:8",
+  "Pr 11:2",
+  "Mt 23:12",
+  "Pr 22:4",
+  "Ps 138:6",
+  "Rm 12:3",
+  "Lc 18:14",
+  "És 57:15"
+ ]
+}

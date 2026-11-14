@@ -1,0 +1,34 @@
+{
+ "id": "amour",
+ "nom": "L'amour",
+ "ordre": 6,
+ "cles": [
+  "amour",
+  "aimer",
+  "charite",
+  "aime",
+  "aimez"
+ ],
+ "mots": [
+  "amour",
+  "aim",
+  "charite",
+  "affection",
+  "tendresse"
+ ],
+ "versets": [
+  "Jn 3:16",
+  "1 Co 13:4-7",
+  "1 Jn 4:8",
+  "1 Jn 4:19",
+  "Jn 13:34-35",
+  "Rm 5:8",
+  "Rm 8:38-39",
+  "Mt 22:37-39",
+  "1 Jn 3:18",
+  "Jn 15:13",
+  "1 P 4:8",
+  "Col 3:14",
+  "Jr 31:3"
+ ]
+}

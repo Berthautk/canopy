@@ -21,13 +21,27 @@ async function construire() {
   versets = tous;
 }
 
-self.onmessage = async ({ data: { id, q, limite } }) => {
+const echapper = (m) => m.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/\s+/g, '\\s+');
+
+self.onmessage = async ({ data: { id, q, limite, champ } }) => {
   try {
     if (!versets) await construire();
+    // Recherche par thème : tous les versets qui contiennent au moins un mot du champ lexical,
+    // les plus riches en mots du thème d'abord.
+    if (champ?.length) {
+      const res = champ.map((m) => new RegExp(`(^|[^a-z0-9])${echapper(simplifier(m))}${m.length < 4 ? '(?![a-z])' : ''}`));
+      const trouves = [];
+      for (const x of versets) {
+        let n = 0; for (const r of res) if (r.test(x.simple)) n++;
+        if (n) trouves.push([n, x]);
+      }
+      trouves.sort((a, b) => b[0] - a[0]);
+      return self.postMessage({ id, total: trouves.length, resultats: trouves.slice(0, limite).map(([, x]) => ({ code: x.code, c: x.c, v: x.v, texte: x.texte })), mots: champ.map(simplifier) });
+    }
     const mots = simplifier(q).split(/[^a-z0-9']+/).filter((m) => m.length > 1);
     if (!mots.length) return self.postMessage({ id, total: 0, resultats: [] });
     // mot entier ou début de mot (« salut » trouve « salut », pas « salutation » ; « sauv » trouve « sauvé »)
-    const res = mots.map((m) => new RegExp(`(^|[^a-z0-9])${m.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}${m.length < 4 ? '(?![a-z])' : ''}`));
+    const res = mots.map((m) => new RegExp(`(^|[^a-z0-9])${echapper(m)}${m.length < 4 ? '(?![a-z])' : ''}`));
     const resultats = []; let total = 0;
     for (const x of versets) {
       if (res.every((r) => r.test(x.simple))) { total++; if (resultats.length < limite) resultats.push({ code: x.code, c: x.c, v: x.v, texte: x.texte }); }

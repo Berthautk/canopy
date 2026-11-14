@@ -1,0 +1,33 @@
+{
+ "id": "paix",
+ "nom": "La paix",
+ "ordre": 14,
+ "cles": [
+  "paix",
+  "calme",
+  "repos",
+  "tranquillite",
+  "serenite"
+ ],
+ "mots": [
+  "paix",
+  "repos",
+  "tranquill",
+  "calme",
+  "paisibl"
+ ],
+ "versets": [
+  "Jn 14:27",
+  "Ph 4:7",
+  "És 26:3",
+  "Rm 5:1",
+  "Mt 11:28-29",
+  "Col 3:15",
+  "Ps 4:9",
+  "Jn 16:33",
+  "Rm 12:18",
+  "Mt 5:9",
+  "Nb 6:24-26",
+  "És 9:5"
+ ]
+}

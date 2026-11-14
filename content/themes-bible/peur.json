@@ -1,0 +1,39 @@
+{
+ "id": "peur",
+ "nom": "Peur, crainte et angoisse",
+ "ordre": 13,
+ "cles": [
+  "peur",
+  "crainte",
+  "angoisse",
+  "anxiete",
+  "inquietude",
+  "stress",
+  "inquiet",
+  "effroi"
+ ],
+ "mots": [
+  "peur",
+  "crain",
+  "angoiss",
+  "inquiet",
+  "effray",
+  "epouvant",
+  "trembl"
+ ],
+ "versets": [
+  "És 41:10",
+  "Jos 1:9",
+  "Ps 23:4",
+  "Ps 27:1",
+  "2 Tm 1:7",
+  "Ph 4:6-7",
+  "Jn 14:27",
+  "Mt 6:34",
+  "1 P 5:7",
+  "Ps 56:4",
+  "1 Jn 4:18",
+  "Ps 34:5",
+  "Mt 10:31"
+ ]
+}

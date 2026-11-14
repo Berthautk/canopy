@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
 import { Icone } from '../composants/Icone.jsx';
 import { choisirStats } from '../donnees/mesure.js';
-import { reglages, modifierReglages } from '../donnees/reglages.js';
+import { reglages, modifierReglages, COULEURS_MOT } from '../donnees/reglages.js';
 import { useSignal } from '../outils/signal.js';
 import { profil, changerPhoto, retirerPhoto, changerPrenom } from '../donnees/profil.js';
 import { Avatar } from '../composants/Avatar.jsx';
@@ -135,6 +135,20 @@ export function Parametres() {
         <div class="param-bloc__titre"><span class="ligne__icone"><Icone nom="lune" /></span> Thème</div>
         <Segments libelle="Thème" options={THEMES} valeur={r.theme} surChoix={(theme) => modifierReglages({ theme })} />
         <p class="ligne__desc" style="margin-top:8px">« Auto » suit le réglage de votre téléphone.</p>
+      </div>
+
+      <div class="carte param-bloc">
+        <div class="param-bloc__titre"><span class="ligne__icone"><Icone nom="lecture" /></span> Lecture à voix haute</div>
+        <p class="ligne__desc" style="margin:0 0 8px">Pendant que la voix lit, le texte change de couleur au fur et à mesure.</p>
+        <Segments libelle="Suivi du texte" options={[['mot', 'Mot par mot'], ['paragraphe', 'Paragraphe']]} valeur={r.suivi} surChoix={(suivi) => modifierReglages({ suivi })} />
+        <p class="ligne__desc" style="margin:12px 0 6px">Couleur du mot prononcé</p>
+        <div class="couleurs-mot" role="group" aria-label="Couleur du mot prononcé">
+          {Object.entries(COULEURS_MOT).map(([nom, c]) => (
+            <button aria-pressed={r.couleurMot === nom} aria-label={nom} style={{ background: c[0], color: c[1] }} onClick={() => modifierReglages({ couleurMot: nom })}>
+              {r.couleurMot === nom ? <Icone nom="verifie" taille={18} /> : nom[0].toUpperCase() + nom.slice(1)}</button>
+          ))}
+        </div>
+        <p class="param-apercu">« <span style={{ color: 'var(--mot-lu)' }}>Car Dieu a tant</span> <mark style={{ background: 'var(--mot-fond)', color: 'var(--mot-texte)', borderRadius: '4px', padding: '0 2px' }}>aimé</mark> le monde… »</p>
       </div>
 
       <h2 class="titre-section">Mes données</h2>

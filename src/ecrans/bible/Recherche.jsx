@@ -3,6 +3,26 @@ import { Icone } from '../../composants/Icone.jsx';
 import { lireReference, ecrireReference, simplifier } from '../../bible/references.js';
 import { chercherMot } from '../../bible/bible.js';
 import { remplacer, aller } from '../../outils/routeur.js';
+import { THEMES_BIBLE } from '../../donnees/contenu.js';
+import { usePassage, cheminLire } from '../../composants/Verset.jsx';
+
+// Un thème correspond-il à la recherche ? (« évangélisation », « pauvres », « argent »…)
+export function trouverTheme(q) {
+  const s = simplifier(q.trim());
+  if (s.length < 3) return null;
+  return THEMES_BIBLE.find((t) => simplifier(t.nom) === s || t.cles.some((c) => { const k = simplifier(c); return k === s || (s.length >= 5 && (k.startsWith(s) || (s.startsWith(k) && k.length >= 5))); })) || null;
+}
+
+function PassageCle({ reference }) {
+  const e = usePassage(reference);
+  if (!e.ref) return null;
+  return (
+    <a class="carte resultat" href={'#/' + cheminLire(e.ref)}>
+      <span class="resultat__ref">{ecrireReference(e.ref)}</span>
+      <span class="resultat__texte">{e.texte ? (e.texte.length > 260 ? e.texte.slice(0, 260) + '…' : e.texte) : e.erreur || '…'}</span>
+    </a>
+  );
+}
 
 const POPULAIRES = ['salut', 'paix', 'amour', 'foi', 'pardon', 'prière', 'espérance', 'Jn 3 16', 'Ps 23'];
 
@@ -28,12 +48,14 @@ export function Recherche({ q: qInitial = '' }) {
   const [res, setRes] = useState(null);
   const [encours, setEncours] = useState(false);
   const ref = q.trim() ? lireReference(q) : null;
+  const theme = qInitial ? trouverTheme(qInitial) : null;
 
   useEffect(() => {
     setQ(qInitial);
     if (!qInitial.trim() || lireReference(qInitial)) { setRes(null); return; }
     let actif = true; setEncours(true);
-    chercherMot(qInitial).then((r) => { if (actif) { setRes(r); setEncours(false); } });
+    const t = trouverTheme(qInitial);
+    chercherMot(qInitial, 300, t ? [...new Set([simplifier(qInitial.trim()), ...t.mots])] : null).then((r) => { if (actif) { setRes(r); setEncours(false); } });
     return () => { actif = false; };
   }, [qInitial]);
 
@@ -63,15 +85,24 @@ export function Recherche({ q: qInitial = '' }) {
         </a>
       )}
 
+      {theme && (
+        <section class="theme-recherche">
+          <div class="resultats__tete"><h2>Thème : {theme.nom}</h2><span class="pastille pastille--or">{theme.versets.length} passages clés</span></div>
+          <p class="ligne__desc" style="margin:0 4px 8px">Les passages essentiels sur ce thème, puis tous les versets qui en parlent (mots de la même famille et mots proches).</p>
+          <div class="liste">{theme.versets.map((r) => <PassageCle reference={r} />)}</div>
+        </section>
+      )}
+
       {encours && <p class="verset__attente" style="margin-top:16px">Recherche dans toute la Bible…</p>}
       {res?.erreur && <p class="verset__erreur">{res.erreur}</p>}
       {res && !res.erreur && !encours && (
         <>
           <div class="resultats__tete">
-            <h2>Résultats pour « {qInitial} »</h2>
+            <h2>{theme ? 'Tous les versets sur ce thème' : <>Résultats pour « {qInitial} »</>}</h2>
             <span class="pastille pastille--or">{res.total} verset{res.total > 1 ? 's' : ''}</span>
           </div>
-          {res.total > res.resultats.length && <p class="ligne__desc">Les {res.resultats.length} premiers sont affichés. Ajoutez un mot pour préciser.</p>}
+          {theme && <p class="ligne__desc">Mots recherchés : {theme.mots.join(', ')}…</p>}
+          {res.total > res.resultats.length && <p class="ligne__desc">Les {res.resultats.length} {theme ? 'plus proches du thème' : 'premiers'} sont affichés.{theme ? '' : ' Ajoutez un mot pour préciser.'}</p>}
           {res.total === 0 && <p class="ligne__desc">Aucun verset ne contient ce mot. Vérifiez l'orthographe ou essayez un mot proche.</p>}
           <div class="liste">
             {res.resultats.map((x) => (
@@ -89,6 +120,10 @@ export function Recherche({ q: qInitial = '' }) {
           <h3>Recherches fréquentes</h3>
           <div class="puces">
             {POPULAIRES.map((p) => <button class="puce" onClick={() => { setQ(p); const r = lireReference(p); r ? aller(`bible/lire/${r.code}/${r.c}${r.v ? '/' + r.v : ''}`) : remplacer('bible/recherche?q=' + encodeURIComponent(p)); }}>{p}</button>)}
+          </div>
+          <h3 style="margin-top:14px">Chercher par thème</h3>
+          <div class="puces">
+            {THEMES_BIBLE.map((t) => <button class="puce" onClick={() => { setQ(t.nom); remplacer('bible/recherche?q=' + encodeURIComponent(t.nom)); }}>{t.nom}</button>)}
           </div>
           <p class="ligne__desc" style="margin-top:10px">Astuce : tapez « Rom 8 », « 1 Co 13 » ou « Ps 23 » pour aller directement au passage. Les accents ne sont pas obligatoires.</p>
         </section>

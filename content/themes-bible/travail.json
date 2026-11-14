@@ -1,0 +1,39 @@
+{
+ "id": "travail",
+ "nom": "Travail et diligence",
+ "ordre": 19,
+ "cles": [
+  "travail",
+  "travailler",
+  "emploi",
+  "metier",
+  "paresse",
+  "diligence",
+  "chomage",
+  "entreprise"
+ ],
+ "mots": [
+  "travail",
+  "ouvrage",
+  "oeuvre",
+  "pares",
+  "diligen",
+  "labour",
+  "salaire",
+  "mains"
+ ],
+ "versets": [
+  "Col 3:23-24",
+  "Pr 10:4",
+  "Pr 6:6-8",
+  "2 Th 3:10",
+  "Pr 13:4",
+  "Ec 9:10",
+  "Pr 22:29",
+  "Ps 90:17",
+  "Pr 16:3",
+  "1 Th 4:11-12",
+  "Gn 2:15",
+  "Pr 14:23"
+ ]
+}

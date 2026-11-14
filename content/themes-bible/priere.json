@@ -1,0 +1,42 @@
+{
+ "id": "priere",
+ "nom": "La prière",
+ "ordre": 4,
+ "cles": [
+  "priere",
+  "prier",
+  "prieres",
+  "intercession",
+  "interceder",
+  "supplication",
+  "exaucement",
+  "exauce",
+  "demander"
+ ],
+ "mots": [
+  "pri",
+  "suppli",
+  "interced",
+  "invoqu",
+  "exauc",
+  "demandez",
+  "crie",
+  "cri vers"
+ ],
+ "versets": [
+  "Mt 6:6",
+  "Mt 7:7-8",
+  "Ph 4:6-7",
+  "1 Th 5:17",
+  "Jc 5:16",
+  "Jr 33:3",
+  "Mc 11:24",
+  "1 Jn 5:14-15",
+  "Lc 18:1",
+  "Mt 26:41",
+  "Ps 145:18",
+  "Jn 14:13-14",
+  "Ép 6:18",
+  "2 Ch 7:14"
+ ]
+}

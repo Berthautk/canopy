@@ -19,8 +19,13 @@ async function modifier(cle, changement) {
   try { await set(CLE, tout); } catch {}
 }
 
-export const surligner = (cle, couleur) => modifier(cle, { couleur });
-export const basculerFavori = (cle) => modifier(cle, { favori: annotations.valeur[cle]?.favori ? null : new Date().toISOString() });
+// Une clé ou plusieurs (sélection de plusieurs versets).
+export const surligner = async (cles, couleur) => { for (const k of [].concat(cles)) await modifier(k, { couleur }); };
+export const basculerFavori = async (cles, mettre) => {
+  const l = [].concat(cles), d = new Date().toISOString();
+  const ajouter = mettre ?? !annotations.valeur[l[0]]?.favori;
+  for (const k of l) await modifier(k, { favori: ajouter ? annotations.valeur[k]?.favori || d : null });
+};
 export const ecrireNote = (cle, note) => modifier(cle, { note: note.trim().slice(0, 500), noteDate: note.trim() ? new Date().toISOString() : null });
 
 // Position de lecture (« Reprendre ma lecture »)

@@ -1,0 +1,49 @@
+{
+ "id": "pauvrete",
+ "nom": "Pauvreté et pauvres",
+ "ordre": 2,
+ "cles": [
+  "pauvrete",
+  "pauvre",
+  "pauvres",
+  "misere",
+  "besoin",
+  "indigent",
+  "necessiteux",
+  "manque",
+  "demuni",
+  "mendiant"
+ ],
+ "mots": [
+  "pauvre",
+  "indigent",
+  "necessit",
+  "misere",
+  "malheureux",
+  "disette",
+  "denue",
+  "mendi",
+  "veuve",
+  "orphelin",
+  "affame",
+  "dans le besoin"
+ ],
+ "versets": [
+  "Pr 19:17",
+  "Pr 14:31",
+  "Pr 22:9",
+  "Ps 41:2",
+  "Dt 15:11",
+  "Mt 5:3",
+  "Lc 4:18",
+  "Jc 2:5",
+  "Ga 2:10",
+  "2 Co 8:9",
+  "Ps 113:7",
+  "Pr 28:27",
+  "És 58:7",
+  "1 Jn 3:17",
+  "Ph 4:19",
+  "Ps 34:7"
+ ]
+}

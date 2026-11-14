@@ -1,0 +1,34 @@
+{
+ "id": "obeissance",
+ "nom": "Obéissance",
+ "ordre": 31,
+ "cles": [
+  "obeissance",
+  "obeir",
+  "commandement",
+  "commandements",
+  "loi",
+  "volonte"
+ ],
+ "mots": [
+  "obe",
+  "command",
+  "prescri",
+  "garde ma parole",
+  "observ"
+ ],
+ "versets": [
+  "Jn 14:15",
+  "1 S 15:22",
+  "Jc 1:22",
+  "Dt 28:1-2",
+  "Jn 14:23",
+  "Lc 6:46",
+  "1 Jn 5:3",
+  "Ac 5:29",
+  "Mt 7:24",
+  "Jos 1:8",
+  "Ps 119:60",
+  "Hé 5:8-9"
+ ]
+}

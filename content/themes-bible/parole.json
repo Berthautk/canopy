@@ -1,0 +1,37 @@
+{
+ "id": "parole",
+ "nom": "La Parole de Dieu",
+ "ordre": 36,
+ "cles": [
+  "parole",
+  "bible",
+  "ecriture",
+  "ecritures",
+  "lire la bible",
+  "meditation",
+  "mediter",
+  "verset"
+ ],
+ "mots": [
+  "parole",
+  "ecriture",
+  "loi de l'eternel",
+  "medit",
+  "tes preceptes",
+  "ton commandement"
+ ],
+ "versets": [
+  "2 Tm 3:16-17",
+  "Hé 4:12",
+  "Ps 119:105",
+  "Jos 1:8",
+  "Mt 4:4",
+  "Ps 1:1-3",
+  "Rm 10:17",
+  "És 40:8",
+  "Jn 17:17",
+  "Jc 1:22",
+  "Ps 119:11",
+  "Col 3:16"
+ ]
+}

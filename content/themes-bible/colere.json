@@ -1,0 +1,36 @@
+{
+ "id": "colere",
+ "nom": "Colère et maîtrise de soi",
+ "ordre": 20,
+ "cles": [
+  "colere",
+  "fache",
+  "enerve",
+  "violence",
+  "maitrise de soi",
+  "vengeance"
+ ],
+ "mots": [
+  "coler",
+  "irrit",
+  "courrou",
+  "fureur",
+  "emport",
+  "veng",
+  "violence"
+ ],
+ "versets": [
+  "Jc 1:19-20",
+  "Ép 4:26-27",
+  "Pr 15:1",
+  "Pr 16:32",
+  "Rm 12:19",
+  "Pr 29:11",
+  "Col 3:8",
+  "Ps 37:8",
+  "Ec 7:9",
+  "Pr 14:29",
+  "Ga 5:22-23",
+  "Mt 5:22"
+ ]
+}

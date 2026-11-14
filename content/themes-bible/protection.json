@@ -1,0 +1,36 @@
+{
+ "id": "protection",
+ "nom": "Protection de Dieu",
+ "ordre": 33,
+ "cles": [
+  "protection",
+  "proteger",
+  "securite",
+  "danger",
+  "refuge",
+  "garde"
+ ],
+ "mots": [
+  "proteg",
+  "refuge",
+  "forteresse",
+  "bouclier",
+  "abri",
+  "garde",
+  "delivr"
+ ],
+ "versets": [
+  "Ps 91:1-11",
+  "Ps 121:7-8",
+  "Pr 18:10",
+  "Ps 46:2",
+  "2 Th 3:3",
+  "És 54:17",
+  "Ps 34:8",
+  "Ps 27:1",
+  "Ps 18:3",
+  "Dt 31:6",
+  "Ps 4:9",
+  "És 43:2"
+ ]
+}

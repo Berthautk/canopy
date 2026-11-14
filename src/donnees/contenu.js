@@ -8,6 +8,7 @@ const fichiers = import.meta.glob(['/content/**/*.json', '!/content/_modeles/**'
 const corpsEnseignements = import.meta.glob('/content/enseignements/**/*.json', { import: 'default' });   // un fichier séparé par enseignement
 const dossier = (d) => Object.entries(fichiers).filter(([k]) => k.startsWith(`/content/${d}/`)).map(([, v]) => v);
 
+export const THEMES_BIBLE = dossier('themes-bible').sort((a, b) => a.ordre - b.ordre);
 export const SUJETS = dossier('sujets-versets').sort((a, b) => (a.ordre ?? 99) - (b.ordre ?? 99) || a.titre.localeCompare(b.titre));
 export const MEDITATIONS = dossier('meditations').sort((a, b) => (a.numero ?? 0) - (b.numero ?? 0));
 export const CHEMIN_DU_SALUT = fichiers['/content/chemin-du-salut.json'];

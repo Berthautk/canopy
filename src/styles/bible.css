@@ -198,3 +198,13 @@ mark { background: #F7DE8C; color: inherit; border-radius: 3px; padding: 0 1px; 
 .apercu-plan { list-style: none; margin: 8px 0 0; padding: 10px 14px; display: grid; gap: 6px; font-size: .88rem; }
 .apercu-plan b { font-family: var(--police-titre); color: var(--titre); margin-right: 6px; }
 .plan-theme { display: block; font-size: .78rem; color: var(--texte-doux); font-style: italic; }
+
+/* Choisir un autre passage sans quitter la lecture */
+button.selecteur { font: inherit; cursor: pointer; }
+.selecteur-passage { position: fixed; inset: 0; z-index: 70; background: var(--fond); padding: calc(10px + env(safe-area-inset-top)) 14px calc(14px + env(safe-area-inset-bottom)); display: flex; flex-direction: column; }
+.selecteur-passage__tete { display: grid; grid-template-columns: 44px 1fr 44px; align-items: center; text-align: center; font-family: var(--police-titre); color: var(--titre); margin-bottom: 10px; }
+.selecteur-passage__corps { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; padding-bottom: 8px; }
+.selecteur-passage .livre, .selecteur-passage .pastille-chapitre { font: inherit; cursor: pointer; width: 100%; }
+.livre--ici, .pastille-chapitre--ici { outline: 2px solid var(--or); }
+.revenir-passage { position: sticky; top: calc(164px + env(safe-area-inset-top)); z-index: 11; display: flex; align-items: center; gap: 6px; margin: 8px auto 0; padding: 8px 14px; border-radius: 20px; background: var(--or); color: var(--bleu-nuit, #142340); font-weight: 600; box-shadow: 0 4px 12px rgba(0,0,0,.18); }
+.theme-recherche { margin-top: 14px; }

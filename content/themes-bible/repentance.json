@@ -1,0 +1,36 @@
+{
+ "id": "repentance",
+ "nom": "Repentance et conversion",
+ "ordre": 9,
+ "cles": [
+  "repentance",
+  "repentir",
+  "repentez",
+  "se repentir",
+  "convertir",
+  "conversion",
+  "retour a dieu"
+ ],
+ "mots": [
+  "repent",
+  "convert",
+  "revenez",
+  "reviens",
+  "detourne"
+ ],
+ "versets": [
+  "Ac 3:19",
+  "Lc 13:3",
+  "Ac 2:38",
+  "2 Co 7:10",
+  "Ps 51:3-4",
+  "1 Jn 1:9",
+  "Pr 28:13",
+  "Ez 18:30-32",
+  "Lc 15:18-20",
+  "Jl 2:12-13",
+  "2 Ch 7:14",
+  "Mt 4:17",
+  "Ap 2:5"
+ ]
+}

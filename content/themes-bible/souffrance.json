@@ -1,0 +1,40 @@
+{
+ "id": "souffrance",
+ "nom": "Épreuve et souffrance",
+ "ordre": 27,
+ "cles": [
+  "souffrance",
+  "epreuve",
+  "difficulte",
+  "affliction",
+  "persecution",
+  "douleur",
+  "tribulation",
+  "deuil"
+ ],
+ "mots": [
+  "souffr",
+  "epreuve",
+  "afflig",
+  "afflict",
+  "tribulation",
+  "persecut",
+  "douleur",
+  "larmes",
+  "pleur"
+ ],
+ "versets": [
+  "Rm 8:28",
+  "Rm 8:18",
+  "Jc 1:2-4",
+  "1 P 4:12-13",
+  "2 Co 4:17",
+  "Ps 34:19",
+  "Ps 30:6",
+  "Jn 16:33",
+  "2 Co 1:3-4",
+  "Ap 21:4",
+  "Ps 46:2",
+  "És 43:2"
+ ]
+}

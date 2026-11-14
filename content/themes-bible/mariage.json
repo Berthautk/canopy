@@ -1,0 +1,39 @@
+{
+ "id": "mariage",
+ "nom": "Mariage et couple",
+ "ordre": 17,
+ "cles": [
+  "mariage",
+  "mari",
+  "femme",
+  "epoux",
+  "epouse",
+  "couple",
+  "fiancailles",
+  "divorce"
+ ],
+ "mots": [
+  "mari",
+  "epou",
+  "femme",
+  "noce",
+  "fiance",
+  "divorc",
+  "repudi",
+  "une seule chair"
+ ],
+ "versets": [
+  "Gn 2:24",
+  "Ép 5:22-25",
+  "Ép 5:33",
+  "Hé 13:4",
+  "1 Co 7:3-5",
+  "Pr 18:22",
+  "Pr 31:10",
+  "Mt 19:4-6",
+  "Col 3:18-19",
+  "1 P 3:7",
+  "Ec 4:9-12",
+  "Ct 8:7"
+ ]
+}

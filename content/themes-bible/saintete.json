@@ -1,0 +1,35 @@
+{
+ "id": "saintete",
+ "nom": "Sainteté et pureté de vie",
+ "ordre": 30,
+ "cles": [
+  "saintete",
+  "saint",
+  "purete",
+  "pur",
+  "consecration",
+  "se consacrer",
+  "mondanite"
+ ],
+ "mots": [
+  "saint",
+  "pur",
+  "consacr",
+  "sanctif",
+  "irreprochable"
+ ],
+ "versets": [
+  "1 P 1:15-16",
+  "Hé 12:14",
+  "Rm 12:1-2",
+  "2 Co 7:1",
+  "Ps 24:3-4",
+  "Mt 5:8",
+  "1 Th 4:3-7",
+  "2 Tm 2:21",
+  "1 Jn 2:15-17",
+  "Ps 51:12",
+  "Ps 119:9",
+  "Lv 20:26"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "sagesse",
+ "nom": "Sagesse et décisions",
+ "ordre": 26,
+ "cles": [
+  "sagesse",
+  "sage",
+  "decision",
+  "conseil",
+  "discernement",
+  "intelligence",
+  "direction",
+  "guidance",
+  "volonte de dieu"
+ ],
+ "mots": [
+  "sages",
+  "sage",
+  "intelligen",
+  "discern",
+  "conseil",
+  "prudence",
+  "dirig"
+ ],
+ "versets": [
+  "Jc 1:5",
+  "Pr 3:5-6",
+  "Pr 9:10",
+  "Ps 32:8",
+  "Pr 2:6",
+  "Pr 16:9",
+  "Ps 119:105",
+  "Rm 12:2",
+  "Col 1:9",
+  "És 30:21",
+  "Pr 11:14",
+  "Pr 4:7"
+ ]
+}

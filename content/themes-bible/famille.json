@@ -1,0 +1,41 @@
+{
+ "id": "famille",
+ "nom": "Famille et enfants",
+ "ordre": 18,
+ "cles": [
+  "famille",
+  "enfant",
+  "enfants",
+  "parents",
+  "pere",
+  "mere",
+  "education",
+  "jeunesse",
+  "fils",
+  "fille"
+ ],
+ "mots": [
+  "enfant",
+  "fils",
+  "fille",
+  "pere",
+  "mere",
+  "famille",
+  "maison",
+  "jeunesse"
+ ],
+ "versets": [
+  "Jos 24:15",
+  "Pr 22:6",
+  "Ép 6:1-4",
+  "Dt 6:6-7",
+  "Ps 127:3",
+  "Col 3:20-21",
+  "Ex 20:12",
+  "Pr 1:8",
+  "Ac 16:31",
+  "Ps 103:13",
+  "1 Tm 5:8",
+  "Ml 4:6"
+ ]
+}

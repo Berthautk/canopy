@@ -1,0 +1,35 @@
+{
+ "id": "joie",
+ "nom": "La joie",
+ "ordre": 15,
+ "cles": [
+  "joie",
+  "heureux",
+  "bonheur",
+  "rejouir",
+  "allegresse",
+  "rire"
+ ],
+ "mots": [
+  "joie",
+  "rejou",
+  "allegresse",
+  "heureux",
+  "bonheur",
+  "egay"
+ ],
+ "versets": [
+  "Ph 4:4",
+  "Né 8:10",
+  "Ps 16:11",
+  "Jn 15:11",
+  "Rm 15:13",
+  "Ps 126:5",
+  "Jc 1:2-3",
+  "Ps 118:24",
+  "1 Th 5:16",
+  "Ps 30:6",
+  "Ga 5:22",
+  "Hab 3:17-18"
+ ]
+}

@@ -5,6 +5,7 @@ import './styles/base.css';
 import './styles/ecrans.css';
 import './styles/bible.css';
 import { App } from './app.jsx';
+import './audio/surlignage.js';
 import { appliquer, chargerReglages } from './donnees/reglages.js';
 import { chargerProfil } from './donnees/profil.js';
 import { chargerAnnotations, chargerPosition } from './donnees/annotations.js';

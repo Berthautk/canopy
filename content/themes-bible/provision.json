@@ -1,0 +1,37 @@
+{
+ "id": "provision",
+ "nom": "Dieu pourvoit",
+ "ordre": 32,
+ "cles": [
+  "provision",
+  "pourvoir",
+  "besoins",
+  "nourriture",
+  "subvenir",
+  "manque",
+  "benediction",
+  "bénédiction"
+ ],
+ "mots": [
+  "pourvo",
+  "nourri",
+  "besoin",
+  "manque de rien",
+  "benedict",
+  "benir"
+ ],
+ "versets": [
+  "Ph 4:19",
+  "Mt 6:31-33",
+  "Ps 23:1",
+  "Ps 37:25",
+  "Gn 22:14",
+  "2 Co 9:8",
+  "Ps 34:11",
+  "Mt 7:11",
+  "Lc 12:24",
+  "Dt 28:2-6",
+  "Ps 84:12",
+  "Ps 145:15-16"
+ ]
+}

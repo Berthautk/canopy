@@ -1,0 +1,34 @@
+{
+ "id": "pardon",
+ "nom": "Le pardon",
+ "ordre": 7,
+ "cles": [
+  "pardon",
+  "pardonner",
+  "pardonne",
+  "offense",
+  "rancune",
+  "rancoeur"
+ ],
+ "mots": [
+  "pardon",
+  "remission",
+  "remettre",
+  "remet",
+  "efface"
+ ],
+ "versets": [
+  "Mt 6:14-15",
+  "Ép 4:32",
+  "Col 3:13",
+  "1 Jn 1:9",
+  "Mt 18:21-22",
+  "Lc 23:34",
+  "Ps 103:12",
+  "És 1:18",
+  "Mc 11:25",
+  "Ps 32:1",
+  "Lc 6:37",
+  "Ac 3:19"
+ ]
+}

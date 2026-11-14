@@ -1,0 +1,41 @@
+{
+ "id": "resurrection",
+ "nom": "Mort, résurrection et vie éternelle",
+ "ordre": 28,
+ "cles": [
+  "mort",
+  "resurrection",
+  "ciel",
+  "paradis",
+  "vie eternelle",
+  "eternite",
+  "enfer",
+  "jugement",
+  "retour de jesus",
+  "fin des temps"
+ ],
+ "mots": [
+  "resurrect",
+  "ressuscit",
+  "vie eternelle",
+  "ciel",
+  "royaume",
+  "jugement",
+  "eternel",
+  "avenement"
+ ],
+ "versets": [
+  "Jn 11:25-26",
+  "1 Co 15:20-22",
+  "1 Co 15:55-57",
+  "Jn 14:2-3",
+  "1 Th 4:16-17",
+  "Ap 21:4",
+  "Ph 1:21",
+  "2 Co 5:8",
+  "Hé 9:27",
+  "Mt 25:46",
+  "Ap 22:12",
+  "Jn 5:28-29"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "consolation",
+ "nom": "Consolation et tristesse",
+ "ordre": 34,
+ "cles": [
+  "consolation",
+  "consoler",
+  "tristesse",
+  "triste",
+  "decourage",
+  "deprime",
+  "solitude",
+  "seul",
+  "abandonne"
+ ],
+ "mots": [
+  "consol",
+  "trist",
+  "abattu",
+  "pleur",
+  "larmes",
+  "seul",
+  "abandonn",
+  "coeur brise"
+ ],
+ "versets": [
+  "Mt 5:4",
+  "Ps 34:19",
+  "2 Co 1:3-4",
+  "Ps 147:3",
+  "És 41:10",
+  "Mt 11:28",
+  "Ps 42:6",
+  "Hé 13:5",
+  "Jn 14:18",
+  "Ps 27:10",
+  "És 61:1-3",
+  "Ap 21:4"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "richesse",
+ "nom": "Argent, richesse et générosité",
+ "ordre": 3,
+ "cles": [
+  "argent",
+  "richesse",
+  "riche",
+  "finances",
+  "dime",
+  "dimes",
+  "offrande",
+  "generosite",
+  "donner",
+  "prosperite"
+ ],
+ "mots": [
+  "argent",
+  "richesse",
+  "riche",
+  "tresor",
+  "dime",
+  "offrande",
+  "donne",
+  "mammon",
+  "or et",
+  "prosper"
+ ],
+ "versets": [
+  "1 Tm 6:10",
+  "1 Tm 6:17-19",
+  "Mt 6:19-21",
+  "Mt 6:24",
+  "Ml 3:10",
+  "2 Co 9:6-7",
+  "Pr 3:9-10",
+  "Lc 6:38",
+  "Hé 13:5",
+  "Pr 11:24-25",
+  "Ec 5:9",
+  "Dt 8:18",
+  "Lc 12:15",
+  "Ac 20:35"
+ ]
+}

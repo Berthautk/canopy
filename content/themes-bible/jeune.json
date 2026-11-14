@@ -1,0 +1,29 @@
+{
+ "id": "jeune",
+ "nom": "Le jeûne",
+ "ordre": 25,
+ "cles": [
+  "jeune",
+  "jeuner",
+  "jeunes",
+  "privation"
+ ],
+ "mots": [
+  "jeun",
+  "sac et la cendre",
+  "s'humili"
+ ],
+ "versets": [
+  "Mt 6:16-18",
+  "És 58:6-8",
+  "Jl 2:12",
+  "Mt 17:21",
+  "Ac 13:2-3",
+  "Esd 8:23",
+  "Est 4:16",
+  "Dn 9:3",
+  "Mt 4:2",
+  "Ac 14:23",
+  "Jon 3:5"
+ ]
+}

@@ -21,7 +21,7 @@ export function OrizonAccueil() {
     <div class="page">
       <div class="orizon-hero">
         <p class="orizon-hero__marque">YESHAYA</p>
-        <h2>Vaincre en 90 jours</h2>
+        <h2>90 jours pour se libérer de la masturbation et de la pornographie</h2>
         <p>{ORIZON.sous_titre}</p>
         <p class="orizon-hero__verset">« C'est pour la liberté que Christ nous a affranchis. » (Galates 5:1)</p>
       </div>

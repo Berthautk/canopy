@@ -1,0 +1,50 @@
+{
+ "id": "evangelisation",
+ "nom": "Évangélisation et mission",
+ "ordre": 1,
+ "cles": [
+  "evangelisation",
+  "evangeliser",
+  "evangile",
+  "mission",
+  "missionnaire",
+  "temoigner",
+  "annoncer",
+  "precher",
+  "ame",
+  "ames",
+  "gagner des ames",
+  "disciple"
+ ],
+ "mots": [
+  "evangel",
+  "bonne nouvelle",
+  "annonc",
+  "prech",
+  "predic",
+  "temoin",
+  "temoign",
+  "faites des disciples",
+  "toutes les nations",
+  "pecheurs d'hommes",
+  
+ ],
+ "versets": [
+  "Mt 28:19-20",
+  "Mc 16:15",
+  "Ac 1:8",
+  "Rm 10:14-15",
+  "Rm 1:16",
+  "2 Tm 4:2",
+  "Mt 4:19",
+  "Mt 9:37-38",
+  "1 P 3:15",
+  "Pr 11:30",
+  "Ez 3:18",
+  "Lc 15:7",
+  "És 52:7",
+  "Mt 5:14-16",
+  "2 Co 5:20",
+  "Jn 4:35"
+ ]
+}

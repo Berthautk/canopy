@@ -1,0 +1,35 @@
+{
+ "id": "guerison",
+ "nom": "Guérison et maladie",
+ "ordre": 12,
+ "cles": [
+  "guerison",
+  "guerir",
+  "malade",
+  "maladie",
+  "sante",
+  "infirmite",
+  "souffrance physique"
+ ],
+ "mots": [
+  "guer",
+  "malad",
+  "infirm",
+  "sante",
+  "retabli"
+ ],
+ "versets": [
+  "És 53:5",
+  "Jc 5:14-15",
+  "Ex 15:26",
+  "Ps 103:2-3",
+  "Mt 8:16-17",
+  "Jr 17:14",
+  "1 P 2:24",
+  "Mc 16:17-18",
+  "3 Jn 1:2",
+  "Ps 107:20",
+  "Mt 9:35",
+  "Jr 30:17"
+ ]
+}

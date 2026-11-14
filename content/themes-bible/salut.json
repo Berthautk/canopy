@@ -1,0 +1,38 @@
+{
+ "id": "salut",
+ "nom": "Le salut",
+ "ordre": 8,
+ "cles": [
+  "salut",
+  "sauve",
+  "sauver",
+  "sauveur",
+  "vie eternelle",
+  "nouvelle naissance",
+  "naitre de nouveau",
+  "conversion"
+ ],
+ "mots": [
+  "salut",
+  "sauv",
+  "vie eternelle",
+  "naitre de nouveau",
+  "redemption",
+  "racht"
+ ],
+ "versets": [
+  "Jn 3:16",
+  "Rm 10:9-10",
+  "Ép 2:8-9",
+  "Ac 4:12",
+  "Jn 14:6",
+  "Rm 6:23",
+  "Jn 3:3",
+  "Tt 3:5",
+  "Ac 16:31",
+  "2 Co 5:17",
+  "Jn 1:12",
+  "1 Jn 5:11-12",
+  "Ap 3:20"
+ ]
+}

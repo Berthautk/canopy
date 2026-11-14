@@ -1,0 +1,36 @@
+{
+ "id": "eglise",
+ "nom": "L'Église et la communion fraternelle",
+ "ordre": 35,
+ "cles": [
+  "eglise",
+  "assemblee",
+  "communion",
+  "freres",
+  "culte",
+  "unite",
+  "communaute"
+ ],
+ "mots": [
+  "eglise",
+  "assemblee",
+  "freres",
+  "communion",
+  "unite",
+  "un seul corps"
+ ],
+ "versets": [
+  "Hé 10:24-25",
+  "Ac 2:42-47",
+  "1 Co 12:12-27",
+  "Mt 16:18",
+  "Ép 4:11-16",
+  "Ps 133:1",
+  "Mt 18:20",
+  "Col 3:16",
+  "Rm 12:4-5",
+  "1 P 2:9",
+  "Ép 4:3",
+  "Jn 17:21"
+ ]
+}

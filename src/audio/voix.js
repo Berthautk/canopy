@@ -62,16 +62,39 @@ async function lireBloc(i, g) {
   direPhrase(i, g);
 }
 
+// Vitesse de parole mesurée (caractères par seconde à la vitesse 1) : sert à deviner le mot prononcé
+// quand la voix du téléphone ne signale pas les mots (fréquent sur Android).
+let cps = 14, minuteurMot = null;
+const motsDe = (p) => { const l = []; const re = /[^\s]+/g; let m; while ((m = re.exec(p))) l.push([m.index, m[0].length]); return l; };
+function suivreMot(p, g) {
+  clearInterval(minuteurMot);
+  const mots = motsDe(p); let t0 = Date.now(), recu = false, dernier = -1;
+  const u = { debut: () => { t0 = Date.now(); }, recu: () => { recu = true; }, fin: (ok) => {
+    clearInterval(minuteurMot); const d = (Date.now() - t0) / 1000;
+    if (ok && d > 0.8 && p.length > 12) cps = Math.max(8, Math.min(24, cps * 0.7 + (p.length / (d * voix.valeur.vitesse)) * 0.3));
+  } };
+  minuteurMot = setInterval(() => {
+    if (g !== generation) { clearInterval(minuteurMot); return; }
+    if (recu || !voix.valeur.lecture) return;
+    const pos = ((Date.now() - t0) / 1000) * cps * voix.valeur.vitesse;
+    let k = 0; while (k + 1 < mots.length && mots[k + 1][0] <= pos) k++;
+    if (k !== dernier && mots[k]) { dernier = k; maj({ mot: { debut: mots[k][0], longueur: mots[k][1] } }); }
+  }, 120);
+  return u;
+}
+
 function direPhrase(i, g) {
   if (g !== generation) return;
   if (iPhrase >= phrases.length) { lireBloc(i + 1, g); return; }
   const u = new SpeechSynthesisUtterance(phrases[iPhrase]);
   maj({ iPhrase, mot: null });
+  const suivi = suivreMot(phrases[iPhrase], g);
+  u.onstart = () => suivi.debut();
   // Mot prononcé (si la voix du téléphone le signale) : sert à colorer le texte au rythme de la voix.
-  u.onboundary = (e) => { if (g !== generation || e.name === 'sentence') return; maj({ mot: { debut: e.charIndex, longueur: e.charLength || 0 } }); };
+  u.onboundary = (e) => { if (g !== generation || e.name === 'sentence') return; suivi.recu(); maj({ mot: { debut: e.charIndex, longueur: e.charLength || 0 } }); };
   const v = voixFrancaise(); if (v) u.voice = v; u.lang = v?.lang || 'fr-FR'; u.rate = voix.valeur.vitesse;
-  u.onend = () => { if (g !== generation) return; iPhrase++; direPhrase(i, g); };
-  u.onerror = (e) => { if (g !== generation || e.error === 'interrupted' || e.error === 'canceled') return; iPhrase++; direPhrase(i, g); };
+  u.onend = () => { suivi.fin(true); if (g !== generation) return; iPhrase++; direPhrase(i, g); };
+  u.onerror = (e) => { suivi.fin(); if (g !== generation || e.error === 'interrupted' || e.error === 'canceled') return; iPhrase++; direPhrase(i, g); };
   speechSynthesis.speak(u);
 }
 

@@ -1,0 +1,42 @@
+{
+ "id": "combat",
+ "nom": "Combat spirituel",
+ "ordre": 29,
+ "cles": [
+  "combat spirituel",
+  "delivrance",
+  "demon",
+  "demons",
+  "diable",
+  "satan",
+  "sorcellerie",
+  "ennemi",
+  "armure",
+  "autorite"
+ ],
+ "mots": [
+  "diable",
+  "satan",
+  "demon",
+  "malin",
+  "armure",
+  "combat",
+  "deliv",
+  "esprits impurs",
+  "autorite"
+ ],
+ "versets": [
+  "Ép 6:10-18",
+  "Jc 4:7",
+  "1 P 5:8-9",
+  "2 Co 10:4-5",
+  "Lc 10:19",
+  "1 Jn 4:4",
+  "Col 2:15",
+  "Mc 16:17",
+  "Ap 12:11",
+  "Rm 16:20",
+  "Ps 91:1-4",
+  "És 54:17"
+ ]
+}

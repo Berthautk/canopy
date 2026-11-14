@@ -1,0 +1,35 @@
+{
+ "id": "jesus",
+ "nom": "Jésus-Christ",
+ "ordre": 37,
+ "cles": [
+  "jesus",
+  "christ",
+  "messie",
+  "fils de dieu",
+  "seigneur",
+  "croix"
+ ],
+ "mots": [
+  "jesus",
+  "christ",
+  "messie",
+  "fils de dieu",
+  "fils de l'homme",
+  "croix"
+ ],
+ "versets": [
+  "Jn 1:1-14",
+  "Jn 14:6",
+  "Ph 2:5-11",
+  "Col 1:15-20",
+  "Hé 13:8",
+  "És 53:3-6",
+  "Jn 10:11",
+  "Mt 16:16",
+  "1 Tm 2:5",
+  "Jn 8:12",
+  "Ap 1:8",
+  "Ac 4:12"
+ ]
+}
