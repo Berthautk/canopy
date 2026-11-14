@@ -1,0 +1,23 @@
+# En-têtes Cloudflare Pages
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: geolocation=(), camera=(), microphone=()
+
+# Code de l'app : nom de fichier versionné, peut rester en cache un an
+/app/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Le service worker et la page doivent toujours être vérifiés, pour que les mises à jour arrivent
+/sw.js
+  Cache-Control: no-cache
+/index.html
+  Cache-Control: no-cache
+/manifest.webmanifest
+  Cache-Control: no-cache
+
+# Bible et illustrations : changent rarement
+/bible/*
+  Cache-Control: public, max-age=604800
+/assets/*
+  Cache-Control: public, max-age=2592000
