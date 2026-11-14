@@ -1,4 +1,6 @@
-import { useMemo, useState } from 'preact/hooks';
+import { useMemo, useState, useEffect } from 'preact/hooks';
+import { genererEtape, infoEtape, estEtape, numeroEtape, PREMIERE_ETAPE } from '../../jeux/generateur.js';
+import { lireAVoixHaute, arreterVoix, voix } from '../../audio/voix.js';
 import { Icone } from '../../composants/Icone.jsx';
 import { NIVEAUX_CHEMIN, QUIZ } from '../../donnees/contenu.js';
 import { chemin, rang, serie, terminerNiveau, totalEtoiles, son, sonsActifs, basculerSons } from '../../jeux/chemin.js';
@@ -20,7 +22,7 @@ export function CarteRang({ compacte }) {
   return (
     <div class={'carte rang-carte' + (compacte ? ' rang-carte--compacte' : '')}>
       <div class="rang-carte__tete">
-        <span class="rang-carte__badge" aria-hidden="true">{['🌱', '🕊️', '🪔', '🛡️', '📜', '👑'][r.i]}</span>
+        <span class="rang-carte__badge" aria-hidden="true">{['🌱', '🕊️', '🪔', '🛡️', '📜', '👑', '📖', '🧱', '🌾', '🏛️', '🏆'][r.i]}</span>
         <span class="ligne__corps"><span class="ligne__titre" style="display:block">{r.nom}</span>
           <span class="ligne__desc">{c.xp} points · ⭐ {totalEtoiles(c.etoiles)}{s > 1 ? ` · 🔥 ${s} jours de suite` : ''}</span></span>
       </div>
@@ -56,6 +58,19 @@ export function CheminFoi() {
           </li>;
         })}
       </ol>
+      <h2 class="titre-section">Les étapes sans fin</h2>
+      <p class="ligne__desc" style="margin:-4px 4px 8px">Après les niveaux du chemin, les étapes continuent sans fin : chaque étape a un thème, des versets à compléter et des livres à retrouver. Il y a toujours une étape suivante !</p>
+      <ol class="chemin">
+        {(() => { let max = PREMIERE_ETAPE; while (c.etoiles['etape-' + max]) max++; const l = []; for (let num = PREMIERE_ETAPE; num <= max + 2; num++) l.push(num); return l; })().map((num, k) => {
+          const e = infoEtape(num), prec = num === PREMIERE_ETAPE ? NIVEAUX_CHEMIN[NIVEAUX_CHEMIN.length - 1].id : 'etape-' + (num - 1);
+          const ouvert = (c.etoiles[prec] || 0) > 0, et = c.etoiles[e.id] || 0;
+          const contenu = <><span class="chemin__num">{ouvert ? num : <Icone nom="cadenas" taille={18} />}</span><img src={e.image} alt="" loading="lazy" />
+            <span class="ligne__corps"><span class="ligne__titre" style="display:block">{e.titre}</span><span class="ligne__desc">{e.sous_titre}</span>
+              <span class="chemin__etoiles">{[1, 2, 3].map((i) => <span class={i <= et ? 'pleine' : ''}>★</span>)}</span></span></>;
+          return <li class={'chemin__etape' + (k % 2 ? ' chemin__etape--droite' : '')}>{ouvert ? <a class="carte chemin__niveau" href={'#/jouer/chemin/' + e.id}>{contenu}</a> : <div class="carte chemin__niveau chemin__niveau--ferme" aria-disabled="true">{contenu}</div>}</li>;
+        })}
+      </ol>
+      <p class="ligne__desc" style="text-align:center">… et encore des centaines d'étapes après celles-ci.</p>
       <button class="lien" style="display:block;margin:12px auto" onClick={() => { basculerSons(); setSons(sonsActifs()); }}>{sons ? '🔊 Sons activés' : '🔇 Sons désactivés'}</button>
     </div>
   );
@@ -63,8 +78,15 @@ export function CheminFoi() {
 
 // Une partie : questions du niveau, 3 vies, combo, puis résultat.
 export function NiveauChemin({ id }) {
-  const k = NIVEAUX_CHEMIN.findIndex((n) => n.id === id), n = NIVEAUX_CHEMIN[k];
   const [partie, setPartie] = useState(0);
+  const [gen, setGen] = useState(null);
+  useEffect(() => { if (!estEtape(id)) return; setGen(null); genererEtape(numeroEtape(id)).then(setGen).catch(() => setGen({ erreur: true })); }, [id]);
+  if (estEtape(id)) {
+    if (!gen) return <div class="page"><p class="verset__attente" style="margin-top:16px">Préparation de l'étape…</p></div>;
+    if (gen.erreur) return <div class="page"><p class="verset__erreur" style="margin-top:16px">Pour jouer aux étapes sans fin, la Bible doit être sur ce téléphone : connectez-vous une fois, ou téléchargez-la dans l'onglet Bible.</p></div>;
+    return <Partie key={id + '-' + partie} n={gen} k={-1} rejouer={() => setPartie(partie + 1)} />;
+  }
+  const k = NIVEAUX_CHEMIN.findIndex((n) => n.id === id), n = NIVEAUX_CHEMIN[k];
   if (!n) return <div class="page"><p class="ligne__desc">Niveau introuvable.</p></div>;
   return <Partie key={n.id + '-' + partie} n={n} k={k} rejouer={() => setPartie(partie + 1)} />;
 }
@@ -78,7 +100,10 @@ function Partie({ n, k, rejouer }) {
   const [maxCombo, setMaxCombo] = useState(0);
   const [rep, setRep] = useState(null);       // { juste, choix }
   const [fin, setFin] = useState(null);
+  const [quitter, setQuitter] = useState(false);
   const q = qs[i];
+  useEffect(() => () => arreterVoix(), []);
+  const ecouterQ = () => lireAVoixHaute('jeu-q', [{ texte: (q.type === 'vf' ? 'Vrai ou faux ? ' : '') + q.question }, ...(q.type === 'qcm' ? ordre.map((c, j) => ({ texte: `Réponse ${'ABCD'[j]} : ${q.choix[c]}.` })) : [])]);
   const ordre = useMemo(() => (q?.type === 'qcm' ? melanger(q.choix.map((_, j) => j)) : [true, false]), [i]);
 
   function repondre(choix) {
@@ -106,7 +131,7 @@ function Partie({ n, k, rejouer }) {
   }
 
   if (fin) {
-    const suivantNiveau = NIVEAUX_CHEMIN[k + 1];
+    const suivantNiveau = k >= 0 ? (NIVEAUX_CHEMIN[k + 1] || infoEtape(PREMIERE_ETAPE)) : infoEtape(n.num + 1);
     return (
       <div class="page">
         <section class={'carte bloc fin-niveau' + (fin.reussi ? ' fin-niveau--gagne' : '')}>
@@ -122,9 +147,15 @@ function Partie({ n, k, rejouer }) {
           <CarteRang compacte />
           <div class="fin-niveau__actions">
             {fin.reussi && suivantNiveau && <a class="bouton bouton--or" href={'#/jouer/chemin/' + suivantNiveau.id}>Niveau suivant : {suivantNiveau.titre} <Icone nom="chevron" taille={18} /></a>}
-            {fin.reussi && !suivantNiveau && <p><b>Tu as terminé tout le chemin. Gloire à Dieu !</b></p>}
             <button class={'bouton ' + (fin.reussi ? 'bouton--contour' : 'bouton--or')} onClick={rejouer}><Icone nom="rejouer" taille={18} /> {fin.reussi && fin.etoiles < 3 ? 'Rejouer pour 3 étoiles' : 'Rejouer'}</button>
-            <a class="bouton bouton--contour" href="#/jouer/chemin">Retour au chemin</a>
+            {!quitter ? <button class="bouton bouton--contour" onClick={() => setQuitter(true)}>Retour au chemin</button> : (
+              <div class="carte bloc ne-pars-pas">
+                <p><b>Tu pars déjà ? 🙂</b> {fin.reussi ? 'Tu es lancé : encore une étape, et tu te rapproches du rang suivant !' : 'Une petite revanche ? Tu vas y arriver !'}</p>
+                <div class="fin-niveau__actions">
+                  {fin.reussi && suivantNiveau ? <a class="bouton bouton--or" href={'#/jouer/chemin/' + suivantNiveau.id}>Encore une étape !</a> : <button class="bouton bouton--or" onClick={rejouer}>Je rejoue !</button>}
+                  <a class="bouton bouton--contour" href="#/jouer/chemin">À bientôt ! Je reviens demain</a>
+                </div>
+              </div>)}
           </div>
         </section>
       </div>
@@ -141,7 +172,8 @@ function Partie({ n, k, rejouer }) {
       <div class="progression progression--fine"><span style={{ width: ((i + (rep ? 1 : 0)) / qs.length) * 100 + '%' }} /></div>
       {combo >= 3 && <p class="combo" key={combo}>🔥 Combo × {combo} : +{BONUS_COMBO} bonus</p>}
       <p class="quiz__compteur">Question {i + 1} / {qs.length}</p>
-      <section class="carte quiz__question"><Icone nom="bible" taille={28} /><h2>{q.type === 'vf' ? 'Vrai ou faux ? ' : ''}{q.question}</h2></section>
+      <section class="carte quiz__question"><Icone nom="bible" taille={28} /><h2>{q.type === 'vf' ? 'Vrai ou faux ? ' : ''}{q.question}</h2>
+        {voix.valeur.disponible && <button class="bouton bouton--contour bouton--petit" style="margin-top:8px" onClick={ecouterQ}><Icone nom="lecture" taille={16} /> Écouter la question</button>}</section>
       <div class={'quiz__choix' + (q.type === 'vf' ? ' quiz__choix--vf' : '')}>
         {ordre.map((c, j) => {
           const bon = q.type === 'vf' ? c === q.vrai : c === q.reponse;

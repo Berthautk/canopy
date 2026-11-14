@@ -15,10 +15,20 @@ export const RANGS = [
   [800, 'Sentinelle', 'Tu veilles et tu tiens ferme.'],
   [1300, 'Ancien sage', 'La Parole habite en toi.'],
   [2000, 'Ambassadeur du Royaume', 'Tu portes la lumière autour de toi.'],
+  [3000, 'Gardien de la Parole', 'Tu caches la Parole dans ton cœur.'],
+  [4500, 'Bâtisseur', 'Tu construis sur le roc.'],
+  [6500, 'Moissonneur', 'Les champs blanchissent pour la moisson.'],
+  [9000, 'Colonne du temple', 'Celui qui vaincra, je ferai de lui une colonne.'],
+  [12500, 'Vainqueur', 'Plus que vainqueur par celui qui nous a aimés.'],
 ];
 export function rang(xp) {
   let i = 0; RANGS.forEach(([min], k) => { if (xp >= min) i = k; });
-  const [min, nom, desc] = RANGS[i], suivant = RANGS[i + 1];
+  // Après le dernier rang, les degrés continuent sans fin : « Vainqueur 2 », « Vainqueur 3 »…
+  if (i === RANGS.length - 1 && xp >= RANGS[i][0] + 4000) {
+    const k = Math.floor((xp - RANGS[i][0]) / 4000), min = RANGS[i][0] + k * 4000;
+    return { i, nom: `Vainqueur ${k + 1}`, desc: RANGS[i][2], min, prochain: min + 4000, nomSuivant: `Vainqueur ${k + 2}`, progression: (xp - min) / 4000 };
+  }
+  const [min, nom, desc] = RANGS[i], suivant = RANGS[i + 1] || [RANGS[i][0] + 4000, 'Vainqueur 2'];
   return { i, nom, desc, min, prochain: suivant?.[0] ?? null, nomSuivant: suivant?.[1], progression: suivant ? (xp - min) / (suivant[0] - min) : 1 };
 }
 
