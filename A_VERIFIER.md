@@ -394,7 +394,11 @@ Ces textes sont originaux (plans inspirés de ubdavid.org, sans reprise de leurs
 - [ ] `content/enseignements/conserver-sa-delivrance.json` : Comment conserver sa délivrance
 - [ ] `content/enseignements/la-vraie-repentance.json` : La vraie repentance
 - [ ] `content/enseignements/classiques/bounds-1-hommes-de-priere.json` : Dieu cherche des hommes de prière
+- [ ] `content/enseignements/classiques/bounds-2-la-lettre-tue.json` : La lettre tue, l'Esprit vivifie
+- [ ] `content/enseignements/classiques/bounds-3-parler-a-dieu-pour-les-hommes.json` : Parler à Dieu pour les hommes
 - [ ] `content/enseignements/classiques/murray-1-enseigne-nous-a-prier.json` : Seigneur, enseigne-nous à prier
+- [ ] `content/enseignements/classiques/murray-2-en-esprit-et-en-verite.json` : En esprit et en vérité
+- [ ] `content/enseignements/classiques/murray-3-seul-avec-dieu.json` : Seul avec Dieu
 - [ ] `content/enseignements/classiques/spurgeon-227-contrains-les.json` : Contrains-les d'entrer
 - [ ] `content/enseignements/classiques/spurgeon-44-repentance.json` : La repentance qui mène à la vie
 - [ ] `content/enseignements/classiques/spurgeon-60-regardez-a-moi.json` : Tournez-vous vers moi, et soyez sauvés
