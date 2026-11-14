@@ -1,1 +1,63 @@
-{"id": "avertissement", "titre": "Avertissement de l'auteur — Un contrat avec toi-même", "groupe": "debut", "blocs": [{"t": "p", "x": "Avant même de tourner la page, arrête-toi."}, {"t": "p", "x": "Ce livre n'est pas un livre à lire. C'est un plan à exécuter."}, {"t": "p", "x": "Si tu l'ouvres comme tu as ouvert les dix autres — en espérant qu'une phrase, quelque part, va enfin te libérer —, referme-le maintenant. Tu vas perdre ton temps. Et surtout, tu vas ajouter une défaite de plus à une liste qui n'en a plus besoin."}, {"t": "p", "x": "Tu sais de quoi je parle. Tu connais cette sensation. Celle d'avoir encore promis, encore juré, encore pleuré devant Dieu hier soir. Et d'être retombé(e) aujourd'hui. Trois jours. Sept jours. Quatorze jours, parfois. Puis le craquement. Puis la honte. Puis le silence — encore plus lourd qu'avant."}, {"t": "p", "x": "Ce livre part d'un postulat simple et tranchant : tu as essayé seul(e), et c'est exactement pour ça que cela n'a pas marché."}, {"t": "p", "x": "Ce que tu tiens entre les mains est un plan de combat. Trente jours. Quatre semaines structurées. Un ordre précis. Des exercices concrets. Un frère, une sœur à qui rendre des comptes. Une armure spirituelle à revêtir chaque matin. Une prière chaque soir, adressée au Père, au nom de Jésus, pour le combat précis du jour."}, {"t": "p", "x": "Tu ne le feras pas tout(e) seul(e). Mais tu dois le faire pour de vrai."}, {"t": "p", "x": "Avant de commencer, signe ce contrat avec toi-même. À voix haute. La main sur le papier. Avec ton prénom écrit, et ta date."}, {"t": "p", "x": "Moi, _______________________, je reconnais devant Dieu que :"}, {"t": "p", "x": "1. Je ne peux pas m'en sortir seul(e). J'ai besoin de Dieu, et j'ai besoin d'un frère ou d'une sœur de combat."}, {"t": "p", "x": "2. Je m'engage à suivre les 90 jours dans l'ordre, sans en sauter, sans bachoter, sans avancer plus vite que le plan."}, {"t": "p", "x": "3. Je ferai les exercices du jour, pas seulement la lecture. Je sais que la transformation passe par les mains, pas seulement par les yeux."}, {"t": "p", "x": "4. Si je tombe, je ne quitte pas le plan. J'applique le protocole du Jour 24, et je reprends au jour suivant — pas au Jour 1."}, {"t": "p", "x": "Signé : _______________________ • Date : ___ / ___ / ______"}, {"t": "p", "x": "Maintenant, tourne la page."}, {"t": "p", "x": "Le combat commence."}]}
+{
+ "id": "avertissement",
+ "titre": "Avertissement — Un engagement avec toi-même",
+ "groupe": "debut",
+ "blocs": [
+  {
+   "t": "p",
+   "x": "Arrête-toi un instant avant de commencer."
+  },
+  {
+   "t": "p",
+   "x": "Ce manuel n'est pas fait pour être lu, il est fait pour être appliqué. Si tu l'ouvres en espérant qu'une phrase va te libérer d'un coup, comme tu l'as peut-être fait avec d'autres livres, cela ne marchera pas. Tu perdras ton temps, et tu ajouteras un échec de plus à ta liste."
+  },
+  {
+   "t": "p",
+   "x": "Tu sais de quoi je parle. Tu as promis à Dieu, tu as juré, tu as pleuré devant lui un soir. Puis tu es retombé le lendemain, ou trois jours après, ou deux semaines après. Ensuite sont venues la honte et le silence, plus lourds qu'avant."
+  },
+  {
+   "t": "p",
+   "x": "Voici la vérité de départ : tu as essayé de t'en sortir seul, et c'est justement pour cela que tu n'y es pas arrivé."
+  },
+  {
+   "t": "p",
+   "x": "Ce parcours est un plan de combat. Il a un ordre précis, des exercices concrets, un frère ou une sœur à qui tu rendras des comptes, l'armure de Dieu à revêtir chaque matin, et une prière précise chaque jour. Tu ne le feras pas seul. Mais tu dois le faire sérieusement."
+  },
+  {
+   "t": "h",
+   "x": "Ton engagement"
+  },
+  {
+   "t": "p",
+   "x": "Avant de commencer, prends cet engagement devant Dieu. Lis-le à voix haute. Écris ton prénom et la date sur une feuille, ou dans ton journal."
+  },
+  {
+   "t": "p",
+   "x": "Moi, ___________, je reconnais devant Dieu que :"
+  },
+  {
+   "t": "li",
+   "x": "1. Je ne peux pas m'en sortir seul. J'ai besoin de Dieu, et j'ai besoin d'un frère ou d'une sœur de combat."
+  },
+  {
+   "t": "li",
+   "x": "2. Je m'engage à suivre les 90 jours dans l'ordre, un jour à la fois, sans sauter de jour et sans aller plus vite que le plan."
+  },
+  {
+   "t": "li",
+   "x": "3. Je ferai les exercices de chaque jour, et pas seulement la lecture. Je sais que le changement passe par des actes, pas seulement par des idées."
+  },
+  {
+   "t": "li",
+   "x": "4. Si je tombe, je n'abandonne pas le parcours. J'applique ce que dit le jour 24, et je continue au jour suivant. Je ne recommence pas au jour 1."
+  },
+  {
+   "t": "p",
+   "x": "Signé : ___________ · Date : ___________"
+  },
+  {
+   "t": "p",
+   "x": "Maintenant, passe à la suite. Le combat commence."
+  }
+ ]
+}

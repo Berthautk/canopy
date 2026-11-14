@@ -4,36 +4,49 @@ import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 import { TexteRefs } from '../../composants/TexteRefs.jsx';
 import { notifier } from '../../composants/Notification.jsx';
 import { ORIZON, chargerOrizon } from '../../donnees/contenu.js';
-import { orizon, commencerOrizon, terminerJourOrizon, noterJournal, noterChute, jourCourant, typeJour, phaseDe } from '../../donnees/orizon.js';
+import { orizon, commencerOrizon, terminerJourOrizon, noterJournal, noterChute, jourCourant, typeJour, phaseDe, PREALABLES, estLu, docOuvert, prealablesFinis, etatJour, prochainPrealable, marquerLu } from '../../donnees/orizon.js';
 import { compter } from '../../donnees/mesure.js';
 import { useSignal } from '../../outils/signal.js';
 
 const PHASES = { 1: 'Phase 1 · Le sevrage et les fondations', 2: "Phase 2 · L'enracinement", 3: 'Phase 3 · La consolidation et le service' };
-const GROUPES = [['debut', 'Avant de commencer'], ['fondations', 'Partie 1 · Les fondations'], ['apres', 'Après les 90 jours'], ['annexes', 'Annexes']];
+const RESSOURCES = [['apres', 'Pour la suite et en cas de besoin'], ['annexes', 'Annexes']];
 const redige = (j) => ORIZON.jours.find((x) => x.jour === j);
+const doc = (id) => ORIZON.documents.find((d) => d.id === id);
 
-// Accueil du parcours : progression, jour du moment, carte des 90 jours, chapitres.
+// Accueil du parcours : une seule étape active à la fois ; les suivantes restent grisées.
 export function OrizonAccueil() {
   const o = useSignal(orizon);
+  const prep = prochainPrealable(o);
   const courant = jourCourant();
+  const e = etatJour(courant, o);
   const r = redige(courant);
   return (
     <div class="page">
       <div class="orizon-hero">
         <p class="orizon-hero__marque">YESHAYA</p>
         <h2>90 jours pour se libérer de la masturbation et de la pornographie</h2>
-        <p>{ORIZON.sous_titre}</p>
         <p class="orizon-hero__verset">« C'est pour la liberté que Christ nous a affranchis. » (Galates 5:1)</p>
       </div>
       <section class="carte bloc">
-        <p class="ligne__desc" style="margin:0 0 6px">Enseignement et prière, chaque jour pendant 90 jours. Si tu chutes, tu ne reprends pas au jour 1 : tu continues au jour suivant.</p>
-        <div class="progression"><span style={{ width: (o.faits.length / 90) * 100 + '%' }} /></div>
-        <p class="ligne__desc" style="margin:6px 0 0">{o.faits.length} jour{o.faits.length > 1 ? 's' : ''} vécu{o.faits.length > 1 ? 's' : ''} sur 90 · {PHASES[phaseDe(courant)]}</p>
-        <a class="bouton bouton--or" style="width:100%;margin-top:12px" href={'#/orizon/jour/' + courant} onClick={() => commencerOrizon()}>
-          {o.faits.length ? `Continuer : jour ${courant}` : 'Commencer le jour 1'}{r ? ' · ' + r.titre : ''}</a>
-        {!o.faits.length && <a class="bouton bouton--contour" style="width:100%;margin-top:8px" href="#/orizon/doc/avertissement">Lire d'abord l'avertissement et l'introduction</a>}
+        <div class="progression"><span style={{ width: ((o.faits.length + (o.lus || []).length / PREALABLES.length) / 91) * 100 + '%' }} /></div>
+        <p class="ligne__desc" style="margin:6px 0 10px">{prep ? `Avant de commencer : ${PREALABLES.indexOf(prep)} texte${PREALABLES.indexOf(prep) > 1 ? 's' : ''} lu${PREALABLES.indexOf(prep) > 1 ? 's' : ''} sur ${PREALABLES.length}` : `${o.faits.length} jour${o.faits.length > 1 ? 's' : ''} vécu${o.faits.length > 1 ? 's' : ''} sur 90 · ${PHASES[phaseDe(courant)]}`}</p>
+        {prep
+          ? <a class="bouton bouton--or" style="width:100%" href={'#/orizon/doc/' + prep} onClick={() => commencerOrizon()}>{(o.lus || []).length ? 'Continuer' : 'Commencer'} : {doc(prep)?.titre.split(' — ')[0]}</a>
+          : e === 'demain'
+            ? <p class="orizon-attente"><Icone nom="cadenas" taille={18} /> Bravo pour aujourd'hui ! Le jour {courant} s'ouvrira demain, après minuit. Un jour à la fois.</p>
+            : <a class="bouton bouton--or" style="width:100%" href={'#/orizon/jour/' + courant}>Jour {courant}{r ? ' · ' + r.titre : ''}</a>}
         <button class="lien" style="display:block;margin:10px auto 0" onClick={() => { noterChute(); location.hash = '#/orizon/jour/24'; }}>J'ai chuté : que faire maintenant ?</button>
       </section>
+
+      <h2 class="titre-section">Avant de commencer</h2>
+      <ol class="carte orizon-etapes">
+        {PREALABLES.map((id, i) => {
+          const lu = estLu(id, o), ouvert = docOuvert(id, o), d = doc(id);
+          const cl = 'orizon-etape' + (lu ? ' orizon-etape--lu' : ouvert ? ' orizon-etape--active' : ' orizon-etape--fermee');
+          const contenu = <><span class="orizon-etape__num">{lu ? <Icone nom="verifie" taille={16} /> : ouvert ? i + 1 : <Icone nom="cadenas" taille={14} />}</span><span>{d?.titre}</span></>;
+          return <li>{ouvert ? <a class={cl} href={'#/orizon/doc/' + id}>{contenu}<Icone nom="chevron" taille={18} /></a> : <span class={cl} aria-disabled="true">{contenu}</span>}</li>;
+        })}
+      </ol>
 
       <h2 class="titre-section">Les 90 jours</h2>
       {[1, 2, 3].map((ph) => (
@@ -41,16 +54,17 @@ export function OrizonAccueil() {
           <h3 style="margin-top:0">{PHASES[ph]}</h3>
           <div class="orizon-grille">
             {Array.from({ length: 30 }, (_, k) => ph * 30 - 29 + k).map((j) => {
-              const t = typeJour(j, !!redige(j));
-              return <a href={'#/orizon/jour/' + j} class={'orizon-case orizon-case--' + t + (o.faits.includes(j) ? ' orizon-case--fait' : '') + (j === courant ? ' orizon-case--courant' : '')}
-                aria-label={`Jour ${j}${redige(j) ? ' : ' + redige(j).titre : t === 'sabbat' ? ' : sabbat' : ' : pratique'}`}>{j}</a>;
+              const t = typeJour(j, !!redige(j)), et = etatJour(j, o);
+              const cl = 'orizon-case orizon-case--' + t + (o.faits.includes(j) ? ' orizon-case--fait' : '') + (j === courant && et === 'ouvert' ? ' orizon-case--courant' : '') + (et !== 'ouvert' ? ' orizon-case--fermee' : '');
+              const label = `Jour ${j}${redige(j) ? ' : ' + redige(j).titre : t === 'sabbat' ? ' : sabbat' : ' : pratique'}${et !== 'ouvert' ? ' (pas encore ouvert)' : ''}`;
+              return et === 'ouvert' ? <a href={'#/orizon/jour/' + j} class={cl} aria-label={label}>{j}</a> : <span class={cl} aria-label={label} aria-disabled="true">{j}</span>;
             })}
           </div>
         </section>
       ))}
-      <p class="ligne__desc" style="margin:0 4px">Case pleine : jour avec enseignement · case claire : pratique libre · 🌅 : sabbat.</p>
+      <p class="ligne__desc" style="margin:0 4px">Case pleine : jour avec enseignement · case claire : pratique libre · 🌅 : sabbat · case grisée : pas encore ouverte.</p>
 
-      {GROUPES.map(([g, nom]) => (
+      {RESSOURCES.map(([g, nom]) => (
         <>
           <h2 class="titre-section">{nom}</h2>
           <div class="liste">{ORIZON.documents.filter((d) => d.groupe === g).map((d) => (
@@ -63,6 +77,12 @@ export function OrizonAccueil() {
     </div>
   );
 }
+
+const Ferme = ({ texte }) => (
+  <div class="page"><section class="carte bloc" style="margin-top:16px;text-align:center">
+    <Icone nom="cadenas" taille={28} /><p>{texte}</p>
+    <a class="bouton bouton--or" href="#/orizon" style="width:100%">Retour au parcours</a></section></div>
+);
 
 // Un bloc de texte du manuel, tel quel.
 function Bloc({ b, attr }) {
@@ -81,20 +101,28 @@ const Attente = ({ e }) => <div class="page"><p class={e.erreur ? 'verset__erreu
 
 export function OrizonDoc({ id }) {
   const e = useCharge(id), va = useVoixActive('orizon-' + id);
+  const o = useSignal(orizon);
+  if (!docOuvert(id, o)) return <Ferme texte="Ce texte s'ouvrira quand tu auras lu les précédents, dans l'ordre." />;
   if (!e.d) return <Attente e={e} />;
+  const i = PREALABLES.indexOf(id), suite = i < 0 ? null : PREALABLES[i + 1] ? '#/orizon/doc/' + PREALABLES[i + 1] : '#/orizon/jour/1';
   const d = e.d;
   return (
     <div class="page orizon-texte">
       <h2 style="margin:14px 4px 8px">{d.titre}</h2>
       <BarreEcoute id={'orizon-' + id} titre="Écouter" blocs={[{ texte: d.titre + '.' }, ...d.blocs.map((b) => ({ texte: b.x }))]} />
       {d.blocs.map((b, i) => <Bloc b={b} attr={va(i + 1)} />)}
-      <a class="bouton bouton--contour" href="#/orizon" style="width:100%;margin-top:16px">Retour au parcours</a>
+      {suite && <a class="bouton bouton--or" href={suite} style="width:100%;margin-top:16px" onClick={() => marquerLu(id)}>
+        <Icone nom="verifie" taille={20} /> {estLu(id, o) ? 'Continuer' : "J'ai lu, passer à la suite"}</a>}
+      <a class="bouton bouton--contour" href="#/orizon" style="width:100%;margin-top:10px">Retour au parcours</a>
     </div>
   );
 }
 
 export function OrizonJour({ j }) {
   const n = Math.min(90, Math.max(1, +j || 1)), r = redige(n);
+  const o = useSignal(orizon), et = etatJour(n, o);
+  // Le jour 24 (rechute) reste toujours accessible.
+  if (et !== 'ouvert' && n !== 24) return <Ferme texte={!prealablesFinis(o) ? "Lis d'abord les textes « Avant de commencer » et la partie 1, dans l'ordre." : et === 'demain' ? `Le jour ${n} s'ouvrira demain, après minuit. Un jour à la fois : c'est la règle n° 1 du parcours.` : `Le jour ${n} s'ouvrira quand tu auras vécu le jour ${n - 1}.`} />;
   return r ? <JourRedige n={n} key={n} /> : <JourPratique n={n} key={n} />;
 }
 

@@ -1,1 +1,59 @@
-{"id": "avant-propos", "titre": "Avant-propos", "groupe": "debut", "blocs": [{"t": "p", "x": "Avant que tu ne commences,"}, {"t": "p", "x": "Le ministère Yeshaya est un ministère indépendant, né d'une conviction simple : trop de chrétiens souffrent en silence de combats pour lesquels personne, dans leur entourage, n'ose ouvrir la Bible avec eux concrètement. Pornographie. Masturbation. Honte des rechutes. Solitude. Mariages qui s'éteignent. Identités qui s'effondrent."}, {"t": "p", "x": "Notre mission tient en une phrase : apporter des solutions bibliques, concrètes et pratiques à toute personne traversant une situation compliquée. Pas de spiritualité hors-sol. Pas de promesses faciles. Pas de culpabilisation supplémentaire. Mais l'Écriture, prise au sérieux, appliquée jour après jour, dans le réel d'un téléphone, d'un soir de stress, d'un mariage fragile, d'une jeunesse qui se débat."}, {"t": "p", "x": "Nous ne sommes affiliés à aucune dénomination, à aucune église particulière. Notre seule autorité, c'est la Parole de Dieu — la Bible — telle qu'elle a été reçue, prêchée et vécue par les évangéliques depuis la Réforme. Notre seule espérance, c'est Jésus-Christ — mort, ressuscité, vivant aujourd'hui, et capable de « détruire les œuvres du diable » (1 Jean 3:8) dans la vie de quiconque vient à Lui."}, {"t": "p", "x": "Ce livre est né de centaines d'heures de lecture, d'écoute et de prière. Nous avons lu — anonymement — les confessions de dizaines d'hommes et de femmes chrétiens écrivant à 2 h du matin, après une nouvelle chute, sur des forums de foi. Nous avons croisé leurs cris avec la science récente du cerveau, avec la théologie de la grâce, avec la pratique des Réformateurs, avec deux millénaires d'expérience pastorale chrétienne. Et nous en avons tiré ce que tu tiens entre les mains : un plan de combat de 90 jours, conçu pour le frère et la sœur qui ont déjà essayé — et qui, jusqu'ici, ont échoué."}, {"t": "p", "x": "Nous t'écrivons donc cette ligne avec gravité : ce livre n'est pas une lecture, c'est un parcours. Il a été pensé pour être tenu. Tu vas y trouver des exercices concrets, des prières adressées au Père au nom de Jésus, des versets cités intégralement, un journal de bord, et — au cœur du plan — une arme spirituelle que peu d'ouvrages de cette niche ont osé déployer pleinement : la Sainte Cène prise comme moyen de grâce et arme de guérison, dans la lignée de Luther et de Calvin."}, {"t": "p", "x": "Nous te le disons sans détour : la liberté que tu cherches existe. Elle ne se trouve pas dans une formule magique, ni dans une volonté de fer, ni dans le perfectionnement religieux. Elle se trouve dans une Personne — Jésus — et dans la marche disciplinée d'un enfant racheté. Christ a déjà tout payé à la croix. Ces 30 jours sont là pour t'apprendre à marcher dans ce qui est déjà à toi."}, {"t": "p", "x": "Une dernière chose, et c'est peut-être la plus importante : écris-nous quand tu auras fini. Que tu aies tenu d'une traite, que tu aies chuté trois fois, que tu aies recommencé, que tu sois libéré(e) ou encore en lutte — écris-nous. Ton témoignage en libérera d'autres. C'est ainsi que la victoire de l'Agneau s'étend sur la terre :"}, {"t": "cit", "x": "« Ils l'ont vaincu à cause du sang de l'Agneau et à cause de la parole de leur témoignage. » Apocalypse 12:11"}, {"t": "p", "x": "Que le Père te bénisse dans ce voyage. Que le Fils te garde par Son sang. Que l'Esprit te donne la force. Et que, dans 90 jours, tu te tiennes debout, un homme libre, une femme libre, prêt(e) à libérer d'autres."}, {"t": "p", "x": "Ce parcours est structuré en trois phases — parce que la liberté ne s'installe pas en un seul élan, mais en trois mouvements : le sevrage, l'enracinement, la consolidation. La Phase 1 sera intense : 30 jours, un par jour, sans exception. La Phase 2 allégera le rythme pour laisser les racines descendre. La Phase 3 te tournera vers l'extérieur — le service, le mentorat, la vision longue. Au bout des 90 jours, tu ne seras plus seulement quelqu'un qui « ne tombe plus ». Tu seras quelqu'un qui marche."}, {"t": "p", "x": "— L'équipe du ministère Yeshaya"}]}
+{
+ "id": "avant-propos",
+ "titre": "Avant-propos",
+ "groupe": "debut",
+ "blocs": [
+  {
+   "t": "p",
+   "x": "Avant que tu commences ce parcours, nous voulons te dire qui nous sommes et pourquoi ce manuel existe."
+  },
+  {
+   "t": "p",
+   "x": "Le ministère Yeshaya est un ministère chrétien évangélique. Nous l'avons créé parce que beaucoup de chrétiens souffrent en silence de la pornographie et de la masturbation, et que personne autour d'eux n'ose ouvrir la Bible avec eux pour les aider concrètement. Ils ont honte. Ils retombent. Ils se sentent seuls. Certains mariages s'éteignent à cause de cela."
+  },
+  {
+   "t": "p",
+   "x": "Notre mission est simple : apporter des solutions bibliques, concrètes et pratiques à toute personne qui traverse une situation difficile. Nous ne voulons pas te donner de belles paroles sans effet, ni des promesses faciles, ni te culpabiliser davantage. Nous voulons prendre la Bible au sérieux et l'appliquer jour après jour, dans ta vie réelle : ton téléphone, tes soirées de stress, ton mariage, ta jeunesse."
+  },
+  {
+   "t": "p",
+   "x": "Nous n'appartenons à aucune dénomination. Notre seule autorité, c'est la Parole de Dieu. Notre seule espérance, c'est Jésus-Christ, mort et ressuscité, vivant aujourd'hui. La Bible dit qu'il est venu pour détruire les œuvres du diable (1 Jean 3:8). Il peut le faire dans ta vie."
+  },
+  {
+   "t": "p",
+   "x": "Ce manuel est le fruit de beaucoup de lecture, d'écoute et de prière. Nous avons lu les confessions de nombreux chrétiens qui écrivaient la nuit, après une nouvelle chute. Nous avons mis ces cris en face de la Parole de Dieu, de ce que l'on sait aujourd'hui du fonctionnement du cerveau, et de l'expérience des pasteurs à travers les siècles. Le résultat, c'est ce plan de combat de 90 jours. Il a été écrit pour ceux qui ont déjà essayé d'arrêter, et qui ont échoué."
+  },
+  {
+   "t": "p",
+   "x": "Comprends bien une chose : ce manuel ne se lit pas comme un livre ordinaire. C'est un parcours à suivre, jour après jour. Tu y trouveras des exercices concrets, des prières, des versets, un journal à remplir, et une arme spirituelle souvent oubliée : la sainte cène, reçue avec foi comme un moyen de grâce."
+  },
+  {
+   "t": "p",
+   "x": "La liberté que tu cherches existe. Tu ne la trouveras pas dans une formule magique, ni dans ta seule volonté, ni dans des efforts religieux. Tu la trouveras en Jésus, et dans une marche disciplinée avec lui. Jésus a déjà tout payé à la croix. Ces 90 jours vont t'apprendre à vivre dans la victoire qu'il t'a déjà donnée."
+  },
+  {
+   "t": "h",
+   "x": "Comment le parcours est organisé"
+  },
+  {
+   "t": "p",
+   "x": "Le parcours dure 90 jours, en trois phases. La phase 1 (jours 1 à 30) est la plus intense : un enseignement et un exercice chaque jour, sans exception. C'est le temps du sevrage et des fondations. La phase 2 (jours 31 à 60) est plus légère : deux rendez-vous par semaine, pour que les racines descendent en profondeur. La phase 3 (jours 61 à 90) te tourne vers les autres : servir, aider un frère ou une sœur, regarder loin. Au bout des 90 jours, tu ne seras pas seulement quelqu'un qui ne tombe plus. Tu seras quelqu'un qui marche avec Dieu."
+  },
+  {
+   "t": "p",
+   "x": "Une dernière chose, très importante : quand tu auras fini, écris-nous. Que tu aies tenu du début à la fin, que tu sois tombé plusieurs fois, que tu sois libre ou encore en lutte, écris-nous. Ton témoignage aidera d'autres personnes à être libérées."
+  },
+  {
+   "t": "cit",
+   "x": "« Ils l'ont vaincu à cause du sang de l'Agneau et à cause de la parole de leur témoignage. » Apocalypse 12:11"
+  },
+  {
+   "t": "p",
+   "x": "Que le Père te bénisse, que le Fils te garde par son sang, et que le Saint-Esprit te donne la force. Dans 90 jours, nous voulons te voir debout, libre, et prêt à aider d'autres à être libres."
+  },
+  {
+   "t": "p",
+   "x": "L'équipe du ministère Yeshaya · yeshaya61@gmail.com"
+  }
+ ]
+}
