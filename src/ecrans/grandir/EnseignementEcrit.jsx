@@ -10,7 +10,7 @@ import { chargerEnseignement } from '../../donnees/contenu.js';
 import { partager } from '../../outils/partage.js';
 import { SujetsACocher, blocsSujets } from '../priere/Veille.jsx';
 import { compter } from '../../donnees/mesure.js';
-import { PRIERES, COMBAT, VEILLES } from '../../donnees/contenu.js';
+import { PRIERES, COMBAT, VEILLES, ENSEIGNEMENTS } from '../../donnees/contenu.js';
 
 // Liste ordonnée de tout ce qui se lit à voix haute ; l'index sert aussi au surlignage.
 function plan(e) {
@@ -139,6 +139,8 @@ function Questions({ e }) {
 function PrieresLiees({ liens }) {
   const items = liens.map((l) => {
     const [type, id] = l.split(':');
+    if (type === 'pq') return { titre: "Jeûner et prier pour quelqu'un", image: '/assets/priere/priere-pour-un-malade.webp', lien: '#/priere/pour-quelqu-un', desc: 'Programmes de jeûne et de prière pour un proche, un foyer, une situation' };
+    if (type === 'enseignement') { const e = ENSEIGNEMENTS.find((x) => x.id === id); return e && { titre: e.titre, image: e.image, lien: '#/grandir/enseignement/' + id, desc: "L'enseignement suivant" }; }
     const x = type === 'theme' ? PRIERES.find((p) => p.id === id) : type === 'combat' ? COMBAT.find((c) => c.id === id) : VEILLES.find((v) => v.id === 'veille-' + id);
     return x && { titre: x.titre, image: x.image, lien: `#/priere/${type}/${id}?guide=1` };
   }).filter(Boolean);
@@ -151,7 +153,7 @@ function PrieresLiees({ liens }) {
         {items.map((it) => (
           <a class="carte theme" href={it.lien}>
             {it.image && <img src={it.image} alt="" loading="lazy" />}
-            <span class="ligne__corps"><span class="ligne__titre" style="display:block">{it.titre}</span><span class="ligne__desc">Écoute, répète et prie</span></span>
+            <span class="ligne__corps"><span class="ligne__titre" style="display:block">{it.titre}</span><span class="ligne__desc">{it.desc || 'Écoute, répète et prie'}</span></span>
             <Icone nom="chevron" taille={20} />
           </a>
         ))}

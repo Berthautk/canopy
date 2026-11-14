@@ -63,6 +63,12 @@ export function Priere() {
           <span class="ligne__desc">21 jours de jeûne, puis la Veille, un jour une prière, mois après mois. Écris son prénom : les sujets s'adaptent.</span></span>
         <Icone nom="chevron" taille={20} />
       </a>
+      <a class="carte ligne" href="#/grandir/enseignement/jeune-0-troisieme-force" style="margin-top:8px">
+        <span class="ligne__icone"><Icone nom="ampoule" /></span>
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Enseignement : le jeûne</span>
+          <span class="ligne__desc">Les cinq jeûnes de la Bible : repentance, consécration, puissance, riposte, intercession.</span></span>
+        <Icone nom="chevron" taille={20} />
+      </a>
 
       <h2 class="titre-section">Prier pour…</h2>
       <p class="ligne__desc" style="margin:-4px 4px 8px">Touche un thème pour voir ses sujets de prière.</p>

@@ -68,6 +68,11 @@ export function PourQuelquun({ jour }) {
       <div class="theme-hero"><img src="/assets/priere/priere-pour-un-malade.webp" alt="" />
         <div class="theme-hero__texte"><span class="pastille pastille--or">Un jour, une prière</span><h2>{I.titre}</h2></div></div>
       <p class="niveau-description">{I.resume}</p>
+      <a class="carte ligne" href="#/grandir/enseignement/jeune-0-troisieme-force" style="margin-bottom:10px;border:2px solid var(--or)">
+        <span class="ligne__icone"><Icone nom="ampoule" /></span>
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Comprendre le jeûne d'abord</span>
+          <span class="ligne__desc">Série de 6 enseignements : le jeûne, troisième force d'intervention, et les cinq jeûnes de la Bible.</span></span>
+        <Icone nom="chevron" taille={20} /></a>
       <Reglages c={modif ? c : null} fini={() => setModif(false)} />
       <p class="source-mention">{I.source}</p>
     </div>
