@@ -120,6 +120,44 @@
    ]
   },
   {
+   "id": "foyer-14",
+   "format": "veille",
+   "titre": "14 jours pour un foyer en crise",
+   "court": "Foyer en crise",
+   "duree": 14,
+   "description": "Pour un couple en difficulté : disputes, infidélité, séparation, menace de divorce, problèmes d'argent. Chaque jour : un texte, un partage, des sujets de prière et un axe pour la gloire de Dieu. Indique le prénom du conjoint dans les réglages.",
+   "intro": [
+    {
+     "t": "h",
+     "x": "Combattre pour le foyer de {nom}"
+    },
+    {
+     "t": "p",
+     "x": "Un foyer en crise n'est pas seulement une affaire de caractères. C'est souvent un combat spirituel, où l'ennemi veut détruire ce que Dieu a uni. Pendant ces 14 jours, nous allons prier selon la Parole : pour que Dieu redevienne le bâtisseur de la maison, pour la fidélité, le pardon, la parole douce, les enfants, la provision, et contre les puissances qui veulent diviser."
+    },
+    {
+     "t": "li",
+     "x": "Lis le texte du jour à voix haute, puis le partage."
+    },
+    {
+     "t": "li",
+     "x": "Prie chaque sujet en nommant {nom} et {conjoint}."
+    },
+    {
+     "t": "li",
+     "x": "Si tu fais partie de ce couple, commence toujours par ta propre repentance : ne prie pas seulement pour que l'autre change."
+    },
+    {
+     "t": "li",
+     "x": "Si tu le peux, jeûne certains jours, et cherche aussi l'aide de ton pasteur."
+    },
+    {
+     "t": "p",
+     "x": "Après ces 14 jours, continue avec la Veille, un jour une prière. Rien n'est impossible à Dieu."
+    }
+   ]
+  },
+  {
    "id": "veille",
    "titre": "La Veille : un jour, une prière",
    "court": "La Veille",
