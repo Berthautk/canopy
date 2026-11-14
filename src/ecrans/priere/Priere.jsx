@@ -114,8 +114,12 @@ function PiedPriere({ id, titre, texte, chemin }) {
 
 // Écran 4 : page d'un thème de prière, organisée selon les phases du Notre Père.
 export function ThemePriere({ id, guide }) {
-  const p = PRIERES.find((x) => x.id === id);
-  if (!p) return <div class="page"><p class="ligne__desc">Thème introuvable.</p></div>;
+  const p0 = PRIERES.find((x) => x.id === id);
+  // Bulletins adaptables : le nom de la ville ou de la localité remplace « {lieu} » dans les sujets.
+  const [lieu, setLieu] = useState(() => { try { return localStorage.getItem('yeshaya:lieu-' + id) || ''; } catch { return ''; } });
+  if (!p0) return <div class="page"><p class="ligne__desc">Thème introuvable.</p></div>;
+  const nomLieu = lieu.trim() || 'notre ville';
+  const p = p0.lieu_modifiable ? JSON.parse(JSON.stringify(p0).replaceAll('{lieu}', JSON.stringify(nomLieu).slice(1, -1))) : p0;
   const piste = AUDIOS[p.id];
   const tous = p.phases ? p.phases.flatMap((ph) => ph.sujets) : p.sujets || [];
   return (
@@ -125,6 +129,11 @@ export function ThemePriere({ id, guide }) {
         <div class="theme-hero__texte"><span class="pastille pastille--or">{p.categorie}</span><h2>{p.titre}</h2></div>
       </div>
       {p.exemple && <p style="margin:8px 4px 0"><span class="etiquette-exemple">EXEMPLE</span> Contenu de démonstration.</p>}
+      {p0.lieu_modifiable && <section class="carte bloc lieu-priere">
+        <label class="ligne__titre" for="lieu">Pour quelle ville ou localité pries-tu ?</label>
+        <input id="lieu" class="champ" value={lieu} maxLength={60} placeholder="Ex. : Bafoussam, Douala, mon quartier…" onInput={(e) => { const v = e.currentTarget.value; setLieu(v); try { localStorage.setItem('yeshaya:lieu-' + id, v); } catch {} }} />
+        <p class="ligne__desc" style="margin:6px 0 0">Le nom sera repris dans chaque sujet de prière{lieu.trim() ? ` : « ${nomLieu} »` : ''}.</p>
+      </section>}
       <PriereGuidee auto={guide} id={p.id} titre={p.titre} introduction={p.enseignement} etapes={p.phases ? p.phases.map((ph) => ({ titre: ph.titre, sujets: ph.sujets })) : [{ titre: p.titre, sujets: p.sujets }]} />
       {(p.enseignement || piste) && (
         <section class="carte bloc">
@@ -140,6 +149,13 @@ export function ThemePriere({ id, guide }) {
           )}
         </section>
       )}
+      {p.enseignement_lie && <a class="carte ligne" href={'#/grandir/enseignement/' + p.enseignement_lie} style="margin-top:10px">
+        <span class="ligne__icone"><Icone nom="ampoule" /></span>
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Écouter d'abord le message</span>
+          <span class="ligne__desc">« Dieu s'étonne que personne n'intercède » · 16 min</span></span>
+        <Icone nom="chevron" taille={20} />
+      </a>}
+      {p.chaine && <section class="carte bloc"><h3><span class="ligne__icone"><Icone nom="calendrier" /></span> {p.chaine.titre}</h3><p>{p.chaine.texte}</p></section>}
       {p.versets?.length > 0 && <><h2 class="titre-section">Versets clés</h2><div class="liste">{p.versets.map((r) => <CarteVerset reference={r} />)}</div></>}
 
       {p.phases ? (() => { let k = 0; const debuts = p.phases.map((ph) => { const d = k + 1; k += ph.sujets.length + 1; return d; }); return (

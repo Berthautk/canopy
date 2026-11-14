@@ -1,0 +1,216 @@
+{
+ "id": "priere-campagne-evangelisation",
+ "categorie": "Salut et évangélisation",
+ "ordre": 27,
+ "titre": "Prier pour une campagne d'évangélisation",
+ "nom_court": "Campagne d'évangélisation",
+ "image": "/assets/evangelisation/partage-bible-dans-la-rue.webp",
+ "resume": "Bulletin d'intercession pour une croisade ou une campagne d'évangélisation dans une ville : consécration, provision, protection, salut des âmes, puissance de la Parole, victoire. Indique le nom de ta ville ou de ta localité.",
+ "lieu_modifiable": true,
+ "enseignement": "Aucune croisade ne réussit seulement par l'organisation. Avant que le serviteur de Dieu monte sur le podium, la bataille doit être gagnée à genoux. Dieu cherche des hommes et des femmes qui se tiennent à la brèche pour la ville (Ézéchiel 22:30). Écris le nom de la ville ou de la localité ci-dessous : il sera repris dans chaque sujet.",
+ "chaine": {
+  "titre": "Chaîne de prière",
+  "texte": "Pour une chaîne de prière, répartissez les intercesseurs par tranches d'une heure, par exemple de 19 h à 7 h. Chaque heure prend un thème, dans l'ordre, puis le cycle recommence : Consécration, Provision, Protection, Salut des âmes et réveil, la Parole et la puissance du Saint-Esprit. Chaque heure se termine par la proclamation de victoire et la louange."
+ },
+ "versets": [
+  "Éz 22:30",
+  "Mt 9:37-38",
+  "2 Co 4:4"
+ ],
+ "phases": [
+  {
+   "num": "1",
+   "titre": "Consécration",
+   "sujets": [
+    {
+     "titre": "Remercier pour l'appel",
+     "texte": "Remercions le Seigneur Jésus-Christ pour la grâce qu'il nous accorde de participer à son œuvre par l'intercession. (Ézéchiel 22:30)"
+    },
+    {
+     "titre": "Pardon et onction",
+     "texte": "Demandons à Dieu de nous pardonner nos péchés, de nous sanctifier par le sang de Jésus-Christ et de nous remplir de la puissance du Saint-Esprit, afin que notre intercession soit efficace. (Jacques 5:16)"
+    },
+    {
+     "titre": "Consacrer la campagne",
+     "texte": "Consacrons à Dieu la campagne d'évangélisation à {lieu} : les jours, les heures, le serviteur de Dieu qui prêchera et toutes les équipes qui travailleront avec lui, de près ou de loin. (Psaume 37:5)"
+    },
+    {
+     "titre": "Le lieu et le matériel",
+     "texte": "Demandons au Seigneur de sanctifier et de disposer pour lui le terrain, la sonorisation, l'éclairage, les médias, la scène et tout le matériel qui sera utilisé. (Exode 40:9)"
+    },
+    {
+     "titre": "Que ton règne vienne à {lieu}",
+     "texte": "Prions afin que le nom du Seigneur soit sanctifié, que son règne vienne et que sa volonté soit faite à {lieu} avant, pendant et après la campagne. (Matthieu 6:9-10)"
+    },
+    {
+     "titre": "Les alliances des ancêtres",
+     "texte": "Prions afin que le sang de Jésus-Christ annule toutes les alliances sataniques et démoniaques contractées sur {lieu} par les ancêtres. (Colossiens 2:14-15)"
+    },
+    {
+     "titre": "Les autels",
+     "texte": "Appelons le feu de Dieu pour consumer les autels sataniques qui parlent contre les habitants de {lieu} et empêchent leur salut, leur délivrance, leur guérison et leur bénédiction. (1 Rois 18:38)"
+    },
+    {
+     "titre": "Les autorités",
+     "texte": "Prions afin que Dieu touche le cœur de toute personne ayant autorité sur {lieu}, pour qu'elle consacre la ville à Dieu. (Proverbes 21:1)"
+    }
+   ]
+  },
+  {
+   "num": "2",
+   "titre": "Provision",
+   "sujets": [
+    {
+     "titre": "Les moyens",
+     "texte": "Demandons au Seigneur de pourvoir aux moyens financiers et matériels : voyages, hébergement et repas des équipes, terrain, sonorisation, affiches, publicité et véhicules. (Philippiens 4:19)"
+    },
+    {
+     "titre": "Les autorisations",
+     "texte": "Prions afin que Dieu dispose le cœur des autorités de {lieu} pour qu'elles autorisent la campagne aux dates prévues. (Esdras 7:27)"
+    },
+    {
+     "titre": "Les églises unies",
+     "texte": "Demandons au Saint-Esprit de disposer les serviteurs et servantes de Dieu et les églises de {lieu} à soutenir cette campagne d'évangélisation. (Psaume 133:1)"
+    },
+    {
+     "titre": "Contre le blocage et le sabotage",
+     "texte": "Chassons au nom de Jésus les esprits de blocage financier et de sabotage, les esprits de sorcellerie et de magie qui voudraient influencer les autorités contre la campagne, et les esprits de maladie et de mort qui voudraient rendre indisponibles les personnes importantes. (Luc 10:19)"
+    },
+    {
+     "titre": "Les autres événements",
+     "texte": "Demandons au Père d'empêcher l'organisation, à la même période, d'événements qui gêneraient le bon déroulement de la campagne. (Ésaïe 22:22)"
+    },
+    {
+     "titre": "Les pensées captives",
+     "texte": "Prions afin que les pensées de toutes les personnes qui interviendront pour la campagne soient amenées captives à l'obéissance de Christ. (2 Corinthiens 10:5)"
+    },
+    {
+     "titre": "Sous le sang",
+     "texte": "Couvrons du sang de Jésus-Christ toutes les personnes qui interviendront dans la campagne, ainsi que tout le matériel. (Exode 12:13)"
+    }
+   ]
+  },
+  {
+   "num": "3",
+   "titre": "Protection",
+   "sujets": [
+    {
+     "titre": "Le serviteur de Dieu",
+     "texte": "Demandons au Seigneur Jésus-Christ de protéger son serviteur, sa famille et toute son équipe : qu'il éloigne d'eux la maladie, les accidents et les hommes méchants. (Psaume 91:10-11)"
+    },
+    {
+     "titre": "Les anges sur la foule",
+     "texte": "Demandons au Père d'envoyer ses anges pour garder la foule et le terrain pendant toute la campagne. (Psaume 34:8)"
+    },
+    {
+     "titre": "La paix dans la ville",
+     "texte": "Demandons au Seigneur d'assurer la paix à {lieu} avant, pendant et après la campagne. (Jérémie 29:7)"
+    },
+    {
+     "titre": "Contre le désordre",
+     "texte": "Chassons au nom de Jésus les esprits de maladie, d'accident, de mort, de trouble, de sabotage et de désordre qui voudraient se lever contre la campagne et ceux qui y participent. (Ésaïe 54:17)"
+    },
+    {
+     "titre": "Tous couverts",
+     "texte": "Prions afin que le sang de Jésus-Christ couvre le serviteur de Dieu, sa famille, les équipes et le terrain de la campagne. (Apocalypse 12:11)"
+    }
+   ]
+  },
+  {
+   "num": "4",
+   "titre": "Salut des âmes et réveil",
+   "sujets": [
+    {
+     "titre": "Miséricorde sur {lieu}",
+     "texte": "Implorons la miséricorde de Dieu sur {lieu}, et demandons au Seigneur Jésus-Christ de déployer la puissance du salut et les anges de la moisson pour que des multitudes reçoivent Jésus-Christ. (Matthieu 9:37-38)"
+    },
+    {
+     "titre": "Appeler les foules",
+     "texte": "Appelons par la prière et par la foi les habitants de {lieu} et des environs à venir prendre part à la campagne. (Luc 14:23)"
+    },
+    {
+     "titre": "La publicité",
+     "texte": "Prions afin que les affiches, les banderoles et les annonces à la radio, à la télévision et sur les réseaux sociaux attirent les foules par la puissance de Dieu. (Habacuc 2:2)"
+    },
+    {
+     "titre": "Les obstacles",
+     "texte": "Détruisons au nom de Jésus les obstacles sataniques et chassons les esprits qui voudraient empêcher les gens de venir. (Ésaïe 57:14)"
+    },
+    {
+     "titre": "L'incrédulité",
+     "texte": "Chassons les esprits d'incrédulité, d'enchantement et de magie qui s'opposent au salut des âmes à {lieu}. (2 Corinthiens 4:4)"
+    },
+    {
+     "titre": "La faim de la Parole",
+     "texte": "Prions afin que Dieu mette dans les cœurs la faim et la soif de sa Parole, et que le Saint-Esprit convainque les gens en ce qui concerne le péché, la justice et le jugement. (Jean 16:8)"
+    },
+    {
+     "titre": "Le réveil des serviteurs",
+     "texte": "Demandons au Saint-Esprit de souffler un vent de réveil sur les serviteurs et servantes de Dieu de {lieu}. (Habacuc 3:2)"
+    },
+    {
+     "titre": "Les églises",
+     "texte": "Demandons une nouvelle saison de gloire pour chaque église de {lieu} qui confesse réellement Jésus-Christ comme Seigneur. (Aggée 2:9)"
+    }
+   ]
+  },
+  {
+   "num": "5",
+   "titre": "La Parole et la puissance du Saint-Esprit",
+   "sujets": [
+    {
+     "titre": "La bouche du serviteur",
+     "texte": "Prions afin que Dieu mette sa Parole dans la bouche de son serviteur, une parole pleine de grâce, de vérité et de puissance. (Jérémie 1:9)"
+    },
+    {
+     "titre": "Les signes",
+     "texte": "Demandons au Seigneur de confirmer sa Parole par des signes, des prodiges, des guérisons et des délivrances pendant toute la campagne. (Marc 16:20)"
+    },
+    {
+     "titre": "Le feu contre la sorcellerie",
+     "texte": "Appelons le feu de Dieu pour consumer les puissances de magie et de sorcellerie à {lieu} qui s'opposent au salut et à la délivrance des âmes. (Actes 19:18-20)"
+    },
+    {
+     "titre": "La soif de Dieu",
+     "texte": "Prions afin que le Saint-Esprit remplisse les cœurs des habitants de {lieu} de la faim et de la soif de la Parole de Dieu. (Amos 8:11)"
+    },
+    {
+     "titre": "L'aveuglement",
+     "texte": "Détruisons toute puissance d'incrédulité et d'aveuglement spirituel qui contrôle les pensées de beaucoup de personnes à {lieu}. (2 Corinthiens 4:6)"
+    }
+   ]
+  },
+  {
+   "num": "✦",
+   "titre": "Proclamation de victoire et louange",
+   "sujets": [
+    {
+     "titre": "Sous le sang",
+     "texte": "Couvrons toute la ville de {lieu} du sang de Jésus-Christ. (Exode 12:13)"
+    },
+    {
+     "titre": "La croix sur la ville",
+     "texte": "Élevons la croix de Jésus-Christ sur {lieu} et proclamons le salut, la délivrance et la guérison de multitudes d'âmes, et la victoire sur la sorcellerie, la magie, les alliances ancestrales, les esprits de mort et les esprits impurs. (Colossiens 2:15)"
+    },
+    {
+     "titre": "Le peuple de Dieu",
+     "texte": "Proclamons la restauration, la réconciliation, la consolation, la promotion et la bénédiction du peuple de Dieu à {lieu}, le réveil et une saison de gloire dans les églises. (Ésaïe 60:1)"
+    },
+    {
+     "titre": "Merci Seigneur",
+     "texte": "Louons Dieu de nous avoir exaucés au-delà de ce que nous avons demandé ou pensé. (Éphésiens 3:20)"
+    },
+    {
+     "titre": "Adorer",
+     "texte": "Adorons Dieu en déclarant Apocalypse 5:9-10 et 12-14, et le Psaume 103. Chantons au Seigneur le cantique qu'il met dans notre cœur, et terminons en disant : Merci Jésus. (Psaume 103:1-2)"
+    }
+   ]
+  }
+ ],
+ "auteur": "Ministère Règne de Christ",
+ "autorisation": "oui",
+ "source": "Adapté des requêtes d'intercession et de la chaîne de prières de la Croisade Bafoussam 2027 (Ministère Règne de Christ), rendues utilisables pour toute ville.",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "enseignement_lie": "enseignement-personne-n-intercede"
+}

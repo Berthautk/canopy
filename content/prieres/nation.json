@@ -30,5 +30,6 @@
  "auteur": "Nom de l'orateur",
  "autorisation": "oui",
  "date_ajout": "2026-11-14",
- "exemple": true
+ "exemple": true,
+ "enseignement_lie": "enseignement-personne-n-intercede"
 }
