@@ -49,6 +49,13 @@ export function Priere() {
         ))}
       </div>
 
+      <a class="carte ligne" href="#/priere/sommeil" style="margin-top:8px">
+        <span class="ligne__icone"><Icone nom="lune" /></span>
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Prier pour s'endormir</span>
+          <span class="ligne__desc">Un psaume et une courte prière lus doucement, puis la voix s'arrête toute seule.</span></span>
+        <span class="veille-ligne__ouvrir">Ouvrir <Icone nom="chevron" taille={18} /></span>
+      </a>
+
       <h2 class="titre-section">Jeûner et prier pour quelqu'un</h2>
       <a class="carte theme pq-carte" href="#/priere/pour-quelqu-un">
         <img src="/assets/priere/priere-pour-un-malade.webp" alt="" loading="lazy" />

@@ -20,8 +20,16 @@ export function infoEtape(num) {
 const mots = (t) => t.replace(/\n/g, ' ').split(/\s+/).map((m) => m.replace(/^[«"(]+|[»",.;:!?)]+$/g, '')).filter((m) => m.length >= 5 && !MOTS_VIDES.has(m.toLowerCase()) && !/^\d/.test(m));
 const nomLivre = (code) => PAR_CODE[code].nom;
 
-export async function genererEtape(num) {
-  const info = infoEtape(num), alea = generateur('etape-' + num);
+// Défi du jour : 10 questions nouvelles chaque jour, sur un thème tiré au sort (le même pour tous ce jour-là).
+export async function genererDefi(jour) {
+  const alea = generateur('defi-' + jour), k = Math.floor(alea() * THEMES_BIBLE.length);
+  const num = PREMIERE_ETAPE + k;
+  const e = await genererEtape(num, 'defi-' + jour);
+  return { ...e, id: 'defi-' + jour, titre: 'Défi du jour · ' + THEMES_BIBLE[k].nom, questions: e.questions.slice(0, 10) };
+}
+
+export async function genererEtape(num, graine) {
+  const info = infoEtape(num), alea = generateur(graine || 'etape-' + num);
   const refs = [...info.theme.versets, ...melanger(SUJETS.flatMap((s) => s.versets), alea).slice(0, 12), ...melanger(THEMES_BIBLE.flatMap((t) => t.versets), alea).slice(0, 12)];
   const versets = [];
   for (const r0 of refs) {

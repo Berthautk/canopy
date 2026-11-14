@@ -1,5 +1,6 @@
 import { useMemo, useState, useEffect } from 'preact/hooks';
-import { genererEtape, infoEtape, estEtape, numeroEtape, PREMIERE_ETAPE } from '../../jeux/generateur.js';
+import { genererEtape, genererDefi, infoEtape, estEtape, numeroEtape, PREMIERE_ETAPE } from '../../jeux/generateur.js';
+import { aujourdhui } from '../../jeux/hasard.js';
 import { lireAVoixHaute, arreterVoix, voix } from '../../audio/voix.js';
 import { Icone } from '../../composants/Icone.jsx';
 import { NIVEAUX_CHEMIN, QUIZ } from '../../donnees/contenu.js';
@@ -131,7 +132,8 @@ function Partie({ n, k, rejouer }) {
   }
 
   if (fin) {
-    const suivantNiveau = k >= 0 ? (NIVEAUX_CHEMIN[k + 1] || infoEtape(PREMIERE_ETAPE)) : infoEtape(n.num + 1);
+    const suivantNiveau = k === -2 ? null : k >= 0 ? (NIVEAUX_CHEMIN[k + 1] || infoEtape(PREMIERE_ETAPE)) : infoEtape(n.num + 1);
+    const jDefi = k === -2 ? serie(chemin.valeur.jours) : 0;
     return (
       <div class="page">
         <section class={'carte bloc fin-niveau' + (fin.reussi ? ' fin-niveau--gagne' : '')}>
@@ -142,6 +144,7 @@ function Partie({ n, k, rejouer }) {
             ? <p class="fin-niveau__etoiles">{[1, 2, 3].map((j) => <span class={j <= fin.etoiles ? 'pleine' : ''} style={{ animationDelay: j * 0.25 + 's' }}>★</span>)}</p>
             : <p>Tu as perdu tes 3 vies. Ce n'est pas grave : relis les explications et réessaie, chaque partie te fait grandir.</p>}
           <p class="fin-niveau__xp">+{fin.gain} points</p>
+          {k === -2 && <p class="carte bloc" style="margin:8px 0">🔥 {jDefi > 1 ? `${jDefi} jours de suite ! Reviens demain pour le prochain défi.` : 'Reviens demain pour un nouveau défi !'} <span class="ligne__desc" style="display:block">Si tu manques un jour, ce n'est pas grave : ta série recommence, simplement.</span></p>}
           {fin.nouveauRang && <div class="carte nouveau-rang"><b>Nouveau rang : {fin.nouveauRang.nom} !</b><br />{fin.nouveauRang.desc}</div>}
           {fin.record && <p class="ligne__desc">Nouveau record d'étoiles pour ce niveau !</p>}
           <CarteRang compacte />
@@ -193,4 +196,19 @@ function Partie({ n, k, rejouer }) {
       )}
     </div>
   );
+}
+
+// Défi biblique du jour : 10 questions nouvelles chaque jour, avec une série douce (aucune pénalité si on manque un jour).
+export function DefiDuJour() {
+  const j = aujourdhui();
+  const [d, setD] = useState(null);
+  const [partie, setPartie] = useState(0);
+  useEffect(() => { genererDefi(j).then(setD).catch(() => setD({ erreur: true })); }, [j]);
+  if (!d) return <div class="page"><p class="verset__attente" style="margin-top:16px">Préparation du défi du jour…</p></div>;
+  if (d.erreur) return <div class="page"><p class="verset__erreur" style="margin-top:16px">Pour le défi du jour, la Bible doit être sur ce téléphone : connectez-vous une fois, ou téléchargez-la dans l'onglet Bible.</p></div>;
+  const deja = (chemin.valeur.etoiles[d.id] || 0) > 0;
+  return <>
+    {deja && partie === 0 && <div class="page"><p class="guide-phase" style="margin-top:12px"><Icone nom="verifie" taille={18} /><span>Tu as déjà relevé le défi d'aujourd'hui. Tu peux rejouer pour faire mieux ; un nouveau défi arrive demain.</span></p></div>}
+    <Partie key={d.id + '-' + partie} n={{ ...d, num: undefined }} k={-2} rejouer={() => setPartie(partie + 1)} />
+  </>;
 }

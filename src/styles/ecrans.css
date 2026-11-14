@@ -702,3 +702,14 @@
 .pq-carte { border: 2px solid var(--or); }
 .categorie-priere__voir { margin-left: auto; font-size: .78rem; font-weight: 700; color: var(--or-fonce); }
 .etape-commandes--collant { position: sticky; top: calc(108px + env(safe-area-inset-top)); z-index: 12; background: var(--fond); padding: 8px 0; margin: 8px 0 0; }
+/* Prier pour s'endormir */
+.sommeil__tete { text-align: center; padding: 18px 12px; margin-top: 12px; border-radius: 18px; background: linear-gradient(160deg, #142340, #2a3a6b); color: #e8ecf7; }
+.sommeil__tete h2 { color: #fff; margin: 6px 0; }
+.sommeil__tete p { margin: 0; line-height: 1.5; font-size: .92rem; }
+.sommeil__choix { width: 100%; text-align: left; color: var(--titre); }
+.sommeil__choix--actif { border: 2px solid var(--or); }
+.sommeil__psaume p { margin: 0 0 6px; line-height: 1.6; font-family: var(--police-verset, serif); }
+.sommeil__psaume sup { color: var(--or-fonce); }
+.memoriser__verset p:first-child { font-family: var(--police-verset, serif); font-size: 1.15rem; line-height: 1.8; }
+.memoriser__trou { color: var(--or-fonce); letter-spacing: 1px; }
+.memoriser__curseur { color: var(--or); font-weight: 700; }

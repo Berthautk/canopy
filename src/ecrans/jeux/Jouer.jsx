@@ -10,7 +10,7 @@ export const TOUTES = () => QUIZ.flatMap((t) => t.questions.map((q) => ({ ...q, 
 const NIVEAUX = [['facile', 'Facile'], ['moyen', 'Moyen'], ['expert', 'Expert']];
 
 const TUILES = [
-  ['jouer/themes', 'Quiz par thème', 'liste'], ['jouer/complete', 'Complète le verset', 'note'], ['jouer/qui-suis-je', 'Qui suis-je ?', 'recherche'],
+  ['jouer/memoriser', 'Mémoriser un verset', 'coeur'], ['jouer/quiz-du-jour', 'Quiz du jour', 'trophee'], ['jouer/themes', 'Quiz par thème', 'liste'], ['jouer/complete', 'Complète le verset', 'note'], ['jouer/qui-suis-je', 'Qui suis-je ?', 'recherche'],
   ['jouer/ordre', 'Remets dans l\'ordre', 'trier'], ['jouer/duel', 'Duel à deux', 'groupe'], ['jouer/badges', 'Mes badges', 'etoile'],
 ];
 
@@ -28,14 +28,14 @@ export function Jouer() {
       <a class="carte chemin-entree" href="#/jouer/chemin">
         <span class="chemin-entree__icone" aria-hidden="true">🗺️</span>
         <span class="ligne__corps"><span class="ligne__titre" style="display:block;font-size:1.15rem">Le Chemin de la foi</span>
-          <span class="ligne__desc">10 niveaux de la Genèse à l'Apocalypse · vies, étoiles et rangs</span></span>
+          <span class="ligne__desc">De la Genèse à l'Apocalypse, puis des étapes sans fin · vies, étoiles et rangs</span></span>
         <Icone nom="chevron" taille={22} />
       </a>
       <CarteRang compacte />
-      <a class="carte quiz-du-jour" href="#/jouer/quiz-du-jour">
+      <a class="carte quiz-du-jour" href="#/jouer/defi">
         <span class="quiz-du-jour__icone"><Icone nom="trophee" taille={34} /></span>
-        <span class="ligne__corps"><span class="ligne__titre" style="display:block;font-size:1.15rem">Quiz du jour</span>
-          <span class="ligne__desc">{fait ? 'Déjà fait aujourd\'hui : tu peux rejouer !' : '10 questions pour nourrir ta foi'}</span></span>
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block;font-size:1.15rem">Défi biblique du jour</span>
+          <span class="ligne__desc">10 questions nouvelles chaque jour, tirées de la Bible</span></span>
         <Icone nom="chevron" taille={22} />
       </a>
       <div class="grille-jeux">
