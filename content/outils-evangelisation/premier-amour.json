@@ -1,0 +1,104 @@
+{
+ "id": "outil-premier-amour",
+ "ordre": 3,
+ "titre": "Reviens à ton premier amour",
+ "resume": "Un message pour ceux qui ont connu Jésus et qui se sont refroidis ou éloignés : souviens-toi, repens-toi, reviens. Le Père t'attend.",
+ "image": "/assets/evangelisation/etreinte.webp",
+ "duree_estimee": "15 min",
+ "conseil": "Ce message s'adresse à quelqu'un qui a déjà suivi Jésus et qui s'est éloigné : il ne prie plus, ne va plus à l'église, est retourné à d'anciens péchés ou s'est simplement refroidi. Parle sans condamner, avec la tendresse du Père.",
+ "video": "https://youtu.be/xqiU1wvZOmw",
+ "decision": {
+  "bouton": "J'ai prié pour revenir à Jésus",
+  "evenement": "retour",
+  "message": "Bon retour à la maison ! Le Père se réjouit."
+ },
+ "etapes": [
+  {
+   "image": "/assets/temoignage/joie-bible-contre-coeur.webp",
+   "titre": "1. Te souviens-tu ?",
+   "texte": [
+    "Te souviens-tu du jour où tu as rencontré Jésus ? Peut-être que tu pleurais de joie. Tu avais faim de la Bible, tu priais avec ferveur, tu parlais de lui à tout le monde. Tu n'avais pas besoin qu'on te pousse pour aller à l'église : tu y courais. Tu aimais Jésus, et tu savais qu'il t'aimait.",
+    "Dieu, lui, s'en souvient. Par le prophète Jérémie, il disait à son peuple : je me souviens de ton amour lorsque tu étais jeune, quand tu me suivais au désert. Dieu n'a pas oublié ces moments. Il les garde comme un père garde le souvenir des premiers pas de son enfant."
+   ],
+   "versets": [
+    "Jr 2:2"
+   ]
+  },
+  {
+   "image": "/assets/personnages/homme-lunettes-reflexion.webp",
+   "titre": "2. Que s'est-il passé ?",
+   "texte": [
+    "Et aujourd'hui ? Peut-être que la prière est devenue rare, la Bible reste fermée, l'église n'est plus qu'un souvenir. Peut-être que d'anciens péchés sont revenus. Peut-être qu'une blessure, une déception dans l'église, une épreuve, un deuil ou simplement les soucis de la vie t'ont éloigné petit à petit.",
+    "Ce refroidissement arrive rarement d'un coup. C'est comme un feu qu'on ne nourrit plus : il ne s'éteint pas en une minute, mais les braises deviennent de plus en plus pâles. Jésus avait prévenu que, parce que l'iniquité se serait accrue, la charité du plus grand nombre se refroidirait.",
+    "À l'Église d'Éphèse, une église active, qui travaillait dur et qui supportait les difficultés, Jésus a dit : ce que j'ai contre toi, c'est que tu as abandonné ton premier amour. On peut continuer certaines activités religieuses et avoir pourtant perdu l'essentiel : l'amour pour Jésus lui-même."
+   ],
+   "versets": [
+    "Mt 24:12",
+    "Ap 2:4"
+   ]
+  },
+  {
+   "image": "/assets/jesus/jesus-main-tendue.webp",
+   "titre": "3. Jésus ne t'a pas abandonné",
+   "texte": [
+    "Écoute bien ceci : même si tu t'es éloigné de Jésus, lui ne s'est pas éloigné de toi. Il te connaît, il sait ce que tu as traversé, il sait pourquoi tu es tombé. Et il t'aime encore.",
+    "Pense à Pierre. Il avait juré qu'il ne laisserait jamais tomber Jésus, et la même nuit il l'a renié trois fois. Alors le Seigneur s'est retourné et a regardé Pierre. Ce n'était pas un regard de condamnation, c'était un regard d'amour. Pierre est sorti et il a pleuré amèrement.",
+    "Après sa résurrection, Jésus est venu chercher Pierre au bord du lac. Il ne lui a pas fait de reproches. Il lui a posé trois fois la même question : m'aimes-tu ? Trois questions pour effacer trois reniements. Et il lui a redonné sa mission. Ce que Jésus a fait pour Pierre, il veut le faire pour toi aujourd'hui."
+   ],
+   "versets": [
+    "Lc 22:61-62",
+    "Jn 21:17"
+   ]
+  },
+  {
+   "image": "/assets/priere/priere-avec-larmes.webp",
+   "titre": "4. Souviens-toi, repens-toi, reviens",
+   "texte": [
+    "Jésus donne à l'Église d'Éphèse trois mots pour revenir. Le premier : souviens-toi. Souviens-toi d'où tu es tombé. Ne te mens pas à toi-même ; regarde honnêtement ta vie, et reconnais la distance qu'il y a entre ton premier amour et ce que tu vis aujourd'hui.",
+    "Le deuxième : repens-toi. Se repentir, c'est reconnaître devant Dieu : j'ai péché, je me suis éloigné, j'ai mis d'autres choses à ta place. C'est confesser ce qui t'a éloigné, sans excuses, et décider de t'en détourner. Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner.",
+    "Le troisième : pratique tes premières œuvres. Reviens à ce que tu faisais au début : prier chaque jour, lire la Parole, retrouver la communion des frères et sœurs, adorer, témoigner. L'amour se nourrit de la présence. Approchez-vous de Dieu, et il s'approchera de vous."
+   ],
+   "versets": [
+    "Ap 2:5",
+    "1 Jn 1:9",
+    "Jc 4:8"
+   ]
+  },
+  {
+   "image": "/assets/evangelisation/etreinte.webp",
+   "titre": "5. Le Père court vers toi",
+   "texte": [
+    "Tu as peut-être peur de revenir. Tu te dis : j'ai trop déçu Dieu, je ne mérite plus rien, que vont dire les autres ? C'est exactement ce que pensait le fils prodigue. Il préparait un discours pour être accepté comme un simple serviteur.",
+    "Mais regarde le père : comme son fils était encore loin, il le vit, fut ému de compassion, courut se jeter à son cou et l'embrassa. Il ne l'a pas laissé finir son discours ; il lui a rendu la robe, l'anneau et les souliers, et il a fait une fête.",
+    "Dieu dit : revenez à moi, et je reviendrai à vous. Il ne se lasse pas de pardonner. Ses bontés ne sont pas épuisées ; elles se renouvellent chaque matin. Aujourd'hui est un nouveau matin pour toi."
+   ],
+   "versets": [
+    "Lc 15:20",
+    "Ml 3:7",
+    "Lm 3:22-23"
+   ]
+  },
+  {
+   "image": "/assets/temoignage/nouveau-depart.webp",
+   "titre": "6. Aujourd'hui, reviens",
+   "texte": [
+    "La Bible dit : exhortez-vous les uns les autres chaque jour, aussi longtemps qu'on peut dire : aujourd'hui, afin qu'aucun de vous ne s'endurcisse par la séduction du péché. Ne remets pas ton retour à plus tard. Le cœur s'endurcit quand on repousse sans cesse l'appel de Dieu.",
+    "Jésus se tient encore à la porte de ton cœur, et il frappe. Il veut entrer de nouveau, souper avec toi, rallumer le feu. Veux-tu lui ouvrir ? Si tu le veux, prie maintenant avec moi la prière qui suit."
+   ],
+   "versets": [
+    "Hé 3:13",
+    "Ap 3:20"
+   ]
+  }
+ ],
+ "priere": "Seigneur Jésus, je reviens à toi. Je me souviens du jour où je t'ai rencontré, et je reconnais que je me suis éloigné. J'ai abandonné mon premier amour, j'ai laissé d'autres choses prendre ta place, et je suis retombé dans le péché. Pardonne-moi. Je me repens et je me détourne de tout ce qui m'a éloigné de toi. Merci parce que tu ne m'as pas abandonné et que tu me reçois encore. Rends-moi la joie de ton salut. Rallume en moi le feu de ton amour, la faim de ta Parole et le désir de prier. Je t'ouvre à nouveau la porte de mon cœur : reviens habiter en moi et conduis ma vie. Au nom de Jésus. Amen.",
+ "apres": [
+  "Si tu as prié avec sincérité, Dieu t'a pardonné et te reçoit. Ne laisse pas la honte du passé te retenir : le Père fait la fête pour ton retour.",
+  "Recommence simplement : un moment de prière chaque jour, un passage de la Bible, et retourne dès cette semaine dans une église où l'on aime Jésus. Dis à un frère ou une sœur de confiance que tu es revenu, pour qu'il prie avec toi.",
+  "Les moments de prière guidés et l'enseignement « Le salut, ce que Dieu a fait pour toi » peuvent t'aider à repartir."
+ ],
+ "source": "Message rédigé pour Yeshaya à partir de l'Écriture (Apocalypse 2:4-5, Luc 15, Jean 21). Pour aller plus loin, voir le message vidéo du pasteur Abel Nkomba.",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "video_auteur": "Pasteur Abel Nkomba"
+}

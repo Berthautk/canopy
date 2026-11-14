@@ -9,6 +9,8 @@ import { arreterVoix } from '../../audio/voix.js';
 import { notifier } from '../../composants/Notification.jsx';
 import { partager } from '../../outils/partage.js';
 import { Presentation } from '../../composants/Presentation.jsx';
+import { LienVideo } from '../../composants/LienVideo.jsx';
+import { compter } from '../../donnees/mesure.js';
 
 // Outil d'évangélisation en images (ex. « Le cœur de l'homme ») : une image, puis l'explication, étape par étape.
 // Tout le texte peut être écouté ; la prière de conversion termine la présentation.
@@ -17,6 +19,7 @@ export function Outil({ id }) {
   const p = useSignal(parcours);
   const va = useVoixActive(o?.id);
   const [diapo, setDiapo] = useState(false);
+  const [fait, setFait] = useState(false);
   const [ordre, setOrdre] = useState(o?.ordres ? Object.keys(o.ordres)[0] : null);
   if (!o) return <div class="page"><p class="ligne__desc">Contenu introuvable.</p></div>;
 
@@ -52,9 +55,8 @@ export function Outil({ id }) {
       <BarreEcoute key={ordre} id={o.id} titre="Écouter toute la présentation" blocs={blocs} />
       {diapo && <Presentation id={o.id} titre={o.titre} fermer={() => setDiapo(false)}
         diapos={[...etapes.map((e) => ({ image: e.image, titre: e.titre, blocs: [blocs[e.iTitre], ...e.iTextes.map((i) => blocs[i]), ...e.iVersets.map((i) => blocs[i])] })),
-          { image: etapes[etapes.length - 1].image, titre: 'Prière pour recevoir Jésus', blocs: [blocs[iIntro], blocs[iPriere]] }]}
-        finale={p.decision ? null : <button class="bouton bouton--or" style="width:100%;margin:8px 0" onClick={() => { noterDecision(o.id); notifier('Bienvenue dans la famille de Dieu !'); }}>
-          <Icone nom="coeur" taille={20} /> J'ai prié pour recevoir le Seigneur Jésus</button>} />}
+          { image: etapes[etapes.length - 1].image, titre: o.decision ? 'Prière' : 'Prière pour recevoir Jésus', blocs: [blocs[iIntro], blocs[iPriere]] }]}
+        finale={<BoutonDecision o={o} p={p} fait={fait} setFait={setFait} style="width:100%;margin:8px 0" classe="bouton bouton--or" />} />}
 
       {etapes.map((e) => (
         <section class="carte etape-outil">
@@ -68,24 +70,33 @@ export function Outil({ id }) {
       ))}
 
       <section class="carte bloc priere-modele" {...va(iPriere)}>
-        <h3><span class="ligne__icone"><Icone nom="priere" /></span> Prière pour recevoir Jésus</h3>
+        <h3><span class="ligne__icone"><Icone nom="priere" /></span> {o.decision ? 'Prière' : 'Prière pour recevoir Jésus'}</h3>
         <p class="ligne__desc" {...va(iIntro)}>Prions ensemble. Répète après moi, du fond de ton cœur.</p>
         <p><em>{o.priere}</em></p>
       </section>
-      {p.decision
-        ? <p class="carte bloc" style="text-align:center"><Icone nom="verifie" /> Tu as noté le {new Date(p.decision).toLocaleDateString('fr-FR')} que tu as donné ta vie à Jésus. Bienvenue dans la famille de Dieu !</p>
-        : <button class="bouton bouton--plein" style="width:100%;margin-top:12px" onClick={() => { noterDecision(o.id); notifier('Bienvenue dans la famille de Dieu !'); }}>
-            <Icone nom="coeur" taille={20} /> J'ai prié pour recevoir le Seigneur Jésus</button>}
+      <BoutonDecision o={o} p={p} fait={fait} setFait={setFait} style="width:100%;margin-top:12px" classe="bouton bouton--plein" />
       <section class="carte bloc article" style="margin-top:12px">
         <h3>Et maintenant ?</h3>
         {o.apres.map((t, k) => <p {...va(iApres[k])}>{t}</p>)}
         <a class="bouton bouton--plein" href="#/grandir/enseignement/affermissement-1-le-salut" style="width:100%">Grandir : « Le salut, ce que Dieu a fait pour toi »</a>
         <a class="bouton bouton--contour" href="#/grandir/nouveau-converti" style="width:100%;margin-top:8px">Commencer le parcours « Nouveau converti »</a>
       </section>
+      {o.video && <LienVideo url={o.video} auteur={o.video_auteur} />}
       <div class="verset__actions" style="justify-content:center;margin-top:12px">
         <button class="bouton bouton--contour bouton--petit" onClick={() => partager({ titre: o.titre, texte: o.resume, chemin: 'evangeliser/outil/' + o.id })}><Icone nom="partager" taille={18} /> Partager</button>
       </div>
       {o.source && <p class="source-mention">{o.source}</p>}
     </div>
   );
+}
+
+// « J'ai prié… » : décision pour Jésus (par défaut) ou autre engagement défini par le contenu (ex. revenir à Jésus).
+function BoutonDecision({ o, p, fait, setFait, style, classe }) {
+  const d = o.decision;
+  if (!d) return p.decision
+    ? <p class="carte bloc" style="text-align:center"><Icone nom="verifie" /> Tu as noté le {new Date(p.decision).toLocaleDateString('fr-FR')} que tu as donné ta vie à Jésus. Bienvenue dans la famille de Dieu !</p>
+    : <button class={classe} style={style} onClick={() => { noterDecision(o.id); notifier('Bienvenue dans la famille de Dieu !'); }}><Icone nom="coeur" taille={20} /> J'ai prié pour recevoir le Seigneur Jésus</button>;
+  return fait
+    ? <p class="carte bloc" style="text-align:center"><Icone nom="verifie" /> {d.message}</p>
+    : <button class={classe} style={style} onClick={() => { compter(d.evenement, o.id); setFait(true); notifier(d.message); }}><Icone nom="coeur" taille={20} /> {d.bouton}</button>;
 }

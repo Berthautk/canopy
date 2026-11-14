@@ -8,7 +8,7 @@ const TYPES = [
   ['enseignement', 'Enseignements', ENSEIGNEMENTS], ['veille', 'Veilles de prière', VEILLES.map((v) => ({ ...v, id: v.id.replace('veille-', '') }))],
   ['theme-priere', 'Thèmes de prière', PRIERES], ['combat', 'Combat spirituel', COMBAT], ['outil', 'Présenter l\'Évangile', OUTILS],
   ['approche', 'Approches d\'évangélisation', APPROCHES], ['article', 'Articles (évangéliser)', EVANGELISATION], ['dialogue', 'Dialogues', DIALOGUES],
-  ['parcours', 'Parcours (jours suivis)', []], ['j-ai-prie', '« J\'ai prié » (moments terminés)', [...PRIERES, ...VEILLES, ...COMBAT]], ['jeu', 'Jeux', []],
+  ['parcours', 'Parcours (jours suivis)', []], ['j-ai-prie', '« J\'ai prié » (moments terminés)', [...PRIERES, ...VEILLES, ...COMBAT]], ['jeu', 'Jeux', []], ['questions-reussies', 'Enseignements compris (questions réussies)', ENSEIGNEMENTS],
 ];
 const propre = (s) => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9-]+/g, '-').replace(/^-+|-+$/g, '');
 const nomDe = (liste, id) => liste.find((x) => propre(x.id) === id)?.titre || id;
@@ -67,7 +67,9 @@ export function Admin() {
       <p class="ligne__desc" style="margin:8px 4px">Depuis le {new Date(etat.depuis).toLocaleDateString('fr-FR')}.</p>
       <div class="admin__chiffres">
         <div class="carte"><b>{nombre(decisions)}</b><span>ont dit avoir donné leur vie à Jésus</span></div>
+        <div class="carte"><b>{nombre(total((c) => c.startsWith('retour:')))}</b><span>ont prié pour revenir à Jésus</span></div>
         <div class="carte"><b>{nombre(total((c) => c === 'sujet-prie'))}</b><span>sujets de prière priés</span></div>
+        <div class="carte"><b>{nombre(total((c) => c === 'demande-priere'))}</b><span>demandes de prière envoyées</span></div>
         <div class="carte"><b>{nombre(total((c) => c.startsWith('enseignement:')))}</b><span>enseignements ouverts</span></div>
         <div class="carte"><b>{nombre(total((c) => c.startsWith('enseignement-fini:')))}</b><span>enseignements terminés</span></div>
       </div>
