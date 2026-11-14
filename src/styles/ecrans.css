@@ -636,3 +636,19 @@
 .priere-guidee__lancer--fort .ligne__desc { color: #3a3320; }
 .priere-guidee__lancer--fort .priere-guidee__icone { background: var(--bleu-nuit, #142340); color: var(--or); }
 .priere-guidee .priere-guidee__corps { justify-content: safe center; }
+
+/* Grandir : niveaux qui montent */
+.niveaux { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 14px; }
+.niveau-onglet { display: grid; gap: 2px; text-align: left; padding: 10px 12px; border-radius: 14px; border: 1.5px solid var(--bord); background: var(--surface); color: var(--titre); }
+.niveau-onglet b { font-family: var(--police-titre); font-size: .98rem; }
+.niveau-onglet span { font-size: .76rem; color: var(--texte-doux); line-height: 1.25; }
+.niveau-onglet[aria-selected='true'] { background: var(--bleu-nuit, #142340); border-color: var(--bleu-nuit, #142340); color: #fff; }
+.niveau-onglet[aria-selected='true'] span { color: #DCE3EE; }
+.niveau-onglet--tout { grid-column: 1 / -1; grid-template-columns: auto 1fr; column-gap: 10px; align-items: center; }
+.niveau-onglet--tout .niveau-onglet__marche { grid-row: span 2; }
+.niveau-onglet__marche { display: flex; align-items: flex-end; gap: 2px; height: 16px; margin-bottom: 4px; color: var(--or); }
+.niveau-onglet__marche i { display: block; width: 8px; background: var(--or); border-radius: 2px; }
+.niveau-onglet__marche i:nth-child(1) { height: 5px; } .niveau-onglet__marche i:nth-child(2) { height: 9px; }
+.niveau-onglet__marche i:nth-child(3) { height: 13px; } .niveau-onglet__marche i:nth-child(4) { height: 16px; }
+.niveau-description { margin: 12px 4px; line-height: 1.5; color: var(--texte); }
+.enseignement__num { display: inline-grid; place-items: center; min-width: 22px; height: 22px; padding: 0 4px; margin-right: 6px; border-radius: 11px; background: var(--or); color: var(--bleu-nuit, #142340); font-size: .75rem; vertical-align: 1px; }

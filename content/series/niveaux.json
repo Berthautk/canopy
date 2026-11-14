@@ -1,0 +1,37 @@
+{
+ "id": "niveaux-grandir",
+ "niveaux": [
+  {
+   "id": "fondations",
+   "nom": "Fondations",
+   "sous_titre": "Nouveau converti et affermissement",
+   "description": "Pour bien commencer : comprendre le salut, la différence entre être religieux et être chrétien, le sens de la croix, et poser les bases de la marche avec Jésus.",
+   "parcours": ["decouvrir-jesus", "nouveau-converti", "formation", "disciple"],
+   "enseignements": ["enseignement-religieux-ou-chretien", "enseignement-sens-de-la-croix", "affermissement-1-le-salut", "affermissement-2-assurance-du-salut", "affermissement-3-la-tentation", "affermissement-4-jesus-seigneur", "affermissement-5-vivre-par-l-esprit", "affermissement-6-dieu-me-parle", "affermissement-7-je-parle-a-dieu", "affermissement-8-rendez-vous-quotidien", "affermissement-9-mon-eglise-locale", "enseignement-exemple-1", "classique-spurgeon-regardez-a-moi", "classique-spurgeon-repentance-qui-mene-a-la-vie", "classique-spurgeon-le-sang"]
+  },
+  {
+   "id": "maturite-1",
+   "nom": "Maturité 1",
+   "sous_titre": "Marcher avec Dieu",
+   "description": "La prière, la Parole, le jeûne et la foi : apprendre à vivre chaque jour dans la communion avec Dieu.",
+   "parcours": [],
+   "enseignements": ["classique-murray-enseigne-nous-a-prier", "classique-murray-2-en-esprit-et-en-verite", "classique-murray-3-seul-avec-dieu", "classique-murray-4-le-notre-pere", "enseignement-exemple-2", "enseignement-exemple-3", "classique-bounds-dieu-cherche-des-hommes", "classique-bounds-2-la-lettre-tue", "classique-bounds-3-parler-a-dieu-pour-les-hommes", "classique-bounds-4-la-priere-avant-la-parole", "enseignement-jeune-biblique", "enseignement-nuit-de-priere", "enseignement-retraite-spirituelle", "enseignement-doctrine-baptemes"]
+  },
+  {
+   "id": "maturite-2",
+   "nom": "Maturité 2",
+   "sous_titre": "Le caractère de Christ et le combat",
+   "description": "La sanctification commence : ce n'est pas la religion ni les œuvres, c'est Christ formé en nous. L'intégrité, la douceur, le combat spirituel et le service.",
+   "parcours": ["orizon"],
+   "enseignements": ["enseignement-sanctification", "enseignement-fidele-petites-choses", "classique-spurgeon-doux-et-humble", "enseignement-combat-spirituel-2", "enseignement-ruses-malin", "enseignement-ko-ennemi", "enseignement-origine-demons", "enseignement-differents-cieux", "enseignement-evangelisation", "classique-spurgeon-contrains-les-d-entrer"]
+  },
+  {
+   "id": "maturite-3",
+   "nom": "Maturité 3",
+   "sous_titre": "Sainteté et consécration",
+   "description": "Pour le chrétien qui pense être exemplaire : les péchés que la conscience ne reproche plus, la désobéissance au Saint-Esprit, le corps temple de Dieu. Des enseignements qui sondent le cœur.",
+   "parcours": [],
+   "enseignements": ["enseignement-peches-subtils", "enseignement-attrister-l-esprit", "enseignement-corps-temple"]
+  }
+ ]
+}
