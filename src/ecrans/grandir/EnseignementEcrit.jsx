@@ -1,3 +1,4 @@
+import { illustrations } from '../../donnees/illustrations.js';
 import { Icone } from '../../composants/Icone.jsx';
 import { CarteVerset } from '../../composants/Verset.jsx';
 import { TexteRefs } from '../../composants/TexteRefs.jsx';
@@ -41,6 +42,7 @@ export function EnseignementEcrit({ id }) {
   if (etat.erreur) return <div class="page"><p class="verset__erreur" style="margin-top:16px">Cet enseignement n'est pas encore sur votre téléphone. Connectez-vous une fois pour l'ouvrir : il restera ensuite disponible hors ligne.</p></div>;
   if (!e) return <div class="page"><p class="ligne__desc">Enseignement introuvable.</p></div>;
   const { blocs, pos } = plan(e);
+  const imgs = illustrations(e);
   return (
     <div class="page enseignement-ecrit">
       <div class="theme-hero"><img src={e.image} alt="" />
@@ -58,6 +60,7 @@ export function EnseignementEcrit({ id }) {
       {e.introduction && <section class="carte bloc" {...va(pos.intro)}><h3><span class="ligne__icone"><Icone nom="info" /></span> Introduction</h3><p><TexteRefs texte={e.introduction} /></p></section>}
       {e.sections.map((s, i) => (
         <section class="section-ens" id={'point-' + s.numero}>
+          <img class="section-ens__image" src={imgs[i]} alt="" loading="lazy" />
           <div {...va(pos[`s${i}`])}>
             {s.transition && <p class="section-ens__transition"><TexteRefs texte={s.transition} /></p>}
             <h2 class="phase__titre"><span class="phase__num">{s.numero}</span>{s.titre}</h2>

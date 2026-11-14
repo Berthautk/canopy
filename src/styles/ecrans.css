@@ -677,3 +677,4 @@
 .orizon-etape--fermee { opacity: .45; }
 .orizon-case--fermee { opacity: .35; filter: grayscale(1); }
 .orizon-attente { display: flex; gap: 8px; align-items: flex-start; margin: 0; padding: 10px; border-radius: 12px; background: var(--surface-2, #f3ead6); }
+.section-ens__image { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 16px; margin: 18px 0 10px; box-shadow: var(--ombre); }
