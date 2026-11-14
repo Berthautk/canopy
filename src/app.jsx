@@ -27,6 +27,7 @@ import { Grandir } from './ecrans/grandir/Grandir.jsx';
 import { Parcours, PARCOURS } from './ecrans/grandir/NouveauConverti.jsx';
 import { Evangeliser, Article } from './ecrans/evangeliser/Evangeliser.jsx';
 import { Dialogue } from './ecrans/evangeliser/Dialogue.jsx';
+import { PourQuelquun } from './ecrans/priere/PourQuelquun.jsx';
 import { Conversation } from './ecrans/evangeliser/Conversation.jsx';
 import { MonTemoignage } from './ecrans/evangeliser/MonTemoignage.jsx';
 import { Outil } from './ecrans/evangeliser/Outil.jsx';
@@ -77,6 +78,7 @@ function titre([a, b, c]) {
   }[b] ?? (b ? 'Jouer et apprendre' : null);
   if (a === 'telechargements') return 'Mes téléchargements';
   if (a === 'ecouter') return 'Écouter';
+  if (a === 'priere' && b === 'pour-quelqu-un') return c === 'jour' ? 'Prier pour quelqu\'un · Jour ' + arguments[0][3] : "Jeûner et prier pour quelqu'un";
   if (a === 'priere' && b === 'journal') return 'Mon journal de prière';
   if (a === 'priere' && b === 'theme') return PRIERES.find((x) => x.id === c)?.nom_court ?? PRIERES.find((x) => x.id === c)?.titre ?? 'Prière';
   if (a === 'priere' && b === 'veille') return VEILLES.find((x) => x.id === 'veille-' + c)?.titre ?? 'Prier';
@@ -112,7 +114,7 @@ function Ecran({ r }) {
   if (a === 'telechargements') return <Telechargements />;
   if (a === 'jouer') return ({ 'quiz-du-jour': <QuizDuJour />, themes: <QuizThemes theme={c} niveau={d} />, complete: <CompleteVerset />,
     'qui-suis-je': <QuiSuisJe />, ordre: <Ordre id={c} />, duel: <Duel />, badges: <Badges />, chemin: c ? <NiveauChemin id={c} /> : <CheminFoi /> })[b] ?? <Jouer />;
-  if (a === 'priere') return b === 'demander' ? <DemanderPriere /> : b === 'journal' ? <Journal nouveau={r.params.nouveau} /> : b === 'theme' ? <ThemePriere id={c} guide={r.params.guide === '1'} /> : b === 'veille' ? <Veille id={c} guide={r.params.guide === '1'} /> : b === 'combat' ? <FicheCombat id={c} guide={r.params.guide === '1'} /> : <Priere />;
+  if (a === 'priere') return b === 'demander' ? <DemanderPriere /> : b === 'journal' ? <Journal nouveau={r.params.nouveau} /> : b === 'theme' ? <ThemePriere id={c} guide={r.params.guide === '1'} /> : b === 'veille' ? <Veille id={c} guide={r.params.guide === '1'} /> : b === 'combat' ? <FicheCombat id={c} guide={r.params.guide === '1'} /> : b === 'pour-quelqu-un' ? <PourQuelquun jour={c === 'jour' ? r.segments[3] : null} /> : <Priere />;
   if (a === 'grandir') return PARCOURS[b] ? <Parcours id={b} jour={c} /> : b === 'enseignement' ? <EnseignementEcrit id={c} /> : b === 'formation' ? <Formation /> : <Grandir />;
   if (a === 'evangeliser') return b === 'article' ? <Article id={c} /> : b === 'dialogue' ? <Dialogue id={c} /> : b === 'outil' ? <Outil id={c} /> : b === 'conversation' ? <Conversation id={c} /> : b === 'temoignage' ? <MonTemoignage /> : b === 'approche' ? <Approche id={c} /> : <Evangeliser />;
   if (a === 'ecouter') return <Ecouter id={b} />;

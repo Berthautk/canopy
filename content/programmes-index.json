@@ -1,0 +1,181 @@
+{
+ "id": "pour-quelqu-un",
+ "titre": "Jeûner et prier pour quelqu'un",
+ "resume": "Pour un parent, un frère, une sœur ou un ami malade, ou qui traverse une situation difficile. Un jour, une prière : tu écris son prénom, et chaque jour l'application te dit quoi lire, quoi proclamer et pour quoi prier.",
+ "source": "Ces fiches ont été écrites et utilisées pour Magloire SIMEU, gravement malade, par son épouse et un frère qui priaient avec lui. Dieu a répondu : il va bien. Elles sont adaptées ici pour que d'autres puissent prier de la même manière.",
+ "etapes": [
+  {
+   "id": "jeune-21",
+   "titre": "21 jours de jeûne et de prière",
+   "court": "21 jours de jeûne",
+   "duree": 21,
+   "description": "Le combat de départ, quand la situation est grave. Chaque jour : un texte, une méditation, sept proclamations le matin, un cri pendant la journée de jeûne, et une prière le soir.",
+   "intro": [
+    {
+     "t": "h",
+     "x": "Au seuil de ces vingt et un jours"
+    },
+    {
+     "t": "p",
+     "x": "Tu t'engages dans un combat de foi pour {nom}. Peut-être n'as-tu jamais jeûné : n'aie aucune crainte. Dieu ne demande pas des spécialistes, mais des cœurs qui se tournent vers lui. Tant qu'il y a un Dieu vivant, il y a de l'espérance. Nous ne fixons pas les yeux sur la peur, mais sur celui qui tient la vie dans sa main."
+    },
+    {
+     "t": "p",
+     "x": "La démarche suit trois forces que le Seigneur met à notre disposition. D'abord nous prions : nous parlons à Dieu (semaine 1). Quand l'épreuve résiste, nous crions à Dieu de toute notre âme (semaine 2). Et quand il faut engager la pleine mesure du combat, nous jeûnons, car certaines situations ne cèdent, selon la parole de Jésus, que par la prière et le jeûne (semaine 3)."
+    },
+    {
+     "t": "cit",
+     "x": "« Le Fils de Dieu a paru afin de détruire les œuvres du diable. » 1 Jean 3:8"
+    },
+    {
+     "t": "h",
+     "x": "Comment jeûner, surtout si tu n'as jamais jeûné"
+    },
+    {
+     "t": "li",
+     "x": "De 6 h à 18 h, on s'abstient de nourriture pour consacrer ce temps à Dieu. L'eau n'est pas interdite : bois régulièrement."
+    },
+    {
+     "t": "li",
+     "x": "Les premiers jours, la faim, un peu de mal de tête ou de fatigue sont normaux. Transforme chaque sensation de faim en prière : chaque fois que ton ventre crie, crie à Dieu pour {nom}."
+    },
+    {
+     "t": "li",
+     "x": "Ce n'est pas un concours. Si tu te sens vraiment mal, bois ou mange un peu, sans te condamner, puis reprends."
+    },
+    {
+     "t": "li",
+     "x": "À 18 h, romps le jeûne doucement : de l'eau, un fruit ou un bouillon, puis un repas simple."
+    },
+    {
+     "t": "li",
+     "x": "Si la personne malade jeûne aussi, elle adapte son jeûne à son état et à l'avis de son médecin, et continue ses traitements. Dieu regarde la consécration du cœur, pas la performance du corps. La prière accompagne le suivi médical, elle ne le remplace pas."
+    },
+    {
+     "t": "h",
+     "x": "Comment se déroule chaque journée"
+    },
+    {
+     "t": "li",
+     "x": "Le matin, avant 6 h : lis le texte du jour, médite-le cinq à dix minutes, puis proclame à voix haute les sept proclamations du matin. À 6 h, le jeûne commence."
+    },
+    {
+     "t": "li",
+     "x": "Dans la journée, de 6 h à 18 h : prie pour {nom} chaque fois que tu le peux, en revenant au texte et au cri du jour. À 18 h, romps le jeûne."
+    },
+    {
+     "t": "li",
+     "x": "Le soir : retrouvez-vous si vous êtes plusieurs (à la maison ou par téléphone), relisez le texte, partagez sur la question du jour, proclamez les sept proclamations du soir, puis priez ensemble."
+    },
+    {
+     "t": "p",
+     "x": "Dans l'application, le bouton « Écouter et prier » te lit tout cela dans l'ordre : tu n'as rien à chercher. Le jour suivant s'ouvre après minuit."
+    }
+   ]
+  },
+  {
+   "id": "veille",
+   "titre": "La Veille : un jour, une prière",
+   "court": "La Veille",
+   "duree": 31,
+   "perpetuel": true,
+   "description": "Pour continuer après les 21 jours, mois après mois, sans s'arrêter. Chaque jour : un texte, un partage, des sujets de prière et un axe pour la gloire de Dieu. Au bout de 31 jours, le cycle recommence.",
+   "intro": [
+    {
+     "t": "h",
+     "x": "Guéri afin de servir"
+    },
+    {
+     "t": "p",
+     "x": "Dieu ne délivre jamais dans le vide. Quand il envoie Moïse vers Pharaon, le message n'est pas seulement « laisse aller mon peuple », mais « laisse aller mon peuple, afin qu'il me serve ». Le psalmiste échappé de la mort ne dit pas seulement « je vivrai », mais « je vivrai, et je raconterai les œuvres de l'Éternel »."
+    },
+    {
+     "t": "p",
+     "x": "C'est pourquoi, dans cette veille, nous ne demandons pas seulement que Dieu relève {nom} : nous demandons qu'il {le} relève pour l'employer. Chaque jour comporte un axe « pour la gloire de Dieu » : prier pour que Dieu révèle à {nom} l'appel qu'il a sur sa vie, et l'y introduise."
+    },
+    {
+     "t": "h",
+     "x": "Le déroulement d'une rencontre"
+    },
+    {
+     "t": "li",
+     "x": "1. Prière d'ouverture : invoquer la présence et la conduite du Saint-Esprit."
+    },
+    {
+     "t": "li",
+     "x": "2. Les nouvelles et les témoignages : raconter ce que Dieu a fait depuis la dernière fois."
+    },
+    {
+     "t": "li",
+     "x": "3. Louange et adoration : quelques chants. On loue avant de demander."
+    },
+    {
+     "t": "li",
+     "x": "4. Lecture du texte du jour, à voix haute, lentement."
+    },
+    {
+     "t": "li",
+     "x": "5. Partage : lire la méditation, puis chacun dit ce qu'il a compris."
+    },
+    {
+     "t": "li",
+     "x": "6. Prière, supplication et action de grâce, sans oublier l'axe pour la gloire de Dieu."
+    },
+    {
+     "t": "li",
+     "x": "7. Prière de clôture, et engagement à se retrouver demain."
+    },
+    {
+     "t": "p",
+     "x": "Ainsi personne n'est indispensable : chacun peut conduire à son tour, et la veille ne s'interrompt jamais. Même quand la personne est guérie, on continue : pour rendre grâce, pour que Dieu maintienne ce qu'il a commencé, et pour qu'elle grandisse dans la foi."
+    }
+   ]
+  },
+  {
+   "id": "vie-nouvelle",
+   "titre": "La vie nouvelle en Christ (en couple)",
+   "court": "Vie nouvelle en couple",
+   "duree": 31,
+   "couple": true,
+   "description": "Quand Dieu a répondu : 31 jours pour la personne et son conjoint, pour faire du foyer une maison de prière. Cinq jours de prière, une nuit de prière en couple, une soirée de louange, puis on recommence. On lit aussi l'Évangile de Jean, la première lettre de Jean et la lettre de Jacques.",
+   "intro": [
+    {
+     "t": "h",
+     "x": "Pourquoi cette étape"
+    },
+    {
+     "t": "p",
+     "x": "Quand Dieu a répondu, le danger est de relâcher la prière. Cette étape vous aide, {nom} et {conjoint}, à rester connectés à Dieu chaque jour, seuls, sans dépendre de quelqu'un qui vient vous conduire. Vous êtes déjà trois : vous deux, et Jésus au milieu de vous. La corde à trois fils ne se rompt pas facilement (Ecclésiaste 4:12)."
+    },
+    {
+     "t": "p",
+     "x": "C'est aussi un manuel de formation : chaque jour vous enseigne quelque chose sur Dieu, sur la vie par l'Esprit, la tentation et le combat. Chaque soir, un chapitre à lire pour le lendemain ; demandez-vous l'un à l'autre si vous l'avez lu."
+    },
+    {
+     "t": "h",
+     "x": "Le rythme"
+    },
+    {
+     "t": "li",
+     "x": "Cinq jours de prière selon les sept étapes habituelles."
+    },
+    {
+     "t": "li",
+     "x": "Le sixième jour (jours 6, 13, 20, 27) : une nuit de prière en couple, de 22 h à 3 h ou 4 h, avec un déroulé heure par heure."
+    },
+    {
+     "t": "li",
+     "x": "Le septième jour (jours 7, 14, 21, 28) : une soirée de louange et d'adoration seulement."
+    },
+    {
+     "t": "li",
+     "x": "La lecture de la Bible ne s'arrête jamais, même les jours de nuit et de louange."
+    },
+    {
+     "t": "p",
+     "x": "Édification d'abord, combat ensuite, jamais l'inverse. Et tout cela accompagne le suivi médical, sans jamais le remplacer."
+    }
+   ]
+  }
+ ]
+}

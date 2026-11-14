@@ -33,19 +33,46 @@ export function Priere() {
           <span class="prier-maintenant__texte">
             <span class="pastille pastille--or">Prier maintenant · {v.heures}</span>
             <span class="prier-maintenant__titre">{v.titre}</span>
-            <span class="prier-maintenant__theme">{v.theme}</span>
+            <span class="prier-maintenant__bouton"><Icone nom="lecture" taille={18} /> Ouvrir et prier</span>
           </span>
         </a>
       )}
-      <div class="veilles">
+
+      <h2 class="titre-section">Les trois veilles du jour</h2>
+      <div class="liste">
         {VEILLES.map((x) => (
-          <a class={'carte veille-puce' + (x.id === v?.id ? ' veille-puce--active' : '')} href={'#/priere/veille/' + x.id.replace('veille-', '')}>
-            <Icone nom={x.id.endsWith('soir') ? 'lune' : 'soleil'} taille={20} /><span>{x.titre.replace('Veille ', '').replace(/^de l'|^du |^de /, '')}</span><small>{x.heures}</small>
+          <a class={'carte ligne veille-ligne' + (x.id === v?.id ? ' veille-ligne--active' : '')} href={'#/priere/veille/' + x.id.replace('veille-', '')}>
+            <span class="ligne__icone"><Icone nom={x.id.endsWith('soir') ? 'lune' : 'soleil'} /></span>
+            <span class="ligne__corps"><span class="ligne__titre" style="display:block">{x.titre}</span><span class="ligne__desc">{x.heures} · {x.theme}</span></span>
+            <span class="veille-ligne__ouvrir">Ouvrir <Icone nom="chevron" taille={18} /></span>
           </a>
         ))}
       </div>
 
-      <a class="carte ligne journal-lien" href="#/priere/journal" style="margin-top:12px">
+      <h2 class="titre-section">Jeûner et prier pour quelqu'un</h2>
+      <a class="carte theme pq-carte" href="#/priere/pour-quelqu-un">
+        <img src="/assets/priere/priere-pour-un-malade.webp" alt="" loading="lazy" />
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Pour un proche malade ou en difficulté</span>
+          <span class="ligne__desc">21 jours de jeûne, puis la Veille, un jour une prière, mois après mois. Écris son prénom : les sujets s'adaptent.</span></span>
+        <Icone nom="chevron" taille={20} />
+      </a>
+
+      <h2 class="titre-section">Prier pour…</h2>
+      <p class="ligne__desc" style="margin:-4px 4px 8px">Touche un thème pour voir ses sujets de prière.</p>
+      {categories.map((c) => {
+        const liste = PRIERES.filter((p) => p.categorie === c), deplie = ouvert === c || liste.length <= 2;
+        return (
+          <section class="categorie-priere">
+            <button class="categorie-priere__tete" aria-expanded={deplie} onClick={() => setOuvert(ouvert === c ? null : c)}>
+              <span>{c}</span><span class="onglets-internes__nb">{liste.length}</span><span class="categorie-priere__voir">{deplie ? 'Masquer' : 'Voir'}</span><Icone nom="chevron" taille={18} class={deplie ? 'tourne' : ''} />
+            </button>
+            {deplie && <div class="liste">{liste.map((p) => <CarteTheme p={p} lien={'#/priere/theme/' + p.id} />)}</div>}
+          </section>
+        );
+      })}
+
+      <h2 class="titre-section">Mon journal et mes demandes</h2>
+      <a class="carte ligne journal-lien" href="#/priere/journal">
         <span class="ligne__icone"><Icone nom="note" /></span>
         <span class="ligne__corps"><span class="ligne__titre" style="display:block">Mon journal de prière</span>
           <span class="ligne__desc">{j.length ? `${enPriere} en prière · ${exaucees} exaucée${exaucees > 1 ? 's' : ''}` : 'Écris tes requêtes et note les réponses de Dieu.'}</span></span>
@@ -57,19 +84,6 @@ export function Priere() {
           <span class="ligne__desc">Confie ton sujet à l'équipe de Yeshaya, nous prierons pour toi.</span></span>
         <Icone nom="chevron" taille={20} />
       </a>
-
-      <h2 class="titre-section">Prier pour…</h2>
-      {categories.map((c) => {
-        const liste = PRIERES.filter((p) => p.categorie === c), deplie = ouvert === c || liste.length <= 2;
-        return (
-          <section class="categorie-priere">
-            <button class="categorie-priere__tete" aria-expanded={deplie} onClick={() => setOuvert(ouvert === c ? null : c)}>
-              <span>{c}</span><span class="onglets-internes__nb">{liste.length}</span><Icone nom="chevron" taille={18} class={deplie ? 'tourne' : ''} />
-            </button>
-            {deplie && <div class="liste">{liste.map((p) => <CarteTheme p={p} lien={'#/priere/theme/' + p.id} />)}</div>}
-          </section>
-        );
-      })}
 
       <h2 class="titre-section">Combat spirituel</h2>
       <p class="ligne__desc" style="margin:-4px 4px 8px">Des fiches de prière à prier avec persévérance.</p>

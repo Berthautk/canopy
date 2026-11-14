@@ -89,6 +89,6 @@ export default defineConfig({
   // Le code de l'app va dans dist/app/ (et non dist/assets/, réservé aux illustrations de public/assets).
   build: {
     target: 'es2019', assetsInlineLimit: 0, assetsDir: 'app',
-    rollupOptions: { output: { chunkFileNames: (c) => (/\/content\/(enseignements|orizon)\//.test(c.facadeModuleId || '') ? 'contenus/[name]-[hash].js' : 'app/[name]-[hash].js') } },
+    rollupOptions: { output: { chunkFileNames: (c) => (/\/content\/(enseignements|orizon|programmes)\//.test(c.facadeModuleId || '') ? 'contenus/[name]-[hash].js' : 'app/[name]-[hash].js') } },
   },
 });

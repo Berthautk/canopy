@@ -4,7 +4,7 @@ import { urlAudio } from './config.js';
 // Ces fichiers ne contiennent que des RÉFÉRENCES bibliques : le texte est toujours lu dans la Bible LSG 1910.
 import INDEX_ENSEIGNEMENTS from 'virtual:enseignements-index';
 // Les enseignements ne sont pas chargés ici (voir INDEX_ENSEIGNEMENTS et chargerEnseignement) : seuls les autres contenus le sont.
-const fichiers = import.meta.glob(['/content/**/*.json', '!/content/_modeles/**', '!/content/enseignements/**', '!/content/orizon/**'], { eager: true, import: 'default' });
+const fichiers = import.meta.glob(['/content/**/*.json', '!/content/_modeles/**', '!/content/enseignements/**', '!/content/orizon/**', '!/content/programmes/**'], { eager: true, import: 'default' });
 const corpsEnseignements = import.meta.glob('/content/enseignements/**/*.json', { import: 'default' });   // un fichier séparé par enseignement
 const dossier = (d) => Object.entries(fichiers).filter(([k]) => k.startsWith(`/content/${d}/`)).map(([, v]) => v);
 
@@ -41,6 +41,9 @@ export const DEFIS = dossier('defis').sort(parOrdre);
 export const FORMATION = fichiers['/content/series/former-le-disciple.json'];
 export const NIVEAUX = fichiers['/content/series/niveaux.json']?.niveaux ?? [];
 export const ORIZON = fichiers['/content/orizon-index.json'];
+export const POUR_QUELQUUN = fichiers['/content/programmes-index.json'];
+const corpsProgrammes = import.meta.glob('/content/programmes/*.json', { import: 'default' });   // textes des programmes, chargés à l'ouverture
+export const chargerProgramme = (id) => corpsProgrammes[`/content/programmes/${id}.json`]?.() ?? Promise.reject(new Error('introuvable'));
 const corpsOrizon = import.meta.glob('/content/orizon/*.json', { import: 'default' });   // texte du parcours, chargé à l'ouverture
 export const chargerOrizon = (nom) => corpsOrizon[`/content/orizon/${nom}.json`]?.() ?? Promise.reject(new Error('introuvable'));
 export const NIVEAUX_CHEMIN = fichiers['/content/jeux/chemin-de-la-foi.json']?.niveaux ?? [];

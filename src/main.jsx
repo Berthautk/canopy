@@ -17,6 +17,7 @@ import { demarrerMesure } from './donnees/mesure.js';
 import { chargerRythme, verifierRappels } from './donnees/rythme.js';
 import { notifier } from './composants/Notification.jsx';
 import { chargerProgressionOrizon } from './donnees/orizon.js';
+import { chargerPourQuelquun } from './donnees/pourQuelquun.js';
 import { chargerDisciple } from './donnees/disciple.js';
 import { chargerStats } from './jeux/stats.js';
 import { chargerChemin } from './jeux/chemin.js';
@@ -34,6 +35,7 @@ demarrerMesure();
 chargerRythme();
 setInterval(() => verifierRappels(notifier), 30000);   // rappels pendant que l'application est ouverte
 chargerProgressionOrizon();
+chargerPourQuelquun();
 chargerDisciple();
 chargerStats();
 chargerChemin();

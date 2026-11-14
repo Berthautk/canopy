@@ -678,3 +678,25 @@
 .orizon-case--fermee { opacity: .35; filter: grayscale(1); }
 .orizon-attente { display: flex; gap: 8px; align-items: flex-start; margin: 0; padding: 10px; border-radius: 12px; background: var(--surface-2, #f3ead6); }
 .section-ens__image { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 16px; margin: 18px 0 10px; box-shadow: var(--ombre); }
+/* Jeûner et prier pour quelqu'un */
+.pq-tete { text-align: center; border: 2px solid var(--or); }
+.pq-etapes { display: grid; gap: 6px; }
+.pq-etape { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-radius: 12px; border: 1.5px solid var(--bord); background: var(--surface); color: var(--titre); text-align: left; font-weight: 600; }
+.pq-etape--active { background: var(--bleu-nuit, #142340); color: #fff; border-color: var(--bleu-nuit, #142340); }
+.pq-etape--active .orizon-etape__num { background: var(--or); color: var(--bleu-nuit, #142340); }
+.pq-jour { text-align: center; }
+.pq-jour__n { font-family: var(--police-titre); font-size: 1.8rem; font-weight: 700; color: var(--titre); margin: 4px 0 8px; }
+.pq-jour__n span { font-size: 1rem; color: var(--texte-doux); font-weight: 500; }
+.pq-comment summary { cursor: pointer; display: flex; align-items: center; gap: 8px; font-weight: 600; color: var(--titre); }
+.pq-moment { margin: 20px 0 8px; padding: 6px 10px; border-radius: 10px; background: var(--surface-2, #f3ead6); color: var(--titre); font-size: 1rem; }
+.pq-liste { margin: 6px 0 10px; padding-left: 22px; line-height: 1.55; }
+.pq-liste li { margin-bottom: 6px; }
+.pq-cri { padding: 10px 12px; border-left: 4px solid var(--or); background: var(--surface); border-radius: 8px; line-height: 1.55; }
+.pq-agenda { padding-left: 22px; line-height: 1.55; }
+.pq-choix { display: flex; gap: 10px; align-items: flex-start; text-align: left; padding: 10px; color: var(--titre); }
+.pq-choix--actif { outline: 2px solid var(--or); }
+.prier-maintenant__bouton { display: inline-flex; align-items: center; gap: 6px; margin-top: 4px; padding: 6px 12px; border-radius: 20px; background: var(--or); color: var(--bleu-nuit, #142340); font-weight: 700; font-size: .85rem; }
+.veille-ligne__ouvrir { display: inline-flex; align-items: center; gap: 2px; padding: 6px 10px; border-radius: 18px; background: var(--or); color: var(--bleu-nuit, #142340); font-weight: 700; font-size: .8rem; flex: none; }
+.veille-ligne--active { border: 2px solid var(--or); }
+.pq-carte { border: 2px solid var(--or); }
+.categorie-priere__voir { margin-left: auto; font-size: .78rem; font-weight: 700; color: var(--or-fonce); }
