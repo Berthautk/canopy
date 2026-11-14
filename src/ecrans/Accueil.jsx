@@ -5,8 +5,6 @@ import { versetDuJour, audioDuJour } from '../donnees/contenu.js';
 import { BoutonLecture } from '../composants/Audio.jsx';
 import { derniereEcoute, jouer, formatTemps, lecteur } from '../audio/lecteur.js';
 import { useSignal } from '../outils/signal.js';
-import { reglages } from '../donnees/reglages.js';
-import { choisirStats } from '../donnees/mesure.js';
 import { ecrireReference } from '../bible/references.js';
 
 const ACCES = [
@@ -36,7 +34,6 @@ export function Accueil() {
           <TextePassage etat={etat} />
           {etat.ref && <a class="pastille pastille--ref" href={'#/' + cheminMontrer(etat.ref)}>{ecrireReference(etat.ref)}</a>}
         </section>
-        <Consentement />
 
         {piste && (
           <section class="carte audio-jour">
@@ -88,21 +85,5 @@ export function Accueil() {
         </a>
       </div>
     </div>
-  );
-}
-
-// Demande unique : accepter ou non l'envoi de statistiques anonymes.
-function Consentement() {
-  const r = useSignal(reglages);
-  if (r.statsAnonymes === true || r.statsAnonymes === false) return null;
-  return (
-    <section class="carte bloc consentement">
-      <h3><span class="ligne__icone"><Icone nom="donnees" /></span> Aider Yeshaya ?</h3>
-      <p class="ligne__desc">Acceptes-tu d'envoyer des statistiques <b>anonymes</b> : seulement des chiffres (par exemple « un enseignement a été lu », « une personne a donné sa vie à Jésus »), jamais ton nom, ton numéro, ton pays ni ce que tu écris ? Tu peux changer d'avis dans les Paramètres.</p>
-      <div class="boutons">
-        <button class="bouton bouton--plein" onClick={() => choisirStats(true)}>Oui, j'aide</button>
-        <button class="bouton bouton--contour" onClick={() => choisirStats(false)}>Non merci</button>
-      </div>
-    </section>
   );
 }

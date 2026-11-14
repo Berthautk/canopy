@@ -26,7 +26,8 @@ export function Admin() {
       const d = await r.json().catch(() => ({}));
       if (!r.ok || !d.ok) { setEtat({ erreur: d.erreur || 'Service indisponible (' + r.status + ').' }); return; }
       try { sessionStorage.setItem('yeshaya:admin', m); } catch {}
-      setEtat({ lignes: d.lignes, depuis: d.depuis });
+      const q = await fetch('/api/priere', { headers: { authorization: 'Bearer ' + m }, cache: 'no-store' }).then((x) => x.json()).catch(() => ({}));
+      setEtat({ lignes: d.lignes, depuis: d.depuis, requetes: q.requetes || [] });
     } catch { setEtat({ erreur: 'Pas de connexion internet.' }); }
   }
   useEffect(() => { if (mdp && etat.lignes) charger(); }, [jours]);
@@ -80,7 +81,30 @@ export function Admin() {
         <div class="admin__jours">{jourListe.map(([j, o]) => <span title={`${j} : ${o.v} ouvertures, ${o.d} décisions`} style={{ height: Math.max(4, (o.v / maxJour) * 100) + '%' }}>{o.d > 0 && <em />}</span>)}</div></section>}
       {TYPES.map(([t, libelle, liste]) => { const l = parCle(t); return l.length > 0 && (
         <section class="carte bloc"><h3>{libelle}</h3>{l.slice(0, 15).map(([k, n]) => <p class="admin__ligne"><span>{nomDe(liste, k)}</span><b>{nombre(n)}</b></p>)}</section>); })}
+      <Requetes liste={etat.requetes} mdp={mdp} recharger={() => charger()} />
       <button class="bouton bouton--contour" style="width:100%;margin-top:12px" onClick={() => charger()}><Icone nom="rejouer" taille={18} /> Actualiser</button>
     </div>
+  );
+}
+
+function Requetes({ liste = [], mdp, recharger }) {
+  const action = (methode, id, q = '') => fetch(`/api/priere?id=${id}${q}`, { method: methode, headers: { authorization: 'Bearer ' + mdp } }).then(recharger);
+  const nonLues = liste.filter((r) => !r.lu).length;
+  return (
+    <>
+      <h2 class="titre-section">Demandes de prière ({nonLues} nouvelle{nonLues > 1 ? 's' : ''})</h2>
+      {!liste.length && <p class="ligne__desc">Aucune demande pour le moment.</p>}
+      {liste.map((r) => (
+        <section class={'carte bloc requete' + (r.lu ? ' requete--lue' : '')}>
+          <p class="ligne__desc">{new Date(r.recu).toLocaleString('fr-FR')}{r.prenom ? ' · ' + r.prenom : ''}</p>
+          <p>{r.texte}</p>
+          {r.repondre ? <p><b>Souhaite être recontacté :</b> {r.contact}</p> : null}
+          <div class="verset__actions">
+            <button class="bouton bouton--petit bouton--contour" onClick={() => action('PATCH', r.id, r.lu ? '&lu=0' : '&lu=1')}>{r.lu ? 'Remettre en prière' : "J'ai prié"}</button>
+            <button class="bouton bouton--petit bouton--contour" onClick={() => confirm('Supprimer cette demande ?') && action('DELETE', r.id)}>Supprimer</button>
+          </div>
+        </section>
+      ))}
+    </>
   );
 }

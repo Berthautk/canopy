@@ -16,12 +16,14 @@ export function Outil({ id }) {
   const p = useSignal(parcours);
   const va = useVoixActive(o?.id);
   const [diapo, setDiapo] = useState(false);
+  const [ordre, setOrdre] = useState(o?.ordres ? Object.keys(o.ordres)[0] : null);
   if (!o) return <div class="page"><p class="ligne__desc">Contenu introuvable.</p></div>;
 
   // Blocs lus à voix haute, dans l'ordre de la page (l'index sert au surlignage).
   const blocs = [];
   const ajoute = (b) => (blocs.push(b), blocs.length - 1);
-  const etapes = o.etapes.map((e) => ({
+  const liste = ordre ? o.ordres[ordre].map((k) => o.etapes[k]) : o.etapes;
+  const etapes = liste.map((e) => ({
     ...e,
     iTitre: ajoute({ texte: e.titre.replace(/^\d+\.\s*/, '') + '.' }),
     iTextes: e.texte.map((t) => ajoute({ texte: t })),
@@ -43,7 +45,10 @@ export function Outil({ id }) {
         <span class="ligne__corps"><span class="ligne__titre" style="display:block">Regarder et écouter (diaporama)</span>
           <span class="ligne__desc">La voix explique, les images défilent. Idéal pour montrer à quelqu'un.</span></span>
       </button>
-      <BarreEcoute id={o.id} titre="Écouter toute la présentation" blocs={blocs} />
+      {o.ordres && <div class="segments" role="group" aria-label="Commencer par" style="margin-top:12px">
+        {Object.keys(o.ordres).map((k) => <button aria-pressed={ordre === k} onClick={() => { arreterVoix(); setOrdre(k); }}>{k}</button>)}
+      </div>}
+      <BarreEcoute key={ordre} id={o.id} titre="Écouter toute la présentation" blocs={blocs} />
       {diapo && <Diaporama o={o} etapes={etapes} blocs={blocs} iIntro={iIntro} fermer={() => { arreterVoix(); setDiapo(false); }} />}
 
       {etapes.map((e) => (

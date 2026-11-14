@@ -481,3 +481,15 @@
 .reponse-ens--bon b { color: #2e9d5b; }
 .reponse-ens--faux b { color: #c0392b; }
 .score-ens { font-weight: 600; text-align: center; margin: 12px 0; }
+
+.etiquette-champ { display: block; font-weight: 600; font-size: .9rem; margin: 12px 0 6px; color: var(--titre); }
+.champ--zone { min-height: 120px; padding: 10px 12px; resize: vertical; font: inherit; line-height: 1.5; }
+.politique h3 { margin: 14px 0 6px; font-size: 1rem; }
+.politique p { margin: 0 0 8px; line-height: 1.55; font-size: .92rem; }
+.demarrage__politique { max-height: 78vh; overflow-y: auto; }
+.demarrage__politique h2 { margin: 0 0 8px; }
+.demarrage__politique details { margin: 8px 0; }
+.demarrage__politique summary { color: var(--or-fonce); font-weight: 600; cursor: pointer; }
+.requete { border-left: 4px solid var(--or); }
+.requete--lue { opacity: .65; border-left-color: #2e9d5b; }
+.requete p { white-space: pre-wrap; margin: 6px 0; }

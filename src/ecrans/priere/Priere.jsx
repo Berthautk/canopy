@@ -51,6 +51,12 @@ export function Priere() {
           <span class="ligne__desc">{j.length ? `${enPriere} en prière · ${exaucees} exaucée${exaucees > 1 ? 's' : ''}` : 'Écris tes requêtes et note les réponses de Dieu.'}</span></span>
         <Icone nom="chevron" taille={20} />
       </a>
+      <a class="carte ligne journal-lien" href="#/priere/demander" style="margin-top:8px">
+        <span class="ligne__icone"><Icone nom="priere" /></span>
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Demander la prière</span>
+          <span class="ligne__desc">Confie ton sujet à l'équipe de Yeshaya, nous prierons pour toi.</span></span>
+        <Icone nom="chevron" taille={20} />
+      </a>
 
       <h2 class="titre-section">Prier pour…</h2>
       {categories.map((c) => {

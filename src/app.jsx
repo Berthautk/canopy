@@ -30,6 +30,8 @@ import { Dialogue } from './ecrans/evangeliser/Dialogue.jsx';
 import { Outil } from './ecrans/evangeliser/Outil.jsx';
 import { Approche } from './ecrans/evangeliser/Approche.jsx';
 import { Admin } from './ecrans/Admin.jsx';
+import { Confidentialite, VERSION_POLITIQUE } from './ecrans/Confidentialite.jsx';
+import { DemanderPriere } from './ecrans/priere/DemanderPriere.jsx';
 import { compterPage } from './donnees/mesure.js';
 import { Jouer, QuizDuJour, QuizThemes } from './ecrans/jeux/Jouer.jsx';
 import { CompleteVerset } from './ecrans/jeux/CompleteVerset.jsx';
@@ -56,6 +58,8 @@ function titre([a, b, c]) {
   if (a === 'parametres') return "Paramètres de l'application";
   if (a === 'a-propos') return 'À propos de Yeshaya';
   if (a === 'admin') return 'Espace administrateur';
+  if (a === 'confidentialite') return 'Confidentialité';
+  if (a === 'priere' && b === 'demander') return 'Demander la prière';
   if (a === 'jouer') return {
     'quiz-du-jour': 'Quiz du jour', themes: c ? (QUIZ.find((q) => q.id === 'quiz-' + c)?.theme ?? 'Quiz') : 'Quiz par thème', complete: 'Complète le verset',
     'qui-suis-je': 'Qui suis-je ?', ordre: "Remets dans l'ordre", duel: 'Duel à deux', badges: 'Mes badges',
@@ -87,11 +91,12 @@ function Ecran({ r }) {
   if (a === 'accueil') return <Accueil />;
   if (a === 'parametres') return <Parametres />;
   if (a === 'admin') return <Admin />;
+  if (a === 'confidentialite') return <Confidentialite />;
   if (a === 'a-propos') return <APropos />;
   if (a === 'telechargements') return <Telechargements />;
   if (a === 'jouer') return ({ 'quiz-du-jour': <QuizDuJour />, themes: <QuizThemes theme={c} niveau={d} />, complete: <CompleteVerset />,
     'qui-suis-je': <QuiSuisJe />, ordre: <Ordre id={c} />, duel: <Duel />, badges: <Badges /> })[b] ?? <Jouer />;
-  if (a === 'priere') return b === 'journal' ? <Journal nouveau={r.params.nouveau} /> : b === 'theme' ? <ThemePriere id={c} /> : b === 'veille' ? <Veille id={c} /> : b === 'combat' ? <FicheCombat id={c} /> : <Priere />;
+  if (a === 'priere') return b === 'demander' ? <DemanderPriere /> : b === 'journal' ? <Journal nouveau={r.params.nouveau} /> : b === 'theme' ? <ThemePriere id={c} /> : b === 'veille' ? <Veille id={c} /> : b === 'combat' ? <FicheCombat id={c} /> : <Priere />;
   if (a === 'grandir') return PARCOURS[b] ? <Parcours id={b} jour={c} /> : b === 'enseignement' ? <EnseignementEcrit id={c} /> : <Grandir />;
   if (a === 'evangeliser') return b === 'article' ? <Article id={c} /> : b === 'dialogue' ? <Dialogue id={c} /> : b === 'outil' ? <Outil id={c} /> : b === 'approche' ? <Approche id={c} /> : <Evangeliser />;
   if (a === 'ecouter') return <Ecouter id={b} />;
@@ -119,16 +124,17 @@ export function App() {
   const l = useSignal(lecteur);
   const tiroir = useTiroir();
   const [demarrage, setDemarrage] = useState(true);
+  const accepte = reg.premierLancementVu && (reg.politiqueAcceptee || 0) >= VERSION_POLITIQUE;
 
   // Écran de démarrage : court à chaque ouverture, bandeau des engagements au premier lancement.
   useEffect(() => {
-    if (reg.premierLancementVu) { const t = setTimeout(() => setDemarrage(false), 900); return () => clearTimeout(t); }
-  }, [reg.premierLancementVu]);
+    if (accepte) { const t = setTimeout(() => setDemarrage(false), 900); return () => clearTimeout(t); }
+  }, [accepte]);
 
   if (demarrage) {
     return (
-      <Demarrage premierLancement={!reg.premierLancementVu}
-        surCommencer={() => { modifierReglages({ premierLancementVu: true }); demanderStockagePersistant(); setDemarrage(false); }} />
+      <Demarrage premierLancement={!accepte}
+        surCommencer={() => { modifierReglages({ premierLancementVu: true, politiqueAcceptee: VERSION_POLITIQUE, statsAnonymes: true }); demanderStockagePersistant(); setDemarrage(false); }} />
     );
   }
 

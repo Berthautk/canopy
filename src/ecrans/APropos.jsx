@@ -8,7 +8,7 @@ const ENGAGEMENTS = [
   ['bouclier', 'Un usage sûr et respectueux', 'Sans compte, sans publicité, et respectueux de votre vie privée.', null],
 ];
 
-const PRINCIPES = ['100 % gratuit', 'Aucune publicité', 'Aucun compte', 'Vos données restent sur votre téléphone', 'Fonctionne sans internet'];
+const PRINCIPES = ['100 % gratuit', 'Aucune publicité', 'Aucun compte', 'Votre journal et vos notes restent sur votre téléphone', 'Fonctionne sans internet'];
 
 // Écran 14 : à propos.
 export function APropos() {

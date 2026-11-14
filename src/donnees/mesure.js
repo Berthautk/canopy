@@ -1,4 +1,4 @@
-// Statistiques anonymes (seulement si l'utilisateur a dit oui).
+// Statistiques anonymes (acceptées à l'entrée avec la politique de confidentialité).
 // Ce qui part : des compteurs par jour, par exemple « ouverture:priere = 3 » ou « decision = 1 ».
 // Ce qui ne part jamais : nom, profil, journal de prière, notes, adresse, pays, identifiant d'appareil.
 // Hors ligne, les compteurs attendent sur le téléphone et partent au retour d'internet.
@@ -9,7 +9,7 @@ const CLE_FILE = 'yeshaya:mesure-file';
 const URL_ENVOI = '/api/evenements';
 let file = null, minuteur = null;
 
-const actif = () => reglages.valeur.statsAnonymes === true;
+const actif = () => reglages.valeur.statsAnonymes === true || (reglages.valeur.politiqueAcceptee || 0) >= 1;
 const jour = () => new Date().toISOString().slice(0, 10);
 const propre = (s) => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9-]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 80);
 
@@ -62,3 +62,18 @@ export function compterPage(segments) {
   else if (a === 'bible' && b === 'lire' && c) compter('bible-livre', c);
   else if (a === 'jouer' && b) compter('jeu', b);
 }
+
+// ----- Demandes de prière (envoyées seulement quand la personne appuie sur « Envoyer ») -----
+const CLE_REQ = 'yeshaya:priere-a-envoyer';
+export async function envoyerDemande(d) {
+  let liste = []; try { liste = (await get(CLE_REQ)) || []; } catch {}
+  if (d) liste.push({ ...d, date: new Date().toISOString() });
+  const restent = [];
+  for (const r of liste) {
+    try { const x = await fetch('/api/priere', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(r) }); if (!x.ok) restent.push(r); }
+    catch { restent.push(r); }
+  }
+  try { restent.length ? await set(CLE_REQ, restent) : await del(CLE_REQ); } catch {}
+  return { envoye: !d || restent.length < liste.length || !restent.includes(liste[liste.length - 1]), enAttente: restent.length };
+}
+addEventListener?.('online', () => envoyerDemande());

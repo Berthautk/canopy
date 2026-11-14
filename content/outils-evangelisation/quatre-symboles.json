@@ -1,0 +1,99 @@
+{
+ "id": "outil-quatre-symboles",
+ "ordre": 2,
+ "titre": "Les 4 symboles",
+ "resume": "Présenter l'Évangile avec 4 symboles simples : le cœur (Dieu t'aime), la séparation (le péché), la croix (Jésus a pris ta place) et le point d'interrogation (ta décision). On peut commencer par n'importe lequel.",
+ "image": "/assets/quatre-symboles/3-croix.svg",
+ "duree_estimee": "10 à 15 min",
+ "conseil": "Tu peux dessiner les 4 symboles sur une feuille, dans le sable ou sur ta main, et les expliquer un par un. L'ordre peut changer selon la personne : commence par l'amour de Dieu, par la croix ou même par la question. Choisis l'ordre ci-dessous.",
+ "ordres": {
+  "Le cœur d'abord": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "La croix d'abord": [
+   2,
+   0,
+   1,
+   3
+  ],
+  "La question d'abord": [
+   3,
+   0,
+   1,
+   2
+  ]
+ },
+ "etapes": [
+  {
+   "image": "/assets/quatre-symboles/1-coeur.svg",
+   "titre": "Le cœur : Dieu t'aime",
+   "texte": [
+    "Regarde ce symbole : un cœur. Il veut dire une chose très simple, mais très profonde : Dieu t'aime. Pas seulement les gens en général : toi, personnellement, avec ton histoire, ce que tu as vécu, ce que tu caches peut-être.",
+    "Dieu t'a créé. Tu n'es pas un accident. Il t'aime d'un amour éternel, et il a un projet pour ta vie. Jésus a dit qu'il est venu afin que les hommes aient la vie, et qu'ils l'aient en abondance : une vie pleine de sens, de paix et de joie, avec Dieu.",
+    "Alors une question se pose : si Dieu nous aime autant, pourquoi tant de gens vivent-ils loin de lui, sans paix, sans espérance ? La réponse, c'est le péché."
+   ],
+   "versets": [
+    "Jr 31:3",
+    "Jn 10:10",
+    "1 Jn 4:9"
+   ]
+  },
+  {
+   "image": "/assets/quatre-symboles/2-separation.svg",
+   "titre": "La séparation : le péché nous sépare de Dieu",
+   "texte": [
+    "Regarde ce symbole : un point d'un côté, un point de l'autre, et une barre au milieu. D'un côté il y a Dieu, de l'autre il y a l'homme, et entre les deux il y a un mur : le péché.",
+    "Le péché, c'est vivre à notre manière en tournant le dos à Dieu : le mensonge, l'orgueil, la colère, l'impureté, la jalousie, l'amour de l'argent, l'indifférence envers Dieu. La Bible dit que tous ont péché. Personne n'est épargné : ni toi, ni moi.",
+    "Ce péché met une séparation entre nous et Dieu. Et la Bible dit que le salaire du péché, c'est la mort : la séparation d'avec Dieu, maintenant et pour toujours.",
+    "Beaucoup essaient de franchir ce mur par leurs propres efforts : la religion, les bonnes actions, les sacrifices, les traditions. Mais aucun effort humain ne peut abattre ce mur. Il fallait que Dieu lui-même ouvre un chemin : c'est la croix de Jésus."
+   ],
+   "versets": [
+    "Rm 3:23",
+    "És 59:2",
+    "Rm 6:23"
+   ]
+  },
+  {
+   "image": "/assets/quatre-symboles/3-croix.svg",
+   "titre": "La croix : Jésus a pris ta place",
+   "texte": [
+    "Regarde ce symbole : une croix. Parce qu'il t'aime, Dieu a envoyé son Fils Jésus. Jésus n'a jamais péché. Et pourtant, sur la croix, il a souffert à ta place. Il a porté ton péché et la punition que tu méritais. Il a pris ta mort pour te donner sa vie.",
+    "La Bible dit que Christ a souffert une fois pour les péchés, lui juste pour des injustes, afin de nous amener à Dieu. La croix vient se placer exactement là où il y avait le mur du péché. Elle devient un pont entre Dieu et l'homme. Par la croix, nous pouvons être réconciliés avec Dieu.",
+    "Et Jésus n'est pas resté mort : le troisième jour, il est ressuscité. Il est vivant aujourd'hui. Il a dit : je suis le chemin, la vérité et la vie ; nul ne vient au Père que par moi.",
+    "Mais un pont ne sert à rien si on ne le traverse pas. Il ne suffit pas de savoir que Jésus est mort pour les péchés du monde. Chacun doit répondre personnellement : quelle est ta décision ?"
+   ],
+   "versets": [
+    "1 Pi 3:18",
+    "Rm 5:8",
+    "Jn 14:6"
+   ]
+  },
+  {
+   "image": "/assets/quatre-symboles/4-question.svg",
+   "titre": "Le point d'interrogation : quelle est ta décision ?",
+   "texte": [
+    "Regarde ce symbole : un point d'interrogation. Il pose la question la plus importante de ta vie : que fais-tu de Jésus ?",
+    "Il y a deux réponses possibles. Tu peux continuer à vivre de ton côté du mur, à ta manière, sans Dieu. Ou tu peux te repentir, c'est-à-dire reconnaître ton péché et te détourner de lui, et recevoir Jésus dans ton cœur comme ton Sauveur et ton Seigneur.",
+    "La Bible dit qu'à tous ceux qui l'ont reçu, Jésus a donné le pouvoir de devenir enfants de Dieu. Il se tient à la porte de ton cœur et il frappe. Si tu lui ouvres, il entrera et il habitera en toi. Si tu confesses de ta bouche le Seigneur Jésus, et si tu crois dans ton cœur que Dieu l'a ressuscité des morts, tu seras sauvé.",
+    "Alors, quelle est ta décision aujourd'hui ? Si tu veux recevoir Jésus, tu peux prier maintenant avec moi la prière qui suit."
+   ],
+   "versets": [
+    "Jn 1:12",
+    "Ap 3:20",
+    "Rm 10:9-10"
+   ]
+  }
+ ],
+ "priere": "Seigneur Jésus, merci parce que tu m'aimes. Je reconnais que j'ai péché et que mon péché m'a séparé de toi. Je te demande pardon, et je me détourne de mes péchés. Je crois que tu es mort sur la croix à ma place, et je crois dans mon cœur que Dieu t'a ressuscité des morts. Aujourd'hui, je t'ouvre la porte de mon cœur : viens habiter en moi. Je te reçois comme mon Sauveur et mon Seigneur. Remplis-moi de ton Saint-Esprit et apprends-moi à te suivre chaque jour. Au nom de Jésus. Amen.",
+ "apres": [
+  "Si tu as prié cette prière avec sincérité, la Bible dit que tu es devenu enfant de Dieu : quiconque invoquera le nom du Seigneur sera sauvé.",
+  "Dis-le à la personne qui t'a partagé ce message ou à un chrétien que tu connais. Commence à lire la Bible, à prier chaque jour, et rejoins une église qui enseigne la Parole de Dieu.",
+  "L'enseignement « Le salut, ce que Dieu a fait pour toi » et le parcours « Nouveau converti » vont t'aider à grandir."
+ ],
+ "source": "Présentation rédigée pour Yeshaya, à partir d'une manière simple et répandue d'annoncer l'Évangile avec quatre symboles (cœur, séparation, croix, point d'interrogation). Illustrations provisoires.",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}

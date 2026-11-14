@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
 import { Icone } from '../composants/Icone.jsx';
-import { choisirStats } from '../donnees/mesure.js';
 import { reglages, modifierReglages } from '../donnees/reglages.js';
 import { useSignal } from '../outils/signal.js';
 import { profil, changerPhoto, retirerPhoto, changerPrenom } from '../donnees/profil.js';
@@ -150,8 +149,8 @@ export function Parametres() {
           <div class="param-bloc__titre"><span class="ligne__icone"><Icone nom="donnees" /></span> Données et confidentialité</div>
           <p class="ligne__desc">Ton profil, ton journal, tes notes et tes réponses restent sur ce téléphone.
             {persistant === true && ' Stockage protégé contre l\'effacement automatique.'}</p>
-          <p class="ligne__desc" style="margin-top:8px"><b>Statistiques anonymes</b> : envoyer seulement des chiffres (par exemple « un enseignement a été ouvert », « une personne a donné sa vie à Jésus »), sans nom, sans contact, sans pays. Cela aide l'équipe à savoir ce qui est utile.</p>
-          <Segments libelle="Statistiques anonymes" options={{ oui: 'Oui, j\'aide', non: 'Non merci' }} valeur={r.statsAnonymes === true ? 'oui' : r.statsAnonymes === false ? 'non' : ''} surChoix={(v) => choisirStats(v === 'oui')} />
+          <p class="ligne__desc" style="margin-top:8px">Des statistiques anonymes (rubriques et contenus utilisés, sans nom ni contact) sont envoyées pour améliorer l'application et prier pour ses utilisateurs.</p>
+          <a class="lien" href="#/confidentialite" style="display:inline-block;margin-top:8px">Lire la politique de confidentialité</a>
         </div>
         <a class="carte ligne" href="#/a-propos">
           <span class="ligne__icone"><Icone nom="info" /></span>
