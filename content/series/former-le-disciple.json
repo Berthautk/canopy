@@ -1,0 +1,226 @@
+{
+ "id": "former-le-disciple",
+ "titre": "Former le disciple",
+ "resume": "Un parcours d'affermissement d'environ deux ans, en 40 leçons et 3 volumes : chaque leçon est un enseignement complet, avec des questions pour vérifier sa compréhension et un travail de la semaine à faire seul ou à corriger en groupe le dimanche.",
+ "volumes": [
+  {
+   "titre": "Volume 1 · Les premiers pas",
+   "sous_titre": "Les bases de la vie chrétienne",
+   "lecons": [
+    {
+     "numero": 1,
+     "titre": "Le salut",
+     "enseignement": "affermissement-1-le-salut"
+    },
+    {
+     "numero": 2,
+     "titre": "L'assurance du salut",
+     "enseignement": "affermissement-2-assurance-du-salut"
+    },
+    {
+     "numero": 3,
+     "titre": "La tentation et la victoire",
+     "enseignement": "affermissement-3-la-tentation"
+    },
+    {
+     "numero": 4,
+     "titre": "Jésus, Seigneur de toute ma vie",
+     "enseignement": null
+    },
+    {
+     "numero": 5,
+     "titre": "Vivre par l'Esprit",
+     "enseignement": null
+    },
+    {
+     "numero": 6,
+     "titre": "Quand Dieu me parle : la Bible",
+     "enseignement": null
+    },
+    {
+     "numero": 7,
+     "titre": "Quand je parle à Dieu : la prière",
+     "enseignement": null
+    },
+    {
+     "numero": 8,
+     "titre": "Mon rendez-vous quotidien avec Dieu",
+     "enseignement": null
+    },
+    {
+     "numero": 9,
+     "titre": "Mon église locale",
+     "enseignement": null
+    },
+    {
+     "numero": 10,
+     "titre": "Témoigner de Jésus",
+     "enseignement": null
+    },
+    {
+     "numero": 11,
+     "titre": "Le baptême et la cène",
+     "enseignement": null
+    },
+    {
+     "numero": 12,
+     "titre": "Le foyer chrétien",
+     "enseignement": null
+    },
+    {
+     "numero": 13,
+     "titre": "Suivre Jésus chaque jour",
+     "enseignement": null
+    }
+   ]
+  },
+  {
+   "titre": "Volume 2 · Grandir en Christ",
+   "sous_titre": "Connaître Dieu et marcher avec lui",
+   "lecons": [
+    {
+     "numero": 1,
+     "titre": "Connaître Dieu",
+     "enseignement": null
+    },
+    {
+     "numero": 2,
+     "titre": "Jésus, mon modèle",
+     "enseignement": null
+    },
+    {
+     "numero": 3,
+     "titre": "Appelé à servir",
+     "enseignement": null
+    },
+    {
+     "numero": 4,
+     "titre": "Qui je suis en Christ",
+     "enseignement": null
+    },
+    {
+     "numero": 5,
+     "titre": "Le combat spirituel",
+     "enseignement": null
+    },
+    {
+     "numero": 6,
+     "titre": "Les armes que Dieu me donne",
+     "enseignement": null
+    },
+    {
+     "numero": 7,
+     "titre": "Pardonner pour être libre",
+     "enseignement": null
+    },
+    {
+     "numero": 8,
+     "titre": "Demander pardon et réparer",
+     "enseignement": null
+    },
+    {
+     "numero": 9,
+     "titre": "Appelé à la sainteté",
+     "enseignement": null
+    },
+    {
+     "numero": 10,
+     "titre": "Le chrétien et l'argent",
+     "enseignement": null
+    },
+    {
+     "numero": 11,
+     "titre": "Ce qui est permis n'est pas toujours utile",
+     "enseignement": null
+    },
+    {
+     "numero": 12,
+     "titre": "Le discernement",
+     "enseignement": null
+    },
+    {
+     "numero": 13,
+     "titre": "Parler de Christ autour de moi",
+     "enseignement": null
+    },
+    {
+     "numero": 14,
+     "titre": "L'avenir selon la Bible",
+     "enseignement": null
+    },
+    {
+     "numero": 15,
+     "titre": "Le retour de Jésus et l'éternité",
+     "enseignement": null
+    }
+   ]
+  },
+  {
+   "titre": "Volume 3 · Les uns les autres",
+   "sous_titre": "Vivre la foi en famille de Dieu",
+   "lecons": [
+    {
+     "numero": 1,
+     "titre": "Membres les uns des autres",
+     "enseignement": null
+    },
+    {
+     "numero": 2,
+     "titre": "S'aimer les uns les autres",
+     "enseignement": null
+    },
+    {
+     "numero": 3,
+     "titre": "L'amour en actes",
+     "enseignement": null
+    },
+    {
+     "numero": 4,
+     "titre": "S'encourager les uns les autres",
+     "enseignement": null
+    },
+    {
+     "numero": 5,
+     "titre": "Se servir les uns les autres",
+     "enseignement": null
+    },
+    {
+     "numero": 6,
+     "titre": "Se supporter les uns les autres",
+     "enseignement": null
+    },
+    {
+     "numero": 7,
+     "titre": "Se pardonner les uns les autres",
+     "enseignement": null
+    },
+    {
+     "numero": 8,
+     "titre": "S'accepter les uns les autres",
+     "enseignement": null
+    },
+    {
+     "numero": 9,
+     "titre": "S'exhorter les uns les autres",
+     "enseignement": null
+    },
+    {
+     "numero": 10,
+     "titre": "Se reprendre avec douceur",
+     "enseignement": null
+    },
+    {
+     "numero": 11,
+     "titre": "Se saluer et s'accueillir",
+     "enseignement": null
+    },
+    {
+     "numero": 12,
+     "titre": "L'hospitalité",
+     "enseignement": null
+    }
+   ]
+  }
+ ],
+ "source": "Plan inspiré de l'ordre des thèmes d'un manuel d'affermissement utilisé en Afrique francophone ; tous les enseignements sont rédigés pour Yeshaya."
+}

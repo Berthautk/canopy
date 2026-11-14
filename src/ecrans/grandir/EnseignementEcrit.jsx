@@ -73,6 +73,14 @@ export function EnseignementEcrit({ id }) {
       ))}
       {e.sujets?.length > 0 && <><h2 class="titre-section" {...va(pos.sujets)}>Sujets de prière</h2><SujetsACocher sujets={e.sujets} voixId={id} debut={pos.sujets + 1} /></>}
       {e.questions?.length > 0 && <Questions e={e} />}
+      {e.devoir?.length > 0 && (
+        <section class="carte bloc devoir">
+          <h3><span class="ligne__icone"><Icone nom="note" /></span> Travail de la semaine</h3>
+          <p class="ligne__desc">À faire seul avec ta Bible, puis à partager ou corriger avec ton groupe ou ton responsable.</p>
+          <ol>{e.devoir.map((d) => <li><TexteRefs texte={d} /></li>)}</ol>
+          <a class="bouton bouton--contour bouton--petit" href="#/priere/journal?nouveau=1">Noter mes réponses dans mon journal</a>
+        </section>
+      )}
       {e.prieres_liees?.length > 0 && <PrieresLiees liens={e.prieres_liees} />}
       <LienVideo url={e.video} duree={e.video_duree} auteur={e.auteur} />
       <button class="bouton bouton--contour" style="width:100%;margin-top:16px" onClick={() => partager({ titre: e.titre, texte: `${e.titre}\n${e.resume}${e.video ? '\nVidéo : ' + e.video : ''}`, chemin: 'grandir/enseignement/' + e.id })}>

@@ -588,3 +588,12 @@
 .orizon-journal { margin: 0 0 12px; }
 .orizon-journal textarea { margin-top: 4px; }
 .orizon-nav { display: flex; justify-content: space-between; gap: 6px; margin: 14px 0; }
+
+.formation { list-style: none; padding: 0; margin: 8px 0 0; }
+.formation__lecon a, .formation__lecon > span { display: flex; align-items: center; gap: 10px; padding: 8px 2px; border-bottom: 1px solid var(--bord); text-decoration: none; color: inherit; }
+.formation__lecon--a-venir { opacity: .55; }
+.formation__num { flex: none; width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: var(--or); color: var(--bleu-nuit); font-weight: 700; font-size: .85rem; }
+.formation__lecon--a-venir .formation__num { background: var(--surface-2, #eee); color: var(--texte-doux); }
+.devoir { margin-top: 16px; }
+.devoir ol { padding-left: 20px; line-height: 1.55; }
+.devoir li { margin-bottom: 8px; }
