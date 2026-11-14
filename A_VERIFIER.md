@@ -400,6 +400,7 @@ Ces textes sont originaux (plans inspirés de ubdavid.org, sans reprise de leurs
 - [ ] `content/enseignements/classiques/murray-2-en-esprit-et-en-verite.json` : En esprit et en vérité
 - [ ] `content/enseignements/classiques/murray-3-seul-avec-dieu.json` : Seul avec Dieu
 - [ ] `content/enseignements/classiques/spurgeon-227-contrains-les.json` : Contrains-les d'entrer
+- [ ] `content/enseignements/classiques/spurgeon-228-le-sang.json` : Le sang
 - [ ] `content/enseignements/classiques/spurgeon-44-repentance.json` : La repentance qui mène à la vie
 - [ ] `content/enseignements/classiques/spurgeon-60-regardez-a-moi.json` : Tournez-vous vers moi, et soyez sauvés
 
