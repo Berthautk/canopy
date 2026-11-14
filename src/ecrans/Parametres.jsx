@@ -4,6 +4,59 @@ import { reglages, modifierReglages } from '../donnees/reglages.js';
 import { useSignal } from '../outils/signal.js';
 import { profil, changerPhoto, retirerPhoto, changerPrenom } from '../donnees/profil.js';
 import { Avatar } from '../composants/Avatar.jsx';
+import { notifier } from '../composants/Notification.jsx';
+import { telechargerSauvegarde, partagerSauvegarde, lireSauvegarde, restaurer, libelle } from '../donnees/sauvegarde.js';
+
+// Sauvegarder / restaurer la progression (fichier .json, partage WhatsApp possible).
+function MesDonnees() {
+  const entree = useRef(null);
+  const [aRestaurer, setARestaurer] = useState(null);
+  const [erreur, setErreur] = useState('');
+  async function choisir(e) {
+    const f = e.target.files?.[0]; e.target.value = ''; setErreur('');
+    if (!f) return;
+    try { setARestaurer(await lireSauvegarde(f)); } catch (x) { setErreur(x.message); }
+  }
+  return (
+    <>
+      <div class="carte ligne-bloc">
+        <div class="ligne">
+          <span class="ligne__icone"><Icone nom="sauvegarder" /></span>
+          <span class="ligne__corps"><span class="ligne__titre" style="display:block">Sauvegarder ma progression</span>
+            <span class="ligne__desc">Favoris, notes, journal, plan, parcours, badges, réglages et photo, dans un fichier à garder.</span></span>
+        </div>
+        <div class="verset__actions" style="padding:0 12px 12px">
+          <button class="bouton bouton--plein bouton--petit" onClick={async () => { const k = await telechargerSauvegarde(); notifier(`Sauvegarde enregistrée (${k.length} éléments)`); }}>
+            <Icone nom="telecharger" taille={18} /> Enregistrer le fichier</button>
+          <button class="bouton bouton--whatsapp bouton--petit" onClick={async () => { const r = await partagerSauvegarde(); if (r === 'impossible') notifier('Partage impossible ici : enregistrez le fichier, puis envoyez-le.'); }}>
+            <Icone nom="partager" taille={18} /> Envoyer (WhatsApp…)</button>
+        </div>
+      </div>
+      <div class="carte ligne-bloc">
+        <div class="ligne">
+          <span class="ligne__icone"><Icone nom="restaurer" /></span>
+          <span class="ligne__corps"><span class="ligne__titre" style="display:block">Restaurer ma progression</span>
+            <span class="ligne__desc">Sur un nouveau téléphone, ou après avoir réinstallé l'application.</span></span>
+        </div>
+        <div style="padding:0 12px 12px">
+          {!aRestaurer ? <button class="bouton bouton--contour bouton--petit" onClick={() => entree.current.click()}>Choisir le fichier de sauvegarde</button> : (
+            <div class="restauration">
+              <p><b>Sauvegarde du {new Date(aRestaurer.date).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}</b></p>
+              <p class="ligne__desc">Contient : {Object.keys(aRestaurer.donnees).map(libelle).join(', ')}.</p>
+              <p class="restauration__alerte">Vos données actuelles sur ce téléphone seront remplacées.</p>
+              <div class="note-edition__pied">
+                <button class="bouton bouton--contour bouton--petit" onClick={() => setARestaurer(null)}>Annuler</button>
+                <button class="bouton bouton--plein bouton--petit" onClick={async () => { await restaurer(aRestaurer); notifier('Progression restaurée'); setTimeout(() => location.reload(), 700); }}>Restaurer</button>
+              </div>
+            </div>
+          )}
+          {erreur && <p class="verset__erreur" style="margin-top:8px">{erreur}</p>}
+          <input ref={entree} type="file" accept="application/json,.json" hidden onChange={choisir} />
+        </div>
+      </div>
+    </>
+  );
+}
 
 // Section « Mon profil » : photo et prénom, gardés uniquement sur ce téléphone.
 function MonProfil() {
@@ -85,18 +138,7 @@ export function Parametres() {
 
       <h2 class="titre-section">Mes données</h2>
       <div class="liste">
-        <div class="carte ligne">
-          <span class="ligne__icone"><Icone nom="sauvegarder" /></span>
-          <span class="ligne__corps"><span class="ligne__titre">Sauvegarder ma progression</span>
-            <span class="ligne__desc" style="display:block">Exporter un fichier, à garder ou à envoyer sur WhatsApp.</span></span>
-          <span class="pastille pastille--ref">Bientôt</span>
-        </div>
-        <div class="carte ligne">
-          <span class="ligne__icone"><Icone nom="restaurer" /></span>
-          <span class="ligne__corps"><span class="ligne__titre">Restaurer ma progression</span>
-            <span class="ligne__desc" style="display:block">Importer un fichier de sauvegarde.</span></span>
-          <span class="pastille pastille--ref">Bientôt</span>
-        </div>
+        <MesDonnees />
         <a class="carte ligne" href="#/telechargements">
           <span class="ligne__icone"><Icone nom="telecharger" /></span>
           <span class="ligne__corps"><span class="ligne__titre">Mes téléchargements</span>
