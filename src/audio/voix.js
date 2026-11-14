@@ -11,6 +11,14 @@ const maj = (c) => { voix.valeur = { ...voix.valeur, ...c }; };
 
 let blocs = [], phrases = [], iPhrase = 0, generation = 0;
 
+// Garder l'écran allumé pendant la lecture : le navigateur coupe la voix de synthèse quand le téléphone se met en veille.
+let eveil = null;
+async function garderEveille() {
+  try { if ('wakeLock' in navigator && !eveil && document.visibilityState === 'visible') { eveil = await navigator.wakeLock.request('screen'); eveil.addEventListener?.('release', () => { eveil = null; }); } } catch { eveil = null; }
+}
+function relacherEveil() { try { eveil?.release(); } catch {} eveil = null; }
+if (typeof document !== 'undefined') document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && voix.valeur.lecture) garderEveille(); });
+
 function voixFrancaise() {
   const l = speechSynthesis.getVoices().filter((v) => v.lang?.toLowerCase().startsWith('fr'));
   return l.find((v) => v.localService && /fr[-_]FR/i.test(v.lang)) || l.find((v) => v.localService) || l[0] || null;
@@ -45,7 +53,7 @@ async function preparerBloc(i) {
 
 async function lireBloc(i, g) {
   if (g !== generation) return;
-  if (i >= blocs.length) { maj({ lecture: false, index: 0, termine: true }); return; }
+  if (i >= blocs.length) { maj({ lecture: false, index: 0, termine: true }); relacherEveil(); return; }
   maj({ index: i, lecture: true });
   phrases = await preparerBloc(i); iPhrase = 0;
   if (g !== generation) return;
@@ -72,13 +80,14 @@ export function lireAVoixHaute(id, listeBlocs, depuis = 0) {
   pauseAudio();                                   // pas deux sons en même temps
   speechSynthesis.cancel(); generation++;
   blocs = listeBlocs.map((b) => b || {});   // les blocs vides sont sautés à la lecture, sans décaler la numérotation
+  garderEveille();
   maj({ id, total: blocs.length, termine: false, aucuneVoixFr: speechSynthesis.getVoices().length > 0 && !voixFrancaise() });
   lireBloc(depuis, generation);
 }
 // « Pause » = arrêt en gardant la position (la vraie pause est peu fiable sur Android).
-export function pauseVoix() { generation++; speechSynthesis.cancel(); maj({ lecture: false }); }
-export function reprendreVoix() { if (voix.valeur.id) { speechSynthesis.cancel(); generation++; lireBloc(voix.valeur.index, generation); } }
-export function arreterVoix() { generation++; if (voix.valeur.disponible) speechSynthesis.cancel(); maj({ id: null, lecture: false, index: 0, total: 0 }); }
+export function pauseVoix() { generation++; speechSynthesis.cancel(); maj({ lecture: false }); relacherEveil(); }
+export function reprendreVoix() { if (voix.valeur.id) { garderEveille(); speechSynthesis.cancel(); generation++; lireBloc(voix.valeur.index, generation); } }
+export function arreterVoix() { relacherEveil(); generation++; if (voix.valeur.disponible) speechSynthesis.cancel(); maj({ id: null, lecture: false, index: 0, total: 0 }); }
 export function sauterVoix(sens) { const i = Math.max(0, Math.min(blocs.length - 1, voix.valeur.index + sens)); speechSynthesis.cancel(); generation++; lireBloc(i, generation); }
 export function vitesseVoix(v) { maj({ vitesse: v }); if (voix.valeur.lecture) reprendreVoix(); }
 if (typeof speechSynthesis !== 'undefined') speechSynthesis.onvoiceschanged = () => {};   // charge la liste des voix

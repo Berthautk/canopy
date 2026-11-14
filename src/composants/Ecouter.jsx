@@ -34,6 +34,7 @@ export function BarreEcoute({ id, blocs, titre = 'Écouter' }) {
               {VITESSES_VOIX.map((x) => <button aria-pressed={v.vitesse === x} onClick={() => vitesseVoix(x)}>{String(x).replace('.', ',')}×</button>)}
             </span>
           </div>
+          <p class="ligne__desc" style="margin:6px 0 0">L'écran reste allumé pendant la lecture (le téléphone coupe la voix s'il se met en veille).</p>
           {v.aucuneVoixFr && <p class="ligne__desc">Aucune voix française trouvée : dans les réglages du téléphone, installez la voix française de « Synthèse vocale ».</p>}
         </>
       )}
