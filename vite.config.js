@@ -51,5 +51,6 @@ export default defineConfig({
       },
     }),
   ],
-  build: { target: 'es2019', assetsInlineLimit: 0 },
+  // Le code de l'app va dans dist/app/ (et non dist/assets/, réservé aux illustrations de public/assets).
+  build: { target: 'es2019', assetsInlineLimit: 0, assetsDir: 'app' },
 });
