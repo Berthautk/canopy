@@ -74,6 +74,52 @@
    ]
   },
   {
+   "id": "salut-21",
+   "format": "veille",
+   "titre": "21 jours pour le salut d'un proche",
+   "court": "Salut d'un proche",
+   "duree": 21,
+   "description": "Pour un parent, un enfant, un conjoint ou un ami qui ne connaît pas Jésus, ou qui s'est éloigné de lui. Chaque jour : un texte, un partage, des sujets de prière et un axe pour la gloire de Dieu. Tu peux jeûner pendant ces jours si tu le désires.",
+   "intro": [
+    {
+     "t": "h",
+     "x": "Pourquoi prier pour le salut de {nom}"
+    },
+    {
+     "t": "p",
+     "x": "Le salut de {nom} est l'affaire la plus importante de sa vie, plus que sa santé, son travail ou son mariage. Dieu veut que tous les hommes soient sauvés et parviennent à la connaissance de la vérité. Mais il a choisi de répondre aux prières de ceux qui intercèdent."
+    },
+    {
+     "t": "p",
+     "x": "Pendant ces 21 jours, nous allons prier selon la Parole : pour que les yeux de {nom} soient ouverts, que le Saint-Esprit {le} convainque, que Dieu envoie des ouvriers sur son chemin, que ses chaînes soient brisées, et que notre propre vie lui donne envie de connaître Jésus."
+    },
+    {
+     "t": "h",
+     "x": "Comment prier chaque jour"
+    },
+    {
+     "t": "li",
+     "x": "Lis le texte du jour à voix haute, puis le partage."
+    },
+    {
+     "t": "li",
+     "x": "Prie chaque sujet avec tes propres mots, en nommant {nom}."
+    },
+    {
+     "t": "li",
+     "x": "Termine par l'axe « pour la gloire de Dieu » : nous demandons que {nom}, une fois sauvé{e}, devienne {lui}-même un témoin."
+    },
+    {
+     "t": "li",
+     "x": "Si tu le peux, jeûne un repas ou une demi-journée certains jours, et transforme ta faim en prière pour {nom}."
+    },
+    {
+     "t": "p",
+     "x": "Après les 21 jours, ne t'arrête pas : passe à la Veille, un jour une prière, et continue jusqu'à la réponse. Dieu est fidèle."
+    }
+   ]
+  },
+  {
    "id": "veille",
    "titre": "La Veille : un jour, une prière",
    "court": "La Veille",

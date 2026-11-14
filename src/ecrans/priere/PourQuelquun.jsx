@@ -161,7 +161,7 @@ function JourPQ({ n, c }) {
       <ol class="pq-liste">{d.soir.map((x) => <li><TexteRefs texte={a(x)} /></li>)}</ol>
       <p class="orizon-p">Priez ensemble selon le cri du jour, puis rendez grâce d'avance. Avant de dormir : « {a('{nom} vivra et ne mourra pas, et {il} racontera les œuvres de l\'Éternel.')} » (Psaume 118:17)</p>
     </>;
-  } else if (e.id === 'veille') {
+  } else if ((e.format || e.id) === 'veille') {
     guide = { introduction: `Texte du jour, ${j.refs} : ${a(j.citation, true)} ${a(j.partage)} Ce que je contemple de Dieu : ${a(j.contemple)}`,
       etapes: [{ titre: 'Prière, supplication et action de grâce', sujets: j.prieres.map(S) }, { titre: 'Pour la gloire de Dieu', sujets: [S(j.axe)] }] };
     contenu = <>
