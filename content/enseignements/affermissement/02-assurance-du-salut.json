@@ -502,5 +502,9 @@
  ],
  "source": "Enseignement rédigé pour Yeshaya (série « Affermissement »), à relire par un pasteur.",
  "date_ajout": "2026-11-14",
- "relu": false
+ "relu": false,
+ "prieres_liees": [
+  "theme:priere-foi-et-confiance",
+  "theme:priere-sang-de-jesus"
+ ]
 }

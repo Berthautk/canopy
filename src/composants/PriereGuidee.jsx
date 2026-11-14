@@ -10,8 +10,8 @@ const CONSIGNE = "Écoute le sujet de prière. Puis prie, avec tes propres mots,
 // Prière guidée à la voix, pour ceux qui ne lisent pas (ou pas facilement) :
 // la voix lit un sujet, la personne prie, puis appuie sur « J'ai prié » pour passer au suivant.
 // etapes = [{ titre, texte?, sujets: [{ titre?, texte }] }]
-export function PriereGuidee({ id, titre, etapes }) {
-  const [ouvert, setOuvert] = useState(false);
+export function PriereGuidee({ id, titre, etapes, auto }) {
+  const [ouvert, setOuvert] = useState(!!auto);
   const v = useSignal(voix);
   if (!v.disponible) return null;
   return (

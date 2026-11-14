@@ -8,6 +8,7 @@ import { chargerEnseignement } from '../../donnees/contenu.js';
 import { partager } from '../../outils/partage.js';
 import { SujetsACocher, blocsSujets } from '../priere/Veille.jsx';
 import { compter } from '../../donnees/mesure.js';
+import { PRIERES, COMBAT, VEILLES } from '../../donnees/contenu.js';
 
 // Liste ordonnée de tout ce qui se lit à voix haute ; l'index sert aussi au surlignage.
 function plan(e) {
@@ -72,6 +73,7 @@ export function EnseignementEcrit({ id }) {
       ))}
       {e.sujets?.length > 0 && <><h2 class="titre-section" {...va(pos.sujets)}>Sujets de prière</h2><SujetsACocher sujets={e.sujets} voixId={id} debut={pos.sujets + 1} /></>}
       {e.questions?.length > 0 && <Questions e={e} />}
+      {e.prieres_liees?.length > 0 && <PrieresLiees liens={e.prieres_liees} />}
       <LienVideo url={e.video} duree={e.video_duree} auteur={e.auteur} />
       <button class="bouton bouton--contour" style="width:100%;margin-top:16px" onClick={() => partager({ titre: e.titre, texte: `${e.titre}\n${e.resume}${e.video ? '\nVidéo : ' + e.video : ''}`, chemin: 'grandir/enseignement/' + e.id })}>
         <Icone nom="partager" taille={18} /> Partager cet enseignement</button>
@@ -115,6 +117,31 @@ function Questions({ e }) {
             <p class="score-ens">{bonnes} bonne{bonnes > 1 ? 's' : ''} réponse{bonnes > 1 ? 's' : ''} sur {qs.length}. {bonnes === qs.length ? 'Bravo, tu as compris l\'essentiel !' : 'Relis les points indiqués, puis réessaie.'}</p>
             <button class="bouton bouton--contour" style="width:100%" onClick={() => { setRep({}); setVerifie(false); }}>Recommencer</button>
           </>}
+    </section>
+  );
+}
+
+// Fin d'enseignement : passer directement à la prière qui correspond (en mode guidé à la voix).
+function PrieresLiees({ liens }) {
+  const items = liens.map((l) => {
+    const [type, id] = l.split(':');
+    const x = type === 'theme' ? PRIERES.find((p) => p.id === id) : type === 'combat' ? COMBAT.find((c) => c.id === id) : VEILLES.find((v) => v.id === 'veille-' + id);
+    return x && { titre: x.titre, image: x.image, lien: `#/priere/${type}/${id}?guide=1` };
+  }).filter(Boolean);
+  if (!items.length) return null;
+  return (
+    <section class="carte bloc prieres-liees">
+      <h3><span class="ligne__icone"><Icone nom="priere" /></span> Et maintenant, passe à la prière</h3>
+      <p class="ligne__desc">Ce que tu viens d'entendre doit devenir prière. Choisis un moment de prière guidé à la voix :</p>
+      <div class="liste">
+        {items.map((it) => (
+          <a class="carte theme" href={it.lien}>
+            {it.image && <img src={it.image} alt="" loading="lazy" />}
+            <span class="ligne__corps"><span class="ligne__titre" style="display:block">{it.titre}</span><span class="ligne__desc">Écoute, répète et prie</span></span>
+            <Icone nom="chevron" taille={20} />
+          </a>
+        ))}
+      </div>
     </section>
   );
 }

@@ -545,3 +545,5 @@
 @keyframes secoue { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
 @keyframes monte { from { transform: translateY(10px); opacity: 0; } to { transform: none; opacity: 1; } }
 @media (prefers-reduced-motion: reduce) { .confettis, .combo, .fin-niveau__emoji, .fin-niveau__etoiles span, .nouveau-rang, .choix--faux, .reponse-chemin { animation: none !important; } }
+
+.prieres-liees { margin-top: 16px; border: 2px solid var(--or); }

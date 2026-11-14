@@ -14,5 +14,9 @@
  "audio": "/audio-exemples/exemple-2.mp3",
  "duree": "0:50",
  "date_ajout": "2026-11-14",
- "exemple": true
+ "exemple": true,
+ "prieres_liees": [
+  "theme:priere-prier-sans-cesse",
+  "veille:aube"
+ ]
 }

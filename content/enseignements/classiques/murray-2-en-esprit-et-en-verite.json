@@ -102,5 +102,9 @@
  "date_ajout": "2026-11-14",
  "relu": false,
  "source": "Andrew Murray, « With Christ in the School of Prayer » (1885). Texte anglais du domaine public (bibliothèque openchristianlibrary).",
- "traduction": "Traduction française réalisée pour Yeshaya (avec l'aide d'une IA), à relire. Leçon traduite presque intégralement. Les citations bibliques sont données dans la version Louis Segond 1910."
+ "traduction": "Traduction française réalisée pour Yeshaya (avec l'aide d'une IA), à relire. Leçon traduite presque intégralement. Les citations bibliques sont données dans la version Louis Segond 1910.",
+ "prieres_liees": [
+  "theme:priere-prier-sans-cesse",
+  "veille:aube"
+ ]
 }

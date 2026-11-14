@@ -152,5 +152,9 @@
  "autorisation": "domaine_public",
  "date_ajout": "2026-11-14",
  "relu": false,
- "traduction": "Traduction française abrégée réalisée pour Yeshaya (avec l'aide d'une IA), à relire. Les citations bibliques sont données dans la version Louis Segond 1910."
+ "traduction": "Traduction française abrégée réalisée pour Yeshaya (avec l'aide d'une IA), à relire. Les citations bibliques sont données dans la version Louis Segond 1910.",
+ "prieres_liees": [
+  "theme:priere-sang-de-jesus",
+  "theme:priere-moment-de-repentance"
+ ]
 }

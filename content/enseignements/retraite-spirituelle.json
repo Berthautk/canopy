@@ -171,5 +171,9 @@
  "auteur": "L'Arsenal de la Sentinelle",
  "autorisation": "oui",
  "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
- "date_ajout": "2026-11-14"
+ "date_ajout": "2026-11-14",
+ "prieres_liees": [
+  "theme:priere-prier-sans-cesse",
+  "veille:aube"
+ ]
 }

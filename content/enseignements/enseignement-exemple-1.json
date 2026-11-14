@@ -14,5 +14,8 @@
  "audio": "/audio-exemples/exemple-1.mp3",
  "duree": "0:50",
  "date_ajout": "2026-11-14",
- "exemple": true
+ "exemple": true,
+ "prieres_liees": [
+  "theme:priere-connaitre-jesus"
+ ]
 }
