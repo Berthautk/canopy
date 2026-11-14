@@ -5,18 +5,21 @@
  "titre": "Expliquer le salut simplement",
  "image": "/assets/symboles/croix-coucher-de-soleil.webp",
  "texte": [
-  "Utilisez « Le chemin du salut » de la section Bible : 8 versets, un par un, avec une courte explication.",
-  "Laissez la personne lire elle-même les versets avec le bouton « Montrer ».",
-  "Posez des questions plutôt que de faire un discours, et respectez son rythme."
+  "Beaucoup de chrétiens savent qu'ils sont sauvés, mais ne savent pas expliquer comment. Or le message tient en quelques phrases. Paul le résume ainsi : Christ est mort pour nos péchés, selon les Écritures ; il a été enseveli, et il est ressuscité le troisième jour (1 Corinthiens 15:3-4).",
+  "Première vérité : Dieu nous a créés pour vivre avec lui, et il nous aime. Il n'est pas un juge lointain, mais un Père qui cherche ses enfants (Jean 3:16).",
+  "Deuxième vérité : nous avons tous péché. Mentir, voler, convoiter, haïr, vivre sans Dieu : tous ont péché et sont privés de la gloire de Dieu (Romains 3:23). Le péché nous sépare de Dieu, et le salaire du péché, c'est la mort (Romains 6:23). Il faut le dire clairement : sans cela, la croix n'a aucun sens.",
+  "Troisième vérité : nous ne pouvons pas nous sauver nous-mêmes. Ni les bonnes œuvres, ni la religion, ni les sacrifices ne peuvent effacer le péché. Mais Dieu a fait ce que nous ne pouvions pas faire : Jésus, le Fils de Dieu, est mort à notre place sur la croix et il est ressuscité (Romains 5:8).",
+  "Quatrième vérité : il faut répondre personnellement. Se repentir, c'est se détourner du péché ; croire, c'est faire confiance à Jésus seul pour être sauvé. Si tu confesses de ta bouche le Seigneur Jésus, et si tu crois dans ton cœur que Dieu l'a ressuscité des morts, tu seras sauvé (Romains 10:9).",
+  "Ne t'arrête pas à l'explication : pose la question. « Est-ce que cela a du sens pour toi ? Veux-tu recevoir Jésus aujourd'hui ? » Puis, si la personne dit oui, prie avec elle et montre-lui « Le chemin du salut » et le parcours « Nouveau converti » dans Yeshaya."
  ],
  "versets": [
+  "1 Co 15:3-4",
   "Rm 3:23",
   "Rm 6:23",
-  "Jn 3:16",
   "Rm 10:9"
  ],
- "auteur": "Nom de l'orateur",
+ "auteur": "Yeshaya",
  "autorisation": "oui",
  "date_ajout": "2026-11-14",
- "exemple": true
+ "question": "Comment expliquer l'Évangile en quelques minutes à quelqu'un qui n'y connaît rien ?"
 }

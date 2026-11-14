@@ -21,24 +21,44 @@
   },
   {
    "personne": "Esther",
-   "texte": "J'ai peur. Je ne sais pas comment je vais payer le loyer."
+   "texte": "J'ai peur. On m'a licenciée sans prévenir. Je ne sais pas comment je vais payer le loyer, ni la scolarité des enfants."
   },
   {
    "personne": "Grâce",
-   "texte": "Je ne peux pas tout régler, mais je suis là. Est-ce que je peux t'aider à chercher du travail cette semaine ?"
+   "texte": "Je ne vais pas te dire que tout ira bien demain, je ne le sais pas. Mais je suis là. J'ai apporté un peu de riz et d'huile. Et je peux t'aider à refaire ton CV cette semaine."
   },
   {
    "personne": "Esther",
-   "texte": "Oui, merci… Tu crois que Dieu voit ce que je vis ?"
+   "texte": "Merci… Mais parfois je me demande : si Dieu existe, pourquoi il me laisse dans cette situation ?"
   },
   {
    "personne": "Grâce",
-   "texte": "Oui, j'en suis sûre. Il est près de ceux qui ont le cœur brisé. Si tu veux, je peux prier avec toi maintenant."
+   "texte": "Je me suis posé la même question quand mon mari est tombé malade. Je n'ai pas toutes les réponses. Mais j'ai découvert une chose : Dieu ne m'a pas laissée seule dedans. La Bible dit : l'Éternel est près de ceux qui ont le cœur brisé."
+  },
+  {
+   "personne": "Esther",
+   "texte": "Tu crois vraiment qu'il voit ce que je vis ?"
+  },
+  {
+   "personne": "Grâce",
+   "texte": "Oui. Jésus lui-même a souffert : il a été trahi, abandonné, et il est mort sur une croix. Il ne regarde pas ta douleur de loin. Et il est mort pour quelque chose de plus profond encore que nos problèmes d'argent : pour nos péchés, pour que nous puissions être réconciliés avec Dieu."
+  },
+  {
+   "personne": "Esther",
+   "texte": "Je ne suis pas sûre d'être prête pour tout ça."
+  },
+  {
+   "personne": "Grâce",
+   "texte": "Tu n'as pas besoin d'avoir tout compris aujourd'hui. Est-ce que je peux prier avec toi maintenant, simplement ? Et dimanche, si tu veux, viens avec moi à l'église. Il y a des gens qui t'aideront aussi à chercher du travail."
+  },
+  {
+   "personne": "Esther",
+   "texte": "D'accord. Prie, s'il te plaît."
   }
  ],
  "verset_a_partager": "Ps 34:19",
- "auteur": "Nom de l'orateur",
+ "auteur": "Yeshaya",
  "autorisation": "oui",
  "date_ajout": "2026-11-14",
- "exemple": true
+ "duree": "3 min"
 }

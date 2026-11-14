@@ -14,22 +14,38 @@
  ],
  "sujets": [
   {
-   "texte": "La paix et la sécurité dans le pays."
+   "titre": "La paix",
+   "texte": "Prions pour la paix et la sécurité dans notre pays, et pour la fin des violences. (Psaume 122:7 ; Jérémie 29:7)"
   },
   {
-   "texte": "La sagesse et l'intégrité pour les dirigeants."
+   "titre": "Les dirigeants",
+   "texte": "Prions pour la sagesse et l'intégrité des dirigeants, afin que nous menions une vie paisible. (1 Timothée 2:1-2)"
   },
   {
-   "texte": "Les familles qui manquent du nécessaire."
+   "titre": "La justice",
+   "texte": "Prions afin que la justice élève notre nation et que la corruption recule. (Proverbes 14:34)"
   },
   {
-   "texte": "L'unité entre les chrétiens."
+   "titre": "Les familles pauvres",
+   "texte": "Prions pour les familles qui manquent du nécessaire, et pour que l'Église les secoure. (Proverbes 19:17)"
+  },
+  {
+   "titre": "La repentance",
+   "texte": "Prions afin que le peuple de Dieu s'humilie, prie, cherche sa face et se détourne de ses mauvaises voies. (2 Chroniques 7:14)"
+  },
+  {
+   "titre": "L'unité des chrétiens",
+   "texte": "Prions pour l'unité des chrétiens au-delà des tribus et des dénominations. (Jean 17:21)"
+  },
+  {
+   "titre": "L'Évangile",
+   "texte": "Prions afin que l'Évangile touche toutes les régions et toutes les ethnies du pays. (Matthieu 24:14)"
   }
  ],
  "priere": "Seigneur, je te présente mon pays. Donne-nous la paix et la justice. Accorde la sagesse à ceux qui nous dirigent, et que ton Évangile touche beaucoup de cœurs. Amen.",
- "auteur": "Nom de l'orateur",
+ "auteur": "Yeshaya",
  "autorisation": "oui",
  "date_ajout": "2026-11-14",
- "exemple": true,
- "enseignement_lie": "enseignement-personne-n-intercede"
+ "enseignement_lie": "enseignement-personne-n-intercede",
+ "nom_court": "Mon pays"
 }

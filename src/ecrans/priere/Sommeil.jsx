@@ -34,13 +34,14 @@ export function Sommeil() {
     <div class="page sommeil">
       <div class="sommeil__tete"><Icone nom="lune" taille={36} /><h2>Prier pour s'endormir</h2>
         <p>La voix lit lentement un psaume et une courte prière. Pose ton téléphone, ferme les yeux, et confie ta nuit à Dieu.</p></div>
+      <BarreEcoute key={id} id={id} blocs={blocs} titre={'Écouter : ' + s.titre} />
+      <p class="ligne__titre" style="margin:14px 4px 6px">Arrêter la voix après</p>
+      <div class="segments" role="group" aria-label="Minuteur">{MINUTES.map((m) => <button aria-pressed={min === m} onClick={() => setMin(m)}>{m ? m + ' min' : 'la fin'}</button>)}</div>
+      <p class="ligne__titre" style="margin:14px 4px 6px">Choisir la prière du soir</p>
       <div class="liste">{SOIREES.map((x) => (
         <button class={'carte ligne sommeil__choix' + (x.id === s.id ? ' sommeil__choix--actif' : '')} onClick={() => { arreterVoix(); setS(x); }}>
           <span class="ligne__icone"><Icone nom="lune" /></span><span class="ligne__corps"><span class="ligne__titre">{x.titre}</span></span>
           {x.id === s.id && <Icone nom="verifie" taille={20} />}</button>))}</div>
-      <p class="ligne__titre" style="margin:14px 4px 6px">Arrêter la voix après</p>
-      <div class="segments" role="group" aria-label="Minuteur">{MINUTES.map((m) => <button aria-pressed={min === m} onClick={() => setMin(m)}>{m ? m + ' min' : 'la fin'}</button>)}</div>
-      <BarreEcoute key={id} id={id} blocs={blocs} titre={'Écouter : ' + s.titre} />
       <section class="carte bloc">
         <h3 {...va(0)} style="margin-top:0">{s.titre}</h3>
         <Psaume reference={s.psaume} attr={va(1)} />

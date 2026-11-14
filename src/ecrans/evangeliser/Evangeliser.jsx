@@ -1,8 +1,7 @@
 import { useState } from 'preact/hooks';
 import { Icone } from '../../composants/Icone.jsx';
 import { CarteVerset } from '../../composants/Verset.jsx';
-import { BoutonLecture } from '../../composants/Audio.jsx';
-import { EVANGELISATION, DIALOGUES, AUDIOS, OUTILS, APPROCHES, CONVERSATIONS } from '../../donnees/contenu.js';
+import { EVANGELISATION, DIALOGUES, OUTILS, APPROCHES, CONVERSATIONS } from '../../donnees/contenu.js';
 import { partager } from '../../outils/partage.js';
 import { BarreEcoute } from '../../composants/Ecouter.jsx';
 
@@ -71,7 +70,6 @@ export function Evangeliser() {
 export function Article({ id }) {
   const a = EVANGELISATION.find((x) => x.id === id);
   if (!a) return <div class="page"><p class="ligne__desc">Contenu introuvable.</p></div>;
-  const piste = AUDIOS[a.id];
   return (
     <div class="page">
       <div class="theme-hero">
@@ -79,11 +77,10 @@ export function Article({ id }) {
         <div class="theme-hero__texte"><span class="pastille pastille--or">{SECTIONS.find((s) => s[0] === a.type)?.[1]}</span><h2>{a.titre}</h2></div>
       </div>
       {a.exemple && <p style="margin:8px 4px 0"><span class="etiquette-exemple">EXEMPLE</span> Contenu de démonstration.</p>}
-      {!AUDIOS[a.id] && <BarreEcoute id={a.id} titre="Écouter" blocs={[{ texte: a.titre + (a.question ? '. La question : ' + a.question : '') }, ...a.texte.map((t) => ({ texte: t })), ...a.versets.map((r) => ({ reference: r }))]} />}
+      <BarreEcoute id={a.id} titre="Écouter" blocs={[{ texte: a.titre + (a.question ? '. La question : ' + a.question : '') }, ...a.texte.map((t) => ({ texte: t })), ...a.versets.map((r) => ({ reference: r }))]} />
       {a.question && <section class="carte bloc question"><Icone nom="info" taille={20} /><p><b>La question :</b> {a.question}</p></section>}
       <section class="carte bloc article">
         {a.texte.map((t) => <p>{t}</p>)}
-        {piste && <div class="bloc__audio"><BoutonLecture piste={piste} taille={44} /><a class="ligne__corps" href={'#/ecouter/' + piste.id}><span class="ligne__titre">Écouter</span></a></div>}
       </section>
       <h2 class="titre-section">Versets</h2>
       <div class="liste">{a.versets.map((r) => <CarteVerset reference={r} />)}</div>

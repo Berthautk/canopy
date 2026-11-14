@@ -4,20 +4,22 @@
  "ordre": 3,
  "titre": "« Jésus, un prophète ou le Fils de Dieu ? »",
  "image": "/assets/evangelisation/dialogue-entre-femmes.webp",
- "question": "Pour un ami musulman, Jésus (Issa) est un grand prophète. Comment parler de lui comme du Fils de Dieu ?",
+ "question": "Pour beaucoup, Jésus est un grand prophète, mais pas plus. Comment montrer qu'il est le Fils de Dieu ?",
  "texte": [
-  "Commencez par ce qui vous rapproche : votre ami respecte Jésus, et il croit en un seul Dieu, comme vous.",
-  "Évitez les débats et les moqueries. Ne critiquez jamais sa foi ni le prophète qu'il honore : cela ferme le dialogue et blesse.",
-  "Proposez simplement de lire ensemble ce que les Évangiles rapportent de Jésus : ses paroles, son pardon, sa résurrection. Laissez le texte parler.",
-  "Expliquez que, pour les chrétiens, « Fils de Dieu » ne veut pas dire que Dieu a eu un enfant à la manière des hommes : cela exprime une relation unique entre Jésus et Dieu."
+  "Commence par ce qui vous rapproche : beaucoup de gens, en particulier les musulmans, respectent Jésus. Ils croient qu'il est né d'une vierge, qu'il a fait des miracles et qu'il reviendra. C'est un excellent point de départ.",
+  "Puis regarde ce que Jésus a dit de lui-même. Il a pardonné les péchés, ce que seul Dieu peut faire, et les religieux l'ont accusé de blasphème (Marc 2:5-7). Il a dit : avant qu'Abraham fût, je suis, reprenant le nom de Dieu, et on a voulu le lapider (Jean 8:58-59). Il a accepté que Thomas l'appelle « mon Seigneur et mon Dieu » (Jean 20:28). Un simple prophète aurait refusé.",
+  "Explique ce que « Fils de Dieu » veut dire. Cela ne signifie pas que Dieu a eu une femme et un enfant : les chrétiens rejettent cette idée autant que les musulmans. Cela signifie que Jésus partage la nature de Dieu et une relation unique et éternelle avec le Père. Au commencement était la Parole, et la Parole était avec Dieu, et la Parole était Dieu… et la Parole a été faite chair (Jean 1:1, 14).",
+  "Pose la question de C. S. Lewis : un homme qui dit ce que Jésus a dit est soit un menteur, soit un fou, soit le Seigneur. On ne peut pas en faire seulement un bon prophète : il ne nous a pas laissé cette possibilité.",
+  "La résurrection est la preuve finale. Jésus a été déclaré Fils de Dieu avec puissance par sa résurrection d'entre les morts (Romains 1:4). Aucun autre prophète n'a annoncé sa mort et sa résurrection, et ne l'a accomplie.",
+  "Propose de lire ensemble l'évangile de Jean, écrit justement afin que vous croyiez que Jésus est le Christ, le Fils de Dieu (Jean 20:31). Dans Yeshaya, l'approche « Musulmans » contient d'autres réponses."
  ],
  "versets": [
-  "Mc 1:1",
   "Jn 1:1",
+  "Jn 20:28",
+  "Rm 1:4",
   "Jn 20:31"
  ],
- "auteur": "Nom de l'orateur",
+ "auteur": "Yeshaya",
  "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "exemple": true
+ "date_ajout": "2026-11-14"
 }

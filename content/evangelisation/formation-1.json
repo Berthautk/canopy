@@ -5,17 +5,20 @@
  "titre": "Raconter son témoignage en 3 minutes",
  "image": "/assets/evangelisation/temoignage-au-micro.webp",
  "texte": [
-  "1. Avant : comment était ta vie avant de connaître Jésus ? (une ou deux phrases, sans détails choquants)",
-  "2. La rencontre : comment as-tu compris que tu avais besoin de lui, et comment l'as-tu reçu ?",
-  "3. Depuis : qu'est-ce qui a changé ? Sois concret et honnête : la vie chrétienne n'est pas sans difficultés.",
-  "Termine par une question simple : « Et toi, qu'en penses-tu ? »"
+  "Ton témoignage est l'outil d'évangélisation le plus simple que tu possèdes. Personne ne peut contester ce que Dieu a fait dans ta vie. On peut discuter d'une doctrine, on ne peut pas discuter de ton histoire. L'aveugle guéri par Jésus ne savait pas répondre aux questions des pharisiens, mais il a dit : je sais une chose, c'est que j'étais aveugle et que maintenant je vois (Jean 9:25).",
+  "Un bon témoignage tient en trois parties. Premièrement, ma vie avant Jésus : ce que je cherchais, ce qui me pesait, sans glorifier le péché ni raconter tous les détails. Deuxièmement, comment j'ai rencontré Jésus : qui m'a parlé, quel verset m'a touché, ce que j'ai compris du péché et de la croix, et ce que j'ai fait. Troisièmement, ma vie depuis : ce qui a changé concrètement, et ce qui reste un combat.",
+  "Sois vrai. N'invente pas, n'exagère pas. Ne dis pas que tous tes problèmes ont disparu si ce n'est pas le cas. Les gens sentent quand on enjolive. Dis plutôt : « Je ne suis pas parfait, mais je ne suis plus seul, je suis pardonné, et je sais où je vais. »",
+  "Parle de Jésus, pas seulement de toi. Le but n'est pas que les gens t'admirent, mais qu'ils voient ce que Jésus peut faire. Ton témoignage doit contenir l'Évangile : nous avons péché, Jésus est mort pour nous et il est ressuscité, il faut se repentir et croire en lui.",
+  "Évite le jargon d'église : « j'ai été lavé dans le sang », « je suis né de nouveau », « j'ai reçu l'onction ». Ces expressions sont vraies, mais celui qui ne va pas à l'église ne les comprend pas. Dis-le avec des mots simples.",
+  "Termine par une question : « Et toi, est-ce que tu as déjà pensé à ces choses ? » Puis écoute. Dans Yeshaya, l'outil « Mon témoignage » t'aide à écrire le tien en trois parties et à t'entraîner à le dire en trois minutes."
  ],
  "versets": [
-  "1 Pi 3:15",
-  "Mc 5:19"
+  "Jn 9:25",
+  "1 P 3:15",
+  "Ac 26:12-18"
  ],
- "auteur": "Nom de l'orateur",
+ "auteur": "Yeshaya",
  "autorisation": "oui",
  "date_ajout": "2026-11-14",
- "exemple": true
+ "question": "Comment raconter ce que Jésus a fait dans ma vie, simplement, sans prêcher pendant une heure ?"
 }

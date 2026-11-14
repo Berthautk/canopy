@@ -3,6 +3,7 @@ import { usePassage, TextePassage, cheminMontrer, cheminLire } from '../../compo
 import { CHEMIN_DU_SALUT as C } from '../../donnees/contenu.js';
 import { ecrireReference, lireReference } from '../../bible/references.js';
 import { partager } from '../../outils/partage.js';
+import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 
 // Écran 22 : le chemin du salut, un verset à la fois avec une courte explication.
 export function Chemin({ etape }) {
@@ -15,6 +16,7 @@ export function Chemin({ etape }) {
           <img src="/assets/jesus/jesus-main-tendue.webp" alt="" />
           <div><h2>{C.titre}</h2><p>{C.introduction}</p></div>
         </div>
+        <BarreEcoute id="chemin-du-salut" titre="Écouter tout le chemin du salut" blocs={[{ texte: C.titre + '. ' + C.introduction }, ...C.etapes.flatMap((e, i) => [{ texte: `Étape ${i + 1} : ${e.titre}.` }, { reference: e.reference }, { texte: e.explication }])]} />
         <ol class="etapes">
           {C.etapes.map((e, i) => (
             <li><a class="carte etape" href={`#/bible/chemin/${i + 1}`}>
@@ -37,18 +39,20 @@ export function Chemin({ etape }) {
 function Etape({ e, n, total }) {
   const etat = usePassage(e.reference);
   const r = etat.ref;
+  const va = useVoixActive('chemin-' + n);
   return (
     <div class="page chemin-etape">
       <div class="progression progression--fine" aria-label={`Étape ${n} sur ${total}`}><span style={{ width: (n / total) * 100 + '%' }} /></div>
       <p class="chemin-etape__compteur">Étape {n} sur {total}</p>
-      <h2 class="chemin-etape__titre">{e.titre}</h2>
-      <section class="carte chemin-etape__verset">
+      <h2 class="chemin-etape__titre" {...va(0)}>{e.titre}</h2>
+      <BarreEcoute id={'chemin-' + n} titre="Écouter cette étape" blocs={[{ texte: e.titre + '.' }, { reference: e.reference }, { texte: e.explication }]} />
+      <section class="carte chemin-etape__verset" {...va(1)}>
         <TextePassage etat={etat} grand />
         {r && <span class="pastille pastille--or">{ecrireReference(r)}</span>}
       </section>
       <section class="carte chemin-etape__explication">
         <span class="ligne__icone"><Icone nom="ampoule" /></span>
-        <p>{e.explication}</p>
+        <p {...va(2)}>{e.explication}</p>
       </section>
       {r && (
         <div class="verset__actions" style="justify-content:center">

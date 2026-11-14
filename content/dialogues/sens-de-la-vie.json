@@ -4,8 +4,7 @@
  "titre": "Un ami cherche un sens à sa vie",
  "situation": "Paul, chrétien, parle avec son ami Jean qui se sent vide.",
  "image": "/assets/evangelisation/partage-bible-dans-la-rue.webp",
- "audio": "/audio-exemples/exemple-3.mp3",
- "duree": "0:50",
+ "duree": "3 min",
  "personnes": [
   {
    "nom": "Paul",
@@ -23,24 +22,51 @@
   },
   {
    "personne": "Jean",
-   "texte": "Oui. J'ai du travail, des projets… mais il me manque quelque chose. Je cherche la paix."
+   "texte": "Oui. J'ai un travail, des projets, des amis. Mais le soir, quand je suis seul, il me manque quelque chose. Je ne sais même pas quoi."
   },
   {
    "personne": "Paul",
-   "texte": "Je te comprends. J'ai connu ce vide moi aussi. C'est en découvrant Jésus que j'ai trouvé la paix et le pardon."
+   "texte": "Je connais ça. Moi aussi, j'ai couru après des choses en pensant qu'elles me rempliraient : l'argent, les filles, la réputation. À chaque fois, le vide revenait."
   },
   {
    "personne": "Jean",
-   "texte": "Comment ça s'est passé pour toi ?"
+   "texte": "Et qu'est-ce qui a changé ?"
   },
   {
    "personne": "Paul",
-   "texte": "Un ami m'a lu un verset où Jésus dit qu'il est le chemin. J'ai commencé à prier, simplement. Tu veux qu'on le lise ensemble ?"
+   "texte": "J'ai compris que ce vide avait une forme : il avait la forme de Dieu. On a été créés pour le connaître. Et ce qui nous sépare de lui, la Bible l'appelle le péché. Ce n'est pas seulement les grosses fautes : c'est vivre comme si Dieu n'existait pas."
+  },
+  {
+   "personne": "Jean",
+   "texte": "Mais je ne suis pas un mauvais type. Je ne vole pas, je ne tue personne."
+  },
+  {
+   "personne": "Paul",
+   "texte": "Moi non plus, je ne me trouvais pas mauvais. Puis j'ai lu les commandements de Dieu. J'avais menti, j'avais regardé des femmes avec convoitise, j'avais mis l'argent avant Dieu. Devant un Dieu parfait, je n'étais pas propre."
+  },
+  {
+   "personne": "Jean",
+   "texte": "Alors on est tous perdus ?"
+  },
+  {
+   "personne": "Paul",
+   "texte": "On le serait, si Dieu n'avait rien fait. Mais il a envoyé Jésus. Jésus est mort sur la croix pour payer ce que nous devions, et il est ressuscité. Il a dit : je suis le chemin, la vérité et la vie. Ce n'est pas une religion de plus. C'est Dieu qui vient te chercher."
+  },
+  {
+   "personne": "Jean",
+   "texte": "Et concrètement, je fais quoi ?"
+  },
+  {
+   "personne": "Paul",
+   "texte": "Tu reconnais devant Dieu que tu as vécu sans lui, tu te détournes de ce qui est mal, et tu fais confiance à Jésus pour te pardonner et diriger ta vie. Tu veux qu'on lise ensemble un passage de l'évangile de Jean cette semaine ? Tu jugeras toi-même."
+  },
+  {
+   "personne": "Jean",
+   "texte": "D'accord. Jeudi soir, ça te va ?"
   }
  ],
  "verset_a_partager": "Jn 14:6",
- "auteur": "Nom de l'orateur",
+ "auteur": "Yeshaya",
  "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "exemple": true
+ "date_ajout": "2026-11-14"
 }

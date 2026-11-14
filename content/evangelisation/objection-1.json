@@ -4,19 +4,21 @@
  "ordre": 1,
  "titre": "« Toutes les religions se valent »",
  "image": "/assets/evangelisation/dialogue-avec-un-ancien.webp",
- "question": "Toutes les religions mènent à Dieu, alors pourquoi Jésus ?",
+ "question": "« Toutes les religions mènent à Dieu. L'important, c'est d'être sincère. » Que répondre ?",
  "texte": [
-  "Commencez par reconnaître ce qui est vrai : beaucoup de croyants sincères cherchent Dieu.",
-  "Expliquez ensuite ce qui rend le message de Jésus particulier : le salut n'est pas une récompense pour nos efforts, mais un don gratuit, parce que Jésus a payé à notre place.",
-  "Restez humble : vous ne défendez pas votre opinion, vous partagez ce que la Bible dit de Jésus."
+  "Commence par reconnaître ce qui est vrai : beaucoup de religions enseignent de bonnes valeurs, et beaucoup de croyants sont sincères. Ne méprise pas la personne.",
+  "Puis montre honnêtement que les religions ne disent pas la même chose. Elles se contredisent sur les questions les plus importantes. Pour les uns, Dieu est une personne ; pour d'autres, il n'y a pas de Dieu personnel. Pour les uns, on vit une seule fois ; pour d'autres, on se réincarne. Pour les chrétiens, Jésus est mort et ressuscité ; pour les musulmans, il n'est pas mort sur la croix. Ces affirmations ne peuvent pas être toutes vraies en même temps.",
+  "La sincérité ne suffit pas. On peut être sincère et sincèrement trompé. Un homme qui prend sincèrement un poison en croyant que c'est un médicament meurt quand même. La question n'est pas : « Suis-je sincère ? » mais : « Est-ce vrai ? »",
+  "Jésus lui-même n'a pas dit qu'il était un chemin parmi d'autres. Il a dit : je suis le chemin, la vérité, et la vie. Nul ne vient au Père que par moi (Jean 14:6). Pierre a dit : il n'y a de salut en aucun autre (Actes 4:12). Soit Jésus disait vrai, soit il était un menteur ou un fou. Mais on ne peut pas dire qu'il était seulement un bon maître parmi d'autres.",
+  "La différence essentielle : toutes les religions disent à l'homme ce qu'il doit faire pour atteindre Dieu. L'Évangile annonce ce que Dieu a fait pour atteindre l'homme. Les religions disent : « Fais. » Jésus dit : « C'est accompli. »",
+  "Termine par une invitation : « Est-ce que tu accepterais de lire avec moi l'évangile de Jean, pour voir par toi-même ce que Jésus a dit de lui ? »"
  ],
  "versets": [
   "Jn 14:6",
   "Ac 4:12",
-  "Ép 2:8-9"
+  "Ep 2:8-9"
  ],
- "auteur": "Nom de l'orateur",
+ "auteur": "Yeshaya",
  "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "exemple": true
+ "date_ajout": "2026-11-14"
 }
