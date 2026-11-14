@@ -45,6 +45,12 @@ export function Evangeliser() {
           </a>
         ))}
       </div>
+      {(vue === 'presenter' || vue === 'formation') && <a class="carte theme" href="#/evangeliser/temoignage" style="margin-top:10px">
+        <img src="/assets/temoignage/temoignage-au-micro.webp" alt="" loading="lazy" />
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Mon témoignage en 3 minutes</span>
+          <span class="ligne__desc">Écris ton histoire avec Jésus en trois parties (avant, la rencontre, depuis), écoute-la et partage-la.</span></span>
+        <Icone nom="chevron" taille={20} />
+      </a>}
       <a class="carte ligne" href="#/grandir/decouvrir-jesus" style="margin-top:14px">
         <span class="ligne__icone"><Icone nom="coeur" /></span>
         <span class="ligne__corps"><span class="ligne__titre" style="display:block">Découvrir Jésus (10 leçons)</span>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240">
+<defs><radialGradient id="f" cx="50%" cy="40%" r="70%"><stop offset="0" stop-color="#fbf4e6"/><stop offset="1" stop-color="#eadcc2"/></radialGradient></defs>
+<rect width="360" height="240" fill="url(#f)"/>
+<ellipse cx="180" cy="206" rx="130" ry="10" fill="#000" opacity=".12"/>
+<path d="M50 60 Q115 40 178 62 L178 200 Q115 180 50 196 Z" fill="#1d1d22" stroke="#6b4a2a" stroke-width="3"/>
+<path d="M310 60 Q245 40 182 62 L182 200 Q245 180 310 196 Z" fill="#1d1d22" stroke="#6b4a2a" stroke-width="3"/>
+<path d="M50 196 Q115 180 178 200 L178 206 Q115 188 50 204 Z M310 196 Q245 180 182 200 L182 206 Q245 188 310 204 Z" fill="#6b4a2a"/>
+<path d="M178 62 Q180 58 182 62 L182 200 Q180 204 178 200 Z" fill="#000"/>
+<text x="180" y="30" font-family="sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#3a2a18">Le péché</text>
+</svg>

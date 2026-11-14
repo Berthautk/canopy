@@ -96,7 +96,7 @@ export function Outil({ id }) {
             ? <button class="bouton bouton--contour" onClick={reprendreVoix}><Icone nom="lecture" taille={20} /> Reprendre</button>
             : <button class={'bouton ' + (lue ? 'bouton--contour' : 'bouton--or')} onClick={ecouter}><Icone nom={lue ? 'rejouer' : 'lecture'} taille={20} /> {lue ? 'Réécouter' : 'Écouter'}</button>)}
         {!priere && <button class="bouton bouton--plein" disabled={!lue} onClick={() => aller(k + 1)}>
-          {lue ? <>Suivant <Icone nom="chevron" taille={20} /></> : 'Écoute d\'abord…'}</button>}
+          <>Suivant <Icone nom="chevron" taille={20} /></></button>}
       </div>
       {!lue && <p class="ligne__desc" style="text-align:center;margin:6px 0 0">{v.disponible ? '« Suivant » s\'active quand la voix a fini.' : 'Prends le temps de lire ; « Suivant » s\'active dans un instant.'}</p>}
 
