@@ -1,0 +1,22 @@
+{
+ "id": "formation-chemin",
+ "type": "formation",
+ "ordre": 2,
+ "titre": "Expliquer le salut simplement",
+ "image": "/assets/symboles/croix-coucher-de-soleil.webp",
+ "texte": [
+  "Utilisez « Le chemin du salut » de la section Bible : 8 versets, un par un, avec une courte explication.",
+  "Laissez la personne lire elle-même les versets avec le bouton « Montrer ».",
+  "Posez des questions plutôt que de faire un discours, et respectez son rythme."
+ ],
+ "versets": [
+  "Rm 3:23",
+  "Rm 6:23",
+  "Jn 3:16",
+  "Rm 10:9"
+ ],
+ "auteur": "Nom de l'orateur",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "exemple": true
+}

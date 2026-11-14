@@ -2,7 +2,7 @@ import { urlAudio } from './config.js';
 
 // Contenus éditoriaux (dossier /content) : ajoutés sans toucher au code, simplement en déposant un fichier JSON.
 // Ces fichiers ne contiennent que des RÉFÉRENCES bibliques : le texte est toujours lu dans la Bible LSG 1910.
-const fichiers = import.meta.glob('/content/**/*.json', { eager: true, import: 'default' });
+const fichiers = import.meta.glob(['/content/**/*.json', '!/content/_modeles/**'], { eager: true, import: 'default' });   // les modèles ne sont pas chargés
 const dossier = (d) => Object.entries(fichiers).filter(([k]) => k.startsWith(`/content/${d}/`)).map(([, v]) => v);
 
 export const SUJETS = dossier('sujets-versets').sort((a, b) => (a.ordre ?? 99) - (b.ordre ?? 99) || a.titre.localeCompare(b.titre));
@@ -12,6 +12,12 @@ export const VERSETS_DU_JOUR = fichiers['/content/versets-du-jour.json']?.verset
 export const PLANS = fichiers['/content/plans/plans.json']?.plans ?? [];
 export const ENSEIGNEMENTS = dossier('enseignements').sort((a, b) => (b.date_ajout || '').localeCompare(a.date_ajout || '') || a.titre.localeCompare(b.titre));
 export const AUTEURS = fichiers['/content/auteurs.json']?.auteurs ?? [];
+const parOrdre = (a, b) => (a.ordre ?? 99) - (b.ordre ?? 99) || a.titre.localeCompare(b.titre);
+export const PRIERES = dossier('prieres').sort(parOrdre);
+export const NOUVEAU_CONVERTI = dossier('nouveau-converti').sort((a, b) => a.jour - b.jour);
+export const EVANGELISATION = dossier('evangelisation').sort(parOrdre);
+export const DIALOGUES = dossier('dialogues').sort(parOrdre);
+export const JOURS_PARCOURS = 30;
 
 // Catalogue de tous les contenus qui ont un audio : id -> piste prête pour le lecteur.
 const TYPES = { enseignements: 'Enseignement', meditations: 'Méditation', prieres: 'Prière', dialogues: 'Dialogue', evangelisation: 'Évangélisation', 'nouveau-converti': 'Nouveau converti' };

@@ -1,0 +1,31 @@
+{
+ "id": "priere-sante",
+ "categorie": "Santé",
+ "ordre": 2,
+ "titre": "La maladie et la guérison",
+ "image": "/assets/famille-quotidien/visite-a-hopital.webp",
+ "resume": "Prier pour soi-même ou pour un proche malade, avec foi et sans peur.",
+ "enseignement": "La Bible nous invite à prier pour les malades et à nous soutenir les uns les autres. Prier n'empêche pas de se soigner : Dieu agit aussi par les médecins et les traitements. Dans tous les cas, il reste présent auprès de celui qui souffre.",
+ "versets": [
+  "Jc 5:14-15",
+  "Jr 17:14",
+  "Ps 103:2-3",
+  "2 Co 12:9"
+ ],
+ "sujets": [
+  {
+   "texte": "La guérison et le soulagement de la douleur."
+  },
+  {
+   "texte": "La sagesse pour les médecins et les soignants."
+  },
+  {
+   "texte": "La paix et le courage pour le malade et sa famille."
+  }
+ ],
+ "priere": "Père, tu vois ceux qui souffrent. Je te prie pour la guérison de [nom]. Donne-lui ta paix, guide ceux qui le soignent, et fortifie notre foi. Au nom de Jésus. Amen.",
+ "auteur": "Nom de l'orateur",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "exemple": true
+}

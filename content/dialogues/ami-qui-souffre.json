@@ -1,0 +1,44 @@
+{
+ "id": "dialogue-ami-qui-souffre",
+ "ordre": 2,
+ "titre": "Quand un ami traverse une épreuve",
+ "situation": "Grâce rend visite à son amie Esther, qui vient de perdre son travail.",
+ "image": "/assets/famille-quotidien/consolation-deuil.webp",
+ "personnes": [
+  {
+   "nom": "Grâce",
+   "role": "chretien"
+  },
+  {
+   "nom": "Esther",
+   "role": "ami"
+  }
+ ],
+ "repliques": [
+  {
+   "personne": "Grâce",
+   "texte": "Je suis venue voir comment tu vas. Je sais que la semaine a été dure."
+  },
+  {
+   "personne": "Esther",
+   "texte": "J'ai peur. Je ne sais pas comment je vais payer le loyer."
+  },
+  {
+   "personne": "Grâce",
+   "texte": "Je ne peux pas tout régler, mais je suis là. Est-ce que je peux t'aider à chercher du travail cette semaine ?"
+  },
+  {
+   "personne": "Esther",
+   "texte": "Oui, merci… Tu crois que Dieu voit ce que je vis ?"
+  },
+  {
+   "personne": "Grâce",
+   "texte": "Oui, j'en suis sûre. Il est près de ceux qui ont le cœur brisé. Si tu veux, je peux prier avec toi maintenant."
+  }
+ ],
+ "verset_a_partager": "Ps 34:19",
+ "auteur": "Nom de l'orateur",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "exemple": true
+}

@@ -1,0 +1,23 @@
+{
+ "id": "motivation-tous-temoins",
+ "type": "motivation",
+ "ordre": 1,
+ "titre": "Pourquoi partager sa foi ?",
+ "image": "/assets/evangelisation/partage-bible-dans-la-rue.webp",
+ "texte": [
+  "Jésus a confié à ses disciples une mission : faire connaître la bonne nouvelle à toutes les nations.",
+  "Partager sa foi n'est pas réservé aux pasteurs. Chaque croyant peut raconter ce que Dieu a fait pour lui, avec ses mots, auprès de ceux qu'il côtoie.",
+  "On ne force personne : on témoigne avec amour, et c'est Dieu qui touche les cœurs."
+ ],
+ "versets": [
+  "Mt 28:19-20",
+  "Ac 1:8",
+  "Rm 1:16"
+ ],
+ "audio": "/audio-exemples/exemple-1.mp3",
+ "duree": "0:50",
+ "auteur": "Nom de l'orateur",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "exemple": true
+}

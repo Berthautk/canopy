@@ -1,0 +1,34 @@
+{
+ "id": "priere-nation",
+ "categorie": "Nation et Église",
+ "ordre": 3,
+ "titre": "Mon pays et ses dirigeants",
+ "image": "/assets/priere/priere-pour-la-nation.webp",
+ "resume": "Intercéder pour la paix, la justice et les responsables de la nation.",
+ "enseignement": "L'apôtre Paul demande de prier pour tous ceux qui exercent l'autorité, afin que nous menions une vie paisible. Prier pour son pays, c'est demander à Dieu la paix, la justice et le bien de tous, quels que soient nos avis.",
+ "versets": [
+  "1 Tm 2:1-2",
+  "Jr 29:7",
+  "2 Ch 7:14",
+  "Pr 14:34"
+ ],
+ "sujets": [
+  {
+   "texte": "La paix et la sécurité dans le pays."
+  },
+  {
+   "texte": "La sagesse et l'intégrité pour les dirigeants."
+  },
+  {
+   "texte": "Les familles qui manquent du nécessaire."
+  },
+  {
+   "texte": "L'unité entre les chrétiens."
+  }
+ ],
+ "priere": "Seigneur, je te présente mon pays. Donne-nous la paix et la justice. Accorde la sagesse à ceux qui nous dirigent, et que ton Évangile touche beaucoup de cœurs. Amen.",
+ "auteur": "Nom de l'orateur",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "exemple": true
+}

@@ -1,0 +1,21 @@
+{
+ "id": "formation-temoignage",
+ "type": "formation",
+ "ordre": 1,
+ "titre": "Raconter son témoignage en 3 minutes",
+ "image": "/assets/evangelisation/temoignage-au-micro.webp",
+ "texte": [
+  "1. Avant : comment était ta vie avant de connaître Jésus ? (une ou deux phrases, sans détails choquants)",
+  "2. La rencontre : comment as-tu compris que tu avais besoin de lui, et comment l'as-tu reçu ?",
+  "3. Depuis : qu'est-ce qui a changé ? Sois concret et honnête : la vie chrétienne n'est pas sans difficultés.",
+  "Termine par une question simple : « Et toi, qu'en penses-tu ? »"
+ ],
+ "versets": [
+  "1 Pi 3:15",
+  "Mc 5:19"
+ ],
+ "auteur": "Nom de l'orateur",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "exemple": true
+}

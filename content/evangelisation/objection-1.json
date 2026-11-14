@@ -1,0 +1,22 @@
+{
+ "id": "objection-religions",
+ "type": "objection",
+ "ordre": 1,
+ "titre": "« Toutes les religions se valent »",
+ "image": "/assets/evangelisation/dialogue-avec-un-ancien.webp",
+ "question": "Toutes les religions mènent à Dieu, alors pourquoi Jésus ?",
+ "texte": [
+  "Commencez par reconnaître ce qui est vrai : beaucoup de croyants sincères cherchent Dieu.",
+  "Expliquez ensuite ce qui rend le message de Jésus particulier : le salut n'est pas une récompense pour nos efforts, mais un don gratuit, parce que Jésus a payé à notre place.",
+  "Restez humble : vous ne défendez pas votre opinion, vous partagez ce que la Bible dit de Jésus."
+ ],
+ "versets": [
+  "Jn 14:6",
+  "Ac 4:12",
+  "Ép 2:8-9"
+ ],
+ "auteur": "Nom de l'orateur",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "exemple": true
+}

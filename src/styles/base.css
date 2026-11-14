@@ -27,7 +27,7 @@ a { color: inherit; text-decoration: none; }
 .logo__slogan { font-size: 9.5px; letter-spacing: .14em; color: var(--or); font-weight: 500; margin-top: 3px; white-space: nowrap; }
 .sous-titre { display: flex; align-items: center; gap: 6px; height: 46px; padding: 0 8px; background: var(--bleu-nuit-2);
   border-top: 1px solid rgba(255,255,255,.08); }
-.sous-titre h1 { color: #fff; font-size: 17px; font-weight: 600; }
+.sous-titre h1 { color: #fff; font-size: 17px; font-weight: 600; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .entete__courbe { display: block; width: 100%; height: 14px; color: var(--entete); background: transparent; }
 
 /* ===== Barre d'onglets ===== */

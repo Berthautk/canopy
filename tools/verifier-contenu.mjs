@@ -1,0 +1,27 @@
+// Vérifie toutes les références bibliques du dossier content/ : elles doivent exister dans la Bible LSG 1910.
+// Usage : node tools/verifier-contenu.mjs        (affiche chaque référence avec le début du texte)
+import fs from 'node:fs'; import path from 'node:path'; import { fileURLToPath } from 'node:url';
+const RACINE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const index = JSON.parse(fs.readFileSync(path.join(RACINE, 'public/bible/index.json')));
+// Charge le lecteur de références de l'application en remplaçant l'import JSON (non pris en charge par Node sans attribut).
+const src = fs.readFileSync(path.join(RACINE, 'src/bible/references.js'), 'utf8').replace(/^import index from .*$/m, `const index = ${JSON.stringify(index)};`);
+const { lireReference, ecrireReference, PAR_CODE } = await import('data:text/javascript,' + encodeURIComponent(src));
+
+const fichiers = [];
+(function parcourir(d) { for (const f of fs.readdirSync(d)) { const p = path.join(d, f); if (fs.statSync(p).isDirectory()) { if (f !== '_modeles') parcourir(p); } else if (f.endsWith('.json')) fichiers.push(p); } })(path.join(RACINE, 'content'));
+
+let erreurs = 0, total = 0;
+const texte = (r) => { const l = JSON.parse(fs.readFileSync(path.join(RACINE, 'public/bible', PAR_CODE[r.code].fichier))); const ch = l.chapitres[r.c - 1]; return ch.slice((r.v || 1) - 1, r.fin || r.v || ch.length).join(' ').replace(/\n/g, ' '); };
+for (const f of fichiers) {
+  let j; try { j = JSON.parse(fs.readFileSync(f, 'utf8')); } catch (e) { console.log(`\n✗ ${path.relative(RACINE, f)} : JSON invalide (${e.message})`); erreurs++; continue; }
+  const refs = [...(j.versets || []), ...(j.etapes || []).map((e) => e.reference), j.reference, j.verset_a_partager, ...(j.questions || []).map((q) => q.reference)].filter(Boolean);
+  if (!refs.length) continue;
+  console.log(`\n## ${path.relative(RACINE, f)}`);
+  for (const s of refs) {
+    total++; const r = lireReference(s);
+    if (!r) { console.log(`  ✗ « ${s} » : référence introuvable`); erreurs++; continue; }
+    console.log(`  ${ecrireReference(r).padEnd(24)} ${texte(r).slice(0, 90)}`);
+  }
+}
+console.log(`\n${total} références vérifiées, ${erreurs} erreur(s).`);
+process.exit(erreurs ? 1 : 0);

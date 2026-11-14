@@ -1,0 +1,22 @@
+{
+ "id": "objection-souffrance",
+ "type": "objection",
+ "ordre": 2,
+ "titre": "« Pourquoi Dieu permet-il la souffrance ? »",
+ "image": "/assets/famille-quotidien/consolation-deuil.webp",
+ "question": "Si Dieu est bon, pourquoi y a-t-il tant de souffrance ?",
+ "texte": [
+  "Cette question vient souvent d'une douleur personnelle : écoutez d'abord, avant de répondre.",
+  "La Bible ne cache pas la souffrance. Elle montre un Dieu qui ne reste pas loin : en Jésus, il a lui-même souffert.",
+  "Elle promet aussi qu'un jour il n'y aura plus ni deuil, ni cri, ni douleur."
+ ],
+ "versets": [
+  "Ps 34:19",
+  "Hé 4:15",
+  "Ap 21:4"
+ ],
+ "auteur": "Nom de l'orateur",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "exemple": true
+}

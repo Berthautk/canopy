@@ -1,0 +1,23 @@
+{
+ "id": "objection-fils-de-dieu",
+ "type": "objection",
+ "ordre": 3,
+ "titre": "« Jésus, un prophète ou le Fils de Dieu ? »",
+ "image": "/assets/evangelisation/dialogue-entre-femmes.webp",
+ "question": "Pour un ami musulman, Jésus (Issa) est un grand prophète. Comment parler de lui comme du Fils de Dieu ?",
+ "texte": [
+  "Commencez par ce qui vous rapproche : votre ami respecte Jésus, et il croit en un seul Dieu, comme vous.",
+  "Évitez les débats et les moqueries. Ne critiquez jamais sa foi ni le prophète qu'il honore : cela ferme le dialogue et blesse.",
+  "Proposez simplement de lire ensemble ce que les Évangiles rapportent de Jésus : ses paroles, son pardon, sa résurrection. Laissez le texte parler.",
+  "Expliquez que, pour les chrétiens, « Fils de Dieu » ne veut pas dire que Dieu a eu un enfant à la manière des hommes : cela exprime une relation unique entre Jésus et Dieu."
+ ],
+ "versets": [
+  "Mc 1:1",
+  "Jn 1:1",
+  "Jn 20:31"
+ ],
+ "auteur": "Nom de l'orateur",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "exemple": true
+}

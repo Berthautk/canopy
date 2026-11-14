@@ -18,6 +18,13 @@ import { Plan } from './ecrans/bible/Plan.jsx';
 import { Ecouter } from './ecrans/audio/Ecouter.jsx';
 import { Telechargements } from './ecrans/audio/Telechargements.jsx';
 import { MiniLecteur } from './composants/Audio.jsx';
+import { Priere, ThemePriere } from './ecrans/priere/Priere.jsx';
+import { Journal } from './ecrans/priere/Journal.jsx';
+import { Grandir } from './ecrans/grandir/Grandir.jsx';
+import { NouveauConverti } from './ecrans/grandir/NouveauConverti.jsx';
+import { Evangeliser, Article } from './ecrans/evangeliser/Evangeliser.jsx';
+import { Dialogue } from './ecrans/evangeliser/Dialogue.jsx';
+import { PRIERES, EVANGELISATION, DIALOGUES } from './donnees/contenu.js';
 import { lecteur } from './audio/lecteur.js';
 import { route, ONGLET_DE } from './outils/routeur.js';
 import { useSignal } from './outils/signal.js';
@@ -28,9 +35,6 @@ import { PAR_CODE } from './bible/references.js';
 
 // Écrans des phases suivantes : affichés comme « Bientôt disponible » en attendant.
 const A_VENIR = {
-  priere: ['Prière', '/assets/priere/mains-levees.webp', 'Thèmes de prière, sujets à prier, enseignements audio et journal de prière.'],
-  grandir: ['Grandir', '/assets/nouveau-converti/etude-de-la-bible.webp', 'Enseignements par thèmes, séries et parcours « Nouveau converti » sur 30 jours.'],
-  evangeliser: ['Évangéliser', '/assets/evangelisation/partage-bible-dans-la-rue.webp', 'Motivation, formation, dialogues et réponses aux objections.'],
   jouer: ['Jouer et apprendre', '/assets/jeux/banniere-quiz-biblique.webp', 'Quiz du jour, « Complète le verset », « Qui suis-je ? », duel à deux et badges.'],
 };
 
@@ -41,6 +45,11 @@ function titre([a, b, c]) {
   if (a === 'jouer') return 'Jouer et apprendre';
   if (a === 'telechargements') return 'Mes téléchargements';
   if (a === 'ecouter') return 'Écouter';
+  if (a === 'priere' && b === 'journal') return 'Mon journal de prière';
+  if (a === 'priere' && b === 'theme') return PRIERES.find((x) => x.id === c)?.titre ?? 'Prière';
+  if (a === 'grandir' && b === 'nouveau-converti') return c ? `Nouveau converti : jour ${c}` : 'Parcours Nouveau converti';
+  if (a === 'evangeliser' && b === 'article') return EVANGELISATION.find((x) => x.id === c)?.titre ?? 'Évangéliser';
+  if (a === 'evangeliser' && b === 'dialogue') return 'Dialogue';
   if (a !== 'bible' || !b) return null;
   return {
     livres: c && PAR_CODE[c] ? PAR_CODE[c].nom : 'Livres de la Bible', lire: 'Lire la Bible', recherche: 'Rechercher dans la Bible',
@@ -56,6 +65,9 @@ function Ecran({ r }) {
   if (a === 'parametres') return <Parametres />;
   if (a === 'a-propos') return <APropos />;
   if (a === 'telechargements') return <Telechargements />;
+  if (a === 'priere') return b === 'journal' ? <Journal nouveau={r.params.nouveau} /> : b === 'theme' ? <ThemePriere id={c} /> : <Priere />;
+  if (a === 'grandir') return b === 'nouveau-converti' ? <NouveauConverti jour={c} /> : <Grandir />;
+  if (a === 'evangeliser') return b === 'article' ? <Article id={c} /> : b === 'dialogue' ? <Dialogue id={c} /> : <Evangeliser />;
   if (a === 'ecouter') return <Ecouter id={b} />;
   if (a === 'bible') {
     if (!b) return <BibleAccueil />;

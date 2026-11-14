@@ -1,0 +1,33 @@
+{
+ "id": "dialogue-mon-titre",
+ "ordre": 10,
+ "titre": "Titre de la situation",
+ "situation": "Qui parle à qui, et dans quel contexte.",
+ "image": "/assets/evangelisation/dialogue-entre-femmes.webp",
+ "audio": "dialogues/mon-titre.mp3",
+ "duree": "3:40",
+ "personnes": [
+  {
+   "nom": "Marie",
+   "role": "chretien"
+  },
+  {
+   "nom": "Aïcha",
+   "role": "ami"
+  }
+ ],
+ "repliques": [
+  {
+   "personne": "Marie",
+   "texte": "Première réplique."
+  },
+  {
+   "personne": "Aïcha",
+   "texte": "Deuxième réplique."
+  }
+ ],
+ "verset_a_partager": "Jn 3:16",
+ "auteur": "Nom de l'orateur",
+ "autorisation": "oui",
+ "date_ajout": "2026-12-01"
+}

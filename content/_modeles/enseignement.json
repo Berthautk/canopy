@@ -1,0 +1,16 @@
+{
+ "id": "enseignement-mon-titre",
+ "titre": "Titre de l'enseignement",
+ "theme": "Foi",
+ "serie": "Nom de la série",
+ "resume": "Une ou deux phrases de résumé.",
+ "versets": [
+  "Hé 11:1"
+ ],
+ "image": "/assets/symboles/bible-dans-la-lumiere.webp",
+ "audio": "enseignements/mon-titre.mp3",
+ "duree": "25:10",
+ "auteur": "Nom de l'orateur",
+ "autorisation": "oui",
+ "date_ajout": "2026-12-01"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "nouveau-converti-jour-04",
+ "jour": 4,
+ "titre": "Titre du jour",
+ "image": "/assets/nouveau-converti/etude-de-la-bible.webp",
+ "versets": [
+  "Ps 119:105"
+ ],
+ "texte": "Le texte du jour.",
+ "question": "Une question pour réfléchir.",
+ "audio": "nouveau-converti/jour-04.mp3",
+ "duree": "5:00",
+ "auteur": "Nom de l'orateur",
+ "autorisation": "oui",
+ "date_ajout": "2026-12-01"
+}

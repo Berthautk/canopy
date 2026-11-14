@@ -1,0 +1,28 @@
+{
+ "id": "priere-mon-sujet",
+ "categorie": "Famille",
+ "ordre": 10,
+ "titre": "Titre du thème",
+ "image": "/assets/priere/femme-en-priere.webp",
+ "resume": "Une phrase qui résume le thème.",
+ "enseignement": "Quelques phrases d'enseignement.",
+ "audio": "prieres/mon-sujet.mp3",
+ "duree": "12:30",
+ "versets": [
+  "Ph 4:6-7",
+  "1 Jn 5:14"
+ ],
+ "sujets": [
+  {
+   "texte": "Premier sujet de prière."
+  },
+  {
+   "texte": "Deuxième sujet, avec son audio.",
+   "audio": "prieres/mon-sujet-2.mp3"
+  }
+ ],
+ "priere": "Texte d'une prière modèle. Amen.",
+ "auteur": "Nom de l'orateur",
+ "autorisation": "oui",
+ "date_ajout": "2026-12-01"
+}

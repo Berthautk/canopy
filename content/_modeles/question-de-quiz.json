@@ -1,0 +1,21 @@
+{
+ "id": "quiz-vie-de-jesus",
+ "theme": "Vie de Jésus",
+ "questions": [
+  {
+   "id": "vj-001",
+   "niveau": "facile",
+   "question": "Dans quelle ville Jésus est-il né ?",
+   "choix": [
+    "Nazareth",
+    "Bethléhem",
+    "Jérusalem",
+    "Capernaüm"
+   ],
+   "reponse": 1,
+   "explication": "Jésus est né à Bethléhem, en Judée.",
+   "reference": "Mt 2:1",
+   "verifie": false
+  }
+ ]
+}

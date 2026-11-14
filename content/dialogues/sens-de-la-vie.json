@@ -1,0 +1,46 @@
+{
+ "id": "dialogue-sens-de-la-vie",
+ "ordre": 1,
+ "titre": "Un ami cherche un sens à sa vie",
+ "situation": "Paul, chrétien, parle avec son ami Jean qui se sent vide.",
+ "image": "/assets/evangelisation/partage-bible-dans-la-rue.webp",
+ "audio": "/audio-exemples/exemple-3.mp3",
+ "duree": "0:50",
+ "personnes": [
+  {
+   "nom": "Paul",
+   "role": "chretien"
+  },
+  {
+   "nom": "Jean",
+   "role": "ami"
+  }
+ ],
+ "repliques": [
+  {
+   "personne": "Paul",
+   "texte": "Tu m'as dit la semaine dernière que tu te sens parfois vide. C'est toujours le cas ?"
+  },
+  {
+   "personne": "Jean",
+   "texte": "Oui. J'ai du travail, des projets… mais il me manque quelque chose. Je cherche la paix."
+  },
+  {
+   "personne": "Paul",
+   "texte": "Je te comprends. J'ai connu ce vide moi aussi. C'est en découvrant Jésus que j'ai trouvé la paix et le pardon."
+  },
+  {
+   "personne": "Jean",
+   "texte": "Comment ça s'est passé pour toi ?"
+  },
+  {
+   "personne": "Paul",
+   "texte": "Un ami m'a lu un verset où Jésus dit qu'il est le chemin. J'ai commencé à prier, simplement. Tu veux qu'on le lise ensemble ?"
+  }
+ ],
+ "verset_a_partager": "Jn 14:6",
+ "auteur": "Nom de l'orateur",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "exemple": true
+}

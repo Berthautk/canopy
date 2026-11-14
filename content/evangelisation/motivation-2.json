@@ -1,0 +1,20 @@
+{
+ "id": "motivation-amour",
+ "type": "motivation",
+ "ordre": 2,
+ "titre": "Aimer avant de parler",
+ "image": "/assets/evangelisation/etreinte.webp",
+ "texte": [
+  "Avant d'entendre nos paroles, les gens voient notre manière de vivre.",
+  "Écouter, aider, être fidèle et honnête : tout cela prépare le terrain pour parler de Jésus.",
+  "L'amour ouvre des portes que les arguments ne peuvent pas ouvrir."
+ ],
+ "versets": [
+  "Jn 13:35",
+  "1 Pi 3:15"
+ ],
+ "auteur": "Nom de l'orateur",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "exemple": true
+}
