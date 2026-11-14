@@ -75,6 +75,7 @@ export function Plan() {
                     <span class={fait ? 'barre' : ''}>{g.libelle}{g.theme && <small class="plan-theme">{g.theme}</small>}</span>
                   </label>
                   <a class="lien" href={`#/bible/lire/${g.code}/${g.debut}${g.verset ? '/' + g.verset : ''}`}>Lire</a>
+                  <a class="lien" style="margin-left:10px" href={`#/bible/lire/${g.code}/${g.debut}?ecouter=1`}>🔊 Écouter</a>
                 </li>
               );
             })}

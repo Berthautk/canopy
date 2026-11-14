@@ -8,6 +8,7 @@ import { useSignal } from '../../outils/signal.js';
 import { partager, copier, partagerImageVerset } from '../../outils/partage.js';
 import { aller, remplacer } from '../../outils/routeur.js';
 import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
+import { lireAVoixHaute } from '../../audio/voix.js';
 
 // Pile des passages quittés (pour « Revenir à… ») : on peut aller voir une autre référence, puis revenir où l'on était.
 const CLE_PILE = 'yeshaya:pile-lecture';
@@ -77,7 +78,7 @@ function voisin(code, c, sens) {
 }
 
 // Écran 16 : lecture libre. Toucher (ou appui long) sur un verset ouvre les actions.
-export function Lecture({ code, c, vise }) {
+export function Lecture({ code, c, vise, ecouter }) {
   const livre = PAR_CODE[code];
   const [chap, setChap] = useState(null);
   const [erreur, setErreur] = useState(null);
@@ -100,6 +101,8 @@ export function Lecture({ code, c, vise }) {
     return () => { actif = false; };
   }, [code, c]);
 
+  // Ouvert depuis le plan de lecture avec « Écouter » : la lecture démarre seule.
+  useEffect(() => { if (chap && ecouter) setTimeout(() => lireAVoixHaute(`bible-${code}-${c}`, [{ texte: ecrireReference({ code, c }) + '.' }, ...chap.map((t) => ({ texte: (t || '').replace(/\n/g, ' ') }))]), 300); }, [chap]);
   useEffect(() => {        // aller au verset demandé
     if (chap && vise) {
       const el = document.getElementById('v' + vise);
@@ -107,6 +110,7 @@ export function Lecture({ code, c, vise }) {
     }
   }, [chap, vise]);
 
+  const blocsLecture = chap ? [{ texte: (code === 'PSA' ? ecrireReference({ code, c }) : ecrireReference({ code, c }).replace(/ (\d+)$/, ', chapitre $1')) + '.' }, ...chap.map((t) => ({ texte: (t || '').replace(/\n/g, ' ') }))] : [];
   if (!livre) return <div class="page"><p>Livre inconnu.</p></div>;
   const prec = voisin(code, c, -1), suiv = voisin(code, c, 1);
   const cle = sel ? cleVerset(code, c, sel) : null;
@@ -136,8 +140,7 @@ export function Lecture({ code, c, vise }) {
         <button class="revenir-passage" onClick={revenir}><Icone nom="precedent" taille={16} /> Revenir à {ecrireReference({ code: retourA.code, c: retourA.c, v: retourA.v || undefined })}</button>
       )}
       <article class="page lecture__texte" lang="fr">
-        {chap && <BarreEcoute id={`bible-${code}-${c}`} titre={'Écouter ' + ecrireReference({ code, c })}
-          blocs={[{ texte: (code === 'PSA' ? ecrireReference({ code, c }) : ecrireReference({ code, c }).replace(/ (\d+)$/, ', chapitre $1')) + '.' }, ...chap.map((t) => ({ texte: (t || '').replace(/\n/g, ' ') }))]} />}
+        {chap && <BarreEcoute id={`bible-${code}-${c}`} titre={'Écouter ' + ecrireReference({ code, c })} blocs={blocsLecture} />}
         <h2 class="lecture__titre">{ecrireReference({ code, c })}</h2>
         {erreur && <p class="verset__erreur">{erreur}</p>}
         {!chap && !erreur && <p class="verset__attente">Chargement…</p>}

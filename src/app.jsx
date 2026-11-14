@@ -125,7 +125,7 @@ function Ecran({ r }) {
   if (a === 'bible') {
     if (!b) return <BibleAccueil />;
     if (b === 'livres') return <Livres code={c} />;
-    if (b === 'lire') { if (!c || !d) { allerLecture(pos); return null; } return <Lecture code={c} c={+d} vise={e ? +e : null} />; }
+    if (b === 'lire') { if (!c || !d) { allerLecture(pos); return null; } return <Lecture code={c} c={+d} vise={e ? +e : null} ecouter={r.params.ecouter === '1'} />; }
     if (b === 'recherche') return <Recherche q={r.params.q || ''} />;
     if (b === 'ressources') return <Ressources />;
     if (b === 'sujets') return <Sujets id={c} />;
