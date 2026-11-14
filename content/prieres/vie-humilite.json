@@ -1,0 +1,52 @@
+{
+ "id": "priere-humilite",
+ "categorie": "Ma vie avec Dieu",
+ "ordre": 9,
+ "titre": "Marcher dans l'humilité",
+ "nom_court": "Humilité",
+ "image": "/assets/personnages/homme-en-priere.webp",
+ "resume": "Sujets de prière : marcher dans l'humilité.",
+ "enseignement": "Dieu résiste aux orgueilleux, mais il fait grâce aux humbles (Jacques 4:6). Jésus s'est humilié jusqu'à la mort de la croix. Prions pour que l'orgueil soit brisé en nous et que nous marchions humblement avec notre Dieu.",
+ "versets": [
+  "Jc 4:6",
+  "Mi 6:8",
+  "Ph 2:3"
+ ],
+ "sujets": [
+  {
+   "titre": "Grâce aux humbles",
+   "texte": "Prions afin de nous humilier sous la puissante main de Dieu, pour qu'il nous élève au temps convenable. (1 Pierre 5:6)"
+  },
+  {
+   "titre": "Marcher humblement",
+   "texte": "Demandons au Seigneur de nous apprendre à pratiquer la justice, à aimer la miséricorde et à marcher humblement avec notre Dieu. (Michée 6:8)"
+  },
+  {
+   "titre": "Briser l'orgueil",
+   "texte": "Implorons la miséricorde de Dieu afin qu'il brise tout orgueil en nous, car l'arrogance précède la chute. (Proverbes 16:18 ; Jacques 4:6)"
+  },
+  {
+   "titre": "Les autres d'abord",
+   "texte": "Prions afin de ne rien faire par esprit de parti ou par vaine gloire, mais que l'humilité nous fasse regarder les autres comme étant au-dessus de nous-mêmes. (Philippiens 2:3-4)"
+  },
+  {
+   "titre": "Recevoir la correction",
+   "texte": "Demandons à Dieu un cœur qui accepte la réprimande et la correction. (Proverbes 12:1 ; Hébreux 12:11)"
+  },
+  {
+   "titre": "Dépendre de lui",
+   "texte": "Prions afin de nous souvenir que sans Jésus nous ne pouvons rien faire. (Jean 15:5)"
+  },
+  {
+   "titre": "Comme un enfant",
+   "texte": "Demandons au Seigneur de nous rendre humbles comme un petit enfant, pour entrer dans son royaume. (Matthieu 18:3-4)"
+  },
+  {
+   "titre": "Lui la gloire",
+   "texte": "Prions afin que toute la gloire de ce que nous faisons revienne à Dieu, et non à nous. (Psaume 115:1 ; 1 Corinthiens 10:31)"
+  }
+ ],
+ "auteur": "Yeshaya",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}

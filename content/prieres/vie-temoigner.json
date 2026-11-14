@@ -1,0 +1,52 @@
+{
+ "id": "priere-temoigner",
+ "categorie": "Ma vie avec Dieu",
+ "ordre": 13,
+ "titre": "Témoigner de Jésus",
+ "nom_court": "Témoigner",
+ "image": "/assets/evangelisation/partage-bible-dans-la-rue.webp",
+ "resume": "Sujets de prière : témoigner de Jésus.",
+ "enseignement": "Allez, faites de toutes les nations des disciples (Matthieu 28:19). Prions pour l'audace, pour les occasions et pour ceux à qui nous parlerons de Jésus.",
+ "versets": [
+  "Mt 28:19-20",
+  "Ac 4:29",
+  "Rm 1:16"
+ ],
+ "sujets": [
+  {
+   "titre": "L'assurance",
+   "texte": "Prions afin que le Seigneur nous donne d'annoncer sa parole avec une pleine assurance. (Actes 4:29)"
+  },
+  {
+   "titre": "Ne pas avoir honte",
+   "texte": "Demandons à Dieu de nous garder d'avoir honte de l'Évangile, car c'est une puissance de Dieu pour le salut. (Romains 1:16)"
+  },
+  {
+   "titre": "Des portes ouvertes",
+   "texte": "Prions afin que Dieu nous ouvre une porte pour la parole. (Colossiens 4:3)"
+  },
+  {
+   "titre": "Des paroles de grâce",
+   "texte": "Demandons au Seigneur que notre parole soit toujours accompagnée de grâce, pour savoir comment répondre à chacun. (Colossiens 4:6)"
+  },
+  {
+   "titre": "Des ouvriers",
+   "texte": "Prions le maître de la moisson d'envoyer des ouvriers dans sa moisson. (Matthieu 9:38)"
+  },
+  {
+   "titre": "Des cœurs ouverts",
+   "texte": "Demandons au Seigneur d'ouvrir le cœur de ceux qui écoutent, comme il a ouvert le cœur de Lydie. (Actes 16:14)"
+  },
+  {
+   "titre": "Une vie qui parle",
+   "texte": "Prions afin que notre lumière luise devant les hommes, pour qu'ils voient nos bonnes œuvres et glorifient notre Père. (Matthieu 5:16)"
+  },
+  {
+   "titre": "Être prêts",
+   "texte": "Demandons à Dieu de nous rendre toujours prêts à rendre compte de l'espérance qui est en nous, avec douceur et respect. (1 Pierre 3:15)"
+  }
+ ],
+ "auteur": "Yeshaya",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}

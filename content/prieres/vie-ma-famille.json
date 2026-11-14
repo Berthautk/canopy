@@ -1,0 +1,60 @@
+{
+ "id": "priere-ma-famille",
+ "categorie": "Ma vie avec Dieu",
+ "ordre": 12,
+ "titre": "Ma famille",
+ "nom_court": "Ma famille",
+ "image": "/assets/priere/priere-en-famille.webp",
+ "resume": "Sujets de prière : ma famille.",
+ "enseignement": "Moi et ma maison, nous servirons l'Éternel (Josué 24:15). Prions pour chaque membre de notre famille, nommément : pour son salut, sa protection et l'unité de la maison.",
+ "versets": [
+  "Jos 24:15",
+  "Ac 16:31",
+  "Ps 127:1"
+ ],
+ "sujets": [
+  {
+   "titre": "Le salut de toute la maison",
+   "texte": "Prions afin que chaque membre de notre famille croie au Seigneur Jésus et soit sauvé. (Actes 16:31)"
+  },
+  {
+   "titre": "Servir l'Éternel ensemble",
+   "texte": "Demandons à Dieu que notre maison serve l'Éternel. (Josué 24:15)"
+  },
+  {
+   "titre": "Dieu bâtit la maison",
+   "texte": "Prions afin que l'Éternel lui-même bâtisse notre maison et la garde. (Psaume 127:1)"
+  },
+  {
+   "titre": "L'amour dans le couple",
+   "texte": "Demandons au Seigneur que les maris aiment leurs femmes comme Christ a aimé l'Église, et que les femmes respectent leurs maris. (Éphésiens 5:25 ; Éphésiens 5:33)"
+  },
+  {
+   "titre": "Les enfants",
+   "texte": "Prions afin que nos enfants soient enseignés de l'Éternel, et que grande soit leur paix. (Ésaïe 54:13)"
+  },
+  {
+   "titre": "Les parents",
+   "texte": "Demandons à Dieu de bénir nos parents et de nous apprendre à les honorer. (Éphésiens 6:2-3)"
+  },
+  {
+   "titre": "L'unité",
+   "texte": "Implorons la grâce de Dieu afin qu'il règne dans notre maison l'unité de l'Esprit par le lien de la paix. (Éphésiens 4:3)"
+  },
+  {
+   "titre": "La protection",
+   "texte": "Prions afin que l'ange de l'Éternel campe autour de notre famille et la délivre. (Psaume 34:8)"
+  },
+  {
+   "titre": "Les membres éloignés",
+   "texte": "Demandons au Seigneur de ramener ceux de notre famille qui se sont éloignés de lui, comme le père a accueilli le fils prodigue. (Luc 15:20)"
+  },
+  {
+   "titre": "Le pain quotidien",
+   "texte": "Prions afin que Dieu pourvoie à tous les besoins de notre famille selon sa richesse, avec gloire, en Jésus-Christ. (Philippiens 4:19)"
+  }
+ ],
+ "auteur": "Yeshaya",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}

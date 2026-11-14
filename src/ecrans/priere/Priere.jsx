@@ -147,7 +147,9 @@ export function ThemePriere({ id }) {
             </section>
           ))}
         </>); })() : (
-        <><h2 class="titre-section">Sujets de prière</h2><SujetsACocher sujets={p.sujets} /></>
+        <><h2 class="titre-section">Sujets de prière</h2>
+          <BarreEcoute id={p.id} titre="Écouter les sujets de prière" blocs={blocsSujets(p.sujets)} />
+          <SujetsACocher sujets={p.sujets} voixId={p.id} debut={0} /></>
       )}
       {p.priere && <section class="carte bloc priere-modele"><h3><span class="ligne__icone"><Icone nom="priere" /></span> Prière</h3><p><em>{p.priere}</em></p></section>}
       <PiedPriere id={p.id} titre={p.titre} chemin={'priere/theme/' + p.id}
