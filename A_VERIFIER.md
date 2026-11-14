@@ -390,6 +390,14 @@ Ces textes sont originaux (plans inspirés de ubdavid.org, sans reprise de leurs
 - [ ] `content/nouveau-converti/jour-28.json` : Aimer et honorer les autres
 - [ ] `content/nouveau-converti/jour-29.json` : Jésus va revenir
 - [ ] `content/nouveau-converti/jour-30.json` : Persévérer jusqu'au bout
+- [ ] `content/enseignements/comprendre-le-pardon-de-dieu.json` : Comprendre le pardon de Dieu
+- [ ] `content/enseignements/conserver-sa-delivrance.json` : Comment conserver sa délivrance
+- [ ] `content/enseignements/la-vraie-repentance.json` : La vraie repentance
+- [ ] `content/enseignements/classiques/bounds-1-hommes-de-priere.json` : Dieu cherche des hommes de prière
+- [ ] `content/enseignements/classiques/murray-1-enseigne-nous-a-prier.json` : Seigneur, enseigne-nous à prier
+- [ ] `content/enseignements/classiques/spurgeon-227-contrains-les.json` : Contrains-les d'entrer
+- [ ] `content/enseignements/classiques/spurgeon-44-repentance.json` : La repentance qui mène à la vie
+- [ ] `content/enseignements/classiques/spurgeon-60-regardez-a-moi.json` : Tournez-vous vers moi, et soyez sauvés
 
 ## « Complète le verset »
 

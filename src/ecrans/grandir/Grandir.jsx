@@ -60,7 +60,7 @@ export function Grandir() {
 
       <div class="onglets-internes" role="tablist" style="margin-top:16px">
         <button role="tab" aria-selected={vue === 'themes'} onClick={() => setVue('themes')}>Par thème</button>
-        <button role="tab" aria-selected={vue === 'series'} onClick={() => setVue('series')}>Séries</button>
+        <button role="tab" aria-selected={vue === 'series'} onClick={() => setVue('series')}>Auteurs</button>
         <button role="tab" aria-selected={vue === 'tous'} onClick={() => setVue('tous')}>Tous<span class="onglets-internes__nb">{ENSEIGNEMENTS.length}</span></button>
       </div>
       {vue === 'tous'

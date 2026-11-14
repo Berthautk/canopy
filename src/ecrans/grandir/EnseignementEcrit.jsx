@@ -11,7 +11,8 @@ import { SujetsACocher, blocsSujets } from '../priere/Veille.jsx';
 function plan(e) {
   const blocs = [], pos = {};
   const ajout = (cle, b) => { pos[cle] = blocs.length; blocs.push(b); };
-  ajout('titre', { texte: `${e.titre}. ${e.resume || ''}${e.auteur && !e.auteur.startsWith("L'Arsenal") ? '. Enseignement du ' + e.auteur.replace(/^Pasteur/, 'pasteur') : ''}.` });
+  const par = !e.auteur || e.auteur.startsWith("L'Arsenal") ? '' : e.auteur.startsWith('Pasteur') ? '. Enseignement du ' + e.auteur.replace(/^Pasteur/, 'pasteur') : '. Par ' + e.auteur + (e.traduction ? ', traduit de l\'anglais' : '');
+  ajout('titre', { texte: `${e.titre}. ${e.resume || ''}${par}.` });
   if (e.verset_de_base) ajout('base', { reference: e.verset_de_base });
   if (e.objectifs?.length) ajout('objectifs', { texte: 'Objectifs. ' + e.objectifs.join('. ') });
   if (e.introduction) ajout('intro', { texte: e.introduction });
@@ -34,7 +35,8 @@ export function EnseignementEcrit({ id }) {
       <div class="theme-hero"><img src={e.image} alt="" />
         <div class="theme-hero__texte"><span class="pastille pastille--or">{e.theme} · {e.lecture_minutes} min de lecture</span><h2>{e.titre}</h2></div></div>
       <p class="veille__theme" {...va(pos.titre)}>{e.resume}</p>
-      {e.auteur && !e.auteur.startsWith("L'Arsenal") && <p class="auteur-ens">{e.auteur}{e.autorisation === 'oui' && <span class="ecouter__autorisation"><Icone nom="verifie" taille={14} /> Utilisé avec autorisation</span>}</p>}
+      {e.auteur && !e.auteur.startsWith("L'Arsenal") && <p class="auteur-ens">{e.auteur}{e.autorisation === 'oui' && <span class="ecouter__autorisation"><Icone nom="verifie" taille={14} /> Utilisé avec autorisation</span>}
+        {e.autorisation === 'domaine_public' && <span class="ligne__desc">Domaine public · traduit de l'anglais</span>}</p>}
       <BarreEcoute id={id} blocs={blocs} titre="Écouter l'enseignement" />
       <LienVideo url={e.video} duree={e.video_duree} auteur={e.auteur} />
       {e.verset_de_base && <div {...va(pos.base)}><CarteVerset reference={e.verset_de_base} /></div>}
@@ -62,6 +64,8 @@ export function EnseignementEcrit({ id }) {
       <LienVideo url={e.video} duree={e.video_duree} auteur={e.auteur} />
       <button class="bouton bouton--contour" style="width:100%;margin-top:16px" onClick={() => partager({ titre: e.titre, texte: `${e.titre}\n${e.resume}${e.video ? '\nVidéo : ' + e.video : ''}`, chemin: 'grandir/enseignement/' + e.id })}>
         <Icone nom="partager" taille={18} /> Partager cet enseignement</button>
+      {e.titre_original && <p class="source-mention"><b>Titre original :</b> {e.titre_original}</p>}
+      {e.traduction && <p class="source-mention">{e.traduction}</p>}
       {e.source && <p class="source-mention">{e.source.startsWith('Arsenal') ? 'Source : ' + e.auteur : e.source}</p>}
     </div>
   );

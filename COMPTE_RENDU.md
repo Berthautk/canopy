@@ -36,6 +36,7 @@ Tous les tests ont été faits dans Chromium sur un écran de **360 px**. **Aucu
 | **Découvrir Jésus et Nouveau converti** | 40 textes originaux rédigés par Claude (plans inspirés de ubdavid.org) : à relire, liste dans `A_VERIFIER.md` |
 | **Plan chronologique** | « Bientôt disponible » : pas de source fiable pour l'ordre chronologique |
 | **Radio Yeshaya** | Carte « Bientôt » sur l'écran À propos (non activée, comme demandé) |
+| **Classiques traduits** | 5 textes du domaine public traduits de l'anglais (versions abrégées signalées par […]) : Spurgeon (3 sermons), E. M. Bounds, Andrew Murray. Traduction à relire. Derek Prince, Paul Washer et Henri Viaud-Mürat ne sont pas inclus : leurs œuvres sont protégées |
 | **Contenus de l'Arsenal** | Repris de ton application (formulations conservées). Les références ont été mises à la numérotation de la LSG imprimée (79 corrections) et 12 citations qui n'étaient pas le texte LSG ont été remplacées par le texte LSG exact (liste dans `tools/arsenal/journal-conversion.json`) |
 | **ubdavid.org** | Consulté. Contenu « tous droits réservés » (Mailbox Club International) : seuls les plans et les références ont été repris, les textes sont originaux. Pour citer leurs leçons, il faudrait leur autorisation écrite |
 | **Bible : numérotation à confirmer** | Actes 19:40-41, 2 Corinthiens 13:13, 3 Jean 1:15, Apocalypse 12:18 (voir `tools/bible/SOURCE.md`) |
