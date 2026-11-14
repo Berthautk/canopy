@@ -76,11 +76,6 @@ export function Grandir() {
         </span>
         <Icone nom="chevron" taille={20} />
       </a>
-      <a class="jouer-carte" href="#/jouer" style="margin-top:10px">
-        <img src="/assets/objets-bibliques/couronne-or.webp" alt="" loading="lazy" />
-        <div><h2>Jouer et apprendre</h2><p>Quiz et jeux bibliques</p></div>
-        <span class="jouer-carte__fleche"><Icone nom="chevron" taille={22} /></span>
-      </a>
 
       <div class="onglets-internes" role="tablist" style="margin-top:16px">
         <button role="tab" aria-selected={vue === 'themes'} onClick={() => setVue('themes')}>Par thème</button>

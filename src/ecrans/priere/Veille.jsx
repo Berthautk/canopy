@@ -52,14 +52,14 @@ export function Veille({ id, guide }) {
       <div class="theme-hero"><img src={v.image} alt="" />
         <div class="theme-hero__texte"><span class="pastille pastille--or">{v.heures}</span><h2>{v.titre}</h2></div></div>
       <p class="veille__theme">{v.theme}</p>
+      <PriereGuidee auto={guide} id={v.id} titre={v.titre} introduction={v.introduction} etapes={etapes.map((e) => ({ titre: e.titre, texte: e.num === 'proc' ? e.texte : null, sujets: e.sujets }))} />
       {v.verset && <CarteVerset reference={v.verset} />}
       <section class="carte bloc"><h3><span class="ligne__icone"><Icone nom="info" /></span> Avant de commencer</h3><p><TexteRefs texte={v.introduction} /></p></section>
       <h2 class="titre-section">Le déroulement</h2>
       <ol class="carte deroulement">
         {etapes.map((e, i) => <li><button onClick={() => setN(i)}><span class="deroulement__num">{e.num === 'proc' ? '✦' : e.num}</span><span>{e.titre}</span><Icone nom="chevron" taille={18} /></button></li>)}
       </ol>
-      <PriereGuidee auto={guide} id={v.id} titre={v.titre} etapes={etapes.map((e) => ({ titre: e.titre, texte: e.num === 'proc' ? e.texte : null, sujets: e.sujets }))} />
-      <button class="bouton bouton--or" style="width:100%;margin-top:14px" onClick={() => setN(0)}><Icone nom="priere" taille={20} /> Commencer la prière</button>
+      <button class="bouton bouton--contour" style="width:100%;margin-top:14px" onClick={() => setN(0)}><Icone nom="priere" taille={20} /> Prier en lisant, étape par étape</button>
       {fois.length > 0 && <p class="ligne__desc" style="text-align:center;margin-top:8px">Tu as prié cette veille {fois.length} fois.</p>}
       <p class="source-mention">Source : {v.auteur}</p>
     </div>

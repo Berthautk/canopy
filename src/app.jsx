@@ -73,7 +73,7 @@ function titre([a, b, c]) {
   if (a === 'jouer') return {
     'quiz-du-jour': 'Quiz du jour', themes: c ? (QUIZ.find((q) => q.id === 'quiz-' + c)?.theme ?? 'Quiz') : 'Quiz par thème', complete: 'Complète le verset',
     'qui-suis-je': 'Qui suis-je ?', chemin: 'Le Chemin de la foi', ordre: "Remets dans l'ordre", duel: 'Duel à deux', badges: 'Mes badges',
-  }[b] ?? 'Jouer et apprendre';
+  }[b] ?? (b ? 'Jouer et apprendre' : null);
   if (a === 'telechargements') return 'Mes téléchargements';
   if (a === 'ecouter') return 'Écouter';
   if (a === 'priere' && b === 'journal') return 'Mon journal de prière';

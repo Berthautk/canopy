@@ -81,14 +81,6 @@ export function Accueil() {
           <Icone nom="chevron" taille={20} />
         </a>
 
-        <a class="jouer-carte" href="#/jouer">
-          <img src="/assets/objets-bibliques/couronne-or.webp" alt="" loading="lazy" />
-          <div>
-            <h2>Jouer et apprendre</h2>
-            <p>Quiz, défis et jeux bibliques pour affermir ta foi</p>
-          </div>
-          <span class="jouer-carte__fleche"><Icone nom="chevron" taille={22} /></span>
-        </a>
       </div>
     </div>
   );

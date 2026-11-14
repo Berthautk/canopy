@@ -41,6 +41,7 @@ const ONGLETS = [
   ['priere', 'Prière', 'priere'],
   ['grandir', 'Grandir', 'grandir'],
   ['evangeliser', 'Évangéliser', 'evangeliser'],
+  ['jouer', 'Jeux', 'trophee'],
   ['bible', 'Bible', 'bible'],
 ];
 
@@ -58,7 +59,6 @@ export function BarreOnglets({ actif }) {
 }
 
 const MENU = [
-  ['jouer', 'Jouer et apprendre', 'trophee'],
   ['telechargements', 'Mes téléchargements', 'telecharger'],
   ['parametres', 'Paramètres', 'reglages'],
   ['a-propos', 'À propos de Yeshaya', 'info'],

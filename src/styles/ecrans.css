@@ -631,3 +631,8 @@
 .conv__priere { font-style: italic; }
 .conv__choix { display: grid; gap: 8px; margin-top: 12px; }
 .conv__choix .bouton { min-height: 50px; white-space: normal; }
+.priere-guidee__lancer--fort { background: linear-gradient(135deg, var(--or), #F2CF6B); border-color: var(--or); color: var(--bleu-nuit, #142340); }
+.priere-guidee__lancer--fort .ligne__titre { color: var(--bleu-nuit, #142340); font-size: 1.1rem; }
+.priere-guidee__lancer--fort .ligne__desc { color: #3a3320; }
+.priere-guidee__lancer--fort .priere-guidee__icone { background: var(--bleu-nuit, #142340); color: var(--or); }
+.priere-guidee .priere-guidee__corps { justify-content: safe center; }
