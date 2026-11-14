@@ -713,3 +713,7 @@
 .memoriser__verset p:first-child { font-family: var(--police-verset, serif); font-size: 1.15rem; line-height: 1.8; }
 .memoriser__trou { color: var(--or-fonce); letter-spacing: 1px; }
 .memoriser__curseur { color: var(--or); font-weight: 700; }
+.meditation__question { margin: 10px 0; }
+.meditation__question .ligne__titre { display: block; margin-bottom: 4px; font-size: .95rem; }
+.meditation__defi { border: 2px solid var(--or); }
+.meditation__question .champ--zone { min-height: 56px; height: 56px; }
