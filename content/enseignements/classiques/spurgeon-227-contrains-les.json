@@ -296,6 +296,9 @@
     },
     {
      "verset": "Es 55:11"
+    },
+    {
+     "texte": "[M. Spurgeon a conclu par une anecdote très intéressante ; mais comme son insertion rendrait le sermon trop long pour un numéro à un penny, les éditeurs ont décidé de l'imprimer comme l'un des « Traités de New Park Street ».]"
     }
    ]
   }
@@ -323,7 +326,7 @@
  "autorisation": "domaine_public",
  "date_ajout": "2026-11-14",
  "relu": false,
- "traduction": "Traduction française intégrale réalisée pour Yeshaya (avec l'aide d'une IA), à relire. Les citations bibliques sont données dans la version Louis Segond 1910. L'anecdote finale, publiée à part par l'éditeur d'origine, ne fait pas partie du texte du sermon.",
+ "traduction": "Traduction française intégrale réalisée pour Yeshaya (avec l'aide d'une IA), à relire. Les citations bibliques sont données dans la version Louis Segond 1910.",
  "prieres_liees": [
   "theme:priere-temoigner",
   "theme:priere-ames"
