@@ -20,7 +20,7 @@ export function OrizonAccueil() {
   return (
     <div class="page">
       <div class="orizon-hero">
-        <p class="orizon-hero__marque">ORIZON GUIDE</p>
+        <p class="orizon-hero__marque">YESHAYA</p>
         <h2>Vaincre en 90 jours</h2>
         <p>{ORIZON.sous_titre}</p>
         <p class="orizon-hero__verset">« C'est pour la liberté que Christ nous a affranchis. » (Galates 5:1)</p>

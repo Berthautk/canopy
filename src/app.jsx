@@ -66,7 +66,7 @@ function titre([a, b, c]) {
   if (a === 'admin') return 'Espace administrateur';
   if (a === 'equilibre') return 'Mon équilibre avec Dieu';
   if (a === 'disciple') return { defi: 'Défi de 21 jours', verset: 'Le verset de la semaine', temoignages: 'Mes témoignages', cinq: 'Ma liste des 5' }[b] || 'Mes outils de disciple';
-  if (a === 'orizon') return b === 'jour' ? 'ORIZON · Jour ' + c : 'ORIZON · Vaincre en 90 jours';
+  if (a === 'orizon') return b === 'jour' ? 'Vaincre en 90 jours · Jour ' + c : 'Vaincre en 90 jours';
   if (a === 'confidentialite') return 'Confidentialité';
   if (a === 'priere' && b === 'demander') return 'Demander la prière';
   if (a === 'jouer') return {
