@@ -96,3 +96,59 @@
 .radio { margin-top: 12px; display: flex; align-items: center; gap: 12px; padding: 12px; }
 .radio h3 { font-size: 1rem; }
 .credits p { font-size: .88rem; }
+
+/* ===== Audio ===== */
+.app--mini .page { padding-bottom: calc(var(--barre-h) + 92px + env(safe-area-inset-bottom)); }
+.app--mini .actions-verset { bottom: calc(var(--barre-h) + 70px + env(safe-area-inset-bottom)); }
+.app--mini .toast { bottom: calc(var(--barre-h) + 90px + env(safe-area-inset-bottom)); }
+.mini-lecteur { position: fixed; z-index: 31; left: 8px; right: 8px; max-width: 544px; margin: 0 auto; overflow: hidden;
+  bottom: calc(var(--barre-h) + 8px + env(safe-area-inset-bottom)); display: flex; align-items: center; gap: 6px; padding: 6px 6px 8px;
+  background: var(--surface); border: 1px solid var(--bord); border-radius: 14px; box-shadow: 0 6px 20px rgba(0,0,0,.18); }
+.mini-lecteur__info { flex: 1; min-width: 0; display: flex; align-items: center; gap: 10px; }
+.mini-lecteur__info img { width: 44px; height: 44px; border-radius: 10px; object-fit: cover; flex: none; }
+.mini-lecteur__textes { min-width: 0; display: grid; }
+.mini-lecteur__titre { font-family: var(--police-titre); font-weight: 600; color: var(--titre); font-size: .9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mini-lecteur__auteur { font-size: .76rem; color: var(--texte-doux); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mini-lecteur__btn { width: 44px; height: 44px; flex: none; border-radius: 50%; display: grid; place-items: center; background: var(--bleu-nuit); color: #fff; }
+.mini-lecteur__btn--fermer { background: none; color: var(--texte-doux); }
+.mini-lecteur__progression { position: absolute; left: 0; bottom: 0; height: 3px; background: var(--sauge); }
+.btn-lecture { flex: none; border-radius: 50%; display: grid; place-items: center; background: var(--or); color: #fff; box-shadow: 0 3px 10px rgba(201,168,91,.45); }
+.btn-lecture:disabled { opacity: .45; }
+.continuer { margin-top: 10px; width: 100%; display: flex; align-items: center; gap: 12px; padding: 10px 12px; text-align: left; color: var(--titre); }
+.continuer__icone { width: 40px; height: 40px; flex: none; border-radius: 50%; display: grid; place-items: center; background: var(--bleu-nuit); color: #fff; }
+.audio-jour__corps { display: block; }
+.btn-dl { position: relative; overflow: hidden; display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 44px; padding: 0 16px;
+  border-radius: 999px; background: var(--bleu-nuit); color: #fff; font-family: var(--police-titre); font-weight: 600; font-size: .9rem; }
+.btn-dl--ok { background: #E3F2EE; color: var(--sauge); }
+:root[data-theme='sombre'] .btn-dl--ok { background: #1B3A36; color: #8FD3C6; }
+.btn-dl--cours { background: var(--surface-2); color: var(--titre); border: 1px solid var(--bord); }
+.btn-dl__barre { position: absolute; inset: 0 auto 0 0; background: rgba(52,124,117,.25); }
+.btn-dl--compact { width: 44px; padding: 0; font-size: .7rem; }
+.ecouter { padding-top: 10px; }
+.ecouter__visuel { position: relative; margin: 0 -12px; height: 240px; overflow: hidden; }
+.ecouter__visuel img { width: 100%; height: 100%; object-fit: cover; }
+.ecouter__visuel::after { content: ''; position: absolute; inset: 0; background: linear-gradient(transparent 60%, var(--fond)); }
+.ecouter__exemple { position: absolute; z-index: 1; top: 10px; right: 12px; }
+.ecouter__infos { position: relative; margin-top: -40px; padding: 14px; display: flex; gap: 12px; align-items: center; }
+.ecouter__infos h2 { font-size: 1.3rem; margin-top: 2px; }
+.ecouter__auteur { color: var(--texte-doux); margin-top: 2px; }
+.ecouter__autorisation { display: inline-flex; align-items: center; gap: 4px; margin-top: 6px; font-size: .78rem; font-weight: 600; color: var(--sauge); }
+.rond--grand { width: 52px; height: 52px; }
+.ecouter__barre { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px; margin: 20px 4px 8px; font-size: .85rem;
+  color: var(--texte-doux); font-variant-numeric: tabular-nums; }
+.ecouter__barre input { -webkit-appearance: none; appearance: none; width: 100%; height: 6px; border-radius: 999px; margin: 0;
+  background: linear-gradient(90deg, var(--sauge) var(--pct), var(--bord) var(--pct)); }
+.ecouter__barre input::-webkit-slider-thumb { -webkit-appearance: none; width: 22px; height: 22px; border-radius: 50%; background: #fff; border: 3px solid var(--sauge); box-shadow: var(--ombre); }
+.ecouter__barre input::-moz-range-thumb { width: 18px; height: 18px; border-radius: 50%; background: #fff; border: 3px solid var(--sauge); }
+.ecouter__commandes { display: flex; align-items: center; justify-content: center; gap: 26px; margin: 6px 0 16px; }
+.ecouter__lecture { width: 84px; height: 84px; border-radius: 50%; display: grid; place-items: center; background: var(--or); color: #fff;
+  box-shadow: 0 6px 18px rgba(201,168,91,.5); }
+.rotation { width: 30px; height: 30px; border-radius: 50%; border: 3px solid rgba(255,255,255,.4); border-top-color: #fff; animation: tourne 0.9s linear infinite; }
+@keyframes tourne { to { transform: rotate(360deg); } }
+.ecouter__options { margin-top: 10px; padding: 12px; display: grid; gap: 10px; }
+.dl { display: flex; align-items: center; gap: 10px; padding: 8px; }
+.dl__image { width: 64px; height: 52px; border-radius: 10px; object-fit: cover; flex: none; }
+.dl__ok { display: inline-flex; align-items: center; gap: 4px; font-size: .76rem; font-weight: 600; color: var(--sauge); margin-top: 2px; }
+.stockage { margin-top: 12px; display: flex; gap: 12px; align-items: center; padding: 12px; }
+:root[data-theme='sombre'] .ecouter__autorisation, :root[data-theme='sombre'] .dl__ok, :root[data-theme='sombre'] .hors-ligne-ok,
+:root[data-theme='sombre'] .lien { color: #8FD3C6; }

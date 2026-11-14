@@ -1,7 +1,10 @@
 import { Icone } from '../composants/Icone.jsx';
 import { usePassage, TextePassage, cheminMontrer } from '../composants/Verset.jsx';
 import { TelechargementBible } from '../composants/TelechargementBible.jsx';
-import { versetDuJour } from '../donnees/contenu.js';
+import { versetDuJour, audioDuJour } from '../donnees/contenu.js';
+import { BoutonLecture } from '../composants/Audio.jsx';
+import { derniereEcoute, jouer, formatTemps, lecteur } from '../audio/lecteur.js';
+import { useSignal } from '../outils/signal.js';
 import { ecrireReference } from '../bible/references.js';
 
 const ACCES = [
@@ -14,6 +17,10 @@ const ACCES = [
 // Écran 2 : accueil.
 export function Accueil() {
   const etat = usePassage(versetDuJour());
+  const piste = audioDuJour();
+  const derniere = useSignal(derniereEcoute);
+  const enCours = useSignal(lecteur).piste;
+  const reprendre = derniere && derniere.position > 5 && derniere.position < derniere.duree - 5 && enCours?.id !== derniere.piste.id ? derniere : null;
   return (
     <div class="accueil">
       <div class="accueil__hero">
@@ -28,17 +35,27 @@ export function Accueil() {
           {etat.ref && <a class="pastille pastille--ref" href={'#/' + cheminMontrer(etat.ref)}>{ecrireReference(etat.ref)}</a>}
         </section>
 
-        <section class="carte audio-jour">
-          <img src="/assets/audio/casque-et-bible.webp" alt="" loading="lazy" />
-          <div class="audio-jour__corps">
-            <h2>Audio du jour <span class="etiquette-exemple">EXEMPLE</span></h2>
-            <p class="audio-jour__auteur">Nom de l'orateur</p>
-            <p class="audio-jour__titre">Le salut en Jésus-Christ</p>
-          </div>
-          <button class="audio-jour__lecture" disabled aria-label="Écouter (disponible avec le lecteur audio)">
-            <Icone nom="lecture" taille={22} />
+        {piste && (
+          <section class="carte audio-jour">
+            <a href={'#/ecouter/' + piste.id}><img src={piste.image} alt="" loading="lazy" /></a>
+            <a class="audio-jour__corps" href={'#/ecouter/' + piste.id}>
+              <h2>Audio du jour {piste.exemple && <span class="etiquette-exemple">EXEMPLE</span>}</h2>
+              <p class="audio-jour__auteur">{piste.auteur}</p>
+              <p class="audio-jour__titre">{piste.titre}</p>
+            </a>
+            <BoutonLecture piste={piste} />
+          </section>
+        )}
+        {reprendre && (
+          <button class="carte continuer" onClick={() => jouer(reprendre.piste)}>
+            <span class="continuer__icone"><Icone nom="musique" taille={20} /></span>
+            <span class="ligne__corps">
+              <span class="ligne__desc" style="display:block">Continuer l'écoute · {formatTemps(reprendre.position)} / {formatTemps(reprendre.duree)}</span>
+              <span class="ligne__titre">{reprendre.piste.titre}</span>
+            </span>
+            <Icone nom="lecture" taille={20} />
           </button>
-        </section>
+        )}
 
         <nav class="acces" aria-label="Accès rapides">
           {ACCES.map(([id, libelle, icone, fond, couleur]) => (

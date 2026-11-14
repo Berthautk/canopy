@@ -3,7 +3,8 @@ import { get, set } from 'idb-keyval';
 import { Icone } from '../../composants/Icone.jsx';
 import { notifier } from '../../composants/Notification.jsx';
 import { usePassage, TextePassage, cheminMontrer } from '../../composants/Verset.jsx';
-import { meditationDuJour } from '../../donnees/contenu.js';
+import { meditationDuJour, AUDIOS } from '../../donnees/contenu.js';
+import { jouer } from '../../audio/lecteur.js';
 import { ecrireReference } from '../../bible/references.js';
 import { partager } from '../../outils/partage.js';
 
@@ -65,7 +66,8 @@ export function Meditation() {
       </section>
 
       <div class="verset__actions" style="justify-content:center;margin-top:12px">
-        <button class="bouton bouton--contour bouton--petit" disabled title="Arrive avec le lecteur audio"><Icone nom="musique" taille={18} /> Écouter (bientôt)</button>
+        {AUDIOS[m.id] ? <button class="bouton bouton--contour bouton--petit" onClick={() => jouer(AUDIOS[m.id])}><Icone nom="musique" taille={18} /> Écouter</button>
+          : <button class="bouton bouton--contour bouton--petit" disabled><Icone nom="musique" taille={18} /> Pas d'audio aujourd'hui</button>}
         {etat.texte && <button class="bouton bouton--contour bouton--petit" onClick={() => partager({ titre: m.titre, texte: `${m.titre}\n« ${etat.texte} » — ${ecrireReference(etat.ref)} (LSG)\n\n${m.question}`, chemin: 'bible/meditation' })}>
           <Icone nom="partager" taille={18} /> Partager</button>}
       </div>

@@ -28,6 +28,18 @@ export default defineConfig({
             options: { cacheName: 'yeshaya-bible' },
           },
           {
+            // Audios : servis depuis le téléphone s'ils ont été téléchargés (bouton « Télécharger »),
+            // avec réponse aux requêtes partielles (Range) indispensables au lecteur.
+            // Aucun audio n'est mis en cache automatiquement : seule la réponse marquée par l'app est gardée.
+            urlPattern: ({ url }) => /\.(mp3|m4a|ogg|opus)$/i.test(url.pathname),
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'yeshaya-audio',
+              rangeRequests: true,
+              cacheableResponse: { headers: { 'x-yeshaya-telecharge': 'oui' } },
+            },
+          },
+          {
             urlPattern: ({ url }) => url.pathname.startsWith('/assets/'),
             handler: 'CacheFirst',
             options: {

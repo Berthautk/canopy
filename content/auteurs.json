@@ -1,0 +1,13 @@
+{
+ "auteurs": [
+  {
+   "id": "exemple",
+   "nom": "Nom de l'orateur",
+   "ministere": "Nom du ministère",
+   "autorisation": "oui",
+   "date": "2026-11-14",
+   "note": "EXEMPLE : remplacer par un vrai auteur. « autorisation » = oui uniquement si l'accord écrit a été reçu.",
+   "exemple": true
+  }
+ ]
+}

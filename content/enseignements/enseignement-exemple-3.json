@@ -1,0 +1,18 @@
+{
+ "id": "enseignement-exemple-3",
+ "titre": "La foi qui surmonte la peur",
+ "theme": "Foi",
+ "serie": "Les bases de la foi",
+ "resume": "Faire face à l'inquiétude en s'appuyant sur les promesses de Dieu.",
+ "versets": [
+  "És 41:10",
+  "Ps 27:1"
+ ],
+ "image": "/assets/paysages/lever-soleil-collines.webp",
+ "auteur": "Nom de l'orateur",
+ "autorisation": "oui",
+ "audio": "/audio-exemples/exemple-3.mp3",
+ "duree": "0:50",
+ "date_ajout": "2026-11-14",
+ "exemple": true
+}

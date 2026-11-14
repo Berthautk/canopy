@@ -1,0 +1,18 @@
+{
+ "id": "enseignement-exemple-2",
+ "titre": "La puissance de la prière",
+ "theme": "Prière",
+ "serie": "Vie de prière",
+ "resume": "Pourquoi et comment prier chaque jour avec confiance.",
+ "versets": [
+  "Ph 4:6-7",
+  "Mt 6:6"
+ ],
+ "image": "/assets/priere/femme-en-priere.webp",
+ "auteur": "Nom de l'orateur",
+ "autorisation": "oui",
+ "audio": "/audio-exemples/exemple-2.mp3",
+ "duree": "0:50",
+ "date_ajout": "2026-11-14",
+ "exemple": true
+}

@@ -1,0 +1,18 @@
+{
+ "id": "enseignement-exemple-1",
+ "titre": "Le salut en Jésus-Christ",
+ "theme": "Salut",
+ "serie": "Les bases de la foi",
+ "resume": "Comprendre ce que Jésus a fait pour nous et comment recevoir le salut.",
+ "versets": [
+  "Jn 3:16",
+  "Ép 2:8-9"
+ ],
+ "image": "/assets/symboles/croix-coucher-de-soleil.webp",
+ "auteur": "Nom de l'orateur",
+ "autorisation": "oui",
+ "audio": "/audio-exemples/exemple-1.mp3",
+ "duree": "0:50",
+ "date_ajout": "2026-11-14",
+ "exemple": true
+}

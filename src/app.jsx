@@ -15,6 +15,10 @@ import { Sujets } from './ecrans/bible/Sujets.jsx';
 import { Chemin } from './ecrans/bible/Chemin.jsx';
 import { Meditation } from './ecrans/bible/Meditation.jsx';
 import { Plan } from './ecrans/bible/Plan.jsx';
+import { Ecouter } from './ecrans/audio/Ecouter.jsx';
+import { Telechargements } from './ecrans/audio/Telechargements.jsx';
+import { MiniLecteur } from './composants/Audio.jsx';
+import { lecteur } from './audio/lecteur.js';
 import { route, ONGLET_DE } from './outils/routeur.js';
 import { useSignal } from './outils/signal.js';
 import { reglages, modifierReglages, demanderStockagePersistant } from './donnees/reglages.js';
@@ -28,7 +32,6 @@ const A_VENIR = {
   grandir: ['Grandir', '/assets/nouveau-converti/etude-de-la-bible.webp', 'Enseignements par thèmes, séries et parcours « Nouveau converti » sur 30 jours.'],
   evangeliser: ['Évangéliser', '/assets/evangelisation/partage-bible-dans-la-rue.webp', 'Motivation, formation, dialogues et réponses aux objections.'],
   jouer: ['Jouer et apprendre', '/assets/jeux/banniere-quiz-biblique.webp', 'Quiz du jour, « Complète le verset », « Qui suis-je ? », duel à deux et badges.'],
-  telechargements: ['Mes téléchargements', '/assets/audio/telephone-lecteur-audio.webp', 'Les audios téléchargés pour l\'écoute hors ligne et l\'espace qu\'ils occupent.'],
 };
 
 // Titre de la barre secondaire (avec bouton retour) selon l'écran.
@@ -37,6 +40,7 @@ function titre([a, b, c]) {
   if (a === 'a-propos') return 'À propos de Yeshaya';
   if (a === 'jouer') return 'Jouer et apprendre';
   if (a === 'telechargements') return 'Mes téléchargements';
+  if (a === 'ecouter') return 'Écouter';
   if (a !== 'bible' || !b) return null;
   return {
     livres: c && PAR_CODE[c] ? PAR_CODE[c].nom : 'Livres de la Bible', lire: 'Lire la Bible', recherche: 'Rechercher dans la Bible',
@@ -51,6 +55,8 @@ function Ecran({ r }) {
   if (a === 'accueil') return <Accueil />;
   if (a === 'parametres') return <Parametres />;
   if (a === 'a-propos') return <APropos />;
+  if (a === 'telechargements') return <Telechargements />;
+  if (a === 'ecouter') return <Ecouter id={b} />;
   if (a === 'bible') {
     if (!b) return <BibleAccueil />;
     if (b === 'livres') return <Livres code={c} />;
@@ -70,6 +76,7 @@ function Ecran({ r }) {
 export function App() {
   const r = useSignal(route);
   const reg = useSignal(reglages);
+  const l = useSignal(lecteur);
   const tiroir = useTiroir();
   const [demarrage, setDemarrage] = useState(true);
 
@@ -92,9 +99,10 @@ export function App() {
   }
 
   return (
-    <div class="app">
+    <div class={'app' + (l.piste && r.segments[0] !== 'ecouter' ? ' app--mini' : '')}>
       <Entete titre={titre(r.segments)} surMenu={tiroir.ouvrir} />
       <main id="contenu"><Ecran r={r} /></main>
+      <MiniLecteur />
       <BarreOnglets actif={ONGLET_DE[r.segments[0]] ?? 'accueil'} />
       <Tiroir ouvert={tiroir.ouvert} fermer={tiroir.fermer} />
       <Notification />

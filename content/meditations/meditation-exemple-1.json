@@ -9,7 +9,7 @@
  "exemple": true,
  "auteur": "Nom de l'orateur",
  "autorisation": "oui",
- "audio": null,
- "duree": null,
+ "audio": "/audio-exemples/exemple-3.mp3",
+ "duree": "0:50",
  "date_ajout": "2026-11-13"
 }
