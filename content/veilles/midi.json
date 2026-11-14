@@ -1,0 +1,330 @@
+{
+ "id": "veille-midi",
+ "ordre": 2,
+ "titre": "Veille de Midi",
+ "heures": "12h – 15h",
+ "theme": "La Force et la Confrontation",
+ "verset": "Psaume 55:18",
+ "image": "/assets/paysages/collines-vertes.webp",
+ "introduction": "Il est midi. Tu es au cœur de ta journée — et c'est précisément pour cela que tu dois t'arrêter. La veille de midi n'est pas une pause pour les oisifs. C'est le point de ravitaillement du soldat en campagne. Ta matinée est derrière toi. Ton après-midi est devant toi. C'est maintenant que tu te repositionnes devant Dieu.",
+ "phases": [
+  {
+   "num": "0",
+   "titre": "Pause, Bilan et Recentrage",
+   "sous_titre": "Avant toute demande — examinez-vous (2 Corinthiens 13:5)",
+   "texte": "La Veille de Midi commence par un bilan. Tu es sorti ce matin couvert, priant. Mais la journée t'a livré ses combats. Avant de prier pour l'après-midi, il faut faire le point sur la matinée.",
+   "sujets": [
+    {
+     "titre": "Se couvrir à nouveau du Sang",
+     "texte": "Demande à Dieu de te couvrir à nouveau de Son Sang pour la seconde partie de ta journée. Des heures se sont écoulées, des combats ont eu lieu. Renouvelle ta couverture maintenant. (Hébreux 9:14)"
+    },
+    {
+     "titre": "Purifier tes sens",
+     "texte": "Demande à Dieu de purifier par le Sang de Jésus tes yeux pour ce qu'ils ont vu ce matin, tes oreilles, ta bouche pour ce qu'elle a dit, ton esprit pour ce qu'il a pensé. (1 Jean 1:7)"
+    },
+    {
+     "titre": "Annuler les paroles de colère",
+     "texte": "Demande à Dieu d'annuler par le Sang toute parole dure ou colérique prononcée depuis ce matin — envers ton conjoint, tes enfants, un collègue. (Proverbes 18:21)"
+    },
+    {
+     "titre": "Annuler les paroles de découragement",
+     "texte": "Si tu as dit ce matin « ça ne marchera jamais » ou « je suis fatigué » — annule ces paroles. Romps tout accord que ces paroles ont pu créer avec l'ennemi. (Nombres 14:28)"
+    },
+    {
+     "titre": "Rompre les accords inconscients",
+     "texte": "S'il t'est arrivé de t'engager à quelque chose par pression ou précipitation — sans consulter Dieu — demande-Lui de te dégager si ce n'est pas Sa volonté. (Matthieu 5:37)"
+    },
+    {
+     "titre": "Consacrer la seconde partie de journée",
+     "texte": "Dis à Dieu que tu Lui consacres les heures qui vont de midi jusqu'au soir. Remets entre Ses mains ton agenda, tes rendez-vous, tes décisions et tes conversations. (Proverbes 16:3)"
+    },
+    {
+     "titre": "Recevoir la grâce du recommencement",
+     "texte": "Remercie Dieu que Sa grâce ne s'épuise pas à mi-journée. Sa miséricorde se renouvelle. Tu n'es pas condamné par ta matinée — tu pars de nouveau, lavé et repositionné. (Lamentations 3:22-23)"
+    }
+   ]
+  },
+  {
+   "num": "1",
+   "titre": "Adoration",
+   "sous_titre": "Que Ton nom soit sanctifié — Matthieu 6:9",
+   "texte": "À midi, le Saint-Esprit t'ouvre d'autres facettes de ce Dieu infini. Les Noms de Dieu révèlent qui Il est pour ta journée en cours. Prononce chaque déclaration à voix haute.",
+   "sujets": [
+    {
+     "titre": "Il est Yahwé Sabaoth — Seigneur des armées",
+     "texte": "Adore le Seigneur des armées célestes dont la puissance dépasse tous les pouvoirs de la terre et de l'air ; Exalte-Le car Ses légions invisibles sont déployées autour de toi en ce moment même ; Magnifie l'Éternel des armées, devant qui toute résistance ennemie est réduite à néant en un instant. (Psaume 46:8)"
+    },
+    {
+     "titre": "Il est Yahwé Rohi — le Berger fidèle",
+     "texte": "Adore le Dieu qui est ton Berger attentionné et fidèle ; Exalte-Le car Il te guide dans les bons pâturages, te rassemble quand tu t'éparpilles et marche avec toi même dans la vallée de l'ombre de midi ; Magnifie le Berger qui ne perd aucune de Ses brebis et dont la houlette te ramène toujours vers le bon chemin. (Psaume 23:1-4)"
+    },
+    {
+     "titre": "Il est Yahwé Jireh — le Pourvoyeur",
+     "texte": "Adore le Dieu qui pourvoit à tous tes besoins avant même que tu les exprimes ; Exalte-Le car Il te rencontre dans chaque situation de ta vie, comme Il avait préparé le bélier pour Abraham avant même qu'il monte la montagne ; Magnifie l'Éternel qui agit en ta faveur de sorte que tu ne manques de rien — ni en ce midi ni jusqu'à la fin de ta journée. (Genèse 22:14)"
+    },
+    {
+     "titre": "Il est Yahwé Rapha — le Guérisseur",
+     "texte": "Adore le Dieu qui guérit — les corps malades, les âmes froissées, les cœurs brisés, les blessures invisibles de ta journée ; Exalte-Le car Il est la médecine que nulle prescription humaine ne peut remplacer ; Magnifie l'Éternel Guérisseur qui renouvelle et restaure de l'intérieur ce que la maladie, la douleur et les heures difficiles ont touché. (Exode 15:26)"
+    },
+    {
+     "titre": "Il est Yahwé Nissi — la Bannière de victoire",
+     "texte": "Adore le Dieu qui est ta Bannière de victoire levée au-dessus de chaque bataille de ce jour ; Exalte-Le car sous Sa bannière tu n'es jamais définitivement vaincu, quelle que soit la puissance de l'adversaire ; Magnifie l'Éternel qui transforme tes combats en témoignages de Sa gloire et tes reculs provisoires en victoires durables. (Exode 17:15)"
+    },
+    {
+     "titre": "Il est Yahwé Shalom — la Paix profonde",
+     "texte": "Adore le Dieu qui est ta Paix profonde et inébranlable au cœur de l'agitation de ce midi ; Exalte-Le car cette paix surpasse toute compréhension humaine et garde ton cœur et ton esprit dans les tempêtes ; Magnifie l'Éternel dont la paix règne là où aucun effort humain ne peut créer la sérénité. (Juges 6:24 ; Jean 14:27)"
+    },
+    {
+     "titre": "Il est Yahwé Tsidkenu — ta Justice",
+     "texte": "Adore le Dieu qui est ta Justice imputée par le Sang de Christ ; Exalte-Le car tu te tiens devant Lui ce midi justifié — lavé, accepté, sans condamnation ni honte, même si ta matinée a connu des failles ; Magnifie l'Éternel qui t'a revêtu de Sa propre justice comme d'un vêtement sans tache. (Jérémie 23:6 ; Romains 8:1)"
+    },
+    {
+     "titre": "Il est Yahwé Shammah — le Dieu présent",
+     "texte": "Adore le Dieu présent — ici, maintenant, dans cet endroit précis où tu pries, aussi ordinaire et bruyant qu'il soit ; Exalte-Le car là où Il est présent, les ténèbres ne peuvent demeurer ni les ennemis prendre pied ; Magnifie l'Éternel Qui Est Là, dont la présence seule suffit à transformer les lieux les plus ordinaires en lieux saints. (Ézéchiel 48:35)"
+    }
+   ]
+  },
+  {
+   "num": "2",
+   "titre": "Que Ton Règne vienne",
+   "sous_titre": "Mt 6:10 — L'heure où le monde tourne le plus vite",
+   "texte": "Il est midi. Les marchés sont en activité, les tribunaux rendent des décisions, les salles de classe sont chargées. C'est l'heure où le croyant se lève pour intercéder.",
+   "sujets": [
+    {
+     "titre": "Le Règne dans les lieux de décision",
+     "texte": "Intercède pour que l'Esprit de Dieu influence les décisions qui se prennent en ce moment dans les administrations et les tribunaux. Que les décrets injustes soient bloqués. (Proverbes 21:1)"
+    },
+    {
+     "titre": "Le Règne dans les médias",
+     "texte": "Intercède pour que la vérité de Dieu pénètre les médias. Que des journalistes croyants aient le courage de témoigner dans leurs rédactions. Que les mensonges soient démasqués. (Jean 8:32)"
+    },
+    {
+     "titre": "Le Règne dans les universités",
+     "texte": "Intercède pour que des étudiants chrétiens se lèvent en ce moment dans les campus — dans les amphithéâtres, les résidences — et portent la lumière de l'Évangile. (Daniel 1:17)"
+    },
+    {
+     "titre": "Le Règne dans les foyers brisés",
+     "texte": "Intercède pour les couples en crise, les familles déchirées. Que le Règne de Dieu soit une force de réconciliation et de restauration dans ces maisons. (Malachie 4:6)"
+    },
+    {
+     "titre": "Le Règne dans les prisons",
+     "texte": "Intercède pour les détenus de ta région — que l'Évangile pénètre derrière les barreaux, que des vies soient transformées et trouvent une raison de vivre différemment. (Luc 4:18)"
+    },
+    {
+     "titre": "Le Règne sur les familles non croyantes",
+     "texte": "Intercède pour les familles de ton voisinage qui ne connaissent pas Christ. Que le témoignage de ta vie soit une lumière qui suscite des questions dans les cœurs. (Matthieu 5:16)"
+    }
+   ]
+  },
+  {
+   "num": "3",
+   "titre": "Que Ta Volonté soit faite",
+   "sous_titre": "Mt 6:10",
+   "texte": "Tu poses ta volonté aux pieds de Dieu et tu demandes que la Sienne règne pour la seconde partie de ta journée.",
+   "sujets": [
+    {
+     "titre": "Remettre les décisions de la matinée",
+     "texte": "Dis à Dieu que tu Lui remets chaque décision prise depuis ce matin. S'il y en a une hors de Sa volonté — demande-Lui de la corriger ou de la racheter selon Sa sagesse. (Proverbes 19:21)"
+    },
+    {
+     "titre": "La gestion du temps de l'après-midi",
+     "texte": "Demande à Dieu de gouverner ton agenda de l'après-midi. Que ce qui est prévu se fasse si c'est dans Sa volonté. Que les interruptions imprévues soient des rendez-vous divins. (Éphésiens 5:15-16)"
+    },
+    {
+     "titre": "Soumission aux résultats décevants",
+     "texte": "Si ta matinée n'a pas produit ce que tu espérais, dis à Dieu que tu choisis de te soumettre à Sa volonté même dans la déception. Que tu crois que Sa volonté est bonne. (Romains 8:28)"
+    },
+    {
+     "titre": "Les conversations de l'après-midi",
+     "texte": "Demande à Dieu de gouverner chaque conversation que tu auras — ce que tu diras, ce que tu ne diras pas, le moment où tu parleras et où tu garderas le silence. (Colossiens 4:6)"
+    },
+    {
+     "titre": "Les rencontres imprévues",
+     "texte": "Remets à Dieu les rencontres imprévues de cet après-midi. Demande-Lui que chaque imprévu soit en réalité un rendez-vous qu'Il a placé sur ta route. (Proverbes 16:9)"
+    }
+   ]
+  },
+  {
+   "num": "4",
+   "titre": "Donne-nous notre pain de ce jour",
+   "sous_titre": "Mt 6:11 — À midi, le pain c'est la force pour tenir jusqu'au soir",
+   "texte": "À midi, le pain n'est pas seulement ce qui est dans ton assiette. C'est la force renouvelée pour tenir jusqu'au soir. Sois précis dans tes demandes. (Philippiens 4:6)",
+   "sujets": [
+    {
+     "titre": "La force renouvelée",
+     "texte": "Demande à Dieu de renouveler ta force physique, mentale et émotionnelle pour la deuxième partie de ta journée. Que Son Esprit te vivifie de l'intérieur. (Néhémie 8:10)"
+    },
+    {
+     "titre": "La concentration et la clarté d'esprit",
+     "texte": "Demande que la somnolence, la confusion mentale et le brouillard du midi soient chassés par la puissance du Saint-Esprit. Que ton esprit soit vif et ordonné. (2 Timothée 1:7)"
+    },
+    {
+     "titre": "La sagesse pour les décisions de l'après-midi",
+     "texte": "Demande la sagesse pour chaque décision de cet après-midi — petite ou grande. Que ton Esprit t'éclaire au moment précis où tu en auras besoin. (Jacques 1:5)"
+    },
+    {
+     "titre": "La faveur dans les interactions",
+     "texte": "Demande à Dieu de poser Sa faveur sur toi dans chaque interaction de cet après-midi. Que les portes qui semblaient fermées ce matin s'ouvrent. (Genèse 39:21)"
+    },
+    {
+     "titre": "La paix intérieure",
+     "texte": "Demande la paix profonde qui stabilise l'âme au cœur de l'agitation. Que tu ne sois pas emporté par les urgences, les mauvaises nouvelles ou les provocations. (Philippiens 4:7)"
+    },
+    {
+     "titre": "La protection sur tes déplacements",
+     "texte": "Demande à Dieu de couvrir chaque déplacement de cet après-midi — les routes, les transports, les trajets. Que Sa protection soit active sur chaque kilomètre. (Psaume 121:7-8)"
+    }
+   ]
+  },
+  {
+   "num": "5",
+   "titre": "Pardonne-nous nos offenses",
+   "sous_titre": "Mt 6:12 — La matinée a produit ses fruits, bons et mauvais",
+   "texte": "Ta matinée est derrière toi. Des paroles ont dépassé ta pensée. Des réactions ont trahi ton intérieur. Tu viens devant Dieu les mains ouvertes. (Éphésiens 4:32)",
+   "sujets": [
+    {
+     "titre": "Le péché de la langue ce matin",
+     "texte": "Confesse toute parole prononcée depuis ce matin qui a blessé, trompé ou divisé — la vantardise discrète, le mensonge poli, le commentaire qui a semé le doute. (Proverbes 12:18)"
+    },
+    {
+     "titre": "L'orgueil dans les interactions",
+     "texte": "Confesse tout orgueil manifesté ce matin — le refus de reconnaître une erreur, le besoin d'avoir le dernier mot, le mépris envers quelqu'un que tu considères inférieur. (Proverbes 16:18)"
+    },
+    {
+     "titre": "L'ingratitude envers Dieu",
+     "texte": "Confesse si tu as traversé ta matinée sans remarquer Ses bontés — le trajet sûr non remercié, la bonne nouvelle accueillie comme un dû. (2 Timothée 3:2)"
+    },
+    {
+     "titre": "Pardonner ceux qui t'ont blessé ce matin",
+     "texte": "Choisis de pardonner à toute personne qui t'a blessé depuis ce matin — par une parole, une injustice, un oubli. Prononce ce pardon à voix haute devant Dieu. (Éphésiens 4:32)"
+    },
+    {
+     "titre": "Pardonner ceux qui ont volé ton temps",
+     "texte": "Pardonne à toute personne dont l'attitude t'a fait perdre du temps ou de la paix ce matin. Remets ces frustrations à Dieu. Ne les transporte pas dans l'après-midi. (Romains 12:19)"
+    }
+   ]
+  },
+  {
+   "num": "6",
+   "titre": "Ne nous soumets pas à la tentation",
+   "sous_titre": "Mt 6:13 — Midi est l'heure de la vulnérabilité maximale",
+   "texte": "Midi est dangereuse non pas parce que l'ennemi est plus puissant, mais parce que le croyant est plus vulnérable. La garde baisse avec la fatigue. (1 Pierre 5:8)",
+   "sujets": [
+    {
+     "titre": "L'irritabilité sous la fatigue",
+     "texte": "Demande à Dieu de te garder de l'irritabilité qui s'installe à midi — quand le corps est fatigué, quand la patience s'est épuisée. Que Son Esprit produise la douceur là où ta nature produit la réaction. (Galates 5:22-23)"
+    },
+    {
+     "titre": "Les décisions irréfléchies",
+     "texte": "La fatigue du midi pousse à trancher vite pour en finir. Demande-Lui de te donner le réflexe de t'arrêter, de respirer et de Le consulter avant toute décision importante. (Proverbes 21:5)"
+    },
+    {
+     "titre": "La tentation de la comparaison",
+     "texte": "Demande à Dieu de te garder du péché de comparer ta situation à celle des autres. La comparaison est une porte d'entrée à la jalousie, au découragement et à l'ingratitude. (Galates 6:4)"
+    },
+    {
+     "titre": "Le relâchement spirituel en milieu de journée",
+     "texte": "Demande à Dieu de te garder du relâchement entre la prière du matin et la prière du soir — le moment où l'on vit comme si Dieu n'existait pas. (1 Pierre 5:8)"
+    },
+    {
+     "titre": "La tentation de la parole imprudente",
+     "texte": "Demande à Dieu de te garder des paroles prononcées dans la précipitation, la fatigue ou l'émotion — les paroles que tu regretteras ce soir. Que ta bouche soit gardée par Sa sagesse. (Proverbes 13:3)"
+    }
+   ]
+  },
+  {
+   "num": "7",
+   "titre": "Délivre-nous du Malin",
+   "sous_titre": "Mt 6:13 — Le Sang versé à la sixième heure",
+   "texte": "Il est midi. Dans certaines traditions occultes, cette heure est une heure d'activation. L'ennemi ne prend pas de pause. Mais toi non plus. Tu prends autorité dans la puissance du Nom au-dessus de tout nom.",
+   "sujets": [
+    {
+     "titre": "Briser la fatigue spirituelle programmée",
+     "texte": "Au Nom de Jésus, brise tout esprit de fatigue anormale et d'épuisement envoyé pour éteindre ta vigilance en milieu de journée. Déclare que la force de l'Éternel est ton bouclier. (És 40:29)"
+    },
+    {
+     "titre": "Annuler les paroles mauvaises contre toi",
+     "texte": "Par le Sang de Jésus, annule toute parole négative, toute malédiction verbale prononcée contre toi depuis ce matin. Déclare que la Parole de Dieu sur ta vie est plus forte. (És 54:17)"
+    },
+    {
+     "titre": "Briser la confusion sur les décisions",
+     "texte": "Au Nom de Jésus, brise tout esprit de confusion mentale et de brouillard envoyé pour te faire prendre de mauvaises décisions cet après-midi. Déclare que ton esprit est gouverné par l'Esprit de vérité. (2 Timothée 1:7)"
+    },
+    {
+     "titre": "Renverser les pièges du chemin",
+     "texte": "Par la Parole de Dieu, renverse tout piège invisible tendu sur ta route cet après-midi — le piège de la mauvaise rencontre, de la mauvaise décision au mauvais moment. (Psaume 37:23)"
+    },
+    {
+     "titre": "Désarmer les envois occultes de midi",
+     "texte": "Par le Sang de Jésus, désarme tout envoi occulte effectué à cette heure contre toi, ta famille ou ton ministère. Que ces projectiles spirituels soient arrêtés et retournés. (Nombres 23:23)"
+    },
+    {
+     "titre": "Sceller le fruit de la matinée",
+     "texte": "Au Nom de Jésus, scelle et protège par le Sang tout fruit produit ce matin — les décisions, les paroles de foi, les actes de service, les semences plantées. Que l'ennemi ne vole rien. (Jean 10:10)"
+    }
+   ]
+  },
+  {
+   "num": "8",
+   "titre": "Action de grâce",
+   "sous_titre": "Mt 6:13",
+   "texte": "Ta matinée est derrière toi. L'après-midi est devant toi — couvert, armé, consacré. Reste encore un moment dans la gratitude. Dieu est Dieu — et cela seul suffit à rendre grâces.",
+   "sujets": [
+    {
+     "titre": "Sa présence dans la matinée difficile",
+     "texte": "Remercie Dieu d'avoir été présent dans chaque moment difficile de ta matinée — même ceux où tu ne Le sentais pas. Le fait que tu sois encore en foi est la preuve que Sa main ne t'a pas lâché. (Lamentations 3:22-23)"
+    },
+    {
+     "titre": "Ce que l'après-midi contient encore",
+     "texte": "Remercie Dieu par la foi pour tout ce que cet après-midi contient encore — les portes qui vont s'ouvrir, les rencontres qu'Il a préparées, les solutions qu'Il a déjà placées sur ton chemin. (Jérémie 29:11)"
+    },
+    {
+     "titre": "Les miséricordes renouvelées à midi",
+     "texte": "Remercie Dieu que Sa miséricorde se renouvelle non seulement chaque matin mais à chaque heure de la journée. La faute de ce matin n'est pas portée dans l'après-midi. (Hébreux 4:16)"
+    },
+    {
+     "titre": "Les dangers évités ce matin",
+     "texte": "Remercie Dieu pour tous les dangers que tu n'as pas vus ce matin — l'accident qui ne s'est pas produit. Ce que Dieu empêche est aussi une forme de miracle. (Psaume 121:7-8)"
+    },
+    {
+     "titre": "La nourriture de ce midi",
+     "texte": "Remercie Dieu pour la nourriture que tu as ou que tu auras à cette heure — aussi simple soit-elle. Des millions n'ont rien à manger à midi. Ce que tu as est une grâce. (1 Timothée 6:8)"
+    },
+    {
+     "titre": "Les prières de l'Aube en marche",
+     "texte": "Remercie Dieu par la foi pour les prières prononcées lors de la Veille de l'Aube qui sont déjà en chemin vers leur accomplissement. La prière exaucée n'attend pas que tu la voies. (1 Rois 18:41)"
+    }
+   ]
+  }
+ ],
+ "proclamations": [
+  {
+   "titre": "Sur ma matinée — scellée par le Sang",
+   "texte": "Je déclare que ma matinée est scellée par le Sang de Jésus-Christ. Ce qui s'y est passé dans la foi est gardé et protégé. Ce qui s'y est passé dans la faiblesse est pardonné et lavé. Je ne traîne pas le poids de ce matin dans cet après-midi. Je pars de nouveau — lavé, pardonné, repositionné. (Lamentations 3:22-23 ; 1 Jean 1:9)"
+  },
+  {
+   "titre": "Sur mon lieu de travail — consacré",
+   "texte": "Je déclare que mon lieu de travail, ma salle de classe, mon bureau — l'endroit précis où je passerai cet après-midi — est un territoire consacré à Dieu. Sa présence y est active. Sa lumière y brille à travers moi. Là où je pose le pied, le Règne de Dieu avance. (Matthieu 5:14 ; Jos 1:3)"
+  },
+  {
+   "titre": "Sur mes collègues et partenaires — la faveur",
+   "texte": "Je déclare que la faveur de Dieu me précède dans chaque interaction de cet après-midi. Le cœur de mes supérieurs est dans la main de l'Éternel et Il l'incline en ma faveur. Joseph avait la faveur de Dieu dans la prison — j'ai la faveur de Dieu dans mon milieu. (Proverbes 21:1 ; Genèse 39:21)"
+  },
+  {
+   "titre": "Sur ma protection de l'après-midi",
+   "texte": "Je déclare que je suis couvert par le Sang de Jésus-Christ dans chaque déplacement de cet après-midi. Le soleil de midi ne me frappera pas. Aucune flèche qui vole de jour ne m'atteindra. Les anges de l'Éternel balisent mon chemin. Je reviendrai ce soir en sécurité. (Psaume 91:5-6 ; Psaume 34:8)"
+  },
+  {
+   "titre": "Sur ma persévérance jusqu'au soir",
+   "texte": "Je déclare que je ne tomberai pas dans la deuxième partie de cette journée. La fatigue ne me vaincra pas. Le découragement ne me fera pas abandonner. Je tiens — non par ma propre force, mais par la puissance de l'Éternel qui renouvelle ma force comme les ailes de l'aigle. (És 40:31 ; 2 Corinthiens 4:8-9)"
+  },
+  {
+   "titre": "Proclamation finale",
+   "texte": "Je remets cet après-midi entre les mains de Dieu. Chaque heure qui s'ouvre est gardée par Yahwé Shammah — l'Éternel qui est là. Je ne marche pas seul. Je ne décide pas seul. Je combats sous la couverture de Son Sang et par la puissance de Son Nom. À Lui appartiennent le règne, la puissance et la gloire. Au Nom de Jésus-Christ de Nazareth. Amen !"
+  }
+ ],
+ "auteur": "L'Arsenal de la Sentinelle",
+ "autorisation": "oui",
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14"
+}

@@ -1,0 +1,84 @@
+{
+ "id": "guide-des-phases",
+ "titre": "Prier avec le Notre Père",
+ "phases": {
+  "p0": {
+   "titre": "Ce qu'il faut faire ici :",
+   "texte": "Avant toute adoration — nettoie et sécurise spirituellement ton réveil ou ta reprise. Lis chaque point à voix haute si possible, puis appuie dessus pour le cocher ✅. Utilise le bouton doré pour tout marquer d'un coup."
+  },
+  "p1": {
+   "titre": "Comment adorer :",
+   "texte": "Lis le Nom de Dieu à voix haute. Prononce les paroles en adresse directe à Dieu : 'Seigneur, je T'adore car Tu es...' Il n'y a rien à demander ici — juste L'admirer et L'exalter."
+  },
+  "p2": {
+   "titre": "Comment intercéder :",
+   "texte": "Prie le Père afin que Son Règne s'établisse dans chaque situation mentionnée. Implore la miséricorde de Dieu afin qu'Il règne là où les ténèbres voudraient dominer. Appuie sur chaque point après l'avoir prié ✅."
+  },
+  "p3": {
+   "titre": "Comment soumettre ta volonté :",
+   "texte": "Prie le Père afin que Sa volonté soit faite — pas la tienne. Supplie l'Éternel afin qu'Il gouverne chaque décision et chaque pas de ta journée. Appuie sur chaque point après l'avoir soumis à Dieu ✅."
+  },
+  "p4": {
+   "titre": "Comment présenter tes besoins :",
+   "texte": "Prie le Père afin qu'Il pourvoie à chaque besoin nommé. Implore la provision de Dieu en étant précis — nomme les personnes, les montants, les situations. Appuie sur chaque point après l'avoir présenté ✅."
+  },
+  "p5": {
+   "titre": "Comment te repentir :",
+   "texte": "Confesse honnêtement devant Dieu — nomme les fautes, les personnes, les situations. Implore Sa miséricorde afin qu'Il pardonne et purifie. Reçois Son pardon comme une réalité. Appuie sur chaque point après l'avoir confessé ✅."
+  },
+  "p6": {
+   "titre": "Comment prier contre la tentation :",
+   "texte": "Implore la force de Dieu afin qu'Il te fortifie là où tu es vulnérable. Prie le Père afin qu'Il prépare une sortie de secours pour chaque tentation nommée. Appuie sur chaque point ✅."
+  },
+  "p7": {
+   "titre": "Comment prendre autorité :",
+   "texte": "Lève-toi. Parle à voix haute. Déclare chaque décret au Nom de Jésus-Christ avec foi et autorité. Tu t'adresses aux puissances spirituelles. Appuie sur chaque point après l'avoir déclaré ✅."
+  },
+  "p8": {
+   "titre": "Comment rendre grâce :",
+   "texte": "Remercie le Père avant de voir les résultats — c'est ça la foi. Magnifie l'Éternel pour chaque bénédiction nommée. Appuie sur chaque point après l'avoir remercié ✅."
+  },
+  "proc": {
+   "titre": "Comment déclarer :",
+   "texte": "Lève-toi si tu le peux. Pose la main sur ta poitrine ou lève la main. Lis chaque proclamation à voix haute, avec foi et autorité. Tu parles à l'atmosphère spirituelle — le volume de ta foi compte !"
+  }
+ },
+ "noms": {
+  "0": "Annulation",
+  "1": "Adoration",
+  "2": "Que Ton Règne vienne",
+  "3": "Que Ta Volonté soit faite",
+  "4": "Donne-nous notre pain",
+  "5": "Pardonne nos offenses",
+  "6": "Ne nous soumets pas à la tentation",
+  "7": "Délivre-nous du Malin",
+  "8": "Action de grâce",
+  "proc": "Proclamations"
+ },
+ "minuteur": [
+  {
+   "nom": "Annulation / Bilan",
+   "secondes": 120
+  },
+  {
+   "nom": "Adoration",
+   "secondes": 180
+  },
+  {
+   "nom": "Intercession centrale",
+   "secondes": 300
+  },
+  {
+   "nom": "Repentance",
+   "secondes": 180
+  },
+  {
+   "nom": "Proclamation finale",
+   "secondes": 120
+  }
+ ],
+ "auteur": "L'Arsenal de la Sentinelle",
+ "autorisation": "oui",
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14"
+}

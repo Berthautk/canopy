@@ -1,0 +1,91 @@
+{
+ "id": "priere-salut",
+ "categorie": "Salut et évangélisation",
+ "ordre": 26,
+ "titre": "Salut et formation spirituelle des enfants",
+ "nom_court": "Salut des enfants",
+ "image": "/assets/priere/priere-en-famille.webp",
+ "resume": "Sujets de prière pour : salut et formation spirituelle des enfants, en suivant le Notre Père.",
+ "phases": [
+  {
+   "num": "2",
+   "titre": "Que Ton Règne vienne",
+   "sujets": [
+    {
+     "titre": "Son règne dans leur vie vers le salut",
+     "texte": "Intercède pour que le règne de Dieu s'établisse dans la vie de chaque enfant et les conduise vers Jésus. Que la crainte de Dieu soit plantée en eux dès leur jeune âge. (Proverbes 22:6 ; 1 Timothée 2:4)"
+    },
+    {
+     "titre": "Son règne contre les fausses religions",
+     "texte": "Intercède pour que le règne de Dieu protège chaque enfant contre l'attrait des fausses religions, des sectes et des pratiques déviantes. Que la lumière de l'Évangile soit plus forte. (Jean 10:28-29)"
+    }
+   ]
+  },
+  {
+   "num": "3",
+   "titre": "Que Ta Volonté soit faite",
+   "sujets": [
+    {
+     "titre": "Sa volonté dans leur salut personnel",
+     "texte": "Intercède pour que la volonté de Dieu — qui est que tous soient sauvés — s'accomplisse dans la vie de chaque enfant. Que le Saint-Esprit les convainque de leur besoin de Jésus. (1 Timothée 2:4 ; Jean 16:8)"
+    },
+    {
+     "titre": "Sa volonté dans leur foi personnelle",
+     "texte": "Demande à Dieu que tes enfants aient une rencontre personnelle avec Jésus — que ce ne soit pas simplement la foi de leurs parents mais la leur propre, authentique. (Romains 10:9)"
+    },
+    {
+     "titre": "Sa volonté dans leur caractère",
+     "texte": "Intercède pour que la volonté de Dieu forme le caractère de Jésus en chaque enfant — l'amour, la patience, la douceur, l'honnêteté, la crainte de Dieu dès leur jeunesse. (Galates 5:22-23)"
+    }
+   ]
+  },
+  {
+   "num": "4",
+   "titre": "Donne-nous notre pain",
+   "sujets": [
+    {
+     "titre": "La grâce de connaître Jésus tôt",
+     "texte": "Demande à Dieu d'accorder à chaque enfant la grâce de rencontrer Jésus personnellement dès son jeune âge — avant que le monde ne plante autre chose dans son cœur. (1 Samuel 3:4-10 ; Jérémie 1:5)"
+    }
+   ]
+  },
+  {
+   "num": "6",
+   "titre": "Ne nous soumets pas à la tentation",
+   "sujets": [
+    {
+     "titre": "Les influences contre leur foi",
+     "texte": "Demande à Dieu de garder tes enfants des contenus, des personnes et des environnements qui cherchent à détruire ou à ridiculiser leur foi. Que la Parole de Dieu en eux soit plus forte. (1 Jean 4:4)"
+    }
+   ]
+  },
+  {
+   "num": "7",
+   "titre": "Délivre-nous du Malin",
+   "sujets": [
+    {
+     "titre": "L'esprit d'endurcissement contre la Parole",
+     "texte": "Par la voix de Dieu qui brise les rochers, brise et arrache tout esprit d'endurcissement qui empêcherait tes enfants d'accepter Jésus. Déclare que Dieu leur donnera un cœur nouveau. (Jérémie 23:29 ; Ézéchiel 36:26)"
+    },
+    {
+     "titre": "Les fausses religions et l'impureté précoce",
+     "texte": "Par l'épée de la Parole, tranche tout plan de l'ennemi de mener tes enfants vers les fausses religions ou les sectes. Par le feu du Saint-Esprit, expulse tout esprit d'impureté cherchant à les corrompre. (Hébreux 4:12 ; Jean 10:28 ; 1 Corinthiens 6:19)"
+    }
+   ]
+  },
+  {
+   "num": "8",
+   "titre": "Action de grâce",
+   "sujets": [
+    {
+     "titre": "Leur salut comme plus grande joie",
+     "texte": "Remercie Dieu pour chaque signe de foi dans la vie de tes enfants — chaque question sur Dieu, chaque prière enfantine, chaque moment où leur cœur a été touché. Le salut d'un enfant est la plus grande récompense. (3 Jean 1:4)"
+    }
+   ]
+  }
+ ],
+ "auteur": "L'Arsenal de la Sentinelle",
+ "autorisation": "oui",
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14"
+}

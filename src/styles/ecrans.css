@@ -343,3 +343,58 @@
 .ref-lien { display: grid; gap: 8px; }
 .ref-lien__tete { display: flex; align-items: center; gap: 12px; }
 .ref-lien .verset__texte { font-size: .98rem; }
+
+/* ===== Arsenal : moments de prière, phases, combat, enseignements écrits ===== */
+.ref-inline { color: var(--sauge); font-weight: 600; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; white-space: nowrap; }
+:root[data-theme='sombre'] .ref-inline { color: #8FD3C6; }
+.prier-maintenant { position: relative; display: block; height: 150px; overflow: hidden; padding: 0; border: 0; }
+.prier-maintenant img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.prier-maintenant__voile { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,19,34,.1), rgba(10,19,34,.85)); }
+.prier-maintenant__texte { position: absolute; left: 14px; right: 14px; bottom: 12px; display: grid; gap: 4px; justify-items: start; color: #fff; }
+.prier-maintenant__titre { font-family: var(--police-titre); font-weight: 700; font-size: 1.3rem; }
+.prier-maintenant__theme { font-size: .85rem; opacity: .95; }
+.veilles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; margin-top: 8px; }
+.veille-puce { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 8px 4px; color: var(--titre); font-family: var(--police-titre); font-weight: 600; font-size: .85rem; text-align: center; }
+.veille-puce svg { color: var(--or-fonce); }
+.veille-puce small { font-family: var(--police-texte); font-weight: 400; font-size: .7rem; color: var(--texte-doux); }
+.veille-puce--active { border-color: var(--or); background: #FFF8E6; }
+:root[data-theme='sombre'] .veille-puce--active { background: #2E2818; }
+.categorie-priere { margin-bottom: 8px; }
+.categorie-priere__tete { width: 100%; min-height: 48px; display: flex; align-items: center; gap: 8px; padding: 0 6px; font-family: var(--police-titre); font-weight: 600; font-size: 1rem; color: var(--titre); }
+.categorie-priere__tete > span:first-child { flex: 1; text-align: left; }
+.categorie-priere__tete .tourne { transform: rotate(90deg); }
+.categorie-priere__tete svg { transition: transform .2s; }
+.grille-combat { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.combat-tuile { display: flex; align-items: center; gap: 10px; padding: 10px; min-height: 64px; color: var(--titre); font-family: var(--police-titre); font-weight: 600; font-size: .82rem; line-height: 1.25; }
+.combat-tuile__emoji, .combat-emoji { font-size: 1.6rem; flex: none; }
+.combat-emoji { width: 72px; height: 72px; display: grid; place-items: center; border-radius: 18px; background: var(--surface); box-shadow: var(--ombre); font-size: 2.2rem; }
+.veille__theme { text-align: center; font-family: var(--police-titre); font-weight: 600; color: var(--or-fonce); margin: 12px 8px; }
+.deroulement { list-style: none; margin: 0; padding: 4px 8px; }
+.deroulement li + li { border-top: 1px solid var(--bord); }
+.deroulement button { width: 100%; min-height: 48px; display: flex; align-items: center; gap: 10px; text-align: left; color: var(--titre); font-weight: 500; }
+.deroulement button > span:nth-child(2) { flex: 1; }
+.deroulement__num, .phase__num { width: 28px; height: 28px; flex: none; border-radius: 50%; display: grid; place-items: center; background: var(--or); color: #fff; font-family: var(--police-titre); font-weight: 700; font-size: .85rem; }
+.phase { margin-top: 18px; }
+.phase__titre { display: flex; align-items: center; gap: 10px; font-size: 1.15rem; margin: 14px 2px 6px; }
+.phase__sous-titre { font-style: italic; color: var(--or-fonce); margin: 0 4px 6px; font-size: .9rem; }
+.phase__texte { margin: 0 4px 8px; }
+.guide-phase { display: flex; gap: 8px; align-items: flex-start; padding: 10px 12px; border-radius: 12px; background: #EEF5F3; color: var(--texte); font-size: .88rem; margin: 6px 0 10px; }
+:root[data-theme='sombre'] .guide-phase { background: #1B3A36; }
+.guide-phase svg { flex: none; color: var(--sauge); margin-top: 2px; }
+.sujets { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.sujet-priere { display: flex; gap: 10px; padding: 10px 12px; align-items: flex-start; transition: opacity .2s; }
+.sujet-priere--fait { opacity: .7; border-color: var(--sauge); }
+.sujet-priere__case { width: 30px; height: 30px; flex: none; border-radius: 50%; border: 2px solid var(--or); display: grid; place-items: center; color: var(--or-fonce);
+  font-family: var(--police-titre); font-weight: 700; font-size: .8rem; margin-top: 1px; }
+.sujet-priere--fait .sujet-priere__case { background: var(--sauge); border-color: var(--sauge); color: #fff; }
+.sujet-priere h4 { font-family: var(--police-titre); font-size: .95rem; color: var(--titre); margin: 0 0 3px; }
+.sujet-priere p { font-size: .93rem; line-height: 1.5; }
+.source-mention { text-align: center; font-size: .75rem; color: var(--texte-doux); margin-top: 16px; }
+.objectifs { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.objectifs li { display: flex; gap: 8px; align-items: flex-start; font-size: .93rem; }
+.objectifs svg { color: var(--sauge); flex: none; margin-top: 3px; }
+.section-ens { margin-top: 16px; display: grid; gap: 8px; }
+.section-ens__transition { font-style: italic; color: var(--texte-doux); border-left: 3px solid var(--or); padding-left: 10px; margin: 6px 2px; }
+.section-ens__refs { font-size: .82rem; margin: -4px 4px 2px; }
+.section-ens__texte { line-height: 1.6; margin: 0 4px; }
+.section-ens__sous { font-size: 1rem; margin: 6px 4px 0; color: var(--or-fonce); }

@@ -18,6 +18,15 @@ export const NOUVEAU_CONVERTI = dossier('nouveau-converti').sort((a, b) => a.jou
 export const EVANGELISATION = dossier('evangelisation').sort(parOrdre);
 export const DIALOGUES = dossier('dialogues').sort(parOrdre);
 export const JOURS_PARCOURS = 30;
+export const VEILLES = dossier('veilles').filter((v) => Array.isArray(v.phases)).sort((a, b) => a.ordre - b.ordre);
+export const GUIDE_PHASES = fichiers['/content/veilles/guide-des-phases.json'];
+export const COMBAT = dossier('combat').sort((a, b) => a.ordre - b.ordre);
+export const PLAN_THEMATIQUE = fichiers['/content/plans/thematique.json'];
+// Veille du moment selon l'heure : aube (3h-11h), midi (11h-18h), soir (18h-3h).
+export function veilleDuMoment(d = new Date()) {
+  const h = d.getHours(); const k = h >= 3 && h < 11 ? 'aube' : h >= 11 && h < 18 ? 'midi' : 'soir';
+  return VEILLES.find((v) => v.id === 'veille-' + k) || VEILLES[0];
+}
 export const QUIZ = dossier('quiz').sort((a, b) => a.theme.localeCompare(b.theme, 'fr'));
 export const QUI_SUIS_JE = fichiers['/content/jeux/qui-suis-je.json']?.personnages ?? [];
 export const HISTOIRES = fichiers['/content/jeux/remets-dans-l-ordre.json']?.histoires ?? [];

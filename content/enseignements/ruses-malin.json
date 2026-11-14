@@ -1,0 +1,111 @@
+{
+ "id": "enseignement-ruses-malin",
+ "titre": "Détecter les ruses du Malin",
+ "theme": "Combat spirituel",
+ "serie": "L'Arsenal de la Sentinelle",
+ "resume": "Reconnaître les agents et les stratégies de l'ennemi dans l'Église",
+ "image": "/assets/symboles/bible-dans-la-lumiere.webp",
+ "verset_de_base": "2 Corinthiens 11:14",
+ "objectifs": [
+  "Comprendre que l'ennemi attaque souvent l'Église de l'intérieur, par des agents infiltrés",
+  "Identifier les 10 méthodes employées pour détruire une communauté de foi",
+  "Aiguiser le discernement spirituel qui démasque l'imposteur derrière le sourire",
+  "Savoir protéger sa communauté par la prière d'intercession et la vigilance"
+ ],
+ "introduction": "L'apôtre Paul avertit : « Prenez donc garde à vous-mêmes, et à tout le troupeau » (Actes 20:28). Satan n'attaque pas seulement de l'extérieur ; il envoie des agents infiltrateurs dans les assemblées pour les détruire de l'intérieur. « Son ennemi vint, sema de l’ivraie parmi le blé » (Matthieu 13:25). Connaître leurs méthodes est une arme de protection essentielle pour tout croyant et tout responsable d'Église.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Définition — qu'appelle-t-on les ruses du Malin ?",
+   "references": [
+    "Éphésiens 6:11",
+    "2 Corinthiens 2:11",
+    "Matthieu 13:25"
+   ],
+   "blocs": [
+    {
+     "texte": "Les ruses du Malin sont les stratégies trompeuses par lesquelles l'ennemi cherche à séduire, diviser et détruire — non par la force ouverte mais par la ruse cachée. Paul nous appelle à tenir ferme « contre les ruses du diable » (Éphésiens 6:11)."
+    },
+    {
+     "texte": "Sa tactique préférée n'est pas l'attaque frontale mais l'infiltration : il sème de la fausse semence au milieu de la bonne, place des agents déguisés en frères, et agit dans l'ombre pour ne pas être démasqué."
+    },
+    {
+     "verset": "2 Corinthiens 2:11"
+    },
+    {
+     "texte": "Ignorer ses desseins, c'est lui laisser l'avantage. Les connaître, c'est déjà commencer à le vaincre."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Les 10 méthodes des agents de Satan dans l'Église",
+   "references": [
+    "Actes 20:25-31",
+    "2 Corinthiens 11:13-15"
+   ],
+   "transition": "Maintenant que nous savons que l'ennemi agit par ruse et infiltration, observons concrètement ses dix méthodes — afin de les reconnaître avant qu'elles ne fassent leur œuvre.",
+   "blocs": [
+    {
+     "texte": "Ils font une fausse profession de foi — ils confessent Jésus des lèvres mais leur cœur n'est pas transformé (1 Jean 4:1-3 · Matthieu 7:21-23)."
+    },
+    {
+     "texte": "Ils gagnent la confiance des vainqueurs par le service et la fausse humilité avant d'agir."
+    },
+    {
+     "texte": "Ils font dormir et pleurer les enfants pendant le culte pour perturber l'atmosphère de prière."
+    },
+    {
+     "texte": "Ils détruisent méthodiquement la vie de prière de la communauté en semant le découragement."
+    },
+    {
+     "texte": "Ils répandent des rumeurs et sont champions de la calomnie pour semer la division (1 Thessaloniciens 5:22)."
+    },
+    {
+     "texte": "Ils enseignent les fausses doctrines ou tordent les Écritures pour égarer les âmes simples (Actes 17:11 · 2 Timothée 3:13)."
+    },
+    {
+     "texte": "Ils causent les divisions et brisent l'unité familiale en jouant les frères contre les sœurs."
+    },
+    {
+     "texte": "Ils n'aiment pas qu'on dévoile les secrets de Satan et réagissent avec violence ou mépris quand cela se produit (Osée 4:6 · Éphésiens 5:11)."
+    },
+    {
+     "texte": "Ils attaquent physiquement et spirituellement les piliers de l'Église : anciens, pasteurs, intercesseurs."
+    },
+    {
+     "texte": "Ils causent des scandales et sont prêts aux drames pour détruire le témoignage de l'Église."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Comment se protéger",
+   "references": [
+    "Matthieu 7:16",
+    "1 Jean 4:1",
+    "Éphésiens 6:18"
+   ],
+   "transition": "Connaître les méthodes de l'ennemi serait inutile sans une riposte. Voici comment Dieu nous donne de protéger Son troupeau — et cette vigilance devient elle-même une bénédiction pour toute la communauté.",
+   "blocs": [
+    {
+     "texte": "Priez constamment en Esprit pour discerner les esprits présents dans votre assemblée."
+    },
+    {
+     "texte": "Jugez l'arbre à ses fruits — pas seulement ses discours mais ses actions sur la durée (Matthieu 7:16)."
+    },
+    {
+     "texte": "Maintenez une culture de la prière d'intercession dans votre Église — c'est elle qui révèle et expulse les infiltrateurs."
+    },
+    {
+     "texte": "Ne confiez pas de responsabilités spirituelles aux nouveaux convertis avant qu'ils aient été éprouvés (1 Timothée 5:22)."
+    }
+   ]
+  }
+ ],
+ "lecture_minutes": 3,
+ "auteur": "L'Arsenal de la Sentinelle",
+ "autorisation": "oui",
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14"
+}

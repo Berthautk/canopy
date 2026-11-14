@@ -16,6 +16,13 @@
    "disponible": true
   },
   {
+   "id": "thematique",
+   "titre": "Thématique (Arsenal de la Sentinelle)",
+   "description": "Un passage et un thème par jour, en quatre étapes : fondements de la foi, maturité, sanctification, engagement et mission.",
+   "type": "fichier",
+   "disponible": true
+  },
+  {
    "id": "chronologique",
    "titre": "Chronologique",
    "description": "Les livres dans l'ordre des événements.",

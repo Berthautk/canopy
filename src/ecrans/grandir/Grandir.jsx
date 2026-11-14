@@ -7,13 +7,14 @@ import { useSignal } from '../../outils/signal.js';
 
 function Enseignement({ e }) {
   const piste = AUDIOS[e.id];
+  const lien = piste ? '#/ecouter/' + e.id : '#/grandir/enseignement/' + e.id;
   return (
     <article class="carte enseignement">
-      <a href={'#/ecouter/' + e.id}><img src={e.image} alt="" loading="lazy" /></a>
-      <a class="ligne__corps" href={'#/ecouter/' + e.id}>
+      <a href={lien}><img src={e.image} alt="" loading="lazy" /></a>
+      <a class="ligne__corps" href={lien}>
         <span class="ligne__titre" style="display:block">{e.titre} {e.exemple && <span class="etiquette-exemple">EXEMPLE</span>}</span>
         <span class="ligne__desc" style="display:block">{e.resume}</span>
-        <span class="enseignement__meta"><Icone nom="musique" taille={13} /> {e.auteur}{e.duree ? ' · ' + e.duree : ''}</span>
+        <span class="enseignement__meta"><Icone nom={piste ? 'musique' : 'bible'} taille={13} /> {piste ? `${e.auteur}${e.duree ? ' · ' + e.duree : ''}` : `À lire · ${e.lecture_minutes} min`}</span>
       </a>
       {piste && <div class="enseignement__boutons"><BoutonLecture piste={piste} taille={40} /><BoutonTelecharger piste={piste} compact /></div>}
     </article>

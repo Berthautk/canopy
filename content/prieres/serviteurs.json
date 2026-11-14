@@ -1,0 +1,121 @@
+{
+ "id": "priere-serviteurs",
+ "categorie": "Église et ministère",
+ "ordre": 22,
+ "titre": "Serviteurs de Dieu",
+ "nom_court": "Serviteurs de Dieu",
+ "image": "/assets/eglise/pasteur-predication.webp",
+ "resume": "Sujets de prière pour : serviteurs de dieu, en suivant le Notre Père.",
+ "phases": [
+  {
+   "num": "2",
+   "titre": "Que Ton Règne vienne",
+   "sujets": [
+    {
+     "titre": "Les régions non encore atteintes",
+     "texte": "Intercède pour les zones de ton pays où l'Évangile n'est pas encore planté — les villages isolés, les quartiers réputés hostiles. Demande à Dieu d'envoyer des ouvriers dans Sa moisson. (Matthieu 9:38)"
+    },
+    {
+     "titre": "L'unité des Églises de ta ville",
+     "texte": "Intercède pour l'unité des pasteurs et des serviteurs de ta ville. Que les rivalités soient brisées, que la jalousie soit vaincue, que le corps de Christ présente un front uni face à l'ennemi. (Jean 17:21)"
+    }
+   ]
+  },
+  {
+   "num": "3",
+   "titre": "Que Ta Volonté soit faite",
+   "sujets": [
+    {
+     "titre": "Sa volonté dans le ministère",
+     "texte": "Intercède pour que la volonté de Dieu — et non tes idées ou tes ambitions — dirige le ministère qui t'est confié. Dis à Dieu que tu veux que ce soit Lui qui conduise et toi qui suives. (Proverbes 16:3 ; Jean 3:30)"
+    },
+    {
+     "titre": "Sa volonté dans la Parole et les âmes",
+     "texte": "Demande à Dieu de t'accorder une révélation fraîche de Sa Parole. Intercède pour les âmes que tu rencontreras — que Sa volonté s'accomplisse dans chacune d'elles. (Ézéchiel 34:15 ; Jean 16:8)"
+    }
+   ]
+  },
+  {
+   "num": "4",
+   "titre": "Donne-nous notre pain",
+   "sujets": [
+    {
+     "titre": "La provision pour le ministère",
+     "texte": "Intercède pour que Dieu pourvoie à tous les besoins matériels du ministère. Nomme les besoins précis. Prie pour que Dieu suscite des partenaires financiers fidèles. (Philippiens 4:19 ; 3 Jean 1:8)"
+    },
+    {
+     "titre": "Ta provision personnelle et ta santé",
+     "texte": "Intercède pour ta propre provision et celle de ta famille. Demande à Dieu de te garder fort et en bonne santé pour accomplir ta mission. N'aie pas honte de prier pour toi. (1 Corinthiens 9:14 ; 3 Jean 1:2)"
+    },
+    {
+     "titre": "L'onction fraîche pour le service",
+     "texte": "Demande à Dieu de renouveler l'onction de Son Esprit sur toi pour le service. Que tu n'agisses pas dans ta propre force mais dans la puissance du Saint-Esprit. (Actes 1:8 ; Psaume 92:11)"
+    }
+   ]
+  },
+  {
+   "num": "5",
+   "titre": "Pardonne nos offenses",
+   "sujets": [
+    {
+     "titre": "L'orgueil ministériel",
+     "texte": "Confesse à Dieu les moments où tu as cherché la gloire des hommes dans ton ministère. Demande l'humilité de celui qui dit : Il faut qu'Il croisse et que je diminue. (Jean 5:44 ; Jean 3:30)"
+    },
+    {
+     "titre": "Le relâchement dans ta communion personnelle",
+     "texte": "Confesse à Dieu les jours où tu as servi le peuple sans d'abord t'être nourri toi-même. Un serviteur qui sert à vide finit par se vider complètement. (Marc 1:35 ; Apocalypse 2:4)"
+    },
+    {
+     "titre": "Pardonner dans le ministère",
+     "texte": "Dis à Dieu que tu pardonnes les membres critiques, les collègues jaloux, les responsables qui t'ont mal traité. Un serviteur qui porte l'amertume ne peut pas porter les âmes. (Éphésiens 4:32 ; 2 Timothée 2:24)"
+    }
+   ]
+  },
+  {
+   "num": "6",
+   "titre": "Ne nous soumets pas à la tentation",
+   "sujets": [
+    {
+     "titre": "L'orgueil spirituel et l'argent du ministère",
+     "texte": "Prie pour être gardé du sentiment d'être arrivé et de la tentation de te servir dans les finances du ministère. Que tes mains restent propres et ton cœur libre. (1 Corinthiens 10:12 ; Actes 5:1-4)"
+    },
+    {
+     "titre": "L'immoralité et le découragement ministériel",
+     "texte": "Prie pour être gardé de toute tentation d'immoralité dans l'exercice du ministère. Que le Saint-Esprit te rappelle que la moisson appartient à Dieu et non à toi. (1 Corinthiens 6:18 ; Galates 6:9)"
+    }
+   ]
+  },
+  {
+   "num": "7",
+   "titre": "Délivre-nous du Malin",
+   "sujets": [
+    {
+     "titre": "La stérilité ministérielle — brisée",
+     "texte": "Par la voix de l'Éternel, brise tout esprit de stérilité ministérielle. Déclare que tu as été établi pour aller et porter du fruit qui demeure — et que rien ne peut arrêter cela. (Jean 15:16 ; 2 Timothée 2:9)"
+    },
+    {
+     "titre": "Les complots et la résistance dans les cœurs",
+     "texte": "Par le Sang de Jésus, protège ta vie, ta famille et ton ministère de tout complot. Tranche toute résistance dans les cœurs de ceux qui entendront la Parole. (És 54:17 ; Hébreux 4:12)"
+    }
+   ]
+  },
+  {
+   "num": "8",
+   "titre": "Action de grâce",
+   "sujets": [
+    {
+     "titre": "L'appel comme grâce de Dieu",
+     "texte": "Remercie Dieu pour l'appel qu'Il a mis sur ta vie. Dis-Lui merci non pas parce que tu méritais d'être choisi — mais parce qu'Il a vu en toi quelque chose que toi-même tu ne voyais pas. (1 Timothée 1:12 ; Éphésiens 4:1)"
+    },
+    {
+     "titre": "Les âmes touchées et le repos comme don",
+     "texte": "Rends grâce à Dieu pour chaque âme qu'Il a sauvée à travers ton ministère — elles sont Son œuvre, pas la tienne. Reçois aussi le repos de cette nuit sans culpabilité. (1 Corinthiens 3:6-7 ; 1 Rois 19:5-6)"
+    }
+   ]
+  }
+ ],
+ "auteur": "L'Arsenal de la Sentinelle",
+ "autorisation": "oui",
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14"
+}

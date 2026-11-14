@@ -1,0 +1,1505 @@
+{
+ "id": "thematique",
+ "titre": "Plan thématique (Arsenal)",
+ "description": "Un passage et un thème par jour, en quatre étapes : fondements, maturité, sanctification, mission.",
+ "trimestres": [
+  {
+   "nom": "Fondements de la Foi",
+   "mois": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "nom": "Maturité Spirituelle",
+   "mois": [
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "nom": "Sanctification",
+   "mois": [
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "nom": "Engagement et Mission",
+   "mois": [
+    9,
+    10,
+    11
+   ]
+  }
+ ],
+ "jours": [
+  {
+   "reference": "Jean 1:1-14",
+   "theme": "Christ, le Verbe éternel et lumière"
+  },
+  {
+   "reference": "Genèse 1:1-13",
+   "theme": "Dieu créateur et souverain"
+  },
+  {
+   "reference": "Psaume 19:2-15",
+   "theme": "Révélation dans la création et la Parole"
+  },
+  {
+   "reference": "Romains 1:16-20",
+   "theme": "Puissance de l'Évangile"
+  },
+  {
+   "reference": "Exode 3:1-14",
+   "theme": "Je suis celui qui suis"
+  },
+  {
+   "reference": "Jean 3:14-21",
+   "theme": "Amour de Dieu et nouvelle naissance"
+  },
+  {
+   "reference": "Psaume 23",
+   "theme": "Le Seigneur, berger et protecteur"
+  },
+  {
+   "reference": "Romains 3:21-26",
+   "theme": "Justification par la foi"
+  },
+  {
+   "reference": "Genèse 15:1-6",
+   "theme": "Foi d'Abraham et justice imputée"
+  },
+  {
+   "reference": "Éphésiens 2:1-10",
+   "theme": "Sauvé par grâce pour les bonnes œuvres"
+  },
+  {
+   "reference": "Psaume 32",
+   "theme": "Bonheur du pardon"
+  },
+  {
+   "reference": "Jean 10:7-18",
+   "theme": "Jésus, le bon berger"
+  },
+  {
+   "reference": "Deutéronome 6:4-9",
+   "theme": "Aimer Dieu de tout son cœur"
+  },
+  {
+   "reference": "Psaume 46",
+   "theme": "Dieu, refuge et force"
+  },
+  {
+   "reference": "Romains 5:1-11",
+   "theme": "Paix avec Dieu et joie dans les tribulations"
+  },
+  {
+   "reference": "Ésaïe 40:25-31",
+   "theme": "Grandeur incomparable de Dieu"
+  },
+  {
+   "reference": "Jean 14:1-11",
+   "theme": "Jésus, chemin vers le Père"
+  },
+  {
+   "reference": "Psaume 51",
+   "theme": "Repentance et création d'un cœur pur"
+  },
+  {
+   "reference": "Romains 8:1-11",
+   "theme": "Pas de condamnation en Christ"
+  },
+  {
+   "reference": "Genèse 22:1-14",
+   "theme": "Provision de Dieu — Jéhovah Jireh"
+  },
+  {
+   "reference": "Psaume 90",
+   "theme": "Éternité de Dieu et fragilité humaine"
+  },
+  {
+   "reference": "2 Corinthiens 5:17-21",
+   "theme": "Nouvelle création et réconciliation"
+  },
+  {
+   "reference": "Exode 34:5-9",
+   "theme": "Miséricorde et fidélité de Dieu"
+  },
+  {
+   "reference": "Jean 15:1-8",
+   "theme": "Demeurer en Christ, la vigne véritable"
+  },
+  {
+   "reference": "Psaume 103",
+   "theme": "Bénir l'Éternel pour ses bienfaits"
+  },
+  {
+   "reference": "Romains 11:33-36",
+   "theme": "Sagesse et gloire de Dieu"
+  },
+  {
+   "reference": "Psaume 139:1-18",
+   "theme": "Dieu qui nous connaît intimement"
+  },
+  {
+   "reference": "Hébreux 1:1-12",
+   "theme": "Supériorité de Christ"
+  },
+  {
+   "reference": "Ésaïe 6:1-8",
+   "theme": "Sainteté de Dieu et appel"
+  },
+  {
+   "reference": "Jean 17:1-5",
+   "theme": "Gloire éternelle partagée avec le Père"
+  },
+  {
+   "reference": "Psaume 145",
+   "theme": "Grandeur et bonté de Dieu"
+  },
+  {
+   "reference": "Romains 12:1-2",
+   "theme": "Offrir son corps, renouveler son intelligence"
+  },
+  {
+   "reference": "Genèse 12:1-9",
+   "theme": "Appel d'Abraham et promesse"
+  },
+  {
+   "reference": "Psaume 8:2-10",
+   "theme": "Majesté de Dieu et dignité de l'homme"
+  },
+  {
+   "reference": "Galates 2:15-21",
+   "theme": "Vivre par la foi au Fils de Dieu"
+  },
+  {
+   "reference": "Néhémie 9:6-15",
+   "theme": "Dieu fidèle dans l'histoire"
+  },
+  {
+   "reference": "Jean 4:19-26",
+   "theme": "Adoration en esprit et en vérité"
+  },
+  {
+   "reference": "Psaume 27:1-14",
+   "theme": "L'Éternel est ma lumière et mon salut"
+  },
+  {
+   "reference": "Tite 3:3-8",
+   "theme": "Régénération par l'Esprit Saint"
+  },
+  {
+   "reference": "Proverbes 3:1-12",
+   "theme": "Confiance totale en l'Éternel"
+  },
+  {
+   "reference": "1 Jean 1:5-10",
+   "theme": "Marcher dans la lumière et confession"
+  },
+  {
+   "reference": "Psaume 34:1-23",
+   "theme": "Goûtez et voyez que l'Éternel est bon"
+  },
+  {
+   "reference": "Philippiens 1:3-11",
+   "theme": "Prière pour grandir en amour"
+  },
+  {
+   "reference": "Jérémie 29:11-14",
+   "theme": "Projets de paix et d'espérance"
+  },
+  {
+   "reference": "Psaume 91:1-16",
+   "theme": "Sous l'abri du Très-Haut"
+  },
+  {
+   "reference": "Colossiens 1:9-14",
+   "theme": "Connaissance de Sa volonté"
+  },
+  {
+   "reference": "Ésaïe 55:1-11",
+   "theme": "Invitation au salut gratuit"
+  },
+  {
+   "reference": "Jean 6:35-40",
+   "theme": "Jésus, le pain de vie"
+  },
+  {
+   "reference": "Matthieu 6:1-18",
+   "theme": "Justice, prière et jeûne sincères"
+  },
+  {
+   "reference": "Psaume 51:3-14",
+   "theme": "Crée en moi un cœur pur"
+  },
+  {
+   "reference": "Joël 2:12-18",
+   "theme": "Revenez à moi de tout votre cœur"
+  },
+  {
+   "reference": "2 Corinthiens 7:8-11",
+   "theme": "Tristesse selon Dieu produit le repentir"
+  },
+  {
+   "reference": "Psaume 130:1-8",
+   "theme": "Espérance dans la rédemption"
+  },
+  {
+   "reference": "Luc 15:11-24",
+   "theme": "Le Père accueille le fils repentant"
+  },
+  {
+   "reference": "Ésaïe 58:1-12",
+   "theme": "Le jeûne que Dieu agrée"
+  },
+  {
+   "reference": "Psaume 25:1-11",
+   "theme": "Enseigne-moi tes sentiers"
+  },
+  {
+   "reference": "Romains 5:12-21",
+   "theme": "Grâce surabondante par Christ"
+  },
+  {
+   "reference": "Daniel 9:3-10",
+   "theme": "Prière de confession nationale"
+  },
+  {
+   "reference": "Marc 1:9-15",
+   "theme": "Baptême et victoire sur la tentation"
+  },
+  {
+   "reference": "Psaume 38:2-16",
+   "theme": "Prière dans l'affliction"
+  },
+  {
+   "reference": "Hébreux 4:14-16",
+   "theme": "Grand prêtre compatissant"
+  },
+  {
+   "reference": "Ésaïe 53:1-12",
+   "theme": "Le Serviteur souffrant porte nos péchés"
+  },
+  {
+   "reference": "Jean 12:23-33",
+   "theme": "Le grain de blé qui meurt porte du fruit"
+  },
+  {
+   "reference": "Psaume 22:2-19",
+   "theme": "Cri du Messie abandonné"
+  },
+  {
+   "reference": "Philippiens 2:5-11",
+   "theme": "Christ s'est humilié jusqu'à la mort"
+  },
+  {
+   "reference": "Luc 18:9-14",
+   "theme": "Le publicain justifié par grâce"
+  },
+  {
+   "reference": "Psaume 41:2-14",
+   "theme": "Heureux celui qui pense au faible"
+  },
+  {
+   "reference": "Romains 6:1-11",
+   "theme": "Morts au péché, vivants pour Dieu"
+  },
+  {
+   "reference": "Zacharie 9:9-12",
+   "theme": "Ton roi vient, humble"
+  },
+  {
+   "reference": "Matthieu 21:1-11",
+   "theme": "Entrée triomphale à Jérusalem"
+  },
+  {
+   "reference": "Psaume 31:10-17",
+   "theme": "Entre tes mains je remets mon esprit"
+  },
+  {
+   "reference": "Jean 13:1-17",
+   "theme": "Jésus lave les pieds des disciples"
+  },
+  {
+   "reference": "1 Pierre 2:21-25",
+   "theme": "Christ a souffert pour nous ramener à Dieu"
+  },
+  {
+   "reference": "Luc 22:39-46",
+   "theme": "Prière à Gethsémané"
+  },
+  {
+   "reference": "Psaume 116:1-19",
+   "theme": "J'aime l'Éternel car il m'entend"
+  },
+  {
+   "reference": "Jean 18:28-40",
+   "theme": "Jésus devant Pilate"
+  },
+  {
+   "reference": "Ésaïe 50:4-9",
+   "theme": "Le Serviteur obéissant"
+  },
+  {
+   "reference": "Marc 15:21-32",
+   "theme": "Crucifixion du Roi des Juifs"
+  },
+  {
+   "reference": "Psaume 69:2-22",
+   "theme": "Sauve-moi, ô Dieu"
+  },
+  {
+   "reference": "Luc 23:32-43",
+   "theme": "Jésus pardonne sur la croix"
+  },
+  {
+   "reference": "Jean 19:17-30",
+   "theme": "Tout est accompli"
+  },
+  {
+   "reference": "Hébreux 5:7-10",
+   "theme": "Christ, source du salut éternel"
+  },
+  {
+   "reference": "Psaume 88:1-19",
+   "theme": "Prière dans les ténèbres"
+  },
+  {
+   "reference": "Matthieu 27:45-54",
+   "theme": "Mort de Christ et signes miraculeux"
+  },
+  {
+   "reference": "Luc 23:50-56",
+   "theme": "Sépulture de Jésus"
+  },
+  {
+   "reference": "1 Corinthiens 1:18-25",
+   "theme": "Puissance de la croix"
+  },
+  {
+   "reference": "Psaume 31:2-9",
+   "theme": "En toi je cherche refuge"
+  },
+  {
+   "reference": "Jean 20:1-10",
+   "theme": "Le tombeau vide"
+  },
+  {
+   "reference": "Luc 24:13-27",
+   "theme": "Jésus explique les Écritures"
+  },
+  {
+   "reference": "Matthieu 28:1-10",
+   "theme": "Il est ressuscité !"
+  },
+  {
+   "reference": "Jean 20:11-18",
+   "theme": "Apparition à Marie-Madeleine"
+  },
+  {
+   "reference": "Luc 24:28-35",
+   "theme": "Cœurs brûlants sur le chemin d'Emmaüs"
+  },
+  {
+   "reference": "Jean 20:19-23",
+   "theme": "Paix et envoi de l'Esprit"
+  },
+  {
+   "reference": "Jean 20:24-29",
+   "theme": "Bienheureux ceux qui croient sans voir"
+  },
+  {
+   "reference": "Marc 16:1-8",
+   "theme": "Annonce de la résurrection"
+  },
+  {
+   "reference": "Actes 1:1-11",
+   "theme": "Ascension et promesse du retour"
+  },
+  {
+   "reference": "Psaume 118:14-24",
+   "theme": "La pierre rejetée est devenue principale"
+  },
+  {
+   "reference": "1 Corinthiens 15:1-11",
+   "theme": "Résurrection : fondement de l'Évangile"
+  },
+  {
+   "reference": "Colossiens 3:1-4",
+   "theme": "Ressuscités avec Christ"
+  },
+  {
+   "reference": "Jean 21:1-14",
+   "theme": "Jésus au bord du lac"
+  },
+  {
+   "reference": "Psaume 16:1-11",
+   "theme": "Joie pleine en ta présence"
+  },
+  {
+   "reference": "1 Pierre 1:3-9",
+   "theme": "Espérance vivante par la résurrection"
+  },
+  {
+   "reference": "Éphésiens 1:15-23",
+   "theme": "Puissance de Dieu en Christ ressuscité"
+  },
+  {
+   "reference": "Psaume 110:1-7",
+   "theme": "Christ assis à la droite de Dieu"
+  },
+  {
+   "reference": "Romains 8:31-39",
+   "theme": "Plus que vainqueurs en Christ"
+  },
+  {
+   "reference": "Apocalypse 1:9-18",
+   "theme": "Christ vivant pour toujours"
+  },
+  {
+   "reference": "Galates 5:16-25",
+   "theme": "Marcher par l'Esprit"
+  },
+  {
+   "reference": "Psaume 1:1-6",
+   "theme": "Heureux l'homme qui médite la Parole"
+  },
+  {
+   "reference": "Jacques 1:19-27",
+   "theme": "Être pratiquant de la Parole"
+  },
+  {
+   "reference": "Philippiens 4:4-9",
+   "theme": "Réjouissez-vous toujours dans le Seigneur"
+  },
+  {
+   "reference": "Psaume 119:9-16",
+   "theme": "Garder la Parole dans le cœur"
+  },
+  {
+   "reference": "Matthieu 6:25-34",
+   "theme": "Ne vous inquiétez de rien"
+  },
+  {
+   "reference": "Proverbes 4:20-27",
+   "theme": "Garde ton cœur"
+  },
+  {
+   "reference": "2 Timothée 3:14-17",
+   "theme": "Toute Écriture est inspirée de Dieu"
+  },
+  {
+   "reference": "Psaume 119:97-112",
+   "theme": "Ta parole est une lampe à mes pieds"
+  },
+  {
+   "reference": "Luc 11:5-13",
+   "theme": "Demandez et vous recevrez l'Esprit"
+  },
+  {
+   "reference": "Éphésiens 6:10-20",
+   "theme": "Armure de Dieu"
+  },
+  {
+   "reference": "Psaume 42:2-12",
+   "theme": "Mon âme a soif de Dieu"
+  },
+  {
+   "reference": "Romains 15:1-13",
+   "theme": "Espérance par la puissance de l'Esprit"
+  },
+  {
+   "reference": "1 Thessaloniciens 5:12-24",
+   "theme": "Sanctifiés entièrement"
+  },
+  {
+   "reference": "Jacques 3:13-18",
+   "theme": "Sagesse qui vient d'en haut"
+  },
+  {
+   "reference": "Psaume 37:1-11",
+   "theme": "Confie-toi en l'Éternel et attends-le"
+  },
+  {
+   "reference": "Matthieu 5:1-12",
+   "theme": "Béatitudes : heureux les pauvres en esprit"
+  },
+  {
+   "reference": "Jean 14:15-21",
+   "theme": "L'Esprit de vérité demeure en vous"
+  },
+  {
+   "reference": "Philippiens 2:12-18",
+   "theme": "Travaillez à votre salut avec crainte"
+  },
+  {
+   "reference": "Psaume 63:2-12",
+   "theme": "Mon âme a soif de toi"
+  },
+  {
+   "reference": "Colossiens 3:12-17",
+   "theme": "Revêtez-vous d'amour"
+  },
+  {
+   "reference": "Luc 11:1-13",
+   "theme": "Persévérez dans la prière"
+  },
+  {
+   "reference": "1 Jean 4:7-16",
+   "theme": "Dieu est amour ; demeurer en lui"
+  },
+  {
+   "reference": "Psaume 84:1-13",
+   "theme": "Mieux vaut un jour dans tes parvis"
+  },
+  {
+   "reference": "Éphésiens 4:1-16",
+   "theme": "Croissance et unité du corps de Christ"
+  },
+  {
+   "reference": "Romains 12:3-8",
+   "theme": "Utiliser les dons avec grâce"
+  },
+  {
+   "reference": "2 Pierre 1:3-11",
+   "theme": "Ajouter à la foi la connaissance"
+  },
+  {
+   "reference": "Psaume 101:1-8",
+   "theme": "Marcher dans l'intégrité de cœur"
+  },
+  {
+   "reference": "Hébreux 12:1-11",
+   "theme": "Discipline du Père pour notre bien"
+  },
+  {
+   "reference": "Matthieu 7:13-23",
+   "theme": "La porte étroite et le fruit"
+  },
+  {
+   "reference": "Jacques 4:1-10",
+   "theme": "Soumettez-vous à Dieu"
+  },
+  {
+   "reference": "Psaume 131:1-3",
+   "theme": "Repos de l'âme en Dieu"
+  },
+  {
+   "reference": "Actes 2:37-47",
+   "theme": "Vie de l'Église remplie de l'Esprit"
+  },
+  {
+   "reference": "1 Corinthiens 13:1-13",
+   "theme": "L'amour, le plus excellent chemin"
+  },
+  {
+   "reference": "Psaume 133:1-3",
+   "theme": "Heureux les frères qui vivent unis"
+  },
+  {
+   "reference": "Jean 15:9-17",
+   "theme": "Aimez-vous comme je vous ai aimés"
+  },
+  {
+   "reference": "Éphésiens 5:15-21",
+   "theme": "Remplis de l'Esprit"
+  },
+  {
+   "reference": "Actes 2:1-21",
+   "theme": "Venue du Saint-Esprit"
+  },
+  {
+   "reference": "Psaume 104:24-35",
+   "theme": "L'Esprit renouvelle la terre"
+  },
+  {
+   "reference": "Galates 5:22-26",
+   "theme": "Le fruit de l'Esprit"
+  },
+  {
+   "reference": "Romains 8:12-17",
+   "theme": "Esprit d'adoption : Abba, Père"
+  },
+  {
+   "reference": "Jean 16:5-15",
+   "theme": "L'Esprit convainc le monde"
+  },
+  {
+   "reference": "Psaume 143:1-12",
+   "theme": "Enseigne-moi à faire ta volonté"
+  },
+  {
+   "reference": "1 Corinthiens 12:4-11",
+   "theme": "Diversité des dons de l'Esprit"
+  },
+  {
+   "reference": "Ézéchiel 36:25-28",
+   "theme": "Nouveau cœur et nouvel esprit"
+  },
+  {
+   "reference": "Philippiens 1:27-30",
+   "theme": "Vivre digne de l'Évangile"
+  },
+  {
+   "reference": "Psaume 15:1-5",
+   "theme": "Qui séjournera dans ta sainte montagne ?"
+  },
+  {
+   "reference": "Matthieu 18:15-20",
+   "theme": "Règlement fraternel et prière d'accord"
+  },
+  {
+   "reference": "Hébreux 10:19-25",
+   "theme": "Encouragez-vous mutuellement"
+  },
+  {
+   "reference": "1 Jean 3:11-18",
+   "theme": "Aimer en actes et en vérité"
+  },
+  {
+   "reference": "Psaume 133:1-3",
+   "theme": "Unité comme l'huile précieuse"
+  },
+  {
+   "reference": "Luc 6:27-36",
+   "theme": "Aimer vos ennemis"
+  },
+  {
+   "reference": "Romains 13:8-14",
+   "theme": "Revêtez-vous du Seigneur Jésus-Christ"
+  },
+  {
+   "reference": "Psaume 86:1-17",
+   "theme": "Enseigne-moi ta voie"
+  },
+  {
+   "reference": "Jacques 5:13-20",
+   "theme": "Prière efficace du juste"
+  },
+  {
+   "reference": "Colossiens 4:2-6",
+   "theme": "Persévérer dans la prière"
+  },
+  {
+   "reference": "1 Thessaloniciens 5:16-22",
+   "theme": "Priez sans cesse"
+  },
+  {
+   "reference": "Psaume 141:1-10",
+   "theme": "Garde ma bouche, Seigneur"
+  },
+  {
+   "reference": "Éphésiens 3:14-21",
+   "theme": "Être rempli de toute la plénitude de Dieu"
+  },
+  {
+   "reference": "Marc 11:20-25",
+   "theme": "Foi et pardon dans la prière"
+  },
+  {
+   "reference": "Psaume 62:2-13",
+   "theme": "Mon âme repose en Dieu seul"
+  },
+  {
+   "reference": "Hébreux 4:12-16",
+   "theme": "Parole vivante et trône de grâce"
+  },
+  {
+   "reference": "Proverbes 15:1-12",
+   "theme": "Parole douce et cœur sage"
+  },
+  {
+   "reference": "Matthieu 5:13-16",
+   "theme": "Sel de la terre et lumière du monde"
+  },
+  {
+   "reference": "Psaume 119:33-40",
+   "theme": "Enseigne-moi tes préceptes"
+  },
+  {
+   "reference": "2 Corinthiens 4:7-18",
+   "theme": "Trésor dans des vases de terre"
+  },
+  {
+   "reference": "Romains 14:13-23",
+   "theme": "Ne pas faire tomber son frère"
+  },
+  {
+   "reference": "Psaume 40:2-11",
+   "theme": "J'annonce ta justice"
+  },
+  {
+   "reference": "Galates 6:1-10",
+   "theme": "Porter les fardeaux les uns des autres"
+  },
+  {
+   "reference": "Jean 13:34-35",
+   "theme": "Aimez-vous les uns les autres"
+  },
+  {
+   "reference": "1 Pierre 4:7-11",
+   "theme": "Servir avec les dons reçus"
+  },
+  {
+   "reference": "Psaume 100:1-5",
+   "theme": "Entrez dans ses portes avec louange"
+  },
+  {
+   "reference": "Philippiens 3:7-14",
+   "theme": "Courir vers le but"
+  },
+  {
+   "reference": "Hébreux 12:12-17",
+   "theme": "Poursuivre la paix et la sainteté"
+  },
+  {
+   "reference": "Psaume 92:2-16",
+   "theme": "Il est bon de louer l'Éternel"
+  },
+  {
+   "reference": "Lévitique 19:1-4,9-18",
+   "theme": "Soyez saints, car je suis saint"
+  },
+  {
+   "reference": "Psaume 24:1-10",
+   "theme": "Qui montera à la montagne de l'Éternel ?"
+  },
+  {
+   "reference": "Romains 6:12-23",
+   "theme": "Esclaves de la justice"
+  },
+  {
+   "reference": "1 Thessaloniciens 4:1-8",
+   "theme": "Plaire à Dieu dans la sanctification"
+  },
+  {
+   "reference": "Éphésiens 4:17-32",
+   "theme": "Revêtir l'homme nouveau"
+  },
+  {
+   "reference": "Psaume 119:1-8",
+   "theme": "Heureux ceux qui marchent dans la loi"
+  },
+  {
+   "reference": "1 Pierre 1:13-21",
+   "theme": "Vivre dans la sainteté"
+  },
+  {
+   "reference": "Hébreux 12:14-17",
+   "theme": "Poursuivre la sanctification"
+  },
+  {
+   "reference": "2 Corinthiens 7:1",
+   "theme": "Purifions-nous de toute souillure"
+  },
+  {
+   "reference": "Psaume 51:15-21",
+   "theme": "Sacrifice agréable : cœur brisé"
+  },
+  {
+   "reference": "Colossiens 3:5-14",
+   "theme": "Mettre à mort ce qui est terrestre"
+  },
+  {
+   "reference": "Tite 2:11-14",
+   "theme": "Grâce qui enseigne à renoncer"
+  },
+  {
+   "reference": "1 Jean 2:15-17",
+   "theme": "Ne pas aimer le monde"
+  },
+  {
+   "reference": "Psaume 139:23-24",
+   "theme": "Sondes-moi, ô Dieu"
+  },
+  {
+   "reference": "Romains 13:11-14",
+   "theme": "Rejeter les œuvres des ténèbres"
+  },
+  {
+   "reference": "Éphésiens 5:1-14",
+   "theme": "Marchez comme enfants de lumière"
+  },
+  {
+   "reference": "Philippiens 1:9-11",
+   "theme": "Abonder en amour et discernement"
+  },
+  {
+   "reference": "Psaume 19:8-15",
+   "theme": "Que les paroles de ma bouche te plaisent"
+  },
+  {
+   "reference": "Jacques 1:2-8",
+   "theme": "Joie dans les épreuves ; sagesse"
+  },
+  {
+   "reference": "1 Corinthiens 10:1-13",
+   "theme": "Tentation et issue"
+  },
+  {
+   "reference": "2 Timothée 2:20-26",
+   "theme": "Vase d'honneur, sanctifié"
+  },
+  {
+   "reference": "Psaume 141:1-5",
+   "theme": "Garde-moi du mal"
+  },
+  {
+   "reference": "Galates 2:20",
+   "theme": "Christ vit en moi"
+  },
+  {
+   "reference": "Romains 8:1-8",
+   "theme": "Esprit de vie en Christ"
+  },
+  {
+   "reference": "Hébreux 10:10-18",
+   "theme": "Sanctifiés une fois pour toutes"
+  },
+  {
+   "reference": "Psaume 26:1-12",
+   "theme": "Marche dans l'intégrité"
+  },
+  {
+   "reference": "1 Jean 3:1-10",
+   "theme": "Enfants de Dieu ne pratiquent pas le péché"
+  },
+  {
+   "reference": "Éphésiens 6:10-18",
+   "theme": "Armure complète de Dieu"
+  },
+  {
+   "reference": "Proverbes 4:10-19",
+   "theme": "Garde ton cœur"
+  },
+  {
+   "reference": "Psaume 119:129-136",
+   "theme": "Tes commandements sont ma délice"
+  },
+  {
+   "reference": "Matthieu 5:27-32",
+   "theme": "Pureté du cœur"
+  },
+  {
+   "reference": "Romains 7:14-25",
+   "theme": "Lutte contre le péché"
+  },
+  {
+   "reference": "Psaume 32:1-7",
+   "theme": "Confession et pardon"
+  },
+  {
+   "reference": "1 Corinthiens 6:9-20",
+   "theme": "Corps temple de l'Esprit"
+  },
+  {
+   "reference": "Éphésiens 4:22-24",
+   "theme": "Revêtir l'homme nouveau"
+  },
+  {
+   "reference": "Jacques 4:7-10",
+   "theme": "Résister au diable"
+  },
+  {
+   "reference": "Psaume 38:2-12",
+   "theme": "Ne me châtie pas dans ta colère"
+  },
+  {
+   "reference": "Hébreux 3:7-19",
+   "theme": "Ne pas endurcir son cœur"
+  },
+  {
+   "reference": "2 Pierre 2:17-22",
+   "theme": "Danger de retourner en arrière"
+  },
+  {
+   "reference": "Romains 8:18-30",
+   "theme": "Souffrances et gloire future"
+  },
+  {
+   "reference": "Psaume 73:1-17",
+   "theme": "Jalousie des méchants ; refuge en Dieu"
+  },
+  {
+   "reference": "Philippiens 3:12-21",
+   "theme": "Oublier ce qui est derrière"
+  },
+  {
+   "reference": "1 Jean 5:1-5",
+   "theme": "Victoire sur le monde par la foi"
+  },
+  {
+   "reference": "Psaume 91:1-10",
+   "theme": "Sous les ailes du Très-Haut"
+  },
+  {
+   "reference": "Luc 9:23-27",
+   "theme": "Prendre sa croix chaque jour"
+  },
+  {
+   "reference": "Galates 5:13-18",
+   "theme": "Ne pas user de la liberté pour le péché"
+  },
+  {
+   "reference": "Proverbes 28:13-18",
+   "theme": "Qui cache ses transgressions..."
+  },
+  {
+   "reference": "Psaume 119:65-72",
+   "theme": "Il m'est bon d'être affligé"
+  },
+  {
+   "reference": "Hébreux 12:3-11",
+   "theme": "Discipline produit le fruit de justice"
+  },
+  {
+   "reference": "Matthieu 18:21-35",
+   "theme": "Pardonner 70 fois 7 fois"
+  },
+  {
+   "reference": "Colossiens 3:15-17",
+   "theme": "Que la paix de Christ règne"
+  },
+  {
+   "reference": "Psaume 34:12-23",
+   "theme": "L'Éternel délivre les justes"
+  },
+  {
+   "reference": "Romains 12:9-21",
+   "theme": "Amour sincère ; vaincre le mal par le bien"
+  },
+  {
+   "reference": "1 Pierre 5:5-11",
+   "theme": "Humiliez-vous ; résistez au diable"
+  },
+  {
+   "reference": "Éphésiens 5:15-20",
+   "theme": "Racheter le temps"
+  },
+  {
+   "reference": "Psaume 37:23-31",
+   "theme": "Les pas du juste sont affermis"
+  },
+  {
+   "reference": "Jacques 3:1-12",
+   "theme": "Maîtrise de la langue"
+  },
+  {
+   "reference": "Proverbes 10:9-19",
+   "theme": "Intégrité et parole"
+  },
+  {
+   "reference": "Psaume 141:3-10",
+   "theme": "Pose une garde à ma bouche"
+  },
+  {
+   "reference": "2 Corinthiens 10:3-6",
+   "theme": "Armes pour la bataille spirituelle"
+  },
+  {
+   "reference": "Hébreux 4:1-11",
+   "theme": "Repos de Dieu"
+  },
+  {
+   "reference": "Psaume 127:1-5",
+   "theme": "Si l'Éternel ne bâtit la maison..."
+  },
+  {
+   "reference": "Matthieu 7:24-29",
+   "theme": "Bâtir sur le roc"
+  },
+  {
+   "reference": "Psaume 1:1-6",
+   "theme": "Méditation jour et nuit"
+  },
+  {
+   "reference": "Apocalypse 3:14-22",
+   "theme": "À l'église de Laodicée"
+  },
+  {
+   "reference": "1 Corinthiens 9:24-27",
+   "theme": "Courir pour obtenir le prix"
+  },
+  {
+   "reference": "Philippiens 4:10-13",
+   "theme": "Contentement en toute situation"
+  },
+  {
+   "reference": "Psaume 23:1-6",
+   "theme": "Le Seigneur est mon berger"
+  },
+  {
+   "reference": "Hébreux 6:9-20",
+   "theme": "Espérance comme ancre de l'âme"
+  },
+  {
+   "reference": "2 Timothée 4:6-8",
+   "theme": "J'ai combattu le bon combat"
+  },
+  {
+   "reference": "Luc 14:25-33",
+   "theme": "Coût du discipulat"
+  },
+  {
+   "reference": "Psaume 63:2-9",
+   "theme": "Mon âme a soif de toi"
+  },
+  {
+   "reference": "Romains 5:1-5",
+   "theme": "Espérance née de la tribulation"
+  },
+  {
+   "reference": "Jacques 1:12-18",
+   "theme": "Béni l'homme qui endure l'épreuve"
+  },
+  {
+   "reference": "1 Pierre 1:6-9",
+   "theme": "Joie dans les épreuves"
+  },
+  {
+   "reference": "Psaume 46:2-12",
+   "theme": "Dieu est notre refuge"
+  },
+  {
+   "reference": "Apocalypse 21:1-8",
+   "theme": "Nouvelle ciel et nouvelle terre"
+  },
+  {
+   "reference": "Jean 16:16-24",
+   "theme": "Tristesse tournée en joie"
+  },
+  {
+   "reference": "2 Corinthiens 4:16-18",
+   "theme": "Affliction passagère, gloire éternelle"
+  },
+  {
+   "reference": "Psaume 30:2-13",
+   "theme": "Tu as changé mon deuil en danse"
+  },
+  {
+   "reference": "Hébreux 11:1-6",
+   "theme": "Foi qui plaît à Dieu"
+  },
+  {
+   "reference": "Matthieu 24:42-51",
+   "theme": "Veillez"
+  },
+  {
+   "reference": "1 Thessaloniciens 4:13-18",
+   "theme": "Espérance du retour de Christ"
+  },
+  {
+   "reference": "Psaume 121:1-8",
+   "theme": "Mon secours vient de l'Éternel"
+  },
+  {
+   "reference": "Tite 2:11-15",
+   "theme": "Attendre la bienheureuse espérance"
+  },
+  {
+   "reference": "1 Jean 3:2-3",
+   "theme": "Nous lui serons semblables"
+  },
+  {
+   "reference": "Apocalypse 22:1-7",
+   "theme": "Bientôt je viens"
+  },
+  {
+   "reference": "Psaume 84:1-13",
+   "theme": "Heureux ceux qui placent leur force en toi"
+  },
+  {
+   "reference": "Luc 21:25-36",
+   "theme": "Levez les yeux, votre délivrance approche"
+  },
+  {
+   "reference": "Romains 8:18-25",
+   "theme": "Attente ardente de la création"
+  },
+  {
+   "reference": "2 Pierre 3:8-15",
+   "theme": "Attendre la venue du jour de Dieu"
+  },
+  {
+   "reference": "Psaume 96:1-13",
+   "theme": "Chantez à l'Éternel ; il vient juger"
+  },
+  {
+   "reference": "Matthieu 22:34-40",
+   "theme": "Aimer Dieu et le prochain"
+  },
+  {
+   "reference": "Psaume 82:1-8",
+   "theme": "Défendre le faible et l'orphelin"
+  },
+  {
+   "reference": "Luc 10:25-37",
+   "theme": "Parabole du bon Samaritain"
+  },
+  {
+   "reference": "Jean 13:12-20",
+   "theme": "Servir comme je vous ai servi"
+  },
+  {
+   "reference": "Jacques 2:14-26",
+   "theme": "Foi agissante par les œuvres"
+  },
+  {
+   "reference": "Psaume 112:1-10",
+   "theme": "Heureux l'homme qui craint l'Éternel"
+  },
+  {
+   "reference": "Matthieu 25:31-46",
+   "theme": "Ce que vous avez fait au plus petit..."
+  },
+  {
+   "reference": "1 Corinthiens 9:19-23",
+   "theme": "Me faire tout à tous pour en gagner"
+  },
+  {
+   "reference": "Actes 1:6-11",
+   "theme": "Témoins jusqu'aux extrémités de la terre"
+  },
+  {
+   "reference": "Psaume 67:2-8",
+   "theme": "Que les peuples te louent"
+  },
+  {
+   "reference": "Romains 10:9-15",
+   "theme": "Comment invoqueront-ils sans prédicateur ?"
+  },
+  {
+   "reference": "Marc 16:14-20",
+   "theme": "Allez par tout le monde"
+  },
+  {
+   "reference": "Matthieu 28:16-20",
+   "theme": "Grande mission"
+  },
+  {
+   "reference": "Psaume 96:1-10",
+   "theme": "Annoncez son salut de jour en jour"
+  },
+  {
+   "reference": "Actes 4:13-22",
+   "theme": "Témoin hardi"
+  },
+  {
+   "reference": "2 Timothée 1:6-14",
+   "theme": "Ne rougis pas du témoignage"
+  },
+  {
+   "reference": "1 Pierre 3:8-17",
+   "theme": "Sanctifiez Christ dans vos cœurs"
+  },
+  {
+   "reference": "Psaume 126:1-6",
+   "theme": "Ceux qui sèment avec larmes..."
+  },
+  {
+   "reference": "Jean 4:27-42",
+   "theme": "Moisson abondante"
+  },
+  {
+   "reference": "Luc 15:1-10",
+   "theme": "Joie dans le ciel pour un pécheur"
+  },
+  {
+   "reference": "Actes 8:26-39",
+   "theme": "Évangélisation de l'eunuque"
+  },
+  {
+   "reference": "Psaume 98:1-9",
+   "theme": "Chantez un cantique nouveau"
+  },
+  {
+   "reference": "Romains 1:8-17",
+   "theme": "Ne pas avoir honte de l'Évangile"
+  },
+  {
+   "reference": "2 Corinthiens 5:14-21",
+   "theme": "Ambassadeurs pour Christ"
+  },
+  {
+   "reference": "Éphésiens 6:19-20",
+   "theme": "Prière pour hardiesse dans la prédication"
+  },
+  {
+   "reference": "Psaume 100:1-5",
+   "theme": "Entrez dans ses portes avec des louanges"
+  },
+  {
+   "reference": "Colossiens 4:2-6",
+   "theme": "Parole avec grâce, assaisonnée de sel"
+  },
+  {
+   "reference": "Actes 16:22-34",
+   "theme": "Témoignage en prison"
+  },
+  {
+   "reference": "Philippiens 1:12-18",
+   "theme": "L'Évangile avance malgré les chaînes"
+  },
+  {
+   "reference": "Psaume 145:1-13",
+   "theme": "Proclamer ta puissance aux générations"
+  },
+  {
+   "reference": "1 Thessaloniciens 2:1-8",
+   "theme": "Partager l'Évangile et notre vie"
+  },
+  {
+   "reference": "Matthieu 5:13-16",
+   "theme": "Sel et lumière"
+  },
+  {
+   "reference": "Psaume 66:1-12",
+   "theme": "Venez et voyez les œuvres de Dieu"
+  },
+  {
+   "reference": "Actes 20:17-27",
+   "theme": "N'avoir annoncé rien d'utile"
+  },
+  {
+   "reference": "2 Timothée 4:1-5",
+   "theme": "Prêche la parole en toute occasion"
+  },
+  {
+   "reference": "Jean 15:18-27",
+   "theme": "Témoignage malgré la haine du monde"
+  },
+  {
+   "reference": "Psaume 71:14-24",
+   "theme": "J'annoncerai ta justice"
+  },
+  {
+   "reference": "Romains 15:14-21",
+   "theme": "Annoncer là où Christ n'est pas connu"
+  },
+  {
+   "reference": "1 Corinthiens 3:5-15",
+   "theme": "Bâtir sur le fondement avec soin"
+  },
+  {
+   "reference": "Luc 19:1-10",
+   "theme": "Zachée : salut venu aujourd'hui"
+  },
+  {
+   "reference": "Psaume 40:10-18",
+   "theme": "J'annonce la bonne nouvelle"
+  },
+  {
+   "reference": "Actes 26:12-23",
+   "theme": "Témoignage devant Agrippa"
+  },
+  {
+   "reference": "Hébreux 13:1-8",
+   "theme": "Persévérer dans l'amour fraternel"
+  },
+  {
+   "reference": "1 Jean 4:17-21",
+   "theme": "Amour parfait bannit la crainte"
+  },
+  {
+   "reference": "Psaume 133:1-3",
+   "theme": "Unité comme parfum précieux"
+  },
+  {
+   "reference": "Éphésiens 4:1-6",
+   "theme": "Un seul corps, un seul Esprit"
+  },
+  {
+   "reference": "Jean 17:20-26",
+   "theme": "Prière pour l'unité"
+  },
+  {
+   "reference": "Philippiens 2:1-11",
+   "theme": "Même sentiment que Christ"
+  },
+  {
+   "reference": "Psaume 122:1-9",
+   "theme": "Prions pour la paix de Jérusalem"
+  },
+  {
+   "reference": "Galates 3:26-29",
+   "theme": "Tous un en Christ"
+  },
+  {
+   "reference": "1 Corinthiens 1:10-17",
+   "theme": "Pas de divisions"
+  },
+  {
+   "reference": "Actes 2:42-47",
+   "theme": "Communion des premiers chrétiens"
+  },
+  {
+   "reference": "Psaume 85:2-14",
+   "theme": "Paix pour ton peuple"
+  },
+  {
+   "reference": "Colossiens 3:12-17",
+   "theme": "Revêtez-vous de miséricorde"
+  },
+  {
+   "reference": "Jean 13:1-11",
+   "theme": "Lavement des pieds"
+  },
+  {
+   "reference": "Romains 12:14-21",
+   "theme": "Bénir ceux qui persécutent"
+  },
+  {
+   "reference": "Luc 6:37-42",
+   "theme": "Ne pas juger"
+  },
+  {
+   "reference": "Jacques 5:7-12",
+   "theme": "Patience jusqu'à l'avènement"
+  },
+  {
+   "reference": "Psaume 130:1-8",
+   "theme": "Attente d'Israël"
+  },
+  {
+   "reference": "Luc 1:26-38",
+   "theme": "Annonciation à Marie"
+  },
+  {
+   "reference": "Ésaïe 7:10-14",
+   "theme": "Signe : la vierge concevra"
+  },
+  {
+   "reference": "Luc 1:39-56",
+   "theme": "Visitation et Magnificat"
+  },
+  {
+   "reference": "Psaume 89:2-9",
+   "theme": "Je chanterai toujours les bontés de l'Éternel"
+  },
+  {
+   "reference": "Michée 4:14-5:4",
+   "theme": "De Bethléhem sortira le dominateur"
+  },
+  {
+   "reference": "Matthieu 1:18-25",
+   "theme": "Naissance de Jésus annoncée à Joseph"
+  },
+  {
+   "reference": "Ésaïe 8:23-9:6",
+   "theme": "Un enfant nous est né"
+  },
+  {
+   "reference": "Psaume 72:1-11",
+   "theme": "Roi de justice et paix"
+  },
+  {
+   "reference": "Luc 2:1-7",
+   "theme": "Naissance à Bethléhem"
+  },
+  {
+   "reference": "Luc 2:8-20",
+   "theme": "Annonce aux bergers"
+  },
+  {
+   "reference": "Matthieu 2:1-12",
+   "theme": "Mages d'Orient"
+  },
+  {
+   "reference": "Jean 1:6-14",
+   "theme": "Témoignage de Jean-Baptiste"
+  },
+  {
+   "reference": "Psaume 98:1-9",
+   "theme": "L'Éternel a fait connaître son salut"
+  },
+  {
+   "reference": "Ésaïe 11:1-10",
+   "theme": "Rejeton de Jessé"
+  },
+  {
+   "reference": "Luc 1:67-80",
+   "theme": "Benedictus de Zacharie"
+  },
+  {
+   "reference": "Apocalypse 22:12-21",
+   "theme": "Viens, Seigneur Jésus"
+  },
+  {
+   "reference": "Psaume 80:2-8",
+   "theme": "Restaure-nous, ô Dieu"
+  },
+  {
+   "reference": "Tite 3:4-7",
+   "theme": "Salut par la bonté de Dieu"
+  },
+  {
+   "reference": "Hébreux 1:1-4",
+   "theme": "Fils supérieur aux anges"
+  },
+  {
+   "reference": "Jean 3:31-36",
+   "theme": "Celui qui vient d'en haut"
+  },
+  {
+   "reference": "Psaume 146:1-10",
+   "theme": "Louez l'Éternel ; il règne éternellement"
+  },
+  {
+   "reference": "Philippiens 4:4-7",
+   "theme": "Réjouissez-vous ; paix de Dieu"
+  },
+  {
+   "reference": "Luc 2:25-38",
+   "theme": "Siméon et Anne"
+  },
+  {
+   "reference": "Ésaïe 40:1-11",
+   "theme": "Voix qui crie : préparez le chemin"
+  },
+  {
+   "reference": "Psaume 24:7-10",
+   "theme": "Portes, élevez vos têtes"
+  },
+  {
+   "reference": "Luc 2:1-20",
+   "theme": "Nuit de Noël"
+  },
+  {
+   "reference": "Jean 1:1-18",
+   "theme": "Le Verbe s'est fait chair"
+  },
+  {
+   "reference": "1 Jean 4:9-14",
+   "theme": "Dieu a envoyé son Fils"
+  },
+  {
+   "reference": "Colossiens 1:15-20",
+   "theme": "Image du Dieu invisible"
+  },
+  {
+   "reference": "Psaume 148:1-14",
+   "theme": "Toute la création loue l'Éternel"
+  },
+  {
+   "reference": "Hébreux 2:10-18",
+   "theme": "Frère en tout semblable"
+  },
+  {
+   "reference": "Apocalypse 5:1-14",
+   "theme": "L'Agneau digne d'ouvrir le livre"
+  },
+  {
+   "reference": "Psaume 150:1-6",
+   "theme": "Louez l'Éternel ! Tout ce qui respire"
+  }
+ ],
+ "auteur": "L'Arsenal de la Sentinelle",
+ "autorisation": "oui",
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14"
+}

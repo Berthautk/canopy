@@ -1,0 +1,35 @@
+import { Icone } from '../../composants/Icone.jsx';
+import { CarteVerset } from '../../composants/Verset.jsx';
+import { TexteRefs } from '../../composants/TexteRefs.jsx';
+import { ENSEIGNEMENTS } from '../../donnees/contenu.js';
+import { partager } from '../../outils/partage.js';
+
+// Enseignement écrit (sans audio) : objectifs, introduction, sections ; les versets sont lus dans la Bible.
+export function EnseignementEcrit({ id }) {
+  const e = ENSEIGNEMENTS.find((x) => x.id === id);
+  if (!e) return <div class="page"><p class="ligne__desc">Enseignement introuvable.</p></div>;
+  return (
+    <div class="page enseignement-ecrit">
+      <div class="theme-hero"><img src={e.image} alt="" />
+        <div class="theme-hero__texte"><span class="pastille pastille--or">{e.theme} · {e.lecture_minutes} min de lecture</span><h2>{e.titre}</h2></div></div>
+      <p class="veille__theme">{e.resume}</p>
+      {e.verset_de_base && <CarteVerset reference={e.verset_de_base} />}
+      {e.objectifs?.length > 0 && (
+        <section class="carte bloc"><h3><span class="ligne__icone"><Icone nom="cible" /></span> Objectifs</h3>
+          <ul class="objectifs">{e.objectifs.map((o) => <li><Icone nom="verifie" taille={16} /><span><TexteRefs texte={o} /></span></li>)}</ul></section>
+      )}
+      {e.introduction && <section class="carte bloc"><h3><span class="ligne__icone"><Icone nom="info" /></span> Introduction</h3><p><TexteRefs texte={e.introduction} /></p></section>}
+      {e.sections.map((s) => (
+        <section class="section-ens">
+          {s.transition && <p class="section-ens__transition"><TexteRefs texte={s.transition} /></p>}
+          <h2 class="phase__titre"><span class="phase__num">{s.numero}</span>{s.titre}</h2>
+          {s.references.length > 0 && <p class="section-ens__refs">{s.references.map((r) => <TexteRefs texte={r} />).reduce((a, b) => [a, ' · ', b])}</p>}
+          {s.blocs.map((b) => b.verset ? <CarteVerset reference={b.verset} /> : b.sous_titre ? <h3 class="section-ens__sous">{b.sous_titre}</h3> : <p class="section-ens__texte"><TexteRefs texte={b.texte} /></p>)}
+        </section>
+      ))}
+      <button class="bouton bouton--contour" style="width:100%;margin-top:16px" onClick={() => partager({ titre: e.titre, texte: `${e.titre}\n${e.resume}`, chemin: 'grandir/enseignement/' + e.id })}>
+        <Icone nom="partager" taille={18} /> Partager cet enseignement</button>
+      {e.source && <p class="source-mention">Source : {e.auteur}</p>}
+    </div>
+  );
+}

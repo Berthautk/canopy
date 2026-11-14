@@ -197,3 +197,4 @@ mark { background: #F7DE8C; color: inherit; border-radius: 3px; padding: 0 1px; 
 .plan-bilan span { font-size: .75rem; color: var(--texte-doux); }
 .apercu-plan { list-style: none; margin: 8px 0 0; padding: 10px 14px; display: grid; gap: 6px; font-size: .88rem; }
 .apercu-plan b { font-family: var(--police-titre); color: var(--titre); margin-right: 6px; }
+.plan-theme { display: block; font-size: .78rem; color: var(--texte-doux); font-style: italic; }

@@ -1,0 +1,183 @@
+{
+ "id": "enseignement-doctrine-baptemes",
+ "titre": "La doctrine des baptêmes",
+ "theme": "Doctrine",
+ "serie": "L'Arsenal de la Sentinelle",
+ "resume": "Les 4 types de baptême — définitions, preuves et significations",
+ "image": "/assets/eglise/bapteme-en-bassin.webp",
+ "verset_de_base": "Matthieu 3:11",
+ "objectifs": [
+  "Comprendre le sens profond du mot baptême dans les Écritures",
+  "Distinguer clairement les quatre types de baptême",
+  "Connaître les preuves scripturaires de chacun",
+  "Discerner ce qu'il reste à recevoir et à mettre en pratique"
+ ],
+ "introduction": "Le mot grec « baptizō » signifie plonger, immerger, submerger. Dans l'Antiquité, il décrivait le tissu plongé dans la teinture jusqu'à changer complètement de couleur, ou le bateau qui coule sous les eaux. C'est cette image de transformation totale que le Nouveau Testament utilise. La Bible distingue quatre baptêmes : le baptême de Jean-Baptiste, le baptême d'eau chrétien, le baptême du Saint-Esprit, et le baptême de feu. Chacun a sa place, sa signification et ses preuves distinctes.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Définition — que signifie « baptême » ?",
+   "references": [
+    "Romains 6:3-4",
+    "Colossiens 2:12",
+    "Marc 3:11"
+   ],
+   "blocs": [
+    {
+     "texte": "Baptiser, c'est immerger, plonger entièrement. Le mot évoque une transformation totale : ce qui est plongé ressort changé, comme le tissu qui prend la couleur de la teinture."
+    },
+    {
+     "texte": "Spirituellement, le baptême marque une identification et un passage : on est uni à ce dans quoi on est plongé. Le baptême d'eau nous identifie à la mort et à la résurrection de Christ (Romains 6:3-4)."
+    },
+    {
+     "verset": "Hébreux 6:1-2"
+    },
+    {
+     "texte": "C'est pourquoi il faut savoir distinguer les quatre baptêmes que la Bible présente, afin de discerner ce que l'on a déjà reçu et ce qu'il reste à recevoir."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Le baptême de Jean-Baptiste (de repentance)",
+   "references": [
+    "Matthieu 3:1-12",
+    "Marc 1:4-8",
+    "Actes 19:1-6"
+   ],
+   "transition": "Commençons par le premier baptême de l'histoire de l'Évangile — celui qui préparait le chemin du Seigneur.",
+   "blocs": [
+    {
+     "texte": "Jean le Baptiste était envoyé pour préparer le chemin du Seigneur (Matthieu 3:3). Son baptême était un acte de repentance — se détourner publiquement du péché en vue de l'arrivée du Messie. Ce n'était pas le baptême chrétien complet."
+    },
+    {
+     "verset": "Matthieu 3:6"
+    },
+    {
+     "texte": "Jean lui-même en explique la limite (Matthieu 3:11) : il baptisait d'eau pour la repentance, mais Celui qui venait baptiserait du Saint-Esprit et de feu."
+    },
+    {
+     "verset": "Actes 19:4-5"
+    },
+    {
+     "texte": "Conclusion : ce baptême était nécessaire en son temps mais insuffisant. Un baptême purement rituel, sans foi vivante en Jésus, appelle un vrai baptême d'eau au nom de Jésus-Christ."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Le baptême d'eau chrétien",
+   "references": [
+    "Matthieu 28:19",
+    "Actes 2:38",
+    "Romains 6:3-4",
+    "Colossiens 2:12"
+   ],
+   "transition": "Du baptême de préparation, passons au baptême que le Seigneur ressuscité a expressément commandé à tous ses disciples.",
+   "blocs": [
+    {
+     "texte": "C'est le commandement direct du Seigneur. Matthieu 28:19 : « Allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit. »"
+    },
+    {
+     "verset": "Actes 2:38"
+    },
+    {
+     "texte": "Sa signification (Romains 6:3-4) : nous avons été ensevelis avec Christ par le baptême en sa mort, afin de marcher en nouveauté de vie. Le baptême est la représentation physique de ta mort au péché et de ta résurrection avec Christ."
+    },
+    {
+     "texte": "Le baptême ne sauve pas par lui-même — c'est la foi qui sauve (Éphésiens 2:8-9) — mais il est le signe extérieur et public d'une transformation intérieure réelle (Colossiens 2:12)."
+    },
+    {
+     "texte": "Immersion ou aspersion ? La Bible soutient l'immersion totale : « baptizō » signifie immerger ; Jésus « Il sortit de l’eau » (Matthieu 3:16) ; l'eunuque « descendit dans l'eau » et « Quand ils furent sortis de l’eau » (Actes 8:38-39). L'ensevelissement (Romains 6:4) ne s'illustre que par l'immersion."
+    },
+    {
+     "texte": "Quand se faire baptiser ? Dès la conversion authentique. L'eunuque éthiopien fut baptisé sur-le-champ (Actes 8:36) ; le geôlier de Philippes la nuit même (Actes 16:33). La repentance et la foi sont les conditions — pas la durée de formation."
+    }
+   ]
+  },
+  {
+   "numero": "4",
+   "titre": "Le baptême du Saint-Esprit",
+   "references": [
+    "Actes 1:4-5",
+    "Actes 2:1-4",
+    "Actes 8:14-17",
+    "Actes 10:44-48"
+   ],
+   "transition": "Le baptême d'eau nous identifie à Christ ; le baptême suivant nous équipe de Sa puissance pour le service.",
+   "blocs": [
+    {
+     "texte": "C'est la promesse du Père (Actes 1:4). Jésus dit : « Jean a baptisé d'eau, mais vous, dans peu de jours, vous serez baptisés du Saint-Esprit » (Actes 1:5). C'est une expérience d'équipement, distincte de la nouvelle naissance."
+    },
+    {
+     "verset": "Actes 2:4"
+    },
+    {
+     "texte": "Dans Actes 8:14-17, Pierre et Jean imposent les mains aux croyants de Samarie (déjà sauvés et baptisés d'eau) et ils reçoivent le Saint-Esprit — réception visible de l'extérieur."
+    },
+    {
+     "texte": "Dans Actes 10:44-48, l'Esprit tombe sur Corneille et sa maison avant même le baptême d'eau, confirmant que ce baptême est pour toutes les nations."
+    },
+    {
+     "texte": "Il s'accompagne du signe des langues (Actes 2:4 · 10:46 · 19:6) et donne la puissance pour témoigner (Actes 1:8). Il est disponible pour tout croyant aujourd'hui — la promesse est pour tous ceux que le Seigneur appelle (Actes 2:39)."
+    }
+   ]
+  },
+  {
+   "numero": "5",
+   "titre": "Le baptême de feu",
+   "references": [
+    "Matthieu 3:11-12",
+    "Luc 3:16-17",
+    "Malachie 3:2-3"
+   ],
+   "transition": "Au baptême de puissance s'ajoute un baptême de purification — le feu qui affine et qui sépare.",
+   "blocs": [
+    {
+     "verset": "Matthieu 3:11-12"
+    },
+    {
+     "texte": "Ce baptême a deux dimensions : la purification et le jugement. Pour le croyant, c'est le feu de l'Esprit qui purifie le cœur et raffine le caractère (Malachie 3:2-3 — comme on épure l'or et l'argent)."
+    },
+    {
+     "texte": "Pour les impénitents, le feu est celui du jugement — le feu qui brûle la paille (Matthieu 3:12). C'est un avertissement solennel."
+    },
+    {
+     "texte": "Le croyant qui vit sous la présence de l'Esprit expérimente ce feu purificateur : ses priorités changent, son caractère est modelé à l'image de Christ (2 Corinthiens 3:18)."
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Récapitulatif pratique : que dois-je faire ?",
+   "references": [
+    "Actes 2:38",
+    "Actes 1:8",
+    "Éphésiens 5:18"
+   ],
+   "transition": "La doctrine ne porte du fruit que dans l'obéissance. Que cet examen te conduise à recevoir tout ce que Dieu a préparé pour toi.",
+   "blocs": [
+    {
+     "texte": "1. Si tu n'as jamais été baptisé d'eau par immersion en confessant ta foi en Jésus-Christ — fais-le dès que possible."
+    },
+    {
+     "texte": "2. Si tu as été aspergé enfant sans ta propre foi — ce n'est pas le baptême biblique. Recherche le baptême par immersion après ta conversion personnelle."
+    },
+    {
+     "texte": "3. Si tu n'as jamais reçu le baptême du Saint-Esprit avec le signe des langues — cherche-le par la prière, le jeûne et l'imposition des mains (Actes 2:39)."
+    },
+    {
+     "texte": "4. Demande à être rempli continuellement de l'Esprit (Éphésiens 5:18). Le baptême du Saint-Esprit est un acte initial qui doit être suivi d'une vie de dépendance continue."
+    },
+    {
+     "texte": "5. Le feu purificateur de l'Esprit est une réalité quotidienne — soumets chaque jour ta vie à l'œuvre du Saint-Esprit."
+    }
+   ]
+  }
+ ],
+ "lecture_minutes": 6,
+ "auteur": "L'Arsenal de la Sentinelle",
+ "autorisation": "oui",
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14"
+}

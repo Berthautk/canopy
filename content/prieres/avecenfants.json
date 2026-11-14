@@ -1,0 +1,129 @@
+{
+ "id": "priere-avecenfants",
+ "categorie": "Couple et famille",
+ "ordre": 17,
+ "titre": "Mariés avec enfants",
+ "nom_court": "Mariés avec enfants",
+ "image": "/assets/priere/priere-en-famille.webp",
+ "resume": "Sujets de prière pour : mariés avec enfants, en suivant le Notre Père.",
+ "phases": [
+  {
+   "num": "2",
+   "titre": "Que Ton Règne vienne",
+   "sujets": [
+    {
+     "titre": "Son règne sur l'atmosphère du foyer",
+     "texte": "Intercède pour que le règne de Dieu s'installe comme une atmosphère réelle dans chaque pièce de ta maison. Nomme chaque chambre. Dédie-la au Roi. (Jos 24:15 ; Psaume 101:2)"
+    },
+    {
+     "titre": "Son règne sur les blessures non dites",
+     "texte": "Prie pour que le règne de Dieu révèle et guérisse les blessures silencieuses que les membres de ta famille portent sans les dire. Que Sa grâce ouvre les cœurs. (Éphésiens 4:26-27)"
+    }
+   ]
+  },
+  {
+   "num": "3",
+   "titre": "Que Ta Volonté soit faite",
+   "sujets": [
+    {
+     "titre": "Sa volonté sur chaque enfant",
+     "texte": "Intercède pour que la volonté de Dieu s'accomplisse dans la vie de chaque enfant. Remets-les un par un entre Ses mains. Que Son plan pour leur vie soit établi. (Psaume 127:3)"
+    },
+    {
+     "titre": "Sa volonté dans ton autorité spirituelle",
+     "texte": "Demande à Dieu de renforcer ton autorité spirituelle sur ta maison. Que ta famille marche dans la volonté de Dieu parce que toi le premier tu y marches. (Jos 24:15)"
+    },
+    {
+     "titre": "Sa volonté dans l'éducation",
+     "texte": "Demande à Dieu de te donner la sagesse d'élever tes enfants selon Ses principes. Que tu sois un canal de Sa volonté et non un obstacle à elle. (Éphésiens 6:4 ; 2 Corinthiens 12:9)"
+    }
+   ]
+  },
+  {
+   "num": "4",
+   "titre": "Donne-nous notre pain",
+   "sujets": [
+    {
+     "titre": "La provision pour toute la famille",
+     "texte": "Intercède pour que Dieu pourvoie à tous les besoins de ta famille — la nourriture, les frais scolaires, la santé, les imprévus. Nomme chaque besoin concret. (Matthieu 6:11 ; Philippiens 4:19)"
+    },
+    {
+     "titre": "La restauration du couple après la fatigue",
+     "texte": "Demande à Dieu de nourrir ce soir la relation avec ton conjoint. Que la fatigue du foyer ne dévore pas l'intimité conjugale. (Éphésiens 5:25-28 ; 1 Pierre 3:7)"
+    },
+    {
+     "titre": "La santé de chaque membre de la famille",
+     "texte": "Intercède pour la santé de ton conjoint et de chaque enfant. Nomme toute fragilité connue. Demande à Dieu de garder chacun en bonne santé. (Exode 23:25 ; 3 Jean 1:2)"
+    }
+   ]
+  },
+  {
+   "num": "5",
+   "titre": "Pardonne nos offenses",
+   "sujets": [
+    {
+     "titre": "La dureté et les disputes devant les enfants",
+     "texte": "Nomme devant Dieu les incidents de dureté envers tes enfants ou de disputes avec ton conjoint faites devant eux. Ces scènes les blessent — demande la grâce de la retenue. (Colossiens 3:21 ; Éphésiens 4:31)"
+    },
+    {
+     "titre": "La négligence spirituelle du foyer",
+     "texte": "Confesse à Dieu les saisons où le travail ou l'argent a occupé la première place au détriment de Dieu et de ta famille. Reprends ta place de berger spirituel. (Matthieu 6:33)"
+    },
+    {
+     "titre": "Pardonner ton conjoint et tes enfants",
+     "texte": "Dis à Dieu que tu pardonnes ton conjoint pour les manquements et les charges portées seul. Dis aussi que tu pardonnes tes enfants pour leur ingratitude et les inquiétudes causées. Nomme chacun. (Colossiens 3:13)"
+    }
+   ]
+  },
+  {
+   "num": "6",
+   "titre": "Ne nous soumets pas à la tentation",
+   "sujets": [
+    {
+     "titre": "La négligence spirituelle de la famille",
+     "texte": "Prie pour ne pas laisser les occupations du quotidien prendre toute la place. Que le Saint-Esprit te rappelle ta priorité première avant qu'il ne soit trop tard. (Matthieu 6:33 ; Jos 24:15)"
+    },
+    {
+     "titre": "La négligence conjugale du soir",
+     "texte": "Intercède pour ne pas laisser la fatigue du foyer dévorer l'intimité conjugale. Que vous restiez proches l'un de l'autre malgré la charge des enfants et des responsabilités. (1 Corinthiens 7:5 ; Éphésiens 5:25)"
+    }
+   ]
+  },
+  {
+   "num": "7",
+   "titre": "Délivre-nous du Malin",
+   "sujets": [
+    {
+     "titre": "L'esprit de discorde dans le foyer",
+     "texte": "Par le feu du Saint-Esprit, brûle et expulse tout esprit de discorde et d'amertume. Déclare que la paix de Dieu règne dans ta maison et que l'unité est protégée par le Sang. (Colossiens 3:15 ; Psaume 133:1)"
+    },
+    {
+     "titre": "Les plans contre tes enfants",
+     "texte": "Par le Sang de Jésus, renverse tout plan de l'ennemi contre la santé, les études et la destinée de tes enfants. Nomme chaque enfant et déclare que Dieu a des plans de paix pour eux. (Jérémie 29:11 ; És 54:17)"
+    },
+    {
+     "titre": "Les opérations occultes contre ton mariage",
+     "texte": "Tranche tout lien et tout autel dressés contre l'unité de ton mariage. Déclare que ce que Dieu a uni aucun homme ne peut le séparer. (Marc 10:9 ; Nombres 23:23)"
+    }
+   ]
+  },
+  {
+   "num": "8",
+   "titre": "Action de grâce",
+   "sujets": [
+    {
+     "titre": "Ton foyer comme œuvre de Dieu",
+     "texte": "Remercie Dieu pour ton foyer — imparfait mais debout. Dis-Lui merci pour les années de mariage, pour les enfants, pour tout ce qu'Il a protégé que tu n'as peut-être pas vu. (Psaume 127:1 ; Jos 24:15)"
+    },
+    {
+     "titre": "Chaque enfant nommé et remercié",
+     "texte": "Prononce le prénom de chaque enfant devant Dieu et remercie-Le pour lui ou pour elle. Ces enfants sont un héritage précieux — et Dieu œuvre dans leur cœur même quand tu ne le vois pas. (Psaume 127:3 ; Proverbes 22:6)"
+    }
+   ]
+  }
+ ],
+ "auteur": "L'Arsenal de la Sentinelle",
+ "autorisation": "oui",
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14"
+}

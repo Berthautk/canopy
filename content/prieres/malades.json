@@ -1,0 +1,133 @@
+{
+ "id": "priere-malades",
+ "categorie": "Épreuves",
+ "ordre": 23,
+ "titre": "Malades et leurs familles",
+ "nom_court": "Malades",
+ "image": "/assets/famille-quotidien/visite-a-hopital.webp",
+ "resume": "Sujets de prière pour : malades et leurs familles, en suivant le Notre Père.",
+ "phases": [
+  {
+   "num": "2",
+   "titre": "Que Ton Règne vienne",
+   "sujets": [
+    {
+     "titre": "Son règne sur la maladie",
+     "texte": "Intercède pour que le règne de Dieu s'établisse sur ce corps malade. Déclare que Dieu est Roi sur ce corps — pas la maladie, pas le diagnostic, pas la peur. (Exode 15:26 ; Psaume 103:3)"
+    },
+    {
+     "titre": "Les hôpitaux et les soignants croyants",
+     "texte": "Intercède pour les malades hospitalisés en ce moment. Demande à Dieu que des soignants croyants soient des instruments de Sa grâce — au-delà des médicaments. (Jacques 5:14-15)"
+    }
+   ]
+  },
+  {
+   "num": "3",
+   "titre": "Que Ta Volonté soit faite",
+   "sujets": [
+    {
+     "titre": "Sa volonté de guérison",
+     "texte": "Intercède pour que la volonté de Dieu — qui est de guérir Son peuple — s'accomplisse dans ce corps malade. Qu'Il soit l'Éternel qui guérit dans ce cas précis. (Exode 15:26 ; És 53:4-5)"
+    },
+    {
+     "titre": "Sa volonté contre le découragement",
+     "texte": "Demande à Dieu que Sa volonté fortifie la foi du malade et de sa famille. Que Sa volonté soit plus haute que le rapport médical. (Jérémie 32:27)"
+    },
+    {
+     "titre": "Soumettre les traitements médicaux à Dieu",
+     "texte": "Remets à Dieu chaque traitement médical en cours. La foi et la médecine ne sont pas en opposition — Luc était médecin. Demande à Dieu de guider les mains et les prescriptions. (Colossiens 4:14)"
+    }
+   ]
+  },
+  {
+   "num": "4",
+   "titre": "Donne-nous notre pain",
+   "sujets": [
+    {
+     "titre": "La guérison complète — là où la médecine s'arrête",
+     "texte": "Intercède avec foi pour que Dieu apporte une guérison complète. Par Ses meurtrissures nous sommes guéris. Nomme la maladie. Nomme le malade. Présente-les à Dieu. (És 53:4-5 ; Matthieu 19:26)"
+    },
+    {
+     "titre": "La provision pour les frais médicaux",
+     "texte": "Intercède pour que Dieu ouvre des sources de provision pour couvrir les frais médicaux. Présente à Dieu les besoins financiers précis liés à la maladie. (Philippiens 4:19)"
+    },
+    {
+     "titre": "Le repos pour le malade et les proches soignants",
+     "texte": "Demande à Dieu un vrai repos pour le malade cette nuit, et un soutien pour les proches qui veillent — les nuits blanches, l'épuisement, l'inquiétude. (Psaume 4:9 ; Matthieu 11:28)"
+    }
+   ]
+  },
+  {
+   "num": "5",
+   "titre": "Pardonne nos offenses",
+   "sujets": [
+    {
+     "titre": "Le murmure contre Dieu dans la douleur",
+     "texte": "Confesse à Dieu toute parole d'amertume portée contre Lui à cause de la maladie. Dis-Lui ce que tu ressens vraiment. Puis demande la grâce de Lui faire confiance même dans la douleur. (Philippiens 2:14 ; Job 1:22)"
+    },
+    {
+     "titre": "Le recours aux pratiques occultes",
+     "texte": "Si dans la souffrance tu as eu recours à des marabouts ou des pratiques occultes pour chercher la guérison — confesse ce péché. Réclame la purification par le Sang de Jésus. (Actes 19:18-19)"
+    },
+    {
+     "titre": "Pardonner dans la maladie",
+     "texte": "Dis à Dieu que tu pardonnes ceux qui t'ont abandonné, qui ont parlé négativement sur ton cas, les indifférents. L'amertume dans la maladie est un poids que le corps ne peut pas se permettre. (Éphésiens 4:32)"
+    }
+   ]
+  },
+  {
+   "num": "6",
+   "titre": "Ne nous soumets pas à la tentation",
+   "sujets": [
+    {
+     "titre": "Solutions occultes et désespoir",
+     "texte": "Prie pour ne pas céder à la tentation de courir vers des guérisseurs ou marabouts quand la maladie s'éternise. Demande au Saint-Esprit de fortifier ta foi en Dieu seul. (Job 13:15 ; Deutéronome 18:10-12)"
+    },
+    {
+     "titre": "Amertume contre Dieu qui tarde",
+     "texte": "Demande à Dieu de te garder de l'amertume qui peut naître dans le cœur du malade quand la guérison tarde — la pensée que Dieu n'est pas assez puissant ou pas assez aimant. (Job 1:22)"
+    },
+    {
+     "titre": "Arrêter les traitements par mauvaise foi",
+     "texte": "Demande à Dieu de te garder de la tentation d'arrêter brutalement les traitements médicaux au nom d'une foi mal comprise. La foi et la médecine peuvent coopérer pour ta guérison. (Colossiens 4:14)"
+    }
+   ]
+  },
+  {
+   "num": "7",
+   "titre": "Délivre-nous du Malin",
+   "sujets": [
+    {
+     "titre": "L'esprit de maladie — chassé de ce corps",
+     "texte": "Par l'épée de la Parole, tranche et ordonne à tout esprit de maladie de lâcher ce corps. Nomme la maladie. Parle-lui directement. Dis-lui de partir au Nom de Jésus-Christ de Nazareth. (És 53:4-5 ; Marc 16:17-18)"
+    },
+    {
+     "titre": "La maladie héréditaire et la mort prématurée",
+     "texte": "Par le Sang de Jésus, brise tout héritage de maladie transmis de génération en génération. Tranche tout esprit de mort prématurée. Déclare : je ne mourrai point mais je vivrai ! (Galates 3:13 ; Psaume 118:17)"
+    },
+    {
+     "titre": "Tout agent occulte derrière la maladie",
+     "texte": "Si cette maladie a une origine spirituelle, par le feu du Saint-Esprit, consume tout autel et tranche tout lien qui l'alimenterait. Déclare que le malade sortira vivant de cette épreuve avec un témoignage. (Jean 11:4 ; Apocalypse 12:11)"
+    }
+   ]
+  },
+  {
+   "num": "8",
+   "titre": "Action de grâce",
+   "sujets": [
+    {
+     "titre": "La vie encore présente",
+     "texte": "Remercie Dieu pour la vie qui est encore là. Tant qu'il y a vie, il y a espérance — et tant qu'Il est Dieu, il y a guérison possible. Ce souffle est une promesse. (Psaume 118:17 ; Lamentations 3:22)"
+    },
+    {
+     "titre": "La guérison par anticipation",
+     "texte": "Rends grâce à Dieu par la foi pour la guérison que tu ne vois pas encore mais que tu reçois dès maintenant. Sur la croix, c'est déjà accompli. Dis-Lui merci comme si c'était déjà fait. (És 53:5 ; Marc 11:24)"
+    }
+   ]
+  }
+ ],
+ "auteur": "L'Arsenal de la Sentinelle",
+ "autorisation": "oui",
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14"
+}

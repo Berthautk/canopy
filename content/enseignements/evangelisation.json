@@ -1,0 +1,118 @@
+{
+ "id": "enseignement-evangelisation",
+ "titre": "Le secret de l'évangélisation",
+ "theme": "Évangélisation",
+ "serie": "L'Arsenal de la Sentinelle",
+ "resume": "Condition première : être un vrai disciple",
+ "image": "/assets/evangelisation/partage-bible-dans-la-rue.webp",
+ "verset_de_base": "Matthieu 28:19",
+ "objectifs": [
+  "Comprendre que l'évangélisation découle d'abord d'une vie transformée",
+  "Identifier la condition première : être né de nouveau et brisé",
+  "Maîtriser une présentation claire et complète de l'Évangile",
+  "Appliquer les principes d'une évangélisation efficace et fructueuse"
+ ],
+ "introduction": "Jésus dit : « Allez, faites de toutes les nations des disciples » (Matthieu 28:19). L'évangélisation efficace ne peut venir que de quelqu'un qui est lui-même un disciple — c'est-à-dire une personne brisée, transformée, brûlant de la présence de Dieu et motivée uniquement par l'amour des âmes.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Définition — qu'est-ce qu'évangéliser ?",
+   "references": [
+    "Marc 16:15",
+    "Romains 10:14-15",
+    "Actes 1:8"
+   ],
+   "blocs": [
+    {
+     "texte": "Évangéliser, c'est annoncer la bonne nouvelle du salut en Jésus-Christ à ceux qui ne le connaissent pas encore, afin qu'ils se repentent, croient et reçoivent la vie éternelle."
+    },
+    {
+     "texte": "Ce n'est pas d'abord une technique ni un programme : c'est le débordement naturel d'une vie qui a rencontré Christ. On ne peut donner que ce que l'on a soi-même reçu."
+    },
+    {
+     "verset": "Actes 1:8"
+    },
+    {
+     "texte": "L'évangélisation authentique commence donc par l'évangéliste lui-même : sa rencontre avec Christ et la puissance de l'Esprit en lui."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Condition première : être né(e) de nouveau et brisé(e)",
+   "references": [
+    "Jean 4:1-42",
+    "Luc 24:44-49",
+    "Actes 1:8"
+   ],
+   "transition": "Puisque l'évangélisation jaillit d'une vie transformée, examinons la condition de cœur qui rend le témoignage authentique et puissant.",
+   "blocs": [
+    {
+     "texte": "L'évangéliste doit d'abord avoir rencontré Jésus personnellement — comme la Samaritaine en Jean 4. Sans cette rencontre, il ne peut témoigner avec authenticité."
+    },
+    {
+     "texte": "Être brisé(e) signifie être libéré(e) de la suffisance de soi. C'est cette brisure qui fait l'authenticité et la puissance du témoignage."
+    },
+    {
+     "texte": "L'Esprit-Saint doit précéder et accompagner tout effort d'évangélisation — Jésus dit à ses disciples d'attendre la puissance d'en haut avant d'aller (Luc 24:49 · Actes 1:8)."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "La présentation du disciple",
+   "references": [
+    "Romains 3:23",
+    "Jean 3:16",
+    "1 Jean 1:9"
+   ],
+   "transition": "Le cœur est prêt ; il faut maintenant un message clair. Voici comment présenter l'Évangile avec ordre et fidélité.",
+   "blocs": [
+    {
+     "texte": "1. Les faits du péché — présenter la réalité du péché et sa séparation d'avec Dieu (Romains 3:23 · Ésaïe 59:2)."
+    },
+    {
+     "texte": "2. La conséquence du péché — la mort spirituelle et le jugement (Romains 6:23 · Hébreux 9:27)."
+    },
+    {
+     "texte": "3. La voie de sortie : l'amour de Dieu manifesté dans la mort et la résurrection du Christ (Jean 3:16 · 1 Corinthiens 15:3-4)."
+    },
+    {
+     "texte": "4. La réponse du pécheur : se repentir (Marc 1:14), confesser son péché (1 Jean 1:9), recevoir Christ (Jean 1:12)."
+    },
+    {
+     "texte": "5. Les suites : le baptême, l'exhortation à fuir le vieil homme, la communion fraternelle dans une assemblée locale."
+    }
+   ]
+  },
+  {
+   "numero": "4",
+   "titre": "Les principes clés de l'évangélisation efficace",
+   "references": [
+    "1 Corinthiens 9:22",
+    "Luc 10:2",
+    "1 Corinthiens 3:6"
+   ],
+   "transition": "Que ces principes éprouvés rendent ton témoignage fécond, et que Dieu t'accorde la joie de voir des âmes naître à la vie.",
+   "blocs": [
+    {
+     "texte": "Prie d'abord pour le terrain spirituel — c'est la prière qui prépare les cœurs (Luc 10:2)."
+    },
+    {
+     "texte": "Sois tout à tous — adapte ton approche à ton interlocuteur sans trahir l'Évangile (1 Corinthiens 9:22)."
+    },
+    {
+     "texte": "Raconte ton témoignage personnel — c'est l'arme la plus inattaquable (Apocalypse 12:11)."
+    },
+    {
+     "texte": "Plante, arrose, et laisse Dieu faire croître — ne force pas les décisions immédiates (1 Corinthiens 3:6)."
+    }
+   ]
+  }
+ ],
+ "lecture_minutes": 3,
+ "auteur": "L'Arsenal de la Sentinelle",
+ "autorisation": "oui",
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14"
+}

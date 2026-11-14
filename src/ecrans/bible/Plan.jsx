@@ -72,9 +72,9 @@ export function Plan() {
                 <li>
                   <label class="case">
                     <input type="checkbox" checked={fait} onChange={(e) => basculerLu(p, g.cles, e.currentTarget.checked)} />
-                    <span class={fait ? 'barre' : ''}>{g.libelle}</span>
+                    <span class={fait ? 'barre' : ''}>{g.libelle}{g.theme && <small class="plan-theme">{g.theme}</small>}</span>
                   </label>
-                  <a class="lien" href={`#/bible/lire/${g.code}/${g.debut}`}>Lire</a>
+                  <a class="lien" href={`#/bible/lire/${g.code}/${g.debut}${g.verset ? '/' + g.verset : ''}`}>Lire</a>
                 </li>
               );
             })}

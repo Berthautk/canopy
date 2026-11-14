@@ -1,0 +1,370 @@
+{
+ "id": "veille-aube",
+ "ordre": 1,
+ "titre": "Veille de l'Aube",
+ "heures": "03h – 07h",
+ "theme": "La Création et le Commandement du Matin",
+ "verset": "Psaume 139:18",
+ "image": "/assets/paysages/lever-soleil-collines.webp",
+ "introduction": "Avant de commencer — Note tes rêves. Avant même de prier, prends ton cahier et note tout ce dont tu te souviens cette nuit. Ce que l'ennemi fait pendant ton sommeil doit être annulé. Ce que Dieu t'a dit doit être reçu.",
+ "phases": [
+  {
+   "num": "0",
+   "titre": "Annulation de la Nuit",
+   "sous_titre": "À faire dès le réveil, avant l'adoration",
+   "texte": "Avant d'adorer, avant de demander quoi que ce soit, sécurise ton réveil. La nuit n'était pas neutre. Prends autorité sur ce qu'elle a apporté.",
+   "sujets": [
+    {
+     "titre": "La vie reçue ce matin",
+     "texte": "Remercie Dieu parce que tu es encore en vie. Ce n'est pas ordinaire — dis-Lui que ce souffle vient de Lui seul. (Lamentations 3:22-23)"
+    },
+    {
+     "titre": "La nuit dans son ensemble",
+     "texte": "Par le Sang de Jésus, annule tout accès que l'ennemi a cherché à prendre sur ta vie pendant ton sommeil. Déclare que tout ce qui a été fait contre toi dans l'invisible est effacé et sans effet. (Apocalypse 12:11)"
+    },
+    {
+     "titre": "Si tu as mal dormi",
+     "texte": "Brise par le Nom de Jésus tout esprit responsable de ce trouble. Déclare que ton repos t'appartient car Dieu donne le sommeil à Ses bien-aimés. (Psaume 127:2)"
+    },
+    {
+     "titre": "Si tu as fait un cauchemar",
+     "texte": "Annule par le Sang de Jésus tout message que l'ennemi a voulu t'envoyer à travers ce rêve. Déclare que Dieu n'est pas un Dieu de peur. (2 Timothée 1:7)"
+    },
+    {
+     "titre": "Si tu as mangé ou bu dans ton rêve",
+     "texte": "Annule par le Sang précieux de Jésus tout repas ou boisson reçue pendant ton sommeil. Déclare que ton corps est le temple du Saint-Esprit. (1 Corinthiens 6:19)"
+    },
+    {
+     "titre": "Si tu as eu des rapports dans ton rêve",
+     "texte": "Sans honte, présente ce rêve à Dieu. Brise tout lien spirituel contracté à travers ce rêve. Déclare que tout mari ou femme de nuit est chassé au Nom de Jésus. (1 Corinthiens 6:18)"
+    },
+    {
+     "titre": "Si tu as vu des personnes décédées",
+     "texte": "Annule par le Nom de Jésus tout message venu de ces esprits. Déclare que les morts n'ont aucune autorité sur ta vie et tes décisions. (Deutéronome 18:11)"
+    },
+    {
+     "titre": "Si tu as oublié tes rêves",
+     "texte": "Demande au Saint-Esprit de te rappeler ce que Dieu voulait te montrer. Et annule tout ce que l'ennemi aurait pu faire pendant ton sommeil, connu ou inconnu. (Job 33:15-16)"
+    },
+    {
+     "titre": "Si tu étais dans un ancien lieu",
+     "texte": "Annule par le Sang de Jésus tout rappel à l'ancien. Déclare que tu es une nouvelle créature et que les choses anciennes sont passées. (2 Corinthiens 5:17)"
+    },
+    {
+     "titre": "Couvre tes sens",
+     "texte": "Applique par la foi le Sang de Jésus sur ta tête, ta mémoire, ta conscience et toutes les portes de tes sens — tes yeux, tes oreilles, ta bouche — pour que rien d'impur ne reste en toi. (Hébreux 9:14)"
+    },
+    {
+     "titre": "Déclaration finale",
+     "texte": "Lève-toi et dis à voix haute : 'Je romps avec tout ce que la nuit a apporté contre moi. Je me lève dans la victoire de la résurrection de Jésus-Christ. Cette matinée m'appartient. Au Nom de Jésus.'"
+    }
+   ]
+  },
+  {
+   "num": "1",
+   "titre": "Adoration",
+   "sous_titre": "Que Ton nom soit sanctifié — Matthieu 6:9",
+   "texte": "Adorer c'est dire à Dieu qui Il est — pas ce qu'Il t'a donné. Sa nature. Son être. Avant toute demande, pose ton regard sur Dieu pour Dieu lui-même. Prononce chaque déclaration à voix haute.",
+   "sujets": [
+    {
+     "titre": "Il est Éternel",
+     "texte": "Adore le Dieu qui n'a pas de commencement et n'aura pas de fin ; Exalte-Le car Son éternité garantit que Ses promesses ne peuvent jamais expirer ; Magnifie l'Éternel qui régnait avant que tu existes et qui régnera quand l'histoire de ce monde aura pris fin. (Psaume 90:2)"
+    },
+    {
+     "titre": "Il est Saint",
+     "texte": "Adore le Dieu absolument pur, en qui il n'y a aucune ombre ni tache ni mensonge ; Exalte-Le car Sa sainteté est le fondement de toute vérité et toute justice dans l'univers ; Magnifie le Trois fois Saint qui, dans Sa grâce infinie, t'a purifié et rendu saint par le Sang de Son Fils Jésus-Christ. (Ésaïe 6:3)"
+    },
+    {
+     "titre": "Il est Tout-Puissant",
+     "texte": "Adore le Dieu Tout-Puissant devant qui aucune force dans le ciel, sur la terre ou sous la terre ne peut résister ; Exalte-Le car Il parle et cela est, Il ordonne et cela demeure pour toujours ; Magnifie El-Shaddaï qui tient ta vie et l'histoire de ta famille dans Ses mains toutes-puissantes. (Genèse 17:1)"
+    },
+    {
+     "titre": "Il est Souverain",
+     "texte": "Adore le Dieu souverain qui règne sur toutes les nations et tous les événements selon Sa volonté parfaite ; Exalte-Le car aucun événement de cette journée ne L'a surpris ni dépassé ; Magnifie le Roi suprême dont le trône ne chancelle jamais et dont le décret ne peut être annulé. (Daniel 4:35)"
+    },
+    {
+     "titre": "Il est Lumière",
+     "texte": "Adore le Dieu qui est Lumière en Lui-même, en qui il n'y a pas même la plus petite ombre ; Exalte-Le car là où Sa présence entre, les ténèbres doivent impérativement fuir ; Magnifie Celui qui illumine ton chemin quand tout autour de toi semble obscur et incertain. (1 Jean 1:5)"
+    },
+    {
+     "titre": "Il est Amour",
+     "texte": "Adore le Dieu qui est Amour par Sa nature même, non par décision qu'Il aurait pu changer ; Exalte-Le car cet amour existait avant ta naissance et demeure intact malgré toutes tes fautes ; Magnifie l'Éternel dont l'amour infini surpasse toute compréhension humaine et toute mesure. (1 Jean 4:8)"
+    },
+    {
+     "titre": "Il est Vérité",
+     "texte": "Adore le Dieu dont chaque parole est d'une pureté absolue et ne peut être défaite par aucune puissance ; Exalte-Le car le ciel et la terre passeront mais Ses paroles demeureront éternellement ; Magnifie Celui qui ne peut mentir et dont toutes les promesses sont Oui et Amen en Jésus-Christ. (Nombres 23:19)"
+    },
+    {
+     "titre": "Il est Immuable",
+     "texte": "Adore le Dieu qui ne change pas selon les saisons, les revers ou les défaillances des hommes ; Exalte-Le car Il est ce matin exactement ce qu'Il était pour Abraham, pour Moïse et pour Daniel ; Magnifie l'Éternel qui est le même hier, aujourd'hui et éternellement — sans variation ni ombre de changement. (Hébreux 13:8)"
+    },
+    {
+     "titre": "Il est Omniscient",
+     "texte": "Adore le Dieu qui sait tout — chaque pensée de ton cœur, chaque besoin de ton âme, chaque douleur cachée que tu n'as dite à personne ; Exalte-Le car rien ne Lui échappe et aucune situation de ta vie n'est ignorée de Lui en ce moment ; Magnifie Celui qui te connaît mieux que tu ne te connais toi-même et qui t'aime quand même. (Psaume 139:1-4)"
+    },
+    {
+     "titre": "Il est Juge",
+     "texte": "Adore le Dieu qui juge toutes choses avec une justice parfaite, sans favoritisme ni corruption ; Exalte-Le car le dernier mot sur ta vie Lui appartient et non à ceux qui t'accusent ou te condamnent ; Magnifie l'Éternel qui plaidera ta cause et rendra à chacun selon ses œuvres. (Psaume 96:13)"
+    }
+   ]
+  },
+  {
+   "num": "2",
+   "titre": "Que Ton Règne vienne",
+   "sous_titre": "Mt 6:10",
+   "texte": "Prier « Que Ton règne vienne » c'est demander à Dieu de s'établir comme Roi partout où Il ne règne pas encore. Là où Son règne arrive, Sa crainte remplace la légèreté, Sa sainteté chasse le désordre. (Romains 14:17)",
+   "sujets": [
+    {
+     "titre": "Son règne dans ton cœur d'abord",
+     "texte": "Demande que Sa crainte s'installe profondément en toi. Que Dieu soit vraiment Roi dans tes pensées, tes désirs, tes ambitions. Demande-Lui de détrôner tout ce qui occupe Sa place. (Proverbes 8:13)"
+    },
+    {
+     "titre": "Son règne dans ta maison",
+     "texte": "Intercède pour que la justice, la paix et la joie du Saint-Esprit règnent concrètement dans ton foyer. Nomme chaque membre de ta famille devant Dieu. (Romains 14:17 ; Jos 24:15)"
+    },
+    {
+     "titre": "Son règne sur les âmes perdues",
+     "texte": "Prie pour les personnes de ton entourage qui ne connaissent pas encore Jésus. Demande au Saint-Esprit de les convaincre de leur besoin de salut. (Jean 16:8)"
+    },
+    {
+     "titre": "Son règne dans Son Église",
+     "texte": "Intercède pour ton pasteur et les serviteurs de Dieu. Demande que ce soit le règne de Dieu — et non les ambitions humaines — qui gouverne le ministère. (Éphésiens 6:19)"
+    },
+    {
+     "titre": "Son règne dans les lieux de pouvoir",
+     "texte": "Intercède pour que la crainte de Dieu entre dans le cœur des responsables de ta ville et de ta nation. Que leurs décisions soient influencées par Sa justice. (Proverbes 21:1)"
+    },
+    {
+     "titre": "Son règne dans les lieux d'influence",
+     "texte": "Prie pour que la lumière du règne de Dieu pénètre dans les écoles, les hôpitaux, les médias et tous les espaces publics. (Matthieu 5:14-16)"
+    },
+    {
+     "titre": "Son règne par le réveil",
+     "texte": "Intercède pour que Dieu envoie un réveil authentique dans ton pays. Que les familles brisées se réconcilient et que la jeunesse soit saisie par Dieu. (2 Chroniques 7:14)"
+    }
+   ]
+  },
+  {
+   "num": "3",
+   "titre": "Que Ta Volonté soit faite",
+   "sous_titre": "Mt 6:10",
+   "texte": "Ce n'est pas une prière de résignation — c'est une prière de confiance totale. C'est dire à Dieu : Tu connais mieux que moi ce dont j'ai besoin. Remettre ta journée entre les mains du seul qui voit la fin depuis le commencement. (Proverbes 3:5-6)",
+   "sujets": [
+    {
+     "titre": "Sa volonté sur ta journée",
+     "texte": "Avant de planifier quoi que ce soit, remets cette journée à Dieu. Dis-Lui que tu veux que Ses plans à Lui l'emportent sur les tiens. (Proverbes 16:9 ; Jacques 4:13-15)"
+    },
+    {
+     "titre": "Sa volonté dans tes décisions",
+     "texte": "Demande au Saint-Esprit de guider chaque décision que tu prendras aujourd'hui. Prie pour ne pas avancer par ta seule intelligence mais pour reconnaître Sa voix. (Proverbes 3:5-6)"
+    },
+    {
+     "titre": "Sa volonté sur les portes",
+     "texte": "Intercède pour que Dieu ferme avec force les portes qui ne viennent pas de Lui et qu'Il ouvre celles que Lui seul peut ouvrir. Dis-Lui que tu acceptes Son calendrier. (Apocalypse 3:7-8)"
+    },
+    {
+     "titre": "Sa volonté dans ta souplesse",
+     "texte": "Demande au Seigneur de te rendre souple entre Ses mains. Prie pour être comme l'argile entre les mains du potier — sans résistance, sans entêtement, prêt à obéir. (Jérémie 18:6)"
+    },
+    {
+     "titre": "Sa volonté dans les affaires des nations",
+     "texte": "Intercède pour que la volonté de Dieu s'accomplisse dans les décisions importantes que les autorités prendront aujourd'hui. (Proverbes 21:1)"
+    }
+   ]
+  },
+  {
+   "num": "4",
+   "titre": "Donne-nous notre pain",
+   "sous_titre": "Mt 6:11",
+   "texte": "Dieu n'est pas trop grand pour tes petits besoins. Il est ton Père — et un père prend soin de ses enfants dans les détails. Sois précis. Nomme ce dont tu as besoin. (Philippiens 4:6)",
+   "sujets": [
+    {
+     "titre": "La vie dans ton corps",
+     "texte": "Demande que Sa vie circule dans chaque partie de ton corps ce matin. Nomme les parties qui ont besoin de Sa touche — ta tête, tes yeux, ton cœur, tes os. (3 Jean 1:2)"
+    },
+    {
+     "titre": "La santé de ta famille",
+     "texte": "Intercède pour la santé de chaque membre de ta famille. Nomme-les un par un devant Dieu. Demande-Lui d'éloigner la maladie de chacun. (Exode 23:25)"
+    },
+    {
+     "titre": "La couverture angélique",
+     "texte": "Demande à Dieu de déployer Ses anges autour de toi et de chaque membre de ta famille durant toute cette journée. (Psaume 91:11)"
+    },
+    {
+     "titre": "La protection sur les routes",
+     "texte": "Prie pour tous ceux de ta famille qui prendront la route aujourd'hui. Nomme chaque personne et chaque trajet. (Psaume 91:12)"
+    },
+    {
+     "titre": "Les besoins du jour",
+     "texte": "Présente à Dieu tes besoins financiers concrets de cette journée. Sois précis. Nomme les montants si tu les connais. Dieu n'est pas gêné par les détails. (Philippiens 4:19)"
+    },
+    {
+     "titre": "La sagesse et la faveur divine",
+     "texte": "Demande que Sa sagesse t'accompagne dans chaque tâche de cette journée. Intercède pour que la faveur de Dieu t'entoure comme un bouclier. (Jacques 1:5 ; Psaume 5:13)"
+    }
+   ]
+  },
+  {
+   "num": "5",
+   "titre": "Pardonne nos offenses",
+   "sous_titre": "Mt 6:12",
+   "texte": "La repentance n'est pas une formalité — c'est la condition du canal ouvert. Cette phase demande de l'honnêteté. Dieu sait déjà tout — Il attend que tu Le reconnaisses toi-même. Il y a de la grâce pour tout ce que tu confesses. (1 Jean 1:9)",
+   "sujets": [
+    {
+     "titre": "L'orgueil",
+     "texte": "Confesse les moments où tu t'es cru supérieur aux autres, où tu t'es appuyé sur toi-même. Nomme les situations précises. Demande-Lui l'humilité de Christ. (Philippiens 2:3-5)"
+    },
+    {
+     "titre": "Les murmures et les plaintes",
+     "texte": "Dis à Dieu les moments où tu as murmuré contre ta situation, contre Sa manière de conduire ta vie. Confesse le manque de confiance que ces murmures révèlent. (Philippiens 2:14)"
+    },
+    {
+     "titre": "Le relâchement spirituel",
+     "texte": "Confesse les jours sans prière, les semaines sans Bible, le temps donné aux autres choses au détriment de ta relation avec Lui. Sois précis. (Luc 18:1)"
+    },
+    {
+     "titre": "L'amertume et le refus de pardonner",
+     "texte": "Nomme la personne concernée. Dis à Dieu que tu pardonnes — pour les paroles blessantes, le mal, la trahison. Demande la grâce de pardonner comme Christ t'a pardonné. (Éphésiens 4:31-32)"
+    },
+    {
+     "titre": "La souillure par les yeux",
+     "texte": "Confesse ce que tu as regardé qui ne t'était pas permis — sur le téléphone, la télévision, internet. Réclame la purification par le Sang de Jésus. (1 Jean 1:7)"
+    },
+    {
+     "titre": "Le doute et l'incrédulité",
+     "texte": "Confesse à Dieu les moments où tu as regardé ta situation plutôt que Sa Parole. Demande que ta foi soit renouvelée là où elle a faibli. (Marc 9:24)"
+    },
+    {
+     "titre": "Les fautes héritées de la lignée",
+     "texte": "Demande à Dieu de te purifier de toute faute héritée de ta lignée. Réclame par le Sang de Jésus la rupture de toute réclamation des ténèbres. (Galates 3:13)"
+    }
+   ]
+  },
+  {
+   "num": "6",
+   "titre": "Ne nous soumets pas à la tentation",
+   "sous_titre": "Mt 6:13",
+   "texte": "Ce n'est pas demander à Dieu de supprimer toutes les épreuves. C'est demander à Dieu de te fortifier là où tu es faible avant que l'ennemi ne frappe. L'ennemi connaît tes zones de vulnérabilité. (1 Corinthiens 10:12-13)",
+   "sujets": [
+    {
+     "titre": "La sortie de secours",
+     "texte": "Dis à Dieu que tu sais que les tentations viendront aujourd'hui. Demande-Lui de préparer une sortie de secours face à chaque tentation. Rappelle-Lui Sa promesse. (1 Corinthiens 10:13)"
+    },
+    {
+     "titre": "La vigilance du Saint-Esprit",
+     "texte": "Demande au Saint-Esprit de te rendre capable de reconnaître les pièges de l'ennemi. Que ton discernement soit tellement aiguisé que tu voies le piège pour l'éviter. (1 Pierre 5:8)"
+    },
+    {
+     "titre": "La puissance sur la chair",
+     "texte": "Confesse tes zones de faiblesse charnelle. Nomme-les. Demande que la puissance du Saint-Esprit soit plus forte que la faiblesse de ta chair. (Romains 8:13)"
+    },
+    {
+     "titre": "Les mauvaises fréquentations",
+     "texte": "Demande à Dieu de te garder loin des personnes et situations qui t'éloignent de Lui. Nomme les fréquentations qui t'affaiblissent spirituellement. (Proverbes 13:20)"
+    },
+    {
+     "titre": "La tentation de l'orgueil après une victoire",
+     "texte": "Prie pour ne pas tomber dans l'orgueil après une bénédiction ou une victoire spirituelle. Que Dieu te garde humble précisément dans les moments où tu te sens fort. (1 Corinthiens 10:12)"
+    }
+   ]
+  },
+  {
+   "num": "7",
+   "titre": "Délivre-nous du Malin",
+   "sous_titre": "Mt 6:13",
+   "texte": "C'est l'heure du combat. Tu as adoré, intercédé, confessé. Maintenant tu prends autorité. Lève-toi si tu le peux. Parle à voix haute. Tu t'adresses aux puissances spirituelles au Nom de Jésus-Christ. (Philippiens 2:9-10)",
+   "sujets": [
+    {
+     "titre": "Le Sang de Jésus sur ta vie",
+     "texte": "Applique par la foi le Sang précieux de Jésus-Christ sur ta vie, ta tête, ta maison et chaque membre de ta famille. Déclare que ce Sang est une frontière infranchissable. (Exode 12:13)"
+    },
+    {
+     "titre": "L'aurore commandée",
+     "texte": "Par la voix de Dieu qui a établi l'aurore, ordonne à cette matinée de secouer tous les plans mauvais tramés dans les ténèbres. Ce que l'ennemi a programmé cette nuit s'effondre à la lumière de ce matin. (Job 38:12-13)"
+    },
+    {
+     "titre": "Les incantations et invocations",
+     "texte": "Déclare que quiconque est assis en ce moment dans un lieu d'incantation contre toi : leur bouche est scellée, leurs mains paralysées et leurs plans retournés contre eux-mêmes. (És 54:14-17)"
+    },
+    {
+     "titre": "Les forteresses mentales",
+     "texte": "Par l'épée de la Parole de Dieu, renverse toute forteresse de découragement, de peur, d'incrédulité et de pensées négatives. Capture toute pensée rebelle à l'obéissance de Christ. (2 Corinthiens 10:4-5)"
+    },
+    {
+     "titre": "Les chaînes de la stagnation",
+     "texte": "Par la voix de l'Éternel, brise toute chaîne de stagnation qui retient tes projets et ta destinée. Déclare que les portes d'airain sont brisées et les verrous de fer rompus. (És 45:2)"
+    },
+    {
+     "titre": "Les cycles de malédictions",
+     "texte": "Tranche tout cycle de malédictions dans ta lignée — la pauvreté répétée, les mariages brisés, les maladies héréditaires. Déclare que la bénédiction d'Abraham est sur ta vie. (Galates 3:13-14)"
+    },
+    {
+     "titre": "L'esprit de mort prématurée",
+     "texte": "Brise tout esprit de mort prématurée envoyé contre ta vie et contre chaque membre de ta famille. Nomme chaque personne. Déclare qu'ils vivront et non qu'ils mourront. (Psaume 118:17)"
+    }
+   ]
+  },
+  {
+   "num": "8",
+   "titre": "Action de grâce",
+   "sous_titre": "Mt 6:13",
+   "texte": "Ne sors jamais d'un temps de prière comme quelqu'un qui n'a rien reçu. Ferme ce temps comme un vainqueur. La foi ne remercie pas après avoir vu — elle remercie avant de voir. (1 Thessaloniciens 5:18)",
+   "sujets": [
+    {
+     "titre": "Le souffle de cette matinée",
+     "texte": "Remercie Dieu pour ce souffle de vie qu'Il t'a accordé ce matin. Dis-Lui que tu sais que ce n'est pas une chose ordinaire. (Lamentations 3:22-23)"
+    },
+    {
+     "titre": "La protection de la nuit",
+     "texte": "Rends grâce à Dieu pour Sa protection sur ta vie et ta famille durant cette nuit. Son œil ne s'est pas fermé sur toi pendant que tu dormais. (Psaume 121:3-4)"
+    },
+    {
+     "titre": "Le partenariat du Saint-Esprit",
+     "texte": "Remercie le Saint-Esprit d'avoir été ton partenaire de prière ce matin. Sans Lui tu n'aurais pas su quoi dire ni comment le dire. (Romains 8:26-27)"
+    },
+    {
+     "titre": "Le Sang précieux de Jésus",
+     "texte": "Rends grâce pour le Sang de Jésus-Christ qui t'a donné le droit d'entrer dans le lieu très saint. Tu n'as rien mérité — c'est le Sang de Son Fils qui t'en a donné l'accès. (Hébreux 10:19-22)"
+    },
+    {
+     "titre": "Les portes qu'Il va ouvrir",
+     "texte": "Rends grâce à Dieu par anticipation pour les portes qu'Il va ouvrir aujourd'hui. Remercie-Le pour les miracles que tu ne découvriras qu'au soir. (Romains 8:28)"
+    },
+    {
+     "titre": "La victoire déjà remportée",
+     "texte": "Rends grâce à Dieu pour la victoire que tu viens de décréter dans la prière. Non pas parce que tu vas voir — mais parce que c'est fait. (1 Corinthiens 15:57)"
+    }
+   ]
+  }
+ ],
+ "proclamations": [
+  {
+   "titre": "Sur ma journée",
+   "texte": "Je décrète que ce matin les cieux s'ouvrent sur ma vie. La bénédiction de l'Éternel couvre chaque projet de mes mains, chaque décision de mon esprit, chaque pas de mes pieds. Je ne vivrai pas cette journée dans la peur — je la vivrai dans la paix et l'autorité de l'enfant de Dieu que je suis. Au Nom de Jésus-Christ. Amen. (Deutéronome 28:12 ; Jos 1:8)"
+  },
+  {
+   "titre": "Sur la nuit annulée",
+   "texte": "Par le Sang précieux de Jésus-Christ, tout ce que la nuit a apporté contre moi est annulé. Tout repas consommé dans mon sommeil est annulé. Tout lien formé, tout pacte signé dans les ténèbres est nul et non avenu. Je me lève libre, pur et entier. Aucune empreinte de la nuit ne demeure sur moi. (Apocalypse 12:11 ; 2 Corinthiens 5:17)"
+  },
+  {
+   "titre": "Sur ma famille",
+   "texte": "Je déclare que ma maison est bénie ce matin. Je passe le Sang de Jésus sur le linteau et sur les deux poteaux de ma porte — et l'ennemi ne passera pas. Mes enfants sont couverts par le Sang de Jésus. Aucun complot, aucune malédiction ne franchira le seuil de cette maison. Ma famille est dans la main de Dieu. (Exode 12:13 ; És 54:17)"
+  },
+  {
+   "titre": "Sur mon chemin",
+   "texte": "Je déclare que mes pieds sont ordonnés par l'Éternel en ce jour. Les anges de Dieu ont balisé mon chemin avant même que je sorte de cette maison. Tout accident, tout guet-apens préparé contre moi est annulé. J'arrive à ma destination en sécurité et avec la faveur de Dieu. (Psaume 91:11-12 ; Proverbes 3:23)"
+  },
+  {
+   "titre": "Sur mes finances",
+   "texte": "Je déclare que la bénédiction de l'Éternel est sur mes finances en ce jour. Les portes de la provision s'ouvrent. Le dévorateur est menacé et chassé. La pauvreté n'est pas mon héritage — Christ a été fait pauvre pour que je sois enrichi. Au Nom de Jésus. Amen. (Malachie 3:11 ; 2 Corinthiens 8:9)"
+  },
+  {
+   "titre": "Proclamation finale",
+   "texte": "Seigneur, cette journée T'appartient. Je la remets entre Tes mains. Conduis mes pas. Garde ma famille. Que Ta gloire soit vue sur ma vie aujourd'hui. Je sors de cette prière non pas comme quelqu'un qui espère — mais comme quelqu'un qui a déjà reçu. À Toi le règne. À Toi la puissance. À Toi la gloire. Au Nom de Jésus-Christ de Nazareth. Amen et Amen."
+  }
+ ],
+ "auteur": "L'Arsenal de la Sentinelle",
+ "autorisation": "oui",
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14"
+}
