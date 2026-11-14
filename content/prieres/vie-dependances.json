@@ -1,0 +1,52 @@
+{
+ "id": "priere-dependances",
+ "categorie": "Épreuves",
+ "ordre": 43,
+ "titre": "Pour être libéré d'une dépendance",
+ "nom_court": "Dépendances",
+ "image": "/assets/priere/priere-avec-larmes.webp",
+ "resume": "Sujets de prière : pour être libéré d'une dépendance.",
+ "enseignement": "Si le Fils vous affranchit, vous serez réellement libres (Jean 8:36). Alcool, drogue, tabac, jeux d'argent, pornographie, écrans : prions pour la délivrance, avec l'aide humaine nécessaire.",
+ "versets": [
+  "Jn 8:36",
+  "1 Co 10:13",
+  "Ga 5:1"
+ ],
+ "sujets": [
+  {
+   "titre": "La vérité",
+   "texte": "Prions afin que celui qui est dépendant reconnaisse sa dépendance sans la cacher. (Proverbes 28:13)"
+  },
+  {
+   "titre": "La délivrance",
+   "texte": "Au nom de Jésus, prions pour la délivrance de toute chaîne d'alcool, de drogue, de jeu ou d'impureté. (Jean 8:36 ; Luc 4:18)"
+  },
+  {
+   "titre": "La force de dire non",
+   "texte": "Prions afin que Dieu donne la sortie dans chaque tentation. (1 Corinthiens 10:13)"
+  },
+  {
+   "titre": "L'aide humaine",
+   "texte": "Prions afin que la personne accepte l'aide d'un médecin, d'un centre ou d'un accompagnateur. (Proverbes 11:14)"
+  },
+  {
+   "titre": "La guérison du corps",
+   "texte": "Prions pour la guérison des dommages causés au corps et à l'esprit. (Jérémie 30:17)"
+  },
+  {
+   "titre": "Les relations",
+   "texte": "Prions afin que les amitiés qui entraînent soient rompues. (Psaume 1:1)"
+  },
+  {
+   "titre": "La famille",
+   "texte": "Prions pour la famille blessée par la dépendance, pour le pardon et la patience. (Colossiens 3:13)"
+  },
+  {
+   "titre": "Rester libre",
+   "texte": "Prions afin que celui qui est libéré tienne ferme et ne se remette pas sous le joug. (Galates 5:1)"
+  }
+ ],
+ "auteur": "Yeshaya",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}

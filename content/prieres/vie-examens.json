@@ -1,0 +1,48 @@
+{
+ "id": "priere-examens",
+ "categorie": "Études et travail",
+ "ordre": 42,
+ "titre": "Avant un examen ou un concours",
+ "nom_court": "Examens",
+ "image": "/assets/famille-quotidien/mere-aide-aux-devoirs.webp",
+ "resume": "Sujets de prière : avant un examen ou un concours.",
+ "enseignement": "Si quelqu'un manque de sagesse, qu'il la demande à Dieu (Jacques 1:5). Dieu bénit le travail sérieux et donne la paix au jour de l'épreuve.",
+ "versets": [
+  "Jc 1:5",
+  "Dn 1:17",
+  "Ph 4:6-7"
+ ],
+ "sujets": [
+  {
+   "titre": "La sagesse",
+   "texte": "Prions afin que Dieu donne la sagesse et l'intelligence à ceux qui préparent leurs examens. (Jacques 1:5 ; Daniel 1:17)"
+  },
+  {
+   "titre": "La discipline",
+   "texte": "Prions pour la discipline dans les révisions, contre la paresse et les distractions. (Proverbes 6:6-8)"
+  },
+  {
+   "titre": "La mémoire",
+   "texte": "Demandons à Dieu de fortifier la mémoire et la concentration. (Jean 14:26)"
+  },
+  {
+   "titre": "L'intégrité",
+   "texte": "Prions afin que les élèves et étudiants refusent toute fraude et toute corruption. (Proverbes 11:3)"
+  },
+  {
+   "titre": "La paix",
+   "texte": "Prions afin que la paix de Dieu garde les cœurs et les pensées le jour de l'examen. (Philippiens 4:6-7)"
+  },
+  {
+   "titre": "Les correcteurs",
+   "texte": "Prions pour des correcteurs et des jurys justes. (Proverbes 21:1)"
+  },
+  {
+   "titre": "Quel que soit le résultat",
+   "texte": "Prions afin que chacun garde sa foi et sa valeur en Christ, quel que soit le résultat. (Romains 8:28)"
+  }
+ ],
+ "auteur": "Yeshaya",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}

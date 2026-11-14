@@ -1,0 +1,48 @@
+{
+ "id": "priere-persecutes",
+ "categorie": "Nation et Église",
+ "ordre": 44,
+ "titre": "Pour les chrétiens persécutés",
+ "nom_court": "Persécutés",
+ "image": "/assets/priere/priere-pour-le-monde.webp",
+ "resume": "Sujets de prière : pour les chrétiens persécutés.",
+ "enseignement": "Souvenez-vous des prisonniers, comme si vous étiez aussi prisonniers (Hébreux 13:3). Des millions de chrétiens souffrent pour leur foi. Prions pour eux.",
+ "versets": [
+  "He 13:3",
+  "Mt 5:10",
+  "Ap 2:10"
+ ],
+ "sujets": [
+  {
+   "titre": "La fidélité",
+   "texte": "Prions afin que les chrétiens persécutés restent fidèles jusqu'à la mort. (Apocalypse 2:10)"
+  },
+  {
+   "titre": "Les prisonniers",
+   "texte": "Prions pour les chrétiens en prison à cause de leur foi, pour leur santé et leur libération. (Hébreux 13:3)"
+  },
+  {
+   "titre": "Les convertis rejetés",
+   "texte": "Prions pour ceux qui sont rejetés par leur famille parce qu'ils ont cru en Jésus. (Marc 10:29-30)"
+  },
+  {
+   "titre": "L'assurance",
+   "texte": "Prions afin qu'ils annoncent la Parole avec pleine assurance. (Actes 4:29)"
+  },
+  {
+   "titre": "Les persécuteurs",
+   "texte": "Prions pour les persécuteurs, comme Jésus l'a demandé, afin qu'ils rencontrent Christ comme Saul. (Matthieu 5:44 ; Actes 9:4)"
+  },
+  {
+   "titre": "Les familles",
+   "texte": "Prions pour les veuves et les orphelins des martyrs. (Jacques 1:27)"
+  },
+  {
+   "titre": "Nous-mêmes",
+   "texte": "Prions afin que nous ne vivions pas une foi confortable pendant que nos frères souffrent. (1 Corinthiens 12:26)"
+  }
+ ],
+ "auteur": "Yeshaya",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}

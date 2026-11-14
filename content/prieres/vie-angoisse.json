@@ -1,0 +1,48 @@
+{
+ "id": "priere-angoisse",
+ "categorie": "Épreuves",
+ "ordre": 46,
+ "titre": "Dans la peur et l'angoisse",
+ "nom_court": "Angoisse",
+ "image": "/assets/priere/femme-en-priere.webp",
+ "resume": "Sujets de prière : dans la peur et l'angoisse.",
+ "enseignement": "Déchargez-vous sur lui de tous vos soucis, car lui-même prend soin de vous (1 Pierre 5:7). Pour les nuits sans sommeil, les crises d'angoisse et la peur de l'avenir.",
+ "versets": [
+  "1 P 5:7",
+  "Ph 4:6-7",
+  "Es 41:10"
+ ],
+ "sujets": [
+  {
+   "titre": "Déposer le fardeau",
+   "texte": "Déposons devant Dieu tous nos soucis, un par un, car il prend soin de nous. (1 Pierre 5:7)"
+  },
+  {
+   "titre": "La paix",
+   "texte": "Prions afin que la paix de Dieu, qui surpasse toute intelligence, garde nos cœurs. (Philippiens 4:7)"
+  },
+  {
+   "titre": "Ne crains rien",
+   "texte": "Proclamons que Dieu est avec nous, qu'il nous fortifie et nous soutient. (Ésaïe 41:10)"
+  },
+  {
+   "titre": "Le sommeil",
+   "texte": "Prions pour un sommeil paisible, car c'est l'Éternel qui nous fait reposer en sécurité. (Psaume 4:9)"
+  },
+  {
+   "titre": "Les pensées",
+   "texte": "Prions afin de penser à ce qui est vrai, honorable et juste. (Philippiens 4:8)"
+  },
+  {
+   "titre": "L'aide",
+   "texte": "Prions afin que celui qui souffre d'angoisse profonde accepte aussi une aide médicale ou un accompagnement. (Proverbes 12:25)"
+  },
+  {
+   "titre": "Un jour à la fois",
+   "texte": "Demandons la grâce de vivre un jour à la fois, sans porter demain. (Matthieu 6:34)"
+  }
+ ],
+ "auteur": "Yeshaya",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}

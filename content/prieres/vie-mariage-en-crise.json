@@ -1,0 +1,52 @@
+{
+ "id": "priere-mariage-en-crise",
+ "categorie": "Couple et famille",
+ "ordre": 41,
+ "titre": "Pour un mariage en crise",
+ "nom_court": "Mariage en crise",
+ "image": "/assets/famille-quotidien/couple-en-priere.webp",
+ "resume": "Sujets de prière : pour un mariage en crise.",
+ "enseignement": "Que l'homme ne sépare pas ce que Dieu a joint (Marc 10:9). Prions pour les couples qui traversent la tempête : disputes, infidélité, silence, menace de divorce.",
+ "versets": [
+  "Mc 10:9",
+  "Ec 4:12",
+  "Ep 4:32"
+ ],
+ "sujets": [
+  {
+   "titre": "Dieu au centre",
+   "texte": "Prions afin que l'Éternel redevienne le bâtisseur de ce foyer, car sans lui on travaille en vain. (Psaume 127:1)"
+  },
+  {
+   "titre": "Le pardon",
+   "texte": "Prions afin que chacun pardonne à l'autre comme Dieu lui a pardonné en Christ. (Éphésiens 4:32)"
+  },
+  {
+   "titre": "La fidélité",
+   "texte": "Demandons à Dieu de briser toute relation adultère et de garder le lit conjugal pur. (Hébreux 13:4 ; Malachie 2:15)"
+  },
+  {
+   "titre": "La parole douce",
+   "texte": "Prions afin que les paroles dures soient remplacées par des réponses douces qui calment la fureur. (Proverbes 15:1)"
+  },
+  {
+   "titre": "Ma propre repentance",
+   "texte": "Demandons à Dieu de nous montrer d'abord la poutre dans notre œil avant de reprocher à l'autre. (Matthieu 7:5)"
+  },
+  {
+   "titre": "Les enfants",
+   "texte": "Prions pour la protection des enfants au milieu de la crise. (Malachie 4:6)"
+  },
+  {
+   "titre": "Un bon conseil",
+   "texte": "Prions afin que ce couple accepte l'aide d'un pasteur ou d'un conseiller sage. (Proverbes 15:22)"
+  },
+  {
+   "titre": "Le cordon à trois fils",
+   "texte": "Prions afin que Christ soit le troisième fil qui tient le couple. (Ecclésiaste 4:12)"
+  }
+ ],
+ "auteur": "Yeshaya",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}

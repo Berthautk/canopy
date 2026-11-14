@@ -1,0 +1,44 @@
+{
+ "id": "priere-veuves-orphelins",
+ "categorie": "Couple et famille",
+ "ordre": 48,
+ "titre": "Pour les veuves et les orphelins",
+ "nom_court": "Veuves et orphelins",
+ "image": "/assets/famille-quotidien/consolation-deuil.webp",
+ "resume": "Sujets de prière : pour les veuves et les orphelins.",
+ "enseignement": "La religion pure, c'est de visiter les orphelins et les veuves dans leurs afflictions (Jacques 1:27). Dieu est le père des orphelins et le défenseur des veuves.",
+ "versets": [
+  "Jc 1:27",
+  "Ps 68:6",
+  "Dt 10:18"
+ ],
+ "sujets": [
+  {
+   "titre": "Dieu, père des orphelins",
+   "texte": "Proclamons que Dieu est le père des orphelins et le défenseur des veuves. (Psaume 68:6)"
+  },
+  {
+   "titre": "La consolation",
+   "texte": "Prions pour la consolation de ceux qui ont perdu un mari, une femme, un père ou une mère. (2 Corinthiens 1:3-4)"
+  },
+  {
+   "titre": "Contre la spoliation",
+   "texte": "Prions contre ceux qui dépouillent les veuves et les orphelins de leurs biens et de leur héritage. (Ésaïe 1:17 ; Proverbes 23:10)"
+  },
+  {
+   "titre": "Les rites humiliants",
+   "texte": "Prions afin que les veuves soient libérées des rites de veuvage qui humilient et asservissent. (Galates 5:1)"
+  },
+  {
+   "titre": "La provision",
+   "texte": "Prions pour la nourriture, la scolarité et la santé des orphelins. (Deutéronome 10:18)"
+  },
+  {
+   "titre": "L'église",
+   "texte": "Prions afin que l'église visite et soutienne concrètement les veuves et les orphelins. (Jacques 1:27 ; Actes 6:1)"
+  }
+ ],
+ "auteur": "Yeshaya",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}

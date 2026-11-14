@@ -1,0 +1,48 @@
+{
+ "id": "priere-autorites",
+ "categorie": "Nation et Église",
+ "ordre": 49,
+ "titre": "Pour les autorités",
+ "nom_court": "Autorités",
+ "image": "/assets/priere/priere-pour-la-nation.webp",
+ "resume": "Sujets de prière : pour les autorités.",
+ "enseignement": "J'exhorte à faire des prières pour les rois et pour tous ceux qui sont élevés en dignité, afin que nous menions une vie paisible (1 Timothée 2:1-2).",
+ "versets": [
+  "1 Tm 2:1-2",
+  "Pr 21:1",
+  "Pr 14:34"
+ ],
+ "sujets": [
+  {
+   "titre": "Le président et le gouvernement",
+   "texte": "Prions pour le chef de l'État et les ministres, afin qu'ils gouvernent avec sagesse et justice. (1 Timothée 2:1-2)"
+  },
+  {
+   "titre": "Le cœur des dirigeants",
+   "texte": "Prions afin que le cœur des dirigeants soit dans la main de l'Éternel. (Proverbes 21:1)"
+  },
+  {
+   "titre": "Contre la corruption",
+   "texte": "Prions contre la corruption dans l'administration, la police, la justice et les écoles. (Proverbes 29:4)"
+  },
+  {
+   "titre": "La paix",
+   "texte": "Prions pour la paix, la sécurité et la fin des violences dans notre pays. (Psaume 122:7)"
+  },
+  {
+   "titre": "La justice",
+   "texte": "Prions afin que la justice élève notre nation. (Proverbes 14:34)"
+  },
+  {
+   "titre": "Les élections",
+   "texte": "Prions pour des élections libres, justes et pacifiques. (Daniel 2:21)"
+  },
+  {
+   "titre": "Les chrétiens en politique",
+   "texte": "Prions pour les chrétiens qui servent dans l'État, afin qu'ils restent intègres comme Daniel. (Daniel 6:4)"
+  }
+ ],
+ "auteur": "Yeshaya",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}

@@ -1,0 +1,48 @@
+{
+ "id": "priere-musulmans",
+ "categorie": "Salut et évangélisation",
+ "ordre": 45,
+ "titre": "Pour nos voisins musulmans",
+ "nom_court": "Musulmans",
+ "image": "/assets/personnages/femme-voilee-regard-ciel.webp",
+ "resume": "Sujets de prière : pour nos voisins musulmans.",
+ "enseignement": "Dieu veut que tous les hommes soient sauvés et parviennent à la connaissance de la vérité (1 Timothée 2:4). Prions avec amour pour nos voisins, collègues et parents musulmans.",
+ "versets": [
+  "1 Tm 2:4",
+  "Jn 14:6",
+  "2 Co 4:6"
+ ],
+ "sujets": [
+  {
+   "titre": "L'amour",
+   "texte": "Prions afin que les chrétiens aiment leurs voisins musulmans en actes et en vérité. (1 Jean 3:18)"
+  },
+  {
+   "titre": "La lumière",
+   "texte": "Prions afin que Dieu fasse briller dans leur cœur la connaissance de sa gloire sur la face de Christ. (2 Corinthiens 4:6)"
+  },
+  {
+   "titre": "Les songes et les rencontres",
+   "texte": "Demandons à Dieu de se révéler à eux par sa Parole, par des rencontres et même par des songes, comme il l'a fait pour Corneille. (Actes 10:3-6)"
+  },
+  {
+   "titre": "L'Évangile lu",
+   "texte": "Prions afin qu'ils aient accès à l'Évangile et le lisent dans leur langue. (Romains 10:17)"
+  },
+  {
+   "titre": "Les convertis",
+   "texte": "Prions pour la protection et l'affermissement de ceux qui viennent de l'islam à Christ. (Jean 17:15)"
+  },
+  {
+   "titre": "Des témoins sages",
+   "texte": "Prions afin que nous soyons prêts à répondre avec douceur et respect. (1 Pierre 3:15)"
+  },
+  {
+   "titre": "La paix entre les communautés",
+   "texte": "Prions pour la paix et contre la violence religieuse dans notre pays. (Romains 12:18)"
+  }
+ ],
+ "auteur": "Yeshaya",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}

@@ -1,0 +1,48 @@
+{
+ "id": "priere-injustice",
+ "categorie": "Épreuves",
+ "ordre": 47,
+ "titre": "Face à une injustice ou un procès",
+ "nom_court": "Injustice",
+ "image": "/assets/objets-bibliques/tables-de-la-loi.webp",
+ "resume": "Sujets de prière : face à une injustice ou un procès.",
+ "enseignement": "L'Éternel fait droit aux opprimés (Psaume 146:7). Pour ceux qui sont accusés à tort, spoliés de leur terrain, licenciés injustement ou engagés dans un procès.",
+ "versets": [
+  "Ps 146:7",
+  "Rm 12:19",
+  "Pr 21:1"
+ ],
+ "sujets": [
+  {
+   "titre": "Le juste Juge",
+   "texte": "Remettons notre cause à Dieu, qui juge justement. (1 Pierre 2:23)"
+  },
+  {
+   "titre": "La vérité",
+   "texte": "Prions afin que la vérité éclate et que le mensonge soit confondu. (Psaume 37:5-6)"
+  },
+  {
+   "titre": "Les juges et les autorités",
+   "texte": "Prions afin que le cœur des juges soit dans la main de l'Éternel. (Proverbes 21:1)"
+  },
+  {
+   "titre": "Pas de vengeance",
+   "texte": "Prions pour être gardés de la vengeance et de l'amertume. (Romains 12:19)"
+  },
+  {
+   "titre": "Les avocats et les témoins",
+   "texte": "Prions pour des avocats compétents et honnêtes, et pour des témoins qui disent la vérité. (Exode 23:1)"
+  },
+  {
+   "titre": "La paix",
+   "texte": "Prions pour la paix du cœur pendant l'attente du jugement. (Psaume 37:7)"
+  },
+  {
+   "titre": "La réconciliation",
+   "texte": "Prions, si c'est possible, pour un arrangement juste et pour la paix avec l'adversaire. (Matthieu 5:25 ; Romains 12:18)"
+  }
+ ],
+ "auteur": "Yeshaya",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}
