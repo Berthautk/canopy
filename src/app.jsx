@@ -31,6 +31,7 @@ import { Outil } from './ecrans/evangeliser/Outil.jsx';
 import { Approche } from './ecrans/evangeliser/Approche.jsx';
 import { Admin } from './ecrans/Admin.jsx';
 import { Equilibre } from './ecrans/Equilibre.jsx';
+import { OrizonAccueil, OrizonDoc, OrizonJour } from './ecrans/orizon/Orizon.jsx';
 import { suivreRubrique } from './donnees/rythme.js';
 import { CheminFoi, NiveauChemin } from './ecrans/jeux/Chemin.jsx';
 import { Confidentialite, VERSION_POLITIQUE } from './ecrans/Confidentialite.jsx';
@@ -62,6 +63,7 @@ function titre([a, b, c]) {
   if (a === 'a-propos') return 'À propos de Yeshaya';
   if (a === 'admin') return 'Espace administrateur';
   if (a === 'equilibre') return 'Mon équilibre avec Dieu';
+  if (a === 'orizon') return b === 'jour' ? 'ORIZON · Jour ' + c : 'ORIZON · Vaincre en 90 jours';
   if (a === 'confidentialite') return 'Confidentialité';
   if (a === 'priere' && b === 'demander') return 'Demander la prière';
   if (a === 'jouer') return {
@@ -96,6 +98,7 @@ function Ecran({ r }) {
   if (a === 'parametres') return <Parametres />;
   if (a === 'admin') return <Admin />;
   if (a === 'equilibre') return <Equilibre modifier={b === 'modifier'} />;
+  if (a === 'orizon') return b === 'jour' ? <OrizonJour j={c} /> : b === 'doc' ? <OrizonDoc id={c} /> : <OrizonAccueil />;
   if (a === 'confidentialite') return <Confidentialite />;
   if (a === 'a-propos') return <APropos />;
   if (a === 'telechargements') return <Telechargements />;

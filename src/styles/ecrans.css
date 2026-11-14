@@ -566,3 +566,25 @@
 .courbe__point { fill: var(--or-fonce, #b8860b); stroke: var(--surface); stroke-width: 2; }
 .courbe figcaption { font-size: .8rem; color: var(--texte-doux); display: flex; justify-content: space-between; margin-top: 4px; }
 .courbe figcaption b { color: var(--titre); }
+
+/* ORIZON · Vaincre en 90 jours */
+.orizon-hero { margin: 12px 0; padding: 18px 16px; border-radius: var(--rayon); background: linear-gradient(135deg, #0f1f38, #23406b); color: #fff; text-align: center; }
+.orizon-hero h2 { color: #fff; margin: 4px 0 8px; }
+.orizon-hero__marque { letter-spacing: 4px; font-weight: 700; color: var(--or); margin: 0; font-size: .85rem; }
+.orizon-hero__verset { font-style: italic; color: #ffe08a; margin: 8px 0 0; }
+.orizon-grille { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; }
+.orizon-case { aspect-ratio: 1; border-radius: 10px; display: grid; place-items: center; font-weight: 700; text-decoration: none; font-size: .9rem; }
+.orizon-case--structure { background: #23406b; color: #fff; }
+.orizon-case--pratique { background: var(--surface-2, #f1ebe0); color: var(--titre); border: 1px solid var(--bord); }
+.orizon-case--sabbat { background: #fff3c4; color: #5a4400; }
+.orizon-case--fait { background: #2e9d5b !important; color: #fff !important; }
+.orizon-case--courant { outline: 3px solid var(--or); outline-offset: 2px; }
+.orizon-jour__phase { color: var(--or-fonce); font-weight: 600; margin: 14px 4px 2px; font-size: .85rem; }
+.orizon-jour__titre { margin: 0 4px 8px; }
+.orizon-texte .orizon-p { line-height: 1.65; margin: 0 4px 12px; }
+.orizon-sous { margin: 22px 4px 8px; color: var(--titre); font-size: 1.05rem; border-bottom: 2px solid var(--or); padding-bottom: 4px; }
+.orizon-li { line-height: 1.6; margin: 0 4px 8px; padding-left: 14px; border-left: 3px solid var(--or); }
+.orizon-cit { margin: 10px 4px 14px; padding: 10px 14px; background: var(--surface); border-radius: 10px; font-style: italic; line-height: 1.6; border-left: 4px solid var(--or-fonce); }
+.orizon-journal { margin: 0 0 12px; }
+.orizon-journal textarea { margin-top: 4px; }
+.orizon-nav { display: flex; justify-content: space-between; gap: 6px; margin: 14px 0; }

@@ -4,7 +4,7 @@ import { urlAudio } from './config.js';
 // Ces fichiers ne contiennent que des RÉFÉRENCES bibliques : le texte est toujours lu dans la Bible LSG 1910.
 import INDEX_ENSEIGNEMENTS from 'virtual:enseignements-index';
 // Les enseignements ne sont pas chargés ici (voir INDEX_ENSEIGNEMENTS et chargerEnseignement) : seuls les autres contenus le sont.
-const fichiers = import.meta.glob(['/content/**/*.json', '!/content/_modeles/**', '!/content/enseignements/**'], { eager: true, import: 'default' });
+const fichiers = import.meta.glob(['/content/**/*.json', '!/content/_modeles/**', '!/content/enseignements/**', '!/content/orizon/**'], { eager: true, import: 'default' });
 const corpsEnseignements = import.meta.glob('/content/enseignements/**/*.json', { import: 'default' });   // un fichier séparé par enseignement
 const dossier = (d) => Object.entries(fichiers).filter(([k]) => k.startsWith(`/content/${d}/`)).map(([, v]) => v);
 
@@ -35,6 +35,9 @@ export function veilleDuMoment(d = new Date()) {
 }
 export const QUIZ = dossier('quiz').sort((a, b) => a.theme.localeCompare(b.theme, 'fr'));
 export const QUI_SUIS_JE = fichiers['/content/jeux/qui-suis-je.json']?.personnages ?? [];
+export const ORIZON = fichiers['/content/orizon-index.json'];
+const corpsOrizon = import.meta.glob('/content/orizon/*.json', { import: 'default' });   // texte du parcours, chargé à l'ouverture
+export const chargerOrizon = (nom) => corpsOrizon[`/content/orizon/${nom}.json`]?.() ?? Promise.reject(new Error('introuvable'));
 export const NIVEAUX_CHEMIN = fichiers['/content/jeux/chemin-de-la-foi.json']?.niveaux ?? [];
 export const HISTOIRES = fichiers['/content/jeux/remets-dans-l-ordre.json']?.histoires ?? [];
 

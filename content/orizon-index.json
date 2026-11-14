@@ -1,0 +1,320 @@
+{
+ "titre": "ORIZON GUIDE — Vaincre en 90 jours",
+ "sous_titre": "Le plan chrétien pour briser la pornographie et la masturbation, même après plusieurs échecs",
+ "auteur": "Orizon Guide (ministère indépendant)",
+ "contact": "porteursdebonnenouvelle@gmail.com",
+ "documents": [
+  {
+   "id": "avant-propos",
+   "titre": "Avant-propos",
+   "groupe": "debut"
+  },
+  {
+   "id": "avertissement",
+   "titre": "Avertissement de l'auteur — Un contrat avec toi-même",
+   "groupe": "debut"
+  },
+  {
+   "id": "introduction",
+   "titre": "Introduction — Tu n'es pas seul(e), et ce n'est pas une fatalité",
+   "groupe": "debut"
+  },
+  {
+   "id": "chapitre-1",
+   "titre": "Chapitre 1 — Pourquoi la pureté sexuelle est un combat, pas une option",
+   "groupe": "fondations"
+  },
+  {
+   "id": "chapitre-2",
+   "titre": "Chapitre 2 — Comprendre le cycle de l'addiction (grâce et discipline)",
+   "groupe": "fondations"
+  },
+  {
+   "id": "chapitre-3",
+   "titre": "Chapitre 3 — La fondation : es-tu vraiment en Christ ?",
+   "groupe": "fondations"
+  },
+  {
+   "id": "chapitre-4",
+   "titre": "Chapitre 4 — Les vraies conséquences : ce que personne ne t'a dit",
+   "groupe": "fondations"
+  },
+  {
+   "id": "chapitre-5",
+   "titre": "Chapitre 5 — Maintenir la victoire : 7 habitudes à vie + 4 signaux d'alarme",
+   "groupe": "apres"
+  },
+  {
+   "id": "chapitre-6",
+   "titre": "Chapitre 6 — Rechuter sans désespérer, se relever sans traîner",
+   "groupe": "apres"
+  },
+  {
+   "id": "chapitre-7",
+   "titre": "Chapitre 7 — Devenir mentor pour un autre",
+   "groupe": "apres"
+  },
+  {
+   "id": "conclusion",
+   "titre": "Conclusion — Le guerrier, la guerrière que tu deviens",
+   "groupe": "apres"
+  },
+  {
+   "id": "faq",
+   "titre": "FAQ — Réponses aux questions qui reviennent",
+   "groupe": "apres"
+  },
+  {
+   "id": "annexe-1",
+   "titre": "Annexe 1 — Journal de bord (modèles)",
+   "groupe": "annexes"
+  },
+  {
+   "id": "annexe-2",
+   "titre": "Annexe 2 — Ressources recommandées",
+   "groupe": "annexes"
+  },
+  {
+   "id": "annexe-3",
+   "titre": "Annexe 3 — 30 versets de combat à mémoriser",
+   "groupe": "annexes"
+  },
+  {
+   "id": "annexe-4",
+   "titre": "Annexe 4 — 8 prières-types pour chaque type de tentation",
+   "groupe": "annexes"
+  }
+ ],
+ "jours": [
+  {
+   "jour": 1,
+   "titre": "Le pacte",
+   "accroche": "Aujourd'hui, devant Dieu, je choisis qui je sers."
+  },
+  {
+   "jour": 2,
+   "titre": "L'audit numérique",
+   "accroche": "Aujourd'hui, je coupe ce que Jésus m'a commandé d'arracher."
+  },
+  {
+   "jour": 3,
+   "titre": "Installer les verrous",
+   "accroche": "Aujourd'hui, je transforme ma maison en forteresse."
+  },
+  {
+   "jour": 4,
+   "titre": "Cartographier tes déclencheurs",
+   "accroche": "Aujourd'hui, je vois ce qui me fait tomber, avant qu'il ne me fasse tomber."
+  },
+  {
+   "jour": 5,
+   "titre": "Identifier ton frère, ta sœur de combat",
+   "accroche": "Aujourd'hui, je sors du combat solitaire qui m'a fait perdre pendant des années."
+  },
+  {
+   "jour": 6,
+   "titre": "La confession qui brise la honte",
+   "accroche": "Aujourd'hui, je sors mon péché de l'ombre — et l'ombre perd son pouvoir."
+  },
+  {
+   "jour": 7,
+   "titre": "Sabbat : repos et bilan de la Semaine 1",
+   "accroche": "Aujourd'hui, je m'arrête. Pour me souvenir d'où je viens et regarder où je vais."
+  },
+  {
+   "jour": 8,
+   "titre": "La routine matinale",
+   "accroche": "Aujourd'hui, je reprends mes premières heures à l'ennemi."
+  },
+  {
+   "jour": 9,
+   "titre": "Discipliner ton sommeil",
+   "accroche": "Aujourd'hui, je gagne mes nuits, parce que c'est là que je perdais mes journées."
+  },
+  {
+   "jour": 10,
+   "titre": "Le corps comme allié",
+   "accroche": "Aujourd'hui, je remets en mouvement un corps que la honte avait endormi."
+  },
+  {
+   "jour": 11,
+   "titre": "Gérer l'ennui et la solitude sans tomber",
+   "accroche": "Aujourd'hui, je cesse de fuir l'inconfort qui m'a tant fait tomber."
+  },
+  {
+   "jour": 12,
+   "titre": "Les amitiés à reconstruire",
+   "accroche": "Aujourd'hui, je redonne aux bonnes amitiés la place qu'elles auraient toujours dû avoir."
+  },
+  {
+   "jour": 13,
+   "titre": "Plan d'urgence : les 10 premières secondes",
+   "accroche": "Aujourd'hui, je décide à froid ce que je ferai à chaud."
+  },
+  {
+   "jour": 14,
+   "titre": "Sabbat : repos et bilan de la Semaine 2",
+   "accroche": "Aujourd'hui, je m'arrête. Pour mesurer la maison qui s'est élevée cette semaine."
+  },
+  {
+   "jour": 15,
+   "titre": "Revêtir toute l'armure de Dieu",
+   "accroche": "Aujourd'hui, je m'habille pour le combat dans lequel je suis déjà engagé(e)."
+  },
+  {
+   "jour": 16,
+   "titre": "Prier avec autorité",
+   "accroche": "Aujourd'hui, j'apprends à prier comme un enfant du Roi, pas comme un mendiant."
+  },
+  {
+   "jour": 17,
+   "titre": "La Sainte Cène, arme de guérison",
+   "accroche": "Aujourd'hui, je m'approche de la table comme on s'approche d'une source dans le désert."
+  },
+  {
+   "jour": 18,
+   "titre": "Le jeûne, arme oubliée du combat sexuel",
+   "accroche": "Aujourd'hui, je dis « non » à mon corps une fois, pour qu'il me dise « oui » mille fois."
+  },
+  {
+   "jour": 19,
+   "titre": "Mémoriser la Parole comme une épée",
+   "accroche": "Aujourd'hui, je grave dans mon cœur les versets qui me défendront mille fois."
+  },
+  {
+   "jour": 20,
+   "titre": "Ton identité : fils, fille du Roi",
+   "accroche": "Aujourd'hui, je cesse de me définir par mes chutes — et je reçois le nom que Dieu m'a donné."
+  },
+  {
+   "jour": 21,
+   "titre": "Détruire les forteresses mentales + Sabbat",
+   "accroche": "Aujourd'hui, je m'attaque à ce qui résiste encore en moi à Sa seigneurie — puis je m'arrête."
+  },
+  {
+   "jour": 22,
+   "titre": "Ta vision : l'homme, la femme de Dieu dans cinq ans",
+   "accroche": "Aujourd'hui, je projette ma liberté plus loin que mes peurs ne sont jamais allées."
+  },
+  {
+   "jour": 23,
+   "titre": "Sexualité rachetée : le projet de Dieu pour ton mariage, présent ou futur",
+   "accroche": "Aujourd'hui, je découvre la sexualité telle que Dieu l'a pensée — pas telle que la pornographie me l'a volée."
+  },
+  {
+   "jour": 24,
+   "titre": "Gérer la première vraie rechute",
+   "accroche": "Aujourd'hui, j'apprends ce qu'il faut faire si la chute arrive — pour qu'elle ne devienne pas la fin du parcours."
+  },
+  {
+   "jour": 25,
+   "titre": "Servir au lieu de consommer",
+   "accroche": "Aujourd'hui, je passe de receveur égocentré à serviteur — et ma chair perd un terrain qu'elle occupait depuis longtemps."
+  },
+  {
+   "jour": 26,
+   "titre": "Argent, pouvoir, sexe : les trois pièges à vie",
+   "accroche": "Aujourd'hui, je vois plus large que ma chute, pour ne plus être surpris(e) par les pièges qui suivront."
+  },
+  {
+   "jour": 27,
+   "titre": "Ton témoignage : ce que Dieu est en train de faire",
+   "accroche": "Aujourd'hui, je formule pour la première fois ce que Dieu a fait — et je me prépare à le porter pour d'autres."
+  },
+  {
+   "jour": 28,
+   "titre": "Sabbat : repos et bilan des 28 jours",
+   "accroche": "Aujourd'hui, je m'arrête. Pour mesurer la maison qui est désormais debout."
+  },
+  {
+   "jour": 29,
+   "titre": "Le pont-Preparer la phase 2",
+   "accroche": "Aujourd'hui, je prépare la transition — parce que l'intensité change, mais pas l'engagement."
+  },
+  {
+   "jour": 30,
+   "titre": "Engagement renouvelé et célébration",
+   "accroche": "Aujourd'hui, je marque ce jour comme un avant et un après — et je marche."
+  },
+  {
+   "jour": 31,
+   "titre": "Le plateau : quand la motivation retombe",
+   "accroche": "Aujourd'hui, j'apprends que la motivation n'est pas mon carburant — la discipline l'est."
+  },
+  {
+   "jour": 34,
+   "titre": "La solitude des jours non structurés",
+   "accroche": "Aujourd'hui, j'apprends à vivre un mardi ordinaire sans rail — et sans tomber."
+  },
+  {
+   "jour": 38,
+   "titre": "Le piège de la confiance excessive",
+   "accroche": "Aujourd'hui, j'apprends que le moment le plus dangereux n'est pas quand je me sens faible — c'est quand je me sens fort."
+  },
+  {
+   "jour": 41,
+   "titre": "Reconstruire ce que l'addiction a abîmé : les relations",
+   "accroche": "Aujourd'hui, je regarde en face ce que la pornographie a fait à mes relations — et je commence à réparer."
+  },
+  {
+   "jour": 45,
+   "titre": "Le jeûne prolongé : 24 heures avec Dieu",
+   "accroche": "Aujourd'hui, je consacre un jour entier au Seigneur — corps, âme, esprit."
+  },
+  {
+   "jour": 48,
+   "titre": "La Sainte Cène à mi-parcours",
+   "accroche": "Aujourd'hui, je reprends le pain et la coupe — non comme un rituel, mais comme un renouvellement d'alliance au milieu du chemin."
+  },
+  {
+   "jour": 52,
+   "titre": "L'épreuve de l'autonomie",
+   "accroche": "Aujourd'hui, je renonce à l'idée que je peux marcher seul(e) — même quand tout va bien."
+  },
+  {
+   "jour": 55,
+   "titre": "Bilan de mi-parcours : les 60 jours en vue",
+   "accroche": "Aujourd'hui, je m'arrête. Je mesure. Je remercie. Et je prépare la Phase 3."
+  },
+  {
+   "jour": 58,
+   "titre": "Préparer la Phase 3 : du combattant au porteur",
+   "accroche": "Aujourd'hui, je comprends que la meilleure défense contre la rechute, c'est de porter quelqu'un d'autre."
+  },
+  {
+   "jour": 60,
+   "titre": "Sabbat élargi : célébration et renouvellement",
+   "accroche": "Aujourd'hui est un jour sacré. Je m'arrête. Je célèbre. Et je passe le seuil de la Phase 3."
+  },
+  {
+   "jour": 61,
+   "titre": "Servir : l'arme que personne ne t'a enseignée",
+   "accroche": "Aujourd'hui, je découvre que la meilleure protection contre la rechute, c'est de donner ce que j'ai reçu."
+  },
+  {
+   "jour": 68,
+   "titre": "Ouvrir la porte pour un autre",
+   "accroche": "Aujourd'hui, je me prépare à être pour quelqu'un ce que mon frère/ma sœur de combat a été pour moi."
+  },
+  {
+   "jour": 75,
+   "titre": "L'homme, la femme que tu deviens",
+   "accroche": "Aujourd'hui, je lève les yeux au-delà des 90 jours — et je vois la personne que Dieu construit."
+  },
+  {
+   "jour": 82,
+   "titre": "Ton couple après l'addiction : reconstruire dans la vérité",
+   "accroche": "Aujourd'hui, je regarde mon couple en face — avec honnêteté, avec espérance, avec un plan."
+  },
+  {
+   "jour": 89,
+   "titre": "Veille d'armes : la dernière nuit avant le Jour 90",
+   "accroche": "Aujourd'hui, je me prépare à franchir le seuil — non comme une fin, mais comme un commencement."
+  },
+  {
+   "jour": 90,
+   "titre": "Engagement à vie et célébration",
+   "accroche": "Aujourd'hui, je marque ce jour comme un avant et un après — et je marche, libre, pour le restant de mes jours."
+  }
+ ]
+}

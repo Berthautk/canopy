@@ -42,6 +42,14 @@ export function Grandir() {
         </span>
         <Icone nom="chevron" taille={20} />
       </a>
+      <a class="carte parcours-carte" href="#/orizon" style="margin-bottom:10px">
+        <img src="/assets/temoignage/chaines-brisees.webp" alt="" />
+        <span class="ligne__corps">
+          <span class="ligne__titre" style="display:block">ORIZON · Vaincre en 90 jours</span>
+          <span class="ligne__desc" style="display:block">Pornographie et masturbation : un défi quotidien d'enseignement et de prière.</span>
+        </span>
+        <Icone nom="chevron" taille={20} />
+      </a>
       <a class="carte parcours-carte" href="#/grandir/decouvrir-jesus" style="margin-bottom:10px">
         <img src="/assets/jesus/jesus-main-tendue.webp" alt="" />
         <span class="ligne__corps">
