@@ -6,7 +6,7 @@ import { textePassage } from '../bible/bible.js';
 import { pause as pauseAudio } from './lecteur.js';
 
 export const VITESSES_VOIX = [0.8, 1, 1.2];
-export const voix = signal({ id: null, index: 0, total: 0, lecture: false, termine: false, vitesse: 1, disponible: typeof speechSynthesis !== 'undefined', aucuneVoixFr: false });
+export const voix = signal({ id: null, index: 0, total: 0, lecture: false, termine: false, phrases: [], iPhrase: 0, mot: null, vitesse: 1, disponible: typeof speechSynthesis !== 'undefined', aucuneVoixFr: false });
 const maj = (c) => { voix.valeur = { ...voix.valeur, ...c }; };
 
 let blocs = [], phrases = [], iPhrase = 0, generation = 0;
@@ -49,6 +49,7 @@ async function lireBloc(i, g) {
   maj({ index: i, lecture: true });
   phrases = await preparerBloc(i); iPhrase = 0;
   if (g !== generation) return;
+  maj({ phrases, iPhrase: 0, mot: null });
   document.querySelector(`[data-voix="${i}"]`)?.scrollIntoView?.({ block: 'center', behavior: 'smooth' });
   direPhrase(i, g);
 }
@@ -57,6 +58,9 @@ function direPhrase(i, g) {
   if (g !== generation) return;
   if (iPhrase >= phrases.length) { lireBloc(i + 1, g); return; }
   const u = new SpeechSynthesisUtterance(phrases[iPhrase]);
+  maj({ iPhrase, mot: null });
+  // Mot prononcé (si la voix du téléphone le signale) : sert à colorer le texte au rythme de la voix.
+  u.onboundary = (e) => { if (g !== generation || e.name === 'sentence') return; maj({ mot: { debut: e.charIndex, longueur: e.charLength || 0 } }); };
   const v = voixFrancaise(); if (v) u.voice = v; u.lang = v?.lang || 'fr-FR'; u.rate = voix.valeur.vitesse;
   u.onend = () => { if (g !== generation) return; iPhrase++; direPhrase(i, g); };
   u.onerror = (e) => { if (g !== generation || e.error === 'interrupted' || e.error === 'canceled') return; iPhrase++; direPhrase(i, g); };

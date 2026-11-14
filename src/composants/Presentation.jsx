@@ -35,7 +35,9 @@ export function Presentation({ id, titre, diapos, fermer, finale, surEtape }) {
       <div class="priere-guidee__progres" aria-hidden="true"><span style={{ width: `${((k + (fini ? 1 : 0.5)) / diapos.length) * 100}%` }} /></div>
       <img class="diaporama__image" src={d.image} alt="" key={d.image + k} />
       <div class="priere-guidee__corps diaporama__texte">
-        {b.reference ? <VersetDiapo reference={b.reference} /> : <p class="priere-guidee__texte">{texte}</p>}
+        {b.reference && <EnteteVerset reference={b.reference} />}
+        {ici && v.phrases.length ? <TexteSuivi v={v} verset={!!b.reference} />
+          : b.reference ? <VersetDiapo reference={b.reference} /> : <p class="priere-guidee__texte">{texte}</p>}
       </div>
       {fini && derniere && finale}
       <div class="priere-guidee__commandes">
@@ -55,11 +57,26 @@ export function Presentation({ id, titre, diapos, fermer, finale, surEtape }) {
 
 // Pendant la lecture d'un verset, son texte (Bible LSG) s'affiche à l'écran.
 function VersetDiapo({ reference }) {
-  const etat = usePassage(reference), r = lireReference(reference);
+  const etat = usePassage(reference);
+  return <div class="diaporama__verset"><TextePassage etat={etat} /></div>;
+}
+
+function EnteteVerset({ reference }) {
+  const r = lireReference(reference);
+  return <p class="priere-guidee__etape">📖 {r ? ecrireReference(r) : reference}</p>;
+}
+
+// Texte lu, coloré au rythme de la voix : phrases déjà lues, phrase en cours (et mot prononcé quand la voix le permet).
+function TexteSuivi({ v, verset }) {
+  const mot = (p) => {
+    const m = v.mot; if (!m) return p;
+    let fin = m.longueur ? m.debut + m.longueur : p.slice(m.debut).search(/[\s,.;:!?]/);
+    if (!m.longueur) fin = fin < 0 ? p.length : m.debut + fin;
+    return <>{p.slice(0, m.debut)}<mark class="suivi__mot">{p.slice(m.debut, fin)}</mark>{p.slice(fin)}</>;
+  };
   return (
-    <div class="diaporama__verset">
-      <p class="priere-guidee__etape">📖 {r ? ecrireReference(r) : reference}</p>
-      <TextePassage etat={etat} />
-    </div>
+    <p class={'priere-guidee__texte suivi' + (verset ? ' suivi--verset' : '')}>
+      {v.phrases.map((p, i) => <span class={i < v.iPhrase ? 'suivi__lu' : i === v.iPhrase ? 'suivi__encours' : 'suivi__avenir'}>{i === v.iPhrase ? mot(p) : p} </span>)}
+    </p>
   );
 }

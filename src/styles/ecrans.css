@@ -603,3 +603,11 @@
 .temoignage-carte h3 { margin: 4px 0; }
 .diaporama__verset { text-align: center; }
 .diaporama__verset .verset__texte { color: #fff; font-size: 1.1rem; line-height: 1.6; }
+
+/* Texte suivi au rythme de la voix */
+.suivi span { transition: color .25s, background .25s; }
+.suivi__lu { color: #ffe08a; }
+.suivi__encours { color: #fff; background: rgba(224,179,36,.22); border-radius: 6px; box-decoration-break: clone; -webkit-box-decoration-break: clone; padding: 0 2px; }
+.suivi__avenir { color: rgba(255,255,255,.45); }
+.suivi__mot { background: #e0b324; color: #142340; border-radius: 4px; padding: 0 2px; }
+.suivi--verset { font-family: var(--police-verset, serif); font-style: italic; }
