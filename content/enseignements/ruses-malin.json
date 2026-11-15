@@ -1,115 +1,580 @@
 {
  "id": "enseignement-ruses-malin",
  "titre": "Détecter les ruses du Malin",
- "theme": "Combat spirituel",
  "serie": "L'Arsenal de la Sentinelle",
- "resume": "Reconnaître les agents et les stratégies de l'ennemi dans l'Église",
+ "theme": "Combat spirituel",
+ "auteur": "L'Arsenal de la Sentinelle",
+ "resume": "Comment l'ennemi attaque une assemblée de l'intérieur : l'ivraie semée parmi le blé, les faux frères, la division, la calomnie, le découragement. Comment reconnaître ces manœuvres, comment protéger son église et son foyer, sans tomber dans la suspicion ni accuser les personnes à tort.",
  "image": "/assets/symboles/bible-dans-la-lumiere.webp",
- "verset_de_base": "2 Corinthiens 11:14",
+ "verset_de_base": "2 Co 2:11",
+ "lecture_minutes": 34,
  "objectifs": [
-  "Comprendre que l'ennemi attaque souvent l'Église de l'intérieur, par des agents infiltrés",
-  "Identifier les 10 méthodes employées pour détruire une communauté de foi",
-  "Aiguiser le discernement spirituel qui démasque l'imposteur derrière le sourire",
-  "Savoir protéger sa communauté par la prière d'intercession et la vigilance"
+  "Comprendre que l'ennemi agit souvent par la ruse et l'infiltration plutôt que par l'attaque ouverte.",
+  "Reconnaître les manœuvres courantes qui détruisent une communauté : fausse doctrine, calomnie, division, découragement.",
+  "Apprendre à discerner sans accuser les personnes à tort.",
+  "Savoir se protéger par la prière, la Parole, la patience et l'amour."
  ],
- "introduction": "L'apôtre Paul avertit : « Prenez donc garde à vous-mêmes, et à tout le troupeau » (Actes 20:28). Satan n'attaque pas seulement de l'extérieur ; il envoie des agents infiltrateurs dans les assemblées pour les détruire de l'intérieur. « Son ennemi vint, sema de l’ivraie parmi le blé » (Matthieu 13:25). Connaître leurs méthodes est une arme de protection essentielle pour tout croyant et tout responsable d'Église.",
+ "introduction": "Quand le diable a tenté Jésus dans le désert, il est venu à visage découvert. Il a parlé, il a cité l'Écriture, il a proposé des choses. Mais dans la vie de beaucoup de chrétiens et dans beaucoup d'églises, il n'agit pas ainsi. Il n'attaque pas de front. Il avance doucement, dans l'ombre, par la ruse, en utilisant des gens, des situations, des pensées, et il ne se montre pas.\n\nPaul dit aux Corinthiens : nous ne voulons pas que Satan prenne l'avantage sur nous, car nous n'ignorons pas ses desseins. Il y a ici une idée très importante : celui qui ignore les manœuvres de l'ennemi lui laisse de l'avantage. Celui qui les connaît est déjà en grande partie protégé.\n\nDans cet enseignement, nous allons étudier comment l'ennemi agit contre les églises et les foyers, quelles sont ses manières de faire les plus courantes, et comment s'en protéger. Mais il faut faire une mise en garde dès le début : ce sujet peut être mal utilisé. Certains chrétiens, après avoir appris que l'ennemi infiltre les églises, se mettent à soupçonner tout le monde. Ils voient des agents de Satan partout, ils accusent des frères et des sœurs, ils sèment la suspicion. Ce serait justement l'œuvre de l'ennemi : diviser par la méfiance. Notre but n'est pas de chasser des personnes, mais de reconnaître des manœuvres, de fermer des portes, et de protéger l'unité.",
  "sections": [
   {
    "numero": "1",
-   "titre": "Définition — qu'appelle-t-on les ruses du Malin ?",
+   "titre": "Qu'appelle-t-on les ruses du Malin ?",
    "references": [
-    "Éphésiens 6:11",
-    "2 Corinthiens 2:11",
-    "Matthieu 13:25"
+    "Ép 6:11",
+    "2 Co 2:11",
+    "Mt 13:24-30",
+    "2 Co 11:3"
    ],
    "blocs": [
     {
-     "texte": "Les ruses du Malin sont les stratégies trompeuses par lesquelles l'ennemi cherche à séduire, diviser et détruire — non par la force ouverte mais par la ruse cachée. Paul nous appelle à tenir ferme « contre les ruses du diable » (Éphésiens 6:11)."
+     "sous_titre": "Des stratégies cachées"
     },
     {
-     "texte": "Sa tactique préférée n'est pas l'attaque frontale mais l'infiltration : il sème de la fausse semence au milieu de la bonne, place des agents déguisés en frères, et agit dans l'ombre pour ne pas être démasqué."
+     "texte": "Paul écrit aux Éphésiens : revêtez-vous de toutes les armes de Dieu, afin de pouvoir tenir ferme contre les ruses du diable."
     },
     {
-     "verset": "2 Corinthiens 2:11"
+     "verset": "Ép 6:11"
     },
     {
-     "texte": "Ignorer ses desseins, c'est lui laisser l'avantage. Les connaître, c'est déjà commencer à le vaincre."
+     "texte": "Le mot grec traduit par ruses ressemble au mot qui a donné « méthodes ». Il parle d'un plan élaboré, d'un travail préparé. Un chasseur ne court pas devant l'animal avec un grand bruit : il pose un piège, il se cache, il attend. De même, l'ennemi prépare des pièges."
+    },
+    {
+     "texte": "Paul ajoute dans la deuxième lettre aux Corinthiens : afin de ne pas laisser à Satan l'avantage sur nous ; car nous n'ignorons pas ses desseins."
+    },
+    {
+     "verset": "2 Co 2:11"
+    },
+    {
+     "sous_titre": "L'ivraie semée parmi le blé"
+    },
+    {
+     "texte": "Jésus a raconté une parabole qui illustre bien la méthode de l'ennemi. Un homme avait semé de bonne semence dans son champ. Mais pendant que les gens dormaient, son ennemi vint, sema de l'ivraie parmi le blé, et s'en alla. Quand l'herbe eut poussé et donné du fruit, l'ivraie parut aussi."
+    },
+    {
+     "verset": "Mt 13:24-30"
+    },
+    {
+     "texte": "L'ivraie ressemble au blé au début. On ne peut pas la distinguer tant que la plante est jeune. C'est seulement quand les épis se forment que la différence apparaît. L'ennemi sème pendant que les gens dorment : dans l'inattention, dans la négligence. Et remarque ce que répond le maître aux serviteurs qui voulaient arracher l'ivraie tout de suite : non, de peur qu'en arrachant l'ivraie, vous ne déraciniez en même temps le blé. Laissez croître ensemble l'un et l'autre jusqu'à la moisson."
+    },
+    {
+     "texte": "C'est une leçon très importante. Dans une église, il peut y avoir des personnes qui ne sont pas vraiment converties, et il est parfois difficile de les reconnaître. Jésus nous demande de ne pas nous mettre à arracher des gens à la légère, car nous risquons de blesser de vrais croyants. Le jugement final appartient à Dieu. Mais cela ne veut pas dire que nous devons être naïfs : nous devons juger des fruits, des paroles et des actes, pas des intentions cachées."
+    },
+    {
+     "sous_titre": "Une simplicité qui se corrompt"
+    },
+    {
+     "texte": "Paul s'inquiète pour les Corinthiens : je crains que, comme le serpent séduisit Ève par sa ruse, vos pensées ne se corrompent et ne se détournent de la simplicité à l'égard de Christ."
+    },
+    {
+     "verset": "2 Co 11:3"
+    },
+    {
+     "texte": "La grande ruse de l'ennemi, c'est de nous éloigner de la simplicité de l'Évangile. Pas toujours par de grands péchés. Parfois, par des détails qui détournent peu à peu notre attention : des disputes sur des détails, des modes spirituelles, des controverses sans fin."
     }
    ]
   },
   {
    "numero": "2",
-   "titre": "Les 10 méthodes des agents de Satan dans l'Église",
+   "titre": "Quelques manœuvres courantes dans l'Église",
    "references": [
-    "Actes 20:25-31",
-    "2 Corinthiens 11:13-15"
+    "Ac 20:28-31",
+    "2 Co 11:13-15",
+    "Jud 4",
+    "1 Jn 4:1"
    ],
-   "transition": "Maintenant que nous savons que l'ennemi agit par ruse et infiltration, observons concrètement ses dix méthodes — afin de les reconnaître avant qu'elles ne fassent leur œuvre.",
    "blocs": [
     {
-     "texte": "Ils font une fausse profession de foi — ils confessent Jésus des lèvres mais leur cœur n'est pas transformé (1 Jean 4:1-3 · Matthieu 7:21-23)."
+     "sous_titre": "Faux frères et fausse profession"
     },
     {
-     "texte": "Ils gagnent la confiance des vainqueurs par le service et la fausse humilité avant d'agir."
+     "texte": "Paul a prévenu les anciens d'Éphèse : prenez donc garde à vous-mêmes, et à tout le troupeau sur lequel le Saint-Esprit vous a établis évêques, pour paître l'Église du Seigneur. Je sais qu'il s'introduira parmi vous, après mon départ, des loups cruels qui n'épargneront pas le troupeau."
     },
     {
-     "texte": "Ils font dormir et pleurer les enfants pendant le culte pour perturber l'atmosphère de prière."
+     "verset": "Ac 20:28-31"
     },
     {
-     "texte": "Ils détruisent méthodiquement la vie de prière de la communauté en semant le découragement."
+     "texte": "Il parle aussi de faux apôtres, des ouvriers trompeurs, qui se déguisent en apôtres de Christ. Et cela n'a rien d'étonnant, puisque Satan lui-même se déguise en ange de lumière."
     },
     {
-     "texte": "Ils répandent des rumeurs et sont champions de la calomnie pour semer la division (1 Thessaloniciens 5:22)."
+     "verset": "2 Co 11:13-15"
     },
     {
-     "texte": "Ils enseignent les fausses doctrines ou tordent les Écritures pour égarer les âmes simples (Actes 17:11 · 2 Timothée 3:13)."
+     "texte": "Jude parle de certains hommes qui se sont glissés parmi les fidèles, des impies qui changent la grâce de notre Dieu en dérèglement."
     },
     {
-     "texte": "Ils causent les divisions et brisent l'unité familiale en jouant les frères contre les sœurs."
+     "verset": "Jud 4"
     },
     {
-     "texte": "Ils n'aiment pas qu'on dévoile les secrets de Satan et réagissent avec violence ou mépris quand cela se produit (Osée 4:6 · Éphésiens 5:11)."
+     "texte": "Ces personnes disent parfois les bonnes paroles, elles chantent les cantiques, elles lèvent les mains. Mais leur cœur n'est pas transformé. Jésus a dit : ce n'est pas celui qui me dit : Seigneur, Seigneur ! qui entrera dans le royaume des cieux, mais celui qui fait la volonté de mon Père."
     },
     {
-     "texte": "Ils attaquent physiquement et spirituellement les piliers de l'Église : anciens, pasteurs, intercesseurs."
+     "sous_titre": "Gagner la confiance avant d'agir"
     },
     {
-     "texte": "Ils causent des scandales et sont prêts aux drames pour détruire le témoignage de l'Église."
+     "texte": "Une manœuvre courante, c'est de s'approcher des responsables par le service, la flatterie, la fausse humilité. Quelqu'un arrive dans l'église, il rend beaucoup de services, il se montre toujours disponible, il fait beaucoup de compliments au pasteur. On lui confie des responsabilités. Puis, petit à petit, il commence à semer la critique, à contester, à créer un petit groupe autour de lui. Ce n'est pas toujours conscient : parfois, la personne est elle-même manipulée par un esprit d'orgueil ou d'ambition. Dans tous les cas, c'est la raison pour laquelle Paul dit de ne pas imposer les mains précipitamment, de ne pas confier tout de suite des responsabilités à de nouveaux venus."
+    },
+    {
+     "sous_titre": "La calomnie et les rumeurs"
+    },
+    {
+     "texte": "L'une des armes préférées de l'ennemi est la parole qui divise : les rumeurs, les commérages, les demi-vérités. Le diable est appelé accusateur : le mot grec diabolos, d'où vient « diable », veut dire calomniateur. Chaque fois qu'un chrétien répand une calomnie, il fait le travail du diable, même s'il le fait avec de bonnes intentions."
+    },
+    {
+     "texte": "Le livre des Proverbes dit : l'homme pervers excite des querelles, et le calomniateur divise les amis."
+    },
+    {
+     "verset": "Pr 16:28"
+    },
+    {
+     "texte": "On raconte l'histoire d'une église qui s'est presque divisée à cause d'une phrase. Un dimanche, une sœur a dit à une autre, à voix basse : « J'ai entendu dire que le pasteur a acheté une voiture avec l'argent de l'offrande. » La rumeur a circulé, a grossi, a été répétée dans tous les foyers. Quand les anciens ont enquêté, ils ont découvert que le pasteur avait reçu une voiture en cadeau d'un frère de l'église d'un autre pays. Mais la blessure était faite : beaucoup avaient cessé de donner, deux familles avaient quitté, et le pasteur, découragé, avait presque démissionné. Une seule phrase avait coûté très cher."
+    },
+    {
+     "sous_titre": "Les fausses doctrines"
+    },
+    {
+     "texte": "Une autre manœuvre est d'introduire peu à peu des enseignements faux, comme un peu de poison dans un plat. Pierre dit qu'il y aura de faux docteurs qui introduiront des sectes pernicieuses. Les Béréens ont examiné chaque jour les Écritures, pour voir si ce que Paul disait était exact. Une église qui ne vérifie plus ses prédications avec la Bible est exposée."
+    },
+    {
+     "sous_titre": "La division"
+    },
+    {
+     "texte": "L'Évangile dit : si un royaume est divisé contre lui-même, ce royaume ne peut subsister ; si une maison est divisée contre elle-même, cette maison ne peut subsister. L'ennemi le sait. Il cherche à diviser : les jeunes contre les anciens, les hommes contre les femmes, une tribu contre une autre, une chorale contre une autre, une famille contre le pasteur, des couples entre eux."
+    },
+    {
+     "sous_titre": "S'en prendre aux piliers"
+    },
+    {
+     "texte": "L'ennemi cherche à neutraliser ceux qui portent l'église : pasteurs, anciens, intercesseurs. Les attaques peuvent prendre la forme de la fatigue, du découragement, de la maladie, de tentations morales, de conflits familiaux, de critiques incessantes. C'est pourquoi il est si important de prier pour ses responsables. Aaron et Hur soutenaient les bras de Moïse pendant le combat : tant que ses mains étaient levées, Israël était le plus fort."
+    },
+    {
+     "sous_titre": "Le découragement et la lassitude"
+    },
+    {
+     "texte": "L'ennemi cherche aussi à faire perdre la joie, à décourager la prière. Un chrétien fatigué, qui n'a plus la force de prier, est une proie facile. Élie, après une grande victoire, s'est enfui, découragé, et a demandé à mourir. Jésus a dit à Pierre : Satan vous a réclamés, pour vous cribler comme le froment. Mais j'ai prié pour toi, afin que ta foi ne défaille point."
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "Comment se protéger",
+   "titre": "Ne pas tomber dans le piège de la suspicion",
    "references": [
-    "Matthieu 7:16",
-    "1 Jean 4:1",
-    "Éphésiens 6:18"
+    "Mt 7:1-5",
+    "Ja 3:14-18",
+    "Ro 14:1-4",
+    "Ph 2:3-4"
    ],
-   "transition": "Connaître les méthodes de l'ennemi serait inutile sans une riposte. Voici comment Dieu nous donne de protéger Son troupeau — et cette vigilance devient elle-même une bénédiction pour toute la communauté.",
    "blocs": [
     {
-     "texte": "Priez constamment en Esprit pour discerner les esprits présents dans votre assemblée."
+     "sous_titre": "Juger les fruits, pas les intentions"
     },
     {
-     "texte": "Jugez l'arbre à ses fruits — pas seulement ses discours mais ses actions sur la durée (Matthieu 7:16)."
+     "texte": "Face à ce que nous venons de voir, il y a un danger : celui de devenir soupçonneux et accusateur. Une assemblée où chacun se surveille, où l'on se demande qui est « l'agent de Satan », devient un lieu de peur, pas de liberté. Jésus dit : ne jugez pas, afin que vous ne soyez pas jugés. Pourquoi vois-tu la paille qui est dans l'œil de ton frère, et n'aperçois-tu pas la poutre qui est dans le tien ?"
     },
     {
-     "texte": "Maintenez une culture de la prière d'intercession dans votre Église — c'est elle qui révèle et expulse les infiltrateurs."
+     "verset": "Mt 7:1-5"
     },
     {
-     "texte": "Ne confiez pas de responsabilités spirituelles aux nouveaux convertis avant qu'ils aient été éprouvés (1 Timothée 5:22)."
+     "texte": "Beaucoup de comportements qui nous gênent ne viennent pas d'une infiltration satanique, mais simplement de la faiblesse humaine, d'un caractère difficile, d'un manque de maturité. Un enfant qui pleure pendant le culte n'est pas un instrument du diable : c'est un enfant. Une personne qui s'endort parfois au culte est peut-être épuisée par une semaine de travail. Un frère maladroit n'est pas forcément un faux frère. Il y a de la place dans l'Église pour des gens imparfaits, car nous sommes tous imparfaits."
+    },
+    {
+     "texte": "Jacques distingue deux sortes de sagesse. Si vous avez dans votre cœur un zèle amer et un esprit de dispute, ne vous glorifiez pas et ne mentez pas contre la vérité. Cette sagesse n'est point celle qui vient d'en haut : elle est terrestre, charnelle, diabolique. La sagesse d'en haut est premièrement pure, ensuite pacifique, modérée, conciliante, pleine de miséricorde et de bons fruits."
+    },
+    {
+     "verset": "Ja 3:14-18"
+    },
+    {
+     "texte": "Une chasse aux sorcières n'est pas de la sagesse d'en haut."
+    },
+    {
+     "sous_titre": "Quand faut-il agir ?"
+    },
+    {
+     "texte": "Cela dit, il y a des cas où il faut agir : quand une personne enseigne ouvertement des erreurs graves, quand elle vit dans un péché public sans repentance, quand elle sème volontairement la division, quand elle abuse de ses responsabilités. Dans ces cas, la Bible demande de suivre la méthode de Jésus en Matthieu 18 : d'abord parler à la personne en privé, ensuite avec un ou deux témoins, ensuite devant les responsables de l'église. Et cela doit se faire par les responsables, avec prière et sagesse, pas par des rumeurs."
+    },
+    {
+     "sous_titre": "Se garder soi-même"
+    },
+    {
+     "texte": "Avant de regarder les autres, regardons-nous. Paul dit : ne faites rien par esprit de parti ou par vaine gloire, mais que l'humilité vous fasse regarder les autres comme étant au-dessus de vous-mêmes."
+    },
+    {
+     "verset": "Ph 2:3-4"
+    },
+    {
+     "texte": "Ne sois pas, toi, l'instrument de l'ennemi. Examine tes paroles, tes jalousies, tes critiques, tes ambitions. La première ruse que l'ennemi utilise, c'est celle qui passe par nous."
+    }
+   ]
+  },
+  {
+   "numero": "4",
+   "titre": "Comment se protéger",
+   "references": [
+    "Mt 7:16",
+    "Ép 6:18",
+    "1 Ti 5:22",
+    "Ac 17:11",
+    "1 Th 5:21-22"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La prière constante"
+    },
+    {
+     "texte": "Paul termine son passage sur l'armure de Dieu par ces mots : faites en tout temps par l'Esprit toutes sortes de prières et de supplications. Veillez à cela avec une entière persévérance, et priez pour tous les saints."
+    },
+    {
+     "verset": "Ép 6:18"
+    },
+    {
+     "texte": "Une église qui prie est difficile à diviser. Une réunion de prière régulière est la meilleure défense d'une assemblée. L'ennemi a horreur de la prière commune. C'est pourquoi les attaques contre les réunions de prière sont fréquentes : la fatigue, les occupations, les petits conflits qui empêchent de venir."
+    },
+    {
+     "sous_titre": "Juger l'arbre à ses fruits"
+    },
+    {
+     "texte": "Jésus a dit : vous les reconnaîtrez à leurs fruits. Cueille-t-on des raisins sur des épines, ou des figues sur des chardons ?"
+    },
+    {
+     "verset": "Mt 7:16"
+    },
+    {
+     "texte": "Sur la durée, observe : cette personne produit-elle de l'amour, de la paix, de la joie, de l'unité, ou plutôt de la division, de l'agitation, de la suspicion ? Ses paroles sont-elles toujours accompagnées d'une vie cohérente ? Accepte-t-elle d'être corrigée ? Respecte-t-elle les responsables et l'ordre de l'église ?"
+    },
+    {
+     "sous_titre": "Ne pas se précipiter"
+    },
+    {
+     "texte": "Paul dit à Timothée : n'impose les mains à personne trop promptement, et ne participe pas aux péchés d'autrui."
+    },
+    {
+     "verset": "1 Ti 5:22"
+    },
+    {
+     "texte": "Ne confie pas trop vite des responsabilités à un nouveau venu. Un nouveau converti doit être éprouvé, enseigné, et accompagné, avant d'occuper une position de responsabilité."
+    },
+    {
+     "sous_titre": "Examiner les enseignements"
+    },
+    {
+     "texte": "Examine ce qui est enseigné à la lumière de la Bible, comme les Béréens. Et Paul ajoute : éprouvez toutes choses, retenez ce qui est bon, abstenez-vous de toute apparence de mal."
+    },
+    {
+     "verset": "Ac 17:11"
+    },
+    {
+     "verset": "1 Th 5:21-22"
+    },
+    {
+     "sous_titre": "Cultiver l'unité par l'amour"
+    },
+    {
+     "texte": "La meilleure protection contre la division, c'est l'amour réel entre les frères. Une communauté où l'on se connaît, où l'on se rend visite, où l'on se pardonne vite, où l'on parle franchement mais avec douceur, est difficile à pénétrer. La ruse a besoin d'ombre, de silence, de secret. Là où il y a de la lumière, de la transparence, de la franchise, l'ennemi a peu de place."
+    }
+   ]
+  },
+  {
+   "numero": "5",
+   "titre": "Deux ruses racontées dans la Bible",
+   "references": [
+    "2 S 15:1-6",
+    "Ne 6:1-4",
+    "Ne 6:10-13"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Absalom qui vole les cœurs"
+    },
+    {
+     "texte": "Absalom, fils du roi David, voulait prendre le trône de son père. Il n'a pas commencé par une attaque armée. Il s'est lentement rapproché du peuple. Chaque matin, il se tenait au bord du chemin, à la porte de la ville. Quand quelqu'un venait avec un procès pour le roi, Absalom l'arrêtait et lui disait : ta cause est bonne et juste, mais personne ne t'écoutera de la part du roi. Oh ! si l'on m'établissait juge dans le pays ! Tout homme qui aurait un procès ou une cause viendrait à moi, et je lui ferais justice. Et quand quelqu'un s'approchait pour se prosterner devant lui, il lui tendait la main et l'embrassait. Absalom en usait ainsi avec tous ceux d'Israël qui venaient demander justice au roi, et il dérobait les cœurs."
+    },
+    {
+     "verset": "2 S 15:1-6"
+    },
+    {
+     "texte": "Remarquez les étapes : la flatterie (« ta cause est bonne »), la critique des responsables (« personne ne t'écoutera de la part du roi »), la promesse d'une meilleure situation (« si j'étais juge »), la chaleur apparente (« il l'embrassait »). Voilà le schéma de toute révolte intérieure dans une communauté. Quand quelqu'un passe son temps à te dire que tes responsables ne t'écoutent pas, qu'il aurait fait mieux, qu'on ne te comprend pas, méfie-toi. Peut-être a-t-il raison sur certains points, mais la méthode est celle d'Absalom : voler les cœurs. La bonne attitude est d'apporter tes inquiétudes directement aux responsables, avec respect."
+    },
+    {
+     "sous_titre": "Néhémie qui refuse de descendre"
+    },
+    {
+     "texte": "Néhémie bâtissait les murailles de Jérusalem. Ses ennemis, Sanballat et Guéschem, ne pouvant pas l'attaquer ouvertement, ont changé de méthode. Ils lui ont envoyé un message : viens, et rencontrons-nous ensemble dans les villages de la vallée d'Ono. Ils avaient le projet de lui faire du mal. Néhémie leur a répondu : je fais un grand ouvrage, et je ne puis descendre ; le travail serait interrompu, pendant que je le quitterais pour descendre vers vous. Ils lui ont envoyé quatre fois la même proposition, et il a toujours répondu de la même manière."
+    },
+    {
+     "verset": "Ne 6:1-4"
+    },
+    {
+     "texte": "La ruse, ici, c'est la distraction. L'ennemi ne cherche pas toujours à nous faire pécher. Parfois, il veut seulement nous éloigner de notre mission : des polémiques sans fin, des invitations à discuter de tout, des occupations qui prennent tout notre temps, des conflits que nous n'avons pas à régler. Néhémie a eu la sagesse de dire : « Je suis occupé à une grande œuvre. » Quel est ton grand ouvrage ? Ton foyer, ton église, ton témoignage, ton travail fait avec intégrité ? Ne descends pas à la vallée d'Ono."
+    },
+    {
+     "sous_titre": "Un faux conseil religieux"
+    },
+    {
+     "texte": "Plus tard, un homme nommé Schemaeja lui a proposé de se cacher dans le temple pour se protéger, en disant que des gens allaient venir le tuer la nuit. Néhémie a réfléchi : un homme comme moi s'enfuirait-il ? Il a compris que cet homme avait été payé pour l'effrayer et le pousser à pécher en pénétrant dans une partie du temple réservée aux prêtres."
+    },
+    {
+     "verset": "Ne 6:10-13"
+    },
+    {
+     "texte": "Cela nous apprend que la ruse peut même venir sous une forme religieuse, avec un conseil qui semble spirituel, mais qui nous pousse à sortir de la volonté de Dieu, par la peur. Néhémie a reconnu la ruse parce qu'il connaissait la Parole et parce qu'il savait que Dieu ne l'envoyait pas dans cette direction. Quand un conseil te pousse à la peur, à la fuite, à désobéir à Dieu, vérifie-le dans la Parole et dans la prière."
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Protéger son foyer et sa propre vie",
+   "references": [
+    "Pr 4:23",
+    "Ps 101:2-3",
+    "Ép 4:26-27",
+    "Ja 4:7",
+    "Ne 4:17"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Les mêmes ruses attaquent les familles"
+    },
+    {
+     "texte": "Ce que nous venons de voir sur l'église vaut aussi pour la famille. L'ennemi sème la division entre le mari et la femme, entre les parents et les enfants, par le silence, la colère gardée, la jalousie, le manque de respect, le mensonge, la tentation de l'infidélité. Paul dit : si vous vous mettez en colère, ne péchez point ; que le soleil ne se couche pas sur votre colère, et ne donnez pas accès au diable."
+    },
+    {
+     "verset": "Ép 4:26-27"
+    },
+    {
+     "texte": "Beaucoup de couples vont se coucher fâchés, sans parler, et laissent la colère s'installer pendant des jours. Un petit conflit gardé pendant des mois devient une porte ouverte. Prenez l'habitude de vous réconcilier avant la nuit, même si c'est difficile, même si vous n'avez pas fini la discussion."
+    },
+    {
+     "sous_titre": "Garder son cœur"
+    },
+    {
+     "texte": "Salomon dit : garde ton cœur plus que toute autre chose, car de lui viennent les sources de la vie."
+    },
+    {
+     "verset": "Pr 4:23"
+    },
+    {
+     "texte": "Le psalmiste dit : je marcherai dans l'intégrité de mon cœur, au milieu de ma maison. Je ne mettrai rien de mauvais devant mes yeux."
+    },
+    {
+     "verset": "Ps 101:2-3"
+    },
+    {
+     "texte": "Ce que nous laissons entrer dans la maison compte : les images, les musiques, les conversations. Une maison où l'on se parle, où l'on prie, où l'on lit la Parole, est une maison protégée."
+    },
+    {
+     "sous_titre": "Veiller et travailler en même temps"
+    },
+    {
+     "texte": "À l'époque de Néhémie, les Juifs reconstruisaient les murailles de Jérusalem pendant que des ennemis voulaient les attaquer. Ils ont fait quelque chose de très sage : ceux qui bâtissaient la muraille, ceux qui portaient des fardeaux, étaient chargés : d'une main, ils faisaient le travail, et de l'autre ils tenaient une arme."
+    },
+    {
+     "verset": "Ne 4:17"
+    },
+    {
+     "texte": "C'est une belle image. Ne te laisse pas paralyser par la peur de l'ennemi, continue à construire. Mais ne le sous-estime pas : garde une épée à portée de main. Travailler et veiller, servir et prier, bâtir et se protéger."
+    },
+    {
+     "sous_titre": "Résister, pas paniquer"
+    },
+    {
+     "texte": "Jacques donne la clé : soumettez-vous donc à Dieu ; résistez au diable, et il fuira loin de vous."
+    },
+    {
+     "verset": "Ja 4:7"
+    },
+    {
+     "texte": "On raconte l'histoire d'un pasteur qui, face à une série de conflits dans son église, avait organisé une grande soirée de prière contre « les agents de Satan ». Pendant la soirée, plusieurs personnes ont été accusées à voix haute par des participants qui prétendaient avoir des visions. Résultat : deux familles ont quitté l'église, humiliées, et l'ambiance est devenue pesante. Un frère plus âgé a alors dit au pasteur : « Je crois que nous avons fait le travail de l'ennemi à sa place. » Le pasteur a demandé pardon, publiquement, aux familles blessées. L'église a recommencé à prier, mais cette fois pour l'amour, l'unité et le discernement, sans accuser personne. La paix est revenue."
+    }
+   ]
+  },
+  {
+   "numero": "7",
+   "titre": "Tenir ferme avec humilité",
+   "references": [
+    "Ép 6:10-13",
+    "1 P 5:8-10",
+    "Ro 16:17-20",
+    "Ga 6:1"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Fortifiés dans le Seigneur"
+    },
+    {
+     "texte": "Rappelons le début du passage : fortifiez-vous dans le Seigneur, et par sa force toute-puissante. Notre force n'est pas dans la connaissance des manœuvres de l'ennemi, mais dans le Seigneur."
+    },
+    {
+     "verset": "Ép 6:10-13"
+    },
+    {
+     "sous_titre": "Le Dieu de paix écrasera Satan"
+    },
+    {
+     "texte": "Paul termine sa lettre aux Romains par ces mots : je vous exhorte, frères, à prendre garde à ceux qui causent des divisions et des scandales, au préjudice de l'enseignement que vous avez reçu. Éloignez-vous d'eux. Mais il ajoute : je veux que vous soyez sages en ce qui concerne le bien, et purs en ce qui concerne le mal. Le Dieu de paix écrasera bientôt Satan sous vos pieds."
+    },
+    {
+     "verset": "Ro 16:17-20"
+    },
+    {
+     "texte": "Sages dans le bien, purs dans le mal : ne pas être naïf, ne pas être contaminé. Et la promesse : le Dieu de paix écrasera Satan. Pas nous seuls, mais le Dieu de paix."
+    },
+    {
+     "sous_titre": "Relever avec douceur"
+    },
+    {
+     "texte": "Paul dit encore : frères, si un homme vient à être surpris en faute, vous qui êtes spirituels, redressez-le avec un esprit de douceur. Prends garde à toi-même, de peur que tu ne sois aussi tenté."
+    },
+    {
+     "verset": "Ga 6:1"
+    },
+    {
+     "texte": "Quand un frère tombe dans un piège de l'ennemi, la bonne réponse n'est pas le mépris, mais la douceur. L'ennemi veut la ruine de la personne ; Dieu veut sa restauration."
+    },
+    {
+     "sous_titre": "Résister fermes dans la foi"
+    },
+    {
+     "texte": "Pierre conclut : soyez sobres, veillez. Votre adversaire, le diable, rôde comme un lion rugissant, cherchant qui il dévorera. Résistez-lui avec une foi ferme, sachant que les mêmes souffrances sont imposées à vos frères dans le monde. Le Dieu de toute grâce, qui vous a appelés en Christ à sa gloire éternelle, après que vous aurez souffert un peu de temps, vous perfectionnera lui-même, vous affermira, vous fortifiera, vous rendra inébranlables."
+    },
+    {
+     "verset": "1 P 5:8-10"
+    },
+    {
+     "texte": "Pour terminer, souviens-toi de trois choses. L'ennemi agit par la ruse, c'est pourquoi la vigilance est nécessaire. Mais la vigilance n'est pas la suspicion : nous jugeons les fruits, pas les intentions, et nous agissons avec amour. Et la meilleure protection de l'église et du foyer, ce sont la prière, la Parole, l'humilité, l'amour fraternel et la transparence. Reste simple, reste vrai, reste uni, et le Dieu de paix écrasera Satan sous vos pieds."
     }
    ]
   }
  ],
- "lecture_minutes": 3,
- "auteur": "L'Arsenal de la Sentinelle",
- "autorisation": "oui",
- "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
- "date_ajout": "2026-11-14",
+ "sujets": [
+  {
+   "titre": "Le discernement",
+   "texte": "Saint-Esprit, donne-moi un discernement vrai, qui juge les fruits sans accuser les personnes à tort. Garde-moi de tout esprit de suspicion."
+  },
+  {
+   "titre": "L'unité de mon église",
+   "texte": "Seigneur, protège mon église de la division, de la calomnie et de l'orgueil. Fais de nous un seul cœur."
+  },
+  {
+   "titre": "Les responsables",
+   "texte": "Je prie pour les pasteurs, les anciens et les intercesseurs. Fortifie-les, protège-les, soutiens leurs bras comme Aaron et Hur."
+  },
+  {
+   "titre": "Mon foyer",
+   "texte": "Garde mon foyer de la colère, de la jalousie, du silence et de l'infidélité. Que la paix règne dans ma maison."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Que montre la parabole de l'ivraie ?",
+   "choix": [
+    "Qu'il faut arracher tout de suite les faux frères",
+    "Que l'ennemi sème pendant que l'on dort, et que le jugement final appartient à Dieu",
+    "Qu'il faut quitter l'église"
+   ],
+   "reponse": 1,
+   "explication": "Matthieu 13:24-30. Ne pas arracher l'ivraie de peur de déraciner le blé.",
+   "section": "1"
+  },
+  {
+   "question": "Que veut dire « diable » en grec ?",
+   "choix": [
+    "Roi",
+    "Calomniateur, accusateur",
+    "Menteur"
+   ],
+   "reponse": 1,
+   "explication": "Chaque calomnie répandue fait le travail du diable.",
+   "section": "2"
+  },
+  {
+   "question": "Qu'est-ce qu'un enfant qui pleure pendant le culte, d'après cet enseignement ?",
+   "choix": [
+    "Un agent de Satan",
+    "Simplement un enfant",
+    "Un signe de malédiction"
+   ],
+   "reponse": 1,
+   "explication": "Il ne faut pas soupçonner chaque comportement.",
+   "section": "3"
+  },
+  {
+   "question": "Selon Matthieu 7:16, comment reconnaît-on un arbre ?",
+   "choix": [
+    "À ses feuilles",
+    "À ses fruits",
+    "À sa hauteur"
+   ],
+   "reponse": 1,
+   "explication": "On juge les fruits sur la durée, pas les intentions cachées.",
+   "section": "4"
+  },
+  {
+   "question": "Que dit Éphésiens 4:26-27 sur la colère ?",
+   "choix": [
+    "Qu'il faut la cacher",
+    "Que le soleil ne se couche pas sur la colère, pour ne pas donner accès au diable",
+    "Qu'elle est toujours un péché"
+   ],
+   "reponse": 1,
+   "explication": "Réconcilier les conflits avant la nuit.",
+   "section": "5"
+  },
+  {
+   "question": "Que faisaient les Juifs du temps de Néhémie en reconstruisant les murailles ?",
+   "choix": [
+    "Ils abandonnaient le travail",
+    "Ils travaillaient d'une main et tenaient une arme de l'autre",
+    "Ils attendaient l'ennemi"
+   ],
+   "reponse": 1,
+   "explication": "Néhémie 4:17. Veiller et bâtir en même temps.",
+   "section": "5"
+  },
+  {
+   "question": "Comment relever un frère tombé dans un piège ?",
+   "choix": [
+    "Avec mépris",
+    "Avec un esprit de douceur, en prenant garde à soi-même",
+    "En le dénonçant publiquement"
+   ],
+   "reponse": 1,
+   "explication": "Galates 6:1.",
+   "section": "6"
+  },
+  {
+   "question": "Que montre l'histoire d'Absalom (2 Samuel 15) ?",
+   "choix": [
+    "Qu'il faut flatter ses responsables",
+    "La ruse qui consiste à critiquer les responsables et à voler les cœurs peu à peu",
+    "Que les rois ont toujours raison"
+   ],
+   "reponse": 1,
+   "explication": "Il dérobait les cœurs d'Israël.",
+   "section": "5"
+  },
+  {
+   "question": "Pourquoi Néhémie a-t-il refusé de descendre à Ono ?",
+   "choix": [
+    "Il avait peur",
+    "Il faisait un grand ouvrage et ne voulait pas s'en laisser distraire",
+    "Il n'avait pas été invité"
+   ],
+   "reponse": 1,
+   "explication": "Néhémie 6:3.",
+   "section": "5"
+  }
+ ],
+ "devoir": [
+  "Lis Matthieu 13:24-30 et Néhémie 4.",
+  "Examine tes propres paroles cette semaine : as-tu répété une rumeur ou critiqué quelqu'un ? Demande pardon si nécessaire.",
+  "Choisis un responsable de ton église et prie chaque jour pour lui. Envoie-lui un mot d'encouragement.",
+  "Si tu es en conflit avec ton conjoint ou un frère, fais le premier pas pour te réconcilier avant ce soir."
+ ],
  "prieres_liees": [
   "theme:priere-garder-son-coeur",
   "combat:combat-consecration"
- ]
+ ],
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "autorisation": "oui"
 }
