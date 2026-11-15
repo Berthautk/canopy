@@ -7,7 +7,7 @@
  "resume": "Septième leçon du volume 3 : tribalisme, classes sociales, favoritisme. Christ a détruit le mur de séparation, et l'Église doit accueillir chacun comme Christ l'a accueilli, sans acception de personnes.",
  "image": "/assets/eglise/accueil-a-la-porte.webp",
  "verset_de_base": "Rm 15:7",
- "lecture_minutes": 7,
+ "lecture_minutes": 13,
  "objectifs": [
   "Comprendre que Christ a uni des peuples ennemis en un seul corps.",
   "Rejeter le tribalisme et le favoritisme dans l'église.",
@@ -129,6 +129,79 @@
   },
   {
    "numero": "5",
+   "titre": "L'Évangile franchit toutes les barrières",
+   "references": [
+    "Ac 8:26-39",
+    "Ac 10:28",
+    "Ac 13:1"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "L'eunuque éthiopien"
+    },
+    {
+     "texte": "Philippe a été envoyé par l'ange sur une route déserte vers un homme d'Éthiopie, un haut fonctionnaire de la reine. Cet Africain lisait Ésaïe sans comprendre. Philippe lui a annoncé Jésus, et il a été baptisé sur la route. Dès le début, l'Évangile a franchi les barrières de race, de langue et de pays. Il n'y a pas de peuple trop loin pour Dieu."
+    },
+    {
+     "verset": "Ac 8:26-39"
+    },
+    {
+     "sous_titre": "Pierre chez Corneille"
+    },
+    {
+     "texte": "Pierre a dit à Corneille : « Vous savez qu'il est défendu à un Juif de se lier avec un étranger ou d'entrer chez lui ; mais Dieu m'a appris à ne regarder aucun homme comme souillé et impur. » Il a fallu une vision répétée trois fois pour que Pierre franchisse cette porte. Nos préjugés sont parfois si profonds qu'il faut que Dieu insiste."
+    },
+    {
+     "verset": "Ac 10:28"
+    },
+    {
+     "sous_titre": "L'équipe d'Antioche"
+    },
+    {
+     "texte": "L'église d'Antioche avait des prophètes et des docteurs : Barnabas, un Juif de Chypre ; Siméon appelé Niger, c'est-à-dire « le Noir » ; Lucius de Cyrène, en Afrique du Nord ; Manahen, élevé avec un prince ; et Saul de Tarse. Des origines, des couleurs et des classes différentes, servant ensemble. C'est cette église mélangée que le Saint-Esprit a choisie pour envoyer les premiers missionnaires."
+    },
+    {
+     "verset": "Ac 13:1"
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Le tribalisme et le favoritisme aujourd'hui",
+   "references": [
+    "Jc 2:8-9",
+    "Ph 2:3",
+    "1 Tm 5:21"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Dans le choix des responsables"
+    },
+    {
+     "texte": "Quand on choisit des diacres ou des anciens parce qu'ils sont du village du pasteur, parce qu'ils sont riches, ou parce qu'ils parlent la langue du groupe dominant, on désobéit à la Parole. Paul adjure Timothée : « Observe ces choses sans prévention, et ne fais rien par faveur. » Les critères bibliques sont le caractère, la foi et le service, pas la tribu."
+    },
+    {
+     "verset": "1 Tm 5:21"
+    },
+    {
+     "sous_titre": "Dans le mariage"
+    },
+    {
+     "texte": "Beaucoup de familles chrétiennes refusent qu'un enfant épouse un chrétien d'une autre ethnie, tout en acceptant un non-croyant de la même ethnie. C'est mettre la tribu au-dessus de Christ. La Bible demande d'épouser « dans le Seigneur » ; elle ne demande jamais d'épouser dans sa tribu."
+    },
+    {
+     "sous_titre": "Dans les paroles"
+    },
+    {
+     "texte": "Les plaisanteries sur les autres tribus, les surnoms méprisants, les généralisations (« les gens de telle région sont tous voleurs ») blessent et divisent. Jacques dit que si vous faites acception de personnes, vous commettez un péché, vous êtes condamnés par la loi comme des transgresseurs. Un chrétien ne rit pas de ces choses."
+    },
+    {
+     "verset": "Jc 2:8-9"
+    }
+   ]
+  },
+  {
+   "numero": "7",
    "titre": "Conclusion",
    "references": [
     "Rm 15:7"
@@ -176,6 +249,39 @@
    "reponse": 1,
    "explication": "(Galates 2:11-14)",
    "section": "3"
+  },
+  {
+   "question": "Qui était l'homme à qui Philippe a annoncé Jésus sur la route de Gaza ?",
+   "choix": [
+    "Un Romain",
+    "Un haut fonctionnaire éthiopien",
+    "Un pharisien"
+   ],
+   "reponse": 1,
+   "explication": "(Actes 8:27)",
+   "section": "5"
+  },
+  {
+   "question": "Que dit Paul à Timothée au sujet des responsables ?",
+   "choix": [
+    "Choisis ceux de ta famille",
+    "Ne fais rien par faveur, sans prévention",
+    "Choisis les plus riches"
+   ],
+   "reponse": 1,
+   "explication": "(1 Timothée 5:21)",
+   "section": "6"
+  },
+  {
+   "question": "Que demande la Bible au sujet du mariage ?",
+   "choix": [
+    "D'épouser dans sa tribu",
+    "D'épouser dans le Seigneur",
+    "D'obéir toujours à la famille"
+   ],
+   "reponse": 1,
+   "explication": "(1 Corinthiens 7:39)",
+   "section": "6"
   }
  ],
  "devoir": [

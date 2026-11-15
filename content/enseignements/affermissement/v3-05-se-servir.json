@@ -7,7 +7,7 @@
  "resume": "Cinquième leçon du volume 3 : dans la famille de Dieu, on ne se dispute pas les places, on se dispute le tablier. Servir ses frères par amour, avec humilité, dans les petites choses comme dans les grandes.",
  "image": "/assets/eglise/entretien-de-eglise.webp",
  "verset_de_base": "Ga 5:13",
- "lecture_minutes": 7,
+ "lecture_minutes": 12,
  "objectifs": [
   "Comprendre que servir les frères est un commandement.",
   "Rejeter l'esprit de rivalité et de titre.",
@@ -121,6 +121,83 @@
   },
   {
    "numero": "4",
+   "titre": "Des serviteurs dans la Bible",
+   "references": [
+    "Ex 17:12",
+    "Rt 2:11-12",
+    "Rm 16:1-2",
+    "Ph 2:25-30"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Aaron et Hur"
+    },
+    {
+     "texte": "Pendant la bataille contre Amalek, tant que Moïse tenait les mains levées, Israël était le plus fort. Mais ses mains devinrent lourdes. Aaron et Hur prirent une pierre, le firent asseoir, et soutinrent ses mains, l'un d'un côté, l'autre de l'autre. Personne ne se souvient de ce qu'Aaron et Hur ont fait ce jour-là, mais sans eux la victoire n'aurait pas eu lieu. Il y a des serviteurs dont le travail est de soutenir les mains de ceux qui conduisent."
+    },
+    {
+     "verset": "Ex 17:12"
+    },
+    {
+     "sous_titre": "Ruth auprès de Noémi"
+    },
+    {
+     "texte": "Ruth aurait pu rentrer chez elle à Moab. Elle a choisi de rester avec sa belle-mère âgée, veuve et sans ressources, d'aller glaner dans les champs pour la nourrir. Boaz lui dit : « On m'a rapporté tout ce que tu as fait pour ta belle-mère. Que l'Éternel te rende ce que tu as fait. » Servir un parent âgé, c'est servir Dieu."
+    },
+    {
+     "verset": "Rt 2:11-12"
+    },
+    {
+     "sous_titre": "Phoebé et Épaphrodite"
+    },
+    {
+     "texte": "Paul recommande Phoebé, servante de l'église de Cenchrées, qui a « donné aide à plusieurs et à moi-même ». Et il parle d'Épaphrodite, qui a été malade presque jusqu'à la mort pour l'œuvre de Christ, en apportant à Paul l'aide des Philippiens. Paul demande d'honorer de tels hommes. Dans le Nouveau Testament, ceux qui servent dans l'ombre sont honorés par leur nom."
+    },
+    {
+     "verset": "Ph 2:25-30"
+    }
+   ]
+  },
+  {
+   "numero": "5",
+   "titre": "Servir dans les réalités de notre église",
+   "references": [
+    "1 Co 14:40",
+    "Ac 20:34-35",
+    "Ga 6:9"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Les services qui manquent toujours"
+    },
+    {
+     "texte": "Nettoyer la salle avant et après le culte. Accueillir les nouveaux à la porte. Garder les enfants pendant le culte. Installer la sonorisation. Visiter les malades. Accompagner les familles en deuil. Aider les nouveaux convertis à lire leur Bible. Préparer la cène. Tenir les comptes avec honnêteté. Conduire les personnes âgées à l'église. Que tout se fasse avec bienséance et avec ordre : cela demande des mains."
+    },
+    {
+     "verset": "1 Co 14:40"
+    },
+    {
+     "sous_titre": "Servir sans se plaindre ni s'épuiser"
+    },
+    {
+     "texte": "Certains servent tout le temps, se plaignent tout le temps, et finissent par quitter l'église amers. D'autres ne servent jamais. Le serviteur sage sert avec joie, dans la mesure de ses forces, et apprend à dire non quand il le faut, pour ne pas négliger sa famille ni sa propre vie avec Dieu. Mais il ne se lasse pas de faire le bien, car il moissonnera au temps convenable."
+    },
+    {
+     "verset": "Ga 6:9"
+    },
+    {
+     "sous_titre": "Le service des responsables"
+    },
+    {
+     "texte": "Le pasteur et les anciens sont aussi appelés à servir, pas à se faire servir. Paul rappelle aux anciens d'Éphèse qu'il a travaillé de ses mains pour subvenir à ses besoins et à ceux de ses compagnons. Un responsable qui exige d'être servi, qui fait porter son sac, qui veut toujours la meilleure place, a oublié l'exemple de Jésus."
+    },
+    {
+     "verset": "Ac 20:34-35"
+    }
+   ]
+  },
+  {
+   "numero": "6",
    "titre": "Conclusion",
    "references": [
     "Mt 25:21"
@@ -168,6 +245,39 @@
    "reponse": 1,
    "explication": "(Luc 16:10)",
    "section": "3"
+  },
+  {
+   "question": "Qu'ont fait Aaron et Hur pendant la bataille contre Amalek ?",
+   "choix": [
+    "Ils ont combattu en première ligne",
+    "Ils ont soutenu les mains de Moïse",
+    "Ils se sont enfuis"
+   ],
+   "reponse": 1,
+   "explication": "(Exode 17:12)",
+   "section": "4"
+  },
+  {
+   "question": "Pourquoi Boaz a-t-il béni Ruth ?",
+   "choix": [
+    "Pour sa beauté",
+    "Pour tout ce qu'elle avait fait pour sa belle-mère",
+    "Pour sa richesse"
+   ],
+   "reponse": 1,
+   "explication": "(Ruth 2:11-12)",
+   "section": "4"
+  },
+  {
+   "question": "Que rappelle Paul aux anciens d'Éphèse ?",
+   "choix": [
+    "Qu'ils devaient être servis",
+    "Qu'il avait travaillé de ses mains pour lui et ses compagnons",
+    "Qu'ils devaient lui obéir"
+   ],
+   "reponse": 1,
+   "explication": "(Actes 20:34)",
+   "section": "5"
   }
  ],
  "devoir": [

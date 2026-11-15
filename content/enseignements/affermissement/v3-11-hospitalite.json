@@ -7,7 +7,7 @@
  "resume": "Dernière leçon de « Former le disciple » : ouvrir sa maison et sa table. L'hospitalité d'Abraham, de Lydie et de l'Église primitive, ses excuses et ses dangers, et comment l'Évangile se transmet autour d'un repas.",
  "image": "/assets/famille-quotidien/famille-lecture.webp",
  "verset_de_base": "1 P 4:9",
- "lecture_minutes": 11,
+ "lecture_minutes": 12,
  "objectifs": [
   "Comprendre que l'hospitalité est un commandement et non une option.",
   "Apprendre des exemples bibliques d'hospitalité.",
@@ -160,6 +160,41 @@
   },
   {
    "numero": "5",
+   "titre": "L'hospitalité dans nos familles et nos villes",
+   "references": [
+    "Lv 19:33-34",
+    "Mt 25:35",
+    "Rm 12:13"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "L'étranger dans nos villes"
+    },
+    {
+     "texte": "Dans beaucoup de villes, il y a des étudiants loin de leur famille, des déplacés qui ont fui la guerre, des travailleurs venus d'autres pays. Dieu disait à Israël : l'étranger qui séjourne parmi vous, vous l'aimerez comme vous-mêmes, car vous avez été étrangers. Jésus dit : j'étais étranger, et vous m'avez recueilli. Une église hospitalière ouvre ses maisons à ceux qui sont seuls dans la ville."
+    },
+    {
+     "verset": "Mt 25:35"
+    },
+    {
+     "sous_titre": "Le repas qui évangélise"
+    },
+    {
+     "texte": "Un repas simple, partagé avec un collègue, un voisin ou un ami qui ne connaît pas Jésus, ouvre souvent plus de portes qu'une campagne d'évangélisation. On parle de sa famille, de son travail, de ses épreuves, et Jésus entre naturellement dans la conversation. Commence le repas par une courte prière ; c'est déjà un témoignage."
+    },
+    {
+     "sous_titre": "L'hospitalité de l'église"
+    },
+    {
+     "texte": "L'église aussi doit être hospitalière : un verre d'eau pour celui qui arrive de loin, une place assise pour la femme enceinte et la personne âgée, un repas partagé après le culte, un accueil pour ceux qui viennent d'un village voisin. Exercez l'hospitalité, dit Paul : le mot grec veut dire « poursuivez-la », « courez après »."
+    },
+    {
+     "verset": "Rm 12:13"
+    }
+   ]
+  },
+  {
+   "numero": "6",
    "titre": "Conclusion du parcours",
    "references": [
     "Mt 28:19-20",
@@ -214,6 +249,17 @@
    "reponse": 1,
    "explication": "La veuve de Sarepta n'avait presque rien et a nourri Élie (1 Rois 17).",
    "section": "4"
+  },
+  {
+   "question": "Que dit Jésus de ceux qui ont recueilli l'étranger ?",
+   "choix": [
+    "Ils ont perdu leur temps",
+    "C'est lui qu'ils ont recueilli",
+    "Ils doivent se méfier"
+   ],
+   "reponse": 1,
+   "explication": "(Matthieu 25:35)",
+   "section": "5"
   }
  ],
  "devoir": [

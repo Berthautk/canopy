@@ -7,7 +7,7 @@
  "resume": "Huitième leçon du volume 3 : se stimuler mutuellement à l'amour et aux bonnes œuvres. Avertir, pousser, rappeler la Parole à un frère qui ralentit, avant qu'il ne s'endurcisse.",
  "image": "/assets/eglise/etude-biblique-en-groupe.webp",
  "verset_de_base": "He 10:24-25",
- "lecture_minutes": 5,
+ "lecture_minutes": 11,
  "objectifs": [
   "Comprendre la différence entre encourager et exhorter.",
   "Apprendre à stimuler ses frères à l'amour et aux bonnes œuvres.",
@@ -121,6 +121,76 @@
   },
   {
    "numero": "4",
+   "titre": "Des exemples dans la Bible",
+   "references": [
+    "2 S 12:1-7",
+    "Ga 2:11-14",
+    "Ac 18:24-26"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Nathan devant David"
+    },
+    {
+     "texte": "David avait commis l'adultère avec Bath-Schéba, puis fait tuer son mari Urie. Pendant presque un an, personne ne lui a rien dit. Puis Dieu a envoyé le prophète Nathan. Nathan n'est pas arrivé en criant. Il a raconté une histoire : un riche qui vole l'unique brebis d'un pauvre. David s'est mis en colère contre ce riche. Alors Nathan lui a dit : « Tu es cet homme-là ! » David s'est effondré et a dit : « J'ai péché contre l'Éternel. » Une exhortation sage ne commence pas toujours par l'accusation ; elle aide la personne à voir elle-même la vérité."
+    },
+    {
+     "verset": "2 S 12:1-7"
+    },
+    {
+     "sous_titre": "Priscille et Aquilas avec Apollos"
+    },
+    {
+     "texte": "Apollos était un prédicateur éloquent, puissant dans les Écritures, plein de zèle. Mais il ne connaissait que le baptême de Jean. Priscille et Aquilas l'ont entendu prêcher. Ils ne l'ont pas corrigé devant tout le monde. Ils l'ont pris avec eux, chez eux, et lui ont exposé plus exactement la voie de Dieu. Apollos a accepté, et son ministère est devenu encore plus utile. Voilà une exhortation qui construit au lieu de détruire."
+    },
+    {
+     "verset": "Ac 18:24-26"
+    },
+    {
+     "sous_titre": "Ce qui se passe quand personne ne parle"
+    },
+    {
+     "texte": "Éli savait que ses fils Hophni et Phinées se conduisaient mal dans le temple, mais il ne les a pas réprimés avec force. Dieu lui a reproché d'honorer ses fils plus que lui (1 Samuel 2:29). Le silence d'un père, d'un pasteur ou d'un ami n'est pas toujours de l'amour. C'est parfois de la lâcheté."
+    }
+   ]
+  },
+  {
+   "numero": "5",
+   "titre": "L'exhortation dans la vie de tous les jours",
+   "references": [
+    "Pr 27:9",
+    "Rm 15:14",
+    "Jc 5:19-20"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Dans le couple et la famille"
+    },
+    {
+     "texte": "Le mari et la femme sont les premiers appelés à s'exhorter. Non pour se rabaisser, mais pour se pousser vers Dieu. « Tu n'as pas prié depuis plusieurs jours ; prions ensemble ce soir. » « Je vois que tu passes beaucoup de temps sur ton téléphone ; tu n'as plus de temps pour la Parole. » Ces phrases sont difficiles à dire et à entendre ; mais un couple qui ne se parle plus de Dieu s'éloigne de Dieu ensemble."
+    },
+    {
+     "sous_titre": "Dans l'église"
+    },
+    {
+     "texte": "Un frère manque le culte trois dimanches de suite. Une sœur recommence à fréquenter son ancien petit ami. Un jeune s'est remis à boire. Que faisons-nous ? Souvent, on en parle entre nous, on observe, on attend. L'exhortation biblique, c'est d'aller voir la personne, de lui dire qu'on l'aime, qu'on a remarqué, et qu'on veut l'aider à revenir. Paul était persuadé que les chrétiens de Rome étaient capables de s'exhorter les uns les autres. Il le croit aussi de toi."
+    },
+    {
+     "verset": "Rm 15:14"
+    },
+    {
+     "sous_titre": "Comment s'y prendre"
+    },
+    {
+     "texte": "Prie d'abord pour la personne. Choisis un moment calme et privé. Commence par ce que tu apprécies chez elle. Dis ce que tu as remarqué, simplement, sans exagérer. Ouvre la Bible : laisse la Parole parler plutôt que ton opinion. Écoute sa réponse sans l'interrompre. Propose ton aide concrète. Et après, ne raconte à personne ce qui s'est dit."
+    },
+    {
+     "verset": "Jc 5:19-20"
+    }
+   ]
+  },
+  {
+   "numero": "6",
    "titre": "Conclusion",
    "references": [
     "He 12:12-13"
@@ -168,6 +238,39 @@
    "reponse": 1,
    "explication": "(1 Thessaloniciens 5:14)",
    "section": "2"
+  },
+  {
+   "question": "Comment Nathan a-t-il amené David à reconnaître son péché ?",
+   "choix": [
+    "En l'accusant devant le peuple",
+    "En lui racontant une histoire qui lui a fait voir la vérité",
+    "En lui écrivant une lettre"
+   ],
+   "reponse": 1,
+   "explication": "(2 Samuel 12:1-7)",
+   "section": "4"
+  },
+  {
+   "question": "Comment Priscille et Aquilas ont-ils corrigé Apollos ?",
+   "choix": [
+    "Devant toute l'assemblée",
+    "En le prenant avec eux, en privé",
+    "En le chassant de l'église"
+   ],
+   "reponse": 1,
+   "explication": "(Actes 18:26)",
+   "section": "4"
+  },
+  {
+   "question": "Que reproche Dieu à Éli ?",
+   "choix": [
+    "D'avoir trop prié",
+    "D'avoir honoré ses fils plus que Dieu en ne les reprenant pas",
+    "D'avoir quitté le temple"
+   ],
+   "reponse": 1,
+   "explication": "(1 Samuel 2:29)",
+   "section": "4"
   }
  ],
  "devoir": [

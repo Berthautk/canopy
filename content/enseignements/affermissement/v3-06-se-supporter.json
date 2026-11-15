@@ -7,7 +7,7 @@
  "resume": "Sixième leçon du volume 3 : les gens de l'église ne sont pas parfaits, et toi non plus. La patience, la douceur et l'humilité qui permettent de vivre ensemble malgré les caractères, les défauts et les agacements.",
  "image": "/assets/eglise/assemblee-au-culte.webp",
  "verset_de_base": "Ep 4:2",
- "lecture_minutes": 7,
+ "lecture_minutes": 11,
  "objectifs": [
   "Accepter que l'église soit faite de gens imparfaits.",
   "Cultiver la patience, la douceur et l'humilité.",
@@ -140,6 +140,79 @@
   },
   {
    "numero": "5",
+   "titre": "Joseph et ses frères, Paul et Barnabas",
+   "references": [
+    "Gn 45:4-8",
+    "Ac 15:37-40",
+    "2 Tm 4:11"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Joseph a supporté ses frères"
+    },
+    {
+     "texte": "Les frères de Joseph l'avaient jeté dans une citerne, puis vendu comme esclave. Des années plus tard, devenu gouverneur de l'Égypte, il aurait pu se venger. Il leur a dit : « Ce n'est pas vous qui m'avez envoyé ici, c'est Dieu. » Il a nourri leurs familles pendant la famine. Joseph voyait la main de Dieu au-dessus du mal des hommes. C'est ce regard qui permet de supporter les autres."
+    },
+    {
+     "verset": "Gn 45:4-8"
+    },
+    {
+     "sous_titre": "Quand même les apôtres se séparent"
+    },
+    {
+     "texte": "Paul et Barnabas, deux hommes de Dieu, ont eu un désaccord si vif au sujet de Jean-Marc qu'ils se sont séparés. La Bible ne cache pas ce conflit. Mais plus tard, Paul a écrit : « Prends Marc, car il m'est utile. » Le désaccord n'a pas détruit l'œuvre ; et la relation s'est restaurée. Entre chrétiens, il y aura des désaccords. La question est de savoir si nous les laissons devenir de l'amertume."
+    },
+    {
+     "verset": "2 Tm 4:11"
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Ce qui nous fatigue chez les autres",
+   "references": [
+    "Pr 25:24",
+    "Pr 26:20",
+    "Ec 7:21-22"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Les caractères difficiles"
+    },
+    {
+     "texte": "Le Proverbe parle de la femme querelleuse ; il y a aussi l'homme colérique, le frère susceptible, la sœur qui se plaint de tout, l'ancien qui ne sourit jamais. Ces caractères fatiguent. Supporter, ce n'est pas faire semblant que cela ne nous coûte rien ; c'est choisir de rester dans l'amour malgré la fatigue, et parfois de dire avec douceur à l'autre ce qui blesse."
+    },
+    {
+     "verset": "Pr 25:24"
+    },
+    {
+     "sous_titre": "Les paroles entendues par hasard"
+    },
+    {
+     "texte": "L'Ecclésiaste donne un conseil très pratique : ne prête pas attention à toutes les paroles qu'on dit, de peur d'entendre ton serviteur te maudire ; car ton cœur sait que toi aussi tu as maudit d'autres personnes. Si tu entends qu'un frère a parlé contre toi, souviens-toi que tu as toi aussi parlé contre d'autres. Ne cherche pas à tout savoir de ce qu'on dit sur toi."
+    },
+    {
+     "verset": "Ec 7:21-22"
+    },
+    {
+     "sous_titre": "Ne pas alimenter le feu"
+    },
+    {
+     "texte": "Faute de bois, le feu s'éteint ; et quand il n'y a plus de rapporteur, la querelle s'apaise. Beaucoup de conflits ne vivent que parce que quelqu'un rapporte. Si quelqu'un vient te raconter ce que l'autre a dit de toi, demande-lui : « Est-ce que tu lui as dit d'aller me voir directement ? »"
+    },
+    {
+     "verset": "Pr 26:20"
+    },
+    {
+     "sous_titre": "Prier pour celui qui est difficile"
+    },
+    {
+     "texte": "Il est très difficile de rester irrité contre quelqu'un pour qui on prie chaque jour avec sincérité. Mets son nom dans ta liste de prière. Bénis-le devant Dieu. Demande à Dieu de te montrer ce qu'il voit en lui. Souvent, c'est notre regard qui change avant que l'autre change."
+    }
+   ]
+  },
+  {
+   "numero": "7",
    "titre": "Conclusion",
    "references": [
     "Rm 15:5-7"
@@ -187,6 +260,39 @@
    "reponse": 1,
    "explication": "(Galates 6:1)",
    "section": "4"
+  },
+  {
+   "question": "Qu'a dit Joseph à ses frères qui l'avaient vendu ?",
+   "choix": [
+    "Vous allez payer",
+    "Ce n'est pas vous qui m'avez envoyé ici, c'est Dieu",
+    "Je ne vous connais pas"
+   ],
+   "reponse": 1,
+   "explication": "(Genèse 45:8)",
+   "section": "5"
+  },
+  {
+   "question": "Que dit Paul de Marc après leur séparation ?",
+   "choix": [
+    "Qu'il ne voulait plus le voir",
+    "Prends Marc, car il m'est utile",
+    "Qu'il avait quitté la foi"
+   ],
+   "reponse": 1,
+   "explication": "(2 Timothée 4:11)",
+   "section": "5"
+  },
+  {
+   "question": "Selon Proverbes 26:20, qu'est-ce qui apaise la querelle ?",
+   "choix": [
+    "Une bonne dispute",
+    "L'absence de rapporteur",
+    "Le temps seulement"
+   ],
+   "reponse": 1,
+   "explication": "(Proverbes 26:20)",
+   "section": "6"
   }
  ],
  "devoir": [

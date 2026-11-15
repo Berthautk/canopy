@@ -7,7 +7,7 @@
  "resume": "Dixième leçon du volume 3 : une salutation sincère, un nom retenu, un visiteur qu'on accompagne. Ces gestes simples disent l'Évangile avant même le premier chant, et beaucoup d'églises les négligent.",
  "image": "/assets/eglise/accueil-poignee-de-main.webp",
  "verset_de_base": "Rm 16:16",
- "lecture_minutes": 8,
+ "lecture_minutes": 11,
  "objectifs": [
   "Comprendre l'importance biblique de la salutation.",
   "Accueillir les visiteurs et les nouveaux venus.",
@@ -136,6 +136,75 @@
   },
   {
    "numero": "5",
+   "titre": "Jésus et l'accueil des exclus",
+   "references": [
+    "Mc 10:13-16",
+    "Lc 19:5",
+    "Jn 4:7-9"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Les enfants"
+    },
+    {
+     "texte": "Des gens amenaient des petits enfants à Jésus, mais les disciples les repoussaient. Jésus fut indigné et dit : « Laissez venir à moi les petits enfants. » Puis il les prit dans ses bras et les bénit. Dans nos églises, les enfants sont souvent tolérés, mais pas accueillis. Jésus, lui, prenait le temps de les recevoir."
+    },
+    {
+     "verset": "Mc 10:13-16"
+    },
+    {
+     "sous_titre": "Zachée appelé par son nom"
+    },
+    {
+     "texte": "Quand Jésus arriva sous le sycomore, il leva les yeux et dit : « Zachée, hâte-toi de descendre. » Personne n'appelait plus Zachée par son nom ; on l'appelait « le collecteur d'impôts », « le pécheur ». Jésus l'a appelé par son nom, devant toute la foule. Retenir et prononcer le nom d'une personne méprisée, c'est déjà lui rendre sa dignité."
+    },
+    {
+     "verset": "Lc 19:5"
+    },
+    {
+     "sous_titre": "La Samaritaine"
+    },
+    {
+     "texte": "Jésus a parlé à une femme samaritaine, seule, au puits, en plein midi. Les Juifs n'avaient pas de relations avec les Samaritains, et un rabbin ne parlait pas seul à seul à une femme. Elle-même s'en étonne : « Comment toi, qui es Juif, me demandes-tu à boire ? » Jésus a franchi trois barrières à la fois pour saluer une âme."
+    },
+    {
+     "verset": "Jn 4:7-9"
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Faire de l'accueil une habitude d'église",
+   "references": [
+    "Rm 12:13",
+    "1 P 4:9"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Une équipe d'accueil"
+    },
+    {
+     "texte": "Chaque église devrait avoir quelques frères et sœurs dont le service est d'accueillir : être à la porte avant le culte, repérer les nouveaux, s'asseoir avec eux, les présenter, prendre leur numéro, les appeler dans la semaine. Ce service peut sembler petit ; il décide souvent si un visiteur reviendra ou non."
+    },
+    {
+     "sous_titre": "Après le culte"
+    },
+    {
+     "texte": "Le moment le plus important pour l'accueil, ce n'est pas l'entrée, c'est la sortie. Le nouveau qui reste seul à la fin du culte pendant que tout le monde parle en petits groupes repartira avec le sentiment de ne pas compter. Avant de rejoindre tes amis, va vers celui qui est seul."
+    },
+    {
+     "sous_titre": "Saluer aussi hors de l'église"
+    },
+    {
+     "texte": "Le chrétien salue son voisin, le gardien, la vendeuse du marché, le collègue qui ne lui ressemble pas. Une salutation chaleureuse, régulière, ouvre souvent la porte à une conversation sur Jésus des mois plus tard."
+    },
+    {
+     "verset": "Rm 12:13"
+    }
+   ]
+  },
+  {
+   "numero": "7",
    "titre": "Conclusion",
    "references": [
     "3 Jn 15"
@@ -183,6 +252,39 @@
    "reponse": 1,
    "explication": "(1 Pierre 4:9)",
    "section": "4"
+  },
+  {
+   "question": "Qu'a fait Jésus quand les disciples repoussaient les enfants ?",
+   "choix": [
+    "Il a approuvé les disciples",
+    "Il s'est indigné, les a pris dans ses bras et les a bénis",
+    "Il est parti"
+   ],
+   "reponse": 1,
+   "explication": "(Marc 10:14-16)",
+   "section": "5"
+  },
+  {
+   "question": "Comment Jésus a-t-il appelé Zachée ?",
+   "choix": [
+    "Pécheur",
+    "Par son nom",
+    "Collecteur d'impôts"
+   ],
+   "reponse": 1,
+   "explication": "(Luc 19:5)",
+   "section": "5"
+  },
+  {
+   "question": "Quel est souvent le moment le plus important pour accueillir un nouveau ?",
+   "choix": [
+    "L'entrée seulement",
+    "La fin du culte, quand il risque de rester seul",
+    "La prédication"
+   ],
+   "reponse": 1,
+   "explication": "Avant de rejoindre tes amis, va vers celui qui est seul.",
+   "section": "6"
   }
  ],
  "devoir": [

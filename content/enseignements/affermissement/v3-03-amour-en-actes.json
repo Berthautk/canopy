@@ -7,7 +7,7 @@
  "resume": "Troisième leçon du volume 3 : l'amour chrétien se voit dans les mains, pas seulement dans les mots. Le bon Samaritain, la foi qui agit, porter les fardeaux les uns des autres, et l'aide concrète aux frères dans le besoin.",
  "image": "/assets/scenes-bibliques/bon-samaritain.webp",
  "verset_de_base": "1 Jn 3:18",
- "lecture_minutes": 8,
+ "lecture_minutes": 13,
  "objectifs": [
   "Comprendre que l'amour se prouve par des actes.",
   "Apprendre de la parabole du bon Samaritain.",
@@ -127,6 +127,82 @@
   },
   {
    "numero": "5",
+   "titre": "L'Église primitive en actes",
+   "references": [
+    "Ac 4:32-35",
+    "Ac 11:27-30",
+    "2 Co 8:1-5"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Personne n'était dans le besoin"
+    },
+    {
+     "texte": "Dans les premiers jours de l'Église, la multitude de ceux qui avaient cru n'était qu'un cœur et qu'une âme. Ceux qui possédaient des champs ou des maisons les vendaient et apportaient le prix aux apôtres, et l'on distribuait à chacun selon qu'il en avait besoin. Il n'y avait parmi eux aucun indigent. Ce n'était pas un système imposé : c'était l'amour de Christ qui débordait."
+    },
+    {
+     "verset": "Ac 4:32-35"
+    },
+    {
+     "sous_titre": "La collecte pour la famine"
+    },
+    {
+     "texte": "Quand le prophète Agabus annonça une famine, les disciples d'Antioche résolurent d'envoyer, chacun selon ses moyens, un secours aux frères de Judée. Une église jeune, composée surtout d'anciens païens, a aidé l'église mère de Jérusalem. La générosité ne dépend pas de l'ancienneté ni de la richesse."
+    },
+    {
+     "verset": "Ac 11:27-30"
+    },
+    {
+     "sous_titre": "Les Macédoniens pauvres et généreux"
+    },
+    {
+     "texte": "Paul raconte que les églises de Macédoine, au milieu de grandes épreuves et d'une pauvreté profonde, ont donné selon leurs moyens et même au-delà, de leur plein gré. Ils ont supplié Paul de leur accorder la grâce de participer. Nous disons souvent : quand j'aurai plus, je donnerai. Les Macédoniens ont donné de leur pauvreté."
+    },
+    {
+     "verset": "2 Co 8:1-5"
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Les fardeaux de notre temps",
+   "references": [
+    "Pr 3:27-28",
+    "Es 58:6-7",
+    "Jc 1:27"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Ne pas remettre à demain"
+    },
+    {
+     "texte": "Le Proverbe dit : ne refuse pas un bienfait à celui qui y a droit, quand tu as le pouvoir de l'accorder. Ne dis pas à ton prochain : va et reviens, demain je donnerai, quand tu as de quoi donner. Combien de fois avons-nous dit « je vais voir » à quelqu'un qui avait besoin aujourd'hui ?"
+    },
+    {
+     "verset": "Pr 3:27-28"
+    },
+    {
+     "sous_titre": "Le jeûne que Dieu aime"
+    },
+    {
+     "texte": "Dieu dit par Ésaïe que le jeûne qui lui plaît, c'est de détacher les chaînes de la méchanceté, de partager son pain avec celui qui a faim, de faire entrer dans sa maison les malheureux sans asile, de couvrir celui qui est nu. On peut jeûner trois jours et fermer son cœur au voisin qui a faim. Dieu ne veut pas de ce jeûne-là."
+    },
+    {
+     "verset": "Es 58:6-7"
+    },
+    {
+     "sous_titre": "Des situations concrètes"
+    },
+    {
+     "texte": "Une famille ne peut pas payer l'hôpital. Un frère est en prison. Une veuve est chassée de sa maison par la belle-famille. Un jeune a eu son admission mais n'a pas de quoi payer l'inscription. Un orphelin dort dehors. Ce sont les fardeaux de nos églises aujourd'hui. Une église qui prie pour eux sans jamais se cotiser, sans jamais visiter, sans jamais accompagner aux démarches, n'a pas encore compris l'amour en actes. La religion pure, dit Jacques, c'est de visiter les orphelins et les veuves dans leurs afflictions."
+    },
+    {
+     "verset": "Jc 1:27"
+    }
+   ]
+  },
+  {
+   "numero": "7",
    "titre": "Conclusion",
    "references": [
     "Mt 25:35-40"
@@ -174,6 +250,39 @@
    "reponse": 1,
    "explication": "(Galates 6:2)",
    "section": "3"
+  },
+  {
+   "question": "Que se passait-il dans l'Église de Jérusalem selon Actes 4:34 ?",
+   "choix": [
+    "Les riches gardaient tout",
+    "Il n'y avait parmi eux aucun indigent",
+    "Chacun s'occupait de soi"
+   ],
+   "reponse": 1,
+   "explication": "(Actes 4:34)",
+   "section": "5"
+  },
+  {
+   "question": "Comment ont donné les églises de Macédoine ?",
+   "choix": [
+    "Seulement de leur superflu",
+    "Selon leurs moyens et au-delà, malgré une profonde pauvreté",
+    "Sous la contrainte"
+   ],
+   "reponse": 1,
+   "explication": "(2 Corinthiens 8:2-3)",
+   "section": "5"
+  },
+  {
+   "question": "Quel est le jeûne que Dieu aime selon Ésaïe 58 ?",
+   "choix": [
+    "Un jeûne sans eau",
+    "Partager son pain, accueillir le malheureux, couvrir celui qui est nu",
+    "Un jeûne de quarante jours"
+   ],
+   "reponse": 1,
+   "explication": "(Ésaïe 58:6-7)",
+   "section": "6"
   }
  ],
  "devoir": [

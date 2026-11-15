@@ -7,7 +7,7 @@
  "resume": "Deuxième leçon du volume 3 : le commandement nouveau de Jésus. Ce que veut dire aimer comme lui a aimé, pourquoi c'est le signe qui prouve qu'on est ses disciples, et ce que l'amour n'est pas.",
  "image": "/assets/eglise/accueil-poignee-de-main.webp",
  "verset_de_base": "Jn 13:34-35",
- "lecture_minutes": 7,
+ "lecture_minutes": 11,
  "objectifs": [
   "Comprendre le commandement nouveau de Jésus.",
   "Découvrir la mesure de cet amour : comme lui nous a aimés.",
@@ -120,6 +120,88 @@
   },
   {
    "numero": "5",
+   "titre": "Les ennemis de l'amour fraternel",
+   "references": [
+    "1 Co 3:3",
+    "Jc 4:1-2",
+    "Pr 6:16-19"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La jalousie et les disputes"
+    },
+    {
+     "texte": "Paul écrit aux Corinthiens : puisqu'il y a parmi vous de la jalousie et des disputes, n'êtes-vous pas charnels ? Dans beaucoup d'églises, l'amour est étouffé par la jalousie : jalousie du chantre qui chante mieux, de la sœur qui a un mari, du frère qui a réussi, du serviteur que le pasteur écoute davantage. La jalousie se déguise en zèle spirituel, mais c'est la chair."
+    },
+    {
+     "verset": "1 Co 3:3"
+    },
+    {
+     "sous_titre": "D'où viennent les luttes ?"
+    },
+    {
+     "texte": "Jacques pose la question : d'où viennent les luttes et les querelles parmi vous ? N'est-ce pas de vos passions qui combattent dans vos membres ? Vous convoitez, et vous ne possédez pas. Derrière beaucoup de conflits entre chrétiens, il n'y a pas une question de doctrine, mais un désir frustré : une place, un titre, de l'argent, de l'attention."
+    },
+    {
+     "verset": "Jc 4:1-2"
+    },
+    {
+     "sous_titre": "Semer la discorde"
+    },
+    {
+     "texte": "Parmi les sept choses que l'Éternel a en horreur, la Bible cite « celui qui excite des querelles entre frères ». Le chrétien qui répand des rumeurs, qui rapporte à l'un ce que l'autre a dit, qui forme des groupes dans l'église, fait une œuvre que Dieu déteste."
+    },
+    {
+     "verset": "Pr 6:16-19"
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Aimer concrètement, chaque semaine",
+   "references": [
+    "Rm 12:10",
+    "1 Th 4:9-10",
+    "1 P 1:22"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Être les premiers à honorer"
+    },
+    {
+     "texte": "Paul dit : par amour fraternel, soyez pleins d'affection les uns pour les autres ; par honneur, usez de prévenances réciproques. Littéralement : devancez-vous les uns les autres dans l'honneur. Ne pas attendre que l'autre salue, que l'autre appelle, que l'autre demande pardon. Faire le premier pas."
+    },
+    {
+     "verset": "Rm 12:10"
+    },
+    {
+     "sous_titre": "Toujours plus"
+    },
+    {
+     "texte": "Paul écrit aux Thessaloniciens qu'ils n'ont pas besoin qu'on leur écrive au sujet de l'amour fraternel, car ils ont appris de Dieu à s'aimer. Mais il ajoute : nous vous exhortons à progresser de plus en plus. L'amour n'est jamais un examen réussi une fois pour toutes. On peut toujours aimer davantage."
+    },
+    {
+     "verset": "1 Th 4:9-10"
+    },
+    {
+     "sous_titre": "Ardemment, de tout cœur"
+    },
+    {
+     "texte": "Pierre demande de s'aimer « ardemment, de tout cœur ». Le mot évoque un muscle tendu, un effort. Aimer certains frères demande un effort. C'est normal. Ce n'est pas un échec de devoir faire un effort pour aimer ; c'est cela, l'amour chrétien."
+    },
+    {
+     "verset": "1 P 1:22"
+    },
+    {
+     "sous_titre": "Quelques gestes cette semaine"
+    },
+    {
+     "texte": "Appeler un frère que tu n'as pas vu depuis longtemps. Rendre visite à une famille en deuil. Aider un étudiant à payer ses frais. Partager un repas. Dire du bien d'un frère absent. Prier pour celui qui t'a blessé. Garder le secret de quelqu'un qui s'est confié. L'amour n'est pas d'abord un sentiment ; c'est une suite de choix concrets."
+    }
+   ]
+  },
+  {
+   "numero": "7",
    "titre": "Conclusion",
    "references": [
     "1 Jn 4:19-21"
@@ -167,6 +249,39 @@
    "reponse": 1,
    "explication": "(1 Jean 4:20)",
    "section": "5"
+  },
+  {
+   "question": "Selon 1 Corinthiens 3:3, que révèlent la jalousie et les disputes ?",
+   "choix": [
+    "Une grande spiritualité",
+    "Que nous sommes encore charnels",
+    "Un zèle pour Dieu"
+   ],
+   "reponse": 1,
+   "explication": "(1 Corinthiens 3:3)",
+   "section": "5"
+  },
+  {
+   "question": "D'où viennent les luttes entre chrétiens selon Jacques ?",
+   "choix": [
+    "Des différences de doctrine seulement",
+    "Des passions et des convoitises du cœur",
+    "Du diable seulement"
+   ],
+   "reponse": 1,
+   "explication": "(Jacques 4:1-2)",
+   "section": "5"
+  },
+  {
+   "question": "Que veut dire « usez de prévenances réciproques » ?",
+   "choix": [
+    "Attendre que l'autre fasse le premier pas",
+    "Devancer les autres dans l'honneur, faire le premier pas",
+    "Se méfier les uns des autres"
+   ],
+   "reponse": 1,
+   "explication": "(Romains 12:10)",
+   "section": "6"
   }
  ],
  "devoir": [

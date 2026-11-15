@@ -7,7 +7,7 @@
  "resume": "Quatrième leçon du volume 3 : une parole peut relever ou détruire. Barnabas, le fils d'encouragement, et comment devenir quelqu'un dont la présence fortifie les autres.",
  "image": "/assets/famille-quotidien/mentorat-jeune.webp",
  "verset_de_base": "1 Th 5:11",
- "lecture_minutes": 6,
+ "lecture_minutes": 12,
  "objectifs": [
   "Comprendre la puissance des paroles.",
   "Apprendre de l'exemple de Barnabas.",
@@ -132,6 +132,88 @@
   },
   {
    "numero": "4",
+   "titre": "Les paroles qui découragent",
+   "references": [
+    "Nb 13:31-33",
+    "Jb 16:2",
+    "Jc 3:5-10"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Les dix espions"
+    },
+    {
+     "texte": "Moïse envoya douze hommes explorer le pays promis. Dix revinrent en disant : « Nous ne pouvons pas monter contre ce peuple, car il est plus fort que nous. Nous étions à nos yeux comme des sauterelles. » Leurs paroles découragèrent tout le peuple, qui passa la nuit à pleurer et voulut retourner en Égypte. Une génération entière a erré quarante ans dans le désert à cause de paroles de découragement. Ne sous-estime jamais le pouvoir d'une parole négative répétée dans un groupe."
+    },
+    {
+     "verset": "Nb 13:31-33"
+    },
+    {
+     "sous_titre": "Les amis de Job"
+    },
+    {
+     "texte": "Les amis de Job sont venus pour le consoler. Ils ont bien commencé : ils se sont assis avec lui sept jours en silence. Puis ils ont parlé, et tout s'est gâté. Ils lui ont expliqué que s'il souffrait, c'était sûrement à cause de son péché. Job leur a répondu : « Vous êtes tous des consolateurs fâcheux. » Certaines paroles qui se veulent spirituelles écrasent celui qui souffre. Avant d'expliquer, assieds-toi, écoute, pleure avec lui."
+    },
+    {
+     "verset": "Jb 16:2"
+    },
+    {
+     "sous_titre": "La langue, un petit feu"
+    },
+    {
+     "texte": "Jacques dit que la langue est un petit membre qui se vante de grandes choses : voyez comme un petit feu peut embraser une grande forêt ! Par elle nous bénissons le Seigneur, et par elle nous maudissons les hommes faits à l'image de Dieu. Il ne faut pas, mes frères, qu'il en soit ainsi. Le chrétien qui loue Dieu le dimanche et rabaisse ses enfants le lundi a une langue partagée."
+    },
+    {
+     "verset": "Jc 3:5-10"
+    }
+   ]
+  },
+  {
+   "numero": "5",
+   "titre": "Encourager dans les situations difficiles",
+   "references": [
+    "1 S 23:16",
+    "2 Co 7:6-7",
+    "Ac 27:22-25"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Jonathan auprès de David"
+    },
+    {
+     "texte": "Quand David fuyait Saül et se cachait dans le désert, Jonathan, le fils du roi, se leva et alla vers lui. La Bible dit qu'il « fortifia sa confiance en Dieu ». Il ne lui a pas seulement dit : courage. Il l'a tourné vers Dieu. Le meilleur encouragement ne dit pas : tu es fort ; il dit : Dieu est fidèle."
+    },
+    {
+     "verset": "1 S 23:16"
+    },
+    {
+     "sous_titre": "Tite auprès de Paul"
+    },
+    {
+     "texte": "Paul était abattu en Macédoine : combats au-dehors, craintes au-dedans. Il écrit : « Mais Dieu, qui console ceux qui sont abattus, nous a consolés par l'arrivée de Tite. » Dieu console souvent par la visite d'un frère. Tu peux être ce Tite pour quelqu'un cette semaine : un malade, une veuve, un frère qui a perdu son travail, un pasteur fatigué."
+    },
+    {
+     "verset": "2 Co 7:6-7"
+    },
+    {
+     "sous_titre": "Paul dans la tempête"
+    },
+    {
+     "texte": "Pendant la tempête qui allait faire naufrage, tout le monde avait perdu espoir. Paul, prisonnier, s'est levé et a dit : « Je vous exhorte à prendre courage, car aucun de vous ne périra. J'ai confiance en Dieu. » Un seul croyant qui encourage peut changer l'atmosphère de tout un bateau, d'un bureau, d'une famille, d'un hôpital."
+    },
+    {
+     "verset": "Ac 27:22-25"
+    },
+    {
+     "sous_titre": "Des phrases simples"
+    },
+    {
+     "texte": "« Je prie pour toi chaque matin. » « Je vois que tu as beaucoup grandi depuis l'année dernière. » « Ce que tu as fait pour cette veuve m'a touché. » « Tu n'es pas seul ; on va traverser ça ensemble. » « Dieu n'a pas fini avec toi. » Écris-les, envoie-les, dis-les. Elles coûtent peu et peuvent sauver une foi."
+    }
+   ]
+  },
+  {
+   "numero": "6",
    "titre": "Conclusion",
    "references": [
     "Es 50:4"
@@ -179,6 +261,39 @@
    "reponse": 1,
    "explication": "(Hébreux 3:13)",
    "section": "3"
+  },
+  {
+   "question": "Quel a été l'effet des paroles des dix espions ?",
+   "choix": [
+    "Le peuple a pris courage",
+    "Le peuple a pleuré et a voulu retourner en Égypte",
+    "Le peuple est entré dans le pays"
+   ],
+   "reponse": 1,
+   "explication": "(Nombres 13-14)",
+   "section": "5"
+  },
+  {
+   "question": "Qu'a fait Jonathan pour David dans le désert ?",
+   "choix": [
+    "Il lui a donné une armée",
+    "Il a fortifié sa confiance en Dieu",
+    "Il l'a dénoncé à Saül"
+   ],
+   "reponse": 1,
+   "explication": "(1 Samuel 23:16)",
+   "section": "6"
+  },
+  {
+   "question": "Comment Dieu a-t-il consolé Paul abattu en Macédoine ?",
+   "choix": [
+    "Par un songe",
+    "Par l'arrivée de Tite",
+    "Par un ange"
+   ],
+   "reponse": 1,
+   "explication": "(2 Corinthiens 7:6)",
+   "section": "6"
   }
  ],
  "devoir": [

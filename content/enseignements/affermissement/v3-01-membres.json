@@ -7,7 +7,7 @@
  "resume": "Première leçon du volume 3 de « Former le disciple » : on ne peut pas être chrétien tout seul. L'Église est un corps, et chaque croyant en est un membre qui a besoin des autres et dont les autres ont besoin.",
  "image": "/assets/vie-chretienne/communaute-silhouettes.webp",
  "verset_de_base": "Rm 12:5",
- "lecture_minutes": 9,
+ "lecture_minutes": 12,
  "objectifs": [
   "Comprendre que l'Église est un corps et non un lieu de culte.",
   "Voir que chaque membre a besoin des autres.",
@@ -150,6 +150,76 @@
   },
   {
    "numero": "5",
+   "titre": "Les obstacles à la vie de corps",
+   "references": [
+    "He 10:25",
+    "3 Jn 9-10",
+    "Jn 13:35"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "L'individualisme"
+    },
+    {
+     "texte": "Notre époque pousse chacun à vivre sa foi seul : un culte sur internet, un prédicateur sur les réseaux, une prière dans sa chambre, et l'on se dit chrétien sans appartenir à personne. L'épître aux Hébreux parle déjà de ceux qui abandonnent l'assemblée « comme c'est la coutume de quelques-uns ». Un membre qui se détache du corps se dessèche, même s'il continue à regarder des prédications."
+    },
+    {
+     "verset": "He 10:25"
+    },
+    {
+     "sous_titre": "L'église spectacle"
+    },
+    {
+     "texte": "Dans certaines églises, quelques personnes font tout sur l'estrade, et la foule regarde. On vient consommer un bon culte, une bonne louange, un bon message. Ce n'est pas un corps, c'est un public. Dans un corps, chaque membre travaille."
+    },
+    {
+     "sous_titre": "Les divisions"
+    },
+    {
+     "texte": "Diotrèphe aimait être le premier, refusait de recevoir les frères et chassait ceux qui voulaient les recevoir. Les divisions autour d'un homme, d'une famille ou d'un groupe déchirent le corps de Christ. Jésus a dit que le monde reconnaîtrait ses disciples à leur amour les uns pour les autres, pas à leur nombre."
+    },
+    {
+     "verset": "3 Jn 9-10"
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Trouver sa place dans le corps",
+   "references": [
+    "Rm 12:6",
+    "1 Co 12:18",
+    "1 P 4:10"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Dieu a placé chaque membre"
+    },
+    {
+     "texte": "Paul dit : Dieu a placé chacun des membres dans le corps comme il a voulu. Tu n'es pas dans ton église par hasard. Ta place n'est pas forcément sur l'estrade ; elle peut être à la porte, dans la cuisine, auprès des enfants, dans la prière cachée, dans la visite des malades. Toutes ces places sont choisies par Dieu."
+    },
+    {
+     "verset": "1 Co 12:18"
+    },
+    {
+     "sous_titre": "Trois questions pour trouver ta place"
+    },
+    {
+     "texte": "Qu'est-ce que je fais facilement et avec joie, et qui aide les autres ? Quels besoins de mon église me touchent particulièrement ? Qu'est-ce que des chrétiens mûrs voient en moi ? Les réponses à ces trois questions indiquent souvent ton don. Puis essaie, sers, et vois ce que Dieu bénit."
+    },
+    {
+     "sous_titre": "Dans un petit groupe"
+    },
+    {
+     "texte": "Le corps se vit vraiment dans les petits groupes : cellules de maison, groupes de prière, études bibliques. Dans une grande assemblée, on peut rester anonyme ; dans un petit groupe, on se connaît, on prie les uns pour les autres, on se remarque quand quelqu'un manque. Si tu n'appartiens à aucun petit groupe, c'est la première étape à franchir."
+    },
+    {
+     "verset": "1 P 4:10"
+    }
+   ]
+  },
+  {
+   "numero": "7",
    "titre": "Conclusion",
    "references": [
     "Ep 2:19"
@@ -197,6 +267,39 @@
    "reponse": 1,
    "explication": "(Actes 2:42)",
    "section": "4"
+  },
+  {
+   "question": "Qui place chaque membre dans le corps ?",
+   "choix": [
+    "Le pasteur",
+    "Dieu, comme il a voulu",
+    "Chacun choisit sa place"
+   ],
+   "reponse": 1,
+   "explication": "(1 Corinthiens 12:18)",
+   "section": "6"
+  },
+  {
+   "question": "Que faisait Diotrèphe ?",
+   "choix": [
+    "Il accueillait tout le monde",
+    "Il aimait être le premier et chassait ceux qui recevaient les frères",
+    "Il visitait les malades"
+   ],
+   "reponse": 1,
+   "explication": "(3 Jean 9-10)",
+   "section": "5"
+  },
+  {
+   "question": "Où le corps de Christ se vit-il le plus concrètement ?",
+   "choix": [
+    "Seulement le dimanche",
+    "Dans les petits groupes où l'on se connaît et prie les uns pour les autres",
+    "Sur internet"
+   ],
+   "reponse": 1,
+   "explication": "On se remarque quand quelqu'un manque.",
+   "section": "6"
   }
  ],
  "devoir": [

@@ -7,7 +7,7 @@
  "resume": "Neuvième leçon du volume 3 : quand un frère tombe dans le péché, on ne l'expose pas, on ne le chasse pas, et on ne se tait pas non plus. La méthode de Jésus en Matthieu 18 et l'esprit de douceur de Galates 6.",
  "image": "/assets/famille-quotidien/mentorat-jeune.webp",
  "verset_de_base": "Ga 6:1",
- "lecture_minutes": 9,
+ "lecture_minutes": 12,
  "objectifs": [
   "Comprendre le devoir de reprendre un frère qui pèche.",
   "Connaître les étapes données par Jésus en Matthieu 18.",
@@ -161,6 +161,72 @@
   },
   {
    "numero": "5",
+   "titre": "Ce qu'il ne faut pas faire",
+   "references": [
+    "Pr 11:13",
+    "Pr 18:17",
+    "Lc 9:54-55"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Exposer sur les réseaux"
+    },
+    {
+     "texte": "Aujourd'hui, beaucoup de « reprises » se font sur WhatsApp ou Facebook : un message vocal partagé, une capture d'écran, une publication indirecte. Celui qui va et répand la calomnie dévoile les secrets, mais celui qui a l'esprit fidèle les garde. Exposer un frère en public avant de lui avoir parlé en privé, c'est désobéir directement à Matthieu 18."
+    },
+    {
+     "verset": "Pr 11:13"
+    },
+    {
+     "sous_titre": "Juger sur un seul témoignage"
+    },
+    {
+     "texte": "Le premier qui parle dans sa cause paraît juste ; vient sa partie adverse, et on l'examine. Avant de reprendre quelqu'un, assure-toi des faits. Beaucoup de frères ont été blessés par une reprise fondée sur une rumeur."
+    },
+    {
+     "verset": "Pr 18:17"
+    },
+    {
+     "sous_titre": "Reprendre avec colère"
+    },
+    {
+     "texte": "Jacques et Jean voulaient faire descendre le feu du ciel sur un village samaritain. Jésus se tourna vers eux et les réprimanda. La colère humaine n'accomplit pas la justice de Dieu. Si tu es encore en colère, attends avant d'aller voir la personne ; prie d'abord jusqu'à ce que ton cœur soit apaisé."
+    },
+    {
+     "verset": "Lc 9:54-55"
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Après la reprise",
+   "references": [
+    "2 Co 2:6-8",
+    "Ga 6:2"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Réintégrer celui qui s'est repenti"
+    },
+    {
+     "texte": "Dans l'église de Corinthe, un homme avait été sanctionné pour un péché grave. Quand il s'est repenti, Paul a écrit : il suffit pour cet homme du châtiment qui lui a été infligé ; vous devez plutôt lui pardonner et le consoler, de peur qu'il ne soit accablé par une tristesse excessive. Je vous exhorte à confirmer à son égard votre charité. Beaucoup d'églises savent sanctionner, mais ne savent pas réintégrer. Celui qui revient a besoin d'être accueilli, pas surveillé."
+    },
+    {
+     "verset": "2 Co 2:6-8"
+    },
+    {
+     "sous_titre": "Accompagner dans la durée"
+    },
+    {
+     "texte": "Une conversation ne suffit pas toujours. Celui qui sort d'un péché d'habitude, d'une dépendance, d'une relation coupable, a besoin d'un frère ou d'une sœur qui marche avec lui pendant des mois. Portez les fardeaux les uns des autres."
+    },
+    {
+     "verset": "Ga 6:2"
+    }
+   ]
+  },
+  {
+   "numero": "7",
    "titre": "Conclusion",
    "references": [
     "Pr 28:13"
@@ -208,6 +274,28 @@
    "reponse": 1,
    "explication": "Les autorités sont établies par Dieu pour punir le mal (Romains 13:4).",
    "section": "4"
+  },
+  {
+   "question": "Que dit Proverbes 11:13 de celui qui répand les secrets ?",
+   "choix": [
+    "Il est sage",
+    "C'est un calomniateur ; l'esprit fidèle garde les secrets",
+    "Il aide l'église"
+   ],
+   "reponse": 1,
+   "explication": "(Proverbes 11:13)",
+   "section": "5"
+  },
+  {
+   "question": "Que demande Paul pour l'homme repenti de Corinthe ?",
+   "choix": [
+    "Le chasser définitivement",
+    "Lui pardonner, le consoler et lui confirmer votre amour",
+    "L'ignorer"
+   ],
+   "reponse": 1,
+   "explication": "(2 Corinthiens 2:7-8)",
+   "section": "6"
   }
  ],
  "devoir": [
