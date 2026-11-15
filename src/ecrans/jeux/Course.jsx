@@ -30,7 +30,7 @@ export function Course() {
   const lire = (t) => lireAVoixHaute('course', [{ texte: t }]);
   let meilleur = 0; try { meilleur = +localStorage.getItem('yeshaya:course-etape') || 0; } catch {}
   const r = useSignal(reglages), musique = r.musiqueJeux !== false;
-  useEffect(() => { if (musique && vue.phase !== 'debut') jouerMusique(); else arreterMusique(); }, [musique, vue.phase === 'debut']);
+  useEffect(() => { if (musique && vue.phase !== 'debut' && vue.phase !== 'pause') jouerMusique(); else arreterMusique(); }, [musique, vue.phase]);
   useEffect(() => () => arreterMusique(), []);
 
   useEffect(() => {
@@ -40,9 +40,11 @@ export function Course() {
     taille(); addEventListener('resize', taille);
     const boucle = (t) => { const dt = Math.min(0.05, (t - dernier) / 1000); dernier = t; avancer(dt); dessiner(ctx, c.getBoundingClientRect()); raf = requestAnimationFrame(boucle); };
     raf = requestAnimationFrame(boucle);
-    const touche = (e) => { if (e.key === 'ArrowLeft') bouger(-1); if (e.key === 'ArrowRight') bouger(1); };
+    const touche = (e) => { if (e.key === 'ArrowLeft') bouger(-1); if (e.key === 'ArrowRight') bouger(1); if (e.key === ' ' || e.key === 'p') { e.preventDefault(); etat.current?.phase === 'pause' ? reprendre() : pause(); } };
+    const cache = () => { if (document.visibilityState !== 'visible') pause(); };
+    document.addEventListener('visibilitychange', cache);
     addEventListener('keydown', touche);
-    return () => { cancelAnimationFrame(raf); removeEventListener('resize', taille); removeEventListener('keydown', touche); arreterVoix(); };
+    return () => { cancelAnimationFrame(raf); removeEventListener('resize', taille); removeEventListener('keydown', touche); document.removeEventListener('visibilitychange', cache); arreterVoix(); };
   }, []);
 
   function nouvelle(n = 0) {
@@ -52,6 +54,8 @@ export function Course() {
     lire(n === 0 ? `Étape 1 : ${et.nom}. Évite les péchés, attrape ce qui te rend fort. Cours ${BUT(0)} mètres !` : `Étape ${n + 1} : ${et.nom}. Cours ${BUT(n)} mètres. Ça va plus vite !`);
     setVue({ phase: 'course' });
   }
+  function pause() { const e = etat.current; if (e?.phase !== 'course') return; e.phase = 'pause'; setVue({ phase: 'pause' }); }
+  function reprendre() { const e = etat.current; if (e?.phase !== 'pause') return; e.phase = 'course'; setVue({ phase: 'course' }); }
   function bouger(s) { const e = etat.current; if (!e || e.phase !== 'course') return; e.voie = Math.max(0, Math.min(2, e.voie + s)); }
 
   function avancer(dt) {
@@ -173,7 +177,10 @@ export function Course() {
   const e = etat.current;
   return (
     <div class="page course">
+      <div class="course__haut">
+      {(vue.phase === 'course' || vue.phase === 'pause') && <button class="course__musique course__pause" onClick={() => (vue.phase === 'pause' ? reprendre() : pause())}>{vue.phase === 'pause' ? '▶ Reprendre' : '⏸ Pause'}</button>}
       <button class="course__musique" aria-pressed={musique} onClick={() => modifierReglages({ musiqueJeux: !musique })}>{musique ? '🎵 Musique : oui' : '🔇 Musique : non'}</button>
+      </div>
       <div class="course__cadre">
         <canvas ref={toile} class="course__toile" onPointerDown={(ev) => { glisse.current = ev.clientX; }} onPointerUp={(ev) => { const d = ev.clientX - (glisse.current ?? ev.clientX); if (Math.abs(d) > 30) bouger(d < 0 ? -1 : 1); else toucherEcran(ev); }}
           aria-label="Touchez à gauche ou à droite pour changer de voie" />
@@ -184,6 +191,10 @@ export function Course() {
           <p class="course__legende"><span class="course__or">🙏</span> attrape la prière, la Parole, le don… : ils te donnent de la force.</p>
           <button class="bouton bouton--or" onClick={() => nouvelle(0)}>▶ Courir (étape 1)</button>
           {meilleur > 0 && <button class="bouton bouton--contour course__clair" onClick={() => nouvelle(meilleur)}>Reprendre à l'étape {meilleur + 1}</button>}
+        </div>}
+        {vue.phase === 'pause' && <div class="course__voile">
+          <p style="font-size:3rem">⏸</p><h2>Pause</h2><p>Le jeu t'attend.</p>
+          <button class="bouton bouton--or" onClick={reprendre}>▶ Reprendre</button>
         </div>}
         {vue.phase === 'etape' && <div class="course__voile">
           <p style="font-size:2.6rem">🏁</p>

@@ -840,3 +840,5 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .ens-point { font-size: 1.4rem; line-height: 1.25; color: var(--titre); margin: 30px 0 8px; padding: 0 0 10px; border-bottom: 3px solid var(--or); align-items: flex-start; }
 .ens-point .phase__num { width: 42px; height: 42px; font-size: 1.25rem; box-shadow: 0 3px 8px rgba(201,154,46,.45); margin-top: -4px; }
 .section-ens__sous { font-size: 1.12rem; font-weight: 700; padding-left: 10px; border-left: 4px solid var(--or); margin-top: 14px; }
+.course__haut { display: flex; justify-content: flex-end; gap: 8px; margin-top: 8px; } .course__haut .course__musique { margin: 0; }
+.course__pause { margin-right: auto !important; background: #142340; color: #fff; }
