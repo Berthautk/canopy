@@ -1,115 +1,530 @@
 {
  "id": "enseignement-ko-ennemi",
  "titre": "Donner un K.O. à l'ennemi",
- "theme": "Combat spirituel",
  "serie": "L'Arsenal de la Sentinelle",
- "resume": "Les 10 conditions pour faire fuir l'adversaire",
+ "theme": "Combat spirituel",
+ "auteur": "L'Arsenal de la Sentinelle",
+ "resume": "La promesse de Dieu à son peuple : « Ils s'enfuiront devant toi par sept chemins. » Dix conditions bibliques pour que l'ennemi batte en retraite, expliquées avec des histoires de la Bible, sans magie ni formules, mais par la Parole, la prière, la sainteté et la foi.",
  "image": "/assets/temoignage/victoire-bras-leves.webp",
- "verset_de_base": "Deutéronome 28:7",
+ "verset_de_base": "Dt 28:7",
+ "lecture_minutes": 34,
  "objectifs": [
-  "Comprendre que la victoire promise n'est pas automatique mais conditionnelle",
-  "Maîtriser les 10 conditions qui forcent l'adversaire à fuir",
-  "Apprendre à frapper la source de la puissance ennemie, pas seulement ses effets",
-  "Acquérir les principes pratiques d'un combat efficace et durable"
+  "Comprendre la promesse de victoire de Deutéronome 28:7 et ses conditions.",
+  "Découvrir dix principes bibliques qui expliquent pourquoi l'ennemi fuit.",
+  "Apprendre à fermer les portes d'entrée et à couper les sources de puissance de l'ennemi.",
+  "Rester humble, vigilant et uni après la victoire."
  ],
- "introduction": "La Parole de Dieu promet : « L’Éternel te donnera la victoire sur tes ennemis qui s’élèveront contre toi ; ils sortiront contre toi par un seul chemin, et ils s’enfuiront devant toi par sept chemins » (Deutéronome 28:7). Mais cette victoire n'est pas automatique — elle requiert des conditions stratégiques précises. Le combat spirituel est une science que tout croyant sérieux doit maîtriser.",
+ "introduction": "Quand Dieu a préparé son peuple à entrer dans la terre promise, il lui a fait une promesse extraordinaire : l'Éternel te donnera la victoire sur tes ennemis qui s'élèveront contre toi ; ils sortiront contre toi par un seul chemin, et ils s'enfuiront devant toi par sept chemins.\n\nUn seul chemin pour venir, sept chemins pour fuir. L'image est celle d'une armée qui arrive en bon ordre, avec confiance, et qui repart dans le désordre complet, chacun courant dans sa direction. C'est cela que l'on peut appeler un K.O. : pas un petit avantage, mais une déroute complète.\n\nMais regardons ce passage dans son contexte. Cette promesse se trouve au chapitre 28 du Deutéronome, qui commence par une condition : si tu obéis fidèlement à la voix de l'Éternel, ton Dieu, en observant et en mettant en pratique tous ses commandements. La victoire promise n'est donc pas automatique. Elle est liée à l'obéissance et à la relation avec Dieu.\n\nDans cet enseignement, nous allons étudier dix situations où, selon la Bible, l'ennemi est obligé de battre en retraite. Ce ne sont pas des formules magiques, mais des principes tirés de l'Écriture. Je les présente comme une manière d'étudier la Parole, pas comme une liste fermée de dix règles que la Bible aurait numérotées. Et je te propose de les vivre avec humilité : la victoire appartient à Dieu, et non à nous.",
  "sections": [
   {
    "numero": "1",
-   "titre": "Définition — qu'est-ce que donner un K.O. à l'ennemi ?",
+   "titre": "Ce que veut dire « donner un K.O. »",
    "references": [
-    "Jacques 4:7",
-    "Luc 10:19",
-    "Apocalypse 12:11"
+    "Jc 4:7",
+    "Lc 10:19",
+    "Ap 12:11",
+    "Dt 28:7"
    ],
    "blocs": [
     {
-     "texte": "Donner un K.O. à l'ennemi, ce n'est pas le combattre indéfiniment : c'est le mettre en déroute complète, de sorte qu'il fuie. « Résistez au diable, et il fuira loin de vous » (Jacques 4:7)."
+     "sous_titre": "Résistez, et il fuira"
     },
     {
-     "texte": "La fuite de l'ennemi n'est jamais un hasard : elle est la conséquence de conditions spirituelles précises réunies par le croyant. Quand ces conditions sont en place, l'adversaire n'a d'autre choix que de céder le terrain."
+     "texte": "Jacques dit : soumettez-vous donc à Dieu ; résistez au diable, et il fuira loin de vous."
     },
     {
-     "verset": "Luc 10:19"
+     "verset": "Ja 4:7"
     },
     {
-     "texte": "Le pouvoir est déjà donné. Ce que nous étudions ici, ce sont les conditions qui activent ce pouvoir et le rendent visible dans le combat."
+     "texte": "Donner un K.O. à l'ennemi, ce n'est pas le combattre pendant des heures, des semaines, des années, sans jamais en voir la fin. C'est le mettre en déroute, jusqu'à ce qu'il fuie. Beaucoup de chrétiens vivent dans un combat sans fin parce qu'ils ne comprennent pas que la victoire est déjà acquise en Jésus, et qu'il s'agit de la rendre visible."
+    },
+    {
+     "sous_titre": "Le pouvoir est déjà donné"
+    },
+    {
+     "texte": "Jésus dit : voici, je vous ai donné le pouvoir de marcher sur les serpents et les scorpions, et sur toute la puissance de l'ennemi ; et rien ne pourra vous nuire."
+    },
+    {
+     "verset": "Lc 10:19"
+    },
+    {
+     "texte": "Remarque le temps du verbe : je vous ai donné. Le pouvoir est déjà donné. Il ne s'agit pas de le demander à nouveau, mais de l'exercer. Ce que nous allons étudier, ce sont les conditions qui font que cette autorité devient visible."
+    },
+    {
+     "sous_titre": "Une promesse avec des conditions"
+    },
+    {
+     "texte": "Reprenons le contexte de Deutéronome 28. Cette promesse est donnée à un peuple qui vit sous l'alliance de Dieu. Dans ce passage, Dieu promet des bénédictions à ceux qui obéissent. Le Nouveau Testament nous dit que, par Jésus, nous sommes sous une nouvelle alliance, de grâce. Mais le principe reste : la communion avec Dieu est la base de notre sécurité. Un enfant qui reste dans la maison de son père est protégé. Un enfant qui quitte la maison s'expose."
     }
    ]
   },
   {
    "numero": "2",
-   "titre": "Les 10 conditions pour faire fuir l'adversaire",
+   "titre": "Condition 1 à 3 : des armes, une force et une source supérieures",
    "references": [
-    "Deutéronome 28:7",
-    "Nombres 10:35",
-    "1 Jean 4:4"
+    "Hé 4:12",
+    "Ép 6:17",
+    "Mt 17:21",
+    "Jl 2:15",
+    "Ac 19:13-16"
    ],
-   "transition": "L'autorité est posée. Voyons à présent les dix conditions concrètes qui transforment cette autorité en victoire effective sur le terrain.",
    "blocs": [
     {
-     "texte": "L'ennemi fuira lorsque vos armes sont supérieures aux siennes — utilisez la Parole de Dieu comme une épée à deux tranchants (Hébreux 4:12 · Éphésiens 6:17)."
+     "sous_titre": "Des armes supérieures : la Parole"
     },
     {
-     "texte": "L'ennemi fuira lorsque votre force est supérieure — la prière et le jeûne multiplient votre force spirituelle (Matthieu 17:21 · Joël 2:15)."
+     "texte": "L'ennemi fuit quand nos armes sont supérieures aux siennes. Notre épée, c'est la Parole de Dieu, vivante et efficace, plus tranchante qu'une épée à deux tranchants."
     },
     {
-     "texte": "L'ennemi fuira lorsque la source de votre puissance est supérieure — il connaît la différence entre celui qui prie en forme et celui qui vit vraiment la présence de Dieu (Actes 19:15)."
+     "verset": "Hé 4:12"
     },
     {
-     "texte": "L'ennemi fuira quand il devient conscient de votre supériorité — certains combats se gagnent déjà dans le regard et la posture du croyant face à l'adversaire."
+     "texte": "Quand Jésus a été tenté dans le désert, il n'a pas discuté avec le diable. Trois fois, il a répondu : il est écrit. Et le diable s'est retiré pour un temps. Si tu ne connais pas la Parole, tu es comme un soldat qui va au combat sans épée. Apprends des versets par cœur. Dis-les à haute voix."
     },
     {
-     "texte": "L'ennemi fuira lorsqu'il devient conscient de la supériorité de Celui qui demeure en vous — « Celui qui est en vous est plus grand que celui qui est dans le monde » (1 Jean 4:4)."
+     "verset": "Ép 6:17"
     },
     {
-     "texte": "L'ennemi fuira lorsque vous capturez ou détruisez son champion — Goliath tué, toute l'armée s'enfuit (1 Samuel 17:51). En prière, visez la tête du problème."
+     "sous_titre": "Une force supérieure : la prière et le jeûne"
     },
     {
-     "texte": "L'ennemi fuira lorsque vous frappez plus fort que lui — le guerrier de prière monte progressivement en intensité, en persistance et en précision."
+     "texte": "L'ennemi fuit aussi quand notre force est supérieure. Jésus a parlé de la force qui vient de la prière et du jeûne."
     },
     {
-     "texte": "L'ennemi fuira quand il sait que vous n'avez pas peur de la mort — le croyant qui a tout remis à Dieu est le combattant le plus dangereux (Apocalypse 12:11)."
+     "verset": "Mt 17:21"
     },
     {
-     "texte": "L'ennemi fuira lorsque vous coupez la source de sa puissance — identifiez et brisez les portes d'entrée : péchés non confessés, objets contaminés, alliances rompues."
+     "texte": "Joël appelle le peuple : sonnez de la trompette en Sion, publiez un jeûne, convoquez une assemblée solennelle."
     },
     {
-     "texte": "L'ennemi fuira lorsque votre crainte et votre terreur descendent sur lui — le nom de Jésus déclaré avec autorité et foi remplit l'ennemi d'une terreur panique (Luc 10:19)."
+     "verset": "Jl 2:15"
+    },
+    {
+     "texte": "Un corps bien nourri mais un esprit affamé est faible. Le jeûne et la prière nourrissent l'esprit. Ils humilient la chair, qui nous trompe souvent, et affinent notre sensibilité à Dieu."
+    },
+    {
+     "sous_titre": "Une source de puissance supérieure"
+    },
+    {
+     "texte": "Ce qui compte n'est pas l'intensité de nos cris, mais la source de notre puissance. À Éphèse, des exorcistes ambulants ont voulu invoquer le nom de Jésus sur des possédés : je vous conjure par Jésus, que Paul prêche. L'esprit mauvais leur répondit : je connais Jésus, et je sais qui est Paul ; mais vous, qui êtes-vous ? Et l'homme dans lequel était le mauvais esprit sauta sur eux, se rendit maître d'eux tous, et usa de telle violence contre eux, qu'ils s'enfuirent de cette maison nus et blessés."
+    },
+    {
+     "verset": "Ac 19:13-16"
+    },
+    {
+     "texte": "La leçon est sérieuse : le nom de Jésus n'est pas une formule. Les esprits mauvais font la différence entre quelqu'un qui connaît Jésus et vit avec lui, et quelqu'un qui utilise son nom comme un outil. La puissance vient de la relation avec Dieu, pas d'une technique."
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "Principes pratiques pour le combat",
+   "titre": "Condition 4 et 5 : conscients de qui est avec nous",
    "references": [
-    "2 Corinthiens 10:3-5",
-    "Éphésiens 6:10-18"
+    "1 Jn 4:4",
+    "2 R 6:15-17",
+    "Ps 27:1-3"
    ],
-   "transition": "Ces conditions ne portent du fruit que mises en pratique avec sagesse. Que Dieu affermisse ta main dans ces principes éprouvés du combat.",
    "blocs": [
     {
-     "texte": "Le combat spirituel se mène d'abord à genoux, dans la chambre secrète de la prière — avant de se voir sur le terrain de la vie."
+     "sous_titre": "Quand l'ennemi comprend"
     },
     {
-     "texte": "Ne descendez jamais au combat sans avoir d'abord revêtu l'armure complète de Dieu (Éphésiens 6:13-18)."
+     "texte": "L'ennemi fuit quand il devient conscient de la supériorité de celui qui habite en nous. Jean dit : celui qui est en vous est plus grand que celui qui est dans le monde."
     },
     {
-     "texte": "Combattez en équipe — deux valent mieux qu'un, et là où deux se mettent d'accord, Dieu est au milieu (Matthieu 18:19-20)."
+     "verset": "1 Jn 4:4"
     },
     {
-     "texte": "Après la victoire, restez vigilant — Satan cherche un autre moment favorable pour revenir (Luc 4:13)."
+     "texte": "Un voyou peut être très menaçant dans un quartier. Mais quand il apprend que le jeune qu'il voulait intimider est le fils du chef de la police, il change d'attitude. Ce n'est pas le jeune qui est devenu plus fort, c'est celui qu'il représente. De la même manière, quand un croyant vit dans la conscience de la présence de Dieu et de l'autorité de Jésus, l'attitude de l'ennemi change."
+    },
+    {
+     "sous_titre": "Les yeux ouverts du serviteur d'Élisée"
+    },
+    {
+     "texte": "Le prophète Élisée était dans la ville de Dothan, entourée par une armée syrienne avec des chevaux et des chars. Son serviteur, en se levant le matin, a vu l'armée et a crié : hélas ! mon seigneur, comment ferons-nous ? Élisée a répondu : ne crains point ; car ceux qui sont avec nous sont plus nombreux que ceux qui sont avec eux. Puis il a prié : Éternel, ouvre ses yeux, pour qu'il voie. Et l'Éternel ouvrit les yeux du serviteur, qui vit la montagne pleine de chevaux et de chars de feu autour d'Élisée."
+    },
+    {
+     "verset": "2 R 6:15-17"
+    },
+    {
+     "texte": "Le serviteur ne voyait que l'armée ennemie. Élisée voyait aussi l'armée de Dieu. Beaucoup de chrétiens sont comme le serviteur : ils voient les problèmes et ne voient pas la protection de Dieu. Prie : « Seigneur, ouvre mes yeux. »"
+    },
+    {
+     "sous_titre": "Un cœur sans peur"
+    },
+    {
+     "texte": "David chante : l'Éternel est ma lumière et mon salut : de qui aurais-je crainte ? L'Éternel est le soutien de ma vie : de qui aurais-je peur ? Quand des méchants s'avancent contre moi pour dévorer ma chair, ce sont mes adversaires et mes ennemis qui chancellent et tombent. Si une armée se campait contre moi, mon cœur n'aurait aucune crainte."
+    },
+    {
+     "verset": "Ps 27:1-3"
+    },
+    {
+     "texte": "Le courage de David ne vient pas de sa force, mais de sa confiance en Dieu. L'ennemi se nourrit de la peur : plus tu as peur, plus il a de force sur ton esprit."
+    },
+    {
+     "texte": "On raconte l'histoire d'une jeune femme à qui on avait envoyé, par un message, de terribles menaces de mort par sorcellerie. Elle ne dormait plus. Une de ses amies l'a invitée à lire le Psaume 27 à voix haute chaque soir. Pendant deux semaines, elle a lu ces versets, en remplaçant les mots par sa propre situation. Peu à peu, la peur a diminué. Quand, un mois plus tard, la personne qui l'avait menacée est venue demander pardon, elle a dit : « Dès que j'ai arrêté d'avoir peur, mes menaces ont perdu leur pouvoir. » Ce n'est pas une règle automatique, mais cela nous rappelle que la peur donne de la prise à l'ennemi, et que la foi lui retire du terrain."
+    }
+   ]
+  },
+  {
+   "numero": "4",
+   "titre": "Condition 6 et 7 : viser la tête et monter en intensité",
+   "references": [
+    "1 S 17:40-51",
+    "Ne 4:9",
+    "Mc 11:22-24",
+    "Ph 4:6"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Goliath tombe, l'armée fuit"
+    },
+    {
+     "texte": "David a affronté Goliath, un géant de presque trois mètres, couvert d'une armure de bronze. Avec cinq pierres lisses et une fronde, il a couru vers lui en disant : tu marches contre moi avec l'épée, la lance et le javelot ; et moi, je marche contre toi au nom de l'Éternel des armées. Il a lancé la pierre, qui s'est enfoncée dans le front du géant. Quand les Philistins virent que leur héros était mort, ils s'enfuirent."
+    },
+    {
+     "verset": "1 S 17:40-51"
+    },
+    {
+     "texte": "Une armée entière a fui, parce que son champion était tombé. Cela nous enseigne un principe : en prière, il est parfois plus efficace de viser la tête du problème que de s'attaquer à tous les petits détails. Quelle est la racine de ce qui se passe dans ta famille, dans ton église ? Une rancune ? Un mensonge ? Un péché caché ? Une alliance mauvaise ? Demande au Saint-Esprit de te montrer la tête. Parfois, un seul problème réglé fait tomber beaucoup d'autres."
+    },
+    {
+     "texte": "Mais n'oublie pas la leçon de la bataille : David n'a pas gagné par sa force ni son habileté, mais par sa foi : l'Éternel sauve sans épée ni lance, car la victoire appartient à l'Éternel."
+    },
+    {
+     "sous_titre": "Veiller et prier ensemble"
+    },
+    {
+     "texte": "Néhémie et ses hommes, face à la menace, ont fait deux choses : nous priâmes notre Dieu, et nous mîmes une garde. Priez et veillez : les deux vont ensemble."
+    },
+    {
+     "verset": "Ne 4:9"
+    },
+    {
+     "sous_titre": "Prier avec une foi qui monte"
+    },
+    {
+     "texte": "Jésus a dit : ayez foi en Dieu. Je vous le dis en vérité, si quelqu'un dit à cette montagne : ôte-toi de là et jette-toi dans la mer, et s'il ne doute point en son cœur, mais croit que ce qu'il dit arrivera, il le verra s'accomplir."
+    },
+    {
+     "verset": "Mc 11:22-24"
+    },
+    {
+     "texte": "Un combattant de prière grandit dans l'intensité, la persévérance et la précision. Au début, il peut prier cinq minutes. Puis une demi-heure. Puis une heure. Dans les situations difficiles, la prière monte. Il ne s'agit pas de crier plus fort, mais de persévérer plus longtemps, avec plus de foi."
+    },
+    {
+     "verset": "Ph 4:6"
+    },
+    {
+     "sous_titre": "Gédéon : la victoire qui ne vient pas du nombre"
+    },
+    {
+     "texte": "Un autre récit nous apprend ce que veut dire un K.O. venu de Dieu. Gédéon avait trente-deux mille hommes pour affronter une armée de Madian aussi nombreuse que des sauterelles. Dieu lui a dit : le peuple qui est avec toi est trop nombreux pour que je livre Madian entre ses mains. Il a renvoyé ceux qui avaient peur : vingt-deux mille sont partis. Puis il a fait un tri à la source d'eau, et il n'est resté que trois cents hommes. Avec trois cents hommes, des trompettes, des cruches vides et des flambeaux, Gédéon a encerclé le camp ennemi au milieu de la nuit. Tous ont crié : épée de l'Éternel et de Gédéon ! L'armée de Madian, prise de panique, s'est tournée l'épée de chacun contre son voisin, et s'est enfuie."
+    },
+    {
+     "verset": "Jg 7:2-22"
+    },
+    {
+     "texte": "Remarque trois choses. Dieu a réduit les forces de Gédéon pour que la victoire soit manifestement la sienne. Il a utilisé des moyens faibles et étranges : des cruches, des flambeaux, des trompettes. Et l'ennemi a été déstabilisé non par la force, mais par la confusion que Dieu a mise dans son camp. Quand nous nous sentons peu nombreux, peu forts, peu qualifiés, ne nous découragions pas. Dieu aime utiliser ceux qui savent qu'ils dépendent entièrement de lui."
+    }
+   ]
+  },
+  {
+   "numero": "5",
+   "titre": "Condition 8 : n'avoir pas peur de la mort",
+   "references": [
+    "Ap 12:11",
+    "Ph 1:21",
+    "Hé 2:14-15",
+    "Ac 20:24"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Vaincre par le sang et par le témoignage"
+    },
+    {
+     "texte": "Dans l'Apocalypse, les croyants ont vaincu l'accusateur à cause du sang de l'Agneau et à cause de la parole de leur témoignage, et ils n'ont pas aimé leur vie jusqu'à craindre la mort."
+    },
+    {
+     "verset": "Ap 12:11"
+    },
+    {
+     "texte": "Une des armes principales de l'ennemi, c'est la peur de la mort : peur de mourir, peur de perdre ceux qu'on aime, peur d'une malédiction, peur d'un sort. L'épître aux Hébreux dit que Jésus est venu pour délivrer tous ceux qui, par la crainte de la mort, étaient toute leur vie retenus dans la servitude."
+    },
+    {
+     "verset": "Hé 2:14-15"
+    },
+    {
+     "sous_titre": "Vivre, c'est Christ"
+    },
+    {
+     "texte": "Paul écrit : car Christ est ma vie, et la mort m'est un gain. Il disait aussi aux anciens d'Éphèse : je ne fais aucun cas de ma vie, comme si elle m'était précieuse, pourvu que j'accomplisse ma course avec joie, et le ministère que j'ai reçu du Seigneur Jésus."
+    },
+    {
+     "verset": "Ph 1:21"
+    },
+    {
+     "verset": "Ac 20:24"
+    },
+    {
+     "texte": "Un chrétien qui a remis sa vie entre les mains de Dieu est un adversaire redoutable. L'ennemi ne peut plus le menacer. Ce n'est pas de la témérité : Paul ne cherchait pas la mort. Mais il ne la craignait plus. Il savait que sa vie était dans la main de Dieu."
+    },
+    {
+     "texte": "Cela ne veut pas dire que le chrétien doit faire preuve d'imprudence. Il est sage de se protéger, de se soigner, d'éviter les dangers inutiles. Mais la crainte de la mort ne doit pas être le maître de sa vie."
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Condition 9 et 10 : couper la source de l'ennemi",
+   "references": [
+    "Ép 4:27",
+    "Ac 19:18-19",
+    "Dt 7:25-26",
+    "Lc 4:13",
+    "Mt 18:19-20"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Couper les portes d'entrée"
+    },
+    {
+     "texte": "L'ennemi fuit quand on coupe la source de sa puissance. Or, souvent, sa puissance est liée aux portes que nous lui avons ouvertes. Paul dit : ne donnez pas accès au diable."
+    },
+    {
+     "verset": "Ép 4:27"
+    },
+    {
+     "texte": "Quels sont ces accès ? Des péchés non confessés : un adultère caché, un vol non réparé, un mensonge qui continue. Des objets contaminés : amulettes, fétiches, objets liés aux pratiques occultes. Des alliances brisées : serments faits à des sociétés secrètes, pactes avec des esprits. Des rancunes non pardonnées."
+    },
+    {
+     "texte": "Les chrétiens d'Éphèse ont brûlé leurs livres de magie, pour une valeur de cinquante mille pièces d'argent."
+    },
+    {
+     "verset": "Ac 19:18-19"
+    },
+    {
+     "texte": "Moïse dit au peuple : vous brûlerez les images taillées de leurs dieux ; tu ne désireras point et tu ne prendras point pour toi l'argent ni l'or qui les couvrent, de peur que tu n'en sois enlacé. Car c'est une abomination pour l'Éternel, ton Dieu."
+    },
+    {
+     "verset": "Dt 7:25-26"
+    },
+    {
+     "texte": "Cela demande du courage et parfois un coût réel. Mais la liberté vaut plus que ce que l'on perd. Fais-le avec prudence, avec prière et avec conseil : ne touche pas aux biens des autres, et ne détruis pas par peur, mais par obéissance."
+    },
+    {
+     "sous_titre": "La crainte du nom de Jésus"
+    },
+    {
+     "texte": "Dans les Actes, après la défaite des exorcistes d'Éphèse, la Bible dit que la crainte s'empara de tous, et que le nom du Seigneur Jésus était glorifié. Quand l'Église marche dans la sainteté et la crédibilité, le nom de Jésus est respecté, même par ceux qui ne croient pas."
+    },
+    {
+     "texte": "Il ne s'agit pas de faire peur aux gens. Mais quand le nom de Jésus est proclamé avec autorité et foi, et que la vie de celui qui le prononce est en accord avec lui, les ténèbres reculent."
+    },
+    {
+     "sous_titre": "Combattre en équipe"
+    },
+    {
+     "texte": "Jésus dit : si deux d'entre vous s'accordent sur la terre pour demander une chose quelconque, elle leur sera accordée par mon Père qui est dans les cieux."
+    },
+    {
+     "verset": "Mt 18:19-20"
+    },
+    {
+     "texte": "Ne combats pas seul. La Bible le dit ainsi dans le Deutéronome (32:30) : comment un seul en poursuivrait-il mille, et comment deux en mettraient-ils en fuite dix mille ? Cherche un ou deux compagnons de prière."
+    },
+    {
+     "sous_titre": "Après la victoire, rester vigilant"
+    },
+    {
+     "texte": "Après les quarante jours dans le désert, quand le diable eut achevé toute tentation, il s'éloigna de Jésus jusqu'à un moment favorable."
+    },
+    {
+     "verset": "Lc 4:13"
+    },
+    {
+     "texte": "Un moment favorable. L'ennemi attend, observe, revient. Après une grande victoire, il y a souvent un danger : le relâchement. Élie, après la victoire du mont Carmel, s'est effondré de peur devant Jézabel. Après une victoire, remercie Dieu, repose-toi, reprends ta vie normale, mais reste attentif."
+    }
+   ]
+  },
+  {
+   "numero": "7",
+   "titre": "Pour que la victoire dure",
+   "references": [
+    "1 Co 10:12",
+    "Ps 91:1-4",
+    "Ép 6:13",
+    "Pr 28:1"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Ne pas se glorifier"
+    },
+    {
+     "texte": "Les victoires spirituelles peuvent produire un piège : l'orgueil. Paul dit : que celui qui croit être debout prenne garde de tomber."
+    },
+    {
+     "verset": "1 Co 10:12"
+    },
+    {
+     "texte": "Ne raconte pas ta victoire pour montrer que tu es puissant, mais pour glorifier Dieu et encourager les autres. Jésus a dit à ses disciples de ne pas se réjouir de ce que les esprits leur étaient soumis, mais de ce que leurs noms étaient écrits dans les cieux."
+    },
+    {
+     "sous_titre": "Habiter sous sa protection"
+    },
+    {
+     "texte": "Le Psaume 91 décrit une vie sous la protection de Dieu : celui qui demeure sous l'abri du Très-Haut repose à l'ombre du Tout-Puissant. Je dis à l'Éternel : mon refuge et ma forteresse, mon Dieu en qui je me confie ! Car c'est lui qui te délivre du filet de l'oiseleur, de la peste et de ses ravages. Il te couvrira de ses plumes, et tu trouveras un refuge sous ses ailes."
+    },
+    {
+     "verset": "Ps 91:1-4"
+    },
+    {
+     "texte": "Le verbe « demeurer » est important. Ce n'est pas une visite occasionnelle, mais une habitation. La protection de Dieu est promise à celui qui demeure en lui, par la prière, la Parole, l'obéissance."
+    },
+    {
+     "sous_titre": "Tenir ferme"
+    },
+    {
+     "texte": "Paul demande de prendre toutes les armes de Dieu, afin de résister dans le mauvais jour, et, après avoir tout surmonté, de tenir ferme."
+    },
+    {
+     "verset": "Ép 6:13"
+    },
+    {
+     "texte": "Les méchants fuient sans qu'on les poursuive, mais les justes ont de l'assurance comme un jeune lion."
+    },
+    {
+     "verset": "Pr 28:1"
+    },
+    {
+     "texte": "On raconte l'histoire d'un vieux pasteur de brousse à qui l'on demandait comment il avait tenu tant d'années face aux menaces des sorciers du village. Il a répondu : « Je ne suis pas courageux. Mais chaque matin, avant de sortir, je lis un psaume et je dis : Seigneur, je suis à toi. Ce que je fais aujourd'hui, c'est toi qui le feras. Le soir, je te rends compte. » Puis il a ajouté : « Depuis quarante ans, ils ont essayé beaucoup de choses. Je suis toujours là, et eux, plusieurs sont venus me demander de prier pour eux. »"
+    },
+    {
+     "texte": "Pour terminer, souviens-toi que le K.O. de l'ennemi n'est pas ton œuvre, mais celle de Jésus à la croix. Notre rôle est de nous placer sous son autorité : obéir, prier, veiller, aimer, couper ce qui doit être coupé, rester humble. Alors, selon la promesse de Dieu, l'ennemi qui était venu par un chemin s'enfuira par sept."
     }
    ]
   }
  ],
- "lecture_minutes": 3,
- "auteur": "L'Arsenal de la Sentinelle",
- "autorisation": "oui",
- "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
- "date_ajout": "2026-11-14",
+ "sujets": [
+  {
+   "titre": "La Parole comme épée",
+   "texte": "Père, apprends-moi à connaître ta Parole et à la proclamer avec foi. Que je ne combatte jamais sans épée."
+  },
+  {
+   "titre": "Des yeux ouverts",
+   "texte": "Comme pour le serviteur d'Élisée, ouvre mes yeux pour que je voie ta protection autour de moi et que je n'aie pas peur."
+  },
+  {
+   "titre": "Les portes à fermer",
+   "texte": "Saint-Esprit, montre-moi les portes que j'ai ouvertes à l'ennemi. Je me repens, et je ferme ces portes par le sang de Jésus."
+  },
+  {
+   "titre": "Des compagnons de combat",
+   "texte": "Donne-moi un ou deux frères ou sœurs avec qui prier fidèlement, et sois avec nous quand nous nous accordons."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Que promet Deutéronome 28:7 ?",
+   "choix": [
+    "Que les ennemis ne viendront jamais",
+    "Que les ennemis viendront par un chemin et s'enfuiront par sept",
+    "Que les chrétiens seront riches"
+   ],
+   "reponse": 1,
+   "explication": "La promesse est liée à l'obéissance à Dieu (Deutéronome 28:1).",
+   "section": "1"
+  },
+  {
+   "question": "Que dit Luc 10:19 ?",
+   "choix": [
+    "Je vous donnerai un jour le pouvoir",
+    "Je vous ai donné le pouvoir de marcher sur les serpents et les scorpions",
+    "Le pouvoir est réservé aux apôtres"
+   ],
+   "reponse": 1,
+   "explication": "Le pouvoir est déjà donné ; il s'agit de l'exercer.",
+   "section": "1"
+  },
+  {
+   "question": "Pourquoi les fils de Scéva (Actes 19) ont-ils été battus ?",
+   "choix": [
+    "Ils n'avaient pas de force",
+    "Ils utilisaient le nom de Jésus comme une formule sans relation avec lui",
+    "Ils étaient trop nombreux"
+   ],
+   "reponse": 1,
+   "explication": "Actes 19:13-16.",
+   "section": "2"
+  },
+  {
+   "question": "Que voyait Élisée que son serviteur ne voyait pas ?",
+   "choix": [
+    "Des anges seulement",
+    "Les chevaux et les chars de feu autour de lui",
+    "Les ennemis cachés"
+   ],
+   "reponse": 1,
+   "explication": "2 Rois 6:15-17.",
+   "section": "3"
+  },
+  {
+   "question": "Que nous apprend la chute de Goliath ?",
+   "choix": [
+    "Qu'il faut être grand",
+    "Qu'il vaut parfois mieux viser la racine du problème, avec foi, que s'attaquer aux détails",
+    "Qu'il faut fuir"
+   ],
+   "reponse": 1,
+   "explication": "1 Samuel 17:51. La victoire est à l'Éternel.",
+   "section": "4"
+  },
+  {
+   "question": "Pourquoi la peur de la mort donne-t-elle prise à l'ennemi ?",
+   "choix": [
+    "Parce qu'elle est un péché",
+    "Parce qu'elle nous tient dans la servitude ; Jésus est venu nous en délivrer",
+    "Parce qu'elle est normale"
+   ],
+   "reponse": 1,
+   "explication": "Hébreux 2:14-15.",
+   "section": "5"
+  },
+  {
+   "question": "Que faire après une grande victoire spirituelle ?",
+   "choix": [
+    "Se relâcher",
+    "Remercier Dieu, rester humble et vigilant, car l'ennemi attend un moment favorable",
+    "Dire à tout le monde sa puissance"
+   ],
+   "reponse": 1,
+   "explication": "Luc 4:13 ; 1 Corinthiens 10:12.",
+   "section": "6"
+  },
+  {
+   "question": "Que montre l'histoire de Gédéon (Juges 7) ?",
+   "choix": [
+    "Qu'il faut une grande armée",
+    "Que Dieu donne la victoire par des moyens faibles pour que la gloire lui revienne",
+    "Qu'il faut éviter le combat"
+   ],
+   "reponse": 1,
+   "explication": "Il a gardé trois cents hommes, des trompettes et des flambeaux.",
+   "section": "4"
+  }
+ ],
+ "devoir": [
+  "Lis 2 Rois 6:8-23 et 1 Samuel 17.",
+  "Écris les noms des « Goliath » de ta vie ou de ta famille, et prie pour que Dieu te montre la racine de chacun.",
+  "Apprends par cœur le Psaume 27:1-3 et dis-le à voix haute chaque soir cette semaine.",
+  "Si tu as des objets liés à l'occultisme, parle à ton pasteur et détruis-les avec prière et sagesse."
+ ],
  "prieres_liees": [
   "combat:combat-poussiere",
   "combat:combat-elie"
- ]
+ ],
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "autorisation": "oui"
 }
