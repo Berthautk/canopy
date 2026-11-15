@@ -1,39 +1,72 @@
 {
  "id": "enseignement-combat-spirituel-2",
  "titre": "Le combat spirituel : se tenir à la brèche",
- "theme": "Combat spirituel",
  "serie": "L'Arsenal de la Sentinelle",
- "resume": "Connaître son ennemi pour mieux le vaincre",
+ "theme": "Combat spirituel",
+ "auteur": "L'Arsenal de la Sentinelle",
+ "resume": "Ce qu'est le combat spirituel, pourquoi Dieu cherche des personnes qui se tiennent à la brèche pour leur famille, leur église et leur pays, avec quelles armes on combat, et quelles qualités le combattant doit cultiver pour tenir sans orgueil ni peur.",
  "image": "/assets/priere/combat-spirituel.webp",
- "verset_de_base": "Éphésiens 6:12",
+ "verset_de_base": "Ép 6:12",
+ "lecture_minutes": 32,
  "objectifs": [
-  "Comprendre la nature réelle, spirituelle et permanente du combat",
-  "Apprendre à se tenir à la brèche par l'intercession persévérante",
-  "Maîtriser les armes et les étapes d'un combat efficace",
-  "Identifier les types d'adversaires et la manière de les vaincre"
+  "Comprendre la nature du combat spirituel d'après Éphésiens 6.",
+  "Découvrir ce que veut dire « se tenir à la brèche » et pourquoi Dieu le demande.",
+  "Connaître les armes bibliques du combattant : la Parole, la prière, le jeûne, la louange.",
+  "Cultiver les qualités qui rendent le combattant efficace : le caractère avant la puissance."
  ],
- "introduction": "L'apôtre Paul déclare : « Car nous n’avons pas à lutter contre la chair et le sang, mais contre les dominations, contre les autorités, contre les princes de ce monde de ténèbres, contre les esprits méchants dans les lieux célestes » (Éphésiens 6:12). Ce n'est pas une métaphore — c'est une réalité spirituelle permanente. Comprendre les dimensions de ce combat est indispensable pour tout croyant qui veut vivre en victoire.",
+ "introduction": "Quand on parle de combat spirituel, certains pensent tout de suite à des cris, à des veillées bruyantes, à des prières violentes contre des esprits. D'autres, au contraire, préfèrent ne pas en parler, de peur de tomber dans des excès. La Bible, elle, en parle avec équilibre. Elle dit que le combat est réel, mais qu'il est d'abord dans l'invisible, et qu'il se gagne par des armes qui ne sont pas celles du monde.\n\nPaul écrit : nous n'avons pas à lutter contre la chair et le sang, mais contre les dominations, contre les autorités, contre les princes de ce monde de ténèbres, contre les esprits méchants dans les lieux célestes. Cette phrase ne parle pas d'une métaphore ou d'une belle image. Paul parle d'une réalité qu'il connaît. Il a vu des démons chassés, il a vu des villes bouleversées, il a vu des fausses religions s'opposer à l'Évangile.\n\nDans cet enseignement, nous allons apprendre à comprendre ce combat, à nous tenir « à la brèche » pour ceux que nous aimons, et à utiliser les armes que Dieu nous donne. Mais je veux dès le début te donner une clé : dans ce combat, ce qui compte le plus, ce n'est pas le niveau de ta voix, c'est la qualité de ta vie. Un combattant à la vie impure et à l'orgueil caché sera défait, même s'il crie très fort.",
  "sections": [
   {
    "numero": "1",
-   "titre": "Définition — la nature du combat spirituel",
+   "titre": "La nature du combat",
    "references": [
-    "1 Thessaloniciens 5:23",
-    "Hébreux 4:12",
-    "Jean 4:23-24"
+    "Ép 6:12",
+    "1 Th 5:23",
+    "Hé 4:12",
+    "Jn 4:23-24"
    ],
    "blocs": [
     {
-     "texte": "Le combat spirituel est la lutte invisible mais réelle qui oppose le croyant aux puissances des ténèbres. Il ne se mène pas avec des armes charnelles, mais dans le domaine de l'esprit."
+     "sous_titre": "Un combat qui commence dans l'invisible"
     },
     {
-     "texte": "L'homme est un être tripartite : esprit, âme et corps (1 Thessaloniciens 5:23). C'est l'esprit qui communique avec Dieu — un esprit fort, nourri de la Parole et sanctifié par la prière, est une puissance dans le combat."
+     "texte": "Le combat spirituel est la lutte, invisible mais réelle, qui oppose le croyant aux puissances des ténèbres. Il ne se mène pas avec des armes de chair : pas avec des poings, des bâtons ou des insultes, mais dans le domaine de l'esprit. Beaucoup de problèmes visibles ont une racine invisible : des conflits qui reviennent sans cesse dans une famille, des habitudes que l'on n'arrive pas à briser, une église divisée sans raison apparente. Cela ne veut pas dire que tout vient des démons, mais que le combat visible est souvent précédé d'un combat invisible."
     },
     {
-     "texte": "Les manifestations para-spirituelles sont réelles ; le combattant doit apprendre à les reconnaître et à les soumettre au Seigneur — non par fascination, mais par autorité."
+     "sous_titre": "L'homme : esprit, âme et corps"
     },
     {
-     "texte": "Le combat se livre donc d'abord dans l'invisible avant de se voir dans le visible. C'est pourquoi le croyant nourrit son esprit avant d'affronter quoi que ce soit."
+     "texte": "Paul écrit : que le Dieu de paix vous sanctifie lui-même tout entier, et que tout votre être, l'esprit, l'âme et le corps, soit conservé sans reproche."
+    },
+    {
+     "verset": "1 Th 5:23"
+    },
+    {
+     "texte": "L'être humain est composé de trois dimensions. Le corps, par lequel nous vivons dans le monde visible. L'âme, qui comprend nos pensées, nos émotions et notre volonté. Et l'esprit, par lequel nous entrons en relation avec Dieu. Jésus a dit : Dieu est Esprit, et il faut que ceux qui l'adorent l'adorent en esprit et en vérité."
+    },
+    {
+     "verset": "Jn 4:23-24"
+    },
+    {
+     "texte": "Cette compréhension aide à voir que le combat se joue sur plusieurs terrains. Si ton corps est épuisé, par manque de sommeil ou de repas, ton âme devient fragile et ton esprit moins attentif. Si ton âme est blessée par des rancunes, ton esprit est alourdi. Si ton esprit est nourri de la Parole, il soutient ton âme et ton corps. Un combattant sage prend soin de lui-même sur ces trois plans."
+    },
+    {
+     "sous_titre": "La Parole qui discerne"
+    },
+    {
+     "texte": "La Parole de Dieu est vivante et efficace, plus tranchante qu'une épée quelconque à deux tranchants. Elle pénètre jusqu'à la division de l'âme et de l'esprit, des jointures et des moelles ; elle juge les sentiments et les pensées du cœur."
+    },
+    {
+     "verset": "Hé 4:12"
+    },
+    {
+     "texte": "La Parole de Dieu est notre meilleur outil de discernement. Elle nous aide à distinguer ce qui vient de notre âme, ce qui vient de l'Esprit de Dieu, et ce qui vient d'ailleurs."
+    },
+    {
+     "sous_titre": "Sans fascination"
+    },
+    {
+     "texte": "Il y a aussi des manifestations spirituelles réelles : visions, rêves, sensations, oppressions. Un combattant mûr apprend à ne pas les craindre et à ne pas s'y attacher avec fascination. On ne les soumet pas par curiosité, mais par la Parole, par l'autorité du nom de Jésus, avec humilité. La fascination pour le surnaturel est un piège aussi dangereux que l'indifférence."
     }
    ]
   },
@@ -41,139 +74,488 @@
    "numero": "2",
    "titre": "Se tenir à la brèche",
    "references": [
-    "Ézéchiel 22:30-31",
-    "Daniel 10:12-13",
-    "Galates 6:2"
+    "Ez 22:30-31",
+    "Ex 32:30-32",
+    "Dn 10:12-13",
+    "Ga 6:2",
+    "1 Ti 2:1-2"
    ],
-   "transition": "La nature du combat étant comprise, Dieu cherche maintenant des hommes et des femmes qui acceptent de se tenir là où la muraille est ouverte — c'est là qu'Il opère Ses délivrances.",
    "blocs": [
     {
-     "texte": "Dieu cherche quelqu'un qui se tienne à la brèche — quelqu'un qui intercède pour les autres même quand cela coûte (Ézéchiel 22:30)."
+     "sous_titre": "Dieu cherchait un homme"
     },
     {
-     "texte": "Se tenir à la brèche, c'est s'interposer spirituellement entre l'ennemi et ceux que vous aimez ou dont vous êtes responsable."
+     "texte": "Le prophète Ézéchiel rapporte une parole terrible de Dieu : je cherchai parmi eux un homme qui élevât un mur, qui se tînt à la brèche devant moi, en faveur du pays, afin que je ne le détruisisse pas ; mais je n'en trouvai point. Alors je répandis sur eux mon indignation."
     },
     {
-     "texte": "Daniel s'humilia et pria 21 jours. L'ange envoyé avait été retenu 21 jours par le prince de Perse (Daniel 10:12-13). La persévérance dans la brèche force les cieux à s'ouvrir."
+     "verset": "Ez 22:30-31"
     },
     {
-     "texte": "La consommation spirituelle — se nourrir régulièrement de la présence de Dieu — est la source de la puissance du combattant."
+     "texte": "Imagine une ville entourée d'une muraille. Un jour, une brèche s'ouvre dans le mur : un morceau s'est écroulé. L'ennemi va entrer par cette ouverture. Que faire ? Quelqu'un doit se tenir dans la brèche, avec son corps, avec son arme, pour empêcher l'ennemi de passer, pendant que d'autres réparent le mur. Dieu cherchait quelqu'un qui accepte de se tenir à cet endroit dangereux, à la place de tout le peuple. Il n'en a pas trouvé."
+    },
+    {
+     "texte": "Cette parole nous bouleverse parce qu'elle montre que Dieu est prêt à épargner un peuple à cause d'un seul intercesseur. Il n'a besoin que d'un homme, d'une femme, qui accepte de se tenir devant lui pour les autres."
+    },
+    {
+     "sous_titre": "Moïse à la brèche"
+    },
+    {
+     "texte": "Moïse l'a fait. Quand le peuple a fabriqué le veau d'or, Dieu était très en colère. Moïse est monté vers l'Éternel et lui a dit : ah ! ce peuple a commis un grand péché ! Pardonne maintenant leur péché ! Sinon, efface-moi de ton livre que tu as écrit. Moïse était prêt à perdre sa place pour sauver son peuple. Et le Seigneur ne les a pas détruits."
+    },
+    {
+     "verset": "Ex 32:30-32"
+    },
+    {
+     "texte": "Voilà ce que veut dire se tenir à la brèche : intercéder pour d'autres, même quand cela coûte, même quand ils ne le méritent pas, même quand ils nous ont blessés. C'est l'esprit de Jésus, qui s'est tenu à la brèche à la croix."
+    },
+    {
+     "sous_titre": "Qui est ma brèche ?"
+    },
+    {
+     "texte": "Aujourd'hui, la brèche peut être ta famille : un enfant qui s'éloigne, un mari qui boit, une sœur en difficulté. Elle peut être ton église, ton quartier, ton pays, tes dirigeants. Paul demande : j'exhorte donc, avant toutes choses, à faire des supplications, des prières, des requêtes, des actions de grâces, pour tous les hommes, pour les rois et pour tous ceux qui sont élevés en dignité, afin que nous menions une vie paisible et tranquille."
+    },
+    {
+     "verset": "1 Ti 2:1-2"
+    },
+    {
+     "texte": "Se tenir à la brèche, c'est prendre une responsabilité spirituelle. Dis à Dieu : « Seigneur, voici la brèche dont tu m'as chargé. Je me tiens ici, jour après jour. »"
+    },
+    {
+     "sous_titre": "Porter les fardeaux des autres"
+    },
+    {
+     "texte": "Paul dit : portez les fardeaux les uns des autres, et vous accomplirez ainsi la loi de Christ."
+    },
+    {
+     "verset": "Ga 6:2"
+    },
+    {
+     "texte": "Un intercesseur porte devant Dieu les fardeaux des autres. Cela peut être lourd. Ne fais pas cela seul : cherche des frères et sœurs avec qui prier. Le fardeau partagé devient plus léger."
+    },
+    {
+     "sous_titre": "La persévérance de Daniel"
+    },
+    {
+     "texte": "Nous avons vu, dans l'enseignement sur les cieux, que Daniel a prié pendant vingt et un jours avant de voir la réponse. Dieu lui a dit : dès le premier jour où tu as eu à cœur de comprendre et de t'humilier devant ton Dieu, tes paroles ont été entendues."
+    },
+    {
+     "verset": "Dn 10:12-13"
+    },
+    {
+     "texte": "Tiens-toi à la brèche avec persévérance. Une seule prière ne suffit pas toujours. On raconte l'histoire d'un pasteur qui, pendant vingt-trois ans, a prié chaque matin pour son frère aîné, un homme dur et violent qui rejetait Dieu. Rien ne changeait. Il a continué. À la mort de son frère, il a appris, par une infirmière, que dans ses derniers jours, l'homme avait murmuré le nom de Jésus. Le pasteur ne saura jamais exactement ce qui s'est passé dans le cœur de son frère, mais il disait : « Je me suis tenu à la brèche, et je laisse le reste à Dieu. »"
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "Comment combattre ?",
+   "titre": "Les armes du combattant",
    "references": [
-    "2 Corinthiens 10:3-4",
-    "Hébreux 4:12",
-    "2 Chroniques 20:21-22"
+    "2 Co 10:3-5",
+    "Ép 6:17-18",
+    "2 Ch 20:21-22",
+    "Mt 17:21",
+    "Ja 5:14-16"
    ],
-   "transition": "Se tenir à la brèche demande des armes. Voici l'arsenal que Dieu met entre tes mains pour livrer ce combat.",
    "blocs": [
     {
-     "texte": "Avec la Parole de Dieu proclamée à voix haute — elle est une arme offensive (Hébreux 4:12 · Éphésiens 6:17)."
+     "sous_titre": "Des armes qui ne sont pas charnelles"
     },
     {
-     "texte": "Avec la prière en Esprit et avec l'intelligence — persévérante, ciblée et précise (1 Corinthiens 14:15 · Romains 8:26-27)."
+     "texte": "Paul dit : si nous marchons dans la chair, nous ne combattons pas selon la chair. Car les armes avec lesquelles nous combattons ne sont pas charnelles ; mais elles sont puissantes, par la vertu de Dieu, pour renverser des forteresses. Nous renversons les raisonnements et toute hauteur qui s'élève contre la connaissance de Dieu, et nous amenons toute pensée captive à l'obéissance de Christ."
     },
     {
-     "texte": "Avec le jeûne — certains genres ne sortent que par là (Matthieu 17:21 · Joël 2:12-14)."
+     "verset": "2 Co 10:3-5"
     },
     {
-     "texte": "Avec la louange — Josaphat envoya les chantres en avant et l'ennemi fut mis en déroute (2 Chroniques 20:21-22)."
+     "texte": "Remarque que le combat dont parle Paul est aussi un combat contre les raisonnements, les pensées. Beaucoup de forteresses sont dans la tête : des mensonges que nous avons crus, des peurs, des accusations. Amener toute pensée captive à l'obéissance de Christ, c'est comparer chaque pensée à la Parole et rejeter celle qui la contredit."
     },
     {
-     "texte": "Avec l'onction d'huile et la prière des anciens pour les cas de maladie (Jacques 5:14-16)."
+     "sous_titre": "La Parole de Dieu"
+    },
+    {
+     "texte": "Paul appelle la Parole l'épée de l'Esprit. Une épée sert à attaquer et à défendre. Jésus, dans le désert, a répondu au diable avec la Parole : il est écrit. Proclamer à voix haute ce que Dieu a dit, c'est une arme. Prépare des versets pour les moments difficiles : sur la protection (Psaume 91), la victoire (Romains 8:37), la paix (Philippiens 4:6-7), l'autorité (Luc 10:19)."
+    },
+    {
+     "verset": "Ép 6:17-18"
+    },
+    {
+     "sous_titre": "La prière"
+    },
+    {
+     "texte": "La prière est l'autre grande arme. Paul demande d'user de toutes sortes de prières, en tout temps, par l'Esprit. Il y a la prière avec l'intelligence, ciblée, précise, et la prière en Esprit, quand nous ne savons pas comment prier. Paul dit que l'Esprit lui-même intercède pour nous par des soupirs inexprimables. Une prière précise vaut mieux qu'une prière vague : au lieu de dire « Seigneur, bénis ma famille », nomme chacun, et tes demandes pour chacun."
+    },
+    {
+     "sous_titre": "Le jeûne"
+    },
+    {
+     "texte": "Jésus a dit, au sujet d'une certaine sorte de démon qui était difficile à chasser : cette sorte de démons ne sort que par la prière et par le jeûne. Le jeûne n'est pas une manière de forcer Dieu. Il est une manière de nous humilier, de réduire les bruits de la chair, et de rendre notre esprit plus sensible à Dieu."
+    },
+    {
+     "verset": "Mt 17:21"
+    },
+    {
+     "texte": "Il y a plusieurs formes de jeûne : un repas, une journée, plusieurs jours. Choisis un jeûne que ta santé te permet. Les personnes malades, enceintes, diabétiques doivent être prudentes et demander conseil. Jeûner n'est pas se punir, c'est se tourner vers Dieu."
+    },
+    {
+     "sous_titre": "La louange"
+    },
+    {
+     "texte": "Le roi Josaphat était face à une grande armée ennemie. Il n'a pas envoyé les soldats en premier. Il a placé des chantres devant l'armée, qui chantaient : louez l'Éternel, car sa miséricorde dure à toujours. Au moment où ils commençaient les chants et les louanges, l'Éternel plaça une embuscade contre les ennemis, et ils furent battus."
+    },
+    {
+     "verset": "2 Ch 20:21-22"
+    },
+    {
+     "texte": "La louange change notre regard. Quand nous louons Dieu au milieu du combat, nous déclarons qu'il est plus grand que le problème. Une chanson sincère est une arme."
+    },
+    {
+     "sous_titre": "La prière avec l'huile"
+    },
+    {
+     "texte": "Jacques dit : quelqu'un parmi vous est-il malade ? Qu'il appelle les anciens de l'Église, et que les anciens prient pour lui, en l'oignant d'huile au nom du Seigneur. La prière de la foi sauvera le malade, et le Seigneur le relèvera ; et s'il a commis des péchés, il lui sera pardonné."
+    },
+    {
+     "verset": "Ja 5:14-16"
+    },
+    {
+     "texte": "L'huile est un symbole du Saint-Esprit. Ce n'est pas l'huile qui guérit, mais le Seigneur, en réponse à la prière de la foi. L'huile n'a pas de pouvoir magique. Ne confonds jamais ce signe biblique avec les huiles « miraculeuses » vendues par certains prédicateurs."
     }
    ]
   },
   {
    "numero": "4",
-   "titre": "Les étapes pour être efficace dans le combat",
+   "titre": "Les qualités du combattant",
    "references": [
-    "Actes 1:8",
-    "Luc 10:19",
-    "Daniel 6:10"
+    "Ac 1:8",
+    "Mt 10:37-39",
+    "Jos 1:6-9",
+    "Jn 16:13",
+    "1 Co 13:1-3",
+    "Ro 12:2",
+    "Lc 10:19",
+    "1 P 5:8"
    ],
-   "transition": "Les armes ne suffisent pas sans un combattant préparé. Voici le chemin qui fait du croyant un guerrier efficace, façonné par Dieu Lui-même.",
    "blocs": [
     {
-     "texte": "1. Être enfant de Dieu, né(e) de nouveau (Actes 19:11-12)."
+     "sous_titre": "Le caractère avant la puissance"
     },
     {
-     "texte": "2. Être rempli du Saint-Esprit (Actes 1:8)."
+     "texte": "Beaucoup de chrétiens veulent de la puissance, mais peu veulent un caractère. Pourtant, c'est le caractère qui soutient la puissance. Voici des qualités qui font un combattant solide."
     },
     {
-     "texte": "3. Être vendu pour Christ — avoir tout abandonné pour Lui (Matthieu 10:37-39)."
+     "sous_titre": "Être né de nouveau et rempli du Saint-Esprit"
     },
     {
-     "texte": "4. Être courageux — ne pas reculer devant l'adversaire (Josué 1:3-9)."
+     "texte": "Avant tout, il faut appartenir à Christ. Dans les Actes, sept fils d'un prêtre juif, qui n'avaient pas de relation personnelle avec Jésus, ont essayé de chasser un démon en disant : je vous conjure par Jésus, que Paul prêche. L'esprit mauvais leur a répondu : je connais Jésus, et je sais qui est Paul ; mais vous, qui êtes-vous ? Et l'homme sauta sur eux, les maîtrisa, et ils s'enfuirent nus et blessés. On ne combat pas avec le nom de Jésus comme avec une formule magique ; on le fait par une relation vivante avec lui."
     },
     {
-     "texte": "5. Écouter le Saint-Esprit et agir sur ses directives (Jean 16:12-14)."
+     "texte": "Jésus a aussi promis la puissance du Saint-Esprit à ceux qui seraient ses témoins."
     },
     {
-     "texte": "6. Être rempli de l'amour de Dieu — l'amour ne faillit jamais (1 Corinthiens 13)."
+     "verset": "Ac 1:8"
     },
     {
-     "texte": "7. Être discipliné dans la pensée, la parole et l'humilité (Romains 12:2)."
+     "sous_titre": "Tout abandonner pour lui"
     },
     {
-     "texte": "8. Être résistant et persévérant — Daniel pria 21 jours sans relâche (Daniel 6:10)."
+     "texte": "Jésus a dit : celui qui aime son père ou sa mère plus que moi n'est pas digne de moi. Celui qui ne prend pas sa croix, et ne me suit pas, n'est pas digne de moi. Celui qui conservera sa vie la perdra, et celui qui perdra sa vie à cause de moi la retrouvera."
     },
     {
-     "texte": "9. Se tenir sur l'autorité de Christ — « Je vous ai donné le pouvoir » (Luc 10:19)."
+     "verset": "Mt 10:37-39"
     },
     {
-     "texte": "10. Ne pas sous-estimer l'adversaire — le respecter sans le craindre (1 Pierre 5:8)."
+     "texte": "Un combattant qui a des attachements cachés, une partie de sa vie qu'il refuse de soumettre à Dieu, est vulnérable à cet endroit."
     },
     {
-     "texte": "11. Être versé dans les Écritures — la Bible est ton arsenal le plus puissant."
+     "sous_titre": "Être courageux"
     },
     {
-     "texte": "12. Être soi-même délivré — on ne peut pas libérer les autres si on est soi-même en prison (Matthieu 15:14)."
+     "texte": "Dieu a dit à Josué : fortifie-toi et prends courage. Ne t'effraie point, et ne t'épouvante point, car l'Éternel, ton Dieu, est avec toi dans tout ce que tu entreprendras."
     },
     {
-     "texte": "13. Utiliser tous les outils : voix haute, prière, langues, louange, Écritures, huile d'onction (Jacques 5:13-16)."
+     "verset": "Jos 1:6-9"
+    },
+    {
+     "texte": "Le courage n'est pas l'absence de peur. C'est avancer malgré la peur, parce que Dieu est avec nous."
+    },
+    {
+     "sous_titre": "Écouter le Saint-Esprit"
+    },
+    {
+     "texte": "Jésus a dit que l'Esprit de vérité nous conduirait dans toute la vérité, et qu'il nous annoncerait les choses à venir."
+    },
+    {
+     "verset": "Jn 16:13"
+    },
+    {
+     "texte": "Le combattant sage ne se précipite pas. Il attend la direction de l'Esprit. Il y a des moments pour parler, des moments pour se taire, des moments pour jeûner, des moments pour agir. Ne lance pas de grandes actions spirituelles sans avoir prié et demandé conseil."
+    },
+    {
+     "sous_titre": "L'amour avant tout"
+    },
+    {
+     "texte": "Paul dit : quand je parlerais les langues des hommes et des anges, si je n'ai pas la charité, je suis un airain qui résonne, ou une cymbale qui retentit."
+    },
+    {
+     "verset": "1 Co 13:1-3"
+    },
+    {
+     "texte": "Un combattant sans amour est dangereux. Il traite les personnes comme des ennemis, alors que ce sont des prisonniers à libérer. Rappelle-toi : notre combat n'est pas contre la chair et le sang. Même quand une personne nous fait du mal, nous prions pour sa délivrance, pas pour sa destruction."
+    },
+    {
+     "sous_titre": "La pensée renouvelée"
+    },
+    {
+     "texte": "Paul dit : ne vous conformez pas au siècle présent, mais soyez transformés par le renouvellement de l'intelligence, afin que vous discerniez quelle est la volonté de Dieu."
+    },
+    {
+     "verset": "Ro 12:2"
+    },
+    {
+     "texte": "Une pensée soumise à la Parole est une forteresse. Veille sur ce que tu regardes, lis, écoutes."
+    },
+    {
+     "sous_titre": "L'autorité de Christ, sans orgueil"
+    },
+    {
+     "texte": "Jésus a donné aux siens le pouvoir de marcher sur les serpents et les scorpions, et sur toute la puissance de l'ennemi."
+    },
+    {
+     "verset": "Lc 10:19"
+    },
+    {
+     "texte": "Mais Pierre avertit : soyez sobres, veillez. Votre adversaire, le diable, rôde comme un lion rugissant. Ne sous-estime pas l'adversaire ; respecte-le sans le craindre."
+    },
+    {
+     "verset": "1 P 5:8"
+    },
+    {
+     "sous_titre": "Être soi-même libre"
+    },
+    {
+     "texte": "Jésus a dit à propos des guides aveugles : si un aveugle conduit un aveugle, ils tomberont tous deux dans la fosse. On ne peut pas libérer les autres si l'on est soi-même en prison. Avant de te tenir à la brèche pour les autres, demande à Dieu de t'examiner : y a-t-il en moi des péchés cachés, des pratiques non réglées, des rancunes ?"
+    },
+    {
+     "texte": "On raconte l'histoire d'un intercesseur très réputé dans son église, qui menait chaque semaine des nuits de prière puissantes. Mais en secret, il consultait de temps en temps une voyante, « juste pour voir ». Un soir, pendant une veillée, il a perdu connaissance et n'a plus pu prier pendant des semaines. Il a reconnu sa faute, s'est repenti devant les anciens, et a repris une vie de prière beaucoup plus humble. Il disait : « J'avais confondu l'activité de la prière avec la pureté du cœur. »"
     }
    ]
   },
   {
    "numero": "5",
-   "titre": "Les types d'adversaires",
+   "titre": "Les adversaires et la prudence",
    "references": [
-    "Éphésiens 6:12",
-    "Luc 4:33-36",
-    "Daniel 10:13"
+    "Ép 6:12",
+    "Lc 4:33-36",
+    "Dn 10:13",
+    "Dt 18:10-12",
+    "Ac 19:17-19"
    ],
-   "transition": "Un bon combattant connaît son adversaire. Que le discernement de Dieu t'aide à distinguer les différentes forces que tu affrontes.",
    "blocs": [
     {
-     "texte": "Démons — esprits sans corps qui cherchent à habiter des hommes (Matthieu 12:43-45)."
+     "sous_titre": "Plusieurs niveaux d'opposition"
     },
     {
-     "texte": "Esprits humains des sataniques — hommes et femmes qui servent consciemment les ténèbres et projettent leurs esprits pour nuire."
+     "texte": "La Bible nous montre plusieurs types d'opposition spirituelle. Il y a les démons, esprits mauvais qui tourmentent les personnes, que Jésus chassait, comme l'homme dans la synagogue de Capernaüm."
     },
     {
-     "texte": "Principautés et puissances — entités de haut rang qui gouvernent des territoires et des nations (Daniel 10:13)."
+     "verset": "Lc 4:33-36"
     },
     {
-     "texte": "Sois très prudent et ne précipite pas les actions spirituelles importantes."
+     "texte": "Il y a les principautés et les puissances, des entités de rang plus élevé qui influencent des territoires et des nations, comme le prince de Perse dans Daniel 10:13."
     },
     {
-     "texte": "Détruis les objets familiers et brise les liens impurs : fétiches, talismans, amulettes (Deutéronome 18:10-11 · Actes 19:17-19)."
+     "texte": "Il y a aussi des personnes qui, volontairement, pratiquent la sorcellerie, la magie ou le satanisme, et cherchent à nuire. La Bible interdit clairement ces pratiques et en montre la gravité."
+    },
+    {
+     "verset": "Dt 18:10-12"
+    },
+    {
+     "sous_titre": "La prudence face aux personnes"
+    },
+    {
+     "texte": "Ici, une grande prudence est nécessaire. Il ne faut jamais accuser quelqu'un de sorcellerie sans preuve, et encore moins le faire publiquement. Beaucoup de personnes innocentes ont été maltraitées, chassées de leur village, parfois tuées, à cause d'accusations de sorcellerie. Ce n'est pas l'esprit de Jésus. Notre combat n'est pas contre des personnes. Si quelqu'un est véritablement impliqué dans l'occultisme, notre réponse est la prière, l'amour, la patience, et l'invitation à la repentance."
+    },
+    {
+     "sous_titre": "Détruire ce qui est lié au mal"
+    },
+    {
+     "texte": "À Éphèse, après un grand réveil, beaucoup de croyants ont apporté leurs livres de magie et les ont brûlés. Dans ta maison, si tu possèdes des objets liés à l'occultisme, amulettes, talismans, fétiches, livres de sorcellerie, détruis-les avec prière."
+    },
+    {
+     "verset": "Ac 19:17-19"
+    },
+    {
+     "texte": "Mais ne le fais pas dans la peur ni dans la précipitation : prie d'abord, demande conseil à ton pasteur, et fais-le calmement. Ne touche pas aux objets qui appartiennent à d'autres personnes sans leur accord."
+    },
+    {
+     "sous_titre": "Ne pas précipiter les actions importantes"
+    },
+    {
+     "texte": "Les grandes actions spirituelles, comme un jeûne prolongé, une confrontation avec une personne, une délivrance, la destruction de certains objets, doivent être préparées dans la prière et accompagnées par des responsables. Beaucoup de dégâts viennent de gens qui se lancent sans préparation, par zèle sans connaissance."
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Tenir dans la durée",
+   "references": [
+    "Hé 12:1-3",
+    "Ga 6:9",
+    "2 Ti 2:3-4",
+    "Ex 17:10-13"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Le combat est long"
+    },
+    {
+     "texte": "Le combat spirituel n'est pas un coup d'éclat, mais un chemin. Il y aura des victoires, des défaites, des fatigues. Paul dit à Timothée : souffre avec moi, comme un bon soldat de Jésus-Christ. Les soldats ne s'embarrassent pas des affaires de la vie, pour plaire à celui qui les a enrôlés."
+    },
+    {
+     "verset": "2 Ti 2:3-4"
+    },
+    {
+     "texte": "Ne te lasse pas de faire le bien, car vous moissonnerez au temps convenable, si vous ne vous relâchez pas."
+    },
+    {
+     "verset": "Ga 6:9"
+    },
+    {
+     "sous_titre": "Ne pas combattre seul"
+    },
+    {
+     "texte": "À Rephidim, Israël combattait Amalek. Moïse était sur la colline avec Aaron et Hur. Tant que Moïse tenait ses mains levées, Israël était le plus fort ; quand il les baissait, Amalek avait le dessus. Comme les mains de Moïse étaient lourdes, ils prirent une pierre, la placèrent sous lui, et il s'assit dessus. Aaron et Hur lui soutenaient les mains, l'un d'un côté, l'autre de l'autre. Ses mains restèrent ainsi fermes jusqu'au coucher du soleil."
+    },
+    {
+     "verset": "Ex 17:10-13"
+    },
+    {
+     "texte": "Il y a une belle leçon. Même Moïse, le grand serviteur, avait besoin que d'autres lui soutiennent les mains. Cherche tes Aaron et tes Hur : des frères et sœurs avec qui prier, qui t'encouragent quand tu es fatigué. Et sois toi-même l'Aaron ou le Hur d'un autre."
+    },
+    {
+     "sous_titre": "Regarder à Jésus"
+    },
+    {
+     "texte": "L'épître aux Hébreux nous exhorte : rejetons tout fardeau, et le péché qui nous enveloppe si aisément, et courons avec persévérance dans la carrière qui nous est ouverte, ayant les regards sur Jésus, le chef et le consommateur de la foi."
+    },
+    {
+     "verset": "Hé 12:1-3"
+    },
+    {
+     "texte": "Pour terminer, souviens-toi : Dieu cherche toujours quelqu'un qui se tienne à la brèche. Il y a peut-être, dans ta famille, ton église ou ton pays, une brèche qui t'attend. Tu n'as pas besoin d'être parfait. Tu as besoin d'un cœur humble, d'une vie qui cherche la sainteté, de la Parole dans ta bouche, et de la persévérance. Réponds à l'appel : « Me voici, Seigneur. Je me tiens à la brèche. »"
     }
    ]
   }
  ],
- "lecture_minutes": 4,
- "auteur": "L'Arsenal de la Sentinelle",
- "autorisation": "oui",
- "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
- "date_ajout": "2026-11-14",
+ "sujets": [
+  {
+   "titre": "La brèche qui m'est confiée",
+   "texte": "Seigneur, montre-moi la brèche où tu veux que je me tienne : ma famille, mon église, mon quartier, mon pays. Je réponds à ton appel."
+  },
+  {
+   "titre": "Un cœur pur",
+   "texte": "Examine-moi, Seigneur. Fais-moi connaître le péché caché ou l'attachement qui me rendrait vulnérable. Purifie-moi."
+  },
+  {
+   "titre": "La force de persévérer",
+   "texte": "Quand je suis fatigué ou découragé, souviens-moi de Daniel, de Moïse et de Jésus. Donne-moi des frères et sœurs pour soutenir mes mains."
+  },
+  {
+   "titre": "L'amour pour les prisonniers",
+   "texte": "Donne-moi ton amour pour ceux qui sont liés. Que je prie pour leur délivrance, jamais pour leur destruction."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Que cherchait Dieu en Ézéchiel 22:30 ?",
+   "choix": [
+    "Un roi",
+    "Un homme qui se tienne à la brèche devant lui en faveur du pays",
+    "Un guerrier"
+   ],
+   "reponse": 1,
+   "explication": "Il n'en a pas trouvé. L'intercesseur peut changer le sort de tout un peuple.",
+   "section": "2"
+  },
+  {
+   "question": "Qu'est-ce que se tenir à la brèche ?",
+   "choix": [
+    "Faire un grand discours",
+    "Intercéder pour d'autres, même quand cela coûte",
+    "Éviter les problèmes"
+   ],
+   "reponse": 1,
+   "explication": "Moïse a offert d'être effacé du livre pour sauver le peuple (Exode 32:32).",
+   "section": "2"
+  },
+  {
+   "question": "D'après 2 Corinthiens 10:4, quelles sont les armes du combat ?",
+   "choix": [
+    "Des armes charnelles",
+    "Des armes puissantes par la vertu de Dieu",
+    "Des armes secrètes"
+   ],
+   "reponse": 1,
+   "explication": "La Parole, la prière, le jeûne, la louange.",
+   "section": "3"
+  },
+  {
+   "question": "Que fit Josaphat face à une grande armée ennemie ?",
+   "choix": [
+    "Il attaqua le premier",
+    "Il plaça des chantres devant l'armée, qui louaient Dieu",
+    "Il s'enfuit"
+   ],
+   "reponse": 1,
+   "explication": "2 Chroniques 20:21-22.",
+   "section": "3"
+  },
+  {
+   "question": "Pourquoi les sept fils de Scéva ont-ils été battus par le démon ?",
+   "choix": [
+    "Ils étaient trop jeunes",
+    "Ils utilisaient le nom de Jésus sans relation personnelle avec lui",
+    "Ils manquaient de force physique"
+   ],
+   "reponse": 1,
+   "explication": "Actes 19:13-16. On ne combat pas avec une formule magique.",
+   "section": "4"
+  },
+  {
+   "question": "Pourquoi faut-il être prudent face à l'accusation de sorcellerie ?",
+   "choix": [
+    "Parce que cela n'existe pas",
+    "Parce que des innocents sont maltraités ; notre combat n'est pas contre les personnes",
+    "Parce que c'est interdit par la loi"
+   ],
+   "reponse": 1,
+   "explication": "Ne jamais accuser sans preuve. La réponse est la prière, l'amour et l'invitation à la repentance.",
+   "section": "5"
+  },
+  {
+   "question": "Que montre l'histoire d'Amalek avec Moïse, Aaron et Hur ?",
+   "choix": [
+    "Que Moïse était faible",
+    "Qu'on ne combat pas seul : les mains de Moïse étaient soutenues",
+    "Qu'il faut lever les mains pour impressionner"
+   ],
+   "reponse": 1,
+   "explication": "Exode 17:10-13.",
+   "section": "6"
+  }
+ ],
+ "devoir": [
+  "Lis Ézéchiel 22:23-31 et Exode 32:7-14.",
+  "Écris le nom de la « brèche » dont tu veux te charger (une personne, une famille, un quartier) et prie chaque jour pour elle pendant trente jours.",
+  "Cherche un ou deux frères ou sœurs avec qui prier chaque semaine pour tenir ensemble, comme Aaron et Hur.",
+  "Choisis trois versets d'armes (Psaume 91, Luc 10:19, Éphésiens 6) et apprends-les par cœur."
+ ],
  "prieres_liees": [
   "combat:combat-consecration",
   "theme:priere-rempli-du-saint-esprit"
- ]
+ ],
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "autorisation": "oui"
 }
