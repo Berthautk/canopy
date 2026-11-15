@@ -803,7 +803,7 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 
 .course { padding-bottom: 8px; }
 .course__cadre { position: relative; margin-top: 10px; border-radius: 20px; overflow: hidden; box-shadow: var(--ombre); }
-.course__toile { display: block; width: 100%; height: min(64vh, 560px); touch-action: none; user-select: none; }
+.course__toile { display: block; width: 100%; height: max(300px, calc(100dvh - 360px - env(safe-area-inset-bottom))); touch-action: none; user-select: none; }
 .course__voile { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; padding: 18px; text-align: center; background: rgba(20,35,64,.82); color: #fff; }
 .course__voile h2 { color: #fff; margin: 0; } .course__voile p { margin: 0; line-height: 1.45; }
 .course__voile--mort { background: rgba(30,8,12,.88); animation: legende .5s ease both; }
@@ -813,7 +813,7 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .course__record { font-size: .85rem; opacity: .85; }
 .course__jesus { font-size: 1.15rem; padding: 14px 22px; box-shadow: 0 0 24px rgba(255,216,107,.6); }
 .course__fleches { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 10px; }
-.course__fleches button { height: 64px; border: 0; border-radius: 18px; background: var(--titre); color: #fff; font-size: 1.8rem; cursor: pointer; }
+.course__fleches button { height: 64px; border: 0; border-radius: 18px; background: #c99a2e; color: #142340; box-shadow: 0 4px 0 #8f6b17; font-size: 1.8rem; cursor: pointer; }
 
 .tribunal-tete { text-align: center; margin-top: 12px; } .tribunal-tete > span { font-size: 3.6rem; } .tribunal-tete p { line-height: 1.55; }
 .tribunal-secret { display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; padding: 28px 18px; margin-top: 14px; }
@@ -827,3 +827,7 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .pelerin__ville--ici { color: var(--titre); } .pelerin__ville--ici .pelerin__pion { background: var(--or); font-size: 1.5rem; border-color: var(--or); }
 .pelerin__ville .ligne__corps { padding-top: 10px; }
 .pelerin-msg { text-align: center; font-weight: 700; color: #c0392b; margin: 8px 0 0; } .pelerin-msg.ok { color: #2e7d4f; }
+
+.course__musique { display: block; margin: 8px 0 0 auto; border: 0; border-radius: 20px; padding: 6px 14px; background: var(--carte); color: var(--titre); font: 600 .85rem Poppins, sans-serif; box-shadow: var(--ombre); cursor: pointer; }
+.course__clair { color: #fff; border-color: #fff; }
+.course { padding-bottom: 0; } .course__fleches { margin-bottom: 4px; }

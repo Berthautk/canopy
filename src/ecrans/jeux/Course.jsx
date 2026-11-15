@@ -1,5 +1,8 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
 import { lireAVoixHaute, arreterVoix } from '../../audio/voix.js';
+import { jouerMusique, arreterMusique } from '../../audio/musique.js';
+import { reglages, modifierReglages } from '../../donnees/reglages.js';
+import { useSignal } from '../../outils/signal.js';
 
 // « La course de la vie » : le personnage court sur le chemin de la vie, étape après étape, sans fin.
 // Il esquive les péchés (ils font mourir : Romains 6:23) et attrape ce qui fortifie (prière, Parole, don…).
@@ -15,14 +18,20 @@ const ETAPES = [
   { nom: 'Le combat de la nuit', ciel: ['#1d2346', '#3b3f74'], sol: '#4a4a6a', bord: '#33334d', deco: 'etoile', mal: ['Peur', 'Sorcellerie', 'Haine', 'Idolâtrie'], nuit: true },
 ];
 const BIEN = [['🙏', 'Prière'], ['📖', 'Parole'], ['🪙', 'Donner'], ['📣', 'Évangéliser'], ['✅', 'Obéir'], ['❤️', 'Pardonner'], ['🎵', 'Louange']];
-const DUREE_ETAPE = 25;   // secondes par étape
+const BUT = (n) => 150 + n * 50;   // mètres à parcourir pour finir l'étape n
+const VERSETS = ['« Instruis l\'enfant selon la voie qu\'il doit suivre. » Proverbes 22:6', '« Que personne ne méprise ta jeunesse. » 1 Timothée 4:12',
+  '« Fuis les passions de la jeunesse. » 2 Timothée 2:22', '« Tout ce que vous faites, faites-le de bon cœur, comme pour le Seigneur. » Colossiens 3:23',
+  '« Moi et ma maison, nous servirons l\'Éternel. » Josué 24:15', '« L\'homme ne vivra pas de pain seulement. » Deutéronome 8:3', '« Revêtez-vous de toutes les armes de Dieu. » Éphésiens 6:11'];
 
 export function Course() {
   const toile = useRef(null);
   const etat = useRef(null);
   const [vue, setVue] = useState({ phase: 'debut' });
   const lire = (t) => lireAVoixHaute('course', [{ texte: t }]);
-  let meilleur = 0; try { meilleur = +localStorage.getItem('yeshaya:course-record') || 0; } catch {}
+  let meilleur = 0; try { meilleur = +localStorage.getItem('yeshaya:course-etape') || 0; } catch {}
+  const r = useSignal(reglages), musique = r.musiqueJeux !== false;
+  useEffect(() => { if (musique && vue.phase !== 'debut') jouerMusique(); else arreterMusique(); }, [musique, vue.phase === 'debut']);
+  useEffect(() => () => arreterMusique(), []);
 
   useEffect(() => {
     const c = toile.current, ctx = c.getContext('2d');
@@ -36,8 +45,11 @@ export function Course() {
     return () => { cancelAnimationFrame(raf); removeEventListener('resize', taille); removeEventListener('keydown', touche); arreterVoix(); };
   }, []);
 
-  function nouvelle() {
-    etat.current = { voie: 1, x: 1, temps: 0, distance: 0, force: 100, objets: [], prochain: 0.8, etape: -1, vitesse: 1, releve: 0, invincible: 0, phase: 'course', anim: 0, bonus: [], lumiere: 0 };
+  function nouvelle(n = 0) {
+    const releve = etat.current?.releve || 0;
+    etat.current = { voie: 1, x: 1, temps: 0, distance: 0, force: 100, objets: [], prochain: 0.8, etape: n, vitesse: 1, releve, invincible: 0, phase: 'course', anim: 0, bonus: [], lumiere: 0, bandeau: 2.8 };
+    const et = ETAPES[n % ETAPES.length];
+    lire(n === 0 ? `Étape 1 : ${et.nom}. Évite les péchés, attrape ce qui te rend fort. Cours ${BUT(0)} mètres !` : `Étape ${n + 1} : ${et.nom}. Cours ${BUT(n)} mètres. Ça va plus vite !`);
     setVue({ phase: 'course' });
   }
   function bouger(s) { const e = etat.current; if (!e || e.phase !== 'course') return; e.voie = Math.max(0, Math.min(2, e.voie + s)); }
@@ -46,12 +58,13 @@ export function Course() {
     const e = etat.current; if (!e) return;
     e.anim += dt;
     if (e.lumiere > 0) e.lumiere = Math.max(0, e.lumiere - dt);
+    if (e.phase === 'releve') { e.rt += dt; if (e.rt >= 4) { e.phase = 'course'; e.invincible = 3; setVue({ phase: 'course' }); } return; }
     if (e.phase !== 'course') return;
-    e.temps += dt; e.vitesse = 1 + Math.min(1.6, e.temps / 120);
+    // La vitesse de départ monte à chaque étape, puis monte encore pendant l'étape.
+    e.temps += dt; e.vitesse = 0.85 + e.etape * 0.14 + Math.min(0.6, (e.distance / BUT(e.etape)) * 0.6);
     e.distance += dt * 6 * e.vitesse;
     e.x += (e.voie - e.x) * Math.min(1, dt * 14);
-    const n = Math.floor(e.temps / DUREE_ETAPE);
-    if (n !== e.etape) { e.etape = n; const et = ETAPES[n % ETAPES.length]; e.bandeau = 2.5; lire(n === 0 ? 'Cours sur le chemin de la vie ! Évite les péchés, attrape ce qui te rend fort.' : `Nouvelle étape : ${et.nom}.`); }
+    if (e.distance >= BUT(e.etape)) return finirEtape();
     if (e.bandeau > 0) e.bandeau -= dt;
     e.force -= dt * (2.2 + e.vitesse);
     if (e.invincible > 0) e.invincible -= dt;
@@ -81,16 +94,22 @@ export function Course() {
   }
   function mourir(mot) {
     const e = etat.current; e.phase = 'mort'; e.cause = mot;
-    const m = Math.floor(e.distance); try { if (m > meilleur) localStorage.setItem('yeshaya:course-record', m); } catch {}
+    const m = Math.floor(e.distance);
     setVue({ phase: 'mort', mot, distance: m });
     lire(mot ? `${mot} t'a frappé. Le salaire du péché, c'est la mort. Veux-tu revivre ? Pour continuer, il te faut Jésus.`
       : 'Tu n\'avais plus de force. Sans prière et sans la Parole, on s\'éteint. Veux-tu revivre ? Il te faut Jésus.');
   }
+  // Jésus descend dans la lumière, vient jusqu'au personnage, entre en lui ; il se relève et repart.
   function revivre() {
-    const e = etat.current; e.phase = 'course'; e.force = 100; e.invincible = 3; e.releve++; e.lumiere = 2.2;
-    e.objets = e.objets.filter((o) => o.y < 0.4);
-    setVue({ phase: 'course' });
-    lire('Jésus entre dans ta vie. Il te relève. Il t\'a donné une vie nouvelle. Continue la course !');
+    const e = etat.current; e.phase = 'releve'; e.rt = 0; e.force = 100; e.releve++; e.objets = [];
+    setVue({ phase: 'releve' });
+    lire('Jésus vient. Il entre dans ta vie. Il te relève et te donne une vie nouvelle. Continue la course !');
+  }
+  function finirEtape() {
+    const e = etat.current; e.phase = 'etape';
+    try { if (e.etape + 1 > meilleur) localStorage.setItem('yeshaya:course-etape', e.etape + 1); } catch {}
+    setVue({ phase: 'etape', n: e.etape });
+    lire(`Bravo ! Tu as fini l'étape ${e.etape + 1} : ${ETAPES[e.etape % ETAPES.length].nom}. ${VERSETS[e.etape % VERSETS.length]}`);
   }
 
   // ———— Dessin ————
@@ -119,20 +138,32 @@ export function Course() {
       lg.addColorStop(0, `rgba(255,236,150,${0.9 * a})`); lg.addColorStop(1, `rgba(255,255,255,${0.15 * a})`);
       ctx.fillStyle = lg; ctx.beginPath(); ctx.moveTo(X(e.x) - 30, 0); ctx.lineTo(X(e.x) + 30, 0); ctx.lineTo(X(e.x) + 70, H); ctx.lineTo(X(e.x) - 70, H); ctx.fill();
     }
-    const mort = e.phase === 'mort';
-    if (e.invincible > 0 && !mort) { ctx.save(); ctx.shadowColor = '#ffe27a'; ctx.shadowBlur = 30; }
-    personnage(ctx, X(e.x), H * 0.84, mort ? 0 : e.anim * 11, mort ? 0.4 : 1, mort ? 1 : 0);
-    if (e.invincible > 0 && !mort) ctx.restore();
+    const mort = e.phase === 'mort', rel = e.phase === 'releve', px = X(e.x), py = H * 0.84;
+    if (rel) {   // la scène : lumière, Jésus descend, entre dans le personnage, qui se relève
+      const t = e.rt, a = Math.min(1, t / 0.6) * (t > 3.4 ? Math.max(0, (4 - t) / 0.6) : 1);
+      const lg = ctx.createLinearGradient(0, 0, 0, H); lg.addColorStop(0, `rgba(255,236,150,${0.95 * a})`); lg.addColorStop(1, `rgba(255,255,255,${0.25 * a})`);
+      ctx.fillStyle = lg; ctx.beginPath(); ctx.moveTo(px - 40, 0); ctx.lineTo(px + 40, 0); ctx.lineTo(px + 90, H); ctx.lineTo(px - 90, H); ctx.fill();
+      const descente = Math.min(1, t / 1.7), entree = Math.max(0, Math.min(1, (t - 1.7) / 0.8));
+      const debout = Math.max(0, Math.min(1, (t - 2.5) / 0.8));
+      personnage(ctx, px, py, 0, 0.55 + debout * 0.45, 1 - debout);
+      if (entree < 1) jesus(ctx, px, -80 + (py - 70 + 80) * (1 - Math.pow(1 - descente, 2)) + entree * 50, 1 - entree, e.anim);
+      if (entree > 0 && debout < 1) { const f = Math.sin(Math.min(1, (t - 1.7) / 1.4) * Math.PI); const rg = ctx.createRadialGradient(px, py - 20, 4, px, py - 20, 120);
+        rg.addColorStop(0, `rgba(255,255,230,${f})`); rg.addColorStop(1, 'rgba(255,240,180,0)'); ctx.fillStyle = rg; ctx.fillRect(px - 130, py - 150, 260, 260); }
+    } else {
+      if (e.invincible > 0 && !mort) { ctx.save(); ctx.shadowColor = '#ffe27a'; ctx.shadowBlur = 30; }
+      personnage(ctx, px, py, mort ? 0 : e.anim * 11 * e.vitesse, mort ? 0.4 : 1, mort ? 1 : 0);
+      if (e.invincible > 0 && !mort) ctx.restore();
+    }
     for (const b of e.bonus) { ctx.globalAlpha = Math.max(0, 1 - b.y); ctx.fillStyle = '#1c7c3c'; ctx.font = '700 16px Poppins, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(b.mot, X(b.v), H * 0.78 - b.y * 80); ctx.globalAlpha = 1; }
     // Barre de force et distance
     ctx.fillStyle = 'rgba(0,0,0,.45)'; rond(ctx, 10, 10, W - 20, 36, 12); ctx.fill();
     ctx.fillStyle = '#fff'; ctx.font = '600 13px Poppins, sans-serif'; ctx.textAlign = 'left'; ctx.fillText('Force', 20, 33);
-    ctx.fillStyle = 'rgba(255,255,255,.25)'; rond(ctx, 66, 20, W * 0.42, 16, 8); ctx.fill();
-    ctx.fillStyle = e.force > 35 ? '#f6c344' : '#ff6b5a'; rond(ctx, 66, 20, Math.max(0, W * 0.42 * e.force / 100), 16, 8); ctx.fill();
-    ctx.fillStyle = '#fff'; ctx.textAlign = 'right'; ctx.fillText(`${Math.floor(e.distance)} m`, W - 20, 33);
+    ctx.fillStyle = 'rgba(255,255,255,.25)'; rond(ctx, 66, 20, W * 0.3, 16, 8); ctx.fill();
+    ctx.fillStyle = e.force > 35 ? '#f6c344' : '#ff6b5a'; rond(ctx, 66, 20, Math.max(0, W * 0.3 * e.force / 100), 16, 8); ctx.fill();
+    ctx.fillStyle = '#fff'; ctx.textAlign = 'right'; ctx.fillText(`Étape ${e.etape + 1} · ${Math.min(BUT(e.etape), Math.floor(e.distance))}/${BUT(e.etape)} m`, W - 18, 33);
     if (e.bandeau > 0) {
       ctx.globalAlpha = Math.min(1, e.bandeau); ctx.fillStyle = 'rgba(20,35,64,.85)'; rond(ctx, W * 0.1, H * 0.3, W * 0.8, 58, 16); ctx.fill();
-      ctx.fillStyle = '#ffd86b'; ctx.font = '600 12px Poppins, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(`ÉTAPE ${e.etape + 1}`, W / 2, H * 0.3 + 22);
+      ctx.fillStyle = '#ffd86b'; ctx.font = '600 12px Poppins, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(`ÉTAPE ${e.etape + 1} · ${BUT(e.etape)} MÈTRES`, W / 2, H * 0.3 + 22);
       ctx.fillStyle = '#fff'; ctx.font = '700 19px Poppins, sans-serif'; ctx.fillText(et.nom, W / 2, H * 0.3 + 46); ctx.globalAlpha = 1;
     }
   }
@@ -142,6 +173,7 @@ export function Course() {
   const e = etat.current;
   return (
     <div class="page course">
+      <button class="course__musique" aria-pressed={musique} onClick={() => modifierReglages({ musiqueJeux: !musique })}>{musique ? '🎵 Musique : oui' : '🔇 Musique : non'}</button>
       <div class="course__cadre">
         <canvas ref={toile} class="course__toile" onPointerDown={(ev) => { glisse.current = ev.clientX; }} onPointerUp={(ev) => { const d = ev.clientX - (glisse.current ?? ev.clientX); if (Math.abs(d) > 30) bouger(d < 0 ? -1 : 1); else toucherEcran(ev); }}
           aria-label="Touchez à gauche ou à droite pour changer de voie" />
@@ -150,8 +182,15 @@ export function Course() {
           <p>Touche à <b>gauche</b> ou à <b>droite</b> pour changer de voie.</p>
           <p class="course__legende"><span class="course__pierre">Péché</span> esquive les pierres du péché : elles font mourir.</p>
           <p class="course__legende"><span class="course__or">🙏</span> attrape la prière, la Parole, le don… : ils te donnent de la force.</p>
-          <button class="bouton bouton--or" onClick={nouvelle}>▶ Courir</button>
-          {meilleur > 0 && <p class="course__record">Ton record : {meilleur} m</p>}
+          <button class="bouton bouton--or" onClick={() => nouvelle(0)}>▶ Courir (étape 1)</button>
+          {meilleur > 0 && <button class="bouton bouton--contour course__clair" onClick={() => nouvelle(meilleur)}>Reprendre à l'étape {meilleur + 1}</button>}
+        </div>}
+        {vue.phase === 'etape' && <div class="course__voile">
+          <p style="font-size:2.6rem">🏁</p>
+          <h2>Étape {vue.n + 1} réussie !</h2><p>{ETAPES[vue.n % ETAPES.length].nom}</p>
+          <p class="course__verset">{VERSETS[vue.n % VERSETS.length]}</p>
+          <button class="bouton bouton--or" onClick={() => nouvelle(vue.n + 1)}>Étape {vue.n + 2} : {ETAPES[(vue.n + 1) % ETAPES.length].nom} ▶</button>
+          <p class="course__record">Attention : à chaque étape, ça va plus vite.</p>
         </div>}
         {vue.phase === 'mort' && <div class="course__voile course__voile--mort">
           <p class="course__cause">{vue.mot ? <>« {vue.mot} » t'a frappé.</> : 'Tu n\'avais plus de force.'}</p>
@@ -162,7 +201,7 @@ export function Course() {
           <p class="course__record">{vue.distance} m parcourus{e?.releve ? ` · relevé ${e.releve} fois par Jésus` : ''}</p>
         </div>}
       </div>
-      <div class="course__fleches" aria-hidden={vue.phase !== 'course'}>
+      <div class="course__fleches">
         <button onClick={() => bouger(-1)} aria-label="À gauche">◀</button>
         <button onClick={() => bouger(1)} aria-label="À droite">▶</button>
       </div>
@@ -175,7 +214,7 @@ function rond(ctx, x, y, w, h, r) { ctx.beginPath(); ctx.roundRect ? ctx.roundRe
 // Le personnage, vu de dos en train de courir.
 function personnage(ctx, x, y, t, a, mort) {
   ctx.save(); ctx.translate(x, y); ctx.scale(1.35, 1.35); ctx.globalAlpha = a;
-  if (mort) ctx.rotate(Math.PI / 2.2);
+  if (mort) ctx.rotate((Math.PI / 2.2) * mort);
   const p = Math.sin(t), q = Math.cos(t);
   ctx.fillStyle = 'rgba(0,0,0,.18)'; ctx.beginPath(); ctx.ellipse(0, 30, 20, 6, 0, 0, 7); ctx.fill();
   ctx.lineCap = 'round';
@@ -236,5 +275,22 @@ function deco(ctx, type, x, y, nuit) {
   else if (type === 'immeuble') { ctx.fillStyle = '#5d6b85'; ctx.fillRect(-12, -22, 24, 40); ctx.fillStyle = '#ffe9a0'; for (let i = 0; i < 3; i++) for (let j = 0; j < 2; j++) ctx.fillRect(-8 + j * 10, -17 + i * 11, 6, 6); }
   else if (type === 'cactus') { ctx.fillStyle = '#3f8f4a'; rond(ctx, -4, -16, 8, 30, 4); ctx.fill(); rond(ctx, -12, -6, 6, 12, 3); ctx.fill(); rond(ctx, 6, -10, 6, 12, 3); ctx.fill(); }
   else if (type === 'etoile') { ctx.fillStyle = nuit ? '#fff6c0' : '#fff'; ctx.beginPath(); ctx.arc(0, 0, 2, 0, 7); ctx.fill(); ctx.fillStyle = '#2e2e48'; ctx.beginPath(); ctx.moveTo(-12, 16); ctx.lineTo(0, -4); ctx.lineTo(12, 16); ctx.fill(); }
+  ctx.restore();
+}
+
+// Jésus : robe blanche, manteau rouge, bras ouverts, auréole de lumière.
+function jesus(ctx, x, y, a, t) {
+  ctx.save(); ctx.translate(x, y); ctx.globalAlpha = Math.max(0, a); ctx.scale(1.6, 1.6);
+  const h = ctx.createRadialGradient(0, -30, 4, 0, -30, 34); h.addColorStop(0, 'rgba(255,248,200,.95)'); h.addColorStop(1, 'rgba(255,230,140,0)');
+  ctx.fillStyle = h; ctx.beginPath(); ctx.arc(0, -30, 34, 0, 7); ctx.fill();
+  ctx.lineCap = 'round'; ctx.strokeStyle = '#f4f1ea'; ctx.lineWidth = 6; const o = Math.sin(t * 2) * 2;
+  ctx.beginPath(); ctx.moveTo(-10, -14); ctx.lineTo(-26, -24 + o); ctx.stroke(); ctx.beginPath(); ctx.moveTo(10, -14); ctx.lineTo(26, -24 - o); ctx.stroke();
+  ctx.fillStyle = '#8a5a3c'; ctx.beginPath(); ctx.arc(-27, -25 + o, 3.2, 0, 7); ctx.arc(27, -25 - o, 3.2, 0, 7); ctx.fill();
+  const rb = ctx.createLinearGradient(0, -20, 0, 30); rb.addColorStop(0, '#ffffff'); rb.addColorStop(1, '#e6e1d6');
+  ctx.fillStyle = rb; ctx.beginPath(); ctx.moveTo(-11, -18); ctx.quadraticCurveTo(0, -23, 11, -18); ctx.lineTo(16, 30); ctx.lineTo(-16, 30); ctx.closePath(); ctx.fill();
+  ctx.fillStyle = '#b3262f'; ctx.beginPath(); ctx.moveTo(-11, -18); ctx.lineTo(4, -17); ctx.lineTo(-6, 30); ctx.lineTo(-16, 30); ctx.closePath(); ctx.fill();
+  ctx.fillStyle = '#8a5a3c'; ctx.beginPath(); ctx.arc(0, -28, 8.5, 0, 7); ctx.fill();
+  ctx.fillStyle = '#3b2416'; ctx.beginPath(); ctx.arc(0, -30, 9.5, Math.PI * 1.05, Math.PI * 1.95); ctx.lineTo(9, -20); ctx.lineTo(7, -26); ctx.lineTo(-7, -26); ctx.lineTo(-9, -20); ctx.fill();
+  ctx.beginPath(); ctx.moveTo(-6, -25); ctx.quadraticCurveTo(0, -14, 6, -25); ctx.fill();
   ctx.restore();
 }
