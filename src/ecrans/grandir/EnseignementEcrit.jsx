@@ -60,13 +60,13 @@ export function EnseignementEcrit({ id, ecouter }) {
         <section class="carte bloc" {...va(pos.objectifs)}><h3><span class="ligne__icone"><Icone nom="cible" /></span> Objectifs</h3>
           <ul class="objectifs">{e.objectifs.map((o) => <li><Icone nom="verifie" taille={16} /><span><TexteRefs texte={o} /></span></li>)}</ul></section>
       )}
-      {e.introduction && <section class="carte bloc" {...va(pos.intro)}><h3><span class="ligne__icone"><Icone nom="info" /></span> Introduction</h3><p><TexteRefs texte={e.introduction} /></p></section>}
+      {e.introduction && <section class="carte bloc ens-intro" {...va(pos.intro)}><h3><span class="ligne__icone"><Icone nom="info" /></span> Introduction</h3><p><TexteRefs texte={e.introduction} /></p></section>}
       {e.sections.map((s, i) => (
         <section class="section-ens" id={'point-' + s.numero}>
           <img class="section-ens__image" src={imgs[i]} alt="" loading="lazy" />
           <div {...va(pos[`s${i}`])}>
             {s.transition && <p class="section-ens__transition"><TexteRefs texte={s.transition} /></p>}
-            <h2 class="phase__titre"><span class="phase__num">{s.numero}</span>{s.titre}</h2>
+            <h2 class="phase__titre ens-point"><span class="phase__num">{s.numero}</span>{s.titre}</h2>
             {s.references.length > 0 && <p class="section-ens__refs">{s.references.map((r) => <TexteRefs texte={r} />).reduce((a, b) => [a, ' · ', b])}</p>}
           </div>
           {s.blocs.map((b, j) => {

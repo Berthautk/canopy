@@ -15,7 +15,13 @@ addEventListener('hashchange', () => {
   scrollTo(0, 0);
 });
 
-export const aller = (chemin) => { location.hash = '#/' + chemin; };
+// Passer d'un chapitre ou d'un jour à son voisin (même écran, même profondeur) remplace l'entrée
+// de l'historique : « Retour » ramène alors à la page d'avant, pas au chapitre précédent.
+export const aller = (chemin) => {
+  const a = route.valeur.segments, b = chemin.split('?')[0].split('/').filter(Boolean);
+  if (a.length >= 3 && a.length === b.length && a[0] === b[0] && a[1] === b[1]) { history.replaceState(null, '', '#/' + chemin); route.valeur = lire(); scrollTo(0, 0); return; }
+  location.hash = '#/' + chemin;
+};
 export const remplacer = (chemin) => { history.replaceState(null, '', '#/' + chemin); route.valeur = lire(); };
 export const retour = (defaut = 'accueil') => {
   if (history.length > 1) history.back(); else aller(defaut);

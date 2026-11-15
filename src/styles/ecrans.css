@@ -831,3 +831,12 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .course__musique { display: block; margin: 8px 0 0 auto; border: 0; border-radius: 20px; padding: 6px 14px; background: var(--carte); color: var(--titre); font: 600 .85rem Poppins, sans-serif; box-shadow: var(--ombre); cursor: pointer; }
 .course__clair { color: #fff; border-color: #fff; }
 .course { padding-bottom: 0; } .course__fleches { margin-bottom: 4px; }
+/* Enseignements : titre, introduction et points numérotés bien marqués. */
+.theme-hero__texte h2 { font-size: 1.75rem; line-height: 1.2; text-shadow: 0 2px 8px rgba(0,0,0,.45); }
+.ens-intro { border-left: 5px solid var(--or); background: linear-gradient(90deg, #FFF8E6, var(--surface, #fff)); }
+:root[data-theme='sombre'] .ens-intro { background: linear-gradient(90deg, #2E2818, var(--surface, #1b2233)); }
+.ens-intro h3 { font-size: 1.2rem; }
+.ens-intro p { font-size: 1.05rem; line-height: 1.65; }
+.ens-point { font-size: 1.4rem; line-height: 1.25; color: var(--titre); margin: 30px 0 8px; padding: 0 0 10px; border-bottom: 3px solid var(--or); align-items: flex-start; }
+.ens-point .phase__num { width: 42px; height: 42px; font-size: 1.25rem; box-shadow: 0 3px 8px rgba(201,154,46,.45); margin-top: -4px; }
+.section-ens__sous { font-size: 1.12rem; font-weight: 700; padding-left: 10px; border-left: 4px solid var(--or); margin-top: 14px; }

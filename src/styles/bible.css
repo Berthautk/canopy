@@ -208,3 +208,5 @@ button.selecteur { font: inherit; cursor: pointer; }
 .livre--ici, .pastille-chapitre--ici { outline: 2px solid var(--or); }
 .revenir-passage { position: sticky; top: calc(164px + env(safe-area-inset-top)); z-index: 11; display: flex; align-items: center; gap: 6px; margin: 8px auto 0; padding: 8px 14px; border-radius: 20px; background: var(--or); color: var(--bleu-nuit, #142340); font-weight: 600; box-shadow: 0 4px 12px rgba(0,0,0,.18); }
 .theme-recherche { margin-top: 14px; }
+.lecture__boucle { display: block; margin: 0 0 10px; } .puce--active { border-color: var(--or); background: #FFF3D1; color: #6b4f0a; }
+:root[data-theme='sombre'] .puce--active { background: #2E2818; color: #ffd86b; }

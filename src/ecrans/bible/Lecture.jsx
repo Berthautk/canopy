@@ -8,7 +8,9 @@ import { useSignal } from '../../outils/signal.js';
 import { partager, copier, partagerImageVerset } from '../../outils/partage.js';
 import { aller, remplacer } from '../../outils/routeur.js';
 import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
-import { lireAVoixHaute } from '../../audio/voix.js';
+import { lireAVoixHaute, voix } from '../../audio/voix.js';
+import { plan, basculerLu } from '../../bible/plans.js';
+import { reglages, modifierReglages } from '../../donnees/reglages.js';
 
 // Pile des passages quittés (pour « Revenir à… ») : on peut aller voir une autre référence, puis revenir où l'on était.
 const CLE_PILE = 'yeshaya:pile-lecture';
@@ -110,6 +112,14 @@ export function Lecture({ code, c, vise, ecouter }) {
     }
   }, [chap, vise]);
 
+  // Fin de l'écoute : le chapitre est noté comme lu dans le plan ; « Lire en boucle » le relance.
+  const vx = useSignal(voix), pl = useSignal(plan), rg = useSignal(reglages);
+  const cleChap = `${code}.${c}`, dejaLu = !!pl?.lus?.includes(cleChap);
+  useEffect(() => {
+    if (!(vx.id === `bible-${code}-${c}` && vx.termine)) return;
+    if (pl && !pl.lus.includes(cleChap)) { basculerLu(pl, [cleChap], true); notifier(`${ecrireReference({ code, c })} noté comme lu dans ton plan`); }
+    if (reglages.valeur.boucleBible) setTimeout(() => lireAVoixHaute(`bible-${code}-${c}`, blocsLecture), 1200);
+  }, [vx.termine, vx.id]);
   const blocsLecture = chap ? [{ texte: (code === 'PSA' ? ecrireReference({ code, c }) : ecrireReference({ code, c }).replace(/ (\d+)$/, ', chapitre $1')) + '.' }, ...chap.map((t) => ({ texte: (t || '').replace(/\n/g, ' ') }))] : [];
   if (!livre) return <div class="page"><p>Livre inconnu.</p></div>;
   const prec = voisin(code, c, -1), suiv = voisin(code, c, 1);
@@ -141,6 +151,8 @@ export function Lecture({ code, c, vise, ecouter }) {
       )}
       <article class="page lecture__texte" lang="fr">
         {chap && <BarreEcoute id={`bible-${code}-${c}`} titre={'Écouter ' + ecrireReference({ code, c })} blocs={blocsLecture} />}
+        {chap && <button class={'puce lecture__boucle' + (rg.boucleBible ? ' puce--active' : '')} aria-pressed={!!rg.boucleBible} onClick={() => modifierReglages({ boucleBible: !rg.boucleBible })}>
+          🔁 Lire en boucle : {rg.boucleBible ? 'oui' : 'non'}</button>}
         <h2 class="lecture__titre">{ecrireReference({ code, c })}</h2>
         {erreur && <p class="verset__erreur">{erreur}</p>}
         {!chap && !erreur && <p class="verset__attente">Chargement…</p>}
@@ -159,10 +171,12 @@ export function Lecture({ code, c, vise, ecouter }) {
             </p>
           );
         })}
+        {chap && pl && <button class={'bouton lecture__suivant ' + (dejaLu ? 'bouton--contour' : 'bouton--or')} onClick={() => basculerLu(pl, [cleChap], !dejaLu)}>
+          <Icone nom="verifie" taille={18} /> {dejaLu ? 'Lu (plan de lecture)' : 'J\'ai lu ce chapitre'}</button>}
         {chap && suiv && (
-          <a class="bouton bouton--contour lecture__suivant" href={`#/bible/lire/${suiv[0]}/${suiv[1]}`}>
+          <button class="bouton bouton--contour lecture__suivant" onClick={() => aller(`bible/lire/${suiv[0]}/${suiv[1]}`)}>
             Chapitre suivant : {PAR_CODE[suiv[0]].nom} {suiv[1]} <Icone nom="chevron" taille={18} />
-          </a>
+          </button>
         )}
       </article>
 
