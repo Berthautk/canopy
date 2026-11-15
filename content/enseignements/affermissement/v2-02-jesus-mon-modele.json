@@ -7,7 +7,7 @@
  "resume": "Deuxième leçon du volume 2 : Dieu ne veut pas seulement te sauver, il veut te rendre semblable à son Fils. Comment Jésus a vécu, obéi, servi et souffert, et comment marcher sur ses traces.",
  "image": "/assets/jesus/jesus-marche-sur-le-chemin.webp",
  "verset_de_base": "1 P 2:21",
- "lecture_minutes": 9,
+ "lecture_minutes": 12,
  "objectifs": [
   "Comprendre que le but de Dieu est de nous rendre semblables à Jésus.",
   "Observer comment Jésus a vécu son obéissance, son humilité, sa prière et ses souffrances.",
@@ -170,6 +170,76 @@
   },
   {
    "numero": "6",
+   "titre": "Jésus dans les relations",
+   "references": [
+    "Mc 6:34",
+    "Jn 11:33-36",
+    "Lc 7:13"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Ému de compassion"
+    },
+    {
+     "texte": "Plusieurs fois, les évangiles disent que Jésus fut « ému de compassion ». Quand il vit une grande foule, il fut ému de compassion pour eux, parce qu'ils étaient comme des brebis qui n'ont point de berger. Quand il vit la veuve de Naïn qui enterrait son fils unique, il fut ému de compassion et lui dit : « Ne pleure pas. » Ressembler à Jésus, ce n'est pas seulement être juste ; c'est avoir le cœur touché par la souffrance des gens."
+    },
+    {
+     "verset": "Mc 6:34"
+    },
+    {
+     "sous_titre": "Jésus pleura"
+    },
+    {
+     "texte": "Devant le tombeau de Lazare, Jésus savait qu'il allait le ressusciter quelques minutes plus tard. Pourtant il frémit en son esprit, fut tout ému, et pleura. Les Juifs dirent : « Voyez comme il l'aimait. » Jésus n'était pas un maître froid et lointain. Il pleurait avec ceux qui pleurent. Celui qui veut lui ressembler apprend à pleurer avec les autres plutôt qu'à leur faire des sermons."
+    },
+    {
+     "verset": "Jn 11:33-36"
+    }
+   ]
+  },
+  {
+   "numero": "7",
+   "titre": "Ressembler à Jésus au quotidien",
+   "references": [
+    "Mt 11:29",
+    "Ep 5:1-2",
+    "1 P 2:21"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Dans la colère"
+    },
+    {
+     "texte": "Jésus s'est mis en colère, mais jamais pour lui-même : contre les marchands du temple, contre les pharisiens qui fermaient le royaume aux autres. Quand on l'insultait, lui, il se taisait. Nous faisons souvent l'inverse : nous nous fâchons quand on nous touche, et nous restons calmes quand on touche à Dieu ou aux faibles."
+    },
+    {
+     "sous_titre": "Avec l'argent"
+    },
+    {
+     "texte": "Jésus n'avait pas d'endroit où reposer sa tête. Il n'a jamais utilisé son pouvoir pour s'enrichir. Il a nourri des foules, mais n'a jamais monnayé un miracle. Le disciple qui ressemble à Jésus ne fait pas de son service un commerce."
+    },
+    {
+     "sous_titre": "Dans le pardon"
+    },
+    {
+     "texte": "Jésus a pardonné à Pierre qui l'avait renié, à Thomas qui doutait, aux soldats qui le crucifiaient. Soyez donc les imitateurs de Dieu, comme des enfants bien-aimés ; et marchez dans la charité, à l'exemple de Christ, qui nous a aimés et qui s'est livré lui-même pour nous."
+    },
+    {
+     "verset": "Ep 5:1-2"
+    },
+    {
+     "sous_titre": "Une question pour chaque situation"
+    },
+    {
+     "texte": "Avant de répondre à un message qui t'a blessé, avant de dépenser, avant de parler de quelqu'un, pose-toi cette question : que ferait Jésus à ma place ? Puis demande-lui la force de le faire. C'est ainsi qu'on marche, pas à pas, sur ses traces."
+    },
+    {
+     "verset": "1 P 2:21"
+    }
+   ]
+  },
+  {
+   "numero": "8",
    "titre": "Conclusion",
    "references": [
     "Ga 2:20"
@@ -228,6 +298,28 @@
    "reponse": 1,
    "explication": "(1 Pierre 2:23)",
    "section": "5"
+  },
+  {
+   "question": "Que ressentait Jésus en voyant les foules ?",
+   "choix": [
+    "De l'agacement",
+    "De la compassion, car elles étaient comme des brebis sans berger",
+    "De l'indifférence"
+   ],
+   "reponse": 1,
+   "explication": "(Marc 6:34)",
+   "section": "6"
+  },
+  {
+   "question": "Pourquoi Jésus s'est-il mis en colère dans les évangiles ?",
+   "choix": [
+    "Quand on l'insultait",
+    "Jamais pour lui-même, mais pour Dieu et pour les faibles",
+    "Pour des questions d'argent"
+   ],
+   "reponse": 1,
+   "explication": "Quand on l'insultait, il se taisait (1 Pierre 2:23).",
+   "section": "7"
   }
  ],
  "devoir": [

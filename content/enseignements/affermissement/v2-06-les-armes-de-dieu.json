@@ -7,7 +7,7 @@
  "resume": "Sixième leçon du volume 2 : Dieu ne t'envoie pas au combat sans équipement. Les pièces de l'armure d'Éphésiens 6, une par une, et comment les porter concrètement chaque jour.",
  "image": "/assets/vie-chretienne/mains-en-priere-sur-bible.webp",
  "verset_de_base": "Ep 6:13",
- "lecture_minutes": 7,
+ "lecture_minutes": 13,
  "objectifs": [
   "Connaître les six pièces de l'armure de Dieu.",
   "Comprendre ce que chacune représente dans la vie pratique.",
@@ -169,6 +169,72 @@
   },
   {
    "numero": "6",
+   "titre": "Des hommes qui ont porté l'armure",
+   "references": [
+    "1 S 17:38-47",
+    "Dn 6:10",
+    "Mt 4:1-11"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "David refuse l'armure de Saül"
+    },
+    {
+     "texte": "Saül voulut revêtir David de son armure : casque d'airain, cuirasse, épée. David essaya de marcher, puis l'ôta : « Je ne puis marcher avec cette armure, je n'y suis pas accoutumé. » Il alla contre Goliath avec sa fronde et cinq pierres, en disant : « Je marche contre toi au nom de l'Éternel des armées. » Les armes de Dieu ne sont pas celles des hommes. On ne gagne pas les combats spirituels avec des méthodes humaines, des fétiches de protection, des relations influentes ou des slogans criés."
+    },
+    {
+     "verset": "1 S 17:45-47"
+    },
+    {
+     "sous_titre": "Daniel et la prière"
+    },
+    {
+     "texte": "Quand Daniel apprit que le décret interdisant de prier avait été signé, il entra dans sa maison, ouvrit ses fenêtres vers Jérusalem, et trois fois par jour il se mit à genoux, il pria et loua son Dieu, comme il le faisait auparavant. Sa victoire dans la fosse aux lions a commencé dans sa chambre, des années avant. On ne revêt pas l'armure le jour de la bataille ; on la porte chaque jour."
+    },
+    {
+     "verset": "Dn 6:10"
+    },
+    {
+     "sous_titre": "Jésus dans le désert"
+    },
+    {
+     "texte": "Pendant quarante jours, le diable a tenté Jésus par la faim, par l'orgueil spirituel et par la puissance. Trois fois, Jésus a répondu avec l'épée de l'Esprit : « Il est écrit. » Il n'a pas débattu avec le diable, il n'a pas cherché à prouver qui il était ; il a cité la Parole. C'est le modèle de tout combat spirituel."
+    },
+    {
+     "verset": "Mt 4:1-11"
+    }
+   ]
+  },
+  {
+   "numero": "7",
+   "titre": "Revêtir l'armure chaque matin",
+   "references": [
+    "Ps 5:4",
+    "Rm 13:12-14"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Une prière du matin"
+    },
+    {
+     "texte": "On peut, chaque matin, prendre une minute pour revêtir l'armure dans la prière. « Seigneur, je prends la ceinture de la vérité : garde-moi de tout mensonge aujourd'hui. Je revêts la cuirasse de la justice : je suis juste par le sang de Jésus, garde-moi pur. Je mets les chaussures de l'Évangile : donne-moi une occasion de parler de toi. Je lève le bouclier de la foi contre la peur et le doute. Je prends le casque du salut : je sais que je t'appartiens. Je prends l'épée de l'Esprit : rappelle-moi ta Parole au moment de la tentation. Et je prie pour mes frères. » Ce n'est pas une formule magique ; c'est une manière de se placer consciemment sous la protection de Dieu."
+    },
+    {
+     "verset": "Ps 5:4"
+    },
+    {
+     "sous_titre": "Revêtir Christ"
+    },
+    {
+     "texte": "Paul dit ailleurs : revêtez-vous du Seigneur Jésus-Christ, et n'ayez pas soin de la chair pour en satisfaire les convoitises. Au fond, l'armure de Dieu, c'est Christ lui-même : il est la vérité, notre justice, notre paix, l'objet de notre foi, notre salut, la Parole vivante. Revêtir l'armure, c'est se revêtir de Christ."
+    },
+    {
+     "verset": "Rm 13:12-14"
+    }
+   ]
+  },
+  {
+   "numero": "8",
    "titre": "Conclusion",
    "references": [
     "Rm 13:12"
@@ -216,6 +282,28 @@
    "reponse": 1,
    "explication": "(Éphésiens 6:14)",
    "section": "2"
+  },
+  {
+   "question": "Pourquoi David a-t-il refusé l'armure de Saül ?",
+   "choix": [
+    "Elle était trop belle",
+    "Il n'y était pas habitué et marchait au nom de l'Éternel",
+    "Il avait peur"
+   ],
+   "reponse": 1,
+   "explication": "(1 Samuel 17:39, 45)",
+   "section": "6"
+  },
+  {
+   "question": "Qu'a répondu Jésus trois fois au diable dans le désert ?",
+   "choix": [
+    "Va-t'en",
+    "Il est écrit",
+    "Je suis le Fils de Dieu"
+   ],
+   "reponse": 1,
+   "explication": "(Matthieu 4:4, 7, 10)",
+   "section": "6"
   }
  ],
  "devoir": [

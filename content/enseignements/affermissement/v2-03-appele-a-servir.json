@@ -7,7 +7,7 @@
  "resume": "Troisième leçon du volume 2 : tout chrétien est sauvé pour servir. Les dons que Dieu donne, l'attitude du serviteur, et comment trouver sa place dans l'église et autour de soi.",
  "image": "/assets/vie-chretienne/entraide-don.webp",
  "verset_de_base": "1 P 4:10",
- "lecture_minutes": 9,
+ "lecture_minutes": 14,
  "objectifs": [
   "Comprendre que chaque chrétien est appelé à servir, pas seulement les pasteurs.",
   "Découvrir les dons spirituels et leur but.",
@@ -170,6 +170,82 @@
   },
   {
    "numero": "5",
+   "titre": "Des serviteurs ordinaires que Dieu a utilisés",
+   "references": [
+    "Ex 4:10-12",
+    "Jg 6:15-16",
+    "Jr 1:6-8"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "« Je ne suis pas un homme qui ait la parole facile »"
+    },
+    {
+     "texte": "Quand Dieu a appelé Moïse, celui-ci a multiplié les excuses : qui suis-je ? ils ne me croiront pas ; je ne suis pas un homme qui ait la parole facile. Dieu lui a répondu : « Qui a fait la bouche de l'homme ? N'est-ce pas moi, l'Éternel ? Va, je serai avec ta bouche. » Tes faiblesses ne sont pas un obstacle pour Dieu ; elles sont souvent l'endroit où il montre sa force."
+    },
+    {
+     "verset": "Ex 4:10-12"
+    },
+    {
+     "sous_titre": "Le plus petit de la maison de son père"
+    },
+    {
+     "texte": "Gédéon se cachait pour battre son blé, par peur des Madianites. L'ange l'a appelé « vaillant héros ». Gédéon a répondu : « Ma famille est la plus pauvre, et je suis le plus petit dans la maison de mon père. » Dieu a dit : « Je serai avec toi. » Dieu n'appelle pas ceux qui sont capables ; il rend capables ceux qu'il appelle."
+    },
+    {
+     "verset": "Jg 6:15-16"
+    },
+    {
+     "sous_titre": "« Je suis un enfant »"
+    },
+    {
+     "texte": "Jérémie disait : « Ah ! Seigneur Éternel ! je ne sais point parler, car je suis un enfant. » Dieu lui a répondu : « Ne dis pas : je suis un enfant. Car tu iras vers tous ceux auprès de qui je t'enverrai. » Les jeunes ont aussi leur place dans le service de Dieu. Que personne ne méprise ta jeunesse."
+    },
+    {
+     "verset": "Jr 1:6-8"
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Ce qui empêche de servir",
+   "references": [
+    "Pr 22:13",
+    "Mt 25:24-27",
+    "Lc 10:40-42"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La paresse et les excuses"
+    },
+    {
+     "texte": "Le paresseux dit : « Il y a un lion dehors ! Je serai tué dans les rues ! » Les excuses sont nombreuses : je suis trop occupé, je n'ai pas de don, on ne m'a pas demandé, ce n'est pas mon église, je servirai quand j'aurai un meilleur travail. Derrière beaucoup d'excuses, il y a simplement la paresse."
+    },
+    {
+     "verset": "Pr 22:13"
+    },
+    {
+     "sous_titre": "La peur de mal faire"
+    },
+    {
+     "texte": "Dans la parabole des talents, le serviteur qui avait reçu un seul talent l'a caché dans la terre en disant : « J'ai eu peur. » Son maître l'a appelé « serviteur méchant et paresseux ». La peur de mal faire n'est pas une excuse devant Dieu. Mieux vaut servir avec maladresse que ne jamais servir."
+    },
+    {
+     "verset": "Mt 25:24-27"
+    },
+    {
+     "sous_titre": "Servir au point d'oublier le Seigneur"
+    },
+    {
+     "texte": "Marthe s'agitait pour servir Jésus, pendant que Marie était assise à ses pieds. Marthe s'est plainte. Jésus a dit : « Tu t'inquiètes et tu t'agites pour beaucoup de choses. Une seule chose est nécessaire. » Le service ne doit jamais remplacer la communion avec Jésus. Le serviteur qui ne prie plus et ne lit plus la Bible finit épuisé et amer."
+    },
+    {
+     "verset": "Lc 10:40-42"
+    }
+   ]
+  },
+  {
+   "numero": "7",
    "titre": "Conclusion",
    "references": [
     "Jn 12:26"
@@ -217,6 +293,39 @@
    "reponse": 1,
    "explication": "(Matthieu 20:26)",
    "section": "3"
+  },
+  {
+   "question": "Qu'a répondu Dieu à Moïse qui disait ne pas avoir la parole facile ?",
+   "choix": [
+    "Trouve quelqu'un d'autre",
+    "Qui a fait la bouche de l'homme ? Je serai avec ta bouche",
+    "Tu as raison"
+   ],
+   "reponse": 1,
+   "explication": "(Exode 4:11-12)",
+   "section": "5"
+  },
+  {
+   "question": "Pourquoi le serviteur a-t-il caché son talent ?",
+   "choix": [
+    "Il était malade",
+    "Il a eu peur",
+    "Il l'avait perdu"
+   ],
+   "reponse": 1,
+   "explication": "(Matthieu 25:25)",
+   "section": "6"
+  },
+  {
+   "question": "Qu'a dit Jésus à Marthe ?",
+   "choix": [
+    "Tu fais bien de servir",
+    "Une seule chose est nécessaire",
+    "Dis à Marie de t'aider"
+   ],
+   "reponse": 1,
+   "explication": "(Luc 10:42)",
+   "section": "6"
   }
  ],
  "devoir": [

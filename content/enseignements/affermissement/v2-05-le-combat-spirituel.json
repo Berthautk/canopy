@@ -7,7 +7,7 @@
  "resume": "Cinquième leçon du volume 2 : le chrétien est dans une guerre, qu'il le sache ou non. Qui est l'ennemi, quels sont ses terrains d'attaque, quelle est la victoire de Jésus, et comment résister sans peur ni superstition.",
  "image": "/assets/priere/combat-spirituel.webp",
  "verset_de_base": "Ep 6:12",
- "lecture_minutes": 9,
+ "lecture_minutes": 15,
  "objectifs": [
   "Savoir que le combat spirituel est réel, sans le nier ni le grossir.",
   "Connaître l'ennemi et ses stratégies.",
@@ -190,6 +190,79 @@
   },
   {
    "numero": "5",
+   "titre": "Des combats dans la Bible",
+   "references": [
+    "Jb 1:9-12",
+    "Lc 22:31-32",
+    "2 Co 12:7-9"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Job : l'ennemi a des limites"
+    },
+    {
+     "texte": "Satan a accusé Job devant Dieu : « Est-ce d'une manière désintéressée que Job craint Dieu ? » Dieu lui a permis d'éprouver Job, mais avec une limite : « Seulement, ne porte pas la main sur lui. » Le diable n'est pas tout-puissant. Il ne peut rien faire à un enfant de Dieu sans la permission de Dieu, et jamais au-delà de la limite que Dieu fixe."
+    },
+    {
+     "verset": "Jb 1:9-12"
+    },
+    {
+     "sous_titre": "Pierre : Jésus prie pour nous"
+    },
+    {
+     "texte": "Jésus a dit à Pierre : « Simon, Simon, Satan vous a réclamés, pour vous cribler comme le froment. Mais j'ai prié pour toi, afin que ta foi ne défaille point. » Pierre est tombé ; mais sa foi n'a pas défailli, et il s'est relevé. Dans ton combat, tu n'es pas seul : Jésus intercède pour toi."
+    },
+    {
+     "verset": "Lc 22:31-32"
+    },
+    {
+     "sous_titre": "Paul : l'écharde qui ne part pas"
+    },
+    {
+     "texte": "Paul avait une écharde dans la chair, un ange de Satan pour le souffleter. Il a prié trois fois pour qu'elle s'en aille. Dieu a répondu : « Ma grâce te suffit, car ma puissance s'accomplit dans la faiblesse. » Toutes les attaques ne disparaissent pas après une prière de délivrance. Parfois Dieu ne retire pas l'épreuve, mais donne la grâce de la traverser."
+    },
+    {
+     "verset": "2 Co 12:7-9"
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Le combat spirituel dans notre contexte",
+   "references": [
+    "Dt 18:10-12",
+    "Ac 16:16-18",
+    "Ep 6:11"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La peur des sorciers"
+    },
+    {
+     "texte": "Dans beaucoup de familles, on attribue toute maladie, tout échec, tout accident à un sorcier, souvent un parent âgé ou une belle-mère. On consulte des « prophètes » qui désignent un coupable. Des familles se déchirent, des vieillards sont chassés ou maltraités. Le chrétien sait que la sorcellerie existe ; mais il sait aussi que celui qui est en lui est plus grand, et il ne vit pas dans la peur ni dans l'accusation. Il prie, il se soumet à Dieu, il soigne la maladie, et il refuse d'accuser sans preuve."
+    },
+    {
+     "sous_titre": "Les pratiques à abandonner"
+    },
+    {
+     "texte": "Dieu a dit : qu'on ne trouve chez toi personne qui exerce le métier de devin, d'astrologue, d'augure, de magicien, d'enchanteur, personne qui consulte ceux qui évoquent les esprits ou disent la bonne aventure, personne qui interroge les morts. Les bains de protection, les scarifications, les pactes, les sacrifices aux ancêtres, les objets qu'un marabout a « préparés », n'ont pas leur place dans la vie d'un chrétien."
+    },
+    {
+     "verset": "Dt 18:10-12"
+    },
+    {
+     "sous_titre": "Paul et la servante devineresse"
+    },
+    {
+     "texte": "À Philippes, une servante qui avait un esprit de divination suivait Paul en criant des choses vraies : « Ces hommes sont les serviteurs du Dieu Très-Haut. » Paul, fatigué, s'est retourné et a dit à l'esprit : « Je t'ordonne, au nom de Jésus-Christ, de sortir d'elle. » Il sortit à l'heure même. Le diable peut dire des choses vraies pour gagner la confiance ; le discernement est nécessaire. Et l'autorité est dans le nom de Jésus, pas dans les cris ni les gestes."
+    },
+    {
+     "verset": "Ac 16:16-18"
+    }
+   ]
+  },
+  {
+   "numero": "7",
    "titre": "Conclusion",
    "references": [
     "Rm 8:37"
@@ -237,6 +310,39 @@
    "reponse": 1,
    "explication": "(Jacques 4:7)",
    "section": "4"
+  },
+  {
+   "question": "Que montre l'histoire de Job sur le pouvoir de Satan ?",
+   "choix": [
+    "Il peut tout faire",
+    "Il ne peut agir que dans la limite que Dieu permet",
+    "Il est égal à Dieu"
+   ],
+   "reponse": 1,
+   "explication": "(Job 1:12)",
+   "section": "5"
+  },
+  {
+   "question": "Qu'a répondu Dieu à Paul au sujet de son écharde ?",
+   "choix": [
+    "Je vais l'ôter",
+    "Ma grâce te suffit",
+    "Prie davantage"
+   ],
+   "reponse": 1,
+   "explication": "(2 Corinthiens 12:9)",
+   "section": "5"
+  },
+  {
+   "question": "Au nom de qui Paul a-t-il chassé l'esprit de divination ?",
+   "choix": [
+    "En son propre nom",
+    "Au nom de Jésus-Christ",
+    "Au nom de l'église"
+   ],
+   "reponse": 1,
+   "explication": "(Actes 16:18)",
+   "section": "6"
   }
  ],
  "devoir": [

@@ -7,7 +7,7 @@
  "resume": "Quatrième leçon du volume 2 : beaucoup de chrétiens vivent vaincus parce qu'ils ne savent pas qui ils sont devenus. Ce que la Bible dit de ton identité nouvelle, et comment cela change ta manière de vivre.",
  "image": "/assets/symboles/mains-ouvertes-lumiere.webp",
  "verset_de_base": "2 Co 5:17",
- "lecture_minutes": 8,
+ "lecture_minutes": 12,
  "objectifs": [
   "Découvrir ce que Dieu dit de celui qui est en Christ.",
   "Remplacer les mensonges sur soi-même par la vérité de la Parole.",
@@ -161,6 +161,82 @@
   },
   {
    "numero": "5",
+   "titre": "Ceux qui ont reçu un nouveau nom",
+   "references": [
+    "Gn 32:27-28",
+    "Jn 1:42",
+    "Ac 9:13-15"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "De Jacob à Israël"
+    },
+    {
+     "texte": "Jacob voulait dire « celui qui supplante, le trompeur ». Toute sa vie, il avait trompé : son frère, son père, son beau-père. Une nuit, il a lutté avec Dieu jusqu'à l'aube. Dieu lui a demandé : « Quel est ton nom ? » Il a dû avouer : « Jacob », le trompeur. Alors Dieu a dit : « Ton nom ne sera plus Jacob, mais tu seras appelé Israël. » Dieu change l'identité de ceux qui se rendent à lui."
+    },
+    {
+     "verset": "Gn 32:27-28"
+    },
+    {
+     "sous_titre": "De Simon à Pierre"
+    },
+    {
+     "texte": "Quand Jésus a vu Simon pour la première fois, il lui a dit : « Tu es Simon ; tu seras appelé Céphas », c'est-à-dire Pierre, le roc. Simon était impulsif, instable ; il allait même renier Jésus. Mais Jésus le voyait déjà tel qu'il allait devenir. Dieu te voit, toi aussi, avec ce qu'il est en train de faire de toi."
+    },
+    {
+     "verset": "Jn 1:42"
+    },
+    {
+     "sous_titre": "Saul le persécuteur"
+    },
+    {
+     "texte": "Quand Dieu a dit à Ananias d'aller voir Saul, Ananias a répondu : « Seigneur, j'ai appris de plusieurs personnes combien de mal cet homme a fait à tes saints. » Ananias voyait le passé de Saul. Dieu a répondu : « Va, car cet homme est un instrument que j'ai choisi. » Les gens de ton quartier, ta famille, peut-être toi-même, ne voient que ton passé. Dieu voit ce qu'il a fait de toi."
+    },
+    {
+     "verset": "Ac 9:13-15"
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Les étiquettes de la famille et de la société",
+   "references": [
+    "Ps 27:10",
+    "Es 43:1",
+    "Ga 3:26-28"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Les noms qu'on t'a donnés"
+    },
+    {
+     "texte": "Dans beaucoup de familles, on colle des étiquettes aux enfants : « l'enfant maudit », « le sorcier », « celle qui n'aura jamais de mari », « le bon à rien », l'enfant né hors mariage. Certains portent même un nom qui rappelle un deuil ou une malédiction. Ces paroles peuvent peser toute une vie. Mais Dieu dit : « Ne crains rien, car je te rachète, je t'appelle par ton nom : tu es à moi ! »"
+    },
+    {
+     "verset": "Es 43:1"
+    },
+    {
+     "sous_titre": "Quand la famille rejette"
+    },
+    {
+     "texte": "Le psalmiste dit : « Car mon père et ma mère m'abandonnent, mais l'Éternel me recueillera. » Celui qui a été rejeté par sa famille à cause de sa foi, de sa naissance, de son handicap ou de sa pauvreté, a un Père qui ne rejette pas."
+    },
+    {
+     "verset": "Ps 27:10"
+    },
+    {
+     "sous_titre": "Ce qui ne définit plus le chrétien"
+    },
+    {
+     "texte": "Paul dit : vous êtes tous fils de Dieu par la foi en Jésus-Christ. Il n'y a plus ni Juif ni Grec, ni esclave ni libre, ni homme ni femme. Ta tribu, ton diplôme, ton compte en banque, ton statut marital ne sont plus ce qui te définit d'abord. Tu es d'abord enfant de Dieu. Quand tu te présentes devant lui, c'est ce qui compte."
+    },
+    {
+     "verset": "Ga 3:26-28"
+    }
+   ]
+  },
+  {
+   "numero": "7",
    "titre": "Conclusion",
    "references": [
     "1 Jn 3:1"
@@ -208,6 +284,39 @@
    "reponse": 1,
    "explication": "(2 Corinthiens 10:5)",
    "section": "3"
+  },
+  {
+   "question": "Quel nouveau nom Dieu a-t-il donné à Jacob ?",
+   "choix": [
+    "Abraham",
+    "Israël",
+    "Pierre"
+   ],
+   "reponse": 1,
+   "explication": "(Genèse 32:28)",
+   "section": "5"
+  },
+  {
+   "question": "Qu'a répondu Dieu à Ananias qui avait peur de Saul ?",
+   "choix": [
+    "Fuis-le",
+    "Va, car cet homme est un instrument que j'ai choisi",
+    "Attends qu'il change"
+   ],
+   "reponse": 1,
+   "explication": "(Actes 9:15)",
+   "section": "5"
+  },
+  {
+   "question": "Que dit Dieu en Ésaïe 43:1 ?",
+   "choix": [
+    "Tu es maudit",
+    "Je t'appelle par ton nom : tu es à moi",
+    "Tu dois mériter mon amour"
+   ],
+   "reponse": 1,
+   "explication": "(Ésaïe 43:1)",
+   "section": "6"
   }
  ],
  "devoir": [

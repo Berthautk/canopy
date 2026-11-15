@@ -7,7 +7,7 @@
  "resume": "Onzième leçon du volume 2 : tout ce qui brille n'est pas de Dieu. Faux prophètes, fausses doctrines, faux miracles, et décisions de la vie : comment éprouver les esprits et distinguer le vrai du faux par la Parole.",
  "image": "/assets/vie-chretienne/homme-etudie-la-bible.webp",
  "verset_de_base": "1 Jn 4:1",
- "lecture_minutes": 9,
+ "lecture_minutes": 16,
  "objectifs": [
   "Comprendre pourquoi le chrétien doit discerner.",
   "Connaître les critères bibliques pour reconnaître un faux prophète ou une fausse doctrine.",
@@ -172,6 +172,82 @@
   },
   {
    "numero": "5",
+   "titre": "Des cas de tromperie dans la Bible",
+   "references": [
+    "Jos 9:3-15",
+    "1 R 13:15-24",
+    "Ac 5:1-5"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Les Gabaonites"
+    },
+    {
+     "texte": "Des Gabaonites, qui habitaient tout près, se sont présentés à Josué avec des sacs usés, du pain moisi et des sandales raccommodées, en disant qu'ils venaient de très loin. Josué et les chefs ont fait alliance avec eux. La Bible dit : « Ils ne consultèrent point l'Éternel. » Beaucoup de mauvaises décisions viennent de là : on regarde les apparences, on se laisse convaincre par une belle histoire, et on ne prie pas."
+    },
+    {
+     "verset": "Jos 9:14-15"
+    },
+    {
+     "sous_titre": "Le vieux prophète menteur"
+    },
+    {
+     "texte": "Un homme de Dieu avait reçu l'ordre clair de ne pas manger à Béthel. Un vieux prophète l'a invité en disant : « Un ange m'a parlé de la part de l'Éternel : ramène-le avec toi. » Il lui mentait. L'homme de Dieu l'a cru, a désobéi, et il est mort. Aucune « révélation » d'un autre, même d'un prophète âgé et respecté, ne doit te faire désobéir à ce que Dieu a clairement dit dans sa Parole."
+    },
+    {
+     "verset": "1 R 13:18-24"
+    },
+    {
+     "sous_titre": "Ananias et Saphira"
+    },
+    {
+     "texte": "Ananias et Saphira ont vendu un champ et apporté une partie de l'argent aux apôtres en faisant croire que c'était tout. Pierre a discerné le mensonge par l'Esprit. Le discernement n'est pas seulement pour repérer les faux prophètes ; il nous montre aussi l'hypocrisie à l'intérieur de l'église, et d'abord dans notre propre cœur."
+    },
+    {
+     "verset": "Ac 5:3-5"
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Discerner dans notre contexte",
+   "references": [
+    "Mt 7:15-16",
+    "2 Tm 4:3-4",
+    "1 Jn 4:1"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Les signes qui doivent alerter"
+    },
+    {
+     "texte": "Un « homme de Dieu » qui exige de l'argent pour prier ou pour donner une révélation. Qui vend des objets « oints » : huile, eau, mouchoirs, bracelets. Qui accuse des membres de la famille d'être sorciers. Qui demande de quitter son conjoint ou de couper sa famille. Qui interdit de lire la Bible soi-même ou de demander conseil ailleurs. Qui a des relations sexuelles avec des fidèles « par révélation ». Qui ne se soumet à personne. Ces signes ne trompent pas : à leurs fruits vous les reconnaîtrez."
+    },
+    {
+     "verset": "Mt 7:15-16"
+    },
+    {
+     "sous_titre": "Les oreilles qui démangent"
+    },
+    {
+     "texte": "Paul a prévenu Timothée : il viendra un temps où les hommes ne supporteront pas la saine doctrine ; mais, ayant la démangeaison d'entendre des choses agréables, ils se donneront une foule de docteurs selon leurs propres désirs. Si tu ne cherches que des messages qui te promettent la richesse, le mariage et la victoire sur tes ennemis, tu es une proie facile. Cherche les messages qui te parlent de Jésus, de la croix, de la repentance et de la sainteté."
+    },
+    {
+     "verset": "2 Tm 4:3-4"
+    },
+    {
+     "sous_titre": "Les réseaux sociaux"
+    },
+    {
+     "texte": "Une vidéo, un message transféré « à partager à 10 personnes sinon malheur », une prophétie pour l'année, une prière qui garantit un miracle en 24 heures : tout cela circule chaque jour. Le chrétien ne transfère pas tout ce qu'il reçoit. Il vérifie avec la Bible, et il garde son téléphone pour ce qui édifie."
+    },
+    {
+     "verset": "1 Jn 4:1"
+    }
+   ]
+  },
+  {
+   "numero": "7",
    "titre": "Conclusion",
    "references": [
     "He 5:14"
@@ -219,6 +295,39 @@
    "reponse": 1,
    "explication": "(2 Timothée 3:16)",
    "section": "3"
+  },
+  {
+   "question": "Quelle a été l'erreur de Josué avec les Gabaonites ?",
+   "choix": [
+    "Il a refusé l'alliance",
+    "Il n'a pas consulté l'Éternel",
+    "Il a fait la guerre"
+   ],
+   "reponse": 1,
+   "explication": "(Josué 9:14)",
+   "section": "5"
+  },
+  {
+   "question": "Que nous apprend l'histoire du vieux prophète de Béthel ?",
+   "choix": [
+    "Qu'il faut toujours croire les prophètes âgés",
+    "Qu'aucune révélation ne doit faire désobéir à ce que Dieu a clairement dit",
+    "Qu'il faut manger chez les prophètes"
+   ],
+   "reponse": 1,
+   "explication": "(1 Rois 13:18-24)",
+   "section": "5"
+  },
+  {
+   "question": "Quel signe doit alerter chez un « homme de Dieu » ?",
+   "choix": [
+    "Il prêche Jésus et la croix",
+    "Il exige de l'argent pour prier ou vend des objets « oints »",
+    "Il se soumet à des responsables"
+   ],
+   "reponse": 1,
+   "explication": "À leurs fruits vous les reconnaîtrez (Matthieu 7:16).",
+   "section": "6"
   }
  ],
  "devoir": [

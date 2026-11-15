@@ -7,7 +7,7 @@
  "resume": "Treizième leçon du volume 2 : Dieu conduit l'histoire vers un but. Ce que la Bible dit des temps de la fin, des signes, de l'antichrist, de la mort du croyant, et comment vivre aujourd'hui sans peur et sans spéculation.",
  "image": "/assets/paysages/lever-soleil-collines.webp",
  "verset_de_base": "Mt 24:42",
- "lecture_minutes": 11,
+ "lecture_minutes": 15,
  "objectifs": [
   "Comprendre que Dieu est maître de l'histoire.",
   "Connaître les signes donnés par Jésus sans tomber dans les calculs de dates.",
@@ -178,6 +178,78 @@
   },
   {
    "numero": "6",
+   "titre": "Comment lire les prophéties sans se tromper",
+   "references": [
+    "Dt 18:21-22",
+    "Mt 24:36",
+    "Ac 1:6-8"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Les faux prophètes de la fin"
+    },
+    {
+     "texte": "Dieu a donné un critère simple : quand ce que dit le prophète au nom de l'Éternel n'a pas lieu et n'arrive pas, c'est une parole que l'Éternel n'a point dite. Des dizaines de prédicateurs ont annoncé une date pour la fin du monde ou l'enlèvement ; toutes ces dates sont passées. Il ne faut pas les écouter, ni avoir peur d'eux."
+    },
+    {
+     "verset": "Dt 18:21-22"
+    },
+    {
+     "sous_titre": "Personne ne connaît le jour"
+    },
+    {
+     "texte": "Jésus a dit : « Pour ce qui est du jour et de l'heure, personne ne le sait, ni les anges des cieux, ni le Fils, mais le Père seul. » Celui qui prétend connaître la date en sait donc plus que Jésus lui-même dans son humanité. C'est suffisant pour le rejeter."
+    },
+    {
+     "verset": "Mt 24:36"
+    },
+    {
+     "sous_titre": "Ce que Jésus a répondu aux curieux"
+    },
+    {
+     "texte": "Avant de monter au ciel, les disciples ont demandé : « Seigneur, est-ce en ce temps que tu rétabliras le royaume d'Israël ? » Jésus a répondu : « Ce n'est pas à vous de connaître les temps ou les moments. Mais vous recevrez une puissance, et vous serez mes témoins. » Jésus détourne notre curiosité vers notre mission. La meilleure façon de se préparer à son retour, c'est d'annoncer l'Évangile."
+    },
+    {
+     "verset": "Ac 1:6-8"
+    }
+   ]
+  },
+  {
+   "numero": "7",
+   "titre": "L'espérance qui change la vie aujourd'hui",
+   "references": [
+    "1 Th 4:13-14",
+    "Tt 2:11-13"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Face au deuil"
+    },
+    {
+     "texte": "Paul ne veut pas que les chrétiens soient dans l'ignorance au sujet de ceux qui dorment, afin qu'ils ne s'affligent pas comme les autres qui n'ont point d'espérance. Le chrétien pleure ses morts, mais il ne pleure pas sans espérance. Aux enterrements, il n'a pas besoin des rites de peur ou des cérémonies pour « apaiser » le défunt. Il remet ceux qui sont morts en Christ à Dieu, et il attend la résurrection."
+    },
+    {
+     "verset": "1 Th 4:13-14"
+    },
+    {
+     "sous_titre": "Face à la souffrance et à l'injustice"
+    },
+    {
+     "texte": "Quand on voit les méchants prospérer, les corrompus s'enrichir, les innocents souffrir, l'espérance du retour de Christ nous rappelle que l'histoire n'est pas finie. Le Juge vient. Cela nous garde de la vengeance et du découragement."
+    },
+    {
+     "sous_titre": "Dans la manière de vivre"
+    },
+    {
+     "texte": "Paul dit que la grâce de Dieu nous enseigne à renoncer à l'impiété et aux convoitises mondaines, et à vivre dans le siècle présent selon la sagesse, la justice et la piété, en attendant la bienheureuse espérance. Celui qui attend vraiment Jésus ne vit pas de la même manière que celui qui pense que ce monde est tout."
+    },
+    {
+     "verset": "Tt 2:11-13"
+    }
+   ]
+  },
+  {
+   "numero": "8",
    "titre": "Conclusion",
    "references": [
     "Ap 22:20"
@@ -225,6 +297,28 @@
    "reponse": 1,
    "explication": "(Matthieu 24:46)",
    "section": "5"
+  },
+  {
+   "question": "Que dit Jésus de la date de son retour ?",
+   "choix": [
+    "Elle est écrite dans l'Apocalypse",
+    "Personne ne la connaît, sinon le Père",
+    "Les prophètes la connaissent"
+   ],
+   "reponse": 1,
+   "explication": "(Matthieu 24:36)",
+   "section": "6"
+  },
+  {
+   "question": "Comment le chrétien vit-il le deuil selon 1 Thessaloniciens 4:13 ?",
+   "choix": [
+    "Sans pleurer",
+    "Il pleure, mais pas comme ceux qui n'ont pas d'espérance",
+    "Avec des rites pour apaiser le mort"
+   ],
+   "reponse": 1,
+   "explication": "(1 Thessaloniciens 4:13)",
+   "section": "7"
   }
  ],
  "devoir": [

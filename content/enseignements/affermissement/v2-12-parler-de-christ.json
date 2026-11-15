@@ -7,7 +7,7 @@
  "resume": "Douzième leçon du volume 2 : après avoir appris à témoigner dans le volume 1, il s'agit maintenant de faire de l'évangélisation une manière de vivre. Ta famille, ton travail, ton quartier, tes amis : un champ que Dieu t'a confié.",
  "image": "/assets/vie-chretienne/evangelisation-dans-la-rue.webp",
  "verset_de_base": "Ac 1:8",
- "lecture_minutes": 9,
+ "lecture_minutes": 14,
  "objectifs": [
   "Voir son entourage comme un champ de mission.",
   "Dépasser la peur et la honte.",
@@ -190,6 +190,82 @@
   },
   {
    "numero": "6",
+   "titre": "Des témoins ordinaires dans la Bible",
+   "references": [
+    "2 R 5:2-4",
+    "Jn 4:28-30",
+    "Ac 8:4"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La petite fille captive"
+    },
+    {
+     "texte": "Une petite fille d'Israël avait été enlevée et servait la femme de Naaman, chef de l'armée syrienne. Elle aurait pu se taire, ou haïr ses maîtres. Elle a dit à sa maîtresse : « Oh ! si mon seigneur était auprès du prophète qui est à Samarie, le prophète le guérirait de sa lèpre ! » Grâce à une phrase d'une esclave, un général païen a été guéri et a reconnu le vrai Dieu. Tu n'as pas besoin d'être pasteur pour témoigner ; tu as besoin d'une phrase au bon moment."
+    },
+    {
+     "verset": "2 R 5:2-4"
+    },
+    {
+     "sous_titre": "La Samaritaine"
+    },
+    {
+     "texte": "Après sa rencontre avec Jésus, la femme samaritaine a laissé sa cruche, est allée dans la ville et a dit aux gens : « Venez voir un homme qui m'a dit tout ce que j'ai fait. » Elle n'avait aucune formation, une mauvaise réputation, et une seule rencontre avec Jésus. Pourtant beaucoup de Samaritains de cette ville crurent en Jésus à cause de la parole de cette femme."
+    },
+    {
+     "verset": "Jn 4:28-30"
+    },
+    {
+     "sous_titre": "Les chrétiens dispersés"
+    },
+    {
+     "texte": "Après la mort d'Étienne, une grande persécution dispersa les chrétiens de Jérusalem. La Bible dit : « Ceux qui avaient été dispersés allaient de lieu en lieu, annonçant la bonne nouvelle de la parole. » Ce ne sont pas les apôtres, restés à Jérusalem, mais des chrétiens ordinaires, déplacés, qui ont porté l'Évangile plus loin. Ton déménagement, ton nouveau travail, ton exil peuvent devenir une mission."
+    },
+    {
+     "verset": "Ac 8:4"
+    }
+   ]
+  },
+  {
+   "numero": "7",
+   "titre": "Témoigner dans les lieux de notre vie",
+   "references": [
+    "Ac 16:31-34",
+    "1 P 3:1",
+    "Col 3:23"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Dans la famille"
+    },
+    {
+     "texte": "Les membres de la famille sont souvent les plus difficiles à atteindre, car ils connaissent nos défauts. Ici, la vie parle avant les mots. Pierre dit aux femmes dont le mari n'obéit pas à la Parole qu'il peut être gagné sans parole, par la conduite de sa femme. Sois patient, respectueux, serviable ; prie pour eux par leur nom ; et quand une porte s'ouvre (une maladie, un deuil, une question), parle simplement de ce que Jésus a fait pour toi."
+    },
+    {
+     "verset": "1 P 3:1"
+    },
+    {
+     "sous_titre": "Au travail et à l'école"
+    },
+    {
+     "texte": "Ton collègue remarque que tu ne voles pas, que tu ne participes pas aux commérages, que tu travailles bien même quand le chef n'est pas là. Un jour il demandera pourquoi. Ton camarade de classe voit que tu ne triches pas à l'examen. Ces moments sont des portes. Tout ce que vous faites, faites-le de bon cœur, comme pour le Seigneur."
+    },
+    {
+     "verset": "Col 3:23"
+    },
+    {
+     "sous_titre": "Dans les moments de crise"
+    },
+    {
+     "texte": "Les gens sont souvent plus ouverts à Dieu dans les moments difficiles : maladie, deuil, chômage, divorce, prison. Le geôlier de Philippes a demandé : « Que faut-il que je fasse pour être sauvé ? » au milieu d'un tremblement de terre. Visite les malades, assiste aux enterrements, aide les familles en difficulté : ce sont souvent les meilleures occasions de parler de Jésus, avec douceur."
+    },
+    {
+     "verset": "Ac 16:31-34"
+    }
+   ]
+  },
+  {
+   "numero": "8",
    "titre": "Conclusion",
    "references": [
     "Rm 10:14"
@@ -237,6 +313,39 @@
    "reponse": 1,
    "explication": "(Matthieu 28:19-20)",
    "section": "5"
+  },
+  {
+   "question": "Qu'a dit la petite fille captive à sa maîtresse ?",
+   "choix": [
+    "Rien",
+    "Que le prophète de Samarie pourrait guérir Naaman",
+    "Qu'elle voulait rentrer chez elle"
+   ],
+   "reponse": 1,
+   "explication": "(2 Rois 5:3)",
+   "section": "5"
+  },
+  {
+   "question": "Qui a porté l'Évangile plus loin après la mort d'Étienne ?",
+   "choix": [
+    "Seulement les apôtres",
+    "Les chrétiens dispersés par la persécution",
+    "Les pharisiens"
+   ],
+   "reponse": 1,
+   "explication": "(Actes 8:4)",
+   "section": "5"
+  },
+  {
+   "question": "Comment un mari non croyant peut-il être gagné selon 1 Pierre 3:1 ?",
+   "choix": [
+    "Par des disputes",
+    "Par la conduite de sa femme",
+    "Par la menace"
+   ],
+   "reponse": 1,
+   "explication": "(1 Pierre 3:1)",
+   "section": "6"
   }
  ],
  "devoir": [
