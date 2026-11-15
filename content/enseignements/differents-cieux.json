@@ -1,94 +1,469 @@
 {
  "id": "enseignement-differents-cieux",
  "titre": "Les différents cieux",
- "theme": "Doctrine",
  "serie": "L'Arsenal de la Sentinelle",
- "resume": "Comprendre les sphères célestes selon les Écritures",
+ "theme": "Doctrine",
+ "auteur": "L'Arsenal de la Sentinelle",
+ "resume": "Comprendre ce que la Bible veut dire quand elle parle des « cieux » : le ciel que l'on voit, l'espace où agissent les puissances des ténèbres, et la demeure de Dieu. Pourquoi cette compréhension aide le croyant à prier, à combattre, et à rester ferme dans la victoire de Jésus.",
  "image": "/assets/paysages/coucher-soleil-montagnes.webp",
- "verset_de_base": "2 Corinthiens 12:2",
+ "verset_de_base": "2 Co 12:2",
+ "lecture_minutes": 30,
  "objectifs": [
-  "Comprendre que la Bible distingue plusieurs cieux",
-  "Situer le lieu réel du combat spirituel territorial",
-  "Saisir la position de victoire du croyant en Christ",
-  "Exercer avec foi l'autorité déléguée dans la prière"
+  "Comprendre que la Bible emploie le mot « cieux » pour plusieurs réalités.",
+  "Situer le lieu où se déroule le combat spirituel d'après les Écritures.",
+  "Saisir que le croyant combat depuis la victoire de Jésus, et non vers la victoire.",
+  "Apprendre à prier avec persévérance, sans peur et sans curiosité excessive."
  ],
- "introduction": "La Bible parle de plusieurs cieux. Paul déclare avoir été ravi jusqu'au troisième ciel (2 Corinthiens 12:2). Comprendre cette cartographie céleste aide le croyant à saisir le lieu du combat spirituel et à exercer son autorité en Christ sur toutes les sphères célestes.",
+ "introduction": "Quand tu lèves les yeux vers le ciel, un soir d'été, au village, loin des lumières de la ville, tu vois des milliers d'étoiles. Quand un avion passe, tu vois un autre ciel, celui des oiseaux et des nuages. Et quand tu pries, tu dis : « Notre Père qui es aux cieux. » Est-ce le même ciel ? La Bible emploie le même mot pour parler de choses différentes.\n\nL'apôtre Paul écrit un jour qu'il connaît un homme en Christ qui a été enlevé jusqu'au troisième ciel. Si Paul dit « troisième », c'est qu'il y en a au moins deux autres. Que veut-il dire ? Et pourquoi est-ce important pour un chrétien de comprendre cela ?\n\nDans cet enseignement, nous allons regarder ce que la Bible dit sur les cieux, simplement et honnêtement. Je distinguerai ce que la Bible affirme clairement et ce qui est une manière courante de l'ordonner. Car il faut être prudent : la Bible ne nous donne pas une carte détaillée du ciel, et il ne faut pas ajouter à ses paroles. Mais ce qu'elle nous dit suffit pour nous affermir, pour nous apprendre à prier, et pour nous libérer de la peur.",
  "sections": [
   {
    "numero": "1",
-   "titre": "Définition — pourquoi parler de plusieurs cieux ?",
+   "titre": "Pourquoi la Bible parle-t-elle de plusieurs cieux ?",
    "references": [
-    "2 Corinthiens 12:2-4",
-    "Genèse 1:1",
-    "Deutéronome 10:14"
+    "2 Co 12:2-4",
+    "Gn 1:1",
+    "Dt 10:14",
+    "1 R 8:27"
    ],
    "blocs": [
     {
-     "texte": "Le mot « cieux » dans les Écritures ne désigne pas un seul lieu uniforme : il recouvre des sphères distinctes, du ciel atmosphérique jusqu'à la demeure de Dieu."
+     "sous_titre": "Un mot qui a plusieurs sens"
     },
     {
-     "texte": "Paul parle explicitement d'un « troisième ciel » (2 Corinthiens 12:2), ce qui présuppose qu'il en existe au moins deux autres. Deutéronome 10:14 parle des « cieux et les cieux des cieux »."
+     "texte": "Le mot « ciel » est utilisé de plusieurs manières. Dans le premier verset de la Bible, il est dit : au commencement, Dieu créa les cieux et la terre. Les cieux, au pluriel. Moïse dit au peuple : voici, à l'Éternel, ton Dieu, appartiennent les cieux, et les cieux des cieux, la terre et tout ce qu'elle renferme."
     },
     {
-     "texte": "Comprendre cette distinction n'est pas une curiosité : elle révèle où se déroule réellement le combat spirituel et d'où vient notre victoire."
+     "verset": "Dt 10:14"
     },
     {
-     "verset": "2 Corinthiens 12:4"
+     "texte": "Les cieux, et les cieux des cieux. Même en hébreu, la langue de l'Ancien Testament, on trouve cette idée de plusieurs niveaux. Quand le roi Salomon a bâti le temple, il a prié : mais Dieu habiterait-il véritablement sur la terre ? Voici, les cieux et les cieux des cieux ne peuvent te contenir : combien moins cette maison que j'ai bâtie !"
+    },
+    {
+     "verset": "1 R 8:27"
+    },
+    {
+     "sous_titre": "Paul au troisième ciel"
+    },
+    {
+     "texte": "Paul, lui, écrit aux Corinthiens : je connais un homme en Christ, qui fut ravi il y a quatorze ans, si ce fut dans son corps je ne sais, si ce fut hors de son corps je ne sais, Dieu le sait, jusqu'au troisième ciel. Et je sais que cet homme, si ce fut dans son corps ou sans son corps je ne sais, Dieu le sait, fut enlevé dans le paradis, et qu'il entendit des paroles ineffables qu'il n'est pas permis à un homme d'exprimer."
+    },
+    {
+     "verset": "2 Co 12:2-4"
+    },
+    {
+     "texte": "Remarque quelques détails. Paul parle de lui-même à la troisième personne, par humilité. Il dit que c'était il y a quatorze ans : il a gardé le silence pendant tout ce temps. Il dit qu'il ne sait pas si c'était dans son corps ou hors de son corps. Et il dit qu'il a entendu des choses qu'on ne peut pas dire. Ce n'est pas un homme qui se vante de ses visions. C'est un homme qui reste discret sur une expérience qui dépasse ses mots."
+    },
+    {
+     "sous_titre": "Pourquoi ce sujet est utile"
+    },
+    {
+     "texte": "On pourrait se dire : à quoi sert de savoir cela ? Après tout, le salut ne dépend pas de ce genre de connaissance. C'est vrai. Mais comprendre ce que la Bible dit des cieux nous aide à répondre à des questions pratiques. D'où viennent les attaques spirituelles ? Où se trouve Dieu quand je prie ? Pourquoi certaines prières semblent-elles prendre du temps ? Qui est vraiment le maître de la situation ? Les réponses de la Bible à ces questions nous donnent de l'assurance. Elles chassent la peur, et elles nous empêchent aussi de tomber dans les excès, comme de chercher partout des démons ou de faire des cérémonies compliquées."
     }
    ]
   },
   {
    "numero": "2",
-   "titre": "Les trois cieux selon les Écritures",
+   "titre": "Les trois cieux dans les Écritures",
    "references": [
-    "2 Corinthiens 12:2-3",
-    "Éphésiens 2:2",
-    "Éphésiens 6:12"
+    "2 Co 12:2",
+    "Ép 2:2",
+    "Ép 6:12",
+    "Ps 19:2-5",
+    "Ps 8:4-5"
    ],
-   "transition": "La distinction étant posée, parcourons ces trois sphères l'une après l'autre, de la plus proche à la plus haute.",
    "blocs": [
     {
-     "texte": "Le 1er ciel : l'atmosphère terrestre — là où volent les oiseaux, se forment les nuages et soufflent les vents. C'est l'espace immédiat de notre existence physique."
+     "sous_titre": "Le ciel que l'on voit : l'atmosphère"
     },
     {
-     "texte": "Le 2ème ciel : l'espace stellaire — domaine des astres. C'est aussi le lieu de résidence et d'opération des puissances de l'air (Éphésiens 2:2), des principautés et des dominations (Éphésiens 6:12). C'est là que se situe la majeure partie du combat spirituel territorial."
+     "texte": "Quand la Bible parle des oiseaux du ciel, de la pluie qui tombe du ciel, des nuées du ciel, elle parle du premier ciel : l'atmosphère, l'air autour de la terre. C'est le ciel de la météo, des orages et du vent. Jésus a dit : regardez les oiseaux du ciel : ils ne sèment ni ne moissonnent. Et ailleurs, il a dit : vous savez discerner l'aspect du ciel."
     },
     {
-     "texte": "Le 3ème ciel : le paradis — demeure de Dieu, des anges saints et des rachetés. C'est là où Paul fut ravi et entendit des paroles ineffables (2 Corinthiens 12:2-4). C'est le lieu de la présence et du trône de Dieu."
+     "sous_titre": "Le ciel des étoiles : l'espace"
+    },
+    {
+     "texte": "Au-delà de l'atmosphère, il y a le ciel du soleil, de la lune et des étoiles. Le psalmiste dit : les cieux racontent la gloire de Dieu, et l'étendue annonce l'œuvre de ses mains. Un jour apprend à un autre jour, et une nuit à une autre nuit."
+    },
+    {
+     "verset": "Ps 19:2-5"
+    },
+    {
+     "texte": "Et il dit encore : quand je contemple les cieux, ouvrage de tes mains, la lune et les étoiles que tu as créées, qu'est-ce que l'homme, pour que tu te souviennes de lui ?"
+    },
+    {
+     "verset": "Ps 8:4-5"
+    },
+    {
+     "texte": "Beaucoup de chrétiens qui enseignent sur ce sujet rangent dans ce deuxième ciel un autre domaine : celui où agissent des puissances spirituelles mauvaises. Pourquoi ? Parce que Paul écrit à propos de l'ancienne vie des Éphésiens : vous marchiez autrefois selon le train de ce monde, selon le prince de la puissance de l'air, de l'esprit qui agit maintenant dans les fils de la rébellion."
+    },
+    {
+     "verset": "Ép 2:2"
+    },
+    {
+     "texte": "Le prince de la puissance de l'air : Satan est décrit comme celui qui exerce son influence dans l'espace situé entre la terre et le ciel de Dieu. Et un peu plus loin, Paul explique que notre lutte n'est pas contre la chair et le sang, mais contre les principautés, contre les puissances, contre les dominateurs de ce monde de ténèbres, contre les esprits méchants dans les lieux célestes."
+    },
+    {
+     "verset": "Ép 6:12"
+    },
+    {
+     "texte": "Les lieux célestes. Le mot grec est le même qu'ailleurs dans la lettre, où Paul dit que Dieu nous a bénis de toute bénédiction spirituelle dans les lieux célestes en Christ. Dans cette lettre, les lieux célestes sont la sphère spirituelle, invisible, où se déroule la réalité spirituelle. Les croyants y sont assis avec Christ, et les puissances mauvaises y agissent aussi, mais soumises à sa victoire."
+    },
+    {
+     "sous_titre": "Le troisième ciel : la demeure de Dieu"
+    },
+    {
+     "texte": "Le troisième ciel, celui où Paul a été enlevé, est appelé le paradis. C'est la demeure de Dieu, des anges fidèles et des rachetés. Quand Jésus a dit au brigand sur la croix : aujourd'hui tu seras avec moi dans le paradis, c'était de cette demeure qu'il parlait. Quand Étienne, sous les pierres, a levé les yeux, il a vu les cieux ouverts, et le Fils de l'homme debout à la droite de Dieu."
+    },
+    {
+     "sous_titre": "Une manière d'organiser, pas une carte précise"
+    },
+    {
+     "texte": "Pour être honnête, il faut ajouter ceci. Beaucoup d'enseignants de la Bible présentent la distinction en trois cieux, comme nous venons de le faire : l'atmosphère, l'espace où agissent les puissances, la demeure de Dieu. C'est une manière claire et simple d'ordonner ce que la Bible dit. Mais la Bible elle-même ne détaille pas chaque niveau, et certains passages utilisent le mot « ciel » de façon plus souple. Certains enseignants voient plutôt deux sphères : le ciel visible et le ciel invisible. Ce qui est essentiel, et sur quoi tous les chrétiens fidèles sont d'accord, c'est ceci : il existe un monde spirituel invisible, Dieu règne sur toutes choses depuis son trône, et des puissances spirituelles mauvaises existent, mais elles sont soumises à Jésus."
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "Implications pour le combat spirituel",
+   "titre": "Le combat spirituel et les cieux",
    "references": [
-    "Daniel 10:13",
-    "Colossiens 2:15",
-    "Luc 10:19"
+    "Dn 10:12-14",
+    "Ép 6:10-12",
+    "Ap 12:7-9",
+    "Job 1:6-7"
    ],
-   "transition": "Cette cartographie n'est pas théorique : elle change radicalement la manière dont tu pries. Reçois cette vérité comme une force.",
    "blocs": [
     {
-     "texte": "C'est dans le 2ème ciel que les principautés sataniques opèrent pour influencer les affaires terrestres — guerres, famines, corruption, syncrétisme religieux."
+     "sous_titre": "Daniel et les vingt et un jours"
     },
     {
-     "texte": "Le prince de Perse retint l'ange envoyé à Daniel pendant 21 jours dans le 2ème ciel (Daniel 10:13). C'est pourquoi certaines prières exigent de la persévérance."
+     "texte": "Un passage célèbre nous montre un peu ce qui se passe dans le monde invisible. Daniel avait prié et jeûné pendant trois semaines. Un ange lui est apparu et lui a dit : ne crains point, Daniel ; car dès le premier jour où tu as eu à cœur de comprendre, et de t'humilier devant ton Dieu, tes paroles ont été entendues, et je suis venu à cause de tes paroles. Mais le chef du royaume de Perse m'a résisté vingt et un jours ; et voici, Micaël, l'un des principaux chefs, est venu à mon secours."
     },
     {
-     "texte": "Le Seigneur Jésus a vaincu et dépouillé toutes ces puissances à la croix (Colossiens 2:15). Nous combattons depuis la position de la victoire, et non vers la victoire."
+     "verset": "Dn 10:12-14"
     },
     {
-     "texte": "Nous avons autorité pour lier sur la terre ce qui est lié dans le ciel (Matthieu 16:19 · Luc 10:19). C'est cette autorité déléguée que nous exerçons dans la prière de combat."
+     "texte": "Ce texte est précieux. D'abord, il nous apprend que la prière de Daniel avait été entendue dès le premier jour. Dieu n'avait pas tardé. Ensuite, il nous montre qu'il y a des puissances spirituelles qui peuvent résister à l'œuvre des anges. Et enfin, il nous montre que Dieu envoie du secours : Micaël est venu."
+    },
+    {
+     "texte": "Il faut être prudent pour ne pas trop en tirer. Ce texte ne nous dit pas que chaque prière retardée est bloquée par un démon. Parfois, Dieu retarde pour nous former, ou parce que le moment n'est pas encore venu, ou parce qu'il veut que nous grandissions dans la persévérance. Mais ce passage nous encourage à ne pas abandonner : Daniel a continué à prier, et sa persévérance s'est inscrite dans l'histoire."
+    },
+    {
+     "sous_titre": "La guerre dans le ciel"
+    },
+    {
+     "texte": "Dans l'Apocalypse, Jean décrit un combat : il y eut guerre dans le ciel. Michel et ses anges combattirent contre le dragon. Et le dragon combattit, avec ses anges, mais ils furent vaincus, et leur place ne fut plus trouvée dans le ciel. Et il fut précipité, le grand dragon, le serpent ancien, appelé le diable et Satan, celui qui séduit toute la terre."
+    },
+    {
+     "verset": "Ap 12:7-9"
+    },
+    {
+     "texte": "Ce passage nous montre que les forces des ténèbres ont déjà été vaincues, et qu'elles ont perdu leur accès au trône de Dieu. Elles n'ont plus le droit de se tenir devant Dieu pour accuser les croyants comme elles le faisaient autrefois."
+    },
+    {
+     "sous_titre": "Un combat réel, mais pas contre les hommes"
+    },
+    {
+     "texte": "Paul commence ses instructions sur le combat spirituel par ces mots : au reste, fortifiez-vous dans le Seigneur, et par sa force toute-puissante. Revêtez-vous de toutes les armes de Dieu, afin de pouvoir tenir ferme contre les ruses du diable."
+    },
+    {
+     "verset": "Ép 6:10-12"
+    },
+    {
+     "texte": "Le combat existe, mais il n'est pas dirigé contre des personnes. Il ne faut jamais haïr un voisin, un parent, un collègue, en disant : « C'est lui le sorcier. » Notre lutte n'est pas contre la chair et le sang. Notre vrai ennemi est invisible, et nos armes ne sont pas des armes de chair."
+    },
+    {
+     "texte": "On raconte l'histoire d'un jeune pasteur qui était persuadé que tous les malheurs de son église venaient d'une vieille femme du quartier. Il organisait des vigiles contre elle, il l'évitait, il la regardait avec méfiance. Un jour, la vieille femme est tombée gravement malade, et personne n'a voulu la secourir. Une sœur de l'église, qui ne participait pas aux vigiles, est allée la soigner. La vieille femme, touchée, a donné sa vie à Jésus avant de mourir. Le pasteur a compris, avec honte, que son vrai combat n'avait jamais été contre cette femme, mais contre l'esprit de peur et de haine qui l'habitait lui-même. Le combat spirituel n'est pas une chasse aux personnes : c'est une lutte contre les mensonges, la peur et le péché, à genoux, avec la Parole."
+    }
+   ]
+  },
+  {
+   "numero": "4",
+   "titre": "Nous combattons depuis la victoire",
+   "references": [
+    "Col 2:15",
+    "Hé 2:14-15",
+    "Ép 1:19-23",
+    "Ép 2:4-6"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Jésus a vaincu à la croix"
+    },
+    {
+     "texte": "Voici la partie la plus importante de cet enseignement. Beaucoup de chrétiens vivent le combat spirituel avec angoisse, comme si l'issue était incertaine. Mais la Bible dit que Jésus a déjà gagné. Paul écrit : il a dépouillé les principautés et les puissances, et les a livrées publiquement en spectacle, en triomphant d'elles par la croix."
+    },
+    {
+     "verset": "Col 2:15"
+    },
+    {
+     "texte": "Imagine un général romain qui rentre en triomphe dans la ville après une guerre. Derrière son char, on fait défiler les rois vaincus, enchaînés, devant tout le peuple. C'est l'image que Paul utilise : à la croix, Jésus a fait défiler les puissances des ténèbres comme des vaincus. Ce qui ressemblait à une défaite, un homme cloué sur une croix, était en réalité sa plus grande victoire."
+    },
+    {
+     "sous_titre": "Il a détruit celui qui a la puissance de la mort"
+    },
+    {
+     "texte": "L'épître aux Hébreux dit : il a pris part lui-même à la chair et au sang, afin que, par la mort, il anéantît celui qui a la puissance de la mort, c'est-à-dire le diable, et qu'il délivrât tous ceux qui, par crainte de la mort, étaient toute leur vie retenus dans la servitude."
+    },
+    {
+     "verset": "Hé 2:14-15"
+    },
+    {
+     "texte": "Le diable gardait les hommes dans la servitude par la peur de la mort. Jésus a brisé cette chaîne. Le chrétien n'a plus à craindre la mort, ni ceux qui menacent de le tuer par la sorcellerie. Les menaces des sorciers perdent leur force quand on sait que notre vie est cachée avec Christ en Dieu."
+    },
+    {
+     "sous_titre": "Assis avec Christ dans les lieux célestes"
+    },
+    {
+     "texte": "Paul prie pour que nous connaissions quelle est envers nous la grandeur surabondante de sa puissance, selon l'efficacité de la puissance de sa force. Il l'a déployée en Christ, en le ressuscitant des morts, et en le faisant asseoir à sa droite dans les lieux célestes, au-dessus de toute domination, de toute autorité, de toute puissance, de toute dignité, et de tout nom qui se peut nommer, non seulement dans le siècle présent, mais encore dans le siècle à venir."
+    },
+    {
+     "verset": "Ép 1:19-23"
+    },
+    {
+     "texte": "Au-dessus de toute domination et de toute autorité. Il n'y a aucune puissance, visible ou invisible, qui soit au-dessus de Jésus. Et plus loin dans la lettre, Paul ajoute que Dieu nous a ressuscités ensemble, et nous a fait asseoir ensemble dans les lieux célestes en Jésus-Christ."
+    },
+    {
+     "verset": "Ép 2:4-6"
+    },
+    {
+     "texte": "Nous sommes assis avec lui. Cela veut dire que nous ne combattons pas pour obtenir la victoire ; nous combattons à partir de la victoire. Un soldat dont le roi a déjà gagné la guerre ne se bat pas de la même manière qu'un soldat qui ne sait pas s'il va gagner. Il se bat avec courage, car il connaît l'issue."
+    }
+   ]
+  },
+  {
+   "numero": "5",
+   "titre": "Ce que Dieu nous a donné : autorité et armes",
+   "references": [
+    "Lc 10:17-20",
+    "Mt 16:19",
+    "Ja 4:7",
+    "Ép 6:13-18"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "L'autorité déléguée"
+    },
+    {
+     "texte": "Jésus a envoyé soixante-dix disciples en mission. Ils sont revenus avec joie, en disant : Seigneur, les démons mêmes nous sont soumis en ton nom. Jésus leur a répondu : je voyais Satan tomber du ciel comme un éclair. Voici, je vous ai donné le pouvoir de marcher sur les serpents et les scorpions, et sur toute la puissance de l'ennemi ; et rien ne pourra vous nuire. Cependant, ne vous réjouissez pas de ce que les esprits vous sont soumis ; réjouissez-vous de ce que vos noms sont écrits dans les cieux."
+    },
+    {
+     "verset": "Lc 10:17-20"
+    },
+    {
+     "texte": "Remarque l'ordre des choses. Jésus confirme l'autorité qu'il a donnée. Mais il rappelle aussitôt ce qui compte le plus : ne vous réjouissez pas de ce que les esprits vous sont soumis. Notre joie première n'est pas de dominer des démons, mais d'appartenir à Dieu, d'avoir notre nom écrit dans les cieux."
+    },
+    {
+     "sous_titre": "Lier et délier"
+    },
+    {
+     "texte": "Jésus dit aussi à ses disciples : je te donnerai les clefs du royaume des cieux : ce que tu lieras sur la terre sera lié dans les cieux, et ce que tu délieras sur la terre sera délié dans les cieux."
+    },
+    {
+     "verset": "Mt 16:19"
+    },
+    {
+     "texte": "Ce passage a donné lieu à beaucoup de discussions. Retiens ceci : Dieu a donné à son Église une vraie autorité dans la prière. Quand nous prions selon sa volonté, nous ne parlons pas dans le vide. Notre prière est reliée au ciel."
+    },
+    {
+     "sous_titre": "Résister au diable"
+    },
+    {
+     "texte": "Jacques donne une instruction simple et claire : soumettez-vous donc à Dieu ; résistez au diable, et il fuira loin de vous."
+    },
+    {
+     "verset": "Ja 4:7"
+    },
+    {
+     "texte": "L'ordre est important : d'abord se soumettre à Dieu, ensuite résister au diable. Beaucoup de chrétiens essaient de résister au diable sans d'abord se soumettre à Dieu. Ils crient contre Satan, mais ils vivent dans le péché volontaire. La résistance n'a de force que dans la soumission."
+    },
+    {
+     "sous_titre": "L'armure de Dieu"
+    },
+    {
+     "texte": "Paul nous donne alors les armes : la ceinture de la vérité, la cuirasse de la justice, les chaussures de l'Évangile de paix, le bouclier de la foi, le casque du salut, l'épée de l'Esprit qui est la parole de Dieu. Et il ajoute : faites en tout temps par l'Esprit toutes sortes de prières et de supplications."
+    },
+    {
+     "verset": "Ép 6:13-18"
+    },
+    {
+     "texte": "Il n'y a aucune arme magique dans cette liste : pas d'huile spéciale, pas d'eau bénite, pas de nom secret. Les armes de Dieu sont la vérité, la justice, la paix, la foi, le salut, la Parole et la prière. Elles sont à la portée de chaque croyant. Et l'une d'elles est l'épée : la Parole de Dieu. Jésus lui-même, face au diable dans le désert, ne s'est pas défendu avec des cris ou des rituels. Il a répondu : il est écrit."
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Prier avec persévérance et vivre sans peur",
+   "references": [
+    "Lc 18:1",
+    "Ph 4:6-7",
+    "1 Jn 4:4",
+    "Jn 16:33"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Ne pas se lasser"
+    },
+    {
+     "texte": "Revenons à Daniel. Il a prié pendant vingt et un jours avant de voir une réponse. Il aurait pu abandonner au dixième jour, en se disant : « Dieu ne m'écoute pas. » Mais il a continué. Jésus a raconté une parabole pour montrer qu'il faut toujours prier, et ne point se relâcher."
+    },
+    {
+     "verset": "Lc 18:1"
+    },
+    {
+     "texte": "On raconte l'histoire d'une mère qui priait depuis quinze ans pour que son fils quitte la vie de bandit. Chaque matin, elle se levait à cinq heures, s'agenouillait à côté de son lit et disait son nom devant Dieu. Parfois elle pleurait, parfois elle n'avait plus de mots. Un jour, son fils est rentré à la maison, bouleversé : il avait failli mourir lors d'un règlement de comptes, et au moment où il croyait mourir, il s'était souvenu de la voix de sa mère qui priait. Il a donné sa vie à Jésus. Plus tard, il disait : « Pendant quinze ans, ma mère a combattu pour moi dans un endroit où je ne pouvais pas la voir. »"
+    },
+    {
+     "sous_titre": "La paix au lieu de l'angoisse"
+    },
+    {
+     "texte": "Paul dit : ne vous inquiétez de rien ; mais en toute chose faites connaître vos besoins à Dieu par des prières et des supplications, avec des actions de grâces. Et la paix de Dieu, qui surpasse toute intelligence, gardera vos cœurs et vos pensées en Jésus-Christ."
+    },
+    {
+     "verset": "Ph 4:6-7"
+    },
+    {
+     "texte": "Le fruit du combat spirituel bien compris n'est pas l'angoisse, c'est la paix. Si, après un enseignement sur les puissances des ténèbres, tu as plus peur qu'avant, c'est que tu n'as pas retenu le plus important : Jésus a vaincu."
+    },
+    {
+     "sous_titre": "Celui qui est en vous est plus grand"
+    },
+    {
+     "texte": "Jean écrit : vous, petits enfants, vous êtes de Dieu, et vous les avez vaincus, parce que celui qui est en vous est plus grand que celui qui est dans le monde."
+    },
+    {
+     "verset": "1 Jn 4:4"
+    },
+    {
+     "texte": "Celui qui est en toi, le Saint-Esprit, est plus grand que n'importe quelle puissance dans le monde. Ce n'est pas toi qui es fort ; c'est lui. Mais il est en toi."
+    },
+    {
+     "sous_titre": "Prendre courage"
+    },
+    {
+     "texte": "Jésus conclut : je vous ai dit ces choses, afin que vous ayez la paix en moi. Vous aurez des tribulations dans le monde ; mais prenez courage, j'ai vaincu le monde."
+    },
+    {
+     "verset": "Jn 16:33"
+    },
+    {
+     "sous_titre": "Les excès à éviter"
+    },
+    {
+     "texte": "Pour terminer, quelques mises en garde pratiques. Il ne faut pas passer sa vie à parler du diable : la Bible parle beaucoup plus de Jésus que de Satan. Il ne faut pas chercher des révélations sur le ciel que la Bible ne donne pas : Paul lui-même a gardé le silence sur ce qu'il a entendu. Il ne faut pas attribuer au diable tout ce qui nous arrive : certaines difficultés viennent de nos fautes, de notre paresse ou simplement de la vie dans un monde brisé. Et il ne faut jamais mélanger la prière chrétienne avec des pratiques de magie : sel, eau, huile, bougies, rituels étranges. Notre autorité vient du nom de Jésus et de la Parole de Dieu, pas de ces objets."
+    },
+    {
+     "texte": "Garde ceci en mémoire : il existe plusieurs cieux, mais un seul Roi. Le ciel visible raconte sa gloire. Les lieux célestes ont été témoins de sa victoire. Et le troisième ciel est sa demeure, où il t'attend. Tu es assis avec lui. Alors prie, résiste, tiens ferme, et marche en paix."
     }
    ]
   }
  ],
- "lecture_minutes": 3,
- "auteur": "L'Arsenal de la Sentinelle",
- "autorisation": "oui",
- "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
- "date_ajout": "2026-11-14",
+ "sujets": [
+  {
+   "titre": "Un cœur sans peur",
+   "texte": "Père, merci pour la victoire de Jésus à la croix. Délivre-moi de toute peur des puissances des ténèbres, car celui qui est en moi est plus grand."
+  },
+  {
+   "titre": "La persévérance dans la prière",
+   "texte": "Seigneur, quand mes prières semblent prendre du temps, garde-moi de me décourager. Apprends-moi à persévérer comme Daniel."
+  },
+  {
+   "titre": "L'armure de Dieu",
+   "texte": "Je me revêts aujourd'hui de la vérité, de la justice, de la paix, de la foi, du salut. Que la Parole soit mon épée."
+  },
+  {
+   "titre": "Les territoires et les nations",
+   "texte": "Je prie pour ma ville et mon pays : que ta volonté se fasse sur la terre comme au ciel, et que l'Évangile y avance sans obstacle."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Quel verset de Paul fait penser qu'il existe plusieurs cieux ?",
+   "choix": [
+    "Genèse 3:1",
+    "2 Corinthiens 12:2, où il parle d'un « troisième ciel »",
+    "Psaume 23:1"
+   ],
+   "reponse": 1,
+   "explication": "Paul dit avoir été enlevé jusqu'au troisième ciel, c'est-à-dire au paradis.",
+   "section": "1"
+  },
+  {
+   "question": "Que montre l'histoire de Daniel (Daniel 10) ?",
+   "choix": [
+    "Que Dieu n'écoute pas les prières",
+    "Que la prière avait été entendue dès le premier jour, et que des puissances peuvent résister, mais que Dieu envoie du secours",
+    "Que les prières sont toujours exaucées immédiatement"
+   ],
+   "reponse": 1,
+   "explication": "Daniel 10:12-14. Il faut persévérer sans en conclure que chaque retard est causé par un démon.",
+   "section": "3"
+  },
+  {
+   "question": "Contre qui se dirige notre combat selon Éphésiens 6:12 ?",
+   "choix": [
+    "Contre la chair et le sang",
+    "Contre les principautés, les puissances et les esprits méchants",
+    "Contre les voisins"
+   ],
+   "reponse": 1,
+   "explication": "Notre lutte n'est pas contre des personnes, mais contre des puissances spirituelles.",
+   "section": "3"
+  },
+  {
+   "question": "Qu'a fait Jésus des principautés et des puissances à la croix ?",
+   "choix": [
+    "Il s'est enfui",
+    "Il les a dépouillées et livrées en spectacle, en triomphant d'elles par la croix",
+    "Il les a ignorées"
+   ],
+   "reponse": 1,
+   "explication": "Colossiens 2:15.",
+   "section": "4"
+  },
+  {
+   "question": "Quel est l'ordre indiqué par Jacques 4:7 ?",
+   "choix": [
+    "Résister au diable, puis se soumettre à Dieu",
+    "Se soumettre à Dieu, puis résister au diable",
+    "Fuir le diable"
+   ],
+   "reponse": 1,
+   "explication": "Beaucoup crient contre Satan sans d'abord se soumettre à Dieu.",
+   "section": "5"
+  },
+  {
+   "question": "De quoi Jésus dit-il de se réjouir plutôt que de la soumission des esprits ?",
+   "choix": [
+    "De notre succès",
+    "Que nos noms soient écrits dans les cieux",
+    "De notre force"
+   ],
+   "reponse": 1,
+   "explication": "Luc 10:20.",
+   "section": "5"
+  },
+  {
+   "question": "Quel est le fruit du combat spirituel bien compris ?",
+   "choix": [
+    "L'angoisse",
+    "La paix de Dieu qui garde les cœurs",
+    "L'orgueil"
+   ],
+   "reponse": 1,
+   "explication": "Philippiens 4:6-7 ; Jean 16:33.",
+   "section": "6"
+  }
+ ],
+ "devoir": [
+  "Lis Éphésiens 1 et 2, en soulignant tout ce qui parle de « lieux célestes » et de ce que nous avons « en Christ ».",
+  "Écris sur une feuille les peurs liées au monde invisible (sorcellerie, malédiction, esprits), puis lis à voix haute Colossiens 2:15 sur chacune.",
+  "Choisis une personne pour qui tu prieras pendant trente jours sans te lasser, comme Daniel et la mère de l'histoire."
+ ],
  "prieres_liees": [
   "combat:combat-cieux1"
- ]
+ ],
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "autorisation": "oui"
 }
