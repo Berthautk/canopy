@@ -49,6 +49,8 @@ const P = {
   trier: <><path d="M7 4v16M3 8l4-4 4 4M17 20V4M13 16l4 4 4-4" /></>,
   fermer: <><path d="M6 6l12 12M18 6 6 18" /></>,
   verifie: <><path d="m5 12.5 4.5 4.5L19 7.5" /></>,
+  son: <><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" /><path d="M15.5 9a4.5 4.5 0 0 1 0 6M18 6.5a8 8 0 0 1 0 11" /></>,
+  muet: <><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" /><path d="m16 9.5 5 5m0-5-5 5" /></>,
 };
 
 export function Icone({ nom, taille = 24, ...rest }) {

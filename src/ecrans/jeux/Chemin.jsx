@@ -5,6 +5,7 @@ import { route } from '../../outils/routeur.js';
 import { partager } from '../../outils/partage.js';
 import { profil } from '../../donnees/profil.js';
 import { lireAVoixHaute, arreterVoix, voix } from '../../audio/voix.js';
+import { VoixJeu } from '../../composants/VoixJeu.jsx';
 import { Icone } from '../../composants/Icone.jsx';
 import { NIVEAUX_CHEMIN, QUIZ } from '../../donnees/contenu.js';
 import { chemin, rang, serie, terminerNiveau, totalEtoiles, son, sonsActifs, basculerSons } from '../../jeux/chemin.js';
@@ -108,7 +109,7 @@ function Partie({ n, k, rejouer }) {
   const p = route.valeur.params, defi = p.defi ? { score: +p.defi, nom: p.nom } : null;
   const q = qs[i];
   useEffect(() => () => arreterVoix(), []);
-  const ecouterQ = () => lireAVoixHaute('jeu-q', [{ texte: (q.type === 'vf' ? 'Vrai ou faux ? ' : '') + q.question }, ...(q.type === 'qcm' ? ordre.map((c, j) => ({ texte: `Réponse ${'ABCD'[j]} : ${q.choix[c]}.` })) : [])]);
+  const ecouterBlocs = ([{ texte: (q.type === 'vf' ? 'Vrai ou faux ? ' : '') + q.question }, ...(q.type === 'qcm' ? ordre.map((c, j) => ({ texte: `Réponse ${'ABCD'[j]} : ${q.choix[c]}.` })) : [])]);
   const ordre = useMemo(() => (q?.type === 'qcm' ? melanger(q.choix.map((_, j) => j)) : [true, false]), [i]);
 
   function repondre(choix) {
@@ -182,7 +183,7 @@ function Partie({ n, k, rejouer }) {
       {defi && i === 0 && !rep && <p class="guide-phase" style="margin:8px 0"><span>⚔️ {defi.nom || 'Un ami'} t'a défié : il a fait {defi.score} points sur cette étape. À toi de jouer !</span></p>}
       {combo >= 3 && <p class="combo" key={combo}>🔥 Combo × {combo} : +{BONUS_COMBO} bonus</p>}
       <p class="quiz__compteur">Question {i + 1} / {qs.length}</p>
-      {voix.valeur.disponible && <button class="bouton bouton--contour bouton--petit" style="align-self:flex-end;margin-bottom:8px" onClick={ecouterQ}><Icone nom="lecture" taille={16} /> Écouter la question</button>}
+      <VoixJeu cle={'chemin:' + (q.id || q.question)} blocs={ecouterBlocs} />
       <section class="carte quiz__question"><Icone nom="bible" taille={28} /><h2>{q.type === 'vf' ? 'Vrai ou faux ? ' : ''}{q.question}</h2></section>
       <div class={'quiz__choix' + (q.type === 'vf' ? ' quiz__choix--vf' : '')}>
         {ordre.map((c, j) => {

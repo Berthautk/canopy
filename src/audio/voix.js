@@ -1,3 +1,4 @@
+import { reglages } from '../donnees/reglages.js';
 // Lecture à voix haute avec la voix de synthèse du téléphone (Web Speech API) :
 // aucun fichier à télécharger, fonctionne hors ligne si une voix française est installée.
 import { signal } from '../outils/signal.js';
@@ -19,8 +20,17 @@ async function garderEveille() {
 function relacherEveil() { try { eveil?.release(); } catch {} eveil = null; }
 if (typeof document !== 'undefined') document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && voix.valeur.lecture) garderEveille(); });
 
+// Le navigateur ne dit pas si une voix est d'homme ou de femme : on le devine par son nom.
+const FEMMES = /amélie|amelie|audrey|aurélie|aurelie|marie|julie|denise|hortense|céline|celine|léa|lea|virginie|chantal|sylvie|eloise|éloïse|vivienne|brigitte|claire|charline|ariane|josephine|joséphine|coralie|yvette|female|femme|wavenet-a|wavenet-c|wavenet-e|neural2-a|neural2-c|fr-fr-x-fra|fr-fr-x-frc|fr-fr-x-vlf/i;
+const HOMMES = /thomas|paul|henri|nicolas|daniel|claude|mathieu|jacques|antoine|guillaume|jérôme|jerome|alain|remy|rémy|yves|fabrice|gérard|gerard|jean|louis|maxime|male|homme|wavenet-b|wavenet-d|neural2-b|neural2-d|fr-fr-x-frb|fr-fr-x-frd|fr-fr-x-vlm/i;
+export function genreVoix(v) { const n = `${v.name} ${v.voiceURI}`; return HOMMES.test(n) && !/female/i.test(n) ? 'homme' : FEMMES.test(n) ? 'femme' : '?'; }
+export function voixFr() { try { return speechSynthesis.getVoices().filter((v) => v.lang?.toLowerCase().startsWith('fr')); } catch { return []; } }
 function voixFrancaise() {
-  const l = speechSynthesis.getVoices().filter((v) => v.lang?.toLowerCase().startsWith('fr'));
+  const l = voixFr(), r = reglages.valeur;
+  const choisie = r.voix && l.find((v) => v.voiceURI === r.voix);
+  if (choisie) return choisie;
+  const fr = l.filter((v) => /fr[-_]FR/i.test(v.lang)).concat(l);
+  if (r.genreVoix === 'homme' || r.genreVoix === 'femme') { const g = fr.find((v) => genreVoix(v) === r.genreVoix); if (g) return g; }
   return l.find((v) => v.localService && /fr[-_]FR/i.test(v.lang)) || l.find((v) => v.localService) || l[0] || null;
 }
 

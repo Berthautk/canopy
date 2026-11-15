@@ -1,3 +1,4 @@
+import { VoixJeu } from '../../composants/VoixJeu.jsx';
 import { useRef, useState } from 'preact/hooks';
 import { Icone } from '../../composants/Icone.jsx';
 import { notifier } from '../../composants/Notification.jsx';
@@ -30,6 +31,9 @@ export function Ordre({ id }) {
 
   return (
     <div class="page">
+      <VoixJeu cle={h.titre + (verifie ? (juste ? ':ok' : ':non' + ordre.join('')) : '')} blocs={verifie
+        ? [{ texte: juste ? 'Bravo, c\'est le bon ordre !' : 'Ce n\'est pas encore le bon ordre. Les étapes en rouge ne sont pas à leur place.' }]
+        : [{ texte: `Remets dans l'ordre : ${h.titre}.` }, ...ordre.map((x, i) => ({ texte: `${i + 1}. ${h.etapes[x].texte}` }))]} />
       <p class="jouer-intro" style="margin-top:12px">Remets ces étapes de <b>{h.titre.charAt(0).toLowerCase() + h.titre.slice(1)}</b> dans le bon ordre.</p>
       <ol class="ordre" ref={liste} onPointerMove={bouge} onPointerUp={fin} onPointerCancel={fin}>
         {ordre.map((x, i) => {

@@ -1,3 +1,4 @@
+import { VoixJeu } from '../../composants/VoixJeu.jsx';
 import { useState } from 'preact/hooks';
 import { Icone } from '../../composants/Icone.jsx';
 import { notifier } from '../../composants/Notification.jsx';
@@ -20,6 +21,9 @@ export function QuiSuisJe() {
     <div class="page">
       <div class="qsj-hero"><img src={repondu ? p.image : '/assets/paysages/coucher-soleil-montagnes.webp'} alt={repondu ? p.nom : ''} />
         {!repondu && <span class="qsj-hero__question">?</span>}</div>
+      <VoixJeu cle={`${p.nom}:${vus}:${repondu ? 'r' : ''}`} blocs={repondu
+        ? [{ texte: juste ? `Bravo ! C'était bien ${p.nom}.` : `Non. C'était ${p.nom}.` }]
+        : [...(vus === 1 ? [{ texte: 'Qui suis-je ?' }] : []), { texte: `Indice ${vus} : ${p.indices[vus - 1].texte}` }, { texte: `Est-ce ${p.choix.slice(0, -1).join(', ')} ou ${p.choix.at(-1)} ?` }]} />
       <p class="jouer-intro">Découvre le personnage biblique grâce aux indices.</p>
       <p class="quiz__compteur">Personnage {n + 1} / {liste.length} · {points} point{points > 1 ? 's' : ''}</p>
       <ol class="indices">

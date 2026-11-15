@@ -751,3 +751,5 @@ a.lien[style], .theme-quiz__tete .lien { display: inline-block; padding-top: 10p
 .etape-outil__legende .etape-outil__titre { font-size: 1.25rem; text-align: center; margin: 4px 0; }
 @keyframes legende { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { .etape-outil__legende { animation: none; } }
+.voix-jeu { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin: 10px 0 4px; }
+.ligne--choisie { border: 2px solid var(--or); }

@@ -5,6 +5,7 @@ import { lireReference, ecrireReference } from '../../bible/references.js';
 import { finQuiz, badge } from '../../jeux/stats.js';
 import { melanger } from '../../jeux/hasard.js';
 import { partager } from '../../outils/partage.js';
+import { VoixJeu } from '../../composants/VoixJeu.jsx';
 
 const LETTRES = ['A', 'B', 'C', 'D'];
 
@@ -33,6 +34,9 @@ export function Question({ q, numero, total, surReponse, surSuivant, joueur }) {
   return (
     <div class="quiz">
       {joueur && <p class="quiz__joueur">{joueur}</p>}
+      <VoixJeu cle={q.id + (repondu ? ':r' : '')} blocs={!repondu
+        ? [{ texte: q.question }, ...ordre.map((i, k) => ({ texte: `${LETTRES[k]} : ${q.choix[i]}.` }))]
+        : [{ texte: juste ? 'Bonne réponse !' : `Pas tout à fait. La bonne réponse est : ${q.choix[q.reponse]}.` }, { texte: q.explication }]} />
       <p class="quiz__compteur">Question {numero} / {total}</p>
       <div class="progression progression--fine"><span style={{ width: (numero / total) * 100 + '%' }} /></div>
       {!repondu ? (

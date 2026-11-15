@@ -1,3 +1,4 @@
+import { VoixJeu } from '../../composants/VoixJeu.jsx';
 import { useEffect, useState } from 'preact/hooks';
 import { Icone } from '../../composants/Icone.jsx';
 import { VERSETS_DU_JOUR, SUJETS } from '../../donnees/contenu.js';
@@ -49,6 +50,9 @@ export function CompleteVerset() {
   const repondu = choix !== null, juste = choix === m.juste;
   return (
     <div class="page">
+      <VoixJeu cle={`${n}:${repondu ? 'r' : ''}`} blocs={repondu
+        ? [{ texte: juste ? 'Bonne réponse !' : 'Pas tout à fait.' }, { texte: m.jetons.map((t, i) => m.trous.has(i) ? m.propres[i] : t).join('') }, { reference: ecrireReference(m.ref) }].slice(0, 2)
+        : [{ texte: 'Complète le verset. ' + m.jetons.map((t, i) => m.trous.has(i) ? '…' : t).join('') }, ...m.options.map((o, k) => ({ texte: `Réponse ${k + 1} : ${o}.` }))]} />
       <p class="jouer-intro" style="margin-top:12px">Trouve le ou les mots manquants pour compléter le verset.</p>
       <p class="quiz__compteur">Verset {n + 1} / {manches.length}</p>
       <section class="carte complete__verset">

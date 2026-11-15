@@ -3,10 +3,36 @@ import { Icone } from '../composants/Icone.jsx';
 import { choisirStats } from '../donnees/mesure.js';
 import { reglages, modifierReglages, COULEURS_MOT } from '../donnees/reglages.js';
 import { useSignal } from '../outils/signal.js';
+import { voixFr, genreVoix, lireAVoixHaute } from '../audio/voix.js';
 import { profil, changerPhoto, retirerPhoto, changerPrenom } from '../donnees/profil.js';
 import { Avatar } from '../composants/Avatar.jsx';
 import { notifier } from '../composants/Notification.jsx';
 import { telechargerSauvegarde, partagerSauvegarde, lireSauvegarde, restaurer, libelle } from '../donnees/sauvegarde.js';
+
+// Voix de lecture : femme ou homme, ou une voix précise du téléphone. Le choix vaut pour toute l'application.
+function ChoixVoix({ r }) {
+  const [liste, setListe] = useState(voixFr());
+  useEffect(() => { const f = () => setListe(voixFr()); try { speechSynthesis.addEventListener('voiceschanged', f); } catch {} const t = setTimeout(f, 800); return () => { clearTimeout(t); try { speechSynthesis.removeEventListener('voiceschanged', f); } catch {} }; }, []);
+  const essayer = () => setTimeout(() => lireAVoixHaute('essai-voix', [{ texte: 'Car Dieu a tant aimé le monde qu\'il a donné son Fils unique.' }]), 50);
+  const hommes = liste.some((v) => genreVoix(v) === 'homme'), femmes = liste.some((v) => genreVoix(v) === 'femme');
+  return (
+    <>
+      <p class="ligne__desc" style="margin:0 0 6px">Voix</p>
+      <div class="segments" role="group" aria-label="Voix">
+        {[['auto', 'Par défaut'], ['femme', 'Femme'], ['homme', 'Homme']].map(([g, t]) => (
+          <button aria-pressed={(r.genreVoix || 'auto') === g && !r.voix} onClick={() => { modifierReglages({ genreVoix: g, voix: null }); essayer(); }}>{t}</button>))}
+      </div>
+      {liste.length > 0 && ((r.genreVoix === 'homme' && !hommes) || (r.genreVoix === 'femme' && !femmes)) &&
+        <p class="ligne__desc" style="margin-top:6px">Ton téléphone n'a pas de voix française {r.genreVoix === 'homme' ? 'd\'homme' : 'de femme'} reconnue. Choisis une voix dans la liste ci-dessous, ou installe-en une dans les réglages du téléphone (Synthèse vocale).</p>}
+      {liste.length > 1 && <details style="margin-top:8px"><summary class="lien">Toutes les voix françaises du téléphone ({liste.length})</summary>
+        <div class="liste" style="margin-top:8px">{liste.map((v) => (
+          <button class={'carte ligne' + (r.voix === v.voiceURI ? ' ligne--choisie' : '')} aria-pressed={r.voix === v.voiceURI} onClick={() => { modifierReglages({ voix: v.voiceURI }); essayer(); }}>
+            <span class="ligne__corps"><span class="ligne__titre">{v.name}</span><span class="ligne__desc">{{ homme: 'Homme', femme: 'Femme' }[genreVoix(v)] || 'Voix'} · {v.lang}{v.localService ? '' : ' · en ligne'}</span></span>
+            {r.voix === v.voiceURI && <Icone nom="verifie" taille={20} />}</button>))}</div></details>}
+      <button class="bouton bouton--contour bouton--petit" style="margin-top:10px" onClick={essayer}><Icone nom="lecture" taille={16} /> Essayer la voix</button>
+    </>
+  );
+}
 
 // Sauvegarder / restaurer la progression (fichier .json, partage WhatsApp possible).
 function MesDonnees() {
@@ -139,7 +165,8 @@ export function Parametres() {
 
       <div class="carte param-bloc">
         <div class="param-bloc__titre"><span class="ligne__icone"><Icone nom="lecture" /></span> Lecture à voix haute</div>
-        <p class="ligne__desc" style="margin:0 0 8px">Pendant que la voix lit, le texte change de couleur au fur et à mesure.</p>
+        <ChoixVoix r={r} />
+        <p class="ligne__desc" style="margin:14px 0 8px">Pendant que la voix lit, le texte change de couleur au fur et à mesure.</p>
         <Segments libelle="Suivi du texte" options={[['mot', 'Mot par mot'], ['paragraphe', 'Paragraphe']]} valeur={r.suivi} surChoix={(suivi) => modifierReglages({ suivi })} />
         <p class="ligne__desc" style="margin:12px 0 6px">Couleur du mot prononcé</p>
         <div class="couleurs-mot" role="group" aria-label="Couleur du mot prononcé">
