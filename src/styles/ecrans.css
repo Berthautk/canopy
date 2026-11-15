@@ -803,7 +803,7 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 
 .course { padding-bottom: 8px; }
 .course__cadre { position: relative; margin-top: 10px; border-radius: 20px; overflow: hidden; box-shadow: var(--ombre); }
-.course__toile { display: block; width: 100%; height: max(300px, calc(100dvh - 360px - env(safe-area-inset-bottom))); touch-action: none; user-select: none; }
+.course__toile { display: block; width: 100%; height: max(300px, calc(100dvh - 420px - env(safe-area-inset-bottom))); touch-action: none; user-select: none; }
 .course__voile { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; padding: 18px; text-align: center; background: rgba(20,35,64,.82); color: #fff; }
 .course__voile h2 { color: #fff; margin: 0; } .course__voile p { margin: 0; line-height: 1.45; }
 .course__voile--mort { background: rgba(30,8,12,.88); animation: legende .5s ease both; }
@@ -853,3 +853,7 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .petit-trou--ok { color: #2e9e5b; border-color: #2e9e5b; animation: sauter .4s; }
 .petits-lettres--4 { grid-template-columns: repeat(4, 1fr); }
 .petit-touche--non { opacity: .3; filter: grayscale(1); } .petit-touche--oui { background: #2e9e5b !important; box-shadow: 0 4px 0 #1f7a44 !important; }
+.course__hud { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; align-items: center; margin-top: 8px; padding: 8px 12px; border-radius: 14px; background: var(--carte); box-shadow: var(--ombre); font-size: .85rem; color: var(--titre); }
+.course__hud-force { display: flex; align-items: center; gap: 8px; } .course__hud-force i { flex: 1; height: 10px; border-radius: 6px; background: #ddd; overflow: hidden; } .course__hud-force em { display: block; height: 100%; transition: width .25s; }
+.course__hud-txt { font-weight: 700; text-align: right; } .course__hud-croix { color: #b8860b; letter-spacing: 1px; grid-column: 1; }
+.course__hud-prog { grid-column: 2; height: 6px; border-radius: 4px; background: #ddd; overflow: hidden; } .course__hud-prog em { display: block; height: 100%; background: #3fa66b; }

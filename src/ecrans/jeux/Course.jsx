@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
-import { lireAVoixHaute, arreterVoix } from '../../audio/voix.js';
+import { lireAVoixHaute, arreterVoix, voix } from '../../audio/voix.js';
 import { jouerMusique, arreterMusique } from '../../audio/musique.js';
 import { reglages, modifierReglages } from '../../donnees/reglages.js';
 import { useSignal } from '../../outils/signal.js';
@@ -31,6 +31,7 @@ const INTRO = 'Bienvenue dans la course de la vie ! Ton personnage court sur le 
 export function Course() {
   const toile = useRef(null);
   const etat = useRef(null);
+  try { if (localStorage.getItem('yeshaya:test')) window.__course = etat; } catch {}
   const [vue, setVue] = useState({ phase: 'debut' });
   const lire = (t) => lireAVoixHaute('course', [{ texte: t }]);
   let meilleur = 0; try { meilleur = +localStorage.getItem('yeshaya:course-etape') || 0; } catch {}
@@ -62,18 +63,21 @@ export function Course() {
     setVue({ phase: 'course' });
   }
   function pause() { const e = etat.current; if (e?.phase !== 'course') return; e.phase = 'pause'; setVue({ phase: 'pause' }); }
-  function reprendre() { const e = etat.current; if (e?.phase !== 'pause') return; e.phase = 'course'; setVue({ phase: 'course' }); }
+  // Reprise après une pause, un enseignement ou un relèvement : on vide la piste devant le joueur et on recompte.
+  function relancer() { const e = etat.current; e.objets = e.objets.filter((o) => o.y < 0.15); e.phase = 'compte'; e.compte = 3.5; e.invincible = 1.5; e.prochain = 2; setVue({ phase: 'course' }); }
+  function reprendre() { const e = etat.current; if (e?.phase !== 'pause') return; relancer(); }
   function bouger(s) { const e = etat.current; if (!e || e.phase !== 'course') return; e.voie = Math.max(0, Math.min(2, e.voie + s)); }
 
   function avancer(dt) {
     const e = etat.current; if (!e) return;
     e.anim += dt;
     if (e.lumiere > 0) e.lumiere = Math.max(0, e.lumiere - dt);
-    if (e.phase === 'compte') { e.compte -= dt; if (e.compte <= 0) { e.phase = 'course'; e.bandeau = 2.5; } return; }
+    // Tant que la voix parle, rien ne bouge ; ensuite compte à rebours de 3 secondes, puis on court.
+    if (e.phase === 'compte') { if (voix.valeur.lecture) { e.compte = 3.5; e.ecoute = true; return; } e.ecoute = false; e.compte -= dt; if (e.compte <= 0) e.phase = 'course'; return; }
     if (e.phase === 'releve') { e.rt += dt; if (e.rt >= 4) {
       if (e.releve === 3 && !e.leconVue) { e.leconVue = true; e.phase = 'lecon'; setVue({ phase: 'lecon' });
         lire('Attends un instant, écoute bien. Jésus t\'a déjà relevé trois fois. Dieu pardonne celui qui se repent. Mais la Bible dit : demeurerions-nous dans le péché, afin que la grâce abonde ? Loin de là ! Quand on retourne sans cesse au même péché, le cœur s\'habitue, il devient dur, et un jour on n\'entend plus la voix de Dieu. Le pardon de Jésus n\'est pas une permission de pécher. C\'est une force pour fuir le péché. Alors maintenant, fuis les pierres de toutes tes forces !');
-      } else { e.phase = 'course'; e.invincible = 3; setVue({ phase: 'course' }); } } return; }
+      } else relancer(); } return; }
     if (e.phase !== 'course') return;
     // La vitesse de départ monte à chaque étape, puis monte encore pendant l'étape.
     e.temps += dt; e.vitesse = 0.85 + e.etape * 0.14 + Math.min(0.6, (e.distance / BUT(e.etape)) * 0.6);
@@ -81,12 +85,12 @@ export function Course() {
     e.x += (e.voie - e.x) * Math.min(1, dt * 14);
     if (e.distance >= BUT(e.etape)) return finirEtape();
     if (e.bandeau > 0) e.bandeau -= dt;
-    e.force -= dt * (2.2 + e.vitesse);
+    e.force -= dt * (1.3 + 0.6 * e.vitesse);
     if (e.invincible > 0) e.invincible -= dt;
     e.prochain -= dt;
     if (e.prochain <= 0) {
       const et = ETAPES[e.etape % ETAPES.length];
-      const bon = Math.random() < 0.34;
+      const bon = Math.random() < 0.4;
       const libres = [0, 1, 2].filter((v) => !e.objets.some((o) => o.v === v && o.y < 0.25));
       const v = libres[Math.floor(Math.random() * libres.length)] ?? 1;
       if (bon) { const b = BIEN[Math.floor(Math.random() * BIEN.length)]; e.objets.push({ v, y: -0.08, bon: true, emoji: b[0], mot: b[1] }); }
@@ -95,13 +99,13 @@ export function Course() {
         e.objets.push({ v, y: -0.08, bon: false, demon, piege, mot: demon ? 'Démon' : piege ? 'Piège' : et.mal[Math.floor(Math.random() * et.mal.length)], rot: 0 });
       }
       // Au début de l'étape, les obstacles sont plus espacés, puis ils se rapprochent.
-      e.prochain = ((0.55 + Math.random() * 0.6) / e.vitesse) * (1 + Math.max(0, 1 - e.temps / 40));
+      e.prochain = ((1.0 + Math.random() * 0.8) / Math.sqrt(e.vitesse)) * (1 + Math.max(0, 1 - e.temps / 40));
     }
     for (const o of e.objets) { o.y += dt * 0.42 * e.vitesse; if (o.rot !== undefined) o.rot += dt * 5 * e.vitesse; }
     for (const o of e.objets) {
       if (o.pris || o.y < 0.78 || o.y > 0.9 || Math.abs(o.v - e.x) > 0.45) continue;
       o.pris = true;
-      if (o.bon) { e.force = Math.min(100, e.force + 22); e.bonus.push({ mot: '+ ' + o.mot, y: 0, v: o.v }); }
+      if (o.bon) { e.force = Math.min(100, e.force + 25); e.bonus.push({ mot: '+ ' + o.mot, y: 0, v: o.v }); }
       else if (e.invincible <= 0) return mourir(o.mot);
     }
     e.objets = e.objets.filter((o) => o.y < 1.1 && !(o.pris && o.bon));
@@ -118,7 +122,7 @@ export function Course() {
     }
     setVue({ phase: 'mort', mot, distance: m });
     lire(mot ? `${mot} t'a frappé. Le salaire du péché, c'est la mort. Veux-tu revivre ? Pour continuer, il te faut Jésus.`
-      : 'Tu n\'avais plus de force. Sans prière et sans la Parole, on s\'éteint. Veux-tu revivre ? Il te faut Jésus.');
+      : 'Tu n\'avais plus de force. Sans la prière, la Parole et l\'obéissance, on s\'affaiblit. Attrape les boules dorées ! Veux-tu revivre ? Il te faut Jésus.');
   }
   // Jésus descend dans la lumière, vient jusqu'au personnage, entre en lui ; il se relève et repart.
   function revivre() {
@@ -142,7 +146,7 @@ export function Course() {
     const defile = ((e?.distance ?? 0) * 18) % 80;
     // Bas-côtés et décor qui défile
     ctx.fillStyle = et.bord; ctx.fillRect(0, H * 0.18, W, H);
-    for (let y = -80 + defile; y < H + 80; y += 80) { deco(ctx, et.deco, 22, y, et.nuit); deco(ctx, et.deco, W - 22, y + 40, et.nuit); }
+    const def2 = ((e?.distance ?? 0) * 18) % 160; ctx.globalAlpha = 0.55; for (let y = -160 + def2; y < H + 160; y += 160) { deco(ctx, et.deco, 22, y, et.nuit); deco(ctx, et.deco, W - 22, y + 80, et.nuit); } ctx.globalAlpha = 1;
     // Chemin
     const gx = W * 0.14, gw = W * 0.72;
     ctx.fillStyle = et.sol; ctx.fillRect(gx, 0, gw, H);
@@ -175,19 +179,12 @@ export function Course() {
       personnage(ctx, px, py, mort ? 0 : e.anim * 11 * e.vitesse, mort ? 0.4 : 1, mort ? 1 : 0);
       if (e.invincible > 0 && !mort) ctx.restore();
     }
-    for (const b of e.bonus) { ctx.globalAlpha = Math.max(0, 1 - b.y); ctx.fillStyle = '#1c7c3c'; ctx.font = '700 16px Poppins, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(b.mot, X(b.v), H * 0.78 - b.y * 80); ctx.globalAlpha = 1; }
-    // Barre de force et distance
-    ctx.fillStyle = 'rgba(0,0,0,.45)'; rond(ctx, 10, 10, W - 20, 36, 12); ctx.fill();
-    ctx.fillStyle = '#fff'; ctx.font = '600 13px Poppins, sans-serif'; ctx.textAlign = 'left'; ctx.fillText('Force', 20, 33);
-    ctx.fillStyle = 'rgba(255,255,255,.25)'; rond(ctx, 66, 20, W * 0.3, 16, 8); ctx.fill();
-    ctx.fillStyle = e.force > 35 ? '#f6c344' : '#ff6b5a'; rond(ctx, 66, 20, Math.max(0, W * 0.3 * e.force / 100), 16, 8); ctx.fill();
-    ctx.fillStyle = '#fff'; ctx.textAlign = 'right'; ctx.fillText(`Étape ${e.etape + 1} · ${km(Math.min(BUT(e.etape), e.distance))} / ${km(BUT(e.etape))}`, W - 18, 33);
-    // Relèvements restants
-    ctx.font = '600 13px Poppins, sans-serif'; ctx.textAlign = 'left'; ctx.fillStyle = 'rgba(0,0,0,.45)'; rond(ctx, 10, 52, 132, 26, 10); ctx.fill();
-    ctx.fillStyle = '#ffd86b'; ctx.fillText('✝ ' + '●'.repeat(RELEVES_MAX - e.releve) + '○'.repeat(e.releve), 20, 70);
+    for (const b of e.bonus) { ctx.globalAlpha = Math.max(0, 1 - b.y); ctx.fillStyle = '#1c7c3c'; ctx.font = '700 16px Poppins, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(b.mot, X(b.v), H * 0.62 - b.y * 90); ctx.globalAlpha = 1; }
     if (e.phase === 'compte') {
-      const n = Math.ceil(e.compte - 0.5); ctx.fillStyle = 'rgba(20,35,64,.7)'; ctx.beginPath(); ctx.arc(W / 2, H * 0.42, 60, 0, 7); ctx.fill();
-      ctx.fillStyle = '#ffd86b'; ctx.font = '800 54px Poppins, sans-serif'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(n > 0 ? n : 'Go !', W / 2, H * 0.42 + 2); ctx.textBaseline = 'alphabetic';
+      const n = Math.ceil(e.compte - 0.5);
+      if (e.ecoute) { ctx.fillStyle = 'rgba(20,35,64,.8)'; rond(ctx, W * 0.15, H * 0.36, W * 0.7, 54, 16); ctx.fill(); ctx.fillStyle = '#fff'; ctx.font = '600 17px Poppins, sans-serif'; ctx.textAlign = 'center'; ctx.fillText('🔊 Écoute…', W / 2, H * 0.36 + 34); }
+      else { ctx.fillStyle = 'rgba(20,35,64,.7)'; ctx.beginPath(); ctx.arc(W / 2, H * 0.42, 60, 0, 7); ctx.fill();
+        ctx.fillStyle = '#ffd86b'; ctx.font = '800 54px Poppins, sans-serif'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(n > 0 ? n : 'Go !', W / 2, H * 0.42 + 2); ctx.textBaseline = 'alphabetic'; }
     }
     if (e.bandeau > 0) {
       ctx.globalAlpha = Math.min(1, e.bandeau); ctx.fillStyle = 'rgba(20,35,64,.85)'; rond(ctx, W * 0.1, H * 0.3, W * 0.8, 58, 16); ctx.fill();
@@ -196,6 +193,9 @@ export function Course() {
     }
   }
 
+  // Compteurs hors de la piste, mis à jour 4 fois par seconde.
+  const [hud, setHud] = useState(null);
+  useEffect(() => { const id = setInterval(() => { const e = etat.current; setHud(e ? { f: Math.max(0, e.force), d: e.distance, b: BUT(e.etape), n: e.etape, r: e.releve } : null); }, 250); return () => clearInterval(id); }, []);
   const toucherEcran = (ev) => { const r = toile.current.getBoundingClientRect(); bouger(ev.clientX - r.left < r.width / 2 ? -1 : 1); };
   const glisse = useRef(null);
   const e = etat.current;
@@ -205,6 +205,12 @@ export function Course() {
       {(vue.phase === 'course' || vue.phase === 'pause') && <button class="course__musique course__pause" onClick={() => (vue.phase === 'pause' ? reprendre() : pause())}>{vue.phase === 'pause' ? '▶ Reprendre' : '⏸ Pause'}</button>}
       <button class="course__musique" aria-pressed={musique} onClick={() => modifierReglages({ musiqueJeux: !musique })}>{musique ? '🎵 Musique : oui' : '🔇 Musique : non'}</button>
       </div>
+      {hud && vue.phase !== 'debut' && <div class="course__hud">
+        <span class="course__hud-force" aria-label={`Force ${Math.round(hud.f)} %`}><b>Force</b><i><em style={{ width: hud.f + '%', background: hud.f > 35 ? '#e8b21f' : '#e2574c' }} /></i></span>
+        <span class="course__hud-txt">Étape {hud.n + 1} · {km(Math.min(hud.b, hud.d))} / {km(hud.b)}</span>
+        <span class="course__hud-croix" title="Relèvements restants">✝ {'●'.repeat(RELEVES_MAX - hud.r)}{'○'.repeat(hud.r)}</span>
+        <span class="course__hud-prog"><em style={{ width: Math.min(100, hud.d / hud.b * 100) + '%' }} /></span>
+      </div>}
       <div class="course__cadre">
         <canvas ref={toile} class="course__toile" onPointerDown={(ev) => { glisse.current = ev.clientX; }} onPointerUp={(ev) => { const d = ev.clientX - (glisse.current ?? ev.clientX); if (Math.abs(d) > 30) bouger(d < 0 ? -1 : 1); else toucherEcran(ev); }}
           aria-label="Touchez à gauche ou à droite pour changer de voie" />
@@ -227,7 +233,7 @@ export function Course() {
           <p style="font-size:2.6rem">✋</p><h2>Écoute bien</h2>
           <p>Jésus t'a déjà relevé <b>3 fois</b>. Dieu pardonne celui qui se repent. Mais le pardon n'est pas une permission de pécher : c'est une force pour <b>fuir</b> le péché.</p>
           <p class="course__verset">« Demeurerions-nous dans le péché, afin que la grâce abonde ? Loin de là ! »<small>Romains 6:1-2</small></p>
-          <button class="bouton bouton--or" onClick={() => { const e = etat.current; e.phase = 'course'; e.invincible = 3; setVue({ phase: 'course' }); }}>J'ai compris, je fuis le péché ▶</button>
+          <button class="bouton bouton--or" onClick={() => { arreterVoix(); relancer(); }}>J'ai compris, je fuis le péché ▶</button>
         </div>}
         {vue.phase === 'epuise' && <div class="course__voile course__voile--mort">
           <p class="course__cause">Jésus t'a relevé {RELEVES_MAX} fois dans cette étape.</p>
@@ -251,7 +257,8 @@ export function Course() {
         </div>}
         {vue.phase === 'mort' && <div class="course__voile course__voile--mort">
           <p class="course__cause">{vue.mot ? <>« {vue.mot} » t'a frappé.</> : 'Tu n\'avais plus de force.'}</p>
-          <p class="course__verset">« Le salaire du péché, c'est la mort ; mais le don gratuit de Dieu, c'est la vie éternelle en Jésus-Christ notre Seigneur. »<small>Romains 6:23</small></p>
+          {vue.mot ? <p class="course__verset">« Le salaire du péché, c'est la mort ; mais le don gratuit de Dieu, c'est la vie éternelle en Jésus-Christ notre Seigneur. »<small>Romains 6:23</small></p>
+            : <p class="course__verset">Sans la prière, la Parole et l'obéissance, on s'affaiblit. Attrape les boules dorées ! « Sans moi vous ne pouvez rien faire. »<small>Jean 15:5</small></p>}
           <h2>Veux-tu revivre ?</h2>
           <p>Pour continuer, il te faut Jésus.</p>
           <button class="bouton bouton--or course__jesus" onClick={revivre}>✝ Jésus, viens dans ma vie</button>
@@ -355,7 +362,11 @@ function jesus(ctx, x, y, a, t) {
   ctx.fillStyle = rb; ctx.beginPath(); ctx.moveTo(-11, -18); ctx.quadraticCurveTo(0, -23, 11, -18); ctx.lineTo(16, 30); ctx.lineTo(-16, 30); ctx.closePath(); ctx.fill();
   ctx.fillStyle = '#b3262f'; ctx.beginPath(); ctx.moveTo(-11, -18); ctx.lineTo(4, -17); ctx.lineTo(-6, 30); ctx.lineTo(-16, 30); ctx.closePath(); ctx.fill();
   ctx.fillStyle = '#8a5a3c'; ctx.beginPath(); ctx.arc(0, -28, 8.5, 0, 7); ctx.fill();
-  ctx.fillStyle = '#3b2416'; ctx.beginPath(); ctx.arc(0, -30, 9.5, Math.PI * 1.05, Math.PI * 1.95); ctx.lineTo(9, -20); ctx.lineTo(7, -26); ctx.lineTo(-7, -26); ctx.lineTo(-9, -20); ctx.fill();
-  ctx.beginPath(); ctx.moveTo(-6, -25); ctx.quadraticCurveTo(0, -14, 6, -25); ctx.fill();
+  ctx.fillStyle = '#3b2416';
+  ctx.beginPath(); ctx.arc(0, -30, 9.8, Math.PI * 1.08, Math.PI * 1.92); ctx.lineTo(7, -31); ctx.quadraticCurveTo(0, -35, -7, -31); ctx.closePath(); ctx.fill();   // cheveux sur le dessus
+  ctx.fillRect(-10, -31, 3, 12); ctx.fillRect(7, -31, 3, 12);   // cheveux sur les côtés
+  ctx.beginPath(); ctx.moveTo(-6, -23); ctx.quadraticCurveTo(0, -16, 6, -23); ctx.quadraticCurveTo(0, -20, -6, -23); ctx.fill();   // barbe courte
+  ctx.fillStyle = '#1e140c'; ctx.beginPath(); ctx.arc(-3, -28, 1.1, 0, 7); ctx.arc(3, -28, 1.1, 0, 7); ctx.fill();   // yeux
+  ctx.strokeStyle = '#5a3420'; ctx.lineWidth = 1; ctx.beginPath(); ctx.arc(0, -25, 2.2, 0.2, Math.PI - 0.2); ctx.stroke();   // sourire
   ctx.restore();
 }
