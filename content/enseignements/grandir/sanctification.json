@@ -7,7 +7,7 @@
  "resume": "Pourquoi un chrétien arrête-t-il de fumer, de mentir, de s'habiller n'importe comment ? Non pas pour être sauvé, mais parce qu'il est sauvé. La différence entre la religion et la sanctification.",
  "image": "/assets/symboles/bible-dans-la-lumiere.webp",
  "verset_de_base": "1 Th 4:3",
- "lecture_minutes": 11,
+ "lecture_minutes": 44,
  "objectifs": [
   "Comprendre ce qu'est la sanctification selon la Bible.",
   "Distinguer la sanctification de la religion et des œuvres.",
@@ -144,6 +144,301 @@
   },
   {
    "numero": "4",
+   "titre": "Des hommes que Dieu a transformés peu à peu",
+   "references": [
+    "Gn 32:24-30",
+    "Jn 21:15-19",
+    "Ac 9:1-22",
+    "Ph 1:6"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Jacob, le tricheur devenu Israël"
+    },
+    {
+     "texte": "Jacob portait un nom qui voulait dire « celui qui supplante, qui prend par le talon ». Il avait trompé son frère Ésaü, menti à son père aveugle, et passé des années à ruser contre son beau-père Laban. Dieu ne l'a pas rejeté : il l'a travaillé. La nuit où il revenait vers Ésaü, un homme a lutté avec lui jusqu'à l'aube. Quand l'homme l'a touché à la hanche, Jacob a compris qu'il ne pouvait plus lutter par ses propres forces. Il a dit : je ne te laisserai point aller, que tu ne m'aies béni. Alors Dieu lui a dit : ton nom ne sera plus Jacob, mais Israël."
+    },
+    {
+     "verset": "Gn 32:24-30"
+    },
+    {
+     "texte": "Cette boiterie accompagna Jacob toute sa vie. Quand Dieu sanctifie, il laisse souvent une trace : une humilité que l'on n'avait pas, un point faible qui nous rappelle que nous dépendons de lui. Jacob a mis des années à être transformé, mais Dieu n'avait pas abandonné."
+    },
+    {
+     "sous_titre": "Pierre, de l'impétueux à la pierre"
+    },
+    {
+     "texte": "Pierre était impulsif, plein de bonne volonté, parfois présomptueux. Il a promis à Jésus de ne jamais l'abandonner, puis il l'a renié trois fois. Après la résurrection, Jésus l'a retrouvé au bord du lac. Il lui a demandé trois fois : Simon, m'aimes-tu ? Trois fois, comme pour trois reniements. Et trois fois, Jésus lui a confié sa mission : pais mes agneaux, pais mes brebis."
+    },
+    {
+     "verset": "Jn 21:15-19"
+    },
+    {
+     "texte": "Ce Pierre-là, après la Pentecôte, a prêché avec courage devant des milliers de personnes. Plus tard, il a écrit deux lettres pleines de douceur et de sagesse. Sa sanctification a pris du temps, avec des chutes et des remises debout. Jésus ne l'a pas écarté après le reniement ; il l'a restauré."
+    },
+    {
+     "sous_titre": "Paul, de persécuteur à apôtre"
+    },
+    {
+     "texte": "Saul respirait la menace et le meurtre contre les disciples du Seigneur. Sur le chemin de Damas, il a été arrêté par la lumière de Jésus. Trois jours aveugle, puis Ananias est venu. Dieu a dit à Ananias : cet homme est un instrument que j'ai choisi, pour porter mon nom devant les nations. Saul a été baptisé, a repris des forces, et a prêché immédiatement que Jésus est le Fils de Dieu."
+    },
+    {
+     "verset": "Ac 9:1-22"
+    },
+    {
+     "texte": "Même après avoir été appelé, Paul a eu besoin de temps : l'Arabie, Tarse, Antioche, avant de partir en mission. Il écrit lui-même vers la fin de sa vie : je ne suis pas encore parvenu à la perfection. Je cours pour tâcher de saisir, puisque moi aussi j'ai été saisi par Jésus-Christ."
+    },
+    {
+     "sous_titre": "Dieu achève ce qu'il commence"
+    },
+    {
+     "texte": "Paul dit aux Philippiens : je suis persuadé que celui qui a commencé en vous cette bonne œuvre la rendra parfaite pour le jour de Jésus-Christ."
+    },
+    {
+     "verset": "Ph 1:6"
+    },
+    {
+     "texte": "Voilà un grand encouragement. Si tu te trouves lent, lourd, souvent en échec, ne perds pas courage. Dieu n'a pas fini son travail. Il le terminera."
+    }
+   ]
+  },
+  {
+   "numero": "5",
+   "titre": "Les moyens que Dieu utilise pour nous sanctifier",
+   "references": [
+    "Jn 17:17",
+    "Ps 119:9-11",
+    "Ac 2:42",
+    "Ép 5:25-27",
+    "1 Th 5:23-24"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La Parole de Dieu"
+    },
+    {
+     "texte": "Jésus a prié pour ses disciples : sanctifie-les par ta vérité : ta parole est la vérité."
+    },
+    {
+     "verset": "Jn 17:17"
+    },
+    {
+     "texte": "La Parole de Dieu est comme un bain qui lave. Quand tu la lis, la médites, l'obéis, elle te transforme. Le psalmiste demande : comment le jeune homme rendra-t-il pur son sentier ? En se dirigeant d'après ta parole."
+    },
+    {
+     "verset": "Ps 119:9-11"
+    },
+    {
+     "texte": "Plus tu l'obéis, plus tu la comprends. Un chrétien qui lit la Bible sans la mettre en pratique ne se sanctifie pas ; il accumule seulement de l'information."
+    },
+    {
+     "sous_titre": "La prière"
+    },
+    {
+     "texte": "La prière est le lieu où nous présentons à Dieu nos faiblesses. Jésus a demandé à ses disciples de veiller et de prier, afin de ne pas entrer en tentation. La prière régulière affine notre sensibilité à ce que Dieu aime ou déteste."
+    },
+    {
+     "sous_titre": "La communion fraternelle"
+    },
+    {
+     "texte": "Les premiers chrétiens persévéraient dans l'enseignement des apôtres, dans la communion fraternelle, dans la fraction du pain et dans les prières. La sanctification ne se vit pas seule. Les frères et sœurs nous corrigent, nous encouragent, nous voient mieux que nous-mêmes. Un chrétien isolé ressemble à une braise hors du feu."
+    },
+    {
+     "verset": "Ac 2:42"
+    },
+    {
+     "sous_titre": "L'Église, que Christ sanctifie"
+    },
+    {
+     "texte": "Paul dit que Christ a aimé l'Église, et s'est livré lui-même pour elle, afin de la sanctifier par la parole, après l'avoir purifiée par le baptême d'eau, afin de faire paraître devant lui cette Église glorieuse, sans tache, ni ride, ni rien de semblable, mais sainte et irréprochable."
+    },
+    {
+     "verset": "Ép 5:25-27"
+    },
+    {
+     "texte": "Christ travaille pour que son Église soit sainte. Ce n'est pas un projet humain, c'est le sien. Et il utilise des moyens que nous avons : la Parole, le baptême, la prière, la communion."
+    },
+    {
+     "sous_titre": "Dieu lui-même"
+    },
+    {
+     "texte": "Paul termine sa lettre aux Thessaloniciens par cette prière : que le Dieu de paix vous sanctifie lui-même tout entier, et que tout votre être, l'esprit, l'âme et le corps, soit conservé sans reproche, lors de l'avènement de notre Seigneur Jésus-Christ ! Celui qui vous a appelés est fidèle, et c'est lui qui le fera."
+    },
+    {
+     "verset": "1 Th 5:23-24"
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Le combat de la chair et de l'Esprit",
+   "references": [
+    "Ro 7:15-25",
+    "Ro 8:1-14",
+    "Ga 5:16-25",
+    "1 Jn 1:8-10"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Paul avoue son combat"
+    },
+    {
+     "texte": "Beaucoup de chrétiens sont découragés parce qu'ils combattent contre leurs propres désirs. Ils se disent : « Si j'étais vraiment sauvé, je n'aurais pas ces pensées. » Paul décrit un combat intérieur très honnête dans la lettre aux Romains : je ne comprends rien à ce que je fais : je ne fais pas ce que je veux, et je fais ce que je hais. Le bien que je veux, je ne le fais pas, et le mal que je ne veux pas, je le fais. Misérable que je suis ! Qui me délivrera du corps de cette mort ? Grâces soient rendues à Dieu par Jésus-Christ notre Seigneur !"
+    },
+    {
+     "verset": "Ro 7:15-25"
+    },
+    {
+     "texte": "Paul n'a pas honte d'avouer cette lutte. Il ne dit pas qu'elle disparaît quand on devient chrétien. Mais il ajoute immédiatement : il n'y a donc maintenant aucune condamnation pour ceux qui sont en Jésus-Christ. Car la loi de l'Esprit de vie en Jésus-Christ m'a affranchi de la loi du péché et de la mort."
+    },
+    {
+     "verset": "Ro 8:1-14"
+    },
+    {
+     "sous_titre": "Marcher par l'Esprit"
+    },
+    {
+     "texte": "La réponse de Paul au combat n'est pas de se battre plus fort avec sa volonté, mais de marcher par l'Esprit : marchez selon l'Esprit, et vous n'accomplirez pas les désirs de la chair. Car la chair a des désirs contraires à ceux de l'Esprit, et l'Esprit en a de contraires à ceux de la chair ; ils sont opposés entre eux, afin que vous ne fassiez point ce que vous voudriez."
+    },
+    {
+     "verset": "Ga 5:16-25"
+    },
+    {
+     "texte": "Imagine une balançoire. Si tu veux que la chair baisse, il faut faire monter l'Esprit. Plus tu nourris l'esprit par la Parole, la prière et la communion, moins la chair a de force. Plus tu nourris la chair par des images, des conversations et des habitudes, plus elle devient forte. Les anciens disaient : « Il y a deux chiens en moi : un bon et un mauvais. Celui qui gagne est celui que je nourris. »"
+    },
+    {
+     "sous_titre": "Ne pas se dire sans péché"
+    },
+    {
+     "texte": "Jean écrit avec réalisme : si nous disons que nous n'avons pas de péché, nous nous séduisons nous-mêmes, et la vérité n'est point en nous. Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et pour nous purifier de toute iniquité."
+    },
+    {
+     "verset": "1 Jn 1:8-10"
+    },
+    {
+     "texte": "Le chemin de la sanctification est fait de confessions. Chaque fois que tu tombes, tu confesses, tu reçois le pardon, tu te relèves. Ne te cache pas. Ne te raconte pas d'histoires. Plus vite tu confesses, plus vite tu es relevé."
+    },
+    {
+     "texte": "On raconte l'histoire d'un jeune frère qui luttait contre un mensonge habituel. Il mentait pour des petites choses : un retard, un oubli, une dépense. Il se condamnait chaque fois. Un frère plus âgé lui a conseillé : « Ne te dis pas : je ne mentirai plus jamais. Dis seulement : aujourd'hui, avec l'aide de Dieu, je dirai la vérité. Et quand tu mens, dis-le à Dieu dans l'instant, et corrige-le auprès de la personne. » En quelques mois, il a remarqué que le mensonge diminuait. Un jour, il a dit : « Je ne suis pas encore parfait, mais je suis plus vrai qu'avant. »"
+    }
+   ]
+  },
+  {
+   "numero": "7",
+   "titre": "Quand Dieu corrige",
+   "references": [
+    "Hé 12:5-11",
+    "Pr 3:11-12",
+    "Jn 15:1-8",
+    "Ap 3:19"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La discipline d'un père"
+    },
+    {
+     "texte": "L'épître aux Hébreux explique : mon fils, ne méprise pas le châtiment du Seigneur, et ne perds pas courage quand il te reprend ; car le Seigneur châtie celui qu'il aime, et il frappe de la verge tous ceux qu'il reconnaît pour ses fils. Dieu vous traite comme des fils. Quel est le fils qu'un père ne châtie pas ? Pour le moment, tout châtiment semble être un sujet de tristesse, et non de joie ; mais plus tard il produit un fruit paisible de justice pour ceux qui ont été ainsi exercés."
+    },
+    {
+     "verset": "Hé 12:5-11"
+    },
+    {
+     "texte": "La correction de Dieu n'est pas de la colère contre nous, mais un signe d'amour. Dieu corrige ses enfants pour qu'ils portent du fruit. Elle peut prendre plusieurs formes : une parole d'un frère, une conviction intérieure, une conséquence naturelle de notre péché, parfois une épreuve qui nous fait réfléchir."
+    },
+    {
+     "verset": "Pr 3:11-12"
+    },
+    {
+     "texte": "Dieu ne dit pas que toute souffrance est une correction. Certaines épreuves viennent d'autres causes. Mais quand tu souffres, demande-toi : « Seigneur, y a-t-il quelque chose que tu veux me montrer ? » Parfois la réponse est oui."
+    },
+    {
+     "sous_titre": "La vigne et le vigneron"
+    },
+    {
+     "texte": "Jésus a décrit le travail de Dieu avec l'image de la vigne : je suis le vrai cep, et mon Père est le vigneron. Tout sarment qui est en moi et qui ne porte pas de fruit, il le retranche ; et tout sarment qui porte du fruit, il l'émonde, afin qu'il en porte davantage."
+    },
+    {
+     "verset": "Jn 15:1-8"
+    },
+    {
+     "texte": "Émonder, c'est couper des branches vivantes, pour que d'autres portent plus de fruit. Cela fait mal à la vigne. Mais le vigneron ne le fait pas pour détruire, il le fait pour que la vigne produise plus. Si Dieu est en train de couper quelque chose dans ta vie, il pense à la récolte."
+    },
+    {
+     "sous_titre": "Soyez zélé et repentez-vous"
+    },
+    {
+     "texte": "Jésus dit à l'église de Laodicée : moi, je reprends et je châtie tous ceux que j'aime. Aie donc du zèle, et repens-toi."
+    },
+    {
+     "verset": "Ap 3:19"
+    },
+    {
+     "texte": "La bonne réponse à la correction n'est pas la révolte ni le découragement. C'est la repentance. Dis : « Seigneur, tu as raison. Change-moi. »"
+    }
+   ]
+  },
+  {
+   "numero": "8",
+   "titre": "La sainteté dans la vie de tous les jours",
+   "references": [
+    "Col 3:17-23",
+    "1 P 1:13-16",
+    "Ep 4:25-32",
+    "Ph 2:14-16"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Là où tu es"
+    },
+    {
+     "texte": "On pense parfois que la sainteté est réservée aux pasteurs, aux missionnaires ou à ceux qui prient des heures. Mais Paul dit aux esclaves, c'est-à-dire aux gens qui travaillaient durement : tout ce que vous faites, faites-le de bon cœur, comme pour le Seigneur et non pour des hommes. La sainteté se vit dans le travail, dans l'école, dans la cuisine, au marché, au volant d'un taxi."
+    },
+    {
+     "verset": "Col 3:17-23"
+    },
+    {
+     "texte": "Un chrétien saint est un chrétien qui ne triche pas à l'examen, qui paie ses impôts, qui rend l'argent trouvé, qui ne vole pas son employeur en arrivant tard, qui ne se moque pas des plus faibles, qui traite sa femme avec respect, qui ne profite pas de sa position pour abuser des autres."
+    },
+    {
+     "sous_titre": "Des paroles qui édifient"
+    },
+    {
+     "texte": "Paul donne des instructions pratiques : c'est pourquoi, renoncez au mensonge, et que chacun de vous parle selon la vérité à son prochain. Si vous vous mettez en colère, ne péchez point. Que le soleil ne se couche pas sur votre colère. Que celui qui volait ne vole plus. Qu'il travaille de ses mains pour avoir de quoi donner à celui qui est dans le besoin. Qu'il ne sorte de votre bouche aucune parole mauvaise, mais, quand il y a lieu, quelque bonne parole, qui serve à l'édification et communique une grâce à ceux qui l'entendent."
+    },
+    {
+     "verset": "Ep 4:25-32"
+    },
+    {
+     "texte": "Sainteté ne veut pas dire seulement éviter des péchés visibles, mais aussi changer de paroles, de réactions, de manière de traiter les autres."
+    },
+    {
+     "sous_titre": "Briller comme des flambeaux"
+    },
+    {
+     "texte": "Paul écrit aux Philippiens : faites toutes choses sans murmures ni hésitations, afin que vous soyez irréprochables et purs, des enfants de Dieu irréprochables au milieu d'une génération perverse et corrompue, parmi laquelle vous brillez comme des flambeaux dans le monde."
+    },
+    {
+     "verset": "Ph 2:14-16"
+    },
+    {
+     "texte": "La sainteté n'est pas faite pour être cachée. Elle brille. Les gens voient un chrétien qui ne se plaint pas, qui pardonne, qui reste honnête quand tout le monde triche, et ils se demandent pourquoi. C'est l'occasion de parler de Jésus."
+    },
+    {
+     "sous_titre": "Être saint comme il est saint"
+    },
+    {
+     "texte": "Pierre écrit : c'est pourquoi, ayant les reins de votre entendement ceints, soyez sobres, et mettez toute votre espérance dans la grâce qui vous sera apportée, lorsque Jésus-Christ apparaîtra. Comme des enfants obéissants, ne vous conformez pas aux convoitises que vous aviez autrefois, dans votre ignorance ; mais, puisque celui qui vous a appelés est saint, vous aussi soyez saints dans toute votre conduite, selon qu'il est écrit : vous serez saints, car je suis saint."
+    },
+    {
+     "verset": "1 P 1:13-16"
+    },
+    {
+     "texte": "Pour terminer, ne te décourage pas devant l'ampleur du chemin. La sainteté est un processus, une marche, un travail de Dieu. Chaque jour, fais un pas : confesse, obéis, pardonne, parle avec vérité, prie, lis. Dieu est à l'œuvre. Il a commencé, et il achèvera."
+    }
+   ]
+  },
+  {
+   "numero": "9",
    "titre": "Dieu va plus loin que nous ne pensons",
    "references": [
     "Ps 139:23-24",
@@ -244,7 +539,73 @@
    ],
    "reponse": 1,
    "explication": "La sanctification est progressive : nous sommes transformés de gloire en gloire. (2 Corinthiens 3:18)",
+   "section": "9"
+  },
+  {
+   "question": "Que montre l'histoire de Jacob à Péniel ?",
+   "choix": [
+    "Que Dieu rejette les tricheurs",
+    "Que Dieu transforme peu à peu, et qu'il laisse parfois une trace qui nous garde humbles",
+    "Que la lutte est inutile"
+   ],
+   "reponse": 1,
+   "explication": "Genèse 32:24-30.",
    "section": "4"
+  },
+  {
+   "question": "Qu'a fait Jésus avec Pierre après son reniement ?",
+   "choix": [
+    "Il l'a rejeté",
+    "Il l'a restauré en lui demandant trois fois « m'aimes-tu ? » et en lui confiant sa mission",
+    "Il l'a puni"
+   ],
+   "reponse": 1,
+   "explication": "Jean 21:15-19.",
+   "section": "4"
+  },
+  {
+   "question": "Quels sont les moyens que Dieu utilise pour nous sanctifier ?",
+   "choix": [
+    "Seulement l'effort",
+    "La Parole, la prière, la communion fraternelle, l'Église, et Dieu lui-même",
+    "Les cérémonies"
+   ],
+   "reponse": 1,
+   "explication": "Jean 17:17 ; Actes 2:42.",
+   "section": "5"
+  },
+  {
+   "question": "Comment Paul répond-il au combat de la chair ?",
+   "choix": [
+    "En se battant plus fort avec sa volonté",
+    "En marchant par l'Esprit, car « il n'y a plus de condamnation »",
+    "En fuyant l'Église"
+   ],
+   "reponse": 1,
+   "explication": "Romains 8:1 ; Galates 5:16.",
+   "section": "6"
+  },
+  {
+   "question": "Pourquoi Dieu corrige-t-il ses enfants ?",
+   "choix": [
+    "Par colère",
+    "Par amour, afin qu'ils portent un fruit paisible de justice",
+    "Pour les humilier"
+   ],
+   "reponse": 1,
+   "explication": "Hébreux 12:5-11.",
+   "section": "7"
+  },
+  {
+   "question": "Où se vit la sainteté, selon Colossiens 3:23 ?",
+   "choix": [
+    "Seulement à l'église",
+    "Partout, dans le travail ordinaire, comme pour le Seigneur",
+    "Dans le désert"
+   ],
+   "reponse": 1,
+   "explication": "La sainteté touche le travail, la famille, la parole.",
+   "section": "8"
   }
  ],
  "devoir": [
