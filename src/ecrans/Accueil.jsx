@@ -31,7 +31,7 @@ export function Accueil() {
           <span class="pastille pastille--or verset-jour__pastille"><Icone nom="calendrier" taille={16} /> <span id="vj">Verset du jour</span></span>
           <TextePassage etat={etat} />
           {etat.ref && <a class="pastille pastille--ref" href={'#/' + cheminMontrer(etat.ref)}>{ecrireReference(etat.ref)}</a>}
-          {etat.texte && <button class="lien" style="display:block;margin:8px auto 0" onClick={() => partagerImageVerset({ texte: etat.texte, reference: ecrireReference(etat.ref) })}>📷 Partager en image</button>}
+          {etat.texte && <button class="lien" style="display:flex;align-items:center;gap:6px;margin:8px auto 0" onClick={() => partagerImageVerset({ texte: etat.texte, reference: ecrireReference(etat.ref) })}><Icone nom="partager" taille={16} /> Partager en image</button>}
         </section>
 
         <h2 class="titre-section sous-rubrique">Pour aujourd'hui</h2>
