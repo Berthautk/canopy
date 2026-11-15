@@ -1,122 +1,527 @@
 {
  "id": "enseignement-evangelisation",
  "titre": "Le secret de l'évangélisation",
- "theme": "Évangélisation",
  "serie": "L'Arsenal de la Sentinelle",
- "resume": "Condition première : être un vrai disciple",
+ "theme": "Évangélisation",
+ "auteur": "L'Arsenal de la Sentinelle",
+ "resume": "Pourquoi l'évangélisation efficace commence par l'évangéliste lui-même. Comment devenir un disciple brisé, rempli de l'Esprit, et comment présenter l'Évangile simplement, avec amour, en laissant Dieu donner la croissance.",
  "image": "/assets/evangelisation/partage-bible-dans-la-rue.webp",
- "verset_de_base": "Matthieu 28:19",
+ "verset_de_base": "Mt 28:19",
+ "lecture_minutes": 33,
  "objectifs": [
-  "Comprendre que l'évangélisation découle d'abord d'une vie transformée",
-  "Identifier la condition première : être né de nouveau et brisé",
-  "Maîtriser une présentation claire et complète de l'Évangile",
-  "Appliquer les principes d'une évangélisation efficace et fructueuse"
+  "Comprendre que l'évangélisation est le débordement d'une vie qui a rencontré Jésus.",
+  "Savoir pourquoi l'évangéliste doit être brisé, né de nouveau et rempli de l'Esprit.",
+  "Apprendre à présenter l'Évangile en cinq étapes simples.",
+  "Connaître les principes d'une évangélisation efficace : prière, adaptation, témoignage, patience."
  ],
- "introduction": "Jésus dit : « Allez, faites de toutes les nations des disciples » (Matthieu 28:19). L'évangélisation efficace ne peut venir que de quelqu'un qui est lui-même un disciple — c'est-à-dire une personne brisée, transformée, brûlant de la présence de Dieu et motivée uniquement par l'amour des âmes.",
+ "introduction": "Jésus a donné à ses disciples un ordre avant de monter au ciel : allez, faites de toutes les nations des disciples. Cet ordre ne s'adresse pas seulement aux pasteurs, aux évangélistes à plein temps ou aux missionnaires. Il s'adresse à tous ceux qui ont été sauvés. Mais beaucoup de chrétiens se sentent mal à l'aise quand on parle d'évangélisation. Certains ont peur de ne pas savoir quoi dire. D'autres ont essayé et se sont découragés devant les refus. D'autres encore ont vu des évangélistes agressifs, qui crient dans la rue en jugeant tout le monde, et ils se disent : « Ce n'est pas pour moi. »\n\nIl existe pourtant un secret simple, que beaucoup de personnes qui évangélisent avec fruit ont découvert. Ce secret, ce n'est pas une méthode ou un programme, c'est l'évangéliste lui-même. Dieu a choisi de se servir de personnes. Le message est toujours le même, mais le messager compte beaucoup. Dans cet enseignement, nous allons voir comment devenir un témoin que Dieu peut utiliser, comment présenter l'Évangile avec simplicité, et comment rester patient en attendant que Dieu fasse son œuvre.",
  "sections": [
   {
    "numero": "1",
-   "titre": "Définition — qu'est-ce qu'évangéliser ?",
+   "titre": "Qu'est-ce qu'évangéliser ?",
    "references": [
-    "Marc 16:15",
-    "Romains 10:14-15",
-    "Actes 1:8"
+    "Mc 16:15",
+    "Ro 10:13-15",
+    "Ac 1:8",
+    "Mt 28:19-20"
    ],
    "blocs": [
     {
-     "texte": "Évangéliser, c'est annoncer la bonne nouvelle du salut en Jésus-Christ à ceux qui ne le connaissent pas encore, afin qu'ils se repentent, croient et reçoivent la vie éternelle."
+     "sous_titre": "Annoncer une bonne nouvelle"
     },
     {
-     "texte": "Ce n'est pas d'abord une technique ni un programme : c'est le débordement naturel d'une vie qui a rencontré Christ. On ne peut donner que ce que l'on a soi-même reçu."
+     "texte": "Évangéliser, c'est annoncer la bonne nouvelle du salut en Jésus-Christ à ceux qui ne le connaissent pas encore, afin qu'ils se repentent, croient et reçoivent la vie éternelle. Le mot « évangile » veut dire « bonne nouvelle ». Pense à ce que ressent quelqu'un qui reçoit une bonne nouvelle : la naissance d'un enfant, la réussite à un examen, la guérison d'un parent. Il ne peut pas la garder pour lui. Il court la dire."
     },
     {
-     "verset": "Actes 1:8"
+     "texte": "Jésus a dit : allez par tout le monde, et prêchez la bonne nouvelle à toute la création."
     },
     {
-     "texte": "L'évangélisation authentique commence donc par l'évangéliste lui-même : sa rencontre avec Christ et la puissance de l'Esprit en lui."
+     "verset": "Mc 16:15"
+    },
+    {
+     "sous_titre": "Comment croire sans avoir entendu ?"
+    },
+    {
+     "texte": "Paul pose une suite de questions logiques : comment invoqueront-ils celui en qui ils n'ont pas cru ? Et comment croiront-ils en celui dont ils n'ont pas entendu parler ? Et comment en entendront-ils parler, s'il n'y a personne qui prêche ? Et comment prêchera-t-on, si l'on n'est pas envoyé ? Selon qu'il est écrit : qu'ils sont beaux les pieds de ceux qui annoncent la paix, de ceux qui annoncent de bonnes nouvelles !"
+    },
+    {
+     "verset": "Ro 10:13-15"
+    },
+    {
+     "texte": "Dieu aurait pu confier l'Évangile aux anges. Il a choisi de le confier à des hommes et à des femmes. Chaque personne sauvée l'a été parce que quelqu'un, un jour, lui a parlé de Jésus. Qui t'a parlé de Jésus ? Peut-être ta mère, un voisin, un enseignant, un inconnu à un arrêt de bus. Et toi, à qui as-tu parlé de Jésus ?"
+    },
+    {
+     "sous_titre": "Pas d'abord une technique"
+    },
+    {
+     "texte": "On pense parfois que l'évangélisation est une technique à apprendre, un discours à réciter, un programme d'église. Les techniques sont utiles, mais ce n'est pas le plus important. L'évangélisation, c'est le débordement naturel d'une vie qui a rencontré Christ. On ne peut donner que ce que l'on a soi-même reçu. Un puits vide ne peut donner de l'eau à personne."
+    },
+    {
+     "texte": "Avant de monter au ciel, Jésus a dit : vous recevrez une puissance, le Saint-Esprit survenant sur vous, et vous serez mes témoins à Jérusalem, dans toute la Judée, dans la Samarie, et jusqu'aux extrémités de la terre."
+    },
+    {
+     "verset": "Ac 1:8"
+    },
+    {
+     "texte": "Remarque le cercle qui s'élargit : Jérusalem, la ville de départ, puis la Judée, la région, puis la Samarie, un peuple différent et méprisé, puis le monde entier. Pour toi, Jérusalem, c'est ta famille et ton quartier. La Judée, c'est ta ville et ta région. La Samarie, ce sont ceux qui sont différents de toi : une autre tribu, une autre religion, une autre classe sociale. Et les extrémités de la terre, ce sont les peuples qui n'ont jamais entendu parler de Jésus."
     }
    ]
   },
   {
    "numero": "2",
-   "titre": "Condition première : être né(e) de nouveau et brisé(e)",
+   "titre": "La condition première : le disciple lui-même",
    "references": [
-    "Jean 4:1-42",
-    "Luc 24:44-49",
-    "Actes 1:8"
+    "Jn 4:1-42",
+    "Lc 24:46-49",
+    "Ps 51:19",
+    "Ga 2:20"
    ],
-   "transition": "Puisque l'évangélisation jaillit d'une vie transformée, examinons la condition de cœur qui rend le témoignage authentique et puissant.",
    "blocs": [
     {
-     "texte": "L'évangéliste doit d'abord avoir rencontré Jésus personnellement — comme la Samaritaine en Jean 4. Sans cette rencontre, il ne peut témoigner avec authenticité."
+     "sous_titre": "Évangéliser avec ce que l'on a vécu"
     },
     {
-     "texte": "Être brisé(e) signifie être libéré(e) de la suffisance de soi. C'est cette brisure qui fait l'authenticité et la puissance du témoignage."
+     "texte": "Jésus a dit : faites de toutes les nations des disciples. Remarque qu'il ne dit pas : faites des convertis, ni des membres d'église. Il dit : des disciples. Et il ne peut y avoir de disciples que par des disciples. Pour faire des disciples, il faut en être un."
     },
     {
-     "texte": "L'Esprit-Saint doit précéder et accompagner tout effort d'évangélisation — Jésus dit à ses disciples d'attendre la puissance d'en haut avant d'aller (Luc 24:49 · Actes 1:8)."
+     "texte": "Prenons l'exemple de la femme samaritaine, en Jean 4. Elle était une femme à la réputation douteuse, qui avait eu cinq maris et vivait avec un sixième homme. Elle est allée puiser de l'eau au milieu de la journée pour éviter les regards. Jésus lui a parlé, lui a révélé sa vie, et lui a parlé de l'eau vive. Elle a laissé sa cruche, est retournée à la ville, et a dit à tout le monde : venez voir un homme qui m'a dit tout ce que j'ai fait. Ne serait-ce point le Christ ?"
+    },
+    {
+     "verset": "Jn 4:1-42"
+    },
+    {
+     "texte": "Elle n'avait pas fait d'études bibliques. Elle ne connaissait pas toute la doctrine. Mais elle avait rencontré Jésus. Et beaucoup de Samaritains de cette ville crurent en lui à cause de la parole de la femme. Voilà la puissance d'un témoignage vrai."
+    },
+    {
+     "sous_titre": "Être brisé"
+    },
+    {
+     "texte": "Le roi David a écrit : les sacrifices agréables à Dieu, c'est un esprit brisé ; ô Dieu, tu ne dédaignes pas un cœur brisé et contrit."
+    },
+    {
+     "verset": "Ps 51:19"
+    },
+    {
+     "texte": "Qu'est-ce qu'être brisé ? C'est être débarrassé de la suffisance de soi. Un homme brisé ne se croit pas meilleur que ceux à qui il parle. Il sait d'où Dieu l'a tiré. Il se souvient qu'il était perdu, et que c'est par la grâce qu'il a été sauvé. Quand il parle d'un pécheur, ce n'est pas avec du mépris, mais avec de la compassion."
+    },
+    {
+     "texte": "Il y a une grande différence entre quelqu'un qui dit : « Toi, tu es un pécheur, repens-toi ! » et quelqu'un qui dit : « J'étais comme toi, perdu, et Jésus m'a sauvé. Il peut aussi te sauver. » Le premier fait fuir, le second attire."
+    },
+    {
+     "sous_titre": "Né de nouveau et rempli de l'Esprit"
+    },
+    {
+     "texte": "Avant d'envoyer ses disciples, Jésus leur a dit : vous êtes témoins de ces choses. Et voici, j'enverrai sur vous ce que mon Père a promis ; mais vous, restez dans la ville jusqu'à ce que vous soyez revêtus de la puissance d'en haut."
+    },
+    {
+     "verset": "Lc 24:46-49"
+    },
+    {
+     "texte": "Les disciples n'ont pas commencé à évangéliser tout de suite. Ils ont attendu le Saint-Esprit. Tout effort d'évangélisation dans la force humaine est limité. Mais quand le Saint-Esprit agit, il convainc de péché, il ouvre les cœurs, il donne les mots justes."
+    },
+    {
+     "texte": "Paul a dit : j'ai été crucifié avec Christ ; et si je vis, ce n'est plus moi qui vis, c'est Christ qui vit en moi."
+    },
+    {
+     "verset": "Ga 2:20"
+    },
+    {
+     "texte": "Voilà le secret : quand Christ vit en moi, ce n'est plus moi qui parle, c'est lui qui parle à travers moi."
+    },
+    {
+     "texte": "On raconte l'histoire d'un jeune homme très instruit, qui avait suivi plusieurs formations d'évangélisation. Il connaissait tous les arguments, toutes les réponses aux objections. Mais il restait sans fruit. Un vieil évangéliste lui a demandé : « Combien de temps passes-tu en prière avant de parler à quelqu'un ? » Il a répondu : « Je prie en route. » Le vieil homme lui a dit : « Je te demande de prier une heure par jour, pendant un mois, pour trois personnes précises, avant de leur parler. » Il a obéi. À la fin du mois, ces trois personnes sont venues vers lui, pour lui poser des questions sur sa foi. Il disait plus tard : « Avant, je voulais convaincre. Maintenant, j'écoute, et Dieu convainc. »"
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "La présentation du disciple",
+   "titre": "Présenter l'Évangile en cinq étapes",
    "references": [
-    "Romains 3:23",
-    "Jean 3:16",
-    "1 Jean 1:9"
+    "Ro 3:23",
+    "Ro 6:23",
+    "Jn 3:16",
+    "1 Co 15:3-4",
+    "Jn 1:12",
+    "1 Jn 1:9",
+    "Mc 1:15"
    ],
-   "transition": "Le cœur est prêt ; il faut maintenant un message clair. Voici comment présenter l'Évangile avec ordre et fidélité.",
    "blocs": [
     {
-     "texte": "1. Les faits du péché — présenter la réalité du péché et sa séparation d'avec Dieu (Romains 3:23 · Ésaïe 59:2)."
+     "sous_titre": "Pourquoi un plan simple ?"
     },
     {
-     "texte": "2. La conséquence du péché — la mort spirituelle et le jugement (Romains 6:23 · Hébreux 9:27)."
+     "texte": "Beaucoup de gens aimeraient évangéliser mais ne savent pas par où commencer. Un plan simple aide à ne pas se perdre. Ce n'est pas un discours à réciter comme un robot, mais une direction. Voici cinq étapes."
     },
     {
-     "texte": "3. La voie de sortie : l'amour de Dieu manifesté dans la mort et la résurrection du Christ (Jean 3:16 · 1 Corinthiens 15:3-4)."
+     "sous_titre": "Étape 1 : le péché"
     },
     {
-     "texte": "4. La réponse du pécheur : se repentir (Marc 1:14), confesser son péché (1 Jean 1:9), recevoir Christ (Jean 1:12)."
+     "texte": "Il faut commencer par la mauvaise nouvelle : tous ont péché. Paul écrit : tous ont péché et sont privés de la gloire de Dieu."
     },
     {
-     "texte": "5. Les suites : le baptême, l'exhortation à fuir le vieil homme, la communion fraternelle dans une assemblée locale."
+     "verset": "Ro 3:23"
+    },
+    {
+     "texte": "Le péché n'est pas seulement les grandes fautes comme le meurtre ou le vol. C'est ne pas vivre comme Dieu le veut : mensonge, colère, convoitise, désobéissance, orgueil, indifférence envers Dieu. Ésaïe dit que ce sont nos iniquités qui ont mis une séparation entre nous et notre Dieu."
+    },
+    {
+     "texte": "Pour que quelqu'un comprenne qu'il a besoin d'un Sauveur, il doit d'abord reconnaître qu'il est perdu. Un malade qui ne sait pas qu'il est malade ne cherche pas de médecin. Pose des questions simples : « As-tu déjà menti ? As-tu déjà pris ce qui ne t'appartenait pas ? » Souvent, la conscience répond avant la bouche."
+    },
+    {
+     "sous_titre": "Étape 2 : la conséquence du péché"
+    },
+    {
+     "texte": "Le péché a une conséquence : la mort spirituelle, la séparation d'avec Dieu, et le jugement. Paul dit : le salaire du péché, c'est la mort."
+    },
+    {
+     "verset": "Ro 6:23"
+    },
+    {
+     "texte": "Il faut dire cette vérité avec douceur, mais sans l'adoucir. Si on supprime la gravité du péché, la croix perd son sens. Dire la vérité avec amour, c'est dire à quelqu'un qu'une maison est en feu pour qu'il en sorte à temps, pas lui parler de la couleur des rideaux."
+    },
+    {
+     "sous_titre": "Étape 3 : la bonne nouvelle"
+    },
+    {
+     "texte": "Et voici la bonne nouvelle : Dieu a aimé le monde à tel point qu'il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu'il ait la vie éternelle."
+    },
+    {
+     "verset": "Jn 3:16"
+    },
+    {
+     "texte": "Paul résume l'Évangile ainsi : Christ est mort pour nos péchés, selon les Écritures ; il a été enseveli, et il est ressuscité le troisième jour, selon les Écritures."
+    },
+    {
+     "verset": "1 Co 15:3-4"
+    },
+    {
+     "texte": "Jésus a pris sur lui la punition que nous méritions. Sa résurrection montre que le paiement a été accepté."
+    },
+    {
+     "sous_titre": "Étape 4 : la réponse"
+    },
+    {
+     "texte": "Que doit faire celui qui entend ? Jésus a dit : le temps est accompli, et le royaume de Dieu est proche : repentez-vous, et croyez à la bonne nouvelle."
+    },
+    {
+     "verset": "Mc 1:15"
+    },
+    {
+     "texte": "Se repentir, c'est changer de direction, se détourner du péché. Croire, c'est faire confiance à Jésus, le recevoir. Jean écrit : mais à tous ceux qui l'ont reçu, à ceux qui croient en son nom, il a donné le pouvoir de devenir enfants de Dieu."
+    },
+    {
+     "verset": "Jn 1:12"
+    },
+    {
+     "texte": "Et si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner."
+    },
+    {
+     "verset": "1 Jn 1:9"
+    },
+    {
+     "texte": "À ce moment, tu peux inviter la personne à prier avec toi, une prière simple, avec ses propres mots : reconnaître son péché, demander pardon, inviter Jésus dans sa vie."
+    },
+    {
+     "sous_titre": "Étape 5 : les suites"
+    },
+    {
+     "texte": "Une conversion n'est pas la fin, mais le début. Il faut encourager la nouvelle personne à se faire baptiser, à lire la Bible, à prier, à rejoindre une assemblée locale où elle pourra grandir, et à fuir les anciennes habitudes. C'est ce qu'on appelle faire des disciples. Beaucoup de conversions ne tiennent pas parce que personne n'accompagne le nouveau converti. Prends son numéro. Prie pour lui. Invite-le à l'église. Marche avec lui."
     }
    ]
   },
   {
    "numero": "4",
-   "titre": "Les principes clés de l'évangélisation efficace",
+   "titre": "Les principes d'une évangélisation efficace",
    "references": [
-    "1 Corinthiens 9:22",
-    "Luc 10:2",
-    "1 Corinthiens 3:6"
+    "Lc 10:2",
+    "1 Co 9:19-23",
+    "Ap 12:11",
+    "1 Co 3:6-7"
    ],
-   "transition": "Que ces principes éprouvés rendent ton témoignage fécond, et que Dieu t'accorde la joie de voir des âmes naître à la vie.",
    "blocs": [
     {
-     "texte": "Prie d'abord pour le terrain spirituel — c'est la prière qui prépare les cœurs (Luc 10:2)."
+     "sous_titre": "Prier d'abord"
     },
     {
-     "texte": "Sois tout à tous — adapte ton approche à ton interlocuteur sans trahir l'Évangile (1 Corinthiens 9:22)."
+     "texte": "Jésus a dit : la moisson est grande, mais il y a peu d'ouvriers. Priez donc le maître de la moisson d'envoyer des ouvriers dans sa moisson."
     },
     {
-     "texte": "Raconte ton témoignage personnel — c'est l'arme la plus inattaquable (Apocalypse 12:11)."
+     "verset": "Lc 10:2"
     },
     {
-     "texte": "Plante, arrose, et laisse Dieu faire croître — ne force pas les décisions immédiates (1 Corinthiens 3:6)."
+     "texte": "Avant d'aller vers les gens, va vers Dieu pour eux. Prie pour la personne par son nom. Prie pour que Dieu ouvre son cœur. Prie aussi pour toi : pour avoir l'audace, la sagesse, et l'amour. La prière prépare le terrain, comme le cultivateur qui défriche avant de semer."
+    },
+    {
+     "sous_titre": "Être tout à tous"
+    },
+    {
+     "texte": "Paul dit : bien que je sois libre à l'égard de tous, je me suis rendu l'esclave de tous, afin de gagner le plus grand nombre. J'ai été comme un Juif avec les Juifs, comme sujet de la loi avec ceux qui sont sous la loi. Je me suis fait tout à tous, afin d'en sauver de toute manière quelques-uns."
+    },
+    {
+     "verset": "1 Co 9:19-23"
+    },
+    {
+     "texte": "Cela veut dire adapter ton approche à ton interlocuteur, sans jamais changer le message. On ne parle pas de la même façon à un enfant, à un universitaire, à un musulman, à un fétichiste, à un athée, à une personne en deuil. Il faut écouter avant de parler. Pose des questions. Découvre ses peurs, ses espoirs, ses blessures. Puis montre comment Jésus répond à ce besoin."
+    },
+    {
+     "sous_titre": "Raconter son témoignage"
+    },
+    {
+     "texte": "L'Apocalypse dit que les croyants ont vaincu à cause du sang de l'Agneau et à cause de la parole de leur témoignage."
+    },
+    {
+     "verset": "Ap 12:11"
+    },
+    {
+     "texte": "Ton témoignage personnel est l'arme la plus difficile à contester. Quelqu'un peut discuter de théologie pendant des heures, mais il ne peut pas dire que ton expérience est fausse. Prépare ton témoignage en trois parties : comment j'étais avant, comment j'ai rencontré Jésus, ce qu'il a changé. Entraîne-toi à le dire en trois minutes."
+    },
+    {
+     "sous_titre": "Planter, arroser, laisser Dieu donner la croissance"
+    },
+    {
+     "texte": "Paul résume bien la division du travail : moi, j'ai planté, Apollos a arrosé, mais Dieu a fait croître. Ainsi, ni celui qui plante, ni celui qui arrose, n'est quelque chose, mais Dieu qui fait croître."
+    },
+    {
+     "verset": "1 Co 3:6-7"
+    },
+    {
+     "texte": "Beaucoup d'évangélistes sont découragés parce qu'ils veulent voir un résultat immédiat. Mais ton rôle est de semer fidèlement. Parfois, tu sèmes dans le cœur de quelqu'un, et c'est un autre qui récolte, des années plus tard. Ne force jamais une décision. Une fausse conversion arrachée sous la pression ne dure pas."
+    },
+    {
+     "texte": "On raconte l'histoire d'une vendeuse de légumes au marché. Chaque semaine, elle offrait à une cliente, une femme très dure, une petite part de légumes en plus et lui disait : « Que Dieu te bénisse. » Pendant trois ans, elle n'a jamais prêché. Un jour, la cliente est revenue en pleurs, parce que son mari venait de mourir, et lui a dit : « Tu es la seule personne qui m'ait jamais souhaité du bien sans rien demander. Parle-moi de ton Dieu. » La vendeuse a pu partager l'Évangile ce jour-là, et la femme s'est convertie. Trois ans de semence silencieuse avaient préparé le terrain."
+    }
+   ]
+  },
+  {
+   "numero": "5",
+   "titre": "Les obstacles et comment les vaincre",
+   "references": [
+    "2 Ti 1:7-8",
+    "Pr 29:25",
+    "Ac 4:29-31",
+    "Mt 10:19-20",
+    "Ja 1:5"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La peur"
+    },
+    {
+     "texte": "La première raison pour laquelle on n'évangélise pas, c'est la peur : peur du rejet, de l'échec, de la moquerie, de ne pas savoir répondre. Paul écrit à Timothée, un jeune timide : ce n'est pas un esprit de timidité que Dieu nous a donné, mais un esprit de force, d'amour et de sagesse. N'aie donc point honte du témoignage de notre Seigneur."
+    },
+    {
+     "verset": "2 Ti 1:7-8"
+    },
+    {
+     "texte": "Le livre des Proverbes dit : la crainte des hommes tend un piège, mais celui qui se confie en l'Éternel est protégé."
+    },
+    {
+     "verset": "Pr 29:25"
+    },
+    {
+     "texte": "Quand l'Église primitive a été menacée, elle n'a pas demandé que les menaces cessent. Elle a prié : et maintenant, Seigneur, vois leurs menaces, et donne à tes serviteurs d'annoncer ta parole avec une pleine assurance. Et quand ils eurent prié, le lieu où ils étaient assemblés trembla ; ils furent tous remplis du Saint-Esprit, et ils annonçaient la parole de Dieu avec assurance."
+    },
+    {
+     "verset": "Ac 4:29-31"
+    },
+    {
+     "texte": "Si tu as peur, dis-le à Dieu et demande de l'audace. Il a promis de te la donner."
+    },
+    {
+     "sous_titre": "La peur de ne pas savoir répondre"
+    },
+    {
+     "texte": "Jésus a dit : quand on vous livrera, ne vous inquiétez pas de la manière dont vous parlerez ni de ce que vous direz : ce que vous aurez à dire vous sera donné à l'heure même. Car ce n'est pas vous qui parlerez, c'est l'Esprit de votre Père qui parlera en vous."
+    },
+    {
+     "verset": "Mt 10:19-20"
+    },
+    {
+     "texte": "Tu n'as pas besoin de connaître toutes les réponses. Quand quelqu'un te pose une question à laquelle tu ne sais pas répondre, dis honnêtement : « Je ne sais pas, mais je vais chercher et je te réponds. » Cette humilité donne plus de crédibilité que de fausses explications. Et si tu manques de sagesse, Jacques dit : si quelqu'un d'entre vous manque de sagesse, qu'il la demande à Dieu, qui donne à tous simplement et sans reproche, et elle lui sera donnée."
+    },
+    {
+     "verset": "Ja 1:5"
+    },
+    {
+     "sous_titre": "Le manque d'amour"
+    },
+    {
+     "texte": "Le plus grand obstacle, c'est parfois le manque d'amour. Certains parlent de l'Évangile avec colère, avec un air supérieur, avec des jugements. Ils gagnent des débats, mais perdent des âmes. Jésus était ami des pécheurs, et pourtant il n'a jamais minimisé le péché. Il a touché le lépreux avant de le guérir. Il a mangé chez Zachée avant de le transformer. L'amour ouvre des portes que les arguments ne peuvent pas ouvrir."
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Évangéliser dans la vie de tous les jours",
+   "references": [
+    "Mt 5:14-16",
+    "Col 4:5-6",
+    "1 P 3:15-16",
+    "Ac 8:4"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Une vie qui parle"
+    },
+    {
+     "texte": "Jésus a dit : vous êtes la lumière du monde. Que votre lumière luise ainsi devant les hommes, afin qu'ils voient vos bonnes œuvres, et qu'ils glorifient votre Père qui est dans les cieux."
+    },
+    {
+     "verset": "Mt 5:14-16"
+    },
+    {
+     "texte": "Beaucoup de non-croyants ne lisent pas la Bible, mais ils lisent les chrétiens. Ils regardent comment nous traitons nos employés, comment nous payons nos dettes, comment nous parlons à nos épouses, comment nous réagissons quand on nous insulte. Une vie cohérente ouvre la porte aux paroles."
+    },
+    {
+     "sous_titre": "Saisir les occasions"
+    },
+    {
+     "texte": "Paul dit : conduisez-vous avec sagesse envers ceux du dehors, en rachetant le temps. Que votre parole soit toujours accompagnée de grâce, assaisonnée de sel, afin que vous sachiez comment il faut répondre à chacun."
+    },
+    {
+     "verset": "Col 4:5-6"
+    },
+    {
+     "texte": "Pas besoin d'organiser une croisade pour évangéliser. Chaque jour, tu rencontres des personnes : un chauffeur de taxi, une voisine, un collègue, un commerçant. Une phrase simple, un service rendu, une proposition de prière, peut ouvrir une conversation."
+    },
+    {
+     "sous_titre": "Prêt à répondre"
+    },
+    {
+     "texte": "Pierre dit : sanctifiez dans vos cœurs Christ le Seigneur. Soyez toujours prêts à vous défendre, avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous, et ayez une bonne conscience."
+    },
+    {
+     "verset": "1 P 3:15-16"
+    },
+    {
+     "texte": "Avec douceur et respect. Même quand l'autre est agressif, même quand il se moque."
+    },
+    {
+     "sous_titre": "Tous les chrétiens, partout"
+    },
+    {
+     "texte": "Rappelle-toi qu'après la mort d'Étienne, une grande persécution a éclaté à Jérusalem. Tous, excepté les apôtres, se dispersèrent. Et ceux qui avaient été dispersés allaient de lieu en lieu, annonçant la bonne nouvelle de la parole."
+    },
+    {
+     "verset": "Ac 8:4"
+    },
+    {
+     "texte": "Ce ne sont pas les apôtres qui ont d'abord répandu l'Évangile hors de Jérusalem, mais de simples croyants, fuyant la persécution. Ils parlaient de Jésus au marché, en voyage, dans leurs nouvelles maisons. L'Évangile s'est répandu par des gens ordinaires qui parlaient de leur Sauveur."
+    },
+    {
+     "texte": "Pour terminer, pose-toi une question simple : si Jésus t'a sauvé, qui sont les trois personnes de ton entourage qui ont le plus besoin de l'entendre ? Écris leurs noms. Prie pour eux chaque jour. Demande à Dieu une occasion cette semaine. Et quand elle viendra, parle avec douceur, avec amour, avec ton témoignage. Le reste, c'est l'œuvre de Dieu."
     }
    ]
   }
  ],
- "lecture_minutes": 3,
- "auteur": "L'Arsenal de la Sentinelle",
- "autorisation": "oui",
- "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
- "date_ajout": "2026-11-14",
+ "sujets": [
+  {
+   "titre": "Un cœur brisé",
+   "texte": "Seigneur, brise en moi tout orgueil et toute suffisance. Donne-moi un cœur de compassion pour ceux qui ne te connaissent pas."
+  },
+  {
+   "titre": "L'audace du Saint-Esprit",
+   "texte": "Comme les apôtres, remplis-moi de ton Esprit et donne-moi d'annoncer ta parole avec assurance."
+  },
+  {
+   "titre": "Trois noms",
+   "texte": "Je te présente ces trois personnes de mon entourage. Prépare leur cœur et ouvre-moi une porte pour leur parler de Jésus."
+  },
+  {
+   "titre": "Les nouveaux convertis",
+   "texte": "Garde ceux qui viennent de te recevoir. Envoie des frères et des sœurs pour les accompagner et les enseigner."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Que dit Jésus de nous dans Matthieu 28:19 ?",
+   "choix": [
+    "Faites des convertis",
+    "Faites de toutes les nations des disciples",
+    "Construisez des églises"
+   ],
+   "reponse": 1,
+   "explication": "Il ne peut y avoir de disciples que par des disciples.",
+   "section": "1"
+  },
+  {
+   "question": "Pourquoi l'évangéliste doit-il être brisé ?",
+   "choix": [
+    "Pour être triste",
+    "Pour parler avec humilité et compassion, sans se croire meilleur",
+    "Pour attirer la pitié"
+   ],
+   "reponse": 1,
+   "explication": "Dieu ne dédaigne pas un cœur brisé (Psaume 51:19).",
+   "section": "2"
+  },
+  {
+   "question": "Quelle est la première étape pour présenter l'Évangile ?",
+   "choix": [
+    "La guérison",
+    "Le péché : tous ont péché",
+    "La dîme"
+   ],
+   "reponse": 1,
+   "explication": "Romains 3:23 : on doit reconnaître qu'on est perdu pour chercher un Sauveur.",
+   "section": "3"
+  },
+  {
+   "question": "Que veut dire « être tout à tous » (1 Corinthiens 9:22) ?",
+   "choix": [
+    "Changer le message",
+    "Adapter son approche à son interlocuteur, sans changer le message",
+    "Éviter les conflits"
+   ],
+   "reponse": 1,
+   "explication": "Paul s'adaptait à ses auditeurs sans rien retrancher de l'Évangile.",
+   "section": "4"
+  },
+  {
+   "question": "Selon Paul (1 Corinthiens 3:6), qui fait croître la semence ?",
+   "choix": [
+    "Le semeur",
+    "Dieu",
+    "L'évangéliste le plus doué"
+   ],
+   "reponse": 1,
+   "explication": "Moi j'ai planté, Apollos a arrosé, mais Dieu a fait croître.",
+   "section": "4"
+  },
+  {
+   "question": "Que promet Jésus à celui qui craint de ne pas savoir quoi dire ?",
+   "choix": [
+    "Rien",
+    "Que l'Esprit de son Père parlera en lui",
+    "Qu'il aura un diplôme"
+   ],
+   "reponse": 1,
+   "explication": "Matthieu 10:19-20.",
+   "section": "5"
+  },
+  {
+   "question": "Comment l'Évangile s'est-il d'abord répandu hors de Jérusalem ?",
+   "choix": [
+    "Par les apôtres seuls",
+    "Par de simples croyants dispersés par la persécution",
+    "Par la radio"
+   ],
+   "reponse": 1,
+   "explication": "Actes 8:4.",
+   "section": "6"
+  }
+ ],
+ "devoir": [
+  "Écris ton témoignage en trois parties : avant, la rencontre avec Jésus, ce qui a changé. Entraîne-toi à le dire en trois minutes.",
+  "Écris le nom de trois personnes à qui tu veux parler de Jésus, et prie pour elles chaque jour.",
+  "Cette semaine, saisis une occasion de dire une phrase simple sur ta foi à l'une d'elles."
+ ],
  "prieres_liees": [
   "theme:priere-temoigner",
   "theme:priere-ames"
- ]
+ ],
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "autorisation": "oui"
 }
