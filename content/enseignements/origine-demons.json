@@ -1,116 +1,536 @@
 {
  "id": "enseignement-origine-demons",
  "titre": "Origine des démons et esprits mauvais",
- "theme": "Doctrine",
  "serie": "L'Arsenal de la Sentinelle",
- "resume": "D'où viennent-ils et comment s'en affranchir ?",
+ "theme": "Doctrine",
+ "auteur": "L'Arsenal de la Sentinelle",
+ "resume": "Ce que la Bible dit des démons : qui ils sont, d'où ils viennent selon les différentes interprétations, comment ils agissent, et comment un croyant s'en libère durablement par la Parole, la repentance et la présence du Saint-Esprit. Sans peur, sans curiosité malsaine.",
  "image": "/assets/temoignage/chaines-brisees.webp",
- "verset_de_base": "Matthieu 12:43",
+ "verset_de_base": "Mt 12:43",
+ "lecture_minutes": 31,
  "objectifs": [
-  "Comprendre l'origine des démons selon les textes bibliques",
-  "Distinguer les démons des anges déchus et de leurs sphères d'action",
-  "Reconnaître les portes d'entrée et les modes d'opération des esprits mauvais",
-  "Saisir les principes d'une délivrance complète et durable"
+  "Savoir ce que la Bible affirme clairement au sujet des démons.",
+  "Connaître les principales explications de leur origine, et distinguer ce qui est certain de ce qui est discuté.",
+  "Comprendre comment ils agissent et quelles portes d'entrée il faut fermer.",
+  "Connaître les principes d'une délivrance durable, sans magie ni excès."
  ],
- "introduction": "Beaucoup de chrétiens ignorent l'origine des démons. Cette ignorance crée une vulnérabilité dangereuse. Connaître leur origine permet de mieux comprendre leur nature, leurs méthodes et la manière de s'en affranchir durablement.",
+ "introduction": "Il y a une chose que presque tous les peuples de la terre ont en commun : la conscience qu'il existe des esprits invisibles qui influencent la vie des hommes. En Afrique, on en parle depuis toujours : les esprits des ancêtres, des fleuves, des forêts, des carrefours. Certains vivent dans la peur constante de ces esprits. D'autres, après leur conversion, pensent que tout cela n'était qu'une superstition. La Bible, elle, parle clairement des esprits mauvais, qu'elle appelle démons. Elle n'en fait pas un sujet central, mais elle ne les ignore pas non plus.\n\nBeaucoup de chrétiens sont mal à l'aise avec ce sujet. D'un côté, certains voient des démons partout : une migraine, un échec à un examen, un retard au travail, tout est attribué à un démon. De l'autre, certains refusent d'y croire et disent : « C'est une affaire de psychologie ou de culture. » La Bible nous apprend à tenir un chemin d'équilibre : les démons existent, ils sont réels, mais ils sont limités et ils ont été vaincus par Jésus.\n\nDans cet enseignement, nous allons essayer de comprendre ce que la Bible dit, et de distinguer ce qui est affirmé clairement de ce qui est une explication possible. C'est important, car on ne doit pas bâtir sa vie spirituelle sur des spéculations. Mais on ne doit pas non plus ignorer la réalité. Tu ressortiras avec une base claire pour résister, pour prier, et pour aider ceux qui sont tourmentés.",
  "sections": [
   {
    "numero": "1",
-   "titre": "Définition — qu'est-ce qu'un démon ?",
+   "titre": "Qu'est-ce qu'un démon ?",
    "references": [
-    "Matthieu 12:43-45",
-    "Marc 5:1-13",
-    "Luc 8:30"
+    "Mt 12:43-45",
+    "Mc 5:1-13",
+    "Lc 8:26-33",
+    "Ja 2:19"
    ],
    "blocs": [
     {
-     "texte": "Un démon est un esprit mauvais, sans corps, qui cherche constamment à habiter un être vivant pour s'exprimer à travers lui. Il opère par la tromperie, l'oppression ou la possession selon le niveau d'emprise autorisé."
+     "sous_titre": "Des êtres spirituels réels"
     },
     {
-     "texte": "Privé de corps, il n'a de repos que dans une demeure physique — c'est pourquoi il cherche sans cesse à entrer dans des hommes ou des animaux (Matthieu 12:43-44 · Marc 5:12)."
+     "texte": "Dans les Évangiles, Jésus rencontre régulièrement des personnes tourmentées par des esprits mauvais, qu'il appelle esprits impurs ou démons. Il ne les traite jamais comme de simples maladies mentales ou comme des symboles. Il leur parle directement, il leur donne des ordres, et ils lui obéissent. Il distingue d'ailleurs clairement les guérisons de maladies et les délivrances de démons."
     },
     {
-     "texte": "Les démons peuvent être nombreux et organisés sous une autorité — la légion qui habitait l'homme de Gadara en est l'exemple (Luc 8:30)."
+     "texte": "Un démon est donc un esprit mauvais, sans corps visible, qui cherche à influencer, tromper, tourmenter ou contrôler des êtres humains. Jacques écrit : tu crois qu'il y a un seul Dieu, tu fais bien ; les démons le croient aussi, et ils tremblent."
     },
     {
-     "texte": "Comprendre ce qu'ils sont est le premier pas pour comprendre d'où ils viennent et comment s'en libérer."
+     "verset": "Ja 2:19"
+    },
+    {
+     "texte": "Les démons savent que Dieu existe. Ils savent qui est Jésus. Dans l'Évangile, ce sont souvent eux qui le reconnaissent les premiers : ils crient en le voyant : nous savons qui tu es, le Saint de Dieu ! Mais connaître la vérité ne les sauve pas, car ils ne se soumettent pas à Dieu."
+    },
+    {
+     "sous_titre": "Un esprit qui cherche un lieu"
+    },
+    {
+     "texte": "Jésus a fait une description étonnante : quand l'esprit impur est sorti d'un homme, il va par des lieux arides, cherchant du repos, et il n'en trouve point. Alors il dit : je retournerai dans ma maison d'où je suis sorti. Et, quand il arrive, il la trouve vide, balayée et ornée. Il s'en va, et il prend avec lui sept autres esprits plus méchants que lui ; ils entrent dans la maison, s'y établissent, et la dernière condition de cet homme est pire que la première."
+    },
+    {
+     "verset": "Mt 12:43-45"
+    },
+    {
+     "texte": "Ce passage nous apprend plusieurs choses. D'abord, les esprits mauvais cherchent un lieu de repos, et ils voient les êtres humains comme des demeures. Ensuite, il y a une manière dont un homme peut être libéré, mais rester vulnérable : sa maison est balayée et ornée, mais vide. Nous y reviendrons."
+    },
+    {
+     "sous_titre": "Une légion"
+    },
+    {
+     "texte": "L'Évangile raconte l'histoire d'un homme de la région de Gadara. Il vivait dans les tombeaux, personne ne pouvait le lier, même avec des chaînes. Jour et nuit, il criait et se frappait avec des pierres. Jésus lui a demandé : quel est ton nom ? Il a répondu : mon nom est Légion, car nous sommes plusieurs. Jésus a chassé les démons. L'homme a été retrouvé assis, vêtu, et dans son bon sens. Il est devenu un témoin dans toute sa région."
+    },
+    {
+     "verset": "Lc 8:26-33"
+    },
+    {
+     "texte": "Cette histoire nous montre que les démons peuvent être nombreux, qu'ils peuvent détruire une vie, mais aussi que Jésus a une autorité totale sur eux. Une légion romaine comptait plusieurs milliers de soldats, et pourtant une seule parole de Jésus a suffi."
     }
    ]
   },
   {
    "numero": "2",
-   "titre": "L'origine des démons selon les textes bibliques",
+   "titre": "D'où viennent les démons ?",
    "references": [
-    "Genèse 6:1-4",
-    "Matthieu 12:43-45",
-    "Éphésiens 6:12"
+    "Gn 6:1-4",
+    "Jud 6",
+    "2 P 2:4",
+    "Ap 12:7-9",
+    "És 14:12-15"
    ],
-   "transition": "Sachant ce qu'est un démon, remontons à la source : la Parole éclaire leur origine et lève le voile sur leur nature hybride.",
    "blocs": [
     {
-     "texte": "Les démons sont généralement identifiés aux esprits des Nephilim — ces géants nés de l'union entre les fils de Dieu (anges déchus) et les filles des hommes (Genèse 6:1-4). Après la mort des Nephilim au déluge, leurs esprits hybrides ont continué d'errer sur la terre."
+     "sous_titre": "Ce que la Bible ne dit pas clairement"
     },
     {
-     "texte": "Ces esprits, ayant une nature à la fois spirituelle et charnelle, ne trouvent de repos que dans des corps physiques (Matthieu 12:43-44 · Marc 5:12). D'où leur quête permanente d'habiter des êtres humains ou des animaux."
+     "texte": "Pour être honnête, il faut commencer par dire ceci : la Bible ne donne pas de réponse unique et détaillée à la question « d'où viennent les démons ? » Elle n'écrit pas un chapitre qui commence par : « Voici l'origine des démons. » Ce silence nous invite à la prudence. Au cours de l'histoire, les chrétiens ont proposé principalement deux explications, que nous allons regarder, en précisant leurs forces et leurs limites."
     },
     {
-     "texte": "Les démons sont distincts des anges déchus : ces derniers opèrent dans les sphères célestes (Éphésiens 6:12), tandis que les démons opèrent principalement sur la terre et dans les corps."
+     "sous_titre": "Explication 1 : les anges déchus"
+    },
+    {
+     "texte": "La plus courante, dans l'histoire de l'Église, est celle-ci : les démons sont des anges qui se sont révoltés contre Dieu avec Satan, et qui ont été chassés du ciel. Les textes qui y font allusion sont les suivants."
+    },
+    {
+     "texte": "Jude écrit : les anges qui n'ont pas gardé leur dignité, mais qui ont abandonné leur propre demeure, il les a gardés pour le jugement du grand jour, dans les liens éternels, sous les ténèbres."
+    },
+    {
+     "verset": "Jud 6"
+    },
+    {
+     "texte": "Pierre dit : Dieu n'a pas épargné les anges qui avaient péché, mais il les a précipités dans les abîmes de ténèbres, où ils sont gardés pour le jugement."
+    },
+    {
+     "verset": "2 P 2:4"
+    },
+    {
+     "texte": "Et l'Apocalypse décrit : il y eut guerre dans le ciel. Michel et ses anges combattirent contre le dragon. Et le dragon combattit, avec ses anges. Et il fut précipité, le grand dragon, le serpent ancien, appelé le diable et Satan, et ses anges furent précipités avec lui."
+    },
+    {
+     "verset": "Ap 12:7-9"
+    },
+    {
+     "texte": "Certains voient aussi dans le chapitre 14 d'Ésaïe, où le prophète parle de la chute du roi de Babylone, une image de la chute de Satan : comment es-tu tombé du ciel, astre brillant, fils de l'aurore ? Tu disais en ton cœur : je monterai au ciel, j'élèverai mon trône au-dessus des étoiles de Dieu. Les spécialistes discutent encore de savoir si ce texte parle uniquement du roi de Babylone ou aussi, symboliquement, de Satan. Il faut donc l'utiliser avec prudence."
+    },
+    {
+     "texte": "Selon cette explication, les démons sont donc ces anges déchus, qui ont suivi Satan dans sa révolte. Ils sont des créatures de Dieu à l'origine, créées bonnes, mais devenues mauvaises par choix."
+    },
+    {
+     "sous_titre": "Explication 2 : les esprits des Nephilim"
+    },
+    {
+     "texte": "Une autre explication est la suivante, et elle est très répandue dans certains milieux. Elle s'appuie sur un passage mystérieux de Genèse 6 : les fils de Dieu virent que les filles des hommes étaient belles, et ils prirent pour femmes toutes celles qu'ils choisirent. Il y avait en ces temps-là des géants sur la terre, et il y en eut aussi après que les fils de Dieu furent venus vers les filles des hommes, et qu'elles leur eurent donné des enfants : ce sont ces héros qui furent fameux dans l'antiquité."
+    },
+    {
+     "verset": "Gn 6:1-4"
+    },
+    {
+     "texte": "Selon cette interprétation, les « fils de Dieu » sont des anges déchus qui auraient eu des enfants avec des femmes, les Nephilim, ou géants. Quand ces géants sont morts, notamment dans le déluge, leurs esprits, ni complètement angéliques ni complètement humains, auraient continué à errer sur la terre, cherchant des corps où habiter. Ce seraient les démons. Cette idée vient surtout d'anciens textes juifs non bibliques, comme le Livre d'Hénoc."
+    },
+    {
+     "sous_titre": "Ce qu'il faut savoir sur cette seconde explication"
+    },
+    {
+     "texte": "Il faut être honnête : cette seconde explication est une hypothèse, pas un enseignement clair de la Bible. D'abord, la Bible ne dit nulle part que les Nephilim sont devenus des démons. Cette idée vient de textes extérieurs à la Bible. Ensuite, les spécialistes sont très partagés sur l'identité des « fils de Dieu » de Genèse 6. Certains pensent qu'il s'agit d'anges. D'autres pensent qu'il s'agit des descendants de Seth, la lignée pieuse, qui se sont mariés avec les filles de la lignée de Caïn. D'autres y voient des rois ou des chefs. Enfin, Jésus a dit que les anges, dans le ciel, ne se marient pas, ce qui pose question à ceux qui défendent l'idée de relations entre anges et femmes."
+    },
+    {
+     "texte": "Pour toi, cela veut dire une chose très simple : tu peux connaître ces différentes opinions, mais tu ne dois jamais bâtir ta foi ou ton combat spirituel sur elles. Ce qui est sûr, c'est que les démons existent, qu'ils sont mauvais, qu'ils sont des créatures et non des dieux, et que Jésus les a vaincus. L'origine exacte est un mystère que Dieu n'a pas choisi de révéler entièrement."
+    },
+    {
+     "texte": "On raconte l'histoire d'un jeune frère qui passait des heures sur internet à lire des théories sur les Nephilim, les géants, les extraterrestres et les cités perdues. Il connaissait par cœur des vidéos entières, mais il ne priait presque plus et ne lisait plus les Évangiles. Son pasteur lui a dit : « Mon fils, tu connais beaucoup de choses sur ce que Dieu n'a pas dit, et très peu sur ce qu'il a dit. Dis-moi les noms des douze apôtres. » Il n'a pas pu les dire. Le pasteur l'a invité à lire un Évangile entier d'une seule traite. Le jeune homme a retrouvé une paix qu'il avait perdue. Une curiosité excessive pour le monde invisible fait souvent perdre de vue Jésus."
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "Comment les démons opèrent-ils ?",
+   "titre": "Comment les démons agissent",
    "references": [
-    "Luc 11:21-22",
-    "1 Samuel 16:14",
-    "Éphésiens 4:27"
+    "Ép 6:11-12",
+    "2 Co 11:14",
+    "1 S 16:14",
+    "Ép 4:27",
+    "Ac 5:3",
+    "1 P 5:8"
    ],
-   "transition": "Connaître leur origine prépare à discerner leurs tactiques. Voici comment ils cherchent à s'introduire et à agir.",
    "blocs": [
     {
-     "texte": "Ils se transmettent souvent de génération en génération à travers les pratiques occultes, les pactes familiaux et les péchés récurrents."
+     "sous_titre": "Ils trompent"
     },
     {
-     "texte": "Ils trouvent des portes d'entrée : la peur, le péché persistant, les traumatismes, les objets contaminés, les pactes avec les ténèbres."
+     "texte": "La première arme des démons, c'est le mensonge. Jésus a dit du diable : il a été meurtrier dès le commencement, il ne se tient pas dans la vérité, parce qu'il n'y a pas de vérité en lui ; quand il profère le mensonge, il parle de son propre fonds, car il est menteur et le père du mensonge."
     },
     {
-     "texte": "Ils peuvent s'organiser hiérarchiquement sous l'autorité d'un démon principal (Luc 8:30 — Légion)."
+     "texte": "Paul écrit : Satan lui-même se déguise en ange de lumière. Il ne vient pas toujours avec une apparence effrayante. Il peut venir avec une voix douce, des pensées religieuses, des visions séduisantes."
     },
     {
-     "texte": "Ils trompent, torturent, oppriment ou possèdent selon le niveau d'emprise autorisé."
+     "verset": "2 Co 11:14"
+    },
+    {
+     "sous_titre": "Ils harcèlent et oppriment"
+    },
+    {
+     "texte": "Le premier livre de Samuel dit que l'Esprit de l'Éternel se retira de Saül, et qu'un mauvais esprit, venant de l'Éternel, le troublait. Saül était rongé par la peur, la jalousie, la colère. Cela montre qu'un esprit mauvais peut tourmenter une personne qui s'est éloignée de Dieu."
+    },
+    {
+     "verset": "1 S 16:14"
+    },
+    {
+     "texte": "Certains démons ne prennent pas le contrôle de toute la personne, mais l'oppriment ou l'influencent dans un domaine précis : une peur irrationnelle, une colère incontrôlable, un attachement à un péché qu'elle n'arrive pas à quitter, des cauchemars répétés."
+    },
+    {
+     "sous_titre": "Ils cherchent des portes d'entrée"
+    },
+    {
+     "texte": "Paul avertit : ne donnez pas accès au diable. Ce verbe veut dire littéralement : ne lui donnez pas un lieu, une place."
+    },
+    {
+     "verset": "Ép 4:27"
+    },
+    {
+     "texte": "Dans le contexte, il parle de la colère gardée jusqu'au coucher du soleil. Une colère qu'on laisse pourrir ouvre une porte. Voici quelques portes d'entrée courantes, que la Bible nous montre ou nous permet de reconnaître."
+    },
+    {
+     "texte": "Le péché volontaire et répété, sans repentance. Un péché dont on ne veut pas se détourner devient un terrain pour l'ennemi."
+    },
+    {
+     "texte": "La participation à l'occultisme : voyance, sorcellerie, consultation de marabouts, amulettes, rites païens. Dieu interdit clairement ces pratiques, et la Bible dit qu'elles ouvrent la porte à des influences mauvaises."
+    },
+    {
+     "texte": "Les traumatismes non guéris : abus, deuils, violences. La blessure non guérie peut devenir un lieu de tourment si elle n'est pas confiée à Dieu."
+    },
+    {
+     "texte": "L'amertume et le refus de pardonner. Jésus raconte l'histoire d'un serviteur impitoyable qui a été livré aux bourreaux. Le refus de pardonner peut nous livrer à des tourments intérieurs."
+    },
+    {
+     "texte": "La peur. Plus on a peur des puissances invisibles, plus elles semblent grandes."
+    },
+    {
+     "sous_titre": "Ils agissent à travers les hommes"
+    },
+    {
+     "texte": "Quand Ananias et Saphira ont menti, Pierre a dit : pourquoi Satan a-t-il rempli ton cœur au point que tu mentes au Saint-Esprit ? Satan peut influencer des hommes à travers leurs mauvais désirs."
+    },
+    {
+     "verset": "Ac 5:3"
+    },
+    {
+     "sous_titre": "Ce qu'on ne doit pas dire"
+    },
+    {
+     "texte": "Attention à ne pas attribuer aux démons tout ce qui nous arrive. Une maladie n'est pas toujours causée par un démon. Un échec peut venir d'un manque de préparation. Une dispute dans un couple peut venir d'un mauvais caractère. Dire « c'est un démon » à chaque problème est dangereux : on ne se corrige plus, on ne soigne plus, on ne prend plus ses responsabilités."
+    },
+    {
+     "texte": "Pierre dit : soyez sobres, veillez. Votre adversaire, le diable, rôde comme un lion rugissant, cherchant qui il dévorera."
+    },
+    {
+     "verset": "1 P 5:8"
+    },
+    {
+     "texte": "Sobres et vigilants, mais pas paranoïaques."
+    },
+    {
+     "texte": "On raconte l'histoire d'un jeune homme qui attribuait chacun de ses échecs scolaires à une malédiction familiale. Il participait à de nombreuses veillées de délivrance. Un jour, un enseignant, un chrétien, lui a dit : « Combien d'heures par semaine consacres-tu à tes études ? » Il a avoué : « Presque aucune, je passe mon temps à prier contre la malédiction. » L'enseignant l'a aidé à organiser un vrai programme de travail, en priant avec lui. Quelques mois plus tard, ses notes ont changé. La prière n'est pas un substitut au travail."
     }
    ]
   },
   {
    "numero": "4",
-   "titre": "La délivrance et ses principes",
+   "titre": "Ce que Jésus a fait : la victoire et l'autorité",
    "references": [
-    "Marc 16:17",
-    "Luc 10:17-20",
-    "Matthieu 12:43-45"
+    "Mc 1:23-27",
+    "Mc 16:17",
+    "Lc 10:17-20",
+    "Col 2:15",
+    "Hé 2:14-15"
    ],
-   "transition": "La connaissance débouche sur la liberté. Que Dieu t'établisse dans une délivrance complète et durable, sans retour en arrière.",
    "blocs": [
     {
-     "texte": "La délivrance est possible par la prière en foi au nom de Jésus-Christ (Marc 16:17 · Luc 10:17-20)."
+     "sous_titre": "Les démons tremblent devant Jésus"
     },
     {
-     "texte": "Après la délivrance, le croyant doit impérativement combler le vide par la Parole, la louange et la présence du Saint-Esprit — sinon le démon revient avec sept autres (Matthieu 12:43-45)."
+     "texte": "Dans la synagogue de Capernaüm, un homme possédé d'un esprit impur s'est écrié : que veux-tu de nous, Jésus de Nazareth ? Es-tu venu pour nous perdre ? Je sais qui tu es : le Saint de Dieu. Jésus lui a ordonné : tais-toi, et sors de cet homme. L'esprit impur sortit. Tous furent saisis de stupéfaction, et ils se demandaient : qu'est-ce que ceci ? Une nouvelle doctrine ! Il commande avec autorité, même aux esprits impurs, et ils lui obéissent."
     },
     {
-     "texte": "La délivrance complète implique : identifier les portes d'entrée, les fermer par la repentance, proclamer la liberté au nom de Jésus, remplir l'espace libéré par la Parole et l'Esprit."
+     "verset": "Mc 1:23-27"
+    },
+    {
+     "texte": "Jésus n'a pas eu besoin de cérémonie, de bougies, d'huile ou de longues prières. Il a parlé avec autorité, et les démons ont obéi."
+    },
+    {
+     "sous_titre": "Des signes qui accompagnent les croyants"
+    },
+    {
+     "texte": "Jésus a dit : voici les signes qui accompagneront ceux qui auront cru : en mon nom, ils chasseront les démons."
+    },
+    {
+     "verset": "Mc 16:17"
+    },
+    {
+     "texte": "Cette autorité n'est pas réservée à quelques super-chrétiens. Elle est donnée à ceux qui croient, au nom de Jésus. Ce n'est pas notre puissance personnelle qui compte, mais le nom de Jésus."
+    },
+    {
+     "texte": "Les soixante-dix disciples sont revenus de mission avec joie en disant que même les démons leur étaient soumis. Jésus leur a répondu qu'il voyait Satan tomber du ciel comme un éclair. Puis il les a recentrés : ne vous réjouissez pas de ce que les esprits vous sont soumis ; réjouissez-vous de ce que vos noms sont écrits dans les cieux."
+    },
+    {
+     "verset": "Lc 10:17-20"
+    },
+    {
+     "sous_titre": "Une victoire déjà remportée"
+    },
+    {
+     "texte": "À la croix, Jésus a dépouillé les principautés et les puissances, et les a livrées publiquement en spectacle, en triomphant d'elles par la croix."
+    },
+    {
+     "verset": "Col 2:15"
+    },
+    {
+     "texte": "Et l'épître aux Hébreux explique qu'il a pris part à notre chair et à notre sang, afin que, par la mort, il anéantît celui qui a la puissance de la mort, c'est-à-dire le diable, et qu'il délivrât ceux qui étaient retenus dans la servitude par la crainte de la mort."
+    },
+    {
+     "verset": "Hé 2:14-15"
+    },
+    {
+     "texte": "Les démons ne sont pas à égalité avec Dieu. Satan n'est pas l'opposé de Dieu, mais une créature, et Dieu n'a pas d'opposé. L'opposé de Satan, c'est l'archange Michel, pas Dieu. Dieu est infiniment au-dessus, et il a déjà gagné."
+    }
+   ]
+  },
+  {
+   "numero": "5",
+   "titre": "La délivrance : comment retrouver la liberté",
+   "references": [
+    "Mc 16:17",
+    "Ja 4:7",
+    "Mt 12:43-45",
+    "Ac 19:18-20",
+    "Jn 8:36"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La délivrance est possible"
+    },
+    {
+     "texte": "Jésus est venu pour libérer les captifs. Il a dit : si le Fils vous affranchit, vous serez réellement libres."
+    },
+    {
+     "verset": "Jn 8:36"
+    },
+    {
+     "texte": "Si tu es tourmenté par des peurs, des cauchemars, des attachements impossibles à briser, ne perds pas espoir. Ce n'est pas une fatalité. Prie, cherche un frère ou une sœur mûrs, ou un responsable d'église sérieux, qui te conduira dans la prière."
+    },
+    {
+     "sous_titre": "Les étapes d'une libération durable"
+    },
+    {
+     "texte": "Une libération véritable suit généralement plusieurs étapes que la Bible nous montre."
+    },
+    {
+     "texte": "Première étape : se soumettre à Dieu. Jacques dit : soumettez-vous donc à Dieu ; résistez au diable, et il fuira loin de vous."
+    },
+    {
+     "verset": "Ja 4:7"
+    },
+    {
+     "texte": "Deuxième étape : identifier les portes ouvertes. Demande au Saint-Esprit de te montrer comment l'ennemi a eu accès : un péché, un contact avec l'occultisme, un traumatisme, une colère entretenue."
+    },
+    {
+     "texte": "Troisième étape : se repentir et rompre avec ces choses. À Éphèse, après la défaite de sept fils d'un prêtre juif qui avaient tenté de chasser des démons sans autorité, beaucoup de croyants sont venus confesser leurs pratiques. Un grand nombre de ceux qui avaient exercé les arts magiques apportèrent leurs livres, et les brûlèrent devant tout le monde ; on en estima la valeur à cinquante mille pièces d'argent. Ainsi la parole du Seigneur croissait en puissance et en force."
+    },
+    {
+     "verset": "Ac 19:18-20"
+    },
+    {
+     "texte": "Si tu as chez toi des objets liés à l'occultisme, des amulettes, des fétiches, des livres de magie, des pactes, détruis-les, comme à Éphèse. Pas par peur, mais par obéissance. Le coût peut être élevé, mais la liberté vaut plus."
+    },
+    {
+     "texte": "Quatrième étape : proclamer la liberté au nom de Jésus, avec la Parole. Pas de cris, de rituels ou de manipulation. Une déclaration simple et ferme, appuyée sur ce que Jésus a accompli. Dans toute délivrance, il est bon que la personne soit accompagnée d'au moins une autre personne mûre dans la foi, pour la sécurité et le soutien."
+    },
+    {
+     "sous_titre": "Combler le vide"
+    },
+    {
+     "texte": "Revenons à Matthieu 12. L'esprit revient et trouve la maison balayée et ornée, mais vide. C'est le point crucial : la délivrance ne suffit pas, il faut combler le vide. Une maison vide est une invitation."
+    },
+    {
+     "texte": "Après la délivrance, remplis ta vie de ce qui est bon : la lecture quotidienne de la Bible, la prière, la louange, la communion fraternelle, le service des autres, l'obéissance. Demande à être rempli du Saint-Esprit. Ce n'est pas à toi de maintenir la maison propre par la force de ta volonté, mais d'inviter le Seigneur à y habiter."
+    },
+    {
+     "texte": "On raconte l'histoire d'un homme qui avait été délivré de l'alcool et de la sorcellerie lors d'une veillée. Pendant deux semaines, il était radieux. Puis il a cessé de venir à l'église, il n'a plus ouvert sa Bible, il a repris ses anciennes fréquentations. Six mois plus tard, il était dans un état pire que celui d'avant. Son pasteur lui a dit : « Tu as gardé la maison propre, mais tu ne l'as jamais meublée. Qui habite chez toi, aujourd'hui ? » Cet homme a recommencé, cette fois en se joignant à un groupe de prière et en suivant un programme de lecture. Il a tenu."
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Vivre libre, sans peur et sans excès",
+   "references": [
+    "1 Jn 4:4",
+    "2 Ti 1:7",
+    "Ph 4:8",
+    "1 Jn 5:18",
+    "1 Th 5:21-22"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Celui qui est en vous est plus grand"
+    },
+    {
+     "texte": "Jean écrit : vous, petits enfants, vous êtes de Dieu, et vous les avez vaincus, parce que celui qui est en vous est plus grand que celui qui est dans le monde."
+    },
+    {
+     "verset": "1 Jn 4:4"
+    },
+    {
+     "texte": "Le croyant qui a reçu Jésus n'est pas une victime sans défense. L'Esprit de Dieu habite en lui. Un croyant n'est pas « possédé » au sens où le serait une personne livrée à un démon, car il appartient à Christ. Mais il peut être attaqué, tenté, oppressé, et il doit résister."
+    },
+    {
+     "sous_titre": "Garder sa pensée pure"
+    },
+    {
+     "texte": "Paul dit à Timothée que Dieu nous a donné un esprit de force, d'amour et de sagesse. Et aux Philippiens : que tout ce qui est vrai, tout ce qui est honorable, tout ce qui est juste, tout ce qui est pur, tout ce qui est aimable, tout ce qui mérite l'approbation, tout ce qui est vertueux et digne de louange, soit l'objet de vos pensées."
+    },
+    {
+     "verset": "Ph 4:8"
+    },
+    {
+     "texte": "On protège son esprit comme on protège sa maison. Qu'est-ce que tu regardes, écoutes, lis, fréquentes ? Les films d'horreur, la musique qui célèbre les ténèbres, les jeux qui font la promotion de l'occultisme, les conversations sur les sorciers : tout cela nourrit la peur et affaiblit ta vigilance."
+    },
+    {
+     "sous_titre": "Celui qui est né de Dieu se garde"
+    },
+    {
+     "texte": "Jean dit aussi : nous savons que quiconque est né de Dieu ne pèche point ; mais celui qui est né de Dieu se garde lui-même, et le malin ne le touche pas."
+    },
+    {
+     "verset": "1 Jn 5:18"
+    },
+    {
+     "texte": "Celui qui est né de Dieu se garde. Ce n'est pas seulement Dieu qui nous garde ; nous aussi, nous avons une part : marcher dans la lumière, éviter les terrains dangereux."
+    },
+    {
+     "sous_titre": "Examiner toutes choses"
+    },
+    {
+     "texte": "Paul conclut à propos des esprits : examinez toutes choses ; retenez ce qui est bon. Abstenez-vous de toute espèce de mal."
+    },
+    {
+     "verset": "1 Th 5:21-22"
+    },
+    {
+     "texte": "Ne cherche pas de pouvoirs spectaculaires. Ne te fie pas aux prophètes qui voient des démons partout. Sois sobre, vigilant, fidèle à la Parole."
+    },
+    {
+     "texte": "Pour terminer, souviens-toi de ces trois vérités. Les démons existent, mais ils sont des créatures vaincues. Leur origine précise est un mystère ; ne bâtis pas ta foi sur des spéculations. Et le chemin de la liberté est simple : se soumettre à Dieu, fermer les portes par la repentance, résister par la Parole, et combler le vide par l'Esprit. Tu n'as pas à avoir peur : Jésus est plus fort."
     }
    ]
   }
  ],
- "lecture_minutes": 3,
- "auteur": "L'Arsenal de la Sentinelle",
- "autorisation": "oui",
- "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
- "date_ajout": "2026-11-14",
+ "sujets": [
+  {
+   "titre": "La victoire de Jésus",
+   "texte": "Seigneur Jésus, merci d'avoir vaincu à la croix toutes les puissances des ténèbres. Je me place sous ta protection et ton autorité."
+  },
+  {
+   "titre": "Les portes ouvertes",
+   "texte": "Saint-Esprit, montre-moi si j'ai ouvert une porte à l'ennemi, par le péché, l'occultisme, l'amertume ou la peur. Je me repens et je ferme cette porte."
+  },
+  {
+   "titre": "Remplir le vide",
+   "texte": "Remplis-moi de ta Parole et de ton Esprit, afin que rien ne puisse reprendre la place du Seigneur dans ma vie."
+  },
+  {
+   "titre": "Ceux qui sont tourmentés",
+   "texte": "Je prie pour les personnes oppressées par la peur et les cauchemars autour de moi. Envoie-leur du secours et libère-les par ton nom."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Que dit la Bible sur l'origine exacte des démons ?",
+   "choix": [
+    "Elle la détaille en un chapitre",
+    "Elle ne la précise pas clairement ; il existe plusieurs explications dont certaines sont des hypothèses",
+    "Elle dit qu'ils sont les âmes des morts"
+   ],
+   "reponse": 1,
+   "explication": "Il faut distinguer ce que la Bible affirme de ce qui est discuté.",
+   "section": "2"
+  },
+  {
+   "question": "Quelle est l'explication la plus courante dans l'histoire de l'Église ?",
+   "choix": [
+    "Les démons sont des esprits d'ancêtres",
+    "Les démons sont des anges déchus qui ont suivi Satan dans sa révolte",
+    "Les démons sont des maladies"
+   ],
+   "reponse": 1,
+   "explication": "Jude 6 ; 2 Pierre 2:4 ; Apocalypse 12:7-9.",
+   "section": "2"
+  },
+  {
+   "question": "Que signifie « ne donnez pas accès au diable » (Éphésiens 4:27) ?",
+   "choix": [
+    "Qu'il faut le fuir",
+    "Ne lui laisser aucune place, par exemple par une colère entretenue ou un péché non réglé",
+    "Qu'il ne peut pas entrer"
+   ],
+   "reponse": 1,
+   "explication": "Le verbe veut dire : ne lui donnez pas un lieu.",
+   "section": "3"
+  },
+  {
+   "question": "Quelle est la bonne attitude face aux problèmes de la vie ?",
+   "choix": [
+    "Les attribuer tous à des démons",
+    "Examiner honnêtement les causes, prier et agir avec sagesse",
+    "Les ignorer"
+   ],
+   "reponse": 1,
+   "explication": "Dire « c'est un démon » à tout empêche de se corriger.",
+   "section": "3"
+  },
+  {
+   "question": "Comment Jésus chassait-il les démons ?",
+   "choix": [
+    "Par de longs rituels",
+    "Par une parole d'autorité, sans cérémonie",
+    "Avec de l'huile"
+   ],
+   "reponse": 1,
+   "explication": "Marc 1:23-27. Notre autorité vient du nom de Jésus.",
+   "section": "4"
+  },
+  {
+   "question": "Pourquoi faut-il combler le vide après une délivrance ?",
+   "choix": [
+    "Pour faire plaisir à Dieu",
+    "Parce qu'une maison vide invite l'ennemi à revenir avec d'autres",
+    "Pour avoir des visions"
+   ],
+   "reponse": 1,
+   "explication": "Matthieu 12:43-45.",
+   "section": "5"
+  },
+  {
+   "question": "Que dit 1 Jean 4:4 au croyant ?",
+   "choix": [
+    "Tu es faible",
+    "Celui qui est en vous est plus grand que celui qui est dans le monde",
+    "Les démons sont plus forts"
+   ],
+   "reponse": 1,
+   "explication": "Le croyant a l'Esprit de Dieu en lui.",
+   "section": "6"
+  }
+ ],
+ "devoir": [
+  "Lis Marc 5:1-20 et Matthieu 12:43-45.",
+  "Prie et demande à Dieu de te montrer s'il y a une porte ouverte dans ta vie. Note ce qu'il te montre, et confesse-le à Dieu.",
+  "Si tu as des objets liés à l'occultisme à la maison, parle-en à ton pasteur et détruis-les avec prière.",
+  "Établis un programme quotidien de lecture de la Bible et de prière pour combler le vide."
+ ],
  "prieres_liees": [
   "combat:combat-maison",
   "combat:combat-territoire"
- ]
+ ],
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "autorisation": "oui"
 }
