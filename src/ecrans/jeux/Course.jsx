@@ -25,6 +25,9 @@ const VERSETS = ['« Instruis l\'enfant selon la voie qu\'il doit suivre. » Pro
   '« Fuis les passions de la jeunesse. » 2 Timothée 2:22', '« Tout ce que vous faites, faites-le de bon cœur, comme pour le Seigneur. » Colossiens 3:23',
   '« Moi et ma maison, nous servirons l\'Éternel. » Josué 24:15', '« L\'homme ne vivra pas de pain seulement. » Deutéronome 8:3', '« Revêtez-vous de toutes les armes de Dieu. » Éphésiens 6:11'];
 
+let GENRE = 'garcon';
+const RELEVES_MAX = 5;   // nombre de fois où Jésus relève pendant une même étape
+const INTRO = 'Bienvenue dans la course de la vie ! Ton personnage court sur le chemin de la vie. Des pierres roulent vers lui : ce sont des péchés, comme le mensonge, le vol ou la colère. Le péché fait mourir, alors esquive-les ! Touche à gauche ou à droite de l\'écran, ou utilise les flèches, pour changer de voie. Attrape les boules dorées : la prière, la Parole, le don, l\'obéissance. Elles te donnent de la force. Si ta force tombe à zéro, tu t\'éteins. Quand tu es prêt, appuie sur Commencer.';
 export function Course() {
   const toile = useRef(null);
   const etat = useRef(null);
@@ -32,6 +35,8 @@ export function Course() {
   const lire = (t) => lireAVoixHaute('course', [{ texte: t }]);
   let meilleur = 0; try { meilleur = +localStorage.getItem('yeshaya:course-etape') || 0; } catch {}
   const r = useSignal(reglages), musique = r.musiqueJeux !== false;
+  GENRE = r.genreCoureur || 'garcon';
+  useEffect(() => { const t = setTimeout(() => lire(INTRO), 400); return () => clearTimeout(t); }, []);
   useEffect(() => { if (musique && vue.phase !== 'debut' && vue.phase !== 'pause') jouerMusique(); else arreterMusique(); }, [musique, vue.phase]);
   useEffect(() => () => arreterMusique(), []);
 
@@ -50,10 +55,10 @@ export function Course() {
   }, []);
 
   function nouvelle(n = 0) {
-    const releve = etat.current?.releve || 0;
-    etat.current = { voie: 1, x: 1, temps: 0, distance: 0, force: 100, objets: [], prochain: 0.8, etape: n, vitesse: 1, releve, invincible: 0, phase: 'course', anim: 0, bonus: [], lumiere: 0, bandeau: 2.8 };
+    // Compte à rebours, puis les obstacles arrivent peu à peu : on a le temps de se préparer.
+    etat.current = { voie: 1, x: 1, temps: 0, distance: 0, force: 100, objets: [], prochain: 2.5, etape: n, vitesse: 1, releve: 0, invincible: 0, phase: 'compte', compte: 3.5, anim: 0, bonus: [], lumiere: 0, bandeau: 0 };
     const et = ETAPES[n % ETAPES.length];
-    lire(n === 0 ? `Étape 1 : ${et.nom}. Évite les péchés, attrape ce qui te rend fort. Cours ${km(BUT(0))} !` : `Étape ${n + 1} : ${et.nom}. Cours ${km(BUT(n))}. C'est plus long, et ça va plus vite !`);
+    lire(`Étape ${n + 1} : ${et.nom}. ${km(BUT(n))} à parcourir. Trois, deux, un, cours !`);
     setVue({ phase: 'course' });
   }
   function pause() { const e = etat.current; if (e?.phase !== 'course') return; e.phase = 'pause'; setVue({ phase: 'pause' }); }
@@ -64,7 +69,11 @@ export function Course() {
     const e = etat.current; if (!e) return;
     e.anim += dt;
     if (e.lumiere > 0) e.lumiere = Math.max(0, e.lumiere - dt);
-    if (e.phase === 'releve') { e.rt += dt; if (e.rt >= 4) { e.phase = 'course'; e.invincible = 3; setVue({ phase: 'course' }); } return; }
+    if (e.phase === 'compte') { e.compte -= dt; if (e.compte <= 0) { e.phase = 'course'; e.bandeau = 2.5; } return; }
+    if (e.phase === 'releve') { e.rt += dt; if (e.rt >= 4) {
+      if (e.releve === 3 && !e.leconVue) { e.leconVue = true; e.phase = 'lecon'; setVue({ phase: 'lecon' });
+        lire('Attends un instant, écoute bien. Jésus t\'a déjà relevé trois fois. Dieu pardonne celui qui se repent. Mais la Bible dit : demeurerions-nous dans le péché, afin que la grâce abonde ? Loin de là ! Quand on retourne sans cesse au même péché, le cœur s\'habitue, il devient dur, et un jour on n\'entend plus la voix de Dieu. Le pardon de Jésus n\'est pas une permission de pécher. C\'est une force pour fuir le péché. Alors maintenant, fuis les pierres de toutes tes forces !');
+      } else { e.phase = 'course'; e.invincible = 3; setVue({ phase: 'course' }); } } return; }
     if (e.phase !== 'course') return;
     // La vitesse de départ monte à chaque étape, puis monte encore pendant l'étape.
     e.temps += dt; e.vitesse = 0.85 + e.etape * 0.14 + Math.min(0.6, (e.distance / BUT(e.etape)) * 0.6);
@@ -85,7 +94,8 @@ export function Course() {
         const demon = et.nuit && Math.random() < 0.4, piege = !demon && Math.random() < 0.15;
         e.objets.push({ v, y: -0.08, bon: false, demon, piege, mot: demon ? 'Démon' : piege ? 'Piège' : et.mal[Math.floor(Math.random() * et.mal.length)], rot: 0 });
       }
-      e.prochain = (0.55 + Math.random() * 0.6) / e.vitesse;
+      // Au début de l'étape, les obstacles sont plus espacés, puis ils se rapprochent.
+      e.prochain = ((0.55 + Math.random() * 0.6) / e.vitesse) * (1 + Math.max(0, 1 - e.temps / 40));
     }
     for (const o of e.objets) { o.y += dt * 0.42 * e.vitesse; if (o.rot !== undefined) o.rot += dt * 5 * e.vitesse; }
     for (const o of e.objets) {
@@ -101,6 +111,11 @@ export function Course() {
   function mourir(mot) {
     const e = etat.current; e.phase = 'mort'; e.cause = mot;
     const m = Math.floor(e.distance);
+    if (e.releve >= RELEVES_MAX) {
+      e.phase = 'epuise'; setVue({ phase: 'epuise', mot, distance: m });
+      lire('Tu es tombé encore. Jésus t\'a relevé cinq fois dans cette étape. Écoute bien : Dieu ne se lasse pas de pardonner celui qui se repent vraiment. Mais se repentir, ce n\'est pas seulement dire pardon et recommencer la même chose. C\'est changer de direction, et fuir le péché. Celui qui joue avec le péché en se disant « de toute façon, Dieu pardonne », finit par en devenir esclave. Ce que l\'homme sème, il le récolte. Alors reprends cette étape depuis le début, et cette fois, fuis le péché !');
+      return;
+    }
     setVue({ phase: 'mort', mot, distance: m });
     lire(mot ? `${mot} t'a frappé. Le salaire du péché, c'est la mort. Veux-tu revivre ? Pour continuer, il te faut Jésus.`
       : 'Tu n\'avais plus de force. Sans prière et sans la Parole, on s\'éteint. Veux-tu revivre ? Il te faut Jésus.');
@@ -167,6 +182,13 @@ export function Course() {
     ctx.fillStyle = 'rgba(255,255,255,.25)'; rond(ctx, 66, 20, W * 0.3, 16, 8); ctx.fill();
     ctx.fillStyle = e.force > 35 ? '#f6c344' : '#ff6b5a'; rond(ctx, 66, 20, Math.max(0, W * 0.3 * e.force / 100), 16, 8); ctx.fill();
     ctx.fillStyle = '#fff'; ctx.textAlign = 'right'; ctx.fillText(`Étape ${e.etape + 1} · ${km(Math.min(BUT(e.etape), e.distance))} / ${km(BUT(e.etape))}`, W - 18, 33);
+    // Relèvements restants
+    ctx.font = '600 13px Poppins, sans-serif'; ctx.textAlign = 'left'; ctx.fillStyle = 'rgba(0,0,0,.45)'; rond(ctx, 10, 52, 132, 26, 10); ctx.fill();
+    ctx.fillStyle = '#ffd86b'; ctx.fillText('✝ ' + '●'.repeat(RELEVES_MAX - e.releve) + '○'.repeat(e.releve), 20, 70);
+    if (e.phase === 'compte') {
+      const n = Math.ceil(e.compte - 0.5); ctx.fillStyle = 'rgba(20,35,64,.7)'; ctx.beginPath(); ctx.arc(W / 2, H * 0.42, 60, 0, 7); ctx.fill();
+      ctx.fillStyle = '#ffd86b'; ctx.font = '800 54px Poppins, sans-serif'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(n > 0 ? n : 'Go !', W / 2, H * 0.42 + 2); ctx.textBaseline = 'alphabetic';
+    }
     if (e.bandeau > 0) {
       ctx.globalAlpha = Math.min(1, e.bandeau); ctx.fillStyle = 'rgba(20,35,64,.85)'; rond(ctx, W * 0.1, H * 0.3, W * 0.8, 58, 16); ctx.fill();
       ctx.fillStyle = '#ffd86b'; ctx.font = '600 12px Poppins, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(`ÉTAPE ${e.etape + 1} · ${km(BUT(e.etape)).toUpperCase()}`, W / 2, H * 0.3 + 22);
@@ -191,12 +213,29 @@ export function Course() {
           <p>Touche à <b>gauche</b> ou à <b>droite</b> pour changer de voie.</p>
           <p class="course__legende"><span class="course__pierre">Péché</span> esquive les pierres du péché : elles font mourir.</p>
           <p class="course__legende"><span class="course__or">🙏</span> attrape la prière, la Parole, le don… : ils te donnent de la force.</p>
-          <button class="bouton bouton--or" onClick={() => nouvelle(0)}>▶ Courir (étape 1)</button>
+          <div class="segments course__genre" role="group" aria-label="Ton personnage">
+            {[['garcon', '👦 Garçon'], ['fille', '👧 Fille']].map(([g, t]) => <button aria-pressed={(r.genreCoureur || 'garcon') === g} onClick={() => modifierReglages({ genreCoureur: g })}>{t}</button>)}
+          </div>
+          <button class="bouton bouton--or course__commencer" onClick={() => nouvelle(meilleur > 0 ? meilleur : 0)}>▶ Commencer {meilleur > 0 ? `(étape ${meilleur + 1})` : ''}</button>
+          <button class="lien course__reecouter" onClick={() => lire(INTRO)}>🔊 Réécouter les règles</button>
           {meilleur > 0 && <>
-            <button class="bouton bouton--contour course__clair" onClick={() => nouvelle(meilleur)}>Continuer : étape {meilleur + 1}</button>
             <p class="course__record">Rejouer une étape déjà réussie :</p>
             <div class="course__etapes">{[...Array(meilleur)].map((_, i) => <button onClick={() => nouvelle(i)} aria-label={`Étape ${i + 1} : ${ETAPES[i % ETAPES.length].nom}`}><b>{i + 1}</b><small>{km(BUT(i))}</small></button>)}</div>
           </>}
+        </div>}
+        {vue.phase === 'lecon' && <div class="course__voile">
+          <p style="font-size:2.6rem">✋</p><h2>Écoute bien</h2>
+          <p>Jésus t'a déjà relevé <b>3 fois</b>. Dieu pardonne celui qui se repent. Mais le pardon n'est pas une permission de pécher : c'est une force pour <b>fuir</b> le péché.</p>
+          <p class="course__verset">« Demeurerions-nous dans le péché, afin que la grâce abonde ? Loin de là ! »<small>Romains 6:1-2</small></p>
+          <button class="bouton bouton--or" onClick={() => { const e = etat.current; e.phase = 'course'; e.invincible = 3; setVue({ phase: 'course' }); }}>J'ai compris, je fuis le péché ▶</button>
+        </div>}
+        {vue.phase === 'epuise' && <div class="course__voile course__voile--mort">
+          <p class="course__cause">Jésus t'a relevé {RELEVES_MAX} fois dans cette étape.</p>
+          <h2>Il est temps de te repentir</h2>
+          <p>Dieu ne se lasse pas de pardonner celui qui se repent vraiment. Mais se repentir, c'est <b>changer de direction</b> et fuir le péché, pas recommencer la même chose.</p>
+          <p class="course__verset">« Ne vous y trompez pas : on ne se moque pas de Dieu. Ce qu'un homme aura semé, il le moissonnera aussi. »<small>Galates 6:7</small></p>
+          <button class="bouton bouton--or" onClick={() => nouvelle(etat.current.etape)}>🙏 Je me repens : je reprends l'étape</button>
+          <button class="bouton bouton--contour course__clair" onClick={() => { etat.current = null; setVue({ phase: 'debut' }); lire(INTRO); }}>Choisir une autre étape</button>
         </div>}
         {vue.phase === 'pause' && <div class="course__voile">
           <p style="font-size:3rem">⏸</p><h2>Pause</h2><p>Le jeu t'attend.</p>
@@ -216,7 +255,7 @@ export function Course() {
           <h2>Veux-tu revivre ?</h2>
           <p>Pour continuer, il te faut Jésus.</p>
           <button class="bouton bouton--or course__jesus" onClick={revivre}>✝ Jésus, viens dans ma vie</button>
-          <p class="course__record">{km(vue.distance)} parcourus{e?.releve ? ` · relevé ${e.releve} fois par Jésus` : ''}</p>
+          <p class="course__record">{km(vue.distance)} parcourus · Jésus peut encore te relever {RELEVES_MAX - (e?.releve || 0)} fois dans cette étape</p>
         </div>}
       </div>
       <div class="course__fleches">
@@ -243,12 +282,20 @@ function personnage(ctx, x, y, t, a, mort) {
   ctx.strokeStyle = '#7a4a2e'; ctx.lineWidth = 6;   // bras
   ctx.beginPath(); ctx.moveTo(-12, -14); ctx.lineTo(-17 - q * 4, 0 + p * 5); ctx.stroke();
   ctx.beginPath(); ctx.moveTo(12, -14); ctx.lineTo(17 + q * 4, 0 - p * 5); ctx.stroke();
-  const tg = ctx.createLinearGradient(0, -22, 0, 8); tg.addColorStop(0, '#f2f2f2'); tg.addColorStop(1, '#d7dbe6');   // tunique
-  ctx.fillStyle = tg; ctx.beginPath(); ctx.moveTo(-13, -18); ctx.quadraticCurveTo(0, -24, 13, -18); ctx.lineTo(11, 9); ctx.lineTo(-11, 9); ctx.closePath(); ctx.fill();
-  ctx.fillStyle = '#c99a2e'; ctx.fillRect(-11, -2, 22, 3.5);   // ceinture
+  const fille = GENRE === 'fille';
+  const tg = ctx.createLinearGradient(0, -22, 0, 8);
+  if (fille) { tg.addColorStop(0, '#ff8fb8'); tg.addColorStop(1, '#e05a8f'); } else { tg.addColorStop(0, '#f2f2f2'); tg.addColorStop(1, '#d7dbe6'); }
+  ctx.fillStyle = tg; ctx.beginPath(); ctx.moveTo(-13, -18); ctx.quadraticCurveTo(0, -24, 13, -18);
+  if (fille) { ctx.lineTo(16, 14); ctx.lineTo(-16, 14); } else { ctx.lineTo(11, 9); ctx.lineTo(-11, 9); }   // robe ou tunique
+  ctx.closePath(); ctx.fill();
+  ctx.fillStyle = fille ? '#fff3b0' : '#c99a2e'; ctx.fillRect(-11, -2, 22, 3.5);   // ceinture
   ctx.fillStyle = '#7a4a2e'; ctx.beginPath(); ctx.arc(0, -29, 10, 0, 7); ctx.fill();   // tête
   ctx.fillStyle = '#1e1410'; ctx.beginPath(); ctx.arc(0, -31, 10, Math.PI, 0); ctx.fill();   // cheveux
   ctx.beginPath(); ctx.arc(0, -29, 9.5, Math.PI * 0.95, Math.PI * 2.05); ctx.fill();
+  if (fille) {   // deux nattes avec des nœuds
+    ctx.beginPath(); ctx.arc(-11, -36, 5.5, 0, 7); ctx.arc(11, -36, 5.5, 0, 7); ctx.fill();
+    ctx.fillStyle = '#ff5a92'; ctx.beginPath(); ctx.arc(-11, -36, 2.5, 0, 7); ctx.arc(11, -36, 2.5, 0, 7); ctx.fill();
+  }
   ctx.restore();
 }
 function peche(ctx, x, y, o, larg) {

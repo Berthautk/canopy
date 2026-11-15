@@ -845,3 +845,6 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .course__etapes { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; max-width: 320px; }
 .course__etapes button { width: 58px; height: 58px; border-radius: 14px; border: 2px solid #ffd86b; background: rgba(255,255,255,.1); color: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; }
 .course__etapes b { font-size: 1.2rem; } .course__etapes small { font-size: .65rem; opacity: .85; }
+.course__genre { width: 100%; max-width: 280px; } .course__genre button { color: var(--titre); }
+.course__commencer { font-size: 1.2rem; padding: 14px 28px; }
+.course__reecouter { color: #ffd86b !important; }
