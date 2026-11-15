@@ -182,8 +182,8 @@ function Partie({ n, k, rejouer }) {
       {defi && i === 0 && !rep && <p class="guide-phase" style="margin:8px 0"><span>⚔️ {defi.nom || 'Un ami'} t'a défié : il a fait {defi.score} points sur cette étape. À toi de jouer !</span></p>}
       {combo >= 3 && <p class="combo" key={combo}>🔥 Combo × {combo} : +{BONUS_COMBO} bonus</p>}
       <p class="quiz__compteur">Question {i + 1} / {qs.length}</p>
-      <section class="carte quiz__question"><Icone nom="bible" taille={28} /><h2>{q.type === 'vf' ? 'Vrai ou faux ? ' : ''}{q.question}</h2>
-        {voix.valeur.disponible && <button class="bouton bouton--contour bouton--petit" style="margin-top:8px" onClick={ecouterQ}><Icone nom="lecture" taille={16} /> Écouter la question</button>}</section>
+      {voix.valeur.disponible && <button class="bouton bouton--contour bouton--petit" style="align-self:flex-end;margin-bottom:8px" onClick={ecouterQ}><Icone nom="lecture" taille={16} /> Écouter la question</button>}
+      <section class="carte quiz__question"><Icone nom="bible" taille={28} /><h2>{q.type === 'vf' ? 'Vrai ou faux ? ' : ''}{q.question}</h2></section>
       <div class={'quiz__choix' + (q.type === 'vf' ? ' quiz__choix--vf' : '')}>
         {ordre.map((c, j) => {
           const bon = q.type === 'vf' ? c === q.vrai : c === q.reponse;

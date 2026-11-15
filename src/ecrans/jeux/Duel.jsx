@@ -16,7 +16,7 @@ export function Duel() {
 
   if (!partie) return (
     <div class="page">
-      <div class="jouer-hero"><img src="/assets/jeux/banniere-duel-biblique.webp" alt="" /></div>
+      <div class="jouer-hero"><img src="/assets/jeux/banniere-duel-biblique.webp" alt="" style="object-position:center top" /></div>
       <p class="jouer-intro">Quiz biblique à deux joueurs sur le même téléphone. {PAR_JOUEUR} questions chacun, à tour de rôle.</p>
       {[0, 1].map((k) => (
         <label class="carte duel-joueur"><span class="duel-joueur__num">{k + 1}</span>
