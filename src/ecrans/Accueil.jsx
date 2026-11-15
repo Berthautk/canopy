@@ -1,6 +1,6 @@
 import { Icone } from '../composants/Icone.jsx';
 import { usePassage, TextePassage, cheminMontrer } from '../composants/Verset.jsx';
-import { TelechargementBible } from '../composants/TelechargementBible.jsx';
+import { BandeauTelephone } from '../composants/BandeauTelephone.jsx';
 import { versetDuJour, enseignementDuJour, veilleDuMoment, meditationDuJour } from '../donnees/contenu.js';
 import { orizon, jourCourant } from '../donnees/orizon.js';
 import { BoutonLecture } from '../composants/Audio.jsx';
@@ -41,7 +41,7 @@ export function Accueil() {
         </a>
         <div class="aujourdhui">
           <a class="carte aujourdhui__carte" href="#/bible/meditation"><Icone nom="ampoule" taille={22} /><b>Méditation du jour</b><span>{m?.titre || 'Un verset à méditer'}</span></a>
-          <a class="carte aujourdhui__carte" href={o.faits.length ? '#/orizon/jour/' + jourCourant() : '#/grandir/formation'}><Icone nom="grandir" taille={22} /><b>{o.faits.length ? 'Mon parcours' : 'Former le disciple'}</b><span>{o.faits.length ? 'Vaincre en 90 jours · jour ' + jourCourant() : '40 leçons pour grandir'}</span></a>
+          <a class="carte aujourdhui__carte" href={o.faits.length ? '#/orizon/jour/' + jourCourant() : '#/grandir/formation'}><Icone nom="grandir" taille={22} /><b>{o.faits.length ? 'Mon parcours' : 'Former le disciple'}</b><span>{o.faits.length ? 'Vaincre en 90 jours · jour ' + jourCourant() : '38 leçons pour grandir'}</span></a>
         </div>
 
         {ens && (
@@ -67,7 +67,7 @@ export function Accueil() {
         )}
 
 
-        <div style="margin-top:12px"><TelechargementBible compact /></div>
+        <BandeauTelephone />
 
         <a class="carte ligne" href="#/equilibre" style="margin-top:12px">
           <span class="ligne__icone"><Icone nom="calendrier" /></span>

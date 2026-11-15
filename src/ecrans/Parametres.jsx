@@ -154,12 +154,6 @@ export function Parametres() {
       <h2 class="titre-section">Mes données</h2>
       <div class="liste">
         <MesDonnees />
-        <a class="carte ligne" href="#/telechargements">
-          <span class="ligne__icone"><Icone nom="telecharger" /></span>
-          <span class="ligne__corps"><span class="ligne__titre">Mes téléchargements</span>
-            <span class="ligne__desc" style="display:block">Espace utilisé, contenus hors ligne.</span></span>
-          <span class="ligne__fin"><Icone nom="chevron" taille={20} /></span>
-        </a>
         <div class="carte param-bloc">
           <div class="param-bloc__titre"><span class="ligne__icone"><Icone nom="donnees" /></span> Données et confidentialité</div>
           <p class="ligne__desc">Ton profil, ton journal, tes notes et tes réponses restent sur ce téléphone et ne sont jamais envoyés.

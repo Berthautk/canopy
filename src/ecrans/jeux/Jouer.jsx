@@ -10,8 +10,8 @@ export const TOUTES = () => QUIZ.flatMap((t) => t.questions.map((q) => ({ ...q, 
 const NIVEAUX = [['facile', 'Facile'], ['moyen', 'Moyen'], ['expert', 'Expert']];
 
 const TUILES = [
-  ['jouer/memoriser', 'Mémoriser un verset', 'coeur'], ['jouer/quiz-du-jour', 'Quiz du jour', 'trophee'], ['jouer/themes', 'Quiz par thème', 'liste'], ['jouer/complete', 'Complète le verset', 'note'], ['jouer/qui-suis-je', 'Qui suis-je ?', 'recherche'],
-  ['jouer/ordre', 'Remets dans l\'ordre', 'trier'], ['jouer/duel', 'Duel à deux', 'groupe'], ['jouer/badges', 'Mes badges', 'etoile'],
+  ['jouer/memoriser', 'Mémoriser un verset', 'coeur'], ['jouer/themes', 'Quiz par thème', 'liste'], ['jouer/complete', 'Complète le verset', 'note'], ['jouer/qui-suis-je', 'Qui suis-je ?', 'recherche'],
+  ['jouer/ordre', 'Remets dans l\'ordre', 'trier'], ['jouer/duel', 'Duel à deux', 'groupe'],
 ];
 
 // Écran 25 : accueil « Jouer et apprendre ».

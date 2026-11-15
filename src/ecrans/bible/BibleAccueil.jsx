@@ -1,6 +1,5 @@
 import { useState } from 'preact/hooks';
 import { Icone } from '../../composants/Icone.jsx';
-import { TelechargementBible } from '../../composants/TelechargementBible.jsx';
 import { positionLecture } from '../../donnees/annotations.js';
 import { PAR_CODE } from '../../bible/references.js';
 import { useSignal } from '../../outils/signal.js';
@@ -9,7 +8,7 @@ import { aller } from '../../outils/routeur.js';
 const CARTES = [
   ['bible/livres', 'Lire la Bible', 'Tous les livres, chapitre par chapitre.', 'bible', '/assets/objets-bibliques/bible-ouverte.webp'],
   ['bible/plan', 'Plan 1 an', 'Lire toute la Bible en 365 jours.', 'calendrier', '/assets/objets-quotidien/calendrier.webp'],
-  ['bible/meditation', 'Méditation du matin', 'Un verset, une réflexion, une prière.', 'soleil', '/assets/paysages/lever-soleil-collines.webp'],
+  ['bible/meditation', 'Méditation du jour', 'Un texte, des questions, un défi, un verset à retenir.', 'soleil', '/assets/paysages/lever-soleil-collines.webp'],
   ['bible/sujets', 'Versets par sujet', 'Paix, peur, deuil, pardon, foi…', 'coeur', '/assets/symboles/mains-ouvertes-lumiere.webp'],
 ];
 
@@ -60,12 +59,6 @@ export function BibleAccueil() {
       </div>
 
       <div class="liste" style="margin-top:12px">
-        <a class="carte ligne" href="#/bible/chemin">
-          <span class="ligne__icone"><Icone nom="croix" /></span>
-          <span class="ligne__corps"><span class="ligne__titre">Le chemin du salut</span>
-            <span class="ligne__desc" style="display:block">8 versets pour comprendre et partager l'Évangile.</span></span>
-          <Icone nom="chevron" taille={20} />
-        </a>
         <a class="carte ligne" href="#/bible/ressources">
           <span class="ligne__icone"><Icone nom="etoile" /></span>
           <span class="ligne__corps"><span class="ligne__titre">Mes favoris, surlignages et notes</span></span>
@@ -73,7 +66,6 @@ export function BibleAccueil() {
         </a>
       </div>
 
-      <div style="margin-top:12px"><TelechargementBible /></div>
     </div>
   );
 }

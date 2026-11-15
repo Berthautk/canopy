@@ -38,9 +38,9 @@ export function Priere() {
         </a>
       )}
 
-      <h2 class="titre-section">Les trois veilles du jour</h2>
+      <h2 class="titre-section">{v ? 'Les autres veilles du jour' : 'Les trois veilles du jour'}</h2>
       <div class="liste">
-        {VEILLES.map((x) => (
+        {VEILLES.filter((x) => x.id !== v?.id).map((x) => (
           <a class={'carte ligne veille-ligne' + (x.id === v?.id ? ' veille-ligne--active' : '')} href={'#/priere/veille/' + x.id.replace('veille-', '')}>
             <span class="ligne__icone"><Icone nom={x.id.endsWith('soir') ? 'lune' : 'soleil'} /></span>
             <span class="ligne__corps"><span class="ligne__titre" style="display:block">{x.titre}</span><span class="ligne__desc">{x.heures} · {x.theme}</span></span>
@@ -74,6 +74,7 @@ export function Priere() {
       <p class="ligne__desc" style="margin:-4px 4px 8px">Touche un thème pour voir ses sujets de prière.</p>
       {categories.map((c) => {
         const liste = PRIERES.filter((p) => p.categorie === c), deplie = ouvert === c || liste.length <= 2;
+        if (liste.length === 1) return <section class="categorie-priere"><div class="liste"><CarteTheme p={liste[0]} lien={'#/priere/theme/' + liste[0].id} /></div></section>;
         return (
           <section class="categorie-priere">
             <button class="categorie-priere__tete" aria-expanded={deplie} onClick={() => setOuvert(ouvert === c ? null : c)}>

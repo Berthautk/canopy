@@ -3,16 +3,18 @@ import { Icone } from '../../composants/Icone.jsx';
 import { BoutonLecture } from '../../composants/Audio.jsx';
 import { notifier } from '../../composants/Notification.jsx';
 import { telecharges, enCours, supprimer, toutSupprimer, tailleTotale, formatTaille } from '../../audio/telechargements.js';
-import { etatTelechargement, verifierHorsLigne, CACHE_BIBLE } from '../../bible/bible.js';
+import { etatTelechargement, verifierHorsLigne } from '../../bible/bible.js';
 import { useSignal } from '../../outils/signal.js';
-import { etatImages, verifierImages, telechargerImages } from '../../outils/horsLigne.js';
+import { etatImages } from '../../outils/horsLigne.js';
+import { installation, installer, estIOS, toutTelecharge, verifierTout, toutTelecharger } from '../../outils/telephone.js';
 
 // Écran 12 : mes téléchargements (audios hors ligne, Bible, espace utilisé).
 export function Telechargements() {
   const t = useSignal(telecharges), e = useSignal(enCours), bible = useSignal(etatTelechargement);
   const [estimation, setEstimation] = useState(null);
   const img = useSignal(etatImages);
-  useEffect(() => { verifierImages(); }, []);
+  const inst = useSignal(installation), tout = useSignal(toutTelecharge);
+  useEffect(() => { verifierTout(); }, []);
   useEffect(() => { verifierHorsLigne(); navigator.storage?.estimate?.().then(setEstimation).catch(() => {}); }, [t, bible.statut]);
   const liste = Object.entries(t).sort(([, a], [, b]) => b.date.localeCompare(a.date));
   const total = tailleTotale(t);
@@ -22,9 +24,37 @@ export function Telechargements() {
     <div class="page">
       <div class="bandeau-titre">
         <img src="/assets/audio/femme-ecouteurs.webp" alt="" />
-        <div><h2>Mes audios hors ligne</h2><p>Écoutez les enseignements même sans connexion.</p></div>
+        <div><h2>Sans internet</h2><p>Installer Yeshaya et tout garder sur ce téléphone.</p></div>
       </div>
 
+      <section class="carte bloc tel">
+        <h3 style="margin-top:0">1 · Installer l'application</h3>
+        {inst.installee
+          ? <p class="hors-ligne-ok" style="margin:0"><Icone nom="verifie" taille={18} /> Yeshaya est installée sur ce téléphone.</p>
+          : inst.pret
+            ? <><p class="ligne__desc" style="margin-top:0">Une icône Yeshaya sera ajoutée sur ton écran d'accueil, comme une application.</p>
+                <button class="bouton bouton--or" style="width:100%" onClick={async () => { if (await installer() === 'accepted') notifier('Yeshaya est installée'); }}><Icone nom="telecharger" taille={18} /> Installer sur mon téléphone</button></>
+            : estIOS()
+              ? <ol class="tel__etapes"><li>Touche le bouton <b>Partager</b> de Safari (le carré avec une flèche).</li><li>Choisis <b>Sur l'écran d'accueil</b>.</li><li>Touche <b>Ajouter</b>.</li></ol>
+              : <ol class="tel__etapes"><li>Ouvre le menu de ton navigateur (les trois points en haut).</li><li>Choisis <b>Installer l'application</b> ou <b>Ajouter à l'écran d'accueil</b>.</li></ol>}
+      </section>
+
+      <section class="carte bloc tel">
+        <h3 style="margin-top:0">2 · Tout télécharger</h3>
+        <p class="ligne__desc" style="margin-top:0">Une seule fois, de préférence avec le wifi (environ 12 Mo).</p>
+        <ul class="tel__liste">
+          <li><Icone nom="verifie" taille={16} /> Enseignements, prières, parcours et jeux <span>déjà là</span></li>
+          <li><Icone nom={bible.statut === 'complet' ? 'verifie' : 'telecharger'} taille={16} /> Bible Louis Segond <span>{bible.statut === 'complet' ? 'téléchargée' : `${bible.fait} / ${bible.total} livres`}</span></li>
+          <li><Icone nom={img.statut === 'complet' ? 'verifie' : 'telecharger'} taille={16} /> Illustrations <span>{img.statut === 'complet' ? 'téléchargées' : img.total ? `${img.fait} / ${img.total}` : '…'}</span></li>
+        </ul>
+        {tout.total > 0 && <div class="progression"><span style={{ width: Math.min(100, (tout.fait / tout.total) * 100) + '%' }} /></div>}
+        {tout.statut === 'complet'
+          ? <p class="hors-ligne-ok" style="margin:10px 0 0"><Icone nom="verifie" taille={18} /> Tout fonctionne maintenant sans internet.</p>
+          : <button class="bouton bouton--or" style="width:100%;margin-top:10px" disabled={tout.statut === 'encours'} onClick={async () => { const ok = await toutTelecharger(); notifier(ok ? 'Tout est disponible sans internet' : 'Connexion interrompue : touche pour reprendre'); }}>
+              <Icone nom="telecharger" taille={18} /> {tout.statut === 'encours' ? 'Téléchargement…' : tout.fait ? 'Terminer le téléchargement' : 'Tout télécharger'}</button>}
+      </section>
+
+      <h2 class="titre-section">3 · Mes audios</h2>
       {Object.keys(e).length > 0 && <p class="ligne__desc" style="margin:0 4px 8px">{Object.keys(e).length} téléchargement(s) en cours…</p>}
 
       <div class="liste">
@@ -46,25 +76,6 @@ export function Telechargements() {
             <p>Aucun audio téléchargé. Sur un enseignement, appuyez sur « Télécharger » pour l'écouter sans internet.</p>
           </div>
         )}
-      </div>
-
-      <h2 class="titre-section">Toute l'application sans internet</h2>
-      <section class="carte bloc">
-        <p style="margin-top:0">Les textes de l'application (enseignements, prières, parcours, jeux) sont déjà gardés sur ce téléphone : ils fonctionnent sans internet. Pour que <b>tout</b> fonctionne hors ligne, téléchargez aussi les illustrations (environ 7 Mo) et la Bible (environ 4,5 Mo), une seule fois.</p>
-        <p class="ligne__desc">Illustrations : {img.total ? `${img.fait} sur ${img.total}` : '…'}{img.statut === 'complet' ? ' · toutes disponibles hors ligne' : ''}</p>
-        {img.total > 0 && <div class="progression"><span style={{ width: (img.fait / img.total) * 100 + '%' }} /></div>}
-        {img.statut !== 'complet' && <button class="bouton bouton--or" style="width:100%;margin-top:10px" disabled={img.statut === 'encours'} onClick={async () => { await telechargerImages(); notifier('Illustrations disponibles sans internet'); }}>
-          <Icone nom="telecharger" taille={18} /> {img.statut === 'encours' ? 'Téléchargement…' : 'Télécharger les illustrations'}</button>}
-      </section>
-
-      <h2 class="titre-section">Bible</h2>
-      <div class="carte ligne">
-        <span class="ligne__icone"><Icone nom="bible" /></span>
-        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Bible Louis Segond 1910</span>
-          <span class="ligne__desc">{bible.statut === 'complet' ? 'Disponible hors ligne (environ 4,5 Mo)' : `${bible.fait} livre${bible.fait > 1 ? 's' : ''} sur ${bible.total} sur ce téléphone`}</span></span>
-        {bible.statut === 'complet'
-          ? <button class="rond" aria-label="Supprimer la Bible de ce téléphone" onClick={async () => { if (confirm('Supprimer la Bible de ce téléphone ? Il faudra la retélécharger pour la lire sans internet.')) { await caches.delete(CACHE_BIBLE); verifierHorsLigne(); notifier('Bible supprimée de ce téléphone'); } }}><Icone nom="corbeille" taille={18} /></button>
-          : <a class="bouton bouton--plein bouton--petit" href="#/bible">Télécharger</a>}
       </div>
 
       <section class="carte stockage">

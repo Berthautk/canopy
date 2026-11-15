@@ -60,7 +60,7 @@ export function BarreOnglets({ actif }) {
 }
 
 const MENU = [
-  ['telechargements', 'Mes téléchargements', 'telecharger'],
+  ['telechargements', 'Installer et télécharger', 'telecharger'],
   ['parametres', 'Paramètres', 'reglages'],
   ['a-propos', 'À propos de Yeshaya', 'info'],
 ];

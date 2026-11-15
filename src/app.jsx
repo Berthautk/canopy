@@ -78,7 +78,7 @@ function titre([a, b, c]) {
     'quiz-du-jour': 'Quiz du jour', themes: c ? (QUIZ.find((q) => q.id === 'quiz-' + c)?.theme ?? 'Quiz') : 'Quiz par thème', complete: 'Complète le verset',
     'qui-suis-je': 'Qui suis-je ?', chemin: 'Le Chemin de la foi', defi: 'Défi biblique du jour', memoriser: 'Mémoriser un verset', ordre: "Remets dans l'ordre", duel: 'Duel à deux', badges: 'Mes badges',
   }[b] ?? (b ? 'Jouer et apprendre' : null);
-  if (a === 'telechargements') return 'Mes téléchargements';
+  if (a === 'telechargements') return 'Mon téléphone';
   if (a === 'ecouter') return 'Écouter';
   if (a === 'priere' && b === 'pour-quelqu-un') return c === 'jour' ? 'Prier pour un proche · Jour ' + arguments[0][3] : 'Prier pour un proche';
   if (a === 'priere' && b === 'sommeil') return "Prier pour s'endormir";
@@ -99,7 +99,7 @@ function titre([a, b, c]) {
   if (a !== 'bible' || !b) return null;
   return {
     livres: c && PAR_CODE[c] ? PAR_CODE[c].nom : 'Livres de la Bible', lire: 'Lire la Bible', recherche: 'Rechercher dans la Bible',
-    plan: 'Plan de lecture', meditation: 'Méditation du matin', sujets: c ? SUJETS.find((s) => s.id === c)?.titre ?? 'Versets par sujet' : 'Versets par sujet',
+    plan: 'Plan de lecture', meditation: 'Méditation du jour', sujets: c ? SUJETS.find((s) => s.id === c)?.titre ?? 'Versets par sujet' : 'Versets par sujet',
     chemin: 'Le chemin du salut', ressources: 'Mes favoris, surlignages et notes',
   }[b] ?? 'Bible';
 }
