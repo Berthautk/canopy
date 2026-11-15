@@ -734,3 +734,9 @@ a.lien[style], .theme-quiz__tete .lien { display: inline-block; padding-top: 10p
 .conv__a-toi { display: flex; align-items: center; justify-content: center; gap: 6px; font-weight: 700; color: var(--or-fonce, #9a7419); margin: 4px 0 2px; animation: conv-appel 1.6s ease-in-out 2; }
 @keyframes conv-appel { 50% { transform: scale(1.06); } }
 @media (prefers-reduced-motion: reduce) { .conv__a-toi { animation: none; } }
+/* Prière guidée plein écran : texte en haut (et non flottant au milieu), étiquette séparée du cadre de lecture, icônes lisibles. */
+.priere-guidee .priere-guidee__corps { justify-content: flex-start; padding-top: max(16px, 5vh); }
+.priere-guidee__etape { margin-bottom: 14px; letter-spacing: .02em; }
+.priere-guidee__texte[data-voix-actif='oui'] { padding: 10px 12px; outline-offset: 2px; }
+.priere-guidee__consigne { text-align: left; font-size: .98rem; line-height: 1.45; background: rgba(255,255,255,.07); border-radius: 12px; padding: 10px 12px; }
+.priere-guidee__consigne svg { flex: none; color: var(--or); }
