@@ -18,7 +18,9 @@ const ETAPES = [
   { nom: 'Le combat de la nuit', ciel: ['#1d2346', '#3b3f74'], sol: '#4a4a6a', bord: '#33334d', deco: 'etoile', mal: ['Peur', 'Sorcellerie', 'Haine', 'Idolâtrie'], nuit: true },
 ];
 const BIEN = [['🙏', 'Prière'], ['📖', 'Parole'], ['🪙', 'Donner'], ['📣', 'Évangéliser'], ['✅', 'Obéir'], ['❤️', 'Pardonner'], ['🎵', 'Louange']];
-const BUT = (n) => 150 + n * 50;   // mètres à parcourir pour finir l'étape n
+// Mètres à parcourir pour finir l'étape n : 2 km, 5 km, 10 km, puis 5 km de plus à chaque étape.
+const BUT = (n) => [2000, 5000, 10000][n] ?? 10000 + (n - 2) * 5000;
+const km = (m) => (m >= 1000 ? (m / 1000).toLocaleString('fr-FR', { maximumFractionDigits: 1 }) + ' km' : Math.floor(m) + ' m');
 const VERSETS = ['« Instruis l\'enfant selon la voie qu\'il doit suivre. » Proverbes 22:6', '« Que personne ne méprise ta jeunesse. » 1 Timothée 4:12',
   '« Fuis les passions de la jeunesse. » 2 Timothée 2:22', '« Tout ce que vous faites, faites-le de bon cœur, comme pour le Seigneur. » Colossiens 3:23',
   '« Moi et ma maison, nous servirons l\'Éternel. » Josué 24:15', '« L\'homme ne vivra pas de pain seulement. » Deutéronome 8:3', '« Revêtez-vous de toutes les armes de Dieu. » Éphésiens 6:11'];
@@ -51,7 +53,7 @@ export function Course() {
     const releve = etat.current?.releve || 0;
     etat.current = { voie: 1, x: 1, temps: 0, distance: 0, force: 100, objets: [], prochain: 0.8, etape: n, vitesse: 1, releve, invincible: 0, phase: 'course', anim: 0, bonus: [], lumiere: 0, bandeau: 2.8 };
     const et = ETAPES[n % ETAPES.length];
-    lire(n === 0 ? `Étape 1 : ${et.nom}. Évite les péchés, attrape ce qui te rend fort. Cours ${BUT(0)} mètres !` : `Étape ${n + 1} : ${et.nom}. Cours ${BUT(n)} mètres. Ça va plus vite !`);
+    lire(n === 0 ? `Étape 1 : ${et.nom}. Évite les péchés, attrape ce qui te rend fort. Cours ${km(BUT(0))} !` : `Étape ${n + 1} : ${et.nom}. Cours ${km(BUT(n))}. C'est plus long, et ça va plus vite !`);
     setVue({ phase: 'course' });
   }
   function pause() { const e = etat.current; if (e?.phase !== 'course') return; e.phase = 'pause'; setVue({ phase: 'pause' }); }
@@ -66,7 +68,7 @@ export function Course() {
     if (e.phase !== 'course') return;
     // La vitesse de départ monte à chaque étape, puis monte encore pendant l'étape.
     e.temps += dt; e.vitesse = 0.85 + e.etape * 0.14 + Math.min(0.6, (e.distance / BUT(e.etape)) * 0.6);
-    e.distance += dt * 6 * e.vitesse;
+    e.distance += dt * 11 * e.vitesse;
     e.x += (e.voie - e.x) * Math.min(1, dt * 14);
     if (e.distance >= BUT(e.etape)) return finirEtape();
     if (e.bandeau > 0) e.bandeau -= dt;
@@ -164,10 +166,10 @@ export function Course() {
     ctx.fillStyle = '#fff'; ctx.font = '600 13px Poppins, sans-serif'; ctx.textAlign = 'left'; ctx.fillText('Force', 20, 33);
     ctx.fillStyle = 'rgba(255,255,255,.25)'; rond(ctx, 66, 20, W * 0.3, 16, 8); ctx.fill();
     ctx.fillStyle = e.force > 35 ? '#f6c344' : '#ff6b5a'; rond(ctx, 66, 20, Math.max(0, W * 0.3 * e.force / 100), 16, 8); ctx.fill();
-    ctx.fillStyle = '#fff'; ctx.textAlign = 'right'; ctx.fillText(`Étape ${e.etape + 1} · ${Math.min(BUT(e.etape), Math.floor(e.distance))}/${BUT(e.etape)} m`, W - 18, 33);
+    ctx.fillStyle = '#fff'; ctx.textAlign = 'right'; ctx.fillText(`Étape ${e.etape + 1} · ${km(Math.min(BUT(e.etape), e.distance))} / ${km(BUT(e.etape))}`, W - 18, 33);
     if (e.bandeau > 0) {
       ctx.globalAlpha = Math.min(1, e.bandeau); ctx.fillStyle = 'rgba(20,35,64,.85)'; rond(ctx, W * 0.1, H * 0.3, W * 0.8, 58, 16); ctx.fill();
-      ctx.fillStyle = '#ffd86b'; ctx.font = '600 12px Poppins, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(`ÉTAPE ${e.etape + 1} · ${BUT(e.etape)} MÈTRES`, W / 2, H * 0.3 + 22);
+      ctx.fillStyle = '#ffd86b'; ctx.font = '600 12px Poppins, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(`ÉTAPE ${e.etape + 1} · ${km(BUT(e.etape)).toUpperCase()}`, W / 2, H * 0.3 + 22);
       ctx.fillStyle = '#fff'; ctx.font = '700 19px Poppins, sans-serif'; ctx.fillText(et.nom, W / 2, H * 0.3 + 46); ctx.globalAlpha = 1;
     }
   }
@@ -190,11 +192,16 @@ export function Course() {
           <p class="course__legende"><span class="course__pierre">Péché</span> esquive les pierres du péché : elles font mourir.</p>
           <p class="course__legende"><span class="course__or">🙏</span> attrape la prière, la Parole, le don… : ils te donnent de la force.</p>
           <button class="bouton bouton--or" onClick={() => nouvelle(0)}>▶ Courir (étape 1)</button>
-          {meilleur > 0 && <button class="bouton bouton--contour course__clair" onClick={() => nouvelle(meilleur)}>Reprendre à l'étape {meilleur + 1}</button>}
+          {meilleur > 0 && <>
+            <button class="bouton bouton--contour course__clair" onClick={() => nouvelle(meilleur)}>Continuer : étape {meilleur + 1}</button>
+            <p class="course__record">Rejouer une étape déjà réussie :</p>
+            <div class="course__etapes">{[...Array(meilleur)].map((_, i) => <button onClick={() => nouvelle(i)} aria-label={`Étape ${i + 1} : ${ETAPES[i % ETAPES.length].nom}`}><b>{i + 1}</b><small>{km(BUT(i))}</small></button>)}</div>
+          </>}
         </div>}
         {vue.phase === 'pause' && <div class="course__voile">
           <p style="font-size:3rem">⏸</p><h2>Pause</h2><p>Le jeu t'attend.</p>
           <button class="bouton bouton--or" onClick={reprendre}>▶ Reprendre</button>
+          <button class="bouton bouton--contour course__clair" onClick={() => { etat.current = null; setVue({ phase: 'debut' }); }}>Choisir une autre étape</button>
         </div>}
         {vue.phase === 'etape' && <div class="course__voile">
           <p style="font-size:2.6rem">🏁</p>
@@ -209,7 +216,7 @@ export function Course() {
           <h2>Veux-tu revivre ?</h2>
           <p>Pour continuer, il te faut Jésus.</p>
           <button class="bouton bouton--or course__jesus" onClick={revivre}>✝ Jésus, viens dans ma vie</button>
-          <p class="course__record">{vue.distance} m parcourus{e?.releve ? ` · relevé ${e.releve} fois par Jésus` : ''}</p>
+          <p class="course__record">{km(vue.distance)} parcourus{e?.releve ? ` · relevé ${e.releve} fois par Jésus` : ''}</p>
         </div>}
       </div>
       <div class="course__fleches">

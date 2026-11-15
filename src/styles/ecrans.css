@@ -829,7 +829,7 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .pelerin-msg { text-align: center; font-weight: 700; color: #c0392b; margin: 8px 0 0; } .pelerin-msg.ok { color: #2e7d4f; }
 
 .course__musique { display: block; margin: 8px 0 0 auto; border: 0; border-radius: 20px; padding: 6px 14px; background: var(--carte); color: var(--titre); font: 600 .85rem Poppins, sans-serif; box-shadow: var(--ombre); cursor: pointer; }
-.course__clair { color: #fff; border-color: #fff; }
+.course__voile .course__clair { color: #fff; border: 2px solid #fff; background: transparent; }
 .course { padding-bottom: 0; } .course__fleches { margin-bottom: 4px; }
 /* Enseignements : titre, introduction et points numérotés bien marqués. */
 .theme-hero__texte h2 { font-size: 1.75rem; line-height: 1.2; text-shadow: 0 2px 8px rgba(0,0,0,.45); }
@@ -842,3 +842,6 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .section-ens__sous { font-size: 1.12rem; font-weight: 700; padding-left: 10px; border-left: 4px solid var(--or); margin-top: 14px; }
 .course__haut { display: flex; justify-content: flex-end; gap: 8px; margin-top: 8px; } .course__haut .course__musique { margin: 0; }
 .course__pause { margin-right: auto !important; background: #142340; color: #fff; }
+.course__etapes { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; max-width: 320px; }
+.course__etapes button { width: 58px; height: 58px; border-radius: 14px; border: 2px solid #ffd86b; background: rgba(255,255,255,.1); color: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; }
+.course__etapes b { font-size: 1.2rem; } .course__etapes small { font-size: .65rem; opacity: .85; }
