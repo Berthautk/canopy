@@ -3,6 +3,12 @@
 const A = '/assets/';
 const REGLES = [
   [/intercess|brèche|nation|pays|autorités|dirigeant/i, ['priere/priere-pour-la-nation', 'priere/priere-pour-la-ville', 'priere/priere-pour-le-monde']],
+  [/islam|musulman|coran|mahomet/i, ['personnages/femme-voilee-regard-ciel', 'personnages/femme-foulard-en-priere']],
+  [/pardon|réconcili|offense|rancune/i, ['famille-quotidien/consolation-deuil', 'vie-chretienne/priere-au-pied-de-la-croix', 'symboles/mains-ouvertes-lumiere']],
+  [/hospitalité|accueil|salu|repas|étranger/i, ['eglise/accueil-a-la-porte', 'eglise/accueil-poignee-de-main', 'famille-quotidien/aide-colis']],
+  [/servir|serviteur|service|fardeau/i, ['eglise/entretien-de-eglise', 'eglise/distribution-de-dons', 'vie-chretienne/entraide-don']],
+  [/mort|deuil|jugement|éternité|retour de jésus|ciel/i, ['symboles/couronne-de-gloire', 'famille-quotidien/souvenir-deuil', 'paysages/coucher-soleil-montagnes']],
+  [/jeûn/i, ['priere/priere-avec-larmes', 'objets-quotidien/eau-et-the']],
   [/prière|prier|prie |genoux|exauc/i, ['priere/priere-et-bible', 'priere/mains-levees', 'priere/femme-en-priere', 'personnages/homme-en-priere', 'priere/priere-en-groupe']],
   [/croix|sang|calvaire|crucifi|sacrifice|agneau/i, ['objets-bibliques/croix-sur-colline', 'symboles/couronne-epines', 'symboles/agneau', 'symboles/croix-coucher-de-soleil']],
   [/ressusc|tombeau|résurrection/i, ['objets-bibliques/tombeau-vide', 'symboles/tombeau-lumineux']],

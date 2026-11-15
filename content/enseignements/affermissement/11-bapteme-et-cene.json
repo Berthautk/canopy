@@ -7,7 +7,7 @@
  "resume": "Onzième leçon de « Former le disciple » : les deux ordonnances que Jésus a données à son Église. Pourquoi se faire baptiser après avoir cru, ce que signifie le baptême, et comment prendre la sainte cène d'une manière digne.",
  "image": "/assets/eglise/bapteme-en-bassin.webp",
  "verset_de_base": "Mt 28:19",
- "lecture_minutes": 11,
+ "lecture_minutes": 14,
  "objectifs": [
   "Comprendre que Jésus a demandé à ses disciples d'être baptisés.",
   "Savoir ce que signifie le baptême et ce qu'il ne fait pas.",
@@ -145,6 +145,50 @@
   },
   {
    "numero": "4",
+   "titre": "Questions fréquentes sur le baptême et la cène",
+   "references": [
+    "Ac 8:36-38",
+    "Ac 2:41",
+    "1 Co 11:26"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "J'ai été baptisé bébé ; dois-je être baptisé de nouveau ?"
+    },
+    {
+     "texte": "Dans le Nouveau Testament, le baptême suit toujours la foi personnelle : « Ceux qui acceptèrent sa parole furent baptisés. » L'eunuque éthiopien a demandé : « Qu'est-ce qui empêche que je sois baptisé ? » après avoir cru. Beaucoup de chrétiens baptisés bébés demandent donc à être baptisés après leur conversion, pour obéir eux-mêmes au commandement de Jésus. Les églises ne pratiquent pas toutes de la même manière ; parles-en avec ton pasteur, Bible ouverte."
+    },
+    {
+     "verset": "Ac 8:36-38"
+    },
+    {
+     "sous_titre": "Le baptême efface-t-il les péchés automatiquement ?"
+    },
+    {
+     "texte": "Non. Ce n'est pas l'eau qui sauve, c'est Jésus. Le baptême est le signe visible d'une réalité intérieure : la mort au péché et la vie nouvelle avec Christ. Un baptême sans repentance ni foi n'est qu'un bain."
+    },
+    {
+     "sous_titre": "Puis-je prendre la cène si je ne suis pas encore baptisé ?"
+    },
+    {
+     "texte": "Dans la Bible, ceux qui participaient à la fraction du pain étaient des croyants baptisés (Actes 2:41-42). Beaucoup d'églises demandent donc d'être baptisé avant de prendre la cène. Si tu as cru, ne tarde pas à être baptisé."
+    },
+    {
+     "verset": "Ac 2:41"
+    },
+    {
+     "sous_titre": "Pourquoi prendre la cène régulièrement ?"
+    },
+    {
+     "texte": "Paul dit : toutes les fois que vous mangez ce pain et que vous buvez cette coupe, vous annoncez la mort du Seigneur jusqu'à ce qu'il vienne. La cène nous ramène régulièrement à la croix, nous pousse à examiner notre vie, à régler nos conflits avec nos frères, et nous fait regarder vers le retour de Jésus."
+    },
+    {
+     "verset": "1 Co 11:26"
+    }
+   ]
+  },
+  {
+   "numero": "5",
    "titre": "Prendre la cène d'une manière digne",
    "references": [
     "1 Co 11:27-28",
@@ -240,6 +284,17 @@
    "reponse": 1,
    "explication": "« Que chacun donc s'éprouve soi-même, et qu'ainsi il mange du pain et boive de la coupe. » (1 Corinthiens 11:28)",
    "section": "4"
+  },
+  {
+   "question": "Dans le Nouveau Testament, qu'est-ce qui vient avant le baptême ?",
+   "choix": [
+    "Le jeûne",
+    "La foi personnelle en Jésus",
+    "La première communion"
+   ],
+   "reponse": 1,
+   "explication": "(Actes 2:41 ; 8:36-38)",
+   "section": "5"
   }
  ],
  "devoir": [

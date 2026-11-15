@@ -7,7 +7,7 @@
  "resume": "Treizième et dernière leçon du volume 1 de « Former le disciple » : être disciple, ce n'est pas un jour de décision, c'est une marche quotidienne. Le prix à payer, demeurer en lui, ne pas regarder en arrière et courir jusqu'au bout.",
  "image": "/assets/jesus/jesus-marche-sur-le-chemin.webp",
  "verset_de_base": "Lc 9:23",
- "lecture_minutes": 11,
+ "lecture_minutes": 13,
  "objectifs": [
   "Comprendre que suivre Jésus est une marche de chaque jour.",
   "Connaître le prix du disciple et l'accepter.",
@@ -135,6 +135,50 @@
   },
   {
    "numero": "4",
+   "titre": "Ceux qui ont regardé en arrière",
+   "references": [
+    "Lc 9:61-62",
+    "Lc 17:32",
+    "2 Tm 4:10"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La main à la charrue"
+    },
+    {
+     "texte": "Un homme dit à Jésus : « Je te suivrai, Seigneur, mais permets-moi d'aller d'abord prendre congé de ceux de ma maison. » Jésus lui répondit : « Quiconque met la main à la charrue, et regarde en arrière, n'est pas propre au royaume de Dieu. » Le laboureur qui regarde derrière lui trace un sillon tordu. Le disciple qui regarde sans cesse vers sa vie d'avant ne peut pas avancer droit."
+    },
+    {
+     "verset": "Lc 9:61-62"
+    },
+    {
+     "sous_titre": "La femme de Lot"
+    },
+    {
+     "texte": "Jésus a dit en une phrase : « Souvenez-vous de la femme de Lot. » Elle était sortie de Sodome, mais son cœur y était resté. Elle a regardé en arrière et elle est devenue une statue de sel. On peut sortir physiquement d'une vie de péché tout en la regrettant dans son cœur."
+    },
+    {
+     "verset": "Lc 17:32"
+    },
+    {
+     "sous_titre": "Démas"
+    },
+    {
+     "texte": "Démas était un compagnon de Paul, cité avec Luc dans ses lettres. Mais à la fin, Paul écrit : « Démas m'a abandonné, par amour pour le siècle présent. » On peut servir avec un apôtre et finir par quitter le chemin. Ce n'est pas le départ qui compte, c'est l'arrivée."
+    },
+    {
+     "verset": "2 Tm 4:10"
+    },
+    {
+     "sous_titre": "Ce qui fait regarder en arrière"
+    },
+    {
+     "texte": "L'ancien petit ami ou l'ancienne petite amie qui rappelle. Les anciens amis du bar. L'argent facile d'avant. La famille qui fait pression pour revenir aux rites des ancêtres. La fatigue des épreuves. Identifie ce qui t'attire en arrière, et coupe ce qui doit l'être : un numéro, un lieu, une habitude."
+    }
+   ]
+  },
+  {
+   "numero": "5",
    "titre": "Courir jusqu'au bout",
    "references": [
     "Hé 12:1-2",
@@ -234,6 +278,28 @@
    "reponse": 1,
    "explication": "(Jean 6:68)",
    "section": "4"
+  },
+  {
+   "question": "Que dit Jésus de celui qui met la main à la charrue et regarde en arrière ?",
+   "choix": [
+    "Il est bon ouvrier",
+    "Il n'est pas propre au royaume de Dieu",
+    "Il doit recommencer"
+   ],
+   "reponse": 1,
+   "explication": "(Luc 9:62)",
+   "section": "5"
+  },
+  {
+   "question": "Pourquoi Démas a-t-il abandonné Paul ?",
+   "choix": [
+    "Il était malade",
+    "Par amour pour le siècle présent",
+    "Il avait été envoyé ailleurs"
+   ],
+   "reponse": 1,
+   "explication": "(2 Timothée 4:10)",
+   "section": "5"
   }
  ],
  "devoir": [
