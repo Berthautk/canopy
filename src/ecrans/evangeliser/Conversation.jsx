@@ -62,7 +62,7 @@ export function Conversation({ id }) {
       <div class="bulles">
         {hist.map((h, k) => <>
           {k === etape && <div ref={bas} style="scroll-margin-top:120px" />}
-          <Bulle n={c.noeuds[h.n]} actif={k === etape} />
+          {Bulle({ n: c.noeuds[h.n], actif: k === etape })}
           {h.rep && <div class="bulle bulle--ami"><span class="bulle__avatar" aria-hidden="true">🙂</span><div class="bulle__corps"><p>{h.rep}</p></div></div>}
         </>)}
       </div>
