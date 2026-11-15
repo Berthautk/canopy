@@ -725,3 +725,7 @@
 .tel__liste { list-style: none; margin: 0 0 8px; padding: 0; display: grid; gap: 8px; }
 .tel__liste li { display: flex; align-items: center; gap: 8px; font-weight: 600; flex-wrap: wrap; }
 .tel__liste li span { margin-left: auto; font-weight: 400; color: var(--texte-doux, #5a6470); font-size: .85rem; }
+/* Zones à toucher : au moins 44 px de haut pour les liens et boutons isolés (norme d'accessibilité). */
+button.lien { min-height: 44px; padding-top: 10px; padding-bottom: 10px; }
+a.lien[style], .theme-quiz__tete .lien { display: inline-block; padding-top: 10px; padding-bottom: 10px; }
+.etape-ordre__fleches button { min-width: 44px; min-height: 44px; }

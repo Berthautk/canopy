@@ -46,7 +46,7 @@ export function Accueil() {
 
         {ens && (
           <section class="carte audio-jour">
-            <a href={'#/grandir/enseignement/' + ens.id}><img src={ens.image} alt="" loading="lazy" /></a>
+            <a href={'#/grandir/enseignement/' + ens.id} tabindex="-1" aria-hidden="true"><img src={ens.image} alt="" loading="lazy" /></a>
             <a class="audio-jour__corps" href={'#/grandir/enseignement/' + ens.id}>
               <h2>Enseignement du jour</h2>
               <p class="audio-jour__auteur">{ens.lecture_minutes} min · lu à voix haute</p>

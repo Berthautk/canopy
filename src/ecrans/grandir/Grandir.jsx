@@ -10,7 +10,7 @@ function Enseignement({ e, n }) {
   const lien = piste ? '#/ecouter/' + e.id : '#/grandir/enseignement/' + e.id;
   return (
     <article class="carte enseignement">
-      <a href={lien}><img src={e.image} alt="" loading="lazy" /></a>
+      <a href={lien} tabindex="-1" aria-hidden="true"><img src={e.image} alt="" loading="lazy" /></a>
       <a class="ligne__corps" href={lien}>
         <span class="ligne__titre" style="display:block">{n && <span class="enseignement__num">{n}</span>}{e.titre} {e.exemple && <span class="etiquette-exemple">EXEMPLE</span>}</span>
         <span class="ligne__desc" style="display:block">{e.resume}</span>

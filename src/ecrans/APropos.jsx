@@ -71,7 +71,7 @@ export function APropos() {
       <h2 class="titre-section">Crédits</h2>
       <section class="carte apropos__texte credits">
         <p><strong>Bible :</strong> Louis Segond 1910, domaine public.</p>
-        <p><strong>Enseignements et audios :</strong> la liste des auteurs et de leurs autorisations sera affichée ici.</p>
+        <p><strong>Enseignements, prières et parcours :</strong> rédigés pour Yeshaya, à relire par un pasteur. Les programmes « Prier pour un proche » viennent de fiches de prière utilisées en famille. Les classiques (Spurgeon, Murray, Bounds) sont du domaine public, traduits pour Yeshaya.</p>
         <p><strong>Polices :</strong> Poppins (SIL Open Font License) et Roboto (Apache 2.0), hébergées dans l'application.</p>
         <p><strong>Icônes :</strong> dessinées pour Yeshaya, dans le style de Lucide (licence ISC).</p>
         <p><strong>Illustrations :</strong> créées pour Yeshaya.</p>

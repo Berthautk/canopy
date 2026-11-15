@@ -5,7 +5,9 @@ const PREFIXE = 'yeshaya:';
 const FORMAT = 'yeshaya-sauvegarde';
 
 const blobVersTexte = (b) => new Promise((ok, ko) => { const r = new FileReader(); r.onload = () => ok(r.result); r.onerror = ko; r.readAsDataURL(b); });
-const texteVersBlob = async (u) => (await fetch(u)).blob();
+// Une sauvegarde ne peut contenir qu'une image embarquée (data:), jamais une adresse à aller chercher.
+const texteVersBlob = async (u) => { if (typeof u !== 'string' || !u.startsWith('data:image/')) return null; return (await fetch(u)).blob(); };
+const LOCALES = (k) => k.startsWith(PREFIXE) && k !== 'yeshaya:admin';
 
 // Ce que contient la sauvegarde, en clair (affiché avant de restaurer)
 const LIBELLES = { reglages: 'Réglages', 'profil-photo': 'Photo de profil', 'profil-prenom': 'Prénom', annotations: 'Favoris, surlignages et notes',
@@ -19,7 +21,10 @@ export async function creerSauvegarde() {
     if (typeof k !== 'string' || !k.startsWith(PREFIXE) || k === 'yeshaya:telechargements' || k === 'yeshaya:mesure-file' || k === 'yeshaya:priere-a-envoyer') continue;   // rythme et temps : inclus   // les audios ne sont pas inclus (trop lourds)
     donnees[k.slice(PREFIXE.length)] = v instanceof Blob ? { __blob: await blobVersTexte(v) } : v;
   }
-  return { format: FORMAT, version: 1, application: 'Yeshaya', date: new Date().toISOString(), donnees };
+  // Petits réglages gardés hors de la base (sons des jeux, versets mémorisés, rythme du jour).
+  const locales = {};
+  try { for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (LOCALES(k)) locales[k] = localStorage.getItem(k); } } catch {}
+  return { format: FORMAT, version: 1, application: 'Yeshaya', date: new Date().toISOString(), donnees, locales };
 }
 
 export function nomFichier() {
@@ -48,7 +53,7 @@ export async function partagerSauvegarde() {
 export async function lireSauvegarde(fichier) {
   let s;
   try { s = JSON.parse(await fichier.text()); } catch { throw new Error('Ce fichier n\'est pas une sauvegarde Yeshaya.'); }
-  if (s?.format !== FORMAT || typeof s.donnees !== 'object') throw new Error('Ce fichier n\'est pas une sauvegarde Yeshaya.');
+  if (s?.format !== FORMAT || !s.donnees || typeof s.donnees !== 'object' || Array.isArray(s.donnees)) throw new Error('Ce fichier n\'est pas une sauvegarde Yeshaya.');
   return s;
 }
 
@@ -57,7 +62,12 @@ export async function restaurer(s) {
   const actuelles = (await keys()).filter((k) => typeof k === 'string' && k.startsWith(PREFIXE) && k !== 'yeshaya:telechargements');
   await delMany(actuelles);
   const paires = [];
-  for (const [k, v] of Object.entries(s.donnees)) paires.push([PREFIXE + k, v && v.__blob ? await texteVersBlob(v.__blob) : v]);
+  for (const [k, v] of Object.entries(s.donnees)) {
+    if (!/^[a-z0-9:_-]{1,60}$/i.test(k)) continue;                      // clés inattendues ignorées
+    const val = v && v.__blob ? await texteVersBlob(v.__blob) : v;
+    if (val !== null || !(v && v.__blob)) paires.push([PREFIXE + k, val]);
+  }
   await setMany(paires);
+  try { for (const [k, v] of Object.entries(s.locales || {})) if (LOCALES(k) && typeof v === 'string' && v.length < 200000) localStorage.setItem(k, v); } catch {}
   try { if (s.donnees.reglages) localStorage.setItem('yeshaya:reglages', JSON.stringify(s.donnees.reglages)); } catch {}
 }

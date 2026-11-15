@@ -44,3 +44,9 @@ export function memeTexte(a = '', b = '') {
   return d === 0;
 }
 export const json = (o, statut = 200) => new Response(JSON.stringify(o), { status: statut, headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' } });
+
+// Refuse les envois qui viennent d'un autre site (un navigateur indique toujours l'origine d'un POST).
+export function memeOrigine(request) {
+  const o = request.headers.get('origin'); if (!o) return true;            // applications et outils sans navigateur : pas d'en-tête
+  try { return new URL(o).host === new URL(request.url).host; } catch { return false; }
+}

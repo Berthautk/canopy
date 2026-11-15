@@ -1,7 +1,8 @@
-import { lignesValides, enregistrer, json } from '../_stats.js';
+import { lignesValides, enregistrer, json, memeOrigine } from '../_stats.js';
 
 // POST /api/evenements : reçoit des compteurs anonymes par jour.
 export async function onRequestPost({ request, env }) {
+  if (!memeOrigine(request)) return json({ ok: false }, 403);
   if (!env.DB) return json({ ok: false, erreur: 'base non configurée' }, 503);
   const taille = Number(request.headers.get('content-length') || 0);
   if (taille > 50000) return json({ ok: false }, 413);
