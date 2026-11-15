@@ -12,7 +12,12 @@ import { useSignal } from '../../outils/signal.js';
 // Un nœud dit : des phrases et des versets mêlés (« dit »), puis éventuellement une question finale.
 // Les variables {peches}, {s}, {annees}, {total} viennent des réponses déjà données.
 const remplir = (t, x) => t.replace(/\{(\w+)\}/g, (m, k) => (k in x ? x[k] : m));
-const elements = (n, x) => [...n.dit.map((t) => (typeof t === 'string' ? { texte: remplir(t, x) } : { reference: t.verset })), ...(n.versets || []).map((r) => ({ reference: r })), ...(n.question ? [{ texte: remplir(n.question, x), question: true }] : [])];
+const elements = (n, x) => {
+  const l = [...n.dit.map((t) => (typeof t === 'string' ? { texte: remplir(t, x) } : { reference: t.verset })), ...(n.versets || []).map((r) => ({ reference: r }))];
+  if (n.question) l.push({ texte: remplir(n.question, x), question: true });
+  else if (n.choix?.length) { const d = [...l].reverse().find((e) => e.texte); if (d && /\?\s*$/.test(d.texte)) d.question = true; }   // ancien format : la dernière phrase interrogative
+  return l;
+};
 const blocsDe = (n, x) => elements(n, x).map((e) => (e.reference ? { reference: e.reference } : { texte: e.texte }));
 function variables(hist, c) {
   let peches = 0, annees = 20;

@@ -740,3 +740,7 @@ a.lien[style], .theme-quiz__tete .lien { display: inline-block; padding-top: 10p
 .priere-guidee__texte[data-voix-actif='oui'] { padding: 10px 12px; outline-offset: 2px; }
 .priere-guidee__consigne { text-align: left; font-size: .98rem; line-height: 1.45; background: rgba(255,255,255,.07); border-radius: 12px; padding: 10px 12px; }
 .priere-guidee__consigne svg { flex: none; color: var(--or); }
+.bouton { text-align: center; }
+.conv__verset .verset__actions { flex-wrap: nowrap; gap: 6px; }
+.conv__verset .verset__actions .bouton { padding: 0 12px; min-height: 40px; font-size: .85rem; }
+.conv__verset .carte { padding: 12px; }

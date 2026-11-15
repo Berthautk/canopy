@@ -9,8 +9,7 @@
  "noeuds": {
   "debut": {
    "dit": [
-    "Bonjour ! Je voudrais faire avec toi un petit voyage dans la Bible, sur ce qu'on appelle « la route des Romains » : quelques versets de la lettre de l'apôtre Paul aux Romains, qui expliquent comment être sauvé. À chaque étape, je te pose une question.",
-    "Pour commencer : as-tu déjà lu la Bible, ou entendu parler de la lettre aux Romains ?"
+    "Bonjour ! Je voudrais faire avec toi un petit voyage dans la Bible, sur ce qu'on appelle « la route des Romains » : quelques versets de la lettre de l'apôtre Paul aux Romains, qui expliquent comment être sauvé. À chaque étape, je te pose une question."
    ],
    "versets": [],
    "choix": [
@@ -26,18 +25,22 @@
      "texte": "Jamais",
      "aller": "etape1"
     }
-   ]
+   ],
+   "question": "Pour commencer : as-tu déjà lu la Bible, ou entendu parler de la lettre aux Romains ?"
   },
   "etape1": {
    "dit": [
-    "Première étape. La Bible dit : Il n'y a point de juste, pas même un seul. Et encore : tous ont péché et sont privés de la gloire de Dieu.",
-    "« Tous », cela veut dire le pasteur, le président, moi, et toi aussi. Le péché, c'est désobéir à Dieu : mentir, voler, haïr, convoiter, vivre comme si Dieu n'existait pas.",
-    "Es-tu d'accord que tu as, toi aussi, péché contre Dieu ?"
+    "Première étape. Ouvrons la lettre aux Romains au chapitre 3. L'apôtre Paul écrit :",
+    {
+     "verset": "Rm 3:10"
+    },
+    "Et quelques versets plus loin, il ajoute :",
+    {
+     "verset": "Rm 3:23"
+    },
+    "« Tous », cela veut dire le pasteur, le président, moi, et toi aussi. Le péché, c'est désobéir à Dieu : mentir, voler, haïr, convoiter, vivre comme si Dieu n'existait pas."
    ],
-   "versets": [
-    "Rm 3:10",
-    "Rm 3:23"
-   ],
+   "versets": [],
    "choix": [
     {
      "texte": "Oui, j'ai péché",
@@ -47,7 +50,8 @@
      "texte": "Je ne suis pas pire que les autres",
      "aller": "comparaison"
     }
-   ]
+   ],
+   "question": "Es-tu d'accord pour reconnaître que toi aussi, tu as péché contre Dieu ?"
   },
   "comparaison": {
    "dit": [
@@ -59,18 +63,22 @@
      "texte": "Je comprends, j'ai péché",
      "aller": "etape2"
     }
-   ]
+   ],
+   "question": "Reconnais-tu maintenant que toi aussi, tu as péché ?"
   },
   "etape2": {
    "dit": [
-    "Deuxième étape. D'où vient le péché ? La Bible explique que par un seul homme, Adam, le péché est entré dans le monde, et par le péché la mort. Depuis, chaque être humain naît avec un cœur tourné vers le mal.",
-    "Et il y a une conséquence : le salaire du péché, c'est la mort. Un salaire, c'est ce qu'on mérite après avoir travaillé. Le péché nous a « mérité » la mort : pas seulement la mort du corps, mais la séparation éternelle d'avec Dieu.",
-    "Savais-tu que le péché a des conséquences aussi graves ?"
+    "Deuxième étape. D'où vient le péché ? Au chapitre 5, Paul explique :",
+    {
+     "verset": "Rm 5:12"
+    },
+    "Depuis Adam, chaque être humain naît avec un cœur tourné vers le mal. Et ce péché a une conséquence. Écoute ce que dit le chapitre 6 :",
+    {
+     "verset": "Rm 6:23"
+    },
+    "Un salaire, c'est ce qu'on mérite après avoir travaillé. Le péché nous a « mérité » la mort : pas seulement la mort du corps, mais la séparation éternelle d'avec Dieu."
    ],
-   "versets": [
-    "Rm 5:12",
-    "Rm 6:23"
-   ],
+   "versets": [],
    "choix": [
     {
      "texte": "Non, je ne savais pas",
@@ -80,18 +88,19 @@
      "texte": "Oui, je le savais",
      "aller": "etape3"
     }
-   ]
+   ],
+   "question": "Savais-tu que le péché avait des conséquences aussi graves ?"
   },
   "etape3": {
    "dit": [
-    "Troisième étape, la plus belle : le même verset continue. Mais le don gratuit de Dieu, c'est la vie éternelle en Jésus-Christ notre Seigneur.",
-    "Un don gratuit, on ne le gagne pas, on ne l'achète pas : on le reçoit. Et voici comment Dieu nous a montré son amour : lorsque nous étions encore des pécheurs, Christ est mort pour nous. Jésus a pris notre salaire, la mort, sur la croix. Puis Dieu l'a ressuscité le troisième jour.",
-    "Que penses-tu de cet amour ?"
+    "Troisième étape, la plus belle. Le verset que nous venons de lire ne s'arrête pas à la mort : il dit aussi que le don gratuit de Dieu, c'est la vie éternelle en Jésus-Christ notre Seigneur. Un don gratuit, on ne le gagne pas, on ne l'achète pas : on le reçoit.",
+    "Et voici comment Dieu nous a montré son amour. Paul l'écrit au chapitre 5 :",
+    {
+     "verset": "Rm 5:8"
+    },
+    "Jésus a pris notre salaire, la mort, sur la croix. Puis Dieu l'a ressuscité le troisième jour."
    ],
-   "versets": [
-    "Rm 6:23",
-    "Rm 5:8"
-   ],
+   "versets": [],
    "choix": [
     {
      "texte": "C'est incroyable",
@@ -101,49 +110,61 @@
      "texte": "Pourquoi ferait-il cela pour moi ?",
      "aller": "pourquoi"
     }
-   ]
+   ],
+   "question": "Que penses-tu de cet amour que Dieu a pour toi ?"
   },
   "pourquoi": {
    "dit": [
-    "Parce qu'il t'aime, simplement. Pas parce que tu le mérites, mais parce que Dieu est amour. Rien ne peut nous séparer de l'amour de Dieu manifesté en Jésus-Christ. Tu as tellement de valeur à ses yeux qu'il a donné son Fils pour toi."
+    "Parce qu'il t'aime, simplement. Pas parce que tu le mérites, mais parce que Dieu est amour. Paul en était tellement sûr qu'il a écrit :",
+    {
+     "verset": "Rm 8:38-39"
+    },
+    "Tu as tellement de valeur à ses yeux qu'il a donné son Fils pour toi."
    ],
-   "versets": [
-    "Rm 8:38-39"
-   ],
+   "versets": [],
    "choix": [
     {
      "texte": "Je veux savoir comment le recevoir",
      "aller": "etape4"
     }
-   ]
+   ],
+   "question": "Veux-tu savoir comment recevoir ce don ?"
   },
   "etape4": {
    "dit": [
-    "Quatrième étape : comment recevoir ce don ? La Bible est très claire. Si tu confesses de ta bouche le Seigneur Jésus, et si tu crois dans ton cœur que Dieu l'a ressuscité des morts, tu seras sauvé.",
+    "Quatrième étape : comment recevoir ce don ? La Bible est très claire, au chapitre 10 :",
+    {
+     "verset": "Rm 10:9-10"
+    },
     "Croire dans ton cœur, ce n'est pas seulement savoir que Jésus a existé. C'est lui faire confiance, te détourner de ton péché pour revenir à Dieu, et l'accueillir dans ta vie. Confesser de ta bouche, c'est le dire : Jésus est mon Seigneur.",
-    "Et c'est pour tout le monde, sans exception : quiconque invoquera le nom du Seigneur sera sauvé. « Quiconque », c'est toi aussi."
+    "Et c'est pour tout le monde, sans exception :",
+    {
+     "verset": "Rm 10:13"
+    },
+    "« Quiconque », c'est toi aussi."
    ],
-   "versets": [
-    "Rm 10:9-10",
-    "Rm 10:13"
-   ],
+   "versets": [],
    "choix": [
     {
-     "texte": "Et après, que se passe-t-il ?",
+     "texte": "Oui, dis-moi",
      "aller": "etape5"
     }
-   ]
+   ],
+   "question": "Veux-tu savoir ce qui se passe quand tu reçois Jésus ?"
   },
   "etape5": {
    "dit": [
-    "Dernière étape : ce que tu reçois. Étant justifiés par la foi, nous avons la paix avec Dieu. Justifié, cela veut dire déclaré juste, comme si tu n'avais jamais péché, parce que Jésus a payé.",
-    "Et il n'y a donc maintenant aucune condamnation pour ceux qui sont en Jésus-Christ. Plus de condamnation : le pardon, la paix, et la vie éternelle.",
-    "Veux-tu recevoir Jésus aujourd'hui, te détourner de ton péché et lui faire confiance comme ton Sauveur et ton Seigneur ?"
+    "Dernière étape : ce que tu reçois. Paul écrit :",
+    {
+     "verset": "Rm 5:1"
+    },
+    "Justifié, cela veut dire déclaré juste, comme si tu n'avais jamais péché, parce que Jésus a payé. Et il ajoute au chapitre 8 :",
+    {
+     "verset": "Rm 8:1"
+    },
+    "Plus de condamnation : le pardon, la paix, et la vie éternelle."
    ],
-   "versets": [
-    "Rm 5:1",
-    "Rm 8:1"
-   ],
+   "versets": [],
    "choix": [
     {
      "texte": "Oui, je le veux",
@@ -153,22 +174,26 @@
      "texte": "Pas encore",
      "aller": "pas-encore"
     }
-   ]
+   ],
+   "question": "Veux-tu recevoir Jésus aujourd'hui, te détourner de ton péché et lui faire confiance comme ton Sauveur et ton Seigneur ?"
   },
   "pas-encore": {
    "dit": [
-    "Je respecte ta décision. Garde ces versets dans ton cœur et relis-les : Romains 3:23, 6:23, 5:8, 10:9. Et souviens-toi : voici maintenant le temps favorable, voici maintenant le jour du salut. Tu peux revenir à cette conversation quand tu veux."
+    "Je respecte ta décision. Garde ces versets dans ton cœur et relis-les : Romains 3:23, 6:23, 5:8 et 10:9. Et souviens-toi de ce que dit la Bible :",
+    {
+     "verset": "2 Co 6:2"
+    },
+    "Tu peux revenir à cette conversation quand tu veux."
    ],
-   "versets": [
-    "2 Co 6:2"
-   ],
+   "versets": [],
    "choix": [
     {
      "texte": "Finalement, je veux prier maintenant",
      "aller": "priere"
     }
    ],
-   "fin": "pas-encore"
+   "fin": "pas-encore",
+   "question": "Veux-tu finalement prier maintenant ?"
   },
   "priere": {
    "dit": [
