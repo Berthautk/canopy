@@ -28,3 +28,22 @@
 ## 5. Organisation de l'onglet Jeux
 - Des blocs reconnaissables **à l'image**, sans avoir à lire : « Petits enfants », « Enfants », « Jeunes et adultes », « En groupe ».
 - Un enfant qui entre sait tout de suite où trouver ses jeux.
+
+## 6. Protéger les yeux dans l'espace Jeux (demandé le 15/11)
+- **Un bouton « Protéger mes yeux »** à l'entrée des Jeux, activé par défaut pour les enfants. Il active d'un coup :
+  - des couleurs plus douces et plus chaudes, avec moins de lumière bleue ;
+  - un fond sombre et pas de blanc éclatant ;
+  - pas de clignotements.
+- **Une pause toutes les 20 minutes.** La voix dit « Repose tes yeux : regarde loin, par la fenêtre, pendant 20 secondes », avec un petit compte à rebours.
+- **Une limite de temps pour les enfants**, réglée par le parent (30, 45 ou 60 min) et protégée par un calcul simple. À la fin : « C'est fini pour aujourd'hui ».
+- **Un rappel de distance** : « Tiens le téléphone loin de tes yeux ».
+- **Limite technique** : l'application ne peut pas changer la luminosité du téléphone lui-même. Elle peut seulement assombrir et adoucir son propre affichage.
+
+## 7. Télévision
+- Le jeu marche sur téléphone et sur ordinateur.
+- Sur une télévision : diffuser l'écran du téléphone, ou ouvrir le site dans le navigateur de la télévision.
+- Prévoir les flèches de la télécommande ou du clavier pour diriger le personnage.
+
+## 8. Qualité des dessins
+- Personnages et décors dessinés en vectoriel (SVG et canvas) : nets sur tout écran et légers.
+- À la reprise, vérifier s'il existe un connecteur gratuit qui produit de belles images, et le proposer à l'utilisateur.
