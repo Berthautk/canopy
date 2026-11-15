@@ -9,7 +9,16 @@ import { notifier } from '../../composants/Notification.jsx';
 import { compter } from '../../donnees/mesure.js';
 import { useSignal } from '../../outils/signal.js';
 
-const blocsDe = (n) => [...n.dit.map((t) => ({ texte: t })), ...n.versets.map((r) => ({ reference: r }))];
+// Un nœud dit : des phrases et des versets mêlés (« dit »), puis éventuellement une question finale.
+// Les variables {peches}, {s}, {annees}, {total} viennent des réponses déjà données.
+const remplir = (t, x) => t.replace(/\{(\w+)\}/g, (m, k) => (k in x ? x[k] : m));
+const elements = (n, x) => [...n.dit.map((t) => (typeof t === 'string' ? { texte: remplir(t, x) } : { reference: t.verset })), ...(n.versets || []).map((r) => ({ reference: r })), ...(n.question ? [{ texte: remplir(n.question, x), question: true }] : [])];
+const blocsDe = (n, x) => elements(n, x).map((e) => (e.reference ? { reference: e.reference } : { texte: e.texte }));
+function variables(hist, c) {
+  let peches = 0, annees = 20;
+  for (const h of hist) { const ch = h.rep && c.noeuds[h.n]?.choix.find((y) => y.texte === h.rep); if (ch?.peche) peches += ch.peche; if (ch?.annees) annees = ch.annees; }
+  return { peches, s: peches > 1 ? 's' : '', annees, total: (1825 * annees).toLocaleString('fr-FR') };
+}
 
 // Conversation interactive : l'application parle (texte coloré au rythme de la voix),
 // puis les réponses apparaissent ; la personne touche la sienne et la conversation continue.
@@ -27,7 +36,7 @@ export function Conversation({ id }) {
   useEffect(() => { if (ici && v.termine) setLus((l) => (l.includes(etape) ? l : [...l, etape])); }, [v.termine, v.id]);
   useEffect(() => {
     if (!c || v.disponible || lu) return;
-    const n = cour.dit.join(' ').length + cour.versets.length * 150;
+    const n = cour.dit.map((t) => (typeof t === 'string' ? t : '')).join(' ').length + ((cour.versets || []).length + cour.dit.filter((t) => typeof t !== 'string').length) * 150;
     const t = setTimeout(() => setLus((l) => [...l, etape]), Math.max(2500, (n / 16) * 1000));
     return () => clearTimeout(t);
   }, [etape]);
@@ -35,19 +44,21 @@ export function Conversation({ id }) {
   useEffect(() => () => arreterVoix(), []);
   if (!c) return <div class="page"><p class="ligne__desc">Contenu introuvable.</p></div>;
 
+  const x = variables(hist, c);
   const repondre = (ch) => {
     const h = [...hist.slice(0, -1), { ...hist[etape], rep: ch.texte }, { n: ch.aller }];
     setHist(h);
-    if (v.disponible) lireAVoixHaute(`${id}-${h.length - 1}`, blocsDe(c.noeuds[ch.aller]));
+    if (v.disponible) lireAVoixHaute(`${id}-${h.length - 1}`, blocsDe(c.noeuds[ch.aller], variables(h, c)));
   };
   const recommencer = () => { arreterVoix(); setHist([{ n: 'debut' }]); setLus([]); scrollTo(0, 0); };
 
-  const Bulle = ({ n, actif }) => (
+  const Bulle = ({ n, actif, x }) => (
     <div class="bulle bulle--chretien conv__app">
       <span class="bulle__avatar" aria-hidden="true"><Icone nom="croix" taille={16} /></span>
       <div class="bulle__corps">
-        {n.dit.map((t, k) => <p {...(actif ? va(k) : {})} class={n.fin === 'priere' && k === n.dit.length - 1 ? 'conv__priere' : ''}>{t}</p>)}
-        {n.versets.length > 0 && <div class="liste" style="margin-top:6px">{n.versets.map((r, k) => <div {...(actif ? va(n.dit.length + k) : {})}><CarteVerset reference={r} /></div>)}</div>}
+        {elements(n, x).map((e, k) => e.reference
+          ? <div class="conv__verset" {...(actif ? va(k) : {})}><CarteVerset reference={e.reference} /></div>
+          : <p {...(actif ? va(k) : {})} class={e.question ? 'conv__question' : n.fin === 'priere' && k === 0 ? 'conv__priere' : ''}>{e.texte}</p>)}
       </div>
     </div>
   );
@@ -62,7 +73,7 @@ export function Conversation({ id }) {
       <div class="bulles">
         {hist.map((h, k) => <>
           {k === etape && <div ref={bas} style="scroll-margin-top:120px" />}
-          {Bulle({ n: c.noeuds[h.n], actif: k === etape })}
+          {Bulle({ n: c.noeuds[h.n], actif: k === etape, x: variables(hist.slice(0, k), c) })}
           {h.rep && <div class="bulle bulle--ami"><span class="bulle__avatar" aria-hidden="true">🙂</span><div class="bulle__corps"><p>{h.rep}</p></div></div>}
         </>)}
       </div>
@@ -70,11 +81,11 @@ export function Conversation({ id }) {
       {v.disponible && <div class="etape-commandes" style="margin-top:10px">
         {ici && v.lecture ? <button class="bouton bouton--contour" onClick={pauseVoix}><Icone nom="pause" taille={20} /> Pause</button>
           : ici && !v.termine ? <button class="bouton bouton--contour" onClick={reprendreVoix}><Icone nom="lecture" taille={20} /> Reprendre</button>
-          : <button class={'bouton ' + (lu ? 'bouton--contour' : 'bouton--or')} onClick={() => lireAVoixHaute(vid, blocsDe(cour))}><Icone nom={lu ? 'rejouer' : 'lecture'} taille={20} /> {lu ? 'Réécouter' : 'Écouter'}</button>}
+          : <button class={'bouton ' + (lu ? 'bouton--contour' : 'bouton--or')} onClick={() => lireAVoixHaute(vid, blocsDe(cour, x))}><Icone nom={lu ? 'rejouer' : 'lecture'} taille={20} /> {lu ? 'Réécouter' : 'Écouter'}</button>}
       </div>}
 
       {cour.choix.length > 0 && (lu
-        ? <div class="conv__choix" role="group" aria-label="Ta réponse">{cour.choix.map((ch) => <button class="bouton bouton--plein" onClick={() => repondre(ch)}>{ch.texte}</button>)}</div>
+        ? <div class="conv__choix" role="group" aria-label="Ta réponse"><p class="conv__a-toi"><Icone nom="info" taille={18} /> À toi de répondre : touche ta réponse</p>{cour.choix.map((ch) => <button class="bouton bouton--plein" onClick={() => repondre(ch)}>{ch.texte}</button>)}</div>
         : <p class="ligne__desc" style="text-align:center;margin-top:8px">{v.disponible ? (etape === 0 && !ici ? 'Touche « Écouter » pour commencer.' : 'Les réponses apparaîtront quand la voix aura fini.') : 'Lis le message ; les réponses apparaissent dans un instant.'}</p>)}
 
       {cour.fin === 'priere' && lu && <>

@@ -729,3 +729,8 @@
 button.lien { min-height: 44px; padding-top: 10px; padding-bottom: 10px; }
 a.lien[style], .theme-quiz__tete .lien { display: inline-block; padding-top: 10px; padding-bottom: 10px; }
 .etape-ordre__fleches button { min-width: 44px; min-height: 44px; }
+.conv__question { font-weight: 700; color: var(--titre); border-left: 4px solid var(--or); padding-left: 10px; }
+.conv__verset { margin: 8px 0; }
+.conv__a-toi { display: flex; align-items: center; justify-content: center; gap: 6px; font-weight: 700; color: var(--or-fonce, #9a7419); margin: 4px 0 2px; animation: conv-appel 1.6s ease-in-out 2; }
+@keyframes conv-appel { 50% { transform: scale(1.06); } }
+@media (prefers-reduced-motion: reduce) { .conv__a-toi { animation: none; } }
