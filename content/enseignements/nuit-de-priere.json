@@ -1,64 +1,152 @@
 {
  "id": "enseignement-nuit-de-priere",
- "titre": "La nuit de prière — Veiller avec Dieu",
- "theme": "Vie de prière",
+ "titre": "La nuit de prière : veiller avec Dieu",
  "serie": "L'Arsenal de la Sentinelle",
- "resume": "Modèle biblique, types de veilles et programme complet",
+ "theme": "Vie de prière",
+ "auteur": "L'Arsenal de la Sentinelle",
+ "resume": "Pourquoi et comment passer une nuit en prière. Le modèle de Jésus, de Jacob, de Paul et Silas, les différentes formes de veilles (personnelle, conjugale, en groupe, avec jeûne), un programme concret de 22 h à 5 h, et des conseils pratiques pour tenir sans orgueil ni épuisement.",
  "image": "/assets/priere/priere-avec-larmes.webp",
- "verset_de_base": "Luc 6:12",
+ "verset_de_base": "Lc 6:12",
+ "lecture_minutes": 30,
  "objectifs": [
-  "Comprendre la particularité spirituelle de la veille nocturne",
-  "Saisir le modèle biblique des nuits de prière",
-  "Choisir la forme de veille adaptée à sa situation",
-  "Suivre un programme complet de la nuit, sans condamnation"
+  "Comprendre ce qu'est une veille de prière et en quoi elle diffère d'un exploit d'endurance.",
+  "Découvrir les exemples bibliques de prière nocturne.",
+  "Connaître les différentes formes de nuit de prière.",
+  "Disposer d'un programme pratique et de conseils pour vivre une nuit de prière avec fruit."
  ],
- "introduction": "Jésus passa des nuits entières en prière. Luc 6:12 : « Jésus s'en alla sur la montagne pour prier, et il passa toute la nuit à prier Dieu. » Ce n'est pas une exception — c'est un modèle. La nuit a une particularité : le silence du monde physique permet une connexion plus profonde avec le monde spirituel. Dans la Bible, les grandes percées se produisent souvent la nuit : Jacob lutte avec Dieu (Genèse 32:24-30), Paul et Silas chantent à minuit et les prisonniers sont libérés (Actes 16:25-26). La nuit de prière n'est pas une torture — c'est un privilège.",
+ "introduction": "Il y a une chose que l'on dit rarement de Jésus : il a passé des nuits entières à prier. Les Évangiles le disent simplement. Avant de choisir ses douze apôtres, Jésus s'en alla sur la montagne pour prier, et il passa toute la nuit à prier Dieu. Ce n'est pas une exception rare : c'est un modèle. Le Fils de Dieu, qui avait pourtant une relation parfaite avec le Père, a ressenti le besoin de longues heures de prière dans le silence de la nuit.\n\nLa nuit a quelque chose de particulier. Le bruit des villes s'éteint. Les appels, les occupations, les visiteurs, tout se calme. Pour beaucoup de personnes, la nuit est le seul moment où l'on peut être vraiment seul avec Dieu. Dans la Bible, plusieurs grands moments de rencontre avec Dieu ont eu lieu la nuit : Jacob qui lutte avec l'ange, Samuel qui entend la voix de Dieu, Paul et Silas qui chantent dans la prison.\n\nDans cet enseignement, nous allons regarder ce que la Bible dit de la prière de nuit. Nous verrons comment la vivre, seul ou à plusieurs, avec un programme concret. Mais avant d'aller plus loin, une précision importante : une nuit de prière n'est pas une performance. Dieu ne nous aime pas davantage parce que nous ne dormons pas. Ce qui compte, c'est la rencontre avec lui. Si une nuit de prière devient un moyen de se sentir plus spirituel que les autres, elle perd son sens.",
  "sections": [
   {
    "numero": "1",
-   "titre": "Définition — qu'est-ce qu'une nuit de prière ?",
+   "titre": "Qu'est-ce qu'une nuit de prière ?",
    "references": [
-    "Luc 6:12",
-    "Psaume 119:147-148",
-    "1 Thessaloniciens 5:17"
+    "Lc 6:12",
+    "Ps 119:147-148",
+    "1 Th 5:17",
+    "Ps 134:1"
    ],
    "blocs": [
     {
-     "texte": "La nuit de prière, ou veille, est un temps prolongé consacré à prier durant les heures de la nuit, là où le monde dort et où le silence favorise l'écoute de Dieu."
+     "sous_titre": "Une rencontre prolongée"
     },
     {
-     "texte": "Ce n'est pas une performance d'endurance : c'est une rencontre prolongée avec Dieu, une garde spirituelle posée sur sa vie, sa famille et son territoire."
+     "texte": "Une nuit de prière, ou veille, est un temps prolongé consacré à la prière pendant les heures de la nuit, quand le monde dort et que le silence aide à écouter Dieu. Ce n'est pas d'abord un effort d'endurance. C'est une rencontre prolongée avec Dieu, comme une longue conversation avec un ami que l'on aime, où le temps passe sans qu'on le voie."
     },
     {
-     "verset": "Psaume 119:147-148"
+     "sous_titre": "Veiller, un vieux mot"
     },
     {
-     "texte": "Veiller, c'est s'aligner sur ces serviteurs de l'Éternel qui se tiennent dans Sa maison pendant la nuit (Psaume 134:1)."
+     "texte": "Le psalmiste écrit : je devance l'aurore et je crie ; j'espère en tes paroles. Mes yeux devancent les veilles de la nuit, pour méditer ta parole."
+    },
+    {
+     "verset": "Ps 119:147-148"
+    },
+    {
+     "texte": "Dans l'antiquité, la nuit était divisée en « veilles », des périodes de garde. Veiller, c'était rester éveillé pour garder. Les gardiens des remparts veillaient la nuit pour protéger la ville. Spirituellement, veiller, c'est se tenir devant Dieu comme un garde, pour sa vie, sa famille, son église."
+    },
+    {
+     "sous_titre": "Les serviteurs de la nuit"
+    },
+    {
+     "texte": "Le Psaume 134 est un petit chant adressé à ceux qui se tiennent la nuit dans la maison de l'Éternel : voici, bénissez l'Éternel, vous tous, serviteurs de l'Éternel, qui vous tenez dans la maison de l'Éternel pendant les nuits !"
+    },
+    {
+     "verset": "Ps 134:1"
+    },
+    {
+     "texte": "Dans le temple, des lévites se relayaient pour veiller et louer pendant la nuit. La veille nocturne était donc une réalité dans la vie du peuple de Dieu."
+    },
+    {
+     "sous_titre": "Prier sans cesse"
+    },
+    {
+     "texte": "Paul demande : priez sans cesse. Cela ne veut pas dire que nous devons prier toutes les heures de la journée sans rien faire d'autre. Cela veut dire que la prière doit être comme une respiration continue, avec des moments plus longs et plus intenses. La nuit de prière est l'un de ces moments forts, comme un grand repas dans la semaine, qui n'empêche pas les petits repas quotidiens."
+    },
+    {
+     "verset": "1 Th 5:17"
     }
    ]
   },
   {
    "numero": "2",
-   "titre": "Le modèle biblique des veilles nocturnes",
+   "titre": "Le modèle biblique des veilles",
    "references": [
-    "Luc 6:12",
-    "Psaume 134:1",
-    "Actes 16:25-26",
-    "Genèse 32:24-30"
+    "Lc 6:12-13",
+    "Gn 32:24-30",
+    "Ac 16:25-26",
+    "És 62:6-7",
+    "Mt 14:23-25",
+    "Mc 1:35"
    ],
-   "transition": "La définition étant claire, contemplons ceux qui ont veillé avant nous — leur exemple nous encourage à persévérer.",
    "blocs": [
     {
-     "texte": "Le Psaume 134 s'adresse à « tous vous, serviteurs de l'Éternel, qui vous tenez dans la maison de l'Éternel pendant la nuit ». La veille nocturne était une réalité dans le Temple."
+     "sous_titre": "Jésus, avant les grands choix"
     },
     {
-     "texte": "Jacob a lutté avec Dieu toute une nuit sans lâcher jusqu'à la bénédiction (Genèse 32:24-28 : « Je ne te laisserai point aller, que tu ne m'aies béni »). La nuit de prière est souvent une lutte — mais la bénédiction attend ceux qui persistent."
+     "texte": "Avant de choisir ses douze apôtres, Jésus a prié toute la nuit. Le matin, il a appelé ses disciples et il a choisi douze. Il savait que ce choix était capital : ces hommes allaient porter l'Évangile au monde. Il n'a pas décidé à la hâte. Il a passé la nuit avec son Père."
     },
     {
-     "texte": "Paul et Silas, emprisonnés, prièrent et chantèrent à minuit (Actes 16:25-26) : un grand tremblement de terre ébranla les fondements, toutes les portes s'ouvrirent et les liens furent rompus. Le milieu de la nuit est souvent l'heure du tremblement de terre spirituel."
+     "verset": "Lc 6:12-13"
     },
     {
-     "texte": "Ésaïe 62:6-7 : « J'ai placé des gardes sur tes murs, ô Jérusalem, qui ne se tairont ni jour ni nuit. » La veille est une garde spirituelle sur ta vie, ta famille et ton territoire."
+     "texte": "Les grandes décisions de la vie méritent du temps avec Dieu : le mariage, le choix d'un travail, un déménagement, un engagement important. Une nuit de prière peut être une manière de se mettre devant Dieu avant de décider."
+    },
+    {
+     "texte": "Après avoir nourri cinq mille hommes, Jésus a renvoyé la foule, puis il est monté sur la montagne pour prier à l'écart. Le soir venu, il était là seul. Et à la quatrième veille de la nuit, il est allé vers ses disciples en marchant sur la mer. Au moment où ses disciples avaient le plus besoin de lui, au cœur de la tempête, il venait d'une nuit de prière."
+    },
+    {
+     "verset": "Mt 14:23-25"
+    },
+    {
+     "texte": "Même après des journées très chargées, il se levait de bon matin, quand il faisait encore très sombre, et il sortait pour aller dans un lieu désert, où il priait."
+    },
+    {
+     "verset": "Mc 1:35"
+    },
+    {
+     "sous_titre": "Jacob qui lutte jusqu'à l'aube"
+    },
+    {
+     "texte": "Jacob revenait vers son frère Ésaü, qu'il avait trompé vingt ans plus tôt. Il avait peur : Ésaü venait avec quatre cents hommes. Resté seul, la nuit, au bord d'un torrent, un homme lutta avec lui jusqu'au lever de l'aurore. Quand l'homme vit qu'il ne pouvait pas le vaincre, il toucha l'emboîture de sa hanche. Et il dit : laisse-moi aller, car l'aurore se lève. Jacob répondit : je ne te laisserai point aller, que tu ne m'aies béni."
+    },
+    {
+     "verset": "Gn 32:24-30"
+    },
+    {
+     "texte": "Cette nuit a changé sa vie. Il a reçu un nouveau nom : Israël, qui veut dire « il lutte avec Dieu ». Il a aussi gardé une boiterie. Une vraie rencontre avec Dieu laisse des traces. Elle nous brise parfois, mais elle nous bénit."
+    },
+    {
+     "texte": "La nuit de prière est souvent une lutte, non contre Dieu, mais avec Dieu : avec nos peurs, nos questions, nos résistances, nos désirs. Elle ne nous épargne pas la difficulté, mais elle nous conduit à la bénédiction."
+    },
+    {
+     "sous_titre": "Paul et Silas à minuit"
+    },
+    {
+     "texte": "À Philippes, Paul et Silas avaient été battus et jetés dans la prison intérieure, les pieds dans des ceps. Vers le milieu de la nuit, Paul et Silas priaient et chantaient les louanges de Dieu, et les prisonniers les entendaient. Tout à coup, il se fit un grand tremblement de terre, en sorte que les fondements de la prison furent ébranlés ; au même instant, toutes les portes s'ouvrirent, et les liens de tous furent rompus."
+    },
+    {
+     "verset": "Ac 16:25-26"
+    },
+    {
+     "texte": "Ils n'ont pas attendu d'être libérés pour louer Dieu. Ils ont chanté dans les chaînes. Et le geôlier s'est converti avec toute sa famille cette nuit-là."
+    },
+    {
+     "texte": "Certains disent que minuit est une « heure spéciale » où le ciel est plus ouvert. La Bible ne dit pas cela. Ce qu'elle montre, c'est que Dieu agit quand son peuple prie et loue, même à minuit. L'important n'est pas l'heure précise, mais la persévérance."
+    },
+    {
+     "sous_titre": "Des gardes sur les murs"
+    },
+    {
+     "texte": "Dieu dit par Ésaïe : sur tes murs, Jérusalem, j'ai placé des gardes ; ils ne se tairont ni jour ni nuit. Vous qui rappelez l'Éternel à son souvenir, ne vous donnez aucun repos."
+    },
+    {
+     "verset": "És 62:6-7"
+    },
+    {
+     "texte": "Les veilleurs de la ville ne dorment pas pendant que d'autres dorment. Ils tiennent le poste. Une veille spirituelle est une garde posée sur sa famille, son église, son quartier. Le rôle du veilleur n'est pas de dominer les autres, mais de servir et de protéger."
+    },
+    {
+     "texte": "On raconte l'histoire d'un petit village où, pendant plusieurs années, des jeunes sont partis à la ville et se sont perdus dans la drogue. Quatre mères chrétiennes ont décidé de se retrouver chaque vendredi soir, de 22 h à 2 h du matin, pour prier pour tous les jeunes du village, un par un, en disant leur nom. Elles n'avaient ni micro ni grande église, seulement une petite pièce, des bancs de bois, et une lampe à pétrole. Pendant cinq ans, elles ont tenu. Aujourd'hui, plusieurs de ces jeunes sont revenus, certains ont donné leur vie à Jésus. Dans le village, les gens disent : « Les mamans du vendredi ont changé quelque chose. »"
     }
    ]
   },
@@ -66,76 +154,393 @@
    "numero": "3",
    "titre": "Les différentes formes de nuit de prière",
    "references": [
-    "1 Thessaloniciens 5:17",
-    "Matthieu 18:19",
-    "Matthieu 17:21"
+    "Mt 18:19-20",
+    "Mt 17:21",
+    "1 Co 7:5",
+    "Ac 12:5"
    ],
-   "transition": "Le modèle nous inspire ; reste à choisir la forme qui convient à ta saison et à ton appel.",
    "blocs": [
     {
-     "texte": "LA NUIT DE PRIÈRE PERSONNELLE : toi seul avec Dieu, 3 à 8 heures. La forme la plus intime, pour les crises profondes, les grandes décisions, le renouvellement ou un combat prolongé."
+     "sous_titre": "La nuit personnelle"
     },
     {
-     "texte": "LA NUIT DE PRIÈRE CONJUGALE : toi et ton conjoint, une ou deux fois par mois. Elle renforce l'unité et l'autorité du foyer (Matthieu 18:19)."
+     "texte": "C'est la forme la plus simple : toi seul avec Dieu, de trois à huit heures. Elle convient pour les périodes de crise profonde, les grandes décisions, le besoin de renouvellement, ou un combat prolongé. Dans la solitude, tu peux pleurer, crier, écouter, sans être gêné par personne."
     },
     {
-     "texte": "LA NUIT DE PRIÈRE EN GROUPE : 5 à 20 croyants, de 22h à 4h ou 5h. Efficace pour la délivrance de territoire, les âmes perdues ou les situations nationales."
+     "sous_titre": "La nuit conjugale"
     },
     {
-     "texte": "LA NUIT DE PRIÈRE AVEC JEÛNE : la combinaison la plus puissante — pas de repas le soir avant la veille ni avant midi le lendemain (Matthieu 17:21)."
+     "texte": "Une nuit de prière entre mari et femme, une fois ou deux par mois, peut renforcer l'unité du foyer. Paul parle de se priver l'un de l'autre d'un commun accord pour un temps, afin de vaquer à la prière."
+    },
+    {
+     "verset": "1 Co 7:5"
+    },
+    {
+     "texte": "Jésus a promis : si deux d'entre vous s'accordent sur la terre pour demander une chose quelconque, elle leur sera accordée par mon Père."
+    },
+    {
+     "verset": "Mt 18:19-20"
+    },
+    {
+     "texte": "Beaucoup de couples prient peu ensemble. Une nuit de prière conjugale peut être un moment de réconciliation, de pardon, de consécration du foyer à Dieu. Prêtez l'oreille l'un à l'autre. Priez pour vos enfants, vos finances, votre santé, votre vie sexuelle, votre service. Demandez pardon pour les blessures. Remettez à Dieu les décisions à prendre."
+    },
+    {
+     "sous_titre": "La nuit en groupe"
+    },
+    {
+     "texte": "Une veille collective de cinq à vingt personnes, de 22 h à 4 ou 5 h du matin, est efficace pour prier pour des âmes perdues, une situation difficile dans un quartier ou un pays, ou la délivrance d'une région. Dans les Actes, quand Pierre était en prison, l'Église ne cessait d'adresser pour lui des prières à Dieu. Une nuit de prière commune a précédé sa libération."
+    },
+    {
+     "verset": "Ac 12:5"
+    },
+    {
+     "sous_titre": "La nuit avec jeûne"
+    },
+    {
+     "texte": "La combinaison la plus intense est celle de la prière et du jeûne. Jésus a dit au sujet d'une catégorie de démons difficile à chasser : cette sorte de démons ne sort que par la prière et par le jeûne."
+    },
+    {
+     "verset": "Mt 17:21"
+    },
+    {
+     "texte": "Le jeûne consiste à s'abstenir de nourriture, ou de certains aliments, pour se concentrer sur Dieu. Pour une nuit de prière avec jeûne, on peut s'abstenir de repas le soir avant la veille et jusqu'à midi le lendemain. Mais le jeûne n'est pas pour tout le monde : les personnes malades, les femmes enceintes ou allaitantes, les diabétiques et les enfants ne doivent pas jeûner sans avis médical. Dieu regarde le cœur, pas la souffrance du corps."
     }
    ]
   },
   {
    "numero": "4",
-   "titre": "Programme type d'une nuit de prière personnelle (22h — 5h)",
+   "titre": "Programme d'une nuit de prière personnelle",
    "references": [
-    "Psaume 63:7",
-    "Psaume 91:1",
-    "Actes 16:25-26"
+    "Ps 63:7",
+    "Ps 91:1",
+    "Ac 16:25-26",
+    "Hab 2:1",
+    "1 R 19:5",
+    "Ps 46",
+    "Ps 121"
    ],
-   "transition": "La forme choisie, voici un déroulé heure par heure. Que cette nuit devienne pour toi une nuit de percée et de victoire.",
    "blocs": [
     {
-     "texte": "22h00 — PRÉPARATION ET LOUANGES (45 min) : ouvre par des louanges. Lis le Psaume 91 à voix haute comme déclaration de protection. Prends conscience de la présence de Dieu — tu n'es pas seul."
+     "texte": "Voici un exemple de programme de 22 h à 5 h. Ce n'est pas une règle, mais une aide. Adapte-le à tes forces et à ce que Dieu te met à cœur."
     },
     {
-     "texte": "22h45 — CONFESSION ET PURIFICATION (30 min) : confesse tout péché en suspens, pardonne à ceux qui t'ont blessé, reçois le pardon. Tu prépares un vase propre pour l'onction."
+     "sous_titre": "22 h : préparation et louange (45 minutes)"
     },
     {
-     "texte": "23h15 — PRIÈRE DE LA PAROLE (45 min) : choisis 10 à 20 versets de promesses. Lis et prie chacun. Transforme chaque promesse en requête : « Seigneur, tu as dit en Jérémie 33:3 : Appelle-moi et je te répondrai. Je t'appelle au sujet de... »"
+     "texte": "Commence par la louange. Chante doucement, ou lis des psaumes de louange. Lis le Psaume 91 à voix haute comme une déclaration de protection : celui qui demeure sous l'abri du Très-Haut repose à l'ombre du Tout-Puissant. Prends conscience que tu n'es pas seul : Dieu est là."
     },
     {
-     "texte": "00h00 (MINUIT) — HEURE DE GUERRE SPIRITUELLE (1h) : minuit est l'heure du changement (Actes 16:25-26). Renverse les forteresses, brise les liens, intercède pour les situations bloquées. Prie à voix haute. Déclare, commande, intercède."
+     "verset": "Ps 91:1"
     },
     {
-     "texte": "01h00 — INTERCESSION PROFONDE (1h) : prie pour ta famille, tes amis, tes collègues non-convertis, les dirigeants, les serviteurs de Dieu. Nomme chacun. Sois précis."
+     "texte": "Le roi David écrit : quand je pense à toi sur mon lit, je médite sur toi pendant les veilles de la nuit."
     },
     {
-     "texte": "02h00 — TEMPS DE PROPHÉTIE ET D'ÉCOUTE (1h) : tais-toi devant Dieu. Écoute. Note ce qui monte en toi (Habacuc 2:1 : « Je me tiens à mon poste de garde... et je regarde pour voir ce qu'il me dira »)."
+     "verset": "Ps 63:7"
     },
     {
-     "texte": "03h00 — PRIÈRE POUR SA VIE ET SA DESTINÉE (1h) : présente ta vie entière — tes rêves, tes peurs, ta vocation, tes décisions. Remets-Lui tout. L'heure des larmes et des engagements authentiques."
+     "sous_titre": "22 h 45 : confession et purification (30 minutes)"
     },
     {
-     "texte": "04h00 — TEMPS DE REPOS SPIRITUEL (1h) : si le sommeil vient, ce n'est pas un échec (Élie dormit sous le genévrier, 1 Rois 19:5). Sinon, chante doucement ou médite en silence."
+     "texte": "Demande à l'Esprit de te montrer ce qui doit être confessé. Confesse les péchés qu'il te rappelle, pardonne à ceux qui t'ont blessé, reçois le pardon de Dieu. Tu prépares un vase propre. Beaucoup de prières n'avancent pas parce que le cœur est encombré de rancunes et de péchés non confessés."
     },
     {
-     "texte": "05h00 — CLÔTURE DE LA NUIT (30 min) : lève-toi pour l'aurore. Lis les Psaumes 46 et 121. Déclare : « Cette nuit j'ai veillé. Ce que j'ai lié ici est lié dans les cieux. Mon Père a entendu. Je marche dans la victoire de cette nuit. » Ferme par une action de grâce."
+     "sous_titre": "23 h 15 : la prière de la Parole (45 minutes)"
     },
     {
-     "texte": "CONSEIL PRATIQUE : bois de l'eau pendant la nuit. Évite le café après 01h00. Si tu t'endors à 03h00, ne sois pas condamné — reprends à 05h00. Dieu voit l'intention de ton cœur, pas seulement les heures d'éveil parfait."
+     "texte": "Choisis dix à vingt versets de promesses, et transforme chacun en prière. Par exemple : « Seigneur, tu as dit en Jérémie 33:3 : Appelle-moi, et je te répondrai, et je t'annoncerai de grandes choses, des choses cachées que tu ne connais pas. Je viens à toi aujourd'hui. » Prier la Parole nourrit la foi, car on ne prie pas dans le vide, mais sur ce que Dieu a promis."
+    },
+    {
+     "sous_titre": "Minuit : la prière de combat (1 heure)"
+    },
+    {
+     "texte": "C'est le moment de la prière plus ferme : renverser des forteresses, briser des liens, intercéder pour des situations bloquées. Prie à voix haute, avec autorité, en t'appuyant sur le nom de Jésus et sur la Parole. Rappelle-toi l'exemple de Paul et Silas à minuit. Mais souviens-toi aussi que ta force ne vient pas du volume de ta voix, mais de ta relation avec Dieu."
+    },
+    {
+     "sous_titre": "1 h : intercession profonde (1 heure)"
+    },
+    {
+     "texte": "Prie pour ta famille, tes amis, tes collègues non convertis, les dirigeants de ton pays, les serviteurs de Dieu. Nomme chaque personne. Sois précis. Ne dis pas simplement « bénis-les », mais « Seigneur, touche le cœur de ma sœur Esther, rends-lui la paix dans son mariage »."
+    },
+    {
+     "sous_titre": "2 h : écoute et méditation (1 heure)"
+    },
+    {
+     "texte": "Tais-toi devant Dieu. Cesse de parler. Le prophète Habacuc dit : je me tiendrai à mon poste, je me placerai sur la tour, et je regarderai pour voir ce que Dieu me dira."
+    },
+    {
+     "verset": "Hab 2:1"
+    },
+    {
+     "texte": "Garde un cahier à côté de toi. Note les pensées qui montent, les versets qui reviennent, les noms qui se présentent. N'attribue pas tout à Dieu : tout ce que tu notes doit être testé plus tard avec la Parole, avec des frères et sœurs mûrs, avec le temps. Dieu parle d'abord par sa Parole écrite."
+    },
+    {
+     "sous_titre": "3 h : ta vie et ta destinée (1 heure)"
+    },
+    {
+     "texte": "Présente à Dieu ta vie entière : tes rêves, tes peurs, ta vocation, tes décisions à prendre. C'est souvent l'heure des larmes et des engagements sincères. Remets-lui tout."
+    },
+    {
+     "sous_titre": "4 h : repos spirituel (1 heure)"
+    },
+    {
+     "texte": "Si le sommeil vient, ce n'est pas un échec. Élie, épuisé, s'est endormi sous un genêt, et Dieu lui a envoyé un ange pour le réconforter : lève-toi, mange."
+    },
+    {
+     "verset": "1 R 19:5"
+    },
+    {
+     "texte": "Si tu ne dors pas, chante doucement, ou médite en silence."
+    },
+    {
+     "sous_titre": "5 h : clôture de la nuit (30 minutes)"
+    },
+    {
+     "texte": "Lève-toi pour l'aurore. Lis le Psaume 46 et le Psaume 121. Remercie Dieu. Déclare : « Cette nuit, j'ai veillé. J'ai présenté mes besoins à Dieu. Mon Père a entendu. Je marche dans la paix. »"
+    },
+    {
+     "sous_titre": "Des conseils pratiques"
+    },
+    {
+     "texte": "Pour une veille avec fruit, quelques conseils simples. Bois de l'eau pendant la nuit. Évite le café et les boissons excitantes tard dans la nuit, car elles te donneront un coup de fatigue plus fort ensuite. Dors bien la veille et prévois du repos le lendemain, surtout si tu travailles. Choisis un lieu calme et sûr, sans distraction : le téléphone en mode avion. Si tu t'endors à 3 h, ne sois pas condamné : reprends à 5 h. Dieu voit l'intention de ton cœur, pas seulement les heures que tu as comptées."
+    }
+   ]
+  },
+  {
+   "numero": "5",
+   "titre": "Conduire une veille en groupe",
+   "references": [
+    "Ac 4:24-31",
+    "Ne 4:9",
+    "Ex 17:12",
+    "1 Co 14:26",
+    "1 Co 14:40"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Le rôle du responsable"
+    },
+    {
+     "texte": "Dans une veille collective, il est utile d'avoir un responsable qui guide le programme, annonce les sujets, veille à ce que chacun participe, et conclut. Un programme clair évite le désordre et la fatigue inutile. Paul dit : que tout se fasse avec bienséance et avec ordre."
+    },
+    {
+     "verset": "1 Co 14:40"
+    },
+    {
+     "sous_titre": "Un programme simple"
+    },
+    {
+     "texte": "Voici un exemple de programme collectif : ouverture et louange (30 minutes), enseignement court sur la Parole (15 minutes), prière de repentance et de purification (30 minutes), intercession par sujets : famille, église, quartier, pays (deux heures, en changeant de sujet toutes les vingt à trente minutes), temps de silence et d'écoute (20 minutes), prière de bénédiction mutuelle, action de grâce et clôture. Entre les moments de prière, on peut prévoir de petites pauses de cinq à dix minutes, pour que les personnes ne s'épuisent pas."
+    },
+    {
+     "sous_titre": "Prier ensemble"
+    },
+    {
+     "texte": "L'Église en Actes 4 a prié d'une seule voix, avec un seul cœur. Dans une veille de groupe, évitez de laisser une personne prier seule pendant très longtemps. Alternez : prière silencieuse, prière à voix haute à plusieurs, prière d'une personne à la fois, chants. Chacun doit pouvoir participer."
+    },
+    {
+     "verset": "Ac 4:24-31"
+    },
+    {
+     "sous_titre": "Prier et garder"
+    },
+    {
+     "texte": "Néhémie et ses hommes, face à la menace, prièrent leur Dieu et mirent une garde jour et nuit. Prier et veiller : dans une veille de groupe, prévoyez aussi des personnes chargées de la sécurité du lieu, surtout si la veille a lieu dans un quartier à risque."
+    },
+    {
+     "verset": "Ne 4:9"
+    },
+    {
+     "sous_titre": "Soutenir les mains"
+    },
+    {
+     "texte": "Souvenez-vous d'Aaron et de Hur, qui ont soutenu les mains de Moïse jusqu'au coucher du soleil. Dans un groupe, ceux qui sont plus forts soutiennent ceux qui fatiguent. Ne jugez pas ceux qui s'endorment : encouragez-les doucement, ou laissez-les se reposer."
+    },
+    {
+     "verset": "Ex 17:12"
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Les dangers à éviter",
+   "references": [
+    "Mt 6:5-8",
+    "Lc 18:9-14",
+    "Ec 5:1-2",
+    "Mt 11:28-30",
+    "Pr 19:2"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La prière pour être vu"
+    },
+    {
+     "texte": "Jésus avertit : quand tu pries, ne sois pas comme les hypocrites, qui aiment à prier debout dans les synagogues et aux coins des rues, pour être vus des hommes. Mais toi, quand tu pries, entre dans ta chambre, ferme ta porte, et prie ton Père qui est là dans le lieu secret."
+    },
+    {
+     "verset": "Mt 6:5-8"
+    },
+    {
+     "texte": "Une veille de prière ne doit pas devenir un moyen de montrer sa spiritualité. Si tu te surprends à penser « moi je suis un vrai intercesseur, alors que les autres dorment », arrête-toi et demande à Dieu de te purifier de l'orgueil."
+    },
+    {
+     "sous_titre": "Le pharisien et le publicain"
+    },
+    {
+     "texte": "Jésus a raconté l'histoire de deux hommes qui montaient au temple pour prier. Le pharisien, debout, priait ainsi en lui-même : ô Dieu, je te rends grâces de ce que je ne suis pas comme le reste des hommes. Je jeûne deux fois la semaine. Le publicain, se tenant à distance, n'osait même pas lever les yeux au ciel, mais il se frappait la poitrine, en disant : ô Dieu, sois apaisé envers moi, qui suis un pécheur ! Jésus a dit que c'est ce dernier qui est descendu justifié dans sa maison."
+    },
+    {
+     "verset": "Lc 18:9-14"
+    },
+    {
+     "texte": "Une nuit entière de prière ne vaut rien si elle est faite dans l'orgueil. Une phrase sincère du cœur vaut plus que mille paroles pour impressionner."
+    },
+    {
+     "sous_titre": "Les paroles vaines"
+    },
+    {
+     "texte": "L'Ecclésiaste dit : ne te hâte point de parler, et que ton cœur ne se presse point d'exprimer une parole devant Dieu. Car Dieu est au ciel, et toi sur la terre : que tes paroles soient donc peu nombreuses."
+    },
+    {
+     "verset": "Ec 5:1-2"
+    },
+    {
+     "texte": "La longueur de la prière n'est pas une mesure de sa valeur. Jésus a averti contre les vaines redites. Certaines veilles sont remplies de cris, de répétitions, de slogans, sans véritable rencontre. Veille plutôt à écouter, à lire la Bible, à te taire parfois."
+    },
+    {
+     "sous_titre": "L'épuisement et le zèle sans connaissance"
+    },
+    {
+     "texte": "Salomon dit : le zèle sans connaissance n'est pas bon, et celui qui précipite ses pas s'égare."
+    },
+    {
+     "verset": "Pr 19:2"
+    },
+    {
+     "texte": "Ne fais pas de nuit de prière toutes les nuits pendant une semaine, si ta santé ne le permet pas. Jésus invite : venez à moi, vous tous qui êtes fatigués et chargés, et je vous donnerai du repos. Un chrétien qui prie toute la nuit mais qui s'endort au travail, ou qui néglige sa famille, ne glorifie pas Dieu. Garde l'équilibre. La prière de la nuit doit s'harmoniser avec tes responsabilités du jour."
+    },
+    {
+     "verset": "Mt 11:28-30"
+    },
+    {
+     "texte": "On raconte l'histoire d'un jeune frère qui, enthousiasmé par une veillée, a décidé de veiller toutes les nuits du week-end. Au bout d'un mois, il était épuisé, irritable, absent à son travail, et sa femme commençait à lui reprocher de ne plus s'occuper de la maison. Son pasteur l'a invité à réduire ses veilles à une nuit par mois, et à prier chaque jour un temps régulier. Il a découvert que sa vie spirituelle s'était consolidée, et que sa femme, qui se sentait délaissée, l'accompagnait désormais dans les prières du soir. L'équilibre vaut mieux que l'exploit."
+    },
+    {
+     "texte": "Pour terminer, souviens-toi de Jésus qui se retirait dans les lieux déserts pour prier. Il ne priait pas pour être vu, mais pour être avec son Père. Si tu n'as jamais passé une nuit en prière, essaie une première fois avec trois heures, par exemple de 22 h à 1 h. Prépare ton lieu, ton cahier, ta Bible. Demande à l'Esprit de te conduire. Et laisse-toi surprendre : la nuit est parfois le moment où Dieu parle le plus clairement."
     }
    ]
   }
  ],
- "lecture_minutes": 4,
- "auteur": "L'Arsenal de la Sentinelle",
- "autorisation": "oui",
- "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
- "date_ajout": "2026-11-14",
+ "sujets": [
+  {
+   "titre": "Veiller avec toi",
+   "texte": "Seigneur Jésus, apprends-moi à veiller avec toi. Que mes nuits de prière soient des rencontres avec toi, et non des exploits."
+  },
+  {
+   "titre": "Un cœur purifié",
+   "texte": "Purifie-moi de tout orgueil spirituel. Que je prie pour te rencontrer, pas pour être vu."
+  },
+  {
+   "titre": "Les gardes sur les murs",
+   "texte": "Établis dans mon église des veilleurs fidèles qui prient pour les familles, les jeunes, les dirigeants et le pays."
+  },
+  {
+   "titre": "Le foyer",
+   "texte": "Je consacre mon foyer à toi. Donne-nous de prier ensemble et de nous aimer comme tu nous aimes."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Que fit Jésus avant de choisir ses douze apôtres ?",
+   "choix": [
+    "Il en parla à ses amis",
+    "Il passa toute la nuit à prier Dieu",
+    "Il jeûna quarante jours"
+   ],
+   "reponse": 1,
+   "explication": "Luc 6:12-13. Les grandes décisions méritent du temps avec Dieu.",
+   "section": "2"
+  },
+  {
+   "question": "Que montre l'histoire de Jacob à Péniel ?",
+   "choix": [
+    "Que Dieu ne répond pas",
+    "Que la nuit de prière peut être une lutte avec Dieu qui mène à la bénédiction",
+    "Qu'il faut éviter les combats"
+   ],
+   "reponse": 1,
+   "explication": "Genèse 32:24-30.",
+   "section": "2"
+  },
+  {
+   "question": "Que faisaient Paul et Silas à minuit en prison ?",
+   "choix": [
+    "Ils dormaient",
+    "Ils priaient et chantaient les louanges de Dieu",
+    "Ils se plaignaient"
+   ],
+   "reponse": 1,
+   "explication": "Actes 16:25. La Bible ne fait pas de minuit une heure magique ; elle montre leur persévérance.",
+   "section": "2"
+  },
+  {
+   "question": "Quelle est une forme de nuit de prière entre époux ?",
+   "choix": [
+    "Une dispute",
+    "Une veille où les époux s'accordent pour prier, une ou deux fois par mois",
+    "Un voyage"
+   ],
+   "reponse": 1,
+   "explication": "1 Corinthiens 7:5 ; Matthieu 18:19.",
+   "section": "3"
+  },
+  {
+   "question": "Pourquoi préférer l'écoute à la parole lors d'une veille ?",
+   "choix": [
+    "Pour dormir",
+    "Parce que Dieu parle aussi, d'abord par sa Parole, et qu'il faut écouter",
+    "Parce que Dieu n'entend pas les longues prières"
+   ],
+   "reponse": 1,
+   "explication": "Habacuc 2:1.",
+   "section": "4"
+  },
+  {
+   "question": "Quel danger Jésus dénonce-t-il en Matthieu 6:5 ?",
+   "choix": [
+    "Prier trop",
+    "Prier pour être vu des hommes",
+    "Prier la nuit"
+   ],
+   "reponse": 1,
+   "explication": "Une veille ne doit jamais devenir un moyen de montrer sa spiritualité.",
+   "section": "6"
+  },
+  {
+   "question": "Quel conseil la Bible donne-t-elle pour les veilleurs fatigués ?",
+   "choix": [
+    "S'épuiser",
+    "Se reposer : même Élie a dormi, et Jésus invite les fatigués à venir à lui",
+    "Ne jamais dormir"
+   ],
+   "reponse": 1,
+   "explication": "1 Rois 19:5 ; Matthieu 11:28.",
+   "section": "6"
+  }
+ ],
+ "devoir": [
+  "Lis Luc 6:12-16 et Genèse 32:22-32.",
+  "Prévois une première nuit de prière de trois heures (par exemple de 22 h à 1 h), seul ou avec ton conjoint. Prépare un cahier, ta Bible, de l'eau.",
+  "Écris les cinq sujets pour lesquels tu veux veiller. Après la veille, note ce que Dieu t'a dit.",
+  "Si tu as une famille, parles-en d'abord avec ton conjoint avant de te lancer."
+ ],
  "prieres_liees": [
   "theme:priere-prier-sans-cesse",
   "veille:aube"
- ]
+ ],
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "autorisation": "oui"
 }
