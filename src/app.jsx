@@ -44,7 +44,12 @@ import { CheminFoi, NiveauChemin, DefiDuJour } from './ecrans/jeux/Chemin.jsx';
 import { Confidentialite, VERSION_POLITIQUE } from './ecrans/Confidentialite.jsx';
 import { DemanderPriere } from './ecrans/priere/DemanderPriere.jsx';
 import { compterPage } from './donnees/mesure.js';
-import { Jouer, QuizDuJour, QuizThemes } from './ecrans/jeux/Jouer.jsx';
+import { Jouer, QuizDuJour, QuizThemes, BlocJeux, BLOCS } from './ecrans/jeux/Jouer.jsx';
+import { PetitsAccueil, Alphabet, Compter, Trouver } from './ecrans/jeux/Petits.jsx';
+import { Course } from './ecrans/jeux/Course.jsx';
+import { Tribunal } from './ecrans/jeux/Tribunal.jsx';
+import { Pelerin } from './ecrans/jeux/Pelerin.jsx';
+import { ProtectionYeux } from './ecrans/jeux/Yeux.jsx';
 import { CompleteVerset } from './ecrans/jeux/CompleteVerset.jsx';
 import { QuiSuisJe } from './ecrans/jeux/QuiSuisJe.jsx';
 import { Ordre } from './ecrans/jeux/Ordre.jsx';
@@ -76,6 +81,7 @@ function titre([a, b, c]) {
   if (a === 'priere' && b === 'demander') return 'Demander la prière';
   if (a === 'jouer') return {
     'quiz-du-jour': 'Quiz du jour', themes: c ? (QUIZ.find((q) => q.id === 'quiz-' + c)?.theme ?? 'Quiz') : 'Quiz par thème', complete: 'Complète le verset',
+    petits: 'Petits enfants', course: 'La course de la vie', tribunal: 'Le Tribunal de la Parole', pelerin: 'Le Pèlerin', bloc: BLOCS.find((x) => x.id === c)?.titre ?? 'Jeux',
     'qui-suis-je': 'Qui suis-je ?', chemin: 'Le Chemin de la foi', defi: 'Défi biblique du jour', memoriser: 'Mémoriser un verset', ordre: "Remets dans l'ordre", duel: 'Duel à deux', badges: 'Mes badges',
   }[b] ?? (b ? 'Jouer et apprendre' : null);
   if (a === 'telechargements') return 'Mon téléphone';
@@ -117,7 +123,8 @@ function Ecran({ r }) {
   if (a === 'a-propos') return <APropos />;
   if (a === 'telechargements') return <Telechargements />;
   if (a === 'jouer') return ({ 'quiz-du-jour': <QuizDuJour />, themes: <QuizThemes theme={c} niveau={d} />, complete: <CompleteVerset />,
-    'qui-suis-je': <QuiSuisJe />, ordre: <Ordre id={c} />, duel: <Duel />, badges: <Badges />, chemin: c ? <NiveauChemin id={c} /> : <CheminFoi />, defi: <DefiDuJour />, memoriser: <Memoriser /> })[b] ?? <Jouer />;
+    'qui-suis-je': <QuiSuisJe />, ordre: <Ordre id={c} />, duel: <Duel />, badges: <Badges />, chemin: c ? <NiveauChemin id={c} /> : <CheminFoi />, defi: <DefiDuJour />, memoriser: <Memoriser />,
+    petits: c === 'alphabet' ? <Alphabet /> : c === 'compter' ? <Compter /> : c === 'trouver' ? <Trouver /> : <PetitsAccueil />, course: <Course />, tribunal: <Tribunal />, pelerin: <Pelerin />, bloc: <BlocJeux id={c} /> })[b] ?? <Jouer />;
   if (a === 'priere') return b === 'demander' ? <DemanderPriere /> : b === 'journal' ? <Journal nouveau={r.params.nouveau} /> : b === 'theme' ? <ThemePriere id={c} guide={r.params.guide === '1'} /> : b === 'veille' ? <Veille id={c} guide={r.params.guide === '1'} /> : b === 'combat' ? <FicheCombat id={c} guide={r.params.guide === '1'} /> : b === 'pour-quelqu-un' ? <PourQuelquun jour={c === 'jour' ? r.segments[3] : null} /> : b === 'sommeil' ? <Sommeil /> : b === 'maintenant' ? <Veille id={(veilleDuMoment() || VEILLES[0]).id.replace('veille-', '')} /> : <Priere />;
   if (a === 'grandir') return PARCOURS[b] ? <Parcours id={b} jour={c} /> : b === 'enseignement' ? <EnseignementEcrit id={c} ecouter={r.params.ecouter === '1'} /> : b === 'formation' ? <Formation /> : <Grandir />;
   if (a === 'evangeliser') return b === 'article' ? <Article id={c} /> : b === 'dialogue' ? <Dialogue id={c} /> : b === 'outil' ? <Outil id={c} /> : b === 'conversation' ? <Conversation id={c} /> : b === 'temoignage' ? <MonTemoignage /> : b === 'approche' ? <Approche id={c} /> : <Evangeliser />;
@@ -170,6 +177,7 @@ export function App() {
     <div class={'app' + (l.piste && r.segments[0] !== 'ecouter' ? ' app--mini' : '')}>
       <Entete titre={titre(r.segments)} surMenu={tiroir.ouvrir} />
       <main id="contenu"><Ecran r={r} /></main>
+      <ProtectionYeux actif={r.segments[0] === 'jouer'} />
       <MiniLecteur />
       <BarreOnglets actif={ONGLET_DE[r.segments[0]] ?? 'accueil'} />
       <Tiroir ouvert={tiroir.ouvert} fermer={tiroir.fermer} />
