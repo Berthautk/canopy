@@ -1,179 +1,560 @@
 {
  "id": "enseignement-retraite-spirituelle",
- "titre": "La retraite spirituelle — S'isoler avec Dieu",
- "theme": "Vie de prière",
+ "titre": "La retraite spirituelle : s'isoler avec Dieu",
  "serie": "L'Arsenal de la Sentinelle",
- "resume": "Modèle biblique, programme complet et conseils pratiques",
+ "theme": "Vie de prière",
+ "auteur": "L'Arsenal de la Sentinelle",
+ "resume": "Pourquoi et comment se retirer pour être seul avec Dieu. L'exemple de Jésus, de Moïse, d'Élie et de Paul, les raisons d'une retraite, comment la préparer, un programme d'une journée entière, et des conseils pour les parents, les personnes occupées et ceux qui ont peu de moyens.",
  "image": "/assets/paysages/chemin-oliviers.webp",
- "verset_de_base": "Marc 1:35",
+ "verset_de_base": "Mc 1:35",
+ "lecture_minutes": 36,
  "objectifs": [
-  "Comprendre la nécessité de s'isoler régulièrement avec Dieu",
-  "Saisir le modèle biblique laissé par Jésus et les hommes de Dieu",
-  "Savoir préparer concrètement sa retraite spirituelle",
-  "Suivre un programme complet et appliquer les précautions pratiques"
+  "Comprendre ce qu'est une retraite spirituelle et pourquoi Jésus la pratiquait.",
+  "Découvrir les exemples de Moïse, Élie, Paul et Jésus.",
+  "Savoir préparer sa retraite : lieu, matériel, état d'esprit.",
+  "Disposer d'un programme d'une journée et de conseils adaptés aux réalités africaines."
  ],
- "introduction": "Jésus-Christ se retirait régulièrement dans des lieux déserts pour prier. Si le Fils de Dieu avait besoin de ces moments d'isolement avec le Père, combien plus nous ! Marc 1:35 : « Le matin, bien avant le jour, il se leva, et sortit pour aller dans un lieu désert, où il pria. » Luc 5:16 précise : « Lui se retirait dans des lieux déserts, et priait. » La retraite spirituelle n'est pas un luxe réservé aux moines — c'est une discipline biblique pratiquée par Moïse au Sinaï, Élie à l'Horeb, Jean-Baptiste au désert, Jésus après son baptême, et Paul en Arabie. Le but : s'éloigner du bruit du monde pour entendre clairement la voix de Dieu et recevoir de nouvelles directives.",
+ "introduction": "Imaginons une journée dans la vie de Jésus à Capernaüm. Au coucher du soleil, toute la ville se rassemble devant la porte de la maison où il se trouve. On lui amène des malades, des tourmentés, des gens de toutes sortes. Il les guérit jusque tard dans la nuit. Et le lendemain matin, que fait-il ? Le matin, bien avant le jour, il se leva, et sortit pour aller dans un lieu désert, où il pria.\n\nPendant ce temps, les disciples le cherchaient partout, parce que la foule le demandait encore. Jésus aurait pu continuer à guérir, à prêcher, à répondre aux besoins. Il avait un succès extraordinaire. Mais il a choisi de s'éloigner pour être avec son Père.\n\nSi le Fils de Dieu avait besoin de ces moments de solitude, combien plus nous ! Pourtant, beaucoup de chrétiens vivent dans un rythme tellement chargé qu'ils n'ont presque plus de temps pour Dieu. Le travail, la famille, les réunions d'église, les réseaux sociaux, les appels, les tâches : tout est urgent. Ils prient en courant, ils lisent la Bible en vitesse, ils vont de service en service, et petit à petit, leur âme se dessèche.\n\nLa retraite spirituelle est une réponse à ce problème. Ce n'est pas un luxe réservé aux moines, ni un concept étranger à la culture africaine. Dans nos traditions, beaucoup de peuples connaissent l'idée de se retirer dans un lieu à part pour une initiation, une consultation, une préparation. L'Évangile nous propose quelque chose de beaucoup plus beau : se retirer non pas pour rencontrer des esprits, mais pour rencontrer le Père de notre Seigneur Jésus-Christ. Dans cet enseignement, nous allons voir ce qu'est une retraite, comment la préparer, et comment la vivre.",
  "sections": [
   {
    "numero": "1",
-   "titre": "Définition — qu'est-ce qu'une retraite spirituelle ?",
+   "titre": "Qu'est-ce qu'une retraite spirituelle ?",
    "references": [
-    "Luc 5:16",
-    "Psaume 46:11",
-    "Osée 2:16"
+    "Lc 5:16",
+    "Ps 46:11",
+    "Os 2:16",
+    "Mt 6:6"
    ],
    "blocs": [
     {
-     "texte": "La retraite spirituelle est un temps volontaire de mise à part, où l'on quitte le bruit et les activités ordinaires pour se consacrer entièrement à la communion avec Dieu."
+     "sous_titre": "Une mise à part volontaire"
     },
     {
-     "texte": "Ce n'est ni des vacances ni un repos mondain : c'est un rendez-vous délibéré avec le Père, dans le silence et le retrait, pour écouter, être renouvelé et recevoir des directives."
+     "texte": "La retraite spirituelle est un temps volontaire de mise à part, pendant lequel on quitte le bruit et les activités ordinaires pour se consacrer à la communion avec Dieu. Ce n'est ni des vacances, ni un repos mondain. C'est un rendez-vous délibéré avec le Père, dans le silence et le retrait, pour écouter, être renouvelé et recevoir des directives."
     },
     {
-     "verset": "Psaume 46:11"
+     "texte": "Luc écrit : mais lui se retirait dans les déserts, et priait."
     },
     {
-     "texte": "Elle répond à quatre besoins fondamentaux : le renouvellement (Ésaïe 40:31), la révélation (Psaume 25:14), la réorientation (Proverbes 3:6) et la réconciliation profonde avec Dieu (Osée 2:16)."
+     "verset": "Lc 5:16"
+    },
+    {
+     "texte": "Le verbe est à l'imparfait : il se retirait. C'était une habitude régulière. Jésus ne s'est pas retiré une fois, après une crise : il le faisait souvent."
+    },
+    {
+     "sous_titre": "Une parole qui change tout : « Arrêtez »"
+    },
+    {
+     "texte": "Dieu dit dans le Psaume 46 : arrêtez, et sachez que je suis Dieu."
+    },
+    {
+     "verset": "Ps 46:11"
+    },
+    {
+     "texte": "Arrêtez. La plupart d'entre nous ne s'arrêtent presque jamais. Nous passons de la voiture au bureau, du bureau à la maison, de la maison à l'église, avec le téléphone dans la main. La retraite commence quand on s'arrête. Pour connaître Dieu, il faut parfois cesser de faire."
+    },
+    {
+     "sous_titre": "Quatre besoins"
+    },
+    {
+     "texte": "On peut résumer les raisons de la retraite par quatre besoins fondamentaux. Le renouvellement : ceux qui se confient en l'Éternel renouvellent leur force. La révélation : Dieu confie ses secrets à ceux qui le craignent. La réorientation : en toutes tes voies, reconnais-le, et il aplanira tes sentiers. Et la réconciliation profonde avec Dieu : le prophète Osée dit que Dieu conduira son peuple infidèle au désert pour parler à son cœur."
+    },
+    {
+     "verset": "Os 2:16"
+    },
+    {
+     "sous_titre": "Un lieu où Dieu parle au cœur"
+    },
+    {
+     "texte": "Le désert est, dans la Bible, un lieu de rencontre. Dieu dit : voici, je l'attirerai, je la conduirai au désert, et je parlerai à son cœur. Dans le bruit, on entend peu. Dans le silence, le cœur se laisse atteindre."
+    },
+    {
+     "texte": "Jésus a donné une instruction : quand tu pries, entre dans ta chambre, ferme ta porte, et prie ton Père qui est là dans le lieu secret ; et ton Père, qui voit dans le secret, te le rendra."
+    },
+    {
+     "verset": "Mt 6:6"
+    },
+    {
+     "texte": "La retraite est une version longue de ce lieu secret. Un petit coin de la maison pour la prière quotidienne, et un temps plus long, un jour, une demi-journée, parfois plusieurs jours, pour un temps plus approfondi."
     }
    ]
   },
   {
    "numero": "2",
-   "titre": "Le modèle biblique de la retraite spirituelle",
+   "titre": "Les exemples de la Bible",
    "references": [
-    "Marc 1:35",
-    "Luc 5:16",
-    "Matthieu 14:23",
-    "Galates 1:17"
+    "Mc 1:35-38",
+    "Lc 6:12-13",
+    "Mt 14:13-23",
+    "Ex 24:15-18",
+    "1 R 19:1-18",
+    "Ga 1:15-18"
    ],
-   "transition": "La définition posée, voyons que cette discipline n'est pas une invention humaine : Jésus Lui-même et les grands serviteurs de Dieu l'ont pratiquée.",
    "blocs": [
     {
-     "texte": "Jésus pratiquait la retraite régulièrement (Luc 5:16). Il le faisait avant les grandes décisions (Luc 6:12-13 : avant de choisir les 12 apôtres, il passa la nuit à prier Dieu), après les grands succès (Matthieu 14:23) et dans les moments d'épreuve (Gethsémané, Matthieu 26:36-46)."
+     "sous_titre": "Jésus : avant les décisions, après les succès, dans la douleur"
     },
     {
-     "texte": "Élie, épuisé et découragé, fut conduit par Dieu vers une retraite à l'Horeb (1 Rois 19:5-8). Un ange le nourrit deux fois : « Lève-toi et mange, car le chemin est trop long pour toi. » Dieu peut utiliser une retraite pour te fortifier pour le voyage restant."
+     "texte": "Jésus se retirait dans des moments clés. Avant les grandes décisions : il passa la nuit à prier avant de choisir ses douze apôtres. Après les grands succès : après avoir nourri cinq mille hommes, il renvoya la foule, et monta sur la montagne pour prier à l'écart. Dans la douleur : avant son arrestation, il alla à Gethsémané, avec ses disciples, puis s'éloigna d'eux pour prier seul, jusqu'à suer de grosses gouttes de sang."
     },
     {
-     "texte": "Paul, après sa conversion, alla d'abord en Arabie (Galates 1:17) — une retraite prolongée pour être formé directement par le Seigneur avant son ministère."
+     "verset": "Mc 1:35-38"
     },
     {
-     "texte": "Quatre besoins fondamentaux : 1) Renouvellement (Ésaïe 40:31), 2) Révélation (Psaume 25:14), 3) Réorientation (Proverbes 3:6), 4) Réconciliation profonde avec Dieu (Osée 2:16)."
+     "verset": "Lc 6:12-13"
+    },
+    {
+     "verset": "Mt 14:13-23"
+    },
+    {
+     "texte": "Remarque que Jésus se retirait dans le succès comme dans l'épreuve. Dans le succès, il y a un danger d'orgueil et de dispersion. Dans l'épreuve, il y a le besoin de force. À chaque fois, il revenait à son Père."
+    },
+    {
+     "sous_titre": "Moïse sur la montagne"
+    },
+    {
+     "texte": "Moïse est monté sur la montagne du Sinaï. La nuée couvrit la montagne. La gloire de l'Éternel reposa sur la montagne, et la nuée la couvrit pendant six jours. Le septième jour, l'Éternel appela Moïse du milieu de la nuée. Moïse entra dans la nuée, et il monta sur la montagne. Moïse demeura sur la montagne quarante jours et quarante nuits."
+    },
+    {
+     "verset": "Ex 24:15-18"
+    },
+    {
+     "texte": "C'est sur cette montagne que Dieu lui a donné la loi. C'est aussi là qu'il a été préparé au leadership. Les plus grandes missions sont précédées de longs moments avec Dieu."
+    },
+    {
+     "sous_titre": "Élie à l'Horeb"
+    },
+    {
+     "texte": "Élie venait de gagner une grande victoire sur le mont Carmel contre les prophètes de Baal. Mais la reine Jézabel l'a menacé de mort. Épuisé, découragé, Élie s'est enfui dans le désert, s'est assis sous un genêt et a demandé à mourir. Ce que Dieu a fait est remarquable : il ne l'a pas grondé. Un ange l'a touché et lui a dit : lève-toi, mange. Il y avait près de sa tête un gâteau cuit sur des pierres et une cruche d'eau. Il mangea et but, puis se recoucha. L'ange revint une deuxième fois : lève-toi, mange, car le chemin est trop long pour toi. Alors Élie marcha quarante jours jusqu'à l'Horeb, la montagne de Dieu."
+    },
+    {
+     "verset": "1 R 19:1-18"
+    },
+    {
+     "texte": "Là, Dieu lui a parlé : il y a eu un vent violent, mais l'Éternel n'était pas dans le vent. Puis un tremblement de terre, mais l'Éternel n'était pas dans le tremblement de terre. Puis un feu, mais l'Éternel n'était pas dans le feu. Et après le feu, un murmure doux et léger. Voilà où Dieu était. Beaucoup d'entre nous cherchons Dieu dans les grands événements. Il parle souvent dans le silence. Élie a eu besoin d'une retraite pour se restaurer physiquement et spirituellement, avant de recevoir une nouvelle mission."
+    },
+    {
+     "texte": "Parfois, ce dont tu as besoin quand tu es épuisé, ce n'est pas d'un autre effort, mais d'un sommeil, d'un repas, et d'un moment de silence avec Dieu."
+    },
+    {
+     "sous_titre": "Paul en Arabie"
+    },
+    {
+     "texte": "Après sa conversion, Paul n'a pas couru à Jérusalem pour consulter les apôtres. Il écrit : je ne consultai ni la chair ni le sang, et je ne montai pas à Jérusalem vers ceux qui étaient apôtres avant moi, mais je partis pour l'Arabie. Il y est resté un certain temps, puis il est retourné à Damas. Ce n'est que trois ans plus tard qu'il est monté à Jérusalem."
+    },
+    {
+     "verset": "Ga 1:15-18"
+    },
+    {
+     "texte": "Paul avait besoin de temps, seul avec Dieu, pour être formé. Il avait été un fanatique de la loi. Il avait tout à désapprendre et à réapprendre. Cette retraite prolongée a posé le fondement de tout son ministère."
+    },
+    {
+     "sous_titre": "Pourquoi ces hommes se retiraient-ils ?"
+    },
+    {
+     "texte": "Ces exemples nous montrent plusieurs raisons : se préparer à une mission, recevoir une direction, être restauré, être formé, être seul avec Dieu. Aucun n'a eu besoin de grands moyens. Ils avaient simplement besoin d'un lieu calme et d'un cœur disponible."
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "Comment préparer sa retraite spirituelle",
+   "titre": "Comment préparer sa retraite",
    "references": [
-    "Psaume 46:11",
-    "Matthieu 6:6"
+    "Ps 46:11",
+    "Mt 6:6",
+    "Lc 10:38-42",
+    "Mc 6:31"
    ],
-   "transition": "Inspiré par ces modèles, prépare maintenant ta propre retraite — car une rencontre avec Dieu se prépare avec soin.",
    "blocs": [
     {
-     "texte": "AVANT la retraite : choisis un lieu où tu seras vraiment seul et sans distraction — une chambre fermée, un espace en pleine nature. Mets ton téléphone en mode avion AVANT d'arriver. Emporte ta Bible, un carnet, un crayon, de l'eau et une alimentation légère. Annonce à tes proches que tu seras indisponible."
+     "sous_titre": "Prévoir et planifier"
     },
     {
-     "texte": "Le principe fondamental : « Arrêtez, et sachez que je suis Dieu » (Psaume 46:11). La retraite commence quand le bruit s'arrête. Ne remplis pas le silence avec de la musique ou des médias — tu viens écouter Dieu, pas consommer du contenu."
+     "texte": "La première condition d'une retraite, c'est de la prévoir. Si tu attends de « trouver du temps », tu n'en trouveras jamais. Inscris-la sur ton agenda, comme un rendez-vous important. Dis-le à ta famille. Organise ton travail. Si tu as des enfants, prévois quelqu'un pour les garder."
     },
     {
-     "texte": "Ce qu'il faut EMPORTER : Bible et concordance, carnet et stylo, un guide de méditation si besoin, eau et fruits ou pain simple, une couverture si tu t'isoles en plein air."
+     "texte": "L'ennemi fait tout pour empêcher une retraite. À l'approche du jour, des urgences surgissent, des visites inattendues, des malentendus. Prie à l'avance, et tiens ta décision."
     },
     {
-     "texte": "Ce qu'il faut LAISSER : le téléphone (mode avion ou éteint), les soucis professionnels, la liste de tâches, les réseaux sociaux, tout ce qui parle du monde."
+     "sous_titre": "Le lieu"
+    },
+    {
+     "texte": "Choisis un lieu où tu seras vraiment seul, loin des distractions. Cela peut être : une pièce fermée chez toi ou chez un ami, un coin de nature calme, une colline, un jardin, un centre de prière, une salle d'église vide. Tu n'as pas besoin d'un lieu lointain ni coûteux. Jésus priait sur une montagne, mais aussi dans un jardin, et même sur un bateau."
+    },
+    {
+     "sous_titre": "Ce qu'il faut emporter"
+    },
+    {
+     "texte": "Une Bible, un cahier et un stylo, de l'eau, de la nourriture simple (fruits, pain, arachides), peut-être un livre de méditation. Si tu es en plein air, une natte ou une couverture. C'est tout. Tu ne viens pas pour consommer, mais pour écouter."
+    },
+    {
+     "sous_titre": "Ce qu'il faut laisser"
+    },
+    {
+     "texte": "Le téléphone : mets-le en mode avion avant d'arriver, ou éteins-le. C'est la règle la plus difficile, et la plus importante. Laisse aussi les soucis du travail, la liste des tâches, les réseaux sociaux. Si c'est vraiment nécessaire, tu peux prévenir un proche que tu seras injoignable jusqu'à telle heure, et lui indiquer comment te joindre en cas d'urgence."
+    },
+    {
+     "sous_titre": "L'état d'esprit"
+    },
+    {
+     "texte": "Ne viens pas avec une liste de demandes. Viens avec un cœur ouvert. Marthe était occupée à beaucoup de choses, mais Marie s'était assise aux pieds de Jésus pour l'écouter. Et Jésus dit que Marie avait choisi la bonne part."
+    },
+    {
+     "verset": "Lc 10:38-42"
+    },
+    {
+     "texte": "Jésus a même dit à ses apôtres, après une période de service intense : venez à l'écart dans un lieu désert, et reposez-vous un peu. Car il y avait beaucoup de gens qui allaient et venaient, et ils n'avaient pas même le temps de manger."
+    },
+    {
+     "verset": "Mc 6:31"
+    },
+    {
+     "texte": "La retraite commence quand le bruit s'arrête. Ne remplis pas le silence avec de la musique ou des médias. Tu viens pour écouter Dieu, pas pour consommer du contenu, même chrétien."
     }
    ]
   },
   {
    "numero": "4",
-   "titre": "Programme type d'une retraite d'une journée complète",
+   "titre": "Programme d'une journée de retraite",
    "references": [
-    "Luc 6:12",
-    "1 Rois 19:11-12",
-    "Psaume 119:147-148"
+    "Ps 103",
+    "Ps 145",
+    "1 Jn 1:9",
+    "1 R 19:11-12",
+    "Ps 127:2",
+    "Nb 6:24-26"
    ],
-   "transition": "Le cadre est prêt ; voici un déroulé heure par heure pour que cette journée devienne une véritable rencontre avec Dieu.",
    "blocs": [
     {
-     "texte": "6h00 — RÉVEIL ET LOUANGES (30 min) : commence par des louanges. Remercie Dieu pour la vie de cette journée. Lis un psaume de louange (Psaume 103, 145, 148). N'ouvre pas de demande encore — adore d'abord."
+     "texte": "Voici un exemple de programme d'une journée complète, de 6 h à 17 h. Ce n'est pas une règle : adapte-le à ton énergie, à ta situation et à ce que Dieu te met à cœur."
     },
     {
-     "texte": "6h30 — CONFESSION ET NETTOYAGE INTÉRIEUR (30 min) : laisse le Saint-Esprit révéler tout ce qui bloque la communion. Confesse sans retenue. Reçois le pardon par la foi (1 Jean 1:9)."
+     "sous_titre": "6 h : réveil et louange (30 minutes)"
     },
     {
-     "texte": "7h00 — LECTURE PROFONDE DE LA PAROLE (1h30) : lis lentement un livre biblique. Arrête-toi quand un verset te frappe. Note-le. Demande : que dit ce texte ? Que me dit Dieu ? Que dois-je changer ? Que dois-je croire ?"
+     "texte": "Commence par la louange. Remercie Dieu pour la vie de cette journée. Lis un psaume de louange : le Psaume 103, le Psaume 145, ou le Psaume 148. N'ouvre pas encore de demande : adore d'abord."
     },
     {
-     "texte": "8h30 — PETIT-DÉJEUNER LÉGER (30 min) : simple, en silence si possible. Un fruit, du pain, de l'eau."
+     "verset": "Ps 103"
     },
     {
-     "texte": "9h00 — PRIÈRE D'INTERCESSION (1h30) : intercède pour ta famille, ton Église, tes collègues non-convertis, ta nation. Sois précis. Nomme les personnes."
+     "sous_titre": "6 h 30 : confession et nettoyage intérieur (30 minutes)"
     },
     {
-     "texte": "10h30 — SILENCE ET ÉCOUTE (1h) : la partie la plus précieuse. Assieds-toi en silence. Écoute. Note les pensées parasites et reviens au silence (Psaume 46:11 · 1 Rois 19:12)."
+     "texte": "Laisse le Saint-Esprit te montrer ce qui bloque la communion. Confesse sans retenue. Reçois le pardon par la foi. Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et pour nous purifier de toute iniquité."
     },
     {
-     "texte": "11h30 — ÉCRITURE DANS LE CARNET (45 min) : écris tout ce que Dieu t'a dit, tes engagements et les changements à faire."
+     "verset": "1 Jn 1:9"
     },
     {
-     "texte": "12h15 — DÉJEUNER (45 min) : simple, en conscience. Remercie Dieu."
+     "sous_titre": "7 h : lecture profonde de la Parole (1 h 30)"
     },
     {
-     "texte": "13h00 — REPOS OU MARCHE MÉDITATIVE (1h) : Dieu parle aussi dans le repos (Psaume 127:2). Marche lentement en méditant, sans musique."
+     "texte": "Lis lentement un livre de la Bible, par exemple l'Évangile de Jean ou la lettre aux Philippiens. Arrête-toi quand un verset te touche. Note-le. Pose quatre questions : que dit ce texte ? Que me dit Dieu à travers lui ? Que dois-je changer ? Que dois-je croire ?"
     },
     {
-     "texte": "14h00 — ÉTUDE THÉMATIQUE (1h30) : approfondis un sujet que Dieu t'a mis sur le cœur. Compare les textes. Prends des notes."
+     "sous_titre": "8 h 30 : petit-déjeuner léger (30 minutes)"
     },
     {
-     "texte": "15h30 — PRIÈRE PERSONNELLE INTENSE (1h) : présente tes besoins personnels, ta famille, ta santé, tes finances. Déclare les promesses de Dieu."
+     "texte": "Un repas simple : un fruit, du pain, de l'eau. En silence si possible. Mange avec reconnaissance."
     },
     {
-     "texte": "16h30 — GUERRE SPIRITUELLE (30 min) : prière de combat, bris des liens, intercession pour des situations bloquées. Utilise les fiches de l'Arsenal si nécessaire."
+     "sous_titre": "9 h : intercession (1 h 30)"
     },
     {
-     "texte": "17h00 — BÉNÉDICTION ET CLÔTURE (30 min) : remercie Dieu. Lis une bénédiction (Nombres 6:24-26). Engage-toi sur 3 choses à mettre en pratique sous 7 jours."
+     "texte": "Prie pour ta famille, ton église, tes collègues non convertis, ton pays. Sois précis. Nomme les personnes, et les situations."
     },
     {
-     "texte": "TOTAL : 11 heures de communion. Cette journée vaut des semaines de routine. Planifie une telle retraite au moins une fois par trimestre."
+     "sous_titre": "10 h 30 : silence et écoute (1 heure)"
+    },
+    {
+     "texte": "C'est la partie la plus précieuse. Assieds-toi en silence. Ne dis rien. Écoute. Les pensées parasites vont venir : la liste des courses, le travail, les soucis. Note-les sur ton cahier et reviens au silence."
+    },
+    {
+     "verset": "1 R 19:11-12"
+    },
+    {
+     "texte": "Souviens-toi d'Élie : Dieu était dans le murmure doux et léger. Ne t'attends pas forcément à une voix audible. Dieu parle souvent par une pensée, un verset qui revient, une paix, une conviction. Teste toujours ce que tu crois avoir entendu avec la Parole : Dieu ne se contredit jamais."
+    },
+    {
+     "sous_titre": "11 h 30 : écrire dans ton cahier (45 minutes)"
+    },
+    {
+     "texte": "Écris ce que Dieu t'a montré, les engagements que tu veux prendre, les changements à faire."
+    },
+    {
+     "sous_titre": "12 h 15 : déjeuner (45 minutes)"
+    },
+    {
+     "texte": "Un repas simple, en conscience. Remercie Dieu."
+    },
+    {
+     "sous_titre": "13 h : repos ou marche méditative (1 heure)"
+    },
+    {
+     "texte": "Dieu parle aussi pendant le repos. Le psalmiste dit : c'est en vain que vous vous levez matin, que vous vous couchez tard, et que vous mangez le pain de douleur ; il en donne autant à ses bien-aimés pendant leur sommeil. Marche lentement, sans musique, en méditant un verset. Ou repose-toi. Une sieste n'est pas un échec."
+    },
+    {
+     "verset": "Ps 127:2"
+    },
+    {
+     "sous_titre": "14 h : étude d'un thème (1 h 30)"
+    },
+    {
+     "texte": "Approfondis un sujet que Dieu t'a mis sur le cœur : le pardon, la foi, la pureté, l'appel. Compare plusieurs textes. Prends des notes."
+    },
+    {
+     "sous_titre": "15 h 30 : prière personnelle intense (1 heure)"
+    },
+    {
+     "texte": "Présente à Dieu tes besoins personnels : ta famille, ta santé, tes finances, ton avenir. Rappelle-lui ses promesses, et laisse la paix venir."
+    },
+    {
+     "sous_titre": "16 h 30 : combat spirituel (30 minutes)"
+    },
+    {
+     "texte": "Un temps de prière plus ferme pour des situations bloquées, ou des liens à briser. Appuie-toi sur la Parole et le nom de Jésus, avec humilité."
+    },
+    {
+     "sous_titre": "17 h : bénédiction et clôture (30 minutes)"
+    },
+    {
+     "texte": "Remercie Dieu. Lis la bénédiction du livre des Nombres : que l'Éternel te bénisse, et qu'il te garde ! Que l'Éternel fasse luire sa face sur toi, et qu'il t'accorde sa grâce ! Que l'Éternel tourne sa face vers toi, et qu'il te donne la paix !"
+    },
+    {
+     "verset": "Nb 6:24-26"
+    },
+    {
+     "texte": "Et décide de trois choses concrètes que tu mettras en pratique dans les sept jours. Écris-les. Une retraite qui ne change rien à la vie ordinaire n'est qu'un beau souvenir."
+    },
+    {
+     "texte": "Au total, ce programme représente onze heures de communion. Une telle journée vaut souvent plus que des semaines de prières pressées. Planifie-la au moins une fois par trimestre."
     }
    ]
   },
   {
    "numero": "5",
-   "titre": "Conseils et précautions pratiques",
+   "titre": "Adapter la retraite à ta réalité",
    "references": [
-    "Luc 5:16",
-    "Ésaïe 40:31",
-    "Ecclésiaste 4:9-10"
+    "Ec 4:9-10",
+    "Pr 21:5",
+    "Mc 6:31",
+    "1 Co 7:35",
+    "Nb 12:6"
    ],
-   "transition": "Que ces derniers conseils gardent ta retraite de tout piège et qu'ils en fassent une source durable de bénédiction.",
    "blocs": [
     {
-     "texte": "N'attends pas de te sentir prêt — l'ennemi s'assurera que tu ne le sois jamais. Planifie-la comme un rendez-vous et honore-la."
+     "sous_titre": "Si tu as peu de temps"
     },
     {
-     "texte": "Pour les parents de jeunes enfants : organise une garde. Une retraite de demi-journée (5h-13h) est déjà transformatrice."
+     "texte": "Tu n'as pas toujours une journée entière. Une demi-journée, de cinq heures à treize heures par exemple, peut déjà être transformatrice. Ou une soirée de trois heures. Ou même une heure et demie le samedi matin. Ce qui compte, c'est la régularité et la qualité. Mieux vaut une petite retraite mensuelle bien vécue qu'une grande retraite jamais réalisée."
     },
     {
-     "texte": "Si tu t'endors : laisse-toi dormir. Ton corps en a besoin et Dieu peut parler dans les songes (Nombres 12:6). Note tes rêves au réveil."
+     "sous_titre": "Si tu as de jeunes enfants"
     },
     {
-     "texte": "Résiste à la tentation de vérifier ton téléphone. Mode avion = frontière sacrée."
+     "texte": "Une mère ou un père de jeunes enfants peut sentir que la retraite est impossible. Pourtant, c'est souvent dans ces périodes que le besoin est le plus fort. Organisez-vous à deux : un parent garde les enfants pendant que l'autre fait sa retraite, puis on échange. Ou demande à une famille de l'église de garder les enfants. Dans la famille de Dieu, aider quelqu'un à se retirer pour prier est un vrai service."
     },
     {
-     "texte": "Après la retraite : partage les principales révélations avec un proche de confiance (Ecclésiaste 4:9-10). Mets en pratique dans les 48 heures — la désobéissance à la lumière reçue ferme les prochaines lumières."
+     "sous_titre": "Si tu n'as pas beaucoup de moyens"
+    },
+    {
+     "texte": "Tu n'as pas besoin de payer un hôtel ou un centre de retraite. Un coin de colline, un jardin, une salle d'église vide, la maison d'un ami qui voyage, tout peut convenir. Jésus a prié sur une barque, sur une montagne, dans un jardin. La retraite est une affaire de cœur, pas de portefeuille."
+    },
+    {
+     "sous_titre": "Si tu es occupé"
+    },
+    {
+     "texte": "Les plus occupés sont souvent ceux qui en ont le plus besoin. Martin Luther disait, dit-on : « J'ai tant à faire aujourd'hui que je dois prier trois heures au lieu d'une. » Que cette phrase soit exacte ou non, l'idée est juste : plus la tâche est grande, plus la dépendance de Dieu doit l'être."
+    },
+    {
+     "sous_titre": "Si tu t'endors"
+    },
+    {
+     "texte": "Si le sommeil te prend pendant la retraite, laisse-toi dormir. Ton corps en a besoin. Dieu a parlé dans des songes à Jacob, à Joseph, à Salomon. Au réveil, note tes rêves, mais ne leur accorde pas plus de valeur qu'ils n'en ont. Tout rêve doit être examiné avec la Parole et avec la prudence."
+    },
+    {
+     "verset": "Nb 12:6"
+    },
+    {
+     "sous_titre": "Après la retraite"
+    },
+    {
+     "texte": "Partage les principales choses que Dieu t'a dites avec un proche de confiance, un conjoint, un pasteur, un ami mûr. Salomon dit : deux valent mieux qu'un, parce qu'ils retirent un bon salaire de leur travail. Car, s'ils tombent, l'un relève son compagnon."
+    },
+    {
+     "verset": "Ec 4:9-10"
+    },
+    {
+     "texte": "Mets en pratique dans les quarante-huit heures. La désobéissance à la lumière reçue ferme les lumières suivantes."
+    },
+    {
+     "texte": "On raconte l'histoire d'une infirmière d'un hôpital de brousse, épuisée par le travail et les nuits de garde. Elle était sur le point de tout abandonner, y compris sa foi. Sa responsable, une sœur plus âgée, lui a dit : « Prends deux jours, va au bord de la rivière avec ta Bible, et ne fais rien d'autre. » Elle a protesté qu'elle n'avait pas le temps. La responsable a insisté. Pendant ces deux jours, elle a pleuré, dormi, lu les psaumes, prié. Elle est revenue changée : elle n'avait plus de miracle ni de vision, mais une paix et une force retrouvées. Elle a travaillé vingt ans de plus dans cet hôpital. Un temps de retraite a sauvé sa vocation."
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Les pièges et les fruits d'une retraite",
+   "references": [
+    "Mt 6:16-18",
+    "Ja 1:22-25",
+    "Ph 4:6-7",
+    "Ga 5:22-23",
+    "Hé 11:6"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Les pièges"
+    },
+    {
+     "texte": "Quelques pièges à éviter. Le premier, c'est de faire de la retraite un exploit : « J'ai passé onze heures seul avec Dieu, regardez comme je suis spirituel. » Jésus dit : quand tu jeûnes, parfume ta tête et lave ton visage, afin de ne pas montrer aux hommes que tu jeûnes. Une retraite se vit dans le secret."
+    },
+    {
+     "verset": "Mt 6:16-18"
+    },
+    {
+     "texte": "Le deuxième piège, c'est de chercher des expériences plutôt que Dieu. Certains partent en retraite en espérant avoir une vision, une voix, un rêve. Quand rien n'arrive, ils sont déçus. Mais Dieu est présent même quand tu ne sens rien. Sans la foi, il est impossible de lui être agréable. La foi croit sans voir."
+    },
+    {
+     "verset": "Hé 11:6"
+    },
+    {
+     "texte": "Le troisième piège, c'est de retourner à la vie ordinaire sans rien changer. Jacques dit : mettez en pratique la parole, et ne vous bornez pas à l'écouter, en vous trompant vous-mêmes par de faux raisonnements. Celui qui écoute la parole sans la mettre en pratique ressemble à un homme qui regarde dans un miroir son visage naturel, et qui, après s'être regardé, s'en va, et oublie aussitôt quel il était."
+    },
+    {
+     "verset": "Ja 1:22-25"
+    },
+    {
+     "sous_titre": "Les fruits"
+    },
+    {
+     "texte": "Après une vraie retraite, on remarque souvent des fruits : une paix plus profonde, une clarté sur certaines décisions, un cœur plus doux envers les autres, une faim nouvelle pour la Parole, une capacité de supporter les difficultés. La paix de Dieu, qui surpasse toute intelligence, garde les cœurs et les pensées en Jésus-Christ."
+    },
+    {
+     "verset": "Ph 4:6-7"
+    },
+    {
+     "texte": "Ce sont les fruits de l'Esprit qui se développent : l'amour, la joie, la paix, la patience, la bonté."
+    },
+    {
+     "verset": "Ga 5:22-23"
+    },
+    {
+     "texte": "Pour terminer, pense à Jésus qui, le matin, bien avant le jour, sortait pour aller dans un lieu désert. Si le Fils de Dieu ne pouvait pas se passer de ce temps avec son Père, nous en avons encore plus besoin. Si tu n'as jamais fait de retraite, commence petit : deux heures, un samedi matin, avec ta Bible, un cahier, ton téléphone éteint. Et laisse Dieu te surprendre. Ce que tu y trouveras, ce n'est pas seulement du repos. C'est une présence."
     }
    ]
   }
  ],
- "lecture_minutes": 5,
- "auteur": "L'Arsenal de la Sentinelle",
- "autorisation": "oui",
- "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
- "date_ajout": "2026-11-14",
+ "sujets": [
+  {
+   "titre": "Un cœur qui s'arrête",
+   "texte": "Père, apprends-moi à m'arrêter pour savoir que tu es Dieu. Délivre-moi de l'agitation et de la dispersion."
+  },
+  {
+   "titre": "Du temps pour toi",
+   "texte": "Montre-moi quand et où prendre ma prochaine retraite. Aide-moi à organiser mon agenda et ma famille."
+  },
+  {
+   "titre": "Écouter ta voix",
+   "texte": "Parle-moi dans le silence. Donne-moi de reconnaître ta voix, et de n'écouter que ce qui est conforme à ta Parole."
+  },
+  {
+   "titre": "Mettre en pratique",
+   "texte": "Après chaque retraite, donne-moi la force d'obéir à ce que tu m'auras montré, dans les quarante-huit heures."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Que fit Jésus le matin après avoir guéri toute la ville ?",
+   "choix": [
+    "Il continua à guérir",
+    "Il se leva avant le jour et alla prier dans un lieu désert",
+    "Il dormit"
+   ],
+   "reponse": 1,
+   "explication": "Marc 1:35.",
+   "section": "1"
+  },
+  {
+   "question": "Que dit Psaume 46:11 ?",
+   "choix": [
+    "Cours et sache que je suis Dieu",
+    "Arrêtez, et sachez que je suis Dieu",
+    "Cherche et tu trouveras"
+   ],
+   "reponse": 1,
+   "explication": "Pour connaître Dieu, il faut parfois cesser de faire.",
+   "section": "1"
+  },
+  {
+   "question": "Comment Dieu s'est-il révélé à Élie à l'Horeb ?",
+   "choix": [
+    "Dans le vent, le tremblement de terre et le feu",
+    "Dans un murmure doux et léger",
+    "Par un ange"
+   ],
+   "reponse": 1,
+   "explication": "1 Rois 19:11-12.",
+   "section": "2"
+  },
+  {
+   "question": "Pourquoi Paul est-il allé en Arabie après sa conversion ?",
+   "choix": [
+    "Pour voyager",
+    "Pour être formé par Dieu avant son ministère",
+    "Pour fuir"
+   ],
+   "reponse": 1,
+   "explication": "Galates 1:15-18.",
+   "section": "2"
+  },
+  {
+   "question": "Quelle est la règle la plus importante d'une retraite ?",
+   "choix": [
+    "Emporter beaucoup de livres",
+    "Laisser le téléphone en mode avion ou éteint",
+    "Ne pas dormir"
+   ],
+   "reponse": 1,
+   "explication": "Elle est la plus difficile et la plus importante.",
+   "section": "3"
+  },
+  {
+   "question": "Pourquoi Dieu dit-il à Élie « Lève-toi, mange » avant de lui parler ?",
+   "choix": [
+    "Pour le punir",
+    "Parce qu'il était épuisé et qu'il avait besoin de se restaurer d'abord",
+    "Parce qu'il avait faim d'argent"
+   ],
+   "reponse": 1,
+   "explication": "1 Rois 19:5-8. Parfois ce dont nous avons besoin, c'est de repos.",
+   "section": "4"
+  },
+  {
+   "question": "Quel est un piège de la retraite ?",
+   "choix": [
+    "Prier trop",
+    "Faire de la retraite un exploit pour se montrer spirituel, ou revenir sans rien changer",
+    "Dormir"
+   ],
+   "reponse": 1,
+   "explication": "Matthieu 6:16-18 ; Jacques 1:22-25.",
+   "section": "6"
+  }
+ ],
+ "devoir": [
+  "Lis Marc 1:29-39 et 1 Rois 19:1-18.",
+  "Choisis une date, dans les trente jours, pour une retraite de deux à cinq heures au moins. Note-la dans ton agenda et dis-le à ta famille.",
+  "Prépare ton matériel : Bible, cahier, stylo, eau, collation. Prévois de mettre ton téléphone en mode avion.",
+  "À la fin de ta retraite, écris trois engagements à mettre en pratique dans les sept jours."
+ ],
  "prieres_liees": [
   "theme:priere-prier-sans-cesse",
   "veille:aube"
- ]
+ ],
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "autorisation": "oui"
 }
