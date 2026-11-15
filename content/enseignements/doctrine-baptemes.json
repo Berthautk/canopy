@@ -1,66 +1,120 @@
 {
  "id": "enseignement-doctrine-baptemes",
  "titre": "La doctrine des baptêmes",
- "theme": "Doctrine",
  "serie": "L'Arsenal de la Sentinelle",
- "resume": "Les 4 types de baptême — définitions, preuves et significations",
+ "theme": "Doctrine",
+ "auteur": "L'Arsenal de la Sentinelle",
+ "resume": "Ce que la Bible enseigne sur les baptêmes : celui de Jean-Baptiste, le baptême d'eau, le baptême du Saint-Esprit et le baptême de feu. Ce que chacun veut dire, comment le recevoir, avec des histoires du Nouveau Testament et un regard honnête sur les points où des chrétiens sincères pensent différemment.",
  "image": "/assets/eglise/bapteme-en-bassin.webp",
- "verset_de_base": "Matthieu 3:11",
+ "verset_de_base": "Mt 3:11",
+ "lecture_minutes": 36,
  "objectifs": [
-  "Comprendre le sens profond du mot baptême dans les Écritures",
-  "Distinguer clairement les quatre types de baptême",
-  "Connaître les preuves scripturaires de chacun",
-  "Discerner ce qu'il reste à recevoir et à mettre en pratique"
+  "Comprendre le sens du mot « baptême » et pourquoi la Bible parle de plusieurs baptêmes.",
+  "Connaître le sens et les conditions du baptême d'eau chrétien.",
+  "Comprendre ce qu'est le baptême du Saint-Esprit, son but et comment le demander.",
+  "Comprendre le baptême de feu et savoir ce qu'il faut faire concrètement."
  ],
- "introduction": "Le mot grec « baptizō » signifie plonger, immerger, submerger. Dans l'Antiquité, il décrivait le tissu plongé dans la teinture jusqu'à changer complètement de couleur, ou le bateau qui coule sous les eaux. C'est cette image de transformation totale que le Nouveau Testament utilise. La Bible distingue quatre baptêmes : le baptême de Jean-Baptiste, le baptême d'eau chrétien, le baptême du Saint-Esprit, et le baptême de feu. Chacun a sa place, sa signification et ses preuves distinctes.",
+ "introduction": "Pierre a répondu à la foule de la Pentecôte : repentez-vous, et que chacun de vous soit baptisé au nom de Jésus-Christ, pour le pardon de vos péchés ; et vous recevrez le don du Saint-Esprit. Dans cette seule phrase, il parle de repentance, de baptême et du Saint-Esprit. Ces trois choses forment le début de la vie chrétienne.\n\nMais quand on lit le Nouveau Testament, on rencontre le mot baptême plusieurs fois, avec des sens différents. Jean-Baptiste baptisait. Jésus a été baptisé. Il a ordonné à ses disciples de baptiser. Il a aussi promis le baptême du Saint-Esprit et de feu. L'auteur de l'épître aux Hébreux parle même, parmi les premiers éléments de la doctrine, de l'enseignement sur les baptêmes, au pluriel.\n\nBeaucoup de chrétiens sont confus. Ils se demandent : faut-il être baptisé par immersion ou est-ce suffisant d'avoir reçu un peu d'eau étant bébé ? Le baptême sauve-t-il ? Qu'est-ce que le baptême du Saint-Esprit ? Est-ce la même chose que la nouvelle naissance ? Dans cet enseignement, nous allons regarder ce que la Bible dit, à partir des textes. Je présenterai la position que cette application défend, et j'indiquerai honnêtement les points sur lesquels des frères et sœurs sincères pensent autrement. Notre but n'est pas de gagner une dispute, mais de comprendre et d'obéir à la Parole.",
  "sections": [
   {
    "numero": "1",
-   "titre": "Définition — que signifie « baptême » ?",
+   "titre": "Que veut dire « baptême » ?",
    "references": [
-    "Romains 6:3-4",
-    "Colossiens 2:12",
-    "Marc 3:11"
+    "Hé 6:1-2",
+    "Ro 6:3-4",
+    "Col 2:12",
+    "Mc 10:38-39"
    ],
    "blocs": [
     {
-     "texte": "Baptiser, c'est immerger, plonger entièrement. Le mot évoque une transformation totale : ce qui est plongé ressort changé, comme le tissu qui prend la couleur de la teinture."
+     "sous_titre": "Un mot qui parle d'immersion"
     },
     {
-     "texte": "Spirituellement, le baptême marque une identification et un passage : on est uni à ce dans quoi on est plongé. Le baptême d'eau nous identifie à la mort et à la résurrection de Christ (Romains 6:3-4)."
+     "texte": "Le mot grec baptizô, d'où vient notre mot baptême, signifie plonger, immerger. Dans l'Antiquité, on l'utilisait pour parler d'un tissu que l'on plongeait dans une teinture : il en ressortait d'une couleur différente. On l'utilisait aussi pour un bateau qui coule sous les vagues. L'idée est celle d'un changement total par immersion."
     },
     {
-     "verset": "Hébreux 6:1-2"
+     "texte": "Spirituellement, être baptisé veut dire être plongé dans quelque chose et s'identifier à lui. Le tissu plongé dans la teinture prend la couleur de la teinture. Celui qui est baptisé s'identifie à ce dans quoi il est plongé."
     },
     {
-     "texte": "C'est pourquoi il faut savoir distinguer les quatre baptêmes que la Bible présente, afin de discerner ce que l'on a déjà reçu et ce qu'il reste à recevoir."
+     "sous_titre": "Un enseignement de base"
+    },
+    {
+     "texte": "L'épître aux Hébreux place la doctrine des baptêmes parmi les éléments fondamentaux : laissant les éléments de la parole de Christ, tendons à ce qui est parfait, sans poser de nouveau le fondement du renoncement aux œuvres mortes, de la foi en Dieu, de la doctrine des baptêmes, de l'imposition des mains, de la résurrection des morts et du jugement éternel."
+    },
+    {
+     "verset": "Hé 6:1-2"
+    },
+    {
+     "texte": "Cela veut dire que cet enseignement n'est pas secondaire. Il fait partie des fondements. Un nouveau croyant doit le comprendre."
+    },
+    {
+     "sous_titre": "Plusieurs sens dans la Bible"
+    },
+    {
+     "texte": "Quand la Bible parle de baptême, elle ne parle pas toujours d'eau. Jésus a dit à ses disciples Jacques et Jean : pouvez-vous être baptisés du baptême dont je dois être baptisé ? Il parlait de ses souffrances, de sa mort sur la croix."
+    },
+    {
+     "verset": "Mc 10:38-39"
+    },
+    {
+     "texte": "C'est pourquoi il est utile de distinguer plusieurs réalités. Nous allons en regarder quatre : le baptême de Jean-Baptiste, le baptême d'eau chrétien, le baptême du Saint-Esprit, et le baptême de feu. Ces quatre baptêmes ne sont pas des doublons, mais des étapes ou des réalités différentes."
     }
    ]
   },
   {
    "numero": "2",
-   "titre": "Le baptême de Jean-Baptiste (de repentance)",
+   "titre": "Le baptême de Jean-Baptiste",
    "references": [
-    "Matthieu 3:1-12",
-    "Marc 1:4-8",
-    "Actes 19:1-6"
+    "Mt 3:1-12",
+    "Mc 1:4-8",
+    "Ac 19:1-6",
+    "Jn 1:29-34"
    ],
-   "transition": "Commençons par le premier baptême de l'histoire de l'Évangile — celui qui préparait le chemin du Seigneur.",
    "blocs": [
     {
-     "texte": "Jean le Baptiste était envoyé pour préparer le chemin du Seigneur (Matthieu 3:3). Son baptême était un acte de repentance — se détourner publiquement du péché en vue de l'arrivée du Messie. Ce n'était pas le baptême chrétien complet."
+     "sous_titre": "Le messager"
     },
     {
-     "verset": "Matthieu 3:6"
+     "texte": "Jean le Baptiste est apparu dans le désert de Judée, vêtu de poils de chameau, mangeant des sauterelles et du miel sauvage. Il prêchait : repentez-vous, car le royaume des cieux est proche. Il était le messager annoncé par Ésaïe : voix de celui qui crie dans le désert : préparez le chemin du Seigneur."
     },
     {
-     "texte": "Jean lui-même en explique la limite (Matthieu 3:11) : il baptisait d'eau pour la repentance, mais Celui qui venait baptiserait du Saint-Esprit et de feu."
+     "verset": "Mt 3:1-12"
     },
     {
-     "verset": "Actes 19:4-5"
+     "texte": "Les gens venaient à lui de toute la région. Ils confessaient leurs péchés et se faisaient baptiser par lui dans le Jourdain."
     },
     {
-     "texte": "Conclusion : ce baptême était nécessaire en son temps mais insuffisant. Un baptême purement rituel, sans foi vivante en Jésus, appelle un vrai baptême d'eau au nom de Jésus-Christ."
+     "sous_titre": "Un baptême de repentance"
+    },
+    {
+     "texte": "Le baptême de Jean était un acte public de repentance. En se plongeant dans l'eau, les gens disaient : je me détourne de mon péché, je me prépare à recevoir celui qui vient. Ce n'était pas encore le baptême chrétien complet. Jean lui-même en a donné la limite : moi, je vous baptise d'eau, pour vous amener à la repentance ; mais celui qui vient après moi est plus puissant que moi, et je ne suis pas digne de porter ses souliers. Lui, il vous baptisera du Saint-Esprit et de feu."
+    },
+    {
+     "verset": "Mc 1:4-8"
+    },
+    {
+     "sous_titre": "Des disciples d'Éphèse"
+    },
+    {
+     "texte": "Dans les Actes, Paul rencontre à Éphèse douze disciples qui avaient reçu le baptême de Jean. Il leur demande : avez-vous reçu le Saint-Esprit quand vous avez cru ? Ils répondent : nous n'avons pas même entendu dire qu'il y ait un Saint-Esprit. Paul leur explique que Jean baptisait du baptême de repentance, en disant au peuple de croire en celui qui venait après lui, c'est-à-dire en Jésus. Ces disciples ont alors été baptisés au nom du Seigneur Jésus, Paul leur a imposé les mains, et le Saint-Esprit est venu sur eux."
+    },
+    {
+     "verset": "Ac 19:1-6"
+    },
+    {
+     "texte": "Cet épisode nous apprend que le baptême de Jean, bon et nécessaire en son temps, a été dépassé par la venue de Jésus. Un baptême fait par habitude, sans foi vivante en Jésus, ne remplace pas le vrai baptême chrétien."
+    },
+    {
+     "sous_titre": "Jésus lui-même a été baptisé"
+    },
+    {
+     "texte": "Jésus est venu vers Jean pour être baptisé. Jean voulait l'en empêcher : c'est moi qui ai besoin d'être baptisé par toi, et tu viens à moi ! Jésus lui a répondu : laisse faire pour le moment, car il est convenable que nous accomplissions ainsi tout ce qui est juste. Jésus n'avait pas de péchés à confesser. Mais il s'est identifié aux pécheurs qu'il venait sauver. Quand il est sorti de l'eau, les cieux se sont ouverts, l'Esprit de Dieu est descendu sur lui comme une colombe, et une voix a dit : celui-ci est mon Fils bien-aimé, en qui j'ai mis toute mon affection."
+    },
+    {
+     "verset": "Jn 1:29-34"
+    },
+    {
+     "texte": "Voilà un moment extraordinaire : le Père, le Fils et le Saint-Esprit sont tous présents. Jésus nous a donné l'exemple : si lui s'est fait baptiser, comment ne le ferions-nous pas ?"
     }
    ]
   },
@@ -68,30 +122,92 @@
    "numero": "3",
    "titre": "Le baptême d'eau chrétien",
    "references": [
-    "Matthieu 28:19",
-    "Actes 2:38",
-    "Romains 6:3-4",
-    "Colossiens 2:12"
+    "Mt 28:19-20",
+    "Ac 2:38",
+    "Ro 6:3-4",
+    "Col 2:12",
+    "Ép 2:8-9",
+    "Ac 8:36-39",
+    "Ac 16:25-34"
    ],
-   "transition": "Du baptême de préparation, passons au baptême que le Seigneur ressuscité a expressément commandé à tous ses disciples.",
    "blocs": [
     {
-     "texte": "C'est le commandement direct du Seigneur. Matthieu 28:19 : « Allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit. »"
+     "sous_titre": "Un commandement de Jésus"
     },
     {
-     "verset": "Actes 2:38"
+     "texte": "Avant de monter au ciel, Jésus a donné cet ordre : allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit, et enseignez-leur à observer tout ce que je vous ai prescrit."
     },
     {
-     "texte": "Sa signification (Romains 6:3-4) : nous avons été ensevelis avec Christ par le baptême en sa mort, afin de marcher en nouveauté de vie. Le baptême est la représentation physique de ta mort au péché et de ta résurrection avec Christ."
+     "verset": "Mt 28:19-20"
     },
     {
-     "texte": "Le baptême ne sauve pas par lui-même — c'est la foi qui sauve (Éphésiens 2:8-9) — mais il est le signe extérieur et public d'une transformation intérieure réelle (Colossiens 2:12)."
+     "texte": "Le baptême est un ordre direct du Seigneur. On ne peut pas dire : « Je suis chrétien, mais je ne vois pas la nécessité d'être baptisé. » Ce serait comme un soldat qui dirait : « Je suis dans l'armée, mais je ne porte pas mon uniforme. »"
     },
     {
-     "texte": "Immersion ou aspersion ? La Bible soutient l'immersion totale : « baptizō » signifie immerger ; Jésus « Il sortit de l’eau » (Matthieu 3:16) ; l'eunuque « descendit dans l'eau » et « Quand ils furent sortis de l’eau » (Actes 8:38-39). L'ensevelissement (Romains 6:4) ne s'illustre que par l'immersion."
+     "sous_titre": "Ce qu'il représente"
     },
     {
-     "texte": "Quand se faire baptiser ? Dès la conversion authentique. L'eunuque éthiopien fut baptisé sur-le-champ (Actes 8:36) ; le geôlier de Philippes la nuit même (Actes 16:33). La repentance et la foi sont les conditions — pas la durée de formation."
+     "texte": "Paul explique le sens du baptême : ignorez-vous que nous tous qui avons été baptisés en Jésus-Christ, c'est en sa mort que nous avons été baptisés ? Nous avons donc été ensevelis avec lui par le baptême en sa mort, afin que, comme Christ est ressuscité des morts par la gloire du Père, de même nous aussi nous marchions en nouveauté de vie."
+    },
+    {
+     "verset": "Ro 6:3-4"
+    },
+    {
+     "texte": "Quand tu descends dans l'eau, c'est comme si tu étais enterré : ton ancienne vie est mise dans le tombeau avec Jésus. Quand tu ressors de l'eau, c'est comme une résurrection : tu commences une vie nouvelle avec lui. Le baptême est une image vivante de ce qui s'est passé dans ton cœur."
+    },
+    {
+     "texte": "Paul le redit aux Colossiens : ayant été ensevelis avec lui par le baptême, vous êtes aussi ressuscités en lui et avec lui, par la foi en la puissance de Dieu, qui l'a ressuscité des morts."
+    },
+    {
+     "verset": "Col 2:12"
+    },
+    {
+     "sous_titre": "Ce qu'il ne fait pas"
+    },
+    {
+     "texte": "Le baptême d'eau ne sauve pas par lui-même. Paul dit : c'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres. Le brigand sur la croix, à qui Jésus a promis le paradis, n'a pas été baptisé. Le salut vient de la foi en Jésus."
+    },
+    {
+     "verset": "Ép 2:8-9"
+    },
+    {
+     "texte": "Alors pourquoi se faire baptiser ? Parce que Jésus l'a ordonné, parce que c'est une confession publique de notre foi, et parce que c'est un acte d'obéissance qui fortifie notre engagement. On ne se fait pas baptiser pour être sauvé, mais parce qu'on est sauvé. Quand Pierre dit « pour le pardon de vos péchés » en Actes 2:38, certains comprennent que le baptême est une condition du salut ; d'autres comprennent qu'il est l'expression visible de la repentance et de la foi qui reçoivent le pardon. Dans tous les cas, ceux qui croient sincèrement veulent obéir et se faire baptiser."
+    },
+    {
+     "verset": "Ac 2:38"
+    },
+    {
+     "sous_titre": "Immersion ou aspersion ?"
+    },
+    {
+     "texte": "C'est ici qu'il y a une vraie différence entre chrétiens. Certaines églises baptisent en versant un peu d'eau sur la tête, ou en aspergeant, et souvent des bébés. D'autres baptisent des croyants, c'est-à-dire des personnes qui ont personnellement cru, par immersion complète."
+    },
+    {
+     "texte": "Cette application suit la deuxième position, celle de l'immersion d'un croyant, pour plusieurs raisons tirées du Nouveau Testament. Le mot baptizô veut dire immerger. Jésus, après avoir été baptisé, sortit aussitôt de l'eau. Quand Philippe a baptisé l'eunuque éthiopien, ils descendirent tous deux dans l'eau, et Philippe baptisa l'eunuque. Quand ils furent sortis de l'eau, l'Esprit du Seigneur enleva Philippe."
+    },
+    {
+     "verset": "Ac 8:36-39"
+    },
+    {
+     "texte": "Et tous les baptêmes décrits dans le Nouveau Testament concernent des personnes qui avaient entendu l'Évangile, cru et se repentaient. Aucun exemple clair de baptême de bébé n'est donné. Certains pensent que les « maisons » baptisées, comme celle du geôlier de Philippes, comprenaient des enfants. Mais le texte précise que tous ceux de sa maison avaient entendu la parole de Dieu et croyaient."
+    },
+    {
+     "verset": "Ac 16:25-34"
+    },
+    {
+     "texte": "Il faut le dire avec respect : beaucoup de chrétiens sincères, dans d'autres traditions, comprennent le baptême des bébés comme l'entrée dans l'alliance de Dieu, et ils s'appuient sur d'autres textes. Notre position n'est pas un jugement sur leur foi. Elle est une conviction tirée de la Bible, et nous invitons chacun à étudier lui-même les textes. Si tu as été baptisé bébé, mais que tu as ensuite cru personnellement en Jésus, demande à Dieu de te montrer s'il veut que tu te fasses baptiser en tant que croyant. Beaucoup de gens témoignent d'une grande joie après cette obéissance."
+    },
+    {
+     "sous_titre": "Quand se faire baptiser ?"
+    },
+    {
+     "texte": "L'eunuque éthiopien a dit à Philippe : voici de l'eau ; qu'est-ce qui empêche que je sois baptisé ? Il a été baptisé immédiatement. Le geôlier de Philippes a été baptisé la nuit même, avec tous les siens. Dans le Nouveau Testament, on ne voit pas de longues périodes d'attente. Les conditions sont la repentance et la foi."
+    },
+    {
+     "texte": "Cela ne veut pas dire que l'on doit baptiser n'importe qui sans enseignement. Une église sage prépare les candidats avec quelques rencontres sur les bases de la foi, et s'assure que la personne comprend ce qu'elle fait. Mais il ne faut pas faire attendre inutilement des années."
+    },
+    {
+     "texte": "On raconte l'histoire d'un jeune homme musulman qui avait donné sa vie à Jésus. Il voulait être baptisé tout de suite, mais ses amis chrétiens lui disaient d'attendre, de peur de sa famille. Il a prié, puis il a décidé de se faire baptiser. Il a été chassé de chez lui. Pendant des mois, il a eu faim et froid. Mais il disait plus tard : « Le jour de mon baptême, j'ai dit à tout le monde que je ne m'appartenais plus. Dès ce jour, je n'ai plus jamais douté que j'étais à Jésus. » Le baptême, dans certains pays, est un acte de courage qui a un coût réel. Ce n'est pas à nous d'imposer à quelqu'un de payer ce prix, mais nous devons l'accompagner, l'entourer et prier pour lui."
     }
    ]
   },
@@ -99,27 +215,82 @@
    "numero": "4",
    "titre": "Le baptême du Saint-Esprit",
    "references": [
-    "Actes 1:4-5",
-    "Actes 2:1-4",
-    "Actes 8:14-17",
-    "Actes 10:44-48"
+    "Ac 1:4-8",
+    "Ac 2:1-4",
+    "Ac 8:14-17",
+    "Ac 10:44-48",
+    "Ac 19:6",
+    "Lc 11:13"
    ],
-   "transition": "Le baptême d'eau nous identifie à Christ ; le baptême suivant nous équipe de Sa puissance pour le service.",
    "blocs": [
     {
-     "texte": "C'est la promesse du Père (Actes 1:4). Jésus dit : « Jean a baptisé d'eau, mais vous, dans peu de jours, vous serez baptisés du Saint-Esprit » (Actes 1:5). C'est une expérience d'équipement, distincte de la nouvelle naissance."
+     "sous_titre": "La promesse du Père"
     },
     {
-     "verset": "Actes 2:4"
+     "texte": "Avant de monter au ciel, Jésus a dit à ses disciples : ne vous éloignez pas de Jérusalem, mais attendez ce que le Père a promis, ce que vous avez appris de moi. Car Jean a baptisé d'eau, mais vous, dans peu de jours, vous serez baptisés du Saint-Esprit."
     },
     {
-     "texte": "Dans Actes 8:14-17, Pierre et Jean imposent les mains aux croyants de Samarie (déjà sauvés et baptisés d'eau) et ils reçoivent le Saint-Esprit — réception visible de l'extérieur."
+     "verset": "Ac 1:4-8"
     },
     {
-     "texte": "Dans Actes 10:44-48, l'Esprit tombe sur Corneille et sa maison avant même le baptême d'eau, confirmant que ce baptême est pour toutes les nations."
+     "texte": "Et il a ajouté : vous recevrez une puissance, le Saint-Esprit survenant sur vous. Le baptême du Saint-Esprit est une expérience d'équipement et de puissance pour le témoignage."
     },
     {
-     "texte": "Il s'accompagne du signe des langues (Actes 2:4 · 10:46 · 19:6) et donne la puissance pour témoigner (Actes 1:8). Il est disponible pour tout croyant aujourd'hui — la promesse est pour tous ceux que le Seigneur appelle (Actes 2:39)."
+     "sous_titre": "À la Pentecôte"
+    },
+    {
+     "texte": "Le jour de la Pentecôte, ils furent tous remplis du Saint-Esprit, et se mirent à parler en d'autres langues, selon que l'Esprit leur donnait de s'exprimer."
+    },
+    {
+     "verset": "Ac 2:1-4"
+    },
+    {
+     "sous_titre": "À Samarie"
+    },
+    {
+     "texte": "À Samarie, des croyants avaient déjà cru et été baptisés d'eau. Pierre et Jean sont venus et ont prié pour eux afin qu'ils reçoivent le Saint-Esprit, car il n'était encore descendu sur aucun d'eux. Alors ils leur imposèrent les mains, et ils reçurent le Saint-Esprit."
+    },
+    {
+     "verset": "Ac 8:14-17"
+    },
+    {
+     "sous_titre": "Chez Corneille"
+    },
+    {
+     "texte": "Chez Corneille, le Saint-Esprit est tombé sur tous ceux qui écoutaient la parole, avant même qu'ils soient baptisés d'eau. Les croyants juifs venus avec Pierre furent étonnés de voir que le don du Saint-Esprit était aussi répandu sur les païens. Car ils les entendaient parler en langues et glorifier Dieu."
+    },
+    {
+     "verset": "Ac 10:44-48"
+    },
+    {
+     "sous_titre": "À Éphèse"
+    },
+    {
+     "texte": "Nous l'avons vu : quand Paul a imposé les mains aux douze disciples d'Éphèse, le Saint-Esprit est venu sur eux, et ils parlaient en langues et prophétisaient."
+    },
+    {
+     "verset": "Ac 19:6"
+    },
+    {
+     "sous_titre": "Ce que cette application enseigne"
+    },
+    {
+     "texte": "À partir de ces récits, cette application présente le baptême du Saint-Esprit comme une expérience distincte de la nouvelle naissance. Quand on croit en Jésus, le Saint-Esprit vient habiter en nous : c'est la nouvelle naissance. Puis il y a un revêtement de puissance, le baptême du Saint-Esprit, qui peut être accompagné du signe des langues, et qui donne la puissance pour témoigner. Il est disponible pour tout croyant aujourd'hui."
+    },
+    {
+     "texte": "Il faut dire honnêtement que tous les chrétiens ne comprennent pas ce sujet de la même manière. Certains pensent que tout croyant reçoit le baptême du Saint-Esprit au moment de la conversion, et que les langues ne sont pas un signe nécessaire. D'autres, dans les milieux pentecôtistes et charismatiques, y voient une expérience après la conversion, accompagnée de langues. Tous s'accordent sur l'essentiel : chaque croyant a besoin de la puissance du Saint-Esprit, et il faut la demander, y croire et en vivre."
+    },
+    {
+     "sous_titre": "Comment le demander"
+    },
+    {
+     "texte": "Jésus a dit : si donc, méchants comme vous l'êtes, vous savez donner de bonnes choses à vos enfants, à combien plus forte raison le Père céleste donnera-t-il le Saint-Esprit à ceux qui le lui demandent."
+    },
+    {
+     "verset": "Lc 11:13"
+    },
+    {
+     "texte": "Demande avec simplicité et foi. Tu peux le faire seul ou avec des frères et sœurs qui prient pour toi. Tu n'as pas à forcer quoi que ce soit. N'imite pas des sons pour en avoir l'air. Laisse l'Esprit agir, et obéis à ce qu'il te donne. Et veille à garder ensuite une vie sainte : le baptême du Saint-Esprit n'est pas un diplôme, mais le début d'une dépendance quotidienne."
     }
    ]
   },
@@ -127,60 +298,243 @@
    "numero": "5",
    "titre": "Le baptême de feu",
    "references": [
-    "Matthieu 3:11-12",
-    "Luc 3:16-17",
-    "Malachie 3:2-3"
+    "Mt 3:11-12",
+    "Lc 3:16-17",
+    "Ml 3:2-3",
+    "1 Co 3:12-15",
+    "2 Co 3:18",
+    "Hé 12:29"
    ],
-   "transition": "Au baptême de puissance s'ajoute un baptême de purification — le feu qui affine et qui sépare.",
    "blocs": [
     {
-     "verset": "Matthieu 3:11-12"
+     "sous_titre": "Une parole de Jean-Baptiste"
     },
     {
-     "texte": "Ce baptême a deux dimensions : la purification et le jugement. Pour le croyant, c'est le feu de l'Esprit qui purifie le cœur et raffine le caractère (Malachie 3:2-3 — comme on épure l'or et l'argent)."
+     "texte": "Jean a dit : lui, il vous baptisera du Saint-Esprit et de feu. Il a son van à la main ; il nettoiera son aire, et amassera le blé dans son grenier, mais il brûlera la paille dans un feu qui ne s'éteint point."
     },
     {
-     "texte": "Pour les impénitents, le feu est celui du jugement — le feu qui brûle la paille (Matthieu 3:12). C'est un avertissement solennel."
+     "verset": "Mt 3:11-12"
     },
     {
-     "texte": "Le croyant qui vit sous la présence de l'Esprit expérimente ce feu purificateur : ses priorités changent, son caractère est modelé à l'image de Christ (2 Corinthiens 3:18)."
+     "texte": "Que veut dire le baptême de feu ? Les chrétiens ne sont pas tous d'accord. Dans le texte de Jean, le feu est lié à la séparation du blé et de la paille : le feu brûle ce qui est sans valeur. Certains y voient donc uniquement le jugement final sur ceux qui rejettent Jésus. D'autres y voient aussi l'œuvre purificatrice du Saint-Esprit dans la vie du croyant. Les deux dimensions se retrouvent dans la Bible."
+    },
+    {
+     "sous_titre": "Le feu qui purifie"
+    },
+    {
+     "texte": "Le prophète Malachie parle du Messie : qui supportera le jour de sa venue ? Car il est comme le feu du fondeur. Il s'assiéra, il fondra et purifiera l'argent ; il purifiera les fils de Lévi, il les épurera comme l'or et l'argent."
+    },
+    {
+     "verset": "Ml 3:2-3"
+    },
+    {
+     "texte": "Un orfèvre met l'or dans le feu non pour le détruire, mais pour retirer les impuretés. L'œuvre du Saint-Esprit dans le croyant est comparable : il brûle l'orgueil, l'égoïsme, la rancune, le péché caché. Cela peut être douloureux, mais c'est pour notre bien. Paul dit à propos de l'œuvre de chaque croyant : l'œuvre de chacun sera manifestée, car le jour la fera connaître, parce qu'elle se révélera dans le feu."
+    },
+    {
+     "verset": "1 Co 3:12-15"
+    },
+    {
+     "sous_titre": "Un Dieu qui est un feu consumant"
+    },
+    {
+     "texte": "L'épître aux Hébreux rappelle : notre Dieu est aussi un feu dévorant. Cela nous demande de le servir avec respect et crainte."
+    },
+    {
+     "verset": "Hé 12:29"
+    },
+    {
+     "sous_titre": "Transformés à son image"
+    },
+    {
+     "texte": "Paul dit : nous tous qui, le visage découvert, contemplons comme dans un miroir la gloire du Seigneur, nous sommes transformés en la même image, de gloire en gloire, par le Seigneur, qui est l'Esprit."
+    },
+    {
+     "verset": "2 Co 3:18"
+    },
+    {
+     "texte": "Le baptême de feu, dans le sens de purification, n'est pas un événement unique. C'est un processus quotidien. Chaque jour, le Saint-Esprit nous modèle, nous corrige, nous purifie, pour que nous ressemblions davantage à Christ."
+    },
+    {
+     "sous_titre": "Le feu du jugement"
+    },
+    {
+     "texte": "Pour ceux qui refusent Jésus, la Bible parle d'un feu qui ne s'éteint point. C'est une vérité sérieuse. Mais elle est aussi une raison de plus d'annoncer l'Évangile avec urgence et amour."
+    },
+    {
+     "texte": "On raconte l'histoire d'un orfèvre qui montrait un jour sa technique à un visiteur. Il tenait un morceau d'argent dans le feu, et il le surveillait attentivement. Le visiteur lui demanda : « Combien de temps le laissez-vous dans le feu ? » L'orfèvre répondit : « Jusqu'à ce que je puisse y voir mon reflet. » La purification de Dieu est semblable. Il ne nous laisse pas dans le feu pour nous détruire, mais jusqu'à ce qu'il voie en nous le reflet de son Fils."
     }
    ]
   },
   {
    "numero": "6",
-   "titre": "Récapitulatif pratique : que dois-je faire ?",
+   "titre": "Que dois-je faire maintenant ?",
    "references": [
-    "Actes 2:38",
-    "Actes 1:8",
-    "Éphésiens 5:18"
+    "Ac 2:38",
+    "Ac 22:16",
+    "Ép 5:18",
+    "Ga 3:27",
+    "Ro 12:1-2"
    ],
-   "transition": "La doctrine ne porte du fruit que dans l'obéissance. Que cet examen te conduise à recevoir tout ce que Dieu a préparé pour toi.",
    "blocs": [
     {
-     "texte": "1. Si tu n'as jamais été baptisé d'eau par immersion en confessant ta foi en Jésus-Christ — fais-le dès que possible."
+     "sous_titre": "Si tu n'as jamais été baptisé comme croyant"
     },
     {
-     "texte": "2. Si tu as été aspergé enfant sans ta propre foi — ce n'est pas le baptême biblique. Recherche le baptême par immersion après ta conversion personnelle."
+     "texte": "Si tu as donné ta vie à Jésus, mais que tu n'as jamais été baptisé en tant que croyant, ne remets pas cette obéissance à plus tard. Ananias a dit à Paul, après sa conversion : et maintenant, pourquoi tardes-tu ? Lève-toi, sois baptisé, et lave tes péchés en invoquant le nom du Seigneur."
     },
     {
-     "texte": "3. Si tu n'as jamais reçu le baptême du Saint-Esprit avec le signe des langues — cherche-le par la prière, le jeûne et l'imposition des mains (Actes 2:39)."
+     "verset": "Ac 22:16"
     },
     {
-     "texte": "4. Demande à être rempli continuellement de l'Esprit (Éphésiens 5:18). Le baptême du Saint-Esprit est un acte initial qui doit être suivi d'une vie de dépendance continue."
+     "texte": "Parle à ton pasteur. Demande à te préparer et à être baptisé dès que possible. Invite ta famille et tes amis : ton baptême est un témoignage."
     },
     {
-     "texte": "5. Le feu purificateur de l'Esprit est une réalité quotidienne — soumets chaque jour ta vie à l'œuvre du Saint-Esprit."
+     "sous_titre": "Si tu as été baptisé petit"
+    },
+    {
+     "texte": "Si tu as été aspergé enfant, avant toute foi personnelle, prie et étudie les textes que nous avons vus. Demande au Seigneur de te guider. Parle avec ton pasteur, avec respect pour ta tradition. Ce n'est pas à moi de te dire ce que tu dois faire dans ta conscience ; Dieu te conduira. Mais cette application présente le baptême du croyant par immersion comme la pratique que le Nouveau Testament montre le plus clairement."
+    },
+    {
+     "sous_titre": "Revêtir Christ"
+    },
+    {
+     "texte": "Paul écrit : vous tous qui avez été baptisés en Christ, vous avez revêtu Christ. Le baptême est comme le changement de vêtement : tu abandonnes l'ancien, tu enfiles le nouveau."
+    },
+    {
+     "verset": "Ga 3:27"
+    },
+    {
+     "sous_titre": "Chercher la puissance du Saint-Esprit"
+    },
+    {
+     "texte": "Si tu n'as jamais cherché à être rempli du Saint-Esprit, fais-le. Demande avec foi. Lis les Actes. Prie avec des frères et sœurs mûrs. Et ensuite, laisse-toi remplir continuellement."
+    },
+    {
+     "verset": "Ép 5:18"
+    },
+    {
+     "sous_titre": "Une vie offerte"
+    },
+    {
+     "texte": "Paul termine ses grandes explications aux Romains par cet appel : je vous exhorte donc, frères, par les compassions de Dieu, à offrir vos corps comme un sacrifice vivant, saint, agréable à Dieu, ce qui sera de votre part un culte raisonnable. Ne vous conformez pas au siècle présent, mais soyez transformés par le renouvellement de l'intelligence."
+    },
+    {
+     "verset": "Ro 12:1-2"
+    },
+    {
+     "texte": "Le baptême d'eau, le baptême du Saint-Esprit et le feu purificateur de Dieu ont tous le même but : faire de toi une personne qui vit pour Jésus, avec puissance, avec pureté, avec amour. Reçois ce que Dieu t'offre, obéis à ce qu'il te demande, et marche chaque jour avec lui."
     }
    ]
   }
  ],
- "lecture_minutes": 6,
- "auteur": "L'Arsenal de la Sentinelle",
- "autorisation": "oui",
- "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
- "date_ajout": "2026-11-14",
+ "sujets": [
+  {
+   "titre": "L'obéissance du baptême",
+   "texte": "Seigneur Jésus, tu as été baptisé pour nous. Donne-moi de t'obéir dans le baptême, sans honte et sans crainte."
+  },
+  {
+   "titre": "Rempli du Saint-Esprit",
+   "texte": "Père, je te demande, comme tu l'as promis, de me remplir de ton Saint-Esprit, pour que je vive et que je témoigne avec puissance."
+  },
+  {
+   "titre": "Le feu qui purifie",
+   "texte": "Saint-Esprit, brûle en moi tout ce qui ne vient pas de toi : orgueil, rancune, péché caché. Modèle mon caractère à l'image de Jésus."
+  },
+  {
+   "titre": "Les nouveaux convertis",
+   "texte": "Garde les nouveaux convertis. Donne-leur le courage de se faire baptiser, et des frères pour les accompagner."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Que signifie le mot grec « baptizô » ?",
+   "choix": [
+    "Asperger",
+    "Plonger, immerger",
+    "Bénir"
+   ],
+   "reponse": 1,
+   "explication": "Il évoque un changement total, comme un tissu plongé dans la teinture.",
+   "section": "1"
+  },
+  {
+   "question": "Que représente le baptême d'eau, d'après Romains 6:3-4 ?",
+   "choix": [
+    "Un simple rite",
+    "L'ensevelissement avec Christ dans sa mort et la résurrection à une vie nouvelle",
+    "Un nettoyage du corps"
+   ],
+   "reponse": 1,
+   "explication": "Il est l'image visible de ce qui s'est passé dans le cœur du croyant.",
+   "section": "3"
+  },
+  {
+   "question": "Le baptême d'eau sauve-t-il par lui-même ?",
+   "choix": [
+    "Oui, toujours",
+    "Non, c'est la foi qui sauve ; le baptême est un acte d'obéissance et un témoignage",
+    "Seulement pour les enfants"
+   ],
+   "reponse": 1,
+   "explication": "Éphésiens 2:8-9 ; le brigand sur la croix n'a pas été baptisé.",
+   "section": "3"
+  },
+  {
+   "question": "Quand l'eunuque éthiopien a-t-il été baptisé ?",
+   "choix": [
+    "Après plusieurs années",
+    "Tout de suite après avoir cru",
+    "Jamais"
+   ],
+   "reponse": 1,
+   "explication": "Actes 8:36-39. Dans le Nouveau Testament, il n'y a pas de longues attentes.",
+   "section": "3"
+  },
+  {
+   "question": "Quelle est la différence entre le baptême de Jean et le baptême chrétien ?",
+   "choix": [
+    "Aucune",
+    "Le baptême de Jean préparait la venue de Jésus ; le baptême chrétien est fait au nom de Jésus",
+    "Le baptême de Jean était plus puissant"
+   ],
+   "reponse": 1,
+   "explication": "Les disciples d'Éphèse ont été baptisés de nouveau (Actes 19:1-6).",
+   "section": "2"
+  },
+  {
+   "question": "Que reconnaissent tous les chrétiens à propos du Saint-Esprit ?",
+   "choix": [
+    "Qu'il n'est pas nécessaire",
+    "Que chaque croyant a besoin de sa puissance, et doit la demander et en vivre",
+    "Qu'il est réservé aux pasteurs"
+   ],
+   "reponse": 1,
+   "explication": "Même s'ils ne sont pas d'accord sur le moment et le signe des langues.",
+   "section": "4"
+  },
+  {
+   "question": "Que fait le feu de l'orfèvre ?",
+   "choix": [
+    "Il détruit l'argent",
+    "Il retire les impuretés pour que l'argent reflète son image",
+    "Il rend l'argent noir"
+   ],
+   "reponse": 1,
+   "explication": "Malachie 3:2-3 : le Saint-Esprit purifie le croyant.",
+   "section": "5"
+  }
+ ],
+ "devoir": [
+  "Lis Actes 8:26-40 (l'eunuque éthiopien) et Romains 6:1-14.",
+  "Si tu n'as jamais été baptisé comme croyant, prends rendez-vous avec ton pasteur cette semaine pour te préparer.",
+  "Prie chaque jour pour être rempli du Saint-Esprit, avec les mots de Luc 11:13.",
+  "Écris une chose que le Saint-Esprit voudrait purifier dans ta vie, et confie-la à Dieu."
+ ],
  "prieres_liees": [
   "theme:priere-rempli-du-saint-esprit"
- ]
+ ],
+ "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "date_ajout": "2026-11-14",
+ "relu": false,
+ "autorisation": "oui"
 }
