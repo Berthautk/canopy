@@ -17,8 +17,8 @@ export const ALPHABET = [
 const Image = ({ src, alt, grand }) => src.startsWith('/') ? <img src={src} alt={alt} class={grand ? 'petit-img petit-img--grand' : 'petit-img'} /> : <span class={grand ? 'petit-emoji petit-emoji--grand' : 'petit-emoji'} role="img" aria-label={alt}>{src}</span>;
 
 export function PetitsAccueil() {
-  useEffect(() => { dire('Bonjour ! Choisis un jeu : les lettres, compter, ou trouver l\'image.'); return () => arreterVoix(); }, []);
-  const JEUX = [['alphabet', '🔤', 'Les lettres', '#f3b33d'], ['compter', '🔢', 'Compter', '#4caf7a'], ['trouver', '👆', 'Trouve l\'image', '#4a7fd6']];
+  useEffect(() => { dire('Bonjour ! Choisis un jeu : les lettres, complète le mot, compter, ou trouve l\'image.'); return () => arreterVoix(); }, []);
+  const JEUX = [['alphabet', '🔤', 'Les lettres', '#f3b33d'], ['mot', '🧩', 'Complète le mot', '#e0644f'], ['compter', '🔢', 'Compter', '#4caf7a'], ['trouver', '👆', 'Trouve l\'image', '#4a7fd6']];
   return (
     <div class="page petits">
       <div class="petits-grille">
@@ -42,7 +42,8 @@ export function Alphabet() {
       <div class="petits-nav">
         <button class="petit-rond" disabled={i === 0} onClick={() => ouvrir(i - 1)} aria-label="Lettre précédente">◀</button>
         <button class="petit-rond" onClick={() => setI(null)} aria-label="Toutes les lettres">🔤</button>
-        <button class="petit-rond" disabled={i === ALPHABET.length - 1} onClick={() => ouvrir(i + 1)} aria-label="Lettre suivante">▶</button>
+        {i === ALPHABET.length - 1 ? <a class="petit-rond" href="#/jouer/petits/mot" style="display:grid;place-items:center;text-decoration:none;background:#e0644f" aria-label="Jouer : complète le mot" onClick={() => dire('Bravo, tu connais toutes les lettres ! Maintenant, complète les mots.')}>🧩</a>
+          : <button class="petit-rond" onClick={() => ouvrir(i + 1)} aria-label="Lettre suivante">▶</button>}
       </div>
     </div>); }
   return <div class="page petits"><div class="petits-lettres">{ALPHABET.map(([l], k) => <button class="petit-touche" style={{ '--t': (k * 37) % 360 }} onClick={() => ouvrir(k)}>{l}</button>)}</div></div>;
@@ -89,6 +90,43 @@ export function Trouver() {
       <div class="petits-images">
         {m.c.map((x) => <button class={'petit-choix' + (ok && x === m.cible ? ' petit-choix--bon' : '') + (rate === x ? ' petit-choix--non' : '')} onClick={() => toucher(x)} aria-label={x[0]}>
           <img src={x[1]} alt="" /></button>)}
+      </div>
+    </div>
+  );
+}
+
+// « Complète le mot » : une lettre manque dans le nom biblique ; l'enfant choisit parmi 4 lettres.
+// Chaque lettre touchée est dite à voix haute. D'abord la première lettre, puis (après 8 réussites) une lettre au milieu.
+const MOTS = ALPHABET.map(([, m, img]) => [m.split(/[ ,]/)[0].replace(/'.*/, ''), img]).filter(([m]) => m.length >= 3 && m.length <= 8 && !/[éèêëîïôûç]/i.test(m.slice(1)));
+const LETTRES = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const nomLettre = (l) => ({ A: 'a', E: 'e', I: 'i', O: 'o', U: 'u', Y: 'i grec', W: 'double v' })[l] || l;
+function mancheMot(niveau) {
+  const [mot, img] = MOTS[Math.floor(Math.random() * MOTS.length)];
+  const M = mot.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase();
+  const i = niveau < 8 ? 0 : 1 + Math.floor(Math.random() * (M.length - 1));
+  const bonne = M[i];
+  const autres = melanger(LETTRES.split('').filter((l) => l !== bonne)).slice(0, 3);
+  return { mot, M, img, i, bonne, choix: melanger([bonne, ...autres]) };
+}
+export function CompleteMot() {
+  const [n, setN] = useState(0), [m, setM] = useState(() => mancheMot(0)), [faux, setFaux] = useState([]), [ok, setOk] = useState(false);
+  const consigne = (x = m) => dire(`${x.mot}. Quelle lettre manque${x.i === 0 ? ' au début du mot' : ''} ?`);
+  useEffect(() => { setFaux([]); setOk(false); consigne(m); }, [m]);
+  useEffect(() => () => arreterVoix(), []);
+  const toucher = (l) => {
+    if (ok) return;
+    if (l === m.bonne) { setOk(true); dire(`${nomLettre(l)} ! Oui, bravo ! ${m.mot}.`); setTimeout(() => { setN(n + 1); setM(mancheMot(n + 1)); }, 2600); }
+    else { setFaux([...faux, l]); dire(`${nomLettre(l)}. Non, ce n'est pas la bonne lettre. Choisis une autre lettre.`); }
+  };
+  return (
+    <div class="page petits">
+      <p class="petit-score">{'⭐'.repeat(Math.min(n, 10)) || '☆'}</p>
+      <button class="petit-carte" onClick={() => consigne()} aria-label={'Réécouter : ' + m.mot}>
+        <Image src={m.img} alt={m.mot} grand />
+        <span class="petit-mot-trou">{m.M.split('').map((c, k) => k === m.i ? <span class={'petit-trou' + (ok ? ' petit-trou--ok' : '')}>{ok ? c : '?'}</span> : <span>{c}</span>)}</span>
+      </button>
+      <div class="petits-lettres petits-lettres--4">
+        {m.choix.map((l, k) => <button class={'petit-touche' + (faux.includes(l) ? ' petit-touche--non' : '') + (ok && l === m.bonne ? ' petit-touche--oui' : '')} style={{ '--t': (k * 90 + 20) % 360 }} disabled={faux.includes(l)} onClick={() => toucher(l)}>{l}</button>)}
       </div>
     </div>
   );

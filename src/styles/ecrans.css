@@ -848,3 +848,8 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .course__genre { width: 100%; max-width: 280px; } .course__genre button { color: var(--titre); }
 .course__commencer { font-size: 1.2rem; padding: 14px 28px; }
 .course__reecouter { color: #ffd86b !important; }
+.petit-mot-trou { display: flex; gap: 4px; flex-wrap: wrap; justify-content: center; font: 800 2.2rem Poppins, sans-serif; color: var(--titre); letter-spacing: 1px; }
+.petit-trou { min-width: 1.1em; text-align: center; border-bottom: 5px solid #e0644f; color: #e0644f; }
+.petit-trou--ok { color: #2e9e5b; border-color: #2e9e5b; animation: sauter .4s; }
+.petits-lettres--4 { grid-template-columns: repeat(4, 1fr); }
+.petit-touche--non { opacity: .3; filter: grayscale(1); } .petit-touche--oui { background: #2e9e5b !important; box-shadow: 0 4px 0 #1f7a44 !important; }
