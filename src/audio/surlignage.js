@@ -31,6 +31,7 @@ let HAUT = 190;
 const mesurerHaut = () => { let h = 0; document.querySelectorAll('.entete, .barre-ecoute--active, .etape-commandes--collant').forEach((x) => { const b = x.getBoundingClientRect().bottom; if (b > h && b < innerHeight / 2) h = b; }); HAUT = Math.max(120, h + 14); };
 let dernierBloc = '';
 function suivre(el, rectMot) {
+  if (el.closest('[data-sans-defilement]')) return;   // écrans en « scène » : l'image reste fixe
   mesurerHaut();
   const r = rectMot || el.getBoundingClientRect();
   const h = innerHeight;

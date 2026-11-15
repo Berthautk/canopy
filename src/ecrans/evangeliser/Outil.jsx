@@ -47,10 +47,11 @@ export function Outil({ id }) {
   useEffect(() => () => arreterVoix(), []);
   if (!o) return <div class="page"><p class="ligne__desc">Contenu introuvable.</p></div>;
 
-  const ecouter = () => lireAVoixHaute(vid, blocs);
+  const caler = () => setTimeout(() => haut.current?.scrollIntoView({ block: 'start', behavior: 'smooth' }), 30);
+  const ecouter = () => { lireAVoixHaute(vid, blocs); caler(); };
   const aller = (n) => {
     setK(n);
-    setTimeout(() => haut.current?.scrollIntoView({ block: 'start', behavior: 'smooth' }), 30);
+    setTimeout(() => haut.current?.scrollIntoView({ block: 'start', behavior: 'instant' }), 30);
     if (n > k && v.disponible) {            // on lance tout de suite l'écoute de l'étape suivante
       const suiv = n === nb ? [{ texte: 'Prions ensemble. Répète après moi, du fond de ton cœur.' }, { texte: o.priere }]
         : [{ texte: liste[n].titre.replace(/^\d+\.\s*/, '') + '.' }, ...liste[n].texte.map((t) => ({ texte: t })), ...liste[n].versets.map((r) => ({ reference: r }))];
@@ -67,7 +68,7 @@ export function Outil({ id }) {
           {Object.keys(o.ordres).map((x) => <button aria-pressed={ordre === x} onClick={() => changerOrdre(x)}>{x}</button>)}
         </div>}
       </>}
-      <div ref={haut} style="scroll-margin-top:120px" />
+            <div ref={haut} style="scroll-margin-top:110px" />
       <div class="etape-progres" aria-hidden="true"><span style={{ width: `${((k + (lue ? 1 : 0.4)) / (nb + 1)) * 100}%` }} /></div>
       <p class="diaporama__etape" style="color:var(--texte-doux);margin:6px 0 0">{priere ? 'Prière' : `Étape ${k + 1} sur ${nb}`}</p>
 
@@ -84,13 +85,25 @@ export function Outil({ id }) {
       {!lue && <p class="ligne__desc" style="text-align:center;margin:6px 0 0">{v.disponible ? '« Suivant » s\'active quand la voix a fini.' : 'Prends le temps de lire ; « Suivant » s\'active dans un instant.'}</p>}
 
       {!priere ? (
-        <section class="carte etape-outil" key={vid}>
+        <section class="carte etape-outil etape-outil--scene" key={vid} data-sans-defilement>
           <img class="etape-outil__image" src={e.image} alt={e.titre} />
-          <div class="etape-outil__corps">
-            <h2 class="etape-outil__titre" {...va(0)}>{e.titre}</h2>
-            {e.texte.map((t, j) => <p {...va(1 + j)}>{t}</p>)}
-          </div>
-          <div class="liste" style="padding:0 10px 10px">{e.versets.map((r, j) => <div {...va(1 + e.texte.length + j)}><CarteVerset reference={r} /></div>)}</div>
+          {ici && v.lecture || (ici && !v.termine) ? (
+            // Pendant la voix : seul le passage dit apparaît sous l'image, l'image ne bouge pas.
+            <div class="etape-outil__legende" key={v.index + ':' + v.iPhrase} aria-live="polite">
+              {v.index > e.texte.length
+                ? <CarteVerset reference={e.versets[v.index - 1 - e.texte.length]} />
+                : v.index === 0 ? <h2 class="etape-outil__titre">{e.titre}</h2>
+                : <p>{v.phrases?.[v.iPhrase] || e.texte[v.index - 1]}</p>}
+            </div>
+          ) : (
+            <>
+              <div class="etape-outil__corps">
+                <h2 class="etape-outil__titre">{e.titre}</h2>
+                {lue && e.texte.map((t) => <p>{t}</p>)}
+              </div>
+              {lue && <div class="liste" style="padding:0 10px 10px">{e.versets.map((r) => <CarteVerset reference={r} />)}</div>}
+            </>
+          )}
         </section>
       ) : (
         <section class="carte bloc priere-modele" key={vid}>

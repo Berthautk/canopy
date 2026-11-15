@@ -744,3 +744,10 @@ a.lien[style], .theme-quiz__tete .lien { display: inline-block; padding-top: 10p
 .conv__verset .verset__actions { flex-wrap: nowrap; gap: 6px; }
 .conv__verset .verset__actions .bouton { padding: 0 12px; min-height: 40px; font-size: .85rem; }
 .conv__verset .carte { padding: 12px; }
+/* Le cœur de l'homme : l'image reste devant la personne, le passage lu apparaît dessous. */
+.etape-outil--scene .etape-outil__image { max-height: 42vh; }
+.etape-outil__legende { padding: 14px 16px 16px; min-height: 18vh; animation: legende .5s ease both; }
+.etape-outil__legende p { font-size: 1.12rem; text-align: center; line-height: 1.6; margin: 0; }
+.etape-outil__legende .etape-outil__titre { font-size: 1.25rem; text-align: center; margin: 4px 0; }
+@keyframes legende { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .etape-outil__legende { animation: none; } }
