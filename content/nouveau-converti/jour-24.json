@@ -1,14 +1,88 @@
 {
  "id": "nouveau-converti-jour-24",
  "jour": 24,
- "titre": "Témoigner de sa foi",
  "image": "/assets/evangelisation/temoignage-au-micro.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Témoigner de sa foi",
+ "objectifs": [
+  "Pourquoi chaque chrétien est un témoin",
+  "Raconter ce que Jésus a fait pour toi",
+  "Commencer avec les gens proches"
+ ],
+ "introduction": [
+  "Quand quelqu'un trouve un bon médecin, un bon marché ou un bon travail, il en parle à ses proches. Tu as trouvé bien plus : la vie éternelle. Aujourd'hui, nous allons voir comment en parler simplement autour de toi."
+ ],
+ "sections": [
+  {
+   "titre": "Tu es un témoin",
+   "texte": [
+    "### Une puissance pour témoigner",
+    "Jésus a dit : vous recevrez une puissance, le Saint-Esprit survenant sur vous, et vous serez mes témoins à Jérusalem, dans toute la Judée, dans la Samarie, et jusqu'aux extrémités de la terre (Actes 1:8). Jésus ne dit pas : « Vous ferez du témoignage de temps en temps. » Il dit : « Vous serez mes témoins. » C'est ton identité. Et le Saint-Esprit te donne le courage dont tu as besoin.",
+    "### Un témoin raconte ce qu'il a vu",
+    "Au tribunal, on ne demande pas au témoin d'être avocat ou juge. On lui demande de dire ce qu'il a vu et entendu. Tu n'as pas besoin d'être un grand prédicateur, de connaître toute la Bible ou de répondre à toutes les questions. Tu peux simplement raconter ce que Jésus a fait dans ta vie."
+   ]
+  },
+  {
+   "titre": "Raconter ton histoire",
+   "texte": [
+    "### Va dans ta maison",
+    "Après avoir délivré un homme possédé, Jésus lui dit : va dans ta maison, vers les tiens, et raconte-leur tout ce que le Seigneur t'a fait, et comment il a eu pitié de toi (Marc 5:19). Remarque où Jésus l'envoie : d'abord vers les siens, ceux qui le connaissaient avant et qui pouvaient voir le changement.",
+    "### Trois parties simples",
+    "Ton témoignage peut avoir trois parties. Comment était ma vie avant de connaître Jésus : mes peurs, mes péchés, mon vide, sans exagérer. Comment j'ai rencontré Jésus : ce que j'ai compris, ce que j'ai décidé. Ce qui a changé depuis : la paix, le pardon, une nouvelle direction. Tu peux le préparer pour qu'il dure environ trois minutes. Dans l'application, la rubrique Évangéliser contient un outil pour t'aider à l'écrire."
+   ]
+  },
+  {
+   "titre": "Avec douceur et respect",
+   "texte": [
+    "### Être prêt à répondre",
+    "Pierre écrit : soyez toujours prêts à vous défendre, avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous (1 Pierre 3:15). Remarque : « avec douceur et respect ». Le but n'est pas de gagner une dispute, d'humilier quelqu'un ou de critiquer sa religion, mais de partager une espérance.",
+    "### La vie qui parle",
+    "Les gens autour de toi regardent ta vie avant d'écouter tes paroles. Ton honnêteté au travail, ta patience à la maison, ta joie dans l'épreuve préparent le terrain. Mais il faut aussi parler : la vie seule ne dit pas le nom de Jésus.",
+    "### Commencer petit",
+    "Commence par prier pour cinq personnes de ton entourage qui ne connaissent pas Jésus. Demande à Dieu une occasion. Quand elle vient, tu peux simplement dire : « Tu sais, il m'est arrivé quelque chose d'important ces dernières semaines. Je peux te raconter ? »",
+    "On raconte l'histoire d'une coiffeuse de quartier qui, après sa conversion, n'osait pas parler de Jésus à ses clientes, de peur de les perdre. Un jour, une cliente lui demanda : « Tu as changé, tu ne parles plus mal des gens. Qu'est-ce qui t'arrive ? » La coiffeuse raconta simplement son histoire en trois minutes, tout en tressant. La cliente revint la semaine suivante avec sa sœur, en disant : « Raconte-lui aussi. » Le salon devint un lieu où l'on parlait de Jésus entre deux tresses."
+   ]
+  }
+ ],
+ "retenir": [
+  "Jésus dit : « Vous serez mes témoins », et l'Esprit en donne la force (Actes 1:8).",
+  "Un témoin raconte ce qu'il a vu : avant Jésus, la rencontre, ce qui a changé (Marc 5:19).",
+  "Témoigne avec douceur et respect, par ta vie et tes paroles, en commençant par tes proches (1 Pierre 3:15)."
+ ],
+ "memoriser": "Ac 1:8",
+ "quiz": [
+  {
+   "question": "Que demande-t-on à un témoin ?",
+   "choix": [
+    "D'être un grand prédicateur",
+    "De raconter ce qu'il a vu et vécu",
+    "De répondre à toutes les questions"
+   ],
+   "reponse": 1,
+   "explication": "Marc 5:19.",
+   "section": "1"
+  },
+  {
+   "question": "Avec quelle attitude faut-il témoigner selon 1 Pierre 3:15 ?",
+   "choix": [
+    "Avec colère pour convaincre",
+    "Avec douceur et respect",
+    "En critiquant les autres religions"
+   ],
+   "reponse": 1,
+   "explication": "Le but est de partager une espérance.",
+   "section": "3"
+  }
+ ],
+ "pratique": "Écris ton témoignage en trois parties (avant, la rencontre, après), en une page. Écris aussi les noms de cinq personnes pour qui tu vas prier afin qu'elles connaissent Jésus.",
  "versets": [
   "Ac 1:8",
   "Mc 5:19",
   "1 Pi 3:15"
  ],
- "texte": "Jésus a dit à un homme qu'il venait de libérer : va vers les tiens, et raconte-leur ce que le Seigneur t'a fait. Tu n'as pas besoin d'être un grand prédicateur. Raconte simplement comment tu as rencontré Jésus et ce qu'il a changé. La rubrique Évangéliser peut t'aider.",
  "question": "À qui vas-tu raconter ce que Jésus a fait pour toi ?",
  "sujets": [
   {
@@ -21,9 +95,5 @@
   }
  ],
  "priere": "Seigneur, donne-moi l'occasion et le courage de parler de toi aujourd'hui. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

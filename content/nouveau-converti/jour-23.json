@@ -1,14 +1,88 @@
 {
  "id": "nouveau-converti-jour-23",
  "jour": 23,
- "titre": "La pureté",
  "image": "/assets/famille-quotidien/mariage.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "La pureté",
+ "objectifs": [
+  "Pourquoi Dieu demande la pureté sexuelle",
+  "Ton corps, temple du Saint-Esprit",
+  "Comment rester pur dans un monde impur"
+ ],
+ "introduction": [
+  "Le sujet de la sexualité est souvent évité dans les églises, ou traité seulement par des interdits. Pourtant, c'est un des domaines où les jeunes et les moins jeunes sont le plus attaqués. Aujourd'hui, parlons-en simplement et avec vérité."
+ ],
+ "sections": [
+  {
+   "titre": "Le plan de Dieu",
+   "texte": [
+    "### La sexualité est un cadeau",
+    "La sexualité n'est pas sale : Dieu l'a créée. Il a créé l'homme et la femme, et il a dit que c'était très bon. La sexualité est un cadeau de Dieu, destiné à être vécu dans le mariage, entre un homme et une femme, dans la fidélité. Comme le feu : dans le foyer de la cuisine, il réchauffe et nourrit ; hors du foyer, il brûle la maison.",
+    "### La volonté de Dieu",
+    "Paul écrit : ce que Dieu veut, c'est votre sanctification ; c'est que vous vous absteniez de l'impudicité ; c'est que chacun de vous sache posséder son corps dans la sainteté et l'honnêteté (1 Thessaloniciens 4:3-4). L'impudicité désigne toute relation sexuelle en dehors du mariage : les relations avant le mariage, l'adultère, et aussi les pratiques impures."
+   ]
+  },
+  {
+   "titre": "Ton corps appartient à Dieu",
+   "texte": [
+    "### Fuir",
+    "Paul écrit : fuyez l'impudicité. Quelque autre péché qu'un homme commette, ce péché est hors du corps ; mais celui qui se livre à l'impudicité pèche contre son propre corps. Ne savez-vous pas que votre corps est le temple du Saint-Esprit ? Vous avez été rachetés à un grand prix. Glorifiez donc Dieu dans votre corps (1 Corinthiens 6:18-20). Pour la plupart des péchés, la Bible dit de résister. Pour celui-ci, elle dit : fuyez. Ne joue pas avec le feu en pensant que tu es assez fort.",
+    "### Racheté à un grand prix",
+    "Ton corps n'est plus à toi seul : Jésus l'a racheté avec son sang. Tu n'as pas à le vendre, à le prêter, ni à le donner pour obtenir une note, un emploi, de l'argent ou de l'affection. Ta valeur ne se mesure pas à ce que tu donnes de ton corps."
+   ]
+  },
+  {
+   "titre": "Rester pur aujourd'hui",
+   "texte": [
+    "### Garder ses yeux et ses pensées",
+    "Jésus a dit que regarder une femme pour la convoiter, c'est déjà commettre l'adultère dans son cœur. La pureté commence par les yeux et les pensées. La pornographie, les films et les chansons qui excitent, les conversations malsaines sur le téléphone ouvrent la porte. Le psalmiste demande : comment le jeune homme rendra-t-il pur son sentier ? En se dirigeant d'après ta parole (Psaume 119:9).",
+    "### Des limites claires",
+    "Fixe des limites à l'avance : ne pas être seul dans une chambre avec ton ami ou ton amie, ne pas rester tard la nuit ensemble, ne pas envoyer de photos, quitter les groupes et les sites qui te font tomber. Ce n'est pas de la faiblesse, c'est de la sagesse.",
+    "### Si tu es tombé",
+    "Si tu as déjà péché dans ce domaine, même après ta conversion, il y a du pardon. Confesse, reçois le pardon de Dieu, et prends des mesures pour ne pas recommencer. Si une habitude te domine, comme la pornographie, parles-en à un responsable du même sexe, de confiance. Il y a aussi dans l'application le parcours ORIZON, qui aide à sortir de ces combats.",
+    "On raconte l'histoire d'une étudiante à qui un enseignant avait proposé de « l'aider » pour son examen en échange de relations. Elle était tentée, car elle avait peur d'échouer. Elle en parla à sa responsable de groupe, qui pria avec elle et l'aida à préparer l'examen chaque soir. Elle refusa la proposition. Elle eut une note moyenne, mais elle réussit. Elle dit : « J'ai eu dix sur vingt, mais j'ai gardé mon corps pour Dieu et pour mon futur mari. Cette note-là vaut plus que toutes les autres. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "La sexualité est un cadeau de Dieu pour le mariage ; hors du mariage, elle détruit (1 Thessaloniciens 4:3-4).",
+  "Ton corps est le temple du Saint-Esprit, racheté à un grand prix : fuis l'impudicité (1 Corinthiens 6:18-20).",
+  "Garde tes yeux et tes pensées, fixe des limites claires, et si tu es tombé, confesse et fais-toi aider."
+ ],
+ "memoriser": "1 Co 6:19-20",
+ "quiz": [
+  {
+   "question": "Que dit la Bible de faire face à l'impudicité ?",
+   "choix": [
+    "Résister en restant proche",
+    "Fuir",
+    "Discuter avec la tentation"
+   ],
+   "reponse": 1,
+   "explication": "1 Corinthiens 6:18.",
+   "section": "2"
+  },
+  {
+   "question": "Où commence la pureté selon Jésus ?",
+   "choix": [
+    "Seulement dans les actes",
+    "Dans les yeux et les pensées",
+    "Dans les vêtements seulement"
+   ],
+   "reponse": 1,
+   "explication": "Matthieu 5:28.",
+   "section": "3"
+  }
+ ],
+ "pratique": "Identifie une porte qui t'expose à l'impureté (une application, un groupe, une habitude, une relation). Ferme-la aujourd'hui. Choisis une personne de confiance du même sexe à qui tu pourras en parler.",
  "versets": [
   "1 Co 6:18-20",
   "1 Th 4:3-4",
   "Ps 119:9"
  ],
- "texte": "Dieu a créé la sexualité comme un beau don, pour le mariage. Il nous appelle à fuir l'impudicité et à honorer Dieu dans notre corps, qui a été racheté à un grand prix. La pureté se garde dans les pensées, les regards, les relations, et elle se reçoit à nouveau par le pardon de Dieu.",
  "question": "Quelles limites concrètes vas-tu poser pour garder ta pureté ?",
  "sujets": [
   {
@@ -21,9 +95,5 @@
   }
  ],
  "priere": "Père, je consacre mon corps à toi. Crée en moi un cœur pur. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

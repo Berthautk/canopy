@@ -1,14 +1,88 @@
 {
  "id": "nouveau-converti-jour-22",
  "jour": 22,
- "titre": "Maîtriser sa colère",
  "image": "/assets/paysages/rivage-du-lac.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Maîtriser sa colère",
+ "objectifs": [
+  "La colère juste et la colère qui pèche",
+  "Les dégâts de la colère",
+  "Des clés pratiques pour se maîtriser"
+ ],
+ "introduction": [
+  "Une parole méchante, une injustice au travail, un enfant désobéissant, un taxi qui te coupe la route : la colère monte vite. Beaucoup de chrétiens ont honte de leurs explosions de colère. Aujourd'hui, nous allons voir comment Dieu peut nous aider à la maîtriser."
+ ],
+ "sections": [
+  {
+   "titre": "Toute colère n'est pas péché",
+   "texte": [
+    "### Une colère juste",
+    "Paul écrit : si vous vous mettez en colère, ne péchez point ; que le soleil ne se couche pas sur votre colère (Éphésiens 4:26). Il existe une colère juste, celle qui s'indigne devant l'injustice, la méchanceté, l'oppression des faibles. Jésus s'est indigné devant la dureté de cœur des chefs religieux. Mais cette colère juste ne devient pas méchanceté, vengeance ou insulte.",
+    "### Avant le coucher du soleil",
+    "« Que le soleil ne se couche pas sur votre colère » : ne garde pas ta colère d'un jour à l'autre. La colère gardée devient rancune, amertume, haine. Règle les choses rapidement : parle, demande pardon, pardonne, ou remets la situation à Dieu avant de dormir."
+   ]
+  },
+  {
+   "titre": "Les dégâts de la colère",
+   "texte": [
+    "### Elle n'accomplit pas la justice de Dieu",
+    "Jacques écrit : que tout homme soit prompt à écouter, lent à parler, lent à se mettre en colère ; car la colère de l'homme n'accomplit pas la justice de Dieu (Jacques 1:19-20). La colère nous fait croire que nous défendons la justice, mais souvent elle nous fait dire et faire des choses injustes. On frappe un enfant trop fort, on insulte sa femme, on brise une amitié de vingt ans en une minute.",
+    "### Des mots qu'on ne reprend pas",
+    "Une parole dite dans la colère est comme de l'eau versée par terre : on ne peut plus la ramasser. Beaucoup de familles portent des blessures causées par des mots lancés dans un moment de rage. Le livre des Proverbes dit : celui qui est lent à la colère vaut mieux qu'un héros, et celui qui est maître de lui-même, que celui qui prend des villes."
+   ]
+  },
+  {
+   "titre": "Des clés pour se maîtriser",
+   "texte": [
+    "### Écouter, attendre, répondre doucement",
+    "Reprends les trois conseils de Jacques. Prompt à écouter : laisse l'autre finir, cherche à comprendre. Lent à parler : respire, compte jusqu'à dix, prie intérieurement avant de répondre. Lent à la colère : demande-toi si l'offense mérite vraiment cette réaction. Le livre des Proverbes ajoute : une réponse douce calme la fureur, mais une parole dure excite la colère (Proverbes 15:1).",
+    "### Quitter la pièce",
+    "Quand tu sens que tu vas exploser, il est souvent sage de dire : « Je suis trop en colère pour parler maintenant. Reparlons-en dans une heure. » Va marcher, prie, puis reviens. Ce n'est pas fuir, c'est se protéger et protéger l'autre.",
+    "### Chercher la racine",
+    "La colère répétée cache souvent une blessure, une peur, une fatigue, un orgueil blessé ou un besoin de tout contrôler. Demande à Dieu de te montrer la racine. Et souviens-toi que la maîtrise de soi est un fruit de l'Esprit : elle grandit à mesure que tu marches avec lui.",
+    "On raconte l'histoire d'un enseignant qui criait sans cesse sur ses élèves et sur ses enfants. Après sa conversion, il continuait à exploser, puis à regretter. Il colla dans sa salle de classe et dans sa cuisine une petite feuille avec Jacques 1:19. Chaque fois qu'il sentait la colère monter, il regardait la feuille et se taisait dix secondes. Un an plus tard, sa fille de douze ans lui dit : « Papa, tu ne cries plus. Est-ce que c'est Jésus ? » Il répondit : « Oui, et une petite feuille de papier. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "On peut être en colère sans pécher, mais il faut régler sa colère avant le coucher du soleil (Éphésiens 4:26).",
+  "La colère de l'homme n'accomplit pas la justice de Dieu : sois prompt à écouter, lent à parler, lent à la colère (Jacques 1:19-20).",
+  "Une réponse douce calme la fureur ; quitte la pièce si nécessaire, et cherche la racine de ta colère."
+ ],
+ "memoriser": "Jc 1:19-20",
+ "quiz": [
+  {
+   "question": "Toute colère est-elle un péché ?",
+   "choix": [
+    "Oui",
+    "Non, il existe une colère juste, mais elle ne doit pas devenir méchanceté",
+    "On doit toujours exploser"
+   ],
+   "reponse": 1,
+   "explication": "Éphésiens 4:26.",
+   "section": "1"
+  },
+  {
+   "question": "Que conseille Jacques 1:19 ?",
+   "choix": [
+    "Parler vite pour se défendre",
+    "Être prompt à écouter, lent à parler, lent à la colère",
+    "Ne jamais parler"
+   ],
+   "reponse": 1,
+   "explication": "Trois conseils simples.",
+   "section": "3"
+  }
+ ],
+ "pratique": "Écris Jacques 1:19 sur un papier et place-le là où tu te mets souvent en colère. Si tu as blessé quelqu'un par ta colère récemment, va lui demander pardon.",
  "versets": [
   "Jc 1:19-20",
   "Ép 4:26",
   "Pr 15:1"
  ],
- "texte": "La colère est une émotion humaine, mais elle peut vite conduire au péché : paroles blessantes, violence, rancune. La Bible conseille d'être prompt à écouter et lent à parler. Une réponse douce calme la fureur. Avant de réagir, prends le temps de prier.",
  "question": "Dans quelles situations la colère te domine-t-elle le plus ?",
  "sujets": [
   {
@@ -21,9 +95,5 @@
   }
  ],
  "priere": "Seigneur, donne-moi un esprit doux et maîtrisé. Garde ma bouche. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

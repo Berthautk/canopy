@@ -1,14 +1,88 @@
 {
  "id": "nouveau-converti-jour-21",
  "jour": 21,
- "titre": "Pardonner",
  "image": "/assets/vie-chretienne/entraide-don.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Pardonner",
+ "objectifs": [
+  "Pourquoi le pardon est central pour le chrétien",
+  "Ce que le pardon est, et ce qu'il n'est pas",
+  "Comment pardonner concrètement"
+ ],
+ "introduction": [
+  "Tu as reçu un pardon immense de la part de Dieu. Aujourd'hui, Dieu t'invite à faire passer ce pardon aux autres. C'est souvent l'une des choses les plus difficiles de la vie chrétienne, surtout quand la blessure est profonde."
+ ],
+ "sections": [
+  {
+   "titre": "Pardonner comme Dieu nous a pardonné",
+   "texte": [
+    "### La source du pardon",
+    "Paul écrit : que toute amertume, toute animosité, toute colère, toute clameur, toute calomnie, et toute espèce de méchanceté, disparaissent du milieu de vous. Soyez bons les uns envers les autres, compatissants, vous pardonnant réciproquement, comme Dieu vous a pardonné en Christ (Éphésiens 4:31-32). Notre pardon envers les autres coule du pardon que nous avons reçu. Quand pardonner te paraît impossible, regarde d'abord à la croix : combien Dieu t'a-t-il pardonné ?",
+    "### Une affaire sérieuse",
+    "Jésus a dit : si vous pardonnez aux hommes leurs offenses, votre Père céleste vous pardonnera aussi ; mais si vous ne pardonnez pas aux hommes, votre Père ne vous pardonnera pas non plus vos offenses (Matthieu 6:14-15). Jésus ne veut pas dire qu'on gagne le pardon de Dieu en pardonnant. Mais un cœur qui a vraiment reçu la grâce ne peut pas refuser durablement de la donner. Le refus obstiné de pardonner montre que quelque chose est bloqué entre nous et Dieu."
+   ]
+  },
+  {
+   "titre": "Ce que le pardon est, et n'est pas",
+   "texte": [
+    "### Ce que le pardon n'est pas",
+    "Pardonner, ce n'est pas dire que le mal n'était pas grave. Ce n'est pas oublier automatiquement, comme si rien ne s'était passé. Ce n'est pas forcément faire confiance immédiatement à quelqu'un qui reste dangereux. Une femme battue qui pardonne à son mari n'est pas obligée de rester sous les coups. Pardonner n'empêche pas non plus la justice : on peut pardonner et laisser la loi faire son travail.",
+    "### Ce que le pardon est",
+    "Pardonner, c'est renoncer à se venger, et remettre la dette à Dieu. C'est dire : « Tu m'as fait du tort, c'est vrai. Mais je ne te ferai pas payer. Je laisse Dieu, le juste juge, s'occuper de toi. » C'est aussi refuser de laisser l'amertume s'installer dans son cœur. Garder une rancune, c'est comme porter sur sa tête un sac de pierres pour punir quelqu'un d'autre : c'est toi qui te fatigues."
+   ]
+  },
+  {
+   "titre": "Pardonner concrètement",
+   "texte": [
+    "### Une décision, puis un chemin",
+    "Le pardon commence par une décision, devant Dieu : « Seigneur, je choisis de pardonner à cette personne pour ce qu'elle m'a fait. » Souvent, les sentiments ne suivent pas tout de suite. La blessure peut encore faire mal. Chaque fois que le souvenir revient, renouvelle ta décision : « Seigneur, je lui ai pardonné, je te la remets. » Avec le temps, la guérison vient.",
+    "### Prier pour celui qui t'a blessé",
+    "Jésus nous demande de prier pour ceux qui nous maltraitent. Ce n'est pas facile, mais c'est libérateur. Commence par une phrase : « Seigneur, bénis-le, et change son cœur. » Tu verras que ton propre cœur commencera à changer.",
+    "### Demander pardon aussi",
+    "N'oublie pas l'autre côté. Paul dit : supportez-vous les uns les autres, et, si l'un a sujet de se plaindre de l'autre, pardonnez-vous réciproquement (Colossiens 3:13). Peut-être que toi aussi tu dois demander pardon à quelqu'un. Fais-le simplement, sans te justifier.",
+    "On raconte l'histoire d'un homme dont le terrain avait été pris par son propre oncle, avec de faux papiers. Pendant des années, il ne pouvait plus prononcer le nom de cet oncle sans trembler de colère. Après sa conversion, il continua l'affaire au tribunal, mais il décida de pardonner dans son cœur. Le jour où son oncle tomba malade, il alla le voir à l'hôpital avec un sac de fruits. L'oncle pleura. Le tribunal donna finalement raison au neveu, mais celui-ci dit : « J'avais déjà gagné le jour où la colère est partie. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "Nous pardonnons parce que Dieu nous a pardonné en Christ (Éphésiens 4:32).",
+  "Pardonner, ce n'est pas nier le mal ni renoncer à la justice, c'est renoncer à la vengeance et remettre la dette à Dieu.",
+  "Le pardon est une décision, renouvelée chaque fois que le souvenir revient, accompagnée de prière pour l'autre."
+ ],
+ "memoriser": "Ép 4:32",
+ "quiz": [
+  {
+   "question": "Pardonner veut-il dire que le mal n'était pas grave ?",
+   "choix": [
+    "Oui",
+    "Non, c'est renoncer à se venger et remettre la dette à Dieu",
+    "C'est oublier tout de suite"
+   ],
+   "reponse": 1,
+   "explication": "Le pardon n'empêche pas la justice.",
+   "section": "2"
+  },
+  {
+   "question": "Que faire quand le souvenir de la blessure revient ?",
+   "choix": [
+    "Reprendre sa colère",
+    "Renouveler sa décision de pardonner et prier pour la personne",
+    "Se venger un peu"
+   ],
+   "reponse": 1,
+   "explication": "Le pardon est un chemin.",
+   "section": "3"
+  }
+ ],
+ "pratique": "Écris le nom d'une personne à qui tu as du mal à pardonner. Dis devant Dieu : « Je choisis de lui pardonner. » Prie une phrase de bénédiction pour elle chaque jour cette semaine.",
  "versets": [
   "Ép 4:31-32",
   "Mt 6:14-15",
   "Col 3:13"
  ],
- "texte": "Celui qui a été pardonné est appelé à pardonner. Pardonner ne veut pas dire que le mal n'était pas grave, ni qu'il faut tout oublier. C'est remettre l'offense à Dieu et renoncer à la vengeance. L'amertume enferme celui qui la garde ; le pardon le libère.",
  "question": "Qui as-tu besoin de pardonner ? Peux-tu le remettre à Dieu aujourd'hui ?",
  "sujets": [
   {
@@ -21,9 +95,5 @@
   }
  ],
  "priere": "Père, comme tu m'as pardonné, je choisis de pardonner à [nom]. Guéris mon cœur. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }
