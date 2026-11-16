@@ -7,7 +7,7 @@
  "resume": "Neuvième leçon de « Former le disciple » : ce qu'est l'Église, pourquoi tout chrétien a besoin d'une église locale, ce que l'on y reçoit et ce que l'on y apporte, et comment y trouver sa place.",
  "image": "/assets/vie-chretienne/culte-louange.webp",
  "verset_de_base": "Hé 10:24-25",
- "lecture_minutes": 12,
+ "lecture_minutes": 31,
  "objectifs": [
   "Comprendre ce qu'est l'Église selon la Bible.",
   "Voir pourquoi un chrétien ne peut pas grandir seul.",
@@ -214,6 +214,209 @@
    ]
   },
   {
+   "numero": "6",
+   "titre": "La joie d'aller à la maison de Dieu",
+   "references": [
+    "Ps 122:1-2",
+    "Ps 84:2-6",
+    "Ps 84:11"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "« Allons à la maison de l'Éternel »"
+    },
+    {
+     "texte": "David a écrit un petit psaume pour les pèlerins qui montaient à Jérusalem pour les fêtes : je suis dans la joie quand on me dit : allons à la maison de l'Éternel ! Nos pieds s'arrêtent dans tes portes, Jérusalem !"
+    },
+    {
+     "verset": "Ps 122:1-2"
+    },
+    {
+     "texte": "Pour beaucoup de chrétiens, aller à l'église est devenu une obligation, une habitude, parfois une corvée. On arrive en retard, on regarde l'heure, on sort vite. David, lui, était dans la joie à l'idée même d'y aller. Ce n'était pas pour le bâtiment, mais pour la présence de Dieu au milieu de son peuple."
+    },
+    {
+     "sous_titre": "Mon âme soupire"
+    },
+    {
+     "texte": "Les fils de Koré ont écrit : que tes demeures sont aimables, Éternel des armées ! Mon âme soupire et languit après les parvis de l'Éternel. Le passereau même trouve une maison, et l'hirondelle un nid où elle dépose ses petits, tes autels, Éternel des armées ! Heureux ceux qui habitent ta maison ! Ils peuvent te célébrer encore. Heureux ceux qui placent en toi leur appui ! Ils trouvent dans leur cœur des chemins tout tracés."
+    },
+    {
+     "verset": "Ps 84:2-6"
+    },
+    {
+     "texte": "Le psalmiste envie même les oiseaux qui font leur nid près de l'autel. Il voudrait être là tout le temps. Et il ajoute : mieux vaut un jour dans tes parvis que mille ailleurs ; je préfère me tenir sur le seuil de la maison de mon Dieu, plutôt que d'habiter sous les tentes de la méchanceté."
+    },
+    {
+     "verset": "Ps 84:11"
+    },
+    {
+     "sous_titre": "Retrouver la joie"
+    },
+    {
+     "texte": "Si tu as perdu la joie d'aller à l'église, demande-toi pourquoi. Est-ce une blessure ? Une fatigue ? Un péché qui éloigne de Dieu ? Une église où l'on ne rencontre plus Dieu ? Chacune de ces causes a sa réponse. Mais ne te contente pas de l'indifférence. Demande à Dieu de te redonner la joie du psalmiste. Prépare ton cœur le samedi soir. Prie avant de partir. Arrive à l'heure. Viens pour rencontrer Dieu et servir tes frères, pas seulement pour regarder."
+    },
+    {
+     "texte": "On raconte l'histoire d'une vieille femme qui marchait chaque dimanche sept kilomètres à pied pour aller au culte, sous le soleil ou sous la pluie. Un jeune homme qui avait une moto et habitait à cinq minutes de l'église arrivait souvent en retard, et parfois ne venait pas. Un jour, il lui a proposé de la transporter. Elle a souri : « Merci, mon fils. Mais pendant ces sept kilomètres, je prépare mon cœur. Quand j'arrive, je suis prête à rencontrer Dieu. » Le jeune homme a compris que ce n'était pas la distance qui faisait la différence, mais le désir."
+    }
+   ]
+  },
+  {
+   "numero": "7",
+   "titre": "Corinthe : une église imparfaite que Paul appelle sainte",
+   "references": [
+    "1 Co 1:2",
+    "1 Co 1:4-9",
+    "1 Co 3:1-3",
+    "2 Co 2:4"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Une église pleine de problèmes"
+    },
+    {
+     "texte": "L'église de Corinthe avait de nombreux problèmes : divisions entre groupes qui se réclamaient de différents prédicateurs, un cas d'immoralité grave toléré, des procès entre frères, le désordre dans la Cène, des disputes sur les dons spirituels, et même des membres qui doutaient de la résurrection. Si une église aujourd'hui avait tous ces problèmes, beaucoup de chrétiens la quitteraient."
+    },
+    {
+     "texte": "Paul lui-même dit : je n'ai pu vous parler comme à des hommes spirituels, mais comme à des hommes charnels, comme à des enfants en Christ. Car il y a parmi vous de la jalousie et des disputes."
+    },
+    {
+     "verset": "1 Co 3:1-3"
+    },
+    {
+     "sous_titre": "Mais Paul les appelle saints"
+    },
+    {
+     "texte": "Et pourtant, regarde comment Paul commence sa lettre : à l'Église de Dieu qui est à Corinthe, à ceux qui ont été sanctifiés en Jésus-Christ, appelés à être saints."
+    },
+    {
+     "verset": "1 Co 1:2"
+    },
+    {
+     "texte": "Il ajoute : je rends à mon Dieu de continuelles actions de grâces à votre sujet, pour la grâce de Dieu qui vous a été accordée en Jésus-Christ. Il vous affermira aussi jusqu'à la fin, pour que vous soyez irréprochables au jour de notre Seigneur Jésus-Christ. Dieu est fidèle."
+    },
+    {
+     "verset": "1 Co 1:4-9"
+    },
+    {
+     "texte": "Paul ne ferme pas les yeux sur les problèmes : il va les traiter un par un, avec fermeté, dans le reste de la lettre. Mais il commence par remercier Dieu, par rappeler ce que ces chrétiens sont en Christ, et par affirmer que Dieu est fidèle et achèvera son œuvre."
+    },
+    {
+     "sous_titre": "Écrire avec des larmes"
+    },
+    {
+     "texte": "Plus tard, Paul écrit dans une autre lettre : c'est dans une grande affliction, le cœur angoissé, et avec beaucoup de larmes, que je vous ai écrit, non pas afin que vous fussiez attristés, mais afin que vous connussiez l'amour extrême que j'ai pour vous."
+    },
+    {
+     "verset": "2 Co 2:4"
+    },
+    {
+     "sous_titre": "La leçon pour nous"
+    },
+    {
+     "texte": "Il n'existe pas d'église parfaite. Si tu en trouvais une, elle cesserait de l'être le jour où tu y entrerais, parce que tu n'es pas parfait non plus. L'Église est un hôpital pour pécheurs, pas un musée pour saints. Aime ton église réelle, avec ses défauts, comme Paul aimait Corinthe. Prie pour elle, rends grâces pour ce que Dieu y fait, et contribue humblement à corriger ce qui doit l'être, au lieu de critiquer de loin."
+    }
+   ]
+  },
+  {
+   "numero": "8",
+   "titre": "Thessalonique : une église qui rayonne",
+   "references": [
+    "1 Th 1:2-10",
+    "1 Th 2:13"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Une église toute jeune"
+    },
+    {
+     "texte": "Paul n'était resté que quelques semaines à Thessalonique avant d'être chassé par la persécution. Il a laissé derrière lui une église toute jeune, composée de nouveaux convertis. Il était inquiet. Mais quand il a eu de leurs nouvelles, il a écrit avec joie : nous rendons continuellement grâces à Dieu pour vous tous, faisant mention de vous dans nos prières, nous rappelant sans cesse l'œuvre de votre foi, le travail de votre charité, et la fermeté de votre espérance en notre Seigneur Jésus-Christ."
+    },
+    {
+     "verset": "1 Th 1:2-10"
+    },
+    {
+     "sous_titre": "Un modèle pour les autres"
+    },
+    {
+     "texte": "Paul continue : vous êtes devenus un modèle pour tous les croyants de la Macédoine et de l'Achaïe. Non seulement la parole du Seigneur a retenti de chez vous dans la Macédoine et dans l'Achaïe, mais votre foi en Dieu s'est fait connaître en tout lieu. On raconte comment vous vous êtes convertis à Dieu, en abandonnant les idoles pour servir le Dieu vivant et vrai, et pour attendre des cieux son Fils."
+    },
+    {
+     "texte": "Les gens racontaient ce qui s'était passé à Thessalonique : des personnes avaient abandonné leurs idoles, leurs statues, leurs pratiques païennes, pour servir le Dieu vivant. Leur transformation était visible, et leur réputation a voyagé dans toute la région."
+    },
+    {
+     "sous_titre": "Recevoir la Parole comme la parole de Dieu"
+    },
+    {
+     "texte": "Paul ajoute : c'est pourquoi nous rendons continuellement grâces à Dieu de ce qu'en recevant la parole de Dieu, que nous vous avons fait entendre, vous l'avez reçue, non comme la parole des hommes, mais, ainsi qu'elle l'est véritablement, comme la parole de Dieu, qui agit en vous qui croyez."
+    },
+    {
+     "verset": "1 Th 2:13"
+    },
+    {
+     "texte": "Le secret de l'église de Thessalonique : elle recevait la prédication comme la parole de Dieu, pas comme un simple discours humain. Quand une église écoute ainsi la Parole, elle est transformée, et elle transforme son entourage."
+    },
+    {
+     "sous_titre": "Ce que ta ville dit de ton église"
+    },
+    {
+     "texte": "Que disent les gens de ton quartier sur ton église ? Qu'elle fait beaucoup de bruit le soir ? Qu'elle demande beaucoup d'argent ? Qu'elle est pleine de disputes ? Ou bien : « Ces gens-là ont changé, ils aident les pauvres, ils sont honnêtes, leurs familles sont unies » ? Une église locale peut devenir, comme Thessalonique, un modèle pour toute une région."
+    }
+   ]
+  },
+  {
+   "numero": "9",
+   "titre": "Sardes et Philadelphie : une église vivante ou morte ?",
+   "references": [
+    "Ap 3:1-3",
+    "Ap 3:7-11",
+    "Ap 3:15-17"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Sardes : une réputation de vie"
+    },
+    {
+     "texte": "Dans l'Apocalypse, Jésus envoie des lettres à sept églises d'Asie. À l'église de Sardes, il dit : je connais tes œuvres. Je sais que tu passes pour être vivant, et tu es mort. Sois vigilant, et affermis le reste qui est près de mourir ; car je n'ai pas trouvé tes œuvres parfaites devant mon Dieu. Rappelle-toi donc comment tu as reçu et entendu, et garde, et repens-toi."
+    },
+    {
+     "verset": "Ap 3:1-3"
+    },
+    {
+     "texte": "Tu passes pour être vivant, et tu es mort. Sardes avait une bonne réputation : peut-être beaucoup de membres, de belles activités, de beaux bâtiments. Mais Jésus voyait au-delà des apparences. La vie spirituelle s'était éteinte. Beaucoup d'églises aujourd'hui sont comme Sardes : beaucoup d'activités, de programmes, de musique, mais peu de prière, peu de repentance, peu d'amour réel."
+    },
+    {
+     "sous_titre": "Philadelphie : peu de puissance, beaucoup de fidélité"
+    },
+    {
+     "texte": "À l'église de Philadelphie, Jésus dit : je connais tes œuvres. Voici, parce que tu as peu de puissance, et que tu as gardé ma parole, et que tu n'as pas renié mon nom, j'ai mis devant toi une porte ouverte, que personne ne peut fermer. Parce que tu as gardé la parole de la persévérance en moi, je te garderai aussi à l'heure de la tentation. Je viens bientôt. Retiens ce que tu as, afin que personne ne prenne ta couronne."
+    },
+    {
+     "verset": "Ap 3:7-11"
+    },
+    {
+     "texte": "Philadelphie n'était pas une grande église. Elle avait peu de puissance. Mais elle était fidèle : elle gardait la Parole, elle ne reniait pas le nom de Jésus. Et Jésus ne lui fait aucun reproche. Il lui ouvre une porte que personne ne peut fermer."
+    },
+    {
+     "sous_titre": "Laodicée : ni froid ni bouillant"
+    },
+    {
+     "texte": "La dernière des sept lettres est adressée à Laodicée, une ville riche. Jésus lui dit : je connais tes œuvres. Je sais que tu n'es ni froid ni bouillant. Puisses-tu être froid ou bouillant ! Ainsi, parce que tu es tiède, et que tu n'es ni froid ni bouillant, je te vomirai de ma bouche. Parce que tu dis : je suis riche, je me suis enrichi, et je n'ai besoin de rien, et parce que tu ne sais pas que tu es malheureux, misérable, pauvre, aveugle et nu."
+    },
+    {
+     "verset": "Ap 3:15-17"
+    },
+    {
+     "texte": "Laodicée était satisfaite d'elle-même. Elle avait de l'argent, du confort, et pensait ne manquer de rien. Mais elle était tiède : ni vraiment contre Dieu, ni vraiment brûlante pour lui. La tiédeur est peut-être le danger le plus courant pour une église établie et confortable. Quand une église n'a plus besoin de prier, plus besoin de pleurer pour les perdus, plus besoin de Dieu, elle devient Laodicée."
+    },
+    {
+     "sous_titre": "Ce que Jésus regarde"
+    },
+    {
+     "texte": "Jésus ne regarde pas d'abord la taille d'une église, ni la richesse de ses membres, ni la célébrité de son pasteur. Il regarde la fidélité à sa Parole, l'amour, la vie spirituelle réelle. Une petite église de quartier, fidèle et humble, peut être plus précieuse à ses yeux qu'une grande église brillante mais morte. Si tu es dans une petite église, ne la méprise pas. Si tu es dans une grande église, ne te glorifie pas. Demande-toi simplement : sommes-nous Sardes ou Philadelphie ?"
+    }
+   ]
+  },
+  {
    "titre": "Choisir et trouver sa place",
    "references": [
     "1 Timothée 3:15",
@@ -242,7 +445,7 @@
      "texte": "Si tu as été blessé par des chrétiens, ce n'est pas une raison pour abandonner la famille de Dieu. Parles-en, pardonne, et laisse Dieu te guérir. Jésus n'a pas abandonné ses disciples quand ils l'ont déçu ; il les a restaurés. Il veut faire de même avec toi."
     }
    ],
-   "numero": "6"
+   "numero": "10"
   }
  ],
  "sujets": [
@@ -303,6 +506,61 @@
    "reponse": 1,
    "explication": "(1 Corinthiens 1:13)",
    "section": "5"
+  },
+  {
+   "question": "Que ressentait David quand on lui disait « Allons à la maison de l'Éternel » ?",
+   "choix": [
+    "De l'ennui",
+    "De la joie",
+    "De la peur"
+   ],
+   "reponse": 1,
+   "explication": "Psaume 122:1.",
+   "section": "6"
+  },
+  {
+   "question": "Comment Paul commence-t-il sa lettre à l'église imparfaite de Corinthe ?",
+   "choix": [
+    "Par des reproches",
+    "En les appelant saints et en remerciant Dieu pour eux",
+    "En les quittant"
+   ],
+   "reponse": 1,
+   "explication": "1 Corinthiens 1:2-9. Il n'existe pas d'église parfaite.",
+   "section": "7"
+  },
+  {
+   "question": "Pourquoi l'église de Thessalonique était-elle un modèle ?",
+   "choix": [
+    "Parce qu'elle était riche",
+    "Parce qu'elle avait reçu la Parole comme la parole de Dieu, et abandonné ses idoles pour servir le Dieu vivant",
+    "Parce qu'elle était grande"
+   ],
+   "reponse": 1,
+   "explication": "1 Thessaloniciens 1:7-9 ; 2:13.",
+   "section": "8"
+  },
+  {
+   "question": "Que reproche Jésus à l'église de Sardes ?",
+   "choix": [
+    "D'être trop petite",
+    "De passer pour vivante alors qu'elle est morte",
+    "D'être pauvre"
+   ],
+   "reponse": 1,
+   "explication": "Apocalypse 3:1.",
+   "section": "9"
+  },
+  {
+   "question": "Pourquoi Jésus ne fait-il aucun reproche à Philadelphie ?",
+   "choix": [
+    "Parce qu'elle était puissante",
+    "Parce que, avec peu de puissance, elle a gardé sa Parole et n'a pas renié son nom",
+    "Parce qu'elle était riche"
+   ],
+   "reponse": 1,
+   "explication": "Apocalypse 3:8.",
+   "section": "9"
   }
  ],
  "devoir": [
