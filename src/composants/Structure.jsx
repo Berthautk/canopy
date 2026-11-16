@@ -5,6 +5,23 @@ import { Avatar } from './Avatar.jsx';
 import { profil } from '../donnees/profil.js';
 import { useSignal } from '../outils/signal.js';
 import { reglages, modifierReglages } from '../donnees/reglages.js';
+import { installation, installer } from '../outils/telephone.js';
+
+// Bandeau « Installer » sous l'en-tête, sur toutes les pages, tant que l'app n'est pas installée.
+// Un toucher : la fenêtre d'installation du téléphone s'ouvre. Sinon, on montre comment faire.
+function BandeauInstaller() {
+  const i = useSignal(installation), r = useSignal(route);
+  const [cache, setCache] = useState(() => { try { return sessionStorage.getItem('yeshaya:installer-cache') === '1'; } catch { return false; } });
+  if (i.installee || cache || r.segments[0] === 'telechargements') return null;
+  const toucher = async () => { if (i.pret) { await installer(); } else aller('telechargements'); };
+  return (
+    <div class="bandeau-installer">
+      <button class="bandeau-installer__btn" onClick={toucher}><Icone nom="telecharger" taille={18} /><span>Installer Yeshaya sur mon téléphone</span></button>
+      <button class="bandeau-installer__fermer" aria-label="Masquer pour aujourd'hui"
+        onClick={() => { setCache(true); try { sessionStorage.setItem('yeshaya:installer-cache', '1'); } catch {} }}><Icone nom="fermer" taille={16} /></button>
+    </div>
+  );
+}
 
 export function Logo() {
   return (
@@ -27,6 +44,7 @@ export function Entete({ titre, surMenu }) {
         <a href="#/accueil" aria-label="Yeshaya, accueil"><Logo /></a>
         <button class="entete__btn" onClick={() => aller('parametres')} aria-label="Paramètres"><Icone nom="reglages" /></button>
       </div>
+      <BandeauInstaller />
       {titre && (
         <div class="sous-titre">
           <button class="entete__btn" onClick={() => retour()} aria-label="Retour"><Icone nom="retour" /></button>

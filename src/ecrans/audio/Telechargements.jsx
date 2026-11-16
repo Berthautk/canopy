@@ -36,7 +36,8 @@ export function Telechargements() {
                 <button class="bouton bouton--or" style="width:100%" onClick={async () => { if (await installer() === 'accepted') notifier('Yeshaya est installée'); }}><Icone nom="telecharger" taille={18} /> Installer sur mon téléphone</button></>
             : estIOS()
               ? <ol class="tel__etapes"><li>Touche le bouton <b>Partager</b> de Safari (le carré avec une flèche).</li><li>Choisis <b>Sur l'écran d'accueil</b>.</li><li>Touche <b>Ajouter</b>.</li></ol>
-              : <ol class="tel__etapes"><li>Ouvre le menu de ton navigateur (les trois points en haut).</li><li>Choisis <b>Installer l'application</b> ou <b>Ajouter à l'écran d'accueil</b>.</li></ol>}
+              : <><ol class="tel__etapes"><li>Ouvre le menu de ton navigateur (les trois points <b>⋮</b> en haut à droite).</li><li>Choisis <b>Installer l'application</b> ou <b>Ajouter à l'écran d'accueil</b>.</li><li>Confirme avec <b>Installer</b> ou <b>Ajouter</b>.</li></ol>
+                <p class="ligne__desc" style="margin-bottom:0"><b>Tu as ouvert le lien depuis WhatsApp, Facebook ou Telegram ?</b> Touche d'abord les trois points <b>⋮</b> et choisis <b>Ouvrir dans Chrome</b> (ou « Ouvrir dans le navigateur »). L'installation se fait ensuite depuis Chrome.</p></>}
       </section>
 
       <section class="carte bloc tel">
