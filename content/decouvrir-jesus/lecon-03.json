@@ -1,38 +1,234 @@
 {
  "id": "decouvrir-jesus-03",
  "jour": 3,
- "titre": "Notre vrai problème : le péché",
  "image": "/assets/temoignage/chaines-brisees.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
+ "titre": "Notre vrai problème : le péché",
+ "objectifs": [
+  "Ce que la Bible appelle péché",
+  "Pourquoi tout le monde est concerné, même les gens « bien »",
+  "Comment la loi de Dieu agit comme un miroir",
+  "Pourquoi le péché vient du cœur et rend esclave",
+  "Les conséquences du péché : séparation, mort et jugement",
+  "Pourquoi on ne peut pas se sauver soi-même"
+ ],
+ "introduction": [
+  "Quand on parle de problèmes, on pense souvent à la pauvreté, au chômage, à la maladie, à la corruption des dirigeants. Ce sont de vrais problèmes. Mais la Bible dit que le problème le plus profond de l'homme est ailleurs : il est dans son cœur, et il s'appelle le péché.",
+  "Beaucoup de gens n'aiment pas ce mot. Ils disent : moi, je ne suis pas un grand pécheur, je n'ai tué personne, je ne vole pas, je vais à l'église. D'autres pensent que le péché, c'est seulement les gros crimes. Dans cette leçon, nous allons regarder honnêtement ce que la Bible dit du péché. Ce n'est pas une leçon agréable, mais elle est nécessaire : un malade qui ne croit pas qu'il est malade ne va jamais chercher le médecin. Jésus a dit : ce ne sont pas ceux qui se portent bien qui ont besoin de médecin, mais les malades (Marc 2:17)."
+ ],
  "sections": [
   {
-   "titre": "Tous sont concernés",
+   "titre": "Qu'est-ce que le péché ?",
    "texte": [
-    "La Bible ne fait pas d'exception : tous ont péché et sont privés de la gloire de Dieu (Romains 3:23). Tous : le pasteur et le voleur, le riche et le pauvre, le religieux et le païen, toi et moi. Personne ne peut dire : « Moi, je suis une bonne personne. »",
-    "Le péché, ce n'est pas seulement tuer ou voler. C'est mentir, tricher, haïr, convoiter, désobéir à ses parents, regarder la pornographie, consulter un marabout, utiliser le nom de Dieu à la légère, aimer l'argent plus que Dieu. C'est aussi ne pas faire le bien qu'on sait devoir faire. Si nous mesurons notre vie à la loi de Dieu, nous sommes tous coupables."
+    "### Manquer la cible",
+    "Dans la langue grecque du Nouveau Testament, le mot le plus utilisé pour le péché veut dire : manquer la cible. Imagine un chasseur qui tire sa flèche et qui rate l'animal. Il peut rater de beaucoup ou de peu : dans les deux cas, il n'a pas atteint la cible. Dieu nous a créés pour vivre selon sa volonté, pour l'aimer de tout notre cœur et aimer notre prochain. Chaque fois que nous ratons cette cible, c'est un péché.",
+    "### Transgresser la loi de Dieu",
+    "Jean donne une autre définition : quiconque pèche transgresse la loi, et le péché est la transgression de la loi (1 Jean 3:4). Transgresser, c'est franchir une limite que Dieu a posée. Comme un panneau « interdit » que l'on dépasse quand même.",
+    "### Ne pas faire le bien",
+    "Le péché n'est pas seulement faire le mal. Jacques écrit : celui donc qui sait faire ce qui est bien, et qui ne le fait pas, commet un péché (Jacques 4:17). Ne pas aider quelqu'un dans le besoin alors qu'on le peut, ne pas dire la vérité quand il faut la dire, ne pas pardonner : ce sont aussi des péchés.",
+    "### Un péché contre Dieu",
+    "Surtout, tout péché est d'abord un péché contre Dieu. Quand David a commis l'adultère et fait tuer le mari de Bath-Schéba, il a fait du mal à beaucoup de personnes. Et pourtant, il a prié : j'ai péché contre toi seul, et j'ai fait ce qui est mal à tes yeux (Psaume 51:6). Le péché n'est pas seulement une faute sociale ou une erreur : c'est une révolte contre notre Créateur."
+   ]
+  },
+  {
+   "titre": "Tous ont péché",
+   "texte": [
+    "### Pas une seule exception",
+    "> Rm 3:10-12",
+    "Paul cite les psaumes : il n'y a point de juste, pas même un seul ; nul n'est intelligent, nul ne cherche Dieu ; tous sont égarés. Et il conclut : tous ont péché et sont privés de la gloire de Dieu (Romains 3:23). Tous : les riches et les pauvres, les Africains et les Européens, les chefs religieux et les bandits, les vieux et les jeunes, toi et moi.",
+    "### Même les gens « bien »",
+    "L'Ecclésiaste dit : il n'y a sur la terre point d'homme juste qui fasse le bien et qui ne pèche jamais (Ecclésiaste 7:20). Et Jean, écrivant à des chrétiens, ajoute : si nous disons que nous n'avons pas de péché, nous nous séduisons nous-mêmes, et la vérité n'est point en nous (1 Jean 1:8). Celui qui dit « je n'ai pas de péché » ne prouve pas qu'il est bon : il prouve qu'il ne se connaît pas.",
+    "### Comparer, le piège",
+    "Beaucoup se comparent aux autres : je suis meilleur que mon voisin qui boit, meilleur que ce politicien corrompu. Mais Dieu ne nous compare pas aux autres hommes : il nous compare à sa propre sainteté. Imagine trois personnes qui essaient de sauter d'une rive à l'autre d'un grand fleuve. L'une saute un mètre, l'autre deux mètres, la troisième quatre mètres. Elle a sauté plus loin que les autres, mais elle tombe quand même dans l'eau, car le fleuve fait cent mètres. Devant la sainteté de Dieu, personne n'arrive de l'autre côté par ses propres forces."
+   ]
+  },
+  {
+   "titre": "La loi de Dieu, un miroir",
+   "texte": [
+    "### Les dix commandements",
+    "> Ex 20:2-17",
+    "Dieu a donné sa loi à Moïse sur le mont Sinaï. Les dix commandements résument ce que Dieu attend de l'homme : envers lui (ne pas avoir d'autres dieux, ne pas faire d'idoles, ne pas prendre son nom en vain, sanctifier le jour du repos) et envers les autres (honorer ses parents, ne pas tuer, ne pas commettre d'adultère, ne pas voler, ne pas mentir, ne pas convoiter).",
+    "### Fais le test honnêtement",
+    "Prends un moment pour te regarder dans ce miroir. As-tu toujours mis Dieu à la première place, avant l'argent, ton travail, une personne, tes ancêtres ? As-tu déjà menti, même pour « arranger » une situation ? As-tu déjà pris quelque chose qui ne t'appartenait pas, même petit, même au travail ? As-tu toujours honoré tes parents ? As-tu déjà désiré ce qui appartient à un autre, sa femme, son mari, ses biens ?",
+    "Jésus a même dit que regarder une femme pour la convoiter, c'est déjà commettre l'adultère dans son cœur (Matthieu 5:28), et que se mettre en colère contre son frère, c'est déjà être coupable devant Dieu (Matthieu 5:22).",
+    "### À quoi sert le miroir ?",
+    "Un miroir montre la saleté sur ton visage, mais il ne peut pas la laver. Tu ne prends pas le miroir pour te frotter la figure ! Ainsi, la loi nous montre notre péché, mais elle ne peut pas nous sauver. C'est par la loi que vient la connaissance du péché (Romains 3:20). Elle nous conduit à reconnaître que nous avons besoin d'un Sauveur.",
+    "### Un seul commandement suffit",
+    "Jacques ajoute : quiconque observe toute la loi, mais pèche contre un seul commandement, devient coupable de tous (Jacques 2:10). Pense à une jarre en terre remplie d'eau. Il n'est pas nécessaire de la casser en dix morceaux pour qu'elle ne retienne plus l'eau : une seule fissure suffit. Il ne suffit donc pas d'avoir respecté neuf commandements sur dix."
    ]
   },
   {
    "titre": "Un mal qui vient du cœur",
    "texte": [
-    "Jésus a dit : c'est du dedans, c'est du cœur des hommes, que sortent les mauvaises pensées, les adultères, les impudicités, les meurtres, les vols, les cupidités, les méchancetés, la fraude, le dérèglement, le regard envieux, la calomnie, l'orgueil, la folie (Marc 7:21-23). Le problème n'est pas d'abord notre environnement : c'est notre cœur.",
-    "C'est pourquoi les bonnes résolutions ne suffisent pas. On peut changer d'habitudes, de quartier ou de religion, mais on ne peut pas changer son propre cœur. Il faut que Dieu nous donne un cœur nouveau."
+    "### Ce n'est pas seulement l'extérieur",
+    "Les chefs religieux du temps de Jésus pensaient que l'impureté venait de l'extérieur : manger certains aliments, toucher certaines choses, ne pas se laver les mains selon les traditions. Jésus leur a répondu :",
+    "> Mc 7:21-23",
+    "C'est du dedans, c'est du cœur des hommes, que sortent les mauvaises pensées, les adultères, les impudicités, les meurtres, les vols, les cupidités, les méchancetés, la fraude, le dérèglement, le regard envieux, la calomnie, l'orgueil, la folie.",
+    "### Le cœur est tortueux",
+    "Le prophète Jérémie dit : le cœur est tortueux par-dessus tout, et il est méchant : qui peut le connaître ? (Jérémie 17:9). Le problème de l'homme n'est pas seulement qu'il fait de mauvaises actions. C'est qu'il a un cœur qui produit ces actions, comme un arbre malade produit de mauvais fruits. On peut couper les fruits, mais si la racine reste malade, d'autres fruits mauvais repousseront.",
+    "### Pourquoi l'éducation ne suffit pas",
+    "Les écoles, les lois, la police, les bonnes résolutions sont utiles. Mais elles ne changent pas le cœur. Un homme peut avoir un doctorat et être corrompu. Un pays peut avoir de bonnes lois et beaucoup de crimes. C'est pourquoi Dieu promet de faire quelque chose de plus profond : je vous donnerai un cœur nouveau, et je mettrai en vous un esprit nouveau (Ézéchiel 36:26). Seul Dieu peut changer le cœur."
    ]
   },
   {
-   "titre": "Une séparation, et un salaire",
+   "titre": "Les péchés qu'on ne voit plus",
    "texte": [
-    "Ésaïe le dit clairement : ce sont vos crimes qui mettent une séparation entre vous et votre Dieu ; ce sont vos péchés qui vous cachent sa face (Ésaïe 59:2). Le péché a creusé un fossé entre l'homme et Dieu. C'est pourquoi beaucoup de gens prient sans sentir de réponse, et vivent avec un vide intérieur que rien ne remplit.",
-    "Et le péché a un prix : le salaire du péché, c'est la mort (Romains 6:23). Pas seulement la mort du corps, mais la séparation éternelle d'avec Dieu, ce que Jésus appelle l'enfer. Je te le dis avec amour, mais sans détour : si rien ne change, le péché conduit à la perdition."
+    "### Quand toute la société pèche",
+    "Certains péchés sont devenus si courants qu'on ne les voit plus comme des péchés. « Tout le monde le fait. » Le petit pot-de-vin au bureau ou au poste de contrôle. Le mensonge « pour arranger ». Les relations sexuelles avant le mariage. L'infidélité de l'homme qui a « un deuxième bureau ». Le mépris de la femme ou de l'enfant. Le tribalisme qui méprise ceux d'une autre ethnie. Consulter le marabout « juste au cas où ». Les médisances et les commérages.",
+    "La Bible ne juge pas le péché selon ce que fait la majorité, mais selon ce que dit Dieu. Malheur à ceux qui appellent le mal bien, et le bien mal (Ésaïe 5:20).",
+    "### Les péchés religieux",
+    "Il y a aussi des péchés « religieux » : l'orgueil spirituel, l'hypocrisie, juger les autres, servir Dieu pour être vu. Jésus a été plus sévère avec les religieux hypocrites qu'avec les prostituées qui se repentaient. Aller à l'église ne nous rend pas exempts du péché."
+   ]
+  },
+  {
+   "titre": "Le péché rend esclave",
+   "texte": [
+    "### Plus fort que nous",
+    "Beaucoup pensent qu'ils peuvent arrêter de pécher quand ils veulent. Mais l'expérience montre le contraire : l'alcoolique qui jure qu'il ne boira plus, le menteur qui ne peut plus s'arrêter, le jeune prisonnier de la pornographie, la personne qui ne peut pas pardonner. Jésus a dit : en vérité, en vérité, je vous le dis, quiconque se livre au péché est esclave du péché (Jean 8:34).",
+    "### Un maître qui paie mal",
+    "Paul écrit : ne savez-vous pas qu'en vous livrant à quelqu'un comme esclaves pour lui obéir, vous êtes esclaves de celui à qui vous obéissez, soit du péché qui conduit à la mort, soit de l'obéissance qui conduit à la justice ? (Romains 6:16). Le péché est un maître qui promet beaucoup et qui paie avec la honte, la ruine et la mort.",
+    "### Une bonne nouvelle cachée",
+    "Cette vérité est dure, mais elle prépare une bonne nouvelle : Jésus a ajouté, juste après, si donc le Fils vous affranchit, vous serez réellement libres (Jean 8:36). Si le péché est un esclavage, nous n'avons pas besoin d'un simple conseiller : nous avons besoin d'un libérateur."
+   ]
+  },
+  {
+   "titre": "La séparation d'avec Dieu",
+   "texte": [
+    "### Un mur",
+    "> És 59:1-2",
+    "Dieu n'est pas sourd, et son bras n'est pas trop court pour sauver. Ce sont vos crimes qui mettent une séparation entre vous et votre Dieu ; ce sont vos péchés qui vous cachent sa face. Le péché construit un mur entre l'homme et Dieu. C'est pourquoi beaucoup de gens prient sans sentir la présence de Dieu, cherchent Dieu sans le trouver, et vivent avec un vide intérieur.",
+    "### Morts spirituellement",
+    "Paul dit aux Éphésiens qu'avant de connaître Christ, ils étaient morts par leurs offenses et par leurs péchés (Éphésiens 2:1). Un mort ne peut rien faire pour se ressusciter lui-même. Il ne peut que recevoir la vie de quelqu'un d'autre. C'est la situation de l'homme sans Christ : physiquement vivant, mais spirituellement mort, séparé de la source de la vie."
+   ]
+  },
+  {
+   "titre": "Le salaire du péché",
+   "texte": [
+    "### La mort",
+    "> Rm 6:23",
+    "Le salaire du péché, c'est la mort. Un salaire, c'est ce que l'on mérite pour un travail. Le péché a un salaire juste : la mort, c'est-à-dire la séparation définitive d'avec Dieu. Ce n'est pas Dieu qui est méchant ; c'est le péché qui conduit naturellement à la mort, comme le poison conduit à la mort celui qui le boit.",
+    "### Le jugement",
+    "La Bible dit encore : il est réservé aux hommes de mourir une seule fois, après quoi vient le jugement (Hébreux 9:27). Il n'y a pas de réincarnation, pas de deuxième chance après la mort, pas d'ancêtre qui pourra plaider pour nous. Chacun se tiendra devant Dieu. Le dernier livre de la Bible parle de ce jugement, où les morts sont jugés selon leurs œuvres, et où celui qui n'est pas trouvé inscrit dans le livre de vie est jeté dans l'étang de feu (Apocalypse 20:12-15).",
+    "### Une vérité qu'on ne doit pas cacher",
+    "Ce n'est pas agréable à entendre. Mais un médecin qui cache à un malade qu'il a une maladie mortelle n'est pas un bon médecin. Jésus lui-même a parlé de l'enfer plus que tous les autres prédicateurs de la Bible, non pas pour faire peur, mais pour que nous fuyions vers celui qui peut nous sauver."
+   ]
+  },
+  {
+   "titre": "On ne peut pas se sauver soi-même",
+   "texte": [
+    "### Nos bonnes œuvres ne suffisent pas",
+    "Beaucoup pensent : je vais faire plus de bien que de mal, et Dieu pèsera dans la balance. Mais la Bible dit : nous sommes tous comme des impurs, et toute notre justice est comme un vêtement souillé (Ésaïe 64:5). Nos bonnes œuvres ne peuvent pas effacer nos péchés passés, comme un voleur qui a volé hier ne devient pas innocent parce qu'il n'a pas volé aujourd'hui.",
+    "### Les sacrifices et les rites ne suffisent pas",
+    "Dans les religions traditionnelles, on offre des poulets, des chèvres, de l'alcool, on fait des purifications pour apaiser les esprits et effacer les fautes. Mais l'épître aux Hébreux dit qu'il est impossible que le sang des taureaux et des boucs ôte les péchés (Hébreux 10:4). Seul un sacrifice parfait, préparé par Dieu lui-même, pouvait le faire.",
+    "### La religion ne suffit pas",
+    "Même la religion chrétienne extérieure ne suffit pas : être baptisé, aller à l'église, connaître des versets, payer sa dîme. Paul dit que l'homme n'est pas justifié par les œuvres de la loi, mais par la foi en Jésus-Christ (Galates 2:16). Si nous pouvions nous sauver nous-mêmes, Jésus ne serait pas mort."
+   ]
+  },
+  {
+   "titre": "La bonne nouvelle commence ici",
+   "texte": [
+    "### La deuxième moitié du verset",
+    "Le verset de Romains 6:23 ne s'arrête pas à la mort. Il continue : mais le don gratuit de Dieu, c'est la vie éternelle en Jésus-Christ notre Seigneur. Le salaire, on le mérite. Le don, on le reçoit gratuitement. La mort est ce que nous méritons ; la vie éternelle est ce que Dieu offre.",
+    "### Jésus est venu pour les pécheurs",
+    "Paul, qui avait été un persécuteur violent des chrétiens, écrit : c'est une parole certaine et entièrement digne d'être reçue, que Jésus-Christ est venu dans le monde pour sauver les pécheurs, dont je suis le premier (1 Timothée 1:15). Si tu te reconnais pécheur, tu es exactement la personne que Jésus est venu chercher.",
+    "On raconte l'histoire d'un jeune homme qui avait passé plusieurs années en prison pour vol. À sa sortie, il entendit un prédicateur dire : « Jésus est venu pour les pécheurs. » Il pensa : « Ce message n'est pas pour moi, je suis trop mauvais. » Le soir, il alla voir le prédicateur et lui dit : « Vous ne savez pas qui je suis. » Le prédicateur lui répondit : « Si tu te crois trop mauvais pour Jésus, c'est que tu as enfin compris ce qu'est le péché. Ceux qui se croient assez bons ne viennent jamais à lui. Toi, tu es tout près. »"
    ]
   }
  ],
+ "conclusion": [
+  "Le péché, c'est manquer la cible que Dieu a fixée, transgresser sa loi, et ne pas faire le bien que nous savons. Tous ont péché, même les gens qui se croient bons. Le péché vient du cœur, il rend esclave, il nous sépare de Dieu, et son salaire est la mort. Ni nos bonnes œuvres, ni les sacrifices, ni la religion ne peuvent nous sauver.",
+  "Mais c'est justement là que commence la bonne nouvelle : Dieu offre gratuitement la vie éternelle en Jésus-Christ. Dans la prochaine leçon, nous allons découvrir qui est ce Jésus."
+ ],
+ "retenir": [
+  "Pécher, c'est manquer la cible de Dieu, transgresser sa loi, et aussi ne pas faire le bien qu'on sait (1 Jean 3:4 ; Jacques 4:17).",
+  "Tous ont péché, personne n'est assez bon devant Dieu (Romains 3:23).",
+  "La loi est un miroir : elle montre le péché mais ne peut pas le laver (Romains 3:20).",
+  "Le péché vient du cœur et rend esclave (Marc 7:21-23 ; Jean 8:34).",
+  "Le salaire du péché est la mort, mais le don de Dieu est la vie éternelle en Jésus (Romains 6:23).",
+  "On ne peut pas se sauver par ses œuvres, ses sacrifices ou sa religion."
+ ],
+ "memoriser": "Rm 6:23",
+ "quiz": [
+  {
+   "question": "Que veut dire le mot le plus utilisé pour « péché » dans le Nouveau Testament ?",
+   "choix": [
+    "Être malade",
+    "Manquer la cible",
+    "Être pauvre"
+   ],
+   "reponse": 1,
+   "explication": "Le péché, c'est rater la cible que Dieu a fixée.",
+   "section": "1"
+  },
+  {
+   "question": "Selon Romains 3:23, qui a péché ?",
+   "choix": [
+    "Seulement les criminels",
+    "Tous",
+    "Seulement ceux qui ne vont pas à l'église"
+   ],
+   "reponse": 1,
+   "explication": "Tous ont péché et sont privés de la gloire de Dieu.",
+   "section": "2"
+  },
+  {
+   "question": "À quoi sert la loi de Dieu, comme un miroir ?",
+   "choix": [
+    "À nous sauver",
+    "À nous montrer notre péché et notre besoin d'un Sauveur",
+    "À rien"
+   ],
+   "reponse": 1,
+   "explication": "Romains 3:20.",
+   "section": "3"
+  },
+  {
+   "question": "D'où vient le mal selon Jésus en Marc 7 ?",
+   "choix": [
+    "De la nourriture",
+    "Du cœur de l'homme",
+    "Des mains sales"
+   ],
+   "reponse": 1,
+   "explication": "Marc 7:21-23.",
+   "section": "4"
+  },
+  {
+   "question": "Que dit Jésus de celui qui se livre au péché ?",
+   "choix": [
+    "Qu'il est libre",
+    "Qu'il est esclave du péché",
+    "Qu'il est fort"
+   ],
+   "reponse": 1,
+   "explication": "Jean 8:34.",
+   "section": "6"
+  },
+  {
+   "question": "Pourquoi nos bonnes œuvres ne peuvent-elles pas nous sauver ?",
+   "choix": [
+    "Parce qu'elles sont trop nombreuses",
+    "Parce qu'elles ne peuvent pas effacer nos péchés, et que notre justice est comme un vêtement souillé",
+    "Parce que Dieu ne les voit pas"
+   ],
+   "reponse": 1,
+   "explication": "Ésaïe 64:5 ; Galates 2:16.",
+   "section": "9"
+  }
+ ],
+ "pratique": "Cette semaine, prends une feuille et lis lentement les dix commandements (Exode 20). Demande au Saint-Esprit de te montrer où tu as manqué la cible. Écris-le, confesse-le à Dieu, puis déchire la feuille en te rappelant que Jésus est venu pour les pécheurs.",
+ "partage": "Parle avec ton accompagnateur d'un péché « que tout le monde fait » dans ton entourage, et de la manière de vivre autrement.",
  "versets": [
   "Rm 3:23",
   "Mc 7:21-23",
   "És 59:2",
-  "Rm 6:23"
+  "Rm 6:23",
+  "1 Tm 1:15"
  ],
- "question": "Pourquoi nos bonnes actions ne peuvent-elles pas effacer le péché ?",
+ "question": "Avais-tu l'habitude de te comparer aux autres pour te sentir assez bon ? Après cette leçon, comment te vois-tu devant Dieu ?",
  "sujets": [
   {
    "titre": "La lumière sur mon cœur",
@@ -43,18 +239,6 @@
    "texte": "Dis à Dieu que tu veux être libéré de ce qui te sépare de lui. (Jean 8:36)"
   }
  ],
- "priere": "Dieu saint, je reconnais que mon cœur a besoin d'être purifié. Je ne peux pas y arriver seul. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
- "introduction": [
-  "Beaucoup de gens pensent que leur problème, c'est l'argent, la maladie, le travail, les sorciers du village ou leur famille. Ces choses sont réelles. Mais la Bible dit que le vrai problème de l'homme est plus profond : c'est le péché. Tant que ce problème n'est pas réglé, tous les autres ne sont que des symptômes.",
-  "Dans cette leçon, nous verrons que tous sont concernés, que le péché vient du cœur, et qu'il nous sépare de Dieu. C'est une leçon difficile, mais nécessaire : on ne cherche pas un médecin tant qu'on ne sait pas qu'on est malade."
- ],
- "conclusion": [
-  "Voilà le problème : nous sommes tous pécheurs, notre cœur est malade, et nous sommes séparés de Dieu. Aucun sacrifice, aucune bonne œuvre, aucune religion ne peut effacer ce péché. Mais écoute la fin du verset : le don gratuit de Dieu, c'est la vie éternelle en Jésus-Christ notre Seigneur (Romains 6:23).",
-  "Dans les prochaines leçons, nous allons rencontrer ce Jésus qui est venu régler le problème que personne d'autre ne pouvait régler."
- ]
+ "priere": "Seigneur, je reconnais que j'ai péché contre toi. Je ne suis pas assez bon pour me sauver moi-même. Mon cœur a besoin d'être changé. Merci de m'avoir montré la vérité, même si elle est dure. Je viens à toi comme je suis, et je veux connaître le Sauveur que tu as envoyé. Amen.",
+ "relu": false
 }
