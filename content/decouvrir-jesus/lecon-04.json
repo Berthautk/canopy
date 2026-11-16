@@ -1,39 +1,232 @@
 {
  "id": "decouvrir-jesus-04",
  "jour": 4,
- "titre": "Qui est Jésus ?",
  "image": "/assets/jesus/jesus-portrait-serein.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
+ "titre": "Qui est Jésus ?",
+ "objectifs": [
+  "Pourquoi Jésus est un personnage réel de l'histoire",
+  "Comment sa venue avait été annoncée des siècles à l'avance",
+  "Pourquoi il est vraiment homme et vraiment Dieu",
+  "Ce qu'il a enseigné et ce que montrent ses miracles",
+  "Ses titres et ses grandes paroles « Je suis »",
+  "Pourquoi on ne peut pas dire qu'il n'est qu'un prophète"
+ ],
+ "introduction": [
+  "Tout le monde a entendu parler de Jésus. Les uns disent qu'il était un grand prophète, d'autres un sage, un guérisseur, un révolutionnaire, ou même un personnage inventé. Dans certaines églises, on parle beaucoup de lui, mais sans expliquer clairement qui il est. Or, toute la foi chrétienne repose sur cette question.",
+  "Un jour, Jésus a demandé lui-même à ses disciples : qui dit-on que je suis ? Ils ont rapporté les opinions des gens : les uns disent Jean-Baptiste, d'autres Élie, d'autres Jérémie, ou l'un des prophètes. Alors il leur a demandé : et vous, qui dites-vous que je suis ? Pierre a répondu : tu es le Christ, le Fils du Dieu vivant (Matthieu 16:13-16). Cette question, Jésus te la pose aussi aujourd'hui. Dans cette leçon, nous allons voir ce que la Bible répond, avec ses preuves."
+ ],
  "sections": [
   {
-   "titre": "Plus qu'un prophète",
+   "titre": "Un homme réel de l'histoire",
    "texte": [
-    "Les prophètes disaient : « Ainsi parle l'Éternel. » Jésus, lui, disait : « Moi, je vous dis. » Il parlait avec sa propre autorité. Il pardonnait les péchés, ce que Dieu seul peut faire. Il acceptait l'adoration, ce qu'aucun prophète ni aucun ange n'aurait accepté.",
-    "L'Évangile de Jean commence ainsi : au commencement était la Parole, et la Parole était avec Dieu, et la Parole était Dieu. Et un peu plus loin : la Parole a été faite chair, et elle a habité parmi nous, pleine de grâce et de vérité (Jean 1:1, 14). Jésus n'a pas commencé d'exister à Bethléhem. Il existait avant la création. Il est venu d'auprès du Père."
+    "### Pas une légende",
+    "Jésus n'est pas un personnage de conte comme ceux qu'on raconte le soir au village. Il est né à un moment précis, dans un lieu précis. Luc, qui était médecin, commence son évangile en expliquant qu'il a fait des recherches exactes auprès de ceux qui avaient été des témoins oculaires depuis le commencement (Luc 1:1-4). Il donne même les noms des dirigeants de l'époque : l'empereur Auguste, le gouverneur Quirinius (Luc 2:1-2), puis Tibère, Ponce Pilate et Hérode (Luc 3:1).",
+    "> Lc 1:1-4",
+    "### Les témoins",
+    "Les quatre évangiles ont été écrits au premier siècle, par des apôtres ou par des proches des apôtres, à une époque où beaucoup de témoins des événements étaient encore vivants. Des auteurs juifs et romains de la même époque, qui n'étaient pas chrétiens, mentionnent aussi Jésus. Les historiens sérieux, croyants ou non, reconnaissent que Jésus de Nazareth a réellement existé et qu'il a été crucifié sous Ponce Pilate. La question n'est donc pas : a-t-il existé ? La question est : qui était-il ?"
    ]
   },
   {
-   "titre": "Des signes uniques",
+   "titre": "Annoncé des siècles à l'avance",
    "texte": [
-    "Jésus a guéri des aveugles de naissance, des lépreux, des paralysés. Il a chassé les démons d'une seule parole. Il a calmé la tempête. Il a multiplié cinq pains pour nourrir des milliers de personnes. Il a ressuscité des morts, comme Lazare, qui était dans le tombeau depuis quatre jours.",
-    "Et surtout, il a vécu sans péché. Même ses ennemis n'ont rien trouvé contre lui. La Bible dit qu'il a été tenté comme nous en toutes choses, sans commettre de péché (Hébreux 4:15). Aucun homme, aucun prophète, aucun fondateur de religion ne peut en dire autant."
+    "### Un rendez-vous préparé",
+    "Bien avant sa naissance, les prophètes de l'Ancien Testament avaient annoncé sa venue. Ce n'était pas une ou deux phrases vagues, mais des dizaines de détails, donnés par des auteurs différents, sur des centaines d'années.",
+    "### Quelques prophéties",
+    "Ésaïe, environ sept cents ans avant Jésus, avait écrit : voici, la jeune fille deviendra enceinte, elle enfantera un fils, et elle lui donnera le nom d'Emmanuel (Ésaïe 7:14). Emmanuel veut dire : Dieu avec nous. Le prophète Michée avait annoncé que le chef d'Israël sortirait de Bethléem, la petite ville de David. Le psaume 22, écrit par David environ mille ans avant Jésus, décrit un homme dont on perce les mains et les pieds, et dont on tire les vêtements au sort, exactement ce qui s'est passé au pied de la croix.",
+    "> És 53:3-5",
+    "Ésaïe 53 décrit le serviteur de Dieu, méprisé et abandonné des hommes, homme de douleur. Il était blessé pour nos péchés, brisé pour nos iniquités. Ce texte a été écrit des siècles avant la croix, et il décrit Jésus avec une précision étonnante.",
+    "### Pourquoi c'est important",
+    "Aucun homme ne peut choisir le lieu de sa naissance, la manière de sa mort ou ce que ses ennemis feront de ses vêtements. Ces prophéties accomplies montrent que Jésus n'est pas un homme ordinaire qui a eu du succès. Il est celui que Dieu avait promis depuis la première promesse du jardin d'Éden."
    ]
   },
   {
-   "titre": "Dieu rendu visible",
+   "titre": "Vraiment homme",
    "texte": [
-    "Sept cents ans avant sa naissance, Ésaïe l'avait annoncé : un enfant nous est né, un fils nous est donné ; on l'appellera Admirable, Conseiller, Dieu puissant, Père éternel, Prince de la paix (Ésaïe 9:5). Un enfant, et pourtant Dieu puissant. C'est le grand mystère : Jésus est vraiment homme et vraiment Dieu.",
-    "Quand Philippe lui a demandé de leur montrer le Père, Jésus a répondu : celui qui m'a vu a vu le Père (Jean 14:9). Si tu veux savoir comment Dieu regarde le pécheur, regarde Jésus avec la Samaritaine, avec Zachée, avec la femme adultère. Si tu veux savoir ce que Dieu pense du péché, regarde Jésus à la croix."
+    "### Né d'une femme",
+    "Jésus est né de la vierge Marie, par la puissance du Saint-Esprit. L'ange Gabriel lui a dit : le Saint-Esprit viendra sur toi, et la puissance du Très-Haut te couvrira de son ombre. C'est pourquoi le saint enfant qui naîtra de toi sera appelé Fils de Dieu (Luc 1:35). Sa naissance n'a pas été une naissance ordinaire, et pourtant il est né comme un vrai bébé, couché dans une mangeoire, dans une famille pauvre.",
+    "### Il a vécu notre vie",
+    "Jésus a grandi, il a appris un métier, il a travaillé de ses mains. Il a eu faim au désert (Matthieu 4:2), il a été fatigué au bord du puits de Jacob (Jean 4:6), il a dormi dans une barque, il a pleuré devant le tombeau de son ami (Jean 11:35). Il a connu la pauvreté, le rejet, la trahison, la souffrance et la mort.",
+    "### Pourquoi il fallait qu'il soit homme",
+    "> Hé 2:17",
+    "Il devait être semblable en toutes choses à ses frères, afin d'expier les péchés du peuple. Pour mourir à la place des hommes, il fallait qu'il soit vraiment homme. Et parce qu'il a vécu notre vie, il comprend ce que nous traversons. Nous n'avons pas un souverain sacrificateur qui ne puisse compatir à nos faiblesses ; au contraire, il a été tenté comme nous en toutes choses, sans commettre de péché (Hébreux 4:15)."
+   ]
+  },
+  {
+   "titre": "Vraiment Dieu",
+   "texte": [
+    "### La Parole était Dieu",
+    "L'évangile de Jean commence par une déclaration immense : au commencement était la Parole, et la Parole était avec Dieu, et la Parole était Dieu. Toutes choses ont été faites par elle (Jean 1:1-3). Puis il ajoute : et la Parole a été faite chair, et elle a habité parmi nous (Jean 1:14). Jésus n'a pas commencé à exister à Bethléem. Il existait avant la création du monde, et c'est par lui que tout a été créé.",
+    "### Ce que disent les apôtres",
+    "> Col 2:9",
+    "Paul écrit : en lui habite corporellement toute la plénitude de la divinité. Et ailleurs : lui qui était en forme de Dieu, il n'a point regardé comme une proie à arracher d'être égal avec Dieu, mais il s'est dépouillé lui-même, en prenant une forme de serviteur (Philippiens 2:6-7). Thomas, le disciple qui doutait, est tombé devant Jésus ressuscité en disant : mon Seigneur et mon Dieu ! Et Jésus ne l'a pas corrigé (Jean 20:28).",
+    "### Ce qu'il a fait comme seul Dieu le fait",
+    "Jésus a fait des choses que seul Dieu a le droit de faire. Il a pardonné les péchés : un jour, il a dit à un paralysé : tes péchés sont pardonnés. Les religieux ont protesté : qui peut pardonner les péchés, si ce n'est Dieu seul ? Ils avaient raison, et c'est justement ce que Jésus voulait leur montrer : il a ensuite guéri le paralysé pour prouver qu'il avait ce pouvoir (Marc 2:5-12). Il a accepté l'adoration, alors que les anges et les apôtres la refusaient. Il a dit qu'il jugera le monde.",
+    "### Un seul Sauveur possible",
+    "Pourquoi fallait-il qu'il soit Dieu ? Parce qu'aucun homme pécheur ne pouvait payer pour les autres : il aurait déjà eu à payer pour lui-même. Et parce que seul Dieu peut sauver. Jésus est le seul pont possible entre Dieu et les hommes, parce qu'il est à la fois vrai Dieu et vrai homme : il y a un seul Dieu, et aussi un seul médiateur entre Dieu et les hommes, Jésus-Christ homme (1 Timothée 2:5)."
+   ]
+  },
+  {
+   "titre": "Ce qu'il a enseigné",
+   "texte": [
+    "### Avec autorité",
+    "Quand Jésus a prononcé le Sermon sur la montagne (Matthieu 5 à 7), la foule était frappée de sa doctrine : car il enseignait comme ayant autorité, et non pas comme leurs scribes (Matthieu 7:28-29). Les prophètes disaient : ainsi parle l'Éternel. Jésus disait : moi, je vous dis. Il parlait comme celui qui a écrit la loi.",
+    "### Un enseignement qui renverse",
+    "Jésus a enseigné des choses qui renversaient la façon de penser du monde. Heureux les pauvres en esprit, heureux ceux qui pleurent, heureux les doux. Aimez vos ennemis, priez pour ceux qui vous persécutent. Celui qui veut être le premier, qu'il soit le serviteur de tous. Il a placé l'amour de Dieu et l'amour du prochain au centre de toute la loi (Matthieu 22:37-40). Même ceux qui ne croient pas en lui reconnaissent que son enseignement est le plus élevé que le monde ait entendu.",
+    "### Il parlait de lui-même",
+    "Mais Jésus n'a pas seulement enseigné une morale. Il a placé sa propre personne au centre de son message : venez à moi, vous tous qui êtes fatigués et chargés, et je vous donnerai du repos (Matthieu 11:28). Un sage dit : suis mon enseignement. Jésus dit : viens à moi."
+   ]
+  },
+  {
+   "titre": "Ce que montrent ses miracles",
+   "texte": [
+    "### Des signes, pas des spectacles",
+    "Jésus a guéri des aveugles, des lépreux, des paralysés. Il a chassé des démons, calmé une tempête, multiplié les pains, ressuscité des morts. Mais il n'a jamais fait de miracles pour se faire de l'argent ou pour impressionner. L'évangile de Jean les appelle des signes : ils montrent qui il est.",
+    "> Jn 20:30-31",
+    "Jésus a fait encore, en présence de ses disciples, beaucoup d'autres miracles. Mais ces choses ont été écrites afin que vous croyiez que Jésus est le Christ, le Fils de Dieu, et qu'en croyant vous ayez la vie en son nom.",
+    "### Maître de la nature, de la maladie, des démons et de la mort",
+    "Quand Jésus a calmé la tempête d'une seule parole, ses disciples ont été saisis d'une grande frayeur et se sont dit : quel est donc celui-ci, à qui obéissent même le vent et la mer ? (Marc 4:41). Les miracles de Jésus montrent qu'il a autorité sur tout ce qui écrase l'homme : la nature, la maladie, les puissances des ténèbres et même la mort. Les féticheurs et les magiciens font parfois des choses étonnantes, mais ils demandent toujours quelque chose en échange, et ils laissent les gens dans la peur. Jésus, lui, libérait gratuitement, et laissait les gens dans la paix."
+   ]
+  },
+  {
+   "titre": "Ses titres",
+   "texte": [
+    "### Christ",
+    "Christ n'est pas le nom de famille de Jésus. C'est un titre qui veut dire : l'Oint, le Messie, celui que Dieu a choisi et oint pour sauver son peuple. Les Juifs attendaient ce Messie depuis des siècles. Quand Pierre dit : tu es le Christ, il reconnaît que Jésus est celui que toutes les prophéties annonçaient.",
+    "### Fils de Dieu et Fils de l'homme",
+    "Jésus est appelé Fils de Dieu : non pas que Dieu ait eu un enfant à la manière humaine, mais parce qu'il partage la nature même de Dieu et vient de lui depuis l'éternité. Jésus aimait aussi s'appeler le Fils de l'homme. Ce titre vient du prophète Daniel, qui avait vu quelqu'un comme un fils de l'homme recevoir de Dieu la domination éternelle sur tous les peuples (Daniel 7:13-14). C'est donc à la fois un titre d'humilité et de gloire.",
+    "### Seigneur et Sauveur",
+    "L'ange a dit à Joseph : tu lui donneras le nom de Jésus ; c'est lui qui sauvera son peuple de ses péchés (Matthieu 1:21). Jésus veut dire : l'Éternel sauve. Il est le Sauveur, et il est aussi le Seigneur, c'est-à-dire le maître légitime de toute vie. On ne peut pas recevoir le Sauveur en refusant le Seigneur."
+   ]
+  },
+  {
+   "titre": "Ses grandes paroles « Je suis »",
+   "texte": [
+    "### Des affirmations uniques",
+    "Dans l'évangile de Jean, Jésus fait plusieurs déclarations qui commencent par « Je suis ». Elles rappellent le nom de Dieu révélé à Moïse : je suis celui qui suis.",
+    "### Sept images de ce qu'il est",
+    "Je suis le pain de vie : celui qui vient à moi n'aura jamais faim (Jean 6:35). Je suis la lumière du monde : celui qui me suit ne marchera pas dans les ténèbres (Jean 8:12). Je suis la porte : si quelqu'un entre par moi, il sera sauvé (Jean 10:9). Je suis le bon berger : le bon berger donne sa vie pour ses brebis (Jean 10:11). Je suis la résurrection et la vie (Jean 11:25). Je suis le chemin, la vérité, et la vie (Jean 14:6). Je suis le vrai cep, vous êtes les sarments (Jean 15:1-5).",
+    "> Jn 14:6",
+    "Écoute bien la suite de Jean 14:6 : nul ne vient au Père que par moi. Jésus ne dit pas : je suis un chemin parmi d'autres. Il dit : je suis le chemin. C'est une affirmation exclusive, que beaucoup trouvent dure. Mais si Jésus est vraiment Dieu venu dans la chair, alors il a le droit de le dire."
+   ]
+  },
+  {
+   "titre": "Sans péché",
+   "texte": [
+    "### Personne n'a pu l'accuser",
+    "Tous les grands hommes de l'histoire ont eu leurs fautes. Les prophètes de la Bible eux-mêmes ont péché : Moïse s'est mis en colère, David a commis l'adultère, Pierre a renié. Jésus, lui, a pu demander à ses ennemis : qui de vous me convaincra de péché ? (Jean 8:46). Personne n'a pu répondre.",
+    "### Ce que disent ceux qui l'ont connu",
+    "Pierre, qui a vécu trois ans avec lui jour et nuit, écrit : il n'a point commis de péché, et dans sa bouche il ne s'est point trouvé de fraude (1 Pierre 2:22). Même Pilate, qui l'a condamné, a dit trois fois : je ne trouve aucun crime en lui (Jean 19:4-6). Et sa femme lui a fait dire : qu'il n'y ait rien entre toi et ce juste (Matthieu 27:19).",
+    "### Pourquoi c'est essentiel",
+    "Si Jésus avait péché, il aurait dû mourir pour ses propres fautes. Parce qu'il était sans péché, il a pu mourir pour les nôtres, comme un agneau sans défaut. C'est ce que nous verrons dans la prochaine leçon."
+   ]
+  },
+  {
+   "titre": "Seulement un prophète ou un bon maître ?",
+   "texte": [
+    "### Ce qu'on ne peut pas dire",
+    "Beaucoup aimeraient garder Jésus comme un grand prophète ou un bon maître de morale, sans accepter qu'il soit Dieu. L'écrivain anglais C. S. Lewis, qui avait été athée avant de devenir chrétien, a expliqué dans un livre célèbre, « Les fondements du christianisme », pourquoi ce n'est pas possible. Un homme qui dirait ce que Jésus a dit de lui-même, qu'il pardonne les péchés, qu'il existait avant Abraham, qu'il est le seul chemin vers Dieu et qu'il jugera le monde, ne serait pas un bon maître s'il se trompait. Il serait soit un menteur, soit un fou. Ou bien il dit la vérité, et alors il est le Seigneur.",
+    "### Ta réponse",
+    "Jésus ne nous laisse pas la possibilité de rester neutres. Il ne veut pas seulement notre admiration, il veut notre cœur. La question qu'il a posée à Pierre est pour toi : et toi, qui dis-tu que je suis ?",
+    "On raconte l'histoire d'un étudiant qui avait décidé de lire les quatre évangiles pour prouver à ses amis chrétiens que Jésus n'était qu'un homme. Il lisait chaque soir avec un crayon, pour noter les contradictions. Au bout de quelques semaines, il avait rempli son carnet, non de contradictions, mais de questions sur sa propre vie. Arrivé au chapitre 20 de Jean, quand Thomas dit « mon Seigneur et mon Dieu », il posa son crayon et dit à voix haute, seul dans sa chambre : « Toi aussi, tu es mon Seigneur et mon Dieu. »"
    ]
   }
  ],
+ "conclusion": [
+  "Jésus est un homme réel de l'histoire, annoncé des siècles à l'avance par les prophètes. Il est vraiment homme, né de la vierge Marie, et vraiment Dieu, la Parole éternelle faite chair. Il a enseigné avec autorité, il a fait des miracles qui montrent qui il est, il porte les titres de Christ, Fils de Dieu, Seigneur et Sauveur, et il a vécu sans aucun péché. On ne peut pas le réduire à un simple prophète : il est le chemin, la vérité et la vie.",
+  "Dans la prochaine leçon, nous verrons pourquoi ce Jésus, qui était sans péché, a accepté de mourir sur une croix."
+ ],
+ "retenir": [
+  "Jésus est un personnage réel de l'histoire, crucifié sous Ponce Pilate.",
+  "Sa venue avait été annoncée des siècles à l'avance (Ésaïe 7:14 ; Ésaïe 53 ; Psaume 22).",
+  "Il est vraiment homme : il a eu faim, il a été fatigué, il a pleuré.",
+  "Il est vraiment Dieu : la Parole faite chair (Jean 1:1, 14 ; Colossiens 2:9).",
+  "Il a vécu sans péché, et c'est pourquoi il a pu mourir pour nos péchés.",
+  "Il est le seul chemin vers le Père (Jean 14:6)."
+ ],
+ "memoriser": "Jn 1:14",
+ "quiz": [
+  {
+   "question": "Qu'a répondu Pierre quand Jésus a demandé « qui dites-vous que je suis ? »",
+   "choix": [
+    "Un grand prophète",
+    "Le Christ, le Fils du Dieu vivant",
+    "Un bon maître"
+   ],
+   "reponse": 1,
+   "explication": "Matthieu 16:16.",
+   "section": "1"
+  },
+  {
+   "question": "Que veut dire « Emmanuel », le nom annoncé par Ésaïe ?",
+   "choix": [
+    "Le roi des Juifs",
+    "Dieu avec nous",
+    "Le fils de David"
+   ],
+   "reponse": 1,
+   "explication": "Ésaïe 7:14.",
+   "section": "2"
+  },
+  {
+   "question": "Pourquoi fallait-il que Jésus soit vraiment homme ?",
+   "choix": [
+    "Pour être célèbre",
+    "Pour pouvoir mourir à la place des hommes et compatir à nos faiblesses",
+    "Pour devenir roi"
+   ],
+   "reponse": 1,
+   "explication": "Hébreux 2:17 ; 4:15.",
+   "section": "3"
+  },
+  {
+   "question": "Que montre la guérison du paralysé à qui Jésus a d'abord dit « tes péchés sont pardonnés » ?",
+   "choix": [
+    "Que Jésus était un bon médecin",
+    "Que Jésus a le pouvoir de pardonner les péchés, comme Dieu seul",
+    "Que le paralysé avait beaucoup péché"
+   ],
+   "reponse": 1,
+   "explication": "Marc 2:5-12.",
+   "section": "4"
+  },
+  {
+   "question": "Que veut dire le mot « Christ » ?",
+   "choix": [
+    "Le nom de famille de Jésus",
+    "L'Oint, le Messie choisi par Dieu",
+    "Le charpentier"
+   ],
+   "reponse": 1,
+   "explication": "C'est un titre, non un nom.",
+   "section": "7"
+  },
+  {
+   "question": "Que dit Jésus en Jean 14:6 ?",
+   "choix": [
+    "Je suis un chemin parmi d'autres",
+    "Je suis le chemin, la vérité et la vie ; nul ne vient au Père que par moi",
+    "Je suis un prophète"
+   ],
+   "reponse": 1,
+   "explication": "Une affirmation exclusive.",
+   "section": "8"
+  }
+ ],
+ "pratique": "Cette semaine, lis l'évangile de Marc en entier (16 chapitres, environ deux par jour). À chaque chapitre, note une chose que Jésus a faite ou dite qui montre qui il est.",
+ "partage": "Demande à ton accompagnateur : « Qu'est-ce qui t'a convaincu que Jésus est vraiment le Fils de Dieu ? » Et dis-lui ce que tu as découvert en lisant Marc.",
  "versets": [
+  "Mt 16:15-16",
   "Jn 1:1",
   "Jn 1:14",
-  "És 9:5",
-  "Jn 14:9",
+  "Col 2:9",
+  "Jn 14:6",
   "Hé 4:15"
  ],
- "question": "Pour toi, qui est Jésus ? Ta réponse a-t-elle changé en lisant ces versets ?",
+ "question": "Qui était Jésus pour toi avant cette leçon ? Et aujourd'hui, que réponds-tu à sa question : « Et toi, qui dis-tu que je suis ? »",
  "sujets": [
   {
    "titre": "Le connaître personnellement",
@@ -44,18 +237,6 @@
    "texte": "Demande-lui de t'aider à croire. (Marc 9:24)"
   }
  ],
- "priere": "Jésus, je veux te connaître tel que tu es vraiment. Aide-moi à croire. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
- "introduction": [
-  "Tout le monde a une opinion sur Jésus. Pour les uns, c'est un grand prophète. Pour d'autres, un sage, un révolutionnaire ou le fondateur d'une religion. Mais Jésus a lui-même posé la question à ses disciples : et vous, qui dites-vous que je suis ? (Matthieu 16:15). C'est la question la plus importante de ta vie, car ta réponse décide de ton éternité.",
-  "Dans cette leçon, nous verrons que Jésus est plus qu'un prophète, qu'il a fait ce que personne d'autre n'a fait, et qu'il est Dieu venu parmi les hommes."
- ],
- "conclusion": [
-  "Jésus n'est pas seulement un bon maître : il est le Fils de Dieu, Dieu venu dans la chair. On ne peut pas rester neutre devant lui. Soit il a menti, soit il était fou, soit il est vraiment le Seigneur. Les faits montrent qu'il est le Seigneur.",
-  "Pose-toi honnêtement sa question : et toi, qui dis-tu qu'il est ? La prochaine leçon expliquera pourquoi celui qui est Dieu est mort sur une croix."
- ]
+ "priere": "Seigneur Jésus, tu n'es pas seulement un prophète ou un bon maître. Tu es la Parole éternelle faite chair, le Christ, le Fils du Dieu vivant. Ouvre mes yeux pour te connaître vraiment. Je veux te suivre comme mon Seigneur et mon Sauveur. Amen.",
+ "relu": false
 }
