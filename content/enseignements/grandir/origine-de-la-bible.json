@@ -1,337 +1,587 @@
 {
- "id": "enseignement-origine-de-la-bible",
- "titre": "La Bible : d'où vient-elle, et peut-on lui faire confiance ?",
- "serie": "Grandir",
- "theme": "Bible",
- "auteur": "Yeshaya",
- "resume": "Qui a écrit la Bible, comment ses livres ont été rassemblés, comment elle nous est parvenue, et pourquoi on peut affirmer qu'elle n'a pas été falsifiée. Puis ce que veut dire croire que la Bible est la Parole de Dieu, et ce que cela change.",
- "image": "/assets/objets-bibliques/rouleau-parchemin.webp",
- "verset_de_base": "2 Tm 3:16",
- "lecture_minutes": 16,
- "objectifs": [
-  "Connaître l'origine de la Bible : ses auteurs, ses langues, sa formation.",
-  "Comprendre ce que veut dire l'inspiration.",
-  "Savoir pourquoi le texte n'a pas été falsifié : manuscrits, prophéties, archéologie.",
-  "Recevoir la Bible comme la Parole de Dieu, avec autorité sur toute notre vie."
- ],
- "introduction": "On t'a peut-être déjà dit : « La Bible a été écrite par des hommes. » « Elle a été changée au cours des siècles. » « Ce sont les Blancs qui l'ont apportée pour nous coloniser. » « Il y a plein de Bibles différentes. » Si tu ne sais pas répondre, ta foi peut être ébranlée, et tu ne pourras pas aider ceux qui posent ces questions.\n\nLa foi chrétienne ne demande pas de fermer les yeux. Elle repose sur des faits. Dans cet enseignement, nous allons voir d'où vient la Bible, comment elle a été écrite et rassemblée, comment elle nous est parvenue, et pourquoi nous pouvons affirmer avec Paul que toute Écriture est inspirée de Dieu (2 Timothée 3:16). Puis nous verrons ce que cela change dans notre vie.",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "Une bibliothèque écrite sur 1 500 ans",
-   "references": [
-    "He 1:1-2",
-    "Lc 24:44"
-   ],
-   "blocs": [
+  "id": "enseignement-origine-de-la-bible",
+  "titre": "La Bible : d'où vient-elle, et peut-on lui faire confiance ?",
+  "serie": "Grandir",
+  "theme": "Bible",
+  "auteur": "Yeshaya",
+  "resume": "Qui a écrit la Bible, comment ses livres ont été rassemblés, comment elle nous est parvenue, et pourquoi on peut affirmer qu'elle n'a pas été falsifiée. Puis ce que veut dire croire que la Bible est la Parole de Dieu, et ce que cela change.",
+  "image": "/assets/objets-bibliques/rouleau-parchemin.webp",
+  "verset_de_base": "2 Tm 3:16",
+  "lecture_minutes": 33,
+  "objectifs": [
+    "Connaître l'origine de la Bible : ses auteurs, ses langues, sa formation.",
+    "Comprendre ce que veut dire l'inspiration.",
+    "Savoir pourquoi le texte n'a pas été falsifié : manuscrits, prophéties, archéologie.",
+    "Recevoir la Bible comme la Parole de Dieu, avec autorité sur toute notre vie."
+  ],
+  "introduction": "On t'a peut-être déjà dit : « La Bible a été écrite par des hommes. » « Elle a été changée au cours des siècles. » « Ce sont les Blancs qui l'ont apportée pour nous coloniser. » « Il y a plein de Bibles différentes. » Si tu ne sais pas répondre, ta foi peut être ébranlée, et tu ne pourras pas aider ceux qui posent ces questions.\n\nLa foi chrétienne ne demande pas de fermer les yeux. Elle repose sur des faits. Dans cet enseignement, nous allons voir d'où vient la Bible, comment elle a été écrite et rassemblée, comment elle nous est parvenue, et pourquoi nous pouvons affirmer avec Paul que toute Écriture est inspirée de Dieu (2 Timothée 3:16). Puis nous verrons ce que cela change dans notre vie.",
+  "sections": [
     {
-     "sous_titre": "Soixante-six livres"
+      "numero": "1",
+      "titre": "Une bibliothèque écrite sur 1 500 ans",
+      "references": [
+        "He 1:1-2",
+        "Lc 24:44"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Soixante-six livres"
+        },
+        {
+          "texte": "La Bible n'est pas un seul livre, c'est une bibliothèque. Elle contient soixante-six livres : trente-neuf dans l'Ancien Testament, vingt-sept dans le Nouveau. On y trouve des récits historiques, des lois, des poèmes, des proverbes, des prophéties, des évangiles et des lettres."
+        },
+        {
+          "sous_titre": "Une quarantaine d'auteurs"
+        },
+        {
+          "texte": "Ces livres ont été écrits par une quarantaine d'auteurs, sur environ mille cinq cents ans, du temps de Moïse jusqu'à la fin du premier siècle après Jésus-Christ. Parmi eux, il y a un prince élevé en Égypte, Moïse ; un berger devenu roi, David ; un roi très sage, Salomon ; des prophètes ; un collecteur d'impôts, Matthieu ; un médecin, Luc ; des pêcheurs, Pierre et Jean ; un ancien persécuteur, Paul. Ils ont écrit en hébreu, en araméen et en grec, sur trois continents : l'Asie, l'Afrique et l'Europe."
+        },
+        {
+          "sous_titre": "Un seul message"
+        },
+        {
+          "texte": "Et pourtant, du premier au dernier livre, la Bible raconte une seule histoire : Dieu crée l'homme, l'homme se révolte, Dieu promet un Sauveur, prépare un peuple, envoie son Fils, sauve par la croix et la résurrection, et un jour fera toutes choses nouvelles. Aucun groupe d'hommes ne pourrait se mettre d'accord ainsi sur quinze siècles. Il y a un seul auteur derrière tous ces auteurs. Après avoir autrefois parlé à nos pères par les prophètes, Dieu, dans ces derniers temps, nous a parlé par le Fils."
+        },
+        {
+          "verset": "He 1:1-2"
+        },
+        {
+          "sous_titre": "La Bible n'est pas venue d'Europe"
+        },
+        {
+          "texte": "La Bible est née au Moyen-Orient, au carrefour de l'Afrique et de l'Asie. L'Égypte, l'Éthiopie, Koush, la Libye y sont souvent mentionnées. Un Éthiopien a été baptisé dans les Actes des apôtres bien avant que l'Évangile n'arrive dans beaucoup de pays d'Europe (Actes 8:26-39). Il y avait de grandes églises en Afrique du Nord, en Égypte et en Éthiopie dès les premiers siècles. Que des missionnaires européens aient parfois mêlé l'Évangile à la colonisation est une réalité douloureuse, mais la Bible elle-même n'appartient à aucun peuple. Elle est la Parole de Dieu pour toutes les nations."
+        }
+      ]
     },
     {
-     "texte": "La Bible n'est pas un seul livre, c'est une bibliothèque. Elle contient soixante-six livres : trente-neuf dans l'Ancien Testament, vingt-sept dans le Nouveau. On y trouve des récits historiques, des lois, des poèmes, des proverbes, des prophéties, des évangiles et des lettres."
+      "numero": "2",
+      "titre": "Comment Dieu a inspiré les Écritures",
+      "references": [
+        "2 Tm 3:16-17",
+        "2 P 1:20-21"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Inspirée de Dieu"
+        },
+        {
+          "texte": "Paul écrit : toute Écriture est inspirée de Dieu. Le mot grec veut dire littéralement « soufflée par Dieu ». Les Écritures sont sorties de la bouche de Dieu, comme le souffle sort de notre bouche quand nous parlons."
+        },
+        {
+          "verset": "2 Tm 3:16-17"
+        },
+        {
+          "sous_titre": "Poussés par le Saint-Esprit"
+        },
+        {
+          "texte": "Pierre explique comment : ce n'est pas par une volonté d'homme qu'une prophétie a jamais été apportée, mais c'est poussés par le Saint-Esprit que des hommes ont parlé de la part de Dieu. Dieu n'a pas transformé les auteurs en machines. Luc écrit comme un médecin qui fait une enquête, Paul comme un docteur de la loi, Amos comme un berger. Dieu a utilisé leur personnalité, leur style et leur expérience, et il les a conduits de telle manière que ce qu'ils ont écrit est exactement ce qu'il voulait dire."
+        },
+        {
+          "verset": "2 P 1:20-21"
+        }
+      ]
     },
     {
-     "sous_titre": "Une quarantaine d'auteurs"
+      "numero": "3",
+      "titre": "Comment les livres ont été rassemblés",
+      "references": [
+        "Lc 24:44",
+        "2 P 3:15-16",
+        "Ga 1:8"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "L'Ancien Testament"
+        },
+        {
+          "texte": "Au temps de Jésus, les Juifs avaient déjà les Écritures, réparties en trois parties : la Loi de Moïse, les Prophètes et les Écrits, dont les Psaumes. Jésus a confirmé cette collection en disant qu'il fallait que s'accomplisse tout ce qui est écrit de lui dans la loi de Moïse, dans les prophètes et dans les psaumes. L'Ancien Testament de nos Bibles protestantes contient exactement ces livres."
+        },
+        {
+          "verset": "Lc 24:44"
+        },
+        {
+          "sous_titre": "Le Nouveau Testament"
+        },
+        {
+          "texte": "Les évangiles et les lettres ont été écrits au premier siècle par les apôtres ou leurs proches collaborateurs. Ils ont circulé tout de suite dans les églises. Pierre parle déjà des lettres de Paul comme faisant partie des Écritures. L'Église n'a pas fabriqué la liste des livres : elle a reconnu ceux qui venaient des apôtres, qui étaient fidèles à l'enseignement de Jésus, et que les églises utilisaient partout. Les vingt-sept livres du Nouveau Testament sont cités ensemble dans une lettre de l'évêque Athanase d'Alexandrie, en Égypte, en l'an 367."
+        },
+        {
+          "verset": "2 P 3:15-16"
+        },
+        {
+          "sous_titre": "Et les évangiles « cachés » ?"
+        },
+        {
+          "texte": "On entend parfois parler d'évangiles cachés : l'évangile de Thomas, de Judas, de Barnabé. Ces textes ont été écrits plus tard, à partir du deuxième siècle et parfois bien après, par des groupes qui voulaient faire passer leurs propres idées sous le nom d'un apôtre. L'évangile dit « de Barnabé », que certains citent parfois, n'a même été écrit qu'à la fin du Moyen Âge, plus de mille ans après Jésus. Paul l'avait annoncé : quand un ange du ciel annoncerait un autre Évangile, qu'il soit anathème."
+        },
+        {
+          "verset": "Ga 1:8"
+        }
+      ]
     },
     {
-     "texte": "Ces livres ont été écrits par une quarantaine d'auteurs, sur environ mille cinq cents ans, du temps de Moïse jusqu'à la fin du premier siècle après Jésus-Christ. Parmi eux, il y a un prince élevé en Égypte, Moïse ; un berger devenu roi, David ; un roi très sage, Salomon ; des prophètes ; un collecteur d'impôts, Matthieu ; un médecin, Luc ; des pêcheurs, Pierre et Jean ; un ancien persécuteur, Paul. Ils ont écrit en hébreu, en araméen et en grec, sur trois continents : l'Asie, l'Afrique et l'Europe."
+      "numero": "4",
+      "titre": "Le texte a-t-il été changé ?",
+      "references": [
+        "Es 40:8",
+        "Mt 24:35",
+        "Ps 119:89"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Les manuscrits de la mer Morte"
+        },
+        {
+          "texte": "En 1947, des bergers ont découvert, dans des grottes près de la mer Morte, des rouleaux très anciens. Parmi eux, un rouleau complet du livre d'Ésaïe, copié environ un siècle et demi avant Jésus-Christ. Avant cette découverte, les plus anciens manuscrits hébreux complets d'Ésaïe dataient d'environ mille ans plus tard. Quand on a comparé les deux, le texte était pratiquement identique. Les différences concernaient surtout l'orthographe. Pendant mille ans de copies à la main, le message n'avait pas changé."
+        },
+        {
+          "sous_titre": "Des milliers de manuscrits du Nouveau Testament"
+        },
+        {
+          "texte": "Pour le Nouveau Testament, nous avons plus de cinq mille huit cents manuscrits grecs, complets ou partiels, plus des milliers en latin, en syriaque, en copte et en d'autres langues. Le plus ancien fragment connu, un morceau de l'évangile de Jean, date de la première moitié du deuxième siècle. Nous avons des Bibles complètes du quatrième siècle, comme le Codex Sinaïticus. Aucun autre livre de l'Antiquité n'est aussi bien attesté. Pour les écrits de grands auteurs grecs ou romains, on n'a parfois que quelques dizaines de copies, écrites des siècles après eux."
+        },
+        {
+          "sous_titre": "Que montrent les différences ?"
+        },
+        {
+          "texte": "En comparant les manuscrits, les spécialistes trouvent des différences : une lettre oubliée, un mot inversé, une ligne recopiée deux fois. Comme ils ont des milliers de copies venues de régions différentes, ils peuvent retrouver le texte d'origine avec une très grande précision. Aucune de ces variantes ne change une seule doctrine chrétienne : la divinité de Jésus, sa mort pour nos péchés, sa résurrection, le salut par la foi sont présents partout."
+        },
+        {
+          "sous_titre": "Quand aurait-on falsifié la Bible ?"
+        },
+        {
+          "texte": "Si quelqu'un dit que la Bible a été falsifiée, demande-lui : quand ? Avant Jésus ? Mais Jésus a appelé ces textes Écriture et a dit qu'ils ne pouvaient être anéantis (Jean 10:35). Après Jésus ? Mais nous avons des manuscrits de toutes les époques, venus de pays différents, en langues différentes, et ils disent la même chose. Personne n'aurait pu rassembler toutes les copies du monde pour les modifier de la même manière. Et surtout : est-ce que Dieu est incapable de protéger sa Parole ? L'herbe sèche, la fleur tombe ; mais la parole de notre Dieu subsiste éternellement."
+        },
+        {
+          "verset": "Es 40:8"
+        },
+        {
+          "sous_titre": "Les traductions"
+        },
+        {
+          "texte": "La Bible a été traduite dans des milliers de langues. La version Louis Segond, utilisée dans Yeshaya, a été traduite de l'hébreu et du grec par le pasteur suisse Louis Segond, et révisée en 1910. Une traduction n'est pas une nouvelle Bible : c'est le même texte rendu dans une autre langue. Il est bon de comparer plusieurs traductions sérieuses, mais il faut se méfier des « bibles » publiées par des groupes qui modifient les versets pour soutenir leur doctrine."
+        }
+      ]
     },
     {
-     "sous_titre": "Un seul message"
+      "numero": "5",
+      "titre": "Des preuves qui confirment",
+      "references": [
+        "Mi 5:1",
+        "Ps 22:17-19",
+        "Es 53:5",
+        "Lc 1:1-4"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Des prophéties accomplies"
+        },
+        {
+          "texte": "Plus de sept cents ans avant Jésus, Michée annonce que le Messie naîtra à Bethléhem. Le psaume 22, écrit par David des siècles avant que la crucifixion soit inventée, décrit des mains et des pieds percés et des soldats qui tirent au sort la tunique. Ésaïe 53 décrit un serviteur blessé pour nos péchés, mis au rang des malfaiteurs et enseveli avec le riche. Aucun homme ne peut écrire l'histoire à l'avance."
+        },
+        {
+          "verset": "Mi 5:1"
+        },
+        {
+          "verset": "Ps 22:17-19"
+        },
+        {
+          "sous_titre": "L'archéologie"
+        },
+        {
+          "texte": "Pendant longtemps, des critiques disaient que le roi David n'avait jamais existé. En 1993, on a découvert en Israël une inscription du neuvième siècle avant Jésus-Christ qui parle de la « maison de David ». On doutait que Ponce Pilate ait existé : en 1961, on a trouvé à Césarée une pierre portant son nom et son titre. La piscine de Siloé, où Jésus a guéri l'aveugle-né, a été mise au jour en 2004 à Jérusalem. L'archéologie ne prouve pas la foi, mais elle montre que la Bible parle de lieux, de personnes et d'événements réels."
+        },
+        {
+          "sous_titre": "Des témoins"
+        },
+        {
+          "texte": "Luc commence son évangile en disant qu'il a fait des recherches exactes depuis l'origine, à partir de ceux qui ont été des témoins oculaires. Les apôtres n'ont pas raconté des légendes : ils sont morts pour témoigner de ce qu'ils avaient vu. On ne meurt pas pour un mensonge qu'on a soi-même inventé."
+        },
+        {
+          "verset": "Lc 1:1-4"
+        }
+      ]
     },
     {
-     "texte": "Et pourtant, du premier au dernier livre, la Bible raconte une seule histoire : Dieu crée l'homme, l'homme se révolte, Dieu promet un Sauveur, prépare un peuple, envoie son Fils, sauve par la croix et la résurrection, et un jour fera toutes choses nouvelles. Aucun groupe d'hommes ne pourrait se mettre d'accord ainsi sur quinze siècles. Il y a un seul auteur derrière tous ces auteurs. Après avoir autrefois parlé à nos pères par les prophètes, Dieu, dans ces derniers temps, nous a parlé par le Fils."
+      "numero": "6",
+      "titre": "La Parole de Dieu dans ma vie",
+      "references": [
+        "Mt 5:18",
+        "Mc 7:13",
+        "Jn 17:17",
+        "Ps 119:105"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Jésus et l'Écriture"
+        },
+        {
+          "texte": "Jésus a dit : tant que le ciel et la terre ne passeront point, il ne disparaîtra pas de la loi un seul iota ou un seul trait de lettre. Le disciple de Jésus a la même confiance en l'Écriture que son Maître. On ne peut pas dire qu'on suit Jésus et rejeter la Bible qu'il a confirmée."
+        },
+        {
+          "verset": "Mt 5:18"
+        },
+        {
+          "sous_titre": "Au-dessus des traditions"
+        },
+        {
+          "texte": "Jésus a reproché aux religieux d'annuler la parole de Dieu par leur tradition. La Bible est au-dessus de la tradition de nos ancêtres, de la coutume du village, des habitudes de notre dénomination, des révélations de nos prophètes et même de nos sentiments. Quand une coutume contredit la Bible, c'est la Bible qui gagne."
+        },
+        {
+          "verset": "Mc 7:13"
+        },
+        {
+          "sous_titre": "La vérité qui sanctifie"
+        },
+        {
+          "texte": "Jésus a prié pour ses disciples : sanctifie-les par ta vérité : ta parole est la vérité. La Bible n'a pas été donnée pour remplir notre tête, mais pour transformer notre vie."
+        },
+        {
+          "verset": "Jn 17:17"
+        },
+        {
+          "sous_titre": "Une lampe à mes pieds"
+        },
+        {
+          "texte": "Le psalmiste dit : ta parole est une lampe à mes pieds, et une lumière sur mon sentier. Une lampe ne sert à rien si on la laisse éteinte dans un tiroir. Lis la Bible chaque jour, en entier, livre après livre. Pose des questions, compare les passages, demande au Saint-Esprit de t'éclairer, et obéis à ce que tu comprends."
+        },
+        {
+          "verset": "Ps 119:105"
+        }
+      ]
     },
     {
-     "verset": "He 1:1-2"
+      "numero": "7",
+      "titre": "Moïse met les paroles par écrit",
+      "references": [
+        "Ex 24:3-8",
+        "Dt 31:24-26"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "De la voix au livre"
+        },
+        {
+          "texte": "Au mont Sinaï, Dieu a parlé à Moïse et lui a donné ses lois. Moïse est descendu et a rapporté au peuple toutes les paroles de l'Éternel. Le peuple a répondu d'une seule voix : nous ferons tout ce que l'Éternel a dit."
+        },
+        {
+          "texte": "Mais Moïse ne s'est pas contenté de transmettre oralement. La Bible dit : Moïse écrivit toutes les paroles de l'Éternel."
+        },
+        {
+          "verset": "Ex 24:3-8"
+        },
+        {
+          "texte": "Le lendemain, il a bâti un autel, offert des sacrifices, puis il a pris le livre de l'alliance et l'a lu en présence du peuple. Et le peuple a encore répondu : nous ferons tout ce que l'Éternel a dit, et nous obéirons."
+        },
+        {
+          "sous_titre": "Pourquoi écrire ?"
+        },
+        {
+          "texte": "Dans nos cultures africaines, beaucoup de choses se transmettent oralement : les histoires des ancêtres, les proverbes, les généalogies, les coutumes. La tradition orale est précieuse. Mais elle a une faiblesse : avec le temps, les choses peuvent être oubliées, déformées, ou changées selon les intérêts de celui qui raconte."
+        },
+        {
+          "texte": "Dieu a voulu que sa Parole soit écrite, pour qu'elle reste la même d'une génération à l'autre. À la fin de sa vie, Moïse a achevé d'écrire dans un livre les paroles de cette loi, et il a ordonné aux Lévites de placer ce livre à côté de l'arche de l'alliance, pour qu'il serve de témoin."
+        },
+        {
+          "verset": "Dt 31:24-26"
+        },
+        {
+          "sous_titre": "Une référence fixe"
+        },
+        {
+          "texte": "C'est pour cela que la Bible a une autorité que n'ont pas les traditions humaines. Quand quelqu'un dit : « Dieu m'a révélé ceci », ou « nos ancêtres faisaient cela », nous pouvons comparer avec ce qui est écrit. La Parole écrite est comme une règle fixe, qui permet de mesurer toutes les autres paroles."
+        },
+        {
+          "texte": "Jésus lui-même, face au diable, n'a pas répondu par ses propres sentiments. Il a dit trois fois : il est écrit. Ce qui est écrit ne change pas selon les humeurs, les modes ou les pressions."
+        }
+      ]
     },
     {
-     "sous_titre": "La Bible n'est pas venue d'Europe"
+      "numero": "8",
+      "titre": "Le rouleau brûlé : une Parole qu'on ne peut pas détruire",
+      "references": [
+        "Jr 36:20-28",
+        "Jr 36:32"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un roi qui n'aimait pas ce qu'il entendait"
+        },
+        {
+          "texte": "Dieu ordonna au prophète Jérémie d'écrire dans un rouleau toutes les paroles qu'il lui avait dites contre Israël et Juda. Jérémie dicta ces paroles à son secrétaire Baruc, qui les écrivit avec de l'encre. Puis Baruc alla les lire publiquement dans le temple."
+        },
+        {
+          "texte": "Les chefs du peuple, inquiets, firent apporter le rouleau au roi Jojakim. C'était l'hiver. Le roi était assis dans sa maison d'hiver, devant un brasier allumé."
+        },
+        {
+          "verset": "Jr 36:20-28"
+        },
+        {
+          "sous_titre": "Le canif et le feu"
+        },
+        {
+          "texte": "Un serviteur nommé Jehudi lut le rouleau devant le roi. Et chaque fois qu'il avait lu trois ou quatre colonnes, le roi coupait le rouleau avec un canif de secrétaire, et le jetait dans le feu du brasier, jusqu'à ce que tout le rouleau ait été consumé. Le roi et ses serviteurs ne furent point effrayés et ne déchirèrent point leurs vêtements."
+        },
+        {
+          "texte": "Imagine la scène : un roi qui découpe la Parole de Dieu morceau par morceau, et la regarde brûler, tranquillement. Il pensait se débarrasser de ce message gênant."
+        },
+        {
+          "sous_titre": "Dieu fait réécrire"
+        },
+        {
+          "texte": "Mais la parole de l'Éternel fut adressée à Jérémie : prends de nouveau un autre rouleau, et écris-y toutes les paroles qui étaient sur le premier rouleau qu'a brûlé Jojakim, roi de Juda."
+        },
+        {
+          "texte": "Jérémie prit un autre rouleau, et le donna à Baruc, qui y écrivit, sous sa dictée, toutes les paroles du livre qu'avait brûlé au feu Jojakim ; beaucoup d'autres paroles semblables y furent encore ajoutées."
+        },
+        {
+          "verset": "Jr 36:32"
+        },
+        {
+          "texte": "Le roi a brûlé un rouleau. Dieu en a fait écrire un nouveau, plus complet. Et ce rouleau, nous le lisons encore aujourd'hui dans le livre de Jérémie, plus de deux mille six cents ans plus tard. Jojakim est mort, son royaume a disparu, mais la Parole est restée."
+        },
+        {
+          "sous_titre": "Dans l'histoire"
+        },
+        {
+          "texte": "Tout au long de l'histoire, des rois, des empereurs et des gouvernements ont essayé de détruire la Bible. Au début du quatrième siècle, l'empereur romain Dioclétien ordonna de brûler les Écritures des chrétiens. Plus près de nous, certains régimes ont interdit la Bible et emprisonné ceux qui la possédaient. Et pourtant, la Bible est aujourd'hui le livre le plus traduit et le plus diffusé au monde. Jésus l'avait dit : le ciel et la terre passeront, mais mes paroles ne passeront point."
+        }
+      ]
     },
     {
-     "texte": "La Bible est née au Moyen-Orient, au carrefour de l'Afrique et de l'Asie. L'Égypte, l'Éthiopie, Koush, la Libye y sont souvent mentionnées. Un Éthiopien a été baptisé dans les Actes des apôtres bien avant que l'Évangile n'arrive dans beaucoup de pays d'Europe (Actes 8:26-39). Il y avait de grandes églises en Afrique du Nord, en Égypte et en Éthiopie dès les premiers siècles. Que des missionnaires européens aient parfois mêlé l'Évangile à la colonisation est une réalité douloureuse, mais la Bible elle-même n'appartient à aucun peuple. Elle est la Parole de Dieu pour toutes les nations."
+      "numero": "9",
+      "titre": "Esdras lit la loi : une Parole qu'on explique",
+      "references": [
+        "Ne 8:1-3",
+        "Ne 8:5-8",
+        "Ne 8:9-12"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un peuple rassemblé"
+        },
+        {
+          "texte": "Après le retour de l'exil, les murailles de Jérusalem avaient été rebâties. Tout le peuple s'assembla comme un seul homme sur la place qui est devant la porte des eaux. Ils dirent à Esdras, le scribe, d'apporter le livre de la loi de Moïse."
+        },
+        {
+          "verset": "Ne 8:1-3"
+        },
+        {
+          "texte": "Esdras lut le livre depuis le matin jusqu'à midi, en présence des hommes et des femmes, et de ceux qui étaient capables de l'entendre. Tout le peuple fut attentif à la lecture du livre de la loi."
+        },
+        {
+          "sous_titre": "Debout pour la Parole"
+        },
+        {
+          "texte": "Esdras ouvrit le livre à la vue de tout le peuple, car il était élevé au-dessus de tout le peuple ; et lorsqu'il l'ouvrit, tout le peuple se tint en place. Esdras bénit l'Éternel, le grand Dieu, et tout le peuple répondit, en levant les mains : amen ! amen ! Et ils s'inclinèrent et se prosternèrent devant l'Éternel, le visage contre terre."
+        },
+        {
+          "verset": "Ne 8:5-8"
+        },
+        {
+          "sous_titre": "Donner le sens"
+        },
+        {
+          "texte": "Et voici un détail très important : des Lévites expliquaient la loi au peuple, et chacun restait à sa place. Ils lisaient distinctement dans le livre de la loi de Dieu, et ils en donnaient le sens pour faire comprendre ce qu'ils avaient lu."
+        },
+        {
+          "texte": "Pourquoi fallait-il expliquer ? Pendant l'exil, beaucoup de Juifs avaient pris l'habitude de parler l'araméen, la langue de l'empire, et ne comprenaient plus bien l'hébreu. Les Lévites traduisaient et expliquaient. C'est l'un des premiers exemples de ce que nous faisons aujourd'hui quand nous traduisons la Bible dans les langues des peuples, et quand nous l'expliquons dans des mots simples."
+        },
+        {
+          "sous_titre": "Pleurer, puis se réjouir"
+        },
+        {
+          "texte": "Quand le peuple a compris ce qu'il entendait, tous pleuraient. Ils voyaient combien ils s'étaient éloignés de Dieu. Mais Néhémie et Esdras leur dirent : ce jour est consacré à l'Éternel, votre Dieu ; ne soyez pas dans la désolation et dans les larmes ! Allez, mangez des viandes grasses et buvez des liqueurs douces, et envoyez des portions à ceux qui n'ont rien de préparé. Ne vous affligez pas, car la joie de l'Éternel sera votre force."
+        },
+        {
+          "verset": "Ne 8:9-12"
+        },
+        {
+          "texte": "Et tout le peuple s'en alla pour manger et boire, et pour se livrer à de grandes réjouissances. Car ils avaient compris les paroles qu'on leur avait expliquées."
+        },
+        {
+          "texte": "Voilà ce que fait la Parole quand elle est comprise : elle convainc de péché, puis elle apporte la joie. C'est pourquoi il ne suffit pas de lire la Bible : il faut chercher à la comprendre, et aider les autres à la comprendre."
+        }
+      ]
+    },
+    {
+      "numero": "10",
+      "titre": "Ceux qui ont payé le prix pour que nous ayons la Bible",
+      "references": [
+        "Hé 11:36-38",
+        "Ps 68:12"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une Bible dans notre langue, un trésor récent"
+        },
+        {
+          "texte": "Aujourd'hui, beaucoup d'entre nous peuvent lire la Bible en français, et souvent aussi dans leur langue maternelle. On l'a sur papier et sur téléphone. Mais ce privilège a coûté cher à beaucoup de personnes avant nous."
+        },
+        {
+          "sous_titre": "William Tyndale"
+        },
+        {
+          "texte": "Au seizième siècle, en Angleterre, il était interdit de traduire la Bible en anglais sans autorisation de l'Église officielle. Seuls les prêtres pouvaient la lire en latin, une langue que le peuple ne comprenait pas. Un savant nommé William Tyndale a dit un jour à un homme d'Église : « Si Dieu me prête vie, je ferai en sorte qu'un garçon qui pousse la charrue connaisse les Écritures mieux que vous. »"
+        },
+        {
+          "texte": "Il a dû fuir son pays et vivre caché en Europe. Il a traduit le Nouveau Testament à partir du grec, et on l'a imprimé en secret, puis introduit en Angleterre caché dans des ballots de marchandises. Les autorités achetaient et brûlaient les exemplaires. Tyndale a finalement été trahi, arrêté, et exécuté en 1536 près de Bruxelles. On rapporte que ses dernières paroles furent une prière : « Seigneur, ouvre les yeux du roi d'Angleterre. » Quelques années plus tard, le roi autorisait la Bible en anglais, en grande partie fondée sur sa traduction."
+        },
+        {
+          "sous_titre": "Samuel Ajayi Crowther"
+        },
+        {
+          "texte": "Plus près de nous, en Afrique de l'Ouest, il y a l'histoire de Samuel Ajayi Crowther. Enfant yoruba, il a été capturé et vendu comme esclave au début du dix-neuvième siècle. Le navire négrier a été intercepté, et il a été libéré en Sierra Leone, où il a entendu l'Évangile et donné sa vie à Jésus. Il est devenu pasteur, puis le premier évêque anglican africain. Il a consacré une grande partie de sa vie à traduire la Bible en yoruba, et à aider à des traductions dans d'autres langues du Nigeria. Un ancien esclave est devenu l'un de ceux qui ont mis la Parole de Dieu dans la langue de son peuple."
+        },
+        {
+          "sous_titre": "Ceux dont le monde n'était pas digne"
+        },
+        {
+          "texte": "L'épître aux Hébreux parle de croyants qui ont souffert pour leur foi : d'autres subirent les moqueries et le fouet, les chaînes et la prison ; ils furent lapidés, sciés, ils moururent tués par l'épée, ils allèrent çà et là, vêtus de peaux de brebis et de peaux de chèvres, dénués de tout, persécutés, maltraités, eux dont le monde n'était pas digne."
+        },
+        {
+          "verset": "Hé 11:36-38"
+        },
+        {
+          "texte": "Le psalmiste dit aussi : le Seigneur dit une parole, et les messagères de bonnes nouvelles sont une grande armée."
+        },
+        {
+          "verset": "Ps 68:12"
+        },
+        {
+          "sous_titre": "Ce que cela nous demande"
+        },
+        {
+          "texte": "Quand tu ouvres ta Bible, souviens-toi qu'elle t'est parvenue à travers des siècles de copistes, de traducteurs, de martyrs, de missionnaires. Ne la laisse pas fermée sur une étagère. Lis-la, étudie-la, obéis-lui. Et soutiens ceux qui travaillent encore aujourd'hui à traduire la Bible dans les nombreuses langues africaines qui n'ont pas encore la Bible complète."
+        }
+      ]
+    },
+    {
+      "numero": "11",
+      "titre": "Conclusion",
+      "references": [
+        "Mt 24:35"
+      ],
+      "blocs": [
+        {
+          "texte": "La Bible n'est pas un livre de Blancs, ni un livre d'hommes, ni un livre falsifié. C'est la Parole que Dieu a soufflée par des hommes qu'il a choisis, qu'il a préservée à travers les siècles, et qu'il te met aujourd'hui entre les mains. Jésus a dit : le ciel et la terre passeront, mais mes paroles ne passeront point. Bâtis ta vie sur ce qui ne passera jamais."
+        },
+        {
+          "verset": "Mt 24:35"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "Comment Dieu a inspiré les Écritures",
-   "references": [
-    "2 Tm 3:16-17",
-    "2 P 1:20-21"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "Inspirée de Dieu"
+      "question": "Combien de livres contient la Bible protestante ?",
+      "choix": [
+        "27",
+        "66",
+        "73"
+      ],
+      "reponse": 1,
+      "explication": "39 dans l'Ancien Testament et 27 dans le Nouveau.",
+      "section": "1"
     },
     {
-     "texte": "Paul écrit : toute Écriture est inspirée de Dieu. Le mot grec veut dire littéralement « soufflée par Dieu ». Les Écritures sont sorties de la bouche de Dieu, comme le souffle sort de notre bouche quand nous parlons."
+      "question": "Que veut dire « inspirée de Dieu » en 2 Timothée 3:16 ?",
+      "choix": [
+        "Que les auteurs étaient très intelligents",
+        "Que l'Écriture est soufflée par Dieu",
+        "Que la Bible inspire les gens"
+      ],
+      "reponse": 1,
+      "explication": "(2 Timothée 3:16)",
+      "section": "2"
     },
     {
-     "verset": "2 Tm 3:16-17"
+      "question": "Qu'a montré la découverte des manuscrits de la mer Morte ?",
+      "choix": [
+        "Que la Bible avait été beaucoup changée",
+        "Que le texte d'Ésaïe était pratiquement identique après mille ans de copies",
+        "Que les manuscrits étaient faux"
+      ],
+      "reponse": 1,
+      "explication": "Les différences concernaient surtout l'orthographe.",
+      "section": "4"
     },
     {
-     "sous_titre": "Poussés par le Saint-Esprit"
+      "question": "Les variantes entre les manuscrits changent-elles une doctrine chrétienne ?",
+      "choix": [
+        "Oui, beaucoup",
+        "Non, aucune doctrine n'est touchée",
+        "On ne sait pas"
+      ],
+      "reponse": 1,
+      "explication": "Les milliers de manuscrits permettent de retrouver le texte avec une grande précision.",
+      "section": "4"
     },
     {
-     "texte": "Pierre explique comment : ce n'est pas par une volonté d'homme qu'une prophétie a jamais été apportée, mais c'est poussés par le Saint-Esprit que des hommes ont parlé de la part de Dieu. Dieu n'a pas transformé les auteurs en machines. Luc écrit comme un médecin qui fait une enquête, Paul comme un docteur de la loi, Amos comme un berger. Dieu a utilisé leur personnalité, leur style et leur expérience, et il les a conduits de telle manière que ce qu'ils ont écrit est exactement ce qu'il voulait dire."
+      "question": "Qu'est-ce qui a le dernier mot quand une coutume contredit la Bible ?",
+      "choix": [
+        "La coutume des ancêtres",
+        "La Parole de Dieu",
+        "Le chef du village"
+      ],
+      "reponse": 1,
+      "explication": "(Marc 7:13)",
+      "section": "6"
     },
     {
-     "verset": "2 P 1:20-21"
+      "question": "Pourquoi Dieu a-t-il voulu que sa Parole soit écrite ?",
+      "choix": [
+        "Parce que les gens ne savaient pas parler",
+        "Pour qu'elle reste la même d'une génération à l'autre et serve de référence fixe",
+        "Pour la cacher"
+      ],
+      "reponse": 1,
+      "explication": "Exode 24:4 ; Deutéronome 31:24-26.",
+      "section": "7"
+    },
+    {
+      "question": "Qu'a fait Dieu après que le roi Jojakim a brûlé le rouleau ?",
+      "choix": [
+        "Il a abandonné son message",
+        "Il a fait écrire un nouveau rouleau, avec encore d'autres paroles",
+        "Il a puni Baruc"
+      ],
+      "reponse": 1,
+      "explication": "Jérémie 36:28-32.",
+      "section": "8"
+    },
+    {
+      "question": "Que faisaient les Lévites pendant la lecture d'Esdras ?",
+      "choix": [
+        "Ils chantaient",
+        "Ils expliquaient la loi et en donnaient le sens pour faire comprendre",
+        "Ils gardaient les portes"
+      ],
+      "reponse": 1,
+      "explication": "Néhémie 8:8.",
+      "section": "9"
+    },
+    {
+      "question": "Qu'est-ce qui a coûté la vie à William Tyndale ?",
+      "choix": [
+        "Une guerre",
+        "Sa traduction du Nouveau Testament en anglais pour le peuple",
+        "Un accident"
+      ],
+      "reponse": 1,
+      "explication": "Exécuté en 1536 pour avoir traduit la Bible.",
+      "section": "10"
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "Comment les livres ont été rassemblés",
-   "references": [
-    "Lc 24:44",
-    "2 P 3:15-16",
-    "Ga 1:8"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "L'Ancien Testament"
-    },
-    {
-     "texte": "Au temps de Jésus, les Juifs avaient déjà les Écritures, réparties en trois parties : la Loi de Moïse, les Prophètes et les Écrits, dont les Psaumes. Jésus a confirmé cette collection en disant qu'il fallait que s'accomplisse tout ce qui est écrit de lui dans la loi de Moïse, dans les prophètes et dans les psaumes. L'Ancien Testament de nos Bibles protestantes contient exactement ces livres."
-    },
-    {
-     "verset": "Lc 24:44"
-    },
-    {
-     "sous_titre": "Le Nouveau Testament"
-    },
-    {
-     "texte": "Les évangiles et les lettres ont été écrits au premier siècle par les apôtres ou leurs proches collaborateurs. Ils ont circulé tout de suite dans les églises. Pierre parle déjà des lettres de Paul comme faisant partie des Écritures. L'Église n'a pas fabriqué la liste des livres : elle a reconnu ceux qui venaient des apôtres, qui étaient fidèles à l'enseignement de Jésus, et que les églises utilisaient partout. Les vingt-sept livres du Nouveau Testament sont cités ensemble dans une lettre de l'évêque Athanase d'Alexandrie, en Égypte, en l'an 367."
-    },
-    {
-     "verset": "2 P 3:15-16"
-    },
-    {
-     "sous_titre": "Et les évangiles « cachés » ?"
-    },
-    {
-     "texte": "On entend parfois parler d'évangiles cachés : l'évangile de Thomas, de Judas, de Barnabé. Ces textes ont été écrits plus tard, à partir du deuxième siècle et parfois bien après, par des groupes qui voulaient faire passer leurs propres idées sous le nom d'un apôtre. L'évangile dit « de Barnabé », que certains citent parfois, n'a même été écrit qu'à la fin du Moyen Âge, plus de mille ans après Jésus. Paul l'avait annoncé : quand un ange du ciel annoncerait un autre Évangile, qu'il soit anathème."
-    },
-    {
-     "verset": "Ga 1:8"
-    }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "Le texte a-t-il été changé ?",
-   "references": [
-    "Es 40:8",
-    "Mt 24:35",
-    "Ps 119:89"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Les manuscrits de la mer Morte"
-    },
-    {
-     "texte": "En 1947, des bergers ont découvert, dans des grottes près de la mer Morte, des rouleaux très anciens. Parmi eux, un rouleau complet du livre d'Ésaïe, copié environ un siècle et demi avant Jésus-Christ. Avant cette découverte, les plus anciens manuscrits hébreux complets d'Ésaïe dataient d'environ mille ans plus tard. Quand on a comparé les deux, le texte était pratiquement identique. Les différences concernaient surtout l'orthographe. Pendant mille ans de copies à la main, le message n'avait pas changé."
-    },
-    {
-     "sous_titre": "Des milliers de manuscrits du Nouveau Testament"
-    },
-    {
-     "texte": "Pour le Nouveau Testament, nous avons plus de cinq mille huit cents manuscrits grecs, complets ou partiels, plus des milliers en latin, en syriaque, en copte et en d'autres langues. Le plus ancien fragment connu, un morceau de l'évangile de Jean, date de la première moitié du deuxième siècle. Nous avons des Bibles complètes du quatrième siècle, comme le Codex Sinaïticus. Aucun autre livre de l'Antiquité n'est aussi bien attesté. Pour les écrits de grands auteurs grecs ou romains, on n'a parfois que quelques dizaines de copies, écrites des siècles après eux."
-    },
-    {
-     "sous_titre": "Que montrent les différences ?"
-    },
-    {
-     "texte": "En comparant les manuscrits, les spécialistes trouvent des différences : une lettre oubliée, un mot inversé, une ligne recopiée deux fois. Comme ils ont des milliers de copies venues de régions différentes, ils peuvent retrouver le texte d'origine avec une très grande précision. Aucune de ces variantes ne change une seule doctrine chrétienne : la divinité de Jésus, sa mort pour nos péchés, sa résurrection, le salut par la foi sont présents partout."
-    },
-    {
-     "sous_titre": "Quand aurait-on falsifié la Bible ?"
-    },
-    {
-     "texte": "Si quelqu'un dit que la Bible a été falsifiée, demande-lui : quand ? Avant Jésus ? Mais Jésus a appelé ces textes Écriture et a dit qu'ils ne pouvaient être anéantis (Jean 10:35). Après Jésus ? Mais nous avons des manuscrits de toutes les époques, venus de pays différents, en langues différentes, et ils disent la même chose. Personne n'aurait pu rassembler toutes les copies du monde pour les modifier de la même manière. Et surtout : est-ce que Dieu est incapable de protéger sa Parole ? L'herbe sèche, la fleur tombe ; mais la parole de notre Dieu subsiste éternellement."
-    },
-    {
-     "verset": "Es 40:8"
-    },
-    {
-     "sous_titre": "Les traductions"
-    },
-    {
-     "texte": "La Bible a été traduite dans des milliers de langues. La version Louis Segond, utilisée dans Yeshaya, a été traduite de l'hébreu et du grec par le pasteur suisse Louis Segond, et révisée en 1910. Une traduction n'est pas une nouvelle Bible : c'est le même texte rendu dans une autre langue. Il est bon de comparer plusieurs traductions sérieuses, mais il faut se méfier des « bibles » publiées par des groupes qui modifient les versets pour soutenir leur doctrine."
-    }
-   ]
-  },
-  {
-   "numero": "5",
-   "titre": "Des preuves qui confirment",
-   "references": [
-    "Mi 5:1",
-    "Ps 22:17-19",
-    "Es 53:5",
-    "Lc 1:1-4"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Des prophéties accomplies"
-    },
-    {
-     "texte": "Plus de sept cents ans avant Jésus, Michée annonce que le Messie naîtra à Bethléhem. Le psaume 22, écrit par David des siècles avant que la crucifixion soit inventée, décrit des mains et des pieds percés et des soldats qui tirent au sort la tunique. Ésaïe 53 décrit un serviteur blessé pour nos péchés, mis au rang des malfaiteurs et enseveli avec le riche. Aucun homme ne peut écrire l'histoire à l'avance."
-    },
-    {
-     "verset": "Mi 5:1"
-    },
-    {
-     "verset": "Ps 22:17-19"
-    },
-    {
-     "sous_titre": "L'archéologie"
-    },
-    {
-     "texte": "Pendant longtemps, des critiques disaient que le roi David n'avait jamais existé. En 1993, on a découvert en Israël une inscription du neuvième siècle avant Jésus-Christ qui parle de la « maison de David ». On doutait que Ponce Pilate ait existé : en 1961, on a trouvé à Césarée une pierre portant son nom et son titre. La piscine de Siloé, où Jésus a guéri l'aveugle-né, a été mise au jour en 2004 à Jérusalem. L'archéologie ne prouve pas la foi, mais elle montre que la Bible parle de lieux, de personnes et d'événements réels."
-    },
-    {
-     "sous_titre": "Des témoins"
-    },
-    {
-     "texte": "Luc commence son évangile en disant qu'il a fait des recherches exactes depuis l'origine, à partir de ceux qui ont été des témoins oculaires. Les apôtres n'ont pas raconté des légendes : ils sont morts pour témoigner de ce qu'ils avaient vu. On ne meurt pas pour un mensonge qu'on a soi-même inventé."
-    },
-    {
-     "verset": "Lc 1:1-4"
-    }
-   ]
-  },
-  {
-   "numero": "6",
-   "titre": "La Parole de Dieu dans ma vie",
-   "references": [
-    "Mt 5:18",
-    "Mc 7:13",
-    "Jn 17:17",
-    "Ps 119:105"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Jésus et l'Écriture"
-    },
-    {
-     "texte": "Jésus a dit : tant que le ciel et la terre ne passeront point, il ne disparaîtra pas de la loi un seul iota ou un seul trait de lettre. Le disciple de Jésus a la même confiance en l'Écriture que son Maître. On ne peut pas dire qu'on suit Jésus et rejeter la Bible qu'il a confirmée."
-    },
-    {
-     "verset": "Mt 5:18"
-    },
-    {
-     "sous_titre": "Au-dessus des traditions"
-    },
-    {
-     "texte": "Jésus a reproché aux religieux d'annuler la parole de Dieu par leur tradition. La Bible est au-dessus de la tradition de nos ancêtres, de la coutume du village, des habitudes de notre dénomination, des révélations de nos prophètes et même de nos sentiments. Quand une coutume contredit la Bible, c'est la Bible qui gagne."
-    },
-    {
-     "verset": "Mc 7:13"
-    },
-    {
-     "sous_titre": "La vérité qui sanctifie"
-    },
-    {
-     "texte": "Jésus a prié pour ses disciples : sanctifie-les par ta vérité : ta parole est la vérité. La Bible n'a pas été donnée pour remplir notre tête, mais pour transformer notre vie."
-    },
-    {
-     "verset": "Jn 17:17"
-    },
-    {
-     "sous_titre": "Une lampe à mes pieds"
-    },
-    {
-     "texte": "Le psalmiste dit : ta parole est une lampe à mes pieds, et une lumière sur mon sentier. Une lampe ne sert à rien si on la laisse éteinte dans un tiroir. Lis la Bible chaque jour, en entier, livre après livre. Pose des questions, compare les passages, demande au Saint-Esprit de t'éclairer, et obéis à ce que tu comprends."
-    },
-    {
-     "verset": "Ps 119:105"
-    }
-   ]
-  },
-  {
-   "numero": "7",
-   "titre": "Conclusion",
-   "references": [
-    "Mt 24:35"
-   ],
-   "blocs": [
-    {
-     "texte": "La Bible n'est pas un livre de Blancs, ni un livre d'hommes, ni un livre falsifié. C'est la Parole que Dieu a soufflée par des hommes qu'il a choisis, qu'il a préservée à travers les siècles, et qu'il te met aujourd'hui entre les mains. Jésus a dit : le ciel et la terre passeront, mais mes paroles ne passeront point. Bâtis ta vie sur ce qui ne passera jamais."
-    },
-    {
-     "verset": "Mt 24:35"
-    }
-   ]
-  }
- ],
- "questions": [
-  {
-   "question": "Combien de livres contient la Bible protestante ?",
-   "choix": [
-    "27",
-    "66",
-    "73"
-   ],
-   "reponse": 1,
-   "explication": "39 dans l'Ancien Testament et 27 dans le Nouveau.",
-   "section": "1"
-  },
-  {
-   "question": "Que veut dire « inspirée de Dieu » en 2 Timothée 3:16 ?",
-   "choix": [
-    "Que les auteurs étaient très intelligents",
-    "Que l'Écriture est soufflée par Dieu",
-    "Que la Bible inspire les gens"
-   ],
-   "reponse": 1,
-   "explication": "(2 Timothée 3:16)",
-   "section": "2"
-  },
-  {
-   "question": "Qu'a montré la découverte des manuscrits de la mer Morte ?",
-   "choix": [
-    "Que la Bible avait été beaucoup changée",
-    "Que le texte d'Ésaïe était pratiquement identique après mille ans de copies",
-    "Que les manuscrits étaient faux"
-   ],
-   "reponse": 1,
-   "explication": "Les différences concernaient surtout l'orthographe.",
-   "section": "4"
-  },
-  {
-   "question": "Les variantes entre les manuscrits changent-elles une doctrine chrétienne ?",
-   "choix": [
-    "Oui, beaucoup",
-    "Non, aucune doctrine n'est touchée",
-    "On ne sait pas"
-   ],
-   "reponse": 1,
-   "explication": "Les milliers de manuscrits permettent de retrouver le texte avec une grande précision.",
-   "section": "4"
-  },
-  {
-   "question": "Qu'est-ce qui a le dernier mot quand une coutume contredit la Bible ?",
-   "choix": [
-    "La coutume des ancêtres",
-    "La Parole de Dieu",
-    "Le chef du village"
-   ],
-   "reponse": 1,
-   "explication": "(Marc 7:13)",
-   "section": "6"
-  }
- ],
- "devoir": [
-  "Lis Luc 1:1-4 et 2 Pierre 1:16-21. Écris en tes mots pourquoi on peut faire confiance aux témoins de la Bible.",
-  "Prépare une réponse courte et respectueuse à la question : « La Bible a été falsifiée, non ? »",
-  "Commence un plan de lecture pour lire toute la Bible (onglet Bible, Plan de lecture)."
- ],
- "prieres_liees": [
-  "theme:priere-aimer-la-parole"
- ],
- "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-14",
- "relu": false
+  ],
+  "devoir": [
+    "Lis Luc 1:1-4 et 2 Pierre 1:16-21. Écris en tes mots pourquoi on peut faire confiance aux témoins de la Bible.",
+    "Prépare une réponse courte et respectueuse à la question : « La Bible a été falsifiée, non ? »",
+    "Commence un plan de lecture pour lire toute la Bible (onglet Bible, Plan de lecture)."
+  ],
+  "prieres_liees": [
+    "theme:priere-aimer-la-parole"
+  ],
+  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-14",
+  "relu": false
 }
