@@ -1,0 +1,633 @@
+{
+ "id": "bible-04-le-canon",
+ "titre": "Le canon : comment les livres de la Bible ont été reconnus",
+ "serie": "Connaître la Bible",
+ "theme": "Bible",
+ "auteur": "Yeshaya",
+ "resume": "Qui a décidé quels livres font partie de la Bible ? Comment l'Ancien Testament a été reçu au temps de Jésus, d'où viennent les livres appelés apocryphes ou deutérocanoniques, comment les 27 livres du Nouveau Testament ont été reconnus, et pourquoi le concile de Nicée n'a rien choisi du tout.",
+ "image": "/assets/etude-biblique/manuscrit.webp",
+ "verset_de_base": "Lc 24:27",
+ "lecture_minutes": 30,
+ "objectifs": [
+  "Comprendre ce que veut dire le mot « canon ».",
+  "Savoir comment l'Ancien Testament était reçu au temps de Jésus.",
+  "Comprendre la question des livres deutérocanoniques.",
+  "Connaître les critères et les étapes de la reconnaissance du Nouveau Testament.",
+  "Répondre à l'idée que l'empereur Constantin ou le concile de Nicée auraient choisi les livres."
+ ],
+ "introduction": "Un jour, quelqu'un te dira peut-être : « Ta Bible, ce sont des évêques qui ont choisi les livres qui les arrangeaient, et qui ont caché les autres. » Ou bien : « Pourquoi la Bible catholique a-t-elle plus de livres que la tienne ? » Ou encore : « Et l'évangile de Thomas, pourquoi n'est-il pas dans la Bible ? »\n\nCes questions sont légitimes. La réponse se trouve dans l'histoire de ce qu'on appelle le canon de la Bible. Dans cet enseignement, nous allons voir comment les livres de la Bible ont été reçus et reconnus, et pourquoi on peut avoir confiance dans la liste des livres que nous avons entre les mains. Nous verrons aussi que plusieurs étapes importantes de cette histoire se sont passées en Afrique.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Que veut dire « canon » ?",
+   "references": [
+    "Ga 6:16",
+    "2 Tm 3:16"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Une règle"
+    },
+    {
+     "texte": "Le mot « canon » vient d'un mot grec qui désignait un roseau droit, utilisé comme règle pour mesurer. Paul l'utilise dans le sens de règle de vie : sur tous ceux qui suivront cette règle, paix et miséricorde (Galates 6:16). Quand on parle du canon des Écritures, on parle de la liste des livres reconnus comme la règle de la foi et de la vie, parce qu'ils sont inspirés de Dieu."
+    },
+    {
+     "sous_titre": "Reconnaître, pas fabriquer"
+    },
+    {
+     "texte": "Il faut bien comprendre une chose dès le départ. Ce n'est pas l'Église qui a rendu les livres inspirés en les mettant sur une liste. Un livre est inspiré parce que Dieu l'a inspiré au moment où il a été écrit. L'Église a seulement reconnu ce que Dieu avait fait. C'est comme l'or : ce n'est pas le bijoutier qui fait que l'or est de l'or ; il reconnaît l'or, il le distingue du cuivre, il le pèse et le certifie."
+    },
+    {
+     "sous_titre": "Les brebis reconnaissent la voix"
+    },
+    {
+     "texte": "Jésus a dit : mes brebis entendent ma voix (Jean 10:27). Les premiers chrétiens ont reconnu dans certains écrits la voix de leur Berger, et ils ont refusé d'autres écrits qui ne la portaient pas. Ce processus a pris du temps, mais il n'a pas été arbitraire."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "L'Ancien Testament au temps de Jésus",
+   "references": [
+    "Lc 24:44",
+    "Mt 23:35",
+    "Rm 3:1-2"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Les Écritures que Jésus lisait"
+    },
+    {
+     "texte": "Au temps de Jésus, les Juifs avaient une collection de livres sacrés, qu'ils appelaient simplement « les Écritures ». Ils les divisaient en trois parties : la Loi, les Prophètes et les Écrits. Jésus fait allusion à cette division quand il parle de la loi de Moïse, des prophètes et des psaumes."
+    },
+    {
+     "sous_titre": "Un indice dans une parole de Jésus"
+    },
+    {
+     "verset": "Mt 23:35"
+    },
+    {
+     "texte": "Jésus a dit aux chefs religieux qu'ils seraient tenus responsables de tout le sang innocent répandu, depuis le sang d'Abel le juste jusqu'au sang de Zacharie, fils de Barachie. Abel est le premier martyr de la Genèse. Zacharie est mentionné dans le livre des Chroniques, qui était le dernier livre de la Bible hébraïque dans l'ordre juif. Jésus parle donc « du premier au dernier livre », un peu comme nous dirions « de la Genèse à Malachie ». Il confirme ainsi l'ensemble des Écritures hébraïques de son temps."
+    },
+    {
+     "sous_titre": "Les oracles confiés aux Juifs"
+    },
+    {
+     "texte": "Paul dit que l'avantage des Juifs, c'est que les oracles de Dieu leur ont été confiés (Romains 3:2). Le peuple juif a été le gardien de l'Ancien Testament. Le contenu de la Bible hébraïque est exactement celui des 39 livres de l'Ancien Testament de nos Bibles protestantes. Les Juifs les comptent comme 24 livres, parce qu'ils regroupent certains livres : par exemple, les douze petits prophètes forment un seul rouleau, et Samuel, les Rois et les Chroniques ne sont pas divisés en deux."
+    },
+    {
+     "sous_titre": "Le témoignage de Josèphe"
+    },
+    {
+     "texte": "L'historien juif Flavius Josèphe, qui écrivait vers la fin du premier siècle après Jésus-Christ, explique que les Juifs n'ont pas une multitude de livres qui se contredisent, mais un nombre limité de livres sacrés, considérés comme divins, et que depuis l'époque du roi perse Artaxerxès, plus aucun livre n'a été considéré comme ayant la même autorité, parce que la succession des prophètes s'était interrompue. Cela correspond au silence prophétique d'environ quatre cents ans entre Malachie et Jean-Baptiste."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Les livres deutérocanoniques ou apocryphes",
+   "references": [
+    "1 Co 4:6",
+    "Ap 22:18-19"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "De quoi s'agit-il ?"
+    },
+    {
+     "texte": "Les Bibles catholiques et orthodoxes contiennent des livres en plus : Tobie, Judith, les deux livres des Maccabées, la Sagesse, le Siracide (ou Ecclésiastique), Baruch, et des additions aux livres d'Esther et de Daniel. Les catholiques les appellent « deutérocanoniques », c'est-à-dire entrés dans le canon en second. Les protestants les appellent souvent « apocryphes »."
+    },
+    {
+     "sous_titre": "D'où viennent-ils ?"
+    },
+    {
+     "texte": "Ces livres ont été écrits par des Juifs, pour la plupart entre le troisième et le premier siècle avant Jésus-Christ, donc après la période des prophètes. Ils ne faisaient pas partie de la Bible hébraïque. Ils se trouvaient dans certaines copies de la traduction grecque de l'Ancien Testament, appelée la Septante, utilisée par les Juifs qui parlaient grec, notamment à Alexandrie en Égypte."
+    },
+    {
+     "sous_titre": "Ce qu'en pensaient les anciens"
+    },
+    {
+     "texte": "Jésus et les apôtres citent abondamment l'Ancien Testament, mais ils ne citent jamais ces livres comme Écriture. Au quatrième siècle, Jérôme, le grand savant qui traduisit la Bible en latin, distinguait clairement ces livres des livres de la Bible hébraïque : on pouvait les lire pour l'édification, mais pas pour fonder la doctrine. D'autres, comme Augustin, les acceptaient davantage. La question est donc restée discutée pendant des siècles."
+    },
+    {
+     "sous_titre": "La position catholique et la position protestante"
+    },
+    {
+     "texte": "Au seizième siècle, les réformateurs protestants, comme Luther, sont revenus à la Bible hébraïque pour l'Ancien Testament, tout en disant que ces livres pouvaient être lus avec profit. Luther les a d'ailleurs placés dans sa traduction, entre les deux Testaments, avec une note expliquant qu'ils n'étaient pas égaux aux Écritures. En réaction, le concile catholique de Trente, en 1546, a déclaré ces livres canoniques."
+    },
+    {
+     "sous_titre": "Comment en parler avec respect"
+    },
+    {
+     "texte": "Cette différence ne touche pas le cœur de l'Évangile : la divinité de Jésus, sa mort et sa résurrection sont enseignées de la même manière dans toutes ces Bibles. Mais certains enseignements, comme la prière pour les morts, s'appuient sur ces livres (par exemple 2 Maccabées 12). C'est pourquoi les protestants préfèrent ne fonder aucune doctrine sur eux. Avec un ami catholique, parle avec respect : c'est une vraie question d'histoire, pas une raison de mépris."
+    }
+   ]
+  },
+  {
+   "numero": "4",
+   "titre": "Les premiers écrits chrétiens",
+   "references": [
+    "2 P 3:15-16",
+    "Col 4:16",
+    "1 Th 5:27"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Écrits très tôt"
+    },
+    {
+     "texte": "Les livres du Nouveau Testament ont été écrits au premier siècle. Les premières lettres de Paul, comme celles aux Thessaloniciens et aux Galates, datent d'environ vingt ans après la mort de Jésus. Les évangiles ont été écrits dans les décennies suivantes, quand beaucoup de témoins étaient encore vivants."
+    },
+    {
+     "sous_titre": "Lus dans les églises"
+    },
+    {
+     "verset": "Col 4:16"
+    },
+    {
+     "texte": "Dès le début, ces écrits étaient lus publiquement dans les églises et circulaient d'une église à l'autre. Paul demande aux Colossiens de faire lire sa lettre dans l'église de Laodicée, et aux Thessaloniciens de lire sa lettre à tous les frères (1 Thessaloniciens 5:27). Les églises copiaient les lettres reçues et les échangeaient."
+    },
+    {
+     "sous_titre": "Reconnus comme Écriture dès le premier siècle"
+    },
+    {
+     "texte": "Nous avons vu que Pierre range les lettres de Paul avec les autres Écritures (2 Pierre 3:15-16), et que Paul cite une parole de l'évangile de Luc comme Écriture (1 Timothée 5:18). La reconnaissance de ces livres n'a pas attendu des conciles des siècles plus tard : elle a commencé tout de suite."
+    },
+    {
+     "sous_titre": "Les Pères de l'Église"
+    },
+    {
+     "texte": "À la fin du premier siècle et au début du deuxième, des responsables chrétiens comme Clément de Rome, Ignace d'Antioche et Polycarpe de Smyrne écrivent des lettres qui citent ou utilisent déjà de nombreux livres du Nouveau Testament : les évangiles, les lettres de Paul, la première lettre de Pierre. Polycarpe avait été, selon la tradition, un disciple de l'apôtre Jean."
+    }
+   ]
+  },
+  {
+   "numero": "5",
+   "titre": "Les critères de reconnaissance",
+   "references": [
+    "Ga 1:8-9",
+    "1 Jn 4:1-3",
+    "Ép 2:20"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "L'origine apostolique"
+    },
+    {
+     "texte": "Le premier critère était l'origine apostolique : le livre avait-il été écrit par un apôtre, comme Matthieu, Jean, Pierre ou Paul, ou par un proche collaborateur des apôtres, comme Marc, qui accompagnait Pierre, et Luc, qui accompagnait Paul ? L'Église est bâtie sur le fondement des apôtres et des prophètes (Éphésiens 2:20)."
+    },
+    {
+     "sous_titre": "La conformité à la foi"
+    },
+    {
+     "texte": "Le deuxième critère était la conformité à la règle de la foi, c'est-à-dire à l'enseignement reçu des apôtres sur Dieu, sur Jésus et sur le salut. Un écrit qui niait que Jésus était venu en chair, ou qui enseignait un autre Évangile, était rejeté, selon l'avertissement de Paul et de Jean."
+    },
+    {
+     "sous_titre": "L'ancienneté"
+    },
+    {
+     "texte": "Le troisième critère était l'ancienneté. Un livre écrit cent ou deux cents ans après Jésus ne pouvait pas venir des apôtres."
+    },
+    {
+     "sous_titre": "L'usage dans toutes les églises"
+    },
+    {
+     "texte": "Le quatrième critère était l'usage général : le livre était-il lu et reçu par les églises un peu partout, à Rome, en Asie, en Égypte, en Afrique du Nord, et pas seulement par un petit groupe ? Ce qui était reçu partout depuis le début avait de bonnes chances d'être authentique."
+    },
+    {
+     "sous_titre": "Le témoignage de l'Esprit"
+    },
+    {
+     "texte": "Enfin, derrière ces critères humains, il y avait l'œuvre du Saint-Esprit dans l'Église : les chrétiens reconnaissaient dans ces livres la voix de leur Seigneur."
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Marcion et les premiers débats",
+   "references": [
+    "1 Jn 4:1",
+    "Ac 20:29-30"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Un homme qui coupait la Bible"
+    },
+    {
+     "texte": "Vers l'an 140, un homme nommé Marcion, fils d'un évêque de la mer Noire, est venu à Rome avec un enseignement étrange. Il disait que le Dieu de l'Ancien Testament était un dieu inférieur et méchant, différent du Père de Jésus. Il rejetait donc tout l'Ancien Testament. Pour le Nouveau, il ne gardait qu'une version raccourcie de l'évangile de Luc et dix lettres de Paul, dont il enlevait les passages qui le dérangeaient."
+    },
+    {
+     "sous_titre": "Une réaction de l'Église"
+    },
+    {
+     "texte": "L'Église a condamné Marcion. Mais son erreur a eu une conséquence utile : elle a poussé les chrétiens à dire clairement quels livres ils recevaient comme Écriture. Paul avait averti les anciens d'Éphèse que des loups cruels viendraient, et que des hommes se lèveraient du milieu d'eux pour enseigner des choses pernicieuses (Actes 20:29-30). Les fausses doctrines ont souvent obligé l'Église à préciser sa foi."
+    },
+    {
+     "sous_titre": "Les gnostiques"
+    },
+    {
+     "texte": "Au deuxième siècle, d'autres groupes appelés gnostiques ont produit leurs propres « évangiles », attribués à des apôtres : un évangile de Thomas, de Philippe, de Judas, de Marie. Ils enseignaient que le salut vient d'une connaissance secrète, et que le corps et la matière sont mauvais. Les chrétiens les ont rejetés parce qu'ils étaient tardifs, qu'ils ne venaient pas des apôtres, et qu'ils contredisaient la foi reçue. Un autre enseignement de cette série parle davantage de ces textes."
+    },
+    {
+     "sous_titre": "Les Marcion d'aujourd'hui"
+    },
+    {
+     "texte": "L'erreur de Marcion n'a pas disparu. On entend encore des chrétiens dire : l'Ancien Testament, c'est pour les Juifs, nous n'en avons pas besoin ; ou : le Dieu de l'Ancien Testament est dur, celui de Jésus est doux. D'autres coupent dans la Bible ce qui les dérange : les passages sur le jugement, sur la sexualité, sur l'argent, sur la repentance. C'est une manière moderne de faire comme Marcion : se fabriquer une Bible à sa mesure. Le chrétien fidèle reçoit toute l'Écriture, même les passages qui le corrigent. C'est justement là que Dieu le fait grandir."
+    }
+   ]
+  },
+  {
+   "numero": "7",
+   "titre": "Les quatre évangiles",
+   "references": [
+    "Lc 1:1-4",
+    "Jn 20:30-31"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Irénée de Lyon"
+    },
+    {
+     "texte": "Vers l'an 180, Irénée, évêque de Lyon, qui avait connu dans sa jeunesse Polycarpe, le disciple de Jean, a écrit un grand ouvrage contre les fausses doctrines. Il y affirme que l'Église reçoit quatre évangiles, ni plus ni moins : Matthieu, Marc, Luc et Jean. Pour lui, c'était déjà une évidence dans les églises de son temps. Il compare ces quatre évangiles aux quatre vents ou aux quatre coins du monde."
+    },
+    {
+     "sous_titre": "Le fragment de Muratori"
+    },
+    {
+     "texte": "On a découvert au dix-huitième siècle, dans une bibliothèque de Milan, une copie ancienne d'une liste de livres, appelée le fragment de Muratori, du nom de son découvreur. La plupart des savants la datent de la fin du deuxième siècle, d'autres un peu plus tard. Le début manque, mais on y trouve Luc comme troisième évangile, puis Jean, les Actes, treize lettres de Paul, Jude, des lettres de Jean, et l'Apocalypse. La liste rejette aussi des écrits de Marcion."
+    },
+    {
+     "sous_titre": "Pourquoi quatre récits ?"
+    },
+    {
+     "texte": "Certains disent : s'il y a quatre évangiles, c'est qu'on ne savait pas lequel était le bon. Au contraire. Dès le deuxième siècle, l'Église a reçu ces quatre témoignages ensemble, parce qu'ils venaient tous des apôtres ou de leur entourage, et qu'ils présentaient le même Jésus sous quatre angles. Quatre témoins indépendants qui racontent la même histoire avec des détails différents donnent un témoignage plus solide qu'un seul."
+    }
+   ]
+  },
+  {
+   "numero": "8",
+   "titre": "Les livres longtemps discutés",
+   "references": [
+    "Hé 1:1-2",
+    "Ap 1:1-3"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Des livres reçus partout, d'autres discutés"
+    },
+    {
+     "texte": "Au troisième siècle, la grande majorité du Nouveau Testament était reçue partout : les quatre évangiles, les Actes, les treize lettres de Paul, la première lettre de Pierre et la première lettre de Jean. Quelques livres ont été discutés plus longtemps dans certaines régions : l'épître aux Hébreux, parce que son auteur n'est pas nommé ; Jacques ; la deuxième lettre de Pierre ; les deux petites lettres de Jean ; Jude ; et l'Apocalypse."
+    },
+    {
+     "sous_titre": "Pourquoi c'est rassurant"
+    },
+    {
+     "texte": "On pourrait penser que ces débats affaiblissent la confiance. C'est le contraire : ils montrent que les chrétiens n'acceptaient pas n'importe quoi. Ils examinaient avec soin l'origine et le contenu des livres. Les livres discutés ont fini par être reçus parce qu'ils ont passé cet examen ; d'autres écrits, populaires dans certaines églises, comme le Pasteur d'Hermas ou l'épître de Barnabé, ont été lus avec respect mais n'ont pas été reconnus comme Écriture."
+    }
+   ]
+  },
+  {
+   "numero": "9",
+   "titre": "Athanase, Hippone et Carthage : l'Afrique au cœur de l'histoire",
+   "references": [
+    "Ac 8:26-39",
+    "Ac 13:1"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La lettre d'Athanase"
+    },
+    {
+     "texte": "En l'an 367, Athanase, évêque d'Alexandrie en Égypte, envoie chaque année aux églises une lettre pour annoncer la date de Pâques. Dans sa trente-neuvième lettre, il donne la liste des livres de l'Écriture. Pour le Nouveau Testament, il cite exactement les vingt-sept livres de nos Bibles. Il ajoute : ce sont les sources du salut ; que personne n'y ajoute, et que personne n'en retranche rien."
+    },
+    {
+     "sous_titre": "Les synodes africains"
+    },
+    {
+     "texte": "Quelques années plus tard, des synodes, c'est-à-dire des réunions d'évêques, se sont tenus en Afrique du Nord : à Hippone, la ville de l'évêque Augustin, en 393, puis à Carthage, en 397. Ils ont confirmé la même liste de vingt-sept livres pour le Nouveau Testament. Ces réunions n'ont pas inventé le canon : elles ont mis par écrit ce que les églises recevaient déjà."
+    },
+    {
+     "sous_titre": "Une fierté pour l'Afrique"
+    },
+    {
+     "texte": "On présente parfois le christianisme comme une religion européenne apportée en Afrique au dix-neuvième siècle. L'histoire du canon montre le contraire. Des Africains comme Athanase d'Égypte et Augustin d'Afrique du Nord ont joué un rôle majeur dans la reconnaissance et la défense de la Bible, des siècles avant que beaucoup de peuples d'Europe deviennent chrétiens."
+    }
+   ]
+  },
+  {
+   "numero": "10",
+   "titre": "Le concile de Nicée et Constantin",
+   "references": [
+    "Ga 1:11-12",
+    "2 P 1:16"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Un mythe très répandu"
+    },
+    {
+     "texte": "On entend souvent dire que l'empereur romain Constantin, au concile de Nicée en 325, aurait choisi les livres de la Bible et fait brûler les autres. Cette idée a été popularisée notamment par un roman à succès du début des années 2000, puis par des vidéos sur internet. Elle est fausse."
+    },
+    {
+     "sous_titre": "Ce qui s'est réellement passé à Nicée"
+    },
+    {
+     "texte": "Le concile de Nicée, réuni en 325 à l'initiative de Constantin, a traité surtout d'une question : la divinité de Jésus, contestée par un prêtre d'Alexandrie nommé Arius, qui disait que le Fils était une créature. Les évêques ont affirmé que le Fils est de même nature que le Père. Le concile a aussi parlé de la date de Pâques et de questions d'organisation. Mais les documents qui nous restent de ce concile ne parlent pas d'une liste des livres de la Bible. Les évangiles étaient reçus depuis bien longtemps."
+    },
+    {
+     "sous_titre": "Pourquoi ce mythe persiste"
+    },
+    {
+     "texte": "Ce mythe plaît à ceux qui veulent dire que la Bible est une invention politique. Mais il ne résiste pas à l'histoire : bien avant Constantin, Irénée, le fragment de Muratori, Origène et d'autres témoignent des mêmes évangiles et des mêmes lettres. Et après Nicée, la liste d'Athanase n'est publiée que quarante ans plus tard, sans aucun décret impérial."
+    }
+   ]
+  },
+  {
+   "numero": "11",
+   "titre": "La Septante, une traduction née en Afrique",
+   "references": [
+    "Ac 15:21",
+    "2 Tm 4:13"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Des Juifs qui ne parlaient plus hébreu"
+    },
+    {
+     "texte": "Après les conquêtes d'Alexandre le Grand, au quatrième siècle avant Jésus-Christ, le grec est devenu la langue commune de tout l'est de la Méditerranée. Beaucoup de Juifs vivaient hors du pays d'Israël, notamment à Alexandrie, en Égypte, une ville immense qui comptait une très grande communauté juive. Leurs enfants parlaient grec et comprenaient de moins en moins l'hébreu."
+    },
+    {
+     "sous_titre": "Une traduction en grec"
+    },
+    {
+     "texte": "À partir du troisième siècle avant Jésus-Christ, les Juifs d'Alexandrie ont traduit les Écritures hébraïques en grec, en commençant par les cinq livres de Moïse. Une ancienne tradition raconte que soixante-dix ou soixante-douze savants y auraient travaillé, d'où son nom : la Septante, qui veut dire soixante-dix. Les détails de cette histoire sont légendaires, mais la traduction, elle, est bien réelle, et elle a été achevée au cours des siècles suivants."
+    },
+    {
+     "sous_titre": "La Bible des premiers chrétiens"
+    },
+    {
+     "texte": "Quand l'Évangile s'est répandu dans le monde grec, la Septante est devenue la Bible des premiers chrétiens qui ne lisaient pas l'hébreu. Beaucoup de citations de l'Ancien Testament dans le Nouveau suivent cette traduction grecque. Jacques dit au concile de Jérusalem que depuis bien des générations Moïse a dans chaque ville des gens qui le prêchent, puisqu'on le lit tous les jours de sabbat dans les synagogues (Actes 15:21). Dans tout l'empire, les Écritures étaient lues et connues."
+    },
+    {
+     "sous_titre": "Les livres, surtout les parchemins"
+    },
+    {
+     "verset": "2 Tm 4:13"
+    },
+    {
+     "texte": "Même en prison, à la fin de sa vie, Paul demande à Timothée de lui apporter les livres, surtout les parchemins (2 Timothée 4:13). Les premiers chrétiens étaient un peuple du livre. Ils lisaient, copiaient et étudiaient les Écritures avec passion."
+    },
+    {
+     "sous_titre": "Pourquoi c'est important pour le canon"
+    },
+    {
+     "texte": "C'est dans certaines copies de la Septante, faites par des chrétiens des siècles plus tard, que l'on trouve les livres deutérocanoniques mêlés aux autres. Mais la présence d'un livre dans une copie ne prouve pas qu'il était considéré comme Écriture : les copistes ajoutaient parfois des écrits utiles à la lecture, un peu comme certaines Bibles d'aujourd'hui contiennent des cartes, des notes et des cantiques à la fin."
+    }
+   ]
+  },
+  {
+   "numero": "12",
+   "titre": "Comment les premiers chrétiens lisaient l'Ancien Testament",
+   "references": [
+    "Rm 15:4",
+    "1 Co 10:11",
+    "Ac 8:32-35"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Un livre chrétien"
+    },
+    {
+     "verset": "1 Co 10:11"
+    },
+    {
+     "texte": "Certains disent aujourd'hui que l'Ancien Testament est le livre des Juifs, et que les chrétiens n'ont besoin que du Nouveau. Ce n'est pas ce que pensaient les apôtres. Paul écrit : tout ce qui a été écrit d'avance l'a été pour notre instruction, afin que, par la patience, et par la consolation que donnent les Écritures, nous possédions l'espérance (Romains 15:4). Et à propos de l'histoire d'Israël au désert : ces choses leur sont arrivées pour servir d'exemples, et elles ont été écrites pour notre instruction (1 Corinthiens 10:11)."
+    },
+    {
+     "sous_titre": "La seule Bible de la première génération"
+    },
+    {
+     "texte": "Pendant les premières années de l'Église, il n'y avait pas encore de Nouveau Testament écrit. La Bible des premiers chrétiens, c'était l'Ancien Testament, lu à la lumière de Jésus. Quand Philippe rencontra l'eunuque éthiopien sur la route de Gaza, celui-ci lisait le prophète Ésaïe, et Philippe, commençant par ce passage, lui annonça la bonne nouvelle de Jésus (Actes 8:35)."
+    },
+    {
+     "sous_titre": "Une seule Bible en deux parties"
+    },
+    {
+     "texte": "C'est pourquoi l'Église a toujours rejeté ceux qui, comme Marcion, voulaient se débarrasser de l'Ancien Testament. Les deux Testaments forment une seule Bible : la promesse et l'accomplissement, l'ombre et la réalité."
+    }
+   ]
+  },
+  {
+   "numero": "13",
+   "titre": "Et la Bible de l'Église orthodoxe d'Éthiopie ?",
+   "references": [
+    "Ps 68:32",
+    "Ac 8:27"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Une très ancienne Église africaine"
+    },
+    {
+     "verset": "Ps 68:32"
+    },
+    {
+     "texte": "L'Église d'Éthiopie est l'une des plus anciennes Églises chrétiennes du monde. Le royaume d'Aksoum, dans le nord de l'Éthiopie actuelle, est devenu officiellement chrétien au quatrième siècle, sous le roi Ezana, après le ministère de Frumentius, un chrétien venu de Tyr, consacré évêque par Athanase d'Alexandrie lui-même. Bien avant cela, le livre des Actes raconte la conversion d'un haut fonctionnaire de la reine d'Éthiopie (Actes 8:27). Les chrétiens éthiopiens aiment citer le psaume : l'Éthiopie accourt, les mains tendues vers Dieu (Psaume 68:32)."
+    },
+    {
+     "sous_titre": "Un canon plus large"
+    },
+    {
+     "texte": "La Bible de l'Église orthodoxe éthiopienne comprend traditionnellement un nombre plus grand de livres que les autres Églises, dont le livre d'Hénoch et le livre des Jubilés, des écrits juifs anciens que les autres Églises n'ont pas reçus comme Écriture. Ce fait montre que la question du canon de l'Ancien Testament n'a pas été tranchée partout de la même manière."
+    },
+    {
+     "sous_titre": "Ce qui est commun"
+    },
+    {
+     "texte": "Mais là encore, pour le Nouveau Testament, toutes les grandes Églises du monde, protestantes, catholiques et orthodoxes, reçoivent les mêmes vingt-sept livres, qui annoncent le même Jésus, mort et ressuscité. Le cœur de la foi n'est pas en question."
+    },
+    {
+     "sous_titre": "Une fierté et une responsabilité"
+    },
+    {
+     "texte": "Pour les chrétiens africains, l'histoire de l'Église éthiopienne, comme celle d'Alexandrie et de Carthage, rappelle que la Bible a été lue, copiée, traduite et aimée en Afrique depuis les premiers siècles. Mais elle rappelle aussi notre responsabilité : connaître la Bible avec précision, pour ne pas la confondre avec des écrits que l'Église universelle n'a pas reçus."
+    }
+   ]
+  },
+  {
+   "numero": "14",
+   "titre": "Pourquoi faire confiance à cette liste ?",
+   "references": [
+    "Jn 10:27",
+    "Mt 24:35",
+    "Jn 16:13"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Le Dieu qui a parlé a veillé"
+    },
+    {
+     "texte": "Jésus a dit : le ciel et la terre passeront, mais mes paroles ne passeront point (Matthieu 24:35). Le Dieu qui a inspiré les Écritures a aussi veillé à ce que son peuple les reconnaisse et les garde. Jésus avait promis à ses apôtres que l'Esprit de vérité les conduirait dans toute la vérité (Jean 16:13)."
+    },
+    {
+     "sous_titre": "Des preuves historiques convergentes"
+    },
+    {
+     "texte": "Notre confiance ne repose pas sur une décision d'un seul homme ou d'une seule réunion. Elle repose sur un ensemble de témoignages : l'usage des livres dès le premier siècle, les citations des premiers responsables chrétiens, les listes du deuxième au quatrième siècle, l'accord des églises dispersées dans des régions et des cultures très différentes."
+    },
+    {
+     "sous_titre": "Une question de cœur"
+    },
+    {
+     "texte": "Mais au bout du compte, la meilleure confirmation vient de la lecture elle-même. Lis côte à côte un évangile et un écrit gnostique tardif : la différence saute aux yeux. Dans les évangiles, Jésus marche dans la poussière de la Galilée, mange avec des pécheurs, pleure, guérit, meurt et ressuscite. Dans les écrits tardifs, il prononce des formules mystérieuses, détachées de toute histoire. Les brebis reconnaissent la voix de leur berger."
+    }
+   ]
+  },
+  {
+   "numero": "15",
+   "titre": "Des écrits utiles, mais pas des Écritures",
+   "references": [
+    "1 Th 5:21",
+    "Pr 30:5-6"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Lire avec profit"
+    },
+    {
+     "texte": "Dans les premiers siècles, les chrétiens lisaient d'autres écrits que ceux du Nouveau Testament : la lettre de Clément de Rome aux Corinthiens, vers la fin du premier siècle ; un petit manuel d'enseignement appelé la Didachè ; un livre de visions appelé le Pasteur d'Hermas ; les lettres d'Ignace d'Antioche, écrites en route vers son martyre à Rome. Certains de ces textes étaient même lus dans quelques églises pendant le culte."
+    },
+    {
+     "sous_titre": "Pourquoi ils n'ont pas été reçus comme Écriture"
+    },
+    {
+     "texte": "Ces écrits étaient respectés, mais ils n'avaient pas l'autorité des apôtres. Leurs auteurs eux-mêmes ne se présentaient pas comme des apôtres : Ignace écrivait aux Romains qu'il ne leur donnait pas des ordres comme Pierre et Paul, car eux étaient des apôtres, et lui un condamné. Les chrétiens faisaient donc une différence claire entre les écrits apostoliques et les bons livres chrétiens."
+    },
+    {
+     "sous_titre": "Une leçon pour aujourd'hui"
+    },
+    {
+     "texte": "C'est encore vrai aujourd'hui. Il existe d'excellents livres chrétiens, de bons commentaires, des biographies de missionnaires, des recueils de sermons, et même des enseignements comme ceux de Yeshaya. Ils peuvent beaucoup aider. Mais aucun d'eux n'est l'Écriture. Examinez toutes choses, retenez ce qui est bon (1 Thessaloniciens 5:21). La Bible juge tous les autres livres, et aucun livre ne juge la Bible."
+    },
+    {
+     "sous_titre": "Un danger fréquent"
+    },
+    {
+     "texte": "Dans certains milieux, les écrits d'un fondateur, les prophéties d'un leader ou les « révélations » d'une église finissent par être lus plus que la Bible, et cités avec la même autorité. C'est un signal d'alarme. Toute parole de Dieu est éprouvée ; n'ajoute rien à ses paroles (Proverbes 30:5-6)."
+    }
+   ]
+  },
+  {
+   "numero": "16",
+   "titre": "Le canon est-il fermé ?",
+   "references": [
+    "Jude 3",
+    "Hé 1:1-2",
+    "Ap 22:18-19"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La foi transmise une fois pour toutes"
+    },
+    {
+     "texte": "Certains demandent : Dieu ne pourrait-il pas ajouter de nouveaux livres à la Bible aujourd'hui ? Jude parle de la foi qui a été transmise aux saints une fois pour toutes. Le Nouveau Testament est le témoignage des apôtres, les témoins choisis de Jésus. Il n'y a plus d'apôtres comme eux aujourd'hui, et la révélation de Dieu en son Fils est complète."
+    },
+    {
+     "sous_titre": "Un avertissement solennel"
+    },
+    {
+     "verset": "Ap 22:18-19"
+    },
+    {
+     "texte": "À la fin de l'Apocalypse, Jean avertit : si quelqu'un y ajoute quelque chose, Dieu le frappera des fléaux décrits dans ce livre ; et si quelqu'un retranche quelque chose des paroles du livre de cette prophétie, Dieu retranchera sa part de l'arbre de la vie. Cet avertissement concerne d'abord le livre de l'Apocalypse, mais il exprime un principe qui vaut pour toute l'Écriture : on ne joue pas avec la Parole de Dieu."
+    },
+    {
+     "sous_titre": "Une confiance raisonnable"
+    },
+    {
+     "texte": "Quand tu tiens ta Bible, tu tiens des livres qui ont été reçus très tôt, examinés soigneusement, confirmés par des églises du monde entier, et que des chrétiens ont défendus au prix de leur vie. Le Dieu qui a inspiré ces livres a aussi veillé à ce que son peuple les reconnaisse."
+    },
+    {
+     "texte": "On raconte l'histoire d'une jeune femme, étudiante en histoire, qui avait regardé un documentaire affirmant que la Bible avait été inventée à Nicée. Troublée, elle alla voir son professeur, un homme qui n'était pas chrétien. Elle lui demanda si c'était vrai. Il se mit à rire et lui dit : « Mademoiselle, c'est un bon roman, mais c'est de la mauvaise histoire. Allez lire Irénée et Athanase, vous verrez. » Elle suivit son conseil. Quelques mois plus tard, elle animait dans sa résidence universitaire un petit groupe de discussion intitulé : « La Bible face aux mythes »."
+    }
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "question": "Que veut dire le mot « canon » ?",
+   "choix": [
+    "Une arme ancienne",
+    "Une règle, la liste des livres reconnus comme règle de la foi",
+    "Un chant d'église"
+   ],
+   "reponse": 1,
+   "explication": "Le mot désignait un roseau servant de règle.",
+   "section": "1"
+  },
+  {
+   "question": "L'Église a-t-elle rendu les livres inspirés en les mettant sur une liste ?",
+   "choix": [
+    "Oui",
+    "Non, elle a reconnu les livres que Dieu avait déjà inspirés",
+    "Seulement pour le Nouveau Testament"
+   ],
+   "reponse": 1,
+   "explication": "Comme le bijoutier reconnaît l'or, il ne le fabrique pas.",
+   "section": "1"
+  },
+  {
+   "question": "D'où viennent les livres appelés deutérocanoniques ou apocryphes ?",
+   "choix": [
+    "Des apôtres",
+    "D'écrits juifs plus tardifs, présents dans certaines copies de la traduction grecque, mais absents de la Bible hébraïque",
+    "Du concile de Nicée"
+   ],
+   "reponse": 1,
+   "explication": "Jésus et les apôtres ne les citent jamais comme Écriture.",
+   "section": "3"
+  },
+  {
+   "question": "Quel était le premier critère pour reconnaître un livre du Nouveau Testament ?",
+   "choix": [
+    "Sa longueur",
+    "Son origine apostolique : écrit par un apôtre ou un proche collaborateur",
+    "Sa popularité à Rome"
+   ],
+   "reponse": 1,
+   "explication": "S'y ajoutaient la conformité à la foi, l'ancienneté et l'usage général.",
+   "section": "5"
+  },
+  {
+   "question": "Qui a donné en 367 la liste exacte des 27 livres du Nouveau Testament ?",
+   "choix": [
+    "L'empereur Constantin",
+    "Athanase, évêque d'Alexandrie en Égypte",
+    "Le pape de Rome"
+   ],
+   "reponse": 1,
+   "explication": "Puis les synodes d'Hippone (393) et de Carthage (397) l'ont confirmée.",
+   "section": "9"
+  },
+  {
+   "question": "Qu'a décidé le concile de Nicée en 325 au sujet des livres de la Bible ?",
+   "choix": [
+    "Il a choisi les quatre évangiles",
+    "Rien : il a traité de la divinité de Jésus et de la date de Pâques",
+    "Il a brûlé les autres évangiles"
+   ],
+   "reponse": 1,
+   "explication": "L'idée que Nicée a choisi les livres est un mythe.",
+   "section": "10"
+  }
+ ],
+ "devoir": [
+  "Lis Luc 1:1-4 et Colossiens 4:16. Note ce que ces versets t'apprennent sur la manière dont les écrits chrétiens étaient reçus et transmis.",
+  "Prépare une réponse courte et respectueuse à quelqu'un qui te dit : « C'est Constantin qui a choisi les livres de la Bible. »",
+  "Cherche sur une carte Alexandrie, Hippone et Carthage, et note le rôle de l'Afrique dans l'histoire de la Bible."
+ ],
+ "prieres_liees": [],
+ "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}
