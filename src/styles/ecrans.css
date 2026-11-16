@@ -894,3 +894,14 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .a-retenir ul { margin: 6px 0 0; padding-left: 20px; display: grid; gap: 6px; line-height: 1.5; }
 .enseignement-court .verset { margin: 10px 0; }
 .enseignement-court .lecon-point { font-size: 1.28rem; }
+
+/* Étapes des petits jeux */
+.etapes-jeu { display: flex; gap: 6px; overflow-x: auto; padding: 4px 2px 8px; margin: 8px 0 2px; scrollbar-width: none; }
+.etapes-jeu::-webkit-scrollbar { display: none; }
+.etapes-jeu__pas { flex: 0 0 auto; width: 34px; height: 34px; border-radius: 50%; border: 2px solid var(--or, #C9A24B); background: var(--surface, #fff); color: var(--titre); font-weight: 700; display: grid; place-items: center; cursor: pointer; }
+.etapes-jeu__pas--faite { background: var(--or, #C9A24B); color: #fff; }
+.etapes-jeu__pas--actuelle { background: var(--titre, #1B2A4A); border-color: var(--titre, #1B2A4A); color: #fff; transform: scale(1.12); }
+.etapes-jeu__pas:disabled:not(.etapes-jeu__pas--actuelle) { opacity: .45; cursor: default; }
+.etape-jeu__titre { display: flex; flex-direction: column; gap: 2px; margin: 4px 2px 6px; font-size: .9rem; color: var(--texte-doux); }
+.etape-jeu__titre b { color: var(--titre); font-family: var(--police-titre); font-size: 1rem; }
+.resultat-quiz__actions { display: flex; flex-direction: column; gap: 8px; width: 100%; max-width: 340px; }

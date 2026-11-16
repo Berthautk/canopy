@@ -217,6 +217,843 @@
    ],
    "reponse": 2,
    "verifie": false
+  },
+  {
+   "id": "noe",
+   "nom": "Noé",
+   "image": "/assets/personnages/vieillard-biblique.webp",
+   "indices": [
+    {
+     "texte": "Dieu m'a demandé de construire un très grand bateau.",
+     "reference": "Gn 6:14"
+    },
+    {
+     "texte": "J'y suis entré avec ma famille et des animaux de chaque espèce.",
+     "reference": "Gn 7:7-9"
+    },
+    {
+     "texte": "Après le déluge, Dieu a mis un arc-en-ciel comme signe de son alliance.",
+     "reference": "Gn 9:13"
+    }
+   ],
+   "choix": [
+    "Hénoc",
+    "Jérémie",
+    "Abraham",
+    "Noé"
+   ],
+   "reponse": 3,
+   "verifie": false
+  },
+  {
+   "id": "adam",
+   "nom": "Adam",
+   "image": "/assets/personnages/homme-biblique-joyeux.webp",
+   "indices": [
+    {
+     "texte": "Dieu m'a formé de la poussière de la terre.",
+     "reference": "Gn 2:7"
+    },
+    {
+     "texte": "J'ai donné un nom à tous les animaux.",
+     "reference": "Gn 2:20"
+    },
+    {
+     "texte": "J'ai mangé du fruit défendu que ma femme m'a donné.",
+     "reference": "Gn 3:6"
+    }
+   ],
+   "choix": [
+    "Adam",
+    "Isaac",
+    "Noé",
+    "Abel"
+   ],
+   "reponse": 0,
+   "verifie": false
+  },
+  {
+   "id": "sara",
+   "nom": "Sara",
+   "image": "/assets/personnages/femme-biblique.webp",
+   "indices": [
+    {
+     "texte": "J'ai ri quand Dieu a promis que j'aurais un fils dans ma vieillesse.",
+     "reference": "Gn 18:12"
+    },
+    {
+     "texte": "J'ai eu un fils à quatre-vingt-dix ans.",
+     "reference": "Gn 17:17"
+    },
+    {
+     "texte": "Mon fils s'appelait Isaac.",
+     "reference": "Gn 21:3"
+    }
+   ],
+   "choix": [
+    "Rachel",
+    "Sara",
+    "Ésaïe",
+    "Rebecca"
+   ],
+   "reponse": 1,
+   "verifie": false
+  },
+  {
+   "id": "jacob",
+   "nom": "Jacob",
+   "image": "/assets/personnages/berger-biblique.webp",
+   "indices": [
+    {
+     "texte": "J'ai acheté le droit d'aînesse de mon frère pour un plat de lentilles.",
+     "reference": "Gn 25:33"
+    },
+    {
+     "texte": "J'ai vu en rêve une échelle qui montait jusqu'au ciel.",
+     "reference": "Gn 28:12"
+    },
+    {
+     "texte": "J'ai lutté avec Dieu et il m'a appelé Israël.",
+     "reference": "Gn 32:29"
+    }
+   ],
+   "choix": [
+    "Ésaü",
+    "Isaac",
+    "Jacob",
+    "Jacques"
+   ],
+   "reponse": 2,
+   "verifie": false
+  },
+  {
+   "id": "josue",
+   "nom": "Josué",
+   "image": "/assets/personnages/soldat-romain.webp",
+   "indices": [
+    {
+     "texte": "J'ai été le serviteur de Moïse, puis son successeur.",
+     "reference": "Jos 1:1-2"
+    },
+    {
+     "texte": "Dieu m'a dit : fortifie-toi et prends courage.",
+     "reference": "Jos 1:9"
+    },
+    {
+     "texte": "Les murailles de Jéricho sont tombées après que nous avons fait le tour de la ville.",
+     "reference": "Jos 6:20"
+    }
+   ],
+   "choix": [
+    "Gédéon",
+    "Josué",
+    "Jérémie",
+    "Caleb"
+   ],
+   "reponse": 1,
+   "verifie": false
+  },
+  {
+   "id": "gedeon",
+   "nom": "Gédéon",
+   "image": "/assets/personnages/homme-en-priere.webp",
+   "indices": [
+    {
+     "texte": "Je battais le froment en cachette quand l'ange de l'Éternel m'est apparu.",
+     "reference": "Jg 6:11"
+    },
+    {
+     "texte": "J'ai demandé un signe avec une toison de laine.",
+     "reference": "Jg 6:37"
+    },
+    {
+     "texte": "Avec trois cents hommes seulement, Dieu m'a donné la victoire.",
+     "reference": "Jg 7:7"
+    }
+   ],
+   "choix": [
+    "Gédéon",
+    "Barak",
+    "Saül",
+    "Samson"
+   ],
+   "reponse": 0,
+   "verifie": false
+  },
+  {
+   "id": "samson",
+   "nom": "Samson",
+   "image": "/assets/personnages/homme-biblique-joyeux.webp",
+   "indices": [
+    {
+     "texte": "J'étais nazaréen : le rasoir ne devait pas passer sur ma tête.",
+     "reference": "Jg 13:5"
+    },
+    {
+     "texte": "J'ai déchiré un jeune lion de mes mains.",
+     "reference": "Jg 14:6"
+    },
+    {
+     "texte": "Dalila a découvert le secret de ma force.",
+     "reference": "Jg 16:17-19"
+    }
+   ],
+   "choix": [
+    "Rebecca",
+    "Goliath",
+    "Samson",
+    "Gédéon"
+   ],
+   "reponse": 2,
+   "verifie": false
+  },
+  {
+   "id": "anne",
+   "nom": "Anne",
+   "image": "/assets/personnages/fille-en-priere.webp",
+   "indices": [
+    {
+     "texte": "Je priais au temple en pleurant, et le sacrificateur a cru que j'étais ivre.",
+     "reference": "1 S 1:13"
+    },
+    {
+     "texte": "J'ai promis de donner mon fils à l'Éternel.",
+     "reference": "1 S 1:11"
+    },
+    {
+     "texte": "Mon fils s'appelait Samuel.",
+     "reference": "1 S 1:20"
+    }
+   ],
+   "choix": [
+    "Élisabeth",
+    "Aaron",
+    "Marie",
+    "Anne"
+   ],
+   "reponse": 3,
+   "verifie": false
+  },
+  {
+   "id": "samuel",
+   "nom": "Samuel",
+   "image": "/assets/personnages/enfant-biblique.webp",
+   "indices": [
+    {
+     "texte": "Enfant, j'ai entendu Dieu m'appeler la nuit dans le temple.",
+     "reference": "1 S 3:10"
+    },
+    {
+     "texte": "J'ai répondu : parle, car ton serviteur écoute.",
+     "reference": "1 S 3:10"
+    },
+    {
+     "texte": "J'ai oint David pour qu'il devienne roi.",
+     "reference": "1 S 16:13"
+    }
+   ],
+   "choix": [
+    "Élie",
+    "Aaron",
+    "Samuel",
+    "Nathan"
+   ],
+   "reponse": 2,
+   "verifie": false
+  },
+  {
+   "id": "salomon",
+   "nom": "Salomon",
+   "image": "/assets/personnages/roi-biblique.webp",
+   "indices": [
+    {
+     "texte": "J'ai demandé à Dieu la sagesse plutôt que la richesse.",
+     "reference": "1 R 3:9"
+    },
+    {
+     "texte": "J'ai rendu un jugement célèbre entre deux mères qui se disputaient un bébé.",
+     "reference": "1 R 3:27"
+    },
+    {
+     "texte": "J'ai construit le temple de Jérusalem.",
+     "reference": "1 R 6:14"
+    }
+   ],
+   "choix": [
+    "Salomon",
+    "Rachel",
+    "Saül",
+    "David"
+   ],
+   "reponse": 0,
+   "verifie": false
+  },
+  {
+   "id": "elie",
+   "nom": "Élie",
+   "image": "/assets/personnages/vieillard-biblique-en-priere.webp",
+   "indices": [
+    {
+     "texte": "Des corbeaux m'apportaient du pain et de la viande près d'un torrent.",
+     "reference": "1 R 17:6"
+    },
+    {
+     "texte": "Sur le mont Carmel, le feu de Dieu est descendu après ma prière.",
+     "reference": "1 R 18:38"
+    },
+    {
+     "texte": "Je suis monté au ciel dans un tourbillon.",
+     "reference": "2 R 2:11"
+    }
+   ],
+   "choix": [
+    "Ésaïe",
+    "Élisée",
+    "Élie",
+    "Abraham"
+   ],
+   "reponse": 2,
+   "verifie": false
+  },
+  {
+   "id": "elisee",
+   "nom": "Élisée",
+   "image": "/assets/personnages/vieillard-biblique.webp",
+   "indices": [
+    {
+     "texte": "J'ai demandé une double portion de l'esprit de mon maître.",
+     "reference": "2 R 2:9"
+    },
+    {
+     "texte": "J'ai fait flotter le fer d'une hache tombée dans l'eau.",
+     "reference": "2 R 6:6"
+    },
+    {
+     "texte": "Naaman le lépreux fut guéri après s'être plongé sept fois dans le Jourdain, selon ma parole.",
+     "reference": "2 R 5:14"
+    }
+   ],
+   "choix": [
+    "Élie",
+    "Isaac",
+    "Jonas",
+    "Élisée"
+   ],
+   "reponse": 3,
+   "verifie": false
+  },
+  {
+   "id": "naaman",
+   "nom": "Naaman",
+   "image": "/assets/personnages/soldat-romain.webp",
+   "indices": [
+    {
+     "texte": "J'étais chef de l'armée du roi de Syrie.",
+     "reference": "2 R 5:1"
+    },
+    {
+     "texte": "J'étais lépreux.",
+     "reference": "2 R 5:1"
+    },
+    {
+     "texte": "Une petite servante israélite a parlé de moi au prophète.",
+     "reference": "2 R 5:3"
+    }
+   ],
+   "choix": [
+    "Naaman",
+    "Néhémie",
+    "Isaac",
+    "Goliath"
+   ],
+   "reponse": 0,
+   "verifie": false
+  },
+  {
+   "id": "jonas",
+   "nom": "Jonas",
+   "image": "/assets/personnages/homme-lunettes-reflexion.webp",
+   "indices": [
+    {
+     "texte": "Dieu m'a envoyé à Ninive, mais je me suis enfui en bateau.",
+     "reference": "Jon 1:3"
+    },
+    {
+     "texte": "Un grand poisson m'a englouti.",
+     "reference": "Jon 2:1"
+    },
+    {
+     "texte": "J'étais fâché que Dieu pardonne à Ninive.",
+     "reference": "Jon 4:1-2"
+    }
+   ],
+   "choix": [
+    "Daniel",
+    "Jonas",
+    "Barnabas",
+    "Jérémie"
+   ],
+   "reponse": 1,
+   "verifie": false
+  },
+  {
+   "id": "nehemie",
+   "nom": "Néhémie",
+   "image": "/assets/personnages/homme-en-priere.webp",
+   "indices": [
+    {
+     "texte": "J'étais échanson du roi de Perse.",
+     "reference": "Né 1:11"
+    },
+    {
+     "texte": "J'ai pleuré et prié en apprenant que les murs de Jérusalem étaient détruits.",
+     "reference": "Né 1:4"
+    },
+    {
+     "texte": "J'ai reconstruit la muraille en cinquante-deux jours.",
+     "reference": "Né 6:15"
+    }
+   ],
+   "choix": [
+    "Zorobabel",
+    "Jérémie",
+    "Néhémie",
+    "Esdras"
+   ],
+   "reponse": 2,
+   "verifie": false
+  },
+  {
+   "id": "job",
+   "nom": "Job",
+   "image": "/assets/personnages/vieillard-biblique-en-priere.webp",
+   "indices": [
+    {
+     "texte": "J'étais intègre et droit, et je craignais Dieu.",
+     "reference": "Jb 1:1"
+    },
+    {
+     "texte": "J'ai perdu mes biens et mes enfants en un seul jour.",
+     "reference": "Jb 1:18-19"
+    },
+    {
+     "texte": "J'ai dit : l'Éternel a donné, et l'Éternel a ôté ; que le nom de l'Éternel soit béni.",
+     "reference": "Jb 1:21"
+    }
+   ],
+   "choix": [
+    "Élie",
+    "Abraham",
+    "Job",
+    "Jacob"
+   ],
+   "reponse": 2,
+   "verifie": false
+  },
+  {
+   "id": "marie",
+   "nom": "Marie, mère de Jésus",
+   "image": "/assets/personnages/femme-voilee-regard-ciel.webp",
+   "indices": [
+    {
+     "texte": "L'ange Gabriel m'a annoncé que j'allais avoir un fils.",
+     "reference": "Lc 1:31"
+    },
+    {
+     "texte": "J'ai répondu : je suis la servante du Seigneur.",
+     "reference": "Lc 1:38"
+    },
+    {
+     "texte": "J'ai mis mon enfant dans une crèche à Bethléem.",
+     "reference": "Lc 2:7"
+    }
+   ],
+   "choix": [
+    "Élisabeth",
+    "Marie, mère de Jésus",
+    "André",
+    "Marthe"
+   ],
+   "reponse": 1,
+   "verifie": false
+  },
+  {
+   "id": "jean-baptiste",
+   "nom": "Jean-Baptiste",
+   "image": "/assets/personnages/homme-biblique-joyeux.webp",
+   "indices": [
+    {
+     "texte": "Je me nourrissais de sauterelles et de miel sauvage.",
+     "reference": "Mt 3:4"
+    },
+    {
+     "texte": "J'ai baptisé Jésus dans le Jourdain.",
+     "reference": "Mt 3:13"
+    },
+    {
+     "texte": "J'ai dit : voici l'Agneau de Dieu, qui ôte le péché du monde.",
+     "reference": "Jn 1:29"
+    }
+   ],
+   "choix": [
+    "Saül",
+    "Pierre",
+    "Jean-Baptiste",
+    "André"
+   ],
+   "reponse": 2,
+   "verifie": false
+  },
+  {
+   "id": "pierre",
+   "nom": "Pierre",
+   "image": "/assets/objets-bibliques/barque-et-filets.webp",
+   "indices": [
+    {
+     "texte": "J'étais pêcheur, et Jésus m'a appelé à devenir pêcheur d'hommes.",
+     "reference": "Mt 4:18-19"
+    },
+    {
+     "texte": "J'ai marché sur l'eau, puis j'ai eu peur.",
+     "reference": "Mt 14:29-30"
+    },
+    {
+     "texte": "J'ai renié Jésus trois fois avant que le coq chante.",
+     "reference": "Lc 22:61"
+    }
+   ],
+   "choix": [
+    "Pierre",
+    "Jacques",
+    "Ézéchias",
+    "Jean"
+   ],
+   "reponse": 0,
+   "verifie": false
+  },
+  {
+   "id": "zachee",
+   "nom": "Zachée",
+   "image": "/assets/personnages/homme-lunettes-reflexion.webp",
+   "indices": [
+    {
+     "texte": "J'étais chef des collecteurs d'impôts, et riche.",
+     "reference": "Lc 19:2"
+    },
+    {
+     "texte": "J'étais de petite taille, alors je suis monté sur un sycomore.",
+     "reference": "Lc 19:4"
+    },
+    {
+     "texte": "J'ai promis de rendre quatre fois ce que j'avais volé.",
+     "reference": "Lc 19:8"
+    }
+   ],
+   "choix": [
+    "Zachée",
+    "Jacques",
+    "Matthieu",
+    "Nicodème"
+   ],
+   "reponse": 0,
+   "verifie": false
+  },
+  {
+   "id": "nicodeme",
+   "nom": "Nicodème",
+   "image": "/assets/personnages/vieillard-biblique.webp",
+   "indices": [
+    {
+     "texte": "J'étais un chef des Juifs et je suis venu voir Jésus de nuit.",
+     "reference": "Jn 3:1-2"
+    },
+    {
+     "texte": "Jésus m'a dit qu'il fallait naître de nouveau.",
+     "reference": "Jn 3:3"
+    },
+    {
+     "texte": "J'ai apporté des aromates pour la sépulture de Jésus.",
+     "reference": "Jn 19:39"
+    }
+   ],
+   "choix": [
+    "Jacques",
+    "Joseph d'Arimathée",
+    "Nicodème",
+    "Gamaliel"
+   ],
+   "reponse": 2,
+   "verifie": false
+  },
+  {
+   "id": "marthe",
+   "nom": "Marthe",
+   "image": "/assets/personnages/femme-souriante.webp",
+   "indices": [
+    {
+     "texte": "J'étais occupée à beaucoup de choses pendant que ma sœur écoutait Jésus.",
+     "reference": "Lc 10:40"
+    },
+    {
+     "texte": "Mon frère Lazare est mort, et Jésus l'a ressuscité.",
+     "reference": "Jn 11:43-44"
+    },
+    {
+     "texte": "J'ai dit à Jésus : je crois que tu es le Christ, le Fils de Dieu.",
+     "reference": "Jn 11:27"
+    }
+   ],
+   "choix": [
+    "Dorcas",
+    "Marie de Magdala",
+    "Saül",
+    "Marthe"
+   ],
+   "reponse": 3,
+   "verifie": false
+  },
+  {
+   "id": "lazare",
+   "nom": "Lazare",
+   "image": "/assets/scenes-bibliques/resurrection-de-lazare.webp",
+   "indices": [
+    {
+     "texte": "J'habitais Béthanie avec mes deux sœurs.",
+     "reference": "Jn 11:1"
+    },
+    {
+     "texte": "J'étais dans le tombeau depuis quatre jours.",
+     "reference": "Jn 11:39"
+    },
+    {
+     "texte": "Jésus a crié : sors ! et je suis sorti.",
+     "reference": "Jn 11:43-44"
+    }
+   ],
+   "choix": [
+    "Bartimée",
+    "Myriam",
+    "Jaïrus",
+    "Lazare"
+   ],
+   "reponse": 3,
+   "verifie": false
+  },
+  {
+   "id": "bartimee",
+   "nom": "Bartimée",
+   "image": "/assets/personnages/homme-en-priere.webp",
+   "indices": [
+    {
+     "texte": "J'étais un mendiant aveugle assis au bord du chemin, près de Jéricho.",
+     "reference": "Mc 10:46"
+    },
+    {
+     "texte": "J'ai crié : Fils de David, aie pitié de moi !",
+     "reference": "Mc 10:47"
+    },
+    {
+     "texte": "Jésus m'a dit : ta foi t'a sauvé, et j'ai vu.",
+     "reference": "Mc 10:52"
+    }
+   ],
+   "choix": [
+    "Rebecca",
+    "Bartimée",
+    "Zachée",
+    "Lazare"
+   ],
+   "reponse": 1,
+   "verifie": false
+  },
+  {
+   "id": "thomas",
+   "nom": "Thomas",
+   "image": "/assets/personnages/homme-lunettes-reflexion.webp",
+   "indices": [
+    {
+     "texte": "Je faisais partie des douze disciples.",
+     "reference": "Jn 11:16"
+    },
+    {
+     "texte": "J'ai dit que je ne croirais pas sans voir les marques des clous.",
+     "reference": "Jn 20:25"
+    },
+    {
+     "texte": "J'ai dit à Jésus ressuscité : mon Seigneur et mon Dieu !",
+     "reference": "Jn 20:28"
+    }
+   ],
+   "choix": [
+    "Thomas",
+    "Barnabas",
+    "Barthélemy",
+    "Philippe"
+   ],
+   "reponse": 0,
+   "verifie": false
+  },
+  {
+   "id": "etienne",
+   "nom": "Étienne",
+   "image": "/assets/personnages/predicateur-bible-en-main.webp",
+   "indices": [
+    {
+     "texte": "J'ai été choisi pour servir aux tables dans l'Église de Jérusalem.",
+     "reference": "Ac 6:5"
+    },
+    {
+     "texte": "Mon visage parut comme celui d'un ange devant le sanhédrin.",
+     "reference": "Ac 6:15"
+    },
+    {
+     "texte": "J'ai prié pour ceux qui me lapidaient.",
+     "reference": "Ac 7:60"
+    }
+   ],
+   "choix": [
+    "Philippe",
+    "Rachel",
+    "Étienne",
+    "Barnabas"
+   ],
+   "reponse": 2,
+   "verifie": false
+  },
+  {
+   "id": "lydie",
+   "nom": "Lydie",
+   "image": "/assets/personnages/femme-louange.webp",
+   "indices": [
+    {
+     "texte": "J'étais marchande de pourpre.",
+     "reference": "Ac 16:14"
+    },
+    {
+     "texte": "Le Seigneur a ouvert mon cœur pendant que Paul parlait, au bord d'une rivière.",
+     "reference": "Ac 16:13-14"
+    },
+    {
+     "texte": "Après mon baptême, j'ai reçu Paul et ses compagnons dans ma maison.",
+     "reference": "Ac 16:15"
+    }
+   ],
+   "choix": [
+    "Dorcas",
+    "Lydie",
+    "André",
+    "Priscille"
+   ],
+   "reponse": 1,
+   "verifie": false
+  },
+  {
+   "id": "timothee",
+   "nom": "Timothée",
+   "image": "/assets/personnages/jeune-homme-joyeux.webp",
+   "indices": [
+    {
+     "texte": "Ma mère Eunice et ma grand-mère Loïs avaient une foi sincère.",
+     "reference": "2 Tm 1:5"
+    },
+    {
+     "texte": "Depuis mon enfance, je connais les saintes lettres.",
+     "reference": "2 Tm 3:15"
+    },
+    {
+     "texte": "Paul m'appelait son enfant bien-aimé et m'a écrit deux lettres.",
+     "reference": "2 Tm 1:2"
+    }
+   ],
+   "choix": [
+    "Timothée",
+    "Saül",
+    "Tite",
+    "Marc"
+   ],
+   "reponse": 0,
+   "verifie": false
+  },
+  {
+   "id": "deborah",
+   "nom": "Débora",
+   "image": "/assets/personnages/femme-biblique.webp",
+   "indices": [
+    {
+     "texte": "J'étais prophétesse et je jugeais Israël.",
+     "reference": "Jg 4:4"
+    },
+    {
+     "texte": "Je siégeais sous un palmier entre Rama et Béthel.",
+     "reference": "Jg 4:5"
+    },
+    {
+     "texte": "J'ai accompagné Barak au combat contre Sisera.",
+     "reference": "Jg 4:9"
+    }
+   ],
+   "choix": [
+    "Débora",
+    "Jaël",
+    "Myriam",
+    "Isaac"
+   ],
+   "reponse": 0,
+   "verifie": false
+  },
+  {
+   "id": "abigail",
+   "nom": "Abigaïl",
+   "image": "/assets/personnages/femme-souriante.webp",
+   "indices": [
+    {
+     "texte": "Mon mari Nabal était dur et méchant.",
+     "reference": "1 S 25:3"
+    },
+    {
+     "texte": "J'ai apporté des vivres à David pour calmer sa colère.",
+     "reference": "1 S 25:18"
+    },
+    {
+     "texte": "Après la mort de mon mari, je suis devenue la femme de David.",
+     "reference": "1 S 25:42"
+    }
+   ],
+   "choix": [
+    "Bath-Schéba",
+    "Mical",
+    "Ésaïe",
+    "Abigaïl"
+   ],
+   "reponse": 3,
+   "verifie": false
+  },
+  {
+   "id": "caleb",
+   "nom": "Caleb",
+   "image": "/assets/personnages/vieillard-biblique.webp",
+   "indices": [
+    {
+     "texte": "J'étais l'un des douze espions envoyés en Canaan.",
+     "reference": "Nb 13:6"
+    },
+    {
+     "texte": "Avec Josué, j'ai dit que nous pouvions prendre le pays.",
+     "reference": "Nb 14:6-8"
+    },
+    {
+     "texte": "À quatre-vingt-cinq ans, je me sentais aussi fort qu'à quarante.",
+     "reference": "Jos 14:10-11"
+    }
+   ],
+   "choix": [
+    "Caleb",
+    "Myriam",
+    "Josué",
+    "Aaron"
+   ],
+   "reponse": 0,
+   "verifie": false
   }
  ]
 }

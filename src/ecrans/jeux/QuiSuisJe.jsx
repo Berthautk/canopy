@@ -7,17 +7,25 @@ import { QUI_SUIS_JE } from '../../donnees/contenu.js';
 import { lireReference, ecrireReference } from '../../bible/references.js';
 import { ajouter, badge } from '../../jeux/stats.js';
 import { melanger } from '../../jeux/hasard.js';
+import { BarreEtapes, TitreEtape, FinEtape, etapesOuvertes, reussirEtape } from '../../composants/Etapes.jsx';
+
+// Étape n : plus de personnages et un score minimum plus exigeant.
+const regle = (n) => { const manches = Math.min(5 + n, 12); return { manches, seuil: Math.ceil(manches * 3 * Math.min(0.5 + 0.05 * n, 0.8)) }; };
 
 // Écran 31 : « Qui suis-je ? ». Moins d'indices utilisés = plus de points (3, 2 ou 1).
 export function QuiSuisJe() {
   const [echecMsg, voileMsg] = useMessageEchecs(3);
-  const [liste, setListe] = useState(() => melanger(QUI_SUIS_JE).slice(0, 5));
+  const [etape, setEtape] = useState(() => etapesOuvertes('quiSuisJe'));
+  const r = regle(etape);
+  const [liste, setListe] = useState(() => melanger(QUI_SUIS_JE).slice(0, regle(etape).manches));
   const [n, setN] = useState(0), [vus, setVus] = useState(1), [choix, setChoix] = useState(null), [points, setPoints] = useState(0);
-  if (n >= liste.length) return (
-    <div class="page resultat-quiz"><div class="resultat-quiz__trophee"><Icone nom="recherche" taille={56} /></div>
-      <p class="resultat-quiz__libelle">Tes points</p><p class="resultat-quiz__score">{points} / {liste.length * 3}</p>
-      <p class="resultat-quiz__texte">Moins tu utilises d'indices, plus tu marques de points.</p>
-      <button class="bouton bouton--plein" onClick={() => { setListe(melanger(QUI_SUIS_JE).slice(0, 5)); setN(0); setVus(1); setChoix(null); setPoints(0); }}>Rejouer</button></div>);
+  const lancer = (e) => { setEtape(e); setListe(melanger(QUI_SUIS_JE).slice(0, regle(e).manches)); setN(0); setVus(1); setChoix(null); setPoints(0); scrollTo(0, 0); };
+  if (n >= liste.length) {
+    const reussi = points >= r.seuil; if (reussi) reussirEtape('quiSuisJe', etape);
+    return <FinEtape icone="recherche" etape={etape} reussi={reussi} score={`${points} / ${liste.length * 3}`}
+      texte={reussi ? 'Moins tu utilises d\'indices, plus tu marques de points. L\'étape suivante a plus de personnages.' : `Il fallait au moins ${r.seuil} points. Utilise moins d'indices et lis les références pour apprendre.`}
+      suivante={() => lancer(etape + 1)} rejouer={() => lancer(etape)} />;
+  }
   const p = liste[n], repondu = choix !== null, juste = choix === p.reponse;
   return (
     <div class="page">{voileMsg}
@@ -26,7 +34,8 @@ export function QuiSuisJe() {
       <VoixJeu cle={`${p.nom}:${vus}:${repondu ? 'r' : ''}`} blocs={repondu
         ? [{ texte: juste ? `Bravo ! C'était bien ${p.nom}.` : `Non. C'était ${p.nom}.` }]
         : [...(vus === 1 ? [{ texte: 'Qui suis-je ?' }] : []), { texte: `Indice ${vus} : ${p.indices[vus - 1].texte}` }, { texte: `Est-ce ${p.choix.slice(0, -1).join(', ')} ou ${p.choix.at(-1)} ?` }]} />
-      <p class="jouer-intro">Découvre le personnage biblique grâce aux indices.</p>
+      {n === 0 && !repondu && vus === 1 && <BarreEtapes jeu="quiSuisJe" etape={etape} choisir={lancer} />}
+      <TitreEtape etape={etape} but={`Découvre ${liste.length} personnages · au moins ${r.seuil} points pour réussir`} />
       <p class="quiz__compteur">Personnage {n + 1} / {liste.length} · {points} point{points > 1 ? 's' : ''}</p>
       <ol class="indices">
         {p.indices.map((ind, i) => i < (repondu ? 3 : vus) ? (

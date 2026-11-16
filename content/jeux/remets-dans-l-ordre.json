@@ -136,6 +136,450 @@
     }
    ],
    "verifie": false
+  },
+  {
+   "id": "noe",
+   "titre": "Noé et le déluge",
+   "etapes": [
+    {
+     "texte": "Dieu voit que la méchanceté des hommes est grande.",
+     "reference": "Gn 6:5"
+    },
+    {
+     "texte": "Dieu demande à Noé de construire une arche.",
+     "reference": "Gn 6:14"
+    },
+    {
+     "texte": "Noé entre dans l'arche avec sa famille et les animaux.",
+     "reference": "Gn 7:7"
+    },
+    {
+     "texte": "La pluie tombe quarante jours et quarante nuits.",
+     "reference": "Gn 7:12"
+    },
+    {
+     "texte": "Noé lâche une colombe qui revient avec une feuille d'olivier.",
+     "reference": "Gn 8:11"
+    },
+    {
+     "texte": "Dieu place l'arc-en-ciel comme signe de son alliance.",
+     "reference": "Gn 9:13"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "abraham",
+   "titre": "L'histoire d'Abraham",
+   "etapes": [
+    {
+     "texte": "Dieu appelle Abram à quitter son pays.",
+     "reference": "Gn 12:1"
+    },
+    {
+     "texte": "Dieu lui promet une descendance nombreuse comme les étoiles.",
+     "reference": "Gn 15:5"
+    },
+    {
+     "texte": "Dieu change son nom en Abraham.",
+     "reference": "Gn 17:5"
+    },
+    {
+     "texte": "Sara met au monde Isaac.",
+     "reference": "Gn 21:2"
+    },
+    {
+     "texte": "Dieu met Abraham à l'épreuve sur le mont Morija.",
+     "reference": "Gn 22:2"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "david-goliath",
+   "titre": "David et Goliath",
+   "etapes": [
+    {
+     "texte": "Goliath défie l'armée d'Israël pendant quarante jours.",
+     "reference": "1 S 17:16"
+    },
+    {
+     "texte": "David apporte à manger à ses frères.",
+     "reference": "1 S 17:17"
+    },
+    {
+     "texte": "David refuse l'armure de Saül.",
+     "reference": "1 S 17:39"
+    },
+    {
+     "texte": "David choisit cinq pierres polies dans le torrent.",
+     "reference": "1 S 17:40"
+    },
+    {
+     "texte": "La pierre de David frappe Goliath au front.",
+     "reference": "1 S 17:49"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "daniel",
+   "titre": "Daniel dans la fosse aux lions",
+   "etapes": [
+    {
+     "texte": "Le roi Darius établit Daniel au-dessus des gouverneurs.",
+     "reference": "Dn 6:3"
+    },
+    {
+     "texte": "Les jaloux font signer une loi interdisant de prier un autre que le roi.",
+     "reference": "Dn 6:8"
+    },
+    {
+     "texte": "Daniel continue à prier trois fois par jour.",
+     "reference": "Dn 6:11"
+    },
+    {
+     "texte": "Daniel est jeté dans la fosse aux lions.",
+     "reference": "Dn 6:17"
+    },
+    {
+     "texte": "Le roi trouve Daniel vivant au matin.",
+     "reference": "Dn 6:21-23"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "elie-carmel",
+   "titre": "Élie sur le mont Carmel",
+   "etapes": [
+    {
+     "texte": "Élie annonce qu'il n'y aura ni rosée ni pluie.",
+     "reference": "1 R 17:1"
+    },
+    {
+     "texte": "Élie défie les prophètes de Baal sur le Carmel.",
+     "reference": "1 R 18:19"
+    },
+    {
+     "texte": "Les prophètes de Baal crient toute la journée sans réponse.",
+     "reference": "1 R 18:26"
+    },
+    {
+     "texte": "Élie fait arroser l'autel d'eau.",
+     "reference": "1 R 18:34"
+    },
+    {
+     "texte": "Le feu de l'Éternel tombe et consume l'holocauste.",
+     "reference": "1 R 18:38"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "naissance-jesus",
+   "titre": "La naissance de Jésus",
+   "etapes": [
+    {
+     "texte": "L'ange Gabriel est envoyé à Marie à Nazareth.",
+     "reference": "Lc 1:26-27"
+    },
+    {
+     "texte": "Joseph et Marie montent à Bethléem pour le recensement.",
+     "reference": "Lc 2:4-5"
+    },
+    {
+     "texte": "Marie couche l'enfant dans une crèche.",
+     "reference": "Lc 2:7"
+    },
+    {
+     "texte": "Un ange annonce la nouvelle aux bergers.",
+     "reference": "Lc 2:10-11"
+    },
+    {
+     "texte": "Les bergers trouvent l'enfant et racontent ce qu'ils ont entendu.",
+     "reference": "Lc 2:16-17"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "fils-prodigue",
+   "titre": "Le fils prodigue",
+   "etapes": [
+    {
+     "texte": "Le fils cadet demande sa part d'héritage.",
+     "reference": "Lc 15:12"
+    },
+    {
+     "texte": "Il dépense tout dans un pays lointain.",
+     "reference": "Lc 15:13"
+    },
+    {
+     "texte": "Il garde les pourceaux et a faim.",
+     "reference": "Lc 15:15-16"
+    },
+    {
+     "texte": "Il rentre en lui-même et décide de retourner chez son père.",
+     "reference": "Lc 15:17-18"
+    },
+    {
+     "texte": "Le père court vers lui et l'embrasse.",
+     "reference": "Lc 15:20"
+    },
+    {
+     "texte": "On fait une fête pour son retour.",
+     "reference": "Lc 15:23-24"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "bon-samaritain",
+   "titre": "Le bon Samaritain",
+   "etapes": [
+    {
+     "texte": "Un homme tombe au milieu des brigands.",
+     "reference": "Lc 10:30"
+    },
+    {
+     "texte": "Un sacrificateur passe outre.",
+     "reference": "Lc 10:31"
+    },
+    {
+     "texte": "Un Lévite passe outre aussi.",
+     "reference": "Lc 10:32"
+    },
+    {
+     "texte": "Un Samaritain est ému de compassion et panse ses plaies.",
+     "reference": "Lc 10:33-34"
+    },
+    {
+     "texte": "Il le conduit à une hôtellerie et paie pour lui.",
+     "reference": "Lc 10:35"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "passion",
+   "titre": "La mort et la résurrection de Jésus",
+   "etapes": [
+    {
+     "texte": "Jésus prend le dernier repas avec ses disciples.",
+     "reference": "Lc 22:14"
+    },
+    {
+     "texte": "Jésus prie à Gethsémané.",
+     "reference": "Lc 22:41"
+    },
+    {
+     "texte": "Judas livre Jésus par un baiser.",
+     "reference": "Lc 22:47-48"
+    },
+    {
+     "texte": "Jésus est crucifié.",
+     "reference": "Lc 23:33"
+    },
+    {
+     "texte": "Le corps de Jésus est mis dans un tombeau.",
+     "reference": "Lc 23:53"
+    },
+    {
+     "texte": "Les femmes trouvent le tombeau vide.",
+     "reference": "Lc 24:2-3"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "pentecote",
+   "titre": "Les débuts de l'Église",
+   "etapes": [
+    {
+     "texte": "Jésus monte au ciel devant ses disciples.",
+     "reference": "Ac 1:9"
+    },
+    {
+     "texte": "Les disciples prient ensemble dans la chambre haute.",
+     "reference": "Ac 1:13-14"
+    },
+    {
+     "texte": "Le Saint-Esprit descend le jour de la Pentecôte.",
+     "reference": "Ac 2:4"
+    },
+    {
+     "texte": "Pierre prêche à la foule.",
+     "reference": "Ac 2:14"
+    },
+    {
+     "texte": "Environ trois mille personnes sont baptisées.",
+     "reference": "Ac 2:41"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "paul-conversion",
+   "titre": "La conversion de Paul",
+   "etapes": [
+    {
+     "texte": "Saul persécute l'Église.",
+     "reference": "Ac 8:3"
+    },
+    {
+     "texte": "Une lumière du ciel resplendit autour de lui près de Damas.",
+     "reference": "Ac 9:3"
+    },
+    {
+     "texte": "Saul reste trois jours sans voir.",
+     "reference": "Ac 9:9"
+    },
+    {
+     "texte": "Ananias lui impose les mains.",
+     "reference": "Ac 9:17"
+    },
+    {
+     "texte": "Saul prêche que Jésus est le Fils de Dieu.",
+     "reference": "Ac 9:20"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "ruth",
+   "titre": "L'histoire de Ruth",
+   "etapes": [
+    {
+     "texte": "Naomi perd son mari et ses deux fils en Moab.",
+     "reference": "Rt 1:5"
+    },
+    {
+     "texte": "Ruth refuse de quitter Naomi.",
+     "reference": "Rt 1:16"
+    },
+    {
+     "texte": "Ruth glane dans le champ de Boaz.",
+     "reference": "Rt 2:3"
+    },
+    {
+     "texte": "Boaz rachète l'héritage et épouse Ruth.",
+     "reference": "Rt 4:9-10"
+    },
+    {
+     "texte": "Ruth met au monde Obed, grand-père de David.",
+     "reference": "Rt 4:17"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "esther",
+   "titre": "L'histoire d'Esther",
+   "etapes": [
+    {
+     "texte": "Esther devient reine à la place de Vasthi.",
+     "reference": "Est 2:17"
+    },
+    {
+     "texte": "Haman obtient un décret pour détruire les Juifs.",
+     "reference": "Est 3:13"
+    },
+    {
+     "texte": "Esther demande que tous jeûnent pour elle trois jours.",
+     "reference": "Est 4:16"
+    },
+    {
+     "texte": "Esther se présente devant le roi sans être appelée.",
+     "reference": "Est 5:1-2"
+    },
+    {
+     "texte": "Haman est pendu au gibet qu'il avait préparé.",
+     "reference": "Est 7:10"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "gedeon",
+   "titre": "Gédéon et les trois cents",
+   "etapes": [
+    {
+     "texte": "Les Madianites ravagent Israël.",
+     "reference": "Jg 6:3-4"
+    },
+    {
+     "texte": "L'ange de l'Éternel appelle Gédéon.",
+     "reference": "Jg 6:12"
+    },
+    {
+     "texte": "Gédéon demande le signe de la toison.",
+     "reference": "Jg 6:37"
+    },
+    {
+     "texte": "Dieu garde seulement trois cents hommes.",
+     "reference": "Jg 7:7"
+    },
+    {
+     "texte": "Les trois cents sonnent des trompettes et brisent les cruches.",
+     "reference": "Jg 7:20"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "jericho",
+   "titre": "La prise de Jéricho",
+   "etapes": [
+    {
+     "texte": "Josué envoie deux espions à Jéricho.",
+     "reference": "Jos 2:1"
+    },
+    {
+     "texte": "Rahab cache les espions sur son toit.",
+     "reference": "Jos 2:6"
+    },
+    {
+     "texte": "Le peuple traverse le Jourdain à pied sec.",
+     "reference": "Jos 3:17"
+    },
+    {
+     "texte": "Le peuple fait le tour de la ville pendant sept jours.",
+     "reference": "Jos 6:14-15"
+    },
+    {
+     "texte": "La muraille s'écroule au son des trompettes.",
+     "reference": "Jos 6:20"
+    }
+   ],
+   "verifie": false
+  },
+  {
+   "id": "tempete",
+   "titre": "Jésus apaise la tempête",
+   "etapes": [
+    {
+     "texte": "Jésus dit : passons de l'autre côté.",
+     "reference": "Mc 4:35"
+    },
+    {
+     "texte": "Un grand tourbillon s'élève.",
+     "reference": "Mc 4:37"
+    },
+    {
+     "texte": "Jésus dort sur le coussin.",
+     "reference": "Mc 4:38"
+    },
+    {
+     "texte": "Les disciples le réveillent.",
+     "reference": "Mc 4:38"
+    },
+    {
+     "texte": "Jésus menace le vent, et il se fait un grand calme.",
+     "reference": "Mc 4:39"
+    }
+   ],
+   "verifie": false
   }
  ]
 }
