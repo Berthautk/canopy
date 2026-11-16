@@ -1,0 +1,604 @@
+{
+ "id": "bible-01-plan-de-la-bible",
+ "titre": "Le plan de la Bible : s'y retrouver et voir la grande histoire",
+ "serie": "Connaître la Bible",
+ "theme": "Bible",
+ "auteur": "Yeshaya",
+ "resume": "Comment la Bible est organisée, à quoi servent ses différentes parties, comment trouver une référence, et quelle est la grande histoire qui relie ses 66 livres, de la Genèse à l'Apocalypse.",
+ "image": "/assets/etude-biblique/livres-des-testaments.webp",
+ "verset_de_base": "Lc 24:27",
+ "lecture_minutes": 30,
+ "objectifs": [
+  "Connaître les grandes parties de l'Ancien et du Nouveau Testament.",
+  "Savoir trouver rapidement une référence biblique.",
+  "Comprendre les différents genres de textes de la Bible.",
+  "Voir la grande histoire qui relie toute la Bible, avec Jésus au centre."
+ ],
+ "introduction": "Beaucoup de nouveaux chrétiens ouvrent leur Bible avec bonne volonté, puis se découragent. Ils commencent à la première page, avancent dans la Genèse et l'Exode, puis arrivent au Lévitique avec ses lois sur les sacrifices et se perdent. Ou bien le pasteur dit : ouvrez à Abdias, et ils cherchent pendant cinq minutes sans trouver, un peu honteux devant les autres.\n\nLa Bible n'est pas un livre qu'on lit seulement de la première à la dernière page comme un roman. C'est une bibliothèque, avec des livres de genres différents, rangés dans un certain ordre. Quand on connaît son plan, on s'y retrouve facilement, et surtout on comprend la grande histoire qu'elle raconte. Dans cet enseignement, nous allons faire le tour de la bibliothèque, comme un guide qui fait visiter une grande maison, pièce par pièce.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Deux grandes parties",
+   "references": [
+    "Hé 1:1-2",
+    "Jr 31:31-33"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Ancien et Nouveau Testament"
+    },
+    {
+     "texte": "La Bible est divisée en deux grandes parties : l'Ancien Testament, avec 39 livres, et le Nouveau Testament, avec 27 livres. Soit 66 livres en tout dans les Bibles protestantes. Le mot « testament » veut dire ici « alliance ». L'Ancien Testament raconte l'alliance de Dieu avec le peuple d'Israël, avant la venue de Jésus. Le Nouveau Testament raconte la nouvelle alliance que Dieu a faite par Jésus-Christ, avec tous ceux qui croient en lui."
+    },
+    {
+     "verset": "Jr 31:31-33"
+    },
+    {
+     "texte": "Six cents ans avant Jésus, Jérémie annonçait déjà cette nouvelle alliance : voici, les jours viennent, dit l'Éternel, où je ferai avec la maison d'Israël et la maison de Juda une alliance nouvelle. Je mettrai ma loi au dedans d'eux, je l'écrirai dans leur cœur. Le soir de son dernier repas, Jésus a pris la coupe et il a dit : cette coupe est la nouvelle alliance en mon sang (Luc 22:20)."
+    },
+    {
+     "sous_titre": "Deux parties, un seul Dieu"
+    },
+    {
+     "texte": "Certains pensent que l'Ancien Testament présente un Dieu sévère, et le Nouveau un Dieu d'amour. Ce n'est pas vrai. Dans l'Ancien Testament, Dieu est déjà lent à la colère et riche en bonté. Dans le Nouveau, il reste saint et juste, et Jésus parle du jugement plus que tous les autres. C'est le même Dieu qui a parlé autrefois par les prophètes, et qui a parlé dans ces derniers temps par son Fils (Hébreux 1:1-2)."
+    },
+    {
+     "texte": "Un ancien disait : le Nouveau Testament est caché dans l'Ancien, et l'Ancien est dévoilé dans le Nouveau. L'Ancien Testament prépare et annonce ; le Nouveau accomplit et explique. On ne comprend pas bien l'un sans l'autre."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Les livres de l'Ancien Testament",
+   "references": [
+    "Lc 24:44",
+    "Dt 31:9"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Le Pentateuque : les cinq livres de Moïse"
+    },
+    {
+     "texte": "Les cinq premiers livres sont la Genèse, l'Exode, le Lévitique, les Nombres et le Deutéronome. Les Juifs les appellent la Torah, c'est-à-dire la loi ou l'enseignement. Ils racontent la création, la chute, le déluge, la vie d'Abraham, d'Isaac, de Jacob et de Joseph, la sortie d'Égypte, l'alliance du Sinaï et la marche dans le désert jusqu'aux portes du pays promis. Ils contiennent aussi les lois que Dieu a données à son peuple."
+    },
+    {
+     "sous_titre": "Les livres historiques"
+    },
+    {
+     "texte": "Viennent ensuite douze livres qui racontent l'histoire d'Israël : Josué, Juges, Ruth, 1 et 2 Samuel, 1 et 2 Rois, 1 et 2 Chroniques, Esdras, Néhémie et Esther. On y voit l'entrée dans le pays de Canaan, le temps des juges, l'arrivée des rois Saül, David et Salomon, la division du royaume, la chute de Samarie puis de Jérusalem, l'exil à Babylone et le retour."
+    },
+    {
+     "sous_titre": "Les livres poétiques et de sagesse"
+    },
+    {
+     "texte": "Cinq livres forment la partie poétique : Job, les Psaumes, les Proverbes, l'Ecclésiaste et le Cantique des cantiques. Ce sont des prières, des chants, des proverbes, des réflexions sur la souffrance, sur le sens de la vie, sur l'amour. Les Psaumes sont le livre de prière du peuple de Dieu depuis trois mille ans."
+    },
+    {
+     "sous_titre": "Les prophètes"
+    },
+    {
+     "texte": "Enfin, dix-sept livres de prophètes. On appelle « grands prophètes » Ésaïe, Jérémie, les Lamentations, Ézéchiel et Daniel, parce que leurs livres sont longs. On appelle « petits prophètes » les douze autres : Osée, Joël, Amos, Abdias, Jonas, Michée, Nahum, Habakuk, Sophonie, Aggée, Zacharie et Malachie. Ce ne sont pas des prophètes moins importants : leurs livres sont simplement plus courts. Ils appelaient le peuple à revenir à Dieu, annonçaient le jugement, et promettaient la venue du Messie."
+    },
+    {
+     "sous_titre": "Comment Jésus parlait de ces livres"
+    },
+    {
+     "verset": "Lc 24:44"
+    },
+    {
+     "texte": "Après sa résurrection, Jésus a dit à ses disciples : il fallait que s'accomplisse tout ce qui est écrit de moi dans la loi de Moïse, dans les prophètes, et dans les psaumes. C'est exactement la division que les Juifs utilisaient : la Loi, les Prophètes, et les Écrits, dont les Psaumes étaient le premier livre. Jésus reconnaissait toute cette bibliothèque comme la Parole de Dieu, et il disait qu'elle parlait de lui."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Les livres du Nouveau Testament",
+   "references": [
+    "Lc 1:1-4",
+    "Ac 1:1-2"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Les quatre évangiles"
+    },
+    {
+     "texte": "Le Nouveau Testament commence par quatre évangiles : Matthieu, Marc, Luc et Jean. Évangile veut dire « bonne nouvelle ». Ils racontent la vie, l'enseignement, la mort et la résurrection de Jésus. Pourquoi quatre ? Parce que chacun présente Jésus sous un angle un peu différent, comme quatre témoins qui racontent le même événement. Matthieu écrit surtout pour les Juifs et montre que Jésus est le Messie annoncé. Marc, court et rapide, montre Jésus en action, le serviteur puissant. Luc, le médecin, montre Jésus le Sauveur de tous, attentif aux pauvres, aux femmes et aux exclus. Jean montre que Jésus est le Fils éternel de Dieu, la Parole faite chair."
+    },
+    {
+     "sous_titre": "Le livre des Actes"
+    },
+    {
+     "texte": "Les Actes des apôtres, écrits par Luc, sont la suite de son évangile. Ils racontent la naissance et l'expansion de l'Église, depuis Jérusalem jusqu'à Rome, par la puissance du Saint-Esprit : la Pentecôte, la prédication de Pierre, la conversion de Paul, ses voyages missionnaires, l'entrée des païens dans l'Église."
+    },
+    {
+     "sous_titre": "Les lettres de Paul"
+    },
+    {
+     "texte": "Viennent ensuite treize lettres écrites par l'apôtre Paul : aux Romains, deux aux Corinthiens, aux Galates, aux Éphésiens, aux Philippiens, aux Colossiens, deux aux Thessaloniciens, deux à Timothée, à Tite et à Philémon. Elles sont rangées à peu près de la plus longue à la plus courte. Elles enseignent la doctrine chrétienne et répondent aux problèmes concrets des églises."
+    },
+    {
+     "sous_titre": "Les autres lettres"
+    },
+    {
+     "texte": "Puis viennent l'épître aux Hébreux, dont l'auteur n'est pas nommé, la lettre de Jacques, deux lettres de Pierre, trois lettres de Jean et la lettre de Jude. On les appelle parfois les épîtres générales, parce qu'elles sont adressées à des chrétiens de plusieurs régions."
+    },
+    {
+     "sous_titre": "L'Apocalypse"
+    },
+    {
+     "texte": "Le dernier livre est l'Apocalypse, écrit par l'apôtre Jean exilé sur l'île de Patmos. Le mot veut dire « révélation ». Avec beaucoup d'images et de symboles, il révèle la victoire finale de Jésus sur le mal, le jugement, et la création de nouveaux cieux et d'une nouvelle terre."
+    }
+   ]
+  },
+  {
+   "numero": "4",
+   "titre": "Chapitres, versets et références",
+   "references": [
+    "Ps 119:105",
+    "Ac 17:11"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Pas dans les manuscrits originaux"
+    },
+    {
+     "texte": "Quand Moïse, David ou Paul ont écrit, ils n'ont pas mis de numéros de chapitres ni de versets. Ces numéros ont été ajoutés bien plus tard pour faciliter la recherche. Les chapitres ont été introduits au treizième siècle, en général attribués à Étienne Langton, un savant qui devint archevêque de Cantorbéry. Les numéros de versets du Nouveau Testament ont été ajoutés au seizième siècle par l'imprimeur Robert Estienne, dans une édition publiée en 1551."
+    },
+    {
+     "sous_titre": "Pourquoi c'est utile de le savoir"
+    },
+    {
+     "texte": "Cela veut dire que les coupures entre chapitres ne sont pas inspirées : parfois, une phrase continue d'un chapitre à l'autre, et il faut lire ce qui précède et ce qui suit pour bien comprendre. Ne lis jamais un verset isolé comme s'il était seul au monde : regarde toujours son contexte."
+    },
+    {
+     "sous_titre": "Comment lire une référence"
+    },
+    {
+     "texte": "Une référence comme « Jean 3:16 » se lit ainsi : le livre de Jean, chapitre 3, verset 16. « Romains 8:28-39 » veut dire : Romains, chapitre 8, des versets 28 à 39. Quand il y a un chiffre devant le livre, comme « 1 Jean 1:9 », il s'agit de la première lettre de Jean, et non de l'évangile de Jean. Dans Yeshaya, tu peux toucher une référence pour l'ouvrir directement."
+    },
+    {
+     "sous_titre": "Les abréviations"
+    },
+    {
+     "texte": "Dans les livres, les bulletins d'église ou les notes, les noms des livres sont souvent abrégés : Gn pour Genèse, Ex pour Exode, Ps pour Psaumes, Pr pour Proverbes, És pour Ésaïe, Mt pour Matthieu, Mc pour Marc, Lc pour Luc, Jn pour Jean, Ac pour Actes, Rm pour Romains, 1 Co pour la première épître aux Corinthiens, Ép pour Éphésiens, Hé pour Hébreux, Ap pour Apocalypse. Au début de la plupart des Bibles, une liste donne toutes les abréviations. Prends le temps de la regarder : cela t'évitera beaucoup de recherches inutiles. Et ne confonds pas Jn, l'évangile de Jean, avec 1 Jn, sa première lettre, ni Jc, la lettre de Jacques, avec Jg, le livre des Juges."
+    },
+    {
+     "sous_titre": "Apprendre l'ordre des livres"
+    },
+    {
+     "texte": "Prends le temps d'apprendre l'ordre des livres, au moins par groupes. Ce n'est pas une perte de temps : c'est comme connaître les quartiers de ta ville. Les Juifs de Bérée examinaient chaque jour les Écritures (Actes 17:11). Plus tu connais ta Bible, plus tu peux vérifier ce que l'on t'enseigne."
+    }
+   ]
+  },
+  {
+   "numero": "5",
+   "titre": "Des genres différents",
+   "references": [
+    "2 Tm 3:16-17",
+    "Ps 19:8-12"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Pourquoi le genre compte"
+    },
+    {
+     "texte": "Dans un journal, on ne lit pas la page des petites annonces comme l'éditorial, ni la bande dessinée comme le bulletin météo. De même, la Bible contient des genres de textes différents, et il faut lire chacun selon sa nature. Cela ne veut pas dire que certaines parties sont moins vraies : cela veut dire qu'elles disent la vérité de manières différentes."
+    },
+    {
+     "sous_titre": "Le récit historique"
+    },
+    {
+     "texte": "Une grande partie de la Bible raconte des faits : la vie d'Abraham, l'histoire des rois, la vie de Jésus, les voyages de Paul. Il faut les lire comme des événements réels, en se demandant ce que Dieu a fait et ce que cela nous enseigne. Attention : la Bible raconte aussi les péchés de ses personnages sans les approuver. Quand elle raconte que David a commis l'adultère, elle ne nous dit pas de l'imiter."
+    },
+    {
+     "sous_titre": "La loi"
+    },
+    {
+     "texte": "Les lois de l'Ancien Testament montrent la sainteté de Dieu et son amour pour la justice. Certaines lois concernaient la vie d'Israël comme nation, le culte du temple et les sacrifices, et elles ont été accomplies en Jésus. Mais les principes moraux, comme ne pas tuer, ne pas voler, ne pas commettre l'adultère, restent valables pour tous."
+    },
+    {
+     "sous_titre": "La poésie et la sagesse"
+    },
+    {
+     "texte": "Les Psaumes utilisent des images : l'Éternel est mon rocher, il me cache sous ses ailes. Dieu n'a pas de plumes ! Ces images disent une vérité profonde sur sa protection. Les Proverbes donnent des principes de sagesse généralement vrais, pas des promesses automatiques pour chaque situation."
+    },
+    {
+     "sous_titre": "La prophétie"
+    },
+    {
+     "texte": "Les prophètes appelaient le peuple à la repentance, annonçaient le jugement et la restauration, et parlaient souvent du Messie à venir. Certaines prophéties concernaient leur époque, d'autres la venue de Jésus, d'autres encore la fin des temps."
+    },
+    {
+     "sous_titre": "Les évangiles, les lettres et l'apocalypse"
+    },
+    {
+     "texte": "Les évangiles sont des témoignages sur Jésus. Les lettres sont de vraies lettres, adressées à des églises réelles, avec des problèmes réels ; il faut comprendre la situation des destinataires pour bien appliquer leur message aujourd'hui. L'Apocalypse utilise un langage de visions et de symboles, qu'il faut interpréter avec prudence et humilité."
+    },
+    {
+     "verset": "2 Tm 3:16-17"
+    },
+    {
+     "texte": "Mais tous ces genres ont un point commun : toute Écriture est inspirée de Dieu, et utile pour enseigner, pour convaincre, pour corriger, pour instruire dans la justice."
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "La grande histoire : création et chute",
+   "references": [
+    "Gn 1:1",
+    "Gn 3:15"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Une seule histoire"
+    },
+    {
+     "texte": "Malgré ses 66 livres, ses quelque quarante auteurs et ses quinze siècles de rédaction, la Bible raconte une seule grande histoire. On peut la résumer en quelques actes, comme une pièce de théâtre : la création, la chute, la promesse, la rédemption en Jésus, l'Église, et la nouvelle création."
+    },
+    {
+     "sous_titre": "La création"
+    },
+    {
+     "texte": "Au commencement, Dieu créa les cieux et la terre (Genèse 1:1). Dieu crée un monde très bon, et l'homme à son image, pour vivre en relation avec lui."
+    },
+    {
+     "sous_titre": "La chute"
+    },
+    {
+     "texte": "L'homme désobéit, et le péché entre dans le monde, avec la mort, la honte et la séparation d'avec Dieu. Toute la suite de la Bible est la réponse de Dieu à ce problème. Mais dès ce moment, Dieu promet qu'un descendant de la femme écrasera la tête du serpent (Genèse 3:15)."
+    }
+   ]
+  },
+  {
+   "numero": "7",
+   "titre": "La grande histoire : la promesse et Israël",
+   "references": [
+    "Gn 12:1-3",
+    "2 S 7:12-13"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Abraham"
+    },
+    {
+     "verset": "Gn 12:1-3"
+    },
+    {
+     "texte": "Dieu appelle Abraham et lui fait une promesse extraordinaire : toutes les familles de la terre seront bénies en toi. Dès le début, le plan de Dieu ne concerne pas seulement un peuple, mais toutes les nations, y compris les peuples d'Afrique."
+    },
+    {
+     "sous_titre": "Moïse et la loi"
+    },
+    {
+     "texte": "Les descendants d'Abraham deviennent esclaves en Égypte. Dieu les délivre par Moïse, leur donne sa loi au Sinaï, et les conduit vers le pays promis. Les sacrifices et le tabernacle leur apprennent qu'on ne peut s'approcher de Dieu qu'à travers un sacrifice."
+    },
+    {
+     "sous_titre": "David et le roi promis"
+    },
+    {
+     "texte": "Dieu donne à Israël des rois. Au roi David, il promet qu'un de ses descendants régnera pour toujours (2 Samuel 7:12-13). Mais les rois, les uns après les autres, désobéissent. Le peuple se tourne vers les idoles, et finit en exil à Babylone."
+    },
+    {
+     "sous_titre": "Les prophètes et l'attente"
+    },
+    {
+     "texte": "Pendant ce temps, les prophètes annoncent un Messie, un Serviteur souffrant, un Roi juste, une nouvelle alliance. L'Ancien Testament se termine dans l'attente. Pendant environ quatre cents ans, aucun nouveau prophète n'écrit. Le peuple attend."
+    }
+   ]
+  },
+  {
+   "numero": "8",
+   "titre": "La grande histoire : Jésus, l'Église, la fin",
+   "references": [
+    "Jn 1:14",
+    "Ap 21:1-4"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Jésus, le centre"
+    },
+    {
+     "texte": "Puis Dieu envoie son Fils. Jésus naît de la vierge Marie, descendant de David. Il vit sans péché, enseigne, guérit, meurt sur la croix pour les péchés du monde, et ressuscite le troisième jour. Il est la réponse à toutes les promesses : le descendant de la femme, la bénédiction d'Abraham, le prophète comme Moïse, le roi fils de David, le serviteur souffrant d'Ésaïe, l'agneau de tous les sacrifices."
+    },
+    {
+     "sous_titre": "L'Église"
+    },
+    {
+     "texte": "Jésus monte au ciel et envoie le Saint-Esprit. L'Église naît à la Pentecôte et l'Évangile se répand de Jérusalem jusqu'aux extrémités de la terre. Nous vivons aujourd'hui dans cet acte de l'histoire : le temps où l'Évangile est annoncé à toutes les nations."
+    },
+    {
+     "sous_titre": "La nouvelle création"
+    },
+    {
+     "verset": "Ap 21:1-4"
+    },
+    {
+     "texte": "Enfin, la Bible se termine comme elle a commencé : par une création. Jean voit un nouveau ciel et une nouvelle terre, où Dieu habite avec les hommes, où il essuie toute larme, où la mort n'est plus. Le jardin perdu de la Genèse est remplacé par une ville glorieuse, où se trouve de nouveau l'arbre de vie (Apocalypse 22:2). Ce qui avait été perdu à la chute est restauré, et même plus encore."
+    }
+   ]
+  },
+  {
+   "numero": "9",
+   "titre": "Jésus au centre de toute la Bible",
+   "references": [
+    "Lc 24:25-27",
+    "Jn 5:39"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Le chemin d'Emmaüs"
+    },
+    {
+     "texte": "Le jour de sa résurrection, Jésus a rejoint deux disciples sur la route. Et, commençant par Moïse et par tous les prophètes, il leur expliqua dans toutes les Écritures ce qui le concernait (Luc 24:27). Toute la Bible parle de lui : l'Ancien Testament l'annonce, les évangiles le montrent, les Actes le proclament, les lettres l'expliquent, l'Apocalypse le révèle dans sa gloire."
+    },
+    {
+     "sous_titre": "Lire la Bible pour le trouver"
+    },
+    {
+     "verset": "Jn 5:39"
+    },
+    {
+     "texte": "Jésus a dit aux religieux de son temps : vous sondez les Écritures, parce que vous pensez avoir en elles la vie éternelle : ce sont elles qui rendent témoignage de moi. Et vous ne voulez pas venir à moi pour avoir la vie ! On peut connaître beaucoup de versets et passer à côté de Jésus. Le but de la lecture de la Bible n'est pas de devenir savant, mais de connaître Jésus et de le suivre."
+    },
+    {
+     "sous_titre": "Une clé de lecture"
+    },
+    {
+     "texte": "Quand tu lis un passage, demande-toi : qu'est-ce que ce texte me montre de Dieu ? Qu'est-ce qu'il me montre de l'homme ? Et comment est-ce que ce passage me conduit vers Jésus ? Dans Abraham qui offre son fils, tu vois le Père qui donne son Fils. Dans l'agneau de la Pâque, tu vois l'Agneau de Dieu. Dans le roi David, tu vois le roi éternel. Dans le serpent d'airain élevé dans le désert, tu vois la croix."
+    }
+   ]
+  },
+  {
+   "numero": "10",
+   "titre": "Les grandes alliances, fil rouge de la Bible",
+   "references": [
+    "Gn 9:11-13",
+    "Gn 15:5-6",
+    "Ex 19:5-6",
+    "Lc 22:20"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Qu'est-ce qu'une alliance ?"
+    },
+    {
+     "texte": "Dans l'Afrique traditionnelle, on connaît bien les alliances : entre deux familles par le mariage, entre deux villages, entre deux peuples. Une alliance crée une relation solide, avec des engagements, souvent scellée par un signe ou par un sacrifice. Toute la Bible est organisée autour des alliances que Dieu a faites avec les hommes. Les connaître, c'est tenir le fil rouge qui relie tous les livres."
+    },
+    {
+     "sous_titre": "L'alliance avec Noé"
+    },
+    {
+     "texte": "Après le déluge, Dieu promet de ne plus jamais détruire toute la terre par les eaux, et il donne l'arc-en-ciel comme signe."
+    },
+    {
+     "verset": "Gn 9:11-13"
+    },
+    {
+     "texte": "C'est une alliance avec toute l'humanité et même avec les animaux. Chaque fois que tu vois un arc-en-ciel après la pluie, tu vois le signe de la patience de Dieu envers le monde."
+    },
+    {
+     "sous_titre": "L'alliance avec Abraham"
+    },
+    {
+     "texte": "Dieu promet à Abraham une descendance aussi nombreuse que les étoiles, un pays, et que toutes les nations seront bénies en lui."
+    },
+    {
+     "verset": "Gn 15:5-6"
+    },
+    {
+     "texte": "Abraham eut confiance en l'Éternel, qui le lui imputa à justice. Paul expliquera que tous ceux qui croient en Jésus, de toutes les nations, sont les enfants spirituels d'Abraham (Galates 3:7-9)."
+    },
+    {
+     "sous_titre": "L'alliance du Sinaï"
+    },
+    {
+     "texte": "Au mont Sinaï, Dieu fait alliance avec Israël par Moïse et lui donne sa loi."
+    },
+    {
+     "verset": "Ex 19:5-6"
+    },
+    {
+     "texte": "Si vous écoutez ma voix, et si vous gardez mon alliance, vous m'appartiendrez entre tous les peuples. Cette alliance montre la sainteté de Dieu et l'incapacité de l'homme à lui obéir parfaitement. Israël la rompra à de nombreuses reprises."
+    },
+    {
+     "sous_titre": "L'alliance avec David"
+    },
+    {
+     "texte": "Dieu promet à David qu'un de ses descendants aura un trône établi pour toujours. Cette promesse trouve son accomplissement en Jésus, appelé fils de David dans les évangiles."
+    },
+    {
+     "sous_titre": "La nouvelle alliance"
+    },
+    {
+     "texte": "Enfin, la nouvelle alliance annoncée par Jérémie est scellée dans le sang de Jésus."
+    },
+    {
+     "verset": "Lc 22:20"
+    },
+    {
+     "texte": "Cette coupe est la nouvelle alliance en mon sang, qui est répandu pour vous. Chaque fois que l'église prend la sainte cène, elle célèbre cette nouvelle alliance. Toutes les alliances précédentes conduisaient vers celle-ci."
+    }
+   ]
+  },
+  {
+   "numero": "11",
+   "titre": "Quelques repères dans le temps",
+   "references": [
+    "Ga 4:4",
+    "Ac 7:2-8"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Pourquoi des dates ?"
+    },
+    {
+     "texte": "La Bible n'est pas un livre de contes « il était une fois », hors du temps. Elle raconte une histoire qui s'est déroulée sur des siècles, dans des lieux réels, sous des rois et des empires dont on connaît l'existence par l'histoire. Avoir quelques repères aide à comprendre où l'on se trouve quand on lit un livre."
+    },
+    {
+     "sous_titre": "Les grands repères approximatifs"
+    },
+    {
+     "texte": "Voici des dates approximatives, car les historiens discutent encore de certaines d'entre elles. Abraham a vécu environ deux mille ans avant Jésus-Christ. La sortie d'Égypte sous Moïse se situe selon les estimations entre le quinzième et le treizième siècle avant Jésus-Christ. Le roi David a régné vers l'an mille avant Jésus-Christ, et son fils Salomon a construit le premier temple. Le royaume du nord, Israël, est tombé sous les Assyriens en 722 avant Jésus-Christ. Jérusalem a été détruite par les Babyloniens en 586 avant Jésus-Christ, et les Juifs ont été emmenés en exil. Ils ont commencé à revenir vers 538 avant Jésus-Christ, sous le roi perse Cyrus."
+    },
+    {
+     "sous_titre": "Le temps du Nouveau Testament"
+    },
+    {
+     "texte": "Jésus est né quelques années avant la date que nous appelons « an 1 », sous le règne de l'empereur Auguste. Il a été crucifié vers l'an 30 ou 33 de notre ère. Paul a fait ses voyages missionnaires dans les années 45 à 60, et la plupart de ses lettres datent de cette période. Jérusalem et son temple ont été détruits par les Romains en l'an 70. L'Apocalypse a probablement été écrite vers la fin du premier siècle."
+    },
+    {
+     "sous_titre": "Le bon moment"
+    },
+    {
+     "texte": "Paul résume le moment de la venue de Jésus par une belle phrase : lorsque les temps ont été accomplis, Dieu a envoyé son Fils (Galates 4:4). Dieu n'est ni en avance ni en retard. Les siècles de l'Ancien Testament n'étaient pas une attente inutile : ils préparaient le bon moment. Étienne, avant de mourir, a raconté devant le sanhédrin toute cette histoire, depuis Abraham, pour montrer comment elle conduisait à Jésus (Actes 7:2-8)."
+    }
+   ]
+  },
+  {
+   "numero": "12",
+   "titre": "Les outils qui aident à étudier",
+   "references": [
+    "Né 8:8",
+    "Ac 8:30-31"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Une Bible avec des références"
+    },
+    {
+     "texte": "Beaucoup de Bibles contiennent, dans la marge ou en bas de page, des références parallèles : quand un verset parle d'un sujet, on t'indique d'autres passages sur le même sujet. C'est un outil précieux pour laisser la Bible s'expliquer elle-même."
+    },
+    {
+     "sous_titre": "La concordance et la recherche"
+    },
+    {
+     "texte": "Une concordance est un livre qui donne, pour chaque mot important, la liste des versets où il apparaît. Aujourd'hui, la recherche de Yeshaya fait ce travail : tape un mot comme « paix » ou « pardon », et tu verras les versets qui en parlent."
+    },
+    {
+     "sous_titre": "Les cartes"
+    },
+    {
+     "texte": "Beaucoup de Bibles ont des cartes à la fin : le pays d'Israël, l'empire babylonien, les voyages de Paul. Quand tu lis que Paul part d'Antioche pour Chypre, regarde la carte. La géographie rend l'histoire plus vivante, et rappelle que ces événements se sont passés dans des lieux réels."
+    },
+    {
+     "sous_titre": "Les enseignants"
+    },
+    {
+     "texte": "Enfin, Dieu a donné à l'Église des pasteurs et des docteurs pour expliquer sa Parole. Quand l'eunuque éthiopien lisait le prophète Ésaïe sur son char, Philippe lui demanda : comprends-tu ce que tu lis ? Il répondit : comment le pourrais-je, si quelqu'un ne me guide ? (Actes 8:30-31). Il n'y a pas de honte à demander de l'aide. Mais vérifie toujours ce qu'on t'enseigne avec la Bible elle-même, comme les Béréens."
+    }
+   ]
+  },
+  {
+   "numero": "13",
+   "titre": "Un plan pour commencer",
+   "references": [
+    "Jos 1:8",
+    "Ps 1:1-3"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Par où commencer"
+    },
+    {
+     "texte": "Pour un nouveau chrétien, voici un ordre conseillé. D'abord l'évangile de Marc, court et vivant. Puis l'évangile de Jean, pour approfondir qui est Jésus. Puis les Actes, pour voir naître l'Église. Puis les lettres aux Philippiens, aux Éphésiens et aux Romains. Ensuite la Genèse et l'Exode, pour comprendre les commencements. Ajoute chaque jour un psaume et quelques versets des Proverbes."
+    },
+    {
+     "sous_titre": "Lire toute la Bible"
+    },
+    {
+     "texte": "Puis, quand tu es un peu habitué, lance-toi dans la lecture de toute la Bible. Avec environ trois ou quatre chapitres par jour, on lit toute la Bible en un an. Utilise un plan de lecture, comme ceux de l'onglet Bible de Yeshaya. Ne te décourage pas dans les passages difficiles : avance, et reviens plus tard à ce que tu n'as pas compris."
+    },
+    {
+     "sous_titre": "Méditer"
+    },
+    {
+     "verset": "Ps 1:1-3"
+    },
+    {
+     "texte": "Heureux l'homme qui trouve son plaisir dans la loi de l'Éternel, et qui la médite jour et nuit ! Il est comme un arbre planté près d'un courant d'eau. Lire beaucoup, c'est bien. Mais lire peu et méditer, c'est souvent mieux que lire beaucoup et tout oublier. Note un verset chaque jour, et repense-y pendant la journée."
+    },
+    {
+     "texte": "On raconte l'histoire d'un vieux cultivateur qui, à soixante ans, apprit à lire pour pouvoir lire la Bible lui-même. Il commença par l'évangile de Marc, un verset par jour, en suivant les lettres avec son doigt, aidé par son petit-fils. Il lui fallut presque deux ans pour finir les quatre évangiles. Le jour où il termina le dernier chapitre de Jean, il réunit toute sa famille, leur lut lentement les derniers versets, puis dit : « J'ai attendu soixante ans pour entendre Dieu me parler avec ma propre bouche. Ne faites pas comme moi : commencez maintenant. »"
+    }
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "question": "Combien de livres compte la Bible protestante ?",
+   "choix": [
+    "73",
+    "66 (39 dans l'Ancien Testament et 27 dans le Nouveau)",
+    "50"
+   ],
+   "reponse": 1,
+   "explication": "L'Ancien Testament raconte l'ancienne alliance, le Nouveau la nouvelle.",
+   "section": "1"
+  },
+  {
+   "question": "Comment Jésus désignait-il les trois parties de l'Ancien Testament en Luc 24:44 ?",
+   "choix": [
+    "Les histoires, les chants et les lois",
+    "La loi de Moïse, les prophètes et les psaumes",
+    "Les rois, les juges et les prêtres"
+   ],
+   "reponse": 1,
+   "explication": "Jésus reconnaissait toute cette bibliothèque comme parlant de lui.",
+   "section": "2"
+  },
+  {
+   "question": "Pourquoi les prophètes comme Amos ou Jonas sont-ils appelés « petits prophètes » ?",
+   "choix": [
+    "Parce qu'ils étaient moins importants",
+    "Parce que leurs livres sont plus courts",
+    "Parce qu'ils étaient jeunes"
+   ],
+   "reponse": 1,
+   "explication": "Le mot concerne la longueur des livres.",
+   "section": "2"
+  },
+  {
+   "question": "Les numéros de chapitres et de versets étaient-ils dans les textes originaux ?",
+   "choix": [
+    "Oui",
+    "Non, ils ont été ajoutés bien plus tard pour faciliter la recherche",
+    "Seulement dans les évangiles"
+   ],
+   "reponse": 1,
+   "explication": "Chapitres au XIIIe siècle, versets du Nouveau Testament en 1551. Il faut toujours lire le contexte.",
+   "section": "4"
+  },
+  {
+   "question": "Pourquoi faut-il tenir compte du genre d'un texte biblique ?",
+   "choix": [
+    "Parce que certains textes sont faux",
+    "Parce que la poésie, la loi, le récit ou la prophétie disent la vérité de manières différentes",
+    "Pour pouvoir choisir ce qu'on veut croire"
+   ],
+   "reponse": 1,
+   "explication": "Toute l'Écriture est inspirée, mais chaque genre se lit selon sa nature.",
+   "section": "5"
+  },
+  {
+   "question": "Qui est au centre de toute la Bible selon Luc 24:27 et Jean 5:39 ?",
+   "choix": [
+    "Moïse",
+    "Jésus-Christ",
+    "Abraham"
+   ],
+   "reponse": 1,
+   "explication": "Les Écritures rendent témoignage de lui.",
+   "section": "9"
+  }
+ ],
+ "devoir": [
+  "Apprends cette semaine l'ordre des cinq livres de Moïse et des quatre évangiles, puis récite-les à quelqu'un.",
+  "Choisis un passage de l'Ancien Testament (par exemple Genèse 22 ou Exode 12) et écris en quelques lignes comment il annonce Jésus.",
+  "Commence la lecture de l'évangile de Marc, un chapitre par jour, et note un verset chaque jour."
+ ],
+ "prieres_liees": [],
+ "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}
