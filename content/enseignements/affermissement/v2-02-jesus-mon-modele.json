@@ -1,336 +1,591 @@
 {
- "id": "disciple-v2-02-jesus-mon-modele",
- "titre": "Jésus, mon modèle",
- "serie": "Affermissement",
- "theme": "Affermissement",
- "auteur": "Yeshaya",
- "resume": "Deuxième leçon du volume 2 : Dieu ne veut pas seulement te sauver, il veut te rendre semblable à son Fils. Comment Jésus a vécu, obéi, servi et souffert, et comment marcher sur ses traces.",
- "image": "/assets/jesus/jesus-marche-sur-le-chemin.webp",
- "verset_de_base": "1 P 2:21",
- "lecture_minutes": 12,
- "objectifs": [
-  "Comprendre que le but de Dieu est de nous rendre semblables à Jésus.",
-  "Observer comment Jésus a vécu son obéissance, son humilité, sa prière et ses souffrances.",
-  "Identifier un domaine de sa vie à transformer à l'image de Jésus."
- ],
- "introduction": "Quand un enfant apprend à marcher, il regarde ses parents et les imite. Quand un apprenti apprend un métier, il observe son maître et refait ses gestes. Dans la vie chrétienne, nous avons un modèle parfait : Jésus-Christ.\n\nLe chrétien n'est pas seulement quelqu'un qui croit que Jésus est mort pour lui. C'est quelqu'un qui marche comme Jésus a marché. Pierre écrit que Christ nous a laissé un exemple, afin que nous suivions ses traces (1 Pierre 2:21). Dans cette leçon, nous verrons le but de Dieu pour toi, puis quatre traits de la vie de Jésus que tu es appelé à imiter.",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "Le but de Dieu : te rendre semblable à son Fils",
-   "references": [
-    "Rm 8:29",
-    "2 Co 3:18",
-    "1 Jn 2:6"
-   ],
-   "blocs": [
+  "id": "disciple-v2-02-jesus-mon-modele",
+  "titre": "Jésus, mon modèle",
+  "serie": "Affermissement",
+  "theme": "Affermissement",
+  "auteur": "Yeshaya",
+  "resume": "Deuxième leçon du volume 2 : Dieu ne veut pas seulement te sauver, il veut te rendre semblable à son Fils. Comment Jésus a vécu, obéi, servi et souffert, et comment marcher sur ses traces.",
+  "image": "/assets/jesus/jesus-marche-sur-le-chemin.webp",
+  "verset_de_base": "1 P 2:21",
+  "lecture_minutes": 30,
+  "objectifs": [
+    "Comprendre que le but de Dieu est de nous rendre semblables à Jésus.",
+    "Observer comment Jésus a vécu son obéissance, son humilité, sa prière et ses souffrances.",
+    "Identifier un domaine de sa vie à transformer à l'image de Jésus."
+  ],
+  "introduction": "Quand un enfant apprend à marcher, il regarde ses parents et les imite. Quand un apprenti apprend un métier, il observe son maître et refait ses gestes. Dans la vie chrétienne, nous avons un modèle parfait : Jésus-Christ.\n\nLe chrétien n'est pas seulement quelqu'un qui croit que Jésus est mort pour lui. C'est quelqu'un qui marche comme Jésus a marché. Pierre écrit que Christ nous a laissé un exemple, afin que nous suivions ses traces (1 Pierre 2:21). Dans cette leçon, nous verrons le but de Dieu pour toi, puis quatre traits de la vie de Jésus que tu es appelé à imiter.",
+  "sections": [
     {
-     "sous_titre": "Prédestinés à être semblables à lui"
+      "numero": "1",
+      "titre": "Le but de Dieu : te rendre semblable à son Fils",
+      "references": [
+        "Rm 8:29",
+        "2 Co 3:18",
+        "1 Jn 2:6"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Prédestinés à être semblables à lui"
+        },
+        {
+          "texte": "Paul écrit que Dieu nous a prédestinés à être semblables à l'image de son Fils. Voilà le plan de Dieu pour ta vie. Ce n'est pas d'abord que tu sois riche, célèbre ou même confortable. C'est que tu ressembles à Jésus. Tout ce que Dieu permet dans ta vie, les joies comme les épreuves, il l'utilise pour ce but-là."
+        },
+        {
+          "verset": "Rm 8:29"
+        },
+        {
+          "sous_titre": "Une transformation progressive"
+        },
+        {
+          "texte": "Cette ressemblance ne vient pas en un jour. Paul dit que nous sommes transformés en la même image, de gloire en gloire, par le Seigneur, l'Esprit. Le Saint-Esprit travaille en toi chaque jour, quand tu contemples Jésus dans la Parole et que tu lui obéis. Ne te décourage pas si tu n'es pas encore ce que tu devrais être. Regarde plutôt si tu avances."
+        },
+        {
+          "verset": "2 Co 3:18"
+        },
+        {
+          "sous_titre": "Pas une option"
+        },
+        {
+          "texte": "Jean est direct : celui qui dit qu'il demeure en Christ doit marcher aussi comme il a marché lui-même. On ne peut pas se dire chrétien et vivre à l'opposé de Jésus. Le nom de chrétien veut dire : quelqu'un qui appartient à Christ et qui lui ressemble."
+        },
+        {
+          "verset": "1 Jn 2:6"
+        }
+      ]
     },
     {
-     "texte": "Paul écrit que Dieu nous a prédestinés à être semblables à l'image de son Fils. Voilà le plan de Dieu pour ta vie. Ce n'est pas d'abord que tu sois riche, célèbre ou même confortable. C'est que tu ressembles à Jésus. Tout ce que Dieu permet dans ta vie, les joies comme les épreuves, il l'utilise pour ce but-là."
+      "numero": "2",
+      "titre": "Jésus a obéi au Père en tout",
+      "references": [
+        "Jn 4:34",
+        "Jn 8:29",
+        "Lc 22:42"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Sa nourriture"
+        },
+        {
+          "texte": "Quand ses disciples lui ont apporté à manger, Jésus leur a dit : ma nourriture est de faire la volonté de celui qui m'a envoyé. Pour Jésus, obéir au Père n'était pas un fardeau, c'était ce qui le nourrissait. Il ne faisait rien de lui-même."
+        },
+        {
+          "verset": "Jn 4:34"
+        },
+        {
+          "sous_titre": "Même quand cela coûte"
+        },
+        {
+          "texte": "Au jardin de Gethsémané, Jésus savait ce qui l'attendait : les coups, la croix, et surtout la séparation d'avec le Père à cause de nos péchés. Il a prié : Père, si tu voulais éloigner de moi cette coupe ! Toutefois, que ma volonté ne se fasse pas, mais la tienne. Voilà le modèle. Obéir quand c'est facile, tout le monde le fait. Le disciple obéit même quand cela coûte."
+        },
+        {
+          "verset": "Lc 22:42"
+        }
+      ]
     },
     {
-     "verset": "Rm 8:29"
+      "numero": "3",
+      "titre": "Jésus s'est humilié et a servi",
+      "references": [
+        "Ph 2:5-8",
+        "Jn 13:14-15",
+        "Mc 10:45"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Il s'est dépouillé lui-même"
+        },
+        {
+          "texte": "Paul nous demande d'avoir les mêmes sentiments que Jésus. Lui qui était Dieu ne s'est pas accroché à ses droits. Il s'est dépouillé, il a pris la forme d'un serviteur, il s'est humilié jusqu'à la mort de la croix. Le monde te dit : défends ta place, montre qui tu es, ne te laisse pas faire. Jésus te montre un autre chemin : descendre pour servir."
+        },
+        {
+          "verset": "Ph 2:5-8"
+        },
+        {
+          "sous_titre": "Il a lavé les pieds de ses disciples"
+        },
+        {
+          "texte": "Laver les pieds était le travail du dernier des esclaves. Le soir de son dernier repas, Jésus a pris un linge et a lavé les pieds de ses disciples, y compris ceux de Judas qui allait le trahir. Puis il a dit : je vous ai donné un exemple, afin que vous fassiez comme je vous ai fait. Qui sont les gens dont tu refuses de laver les pieds ?"
+        },
+        {
+          "verset": "Jn 13:14-15"
+        }
+      ]
     },
     {
-     "sous_titre": "Une transformation progressive"
+      "numero": "4",
+      "titre": "Jésus vivait dans la prière",
+      "references": [
+        "Mc 1:35",
+        "Lc 5:16",
+        "Lc 6:12"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Avant le jour"
+        },
+        {
+          "texte": "Marc raconte que, vers le matin, pendant qu'il faisait encore très sombre, Jésus se leva et sortit pour aller dans un lieu désert, où il pria. Le Fils de Dieu lui-même avait besoin de temps seul avec le Père. Si lui en avait besoin, combien plus toi."
+        },
+        {
+          "verset": "Mc 1:35"
+        },
+        {
+          "sous_titre": "Avant les grandes décisions"
+        },
+        {
+          "texte": "Avant de choisir ses douze apôtres, Jésus a passé toute la nuit à prier Dieu. Il ne prenait pas de décisions importantes sans prier. Ton mariage, ton travail, ton déménagement, tes amitiés : est-ce que tu pries avant de décider, ou est-ce que tu demandes à Dieu de bénir ce que tu as déjà décidé ?"
+        },
+        {
+          "verset": "Lc 6:12"
+        }
+      ]
     },
     {
-     "texte": "Cette ressemblance ne vient pas en un jour. Paul dit que nous sommes transformés en la même image, de gloire en gloire, par le Seigneur, l'Esprit. Le Saint-Esprit travaille en toi chaque jour, quand tu contemples Jésus dans la Parole et que tu lui obéis. Ne te décourage pas si tu n'es pas encore ce que tu devrais être. Regarde plutôt si tu avances."
+      "numero": "5",
+      "titre": "Jésus a souffert sans rendre le mal",
+      "references": [
+        "1 P 2:21-23",
+        "Lc 23:34"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Il ne rendait pas l'injure"
+        },
+        {
+          "texte": "Pierre décrit Jésus ainsi : lui qui, injurié, ne rendait point d'injures, maltraité, ne faisait point de menaces, mais s'en remettait à celui qui juge justement. Voilà la trace que nous devons suivre. Quand on t'insulte au travail, quand ta famille se moque de ta foi, quand quelqu'un te fait du tort, tu as un modèle."
+        },
+        {
+          "verset": "1 P 2:21-23"
+        },
+        {
+          "sous_titre": "Il a pardonné sur la croix"
+        },
+        {
+          "texte": "Pendant qu'on le clouait, Jésus priait : Père, pardonne-leur, car ils ne savent ce qu'ils font. Aucun homme ne peut faire cela par sa propre force. Mais l'Esprit de Jésus qui habite en toi peut le faire en toi."
+        },
+        {
+          "verset": "Lc 23:34"
+        }
+      ]
     },
     {
-     "verset": "2 Co 3:18"
+      "numero": "6",
+      "titre": "Jésus dans les relations",
+      "references": [
+        "Mc 6:34",
+        "Jn 11:33-36",
+        "Lc 7:13"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Ému de compassion"
+        },
+        {
+          "texte": "Plusieurs fois, les évangiles disent que Jésus fut « ému de compassion ». Quand il vit une grande foule, il fut ému de compassion pour eux, parce qu'ils étaient comme des brebis qui n'ont point de berger. Quand il vit la veuve de Naïn qui enterrait son fils unique, il fut ému de compassion et lui dit : « Ne pleure pas. » Ressembler à Jésus, ce n'est pas seulement être juste ; c'est avoir le cœur touché par la souffrance des gens."
+        },
+        {
+          "verset": "Mc 6:34"
+        },
+        {
+          "sous_titre": "Jésus pleura"
+        },
+        {
+          "texte": "Devant le tombeau de Lazare, Jésus savait qu'il allait le ressusciter quelques minutes plus tard. Pourtant il frémit en son esprit, fut tout ému, et pleura. Les Juifs dirent : « Voyez comme il l'aimait. » Jésus n'était pas un maître froid et lointain. Il pleurait avec ceux qui pleurent. Celui qui veut lui ressembler apprend à pleurer avec les autres plutôt qu'à leur faire des sermons."
+        },
+        {
+          "verset": "Jn 11:33-36"
+        }
+      ]
     },
     {
-     "sous_titre": "Pas une option"
+      "numero": "7",
+      "titre": "Ressembler à Jésus au quotidien",
+      "references": [
+        "Mt 11:29",
+        "Ep 5:1-2",
+        "1 P 2:21"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Dans la colère"
+        },
+        {
+          "texte": "Jésus s'est mis en colère, mais jamais pour lui-même : contre les marchands du temple, contre les pharisiens qui fermaient le royaume aux autres. Quand on l'insultait, lui, il se taisait. Nous faisons souvent l'inverse : nous nous fâchons quand on nous touche, et nous restons calmes quand on touche à Dieu ou aux faibles."
+        },
+        {
+          "sous_titre": "Avec l'argent"
+        },
+        {
+          "texte": "Jésus n'avait pas d'endroit où reposer sa tête. Il n'a jamais utilisé son pouvoir pour s'enrichir. Il a nourri des foules, mais n'a jamais monnayé un miracle. Le disciple qui ressemble à Jésus ne fait pas de son service un commerce."
+        },
+        {
+          "sous_titre": "Dans le pardon"
+        },
+        {
+          "texte": "Jésus a pardonné à Pierre qui l'avait renié, à Thomas qui doutait, aux soldats qui le crucifiaient. Soyez donc les imitateurs de Dieu, comme des enfants bien-aimés ; et marchez dans la charité, à l'exemple de Christ, qui nous a aimés et qui s'est livré lui-même pour nous."
+        },
+        {
+          "verset": "Ep 5:1-2"
+        },
+        {
+          "sous_titre": "Une question pour chaque situation"
+        },
+        {
+          "texte": "Avant de répondre à un message qui t'a blessé, avant de dépenser, avant de parler de quelqu'un, pose-toi cette question : que ferait Jésus à ma place ? Puis demande-lui la force de le faire. C'est ainsi qu'on marche, pas à pas, sur ses traces."
+        },
+        {
+          "verset": "1 P 2:21"
+        }
+      ]
     },
     {
-     "texte": "Jean est direct : celui qui dit qu'il demeure en Christ doit marcher aussi comme il a marché lui-même. On ne peut pas se dire chrétien et vivre à l'opposé de Jésus. Le nom de chrétien veut dire : quelqu'un qui appartient à Christ et qui lui ressemble."
+      "numero": "8",
+      "titre": "Jésus à douze ans : soumis à ses parents",
+      "references": [
+        "Lc 2:41-52",
+        "Col 3:20"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Trois jours de recherche"
+        },
+        {
+          "texte": "Chaque année, Joseph et Marie montaient à Jérusalem pour la fête de la Pâque. Quand Jésus eut douze ans, ils y montèrent comme d'habitude. À la fin de la fête, ils reprirent la route du retour avec la grande caravane des gens de Nazareth. Ils pensaient que Jésus était quelque part avec les cousins et les voisins. Après une journée de marche, ils l'ont cherché parmi leurs parents et leurs connaissances, et ils ne l'ont pas trouvé."
+        },
+        {
+          "verset": "Lc 2:41-52"
+        },
+        {
+          "texte": "Imagine l'angoisse de Marie. Ils sont retournés à Jérusalem, et au bout de trois jours, ils l'ont trouvé dans le temple, assis au milieu des docteurs de la loi, les écoutant et leur posant des questions. Tous ceux qui l'entendaient étaient frappés de son intelligence et de ses réponses."
+        },
+        {
+          "sous_titre": "« Il fallait que je m'occupe des affaires de mon Père »"
+        },
+        {
+          "texte": "Marie lui dit : mon enfant, pourquoi as-tu agi de la sorte avec nous ? Voici, ton père et moi, nous te cherchions avec angoisse. Il leur dit : pourquoi me cherchiez-vous ? Ne saviez-vous pas qu'il faut que je sois occupé des affaires de mon Père ?"
+        },
+        {
+          "texte": "À douze ans déjà, Jésus savait qui il était : le Fils de Dieu. Il connaissait les Écritures mieux que les savants. Il aurait pu se dire : je suis au-dessus de ces parents qui ne comprennent pas."
+        },
+        {
+          "sous_titre": "Il leur était soumis"
+        },
+        {
+          "texte": "Mais la phrase suivante est une des plus belles de l'Évangile : puis il descendit avec eux pour aller à Nazareth, et il leur était soumis."
+        },
+        {
+          "texte": "Le Fils de Dieu, le créateur du monde, est rentré à la maison et a obéi à un charpentier et à une jeune femme de village. Pendant environ dix-huit ans encore, il a vécu à Nazareth, travaillant sans doute comme charpentier, obéissant, servant sa famille. La Bible ne raconte aucun miracle de ces années-là. Et pourtant, Jésus croissait en sagesse, en stature, et en grâce devant Dieu et devant les hommes."
+        },
+        {
+          "sous_titre": "Pour les jeunes"
+        },
+        {
+          "texte": "Jeune homme, jeune fille, tu as peut-être reçu Jésus, et tu as l'impression que tes parents ne comprennent rien aux choses de Dieu. Peut-être même qu'ils ne sont pas croyants. Regarde Jésus : il était plus sage que ses parents, et pourtant il leur était soumis. La Bible dit : enfants, obéissez en toutes choses à vos parents, car cela est agréable dans le Seigneur."
+        },
+        {
+          "verset": "Col 3:20"
+        },
+        {
+          "texte": "La seule limite, c'est quand on te demande de désobéir clairement à Dieu. En dehors de cela, ta foi doit te rendre plus respectueux, plus serviable et plus obéissant à la maison, et non plus orgueilleux. Le meilleur témoignage pour tes parents, ce n'est pas un sermon, c'est un enfant qui a changé."
+        },
+        {
+          "sous_titre": "Les années cachées"
+        },
+        {
+          "texte": "Ces années de Nazareth nous enseignent aussi une autre chose. Avant trois ans de ministère public, Jésus a passé environ trente ans dans une vie ordinaire. Dieu prépare souvent ses serviteurs dans le silence, dans le travail quotidien, dans la fidélité aux petites choses. Ne méprise pas ta saison cachée."
+        },
+        {
+          "texte": "Remarque aussi que Jésus a grandi dans quatre domaines : en sagesse, c'est-à-dire dans son intelligence et son jugement ; en stature, c'est-à-dire dans son corps ; en grâce devant Dieu, c'est-à-dire dans sa relation avec le Père ; et en grâce devant les hommes, c'est-à-dire dans ses relations avec les autres. Ressembler à Jésus, ce n'est pas seulement prier beaucoup. C'est aussi apprendre, prendre soin de son corps, et savoir vivre en paix avec les autres. Un chrétien très spirituel mais insupportable avec ses voisins ne ressemble pas encore à Jésus."
+        }
+      ]
     },
     {
-     "verset": "1 Jn 2:6"
+      "numero": "9",
+      "titre": "Jésus touche le lépreux",
+      "references": [
+        "Mc 1:40-45",
+        "Lv 13:45-46"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "L'homme que personne ne touchait"
+        },
+        {
+          "texte": "Un lépreux vint à Jésus. Selon la loi, un lépreux devait déchirer ses vêtements, avoir la tête découverte, se couvrir la barbe, et crier : impur ! impur ! Il devait habiter seul, hors du camp."
+        },
+        {
+          "verset": "Lv 13:45-46"
+        },
+        {
+          "texte": "Cet homme n'avait peut-être pas été touché depuis des années. Ni par sa femme, ni par ses enfants, ni par ses amis. Les gens s'écartaient sur son passage, ou lui jetaient des pierres pour qu'il reste loin."
+        },
+        {
+          "sous_titre": "« Si tu le veux »"
+        },
+        {
+          "texte": "Il se jette à genoux devant Jésus et lui dit : si tu le veux, tu peux me rendre pur. Il ne doute pas de la puissance de Jésus. Il doute de sa volonté. Est-ce que Jésus voudra bien s'occuper de quelqu'un comme moi ?"
+        },
+        {
+          "verset": "Mc 1:40-45"
+        },
+        {
+          "texte": "Jésus, ému de compassion, étendit la main, le toucha, et dit : je le veux, sois pur. Aussitôt la lèpre le quitta, et il fut purifié."
+        },
+        {
+          "sous_titre": "Pourquoi le toucher ?"
+        },
+        {
+          "texte": "Jésus aurait pu guérir cet homme d'une parole, à distance, comme il l'a fait pour d'autres. Mais il l'a touché. Avant même que la lèpre parte, Jésus a posé sa main sur la peau malade. Il a guéri le corps, mais il a aussi guéri la blessure du rejet."
+        },
+        {
+          "texte": "Normalement, celui qui touchait un lépreux devenait impur. Avec Jésus, c'est l'inverse : sa pureté a été plus forte que l'impureté du lépreux."
+        },
+        {
+          "texte": "Remarque aussi la réponse de Jésus à la question du lépreux. L'homme avait dit : si tu le veux. Jésus répond : je le veux. Il n'y a aucune hésitation. Beaucoup de chrétiens prient comme ce lépreux, en doutant non pas de la puissance de Dieu, mais de son amour pour eux. « Dieu peut guérir, mais voudra-t-il guérir quelqu'un comme moi ? » « Dieu peut pardonner, mais voudra-t-il me pardonner encore une fois ? » La réponse de Jésus au pécheur qui vient à lui avec humilité est toujours la même : je le veux. Il a dit lui-même : je ne mettrai pas dehors celui qui vient à moi. Et quand nous ressemblons à Jésus, notre réponse à ceux qui viennent vers nous, blessés, sales, rejetés, doit être la même : je veux bien t'accueillir."
+        },
+        {
+          "sous_titre": "Ressembler à Jésus"
+        },
+        {
+          "texte": "Dans nos villes, il y a encore des « lépreux » : les malades du sida qu'on évite, les fous qui errent dans la rue, les enfants accusés de sorcellerie et chassés de leur maison, les prisonniers, les prostituées, les handicapés qu'on cache. Le chrétien qui ressemble à Jésus ne détourne pas les yeux. Il s'approche, il salue, il tend la main, il touche."
+        },
+        {
+          "texte": "On raconte qu'une jeune infirmière chrétienne travaillait dans un service où l'on soignait des malades très contagieux. Ses collègues entraient dans la salle le moins souvent possible. Elle, après avoir pris toutes les précautions nécessaires, s'asseyait chaque jour quelques minutes près d'un vieil homme abandonné par sa famille, et lui tenait la main en lui parlant. Avant de mourir, le vieil homme lui a dit : « Pendant deux ans, personne ne m'a touché. Ta main m'a fait croire que Dieu m'aimait encore. »"
+        }
+      ]
+    },
+    {
+      "numero": "10",
+      "titre": "Jésus fuit la gloire humaine",
+      "references": [
+        "Jn 6:14-15",
+        "Jn 5:41-44"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une foule qui veut le faire roi"
+        },
+        {
+          "texte": "Après la multiplication des pains, cinq mille hommes avaient mangé, sans compter les femmes et les enfants. La foule était enthousiaste : celui-ci est vraiment le prophète qui doit venir dans le monde ! Et Jésus, sachant qu'ils allaient venir l'enlever pour le faire roi, se retira de nouveau sur la montagne, lui seul."
+        },
+        {
+          "verset": "Jn 6:14-15"
+        },
+        {
+          "texte": "Quelle tentation ! Une foule prête à le couronner. Une occasion de chasser les Romains, de devenir célèbre et puissant. Beaucoup de prédicateurs d'aujourd'hui rêvent d'une telle foule. Mais Jésus s'est retiré. Il savait que cette royauté-là n'était pas le plan du Père. Il était venu pour régner par la croix, pas par la popularité."
+        },
+        {
+          "sous_titre": "Il ne cherchait pas l'approbation des hommes"
+        },
+        {
+          "texte": "Jésus a dit : je ne tire pas ma gloire des hommes. Puis il a posé une question qui touche chacun de nous : comment pouvez-vous croire, vous qui tirez votre gloire les uns des autres, et qui ne cherchez point la gloire qui vient de Dieu seul ?"
+        },
+        {
+          "verset": "Jn 5:41-44"
+        },
+        {
+          "texte": "Jésus explique que le besoin d'être admiré par les gens empêche de croire vraiment. Celui qui vit pour les applaudissements finira par dire ce que les gens veulent entendre, et non ce que Dieu dit."
+        },
+        {
+          "sous_titre": "Dans notre vie"
+        },
+        {
+          "texte": "Combien de chrétiens servent Dieu en regardant du coin de l'œil si on les remarque ! On chante pour être applaudi. On donne pour que son nom soit annoncé. On prie longuement en public, et on ne prie presque pas dans sa chambre. On publie ses bonnes œuvres sur les réseaux sociaux."
+        },
+        {
+          "texte": "Jésus a dit dans le Sermon sur la montagne : gardez-vous de pratiquer votre justice devant les hommes, pour en être vus ; autrement, vous n'aurez point de récompense auprès de votre Père qui est dans les cieux."
+        },
+        {
+          "texte": "Ressembler à Jésus, c'est être capable de faire le bien en secret, et de se retirer quand les gens veulent nous mettre sur un piédestal. C'est se contenter du regard du Père."
+        },
+        {
+          "texte": "On raconte l'histoire d'un chantre très doué dans une grande église. Chaque dimanche, quand il chantait, la foule applaudissait, et des gens lui donnaient de l'argent. Peu à peu, il a commencé à arriver juste avant son chant, et à partir juste après. Il ne priait plus, il ne lisait plus la Bible. Un jour, un vieil ancien l'a pris à part et lui a demandé : « Si demain plus personne n'applaudit, chanteras-tu encore pour Dieu ? » Le jeune homme n'a pas su répondre. Il a pleuré, et il a demandé à l'église de le laisser servir pendant six mois sans chanter, simplement en rangeant les chaises et en nettoyant la salle. Il disait plus tard : « C'est pendant ces six mois que j'ai compris la différence entre chanter pour être vu et chanter pour Jésus. »"
+        }
+      ]
+    },
+    {
+      "numero": "11",
+      "titre": "Jésus prend soin de sa mère depuis la croix",
+      "references": [
+        "Jn 19:25-27",
+        "1 Tm 5:4"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Au milieu de la souffrance"
+        },
+        {
+          "texte": "Près de la croix de Jésus se tenaient sa mère, la sœur de sa mère, Marie, femme de Clopas, et Marie de Magdala. Jésus était cloué sur le bois. Il souffrait d'une douleur que nous ne pouvons pas imaginer. Il portait le péché du monde entier. Et pourtant, il a regardé sa mère."
+        },
+        {
+          "verset": "Jn 19:25-27"
+        },
+        {
+          "texte": "Jésus, voyant sa mère, et auprès d'elle le disciple qu'il aimait, dit à sa mère : femme, voilà ton fils. Puis il dit au disciple : voilà ta mère. Et dès ce moment, le disciple la prit chez lui."
+        },
+        {
+          "sous_titre": "Un fils responsable jusqu'au bout"
+        },
+        {
+          "texte": "Marie était sans doute veuve à ce moment-là, car on ne parle plus de Joseph. Le fils aîné avait la responsabilité de prendre soin de sa mère. Ses frères ne croyaient pas encore en lui. Alors, au moment même où il sauvait le monde, Jésus a pensé à l'avenir de sa mère. Il l'a confiée à Jean, son disciple fidèle."
+        },
+        {
+          "texte": "Le plus grand travail spirituel de l'histoire, le sacrifice pour les péchés du monde, n'a pas fait oublier à Jésus son devoir de fils."
+        },
+        {
+          "sous_titre": "Le ministère ne remplace pas la famille"
+        },
+        {
+          "texte": "Certains serviteurs de Dieu sont si occupés par l'église qu'ils négligent leurs propres parents âgés, ou leur femme et leurs enfants. Ils disent : « Je suis dans l'œuvre de Dieu. » Mais Paul écrit : si une veuve a des enfants ou des petits-enfants, qu'ils apprennent avant tout à exercer la piété envers leur propre famille, et à rendre à leurs parents ce qu'ils ont reçu d'eux ; car cela est agréable à Dieu."
+        },
+        {
+          "verset": "1 Tm 5:4"
+        },
+        {
+          "texte": "Ressembler à Jésus, c'est aussi appeler sa vieille mère au village, lui envoyer de quoi vivre, la visiter quand elle est malade, s'assurer qu'elle n'est pas seule. C'est honorer ses parents jusqu'à la fin de leur vie."
+        },
+        {
+          "texte": "On raconte l'histoire d'un évangéliste qui organisait des campagnes dans tout le pays. Des milliers de personnes venaient l'écouter. Mais sa vieille mère vivait seule au village, malade, et il ne l'avait pas visitée depuis trois ans. Un jour, un voisin l'a appelé : « Ta mère dit à tout le monde que son fils sauve les âmes des autres, mais qu'il a oublié la sienne. » Cette phrase l'a transpercé. Il a annulé une campagne, il est parti au village, et il est resté deux semaines près de sa mère. Pendant ce séjour, sa mère, qui n'avait jamais vraiment cru, a donné sa vie à Jésus. Il a dit ensuite : « J'avais prêché à des milliers, et j'avais négligé la seule personne que Dieu m'avait confiée en premier. »"
+        }
+      ]
+    },
+    {
+      "numero": "12",
+      "titre": "Conclusion",
+      "references": [
+        "Ga 2:20"
+      ],
+      "blocs": [
+        {
+          "texte": "Imiter Jésus n'est pas copier un acteur. C'est laisser Jésus vivre sa vie en toi. Paul disait : ce n'est plus moi qui vis, c'est Christ qui vit en moi. Tu ne deviendras pas semblable à Jésus par tes efforts seuls, mais en restant près de lui, en lui obéissant, et en laissant l'Esprit te transformer jour après jour."
+        },
+        {
+          "verset": "Ga 2:20"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "Jésus a obéi au Père en tout",
-   "references": [
-    "Jn 4:34",
-    "Jn 8:29",
-    "Lc 22:42"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "Sa nourriture"
+      "question": "Quel est le but de Dieu pour ses enfants selon Romains 8:29 ?",
+      "choix": [
+        "Qu'ils soient riches",
+        "Qu'ils soient semblables à l'image de son Fils",
+        "Qu'ils ne souffrent jamais"
+      ],
+      "reponse": 1,
+      "explication": "(Romains 8:29)",
+      "section": "1"
     },
     {
-     "texte": "Quand ses disciples lui ont apporté à manger, Jésus leur a dit : ma nourriture est de faire la volonté de celui qui m'a envoyé. Pour Jésus, obéir au Père n'était pas un fardeau, c'était ce qui le nourrissait. Il ne faisait rien de lui-même."
+      "question": "Qu'a dit Jésus au jardin de Gethsémané ?",
+      "choix": [
+        "Je refuse cette coupe",
+        "Que ma volonté ne se fasse pas, mais la tienne",
+        "Envoie-moi des anges"
+      ],
+      "reponse": 1,
+      "explication": "(Luc 22:42)",
+      "section": "2"
     },
     {
-     "verset": "Jn 4:34"
+      "question": "Pourquoi Jésus a-t-il lavé les pieds de ses disciples ?",
+      "choix": [
+        "Parce qu'ils étaient sales",
+        "Pour nous donner un exemple de service humble",
+        "Pour un rite de purification"
+      ],
+      "reponse": 1,
+      "explication": "(Jean 13:15)",
+      "section": "3"
     },
     {
-     "sous_titre": "Même quand cela coûte"
+      "question": "Que faisait Jésus quand on l'injuriait ?",
+      "choix": [
+        "Il menaçait",
+        "Il ne rendait pas l'injure et s'en remettait au Père",
+        "Il partait"
+      ],
+      "reponse": 1,
+      "explication": "(1 Pierre 2:23)",
+      "section": "5"
     },
     {
-     "texte": "Au jardin de Gethsémané, Jésus savait ce qui l'attendait : les coups, la croix, et surtout la séparation d'avec le Père à cause de nos péchés. Il a prié : Père, si tu voulais éloigner de moi cette coupe ! Toutefois, que ma volonté ne se fasse pas, mais la tienne. Voilà le modèle. Obéir quand c'est facile, tout le monde le fait. Le disciple obéit même quand cela coûte."
+      "question": "Que ressentait Jésus en voyant les foules ?",
+      "choix": [
+        "De l'agacement",
+        "De la compassion, car elles étaient comme des brebis sans berger",
+        "De l'indifférence"
+      ],
+      "reponse": 1,
+      "explication": "(Marc 6:34)",
+      "section": "6"
     },
     {
-     "verset": "Lc 22:42"
+      "question": "Pourquoi Jésus s'est-il mis en colère dans les évangiles ?",
+      "choix": [
+        "Quand on l'insultait",
+        "Jamais pour lui-même, mais pour Dieu et pour les faibles",
+        "Pour des questions d'argent"
+      ],
+      "reponse": 1,
+      "explication": "Quand on l'insultait, il se taisait (1 Pierre 2:23).",
+      "section": "7"
+    },
+    {
+      "question": "Que fait Jésus à douze ans après avoir été trouvé dans le temple ?",
+      "choix": [
+        "Il reste au temple avec les docteurs",
+        "Il descend à Nazareth et il est soumis à ses parents",
+        "Il commence son ministère"
+      ],
+      "reponse": 1,
+      "explication": "Luc 2:51.",
+      "section": "8"
+    },
+    {
+      "question": "Pourquoi Jésus a-t-il touché le lépreux alors qu'il pouvait le guérir d'une parole ?",
+      "choix": [
+        "Par habitude",
+        "Pour guérir aussi la blessure du rejet, par compassion",
+        "Pour montrer sa puissance"
+      ],
+      "reponse": 1,
+      "explication": "Marc 1:41.",
+      "section": "9"
+    },
+    {
+      "question": "Qu'a fait Jésus quand la foule voulait le faire roi ?",
+      "choix": [
+        "Il a accepté",
+        "Il s'est retiré seul sur la montagne",
+        "Il a fait un discours"
+      ],
+      "reponse": 1,
+      "explication": "Jean 6:15.",
+      "section": "10"
+    },
+    {
+      "question": "À qui Jésus a-t-il confié sa mère depuis la croix ?",
+      "choix": [
+        "À ses frères",
+        "Au disciple qu'il aimait, Jean",
+        "À Pierre"
+      ],
+      "reponse": 1,
+      "explication": "Jean 19:26-27.",
+      "section": "11"
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "Jésus s'est humilié et a servi",
-   "references": [
-    "Ph 2:5-8",
-    "Jn 13:14-15",
-    "Mc 10:45"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Il s'est dépouillé lui-même"
-    },
-    {
-     "texte": "Paul nous demande d'avoir les mêmes sentiments que Jésus. Lui qui était Dieu ne s'est pas accroché à ses droits. Il s'est dépouillé, il a pris la forme d'un serviteur, il s'est humilié jusqu'à la mort de la croix. Le monde te dit : défends ta place, montre qui tu es, ne te laisse pas faire. Jésus te montre un autre chemin : descendre pour servir."
-    },
-    {
-     "verset": "Ph 2:5-8"
-    },
-    {
-     "sous_titre": "Il a lavé les pieds de ses disciples"
-    },
-    {
-     "texte": "Laver les pieds était le travail du dernier des esclaves. Le soir de son dernier repas, Jésus a pris un linge et a lavé les pieds de ses disciples, y compris ceux de Judas qui allait le trahir. Puis il a dit : je vous ai donné un exemple, afin que vous fassiez comme je vous ai fait. Qui sont les gens dont tu refuses de laver les pieds ?"
-    },
-    {
-     "verset": "Jn 13:14-15"
-    }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "Jésus vivait dans la prière",
-   "references": [
-    "Mc 1:35",
-    "Lc 5:16",
-    "Lc 6:12"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Avant le jour"
-    },
-    {
-     "texte": "Marc raconte que, vers le matin, pendant qu'il faisait encore très sombre, Jésus se leva et sortit pour aller dans un lieu désert, où il pria. Le Fils de Dieu lui-même avait besoin de temps seul avec le Père. Si lui en avait besoin, combien plus toi."
-    },
-    {
-     "verset": "Mc 1:35"
-    },
-    {
-     "sous_titre": "Avant les grandes décisions"
-    },
-    {
-     "texte": "Avant de choisir ses douze apôtres, Jésus a passé toute la nuit à prier Dieu. Il ne prenait pas de décisions importantes sans prier. Ton mariage, ton travail, ton déménagement, tes amitiés : est-ce que tu pries avant de décider, ou est-ce que tu demandes à Dieu de bénir ce que tu as déjà décidé ?"
-    },
-    {
-     "verset": "Lc 6:12"
-    }
-   ]
-  },
-  {
-   "numero": "5",
-   "titre": "Jésus a souffert sans rendre le mal",
-   "references": [
-    "1 P 2:21-23",
-    "Lc 23:34"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Il ne rendait pas l'injure"
-    },
-    {
-     "texte": "Pierre décrit Jésus ainsi : lui qui, injurié, ne rendait point d'injures, maltraité, ne faisait point de menaces, mais s'en remettait à celui qui juge justement. Voilà la trace que nous devons suivre. Quand on t'insulte au travail, quand ta famille se moque de ta foi, quand quelqu'un te fait du tort, tu as un modèle."
-    },
-    {
-     "verset": "1 P 2:21-23"
-    },
-    {
-     "sous_titre": "Il a pardonné sur la croix"
-    },
-    {
-     "texte": "Pendant qu'on le clouait, Jésus priait : Père, pardonne-leur, car ils ne savent ce qu'ils font. Aucun homme ne peut faire cela par sa propre force. Mais l'Esprit de Jésus qui habite en toi peut le faire en toi."
-    },
-    {
-     "verset": "Lc 23:34"
-    }
-   ]
-  },
-  {
-   "numero": "6",
-   "titre": "Jésus dans les relations",
-   "references": [
-    "Mc 6:34",
-    "Jn 11:33-36",
-    "Lc 7:13"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Ému de compassion"
-    },
-    {
-     "texte": "Plusieurs fois, les évangiles disent que Jésus fut « ému de compassion ». Quand il vit une grande foule, il fut ému de compassion pour eux, parce qu'ils étaient comme des brebis qui n'ont point de berger. Quand il vit la veuve de Naïn qui enterrait son fils unique, il fut ému de compassion et lui dit : « Ne pleure pas. » Ressembler à Jésus, ce n'est pas seulement être juste ; c'est avoir le cœur touché par la souffrance des gens."
-    },
-    {
-     "verset": "Mc 6:34"
-    },
-    {
-     "sous_titre": "Jésus pleura"
-    },
-    {
-     "texte": "Devant le tombeau de Lazare, Jésus savait qu'il allait le ressusciter quelques minutes plus tard. Pourtant il frémit en son esprit, fut tout ému, et pleura. Les Juifs dirent : « Voyez comme il l'aimait. » Jésus n'était pas un maître froid et lointain. Il pleurait avec ceux qui pleurent. Celui qui veut lui ressembler apprend à pleurer avec les autres plutôt qu'à leur faire des sermons."
-    },
-    {
-     "verset": "Jn 11:33-36"
-    }
-   ]
-  },
-  {
-   "numero": "7",
-   "titre": "Ressembler à Jésus au quotidien",
-   "references": [
-    "Mt 11:29",
-    "Ep 5:1-2",
-    "1 P 2:21"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Dans la colère"
-    },
-    {
-     "texte": "Jésus s'est mis en colère, mais jamais pour lui-même : contre les marchands du temple, contre les pharisiens qui fermaient le royaume aux autres. Quand on l'insultait, lui, il se taisait. Nous faisons souvent l'inverse : nous nous fâchons quand on nous touche, et nous restons calmes quand on touche à Dieu ou aux faibles."
-    },
-    {
-     "sous_titre": "Avec l'argent"
-    },
-    {
-     "texte": "Jésus n'avait pas d'endroit où reposer sa tête. Il n'a jamais utilisé son pouvoir pour s'enrichir. Il a nourri des foules, mais n'a jamais monnayé un miracle. Le disciple qui ressemble à Jésus ne fait pas de son service un commerce."
-    },
-    {
-     "sous_titre": "Dans le pardon"
-    },
-    {
-     "texte": "Jésus a pardonné à Pierre qui l'avait renié, à Thomas qui doutait, aux soldats qui le crucifiaient. Soyez donc les imitateurs de Dieu, comme des enfants bien-aimés ; et marchez dans la charité, à l'exemple de Christ, qui nous a aimés et qui s'est livré lui-même pour nous."
-    },
-    {
-     "verset": "Ep 5:1-2"
-    },
-    {
-     "sous_titre": "Une question pour chaque situation"
-    },
-    {
-     "texte": "Avant de répondre à un message qui t'a blessé, avant de dépenser, avant de parler de quelqu'un, pose-toi cette question : que ferait Jésus à ma place ? Puis demande-lui la force de le faire. C'est ainsi qu'on marche, pas à pas, sur ses traces."
-    },
-    {
-     "verset": "1 P 2:21"
-    }
-   ]
-  },
-  {
-   "numero": "8",
-   "titre": "Conclusion",
-   "references": [
-    "Ga 2:20"
-   ],
-   "blocs": [
-    {
-     "texte": "Imiter Jésus n'est pas copier un acteur. C'est laisser Jésus vivre sa vie en toi. Paul disait : ce n'est plus moi qui vis, c'est Christ qui vit en moi. Tu ne deviendras pas semblable à Jésus par tes efforts seuls, mais en restant près de lui, en lui obéissant, et en laissant l'Esprit te transformer jour après jour."
-    },
-    {
-     "verset": "Ga 2:20"
-    }
-   ]
-  }
- ],
- "questions": [
-  {
-   "question": "Quel est le but de Dieu pour ses enfants selon Romains 8:29 ?",
-   "choix": [
-    "Qu'ils soient riches",
-    "Qu'ils soient semblables à l'image de son Fils",
-    "Qu'ils ne souffrent jamais"
-   ],
-   "reponse": 1,
-   "explication": "(Romains 8:29)",
-   "section": "1"
-  },
-  {
-   "question": "Qu'a dit Jésus au jardin de Gethsémané ?",
-   "choix": [
-    "Je refuse cette coupe",
-    "Que ma volonté ne se fasse pas, mais la tienne",
-    "Envoie-moi des anges"
-   ],
-   "reponse": 1,
-   "explication": "(Luc 22:42)",
-   "section": "2"
-  },
-  {
-   "question": "Pourquoi Jésus a-t-il lavé les pieds de ses disciples ?",
-   "choix": [
-    "Parce qu'ils étaient sales",
-    "Pour nous donner un exemple de service humble",
-    "Pour un rite de purification"
-   ],
-   "reponse": 1,
-   "explication": "(Jean 13:15)",
-   "section": "3"
-  },
-  {
-   "question": "Que faisait Jésus quand on l'injuriait ?",
-   "choix": [
-    "Il menaçait",
-    "Il ne rendait pas l'injure et s'en remettait au Père",
-    "Il partait"
-   ],
-   "reponse": 1,
-   "explication": "(1 Pierre 2:23)",
-   "section": "5"
-  },
-  {
-   "question": "Que ressentait Jésus en voyant les foules ?",
-   "choix": [
-    "De l'agacement",
-    "De la compassion, car elles étaient comme des brebis sans berger",
-    "De l'indifférence"
-   ],
-   "reponse": 1,
-   "explication": "(Marc 6:34)",
-   "section": "6"
-  },
-  {
-   "question": "Pourquoi Jésus s'est-il mis en colère dans les évangiles ?",
-   "choix": [
-    "Quand on l'insultait",
-    "Jamais pour lui-même, mais pour Dieu et pour les faibles",
-    "Pour des questions d'argent"
-   ],
-   "reponse": 1,
-   "explication": "Quand on l'insultait, il se taisait (1 Pierre 2:23).",
-   "section": "7"
-  }
- ],
- "devoir": [
-  "Lis un évangile en entier (Marc, 16 chapitres) cette semaine ou ce mois-ci, et note chaque fois que Jésus prie.",
-  "Choisis un trait de Jésus (obéissance, humilité, prière, patience dans l'injustice) où tu es faible, et écris une action concrète pour la semaine.",
-  "Fais un service caché pour quelqu'un sans le dire à personne."
- ],
- "prieres_liees": [
-  "theme:priere-caractere-de-christ"
- ],
- "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-14",
- "relu": false
+  ],
+  "devoir": [
+    "Lis un évangile en entier (Marc, 16 chapitres) cette semaine ou ce mois-ci, et note chaque fois que Jésus prie.",
+    "Choisis un trait de Jésus (obéissance, humilité, prière, patience dans l'injustice) où tu es faible, et écris une action concrète pour la semaine.",
+    "Fais un service caché pour quelqu'un sans le dire à personne."
+  ],
+  "prieres_liees": [
+    "theme:priere-caractere-de-christ"
+  ],
+  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-14",
+  "relu": false
 }
