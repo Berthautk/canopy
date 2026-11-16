@@ -1,335 +1,584 @@
 {
- "id": "disciple-v2-13-l-avenir",
- "titre": "L'avenir selon la Bible",
- "serie": "Affermissement",
- "theme": "Affermissement",
- "auteur": "Yeshaya",
- "resume": "Treizième leçon du volume 2 : Dieu conduit l'histoire vers un but. Ce que la Bible dit des temps de la fin, des signes, de l'antichrist, de la mort du croyant, et comment vivre aujourd'hui sans peur et sans spéculation.",
- "image": "/assets/paysages/lever-soleil-collines.webp",
- "verset_de_base": "Mt 24:42",
- "lecture_minutes": 15,
- "objectifs": [
-  "Comprendre que Dieu est maître de l'histoire.",
-  "Connaître les signes donnés par Jésus sans tomber dans les calculs de dates.",
-  "Savoir ce qui arrive au croyant à la mort.",
-  "Vivre aujourd'hui en veillant."
- ],
- "introduction": "Les guerres, les épidémies, les catastrophes, l'immoralité qui augmente : beaucoup de gens se demandent si c'est la fin du monde. Certains prédicateurs annoncent des dates, d'autres vendent la peur. D'autres chrétiens, au contraire, ne pensent jamais à l'avenir et vivent comme si ce monde allait durer toujours.\n\nLa Bible ne cache pas l'avenir, mais elle n'en parle pas pour nourrir notre curiosité. Elle en parle pour que nous soyons prêts. Jésus a dit : veillez donc, puisque vous ne savez pas quel jour votre Seigneur viendra (Matthieu 24:42).",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "Dieu conduit l'histoire",
-   "references": [
-    "Es 46:9-10",
-    "Dn 2:20-21",
-    "Ap 1:8"
-   ],
-   "blocs": [
+  "id": "disciple-v2-13-l-avenir",
+  "titre": "L'avenir selon la Bible",
+  "serie": "Affermissement",
+  "theme": "Affermissement",
+  "auteur": "Yeshaya",
+  "resume": "Treizième leçon du volume 2 : Dieu conduit l'histoire vers un but. Ce que la Bible dit des temps de la fin, des signes, de l'antichrist, de la mort du croyant, et comment vivre aujourd'hui sans peur et sans spéculation.",
+  "image": "/assets/paysages/lever-soleil-collines.webp",
+  "verset_de_base": "Mt 24:42",
+  "lecture_minutes": 34,
+  "objectifs": [
+    "Comprendre que Dieu est maître de l'histoire.",
+    "Connaître les signes donnés par Jésus sans tomber dans les calculs de dates.",
+    "Savoir ce qui arrive au croyant à la mort.",
+    "Vivre aujourd'hui en veillant."
+  ],
+  "introduction": "Les guerres, les épidémies, les catastrophes, l'immoralité qui augmente : beaucoup de gens se demandent si c'est la fin du monde. Certains prédicateurs annoncent des dates, d'autres vendent la peur. D'autres chrétiens, au contraire, ne pensent jamais à l'avenir et vivent comme si ce monde allait durer toujours.\n\nLa Bible ne cache pas l'avenir, mais elle n'en parle pas pour nourrir notre curiosité. Elle en parle pour que nous soyons prêts. Jésus a dit : veillez donc, puisque vous ne savez pas quel jour votre Seigneur viendra (Matthieu 24:42).",
+  "sections": [
     {
-     "sous_titre": "Il annonce la fin dès le commencement"
+      "numero": "1",
+      "titre": "Dieu conduit l'histoire",
+      "references": [
+        "Es 46:9-10",
+        "Dn 2:20-21",
+        "Ap 1:8"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Il annonce la fin dès le commencement"
+        },
+        {
+          "texte": "Dieu dit par Ésaïe : j'annonce dès le commencement ce qui doit arriver, et longtemps d'avance ce qui n'est pas encore accompli. Mes arrêts subsisteront. L'histoire n'est pas un chaos sans direction. Les présidents passent, les empires tombent, Dieu reste."
+        },
+        {
+          "verset": "Es 46:9-10"
+        },
+        {
+          "sous_titre": "Il change les temps"
+        },
+        {
+          "texte": "Daniel a béni Dieu en disant : c'est lui qui change les temps et les circonstances, qui renverse et qui établit les rois. Quand ton pays traverse une crise, Dieu n'a pas perdu le contrôle."
+        },
+        {
+          "verset": "Dn 2:20-21"
+        }
+      ]
     },
     {
-     "texte": "Dieu dit par Ésaïe : j'annonce dès le commencement ce qui doit arriver, et longtemps d'avance ce qui n'est pas encore accompli. Mes arrêts subsisteront. L'histoire n'est pas un chaos sans direction. Les présidents passent, les empires tombent, Dieu reste."
+      "numero": "2",
+      "titre": "Les signes donnés par Jésus",
+      "references": [
+        "Mt 24:4-14",
+        "2 Tm 3:1-5"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Ne vous laissez pas séduire"
+        },
+        {
+          "texte": "Quand ses disciples lui ont demandé les signes de la fin, la première chose que Jésus a dite est : prenez garde que personne ne vous séduise. Puis il a parlé de faux christs, de guerres, de famines, de tremblements de terre, de persécutions, de l'amour qui se refroidit. Et il a ajouté : cette bonne nouvelle du royaume sera prêchée dans le monde entier, puis viendra la fin."
+        },
+        {
+          "verset": "Mt 24:4-14"
+        },
+        {
+          "sous_titre": "Des temps difficiles"
+        },
+        {
+          "texte": "Paul décrit les derniers jours : les hommes seront égoïstes, amis de l'argent, rebelles à leurs parents, ingrats, aimant le plaisir plus que Dieu, ayant l'apparence de la piété mais reniant ce qui en fait la force. Remarque que beaucoup de ces signes ne sont pas dans le monde, mais dans la religion."
+        },
+        {
+          "verset": "2 Tm 3:1-5"
+        }
+      ]
     },
     {
-     "verset": "Es 46:9-10"
+      "numero": "3",
+      "titre": "L'antichrist et la grande séduction",
+      "references": [
+        "2 Th 2:3-4",
+        "1 Jn 2:18",
+        "2 Th 2:8"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "L'homme du péché"
+        },
+        {
+          "texte": "Paul annonce qu'avant le retour du Seigneur, il viendra un homme du péché, qui s'élèvera au-dessus de tout ce qu'on appelle Dieu. Jean dit qu'il y a déjà beaucoup d'antichrists, c'est-à-dire beaucoup de gens et de systèmes opposés à Christ."
+        },
+        {
+          "verset": "2 Th 2:3-4"
+        },
+        {
+          "sous_titre": "Il sera détruit"
+        },
+        {
+          "texte": "Le même passage dit que le Seigneur Jésus le détruira par le souffle de sa bouche. Le chrétien ne vit pas dans la peur de l'antichrist. Il vit dans l'attente de Christ."
+        },
+        {
+          "verset": "2 Th 2:8"
+        },
+        {
+          "sous_titre": "Avec humilité"
+        },
+        {
+          "texte": "Les chrétiens sincères ne sont pas tous d'accord sur l'ordre exact des événements de la fin : l'enlèvement, la grande tribulation, le millénium. Sois prudent avec ceux qui présentent leur schéma comme la seule vérité, et fuis ceux qui annoncent des dates ou qui identifient l'antichrist avec certitude chaque année. L'essentiel est clair : Jésus revient, il faut être prêt."
+        }
+      ]
     },
     {
-     "sous_titre": "Il change les temps"
+      "numero": "4",
+      "titre": "Ce qui arrive à la mort",
+      "references": [
+        "He 9:27",
+        "Ph 1:21-23",
+        "2 Co 5:8",
+        "Lc 16:22-26"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une seule fois"
+        },
+        {
+          "texte": "Il est réservé aux hommes de mourir une seule fois, après quoi vient le jugement. Il n'y a pas de réincarnation, pas de retour comme ancêtre pour protéger la famille, pas de seconde chance après la mort."
+        },
+        {
+          "verset": "He 9:27"
+        },
+        {
+          "sous_titre": "Être avec Christ"
+        },
+        {
+          "texte": "Paul disait : Christ est ma vie, et la mort m'est un gain. J'ai le désir de m'en aller et d'être avec Christ, ce qui de beaucoup est le meilleur. Pour le croyant, mourir, c'est quitter ce corps et demeurer auprès du Seigneur. Les rites de veuvage et les sacrifices aux morts n'ajoutent rien et ne protègent rien. Celui qui est mort en Christ est auprès de lui."
+        },
+        {
+          "verset": "Ph 1:21-23"
+        },
+        {
+          "sous_titre": "Le riche et Lazare"
+        },
+        {
+          "texte": "Jésus a raconté l'histoire d'un riche et d'un pauvre nommé Lazare. À la mort, Lazare est consolé, le riche est dans les tourments. Entre les deux, un grand abîme que personne ne peut traverser. Ta décision pour Christ se prend dans cette vie."
+        },
+        {
+          "verset": "Lc 16:22-26"
+        }
+      ]
     },
     {
-     "texte": "Daniel a béni Dieu en disant : c'est lui qui change les temps et les circonstances, qui renverse et qui établit les rois. Quand ton pays traverse une crise, Dieu n'a pas perdu le contrôle."
+      "numero": "5",
+      "titre": "Vivre aujourd'hui en veillant",
+      "references": [
+        "Mt 24:44-46",
+        "2 P 3:11-12",
+        "1 Th 5:4-6"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Le serviteur fidèle"
+        },
+        {
+          "texte": "Jésus a parlé du serviteur que son maître, à son arrivée, trouvera faisant ce qu'il doit faire. Heureux ce serviteur. Veiller, ce n'est pas regarder le ciel en attendant. C'est faire fidèlement aujourd'hui ce que le Maître t'a confié."
+        },
+        {
+          "verset": "Mt 24:44-46"
+        },
+        {
+          "sous_titre": "Quelles personnes devons-nous être ?"
+        },
+        {
+          "texte": "Pierre tire la conclusion : puisque tout cela doit se dissoudre, quelles ne doivent pas être la sainteté de votre conduite et votre piété ! La prophétie biblique doit produire la sainteté, pas la panique."
+        },
+        {
+          "verset": "2 P 3:11-12"
+        }
+      ]
     },
     {
-     "verset": "Dn 2:20-21"
+      "numero": "6",
+      "titre": "Comment lire les prophéties sans se tromper",
+      "references": [
+        "Dt 18:21-22",
+        "Mt 24:36",
+        "Ac 1:6-8"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Les faux prophètes de la fin"
+        },
+        {
+          "texte": "Dieu a donné un critère simple : quand ce que dit le prophète au nom de l'Éternel n'a pas lieu et n'arrive pas, c'est une parole que l'Éternel n'a point dite. Des dizaines de prédicateurs ont annoncé une date pour la fin du monde ou l'enlèvement ; toutes ces dates sont passées. Il ne faut pas les écouter, ni avoir peur d'eux."
+        },
+        {
+          "verset": "Dt 18:21-22"
+        },
+        {
+          "sous_titre": "Personne ne connaît le jour"
+        },
+        {
+          "texte": "Jésus a dit : « Pour ce qui est du jour et de l'heure, personne ne le sait, ni les anges des cieux, ni le Fils, mais le Père seul. » Celui qui prétend connaître la date en sait donc plus que Jésus lui-même dans son humanité. C'est suffisant pour le rejeter."
+        },
+        {
+          "verset": "Mt 24:36"
+        },
+        {
+          "sous_titre": "Ce que Jésus a répondu aux curieux"
+        },
+        {
+          "texte": "Avant de monter au ciel, les disciples ont demandé : « Seigneur, est-ce en ce temps que tu rétabliras le royaume d'Israël ? » Jésus a répondu : « Ce n'est pas à vous de connaître les temps ou les moments. Mais vous recevrez une puissance, et vous serez mes témoins. » Jésus détourne notre curiosité vers notre mission. La meilleure façon de se préparer à son retour, c'est d'annoncer l'Évangile."
+        },
+        {
+          "verset": "Ac 1:6-8"
+        }
+      ]
+    },
+    {
+      "numero": "7",
+      "titre": "L'espérance qui change la vie aujourd'hui",
+      "references": [
+        "1 Th 4:13-14",
+        "Tt 2:11-13"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Face au deuil"
+        },
+        {
+          "texte": "Paul ne veut pas que les chrétiens soient dans l'ignorance au sujet de ceux qui dorment, afin qu'ils ne s'affligent pas comme les autres qui n'ont point d'espérance. Le chrétien pleure ses morts, mais il ne pleure pas sans espérance. Aux enterrements, il n'a pas besoin des rites de peur ou des cérémonies pour « apaiser » le défunt. Il remet ceux qui sont morts en Christ à Dieu, et il attend la résurrection."
+        },
+        {
+          "verset": "1 Th 4:13-14"
+        },
+        {
+          "sous_titre": "Face à la souffrance et à l'injustice"
+        },
+        {
+          "texte": "Quand on voit les méchants prospérer, les corrompus s'enrichir, les innocents souffrir, l'espérance du retour de Christ nous rappelle que l'histoire n'est pas finie. Le Juge vient. Cela nous garde de la vengeance et du découragement."
+        },
+        {
+          "sous_titre": "Dans la manière de vivre"
+        },
+        {
+          "texte": "Paul dit que la grâce de Dieu nous enseigne à renoncer à l'impiété et aux convoitises mondaines, et à vivre dans le siècle présent selon la sagesse, la justice et la piété, en attendant la bienheureuse espérance. Celui qui attend vraiment Jésus ne vit pas de la même manière que celui qui pense que ce monde est tout."
+        },
+        {
+          "verset": "Tt 2:11-13"
+        }
+      ]
+    },
+    {
+      "numero": "8",
+      "titre": "La statue et la pierre : les royaumes passent, celui de Dieu demeure",
+      "references": [
+        "Dn 2:31-35",
+        "Dn 2:44-45"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Le rêve d'un roi"
+        },
+        {
+          "texte": "Nabuchodonosor, le puissant roi de Babylone, eut un rêve qui le troubla profondément. Aucun de ses sages, de ses magiciens et de ses astrologues ne pouvait le lui expliquer. Seul Daniel, après avoir prié avec ses compagnons, reçut de Dieu la révélation."
+        },
+        {
+          "texte": "Daniel dit au roi : ô roi, tu regardais, et tu voyais une grande statue ; cette statue était immense, et d'une splendeur extraordinaire ; elle était debout devant toi, et son aspect était terrible. La tête de cette statue était d'or pur ; sa poitrine et ses bras étaient d'argent ; son ventre et ses cuisses étaient d'airain ; ses jambes, de fer ; ses pieds, en partie de fer et en partie d'argile."
+        },
+        {
+          "verset": "Dn 2:31-35"
+        },
+        {
+          "sous_titre": "La pierre"
+        },
+        {
+          "texte": "Tu regardais, lorsqu'une pierre se détacha sans le secours d'aucune main, frappa les pieds de fer et d'argile de la statue, et les mit en pièces. Alors le fer, l'argile, l'airain, l'argent et l'or furent brisés ensemble, et devinrent comme la balle qui s'échappe d'une aire en été ; le vent les emporta, et nulle trace n'en fut retrouvée. Mais la pierre qui avait frappé la statue devint une grande montagne, et remplit toute la terre."
+        },
+        {
+          "sous_titre": "L'explication"
+        },
+        {
+          "texte": "Daniel expliqua que la statue représentait une succession de royaumes humains : Babylone, la tête d'or, puis d'autres empires qui viendraient après. L'histoire a vu passer ensuite l'empire des Mèdes et des Perses, puis celui des Grecs, puis l'empire romain. Chacun semblait invincible à son époque. Chacun a disparu."
+        },
+        {
+          "texte": "Puis Daniel annonça : dans le temps de ces rois, le Dieu des cieux suscitera un royaume qui ne sera jamais détruit, et qui ne passera point sous la domination d'un autre peuple ; il brisera et anéantira tous ces royaumes-là, et lui-même subsistera éternellement."
+        },
+        {
+          "verset": "Dn 2:44-45"
+        },
+        {
+          "texte": "La pierre « détachée sans le secours d'aucune main », c'est le royaume de Dieu, que Jésus est venu établir. Il a commencé petit, comme une pierre. Mais il remplira toute la terre."
+        },
+        {
+          "sous_titre": "Pour nous aujourd'hui"
+        },
+        {
+          "texte": "Nous voyons aussi des puissances qui semblent invincibles : des gouvernements, des grandes entreprises, des idéologies, des systèmes injustes. Mais aucun royaume humain ne dure. Les dirigeants passent, les régimes tombent, les empires s'écroulent. Seul le royaume de Christ demeure."
+        },
+        {
+          "texte": "C'est pourquoi le chrétien ne met pas son espérance dans un parti politique, un président ou un pays. Il prie pour ses dirigeants, il travaille pour le bien de sa nation, mais il sait que l'avenir appartient au royaume qui ne sera jamais détruit. Et il investit sa vie dans ce royaume-là."
+        }
+      ]
+    },
+    {
+      "numero": "9",
+      "titre": "Daniel lit Jérémie : une promesse accomplie à l'année près",
+      "references": [
+        "Jr 29:10-14",
+        "Dn 9:1-2"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une lettre aux exilés"
+        },
+        {
+          "texte": "Quand les premiers Juifs furent déportés à Babylone, le prophète Jérémie leur envoya une lettre depuis Jérusalem. Les faux prophètes leur disaient : dans deux ans, vous rentrerez. Mais Jérémie leur dit la vérité : bâtissez des maisons et habitez-les ; plantez des jardins ; mariez-vous ; recherchez le bien de la ville où vous êtes. Car ainsi parle l'Éternel : dès que soixante-dix ans seront écoulés pour Babylone, je me souviendrai de vous, et j'accomplirai à votre égard ma bonne parole, en vous ramenant dans ce lieu."
+        },
+        {
+          "verset": "Jr 29:10-14"
+        },
+        {
+          "texte": "Et Dieu ajoute cette parole célèbre : car je connais les projets que j'ai formés sur vous, dit l'Éternel, projets de paix et non de malheur, afin de vous donner un avenir et de l'espérance. Vous m'invoquerez, et vous partirez ; vous me prierez, et je vous exaucerai. Vous me chercherez, et vous me trouverez, si vous me cherchez de tout votre cœur."
+        },
+        {
+          "sous_titre": "Daniel fait le calcul"
+        },
+        {
+          "texte": "Des dizaines d'années plus tard, Daniel, devenu un vieil homme à Babylone, lisait les Écritures. Il raconte : la première année du règne de Darius, moi, Daniel, je vis par les livres qu'il devait s'écouler soixante-dix ans pour les ruines de Jérusalem, d'après le nombre des années dont l'Éternel avait parlé à Jérémie, le prophète."
+        },
+        {
+          "verset": "Dn 9:1-2"
+        },
+        {
+          "texte": "Daniel a compris que le temps était presque accompli. Et que fait-il ? Il ne s'assoit pas tranquillement en attendant. Il se met à prier avec ferveur, à jeûner, à confesser les péchés de son peuple. Peu après, le roi Cyrus de Perse publiait un décret autorisant les Juifs à rentrer à Jérusalem et à rebâtir le temple. La prophétie s'est accomplie, comme Dieu l'avait dit."
+        },
+        {
+          "sous_titre": "Ce que cela nous apprend"
+        },
+        {
+          "texte": "Premièrement, Dieu tient ses promesses prophétiques avec exactitude. Ce qu'il a annoncé sur le retour de Jésus et sur la fin des temps arrivera aussi sûrement que le retour d'exil."
+        },
+        {
+          "texte": "Deuxièmement, connaître les prophéties ne rend pas passif. Daniel n'a pas dit : puisque Dieu l'a promis, je n'ai rien à faire. Il a prié pour que la promesse s'accomplisse. Ainsi, notre connaissance de l'avenir doit nous pousser à prier : que ton règne vienne."
+        },
+        {
+          "texte": "Troisièmement, en attendant l'accomplissement, Dieu demande de vivre normalement et fidèlement : bâtir, planter, se marier, rechercher le bien de la ville. L'espérance de l'avenir ne nous fait pas abandonner nos responsabilités présentes."
+        }
+      ]
+    },
+    {
+      "numero": "10",
+      "titre": "Les ossements desséchés : Dieu peut faire revivre",
+      "references": [
+        "Éz 37:1-10",
+        "Éz 37:11-14"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une vallée de mort"
+        },
+        {
+          "texte": "La main de l'Éternel fut sur le prophète Ézéchiel, et l'Éternel le transporta en esprit au milieu d'une vallée remplie d'ossements. Il le fit passer tout autour, et voici, ils étaient en très grand nombre, à la surface de la vallée, et ils étaient complètement secs."
+        },
+        {
+          "verset": "Éz 37:1-10"
+        },
+        {
+          "texte": "Dieu lui demanda : fils de l'homme, ces os pourront-ils revivre ? Ézéchiel répondit : Seigneur Éternel, tu le sais. Une réponse honnête. Humainement, c'était impossible. Mais il ne voulait pas limiter Dieu."
+        },
+        {
+          "sous_titre": "Prophétiser sur les os"
+        },
+        {
+          "texte": "L'Éternel lui dit : prophétise sur ces os, et dis-leur : ossements desséchés, écoutez la parole de l'Éternel ! Ézéchiel obéit. Pendant qu'il parlait, il y eut un bruit, et un mouvement : les os s'approchèrent les uns des autres. Des nerfs poussèrent, la chair crût, la peau les couvrit. Mais il n'y avait pas encore d'esprit en eux."
+        },
+        {
+          "texte": "Alors Dieu lui dit : prophétise, et dis à l'esprit : viens des quatre vents, souffle sur ces morts, et qu'ils revivent ! Ézéchiel prophétisa, et l'esprit entra en eux, et ils reprirent vie, et ils se tinrent sur leurs pieds : c'était une armée nombreuse, très nombreuse."
+        },
+        {
+          "sous_titre": "Le sens de la vision"
+        },
+        {
+          "texte": "Dieu expliqua : ces os, c'est toute la maison d'Israël. Voici, ils disent : nos os sont desséchés, notre espérance est détruite, nous sommes perdus ! Prophétise donc : voici, j'ouvrirai vos sépulcres, je vous ferai sortir de vos sépulcres, ô mon peuple, et je vous ramènerai dans le pays d'Israël. Je mettrai mon esprit en vous, et vous vivrez."
+        },
+        {
+          "verset": "Éz 37:11-14"
+        },
+        {
+          "texte": "La vision annonçait le retour du peuple de l'exil, mais aussi un renouveau spirituel plus profond : Dieu mettrait son Esprit dans son peuple. Et elle annonce aussi, de loin, la résurrection future des morts."
+        },
+        {
+          "sous_titre": "Pour ta vie et ta nation"
+        },
+        {
+          "texte": "Peut-être que ta famille, ton église, ou ta nation ressemble à cette vallée. Des mariages morts, des jeunes sans espérance, une église froide, un pays épuisé par la corruption et la violence. Beaucoup disent : notre espérance est détruite. La question de Dieu te concerne : ces os pourront-ils revivre ?"
+        },
+        {
+          "texte": "La réponse n'est pas dans nos forces, mais dans la Parole et l'Esprit. Ézéchiel a fait deux choses : il a annoncé la Parole sur ce qui était mort, et il a prié pour que l'Esprit vienne. C'est encore le chemin du réveil aujourd'hui. L'avenir que Dieu prépare n'est pas seulement la fin du monde : c'est aussi la vie qu'il veut souffler dès maintenant sur ce qui semblait mort."
+        }
+      ]
+    },
+    {
+      "numero": "11",
+      "titre": "Le loup et l'agneau : un monde enfin réconcilié",
+      "references": [
+        "És 11:1-9",
+        "Rm 8:19-21"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un roi qui vient"
+        },
+        {
+          "texte": "Ésaïe annonce la venue d'un roi : un rameau sortira du tronc d'Isaï, et un rejeton naîtra de ses racines. L'Esprit de l'Éternel reposera sur lui. Il jugera les pauvres avec équité, et il prononcera avec droiture sur les malheureux de la terre."
+        },
+        {
+          "verset": "És 11:1-9"
+        },
+        {
+          "texte": "Isaï était le père de David. Ce rameau, c'est le Messie, Jésus, le descendant de David. Et le prophète décrit ce qui arrivera quand son règne sera pleinement établi."
+        },
+        {
+          "sous_titre": "Une image saisissante"
+        },
+        {
+          "texte": "Le loup habitera avec l'agneau, et la panthère se couchera avec le chevreau ; le veau, le lionceau et le bétail qu'on engraisse seront ensemble, et un petit enfant les conduira. La vache et l'ourse auront un même pâturage, leurs petits un même gîte ; et le lion, comme le bœuf, mangera de la paille. Le nourrisson s'ébattra sur l'antre de la vipère, et l'enfant sevré mettra sa main dans la caverne du basilic."
+        },
+        {
+          "texte": "Pour des gens qui vivent au milieu de la brousse, cette image est très forte. Imagine un enfant qui joue tranquillement près d'un serpent venimeux. Un lion qui mange de l'herbe à côté d'une chèvre. Plus aucune peur, plus aucune violence, plus aucune mort."
+        },
+        {
+          "texte": "Et le prophète conclut : il ne se fera ni tort ni dommage sur toute ma montagne sainte ; car la terre sera remplie de la connaissance de l'Éternel, comme le fond de la mer par les eaux qui le couvrent."
+        },
+        {
+          "sous_titre": "Toute la création attend"
+        },
+        {
+          "texte": "Paul explique que la création elle-même souffre aujourd'hui à cause du péché de l'homme, et qu'elle attend sa libération : la création attend avec un ardent désir la révélation des fils de Dieu. Elle a été soumise à la vanité, avec l'espérance qu'elle aussi sera affranchie de la servitude de la corruption, pour avoir part à la liberté de la gloire des enfants de Dieu."
+        },
+        {
+          "verset": "Rm 8:19-21"
+        },
+        {
+          "texte": "La sécheresse, les maladies, les guerres entre peuples, la violence des animaux et des hommes, la mort : tout cela n'est pas la fin de l'histoire. Dieu va restaurer sa création."
+        },
+        {
+          "sous_titre": "Commencer dès maintenant"
+        },
+        {
+          "texte": "En attendant ce jour, le chrétien est appelé à vivre déjà comme un citoyen de ce monde réconcilié. Là où il y avait des loups et des agneaux, des ennemis, des tribus opposées, des familles divisées, l'Évangile commence déjà à créer la paix. Quand un ancien ennemi devient ton frère en Christ, c'est un petit signe du jour où le loup habitera avec l'agneau."
+        },
+        {
+          "texte": "On raconte qu'après une guerre entre deux ethnies dans une région d'Afrique, un pasteur a organisé un culte de réconciliation. Un homme qui avait perdu son frère dans les massacres s'est retrouvé face à l'homme qui l'avait tué, devenu chrétien en prison. Devant toute l'assemblée, le meurtrier s'est mis à genoux et a demandé pardon. Le frère de la victime est resté longtemps immobile. Puis il l'a relevé et l'a serré dans ses bras, en pleurant. Le pasteur a dit simplement : « Aujourd'hui, nous avons vu un petit morceau du royaume qui vient. »"
+        }
+      ]
+    },
+    {
+      "numero": "12",
+      "titre": "Conclusion",
+      "references": [
+        "Ap 22:20"
+      ],
+      "blocs": [
+        {
+          "texte": "La Bible se termine par une promesse de Jésus : oui, je viens bientôt. Et par la réponse de l'Église : Amen ! Viens, Seigneur Jésus ! Est-ce que tu peux dire cela avec joie aujourd'hui ? Si ce n'est pas le cas, quelque chose doit être réglé maintenant."
+        },
+        {
+          "verset": "Ap 22:20"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "Les signes donnés par Jésus",
-   "references": [
-    "Mt 24:4-14",
-    "2 Tm 3:1-5"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "Ne vous laissez pas séduire"
+      "question": "Quelle est la première chose que Jésus a dite sur les signes de la fin ?",
+      "choix": [
+        "Calculez les dates",
+        "Prenez garde que personne ne vous séduise",
+        "Fuyez dans les montagnes"
+      ],
+      "reponse": 1,
+      "explication": "(Matthieu 24:4)",
+      "section": "2"
     },
     {
-     "texte": "Quand ses disciples lui ont demandé les signes de la fin, la première chose que Jésus a dite est : prenez garde que personne ne vous séduise. Puis il a parlé de faux christs, de guerres, de famines, de tremblements de terre, de persécutions, de l'amour qui se refroidit. Et il a ajouté : cette bonne nouvelle du royaume sera prêchée dans le monde entier, puis viendra la fin."
+      "question": "Selon Hébreux 9:27, qu'arrive-t-il après la mort ?",
+      "choix": [
+        "La réincarnation",
+        "Le jugement",
+        "On devient un ancêtre protecteur"
+      ],
+      "reponse": 1,
+      "explication": "(Hébreux 9:27)",
+      "section": "4"
     },
     {
-     "verset": "Mt 24:4-14"
+      "question": "Que veut dire veiller selon Jésus ?",
+      "choix": [
+        "Ne plus travailler",
+        "Faire fidèlement ce que le Maître a confié jusqu'à son retour",
+        "Chercher la date de son retour"
+      ],
+      "reponse": 1,
+      "explication": "(Matthieu 24:46)",
+      "section": "5"
     },
     {
-     "sous_titre": "Des temps difficiles"
+      "question": "Que dit Jésus de la date de son retour ?",
+      "choix": [
+        "Elle est écrite dans l'Apocalypse",
+        "Personne ne la connaît, sinon le Père",
+        "Les prophètes la connaissent"
+      ],
+      "reponse": 1,
+      "explication": "(Matthieu 24:36)",
+      "section": "6"
     },
     {
-     "texte": "Paul décrit les derniers jours : les hommes seront égoïstes, amis de l'argent, rebelles à leurs parents, ingrats, aimant le plaisir plus que Dieu, ayant l'apparence de la piété mais reniant ce qui en fait la force. Remarque que beaucoup de ces signes ne sont pas dans le monde, mais dans la religion."
+      "question": "Comment le chrétien vit-il le deuil selon 1 Thessaloniciens 4:13 ?",
+      "choix": [
+        "Sans pleurer",
+        "Il pleure, mais pas comme ceux qui n'ont pas d'espérance",
+        "Avec des rites pour apaiser le mort"
+      ],
+      "reponse": 1,
+      "explication": "(1 Thessaloniciens 4:13)",
+      "section": "7"
     },
     {
-     "verset": "2 Tm 3:1-5"
+      "question": "Que représente la pierre qui brise la statue dans le rêve de Nabuchodonosor ?",
+      "choix": [
+        "Un nouveau roi de Babylone",
+        "Le royaume de Dieu, qui ne sera jamais détruit et remplira la terre",
+        "Une catastrophe naturelle"
+      ],
+      "reponse": 1,
+      "explication": "Daniel 2:44-45.",
+      "section": "8"
+    },
+    {
+      "question": "Qu'a fait Daniel quand il a compris que les soixante-dix ans annoncés par Jérémie étaient presque accomplis ?",
+      "choix": [
+        "Il a attendu sans rien faire",
+        "Il s'est mis à prier, jeûner et confesser les péchés du peuple",
+        "Il a annoncé une autre date"
+      ],
+      "reponse": 1,
+      "explication": "Daniel 9:2-3.",
+      "section": "9"
+    },
+    {
+      "question": "Quelles sont les deux choses qu'Ézéchiel a faites pour que les os revivent ?",
+      "choix": [
+        "Il les a enterrés et a pleuré",
+        "Il a annoncé la Parole sur eux et a prophétisé à l'Esprit de venir",
+        "Il a fui la vallée"
+      ],
+      "reponse": 1,
+      "explication": "Ézéchiel 37:4-10.",
+      "section": "10"
+    },
+    {
+      "question": "Que décrit l'image du loup qui habite avec l'agneau ?",
+      "choix": [
+        "La vie actuelle",
+        "Le monde réconcilié et restauré sous le règne du Messie",
+        "Une fable sans importance"
+      ],
+      "reponse": 1,
+      "explication": "Ésaïe 11:6-9 ; Romains 8:21.",
+      "section": "11"
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "L'antichrist et la grande séduction",
-   "references": [
-    "2 Th 2:3-4",
-    "1 Jn 2:18",
-    "2 Th 2:8"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "L'homme du péché"
-    },
-    {
-     "texte": "Paul annonce qu'avant le retour du Seigneur, il viendra un homme du péché, qui s'élèvera au-dessus de tout ce qu'on appelle Dieu. Jean dit qu'il y a déjà beaucoup d'antichrists, c'est-à-dire beaucoup de gens et de systèmes opposés à Christ."
-    },
-    {
-     "verset": "2 Th 2:3-4"
-    },
-    {
-     "sous_titre": "Il sera détruit"
-    },
-    {
-     "texte": "Le même passage dit que le Seigneur Jésus le détruira par le souffle de sa bouche. Le chrétien ne vit pas dans la peur de l'antichrist. Il vit dans l'attente de Christ."
-    },
-    {
-     "verset": "2 Th 2:8"
-    },
-    {
-     "sous_titre": "Avec humilité"
-    },
-    {
-     "texte": "Les chrétiens sincères ne sont pas tous d'accord sur l'ordre exact des événements de la fin : l'enlèvement, la grande tribulation, le millénium. Sois prudent avec ceux qui présentent leur schéma comme la seule vérité, et fuis ceux qui annoncent des dates ou qui identifient l'antichrist avec certitude chaque année. L'essentiel est clair : Jésus revient, il faut être prêt."
-    }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "Ce qui arrive à la mort",
-   "references": [
-    "He 9:27",
-    "Ph 1:21-23",
-    "2 Co 5:8",
-    "Lc 16:22-26"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Une seule fois"
-    },
-    {
-     "texte": "Il est réservé aux hommes de mourir une seule fois, après quoi vient le jugement. Il n'y a pas de réincarnation, pas de retour comme ancêtre pour protéger la famille, pas de seconde chance après la mort."
-    },
-    {
-     "verset": "He 9:27"
-    },
-    {
-     "sous_titre": "Être avec Christ"
-    },
-    {
-     "texte": "Paul disait : Christ est ma vie, et la mort m'est un gain. J'ai le désir de m'en aller et d'être avec Christ, ce qui de beaucoup est le meilleur. Pour le croyant, mourir, c'est quitter ce corps et demeurer auprès du Seigneur. Les rites de veuvage et les sacrifices aux morts n'ajoutent rien et ne protègent rien. Celui qui est mort en Christ est auprès de lui."
-    },
-    {
-     "verset": "Ph 1:21-23"
-    },
-    {
-     "sous_titre": "Le riche et Lazare"
-    },
-    {
-     "texte": "Jésus a raconté l'histoire d'un riche et d'un pauvre nommé Lazare. À la mort, Lazare est consolé, le riche est dans les tourments. Entre les deux, un grand abîme que personne ne peut traverser. Ta décision pour Christ se prend dans cette vie."
-    },
-    {
-     "verset": "Lc 16:22-26"
-    }
-   ]
-  },
-  {
-   "numero": "5",
-   "titre": "Vivre aujourd'hui en veillant",
-   "references": [
-    "Mt 24:44-46",
-    "2 P 3:11-12",
-    "1 Th 5:4-6"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Le serviteur fidèle"
-    },
-    {
-     "texte": "Jésus a parlé du serviteur que son maître, à son arrivée, trouvera faisant ce qu'il doit faire. Heureux ce serviteur. Veiller, ce n'est pas regarder le ciel en attendant. C'est faire fidèlement aujourd'hui ce que le Maître t'a confié."
-    },
-    {
-     "verset": "Mt 24:44-46"
-    },
-    {
-     "sous_titre": "Quelles personnes devons-nous être ?"
-    },
-    {
-     "texte": "Pierre tire la conclusion : puisque tout cela doit se dissoudre, quelles ne doivent pas être la sainteté de votre conduite et votre piété ! La prophétie biblique doit produire la sainteté, pas la panique."
-    },
-    {
-     "verset": "2 P 3:11-12"
-    }
-   ]
-  },
-  {
-   "numero": "6",
-   "titre": "Comment lire les prophéties sans se tromper",
-   "references": [
-    "Dt 18:21-22",
-    "Mt 24:36",
-    "Ac 1:6-8"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Les faux prophètes de la fin"
-    },
-    {
-     "texte": "Dieu a donné un critère simple : quand ce que dit le prophète au nom de l'Éternel n'a pas lieu et n'arrive pas, c'est une parole que l'Éternel n'a point dite. Des dizaines de prédicateurs ont annoncé une date pour la fin du monde ou l'enlèvement ; toutes ces dates sont passées. Il ne faut pas les écouter, ni avoir peur d'eux."
-    },
-    {
-     "verset": "Dt 18:21-22"
-    },
-    {
-     "sous_titre": "Personne ne connaît le jour"
-    },
-    {
-     "texte": "Jésus a dit : « Pour ce qui est du jour et de l'heure, personne ne le sait, ni les anges des cieux, ni le Fils, mais le Père seul. » Celui qui prétend connaître la date en sait donc plus que Jésus lui-même dans son humanité. C'est suffisant pour le rejeter."
-    },
-    {
-     "verset": "Mt 24:36"
-    },
-    {
-     "sous_titre": "Ce que Jésus a répondu aux curieux"
-    },
-    {
-     "texte": "Avant de monter au ciel, les disciples ont demandé : « Seigneur, est-ce en ce temps que tu rétabliras le royaume d'Israël ? » Jésus a répondu : « Ce n'est pas à vous de connaître les temps ou les moments. Mais vous recevrez une puissance, et vous serez mes témoins. » Jésus détourne notre curiosité vers notre mission. La meilleure façon de se préparer à son retour, c'est d'annoncer l'Évangile."
-    },
-    {
-     "verset": "Ac 1:6-8"
-    }
-   ]
-  },
-  {
-   "numero": "7",
-   "titre": "L'espérance qui change la vie aujourd'hui",
-   "references": [
-    "1 Th 4:13-14",
-    "Tt 2:11-13"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Face au deuil"
-    },
-    {
-     "texte": "Paul ne veut pas que les chrétiens soient dans l'ignorance au sujet de ceux qui dorment, afin qu'ils ne s'affligent pas comme les autres qui n'ont point d'espérance. Le chrétien pleure ses morts, mais il ne pleure pas sans espérance. Aux enterrements, il n'a pas besoin des rites de peur ou des cérémonies pour « apaiser » le défunt. Il remet ceux qui sont morts en Christ à Dieu, et il attend la résurrection."
-    },
-    {
-     "verset": "1 Th 4:13-14"
-    },
-    {
-     "sous_titre": "Face à la souffrance et à l'injustice"
-    },
-    {
-     "texte": "Quand on voit les méchants prospérer, les corrompus s'enrichir, les innocents souffrir, l'espérance du retour de Christ nous rappelle que l'histoire n'est pas finie. Le Juge vient. Cela nous garde de la vengeance et du découragement."
-    },
-    {
-     "sous_titre": "Dans la manière de vivre"
-    },
-    {
-     "texte": "Paul dit que la grâce de Dieu nous enseigne à renoncer à l'impiété et aux convoitises mondaines, et à vivre dans le siècle présent selon la sagesse, la justice et la piété, en attendant la bienheureuse espérance. Celui qui attend vraiment Jésus ne vit pas de la même manière que celui qui pense que ce monde est tout."
-    },
-    {
-     "verset": "Tt 2:11-13"
-    }
-   ]
-  },
-  {
-   "numero": "8",
-   "titre": "Conclusion",
-   "references": [
-    "Ap 22:20"
-   ],
-   "blocs": [
-    {
-     "texte": "La Bible se termine par une promesse de Jésus : oui, je viens bientôt. Et par la réponse de l'Église : Amen ! Viens, Seigneur Jésus ! Est-ce que tu peux dire cela avec joie aujourd'hui ? Si ce n'est pas le cas, quelque chose doit être réglé maintenant."
-    },
-    {
-     "verset": "Ap 22:20"
-    }
-   ]
-  }
- ],
- "questions": [
-  {
-   "question": "Quelle est la première chose que Jésus a dite sur les signes de la fin ?",
-   "choix": [
-    "Calculez les dates",
-    "Prenez garde que personne ne vous séduise",
-    "Fuyez dans les montagnes"
-   ],
-   "reponse": 1,
-   "explication": "(Matthieu 24:4)",
-   "section": "2"
-  },
-  {
-   "question": "Selon Hébreux 9:27, qu'arrive-t-il après la mort ?",
-   "choix": [
-    "La réincarnation",
-    "Le jugement",
-    "On devient un ancêtre protecteur"
-   ],
-   "reponse": 1,
-   "explication": "(Hébreux 9:27)",
-   "section": "4"
-  },
-  {
-   "question": "Que veut dire veiller selon Jésus ?",
-   "choix": [
-    "Ne plus travailler",
-    "Faire fidèlement ce que le Maître a confié jusqu'à son retour",
-    "Chercher la date de son retour"
-   ],
-   "reponse": 1,
-   "explication": "(Matthieu 24:46)",
-   "section": "5"
-  },
-  {
-   "question": "Que dit Jésus de la date de son retour ?",
-   "choix": [
-    "Elle est écrite dans l'Apocalypse",
-    "Personne ne la connaît, sinon le Père",
-    "Les prophètes la connaissent"
-   ],
-   "reponse": 1,
-   "explication": "(Matthieu 24:36)",
-   "section": "6"
-  },
-  {
-   "question": "Comment le chrétien vit-il le deuil selon 1 Thessaloniciens 4:13 ?",
-   "choix": [
-    "Sans pleurer",
-    "Il pleure, mais pas comme ceux qui n'ont pas d'espérance",
-    "Avec des rites pour apaiser le mort"
-   ],
-   "reponse": 1,
-   "explication": "(1 Thessaloniciens 4:13)",
-   "section": "7"
-  }
- ],
- "devoir": [
-  "Lis Matthieu 24 et 25 en entier.",
-  "Si Jésus revenait ce soir, qu'est-ce qui ne serait pas en ordre dans ta vie ? Écris-le et règle-le cette semaine.",
-  "Si tu as encore des pratiques liées aux morts ou aux ancêtres dans ta famille, parles-en à ton pasteur."
- ],
- "prieres_liees": [
-  "theme:priere-foi-et-confiance"
- ],
- "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-14",
- "relu": false
+  ],
+  "devoir": [
+    "Lis Matthieu 24 et 25 en entier.",
+    "Si Jésus revenait ce soir, qu'est-ce qui ne serait pas en ordre dans ta vie ? Écris-le et règle-le cette semaine.",
+    "Si tu as encore des pratiques liées aux morts ou aux ancêtres dans ta famille, parles-en à ton pasteur."
+  ],
+  "prieres_liees": [
+    "theme:priere-foi-et-confiance"
+  ],
+  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-14",
+  "relu": false
 }
