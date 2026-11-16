@@ -1,38 +1,214 @@
 {
  "id": "decouvrir-jesus-07",
  "jour": 7,
- "titre": "Se repentir : changer de direction",
  "image": "/assets/vie-chretienne/priere-au-pied-de-la-croix.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
+ "titre": "Se repentir : changer de direction",
+ "objectifs": [
+  "Ce que veut dire se repentir, et ce que ce n'est pas",
+  "La différence entre le remords et la vraie repentance",
+  "Pourquoi Dieu demande à tous de se repentir",
+  "Les fruits concrets de la repentance, jusqu'à la réparation",
+  "Comment Dieu accueille celui qui revient",
+  "Pourquoi la repentance est aussi un cadeau de Dieu"
+ ],
+ "introduction": [
+  "Le premier message de Jean-Baptiste, puis le premier message de Jésus, puis le premier message des apôtres à la Pentecôte commencent tous par le même mot : repentez-vous. Jésus parcourait la Galilée en disant : le temps est accompli, et le royaume de Dieu est proche. Repentez-vous, et croyez à la bonne nouvelle (Marc 1:15).",
+  "Nous avons vu que nous sommes pécheurs, que Jésus est mort pour nos péchés et qu'il est ressuscité. Mais comment ce salut devient-il le nôtre ? La Bible répond par deux mots inséparables : la repentance et la foi. Dans cette leçon, nous parlons de la repentance. Beaucoup la confondent avec la tristesse, la peur ou les bonnes résolutions. Voyons ce qu'elle est vraiment."
+ ],
  "sections": [
   {
    "titre": "Ce que veut dire se repentir",
    "texte": [
-    "Se repentir, ce n'est pas seulement regretter. Judas a regretté, mais il ne s'est pas repenti. Se repentir, c'est changer de direction : reconnaître devant Dieu que l'on a péché, sans excuse, avoir le cœur brisé à cause de cela, et décider de s'en détourner.",
-    "La Bible dit : celui qui cache ses transgressions ne prospère point, mais celui qui les avoue et les délaisse obtient miséricorde (Proverbes 28:13). Deux verbes : avouer et délaisser. Avouer, c'est appeler le péché par son nom. Délaisser, c'est l'abandonner : le mensonge, l'impudicité, les fétiches, la colère, le vol. On ne peut pas suivre Jésus en gardant ses idoles dans la poche."
+    "### Changer de pensée",
+    "Dans le Nouveau Testament, le mot grec traduit par « repentance » veut dire littéralement : changer de pensée, changer d'esprit. Ce n'est pas seulement changer de comportement à l'extérieur, c'est changer de regard sur Dieu, sur le péché et sur soi-même. Avant, je pensais que mon péché n'était pas grave ; maintenant je vois qu'il est une offense contre un Dieu saint. Avant, je pensais être assez bon ; maintenant je sais que j'ai besoin d'un Sauveur.",
+    "### Faire demi-tour",
+    "Dans l'Ancien Testament, le mot principal veut dire : se retourner, revenir. Imagine un voyageur qui marche vers Douala alors qu'il voulait aller à Yaoundé. Quand il découvre son erreur, il ne suffit pas qu'il soit triste ou qu'il ralentisse. Il doit faire demi-tour. Se repentir, c'est tourner le dos au péché et revenir vers Dieu. Le prophète Ézéchiel disait : revenez et détournez-vous de toutes vos transgressions. Pourquoi mourriez-vous ? (Ézéchiel 18:30-31).",
+    "### Trois dimensions",
+    "La vraie repentance touche toute la personne. L'intelligence : je reconnais que j'ai péché, je vois les choses comme Dieu les voit. Le cœur : je suis attristé, non seulement à cause des conséquences, mais parce que j'ai offensé Dieu. La volonté : je décide de me détourner du péché et de suivre Dieu. Une repentance qui touche seulement l'intelligence reste théorique. Une repentance qui touche seulement le cœur reste une émotion. Une vraie repentance change la direction de la vie."
+   ]
+  },
+  {
+   "titre": "Ce que la repentance n'est pas",
+   "texte": [
+    "### Ce n'est pas seulement pleurer",
+    "On peut pleurer beaucoup pendant une veillée et ne rien changer le lendemain. Les larmes peuvent accompagner la repentance, mais elles ne la remplacent pas.",
+    "### Ce n'est pas seulement avoir peur",
+    "Certains « se repentent » parce qu'ils ont peur de l'enfer, d'une maladie ou d'une punition. Dès que le danger passe, ils reviennent à leur vie d'avant. Pharaon a dit plusieurs fois à Moïse : j'ai péché, priez pour moi. Mais dès que la plaie s'arrêtait, il endurcissait son cœur (Exode 9:27-35).",
+    "### Ce n'est pas faire pénitence",
+    "Dans certaines traditions, on pense qu'on doit payer soi-même ses péchés par des souffrances, des privations, des pèlerinages ou des offrandes. Mais nous ne pouvons pas payer nos péchés : Jésus les a déjà payés. La repentance n'est pas une manière de mériter le pardon ; c'est la porte par laquelle on reçoit le pardon gratuit.",
+    "### Ce n'est pas une seule fois pour toutes",
+    "La repentance qui conduit au salut est un tournant décisif, une fois. Mais toute la vie chrétienne reste une vie de repentance : chaque fois que le Saint-Esprit nous montre un péché, nous le confessons et nous nous en détournons."
+   ]
+  },
+  {
+   "titre": "Remords ou repentance ?",
+   "texte": [
+    "### Deux tristesses",
+    "> 2 Co 7:10",
+    "Paul distingue deux sortes de tristesse. La tristesse selon Dieu produit une repentance à salut dont on ne se repent jamais, tandis que la tristesse du monde produit la mort. La tristesse du monde regrette d'avoir été découvert, regrette les conséquences, s'enfonce dans la honte et le désespoir. La tristesse selon Dieu regrette d'avoir offensé Dieu, et elle conduit vers lui.",
+    "### Judas et Pierre",
+    "Judas et Pierre ont tous les deux trahi Jésus la même nuit. Judas l'a livré pour trente pièces d'argent ; Pierre l'a renié trois fois. Les deux ont regretté amèrement. Mais Judas, rongé par le remords, est allé se pendre. Pierre, lui, a pleuré, et il est revenu vers Jésus. La différence n'est pas la gravité de la faute : c'est la direction prise après. Le remords tourne vers soi-même. La repentance tourne vers Dieu.",
+    "### Pour celui qui se sent trop coupable",
+    "Si tu es écrasé par la honte de ton passé, écoute bien : le diable veut te conduire au désespoir de Judas. Jésus veut te conduire au pardon de Pierre. Aucun péché n'est trop grand pour la grâce de Dieu quand on revient vraiment à lui."
    ]
   },
   {
    "titre": "Dieu l'ordonne à tous",
    "texte": [
-    "Ce n'est pas une option. Dieu annonce maintenant à tous les hommes, en tous lieux, qu'ils aient à se repentir, parce qu'il a fixé un jour où il jugera le monde selon la justice (Actes 17:30-31). Tous les hommes : les religieux et les incroyants, les jeunes et les vieux.",
-    "Jésus a été très direct : si vous ne vous repentez, vous périrez tous (Luc 13:3). Ce n'est pas une menace pour faire peur, c'est un avertissement d'amour, comme celui qui crie à quelqu'un qui marche vers un précipice."
+    "### Un ordre universel",
+    "Paul a dit aux philosophes d'Athènes : Dieu, sans tenir compte des temps d'ignorance, annonce maintenant à tous les hommes, en tous lieux, qu'ils aient à se repentir, parce qu'il a fixé un jour où il jugera le monde selon la justice (Actes 17:30-31). Tous les hommes, en tous lieux : les religieux et les incroyants, les riches et les pauvres, les jeunes et les vieux, les chefs et les simples villageois.",
+    "### Un avertissement d'amour",
+    "Jésus a été très direct : si vous ne vous repentez, vous périrez tous également (Luc 13:3). Ce n'est pas une menace pour faire peur. C'est comme celui qui crie à un ami qui marche vers un précipice dans la nuit : arrête-toi, fais demi-tour ! L'avertissement est sévère parce que l'amour est sérieux.",
+    "### Les religieux aussi",
+    "Le premier sermon de Jean-Baptiste a été le plus dur pour les religieux qui venaient se faire baptiser sans changer de vie : races de vipères, produisez donc du fruit digne de la repentance, et ne prétendez pas dire en vous-mêmes : nous avons Abraham pour père ! (Matthieu 3:7-9). Être né dans une famille chrétienne, avoir été baptisé enfant, chanter dans une chorale ne remplace pas la repentance personnelle."
+   ]
+  },
+  {
+   "titre": "Les fruits de la repentance",
+   "texte": [
+    "### Une vie qui change",
+    "Quand les foules demandaient à Jean-Baptiste : que devons-nous faire ? il donnait des réponses très concrètes.",
+    "> Lc 3:10-14",
+    "Que celui qui a deux tuniques partage avec celui qui n'en a point. Aux collecteurs d'impôts : n'exigez rien au-delà de ce qui vous a été ordonné. Aux soldats : ne commettez ni extorsion ni fraude envers personne, et contentez-vous de votre solde. La repentance se voit dans le portefeuille, dans le travail, dans la manière de traiter les autres.",
+    "### Avouer et délaisser",
+    "Les Proverbes résument : celui qui cache ses transgressions ne prospère point, mais celui qui les avoue et les délaisse obtient miséricorde (Proverbes 28:13). Deux verbes. Avouer, c'est appeler le péché par son nom, sans excuses : non pas « j'ai eu un petit problème », mais « j'ai menti », « j'ai volé », « j'ai commis l'adultère ». Délaisser, c'est l'abandonner réellement.",
+    "### Se séparer des idoles et des fétiches",
+    "Pour beaucoup d'Africains qui viennent à Christ, la repentance inclut une rupture claire avec les pratiques occultes : fétiches, amulettes, scarifications de protection, consultations de marabouts, pactes avec les ancêtres, sociétés secrètes. Paul félicite les chrétiens de Thessalonique parce qu'ils s'étaient convertis à Dieu en abandonnant les idoles pour servir le Dieu vivant et vrai (1 Thessaloniciens 1:9). On ne peut pas suivre Jésus en gardant ses idoles dans la poche. Ces objets doivent être détruits, avec prière, et si possible avec l'aide de responsables de l'église.",
+    "### Réparer quand c'est possible",
+    "La vraie repentance cherche aussi à réparer le tort fait aux autres, quand c'est possible : rendre ce qui a été volé, rembourser une dette, demander pardon à la personne blessée, dire la vérité sur un mensonge qui a nui à quelqu'un. Quand Zachée a rencontré Jésus, il a dit spontanément : je rends le quadruple à ceux à qui j'ai fait tort. Cette réparation ne nous sauve pas, mais elle montre que notre cœur a vraiment changé. Pour les cas compliqués, demande conseil à un pasteur."
    ]
   },
   {
    "titre": "Le Père qui accueille",
    "texte": [
-    "Jésus a raconté l'histoire d'un fils qui avait gaspillé tout l'héritage de son père dans la débauche. Ruiné, il décide de rentrer. Et voici ce que fait le père : comme il était encore loin, son père le vit et fut ému de compassion, il courut se jeter à son cou et le baisa (Luc 15:20). Le père n'a pas attendu qu'il finisse ses excuses.",
-    "C'est ainsi que Dieu accueille celui qui se repent. Pierre disait : repentez-vous donc et convertissez-vous, pour que vos péchés soient effacés (Actes 3:19). Effacés, comme on efface un tableau. Peu importe ce que tu as fait : si tu reviens sincèrement, Dieu t'attend les bras ouverts."
+    "### Le fils qui revient",
+    "Jésus a raconté l'histoire d'un fils qui avait exigé sa part d'héritage, l'avait gaspillée dans la débauche, et s'était retrouvé à garder des porcs, affamé. Un jour, il rentre en lui-même et dit : je me lèverai, j'irai vers mon père, et je lui dirai : mon père, j'ai péché contre le ciel et contre toi.",
+    "> Lc 15:20-24",
+    "Et voici ce que fait le père : comme il était encore loin, son père le vit et fut ému de compassion, il courut se jeter à son cou et le baisa. Le père n'a pas attendu que son fils finisse ses excuses. Il l'a habillé, lui a mis un anneau au doigt, et a organisé une fête.",
+    "### Les trois étapes du fils",
+    "Remarque les étapes. Il rentre en lui-même : il voit enfin la vérité sur sa situation. Il se lève : il prend la décision. Il va vers son père : il agit. Il ne reste pas assis à pleurer au milieu des porcs. C'est le chemin de la repentance.",
+    "### La joie dans le ciel",
+    "Jésus a dit : il y aura plus de joie dans le ciel pour un seul pécheur qui se repent, que pour quatre-vingt-dix-neuf justes qui n'ont pas besoin de repentance (Luc 15:7). Quand tu reviens vers Dieu, le ciel fait la fête."
+   ]
+  },
+  {
+   "titre": "Un cadeau de Dieu",
+   "texte": [
+    "### Dieu donne la repentance",
+    "On pourrait penser que la repentance est un effort humain difficile. Mais la Bible dit que c'est Dieu qui donne la repentance. Quand les croyants de Jérusalem ont appris que des païens s'étaient convertis, ils ont glorifié Dieu en disant : Dieu a donc accordé la repentance aussi aux païens, afin qu'ils aient la vie (Actes 11:18).",
+    "### La bonté qui pousse à revenir",
+    "Paul écrit : ne reconnais-tu pas que la bonté de Dieu te pousse à la repentance ? (Romains 2:4). Ce n'est pas d'abord la peur qui nous fait revenir, c'est la bonté de Dieu. Quand nous voyons combien il nous aime, à la croix, nous ne voulons plus continuer à le blesser.",
+    "### Demande-la",
+    "Si ton cœur est dur, si tu n'arrives pas à regretter ton péché, demande à Dieu de te donner la repentance. Il ne refusera pas. David priait : ô Dieu, crée en moi un cœur pur, renouvelle en moi un esprit bien disposé (Psaume 51:12)."
+   ]
+  },
+  {
+   "titre": "Repentance et foi ensemble",
+   "texte": [
+    "### Les deux faces d'une même pièce",
+    "La repentance et la foi vont toujours ensemble. Se repentir, c'est tourner le dos au péché. Croire, c'est tourner le visage vers Jésus. On ne peut pas faire l'un sans l'autre, comme on ne peut pas faire demi-tour sans regarder dans une nouvelle direction. Paul résume son message : j'ai annoncé aux Juifs et aux Grecs la repentance envers Dieu et la foi en notre Seigneur Jésus-Christ (Actes 20:21).",
+    "### Le pardon effacé",
+    "Pierre disait au peuple de Jérusalem : repentez-vous donc et convertissez-vous, pour que vos péchés soient effacés (Actes 3:19). Effacés, comme on efface un tableau noir à la fin de la classe. Il ne reste plus rien d'écrit.",
+    "On raconte l'histoire d'un homme qui avait volé plusieurs sacs de ciment sur un chantier, des années avant sa conversion. Après avoir donné sa vie à Jésus, il n'arrivait pas à oublier cette faute. Il économisa pendant des mois, alla voir l'entrepreneur, lui raconta tout et lui remit l'argent. L'entrepreneur, surpris, lui dit : « Je n'avais même pas remarqué le vol. Pourquoi venez-vous me le dire ? » L'homme répondit : « Parce que Jésus m'a pardonné, et je veux que ma vie le montre. » L'entrepreneur, qui n'allait jamais à l'église, vint le dimanche suivant voir quelle sorte de Dieu changeait ainsi un homme."
    ]
   }
  ],
+ "conclusion": [
+  "Se repentir, c'est changer de pensée et faire demi-tour : reconnaître notre péché, en être attristé devant Dieu, et nous en détourner. Ce n'est pas seulement pleurer, avoir peur ou faire pénitence. La tristesse selon Dieu conduit à lui, alors que le remords du monde conduit au désespoir. Dieu ordonne à tous de se repentir, et la vraie repentance porte des fruits concrets, jusqu'à la réparation quand c'est possible. Le Père accueille celui qui revient avec une joie immense, et c'est lui-même qui nous donne la repentance.",
+  "Dans la prochaine leçon, nous verrons l'autre face : comment recevoir Jésus par la foi et lui donner ta vie."
+ ],
+ "retenir": [
+  "Se repentir, c'est changer de pensée et faire demi-tour : tourner le dos au péché pour revenir à Dieu.",
+  "La tristesse selon Dieu conduit au salut ; le remords du monde conduit au désespoir (2 Corinthiens 7:10).",
+  "Dieu ordonne à tous les hommes, en tous lieux, de se repentir (Actes 17:30).",
+  "La vraie repentance porte des fruits : avouer, délaisser, se séparer des fétiches, réparer quand c'est possible.",
+  "Le Père court au-devant de celui qui revient (Luc 15:20).",
+  "La repentance et la foi vont toujours ensemble (Marc 1:15)."
+ ],
+ "memoriser": "Ac 3:19",
+ "quiz": [
+  {
+   "question": "Que veut dire littéralement le mot grec traduit par « repentance » ?",
+   "choix": [
+    "Pleurer beaucoup",
+    "Changer de pensée",
+    "Faire des sacrifices"
+   ],
+   "reponse": 1,
+   "explication": "Changer de regard sur Dieu, le péché et soi-même.",
+   "section": "1"
+  },
+  {
+   "question": "Quelle est la différence entre Judas et Pierre après leur faute ?",
+   "choix": [
+    "Judas avait fait moins grave",
+    "Judas s'est enfoncé dans le remords ; Pierre est revenu vers Jésus",
+    "Pierre n'a pas regretté"
+   ],
+   "reponse": 1,
+   "explication": "2 Corinthiens 7:10.",
+   "section": "3"
+  },
+  {
+   "question": "Que répondait Jean-Baptiste aux soldats qui voulaient se repentir ?",
+   "choix": [
+    "Quittez l'armée",
+    "Ne commettez ni extorsion ni fraude et contentez-vous de votre solde",
+    "Donnez tout aux pauvres"
+   ],
+   "reponse": 1,
+   "explication": "Luc 3:14. La repentance se voit dans la vie concrète.",
+   "section": "5"
+  },
+  {
+   "question": "Que veulent dire les deux verbes de Proverbes 28:13 ?",
+   "choix": [
+    "Pleurer et chanter",
+    "Avouer le péché par son nom et le délaisser réellement",
+    "Cacher et oublier"
+   ],
+   "reponse": 1,
+   "explication": "Celui qui les avoue et les délaisse obtient miséricorde.",
+   "section": "5"
+  },
+  {
+   "question": "Qu'a fait le père quand il a vu son fils revenir de loin ?",
+   "choix": [
+    "Il a attendu ses excuses",
+    "Il a couru se jeter à son cou",
+    "Il l'a renvoyé"
+   ],
+   "reponse": 1,
+   "explication": "Luc 15:20.",
+   "section": "6"
+  },
+  {
+   "question": "Selon Romains 2:4, qu'est-ce qui pousse à la repentance ?",
+   "choix": [
+    "La peur de l'enfer",
+    "La bonté de Dieu",
+    "La honte devant les autres"
+   ],
+   "reponse": 1,
+   "explication": "C'est la bonté de Dieu qui nous attire.",
+   "section": "7"
+  }
+ ],
+ "pratique": "Cette semaine, prends un moment seul avec Dieu. Demande-lui de te montrer ce dont tu dois te détourner. Avoue-le par son nom. Si tu possèdes des fétiches ou des objets occultes, parle-en à un responsable de ton église pour les détruire avec prière. Si tu as fait du tort à quelqu'un, prévois comment réparer.",
+ "partage": "Parle à ton accompagnateur d'une décision concrète de repentance que tu as prise, et demande-lui de prier avec toi et de t'aider à tenir.",
  "versets": [
+  "Mc 1:15",
+  "2 Co 7:10",
   "Ac 17:30",
   "Pr 28:13",
   "Lc 15:20",
   "Ac 3:19"
  ],
- "question": "Y a-t-il un domaine précis de ta vie où tu dois changer de direction ?",
+ "question": "Y a-t-il un domaine précis de ta vie où tu dois faire demi-tour ? Qu'est-ce qui t'empêche encore de le faire ?",
  "sujets": [
   {
    "titre": "Confesser",
@@ -47,18 +223,6 @@
    "texte": "Remercie-le parce qu'il t'attend déjà les bras ouverts. (Luc 15:20)"
   }
  ],
- "priere": "Père, je reconnais mes péchés. Je regrette de t'avoir désobéi. Je veux me détourner du mal et revenir à toi. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
- "introduction": [
-  "Le premier mot de la prédication de Jésus a été : repentez-vous, et croyez à la bonne nouvelle (Marc 1:15). Beaucoup veulent un Jésus qui bénit, qui guérit, qui donne du travail, mais sans se repentir. Ce n'est pas l'Évangile. Sans repentance, il n'y a pas de salut.",
-  "Dans cette leçon, nous verrons ce que veut dire se repentir, que Dieu l'ordonne à tous, et comment le Père accueille celui qui revient."
- ],
- "conclusion": [
-  "Se repentir, c'est se retourner : tourner le dos au péché et faire face à Dieu. C'est la porte d'entrée de la vie avec Jésus.",
-  "Prends quelques minutes, seul devant Dieu, pour lui dire honnêtement ce que tu as fait de mal, et décider de t'en détourner. La prochaine leçon t'expliquera comment donner ta vie à Jésus."
- ]
+ "priere": "Père, je reviens vers toi. J'ai péché contre le ciel et contre toi. Je ne veux pas seulement regretter, je veux changer de direction. Donne-moi la repentance véritable. Je tourne le dos à mes péchés, et je me tourne vers Jésus. Merci de courir au-devant de moi. Amen.",
+ "relu": false
 }
