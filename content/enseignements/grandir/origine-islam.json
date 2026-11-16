@@ -1,381 +1,591 @@
 {
- "id": "enseignement-origine-islam",
- "titre": "L'islam : d'où vient-il, et que dit-il de Jésus ?",
- "serie": "Grandir",
- "theme": "Fondations",
- "auteur": "Yeshaya",
- "resume": "Beaucoup de chrétiens vivent à côté de musulmans sans savoir ce qu'est l'islam ni répondre à leurs questions. L'histoire de ses origines, ce que croient les musulmans, ce que le Coran dit de Jésus, et les trois grandes questions : l'islam depuis Adam ? le même Dieu ? une révélation après Jésus ? Pour connaître la vérité et aimer nos voisins musulmans.",
- "image": "/assets/personnages/femme-voilee-regard-ciel.webp",
- "verset_de_base": "Jn 14:6",
- "lecture_minutes": 18,
- "objectifs": [
-  "Connaître l'histoire des origines de l'islam.",
-  "Savoir ce que croient les musulmans.",
-  "Comparer ce que le Coran et la Bible disent de Jésus.",
-  "Répondre avec vérité aux questions « l'islam depuis Adam ? » et « le même Dieu ? ».",
-  "Aimer les musulmans et leur présenter Jésus avec respect."
- ],
- "introduction": "Dans beaucoup de pays, chrétiens et musulmans vivent dans la même famille, le même quartier, le même bureau. On mange ensemble aux fêtes, on se marie parfois entre familles, on travaille ensemble. Et pourtant, beaucoup de chrétiens ne savent presque rien de l'islam. Quand un ami musulman leur dit : « Ta Bible a été changée », « Jésus n'est pas mort », « Abraham était musulman », ou « C'est le même Dieu », ils restent sans voix ou se fâchent.\n\nCet enseignement n'est pas écrit contre les musulmans. Ils sont nos prochains, aimés de Dieu, et beaucoup sont sincères dans leur recherche de Dieu. Mais l'amour ne peut pas se passer de la vérité. Jésus a dit : je suis le chemin, la vérité, et la vie. Nul ne vient au Père que par moi (Jean 14:6). Nous allons voir d'où vient l'islam, ce qu'il enseigne, ce qu'il dit de Jésus, puis répondre honnêtement aux grandes questions.",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "Les origines de l'islam",
-   "references": [
-    "Ga 1:8",
-    "1 Jn 4:1"
-   ],
-   "blocs": [
+  "id": "enseignement-origine-islam",
+  "titre": "L'islam : d'où vient-il, et que dit-il de Jésus ?",
+  "serie": "Grandir",
+  "theme": "Fondations",
+  "auteur": "Yeshaya",
+  "resume": "Beaucoup de chrétiens vivent à côté de musulmans sans savoir ce qu'est l'islam ni répondre à leurs questions. L'histoire de ses origines, ce que croient les musulmans, ce que le Coran dit de Jésus, et les trois grandes questions : l'islam depuis Adam ? le même Dieu ? une révélation après Jésus ? Pour connaître la vérité et aimer nos voisins musulmans.",
+  "image": "/assets/personnages/femme-voilee-regard-ciel.webp",
+  "verset_de_base": "Jn 14:6",
+  "lecture_minutes": 33,
+  "objectifs": [
+    "Connaître l'histoire des origines de l'islam.",
+    "Savoir ce que croient les musulmans.",
+    "Comparer ce que le Coran et la Bible disent de Jésus.",
+    "Répondre avec vérité aux questions « l'islam depuis Adam ? » et « le même Dieu ? ».",
+    "Aimer les musulmans et leur présenter Jésus avec respect."
+  ],
+  "introduction": "Dans beaucoup de pays, chrétiens et musulmans vivent dans la même famille, le même quartier, le même bureau. On mange ensemble aux fêtes, on se marie parfois entre familles, on travaille ensemble. Et pourtant, beaucoup de chrétiens ne savent presque rien de l'islam. Quand un ami musulman leur dit : « Ta Bible a été changée », « Jésus n'est pas mort », « Abraham était musulman », ou « C'est le même Dieu », ils restent sans voix ou se fâchent.\n\nCet enseignement n'est pas écrit contre les musulmans. Ils sont nos prochains, aimés de Dieu, et beaucoup sont sincères dans leur recherche de Dieu. Mais l'amour ne peut pas se passer de la vérité. Jésus a dit : je suis le chemin, la vérité, et la vie. Nul ne vient au Père que par moi (Jean 14:6). Nous allons voir d'où vient l'islam, ce qu'il enseigne, ce qu'il dit de Jésus, puis répondre honnêtement aux grandes questions.",
+  "sections": [
     {
-     "sous_titre": "Mahomet"
+      "numero": "1",
+      "titre": "Les origines de l'islam",
+      "references": [
+        "Ga 1:8",
+        "1 Jn 4:1"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Mahomet"
+        },
+        {
+          "texte": "L'islam est né en Arabie au septième siècle après Jésus-Christ. Son fondateur, Mahomet, appelé Muhammad en arabe, est né à La Mecque vers l'an 570. Orphelin très jeune, il devient commerçant et épouse une riche veuve, Khadija. À cette époque, La Mecque est un centre religieux où l'on adore de nombreuses divinités. Des juifs et des chrétiens vivent aussi en Arabie."
+        },
+        {
+          "sous_titre": "Les révélations"
+        },
+        {
+          "texte": "Selon la tradition musulmane, vers l'an 610, alors qu'il se retirait pour méditer dans une grotte appelée Hira, Mahomet reçoit une première révélation, qu'il attribue à l'ange Gabriel. Il continue à recevoir des révélations pendant environ vingt-deux ans. Il prêche un seul Dieu, le jugement et l'abandon des idoles. Ces révélations, récitées par cœur par ses compagnons et notées sur différents supports, formeront le Coran."
+        },
+        {
+          "sous_titre": "L'hégire et l'expansion"
+        },
+        {
+          "texte": "En 622, menacé à La Mecque, Mahomet part avec ses fidèles pour la ville de Médine. Cet exil, l'hégire, marque le début du calendrier musulman. À Médine, il devient à la fois chef religieux, politique et militaire. En 630, il revient à La Mecque avec une armée et la prend. Il meurt en 632. Dans les décennies suivantes, les armées de ses successeurs conquièrent la Syrie, l'Égypte, la Perse et l'Afrique du Nord. Plus tard, l'islam arrive en Afrique de l'Ouest par le commerce à travers le Sahara, et parfois par la guerre."
+        },
+        {
+          "sous_titre": "La compilation du Coran"
+        },
+        {
+          "texte": "D'après les sources musulmanes elles-mêmes, le Coran a été rassemblé après la mort de Mahomet, puis le troisième calife, Othman, a fait établir vers l'an 650 une version officielle, et a fait détruire les autres copies qui circulaient. Il est utile de le savoir quand on nous dit que seul le Coran n'a jamais connu de variantes."
+        },
+        {
+          "sous_titre": "Pourquoi c'est important"
+        },
+        {
+          "texte": "Voici le point essentiel : l'islam est apparu environ six cents ans après Jésus, et il affirme apporter la révélation finale, qui corrige ce que les chrétiens croient de Jésus. Or Paul avait averti : quand un ange du ciel annoncerait un autre Évangile que celui que nous vous avons prêché, qu'il soit anathème. Et Jean demande d'éprouver les esprits. Une révélation attribuée à un ange n'est pas vraie parce qu'elle vient d'un ange. Elle est vraie si elle est conforme à ce que Dieu a déjà révélé en Jésus."
+        },
+        {
+          "verset": "Ga 1:8"
+        }
+      ]
     },
     {
-     "texte": "L'islam est né en Arabie au septième siècle après Jésus-Christ. Son fondateur, Mahomet, appelé Muhammad en arabe, est né à La Mecque vers l'an 570. Orphelin très jeune, il devient commerçant et épouse une riche veuve, Khadija. À cette époque, La Mecque est un centre religieux où l'on adore de nombreuses divinités. Des juifs et des chrétiens vivent aussi en Arabie."
+      "numero": "2",
+      "titre": "Ce que croient les musulmans",
+      "references": [
+        "Ep 2:8-9",
+        "Tt 3:5"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Les croyances"
+        },
+        {
+          "texte": "Les musulmans croient en un seul Dieu, Allah ; aux anges ; aux livres révélés, dont la Torah, les Psaumes, l'Évangile et le Coran ; aux prophètes, dont Adam, Noé, Abraham, Moïse, Jésus et Mahomet, considéré comme le dernier ; au jour du jugement ; et au décret divin."
+        },
+        {
+          "sous_titre": "Les cinq piliers"
+        },
+        {
+          "texte": "La pratique repose sur cinq piliers : la profession de foi, ou chahada, « Il n'y a de dieu que Dieu, et Mahomet est son messager » ; les cinq prières quotidiennes ; l'aumône obligatoire ; le jeûne du mois de Ramadan ; et le pèlerinage à La Mecque pour celui qui le peut."
+        },
+        {
+          "sous_titre": "Le salut"
+        },
+        {
+          "texte": "En islam, l'homme n'est pas considéré comme pécheur par nature. Il doit se soumettre à Dieu et accomplir ses obligations. Au jour du jugement, les bonnes et les mauvaises actions seront pesées, et Dieu pardonnera à qui il veut. Le musulman ne peut donc jamais avoir l'assurance d'être sauvé. La Bible enseigne tout autre chose : c'est par la grâce que vous êtes sauvés, par le moyen de la foi. Ce n'est point par les œuvres. Dieu nous a sauvés, non à cause des œuvres de justice que nous aurions faites, mais selon sa miséricorde."
+        },
+        {
+          "verset": "Ep 2:8-9"
+        }
+      ]
     },
     {
-     "sous_titre": "Les révélations"
+      "numero": "3",
+      "titre": "Jésus dans le Coran et dans la Bible",
+      "references": [
+        "Lc 1:34-35",
+        "Mc 10:45",
+        "1 Co 15:3-4"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Ce que le Coran dit de juste"
+        },
+        {
+          "texte": "Le Coran parle de Jésus, appelé Issa, avec un grand respect. Il dit qu'il est né d'une vierge, Marie ; qu'il est le Messie ; qu'il est une parole venant de Dieu et un esprit venant de lui ; qu'il a fait des miracles, guéri des aveugles et des lépreux, ressuscité des morts ; et qu'il reviendra. Ce sont des ponts précieux pour la conversation. La Bible aussi dit qu'il est né de la vierge Marie, par la puissance du Saint-Esprit."
+        },
+        {
+          "verset": "Lc 1:34-35"
+        },
+        {
+          "sous_titre": "Ce que le Coran nie"
+        },
+        {
+          "texte": "Mais le Coran nie trois choses qui sont au cœur de l'Évangile. Il nie que Jésus soit le Fils de Dieu et Dieu venu dans la chair ; pour le Coran, il n'est qu'un messager. Il nie que Jésus soit mort sur la croix : selon la sourate 4, verset 157, on ne l'a ni tué ni crucifié, mais cela leur a seulement paru ainsi. Et par conséquent il nie que Jésus soit mort pour nos péchés et soit ressuscité."
+        },
+        {
+          "sous_titre": "Ce que dit la Bible"
+        },
+        {
+          "texte": "Or c'est exactement l'Évangile. Jésus a dit qu'il était venu donner sa vie comme la rançon de plusieurs. Paul résume l'Évangile ainsi : Christ est mort pour nos péchés, selon les Écritures ; il a été enseveli, et il est ressuscité le troisième jour. Sans la croix et la résurrection, il n'y a pas de pardon. Le Jésus du Coran est un grand prophète ; le Jésus de la Bible est le Sauveur. On ne peut pas avoir les deux."
+        },
+        {
+          "verset": "1 Co 15:3-4"
+        },
+        {
+          "sous_titre": "Le Coran et la Trinité"
+        },
+        {
+          "texte": "Le Coran semble comprendre la Trinité chrétienne comme Dieu, Jésus et Marie (sourate 5, verset 116). Aucun chrétien biblique ne croit cela. Nous croyons en un seul Dieu, Père, Fils et Saint-Esprit, et Marie est une servante de Dieu, bénie, mais pas divine. Il est bon de corriger ce malentendu avec douceur."
+        }
+      ]
     },
     {
-     "texte": "Selon la tradition musulmane, vers l'an 610, alors qu'il se retirait pour méditer dans une grotte appelée Hira, Mahomet reçoit une première révélation, qu'il attribue à l'ange Gabriel. Il continue à recevoir des révélations pendant environ vingt-deux ans. Il prêche un seul Dieu, le jugement et l'abandon des idoles. Ces révélations, récitées par cœur par ses compagnons et notées sur différents supports, formeront le Coran."
+      "numero": "4",
+      "titre": "L'islam a-t-il commencé avec Adam ?",
+      "references": [
+        "Gn 3:15",
+        "Gn 15:6",
+        "Gn 22:13-14",
+        "Jn 8:56"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Ce que veulent dire les musulmans"
+        },
+        {
+          "texte": "Les musulmans enseignent que l'islam, qui veut dire soumission, est la religion de tous les prophètes depuis Adam, et qu'Abraham, Moïse et Jésus étaient musulmans. Ils veulent dire que tous étaient soumis au seul Dieu."
+        },
+        {
+          "sous_titre": "Ce que l'histoire montre"
+        },
+        {
+          "texte": "Mais l'islam en tant que religion, avec son livre, son prophète, sa chahada et ses cinq piliers, commence au septième siècle. Adam, Abraham, Moïse, David et Jésus n'ont jamais prononcé la chahada, n'ont jamais prié vers La Mecque, et n'ont jamais lu le Coran. Dire qu'ils étaient musulmans, c'est relire leur histoire six cents ou deux mille ans plus tard."
+        },
+        {
+          "sous_titre": "Ce que Dieu a révélé depuis Adam"
+        },
+        {
+          "texte": "Si on veut savoir quelle était la foi des prophètes, il faut lire ce qu'ils ont eux-mêmes reçu. Dès la chute, Dieu promet qu'une descendance de la femme écrasera la tête du serpent. Abraham crut à l'Éternel, qui le lui imputa à justice. Sur le mont Morija, Dieu fournit un bélier à la place du fils d'Abraham, et Abraham appela ce lieu « l'Éternel pourvoira ». Le fil qui court depuis Adam, ce n'est pas un système de lois, c'est un Sauveur promis et un sacrifice de substitution."
+        },
+        {
+          "verset": "Gn 22:13-14"
+        },
+        {
+          "sous_titre": "Abraham a vu le jour de Jésus"
+        },
+        {
+          "texte": "Jésus a dit lui-même : Abraham, votre père, a tressailli de joie de ce qu'il verrait mon jour : il l'a vu, et il s'est réjoui. Abraham n'attendait pas un nouveau livre. Il attendait le Christ."
+        },
+        {
+          "verset": "Jn 8:56"
+        }
+      ]
     },
     {
-     "sous_titre": "L'hégire et l'expansion"
+      "numero": "5",
+      "titre": "Le même Dieu ?",
+      "references": [
+        "Jn 14:9",
+        "1 Jn 2:22-23",
+        "Rm 8:15",
+        "Ac 17:23"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "La question du nom"
+        },
+        {
+          "texte": "Les chrétiens arabes appellent Dieu « Allah », et leur Bible aussi, bien avant l'islam. Le problème n'est donc pas le nom. Deux personnes peuvent parler de « mon ami Paul » et décrire deux hommes complètement différents : l'un grand et l'autre petit, l'un marié et l'autre célibataire. Ont-elles le même ami ? La question n'est pas le nom, mais la personne décrite."
+        },
+        {
+          "sous_titre": "Ce qui est commun"
+        },
+        {
+          "texte": "Chrétiens et musulmans croient en un seul Dieu, créateur du ciel et de la terre, tout-puissant, qui a parlé par des prophètes et qui jugera le monde. Ce sont de vrais points de départ pour la conversation, comme Paul est parti de l'autel au dieu inconnu à Athènes."
+        },
+        {
+          "verset": "Ac 17:23"
+        },
+        {
+          "sous_titre": "Ce qui est essentiel et différent"
+        },
+        {
+          "texte": "Mais la Bible dit que Dieu est Père, Fils et Saint-Esprit ; le Coran le nie. La Bible dit que Dieu s'est fait homme en Jésus ; le Coran le nie. La Bible dit que Dieu nous aime au point de donner son Fils pour nous sur la croix ; le Coran le nie. La Bible dit que le croyant peut appeler Dieu « Abba, Père » ; l'islam ne connaît pas Dieu comme Père. Ce ne sont pas des détails, c'est le cœur de qui est Dieu."
+        },
+        {
+          "verset": "Rm 8:15"
+        },
+        {
+          "sous_titre": "La réponse de la Bible"
+        },
+        {
+          "texte": "Jésus a dit : celui qui m'a vu a vu le Père. Et Jean écrit : quiconque nie le Fils n'a pas non plus le Père. On ne peut donc pas dire simplement que c'est le même Dieu adoré de deux manières. Le musulman sincère cherche le Dieu unique. Mais ce Dieu s'est pleinement révélé en Jésus, et c'est en Jésus qu'il veut être connu. Notre message à nos amis musulmans est : le Dieu que tu cherches s'est approché de toi en Jésus."
+        },
+        {
+          "verset": "1 Jn 2:22-23"
+        }
+      ]
     },
     {
-     "texte": "En 622, menacé à La Mecque, Mahomet part avec ses fidèles pour la ville de Médine. Cet exil, l'hégire, marque le début du calendrier musulman. À Médine, il devient à la fois chef religieux, politique et militaire. En 630, il revient à La Mecque avec une armée et la prend. Il meurt en 632. Dans les décennies suivantes, les armées de ses successeurs conquièrent la Syrie, l'Égypte, la Perse et l'Afrique du Nord. Plus tard, l'islam arrive en Afrique de l'Ouest par le commerce à travers le Sahara, et parfois par la guerre."
+      "numero": "6",
+      "titre": "Une révélation après Jésus ?",
+      "references": [
+        "He 1:1-2",
+        "Jude 3",
+        "Ap 22:18"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Le Fils, dernière parole"
+        },
+        {
+          "texte": "L'épître aux Hébreux dit : après avoir autrefois, à plusieurs reprises et de plusieurs manières, parlé à nos pères par les prophètes, Dieu, dans ces derniers temps, nous a parlé par le Fils. Le Fils n'est pas un prophète de plus dans une liste. Il est la dernière et la plus haute parole de Dieu. Il n'y a rien à ajouter à ce que Dieu a dit en Jésus."
+        },
+        {
+          "verset": "He 1:1-2"
+        },
+        {
+          "sous_titre": "La foi transmise une fois pour toutes"
+        },
+        {
+          "texte": "Jude exhorte à combattre pour la foi qui a été transmise aux saints une fois pour toutes. Toute révélation qui vient après pour corriger ce que les apôtres ont transmis au sujet de Jésus doit être rejetée, qu'elle vienne d'un fondateur de religion, d'un prophète moderne, ou d'un ange."
+        },
+        {
+          "verset": "Jude 3"
+        },
+        {
+          "sous_titre": "Le Coran lui-même renvoie à l'Évangile"
+        },
+        {
+          "texte": "Le Coran dit que la Torah et l'Évangile sont lumière et guidance (sourate 5, verset 46), et il dit aux gens de l'Évangile de juger selon ce qu'il contient (sourate 5, verset 47). Or l'Évangile que les chrétiens lisaient au septième siècle est le même que nous lisons aujourd'hui : nous en avons des manuscrits bien plus anciens. Si l'Évangile était digne de confiance au temps de Mahomet, il l'est aujourd'hui. Et il dit clairement que Jésus est mort et ressuscité."
+        }
+      ]
     },
     {
-     "sous_titre": "La compilation du Coran"
+      "numero": "7",
+      "titre": "Aimer et témoigner",
+      "references": [
+        "1 P 3:15",
+        "Lc 6:31",
+        "Mt 10:16",
+        "Ac 4:12"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Avec douceur et respect"
+        },
+        {
+          "texte": "Pierre dit : soyez toujours prêts à vous défendre, avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous. On ne gagne pas un ami musulman en insultant son prophète, en se moquant de sa prière ou en mangeant du porc devant lui pour le provoquer. On le gagne en l'aimant, en vivant une vie pure, en priant pour lui, et en lui ouvrant la Bible."
+        },
+        {
+          "verset": "1 P 3:15"
+        },
+        {
+          "sous_titre": "Prudents et simples"
+        },
+        {
+          "texte": "Jésus a dit : soyez prudents comme les serpents, et simples comme les colombes. Dans certains pays et certaines familles, devenir chrétien pour un musulman peut coûter très cher. Sois sage, ne mets pas en danger celui qui s'intéresse à Jésus, et prépare l'église à accueillir et protéger ceux qui viennent de l'islam."
+        },
+        {
+          "verset": "Mt 10:16"
+        },
+        {
+          "sous_titre": "Aucun autre nom"
+        },
+        {
+          "texte": "Mais ne cache pas la vérité par peur. Il n'y a de salut en aucun autre ; car il n'y a sous le ciel aucun autre nom qui ait été donné parmi les hommes, par lequel nous devions être sauvés. Ton ami musulman a besoin de Jésus autant que toi."
+        },
+        {
+          "verset": "Ac 4:12"
+        }
+      ]
     },
     {
-     "texte": "D'après les sources musulmanes elles-mêmes, le Coran a été rassemblé après la mort de Mahomet, puis le troisième calife, Othman, a fait établir vers l'an 650 une version officielle, et a fait détruire les autres copies qui circulaient. Il est utile de le savoir quand on nous dit que seul le Coran n'a jamais connu de variantes."
+      "numero": "8",
+      "titre": "Ce que Jésus a dit de lui-même",
+      "references": [
+        "Jn 8:57-59",
+        "Jn 10:30-33",
+        "Mc 14:61-64"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Plus qu'un prophète"
+        },
+        {
+          "texte": "Beaucoup de musulmans sincères disent : nous honorons Jésus comme un grand prophète, mais il n'a jamais dit qu'il était Dieu. C'est une question importante, et il faut y répondre avec la Bible ouverte. Qu'a dit Jésus lui-même ?"
+        },
+        {
+          "sous_titre": "« Avant qu'Abraham fût, je suis »"
+        },
+        {
+          "texte": "Un jour, des Juifs discutaient avec Jésus au sujet d'Abraham. Jésus leur dit qu'Abraham avait vu son jour et s'en était réjoui. Ils lui répondirent : tu n'as pas encore cinquante ans, et tu as vu Abraham ! Jésus leur dit : en vérité, en vérité, je vous le dis, avant qu'Abraham fût, je suis."
+        },
+        {
+          "verset": "Jn 8:57-59"
+        },
+        {
+          "texte": "Jésus ne dit pas « j'étais », mais « je suis ». C'est le nom que Dieu s'était donné devant Moïse au buisson ardent : je suis celui qui suis. Et ses auditeurs ont bien compris ce qu'il voulait dire, puisque, dit le texte, ils prirent des pierres pour les jeter contre lui. On lapidait celui qui blasphémait en se faisant l'égal de Dieu."
+        },
+        {
+          "sous_titre": "« Moi et le Père nous sommes un »"
+        },
+        {
+          "texte": "Une autre fois, dans le temple, Jésus dit : moi et le Père nous sommes un. Alors les Juifs prirent encore des pierres pour le lapider. Jésus leur demanda : je vous ai fait voir plusieurs bonnes œuvres venant de mon Père : pour laquelle me lapidez-vous ? Ils lui répondirent : ce n'est point pour une bonne œuvre que nous te lapidons, mais pour un blasphème, et parce que toi, qui es un homme, tu te fais Dieu."
+        },
+        {
+          "verset": "Jn 10:30-33"
+        },
+        {
+          "texte": "Ses ennemis eux-mêmes ont compris qu'il prétendait être Dieu. Jésus ne les a pas corrigés en disant : vous m'avez mal compris, je ne suis qu'un prophète."
+        },
+        {
+          "sous_titre": "Devant le tribunal"
+        },
+        {
+          "texte": "Enfin, la nuit de son arrestation, le souverain sacrificateur l'interrogea solennellement : es-tu le Christ, le Fils du Dieu béni ? Jésus répondit : je le suis. Et vous verrez le Fils de l'homme assis à la droite de la puissance de Dieu, et venant sur les nuées du ciel. Alors le souverain sacrificateur déchira ses vêtements, et dit : qu'avons-nous encore besoin de témoins ? Vous avez entendu le blasphème."
+        },
+        {
+          "verset": "Mc 14:61-64"
+        },
+        {
+          "texte": "C'est pour cette déclaration que Jésus a été condamné à mort. S'il n'était qu'un prophète, il aurait pu se sauver la vie en disant simplement : je ne suis qu'un homme envoyé par Dieu. Mais il a maintenu qu'il était le Fils de Dieu, jusqu'à la croix."
+        },
+        {
+          "sous_titre": "Le choix devant chacun"
+        },
+        {
+          "texte": "Un homme qui dit de telles choses ne peut pas être seulement un bon prophète. Soit il disait la vérité, et il est vraiment le Fils de Dieu, Dieu venu dans la chair. Soit il se trompait ou trompait les autres, et alors il ne pouvait pas être un prophète honnête. On ne peut pas, en toute logique, honorer Jésus comme prophète et rejeter ce qu'il a dit de lui-même. C'est une question que l'on peut poser avec douceur à un ami musulman : si Jésus est un vrai prophète, ne faut-il pas croire ce qu'il dit de lui ?"
+        }
+      ]
     },
     {
-     "sous_titre": "Pourquoi c'est important"
+      "numero": "9",
+      "titre": "La croix : un fait de l'histoire",
+      "references": [],
+      "blocs": [
+        {
+          "sous_titre": "Ce que dit le Coran"
+        },
+        {
+          "texte": "Le Coran affirme, dans la sourate 4, verset 157, que les Juifs ne l'ont ni tué ni crucifié, mais que cela leur a seulement paru ainsi. Beaucoup de musulmans pensent que Dieu a enlevé Jésus au ciel avant la croix, et que quelqu'un d'autre a été crucifié à sa place."
+        },
+        {
+          "texte": "C'est un point capital, car si Jésus n'est pas mort, il n'y a pas eu de sacrifice pour nos péchés, et s'il n'est pas mort, il n'est pas non plus ressuscité."
+        },
+        {
+          "sous_titre": "Ce que disent les témoins"
+        },
+        {
+          "texte": "Les quatre évangiles, écrits au premier siècle par des disciples de Jésus ou par des proches des témoins, racontent sa crucifixion avec beaucoup de détails : lorsqu'ils furent arrivés au lieu appelé Crâne, ils le crucifièrent là, ainsi que les deux malfaiteurs, l'un à droite, l'autre à gauche."
+        },
+        {
+          "texte": "Paul, qui écrit ses lettres une vingtaine d'années seulement après les événements, rappelle que Jésus ressuscité est apparu à Céphas, puis aux douze. Ensuite, il est apparu à plus de cinq cents frères à la fois, dont la plupart sont encore vivants. Ensuite, il est apparu à Jacques, puis à tous les apôtres. Après eux tous, il m'est aussi apparu à moi."
+        },
+        {
+          "texte": "Quand Paul écrit « dont la plupart sont encore vivants », il dit en quelque sorte : allez leur demander."
+        },
+        {
+          "sous_titre": "Ce que disent même les historiens non chrétiens"
+        },
+        {
+          "texte": "La crucifixion de Jésus est aussi mentionnée par des auteurs qui n'étaient pas chrétiens. L'historien romain Tacite, au début du deuxième siècle, écrit que le nom de chrétiens vient de Christ, qui, sous le règne de Tibère, avait été livré au supplice par le procureur Ponce Pilate. L'historien juif Flavius Josèphe, au premier siècle, parle lui aussi de Jésus condamné par Pilate. La grande majorité des historiens, même non croyants, considèrent la crucifixion de Jésus comme l'un des faits les plus sûrs de l'Antiquité."
+        },
+        {
+          "sous_titre": "Six cents ans plus tard"
+        },
+        {
+          "texte": "Le Coran a été donné environ six cents ans après ces événements, loin de Jérusalem. Les témoins oculaires, eux, étaient là. Quand un témoignage du premier siècle, confirmé par des amis et par des ennemis, s'oppose à une affirmation faite six siècles plus tard, lequel faut-il croire ?"
+        },
+        {
+          "texte": "Ce n'est pas pour gagner un débat que nous disons cela, mais parce que la croix est la bonne nouvelle. Si Jésus est mort pour nos péchés et ressuscité, alors le pardon est offert gratuitement, et le croyant peut avoir l'assurance du salut, au lieu de vivre dans l'incertitude d'une balance de bonnes et de mauvaises actions."
+        }
+      ]
     },
     {
-     "texte": "Voici le point essentiel : l'islam est apparu environ six cents ans après Jésus, et il affirme apporter la révélation finale, qui corrige ce que les chrétiens croient de Jésus. Or Paul avait averti : quand un ange du ciel annoncerait un autre Évangile que celui que nous vous avons prêché, qu'il soit anathème. Et Jean demande d'éprouver les esprits. Une révélation attribuée à un ange n'est pas vraie parce qu'elle vient d'un ange. Elle est vraie si elle est conforme à ce que Dieu a déjà révélé en Jésus."
+      "numero": "10",
+      "titre": "Questions que posent souvent nos amis musulmans",
+      "references": [
+        "Lc 1:35"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "« La Bible a été falsifiée »"
+        },
+        {
+          "texte": "Beaucoup de musulmans ont appris que la Torah et l'Évangile ont été modifiés par les juifs et les chrétiens. Mais deux faits simples aident à réfléchir. D'abord, le Coran lui-même parle de la Torah et de l'Évangile comme d'une lumière, et demande aux gens de l'Évangile de juger selon ce qu'ils contiennent : comment Dieu pourrait-il demander de juger selon un livre déjà falsifié ? Ensuite, nous possédons aujourd'hui des manuscrits complets de la Bible, comme ceux qu'on appelle le Codex Sinaïticus et le Codex Vaticanus, copiés au quatrième siècle, c'est-à-dire environ deux cent cinquante ans avant la naissance de Mahomet. Ces manuscrits contiennent le même Évangile que nous lisons aujourd'hui, avec la mort et la résurrection de Jésus. Si la Bible avait été changée, ce n'est pas après l'islam. Et avant l'islam, elle disait déjà la même chose."
+        },
+        {
+          "sous_titre": "« Comment Dieu peut-il avoir un fils ? Il n'a pas de femme. »"
+        },
+        {
+          "texte": "Cette question montre souvent un malentendu. Les chrétiens ne croient pas que Dieu a eu un fils de manière physique avec une femme. Ce serait un blasphème pour nous aussi. Quand la Bible appelle Jésus Fils de Dieu, elle ne parle pas d'une naissance biologique, mais d'une relation éternelle. L'ange a dit à Marie : le Saint-Esprit viendra sur toi, et la puissance du Très-Haut te couvrira de son ombre. C'est pourquoi le saint enfant qui naîtra de toi sera appelé Fils de Dieu."
+        },
+        {
+          "verset": "Lc 1:35"
+        },
+        {
+          "texte": "Dans beaucoup de langues, on dit d'un homme courageux qu'il est « fils de la guerre », ou d'un homme qui vient d'une région qu'il est « fils du pays ». Cela ne veut pas dire que la guerre a eu des enfants. Ainsi, « Fils de Dieu » veut dire que Jésus partage la nature même de Dieu, qu'il vient de Dieu, qu'il est la Parole éternelle de Dieu."
+        },
+        {
+          "sous_titre": "« La Parole de Dieu »"
+        },
+        {
+          "texte": "Le Coran lui-même appelle Jésus une parole venant de Dieu. Et l'Évangile de Jean commence ainsi : au commencement était la Parole, et la Parole était avec Dieu, et la Parole était Dieu. Et la Parole a été faite chair, et elle a habité parmi nous, pleine de grâce et de vérité."
+        },
+        {
+          "texte": "Une parole n'est pas séparée de celui qui la prononce. Quand je parle, ma parole sort de moi, elle exprime ce que je suis, et pourtant je ne deviens pas deux personnes. La Parole de Dieu est éternelle comme Dieu, car Dieu n'a jamais été sans sa Parole. C'est cette Parole qui s'est faite homme en Jésus. Ce point de départ, que le Coran et la Bible ont en commun, peut ouvrir une belle conversation."
+        }
+      ]
     },
     {
-     "verset": "Ga 1:8"
+      "numero": "11",
+      "titre": "Accueillir ceux qui ont tout quitté pour Jésus",
+      "references": [
+        "Mc 10:28-30"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Le prix pour un musulman qui devient chrétien"
+        },
+        {
+          "texte": "Dans beaucoup de familles et de pays, un musulman qui devient chrétien paie un prix très lourd. Il peut être rejeté par ses parents, chassé de la maison, déshérité, privé de son mariage, perdre son travail, ou même être menacé de mort. Certains doivent quitter leur ville ou leur pays."
+        },
+        {
+          "texte": "Pierre a dit un jour à Jésus : voici, nous avons tout quitté, et nous t'avons suivi. Jésus répondit : je vous le dis en vérité, il n'est personne qui, ayant quitté, à cause de moi et à cause de la bonne nouvelle, sa maison, ou ses frères, ou ses sœurs, ou sa mère, ou son père, ou ses enfants, ou ses terres, ne reçoive au centuple, présentement dans ce siècle-ci, des maisons, des frères, des sœurs, des mères, des enfants, et des terres, avec des persécutions, et, dans le siècle à venir, la vie éternelle."
+        },
+        {
+          "verset": "Mc 10:28-30"
+        },
+        {
+          "sous_titre": "L'Église, la nouvelle famille"
+        },
+        {
+          "texte": "Comment Jésus donne-t-il « au centuple » des frères, des sœurs, des mères ? Par son Église. Ce sont les chrétiens qui doivent devenir la nouvelle famille de celui qui a tout perdu. Paul écrit : accueillez-vous donc les uns les autres, comme Christ vous a accueillis, pour la gloire de Dieu."
+        },
+        {
+          "texte": "Malheureusement, il arrive que des convertis d'origine musulmane soient regardés avec méfiance dans les églises : « Est-il sincère ? Est-ce un espion ? Va-t-il retourner en arrière ? » La prudence est parfois nécessaire, surtout dans les pays où il y a des dangers. Mais la méfiance permanente brise ceux qui ont déjà tout perdu."
+        },
+        {
+          "sous_titre": "Ce que nous pouvons faire"
+        },
+        {
+          "texte": "Ouvrir notre maison et notre table. Les accompagner dans la lecture de la Bible, avec patience, car ils ont souvent beaucoup de questions. Les aider à trouver un travail ou un logement si leur famille les a chassés. Ne pas les exhiber comme des trophées dans les réunions, ce qui peut les mettre en danger. Et prier pour leur famille, avec eux, sans haine."
+        },
+        {
+          "texte": "On raconte l'histoire d'un jeune homme chassé de chez lui par son père le jour où il a dit qu'il croyait en Jésus. Il est arrivé un soir chez le pasteur d'une petite église, avec un sac et ses papiers. Une famille de l'église l'a accueilli pendant deux ans comme un fils, lui a payé ses études, et l'a accompagné le jour de son mariage. Des années plus tard, c'est vers lui que sa propre mère, malade et abandonnée, est venue chercher refuge. Il l'a accueillie chez lui, et elle a vu la différence. Il disait : « J'ai perdu une famille pour Jésus, et Jésus m'en a donné deux. »"
+        }
+      ]
+    },
+    {
+      "numero": "12",
+      "titre": "Conclusion",
+      "references": [
+        "Jn 14:6"
+      ],
+      "blocs": [
+        {
+          "texte": "L'islam respecte Jésus comme prophète, mais il nie ce qui fait de lui le Sauveur. Le chrétien n'a pas besoin d'avoir peur, ni de mépriser. Il a besoin de connaître sa foi, d'aimer ses voisins, et de leur présenter Jésus tel que la Bible le révèle : le chemin, la vérité et la vie. Dans l'onglet Évangéliser, l'approche « Musulmans » te donne des réponses courtes aux questions les plus fréquentes."
+        },
+        {
+          "verset": "Jn 14:6"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "Ce que croient les musulmans",
-   "references": [
-    "Ep 2:8-9",
-    "Tt 3:5"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "Les croyances"
+      "question": "Quand l'islam est-il apparu ?",
+      "choix": [
+        "Au temps d'Abraham",
+        "Au septième siècle après Jésus-Christ, en Arabie",
+        "Au premier siècle"
+      ],
+      "reponse": 1,
+      "explication": "Mahomet a commencé à prêcher vers 610.",
+      "section": "1"
     },
     {
-     "texte": "Les musulmans croient en un seul Dieu, Allah ; aux anges ; aux livres révélés, dont la Torah, les Psaumes, l'Évangile et le Coran ; aux prophètes, dont Adam, Noé, Abraham, Moïse, Jésus et Mahomet, considéré comme le dernier ; au jour du jugement ; et au décret divin."
+      "question": "Que nie le Coran au sujet de Jésus ?",
+      "choix": [
+        "Sa naissance d'une vierge",
+        "Qu'il soit le Fils de Dieu, qu'il soit mort sur la croix et ressuscité",
+        "Ses miracles"
+      ],
+      "reponse": 1,
+      "explication": "(sourate 4, verset 157)",
+      "section": "3"
     },
     {
-     "sous_titre": "Les cinq piliers"
+      "question": "Qu'est-ce qui relie la foi des prophètes depuis Adam selon la Bible ?",
+      "choix": [
+        "Les cinq piliers",
+        "La promesse d'un Sauveur et le sacrifice de substitution",
+        "Le pèlerinage"
+      ],
+      "reponse": 1,
+      "explication": "(Genèse 3:15 ; 22:13-14)",
+      "section": "4"
     },
     {
-     "texte": "La pratique repose sur cinq piliers : la profession de foi, ou chahada, « Il n'y a de dieu que Dieu, et Mahomet est son messager » ; les cinq prières quotidiennes ; l'aumône obligatoire ; le jeûne du mois de Ramadan ; et le pèlerinage à La Mecque pour celui qui le peut."
+      "question": "Selon 1 Jean 2:23, celui qui nie le Fils a-t-il le Père ?",
+      "choix": [
+        "Oui, s'il est sincère",
+        "Non",
+        "Cela dépend de ses œuvres"
+      ],
+      "reponse": 1,
+      "explication": "(1 Jean 2:23)",
+      "section": "5"
     },
     {
-     "sous_titre": "Le salut"
+      "question": "Selon Hébreux 1:2, par qui Dieu a-t-il parlé dans ces derniers temps ?",
+      "choix": [
+        "Par un nouveau prophète",
+        "Par le Fils",
+        "Par les anges"
+      ],
+      "reponse": 1,
+      "explication": "(Hébreux 1:1-2)",
+      "section": "6"
     },
     {
-     "texte": "En islam, l'homme n'est pas considéré comme pécheur par nature. Il doit se soumettre à Dieu et accomplir ses obligations. Au jour du jugement, les bonnes et les mauvaises actions seront pesées, et Dieu pardonnera à qui il veut. Le musulman ne peut donc jamais avoir l'assurance d'être sauvé. La Bible enseigne tout autre chose : c'est par la grâce que vous êtes sauvés, par le moyen de la foi. Ce n'est point par les œuvres. Dieu nous a sauvés, non à cause des œuvres de justice que nous aurions faites, mais selon sa miséricorde."
+      "question": "Pourquoi les Juifs voulaient-ils lapider Jésus quand il a dit « avant qu'Abraham fût, je suis » ?",
+      "choix": [
+        "Parce qu'il avait menti sur son âge",
+        "Parce qu'il prenait le nom de Dieu et se faisait l'égal de Dieu",
+        "Parce qu'il avait insulté Abraham"
+      ],
+      "reponse": 1,
+      "explication": "Jean 8:58-59 ; 10:33.",
+      "section": "8"
     },
     {
-     "verset": "Ep 2:8-9"
+      "question": "Que montrent les manuscrits complets de la Bible copiés au quatrième siècle ?",
+      "choix": [
+        "Que la Bible a changé après l'islam",
+        "Que, bien avant Mahomet, la Bible contenait déjà le même Évangile, avec la mort et la résurrection de Jésus",
+        "Qu'il n'existait pas d'Évangile"
+      ],
+      "reponse": 1,
+      "explication": "Codex Sinaïticus et Codex Vaticanus.",
+      "section": "10"
+    },
+    {
+      "question": "Selon Marc 10:29-30, que reçoit celui qui a tout quitté pour Jésus ?",
+      "choix": [
+        "Rien sur la terre",
+        "Au centuple des maisons, des frères, des sœurs, des mères, avec des persécutions, et la vie éternelle",
+        "Seulement des richesses"
+      ],
+      "reponse": 1,
+      "explication": "L'Église doit devenir sa nouvelle famille.",
+      "section": "11"
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "Jésus dans le Coran et dans la Bible",
-   "references": [
-    "Lc 1:34-35",
-    "Mc 10:45",
-    "1 Co 15:3-4"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Ce que le Coran dit de juste"
-    },
-    {
-     "texte": "Le Coran parle de Jésus, appelé Issa, avec un grand respect. Il dit qu'il est né d'une vierge, Marie ; qu'il est le Messie ; qu'il est une parole venant de Dieu et un esprit venant de lui ; qu'il a fait des miracles, guéri des aveugles et des lépreux, ressuscité des morts ; et qu'il reviendra. Ce sont des ponts précieux pour la conversation. La Bible aussi dit qu'il est né de la vierge Marie, par la puissance du Saint-Esprit."
-    },
-    {
-     "verset": "Lc 1:34-35"
-    },
-    {
-     "sous_titre": "Ce que le Coran nie"
-    },
-    {
-     "texte": "Mais le Coran nie trois choses qui sont au cœur de l'Évangile. Il nie que Jésus soit le Fils de Dieu et Dieu venu dans la chair ; pour le Coran, il n'est qu'un messager. Il nie que Jésus soit mort sur la croix : selon la sourate 4, verset 157, on ne l'a ni tué ni crucifié, mais cela leur a seulement paru ainsi. Et par conséquent il nie que Jésus soit mort pour nos péchés et soit ressuscité."
-    },
-    {
-     "sous_titre": "Ce que dit la Bible"
-    },
-    {
-     "texte": "Or c'est exactement l'Évangile. Jésus a dit qu'il était venu donner sa vie comme la rançon de plusieurs. Paul résume l'Évangile ainsi : Christ est mort pour nos péchés, selon les Écritures ; il a été enseveli, et il est ressuscité le troisième jour. Sans la croix et la résurrection, il n'y a pas de pardon. Le Jésus du Coran est un grand prophète ; le Jésus de la Bible est le Sauveur. On ne peut pas avoir les deux."
-    },
-    {
-     "verset": "1 Co 15:3-4"
-    },
-    {
-     "sous_titre": "Le Coran et la Trinité"
-    },
-    {
-     "texte": "Le Coran semble comprendre la Trinité chrétienne comme Dieu, Jésus et Marie (sourate 5, verset 116). Aucun chrétien biblique ne croit cela. Nous croyons en un seul Dieu, Père, Fils et Saint-Esprit, et Marie est une servante de Dieu, bénie, mais pas divine. Il est bon de corriger ce malentendu avec douceur."
-    }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "L'islam a-t-il commencé avec Adam ?",
-   "references": [
-    "Gn 3:15",
-    "Gn 15:6",
-    "Gn 22:13-14",
-    "Jn 8:56"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Ce que veulent dire les musulmans"
-    },
-    {
-     "texte": "Les musulmans enseignent que l'islam, qui veut dire soumission, est la religion de tous les prophètes depuis Adam, et qu'Abraham, Moïse et Jésus étaient musulmans. Ils veulent dire que tous étaient soumis au seul Dieu."
-    },
-    {
-     "sous_titre": "Ce que l'histoire montre"
-    },
-    {
-     "texte": "Mais l'islam en tant que religion, avec son livre, son prophète, sa chahada et ses cinq piliers, commence au septième siècle. Adam, Abraham, Moïse, David et Jésus n'ont jamais prononcé la chahada, n'ont jamais prié vers La Mecque, et n'ont jamais lu le Coran. Dire qu'ils étaient musulmans, c'est relire leur histoire six cents ou deux mille ans plus tard."
-    },
-    {
-     "sous_titre": "Ce que Dieu a révélé depuis Adam"
-    },
-    {
-     "texte": "Si on veut savoir quelle était la foi des prophètes, il faut lire ce qu'ils ont eux-mêmes reçu. Dès la chute, Dieu promet qu'une descendance de la femme écrasera la tête du serpent. Abraham crut à l'Éternel, qui le lui imputa à justice. Sur le mont Morija, Dieu fournit un bélier à la place du fils d'Abraham, et Abraham appela ce lieu « l'Éternel pourvoira ». Le fil qui court depuis Adam, ce n'est pas un système de lois, c'est un Sauveur promis et un sacrifice de substitution."
-    },
-    {
-     "verset": "Gn 22:13-14"
-    },
-    {
-     "sous_titre": "Abraham a vu le jour de Jésus"
-    },
-    {
-     "texte": "Jésus a dit lui-même : Abraham, votre père, a tressailli de joie de ce qu'il verrait mon jour : il l'a vu, et il s'est réjoui. Abraham n'attendait pas un nouveau livre. Il attendait le Christ."
-    },
-    {
-     "verset": "Jn 8:56"
-    }
-   ]
-  },
-  {
-   "numero": "5",
-   "titre": "Le même Dieu ?",
-   "references": [
-    "Jn 14:9",
-    "1 Jn 2:22-23",
-    "Rm 8:15",
-    "Ac 17:23"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "La question du nom"
-    },
-    {
-     "texte": "Les chrétiens arabes appellent Dieu « Allah », et leur Bible aussi, bien avant l'islam. Le problème n'est donc pas le nom. Deux personnes peuvent parler de « mon ami Paul » et décrire deux hommes complètement différents : l'un grand et l'autre petit, l'un marié et l'autre célibataire. Ont-elles le même ami ? La question n'est pas le nom, mais la personne décrite."
-    },
-    {
-     "sous_titre": "Ce qui est commun"
-    },
-    {
-     "texte": "Chrétiens et musulmans croient en un seul Dieu, créateur du ciel et de la terre, tout-puissant, qui a parlé par des prophètes et qui jugera le monde. Ce sont de vrais points de départ pour la conversation, comme Paul est parti de l'autel au dieu inconnu à Athènes."
-    },
-    {
-     "verset": "Ac 17:23"
-    },
-    {
-     "sous_titre": "Ce qui est essentiel et différent"
-    },
-    {
-     "texte": "Mais la Bible dit que Dieu est Père, Fils et Saint-Esprit ; le Coran le nie. La Bible dit que Dieu s'est fait homme en Jésus ; le Coran le nie. La Bible dit que Dieu nous aime au point de donner son Fils pour nous sur la croix ; le Coran le nie. La Bible dit que le croyant peut appeler Dieu « Abba, Père » ; l'islam ne connaît pas Dieu comme Père. Ce ne sont pas des détails, c'est le cœur de qui est Dieu."
-    },
-    {
-     "verset": "Rm 8:15"
-    },
-    {
-     "sous_titre": "La réponse de la Bible"
-    },
-    {
-     "texte": "Jésus a dit : celui qui m'a vu a vu le Père. Et Jean écrit : quiconque nie le Fils n'a pas non plus le Père. On ne peut donc pas dire simplement que c'est le même Dieu adoré de deux manières. Le musulman sincère cherche le Dieu unique. Mais ce Dieu s'est pleinement révélé en Jésus, et c'est en Jésus qu'il veut être connu. Notre message à nos amis musulmans est : le Dieu que tu cherches s'est approché de toi en Jésus."
-    },
-    {
-     "verset": "1 Jn 2:22-23"
-    }
-   ]
-  },
-  {
-   "numero": "6",
-   "titre": "Une révélation après Jésus ?",
-   "references": [
-    "He 1:1-2",
-    "Jude 3",
-    "Ap 22:18"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Le Fils, dernière parole"
-    },
-    {
-     "texte": "L'épître aux Hébreux dit : après avoir autrefois, à plusieurs reprises et de plusieurs manières, parlé à nos pères par les prophètes, Dieu, dans ces derniers temps, nous a parlé par le Fils. Le Fils n'est pas un prophète de plus dans une liste. Il est la dernière et la plus haute parole de Dieu. Il n'y a rien à ajouter à ce que Dieu a dit en Jésus."
-    },
-    {
-     "verset": "He 1:1-2"
-    },
-    {
-     "sous_titre": "La foi transmise une fois pour toutes"
-    },
-    {
-     "texte": "Jude exhorte à combattre pour la foi qui a été transmise aux saints une fois pour toutes. Toute révélation qui vient après pour corriger ce que les apôtres ont transmis au sujet de Jésus doit être rejetée, qu'elle vienne d'un fondateur de religion, d'un prophète moderne, ou d'un ange."
-    },
-    {
-     "verset": "Jude 3"
-    },
-    {
-     "sous_titre": "Le Coran lui-même renvoie à l'Évangile"
-    },
-    {
-     "texte": "Le Coran dit que la Torah et l'Évangile sont lumière et guidance (sourate 5, verset 46), et il dit aux gens de l'Évangile de juger selon ce qu'il contient (sourate 5, verset 47). Or l'Évangile que les chrétiens lisaient au septième siècle est le même que nous lisons aujourd'hui : nous en avons des manuscrits bien plus anciens. Si l'Évangile était digne de confiance au temps de Mahomet, il l'est aujourd'hui. Et il dit clairement que Jésus est mort et ressuscité."
-    }
-   ]
-  },
-  {
-   "numero": "7",
-   "titre": "Aimer et témoigner",
-   "references": [
-    "1 P 3:15",
-    "Lc 6:31",
-    "Mt 10:16",
-    "Ac 4:12"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Avec douceur et respect"
-    },
-    {
-     "texte": "Pierre dit : soyez toujours prêts à vous défendre, avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous. On ne gagne pas un ami musulman en insultant son prophète, en se moquant de sa prière ou en mangeant du porc devant lui pour le provoquer. On le gagne en l'aimant, en vivant une vie pure, en priant pour lui, et en lui ouvrant la Bible."
-    },
-    {
-     "verset": "1 P 3:15"
-    },
-    {
-     "sous_titre": "Prudents et simples"
-    },
-    {
-     "texte": "Jésus a dit : soyez prudents comme les serpents, et simples comme les colombes. Dans certains pays et certaines familles, devenir chrétien pour un musulman peut coûter très cher. Sois sage, ne mets pas en danger celui qui s'intéresse à Jésus, et prépare l'église à accueillir et protéger ceux qui viennent de l'islam."
-    },
-    {
-     "verset": "Mt 10:16"
-    },
-    {
-     "sous_titre": "Aucun autre nom"
-    },
-    {
-     "texte": "Mais ne cache pas la vérité par peur. Il n'y a de salut en aucun autre ; car il n'y a sous le ciel aucun autre nom qui ait été donné parmi les hommes, par lequel nous devions être sauvés. Ton ami musulman a besoin de Jésus autant que toi."
-    },
-    {
-     "verset": "Ac 4:12"
-    }
-   ]
-  },
-  {
-   "numero": "8",
-   "titre": "Conclusion",
-   "references": [
-    "Jn 14:6"
-   ],
-   "blocs": [
-    {
-     "texte": "L'islam respecte Jésus comme prophète, mais il nie ce qui fait de lui le Sauveur. Le chrétien n'a pas besoin d'avoir peur, ni de mépriser. Il a besoin de connaître sa foi, d'aimer ses voisins, et de leur présenter Jésus tel que la Bible le révèle : le chemin, la vérité et la vie. Dans l'onglet Évangéliser, l'approche « Musulmans » te donne des réponses courtes aux questions les plus fréquentes."
-    },
-    {
-     "verset": "Jn 14:6"
-    }
-   ]
-  }
- ],
- "questions": [
-  {
-   "question": "Quand l'islam est-il apparu ?",
-   "choix": [
-    "Au temps d'Abraham",
-    "Au septième siècle après Jésus-Christ, en Arabie",
-    "Au premier siècle"
-   ],
-   "reponse": 1,
-   "explication": "Mahomet a commencé à prêcher vers 610.",
-   "section": "1"
-  },
-  {
-   "question": "Que nie le Coran au sujet de Jésus ?",
-   "choix": [
-    "Sa naissance d'une vierge",
-    "Qu'il soit le Fils de Dieu, qu'il soit mort sur la croix et ressuscité",
-    "Ses miracles"
-   ],
-   "reponse": 1,
-   "explication": "(sourate 4, verset 157)",
-   "section": "3"
-  },
-  {
-   "question": "Qu'est-ce qui relie la foi des prophètes depuis Adam selon la Bible ?",
-   "choix": [
-    "Les cinq piliers",
-    "La promesse d'un Sauveur et le sacrifice de substitution",
-    "Le pèlerinage"
-   ],
-   "reponse": 1,
-   "explication": "(Genèse 3:15 ; 22:13-14)",
-   "section": "4"
-  },
-  {
-   "question": "Selon 1 Jean 2:23, celui qui nie le Fils a-t-il le Père ?",
-   "choix": [
-    "Oui, s'il est sincère",
-    "Non",
-    "Cela dépend de ses œuvres"
-   ],
-   "reponse": 1,
-   "explication": "(1 Jean 2:23)",
-   "section": "5"
-  },
-  {
-   "question": "Selon Hébreux 1:2, par qui Dieu a-t-il parlé dans ces derniers temps ?",
-   "choix": [
-    "Par un nouveau prophète",
-    "Par le Fils",
-    "Par les anges"
-   ],
-   "reponse": 1,
-   "explication": "(Hébreux 1:1-2)",
-   "section": "6"
-  }
- ],
- "devoir": [
-  "Lis Jean 1 et Hébreux 1, et note tout ce qui montre que Jésus est plus qu'un prophète.",
-  "Écris le nom d'un musulman que tu connais. Prie pour lui chaque jour et cherche une occasion de l'inviter ou de l'aider.",
-  "Dans l'onglet Évangéliser, lis l'approche « Musulmans » et ses réponses aux objections."
- ],
- "prieres_liees": [
-  "theme:priere-ames",
-  "theme:priere-temoigner"
- ],
- "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-14",
- "relu": false
+  ],
+  "devoir": [
+    "Lis Jean 1 et Hébreux 1, et note tout ce qui montre que Jésus est plus qu'un prophète.",
+    "Écris le nom d'un musulman que tu connais. Prie pour lui chaque jour et cherche une occasion de l'inviter ou de l'aider.",
+    "Dans l'onglet Évangéliser, lis l'approche « Musulmans » et ses réponses aux objections."
+  ],
+  "prieres_liees": [
+    "theme:priere-ames",
+    "theme:priere-temoigner"
+  ],
+  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-14",
+  "relu": false
 }
