@@ -1,0 +1,580 @@
+{
+ "id": "bible-05-manuscrits-ancien-testament",
+ "titre": "Les manuscrits de l'Ancien Testament : des scribes à Qumrân",
+ "serie": "Connaître la Bible",
+ "theme": "Bible",
+ "auteur": "Yeshaya",
+ "resume": "Comment l'Ancien Testament a été écrit, copié et transmis pendant plus de deux mille ans : le travail minutieux des scribes et des Massorètes, la découverte des manuscrits de la mer Morte en 1947, les autres témoins anciens, et ce que tout cela prouve sur la fidélité du texte.",
+ "image": "/assets/etude-biblique/rouleau-ancien.webp",
+ "verset_de_base": "És 40:8",
+ "lecture_minutes": 30,
+ "objectifs": [
+  "Savoir sur quels supports et dans quelles langues l'Ancien Testament a été écrit.",
+  "Comprendre comment les scribes et les Massorètes copiaient les Écritures.",
+  "Connaître la découverte de Qumrân et ce qu'elle a montré.",
+  "Connaître les autres témoins anciens du texte.",
+  "Pouvoir expliquer pourquoi l'Ancien Testament n'a pas été changé."
+ ],
+ "introduction": "Imagine que quelqu'un te remette une lettre écrite par ton arrière-arrière-grand-père. Tu voudrais savoir si c'est bien lui qui l'a écrite, et si personne n'a modifié son contenu en chemin. Pour l'Ancien Testament, la question est encore plus grande : certains de ses livres ont été écrits il y a plus de trois mille ans. Comment pouvons-nous être sûrs que ce que nous lisons aujourd'hui correspond à ce qu'ont écrit Moïse, David ou Ésaïe ?\n\nBeaucoup de gens répondent sans avoir étudié la question : « Ça a forcément été changé, c'est trop vieux. » Dans cet enseignement, nous allons regarder les faits : comment l'Ancien Testament a été copié pendant des siècles, et ce que les découvertes du vingtième siècle ont révélé. Tu verras que l'histoire de ces manuscrits est l'une des plus belles preuves de la fidélité de Dieu envers sa Parole.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Écrire dans l'Antiquité",
+   "references": [
+    "Ex 17:14",
+    "Jr 36:2",
+    "Ps 45:2"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Les langues de l'Ancien Testament"
+    },
+    {
+     "texte": "L'Ancien Testament a été écrit presque entièrement en hébreu, la langue du peuple d'Israël. Quelques passages, notamment dans les livres d'Esdras et de Daniel, sont écrits en araméen, la langue internationale de l'empire perse, que les Juifs ont parlée après l'exil. L'hébreu s'écrit de droite à gauche, et à l'origine on n'écrivait que les consonnes, sans les voyelles."
+    },
+    {
+     "sous_titre": "Écrire sur ordre de Dieu"
+    },
+    {
+     "verset": "Ex 17:14"
+    },
+    {
+     "texte": "Dès l'époque de Moïse, Dieu ordonne de mettre ses paroles par écrit : écris cela dans le livre, pour que le souvenir s'en conserve. Plus tard, il dira à Jérémie : prends un livre, et tu y écriras toutes les paroles que je t'ai dites (Jérémie 36:2). Dieu a voulu une Parole écrite, et non seulement transmise de bouche à oreille."
+    },
+    {
+     "sous_titre": "Les supports"
+    },
+    {
+     "texte": "On écrivait sur différents supports : des tablettes de pierre ou d'argile, des tessons de poterie pour les notes courtes, et surtout des rouleaux. Les rouleaux étaient faits de papyrus, une plante d'Égypte dont on fabriquait des feuilles, ou de parchemin, c'est-à-dire de peau d'animal préparée. Les feuilles étaient cousues bout à bout, puis enroulées autour d'un bâton. Le psalmiste compare sa langue au roseau, c'est-à-dire à la plume, d'un habile écrivain (Psaume 45:2)."
+    },
+    {
+     "sous_titre": "Un matériau fragile"
+    },
+    {
+     "texte": "Le papyrus et le parchemin s'usent, se déchirent, pourrissent dans l'humidité. Un rouleau très utilisé ne durait pas indéfiniment. C'est pourquoi il fallait sans cesse recopier les Écritures à la main. Pendant plus de deux mille ans, jusqu'à l'invention de l'imprimerie au quinzième siècle, chaque Bible était une copie faite à la main."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Les scribes : des copistes consacrés",
+   "references": [
+    "Esd 7:6",
+    "Esd 7:10"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Un métier sacré"
+    },
+    {
+     "texte": "Dans l'Israël ancien, copier les Écritures était un métier respecté, confié à des scribes. Esdras était un scribe versé dans la loi de Moïse (Esdras 7:6). Il avait appliqué son cœur à étudier et à mettre en pratique la loi de l'Éternel, et à enseigner au milieu d'Israël les lois et les ordonnances (Esdras 7:10). Pour les scribes, copier la Parole de Dieu n'était pas un simple travail : c'était un service rendu à Dieu."
+    },
+    {
+     "sous_titre": "Des règles très strictes"
+    },
+    {
+     "texte": "Les traditions juives ont gardé la mémoire des règles que les scribes suivaient, surtout pour les rouleaux utilisés dans les synagogues. Elles ont été écrites plus tard dans le Talmud et d'autres traités, mais elles reflètent des habitudes anciennes. Le scribe devait utiliser un parchemin préparé selon des règles précises, une encre spéciale, et copier lettre par lettre en regardant le modèle, sans écrire de mémoire. Il ne devait pas écrire le nom de Dieu sans une préparation particulière. Un rouleau contenant trop d'erreurs ne devait pas être utilisé."
+    },
+    {
+     "sous_titre": "Compter les lettres"
+    },
+    {
+     "texte": "Plus tard, les copistes ont même pris l'habitude de compter les lettres, les mots et les versets de chaque livre, et de noter quel était le mot ou la lettre du milieu. Quand ils avaient fini une copie, ils recomptaient pour vérifier qu'aucune lettre n'avait été oubliée ou ajoutée. Imagine le travail : compter les lettres d'un livre entier, à la main, à la lumière d'une lampe !"
+    },
+    {
+     "sous_titre": "Pourquoi tant de soin ?"
+    },
+    {
+     "texte": "Les scribes savaient qu'ils copiaient la Parole de Dieu. Ils prenaient au sérieux l'avertissement : vous n'ajouterez rien à ce que je vous prescris, et vous n'en retrancherez rien (Deutéronome 4:2). Ce respect profond a été un des moyens que Dieu a utilisés pour garder son texte."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Les Massorètes",
+   "references": [
+    "Ne 8:8",
+    "Ps 119:18"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Qui étaient-ils ?"
+    },
+    {
+     "texte": "Entre le sixième et le dixième siècle après Jésus-Christ, des familles de savants juifs, surtout à Tibériade, au bord du lac de Galilée, ont poursuivi ce travail. On les appelle les Massorètes, d'un mot qui veut dire « tradition ». La famille la plus célèbre est celle de Ben Asher."
+    },
+    {
+     "sous_titre": "Ajouter les voyelles sans toucher aux lettres"
+    },
+    {
+     "texte": "Comme l'hébreu ne s'écrivait qu'avec des consonnes, la prononciation se transmettait oralement. Pour qu'elle ne se perde pas, les Massorètes ont inventé un système de petits points et de traits, placés au-dessus et en dessous des lettres, pour indiquer les voyelles et la manière de chanter le texte. Mais remarque bien : ils n'ont pas changé une seule lettre du texte. Ils ont ajouté des signes autour des lettres, par respect pour le texte reçu."
+    },
+    {
+     "sous_titre": "Des notes dans les marges"
+    },
+    {
+     "texte": "Ils ont aussi écrit dans les marges des milliers de petites notes, appelées la Massora : combien de fois un mot apparaît dans la Bible, où se trouve le milieu d'un livre, quelles sont les orthographes rares. Quand ils pensaient qu'un mot devait se lire autrement, ils ne corrigeaient pas le texte : ils mettaient une note dans la marge. Le texte restait intact."
+    },
+    {
+     "sous_titre": "Le Codex d'Alep et le Codex de Leningrad"
+    },
+    {
+     "texte": "Deux manuscrits massorétiques sont particulièrement célèbres. Le Codex d'Alep, copié vers l'an 930, était considéré comme le modèle le plus parfait ; une partie a malheureusement été perdue au vingtième siècle, mais une grande partie est conservée à Jérusalem. Le Codex de Leningrad, achevé en 1008, conservé aujourd'hui à Saint-Pétersbourg, est le plus ancien manuscrit complet de toute la Bible hébraïque. C'est sur lui que reposent la plupart des éditions savantes de l'Ancien Testament hébreu aujourd'hui."
+    }
+   ]
+  },
+  {
+   "numero": "4",
+   "titre": "Le problème avant 1947",
+   "references": [
+    "És 40:8",
+    "Mt 5:18"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Mille ans d'écart"
+    },
+    {
+     "texte": "Avant le milieu du vingtième siècle, il y avait une question que les sceptiques posaient souvent. Les plus anciens manuscrits complets de l'Ancien Testament hébreu dataient du neuvième et du dixième siècle après Jésus-Christ. Or le prophète Ésaïe, par exemple, a écrit huit siècles avant Jésus-Christ. Entre l'original et les plus anciennes copies connues, il y avait donc plus de mille six cents ans. Que s'était-il passé pendant tout ce temps ? Les copistes avaient-ils changé le texte ?"
+    },
+    {
+     "sous_titre": "La réponse de la foi"
+    },
+    {
+     "texte": "Les croyants répondaient que Dieu avait gardé sa Parole. L'herbe sèche, la fleur tombe ; mais la parole de notre Dieu subsiste éternellement (Ésaïe 40:8). Jésus avait dit que pas un seul iota, pas un seul trait de lettre de la loi ne disparaîtrait (Matthieu 5:18). Mais pendant longtemps, on n'avait pas de manuscrit très ancien pour le montrer. Puis vint 1947."
+    }
+   ]
+  },
+  {
+   "numero": "5",
+   "titre": "La découverte de Qumrân",
+   "references": [
+    "Jr 32:14",
+    "Ps 102:19"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Un berger et une chèvre"
+    },
+    {
+     "texte": "Au début de l'année 1947, près de la mer Morte, dans le désert de Judée, de jeunes bergers bédouins cherchaient une chèvre égarée dans les falaises. L'un d'eux, selon le récit le plus connu, lança une pierre dans l'ouverture d'une grotte et entendit un bruit de poterie brisée. En entrant, ils trouvèrent de grandes jarres en terre cuite. Dans certaines d'entre elles, il y avait de vieux rouleaux enveloppés de lin."
+    },
+    {
+     "sous_titre": "Des jarres pour conserver"
+    },
+    {
+     "texte": "C'était exactement la manière dont on conservait les documents précieux dans l'Antiquité. Le prophète Jérémie lui-même, quand il acheta un champ, reçut cet ordre : prends ces écrits et mets-les dans un vase de terre, afin qu'ils se conservent longtemps (Jérémie 32:14). Le climat très sec de la région de la mer Morte a fait le reste : il a protégé ces rouleaux pendant près de deux mille ans."
+    },
+    {
+     "sous_titre": "Onze grottes"
+    },
+    {
+     "texte": "Les bergers vendirent les premiers rouleaux à des marchands, et ceux-ci finirent par attirer l'attention des savants. Entre 1947 et 1956, des archéologues et des bédouins explorèrent la région et découvrirent onze grottes contenant des manuscrits, près d'un site appelé Qumrân. Au total, des dizaines de milliers de fragments, appartenant à environ neuf cents manuscrits différents."
+    },
+    {
+     "sous_titre": "Une bibliothèque juive d'avant Jésus"
+    },
+    {
+     "texte": "Ces manuscrits ont été copiés entre le troisième siècle avant Jésus-Christ et le premier siècle après Jésus-Christ. Ils ont probablement été cachés dans les grottes vers l'an 68, au moment de la guerre entre les Juifs et les Romains, qui a conduit à la destruction de Jérusalem en l'an 70. Beaucoup de savants pensent qu'ils appartenaient à une communauté juive très stricte qui vivait à Qumrân."
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Ce que contenaient les manuscrits",
+   "references": [
+    "És 53:11"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Tous les livres sauf un"
+    },
+    {
+     "texte": "Environ deux cents des manuscrits de Qumrân sont des copies de livres de l'Ancien Testament. On a trouvé des fragments de tous les livres de la Bible hébraïque, sauf celui d'Esther. Certains livres étaient très présents, comme les Psaumes, le Deutéronome et Ésaïe : cela montre quels livres étaient le plus lus et aimés à cette époque."
+    },
+    {
+     "sous_titre": "Le grand rouleau d'Ésaïe"
+    },
+    {
+     "texte": "Le trésor le plus célèbre est le grand rouleau d'Ésaïe, trouvé dans la première grotte. Il mesure plus de sept mètres de long et contient les soixante-six chapitres du livre d'Ésaïe, en cinquante-quatre colonnes. Il a été copié environ un siècle et demi avant Jésus-Christ. Il est donc environ mille ans plus ancien que les plus anciens manuscrits complets d'Ésaïe connus avant 1947. On peut le voir aujourd'hui à Jérusalem, dans un musée construit spécialement pour les manuscrits de la mer Morte."
+    },
+    {
+     "sous_titre": "La comparaison"
+    },
+    {
+     "texte": "Les savants ont comparé ce rouleau avec le texte massorétique copié mille ans plus tard. Le résultat a étonné même les sceptiques : dans leur immense majorité, les différences sont des questions d'orthographe, de petites variantes de mots, des lettres oubliées ou ajoutées par un copiste, qui ne changent pas le sens. Le message du livre est le même. Mille ans de copies à la main n'avaient pas déformé le texte."
+    },
+    {
+     "sous_titre": "Le chapitre 53 avant Jésus"
+    },
+    {
+     "texte": "Le grand rouleau contient le chapitre 53 d'Ésaïe, qui décrit le Serviteur méprisé, blessé pour nos péchés, brisé pour nos iniquités. Ce texte a été copié plus d'un siècle avant la naissance de Jésus. Personne ne peut donc dire que les chrétiens l'ont écrit ou modifié après la crucifixion pour le faire correspondre à Jésus. La prophétie était déjà là, dans une jarre au bord de la mer Morte, avant que Jésus ne naisse à Bethléem."
+    },
+    {
+     "sous_titre": "Un petit mot en plus"
+    },
+    {
+     "texte": "Il y a même un détail émouvant. Au verset 11, le texte massorétique dit : à cause du travail de son âme, il rassasiera ses regards. Le rouleau de Qumrân, comme la vieille traduction grecque de la Septante, ajoute un mot : après les souffrances de son âme, il verra la lumière. Beaucoup y voient une allusion à la résurrection du Serviteur. Certaines traductions modernes françaises ont intégré ce mot."
+    }
+   ]
+  },
+  {
+   "numero": "7",
+   "titre": "Les autres témoins anciens",
+   "references": [
+    "Ps 12:7",
+    "Ac 15:21"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La Septante"
+    },
+    {
+     "texte": "Nous avons vu dans l'enseignement sur le canon que l'Ancien Testament avait été traduit en grec à Alexandrie, à partir du troisième siècle avant Jésus-Christ. Cette traduction, la Septante, est un témoin précieux du texte hébreu qu'utilisaient les traducteurs, bien avant les Massorètes."
+    },
+    {
+     "sous_titre": "Le Pentateuque samaritain"
+    },
+    {
+     "texte": "Les Samaritains, ce peuple dont parlent les évangiles, ne recevaient comme Écriture que les cinq livres de Moïse. Ils les ont recopiés de leur côté, avec leur propre écriture, pendant des siècles, sans contact avec les scribes juifs, avec qui ils étaient brouillés. Leur texte présente des différences, notamment là où ils ont adapté certains passages en faveur de leur temple sur le mont Garizim. Mais pour l'essentiel, il confirme le même texte. Deux familles qui ne se parlaient pas ont gardé le même héritage."
+    },
+    {
+     "sous_titre": "Les traductions anciennes"
+    },
+    {
+     "texte": "Il y a encore les Targums, des paraphrases en araméen lues dans les synagogues ; la Peshitta, une traduction en syriaque faite par des chrétiens d'Orient dans les premiers siècles ; la Vulgate latine de Jérôme, traduite directement de l'hébreu vers l'an 400. Toutes ces traductions, faites à des époques et dans des lieux différents, permettent de vérifier le texte hébreu."
+    },
+    {
+     "sous_titre": "Les citations"
+    },
+    {
+     "texte": "Enfin, l'Ancien Testament est cité des centaines de fois dans le Nouveau Testament, et des milliers de fois par les auteurs juifs et chrétiens des premiers siècles. Comme des témoins dispersés dans plusieurs villages qui racontent la même histoire, tous ces témoins indépendants confirment le texte."
+    }
+   ]
+  },
+  {
+   "numero": "8",
+   "titre": "Les plus anciens fragments",
+   "references": [
+    "Nb 6:24-26"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Deux petits rouleaux d'argent"
+    },
+    {
+     "texte": "En 1979, des archéologues fouillaient des tombes anciennes à Jérusalem, dans un lieu appelé Ketef Hinnom. Ils y trouvèrent deux minuscules rouleaux d'argent, pas plus grands qu'un doigt, qu'on portait sans doute comme des amulettes. Il fallut des années de travail délicat pour les dérouler sans les briser. On y découvrit, gravée dans l'argent, la bénédiction que Dieu avait donnée aux prêtres : que l'Éternel te bénisse, et qu'il te garde ! Que l'Éternel fasse luire sa face sur toi, et qu'il t'accorde sa grâce ! (Nombres 6:24-26)."
+    },
+    {
+     "sous_titre": "Le plus ancien texte biblique connu"
+    },
+    {
+     "texte": "Ces rouleaux datent d'environ six cents ans avant Jésus-Christ, c'est-à-dire de l'époque du prophète Jérémie, avant la destruction du premier temple. Ce sont les plus anciens fragments connus d'un texte de la Bible. Ils montrent que ce passage du livre des Nombres existait déjà, sous cette forme, à cette époque. Ironie de l'histoire : un objet que certains utilisaient sans doute comme une protection magique nous a conservé une bénédiction biblique, qui nous rappelle que c'est l'Éternel seul qui bénit et qui garde."
+    },
+    {
+     "sous_titre": "Le papyrus Nash"
+    },
+    {
+     "texte": "Avant Qumrân, on connaissait déjà un petit papyrus, acheté en Égypte au début du vingtième siècle par un collectionneur anglais nommé Nash. Il contient les dix commandements et la prière juive appelée le Shema : écoute, Israël ! l'Éternel, notre Dieu, est le seul Éternel (Deutéronome 6:4). Il date d'environ un ou deux siècles avant Jésus-Christ."
+    }
+   ]
+  },
+  {
+   "numero": "9",
+   "titre": "Comment on retrouve le texte d'origine",
+   "references": [
+    "Pr 25:2",
+    "Ac 17:11"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La critique textuelle"
+    },
+    {
+     "texte": "Quand des manuscrits ne disent pas exactement la même chose, des spécialistes les comparent pour retrouver le texte le plus proche de l'original. On appelle ce travail la critique textuelle. Le mot « critique » ne veut pas dire ici qu'on critique la Bible : il veut dire qu'on examine soigneusement les témoins, comme un juge examine les témoignages."
+    },
+    {
+     "sous_titre": "Les erreurs typiques des copistes"
+    },
+    {
+     "texte": "Les erreurs des copistes sont souvent faciles à reconnaître. Un copiste peut sauter une ligne quand deux lignes finissent par le même mot. Il peut écrire deux fois le même mot. Il peut confondre deux lettres hébraïques qui se ressemblent. Ces erreurs involontaires sont repérées en comparant les copies entre elles."
+    },
+    {
+     "sous_titre": "Une Bible qui indique ses variantes"
+    },
+    {
+     "texte": "Les bonnes Bibles d'étude indiquent parfois en note : « certains manuscrits ont… » ou « hébreu incertain ». Ce n'est pas un aveu de faiblesse : c'est un signe d'honnêteté. Les savants ne cachent rien. Et aucune de ces variantes ne remet en cause une vérité importante de la foi."
+    },
+    {
+     "sous_titre": "C'est la gloire de Dieu de cacher les choses"
+    },
+    {
+     "texte": "Les Proverbes disent : la gloire de Dieu, c'est de cacher les choses ; la gloire des rois, c'est de sonder les choses (Proverbes 25:2). Dieu a permis que les hommes travaillent dur pour retrouver et vérifier son texte. Ce travail patient a renforcé, au lieu d'affaiblir, notre confiance dans la Bible."
+    }
+   ]
+  },
+  {
+   "numero": "10",
+   "titre": "Une Parole lue à haute voix devant tout le peuple",
+   "references": [
+    "Dt 31:10-13",
+    "Jos 8:34-35",
+    "Dt 17:18-19"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Pas seulement pour les savants"
+    },
+    {
+     "sous_titre": "Un peuple qui écoute"
+    },
+    {
+     "texte": "Dans beaucoup de nos villages, l'histoire et la sagesse des ancêtres se transmettaient de la même manière : par la parole, le soir, autour du feu, et les anciens corrigeaient aussitôt celui qui racontait mal. Dieu a donné à Israël sa Parole écrite, mais il a aussi voulu qu'elle soit lue à voix haute et entendue par toute la communauté, pour qu'elle soit gardée dans les cœurs autant que sur les rouleaux."
+    },
+    {
+     "texte": "Dans l'ancien Israël, peu de gens possédaient un rouleau des Écritures : c'était trop rare et trop cher. Mais Dieu avait prévu que sa Parole soit entendue par tous. Moïse ordonna qu'à la fête des tabernacles, tous les sept ans, on lise la loi devant tout Israël."
+    },
+    {
+     "verset": "Dt 31:10-13"
+    },
+    {
+     "texte": "Tu assembleras le peuple, les hommes, les femmes, les enfants, et l'étranger qui sera dans tes portes, afin qu'ils entendent et qu'ils apprennent à craindre l'Éternel, votre Dieu. Les femmes, les enfants et les étrangers n'étaient pas exclus : la Parole de Dieu était pour tous."
+    },
+    {
+     "sous_titre": "Josué lit tout"
+    },
+    {
+     "texte": "Quand Israël est entré dans le pays promis, Josué lut ensuite toutes les paroles de la loi, les bénédictions et les malédictions. Il n'y eut rien de tout ce que Moïse avait prescrit que Josué ne lût en présence de toute l'assemblée d'Israël, des femmes et des enfants, et des étrangers qui marchaient au milieu d'eux (Josué 8:34-35)."
+    },
+    {
+     "sous_titre": "Le roi doit copier la loi"
+    },
+    {
+     "texte": "Même le roi devait avoir son propre exemplaire. Moïse avait ordonné : quand il sera assis sur le trône de son royaume, il écrira pour lui, dans un livre, une copie de cette loi. Il devra l'avoir avec lui et y lire tous les jours de sa vie (Deutéronome 17:18-19). Le chef le plus puissant du pays devait se soumettre à la Parole, et la lire chaque jour."
+    },
+    {
+     "sous_titre": "Une transmission vivante"
+    },
+    {
+     "texte": "Cette lecture publique régulière a aussi protégé le texte. Quand un passage est lu devant tout un peuple, de génération en génération, on ne peut pas le changer en secret : tout le monde le connaît. C'est comme un chant que tout un village connaît par cœur ; si un chanteur change les paroles, tous le remarquent."
+    }
+   ]
+  },
+  {
+   "numero": "11",
+   "titre": "Quand on a voulu détruire les rouleaux",
+   "references": [
+    "Dn 11:31-32",
+    "Ps 74:3-8"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Antiochus Épiphane"
+    },
+    {
+     "texte": "Au deuxième siècle avant Jésus-Christ, la Judée était dominée par un roi grec de Syrie, Antiochus IV, qui se faisait appeler Épiphane, c'est-à-dire « le dieu manifesté ». Il voulut imposer la culture et la religion grecques aux Juifs. Il profana le temple de Jérusalem en y installant un autel païen, interdit la circoncision et le sabbat. Selon le premier livre des Maccabées, un livre historique juif de cette époque, il fit déchirer et brûler les rouleaux de la loi qu'on trouvait, et mettre à mort ceux chez qui on en découvrait."
+    },
+    {
+     "sous_titre": "Annoncé par Daniel"
+    },
+    {
+     "texte": "Le prophète Daniel avait décrit à l'avance un roi qui profanerait le sanctuaire, ferait cesser le sacrifice perpétuel et dresserait l'abomination du dévastateur. Mais il ajoutait : ceux du peuple qui connaîtront leur Dieu agiront avec fermeté (Daniel 11:31-32). Beaucoup de Juifs ont préféré mourir plutôt que de livrer leurs rouleaux ou de renier leur foi."
+    },
+    {
+     "sous_titre": "Les rouleaux ont survécu"
+    },
+    {
+     "texte": "Antiochus a disparu, et les rouleaux sont restés. Quelques années plus tard, les Juifs ont purifié le temple, et la lecture de la loi a repris. Les manuscrits de Qumrân, copiés justement autour de cette époque et dans les décennies suivantes, montrent que la Parole a continué d'être copiée avec fidélité malgré la persécution."
+    },
+    {
+     "sous_titre": "Une histoire qui se répète"
+    },
+    {
+     "texte": "À travers l'histoire, beaucoup ont voulu détruire les Écritures : des rois de Juda, des empereurs romains, des régimes modernes. Aucun n'a réussi. La Parole de Dieu n'est pas enchaînée (2 Timothée 2:9)."
+    }
+   ]
+  },
+  {
+   "numero": "12",
+   "titre": "Ce que Qumrân nous apprend sur le temps de Jésus",
+   "references": [
+    "Lc 3:2-4",
+    "És 40:3"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Une époque d'attente"
+    },
+    {
+     "texte": "Les manuscrits de Qumrân ne contiennent pas seulement des livres bibliques. Ils contiennent aussi des écrits propres à la communauté qui les a copiés : des règles de vie, des hymnes, des commentaires des prophètes, des textes sur la fin des temps. Ces écrits montrent qu'à l'époque de Jésus, beaucoup de Juifs attendaient ardemment le Messie et la venue du royaume de Dieu."
+    },
+    {
+     "sous_titre": "Préparer le chemin dans le désert"
+    },
+    {
+     "texte": "La communauté de Qumrân s'était retirée dans le désert, et elle se référait à la parole d'Ésaïe : une voix crie : préparez au désert le chemin de l'Éternel (Ésaïe 40:3). C'est exactement le verset que les évangiles appliquent à Jean-Baptiste, qui prêchait dans le désert de Judée, non loin de là (Luc 3:2-4). Il n'y a pas de preuve que Jean ait fait partie de cette communauté, mais les manuscrits montrent combien cette attente était vivante à son époque."
+    },
+    {
+     "sous_titre": "Un arrière-plan qui éclaire les évangiles"
+    },
+    {
+     "texte": "Ces textes aident les savants à mieux comprendre le langage et les idées du temps de Jésus : les débats sur le sabbat, sur la pureté, sur le temple, sur le Messie. Loin d'affaiblir les évangiles, ils montrent que les évangiles décrivent fidèlement le monde juif du premier siècle."
+    },
+    {
+     "sous_titre": "La différence essentielle"
+    },
+    {
+     "texte": "Mais il y a aussi une grande différence. La communauté de Qumrân s'était séparée du monde, attendait un Messie qui viendrait détruire les impurs, et réservait la sainteté à un petit groupe d'élus très stricts. Jésus, lui, est allé vers les pécheurs, les malades, les impurs, les étrangers. Il n'est pas venu pour fuir le monde, mais pour le sauver."
+    }
+   ]
+  },
+  {
+   "numero": "13",
+   "titre": "De la plume à l'imprimerie, puis à l'écran",
+   "references": [
+    "Ps 119:130",
+    "Hab 2:2"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La fin des copies à la main"
+    },
+    {
+     "texte": "Pendant des siècles, chaque copie de la Bible demandait des mois, parfois des années de travail. Une Bible complète coûtait très cher : seuls les monastères, les synagogues importantes, les églises riches ou les princes pouvaient en posséder. Vers 1455, en Allemagne, Johannes Gutenberg a mis au point une imprimerie avec des caractères mobiles en métal. Le premier grand livre qu'il a imprimé, c'est la Bible, en latin. On l'appelle aujourd'hui la Bible de Gutenberg."
+    },
+    {
+     "sous_titre": "Des milliers d'exemplaires identiques"
+    },
+    {
+     "texte": "L'imprimerie a changé deux choses. D'abord, on pouvait produire des centaines, puis des milliers d'exemplaires, beaucoup moins chers. Ensuite, tous les exemplaires d'une même édition étaient identiques : il n'y avait plus de risque qu'un copiste fatigué saute une ligne. Le prophète Habakuk avait reçu cet ordre : écris la prophétie, grave-la sur des tables, afin qu'on la lise couramment (Habakuk 2:2). Grâce à l'imprimerie, la Parole pouvait être lue couramment dans les maisons."
+    },
+    {
+     "sous_titre": "Les éditions savantes"
+    },
+    {
+     "texte": "Aujourd'hui, les traducteurs de la Bible ne travaillent pas à partir d'une traduction, mais à partir d'éditions savantes du texte hébreu, qui reproduisent par exemple le Codex de Leningrad et indiquent en note les variantes des manuscrits de Qumrân, de la Septante et des autres témoins. Ainsi, une traduction moderne sérieuse s'appuie sur tout ce que nous savons des manuscrits anciens."
+    },
+    {
+     "sous_titre": "La Bible sur ton téléphone"
+    },
+    {
+     "texte": "Aujourd'hui, la Bible est disponible sur les téléphones, comme dans Yeshaya, qui utilise la version Louis Segond, révisée en 1910, aujourd'hui libre de droits. Un villageois d'Afrique peut avoir dans sa poche plus de textes bibliques que les plus grandes bibliothèques du Moyen Âge. C'est une immense grâce, mais aussi une grande responsabilité."
+    },
+    {
+     "sous_titre": "Une lumière pour les simples"
+    },
+    {
+     "texte": "La révélation de tes paroles éclaire, elle donne de l'intelligence aux simples (Psaume 119:130). Le travail des scribes, des Massorètes, des imprimeurs et des traducteurs n'avait qu'un but : que les simples, les gens ordinaires, puissent entendre Dieu leur parler. Ne laisse pas ce trésor dormir dans ta poche."
+    }
+   ]
+  },
+  {
+   "numero": "14",
+   "titre": "Ce que cela nous apprend",
+   "references": [
+    "És 40:8",
+    "1 P 1:24-25"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Le texte n'a pas été changé"
+    },
+    {
+     "texte": "Les faits sont clairs. Les manuscrits de Qumrân montrent que le texte de l'Ancien Testament a été transmis avec une fidélité remarquable pendant plus de mille ans. Ceux qui disent que la Bible a été changée au cours des siècles doivent expliquer pourquoi un rouleau copié avant Jésus dit, pour l'essentiel, la même chose que nos Bibles aujourd'hui."
+    },
+    {
+     "sous_titre": "Dieu veille sur sa Parole"
+    },
+    {
+     "texte": "Derrière le travail des scribes, des Massorètes et des savants, il y a un Dieu qui veille sur sa Parole. Dieu a dit à Jérémie : je veille sur ma parole, pour l'exécuter (Jérémie 1:12). Le même Dieu a veillé à ce qu'elle nous parvienne."
+    },
+    {
+     "sous_titre": "Lire ce trésor avec respect"
+    },
+    {
+     "texte": "Quand tu ouvres ta Bible à Ésaïe ou aux Psaumes, souviens-toi que ces mots ont traversé des siècles de copies à la main, d'exils, de guerres, de persécutions, de grottes et de jarres, pour arriver jusqu'à toi. Ce n'est pas un livre à laisser prendre la poussière. Des hommes ont donné leur vie pour le copier et le garder. Toi, donne-lui ton temps et ton cœur."
+    },
+    {
+     "texte": "On raconte qu'un professeur d'une école biblique, après avoir visité à Jérusalem le musée où est exposé le grand rouleau d'Ésaïe, rentra dans son pays et montra à ses étudiants une photo agrandie de la colonne où se trouve le chapitre 53. Il leur dit : « Ces lettres ont été tracées à la main plus d'un siècle avant la naissance de Jésus. Lisez maintenant le même chapitre dans votre Bible. » Un étudiant lut à haute voix : « Il était blessé pour nos péchés. » Puis il resta silencieux, et dit : « Alors, ce n'est pas une histoire que les chrétiens ont inventée après coup. Dieu l'avait écrit avant. »"
+    }
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "question": "Dans quelles langues l'Ancien Testament a-t-il été écrit ?",
+   "choix": [
+    "En grec et en latin",
+    "Surtout en hébreu, avec quelques passages en araméen",
+    "En arabe"
+   ],
+   "reponse": 1,
+   "explication": "L'araméen se trouve notamment dans Esdras et Daniel.",
+   "section": "1"
+  },
+  {
+   "question": "Qu'ont fait les Massorètes pour garder la prononciation du texte ?",
+   "choix": [
+    "Ils ont réécrit le texte",
+    "Ils ont ajouté des signes de voyelles autour des lettres, sans changer une seule lettre",
+    "Ils ont traduit en grec"
+   ],
+   "reponse": 1,
+   "explication": "Le texte consonantique restait intact.",
+   "section": "3"
+  },
+  {
+   "question": "Quel était le problème posé avant 1947 ?",
+   "choix": [
+    "On n'avait aucun manuscrit",
+    "Les plus anciens manuscrits complets en hébreu dataient d'environ mille ans après Jésus, loin des originaux",
+    "Les manuscrits étaient en anglais"
+   ],
+   "reponse": 1,
+   "explication": "D'où l'importance de Qumrân.",
+   "section": "4"
+  },
+  {
+   "question": "De quand date le grand rouleau d'Ésaïe trouvé à Qumrân ?",
+   "choix": [
+    "Du Moyen Âge",
+    "D'environ un siècle et demi avant Jésus-Christ",
+    "Du temps de Moïse"
+   ],
+   "reponse": 1,
+   "explication": "Il est environ mille ans plus ancien que les manuscrits connus avant.",
+   "section": "6"
+  },
+  {
+   "question": "Qu'a montré la comparaison entre le rouleau d'Ésaïe et le texte massorétique ?",
+   "choix": [
+    "Que le texte avait été complètement changé",
+    "Que les différences sont surtout d'orthographe et que le message est le même",
+    "Qu'il manquait le chapitre 53"
+   ],
+   "reponse": 1,
+   "explication": "Mille ans de copies n'avaient pas déformé le texte.",
+   "section": "6"
+  },
+  {
+   "question": "Que contiennent les petits rouleaux d'argent de Ketef Hinnom ?",
+   "choix": [
+    "Une liste de rois",
+    "La bénédiction des prêtres de Nombres 6:24-26, vers 600 avant Jésus-Christ",
+    "Un psaume de David"
+   ],
+   "reponse": 1,
+   "explication": "Ce sont les plus anciens fragments connus d'un texte biblique.",
+   "section": "8"
+  }
+ ],
+ "devoir": [
+  "Lis Ésaïe 53 en entier, en te rappelant qu'il a été retrouvé dans un rouleau copié avant Jésus. Note trois détails qui correspondent à la passion de Jésus.",
+  "Explique avec tes propres mots à quelqu'un la découverte de Qumrân et ce qu'elle montre.",
+  "Lis Jérémie 32:6-15 et note la manière dont on conservait les documents précieux."
+ ],
+ "prieres_liees": [],
+ "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}
