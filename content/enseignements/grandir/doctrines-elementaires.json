@@ -1,411 +1,653 @@
 {
- "id": "enseignement-doctrines-elementaires",
- "titre": "Les fondements de la foi : les six doctrines d'Hébreux 6",
- "serie": "Grandir",
- "theme": "Fondations",
- "auteur": "Yeshaya",
- "resume": "L'épître aux Hébreux cite six fondements de la parole de Christ : la repentance des œuvres mortes, la foi en Dieu, les baptêmes, l'imposition des mains, la résurrection des morts et le jugement éternel. Ce que chacun veut dire, et pourquoi il faut les poser solidement avant d'aller plus loin.",
- "image": "/assets/symboles/jeune-pousse.webp",
- "verset_de_base": "He 6:1-2",
- "lecture_minutes": 18,
- "objectifs": [
-  "Connaître les six doctrines élémentaires d'Hébreux 6.",
-  "Comprendre chacune avec la Bible.",
-  "Vérifier que ces fondements sont posés dans sa vie.",
-  "Être prêt à tendre vers la maturité."
- ],
- "introduction": "Quand on construit une maison, personne ne regarde les fondations une fois les murs montés. Pourtant, ce sont elles qui décident si la maison tiendra pendant la tempête. Beaucoup de chrétiens ont construit des murs impressionnants : ils chantent, prêchent, prophétisent même. Mais à la première épreuve, tout s'écroule, parce que les fondations n'ont jamais été posées.\n\nL'épître aux Hébreux contient une liste précieuse. L'auteur écrit : c'est pourquoi, laissant les éléments de la parole de Christ, tendons à ce qui est parfait, sans poser de nouveau le fondement du renoncement aux œuvres mortes, de la foi en Dieu, de la doctrine des baptêmes, de l'imposition des mains, de la résurrection des morts, et du jugement éternel (Hébreux 6:1-2).\n\nIl y a six fondements. L'auteur ne dit pas qu'ils sont sans importance. Il dit qu'ils doivent être posés une fois pour toutes, solidement, pour qu'on puisse ensuite construire dessus. Nous allons les voir un par un.",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "Pourquoi des fondements",
-   "references": [
-    "He 5:12-14",
-    "Mt 7:24-27",
-    "1 Co 3:10-11"
-   ],
-   "blocs": [
+  "id": "enseignement-doctrines-elementaires",
+  "titre": "Les fondements de la foi : les six doctrines d'Hébreux 6",
+  "serie": "Grandir",
+  "theme": "Fondations",
+  "auteur": "Yeshaya",
+  "resume": "L'épître aux Hébreux cite six fondements de la parole de Christ : la repentance des œuvres mortes, la foi en Dieu, les baptêmes, l'imposition des mains, la résurrection des morts et le jugement éternel. Ce que chacun veut dire, et pourquoi il faut les poser solidement avant d'aller plus loin.",
+  "image": "/assets/symboles/jeune-pousse.webp",
+  "verset_de_base": "He 6:1-2",
+  "lecture_minutes": 35,
+  "objectifs": [
+    "Connaître les six doctrines élémentaires d'Hébreux 6.",
+    "Comprendre chacune avec la Bible.",
+    "Vérifier que ces fondements sont posés dans sa vie.",
+    "Être prêt à tendre vers la maturité."
+  ],
+  "introduction": "Quand on construit une maison, personne ne regarde les fondations une fois les murs montés. Pourtant, ce sont elles qui décident si la maison tiendra pendant la tempête. Beaucoup de chrétiens ont construit des murs impressionnants : ils chantent, prêchent, prophétisent même. Mais à la première épreuve, tout s'écroule, parce que les fondations n'ont jamais été posées.\n\nL'épître aux Hébreux contient une liste précieuse. L'auteur écrit : c'est pourquoi, laissant les éléments de la parole de Christ, tendons à ce qui est parfait, sans poser de nouveau le fondement du renoncement aux œuvres mortes, de la foi en Dieu, de la doctrine des baptêmes, de l'imposition des mains, de la résurrection des morts, et du jugement éternel (Hébreux 6:1-2).\n\nIl y a six fondements. L'auteur ne dit pas qu'ils sont sans importance. Il dit qu'ils doivent être posés une fois pour toutes, solidement, pour qu'on puisse ensuite construire dessus. Nous allons les voir un par un.",
+  "sections": [
     {
-     "sous_titre": "Encore au lait"
+      "numero": "1",
+      "titre": "Pourquoi des fondements",
+      "references": [
+        "He 5:12-14",
+        "Mt 7:24-27",
+        "1 Co 3:10-11"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Encore au lait"
+        },
+        {
+          "texte": "Juste avant, l'auteur fait un reproche : vous qui depuis longtemps devriez être des maîtres, vous avez encore besoin qu'on vous enseigne les premiers rudiments des oracles de Dieu. Vous en êtes venus à avoir besoin de lait et non d'une nourriture solide. Il y a des chrétiens de vingt ans qui sont encore des bébés spirituels, parce qu'ils n'ont jamais compris les bases."
+        },
+        {
+          "verset": "He 5:12-14"
+        },
+        {
+          "sous_titre": "La maison sur le roc"
+        },
+        {
+          "texte": "Jésus a terminé le sermon sur la montagne par l'histoire de deux maisons. Les deux ont subi la même pluie, les mêmes torrents, les mêmes vents. L'une est tombée, l'autre est restée debout. La différence était invisible : les fondations."
+        },
+        {
+          "verset": "Mt 7:24-27"
+        },
+        {
+          "sous_titre": "Un seul fondement"
+        },
+        {
+          "texte": "Paul écrit : personne ne peut poser un autre fondement que celui qui a été posé, savoir Jésus-Christ. Les six doctrines d'Hébreux 6 ne sont pas six fondements à côté de Jésus. Ce sont six pierres qui reposent sur Jésus et qui viennent de sa parole. L'auteur les appelle d'ailleurs les éléments de la parole de Christ."
+        },
+        {
+          "verset": "1 Co 3:10-11"
+        }
+      ]
     },
     {
-     "texte": "Juste avant, l'auteur fait un reproche : vous qui depuis longtemps devriez être des maîtres, vous avez encore besoin qu'on vous enseigne les premiers rudiments des oracles de Dieu. Vous en êtes venus à avoir besoin de lait et non d'une nourriture solide. Il y a des chrétiens de vingt ans qui sont encore des bébés spirituels, parce qu'ils n'ont jamais compris les bases."
+      "numero": "2",
+      "titre": "La repentance des œuvres mortes",
+      "references": [
+        "Ac 20:21",
+        "He 9:14",
+        "Ac 3:19",
+        "Lc 3:8"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Le premier fondement"
+        },
+        {
+          "texte": "La première chose, c'est le renoncement, ou la repentance, aux œuvres mortes. Se repentir, c'est changer de pensée et de direction : je reconnais que j'avais tort, je me détourne du péché, et je me tourne vers Dieu. Paul résume son message ainsi : la repentance envers Dieu et la foi en notre Seigneur Jésus-Christ."
+        },
+        {
+          "verset": "Ac 20:21"
+        },
+        {
+          "sous_titre": "Que sont les œuvres mortes ?"
+        },
+        {
+          "texte": "Les œuvres mortes, ce ne sont pas seulement les péchés évidents comme le vol ou l'adultère. Ce sont aussi toutes les œuvres que l'homme fait pour se sauver lui-même : les sacrifices, les rites, les pèlerinages, les bonnes actions faites pour mériter le ciel. L'épître dit que le sang de Christ purifie notre conscience des œuvres mortes, afin que nous servions le Dieu vivant. Beaucoup doivent se repentir non seulement de leurs péchés, mais aussi de leur religion."
+        },
+        {
+          "verset": "He 9:14"
+        },
+        {
+          "sous_titre": "Une repentance qui porte du fruit"
+        },
+        {
+          "texte": "Jean-Baptiste disait : produisez des fruits dignes de la repentance. La repentance n'est pas seulement pleurer à l'autel. Elle se voit : on rend ce qu'on a volé, on quitte la relation coupable, on brûle les fétiches, on arrête de mentir."
+        },
+        {
+          "verset": "Lc 3:8"
+        }
+      ]
     },
     {
-     "verset": "He 5:12-14"
+      "numero": "3",
+      "titre": "La foi en Dieu",
+      "references": [
+        "He 11:6",
+        "Rm 10:17",
+        "Ep 2:8-9",
+        "Jc 2:17"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Sans la foi, impossible"
+        },
+        {
+          "texte": "Or sans la foi il est impossible de lui être agréable ; car il faut que celui qui s'approche de Dieu croie que Dieu existe, et qu'il est le rémunérateur de ceux qui le cherchent. La repentance est le côté « je me détourne », la foi est le côté « je me tourne vers lui ». Les deux vont ensemble."
+        },
+        {
+          "verset": "He 11:6"
+        },
+        {
+          "sous_titre": "Qu'est-ce que la foi ?"
+        },
+        {
+          "texte": "La foi n'est pas un sentiment, ni une force qu'on fabrique en criant. C'est la confiance en Dieu et en ce qu'il a dit. Elle vient de ce qu'on entend, et ce qu'on entend vient de la parole de Christ. Plus tu connais la Parole, plus ta foi a de quoi s'appuyer."
+        },
+        {
+          "verset": "Rm 10:17"
+        },
+        {
+          "sous_titre": "Sauvés par grâce, par la foi"
+        },
+        {
+          "texte": "C'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres, afin que personne ne se glorifie. La foi ne mérite rien : elle reçoit ce que Dieu donne."
+        },
+        {
+          "verset": "Ep 2:8-9"
+        },
+        {
+          "sous_titre": "Une foi vivante"
+        },
+        {
+          "texte": "Mais Jacques rappelle que la foi, si elle n'a pas les œuvres, est morte en elle-même. Nous ne sommes pas sauvés par les œuvres, mais la vraie foi produit des œuvres, comme un arbre vivant produit des fruits."
+        },
+        {
+          "verset": "Jc 2:17"
+        }
+      ]
     },
     {
-     "sous_titre": "La maison sur le roc"
+      "numero": "4",
+      "titre": "La doctrine des baptêmes",
+      "references": [
+        "Mt 28:19",
+        "Rm 6:3-4",
+        "Ac 1:5",
+        "Ac 2:38"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Pourquoi au pluriel ?"
+        },
+        {
+          "texte": "L'auteur parle des baptêmes, au pluriel. Les premiers lecteurs, juifs, connaissaient plusieurs lavages et baptêmes : les purifications de la loi, le baptême de Jean-Baptiste, le baptême chrétien. Le croyant doit comprendre la différence. Le Nouveau Testament parle surtout de deux réalités : le baptême d'eau et le baptême dans le Saint-Esprit."
+        },
+        {
+          "sous_titre": "Le baptême d'eau"
+        },
+        {
+          "texte": "Jésus a ordonné de baptiser les disciples au nom du Père, du Fils et du Saint-Esprit. Le baptême ne sauve pas par lui-même, mais il est l'acte d'obéissance par lequel le croyant déclare publiquement son union avec Christ. Paul l'explique : nous avons été ensevelis avec lui par le baptême en sa mort, afin que, comme Christ est ressuscité des morts, de même nous aussi nous marchions en nouveauté de vie. Si tu as cru et que tu n'es pas encore baptisé, parles-en à ton pasteur."
+        },
+        {
+          "verset": "Rm 6:3-4"
+        },
+        {
+          "sous_titre": "Le baptême dans le Saint-Esprit"
+        },
+        {
+          "texte": "Jésus a dit à ses disciples : Jean a baptisé d'eau, mais vous, dans peu de jours, vous serez baptisés du Saint-Esprit. Le jour de la Pentecôte, Pierre a dit : repentez-vous, et que chacun de vous soit baptisé au nom de Jésus-Christ, pour le pardon de vos péchés ; et vous recevrez le don du Saint-Esprit. Le chrétien n'est pas seulement pardonné : il est rempli de la puissance de Dieu pour vivre et pour témoigner. Les églises n'expliquent pas toutes ce baptême de la même manière, mais toutes reconnaissent que le croyant a besoin d'être rempli de l'Esprit (Éphésiens 5:18)."
+        },
+        {
+          "verset": "Ac 2:38"
+        }
+      ]
     },
     {
-     "texte": "Jésus a terminé le sermon sur la montagne par l'histoire de deux maisons. Les deux ont subi la même pluie, les mêmes torrents, les mêmes vents. L'une est tombée, l'autre est restée debout. La différence était invisible : les fondations."
+      "numero": "5",
+      "titre": "L'imposition des mains",
+      "references": [
+        "Ac 8:17",
+        "Ac 13:2-3",
+        "Mc 16:18",
+        "1 Tm 5:22"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un geste de transmission"
+        },
+        {
+          "texte": "Dans la Bible, imposer les mains est un geste par lequel Dieu transmet une bénédiction, une autorité ou une puissance, à travers ses serviteurs. Ce n'est pas un geste magique, et ce n'est pas un spectacle."
+        },
+        {
+          "sous_titre": "Pour recevoir l'Esprit"
+        },
+        {
+          "texte": "À Samarie, Pierre et Jean ont imposé les mains aux nouveaux croyants, et ils ont reçu le Saint-Esprit."
+        },
+        {
+          "verset": "Ac 8:17"
+        },
+        {
+          "sous_titre": "Pour envoyer en mission"
+        },
+        {
+          "texte": "À Antioche, après avoir jeûné et prié, l'église a imposé les mains à Barnabas et Saul, puis les a laissés partir. L'imposition des mains reconnaît un appel de Dieu et confie un ministère."
+        },
+        {
+          "verset": "Ac 13:2-3"
+        },
+        {
+          "sous_titre": "Pour la guérison"
+        },
+        {
+          "texte": "Jésus a dit que ses disciples imposeraient les mains aux malades, et que les malades seraient guéris. On prie pour les malades avec foi, en sachant que c'est Dieu qui guérit, quand et comme il veut."
+        },
+        {
+          "verset": "Mc 16:18"
+        },
+        {
+          "sous_titre": "Avec prudence"
+        },
+        {
+          "texte": "Paul avertit Timothée : n'impose les mains avec précipitation à personne. On ne consacre pas un responsable parce qu'il est riche, éloquent ou du même village. Et on ne laisse pas n'importe qui imposer les mains : il y a des gens qui transmettent de mauvaises choses. Ne laisse pas un inconnu ou un « prophète » douteux poser les mains sur toi."
+        },
+        {
+          "verset": "1 Tm 5:22"
+        }
+      ]
     },
     {
-     "verset": "Mt 7:24-27"
+      "numero": "6",
+      "titre": "La résurrection des morts",
+      "references": [
+        "1 Co 15:17-20",
+        "Jn 11:25-26",
+        "Jn 5:28-29"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Si Christ n'est pas ressuscité"
+        },
+        {
+          "texte": "Paul est clair : si Christ n'est pas ressuscité, votre foi est vaine, vous êtes encore dans vos péchés. Mais maintenant, Christ est ressuscité des morts, il est les prémices de ceux qui sont morts. La résurrection de Jésus est la garantie de la nôtre."
+        },
+        {
+          "verset": "1 Co 15:17-20"
+        },
+        {
+          "sous_titre": "Je suis la résurrection"
+        },
+        {
+          "texte": "Devant le tombeau de Lazare, Jésus a dit à Marthe : je suis la résurrection et la vie. Celui qui croit en moi vivra, quand même il serait mort. Le chrétien ne croit pas à la réincarnation, ni à des esprits des morts qui errent ou protègent la famille. Il croit que les morts ressusciteront avec un corps, au retour de Christ."
+        },
+        {
+          "verset": "Jn 11:25-26"
+        },
+        {
+          "sous_titre": "Tous ressusciteront"
+        },
+        {
+          "texte": "Jésus a dit que tous ceux qui sont dans les sépulcres entendront sa voix, et en sortiront : ceux qui auront fait le bien pour la vie, ceux qui auront fait le mal pour le jugement. La résurrection est une espérance pour le croyant et un avertissement pour celui qui refuse Dieu."
+        },
+        {
+          "verset": "Jn 5:28-29"
+        }
+      ]
     },
     {
-     "sous_titre": "Un seul fondement"
+      "numero": "7",
+      "titre": "Le jugement éternel",
+      "references": [
+        "He 9:27",
+        "Ac 17:30-31",
+        "Ap 20:12",
+        "Jn 3:18"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un rendez-vous fixé"
+        },
+        {
+          "texte": "Il est réservé aux hommes de mourir une seule fois, après quoi vient le jugement. Paul l'a annoncé à Athènes : Dieu annonce maintenant à tous les hommes, en tous lieux, qu'ils aient à se repentir, parce qu'il a fixé un jour où il jugera le monde selon la justice, par l'homme qu'il a désigné, Jésus."
+        },
+        {
+          "verset": "Ac 17:30-31"
+        },
+        {
+          "sous_titre": "Un jugement éternel"
+        },
+        {
+          "texte": "Ce jugement est appelé éternel parce que sa décision ne change plus jamais. Il n'y a pas de purgatoire, pas de seconde chance après la mort, pas de prière des vivants qui puisse changer le sort des morts."
+        },
+        {
+          "verset": "He 9:27"
+        },
+        {
+          "sous_titre": "Le croyant et le jugement"
+        },
+        {
+          "texte": "Jésus a dit : celui qui croit en lui n'est point jugé ; mais celui qui ne croit pas est déjà jugé, parce qu'il n'a pas cru au nom du Fils unique de Dieu. Le croyant comparaîtra devant Christ pour rendre compte de sa vie, mais il ne sera pas condamné. La boucle se referme : la repentance et la foi, le premier fondement, sont la seule préparation au dernier."
+        },
+        {
+          "verset": "Jn 3:18"
+        }
+      ]
     },
     {
-     "texte": "Paul écrit : personne ne peut poser un autre fondement que celui qui a été posé, savoir Jésus-Christ. Les six doctrines d'Hébreux 6 ne sont pas six fondements à côté de Jésus. Ce sont six pierres qui reposent sur Jésus et qui viennent de sa parole. L'auteur les appelle d'ailleurs les éléments de la parole de Christ."
+      "numero": "8",
+      "titre": "Le centenier : une foi qui s'appuie sur la parole",
+      "references": [
+        "Mt 8:5-13",
+        "Rm 4:18-21"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un officier étranger"
+        },
+        {
+          "texte": "Comme Jésus entrait dans Capernaüm, un centenier l'aborda. Un centenier était un officier de l'armée romaine, qui commandait environ cent soldats. C'était un étranger, un païen, un représentant de la puissance qui occupait le pays. Et pourtant, il vint à Jésus avec une prière humble : Seigneur, mon serviteur est couché à la maison, atteint de paralysie et souffrant beaucoup."
+        },
+        {
+          "verset": "Mt 8:5-13"
+        },
+        {
+          "texte": "Remarque déjà une chose : cet homme puissant s'inquiétait pour un serviteur, quelqu'un qui, à l'époque, était souvent traité comme un simple objet."
+        },
+        {
+          "sous_titre": "« Dis seulement un mot »"
+        },
+        {
+          "texte": "Jésus lui dit : j'irai, et je le guérirai. Mais le centenier répondit : Seigneur, je ne suis pas digne que tu entres sous mon toit ; mais dis seulement un mot, et mon serviteur sera guéri. Car, moi qui suis soumis à des supérieurs, j'ai des soldats sous mes ordres ; et je dis à l'un : va ! et il va ; à l'autre : viens ! et il vient ; et à mon serviteur : fais cela ! et il le fait."
+        },
+        {
+          "texte": "Le centenier connaissait l'autorité. Il savait qu'un ordre donné par celui qui a autorité est exécuté, même à distance. Et il avait compris que Jésus avait autorité sur la maladie. Il n'avait besoin ni d'un toucher, ni d'une visite, ni d'un objet. Seulement d'une parole."
+        },
+        {
+          "sous_titre": "Jésus s'étonne"
+        },
+        {
+          "texte": "Après l'avoir entendu, Jésus fut dans l'étonnement, et il dit à ceux qui le suivaient : je vous le dis en vérité, même en Israël je n'ai pas trouvé une aussi grande foi. Puis Jésus dit au centenier : va, qu'il te soit fait selon ta foi. Et à l'heure même le serviteur fut guéri."
+        },
+        {
+          "texte": "Deux fois seulement, les évangiles disent que Jésus s'est étonné : une fois de l'incrédulité de son village de Nazareth, et une fois de la foi de ce païen."
+        },
+        {
+          "sous_titre": "La foi selon Hébreux 6"
+        },
+        {
+          "texte": "C'est exactement la « foi en Dieu » dont parle Hébreux 6 comme fondement : une confiance qui s'appuie sur ce que Dieu a dit, même quand on ne voit encore rien. Paul la décrit chez Abraham : espérant contre toute espérance, il crut. Et, sans faiblir dans la foi, il ne considéra point que son corps était déjà usé, puisqu'il avait près de cent ans. Il ne douta point, par incrédulité, au sujet de la promesse de Dieu ; mais il fut fortifié par la foi, donnant gloire à Dieu, et ayant la pleine conviction que ce qu'il promet, il peut aussi l'accomplir."
+        },
+        {
+          "verset": "Rm 4:18-21"
+        },
+        {
+          "texte": "La foi n'est pas un sentiment fort. C'est une confiance dans la parole de quelqu'un. Plus tu connais la Parole de Dieu, plus ta foi a un appui solide."
+        }
+      ]
     },
     {
-     "verset": "1 Co 3:10-11"
+      "numero": "9",
+      "titre": "Moïse impose les mains à Josué",
+      "references": [
+        "Nb 27:15-23",
+        "Dt 34:9"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Qui conduira le peuple ?"
+        },
+        {
+          "texte": "Moïse savait qu'il allait bientôt mourir sans entrer dans le pays promis. Il ne s'est pas d'abord inquiété pour lui-même, mais pour le peuple. Il dit à l'Éternel : que l'Éternel, le Dieu des esprits de toute chair, établisse sur l'assemblée un homme qui sorte devant eux et qui entre devant eux, afin que l'assemblée de l'Éternel ne soit pas comme des brebis qui n'ont point de berger."
+        },
+        {
+          "verset": "Nb 27:15-23"
+        },
+        {
+          "sous_titre": "La réponse de Dieu"
+        },
+        {
+          "texte": "L'Éternel dit à Moïse : prends Josué, fils de Nun, homme en qui réside l'esprit ; et tu poseras ta main sur lui. Tu le placeras devant le sacrificateur Éléazar et devant toute l'assemblée, et tu lui donneras des ordres sous leurs yeux. Tu le rendras participant de ton autorité, afin que toute l'assemblée des enfants d'Israël l'écoute."
+        },
+        {
+          "texte": "Moïse fit ce que l'Éternel lui avait ordonné. Il posa ses mains sur Josué, et lui donna des ordres, comme l'Éternel l'avait dit par Moïse."
+        },
+        {
+          "sous_titre": "Ce que signifie ce geste"
+        },
+        {
+          "texte": "L'imposition des mains, dans la Bible, n'est pas un geste magique. Ici, elle signifie plusieurs choses à la fois. D'abord, une reconnaissance publique : devant tout le peuple, Moïse déclare que Josué est choisi par Dieu. Ensuite, une transmission de responsabilité : Josué reçoit une part de l'autorité de Moïse. Enfin, une bénédiction et un équipement spirituel : Josué, fils de Nun, était rempli de l'esprit de sagesse, car Moïse avait posé ses mains sur lui."
+        },
+        {
+          "verset": "Dt 34:9"
+        },
+        {
+          "sous_titre": "Ne pas imposer les mains avec précipitation"
+        },
+        {
+          "texte": "Remarque que Josué n'a pas été choisi au hasard. Il avait servi Moïse pendant quarante ans. Il était resté près de la tente de Dieu. Il avait été fidèle quand les autres espions avaient douté. Dieu lui-même dit qu'il était un homme en qui réside l'esprit."
+        },
+        {
+          "texte": "C'est pourquoi Paul recommandera à Timothée de n'imposer les mains à personne avec précipitation. Dans certaines églises, on impose les mains à n'importe qui, pour n'importe quoi, et on établit des responsables trop vite, sans avoir vu leur vie. Le geste a de la valeur parce qu'il confirme ce que Dieu a déjà montré dans la vie d'une personne."
+        }
+      ]
+    },
+    {
+      "numero": "10",
+      "titre": "Eutychus : la résurrection au milieu d'une réunion",
+      "references": [
+        "Ac 20:7-12"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une longue réunion"
+        },
+        {
+          "texte": "À Troas, le premier jour de la semaine, les disciples étaient réunis pour rompre le pain. Paul devait partir le lendemain, et il prolongea son discours jusqu'à minuit. Il y avait beaucoup de lampes dans la chambre haute où ils étaient réunis, il faisait sans doute chaud."
+        },
+        {
+          "verset": "Ac 20:7-12"
+        },
+        {
+          "texte": "Un jeune homme nommé Eutychus était assis sur la fenêtre. Pendant le long discours de Paul, il fut pris d'un profond sommeil. Vaincu par le sommeil, il tomba du troisième étage en bas, et il fut relevé mort."
+        },
+        {
+          "sous_titre": "Paul descend"
+        },
+        {
+          "texte": "Imagine la panique dans la salle. Les cris, les pleurs, les gens qui descendent l'escalier en courant. Mais Paul descendit, se pencha sur lui et le prit dans ses bras, en disant : ne vous troublez pas, car son âme est en lui. Puis il remonta, rompit le pain et mangea, et il parla encore longtemps jusqu'au jour."
+        },
+        {
+          "texte": "Et le jeune homme fut ramené vivant, et ce fut le sujet d'une grande consolation."
+        },
+        {
+          "sous_titre": "Une petite histoire, une grande vérité"
+        },
+        {
+          "texte": "Le nom Eutychus veut dire « chanceux ». Mais ce n'est pas la chance qui l'a relevé. C'est la puissance de Dieu, la même puissance qui a ressuscité Jésus. Les résurrections racontées dans la Bible sont des signes : elles montrent que la mort n'a pas le dernier mot. Mais ces personnes sont mortes à nouveau plus tard. La vraie résurrection, celle qu'enseigne Hébreux 6, c'est celle du dernier jour, quand les morts ressusciteront avec un corps nouveau qui ne mourra plus jamais."
+        },
+        {
+          "texte": "Paul l'explique : mais maintenant, Christ est ressuscité des morts, il est les prémices de ceux qui sont morts. Car, puisque la mort est venue par un homme, c'est aussi par un homme qu'est venue la résurrection des morts. Et comme tous meurent en Adam, de même aussi tous revivront en Christ."
+        },
+        {
+          "texte": "Les prémices, ce sont les premiers fruits de la récolte. Quand le cultivateur voit les premiers épis mûrs, il sait que toute la moisson va suivre. La résurrection de Jésus est le premier fruit. La nôtre suivra."
+        },
+        {
+          "sous_titre": "Une consolation"
+        },
+        {
+          "texte": "Remarque la fin de l'histoire : ce fut le sujet d'une grande consolation. La doctrine de la résurrection n'est pas une théorie froide pour les théologiens. C'est la plus grande consolation pour les familles en deuil, pour les malades, pour les vieillards. Au cimetière, le chrétien pleure, mais il ne pleure pas comme ceux qui n'ont pas d'espérance. Il sait que ceux qui sont morts en Christ se relèveront."
+        }
+      ]
+    },
+    {
+      "numero": "11",
+      "titre": "Belschatsar : pesé dans la balance",
+      "references": [
+        "Dn 5:1-6",
+        "Dn 5:22-30"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un festin profane"
+        },
+        {
+          "texte": "Belschatsar, roi de Babylone, donna un grand festin à mille de ses grands. Pendant qu'il buvait du vin, il fit apporter les vases d'or et d'argent que son père avait pris dans le temple de Jérusalem. Le roi et ses grands, ses femmes et ses concubines, s'en servirent pour boire. Ils burent du vin, et ils louèrent les dieux d'or, d'argent, d'airain, de fer, de bois et de pierre."
+        },
+        {
+          "verset": "Dn 5:1-6"
+        },
+        {
+          "sous_titre": "Une main sur le mur"
+        },
+        {
+          "texte": "À ce moment apparurent les doigts d'une main d'homme, et ils écrivirent, en face du chandelier, sur la chaux de la muraille du palais royal. Le roi vit cette extrémité de main qui écrivait. Alors le roi changea de couleur, ses pensées le troublèrent, les jointures de ses reins se relâchèrent, et ses genoux se heurtèrent l'un contre l'autre."
+        },
+        {
+          "texte": "Aucun de ses sages ne put lire l'écriture. On fit venir Daniel, devenu un vieil homme."
+        },
+        {
+          "sous_titre": "Le message de Daniel"
+        },
+        {
+          "texte": "Daniel rappela au roi l'histoire de son père Nabuchodonosor, que Dieu avait humilié à cause de son orgueil. Puis il lui dit : et toi, Belschatsar, tu n'as pas humilié ton cœur, quoique tu susses toutes ces choses. Tu t'es élevé contre le Seigneur des cieux. Et tu n'as pas glorifié le Dieu qui a dans sa main ton souffle et toutes tes voies."
+        },
+        {
+          "verset": "Dn 5:22-30"
+        },
+        {
+          "texte": "Puis il lut l'écriture : compté, compté, pesé, et divisé. Dieu a compté ton règne, et y a mis fin. Tu as été pesé dans la balance, et tu as été trouvé léger. Ton royaume sera divisé."
+        },
+        {
+          "texte": "Cette même nuit, Belschatsar, roi des Chaldéens, fut tué."
+        },
+        {
+          "sous_titre": "Le jugement éternel"
+        },
+        {
+          "texte": "Le jugement éternel, dernier fondement d'Hébreux 6, n'est pas une idée lointaine. L'histoire de Belschatsar le montre : un homme qui riait le soir, qui se moquait de Dieu avec ses amis, a été jugé la nuit même. Il connaissait la vérité, dit Daniel : « quoique tu susses toutes ces choses ». Il avait vu ce que Dieu avait fait à son père. Mais il n'a pas humilié son cœur."
+        },
+        {
+          "texte": "Un jour, chacun de nous sera pesé dans la balance de Dieu. Si nous comptons sur nos propres œuvres, nous serons tous trouvés trop légers. La seule chose qui fera pencher la balance, c'est la justice de Jésus-Christ, donnée à ceux qui croient en lui. Celui qui est en Christ n'a plus à craindre ce jour. Mais celui qui le rejette, comme Belschatsar, en sachant la vérité, se prépare un réveil terrible."
+        }
+      ]
+    },
+    {
+      "numero": "12",
+      "titre": "Conclusion : tendre vers la maturité",
+      "references": [
+        "He 6:1",
+        "Col 2:6-7"
+      ],
+      "blocs": [
+        {
+          "texte": "Voici les six fondements : la repentance des œuvres mortes, la foi en Dieu, les baptêmes, l'imposition des mains, la résurrection des morts, et le jugement éternel. Vérifie chacun dans ta vie. T'es-tu vraiment repenti ? Fais-tu confiance à Dieu seul pour ton salut ? Es-tu baptisé, et rempli de l'Esprit ? Sais-tu ce que veut dire l'imposition des mains ? Crois-tu à la résurrection et au jugement à venir ?"
+        },
+        {
+          "texte": "Puis ne reste pas aux fondations. L'auteur dit : tendons à ce qui est parfait. Comme vous avez reçu le Seigneur Jésus-Christ, marchez en lui, étant enracinés et fondés en lui, et affermis par la foi."
+        },
+        {
+          "verset": "Col 2:6-7"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "La repentance des œuvres mortes",
-   "references": [
-    "Ac 20:21",
-    "He 9:14",
-    "Ac 3:19",
-    "Lc 3:8"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "Le premier fondement"
+      "question": "Combien de doctrines élémentaires sont citées en Hébreux 6:1-2 ?",
+      "choix": [
+        "Trois",
+        "Six",
+        "Dix"
+      ],
+      "reponse": 1,
+      "explication": "Repentance, foi, baptêmes, imposition des mains, résurrection, jugement éternel.",
+      "section": "1"
     },
     {
-     "texte": "La première chose, c'est le renoncement, ou la repentance, aux œuvres mortes. Se repentir, c'est changer de pensée et de direction : je reconnais que j'avais tort, je me détourne du péché, et je me tourne vers Dieu. Paul résume son message ainsi : la repentance envers Dieu et la foi en notre Seigneur Jésus-Christ."
+      "question": "Que sont les « œuvres mortes » ?",
+      "choix": [
+        "Seulement les péchés graves",
+        "Les péchés et toutes les œuvres faites pour se sauver soi-même",
+        "Les bonnes œuvres des chrétiens"
+      ],
+      "reponse": 1,
+      "explication": "Le sang de Christ purifie notre conscience des œuvres mortes (Hébreux 9:14).",
+      "section": "2"
     },
     {
-     "verset": "Ac 20:21"
+      "question": "D'où vient la foi selon Romains 10:17 ?",
+      "choix": [
+        "De nos efforts",
+        "De ce qu'on entend de la parole de Christ",
+        "Des miracles"
+      ],
+      "reponse": 1,
+      "explication": "(Romains 10:17)",
+      "section": "3"
     },
     {
-     "sous_titre": "Que sont les œuvres mortes ?"
+      "question": "Que représente le baptême d'eau selon Romains 6:4 ?",
+      "choix": [
+        "Un rite pour être sauvé",
+        "L'union avec Christ dans sa mort et sa résurrection",
+        "Un nettoyage du corps"
+      ],
+      "reponse": 1,
+      "explication": "(Romains 6:3-4)",
+      "section": "4"
     },
     {
-     "texte": "Les œuvres mortes, ce ne sont pas seulement les péchés évidents comme le vol ou l'adultère. Ce sont aussi toutes les œuvres que l'homme fait pour se sauver lui-même : les sacrifices, les rites, les pèlerinages, les bonnes actions faites pour mériter le ciel. L'épître dit que le sang de Christ purifie notre conscience des œuvres mortes, afin que nous servions le Dieu vivant. Beaucoup doivent se repentir non seulement de leurs péchés, mais aussi de leur religion."
+      "question": "Que dit Paul à Timothée sur l'imposition des mains ?",
+      "choix": [
+        "L'imposer à tous",
+        "Ne l'imposer à personne avec précipitation",
+        "La réserver aux malades"
+      ],
+      "reponse": 1,
+      "explication": "(1 Timothée 5:22)",
+      "section": "5"
     },
     {
-     "verset": "He 9:14"
+      "question": "Y a-t-il une seconde chance après la mort ?",
+      "choix": [
+        "Oui, par le purgatoire",
+        "Non, après la mort vient le jugement",
+        "Oui, par la prière des vivants"
+      ],
+      "reponse": 1,
+      "explication": "(Hébreux 9:27)",
+      "section": "7"
     },
     {
-     "sous_titre": "Une repentance qui porte du fruit"
+      "question": "Pourquoi Jésus s'est-il étonné de la foi du centenier ?",
+      "choix": [
+        "Parce qu'il était riche",
+        "Parce qu'il croyait qu'une seule parole de Jésus suffisait, sans visite ni toucher",
+        "Parce qu'il était juif"
+      ],
+      "reponse": 1,
+      "explication": "Matthieu 8:8-10.",
+      "section": "8"
     },
     {
-     "texte": "Jean-Baptiste disait : produisez des fruits dignes de la repentance. La repentance n'est pas seulement pleurer à l'autel. Elle se voit : on rend ce qu'on a volé, on quitte la relation coupable, on brûle les fétiches, on arrête de mentir."
+      "question": "Que signifiait l'imposition des mains de Moïse sur Josué ?",
+      "choix": [
+        "Un geste magique",
+        "Une reconnaissance publique, une transmission de responsabilité et une bénédiction",
+        "Un simple salut"
+      ],
+      "reponse": 1,
+      "explication": "Nombres 27:18-23 ; Deutéronome 34:9.",
+      "section": "9"
     },
     {
-     "verset": "Lc 3:8"
+      "question": "Pourquoi Paul appelle-t-il Christ « les prémices » de ceux qui sont morts ?",
+      "choix": [
+        "Parce qu'il est mort jeune",
+        "Parce que sa résurrection est le premier fruit, et que la nôtre suivra",
+        "Parce qu'il était le premier prophète"
+      ],
+      "reponse": 1,
+      "explication": "1 Corinthiens 15:20.",
+      "section": "10"
+    },
+    {
+      "question": "Que signifie « tu as été pesé dans la balance et trouvé léger » ?",
+      "choix": [
+        "Que le roi était maigre",
+        "Que Dieu l'avait jugé et trouvé insuffisant, et que son règne prenait fin",
+        "Que son or était faux"
+      ],
+      "reponse": 1,
+      "explication": "Daniel 5:27.",
+      "section": "11"
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "La foi en Dieu",
-   "references": [
-    "He 11:6",
-    "Rm 10:17",
-    "Ep 2:8-9",
-    "Jc 2:17"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Sans la foi, impossible"
-    },
-    {
-     "texte": "Or sans la foi il est impossible de lui être agréable ; car il faut que celui qui s'approche de Dieu croie que Dieu existe, et qu'il est le rémunérateur de ceux qui le cherchent. La repentance est le côté « je me détourne », la foi est le côté « je me tourne vers lui ». Les deux vont ensemble."
-    },
-    {
-     "verset": "He 11:6"
-    },
-    {
-     "sous_titre": "Qu'est-ce que la foi ?"
-    },
-    {
-     "texte": "La foi n'est pas un sentiment, ni une force qu'on fabrique en criant. C'est la confiance en Dieu et en ce qu'il a dit. Elle vient de ce qu'on entend, et ce qu'on entend vient de la parole de Christ. Plus tu connais la Parole, plus ta foi a de quoi s'appuyer."
-    },
-    {
-     "verset": "Rm 10:17"
-    },
-    {
-     "sous_titre": "Sauvés par grâce, par la foi"
-    },
-    {
-     "texte": "C'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres, afin que personne ne se glorifie. La foi ne mérite rien : elle reçoit ce que Dieu donne."
-    },
-    {
-     "verset": "Ep 2:8-9"
-    },
-    {
-     "sous_titre": "Une foi vivante"
-    },
-    {
-     "texte": "Mais Jacques rappelle que la foi, si elle n'a pas les œuvres, est morte en elle-même. Nous ne sommes pas sauvés par les œuvres, mais la vraie foi produit des œuvres, comme un arbre vivant produit des fruits."
-    },
-    {
-     "verset": "Jc 2:17"
-    }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "La doctrine des baptêmes",
-   "references": [
-    "Mt 28:19",
-    "Rm 6:3-4",
-    "Ac 1:5",
-    "Ac 2:38"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Pourquoi au pluriel ?"
-    },
-    {
-     "texte": "L'auteur parle des baptêmes, au pluriel. Les premiers lecteurs, juifs, connaissaient plusieurs lavages et baptêmes : les purifications de la loi, le baptême de Jean-Baptiste, le baptême chrétien. Le croyant doit comprendre la différence. Le Nouveau Testament parle surtout de deux réalités : le baptême d'eau et le baptême dans le Saint-Esprit."
-    },
-    {
-     "sous_titre": "Le baptême d'eau"
-    },
-    {
-     "texte": "Jésus a ordonné de baptiser les disciples au nom du Père, du Fils et du Saint-Esprit. Le baptême ne sauve pas par lui-même, mais il est l'acte d'obéissance par lequel le croyant déclare publiquement son union avec Christ. Paul l'explique : nous avons été ensevelis avec lui par le baptême en sa mort, afin que, comme Christ est ressuscité des morts, de même nous aussi nous marchions en nouveauté de vie. Si tu as cru et que tu n'es pas encore baptisé, parles-en à ton pasteur."
-    },
-    {
-     "verset": "Rm 6:3-4"
-    },
-    {
-     "sous_titre": "Le baptême dans le Saint-Esprit"
-    },
-    {
-     "texte": "Jésus a dit à ses disciples : Jean a baptisé d'eau, mais vous, dans peu de jours, vous serez baptisés du Saint-Esprit. Le jour de la Pentecôte, Pierre a dit : repentez-vous, et que chacun de vous soit baptisé au nom de Jésus-Christ, pour le pardon de vos péchés ; et vous recevrez le don du Saint-Esprit. Le chrétien n'est pas seulement pardonné : il est rempli de la puissance de Dieu pour vivre et pour témoigner. Les églises n'expliquent pas toutes ce baptême de la même manière, mais toutes reconnaissent que le croyant a besoin d'être rempli de l'Esprit (Éphésiens 5:18)."
-    },
-    {
-     "verset": "Ac 2:38"
-    }
-   ]
-  },
-  {
-   "numero": "5",
-   "titre": "L'imposition des mains",
-   "references": [
-    "Ac 8:17",
-    "Ac 13:2-3",
-    "Mc 16:18",
-    "1 Tm 5:22"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Un geste de transmission"
-    },
-    {
-     "texte": "Dans la Bible, imposer les mains est un geste par lequel Dieu transmet une bénédiction, une autorité ou une puissance, à travers ses serviteurs. Ce n'est pas un geste magique, et ce n'est pas un spectacle."
-    },
-    {
-     "sous_titre": "Pour recevoir l'Esprit"
-    },
-    {
-     "texte": "À Samarie, Pierre et Jean ont imposé les mains aux nouveaux croyants, et ils ont reçu le Saint-Esprit."
-    },
-    {
-     "verset": "Ac 8:17"
-    },
-    {
-     "sous_titre": "Pour envoyer en mission"
-    },
-    {
-     "texte": "À Antioche, après avoir jeûné et prié, l'église a imposé les mains à Barnabas et Saul, puis les a laissés partir. L'imposition des mains reconnaît un appel de Dieu et confie un ministère."
-    },
-    {
-     "verset": "Ac 13:2-3"
-    },
-    {
-     "sous_titre": "Pour la guérison"
-    },
-    {
-     "texte": "Jésus a dit que ses disciples imposeraient les mains aux malades, et que les malades seraient guéris. On prie pour les malades avec foi, en sachant que c'est Dieu qui guérit, quand et comme il veut."
-    },
-    {
-     "verset": "Mc 16:18"
-    },
-    {
-     "sous_titre": "Avec prudence"
-    },
-    {
-     "texte": "Paul avertit Timothée : n'impose les mains avec précipitation à personne. On ne consacre pas un responsable parce qu'il est riche, éloquent ou du même village. Et on ne laisse pas n'importe qui imposer les mains : il y a des gens qui transmettent de mauvaises choses. Ne laisse pas un inconnu ou un « prophète » douteux poser les mains sur toi."
-    },
-    {
-     "verset": "1 Tm 5:22"
-    }
-   ]
-  },
-  {
-   "numero": "6",
-   "titre": "La résurrection des morts",
-   "references": [
-    "1 Co 15:17-20",
-    "Jn 11:25-26",
-    "Jn 5:28-29"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Si Christ n'est pas ressuscité"
-    },
-    {
-     "texte": "Paul est clair : si Christ n'est pas ressuscité, votre foi est vaine, vous êtes encore dans vos péchés. Mais maintenant, Christ est ressuscité des morts, il est les prémices de ceux qui sont morts. La résurrection de Jésus est la garantie de la nôtre."
-    },
-    {
-     "verset": "1 Co 15:17-20"
-    },
-    {
-     "sous_titre": "Je suis la résurrection"
-    },
-    {
-     "texte": "Devant le tombeau de Lazare, Jésus a dit à Marthe : je suis la résurrection et la vie. Celui qui croit en moi vivra, quand même il serait mort. Le chrétien ne croit pas à la réincarnation, ni à des esprits des morts qui errent ou protègent la famille. Il croit que les morts ressusciteront avec un corps, au retour de Christ."
-    },
-    {
-     "verset": "Jn 11:25-26"
-    },
-    {
-     "sous_titre": "Tous ressusciteront"
-    },
-    {
-     "texte": "Jésus a dit que tous ceux qui sont dans les sépulcres entendront sa voix, et en sortiront : ceux qui auront fait le bien pour la vie, ceux qui auront fait le mal pour le jugement. La résurrection est une espérance pour le croyant et un avertissement pour celui qui refuse Dieu."
-    },
-    {
-     "verset": "Jn 5:28-29"
-    }
-   ]
-  },
-  {
-   "numero": "7",
-   "titre": "Le jugement éternel",
-   "references": [
-    "He 9:27",
-    "Ac 17:30-31",
-    "Ap 20:12",
-    "Jn 3:18"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Un rendez-vous fixé"
-    },
-    {
-     "texte": "Il est réservé aux hommes de mourir une seule fois, après quoi vient le jugement. Paul l'a annoncé à Athènes : Dieu annonce maintenant à tous les hommes, en tous lieux, qu'ils aient à se repentir, parce qu'il a fixé un jour où il jugera le monde selon la justice, par l'homme qu'il a désigné, Jésus."
-    },
-    {
-     "verset": "Ac 17:30-31"
-    },
-    {
-     "sous_titre": "Un jugement éternel"
-    },
-    {
-     "texte": "Ce jugement est appelé éternel parce que sa décision ne change plus jamais. Il n'y a pas de purgatoire, pas de seconde chance après la mort, pas de prière des vivants qui puisse changer le sort des morts."
-    },
-    {
-     "verset": "He 9:27"
-    },
-    {
-     "sous_titre": "Le croyant et le jugement"
-    },
-    {
-     "texte": "Jésus a dit : celui qui croit en lui n'est point jugé ; mais celui qui ne croit pas est déjà jugé, parce qu'il n'a pas cru au nom du Fils unique de Dieu. Le croyant comparaîtra devant Christ pour rendre compte de sa vie, mais il ne sera pas condamné. La boucle se referme : la repentance et la foi, le premier fondement, sont la seule préparation au dernier."
-    },
-    {
-     "verset": "Jn 3:18"
-    }
-   ]
-  },
-  {
-   "numero": "8",
-   "titre": "Conclusion : tendre vers la maturité",
-   "references": [
-    "He 6:1",
-    "Col 2:6-7"
-   ],
-   "blocs": [
-    {
-     "texte": "Voici les six fondements : la repentance des œuvres mortes, la foi en Dieu, les baptêmes, l'imposition des mains, la résurrection des morts, et le jugement éternel. Vérifie chacun dans ta vie. T'es-tu vraiment repenti ? Fais-tu confiance à Dieu seul pour ton salut ? Es-tu baptisé, et rempli de l'Esprit ? Sais-tu ce que veut dire l'imposition des mains ? Crois-tu à la résurrection et au jugement à venir ?"
-    },
-    {
-     "texte": "Puis ne reste pas aux fondations. L'auteur dit : tendons à ce qui est parfait. Comme vous avez reçu le Seigneur Jésus-Christ, marchez en lui, étant enracinés et fondés en lui, et affermis par la foi."
-    },
-    {
-     "verset": "Col 2:6-7"
-    }
-   ]
-  }
- ],
- "questions": [
-  {
-   "question": "Combien de doctrines élémentaires sont citées en Hébreux 6:1-2 ?",
-   "choix": [
-    "Trois",
-    "Six",
-    "Dix"
-   ],
-   "reponse": 1,
-   "explication": "Repentance, foi, baptêmes, imposition des mains, résurrection, jugement éternel.",
-   "section": "1"
-  },
-  {
-   "question": "Que sont les « œuvres mortes » ?",
-   "choix": [
-    "Seulement les péchés graves",
-    "Les péchés et toutes les œuvres faites pour se sauver soi-même",
-    "Les bonnes œuvres des chrétiens"
-   ],
-   "reponse": 1,
-   "explication": "Le sang de Christ purifie notre conscience des œuvres mortes (Hébreux 9:14).",
-   "section": "2"
-  },
-  {
-   "question": "D'où vient la foi selon Romains 10:17 ?",
-   "choix": [
-    "De nos efforts",
-    "De ce qu'on entend de la parole de Christ",
-    "Des miracles"
-   ],
-   "reponse": 1,
-   "explication": "(Romains 10:17)",
-   "section": "3"
-  },
-  {
-   "question": "Que représente le baptême d'eau selon Romains 6:4 ?",
-   "choix": [
-    "Un rite pour être sauvé",
-    "L'union avec Christ dans sa mort et sa résurrection",
-    "Un nettoyage du corps"
-   ],
-   "reponse": 1,
-   "explication": "(Romains 6:3-4)",
-   "section": "4"
-  },
-  {
-   "question": "Que dit Paul à Timothée sur l'imposition des mains ?",
-   "choix": [
-    "L'imposer à tous",
-    "Ne l'imposer à personne avec précipitation",
-    "La réserver aux malades"
-   ],
-   "reponse": 1,
-   "explication": "(1 Timothée 5:22)",
-   "section": "5"
-  },
-  {
-   "question": "Y a-t-il une seconde chance après la mort ?",
-   "choix": [
-    "Oui, par le purgatoire",
-    "Non, après la mort vient le jugement",
-    "Oui, par la prière des vivants"
-   ],
-   "reponse": 1,
-   "explication": "(Hébreux 9:27)",
-   "section": "7"
-  }
- ],
- "devoir": [
-  "Pour chacun des six fondements, écris une phrase : « Je crois que… » avec un verset.",
-  "Si tu n'es pas encore baptisé, parles-en à ton pasteur cette semaine.",
-  "Mémorise Hébreux 6:1-2."
- ],
- "prieres_liees": [
-  "theme:priere-repentance",
-  "theme:priere-rempli-du-saint-esprit"
- ],
- "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-14",
- "relu": false
+  ],
+  "devoir": [
+    "Pour chacun des six fondements, écris une phrase : « Je crois que… » avec un verset.",
+    "Si tu n'es pas encore baptisé, parles-en à ton pasteur cette semaine.",
+    "Mémorise Hébreux 6:1-2."
+  ],
+  "prieres_liees": [
+    "theme:priere-repentance",
+    "theme:priere-rempli-du-saint-esprit"
+  ],
+  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-14",
+  "relu": false
 }
