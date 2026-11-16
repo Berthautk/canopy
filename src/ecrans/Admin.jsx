@@ -8,8 +8,16 @@ const TYPES = [
   ['enseignement', 'Enseignements', ENSEIGNEMENTS], ['veille', 'Veilles de prière', VEILLES.map((v) => ({ ...v, id: v.id.replace('veille-', '') }))],
   ['theme-priere', 'Thèmes de prière', PRIERES], ['combat', 'Combat spirituel', COMBAT], ['outil', 'Présenter l\'Évangile', OUTILS],
   ['approche', 'Approches d\'évangélisation', APPROCHES], ['article', 'Articles (évangéliser)', EVANGELISATION], ['dialogue', 'Dialogues', DIALOGUES],
-  ['parcours', 'Parcours (jours suivis)', []], ['j-ai-prie', '« J\'ai prié » (moments terminés)', [...PRIERES, ...VEILLES, ...COMBAT]], ['jeu', 'Jeux', []], ['questions-reussies', 'Enseignements compris (questions réussies)', ENSEIGNEMENTS],
+  ['parcours', 'Parcours (jours suivis)', []], ['j-ai-prie', '« J\'ai prié » (moments terminés)', [...PRIERES, ...VEILLES, ...COMBAT]], ['jeu', 'Jeux', NOMS_JEUX], ['questions-reussies', 'Enseignements compris (questions réussies)', ENSEIGNEMENTS],
 ];
+const NOMS_JEUX = [['petits', 'Petits enfants'], ['bloc', 'Blocs de jeux (choix par âge)'], ['themes', 'Quiz par thème'], ['course', 'La course de la vie'],
+  ['chemin', 'Le Chemin de la foi'], ['qui-suis-je', 'Qui suis-je ?'], ['ordre', 'Remets dans l\'ordre'], ['complete', 'Complète le verset'],
+  ['memoriser', 'Mémoriser un verset'], ['duel', 'Duel à deux'], ['pelerin', 'Le Pèlerin'], ['badges', 'Badges'], ['defi', 'Défi biblique du jour'],
+  ['tribunal', 'Le Tribunal de la Parole'], ['quiz-du-jour', 'Quiz du jour'], ['yeux', 'Ouvre les yeux']].map(([id, titre]) => ({ id, titre }));
+const nomParcours = (k) => {
+  const m = k.match(/^(decouvrir-jesus|nouveau-converti)(?:-(\d+))?$/); if (!m) return k;
+  return (m[1] === 'decouvrir-jesus' ? 'Découvrir Jésus' : 'Nouveau converti') + (m[2] ? ' · jour ' + m[2] : ' · page d\'accueil');
+};
 const propre = (s) => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9-]+/g, '-').replace(/^-+|-+$/g, '');
 const nomDe = (liste, id) => liste.find((x) => propre(x.id) === id)?.titre || id;
 const nombre = (n) => n.toLocaleString('fr-FR');
@@ -82,7 +90,7 @@ export function Admin() {
         <div class="carte"><b>{nombre(total((c) => c.startsWith('enseignement-fini:')))}</b><span>enseignements terminés</span></div>
       </div>
       {decisions > 0 && <section class="carte bloc"><h3>D'où viennent les décisions</h3>
-        {parCle('decision').map(([k, n]) => <p class="admin__ligne"><span>{k === 'parcours' ? 'Parcours Nouveau converti' : k === 'app' ? 'Autre' : nomDe(OUTILS, k)}</span><b>{n}</b></p>)}</section>}
+        {parCle('decision').map(([k, n]) => <p class="admin__ligne"><span>{k === 'parcours' ? 'Parcours Nouveau converti' : k === 'app' ? 'Autre' : nomDe([...OUTILS, ...APPROCHES, ...DIALOGUES], k)}</span><b>{n}</b></p>)}</section>}
       <section class="carte bloc"><h3>Où vont les utilisateurs</h3>
         {sections.map(([k, n]) => <div class="admin__barre"><span>{SECTIONS[k]}</span><i style={{ width: (n / maxSection) * 100 + '%' }} /><b>{nombre(n)}</b></div>)}
         {!sections.length && <p class="ligne__desc">Pas encore de données.</p>}
@@ -90,7 +98,7 @@ export function Admin() {
       {jourListe.length > 1 && <section class="carte bloc"><h3>Jour par jour</h3><p class="ligne__desc">Barre : ouvertures de l'application · point doré : décisions</p>
         <div class="admin__jours">{jourListe.map(([j, o]) => <span title={`${j} : ${o.v} ouvertures, ${o.d} décisions`} style={{ height: Math.max(4, (o.v / maxJour) * 100) + '%' }}>{o.d > 0 && <em />}</span>)}</div></section>}
       {TYPES.map(([t, libelle, liste]) => { const l = parCle(t); return l.length > 0 && (
-        <section class="carte bloc"><h3>{libelle}</h3>{l.slice(0, 15).map(([k, n]) => <p class="admin__ligne"><span>{nomDe(liste, k)}</span><b>{nombre(n)}</b></p>)}</section>); })}
+        <section class="carte bloc"><h3>{libelle}</h3>{l.slice(0, 15).map(([k, n]) => <p class="admin__ligne"><span>{t === 'parcours' ? nomParcours(k) : nomDe(liste, k)}</span><b>{nombre(n)}</b></p>)}</section>); })}
       <Requetes liste={etat.requetes} mdp={mdp} recharger={() => charger()} />
       <button class="bouton bouton--contour" style="width:100%;margin-top:12px" onClick={() => charger()}><Icone nom="rejouer" taille={18} /> Actualiser</button>
     </div>
