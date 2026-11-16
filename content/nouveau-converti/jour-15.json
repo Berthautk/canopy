@@ -1,14 +1,88 @@
 {
  "id": "nouveau-converti-jour-15",
  "jour": 15,
- "titre": "Le troisième ennemi : le diable",
  "image": "/assets/priere/combat-spirituel.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Le troisième ennemi : le diable",
+ "objectifs": [
+  "Qui est le diable et comment il agit",
+  "Pourquoi le chrétien n'a pas à avoir peur",
+  "Comment lui résister"
+ ],
+ "introduction": [
+  "En Afrique, on parle beaucoup du diable, des esprits, des sorciers. Certains en ont une peur constante ; d'autres pensent que le diable n'existe pas. Aujourd'hui, nous allons voir ce que la Bible enseigne, ni plus ni moins."
+ ],
+ "sections": [
+  {
+   "titre": "Un ennemi réel",
+   "texte": [
+    "### Un lion qui rôde",
+    "Pierre écrit : soyez sobres, veillez. Votre adversaire, le diable, rôde comme un lion rugissant, cherchant qui il dévorera (1 Pierre 5:8). Le diable est un être réel, un ange déchu, ennemi de Dieu et des hommes. Jésus l'appelle menteur et père du mensonge. Il n'est pas l'égal de Dieu : il est une créature, puissante mais limitée, déjà vaincue.",
+    "### Ses méthodes",
+    "Le diable agit surtout par le mensonge. Il ment sur Dieu : « Dieu ne t'aime pas, il te prive de bonnes choses. » Il ment sur toi : « Tu ne vaux rien, tu ne changeras jamais. » Il tente, il accuse, il divise, il effraie. Il utilise aussi la sorcellerie et l'occultisme, mais son arme principale reste le mensonge qui conduit au péché."
+   ]
+  },
+  {
+   "titre": "Pas de peur pour l'enfant de Dieu",
+   "texte": [
+    "### Plus grand est celui qui est en toi",
+    "Jean écrit : vous, petits enfants, vous êtes de Dieu, et vous les avez vaincus, parce que celui qui est en vous est plus grand que celui qui est dans le monde (1 Jean 4:4). Le Saint-Esprit qui habite en toi est infiniment plus puissant que tous les démons et tous les sorciers. Jésus a vaincu le diable à la croix et par sa résurrection.",
+    "### Pas besoin de protections",
+    "Le chrétien n'a pas besoin de gris-gris, de bagues, de scarifications, de bains ou de bouteilles pour se protéger. Ces choses ouvrent au contraire des portes à l'ennemi. Ta protection, c'est Jésus. Si tu possèdes encore des objets liés à l'occultisme, débarrasse-t-en, dans la prière, avec l'aide d'un responsable de ton église."
+   ]
+  },
+  {
+   "titre": "Résister au diable",
+   "texte": [
+    "### Soumis à Dieu, ferme contre le diable",
+    "Jacques écrit : soumettez-vous donc à Dieu ; résistez au diable, et il fuira loin de vous (Jacques 4:7). L'ordre est important : d'abord se soumettre à Dieu, ensuite résister. Celui qui vit dans un péché volontaire laisse une porte ouverte. Celui qui marche dans l'obéissance peut résister avec autorité.",
+    "### Résister avec la foi et la Parole",
+    "Pierre ajoute : résistez-lui avec une foi ferme (1 Pierre 5:9). Jésus, tenté au désert, a répondu chaque fois : il est écrit. Quand une pensée de peur, de mensonge ou de tentation vient, réponds par la Parole et par le nom de Jésus. Tu n'as pas besoin de crier très fort ou de faire de longues prières de combat pour être protégé : l'autorité vient de Jésus, pas du volume de ta voix.",
+    "### Ne pas tout attribuer au diable",
+    "Enfin, ne vois pas le diable partout. Une maladie, un échec, une dispute ont souvent des causes naturelles ou viennent de nos propres choix. La chair et le monde sont aussi des ennemis. Accuser toujours le diable peut nous empêcher de reconnaître nos propres fautes.",
+    "On raconte l'histoire d'une mère de famille qui vivait dans la peur depuis qu'un voisin l'avait menacée de « la travailler ». Elle ne dormait plus, attribuait chaque malheur à ce voisin. Après sa conversion, un ancien lui apprit 1 Jean 4:4. Chaque soir, elle le récitait avec ses enfants avant de dormir, puis remettait sa maison à Dieu. Quelques semaines plus tard, elle dit : « Le voisin est toujours là, mais la peur est partie. Celui qui est en moi est plus grand. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "Le diable est un ennemi réel, menteur, mais créature limitée et déjà vaincue (1 Pierre 5:8).",
+  "Celui qui est en toi est plus grand que celui qui est dans le monde : tu n'as pas besoin de protections occultes (1 Jean 4:4).",
+  "Soumets-toi à Dieu, résiste au diable avec la foi et la Parole, et il fuira (Jacques 4:7)."
+ ],
+ "memoriser": "1 Jn 4:4",
+ "quiz": [
+  {
+   "question": "Quelle est l'arme principale du diable ?",
+   "choix": [
+    "La force physique",
+    "Le mensonge",
+    "La richesse"
+   ],
+   "reponse": 1,
+   "explication": "Il est menteur et père du mensonge.",
+   "section": "1"
+  },
+  {
+   "question": "Quel est l'ordre donné par Jacques 4:7 ?",
+   "choix": [
+    "Résister d'abord, se soumettre ensuite",
+    "Se soumettre à Dieu, puis résister au diable",
+    "Fuir le diable"
+   ],
+   "reponse": 1,
+   "explication": "L'obéissance ferme la porte.",
+   "section": "3"
+  }
+ ],
+ "pratique": "Apprends 1 Jean 4:4. Ce soir, avant de dormir, remets ta maison et ta famille à Dieu par une prière simple. Si tu possèdes des objets liés à l'occultisme, parles-en à un responsable.",
  "versets": [
   "1 Pi 5:8-9",
   "Jc 4:7",
   "1 Jn 4:4"
  ],
- "texte": "Le diable est réel. Il cherche à tromper, à accuser et à décourager les enfants de Dieu. Mais il est un ennemi vaincu. Celui qui est en toi est plus grand que celui qui est dans le monde. Soumets-toi à Dieu, résiste au diable, et il fuira loin de toi.",
  "question": "Dans quel domaine sens-tu que l'ennemi cherche à te décourager ?",
  "sujets": [
   {
@@ -21,9 +95,5 @@
   }
  ],
  "priere": "Père, je me soumets à toi. Au nom de Jésus, je résiste au diable : il n'a pas de place dans ma vie. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

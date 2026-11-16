@@ -1,13 +1,87 @@
 {
  "id": "nouveau-converti-jour-13",
  "jour": 13,
- "titre": "Le premier ennemi : le monde",
  "image": "/assets/objets-quotidien/telephone.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Le premier ennemi : le monde",
+ "objectifs": [
+  "Ce que la Bible appelle « le monde »",
+  "Comment le monde attire",
+  "Être dans le monde sans être du monde"
+ ],
+ "introduction": [
+  "La Bible dit que le chrétien a trois ennemis : le monde, la chair et le diable. Pendant trois jours, nous allons les découvrir un par un. Aujourd'hui, le premier : le monde."
+ ],
+ "sections": [
+  {
+   "titre": "Qu'est-ce que le monde ?",
+   "texte": [
+    "### Deux sens du mot « monde »",
+    "Dans la Bible, le mot « monde » a plusieurs sens. Parfois, il désigne les gens que Dieu aime : Dieu a tant aimé le monde qu'il a donné son Fils. Mais souvent, il désigne le système de pensées, de valeurs et d'habitudes qui vit sans Dieu et contre Dieu. C'est dans ce sens que Jean écrit : n'aimez point le monde, ni les choses qui sont dans le monde (1 Jean 2:15).",
+    "### Ce qui est dans le monde",
+    "Jean explique : tout ce qui est dans le monde, la convoitise de la chair, la convoitise des yeux, et l'orgueil de la vie, ne vient point du Père, mais vient du monde (1 Jean 2:16). La convoitise de la chair, ce sont les désirs physiques désordonnés. La convoitise des yeux, c'est vouloir tout ce qu'on voit. L'orgueil de la vie, c'est se vanter de ce qu'on a ou de ce qu'on est."
+   ]
+  },
+  {
+   "titre": "Comment le monde attire",
+   "texte": [
+    "### Les messages de tous les jours",
+    "Le monde parle fort. Il dit à travers la musique, les films, les réseaux sociaux, les conversations : « Ta valeur, c'est ton argent, ton téléphone, ton apparence. » « Profite de la vie, fais ce qui te plaît. » « Tout le monde le fait. » « Pour réussir, il faut tricher, corrompre, coucher. » Ces messages sont si fréquents qu'on finit par les croire sans s'en rendre compte.",
+    "### Le monde passe",
+    "Jean ajoute : le monde passe, et sa convoitise aussi ; mais celui qui fait la volonté de Dieu demeure éternellement (1 Jean 2:17). Ce qui paraît si important aujourd'hui, la mode, la gloire, les biens, passera. Celui qui construit sa vie sur le monde construit sur du sable."
+   ]
+  },
+  {
+   "titre": "Dans le monde, sans être du monde",
+   "texte": [
+    "### Ne pas fuir",
+    "Être chrétien ne veut pas dire fuir le monde, vivre caché ou mépriser les autres. Jésus a prié : je ne te prie pas de les ôter du monde, mais de les préserver du mal. Il nous envoie dans le monde comme sel et lumière.",
+    "### Être transformé",
+    "Paul écrit : ne vous conformez pas au siècle présent, mais soyez transformés par le renouvellement de l'intelligence, afin que vous discerniez quelle est la volonté de Dieu, ce qui est bon, agréable et parfait (Romains 12:2). Se conformer, c'est prendre la forme du moule. Le monde veut te mettre dans son moule. Dieu veut renouveler ta façon de penser par sa Parole. Plus tu remplis ton esprit de la Parole, plus tu reconnais les mensonges du monde.",
+    "### Quelques questions pratiques",
+    "Face à une musique, un film, une amitié, une habitude, demande-toi : est-ce que cela me rapproche de Jésus ou m'éloigne de lui ? Est-ce que je pourrais le faire en sa présence ? Est-ce que cela nourrit en moi la convoitise, l'orgueil ou l'impureté ?",
+    "On raconte l'histoire d'une jeune fille qui passait chaque soir des heures sur les réseaux sociaux à regarder la vie des célébrités. Peu à peu, elle devenait triste, jalouse, et trouvait sa propre vie sans valeur. Après sa conversion, elle décida de remplacer la première demi-heure de téléphone par la lecture d'un psaume. Un mois plus tard, elle disait : « Je n'ai pas quitté le monde, mais le monde a quitté mon cœur. Je ne me compare plus. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "Le « monde » désigne le système de valeurs qui vit sans Dieu : convoitise de la chair, des yeux, orgueil de la vie (1 Jean 2:15-16).",
+  "Le monde passe, mais celui qui fait la volonté de Dieu demeure (1 Jean 2:17).",
+  "Ne te conforme pas au monde : laisse la Parole renouveler ta façon de penser (Romains 12:2)."
+ ],
+ "memoriser": "Rm 12:2",
+ "quiz": [
+  {
+   "question": "Que désigne souvent le mot « monde » dans 1 Jean 2:15 ?",
+   "choix": [
+    "Les montagnes et les rivières",
+    "Le système de valeurs qui vit sans Dieu",
+    "Les chrétiens"
+   ],
+   "reponse": 1,
+   "explication": "Convoitise et orgueil.",
+   "section": "1"
+  },
+  {
+   "question": "Être chrétien veut-il dire fuir le monde ?",
+   "choix": [
+    "Oui, vivre caché",
+    "Non, vivre dans le monde comme sel et lumière, sans en adopter les valeurs",
+    "Oui, ne plus parler aux non-chrétiens"
+   ],
+   "reponse": 1,
+   "explication": "Romains 12:2.",
+   "section": "3"
+  }
+ ],
+ "pratique": "Identifie une chose (musique, série, compte sur les réseaux, habitude) qui nourrit en toi les valeurs du monde. Décide aujourd'hui de la réduire ou de l'arrêter, et remplace ce temps par la Parole.",
  "versets": [
   "1 Jn 2:15-17",
   "Rm 12:2"
  ],
- "texte": "Le « monde », dans la Bible, ce n'est pas la nature ni les gens : c'est la façon de penser et de vivre sans Dieu. La convoitise, l'orgueil, l'amour de l'argent cherchent à attirer ton cœur. Ne te conforme pas à ce siècle, mais laisse Dieu renouveler ta façon de penser.",
  "question": "Qu'est-ce qui, dans ce que tu regardes ou écoutes, éloigne ton cœur de Dieu ?",
  "sujets": [
   {
@@ -20,9 +94,5 @@
   }
  ],
  "priere": "Seigneur, garde mon cœur. Je choisis de t'aimer plus que le monde. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

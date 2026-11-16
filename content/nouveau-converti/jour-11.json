@@ -1,14 +1,86 @@
 {
  "id": "nouveau-converti-jour-11",
  "jour": 11,
- "titre": "L'Église, ta nouvelle famille",
  "image": "/assets/eglise/assemblee-au-culte.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "L'Église, ta nouvelle famille",
+ "objectifs": [
+  "Ce qu'est vraiment l'Église",
+  "Pourquoi tu as besoin d'elle",
+  "Comment choisir et trouver ta place dans une église"
+ ],
+ "introduction": [
+  "Quand tu as reçu Jésus, tu n'as pas seulement reçu un Père : tu as reçu une famille, des frères et des sœurs dans le monde entier. Cette famille s'appelle l'Église. Aujourd'hui, nous allons voir pourquoi un chrétien ne peut pas grandir seul."
+ ],
+ "sections": [
+  {
+   "titre": "Qu'est-ce que l'Église ?",
+   "texte": [
+    "### Pas un bâtiment, un peuple",
+    "Le mot « église » désigne d'abord, dans la Bible, une assemblée de personnes appelées par Dieu. L'Église, ce n'est pas le bâtiment de tôle ou de briques où l'on se réunit : ce sont les croyants. Paul écrit : vous n'êtes plus des étrangers, ni des gens du dehors ; mais vous êtes concitoyens des saints, gens de la maison de Dieu (Éphésiens 2:19). Tu fais désormais partie de la maison de Dieu.",
+    "### Le corps de Christ",
+    "La Bible compare aussi l'Église à un corps, dont Christ est la tête et dont chaque croyant est un membre. Un doigt coupé du corps ne vit pas longtemps. Un charbon retiré du feu s'éteint vite, même s'il était très rouge. Le chrétien isolé se refroidit."
+   ]
+  },
+  {
+   "titre": "Pourquoi tu as besoin de l'Église",
+   "texte": [
+    "### Ce que faisaient les premiers chrétiens",
+    "Luc décrit les premiers croyants : ils persévéraient dans l'enseignement des apôtres, dans la communion fraternelle, dans la fraction du pain, et dans les prières (Actes 2:42). Voilà quatre besoins que l'Église remplit : être enseigné, être entouré, se souvenir de Jésus ensemble, et prier ensemble.",
+    "### Ne pas abandonner les réunions",
+    "L'épître aux Hébreux dit : n'abandonnons pas notre assemblée, comme c'est la coutume de quelques-uns ; mais exhortons-nous réciproquement (Hébreux 10:25). Certains disent : « Je peux prier chez moi, je n'ai pas besoin de l'église. » C'est vrai qu'on peut prier chez soi, mais Dieu nous a faits pour grandir ensemble, nous encourager, nous corriger, nous porter les uns les autres."
+   ]
+  },
+  {
+   "titre": "Choisir une église et y trouver sa place",
+   "texte": [
+    "### Quelques questions à se poser",
+    "Toutes les églises ne se valent pas. Pose-toi ces questions. La Bible y est-elle prêchée et expliquée, ou seulement des témoignages et des slogans ? Jésus y est-il au centre, ou un homme ? Appelle-t-on à la repentance et à la sainteté ? L'argent est-il géré avec transparence, sans pression ni menace ? Les responsables sont-ils accessibles et humbles ? Si la réponse est oui, cette église peut être ta famille, même si elle n'est pas parfaite.",
+    "### Une famille imparfaite",
+    "Tu découvriras vite que l'Église est pleine de gens imparfaits, comme toi. Il y aura des déceptions, des maladresses, parfois des blessures. Ne fuis pas au premier problème. Une famille se construit dans la durée, par le pardon et la patience. Engage-toi : sois régulier, fais-toi connaître, rejoins un petit groupe, propose ton aide.",
+    "On raconte l'histoire d'un étudiant arrivé seul à Ngaoundéré pour ses études. Il s'était converti dans sa ville natale, mais dans sa nouvelle ville, il restait chez lui le dimanche, se disant : « Je regarde les cultes sur mon téléphone. » En quelques mois, il retomba dans ses anciennes habitudes. Un camarade l'invita à un petit groupe de maison. Il y trouva des frères qui l'appelaient quand il était absent, qui lui apportaient à manger quand il était malade. Il dit plus tard : « Le téléphone me donnait des sermons ; l'Église m'a donné une famille. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "L'Église, ce sont les croyants : tu es de la maison de Dieu (Éphésiens 2:19).",
+  "Les premiers chrétiens persévéraient dans l'enseignement, la communion, la fraction du pain et les prières (Actes 2:42).",
+  "Choisis une église fidèle à la Bible, centrée sur Jésus, et engage-toi malgré ses imperfections."
+ ],
+ "memoriser": "Hé 10:25",
+ "quiz": [
+  {
+   "question": "Qu'est-ce que l'Église selon la Bible ?",
+   "choix": [
+    "Un bâtiment",
+    "Le peuple des croyants, le corps de Christ",
+    "Un groupe de pasteurs"
+   ],
+   "reponse": 1,
+   "explication": "Éphésiens 2:19.",
+   "section": "1"
+  },
+  {
+   "question": "Quelle est une bonne question pour choisir une église ?",
+   "choix": [
+    "Est-ce qu'elle est la plus grande ?",
+    "La Bible y est-elle prêchée et Jésus au centre ?",
+    "Est-ce qu'on y promet la richesse ?"
+   ],
+   "reponse": 1,
+   "explication": "Elle n'a pas besoin d'être parfaite.",
+   "section": "3"
+  }
+ ],
+ "pratique": "Si tu n'as pas encore d'église, choisis-en une cette semaine et va au culte. Si tu en as une, présente-toi à un responsable et demande s'il existe un petit groupe ou une cellule de prière.",
  "versets": [
   "Hé 10:25",
   "Ac 2:42",
   "Ép 2:19"
  ],
- "texte": "Tu n'es pas appelé à vivre ta foi seul. En Christ, tu fais partie de la famille de Dieu. Dans une Église locale, tu reçois l'enseignement de la Parole, tu pries avec d'autres, tu sers et tu es encouragé. Cherche une Église qui prêche Jésus et la Bible, et rejoins-la fidèlement.",
  "question": "Quelle Église vas-tu rejoindre, ou comment vas-tu t'y engager davantage ?",
  "sujets": [
   {
@@ -21,9 +93,5 @@
   }
  ],
  "priere": "Père, merci pour ma famille spirituelle. Aide-moi à y trouver ma place. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

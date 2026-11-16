@@ -1,13 +1,87 @@
 {
  "id": "nouveau-converti-jour-12",
  "jour": 12,
- "titre": "Le repas du Seigneur",
  "image": "/assets/eglise/table-sainte-cene.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Le repas du Seigneur",
+ "objectifs": [
+  "L'origine de la Cène",
+  "Ce que signifient le pain et la coupe",
+  "Comment y participer avec un cœur juste"
+ ],
+ "introduction": [
+  "Dans ton église, tu verras peut-être que l'on partage régulièrement du pain et du vin, ou du jus de raisin. Cela s'appelle la Cène, ou le repas du Seigneur, ou la sainte communion. Aujourd'hui, nous allons voir pourquoi Jésus nous a laissé ce repas."
+ ],
+ "sections": [
+  {
+   "titre": "Le dernier repas de Jésus",
+   "texte": [
+    "### La nuit où il fut livré",
+    "La veille de sa mort, Jésus a célébré la Pâque avec ses disciples. Pendant ce repas, il prit du pain, et après avoir rendu grâces, il le rompit, et le leur donna, en disant : ceci est mon corps, qui est donné pour vous ; faites ceci en mémoire de moi (Luc 22:19). Puis il prit la coupe en disant : cette coupe est la nouvelle alliance en mon sang.",
+    "### Faites ceci",
+    "Jésus n'a pas demandé à ses disciples de construire un monument en son honneur. Il leur a demandé de partager un repas. Depuis deux mille ans, partout dans le monde, des chrétiens obéissent à cette parole : dans les cathédrales, dans les prisons, sous les arbres des villages."
+   ]
+  },
+  {
+   "titre": "Ce que signifient le pain et la coupe",
+   "texte": [
+    "### Regarder en arrière",
+    "Paul rapporte les paroles de Jésus et ajoute : toutes les fois que vous mangez ce pain et que vous buvez cette coupe, vous annoncez la mort du Seigneur, jusqu'à ce qu'il vienne (1 Corinthiens 11:26). Le pain rappelle son corps brisé pour nous ; la coupe, son sang versé pour le pardon de nos péchés. La Cène nous fait regarder en arrière, vers la croix.",
+    "### Regarder autour et en avant",
+    "La Cène nous fait aussi regarder autour de nous : nous partageons le même pain, nous sommes un seul corps. Et elle nous fait regarder en avant : « jusqu'à ce qu'il vienne ». Chaque Cène est un rendez-vous en attendant le grand repas des noces de l'Agneau, au retour de Jésus.",
+    "### Un symbole, pas un objet magique",
+    "Le pain et la coupe ne sont pas des objets magiques qui protègent contre le mal ou guérissent automatiquement. Il ne faut pas en emporter chez soi comme une amulette. Leur valeur vient de ce qu'ils annoncent, et de la présence de Christ au milieu de son peuple qui se souvient de lui avec foi."
+   ]
+  },
+  {
+   "titre": "Participer avec un cœur juste",
+   "texte": [
+    "### S'examiner",
+    "Paul dit : que chacun donc s'éprouve soi-même, et qu'ainsi il mange du pain et boive de la coupe (1 Corinthiens 11:28). Avant la Cène, prends un moment pour examiner ton cœur : y a-t-il un péché à confesser, quelqu'un à qui pardonner ? Il ne s'agit pas d'être parfait pour y participer, mais d'être sincère et repentant.",
+    "### Qui peut participer ?",
+    "La Cène est pour ceux qui ont reçu Jésus. Chaque église a sa manière de faire : certaines demandent d'être baptisé avant. Renseigne-toi auprès de tes responsables, et respecte leur pratique. Si tu as un conflit grave avec quelqu'un, Jésus dit d'aller d'abord te réconcilier.",
+    "On raconte l'histoire d'une femme qui, chaque mois, au moment de la Cène, laissait passer le plateau sans rien prendre. Elle se disait : « Je ne suis pas assez sainte. » Un jour, une diaconesse lui expliqua que la Cène n'est pas une récompense pour les parfaits, mais un repas pour les pécheurs pardonnés. Le mois suivant, elle confessa à Dieu ses fautes, prit le pain en tremblant, et pleura de joie. Elle dit : « J'ai enfin compris que la table était préparée pour moi. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "Jésus a institué la Cène la nuit où il fut livré : « faites ceci en mémoire de moi » (Luc 22:19).",
+  "Le pain et la coupe rappellent son corps et son sang donnés pour nous, et annoncent sa mort jusqu'à son retour (1 Corinthiens 11:26).",
+  "Avant d'y participer, examine ton cœur, confesse et pardonne."
+ ],
+ "memoriser": "1 Co 11:26",
+ "quiz": [
+  {
+   "question": "Que rappelle le pain de la Cène ?",
+   "choix": [
+    "Le pain que nous mangeons chaque jour",
+    "Le corps de Jésus donné pour nous",
+    "La récolte"
+   ],
+   "reponse": 1,
+   "explication": "Luc 22:19.",
+   "section": "2"
+  },
+  {
+   "question": "La Cène est-elle réservée aux chrétiens parfaits ?",
+   "choix": [
+    "Oui",
+    "Non, aux pécheurs pardonnés qui s'examinent avec sincérité",
+    "Seulement aux pasteurs"
+   ],
+   "reponse": 1,
+   "explication": "1 Corinthiens 11:28.",
+   "section": "3"
+  }
+ ],
+ "pratique": "Lis 1 Corinthiens 11:23-29. Avant la prochaine Cène dans ton église, prends dix minutes pour examiner ton cœur et te réconcilier si nécessaire.",
  "versets": [
   "Lc 22:19",
   "1 Co 11:23-26"
  ],
- "texte": "La veille de sa mort, Jésus a pris du pain et une coupe et a dit : faites ceci en mémoire de moi. La sainte cène rappelle son corps donné et son sang versé pour nous. On y participe avec respect, après s'être examiné, et dans la reconnaissance.",
  "question": "Que veux-tu dire à Jésus la prochaine fois que tu prendras la sainte cène ?",
  "sujets": [
   {
@@ -20,9 +94,5 @@
   }
  ],
  "priere": "Seigneur Jésus, je me souviens de ta mort pour moi. Merci pour ta grâce. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

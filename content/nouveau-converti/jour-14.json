@@ -1,14 +1,87 @@
 {
  "id": "nouveau-converti-jour-14",
  "jour": 14,
- "titre": "Le deuxième ennemi : la chair",
  "image": "/assets/personnages/homme-lunettes-reflexion.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Le deuxième ennemi : la chair",
+ "objectifs": [
+  "Ce que la Bible appelle « la chair »",
+  "Le combat intérieur",
+  "Comment marcher selon l'Esprit"
+ ],
+ "introduction": [
+  "Hier, nous avons parlé du monde, l'ennemi qui est autour de nous. Aujourd'hui, nous allons parler d'un ennemi plus proche : la chair, l'ennemi qui est en nous."
+ ],
+ "sections": [
+  {
+   "titre": "Qu'est-ce que la chair ?",
+   "texte": [
+    "### Pas le corps, mais la vieille nature",
+    "Dans la Bible, le mot « chair » ne désigne pas toujours le corps physique. Souvent, il désigne la vieille nature, les tendances au péché que nous portons depuis notre naissance : l'égoïsme, l'orgueil, la convoitise, la colère. Le corps n'est pas mauvais en lui-même : Dieu l'a créé, et il est le temple du Saint-Esprit. Mais la chair, c'est cette inclination à vivre pour soi plutôt que pour Dieu.",
+    "### Les œuvres de la chair",
+    "Paul en donne une liste : l'impudicité, l'impureté, la débauche, l'idolâtrie, la magie, les inimitiés, les querelles, les jalousies, les animosités, les disputes, les divisions, les sectes, l'envie, l'ivrognerie, les excès de table, et les choses semblables (Galates 5:19-21). Remarque que la jalousie et les disputes sont dans la même liste que la débauche et la sorcellerie."
+   ]
+  },
+  {
+   "titre": "Le combat intérieur",
+   "texte": [
+    "### Deux désirs opposés",
+    "Paul écrit : la chair a des désirs contraires à ceux de l'Esprit, et l'Esprit en a de contraires à ceux de la chair ; ils sont opposés entre eux, afin que vous ne fassiez point ce que vous voudriez (Galates 5:17). Depuis que tu es chrétien, tu sens peut-être ce combat plus fort qu'avant. C'est normal. Avant, tu suivais la chair sans résistance. Maintenant, une vie nouvelle lutte contre elle. Ce combat est le signe que tu es vivant.",
+    "### Le vieil homme crucifié",
+    "Paul dit aussi : notre vieil homme a été crucifié avec lui, afin que le corps du péché fût détruit, pour que nous ne soyons plus esclaves du péché (Romains 6:6). La chair n'a plus le droit de te commander. Tu n'es plus son esclave. Elle crie encore, mais tu n'es plus obligé d'obéir."
+   ]
+  },
+  {
+   "titre": "Marcher selon l'Esprit",
+   "texte": [
+    "### Nourrir le bon",
+    "Paul donne la clé : marchez selon l'Esprit, et vous n'accomplirez pas les désirs de la chair (Galates 5:16). On raconte qu'un vieil homme expliquait à son petit-fils : « En moi, il y a comme deux chiens qui se battent, un bon et un méchant. » L'enfant demanda : « Lequel gagne ? » Le vieil homme répondit : « Celui que je nourris. » Si tu nourris la chair par ce que tu regardes, écoutes et fréquentes, elle sera forte. Si tu nourris l'esprit par la Parole, la prière et la communion, il sera fort.",
+    "### Faire mourir",
+    "Paul dit aussi : si par l'Esprit vous faites mourir les actions du corps, vous vivrez (Romains 8:13). Il ne s'agit pas de discuter avec la chair, mais de lui refuser ce qu'elle réclame : supprimer un numéro, ne pas aller à un endroit, ne pas rester seul avec une personne, jeter ce qui te fait tomber. Ce n'est pas facile, mais l'Esprit te donne la force.",
+    "### Le fruit à la place des œuvres",
+    "Après les œuvres de la chair, Paul décrit le fruit de l'Esprit : amour, joie, paix, patience, bonté, bienveillance, fidélité, douceur, maîtrise de soi. Les œuvres de la chair se fabriquent ; le fruit de l'Esprit pousse. À mesure que tu marches avec l'Esprit, ce fruit grandira en toi."
+   ]
+  }
+ ],
+ "retenir": [
+  "La chair, c'est la vieille nature qui veut vivre pour soi : ses œuvres sont listées en Galates 5:19-21.",
+  "Le combat intérieur entre la chair et l'Esprit est normal : c'est le signe d'une vie nouvelle (Galates 5:17).",
+  "Marche selon l'Esprit, nourris le bon, et refuse à la chair ce qu'elle réclame (Galates 5:16 ; Romains 8:13)."
+ ],
+ "memoriser": "Ga 5:16",
+ "quiz": [
+  {
+   "question": "Que désigne souvent la « chair » dans la Bible ?",
+   "choix": [
+    "Le corps, qui est mauvais",
+    "La vieille nature, l'inclination à vivre pour soi",
+    "La viande"
+   ],
+   "reponse": 1,
+   "explication": "Le corps est le temple de l'Esprit.",
+   "section": "1"
+  },
+  {
+   "question": "Comment ne pas accomplir les désirs de la chair ?",
+   "choix": [
+    "En se fouettant",
+    "En marchant selon l'Esprit et en nourrissant la vie nouvelle",
+    "En évitant l'église"
+   ],
+   "reponse": 1,
+   "explication": "Galates 5:16.",
+   "section": "3"
+  }
+ ],
+ "pratique": "Lis Galates 5:16-25. Note une œuvre de la chair qui te combat souvent, et une décision concrète pour ne plus la nourrir. Demande à l'Esprit de t'aider aujourd'hui.",
  "versets": [
   "Ga 5:16-17",
   "Rm 6:6",
   "Rm 8:13"
  ],
- "texte": "La « chair », ce sont les désirs de notre vieille nature qui veulent encore dominer : colère, impureté, jalousie, égoïsme. La victoire ne vient pas de tes seuls efforts, mais de la marche selon l'Esprit. Ton vieil homme a été crucifié avec Christ : tu n'es plus esclave du péché.",
  "question": "Quel désir de la chair te combat le plus en ce moment ?",
  "sujets": [
   {
@@ -21,9 +94,5 @@
   }
  ],
  "priere": "Saint-Esprit, conduis-moi. Je refuse de laisser la chair me dominer. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }
