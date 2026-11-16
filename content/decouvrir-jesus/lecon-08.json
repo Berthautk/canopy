@@ -1,38 +1,225 @@
 {
  "id": "decouvrir-jesus-08",
  "jour": 8,
- "titre": "Donner sa vie à Jésus",
  "image": "/assets/nouveau-converti/marche-vers-la-croix.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
+ "decision": true,
+ "titre": "Donner sa vie à Jésus",
+ "objectifs": [
+  "Pourquoi le salut est un cadeau qu'on ne peut pas mériter",
+  "Ce qu'est vraiment la foi",
+  "La différence entre croire des choses sur Jésus et croire en Jésus",
+  "Ce que veut dire recevoir Jésus comme Sauveur et Seigneur",
+  "Ce qui se passe quand tu le reçois",
+  "Comment faire, concrètement, aujourd'hui"
+ ],
+ "introduction": [
+  "Nous arrivons au cœur de ce parcours. Nous avons vu qui est Dieu, d'où vient le mal, ce qu'est le péché, qui est Jésus, pourquoi il est mort, qu'il est ressuscité, et ce que veut dire se repentir. Maintenant vient la question la plus importante de ta vie : que vas-tu faire de Jésus ?",
+  "On peut connaître toute l'histoire de Jésus, aller à l'église depuis l'enfance, être baptisé, chanter dans la chorale, et pourtant ne lui avoir jamais vraiment donné sa vie. On peut aussi n'avoir jamais mis les pieds dans une église et recevoir Jésus aujourd'hui même, de tout son cœur. Dans cette leçon, nous allons voir clairement comment devenir enfant de Dieu."
+ ],
  "sections": [
   {
-   "titre": "Un cadeau à recevoir",
+   "titre": "Un cadeau, pas un salaire",
    "texte": [
-    "C'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres, afin que personne ne se glorifie (Éphésiens 2:8-9). On ne gagne pas un cadeau, on ne l'achète pas : on le reçoit.",
-    "Mais un cadeau qui reste dans le papier ne sert à rien. La Bible dit : à tous ceux qui l'ont reçu, à ceux qui croient en son nom, il a donné le pouvoir de devenir enfants de Dieu (Jean 1:12). On ne naît pas enfant de Dieu ; on le devient en recevant Jésus."
+    "### Par grâce",
+    "> Ép 2:8-9",
+    "C'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres, afin que personne ne se glorifie. La grâce, c'est la faveur que Dieu nous donne alors que nous ne la méritons pas. Le salut n'est pas une récompense pour les bons, c'est un cadeau pour les pécheurs.",
+    "### Pourquoi c'est une bonne nouvelle",
+    "Si le salut dépendait de nos efforts, personne ne pourrait jamais être sûr d'en avoir fait assez. Les uns seraient orgueilleux, les autres désespérés. Parce que le salut est un cadeau, il est offert à tous : au voleur comme au religieux, à l'analphabète comme au professeur, au vieux comme à l'enfant.",
+    "### On ne paie pas un cadeau",
+    "Imagine que quelqu'un t'offre un cadeau, et que tu sortes ton portefeuille pour le payer. Tu l'offenserais. Un cadeau se reçoit avec reconnaissance. C'est la même chose avec le salut : Dieu nous a sauvés, non à cause des œuvres de justice que nous aurions faites, mais selon sa miséricorde (Tite 3:5). Le seul moyen de le recevoir, c'est la foi."
+   ]
+  },
+  {
+   "titre": "Qu'est-ce que la foi ?",
+   "texte": [
+    "### Plus qu'une opinion",
+    "L'épître aux Hébreux dit : la foi est une ferme assurance des choses qu'on espère, une démonstration de celles qu'on ne voit pas (Hébreux 11:1). La foi n'est pas un sentiment vague ou une opinion religieuse. C'est une confiance qui s'appuie sur ce que Dieu a dit.",
+    "### Se confier",
+    "Croire, dans la Bible, c'est se confier, s'appuyer sur quelqu'un. Pense à une moto-taxi. Tu peux savoir que le conducteur est prudent, connaître sa moto, et même conseiller aux autres de le prendre. Mais tant que tu restes debout au bord de la route, tu n'arrives nulle part. La foi, c'est monter derrière lui et lui confier ton trajet, et ta vie, jusqu'à destination. Croire en Jésus, c'est te confier entièrement à lui pour ton salut, et non plus à toi-même.",
+    "### Une foi qui regarde à Jésus",
+    "Ce n'est pas la grandeur de ta foi qui te sauve, c'est la grandeur de celui en qui tu crois. Une petite foi en un grand Sauveur sauve. Une grande foi en une fausse chose ne sauve pas. Jésus a dit qu'une foi grande comme un grain de sénevé peut déplacer des montagnes (Matthieu 17:20)."
+   ]
+  },
+  {
+   "titre": "Croire que, et croire en",
+   "texte": [
+    "### Les démons aussi croient",
+    "Jacques écrit quelque chose de surprenant : tu crois qu'il y a un seul Dieu, tu fais bien ; les démons le croient aussi, et ils tremblent (Jacques 2:19). Les démons savent que Jésus est le Fils de Dieu ; ils l'ont même crié dans les évangiles. Mais ils ne sont pas sauvés.",
+    "### Savoir n'est pas suffisant",
+    "Beaucoup de gens croient que Jésus a existé, qu'il est mort et ressuscité. Ils croient des choses sur Jésus. Mais ils ne se sont jamais confiés à lui personnellement, ils ne lui ont jamais remis leur vie. Croire que Jésus est un bon médecin ne te guérit pas : il faut aller le voir et lui confier ton corps malade.",
+    "### Une confiance personnelle",
+    "La foi qui sauve dit : Jésus est mort pour moi, je me repose sur lui seul pour mon salut, et je le suis comme mon Seigneur. Paul disait : le Fils de Dieu, qui m'a aimé et qui s'est livré lui-même pour moi (Galates 2:20)."
+   ]
+  },
+  {
+   "titre": "Recevoir Jésus",
+   "texte": [
+    "### Un verbe très simple",
+    "> Jn 1:12-13",
+    "À tous ceux qui l'ont reçu, à ceux qui croient en son nom, il a donné le pouvoir de devenir enfants de Dieu, lesquels sont nés, non du sang, ni de la volonté de la chair, ni de la volonté de l'homme, mais de Dieu. Recevoir, c'est accueillir quelqu'un chez soi. On ne devient pas enfant de Dieu par la naissance dans une famille chrétienne, ni par une cérémonie, mais en recevant Jésus.",
+    "### Tous ne sont pas enfants de Dieu",
+    "On entend souvent : nous sommes tous des enfants de Dieu. Il est vrai que tous les hommes sont des créatures de Dieu, créées à son image. Mais la Bible dit qu'on devient enfant de Dieu, au sens de membre de sa famille, en recevant Jésus. C'est une naissance nouvelle."
    ]
   },
   {
    "titre": "Croire et confesser",
    "texte": [
-    "Si tu confesses de ta bouche le Seigneur Jésus, et si tu crois dans ton cœur que Dieu l'a ressuscité des morts, tu seras sauvé (Romains 10:9). Croire dans ton cœur, c'est mettre toute ta confiance en Jésus, comme on s'assoit sur une chaise en lui faisant confiance. Confesser de ta bouche, c'est dire ouvertement : Jésus est mon Seigneur.",
-    "Le dire, c'est aussi accepter qu'il soit le Seigneur, c'est-à-dire le chef de ta vie. On ne reçoit pas Jésus comme Sauveur pour garder le volant de sa vie. On le reçoit tout entier : Sauveur et Seigneur."
+    "### Avec le cœur et avec la bouche",
+    "> Rm 10:9-10",
+    "Si tu confesses de ta bouche le Seigneur Jésus, et si tu crois dans ton cœur que Dieu l'a ressuscité des morts, tu seras sauvé. Car c'est en croyant du cœur qu'on parvient à la justice, et c'est en confessant de la bouche qu'on parvient au salut.",
+    "### Le cœur d'abord",
+    "Croire dans son cœur, ce n'est pas seulement dans la tête : c'est au centre de la personne, là où se prennent les décisions. Ce n'est pas répéter une phrase sans y croire.",
+    "### La bouche ensuite",
+    "Confesser, c'est déclarer ouvertement : Jésus est mon Seigneur. Ce n'est pas une formule magique, c'est le fruit d'un cœur qui croit. À l'époque de Paul, dire « Jésus est Seigneur » pouvait coûter la vie, car l'empereur exigeait qu'on dise « César est seigneur ». Aujourd'hui encore, dans certaines familles, dire « Jésus est mon Seigneur » coûte cher. Mais Jésus a promis : quiconque me confessera devant les hommes, je le confesserai aussi devant mon Père qui est dans les cieux (Matthieu 10:32).",
+    "### Pour tous",
+    "Paul ajoute : quiconque invoquera le nom du Seigneur sera sauvé (Romains 10:13). Quiconque : il n'y a pas d'exception, pas de tribu exclue, pas de péché trop grand."
+   ]
+  },
+  {
+   "titre": "Sauveur et Seigneur",
+   "texte": [
+    "### Les deux ensemble",
+    "Beaucoup veulent Jésus comme Sauveur, pour aller au ciel et être protégés, mais pas comme Seigneur, pour diriger leur vie. Mais on ne peut pas couper Jésus en deux. Pierre a prêché : que toute la maison d'Israël sache donc avec certitude que Dieu a fait Seigneur et Christ ce Jésus que vous avez crucifié (Actes 2:36).",
+    "### Ce que veut dire « Seigneur »",
+    "Seigneur veut dire maître, celui qui a autorité. Donner sa vie à Jésus, c'est lui remettre les clés de toute la maison : la chambre de nos relations, le bureau de notre travail, le coffre de notre argent, le placard de nos secrets. Il ne force aucune porte, mais il veut toutes les clés.",
+    "### Calculer, mais ne pas avoir peur",
+    "Jésus a dit à ceux qui voulaient le suivre de calculer la dépense. Le suivre peut coûter : des amitiés, des habitudes, parfois la faveur de la famille. Mais ce qu'il donne est infiniment plus grand : le pardon, la paix, la vie éternelle, et sa présence chaque jour. Le prix de suivre Jésus est réel ; le prix de le refuser est éternel."
+   ]
+  },
+  {
+   "titre": "Ce qui se passe quand tu reçois Jésus",
+   "texte": [
+    "### Tu es pardonné",
+    "Tous tes péchés, passés, présents et futurs, sont pardonnés. Il n'y a donc maintenant aucune condamnation pour ceux qui sont en Jésus-Christ (Romains 8:1).",
+    "### Tu nais de nouveau",
+    "Jésus a dit à Nicodème qu'il faut naître de nouveau pour voir le royaume de Dieu (Jean 3:3). Quand tu reçois Jésus, le Saint-Esprit te donne une vie nouvelle. Si quelqu'un est en Christ, il est une nouvelle création. Les choses anciennes sont passées ; voici, toutes choses sont devenues nouvelles (2 Corinthiens 5:17). Tu ne deviens pas parfait d'un coup, mais tu reçois un cœur nouveau, avec de nouveaux désirs.",
+    "### Tu es adopté",
+    "Tu deviens enfant de Dieu. Tu peux l'appeler Père. Tu as une nouvelle famille : tous ceux qui, dans le monde entier, ont reçu Jésus.",
+    "### Le Saint-Esprit vient habiter en toi",
+    "Paul écrit : en lui vous avez cru et vous avez été scellés du Saint-Esprit qui avait été promis (Éphésiens 1:13). Un sceau, c'est une marque d'appartenance. Le Saint-Esprit en toi est la preuve que tu appartiens à Dieu, et c'est lui qui te donnera la force de vivre la vie chrétienne.",
+    "### Tu passes de la mort à la vie",
+    "> Jn 5:24",
+    "En vérité, en vérité, je vous le dis, celui qui écoute ma parole, et qui croit à celui qui m'a envoyé, a la vie éternelle et ne vient point en jugement, mais il est passé de la mort à la vie. Remarque les temps : il a la vie éternelle, maintenant ; il est passé, c'est déjà fait."
    ]
   },
   {
    "titre": "Jésus frappe à la porte",
    "texte": [
-    "Jésus dit : voici, je me tiens à la porte, et je frappe. Si quelqu'un entend ma voix et ouvre la porte, j'entrerai chez lui (Apocalypse 3:20). Jésus ne force personne. Il frappe. La poignée est de ton côté.",
-    "Peut-être qu'il frappe depuis longtemps. Tu as entendu des prédications, des témoignages, des chants. Aujourd'hui, ne remets pas à plus tard. Personne ne sait s'il aura demain. Voici maintenant le temps favorable, voici maintenant le jour du salut."
+    "### Une invitation personnelle",
+    "> Ap 3:20",
+    "Voici, je me tiens à la porte, et je frappe. Si quelqu'un entend ma voix et ouvre la porte, j'entrerai chez lui, je souperai avec lui, et lui avec moi. Jésus ne force pas la porte. Il frappe. La poignée est de ton côté. Il attend que tu ouvres.",
+    "### Aujourd'hui",
+    "La Bible insiste sur le mot « aujourd'hui ». Voici maintenant le temps favorable, voici maintenant le jour du salut (2 Corinthiens 6:2). Aujourd'hui, si vous entendez sa voix, n'endurcissez pas vos cœurs (Hébreux 3:15). Personne ne sait s'il aura demain. Beaucoup ont dit « plus tard », et ce plus tard n'est jamais venu."
+   ]
+  },
+  {
+   "titre": "Comment faire, concrètement",
+   "texte": [
+    "### Pas une formule magique",
+    "Recevoir Jésus n'est pas répéter une prière comme une incantation. C'est une décision du cœur que tu exprimes à Dieu dans la prière. Tu peux utiliser tes propres mots. Ce qui compte, c'est la sincérité de ton cœur.",
+    "### Quatre choses à dire à Dieu",
+    "Reconnais que tu es pécheur et que tu ne peux pas te sauver toi-même. Crois que Jésus est mort pour tes péchés et que Dieu l'a ressuscité. Détourne-toi de ton péché et confie-toi en Jésus seul. Reçois-le comme ton Sauveur et ton Seigneur, et remercie-le pour le pardon et la vie nouvelle.",
+    "### Et après ?",
+    "Si tu as pris cette décision sincèrement, la Bible dit que tu es devenu enfant de Dieu. Tu ne ressentiras peut-être rien d'extraordinaire sur le moment, ou tu pleureras de joie : chacun vit ce moment différemment. Ton salut ne repose pas sur tes émotions, mais sur la promesse de Dieu. Note la date de ce jour, parle-en à un chrétien, et continue ce parcours. La prochaine leçon t'aidera à être sûr de ton salut.",
+    "On raconte l'histoire d'une femme qui allait à l'église depuis vingt ans. Elle connaissait tous les cantiques, elle aidait pour les fêtes, elle n'avait jamais manqué un culte de Noël. Un soir, pendant une petite réunion de maison, quelqu'un lut Apocalypse 3:20 et demanda simplement : « Avez-vous déjà ouvert la porte à Jésus, vous, personnellement ? » Elle voulut répondre « bien sûr », mais les mots ne sortirent pas. Elle réalisa qu'elle avait toujours été autour de Jésus, sans jamais l'avoir reçu. Ce soir-là, à cinquante-deux ans, elle ouvrit la porte. Elle disait ensuite : « J'étais dans l'église depuis vingt ans, mais Jésus, lui, était resté dehors. »"
    ]
   }
  ],
+ "conclusion": [
+  "Le salut est un cadeau de la grâce de Dieu, que l'on reçoit par la foi, et non par nos œuvres. La foi, c'est se confier entièrement à Jésus, et pas seulement croire des choses sur lui. On devient enfant de Dieu en recevant Jésus, en croyant dans son cœur qu'il est ressuscité et en le confessant de sa bouche comme Seigneur. Quand tu le reçois, tu es pardonné, tu nais de nouveau, tu es adopté, le Saint-Esprit vient habiter en toi, et tu passes de la mort à la vie. Jésus frappe à la porte de ton cœur aujourd'hui.",
+  "Si tu l'as reçu, dis-le avec le bouton ci-dessous, et parles-en à un chrétien de confiance. Bienvenue dans la famille de Dieu."
+ ],
+ "retenir": [
+  "Le salut est un cadeau de la grâce, reçu par la foi, et non par les œuvres (Éphésiens 2:8-9).",
+  "Croire, c'est se confier entièrement à Jésus, pas seulement savoir des choses sur lui (Jacques 2:19).",
+  "À tous ceux qui l'ont reçu, il a donné le pouvoir de devenir enfants de Dieu (Jean 1:12).",
+  "Il faut croire dans son cœur et confesser de sa bouche que Jésus est Seigneur (Romains 10:9).",
+  "Jésus est à la fois Sauveur et Seigneur : on ne peut pas le couper en deux.",
+  "Celui qui croit a la vie éternelle maintenant et il est passé de la mort à la vie (Jean 5:24)."
+ ],
+ "memoriser": "Jn 1:12",
+ "quiz": [
+  {
+   "question": "Comment sommes-nous sauvés selon Éphésiens 2:8-9 ?",
+   "choix": [
+    "Par nos bonnes œuvres",
+    "Par la grâce, au moyen de la foi",
+    "Par le baptême seul"
+   ],
+   "reponse": 1,
+   "explication": "C'est le don de Dieu, afin que personne ne se glorifie.",
+   "section": "1"
+  },
+  {
+   "question": "Que montre l'image de la moto-taxi ?",
+   "choix": [
+    "Qu'il faut savoir conduire",
+    "Que croire, c'est se confier à Jésus et pas seulement savoir qu'il peut sauver",
+    "Qu'il faut être prudent sur la route"
+   ],
+   "reponse": 1,
+   "explication": "La foi, c'est monter et confier son trajet au conducteur.",
+   "section": "2"
+  },
+  {
+   "question": "Pourquoi croire que Dieu existe ne suffit pas, selon Jacques 2:19 ?",
+   "choix": [
+    "Parce que c'est faux",
+    "Parce que les démons le croient aussi et ne sont pas sauvés",
+    "Parce qu'il faut aussi jeûner"
+   ],
+   "reponse": 1,
+   "explication": "Il faut une confiance personnelle en Jésus.",
+   "section": "3"
+  },
+  {
+   "question": "Selon Jean 1:12, qui reçoit le pouvoir de devenir enfant de Dieu ?",
+   "choix": [
+    "Tous les hommes sans condition",
+    "Ceux qui reçoivent Jésus et croient en son nom",
+    "Ceux qui sont nés dans une famille chrétienne"
+   ],
+   "reponse": 1,
+   "explication": "On devient enfant de Dieu en recevant Jésus.",
+   "section": "4"
+  },
+  {
+   "question": "Que demande Romains 10:9 ?",
+   "choix": [
+    "Faire un pèlerinage",
+    "Croire dans son cœur que Dieu a ressuscité Jésus et confesser de sa bouche qu'il est Seigneur",
+    "Donner beaucoup d'argent"
+   ],
+   "reponse": 1,
+   "explication": "Avec le cœur et avec la bouche.",
+   "section": "5"
+  },
+  {
+   "question": "Que dit Jean 5:24 de celui qui croit ?",
+   "choix": [
+    "Qu'il sera peut-être sauvé un jour",
+    "Qu'il a la vie éternelle et qu'il est passé de la mort à la vie",
+    "Qu'il doit encore mériter le salut"
+   ],
+   "reponse": 1,
+   "explication": "C'est déjà fait.",
+   "section": "7"
+  }
+ ],
+ "pratique": "Si tu as reçu Jésus, note aujourd'hui la date sur la première page de ta Bible. Cette semaine, dis à au moins une personne de confiance : « J'ai donné ma vie à Jésus. » Si tu ne l'as pas encore fait, relis Jean 1:12 et Apocalypse 3:20 chaque jour, et demande à Dieu de t'aider à ouvrir la porte.",
+ "partage": "Raconte à ton accompagnateur ou à ton pasteur la décision que tu as prise. Demande-lui de prier avec toi, et de t'aider pour les prochains pas : le baptême, l'église, la lecture de la Bible.",
  "versets": [
-  "Jn 1:12",
   "Ép 2:8-9",
+  "Jn 1:12",
   "Rm 10:9-10",
+  "Jn 5:24",
   "Ap 3:20"
  ],
- "question": "Es-tu prêt à recevoir Jésus comme ton Sauveur et ton Seigneur ?",
+ "question": "Es-tu prêt à recevoir Jésus comme ton Sauveur et ton Seigneur ? Si tu l'as déjà fait, te souviens-tu de ce moment, et lui as-tu vraiment remis toutes les clés de ta vie ?",
  "sujets": [
   {
    "titre": "Ouvrir la porte",
@@ -43,19 +230,6 @@
    "texte": "Remets-lui ton passé, ton présent et ton avenir. (Romains 12:1)"
   }
  ],
- "priere": "Seigneur Jésus, je reconnais que je suis pécheur et que j'ai besoin de toi. Je crois que tu es mort pour mes péchés et que Dieu t'a ressuscité. Je me détourne de mon péché. Aujourd'hui, je t'ouvre mon cœur et je te reçois comme mon Sauveur et mon Seigneur. Merci de me pardonner et de faire de moi un enfant de Dieu. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
- "decision": true,
- "introduction": [
-  "Tu as appris qui est Dieu, ce qu'est le péché, qui est Jésus, pourquoi il est mort et ressuscité, et ce que veut dire se repentir. Maintenant vient la question la plus personnelle : qu'est-ce que tu vas faire de Jésus ? Connaître des choses sur lui ne sauve personne. Le diable aussi sait qui est Jésus. Il faut le recevoir.",
-  "Dans cette leçon, nous verrons que le salut est un cadeau, qu'il se reçoit en croyant et en confessant, et que Jésus frappe à la porte de ton cœur."
- ],
- "conclusion": [
-  "Si tu veux recevoir Jésus aujourd'hui, la prière ci-dessous peut t'aider. Ce ne sont pas des mots magiques : c'est la décision de ton cœur qui compte. Dis-la à Dieu, sincèrement, avec tes propres mots si tu préfères.",
-  "Et si tu l'as priée, dis-le à quelqu'un : à la personne qui t'a fait connaître ce parcours, ou à un chrétien de confiance. Puis continue jusqu'à la dernière leçon."
- ]
+ "priere": "Seigneur Jésus, je reconnais que je suis pécheur et que je ne peux pas me sauver moi-même. Je crois que tu es mort pour mes péchés et que Dieu t'a ressuscité. Je me détourne de mon péché. Aujourd'hui, je t'ouvre la porte de mon cœur et je te reçois comme mon Sauveur et mon Seigneur. Je te donne toutes les clés de ma vie. Merci de me pardonner, de me donner une vie nouvelle et de faire de moi un enfant de Dieu. Amen.",
+ "relu": false
 }
