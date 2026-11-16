@@ -6,15 +6,16 @@ import { notifier } from '../../composants/Notification.jsx';
 import { SujetsACocher, blocsSujets } from '../priere/Veille.jsx';
 import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 import { NOUVEAU_CONVERTI, DECOUVRIR_JESUS, AUDIOS, JOURS_PARCOURS } from '../../donnees/contenu.js';
-import { parcours, terminerJour, jourDebloque, noterDecision } from '../../donnees/priere.js';
+import { parcours, terminerJour, noterDecision } from '../../donnees/priere.js';
+import { Questions } from './EnseignementEcrit.jsx';
 import { lireReference, ecrireReference } from '../../bible/references.js';
 import { useSignal } from '../../outils/signal.js';
 import { aller } from '../../outils/routeur.js';
 
-// Deux parcours progressifs : une étape se débloque quand la précédente est terminée.
+// Deux parcours pour le nouveau converti. Tout est ouvert : l'ordre est conseillé, pas imposé.
 export const PARCOURS = {
   'decouvrir-jesus': { cle: 'dj', liste: () => DECOUVRIR_JESUS, total: () => DECOUVRIR_JESUS.length, unite: 'Leçon',
-    titre: 'Découvrir Jésus', sousTitre: 'Qui est Jésus, et comment lui donner ta vie ? 10 courtes leçons, à ton rythme.',
+    titre: 'Découvrir Jésus', sousTitre: 'Qui est Dieu, qui est Jésus, et comment lui donner ta vie ? 10 leçons solides pour poser les fondations, à ton rythme.',
     image: '/assets/jesus/jesus-main-tendue.webp', suite: { lien: 'grandir/nouveau-converti', texte: 'Continuer avec « Mes 30 premiers jours avec Christ »' } },
   'nouveau-converti': { cle: 'faits', liste: () => NOUVEAU_CONVERTI, total: () => JOURS_PARCOURS, unite: 'Jour',
     titre: 'Mes 30 premiers jours avec Christ', sousTitre: 'Un parcours simple pour bien commencer, un thème par jour, à ton rythme.',
@@ -38,16 +39,29 @@ export function Parcours({ id, jour }) {
         )}
         {!prochain && cfg.suite && <a class="bouton bouton--or" href={'#/' + cfg.suite.lien} style="margin-top:10px">{cfg.suite.texte}</a>}
       </section>
+      <details class="carte bloc conseil-parcours">
+        <summary><Icone nom="ampoule" taille={18} /> Comment profiter de ce parcours</summary>
+        <ol>
+          <li><b>Une leçon à la fois.</b> Prends ton temps : une leçon tous les deux ou trois jours vaut mieux que tout en un soir.</li>
+          <li><b>Écoute ou lis en entier</b>, la Bible ouverte. Touche les versets pour les lire dans leur contexte, puis reviens.</li>
+          <li><b>Retiens</b> les points clés et <b>apprends le verset</b> de la leçon par cœur.</li>
+          <li><b>Réponds aux questions</b> : ce n'est pas un examen, c'est pour vérifier que tu as compris. Si tu te trompes, relis le point indiqué.</li>
+          <li><b>Mets en pratique</b> l'action proposée pendant la semaine.</li>
+          <li><b>Parles-en</b> avec un chrétien mûr ou ton pasteur : pose-lui tes questions, raconte-lui ce que tu as appris.</li>
+          <li><b>Prie</b> avec la prière proposée, puis avec tes propres mots.</li>
+        </ol>
+        <p class="ligne__desc">Toutes les leçons sont ouvertes. L'ordre conseillé est le meilleur pour bâtir solidement, mais tu peux revenir sur une leçon quand tu veux.</p>
+      </details>
       <ol class="jours">
         {Array.from({ length: total }, (_, i) => i + 1).map((n) => {
-          const j = cfg.liste().find((x) => x.jour === n), fait = faits.includes(n), ouvert = jourDebloque(n, faits);
-          const etat = fait ? 'fait' : ouvert && j ? 'ouvert' : 'ferme';
+          const j = cfg.liste().find((x) => x.jour === n), fait = faits.includes(n);
+          const etat = fait ? 'fait' : !j ? 'ferme' : n === prochain ? 'ouvert' : 'libre';
           const contenu = (
             <>
-              <span class={'jour__statut jour__statut--' + etat}>{fait ? <Icone nom="verifie" taille={18} /> : etat === 'ouvert' ? <Icone nom="lecture" taille={16} /> : <Icone nom="cadenas" taille={16} />}</span>
+              <span class={'jour__statut jour__statut--' + etat}>{fait ? <Icone nom="verifie" taille={18} /> : etat === 'ferme' ? <Icone nom="cadenas" taille={16} /> : <Icone nom="lecture" taille={16} />}</span>
               <span class="jour__num">{cfg.unite} {n}</span>
               <span class="ligne__corps">
-                <span class="ligne__titre" style="display:block">{j ? j.titre : 'À venir'}</span>
+                <span class="ligne__titre" style="display:block">{j ? j.titre : 'À venir'}{etat === 'ouvert' && <span class="pastille pastille--or pastille--mini">Conseillé maintenant</span>}</span>
                 <span class="ligne__desc">{j ? j.versets.slice(0, 3).map((r) => ecrireReference(lireReference(r))).join(' · ') : 'Contenu en préparation'}</span>
               </span>
             </>
@@ -63,19 +77,24 @@ export function Parcours({ id, jour }) {
 function Etape({ cfg, id, n, faits, decision }) {
   const j = cfg.liste().find((x) => x.jour === n);
   const vid = `${id}-${n}`, va = useVoixActive(vid);
-  if (!j || !jourDebloque(n, faits)) return <div class="page"><p class="ligne__desc" style="margin-top:16px">Cette étape n'est pas encore disponible. Termine d'abord la précédente.</p></div>;
+  if (!j) return <div class="page"><p class="ligne__desc" style="margin-top:16px">Cette étape est en préparation.</p></div>;
   const piste = AUDIOS[j.id], fait = faits.includes(n), total = cfg.total();
   // Corps de la leçon : introduction, points numérotés (un ou plusieurs paragraphes), conclusion.
   const paras = (t) => (Array.isArray(t) ? t : [t]).filter(Boolean);
   const items = j.sections ? [
     ...paras(j.introduction).map((t) => ({ k: 'p', texte: t })),
-    ...j.sections.flatMap((s, i) => [{ k: 'h', texte: (j.introduction ? `${i + 1}. ` : '') + s.titre }, ...paras(s.texte).map((t) => ({ k: 'p', texte: t }))]),
+    ...j.sections.flatMap((s, i) => [{ k: 'h', texte: (j.introduction ? `${i + 1}. ` : '') + s.titre, point: i + 1 }, ...paras(s.texte).map((t) => (t.startsWith('### ') ? { k: 's', texte: t.slice(4) } : t.startsWith('> ') ? { k: 'v', ref: t.slice(2) } : { k: 'p', texte: t }))]),
     ...(j.conclusion ? [{ k: 'h', texte: 'Pour conclure' }, ...paras(j.conclusion).map((t) => ({ k: 'p', texte: t }))] : []),
   ] : [{ k: 'p', texte: j.texte }];
-  const corps = items.map((x) => ({ texte: x.k === 'h' ? x.texte + '.' : x.texte }));
-  const blocs = [{ texte: `${cfg.unite} ${n}. ${j.titre}.` }, ...corps, ...j.versets.map((r) => ({ reference: r })), { texte: 'Pour réfléchir. ' + j.question },
+  const corps = items.map((x) => (x.k === 'v' ? { reference: x.ref } : { texte: x.k === 'h' || x.k === 's' ? x.texte + '.' : x.texte }));
+  const plus = [
+    ...(j.retenir?.length ? [{ texte: 'À retenir.' }, ...j.retenir.map((t) => ({ texte: t }))] : []),
+    ...(j.memoriser ? [{ texte: 'Verset à apprendre par cœur.' }, { reference: j.memoriser }] : []),
+    ...(j.pratique ? [{ texte: 'À vivre cette semaine. ' + j.pratique }] : []),
+  ];
+  const blocs = [{ texte: `${cfg.unite} ${n}. ${j.titre}.` }, ...corps, ...plus, ...j.versets.map((r) => ({ reference: r })), { texte: 'Pour réfléchir. ' + j.question },
     ...(j.sujets?.length ? [{ texte: 'Sujets de prière.' }, ...blocsSujets(j.sujets)] : []), ...(j.priere ? [{ texte: (j.decision ? 'Prière pour recevoir Jésus. ' : 'Prière. ') + j.priere }] : [])];
-  const iV = 1 + corps.length, iQ = iV + j.versets.length, iS = iQ + 1, iP = iS + (j.sujets?.length ? j.sujets.length + 1 : 0);
+  const iPlus = 1 + corps.length, iV = iPlus + plus.length, iQ = iV + j.versets.length, iS = iQ + 1, iP = iS + (j.sujets?.length ? j.sujets.length + 1 : 0);
   const terminer = () => { terminerJour(n, cfg.cle); notifier(`Bravo, ${cfg.unite.toLowerCase()} ${n} terminé${cfg.unite === 'Leçon' ? 'e' : ''} !`); aller('grandir/' + id); };
   return (
     <div class="page">
@@ -84,9 +103,18 @@ function Etape({ cfg, id, n, faits, decision }) {
       {j.exemple && <p style="margin:8px 4px 0"><span class="etiquette-exemple">EXEMPLE</span> Contenu de démonstration.</p>}
       {!piste && <BarreEcoute id={vid} blocs={blocs} titre={'Écouter ' + (cfg.unite === 'Leçon' ? 'la leçon' : 'le jour')} />}
       <section class="carte bloc enseignement-court">
-        {items.map((x, k) => x.k === 'h' ? <h3 class="section-ens__sous" style="margin:14px 0 4px" {...va(1 + k)}>{x.texte}</h3> : <p {...va(1 + k)}><TexteRefs texte={x.texte} /></p>)}
+        {j.objectifs?.length > 0 && <div class="objectifs-lecon"><b>Dans cette leçon, tu vas apprendre :</b><ul>{j.objectifs.map((o) => <li>{o}</li>)}</ul></div>}
+        {items.map((x, k) => x.k === 'h' ? <h3 id={x.point ? 'point-' + x.point : undefined} class="ens-point lecon-point" {...va(1 + k)}>{x.texte}</h3>
+          : x.k === 's' ? <h4 class="section-ens__sous lecon-sous" {...va(1 + k)}>{x.texte}</h4>
+          : x.k === 'v' ? <div {...va(1 + k)}><CarteVerset reference={x.ref} /></div>
+          : <p {...va(1 + k)}><TexteRefs texte={x.texte} /></p>)}
         {piste && <div class="bloc__audio"><BoutonLecture piste={piste} taille={44} /><span class="ligne__corps"><span class="ligne__titre">Écouter</span></span></div>}
       </section>
+      {j.retenir?.length > 0 && <section class="carte bloc a-retenir" {...va(iPlus)}><h3><span class="ligne__icone"><Icone nom="ampoule" /></span> À retenir</h3><ul>{j.retenir.map((t) => <li><TexteRefs texte={t} /></li>)}</ul></section>}
+      {j.memoriser && <><h2 class="titre-section">Verset à apprendre par cœur</h2><div {...va(iPlus + (j.retenir?.length ? j.retenir.length + 1 : 0))}><CarteVerset reference={j.memoriser} /></div></>}
+      {j.quiz?.length > 0 && <Questions e={{ id: j.id, questions: j.quiz }} />}
+      {j.pratique && <section class="carte bloc" style="margin-top:12px"><h3><span class="ligne__icone"><Icone nom="cible" /></span> À vivre cette semaine</h3><p><TexteRefs texte={j.pratique} /></p></section>}
+      {j.partage && <section class="carte bloc" style="margin-top:12px"><h3><span class="ligne__icone"><Icone nom="coeur" /></span> Parles-en</h3><p>{j.partage}</p></section>}
       <h2 class="titre-section">À lire</h2>
       <div class="liste">{j.versets.map((r, k) => <div {...va(iV + k)}><CarteVerset reference={r} /></div>)}</div>
       <section class="carte bloc" style="margin-top:12px" {...va(iQ)}><h3><span class="ligne__icone"><Icone nom="cible" /></span> Pour réfléchir</h3><p>{j.question}</p></section>

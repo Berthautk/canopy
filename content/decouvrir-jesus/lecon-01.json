@@ -1,41 +1,244 @@
 {
  "id": "decouvrir-jesus-01",
  "jour": 1,
- "titre": "Qui est Dieu ?",
  "image": "/assets/symboles/bible-dans-la-lumiere.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
+ "titre": "Qui est Dieu ?",
+ "objectifs": [
+  "Pourquoi on peut savoir que Dieu existe",
+  "Comment Dieu se fait connaître",
+  "Ce que Dieu est : esprit, éternel, tout-puissant, saint, juste, amour, fidèle",
+  "Un seul Dieu, Père, Fils et Saint-Esprit",
+  "Pourquoi Dieu veut une relation avec toi"
+ ],
+ "introduction": [
+  "Avant de parler de Jésus, il faut parler de Dieu. Beaucoup de gens disent qu'ils croient en Dieu, mais quand on leur demande qui il est, ils ne savent pas répondre. Pour certains, Dieu est un grand-père lointain qui ne s'occupe pas de nous. Pour d'autres, c'est un juge fâché qu'il faut calmer avec des sacrifices. Pour d'autres encore, c'est une force sans visage, ou un esprit parmi beaucoup d'autres esprits.",
+  "Le prophète Jérémie a écrit une parole très importante : que le sage ne se glorifie pas de sa sagesse, que le fort ne se glorifie pas de sa force, que le riche ne se glorifie pas de sa richesse. Mais que celui qui veut se glorifier se glorifie d'avoir de l'intelligence et de me connaître (Jérémie 9:23-24). Connaître Dieu, c'est la chose la plus importante de toute la vie. Jésus l'a dit : la vie éternelle, c'est qu'ils te connaissent, toi, le seul vrai Dieu, et celui que tu as envoyé, Jésus-Christ (Jean 17:3).",
+  "Dans cette leçon, nous allons prendre le temps. Nous allons voir pourquoi on peut savoir que Dieu existe, comment il se fait connaître, ce qu'il est vraiment, et pourquoi il veut une relation avec toi. Garde ta Bible ouverte, et touche les versets pour les lire."
+ ],
  "sections": [
   {
-   "titre": "Dieu existe et il se fait connaître",
+   "titre": "Dieu existe : ce que montrent la création et la conscience",
    "texte": [
-    "Regarde le ciel la nuit, la terre qui porte la vie, le corps humain si bien fait. Rien de tout cela n'est arrivé par hasard. La Bible dit que les perfections invisibles de Dieu, sa puissance éternelle et sa divinité, se voient comme à l'œil nu depuis la création du monde (Romains 1:20). La création est comme une signature : elle montre qu'il y a un Créateur.",
-    "Mais Dieu ne s'est pas contenté de laisser des traces. Il a parlé. Il a parlé par les prophètes, et il a fini par parler par son Fils, Jésus-Christ (Hébreux 1:1-2). Si tu veux savoir qui est Dieu, tu n'as pas besoin de deviner : il s'est révélé dans la Bible, et surtout en Jésus. Jésus a dit : celui qui m'a vu a vu le Père (Jean 14:9).",
-    "Dieu est Esprit (Jean 4:24). On ne peut pas le voir avec les yeux du corps, ni l'enfermer dans une statue, un arbre sacré ou un objet. Il est partout, il voit tout, il sait tout. Rien n'est caché devant lui : ni ce que tu fais en secret, ni ce que tu penses."
+    "### La création parle",
+    "Regarde le ciel la nuit, avec ses milliers d'étoiles. Regarde la terre qui porte la vie, la pluie qui tombe au bon moment, la graine qui devient un arbre. Regarde ton propre corps : ton cœur bat sans que tu le commandes, tes yeux voient, ton cerveau pense. Rien de tout cela n'est arrivé par hasard.",
+    "> Ps 19:2-5",
+    "Le psalmiste dit que les cieux racontent la gloire de Dieu. Ils ne parlent pas avec des mots, et pourtant tout le monde les entend, dans toutes les langues. Paul explique que les perfections invisibles de Dieu, sa puissance éternelle et sa divinité, se voient comme à l'œil nu depuis la création du monde, quand on les considère dans ses ouvrages (Romains 1:20).",
+    "Pense à une montre. Si tu trouves une montre dans un champ, tu ne diras jamais : le vent et la pluie ont assemblé tout seuls ces petites pièces, ces aiguilles et ce ressort. Tu diras : quelqu'un l'a fabriquée. Or le corps humain, une seule cellule vivante, est infiniment plus compliqué qu'une montre. Là où il y a un plan, il y a quelqu'un qui a fait le plan.",
+    "### La conscience parle",
+    "Il y a une autre trace de Dieu, à l'intérieur de toi : ta conscience. Partout dans le monde, dans toutes les cultures, les hommes savent qu'il est mal de trahir un ami, de tuer un innocent ou de voler un pauvre. D'où vient cette loi écrite dans le cœur ? Paul dit que les païens, qui n'avaient pas la loi de Moïse, montrent que l'œuvre de la loi est écrite dans leurs cœurs, leur conscience en rendant témoignage (Romains 2:14-15). La conscience est comme une voix qui rappelle à l'homme qu'il y a un juge au-dessus de lui.",
+    "### Croire n'est pas fermer les yeux",
+    "La Bible ne demande pas de croire sans raison. Elle dit : sans la foi, il est impossible d'être agréable à Dieu ; car il faut que celui qui s'approche de Dieu croie que Dieu existe, et qu'il est le rémunérateur de ceux qui le cherchent (Hébreux 11:6). La foi chrétienne n'est pas un saut dans le vide. C'est une confiance qui s'appuie sur ce que Dieu a montré de lui-même. Celui qui cherche Dieu sincèrement le trouvera."
+   ]
+  },
+  {
+   "titre": "Dieu se fait connaître : la création, la Parole et Jésus",
+   "texte": [
+    "### Dieu n'est pas caché",
+    "Les hommes ont toujours cherché Dieu, mais souvent dans le noir : en consultant les morts, en offrant des sacrifices aux arbres et aux rivières, en fabriquant des statues. La bonne nouvelle, c'est que Dieu n'a pas laissé l'homme deviner. Il a parlé.",
+    "> Hé 1:1-2",
+    "### Il a parlé par les prophètes et par l'Écriture",
+    "Pendant des siècles, Dieu a parlé par des prophètes : Moïse, Samuel, Ésaïe, Jérémie et beaucoup d'autres. Ce qu'ils ont reçu a été écrit, et c'est la Bible. Paul dit que toute Écriture est inspirée de Dieu (2 Timothée 3:16). Cela veut dire que la Bible n'est pas seulement un livre de sagesse humaine : c'est Dieu qui parle à travers elle. Si tu veux savoir qui est Dieu, tu n'as pas besoin d'aller chez un devin ou de faire un rêve spécial. Ouvre la Bible : c'est là que Dieu se fait connaître de manière sûre. Une série d'enseignements de Yeshaya, « Connaître la Bible », t'expliquera comment la Bible a été écrite et transmise jusqu'à nous.",
+    "### Il a parlé par son Fils",
+    "Mais le sommet de la révélation de Dieu, c'est Jésus-Christ. Personne n'a jamais vu Dieu ; le Fils unique, qui est dans le sein du Père, est celui qui l'a fait connaître (Jean 1:18). Un jour, l'apôtre Philippe a dit à Jésus : Seigneur, montre-nous le Père. Jésus lui a répondu : celui qui m'a vu a vu le Père (Jean 14:9). Si tu veux savoir comment Dieu regarde les pauvres, les malades, les pécheurs, les enfants, regarde Jésus dans les Évangiles. Dieu ressemble à Jésus."
+   ]
+  },
+  {
+   "titre": "Dieu est Esprit, éternel et créateur de tout",
+   "texte": [
+    "### Dieu est Esprit",
+    "Jésus a dit à la femme samaritaine : Dieu est Esprit, et il faut que ceux qui l'adorent l'adorent en esprit et en vérité (Jean 4:24). Dieu n'a pas un corps comme nous. On ne peut pas le voir avec nos yeux, ni le toucher, ni l'enfermer dans un objet. C'est pourquoi Dieu a interdit à Israël de fabriquer des statues pour le représenter (Exode 20:4). Aucune image, aucun fétiche, aucun arbre sacré ne peut contenir Dieu.",
+    "### Dieu est éternel",
+    "Nous avons tous un commencement : un jour de naissance. Dieu, lui, n'a pas de commencement et n'aura pas de fin.",
+    "> Ps 90:2",
+    "Avant que les montagnes soient nées, avant que la terre existe, d'éternité en éternité, Dieu est Dieu. Quand Moïse a demandé son nom, Dieu a répondu : je suis celui qui suis (Exode 3:14). Il ne dépend de personne. Personne ne l'a créé. Il existe par lui-même.",
+    "### Dieu est le créateur de tout",
+    "La Bible commence par ces mots : au commencement, Dieu créa les cieux et la terre (Genèse 1:1). Tout ce qui existe, le visible et l'invisible, les anges, les hommes, les animaux, les étoiles, vient de lui. Paul a dit aux savants d'Athènes : le Dieu qui a fait le monde et tout ce qui s'y trouve, étant le Seigneur du ciel et de la terre, n'habite point dans des temples faits de main d'homme ; il n'est point servi par des mains humaines, comme s'il avait besoin de quoi que ce soit, lui qui donne à tous la vie, la respiration, et toutes choses (Actes 17:24-25).",
+    "Remarque cette phrase : Dieu n'a besoin de rien. Les faux dieux ont besoin qu'on les nourrisse, qu'on leur offre du sang, de l'alcool, des poulets. Le vrai Dieu n'a besoin de rien : c'est lui qui nous donne tout, même le souffle que nous respirons."
+   ]
+  },
+  {
+   "titre": "Dieu est tout-puissant, il sait tout et il est partout",
+   "texte": [
+    "### Rien n'est impossible à Dieu",
+    "Le prophète Jérémie priait ainsi : ah ! Seigneur Éternel, voici, tu as fait les cieux et la terre par ta grande puissance et par ton bras étendu : rien n'est étonnant de ta part (Jérémie 32:17). Dieu n'a pas de limites dans sa puissance. Aucune sorcellerie, aucun esprit, aucun pouvoir ne peut lui résister. Ceux qui ont peur des sorciers doivent savoir que le Dieu de la Bible est infiniment plus grand que toutes les puissances des ténèbres.",
+    "### Dieu sait tout",
+    "Le psaume 139 est une des plus belles prières de la Bible sur ce sujet.",
+    "> Ps 139:1-4",
+    "Éternel ! tu me sondes et tu me connais. Tu sais quand je m'assieds et quand je me lève, tu pénètres de loin ma pensée. Dieu connaît chacune de tes pensées, chacun de tes secrets, avant même que tu parles. Rien n'est caché devant lui : nulle créature n'est cachée devant lui, mais tout est à nu et à découvert aux yeux de celui à qui nous devons rendre compte (Hébreux 4:13).",
+    "Cela peut faire peur, si l'on vit dans le péché. Mais pour l'enfant de Dieu, c'est une consolation : Dieu sait ce que tu traverses, même quand personne ne te comprend.",
+    "### Dieu est partout",
+    "David continue : où irais-je loin de ton esprit, et où fuirais-je loin de ta face ? Si je monte aux cieux, tu y es ; si je me couche au séjour des morts, t'y voilà (Psaume 139:7-8). On ne peut pas fuir Dieu. Il est présent au village et en ville, dans la maison et dans la forêt, le jour et la nuit. Pour celui qui l'aime, cela veut dire : je ne suis jamais seul."
    ]
   },
   {
    "titre": "Dieu est saint",
    "texte": [
-    "Le premier mot que les anges disent de Dieu, ce n'est pas « il est gentil », c'est : saint, saint, saint (Ésaïe 6:3). Saint veut dire pur, séparé de tout mal. Dieu est lumière, et il n'y a point en lui de ténèbres (1 Jean 1:5). Il n'y a en lui aucun mensonge, aucune injustice, aucune impureté.",
-    "Quand le prophète Ésaïe a vu la sainteté de Dieu, il ne s'est pas senti fier de lui. Il a crié : malheur à moi ! je suis perdu, car je suis un homme dont les lèvres sont impures (Ésaïe 6:5). Devant la sainteté de Dieu, l'homme découvre qui il est vraiment. C'est une vérité que beaucoup refusent d'entendre aujourd'hui : Dieu ne tolère pas le péché. Il ne ferme pas les yeux. Il est juste, et il jugera chaque homme."
+    "### Saint, saint, saint",
+    "Quand le prophète Ésaïe a vu Dieu sur son trône, il a entendu les séraphins crier l'un à l'autre : saint, saint, saint est l'Éternel des armées ! Toute la terre est pleine de sa gloire (Ésaïe 6:3). Remarque que les anges ne répètent pas « amour, amour, amour » ni « puissance, puissance, puissance », mais « saint ». La sainteté est au cœur de ce que Dieu est.",
+    "### Ce que veut dire « saint »",
+    "Saint veut dire deux choses. D'abord, Dieu est à part, totalement différent de tout ce qu'il a créé. Ensuite, Dieu est pur, sans aucun mal. Dieu est lumière, et il n'y a point en lui de ténèbres (1 Jean 1:5). Il n'y a en lui aucun mensonge, aucune injustice, aucune impureté, aucune méchanceté cachée.",
+    "> Ha 1:13",
+    "Le prophète Habakuk dit à Dieu : tes yeux sont trop purs pour voir le mal. Dieu ne peut pas faire semblant que le péché n'est pas grave. C'est pour cela que l'homme pécheur ne peut pas s'approcher de Dieu tel qu'il est. Nous verrons dans les prochaines leçons comment Dieu a résolu ce problème.",
+    "### Dieu nous appelle à être saints",
+    "Dieu dit à son peuple : vous serez saints, car je suis saint (1 Pierre 1:16). Un enfant ressemble à son père. Celui qui devient enfant de Dieu apprend peu à peu à lui ressembler : à aimer ce qu'il aime et à haïr ce qu'il hait."
+   ]
+  },
+  {
+   "titre": "Dieu est juste",
+   "texte": [
+    "### Un juge parfait",
+    "Dieu est aussi juste. Moïse le chante : il est le rocher ; ses œuvres sont parfaites, car toutes ses voies sont justes ; c'est un Dieu fidèle et sans iniquité, il est juste et droit (Deutéronome 32:4). Les juges de la terre peuvent être corrompus, accepter de l'argent, favoriser leur tribu ou leurs amis. Dieu, jamais.",
+    "### Dieu jugera",
+    "Paul a dit à Athènes que Dieu a fixé un jour où il jugera le monde selon la justice (Actes 17:31). Chaque homme rendra compte de sa vie. Ce n'est pas une menace inventée pour faire peur : c'est une vérité qui donne du sens à la vie. Le mal ne restera pas impuni pour toujours. Les victimes qui n'ont jamais été défendues sur la terre seront vues par le juste juge.",
+    "### Une bonne et une mauvaise nouvelle",
+    "C'est une bonne nouvelle pour ceux qui souffrent de l'injustice. Mais c'est aussi une mauvaise nouvelle pour nous tous, car nous avons tous fait le mal. Si Dieu est juste, comment pourra-t-il nous accepter ? C'est la grande question de la Bible, et la réponse, c'est la croix de Jésus."
    ]
   },
   {
    "titre": "Dieu est amour",
    "texte": [
-    "Et pourtant, ce Dieu saint n'est pas un Dieu lointain et froid. Quand il s'est présenté à Moïse, il a dit : l'Éternel, Dieu miséricordieux et compatissant, lent à la colère, riche en bonté et en fidélité (Exode 34:6). Il est saint, mais il aime. Il hait le péché, mais il aime le pécheur.",
-    "La plus grande preuve de cet amour, c'est Jésus. Car Dieu a tant aimé le monde qu'il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu'il ait la vie éternelle (Jean 3:16). « Le monde », cela veut dire toi aussi : ton nom, ton histoire, tes blessures et tes fautes.",
-    "Enfin, Dieu ne change pas : je suis l'Éternel, je ne change pas (Malachie 3:6). Les hommes changent d'avis, les amis trahissent, les promesses humaines s'oublient. Dieu, lui, reste le même. Ce qu'il a promis, il le fera."
+    "### Pas seulement « il aime », mais « il est amour »",
+    "L'apôtre Jean écrit : celui qui n'aime pas n'a pas connu Dieu, car Dieu est amour (1 Jean 4:8). Dieu ne fait pas seulement des actes d'amour de temps en temps : l'amour fait partie de sa nature même. Avant même la création du monde, le Père, le Fils et le Saint-Esprit vivaient dans l'amour.",
+    "### Le nom que Dieu a donné à Moïse",
+    "Quand Dieu s'est présenté à Moïse sur le mont Sinaï, il a dit : l'Éternel, l'Éternel, Dieu miséricordieux et compatissant, lent à la colère, riche en bonté et en fidélité (Exode 34:6). Il est saint, mais il aime. Il hait le péché, mais il aime le pécheur.",
+    "### La plus grande preuve",
+    "> 1 Jn 4:9-10",
+    "L'amour de Dieu ne se voit pas d'abord dans les cadeaux matériels, mais dans un don immense : il a envoyé son Fils unique dans le monde, afin que nous vivions par lui. Et ce n'est pas parce que nous l'aimions. Dieu prouve son amour envers nous, en ce que, lorsque nous étions encore des pécheurs, Christ est mort pour nous (Romains 5:8). L'amour humain dit souvent : je t'aime si tu es gentil avec moi. L'amour de Dieu dit : je t'ai aimé quand tu étais encore mon ennemi.",
+    "### Sainteté et amour ensemble",
+    "Certaines personnes ne voient que la sainteté de Dieu : elles vivent dans la peur. D'autres ne voient que son amour : elles pensent que le péché n'est pas grave. Le vrai Dieu est les deux à la fois. Sa sainteté nous montre combien nous avons besoin d'être sauvés ; son amour nous montre qu'il a lui-même préparé le salut. C'est à la croix que la sainteté et l'amour de Dieu se rencontrent parfaitement."
+   ]
+  },
+  {
+   "titre": "Dieu est fidèle et ne change pas",
+   "texte": [
+    "### Je ne change pas",
+    "Dieu dit : je suis l'Éternel, je ne change pas (Malachie 3:6). Les hommes changent d'avis, les amis trahissent, les promesses s'oublient, les gouvernements passent. Dieu, lui, reste le même hier, aujourd'hui et éternellement. Jacques dit qu'en lui il n'y a ni changement ni ombre de variation (Jacques 1:17).",
+    "### Ce qu'il promet, il le fait",
+    "> Nb 23:19",
+    "Dieu n'est point un homme pour mentir, ni fils d'un homme pour se repentir. Ce qu'il a dit, ne le fera-t-il pas ? Toutes les promesses de la Bible reposent sur cette fidélité. Quand Dieu dit qu'il pardonne celui qui se repent, qu'il ne t'abandonnera jamais, qu'il reviendra chercher les siens, tu peux t'appuyer sur ces paroles comme sur un rocher.",
+    "### Ses compassions se renouvellent chaque matin",
+    "Au milieu d'une grande souffrance, le prophète Jérémie a écrit : les bontés de l'Éternel ne sont pas épuisées, ses compassions ne sont pas à leur terme ; elles se renouvellent chaque matin. Oh ! que ta fidélité est grande ! (Lamentations 3:22-23). Même quand tout va mal, la fidélité de Dieu reste le sol solide sous nos pieds."
+   ]
+  },
+  {
+   "titre": "Un seul Dieu : Père, Fils et Saint-Esprit",
+   "texte": [
+    "### Un seul Dieu",
+    "La Bible affirme avec force qu'il n'y a qu'un seul vrai Dieu : écoute, Israël ! l'Éternel, notre Dieu, est le seul Éternel (Deutéronome 6:4). Il n'y a pas un dieu du ciel, un dieu de la pluie, un dieu de la forêt et un dieu des ancêtres. Il y a un seul Dieu, créateur et maître de tout.",
+    "### Trois personnes",
+    "Et pourtant, la Bible nous révèle que ce Dieu unique est Père, Fils et Saint-Esprit. Jésus a envoyé ses disciples baptiser au nom du Père, du Fils et du Saint-Esprit (Matthieu 28:19). Remarque : « au nom », et non « aux noms ». Un seul nom, trois personnes. Au baptême de Jésus, on voit les trois ensemble : le Fils sort de l'eau, l'Esprit descend comme une colombe, et le Père parle du ciel (Matthieu 3:16-17).",
+    "### Un mystère qui ne se contredit pas",
+    "Nous ne comprenons pas tout de ce mystère, et c'est normal : si nous pouvions comprendre Dieu entièrement, il ne serait pas Dieu. Mais ce n'est pas une contradiction. Nous ne disons pas : un égale trois. Nous disons : un seul Dieu en trois personnes. Une image imparfaite peut aider : le soleil, sa lumière et sa chaleur. On ne voit qu'un seul soleil, mais la lumière qui éclaire et la chaleur qui réchauffe viennent de lui et sont lui-même qui agit. Aucune image n'est parfaite, mais celle-ci montre qu'une seule réalité peut se manifester de plusieurs manières à la fois."
+   ]
+  },
+  {
+   "titre": "Dieu veut une relation avec toi",
+   "texte": [
+    "### Pas une religion, une relation",
+    "Le vrai Dieu n'est pas seulement à craindre de loin. Il veut être connu, aimé, prié comme un Père. Jésus nous apprend à prier : notre Père qui es aux cieux (Matthieu 6:9). Dans nos cultures, beaucoup s'approchent des puissances spirituelles par peur, pour obtenir quelque chose ou pour éviter un malheur. Dieu, lui, nous invite à venir à lui par amour.",
+    "### Il te cherche le premier",
+    "Depuis le jardin d'Éden, quand Adam et Ève se sont cachés après avoir péché, c'est Dieu qui est venu les chercher : où es-tu ? (Genèse 3:9). Toute la Bible raconte un Dieu qui cherche l'homme perdu. Jésus a dit : le Fils de l'homme est venu chercher et sauver ce qui était perdu (Luc 19:10).",
+    "### Qu'est-ce qui t'empêche de le connaître ?",
+    "Si Dieu est si bon, pourquoi tant de gens ne le connaissent-ils pas ? Pourquoi le monde est-il plein de mal ? Pourquoi l'homme se sent-il loin de Dieu ? C'est ce que nous verrons dans la prochaine leçon.",
+    "On raconte l'histoire d'un vieil homme d'un village qui avait servi toute sa vie les esprits de la forêt. Il avait peur d'eux, il leur offrait régulièrement des sacrifices, et pourtant il ne connaissait jamais la paix. Un jour, un jeune évangéliste lui lut le psaume 139. Quand il arriva aux mots « tu m'as tissé dans le sein de ma mère », le vieil homme l'arrêta et demanda : « Tu veux dire que le Dieu qui a fait le ciel me connaît moi, personnellement ? » Il resta longtemps silencieux, puis il dit : « Toute ma vie, j'ai servi des esprits qui me faisaient peur. Je veux connaître ce Dieu-là. »"
    ]
   }
  ],
- "versets": [
-  "Jn 4:24",
-  "1 Jn 1:5",
-  "Ex 34:6",
-  "Ml 3:6",
-  "Jn 3:16"
+ "conclusion": [
+  "Retiens ce que tu as appris : Dieu existe, et la création comme ta conscience le montrent. Il s'est fait connaître par la Bible et surtout par Jésus. Il est Esprit, éternel, créateur de tout, tout-puissant, il sait tout et il est partout. Il est saint et juste, et il est amour. Il est fidèle et ne change pas. Il est un seul Dieu en trois personnes, et il veut une relation avec toi.",
+  "Ne fais pas de ce parcours une simple lecture. Demande à Dieu, sincèrement, de se faire connaître à toi. Il a promis : invoque-moi, et je te répondrai ; je t'annoncerai de grandes choses, des choses cachées, que tu ne connais pas (Jérémie 33:3)."
  ],
- "question": "Quelle image avais-tu de Dieu jusqu'ici ? En quoi ces versets la changent-ils ?",
+ "retenir": [
+  "La création et la conscience montrent qu'il y a un Créateur (Romains 1:20).",
+  "Dieu s'est fait connaître par la Bible, et surtout par Jésus : celui qui a vu Jésus a vu le Père (Jean 14:9).",
+  "Dieu est saint et juste : il ne ferme pas les yeux sur le péché.",
+  "Dieu est amour : la preuve, c'est Jésus mort pour nous quand nous étions encore pécheurs (Romains 5:8).",
+  "Il y a un seul Dieu, Père, Fils et Saint-Esprit, et il veut une relation personnelle avec toi."
+ ],
+ "memoriser": "Jn 17:3",
+ "quiz": [
+  {
+   "question": "Qu'est-ce qui montre, selon Romains 1:20, que Dieu existe ?",
+   "choix": [
+    "Les rêves",
+    "La création, ses ouvrages",
+    "Les sacrifices"
+   ],
+   "reponse": 1,
+   "explication": "Ses perfections invisibles se voient dans la création.",
+   "section": "1"
+  },
+  {
+   "question": "Comment Dieu s'est-il fait connaître de la façon la plus complète ?",
+   "choix": [
+    "Par les esprits des ancêtres",
+    "Par son Fils Jésus-Christ",
+    "Par les devins"
+   ],
+   "reponse": 1,
+   "explication": "Hébreux 1:1-2 ; Jean 14:9.",
+   "section": "2"
+  },
+  {
+   "question": "Pourquoi ne faut-il pas représenter Dieu par une statue ou un objet ?",
+   "choix": [
+    "Parce que c'est trop cher",
+    "Parce que Dieu est Esprit et ne peut être enfermé dans un objet",
+    "Parce que personne ne sait sculpter"
+   ],
+   "reponse": 1,
+   "explication": "Jean 4:24 ; Exode 20:4.",
+   "section": "3"
+  },
+  {
+   "question": "Que crient les séraphins devant Dieu en Ésaïe 6 ?",
+   "choix": [
+    "Amour, amour, amour",
+    "Saint, saint, saint",
+    "Fort, fort, fort"
+   ],
+   "reponse": 1,
+   "explication": "La sainteté est au cœur de qui est Dieu.",
+   "section": "5"
+  },
+  {
+   "question": "Quelle est la plus grande preuve de l'amour de Dieu ?",
+   "choix": [
+    "La richesse",
+    "Christ est mort pour nous quand nous étions encore pécheurs",
+    "La santé"
+   ],
+   "reponse": 1,
+   "explication": "Romains 5:8 ; 1 Jean 4:9-10.",
+   "section": "7"
+  },
+  {
+   "question": "Que veut dire la Bible quand elle parle d'un seul Dieu en trois personnes ?",
+   "choix": [
+    "Qu'il y a trois dieux",
+    "Un seul Dieu qui est Père, Fils et Saint-Esprit",
+    "Que Jésus n'est qu'un prophète"
+   ],
+   "reponse": 1,
+   "explication": "Deutéronome 6:4 ; Matthieu 28:19.",
+   "section": "9"
+  }
+ ],
+ "pratique": "Cette semaine, lis chaque jour le psaume 139 (un ou deux paragraphes par jour). Chaque soir, note dans un cahier une chose que tu as découverte sur Dieu, puis remercie-le pour cela.",
+ "partage": "Raconte à un chrétien mûr ou à ton pasteur quelle image tu avais de Dieu avant cette leçon, et ce qui a changé. Demande-lui comment il a appris, lui, à connaître Dieu.",
+ "versets": [
+  "Ps 19:2",
+  "Jn 4:24",
+  "És 6:3",
+  "1 Jn 4:9-10",
+  "Ml 3:6",
+  "Jn 17:3"
+ ],
+ "question": "Quelle image avais-tu de Dieu jusqu'ici ? Laquelle de ces vérités sur Dieu te touche le plus aujourd'hui, et pourquoi ?",
  "sujets": [
   {
    "titre": "Se laisser connaître",
@@ -46,18 +249,6 @@
    "texte": "Demande-lui d'ouvrir ton cœur pour comprendre sa Parole pendant ce parcours. (Psaume 119:18)"
   }
  ],
- "priere": "Dieu, si tu existes et si tu m'aimes, fais-toi connaître à moi. Ouvre mes yeux pendant ce parcours. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
- "introduction": [
-  "Avant de parler de Jésus, il faut parler de Dieu. Beaucoup de gens disent qu'ils croient en Dieu, mais quand on leur demande qui il est, ils ne savent pas répondre. Pour certains, Dieu est un grand-père lointain qui ne s'occupe pas de nous. Pour d'autres, c'est un juge fâché qu'il faut calmer avec des sacrifices. Pour d'autres encore, c'est une force sans visage.",
-  "Dans cette première leçon, nous allons voir trois choses : Dieu existe et il se fait connaître ; Dieu est saint ; et Dieu est amour. Ces trois vérités sont la base de tout le reste du parcours."
- ],
- "conclusion": [
-  "Retiens ces trois vérités : Dieu existe et il parle ; Dieu est saint ; Dieu est amour. Sa sainteté nous montre notre besoin, et son amour nous montre son remède. Dans les prochaines leçons, nous verrons pourquoi l'homme est séparé de ce Dieu saint, et comment il a ouvert un chemin pour revenir à lui.",
-  "Ne fais pas de ce parcours une simple lecture. Demande à Dieu, sincèrement, de se faire connaître à toi. Il a promis : invoque-moi, et je te répondrai (Jérémie 33:3)."
- ]
+ "priere": "Dieu, Créateur du ciel et de la terre, tu es saint, juste et plein d'amour. Je veux te connaître tel que tu es vraiment, et non tel que je t'imaginais. Ouvre mes yeux pendant ce parcours, parle-moi par ta Parole, et fais-moi connaître Jésus. Amen.",
+ "relu": false
 }

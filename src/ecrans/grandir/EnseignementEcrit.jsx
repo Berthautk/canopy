@@ -99,7 +99,7 @@ export function EnseignementEcrit({ id, ecouter }) {
 }
 
 // Questions de compréhension à la fin de l'enseignement : on coche, on vérifie, on voit ce qu'il faut revoir.
-function Questions({ e }) {
+export function Questions({ e }) {
   const [rep, setRep] = useState({});
   const [verifie, setVerifie] = useState(false);
   const qs = e.questions, bonnes = qs.filter((q, i) => rep[i] === q.reponse).length;
