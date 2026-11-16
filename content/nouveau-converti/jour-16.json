@@ -1,14 +1,88 @@
 {
  "id": "nouveau-converti-jour-16",
  "jour": 16,
- "titre": "Vaincre la tentation",
  "image": "/assets/temoignage/victoire-bras-leves.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Vaincre la tentation",
+ "objectifs": [
+  "La différence entre tentation et péché",
+  "La promesse de 1 Corinthiens 10:13",
+  "Des moyens pratiques pour résister"
+ ],
+ "introduction": [
+  "Ces derniers jours, nous avons découvert nos trois ennemis. Aujourd'hui, nous allons voir comment ils nous attaquent concrètement : par la tentation. Et surtout, comment la vaincre."
+ ],
+ "sections": [
+  {
+   "titre": "Tenté n'est pas coupable",
+   "texte": [
+    "### Jésus aussi a été tenté",
+    "Beaucoup de nouveaux chrétiens se sentent coupables simplement parce qu'une mauvaise pensée leur traverse l'esprit. Mais être tenté n'est pas pécher. Jésus lui-même a été tenté comme nous en toutes choses, sans commettre de péché (Hébreux 4:15). La tentation, c'est l'offre ; le péché, c'est d'accepter l'offre.",
+    "### Comment la tentation devient péché",
+    "Jacques décrit le chemin : chacun est tenté quand il est attiré et amorcé par sa propre convoitise. Puis la convoitise, lorsqu'elle a conçu, enfante le péché (Jacques 1:14-15). Il y a d'abord une pensée, puis un regard qui s'attarde, puis un désir qu'on nourrit, puis une décision, puis l'acte. Plus tu interviens tôt dans ce chemin, plus c'est facile de résister. C'est comme une étincelle tombée sur un tapis : si tu l'écrases tout de suite, ce n'est rien ; si tu la laisses, toute la maison peut brûler."
+   ]
+  },
+  {
+   "titre": "Une promesse pour chaque tentation",
+   "texte": [
+    "### Pas au-delà de tes forces",
+    "Paul écrit : aucune tentation ne vous est survenue qui n'ait été humaine, et Dieu, qui est fidèle, ne permettra pas que vous soyez tentés au-delà de vos forces ; mais avec la tentation il préparera aussi le moyen d'en sortir, afin que vous puissiez la supporter (1 Corinthiens 10:13). Trois vérités à retenir. Ta tentation n'est pas unique : d'autres l'ont connue. Dieu met une limite. Et il y a toujours une sortie.",
+    "### Chercher la sortie",
+    "La sortie peut être une porte qu'on ferme, un téléphone qu'on éteint, un endroit qu'on quitte, un ami qu'on appelle, une prière qu'on fait immédiatement. Parfois, la sortie, c'est simplement de partir tout de suite, sans discuter."
+   ]
+  },
+  {
+   "titre": "Des armes pratiques",
+   "texte": [
+    "### La Parole cachée dans le cœur",
+    "Le psalmiste dit : je serre ta parole dans mon cœur, afin de ne pas pécher contre toi (Psaume 119:11). Jésus, tenté au désert, a répondu à chaque tentation par un verset : l'homme ne vivra pas de pain seulement, mais de toute parole qui sort de la bouche de Dieu (Matthieu 4:4). Apprends par cœur des versets qui répondent à tes tentations particulières : la colère, l'impureté, le mensonge, la peur.",
+    "### Connaître ses points faibles",
+    "Demande-toi : à quels moments suis-je le plus faible ? Fatigué, seul, la nuit, après une dispute, avec certaines personnes, sur certains sites ? Prévois à l'avance ce que tu feras dans ces moments. Une décision prise à l'avance, à froid, est beaucoup plus forte qu'une décision prise dans le feu de la tentation.",
+    "### Ne pas rester seul",
+    "Le combat est plus facile à deux. Choisis un frère ou une sœur du même sexe, mûr et discret, à qui tu peux dire : « Prie pour moi, j'ai du mal avec ceci. » Le simple fait de savoir qu'on te posera la question t'aidera à tenir.",
+    "On raconte l'histoire d'un caissier de station-service qui, chaque fin de mois, était tenté de prendre un peu dans la caisse pour payer son loyer. Il connaissait 1 Corinthiens 10:13 et demanda à Dieu : « Où est la sortie ? » L'idée lui vint de parler de sa situation à son pasteur. L'église l'aida à faire un petit budget et lui trouva un logement moins cher. Il dit : « La sortie n'était pas un miracle spectaculaire, c'était une conversation que j'avais honte d'avoir. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "Être tenté n'est pas pécher : Jésus aussi a été tenté, sans pécher (Hébreux 4:15).",
+  "Dieu ne permet pas de tentation au-delà de tes forces, et il prépare toujours une sortie (1 Corinthiens 10:13).",
+  "Cache la Parole dans ton cœur, connais tes points faibles, décide à l'avance et ne reste pas seul."
+ ],
+ "memoriser": "1 Co 10:13",
+ "quiz": [
+  {
+   "question": "Une mauvaise pensée qui traverse l'esprit est-elle déjà un péché ?",
+   "choix": [
+    "Oui, toujours",
+    "Non, la tentation n'est pas le péché ; c'est l'accepter qui l'est",
+    "Seulement le dimanche"
+   ],
+   "reponse": 1,
+   "explication": "Hébreux 4:15 ; Jacques 1:14-15.",
+   "section": "1"
+  },
+  {
+   "question": "Que promet 1 Corinthiens 10:13 ?",
+   "choix": [
+    "Qu'on ne sera jamais tenté",
+    "Que Dieu met une limite et prépare une sortie",
+    "Qu'on tombera forcément"
+   ],
+   "reponse": 1,
+   "explication": "Dieu est fidèle.",
+   "section": "2"
+  }
+ ],
+ "pratique": "Note tes deux tentations les plus fréquentes. Pour chacune, trouve un verset à apprendre et une « sortie » concrète que tu utiliseras la prochaine fois.",
  "versets": [
   "1 Co 10:13",
   "Mt 4:4",
   "Ps 119:11"
  ],
- "texte": "Être tenté n'est pas un péché : Jésus lui-même a été tenté. Quand il l'a été, il a répondu par la Parole : il est écrit. Garde la Parole dans ton cœur, fuis les occasions de chute, et souviens-toi que Dieu prépare toujours un moyen d'en sortir.",
  "question": "Quel verset vas-tu apprendre par cœur pour résister à ta tentation principale ?",
  "sujets": [
   {
@@ -21,9 +95,5 @@
   }
  ],
  "priere": "Seigneur, quand la tentation vient, rappelle-moi ta Parole et montre-moi la sortie. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

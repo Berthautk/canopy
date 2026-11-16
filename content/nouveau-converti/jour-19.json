@@ -1,13 +1,87 @@
 {
  "id": "nouveau-converti-jour-19",
  "jour": 19,
- "titre": "Le jeûne",
  "image": "/assets/priere/mains-levees.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Le jeûne",
+ "objectifs": [
+  "Ce qu'est le jeûne biblique",
+  "Pourquoi jeûner",
+  "Comment commencer avec sagesse"
+ ],
+ "introduction": [
+  "Dans beaucoup d'églises africaines, on parle souvent de jeûne : jeûne de trois jours, de quarante jours, jeûne sec, jeûne de début d'année. Mais qu'est-ce que la Bible enseigne vraiment sur le jeûne ? Aujourd'hui, nous allons poser des bases simples."
+ ],
+ "sections": [
+  {
+   "titre": "Qu'est-ce que le jeûne ?",
+   "texte": [
+    "### Se priver pour chercher Dieu",
+    "Jeûner, c'est se priver volontairement de nourriture, ou d'une partie de la nourriture, pendant un temps, pour chercher Dieu avec plus d'intensité. Ce n'est pas un régime pour maigrir, ni une grève de la faim pour obliger Dieu à céder. C'est une manière de dire à Dieu : « Tu es plus important pour moi que mon pain. »",
+    "### Jésus suppose que nous jeûnerons",
+    "Jésus a dit : lorsque vous jeûnez, ne prenez pas un air triste, comme les hypocrites (Matthieu 6:16). Il ne dit pas « si vous jeûnez », mais « lorsque vous jeûnez ». Il suppose que ses disciples jeûneront. Mais il ajoute : quand tu jeûnes, parfume ta tête et lave ton visage, afin de ne pas montrer aux hommes que tu jeûnes, mais à ton Père qui est là dans le lieu secret (Matthieu 6:17-18)."
+   ]
+  },
+  {
+   "titre": "Pourquoi jeûner ?",
+   "texte": [
+    "### Dans la Bible",
+    "Dans la Bible, on jeûne pour plusieurs raisons : pour se repentir, comme les habitants de Ninive ; pour chercher la direction de Dieu, comme l'église d'Antioche avant d'envoyer Paul et Barnabas ; dans le danger, comme Esther et le peuple juif ; dans le deuil ; et pour se préparer à un ministère, comme Jésus au désert.",
+    "### Le jeûne qui plaît à Dieu",
+    "Le prophète Ésaïe rapporte un reproche de Dieu à son peuple qui jeûnait tout en opprimant les autres. Dieu dit : voici le jeûne auquel je prends plaisir : détache les chaînes de la méchanceté, dénoue les liens de la servitude, renvoie libres les opprimés, et que l'on rompe toute espèce de joug (Ésaïe 58:6). Un jeûne sans changement de vie ne sert à rien. Le vrai jeûne s'accompagne de repentance, de justice et de générosité, par exemple en donnant aux pauvres ce que l'on n'a pas mangé."
+   ]
+  },
+  {
+   "titre": "Commencer avec sagesse",
+   "texte": [
+    "### Progressivement",
+    "Si tu n'as jamais jeûné, commence doucement : saute un repas, par exemple celui de midi, et consacre ce temps à la prière et à la lecture. Puis essaie un jour entier en buvant de l'eau. Les longs jeûnes doivent être faits avec sagesse et accompagnement.",
+    "### Attention à la santé",
+    "Si tu es malade, diabétique, enceinte, si tu prends des médicaments, ou si tu es mineur, parle à un médecin et à un responsable avant de jeûner. Le jeûne sec, sans boire, est dangereux s'il dure. Dieu ne veut pas que tu détruises ton corps, qui est son temple. Tu peux aussi jeûner autre chose que la nourriture : le téléphone, la télévision, les réseaux sociaux.",
+    "### Le cœur avant tout",
+    "Le jeûne ne rend pas plus saint automatiquement, et il ne t'achète pas une réponse de Dieu. C'est un moyen de t'humilier, de te rendre plus sensible à sa voix et de montrer le sérieux de ta recherche. Il y a dans Grandir une série complète sur le jeûne pour aller plus loin.",
+    "On raconte l'histoire d'un jeune commerçant qui avait entendu qu'un jeûne de quarante jours garantissait la richesse. Il commença sans boire ni manger, et fut hospitalisé au bout de quatre jours. Son pasteur vint le voir et lui lut Ésaïe 58. « Le jeûne n'est pas un investissement, lui dit-il, c'est une rencontre. » Quelques mois plus tard, le jeune homme fit un jeûne d'un jour par semaine, en donnant son repas à un voisin pauvre. Il dit : « C'est là que j'ai commencé à entendre Dieu. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "Jeûner, c'est se priver volontairement de nourriture pour chercher Dieu, dans le secret (Matthieu 6:16-18).",
+  "Le jeûne qui plaît à Dieu s'accompagne de repentance, de justice et de générosité (Ésaïe 58:6).",
+  "Commence progressivement, prends soin de ta santé, et souviens-toi que le jeûne n'achète rien."
+ ],
+ "memoriser": "Mt 6:17-18",
+ "quiz": [
+  {
+   "question": "Jésus dit-il « si vous jeûnez » ou « lorsque vous jeûnez » ?",
+   "choix": [
+    "« Si vous jeûnez »",
+    "« Lorsque vous jeûnez »",
+    "Il n'en parle pas"
+   ],
+   "reponse": 1,
+   "explication": "Matthieu 6:16.",
+   "section": "1"
+  },
+  {
+   "question": "Quel jeûne plaît à Dieu selon Ésaïe 58 ?",
+   "choix": [
+    "Un jeûne très long",
+    "Un jeûne accompagné de justice et de bonté envers les opprimés",
+    "Un jeûne public"
+   ],
+   "reponse": 1,
+   "explication": "Ésaïe 58:6.",
+   "section": "2"
+  }
+ ],
+ "pratique": "Choisis un repas cette semaine à remplacer par un temps de prière et de lecture. Si tu le peux, donne ce repas ou son prix à quelqu'un dans le besoin.",
  "versets": [
   "Mt 6:16-18",
   "És 58:6"
  ],
- "texte": "Jésus a parlé du jeûne comme d'une pratique normale de ses disciples : « quand tu jeûnes ». Jeûner, c'est se priver de nourriture pour un temps afin de chercher Dieu avec plus d'intensité. Commence simplement, par exemple un repas, en consacrant ce temps à la prière. Si tu es malade, demande conseil.",
  "question": "Pour quel sujet pourrais-tu consacrer un temps de jeûne et de prière ?",
  "sujets": [
   {
@@ -20,9 +94,5 @@
   }
  ],
  "priere": "Seigneur, je veux te chercher de tout mon cœur. Enseigne-moi à jeûner selon ta volonté. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

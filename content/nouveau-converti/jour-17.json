@@ -1,13 +1,93 @@
 {
  "id": "nouveau-converti-jour-17",
  "jour": 17,
- "titre": "L'armure de Dieu",
  "image": "/assets/symboles/bible-dans-la-lumiere.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "L'armure de Dieu",
+ "objectifs": [
+  "Pourquoi Dieu nous donne une armure",
+  "Les six pièces de l'armure",
+  "Comment la revêtir chaque jour"
+ ],
+ "introduction": [
+  "Hier, nous avons vu comment résister à la tentation. Aujourd'hui, Paul nous donne une image très parlante pour comprendre le combat spirituel : celle d'un soldat romain équipé de son armure."
+ ],
+ "sections": [
+  {
+   "titre": "Fortifiés dans le Seigneur",
+   "texte": [
+    "### La force vient de lui",
+    "Paul commence ainsi : fortifiez-vous dans le Seigneur, et par sa force toute-puissante. Revêtez-vous de toutes les armes de Dieu, afin de pouvoir tenir ferme contre les ruses du diable (Éphésiens 6:10-11). Remarque d'abord que la force n'est pas la nôtre : c'est celle du Seigneur. Et l'armure n'est pas fabriquée par nous : c'est l'armure de Dieu.",
+    "### Tenir ferme",
+    "Le verbe qui revient dans ce passage est « tenir ferme ». Le soldat chrétien n'a pas à conquérir une victoire que Jésus a déjà remportée. Il doit tenir sa position, ne pas reculer, ne pas céder le terrain que Christ lui a donné."
+   ]
+  },
+  {
+   "titre": "Les six pièces",
+   "texte": [
+    "### La ceinture de la vérité",
+    "Le soldat romain attachait d'abord sa ceinture, qui tenait tout le reste. La vérité, c'est la vérité de Dieu révélée dans sa Parole, et aussi une vie honnête, sans mensonge. Le mensonge desserre toute l'armure.",
+    "### La cuirasse de la justice",
+    "La cuirasse protégeait le cœur. C'est la justice que Christ nous donne, qui nous protège des accusations, et une vie droite qui ferme les portes à l'ennemi.",
+    "### Les chaussures du zèle pour l'Évangile",
+    "Le soldat avait des sandales cloutées pour ne pas glisser. Être prêt à annoncer l'Évangile de paix nous rend stables et nous met en mouvement.",
+    "### Le bouclier de la foi",
+    "Le grand bouclier romain protégeait tout le corps contre les flèches enflammées. La foi, c'est faire confiance à ce que Dieu a dit, et elle éteint les flèches du doute, de la peur et de l'accusation.",
+    "### Le casque du salut",
+    "Le casque protégeait la tête. L'assurance du salut garde nos pensées. Celui qui sait qu'il est sauvé ne se laisse pas troubler par les menaces de l'ennemi.",
+    "### L'épée de l'Esprit",
+    "La seule arme d'attaque est l'épée de l'Esprit, qui est la parole de Dieu (Éphésiens 6:17). C'est la parole précise, citée au bon moment, comme Jésus au désert. Une épée qui reste dans son fourreau ne sert à rien : il faut connaître la Parole pour l'utiliser."
+   ]
+  },
+  {
+   "titre": "Revêtir l'armure chaque jour",
+   "texte": [
+    "### Et la prière",
+    "Paul termine en disant : faites en tout temps par l'Esprit toutes sortes de prières et de supplications (Éphésiens 6:18). La prière est comme la communication radio du soldat avec son chef. Elle relie toutes les pièces.",
+    "### Une prière du matin",
+    "Chaque matin, tu peux prier en reprenant les pièces : « Seigneur, je mets aujourd'hui la ceinture de ta vérité, je refuse le mensonge. Je mets la cuirasse de ta justice. Je suis prêt à parler de toi. Je lève le bouclier de la foi. Je mets le casque du salut : je t'appartiens. Je prends ton épée, ta Parole. » Ce n'est pas une formule magique, mais une manière de te rappeler qui tu es en Christ et de choisir de vivre selon sa vérité.",
+    "On raconte l'histoire d'un jeune vigile de nuit, qui gardait un entrepôt. Il voyait chaque soir ses collègues mettre leur uniforme, leur ceinture, leur lampe, leur sifflet, avant de prendre leur poste. Un soir, il se dit : « Je ne sortirais jamais sans mon équipement pour garder des marchandises. Pourquoi est-ce que je commence ma journée de chrétien sans mon armure ? » Depuis ce jour, avant de dormir après sa garde, il prie Éphésiens 6. Il dit : « Je garde l'entrepôt la nuit, Dieu me garde le jour. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "La force et l'armure viennent de Dieu : le chrétien doit tenir ferme (Éphésiens 6:10-11).",
+  "Six pièces : ceinture de la vérité, cuirasse de la justice, chaussures de l'Évangile, bouclier de la foi, casque du salut, épée de l'Esprit.",
+  "La prière relie toute l'armure ; revêts-la chaque matin par la foi."
+ ],
+ "memoriser": "Ép 6:10-11",
+ "quiz": [
+  {
+   "question": "Quelle est la seule arme d'attaque de l'armure ?",
+   "choix": [
+    "Le bouclier",
+    "L'épée de l'Esprit, la Parole de Dieu",
+    "La ceinture"
+   ],
+   "reponse": 1,
+   "explication": "Éphésiens 6:17.",
+   "section": "2"
+  },
+  {
+   "question": "Que fait le bouclier de la foi ?",
+   "choix": [
+    "Il permet de voler",
+    "Il éteint les flèches enflammées du malin",
+    "Il rend invisible"
+   ],
+   "reponse": 1,
+   "explication": "Éphésiens 6:16.",
+   "section": "2"
+  }
+ ],
+ "pratique": "Lis Éphésiens 6:10-18 ce matin et ce soir. Écris la prière de l'armure avec tes propres mots et dis-la chaque matin cette semaine.",
  "versets": [
   "Ép 6:10-11",
   "Ép 6:13-17"
  ],
- "texte": "Dieu ne t'envoie pas au combat sans protection. Paul décrit une armure : la ceinture de la vérité, la cuirasse de la justice, les chaussures du zèle pour l'Évangile, le bouclier de la foi, le casque du salut et l'épée de l'Esprit, qui est la Parole de Dieu. Revêts-la chaque matin par la prière.",
  "question": "Quelle pièce de l'armure te manque le plus en ce moment ?",
  "sujets": [
   {
@@ -20,9 +100,5 @@
   }
  ],
  "priere": "Père, je revêts ton armure. Fortifie-moi dans ta puissance. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

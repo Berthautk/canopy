@@ -1,14 +1,88 @@
 {
  "id": "nouveau-converti-jour-18",
  "jour": 18,
- "titre": "La prière persévérante",
  "image": "/assets/priere/priere-avec-larmes.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "La prière persévérante",
+ "objectifs": [
+  "Pourquoi Jésus nous demande de persévérer",
+  "Ce que veulent dire demander, chercher, frapper",
+  "Que faire quand la réponse tarde"
+ ],
+ "introduction": [
+  "Au jour 3, nous avons appris à prier simplement. Aujourd'hui, nous allons voir une autre leçon de Jésus : la persévérance. Beaucoup de chrétiens prient une ou deux fois pour un sujet, puis abandonnent. Jésus nous apprend à ne pas nous décourager."
+ ],
+ "sections": [
+  {
+   "titre": "Prier toujours, sans se lasser",
+   "texte": [
+    "### Ne pas se relâcher",
+    "Luc écrit : Jésus leur adressa une parabole, pour montrer qu'il faut toujours prier, et ne point se relâcher (Luc 18:1). Dans cette parabole, que tu peux lire en Luc 18:1-8, une veuve obtient justice d'un juge simplement parce qu'elle revient sans cesse.",
+    "### Combien plus notre Père",
+    "Attention : Jésus ne dit pas que Dieu ressemble à ce juge. Il dit : si même un homme dur finit par répondre, combien plus votre Père, qui vous aime ! La persévérance ne sert pas à forcer un Dieu réticent ; elle exprime notre confiance et notre dépendance, et elle nous transforme pendant que nous attendons."
+   ]
+  },
+  {
+   "titre": "Demander, chercher, frapper",
+   "texte": [
+    "### Trois verbes qui montent",
+    "Jésus a dit : demandez, et l'on vous donnera ; cherchez, et vous trouverez ; frappez, et l'on vous ouvrira (Matthieu 7:7). Demander, c'est présenter son besoin. Chercher, c'est s'engager, chercher la volonté de Dieu dans sa Parole. Frapper, c'est insister devant une porte fermée. En grec, ces verbes ont un sens continu : continuez à demander, continuez à chercher, continuez à frapper.",
+    "### Un Père qui donne de bonnes choses",
+    "Jésus ajoute : si vous, qui êtes mauvais, savez donner de bonnes choses à vos enfants, à combien plus forte raison votre Père qui est dans les cieux donnera-t-il de bonnes choses à ceux qui les lui demandent. Dieu ne donne pas toujours exactement ce que nous demandons, mais il donne toujours ce qui est bon."
+   ]
+  },
+  {
+   "titre": "Quand la réponse tarde",
+   "texte": [
+    "### Oui, non, attends",
+    "Dieu répond à toutes les prières de ses enfants, mais pas toujours par « oui ». Parfois il dit « non », parce que ce que nous demandons nous ferait du mal. Parfois il dit « attends », parce que le moment n'est pas encore venu ou qu'il prépare quelque chose de meilleur. Parfois, le « non » de Dieu est la meilleure réponse de notre vie.",
+    "### Prier sans cesse",
+    "Paul dit : priez sans cesse (1 Thessaloniciens 5:17). Cela ne veut pas dire rester à genoux toute la journée, mais vivre dans une conversation continue avec Dieu, en revenant à lui à tout moment. Tiens un carnet de prière : note tes sujets, la date, et plus tard la réponse. Tu seras étonné de voir combien Dieu a répondu.",
+    "### Vérifier son cœur",
+    "Si une prière reste longtemps sans réponse, il est bon de se demander humblement : est-ce que je demande quelque chose qui est selon la volonté de Dieu ? Est-ce que je garde un péché ou une rancune ? Jacques dit : vous demandez, et vous ne recevez pas, parce que vous demandez mal, dans le but de satisfaire vos passions.",
+    "On raconte l'histoire d'une grand-mère de Bafoussam qui pria pendant vingt-trois ans pour son fils, devenu alcoolique et violent. Chaque matin, à cinq heures, elle disait son nom devant Dieu. Ses amies lui disaient : « Laisse, il est perdu. » Elle répondait : « Il n'est pas perdu tant que je prie. » À cinquante ans, ce fils entra dans une église où l'on prêchait sur le fils prodigue, et il donna sa vie à Jésus. Sa mère était encore vivante pour le voir baptisé."
+   ]
+  }
+ ],
+ "retenir": [
+  "Jésus nous enseigne à toujours prier et à ne pas nous relâcher (Luc 18:1).",
+  "Demander, chercher, frapper : continuer avec confiance auprès d'un Père qui donne de bonnes choses (Matthieu 7:7-11).",
+  "Dieu répond oui, non ou attends ; tiens un carnet de prière et vérifie ton cœur."
+ ],
+ "memoriser": "Mt 7:7",
+ "quiz": [
+  {
+   "question": "Que montre la parabole de la veuve et du juge ?",
+   "choix": [
+    "Que Dieu est injuste",
+    "Qu'il faut toujours prier sans se relâcher",
+    "Qu'il faut aller au tribunal"
+   ],
+   "reponse": 1,
+   "explication": "Luc 18:1.",
+   "section": "1"
+  },
+  {
+   "question": "Quelles sont les trois réponses possibles de Dieu ?",
+   "choix": [
+    "Oui seulement",
+    "Oui, non, attends",
+    "Il ne répond jamais"
+   ],
+   "reponse": 1,
+   "explication": "Son « non » peut être une grâce.",
+   "section": "3"
+  }
+ ],
+ "pratique": "Commence un carnet de prière : écris trois sujets avec la date d'aujourd'hui. Choisis une personne pour qui tu vas prier chaque jour pendant le reste du parcours.",
  "versets": [
   "Lc 18:1",
   "Mt 7:7-8",
   "1 Th 5:17"
  ],
- "texte": "Jésus a enseigné qu'il faut toujours prier et ne point se relâcher. Demander, chercher, frapper : la prière est un combat de la foi. Dieu répond, parfois tout de suite, parfois plus tard, parfois autrement que prévu, mais toujours pour ton bien. Note tes requêtes dans ton journal de prière.",
  "question": "Pour quelle situation vas-tu persévérer dans la prière ?",
  "sujets": [
   {
@@ -21,9 +95,5 @@
   }
  ],
  "priere": "Père, je ne veux pas me relâcher. Je continue de frapper à ta porte avec confiance. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

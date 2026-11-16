@@ -1,14 +1,86 @@
 {
  "id": "nouveau-converti-jour-20",
  "jour": 20,
- "titre": "La louange et la reconnaissance",
  "image": "/assets/eglise/louange-assemblee.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "La louange et la reconnaissance",
+ "objectifs": [
+  "La différence entre louange et reconnaissance",
+  "Pourquoi rendre grâces en toutes choses",
+  "Comment faire de la louange un style de vie"
+ ],
+ "introduction": [
+  "Dans beaucoup d'églises africaines, la louange est un moment fort : chants, danses, tambours, applaudissements. C'est une richesse. Mais la louange, selon la Bible, ne se limite pas au moment du culte. Aujourd'hui, nous allons voir comment elle peut remplir toute notre vie."
+ ],
+ "sections": [
+  {
+   "titre": "Louange et reconnaissance",
+   "texte": [
+    "### Ce qu'il est, ce qu'il fait",
+    "On peut distinguer deux choses. La reconnaissance, c'est remercier Dieu pour ce qu'il a fait : la santé, le pain, le salut, une prière exaucée. La louange, c'est l'honorer pour ce qu'il est : saint, fidèle, bon, tout-puissant, même quand nous ne voyons pas encore sa réponse. Les deux vont ensemble.",
+    "### Entrer dans ses portes",
+    "Le psalmiste dit : entrez dans ses portes avec des louanges, dans ses parvis avec des cantiques ! Célébrez-le, bénissez son nom (Psaume 100:4). La louange est comme la porte d'entrée de la présence de Dieu. Quand tu commences ta prière en louant Dieu, tes soucis reprennent leur juste taille."
+   ]
+  },
+  {
+   "titre": "En toutes choses",
+   "texte": [
+    "### Même dans l'épreuve",
+    "Paul écrit : rendez grâces en toutes choses, car c'est à votre égard la volonté de Dieu en Jésus-Christ (1 Thessaloniciens 5:18). Remarque : « en toutes choses », pas « pour toutes choses ». On ne remercie pas Dieu pour la maladie ou le deuil, mais on peut le remercier au milieu de ces épreuves, parce qu'il est présent, parce qu'il est bon, parce qu'il a promis de faire concourir toutes choses à notre bien.",
+    "### Un sacrifice de louange",
+    "L'épître aux Hébreux parle d'offrir sans cesse à Dieu un sacrifice de louange, c'est-à-dire le fruit de lèvres qui confessent son nom (Hébreux 13:15). Pourquoi un sacrifice ? Parce que parfois, louer coûte. Quand on a mal, quand on est triste, quand on attend encore, la louange devient une offrande précieuse."
+   ]
+  },
+  {
+   "titre": "Un style de vie",
+   "texte": [
+    "### Contre le murmure",
+    "Le peuple d'Israël dans le désert murmurait sans cesse : contre la nourriture, contre l'eau, contre Moïse. Le murmure est l'inverse de la reconnaissance. Il voit ce qui manque au lieu de voir ce que Dieu donne. Un cœur reconnaissant est un cœur joyeux et un témoignage puissant autour de lui.",
+    "### Des habitudes simples",
+    "Tu peux prendre l'habitude de remercier Dieu avant chaque repas, sincèrement et pas machinalement. Chaque soir, note trois choses pour lesquelles tu es reconnaissant. Écoute et chante des chants qui proclament la grandeur de Dieu, même chez toi, même en marchant. Quand un souci t'envahit, commence par dire à Dieu une chose que tu sais vraie sur lui.",
+    "On raconte l'histoire d'un couple qui avait perdu sa petite boutique dans un incendie. Le soir même, assis devant les cendres, le mari dit à sa femme : « Nous avons perdu la boutique, mais pas nos enfants, pas notre foi, pas notre Dieu. » Ils se mirent à chanter un cantique, doucement. Des voisins, attirés, s'arrêtèrent, étonnés. L'un d'eux dit plus tard : « Je n'avais jamais vu des gens chanter devant leurs cendres. C'est ce soir-là que j'ai voulu connaître leur Dieu. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "La reconnaissance remercie Dieu pour ce qu'il fait ; la louange l'honore pour ce qu'il est.",
+  "Rends grâces en toutes choses : c'est la volonté de Dieu (1 Thessaloniciens 5:18).",
+  "La louange est un style de vie qui remplace le murmure et devient un témoignage."
+ ],
+ "memoriser": "1 Th 5:18",
+ "quiz": [
+  {
+   "question": "Quelle est la différence entre louange et reconnaissance ?",
+   "choix": [
+    "Il n'y en a pas",
+    "La reconnaissance remercie pour ce que Dieu fait, la louange l'honore pour ce qu'il est",
+    "La louange se fait seulement avec des tambours"
+   ],
+   "reponse": 1,
+   "explication": "Les deux vont ensemble.",
+   "section": "1"
+  },
+  {
+   "question": "Que veut dire rendre grâces « en toutes choses » ?",
+   "choix": [
+    "Remercier pour le malheur",
+    "Remercier Dieu au milieu de toutes les situations, car il est présent et bon",
+    "Remercier seulement quand tout va bien"
+   ],
+   "reponse": 1,
+   "explication": "1 Thessaloniciens 5:18.",
+   "section": "2"
+  }
+ ],
+ "pratique": "Ce soir, écris dans ton cahier trois choses pour lesquelles tu remercies Dieu. Fais-le chaque soir jusqu'à la fin du parcours.",
  "versets": [
   "1 Th 5:18",
   "Ps 100:4",
   "Hé 13:15"
  ],
- "texte": "Rendre grâce en toutes choses, ce n'est pas dire merci pour le mal, mais remercier Dieu au milieu de tout, parce qu'il reste bon et présent. La louange élève notre regard vers lui, chasse le découragement et ouvre la porte de sa présence.",
  "question": "Cite cinq choses pour lesquelles tu peux remercier Dieu aujourd'hui.",
  "sujets": [
   {
@@ -21,9 +93,5 @@
   }
  ],
  "priere": "Père, je te loue parce que tu es bon. Merci pour tout ce que tu fais pour moi. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }
