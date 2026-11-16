@@ -1,3 +1,4 @@
+import { useMessageEchecs } from '../../composants/MessageEchecs.jsx';
 import { useEffect, useMemo, useState } from 'preact/hooks';
 import { lireAVoixHaute, arreterVoix } from '../../audio/voix.js';
 import { melanger } from '../../jeux/hasard.js';
@@ -55,16 +56,17 @@ function nouvelleManche(max) { const n = 1 + Math.floor(Math.random() * max), c 
   const autres = melanger([...Array(max).keys()].map((x) => x + 1).filter((x) => x !== n)).slice(0, 2); return { n, c, choix: melanger([n, ...autres]) }; }
 
 export function Compter() {
+  const [echecMsg, voileMsg] = useMessageEchecs(4);
   const [max, setMax] = useState(5), [m, setM] = useState(() => nouvelleManche(5)), [bon, setBon] = useState(null), [etoiles, setEtoiles] = useState(0);
   useEffect(() => { setBon(null); dire(`Combien de ${m.c[2]} vois-tu ?`); }, [m]);
   useEffect(() => () => arreterVoix(), []);
   const repondre = (x) => {
     if (x === m.n) { setBon(x); const e = etoiles + 1; setEtoiles(e); dire(`Bravo ! ${NOMBRES[m.n]} ${m.n > 1 ? m.c[2] : m.c[1]}.`);
       setTimeout(() => { const mx = e >= 5 ? 10 : 5; setMax(mx); setM(nouvelleManche(mx)); }, 2200); }
-    else dire(`Non, ce n'est pas ${NOMBRES[x]}. Compte avec ton doigt.`);
+    else { dire(`Non, ce n'est pas ${NOMBRES[x]}. Compte avec ton doigt.`); echecMsg(); }
   };
   return (
-    <div class="page petits">
+    <div class="page petits">{voileMsg}
       <p class="petit-score" aria-label={`${etoiles} étoiles`}>{'⭐'.repeat(Math.min(etoiles, 10)) || '☆'}</p>
       <button class="petit-scene" onClick={() => dire(`Combien de ${m.c[2]} vois-tu ?`)} aria-label="Réécouter">
         {[...Array(m.n)].map((_, k) => <span class="petit-objet" style={{ animationDelay: k * 0.12 + 's' }}>{m.c[0]}</span>)}
@@ -79,13 +81,14 @@ export function Compter() {
 
 const TROUVER = [...ALPHABET.filter((a) => a[2].startsWith('/')).map((a) => [a[1].split(',')[0], a[2]]), ['La croix', O + 'croix-sur-colline.webp'], ['Les pains et les poissons', O + 'pains-et-poissons.webp'], ['La barque', O + 'barque-et-filets.webp'], ['La couronne', O + 'couronne-or.webp'], ['Le tombeau vide', O + 'tombeau-vide.webp'], ['La crèche', O + 'creche.webp']];
 export function Trouver() {
+  const [echecMsg, voileMsg] = useMessageEchecs(4);
   const [tour, setTour] = useState(0), [rate, setRate] = useState(null), [ok, setOk] = useState(false);
   const m = useMemo(() => { const c = melanger(TROUVER).slice(0, 4); return { c, cible: c[Math.floor(Math.random() * 4)] }; }, [tour]);
   useEffect(() => { setRate(null); setOk(false); dire(`Touche : ${m.cible[0]}.`); }, [tour]);
   useEffect(() => () => arreterVoix(), []);
-  const toucher = (x) => { if (x === m.cible) { setOk(true); dire(`Oui ! C'est ${m.cible[0]}. Bravo !`); setTimeout(() => setTour((t) => t + 1), 2000); } else { setRate(x); dire(`Ça, c'est ${x[0]}. Cherche encore : ${m.cible[0]}.`); } };
+  const toucher = (x) => { if (x === m.cible) { setOk(true); dire(`Oui ! C'est ${m.cible[0]}. Bravo !`); setTimeout(() => setTour((t) => t + 1), 2000); } else { setRate(x); dire(`Ça, c'est ${x[0]}. Cherche encore : ${m.cible[0]}.`); echecMsg(); } };
   return (
-    <div class="page petits">
+    <div class="page petits">{voileMsg}
       <button class="petit-consigne" onClick={() => dire(`Touche : ${m.cible[0]}.`)}>🔊 Réécouter</button>
       <div class="petits-images">
         {m.c.map((x) => <button class={'petit-choix' + (ok && x === m.cible ? ' petit-choix--bon' : '') + (rate === x ? ' petit-choix--non' : '')} onClick={() => toucher(x)} aria-label={x[0]}>
@@ -109,6 +112,7 @@ function mancheMot(niveau) {
   return { mot, M, img, i, bonne, choix: melanger([bonne, ...autres]) };
 }
 export function CompleteMot() {
+  const [echecMsg, voileMsg] = useMessageEchecs(4);
   const [n, setN] = useState(0), [m, setM] = useState(() => mancheMot(0)), [faux, setFaux] = useState([]), [ok, setOk] = useState(false);
   const consigne = (x = m) => dire(`${x.mot}. Quelle lettre manque${x.i === 0 ? ' au début du mot' : ''} ?`);
   useEffect(() => { setFaux([]); setOk(false); consigne(m); }, [m]);
@@ -116,10 +120,10 @@ export function CompleteMot() {
   const toucher = (l) => {
     if (ok) return;
     if (l === m.bonne) { setOk(true); dire(`${nomLettre(l)} ! Oui, bravo ! ${m.mot}.`); setTimeout(() => { setN(n + 1); setM(mancheMot(n + 1)); }, 2600); }
-    else { setFaux([...faux, l]); dire(`${nomLettre(l)}. Non, ce n'est pas la bonne lettre. Choisis une autre lettre.`); }
+    else { setFaux([...faux, l]); dire(`${nomLettre(l)}. Non, ce n'est pas la bonne lettre. Choisis une autre lettre.`); echecMsg(); }
   };
   return (
-    <div class="page petits">
+    <div class="page petits">{voileMsg}
       <p class="petit-score">{'⭐'.repeat(Math.min(n, 10)) || '☆'}</p>
       <button class="petit-carte" onClick={() => consigne()} aria-label={'Réécouter : ' + m.mot}>
         <Image src={m.img} alt={m.mot} grand />

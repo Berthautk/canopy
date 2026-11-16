@@ -1,3 +1,4 @@
+import { useMessageEchecs } from '../../composants/MessageEchecs.jsx';
 import { VoixJeu } from '../../composants/VoixJeu.jsx';
 import { useState } from 'preact/hooks';
 import { Icone } from '../../composants/Icone.jsx';
@@ -9,6 +10,7 @@ import { melanger } from '../../jeux/hasard.js';
 
 // Écran 31 : « Qui suis-je ? ». Moins d'indices utilisés = plus de points (3, 2 ou 1).
 export function QuiSuisJe() {
+  const [echecMsg, voileMsg] = useMessageEchecs(3);
   const [liste, setListe] = useState(() => melanger(QUI_SUIS_JE).slice(0, 5));
   const [n, setN] = useState(0), [vus, setVus] = useState(1), [choix, setChoix] = useState(null), [points, setPoints] = useState(0);
   if (n >= liste.length) return (
@@ -18,7 +20,7 @@ export function QuiSuisJe() {
       <button class="bouton bouton--plein" onClick={() => { setListe(melanger(QUI_SUIS_JE).slice(0, 5)); setN(0); setVus(1); setChoix(null); setPoints(0); }}>Rejouer</button></div>);
   const p = liste[n], repondu = choix !== null, juste = choix === p.reponse;
   return (
-    <div class="page">
+    <div class="page">{voileMsg}
       <div class="qsj-hero"><img src={repondu ? p.image : '/assets/paysages/coucher-soleil-montagnes.webp'} alt={repondu ? p.nom : ''} />
         {!repondu && <span class="qsj-hero__question">?</span>}</div>
       <VoixJeu cle={`${p.nom}:${vus}:${repondu ? 'r' : ''}`} blocs={repondu
@@ -37,7 +39,7 @@ export function QuiSuisJe() {
       <div class="qsj-choix">
         {p.choix.map((c, i) => (
           <button class={'carte choix choix--centre' + (repondu && i === p.reponse ? ' choix--juste' : '') + (repondu && i === choix && !juste ? ' choix--faux' : '')} disabled={repondu}
-            onClick={async () => { setChoix(i); if (i === p.reponse) { setPoints(points + (4 - vus)); const b = await ajouter('quiSuisJe'); b.forEach((id) => notifier('Badge obtenu : ' + badge(id)[1])); } }}>{c}</button>
+            onClick={async () => { setChoix(i); if (i !== p.reponse) echecMsg(); if (i === p.reponse) { setPoints(points + (4 - vus)); const b = await ajouter('quiSuisJe'); b.forEach((id) => notifier('Badge obtenu : ' + badge(id)[1])); } }}>{c}</button>
         ))}
       </div>
       {repondu && <>

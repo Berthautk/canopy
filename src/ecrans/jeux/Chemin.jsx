@@ -1,3 +1,4 @@
+import { useMessageEchecs } from '../../composants/MessageEchecs.jsx';
 import { useMemo, useState, useEffect } from 'preact/hooks';
 import { genererEtape, genererDefi, infoEtape, estEtape, numeroEtape, PREMIERE_ETAPE } from '../../jeux/generateur.js';
 import { aujourdhui } from '../../jeux/hasard.js';
@@ -97,6 +98,7 @@ export function NiveauChemin({ id }) {
 }
 
 function Partie({ n, k, rejouer }) {
+  const [echecMsg, voileMsg] = useMessageEchecs(3);
   const qs = useMemo(() => melanger(questionsDu(n)), [n.id]);
   const [i, setI] = useState(0);
   const [vies, setVies] = useState(VIES);
@@ -118,7 +120,7 @@ function Partie({ n, k, rejouer }) {
     if (juste) {
       const c = combo + 1; setCombo(c); setMaxCombo(Math.max(maxCombo, c));
       setXp(xp + POINTS + (c >= 3 ? BONUS_COMBO : 0)); son('juste');
-    } else { setCombo(0); setVies(vies - 1); son('faux'); }
+    } else { setCombo(0); setVies(vies - 1); son('faux'); echecMsg(); }
     setRep({ juste, choix });
   }
   async function suivant() {
@@ -173,7 +175,7 @@ function Partie({ n, k, rejouer }) {
   }
 
   return (
-    <div class="page partie-chemin">
+    <div class="page partie-chemin">{voileMsg}
       <div class="partie-chemin__tete">
         <span class="partie-chemin__vies" aria-label={`${vies} vie${vies > 1 ? 's' : ''}`}>{Array.from({ length: VIES }, (_, j) => <span class={j < vies ? 'vie' : 'vie vie--perdue'}>❤</span>)}</span>
         <span class="partie-chemin__niveau">{n.titre}</span>

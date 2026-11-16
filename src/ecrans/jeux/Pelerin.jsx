@@ -1,3 +1,4 @@
+import { useMessageEchecs } from '../../composants/MessageEchecs.jsx';
 import { useState } from 'preact/hooks';
 import { Icone } from '../../composants/Icone.jsx';
 import { TOUTES } from './Jouer.jsx';
@@ -17,13 +18,14 @@ export const VILLES = [
 ];
 
 export function Pelerin() {
+  const [echecMsg, voileMsg] = useMessageEchecs(3);
   const [pos, setPos] = useState(0), [q, setQ] = useState(null), [msg, setMsg] = useState(null), [tours, setTours] = useState(0);
   const arrive = pos === VILLES.length - 1;
   if (q) return <div class="page"><p class="quiz__compteur" style="margin-top:12px">📍 Épreuve à {VILLES[Math.min(pos + 1, VILLES.length - 1)][0]}</p>
-    <Question q={q} numero={1} total={1} surReponse={(ok) => { setMsg(ok ? 'avance' : 'recule'); setTours(tours + 1); }}
+    <Question q={q} numero={1} total={1} surReponse={(ok) => { if (!ok) echecMsg(); setMsg(ok ? 'avance' : 'recule'); setTours(tours + 1); }}
       surSuivant={() => { setPos(msg === 'avance' ? pos + 1 : Math.max(0, pos - 1)); setQ(null); scrollTo(0, 0); }} /></div>;
   return (
-    <div class="page">
+    <div class="page">{voileMsg}
       <p class="jouer-intro" style="margin-top:12px">De Jérusalem à Rome sur les pas de l'apôtre Paul. Réponds juste pour avancer ; une erreur te fait reculer d'une ville.</p>
       {msg && <p class={'pelerin-msg ' + (msg === 'avance' ? 'ok' : '')}>{msg === 'avance' ? '✅ Tu avances !' : '↩️ Tu recules d\'une ville.'}</p>}
       <ol class="pelerin">

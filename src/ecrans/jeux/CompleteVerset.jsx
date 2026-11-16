@@ -1,3 +1,4 @@
+import { useMessageEchecs } from '../../composants/MessageEchecs.jsx';
 import { VoixJeu } from '../../composants/VoixJeu.jsx';
 import { useEffect, useState } from 'preact/hooks';
 import { Icone } from '../../composants/Icone.jsx';
@@ -36,6 +37,7 @@ async function preparer(refTexte) {
 
 // Écran 30 : complète le verset (texte toujours lu dans la Bible LSG).
 export function CompleteVerset() {
+  const [echecMsg, voileMsg] = useMessageEchecs(3);
   const tirage = () => melanger([...new Set([...VERSETS_DU_JOUR, ...SUJETS.flatMap((s) => s.versets)].filter((x) => !/-/.test(x)))]).slice(0, 5);
   const [manches, setManches] = useState(tirage);
   const [n, setN] = useState(0), [m, setM] = useState(null), [choix, setChoix] = useState(null), [score, setScore] = useState(0), [erreur, setErreur] = useState(null);
@@ -49,7 +51,7 @@ export function CompleteVerset() {
   if (!m) return <div class="page"><p class="verset__attente" style="margin-top:16px">Préparation du verset…</p></div>;
   const repondu = choix !== null, juste = choix === m.juste;
   return (
-    <div class="page">
+    <div class="page">{voileMsg}
       <VoixJeu cle={`${n}:${repondu ? 'r' : ''}`} blocs={repondu
         ? [{ texte: juste ? 'Bonne réponse !' : 'Pas tout à fait.' }, { texte: m.jetons.map((t, i) => m.trous.has(i) ? m.propres[i] : t).join('') }, { reference: ecrireReference(m.ref) }].slice(0, 2)
         : [{ texte: 'Complète le verset. ' + m.jetons.map((t, i) => m.trous.has(i) ? '…' : t).join('') }, ...m.options.map((o, k) => ({ texte: `Réponse ${k + 1} : ${o}.` }))]} />
@@ -62,7 +64,7 @@ export function CompleteVerset() {
       <div class="quiz__choix">
         {m.options.map((o) => (
           <button class={'carte choix' + (repondu && o === m.juste ? ' choix--juste' : '') + (repondu && o === choix && !juste ? ' choix--faux' : '')} disabled={repondu}
-            onClick={async () => { setChoix(o); if (o === m.juste) { setScore(score + 1); const b = await ajouter('complete'); b.forEach((id) => notifier('Badge obtenu : ' + badge(id)[1])); } }}>
+            onClick={async () => { setChoix(o); if (o !== m.juste) echecMsg(); if (o === m.juste) { setScore(score + 1); const b = await ajouter('complete'); b.forEach((id) => notifier('Badge obtenu : ' + badge(id)[1])); } }}>
             <span>{o}</span>{repondu && o === m.juste && <Icone nom="verifie" taille={20} />}
           </button>
         ))}

@@ -1,3 +1,4 @@
+import { useMessageEchecs } from '../../composants/MessageEchecs.jsx';
 import { VoixJeu } from '../../composants/VoixJeu.jsx';
 import { useRef, useState } from 'preact/hooks';
 import { Icone } from '../../composants/Icone.jsx';
@@ -9,6 +10,7 @@ import { melanger } from '../../jeux/hasard.js';
 
 // Écran 32 : remets dans l'ordre. Glisser-déposer (poignée) ou boutons ▲ ▼, pratiques sur les petits téléphones.
 export function Ordre({ id }) {
+  const [echecMsg, voileMsg] = useMessageEchecs(2);
   const choisir = (h) => { let m; do { m = melanger(h.etapes.map((_, i) => i)); } while (m.every((x, i) => x === i)); return m; };
   const [h, setH] = useState(() => HISTOIRES.find((x) => x.id === id) || melanger(HISTOIRES)[0]);
   const [ordre, setOrdre] = useState(() => choisir(h));
@@ -26,11 +28,11 @@ export function Ordre({ id }) {
   };
   const fin = () => { glisse.current = null; };
   const juste = ordre.every((x, i) => x === i);
-  const valider = async () => { setVerifie(true); if (juste) { const b = await ajouter('ordre'); notifier('Bravo, c\'est le bon ordre !'); b.forEach((x) => notifier('Badge obtenu : ' + badge(x)[1])); } };
+  const valider = async () => { setVerifie(true); if (!juste) echecMsg(); if (juste) { const b = await ajouter('ordre'); notifier('Bravo, c\'est le bon ordre !'); b.forEach((x) => notifier('Badge obtenu : ' + badge(x)[1])); } };
   const autre = () => { const n = HISTOIRES[(HISTOIRES.indexOf(h) + 1) % HISTOIRES.length]; setH(n); setOrdre(choisir(n)); setVerifie(false); };
 
   return (
-    <div class="page">
+    <div class="page">{voileMsg}
       <VoixJeu cle={h.titre + (verifie ? (juste ? ':ok' : ':non' + ordre.join('')) : '')} blocs={verifie
         ? [{ texte: juste ? 'Bravo, c\'est le bon ordre !' : 'Ce n\'est pas encore le bon ordre. Les étapes en rouge ne sont pas à leur place.' }]
         : [{ texte: `Remets dans l'ordre : ${h.titre}.` }, ...ordre.map((x, i) => ({ texte: `${i + 1}. ${h.etapes[x].texte}` }))]} />
