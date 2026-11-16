@@ -1,0 +1,587 @@
+{
+ "id": "bible-06-manuscrits-nouveau-testament",
+ "titre": "Les manuscrits du Nouveau Testament : un trésor sans égal",
+ "serie": "Connaître la Bible",
+ "theme": "Bible",
+ "auteur": "Yeshaya",
+ "resume": "Comment le Nouveau Testament a été écrit et copié, combien de manuscrits nous possédons, quels sont les plus anciens, comment on les compare aux autres livres de l'Antiquité, et ce que signifient honnêtement les différences entre les copies.",
+ "image": "/assets/scenes-bibliques/paul-ecrit-une-lettre.webp",
+ "verset_de_base": "1 Jn 1:1-3",
+ "lecture_minutes": 30,
+ "objectifs": [
+  "Savoir comment et quand le Nouveau Testament a été écrit.",
+  "Connaître les grands manuscrits : papyrus anciens et grands codex.",
+  "Comparer la transmission du Nouveau Testament avec celle des autres livres antiques.",
+  "Comprendre honnêtement les variantes, y compris les passages discutés.",
+  "Pouvoir répondre à l'idée que les évangiles ont été changés."
+ ],
+ "introduction": "Des écrivains et des vidéos sur internet affirment parfois que le Nouveau Testament que nous lisons aujourd'hui n'a plus grand-chose à voir avec ce que les apôtres ont écrit. Ils disent que les textes ont été recopiés tant de fois, pendant tant de siècles, qu'ils ont forcément été déformés, comme un message qui passe de bouche en bouche dans un grand cercle d'enfants et qui arrive tout changé à la fin.\n\nEst-ce vrai ? Pour répondre, il ne suffit pas de répéter « la Bible est la Parole de Dieu ». Il faut regarder les manuscrits eux-mêmes. Et là, les faits sont impressionnants : aucun livre de l'Antiquité n'a été transmis avec autant de témoins, aussi anciens et aussi nombreux, que le Nouveau Testament. Dans cet enseignement, nous allons voir pourquoi.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Comment le Nouveau Testament a été écrit",
+   "references": [
+    "1 Jn 1:1-3",
+    "Lc 1:1-4"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Des témoins qui écrivent"
+    },
+    {
+     "texte": "L'apôtre Jean commence sa première lettre ainsi : ce qui était dès le commencement, ce que nous avons entendu, ce que nous avons vu de nos yeux, ce que nous avons contemplé et que nos mains ont touché, concernant la parole de vie, nous vous l'annonçons. Le Nouveau Testament a été écrit par des témoins oculaires ou par des proches de ces témoins."
+    },
+    {
+     "sous_titre": "Dans la langue de tout le monde"
+    },
+    {
+     "texte": "Le Nouveau Testament a été écrit en grec. Pas le grec savant des philosophes, mais le grec courant, appelé « koinè », c'est-à-dire « commun ». C'était la langue des marchés, des lettres familiales et du commerce dans tout l'empire romain, un peu comme le français ou l'anglais aujourd'hui dans beaucoup de pays africains. Dieu a voulu que sa Parole soit écrite dans la langue des gens ordinaires."
+    },
+    {
+     "sous_titre": "Quand ?"
+    },
+    {
+     "texte": "Les lettres de Paul ont été écrites entre environ l'an 48 et l'an 67. La plupart des spécialistes datent les évangiles de Marc, Matthieu et Luc entre les années 60 et 80 environ, et l'évangile de Jean vers la fin du premier siècle. Certains savants proposent des dates plus anciennes. Dans tous les cas, ces livres ont été écrits du vivant de nombreux témoins de Jésus, dans les quelques décennies après sa mort et sa résurrection."
+    },
+    {
+     "sous_titre": "Des lettres dictées"
+    },
+    {
+     "texte": "Paul dictait souvent ses lettres à un secrétaire, puis il ajoutait une salutation de sa propre main pour les authentifier. À la fin de la lettre aux Romains, le secrétaire se présente lui-même : je vous salue dans le Seigneur, moi Tertius, qui ai écrit cette lettre (Romains 16:22). Et Paul écrit aux Thessaloniciens : je vous salue, moi Paul, de ma propre main. C'est là ma signature dans toutes mes lettres (2 Thessaloniciens 3:17)."
+    },
+    {
+     "verset": "Rm 16:22"
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Les premiers chrétiens et le livre",
+   "references": [
+    "2 Tm 4:13",
+    "Col 4:16"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Copier pour partager"
+    },
+    {
+     "texte": "Les lettres des apôtres étaient lues dans les églises, puis copiées et envoyées à d'autres églises. Paul demande aux Colossiens de faire lire sa lettre à Laodicée, et de lire celle qu'il avait envoyée là-bas. Très vite, chaque église voulait sa propre copie des évangiles et des lettres. Ces copies étaient faites par des chrétiens ordinaires, puis par des copistes plus professionnels."
+    },
+    {
+     "sous_titre": "Le codex : un livre moderne"
+    },
+    {
+     "texte": "Les premiers chrétiens ont adopté très tôt une forme de livre nouvelle pour l'époque : le codex. Au lieu d'un long rouleau qu'il faut dérouler, on pliait et cousait des feuilles pour former des pages, comme nos livres d'aujourd'hui. Le codex était plus pratique pour chercher un passage, moins cher, et pouvait contenir plusieurs livres ensemble, par exemple les quatre évangiles ou toutes les lettres de Paul. Alors que la plupart des livres non chrétiens de l'époque étaient encore des rouleaux, presque tous les plus anciens manuscrits chrétiens sont des codex."
+    },
+    {
+     "sous_titre": "Des copies faites dans la persécution"
+    },
+    {
+     "texte": "Pendant les trois premiers siècles, les chrétiens ont souvent été persécutés. Sous l'empereur Dioclétien, au début du quatrième siècle, l'ordre fut donné de brûler les Écritures des chrétiens. Certains chrétiens ont préféré mourir plutôt que de livrer leurs livres. Ceux qui les livraient étaient appelés, en latin, des « traditores », c'est-à-dire ceux qui ont livré : c'est l'origine du mot « traître ». Les copies du Nouveau Testament ont donc été faites et cachées au milieu des dangers, par amour pour la Parole."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Combien de manuscrits ?",
+   "references": [
+    "Mt 24:35",
+    "És 40:8"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Plus de cinq mille huit cents en grec"
+    },
+    {
+     "texte": "Aujourd'hui, les spécialistes ont répertorié plus de cinq mille huit cents manuscrits grecs du Nouveau Testament, complets ou partiels. Certains sont de petits fragments de papyrus, d'autres des livres entiers. On en découvre encore régulièrement dans des bibliothèques et des monastères."
+    },
+    {
+     "sous_titre": "Des milliers d'autres en d'autres langues"
+    },
+    {
+     "texte": "À cela s'ajoutent environ dix mille manuscrits de traductions latines, et des milliers d'autres en syriaque, en copte, l'ancienne langue des chrétiens d'Égypte, en arménien, en géorgien, en guèze, l'ancienne langue de l'Éthiopie, et dans d'autres langues anciennes. Certaines de ces traductions ont été faites dès le deuxième et le troisième siècle."
+    },
+    {
+     "sous_titre": "Des citations par milliers"
+    },
+    {
+     "texte": "Enfin, les écrivains chrétiens des premiers siècles, qu'on appelle les Pères de l'Église, ont cité le Nouveau Testament dans leurs sermons, leurs lettres et leurs commentaires, des dizaines de milliers de fois. Les spécialistes disent qu'on pourrait retrouver presque tout le texte du Nouveau Testament uniquement à partir de ces citations, même si tous les manuscrits avaient disparu."
+    },
+    {
+     "sous_titre": "Une abondance unique"
+    },
+    {
+     "texte": "Jésus avait dit : le ciel et la terre passeront, mais mes paroles ne passeront point (Matthieu 24:35). Dieu a multiplié les témoins de sa Parole à travers le monde, comme un père qui ferait des milliers de copies de son testament et les confierait à des familles dans des pays différents, pour que personne ne puisse jamais le falsifier."
+    }
+   ]
+  },
+  {
+   "numero": "4",
+   "titre": "Les plus anciens papyrus",
+   "references": [
+    "Jn 18:31-33",
+    "Jn 18:37-38"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Un petit morceau de Jean"
+    },
+    {
+     "verset": "Jn 18:37-38"
+    },
+    {
+     "texte": "Dans une bibliothèque de Manchester, en Angleterre, est conservé un petit fragment de papyrus, à peine plus grand qu'une carte de crédit. On l'appelle P52. Il a été trouvé en Égypte. Sur une face, on lit quelques mots de Jean 18:31-33, quand Jésus est conduit devant Pilate ; sur l'autre, quelques mots des versets 37 et 38, avec la question de Pilate : qu'est-ce que la vérité ?"
+    },
+    {
+     "sous_titre": "Une date importante"
+    },
+    {
+     "texte": "Beaucoup de spécialistes datent ce fragment de la première moitié du deuxième siècle, souvent autour de l'an 125 ; d'autres proposent une date un peu plus tardive, dans le deuxième siècle. Dans tous les cas, cela veut dire qu'une copie de l'évangile de Jean, écrit à la fin du premier siècle, probablement en Asie Mineure, circulait déjà en Égypte quelques dizaines d'années plus tard. Pendant longtemps, certains critiques avaient affirmé que l'évangile de Jean avait été écrit très tard, vers l'an 160 ou même après. Ce petit morceau de papyrus a mis fin à cette idée."
+    },
+    {
+     "sous_titre": "Les grands papyrus"
+    },
+    {
+     "texte": "D'autres papyrus plus importants datent d'environ l'an 200. Le papyrus appelé P66 contient la plus grande partie de l'évangile de Jean. Le papyrus P75 contient de longues parties de Luc et de Jean. Le papyrus P46 contient la plupart des lettres de Paul. Ils sont conservés notamment à Genève, à Dublin, au Vatican et aux États-Unis. Quand on compare P75 avec le grand Codex Vaticanus copié plus d'un siècle plus tard, on constate qu'ils sont extrêmement proches : le texte avait été transmis avec un grand soin."
+    }
+   ]
+  },
+  {
+   "numero": "5",
+   "titre": "Les grands codex",
+   "references": [
+    "Ps 119:89",
+    "2 Tm 2:9"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Le Codex Sinaïticus"
+    },
+    {
+     "texte": "En 1844, un savant allemand nommé Constantin Tischendorf visita le monastère Sainte-Catherine, au pied du mont Sinaï, en Égypte. Il y découvrit des feuilles d'un manuscrit grec très ancien. Il revint en 1859 et obtint de voir le reste : un immense codex contenant une grande partie de l'Ancien Testament grec et le Nouveau Testament complet. On l'appelle le Codex Sinaïticus. Il a été copié au quatrième siècle, vers le milieu du siècle. C'est le plus ancien manuscrit complet du Nouveau Testament que nous possédons. La plus grande partie est aujourd'hui conservée à Londres, et on peut le consulter en entier sur internet."
+    },
+    {
+     "sous_titre": "Le Codex Vaticanus"
+    },
+    {
+     "texte": "Le Codex Vaticanus, conservé à la bibliothèque du Vatican, à Rome, date lui aussi du quatrième siècle, peut-être un peu avant le Sinaïticus. Il contient presque toute la Bible grecque, à part quelques pages perdues à la fin."
+    },
+    {
+     "sous_titre": "D'autres codex"
+    },
+    {
+     "texte": "Il y a encore le Codex Alexandrinus, du cinquième siècle, venu d'Alexandrie en Égypte, et beaucoup d'autres. Remarque combien de ces manuscrits majeurs ont été trouvés en Égypte ou viennent d'Afrique du Nord : le climat sec a protégé les papyrus, et les chrétiens d'Égypte ont été parmi les plus fidèles gardiens des Écritures."
+    },
+    {
+     "sous_titre": "Avant l'islam"
+    },
+    {
+     "texte": "Un fait est important dans nos pays, où l'on entend souvent que la Bible aurait été falsifiée. Ces grands codex ont été copiés environ deux cent cinquante à trois cents ans avant la naissance de Mahomet. Ils contiennent les mêmes évangiles que nous, avec la même croix et la même résurrection. Le texte n'a donc pas pu être changé après l'apparition de l'islam."
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Comparé aux autres livres de l'Antiquité",
+   "references": [
+    "Ac 26:26",
+    "Lc 1:3-4"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Les grands auteurs anciens"
+    },
+    {
+     "texte": "Personne ne doute aujourd'hui de ce qu'ont écrit Jules César sur la guerre des Gaules, ou l'historien romain Tacite sur l'empire. Pourtant, pour ces auteurs, nous n'avons que quelques dizaines ou quelques centaines de manuscrits, et les plus anciens copies complètes ont souvent été faites environ mille ans après l'original, au Moyen Âge. Pour certains auteurs grecs célèbres, comme les philosophes et les poètes, la situation est semblable."
+    },
+    {
+     "sous_titre": "Le Nouveau Testament"
+    },
+    {
+     "texte": "Pour le Nouveau Testament, nous avons des milliers de manuscrits grecs, des fragments copiés quelques décennies après l'original, des livres entiers copiés environ cent cinquante ans après, et des Bibles complètes copiées environ deux cent cinquante ans après. Aucun autre livre de l'Antiquité ne s'en approche."
+    },
+    {
+     "sous_titre": "Une question d'honnêteté"
+    },
+    {
+     "texte": "Si quelqu'un accepte ce que disent les manuscrits de César ou de Tacite, mais refuse ceux du Nouveau Testament, ce n'est pas pour une raison historique. C'est souvent parce que le Nouveau Testament parle de Jésus, et qu'il demande une réponse personnelle. Paul disait au roi Agrippa : ce n'est pas en cachette que ces choses se sont passées (Actes 26:26)."
+    }
+   ]
+  },
+  {
+   "numero": "7",
+   "titre": "Les variantes : la vérité sans peur",
+   "references": [
+    "Pr 12:17",
+    "Jn 8:32"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Il y a des différences"
+    },
+    {
+     "texte": "Il faut être honnête. Les milliers de manuscrits du Nouveau Testament ne sont pas tous parfaitement identiques. Les copistes, même très soigneux, ont parfois fait des erreurs. Les spécialistes comptent des centaines de milliers de variantes. Ce chiffre impressionne, mais il faut le comprendre."
+    },
+    {
+     "sous_titre": "Pourquoi tant de variantes ?"
+    },
+    {
+     "texte": "Il y a beaucoup de variantes justement parce qu'il y a beaucoup de manuscrits. Si un livre antique n'a que dix copies, il a peu de variantes, mais aussi peu de moyens de vérifier. Si un texte a des milliers de copies, chaque petite différence d'orthographe dans chaque copie compte comme une variante. Plus on a de témoins, plus on a de petites différences, mais aussi plus on peut retrouver le texte original."
+    },
+    {
+     "sous_titre": "La plupart ne changent rien"
+    },
+    {
+     "texte": "L'immense majorité des variantes sont des fautes d'orthographe, des mots inversés, des articles oubliés, ou des manières différentes d'écrire un nom. En grec, on peut dire « Jésus Christ » ou « Christ Jésus », « le Seigneur Jésus » ou « Jésus » : le sens est le même. Seule une petite partie des variantes ont un effet sur le sens d'une phrase, et une partie encore plus petite pose une vraie question."
+    },
+    {
+     "sous_titre": "Aucune doctrine en danger"
+    },
+    {
+     "texte": "Les spécialistes, croyants ou non, reconnaissent que les variantes ne mettent en danger aucune doctrine centrale de la foi chrétienne. La divinité de Jésus, sa mort pour nos péchés, sa résurrection, le salut par la grâce sont enseignés dans de nombreux passages dont le texte est certain. La vérité vous affranchira, disait Jésus (Jean 8:32) : nous n'avons pas peur de regarder les faits."
+    }
+   ]
+  },
+  {
+   "numero": "8",
+   "titre": "Trois passages discutés",
+   "references": [
+    "Mc 16:8",
+    "Jn 7:53",
+    "1 Jn 5:7-8"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La fin de l'évangile de Marc"
+    },
+    {
+     "texte": "Dans ta Bible, l'évangile de Marc se termine au chapitre 16, verset 20. Mais les deux plus anciens grands manuscrits, le Sinaïticus et le Vaticanus, s'arrêtent au verset 8, avec les femmes qui fuient le tombeau, effrayées. Les versets 9 à 20 se trouvent dans la grande majorité des manuscrits plus tardifs, et ils étaient connus dès le deuxième siècle. Beaucoup de spécialistes pensent qu'ils ont été ajoutés tôt pour compléter la fin, et c'est pourquoi beaucoup de Bibles les mettent entre crochets ou avec une note. Remarque : ce que ces versets racontent, les apparitions de Jésus ressuscité et l'envoi des disciples, se trouve aussi dans les autres évangiles."
+    },
+    {
+     "sous_titre": "La femme adultère"
+    },
+    {
+     "texte": "Le récit de la femme surprise en adultère, en Jean 7:53 à 8:11, est absent des plus anciens manuscrits de Jean, et il apparaît à des endroits différents dans certains manuscrits plus tardifs, parfois même dans l'évangile de Luc. Beaucoup de spécialistes pensent qu'il s'agit d'un récit ancien et vrai de la vie de Jésus, transmis oralement, puis ajouté plus tard dans l'évangile de Jean. Les Bibles le gardent généralement, avec une note."
+    },
+    {
+     "sous_titre": "Le verset des trois témoins au ciel"
+    },
+    {
+     "texte": "Dans certaines anciennes Bibles, 1 Jean 5:7 dit : il y en a trois qui rendent témoignage dans le ciel, le Père, la Parole et le Saint-Esprit, et ces trois sont un. Cette phrase ne se trouve dans aucun manuscrit grec ancien : elle vient de manuscrits latins tardifs, et elle est entrée dans certaines éditions imprimées au seizième siècle. La Bible Louis Segond 1910, utilisée dans Yeshaya, ne la contient pas : elle dit simplement, il y en a trois qui rendent témoignage, l'Esprit, l'eau et le sang. La doctrine de la Trinité ne dépend pas de ce verset : elle repose sur de nombreux autres passages, comme Matthieu 28:19."
+    },
+    {
+     "sous_titre": "Pourquoi en parler ?"
+    },
+    {
+     "texte": "Certains chrétiens sont troublés quand ils découvrent ces passages. Mais le fait que les Bibles signalent honnêtement ces questions est une bonne nouvelle : rien n'est caché. Et le fait que les spécialistes puissent identifier ces ajouts tardifs montre justement qu'on peut retrouver le texte original avec une grande précision."
+    }
+   ]
+  },
+  {
+   "numero": "9",
+   "titre": "Comment on retrouve le texte original",
+   "references": [
+    "Ac 17:11",
+    "1 Th 5:21"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Comparer les familles de manuscrits"
+    },
+    {
+     "texte": "Les spécialistes classent les manuscrits par familles, selon leur région d'origine : Alexandrie en Égypte, l'Occident autour de Rome, Byzance autour de Constantinople. Quand une lecture est appuyée par des manuscrits anciens de plusieurs régions différentes, elle a toutes les chances d'être originale. Une erreur faite dans une région ne se retrouve pas dans les copies d'une autre région qui n'en dépendent pas."
+    },
+    {
+     "sous_titre": "Quelques principes simples"
+    },
+    {
+     "texte": "Une lecture plus ancienne a souvent plus de poids qu'une plus récente. Une lecture qui explique comment les autres sont nées est probablement l'originale. Une lecture difficile, qu'un copiste aurait été tenté de « simplifier », est souvent plus ancienne qu'une lecture qui semble avoir été arrangée."
+    },
+    {
+     "sous_titre": "Des savants au service de la Parole"
+    },
+    {
+     "texte": "Au seizième siècle, le savant Érasme de Rotterdam publia en 1516 la première édition imprimée du Nouveau Testament grec, à partir des quelques manuscrits qu'il avait sous la main. Depuis, avec la découverte des papyrus et des grands codex, le travail s'est énormément amélioré. Des savants comme Bruce Metzger, professeur à Princeton au vingtième siècle, ont consacré leur vie à ce travail. Les éditions grecques utilisées aujourd'hui par les traducteurs s'appuient sur l'ensemble des manuscrits connus."
+    }
+   ]
+  },
+  {
+   "numero": "10",
+   "titre": "Une chaîne de témoins",
+   "references": [
+    "Jn 21:24",
+    "2 Jn 12"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "De Jean à Irénée"
+    },
+    {
+     "texte": "Nous avons vu que Polycarpe, évêque de Smyrne, avait été selon la tradition un disciple de l'apôtre Jean. Et Irénée, devenu évêque de Lyon, raconte dans une lettre qu'il se souvenait, quand il était jeune, d'avoir entendu Polycarpe parler de ses conversations avec Jean et avec d'autres qui avaient vu le Seigneur. On a donc une chaîne vivante : Jésus, l'apôtre Jean, Polycarpe, Irénée. Quand Irénée affirme, vers l'an 180, que l'Église reçoit les quatre évangiles, il ne parle pas de livres découverts récemment, mais de livres transmis par cette chaîne de témoins."
+    },
+    {
+     "sous_titre": "Papias et l'évangile de Marc"
+    },
+    {
+     "texte": "Un autre responsable chrétien du début du deuxième siècle, Papias, évêque de Hiérapolis, en Asie Mineure, a écrit des livres aujourd'hui perdus, mais dont l'historien Eusèbe a conservé des extraits. Papias rapporte qu'un ancien lui avait dit que Marc avait été l'interprète de Pierre, et qu'il avait écrit avec exactitude ce dont il se souvenait de l'enseignement de Pierre sur ce que Jésus avait dit et fait. Cela correspond à ce que nous voyons dans l'évangile de Marc : un récit vivant, plein de détails de témoin oculaire."
+    },
+    {
+     "sous_titre": "Justin et le culte du dimanche"
+    },
+    {
+     "texte": "Vers l'an 150, un philosophe converti nommé Justin, qui fut plus tard martyrisé à Rome, décrit le culte des chrétiens à l'empereur. Il explique que le jour qu'on appelle le jour du soleil, c'est-à-dire le dimanche, les chrétiens se réunissent, et qu'on lit les « mémoires des apôtres », qu'on appelle évangiles, ou les écrits des prophètes, aussi longtemps que le temps le permet. Les évangiles étaient donc déjà lus publiquement chaque semaine, comme les Écritures de l'Ancien Testament."
+    },
+    {
+     "sous_titre": "Le témoignage de Jean lui-même"
+    },
+    {
+     "verset": "Jn 21:24"
+    },
+    {
+     "texte": "À la fin de l'évangile de Jean, on lit : c'est ce disciple qui rend témoignage de ces choses, et qui les a écrites. Et nous savons que son témoignage est vrai. Les premiers chrétiens savaient d'où venaient leurs évangiles."
+    }
+   ]
+  },
+  {
+   "numero": "11",
+   "titre": "Ce n'est pas le « téléphone arabe »",
+   "references": [
+    "1 Co 15:3",
+    "Lc 1:2"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Une image trompeuse"
+    },
+    {
+     "texte": "On compare parfois la transmission du Nouveau Testament au jeu où une phrase est chuchotée d'oreille en oreille dans un cercle, et arrive complètement déformée au bout. Mais cette image ne correspond pas du tout à la réalité, pour plusieurs raisons."
+    },
+    {
+     "sous_titre": "Pas une seule ligne de transmission"
+    },
+    {
+     "texte": "Dans le jeu, la phrase passe par une seule ligne : chaque personne n'entend qu'une fois, de la bouche d'une seule autre, et on ne peut pas vérifier. Pour le Nouveau Testament, il y avait des centaines de copies, dans des dizaines de villes, qui pouvaient être comparées. Si une copie à Corinthe avait une erreur, celle d'Éphèse ou d'Alexandrie permettait de la corriger."
+    },
+    {
+     "sous_titre": "Un texte écrit, pas seulement chuchoté"
+    },
+    {
+     "texte": "Dans le jeu, on ne peut pas revenir au message de départ. Pour le Nouveau Testament, le texte était écrit, et des copies très anciennes nous permettent de remonter tout près de l'original."
+    },
+    {
+     "sous_titre": "Des témoins encore vivants"
+    },
+    {
+     "texte": "Paul transmettait ce qu'il avait lui-même reçu (1 Corinthiens 15:3). Luc dit qu'il a écrit selon ce que nous ont transmis ceux qui ont été des témoins oculaires dès le commencement (Luc 1:2). Pendant les premières décennies, si quelqu'un avait déformé l'histoire de Jésus, les témoins encore vivants auraient pu le corriger."
+    },
+    {
+     "sous_titre": "Une culture de la mémoire"
+    },
+    {
+     "texte": "Enfin, dans les cultures orales, comme dans beaucoup de nos villages africains, la mémoire est entraînée. Les anciens, les conteurs et les griots apprennent par cœur de longues généalogies et des récits, et l'assemblée corrige celui qui se trompe. Les disciples de Jésus, élevés dans une culture où l'on apprenait par cœur les Écritures, ont retenu ses paroles avec soin, d'autant plus que Jésus leur avait promis que le Saint-Esprit leur rappellerait tout ce qu'il leur avait dit (Jean 14:26)."
+    }
+   ]
+  },
+  {
+   "numero": "12",
+   "titre": "Les manuscrits d'Afrique : copte et guèze",
+   "references": [
+    "Ac 8:27-28",
+    "Ps 68:32"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Les chrétiens d'Égypte"
+    },
+    {
+     "texte": "Très tôt, l'Évangile s'est répandu en Égypte. Dès le troisième siècle, le Nouveau Testament a été traduit en copte, la langue des Égyptiens de cette époque, écrite avec un alphabet dérivé du grec. Les moines et les chrétiens d'Égypte ont copié, lu et gardé les Écritures pendant des siècles. Beaucoup de papyrus bibliques parmi les plus anciens ont été trouvés dans le sable d'Égypte."
+    },
+    {
+     "sous_titre": "Les évangiles de Garima"
+    },
+    {
+     "texte": "En Éthiopie, l'Évangile a été traduit en guèze, l'ancienne langue liturgique du pays. Dans un monastère des montagnes du nord de l'Éthiopie, appelé Abba Garima, sont conservés deux magnifiques livres des évangiles, ornés de peintures. Des analyses scientifiques réalisées ces dernières années les datent, selon les études, entre le quatrième et le septième siècle. Ils sont considérés comme faisant partie des plus anciens livres d'évangiles illustrés du monde. Pendant des siècles, ils ont été gardés par des moines africains, loin de l'Europe."
+    },
+    {
+     "sous_titre": "Un héritage africain"
+    },
+    {
+     "texte": "Ces trésors rappellent encore une fois que la Bible n'est pas arrivée en Afrique seulement avec les missionnaires européens du dix-neuvième siècle. Depuis l'eunuque éthiopien qui lisait Ésaïe sur son char (Actes 8:27-28), des Africains ont lu, copié, traduit et gardé les Écritures. Les chrétiens d'Afrique d'aujourd'hui sont les héritiers de cette longue histoire."
+    }
+   ]
+  },
+  {
+   "numero": "13",
+   "titre": "Quatre récits, un seul témoignage",
+   "references": [
+    "Mt 28:1",
+    "Mc 16:1-2",
+    "Lc 24:1",
+    "Jn 20:1"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Des différences de détail"
+    },
+    {
+     "texte": "Quand on lit les quatre évangiles côte à côte, on remarque des différences de détail. Par exemple, au matin de la résurrection : Matthieu parle de Marie de Magdala et de l'autre Marie ; Marc ajoute Salomé ; Luc mentionne Jeanne et d'autres femmes ; Jean ne parle que de Marie de Magdala. Certains disent : voilà une contradiction !"
+    },
+    {
+     "sous_titre": "Ce que fait un bon témoin"
+    },
+    {
+     "texte": "Mais chacun de ces auteurs choisit qui il nomme, selon ce qu'il veut mettre en avant et selon ses sources. Aucun ne dit qu'il n'y avait qu'une seule femme : Jean lui-même fait dire à Marie : nous ne savons où ils l'ont mis, au pluriel (Jean 20:2). Quand un juge entend quatre témoins d'un accident, il se méfie s'ils racontent tous la même chose avec exactement les mêmes mots : cela ressemble à une histoire préparée. Des témoins honnêtes racontent les mêmes faits essentiels, avec des détails différents."
+    },
+    {
+     "sous_titre": "Une preuve d'indépendance"
+    },
+    {
+     "texte": "Ces petites différences montrent que les évangiles n'ont pas été harmonisés artificiellement par l'Église, alors qu'il aurait été facile de le faire. Les copistes et les responsables chrétiens ont gardé les quatre récits tels qu'ils les avaient reçus, avec leurs particularités. C'est un signe de respect pour le texte, et une raison de plus d'avoir confiance. Un autre enseignement de cette série examine plusieurs contradictions apparentes."
+    }
+   ]
+  },
+  {
+   "numero": "14",
+   "titre": "Lire sa Bible avec intelligence",
+   "references": [
+    "Pr 18:15",
+    "Ac 17:11"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Les notes en bas de page"
+    },
+    {
+     "texte": "Beaucoup de Bibles contiennent de petites notes en bas de page ou dans la marge. Certaines expliquent un mot ; d'autres disent : « certains manuscrits ajoutent… » ou « les manuscrits les plus anciens n'ont pas… ». Ne saute pas ces notes et ne t'en effraie pas. Elles montrent le sérieux des traducteurs, qui te disent honnêtement où se trouvent les rares questions de texte."
+    },
+    {
+     "sous_titre": "Les crochets"
+    },
+    {
+     "texte": "Certaines Bibles mettent quelques versets entre crochets, comme la fin de Marc ou le récit de la femme adultère. Cela ne veut pas dire que ces passages sont mauvais ou faux. Cela veut dire que les traducteurs ont des doutes sur le fait qu'ils faisaient partie du texte original du livre. Le lecteur est informé, et peut juger avec sagesse."
+    },
+    {
+     "sous_titre": "Comparer les traductions"
+    },
+    {
+     "texte": "Quand un verset te semble difficile, compare-le dans deux ou trois traductions différentes, par exemple la Louis Segond, la Bible du Semeur et la Parole de Vie. Les différences t'aideront souvent à mieux comprendre le sens. Un enseignement de cette série parle de l'histoire des traductions françaises."
+    },
+    {
+     "sous_titre": "L'humilité qui apprend"
+    },
+    {
+     "texte": "Le cœur de l'homme intelligent acquiert la science, et l'oreille des sages cherche la science (Proverbes 18:15). Le chrétien n'a pas peur d'apprendre. Plus il connaît l'histoire de sa Bible, plus il l'aime, et mieux il peut répondre à ceux qui l'interrogent. Mais il garde toujours le but en vue : non pas devenir un spécialiste des manuscrits, mais connaître Jésus, qui est la Parole faite chair, et le suivre."
+    }
+   ]
+  },
+  {
+   "numero": "15",
+   "titre": "Ce que cela change pour ma foi",
+   "references": [
+    "2 P 1:16",
+    "Lc 1:4"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Une confiance fondée"
+    },
+    {
+     "texte": "Luc écrivait à Théophile pour qu'il reconnaisse la certitude des enseignements qu'il avait reçus (Luc 1:4). Toi aussi, tu peux avoir cette certitude. Quand tu lis les évangiles, tu lis ce que les témoins de Jésus ont écrit, transmis avec un soin et une abondance de témoins sans égal dans l'histoire."
+    },
+    {
+     "sous_titre": "Répondre avec douceur"
+    },
+    {
+     "texte": "Quand quelqu'un te dit que les évangiles ont été changés, ne te fâche pas. Pose-lui calmement deux questions : quand, et par qui ? Explique-lui que nous avons des manuscrits de toutes les époques, de toutes les régions, en plusieurs langues, et que les plus anciens disent la même chose que nos Bibles. Invite-le à lire lui-même un évangile."
+    },
+    {
+     "sous_titre": "Une Parole qui vit"
+    },
+    {
+     "texte": "Mais n'oublie pas l'essentiel : le but de tout ce travail n'est pas de gagner des débats, c'est que des hommes et des femmes rencontrent Jésus en lisant sa Parole. Pierre disait : ce n'est pas en suivant des fables habilement conçues que nous vous avons fait connaître la puissance et l'avènement de notre Seigneur Jésus-Christ, mais c'est comme ayant vu sa majesté de nos propres yeux."
+    },
+    {
+     "texte": "On raconte l'histoire d'un étudiant musulman, à l'université, qui avait souvent entendu dire que l'Injil, l'Évangile, avait été falsifié par les chrétiens. Un jour, un camarade chrétien lui montra sur son téléphone des photos du Codex Sinaïticus, disponible en ligne, et lui dit simplement : « Ce livre a été copié environ deux cent cinquante ans avant la naissance du Prophète que tu respectes. Lis la croix et la résurrection dedans, et compare avec ma Bible. » L'étudiant passa plusieurs soirées à comparer, avec un ami qui lisait le grec. Il ne se convertit pas tout de suite. Mais il dit à son camarade : « Je ne pourrai plus répéter que l'Évangile a été changé. Maintenant, il faut que je sache qui est vraiment ce Jésus. »"
+    }
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "question": "En quelle langue le Nouveau Testament a-t-il été écrit ?",
+   "choix": [
+    "En hébreu",
+    "En grec courant, la langue commune de l'empire romain",
+    "En latin"
+   ],
+   "reponse": 1,
+   "explication": "Le grec « koinè », la langue des gens ordinaires.",
+   "section": "1"
+  },
+  {
+   "question": "Quelle forme de livre les premiers chrétiens ont-ils adoptée très tôt ?",
+   "choix": [
+    "Le rouleau",
+    "Le codex, avec des pages cousues comme nos livres",
+    "La tablette d'argile"
+   ],
+   "reponse": 1,
+   "explication": "Plus pratique pour chercher un passage et réunir plusieurs livres.",
+   "section": "2"
+  },
+  {
+   "question": "Combien de manuscrits grecs du Nouveau Testament connaît-on ?",
+   "choix": [
+    "Une dizaine",
+    "Plus de cinq mille huit cents",
+    "Exactement vingt-sept"
+   ],
+   "reponse": 1,
+   "explication": "Sans compter des milliers de traductions anciennes et de citations.",
+   "section": "3"
+  },
+  {
+   "question": "Qu'a montré le petit fragment P52 de l'évangile de Jean ?",
+   "choix": [
+    "Que Jean a été écrit au Moyen Âge",
+    "Qu'une copie de Jean circulait déjà en Égypte au deuxième siècle, donc que l'évangile est ancien",
+    "Que Jean n'a pas existé"
+   ],
+   "reponse": 1,
+   "explication": "Il a mis fin à l'idée d'une date très tardive.",
+   "section": "4"
+  },
+  {
+   "question": "Pourquoi les grands codex du quatrième siècle sont-ils importants face à l'idée d'une falsification ?",
+   "choix": [
+    "Parce qu'ils sont en arabe",
+    "Parce qu'ils ont été copiés bien avant l'islam et contiennent les mêmes évangiles, avec la croix et la résurrection",
+    "Parce qu'ils sont cachés"
+   ],
+   "reponse": 1,
+   "explication": "Le Sinaïticus et le Vaticanus datent du IVe siècle.",
+   "section": "5"
+  },
+  {
+   "question": "Les variantes entre manuscrits mettent-elles en danger une doctrine centrale ?",
+   "choix": [
+    "Oui, beaucoup",
+    "Non : la plupart sont des détails, et aucune doctrine centrale n'en dépend",
+    "On ne sait pas"
+   ],
+   "reponse": 1,
+   "explication": "La divinité, la mort et la résurrection de Jésus sont enseignées dans de nombreux passages sûrs.",
+   "section": "7"
+  }
+ ],
+ "devoir": [
+  "Ouvre ta Bible à Marc 16 et à Jean 8, et regarde si ta Bible contient une note sur ces passages. Explique avec tes mots pourquoi.",
+  "Prépare une réponse de cinq phrases à quelqu'un qui dit : « Les évangiles ont été falsifiés. »",
+  "Lis Luc 1:1-4 et 1 Jean 1:1-3, et note ce qu'ils disent des témoins."
+ ],
+ "prieres_liees": [],
+ "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}
