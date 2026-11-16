@@ -1,317 +1,527 @@
 {
- "id": "affermissement-13-suivre-jesus",
- "titre": "Suivre Jésus chaque jour",
- "serie": "Affermissement",
- "theme": "Affermissement",
- "auteur": "Yeshaya",
- "resume": "Treizième et dernière leçon du volume 1 de « Former le disciple » : être disciple, ce n'est pas un jour de décision, c'est une marche quotidienne. Le prix à payer, demeurer en lui, ne pas regarder en arrière et courir jusqu'au bout.",
- "image": "/assets/jesus/jesus-marche-sur-le-chemin.webp",
- "verset_de_base": "Lc 9:23",
- "lecture_minutes": 13,
- "objectifs": [
-  "Comprendre que suivre Jésus est une marche de chaque jour.",
-  "Connaître le prix du disciple et l'accepter.",
-  "Apprendre à demeurer en Jésus par la Parole et la prière.",
-  "Persévérer jusqu'au bout sans regarder en arrière."
- ],
- "introduction": "Le jour où tu as reçu Jésus, tu as pris la décision la plus importante de ta vie. Mais cette décision n'était pas une ligne d'arrivée : c'était une ligne de départ. Jésus n'a jamais dit : « Prends une décision pour moi », il a dit : « Suis-moi. » Beaucoup de gens ont fait un jour une prière de salut, puis ont continué à vivre exactement comme avant. Ils ont cru en Jésus un jour, mais ils ne l'ont jamais suivi.\n\nCette leçon termine le premier volume de « Former le disciple ». Nous verrons ce que veut dire suivre Jésus, le prix que cela coûte, le secret pour tenir, et l'appel à persévérer jusqu'au bout.",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "Un disciple suit son maître",
-   "references": [
-    "Mt 4:19-20",
-    "1 Jn 2:6",
-    "Col 2:6-7"
-   ],
-   "blocs": [
+  "id": "affermissement-13-suivre-jesus",
+  "titre": "Suivre Jésus chaque jour",
+  "serie": "Affermissement",
+  "theme": "Affermissement",
+  "auteur": "Yeshaya",
+  "resume": "Treizième et dernière leçon du volume 1 de « Former le disciple » : être disciple, ce n'est pas un jour de décision, c'est une marche quotidienne. Le prix à payer, demeurer en lui, ne pas regarder en arrière et courir jusqu'au bout.",
+  "image": "/assets/jesus/jesus-marche-sur-le-chemin.webp",
+  "verset_de_base": "Lc 9:23",
+  "lecture_minutes": 30,
+  "objectifs": [
+    "Comprendre que suivre Jésus est une marche de chaque jour.",
+    "Connaître le prix du disciple et l'accepter.",
+    "Apprendre à demeurer en Jésus par la Parole et la prière.",
+    "Persévérer jusqu'au bout sans regarder en arrière."
+  ],
+  "introduction": "Le jour où tu as reçu Jésus, tu as pris la décision la plus importante de ta vie. Mais cette décision n'était pas une ligne d'arrivée : c'était une ligne de départ. Jésus n'a jamais dit : « Prends une décision pour moi », il a dit : « Suis-moi. » Beaucoup de gens ont fait un jour une prière de salut, puis ont continué à vivre exactement comme avant. Ils ont cru en Jésus un jour, mais ils ne l'ont jamais suivi.\n\nCette leçon termine le premier volume de « Former le disciple ». Nous verrons ce que veut dire suivre Jésus, le prix que cela coûte, le secret pour tenir, et l'appel à persévérer jusqu'au bout.",
+  "sections": [
     {
-     "sous_titre": "« Suivez-moi »"
+      "numero": "1",
+      "titre": "Un disciple suit son maître",
+      "references": [
+        "Mt 4:19-20",
+        "1 Jn 2:6",
+        "Col 2:6-7"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "« Suivez-moi »"
+        },
+        {
+          "texte": "Quand Jésus a appelé Pierre et André au bord du lac, il leur a dit : suivez-moi, et je vous ferai pêcheurs d'hommes. Et la Bible dit : aussitôt, ils laissèrent les filets, et le suivirent. Un disciple, ce n'est pas un admirateur de Jésus ; c'est quelqu'un qui marche derrière lui, qui va où il va, qui fait ce qu'il dit."
+        },
+        {
+          "verset": "Mt 4:19-20"
+        },
+        {
+          "sous_titre": "Marcher comme il a marché"
+        },
+        {
+          "texte": "Jean écrit : celui qui dit qu'il demeure en lui doit marcher aussi comme il a marché lui-même. Suivre Jésus, c'est apprendre à réagir comme lui, à parler comme lui, à pardonner comme lui, à obéir au Père comme lui. Ce n'est pas une religion de règles ; c'est une imitation d'une personne."
+        },
+        {
+          "verset": "1 Jn 2:6"
+        },
+        {
+          "sous_titre": "Enracinés en lui"
+        },
+        {
+          "texte": "Paul résume : comme vous avez reçu le Seigneur Jésus-Christ, marchez en lui, étant enracinés et fondés en lui, et affermis par la foi. Tu l'as reçu par la foi ; tu vas marcher avec lui de la même manière, jour après jour, en t'enracinant toujours plus profondément."
+        },
+        {
+          "verset": "Col 2:6-7"
+        }
+      ]
     },
     {
-     "texte": "Quand Jésus a appelé Pierre et André au bord du lac, il leur a dit : suivez-moi, et je vous ferai pêcheurs d'hommes. Et la Bible dit : aussitôt, ils laissèrent les filets, et le suivirent. Un disciple, ce n'est pas un admirateur de Jésus ; c'est quelqu'un qui marche derrière lui, qui va où il va, qui fait ce qu'il dit."
+      "numero": "2",
+      "titre": "Le prix à payer",
+      "references": [
+        "Lc 9:23",
+        "Lc 14:26-28",
+        "Lc 9:62"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Renoncer, porter sa croix, suivre"
+        },
+        {
+          "texte": "Jésus a donné trois conditions : si quelqu'un veut venir après moi, qu'il renonce à lui-même, qu'il se charge chaque jour de sa croix, et qu'il me suive. Renoncer à soi-même, c'est cesser d'être le chef de sa vie. Porter sa croix chaque jour, c'est accepter de mourir à ses désirs contraires à Dieu, chaque jour. Suivre, c'est obéir."
+        },
+        {
+          "verset": "Lc 9:23"
+        },
+        {
+          "sous_titre": "Calculer la dépense"
+        },
+        {
+          "texte": "Jésus n'a jamais caché le prix. Il a dit : si quelqu'un vient à moi, et s'il ne hait pas son père, sa mère, sa femme, ses enfants, ses frères, et ses sœurs, et même sa propre vie, il ne peut être mon disciple. Il ne demande pas de détester sa famille, mais de l'aimer moins que lui : Jésus doit passer avant tout. Et il ajoute : lequel de vous, s'il veut bâtir une tour, ne s'assied d'abord pour calculer la dépense ?"
+        },
+        {
+          "verset": "Lc 14:26-28"
+        },
+        {
+          "texte": "Suivre Jésus peut te coûter des amitiés, des habitudes, de l'argent mal gagné, des plaisirs, ta réputation dans ta famille. Mais ce que tu reçois vaut infiniment plus : le pardon, la paix, la présence de Dieu, la vie éternelle."
+        },
+        {
+          "sous_titre": "Ne pas regarder en arrière"
+        },
+        {
+          "texte": "Jésus a dit : quiconque met la main à la charrue, et regarde en arrière, n'est pas propre au royaume de Dieu. Celui qui laboure en regardant derrière lui trace des sillons tordus. Beaucoup de chrétiens avancent avec le corps, mais leur cœur regarde encore vers l'ancienne vie. Décide de ne plus regarder en arrière."
+        },
+        {
+          "verset": "Lc 9:62"
+        }
+      ]
     },
     {
-     "verset": "Mt 4:19-20"
+      "numero": "3",
+      "titre": "Le secret pour tenir : demeurer en lui",
+      "references": [
+        "Jn 15:4-5",
+        "Jn 8:31",
+        "Mt 7:24-25"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Le sarment et le cep"
+        },
+        {
+          "texte": "Jésus a dit : demeurez en moi, et je demeurerai en vous. Comme le sarment ne peut de lui-même porter du fruit, s'il ne demeure attaché au cep, ainsi vous ne le pouvez non plus. Je suis le cep, vous êtes les sarments. Sans moi vous ne pouvez rien faire. Tu ne tiendras pas par ta force. Tu tiendras en restant attaché à Jésus."
+        },
+        {
+          "verset": "Jn 15:4-5"
+        },
+        {
+          "sous_titre": "Demeurer dans sa parole"
+        },
+        {
+          "texte": "Comment demeurer en lui ? Jésus le dit : si vous demeurez dans ma parole, vous êtes vraiment mes disciples. Le rendez-vous quotidien avec Dieu, la lecture de la Bible, la prière, l'église locale : ce ne sont pas des options, ce sont les racines qui te nourrissent."
+        },
+        {
+          "verset": "Jn 8:31"
+        },
+        {
+          "sous_titre": "Mettre en pratique"
+        },
+        {
+          "texte": "Et Jésus termine le Sermon sur la montagne par cette image : quiconque entend ces paroles que je dis et les met en pratique sera semblable à un homme prudent qui a bâti sa maison sur le roc. La pluie est tombée, les torrents sont venus, les vents ont soufflé : elle n'est point tombée. Les tempêtes viendront. Ce qui tiendra, ce n'est pas ce que tu as entendu, c'est ce que tu as pratiqué."
+        },
+        {
+          "verset": "Mt 7:24-25"
+        }
+      ]
     },
     {
-     "sous_titre": "Marcher comme il a marché"
+      "numero": "4",
+      "titre": "Ceux qui ont regardé en arrière",
+      "references": [
+        "Lc 9:61-62",
+        "Lc 17:32",
+        "2 Tm 4:10"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "La main à la charrue"
+        },
+        {
+          "texte": "Un homme dit à Jésus : « Je te suivrai, Seigneur, mais permets-moi d'aller d'abord prendre congé de ceux de ma maison. » Jésus lui répondit : « Quiconque met la main à la charrue, et regarde en arrière, n'est pas propre au royaume de Dieu. » Le laboureur qui regarde derrière lui trace un sillon tordu. Le disciple qui regarde sans cesse vers sa vie d'avant ne peut pas avancer droit."
+        },
+        {
+          "verset": "Lc 9:61-62"
+        },
+        {
+          "sous_titre": "La femme de Lot"
+        },
+        {
+          "texte": "Jésus a dit en une phrase : « Souvenez-vous de la femme de Lot. » Elle était sortie de Sodome, mais son cœur y était resté. Elle a regardé en arrière et elle est devenue une statue de sel. On peut sortir physiquement d'une vie de péché tout en la regrettant dans son cœur."
+        },
+        {
+          "verset": "Lc 17:32"
+        },
+        {
+          "sous_titre": "Démas"
+        },
+        {
+          "texte": "Démas était un compagnon de Paul, cité avec Luc dans ses lettres. Mais à la fin, Paul écrit : « Démas m'a abandonné, par amour pour le siècle présent. » On peut servir avec un apôtre et finir par quitter le chemin. Ce n'est pas le départ qui compte, c'est l'arrivée."
+        },
+        {
+          "verset": "2 Tm 4:10"
+        },
+        {
+          "sous_titre": "Ce qui fait regarder en arrière"
+        },
+        {
+          "texte": "L'ancien petit ami ou l'ancienne petite amie qui rappelle. Les anciens amis du bar. L'argent facile d'avant. La famille qui fait pression pour revenir aux rites des ancêtres. La fatigue des épreuves. Identifie ce qui t'attire en arrière, et coupe ce qui doit l'être : un numéro, un lieu, une habitude."
+        }
+      ]
     },
     {
-     "texte": "Jean écrit : celui qui dit qu'il demeure en lui doit marcher aussi comme il a marché lui-même. Suivre Jésus, c'est apprendre à réagir comme lui, à parler comme lui, à pardonner comme lui, à obéir au Père comme lui. Ce n'est pas une religion de règles ; c'est une imitation d'une personne."
+      "numero": "5",
+      "titre": "Abraham : partir sans savoir où l'on va",
+      "references": [
+        "Gn 12:1-5",
+        "Hé 11:8-10"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un appel sans carte"
+        },
+        {
+          "texte": "Abram vivait à Charan, en Mésopotamie. Il avait soixante-quinze ans. Sa famille servait d'autres dieux. Un jour, l'Éternel lui dit : va-t'en de ton pays, de ta patrie, et de la maison de ton père, dans le pays que je te montrerai. Je ferai de toi une grande nation, et je te bénirai ; je rendrai ton nom grand, et tu seras une source de bénédiction."
+        },
+        {
+          "verset": "Gn 12:1-5"
+        },
+        {
+          "texte": "Dieu ne lui donne pas le nom du pays. Il ne lui montre pas de carte. Il lui dit seulement : quitte, et je te montrerai. Et la Bible dit simplement : Abram partit, comme l'Éternel le lui avait dit."
+        },
+        {
+          "sous_titre": "Quitter le confort"
+        },
+        {
+          "texte": "Pour Abraham, partir voulait dire quitter sa terre, ses habitudes, la protection de sa famille, les tombes de ses ancêtres. Dans nos cultures aussi, la famille et le village sont tout. Celui qui part est souvent mal vu."
+        },
+        {
+          "texte": "Suivre Jésus, c'est parfois quitter des choses précieuses. Pas toujours un pays, mais des habitudes, des amis qui t'entraînent dans le péché, des pratiques familiales qui déshonorent Dieu, un travail malhonnête. Et souvent, Dieu ne te montre pas tout le chemin à l'avance. Il te montre seulement le prochain pas."
+        },
+        {
+          "sous_titre": "La foi qui obéit"
+        },
+        {
+          "texte": "L'épître aux Hébreux explique : c'est par la foi qu'Abraham, lors de sa vocation, obéit et partit pour un lieu qu'il devait recevoir en héritage, et qu'il partit sans savoir où il allait. Il attendait la cité qui a de solides fondements, celle dont Dieu est l'architecte et le constructeur."
+        },
+        {
+          "verset": "Hé 11:8-10"
+        },
+        {
+          "texte": "Abraham a vécu toute sa vie sous des tentes, comme un étranger, dans le pays que Dieu lui avait promis. Il n'a jamais possédé ce pays, sauf un champ pour enterrer sa femme. Mais il savait que sa vraie patrie était dans le ciel. Le disciple de Jésus vit ainsi : il marche sur la terre, mais son cœur est fixé sur la cité de Dieu."
+        },
+        {
+          "sous_titre": "Ta part"
+        },
+        {
+          "texte": "Peut-être que Dieu te demande en ce moment de quitter quelque chose, et tu attends de tout comprendre avant d'obéir. Abraham n'a pas compris d'abord pour obéir ensuite. Il a obéi, et il a compris en marchant. La foi ne demande pas la carte entière. Elle fait confiance au guide."
+        },
+        {
+          "texte": "On raconte l'histoire d'un jeune diplômé qui avait reçu deux propositions de travail. La première, très bien payée, dans une société qui vivait de fraude et de faux papiers. La seconde, mal payée, comme enseignant dans une petite école chrétienne d'un village éloigné, sans électricité. Sa famille le pressait d'accepter la première : « Tu vas nous laisser dans la misère ? » Il a prié plusieurs jours, et il a choisi le village. Il ne savait pas comment il allait aider ses parents. Les premières années ont été dures. Mais plusieurs de ses élèves sont devenus des serviteurs de Dieu, et un ancien élève devenu médecin a plus tard soigné gratuitement sa mère malade. Il disait : « Je suis parti comme Abraham, sans savoir. Dieu, lui, savait. »"
+        }
+      ]
     },
     {
-     "verset": "1 Jn 2:6"
+      "numero": "6",
+      "titre": "Caleb : celui qui a pleinement suivi l'Éternel",
+      "references": [
+        "Nb 14:6-9",
+        "Nb 14:24",
+        "Jos 14:6-14"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Deux rapports différents"
+        },
+        {
+          "texte": "Moïse avait envoyé douze espions explorer le pays de Canaan. Après quarante jours, ils sont revenus avec des fruits magnifiques. Mais dix d'entre eux ont dit : le peuple qui habite ce pays est puissant, les villes sont fortifiées et très grandes. Nous étions à nos yeux et aux leurs comme des sauterelles. Le peuple tout entier s'est mis à pleurer et à murmurer, et voulait retourner en Égypte."
+        },
+        {
+          "texte": "Deux hommes seulement ont parlé autrement : Josué et Caleb. Ils ont déchiré leurs vêtements et dit : le pays que nous avons parcouru est un pays très bon. Si l'Éternel nous est favorable, il nous mènera dans ce pays. Seulement, ne soyez point rebelles contre l'Éternel, et ne craignez point les gens de ce pays."
+        },
+        {
+          "verset": "Nb 14:6-9"
+        },
+        {
+          "texte": "Le peuple a voulu les lapider."
+        },
+        {
+          "sous_titre": "« Il a pleinement suivi »"
+        },
+        {
+          "texte": "Dieu a condamné cette génération à errer quarante ans dans le désert. Mais il a dit : et parce que mon serviteur Caleb a été animé d'un autre esprit, et qu'il a pleinement suivi ma voie, je le ferai entrer dans le pays où il est allé."
+        },
+        {
+          "verset": "Nb 14:24"
+        },
+        {
+          "texte": "« Pleinement suivi. » Pas à moitié. Pas seulement quand tout le monde était d'accord. Caleb a suivi Dieu même quand toute la foule allait dans l'autre sens, même quand on voulait le tuer pour cela."
+        },
+        {
+          "sous_titre": "Quarante-cinq ans plus tard"
+        },
+        {
+          "texte": "Le plus beau, c'est la fin de l'histoire. Quarante-cinq ans après, quand Israël est enfin entré dans le pays, Caleb est venu voir Josué. Il avait quatre-vingt-cinq ans. Et il a dit : je suis encore vigoureux comme au jour où Moïse m'envoya ; j'ai autant de force que j'en avais alors, pour combattre et pour sortir et entrer. Donne-moi donc cette montagne dont l'Éternel a parlé."
+        },
+        {
+          "verset": "Jos 14:6-14"
+        },
+        {
+          "texte": "Cette montagne, c'était Hébron, là où habitaient les géants qui avaient fait peur aux dix espions. Caleb ne demandait pas une retraite tranquille. Il demandait le territoire le plus difficile. Et il l'a conquis."
+        },
+        {
+          "sous_titre": "Suivre jusqu'à la vieillesse"
+        },
+        {
+          "texte": "Beaucoup commencent avec Jésus dans l'enthousiasme de la jeunesse, et s'arrêtent en chemin. Caleb nous montre un disciple qui suit Dieu à quarante ans, qui attend pendant quarante-cinq ans au milieu d'un peuple incrédule, sans devenir amer, et qui à quatre-vingt-cinq ans a encore faim de conquêtes. Que Dieu nous donne des vieillards comme Caleb dans nos églises : pas des anciens fatigués qui racontent le passé, mais des hommes et des femmes qui disent encore : donne-moi cette montagne."
+        },
+        {
+          "texte": "Remarque aussi le secret de Caleb : il avait « un autre esprit ». Les dix espions avaient regardé les géants, puis ils s'étaient regardés eux-mêmes : nous sommes comme des sauterelles. Caleb avait regardé les mêmes géants, mais il avait regardé Dieu : si l'Éternel nous est favorable, il nous mènera. Les deux groupes avaient vu les mêmes faits. La différence était le regard. Suivre pleinement le Seigneur ne veut pas dire ignorer les difficultés. Caleb savait que les villes étaient fortifiées. Mais il refusait de laisser la peur avoir le dernier mot sur la promesse de Dieu. Et pendant quarante-cinq ans, il a marché au milieu de ceux qui avaient douté, sans laisser leur incrédulité éteindre sa foi."
+        }
+      ]
     },
     {
-     "sous_titre": "Enracinés en lui"
+      "numero": "7",
+      "titre": "Le jeune homme qui s'enfuit, et l'homme qui sortit de l'ombre",
+      "references": [
+        "Mc 14:43-52",
+        "Mc 15:42-46"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Quand suivre devient dangereux"
+        },
+        {
+          "texte": "Au jardin de Gethsémané, Judas est arrivé avec une foule armée d'épées et de bâtons. Ils ont saisi Jésus. Alors tous les disciples l'abandonnèrent, et prirent la fuite."
+        },
+        {
+          "verset": "Mc 14:43-52"
+        },
+        {
+          "texte": "Marc ajoute un détail curieux, qu'on ne trouve dans aucun autre évangile : un jeune homme le suivait, n'ayant sur le corps qu'un drap. On se saisit de lui ; mais il lâcha son vêtement, et se sauva tout nu. Beaucoup pensent que ce jeune homme était Marc lui-même, qui raconte discrètement sa propre honte."
+        },
+        {
+          "texte": "Ce jeune homme suivait Jésus. Mais quand on l'a saisi, il a tout lâché pour sauver sa peau, même ses vêtements. Il est l'image de beaucoup de disciples : ils suivent tant que c'est facile, et ils fuient dès que la persécution arrive."
+        },
+        {
+          "texte": "Pourquoi ce jeune homme a-t-il fui ? Sans doute parce qu'il n'avait pas pensé que suivre Jésus pouvait coûter si cher. Il était venu dans la nuit, à moitié habillé, attiré par la curiosité ou par l'affection. Mais il n'avait pas calculé la dépense, comme Jésus l'avait enseigné. Beaucoup de gens viennent à Jésus dans un moment d'émotion, pendant une croisade, une veillée ou une épreuve. C'est bien. Mais si personne ne leur explique que suivre Jésus inclut la croix, ils lâcheront tout au premier danger. C'est pourquoi il est important d'enseigner clairement aux nouveaux convertis le prix et la gloire de la vie de disciple. Un disciple averti ne s'enfuit pas aussi facilement."
+        },
+        {
+          "sous_titre": "Joseph d'Arimathée : le disciple caché qui se révèle"
+        },
+        {
+          "texte": "Quelques heures plus tard, Jésus était mort sur la croix. Ses disciples étaient cachés. Et voilà qu'un homme apparaît : Joseph d'Arimathée, conseiller de distinction, membre du grand conseil des Juifs, qui attendait lui aussi le royaume de Dieu. L'évangile de Jean nous dit qu'il était disciple de Jésus, mais en secret, par crainte des Juifs."
+        },
+        {
+          "verset": "Mc 15:42-46"
+        },
+        {
+          "texte": "Et ce jour-là, quand tout semblait perdu, il osa se rendre vers Pilate pour demander le corps de Jésus. Il acheta un linceul, descendit Jésus de la croix, l'enveloppa, et le déposa dans un sépulcre taillé dans le roc, son propre tombeau."
+        },
+        {
+          "texte": "Demander le corps d'un condamné à mort, c'était se déclarer publiquement de son côté. C'était risquer sa place au conseil, sa réputation, peut-être sa vie. Joseph est sorti de l'ombre au moment où tous les autres se cachaient."
+        },
+        {
+          "sous_titre": "Le choix devant chacun"
+        },
+        {
+          "texte": "Voilà deux attitudes au moment de l'épreuve : celle qui lâche tout et s'enfuit, et celle qui sort de l'ombre et prend position. La bonne nouvelle, c'est que celui qui a fui peut revenir : si ce jeune homme était bien Marc, il est devenu plus tard l'auteur d'un évangile. Et celui qui suivait en secret peut un jour trouver le courage de se déclarer."
+        },
+        {
+          "texte": "Où en es-tu ? Es-tu un disciple en secret, que personne ne connaît comme chrétien au travail, à l'école, dans ta famille ? Ou as-tu fui quand on s'est moqué de toi ? Aujourd'hui, Jésus t'appelle à sortir de l'ombre et à le suivre ouvertement."
+        },
+        {
+          "texte": "On raconte l'histoire d'un fonctionnaire qui allait à l'église en cachette, dans un quartier éloigné, pour que ses collègues ne le sachent pas. Au bureau, il riait aux blagues sales et acceptait parfois l'argent qu'on lui glissait. Un jour, un jeune collègue s'est converti et a été humilié par tout le service. Ce soir-là, le fonctionnaire n'a pas dormi. Le lendemain, il est allé voir le jeune homme devant tout le monde et lui a dit : « Moi aussi, je suis chrétien. Pardonne-moi de m'être caché. » Il a ensuite refusé tout argent mal acquis. Il a perdu une promotion, mais il disait : « Pour la première fois depuis des années, je marche derrière Jésus à visage découvert. »"
+        }
+      ]
     },
     {
-     "texte": "Paul résume : comme vous avez reçu le Seigneur Jésus-Christ, marchez en lui, étant enracinés et fondés en lui, et affermis par la foi. Tu l'as reçu par la foi ; tu vas marcher avec lui de la même manière, jour après jour, en t'enracinant toujours plus profondément."
-    },
-    {
-     "verset": "Col 2:6-7"
+      "numero": "8",
+      "titre": "Courir jusqu'au bout",
+      "references": [
+        "Hé 12:1-2",
+        "Jn 6:66-68",
+        "2 Tm 4:7",
+        "Ap 2:10"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Certains se retirent"
+        },
+        {
+          "texte": "Un jour, après un enseignement difficile, beaucoup de disciples se retirèrent, et ils n'allaient plus avec Jésus. Il demanda aux douze : et vous, ne voulez-vous pas aussi vous en aller ? Pierre répondit : Seigneur, à qui irions-nous ? Tu as les paroles de la vie éternelle. Quand tu seras tenté d'abandonner, souviens-toi de cette réponse : il n'y a personne d'autre vers qui aller."
+        },
+        {
+          "verset": "Jn 6:66-68"
+        },
+        {
+          "sous_titre": "Les regards sur Jésus"
+        },
+        {
+          "texte": "L'épître aux Hébreux compare la vie chrétienne à une course : rejetons tout fardeau, et le péché qui nous enveloppe si facilement, et courons avec persévérance, ayant les regards sur Jésus. On ne court pas en regardant les autres coureurs ou les obstacles : on court en regardant le but."
+        },
+        {
+          "verset": "Hé 12:1-2"
+        },
+        {
+          "sous_titre": "J'ai gardé la foi"
+        },
+        {
+          "texte": "À la fin de sa vie, Paul a pu dire : j'ai combattu le bon combat, j'ai achevé la course, j'ai gardé la foi. C'est ce que Dieu veut entendre de toi à la fin de ta vie. Sois fidèle jusqu'à la mort, et je te donnerai la couronne de vie."
+        },
+        {
+          "verset": "2 Tm 4:7"
+        },
+        {
+          "verset": "Ap 2:10"
+        },
+        {
+          "texte": "Tu as terminé le premier volume de « Former le disciple ». Tu as appris le salut, l'assurance, la victoire sur la tentation, la seigneurie de Jésus, la vie par l'Esprit, la Parole, la prière, le rendez-vous quotidien, l'Église, le témoignage, le baptême et la cène, le foyer chrétien. Maintenant, la vraie leçon commence : les vivre chaque jour. Le volume 2, « Grandir en Christ », t'attend."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "Le prix à payer",
-   "references": [
-    "Lc 9:23",
-    "Lc 14:26-28",
-    "Lc 9:62"
-   ],
-   "blocs": [
+  ],
+  "sujets": [
     {
-     "sous_titre": "Renoncer, porter sa croix, suivre"
+      "titre": "Suivre Jésus",
+      "texte": "Renouvelons devant Dieu notre décision de suivre Jésus chaque jour, en renonçant à nous-mêmes et en portant notre croix. (Luc 9:23)"
     },
     {
-     "texte": "Jésus a donné trois conditions : si quelqu'un veut venir après moi, qu'il renonce à lui-même, qu'il se charge chaque jour de sa croix, et qu'il me suive. Renoncer à soi-même, c'est cesser d'être le chef de sa vie. Porter sa croix chaque jour, c'est accepter de mourir à ses désirs contraires à Dieu, chaque jour. Suivre, c'est obéir."
+      "titre": "Ne pas regarder en arrière",
+      "texte": "Demandons à Dieu de couper en nous tout regret de l'ancienne vie et toute envie d'y retourner. (Luc 9:62)"
     },
     {
-     "verset": "Lc 9:23"
+      "titre": "Demeurer en lui",
+      "texte": "Prions afin de rester attachés à Jésus comme le sarment au cep, par la Parole et la prière quotidiennes. (Jean 15:4-5)"
     },
     {
-     "sous_titre": "Calculer la dépense"
+      "titre": "Mettre en pratique",
+      "texte": "Implorons la grâce de Dieu afin de mettre en pratique ce que nous avons appris, pour bâtir sur le roc. (Matthieu 7:24)"
     },
     {
-     "texte": "Jésus n'a jamais caché le prix. Il a dit : si quelqu'un vient à moi, et s'il ne hait pas son père, sa mère, sa femme, ses enfants, ses frères, et ses sœurs, et même sa propre vie, il ne peut être mon disciple. Il ne demande pas de détester sa famille, mais de l'aimer moins que lui : Jésus doit passer avant tout. Et il ajoute : lequel de vous, s'il veut bâtir une tour, ne s'assied d'abord pour calculer la dépense ?"
-    },
-    {
-     "verset": "Lc 14:26-28"
-    },
-    {
-     "texte": "Suivre Jésus peut te coûter des amitiés, des habitudes, de l'argent mal gagné, des plaisirs, ta réputation dans ta famille. Mais ce que tu reçois vaut infiniment plus : le pardon, la paix, la présence de Dieu, la vie éternelle."
-    },
-    {
-     "sous_titre": "Ne pas regarder en arrière"
-    },
-    {
-     "texte": "Jésus a dit : quiconque met la main à la charrue, et regarde en arrière, n'est pas propre au royaume de Dieu. Celui qui laboure en regardant derrière lui trace des sillons tordus. Beaucoup de chrétiens avancent avec le corps, mais leur cœur regarde encore vers l'ancienne vie. Décide de ne plus regarder en arrière."
-    },
-    {
-     "verset": "Lc 9:62"
+      "titre": "Persévérer",
+      "texte": "Prions afin de courir avec persévérance, les regards sur Jésus, et de garder la foi jusqu'à la fin. (Hébreux 12:1-2)"
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "Le secret pour tenir : demeurer en lui",
-   "references": [
-    "Jn 15:4-5",
-    "Jn 8:31",
-    "Mt 7:24-25"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "Le sarment et le cep"
+      "question": "Quelles sont les trois conditions données par Jésus en Luc 9:23 ?",
+      "choix": [
+        "Prier, jeûner, donner",
+        "Renoncer à soi-même, porter sa croix chaque jour, le suivre",
+        "Aller à l'église, se faire baptiser, payer la dîme"
+      ],
+      "reponse": 1,
+      "explication": "(Luc 9:23)",
+      "section": "2"
     },
     {
-     "texte": "Jésus a dit : demeurez en moi, et je demeurerai en vous. Comme le sarment ne peut de lui-même porter du fruit, s'il ne demeure attaché au cep, ainsi vous ne le pouvez non plus. Je suis le cep, vous êtes les sarments. Sans moi vous ne pouvez rien faire. Tu ne tiendras pas par ta force. Tu tiendras en restant attaché à Jésus."
+      "question": "Quel est le secret pour porter du fruit selon Jean 15 ?",
+      "choix": [
+        "Faire beaucoup d'efforts",
+        "Demeurer en Jésus comme le sarment dans le cep",
+        "Connaître beaucoup de versets"
+      ],
+      "reponse": 1,
+      "explication": "« Sans moi vous ne pouvez rien faire. » (Jean 15:5)",
+      "section": "3"
     },
     {
-     "verset": "Jn 15:4-5"
+      "question": "Qu'a répondu Pierre quand beaucoup se retiraient ?",
+      "choix": [
+        "Moi aussi je pars",
+        "Seigneur, à qui irions-nous ? Tu as les paroles de la vie éternelle",
+        "Je vais réfléchir"
+      ],
+      "reponse": 1,
+      "explication": "(Jean 6:68)",
+      "section": "8"
     },
     {
-     "sous_titre": "Demeurer dans sa parole"
+      "question": "Que dit Jésus de celui qui met la main à la charrue et regarde en arrière ?",
+      "choix": [
+        "Il est bon ouvrier",
+        "Il n'est pas propre au royaume de Dieu",
+        "Il doit recommencer"
+      ],
+      "reponse": 1,
+      "explication": "(Luc 9:62)",
+      "section": "4"
     },
     {
-     "texte": "Comment demeurer en lui ? Jésus le dit : si vous demeurez dans ma parole, vous êtes vraiment mes disciples. Le rendez-vous quotidien avec Dieu, la lecture de la Bible, la prière, l'église locale : ce ne sont pas des options, ce sont les racines qui te nourrissent."
+      "question": "Pourquoi Démas a-t-il abandonné Paul ?",
+      "choix": [
+        "Il était malade",
+        "Par amour pour le siècle présent",
+        "Il avait été envoyé ailleurs"
+      ],
+      "reponse": 1,
+      "explication": "(2 Timothée 4:10)",
+      "section": "4"
     },
     {
-     "verset": "Jn 8:31"
+      "question": "Qu'a fait Abraham quand Dieu lui a dit de partir sans lui montrer le pays ?",
+      "choix": [
+        "Il a demandé une carte",
+        "Il est parti, comme l'Éternel le lui avait dit, sans savoir où il allait",
+        "Il a attendu d'avoir compris"
+      ],
+      "reponse": 1,
+      "explication": "Genèse 12:4 ; Hébreux 11:8.",
+      "section": "5"
     },
     {
-     "sous_titre": "Mettre en pratique"
+      "question": "Que dit Dieu de Caleb ?",
+      "choix": [
+        "Qu'il a été prudent",
+        "Qu'il a été animé d'un autre esprit et a pleinement suivi sa voie",
+        "Qu'il a douté"
+      ],
+      "reponse": 1,
+      "explication": "Nombres 14:24.",
+      "section": "6"
     },
     {
-     "texte": "Et Jésus termine le Sermon sur la montagne par cette image : quiconque entend ces paroles que je dis et les met en pratique sera semblable à un homme prudent qui a bâti sa maison sur le roc. La pluie est tombée, les torrents sont venus, les vents ont soufflé : elle n'est point tombée. Les tempêtes viendront. Ce qui tiendra, ce n'est pas ce que tu as entendu, c'est ce que tu as pratiqué."
+      "question": "Qu'a demandé Caleb à quatre-vingt-cinq ans ?",
+      "choix": [
+        "Une maison tranquille",
+        "« Donne-moi cette montagne », le territoire des géants",
+        "De l'argent"
+      ],
+      "reponse": 1,
+      "explication": "Josué 14:12.",
+      "section": "6"
     },
     {
-     "verset": "Mt 7:24-25"
+      "question": "Qu'a fait Joseph d'Arimathée, disciple en secret, après la mort de Jésus ?",
+      "choix": [
+        "Il s'est caché",
+        "Il a osé demander le corps de Jésus à Pilate et l'a mis dans son tombeau",
+        "Il a quitté Jérusalem"
+      ],
+      "reponse": 1,
+      "explication": "Marc 15:43-46.",
+      "section": "7"
     }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "Ceux qui ont regardé en arrière",
-   "references": [
-    "Lc 9:61-62",
-    "Lc 17:32",
-    "2 Tm 4:10"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "La main à la charrue"
-    },
-    {
-     "texte": "Un homme dit à Jésus : « Je te suivrai, Seigneur, mais permets-moi d'aller d'abord prendre congé de ceux de ma maison. » Jésus lui répondit : « Quiconque met la main à la charrue, et regarde en arrière, n'est pas propre au royaume de Dieu. » Le laboureur qui regarde derrière lui trace un sillon tordu. Le disciple qui regarde sans cesse vers sa vie d'avant ne peut pas avancer droit."
-    },
-    {
-     "verset": "Lc 9:61-62"
-    },
-    {
-     "sous_titre": "La femme de Lot"
-    },
-    {
-     "texte": "Jésus a dit en une phrase : « Souvenez-vous de la femme de Lot. » Elle était sortie de Sodome, mais son cœur y était resté. Elle a regardé en arrière et elle est devenue une statue de sel. On peut sortir physiquement d'une vie de péché tout en la regrettant dans son cœur."
-    },
-    {
-     "verset": "Lc 17:32"
-    },
-    {
-     "sous_titre": "Démas"
-    },
-    {
-     "texte": "Démas était un compagnon de Paul, cité avec Luc dans ses lettres. Mais à la fin, Paul écrit : « Démas m'a abandonné, par amour pour le siècle présent. » On peut servir avec un apôtre et finir par quitter le chemin. Ce n'est pas le départ qui compte, c'est l'arrivée."
-    },
-    {
-     "verset": "2 Tm 4:10"
-    },
-    {
-     "sous_titre": "Ce qui fait regarder en arrière"
-    },
-    {
-     "texte": "L'ancien petit ami ou l'ancienne petite amie qui rappelle. Les anciens amis du bar. L'argent facile d'avant. La famille qui fait pression pour revenir aux rites des ancêtres. La fatigue des épreuves. Identifie ce qui t'attire en arrière, et coupe ce qui doit l'être : un numéro, un lieu, une habitude."
-    }
-   ]
-  },
-  {
-   "numero": "5",
-   "titre": "Courir jusqu'au bout",
-   "references": [
-    "Hé 12:1-2",
-    "Jn 6:66-68",
-    "2 Tm 4:7",
-    "Ap 2:10"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Certains se retirent"
-    },
-    {
-     "texte": "Un jour, après un enseignement difficile, beaucoup de disciples se retirèrent, et ils n'allaient plus avec Jésus. Il demanda aux douze : et vous, ne voulez-vous pas aussi vous en aller ? Pierre répondit : Seigneur, à qui irions-nous ? Tu as les paroles de la vie éternelle. Quand tu seras tenté d'abandonner, souviens-toi de cette réponse : il n'y a personne d'autre vers qui aller."
-    },
-    {
-     "verset": "Jn 6:66-68"
-    },
-    {
-     "sous_titre": "Les regards sur Jésus"
-    },
-    {
-     "texte": "L'épître aux Hébreux compare la vie chrétienne à une course : rejetons tout fardeau, et le péché qui nous enveloppe si facilement, et courons avec persévérance, ayant les regards sur Jésus. On ne court pas en regardant les autres coureurs ou les obstacles : on court en regardant le but."
-    },
-    {
-     "verset": "Hé 12:1-2"
-    },
-    {
-     "sous_titre": "J'ai gardé la foi"
-    },
-    {
-     "texte": "À la fin de sa vie, Paul a pu dire : j'ai combattu le bon combat, j'ai achevé la course, j'ai gardé la foi. C'est ce que Dieu veut entendre de toi à la fin de ta vie. Sois fidèle jusqu'à la mort, et je te donnerai la couronne de vie."
-    },
-    {
-     "verset": "2 Tm 4:7"
-    },
-    {
-     "verset": "Ap 2:10"
-    },
-    {
-     "texte": "Tu as terminé le premier volume de « Former le disciple ». Tu as appris le salut, l'assurance, la victoire sur la tentation, la seigneurie de Jésus, la vie par l'Esprit, la Parole, la prière, le rendez-vous quotidien, l'Église, le témoignage, le baptême et la cène, le foyer chrétien. Maintenant, la vraie leçon commence : les vivre chaque jour. Le volume 2, « Grandir en Christ », t'attend."
-    }
-   ]
-  }
- ],
- "sujets": [
-  {
-   "titre": "Suivre Jésus",
-   "texte": "Renouvelons devant Dieu notre décision de suivre Jésus chaque jour, en renonçant à nous-mêmes et en portant notre croix. (Luc 9:23)"
-  },
-  {
-   "titre": "Ne pas regarder en arrière",
-   "texte": "Demandons à Dieu de couper en nous tout regret de l'ancienne vie et toute envie d'y retourner. (Luc 9:62)"
-  },
-  {
-   "titre": "Demeurer en lui",
-   "texte": "Prions afin de rester attachés à Jésus comme le sarment au cep, par la Parole et la prière quotidiennes. (Jean 15:4-5)"
-  },
-  {
-   "titre": "Mettre en pratique",
-   "texte": "Implorons la grâce de Dieu afin de mettre en pratique ce que nous avons appris, pour bâtir sur le roc. (Matthieu 7:24)"
-  },
-  {
-   "titre": "Persévérer",
-   "texte": "Prions afin de courir avec persévérance, les regards sur Jésus, et de garder la foi jusqu'à la fin. (Hébreux 12:1-2)"
-  }
- ],
- "questions": [
-  {
-   "question": "Quelles sont les trois conditions données par Jésus en Luc 9:23 ?",
-   "choix": [
-    "Prier, jeûner, donner",
-    "Renoncer à soi-même, porter sa croix chaque jour, le suivre",
-    "Aller à l'église, se faire baptiser, payer la dîme"
-   ],
-   "reponse": 1,
-   "explication": "(Luc 9:23)",
-   "section": "2"
-  },
-  {
-   "question": "Quel est le secret pour porter du fruit selon Jean 15 ?",
-   "choix": [
-    "Faire beaucoup d'efforts",
-    "Demeurer en Jésus comme le sarment dans le cep",
-    "Connaître beaucoup de versets"
-   ],
-   "reponse": 1,
-   "explication": "« Sans moi vous ne pouvez rien faire. » (Jean 15:5)",
-   "section": "3"
-  },
-  {
-   "question": "Qu'a répondu Pierre quand beaucoup se retiraient ?",
-   "choix": [
-    "Moi aussi je pars",
-    "Seigneur, à qui irions-nous ? Tu as les paroles de la vie éternelle",
-    "Je vais réfléchir"
-   ],
-   "reponse": 1,
-   "explication": "(Jean 6:68)",
-   "section": "4"
-  },
-  {
-   "question": "Que dit Jésus de celui qui met la main à la charrue et regarde en arrière ?",
-   "choix": [
-    "Il est bon ouvrier",
-    "Il n'est pas propre au royaume de Dieu",
-    "Il doit recommencer"
-   ],
-   "reponse": 1,
-   "explication": "(Luc 9:62)",
-   "section": "5"
-  },
-  {
-   "question": "Pourquoi Démas a-t-il abandonné Paul ?",
-   "choix": [
-    "Il était malade",
-    "Par amour pour le siècle présent",
-    "Il avait été envoyé ailleurs"
-   ],
-   "reponse": 1,
-   "explication": "(2 Timothée 4:10)",
-   "section": "5"
-  }
- ],
- "devoir": [
-  "Écris ce que suivre Jésus t'a déjà coûté, et ce que tu as reçu à la place.",
-  "Identifie une chose de ton ancienne vie vers laquelle ton cœur regarde encore. Confie-la à Dieu et coupe ce qui doit l'être.",
-  "Relis tes notes du volume 1 et choisis un verset de chaque leçon à garder dans ton cœur."
- ],
- "prieres_liees": [
-  "theme:priere-connaitre-jesus",
-  "theme:priere-caractere-de-christ"
- ],
- "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-14",
- "relu": false
+  ],
+  "devoir": [
+    "Écris ce que suivre Jésus t'a déjà coûté, et ce que tu as reçu à la place.",
+    "Identifie une chose de ton ancienne vie vers laquelle ton cœur regarde encore. Confie-la à Dieu et coupe ce qui doit l'être.",
+    "Relis tes notes du volume 1 et choisis un verset de chaque leçon à garder dans ton cœur."
+  ],
+  "prieres_liees": [
+    "theme:priere-connaitre-jesus",
+    "theme:priere-caractere-de-christ"
+  ],
+  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-14",
+  "relu": false
 }
