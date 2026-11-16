@@ -1,288 +1,537 @@
 {
- "id": "affermissement-10-temoigner",
- "titre": "Témoigner de Jésus",
- "serie": "Affermissement",
- "theme": "Affermissement",
- "auteur": "Yeshaya",
- "resume": "Dixième leçon de « Former le disciple » : pourquoi tout chrétien est un témoin, ce qu'est un témoignage, comment le dire simplement à ceux qui nous entourent, et comment vaincre la honte et la peur.",
- "image": "/assets/temoignage/temoignage-au-micro.webp",
- "verset_de_base": "Ac 1:8",
- "lecture_minutes": 12,
- "objectifs": [
-  "Comprendre que tout chrétien est appelé à être témoin.",
-  "Savoir ce qu'est un témoignage et ce qu'il n'est pas.",
-  "Préparer son propre témoignage en trois temps.",
-  "Vaincre la honte et la peur par la puissance du Saint-Esprit."
- ],
- "introduction": "Après sa résurrection, juste avant de monter au ciel, Jésus a laissé à ses disciples une dernière parole. Ce n'était pas « construisez de belles églises » ni « organisez de grandes conférences ». C'était : vous recevrez une puissance, le Saint-Esprit survenant sur vous, et vous serez mes témoins à Jérusalem, dans toute la Judée, dans la Samarie, et jusqu'aux extrémités de la terre.\n\nTu as reçu Jésus. Tu as appris à lire la Parole, à prier, à aller à l'église. Maintenant, il est temps de découvrir une chose merveilleuse : Dieu veut se servir de toi pour que d'autres le connaissent. Dans cette leçon, nous verrons qui est appelé à témoigner, ce qu'est un témoignage, comment préparer le tien, et comment vaincre la peur.",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "Tout chrétien est un témoin",
-   "references": [
-    "Ac 1:8",
-    "Ac 8:4",
-    "2 Co 5:20"
-   ],
-   "blocs": [
+  "id": "affermissement-10-temoigner",
+  "titre": "Témoigner de Jésus",
+  "serie": "Affermissement",
+  "theme": "Affermissement",
+  "auteur": "Yeshaya",
+  "resume": "Dixième leçon de « Former le disciple » : pourquoi tout chrétien est un témoin, ce qu'est un témoignage, comment le dire simplement à ceux qui nous entourent, et comment vaincre la honte et la peur.",
+  "image": "/assets/temoignage/temoignage-au-micro.webp",
+  "verset_de_base": "Ac 1:8",
+  "lecture_minutes": 32,
+  "objectifs": [
+    "Comprendre que tout chrétien est appelé à être témoin.",
+    "Savoir ce qu'est un témoignage et ce qu'il n'est pas.",
+    "Préparer son propre témoignage en trois temps.",
+    "Vaincre la honte et la peur par la puissance du Saint-Esprit."
+  ],
+  "introduction": "Après sa résurrection, juste avant de monter au ciel, Jésus a laissé à ses disciples une dernière parole. Ce n'était pas « construisez de belles églises » ni « organisez de grandes conférences ». C'était : vous recevrez une puissance, le Saint-Esprit survenant sur vous, et vous serez mes témoins à Jérusalem, dans toute la Judée, dans la Samarie, et jusqu'aux extrémités de la terre.\n\nTu as reçu Jésus. Tu as appris à lire la Parole, à prier, à aller à l'église. Maintenant, il est temps de découvrir une chose merveilleuse : Dieu veut se servir de toi pour que d'autres le connaissent. Dans cette leçon, nous verrons qui est appelé à témoigner, ce qu'est un témoignage, comment préparer le tien, et comment vaincre la peur.",
+  "sections": [
     {
-     "sous_titre": "Ce n'est pas réservé aux pasteurs"
+      "numero": "1",
+      "titre": "Tout chrétien est un témoin",
+      "references": [
+        "Ac 1:8",
+        "Ac 8:4",
+        "2 Co 5:20"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Ce n'est pas réservé aux pasteurs"
+        },
+        {
+          "texte": "Beaucoup de chrétiens pensent que parler de Jésus, c'est le travail du pasteur, de l'évangéliste ou du groupe d'évangélisation. Mais Jésus a dit à tous ses disciples : vous serez mes témoins. Pas « vous ferez du témoignage de temps en temps » : vous serez. Être témoin, c'est une identité, avant d'être une activité."
+        },
+        {
+          "verset": "Ac 1:8"
+        },
+        {
+          "texte": "Dans le livre des Actes, quand la persécution a éclaté à Jérusalem, les apôtres sont restés en ville, et les simples croyants ont été dispersés. Et que faisaient-ils ? Ceux qui avaient été dispersés allaient de lieu en lieu, annonçant la bonne nouvelle de la parole. L'Évangile s'est répandu grâce à des chrétiens ordinaires, comme toi."
+        },
+        {
+          "verset": "Ac 8:4"
+        },
+        {
+          "sous_titre": "Des ambassadeurs"
+        },
+        {
+          "texte": "Paul dit : nous faisons donc les fonctions d'ambassadeurs pour Christ, comme si Dieu exhortait par nous. Un ambassadeur représente son pays à l'étranger. Il parle au nom de son président. Toi, au bureau, au quartier, au marché, à l'école, tu représentes le royaume de Dieu. Par ta vie et par tes paroles, Dieu lance son appel : soyez réconciliés avec Dieu."
+        },
+        {
+          "verset": "2 Co 5:20"
+        }
+      ]
     },
     {
-     "texte": "Beaucoup de chrétiens pensent que parler de Jésus, c'est le travail du pasteur, de l'évangéliste ou du groupe d'évangélisation. Mais Jésus a dit à tous ses disciples : vous serez mes témoins. Pas « vous ferez du témoignage de temps en temps » : vous serez. Être témoin, c'est une identité, avant d'être une activité."
+      "numero": "2",
+      "titre": "Qu'est-ce qu'un témoignage ?",
+      "references": [
+        "Jn 9:25",
+        "Mc 5:19-20",
+        "Ac 4:20"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Raconter ce que l'on a vu et vécu"
+        },
+        {
+          "texte": "Un témoin, au tribunal, ne vient pas faire un discours de théologie. Il raconte ce qu'il a vu et entendu. L'aveugle guéri par Jésus a été interrogé par des chefs religieux savants. Il ne pouvait pas répondre à toutes leurs questions. Mais il a dit : je sais une chose, c'est que j'étais aveugle et que maintenant je vois. Personne ne pouvait contester cela."
+        },
+        {
+          "verset": "Jn 9:25"
+        },
+        {
+          "texte": "Ton témoignage, c'est la même chose : ce que Jésus a fait dans ta vie. Tu n'as pas besoin d'avoir fait des études bibliques pendant dix ans pour dire : « Avant, j'étais comme ceci ; puis j'ai rencontré Jésus ; et depuis, voici ce qui a changé. »"
+        },
+        {
+          "sous_titre": "Commencer par les siens"
+        },
+        {
+          "texte": "Jésus a délivré un homme possédé par une légion de démons. L'homme voulait le suivre partout. Mais Jésus lui a dit : va dans ta maison, vers les tiens, et raconte-leur tout ce que le Seigneur t'a fait, et comment il a eu pitié de toi. Et il s'en alla, et se mit à publier dans la Décapole tout ce que Jésus avait fait pour lui. Et tous furent dans l'étonnement."
+        },
+        {
+          "verset": "Mc 5:19-20"
+        },
+        {
+          "texte": "Ton premier champ de mission, c'est ta maison, ta famille, tes amis, tes collègues. Ceux qui t'ont connu avant sont ceux qui verront le mieux le changement."
+        },
+        {
+          "sous_titre": "On ne peut pas se taire"
+        },
+        {
+          "texte": "Quand les autorités ont interdit à Pierre et Jean de parler de Jésus, ils ont répondu : nous ne pouvons pas ne pas parler de ce que nous avons vu et entendu. Quand quelque chose de merveilleux nous arrive, nous en parlons naturellement. Le témoignage n'est pas d'abord un devoir, c'est un débordement."
+        },
+        {
+          "verset": "Ac 4:20"
+        }
+      ]
     },
     {
-     "verset": "Ac 1:8"
+      "numero": "3",
+      "titre": "Le témoignage de la vie",
+      "references": [
+        "Mt 5:14-16",
+        "1 P 3:15-16",
+        "Col 4:5"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une lumière qui se voit"
+        },
+        {
+          "texte": "Jésus a dit : vous êtes la lumière du monde. Que votre lumière luise ainsi devant les hommes, afin qu'ils voient vos bonnes œuvres, et qu'ils glorifient votre Père qui est dans les cieux. Avant d'entendre ce que tu dis, les gens voient comment tu vis : ta manière de travailler, de parler, de réagir quand on te fait du tort, de gérer ton argent, de traiter ta famille."
+        },
+        {
+          "verset": "Mt 5:14-16"
+        },
+        {
+          "texte": "Une vie incohérente ferme les portes : si tu parles de Jésus le dimanche et que tu triches au travail le lundi, ton collègue n'écoutera pas. Mais une vie transformée ouvre les portes : un jour, quelqu'un te demandera : « Pourquoi es-tu différent ? »"
+        },
+        {
+          "sous_titre": "Être prêt à répondre"
+        },
+        {
+          "texte": "Pierre écrit : soyez toujours prêts à vous défendre, avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous, et ayant une bonne conscience. Remarque deux choses : être prêt, et le faire avec douceur et respect. Le témoin n'est ni timide ni agressif. Il est préparé, et il aime."
+        },
+        {
+          "verset": "1 P 3:15-16"
+        },
+        {
+          "sous_titre": "Avec sagesse"
+        },
+        {
+          "texte": "Paul ajoute : conduisez-vous avec sagesse envers ceux du dehors, et rachetez le temps. La sagesse, c'est de choisir le bon moment, les bons mots, de ne pas forcer, de savoir écouter. On ne parle pas de la même façon à un collègue musulman, à un voisin athée ou à un cousin qui va à l'église sans connaître Jésus. L'application t'aide avec la rubrique « Approches »."
+        },
+        {
+          "verset": "Col 4:5"
+        }
+      ]
     },
     {
-     "texte": "Dans le livre des Actes, quand la persécution a éclaté à Jérusalem, les apôtres sont restés en ville, et les simples croyants ont été dispersés. Et que faisaient-ils ? Ceux qui avaient été dispersés allaient de lieu en lieu, annonçant la bonne nouvelle de la parole. L'Évangile s'est répandu grâce à des chrétiens ordinaires, comme toi."
+      "numero": "4",
+      "titre": "Préparer ton témoignage",
+      "references": [
+        "Jn 1:41",
+        "Jn 1:45-46",
+        "Ap 12:11"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Trois temps simples"
+        },
+        {
+          "texte": "L'apôtre Paul a raconté son témoignage devant le roi Agrippa en trois temps : sa vie avant Jésus, sa rencontre avec Jésus sur le chemin de Damas, et sa vie depuis. Tu peux faire la même chose. Avant : ce qui te manquait, ce que tu cherchais. La rencontre : comment tu as compris l'Évangile et reçu Jésus. Depuis : ce qui a changé. Garde-le court, environ trois minutes. Dans l'application, l'atelier « Mon témoignage en 3 minutes » t'aide à l'écrire."
+        },
+        {
+          "sous_titre": "Des erreurs à éviter"
+        },
+        {
+          "texte": "N'exagère pas : la vérité suffit. Ne glorifie pas ton passé de péché avec trop de détails. N'utilise pas trop de mots d'église que les gens ne comprennent pas. Parle surtout de Jésus, pas seulement de toi. Et ne termine pas sans inviter : une question simple comme « Et toi, qu'en penses-tu ? » ou « Aimerais-tu connaître Jésus comme moi ? »."
+        },
+        {
+          "sous_titre": "Viens et vois"
+        },
+        {
+          "texte": "Le tout premier réflexe des disciples a été d'aller chercher quelqu'un. André a rencontré son frère Simon et lui a dit : nous avons trouvé le Messie. Philippe a rencontré Nathanaël, qui était sceptique : peut-il venir de Nazareth quelque chose de bon ? Philippe n'a pas argumenté. Il a dit : viens, et vois. Parfois, le meilleur témoignage, c'est d'inviter quelqu'un à venir voir : à l'église, à une étude biblique, à lire un passage avec toi."
+        },
+        {
+          "verset": "Jn 1:41"
+        },
+        {
+          "verset": "Jn 1:45-46"
+        }
+      ]
     },
     {
-     "verset": "Ac 8:4"
+      "numero": "5",
+      "titre": "Les quatre lépreux : « nous ne faisons pas bien »",
+      "references": [
+        "2 R 7:3-9",
+        "Pr 24:11-12"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une ville affamée"
+        },
+        {
+          "texte": "La ville de Samarie était assiégée par l'armée syrienne. La famine était si terrible que les gens payaient une fortune pour une tête d'âne, et que des mères en étaient arrivées à des choses atroces. À l'entrée de la ville, en dehors des murailles, il y avait quatre lépreux. Ils se sont dit : pourquoi resterions-nous ici jusqu'à ce que nous mourions ? Si nous entrons dans la ville, nous y mourrons de faim. Si nous restons ici, nous mourrons aussi. Allons nous jeter dans le camp des Syriens : s'ils nous laissent la vie, nous vivrons ; s'ils nous font mourir, nous mourrons."
+        },
+        {
+          "verset": "2 R 7:3-9"
+        },
+        {
+          "sous_titre": "Un camp vide"
+        },
+        {
+          "texte": "Quand ils sont arrivés au camp syrien, il n'y avait plus personne. Dieu avait fait entendre aux Syriens un bruit de chars et de chevaux, et ils s'étaient enfuis dans la nuit, laissant tout derrière eux : leurs tentes, leurs chevaux, leurs ânes, leur nourriture, leur or et leur argent. Les lépreux sont entrés dans une tente, ont mangé et bu, ont emporté de l'argent, de l'or et des vêtements, et sont allés les cacher. Puis ils sont entrés dans une autre tente, et ont recommencé."
+        },
+        {
+          "sous_titre": "La conscience qui parle"
+        },
+        {
+          "texte": "Puis ils se sont arrêtés. Ils se dirent l'un à l'autre : nous n'agissons pas bien ! Cette journée est une journée de bonne nouvelle ; si nous gardons le silence et si nous attendons jusqu'à la lumière du matin, la punition nous atteindra. Venez maintenant, allons informer la maison du roi."
+        },
+        {
+          "texte": "Voilà la conscience du témoin. Ces quatre hommes avaient trouvé de quoi vivre, alors que toute une ville mourait de faim à quelques centaines de mètres. Garder cette nouvelle pour eux aurait été un crime."
+        },
+        {
+          "sous_titre": "Nous aussi"
+        },
+        {
+          "texte": "Nous avons trouvé le pain de vie. Nous avons été nourris, pardonnés, sauvés. Autour de nous, des gens meurent spirituellement : dans la peur, dans le péché, sans espérance. Si nous gardons le silence, nous n'agissons pas bien. C'est une journée de bonne nouvelle."
+        },
+        {
+          "texte": "Remarque aussi qui Dieu a utilisé pour annoncer la délivrance : quatre lépreux, des exclus que personne ne voulait voir. Dieu n'a pas besoin de personnes importantes pour porter la bonne nouvelle. Il a besoin de personnes qui ont goûté sa bonté et qui ne peuvent pas se taire."
+        },
+        {
+          "texte": "Le livre des Proverbes dit : délivre ceux qu'on traîne à la mort, ceux qu'on va égorger, sauve-les ! Si tu dis : ah ! nous ne savions pas !… Celui qui pèse les cœurs ne le voit-il pas ?"
+        },
+        {
+          "verset": "Pr 24:11-12"
+        }
+      ]
     },
     {
-     "sous_titre": "Des ambassadeurs"
+      "numero": "6",
+      "titre": "La femme qui avait touché son vêtement",
+      "references": [
+        "Mc 5:25-34",
+        "Ps 107:2",
+        "Ps 66:16"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une guérison discrète"
+        },
+        {
+          "texte": "Une femme souffrait d'une perte de sang depuis douze ans. Elle avait beaucoup souffert entre les mains de plusieurs médecins, elle avait dépensé tout ce qu'elle avait, et elle n'avait éprouvé aucun soulagement ; au contraire, son état avait plutôt empiré. Selon la loi, elle était impure, et tout ce qu'elle touchait devenait impur. Elle vivait exclue. Ayant entendu parler de Jésus, elle vint dans la foule par derrière, et toucha son vêtement. Car elle disait : si je puis seulement toucher ses vêtements, je serai guérie. Au même instant, la perte de sang s'arrêta."
+        },
+        {
+          "verset": "Mc 5:25-34"
+        },
+        {
+          "texte": "Elle aurait voulu repartir sans que personne le sache. Une guérison secrète, une foi cachée."
+        },
+        {
+          "sous_titre": "« Qui a touché mes vêtements ? »"
+        },
+        {
+          "texte": "Mais Jésus s'est arrêté. Il a demandé : qui a touché mes vêtements ? Les disciples étaient étonnés : la foule te presse de tous côtés, et tu demandes qui t'a touché ? Mais Jésus regardait autour de lui. La femme, effrayée et tremblante, vint se jeter à ses pieds, et lui dit toute la vérité, devant tout le monde."
+        },
+        {
+          "texte": "Pourquoi Jésus a-t-il voulu qu'elle parle ? Pas pour l'humilier, mais pour elle et pour les autres. Pour elle, afin qu'elle entende de sa bouche : ma fille, ta foi t'a sauvée ; va en paix, et sois guérie de ton mal. Elle n'était plus seulement une femme guérie en cachette, mais une fille déclarée publiquement pure et acceptée. Et pour la foule, qui a entendu ce que Dieu avait fait."
+        },
+        {
+          "sous_titre": "Le témoignage complète la guérison"
+        },
+        {
+          "texte": "Beaucoup de chrétiens ont été touchés par Jésus en secret : délivrés d'une dépendance, guéris d'une blessure, consolés dans un deuil. Mais ils n'en ont jamais parlé. Le psalmiste dit : qu'ainsi disent les rachetés de l'Éternel, ceux qu'il a délivrés de la main de l'ennemi."
+        },
+        {
+          "verset": "Ps 107:2"
+        },
+        {
+          "texte": "Et encore : venez, écoutez, vous tous qui craignez Dieu, et je raconterai ce qu'il a fait à mon âme."
+        },
+        {
+          "verset": "Ps 66:16"
+        },
+        {
+          "texte": "Raconter ce que Dieu a fait n'est pas de l'orgueil, si c'est pour sa gloire. C'est souvent la dernière étape de la guérison : passer de la honte à la reconnaissance publique."
+        }
+      ]
     },
     {
-     "texte": "Paul dit : nous faisons donc les fonctions d'ambassadeurs pour Christ, comme si Dieu exhortait par nous. Un ambassadeur représente son pays à l'étranger. Il parle au nom de son président. Toi, au bureau, au quartier, au marché, à l'école, tu représentes le royaume de Dieu. Par ta vie et par tes paroles, Dieu lance son appel : soyez réconciliés avec Dieu."
+      "numero": "7",
+      "titre": "Paul devant le roi Agrippa",
+      "references": [
+        "Ac 26:9-18",
+        "Ac 26:24-29",
+        "1 Co 15:9-10"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un témoignage devant les puissants"
+        },
+        {
+          "texte": "Paul était prisonnier à Césarée. Le roi Agrippa, la reine Bérénice, le gouverneur Festus et les notables de la ville étaient réunis dans une salle d'audience solennelle. On a fait venir Paul enchaîné. Et Paul, au lieu de se défendre avec des arguments juridiques, a raconté son histoire."
+        },
+        {
+          "sous_titre": "Avant, la rencontre, après"
+        },
+        {
+          "texte": "Il a commencé par avouer ce qu'il avait été : pour moi, j'avais cru devoir agir vigoureusement contre le nom de Jésus de Nazareth. C'est ce que j'ai fait à Jérusalem. J'ai jeté en prison plusieurs des saints, et, quand on les mettait à mort, je joignais mon suffrage à celui des autres."
+        },
+        {
+          "verset": "Ac 26:9-18"
+        },
+        {
+          "texte": "Puis il a raconté sa rencontre avec Jésus sur le chemin de Damas : je vis en chemin, ô roi, resplendir autour de moi et de mes compagnons une lumière venant du ciel, et plus éclatante que celle du soleil. Et j'entendis une voix : Saul, Saul, pourquoi me persécutes-tu ? Je répondis : qui es-tu, Seigneur ? Et le Seigneur dit : je suis Jésus que tu persécutes."
+        },
+        {
+          "texte": "Et il a expliqué ce que Jésus lui avait confié : ouvrir les yeux des nations, afin qu'elles passent des ténèbres à la lumière et de la puissance de Satan à Dieu, et qu'elles reçoivent le pardon des péchés."
+        },
+        {
+          "texte": "C'est exactement la structure simple d'un témoignage : ce que j'étais, comment j'ai rencontré Jésus, ce qu'il a changé."
+        },
+        {
+          "sous_titre": "Les réactions"
+        },
+        {
+          "texte": "Festus l'interrompit : tu es fou, Paul ! Ton grand savoir te fait déraisonner. Paul répondit avec calme : je ne suis point fou, très excellent Festus ; ce sont, au contraire, des paroles de vérité et de bon sens que je prononce. Puis il s'est tourné vers le roi : crois-tu aux prophètes, roi Agrippa ? Je sais que tu y crois. Agrippa répondit : tu vas bientôt me persuader de devenir chrétien ! Et Paul : que ce soit bientôt ou que ce soit tard, plaise à Dieu que non seulement toi, mais encore tous ceux qui m'écoutent aujourd'hui, vous deveniez tels que je suis, à l'exception de ces liens !"
+        },
+        {
+          "verset": "Ac 26:24-29"
+        },
+        {
+          "texte": "Remarque : Paul ne se fâche pas quand on le traite de fou. Il reste respectueux, il continue à parler, et il souhaite à ses auditeurs, même au roi, de connaître la même grâce que lui. Il n'a pas honte de ses chaînes, mais il ne les souhaite à personne."
+        },
+        {
+          "sous_titre": "Ne pas avoir honte de son passé"
+        },
+        {
+          "texte": "Paul écrit ailleurs : je suis le moindre des apôtres, je ne suis pas digne d'être appelé apôtre, parce que j'ai persécuté l'Église de Dieu. Par la grâce de Dieu je suis ce que je suis."
+        },
+        {
+          "verset": "1 Co 15:9-10"
+        },
+        {
+          "texte": "Ton passé, même honteux, peut devenir le meilleur témoignage de la grâce de Dieu. Il ne s'agit pas de raconter ses péchés avec plaisir ou avec des détails inutiles. Mais de dire simplement : voilà d'où Dieu m'a tiré."
+        }
+      ]
     },
     {
-     "verset": "2 Co 5:20"
+      "numero": "8",
+      "titre": "Un feu dans les os : quand on ne peut pas se taire",
+      "references": [
+        "Jr 20:7-9",
+        "Ac 4:18-20",
+        "Am 3:8"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "La tentation de Jérémie"
+        },
+        {
+          "texte": "Le prophète Jérémie a payé cher sa fidélité. On se moquait de lui, on l'a battu, on l'a mis aux ceps. Un jour, il a été tenté d'arrêter : je suis chaque jour un objet de raillerie, tout le monde se moque de moi. Si je dis : je ne ferai plus mention de lui, je ne parlerai plus en son nom, il y a dans mon cœur comme un feu dévorant qui est renfermé dans mes os. Je m'efforce de le contenir, et je ne le puis."
+        },
+        {
+          "verset": "Jr 20:7-9"
+        },
+        {
+          "texte": "Jérémie voulait se taire, et il ne pouvait pas. La Parole de Dieu en lui était comme un feu."
+        },
+        {
+          "sous_titre": "Les apôtres devant le sanhédrin"
+        },
+        {
+          "texte": "Quand les chefs juifs ont interdit à Pierre et Jean de parler au nom de Jésus, ils ont répondu : jugez s'il est juste, devant Dieu, de vous obéir plutôt qu'à Dieu ; car nous ne pouvons pas ne pas parler de ce que nous avons vu et entendu."
+        },
+        {
+          "verset": "Ac 4:18-20"
+        },
+        {
+          "texte": "Le prophète Amos dit : le lion rugit : qui ne serait effrayé ? Le Seigneur, l'Éternel, parle : qui ne prophétiserait ?"
+        },
+        {
+          "verset": "Am 3:8"
+        },
+        {
+          "sous_titre": "Si le feu s'est éteint"
+        },
+        {
+          "texte": "Si tu n'as aucune envie de parler de Jésus, ne te condamne pas, mais demande-toi pourquoi. Peut-être que ta relation avec lui s'est refroidie. Peut-être que tu as oublié d'où il t'a tiré. Peut-être que la peur a pris le dessus. Retourne à lui, relis ce qu'il a fait pour toi, demande-lui de rallumer le feu. Le témoignage n'est pas d'abord un devoir à accomplir ; c'est le débordement d'un cœur qui aime."
+        },
+        {
+          "texte": "On raconte l'histoire d'un chauffeur de taxi, converti depuis peu, qui ne savait ni bien lire ni bien parler. Chaque client qui montait dans sa voiture entendait la même phrase : « Je dois vous dire une chose : avant, j'étais un homme violent qui buvait. Jésus m'a changé. » Puis il se taisait et conduisait. Certains riaient, d'autres posaient des questions. Des années plus tard, son pasteur a compté au moins une vingtaine de personnes qui étaient venues à l'église après avoir pris son taxi. Ce chauffeur disait : « Je ne sais pas prêcher. Mais je ne peux pas me taire. »"
+        }
+      ]
+    },
+    {
+      "numero": "9",
+      "titre": "Vaincre la honte et la peur",
+      "references": [
+        "Rm 1:16",
+        "2 Tm 1:8",
+        "Mt 10:32",
+        "1 Co 3:6"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Ne pas avoir honte"
+        },
+        {
+          "texte": "Beaucoup de chrétiens ont peur : peur d'être rejetés, moqués, de perdre des amis, de ne pas savoir répondre. Paul connaissait cela, et pourtant il dit : je n'ai point honte de l'Évangile : c'est une puissance de Dieu pour le salut de quiconque croit. Il écrit à Timothée, un jeune homme timide : n'aie donc point honte du témoignage à rendre à notre Seigneur."
+        },
+        {
+          "verset": "Rm 1:16"
+        },
+        {
+          "verset": "2 Tm 1:8"
+        },
+        {
+          "texte": "Jésus a fait une promesse : quiconque me confessera devant les hommes, je le confesserai aussi devant mon Père qui est dans les cieux. Imagine Jésus disant ton nom devant le Père : « Celui-là, il n'a pas eu honte de moi. »"
+        },
+        {
+          "verset": "Mt 10:32"
+        },
+        {
+          "sous_titre": "La puissance vient du Saint-Esprit"
+        },
+        {
+          "texte": "Souviens-toi du premier verset de cette leçon : vous recevrez une puissance, le Saint-Esprit survenant sur vous, et vous serez mes témoins. Ce n'est pas ta force, ton éloquence ou ton diplôme qui convertissent les gens. C'est le Saint-Esprit. Prie avant de parler. Demande-lui l'audace, les mots, et l'occasion."
+        },
+        {
+          "sous_titre": "Ce n'est pas toi qui sauves"
+        },
+        {
+          "texte": "Enfin, libère-toi d'un poids : ce n'est pas toi qui sauves les gens. Paul dit : j'ai planté, Apollos a arrosé, mais Dieu a fait croître. Ton rôle est de semer fidèlement. Certains accepteront tout de suite, d'autres des années plus tard, d'autres jamais. Mais aucune parole semée avec amour n'est perdue."
+        },
+        {
+          "verset": "1 Co 3:6"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "Qu'est-ce qu'un témoignage ?",
-   "references": [
-    "Jn 9:25",
-    "Mc 5:19-20",
-    "Ac 4:20"
-   ],
-   "blocs": [
+  ],
+  "sujets": [
     {
-     "sous_titre": "Raconter ce que l'on a vu et vécu"
+      "titre": "Être témoin",
+      "texte": "Demandons à Dieu de nous remplir du Saint-Esprit pour que nous soyons ses témoins là où il nous a placés. (Actes 1:8)"
     },
     {
-     "texte": "Un témoin, au tribunal, ne vient pas faire un discours de théologie. Il raconte ce qu'il a vu et entendu. L'aveugle guéri par Jésus a été interrogé par des chefs religieux savants. Il ne pouvait pas répondre à toutes leurs questions. Mais il a dit : je sais une chose, c'est que j'étais aveugle et que maintenant je vois. Personne ne pouvait contester cela."
+      "titre": "L'audace",
+      "texte": "Prions afin de ne pas avoir honte de l'Évangile, et de recevoir l'audace de parler de Jésus avec douceur et respect. (Romains 1:16)"
     },
     {
-     "verset": "Jn 9:25"
+      "titre": "Une vie qui parle",
+      "texte": "Implorons la grâce de Dieu afin que notre vie à la maison et au travail rende témoignage à Jésus avant même nos paroles. (Matthieu 5:16)"
     },
     {
-     "texte": "Ton témoignage, c'est la même chose : ce que Jésus a fait dans ta vie. Tu n'as pas besoin d'avoir fait des études bibliques pendant dix ans pour dire : « Avant, j'étais comme ceci ; puis j'ai rencontré Jésus ; et depuis, voici ce qui a changé. »"
+      "titre": "Les miens",
+      "texte": "Prions pour chaque membre de notre famille qui ne connaît pas encore Jésus, et demandons une occasion de leur raconter ce que le Seigneur a fait pour nous. (Marc 5:19)"
     },
     {
-     "sous_titre": "Commencer par les siens"
-    },
-    {
-     "texte": "Jésus a délivré un homme possédé par une légion de démons. L'homme voulait le suivre partout. Mais Jésus lui a dit : va dans ta maison, vers les tiens, et raconte-leur tout ce que le Seigneur t'a fait, et comment il a eu pitié de toi. Et il s'en alla, et se mit à publier dans la Décapole tout ce que Jésus avait fait pour lui. Et tous furent dans l'étonnement."
-    },
-    {
-     "verset": "Mc 5:19-20"
-    },
-    {
-     "texte": "Ton premier champ de mission, c'est ta maison, ta famille, tes amis, tes collègues. Ceux qui t'ont connu avant sont ceux qui verront le mieux le changement."
-    },
-    {
-     "sous_titre": "On ne peut pas se taire"
-    },
-    {
-     "texte": "Quand les autorités ont interdit à Pierre et Jean de parler de Jésus, ils ont répondu : nous ne pouvons pas ne pas parler de ce que nous avons vu et entendu. Quand quelque chose de merveilleux nous arrive, nous en parlons naturellement. Le témoignage n'est pas d'abord un devoir, c'est un débordement."
-    },
-    {
-     "verset": "Ac 4:20"
+      "titre": "Semer avec foi",
+      "texte": "Prions afin de semer fidèlement la Parole, en faisant confiance à Dieu qui seul fait croître. (1 Corinthiens 3:6)"
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "Le témoignage de la vie",
-   "references": [
-    "Mt 5:14-16",
-    "1 P 3:15-16",
-    "Col 4:5"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "Une lumière qui se voit"
+      "question": "Qui est appelé à être témoin de Jésus ?",
+      "choix": [
+        "Seulement les pasteurs et évangélistes",
+        "Tous les disciples de Jésus",
+        "Ceux qui ont fait une école biblique"
+      ],
+      "reponse": 1,
+      "explication": "« Vous serez mes témoins » : Jésus parle à tous ses disciples, et en Actes 8, ce sont de simples croyants qui annoncent la Parole. (Actes 1:8 ; 8:4)",
+      "section": "1"
     },
     {
-     "texte": "Jésus a dit : vous êtes la lumière du monde. Que votre lumière luise ainsi devant les hommes, afin qu'ils voient vos bonnes œuvres, et qu'ils glorifient votre Père qui est dans les cieux. Avant d'entendre ce que tu dis, les gens voient comment tu vis : ta manière de travailler, de parler, de réagir quand on te fait du tort, de gérer ton argent, de traiter ta famille."
+      "question": "Qu'est-ce qu'un témoignage ?",
+      "choix": [
+        "Un débat de théologie",
+        "Raconter ce que Jésus a fait dans ma vie",
+        "Une liste de règles"
+      ],
+      "reponse": 1,
+      "explication": "« Je sais une chose, c'est que j'étais aveugle et que maintenant je vois. » (Jean 9:25)",
+      "section": "2"
     },
     {
-     "verset": "Mt 5:14-16"
+      "question": "D'où vient la puissance pour témoigner ?",
+      "choix": [
+        "De mon éloquence",
+        "De mes diplômes",
+        "Du Saint-Esprit"
+      ],
+      "reponse": 2,
+      "explication": "« Vous recevrez une puissance, le Saint-Esprit survenant sur vous, et vous serez mes témoins. » (Actes 1:8)",
+      "section": "9"
     },
     {
-     "texte": "Une vie incohérente ferme les portes : si tu parles de Jésus le dimanche et que tu triches au travail le lundi, ton collègue n'écoutera pas. Mais une vie transformée ouvre les portes : un jour, quelqu'un te demandera : « Pourquoi es-tu différent ? »"
+      "question": "Pourquoi les quatre lépreux ont-ils dit « nous n'agissons pas bien » ?",
+      "choix": [
+        "Parce qu'ils avaient volé",
+        "Parce qu'ils gardaient pour eux une bonne nouvelle alors que la ville mourait de faim",
+        "Parce qu'ils avaient peur"
+      ],
+      "reponse": 1,
+      "explication": "2 Rois 7:9. Nous avons trouvé le pain de vie.",
+      "section": "5"
     },
     {
-     "sous_titre": "Être prêt à répondre"
+      "question": "Pourquoi Jésus a-t-il demandé « Qui a touché mes vêtements ? » ?",
+      "choix": [
+        "Pour humilier la femme",
+        "Pour qu'elle témoigne et reçoive publiquement sa parole de paix et de guérison",
+        "Parce qu'il ne savait pas"
+      ],
+      "reponse": 1,
+      "explication": "Marc 5:30-34. Le témoignage complète la guérison.",
+      "section": "6"
     },
     {
-     "texte": "Pierre écrit : soyez toujours prêts à vous défendre, avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous, et ayant une bonne conscience. Remarque deux choses : être prêt, et le faire avec douceur et respect. Le témoin n'est ni timide ni agressif. Il est préparé, et il aime."
+      "question": "Comment Paul a-t-il construit son témoignage devant Agrippa ?",
+      "choix": [
+        "Avec des arguments juridiques",
+        "Ce qu'il était, sa rencontre avec Jésus, ce que Jésus lui a confié",
+        "En insultant ses accusateurs"
+      ],
+      "reponse": 1,
+      "explication": "Actes 26:9-18.",
+      "section": "7"
     },
     {
-     "verset": "1 P 3:15-16"
-    },
-    {
-     "sous_titre": "Avec sagesse"
-    },
-    {
-     "texte": "Paul ajoute : conduisez-vous avec sagesse envers ceux du dehors, et rachetez le temps. La sagesse, c'est de choisir le bon moment, les bons mots, de ne pas forcer, de savoir écouter. On ne parle pas de la même façon à un collègue musulman, à un voisin athée ou à un cousin qui va à l'église sans connaître Jésus. L'application t'aide avec la rubrique « Approches »."
-    },
-    {
-     "verset": "Col 4:5"
+      "question": "Que dit Jérémie du feu de la Parole dans son cœur ?",
+      "choix": [
+        "Qu'il s'est éteint",
+        "Qu'il ne peut pas le contenir, même quand il veut se taire",
+        "Qu'il le fait souffrir inutilement"
+      ],
+      "reponse": 1,
+      "explication": "Jérémie 20:9.",
+      "section": "8"
     }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "Préparer ton témoignage",
-   "references": [
-    "Jn 1:41",
-    "Jn 1:45-46",
-    "Ap 12:11"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Trois temps simples"
-    },
-    {
-     "texte": "L'apôtre Paul a raconté son témoignage devant le roi Agrippa en trois temps : sa vie avant Jésus, sa rencontre avec Jésus sur le chemin de Damas, et sa vie depuis. Tu peux faire la même chose. Avant : ce qui te manquait, ce que tu cherchais. La rencontre : comment tu as compris l'Évangile et reçu Jésus. Depuis : ce qui a changé. Garde-le court, environ trois minutes. Dans l'application, l'atelier « Mon témoignage en 3 minutes » t'aide à l'écrire."
-    },
-    {
-     "sous_titre": "Des erreurs à éviter"
-    },
-    {
-     "texte": "N'exagère pas : la vérité suffit. Ne glorifie pas ton passé de péché avec trop de détails. N'utilise pas trop de mots d'église que les gens ne comprennent pas. Parle surtout de Jésus, pas seulement de toi. Et ne termine pas sans inviter : une question simple comme « Et toi, qu'en penses-tu ? » ou « Aimerais-tu connaître Jésus comme moi ? »."
-    },
-    {
-     "sous_titre": "Viens et vois"
-    },
-    {
-     "texte": "Le tout premier réflexe des disciples a été d'aller chercher quelqu'un. André a rencontré son frère Simon et lui a dit : nous avons trouvé le Messie. Philippe a rencontré Nathanaël, qui était sceptique : peut-il venir de Nazareth quelque chose de bon ? Philippe n'a pas argumenté. Il a dit : viens, et vois. Parfois, le meilleur témoignage, c'est d'inviter quelqu'un à venir voir : à l'église, à une étude biblique, à lire un passage avec toi."
-    },
-    {
-     "verset": "Jn 1:41"
-    },
-    {
-     "verset": "Jn 1:45-46"
-    }
-   ]
-  },
-  {
-   "numero": "5",
-   "titre": "Vaincre la honte et la peur",
-   "references": [
-    "Rm 1:16",
-    "2 Tm 1:8",
-    "Mt 10:32",
-    "1 Co 3:6"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Ne pas avoir honte"
-    },
-    {
-     "texte": "Beaucoup de chrétiens ont peur : peur d'être rejetés, moqués, de perdre des amis, de ne pas savoir répondre. Paul connaissait cela, et pourtant il dit : je n'ai point honte de l'Évangile : c'est une puissance de Dieu pour le salut de quiconque croit. Il écrit à Timothée, un jeune homme timide : n'aie donc point honte du témoignage à rendre à notre Seigneur."
-    },
-    {
-     "verset": "Rm 1:16"
-    },
-    {
-     "verset": "2 Tm 1:8"
-    },
-    {
-     "texte": "Jésus a fait une promesse : quiconque me confessera devant les hommes, je le confesserai aussi devant mon Père qui est dans les cieux. Imagine Jésus disant ton nom devant le Père : « Celui-là, il n'a pas eu honte de moi. »"
-    },
-    {
-     "verset": "Mt 10:32"
-    },
-    {
-     "sous_titre": "La puissance vient du Saint-Esprit"
-    },
-    {
-     "texte": "Souviens-toi du premier verset de cette leçon : vous recevrez une puissance, le Saint-Esprit survenant sur vous, et vous serez mes témoins. Ce n'est pas ta force, ton éloquence ou ton diplôme qui convertissent les gens. C'est le Saint-Esprit. Prie avant de parler. Demande-lui l'audace, les mots, et l'occasion."
-    },
-    {
-     "sous_titre": "Ce n'est pas toi qui sauves"
-    },
-    {
-     "texte": "Enfin, libère-toi d'un poids : ce n'est pas toi qui sauves les gens. Paul dit : j'ai planté, Apollos a arrosé, mais Dieu a fait croître. Ton rôle est de semer fidèlement. Certains accepteront tout de suite, d'autres des années plus tard, d'autres jamais. Mais aucune parole semée avec amour n'est perdue."
-    },
-    {
-     "verset": "1 Co 3:6"
-    }
-   ]
-  }
- ],
- "sujets": [
-  {
-   "titre": "Être témoin",
-   "texte": "Demandons à Dieu de nous remplir du Saint-Esprit pour que nous soyons ses témoins là où il nous a placés. (Actes 1:8)"
-  },
-  {
-   "titre": "L'audace",
-   "texte": "Prions afin de ne pas avoir honte de l'Évangile, et de recevoir l'audace de parler de Jésus avec douceur et respect. (Romains 1:16)"
-  },
-  {
-   "titre": "Une vie qui parle",
-   "texte": "Implorons la grâce de Dieu afin que notre vie à la maison et au travail rende témoignage à Jésus avant même nos paroles. (Matthieu 5:16)"
-  },
-  {
-   "titre": "Les miens",
-   "texte": "Prions pour chaque membre de notre famille qui ne connaît pas encore Jésus, et demandons une occasion de leur raconter ce que le Seigneur a fait pour nous. (Marc 5:19)"
-  },
-  {
-   "titre": "Semer avec foi",
-   "texte": "Prions afin de semer fidèlement la Parole, en faisant confiance à Dieu qui seul fait croître. (1 Corinthiens 3:6)"
-  }
- ],
- "questions": [
-  {
-   "question": "Qui est appelé à être témoin de Jésus ?",
-   "choix": [
-    "Seulement les pasteurs et évangélistes",
-    "Tous les disciples de Jésus",
-    "Ceux qui ont fait une école biblique"
-   ],
-   "reponse": 1,
-   "explication": "« Vous serez mes témoins » : Jésus parle à tous ses disciples, et en Actes 8, ce sont de simples croyants qui annoncent la Parole. (Actes 1:8 ; 8:4)",
-   "section": "1"
-  },
-  {
-   "question": "Qu'est-ce qu'un témoignage ?",
-   "choix": [
-    "Un débat de théologie",
-    "Raconter ce que Jésus a fait dans ma vie",
-    "Une liste de règles"
-   ],
-   "reponse": 1,
-   "explication": "« Je sais une chose, c'est que j'étais aveugle et que maintenant je vois. » (Jean 9:25)",
-   "section": "2"
-  },
-  {
-   "question": "D'où vient la puissance pour témoigner ?",
-   "choix": [
-    "De mon éloquence",
-    "De mes diplômes",
-    "Du Saint-Esprit"
-   ],
-   "reponse": 2,
-   "explication": "« Vous recevrez une puissance, le Saint-Esprit survenant sur vous, et vous serez mes témoins. » (Actes 1:8)",
-   "section": "5"
-  }
- ],
- "devoir": [
-  "Écris ton témoignage en trois parties dans l'atelier « Mon témoignage en 3 minutes » (rubrique Évangéliser).",
-  "Écris les noms de cinq personnes de ton entourage qui ne connaissent pas Jésus (ta « liste des 5 ») et prie pour elles chaque jour.",
-  "Cette semaine, raconte ton témoignage à au moins une personne, ou invite-la à « venir voir » à l'église ou à une étude biblique."
- ],
- "prieres_liees": [
-  "theme:priere-temoigner"
- ],
- "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-14",
- "relu": false
+  ],
+  "devoir": [
+    "Écris ton témoignage en trois parties dans l'atelier « Mon témoignage en 3 minutes » (rubrique Évangéliser).",
+    "Écris les noms de cinq personnes de ton entourage qui ne connaissent pas Jésus (ta « liste des 5 ») et prie pour elles chaque jour.",
+    "Cette semaine, raconte ton témoignage à au moins une personne, ou invite-la à « venir voir » à l'église ou à une étude biblique."
+  ],
+  "prieres_liees": [
+    "theme:priere-temoigner"
+  ],
+  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-14",
+  "relu": false
 }
