@@ -1,420 +1,675 @@
 {
- "id": "disciple-v2-07-le-pardon",
- "titre": "Le pardon : pardonner, demander pardon, réparer",
- "serie": "Affermissement",
- "theme": "Affermissement",
- "auteur": "Yeshaya",
- "resume": "Septième leçon du volume 2, qui réunit tout l'enseignement sur le pardon : pourquoi pardonner, ce que le pardon est et n'est pas, comment pardonner une blessure profonde, se pardonner les uns les autres dans l'église, demander pardon, réparer le tort causé, et ce qu'on fait quand l'autre refuse.",
- "image": "/assets/famille-quotidien/consolation-deuil.webp",
- "verset_de_base": "Col 3:13",
- "lecture_minutes": 21,
- "objectifs": [
-  "Comprendre que le pardon de Dieu reçu nous oblige à pardonner.",
-  "Distinguer le pardon de l'oubli, de l'excuse et de la confiance.",
-  "Savoir pardonner concrètement, même une blessure profonde.",
-  "Apprendre à demander pardon sans se justifier et à réparer le tort causé.",
-  "Vivre le pardon mutuel dans l'église et dans la famille."
- ],
- "introduction": "Il n'y a pas une famille, pas un couple, pas une église où il n'y a pas de blessures. On t'a trahi, humilié, volé, abandonné, abusé peut-être. Et toi aussi, tu as blessé des gens, parfois sans t'en rendre compte, parfois en le sachant très bien. Le pardon n'est pas un sujet théorique. C'est une question de vie ou de mort pour ta vie spirituelle.\n\nBeaucoup de chrétiens prient, jeûnent, chantent, et restent bloqués. Ils ne grandissent pas, leurs prières semblent ne pas passer, leur cœur est lourd. Très souvent, la racine est là : une offense qu'ils n'ont jamais pardonnée, ou un tort qu'ils ont fait et qu'ils n'ont jamais réparé.\n\nCette leçon réunit tout ce que la Bible dit sur le pardon. Nous verrons d'abord pourquoi pardonner, ce que le pardon est et n'est pas, et comment pardonner. Puis nous verrons le pardon entre frères dans l'église, comment demander pardon, comment réparer, et que faire quand l'autre refuse. Prends ton temps. Cette leçon peut se faire en deux semaines.",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "Pourquoi pardonner",
-   "references": [
-    "Mt 18:21-35",
-    "Ep 4:32",
-    "Mt 6:14-15"
-   ],
-   "blocs": [
+  "id": "disciple-v2-07-le-pardon",
+  "titre": "Le pardon : pardonner, demander pardon, réparer",
+  "serie": "Affermissement",
+  "theme": "Affermissement",
+  "auteur": "Yeshaya",
+  "resume": "Septième leçon du volume 2, qui réunit tout l'enseignement sur le pardon : pourquoi pardonner, ce que le pardon est et n'est pas, comment pardonner une blessure profonde, se pardonner les uns les autres dans l'église, demander pardon, réparer le tort causé, et ce qu'on fait quand l'autre refuse.",
+  "image": "/assets/famille-quotidien/consolation-deuil.webp",
+  "verset_de_base": "Col 3:13",
+  "lecture_minutes": 39,
+  "objectifs": [
+    "Comprendre que le pardon de Dieu reçu nous oblige à pardonner.",
+    "Distinguer le pardon de l'oubli, de l'excuse et de la confiance.",
+    "Savoir pardonner concrètement, même une blessure profonde.",
+    "Apprendre à demander pardon sans se justifier et à réparer le tort causé.",
+    "Vivre le pardon mutuel dans l'église et dans la famille."
+  ],
+  "introduction": "Il n'y a pas une famille, pas un couple, pas une église où il n'y a pas de blessures. On t'a trahi, humilié, volé, abandonné, abusé peut-être. Et toi aussi, tu as blessé des gens, parfois sans t'en rendre compte, parfois en le sachant très bien. Le pardon n'est pas un sujet théorique. C'est une question de vie ou de mort pour ta vie spirituelle.\n\nBeaucoup de chrétiens prient, jeûnent, chantent, et restent bloqués. Ils ne grandissent pas, leurs prières semblent ne pas passer, leur cœur est lourd. Très souvent, la racine est là : une offense qu'ils n'ont jamais pardonnée, ou un tort qu'ils ont fait et qu'ils n'ont jamais réparé.\n\nCette leçon réunit tout ce que la Bible dit sur le pardon. Nous verrons d'abord pourquoi pardonner, ce que le pardon est et n'est pas, et comment pardonner. Puis nous verrons le pardon entre frères dans l'église, comment demander pardon, comment réparer, et que faire quand l'autre refuse. Prends ton temps. Cette leçon peut se faire en deux semaines.",
+  "sections": [
     {
-     "sous_titre": "Une dette impossible"
+      "numero": "1",
+      "titre": "Pourquoi pardonner",
+      "references": [
+        "Mt 18:21-35",
+        "Ep 4:32",
+        "Mt 6:14-15"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une dette impossible"
+        },
+        {
+          "texte": "Pierre a demandé à Jésus : combien de fois pardonnerai-je à mon frère ? Jusqu'à sept fois ? Jésus a répondu : jusqu'à septante fois sept fois. Puis il a raconté l'histoire d'un serviteur qui devait dix mille talents à son roi, une somme qu'il n'aurait jamais pu rembourser, même en travaillant toute sa vie. Le roi lui remet toute la dette. Ce serviteur sort, trouve un collègue qui lui doit cent deniers, quelques mois de salaire, le saisit à la gorge et le fait jeter en prison."
+        },
+        {
+          "verset": "Mt 18:21-35"
+        },
+        {
+          "sous_titre": "Ce que Dieu t'a pardonné"
+        },
+        {
+          "texte": "Dans cette histoire, c'est toi le serviteur aux dix mille talents. Ce que tu devais à Dieu, aucune vie de bonnes œuvres n'aurait pu le payer. Jésus l'a payé à la croix. Quand tu refuses de pardonner à quelqu'un, tu te conduis comme ce serviteur : tu as reçu une grâce immense et tu réclames une petite dette. Paul le dit simplement : pardonnez-vous réciproquement, comme Dieu vous a pardonné en Christ."
+        },
+        {
+          "verset": "Ep 4:32"
+        },
+        {
+          "sous_titre": "Un avertissement sérieux"
+        },
+        {
+          "texte": "Jésus a dit : si vous ne pardonnez pas aux hommes, votre Père ne vous pardonnera pas non plus vos offenses. Ce n'est pas qu'on gagne le pardon de Dieu en pardonnant. C'est que celui qui a vraiment reçu le pardon de Dieu devient quelqu'un qui pardonne. Un cœur qui refuse obstinément de pardonner montre qu'il n'a pas compris la grâce. Ne joue pas avec cela."
+        },
+        {
+          "verset": "Mt 6:14-15"
+        },
+        {
+          "sous_titre": "L'amertume est un poison"
+        },
+        {
+          "texte": "L'épître aux Hébreux parle d'une racine d'amertume qui pousse, cause du trouble, et infecte beaucoup de gens. Garder rancune, c'est boire du poison en espérant que l'autre en meure. Celui qui t'a blessé dort peut-être tranquille pendant que toi, tu ne dors plus. L'amertume abîme ta santé, ton mariage, tes enfants, ta prière."
+        },
+        {
+          "verset": "He 12:15"
+        }
+      ]
     },
     {
-     "texte": "Pierre a demandé à Jésus : combien de fois pardonnerai-je à mon frère ? Jusqu'à sept fois ? Jésus a répondu : jusqu'à septante fois sept fois. Puis il a raconté l'histoire d'un serviteur qui devait dix mille talents à son roi, une somme qu'il n'aurait jamais pu rembourser, même en travaillant toute sa vie. Le roi lui remet toute la dette. Ce serviteur sort, trouve un collègue qui lui doit cent deniers, quelques mois de salaire, le saisit à la gorge et le fait jeter en prison."
+      "numero": "2",
+      "titre": "Ce que le pardon est, et ce qu'il n'est pas",
+      "references": [
+        "Rm 12:19",
+        "Gn 50:19-21",
+        "Pr 22:3"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Pardonner n'est pas dire que ce n'était pas grave"
+        },
+        {
+          "texte": "Quand tu pardonnes, tu ne dis pas : ce n'est rien, ce n'était pas grave. Si c'était rien, il n'y aurait rien à pardonner. Le pardon regarde le mal en face, l'appelle par son nom, et décide pourtant de ne pas faire payer la dette."
+        },
+        {
+          "sous_titre": "Pardonner n'est pas oublier"
+        },
+        {
+          "texte": "On entend souvent : pardonner, c'est oublier. Ce n'est pas biblique. Tu ne peux pas effacer ta mémoire. Pardonner, c'est décider de ne plus utiliser ce souvenir comme une arme contre l'autre, de ne plus le ressortir dans chaque dispute, de ne plus le raconter pour salir son nom. Avec le temps, Dieu guérit la blessure, et le souvenir ne fait plus aussi mal."
+        },
+        {
+          "sous_titre": "Pardonner, c'est remettre la justice à Dieu"
+        },
+        {
+          "texte": "Paul dit : ne vous vengez point vous-mêmes, mais laissez agir la colère ; car il est écrit : à moi la vengeance, à moi la rétribution, dit le Seigneur. Pardonner ne veut pas dire que la justice n'existe pas. Cela veut dire que tu remets le dossier entre les mains du juste Juge. Tu arrêtes d'être juge toi-même."
+        },
+        {
+          "verset": "Rm 12:19"
+        },
+        {
+          "sous_titre": "Pardonner n'est pas faire confiance aussitôt"
+        },
+        {
+          "texte": "Joseph a pardonné à ses frères qui l'avaient vendu comme esclave. Mais avant de se faire connaître, il les a mis à l'épreuve pour voir si leur cœur avait changé. Le pardon est un don gratuit, immédiat. La confiance, elle, se reconstruit avec le temps. Une femme battue doit pardonner à son mari, mais elle n'est pas obligée de rester dans une maison où sa vie est en danger. Un enfant abusé doit être protégé de celui qui l'a abusé, même si un jour il lui pardonne. Le sage voit le mal et se cache."
+        },
+        {
+          "verset": "Gn 50:19-21"
+        },
+        {
+          "sous_titre": "Pardonner n'empêche pas la loi"
+        },
+        {
+          "texte": "Si quelqu'un a commis un crime, le pardon personnel ne remplace pas la justice des autorités. Tu peux pardonner à celui qui a volé ta boutique et quand même porter plainte. Tu peux pardonner à un abuseur et le dénoncer pour protéger d'autres enfants. Le pardon touche ton cœur. La justice humaine protège la société (Romains 13:4)."
+        },
+        {
+          "verset": "Pr 22:3"
+        }
+      ]
     },
     {
-     "verset": "Mt 18:21-35"
+      "numero": "3",
+      "titre": "Comment pardonner une blessure profonde",
+      "references": [
+        "Ps 62:9",
+        "Lc 6:27-28",
+        "Lc 23:34"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Être honnête devant Dieu"
+        },
+        {
+          "texte": "Ne fais pas semblant. Dis à Dieu exactement ce qui t'a été fait et ce que tu ressens : la colère, la honte, la tristesse, le désir de vengeance. Les psaumes sont pleins de cris honnêtes. Répandez vos cœurs en sa présence, dit le psalmiste. Dieu ne te demande pas de nier ta douleur. Il te demande de la lui apporter."
+        },
+        {
+          "verset": "Ps 62:9"
+        },
+        {
+          "sous_titre": "Décider de pardonner"
+        },
+        {
+          "texte": "Le pardon n'est pas d'abord un sentiment, c'est une décision. Si tu attends de sentir l'envie de pardonner, tu attendras toute ta vie. Dis-le à haute voix devant Dieu : « Seigneur, je pardonne à telle personne pour telle chose. Je ne lui fais plus payer cette dette. Je te la remets. » Nomme la personne et nomme l'offense. Un pardon vague ne guérit pas une blessure précise."
+        },
+        {
+          "sous_titre": "Bénir et prier pour lui"
+        },
+        {
+          "texte": "Jésus a dit : aimez vos ennemis, faites du bien à ceux qui vous haïssent, bénissez ceux qui vous maudissent, priez pour ceux qui vous maltraitent. Tu sauras que le pardon avance quand tu pourras prier pour cette personne sans que ta prière soit une malédiction déguisée."
+        },
+        {
+          "verset": "Lc 6:27-28"
+        },
+        {
+          "sous_titre": "Recommencer autant de fois qu'il le faut"
+        },
+        {
+          "texte": "Pour une blessure profonde, il arrive que la colère revienne. Ce n'est pas que ton pardon était faux. C'est que la blessure guérit par étapes. Chaque fois que le souvenir revient, redis-le : je l'ai pardonné, je ne reprends pas la dette. Septante fois sept fois, c'est aussi pour la même offense qui remonte dans ton cœur."
+        },
+        {
+          "sous_titre": "Le modèle de Jésus"
+        },
+        {
+          "texte": "Sur la croix, Jésus a prié pour ceux qui le crucifiaient. Aucun de nous n'a été blessé autant que lui. Il ne te demande pas une chose qu'il n'a pas faite lui-même, et il te donne son Esprit pour la faire."
+        },
+        {
+          "verset": "Lc 23:34"
+        }
+      ]
     },
     {
-     "sous_titre": "Ce que Dieu t'a pardonné"
+      "numero": "4",
+      "titre": "Se pardonner les uns les autres dans l'église",
+      "references": [
+        "Col 3:12-14",
+        "Mt 18:15",
+        "Ep 4:2-3"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une famille de pécheurs pardonnés"
+        },
+        {
+          "texte": "L'église n'est pas un club de gens parfaits. C'est une famille de pécheurs pardonnés qui apprennent à vivre ensemble. Tu seras blessé dans l'église : par une parole du pasteur, par un frère qui ne t'a pas salué, par une sœur qui a répandu une rumeur. Paul dit : supportez-vous les uns les autres, et, si l'un a sujet de se plaindre de l'autre, pardonnez-vous réciproquement. Et par-dessus tout, revêtez-vous de l'amour."
+        },
+        {
+          "verset": "Col 3:12-14"
+        },
+        {
+          "sous_titre": "Aller voir son frère en privé"
+        },
+        {
+          "texte": "Jésus a donné une méthode : si ton frère a péché, va et reprends-le entre toi et lui seul. Pas devant tout le monde. Pas sur WhatsApp. Pas en le racontant d'abord à dix personnes. Beaucoup de divisions dans les églises viennent de gens qui parlent de leur frère au lieu de parler à leur frère."
+        },
+        {
+          "verset": "Mt 18:15"
+        },
+        {
+          "sous_titre": "Ne pas partir à la première blessure"
+        },
+        {
+          "texte": "Certains changent d'église chaque fois qu'ils sont blessés. Ils emportent la même amertume dans la nouvelle église, et le même problème recommence. Paul dit : efforcez-vous de conserver l'unité de l'esprit par le lien de la paix. L'unité demande un effort. Elle se garde en pardonnant."
+        },
+        {
+          "verset": "Ep 4:2-3"
+        }
+      ]
     },
     {
-     "texte": "Dans cette histoire, c'est toi le serviteur aux dix mille talents. Ce que tu devais à Dieu, aucune vie de bonnes œuvres n'aurait pu le payer. Jésus l'a payé à la croix. Quand tu refuses de pardonner à quelqu'un, tu te conduis comme ce serviteur : tu as reçu une grâce immense et tu réclames une petite dette. Paul le dit simplement : pardonnez-vous réciproquement, comme Dieu vous a pardonné en Christ."
+      "numero": "5",
+      "titre": "Demander pardon",
+      "references": [
+        "Mt 5:23-24",
+        "Ps 51:5-6",
+        "Lc 15:18-19"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Avant l'offrande"
+        },
+        {
+          "texte": "Jésus a dit : si tu présentes ton offrande à l'autel, et que là tu te souviennes que ton frère a quelque chose contre toi, laisse là ton offrande, va d'abord te réconcilier avec ton frère, puis viens présenter ton offrande. Dieu met la réconciliation avant le culte. Tu ne peux pas chanter fort le dimanche en ignorant celui que tu as blessé."
+        },
+        {
+          "verset": "Mt 5:23-24"
+        },
+        {
+          "sous_titre": "Reconnaître sans se justifier"
+        },
+        {
+          "texte": "Une fausse demande de pardon ressemble à ceci : « Si je t'ai blessé, pardon. » Ou : « Pardon, mais toi aussi tu as fait… » Ce ne sont pas de vraies demandes de pardon. David a dit : j'ai péché contre toi, j'ai fait ce qui est mal à tes yeux. Une vraie demande dit : « J'ai eu tort de faire ceci. Je t'ai blessé. Je te demande pardon. » Sans « si », sans « mais »."
+        },
+        {
+          "verset": "Ps 51:5-6"
+        },
+        {
+          "sous_titre": "Avec humilité"
+        },
+        {
+          "texte": "Le fils prodigue a préparé ses mots : Père, j'ai péché contre le ciel et contre toi. Je ne suis plus digne d'être appelé ton fils. Demander pardon est humiliant pour l'orgueil. C'est justement pour cela que c'est si puissant. Le mari qui demande pardon à sa femme, le parent qui demande pardon à son enfant, le pasteur qui demande pardon à son église, montrent l'Évangile en actes."
+        },
+        {
+          "verset": "Lc 15:18-19"
+        }
+      ]
     },
     {
-     "verset": "Ep 4:32"
+      "numero": "6",
+      "titre": "Réparer le tort causé",
+      "references": [
+        "Lc 19:8-9",
+        "Nb 5:6-7",
+        "Ex 22:5"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Zachée"
+        },
+        {
+          "texte": "Quand Jésus est entré chez Zachée, le chef des collecteurs d'impôts, Zachée s'est levé et a dit : je donne aux pauvres la moitié de mes biens, et si j'ai fait tort de quelque chose à quelqu'un, je lui rends le quadruple. Jésus a répondu : le salut est entré aujourd'hui dans cette maison. La repentance vraie ne s'arrête pas aux larmes. Elle touche le portefeuille."
+        },
+        {
+          "verset": "Lc 19:8-9"
+        },
+        {
+          "sous_titre": "La loi de la restitution"
+        },
+        {
+          "texte": "Dans la loi de Moïse, celui qui avait fait du tort à son prochain devait confesser son péché et restituer en entier, en ajoutant un cinquième. Dieu prend au sérieux le tort fait à l'autre. Si tu as volé, rends. Si tu as menti sur quelqu'un, va rétablir la vérité devant ceux à qui tu as menti. Si tu as abîmé, répare. Si tu as détourné de l'argent au travail, prends rendez-vous avec ton patron."
+        },
+        {
+          "verset": "Nb 5:6-7"
+        },
+        {
+          "sous_titre": "Avec sagesse"
+        },
+        {
+          "texte": "Certaines réparations demandent du conseil. Avouer un adultère passé, rendre une grosse somme, reconnaître une fraude, peut avoir des conséquences lourdes. Ne reste pas seul : parles-en d'abord à ton pasteur ou à un responsable mûr, prie, et faites un plan ensemble. Mais ne te sers pas de la prudence comme excuse pour ne rien faire."
+        }
+      ]
     },
     {
-     "sous_titre": "Un avertissement sérieux"
+      "numero": "7",
+      "titre": "Quand l'autre refuse",
+      "references": [
+        "Rm 12:18",
+        "1 P 2:23",
+        "Rm 12:21"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Autant que cela dépend de toi"
+        },
+        {
+          "texte": "Paul dit : s'il est possible, autant que cela dépend de vous, soyez en paix avec tous les hommes. Il sait que ce n'est pas toujours possible. Tu ne contrôles pas le cœur de l'autre. Tu peux pardonner sans que l'autre demande pardon. Tu peux demander pardon sans que l'autre accepte. Ta responsabilité est de faire ta part."
+        },
+        {
+          "verset": "Rm 12:18"
+        },
+        {
+          "sous_titre": "Remettre à Dieu"
+        },
+        {
+          "texte": "Si l'autre refuse ton pardon, ou refuse de reconnaître son tort, fais comme Jésus qui s'en remettait à celui qui juge justement. Continue de prier pour lui. Garde ta porte ouverte. Ne parle pas mal de lui."
+        },
+        {
+          "verset": "1 P 2:23"
+        },
+        {
+          "sous_titre": "Surmonter le mal par le bien"
+        },
+        {
+          "texte": "Ne te laisse pas vaincre par le mal, mais surmonte le mal par le bien. Le dernier mot n'appartient pas à celui qui t'a blessé. Il appartient à Dieu, et à l'amour."
+        },
+        {
+          "verset": "Rm 12:21"
+        }
+      ]
     },
     {
-     "texte": "Jésus a dit : si vous ne pardonnez pas aux hommes, votre Père ne vous pardonnera pas non plus vos offenses. Ce n'est pas qu'on gagne le pardon de Dieu en pardonnant. C'est que celui qui a vraiment reçu le pardon de Dieu devient quelqu'un qui pardonne. Un cœur qui refuse obstinément de pardonner montre qu'il n'a pas compris la grâce. Ne joue pas avec cela."
+      "numero": "8",
+      "titre": "Ésaü court à la rencontre de son frère",
+      "references": [
+        "Gn 32:6-7",
+        "Gn 33:1-11"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Vingt ans de peur"
+        },
+        {
+          "texte": "Vingt ans plus tôt, Jacob avait trompé son frère Ésaü et volé la bénédiction de leur père. Ésaü avait juré de le tuer, et Jacob avait dû fuir. Maintenant, Dieu lui demandait de rentrer au pays. Et il savait qu'il allait croiser Ésaü."
+        },
+        {
+          "texte": "Les messagers de Jacob revinrent lui dire : nous sommes allés vers ton frère Ésaü ; et il marche à ta rencontre, avec quatre cents hommes. Jacob fut très effrayé, et saisi d'angoisse."
+        },
+        {
+          "verset": "Gn 32:6-7"
+        },
+        {
+          "texte": "Quatre cents hommes, c'est une petite armée. Jacob pensait que son frère venait se venger. Il divisa sa famille en deux camps, envoya des troupeaux en cadeau devant lui, et passa une nuit entière à lutter avec Dieu dans la prière."
+        },
+        {
+          "sous_titre": "La rencontre"
+        },
+        {
+          "texte": "Le lendemain, Jacob leva les yeux, et regarda ; et voici, Ésaü arrivait, avec les quatre cents hommes. Jacob passa devant sa famille, et il se prosterna en terre sept fois, jusqu'à ce qu'il soit près de son frère."
+        },
+        {
+          "verset": "Gn 33:1-11"
+        },
+        {
+          "texte": "Et voici ce que fit Ésaü : il courut à sa rencontre ; il l'embrassa, se jeta à son cou, et le baisa. Et ils pleurèrent."
+        },
+        {
+          "texte": "Il n'y eut pas de reproches, pas de règlement de comptes, pas de discours sur le passé. Le frère trompé courut, embrassa et pleura avec celui qui l'avait trompé."
+        },
+        {
+          "sous_titre": "Ce que le temps et Dieu avaient fait"
+        },
+        {
+          "texte": "Que s'était-il passé dans le cœur d'Ésaü pendant ces vingt ans ? La Bible ne le dit pas. Mais il est évident que Dieu avait travaillé aussi dans son cœur. La colère qui voulait tuer s'était transformée en tendresse."
+        },
+        {
+          "texte": "Jacob, lui, a reconnu sa faute à sa manière : il s'est prosterné, il a appelé son frère « mon seigneur », il a insisté pour qu'Ésaü accepte ses présents, comme une réparation. Et il a dit une phrase étonnante : c'est pour cela que j'ai regardé ta face comme on regarde la face de Dieu, et tu m'as accueilli favorablement."
+        },
+        {
+          "sous_titre": "Pour nos familles"
+        },
+        {
+          "texte": "Il y a dans nos familles des frères qui ne se parlent plus depuis dix ou vingt ans. Une histoire d'héritage, de terrain, de femme, de mensonge, de trahison. Chacun attend que l'autre fasse le premier pas. Chacun prépare dans sa tête ce qu'il dira pour se justifier."
+        },
+        {
+          "texte": "L'histoire d'Ésaü et de Jacob montre que Dieu peut préparer les deux cœurs. Si tu as fait du tort, va humblement vers celui que tu as blessé, et reconnais ta faute. Si c'est toi qui as été blessé, demande à Dieu de te donner le cœur d'Ésaü : un cœur qui court, qui embrasse et qui pleure, au lieu d'un cœur qui attend sa vengeance."
+        }
+      ]
     },
     {
-     "verset": "Mt 6:14-15"
+      "numero": "9",
+      "titre": "David et Schimeï : laisser Dieu juger",
+      "references": [
+        "2 S 16:5-13",
+        "2 S 19:16-23"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Des pierres et des malédictions"
+        },
+        {
+          "texte": "David fuyait Jérusalem, chassé par la révolte de son propre fils Absalom. Il marchait pieds nus, la tête couverte, en pleurant. Ses fidèles l'accompagnaient. Arrivé près du village de Bachurim, un homme sortit à sa rencontre : Schimeï, un parent de l'ancien roi Saül."
+        },
+        {
+          "verset": "2 S 16:5-13"
+        },
+        {
+          "texte": "Schimeï jetait des pierres à David et à ses serviteurs, et il le maudissait : va-t'en, va-t'en, homme de sang, méchant homme ! L'Éternel fait retomber sur toi tout le sang de la maison de Saül, dont tu occupais le trône. Voici, tu es malheureux, car tu es un homme de sang !"
+        },
+        {
+          "texte": "C'était une accusation injuste. David n'avait pas pris le trône de Saül par le sang. Il avait même épargné la vie de Saül plusieurs fois."
+        },
+        {
+          "sous_titre": "« Laissez-le maudire »"
+        },
+        {
+          "texte": "Abischaï, un des chefs de l'armée, dit au roi : pourquoi ce chien mort maudit-il le roi, mon seigneur ? Laisse-moi, je te prie, aller lui couper la tête. Mais le roi répondit : laissez-le maudire, car l'Éternel le lui a dit. Peut-être l'Éternel regardera-t-il mon affliction, et me fera-t-il du bien en retour des malédictions d'aujourd'hui."
+        },
+        {
+          "texte": "David avait le pouvoir de faire taire Schimeï définitivement. Il ne l'a pas fait. Il a choisi de remettre l'affaire à Dieu. Et il a continué son chemin, pendant que Schimeï marchait à côté sur la montagne, en continuant à maudire, à jeter des pierres et de la poussière."
+        },
+        {
+          "sous_titre": "Le retour du roi"
+        },
+        {
+          "texte": "Quelques semaines plus tard, la révolte d'Absalom était écrasée, et David revenait à Jérusalem en roi. Et qui se précipita le premier à sa rencontre au bord du Jourdain ? Schimeï, avec mille hommes de sa tribu."
+        },
+        {
+          "verset": "2 S 19:16-23"
+        },
+        {
+          "texte": "Il se jeta aux pieds du roi et lui dit : que mon seigneur ne tienne pas compte de mon iniquité, et qu'il oublie que ton serviteur l'a offensé, le jour où le roi mon seigneur sortait de Jérusalem. Car ton serviteur reconnaît qu'il a péché."
+        },
+        {
+          "texte": "De nouveau, Abischaï voulut le tuer. Et de nouveau David refusa. Le roi dit à Schimeï : tu ne mourras point ! Et le roi le lui jura."
+        },
+        {
+          "sous_titre": "Ce que cela nous apprend"
+        },
+        {
+          "texte": "David nous montre deux étapes du pardon. D'abord, quand l'offense est en train de se produire, il refuse de se venger et laisse Dieu juger. Ensuite, quand l'offenseur vient demander pardon, il accorde le pardon, même s'il aurait eu le pouvoir de punir."
+        },
+        {
+          "texte": "Remarque aussi que ce sont souvent nos amis les plus fidèles, comme Abischaï, qui nous poussent à la vengeance : « Tu ne vas pas te laisser faire ! » « Si j'étais toi, je lui montrerais ! » Le pardon demande parfois de résister à nos propres partisans."
+        }
+      ]
     },
     {
-     "sous_titre": "L'amertume est un poison"
+      "numero": "10",
+      "titre": "Osée rachète sa femme infidèle",
+      "references": [
+        "Os 1:2-3",
+        "Os 3:1-3"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un mariage qui raconte une histoire"
+        },
+        {
+          "texte": "Dieu a demandé au prophète Osée quelque chose de très difficile : épouser une femme, Gomer, qui allait lui être infidèle. Le mariage d'Osée devait devenir une image vivante de la relation entre Dieu et son peuple Israël, qui l'abandonnait sans cesse pour d'autres dieux."
+        },
+        {
+          "verset": "Os 1:2-3"
+        },
+        {
+          "texte": "Gomer a eu des enfants, puis elle a quitté Osée pour suivre d'autres hommes. Elle a fini dans la misère, au point d'être vendue comme une esclave."
+        },
+        {
+          "sous_titre": "« Va encore, et aime »"
+        },
+        {
+          "texte": "Alors Dieu a dit à Osée : va encore, et aime une femme aimée d'un amant et adultère ; aime-la comme l'Éternel aime les enfants d'Israël, qui se tournent vers d'autres dieux."
+        },
+        {
+          "verset": "Os 3:1-3"
+        },
+        {
+          "texte": "Osée raconte : je l'achetai pour quinze sicles d'argent, un homer d'orge et un léthec d'orge. Et je lui dis : reste longtemps avec moi, ne te livre pas à la prostitution, et n'appartiens à aucun autre homme ; et je serai de même envers toi."
+        },
+        {
+          "texte": "Imagine Osée au marché aux esclaves, payant pour racheter la femme qui l'avait humilié devant tout le monde. Il ne paie même pas tout en argent : il complète avec de l'orge. Peut-être n'avait-il pas assez. Il a donné ce qu'il avait."
+        },
+        {
+          "sous_titre": "L'amour de Dieu pour nous"
+        },
+        {
+          "texte": "C'est exactement ce que Dieu a fait pour nous. Nous l'avons abandonné, nous avons couru après d'autres maîtres, nous nous sommes vendus au péché. Et Dieu est venu nous racheter, non avec de l'argent, mais avec le sang de son Fils."
+        },
+        {
+          "texte": "Le pardon de Dieu n'est pas un pardon distant, du bout des lèvres. C'est un pardon qui va chercher, qui paie le prix, et qui ramène à la maison."
+        },
+        {
+          "sous_titre": "Une précision importante"
+        },
+        {
+          "texte": "L'histoire d'Osée est d'abord une image de l'amour de Dieu. Elle ne signifie pas qu'une femme ou un mari doit accepter de vivre dans la violence ou dans un adultère qui continue sans repentance. Remarque d'ailleurs qu'Osée pose des conditions claires : ne te livre plus à la prostitution, n'appartiens à aucun autre. Le pardon est offert, mais il appelle un vrai changement. Dans les situations conjugales difficiles, il est sage de demander l'aide de responsables spirituels mûrs."
+        },
+        {
+          "texte": "Mais cette histoire nous montre jusqu'où peut aller l'amour qui pardonne. Peut-être que Dieu te demande, à toi aussi, de « racheter » une relation que tu croyais perdue : un enfant qui t'a déshonoré, un frère qui t'a trahi, un ami qui t'a abandonné."
+        }
+      ]
     },
     {
-     "texte": "L'épître aux Hébreux parle d'une racine d'amertume qui pousse, cause du trouble, et infecte beaucoup de gens. Garder rancune, c'est boire du poison en espérant que l'autre en meure. Celui qui t'a blessé dort peut-être tranquille pendant que toi, tu ne dors plus. L'amertume abîme ta santé, ton mariage, tes enfants, ta prière."
+      "numero": "11",
+      "titre": "Corrie ten Boom et l'ancien gardien",
+      "references": [],
+      "blocs": [
+        {
+          "sous_titre": "Une femme qui avait tout perdu"
+        },
+        {
+          "texte": "Corrie ten Boom était une chrétienne hollandaise. Pendant la Seconde Guerre mondiale, sa famille a caché des Juifs dans leur maison pour les sauver des nazis. Ils ont été dénoncés et arrêtés. Le père de Corrie est mort quelques jours après son arrestation. Corrie et sa sœur Betsie ont été déportées au camp de concentration de Ravensbrück, en Allemagne. Betsie y est morte de faim et de mauvais traitements. Corrie a été libérée, et elle a passé le reste de sa vie à prêcher le pardon de Dieu dans le monde entier."
+        },
+        {
+          "sous_titre": "Une main tendue"
+        },
+        {
+          "texte": "Corrie ten Boom a raconté elle-même ce qui lui est arrivé en 1947, après une réunion dans une église de Munich, en Allemagne. Elle venait de prêcher que Dieu jette nos péchés au fond de la mer. À la fin, un homme s'est avancé vers elle. Elle l'a reconnu immédiatement : c'était l'un des gardiens les plus cruels de Ravensbrück, l'un de ceux qui avaient humilié les prisonnières et vu mourir sa sœur."
+        },
+        {
+          "texte": "L'homme lui a dit qu'il était devenu chrétien après la guerre, qu'il savait que Dieu lui avait pardonné, mais qu'il voulait l'entendre de sa bouche. Et il lui a tendu la main : « Me pardonnerez-vous ? »"
+        },
+        {
+          "sous_titre": "Le combat intérieur"
+        },
+        {
+          "texte": "Corrie a raconté qu'elle est restée là, incapable de bouger. Elle avait prêché le pardon des dizaines de fois. Mais maintenant, devant cet homme, elle ne ressentait que de la colère et le souvenir de Betsie. Elle savait ce que dit Jésus : aimez vos ennemis, bénissez ceux qui vous maudissent, priez pour ceux qui vous persécutent."
+        },
+        {
+          "texte": "Alors elle a prié en silence : « Jésus, je ne peux pas lui pardonner. Donne-moi ton pardon. » Elle a raconté que, sans rien ressentir, elle a levé sa main mécaniquement et a pris la main de l'homme. Et à ce moment, elle a senti un courant d'amour traverser son bras et remplir son cœur. Elle a pu dire : « Je vous pardonne, frère, de tout mon cœur. »"
+        },
+        {
+          "sous_titre": "Le pardon vient de Dieu"
+        },
+        {
+          "texte": "Corrie ten Boom concluait que ce n'est pas sur notre pardon ni sur notre bonté que repose la guérison du monde, mais sur ceux de Dieu. Quand il nous demande d'aimer nos ennemis, il nous donne en même temps l'amour nécessaire. Paul écrit : l'amour de Dieu est répandu dans nos cœurs par le Saint-Esprit qui nous a été donné."
+        },
+        {
+          "texte": "Si tu attends de ressentir le pardon pour pardonner, tu attendras peut-être toute ta vie. Corrie a d'abord obéi en tendant la main, et le sentiment est venu ensuite. Le pardon commence souvent par une décision d'obéir, accompagnée d'une prière honnête : Seigneur, je ne peux pas, mais toi, tu peux en moi."
+        }
+      ]
     },
     {
-     "verset": "He 12:15"
+      "numero": "12",
+      "titre": "Conclusion",
+      "references": [
+        "1 Jn 1:9",
+        "Col 3:13"
+      ],
+      "blocs": [
+        {
+          "texte": "Avant de pardonner aux autres, reçois toi-même le pardon. Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner et nous purifier de toute iniquité. Certains chrétiens disent : « Je n'arrive pas à me pardonner. » En vérité, c'est que nous n'arrivons pas à croire que le pardon de Dieu suffit. Si Dieu t'a pardonné, tu n'as pas le droit de te condamner encore."
+        },
+        {
+          "verset": "1 Jn 1:9"
+        },
+        {
+          "texte": "Puis regarde autour de toi : à qui dois-tu pardonner, à qui dois-tu demander pardon, et quel tort dois-tu réparer ? Ne laisse pas passer cette semaine sans agir. Comme le Christ vous a pardonné, pardonnez-vous aussi."
+        },
+        {
+          "verset": "Col 3:13"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "Ce que le pardon est, et ce qu'il n'est pas",
-   "references": [
-    "Rm 12:19",
-    "Gn 50:19-21",
-    "Pr 22:3"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "Pardonner n'est pas dire que ce n'était pas grave"
+      "question": "Combien de fois Jésus demande-t-il de pardonner ?",
+      "choix": [
+        "Sept fois",
+        "Jusqu'à septante fois sept fois, c'est-à-dire sans compter",
+        "Trois fois"
+      ],
+      "reponse": 1,
+      "explication": "(Matthieu 18:22)",
+      "section": "1"
     },
     {
-     "texte": "Quand tu pardonnes, tu ne dis pas : ce n'est rien, ce n'était pas grave. Si c'était rien, il n'y aurait rien à pardonner. Le pardon regarde le mal en face, l'appelle par son nom, et décide pourtant de ne pas faire payer la dette."
+      "question": "Que représente la dette de dix mille talents dans la parabole ?",
+      "choix": [
+        "Une dette d'argent ordinaire",
+        "Notre dette envers Dieu, que nous ne pouvions jamais payer",
+        "La dette de notre frère"
+      ],
+      "reponse": 1,
+      "explication": "Dieu nous a remis une dette immense ; nous remettons les petites.",
+      "section": "1"
     },
     {
-     "sous_titre": "Pardonner n'est pas oublier"
+      "question": "Pardonner, est-ce faire aussitôt confiance à celui qui a blessé ?",
+      "choix": [
+        "Oui, toujours",
+        "Non : le pardon est immédiat, la confiance se reconstruit avec le temps",
+        "Oui, sinon ce n'est pas un vrai pardon"
+      ],
+      "reponse": 1,
+      "explication": "Joseph a pardonné, mais a d'abord éprouvé le cœur de ses frères.",
+      "section": "2"
     },
     {
-     "texte": "On entend souvent : pardonner, c'est oublier. Ce n'est pas biblique. Tu ne peux pas effacer ta mémoire. Pardonner, c'est décider de ne plus utiliser ce souvenir comme une arme contre l'autre, de ne plus le ressortir dans chaque dispute, de ne plus le raconter pour salir son nom. Avec le temps, Dieu guérit la blessure, et le souvenir ne fait plus aussi mal."
+      "question": "Selon Matthieu 18:15, que faire quand un frère a péché contre toi ?",
+      "choix": [
+        "En parler à l'église d'abord",
+        "Aller le voir seul à seul",
+        "Attendre qu'il vienne"
+      ],
+      "reponse": 1,
+      "explication": "(Matthieu 18:15)",
+      "section": "4"
     },
     {
-     "sous_titre": "Pardonner, c'est remettre la justice à Dieu"
+      "question": "Laquelle est une vraie demande de pardon ?",
+      "choix": [
+        "« Si je t'ai blessé, pardon. »",
+        "« J'ai eu tort de faire ceci, je t'ai blessé, je te demande pardon. »",
+        "« Pardon, mais toi aussi… »"
+      ],
+      "reponse": 1,
+      "explication": "Une vraie demande ne se justifie pas.",
+      "section": "5"
     },
     {
-     "texte": "Paul dit : ne vous vengez point vous-mêmes, mais laissez agir la colère ; car il est écrit : à moi la vengeance, à moi la rétribution, dit le Seigneur. Pardonner ne veut pas dire que la justice n'existe pas. Cela veut dire que tu remets le dossier entre les mains du juste Juge. Tu arrêtes d'être juge toi-même."
+      "question": "Qu'a fait Zachée après avoir reçu Jésus ?",
+      "choix": [
+        "Il a gardé son argent",
+        "Il a rendu le quadruple à ceux à qui il avait fait tort",
+        "Il a quitté son métier sans rien dire"
+      ],
+      "reponse": 1,
+      "explication": "(Luc 19:8)",
+      "section": "6"
     },
     {
-     "verset": "Rm 12:19"
+      "question": "Qu'a fait Ésaü en voyant arriver son frère Jacob après vingt ans ?",
+      "choix": [
+        "Il l'a attaqué avec ses hommes",
+        "Il a couru à sa rencontre, l'a embrassé et ils ont pleuré",
+        "Il a refusé de le voir"
+      ],
+      "reponse": 1,
+      "explication": "Genèse 33:4.",
+      "section": "8"
     },
     {
-     "sous_titre": "Pardonner n'est pas faire confiance aussitôt"
+      "question": "Qu'a répondu David à Abischaï qui voulait tuer Schimeï ?",
+      "choix": [
+        "« Va et tue-le »",
+        "« Laissez-le maudire » ; puis, plus tard : « Tu ne mourras point »",
+        "« Je m'en occuperai moi-même »"
+      ],
+      "reponse": 1,
+      "explication": "2 Samuel 16:11 ; 19:23.",
+      "section": "9"
     },
     {
-     "texte": "Joseph a pardonné à ses frères qui l'avaient vendu comme esclave. Mais avant de se faire connaître, il les a mis à l'épreuve pour voir si leur cœur avait changé. Le pardon est un don gratuit, immédiat. La confiance, elle, se reconstruit avec le temps. Une femme battue doit pardonner à son mari, mais elle n'est pas obligée de rester dans une maison où sa vie est en danger. Un enfant abusé doit être protégé de celui qui l'a abusé, même si un jour il lui pardonne. Le sage voit le mal et se cache."
+      "question": "Que représente le rachat de Gomer par Osée ?",
+      "choix": [
+        "Une simple histoire de famille",
+        "L'amour de Dieu qui va chercher et rachète son peuple infidèle",
+        "Une punition"
+      ],
+      "reponse": 1,
+      "explication": "Osée 3:1-2.",
+      "section": "10"
     },
     {
-     "verset": "Gn 50:19-21"
-    },
-    {
-     "sous_titre": "Pardonner n'empêche pas la loi"
-    },
-    {
-     "texte": "Si quelqu'un a commis un crime, le pardon personnel ne remplace pas la justice des autorités. Tu peux pardonner à celui qui a volé ta boutique et quand même porter plainte. Tu peux pardonner à un abuseur et le dénoncer pour protéger d'autres enfants. Le pardon touche ton cœur. La justice humaine protège la société (Romains 13:4)."
-    },
-    {
-     "verset": "Pr 22:3"
+      "question": "Qu'a fait Corrie ten Boom quand elle ne ressentait aucun pardon pour l'ancien gardien ?",
+      "choix": [
+        "Elle est partie",
+        "Elle a prié Jésus de lui donner son pardon et a tendu la main par obéissance",
+        "Elle l'a dénoncé"
+      ],
+      "reponse": 1,
+      "explication": "Le pardon commence souvent par une décision d'obéir.",
+      "section": "11"
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "Comment pardonner une blessure profonde",
-   "references": [
-    "Ps 62:9",
-    "Lc 6:27-28",
-    "Lc 23:34"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Être honnête devant Dieu"
-    },
-    {
-     "texte": "Ne fais pas semblant. Dis à Dieu exactement ce qui t'a été fait et ce que tu ressens : la colère, la honte, la tristesse, le désir de vengeance. Les psaumes sont pleins de cris honnêtes. Répandez vos cœurs en sa présence, dit le psalmiste. Dieu ne te demande pas de nier ta douleur. Il te demande de la lui apporter."
-    },
-    {
-     "verset": "Ps 62:9"
-    },
-    {
-     "sous_titre": "Décider de pardonner"
-    },
-    {
-     "texte": "Le pardon n'est pas d'abord un sentiment, c'est une décision. Si tu attends de sentir l'envie de pardonner, tu attendras toute ta vie. Dis-le à haute voix devant Dieu : « Seigneur, je pardonne à telle personne pour telle chose. Je ne lui fais plus payer cette dette. Je te la remets. » Nomme la personne et nomme l'offense. Un pardon vague ne guérit pas une blessure précise."
-    },
-    {
-     "sous_titre": "Bénir et prier pour lui"
-    },
-    {
-     "texte": "Jésus a dit : aimez vos ennemis, faites du bien à ceux qui vous haïssent, bénissez ceux qui vous maudissent, priez pour ceux qui vous maltraitent. Tu sauras que le pardon avance quand tu pourras prier pour cette personne sans que ta prière soit une malédiction déguisée."
-    },
-    {
-     "verset": "Lc 6:27-28"
-    },
-    {
-     "sous_titre": "Recommencer autant de fois qu'il le faut"
-    },
-    {
-     "texte": "Pour une blessure profonde, il arrive que la colère revienne. Ce n'est pas que ton pardon était faux. C'est que la blessure guérit par étapes. Chaque fois que le souvenir revient, redis-le : je l'ai pardonné, je ne reprends pas la dette. Septante fois sept fois, c'est aussi pour la même offense qui remonte dans ton cœur."
-    },
-    {
-     "sous_titre": "Le modèle de Jésus"
-    },
-    {
-     "texte": "Sur la croix, Jésus a prié pour ceux qui le crucifiaient. Aucun de nous n'a été blessé autant que lui. Il ne te demande pas une chose qu'il n'a pas faite lui-même, et il te donne son Esprit pour la faire."
-    },
-    {
-     "verset": "Lc 23:34"
-    }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "Se pardonner les uns les autres dans l'église",
-   "references": [
-    "Col 3:12-14",
-    "Mt 18:15",
-    "Ep 4:2-3"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Une famille de pécheurs pardonnés"
-    },
-    {
-     "texte": "L'église n'est pas un club de gens parfaits. C'est une famille de pécheurs pardonnés qui apprennent à vivre ensemble. Tu seras blessé dans l'église : par une parole du pasteur, par un frère qui ne t'a pas salué, par une sœur qui a répandu une rumeur. Paul dit : supportez-vous les uns les autres, et, si l'un a sujet de se plaindre de l'autre, pardonnez-vous réciproquement. Et par-dessus tout, revêtez-vous de l'amour."
-    },
-    {
-     "verset": "Col 3:12-14"
-    },
-    {
-     "sous_titre": "Aller voir son frère en privé"
-    },
-    {
-     "texte": "Jésus a donné une méthode : si ton frère a péché, va et reprends-le entre toi et lui seul. Pas devant tout le monde. Pas sur WhatsApp. Pas en le racontant d'abord à dix personnes. Beaucoup de divisions dans les églises viennent de gens qui parlent de leur frère au lieu de parler à leur frère."
-    },
-    {
-     "verset": "Mt 18:15"
-    },
-    {
-     "sous_titre": "Ne pas partir à la première blessure"
-    },
-    {
-     "texte": "Certains changent d'église chaque fois qu'ils sont blessés. Ils emportent la même amertume dans la nouvelle église, et le même problème recommence. Paul dit : efforcez-vous de conserver l'unité de l'esprit par le lien de la paix. L'unité demande un effort. Elle se garde en pardonnant."
-    },
-    {
-     "verset": "Ep 4:2-3"
-    }
-   ]
-  },
-  {
-   "numero": "5",
-   "titre": "Demander pardon",
-   "references": [
-    "Mt 5:23-24",
-    "Ps 51:5-6",
-    "Lc 15:18-19"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Avant l'offrande"
-    },
-    {
-     "texte": "Jésus a dit : si tu présentes ton offrande à l'autel, et que là tu te souviennes que ton frère a quelque chose contre toi, laisse là ton offrande, va d'abord te réconcilier avec ton frère, puis viens présenter ton offrande. Dieu met la réconciliation avant le culte. Tu ne peux pas chanter fort le dimanche en ignorant celui que tu as blessé."
-    },
-    {
-     "verset": "Mt 5:23-24"
-    },
-    {
-     "sous_titre": "Reconnaître sans se justifier"
-    },
-    {
-     "texte": "Une fausse demande de pardon ressemble à ceci : « Si je t'ai blessé, pardon. » Ou : « Pardon, mais toi aussi tu as fait… » Ce ne sont pas de vraies demandes de pardon. David a dit : j'ai péché contre toi, j'ai fait ce qui est mal à tes yeux. Une vraie demande dit : « J'ai eu tort de faire ceci. Je t'ai blessé. Je te demande pardon. » Sans « si », sans « mais »."
-    },
-    {
-     "verset": "Ps 51:5-6"
-    },
-    {
-     "sous_titre": "Avec humilité"
-    },
-    {
-     "texte": "Le fils prodigue a préparé ses mots : Père, j'ai péché contre le ciel et contre toi. Je ne suis plus digne d'être appelé ton fils. Demander pardon est humiliant pour l'orgueil. C'est justement pour cela que c'est si puissant. Le mari qui demande pardon à sa femme, le parent qui demande pardon à son enfant, le pasteur qui demande pardon à son église, montrent l'Évangile en actes."
-    },
-    {
-     "verset": "Lc 15:18-19"
-    }
-   ]
-  },
-  {
-   "numero": "6",
-   "titre": "Réparer le tort causé",
-   "references": [
-    "Lc 19:8-9",
-    "Nb 5:6-7",
-    "Ex 22:5"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Zachée"
-    },
-    {
-     "texte": "Quand Jésus est entré chez Zachée, le chef des collecteurs d'impôts, Zachée s'est levé et a dit : je donne aux pauvres la moitié de mes biens, et si j'ai fait tort de quelque chose à quelqu'un, je lui rends le quadruple. Jésus a répondu : le salut est entré aujourd'hui dans cette maison. La repentance vraie ne s'arrête pas aux larmes. Elle touche le portefeuille."
-    },
-    {
-     "verset": "Lc 19:8-9"
-    },
-    {
-     "sous_titre": "La loi de la restitution"
-    },
-    {
-     "texte": "Dans la loi de Moïse, celui qui avait fait du tort à son prochain devait confesser son péché et restituer en entier, en ajoutant un cinquième. Dieu prend au sérieux le tort fait à l'autre. Si tu as volé, rends. Si tu as menti sur quelqu'un, va rétablir la vérité devant ceux à qui tu as menti. Si tu as abîmé, répare. Si tu as détourné de l'argent au travail, prends rendez-vous avec ton patron."
-    },
-    {
-     "verset": "Nb 5:6-7"
-    },
-    {
-     "sous_titre": "Avec sagesse"
-    },
-    {
-     "texte": "Certaines réparations demandent du conseil. Avouer un adultère passé, rendre une grosse somme, reconnaître une fraude, peut avoir des conséquences lourdes. Ne reste pas seul : parles-en d'abord à ton pasteur ou à un responsable mûr, prie, et faites un plan ensemble. Mais ne te sers pas de la prudence comme excuse pour ne rien faire."
-    }
-   ]
-  },
-  {
-   "numero": "7",
-   "titre": "Quand l'autre refuse",
-   "references": [
-    "Rm 12:18",
-    "1 P 2:23",
-    "Rm 12:21"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Autant que cela dépend de toi"
-    },
-    {
-     "texte": "Paul dit : s'il est possible, autant que cela dépend de vous, soyez en paix avec tous les hommes. Il sait que ce n'est pas toujours possible. Tu ne contrôles pas le cœur de l'autre. Tu peux pardonner sans que l'autre demande pardon. Tu peux demander pardon sans que l'autre accepte. Ta responsabilité est de faire ta part."
-    },
-    {
-     "verset": "Rm 12:18"
-    },
-    {
-     "sous_titre": "Remettre à Dieu"
-    },
-    {
-     "texte": "Si l'autre refuse ton pardon, ou refuse de reconnaître son tort, fais comme Jésus qui s'en remettait à celui qui juge justement. Continue de prier pour lui. Garde ta porte ouverte. Ne parle pas mal de lui."
-    },
-    {
-     "verset": "1 P 2:23"
-    },
-    {
-     "sous_titre": "Surmonter le mal par le bien"
-    },
-    {
-     "texte": "Ne te laisse pas vaincre par le mal, mais surmonte le mal par le bien. Le dernier mot n'appartient pas à celui qui t'a blessé. Il appartient à Dieu, et à l'amour."
-    },
-    {
-     "verset": "Rm 12:21"
-    }
-   ]
-  },
-  {
-   "numero": "8",
-   "titre": "Conclusion",
-   "references": [
-    "1 Jn 1:9",
-    "Col 3:13"
-   ],
-   "blocs": [
-    {
-     "texte": "Avant de pardonner aux autres, reçois toi-même le pardon. Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner et nous purifier de toute iniquité. Certains chrétiens disent : « Je n'arrive pas à me pardonner. » En vérité, c'est que nous n'arrivons pas à croire que le pardon de Dieu suffit. Si Dieu t'a pardonné, tu n'as pas le droit de te condamner encore."
-    },
-    {
-     "verset": "1 Jn 1:9"
-    },
-    {
-     "texte": "Puis regarde autour de toi : à qui dois-tu pardonner, à qui dois-tu demander pardon, et quel tort dois-tu réparer ? Ne laisse pas passer cette semaine sans agir. Comme le Christ vous a pardonné, pardonnez-vous aussi."
-    },
-    {
-     "verset": "Col 3:13"
-    }
-   ]
-  }
- ],
- "questions": [
-  {
-   "question": "Combien de fois Jésus demande-t-il de pardonner ?",
-   "choix": [
-    "Sept fois",
-    "Jusqu'à septante fois sept fois, c'est-à-dire sans compter",
-    "Trois fois"
-   ],
-   "reponse": 1,
-   "explication": "(Matthieu 18:22)",
-   "section": "1"
-  },
-  {
-   "question": "Que représente la dette de dix mille talents dans la parabole ?",
-   "choix": [
-    "Une dette d'argent ordinaire",
-    "Notre dette envers Dieu, que nous ne pouvions jamais payer",
-    "La dette de notre frère"
-   ],
-   "reponse": 1,
-   "explication": "Dieu nous a remis une dette immense ; nous remettons les petites.",
-   "section": "1"
-  },
-  {
-   "question": "Pardonner, est-ce faire aussitôt confiance à celui qui a blessé ?",
-   "choix": [
-    "Oui, toujours",
-    "Non : le pardon est immédiat, la confiance se reconstruit avec le temps",
-    "Oui, sinon ce n'est pas un vrai pardon"
-   ],
-   "reponse": 1,
-   "explication": "Joseph a pardonné, mais a d'abord éprouvé le cœur de ses frères.",
-   "section": "2"
-  },
-  {
-   "question": "Selon Matthieu 18:15, que faire quand un frère a péché contre toi ?",
-   "choix": [
-    "En parler à l'église d'abord",
-    "Aller le voir seul à seul",
-    "Attendre qu'il vienne"
-   ],
-   "reponse": 1,
-   "explication": "(Matthieu 18:15)",
-   "section": "4"
-  },
-  {
-   "question": "Laquelle est une vraie demande de pardon ?",
-   "choix": [
-    "« Si je t'ai blessé, pardon. »",
-    "« J'ai eu tort de faire ceci, je t'ai blessé, je te demande pardon. »",
-    "« Pardon, mais toi aussi… »"
-   ],
-   "reponse": 1,
-   "explication": "Une vraie demande ne se justifie pas.",
-   "section": "5"
-  },
-  {
-   "question": "Qu'a fait Zachée après avoir reçu Jésus ?",
-   "choix": [
-    "Il a gardé son argent",
-    "Il a rendu le quadruple à ceux à qui il avait fait tort",
-    "Il a quitté son métier sans rien dire"
-   ],
-   "reponse": 1,
-   "explication": "(Luc 19:8)",
-   "section": "6"
-  }
- ],
- "devoir": [
-  "Fais la liste, devant Dieu, des personnes qui t'ont blessé. Pour chacune, dis à voix haute : « Je pardonne à … pour … ». Puis prie pour elles.",
-  "Fais la liste des personnes que tu as blessées. Choisis-en une et va lui demander pardon cette semaine, sans « si » et sans « mais ».",
-  "Y a-t-il un tort à réparer (argent, objet, mensonge, réputation) ? Écris un plan, et parles-en à un responsable si c'est lourd.",
-  "S'il y a un conflit dans ton église, va voir la personne en privé au lieu d'en parler à d'autres."
- ],
- "prieres_liees": [
-  "theme:priere-aimer-et-pardonner",
-  "theme:priere-moment-de-repentance"
- ],
- "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-14",
- "relu": false
+  ],
+  "devoir": [
+    "Fais la liste, devant Dieu, des personnes qui t'ont blessé. Pour chacune, dis à voix haute : « Je pardonne à … pour … ». Puis prie pour elles.",
+    "Fais la liste des personnes que tu as blessées. Choisis-en une et va lui demander pardon cette semaine, sans « si » et sans « mais ».",
+    "Y a-t-il un tort à réparer (argent, objet, mensonge, réputation) ? Écris un plan, et parles-en à un responsable si c'est lourd.",
+    "S'il y a un conflit dans ton église, va voir la personne en privé au lieu d'en parler à d'autres."
+  ],
+  "prieres_liees": [
+    "theme:priere-aimer-et-pardonner",
+    "theme:priere-moment-de-repentance"
+  ],
+  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-14",
+  "relu": false
 }
