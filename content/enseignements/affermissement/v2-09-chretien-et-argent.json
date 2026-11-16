@@ -1,306 +1,551 @@
 {
- "id": "disciple-v2-09-chretien-et-argent",
- "titre": "Le chrétien et l'argent",
- "serie": "Affermissement",
- "theme": "Affermissement",
- "auteur": "Yeshaya",
- "resume": "Neuvième leçon du volume 2 : Jésus a parlé de l'argent plus que de beaucoup d'autres sujets. Qui est le vrai propriétaire, le danger de l'amour de l'argent, travailler honnêtement, donner, gérer, et se méfier de l'évangile de la prospérité.",
- "image": "/assets/famille-quotidien/couple-et-budget.webp",
- "verset_de_base": "Mt 6:24",
- "lecture_minutes": 12,
- "objectifs": [
-  "Reconnaître que Dieu est le propriétaire de tout.",
-  "Discerner l'amour de l'argent dans son cœur.",
-  "Travailler honnêtement et refuser la corruption.",
-  "Donner avec joie et gérer avec sagesse.",
-  "Rejeter les faux enseignements sur la prospérité."
- ],
- "introduction": "On dit souvent que la dernière partie de l'homme à se convertir, c'est son portefeuille. Beaucoup de chrétiens donnent leur cœur à Jésus, mais gardent leur argent pour eux. Ils prient pour la bénédiction financière, mais ne demandent jamais à Dieu comment dépenser ce qu'ils ont déjà.\n\nJésus a été très clair : nul ne peut servir deux maîtres. Vous ne pouvez servir Dieu et Mammon (Matthieu 6:24). L'argent n'est pas un sujet neutre. C'est un maître qui veut prendre la place de Dieu. Voyons ce que la Bible enseigne.",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "Dieu est le propriétaire",
-   "references": [
-    "Ps 24:1",
-    "Ag 2:8",
-    "1 Co 4:2",
-    "Dt 8:17-18"
-   ],
-   "blocs": [
+  "id": "disciple-v2-09-chretien-et-argent",
+  "titre": "Le chrétien et l'argent",
+  "serie": "Affermissement",
+  "theme": "Affermissement",
+  "auteur": "Yeshaya",
+  "resume": "Neuvième leçon du volume 2 : Jésus a parlé de l'argent plus que de beaucoup d'autres sujets. Qui est le vrai propriétaire, le danger de l'amour de l'argent, travailler honnêtement, donner, gérer, et se méfier de l'évangile de la prospérité.",
+  "image": "/assets/famille-quotidien/couple-et-budget.webp",
+  "verset_de_base": "Mt 6:24",
+  "lecture_minutes": 30,
+  "objectifs": [
+    "Reconnaître que Dieu est le propriétaire de tout.",
+    "Discerner l'amour de l'argent dans son cœur.",
+    "Travailler honnêtement et refuser la corruption.",
+    "Donner avec joie et gérer avec sagesse.",
+    "Rejeter les faux enseignements sur la prospérité."
+  ],
+  "introduction": "On dit souvent que la dernière partie de l'homme à se convertir, c'est son portefeuille. Beaucoup de chrétiens donnent leur cœur à Jésus, mais gardent leur argent pour eux. Ils prient pour la bénédiction financière, mais ne demandent jamais à Dieu comment dépenser ce qu'ils ont déjà.\n\nJésus a été très clair : nul ne peut servir deux maîtres. Vous ne pouvez servir Dieu et Mammon (Matthieu 6:24). L'argent n'est pas un sujet neutre. C'est un maître qui veut prendre la place de Dieu. Voyons ce que la Bible enseigne.",
+  "sections": [
     {
-     "sous_titre": "Tout lui appartient"
+      "numero": "1",
+      "titre": "Dieu est le propriétaire",
+      "references": [
+        "Ps 24:1",
+        "Ag 2:8",
+        "1 Co 4:2",
+        "Dt 8:17-18"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Tout lui appartient"
+        },
+        {
+          "texte": "À l'Éternel la terre et ce qu'elle renferme. L'argent est à moi, et l'or est à moi, dit l'Éternel des armées. Tu n'es pas propriétaire de ton argent, de ta maison, de ton salaire. Tu es gérant. Ce changement de regard change tout : la question n'est plus « combien je donne à Dieu ? », mais « comment Dieu veut-il que j'utilise ce qui est à lui ? »"
+        },
+        {
+          "verset": "Ps 24:1"
+        },
+        {
+          "sous_titre": "Fidèle dans la gestion"
+        },
+        {
+          "texte": "Ce qu'on demande d'un administrateur, c'est qu'il soit trouvé fidèle. Dieu ne te demande pas d'être riche. Il te demande d'être fidèle avec ce que tu as, que ce soit peu ou beaucoup."
+        },
+        {
+          "verset": "1 Co 4:2"
+        },
+        {
+          "sous_titre": "C'est lui qui donne la force"
+        },
+        {
+          "texte": "Moïse avertit le peuple : garde-toi de dire en ton cœur, ma force et la puissance de ma main m'ont acquis ces richesses. Souviens-toi de l'Éternel, ton Dieu, car c'est lui qui te donnera de la force pour les acquérir."
+        },
+        {
+          "verset": "Dt 8:17-18"
+        }
+      ]
     },
     {
-     "texte": "À l'Éternel la terre et ce qu'elle renferme. L'argent est à moi, et l'or est à moi, dit l'Éternel des armées. Tu n'es pas propriétaire de ton argent, de ta maison, de ton salaire. Tu es gérant. Ce changement de regard change tout : la question n'est plus « combien je donne à Dieu ? », mais « comment Dieu veut-il que j'utilise ce qui est à lui ? »"
+      "numero": "2",
+      "titre": "Le danger de l'amour de l'argent",
+      "references": [
+        "1 Tm 6:9-10",
+        "Lc 12:15",
+        "He 13:5"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "La racine de tous les maux"
+        },
+        {
+          "texte": "Paul ne dit pas que l'argent est la racine de tous les maux. Il dit que l'amour de l'argent l'est. Ceux qui veulent s'enrichir tombent dans la tentation, dans le piège, et dans beaucoup de désirs insensés qui plongent les hommes dans la ruine. Quelques-uns, en étant possédés, se sont égarés loin de la foi."
+        },
+        {
+          "verset": "1 Tm 6:9-10"
+        },
+        {
+          "sous_titre": "La vie ne dépend pas des biens"
+        },
+        {
+          "texte": "Jésus a dit : gardez-vous avec soin de toute avarice ; car la vie d'un homme ne dépend pas de ses biens. Puis il a raconté l'histoire du riche qui construisait de plus grands greniers et qui est mort la nuit même. Dieu l'a appelé insensé, non parce qu'il était riche, mais parce qu'il n'était pas riche pour Dieu."
+        },
+        {
+          "verset": "Lc 12:15"
+        },
+        {
+          "sous_titre": "Le contentement"
+        },
+        {
+          "texte": "Ne vous livrez pas à l'amour de l'argent ; contentez-vous de ce que vous avez ; car Dieu lui-même a dit : je ne te délaisserai point. Le contentement n'est pas la paresse. C'est la paix de celui qui sait que Dieu pourvoit."
+        },
+        {
+          "verset": "He 13:5"
+        }
+      ]
     },
     {
-     "verset": "Ps 24:1"
+      "numero": "3",
+      "titre": "Gagner son argent honnêtement",
+      "references": [
+        "Ep 4:28",
+        "2 Th 3:10",
+        "Pr 10:2",
+        "Pr 11:1"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Travailler de ses mains"
+        },
+        {
+          "texte": "Que celui qui dérobait ne dérobe plus ; mais plutôt qu'il travaille, en faisant de ses mains ce qui est bien, pour avoir de quoi donner à celui qui est dans le besoin. Paul dit aussi : si quelqu'un ne veut pas travailler, qu'il ne mange pas non plus. Le chrétien n'attend pas un miracle en restant couché."
+        },
+        {
+          "verset": "Ep 4:28"
+        },
+        {
+          "sous_titre": "Refuser la corruption"
+        },
+        {
+          "texte": "Les trésors de la méchanceté ne profitent pas. La balance fausse est en horreur à l'Éternel. Le bakchich, la fausse facture, le pourcentage pris en secret, la fraude au concours, le vol de temps au travail, la vente de produits périmés : tout cela est vol devant Dieu, même si « tout le monde le fait ». Un chrétien qui refuse la corruption perdra peut-être un marché ou une promotion. Mais il gardera sa conscience et la bénédiction de Dieu."
+        },
+        {
+          "verset": "Pr 11:1"
+        }
+      ]
     },
     {
-     "sous_titre": "Fidèle dans la gestion"
+      "numero": "4",
+      "titre": "Donner",
+      "references": [
+        "2 Co 9:6-7",
+        "Ml 3:10",
+        "Ac 20:35",
+        "Pr 19:17"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Donner avec joie"
+        },
+        {
+          "texte": "Que chacun donne comme il l'a résolu en son cœur, sans tristesse ni contrainte ; car Dieu aime celui qui donne avec joie. Le don chrétien n'est pas une taxe arrachée par la pression. C'est une réponse joyeuse à la grâce."
+        },
+        {
+          "verset": "2 Co 9:6-7"
+        },
+        {
+          "sous_titre": "La dîme et les offrandes"
+        },
+        {
+          "texte": "Dieu a dit par Malachie : apportez à la maison du trésor toutes les dîmes. Beaucoup de chrétiens considèrent la dîme, le dixième de leurs revenus, comme un point de départ pour honorer Dieu et soutenir l'œuvre de l'église locale. Mais le Nouveau Testament va plus loin : tout appartient à Dieu, et nous donnons généreusement, régulièrement et proportionnellement à ce que nous recevons."
+        },
+        {
+          "verset": "Ml 3:10"
+        },
+        {
+          "sous_titre": "Plus heureux de donner"
+        },
+        {
+          "texte": "Paul rappelle les paroles de Jésus : il y a plus de bonheur à donner qu'à recevoir. Donne à l'église, donne aux pauvres, aide la veuve, paie la scolarité d'un orphelin. Celui qui a pitié du pauvre prête à l'Éternel."
+        },
+        {
+          "verset": "Ac 20:35"
+        }
+      ]
     },
     {
-     "texte": "Ce qu'on demande d'un administrateur, c'est qu'il soit trouvé fidèle. Dieu ne te demande pas d'être riche. Il te demande d'être fidèle avec ce que tu as, que ce soit peu ou beaucoup."
+      "numero": "5",
+      "titre": "Gérer avec sagesse",
+      "references": [
+        "Pr 21:20",
+        "Pr 22:7",
+        "Lc 14:28"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Épargner et prévoir"
+        },
+        {
+          "texte": "De précieux trésors et de l'huile sont dans la demeure du sage ; mais l'homme insensé les engloutit. Fais un budget. Sache ce qui entre et ce qui sort. Mets de côté, même un peu. Ne dépense pas tout le jour de la paie."
+        },
+        {
+          "verset": "Pr 21:20"
+        },
+        {
+          "sous_titre": "Se méfier des dettes"
+        },
+        {
+          "texte": "Celui qui emprunte est l'esclave de celui qui prête. Beaucoup de foyers sont détruits par les dettes : les tontines impossibles à suivre, les crédits pour faire la fête, les emprunts pour paraître riche. Avant d'acheter, demande-toi : est-ce un besoin ou une envie ?"
+        },
+        {
+          "verset": "Pr 22:7"
+        },
+        {
+          "sous_titre": "Calculer avant de bâtir"
+        },
+        {
+          "texte": "Jésus a dit : lequel de vous, s'il veut bâtir une tour, ne s'assied d'abord pour calculer la dépense ? Pour un mariage, un enterrement, une maison : calcule, et ne te laisse pas imposer par la famille des dépenses que tu ne peux pas payer."
+        },
+        {
+          "verset": "Lc 14:28"
+        }
+      ]
     },
     {
-     "verset": "1 Co 4:2"
+      "numero": "6",
+      "titre": "Attention à l'évangile de la prospérité",
+      "references": [
+        "1 Tm 6:5-8",
+        "Ac 8:18-20",
+        "Ph 4:11-13"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "La piété n'est pas une source de gain"
+        },
+        {
+          "texte": "Paul parle de gens qui croient que la piété est une source de gain. Il dit : éloigne-toi de ces gens-là. Quand un prédicateur te promet que si tu sèmes beaucoup d'argent dans son ministère, Dieu va te le rendre au centuple, méfie-toi. Quand on vend des bouteilles d'huile, des mouchoirs bénis ou des prières de délivrance, c'est le commerce du sacré."
+        },
+        {
+          "verset": "1 Tm 6:5-8"
+        },
+        {
+          "sous_titre": "On n'achète pas le don de Dieu"
+        },
+        {
+          "texte": "Simon le magicien a voulu acheter le pouvoir de donner le Saint-Esprit. Pierre lui a dit : que ton argent périsse avec toi, puisque tu as cru que le don de Dieu s'acquérait à prix d'argent. Dieu bénit, mais il ne se vend pas."
+        },
+        {
+          "verset": "Ac 8:18-20"
+        },
+        {
+          "sous_titre": "Le secret de Paul"
+        },
+        {
+          "texte": "Paul a dit : j'ai appris à être content dans l'état où je me trouve. Je sais vivre dans l'humiliation, et je sais vivre dans l'abondance. Je puis tout par celui qui me fortifie. Ce verset ne parle pas de devenir riche. Il parle de rester fidèle, avec ou sans argent."
+        },
+        {
+          "verset": "Ph 4:11-13"
+        }
+      ]
     },
     {
-     "sous_titre": "C'est lui qui donne la force"
+      "numero": "7",
+      "titre": "Le riche insensé : des greniers plus grands",
+      "references": [
+        "Lc 12:16-21",
+        "Jc 4:13-15"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une question d'héritage"
+        },
+        {
+          "texte": "Un jour, un homme dans la foule dit à Jésus : maître, dis à mon frère de partager avec moi notre héritage. Combien de familles africaines se déchirent pour un héritage ! Des frères qui ne se parlent plus depuis vingt ans à cause d'un terrain, d'une maison, d'un champ. Jésus refuse de jouer le juge entre eux. Mais il regarde le cœur de l'homme, et il raconte une histoire."
+        },
+        {
+          "verset": "Lc 12:16-21"
+        },
+        {
+          "sous_titre": "Un homme qui réussit"
+        },
+        {
+          "texte": "Les terres d'un homme riche avaient beaucoup rapporté. Une récolte exceptionnelle. Rien de mal à cela : Dieu donne la pluie et le soleil. L'homme raisonnait en lui-même : que ferai-je ? car je n'ai pas de place pour serrer ma récolte. Voici ce que je ferai : j'abattrai mes greniers, j'en bâtirai de plus grands, j'y amasserai toute ma récolte et tous mes biens ; et je dirai à mon âme : mon âme, tu as beaucoup de biens en réserve pour plusieurs années ; repose-toi, mange, bois, et réjouis-toi."
+        },
+        {
+          "texte": "Écoute bien ce qu'il dit. « Je », « mes », « mon âme ». Il parle six fois de lui-même en quelques phrases. Il ne parle ni de Dieu, ni des pauvres, ni de sa famille. Il pense que sa vie lui appartient, et que ses biens le protégeront."
+        },
+        {
+          "sous_titre": "« Insensé ! »"
+        },
+        {
+          "texte": "Mais Dieu lui dit : insensé ! cette nuit même ton âme te sera redemandée ; et ce que tu as préparé, pour qui cela sera-t-il ? Il en est ainsi de celui qui amasse des trésors pour lui-même, et qui n'est pas riche pour Dieu."
+        },
+        {
+          "texte": "Cet homme n'était pas un voleur. Il n'avait pas fait de corruption. Il avait simplement oublié deux choses : que sa vie ne lui appartenait pas, et que ses richesses étaient un dépôt confié par Dieu. Jacques écrit : vous qui dites : aujourd'hui ou demain nous irons dans telle ville, nous y passerons une année, nous trafiquerons, et nous gagnerons ! Vous qui ne savez pas ce qui arrivera demain ! Car, qu'est-ce que votre vie ? Vous êtes une vapeur qui paraît pour un peu de temps, et qui ensuite disparaît."
+        },
+        {
+          "verset": "Jc 4:13-15"
+        },
+        {
+          "sous_titre": "Être riche pour Dieu"
+        },
+        {
+          "texte": "Jésus ne condamne pas l'épargne : la Bible encourage à prévoir. Il condamne le cœur qui amasse pour soi seul, sans Dieu. Être riche pour Dieu, c'est utiliser ce qu'on a reçu pour sa gloire : soutenir sa famille, aider les pauvres, soutenir l'œuvre de Dieu, et ne pas mettre sa confiance dans son compte en banque."
+        },
+        {
+          "texte": "On raconte l'histoire d'un commerçant qui avait bâti, dans sa ville, une grande maison à trois étages. Il disait souvent : « Quand elle sera finie, je pourrai enfin me reposer et servir Dieu. » Pendant quinze ans, il a refusé de donner à l'église et aux nécessiteux, en disant : « Après la maison. » La semaine où l'on a posé le dernier carrelage, il est mort d'une crise cardiaque. Ses enfants se sont disputé la maison pendant des années devant les tribunaux. Un de ses amis a dit à l'enterrement : « Il a bâti des greniers plus grands, et il n'a jamais habité dedans. »"
+        }
+      ]
     },
     {
-     "texte": "Moïse avertit le peuple : garde-toi de dire en ton cœur, ma force et la puissance de ma main m'ont acquis ces richesses. Souviens-toi de l'Éternel, ton Dieu, car c'est lui qui te donnera de la force pour les acquérir."
+      "numero": "8",
+      "titre": "Acan : ce qu'on cache sous la tente",
+      "references": [
+        "Jos 7:19-26"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une victoire, puis une défaite"
+        },
+        {
+          "texte": "Israël venait de remporter la victoire de Jéricho. Dieu avait ordonné que tout l'argent, l'or, le bronze et le fer de la ville soient consacrés à l'Éternel et mis dans son trésor. Personne ne devait rien prendre pour lui. Mais peu après, Israël a été battu devant la petite ville d'Aï. Trente-six hommes sont morts, et le peuple a perdu courage."
+        },
+        {
+          "texte": "Josué s'est jeté à terre devant l'Éternel. Et Dieu lui a répondu : Israël a péché. Ils ont pris des choses dévouées, ils les ont dérobées, et ils ont menti."
+        },
+        {
+          "sous_titre": "La confession d'Acan"
+        },
+        {
+          "texte": "Le coupable a été découvert : c'était Acan. Josué lui dit : mon fils, donne gloire à l'Éternel, le Dieu d'Israël, et rends-lui hommage. Dis-moi donc ce que tu as fait, ne me le cache point."
+        },
+        {
+          "verset": "Jos 7:19-26"
+        },
+        {
+          "texte": "Acan répondit : j'ai vu dans le butin un beau manteau de Schinear, deux cents sicles d'argent, et un lingot d'or du poids de cinquante sicles ; je les ai convoités, et je les ai pris ; ils sont cachés dans la terre au milieu de ma tente."
+        },
+        {
+          "texte": "Remarque les quatre étapes : j'ai vu, j'ai convoité, j'ai pris, j'ai caché. C'est toujours le même chemin du péché lié à l'argent. Les yeux voient. Le cœur désire. La main prend. Et ensuite, on cache."
+        },
+        {
+          "sous_titre": "Le péché d'un seul, le malheur de plusieurs"
+        },
+        {
+          "texte": "Le péché d'Acan a causé la mort de trente-six hommes qui n'avaient rien fait. Et il a fini par détruire sa propre famille. Ce manteau, cet argent et cet or, qu'il pensait cacher pour son bonheur, ont été sa ruine."
+        },
+        {
+          "texte": "Aujourd'hui, beaucoup de gens cachent sous leur « tente » de l'argent mal acquis : de l'argent détourné dans une caisse, des marchandises volées au travail, une part d'héritage prise aux orphelins, un pot-de-vin reçu dans un bureau. Ils pensent que personne ne sait. Mais Dieu voit ce qui est caché dans la terre au milieu de la tente."
+        },
+        {
+          "sous_titre": "Il y a un chemin de sortie"
+        },
+        {
+          "texte": "Les Proverbes disent : celui qui cache ses transgressions ne prospère point, mais celui qui les avoue et les délaisse obtient miséricorde. Dieu ne cherche pas à écraser celui qui avoue. Il cherche à le délivrer avant que le péché caché ne détruise toute sa maison, comme ce fut le cas pour Acan."
+        },
+        {
+          "texte": "Si tu as de l'argent mal acquis, n'attends pas d'être découvert. Avoue-le à Dieu, et, autant que possible, rends ce que tu as pris. La restitution est douloureuse, mais elle libère. L'argent caché ne te donnera jamais la paix."
+        }
+      ]
     },
     {
-     "verset": "Dt 8:17-18"
+      "numero": "9",
+      "titre": "Abraham refuse les richesses du roi de Sodome",
+      "references": [
+        "Gn 14:17-23",
+        "Pr 15:16"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une victoire et une offre"
+        },
+        {
+          "texte": "Le neveu d'Abraham, Lot, avait été fait prisonnier par des rois qui avaient pillé Sodome. Abraham a rassemblé ses trois cent dix-huit serviteurs, il a poursuivi l'ennemi pendant la nuit, et il a ramené Lot, les femmes, le peuple, et tous les biens volés."
+        },
+        {
+          "texte": "Au retour, deux rois sont venus à sa rencontre. D'abord Melchisédek, roi de Salem, prêtre du Dieu Très-Haut, qui l'a béni. Abraham lui a donné la dîme de tout. Puis le roi de Sodome, qui lui a fait une offre généreuse : donne-moi les personnes, et prends pour toi les richesses."
+        },
+        {
+          "verset": "Gn 14:17-23"
+        },
+        {
+          "sous_titre": "« Pas même un fil, ni un cordon de soulier »"
+        },
+        {
+          "texte": "Selon les coutumes de la guerre, Abraham avait tout à fait le droit de garder ce butin. Mais il répond : je lève la main vers l'Éternel, le Dieu Très-Haut, maître du ciel et de la terre : je ne prendrai rien de tout ce qui est à toi, pas même un fil, ni un cordon de soulier, afin que tu ne dises pas : j'ai enrichi Abram."
+        },
+        {
+          "texte": "Abraham ne voulait pas qu'un roi méchant puisse un jour dire : c'est moi qui ai fait la richesse d'Abraham. Il voulait que la gloire de sa prospérité revienne à Dieu seul. Il savait aussi qu'accepter un cadeau, c'est souvent accepter une dette, une dépendance, une influence."
+        },
+        {
+          "sous_titre": "Savoir dire non à certains cadeaux"
+        },
+        {
+          "texte": "Dans notre vie, il y a des cadeaux qu'un chrétien doit refuser. L'argent d'un homme politique qui veut acheter la voix du pasteur. La voiture offerte par quelqu'un qui demandera ensuite qu'on ferme les yeux sur son péché. Le « petit quelque chose » qu'on te donne pour accélérer un dossier. L'argent d'un homme marié qui veut « aider » une jeune fille."
+        },
+        {
+          "texte": "Les Proverbes disent : mieux vaut peu, avec la crainte de l'Éternel, qu'un grand trésor, avec le trouble."
+        },
+        {
+          "verset": "Pr 15:16"
+        },
+        {
+          "texte": "Abraham est rentré chez lui sans le butin de Sodome. Mais juste après, Dieu lui a dit : ne crains point, Abram ; je suis ton bouclier, et ta récompense sera très grande. Celui qui refuse l'argent sale pour honorer Dieu ne perd jamais vraiment."
+        }
+      ]
+    },
+    {
+      "numero": "10",
+      "titre": "La veuve et ses dettes : Dieu pourvoit à travers l'obéissance",
+      "references": [
+        "2 R 4:1-7",
+        "Ps 37:25"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une famille menacée"
+        },
+        {
+          "texte": "Une femme d'entre les femmes des fils des prophètes cria à Élisée : ton serviteur, mon mari, est mort, et tu sais qu'il craignait l'Éternel ; or le créancier est venu pour prendre mes deux enfants et en faire ses esclaves."
+        },
+        {
+          "verset": "2 R 4:1-7"
+        },
+        {
+          "texte": "Voilà une situation que beaucoup connaissent. Le mari est mort. Il était un homme de Dieu. Mais il a laissé des dettes. Et le créancier n'a pas de pitié. À cette époque, celui qui ne payait pas pouvait perdre ses enfants, vendus comme esclaves."
+        },
+        {
+          "texte": "Cette histoire nous montre déjà une vérité : même un homme qui craint Dieu peut laisser sa famille dans le malheur s'il s'endette sans sagesse. La piété ne remplace pas la prudence."
+        },
+        {
+          "sous_titre": "« Qu'as-tu à la maison ? »"
+        },
+        {
+          "texte": "Élisée lui demande : que puis-je faire pour toi ? Dis-moi, qu'as-tu à la maison ? Elle répond : ta servante n'a rien du tout à la maison qu'un vase d'huile. Élisée lui dit : va demander au dehors des vases chez tous tes voisins, des vases vides, et n'en demande pas un petit nombre. Puis ferme la porte sur toi et sur tes enfants, et verse de l'huile dans tous ces vases."
+        },
+        {
+          "texte": "Elle obéit. Ses fils lui apportaient les vases, et elle versait. L'huile a coulé jusqu'à ce qu'il n'y ait plus aucun vase vide. Alors l'huile s'est arrêtée."
+        },
+        {
+          "sous_titre": "Payer d'abord, vivre ensuite"
+        },
+        {
+          "texte": "Puis Élisée lui dit : va vendre l'huile, et paie ta dette ; et tu vivras, toi et tes fils, de ce qui restera."
+        },
+        {
+          "texte": "Remarque l'ordre : d'abord payer la dette, ensuite vivre du reste. Le miracle n'a pas servi à acheter de beaux habits ou à faire une fête. Il a servi à rendre ce qui était dû. Un chrétien doit payer ses dettes. Celui qui emprunte et ne rend pas déshonore le nom de Christ."
+        },
+        {
+          "sous_titre": "Dieu commence avec ce que tu as"
+        },
+        {
+          "texte": "Dieu n'a pas fait tomber de l'argent du ciel. Il a commencé avec le petit vase d'huile que la veuve avait déjà. Il a utilisé le travail de ses fils, et l'aide de ses voisins. Souvent, la provision de Dieu passe par ce que tu as déjà entre les mains : un petit talent, un petit commerce, un savoir-faire, une terre."
+        },
+        {
+          "texte": "Le psalmiste dit : j'ai été jeune, j'ai vieilli ; et je n'ai point vu le juste abandonné, ni sa postérité mendiant son pain."
+        },
+        {
+          "verset": "Ps 37:25"
+        }
+      ]
+    },
+    {
+      "numero": "11",
+      "titre": "Conclusion",
+      "references": [
+        "Mt 6:19-21",
+        "Mt 6:33"
+      ],
+      "blocs": [
+        {
+          "texte": "Où est ton trésor, là aussi sera ton cœur. Regarde ton relevé de compte ou ton carnet de dépenses : il dit beaucoup de choses sur ton cœur. Cherche premièrement le royaume et la justice de Dieu, et toutes ces choses te seront données par-dessus."
+        },
+        {
+          "verset": "Mt 6:33"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "Le danger de l'amour de l'argent",
-   "references": [
-    "1 Tm 6:9-10",
-    "Lc 12:15",
-    "He 13:5"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "La racine de tous les maux"
+      "question": "Selon 1 Timothée 6:10, quelle est la racine de tous les maux ?",
+      "choix": [
+        "L'argent",
+        "L'amour de l'argent",
+        "La pauvreté"
+      ],
+      "reponse": 1,
+      "explication": "(1 Timothée 6:10)",
+      "section": "2"
     },
     {
-     "texte": "Paul ne dit pas que l'argent est la racine de tous les maux. Il dit que l'amour de l'argent l'est. Ceux qui veulent s'enrichir tombent dans la tentation, dans le piège, et dans beaucoup de désirs insensés qui plongent les hommes dans la ruine. Quelques-uns, en étant possédés, se sont égarés loin de la foi."
+      "question": "Que dit Proverbes 22:7 sur l'emprunt ?",
+      "choix": [
+        "C'est une bénédiction",
+        "Celui qui emprunte est l'esclave de celui qui prête",
+        "C'est sans conséquence"
+      ],
+      "reponse": 1,
+      "explication": "(Proverbes 22:7)",
+      "section": "5"
     },
     {
-     "verset": "1 Tm 6:9-10"
+      "question": "Que faut-il penser de celui qui promet une bénédiction contre de l'argent semé dans son ministère ?",
+      "choix": [
+        "C'est la foi",
+        "C'est faire de la piété une source de gain, il faut s'en éloigner",
+        "C'est obligatoire"
+      ],
+      "reponse": 1,
+      "explication": "(1 Timothée 6:5)",
+      "section": "6"
     },
     {
-     "sous_titre": "La vie ne dépend pas des biens"
+      "question": "Pourquoi Dieu appelle-t-il le riche « insensé » ?",
+      "choix": [
+        "Parce qu'il était un voleur",
+        "Parce qu'il amassait pour lui-même sans être riche pour Dieu, oubliant que sa vie ne lui appartenait pas",
+        "Parce qu'il était paresseux"
+      ],
+      "reponse": 1,
+      "explication": "Luc 12:20-21.",
+      "section": "7"
     },
     {
-     "texte": "Jésus a dit : gardez-vous avec soin de toute avarice ; car la vie d'un homme ne dépend pas de ses biens. Puis il a raconté l'histoire du riche qui construisait de plus grands greniers et qui est mort la nuit même. Dieu l'a appelé insensé, non parce qu'il était riche, mais parce qu'il n'était pas riche pour Dieu."
+      "question": "Quelles sont les quatre étapes du péché d'Acan ?",
+      "choix": [
+        "Il a prié, jeûné, pris, donné",
+        "J'ai vu, j'ai convoité, j'ai pris, j'ai caché",
+        "Il a volé, vendu, dépensé, oublié"
+      ],
+      "reponse": 1,
+      "explication": "Josué 7:21.",
+      "section": "8"
     },
     {
-     "verset": "Lc 12:15"
+      "question": "Pourquoi Abraham a-t-il refusé les richesses du roi de Sodome ?",
+      "choix": [
+        "Parce qu'il était déjà riche",
+        "Pour que personne ne dise : « j'ai enrichi Abram », la gloire revenant à Dieu seul",
+        "Parce qu'il n'aimait pas l'or"
+      ],
+      "reponse": 1,
+      "explication": "Genèse 14:22-23.",
+      "section": "9"
     },
     {
-     "sous_titre": "Le contentement"
-    },
-    {
-     "texte": "Ne vous livrez pas à l'amour de l'argent ; contentez-vous de ce que vous avez ; car Dieu lui-même a dit : je ne te délaisserai point. Le contentement n'est pas la paresse. C'est la paix de celui qui sait que Dieu pourvoit."
-    },
-    {
-     "verset": "He 13:5"
+      "question": "Qu'a d'abord dû faire la veuve avec l'argent de l'huile ?",
+      "choix": [
+        "Acheter des habits",
+        "Payer sa dette, puis vivre du reste",
+        "Tout donner au prophète"
+      ],
+      "reponse": 1,
+      "explication": "2 Rois 4:7.",
+      "section": "10"
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "Gagner son argent honnêtement",
-   "references": [
-    "Ep 4:28",
-    "2 Th 3:10",
-    "Pr 10:2",
-    "Pr 11:1"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Travailler de ses mains"
-    },
-    {
-     "texte": "Que celui qui dérobait ne dérobe plus ; mais plutôt qu'il travaille, en faisant de ses mains ce qui est bien, pour avoir de quoi donner à celui qui est dans le besoin. Paul dit aussi : si quelqu'un ne veut pas travailler, qu'il ne mange pas non plus. Le chrétien n'attend pas un miracle en restant couché."
-    },
-    {
-     "verset": "Ep 4:28"
-    },
-    {
-     "sous_titre": "Refuser la corruption"
-    },
-    {
-     "texte": "Les trésors de la méchanceté ne profitent pas. La balance fausse est en horreur à l'Éternel. Le bakchich, la fausse facture, le pourcentage pris en secret, la fraude au concours, le vol de temps au travail, la vente de produits périmés : tout cela est vol devant Dieu, même si « tout le monde le fait ». Un chrétien qui refuse la corruption perdra peut-être un marché ou une promotion. Mais il gardera sa conscience et la bénédiction de Dieu."
-    },
-    {
-     "verset": "Pr 11:1"
-    }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "Donner",
-   "references": [
-    "2 Co 9:6-7",
-    "Ml 3:10",
-    "Ac 20:35",
-    "Pr 19:17"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Donner avec joie"
-    },
-    {
-     "texte": "Que chacun donne comme il l'a résolu en son cœur, sans tristesse ni contrainte ; car Dieu aime celui qui donne avec joie. Le don chrétien n'est pas une taxe arrachée par la pression. C'est une réponse joyeuse à la grâce."
-    },
-    {
-     "verset": "2 Co 9:6-7"
-    },
-    {
-     "sous_titre": "La dîme et les offrandes"
-    },
-    {
-     "texte": "Dieu a dit par Malachie : apportez à la maison du trésor toutes les dîmes. Beaucoup de chrétiens considèrent la dîme, le dixième de leurs revenus, comme un point de départ pour honorer Dieu et soutenir l'œuvre de l'église locale. Mais le Nouveau Testament va plus loin : tout appartient à Dieu, et nous donnons généreusement, régulièrement et proportionnellement à ce que nous recevons."
-    },
-    {
-     "verset": "Ml 3:10"
-    },
-    {
-     "sous_titre": "Plus heureux de donner"
-    },
-    {
-     "texte": "Paul rappelle les paroles de Jésus : il y a plus de bonheur à donner qu'à recevoir. Donne à l'église, donne aux pauvres, aide la veuve, paie la scolarité d'un orphelin. Celui qui a pitié du pauvre prête à l'Éternel."
-    },
-    {
-     "verset": "Ac 20:35"
-    }
-   ]
-  },
-  {
-   "numero": "5",
-   "titre": "Gérer avec sagesse",
-   "references": [
-    "Pr 21:20",
-    "Pr 22:7",
-    "Lc 14:28"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Épargner et prévoir"
-    },
-    {
-     "texte": "De précieux trésors et de l'huile sont dans la demeure du sage ; mais l'homme insensé les engloutit. Fais un budget. Sache ce qui entre et ce qui sort. Mets de côté, même un peu. Ne dépense pas tout le jour de la paie."
-    },
-    {
-     "verset": "Pr 21:20"
-    },
-    {
-     "sous_titre": "Se méfier des dettes"
-    },
-    {
-     "texte": "Celui qui emprunte est l'esclave de celui qui prête. Beaucoup de foyers sont détruits par les dettes : les tontines impossibles à suivre, les crédits pour faire la fête, les emprunts pour paraître riche. Avant d'acheter, demande-toi : est-ce un besoin ou une envie ?"
-    },
-    {
-     "verset": "Pr 22:7"
-    },
-    {
-     "sous_titre": "Calculer avant de bâtir"
-    },
-    {
-     "texte": "Jésus a dit : lequel de vous, s'il veut bâtir une tour, ne s'assied d'abord pour calculer la dépense ? Pour un mariage, un enterrement, une maison : calcule, et ne te laisse pas imposer par la famille des dépenses que tu ne peux pas payer."
-    },
-    {
-     "verset": "Lc 14:28"
-    }
-   ]
-  },
-  {
-   "numero": "6",
-   "titre": "Attention à l'évangile de la prospérité",
-   "references": [
-    "1 Tm 6:5-8",
-    "Ac 8:18-20",
-    "Ph 4:11-13"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "La piété n'est pas une source de gain"
-    },
-    {
-     "texte": "Paul parle de gens qui croient que la piété est une source de gain. Il dit : éloigne-toi de ces gens-là. Quand un prédicateur te promet que si tu sèmes beaucoup d'argent dans son ministère, Dieu va te le rendre au centuple, méfie-toi. Quand on vend des bouteilles d'huile, des mouchoirs bénis ou des prières de délivrance, c'est le commerce du sacré."
-    },
-    {
-     "verset": "1 Tm 6:5-8"
-    },
-    {
-     "sous_titre": "On n'achète pas le don de Dieu"
-    },
-    {
-     "texte": "Simon le magicien a voulu acheter le pouvoir de donner le Saint-Esprit. Pierre lui a dit : que ton argent périsse avec toi, puisque tu as cru que le don de Dieu s'acquérait à prix d'argent. Dieu bénit, mais il ne se vend pas."
-    },
-    {
-     "verset": "Ac 8:18-20"
-    },
-    {
-     "sous_titre": "Le secret de Paul"
-    },
-    {
-     "texte": "Paul a dit : j'ai appris à être content dans l'état où je me trouve. Je sais vivre dans l'humiliation, et je sais vivre dans l'abondance. Je puis tout par celui qui me fortifie. Ce verset ne parle pas de devenir riche. Il parle de rester fidèle, avec ou sans argent."
-    },
-    {
-     "verset": "Ph 4:11-13"
-    }
-   ]
-  },
-  {
-   "numero": "7",
-   "titre": "Conclusion",
-   "references": [
-    "Mt 6:19-21",
-    "Mt 6:33"
-   ],
-   "blocs": [
-    {
-     "texte": "Où est ton trésor, là aussi sera ton cœur. Regarde ton relevé de compte ou ton carnet de dépenses : il dit beaucoup de choses sur ton cœur. Cherche premièrement le royaume et la justice de Dieu, et toutes ces choses te seront données par-dessus."
-    },
-    {
-     "verset": "Mt 6:33"
-    }
-   ]
-  }
- ],
- "questions": [
-  {
-   "question": "Selon 1 Timothée 6:10, quelle est la racine de tous les maux ?",
-   "choix": [
-    "L'argent",
-    "L'amour de l'argent",
-    "La pauvreté"
-   ],
-   "reponse": 1,
-   "explication": "(1 Timothée 6:10)",
-   "section": "2"
-  },
-  {
-   "question": "Que dit Proverbes 22:7 sur l'emprunt ?",
-   "choix": [
-    "C'est une bénédiction",
-    "Celui qui emprunte est l'esclave de celui qui prête",
-    "C'est sans conséquence"
-   ],
-   "reponse": 1,
-   "explication": "(Proverbes 22:7)",
-   "section": "5"
-  },
-  {
-   "question": "Que faut-il penser de celui qui promet une bénédiction contre de l'argent semé dans son ministère ?",
-   "choix": [
-    "C'est la foi",
-    "C'est faire de la piété une source de gain, il faut s'en éloigner",
-    "C'est obligatoire"
-   ],
-   "reponse": 1,
-   "explication": "(1 Timothée 6:5)",
-   "section": "6"
-  }
- ],
- "devoir": [
-  "Note toutes tes dépenses pendant une semaine, puis fais un budget simple pour le mois.",
-  "Écris une pratique malhonnête que tu dois arrêter au travail ou dans ton commerce.",
-  "Décide, dans la prière, ce que tu vas donner régulièrement à ton église et aux pauvres."
- ],
- "prieres_liees": [
-  "theme:priere-professionnels",
-  "theme:priere-chomeurs"
- ],
- "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-14",
- "relu": false
+  ],
+  "devoir": [
+    "Note toutes tes dépenses pendant une semaine, puis fais un budget simple pour le mois.",
+    "Écris une pratique malhonnête que tu dois arrêter au travail ou dans ton commerce.",
+    "Décide, dans la prière, ce que tu vas donner régulièrement à ton église et aux pauvres."
+  ],
+  "prieres_liees": [
+    "theme:priere-professionnels",
+    "theme:priere-chomeurs"
+  ],
+  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-14",
+  "relu": false
 }
