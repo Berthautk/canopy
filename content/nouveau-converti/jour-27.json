@@ -1,14 +1,88 @@
 {
  "id": "nouveau-converti-jour-27",
  "jour": 27,
- "titre": "Apprendre le contentement",
  "image": "/assets/paysages/champ-de-fleurs.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Apprendre le contentement",
+ "objectifs": [
+  "Ce qu'est le contentement",
+  "Le piège de la comparaison",
+  "Comment devenir content en Christ"
+ ],
+ "introduction": [
+  "Hier, nous avons parlé d'argent. Aujourd'hui, nous allons parler d'une attitude du cœur qui change tout dans notre rapport aux biens et à la vie : le contentement."
+ ],
+ "sections": [
+  {
+   "titre": "Un secret appris",
+   "texte": [
+    "### J'ai appris",
+    "Paul écrit depuis la prison : ce n'est pas en vue de mes besoins que je dis cela, car j'ai appris à être content de l'état où je me trouve. Je sais vivre dans l'humiliation, et je sais vivre dans l'abondance. En tout et partout j'ai appris à être rassasié et à avoir faim, à être dans l'abondance et à être dans la disette. Je puis tout par celui qui me fortifie (Philippiens 4:11-13). Remarque le mot « appris ». Le contentement n'est pas naturel ; il s'apprend, avec l'aide de Christ.",
+    "### Pas de la paresse",
+    "Être content ne veut pas dire ne rien faire pour améliorer sa situation. On peut travailler, étudier, chercher un meilleur emploi, tout en étant en paix. Le contentement, c'est ne pas faire dépendre sa joie de ce qu'on possède."
+   ]
+  },
+  {
+   "titre": "Le piège de la comparaison",
+   "texte": [
+    "### L'herbe du voisin",
+    "Une grande partie de notre mécontentement vient de la comparaison. Nous regardons le téléphone, la voiture, le mariage, la maison des autres, surtout sur les réseaux sociaux, où chacun montre seulement le meilleur de sa vie. Et nous trouvons notre propre vie pauvre et décevante. La convoitise est un péché sérieux : c'est le dernier des dix commandements.",
+    "### Une grande source de gain",
+    "Paul écrit à Timothée : c'est une grande source de gain que la piété avec le contentement ; car nous n'avons rien apporté dans le monde, et il est évident que nous n'en pouvons rien emporter ; si donc nous avons la nourriture et le vêtement, cela nous suffira (1 Timothée 6:6-8). Il ajoute que ceux qui veulent s'enrichir tombent dans la tentation et dans des désirs insensés qui plongent les hommes dans la ruine."
+   ]
+  },
+  {
+   "titre": "Devenir content en Christ",
+   "texte": [
+    "### Il ne te délaissera pas",
+    "L'épître aux Hébreux dit : ne vous livrez pas à l'amour de l'argent ; contentez-vous de ce que vous avez ; car Dieu lui-même a dit : je ne te délaisserai point, et je ne t'abandonnerai point (Hébreux 13:5). La raison du contentement, ce n'est pas d'avoir assez, c'est d'avoir Dieu. Celui qui a Dieu a tout ce dont il a besoin.",
+    "### Remercier pour ce que l'on a",
+    "Le contentement grandit avec la reconnaissance. Continue l'exercice commencé au jour 20 : chaque soir, remercie Dieu pour trois choses précises. Peu à peu, ton regard changera : tu verras ce que tu as, au lieu de ce qui te manque.",
+    "### Réduire ce qui nourrit l'envie",
+    "Si certains comptes sur les réseaux sociaux, certaines émissions ou certaines conversations nourrissent en toi l'envie et la frustration, réduis-les. Remplace-les par la Parole, par le service des autres, par des moments avec des gens qui ont moins que toi.",
+    "On raconte l'histoire de deux frères qui vendaient des vêtements au marché. L'aîné, toujours mécontent, se comparait au commerçant d'en face, plus riche, et dépensait tout pour avoir l'air important. Le cadet, chrétien, travaillait dur, remerciait Dieu chaque soir et aidait une veuve du quartier. Un jour, l'aîné lui demanda : « Pourquoi es-tu toujours en paix, alors que nous gagnons la même chose ? » Le cadet répondit : « Toi, tu comptes ce que l'autre a. Moi, je compte ce que Dieu m'a donné. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "Le contentement s'apprend, par la force de Christ, dans l'abondance comme dans le manque (Philippiens 4:11-13).",
+  "La comparaison nourrit l'envie ; la piété avec le contentement est une grande source de gain (1 Timothée 6:6).",
+  "On peut être content parce que Dieu a promis : je ne te délaisserai point (Hébreux 13:5)."
+ ],
+ "memoriser": "1 Tm 6:6",
+ "quiz": [
+  {
+   "question": "Selon Paul, le contentement est-il naturel ?",
+   "choix": [
+    "Oui, on naît content",
+    "Non, il l'a appris, avec la force de Christ",
+    "Seulement pour les riches"
+   ],
+   "reponse": 1,
+   "explication": "Philippiens 4:11.",
+   "section": "1"
+  },
+  {
+   "question": "Quelle est la vraie raison de notre contentement selon Hébreux 13:5 ?",
+   "choix": [
+    "Avoir assez d'argent",
+    "La présence de Dieu qui ne nous abandonne pas",
+    "Ne rien désirer"
+   ],
+   "reponse": 1,
+   "explication": "« Je ne te délaisserai point. »",
+   "section": "3"
+  }
+ ],
+ "pratique": "Pendant une journée, chaque fois que tu te compares à quelqu'un, transforme cette pensée en remerciement pour une chose que Dieu t'a donnée.",
  "versets": [
   "Ph 4:11-13",
   "Hé 13:5",
   "1 Tm 6:6"
  ],
- "texte": "Paul a appris à être content dans toutes les situations, dans l'abondance comme dans le manque. Le contentement ne vient pas de ce que l'on possède, mais de la présence de Dieu. La comparaison et la convoitise volent la joie ; la reconnaissance la nourrit.",
  "question": "À qui te compares-tu trop souvent ? Que peux-tu remercier Dieu à la place ?",
  "sujets": [
   {
@@ -21,9 +95,5 @@
   }
  ],
  "priere": "Seigneur, tu me suffis. Apprends-moi le contentement. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

@@ -18,7 +18,7 @@ export const PARCOURS = {
     titre: 'Découvrir Jésus', sousTitre: 'Qui est Dieu, qui est Jésus, et comment lui donner ta vie ? 10 leçons solides pour poser les fondations, à ton rythme.',
     image: '/assets/jesus/jesus-main-tendue.webp', suite: { lien: 'grandir/nouveau-converti', texte: 'Continuer avec « Mes 30 premiers jours avec Christ »' } },
   'nouveau-converti': { cle: 'faits', liste: () => NOUVEAU_CONVERTI, total: () => JOURS_PARCOURS, unite: 'Jour',
-    titre: 'Mes 30 premiers jours avec Christ', sousTitre: 'Un parcours simple pour bien commencer, un thème par jour, à ton rythme.',
+    titre: 'Mes 30 premiers jours avec Christ', sousTitre: 'Un thème par jour, environ 10 minutes : un enseignement, la Bible ouverte, un mini-quiz, une action pour la journée et une prière.',
     image: '/assets/nouveau-converti/joie-de-la-rencontre.webp' },
 };
 

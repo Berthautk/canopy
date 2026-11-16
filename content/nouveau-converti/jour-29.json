@@ -1,14 +1,90 @@
 {
  "id": "nouveau-converti-jour-29",
  "jour": 29,
- "titre": "Jésus va revenir",
  "image": "/assets/paysages/lever-soleil-collines.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Jésus va revenir",
+ "objectifs": [
+  "La promesse du retour de Jésus",
+  "Ce qui se passera",
+  "Comment vivre en attendant"
+ ],
+ "introduction": [
+  "La Bible ne se termine pas sur la croix, ni même sur la résurrection. Elle se termine par une promesse : Jésus va revenir. Aujourd'hui, nous allons voir comment cette espérance change notre façon de vivre."
+ ],
+ "sections": [
+  {
+   "titre": "Une promesse certaine",
+   "texte": [
+    "### Je reviendrai",
+    "Avant de mourir, Jésus a dit à ses disciples : il y a plusieurs demeures dans la maison de mon Père. Si cela n'était pas, je vous l'aurais dit. Je vais vous préparer une place. Et, lorsque je m'en serai allé, et que je vous aurai préparé une place, je reviendrai, et je vous prendrai avec moi, afin que là où je suis vous y soyez aussi (Jean 14:2-3). Jésus a tenu toutes ses promesses : il est mort, il est ressuscité. Il tiendra aussi celle-ci.",
+    "### De la même manière",
+    "Quand Jésus est monté au ciel, deux anges ont dit aux disciples : ce Jésus, qui a été enlevé au ciel du milieu de vous, viendra de la même manière que vous l'avez vu allant au ciel (Actes 1:11). Son retour sera personnel, visible, glorieux. Ce ne sera pas une idée ou un symbole, mais Jésus lui-même."
+   ]
+  },
+  {
+   "titre": "Ce qui se passera",
+   "texte": [
+    "### La résurrection et la rencontre",
+    "Paul écrit : le Seigneur lui-même, à un signal donné, à la voix d'un archange, et au son de la trompette de Dieu, descendra du ciel, et les morts en Christ ressusciteront premièrement. Ensuite, nous les vivants, qui serons restés, nous serons tous ensemble enlevés avec eux sur des nuées, à la rencontre du Seigneur dans les airs, et ainsi nous serons toujours avec le Seigneur (1 Thessaloniciens 4:16-17). Les croyants morts ne sont pas perdus : ils ressusciteront. Et nous serons pour toujours avec Jésus.",
+    "### Le jugement et la restauration",
+    "La Bible enseigne aussi que Jésus reviendra pour juger les vivants et les morts, pour mettre fin au mal, et pour faire toutes choses nouvelles. Il n'y aura plus de larmes, plus de deuil, plus de douleur. Pour ceux qui sont en Christ, ce jour n'est pas une terreur, mais une fête.",
+    "### Personne ne connaît la date",
+    "Jésus a dit : pour ce qui est du jour et de l'heure, personne ne le sait, ni les anges des cieux, ni le Fils, mais le Père seul. Méfie-toi de ceux qui annoncent une date précise pour la fin du monde ou qui font peur pour attirer les gens. Beaucoup l'ont fait dans l'histoire, et ils se sont tous trompés."
+   ]
+  },
+  {
+   "titre": "Vivre en attendant",
+   "texte": [
+    "### Être prêt",
+    "Jésus a souvent parlé de serviteurs qui attendent le retour de leur maître. Le bon serviteur n'est pas celui qui passe ses journées à regarder le ciel, mais celui que le maître trouve en train de faire fidèlement son travail. Être prêt, c'est vivre chaque jour dans la foi, l'obéissance, la pureté et l'amour.",
+    "### S'encourager",
+    "Après avoir parlé du retour de Jésus, Paul ajoute : consolez-vous donc les uns les autres par ces paroles. Cette espérance est une consolation dans le deuil, la persécution, la pauvreté, la maladie. Nos souffrances présentes ne sont pas la fin de l'histoire.",
+    "### Se hâter d'annoncer",
+    "Si Jésus revient, chaque personne autour de nous a besoin de le connaître. L'attente du retour de Jésus nous pousse à témoigner pendant qu'il est encore temps.",
+    "On raconte l'histoire d'une vieille femme de village qui, chaque matin, balayait sa cour avec soin et mettait une natte propre sous le manguier. Les enfants lui demandaient pourquoi elle faisait cela tous les jours, alors que personne ne venait. Elle répondait : « Mon Seigneur a dit qu'il revient. Je veux qu'il trouve ma cour propre et mon cœur prêt. » Elle ne parlait pas de date, elle ne faisait pas peur à personne. Mais toute sa vie disait : il vient."
+   ]
+  }
+ ],
+ "retenir": [
+  "Jésus a promis : je reviendrai, et je vous prendrai avec moi (Jean 14:2-3).",
+  "Les morts en Christ ressusciteront et nous serons toujours avec le Seigneur (1 Thessaloniciens 4:16-17).",
+  "Personne ne connaît la date : être prêt, c'est vivre chaque jour fidèlement, et annoncer Jésus."
+ ],
+ "memoriser": "Jn 14:3",
+ "quiz": [
+  {
+   "question": "Comment Jésus reviendra-t-il selon Actes 1:11 ?",
+   "choix": [
+    "En secret",
+    "De la même manière qu'il est monté au ciel, visiblement",
+    "Par une idée"
+   ],
+   "reponse": 1,
+   "explication": "Personnellement et glorieusement.",
+   "section": "1"
+  },
+  {
+   "question": "Que faut-il penser de ceux qui annoncent une date précise de la fin du monde ?",
+   "choix": [
+    "Il faut les croire",
+    "Il faut s'en méfier : personne ne connaît le jour ni l'heure",
+    "Il faut vendre ses biens"
+   ],
+   "reponse": 1,
+   "explication": "Matthieu 24:36.",
+   "section": "2"
+  }
+ ],
+ "pratique": "Lis 1 Thessaloniciens 4:13-18. Demande-toi : « Si Jésus revenait aujourd'hui, y a-t-il quelque chose que je voudrais changer dans ma vie ? » Fais ce changement.",
  "versets": [
   "Jn 14:2-3",
   "Ac 1:11",
   "1 Th 4:16-17"
  ],
- "texte": "Jésus a promis de revenir chercher les siens. Personne ne connaît le jour ni l'heure, mais sa promesse est certaine. Cette espérance nous console dans le deuil, nous encourage à vivre saintement et nous pousse à annoncer l'Évangile pendant qu'il est encore temps.",
  "question": "Si Jésus revenait aujourd'hui, que voudrais-tu avoir fait ?",
  "sujets": [
   {
@@ -21,9 +97,5 @@
   }
  ],
  "priere": "Viens, Seigneur Jésus ! Garde-moi fidèle jusqu'à ton retour. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

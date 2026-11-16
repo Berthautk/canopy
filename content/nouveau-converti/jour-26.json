@@ -1,14 +1,90 @@
 {
  "id": "nouveau-converti-jour-26",
  "jour": 26,
- "titre": "Gérer son argent selon Dieu",
  "image": "/assets/famille-quotidien/couple-et-budget.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Gérer son argent selon Dieu",
+ "objectifs": [
+  "À qui appartient ton argent",
+  "Honorer Dieu avec ses biens",
+  "Des principes simples de gestion"
+ ],
+ "introduction": [
+  "L'argent est un sujet très présent dans la Bible : Jésus en a parlé plus souvent que du ciel ou de l'enfer. Pourquoi ? Parce que notre rapport à l'argent révèle notre cœur. Aujourd'hui, nous allons voir comment un enfant de Dieu peut gérer ses biens avec sagesse."
+ ],
+ "sections": [
+  {
+   "titre": "Tout appartient à Dieu",
+   "texte": [
+    "### Des gérants, pas des propriétaires",
+    "Le psalmiste dit : à l'Éternel la terre et ce qu'elle renferme, le monde et ceux qui l'habitent. Ton argent, ton salaire, ton champ, ta boutique, ton téléphone : tout vient de Dieu. Tu n'en es pas le propriétaire, mais le gérant. Un bon gérant se demande toujours : « Qu'est-ce que mon maître veut que je fasse avec ce qu'il m'a confié ? »",
+    "### Chercher d'abord le royaume",
+    "Jésus a dit : cherchez premièrement le royaume et la justice de Dieu ; et toutes ces choses vous seront données par-dessus (Matthieu 6:33). « Ces choses », ce sont la nourriture, les vêtements, les besoins de base. Jésus ne promet pas la richesse, mais il promet que le Père prend soin de ceux qui le mettent à la première place."
+   ]
+  },
+  {
+   "titre": "Honorer Dieu avec ses biens",
+   "texte": [
+    "### Les prémices",
+    "Le livre des Proverbes dit : honore l'Éternel avec tes biens, et avec les prémices de tout ton revenu (Proverbes 3:9). Les prémices, ce sont les premiers fruits de la récolte. Honorer Dieu en premier, et non avec ce qui reste à la fin du mois, est une manière de dire : « Tu es le premier dans ma vie. » Beaucoup de chrétiens donnent régulièrement une part fixe de leur revenu à leur église et aux pauvres, souvent la dîme, c'est-à-dire un dixième, comme point de départ.",
+    "### Donner avec joie",
+    "Paul écrit : que chacun donne comme il l'a résolu en son cœur, sans tristesse ni contrainte ; car Dieu aime celui qui donne avec joie (2 Corinthiens 9:7). Dieu ne veut pas un don arraché par la peur, les menaces ou les promesses de richesse rapide. Méfie-toi des prédicateurs qui disent : « Donne cette somme et Dieu te rendra au centuple la semaine prochaine. » Le don chrétien est une réponse d'amour, pas un placement financier."
+   ]
+  },
+  {
+   "titre": "Des principes simples",
+   "texte": [
+    "### Vivre selon ses moyens",
+    "Fais un petit budget : écris ce que tu gagnes et ce que tu dépenses. Mets d'abord la part de Dieu, puis les besoins essentiels : nourriture, logement, santé, école des enfants. Évite les dépenses pour paraître, pour imiter les autres ou impressionner à une fête.",
+    "### Se méfier des dettes",
+    "Le livre des Proverbes dit que celui qui emprunte est l'esclave de celui qui prête. Certaines dettes sont parfois nécessaires, mais beaucoup de familles sont détruites par des emprunts faits pour des choses qui n'étaient pas indispensables. Avant d'emprunter, prie, réfléchis, demande conseil.",
+    "### Travailler honnêtement",
+    "Paul dit : que celui qui dérobait ne dérobe plus ; mais plutôt qu'il travaille, en faisant de ses mains ce qui est bien, pour avoir de quoi donner à celui qui est dans le besoin. Pas de corruption, pas de détournement, pas de fraude, même si « tout le monde le fait ». Un franc gagné honnêtement vaut mieux qu'un million volé.",
+    "### Épargner un peu",
+    "La fourmi prépare en été sa nourriture pour l'hiver. Mettre de côté un peu, même une petite somme, chaque semaine, est une sagesse pour faire face aux imprévus et ne pas tomber dans la dette.",
+    "On raconte l'histoire d'un couple de jeunes mariés qui ne comprenait pas pourquoi il n'y avait jamais rien à la fin du mois. Un frère de l'église leur proposa d'écrire pendant un mois toutes leurs dépenses. Ils découvrirent qu'ils dépensaient presque un quart de leur salaire en crédits de communication et en petits achats inutiles. Ils firent un budget, commencèrent à donner régulièrement et à épargner un peu. Deux ans plus tard, ils avaient payé leurs dettes. La femme dit : « Dieu n'a pas multiplié notre salaire, il a multiplié notre sagesse. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "Tout appartient à Dieu : tu es un gérant, et tu cherches d'abord son royaume (Matthieu 6:33).",
+  "Honore Dieu avec les prémices de ton revenu, et donne avec joie, sans contrainte (Proverbes 3:9 ; 2 Corinthiens 9:7).",
+  "Vis selon tes moyens, méfie-toi des dettes, travaille honnêtement et épargne un peu."
+ ],
+ "memoriser": "Mt 6:33",
+ "quiz": [
+  {
+   "question": "Que sont les « prémices » ?",
+   "choix": [
+    "Ce qui reste à la fin du mois",
+    "Les premiers fruits, ce qu'on donne à Dieu en premier",
+    "Une dette"
+   ],
+   "reponse": 1,
+   "explication": "Proverbes 3:9.",
+   "section": "2"
+  },
+  {
+   "question": "Comment Dieu veut-il que nous donnions ?",
+   "choix": [
+    "Par peur d'être maudits",
+    "Avec joie, sans tristesse ni contrainte",
+    "Pour recevoir le centuple tout de suite"
+   ],
+   "reponse": 1,
+   "explication": "2 Corinthiens 9:7.",
+   "section": "2"
+  }
+ ],
+ "pratique": "Écris pendant une semaine toutes tes dépenses. Puis fais un petit budget en commençant par la part de Dieu et les besoins essentiels.",
  "versets": [
   "Pr 3:9-10",
   "Mt 6:33",
   "2 Co 9:7"
  ],
- "texte": "Tout ce que nous avons vient de Dieu. Il nous appelle à l'honorer avec nos biens : donner avec joie, éviter les dettes inutiles, travailler honnêtement et ne pas mettre notre confiance dans l'argent. Cherche d'abord son royaume : il pourvoira au reste.",
  "question": "Quelle décision concrète vas-tu prendre pour honorer Dieu avec ton argent ?",
  "sujets": [
   {
@@ -21,9 +97,5 @@
   }
  ],
  "priere": "Père, tout vient de toi. Aide-moi à t'honorer avec mes biens et à te faire confiance. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

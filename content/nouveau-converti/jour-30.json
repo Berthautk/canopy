@@ -1,14 +1,90 @@
 {
  "id": "nouveau-converti-jour-30",
  "jour": 30,
- "titre": "Persévérer jusqu'au bout",
  "image": "/assets/temoignage/jesus-accompagne.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Persévérer jusqu'au bout",
+ "objectifs": [
+  "La fidélité de Dieu pour achever son œuvre",
+  "Courir la course avec persévérance",
+  "Les prochaines étapes après ce parcours"
+ ],
+ "introduction": [
+  "Bravo ! Tu arrives au dernier jour de ce parcours. Pendant trente jours, tu as posé des bases importantes. Mais la vie chrétienne n'est pas un sprint de trente jours : c'est une course de toute une vie. Aujourd'hui, nous allons voir comment persévérer jusqu'au bout."
+ ],
+ "sections": [
+  {
+   "titre": "Dieu achèvera son œuvre",
+   "texte": [
+    "### Celui qui a commencé",
+    "Paul écrit : je suis persuadé que celui qui a commencé en vous cette bonne œuvre la rendra parfaite pour le jour de Jésus-Christ (Philippiens 1:6). Ta persévérance ne repose pas d'abord sur tes forces, mais sur la fidélité de Dieu. C'est lui qui a commencé, c'est lui qui achèvera. Quand tu te sens faible, souviens-toi de ce verset.",
+    "### Pas sans toi",
+    "Mais Dieu ne travaille pas sans toi. Il te donne les moyens de grandir : sa Parole, la prière, l'Église, le Saint-Esprit. Ta part est de rester connecté à ces sources, jour après jour, même quand tu n'as pas envie."
+   ]
+  },
+  {
+   "titre": "Courir la course",
+   "texte": [
+    "### Rejeter ce qui alourdit",
+    "L'épître aux Hébreux dit : nous donc aussi, puisque nous sommes environnés d'une si grande nuée de témoins, rejetons tout fardeau, et le péché qui nous enveloppe si facilement, et courons avec persévérance dans la carrière qui nous est ouverte, ayant les regards sur Jésus, le chef et le consommateur de la foi (Hébreux 12:1-2). Un coureur ne court pas avec un sac de ciment sur le dos. Qu'est-ce qui t'alourdit encore : une relation, une habitude, une rancune, un péché caché ? Rejette-le.",
+    "### Les yeux sur Jésus",
+    "Le secret du coureur, c'est de regarder le but. Si tu regardes les autres chrétiens, tu seras déçu. Si tu regardes tes problèmes, tu seras découragé. Si tu regardes Jésus, tu trouveras la force de continuer. Il a lui-même couru jusqu'au bout, jusqu'à la croix, à cause de la joie qui lui était réservée.",
+    "### Finir la course",
+    "À la fin de sa vie, Paul a pu écrire : j'ai combattu le bon combat, j'ai achevé la course, j'ai gardé la foi (2 Timothée 4:7). Il y a eu dans sa vie des prisons, des naufrages, des trahisons, des maladies. Mais il a gardé la foi. Ce qui compte, ce n'est pas seulement de bien commencer, mais de bien finir."
+   ]
+  },
+  {
+   "titre": "Les prochaines étapes",
+   "texte": [
+    "### Continuer les bonnes habitudes",
+    "Ne laisse pas tomber les habitudes que tu as commencées : ton rendez-vous quotidien avec la Bible et la prière, ton carnet de prière, tes trois remerciements du soir, ton église, ton petit groupe. Ce sont elles qui te garderont.",
+    "### Aller plus loin dans Grandir",
+    "Dans la rubrique Grandir, tu peux continuer avec les enseignements de Fondations : l'affermissement, la croix, les doctrines élémentaires, et la série « Connaître la Bible », qui t'aidera à comprendre et à défendre ta foi. Si tu ne l'as pas encore fait, le parcours « Découvrir Jésus » approfondit qui est Dieu et qui est Jésus.",
+    "### Trouver un accompagnateur",
+    "Si possible, demande à un chrétien mûr de ton église de t'accompagner pendant les prochains mois : vous pouvez vous voir une fois par semaine pour lire la Bible, prier et parler de tes questions. Et un jour, c'est toi qui accompagneras un nouveau converti.",
+    "Aux Jeux olympiques de Mexico, en 1968, le marathonien tanzanien John Stephen Akhwari tomba lourdement pendant la course et se blessa gravement au genou et à l'épaule. On le soigna, puis il repartit en boitant. Il entra dans le stade plus d'une heure après le vainqueur, alors que la nuit tombait et que la plupart des spectateurs étaient partis. Quand on lui demanda pourquoi il n'avait pas abandonné, il répondit à peu près ceci : « Mon pays ne m'a pas envoyé si loin pour commencer la course, mais pour la finir. » Dieu ne t'a pas sauvé seulement pour bien commencer, mais pour finir la course, avec lui."
+   ]
+  }
+ ],
+ "retenir": [
+  "Celui qui a commencé en toi cette bonne œuvre l'achèvera (Philippiens 1:6).",
+  "Rejette ce qui t'alourdit, et cours avec persévérance, les yeux sur Jésus (Hébreux 12:1-2).",
+  "Garde tes bonnes habitudes, continue dans Grandir, et fais-toi accompagner, pour finir la course comme Paul (2 Timothée 4:7)."
+ ],
+ "memoriser": "Ph 1:6",
+ "quiz": [
+  {
+   "question": "Sur quoi repose d'abord notre persévérance ?",
+   "choix": [
+    "Sur nos forces",
+    "Sur la fidélité de Dieu qui achèvera son œuvre",
+    "Sur la chance"
+   ],
+   "reponse": 1,
+   "explication": "Philippiens 1:6.",
+   "section": "1"
+  },
+  {
+   "question": "Selon Hébreux 12:2, où faut-il fixer ses regards ?",
+   "choix": [
+    "Sur les autres chrétiens",
+    "Sur Jésus",
+    "Sur ses problèmes"
+   ],
+   "reponse": 1,
+   "explication": "Le chef et le consommateur de la foi.",
+   "section": "2"
+  }
+ ],
+ "pratique": "Relis ton cahier depuis le jour 1 et remercie Dieu pour ce qu'il a fait en trente jours. Choisis ta prochaine étape dans Grandir, et demande à un chrétien mûr de t'accompagner.",
  "versets": [
   "Ph 1:6",
   "Hé 12:1-2",
   "2 Tm 4:7"
  ],
- "texte": "Bravo, tu as terminé ces trente jours ! La vie chrétienne est une course de fond, pas un sprint. Celui qui a commencé en toi cette bonne œuvre la rendra parfaite. Garde les yeux fixés sur Jésus, continue de lire la Bible, de prier, de rester dans l'Église et de témoigner.",
  "question": "Qu'est-ce que Dieu t'a appris de plus important pendant ces trente jours ?",
  "sujets": [
   {
@@ -21,9 +97,5 @@
   }
  ],
  "priere": "Père, merci pour ces trente jours. Garde-moi près de toi tous les jours de ma vie. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }
