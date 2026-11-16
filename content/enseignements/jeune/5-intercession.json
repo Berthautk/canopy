@@ -7,7 +7,7 @@
  "resume": "Le jeûne pour un besoin particulier, souvent pour les autres : un malade, un enfant, un proche loin de Dieu, un foyer, une ville, une nation. Néhémie, Daniel, Moïse, David, et l'Église qui jeûnait pour Pierre en prison. Et comment jeûner pour quelqu'un, jour après jour.",
  "image": "/assets/priere/priere-pour-un-malade.webp",
  "verset_de_base": "Ps 35:13",
- "lecture_minutes": 30,
+ "lecture_minutes": 29,
  "objectifs": [
   "Comprendre ce qu'est le jeûne d'intercession et de plaidoyer.",
   "Apprendre des grands intercesseurs de la Bible.",
@@ -129,12 +129,11 @@
   },
   {
    "numero": "4",
-   "titre": "Plaider comme Abraham, comme Moïse, comme Esther",
+   "titre": "Plaider comme Abraham, Samuel et Job",
    "references": [
     "Gn 18:22-33",
-    "Ex 32:11-14",
-    "Est 4:14-16",
-    "Ez 22:30"
+    "1 S 12:19-23",
+    "Jb 42:7-10"
    ],
    "blocs": [
     {
@@ -153,43 +152,28 @@
      "texte": "Quand nous jeûnons pour quelqu'un, nous pouvons plaider ainsi : « Seigneur, tu es juste, tu es miséricordieux. Voici cette personne. Montre ta bonté. »"
     },
     {
-     "sous_titre": "Moïse plaide sur la réputation de Dieu"
+     "sous_titre": "Samuel : « Loin de moi de cesser de prier pour vous »"
     },
     {
-     "texte": "Après le veau d'or, Dieu a dit à Moïse qu'il voulait détruire le peuple. Moïse a plaidé : Éternel, pourquoi ta colère s'enflammerait-elle contre ton peuple, que tu as fait sortir du pays d'Égypte par ta grande puissance et par ta main forte ? Pourquoi les Égyptiens diraient-ils : c'est par méchanceté qu'il les a fait sortir, pour les tuer dans les montagnes ? Souviens-toi d'Abraham, d'Isaac et d'Israël, tes serviteurs. Et l'Éternel renonça au mal qu'il avait déclaré vouloir faire à son peuple."
+     "texte": "Quand le peuple d'Israël a réclamé un roi, il a rejeté Samuel et, au fond, il a rejeté Dieu. Samuel aurait pu se sentir blessé et laisser le peuple à son sort. Quand le peuple a pris peur et lui a demandé de prier pour lui, Samuel a répondu : loin de moi de pécher contre l'Éternel, de cesser de prier pour vous ! Je vous enseignerai le bon et le droit chemin."
     },
     {
-     "verset": "Ex 32:11-14"
+     "verset": "1 S 12:19-23"
     },
     {
-     "texte": "Moïse plaide sur le nom de Dieu, sur sa gloire et sur ses promesses. Il ne dit pas : « Ils le méritent. » Il dit : « Pour ton nom, souviens-toi de ta parole. » L'intercesseur sage s'appuie sur ce que Dieu a promis."
+     "texte": "Pour Samuel, cesser de prier pour ceux qui l'avaient rejeté aurait été un péché. L'intercesseur continue de prier même pour ceux qui l'ont blessé ou déçu."
     },
     {
-     "sous_titre": "Esther : « Si je dois périr, je périrai »"
+     "sous_titre": "Job prie pour ses amis"
     },
     {
-     "texte": "La reine Esther a appris qu'un décret du roi allait faire exterminer tous les Juifs de l'empire. Son cousin Mardochée lui a demandé d'aller voir le roi. Mais se présenter devant le roi sans y être invité pouvait coûter la vie. Mardochée lui a dit : si tu te tais en ce temps-ci, le secours et la délivrance viendront d'ailleurs pour les Juifs, et toi et la maison de ton père, vous périrez. Et qui sait si ce n'est pas pour un temps comme celui-ci que tu es parvenue à la royauté ? Esther a répondu : va, rassemble tous les Juifs qui se trouvent à Suse, jeûnez pour moi, sans manger ni boire pendant trois jours, ni la nuit ni le jour ; moi aussi, je jeûnerai de même avec mes servantes ; puis j'irai vers le roi, malgré la loi ; et si je dois périr, je périrai."
+     "texte": "Les trois amis de Job l'avaient accablé de reproches injustes pendant toute sa maladie. À la fin, Dieu a dit qu'ils n'avaient pas parlé de lui avec droiture, et qu'ils devaient aller vers Job, car Job, mon serviteur, priera pour vous. Et l'Éternel rétablit Job dans son premier état, quand Job eut prié pour ses amis."
     },
     {
-     "verset": "Est 4:14-16"
+     "verset": "Jb 42:7-10"
     },
     {
-     "texte": "Voilà un jeûne d'intercession collectif, de trois jours, avant une démarche risquée. Et Dieu a changé le cœur du roi, le peuple a été sauvé, et le méchant Haman a été pendu sur la potence qu'il avait préparée."
-    },
-    {
-     "texte": "Remarque la phrase de Mardochée : et qui sait si ce n'est pas pour un temps comme celui-ci que tu es parvenue à la royauté ? Qui sait si Dieu ne t'a pas placé là où tu es, dans ta famille, ton église, ton lieu de travail, justement pour intercéder pour des personnes précises ?"
-    },
-    {
-     "sous_titre": "Se tenir à la brèche"
-    },
-    {
-     "texte": "Dieu cherchait un homme qui se tînt à la brèche. Chaque fois que quelqu'un répond à cet appel, Dieu agit."
-    },
-    {
-     "verset": "Ez 22:30"
-    },
-    {
-     "texte": "On raconte l'histoire d'une femme qui a jeûné et prié chaque lundi pendant onze ans pour son mari, un homme violent qui buvait. Elle ne lui en parlait jamais. Un jour, il est tombé gravement malade. Pendant son hospitalisation, il a demandé à voir un pasteur. Il a donné sa vie à Jésus sur son lit d'hôpital. Il a vécu encore quatre ans, et ce furent, disait-il, les meilleures années de sa vie. À ses funérailles, sa femme a dit : « Chaque lundi, je ne priais pas seulement pour lui, je priais pour être capable de l'aimer. Dieu a répondu aux deux demandes. »"
+     "texte": "Remarque l'ordre : Job a prié pour ceux qui l'avaient blessé, et c'est à ce moment-là que Dieu l'a rétabli. L'intercession pour ceux qui nous ont fait du mal libère aussi notre propre cœur."
     }
    ]
   },
@@ -257,7 +241,6 @@
    "references": [
     "Lc 18:1-8",
     "Ha 2:3",
-    "Dn 10:12-13",
     "Hé 10:35-36",
     "Ga 6:9"
    ],
@@ -284,10 +267,7 @@
      "verset": "Ha 2:3"
     },
     {
-     "texte": "Dieu a son calendrier. Parfois, nous pensons qu'il tarde, alors qu'il est en train de préparer quelque chose : le cœur de la personne, les circonstances, ta propre croissance. Daniel a attendu vingt et un jours avant de voir la réponse, alors que son ange était parti dès le premier jour."
-    },
-    {
-     "verset": "Dn 10:12-13"
+     "texte": "Dieu a son calendrier. Parfois, nous pensons qu'il tarde, alors qu'il est en train de préparer quelque chose : le cœur de la personne, les circonstances, ta propre croissance. "
     },
     {
      "sous_titre": "Ne pas perdre son assurance"
@@ -371,6 +351,50 @@
   },
   {
    "numero": "8",
+   "titre": "Jésus, l'intercesseur parfait",
+   "references": [
+    "Lc 23:33-34",
+    "Rm 8:26-27",
+    "Rm 8:34"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "« Père, pardonne-leur »"
+    },
+    {
+     "texte": "Le modèle le plus parfait de l'intercession, c'est Jésus lui-même. Sur la croix, alors qu'on venait de lui clouer les mains et les pieds, que les soldats se partageaient ses vêtements et que les chefs se moquaient de lui, il a prié : Père, pardonne-leur, car ils ne savent ce qu'ils font."
+    },
+    {
+     "verset": "Lc 23:33-34"
+    },
+    {
+     "texte": "Jésus a intercédé pour ses bourreaux au moment même où ils le faisaient souffrir. Il n'a pas attendu qu'ils regrettent. Il n'a pas attendu d'aller mieux. Dans la douleur, il a plaidé pour eux. C'est le sommet de l'intercession : prier pour ceux qui nous font du mal, pendant qu'ils nous en font."
+    },
+    {
+     "sous_titre": "L'Esprit qui intercède avec nous"
+    },
+    {
+     "texte": "Il y a des moments où nous ne savons plus comment prier pour quelqu'un. La situation est trop lourde, les mots manquent. Paul écrit : de même aussi l'Esprit nous aide dans notre faiblesse, car nous ne savons pas ce qu'il nous convient de demander dans nos prières. Mais l'Esprit lui-même intercède par des soupirs inexprimables ; et celui qui sonde les cœurs connaît quelle est la pensée de l'Esprit, parce que c'est selon Dieu qu'il intercède en faveur des saints."
+    },
+    {
+     "texte": "Quand tu jeûnes pour quelqu'un et que tu ne sais plus quoi dire, tu peux simplement rester devant Dieu, en silence ou en soupirant. L'Esprit prie avec toi et en toi."
+    },
+    {
+     "sous_titre": "Christ intercède pour nous"
+    },
+    {
+     "texte": "Et Paul ajoute : Christ est mort ; bien plus, il est ressuscité, il est à la droite de Dieu, et il intercède pour nous !"
+    },
+    {
+     "verset": "Rm 8:34"
+    },
+    {
+     "texte": "Tu n'es jamais seul à intercéder. Quand tu pries pour ton enfant, ton conjoint, ton ami, Jésus prie déjà pour eux à la droite du Père. Ton intercession rejoint la sienne. Cela donne une grande paix : la personne pour laquelle tu jeûnes est aussi portée par le meilleur des intercesseurs."
+    }
+   ]
+  },
+  {
+   "numero": "9",
    "titre": "Jeûner pour quelqu'un, jour après jour",
    "references": [],
    "blocs": [
@@ -457,29 +481,29 @@
    ],
    "reponse": 1,
    "explication": "Genèse 18:22-33.",
-   "section": "2"
+   "section": "4"
   },
   {
-   "question": "Sur quoi Moïse a-t-il plaidé après le veau d'or ?",
+   "question": "Qu'a dit Samuel au peuple qui l'avait rejeté ?",
    "choix": [
-    "Sur les mérites du peuple",
-    "Sur la gloire de Dieu et ses promesses à Abraham, Isaac et Israël",
-    "Sur sa propre force"
+    "Débrouillez-vous",
+    "Loin de moi de pécher en cessant de prier pour vous",
+    "Je ne vous connais plus"
    ],
    "reponse": 1,
-   "explication": "Exode 32:11-14.",
-   "section": "2"
+   "explication": "1 Samuel 12:23.",
+   "section": "4"
   },
   {
-   "question": "Qu'a fait Esther avant d'aller voir le roi ?",
+   "question": "Quand Job a-t-il été rétabli ?",
    "choix": [
-    "Elle a préparé un discours",
-    "Elle a demandé aux Juifs de jeûner trois jours pour elle, et elle a jeûné aussi",
-    "Elle a fui"
+    "Quand ses amis se sont excusés",
+    "Quand il a prié pour ses amis qui l'avaient blessé",
+    "Quand il a guéri seul"
    ],
    "reponse": 1,
-   "explication": "Esther 4:16.",
-   "section": "2"
+   "explication": "Job 42:10.",
+   "section": "4"
   },
   {
    "question": "Que montre la parabole de la veuve persistante ?",
@@ -490,7 +514,7 @@
    ],
    "reponse": 1,
    "explication": "Luc 18:1-8.",
-   "section": "3"
+   "section": "6"
   },
   {
    "question": "Quel conseil pour celui qui prie depuis longtemps sans réponse visible ?",
@@ -501,7 +525,7 @@
    ],
    "reponse": 1,
    "explication": "Habacuc 2:3 ; Hébreux 10:35-36.",
-   "section": "4"
+   "section": "6"
   },
   {
    "question": "Pourquoi faut-il aimer concrètement ceux pour qui on prie ?",
@@ -512,7 +536,18 @@
    ],
    "reponse": 1,
    "explication": "Jacques 2:15-16.",
-   "section": "5"
+   "section": "7"
+  },
+  {
+   "question": "Qu'a fait Jésus pour ceux qui le crucifiaient ?",
+   "choix": [
+    "Il les a maudits",
+    "Il a prié : « Père, pardonne-leur »",
+    "Il s'est tu"
+   ],
+   "reponse": 1,
+   "explication": "Luc 23:34. Le sommet de l'intercession.",
+   "section": "8"
   }
  ],
  "devoir": [
