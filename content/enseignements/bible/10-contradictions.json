@@ -445,6 +445,34 @@
   },
   {
    "numero": "14",
+   "titre": "Une citation attribuée à Jérémie",
+   "references": [
+    "Mt 27:9-10",
+    "Jr 19:1-2"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Le problème"
+    },
+    {
+     "texte": "Matthieu écrit, au sujet des trente pièces d'argent et du champ du potier : alors s'accomplit ce qui avait été annoncé par Jérémie, le prophète (Matthieu 27:9). Or les mots qu'il cite ressemblent surtout à une prophétie de Zacharie, celle des trente sicles jetés au potier. Matthieu s'est-il trompé de prophète ?"
+    },
+    {
+     "sous_titre": "Plusieurs prophéties réunies"
+    },
+    {
+     "texte": "En lisant attentivement, on voit que Matthieu combine deux sources. De Zacharie, il reprend les trente pièces et le potier. Mais Jérémie aussi est lié à un potier et à un champ : Dieu l'envoya dans la maison du potier (Jérémie 18), puis lui fit acheter un vase de potier et l'emmener dans la vallée de Ben-Hinnom, un lieu de mort et de jugement (Jérémie 19:1-2), et ailleurs lui fit acheter un champ (Jérémie 32). Quand un auteur juif de cette époque réunissait plusieurs passages, il citait souvent le nom du prophète le plus important. Marc fait la même chose au début de son évangile : il annonce une citation « d'Ésaïe », puis cite d'abord Malachie, avant Ésaïe (Marc 1:2-3)."
+    },
+    {
+     "sous_titre": "Une manière ancienne de citer"
+    },
+    {
+     "texte": "Ce n'est donc pas une erreur, mais une manière de citer différente de la nôtre. Nous mettons aujourd'hui des guillemets et des références précises ; les auteurs anciens citaient souvent de mémoire et réunissaient des textes liés par un même thème. Il faut lire les auteurs bibliques selon les règles de leur époque, pas selon celles de nos devoirs d'école."
+    }
+   ]
+  },
+  {
+   "numero": "15",
    "titre": "Ce que tout cela nous apprend",
    "references": [
     "2 Tm 2:15",
