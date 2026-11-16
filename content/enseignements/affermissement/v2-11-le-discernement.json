@@ -1,345 +1,602 @@
 {
- "id": "disciple-v2-11-le-discernement",
- "titre": "Le discernement",
- "serie": "Affermissement",
- "theme": "Affermissement",
- "auteur": "Yeshaya",
- "resume": "Onzième leçon du volume 2 : tout ce qui brille n'est pas de Dieu. Faux prophètes, fausses doctrines, faux miracles, et décisions de la vie : comment éprouver les esprits et distinguer le vrai du faux par la Parole.",
- "image": "/assets/vie-chretienne/homme-etudie-la-bible.webp",
- "verset_de_base": "1 Jn 4:1",
- "lecture_minutes": 16,
- "objectifs": [
-  "Comprendre pourquoi le chrétien doit discerner.",
-  "Connaître les critères bibliques pour reconnaître un faux prophète ou une fausse doctrine.",
-  "Apprendre à éprouver les révélations, les songes et les miracles.",
-  "Prendre des décisions selon la volonté de Dieu."
- ],
- "introduction": "Jamais il n'y a eu autant de prophètes, de pasteurs, d'apôtres et de « papas » qu'aujourd'hui. Sur les réseaux sociaux, chacun a sa révélation, son onction spéciale, sa prière qui marche à tous les coups. Beaucoup de chrétiens sincères sont trompés, perdent leur argent, leur mariage, et parfois leur foi.\n\nJean écrit : bien-aimés, n'ajoutez pas foi à tout esprit ; mais éprouvez les esprits, pour savoir s'ils sont de Dieu, car plusieurs faux prophètes sont venus dans le monde (1 Jean 4:1). Le discernement n'est pas un don réservé à quelques-uns. C'est une responsabilité de chaque chrétien.",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "Pourquoi discerner",
-   "references": [
-    "Mt 24:24",
-    "2 Co 11:13-15",
-    "Ac 17:11"
-   ],
-   "blocs": [
+  "id": "disciple-v2-11-le-discernement",
+  "titre": "Le discernement",
+  "serie": "Affermissement",
+  "theme": "Affermissement",
+  "auteur": "Yeshaya",
+  "resume": "Onzième leçon du volume 2 : tout ce qui brille n'est pas de Dieu. Faux prophètes, fausses doctrines, faux miracles, et décisions de la vie : comment éprouver les esprits et distinguer le vrai du faux par la Parole.",
+  "image": "/assets/vie-chretienne/homme-etudie-la-bible.webp",
+  "verset_de_base": "1 Jn 4:1",
+  "lecture_minutes": 35,
+  "objectifs": [
+    "Comprendre pourquoi le chrétien doit discerner.",
+    "Connaître les critères bibliques pour reconnaître un faux prophète ou une fausse doctrine.",
+    "Apprendre à éprouver les révélations, les songes et les miracles.",
+    "Prendre des décisions selon la volonté de Dieu."
+  ],
+  "introduction": "Jamais il n'y a eu autant de prophètes, de pasteurs, d'apôtres et de « papas » qu'aujourd'hui. Sur les réseaux sociaux, chacun a sa révélation, son onction spéciale, sa prière qui marche à tous les coups. Beaucoup de chrétiens sincères sont trompés, perdent leur argent, leur mariage, et parfois leur foi.\n\nJean écrit : bien-aimés, n'ajoutez pas foi à tout esprit ; mais éprouvez les esprits, pour savoir s'ils sont de Dieu, car plusieurs faux prophètes sont venus dans le monde (1 Jean 4:1). Le discernement n'est pas un don réservé à quelques-uns. C'est une responsabilité de chaque chrétien.",
+  "sections": [
     {
-     "sous_titre": "Jésus nous a prévenus"
+      "numero": "1",
+      "titre": "Pourquoi discerner",
+      "references": [
+        "Mt 24:24",
+        "2 Co 11:13-15",
+        "Ac 17:11"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Jésus nous a prévenus"
+        },
+        {
+          "texte": "Jésus a dit qu'il s'élèvera de faux christs et de faux prophètes ; ils feront de grands prodiges et des miracles, au point de séduire, s'il était possible, même les élus. Remarque : ils feront de vrais prodiges. Un miracle ne prouve pas qu'un homme est de Dieu."
+        },
+        {
+          "verset": "Mt 24:24"
+        },
+        {
+          "sous_titre": "Déguisés en anges de lumière"
+        },
+        {
+          "texte": "Paul dit que Satan lui-même se déguise en ange de lumière, et que ses ministres se déguisent en ministres de justice. Le faux ne se présente jamais avec des cornes. Il se présente avec une belle voix, un beau costume, des versets, et une grande foule."
+        },
+        {
+          "verset": "2 Co 11:13-15"
+        },
+        {
+          "sous_titre": "Les Béréens"
+        },
+        {
+          "texte": "Quand Paul prêchait à Bérée, les Juifs de cette ville recevaient la parole avec beaucoup d'empressement, et ils examinaient chaque jour les Écritures, pour voir si ce qu'on leur disait était exact. Ils vérifiaient même Paul ! La Bible les appelle « plus nobles ». Vérifier ce que dit ton pasteur n'est pas un manque de respect. C'est ce que Dieu demande."
+        },
+        {
+          "verset": "Ac 17:11"
+        }
+      ]
     },
     {
-     "texte": "Jésus a dit qu'il s'élèvera de faux christs et de faux prophètes ; ils feront de grands prodiges et des miracles, au point de séduire, s'il était possible, même les élus. Remarque : ils feront de vrais prodiges. Un miracle ne prouve pas qu'un homme est de Dieu."
+      "numero": "2",
+      "titre": "Reconnaître un faux prophète",
+      "references": [
+        "Mt 7:15-20",
+        "Dt 13:1-4",
+        "2 P 2:1-3",
+        "1 Jn 4:2-3"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "À leurs fruits"
+        },
+        {
+          "texte": "Vous les reconnaîtrez à leurs fruits. Regarde sa vie, pas seulement ses miracles. Sa vie de famille, son rapport à l'argent, à la sexualité, à l'autorité. Est-ce qu'il se rend compte à quelqu'un ? Est-ce qu'il accepte d'être corrigé ?"
+        },
+        {
+          "verset": "Mt 7:15-20"
+        },
+        {
+          "sous_titre": "Même si le signe arrive"
+        },
+        {
+          "texte": "Dans le Deutéronome, Dieu dit : s'il s'élève un prophète qui t'annonce un signe, et que le signe arrive, mais qu'il te dit d'aller après d'autres dieux, n'écoute pas ses paroles. Le critère final, ce n'est pas le signe, c'est la fidélité au vrai Dieu et à sa Parole."
+        },
+        {
+          "verset": "Dt 13:1-4"
+        },
+        {
+          "sous_titre": "Par cupidité"
+        },
+        {
+          "texte": "Pierre dit que les faux docteurs, par cupidité, trafiqueront de vous au moyen de paroles trompeuses. Quand un ministère tourne autour de l'argent, des semences à payer, des consultations privées payantes, des objets vendus, méfie-toi."
+        },
+        {
+          "verset": "2 P 2:1-3"
+        },
+        {
+          "sous_titre": "Ce qu'il dit de Jésus"
+        },
+        {
+          "texte": "Jean donne un test simple : tout esprit qui confesse Jésus-Christ venu en chair est de Dieu. Le centre du vrai message, c'est Jésus, sa croix, sa résurrection, la repentance et la foi. Si le centre du message, c'est toi, ta prospérité, tes ennemis, ou l'homme de Dieu lui-même, quelque chose ne va pas."
+        },
+        {
+          "verset": "1 Jn 4:2-3"
+        }
+      ]
     },
     {
-     "verset": "Mt 24:24"
+      "numero": "3",
+      "titre": "Éprouver les révélations et les songes",
+      "references": [
+        "1 Th 5:20-21",
+        "1 Co 14:29",
+        "2 Tm 3:16-17"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Tout examiner"
+        },
+        {
+          "texte": "Paul dit : ne méprisez pas les prophéties. Mais examinez toutes choses ; retenez ce qui est bon. Il ne faut ni tout rejeter, ni tout avaler. Les prophéties doivent être jugées, dit-il ailleurs."
+        },
+        {
+          "verset": "1 Th 5:20-21"
+        },
+        {
+          "sous_titre": "La Bible est le juge"
+        },
+        {
+          "texte": "Toute Écriture est inspirée de Dieu. Une révélation, un songe ou une prophétie qui contredit la Bible ne vient pas de Dieu, même si celui qui la donne est célèbre. Si un « prophète » te dit que ta mère est la sorcière qui bloque ta vie, que tu dois quitter ton conjoint, ou que Dieu t'a révélé que tu dois épouser telle personne, ne prends aucune décision sans la Bible, sans prière, et sans conseil de responsables mûrs."
+        },
+        {
+          "verset": "2 Tm 3:16-17"
+        }
+      ]
     },
     {
-     "sous_titre": "Déguisés en anges de lumière"
+      "numero": "4",
+      "titre": "Discerner dans les décisions de la vie",
+      "references": [
+        "Rm 12:2",
+        "Pr 3:5-6",
+        "Pr 15:22",
+        "Jc 1:5"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un esprit renouvelé"
+        },
+        {
+          "texte": "Ne vous conformez pas au siècle présent, mais soyez transformés par le renouvellement de l'intelligence, afin que vous discerniez quelle est la volonté de Dieu. Plus tu connais la Parole, plus tu reconnais la volonté de Dieu."
+        },
+        {
+          "verset": "Rm 12:2"
+        },
+        {
+          "sous_titre": "Demander la sagesse"
+        },
+        {
+          "texte": "Si quelqu'un manque de sagesse, qu'il la demande à Dieu, qui donne à tous simplement. Prie avant tes grandes décisions. Puis vérifie : est-ce conforme à la Parole ? Ai-je la paix ? Qu'en disent des chrétiens mûrs ? Les circonstances l'ouvrent-elles ?"
+        },
+        {
+          "verset": "Jc 1:5"
+        },
+        {
+          "sous_titre": "Le conseil"
+        },
+        {
+          "texte": "Les projets échouent faute d'une assemblée qui délibère ; mais ils réussissent quand il y a de nombreux conseillers. Ne prends pas seul les décisions qui engagent ta vie."
+        },
+        {
+          "verset": "Pr 15:22"
+        }
+      ]
     },
     {
-     "texte": "Paul dit que Satan lui-même se déguise en ange de lumière, et que ses ministres se déguisent en ministres de justice. Le faux ne se présente jamais avec des cornes. Il se présente avec une belle voix, un beau costume, des versets, et une grande foule."
+      "numero": "5",
+      "titre": "Des cas de tromperie dans la Bible",
+      "references": [
+        "Jos 9:3-15",
+        "1 R 13:15-24",
+        "Ac 5:1-5"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Les Gabaonites"
+        },
+        {
+          "texte": "Des Gabaonites, qui habitaient tout près, se sont présentés à Josué avec des sacs usés, du pain moisi et des sandales raccommodées, en disant qu'ils venaient de très loin. Josué et les chefs ont fait alliance avec eux. La Bible dit : « Ils ne consultèrent point l'Éternel. » Beaucoup de mauvaises décisions viennent de là : on regarde les apparences, on se laisse convaincre par une belle histoire, et on ne prie pas."
+        },
+        {
+          "verset": "Jos 9:14-15"
+        },
+        {
+          "sous_titre": "Le vieux prophète menteur"
+        },
+        {
+          "texte": "Un homme de Dieu avait reçu l'ordre clair de ne pas manger à Béthel. Un vieux prophète l'a invité en disant : « Un ange m'a parlé de la part de l'Éternel : ramène-le avec toi. » Il lui mentait. L'homme de Dieu l'a cru, a désobéi, et il est mort. Aucune « révélation » d'un autre, même d'un prophète âgé et respecté, ne doit te faire désobéir à ce que Dieu a clairement dit dans sa Parole."
+        },
+        {
+          "verset": "1 R 13:18-24"
+        },
+        {
+          "sous_titre": "Ananias et Saphira"
+        },
+        {
+          "texte": "Ananias et Saphira ont vendu un champ et apporté une partie de l'argent aux apôtres en faisant croire que c'était tout. Pierre a discerné le mensonge par l'Esprit. Le discernement n'est pas seulement pour repérer les faux prophètes ; il nous montre aussi l'hypocrisie à l'intérieur de l'église, et d'abord dans notre propre cœur."
+        },
+        {
+          "verset": "Ac 5:3-5"
+        }
+      ]
     },
     {
-     "verset": "2 Co 11:13-15"
+      "numero": "6",
+      "titre": "Discerner dans notre contexte",
+      "references": [
+        "Mt 7:15-16",
+        "2 Tm 4:3-4",
+        "1 Jn 4:1"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Les signes qui doivent alerter"
+        },
+        {
+          "texte": "Un « homme de Dieu » qui exige de l'argent pour prier ou pour donner une révélation. Qui vend des objets « oints » : huile, eau, mouchoirs, bracelets. Qui accuse des membres de la famille d'être sorciers. Qui demande de quitter son conjoint ou de couper sa famille. Qui interdit de lire la Bible soi-même ou de demander conseil ailleurs. Qui a des relations sexuelles avec des fidèles « par révélation ». Qui ne se soumet à personne. Ces signes ne trompent pas : à leurs fruits vous les reconnaîtrez."
+        },
+        {
+          "verset": "Mt 7:15-16"
+        },
+        {
+          "sous_titre": "Les oreilles qui démangent"
+        },
+        {
+          "texte": "Paul a prévenu Timothée : il viendra un temps où les hommes ne supporteront pas la saine doctrine ; mais, ayant la démangeaison d'entendre des choses agréables, ils se donneront une foule de docteurs selon leurs propres désirs. Si tu ne cherches que des messages qui te promettent la richesse, le mariage et la victoire sur tes ennemis, tu es une proie facile. Cherche les messages qui te parlent de Jésus, de la croix, de la repentance et de la sainteté."
+        },
+        {
+          "verset": "2 Tm 4:3-4"
+        },
+        {
+          "sous_titre": "Les réseaux sociaux"
+        },
+        {
+          "texte": "Une vidéo, un message transféré « à partager à 10 personnes sinon malheur », une prophétie pour l'année, une prière qui garantit un miracle en 24 heures : tout cela circule chaque jour. Le chrétien ne transfère pas tout ce qu'il reçoit. Il vérifie avec la Bible, et il garde son téléphone pour ce qui édifie."
+        },
+        {
+          "verset": "1 Jn 4:1"
+        }
+      ]
     },
     {
-     "sous_titre": "Les Béréens"
+      "numero": "7",
+      "titre": "Michée face aux quatre cents prophètes",
+      "references": [
+        "1 R 22:5-8",
+        "1 R 22:13-17",
+        "1 R 22:26-28"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une majorité qui se trompe"
+        },
+        {
+          "texte": "Achab, roi d'Israël, voulait faire la guerre pour reprendre la ville de Ramoth en Galaad. Il demanda à Josaphat, roi de Juda, de l'accompagner. Josaphat, qui craignait Dieu, répondit : consulte d'abord, je te prie, la parole de l'Éternel."
+        },
+        {
+          "texte": "Achab rassembla alors environ quatre cents prophètes, et leur dit : irai-je attaquer Ramoth en Galaad, ou dois-je y renoncer ? Et ils répondirent tous : monte, et le Seigneur la livrera entre les mains du roi."
+        },
+        {
+          "verset": "1 R 22:5-8"
+        },
+        {
+          "texte": "Quatre cents prophètes, tous d'accord. Une seule voix, enthousiaste et positive. Mais Josaphat n'était pas tranquille. Il demanda : n'y a-t-il plus ici aucun prophète de l'Éternel, par qui nous puissions le consulter ? Achab répondit : il y a encore un homme, Michée, fils de Jimla. Mais je le hais, car il ne me prophétise rien de bon, il ne prophétise que du mal."
+        },
+        {
+          "sous_titre": "La pression pour dire comme les autres"
+        },
+        {
+          "texte": "Le messager envoyé chercher Michée lui dit : voici, les prophètes, d'un commun accord, prophétisent du bien au roi ; que ta parole soit donc comme la parole de chacun d'eux ! Annonce du bien !"
+        },
+        {
+          "verset": "1 R 22:13-17"
+        },
+        {
+          "texte": "Michée répondit : l'Éternel est vivant ! j'annoncerai ce que l'Éternel me dira. Et devant le roi, il annonça la vérité : je vois tout Israël dispersé sur les montagnes, comme des brebis qui n'ont point de berger. Autrement dit : le roi va mourir dans cette bataille."
+        },
+        {
+          "sous_titre": "Le prix de la vérité"
+        },
+        {
+          "texte": "On le gifla. On le mit en prison, au pain et à l'eau. Achab ordonna : mettez cet homme en prison, et nourrissez-le du pain et de l'eau d'affliction, jusqu'à ce que je revienne en paix. Et Michée dit : si tu reviens en paix, l'Éternel n'a point parlé par moi."
+        },
+        {
+          "verset": "1 R 22:26-28"
+        },
+        {
+          "texte": "Achab partit à la guerre, se déguisa pour ne pas être reconnu, mais une flèche tirée au hasard le frappa entre les pièces de son armure. Il mourut le soir même, exactement comme Michée l'avait annoncé."
+        },
+        {
+          "sous_titre": "Ce que cela nous enseigne"
+        },
+        {
+          "texte": "Le nombre ne prouve pas la vérité. Quatre cents prophètes peuvent se tromper, et un seul peut avoir raison. Dans nos pays, on entend parfois : « Tous les grands prophètes de la ville disent la même chose », ou « cette église a des milliers de membres, elle ne peut pas se tromper ». Mais la question n'est pas de savoir combien de personnes le disent. La question est : est-ce que cela vient vraiment de Dieu, et est-ce conforme à sa Parole ?"
+        },
+        {
+          "texte": "Remarque aussi le signe qui doit alerter : ces prophètes disaient toujours au roi ce qu'il voulait entendre. Ils vivaient à la cour, nourris par le roi. Quand un prophète dépend financièrement de ceux à qui il parle, et ne leur annonce jamais rien d'autre que des bénédictions, il faut être très prudent."
+        }
+      ]
     },
     {
-     "texte": "Quand Paul prêchait à Bérée, les Juifs de cette ville recevaient la parole avec beaucoup d'empressement, et ils examinaient chaque jour les Écritures, pour voir si ce qu'on leur disait était exact. Ils vérifiaient même Paul ! La Bible les appelle « plus nobles ». Vérifier ce que dit ton pasteur n'est pas un manque de respect. C'est ce que Dieu demande."
+      "numero": "8",
+      "titre": "Hanania : le prophète du message agréable",
+      "references": [
+        "Jr 28:1-4",
+        "Jr 28:10-17"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un joug de bois"
+        },
+        {
+          "texte": "Dieu avait demandé au prophète Jérémie de porter un joug de bois sur son cou, comme un bœuf de labour. C'était un signe : Juda et les nations voisines allaient devoir se soumettre au roi de Babylone pendant longtemps. C'était un message dur, que personne n'aimait entendre."
+        },
+        {
+          "sous_titre": "Un message plus joyeux"
+        },
+        {
+          "texte": "Un jour, dans le temple, devant les prêtres et tout le peuple, un autre prophète, Hanania, prit la parole : ainsi parle l'Éternel des armées : je brise le joug du roi de Babylone ! Encore deux années, et je ramènerai dans ce lieu tous les ustensiles de la maison de l'Éternel, et tous les captifs."
+        },
+        {
+          "verset": "Jr 28:1-4"
+        },
+        {
+          "texte": "Hanania parlait au nom de l'Éternel. Il utilisait les mêmes formules que Jérémie. Il était dans le temple. Son message était plein d'espérance. Le peuple a dû l'aimer bien plus que Jérémie."
+        },
+        {
+          "sous_titre": "Le joug brisé"
+        },
+        {
+          "texte": "Pour montrer son message, Hanania prit le joug de dessus le cou de Jérémie et le brisa devant tout le monde. Jérémie, sur le moment, ne répondit pas avec colère. Il s'en alla."
+        },
+        {
+          "verset": "Jr 28:10-17"
+        },
+        {
+          "texte": "Mais ensuite, la parole de l'Éternel fut adressée à Jérémie : va dire à Hanania : tu as brisé un joug de bois, et tu auras à sa place un joug de fer. Et Jérémie dit à Hanania : écoute, Hanania ! L'Éternel ne t'a point envoyé, et tu inspires à ce peuple une fausse confiance. C'est pourquoi ainsi parle l'Éternel : voici, je te chasse de la terre ; tu mourras cette année, car tes paroles sont une révolte contre l'Éternel. Et Hanania, le prophète, mourut cette année-là, au septième mois."
+        },
+        {
+          "sous_titre": "Une fausse confiance"
+        },
+        {
+          "texte": "« Tu inspires à ce peuple une fausse confiance. » Voilà le danger du faux prophète : il ne fait pas seulement une erreur de prédiction. Il endort le peuple. Au lieu d'appeler à la repentance et à l'obéissance, il promet des délivrances rapides sans changement de cœur."
+        },
+        {
+          "texte": "Beaucoup de messages aujourd'hui ressemblent à celui d'Hanania : « Dans deux ans, tu seras riche », « cette année, toutes tes souffrances finiront », « tu n'as rien à changer, seulement à semer une offrande ». Ce n'est pas parce qu'un message est positif qu'il est faux. Mais un message qui promet la bénédiction sans parler de repentance, de croix et d'obéissance doit nous mettre en alerte."
+        },
+        {
+          "texte": "Remarque aussi l'attitude de Jérémie : il n'a pas répondu dans la colère. Il est parti, il a attendu la parole de Dieu, puis il a parlé avec clarté. Le discernement n'est pas une précipitation à accuser, c'est une écoute patiente de Dieu."
+        }
+      ]
     },
     {
-     "verset": "Ac 17:11"
+      "numero": "9",
+      "titre": "Les magiciens de Pharaon : imiter n'est pas égaler",
+      "references": [
+        "Ex 7:10-12",
+        "Ex 8:12-15"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Des miracles imités"
+        },
+        {
+          "texte": "Quand Moïse et Aaron se sont présentés devant Pharaon, Aaron a jeté sa verge, et elle est devenue un serpent. Mais Pharaon appela des sages et des enchanteurs, et les magiciens d'Égypte, eux aussi, en firent autant par leurs enchantements. Ils jetèrent tous leurs verges, et elles devinrent des serpents."
+        },
+        {
+          "verset": "Ex 7:10-12"
+        },
+        {
+          "texte": "Pour les spectateurs, c'était troublant : les deux camps semblaient avoir le même pouvoir. Les magiciens ont aussi changé de l'eau en sang, et fait monter des grenouilles."
+        },
+        {
+          "sous_titre": "La limite de la puissance des ténèbres"
+        },
+        {
+          "texte": "Mais la verge d'Aaron engloutit leurs verges. Et quand vint la troisième plaie, celle des poux, quelque chose a changé."
+        },
+        {
+          "verset": "Ex 8:12-15"
+        },
+        {
+          "texte": "Les magiciens employèrent leurs enchantements pour produire les poux, mais ils ne purent pas. Et les magiciens dirent à Pharaon : c'est le doigt de Dieu !"
+        },
+        {
+          "texte": "Les puissances occultes ont un certain pouvoir, réel mais limité. Elles peuvent imiter, impressionner, effrayer. Mais elles ne peuvent pas aller au-delà de ce que Dieu permet. Et un jour, même ceux qui les servent sont obligés de reconnaître : c'est le doigt de Dieu."
+        },
+        {
+          "sous_titre": "Un miracle ne suffit pas"
+        },
+        {
+          "texte": "Cette histoire nous enseigne une leçon capitale pour le discernement : le miracle, à lui seul, ne prouve pas que quelqu'un vient de Dieu. Les magiciens de Pharaon faisaient des prodiges. Jésus a averti que de faux christs et de faux prophètes feraient de grands prodiges et des miracles, au point de séduire, s'il était possible, même les élus."
+        },
+        {
+          "texte": "Dans notre contexte, beaucoup sont impressionnés par des guérisons spectaculaires, des révélations sur la vie privée des gens, des « signes » étonnants. Certains vont d'un prophète à l'autre, d'un marabout à l'autre, cherchant celui qui a le plus de pouvoir. Le chrétien ne juge pas par la puissance, mais par la vérité : ce que cet homme dit de Jésus, sa vie, ses fruits, et l'accord de son message avec la Bible."
+        }
+      ]
+    },
+    {
+      "numero": "10",
+      "titre": "Saül chez la femme qui évoque les morts",
+      "references": [
+        "1 S 28:5-8",
+        "1 S 28:15-19",
+        "1 Ch 10:13-14"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un roi abandonné par Dieu"
+        },
+        {
+          "texte": "Les Philistins avaient rassemblé leur armée contre Israël. Saül, en voyant le camp ennemi, eut peur, et son cœur fut fortement troublé. Il consulta l'Éternel, mais l'Éternel ne lui répondit point, ni par des songes, ni par l'urim, ni par les prophètes. Saül avait désobéi à Dieu à plusieurs reprises, et il avait refusé de se repentir vraiment."
+        },
+        {
+          "verset": "1 S 28:5-8"
+        },
+        {
+          "texte": "Alors Saül dit à ses serviteurs : cherchez-moi une femme qui évoque les morts, et j'irai la consulter. Saül lui-même avait chassé du pays ceux qui évoquaient les morts et ceux qui prédisaient l'avenir. Mais dans sa peur, il est allé de nuit, déguisé, chez une femme d'En-Dor."
+        },
+        {
+          "sous_titre": "Ce qu'il a entendu"
+        },
+        {
+          "texte": "La femme prit peur, car elle vit apparaître quelque chose qui la surprit elle-même. Et un message terrible fut prononcé : pourquoi me consultes-tu, puisque l'Éternel s'est retiré de toi ? L'Éternel livrera Israël avec toi entre les mains des Philistins. Demain, toi et tes fils, vous serez avec moi."
+        },
+        {
+          "verset": "1 S 28:15-19"
+        },
+        {
+          "texte": "Le lendemain, Saül et ses fils sont morts sur le champ de bataille."
+        },
+        {
+          "sous_titre": "Le jugement de Dieu sur cette démarche"
+        },
+        {
+          "texte": "Le livre des Chroniques donne le jugement de Dieu sur la fin de Saül : Saül mourut, parce qu'il se rendit coupable d'infidélité envers l'Éternel, parce qu'il n'observa point la parole de l'Éternel, et parce qu'il interrogea et consulta ceux qui évoquent les morts. Il ne consulta point l'Éternel."
+        },
+        {
+          "verset": "1 Ch 10:13-14"
+        },
+        {
+          "sous_titre": "Dans notre contexte"
+        },
+        {
+          "texte": "En Afrique, la tentation de Saül est très présente. Quand la maladie dure, quand le travail ne vient pas, quand la mort frappe la famille, beaucoup, même parmi les chrétiens, vont de nuit consulter un devin, un voyant, un marabout, ou cherchent à parler avec les ancêtres. Ils disent : « Dieu ne répond pas, alors j'essaie autre chose. »"
+        },
+        {
+          "texte": "L'histoire de Saül montre que ce chemin ne mène pas à la délivrance, mais à la mort spirituelle. Si Dieu semble silencieux, la réponse n'est pas de consulter les morts, mais de revenir à Dieu dans la repentance. Saül n'avait pas besoin d'une révélation sur l'avenir. Il avait besoin de se repentir de sa désobéissance."
+        },
+        {
+          "texte": "Le discernement, ce n'est pas seulement savoir reconnaître un faux prophète. C'est aussi refuser fermement toute source spirituelle qui ne vient pas de Dieu, même quand on a peur, même quand on est désespéré."
+        }
+      ]
+    },
+    {
+      "numero": "11",
+      "titre": "Conclusion",
+      "references": [
+        "He 5:14"
+      ],
+      "blocs": [
+        {
+          "texte": "La nourriture solide est pour les hommes faits, pour ceux dont le jugement est exercé par l'usage à discerner ce qui est bien et ce qui est mal. Le discernement grandit avec l'usage. Lis ta Bible, entier, pas seulement des versets choisis. Plus tu connais le vrai billet, plus vite tu reconnais le faux."
+        },
+        {
+          "verset": "He 5:14"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "Reconnaître un faux prophète",
-   "references": [
-    "Mt 7:15-20",
-    "Dt 13:1-4",
-    "2 P 2:1-3",
-    "1 Jn 4:2-3"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "À leurs fruits"
+      "question": "Un grand miracle prouve-t-il qu'un prophète vient de Dieu ?",
+      "choix": [
+        "Oui, toujours",
+        "Non, Jésus a dit que de faux prophètes feront aussi des prodiges",
+        "Oui, si la foule est grande"
+      ],
+      "reponse": 1,
+      "explication": "(Matthieu 24:24)",
+      "section": "2"
     },
     {
-     "texte": "Vous les reconnaîtrez à leurs fruits. Regarde sa vie, pas seulement ses miracles. Sa vie de famille, son rapport à l'argent, à la sexualité, à l'autorité. Est-ce qu'il se rend compte à quelqu'un ? Est-ce qu'il accepte d'être corrigé ?"
+      "question": "Pourquoi les Béréens sont-ils appelés plus nobles ?",
+      "choix": [
+        "Ils étaient riches",
+        "Ils examinaient chaque jour les Écritures pour vérifier ce qu'on leur disait",
+        "Ils ne croyaient rien"
+      ],
+      "reponse": 1,
+      "explication": "(Actes 17:11)",
+      "section": "1"
     },
     {
-     "verset": "Mt 7:15-20"
+      "question": "Quel est le juge final d'une révélation ou d'un songe ?",
+      "choix": [
+        "Le prophète qui l'a donné",
+        "La Parole de Dieu",
+        "Nos sentiments"
+      ],
+      "reponse": 1,
+      "explication": "(2 Timothée 3:16)",
+      "section": "3"
     },
     {
-     "sous_titre": "Même si le signe arrive"
+      "question": "Quelle a été l'erreur de Josué avec les Gabaonites ?",
+      "choix": [
+        "Il a refusé l'alliance",
+        "Il n'a pas consulté l'Éternel",
+        "Il a fait la guerre"
+      ],
+      "reponse": 1,
+      "explication": "(Josué 9:14)",
+      "section": "5"
     },
     {
-     "texte": "Dans le Deutéronome, Dieu dit : s'il s'élève un prophète qui t'annonce un signe, et que le signe arrive, mais qu'il te dit d'aller après d'autres dieux, n'écoute pas ses paroles. Le critère final, ce n'est pas le signe, c'est la fidélité au vrai Dieu et à sa Parole."
+      "question": "Que nous apprend l'histoire du vieux prophète de Béthel ?",
+      "choix": [
+        "Qu'il faut toujours croire les prophètes âgés",
+        "Qu'aucune révélation ne doit faire désobéir à ce que Dieu a clairement dit",
+        "Qu'il faut manger chez les prophètes"
+      ],
+      "reponse": 1,
+      "explication": "(1 Rois 13:18-24)",
+      "section": "5"
     },
     {
-     "verset": "Dt 13:1-4"
+      "question": "Quel signe doit alerter chez un « homme de Dieu » ?",
+      "choix": [
+        "Il prêche Jésus et la croix",
+        "Il exige de l'argent pour prier ou vend des objets « oints »",
+        "Il se soumet à des responsables"
+      ],
+      "reponse": 1,
+      "explication": "À leurs fruits vous les reconnaîtrez (Matthieu 7:16).",
+      "section": "6"
     },
     {
-     "sous_titre": "Par cupidité"
+      "question": "Que nous apprend l'histoire de Michée face aux quatre cents prophètes ?",
+      "choix": [
+        "Que la majorité a toujours raison",
+        "Que le nombre ne prouve pas la vérité : un seul peut dire vrai contre beaucoup",
+        "Qu'il faut toujours obéir au roi"
+      ],
+      "reponse": 1,
+      "explication": "1 Rois 22:13-17, 28.",
+      "section": "7"
     },
     {
-     "texte": "Pierre dit que les faux docteurs, par cupidité, trafiqueront de vous au moyen de paroles trompeuses. Quand un ministère tourne autour de l'argent, des semences à payer, des consultations privées payantes, des objets vendus, méfie-toi."
+      "question": "Quel reproche Jérémie fait-il à Hanania ?",
+      "choix": [
+        "D'être trop sévère",
+        "D'inspirer au peuple une fausse confiance, sans que Dieu l'ait envoyé",
+        "D'avoir volé le joug"
+      ],
+      "reponse": 1,
+      "explication": "Jérémie 28:15.",
+      "section": "8"
     },
     {
-     "verset": "2 P 2:1-3"
+      "question": "Que disent les magiciens de Pharaon quand ils ne peuvent plus imiter ?",
+      "choix": [
+        "« Nous sommes plus forts »",
+        "« C'est le doigt de Dieu ! »",
+        "« Recommençons »"
+      ],
+      "reponse": 1,
+      "explication": "Exode 8:15. Un miracle seul ne prouve pas qu'on vient de Dieu.",
+      "section": "9"
     },
     {
-     "sous_titre": "Ce qu'il dit de Jésus"
-    },
-    {
-     "texte": "Jean donne un test simple : tout esprit qui confesse Jésus-Christ venu en chair est de Dieu. Le centre du vrai message, c'est Jésus, sa croix, sa résurrection, la repentance et la foi. Si le centre du message, c'est toi, ta prospérité, tes ennemis, ou l'homme de Dieu lui-même, quelque chose ne va pas."
-    },
-    {
-     "verset": "1 Jn 4:2-3"
+      "question": "Pourquoi Saül est-il mort, selon 1 Chroniques 10:13-14 ?",
+      "choix": [
+        "Par manque de soldats",
+        "Pour son infidélité et parce qu'il a consulté ceux qui évoquent les morts au lieu de consulter l'Éternel",
+        "Par accident"
+      ],
+      "reponse": 1,
+      "explication": "1 Chroniques 10:13-14.",
+      "section": "10"
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "Éprouver les révélations et les songes",
-   "references": [
-    "1 Th 5:20-21",
-    "1 Co 14:29",
-    "2 Tm 3:16-17"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Tout examiner"
-    },
-    {
-     "texte": "Paul dit : ne méprisez pas les prophéties. Mais examinez toutes choses ; retenez ce qui est bon. Il ne faut ni tout rejeter, ni tout avaler. Les prophéties doivent être jugées, dit-il ailleurs."
-    },
-    {
-     "verset": "1 Th 5:20-21"
-    },
-    {
-     "sous_titre": "La Bible est le juge"
-    },
-    {
-     "texte": "Toute Écriture est inspirée de Dieu. Une révélation, un songe ou une prophétie qui contredit la Bible ne vient pas de Dieu, même si celui qui la donne est célèbre. Si un « prophète » te dit que ta mère est la sorcière qui bloque ta vie, que tu dois quitter ton conjoint, ou que Dieu t'a révélé que tu dois épouser telle personne, ne prends aucune décision sans la Bible, sans prière, et sans conseil de responsables mûrs."
-    },
-    {
-     "verset": "2 Tm 3:16-17"
-    }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "Discerner dans les décisions de la vie",
-   "references": [
-    "Rm 12:2",
-    "Pr 3:5-6",
-    "Pr 15:22",
-    "Jc 1:5"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Un esprit renouvelé"
-    },
-    {
-     "texte": "Ne vous conformez pas au siècle présent, mais soyez transformés par le renouvellement de l'intelligence, afin que vous discerniez quelle est la volonté de Dieu. Plus tu connais la Parole, plus tu reconnais la volonté de Dieu."
-    },
-    {
-     "verset": "Rm 12:2"
-    },
-    {
-     "sous_titre": "Demander la sagesse"
-    },
-    {
-     "texte": "Si quelqu'un manque de sagesse, qu'il la demande à Dieu, qui donne à tous simplement. Prie avant tes grandes décisions. Puis vérifie : est-ce conforme à la Parole ? Ai-je la paix ? Qu'en disent des chrétiens mûrs ? Les circonstances l'ouvrent-elles ?"
-    },
-    {
-     "verset": "Jc 1:5"
-    },
-    {
-     "sous_titre": "Le conseil"
-    },
-    {
-     "texte": "Les projets échouent faute d'une assemblée qui délibère ; mais ils réussissent quand il y a de nombreux conseillers. Ne prends pas seul les décisions qui engagent ta vie."
-    },
-    {
-     "verset": "Pr 15:22"
-    }
-   ]
-  },
-  {
-   "numero": "5",
-   "titre": "Des cas de tromperie dans la Bible",
-   "references": [
-    "Jos 9:3-15",
-    "1 R 13:15-24",
-    "Ac 5:1-5"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Les Gabaonites"
-    },
-    {
-     "texte": "Des Gabaonites, qui habitaient tout près, se sont présentés à Josué avec des sacs usés, du pain moisi et des sandales raccommodées, en disant qu'ils venaient de très loin. Josué et les chefs ont fait alliance avec eux. La Bible dit : « Ils ne consultèrent point l'Éternel. » Beaucoup de mauvaises décisions viennent de là : on regarde les apparences, on se laisse convaincre par une belle histoire, et on ne prie pas."
-    },
-    {
-     "verset": "Jos 9:14-15"
-    },
-    {
-     "sous_titre": "Le vieux prophète menteur"
-    },
-    {
-     "texte": "Un homme de Dieu avait reçu l'ordre clair de ne pas manger à Béthel. Un vieux prophète l'a invité en disant : « Un ange m'a parlé de la part de l'Éternel : ramène-le avec toi. » Il lui mentait. L'homme de Dieu l'a cru, a désobéi, et il est mort. Aucune « révélation » d'un autre, même d'un prophète âgé et respecté, ne doit te faire désobéir à ce que Dieu a clairement dit dans sa Parole."
-    },
-    {
-     "verset": "1 R 13:18-24"
-    },
-    {
-     "sous_titre": "Ananias et Saphira"
-    },
-    {
-     "texte": "Ananias et Saphira ont vendu un champ et apporté une partie de l'argent aux apôtres en faisant croire que c'était tout. Pierre a discerné le mensonge par l'Esprit. Le discernement n'est pas seulement pour repérer les faux prophètes ; il nous montre aussi l'hypocrisie à l'intérieur de l'église, et d'abord dans notre propre cœur."
-    },
-    {
-     "verset": "Ac 5:3-5"
-    }
-   ]
-  },
-  {
-   "numero": "6",
-   "titre": "Discerner dans notre contexte",
-   "references": [
-    "Mt 7:15-16",
-    "2 Tm 4:3-4",
-    "1 Jn 4:1"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Les signes qui doivent alerter"
-    },
-    {
-     "texte": "Un « homme de Dieu » qui exige de l'argent pour prier ou pour donner une révélation. Qui vend des objets « oints » : huile, eau, mouchoirs, bracelets. Qui accuse des membres de la famille d'être sorciers. Qui demande de quitter son conjoint ou de couper sa famille. Qui interdit de lire la Bible soi-même ou de demander conseil ailleurs. Qui a des relations sexuelles avec des fidèles « par révélation ». Qui ne se soumet à personne. Ces signes ne trompent pas : à leurs fruits vous les reconnaîtrez."
-    },
-    {
-     "verset": "Mt 7:15-16"
-    },
-    {
-     "sous_titre": "Les oreilles qui démangent"
-    },
-    {
-     "texte": "Paul a prévenu Timothée : il viendra un temps où les hommes ne supporteront pas la saine doctrine ; mais, ayant la démangeaison d'entendre des choses agréables, ils se donneront une foule de docteurs selon leurs propres désirs. Si tu ne cherches que des messages qui te promettent la richesse, le mariage et la victoire sur tes ennemis, tu es une proie facile. Cherche les messages qui te parlent de Jésus, de la croix, de la repentance et de la sainteté."
-    },
-    {
-     "verset": "2 Tm 4:3-4"
-    },
-    {
-     "sous_titre": "Les réseaux sociaux"
-    },
-    {
-     "texte": "Une vidéo, un message transféré « à partager à 10 personnes sinon malheur », une prophétie pour l'année, une prière qui garantit un miracle en 24 heures : tout cela circule chaque jour. Le chrétien ne transfère pas tout ce qu'il reçoit. Il vérifie avec la Bible, et il garde son téléphone pour ce qui édifie."
-    },
-    {
-     "verset": "1 Jn 4:1"
-    }
-   ]
-  },
-  {
-   "numero": "7",
-   "titre": "Conclusion",
-   "references": [
-    "He 5:14"
-   ],
-   "blocs": [
-    {
-     "texte": "La nourriture solide est pour les hommes faits, pour ceux dont le jugement est exercé par l'usage à discerner ce qui est bien et ce qui est mal. Le discernement grandit avec l'usage. Lis ta Bible, entier, pas seulement des versets choisis. Plus tu connais le vrai billet, plus vite tu reconnais le faux."
-    },
-    {
-     "verset": "He 5:14"
-    }
-   ]
-  }
- ],
- "questions": [
-  {
-   "question": "Un grand miracle prouve-t-il qu'un prophète vient de Dieu ?",
-   "choix": [
-    "Oui, toujours",
-    "Non, Jésus a dit que de faux prophètes feront aussi des prodiges",
-    "Oui, si la foule est grande"
-   ],
-   "reponse": 1,
-   "explication": "(Matthieu 24:24)",
-   "section": "1"
-  },
-  {
-   "question": "Pourquoi les Béréens sont-ils appelés plus nobles ?",
-   "choix": [
-    "Ils étaient riches",
-    "Ils examinaient chaque jour les Écritures pour vérifier ce qu'on leur disait",
-    "Ils ne croyaient rien"
-   ],
-   "reponse": 1,
-   "explication": "(Actes 17:11)",
-   "section": "1"
-  },
-  {
-   "question": "Quel est le juge final d'une révélation ou d'un songe ?",
-   "choix": [
-    "Le prophète qui l'a donné",
-    "La Parole de Dieu",
-    "Nos sentiments"
-   ],
-   "reponse": 1,
-   "explication": "(2 Timothée 3:16)",
-   "section": "3"
-  },
-  {
-   "question": "Quelle a été l'erreur de Josué avec les Gabaonites ?",
-   "choix": [
-    "Il a refusé l'alliance",
-    "Il n'a pas consulté l'Éternel",
-    "Il a fait la guerre"
-   ],
-   "reponse": 1,
-   "explication": "(Josué 9:14)",
-   "section": "5"
-  },
-  {
-   "question": "Que nous apprend l'histoire du vieux prophète de Béthel ?",
-   "choix": [
-    "Qu'il faut toujours croire les prophètes âgés",
-    "Qu'aucune révélation ne doit faire désobéir à ce que Dieu a clairement dit",
-    "Qu'il faut manger chez les prophètes"
-   ],
-   "reponse": 1,
-   "explication": "(1 Rois 13:18-24)",
-   "section": "5"
-  },
-  {
-   "question": "Quel signe doit alerter chez un « homme de Dieu » ?",
-   "choix": [
-    "Il prêche Jésus et la croix",
-    "Il exige de l'argent pour prier ou vend des objets « oints »",
-    "Il se soumet à des responsables"
-   ],
-   "reponse": 1,
-   "explication": "À leurs fruits vous les reconnaîtrez (Matthieu 7:16).",
-   "section": "6"
-  }
- ],
- "devoir": [
-  "Pense à un enseignement que tu as entendu récemment (église, réseaux, radio). Vérifie-le avec la Bible comme les Béréens.",
-  "Écris une décision importante qui t'attend et applique les questions de la section 4.",
-  "Lis 1 Jean en entier et note les tests qu'il donne pour reconnaître la vérité."
- ],
- "prieres_liees": [
-  "theme:priere-aimer-la-parole",
-  "theme:priere-mon-eglise"
- ],
- "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-14",
- "relu": false
+  ],
+  "devoir": [
+    "Pense à un enseignement que tu as entendu récemment (église, réseaux, radio). Vérifie-le avec la Bible comme les Béréens.",
+    "Écris une décision importante qui t'attend et applique les questions de la section 4.",
+    "Lis 1 Jean en entier et note les tests qu'il donne pour reconnaître la vérité."
+  ],
+  "prieres_liees": [
+    "theme:priere-aimer-la-parole",
+    "theme:priere-mon-eglise"
+  ],
+  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-14",
+  "relu": false
 }
