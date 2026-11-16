@@ -7,7 +7,7 @@
   "resume": "Première leçon du volume 2 de « Former le disciple » : on ne peut pas aimer, servir ni faire confiance à un Dieu qu'on ne connaît pas. Qui est Dieu, comment il se fait connaître, et comment le connaître vraiment, pas seulement savoir des choses sur lui.",
   "image": "/assets/symboles/bible-dans-la-lumiere.webp",
   "verset_de_base": "Jn 17:3",
-  "lecture_minutes": 30,
+  "lecture_minutes": 31,
   "objectifs": [
     "Comprendre la différence entre savoir des choses sur Dieu et le connaître.",
     "Découvrir les principaux attributs de Dieu.",
@@ -255,7 +255,7 @@
       "titre": "Les noms que Dieu reçoit dans l'épreuve",
       "references": [
         "Gn 16:7-13",
-        "Gn 22:11-14",
+        "Ex 15:22-26",
         "Gn 28:16-19"
       ],
       "blocs": [
@@ -281,19 +281,16 @@
           "texte": "La première personne de la Bible à donner un nom à Dieu n'est pas un roi, ni un prêtre, ni un prophète. C'est une servante étrangère, maltraitée, en fuite. Si tu te sens oublié, invisible, méprisé, sache que Dieu te voit. Il connaît ton nom et ta situation."
         },
         {
-          "sous_titre": "Abraham : l'Éternel pourvoira"
+          "sous_titre": "Mara : l'Éternel qui te guérit"
         },
         {
-          "texte": "Abraham a été mis à l'épreuve d'une manière terrible : Dieu lui a demandé d'offrir son fils Isaac. Sur le chemin, Isaac a demandé : voici le feu et le bois ; mais où est l'agneau pour l'holocauste ? Abraham a répondu : mon fils, Dieu se pourvoira lui-même de l'agneau."
+          "texte": "Trois jours après la traversée de la mer Rouge, le peuple d'Israël marchait dans le désert sans trouver d'eau. Enfin, ils arrivèrent à Mara. Mais ils ne purent pas boire l'eau de Mara, parce qu'elle était amère. Le peuple murmura contre Moïse : que boirons-nous ? Moïse cria à l'Éternel, et l'Éternel lui indiqua un bois, qu'il jeta dans l'eau. Et l'eau devint douce."
         },
         {
-          "texte": "Au dernier moment, l'ange de l'Éternel a arrêté sa main, et Abraham a vu un bélier retenu par les cornes dans un buisson. Il l'a offert à la place de son fils. Et Abraham donna à ce lieu le nom de Yahvé-Jiré : l'Éternel pourvoira."
+          "verset": "Ex 15:22-26"
         },
         {
-          "verset": "Gn 22:11-14"
-        },
-        {
-          "texte": "Abraham a connu Dieu comme celui qui pourvoit, non pas en lisant cela quelque part, mais en marchant jusqu'au bout dans l'obéissance. Et ce bélier annonçait l'Agneau que Dieu allait donner pour nous, son propre Fils."
+          "texte": "Là, Dieu s'est fait connaître par un nom nouveau : je suis l'Éternel, qui te guérit. Le peuple avait connu Dieu comme celui qui délivre de l'Égypte. À Mara, il l'a connu comme celui qui transforme ce qui est amer. Beaucoup d'entre nous ont connu des eaux amères : une trahison, une maladie, un deuil, une injustice. C'est souvent là, au bord de l'amertume, que Dieu se révèle comme celui qui guérit."
         },
         {
           "sous_titre": "Jacob : l'Éternel est en ce lieu"
@@ -311,7 +308,7 @@
           "sous_titre": "Et toi, quel nom donnerais-tu à Dieu ?"
         },
         {
-          "texte": "Chaque chrétien devrait pouvoir dire : voilà comment j'ai connu Dieu. « Il m'a vu quand j'étais abandonné. » « Il a pourvu quand je n'avais plus rien. » « Il était là quand je fuyais, et je ne le savais pas. » Ces souvenirs sont précieux. Note-les. Raconte-les à tes enfants. Ils sont la preuve que ta connaissance de Dieu n'est pas seulement une théorie."
+          "texte": "Chaque chrétien devrait pouvoir dire : voilà comment j'ai connu Dieu. « Il m'a vu quand j'étais abandonné. » « Il a changé mon amertume en douceur. » « Il était là quand je fuyais, et je ne le savais pas. » Ces souvenirs sont précieux. Note-les. Raconte-les à tes enfants. Ils sont la preuve que ta connaissance de Dieu n'est pas seulement une théorie."
         }
       ]
     },
@@ -371,8 +368,7 @@
       "numero": "8",
       "titre": "Ésaïe voit le Dieu saint",
       "references": [
-        "És 6:1-8",
-        "Hé 12:28-29"
+        "És 6:1-8"
       ],
       "blocs": [
         {
@@ -413,9 +409,6 @@
         },
         {
           "texte": "Voilà le chemin de la vraie connaissance de Dieu : voir sa sainteté, reconnaître son péché, recevoir son pardon, et répondre à son appel. L'épître aux Hébreux dit : servons Dieu d'une manière qui lui soit agréable, avec piété et avec crainte, car notre Dieu est aussi un feu dévorant."
-        },
-        {
-          "verset": "Hé 12:28-29"
         }
       ]
     },

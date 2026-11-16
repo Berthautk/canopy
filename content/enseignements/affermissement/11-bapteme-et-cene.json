@@ -7,7 +7,7 @@
   "resume": "Onzième leçon de « Former le disciple » : les deux ordonnances que Jésus a données à son Église. Pourquoi se faire baptiser après avoir cru, ce que signifie le baptême, et comment prendre la sainte cène d'une manière digne.",
   "image": "/assets/eglise/bapteme-en-bassin.webp",
   "verset_de_base": "Mt 28:19",
-  "lecture_minutes": 33,
+  "lecture_minutes": 32,
   "objectifs": [
     "Comprendre que Jésus a demandé à ses disciples d'être baptisés.",
     "Savoir ce que signifie le baptême et ce qu'il ne fait pas.",
@@ -241,56 +241,53 @@
     },
     {
       "numero": "6",
-      "titre": "Saul de Tarse : « Lève-toi, et sois baptisé »",
+      "titre": "Crispus : un chef de synagogue baptisé avec toute sa maison",
       "references": [
-        "Ac 9:10-19",
-        "Ac 9:20-22"
+        "Ac 18:4-8",
+        "1 Co 1:14-17"
       ],
       "blocs": [
         {
-          "sous_titre": "Trois jours dans le noir"
+          "sous_titre": "Un homme important"
         },
         {
-          "texte": "Saul, l'ennemi acharné des chrétiens, venait de rencontrer Jésus sur la route de Damas. Il était aveugle. Ses compagnons l'ont conduit par la main jusqu'à la ville, dans une maison de la rue Droite. Pendant trois jours, il n'a ni mangé ni bu. Il priait."
+          "texte": "À Corinthe, Paul discourait chaque sabbat dans la synagogue, et il persuadait des Juifs et des Grecs. Mais quand les Juifs se sont opposés à lui et l'ont insulté, il a secoué ses vêtements et il est allé enseigner dans la maison d'un homme nommé Titius Justus, juste à côté de la synagogue."
         },
         {
-          "sous_titre": "Ananias obéit"
+          "verset": "Ac 18:4-8"
         },
         {
-          "texte": "Le Seigneur a envoyé un disciple nommé Ananias vers lui. Ananias avait peur, car il savait tout le mal que Saul avait fait aux chrétiens. Mais il a obéi. Il est entré dans la maison, il a imposé les mains à Saul et il a dit : Saul, mon frère, le Seigneur Jésus, qui t'est apparu sur le chemin par lequel tu venais, m'a envoyé pour que tu recouvres la vue et que tu sois rempli du Saint-Esprit."
+          "texte": "Et la Bible ajoute : cependant Crispus, le chef de la synagogue, crut au Seigneur avec toute sa famille. Et plusieurs Corinthiens, qui avaient entendu Paul, crurent aussi, et ils furent baptisés."
         },
         {
-          "verset": "Ac 9:10-19"
+          "sous_titre": "Ce que le baptême lui coûtait"
         },
         {
-          "texte": "Au même instant, il tomba de ses yeux comme des écailles, et il recouvra la vue. Il se leva, et fut baptisé ; et, après qu'il eut pris de la nourriture, les forces lui revinrent."
+          "texte": "Le chef de la synagogue n'était pas n'importe qui. C'était lui qui organisait les réunions du sabbat, qui choisissait ceux qui liraient les Écritures, qui était respecté par toute la communauté juive de la ville. En croyant en Jésus et en se faisant baptiser, Crispus perdait sans doute sa place, son autorité et l'estime de beaucoup de ses anciens amis. Quelque temps plus tard, on voit d'ailleurs un autre homme, Sosthène, à la tête de la synagogue."
         },
         {
-          "sous_titre": "Aucun retard"
+          "texte": "Le baptême de Crispus a été un acte public, connu de toute la ville. Il disait : j'ai changé de maître. Je ne suis plus d'abord un chef religieux ; je suis un disciple de Jésus."
         },
         {
-          "texte": "Remarque l'ordre : il se leva, et fut baptisé ; et ensuite il mangea. Après trois jours de jeûne, Saul a fait passer son baptême avant même son repas. Quand Paul racontera plus tard cette histoire, il rappellera les paroles d'Ananias : et maintenant, pourquoi tardes-tu ? Lève-toi, sois baptisé, et lavé de tes péchés, en invoquant le nom du Seigneur."
+          "sous_titre": "Toute la maison"
         },
         {
-          "texte": "Beaucoup de croyants repoussent leur baptême pendant des années : « Je ne suis pas encore prêt. » « J'attends que ma vie soit parfaite. » « J'ai peur de ce que dira ma famille. » Saul avait toutes les raisons d'avoir peur : son baptême allait faire de lui un traître aux yeux de ses anciens amis. Mais il n'a pas attendu."
+          "texte": "Remarque aussi que Crispus a cru avec toute sa famille. Sa foi n'est pas restée une affaire privée. Sa femme, ses enfants, peut-être ses serviteurs ont entendu l'Évangile et ont cru à leur tour. Quand un père ou une mère se convertit sincèrement, toute la maison en est touchée."
         },
         {
-          "texte": "Le baptême n'est pas une récompense pour des chrétiens parfaits. C'est une obéissance pour des pécheurs pardonnés qui veulent suivre Jésus."
+          "sous_titre": "Paul l'a baptisé lui-même"
         },
         {
-          "sous_titre": "Un baptême qui se voit"
+          "texte": "Des années plus tard, quand l'église de Corinthe était divisée en groupes qui se réclamaient de tel ou tel serviteur, Paul a écrit : je rends grâces à Dieu de ce que je n'ai baptisé aucun de vous, excepté Crispus et Gaïus, afin que personne ne dise que vous avez été baptisés en mon nom. Car ce n'est pas pour baptiser que Christ m'a envoyé, c'est pour annoncer l'Évangile."
         },
         {
-          "texte": "Et la suite le montre : aussitôt il prêcha dans les synagogues que Jésus est le Fils de Dieu. Tous ceux qui l'entendaient étaient dans l'étonnement, et disaient : n'est-ce pas celui qui persécutait à Jérusalem ceux qui invoquent ce nom ?"
+          "verset": "1 Co 1:14-17"
         },
         {
-          "verset": "Ac 9:20-22"
+          "texte": "Paul rappelle ici une vérité importante : on n'est pas baptisé au nom d'un pasteur, d'un prophète ou d'une église. On est baptisé au nom de Jésus-Christ. Peu importe qui verse l'eau : ce qui compte, c'est celui à qui l'on appartient désormais. Dans nos pays, certains se vantent d'avoir été baptisés par tel grand homme de Dieu, ou refusent de reconnaître le baptême fait dans une autre assemblée biblique. Paul aurait dit : vous n'êtes pas baptisés en mon nom."
         },
         {
-          "texte": "Le baptême de Saul n'est pas resté une cérémonie. Il a marqué le début d'une vie complètement nouvelle, visible pour tous."
-        },
-        {
-          "texte": "On raconte l'histoire d'un homme, ancien chef d'une bande de voleurs dans son quartier, qui s'était converti. Le jour de son baptême, les gens de son quartier sont venus nombreux au bord de la rivière, certains pour se moquer, d'autres par curiosité. Avant d'entrer dans l'eau, il a demandé la permission de parler. Il a dit : « Vous me connaissez tous. Beaucoup d'entre vous ont souffert à cause de moi. Aujourd'hui, je veux que vous sachiez que l'ancien homme est mort. Je vais rendre ce que j'ai volé, autant que je le peux. » Puis il est descendu dans l'eau. Ce jour-là, deux anciens membres de sa bande ont demandé à rencontrer le pasteur."
+          "texte": "On raconte l'histoire d'un catéchiste respecté d'une religion traditionnelle, qui connaissait tous les rites de son village. Après avoir lu l'Évangile de Jean, il a donné sa vie à Jésus. Le jour de son baptême, il est venu au bord du fleuve avec sa femme et ses quatre enfants, qui avaient eux aussi cru. Plusieurs anciens du village l'ont menacé de le chasser de sa charge. Il a répondu calmement : « J'ai servi des esprits toute ma vie. Aujourd'hui, je descends dans l'eau pour dire à tout le monde que j'appartiens à Jésus. » Il a perdu sa position, mais sa maison est devenue le premier lieu de réunion chrétienne du village."
         }
       ]
     },
@@ -513,14 +510,14 @@
       "section": "5"
     },
     {
-      "question": "Qu'a fait Saul juste après avoir recouvré la vue ?",
+      "question": "Qu'a fait Crispus, le chef de la synagogue de Corinthe ?",
       "choix": [
-        "Il a mangé un grand repas",
-        "Il s'est levé et a été baptisé, avant même de manger",
-        "Il a attendu un an"
+        "Il a chassé Paul de la ville",
+        "Il a cru au Seigneur avec toute sa famille et a été baptisé",
+        "Il a refusé de se faire baptiser pour garder sa place"
       ],
       "reponse": 1,
-      "explication": "Actes 9:18-19.",
+      "explication": "Actes 18:8 ; 1 Corinthiens 1:14. Un baptême public, au nom de Jésus et non d'un serviteur.",
       "section": "6"
     },
     {
