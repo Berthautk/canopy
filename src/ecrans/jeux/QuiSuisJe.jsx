@@ -7,7 +7,7 @@ import { QUI_SUIS_JE } from '../../donnees/contenu.js';
 import { lireReference, ecrireReference } from '../../bible/references.js';
 import { ajouter, badge } from '../../jeux/stats.js';
 import { melanger } from '../../jeux/hasard.js';
-import { BarreEtapes, TitreEtape, FinEtape, etapesOuvertes, reussirEtape } from '../../composants/Etapes.jsx';
+import { BarreEtapes, TitreEtape, FinEtape, etapesOuvertes, reussirEtape, lienBible } from '../../composants/Etapes.jsx';
 
 // Étape n : plus de personnages et un score minimum plus exigeant.
 const regle = (n) => { const manches = Math.min(5 + n, 12); return { manches, seuil: Math.ceil(manches * 3 * Math.min(0.5 + 0.05 * n, 0.8)) }; };
@@ -24,7 +24,8 @@ export function QuiSuisJe() {
     const reussi = points >= r.seuil; if (reussi) reussirEtape('quiSuisJe', etape);
     return <FinEtape icone="recherche" etape={etape} reussi={reussi} score={`${points} / ${liste.length * 3}`}
       texte={reussi ? 'Moins tu utilises d\'indices, plus tu marques de points. L\'étape suivante a plus de personnages.' : `Il fallait au moins ${r.seuil} points. Utilise moins d'indices et lis les références pour apprendre.`}
-      suivante={() => lancer(etape + 1)} rejouer={() => lancer(etape)} />;
+      suivante={() => lancer(etape + 1)} rejouer={() => lancer(etape)}
+      plusLoin={liste.map((x) => lienBible('Lire l\'histoire de ' + x.nom, x.indices[0]?.reference)).filter(Boolean)} />;
   }
   const p = liste[n], repondu = choix !== null, juste = choix === p.reponse;
   return (

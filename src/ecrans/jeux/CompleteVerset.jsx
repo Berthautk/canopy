@@ -8,7 +8,7 @@ import { chargerLivre } from '../../bible/bible.js';
 import { ajouter, badge } from '../../jeux/stats.js';
 import { melanger } from '../../jeux/hasard.js';
 import { notifier } from '../../composants/Notification.jsx';
-import { BarreEtapes, TitreEtape, FinEtape, etapesOuvertes, reussirEtape } from '../../composants/Etapes.jsx';
+import { BarreEtapes, TitreEtape, FinEtape, etapesOuvertes, reussirEtape, lienBible } from '../../composants/Etapes.jsx';
 
 // Étape n : plus de versets, plus de mots à trouver à partir de l'étape 4, score minimum plus élevé.
 const regle = (n) => { const manches = Math.min(5 + n, 12); return { manches, seuil: Math.ceil(manches * Math.min(0.6 + 0.05 * n, 0.9)), bonus: n >= 3 ? 1 : 0 }; };
@@ -54,7 +54,8 @@ export function CompleteVerset() {
     const reussi = score >= r.seuil; if (reussi) reussirEtape('complete', etape);
     return <FinEtape icone="bible" etape={etape} reussi={reussi} score={`${score} / ${manches.length}`}
       texte={reussi ? 'Apprendre la Parole par cœur, c\'est la garder dans son cœur. L\'étape suivante a plus de versets.' : `Il fallait au moins ${r.seuil} bonnes réponses. Relis les versets et réessaie.`}
-      suivante={() => lancer(etape + 1)} rejouer={() => lancer(etape)} />;
+      suivante={() => lancer(etape + 1)} rejouer={() => lancer(etape)}
+      plusLoin={manches.map((x) => lienBible('Lire ce verset dans son chapitre', x)).filter(Boolean).map((x) => ({ ...x, texte: x.ref, ref: 'Lire ce verset dans son chapitre' }))} />;
   }
   if (!m) return <div class="page"><p class="verset__attente" style="margin-top:16px">Préparation du verset…</p></div>;
   const repondu = choix !== null, juste = choix === m.juste;

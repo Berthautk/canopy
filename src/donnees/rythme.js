@@ -119,3 +119,22 @@ export function verifierRappels(notifier) {
     notifier?.(texte);
   }
 }
+
+// Rappel quotidien pour un parcours (Découvrir Jésus, 30 premiers jours…) : ajouté au rythme,
+// sonne quand l'app est ouverte, et le fichier d'agenda le fait sonner même application fermée.
+export const idRappelParcours = (id) => 'parcours-' + id;
+export const aRappelParcours = (id) => !!rythme.valeur?.items?.some((x) => x.id === idRappelParcours(id));
+export async function rappelParcours(id, libelle, heure = '19:00') {
+  const r = rythme.valeur || {};
+  const item = { id: idRappelParcours(id), libelle, activite: 'enseignement', heure, minutes: 15, lien: '#/grandir/' + id, jours: [0, 1, 2, 3, 4, 5, 6] };
+  const items = [...(r.items || []).filter((x) => x.id !== item.id), item].sort((a, b) => a.heure.localeCompare(b.heure));
+  await sauverRythme({ ...r, items, cree: r.cree || new Date().toISOString() });
+  try { if ('Notification' in window && Notification.permission === 'default') await Notification.requestPermission(); } catch {}
+  try {
+    const blob = new Blob([fichierCalendrier({ items: [item] })], { type: 'text/calendar' });
+    const u = URL.createObjectURL(blob), a = document.createElement('a');
+    a.href = u; a.download = 'yeshaya-rappel-' + id + '.ics'; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(u), 5000);
+  } catch {}
+  return item;
+}

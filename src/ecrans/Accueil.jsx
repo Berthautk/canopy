@@ -1,6 +1,7 @@
 import { Icone } from '../composants/Icone.jsx';
 import { usePassage, TextePassage, cheminMontrer } from '../composants/Verset.jsx';
 import { BandeauTelephone } from '../composants/BandeauTelephone.jsx';
+import { CarteParcoursAccueil } from './grandir/NouveauConverti.jsx';
 import { versetDuJour, enseignementDuJour, veilleDuMoment, meditationDuJour } from '../donnees/contenu.js';
 import { orizon, jourCourant } from '../donnees/orizon.js';
 import { BoutonLecture } from '../composants/Audio.jsx';
@@ -35,6 +36,7 @@ export function Accueil() {
         </section>
 
         <h2 class="titre-section sous-rubrique">Pour aujourd'hui</h2>
+        <CarteParcoursAccueil />
         <a class="carte accueil-priere" href={'#/priere/veille/' + v.id.replace('veille-', '')}>
           <img src={v.image} alt="" loading="lazy" />
           <span class="accueil-priere__texte"><span class="pastille pastille--or">Prier maintenant · {v.heures}</span><b>{v.titre}</b><span>{v.theme}</span></span>
@@ -68,6 +70,13 @@ export function Accueil() {
 
 
         <BandeauTelephone />
+
+        <a class="carte ligne demande-accueil" href="#/priere/demander" style="margin-top:12px">
+          <span class="ligne__icone"><Icone nom="priere" /></span>
+          <span class="ligne__corps"><span class="ligne__titre" style="display:block">Un fardeau ? Nous prions pour toi</span>
+            <span class="ligne__desc">Écris ton sujet de prière en toute discrétion. Ton prénom est facultatif, et seul le responsable de Yeshaya lit ton message.</span></span>
+          <Icone nom="chevron" taille={20} />
+        </a>
 
         <a class="carte ligne" href="#/equilibre" style="margin-top:12px">
           <span class="ligne__icone"><Icone nom="calendrier" /></span>

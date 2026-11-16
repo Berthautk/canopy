@@ -11,6 +11,66 @@ import { Questions } from './EnseignementEcrit.jsx';
 import { lireReference, ecrireReference } from '../../bible/references.js';
 import { useSignal } from '../../outils/signal.js';
 import { aller } from '../../outils/routeur.js';
+import { rythme, chargerRythme, rappelParcours, aRappelParcours } from '../../donnees/rythme.js';
+import { useEffect, useState } from 'preact/hooks';
+import { compter } from '../../donnees/mesure.js';
+
+// Bouton « Me rappeler chaque jour » : pour ne pas perdre le fil d'un parcours.
+export function RappelParcours({ id }) {
+  const cfg = PARCOURS[id]; useSignal(rythme);
+  const [heure, setHeure] = useState('19:00');
+  useEffect(() => { if (rythme.valeur === null) chargerRythme(); }, []);
+  if (aRappelParcours(id)) {
+    const it = rythme.valeur.items.find((x) => x.id === 'parcours-' + id);
+    return <p class="ligne__desc rappel-parcours rappel-parcours--ok"><Icone nom="verifie" taille={16} /> Rappel chaque jour à {it.heure.replace(':', ' h ')}. <a class="lien" href="#/equilibre">Modifier</a></p>;
+  }
+  const activer = async () => {
+    await rappelParcours(id, cfg.titre + ' : ma ' + cfg.unite.toLowerCase() + ' du jour', heure);
+    compter('rappel-parcours', id);
+    notifier('Rappel enregistré. Ouvre le fichier téléchargé pour l\'ajouter à ton agenda : il sonnera même application fermée.');
+  };
+  return (
+    <section class="carte bloc rappel-parcours">
+      <h3 style="margin-top:0"><Icone nom="calendrier" taille={18} /> Ne perds pas le fil</h3>
+      <p class="ligne__desc">Beaucoup commencent, peu continuent. Un petit rappel chaque jour t'aide à avancer jusqu'au bout.</p>
+      <div class="rappel-parcours__ligne">
+        <label class="etiquette-champ" for={'h-' + id} style="margin:0">À</label>
+        <input id={'h-' + id} class="champ" type="time" value={heure} onInput={(e) => setHeure(e.currentTarget.value || '19:00')} style="max-width:120px" />
+        <button class="bouton bouton--or" onClick={activer}>Me rappeler chaque jour</button>
+      </div>
+    </section>
+  );
+}
+
+// Carte d'accueil : reprendre le parcours commencé (ou le commencer après une décision pour Jésus).
+export function CarteParcoursAccueil() {
+  const p = useSignal(parcours);
+  for (const id of ['decouvrir-jesus', 'nouveau-converti']) {
+    const cfg = PARCOURS[id], faits = p[cfg.cle] || [], total = cfg.total();
+    if (!faits.length || faits.length >= total) continue;
+    const prochain = Array.from({ length: total }, (_, i) => i + 1).find((n) => !faits.includes(n));
+    const j = cfg.liste().find((x) => x.jour === prochain);
+    return (
+      <a class="carte ligne carte-parcours" href={`#/grandir/${id}/${prochain}`}>
+        <img src={cfg.image} alt="" loading="lazy" />
+        <span class="ligne__corps"><span class="pastille pastille--or pastille--mini">{cfg.unite} {prochain} sur {total}</span>
+          <span class="ligne__titre" style="display:block">{j ? j.titre : cfg.titre}</span>
+          <span class="ligne__desc">{cfg.titre} · ta {cfg.unite.toLowerCase()} t'attend</span></span>
+        <Icone nom="chevron" taille={20} />
+      </a>
+    );
+  }
+  if (p.decision && !(p.dj || []).length) return (
+    <a class="carte ligne carte-parcours" href="#/grandir/decouvrir-jesus/1">
+      <img src={PARCOURS['decouvrir-jesus'].image} alt="" loading="lazy" />
+      <span class="ligne__corps"><span class="pastille pastille--or pastille--mini">Pour toi qui as donné ta vie à Jésus</span>
+        <span class="ligne__titre" style="display:block">Commence « Découvrir Jésus »</span>
+        <span class="ligne__desc">10 leçons pour bâtir ta foi sur le roc.</span></span>
+      <Icone nom="chevron" taille={20} />
+    </a>
+  );
+  return null;
+}
 
 // Deux parcours pour le nouveau converti. Tout est ouvert : l'ordre est conseillé, pas imposé.
 export const PARCOURS = {
@@ -39,6 +99,7 @@ export function Parcours({ id, jour }) {
         )}
         {!prochain && cfg.suite && <a class="bouton bouton--or" href={'#/' + cfg.suite.lien} style="margin-top:10px">{cfg.suite.texte}</a>}
       </section>
+      {prochain && <RappelParcours id={id} />}
       <details class="carte bloc conseil-parcours">
         <summary><Icone nom="ampoule" taille={18} /> Comment profiter de ce parcours</summary>
         <ol>

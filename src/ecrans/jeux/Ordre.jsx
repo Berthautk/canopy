@@ -7,7 +7,7 @@ import { HISTOIRES } from '../../donnees/contenu.js';
 import { lireReference, ecrireReference } from '../../bible/references.js';
 import { ajouter, badge } from '../../jeux/stats.js';
 import { melanger } from '../../jeux/hasard.js';
-import { BarreEtapes, TitreEtape, FinEtape, etapesOuvertes, reussirEtape } from '../../composants/Etapes.jsx';
+import { BarreEtapes, TitreEtape, FinEtape, etapesOuvertes, reussirEtape, lienBible } from '../../composants/Etapes.jsx';
 
 // Étape n : plus d'histoires à remettre dans l'ordre, moins d'erreurs permises.
 const regle = (n) => ({ histoires: Math.min(2 + Math.floor(n / 2), 6), erreurs: Math.max(0, 3 - Math.floor(n / 2)) });
@@ -48,7 +48,8 @@ export function Ordre({ id }) {
   };
   if (issue) return <FinEtape icone="liste" etape={etape} reussi={issue === 'gagne'} score={issue === 'gagne' ? `${serie.length} / ${serie.length}` : `${k} / ${serie.length}`}
     texte={issue === 'gagne' ? `Bravo ! Tu as remis ${serie.length} histoires dans l'ordre. L'étape suivante en propose davantage.` : `Trop d'erreurs pour cette étape (${r.erreurs} permise${r.erreurs > 1 ? 's' : ''}). Relis bien chaque histoire dans la Bible et réessaie.`}
-    suivante={() => lancer(etape + 1)} rejouer={() => lancer(etape)} />;
+    suivante={() => lancer(etape + 1)} rejouer={() => lancer(etape)}
+    plusLoin={serie.map((x) => lienBible(x.titre, x.etapes[0]?.reference)).filter(Boolean)} />;
 
   return (
     <div class="page">{voileMsg}

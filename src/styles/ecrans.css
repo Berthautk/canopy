@@ -916,3 +916,13 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .groupe-ens__nb { flex: 0 0 auto; min-width: 28px; padding: 2px 8px; border-radius: 999px; background: var(--fond, #F6F1E7); color: var(--titre); font-weight: 700; font-size: .85rem; text-align: center; }
 .groupe-ens[open] > summary { border-bottom: 1px solid rgba(0,0,0,.06); }
 .groupe-ens > .liste { padding: 10px; }
+.plus-loin { margin-top: 18px; text-align: left; }
+.plus-loin h3 { display: flex; align-items: center; gap: 8px; margin-top: 0; }
+.plus-loin .carte.ligne { margin-top: 8px; box-shadow: none; border: 1px solid var(--bordure, rgba(0,0,0,.08)); }
+.carte-parcours { margin-bottom: 12px; border: 2px solid var(--or); }
+.carte-parcours img { width: 64px; height: 64px; object-fit: cover; border-radius: 12px; flex: none; }
+.carte-parcours .pastille { margin-bottom: 4px; }
+.rappel-parcours__ligne { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 8px; }
+.rappel-parcours__ligne .bouton { flex: 1 1 180px; }
+.rappel-parcours--ok { display: flex; align-items: center; gap: 6px; margin: 10px 4px; }
+.demande-accueil { border-left: 4px solid var(--or); }
