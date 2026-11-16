@@ -905,3 +905,14 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .etape-jeu__titre { display: flex; flex-direction: column; gap: 2px; margin: 4px 2px 6px; font-size: .9rem; color: var(--texte-doux); }
 .etape-jeu__titre b { color: var(--titre); font-family: var(--police-titre); font-size: 1rem; }
 .resultat-quiz__actions { display: flex; flex-direction: column; gap: 8px; width: 100%; max-width: 340px; }
+
+/* Grandir : séries repliables à l'intérieur d'un niveau */
+.groupe-ens { margin-bottom: 10px; border-radius: 16px; background: var(--surface, #fff); box-shadow: 0 1px 3px rgba(0,0,0,.08); overflow: hidden; }
+.groupe-ens > summary { list-style: none; display: flex; align-items: center; gap: 10px; padding: 12px; cursor: pointer; }
+.groupe-ens > summary::-webkit-details-marker { display: none; }
+.groupe-ens > summary b { display: block; color: var(--titre); font-family: var(--police-titre); }
+.groupe-ens > summary .ligne__desc { display: block; font-size: .85rem; }
+.groupe-ens__num { flex: 0 0 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; background: var(--or, #C9A24B); color: #fff; font-weight: 700; }
+.groupe-ens__nb { flex: 0 0 auto; min-width: 28px; padding: 2px 8px; border-radius: 999px; background: var(--fond, #F6F1E7); color: var(--titre); font-weight: 700; font-size: .85rem; text-align: center; }
+.groupe-ens[open] > summary { border-bottom: 1px solid rgba(0,0,0,.06); }
+.groupe-ens > .liste { padding: 10px; }

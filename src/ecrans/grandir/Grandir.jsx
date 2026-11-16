@@ -82,9 +82,17 @@ export function Grandir() {
 
       {N && <>
         <p class="niveau-description">{N.description}</p>
+        {N.parcours.length > 0 && <h2 class="titre-section">{N.id === 'fondations' ? 'Commence ici : les parcours guidés' : 'Parcours guidé'}</h2>}
         {N.parcours.map((id) => <CarteParcours id={id} p={p} />)}
         <h2 class="titre-section">Les enseignements · {N.nom}</h2>
-        <div class="liste">{N.enseignements.filter((id) => parId[id]).map((id, i) => <Enseignement e={parId[id]} n={i + 1} />)}</div>
+        {N.groupes?.length ? <>
+          <p class="ligne__desc" style="margin:-4px 4px 10px">Rangés par séries. Touche une série pour l'ouvrir ; l'ordre est conseillé, mais tout est libre.</p>
+          {N.groupes.map((g, gi) => { const l = g.enseignements.filter((id) => parId[id]); return (
+            <details class="groupe-ens" open={gi === 0}>
+              <summary><span class="groupe-ens__num">{gi + 1}</span><span class="ligne__corps"><b>{g.titre}</b><span class="ligne__desc">{g.description}</span></span><span class="groupe-ens__nb">{l.length}</span></summary>
+              <div class="liste">{l.map((id, i) => <Enseignement e={parId[id]} n={i + 1} />)}</div>
+            </details>); })}
+        </> : <div class="liste">{N.enseignements.filter((id) => parId[id]).map((id, i) => <Enseignement e={parId[id]} n={i + 1} />)}</div>}
         <p class="ligne__desc" style="margin:12px 4px 0">L'ordre proposé monte progressivement, mais tu peux écouter librement l'enseignement que tu veux.</p>
         {NIVEAUX[NIVEAUX.indexOf(N) + 1] && <button class="bouton bouton--contour" style="width:100%;margin-top:12px" onClick={() => { choisir(NIVEAUX[NIVEAUX.indexOf(N) + 1].id); scrollTo(0, 0); }}>
           Niveau suivant : {NIVEAUX[NIVEAUX.indexOf(N) + 1].nom} <Icone nom="chevron" taille={18} /></button>}
