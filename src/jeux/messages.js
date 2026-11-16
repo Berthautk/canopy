@@ -1,0 +1,26 @@
+// Messages courts pour les enfants, donnés après plusieurs échecs dans un jeu.
+// Ils avancent dans l'ordre (gravité du péché, croix, pardon, repentance, force de Dieu…) et la suite
+// est gardée d'une partie à l'autre : l'enfant entend un nouveau message à chaque fois.
+export const MESSAGES = [
+  { titre: 'Le péché fait mal', texte: "Le péché, c'est quand on désobéit à Dieu. Mentir, voler, se moquer, frapper. Ce n'est pas un petit jeu. Le péché fait mal aux autres, il nous fait mal à nous, et il fait de la peine à Dieu.", verset: '« Le salaire du péché, c\'est la mort. »', ref: 'Romains 6:23' },
+  { titre: 'Personne n\'est parfait', texte: "Toi, moi, papa, maman, le pasteur : tout le monde a déjà péché. Personne ne peut aller vers Dieu en disant : je suis parfait. C'est pour cela que nous avons tous besoin d'un Sauveur.", verset: '« Tous ont péché et sont privés de la gloire de Dieu. »', ref: 'Romains 3:23' },
+  { titre: 'Le péché sépare de Dieu', texte: "Le péché, c'est comme un grand mur entre nous et Dieu. Dieu est tout pur, tout saint. Le péché ne peut pas rester près de lui. Mais Dieu nous aime tellement qu'il a voulu casser ce mur.", verset: '« Ce sont vos crimes qui mettent une séparation entre vous et votre Dieu. »', ref: 'Ésaïe 59:2' },
+  { titre: 'Jésus est venu pour toi', texte: "Dieu a envoyé son Fils Jésus sur la terre. Jésus n'a jamais péché, jamais une seule fois. Il est venu pour chercher ceux qui étaient perdus. Il est venu pour toi.", verset: '« Dieu a tant aimé le monde qu\'il a donné son Fils unique. »', ref: 'Jean 3:16' },
+  { titre: 'La croix', texte: "Sur la croix, Jésus a pris la punition de nos péchés. C'était notre place, et il l'a prise. Il a souffert et il est mort pour que nous soyons pardonnés. C'est la plus grande preuve d'amour.", verset: '« Il a été blessé pour nos péchés. »', ref: 'Ésaïe 53:5' },
+  { titre: 'Jésus est vivant', texte: "Trois jours après, Jésus est sorti du tombeau. Il est vivant ! La mort n'a pas pu le garder. Celui qui croit en lui reçoit une vie nouvelle, une vie qui ne finit jamais.", verset: '« Je suis la résurrection et la vie. »', ref: 'Jean 11:25' },
+  { titre: 'Dire pardon à Dieu', texte: "Quand tu as péché, ne te cache pas. Va vers Dieu et dis-lui la vérité : Seigneur, j'ai mal fait, pardonne-moi. Il t'écoute toujours, et il te lave le cœur.", verset: '« Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner. »', ref: '1 Jean 1:9' },
+  { titre: 'Changer de chemin', texte: "Se repentir, ce n'est pas seulement dire pardon puis recommencer. C'est tourner le dos au péché et prendre le chemin de Jésus. Si tu tombes, relève-toi avec lui, et fuis ce qui t'a fait tomber.", verset: '« Fuis les passions de la jeunesse. »', ref: '2 Timothée 2:22' },
+  { titre: 'Le pardon n\'est pas un jeu', texte: "Certains disent : je peux pécher, de toute façon Dieu pardonne. C'est faux. Le pardon de Jésus a coûté sa vie. Ce n'est pas une permission de faire le mal. C'est une force pour faire le bien.", verset: '« Demeurerions-nous dans le péché, afin que la grâce abonde ? Loin de là ! »', ref: 'Romains 6:1-2' },
+  { titre: 'Dieu voit tout', texte: "Même quand personne ne te voit, Dieu te voit. Il voit quand tu fais le bien en secret, et il voit aussi le mal caché. Vis comme un enfant de Dieu, à la maison, à l'école et dans la rue.", verset: '« Les yeux de l\'Éternel sont en tout lieu. »', ref: 'Proverbes 15:3' },
+  { titre: 'La prière te rend fort', texte: "Tu ne peux pas résister au péché tout seul. Parle à Dieu chaque jour. Demande-lui de t'aider avant l'école, avant de dormir, quand tu as peur. Il donne la force à ceux qui la lui demandent.", verset: '« Veillez et priez, afin que vous ne tombiez pas dans la tentation. »', ref: 'Matthieu 26:41' },
+  { titre: 'La Parole te garde', texte: "La Bible, c'est la lumière de Dieu. Quand tu apprends un verset par cœur, il reste dans ton cœur et il t'aide à dire non au mal. Jésus lui-même a répondu au diable avec la Parole.", verset: '« Je serre ta parole dans mon cœur, afin de ne pas pécher contre toi. »', ref: 'Psaume 119:11' },
+  { titre: 'Choisis bien tes amis', texte: "Les amis qui aiment le mal peuvent t'entraîner à faire le mal. Sois gentil avec tout le monde, mais choisis comme amis proches ceux qui aiment Dieu et qui t'aident à faire le bien.", verset: '« Les mauvaises compagnies corrompent les bonnes mœurs. »', ref: '1 Corinthiens 15:33' },
+  { titre: 'Le Saint-Esprit t\'aide', texte: "Quand tu donnes ta vie à Jésus, Dieu met son Esprit dans ton cœur. Il te fait sentir quand quelque chose est mal, et il te donne la force de dire non. Écoute-le.", verset: '« Marchez selon l\'Esprit, et vous n\'accomplirez pas les désirs de la chair. »', ref: 'Galates 5:16' },
+  { titre: 'Jésus revient', texte: "Un jour, Jésus reviendra chercher ceux qui l'aiment. La course de la vie a une arrivée. Ceux qui ont couru avec Jésus recevront une couronne. Alors ne lâche pas, continue de courir avec lui !", verset: '« J\'ai achevé la course, j\'ai gardé la foi. »', ref: '2 Timothée 4:7' },
+];
+const CLE = 'yeshaya:jeux-message';
+export function messageSuivant() {
+  let n = 0; try { n = +localStorage.getItem(CLE) || 0; localStorage.setItem(CLE, String(n + 1)); } catch {}
+  return MESSAGES[n % MESSAGES.length];
+}
+export const ANNONCE = 'Écoute ceci attentivement.';

@@ -3,6 +3,7 @@ import { lireAVoixHaute, arreterVoix, voix } from '../../audio/voix.js';
 import { jouerMusique, arreterMusique } from '../../audio/musique.js';
 import { reglages, modifierReglages } from '../../donnees/reglages.js';
 import { useSignal } from '../../outils/signal.js';
+import { messageSuivant, ANNONCE } from '../../jeux/messages.js';
 
 // « La course de la vie » : le personnage court sur le chemin de la vie, étape après étape, sans fin.
 // Il esquive les péchés (ils font mourir : Romains 6:23) et attrape ce qui fortifie (prière, Parole, don…).
@@ -18,8 +19,9 @@ const ETAPES = [
   { nom: 'Le combat de la nuit', ciel: ['#1d2346', '#3b3f74'], sol: '#4a4a6a', bord: '#33334d', deco: 'etoile', mal: ['Peur', 'Sorcellerie', 'Haine', 'Idolâtrie'], nuit: true },
 ];
 const BIEN = [['🙏', 'Prière'], ['📖', 'Parole'], ['🪙', 'Donner'], ['📣', 'Évangéliser'], ['✅', 'Obéir'], ['❤️', 'Pardonner'], ['🎵', 'Louange']];
-// Mètres à parcourir pour finir l'étape n : 2 km, 5 km, 10 km, puis 5 km de plus à chaque étape.
-const BUT = (n) => [2000, 5000, 10000][n] ?? 10000 + (n - 2) * 5000;
+// Mètres à parcourir pour finir l'étape n : 3 km, 6 km, 10 km, puis 5 km de plus à chaque étape.
+const BUT = (n) => [3000, 6000, 10000][n] ?? 10000 + (n - 2) * 5000;
+const CHUTES_MESSAGE = 2;   // toutes les 2 chutes, un message à écouter attentivement
 const km = (m) => (m >= 1000 ? (m / 1000).toLocaleString('fr-FR', { maximumFractionDigits: 1 }) + ' km' : Math.floor(m) + ' m');
 const VERSETS = ['« Instruis l\'enfant selon la voie qu\'il doit suivre. » Proverbes 22:6', '« Que personne ne méprise ta jeunesse. » 1 Timothée 4:12',
   '« Fuis les passions de la jeunesse. » 2 Timothée 2:22', '« Tout ce que vous faites, faites-le de bon cœur, comme pour le Seigneur. » Colossiens 3:23',
@@ -46,13 +48,14 @@ export function Course() {
     let raf, dernier = performance.now();
     const taille = () => { const r = c.getBoundingClientRect(), d = Math.min(2, devicePixelRatio || 1); c.width = r.width * d; c.height = r.height * d; ctx.setTransform(d, 0, 0, d, 0, 0); };
     taille(); addEventListener('resize', taille);
+    const ro = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(taille) : null; ro?.observe(c);
     const boucle = (t) => { const dt = Math.min(0.05, (t - dernier) / 1000); dernier = t; avancer(dt); dessiner(ctx, c.getBoundingClientRect()); raf = requestAnimationFrame(boucle); };
     raf = requestAnimationFrame(boucle);
     const touche = (e) => { if (e.key === 'ArrowLeft') bouger(-1); if (e.key === 'ArrowRight') bouger(1); if (e.key === ' ' || e.key === 'p') { e.preventDefault(); etat.current?.phase === 'pause' ? reprendre() : pause(); } };
     const cache = () => { if (document.visibilityState !== 'visible') pause(); };
     document.addEventListener('visibilitychange', cache);
     addEventListener('keydown', touche);
-    return () => { cancelAnimationFrame(raf); removeEventListener('resize', taille); removeEventListener('keydown', touche); document.removeEventListener('visibilitychange', cache); arreterVoix(); };
+    return () => { cancelAnimationFrame(raf); ro?.disconnect(); removeEventListener('resize', taille); removeEventListener('keydown', touche); document.removeEventListener('visibilitychange', cache); arreterVoix(); };
   }, []);
 
   function nouvelle(n = 0) {
@@ -75,9 +78,12 @@ export function Course() {
     // Tant que la voix parle, rien ne bouge ; ensuite compte à rebours de 3 secondes, puis on court.
     if (e.phase === 'compte') { if (voix.valeur.lecture) { e.compte = 3.5; e.ecoute = true; return; } e.ecoute = false; e.compte -= dt; if (e.compte <= 0) e.phase = 'course'; return; }
     if (e.phase === 'releve') { e.rt += dt; if (e.rt >= 4) {
-      if (e.releve === 3 && !e.leconVue) { e.leconVue = true; e.phase = 'lecon'; setVue({ phase: 'lecon' });
-        lire('Attends un instant, écoute bien. Jésus t\'a déjà relevé trois fois. Dieu pardonne celui qui se repent. Mais la Bible dit : demeurerions-nous dans le péché, afin que la grâce abonde ? Loin de là ! Quand on retourne sans cesse au même péché, le cœur s\'habitue, il devient dur, et un jour on n\'entend plus la voix de Dieu. Le pardon de Jésus n\'est pas une permission de pécher. C\'est une force pour fuir le péché. Alors maintenant, fuis les pierres de toutes tes forces !');
-      } else relancer(); } return; }
+      if (e.releve % CHUTES_MESSAGE === 0) { e.phase = 'ecoute'; e.et = 0; e.annonce = false; setVue({ phase: 'ecoute' }); lire(ANNONCE); }
+      else relancer(); } return; }
+    // Transition avant le message : « Écoute ceci attentivement », un temps de silence, puis la voix parle.
+    if (e.phase === 'ecoute') { if (voix.valeur.lecture) return; e.et += dt; if (e.et >= 2.2) {
+      const m = messageSuivant(); e.phase = 'lecon'; setVue({ phase: 'lecon', m });
+      lire(`${m.titre}. ${m.texte} La Bible dit : ${m.verset.replace(/[«»]/g, '')} ${m.ref}.`); } return; }
     if (e.phase !== 'course') return;
     // La vitesse de départ monte à chaque étape, puis monte encore pendant l'étape.
     e.temps += dt; e.vitesse = 0.85 + e.etape * 0.14 + Math.min(0.6, (e.distance / BUT(e.etape)) * 0.6);
@@ -211,10 +217,10 @@ export function Course() {
         <span class="course__hud-croix" title="Relèvements restants">✝ {'●'.repeat(RELEVES_MAX - hud.r)}{'○'.repeat(hud.r)}</span>
         <span class="course__hud-prog"><em style={{ width: Math.min(100, hud.d / hud.b * 100) + '%' }} /></span>
       </div>}
-      <div class="course__cadre">
+      <div class={'course__cadre' + (vue.phase === 'course' ? '' : ' course__cadre--menu')}>
         <canvas ref={toile} class="course__toile" onPointerDown={(ev) => { glisse.current = ev.clientX; }} onPointerUp={(ev) => { const d = ev.clientX - (glisse.current ?? ev.clientX); if (Math.abs(d) > 30) bouger(d < 0 ? -1 : 1); else toucherEcran(ev); }}
           aria-label="Touchez à gauche ou à droite pour changer de voie" />
-        {vue.phase === 'debut' && <div class="course__voile">
+        {vue.phase === 'debut' && <div class="course__voile"><div class="course__dedans">
           <h2>La course de la vie</h2>
           <p>Touche à <b>gauche</b> ou à <b>droite</b> pour changer de voie.</p>
           <p class="course__legende"><span class="course__pierre">Péché</span> esquive les pierres du péché : elles font mourir.</p>
@@ -228,34 +234,42 @@ export function Course() {
             <p class="course__record">Rejouer une étape déjà réussie :</p>
             <div class="course__etapes">{[...Array(meilleur)].map((_, i) => <button onClick={() => nouvelle(i)} aria-label={`Étape ${i + 1} : ${ETAPES[i % ETAPES.length].nom}`}><b>{i + 1}</b><small>{km(BUT(i))}</small></button>)}</div>
           </>}
+        </div></div>}
+        {vue.phase === 'ecoute' && <div class="course__voile course__voile--ecoute">
+          <p class="course__oreille" aria-hidden="true">👂</p><h2>Écoute ceci attentivement</h2>
+          <p class="course__points" aria-hidden="true"><i /><i /><i /></p>
         </div>}
-        {vue.phase === 'lecon' && <div class="course__voile">
-          <p style="font-size:2.6rem">✋</p><h2>Écoute bien</h2>
-          <p>Jésus t'a déjà relevé <b>3 fois</b>. Dieu pardonne celui qui se repent. Mais le pardon n'est pas une permission de pécher : c'est une force pour <b>fuir</b> le péché.</p>
-          <p class="course__verset">« Demeurerions-nous dans le péché, afin que la grâce abonde ? Loin de là ! »<small>Romains 6:1-2</small></p>
-          <button class="bouton bouton--or" onClick={() => { arreterVoix(); relancer(); }}>J'ai compris, je fuis le péché ▶</button>
+        {vue.phase === 'lecon' && vue.m && <div class="course__voile">
+          <div class="course__dedans">
+            <p class="course__etiquette">Message pour toi</p>
+            <h2>{vue.m.titre}</h2>
+            <p>{vue.m.texte}</p>
+            <p class="course__verset">{vue.m.verset}<small>{vue.m.ref}</small></p>
+            <button class="bouton bouton--or" onClick={() => { arreterVoix(); relancer(); }}>J'ai compris, je continue ▶</button>
+            <button class="lien course__reecouter" onClick={() => lire(`${vue.m.titre}. ${vue.m.texte} La Bible dit : ${vue.m.verset.replace(/[«»]/g, '')} ${vue.m.ref}.`)}>🔊 Réécouter</button>
+          </div>
         </div>}
-        {vue.phase === 'epuise' && <div class="course__voile course__voile--mort">
+        {vue.phase === 'epuise' && <div class="course__voile course__voile--mort"><div class="course__dedans">
           <p class="course__cause">Jésus t'a relevé {RELEVES_MAX} fois dans cette étape.</p>
           <h2>Il est temps de te repentir</h2>
           <p>Dieu ne se lasse pas de pardonner celui qui se repent vraiment. Mais se repentir, c'est <b>changer de direction</b> et fuir le péché, pas recommencer la même chose.</p>
           <p class="course__verset">« Ne vous y trompez pas : on ne se moque pas de Dieu. Ce qu'un homme aura semé, il le moissonnera aussi. »<small>Galates 6:7</small></p>
           <button class="bouton bouton--or" onClick={() => nouvelle(etat.current.etape)}>🙏 Je me repens : je reprends l'étape</button>
           <button class="bouton bouton--contour course__clair" onClick={() => { etat.current = null; setVue({ phase: 'debut' }); lire(INTRO); }}>Choisir une autre étape</button>
-        </div>}
-        {vue.phase === 'pause' && <div class="course__voile">
+        </div></div>}
+        {vue.phase === 'pause' && <div class="course__voile"><div class="course__dedans">
           <p style="font-size:3rem">⏸</p><h2>Pause</h2><p>Le jeu t'attend.</p>
           <button class="bouton bouton--or" onClick={reprendre}>▶ Reprendre</button>
           <button class="bouton bouton--contour course__clair" onClick={() => { etat.current = null; setVue({ phase: 'debut' }); }}>Choisir une autre étape</button>
-        </div>}
-        {vue.phase === 'etape' && <div class="course__voile">
+        </div></div>}
+        {vue.phase === 'etape' && <div class="course__voile"><div class="course__dedans">
           <p style="font-size:2.6rem">🏁</p>
           <h2>Étape {vue.n + 1} réussie !</h2><p>{ETAPES[vue.n % ETAPES.length].nom}</p>
           <p class="course__verset">{VERSETS[vue.n % VERSETS.length]}</p>
           <button class="bouton bouton--or" onClick={() => nouvelle(vue.n + 1)}>Étape {vue.n + 2} : {ETAPES[(vue.n + 1) % ETAPES.length].nom} ▶</button>
           <p class="course__record">Attention : à chaque étape, ça va plus vite.</p>
-        </div>}
-        {vue.phase === 'mort' && <div class="course__voile course__voile--mort">
+        </div></div>}
+        {vue.phase === 'mort' && <div class="course__voile course__voile--mort"><div class="course__dedans">
           <p class="course__cause">{vue.mot ? <>« {vue.mot} » t'a frappé.</> : 'Tu n\'avais plus de force.'}</p>
           {vue.mot ? <p class="course__verset">« Le salaire du péché, c'est la mort ; mais le don gratuit de Dieu, c'est la vie éternelle en Jésus-Christ notre Seigneur. »<small>Romains 6:23</small></p>
             : <p class="course__verset">Sans la prière, la Parole et l'obéissance, on s'affaiblit. Attrape les boules dorées ! « Sans moi vous ne pouvez rien faire. »<small>Jean 15:5</small></p>}
@@ -263,12 +277,12 @@ export function Course() {
           <p>Pour continuer, il te faut Jésus.</p>
           <button class="bouton bouton--or course__jesus" onClick={revivre}>✝ Jésus, viens dans ma vie</button>
           <p class="course__record">{km(vue.distance)} parcourus · Jésus peut encore te relever {RELEVES_MAX - (e?.releve || 0)} fois dans cette étape</p>
-        </div>}
+        </div></div>}
       </div>
-      <div class="course__fleches">
+      {(vue.phase === 'course') && <div class="course__fleches">
         <button onClick={() => bouger(-1)} aria-label="À gauche">◀</button>
         <button onClick={() => bouger(1)} aria-label="À droite">▶</button>
-      </div>
+      </div>}
     </div>
   );
 }

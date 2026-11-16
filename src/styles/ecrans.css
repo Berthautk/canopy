@@ -857,3 +857,26 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .course__hud-force { display: flex; align-items: center; gap: 8px; } .course__hud-force i { flex: 1; height: 10px; border-radius: 6px; background: #ddd; overflow: hidden; } .course__hud-force em { display: block; height: 100%; transition: width .25s; }
 .course__hud-txt { font-weight: 700; text-align: right; } .course__hud-croix { color: #b8860b; letter-spacing: 1px; grid-column: 1; }
 .course__hud-prog { grid-column: 2; height: 6px; border-radius: 4px; background: #ddd; overflow: hidden; } .course__hud-prog em { display: block; height: 100%; background: #3fa66b; }
+
+/* Course : panneaux qui tiennent sur tous les téléphones (défilement interne, rien n'est coupé) */
+.course__voile { justify-content: flex-start; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+.course__dedans { margin: auto 0; display: flex; flex-direction: column; align-items: center; gap: 8px; width: 100%; padding: 6px 0; }
+.course__cadre--menu .course__toile { height: max(420px, calc(100dvh - 300px - env(safe-area-inset-bottom))); }
+.course__toile { height: max(300px, calc(100dvh - 400px - env(safe-area-inset-bottom))); }
+.course__voile--ecoute { justify-content: center; background: rgba(12,22,44,.92); }
+.course__oreille { font-size: 3.4rem; animation: legende 1.2s ease-in-out infinite alternate; }
+.course__points { display: flex; gap: 8px; } .course__points i { width: 10px; height: 10px; border-radius: 50%; background: #ffd86b; animation: points 1.2s infinite; }
+.course__points i:nth-child(2) { animation-delay: .2s; } .course__points i:nth-child(3) { animation-delay: .4s; }
+@keyframes points { 0%, 100% { opacity: .25; transform: scale(.8); } 50% { opacity: 1; transform: scale(1.15); } }
+.course__etiquette { text-transform: uppercase; letter-spacing: .12em; font-size: .75rem; color: #ffd86b; font-weight: 700; }
+@media (max-height: 700px) { .course__voile h2 { font-size: 1.25rem; } .course__voile { gap: 6px; padding: 12px; } .course__commencer { padding: 10px 22px; } }
+/* Course : tout tient entre l'en-tête et la barre d'onglets, quelle que soit la taille du téléphone */
+.course__cadre--menu .course__toile { height: max(300px, calc(100dvh - 262px - env(safe-area-inset-bottom))); }
+.course__toile { height: max(220px, calc(100dvh - 392px - env(safe-area-inset-bottom))); }
+@media (max-height: 760px) {
+  .course__haut { margin-top: 4px; } .course__haut .course__musique { padding: 4px 10px; font-size: .78rem; }
+  .course__hud { margin-top: 4px; padding: 5px 10px; font-size: .8rem; }
+  .course__fleches { margin-top: 6px; gap: 8px; } .course__fleches button { height: 50px; font-size: 1.4rem; }
+  .course__toile { height: max(220px, calc(100dvh - 350px - env(safe-area-inset-bottom))); }
+  .course__cadre--menu .course__toile { height: max(280px, calc(100dvh - 240px - env(safe-area-inset-bottom))); }
+}
