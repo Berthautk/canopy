@@ -1,311 +1,560 @@
 {
- "id": "affermissement-11-bapteme-et-cene",
- "titre": "Le baptême et la sainte cène",
- "serie": "Affermissement",
- "theme": "Affermissement",
- "auteur": "Yeshaya",
- "resume": "Onzième leçon de « Former le disciple » : les deux ordonnances que Jésus a données à son Église. Pourquoi se faire baptiser après avoir cru, ce que signifie le baptême, et comment prendre la sainte cène d'une manière digne.",
- "image": "/assets/eglise/bapteme-en-bassin.webp",
- "verset_de_base": "Mt 28:19",
- "lecture_minutes": 14,
- "objectifs": [
-  "Comprendre que Jésus a demandé à ses disciples d'être baptisés.",
-  "Savoir ce que signifie le baptême et ce qu'il ne fait pas.",
-  "Comprendre le sens de la sainte cène.",
-  "Apprendre à s'examiner avant de prendre la cène."
- ],
- "introduction": "Jésus n'a laissé à son Église que très peu de rites. Il n'a pas laissé de pèlerinages, de lieux sacrés ou de cérémonies compliquées. Il a laissé deux gestes simples, qu'on appelle les ordonnances : le baptême et la sainte cène. Le baptême se vit une fois, au début de la vie chrétienne. La cène se vit régulièrement, tout au long de la route.\n\nCes deux gestes sont des images visibles d'une réalité invisible. Ils ne nous sauvent pas, mais ils nous rappellent, à nous et au monde, ce que Jésus a fait pour nous. Dans cette leçon, nous verrons ce que la Bible enseigne sur le baptême, puis sur la sainte cène, et comment les vivre avec foi.",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "Le baptême : un commandement de Jésus",
-   "references": [
-    "Mt 28:19",
-    "Ac 2:38",
-    "Ac 2:41",
-    "Mt 3:15"
-   ],
-   "blocs": [
+  "id": "affermissement-11-bapteme-et-cene",
+  "titre": "Le baptême et la sainte cène",
+  "serie": "Affermissement",
+  "theme": "Affermissement",
+  "auteur": "Yeshaya",
+  "resume": "Onzième leçon de « Former le disciple » : les deux ordonnances que Jésus a données à son Église. Pourquoi se faire baptiser après avoir cru, ce que signifie le baptême, et comment prendre la sainte cène d'une manière digne.",
+  "image": "/assets/eglise/bapteme-en-bassin.webp",
+  "verset_de_base": "Mt 28:19",
+  "lecture_minutes": 33,
+  "objectifs": [
+    "Comprendre que Jésus a demandé à ses disciples d'être baptisés.",
+    "Savoir ce que signifie le baptême et ce qu'il ne fait pas.",
+    "Comprendre le sens de la sainte cène.",
+    "Apprendre à s'examiner avant de prendre la cène."
+  ],
+  "introduction": "Jésus n'a laissé à son Église que très peu de rites. Il n'a pas laissé de pèlerinages, de lieux sacrés ou de cérémonies compliquées. Il a laissé deux gestes simples, qu'on appelle les ordonnances : le baptême et la sainte cène. Le baptême se vit une fois, au début de la vie chrétienne. La cène se vit régulièrement, tout au long de la route.\n\nCes deux gestes sont des images visibles d'une réalité invisible. Ils ne nous sauvent pas, mais ils nous rappellent, à nous et au monde, ce que Jésus a fait pour nous. Dans cette leçon, nous verrons ce que la Bible enseigne sur le baptême, puis sur la sainte cène, et comment les vivre avec foi.",
+  "sections": [
     {
-     "sous_titre": "Jésus l'a demandé"
+      "numero": "1",
+      "titre": "Le baptême : un commandement de Jésus",
+      "references": [
+        "Mt 28:19",
+        "Ac 2:38",
+        "Ac 2:41",
+        "Mt 3:15"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Jésus l'a demandé"
+        },
+        {
+          "texte": "Avant de monter au ciel, Jésus a donné cet ordre : allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit. Le baptême n'est donc pas une invention d'église ou une tradition : c'est un commandement du Seigneur."
+        },
+        {
+          "verset": "Mt 28:19"
+        },
+        {
+          "texte": "Jésus lui-même s'est fait baptiser par Jean dans le Jourdain. Jean était gêné, car Jésus n'avait pas de péché. Mais Jésus lui a répondu : laisse faire maintenant, car il est convenable que nous accomplissions ainsi tout ce qui est juste. Si Jésus, qui était sans péché, s'est fait baptiser pour obéir au Père, combien plus nous !"
+        },
+        {
+          "verset": "Mt 3:15"
+        },
+        {
+          "sous_titre": "Dans le livre des Actes : croire, puis être baptisé"
+        },
+        {
+          "texte": "Le jour de la Pentecôte, Pierre a prêché, et les gens ont été touchés. Ils ont demandé : que ferons-nous ? Pierre a répondu : repentez-vous, et que chacun de vous soit baptisé au nom de Jésus-Christ. Et ceux qui acceptèrent sa parole furent baptisés. Dans tout le Nouveau Testament, l'ordre est toujours le même : on entend l'Évangile, on se repent, on croit, puis on est baptisé."
+        },
+        {
+          "verset": "Ac 2:38"
+        },
+        {
+          "verset": "Ac 2:41"
+        }
+      ]
     },
     {
-     "texte": "Avant de monter au ciel, Jésus a donné cet ordre : allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit. Le baptême n'est donc pas une invention d'église ou une tradition : c'est un commandement du Seigneur."
+      "numero": "2",
+      "titre": "Ce que signifie le baptême",
+      "references": [
+        "Rm 6:3-4",
+        "Col 2:12",
+        "Ga 3:27",
+        "1 P 3:21"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Mort, enseveli, ressuscité avec Christ"
+        },
+        {
+          "texte": "Le mot « baptiser » veut dire plonger, immerger. Le baptême est une image très forte : quand je descends dans l'eau, c'est comme si j'étais enseveli avec Christ ; quand je ressors de l'eau, c'est comme si je ressuscitais avec lui pour une vie nouvelle. Paul l'explique : nous avons donc été ensevelis avec lui par le baptême en sa mort, afin que, comme Christ est ressuscité des morts, de même nous aussi nous marchions en nouveauté de vie."
+        },
+        {
+          "verset": "Rm 6:3-4"
+        },
+        {
+          "verset": "Col 2:12"
+        },
+        {
+          "sous_titre": "Revêtir Christ publiquement"
+        },
+        {
+          "texte": "Le baptême est aussi une déclaration publique. C'est comme une alliance au doigt : elle ne crée pas le mariage, mais elle montre à tous qu'on est marié. Par le baptême, je dis devant l'Église, ma famille et même le monde invisible : « J'appartiens désormais à Jésus. » Vous tous, qui avez été baptisés en Christ, vous avez revêtu Christ."
+        },
+        {
+          "verset": "Ga 3:27"
+        },
+        {
+          "sous_titre": "Ce que le baptême ne fait pas"
+        },
+        {
+          "texte": "Le baptême ne lave pas le péché par l'eau elle-même. Pierre précise qu'il n'est pas la purification des souillures du corps, mais l'engagement d'une bonne conscience envers Dieu. C'est le sang de Jésus qui purifie, et c'est la foi qui sauve. Le brigand sur la croix a été sauvé sans avoir pu être baptisé. Mais celui qui a cru et qui peut être baptisé ne doit pas refuser d'obéir."
+        },
+        {
+          "verset": "1 P 3:21"
+        },
+        {
+          "sous_titre": "Qui doit être baptisé, et quand ?"
+        },
+        {
+          "texte": "La Bible montre des gens baptisés après avoir cru : l'eunuque éthiopien a demandé : voici de l'eau ; qu'est-ce qui empêche que je sois baptisé ? Philippe lui a répondu : si tu crois de tout ton cœur, cela est possible. Le geôlier de Philippes a cru, et il fut baptisé, lui et tous les siens, cette nuit-là. Si tu as reçu Jésus et que tu n'es pas encore baptisé, parles-en à ton pasteur. Ne remets pas cette obéissance à plus tard."
+        },
+        {
+          "verset": "Ac 8:36-38"
+        }
+      ]
     },
     {
-     "verset": "Mt 28:19"
+      "numero": "3",
+      "titre": "La sainte cène : se souvenir de Jésus",
+      "references": [
+        "1 Co 11:23-26",
+        "Lc 22:19"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Le dernier repas de Jésus"
+        },
+        {
+          "texte": "La nuit où il fut livré, Jésus prit du pain et, après avoir rendu grâces, le rompit, et dit : ceci est mon corps, qui est rompu pour vous ; faites ceci en mémoire de moi. De même, après avoir soupé, il prit la coupe, et dit : cette coupe est la nouvelle alliance en mon sang ; faites ceci en mémoire de moi toutes les fois que vous en boirez."
+        },
+        {
+          "verset": "1 Co 11:23-25"
+        },
+        {
+          "sous_titre": "Trois regards"
+        },
+        {
+          "texte": "Quand nous prenons la cène, nous regardons dans trois directions. En arrière : nous nous souvenons de la croix, du corps rompu et du sang versé. Autour de nous : nous sommes un seul corps avec nos frères et sœurs. Et en avant : toutes les fois que vous mangez ce pain et que vous buvez cette coupe, vous annoncez la mort du Seigneur, jusqu'à ce qu'il vienne. La cène est une annonce, et une attente."
+        },
+        {
+          "verset": "1 Co 11:26"
+        },
+        {
+          "sous_titre": "Une communion"
+        },
+        {
+          "texte": "Paul dit encore : la coupe de bénédiction que nous bénissons, n'est-elle pas la communion au sang de Christ ? Le pain que nous rompons, n'est-il pas la communion au corps de Christ ? Puisqu'il y a un seul pain, nous qui sommes plusieurs, nous formons un seul corps. On ne peut pas prendre la cène en gardant de la haine contre un frère qui partage le même pain."
+        },
+        {
+          "verset": "1 Co 10:16-17"
+        }
+      ]
     },
     {
-     "texte": "Jésus lui-même s'est fait baptiser par Jean dans le Jourdain. Jean était gêné, car Jésus n'avait pas de péché. Mais Jésus lui a répondu : laisse faire maintenant, car il est convenable que nous accomplissions ainsi tout ce qui est juste. Si Jésus, qui était sans péché, s'est fait baptiser pour obéir au Père, combien plus nous !"
+      "numero": "4",
+      "titre": "Questions fréquentes sur le baptême et la cène",
+      "references": [
+        "Ac 8:36-38",
+        "Ac 2:41",
+        "1 Co 11:26"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "J'ai été baptisé bébé ; dois-je être baptisé de nouveau ?"
+        },
+        {
+          "texte": "Dans le Nouveau Testament, le baptême suit toujours la foi personnelle : « Ceux qui acceptèrent sa parole furent baptisés. » L'eunuque éthiopien a demandé : « Qu'est-ce qui empêche que je sois baptisé ? » après avoir cru. Beaucoup de chrétiens baptisés bébés demandent donc à être baptisés après leur conversion, pour obéir eux-mêmes au commandement de Jésus. Les églises ne pratiquent pas toutes de la même manière ; parles-en avec ton pasteur, Bible ouverte."
+        },
+        {
+          "verset": "Ac 8:36-38"
+        },
+        {
+          "sous_titre": "Le baptême efface-t-il les péchés automatiquement ?"
+        },
+        {
+          "texte": "Non. Ce n'est pas l'eau qui sauve, c'est Jésus. Le baptême est le signe visible d'une réalité intérieure : la mort au péché et la vie nouvelle avec Christ. Un baptême sans repentance ni foi n'est qu'un bain."
+        },
+        {
+          "sous_titre": "Puis-je prendre la cène si je ne suis pas encore baptisé ?"
+        },
+        {
+          "texte": "Dans la Bible, ceux qui participaient à la fraction du pain étaient des croyants baptisés (Actes 2:41-42). Beaucoup d'églises demandent donc d'être baptisé avant de prendre la cène. Si tu as cru, ne tarde pas à être baptisé."
+        },
+        {
+          "verset": "Ac 2:41"
+        },
+        {
+          "sous_titre": "Pourquoi prendre la cène régulièrement ?"
+        },
+        {
+          "texte": "Paul dit : toutes les fois que vous mangez ce pain et que vous buvez cette coupe, vous annoncez la mort du Seigneur jusqu'à ce qu'il vienne. La cène nous ramène régulièrement à la croix, nous pousse à examiner notre vie, à régler nos conflits avec nos frères, et nous fait regarder vers le retour de Jésus."
+        },
+        {
+          "verset": "1 Co 11:26"
+        }
+      ]
     },
     {
-     "verset": "Mt 3:15"
+      "numero": "5",
+      "titre": "La mer Rouge : un baptême qui sépare de l'Égypte",
+      "references": [
+        "Ex 14:26-31",
+        "1 Co 10:1-6"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un peuple entre la mer et l'armée"
+        },
+        {
+          "texte": "Après quatre cents ans d'esclavage, Israël venait enfin de quitter l'Égypte. Mais Pharaon a changé d'avis et a lancé toute son armée, ses chars et ses cavaliers, à leur poursuite. Le peuple s'est retrouvé coincé : devant, la mer ; derrière, l'armée égyptienne. Ils ont crié de peur."
+        },
+        {
+          "texte": "Dieu a dit à Moïse : lève ta verge, étends ta main sur la mer, et fends-la. Toute la nuit, un vent fort d'orient a soufflé, et la mer s'est ouverte. Les enfants d'Israël ont marché à pied sec au milieu de la mer, et les eaux formaient comme une muraille à leur droite et à leur gauche."
+        },
+        {
+          "sous_titre": "Les eaux qui se referment"
+        },
+        {
+          "texte": "Les Égyptiens les ont poursuivis dans la mer. Alors l'Éternel a dit à Moïse : étends ta main sur la mer ; et les eaux reviendront sur les Égyptiens, sur leurs chars et sur leurs cavaliers. Le matin, la mer a repris sa place, et elle a englouti toute l'armée de Pharaon. Il n'en resta pas un seul."
+        },
+        {
+          "verset": "Ex 14:26-31"
+        },
+        {
+          "texte": "Israël vit sur le rivage de la mer les Égyptiens qui étaient morts. Et le peuple craignit l'Éternel, et il crut en l'Éternel et en Moïse, son serviteur."
+        },
+        {
+          "sous_titre": "Paul y voit le baptême"
+        },
+        {
+          "texte": "Des siècles plus tard, Paul écrit aux Corinthiens : nos pères ont tous été sous la nuée, ils ont tous passé au travers de la mer, ils ont tous été baptisés en Moïse dans la nuée et dans la mer."
+        },
+        {
+          "verset": "1 Co 10:1-6"
+        },
+        {
+          "texte": "Le passage de la mer Rouge est une image du baptême. Avant la mer, Israël était encore à portée de Pharaon. Après la mer, l'ancien maître était englouti. Il y avait désormais une mer entre eux et l'Égypte. Ainsi, le baptême proclame que nous avons quitté le royaume des ténèbres, et que l'ancien maître, le péché, n'a plus de droits sur nous. Ce n'est pas l'eau qui nous a libérés : c'est Dieu qui a ouvert le chemin. Mais le passage par les eaux montre publiquement qu'on a changé de maître."
+        },
+        {
+          "sous_titre": "Un avertissement"
+        },
+        {
+          "texte": "Paul ajoute aussitôt une chose sérieuse : mais la plupart d'entre eux ne furent point agréables à Dieu, puisqu'ils périrent dans le désert. Tous avaient traversé la mer. Tous avaient été « baptisés en Moïse ». Mais beaucoup ont ensuite murmuré, adoré le veau d'or, et regretté l'Égypte."
+        },
+        {
+          "texte": "Le baptême n'est pas un ticket automatique pour le ciel. C'est le début d'une marche. Celui qui a été baptisé et qui retourne vivre en Égypte, dans ses anciens péchés, montre qu'il n'a pas vraiment changé de maître. Ces choses, dit Paul, sont arrivées pour nous servir d'exemples."
+        }
+      ]
     },
     {
-     "sous_titre": "Dans le livre des Actes : croire, puis être baptisé"
+      "numero": "6",
+      "titre": "Saul de Tarse : « Lève-toi, et sois baptisé »",
+      "references": [
+        "Ac 9:10-19",
+        "Ac 9:20-22"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Trois jours dans le noir"
+        },
+        {
+          "texte": "Saul, l'ennemi acharné des chrétiens, venait de rencontrer Jésus sur la route de Damas. Il était aveugle. Ses compagnons l'ont conduit par la main jusqu'à la ville, dans une maison de la rue Droite. Pendant trois jours, il n'a ni mangé ni bu. Il priait."
+        },
+        {
+          "sous_titre": "Ananias obéit"
+        },
+        {
+          "texte": "Le Seigneur a envoyé un disciple nommé Ananias vers lui. Ananias avait peur, car il savait tout le mal que Saul avait fait aux chrétiens. Mais il a obéi. Il est entré dans la maison, il a imposé les mains à Saul et il a dit : Saul, mon frère, le Seigneur Jésus, qui t'est apparu sur le chemin par lequel tu venais, m'a envoyé pour que tu recouvres la vue et que tu sois rempli du Saint-Esprit."
+        },
+        {
+          "verset": "Ac 9:10-19"
+        },
+        {
+          "texte": "Au même instant, il tomba de ses yeux comme des écailles, et il recouvra la vue. Il se leva, et fut baptisé ; et, après qu'il eut pris de la nourriture, les forces lui revinrent."
+        },
+        {
+          "sous_titre": "Aucun retard"
+        },
+        {
+          "texte": "Remarque l'ordre : il se leva, et fut baptisé ; et ensuite il mangea. Après trois jours de jeûne, Saul a fait passer son baptême avant même son repas. Quand Paul racontera plus tard cette histoire, il rappellera les paroles d'Ananias : et maintenant, pourquoi tardes-tu ? Lève-toi, sois baptisé, et lavé de tes péchés, en invoquant le nom du Seigneur."
+        },
+        {
+          "texte": "Beaucoup de croyants repoussent leur baptême pendant des années : « Je ne suis pas encore prêt. » « J'attends que ma vie soit parfaite. » « J'ai peur de ce que dira ma famille. » Saul avait toutes les raisons d'avoir peur : son baptême allait faire de lui un traître aux yeux de ses anciens amis. Mais il n'a pas attendu."
+        },
+        {
+          "texte": "Le baptême n'est pas une récompense pour des chrétiens parfaits. C'est une obéissance pour des pécheurs pardonnés qui veulent suivre Jésus."
+        },
+        {
+          "sous_titre": "Un baptême qui se voit"
+        },
+        {
+          "texte": "Et la suite le montre : aussitôt il prêcha dans les synagogues que Jésus est le Fils de Dieu. Tous ceux qui l'entendaient étaient dans l'étonnement, et disaient : n'est-ce pas celui qui persécutait à Jérusalem ceux qui invoquent ce nom ?"
+        },
+        {
+          "verset": "Ac 9:20-22"
+        },
+        {
+          "texte": "Le baptême de Saul n'est pas resté une cérémonie. Il a marqué le début d'une vie complètement nouvelle, visible pour tous."
+        },
+        {
+          "texte": "On raconte l'histoire d'un homme, ancien chef d'une bande de voleurs dans son quartier, qui s'était converti. Le jour de son baptême, les gens de son quartier sont venus nombreux au bord de la rivière, certains pour se moquer, d'autres par curiosité. Avant d'entrer dans l'eau, il a demandé la permission de parler. Il a dit : « Vous me connaissez tous. Beaucoup d'entre vous ont souffert à cause de moi. Aujourd'hui, je veux que vous sachiez que l'ancien homme est mort. Je vais rendre ce que j'ai volé, autant que je le peux. » Puis il est descendu dans l'eau. Ce jour-là, deux anciens membres de sa bande ont demandé à rencontrer le pasteur."
+        }
+      ]
     },
     {
-     "texte": "Le jour de la Pentecôte, Pierre a prêché, et les gens ont été touchés. Ils ont demandé : que ferons-nous ? Pierre a répondu : repentez-vous, et que chacun de vous soit baptisé au nom de Jésus-Christ. Et ceux qui acceptèrent sa parole furent baptisés. Dans tout le Nouveau Testament, l'ordre est toujours le même : on entend l'Évangile, on se repent, on croit, puis on est baptisé."
+      "numero": "7",
+      "titre": "Emmaüs : reconnu à la fraction du pain",
+      "references": [
+        "Lc 24:13-21",
+        "Lc 24:28-35"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Deux disciples découragés"
+        },
+        {
+          "texte": "Le jour de la résurrection, deux disciples marchaient de Jérusalem vers un village appelé Emmaüs, à environ onze kilomètres. Ils parlaient de tout ce qui venait de se passer, de la croix, de la mort de Jésus. Ils étaient tristes et découragés."
+        },
+        {
+          "texte": "Jésus lui-même s'est approché et a fait route avec eux. Mais leurs yeux étaient empêchés de le reconnaître. Il leur a demandé : de quoi vous entretenez-vous en marchant ? Et ils se sont arrêtés, l'air triste. Ils lui ont raconté : nous espérions que ce serait lui qui délivrerait Israël."
+        },
+        {
+          "verset": "Lc 24:13-21"
+        },
+        {
+          "texte": "« Nous espérions. » Leur espérance était au passé."
+        },
+        {
+          "sous_titre": "Le moment de la reconnaissance"
+        },
+        {
+          "texte": "En chemin, Jésus leur a expliqué les Écritures. Quand ils sont arrivés au village, il a fait comme s'il allait plus loin. Mais ils l'ont pressé : reste avec nous, car le soir approche, le jour est sur son déclin. Il est entré pour rester avec eux."
+        },
+        {
+          "verset": "Lc 24:28-35"
+        },
+        {
+          "texte": "Pendant qu'il était à table avec eux, il prit le pain ; et, après avoir rendu grâces, il le rompit, et le leur donna. Alors leurs yeux s'ouvrirent, et ils le reconnurent ; mais il disparut de devant eux."
+        },
+        {
+          "texte": "C'est au moment où Jésus a rompu le pain qu'ils l'ont reconnu. Peut-être ont-ils vu à ce moment les marques des clous dans ses mains. Peut-être ont-ils reconnu ce geste qu'ils l'avaient vu faire tant de fois."
+        },
+        {
+          "sous_titre": "Un cœur qui brûle"
+        },
+        {
+          "texte": "Ils se dirent l'un à l'autre : notre cœur ne brûlait-il pas au dedans de nous, lorsqu'il nous parlait en chemin et nous expliquait les Écritures ? Et ils se levèrent à l'heure même, retournèrent à Jérusalem, et racontèrent comment ils l'avaient reconnu au moment où il rompit le pain."
+        },
+        {
+          "sous_titre": "Ce que cela nous apprend sur la cène"
+        },
+        {
+          "texte": "La cène n'est pas seulement un souvenir d'un Jésus mort. C'est une rencontre avec un Jésus vivant. Quand nous rompons le pain ensemble, il est présent au milieu de nous par son Esprit. Combien de chrétiens arrivent au culte tristes et découragés, comme les disciples d'Emmaüs, avec une espérance au passé ! Et pendant la Parole et la fraction du pain, leurs yeux s'ouvrent à nouveau. Ils repartent le cœur brûlant."
+        },
+        {
+          "texte": "Remarque aussi l'ordre de l'histoire : d'abord la Parole expliquée en chemin, puis le pain rompu à table. La Parole prépare le cœur, et la cène scelle la rencontre. C'est pourquoi la cène doit toujours être accompagnée de la Parole, et prise avec un cœur attentif, et non comme une simple habitude."
+        }
+      ]
     },
     {
-     "verset": "Ac 2:38"
+      "numero": "8",
+      "titre": "« Que signifie pour vous cet usage ? »",
+      "references": [
+        "Ex 12:24-27",
+        "Jn 6:48-51"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "La question des enfants"
+        },
+        {
+          "texte": "Quand Dieu a institué la Pâque en Égypte, il a donné cet ordre à Israël : vous observerez cela comme une loi pour vous et pour vos enfants à perpétuité. Et lorsque vos enfants vous diront : que signifie pour vous cet usage ? vous répondrez : c'est le sacrifice de Pâque en l'honneur de l'Éternel, qui a passé par-dessus les maisons des enfants d'Israël en Égypte, lorsqu'il frappa l'Égypte et qu'il sauva nos maisons."
+        },
+        {
+          "verset": "Ex 12:24-27"
+        },
+        {
+          "texte": "Dieu savait que les enfants poseraient des questions en voyant ce repas étrange : l'agneau rôti, les herbes amères, le pain sans levain, le sang sur les portes. Et il voulait que les parents soient prêts à expliquer."
+        },
+        {
+          "sous_titre": "La cène et nos enfants"
+        },
+        {
+          "texte": "La sainte cène est la Pâque des chrétiens. Jésus l'a instituée pendant un repas de Pâque. Quand nos enfants nous voient prendre le pain et la coupe à l'église, ils se posent les mêmes questions : pourquoi ce petit morceau de pain ? Pourquoi ce jus ? Pourquoi les adultes sont-ils si sérieux à ce moment-là ?"
+        },
+        {
+          "texte": "Parents, ne laissez pas vos enfants grandir sans réponse. Expliquez-leur avec des mots simples : Jésus est notre agneau de Pâque. Son corps a été brisé pour nous, comme ce pain est rompu. Son sang a coulé pour nous, comme cette coupe est versée. Grâce à lui, la mort passe par-dessus ceux qui croient en lui. Et un jour, toi aussi, quand tu auras donné ta vie à Jésus et que tu seras baptisé, tu pourras y participer."
+        },
+        {
+          "sous_titre": "Le vrai pain"
+        },
+        {
+          "texte": "Jésus a dit : je suis le pain de vie. Vos pères ont mangé la manne dans le désert, et ils sont morts. C'est ici le pain qui descend du ciel, afin que celui qui en mange ne meure point. Je suis le pain vivant qui est descendu du ciel. Si quelqu'un mange de ce pain, il vivra éternellement."
+        },
+        {
+          "verset": "Jn 6:48-51"
+        },
+        {
+          "texte": "Le pain de la cène n'a pas de pouvoir magique. Il nous montre celui qui est le vrai pain : Jésus lui-même. On ne le reçoit pas une seule fois, puis on l'oublie. On se nourrit de lui chaque jour, par la foi, par sa Parole, par la prière. La cène, prise régulièrement, nous rappelle que nous vivons de lui."
+        }
+      ]
     },
     {
-     "verset": "Ac 2:41"
+      "numero": "9",
+      "titre": "Prendre la cène d'une manière digne",
+      "references": [
+        "1 Co 11:27-28",
+        "1 Jn 1:9"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "S'examiner"
+        },
+        {
+          "texte": "Paul donne un avertissement sérieux : celui qui mangera le pain ou boira la coupe du Seigneur indignement, sera coupable envers le corps et le sang du Seigneur. Que chacun donc s'éprouve soi-même, et qu'ainsi il mange du pain et boive de la coupe."
+        },
+        {
+          "verset": "1 Co 11:27-28"
+        },
+        {
+          "texte": "Prendre la cène indignement, ce n'est pas être imparfait : personne n'est digne par lui-même. C'est la prendre à la légère, en gardant volontairement un péché, sans repentance, ou en méprisant ses frères. Remarque que Paul ne dit pas « ne la prenez pas » ; il dit « examinez-vous, et qu'ainsi vous la preniez »."
+        },
+        {
+          "sous_titre": "Comment s'examiner"
+        },
+        {
+          "texte": "Avant la cène, prends quelques minutes devant Dieu. Demande au Saint-Esprit : y a-t-il un péché que je n'ai pas confessé ? Une personne à qui je dois pardonner, ou à qui je dois demander pardon ? Confesse, et reçois le pardon. Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner. Puis prends le pain et la coupe avec reconnaissance, avec foi et avec joie."
+        },
+        {
+          "verset": "1 Jn 1:9"
+        },
+        {
+          "sous_titre": "Le repas des enfants de Dieu"
+        },
+        {
+          "texte": "La cène n'est pas un rite magique, ni un simple souvenir froid. C'est le repas de famille des enfants de Dieu, autour de leur Sauveur. Chaque fois que tu la prends, redis dans ton cœur : « Seigneur Jésus, tu as donné ton corps et ton sang pour moi. Je t'appartiens. Je t'attends. »"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "Ce que signifie le baptême",
-   "references": [
-    "Rm 6:3-4",
-    "Col 2:12",
-    "Ga 3:27",
-    "1 P 3:21"
-   ],
-   "blocs": [
+  ],
+  "sujets": [
     {
-     "sous_titre": "Mort, enseveli, ressuscité avec Christ"
+      "titre": "Obéir par le baptême",
+      "texte": "Prions afin que tous ceux qui ont reçu Jésus et ne sont pas encore baptisés obéissent au Seigneur sans tarder. (Actes 2:38)"
     },
     {
-     "texte": "Le mot « baptiser » veut dire plonger, immerger. Le baptême est une image très forte : quand je descends dans l'eau, c'est comme si j'étais enseveli avec Christ ; quand je ressors de l'eau, c'est comme si je ressuscitais avec lui pour une vie nouvelle. Paul l'explique : nous avons donc été ensevelis avec lui par le baptême en sa mort, afin que, comme Christ est ressuscité des morts, de même nous aussi nous marchions en nouveauté de vie."
+      "titre": "Marcher en nouveauté de vie",
+      "texte": "Demandons à Dieu de nous aider à vivre ce que notre baptême signifie : morts au péché et vivants pour Dieu. (Romains 6:4)"
     },
     {
-     "verset": "Rm 6:3-4"
+      "titre": "Se souvenir de la croix",
+      "texte": "Rendons grâce à Jésus pour son corps rompu et son sang versé, et prions afin de ne jamais prendre la cène par habitude. (1 Corinthiens 11:24-25)"
     },
     {
-     "verset": "Col 2:12"
+      "titre": "Un cœur examiné",
+      "texte": "Prions afin que le Saint-Esprit nous montre ce que nous devons confesser et réparer avant de prendre la cène. (1 Corinthiens 11:28)"
     },
     {
-     "sous_titre": "Revêtir Christ publiquement"
+      "titre": "Un seul corps",
+      "texte": "Implorons la grâce de Dieu pour l'unité de notre église, afin que nous partagions le même pain sans rancune les uns contre les autres. (1 Corinthiens 10:17)"
     },
     {
-     "texte": "Le baptême est aussi une déclaration publique. C'est comme une alliance au doigt : elle ne crée pas le mariage, mais elle montre à tous qu'on est marié. Par le baptême, je dis devant l'Église, ma famille et même le monde invisible : « J'appartiens désormais à Jésus. » Vous tous, qui avez été baptisés en Christ, vous avez revêtu Christ."
-    },
-    {
-     "verset": "Ga 3:27"
-    },
-    {
-     "sous_titre": "Ce que le baptême ne fait pas"
-    },
-    {
-     "texte": "Le baptême ne lave pas le péché par l'eau elle-même. Pierre précise qu'il n'est pas la purification des souillures du corps, mais l'engagement d'une bonne conscience envers Dieu. C'est le sang de Jésus qui purifie, et c'est la foi qui sauve. Le brigand sur la croix a été sauvé sans avoir pu être baptisé. Mais celui qui a cru et qui peut être baptisé ne doit pas refuser d'obéir."
-    },
-    {
-     "verset": "1 P 3:21"
-    },
-    {
-     "sous_titre": "Qui doit être baptisé, et quand ?"
-    },
-    {
-     "texte": "La Bible montre des gens baptisés après avoir cru : l'eunuque éthiopien a demandé : voici de l'eau ; qu'est-ce qui empêche que je sois baptisé ? Philippe lui a répondu : si tu crois de tout ton cœur, cela est possible. Le geôlier de Philippes a cru, et il fut baptisé, lui et tous les siens, cette nuit-là. Si tu as reçu Jésus et que tu n'es pas encore baptisé, parles-en à ton pasteur. Ne remets pas cette obéissance à plus tard."
-    },
-    {
-     "verset": "Ac 8:36-38"
+      "titre": "Jusqu'à ce qu'il vienne",
+      "texte": "Prions afin que chaque cène ravive en nous l'attente du retour de Jésus. (1 Corinthiens 11:26)"
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "La sainte cène : se souvenir de Jésus",
-   "references": [
-    "1 Co 11:23-26",
-    "Lc 22:19"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "Le dernier repas de Jésus"
+      "question": "Dans le Nouveau Testament, quel est l'ordre habituel ?",
+      "choix": [
+        "Être baptisé, puis croire plus tard",
+        "Entendre l'Évangile, se repentir et croire, puis être baptisé",
+        "Le baptême remplace la foi"
+      ],
+      "reponse": 1,
+      "explication": "« Ceux qui acceptèrent sa parole furent baptisés. » (Actes 2:41)",
+      "section": "1"
     },
     {
-     "texte": "La nuit où il fut livré, Jésus prit du pain et, après avoir rendu grâces, le rompit, et dit : ceci est mon corps, qui est rompu pour vous ; faites ceci en mémoire de moi. De même, après avoir soupé, il prit la coupe, et dit : cette coupe est la nouvelle alliance en mon sang ; faites ceci en mémoire de moi toutes les fois que vous en boirez."
+      "question": "Que représente la descente dans l'eau puis la sortie ?",
+      "choix": [
+        "Une purification du corps",
+        "Être enseveli avec Christ puis ressuscité avec lui pour une vie nouvelle",
+        "Une tradition sans signification"
+      ],
+      "reponse": 1,
+      "explication": "« Nous avons été ensevelis avec lui par le baptême… afin que nous marchions en nouveauté de vie. » (Romains 6:4)",
+      "section": "2"
     },
     {
-     "verset": "1 Co 11:23-25"
+      "question": "Que demande Paul avant de prendre la cène ?",
+      "choix": [
+        "De ne jamais la prendre",
+        "De s'examiner soi-même, puis de la prendre",
+        "D'être parfait"
+      ],
+      "reponse": 1,
+      "explication": "« Que chacun donc s'éprouve soi-même, et qu'ainsi il mange du pain et boive de la coupe. » (1 Corinthiens 11:28)",
+      "section": "9"
     },
     {
-     "sous_titre": "Trois regards"
+      "question": "Dans le Nouveau Testament, qu'est-ce qui vient avant le baptême ?",
+      "choix": [
+        "Le jeûne",
+        "La foi personnelle en Jésus",
+        "La première communion"
+      ],
+      "reponse": 1,
+      "explication": "(Actes 2:41 ; 8:36-38)",
+      "section": "1"
     },
     {
-     "texte": "Quand nous prenons la cène, nous regardons dans trois directions. En arrière : nous nous souvenons de la croix, du corps rompu et du sang versé. Autour de nous : nous sommes un seul corps avec nos frères et sœurs. Et en avant : toutes les fois que vous mangez ce pain et que vous buvez cette coupe, vous annoncez la mort du Seigneur, jusqu'à ce qu'il vienne. La cène est une annonce, et une attente."
+      "question": "Pourquoi Paul compare-t-il le passage de la mer Rouge au baptême ?",
+      "choix": [
+        "Parce qu'il y avait beaucoup d'eau",
+        "Parce que les eaux ont séparé Israël de son ancien maître, comme le baptême montre qu'on a changé de maître",
+        "Parce que Moïse était prêtre"
+      ],
+      "reponse": 1,
+      "explication": "1 Corinthiens 10:1-2.",
+      "section": "5"
     },
     {
-     "verset": "1 Co 11:26"
+      "question": "Qu'a fait Saul juste après avoir recouvré la vue ?",
+      "choix": [
+        "Il a mangé un grand repas",
+        "Il s'est levé et a été baptisé, avant même de manger",
+        "Il a attendu un an"
+      ],
+      "reponse": 1,
+      "explication": "Actes 9:18-19.",
+      "section": "6"
     },
     {
-     "sous_titre": "Une communion"
+      "question": "À quel moment les disciples d'Emmaüs ont-ils reconnu Jésus ?",
+      "choix": [
+        "Quand il a fait un miracle",
+        "Quand il a rompu le pain",
+        "Quand il est entré dans la ville"
+      ],
+      "reponse": 1,
+      "explication": "Luc 24:30-31.",
+      "section": "7"
     },
     {
-     "texte": "Paul dit encore : la coupe de bénédiction que nous bénissons, n'est-elle pas la communion au sang de Christ ? Le pain que nous rompons, n'est-il pas la communion au corps de Christ ? Puisqu'il y a un seul pain, nous qui sommes plusieurs, nous formons un seul corps. On ne peut pas prendre la cène en gardant de la haine contre un frère qui partage le même pain."
-    },
-    {
-     "verset": "1 Co 10:16-17"
+      "question": "Que doivent faire les parents quand leurs enfants demandent « Que signifie cet usage ? »",
+      "choix": [
+        "Les faire taire",
+        "Leur expliquer ce que Dieu a fait pour nous sauver",
+        "Leur dire d'attendre d'être grands"
+      ],
+      "reponse": 1,
+      "explication": "Exode 12:26-27.",
+      "section": "8"
     }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "Questions fréquentes sur le baptême et la cène",
-   "references": [
-    "Ac 8:36-38",
-    "Ac 2:41",
-    "1 Co 11:26"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "J'ai été baptisé bébé ; dois-je être baptisé de nouveau ?"
-    },
-    {
-     "texte": "Dans le Nouveau Testament, le baptême suit toujours la foi personnelle : « Ceux qui acceptèrent sa parole furent baptisés. » L'eunuque éthiopien a demandé : « Qu'est-ce qui empêche que je sois baptisé ? » après avoir cru. Beaucoup de chrétiens baptisés bébés demandent donc à être baptisés après leur conversion, pour obéir eux-mêmes au commandement de Jésus. Les églises ne pratiquent pas toutes de la même manière ; parles-en avec ton pasteur, Bible ouverte."
-    },
-    {
-     "verset": "Ac 8:36-38"
-    },
-    {
-     "sous_titre": "Le baptême efface-t-il les péchés automatiquement ?"
-    },
-    {
-     "texte": "Non. Ce n'est pas l'eau qui sauve, c'est Jésus. Le baptême est le signe visible d'une réalité intérieure : la mort au péché et la vie nouvelle avec Christ. Un baptême sans repentance ni foi n'est qu'un bain."
-    },
-    {
-     "sous_titre": "Puis-je prendre la cène si je ne suis pas encore baptisé ?"
-    },
-    {
-     "texte": "Dans la Bible, ceux qui participaient à la fraction du pain étaient des croyants baptisés (Actes 2:41-42). Beaucoup d'églises demandent donc d'être baptisé avant de prendre la cène. Si tu as cru, ne tarde pas à être baptisé."
-    },
-    {
-     "verset": "Ac 2:41"
-    },
-    {
-     "sous_titre": "Pourquoi prendre la cène régulièrement ?"
-    },
-    {
-     "texte": "Paul dit : toutes les fois que vous mangez ce pain et que vous buvez cette coupe, vous annoncez la mort du Seigneur jusqu'à ce qu'il vienne. La cène nous ramène régulièrement à la croix, nous pousse à examiner notre vie, à régler nos conflits avec nos frères, et nous fait regarder vers le retour de Jésus."
-    },
-    {
-     "verset": "1 Co 11:26"
-    }
-   ]
-  },
-  {
-   "numero": "5",
-   "titre": "Prendre la cène d'une manière digne",
-   "references": [
-    "1 Co 11:27-28",
-    "1 Jn 1:9"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "S'examiner"
-    },
-    {
-     "texte": "Paul donne un avertissement sérieux : celui qui mangera le pain ou boira la coupe du Seigneur indignement, sera coupable envers le corps et le sang du Seigneur. Que chacun donc s'éprouve soi-même, et qu'ainsi il mange du pain et boive de la coupe."
-    },
-    {
-     "verset": "1 Co 11:27-28"
-    },
-    {
-     "texte": "Prendre la cène indignement, ce n'est pas être imparfait : personne n'est digne par lui-même. C'est la prendre à la légère, en gardant volontairement un péché, sans repentance, ou en méprisant ses frères. Remarque que Paul ne dit pas « ne la prenez pas » ; il dit « examinez-vous, et qu'ainsi vous la preniez »."
-    },
-    {
-     "sous_titre": "Comment s'examiner"
-    },
-    {
-     "texte": "Avant la cène, prends quelques minutes devant Dieu. Demande au Saint-Esprit : y a-t-il un péché que je n'ai pas confessé ? Une personne à qui je dois pardonner, ou à qui je dois demander pardon ? Confesse, et reçois le pardon. Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner. Puis prends le pain et la coupe avec reconnaissance, avec foi et avec joie."
-    },
-    {
-     "verset": "1 Jn 1:9"
-    },
-    {
-     "sous_titre": "Le repas des enfants de Dieu"
-    },
-    {
-     "texte": "La cène n'est pas un rite magique, ni un simple souvenir froid. C'est le repas de famille des enfants de Dieu, autour de leur Sauveur. Chaque fois que tu la prends, redis dans ton cœur : « Seigneur Jésus, tu as donné ton corps et ton sang pour moi. Je t'appartiens. Je t'attends. »"
-    }
-   ]
-  }
- ],
- "sujets": [
-  {
-   "titre": "Obéir par le baptême",
-   "texte": "Prions afin que tous ceux qui ont reçu Jésus et ne sont pas encore baptisés obéissent au Seigneur sans tarder. (Actes 2:38)"
-  },
-  {
-   "titre": "Marcher en nouveauté de vie",
-   "texte": "Demandons à Dieu de nous aider à vivre ce que notre baptême signifie : morts au péché et vivants pour Dieu. (Romains 6:4)"
-  },
-  {
-   "titre": "Se souvenir de la croix",
-   "texte": "Rendons grâce à Jésus pour son corps rompu et son sang versé, et prions afin de ne jamais prendre la cène par habitude. (1 Corinthiens 11:24-25)"
-  },
-  {
-   "titre": "Un cœur examiné",
-   "texte": "Prions afin que le Saint-Esprit nous montre ce que nous devons confesser et réparer avant de prendre la cène. (1 Corinthiens 11:28)"
-  },
-  {
-   "titre": "Un seul corps",
-   "texte": "Implorons la grâce de Dieu pour l'unité de notre église, afin que nous partagions le même pain sans rancune les uns contre les autres. (1 Corinthiens 10:17)"
-  },
-  {
-   "titre": "Jusqu'à ce qu'il vienne",
-   "texte": "Prions afin que chaque cène ravive en nous l'attente du retour de Jésus. (1 Corinthiens 11:26)"
-  }
- ],
- "questions": [
-  {
-   "question": "Dans le Nouveau Testament, quel est l'ordre habituel ?",
-   "choix": [
-    "Être baptisé, puis croire plus tard",
-    "Entendre l'Évangile, se repentir et croire, puis être baptisé",
-    "Le baptême remplace la foi"
-   ],
-   "reponse": 1,
-   "explication": "« Ceux qui acceptèrent sa parole furent baptisés. » (Actes 2:41)",
-   "section": "1"
-  },
-  {
-   "question": "Que représente la descente dans l'eau puis la sortie ?",
-   "choix": [
-    "Une purification du corps",
-    "Être enseveli avec Christ puis ressuscité avec lui pour une vie nouvelle",
-    "Une tradition sans signification"
-   ],
-   "reponse": 1,
-   "explication": "« Nous avons été ensevelis avec lui par le baptême… afin que nous marchions en nouveauté de vie. » (Romains 6:4)",
-   "section": "2"
-  },
-  {
-   "question": "Que demande Paul avant de prendre la cène ?",
-   "choix": [
-    "De ne jamais la prendre",
-    "De s'examiner soi-même, puis de la prendre",
-    "D'être parfait"
-   ],
-   "reponse": 1,
-   "explication": "« Que chacun donc s'éprouve soi-même, et qu'ainsi il mange du pain et boive de la coupe. » (1 Corinthiens 11:28)",
-   "section": "4"
-  },
-  {
-   "question": "Dans le Nouveau Testament, qu'est-ce qui vient avant le baptême ?",
-   "choix": [
-    "Le jeûne",
-    "La foi personnelle en Jésus",
-    "La première communion"
-   ],
-   "reponse": 1,
-   "explication": "(Actes 2:41 ; 8:36-38)",
-   "section": "5"
-  }
- ],
- "devoir": [
-  "Si tu n'es pas encore baptisé, prends rendez-vous avec ton pasteur cette semaine pour en parler.",
-  "Lis Romains 6:1-14 et écris ce que signifie pour toi « marcher en nouveauté de vie ».",
-  "Avant la prochaine sainte cène, prends dix minutes pour t'examiner : note ce que tu dois confesser ou réparer, et fais-le."
- ],
- "prieres_liees": [
-  "theme:priere-bapteme-et-cene"
- ],
- "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-14",
- "relu": false
+  ],
+  "devoir": [
+    "Si tu n'es pas encore baptisé, prends rendez-vous avec ton pasteur cette semaine pour en parler.",
+    "Lis Romains 6:1-14 et écris ce que signifie pour toi « marcher en nouveauté de vie ».",
+    "Avant la prochaine sainte cène, prends dix minutes pour t'examiner : note ce que tu dois confesser ou réparer, et fais-le."
+  ],
+  "prieres_liees": [
+    "theme:priere-bapteme-et-cene"
+  ],
+  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-14",
+  "relu": false
 }
