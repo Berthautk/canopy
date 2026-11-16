@@ -57,6 +57,10 @@ export function Admin() {
   const maxSection = Math.max(1, ...sections.map(([, n]) => n));
   const parJour = {}; for (const l of L) if (l.cle.startsWith('decision') || l.cle === 'ouverture:accueil') { const o = parJour[l.jour] || (parJour[l.jour] = { d: 0, v: 0 }); if (l.cle.startsWith('decision')) o.d += l.n; else o.v += l.n; }
   const jourListe = Object.entries(parJour).sort();
+  const actifsParJour = {}; for (const l of L) if (l.cle === 'appareil-actif') actifsParJour[l.jour] = (actifsParJour[l.jour] || 0) + l.n;
+  const aujourdhui = new Date().toISOString().slice(0, 10);
+  const valeursActifs = Object.values(actifsParJour);
+  const moyenneActifs = valeursActifs.length ? Math.round(valeursActifs.reduce((a, b) => a + b, 0) / valeursActifs.length) : 0;
   const maxJour = Math.max(1, ...jourListe.map(([, o]) => o.v));
 
   return (
@@ -64,8 +68,12 @@ export function Admin() {
       <div class="segments" role="group" aria-label="Période" style="margin-top:12px">
         {[7, 30, 90, 365].map((j) => <button aria-pressed={jours === j} onClick={() => setJours(j)}>{j} j</button>)}
       </div>
-      <p class="ligne__desc" style="margin:8px 4px">Depuis le {new Date(etat.depuis).toLocaleDateString('fr-FR')}.</p>
+      <p class="ligne__desc" style="margin:8px 4px">Depuis le {new Date(etat.depuis).toLocaleDateString('fr-FR')}. Seules les personnes qui ont accepté les statistiques anonymes sont comptées : le vrai nombre est plus élevé.</p>
       <div class="admin__chiffres">
+        <div class="carte"><b>{nombre(total((c) => c === 'nouvel-appareil'))}</b><span>nouveaux téléphones sur la période</span></div>
+        <div class="carte"><b>{nombre(actifsParJour[aujourdhui] || 0)}</b><span>personnes actives aujourd'hui</span></div>
+        <div class="carte"><b>{nombre(Math.max(0, ...valeursActifs))}</b><span>record de personnes actives en un jour</span></div>
+        <div class="carte"><b>{nombre(moyenneActifs)}</b><span>personnes actives par jour (moyenne)</span></div>
         <div class="carte"><b>{nombre(decisions)}</b><span>ont dit avoir donné leur vie à Jésus</span></div>
         <div class="carte"><b>{nombre(total((c) => c.startsWith('retour:')))}</b><span>ont prié pour revenir à Jésus</span></div>
         <div class="carte"><b>{nombre(total((c) => c === 'sujet-prie'))}</b><span>sujets de prière priés</span></div>

@@ -41,9 +41,23 @@ export async function envoyer({ balise = false } = {}) {
 export async function choisirStats(oui) {
   await modifierReglages({ statsAnonymes: !!oui });
   if (!oui) { file = { jours: {} }; try { await del(CLE_FILE); } catch {} }
+  else marquerPresence();
+}
+
+// Un appareil compte une seule fois par jour comme « actif », et une seule fois en tout comme « nouvel appareil ».
+// Aucun identifiant n'est envoyé : seulement le chiffre 1, ajouté au total du jour.
+function marquerPresence() {
+  if (!actif()) return;
+  try {
+    const j = jour();
+    if (!localStorage.getItem('yeshaya:premiere-visite')) { localStorage.setItem('yeshaya:premiere-visite', j); compter('nouvel-appareil'); }
+    if (localStorage.getItem('yeshaya:dernier-jour-actif') !== j) { localStorage.setItem('yeshaya:dernier-jour-actif', j); compter('appareil-actif'); }
+  } catch { /* stockage indisponible */ }
 }
 
 export function demarrerMesure() {
+  marquerPresence();
+  addEventListener('focus', marquerPresence);
   setTimeout(() => envoyer(), 8000);
   addEventListener('online', () => envoyer());
   document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') envoyer({ balise: true }); });
