@@ -1,38 +1,219 @@
 {
  "id": "decouvrir-jesus-09",
  "jour": 9,
- "titre": "Être sûr de son salut",
  "image": "/assets/symboles/ancre-esperance.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
+ "titre": "Être sûr de son salut",
+ "objectifs": [
+  "Pourquoi Dieu veut que tu sois sûr d'être sauvé",
+  "Les trois fondements de l'assurance : la promesse, l'œuvre de Jésus, le témoignage de l'Esprit",
+  "Pourquoi l'assurance ne dépend pas des émotions",
+  "Les signes d'une vie nouvelle",
+  "Que faire quand on pèche encore et quand le doute arrive",
+  "La différence entre assurance et fausse sécurité"
+ ],
+ "introduction": [
+  "Après avoir donné sa vie à Jésus, beaucoup de nouveaux chrétiens se posent la même question : est-ce que c'est vraiment fait ? Est-ce que je suis vraiment sauvé ? Le lendemain, ils se réveillent, ils ne ressentent rien de spécial, ils commettent une faute, et le doute arrive : peut-être que ça n'a pas marché.",
+  "D'autres, au contraire, pensent qu'on ne peut jamais être sûr de son salut avant la mort, et qu'il serait orgueilleux de dire : je suis sauvé. Que dit la Bible ? Dans cette leçon, nous allons voir que Dieu veut que tu sois sûr, et sur quoi cette certitude repose."
+ ],
  "sections": [
   {
-   "titre": "Une certitude, pas un espoir vague",
+   "titre": "Dieu veut que tu le saches",
    "texte": [
-    "L'apôtre Jean écrit : Dieu nous a donné la vie éternelle, et cette vie est dans son Fils. Celui qui a le Fils a la vie ; celui qui n'a pas le Fils de Dieu n'a pas la vie. Je vous ai écrit ces choses, afin que vous sachiez que vous avez la vie éternelle (1 Jean 5:11-13). Il ne dit pas « afin que vous espériez », mais « afin que vous sachiez ».",
-    "La question n'est donc pas : « Est-ce que je me sens sauvé ? » Les sentiments changent selon la santé, la fatigue ou les problèmes. La question est : « Ai-je reçu Jésus ? » Si oui, tu as la vie éternelle. C'est écrit."
+    "### Une lettre écrite pour cela",
+    "> 1 Jn 5:11-13",
+    "L'apôtre Jean a écrit sa première lettre dans un but très précis : je vous ai écrit ces choses, afin que vous sachiez que vous avez la vie éternelle, vous qui croyez au nom du Fils de Dieu. Il ne dit pas : afin que vous espériez, ou afin que vous supposiez. Il dit : afin que vous sachiez.",
+    "### Pas de l'orgueil",
+    "Dire « je suis sûr d'être sauvé » serait de l'orgueil si cela reposait sur nos mérites. Mais l'assurance chrétienne ne dit pas : je suis assez bon. Elle dit : Jésus a assez payé, et Dieu tient sa promesse. Ce n'est pas avoir confiance en soi, c'est avoir confiance en Dieu.",
+    "### Pourquoi c'est important",
+    "Un enfant qui n'est jamais sûr d'être aimé de ses parents vit dans l'angoisse : il essaie sans cesse de mériter leur amour. Un enfant qui sait qu'il est aimé grandit dans la paix et obéit par amour. Dieu veut que ses enfants vivent dans la paix de son amour, et non dans la peur d'être rejetés."
    ]
   },
   {
-   "titre": "Fondée sur la Parole",
+   "titre": "Premier fondement : la promesse de Dieu",
    "texte": [
-    "Jésus dit de ses brebis : je leur donne la vie éternelle ; et elles ne périront jamais, et personne ne les ravira de ma main (Jean 10:28). Ton salut ne repose pas sur la force avec laquelle tu tiens Jésus, mais sur la force avec laquelle il te tient.",
-    "Cela ne veut pas dire qu'on peut vivre n'importe comment. Mais quand tu tombes, ne doute pas de ton salut : relève-toi, confesse ton péché, et continue. Le Saint-Esprit lui-même rend témoignage à notre esprit que nous sommes enfants de Dieu (Romains 8:16)."
+    "### Ce que Dieu a dit",
+    "L'assurance repose d'abord sur la Parole de Dieu, pas sur ce que nous ressentons. Jean continue : celui qui a le Fils a la vie ; celui qui n'a pas le Fils de Dieu n'a pas la vie. C'est simple : si tu as reçu Jésus, tu as la vie.",
+    "### Les promesses de Jésus",
+    "Jésus a dit : mes brebis entendent ma voix ; je les connais, et elles me suivent. Je leur donne la vie éternelle ; et elles ne périront jamais, et personne ne les ravira de ma main (Jean 10:27-28). Et encore : celui qui vient à moi, je ne le mettrai pas dehors (Jean 6:37).",
+    "### Dieu ne ment pas",
+    "Si tu doutes de ces promesses, ce n'est pas de toi que tu doutes : c'est de Dieu. Or Dieu ne peut pas mentir. Jean va jusqu'à dire : celui qui ne croit pas Dieu le fait menteur (1 Jean 5:10). Quand le doute vient, la question n'est pas : est-ce que je me sens sauvé ? Mais : qu'est-ce que Dieu a promis ?"
    ]
   },
   {
-   "titre": "Confirmée par une vie changée",
+   "titre": "Deuxième fondement : l'œuvre achevée de Jésus",
    "texte": [
-    "Si quelqu'un est en Christ, il est une nouvelle créature. Les choses anciennes sont passées ; voici, toutes choses sont devenues nouvelles (2 Corinthiens 5:17). Celui qui a vraiment reçu Jésus commence à changer : il aime la Parole, il veut prier, le péché le dérange, il aime les autres chrétiens.",
-    "Si ta vie n'a absolument pas changé, si tu aimes toujours le péché comme avant, pose-toi la question honnêtement. Mais si tu vois que Dieu a commencé à te transformer, même un peu, réjouis-toi : celui qui a commencé en toi cette bonne œuvre la rendra parfaite."
+    "### Une œuvre complète",
+    "Nous avons vu que Jésus a crié sur la croix : tout est accompli. L'épître aux Hébreux dit : par une seule offrande, il a amené à la perfection pour toujours ceux qui sont sanctifiés (Hébreux 10:14). Pour toujours. Le sacrifice de Jésus ne doit pas être répété, complété ou renouvelé.",
+    "### Ce n'est pas toi qui tiens, c'est lui",
+    "Si ton salut dépendait de ta fidélité, tu aurais raison d'avoir peur, car nous sommes tous faibles. Mais ton salut dépend de l'œuvre de Jésus, et elle ne change pas. Paul écrit : je suis persuadé que celui qui a commencé en vous cette bonne œuvre la rendra parfaite pour le jour de Jésus-Christ (Philippiens 1:6). C'est Dieu qui a commencé, c'est Dieu qui achèvera.",
+    "### Ton acte de naissance",
+    "Pense à ton acte de naissance. Un matin, tu peux te réveiller malade, fatigué, découragé. Tu ne te sens pas en pleine forme. Est-ce que cela veut dire que tu n'es pas né ? Bien sûr que non. Ta naissance est un fait, enregistré, que ton état du jour ne change pas. De même, ta naissance spirituelle est un fait enregistré par Dieu. Jésus a dit à ses disciples : réjouissez-vous de ce que vos noms sont écrits dans les cieux (Luc 10:20)."
+   ]
+  },
+  {
+   "titre": "Troisième fondement : le témoignage du Saint-Esprit",
+   "texte": [
+    "### Une voix intérieure",
+    "> Rm 8:15-16",
+    "Vous n'avez point reçu un esprit de servitude, pour être encore dans la crainte ; mais vous avez reçu un Esprit d'adoption, par lequel nous crions : Abba ! Père ! L'Esprit lui-même rend témoignage à notre esprit que nous sommes enfants de Dieu.",
+    "### Comment il témoigne",
+    "Ce témoignage n'est pas forcément une émotion forte. C'est une conviction profonde que Dieu est ton Père, un désir nouveau de prier, d'entendre sa Parole, d'être avec d'autres chrétiens. C'est une paix qui ne vient pas de toi. C'est aussi une tristesse nouvelle quand tu pèches : avant, cela ne te dérangeait pas ; maintenant, l'Esprit en toi te le reproche.",
+    "### Un sceau et une garantie",
+    "Paul dit que le Saint-Esprit est le gage de notre héritage (Éphésiens 1:14). Un gage, c'est une avance qui garantit que le reste viendra. Quand tu achètes un terrain et que tu donnes une avance, le vendeur sait que tu reviendras payer le reste. Dieu t'a donné son Esprit comme une avance : il garantit qu'il achèvera ce qu'il a commencé."
+   ]
+  },
+  {
+   "titre": "Pas les émotions",
+   "texte": [
+    "### Les émotions changent",
+    "Certains jours, tu te sentiras très proche de Dieu. D'autres jours, tu te sentiras sec, fatigué, loin. Si ton assurance repose sur tes émotions, elle montera et descendra comme le niveau d'une rivière en saison sèche et en saison des pluies.",
+    "### L'ordre juste",
+    "Une image aide à comprendre. Imagine trois personnes qui marchent sur un mur étroit : le Fait, la Foi et le Sentiment. Tant que la Foi regarde devant elle, vers le Fait, elle avance sans tomber, et le Sentiment suit derrière. Mais si la Foi se retourne pour regarder le Sentiment, elle perd l'équilibre. Le fait, c'est ce que Dieu a fait et promis. La foi s'appuie sur ce fait. Les sentiments suivent, plus ou moins, mais ils ne doivent pas commander."
+   ]
+  },
+  {
+   "titre": "Les signes d'une vie nouvelle",
+   "texte": [
+    "### Examinez-vous",
+    "L'assurance ne repose pas sur nos œuvres. Mais la Bible dit aussi qu'une vraie foi produit des changements. Paul écrit : examinez-vous vous-mêmes, pour savoir si vous êtes dans la foi (2 Corinthiens 13:5). La première lettre de Jean donne plusieurs signes.",
+    "### Un désir d'obéir",
+    "Si nous gardons ses commandements, par là nous savons que nous l'avons connu (1 Jean 2:3). Le chrétien n'obéit pas parfaitement, mais il désire obéir, et il est attristé quand il désobéit.",
+    "### L'amour des frères",
+    "Nous savons que nous sommes passés de la mort à la vie, parce que nous aimons les frères (1 Jean 3:14). Un amour nouveau pour les autres chrétiens, même de tribus et de milieux différents, est un signe de la vie de Dieu en toi.",
+    "### Ne plus vivre dans le péché",
+    "Quiconque est né de Dieu ne pratique pas le péché (1 Jean 3:9). Cela ne veut pas dire ne jamais pécher, mais ne plus vivre dans le péché comme dans une maison. Le chrétien peut tomber dans la boue, mais il n'y reste pas comme le cochon qui s'y vautre ; il en sort, comme la brebis, et il cherche à se laver.",
+    "### Des signes qui grandissent",
+    "Ces signes ne sont pas parfaits au début. Un bébé ne marche pas, mais il respire, il pleure, il a faim : il est vivant. Si tu vois en toi un désir nouveau de Dieu, même faible, c'est le signe que la vie est là. Elle grandira."
+   ]
+  },
+  {
+   "titre": "Quand je pèche encore",
+   "texte": [
+    "### Le chrétien n'est pas parfait",
+    "Le nouveau chrétien est souvent surpris de découvrir qu'il pèche encore. Jean, qui écrit pour que nous ne péchions pas, ajoute aussitôt : si quelqu'un a péché, nous avons un avocat auprès du Père, Jésus-Christ le juste (1 Jean 2:1).",
+    "### Confesser, et non recommencer à zéro",
+    "Quand tu pèches après ta conversion, tu ne perds pas ta place d'enfant. Tu attristes ton Père, et la communion est troublée. Mais la solution n'est pas de « re-donner sa vie à Jésus » à chaque faute. C'est de confesser ton péché : si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et pour nous purifier de toute iniquité (1 Jean 1:9). Un enfant qui casse une assiette ne cesse pas d'être l'enfant de la maison. Il va vers son père, il dit pardon, et la relation est restaurée."
+   ]
+  },
+  {
+   "titre": "Quand le doute arrive",
+   "texte": [
+    "### L'accusateur",
+    "Le diable est appelé l'accusateur de nos frères (Apocalypse 12:10). Il aime murmurer : toi, sauvé ? Avec ce que tu as fait hier ? Avec ton passé ? Il ne peut pas t'arracher de la main de Dieu, alors il essaie de te voler ta joie et ta paix.",
+    "### Répondre avec la Parole",
+    "Quand le doute vient, ne discute pas avec tes sentiments. Ouvre la Bible et relis les promesses : Jean 1:12, Jean 5:24, Jean 10:28, Romains 8:1. Dis à haute voix : Dieu a dit, et Dieu ne ment pas. Et si tu n'as jamais vraiment reçu Jésus, alors fais-le maintenant : le doute devient une invitation.",
+    "### Rien ne peut nous séparer",
+    "> Rm 8:38-39",
+    "Paul termine le chapitre 8 de Romains par une des plus belles déclarations de la Bible : ni la mort, ni la vie, ni les anges, ni les dominations, ni les choses présentes, ni les choses à venir, ni les puissances, ni la hauteur, ni la profondeur, ni aucune autre créature ne pourra nous séparer de l'amour de Dieu manifesté en Jésus-Christ notre Seigneur. Aucune sorcellerie, aucune malédiction, aucun esprit ne peut t'arracher de cet amour."
+   ]
+  },
+  {
+   "titre": "Assurance ou fausse sécurité ?",
+   "texte": [
+    "### Ceux qui disent « Seigneur, Seigneur »",
+    "Jésus a averti que tous ceux qui l'appellent Seigneur n'entreront pas forcément dans le royaume des cieux : ceux qui me disent : Seigneur, Seigneur ! n'entreront pas tous dans le royaume des cieux, mais celui-là seul qui fait la volonté de mon Père (Matthieu 7:21). Certains se croient sauvés parce qu'ils ont fait une prière un jour, ou parce qu'ils fréquentent l'église, mais leur vie n'a jamais changé et ils n'ont aucun désir de Dieu.",
+    "### La différence",
+    "L'assurance véritable repose sur Jésus et produit une vie nouvelle. La fausse sécurité repose sur une cérémonie, une émotion ou une appartenance religieuse, et laisse la vie inchangée. La vraie assurance ne dit pas : je peux vivre comme je veux, puisque je suis sauvé. Elle dit : puisque je suis sauvé par tant d'amour, je veux vivre pour celui qui m'a sauvé.",
+    "On raconte l'histoire d'un jeune homme, nouveau converti, qui venait chaque semaine voir son pasteur en disant : « Je ne suis pas sûr d'être sauvé, je n'ai rien senti. » Un jour, le pasteur lui donna une feuille et lui demanda d'écrire Jean 5:24 en remplaçant « celui qui » par son prénom. Le jeune homme écrivit lentement : « Paul, qui écoute ma parole, et qui croit à celui qui m'a envoyé, a la vie éternelle. » Le pasteur lui demanda : « Est-ce que tu écoutes la parole de Jésus ? » « Oui. » « Est-ce que tu crois en celui qui l'a envoyé ? » « Oui. » « Alors qu'est-ce que tu as ? » Le jeune homme relut la phrase, et dit doucement : « J'ai la vie éternelle. » Il colla cette feuille au-dessus de son lit, et la relisait chaque fois que le doute revenait."
    ]
   }
  ],
+ "conclusion": [
+  "Dieu veut que tu saches que tu as la vie éternelle. Ton assurance repose sur trois fondements solides : la promesse de Dieu, qui ne ment pas ; l'œuvre achevée de Jésus, qui ne doit pas être répétée ; et le témoignage du Saint-Esprit en toi. Elle ne dépend pas de tes émotions. Une vraie foi produit des signes de vie nouvelle qui grandissent avec le temps. Quand tu pèches, tu confesses et tu es restauré ; quand le doute vient, tu réponds avec la Parole. Rien ne peut te séparer de l'amour de Dieu en Jésus.",
+  "Dans la dernière leçon, nous verrons les premiers pas à faire pour grandir avec Jésus."
+ ],
+ "retenir": [
+  "Dieu veut que tu saches que tu as la vie éternelle (1 Jean 5:13).",
+  "L'assurance repose sur la promesse de Dieu, l'œuvre achevée de Jésus et le témoignage du Saint-Esprit.",
+  "Les émotions changent ; la Parole de Dieu ne change pas.",
+  "Une vraie foi produit des signes : désir d'obéir, amour des frères, refus de vivre dans le péché.",
+  "Quand tu pèches, confesse : Dieu pardonne et restaure (1 Jean 1:9).",
+  "Rien ne peut te séparer de l'amour de Dieu en Jésus-Christ (Romains 8:38-39)."
+ ],
+ "memoriser": "1 Jn 5:13",
+ "quiz": [
+  {
+   "question": "Pourquoi Jean a-t-il écrit sa première lettre, selon 1 Jean 5:13 ?",
+   "choix": [
+    "Pour que nous espérions être sauvés",
+    "Pour que nous sachions que nous avons la vie éternelle",
+    "Pour nous faire peur"
+   ],
+   "reponse": 1,
+   "explication": "Afin que vous sachiez.",
+   "section": "1"
+  },
+  {
+   "question": "Sur quoi repose d'abord l'assurance du salut ?",
+   "choix": [
+    "Sur nos émotions",
+    "Sur la promesse de Dieu et l'œuvre achevée de Jésus",
+    "Sur notre fidélité à l'église"
+   ],
+   "reponse": 1,
+   "explication": "Jean 10:28 ; Hébreux 10:14.",
+   "section": "2"
+  },
+  {
+   "question": "Que fait le Saint-Esprit selon Romains 8:16 ?",
+   "choix": [
+    "Il nous fait trembler",
+    "Il rend témoignage à notre esprit que nous sommes enfants de Dieu",
+    "Il nous donne de l'argent"
+   ],
+   "reponse": 1,
+   "explication": "Le témoignage intérieur de l'Esprit.",
+   "section": "4"
+  },
+  {
+   "question": "Que montre l'image du Fait, de la Foi et du Sentiment ?",
+   "choix": [
+    "Que les sentiments doivent guider la foi",
+    "Que la foi doit regarder le fait (ce que Dieu a promis), et que les sentiments suivent",
+    "Que la foi n'a pas besoin de faits"
+   ],
+   "reponse": 1,
+   "explication": "Les émotions ne doivent pas commander.",
+   "section": "5"
+  },
+  {
+   "question": "Que doit faire un chrétien qui pèche après sa conversion ?",
+   "choix": [
+    "Redonner sa vie à Jésus à chaque fois",
+    "Confesser son péché à Dieu, qui pardonne et restaure",
+    "Se cacher de Dieu"
+   ],
+   "reponse": 1,
+   "explication": "1 Jean 1:9 ; 2:1.",
+   "section": "7"
+  },
+  {
+   "question": "Quelle est la différence entre l'assurance et la fausse sécurité ?",
+   "choix": [
+    "Il n'y en a pas",
+    "La vraie assurance repose sur Jésus et produit une vie nouvelle ; la fausse sécurité laisse la vie inchangée",
+    "La fausse sécurité est plus forte"
+   ],
+   "reponse": 1,
+   "explication": "Matthieu 7:21.",
+   "section": "9"
+  }
+ ],
+ "pratique": "Cette semaine, écris sur une feuille Jean 5:24 en remplaçant « celui qui » par ton prénom. Mets-la à un endroit où tu la verras chaque jour. Apprends aussi par cœur 1 Jean 5:13.",
+ "partage": "Dis à ton accompagnateur les moments où tu doutes de ton salut, et demande-lui comment il fait, lui, quand le doute arrive.",
  "versets": [
   "1 Jn 5:11-13",
   "Jn 10:28",
+  "Hé 10:14",
   "Rm 8:16",
-  "2 Co 5:17"
+  "1 Jn 1:9",
+  "Rm 8:38-39"
  ],
- "question": "Sur quoi repose ton assurance d'être sauvé : sur tes sentiments ou sur la promesse de Dieu ?",
+ "question": "Sur quoi reposait ton assurance jusqu'ici : tes émotions, tes efforts, ou la promesse de Dieu ? Quels signes de vie nouvelle commences-tu à voir en toi ?",
  "sujets": [
   {
    "titre": "L'assurance",
@@ -43,18 +224,6 @@
    "texte": "Quand le doute vient, déclare la Parole de Dieu plutôt que tes sentiments. (Jean 10:28-29)"
   }
  ],
- "priere": "Père, merci pour ta promesse. Je crois ta Parole : j'ai la vie éternelle en Jésus. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
- "introduction": [
-  "Beaucoup de chrétiens vivent dans le doute : « Est-ce que je suis vraiment sauvé ? Et si Dieu ne m'avait pas vraiment accepté ? Et si je retombais ? » Le diable aime entretenir ce doute, parce qu'un chrétien qui doute est un chrétien sans force.",
-  "Dieu ne veut pas que tu espères vaguement être sauvé. Il veut que tu le saches. Dans cette leçon, nous verrons que le salut est une certitude, fondée sur la Parole de Dieu et confirmée par une vie changée."
- ],
- "conclusion": [
-  "Tu peux être sûr de ton salut, parce que Dieu l'a promis et que Jésus a tout payé. Cette assurance n'est pas de l'orgueil : c'est la confiance d'un enfant dans la parole de son Père.",
-  "Apprends par cœur 1 Jean 5:12. Quand le doute viendra, réponds avec cette parole. La dernière leçon te montrera tes premiers pas avec Jésus."
- ]
+ "priere": "Père, merci parce que ton salut ne dépend pas de mes émotions, mais de ta promesse et de l'œuvre de Jésus. Merci pour ton Esprit qui me dit que je suis ton enfant. Quand le doute viendra, rappelle-moi ta Parole. Fais grandir en moi les signes de la vie nouvelle. Amen.",
+ "relu": false
 }
