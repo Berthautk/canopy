@@ -1,266 +1,514 @@
 {
- "id": "disciple-v2-14-retour-et-eternite",
- "titre": "Le retour de Jésus et l'éternité",
- "serie": "Affermissement",
- "theme": "Affermissement",
- "auteur": "Yeshaya",
- "resume": "Dernière leçon du volume 2 : Jésus revient en personne. La résurrection des morts, le jugement, l'enfer et la vie éternelle avec Dieu dans la nouvelle création. Une espérance qui donne du courage aujourd'hui.",
- "image": "/assets/symboles/couronne-de-gloire.webp",
- "verset_de_base": "Jn 14:2-3",
- "lecture_minutes": 13,
- "objectifs": [
-  "Savoir que Jésus revient visiblement et personnellement.",
-  "Comprendre la résurrection du corps.",
-  "Connaître la réalité du jugement et de l'enfer.",
-  "Se réjouir de l'espérance des nouveaux cieux et de la nouvelle terre."
- ],
- "introduction": "La veille de sa mort, Jésus a fait une promesse à ses disciples troublés : je vais vous préparer une place. Et, lorsque je m'en serai allé, je reviendrai, et je vous prendrai avec moi, afin que là où je suis vous y soyez aussi (Jean 14:2-3).\n\nCette promesse est le cœur de l'espérance chrétienne. Nous ne croyons pas seulement que nos péchés sont pardonnés. Nous croyons que l'histoire finira bien, que la mort sera vaincue, que le mal sera jugé, et que nous verrons Jésus face à face. Cette leçon termine le volume 2 en regardant vers la fin de toutes choses.",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "Jésus revient",
-   "references": [
-    "Ac 1:9-11",
-    "Mt 24:27",
-    "Ap 1:7"
-   ],
-   "blocs": [
+  "id": "disciple-v2-14-retour-et-eternite",
+  "titre": "Le retour de Jésus et l'éternité",
+  "serie": "Affermissement",
+  "theme": "Affermissement",
+  "auteur": "Yeshaya",
+  "resume": "Dernière leçon du volume 2 : Jésus revient en personne. La résurrection des morts, le jugement, l'enfer et la vie éternelle avec Dieu dans la nouvelle création. Une espérance qui donne du courage aujourd'hui.",
+  "image": "/assets/symboles/couronne-de-gloire.webp",
+  "verset_de_base": "Jn 14:2-3",
+  "lecture_minutes": 30,
+  "objectifs": [
+    "Savoir que Jésus revient visiblement et personnellement.",
+    "Comprendre la résurrection du corps.",
+    "Connaître la réalité du jugement et de l'enfer.",
+    "Se réjouir de l'espérance des nouveaux cieux et de la nouvelle terre."
+  ],
+  "introduction": "La veille de sa mort, Jésus a fait une promesse à ses disciples troublés : je vais vous préparer une place. Et, lorsque je m'en serai allé, je reviendrai, et je vous prendrai avec moi, afin que là où je suis vous y soyez aussi (Jean 14:2-3).\n\nCette promesse est le cœur de l'espérance chrétienne. Nous ne croyons pas seulement que nos péchés sont pardonnés. Nous croyons que l'histoire finira bien, que la mort sera vaincue, que le mal sera jugé, et que nous verrons Jésus face à face. Cette leçon termine le volume 2 en regardant vers la fin de toutes choses.",
+  "sections": [
     {
-     "sous_titre": "De la même manière"
+      "numero": "1",
+      "titre": "Jésus revient",
+      "references": [
+        "Ac 1:9-11",
+        "Mt 24:27",
+        "Ap 1:7"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "De la même manière"
+        },
+        {
+          "texte": "Quand Jésus est monté au ciel, deux anges ont dit aux disciples : ce Jésus, qui a été enlevé au ciel du milieu de vous, viendra de la même manière que vous l'avez vu allant au ciel. Il revient en personne, avec son corps ressuscité."
+        },
+        {
+          "verset": "Ac 1:9-11"
+        },
+        {
+          "sous_titre": "Visible par tous"
+        },
+        {
+          "texte": "Comme l'éclair part de l'orient et se montre jusqu'en occident, ainsi sera l'avènement du Fils de l'homme. Tout œil le verra. Ce ne sera pas un retour secret dans une église ou une révélation privée. Si quelqu'un te dit : le Christ est ici, dans telle maison, ne le crois pas."
+        },
+        {
+          "verset": "Mt 24:27"
+        }
+      ]
     },
     {
-     "texte": "Quand Jésus est monté au ciel, deux anges ont dit aux disciples : ce Jésus, qui a été enlevé au ciel du milieu de vous, viendra de la même manière que vous l'avez vu allant au ciel. Il revient en personne, avec son corps ressuscité."
+      "numero": "2",
+      "titre": "La résurrection des morts",
+      "references": [
+        "1 Th 4:16-17",
+        "1 Co 15:51-55",
+        "Jn 5:28-29"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Les morts en Christ ressusciteront"
+        },
+        {
+          "texte": "Le Seigneur lui-même descendra du ciel, et les morts en Christ ressusciteront premièrement. Ensuite, nous les vivants, nous serons tous ensemble enlevés à la rencontre du Seigneur, et ainsi nous serons toujours avec le Seigneur. Paul ajoute : consolez-vous donc les uns les autres par ces paroles. Aux enterrements de chrétiens, nous pleurons, mais pas comme ceux qui n'ont pas d'espérance."
+        },
+        {
+          "verset": "1 Th 4:16-17"
+        },
+        {
+          "sous_titre": "Un corps nouveau"
+        },
+        {
+          "texte": "Nous serons tous changés, en un instant, en un clin d'œil. Ce corps corruptible revêtira l'incorruptibilité. Le corps malade, handicapé, vieilli, sera relevé glorieux. Ô mort, où est ta victoire ?"
+        },
+        {
+          "verset": "1 Co 15:51-55"
+        },
+        {
+          "sous_titre": "Tous ressusciteront"
+        },
+        {
+          "texte": "Jésus a dit que tous ceux qui sont dans les sépulcres entendront sa voix et en sortiront : ceux qui auront fait le bien ressusciteront pour la vie, mais ceux qui auront fait le mal ressusciteront pour le jugement. Personne n'échappe à ce rendez-vous."
+        },
+        {
+          "verset": "Jn 5:28-29"
+        }
+      ]
     },
     {
-     "verset": "Ac 1:9-11"
+      "numero": "3",
+      "titre": "Le jugement",
+      "references": [
+        "2 Co 5:10",
+        "Ap 20:11-15",
+        "Jn 5:24"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Devant le tribunal de Christ"
+        },
+        {
+          "texte": "Il nous faut tous comparaître devant le tribunal de Christ, afin que chacun reçoive selon le bien ou le mal qu'il aura fait. Le croyant ne sera pas condamné, mais il rendra compte de sa vie de chrétien : ce qu'il a fait de son temps, de ses dons, de son argent."
+        },
+        {
+          "verset": "2 Co 5:10"
+        },
+        {
+          "sous_titre": "Le grand trône blanc"
+        },
+        {
+          "texte": "Jean a vu les morts, grands et petits, debout devant le trône. Les livres furent ouverts. Quiconque ne fut pas trouvé écrit dans le livre de vie fut jeté dans l'étang de feu. Ce n'est pas une image pour faire peur aux enfants. C'est l'avertissement le plus sérieux de toute la Bible."
+        },
+        {
+          "verset": "Ap 20:11-15"
+        },
+        {
+          "sous_titre": "Déjà passé de la mort à la vie"
+        },
+        {
+          "texte": "Mais Jésus a promis : celui qui écoute ma parole, et qui croit à celui qui m'a envoyé, a la vie éternelle et ne vient point en jugement, mais il est passé de la mort à la vie. Le croyant ne vit pas dans la terreur du jugement. Jésus a été jugé à sa place."
+        },
+        {
+          "verset": "Jn 5:24"
+        }
+      ]
     },
     {
-     "sous_titre": "Visible par tous"
+      "numero": "4",
+      "titre": "L'enfer est réel",
+      "references": [
+        "Mt 25:41-46",
+        "Mc 9:43",
+        "2 Th 1:8-9"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Préparé pour le diable"
+        },
+        {
+          "texte": "Jésus a parlé de l'enfer plus que n'importe qui dans la Bible. Il a dit que le feu éternel a été préparé pour le diable et pour ses anges. Dieu n'a pas créé l'enfer pour les hommes. Mais celui qui refuse Dieu jusqu'au bout reçoit ce qu'il a choisi : être séparé de lui pour toujours."
+        },
+        {
+          "verset": "Mt 25:41-46"
+        },
+        {
+          "sous_titre": "Loin de la face du Seigneur"
+        },
+        {
+          "texte": "Paul décrit le châtiment comme une ruine éternelle, loin de la face du Seigneur. Si l'enfer est réel, il n'y a rien de plus urgent que d'annoncer l'Évangile à ceux que nous aimons."
+        },
+        {
+          "verset": "2 Th 1:8-9"
+        }
+      ]
     },
     {
-     "texte": "Comme l'éclair part de l'orient et se montre jusqu'en occident, ainsi sera l'avènement du Fils de l'homme. Tout œil le verra. Ce ne sera pas un retour secret dans une église ou une révélation privée. Si quelqu'un te dit : le Christ est ici, dans telle maison, ne le crois pas."
+      "numero": "5",
+      "titre": "Les nouveaux cieux et la nouvelle terre",
+      "references": [
+        "Ap 21:1-5",
+        "1 Co 2:9",
+        "Ap 22:3-5"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Dieu avec les hommes"
+        },
+        {
+          "texte": "Jean a vu un nouveau ciel et une nouvelle terre. Il a entendu : voici le tabernacle de Dieu avec les hommes. Il essuiera toute larme de leurs yeux, et la mort ne sera plus, ni deuil, ni cri, ni douleur. Pas de cancer, pas d'hôpital, pas de cimetière, pas de prison, pas de divorce, pas d'orphelins."
+        },
+        {
+          "verset": "Ap 21:1-5"
+        },
+        {
+          "sous_titre": "Ce que l'œil n'a point vu"
+        },
+        {
+          "texte": "Ce sont des choses que l'œil n'a point vues, que l'oreille n'a point entendues, et qui ne sont point montées au cœur de l'homme, des choses que Dieu a préparées pour ceux qui l'aiment."
+        },
+        {
+          "verset": "1 Co 2:9"
+        },
+        {
+          "sous_titre": "Ils verront sa face"
+        },
+        {
+          "texte": "Le plus grand trésor du ciel, ce ne sont pas les rues d'or. C'est Dieu lui-même. Ses serviteurs le serviront et verront sa face."
+        },
+        {
+          "verset": "Ap 22:3-5"
+        }
+      ]
     },
     {
-     "verset": "Mt 24:27"
+      "numero": "6",
+      "titre": "« Comme aux jours de Noé »",
+      "references": [
+        "Mt 24:37-39",
+        "Gn 7:1-5",
+        "Hé 11:7"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une vie normale, jusqu'au dernier jour"
+        },
+        {
+          "texte": "Jésus a comparé son retour aux jours de Noé : ce qui arriva du temps de Noé arrivera de même à l'avènement du Fils de l'homme. Car, dans les jours qui précédèrent le déluge, les hommes mangeaient et buvaient, se mariaient et mariaient leurs enfants, jusqu'au jour où Noé entra dans l'arche ; et ils ne se doutèrent de rien, jusqu'à ce que le déluge vînt et les emportât tous."
+        },
+        {
+          "verset": "Mt 24:37-39"
+        },
+        {
+          "texte": "Remarque que Jésus ne cite pas des péchés terribles. Il parle de choses normales : manger, boire, se marier. Le problème n'était pas ces choses en elles-mêmes. Le problème, c'est que les gens vivaient comme si Dieu n'existait pas, comme si le jugement ne viendrait jamais. Ils étaient tellement occupés par la vie de tous les jours qu'ils n'ont pas écouté l'avertissement."
+        },
+        {
+          "sous_titre": "Cent ans d'avertissement"
+        },
+        {
+          "texte": "Noé a construit l'arche pendant de nombreuses années, peut-être jusqu'à cent ans. Pendant tout ce temps, ses voisins le voyaient travailler sur ce bateau immense, loin de la mer. Pierre l'appelle un prédicateur de la justice. Il a certainement expliqué pourquoi il construisait. Et ils se moquaient de lui."
+        },
+        {
+          "texte": "Puis le jour est venu. L'Éternel dit à Noé : entre dans l'arche, toi et toute ta maison ; car je t'ai vu juste devant moi parmi cette génération. Encore sept jours, et je ferai pleuvoir sur la terre."
+        },
+        {
+          "verset": "Gn 7:1-5"
+        },
+        {
+          "texte": "Même à ce moment-là, Dieu a donné encore sept jours. Et puis, la Bible dit une phrase terrible : l'Éternel ferma la porte sur lui. Quand la porte de l'arche a été fermée, il n'y avait plus aucune possibilité d'entrer."
+        },
+        {
+          "sous_titre": "Noé a cru ce qu'il ne voyait pas"
+        },
+        {
+          "texte": "L'épître aux Hébreux dit : c'est par la foi que Noé, divinement averti des choses qu'on ne voyait pas encore, et saisi d'une crainte respectueuse, construisit une arche pour sauver sa famille."
+        },
+        {
+          "verset": "Hé 11:7"
+        },
+        {
+          "texte": "Noé n'avait jamais vu de déluge. Peut-être n'avait-il même jamais vu de pluie comme celle-là. Mais il a cru la parole de Dieu plus que l'opinion de tout son entourage."
+        },
+        {
+          "sous_titre": "Aujourd'hui"
+        },
+        {
+          "texte": "Nous vivons aussi dans un monde où l'on mange, on boit, on se marie, on fait des affaires, on regarde le football, on construit des maisons, sans penser une seconde que Jésus va revenir. Les moqueurs disent : où est la promesse de son avènement ? Tout continue comme avant. Mais la porte de la grâce est encore ouverte. Jésus est l'arche. Celui qui entre en lui est sauvé. Un jour, la porte sera fermée. N'attends pas de voir les premières gouttes de pluie pour entrer."
+        }
+      ]
+    },
+    {
+      "numero": "7",
+      "titre": "Les dix vierges : être prêt maintenant",
+      "references": [
+        "Mt 25:1-13"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un mariage à l'ancienne"
+        },
+        {
+          "texte": "Jésus a raconté une parabole qui parle à notre culture. Dans les mariages de l'époque, l'époux venait chercher son épouse chez ses parents, souvent la nuit, et on l'accompagnait en cortège avec des lampes jusqu'à sa maison pour la fête. Les jeunes filles invitées attendaient l'époux pour l'accueillir."
+        },
+        {
+          "verset": "Mt 25:1-13"
+        },
+        {
+          "texte": "Dix vierges prirent leurs lampes pour aller à la rencontre de l'époux. Cinq d'entre elles étaient folles, et cinq sages. Les folles prirent leurs lampes, mais elles ne prirent point d'huile avec elles ; les sages prirent, avec leurs lampes, de l'huile dans des vases."
+        },
+        {
+          "sous_titre": "Toutes se sont endormies"
+        },
+        {
+          "texte": "Comme l'époux tardait, toutes s'assoupirent et s'endormirent. Remarque : les sages aussi se sont endormies. La différence n'était pas qu'elles restaient éveillées toute la nuit. La différence, c'est qu'elles avaient préparé l'huile à l'avance."
+        },
+        {
+          "texte": "Au milieu de la nuit, on cria : voici l'époux, allez à sa rencontre ! Les dix se sont réveillées et ont préparé leurs lampes. Les folles dirent aux sages : donnez-nous de votre huile, car nos lampes s'éteignent. Les sages répondirent : non ; il n'y en aurait pas assez pour nous et pour vous ; allez plutôt chez ceux qui en vendent, et achetez-en pour vous."
+        },
+        {
+          "texte": "Le cri est venu « au milieu de la nuit », au moment où personne ne l'attendait. C'est ainsi que Jésus reviendra : non pas au moment que nous aurons choisi, mais au moment fixé par le Père. Et ce jour-là, il n'y aura plus de temps pour se préparer. On ne peut pas acheter de l'huile quand l'époux est déjà à la porte. Beaucoup disent : « Je me mettrai en règle avec Dieu quand je serai vieux », ou « je réglerai ce péché plus tard ». Mais personne ne sait s'il aura le temps. Le temps de se préparer, c'est aujourd'hui, pendant que la lampe brûle encore, pendant que la porte est ouverte. Ne remets pas à demain ta réconciliation avec Dieu, ton pardon à ton frère, ta restitution, ton obéissance."
+        },
+        {
+          "sous_titre": "La porte fermée"
+        },
+        {
+          "texte": "Pendant qu'elles allaient en acheter, l'époux arriva ; celles qui étaient prêtes entrèrent avec lui dans la salle des noces, et la porte fut fermée. Plus tard, les autres vierges vinrent, et dirent : Seigneur, Seigneur, ouvre-nous. Mais il répondit : je vous le dis en vérité, je ne vous connais pas. Veillez donc, puisque vous ne savez ni le jour, ni l'heure."
+        },
+        {
+          "sous_titre": "Ce que l'huile représente"
+        },
+        {
+          "texte": "Toutes les dix avaient une lampe. Toutes les dix étaient invitées. Toutes les dix attendaient l'époux. De l'extérieur, on ne voyait pas de différence. Ainsi, dans l'église, beaucoup ont l'apparence d'un chrétien : ils viennent au culte, ils connaissent les chants, ils portent une Bible. Mais l'huile, la vraie vie de l'Esprit, une relation réelle avec Jésus, ne se voit pas de l'extérieur."
+        },
+        {
+          "texte": "Et la leçon la plus sérieuse : l'huile ne s'emprunte pas. Les sages ne pouvaient pas donner leur huile. Ta mère ne peut pas être prête à ta place. Ton pasteur ne peut pas avoir une relation avec Jésus pour toi. La foi de ton mari ne te sauvera pas. Chacun doit avoir sa propre huile."
+        },
+        {
+          "texte": "On raconte l'histoire d'un jeune homme qui disait toujours : « Je donnerai ma vie à Jésus plus tard, quand j'aurai profité de ma jeunesse. Ma mère prie pour moi, ça suffit. » Une nuit, en revenant d'une fête, il a eu un grave accident de moto. Pendant les trois jours où il est resté entre la vie et la mort à l'hôpital, il ne pouvait plus parler. Il a survécu, et la première chose qu'il a dite à sa mère quand il a pu parler a été : « Maman, pendant ces trois jours, j'ai compris que tes prières ne pouvaient pas me faire entrer à ma place. » Ce jour-là, il a remis sa vie à Jésus."
+        }
+      ]
+    },
+    {
+      "numero": "8",
+      "titre": "Hénoch : marcher avec Dieu jusqu'à l'enlèvement",
+      "references": [
+        "Gn 5:21-24",
+        "Hé 11:5-6"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une phrase différente dans la liste"
+        },
+        {
+          "texte": "Le chapitre cinq de la Genèse est une longue liste de noms. Pour chacun, on retrouve presque toujours la même phrase : il vécut tant d'années, il engendra des fils et des filles, puis il mourut. Et il mourut. Et il mourut. Comme un refrain triste."
+        },
+        {
+          "texte": "Mais au milieu de cette liste, il y a une exception. Hénoch, après la naissance de Metuschélah, marcha avec Dieu trois cents ans ; et il engendra des fils et des filles. Hénoch marcha avec Dieu ; puis il ne fut plus, parce que Dieu le prit."
+        },
+        {
+          "verset": "Gn 5:21-24"
+        },
+        {
+          "sous_titre": "Marcher avec Dieu dans la vie ordinaire"
+        },
+        {
+          "texte": "Hénoch n'était pas un ermite caché dans une grotte. Il avait une femme, des fils et des filles. Il avait un travail, une maison, des voisins. Et pendant trois cents ans, au milieu de cette vie ordinaire, il a marché avec Dieu."
+        },
+        {
+          "texte": "Marcher avec quelqu'un, c'est aller dans la même direction, au même rythme, en parlant ensemble. Hénoch ne faisait pas seulement des visites à Dieu de temps en temps. Il vivait chaque jour en sa compagnie."
+        },
+        {
+          "sous_titre": "Il plaisait à Dieu"
+        },
+        {
+          "texte": "L'épître aux Hébreux dit : c'est par la foi qu'Hénoch fut enlevé pour qu'il ne vît point la mort, et qu'il ne parut plus parce que Dieu l'avait enlevé ; car, avant son enlèvement, il avait reçu le témoignage qu'il était agréable à Dieu. Or sans la foi il est impossible de lui être agréable."
+        },
+        {
+          "verset": "Hé 11:5-6"
+        },
+        {
+          "texte": "Hénoch est une image de ce qui arrivera aux croyants vivants au retour de Jésus : ils seront enlevés pour rencontrer le Seigneur. Et il nous montre comment se préparer à ce jour : non pas en faisant des calculs de dates, mais en marchant avec Dieu chaque jour."
+        },
+        {
+          "sous_titre": "Une façon simple de comprendre"
+        },
+        {
+          "texte": "On a parfois raconté l'histoire d'Hénoch ainsi aux enfants : chaque jour, Hénoch et Dieu faisaient une promenade ensemble. Un jour, ils ont marché si loin et si longtemps que Dieu lui a dit : « Nous sommes plus près de ma maison que de la tienne. Viens chez moi. » Et Hénoch est entré avec Dieu."
+        },
+        {
+          "texte": "C'est la meilleure préparation pour l'éternité : vivre dès maintenant avec celui avec qui nous passerons l'éternité. Pour celui qui marche avec Dieu ici, le ciel ne sera pas un pays étranger, mais la continuation d'une amitié."
+        }
+      ]
+    },
+    {
+      "numero": "9",
+      "titre": "La grande foule devant le trône",
+      "references": [
+        "Ap 7:9-17"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Ce que Jean a vu"
+        },
+        {
+          "texte": "L'apôtre Jean, exilé sur l'île de Patmos, a reçu une vision du ciel. Il raconte : après cela, je regardai, et voici, il y avait une grande foule, que personne ne pouvait compter, de toute nation, de toute tribu, de tout peuple, et de toute langue. Ils se tenaient devant le trône et devant l'Agneau, revêtus de robes blanches, et des palmes dans leurs mains. Et ils criaient d'une voix forte : le salut est à notre Dieu qui est assis sur le trône, et à l'Agneau."
+        },
+        {
+          "sous_titre": "Toutes les nations"
+        },
+        {
+          "texte": "Dans cette foule, il y aura des Camerounais, des Congolais, des Ivoiriens, des Sénégalais, des Malgaches. Il y aura des gens de chaque tribu, parlant ewondo, bassa, lingala, wolof, swahili, peul, haoussa. Il y aura des Européens, des Asiatiques, des Américains. Aucune langue ne sera méprisée, aucune couleur de peau ne sera inférieure. Tous seront unis autour de l'Agneau."
+        },
+        {
+          "texte": "Si nous serons ensemble pour l'éternité, comment pouvons-nous aujourd'hui nous mépriser entre tribus, entre ethnies, entre nations ?"
+        },
+        {
+          "sous_titre": "D'où viennent-ils ?"
+        },
+        {
+          "verset": "Ap 7:13-17"
+        },
+        {
+          "texte": "Un des anciens a demandé à Jean : ceux qui sont revêtus de robes blanches, qui sont-ils, et d'où sont-ils venus ? Et il a répondu : ce sont ceux qui viennent de la grande tribulation ; ils ont lavé leurs robes, et ils les ont blanchies dans le sang de l'Agneau."
+        },
+        {
+          "texte": "Ils ne sont pas là parce qu'ils étaient bons. Ils sont là parce qu'ils ont été lavés par le sang de Jésus. Et beaucoup d'entre eux ont traversé de grandes souffrances pour leur foi."
+        },
+        {
+          "sous_titre": "Ce qui les attend"
+        },
+        {
+          "texte": "Écoute la promesse : ils n'auront plus faim, ils n'auront plus soif, et le soleil ne les frappera point, ni aucune chaleur. Car l'Agneau qui est au milieu du trône les paîtra et les conduira aux sources des eaux de la vie, et Dieu essuiera toute larme de leurs yeux."
+        },
+        {
+          "texte": "Pour ceux qui ont connu la faim, la soif, la chaleur écrasante des champs, les larmes du deuil et de la persécution, cette promesse est précieuse. Dieu lui-même essuiera les larmes. Pas un ange, pas un serviteur : Dieu lui-même. Voilà l'espérance qui nous fait tenir : la souffrance d'aujourd'hui n'est pas la fin de l'histoire."
+        }
+      ]
+    },
+    {
+      "numero": "10",
+      "titre": "Conclusion",
+      "references": [
+        "1 Jn 3:2-3",
+        "1 Co 15:58"
+      ],
+      "blocs": [
+        {
+          "texte": "Nous savons que, lorsqu'il paraîtra, nous serons semblables à lui, parce que nous le verrons tel qu'il est. Quiconque a cette espérance en lui se purifie, comme lui-même est pur. L'espérance du retour de Jésus n'endort pas : elle purifie et elle met au travail. C'est pourquoi, soyez fermes, inébranlables, travaillant de mieux en mieux à l'œuvre du Seigneur, sachant que votre travail ne sera pas vain dans le Seigneur."
+        },
+        {
+          "verset": "1 Co 15:58"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "La résurrection des morts",
-   "references": [
-    "1 Th 4:16-17",
-    "1 Co 15:51-55",
-    "Jn 5:28-29"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "Les morts en Christ ressusciteront"
+      "question": "Comment Jésus reviendra-t-il selon Actes 1:11 ?",
+      "choix": [
+        "En esprit seulement",
+        "De la même manière qu'il est monté, en personne et visiblement",
+        "Dans une église précise"
+      ],
+      "reponse": 1,
+      "explication": "(Actes 1:11)",
+      "section": "1"
     },
     {
-     "texte": "Le Seigneur lui-même descendra du ciel, et les morts en Christ ressusciteront premièrement. Ensuite, nous les vivants, nous serons tous ensemble enlevés à la rencontre du Seigneur, et ainsi nous serons toujours avec le Seigneur. Paul ajoute : consolez-vous donc les uns les autres par ces paroles. Aux enterrements de chrétiens, nous pleurons, mais pas comme ceux qui n'ont pas d'espérance."
+      "question": "Que dit Jean 5:24 de celui qui croit ?",
+      "choix": [
+        "Il sera jugé sévèrement",
+        "Il a la vie éternelle et ne vient point en jugement",
+        "Il doit attendre de voir"
+      ],
+      "reponse": 1,
+      "explication": "(Jean 5:24)",
+      "section": "3"
     },
     {
-     "verset": "1 Th 4:16-17"
+      "question": "Pour qui le feu éternel a-t-il été préparé ?",
+      "choix": [
+        "Pour tous les hommes",
+        "Pour le diable et ses anges",
+        "Pour les païens seulement"
+      ],
+      "reponse": 1,
+      "explication": "(Matthieu 25:41)",
+      "section": "4"
     },
     {
-     "sous_titre": "Un corps nouveau"
+      "question": "Que produit l'espérance du retour de Jésus selon 1 Jean 3:3 ?",
+      "choix": [
+        "La peur",
+        "Elle purifie celui qui l'a",
+        "La paresse"
+      ],
+      "reponse": 1,
+      "explication": "(1 Jean 3:3)",
+      "section": "10"
     },
     {
-     "texte": "Nous serons tous changés, en un instant, en un clin d'œil. Ce corps corruptible revêtira l'incorruptibilité. Le corps malade, handicapé, vieilli, sera relevé glorieux. Ô mort, où est ta victoire ?"
+      "question": "Qu'est-ce que Jésus reproche aux gens du temps de Noé ?",
+      "choix": [
+        "Ils étaient tous des criminels",
+        "Ils vivaient leur vie normale sans se soucier de l'avertissement de Dieu, jusqu'au déluge",
+        "Ils n'avaient pas de travail"
+      ],
+      "reponse": 1,
+      "explication": "Matthieu 24:38-39.",
+      "section": "6"
     },
     {
-     "verset": "1 Co 15:51-55"
+      "question": "Pourquoi les vierges sages n'ont-elles pas donné leur huile aux folles ?",
+      "choix": [
+        "Par égoïsme",
+        "Parce que l'huile, la vraie relation avec Dieu, ne s'emprunte pas : chacun doit avoir la sienne",
+        "Parce qu'elles l'avaient vendue"
+      ],
+      "reponse": 1,
+      "explication": "Matthieu 25:8-10.",
+      "section": "7"
     },
     {
-     "sous_titre": "Tous ressusciteront"
+      "question": "Qu'est-ce qui distingue Hénoch dans la liste de Genèse 5 ?",
+      "choix": [
+        "Il a vécu plus longtemps que tous",
+        "Il a marché avec Dieu, et Dieu l'a pris sans qu'il meure",
+        "Il était roi"
+      ],
+      "reponse": 1,
+      "explication": "Genèse 5:24 ; Hébreux 11:5.",
+      "section": "8"
     },
     {
-     "texte": "Jésus a dit que tous ceux qui sont dans les sépulcres entendront sa voix et en sortiront : ceux qui auront fait le bien ressusciteront pour la vie, mais ceux qui auront fait le mal ressusciteront pour le jugement. Personne n'échappe à ce rendez-vous."
-    },
-    {
-     "verset": "Jn 5:28-29"
+      "question": "Comment ceux de la grande foule ont-ils blanchi leurs robes ?",
+      "choix": [
+        "Par leurs bonnes œuvres",
+        "Dans le sang de l'Agneau",
+        "Par leurs souffrances seules"
+      ],
+      "reponse": 1,
+      "explication": "Apocalypse 7:14.",
+      "section": "9"
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "Le jugement",
-   "references": [
-    "2 Co 5:10",
-    "Ap 20:11-15",
-    "Jn 5:24"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Devant le tribunal de Christ"
-    },
-    {
-     "texte": "Il nous faut tous comparaître devant le tribunal de Christ, afin que chacun reçoive selon le bien ou le mal qu'il aura fait. Le croyant ne sera pas condamné, mais il rendra compte de sa vie de chrétien : ce qu'il a fait de son temps, de ses dons, de son argent."
-    },
-    {
-     "verset": "2 Co 5:10"
-    },
-    {
-     "sous_titre": "Le grand trône blanc"
-    },
-    {
-     "texte": "Jean a vu les morts, grands et petits, debout devant le trône. Les livres furent ouverts. Quiconque ne fut pas trouvé écrit dans le livre de vie fut jeté dans l'étang de feu. Ce n'est pas une image pour faire peur aux enfants. C'est l'avertissement le plus sérieux de toute la Bible."
-    },
-    {
-     "verset": "Ap 20:11-15"
-    },
-    {
-     "sous_titre": "Déjà passé de la mort à la vie"
-    },
-    {
-     "texte": "Mais Jésus a promis : celui qui écoute ma parole, et qui croit à celui qui m'a envoyé, a la vie éternelle et ne vient point en jugement, mais il est passé de la mort à la vie. Le croyant ne vit pas dans la terreur du jugement. Jésus a été jugé à sa place."
-    },
-    {
-     "verset": "Jn 5:24"
-    }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "L'enfer est réel",
-   "references": [
-    "Mt 25:41-46",
-    "Mc 9:43",
-    "2 Th 1:8-9"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Préparé pour le diable"
-    },
-    {
-     "texte": "Jésus a parlé de l'enfer plus que n'importe qui dans la Bible. Il a dit que le feu éternel a été préparé pour le diable et pour ses anges. Dieu n'a pas créé l'enfer pour les hommes. Mais celui qui refuse Dieu jusqu'au bout reçoit ce qu'il a choisi : être séparé de lui pour toujours."
-    },
-    {
-     "verset": "Mt 25:41-46"
-    },
-    {
-     "sous_titre": "Loin de la face du Seigneur"
-    },
-    {
-     "texte": "Paul décrit le châtiment comme une ruine éternelle, loin de la face du Seigneur. Si l'enfer est réel, il n'y a rien de plus urgent que d'annoncer l'Évangile à ceux que nous aimons."
-    },
-    {
-     "verset": "2 Th 1:8-9"
-    }
-   ]
-  },
-  {
-   "numero": "5",
-   "titre": "Les nouveaux cieux et la nouvelle terre",
-   "references": [
-    "Ap 21:1-5",
-    "1 Co 2:9",
-    "Ap 22:3-5"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Dieu avec les hommes"
-    },
-    {
-     "texte": "Jean a vu un nouveau ciel et une nouvelle terre. Il a entendu : voici le tabernacle de Dieu avec les hommes. Il essuiera toute larme de leurs yeux, et la mort ne sera plus, ni deuil, ni cri, ni douleur. Pas de cancer, pas d'hôpital, pas de cimetière, pas de prison, pas de divorce, pas d'orphelins."
-    },
-    {
-     "verset": "Ap 21:1-5"
-    },
-    {
-     "sous_titre": "Ce que l'œil n'a point vu"
-    },
-    {
-     "texte": "Ce sont des choses que l'œil n'a point vues, que l'oreille n'a point entendues, et qui ne sont point montées au cœur de l'homme, des choses que Dieu a préparées pour ceux qui l'aiment."
-    },
-    {
-     "verset": "1 Co 2:9"
-    },
-    {
-     "sous_titre": "Ils verront sa face"
-    },
-    {
-     "texte": "Le plus grand trésor du ciel, ce ne sont pas les rues d'or. C'est Dieu lui-même. Ses serviteurs le serviront et verront sa face."
-    },
-    {
-     "verset": "Ap 22:3-5"
-    }
-   ]
-  },
-  {
-   "numero": "6",
-   "titre": "Conclusion",
-   "references": [
-    "1 Jn 3:2-3",
-    "1 Co 15:58"
-   ],
-   "blocs": [
-    {
-     "texte": "Nous savons que, lorsqu'il paraîtra, nous serons semblables à lui, parce que nous le verrons tel qu'il est. Quiconque a cette espérance en lui se purifie, comme lui-même est pur. L'espérance du retour de Jésus n'endort pas : elle purifie et elle met au travail. C'est pourquoi, soyez fermes, inébranlables, travaillant de mieux en mieux à l'œuvre du Seigneur, sachant que votre travail ne sera pas vain dans le Seigneur."
-    },
-    {
-     "verset": "1 Co 15:58"
-    }
-   ]
-  }
- ],
- "questions": [
-  {
-   "question": "Comment Jésus reviendra-t-il selon Actes 1:11 ?",
-   "choix": [
-    "En esprit seulement",
-    "De la même manière qu'il est monté, en personne et visiblement",
-    "Dans une église précise"
-   ],
-   "reponse": 1,
-   "explication": "(Actes 1:11)",
-   "section": "1"
-  },
-  {
-   "question": "Que dit Jean 5:24 de celui qui croit ?",
-   "choix": [
-    "Il sera jugé sévèrement",
-    "Il a la vie éternelle et ne vient point en jugement",
-    "Il doit attendre de voir"
-   ],
-   "reponse": 1,
-   "explication": "(Jean 5:24)",
-   "section": "3"
-  },
-  {
-   "question": "Pour qui le feu éternel a-t-il été préparé ?",
-   "choix": [
-    "Pour tous les hommes",
-    "Pour le diable et ses anges",
-    "Pour les païens seulement"
-   ],
-   "reponse": 1,
-   "explication": "(Matthieu 25:41)",
-   "section": "4"
-  },
-  {
-   "question": "Que produit l'espérance du retour de Jésus selon 1 Jean 3:3 ?",
-   "choix": [
-    "La peur",
-    "Elle purifie celui qui l'a",
-    "La paresse"
-   ],
-   "reponse": 1,
-   "explication": "(1 Jean 3:3)",
-   "section": "6"
-  }
- ],
- "devoir": [
-  "Lis Apocalypse 21 et 22 et écris ce que tu attends le plus du ciel.",
-  "Pense à une personne que tu aimes et qui ne connaît pas Jésus. Prie pour elle et parle-lui cette semaine.",
-  "Relis tes notes du volume 2 et choisis un verset de chaque leçon à garder."
- ],
- "prieres_liees": [
-  "theme:priere-salut",
-  "theme:priere-ames"
- ],
- "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-14",
- "relu": false
+  ],
+  "devoir": [
+    "Lis Apocalypse 21 et 22 et écris ce que tu attends le plus du ciel.",
+    "Pense à une personne que tu aimes et qui ne connaît pas Jésus. Prie pour elle et parle-lui cette semaine.",
+    "Relis tes notes du volume 2 et choisis un verset de chaque leçon à garder."
+  ],
+  "prieres_liees": [
+    "theme:priere-salut",
+    "theme:priere-ames"
+  ],
+  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-14",
+  "relu": false
 }
