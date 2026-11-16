@@ -1,258 +1,510 @@
 {
- "id": "enseignement-chretien-et-copinage",
- "titre": "Le chrétien et le copinage",
- "serie": "Grandir",
- "theme": "Sanctification",
- "auteur": "Yeshaya",
- "resume": "« Mon copain », « ma copine » : le copinage n'existe pas dans la Bible. Ce n'est ni les fiançailles ni le mariage, et ceux qui le pratiquent vivent comme des mariés sans l'être. Ce que la Bible dit vraiment, et le chemin de Dieu vers le mariage.",
- "image": "/assets/personnages/jeune-homme-joyeux.webp",
- "verset_de_base": "1 Co 7:32-34",
- "lecture_minutes": 12,
- "objectifs": [
-  "Comprendre que le copinage n'a aucune place dans le plan de Dieu.",
-  "Voir les dangers et le péché qui accompagnent le copinage.",
-  "Découvrir le chemin biblique : célibat consacré, fiançailles, mariage.",
-  "Prendre des décisions concrètes pour garder sa pureté."
- ],
- "introduction": "Dans beaucoup d'églises, on entend des jeunes dire : « C'est mon copain », « c'est ma copine », « on sort ensemble ». Ils viennent au culte ensemble, ils chantent dans la chorale, et en même temps ils vivent comme des gens mariés : ils s'embrassent, ils se touchent, ils passent des nuits ensemble, certains couchent ensemble, d'autres font « tout sauf ça ». Et quand on leur pose la question, ils répondent : « Mais on s'aime, et on va se marier un jour. »\n\nJe vais être direct, parce que la vérité libère : le copinage n'est pas une étape du mariage chrétien. Ce n'est pas un mot de la Bible. Ce n'est ni les fiançailles, ni le mariage. Dans cet enseignement, nous verrons ce que la Bible dit du célibat, pourquoi le copinage est un piège, et quel est le chemin que Dieu a prévu pour arriver au mariage.",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "Le célibataire appartient au Seigneur",
-   "references": [
-    "1 Co 7:32-35",
-    "1 Co 7:1-2"
-   ],
-   "blocs": [
+  "id": "enseignement-chretien-et-copinage",
+  "titre": "Le chrétien et le copinage",
+  "serie": "Grandir",
+  "theme": "Sanctification",
+  "auteur": "Yeshaya",
+  "resume": "« Mon copain », « ma copine » : le copinage n'existe pas dans la Bible. Ce n'est ni les fiançailles ni le mariage, et ceux qui le pratiquent vivent comme des mariés sans l'être. Ce que la Bible dit vraiment, et le chemin de Dieu vers le mariage.",
+  "image": "/assets/personnages/jeune-homme-joyeux.webp",
+  "verset_de_base": "1 Co 7:32-34",
+  "lecture_minutes": 30,
+  "objectifs": [
+    "Comprendre que le copinage n'a aucune place dans le plan de Dieu.",
+    "Voir les dangers et le péché qui accompagnent le copinage.",
+    "Découvrir le chemin biblique : célibat consacré, fiançailles, mariage.",
+    "Prendre des décisions concrètes pour garder sa pureté."
+  ],
+  "introduction": "Dans beaucoup d'églises, on entend des jeunes dire : « C'est mon copain », « c'est ma copine », « on sort ensemble ». Ils viennent au culte ensemble, ils chantent dans la chorale, et en même temps ils vivent comme des gens mariés : ils s'embrassent, ils se touchent, ils passent des nuits ensemble, certains couchent ensemble, d'autres font « tout sauf ça ». Et quand on leur pose la question, ils répondent : « Mais on s'aime, et on va se marier un jour. »\n\nJe vais être direct, parce que la vérité libère : le copinage n'est pas une étape du mariage chrétien. Ce n'est pas un mot de la Bible. Ce n'est ni les fiançailles, ni le mariage. Dans cet enseignement, nous verrons ce que la Bible dit du célibat, pourquoi le copinage est un piège, et quel est le chemin que Dieu a prévu pour arriver au mariage.",
+  "sections": [
     {
-     "sous_titre": "Celui qui n'est pas marié s'inquiète des choses du Seigneur"
+      "numero": "1",
+      "titre": "Le célibataire appartient au Seigneur",
+      "references": [
+        "1 Co 7:32-35",
+        "1 Co 7:1-2"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Celui qui n'est pas marié s'inquiète des choses du Seigneur"
+        },
+        {
+          "texte": "Paul écrit : celui qui n'est pas marié s'inquiète des choses du Seigneur, des moyens de plaire au Seigneur ; et celui qui est marié s'inquiète des choses du monde, des moyens de plaire à sa femme. Il ajoute pour la femme : celle qui n'est pas mariée s'inquiète des choses du Seigneur, afin d'être sainte de corps et d'esprit."
+        },
+        {
+          "verset": "1 Co 7:32-34"
+        },
+        {
+          "texte": "Lis bien : la saison du célibat n'est pas une salle d'attente où l'on s'entraîne à être en couple. C'est une saison donnée par Dieu pour s'occuper de lui, le servir, se former, grandir, et être saint de corps et d'esprit. Quand tu n'es pas marié, le copinage n'est pas ton affaire : ton affaire, ce sont les choses du Seigneur."
+        },
+        {
+          "sous_titre": "Le mariage, et rien d'autre"
+        },
+        {
+          "texte": "Paul dit encore : il est bon pour l'homme de ne point toucher de femme. Toutefois, pour éviter l'impudicité, que chacun ait sa femme, et que chaque femme ait son mari. La Bible connaît deux états : célibataire, ou marié. Il n'y a pas de troisième état appelé « en couple » où l'on aurait les privilèges du mariage sans son engagement."
+        },
+        {
+          "verset": "1 Co 7:1-2"
+        }
+      ]
     },
     {
-     "texte": "Paul écrit : celui qui n'est pas marié s'inquiète des choses du Seigneur, des moyens de plaire au Seigneur ; et celui qui est marié s'inquiète des choses du monde, des moyens de plaire à sa femme. Il ajoute pour la femme : celle qui n'est pas mariée s'inquiète des choses du Seigneur, afin d'être sainte de corps et d'esprit."
+      "numero": "2",
+      "titre": "Pourquoi le copinage est un piège",
+      "references": [
+        "Ct 2:7",
+        "1 Th 4:3-6",
+        "Pr 6:27-29",
+        "2 S 13:14-15"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "On réveille l'amour avant le temps"
+        },
+        {
+          "texte": "Le Cantique des cantiques répète : ne réveillez pas, ne réveillez pas l'amour, avant qu'elle le veuille. Le copinage réveille des désirs que Dieu a réservés au mariage, à un moment où ils ne peuvent pas être vécus saintement. On allume un feu, puis on s'étonne de brûler. Quelqu'un mettra-t-il du feu dans son sein, sans que ses vêtements s'enflamment ?"
+        },
+        {
+          "verset": "Ct 2:7"
+        },
+        {
+          "verset": "Pr 6:27-29"
+        },
+        {
+          "sous_titre": "On vit comme mariés sans l'être"
+        },
+        {
+          "texte": "Dans le copinage, on se comporte comme si l'on était déjà dans un statut matrimonial : rendez-vous seuls, baisers, caresses, nuits passées ensemble, et souvent rapports sexuels. Tout ce qui appartient au mariage et qui est vécu hors du mariage, la Bible l'appelle impudicité. Ce que Dieu veut, c'est votre sanctification ; c'est que vous vous absteniez de l'impudicité, et que personne ne fasse tort à son frère. Coucher avec quelqu'un qui n'est pas ton conjoint, c'est faire tort à son futur conjoint, et au tien."
+        },
+        {
+          "verset": "1 Th 4:3-6"
+        },
+        {
+          "sous_titre": "On sort blessé"
+        },
+        {
+          "texte": "Beaucoup de copinages se terminent par une rupture. On a donné son cœur, son corps, ses secrets, et on repart vide, blessé, avec des liens d'âme et des souvenirs qui polluent le futur mariage. L'histoire d'Amnon et Tamar le montre : Amnon disait qu'il l'aimait ; il lui fit violence et coucha avec elle ; puis il eut pour elle une très grande haine, plus grande que l'amour qu'il avait eu pour elle. La convoitise se déguise souvent en amour."
+        },
+        {
+          "verset": "2 S 13:14-15"
+        },
+        {
+          "sous_titre": "On perd son témoignage"
+        },
+        {
+          "texte": "Les jeunes qui vivent le copinage dans l'église perdent leur autorité spirituelle. Comment prier avec puissance le dimanche quand on a péché le samedi soir ? Que l'impudicité, et aucune espèce d'impureté, ne soient pas même nommées parmi vous, ainsi qu'il convient à des saints."
+        },
+        {
+          "verset": "Ép 5:3"
+        }
+      ]
     },
     {
-     "verset": "1 Co 7:32-34"
+      "numero": "3",
+      "titre": "Le chemin de Dieu vers le mariage",
+      "references": [
+        "Pr 18:22",
+        "Gn 24:12-14",
+        "Mt 1:18-19",
+        "1 Co 7:9"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Chercher Dieu d'abord"
+        },
+        {
+          "texte": "Celui qui trouve une femme trouve le bonheur ; c'est une grâce qu'il obtient de l'Éternel. Le conjoint se trouve en priant, pas en essayant des partenaires les uns après les autres. Le serviteur d'Abraham, chargé de trouver une femme pour Isaac, a commencé par prier : Éternel, Dieu de mon seigneur Abraham, fais-moi, je te prie, rencontrer aujourd'hui ce que je désire."
+        },
+        {
+          "verset": "Pr 18:22"
+        },
+        {
+          "verset": "Gn 24:12-14"
+        },
+        {
+          "sous_titre": "Les fiançailles, un engagement public"
+        },
+        {
+          "texte": "Dans la Bible, les fiançailles ne sont pas un copinage : c'est un engagement sérieux, connu des familles, qui prépare le mariage. Marie était fiancée à Joseph ; ils n'avaient pas encore habité ensemble. Les fiancés se fréquentent sous le regard des parents et de l'église, avec un projet clair et une date, sans vivre comme des mariés. Jacob a servi sept ans pour Rachel, et ces années furent à ses yeux comme quelques jours, parce qu'il l'aimait : le vrai amour sait attendre."
+        },
+        {
+          "verset": "Mt 1:18-19"
+        },
+        {
+          "verset": "Gn 29:20"
+        },
+        {
+          "sous_titre": "Se marier plutôt que brûler"
+        },
+        {
+          "texte": "Si deux jeunes chrétiens s'aiment et ne peuvent plus attendre, la Bible ne leur dit pas de « sortir ensemble » : elle leur dit de se marier. S'ils manquent de continence, qu'ils se marient ; car il vaut mieux se marier que de brûler. Qu'ils parlent à leurs parents et à leur pasteur, et qu'ils avancent vers le mariage."
+        },
+        {
+          "verset": "1 Co 7:9"
+        }
+      ]
     },
     {
-     "texte": "Lis bien : la saison du célibat n'est pas une salle d'attente où l'on s'entraîne à être en couple. C'est une saison donnée par Dieu pour s'occuper de lui, le servir, se former, grandir, et être saint de corps et d'esprit. Quand tu n'es pas marié, le copinage n'est pas ton affaire : ton affaire, ce sont les choses du Seigneur."
+      "numero": "4",
+      "titre": "Dina : une sortie qui a tout changé",
+      "references": [
+        "Gn 34:1-7",
+        "Gn 34:25-31"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Juste aller voir"
+        },
+        {
+          "texte": "Dina était la fille de Jacob et de Léa. La famille venait de s'installer près de la ville de Sichem. La Bible dit : Dina sortit pour voir les filles du pays."
+        },
+        {
+          "verset": "Gn 34:1-7"
+        },
+        {
+          "texte": "Elle voulait simplement découvrir la ville, rencontrer les jeunes filles de son âge, voir comment elles vivaient. Rien de grave, pensait-elle sans doute. Mais Sichem, le fils du prince du pays, la vit. Il l'enleva, coucha avec elle, et la déshonora. Ensuite, dit le texte, son âme s'attacha à Dina ; il aima la jeune fille, et il parla à son cœur. Il voulait l'épouser."
+        },
+        {
+          "sous_titre": "Le désir n'est pas l'amour"
+        },
+        {
+          "texte": "Remarque l'ordre des choses chez Sichem : il voit, il prend, il couche, et après il dit qu'il aime. C'est l'ordre du monde. Le monde dit : essaie d'abord, tu verras après si tu l'aimes. Dieu dit : engage-toi d'abord devant lui et devant les familles, et l'union physique vient après, dans le mariage. Sichem a peut-être eu de vrais sentiments. Mais il a pris ce qui ne lui appartenait pas, et il a détruit l'honneur d'une jeune fille."
+        },
+        {
+          "sous_titre": "Les conséquences sur toute une famille"
+        },
+        {
+          "texte": "La suite est terrible. Les frères de Dina, Siméon et Lévi, furent irrités et très en colère. Ils firent semblant d'accepter le mariage, à condition que tous les hommes de la ville se fassent circoncire. Puis, le troisième jour, quand les hommes étaient souffrants, ils entrèrent dans la ville et tuèrent tous les mâles. Jacob dit à ses fils : vous me troublez, en me rendant odieux aux habitants du pays."
+        },
+        {
+          "verset": "Gn 34:25-31"
+        },
+        {
+          "texte": "Une sortie apparemment innocente, un homme qui ne s'est pas retenu, et voilà une ville entière dans le sang, et une famille qui doit fuir. Le péché sexuel ne reste jamais une affaire privée entre deux personnes. Il touche les familles, les églises, les villages."
+        },
+        {
+          "sous_titre": "Savoir où l'on va"
+        },
+        {
+          "texte": "Dina n'est pas coupable de ce que Sichem lui a fait. La victime n'est jamais responsable du crime. Mais son histoire nous apprend à être prudents. Les Proverbes disent : l'homme prudent voit le mal et se cache, mais les simples avancent et sont punis."
+        },
+        {
+          "texte": "Jeune fille, jeune homme : réfléchis aux lieux où tu vas, aux heures où tu sors, aux personnes avec qui tu te retrouves seul. Une invitation à « passer voir un film » chez quelqu'un, le soir, seul à seul, n'est pas une sortie innocente. Ce n'est pas être vieux jeu que de dire non. C'est être sage."
+        }
+      ]
     },
     {
-     "sous_titre": "Le mariage, et rien d'autre"
+      "numero": "5",
+      "titre": "Salomon : quand l'amour détourne le cœur de Dieu",
+      "references": [
+        "1 R 11:1-6",
+        "Ne 13:26"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "L'homme le plus sage"
+        },
+        {
+          "texte": "Salomon avait reçu de Dieu une sagesse extraordinaire. Il avait bâti le temple, écrit des milliers de proverbes, et des rois venaient de loin pour l'écouter. Mais la Bible raconte sa chute en quelques versets."
+        },
+        {
+          "sous_titre": "Des femmes qui ont emporté son cœur"
+        },
+        {
+          "texte": "Le roi Salomon aima beaucoup de femmes étrangères, outre la fille de Pharaon : des Moabites, des Ammonites, des Édomites, des Sidoniennes, des Héthiennes, appartenant aux nations dont l'Éternel avait dit aux enfants d'Israël : vous n'irez point chez elles, et elles ne viendront point chez vous ; elles tourneraient certainement vos cœurs du côté de leurs dieux. Ce fut à ces nations que s'attacha Salomon, entraîné par l'amour."
+        },
+        {
+          "verset": "1 R 11:1-6"
+        },
+        {
+          "texte": "Lorsqu'il fut vieux, ses femmes inclinèrent son cœur vers d'autres dieux ; et son cœur ne fut point tout entier à l'Éternel, son Dieu, comme l'avait été le cœur de David, son père."
+        },
+        {
+          "sous_titre": "Personne n'est trop fort"
+        },
+        {
+          "texte": "Des siècles plus tard, Néhémie rappelait cette histoire aux Juifs qui épousaient des femmes païennes : n'est-ce pas en cela qu'a péché Salomon, roi d'Israël ? Il n'y avait point de roi semblable à lui parmi la multitude des nations, il était aimé de son Dieu, et Dieu l'avait établi roi sur tout Israël ; néanmoins, les femmes étrangères l'entraînèrent aussi dans le péché."
+        },
+        {
+          "verset": "Ne 13:26"
+        },
+        {
+          "texte": "Beaucoup de jeunes chrétiens disent : « Je vais sortir avec lui, et je vais l'amener à Jésus. » Ou : « Elle n'est pas croyante, mais je suis fort, elle ne m'influencera pas. » Si Salomon, le plus sage des hommes, a été entraîné, qui es-tu pour penser que cela ne t'arrivera pas ? Dans une relation amoureuse, ce n'est presque jamais le plus spirituel qui tire l'autre vers le haut. C'est le plus souvent le cœur attaché qui se laisse tirer vers le bas."
+        },
+        {
+          "sous_titre": "Garder son cœur"
+        },
+        {
+          "texte": "C'est pourquoi la Parole dit : garde ton cœur plus que toute autre chose, car de lui viennent les sources de la vie."
+        },
+        {
+          "texte": "Garder son cœur, c'est ne pas laisser ses sentiments s'attacher à quelqu'un qui ne partage pas ta foi. Les sentiments ne se commandent pas une fois qu'ils sont forts, mais on peut refuser de les nourrir au début : ne pas répondre aux messages tard dans la nuit, ne pas multiplier les rencontres seul à seul, ne pas laisser l'imagination construire des rêves."
+        }
+      ]
     },
     {
-     "texte": "Paul dit encore : il est bon pour l'homme de ne point toucher de femme. Toutefois, pour éviter l'impudicité, que chacun ait sa femme, et que chaque femme ait son mari. La Bible connaît deux états : célibataire, ou marié. Il n'y a pas de troisième état appelé « en couple » où l'on aurait les privilèges du mariage sans son engagement."
+      "numero": "6",
+      "titre": "Boaz à l'aire : un homme qui protège l'honneur d'une femme",
+      "references": [
+        "Rt 3:7-14",
+        "Rt 4:9-13",
+        "1 Tm 5:1-2"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une nuit délicate"
+        },
+        {
+          "texte": "Ruth, la jeune veuve moabite, avait suivi le conseil de sa belle-mère Naomi. Selon la coutume de l'époque, elle était allée de nuit sur l'aire où Boaz dormait après le travail de la moisson, et elle s'était couchée à ses pieds. C'était une manière de lui demander de jouer son rôle de rédempteur, c'est-à-dire de l'épouser selon la loi de la famille."
+        },
+        {
+          "verset": "Rt 3:7-14"
+        },
+        {
+          "sous_titre": "La réaction d'un homme de Dieu"
+        },
+        {
+          "texte": "Au milieu de la nuit, Boaz se réveille et trouve une femme à ses pieds. Il est seul avec elle, dans l'obscurité. Personne ne voit. Beaucoup d'hommes auraient profité de la situation. Mais Boaz dit : sois bénie de l'Éternel, ma fille ! Maintenant, ma fille, ne crains point ; je ferai pour toi tout ce que tu diras ; car toute la porte de mon peuple sait que tu es une femme vertueuse."
+        },
+        {
+          "texte": "Boaz ne la touche pas. Il lui explique qu'il y a un autre parent plus proche que lui, qui a le droit de l'épouser en premier, et qu'il va régler l'affaire publiquement. Et il prend soin de sa réputation : qu'on ne sache pas qu'une femme est entrée dans l'aire. Il la fait repartir avant qu'on puisse se reconnaître, avec six mesures d'orge pour Naomi."
+        },
+        {
+          "sous_titre": "Tout se fait au grand jour"
+        },
+        {
+          "texte": "Le lendemain, Boaz va à la porte de la ville, là où se réunissent les anciens. Devant dix témoins, il règle la question avec l'autre parent. Puis il déclare : vous êtes aujourd'hui témoins que j'ai acquis aussi pour ma femme Ruth la Moabite. Et seulement après ce mariage public, Boaz prit Ruth, qui devint sa femme."
+        },
+        {
+          "verset": "Rt 4:9-13"
+        },
+        {
+          "texte": "Voilà le chemin de Dieu : pas de relation cachée, pas d'intimité volée dans la nuit, mais un engagement clair devant les familles et la communauté. Et de ce mariage est né Obed, le grand-père du roi David, et l'ancêtre de Jésus."
+        },
+        {
+          "sous_titre": "Jeunes hommes, soyez des Boaz"
+        },
+        {
+          "texte": "Paul écrit à Timothée de traiter les jeunes femmes comme des sœurs, en toute pureté."
+        },
+        {
+          "verset": "1 Tm 5:1-2"
+        },
+        {
+          "texte": "Un vrai homme de Dieu ne cherche pas à prendre ce qu'il peut. Il protège. Il protège la pureté et la réputation de la jeune fille qu'il aime, même quand l'occasion est là et que personne ne voit. Et toi, jeune fille, cherche un homme comme Boaz : un homme qui te respecte assez pour attendre, et qui a le courage de faire les choses au grand jour."
+        }
+      ]
     },
     {
-     "verset": "1 Co 7:1-2"
+      "numero": "7",
+      "titre": "Le célibat n'est pas une malédiction",
+      "references": [
+        "Jr 16:1-4",
+        "Ac 21:8-9",
+        "Mt 19:10-12",
+        "1 Co 7:7"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "La pression des familles"
+        },
+        {
+          "texte": "Dans nos sociétés, une jeune femme de trente ans qui n'est pas mariée entend sans cesse les questions : « Alors, c'est pour quand ? » « Tu attends quoi ? » « Tu as fait un mauvais sort ? » Les hommes aussi subissent cette pression. Cette pression pousse beaucoup de chrétiens à accepter n'importe quel partenaire, ou à entrer dans le copinage pour « ne pas rester seul »."
+        },
+        {
+          "sous_titre": "Des serviteurs de Dieu célibataires"
+        },
+        {
+          "texte": "La Bible montre pourtant des hommes et des femmes de Dieu qui n'étaient pas mariés, et dont la vie a été pleine et féconde."
+        },
+        {
+          "texte": "Dieu a dit au prophète Jérémie : tu ne prendras point de femme, et tu n'auras dans ce lieu ni fils ni filles. C'était à cause des terribles malheurs qui allaient venir sur Jérusalem."
+        },
+        {
+          "verset": "Jr 16:1-4"
+        },
+        {
+          "texte": "Le livre des Actes parle de Philippe l'évangéliste, qui avait quatre filles vierges qui prophétisaient. Elles servaient Dieu avec leur don, dans la maison de leur père."
+        },
+        {
+          "verset": "Ac 21:8-9"
+        },
+        {
+          "texte": "Jésus lui-même n'était pas marié. Et il a dit que certains ne se marient pas à cause du royaume des cieux."
+        },
+        {
+          "verset": "Mt 19:10-12"
+        },
+        {
+          "texte": "Paul, qui était célibataire, écrit : je voudrais que tous les hommes fussent comme moi ; mais chacun tient de Dieu un don particulier, l'un d'une manière, l'autre d'une autre."
+        },
+        {
+          "verset": "1 Co 7:7"
+        },
+        {
+          "sous_titre": "Ta valeur ne dépend pas d'un mariage"
+        },
+        {
+          "texte": "Cela ne veut pas dire que tous doivent rester célibataires. La plupart des personnes se marieront, et c'est une bénédiction. Mais cela veut dire que ta valeur ne dépend pas de ton statut. Tu es complet en Christ. Une personne célibataire n'est pas une demi-personne qui attend sa moitié pour exister."
+        },
+        {
+          "texte": "Mieux vaut rester seul encore quelque temps, en paix avec Dieu, que de se lier pour la vie à quelqu'un qui détruira ta foi. On raconte l'histoire d'une sœur qui avait attendu jusqu'à trente-quatre ans. Toutes ses amies s'étaient mariées. Elle avait refusé plusieurs propositions d'hommes qui ne connaissaient pas le Seigneur, et on se moquait d'elle dans sa famille. Pendant ces années, elle s'occupait des enfants de l'école du dimanche et visitait les malades. Un jour, un frère d'une autre ville, qui avait entendu parler de son service, est venu demander sa main à ses parents. Elle disait plus tard : « Je ne regrette pas d'avoir attendu. Ces années de célibat ont été parmi les plus belles de ma vie avec Dieu. »"
+        }
+      ]
+    },
+    {
+      "numero": "8",
+      "titre": "Ce que tu dois faire maintenant",
+      "references": [
+        "2 Tm 2:22",
+        "Pr 4:23",
+        "1 Co 15:33",
+        "1 Jn 1:9"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Si tu es dans un copinage"
+        },
+        {
+          "texte": "Ne te justifie pas. Arrête. Si votre relation a un avenir dans la volonté de Dieu, présentez-la à vos parents et à votre pasteur, et entrez dans un chemin de fiançailles sérieux, sans relations sexuelles et sans moments seuls à risque. Si elle n'a pas d'avenir, rompez maintenant, avant de vous blesser davantage. Si tu as déjà péché, confesse-le : si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner."
+        },
+        {
+          "verset": "1 Jn 1:9"
+        },
+        {
+          "sous_titre": "Fuir et garder son cœur"
+        },
+        {
+          "texte": "Fuis les passions de la jeunesse, et recherche la justice, la foi, la charité, la paix, avec ceux qui invoquent le Seigneur d'un cœur pur. Garde ton cœur plus que toute autre chose. Évite les lieux et les heures qui te mettent en danger : la chambre, la nuit, les messages tard le soir. Choisis tes amis : les mauvaises compagnies corrompent les bonnes mœurs."
+        },
+        {
+          "verset": "2 Tm 2:22"
+        },
+        {
+          "verset": "Pr 4:23"
+        },
+        {
+          "verset": "1 Co 15:33"
+        },
+        {
+          "sous_titre": "Vivre pleinement sa saison"
+        },
+        {
+          "texte": "Ton célibat n'est pas une malédiction. C'est le temps de te consacrer à Dieu, de te former, de servir, de construire ton avenir. Le jour où Dieu te donnera ton conjoint, tu arriveras au mariage avec un cœur entier, un corps pur et une histoire sans regrets. Ça vaut la peine d'attendre."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "Pourquoi le copinage est un piège",
-   "references": [
-    "Ct 2:7",
-    "1 Th 4:3-6",
-    "Pr 6:27-29",
-    "2 S 13:14-15"
-   ],
-   "blocs": [
+  ],
+  "sujets": [
     {
-     "sous_titre": "On réveille l'amour avant le temps"
+      "titre": "Pardon et pureté",
+      "texte": "Confessons à Dieu nos relations impures et demandons-lui de purifier notre corps, notre âme et notre esprit. (1 Jean 1:9)"
     },
     {
-     "texte": "Le Cantique des cantiques répète : ne réveillez pas, ne réveillez pas l'amour, avant qu'elle le veuille. Le copinage réveille des désirs que Dieu a réservés au mariage, à un moment où ils ne peuvent pas être vécus saintement. On allume un feu, puis on s'étonne de brûler. Quelqu'un mettra-t-il du feu dans son sein, sans que ses vêtements s'enflamment ?"
+      "titre": "Rompre les liens",
+      "texte": "Demandons à Dieu de briser les liens d'âme créés par des relations hors du mariage. (2 Corinthiens 5:17)"
     },
     {
-     "verset": "Ct 2:7"
+      "titre": "Une saison consacrée",
+      "texte": "Prions afin de vivre notre célibat comme un temps pour s'occuper des choses du Seigneur, saints de corps et d'esprit. (1 Corinthiens 7:34)"
     },
     {
-     "verset": "Pr 6:27-29"
+      "titre": "Le conjoint de Dieu",
+      "texte": "Prions afin que Dieu nous conduise vers le conjoint qu'il a préparé, au bon moment et de la bonne manière. (Proverbes 18:22)"
     },
     {
-     "sous_titre": "On vit comme mariés sans l'être"
-    },
-    {
-     "texte": "Dans le copinage, on se comporte comme si l'on était déjà dans un statut matrimonial : rendez-vous seuls, baisers, caresses, nuits passées ensemble, et souvent rapports sexuels. Tout ce qui appartient au mariage et qui est vécu hors du mariage, la Bible l'appelle impudicité. Ce que Dieu veut, c'est votre sanctification ; c'est que vous vous absteniez de l'impudicité, et que personne ne fasse tort à son frère. Coucher avec quelqu'un qui n'est pas ton conjoint, c'est faire tort à son futur conjoint, et au tien."
-    },
-    {
-     "verset": "1 Th 4:3-6"
-    },
-    {
-     "sous_titre": "On sort blessé"
-    },
-    {
-     "texte": "Beaucoup de copinages se terminent par une rupture. On a donné son cœur, son corps, ses secrets, et on repart vide, blessé, avec des liens d'âme et des souvenirs qui polluent le futur mariage. L'histoire d'Amnon et Tamar le montre : Amnon disait qu'il l'aimait ; il lui fit violence et coucha avec elle ; puis il eut pour elle une très grande haine, plus grande que l'amour qu'il avait eu pour elle. La convoitise se déguise souvent en amour."
-    },
-    {
-     "verset": "2 S 13:14-15"
-    },
-    {
-     "sous_titre": "On perd son témoignage"
-    },
-    {
-     "texte": "Les jeunes qui vivent le copinage dans l'église perdent leur autorité spirituelle. Comment prier avec puissance le dimanche quand on a péché le samedi soir ? Que l'impudicité, et aucune espèce d'impureté, ne soient pas même nommées parmi vous, ainsi qu'il convient à des saints."
-    },
-    {
-     "verset": "Ép 5:3"
+      "titre": "Les jeunes de l'église",
+      "texte": "Intercédons pour les jeunes de nos églises, afin qu'ils fuient les passions de la jeunesse. (2 Timothée 2:22)"
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "Le chemin de Dieu vers le mariage",
-   "references": [
-    "Pr 18:22",
-    "Gn 24:12-14",
-    "Mt 1:18-19",
-    "1 Co 7:9"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "Chercher Dieu d'abord"
+      "question": "Selon la Bible, quels sont les deux états possibles ?",
+      "choix": [
+        "Célibataire, en couple, marié",
+        "Célibataire ou marié",
+        "En couple ou fiancé"
+      ],
+      "reponse": 1,
+      "explication": "Il n'y a pas d'état « en couple » : chacun a sa femme, chaque femme son mari, ou l'on reste dans le célibat consacré. (1 Corinthiens 7:1-2, 32-34)",
+      "section": "1"
     },
     {
-     "texte": "Celui qui trouve une femme trouve le bonheur ; c'est une grâce qu'il obtient de l'Éternel. Le conjoint se trouve en priant, pas en essayant des partenaires les uns après les autres. Le serviteur d'Abraham, chargé de trouver une femme pour Isaac, a commencé par prier : Éternel, Dieu de mon seigneur Abraham, fais-moi, je te prie, rencontrer aujourd'hui ce que je désire."
+      "question": "Que fait le copinage, selon le Cantique des cantiques ?",
+      "choix": [
+        "Il protège l'amour",
+        "Il réveille l'amour avant le temps",
+        "Il prépare forcément au mariage"
+      ],
+      "reponse": 1,
+      "explication": "« Ne réveillez pas l'amour avant qu'elle le veuille. » (Cantique 2:7)",
+      "section": "2"
     },
     {
-     "verset": "Pr 18:22"
+      "question": "Que dit Paul à ceux qui ne peuvent plus se retenir ?",
+      "choix": [
+        "De sortir ensemble discrètement",
+        "De se marier",
+        "D'attendre sans rien dire"
+      ],
+      "reponse": 1,
+      "explication": "« Il vaut mieux se marier que de brûler. » (1 Corinthiens 7:9)",
+      "section": "3"
     },
     {
-     "verset": "Gn 24:12-14"
+      "question": "Que nous apprend l'ordre des actes de Sichem (voir, prendre, coucher, puis dire qu'il aime) ?",
+      "choix": [
+        "Que l'amour vient après l'essai",
+        "Que c'est l'ordre du monde, contraire au chemin de Dieu",
+        "Qu'il était un bon mari"
+      ],
+      "reponse": 1,
+      "explication": "Genèse 34:1-3.",
+      "section": "4"
     },
     {
-     "sous_titre": "Les fiançailles, un engagement public"
+      "question": "Pourquoi le cœur de Salomon s'est-il détourné de Dieu ?",
+      "choix": [
+        "À cause de ses richesses",
+        "Ses femmes étrangères l'ont entraîné vers d'autres dieux",
+        "À cause de ses ennemis"
+      ],
+      "reponse": 1,
+      "explication": "1 Rois 11:4 ; Néhémie 13:26.",
+      "section": "5"
     },
     {
-     "texte": "Dans la Bible, les fiançailles ne sont pas un copinage : c'est un engagement sérieux, connu des familles, qui prépare le mariage. Marie était fiancée à Joseph ; ils n'avaient pas encore habité ensemble. Les fiancés se fréquentent sous le regard des parents et de l'église, avec un projet clair et une date, sans vivre comme des mariés. Jacob a servi sept ans pour Rachel, et ces années furent à ses yeux comme quelques jours, parce qu'il l'aimait : le vrai amour sait attendre."
+      "question": "Comment Boaz a-t-il agi la nuit où Ruth est venue à ses pieds ?",
+      "choix": [
+        "Il en a profité",
+        "Il ne l'a pas touchée, il a protégé sa réputation et a tout réglé publiquement",
+        "Il l'a chassée"
+      ],
+      "reponse": 1,
+      "explication": "Ruth 3:10-14 ; 4:9-13.",
+      "section": "6"
     },
     {
-     "verset": "Mt 1:18-19"
-    },
-    {
-     "verset": "Gn 29:20"
-    },
-    {
-     "sous_titre": "Se marier plutôt que brûler"
-    },
-    {
-     "texte": "Si deux jeunes chrétiens s'aiment et ne peuvent plus attendre, la Bible ne leur dit pas de « sortir ensemble » : elle leur dit de se marier. S'ils manquent de continence, qu'ils se marient ; car il vaut mieux se marier que de brûler. Qu'ils parlent à leurs parents et à leur pasteur, et qu'ils avancent vers le mariage."
-    },
-    {
-     "verset": "1 Co 7:9"
+      "question": "Que dit Paul du célibat et du mariage ?",
+      "choix": [
+        "Que le célibat est une malédiction",
+        "Que chacun tient de Dieu un don particulier",
+        "Que tout le monde doit se marier jeune"
+      ],
+      "reponse": 1,
+      "explication": "1 Corinthiens 7:7.",
+      "section": "7"
     }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "Ce que tu dois faire maintenant",
-   "references": [
-    "2 Tm 2:22",
-    "Pr 4:23",
-    "1 Co 15:33",
-    "1 Jn 1:9"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Si tu es dans un copinage"
-    },
-    {
-     "texte": "Ne te justifie pas. Arrête. Si votre relation a un avenir dans la volonté de Dieu, présentez-la à vos parents et à votre pasteur, et entrez dans un chemin de fiançailles sérieux, sans relations sexuelles et sans moments seuls à risque. Si elle n'a pas d'avenir, rompez maintenant, avant de vous blesser davantage. Si tu as déjà péché, confesse-le : si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner."
-    },
-    {
-     "verset": "1 Jn 1:9"
-    },
-    {
-     "sous_titre": "Fuir et garder son cœur"
-    },
-    {
-     "texte": "Fuis les passions de la jeunesse, et recherche la justice, la foi, la charité, la paix, avec ceux qui invoquent le Seigneur d'un cœur pur. Garde ton cœur plus que toute autre chose. Évite les lieux et les heures qui te mettent en danger : la chambre, la nuit, les messages tard le soir. Choisis tes amis : les mauvaises compagnies corrompent les bonnes mœurs."
-    },
-    {
-     "verset": "2 Tm 2:22"
-    },
-    {
-     "verset": "Pr 4:23"
-    },
-    {
-     "verset": "1 Co 15:33"
-    },
-    {
-     "sous_titre": "Vivre pleinement sa saison"
-    },
-    {
-     "texte": "Ton célibat n'est pas une malédiction. C'est le temps de te consacrer à Dieu, de te former, de servir, de construire ton avenir. Le jour où Dieu te donnera ton conjoint, tu arriveras au mariage avec un cœur entier, un corps pur et une histoire sans regrets. Ça vaut la peine d'attendre."
-    }
-   ]
-  }
- ],
- "sujets": [
-  {
-   "titre": "Pardon et pureté",
-   "texte": "Confessons à Dieu nos relations impures et demandons-lui de purifier notre corps, notre âme et notre esprit. (1 Jean 1:9)"
-  },
-  {
-   "titre": "Rompre les liens",
-   "texte": "Demandons à Dieu de briser les liens d'âme créés par des relations hors du mariage. (2 Corinthiens 5:17)"
-  },
-  {
-   "titre": "Une saison consacrée",
-   "texte": "Prions afin de vivre notre célibat comme un temps pour s'occuper des choses du Seigneur, saints de corps et d'esprit. (1 Corinthiens 7:34)"
-  },
-  {
-   "titre": "Le conjoint de Dieu",
-   "texte": "Prions afin que Dieu nous conduise vers le conjoint qu'il a préparé, au bon moment et de la bonne manière. (Proverbes 18:22)"
-  },
-  {
-   "titre": "Les jeunes de l'église",
-   "texte": "Intercédons pour les jeunes de nos églises, afin qu'ils fuient les passions de la jeunesse. (2 Timothée 2:22)"
-  }
- ],
- "questions": [
-  {
-   "question": "Selon la Bible, quels sont les deux états possibles ?",
-   "choix": [
-    "Célibataire, en couple, marié",
-    "Célibataire ou marié",
-    "En couple ou fiancé"
-   ],
-   "reponse": 1,
-   "explication": "Il n'y a pas d'état « en couple » : chacun a sa femme, chaque femme son mari, ou l'on reste dans le célibat consacré. (1 Corinthiens 7:1-2, 32-34)",
-   "section": "1"
-  },
-  {
-   "question": "Que fait le copinage, selon le Cantique des cantiques ?",
-   "choix": [
-    "Il protège l'amour",
-    "Il réveille l'amour avant le temps",
-    "Il prépare forcément au mariage"
-   ],
-   "reponse": 1,
-   "explication": "« Ne réveillez pas l'amour avant qu'elle le veuille. » (Cantique 2:7)",
-   "section": "2"
-  },
-  {
-   "question": "Que dit Paul à ceux qui ne peuvent plus se retenir ?",
-   "choix": [
-    "De sortir ensemble discrètement",
-    "De se marier",
-    "D'attendre sans rien dire"
-   ],
-   "reponse": 1,
-   "explication": "« Il vaut mieux se marier que de brûler. » (1 Corinthiens 7:9)",
-   "section": "3"
-  }
- ],
- "devoir": [
-  "Si tu es dans un copinage, prends une décision cette semaine : rompre, ou présenter la relation à tes parents et à ton pasteur pour entrer dans des fiançailles saintes.",
-  "Écris trois « règles de protection » pour ta vie (lieux, heures, messages) et partage-les à un frère ou une sœur de confiance.",
-  "Lis 1 Corinthiens 7 en entier."
- ],
- "prieres_liees": [
-  "theme:priere-saintete",
-  "theme:priere-garder-son-coeur"
- ],
- "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-14",
- "relu": false
+  ],
+  "devoir": [
+    "Si tu es dans un copinage, prends une décision cette semaine : rompre, ou présenter la relation à tes parents et à ton pasteur pour entrer dans des fiançailles saintes.",
+    "Écris trois « règles de protection » pour ta vie (lieux, heures, messages) et partage-les à un frère ou une sœur de confiance.",
+    "Lis 1 Corinthiens 7 en entier."
+  ],
+  "prieres_liees": [
+    "theme:priere-saintete",
+    "theme:priere-garder-son-coeur"
+  ],
+  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-14",
+  "relu": false
 }
