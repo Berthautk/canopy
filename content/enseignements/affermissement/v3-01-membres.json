@@ -7,7 +7,7 @@
  "resume": "Première leçon du volume 3 de « Former le disciple » : on ne peut pas être chrétien tout seul. L'Église est un corps, et chaque croyant en est un membre qui a besoin des autres et dont les autres ont besoin.",
  "image": "/assets/vie-chretienne/communaute-silhouettes.webp",
  "verset_de_base": "Rm 12:5",
- "lecture_minutes": 36,
+ "lecture_minutes": 34,
  "objectifs": [
   "Comprendre que l'Église est un corps et non un lieu de culte.",
   "Voir que chaque membre a besoin des autres.",
@@ -395,27 +395,10 @@
    "numero": "10",
    "titre": "Chaque membre compte pour Dieu",
    "references": [
-    "Lc 15:3-7",
-    "Mt 18:12-14",
     "Ez 34:11-16",
     "Jn 10:11-16"
    ],
    "blocs": [
-    {
-     "sous_titre": "La brebis perdue"
-    },
-    {
-     "texte": "Jésus a raconté une parabole : quel homme d'entre vous, s'il a cent brebis, et qu'il en perde une, ne laisse les quatre-vingt-dix-neuf autres dans le désert pour aller après celle qui est perdue, jusqu'à ce qu'il la retrouve ? Lorsqu'il l'a retrouvée, il la met avec joie sur ses épaules, et, de retour à la maison, il appelle ses amis et ses voisins, et leur dit : réjouissez-vous avec moi, car j'ai trouvé ma brebis qui était perdue."
-    },
-    {
-     "verset": "Lc 15:3-7"
-    },
-    {
-     "texte": "Une brebis sur cent. Un pour cent. Dans une grande église, on pourrait se dire : « Ce n'est pas grave, il en reste beaucoup. » Le berger ne raisonne pas ainsi. Il va chercher celle qui manque. Matthieu ajoute : ce n'est pas la volonté de votre Père qui est dans les cieux qu'il se perde un seul de ces petits."
-    },
-    {
-     "verset": "Mt 18:12-14"
-    },
     {
      "sous_titre": "Dieu cherche ses brebis"
     },
@@ -628,14 +611,14 @@
    "section": "9"
   },
   {
-   "question": "Que fait le berger quand une brebis sur cent manque ?",
+   "question": "Que promet Dieu à ses brebis en Ézéchiel 34 ?",
    "choix": [
-    "Il la laisse",
-    "Il va la chercher jusqu'à ce qu'il la retrouve",
-    "Il en achète une autre"
+    "Rien",
+    "De chercher celle qui était perdue, ramener l'égarée, panser la blessée",
+    "De les abandonner"
    ],
    "reponse": 1,
-   "explication": "Luc 15:4. Être membre, c'est remarquer qui manque.",
+   "explication": "Ézéchiel 34:16. Être membre, c'est aussi remarquer qui manque.",
    "section": "10"
   },
   {
