@@ -16,3 +16,12 @@ export function useSignal(s) {
   useEffect(() => s.abonner(setV), [s]);
   return v;
 }
+
+// État d'écran gardé pendant la session (étape ouverte, sujets cochés…) : quand on part lire un verset
+// dans la Bible puis qu'on revient, la page se retrouve exactement comme on l'avait laissée.
+export function useMemoire(cle, defaut) {
+  const k = 'yeshaya:etat:' + (location.hash || '#/') + ':' + cle;
+  const [v, setV] = useState(() => { try { const s = sessionStorage.getItem(k); return s == null ? (typeof defaut === 'function' ? defaut() : defaut) : JSON.parse(s); } catch { return typeof defaut === 'function' ? defaut() : defaut; } });
+  const fixer = (x) => { const n = typeof x === 'function' ? x(v) : x; setV(n); try { sessionStorage.setItem(k, JSON.stringify(n)); } catch {} };
+  return [v, fixer];
+}

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'preact/hooks';
 import { Icone } from './Icone.jsx';
 import { TexteRefs } from './TexteRefs.jsx';
 import { voix, lireAVoixHaute, arreterVoix } from '../audio/voix.js';
-import { useSignal } from '../outils/signal.js';
+import { useSignal, useMemoire } from '../outils/signal.js';
 import { useVoixActive } from './Ecouter.jsx';
 import { noterPriere, noterSujetPrie } from '../donnees/priere.js';
 
@@ -12,7 +12,7 @@ const CONSIGNE = "Écoute le sujet de prière. Puis prie, avec tes propres mots,
 // la voix lit un sujet, la personne prie, puis appuie sur « J'ai prié » pour passer au suivant.
 // etapes = [{ titre, texte?, sujets: [{ titre?, texte }] }]
 export function PriereGuidee({ id, titre, etapes, auto, introduction }) {
-  const [ouvert, setOuvert] = useState(!!auto);
+  const [ouvert, setOuvert] = useMemoire('guide-ouvert-' + id, !!auto);
   const v = useSignal(voix);
   if (!v.disponible) return null;
   return (
@@ -22,7 +22,7 @@ export function PriereGuidee({ id, titre, etapes, auto, introduction }) {
         <span class="ligne__corps"><span class="ligne__titre" style="display:block">Écouter et prier</span>
           <span class="ligne__desc">{introduction ? "L'introduction, puis chaque sujet, un par un. " : 'Chaque sujet, un par un. '}Tu écoutes, tu pries, puis « J'ai prié ».</span></span>
       </button>
-      {ouvert && <Lecteur id={id} titre={titre} etapes={etapes} introduction={introduction} fermer={() => { arreterVoix(); setOuvert(false); }} />}
+      {ouvert && <Lecteur id={id} titre={titre} etapes={etapes} introduction={introduction} fermer={() => { arreterVoix(); setOuvert(false); try { sessionStorage.removeItem('yeshaya:etat:' + location.hash + ':guide-i-' + id); sessionStorage.removeItem('yeshaya:etat:' + location.hash + ':guide-faits-' + id); } catch {} }} />}
     </>
   );
 }
@@ -30,8 +30,8 @@ export function PriereGuidee({ id, titre, etapes, auto, introduction }) {
 function Lecteur({ id, titre, etapes, fermer, introduction }) {
   // Une seule liste : chaque sujet garde le titre de sa phase.
   const liste = etapes.flatMap((e, k) => e.sujets.map((s, j) => ({ ...s, phase: e.titre, introPhase: j === 0 ? e : null, k })));
-  const [i, setI] = useState(-1);         // -1 : consigne de départ ; liste.length : fin
-  const [faits, setFaits] = useState(0);
+  const [i, setI] = useMemoire('guide-i-' + id, -1);         // -1 : consigne de départ ; liste.length : fin
+  const [faits, setFaits] = useMemoire('guide-faits-' + id, 0);
   const vid = id + '-guide';
   const v = useSignal(voix);
   const parle = v.id === vid && v.lecture;

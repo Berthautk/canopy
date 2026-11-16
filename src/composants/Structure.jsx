@@ -1,6 +1,6 @@
 import { useState } from 'preact/hooks';
 import { Icone, Embleme } from './Icone.jsx';
-import { aller, retour } from '../outils/routeur.js';
+import { aller, retour, revenir, provenance, route } from '../outils/routeur.js';
 import { Avatar } from './Avatar.jsx';
 import { profil } from '../donnees/profil.js';
 import { useSignal } from '../outils/signal.js';
@@ -31,6 +31,7 @@ export function Entete({ titre, surMenu }) {
         <div class="sous-titre">
           <button class="entete__btn" onClick={() => retour()} aria-label="Retour"><Icone nom="retour" /></button>
           <h1>{titre}</h1>
+          <BoutonRevenir />
         </div>
       )}
     </header>
@@ -45,6 +46,17 @@ const ONGLETS = [
   ['jouer', 'Jeux', 'trophee'],
   ['bible', 'Bible', 'bible'],
 ];
+
+// Bouton « Revenir » : visible dans la Bible quand on y est arrivé depuis une autre page (un verset dans une prière…).
+export function BoutonRevenir() {
+  const p = useSignal(provenance), r = useSignal(route);
+  if (!p || !(r.segments[0] === 'bible' || r.segments[0] === 'montrer')) return null;
+  return (
+    <button class="revenir-pastille" onClick={revenir} aria-label={'Revenir à ' + (p.titre || 'la page précédente')}>
+      <Icone nom="retour" taille={16} /><span>{p.titre || 'Revenir'}</span>
+    </button>
+  );
+}
 
 export function BarreOnglets({ actif }) {
   return (

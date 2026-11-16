@@ -9,13 +9,13 @@ import { PriereGuidee } from '../../composants/PriereGuidee.jsx';
 import { BarreEcoute } from '../../composants/Ecouter.jsx';
 import { PRIERES, COMBAT, VEILLES, AUDIOS, veilleDuMoment } from '../../donnees/contenu.js';
 import { aiPrie, noterPriere, journal } from '../../donnees/priere.js';
-import { useSignal } from '../../outils/signal.js';
+import { useSignal, useMemoire } from '../../outils/signal.js';
 import { partager } from '../../outils/partage.js';
 
 // Écran 3 : prier maintenant, thèmes par catégorie, combat spirituel.
 export function Priere() {
   const j = useSignal(journal);
-  const [ouvert, setOuvert] = useState(null);       // catégorie dépliée
+  const [ouvert, setOuvert] = useMemoire('categorie', null);       // catégorie dépliée
   const v = veilleDuMoment();
   const categories = [...new Set(PRIERES.map((p) => p.categorie))];
   const enPriere = j.filter((r) => !r.exaucee).length, exaucees = j.length - enPriere;

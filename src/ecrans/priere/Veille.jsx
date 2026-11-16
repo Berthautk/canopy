@@ -5,13 +5,13 @@ import { TexteRefs } from '../../composants/TexteRefs.jsx';
 import { notifier } from '../../composants/Notification.jsx';
 import { VEILLES, GUIDE_PHASES } from '../../donnees/contenu.js';
 import { noterPriere, aiPrie } from '../../donnees/priere.js';
-import { useSignal } from '../../outils/signal.js';
+import { useSignal, useMemoire } from '../../outils/signal.js';
 import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 import { PriereGuidee } from '../../composants/PriereGuidee.jsx';
 
 // Liste de sujets à cocher (« appuie sur chaque point après l'avoir prié »).
 export function SujetsACocher({ sujets, cle, numerote, voixId, debut = 0 }) {
-  const [faits, setFaits] = useState({});
+  const [faits, setFaits] = useMemoire('sujets-' + (cle || voixId || '') + '-' + debut + '-' + (sujets[0]?.texte || '').slice(0, 24), {});
   const va = useVoixActive(voixId);
   const tous = sujets.length && sujets.every((_, i) => faits[i]);
   return (
@@ -44,7 +44,7 @@ export function GuidePhase({ num }) {
 export function Veille({ id, guide }) {
   const v = VEILLES.find((x) => x.id === 'veille-' + id) || VEILLES[0];
   const etapes = [...v.phases, { num: 'proc', titre: 'Proclamations', texte: 'Termine en déclarant à voix haute ces paroles de foi.', sujets: v.proclamations }];
-  const [n, setN] = useState(-1);
+  const [n, setN] = useMemoire('etape-' + v.id, -1);
   const fois = useSignal(aiPrie)[v.id] || [];
   const vaE = useVoixActive(`${v.id}-${n}`);
 

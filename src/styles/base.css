@@ -126,3 +126,9 @@ a { color: inherit; text-decoration: none; }
 /* Flèche « Retour » bien visible : pastille dorée, assez grande pour le doigt. */
 .sous-titre > .entete__btn:first-child { width: 40px; height: 40px; min-width: 40px; border-radius: 50%; background: var(--or, #C99A2E); color: #142340; display: grid; place-items: center; box-shadow: 0 2px 6px rgba(0,0,0,.25); margin-right: 6px; }
 .sous-titre > .entete__btn:first-child svg { width: 24px; height: 24px; stroke-width: 2.6; }
+
+/* ===== Pastille « Revenir où j'étais » dans la barre de titre (Bible ouverte depuis une autre page) ===== */
+.revenir-pastille { margin-left: auto; flex: 0 1 auto; max-width: 58%; min-width: 0; display: flex; align-items: center; gap: 6px;
+  padding: 8px 12px; border: 0; border-radius: 999px; background: var(--or, #D4A84B); color: #1b2333;
+  font: 700 13.5px var(--police-titre); box-shadow: 0 2px 8px rgba(0,0,0,.25); cursor: pointer; }
+.revenir-pastille span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
