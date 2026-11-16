@@ -1,14 +1,88 @@
 {
  "id": "nouveau-converti-jour-07",
  "jour": 7,
- "titre": "Le Saint-Esprit habite en toi",
  "image": "/assets/nouveau-converti/louange-au-soleil.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Le Saint-Esprit habite en toi",
+ "objectifs": [
+  "Qui est le Saint-Esprit",
+  "Ce qu'il fait dans ta vie",
+  "Comment marcher avec lui"
+ ],
+ "introduction": [
+  "Avant de quitter ses disciples, Jésus leur a fait une promesse étonnante : il ne les laisserait pas orphelins. Il enverrait un autre consolateur. Aujourd'hui, nous allons découvrir que ce consolateur, le Saint-Esprit, habite en toi depuis que tu as reçu Jésus."
+ ],
+ "sections": [
+  {
+   "titre": "Qui est le Saint-Esprit ?",
+   "texte": [
+    "### Une personne, pas une force",
+    "Le Saint-Esprit n'est pas une énergie, une force mystérieuse ou un fluide. Il est une personne divine, comme le Père et le Fils. Il parle, il enseigne, il conduit, il peut être attristé. Jésus a dit : je prierai le Père, et il vous donnera un autre consolateur, afin qu'il demeure éternellement avec vous, l'Esprit de vérité (Jean 14:16-17). Le mot traduit par consolateur veut dire « celui qu'on appelle à côté de soi » pour aider, défendre, encourager.",
+    "### Il habite en toi",
+    "Paul écrit : ne savez-vous pas que votre corps est le temple du Saint-Esprit qui est en vous, que vous avez reçu de Dieu ? (1 Corinthiens 6:19). Dans l'Ancien Testament, Dieu manifestait sa présence dans le temple de Jérusalem. Aujourd'hui, c'est en toi qu'il habite. Tu n'es jamais seul."
+   ]
+  },
+  {
+   "titre": "Ce qu'il fait dans ta vie",
+   "texte": [
+    "### Il te rassure",
+    "Paul dit : l'Esprit lui-même rend témoignage à notre esprit que nous sommes enfants de Dieu (Romains 8:16). C'est lui qui fait naître en toi cette assurance intérieure, ce cri d'enfant : « Abba, Père ! »",
+    "### Il t'enseigne et te change",
+    "Jésus a dit que l'Esprit nous enseignerait toutes choses et nous rappellerait ses paroles. Quand tu lis la Bible, c'est lui qui éclaire ton cœur. Il te convainc aussi de péché, non pour t'écraser, mais pour te purifier. Et peu à peu, il produit en toi son fruit : l'amour, la joie, la paix, la patience, la bonté, la bienveillance, la fidélité, la douceur, la maîtrise de soi (Galates 5:22).",
+    "### Il te donne la force de témoigner",
+    "Jésus a promis : vous recevrez une puissance, le Saint-Esprit survenant sur vous, et vous serez mes témoins (Actes 1:8). L'Esprit donne le courage de parler de Jésus et des dons pour servir l'Église. Nous en reparlerons."
+   ]
+  },
+  {
+   "titre": "Marcher avec lui",
+   "texte": [
+    "### Ne pas l'attrister",
+    "Paul dit : n'attristez pas le Saint-Esprit de Dieu (Éphésiens 4:30). On l'attriste par le mensonge, la colère, l'impureté, les paroles méchantes. Quand tu sens un malaise intérieur avant de faire quelque chose de mal, écoute-le : c'est souvent sa voix.",
+    "### Lui demander chaque jour",
+    "Chaque matin, tu peux prier simplement : « Saint-Esprit, remplis-moi aujourd'hui, conduis-moi, aide-moi à plaire à Jésus. » Ce n'est pas une formule : c'est une dépendance. Le chrétien ne vit pas par sa propre force, mais par l'Esprit.",
+    "On raconte l'histoire d'une commerçante du marché qui avait l'habitude de tricher un peu sur la balance. Quelques semaines après sa conversion, elle s'apprêtait à le faire avec une cliente âgée, quand elle sentit un malaise si fort qu'elle s'arrêta. Elle rajouta ce qui manquait. Le soir, elle raconta à son groupe de prière : « Personne ne m'a vue, mais quelqu'un en moi m'a dit non. » Le responsable lui lut 1 Corinthiens 6:19 : « C'était le Saint-Esprit, ton nouveau locataire. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "Le Saint-Esprit est une personne divine, le consolateur promis par Jésus (Jean 14:16-17).",
+  "Il habite en toi, il te rassure, t'enseigne, te change et te donne la force de témoigner.",
+  "Écoute sa voix, ne l'attriste pas, et demande-lui chaque jour de te conduire."
+ ],
+ "memoriser": "1 Co 6:19",
+ "quiz": [
+  {
+   "question": "Le Saint-Esprit est-il une simple force ?",
+   "choix": [
+    "Oui, une énergie",
+    "Non, c'est une personne divine",
+    "C'est un ange"
+   ],
+   "reponse": 1,
+   "explication": "Il parle, enseigne, conduit, peut être attristé.",
+   "section": "1"
+  },
+  {
+   "question": "Quel est le fruit de l'Esprit ?",
+   "choix": [
+    "La richesse",
+    "L'amour, la joie, la paix, la patience, la bonté...",
+    "Le succès"
+   ],
+   "reponse": 1,
+   "explication": "Galates 5:22.",
+   "section": "2"
+  }
+ ],
+ "pratique": "Lis Galates 5:16-26. Choisis une qualité du fruit de l'Esprit et demande au Saint-Esprit de la faire grandir en toi aujourd'hui, dans une situation précise.",
  "versets": [
   "Jn 14:16-17",
   "Rm 8:16",
   "1 Co 6:19"
  ],
- "texte": "Jésus a promis à ses disciples un autre consolateur : le Saint-Esprit. Il habite en chaque croyant. Il te guide, te console, te rappelle les paroles de Jésus, te donne la force d'obéir et rend témoignage que tu es enfant de Dieu. Ton corps est son temple.",
  "question": "Comment peux-tu être plus attentif à la voix du Saint-Esprit cette semaine ?",
  "sujets": [
   {
@@ -21,9 +95,5 @@
   }
  ],
  "priere": "Saint-Esprit, merci d'habiter en moi. Conduis-moi et remplis-moi. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

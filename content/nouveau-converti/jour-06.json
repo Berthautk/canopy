@@ -1,14 +1,86 @@
 {
  "id": "nouveau-converti-jour-06",
  "jour": 6,
- "titre": "En Christ, une nouvelle identité",
  "image": "/assets/temoignage/joie-bible-contre-coeur.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "En Christ, une nouvelle identité",
+ "objectifs": [
+  "Ce que veut dire être « en Christ »",
+  "Ce que Dieu dit de toi",
+  "Comment répondre aux voix qui t'accusent"
+ ],
+ "introduction": [
+  "Qui es-tu ? Beaucoup de gens répondent par leur nom, leur tribu, leur métier, ou par ce que les autres disent d'eux : « Je suis un échec », « je suis le maudit de la famille », « je suis une fille facile », « je suis un voleur ». Aujourd'hui, nous allons voir ce que Dieu dit de toi depuis que tu es en Christ."
+ ],
+ "sections": [
+  {
+   "titre": "Être « en Christ »",
+   "texte": [
+    "### Une expression qui revient sans cesse",
+    "Dans les lettres de Paul, l'expression « en Christ » ou « en lui » revient des dizaines de fois. Être en Christ, c'est être uni à lui, comme une branche est unie au tronc. Tout ce qui est à lui devient à toi : sa justice, sa victoire, sa relation avec le Père. Dieu ne te voit plus seul, avec tes fautes : il te voit en son Fils.",
+    "### Racheté et pardonné",
+    "Paul écrit : en lui nous avons la rédemption par son sang, la rémission des péchés, selon la richesse de sa grâce (Éphésiens 1:7). La rédemption, c'est le rachat d'un esclave. Tu étais esclave du péché et de la peur ; Jésus a payé le prix de ta liberté avec son propre sang."
+   ]
+  },
+  {
+   "titre": "Ce que Dieu dit de toi",
+   "texte": [
+    "### Plus de condamnation",
+    "Paul écrit : il n'y a donc maintenant aucune condamnation pour ceux qui sont en Jésus-Christ (Romains 8:1). Aucune. Pas une petite, pas une à moitié. Le jugement que tu méritais est tombé sur Jésus. Si tu es en Christ, Dieu ne te condamne pas.",
+    "### Une liste à relire",
+    "Selon la Bible, en Christ, tu es enfant de Dieu (Jean 1:12) ; tu es une nouvelle création (2 Corinthiens 5:17) ; tu es le temple du Saint-Esprit (1 Corinthiens 6:19) ; tu es l'ouvrage de Dieu, créé pour de bonnes œuvres (Éphésiens 2:10) ; tu es citoyen du ciel (Philippiens 3:20) ; tu es plus que vainqueur par celui qui t'a aimé (Romains 8:37). Ces vérités ne dépendent pas de ton humeur du jour."
+   ]
+  },
+  {
+   "titre": "Répondre aux voix qui accusent",
+   "texte": [
+    "### Les vieilles étiquettes",
+    "Les anciennes étiquettes vont essayer de revenir : un souvenir, une parole d'un parent, une moquerie d'un voisin, une pensée qui dit : « Tu ne changeras jamais. » Le diable est appelé l'accusateur de nos frères (Apocalypse 12:10). Il aime te rappeler ce que tu étais, pour t'empêcher de vivre ce que tu es devenu.",
+    "### Répondre par la Parole",
+    "Quand une pensée t'accuse, ne discute pas avec tes sentiments : réponds par ce que Dieu a dit. « Il est écrit : il n'y a aucune condamnation pour moi en Christ. » « Il est écrit : je suis une nouvelle création. » Avec le temps, la vérité de Dieu remplacera les mensonges qui t'ont été dits.",
+    "On raconte l'histoire d'un ancien enfant soldat, en Afrique centrale, qui ne pouvait pas oublier ce qu'il avait fait. Même après sa conversion, il se disait : « Je suis un meurtrier. » Un pasteur lui donna une feuille avec ce que Dieu dit de ceux qui sont en Christ, et lui demanda de la lire chaque matin devant le miroir. Pendant des mois, il pleura en la lisant. Puis un jour, il dit : « J'ai fait des choses terribles. Mais ce n'est plus mon nom. Mon nom, c'est pardonné. » Il travaille aujourd'hui avec des jeunes sortis des groupes armés."
+   ]
+  }
+ ],
+ "retenir": [
+  "Être en Christ, c'est être uni à lui : tout ce qui est à lui devient à toi.",
+  "Il n'y a aucune condamnation pour ceux qui sont en Jésus-Christ (Romains 8:1).",
+  "Réponds aux pensées qui t'accusent par ce que Dieu dit de toi dans sa Parole."
+ ],
+ "memoriser": "Rm 8:1",
+ "quiz": [
+  {
+   "question": "Combien de condamnation reste-t-il pour celui qui est en Christ ?",
+   "choix": [
+    "Un peu",
+    "Aucune",
+    "Cela dépend de ses efforts"
+   ],
+   "reponse": 1,
+   "explication": "Romains 8:1.",
+   "section": "2"
+  },
+  {
+   "question": "Comment répondre aux pensées qui t'accusent ?",
+   "choix": [
+    "En les écoutant",
+    "Par ce que Dieu dit de toi dans sa Parole",
+    "En faisant plus de sacrifices"
+   ],
+   "reponse": 1,
+   "explication": "« Il est écrit ».",
+   "section": "3"
+  }
+ ],
+ "pratique": "Écris sur une feuille la liste de ce que tu es en Christ, avec les références. Lis-la à haute voix ce soir et demain matin.",
  "versets": [
   "2 Co 5:17",
   "Ép 1:7",
   "Rm 8:1"
  ],
- "texte": "Être « en Christ », c'est être uni à lui. En lui, tu es pardonné, déclaré juste, accepté par Dieu. Il n'y a plus de condamnation pour toi. Ton identité ne vient plus de ton passé, de ce que disent les autres ou de tes échecs, mais de ce que Dieu dit de toi.",
  "question": "Quelle fausse étiquette portais-tu sur toi-même ? Que dit Dieu à la place ?",
  "sujets": [
   {
@@ -21,9 +93,5 @@
   }
  ],
  "priere": "Père, merci, en Christ je suis pardonné et accepté. Je reçois l'identité que tu me donnes. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

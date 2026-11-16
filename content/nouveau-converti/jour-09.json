@@ -1,14 +1,86 @@
 {
  "id": "nouveau-converti-jour-09",
  "jour": 9,
- "titre": "Quand je tombe : la confession",
  "image": "/assets/vie-chretienne/priere-au-pied-de-la-croix.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Quand je tombe : la confession",
+ "objectifs": [
+  "Pourquoi un chrétien peut encore pécher",
+  "Comment revenir à Dieu par la confession",
+  "Avancer sans se cacher"
+ ],
+ "introduction": [
+  "Un jour ou l'autre, cela arrive : tu te mets en colère, tu mens, tu regardes ce que tu ne devais pas regarder, tu retombes dans une ancienne habitude. Tu te sens honteux et tu te demandes : « Suis-je encore chrétien ? Dieu va-t-il me rejeter ? » Aujourd'hui, nous allons voir ce que Dieu a prévu pour ses enfants qui tombent."
+ ],
+ "sections": [
+  {
+   "titre": "Le chrétien peut encore tomber",
+   "texte": [
+    "### Pas parfait, mais pardonné",
+    "Jean écrit : si nous disons que nous n'avons pas de péché, nous nous séduisons nous-mêmes, et la vérité n'est point en nous (1 Jean 1:8). Devenir chrétien ne fait pas de toi quelqu'un de parfait d'un seul coup. Tu as une nature nouvelle, mais tu vis encore dans un corps et un monde marqués par le péché. Le combat commence.",
+    "### Un avocat auprès du Père",
+    "Jean ajoute : mes petits enfants, je vous écris ces choses afin que vous ne péchiez point. Et si quelqu'un a péché, nous avons un avocat auprès du Père, Jésus-Christ le juste (1 Jean 2:1). Le but est de ne pas pécher. Mais si tu tombes, tu n'es pas abandonné : Jésus lui-même plaide pour toi, sur la base de son sacrifice."
+   ]
+  },
+  {
+   "titre": "La confession",
+   "texte": [
+    "### Ce que veut dire confesser",
+    "Jean écrit : si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et pour nous purifier de toute iniquité (1 Jean 1:9). Confesser, c'est dire la même chose que Dieu sur son péché : l'appeler par son nom, sans excuses. Pas « j'ai un peu exagéré », mais « j'ai menti ». Pas « c'est la faute de ma femme », mais « j'ai été dur et méchant ».",
+    "### Fidèle et juste",
+    "Dieu pardonne parce qu'il est fidèle à sa promesse, et juste, car Jésus a déjà payé pour ce péché. Tu n'as pas besoin de te punir toi-même, de faire des sacrifices ou d'attendre des jours avant de revenir. Reviens tout de suite."
+   ]
+  },
+  {
+   "titre": "Ne pas se cacher",
+   "texte": [
+    "### Celui qui cache ses fautes",
+    "Le livre des Proverbes dit : celui qui cache ses transgressions ne prospère point, mais celui qui les avoue et les délaisse obtient miséricorde (Proverbes 28:13). Adam et Ève se sont cachés après leur faute. Le péché caché grandit dans l'ombre. Le péché confessé perd sa force.",
+    "### Avouer et délaisser",
+    "La confession n'est pas seulement des mots : elle s'accompagne d'une décision de délaisser ce péché, et parfois de réparer le tort fait à quelqu'un. Si un péché revient souvent, parles-en à un frère ou une sœur mature, qui priera avec toi. Jacques dit : confessez donc vos péchés les uns aux autres, et priez les uns pour les autres, afin que vous soyez guéris (Jacques 5:16).",
+    "On raconte l'histoire d'un jeune apprenti mécanicien qui, un mois après sa conversion, avait volé une pièce dans le garage de son patron. Il se sentait si mal qu'il n'osait plus prier ni aller à l'église. Un dimanche, il raconta tout à son responsable de groupe. Celui-ci lui lut 1 Jean 1:9, pria avec lui, puis lui demanda : « Et la pièce ? » Le lendemain, tremblant, le jeune rapporta la pièce à son patron et s'excusa. Le patron, musulman, lui dit : « Ta religion t'a rendu honnête. Je veux en savoir plus. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "Le chrétien peut encore tomber, mais Jésus est son avocat auprès du Père (1 Jean 2:1).",
+  "Si nous confessons nos péchés, Dieu est fidèle et juste pour nous pardonner (1 Jean 1:9).",
+  "Ne cache pas ton péché : avoue-le, délaisse-le, répare si nécessaire, et fais-toi aider."
+ ],
+ "memoriser": "1 Jn 1:9",
+ "quiz": [
+  {
+   "question": "Que faire quand on a péché ?",
+   "choix": [
+    "Se cacher quelques jours",
+    "Confesser tout de suite à Dieu et délaisser ce péché",
+    "Faire un sacrifice"
+   ],
+   "reponse": 1,
+   "explication": "1 Jean 1:9 ; Proverbes 28:13.",
+   "section": "2"
+  },
+  {
+   "question": "Que veut dire confesser son péché ?",
+   "choix": [
+    "Trouver des excuses",
+    "Appeler son péché par son nom, comme Dieu le voit",
+    "Dire à tout le monde qu'on est mauvais"
+   ],
+   "reponse": 1,
+   "explication": "Sans excuses ni accusations.",
+   "section": "2"
+  }
+ ],
+ "pratique": "Prends un moment de silence. Demande au Saint-Esprit de te montrer un péché non confessé. Confesse-le à Dieu avec des mots précis, et s'il faut réparer quelque chose, décide quand tu le feras.",
  "versets": [
   "1 Jn 1:9",
   "1 Jn 2:1",
   "Pr 28:13"
  ],
- "texte": "Un enfant de Dieu peut encore pécher. Quand cela arrive, ne fuis pas Dieu : reviens à lui tout de suite. Confesse ta faute simplement, sans te cacher. Il est fidèle et juste pour pardonner. Jésus est ton avocat auprès du Père. La confession restaure la communion.",
  "question": "Y a-t-il une faute que tu dois confesser aujourd'hui ?",
  "sujets": [
   {
@@ -21,9 +93,5 @@
   }
  ],
  "priere": "Père, je confesse ma faute. Merci de me pardonner et de me purifier par le sang de Jésus. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

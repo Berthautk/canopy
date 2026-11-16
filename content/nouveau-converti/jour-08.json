@@ -1,14 +1,86 @@
 {
  "id": "nouveau-converti-jour-08",
  "jour": 8,
- "titre": "Les faits avant les sentiments",
  "image": "/assets/symboles/ancre-esperance.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Les faits avant les sentiments",
+ "objectifs": [
+  "Pourquoi tu peux être sûr de ton salut",
+  "Le danger de se fier aux émotions",
+  "L'image du train"
+ ],
+ "introduction": [
+  "Après quelques jours de joie, beaucoup de nouveaux chrétiens connaissent un moment de doute : « Je ne sens plus rien. Est-ce que Dieu m'a vraiment sauvé ? Peut-être que j'ai seulement rêvé. » Aujourd'hui, nous allons voir sur quoi repose ton assurance."
+ ],
+ "sections": [
+  {
+   "titre": "Tu peux savoir",
+   "texte": [
+    "### Écrit pour que tu saches",
+    "Jean écrit : je vous ai écrit ces choses, afin que vous sachiez que vous avez la vie éternelle, vous qui croyez au nom du Fils de Dieu (1 Jean 5:13). Remarque : « afin que vous sachiez ». Dieu ne veut pas que tu vives dans le doute ou dans l'espoir vague. Il veut que tu saches. Ton assurance repose sur sa promesse, et non sur ta performance.",
+    "### La main qui ne lâche pas",
+    "Jésus a dit de ses brebis : je leur donne la vie éternelle ; et elles ne périront jamais, et personne ne les ravira de ma main. Mon Père, qui me les a données, est plus grand que tous ; et personne ne peut les ravir de la main de mon Père (Jean 10:28-29). Tu n'es pas sauvé parce que tu tiens fort Jésus, mais parce que Jésus te tient. Et sa main est plus forte que ta faiblesse."
+   ]
+  },
+  {
+   "titre": "Les émotions changent",
+   "texte": [
+    "### Comme la météo",
+    "Les sentiments changent comme la météo : un jour ensoleillé, un jour pluvieux. Ils dépendent du sommeil, de la santé, des problèmes, de ce qu'on a mangé. Si ta foi dépendait de tes émotions, elle monterait et descendrait sans cesse. Mais Dieu ne change pas. Il a dit : je ne te délaisserai point, et je ne t'abandonnerai point (Hébreux 13:5).",
+    "### Les émotions sont bonnes, mais elles ne commandent pas",
+    "Les émotions ne sont pas mauvaises : la joie, les larmes, la paix sont des dons de Dieu. Mais elles doivent suivre, et non conduire. Quand tu ne sens rien, rappelle-toi ce qui est vrai."
+   ]
+  },
+  {
+   "titre": "L'image du train",
+   "texte": [
+    "### La locomotive, le wagon de charbon, le dernier wagon",
+    "Imagine un train à trois parties. La locomotive, c'est le fait : ce que Dieu a dit dans sa Parole. Le wagon de charbon, c'est la foi : ta confiance dans ce que Dieu a dit. Le dernier wagon, ce sont les sentiments. Le train avance grâce à la locomotive, alimentée par le charbon. Il roule avec ou sans le dernier wagon. Il serait absurde d'essayer de tirer le train avec le dernier wagon.",
+    "### Que faire quand le doute vient",
+    "Quand le doute vient, ne cherche pas d'abord à ressentir quelque chose. Ouvre la Bible, relis une promesse comme 1 Jean 5:13 ou Jean 10:28, et dis à Dieu : « Je te crois, même si je ne sens rien. » Souvent, la paix revient ensuite, comme le dernier wagon qui suit.",
+    "On raconte l'histoire d'une étudiante qui avait reçu Jésus pendant une campagne d'évangélisation, dans une grande joie. Deux semaines plus tard, en période d'examens, fatiguée et stressée, elle se dit : « Tout cela n'était qu'une émotion. » Elle faillit tout abandonner. Sa cousine lui demanda : « Jésus a-t-il changé, ou est-ce toi qui es fatiguée ? » Elles relurent ensemble Jean 10:28. L'étudiante dit : « Ce soir-là, j'ai appris à croire avec ma tête quand mon cœur dormait. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "Dieu veut que tu saches que tu as la vie éternelle (1 Jean 5:13).",
+  "Tu es sauvé parce que Jésus te tient, et personne ne peut t'arracher de sa main (Jean 10:28-29).",
+  "Les faits de la Parole d'abord, la foi ensuite, les sentiments suivent."
+ ],
+ "memoriser": "1 Jn 5:13",
+ "quiz": [
+  {
+   "question": "Sur quoi repose l'assurance du salut ?",
+   "choix": [
+    "Sur nos émotions",
+    "Sur la promesse de Dieu dans sa Parole",
+    "Sur nos bonnes œuvres"
+   ],
+   "reponse": 1,
+   "explication": "1 Jean 5:13.",
+   "section": "1"
+  },
+  {
+   "question": "Dans l'image du train, que représente le dernier wagon ?",
+   "choix": [
+    "La Parole de Dieu",
+    "La foi",
+    "Les sentiments"
+   ],
+   "reponse": 2,
+   "explication": "Le train roule avec ou sans lui.",
+   "section": "3"
+  }
+ ],
+ "pratique": "Apprends par cœur 1 Jean 5:13. La prochaine fois qu'un doute vient, récite-le et dis : « Je te crois, Seigneur, même si je ne sens rien. »",
  "versets": [
   "1 Jn 5:13",
   "Jn 10:28-29",
   "Hé 13:5"
  ],
- "texte": "Certains jours, tu ne te sentiras pas proche de Dieu. Ce n'est pas grave. Ta foi repose sur des faits : ce que Jésus a fait et ce que Dieu a promis. Les sentiments suivent, comme un wagon suit la locomotive. Appuie-toi sur la Parole, même quand tu ne ressens rien.",
  "question": "Quelle promesse de Dieu vas-tu garder en mémoire pour les jours difficiles ?",
  "sujets": [
   {
@@ -21,9 +93,5 @@
   }
  ],
  "priere": "Seigneur, même quand je ne ressens rien, je crois ta Parole. Tu es avec moi. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

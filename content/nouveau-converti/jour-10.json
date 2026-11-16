@@ -1,14 +1,86 @@
 {
  "id": "nouveau-converti-jour-10",
  "jour": 10,
- "titre": "Le baptême",
  "image": "/assets/eglise/bapteme-en-bassin.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Le baptême",
+ "objectifs": [
+  "Ce que signifie le baptême",
+  "Pourquoi Jésus le demande",
+  "Comment s'y préparer"
+ ],
+ "introduction": [
+  "Dans le Nouveau Testament, ceux qui recevaient Jésus étaient baptisés, souvent très vite. Le baptême n'est pas une simple tradition d'église : c'est un commandement de Jésus. Aujourd'hui, nous allons comprendre ce qu'il signifie, pour que tu puisses le vivre en connaissance de cause."
+ ],
+ "sections": [
+  {
+   "titre": "Un commandement de Jésus",
+   "texte": [
+    "### Allez, faites des disciples, baptisez",
+    "Avant de monter au ciel, Jésus a dit à ses disciples : allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit, et enseignez-leur à observer tout ce que je vous ai prescrit (Matthieu 28:19-20). Le baptême fait partie du chemin normal du disciple. Jésus lui-même a été baptisé, pour nous montrer l'exemple.",
+    "### Repentez-vous, et soyez baptisés",
+    "Le jour de la Pentecôte, quand la foule demanda ce qu'il fallait faire, Pierre répondit : repentez-vous, et que chacun de vous soit baptisé au nom de Jésus-Christ, pour le pardon de vos péchés ; et vous recevrez le don du Saint-Esprit (Actes 2:38). Ce jour-là, environ trois mille personnes furent baptisées."
+   ]
+  },
+  {
+   "titre": "Ce que signifie le baptême",
+   "texte": [
+    "### Mort et résurrection avec Christ",
+    "Paul explique : nous avons donc été ensevelis avec lui par le baptême en sa mort, afin que, comme Christ est ressuscité des morts par la gloire du Père, de même nous aussi nous marchions en nouveauté de vie (Romains 6:4). Quand on descend dans l'eau, c'est comme un enterrement : l'ancienne vie est ensevelie. Quand on remonte, c'est comme une résurrection : on sort pour vivre une vie nouvelle.",
+    "### Un témoignage public",
+    "Le baptême est aussi un témoignage public. Devant l'Église, ta famille, tes amis, tu déclares : « J'appartiens désormais à Jésus. » Dans certaines familles et certains pays, ce pas coûte cher. Mais il fortifie la foi de celui qui le fait, et il encourage ceux qui le voient."
+   ]
+  },
+  {
+   "titre": "Ce que le baptême n'est pas",
+   "texte": [
+    "### Pas une eau magique",
+    "Le baptême ne sauve pas par lui-même, comme si l'eau avait un pouvoir magique. On est sauvé par la grâce, par la foi en Jésus. Le baptême est le signe visible d'une réalité invisible, comme une alliance au doigt est le signe d'un mariage. L'alliance ne crée pas le mariage, mais celui qui refuse de la porter montre que quelque chose ne va pas.",
+    "### Un pas d'obéissance",
+    "Si tu as cru en Jésus et que tu n'as pas encore été baptisé comme croyant, parle-en à ton église. On te proposera probablement quelques rencontres de préparation. Ce n'est pas un examen difficile : c'est un temps pour comprendre et décider. Il y a aussi un enseignement complet sur les baptêmes dans la rubrique Fondations.",
+    "On raconte l'histoire d'un homme dont la famille, très attachée aux traditions, l'avait menacé de le chasser s'il se faisait baptiser. Il hésita pendant des mois. Un jour, il lut l'histoire de l'eunuque éthiopien, qui demandait : voici de l'eau ; qu'est-ce qui empêche que je sois baptisé ? Il prit sa décision. Le jour de son baptême, son frère aîné vint, en cachette, au fond de la salle. Deux ans plus tard, c'est ce frère qui descendait à son tour dans l'eau."
+   ]
+  }
+ ],
+ "retenir": [
+  "Le baptême est un commandement de Jésus pour tous ses disciples (Matthieu 28:19).",
+  "Il représente la mort de l'ancienne vie et la résurrection à une vie nouvelle avec Christ (Romains 6:4).",
+  "Il ne sauve pas par lui-même : c'est le signe visible et le témoignage public d'une foi réelle."
+ ],
+ "memoriser": "Rm 6:4",
+ "quiz": [
+  {
+   "question": "Que représente la descente dans l'eau du baptême ?",
+   "choix": [
+    "Un bain de purification magique",
+    "L'ensevelissement de l'ancienne vie avec Christ",
+    "Une tradition sans sens"
+   ],
+   "reponse": 1,
+   "explication": "Romains 6:4.",
+   "section": "2"
+  },
+  {
+   "question": "Le baptême sauve-t-il par lui-même ?",
+   "choix": [
+    "Oui, l'eau a un pouvoir",
+    "Non, on est sauvé par la grâce par la foi ; le baptême en est le signe",
+    "Seulement dans une rivière"
+   ],
+   "reponse": 1,
+   "explication": "Comme l'alliance est le signe du mariage.",
+   "section": "3"
+  }
+ ],
+ "pratique": "Si tu n'as pas encore été baptisé comme croyant, parles-en cette semaine à un responsable de ton église. Si tu l'es déjà, remercie Dieu en relisant Romains 6:1-11.",
  "versets": [
   "Mt 28:19",
   "Ac 2:38",
   "Rm 6:4"
  ],
- "texte": "Jésus a demandé à ses disciples de baptiser ceux qui croient. Le baptême ne sauve pas : il est le signe public que tu appartiens à Jésus. Être plongé dans l'eau, puis en sortir, montre que tu es mort au péché avec Christ et que tu vis une vie nouvelle avec lui. Parles-en à un responsable de ton Église.",
  "question": "Qu'est-ce qui pourrait t'empêcher de te faire baptiser ?",
  "sujets": [
   {
@@ -21,9 +93,5 @@
   }
  ],
  "priere": "Seigneur, je veux t'obéir et témoigner publiquement que je t'appartiens. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }
