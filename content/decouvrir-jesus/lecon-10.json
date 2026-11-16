@@ -1,38 +1,230 @@
 {
  "id": "decouvrir-jesus-10",
  "jour": 10,
- "titre": "Mes premiers pas avec Jésus",
  "image": "/assets/nouveau-converti/bapteme.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
+ "titre": "Mes premiers pas avec Jésus",
+ "objectifs": [
+  "Pourquoi la vie chrétienne est une croissance",
+  "Les premiers pas : le dire, être baptisé, rejoindre une église",
+  "Se nourrir chaque jour de la Parole et de la prière",
+  "Rompre avec le passé et affronter les premiers combats",
+  "Pourquoi tu as besoin d'un accompagnateur",
+  "Comment continuer après ce parcours"
+ ],
+ "introduction": [
+  "Quand un bébé naît, la naissance est un moment de joie immense. Mais personne ne dit : voilà, c'est fini. Au contraire, tout commence. Le bébé doit être nourri, protégé, lavé, aimé, et il va grandir pendant des années. Il en est de même pour la vie spirituelle. Recevoir Jésus, c'est naître de nouveau. Maintenant commence la croissance.",
+  "Beaucoup de nouveaux convertis commencent avec beaucoup de joie, puis s'éteignent après quelques semaines. Pas parce que Dieu les a abandonnés, mais parce que personne ne leur a montré comment grandir. Dans cette dernière leçon, nous allons voir les premiers pas concrets qui t'aideront à rester debout et à grandir."
+ ],
  "sections": [
+  {
+   "titre": "Une naissance, puis une croissance",
+   "texte": [
+    "### Comme des enfants nouveau-nés",
+    "> 1 P 2:2",
+    "Pierre écrit : désirez, comme des enfants nouveau-nés, le lait spirituel et pur, afin que par lui vous croissiez pour le salut. Un bébé n'a pas besoin qu'on lui explique qu'il a faim : il le sait, et il crie. Le nouveau chrétien doit avoir faim de la Parole de Dieu.",
+    "### Pas parfait, mais en chemin",
+    "Tu ne deviendras pas un chrétien mûr en une semaine. Il y aura des progrès et des chutes. C'est normal. Pierre termine sa deuxième lettre en disant : croissez dans la grâce et dans la connaissance de notre Seigneur et Sauveur Jésus-Christ (2 Pierre 3:18). Croître, c'est lent, mais c'est sûr, si l'on reste nourri.",
+    "### Les racines d'abord",
+    "Un arbre qui pousse vite sans racines tombe au premier vent. Prends le temps de poser des racines profondes : comprendre l'Évangile, connaître la Bible, apprendre à prier, t'attacher à une église. C'est tout le but de la section Fondations de Yeshaya."
+   ]
+  },
   {
    "titre": "Le dire autour de soi",
    "texte": [
-    "Jésus a dit : quiconque me confessera devant les hommes, je le confesserai aussi devant mon Père qui est dans les cieux (Matthieu 10:32). Ne cache pas ta décision. Dis-la à ta famille, à tes amis, avec simplicité et sans orgueil.",
-    "Certains se moqueront peut-être. D'autres seront curieux. Ton témoignage est puissant, parce que c'est ton histoire. Et il protège ta décision : celui qui a dit publiquement « je suis à Jésus » est plus fort face à la tentation."
+    "### Ne pas cacher sa nouvelle vie",
+    "Quand Jésus a délivré l'homme de Gadara, celui-ci voulait le suivre. Mais Jésus lui a dit : va dans ta maison, vers les tiens, et raconte-leur tout ce que le Seigneur t'a fait (Marc 5:19). Ton premier champ de témoignage, c'est ta famille, tes amis, tes voisins.",
+    "### Simplement et humblement",
+    "Tu n'as pas besoin de prêcher un grand sermon. Dis simplement : j'ai donné ma vie à Jésus, il m'a pardonné, et je veux le suivre. Ne te mets pas au-dessus des autres, ne les juge pas. Raconte ce que Dieu a fait pour toi.",
+    "### Le prix",
+    "Dans certaines familles, dire qu'on a donné sa vie à Jésus provoque des moqueries, des disputes, et parfois des persécutions. Si c'est ton cas, sois prudent, respectueux, patient. Continue d'honorer tes parents, de travailler, d'aider. Ta vie changée parlera parfois plus fort que tes paroles."
    ]
   },
   {
-   "titre": "Le baptême et l'Église",
+   "titre": "Le baptême",
    "texte": [
-    "Le jour de la Pentecôte, ceux qui acceptèrent la parole furent baptisés, et ils persévéraient dans l'enseignement des apôtres, dans la communion fraternelle, dans la fraction du pain, et dans les prières (Actes 2:41-42). Le baptême est le premier acte d'obéissance du nouveau croyant : il montre publiquement que tu es mort et ressuscité avec Christ.",
-    "Ne reste pas seul. Cherche une église où l'on prêche la Bible, où l'on appelle à la repentance et à la sainteté, et où Jésus est au centre. N'abandonnons pas notre assemblée, comme c'est la coutume de quelques-uns (Hébreux 10:25). Un charbon qu'on retire du feu s'éteint vite."
+    "### Un commandement de Jésus",
+    "Jésus a demandé à ses disciples d'aller faire des disciples de toutes les nations, les baptisant au nom du Père, du Fils et du Saint-Esprit (Matthieu 28:19). Dans le livre des Actes, ceux qui croyaient étaient baptisés rapidement : ceux qui acceptèrent sa parole furent baptisés (Actes 2:41).",
+    "### Ce que le baptême signifie",
+    "> Rm 6:3-4",
+    "Le baptême par immersion est une image puissante. En descendant dans l'eau, tu déclares que ta vieille vie est morte et ensevelie avec Christ. En sortant de l'eau, tu déclares que tu es ressuscité avec lui pour une vie nouvelle. Le baptême ne te sauve pas : c'est Jésus qui sauve. Mais c'est un acte d'obéissance et une déclaration publique devant Dieu, l'Église et le monde.",
+    "### Le demander",
+    "Si tu n'as pas encore été baptisé depuis que tu as cru, parle-en au pasteur d'une église qui enseigne fidèlement la Bible. L'enseignement « Baptême et sainte cène », dans les Fondations, t'expliquera tout en détail."
    ]
   },
   {
-   "titre": "Se nourrir chaque jour",
+   "titre": "Rejoindre une église locale",
    "texte": [
-    "Désirez, comme des enfants nouveau-nés, le lait spirituel et pur, afin que par lui vous croissiez pour le salut (1 Pierre 2:2). Lis la Bible chaque jour, en commençant par l'Évangile de Jean. Parle à Dieu chaque jour, simplement, comme à un Père. Tu peux utiliser l'application : la Bible lue à voix haute, les veilles de prière, les enseignements.",
-    "Rompre avec le passé fait aussi partie de la croissance : brûle les fétiches, supprime ce qui te fait tomber, éloigne-toi des mauvaises compagnies. Et continue : le parcours « Nouveau converti » et « Former le disciple » t'accompagneront pas à pas."
+    "### Une famille, pas un spectacle",
+    "Un chrétien isolé est comme un mouton seul loin du troupeau : il devient une proie facile. Les premiers chrétiens persévéraient dans l'enseignement des apôtres, dans la communion fraternelle, dans la fraction du pain, et dans les prières (Actes 2:42). Ils ne vivaient pas leur foi seuls.",
+    "### Comment choisir une église",
+    "Toutes les églises ne se valent pas. Cherche une église où la Bible est enseignée fidèlement, où Jésus est au centre, où l'on appelle à la repentance et à la sainteté, où l'argent n'est pas le sujet principal, et où les responsables vivent ce qu'ils prêchent. Méfie-toi des lieux où l'on te promet la richesse en échange d'offrandes, où un homme se fait adorer, ou où l'on mélange l'Évangile avec des pratiques occultes.",
+    "### Ne pas abandonner les réunions",
+    "L'épître aux Hébreux dit : n'abandonnons pas notre assemblée, comme c'est la coutume de quelques-uns ; mais exhortons-nous réciproquement (Hébreux 10:25). Va aux réunions, pas seulement pour recevoir, mais aussi pour encourager les autres."
+   ]
+  },
+  {
+   "titre": "Se nourrir de la Parole chaque jour",
+   "texte": [
+    "### Le pain quotidien",
+    "Jésus a dit : l'homme ne vivra pas de pain seulement, mais de toute parole qui sort de la bouche de Dieu (Matthieu 4:4). Ton corps a besoin de manger chaque jour ; ton âme aussi.",
+    "### Par où commencer",
+    "Ne commence pas par le Lévitique ou l'Apocalypse. Commence par l'évangile de Marc, puis de Jean, puis le livre des Actes, puis une lettre comme Philippiens. Lis un chapitre par jour, lentement. Pose-toi trois questions : qu'est-ce que ce texte dit de Dieu ? Qu'est-ce qu'il dit de moi ? Qu'est-ce que je dois faire ? Dans l'onglet Bible de Yeshaya, tu trouveras des plans de lecture pour t'aider.",
+    "### Si tu ne lis pas bien",
+    "Si tu as du mal à lire, ne te décourage pas. Yeshaya peut lire la Bible à voix haute pour toi. Tu peux aussi demander à un frère ou une sœur de lire avec toi. Dieu parle à ceux qui écoutent."
+   ]
+  },
+  {
+   "titre": "Parler à Dieu chaque jour",
+   "texte": [
+    "### Un Père qui écoute",
+    "La prière, c'est parler à Dieu comme un enfant parle à son père. Pas besoin de grands mots. Jésus a dit : quand tu pries, entre dans ta chambre, ferme ta porte, et prie ton Père qui est là dans le lieu secret (Matthieu 6:6).",
+    "### Un moment fixe",
+    "Choisis un moment fixe chaque jour, par exemple le matin avant de commencer ta journée, même dix minutes. Lis un passage de la Bible, puis parle à Dieu : remercie-le, confesse tes péchés, demande son aide pour toi et pour les autres.",
+    "### Prier en tout temps",
+    "En dehors de ce moment fixe, tu peux parler à Dieu à tout moment : au travail, au marché, sur la route. Ne vous inquiétez de rien ; mais en toute chose faites connaître vos besoins à Dieu par des prières et des supplications, avec des actions de grâces (Philippiens 4:6). L'onglet Prière de Yeshaya t'aidera à prier chaque jour."
+   ]
+  },
+  {
+   "titre": "Rompre avec le passé",
+   "texte": [
+    "### Sortir de certaines choses",
+    "> 2 Co 6:17-18",
+    "Dieu dit à son peuple : sortez du milieu d'eux, et séparez-vous ; ne touchez pas à ce qui est impur, et je vous accueillerai. Je serai pour vous un père, et vous serez pour moi des fils et des filles. Suivre Jésus demande parfois de quitter certains lieux, certaines habitudes et certaines relations qui nous ramènent au péché.",
+    "### Les objets et les pratiques occultes",
+    "Si tu possèdes des fétiches, des amulettes, des livres de magie, des objets donnés par un marabout ou liés à un culte, ils doivent être détruits. Ne les garde pas « au cas où ». Fais-le avec l'aide de responsables chrétiens, dans la prière.",
+    "### Les relations",
+    "Certaines relations devront changer : une relation sexuelle hors mariage doit prendre fin ; des amis qui t'entraînent à boire, à voler ou à tricher doivent être aimés de loin. Ne méprise personne, mais protège ta nouvelle vie. Les mauvaises compagnies corrompent les bonnes mœurs (1 Corinthiens 15:33)."
+   ]
+  },
+  {
+   "titre": "Les premiers combats",
+   "texte": [
+    "### La tentation viendra",
+    "Ne t'étonne pas si, après ta conversion, les tentations semblent plus fortes. Le diable ne s'intéresse pas beaucoup à ceux qui lui appartiennent déjà ; il attaque ceux qui viennent de le quitter. Mais Dieu a promis : aucune tentation ne vous est survenue qui n'ait été humaine, et Dieu, qui est fidèle, ne permettra pas que vous soyez tentés au-delà de vos forces ; mais avec la tentation il préparera aussi le moyen d'en sortir (1 Corinthiens 10:13).",
+    "### L'opposition",
+    "Paul avertit Timothée : tous ceux qui veulent vivre pieusement en Jésus-Christ seront persécutés (2 Timothée 3:12). Cela peut être des moqueries, un rejet, une pression pour revenir aux anciennes pratiques. Ne te décourage pas : tu n'es pas seul, et Jésus a vaincu le monde.",
+    "### Si tu tombes",
+    "Si tu tombes, ne reste pas par terre. Relève-toi, confesse ton péché, et continue. Le juste tombe sept fois, et il se relève (Proverbes 24:16). Le danger n'est pas de tomber, c'est de rester couché."
+   ]
+  },
+  {
+   "titre": "Trouver un accompagnateur",
+   "texte": [
+    "### Personne ne grandit seul",
+    "Dans la Bible, Moïse a formé Josué, Élie a formé Élisée, Paul a formé Timothée. Le nouveau chrétien a besoin d'un frère ou d'une sœur plus avancé dans la foi, qui prie pour lui, répond à ses questions, l'encourage et le reprend avec amour.",
+    "### Comment le trouver",
+    "Demande au pasteur de ton église de te mettre en contact avec un chrétien mûr, de ton sexe de préférence, qui pourra te suivre pendant quelques mois. Rencontrez-vous régulièrement. Parlez des leçons de ce parcours. Partage-lui tes victoires, tes chutes et tes questions. Tout au long de ces leçons, la rubrique « Parles-en » est là pour cela."
+   ]
+  },
+  {
+   "titre": "Et après ce parcours ?",
+   "texte": [
+    "### Mes 30 premiers jours avec Christ",
+    "Le parcours suivant, « Mes 30 premiers jours avec Christ », te propose un thème par jour pour bien commencer : la prière, la Parole, la tentation, l'Église, le témoignage et bien d'autres.",
+    "### Les Fondations",
+    "Ensuite, la section Fondations de Grandir contient des enseignements plus longs pour bâtir solidement : être religieux ou chrétien, le sens de la croix, l'assurance du salut, le baptême, et la série « Connaître la Bible », qui t'expliquera d'où vient la Bible, comment elle a été transmise, et comment répondre aux questions qu'on te posera sur elle.",
+    "### Toute une vie",
+    "La vie avec Jésus n'est pas un cours qu'on termine. C'est une marche qui dure toute la vie, et qui continue dans l'éternité. Celui qui a commencé en toi cette bonne œuvre la rendra parfaite (Philippiens 1:6).",
+    "On raconte l'histoire de deux jeunes gens qui avaient donné leur vie à Jésus le même soir, lors d'une croisade dans leur ville. Le premier rentra chez lui plein de joie, mais il ne chercha pas d'église, ne lut jamais sa Bible, et retourna peu à peu à ses anciens amis. Six mois plus tard, il disait : « Ça n'a pas marché pour moi. » Le second demanda au pasteur de lui trouver quelqu'un pour l'accompagner. Un vieux frère le rencontra chaque samedi pendant un an. Ils lisaient la Bible ensemble, priaient, parlaient de ses combats. Des années plus tard, ce second jeune homme était devenu à son tour celui qui accompagnait les nouveaux convertis de son église. La graine était la même. La différence, c'est le terrain et les soins."
    ]
   }
  ],
- "versets": [
-  "Mt 10:32",
-  "Ac 2:41-42",
-  "Hé 10:25",
-  "1 Pi 2:2"
+ "conclusion": [
+  "Recevoir Jésus, c'est naître de nouveau ; maintenant commence la croissance. Les premiers pas sont simples : le dire autour de toi, te faire baptiser, rejoindre une église qui enseigne fidèlement la Bible, lire la Parole et prier chaque jour, rompre avec ce qui appartient à ta vieille vie, et ne pas te décourager dans les premiers combats. Trouve un accompagnateur, et continue avec les parcours et les enseignements des Fondations.",
+  "Félicitations pour avoir terminé « Découvrir Jésus ». Ce n'est pas une fin, c'est un commencement."
  ],
- "question": "Quelle est la première personne à qui tu vas parler de ta décision ?",
+ "retenir": [
+  "Recevoir Jésus est une naissance ; la vie chrétienne est une croissance (1 Pierre 2:2).",
+  "Dis ce que Dieu a fait pour toi, simplement, à ta famille et à tes amis (Marc 5:19).",
+  "Fais-toi baptiser et rejoins une église qui enseigne fidèlement la Bible (Actes 2:41-42).",
+  "Lis la Bible et prie chaque jour, à un moment fixe.",
+  "Romps avec les fétiches, les pratiques occultes et les relations qui t'entraînent au péché.",
+  "Trouve un accompagnateur : personne ne grandit seul."
+ ],
+ "memoriser": "1 P 2:2",
+ "quiz": [
+  {
+   "question": "Quelle image Pierre utilise-t-il pour le nouveau chrétien ?",
+   "choix": [
+    "Un soldat",
+    "Un enfant nouveau-né qui désire le lait spirituel",
+    "Un vieillard"
+   ],
+   "reponse": 1,
+   "explication": "1 Pierre 2:2.",
+   "section": "1"
+  },
+  {
+   "question": "Où Jésus a-t-il envoyé témoigner l'homme qu'il avait délivré à Gadara ?",
+   "choix": [
+    "Au temple",
+    "Dans sa maison, vers les siens",
+    "Dans un autre pays"
+   ],
+   "reponse": 1,
+   "explication": "Marc 5:19. Ta famille est ton premier champ.",
+   "section": "2"
+  },
+  {
+   "question": "Que signifie le baptême par immersion ?",
+   "choix": [
+    "Qu'on devient sauvé par l'eau",
+    "Que la vieille vie est morte et ensevelie avec Christ, et qu'on ressuscite avec lui pour une vie nouvelle",
+    "Qu'on a lavé son corps"
+   ],
+   "reponse": 1,
+   "explication": "Romains 6:3-4.",
+   "section": "3"
+  },
+  {
+   "question": "Par quel livre est-il conseillé de commencer la lecture de la Bible ?",
+   "choix": [
+    "Le Lévitique",
+    "L'évangile de Marc",
+    "L'Apocalypse"
+   ],
+   "reponse": 1,
+   "explication": "Commence par les évangiles, puis les Actes.",
+   "section": "5"
+  },
+  {
+   "question": "Que faire des fétiches et objets occultes après sa conversion ?",
+   "choix": [
+    "Les garder au cas où",
+    "Les détruire, avec prière et l'aide de responsables chrétiens",
+    "Les vendre"
+   ],
+   "reponse": 1,
+   "explication": "2 Corinthiens 6:17.",
+   "section": "7"
+  },
+  {
+   "question": "Que dit Proverbes 24:16 du juste qui tombe ?",
+   "choix": [
+    "Qu'il est perdu",
+    "Qu'il tombe sept fois et se relève",
+    "Qu'il ne tombe jamais"
+   ],
+   "reponse": 1,
+   "explication": "Le danger n'est pas de tomber, mais de rester couché.",
+   "section": "8"
+  }
+ ],
+ "pratique": "Cette semaine, fais trois choses : dis à une personne de ta famille que tu as donné ta vie à Jésus ; choisis un moment fixe chaque jour pour lire un chapitre de Marc et prier ; et demande à un pasteur de te mettre en contact avec un chrétien mûr qui pourra t'accompagner.",
+ "partage": "Montre à ton accompagnateur les trois décisions que tu as prises cette semaine, et convenez d'un moment régulier pour vous voir pendant les prochains mois.",
+ "versets": [
+  "1 P 2:2",
+  "Rm 6:4",
+  "Ac 2:42",
+  "Mt 6:6",
+  "2 Co 6:17-18",
+  "1 Co 10:13"
+ ],
+ "question": "Lequel de ces premiers pas te semble le plus facile, et lequel le plus difficile pour toi ? Qu'est-ce qui pourrait t'aider à le faire ?",
  "sujets": [
   {
    "titre": "Le courage de témoigner",
@@ -43,18 +235,6 @@
    "texte": "Demande-lui de te conduire vers une Église où tu pourras grandir. (Hébreux 10:25)"
   }
  ],
- "priere": "Seigneur, merci de m'avoir accueilli. Conduis mes premiers pas, donne-moi une famille spirituelle et le courage de te suivre. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
- "introduction": [
-  "Recevoir Jésus, ce n'est pas la fin : c'est le début d'une nouvelle vie. Un bébé qui vient de naître a besoin de nourriture, d'une famille et de soins pour grandir. Celui qui vient de naître de nouveau aussi.",
-  "Dans cette dernière leçon, nous verrons trois premiers pas : le dire autour de soi, se faire baptiser et rejoindre une église, et se nourrir chaque jour de la Parole et de la prière."
- ],
- "conclusion": [
-  "Tu as fini ce parcours. Si tu as reçu Jésus, tu es maintenant enfant de Dieu, et tout le ciel s'en réjouit. Ce n'est que le début.",
-  "Choisis aujourd'hui ton premier pas : parler à quelqu'un, demander le baptême, ou commencer la lecture de l'Évangile de Jean. Et souviens-toi : celui qui a commencé en toi cette bonne œuvre la rendra parfaite jusqu'au jour de Jésus-Christ (Philippiens 1:6)."
- ]
+ "priere": "Seigneur Jésus, merci pour la vie nouvelle que tu m'as donnée. Je veux grandir. Donne-moi faim de ta Parole, soif de ta présence, et le courage de rompre avec ce qui appartient à ma vieille vie. Conduis-moi vers une église fidèle et vers un frère ou une sœur qui m'accompagnera. Garde-moi debout jusqu'au bout. Amen.",
+ "relu": false
 }
