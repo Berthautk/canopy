@@ -1,14 +1,86 @@
 {
  "id": "nouveau-converti-jour-05",
  "jour": 5,
- "titre": "Une nouvelle naissance",
  "image": "/assets/temoignage/nouveau-depart.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Une nouvelle naissance",
+ "objectifs": [
+  "Ce que Jésus a dit à Nicodème",
+  "Ce que veut dire naître de l'Esprit",
+  "Les signes d'une vie nouvelle"
+ ],
+ "introduction": [
+  "Un soir, un chef religieux très respecté, Nicodème, est venu voir Jésus en secret. Il connaissait la Bible, il priait, il jeûnait. Pourtant, Jésus lui a dit une phrase qui l'a bouleversé : si un homme ne naît de nouveau, il ne peut voir le royaume de Dieu (Jean 3:3). Aujourd'hui, nous allons comprendre ce qui t'est arrivé quand tu as reçu Jésus."
+ ],
+ "sections": [
+  {
+   "titre": "Naître de nouveau",
+   "texte": [
+    "### Pas une amélioration, une naissance",
+    "Nicodème n'a pas compris : « Comment un homme peut-il naître quand il est vieux ? » Jésus ne parlait pas d'une naissance physique, mais spirituelle. Être chrétien, ce n'est pas améliorer un peu sa vie, ajouter une religion à ses habitudes ou changer d'église. C'est recevoir une vie nouvelle venant de Dieu. Une chenille ne devient pas papillon en faisant des efforts : elle est transformée de l'intérieur.",
+    "### Ce qui est né de l'Esprit",
+    "Jésus explique : ce qui est né de la chair est chair, et ce qui est né de l'Esprit est esprit (Jean 3:6). Par ta naissance naturelle, tu as reçu la vie humaine. Par la nouvelle naissance, le Saint-Esprit t'a donné la vie de Dieu. Il est venu habiter en toi. Tu as maintenant une nature nouvelle, qui aime Dieu et désire lui plaire."
+   ]
+  },
+  {
+   "titre": "Une semence qui ne meurt pas",
+   "texte": [
+    "### La Parole qui fait naître",
+    "Pierre écrit : vous avez été régénérés, non par une semence corruptible, mais par une semence incorruptible, par la parole vivante et permanente de Dieu (1 Pierre 1:23). C'est la Parole de l'Évangile, reçue par la foi, qui a produit en toi cette nouvelle vie. Comme une graine plantée dans la terre, cette vie va grandir, pousser des racines, et porter du fruit.",
+    "### Une naissance, une seule fois",
+    "On ne naît pas plusieurs fois de la même mère. De même, la nouvelle naissance est un événement unique. Tu n'as pas besoin de « te convertir » à nouveau chaque fois que tu tombes : tu as besoin de te relever, de confesser et de continuer à grandir. Tu es né de Dieu une fois pour toutes."
+   ]
+  },
+  {
+   "titre": "Les signes d'une vie nouvelle",
+   "texte": [
+    "### Ce qui commence à changer",
+    "Comment savoir que la vie nouvelle est là ? Pas d'abord par des émotions fortes, mais par des signes qui grandissent avec le temps : un nouvel amour pour Jésus, une faim de sa Parole, un malaise devant le péché qui ne te dérangeait pas avant, un désir d'être avec d'autres chrétiens, un amour nouveau pour les autres. Jean dit : nous savons que nous sommes passés de la mort à la vie, parce que nous aimons les frères (1 Jean 3:14).",
+    "### Patience avec toi-même",
+    "Un bébé ne marche pas le jour de sa naissance. Ne te décourage pas si tu vois encore beaucoup de choses à changer. Dieu a commencé une œuvre en toi, et il l'achèvera.",
+    "On raconte l'histoire d'un homme âgé, ancien catéchiste, qui avait passé quarante ans à l'église sans jamais avoir compris l'Évangile. Un jour, en lisant Jean 3 avec un jeune voisin, il s'arrêta au verset 3 et resta longtemps silencieux. Puis il dit : « J'étais Nicodème. Je connaissais tout, sauf la vie nouvelle. » Ce jour-là, il pria pour recevoir Jésus. Ses enfants dirent ensuite : « Notre père est devenu plus doux à soixante-dix ans qu'à trente. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "Naître de nouveau, c'est recevoir de l'Esprit de Dieu une vie nouvelle, pas seulement améliorer sa vie (Jean 3:3-6).",
+  "Cette vie vient de la Parole de Dieu reçue par la foi, une semence qui ne meurt pas (1 Pierre 1:23).",
+  "Les signes de la vie nouvelle grandissent avec le temps : amour pour Dieu, faim de la Parole, amour des frères."
+ ],
+ "memoriser": "Jn 3:3",
+ "quiz": [
+  {
+   "question": "Qu'est-ce que la nouvelle naissance ?",
+   "choix": [
+    "Un changement d'église",
+    "Une vie nouvelle donnée par l'Esprit de Dieu",
+    "Un effort pour être meilleur"
+   ],
+   "reponse": 1,
+   "explication": "Jean 3:6.",
+   "section": "1"
+  },
+  {
+   "question": "Faut-il naître de nouveau chaque fois qu'on tombe ?",
+   "choix": [
+    "Oui",
+    "Non, on se relève par la confession et on continue à grandir",
+    "Seulement le dimanche"
+   ],
+   "reponse": 1,
+   "explication": "La nouvelle naissance est unique.",
+   "section": "2"
+  }
+ ],
+ "pratique": "Lis Jean 3:1-21. Écris dans ton cahier un signe de vie nouvelle que tu remarques déjà en toi, et une chose que tu demandes à Dieu de changer.",
  "versets": [
   "Jn 3:3",
   "Jn 3:6",
   "1 Pi 1:23"
  ],
- "texte": "Jésus a dit à Nicodème qu'il fallait naître de nouveau pour voir le royaume de Dieu. Cette naissance ne vient pas de la volonté humaine : elle est l'œuvre de Dieu, par sa Parole et par son Esprit. Quand tu as cru, tu es né de nouveau. Une vie nouvelle, celle de Dieu, est en toi.",
  "question": "Quels signes de cette vie nouvelle remarques-tu déjà en toi ?",
  "sujets": [
   {
@@ -21,9 +93,5 @@
   }
  ],
  "priere": "Père, merci de m'avoir fait naître de nouveau. Fais grandir ta vie en moi. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

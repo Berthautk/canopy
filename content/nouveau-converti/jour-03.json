@@ -1,13 +1,85 @@
 {
  "id": "nouveau-converti-jour-03",
  "jour": 3,
- "titre": "Prier, c'est parler avec Dieu",
  "image": "/assets/priere/femme-en-priere.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Prier, c'est parler avec Dieu",
+ "objectifs": [
+  "Ce qu'est vraiment la prière",
+  "Comment prier simplement",
+  "Que faire de ses soucis"
+ ],
+ "introduction": [
+  "Quand on vient de rencontrer Jésus, on se demande souvent : « Comment faut-il prier ? Quels mots faut-il dire ? Faut-il crier, se mettre à genoux, parler en langues ? » La prière n'est pas une technique compliquée. C'est une conversation entre un enfant et son Père."
+ ],
+ "sections": [
+  {
+   "titre": "Qu'est-ce que la prière ?",
+   "texte": [
+    "### Une relation, pas une formule",
+    "Prier, c'est parler avec Dieu et l'écouter. Ce n'est pas réciter des formules magiques, ni répéter beaucoup de paroles pour être entendu. Jésus a dit : en priant, ne multipliez pas de vaines paroles, comme les païens, qui s'imaginent qu'à force de paroles ils seront exaucés (Matthieu 6:7). Dieu n'est pas impressionné par la longueur ou les belles phrases, mais par un cœur sincère.",
+    "### Dans le secret",
+    "Jésus a aussi dit : quand tu pries, entre dans ta chambre, ferme ta porte, et prie ton Père qui est là dans le lieu secret ; et ton Père, qui voit dans le secret, te le rendra (Matthieu 6:6). Il est bon de prier avec d'autres, mais la prière commence dans le secret, seul avec Dieu. Trouve un endroit calme : ta chambre, un coin de la cour, et même un bus ou un champ."
+   ]
+  },
+  {
+   "titre": "Comment prier simplement",
+   "texte": [
+    "### Quatre petits mots",
+    "Pour commencer, tu peux retenir quatre mots. Merci : remercie Dieu pour ce qu'il est et ce qu'il a fait. Pardon : confesse tes fautes. S'il te plaît : présente tes besoins et ceux des autres. Me voici : dis-lui que tu es disponible pour faire sa volonté. Tu peux prier avec tes propres mots, dans ta langue maternelle. Dieu comprend toutes les langues.",
+    "### Le modèle de Jésus",
+    "Les disciples ont demandé à Jésus de leur apprendre à prier, et il leur a donné la prière que nous appelons le Notre Père (Matthieu 6:9-13). Tu peux la réciter, mais aussi l'utiliser comme un plan : honorer le nom de Dieu, désirer son règne, demander le pain du jour, recevoir et donner le pardon, demander la protection contre le mal."
+   ]
+  },
+  {
+   "titre": "Que faire de mes soucis ?",
+   "texte": [
+    "### Tout lui dire",
+    "Paul écrit : ne vous inquiétez de rien ; mais en toute chose faites connaître vos besoins à Dieu par des prières et des supplications, avec des actions de grâces. Et la paix de Dieu, qui surpasse toute intelligence, gardera vos cœurs et vos pensées en Jésus-Christ (Philippiens 4:6-7). Rien n'est trop petit ni trop grand pour Dieu : le loyer, la santé d'un enfant, un examen, une dispute.",
+    "### La paix avant la réponse",
+    "Remarque que Paul ne promet pas que tout se réglera immédiatement comme tu le veux. Il promet la paix de Dieu. Souvent, la première réponse de Dieu, c'est de changer notre cœur avant de changer la situation.",
+    "On raconte l'histoire d'un chauffeur de taxi de Yaoundé qui disait : « Je ne sais pas prier, je ne connais pas les mots des pasteurs. » Un ancien lui conseilla : « Parle à Dieu comme tu parles à ton meilleur ami, dans ta voiture. » Le chauffeur se mit à prier à chaque feu rouge : une phrase de merci, une demande pour son client, un pardon pour une colère. Quelques mois plus tard, il disait en riant : « Les embouteillages sont devenus mes réunions de prière. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "Prier, c'est parler avec Dieu comme un enfant avec son Père, avec des mots simples et sincères.",
+  "Merci, pardon, s'il te plaît, me voici : un plan simple pour prier.",
+  "Présente tous tes soucis à Dieu : sa paix gardera ton cœur (Philippiens 4:6-7)."
+ ],
+ "memoriser": "Ph 4:6-7",
+ "quiz": [
+  {
+   "question": "Dieu exauce-t-il parce qu'on prie avec beaucoup de mots ?",
+   "choix": [
+    "Oui, plus on parle, mieux c'est",
+    "Non, Dieu regarde un cœur sincère",
+    "Seulement en latin"
+   ],
+   "reponse": 1,
+   "explication": "Matthieu 6:7.",
+   "section": "1"
+  },
+  {
+   "question": "Que promet Philippiens 4:7 à celui qui présente ses soucis à Dieu ?",
+   "choix": [
+    "Que tout s'arrangera tout de suite",
+    "La paix de Dieu qui garde le cœur et les pensées",
+    "La richesse"
+   ],
+   "reponse": 1,
+   "explication": "La paix avant même la réponse.",
+   "section": "3"
+  }
+ ],
+ "pratique": "Prie aujourd'hui cinq minutes avec les quatre mots : merci, pardon, s'il te plaît, me voici. Écris dans ton cahier un sujet de prière et la date : tu noteras plus tard la réponse de Dieu.",
  "versets": [
   "Ph 4:6-7",
   "Mt 6:6"
  ],
- "texte": "Prier n'exige pas de grands mots. Tu peux parler à Dieu simplement, comme à un père qui t'écoute : le remercier, lui confier tes soucis, lui demander de l'aide. Choisis un moment et un lieu calmes chaque jour. La section Prière de l'application peut te guider pas à pas.",
  "question": "Quels sont trois sujets que tu veux confier à Dieu aujourd'hui ?",
  "sujets": [
   {
@@ -20,9 +92,5 @@
   }
  ],
  "priere": "Père, apprends-moi à prier. Je veux te parler chaque jour. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

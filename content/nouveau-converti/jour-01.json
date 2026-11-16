@@ -1,13 +1,92 @@
 {
  "id": "nouveau-converti-jour-01",
  "jour": 1,
- "titre": "Tu as fait le bon choix",
  "image": "/assets/nouveau-converti/joie-de-la-rencontre.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Tu as fait le bon choix",
+ "objectifs": [
+  "Ce qui s'est passé quand tu as reçu Jésus",
+  "Pourquoi le salut est un cadeau et non une récompense",
+  "Comment commencer ce chemin de 30 jours"
+ ],
+ "introduction": [
+  "Bienvenue dans ce parcours ! Tu as pris la plus grande décision de ta vie : tu as reçu Jésus-Christ comme ton Sauveur et ton Seigneur. Pendant trente jours, nous allons marcher ensemble, un thème par jour, pour que tu poses de bonnes bases. Prends ta Bible, un cahier, et environ quinze minutes chaque jour."
+ ],
+ "sections": [
+  {
+   "titre": "Tu es devenu enfant de Dieu",
+   "texte": [
+    "### Ce que dit la Parole",
+    "Jean écrit : à tous ceux qui l'ont reçue, à ceux qui croient en son nom, elle a donné le pouvoir de devenir enfants de Dieu (Jean 1:12). Remarque les deux verbes : recevoir et croire. Tu as cru que Jésus est mort pour tes péchés et qu'il est ressuscité, et tu l'as reçu dans ta vie. Alors Dieu a fait quelque chose : il t'a adopté. Tu n'es plus seulement une créature de Dieu, tu es son enfant.",
+    "### Un changement de statut",
+    "Pense à un enfant de la rue, adopté par une famille. Du jour au lendemain, il porte un nouveau nom, il a une maison, un père, une place à table, un héritage. Il ne sait pas encore tout de sa nouvelle famille, il garde même certaines habitudes de la rue, mais son statut a changé. C'est ce qui t'est arrivé. Tu vas apprendre peu à peu à vivre comme un enfant de Dieu, mais tu l'es déjà, dès aujourd'hui."
+   ]
+  },
+  {
+   "titre": "Une nouvelle création",
+   "texte": [
+    "### Le passé est passé",
+    "Paul écrit : si quelqu'un est en Christ, il est une nouvelle création. Les choses anciennes sont passées ; voici, toutes choses sont devenues nouvelles (2 Corinthiens 5:17). Ton passé, avec ses fautes, ses hontes et ses blessures, ne définit plus qui tu es. Dieu ne te regarde plus à travers tes péchés, mais à travers Jésus. Tu n'as pas à traîner ton passé comme un sac de pierres : Jésus l'a porté à la croix.",
+    "### Ne pas avoir peur des sentiments qui changent",
+    "Peut-être que tu ressens une grande joie aujourd'hui. Peut-être aussi que tu ne ressens rien de spécial, ou que des doutes viennent déjà. Ne t'inquiète pas. Ce qui compte, ce n'est pas ce que tu ressens, mais ce que Dieu a dit. Nous en reparlerons au jour 8. Ta foi repose sur la Parole de Dieu, qui ne change pas."
+   ]
+  },
+  {
+   "titre": "Un cadeau, pas une récompense",
+   "texte": [
+    "### Rien à payer",
+    "Le salut n'est pas un salaire que tu as gagné en étant gentil, en allant à l'église ou en donnant de l'argent. C'est un cadeau. Paul dit : c'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu (Éphésiens 2:8). Quand quelqu'un t'offre un cadeau, tu ne sors pas ton porte-monnaie pour le payer : tu dis merci et tu le reçois.",
+    "### Pourquoi c'est important",
+    "Si le salut dépendait de tes efforts, tu vivrais toujours dans la peur de ne pas en avoir fait assez. Mais parce qu'il est un cadeau de Dieu, tu peux vivre dans la paix et la reconnaissance. Les bonnes œuvres viendront, mais comme un fruit de ton salut, et non comme un prix à payer."
+   ]
+  },
+  {
+   "titre": "Le chemin commence",
+   "texte": [
+    "### Comme un bébé qui grandit",
+    "Une naissance n'est pas la fin, c'est le début. Un nouveau-né a besoin de lait, de soins, d'une famille. De même, tu as besoin de la Parole de Dieu, de la prière, de l'Église. C'est ce que nous allons découvrir dans les jours qui viennent. Ne cherche pas à tout comprendre aujourd'hui. Avance un pas à la fois.",
+    "On raconte l'histoire d'un vendeur de beignets, à Douala, qui avait reçu Jésus un dimanche soir. Le lundi matin, en allumant son feu, il se demanda : « Est-ce que c'était vrai, hier ? » Il n'avait pas de grands sentiments. Alors il sortit le petit papier où un frère avait écrit Jean 1:12, et le relut à haute voix. Il dit plus tard : « Ce matin-là, j'ai compris que ma vie nouvelle ne dépendait pas de mon humeur, mais de la promesse de Dieu. Je l'ai relue chaque matin pendant un mois. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "En recevant Jésus et en croyant en lui, tu es devenu enfant de Dieu (Jean 1:12).",
+  "Ton passé est pardonné : tu es une nouvelle création (2 Corinthiens 5:17).",
+  "Le salut est un cadeau de la grâce de Dieu, pas une récompense de tes efforts."
+ ],
+ "memoriser": "Jn 1:12",
+ "quiz": [
+  {
+   "question": "Que faut-il faire, selon Jean 1:12, pour devenir enfant de Dieu ?",
+   "choix": [
+    "Être né dans une famille chrétienne",
+    "Recevoir Jésus et croire en son nom",
+    "Faire beaucoup de bonnes œuvres"
+   ],
+   "reponse": 1,
+   "explication": "Recevoir et croire.",
+   "section": "1"
+  },
+  {
+   "question": "Le salut est-il une récompense pour nos efforts ?",
+   "choix": [
+    "Oui",
+    "Non, c'est un cadeau de la grâce de Dieu",
+    "Seulement en partie"
+   ],
+   "reponse": 1,
+   "explication": "Éphésiens 2:8.",
+   "section": "3"
+  }
+ ],
+ "pratique": "Écris Jean 1:12 sur un papier et relis-le à haute voix ce soir et demain matin. Dis à une personne de confiance que tu as donné ta vie à Jésus.",
  "versets": [
   "Jn 1:12",
   "2 Co 5:17"
  ],
- "texte": "En recevant Jésus, tu es devenu enfant de Dieu. Ce n'est pas une récompense pour tes efforts : c'est un cadeau. Ton passé est pardonné et une vie nouvelle commence. Elle grandira jour après jour, à mesure que tu marches avec lui.",
  "question": "Qu'est-ce qui a changé dans ton cœur depuis que tu as reçu Jésus ?",
  "sujets": [
   {
@@ -20,9 +99,5 @@
   }
  ],
  "priere": "Père, merci de m'avoir fait ton enfant. Je commence ce chemin avec toi. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

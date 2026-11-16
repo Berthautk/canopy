@@ -1,14 +1,86 @@
 {
  "id": "nouveau-converti-jour-04",
  "jour": 4,
- "titre": "Lire la Bible chaque jour",
  "image": "/assets/nouveau-converti/etude-de-la-bible.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Lire la Bible chaque jour",
+ "objectifs": [
+  "Pourquoi la Bible est ta nourriture",
+  "Par où commencer",
+  "Comment lire pour être changé"
+ ],
+ "introduction": [
+  "Hier, nous avons vu que la prière, c'est parler à Dieu. Aujourd'hui, nous allons voir comment Dieu nous parle. Il parle avant tout par sa Parole, la Bible. Un chrétien qui ne lit pas la Bible ressemble à un bébé qui refuse de boire : il ne peut pas grandir."
+ ],
+ "sections": [
+  {
+   "titre": "Le lait de la Parole",
+   "texte": [
+    "### Désirer comme un nouveau-né",
+    "Pierre écrit : désirez, comme des enfants nouveau-nés, le lait spirituel et pur, afin que par lui vous croissiez pour le salut (1 Pierre 2:2). As-tu déjà vu un bébé qui a faim ? Il ne réfléchit pas, il réclame, il pleure jusqu'à ce qu'on lui donne le lait. Dieu veut que tu aies cette faim de sa Parole. Et la bonne nouvelle, c'est que plus tu la lis, plus tu en as faim.",
+    "### Une lampe pour le chemin",
+    "Le psalmiste dit : ta parole est une lampe à mes pieds, et une lumière sur mon sentier (Psaume 119:105). Une lampe ne montre pas tout le chemin jusqu'au bout, mais elle éclaire le prochain pas. La Bible t'aidera à prendre les bonnes décisions, à reconnaître le mensonge, à résister à la tentation."
+   ]
+  },
+  {
+   "titre": "Par où commencer ?",
+   "texte": [
+    "### Pas par la Genèse ou l'Apocalypse",
+    "Beaucoup de nouveaux chrétiens ouvrent la Bible à la première page et lisent tout dans l'ordre. Ils se découragent souvent au milieu du Lévitique. Il est plus sage de commencer par l'évangile de Marc, court et vivant, puis l'évangile de Jean, puis le livre des Actes, puis des lettres comme Philippiens, Éphésiens et 1 Jean. Ajoute chaque jour un psaume ou quelques versets des Proverbes.",
+    "### Un peu chaque jour",
+    "Il vaut mieux lire un chapitre chaque jour que dix chapitres une fois par mois. Choisis un moment fixe : le matin avant de sortir, à la pause de midi, ou le soir avant de dormir. Commence par cinq ou dix minutes. Dans cette application, tu peux aussi écouter la Bible si tu as du mal à lire."
+   ]
+  },
+  {
+   "titre": "Lire pour être changé",
+   "texte": [
+    "### Méditer jour et nuit",
+    "Dieu a dit à Josué : que ce livre de la loi ne s'éloigne point de ta bouche ; médite-le jour et nuit, pour agir fidèlement selon tout ce qui y est écrit (Josué 1:8). Méditer, c'est mâcher lentement une parole, comme on mâche la canne à sucre pour en tirer tout le jus. Lis lentement, relis une phrase qui te touche, pense à elle pendant la journée.",
+    "### Trois questions simples",
+    "Après ta lecture, pose-toi trois questions. Qu'est-ce que ce passage m'apprend sur Dieu ? Qu'est-ce qu'il m'apprend sur moi ? Que vais-je faire aujourd'hui à cause de ce que j'ai lu ? Écris une phrase dans ton cahier. Tu verras, au bout de quelques mois, combien Dieu t'aura parlé.",
+    "On raconte l'histoire d'un jeune maçon qui avait reçu une Bible le jour de sa conversion, mais qui la laissait dans son sac, parce qu'il lisait mal. Un frère lui proposa de lire avec lui l'évangile de Marc, un demi-chapitre chaque soir, à voix haute. Au début, il butait sur les mots. Six mois plus tard, il lisait couramment, et c'est lui qui lisait la Bible à sa vieille mère. Il disait : « La Parole m'a appris à lire, et la lecture m'a appris à connaître Dieu. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "La Bible est ta nourriture spirituelle : sans elle, tu ne peux pas grandir (1 Pierre 2:2).",
+  "Commence par l'évangile de Marc, puis Jean, les Actes et les lettres, et lis un peu chaque jour.",
+  "Médite : lis lentement et demande-toi ce que Dieu te dit et ce que tu vas faire."
+ ],
+ "memoriser": "Ps 119:105",
+ "quiz": [
+  {
+   "question": "Par quel livre est-il conseillé de commencer ?",
+   "choix": [
+    "Le Lévitique",
+    "L'évangile de Marc",
+    "L'Apocalypse"
+   ],
+   "reponse": 1,
+   "explication": "Court et vivant, il présente Jésus.",
+   "section": "2"
+  },
+  {
+   "question": "Que veut dire méditer la Parole ?",
+   "choix": [
+    "La lire très vite",
+    "La lire lentement et y réfléchir, comme on mâche la canne à sucre",
+    "L'apprendre en latin"
+   ],
+   "reponse": 1,
+   "explication": "Josué 1:8.",
+   "section": "3"
+  }
+ ],
+ "pratique": "Lis aujourd'hui Marc chapitre 1. Note dans ton cahier une chose que tu as apprise sur Jésus. Choisis l'heure fixe de ton rendez-vous quotidien avec la Bible.",
  "versets": [
   "Ps 119:105",
   "1 Pi 2:2",
   "Jos 1:8"
  ],
- "texte": "La Bible est la Parole de Dieu. Elle éclaire ton chemin, nourrit ta foi et te protège. Commence par l'Évangile de Jean, un chapitre par jour. Lis lentement, demande-toi ce que Dieu te dit, puis prie avec ce que tu as lu. Le plan de lecture de l'application peut t'accompagner.",
  "question": "Quel moment de la journée vas-tu réserver à la lecture de la Bible ?",
  "sujets": [
   {
@@ -21,9 +93,5 @@
   }
  ],
  "priere": "Seigneur, ouvre mes yeux pour que je comprenne ta Parole et que je la mette en pratique. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }

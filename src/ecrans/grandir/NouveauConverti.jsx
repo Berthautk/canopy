@@ -90,7 +90,7 @@ function Etape({ cfg, id, n, faits, decision }) {
   const plus = [
     ...(j.retenir?.length ? [{ texte: 'À retenir.' }, ...j.retenir.map((t) => ({ texte: t }))] : []),
     ...(j.memoriser ? [{ texte: 'Verset à apprendre par cœur.' }, { reference: j.memoriser }] : []),
-    ...(j.pratique ? [{ texte: 'À vivre cette semaine. ' + j.pratique }] : []),
+    ...(j.pratique ? [{ texte: (cfg.unite === 'Jour' ? 'À vivre aujourd\'hui. ' : 'À vivre cette semaine. ') + j.pratique }] : []),
   ];
   const blocs = [{ texte: `${cfg.unite} ${n}. ${j.titre}.` }, ...corps, ...plus, ...j.versets.map((r) => ({ reference: r })), { texte: 'Pour réfléchir. ' + j.question },
     ...(j.sujets?.length ? [{ texte: 'Sujets de prière.' }, ...blocsSujets(j.sujets)] : []), ...(j.priere ? [{ texte: (j.decision ? 'Prière pour recevoir Jésus. ' : 'Prière. ') + j.priere }] : [])];
@@ -103,7 +103,7 @@ function Etape({ cfg, id, n, faits, decision }) {
       {j.exemple && <p style="margin:8px 4px 0"><span class="etiquette-exemple">EXEMPLE</span> Contenu de démonstration.</p>}
       {!piste && <BarreEcoute id={vid} blocs={blocs} titre={'Écouter ' + (cfg.unite === 'Leçon' ? 'la leçon' : 'le jour')} />}
       <section class="carte bloc enseignement-court">
-        {j.objectifs?.length > 0 && <div class="objectifs-lecon"><b>Dans cette leçon, tu vas apprendre :</b><ul>{j.objectifs.map((o) => <li>{o}</li>)}</ul></div>}
+        {j.objectifs?.length > 0 && <div class="objectifs-lecon"><b>{cfg.unite === 'Jour' ? "Aujourd'hui, tu vas découvrir :" : 'Dans cette leçon, tu vas apprendre :'}</b><ul>{j.objectifs.map((o) => <li>{o}</li>)}</ul></div>}
         {items.map((x, k) => x.k === 'h' ? <h3 id={x.point ? 'point-' + x.point : undefined} class="ens-point lecon-point" {...va(1 + k)}>{x.texte}</h3>
           : x.k === 's' ? <h4 class="section-ens__sous lecon-sous" {...va(1 + k)}>{x.texte}</h4>
           : x.k === 'v' ? <div {...va(1 + k)}><CarteVerset reference={x.ref} /></div>
@@ -113,7 +113,7 @@ function Etape({ cfg, id, n, faits, decision }) {
       {j.retenir?.length > 0 && <section class="carte bloc a-retenir" {...va(iPlus)}><h3><span class="ligne__icone"><Icone nom="ampoule" /></span> À retenir</h3><ul>{j.retenir.map((t) => <li><TexteRefs texte={t} /></li>)}</ul></section>}
       {j.memoriser && <><h2 class="titre-section">Verset à apprendre par cœur</h2><div {...va(iPlus + (j.retenir?.length ? j.retenir.length + 1 : 0))}><CarteVerset reference={j.memoriser} /></div></>}
       {j.quiz?.length > 0 && <Questions e={{ id: j.id, questions: j.quiz }} />}
-      {j.pratique && <section class="carte bloc" style="margin-top:12px"><h3><span class="ligne__icone"><Icone nom="cible" /></span> À vivre cette semaine</h3><p><TexteRefs texte={j.pratique} /></p></section>}
+      {j.pratique && <section class="carte bloc" style="margin-top:12px"><h3><span class="ligne__icone"><Icone nom="cible" /></span> {cfg.unite === 'Jour' ? 'À vivre aujourd\'hui' : 'À vivre cette semaine'}</h3><p><TexteRefs texte={j.pratique} /></p></section>}
       {j.partage && <section class="carte bloc" style="margin-top:12px"><h3><span class="ligne__icone"><Icone nom="coeur" /></span> Parles-en</h3><p>{j.partage}</p></section>}
       <h2 class="titre-section">À lire</h2>
       <div class="liste">{j.versets.map((r, k) => <div {...va(iV + k)}><CarteVerset reference={r} /></div>)}</div>

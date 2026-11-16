@@ -1,13 +1,85 @@
 {
  "id": "nouveau-converti-jour-02",
  "jour": 2,
- "titre": "Dieu t'aime sans condition",
  "image": "/assets/symboles/mains-ouvertes-lumiere.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original.",
+ "titre": "Dieu t'aime sans condition",
+ "objectifs": [
+  "La preuve de l'amour de Dieu",
+  "Pourquoi rien ne peut te séparer de cet amour",
+  "Comment vivre en enfant aimé"
+ ],
+ "introduction": [
+  "Beaucoup de gens ont grandi en pensant que Dieu est un juge sévère, toujours prêt à punir, ou un dieu lointain qui ne s'intéresse pas à eux. D'autres ont été blessés par leurs parents et ont du mal à croire qu'on puisse les aimer vraiment. Aujourd'hui, nous allons regarder ce que la Bible dit de l'amour de Dieu pour toi."
+ ],
+ "sections": [
+  {
+   "titre": "La preuve de l'amour",
+   "texte": [
+    "### Pendant que nous étions encore pécheurs",
+    "Paul écrit : Dieu prouve son amour envers nous, en ce que, lorsque nous étions encore des pécheurs, Christ est mort pour nous (Romains 5:8). Remarque le mot « encore ». Dieu ne t'a pas aimé après que tu sois devenu meilleur. Il t'a aimé quand tu étais encore loin de lui, encore dans ton péché. La croix est la preuve que son amour ne dépend pas de ce que tu mérites.",
+    "### Un amour qui coûte",
+    "On reconnaît la valeur d'un amour à ce qu'il est prêt à donner. Dieu n'a pas seulement dit qu'il t'aime : il a donné son Fils unique. Quand tu doutes de l'amour de Dieu, ne regarde pas d'abord tes circonstances, regarde la croix."
+   ]
+  },
+  {
+   "titre": "Un amour qui ne lâche pas",
+   "texte": [
+    "### Rien ne peut nous séparer",
+    "Paul écrit encore : j'ai l'assurance que ni la mort ni la vie, ni les anges ni les dominations, ni les choses présentes ni les choses à venir, ni les puissances, ni la hauteur, ni la profondeur, ni aucune autre créature ne pourra nous séparer de l'amour de Dieu manifesté en Jésus-Christ notre Seigneur (Romains 8:38-39). Cette liste est volontairement complète : ni les esprits, ni la sorcellerie, ni la maladie, ni la pauvreté, ni même la mort ne peuvent arracher un enfant de Dieu à son amour.",
+    "### Même quand je tombe",
+    "Cela veut-il dire que le péché n'est pas grave ? Non. Mais quand un enfant de Dieu tombe, Dieu ne cesse pas de l'aimer : il le reprend comme un père, pour le relever. Nous en parlerons au jour 9."
+   ]
+  },
+  {
+   "titre": "Vivre en enfant aimé",
+   "texte": [
+    "### Ne plus chercher à acheter l'amour",
+    "Beaucoup de gens passent leur vie à chercher l'approbation : de leurs parents, de leurs amis, de leur patron, de leur église. Ils font tout pour être aimés, et ils ont peur d'être rejetés. L'enfant de Dieu peut se reposer : il est déjà aimé. Il n'obéit pas à Dieu pour gagner son amour, mais parce qu'il est aimé.",
+    "### Aimer à son tour",
+    "Jean dit : nous l'aimons, parce qu'il nous a aimés le premier (1 Jean 4:19). L'amour de Dieu reçu devient une source d'amour pour les autres. Celui qui sait qu'il est aimé de Dieu peut aimer même ceux qui ne l'aiment pas.",
+    "On raconte l'histoire d'une jeune femme qui avait été abandonnée par son père à l'âge de six ans. Elle disait : « Je ne peux pas appeler Dieu Père, ce mot me fait mal. » Une sœur de l'église lui proposa de lire chaque jour un passage sur l'amour de Dieu, sans rien forcer. Au bout de quelques semaines, en lisant que Dieu est le père des orphelins, elle pleura longtemps. Elle dit : « Pour la première fois, j'ai senti qu'un père ne me quitterait jamais. »"
+   ]
+  }
+ ],
+ "retenir": [
+  "Dieu t'a aimé quand tu étais encore pécheur : la croix en est la preuve (Romains 5:8).",
+  "Rien ne peut séparer un enfant de Dieu de son amour (Romains 8:38-39).",
+  "Tu n'as pas besoin d'acheter l'amour de Dieu : tu obéis parce que tu es aimé."
+ ],
+ "memoriser": "Rm 5:8",
+ "quiz": [
+  {
+   "question": "Quand Dieu nous a-t-il aimés, selon Romains 5:8 ?",
+   "choix": [
+    "Quand nous sommes devenus meilleurs",
+    "Quand nous étions encore pécheurs",
+    "Quand nous avons commencé à aller à l'église"
+   ],
+   "reponse": 1,
+   "explication": "Christ est mort pour nous.",
+   "section": "1"
+  },
+  {
+   "question": "Qu'est-ce qui peut séparer un enfant de Dieu de son amour ?",
+   "choix": [
+    "La sorcellerie",
+    "La pauvreté",
+    "Rien, selon Romains 8:38-39"
+   ],
+   "reponse": 2,
+   "explication": "La liste de Paul est complète.",
+   "section": "2"
+  }
+ ],
+ "pratique": "Lis Romains 8:31-39 à haute voix. Remplace « nous » par ton prénom. Remercie Dieu pour trois preuves de son amour dans ta vie.",
  "versets": [
   "Rm 5:8",
   "Rm 8:38-39"
  ],
- "texte": "L'amour de Dieu ne dépend pas de tes bonnes journées. Il t'a aimé quand tu étais encore loin de lui. Les jours où tu tombes, il ne cesse pas de t'aimer : rien ne peut te séparer de son amour en Jésus-Christ.",
  "question": "Y a-t-il une chose dont tu as encore honte devant Dieu ? Dépose-la devant lui aujourd'hui.",
  "sujets": [
   {
@@ -20,9 +92,5 @@
   }
  ],
  "priere": "Père, merci de m'aimer tel que je suis. Enracine-moi dans ton amour. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Thèmes inspirés de « La vie nouvelle en Jésus-Christ, cours 3 » et « La vie chrétienne pratique » (ubdavid.org) ; texte original."
+ "relu": false
 }
