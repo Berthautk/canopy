@@ -1,9 +1,9 @@
 {
  "id": "enseignement-nuit-de-priere",
  "titre": "La nuit de prière : veiller avec Dieu",
- "serie": "L'Arsenal de la Sentinelle",
+ "serie": "Veiller et combattre",
  "theme": "Vie de prière",
- "auteur": "L'Arsenal de la Sentinelle",
+ "auteur": "Yeshaya",
  "resume": "Pourquoi et comment passer une nuit en prière. Le modèle de Jésus, de Jacob, de Paul et Silas, les différentes formes de veilles (personnelle, conjugale, en groupe, avec jeûne), un programme concret de 22 h à 5 h, et des conseils pratiques pour tenir sans orgueil ni épuisement.",
  "image": "/assets/priere/priere-avec-larmes.webp",
  "verset_de_base": "Lc 6:12",
@@ -529,7 +529,7 @@
   "theme:priere-prier-sans-cesse",
   "veille:aube"
  ],
- "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "source": "Yeshaya",
  "date_ajout": "2026-11-14",
  "relu": false,
  "autorisation": "oui"

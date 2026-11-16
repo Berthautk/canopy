@@ -100,7 +100,7 @@ export function Priere() {
       </a>
 
       <h2 class="titre-section">Combat spirituel</h2>
-      <p class="ligne__desc" style="margin:-4px 4px 8px">Des fiches de prière à prier avec persévérance.</p>
+      <p class="ligne__desc" style="margin:-4px 4px 8px">Des fiches de prière à prier avec persévérance. Rédigées par l'évangéliste Sophonie Blaise, ministère AJ (Amoureux de Jésus), et publiées avec son autorisation.</p>
       <div class="grille-combat">
         {COMBAT.map((c) => (
           <a class="carte combat-tuile" href={'#/priere/combat/' + c.id}><span class="combat-tuile__emoji" aria-hidden="true">{c.emoji}</span><span>{c.titre}</span></a>
@@ -217,7 +217,7 @@ export function FicheCombat({ id, guide }) {
   if (!c) return <div class="page"><p class="ligne__desc">Fiche introuvable.</p></div>;
   return (
     <div class="page">
-      <div class="bandeau-titre"><span class="combat-emoji" aria-hidden="true">{c.emoji}</span><div><h2>{c.titre}</h2><p>Combat spirituel · {c.sujets.length} sujets</p></div></div>
+      <div class="bandeau-titre"><span class="combat-emoji" aria-hidden="true">{c.emoji}</span><div><h2>{c.titre}</h2><p>Combat spirituel · {c.sujets.length} sujets · {c.auteur}{c.ministere ? ', ' + c.ministere : ''}</p></div></div>
       <PriereGuidee auto={guide} id={c.id} titre={c.titre} introduction={c.introduction} etapes={[{ titre: c.titre, sujets: c.sujets }]} />
       {c.introduction && <section class="carte bloc"><p><TexteRefs texte={c.introduction} /></p></section>}
       {c.versets.length > 0 && <><h2 class="titre-section">Versets de base</h2><div class="liste">{c.versets.map((r) => <CarteVerset reference={r} />)}</div></>}
@@ -226,7 +226,7 @@ export function FicheCombat({ id, guide }) {
       <BarreEcoute id={c.id} titre="Écouter la fiche" blocs={[{ texte: c.titre + '. ' + (c.introduction || '') }, ...blocsSujets(c.sujets, true)]} />
       <SujetsACocher sujets={c.sujets} numerote voixId={c.id} debut={1} />
       <PiedPriere id={c.id} titre={c.titre} chemin={'priere/combat/' + c.id} texte={`${c.titre}\n\n${c.sujets.slice(0, 6).map((s, i) => `${i + 1}. ${s.texte}`).join('\n')}`} />
-      <p class="source-mention">Source : {c.auteur}</p>
+      <p class="source-mention">{c.source || 'Source : ' + c.auteur}</p>
     </div>
   );
 }

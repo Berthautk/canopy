@@ -1,9 +1,9 @@
 {
  "id": "enseignement-combat-spirituel-2",
  "titre": "Le combat spirituel : se tenir à la brèche",
- "serie": "L'Arsenal de la Sentinelle",
+ "serie": "Veiller et combattre",
  "theme": "Combat spirituel",
- "auteur": "L'Arsenal de la Sentinelle",
+ "auteur": "Yeshaya",
  "resume": "Ce qu'est le combat spirituel, pourquoi Dieu cherche des personnes qui se tiennent à la brèche pour leur famille, leur église et leur pays, avec quelles armes on combat, et quelles qualités le combattant doit cultiver pour tenir sans orgueil ni peur.",
  "image": "/assets/priere/combat-spirituel.webp",
  "verset_de_base": "Ép 6:12",
@@ -554,7 +554,7 @@
   "combat:combat-consecration",
   "theme:priere-rempli-du-saint-esprit"
  ],
- "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "source": "Yeshaya",
  "date_ajout": "2026-11-14",
  "relu": false,
  "autorisation": "oui"

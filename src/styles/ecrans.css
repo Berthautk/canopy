@@ -344,7 +344,7 @@
 .ref-lien__tete { display: flex; align-items: center; gap: 12px; }
 .ref-lien .verset__texte { font-size: .98rem; }
 
-/* ===== Arsenal : moments de prière, phases, combat, enseignements écrits ===== */
+/* ===== Moments de prière (Yeshaya) : moments de prière, phases, combat, enseignements écrits ===== */
 .ref-inline { color: var(--sauge); font-weight: 600; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; white-space: nowrap; }
 :root[data-theme='sombre'] .ref-inline { color: #8FD3C6; }
 .prier-maintenant { position: relative; display: block; height: 150px; overflow: hidden; padding: 0; border: 0; }

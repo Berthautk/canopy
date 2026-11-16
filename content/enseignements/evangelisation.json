@@ -1,9 +1,9 @@
 {
  "id": "enseignement-evangelisation",
  "titre": "Le secret de l'évangélisation",
- "serie": "L'Arsenal de la Sentinelle",
+ "serie": "Veiller et combattre",
  "theme": "Évangélisation",
- "auteur": "L'Arsenal de la Sentinelle",
+ "auteur": "Yeshaya",
  "resume": "Pourquoi l'évangélisation efficace commence par l'évangéliste lui-même. Comment devenir un disciple brisé, rempli de l'Esprit, et comment présenter l'Évangile simplement, avec amour, en laissant Dieu donner la croissance.",
  "image": "/assets/evangelisation/partage-bible-dans-la-rue.webp",
  "verset_de_base": "Mt 28:19",
@@ -520,7 +520,7 @@
   "theme:priere-temoigner",
   "theme:priere-ames"
  ],
- "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "source": "Yeshaya",
  "date_ajout": "2026-11-14",
  "relu": false,
  "autorisation": "oui"

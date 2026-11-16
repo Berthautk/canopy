@@ -1,6 +1,6 @@
 {
  "id": "thematique",
- "titre": "Plan thématique (Arsenal)",
+ "titre": "Plan thématique (Yeshaya)",
  "description": "Un passage et un thème par jour, en quatre étapes : fondements, maturité, sanctification, mission.",
  "trimestres": [
   {
@@ -1498,8 +1498,8 @@
    "theme": "Louez l'Éternel ! Tout ce qui respire"
   }
  ],
- "auteur": "L'Arsenal de la Sentinelle",
+ "auteur": "Yeshaya",
  "autorisation": "oui",
- "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "source": "Yeshaya",
  "date_ajout": "2026-11-14"
 }

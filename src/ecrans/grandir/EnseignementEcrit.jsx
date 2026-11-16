@@ -16,7 +16,7 @@ import { PRIERES, COMBAT, VEILLES, ENSEIGNEMENTS } from '../../donnees/contenu.j
 function plan(e) {
   const blocs = [], pos = {};
   const ajout = (cle, b) => { pos[cle] = blocs.length; blocs.push(b); };
-  const par = !e.auteur || e.auteur.startsWith("L'Arsenal") ? '' : e.auteur.startsWith('Pasteur') ? '. Enseignement du ' + e.auteur.replace(/^Pasteur/, 'pasteur') : '. Par ' + e.auteur + (e.traduction ? ', traduit de l\'anglais' : '');
+  const par = !e.auteur || e.auteur === 'Yeshaya' ? '' : e.auteur.startsWith('Pasteur') ? '. Enseignement du ' + e.auteur.replace(/^Pasteur/, 'pasteur') : '. Par ' + e.auteur + (e.traduction ? ', traduit de l\'anglais' : '');
   ajout('titre', { texte: `${e.titre}. ${e.resume || ''}${par}.` });
   if (e.verset_de_base) ajout('base', { reference: e.verset_de_base });
   if (e.objectifs?.length) ajout('objectifs', { texte: 'Objectifs. ' + e.objectifs.join('. ') });
@@ -51,7 +51,7 @@ export function EnseignementEcrit({ id, ecouter }) {
       <div class="theme-hero"><img src={e.image} alt="" />
         <div class="theme-hero__texte"><span class="pastille pastille--or">{e.theme} · {e.lecture_minutes} min de lecture</span><h2>{e.titre}</h2></div></div>
       <p class="veille__theme" {...va(pos.titre)}>{e.resume}</p>
-      {e.auteur && !e.auteur.startsWith("L'Arsenal") && <p class="auteur-ens">{e.auteur}{e.autorisation === 'oui' && <span class="ecouter__autorisation"><Icone nom="verifie" taille={14} /> Utilisé avec autorisation</span>}
+      {e.auteur && e.auteur !== 'Yeshaya' && <p class="auteur-ens">{e.auteur}{e.autorisation === 'oui' && <span class="ecouter__autorisation"><Icone nom="verifie" taille={14} /> Utilisé avec autorisation</span>}
         {e.autorisation === 'domaine_public' && <span class="ligne__desc">Domaine public · traduit de l'anglais</span>}</p>}
       <BarreEcoute id={id} blocs={blocs} titre="Écouter l'enseignement" />
       <LienVideo url={e.video} duree={e.video_duree} auteur={e.auteur} />
@@ -93,7 +93,7 @@ export function EnseignementEcrit({ id, ecouter }) {
         <Icone nom="partager" taille={18} /> Partager cet enseignement</button>
       {e.titre_original && <p class="source-mention"><b>Titre original :</b> {e.titre_original}</p>}
       {e.traduction && <p class="source-mention">{e.traduction}</p>}
-      {e.source && <p class="source-mention">{e.source.startsWith('Arsenal') ? 'Source : ' + e.auteur : e.source}</p>}
+      {e.source && <p class="source-mention">{e.source === 'Yeshaya' ? 'Source : Yeshaya' : e.source}</p>}
     </div>
   );
 }

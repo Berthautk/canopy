@@ -1,9 +1,9 @@
 {
  "id": "enseignement-differents-cieux",
  "titre": "Les différents cieux",
- "serie": "L'Arsenal de la Sentinelle",
+ "serie": "Veiller et combattre",
  "theme": "Doctrine",
- "auteur": "L'Arsenal de la Sentinelle",
+ "auteur": "Yeshaya",
  "resume": "Comprendre ce que la Bible veut dire quand elle parle des « cieux » : le ciel que l'on voit, l'espace où agissent les puissances des ténèbres, et la demeure de Dieu. Pourquoi cette compréhension aide le croyant à prier, à combattre, et à rester ferme dans la victoire de Jésus.",
  "image": "/assets/paysages/coucher-soleil-montagnes.webp",
  "verset_de_base": "2 Co 12:2",
@@ -462,7 +462,7 @@
  "prieres_liees": [
   "combat:combat-cieux1"
  ],
- "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "source": "Yeshaya",
  "date_ajout": "2026-11-14",
  "relu": false,
  "autorisation": "oui"

@@ -1,9 +1,9 @@
 {
  "id": "enseignement-origine-demons",
  "titre": "Origine des démons et esprits mauvais",
- "serie": "L'Arsenal de la Sentinelle",
+ "serie": "Veiller et combattre",
  "theme": "Doctrine",
- "auteur": "L'Arsenal de la Sentinelle",
+ "auteur": "Yeshaya",
  "resume": "Ce que la Bible dit des démons : qui ils sont, d'où ils viennent selon les différentes interprétations, comment ils agissent, et comment un croyant s'en libère durablement par la Parole, la repentance et la présence du Saint-Esprit. Sans peur, sans curiosité malsaine.",
  "image": "/assets/temoignage/chaines-brisees.webp",
  "verset_de_base": "Mt 12:43",
@@ -529,7 +529,7 @@
   "combat:combat-maison",
   "combat:combat-territoire"
  ],
- "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "source": "Yeshaya",
  "date_ajout": "2026-11-14",
  "relu": false,
  "autorisation": "oui"

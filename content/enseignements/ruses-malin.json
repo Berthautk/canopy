@@ -1,9 +1,9 @@
 {
  "id": "enseignement-ruses-malin",
  "titre": "Détecter les ruses du Malin",
- "serie": "L'Arsenal de la Sentinelle",
+ "serie": "Veiller et combattre",
  "theme": "Combat spirituel",
- "auteur": "L'Arsenal de la Sentinelle",
+ "auteur": "Yeshaya",
  "resume": "Comment l'ennemi attaque une assemblée de l'intérieur : l'ivraie semée parmi le blé, les faux frères, la division, la calomnie, le découragement. Comment reconnaître ces manœuvres, comment protéger son église et son foyer, sans tomber dans la suspicion ni accuser les personnes à tort.",
  "image": "/assets/symboles/bible-dans-la-lumiere.webp",
  "verset_de_base": "2 Co 2:11",
@@ -573,7 +573,7 @@
   "theme:priere-garder-son-coeur",
   "combat:combat-consecration"
  ],
- "source": "Arsenal de la Sentinelle (application du propriétaire de Yeshaya)",
+ "source": "Yeshaya",
  "date_ajout": "2026-11-14",
  "relu": false,
  "autorisation": "oui"

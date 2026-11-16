@@ -18,7 +18,7 @@ function repartir(liste, n) {
 const BASES = {
   classique: () => repartir(chapitresDe(LIVRES), JOURS),
   parallele: () => { const a = repartir(chapitresDe(AT), JOURS), n = repartir(chapitresDe(NT), JOURS); return a.map((x, i) => [...x, ...n[i]]); },
-  // Plan thématique de l'Arsenal : un passage par jour (clé « T.<jour> »)
+  // Plan thématique de Yeshaya : un passage par jour (clé « T.<jour> »)
   thematique: () => (PLAN_THEMATIQUE?.jours || []).slice(0, JOURS).map((_, i) => [`T.${i}`]),
 };
 const cacheBase = {};
