@@ -1,360 +1,604 @@
 {
- "id": "disciple-v2-05-le-combat-spirituel",
- "titre": "Le combat spirituel",
- "serie": "Affermissement",
- "theme": "Affermissement",
- "auteur": "Yeshaya",
- "resume": "Cinquième leçon du volume 2 : le chrétien est dans une guerre, qu'il le sache ou non. Qui est l'ennemi, quels sont ses terrains d'attaque, quelle est la victoire de Jésus, et comment résister sans peur ni superstition.",
- "image": "/assets/priere/combat-spirituel.webp",
- "verset_de_base": "Ep 6:12",
- "lecture_minutes": 15,
- "objectifs": [
-  "Savoir que le combat spirituel est réel, sans le nier ni le grossir.",
-  "Connaître l'ennemi et ses stratégies.",
-  "Comprendre que Jésus a déjà vaincu.",
-  "Apprendre à résister par la soumission à Dieu."
- ],
- "introduction": "Il y a deux erreurs sur le diable. La première, c'est de ne pas croire qu'il existe, ou de penser que c'est une histoire pour faire peur. La seconde, c'est de voir le diable partout : dans chaque maladie, chaque retard, chaque panne de moto, chaque mauvais rêve. Ces deux erreurs font le jeu de l'ennemi.\n\nLa Bible dit clairement que nous avons à lutter, non contre la chair et le sang, mais contre les dominations, contre les autorités, contre les princes de ce monde de ténèbres (Éphésiens 6:12). Dans cette leçon, nous verrons qui est l'ennemi, où il attaque, ce que Jésus a fait, et comment résister.",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "Le combat est réel",
-   "references": [
-    "Ep 6:12",
-    "1 P 5:8",
-    "Jn 10:10"
-   ],
-   "blocs": [
+  "id": "disciple-v2-05-le-combat-spirituel",
+  "titre": "Le combat spirituel",
+  "serie": "Affermissement",
+  "theme": "Affermissement",
+  "auteur": "Yeshaya",
+  "resume": "Cinquième leçon du volume 2 : le chrétien est dans une guerre, qu'il le sache ou non. Qui est l'ennemi, quels sont ses terrains d'attaque, quelle est la victoire de Jésus, et comment résister sans peur ni superstition.",
+  "image": "/assets/priere/combat-spirituel.webp",
+  "verset_de_base": "Ep 6:12",
+  "lecture_minutes": 30,
+  "objectifs": [
+    "Savoir que le combat spirituel est réel, sans le nier ni le grossir.",
+    "Connaître l'ennemi et ses stratégies.",
+    "Comprendre que Jésus a déjà vaincu.",
+    "Apprendre à résister par la soumission à Dieu."
+  ],
+  "introduction": "Il y a deux erreurs sur le diable. La première, c'est de ne pas croire qu'il existe, ou de penser que c'est une histoire pour faire peur. La seconde, c'est de voir le diable partout : dans chaque maladie, chaque retard, chaque panne de moto, chaque mauvais rêve. Ces deux erreurs font le jeu de l'ennemi.\n\nLa Bible dit clairement que nous avons à lutter, non contre la chair et le sang, mais contre les dominations, contre les autorités, contre les princes de ce monde de ténèbres (Éphésiens 6:12). Dans cette leçon, nous verrons qui est l'ennemi, où il attaque, ce que Jésus a fait, et comment résister.",
+  "sections": [
     {
-     "sous_titre": "Un ennemi invisible"
+      "numero": "1",
+      "titre": "Le combat est réel",
+      "references": [
+        "Ep 6:12",
+        "1 P 5:8",
+        "Jn 10:10"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un ennemi invisible"
+        },
+        {
+          "texte": "Ton vrai ennemi n'est pas ton voisin, ta belle-mère, ton patron ou le pasteur de l'autre église. Ton vrai ennemi est spirituel. Quand tu te trompes d'ennemi, tu passes ta vie à te battre contre des gens, et le vrai ennemi reste tranquille."
+        },
+        {
+          "verset": "Ep 6:12"
+        },
+        {
+          "sous_titre": "Un lion qui rôde"
+        },
+        {
+          "texte": "Pierre dit : soyez sobres, veillez. Votre adversaire, le diable, rôde comme un lion rugissant, cherchant qui il dévorera. Un lion cherche l'animal isolé, fatigué, distrait. Le chrétien qui ne prie plus, qui ne vient plus à l'église, qui vit dans un péché caché, devient une proie facile."
+        },
+        {
+          "verset": "1 P 5:8"
+        },
+        {
+          "sous_titre": "Voler, égorger, détruire"
+        },
+        {
+          "texte": "Jésus a résumé le programme du diable : le voleur ne vient que pour dérober, égorger et détruire. Il veut voler ta joie, ta paix, ton mariage, ta pureté, ta foi. Jésus, lui, est venu pour que tu aies la vie en abondance."
+        },
+        {
+          "verset": "Jn 10:10"
+        }
+      ]
     },
     {
-     "texte": "Ton vrai ennemi n'est pas ton voisin, ta belle-mère, ton patron ou le pasteur de l'autre église. Ton vrai ennemi est spirituel. Quand tu te trompes d'ennemi, tu passes ta vie à te battre contre des gens, et le vrai ennemi reste tranquille."
+      "numero": "2",
+      "titre": "Les terrains d'attaque de l'ennemi",
+      "references": [
+        "2 Co 11:3",
+        "Ep 4:26-27",
+        "Ap 12:10",
+        "1 Jn 2:16"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Tes pensées"
+        },
+        {
+          "texte": "Paul craignait que les pensées des Corinthiens se corrompent, comme le serpent séduisit Ève par sa ruse. Le diable n'a pas d'abord attaqué Ève avec la force, mais avec une question : Dieu a-t-il réellement dit ? Il attaque encore de la même manière : il met en doute la Parole de Dieu."
+        },
+        {
+          "verset": "2 Co 11:3"
+        },
+        {
+          "sous_titre": "Les portes que tu ouvres"
+        },
+        {
+          "texte": "Paul dit : que le soleil ne se couche pas sur votre colère, et ne donnez pas accès au diable. La colère gardée, l'amertume, le péché sexuel, l'occultisme, les fétiches gardés à la maison, les pactes, les objets consacrés aux idoles : ce sont des portes. Le diable n'entre pas où il veut, il entre là où on lui ouvre."
+        },
+        {
+          "verset": "Ep 4:26-27"
+        },
+        {
+          "sous_titre": "L'accusation"
+        },
+        {
+          "texte": "L'Apocalypse appelle le diable l'accusateur de nos frères, celui qui les accusait jour et nuit devant Dieu. Il te tente pour te faire tomber, puis il t'accuse pour te faire rester par terre. Reconnais sa voix : le Saint-Esprit convainc pour te ramener à Dieu, le diable accuse pour t'éloigner de Dieu."
+        },
+        {
+          "verset": "Ap 12:10"
+        },
+        {
+          "sous_titre": "Le monde et ses convoitises"
+        },
+        {
+          "texte": "Jean parle de la convoitise de la chair, de la convoitise des yeux, et de l'orgueil de la vie. L'ennemi utilise ce que le monde offre : l'argent facile, la sexualité sans limite, la recherche de gloire. Beaucoup de chrétiens tombent non par des attaques spectaculaires, mais par des compromis ordinaires."
+        },
+        {
+          "verset": "1 Jn 2:16"
+        }
+      ]
     },
     {
-     "verset": "Ep 6:12"
+      "numero": "3",
+      "titre": "Jésus a déjà vaincu",
+      "references": [
+        "Col 2:15",
+        "1 Jn 3:8",
+        "1 Jn 4:4"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Le triomphe de la croix"
+        },
+        {
+          "texte": "Paul dit que Jésus a dépouillé les dominations et les autorités, les a livrées publiquement en spectacle, en triomphant d'elles par la croix. Nous ne combattons pas pour obtenir la victoire. Nous combattons à partir de la victoire de Jésus. Le diable est un ennemi vaincu."
+        },
+        {
+          "verset": "Col 2:15"
+        },
+        {
+          "sous_titre": "Il est venu détruire les œuvres du diable"
+        },
+        {
+          "texte": "Le Fils de Dieu a paru afin de détruire les œuvres du diable. Ta peur des sorciers, des malédictions et des mauvais sorts n'a pas sa place dans le cœur d'un enfant de Dieu."
+        },
+        {
+          "verset": "1 Jn 3:8"
+        },
+        {
+          "sous_titre": "Plus grand est celui qui est en toi"
+        },
+        {
+          "texte": "Jean le dit simplement : celui qui est en vous est plus grand que celui qui est dans le monde. Ce n'est pas le diable qui doit te faire peur. C'est toi, enfant de Dieu, qui fais peur au diable quand tu marches dans l'obéissance."
+        },
+        {
+          "verset": "1 Jn 4:4"
+        }
+      ]
     },
     {
-     "sous_titre": "Un lion qui rôde"
+      "numero": "4",
+      "titre": "Comment résister",
+      "references": [
+        "Jc 4:7",
+        "Mt 4:4",
+        "Ap 12:11",
+        "Ac 19:18-19"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Se soumettre d'abord"
+        },
+        {
+          "texte": "Jacques dit : soumettez-vous donc à Dieu ; résistez au diable, et il fuira loin de vous. L'ordre compte. On ne peut pas résister au diable en vivant dans la désobéissance à Dieu. Beaucoup crient contre le diable à minuit, mais lui ouvrent la porte le jour."
+        },
+        {
+          "verset": "Jc 4:7"
+        },
+        {
+          "sous_titre": "Répondre avec la Parole"
+        },
+        {
+          "texte": "Quand Jésus a été tenté dans le désert, il n'a pas crié, il n'a pas fait de spectacle. Il a répondu trois fois : il est écrit. La Parole de Dieu est l'épée de l'Esprit."
+        },
+        {
+          "verset": "Mt 4:4"
+        },
+        {
+          "sous_titre": "Le sang et le témoignage"
+        },
+        {
+          "texte": "Les croyants ont vaincu l'accusateur à cause du sang de l'Agneau et à cause de la parole de leur témoignage, et ils n'ont pas aimé leur vie jusqu'à craindre la mort."
+        },
+        {
+          "verset": "Ap 12:11"
+        },
+        {
+          "sous_titre": "Fermer les portes"
+        },
+        {
+          "texte": "À Éphèse, ceux qui avaient pratiqué la magie ont apporté leurs livres et les ont brûlés devant tout le monde. Si tu as des fétiches, des amulettes, des objets reçus d'un marabout ou d'un féticheur, des bagues ou des pommades de protection, ne les garde pas. Détruis-les. On ne garde pas un pied dans le camp de l'ennemi."
+        },
+        {
+          "verset": "Ac 19:18-19"
+        }
+      ]
     },
     {
-     "texte": "Pierre dit : soyez sobres, veillez. Votre adversaire, le diable, rôde comme un lion rugissant, cherchant qui il dévorera. Un lion cherche l'animal isolé, fatigué, distrait. Le chrétien qui ne prie plus, qui ne vient plus à l'église, qui vit dans un péché caché, devient une proie facile."
+      "numero": "5",
+      "titre": "Des combats dans la Bible",
+      "references": [
+        "Jb 1:9-12",
+        "Lc 22:31-32",
+        "2 Co 12:7-9"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Job : l'ennemi a des limites"
+        },
+        {
+          "texte": "Satan a accusé Job devant Dieu : « Est-ce d'une manière désintéressée que Job craint Dieu ? » Dieu lui a permis d'éprouver Job, mais avec une limite : « Seulement, ne porte pas la main sur lui. » Le diable n'est pas tout-puissant. Il ne peut rien faire à un enfant de Dieu sans la permission de Dieu, et jamais au-delà de la limite que Dieu fixe."
+        },
+        {
+          "verset": "Jb 1:9-12"
+        },
+        {
+          "sous_titre": "Pierre : Jésus prie pour nous"
+        },
+        {
+          "texte": "Jésus a dit à Pierre : « Simon, Simon, Satan vous a réclamés, pour vous cribler comme le froment. Mais j'ai prié pour toi, afin que ta foi ne défaille point. » Pierre est tombé ; mais sa foi n'a pas défailli, et il s'est relevé. Dans ton combat, tu n'es pas seul : Jésus intercède pour toi."
+        },
+        {
+          "verset": "Lc 22:31-32"
+        },
+        {
+          "sous_titre": "Paul : l'écharde qui ne part pas"
+        },
+        {
+          "texte": "Paul avait une écharde dans la chair, un ange de Satan pour le souffleter. Il a prié trois fois pour qu'elle s'en aille. Dieu a répondu : « Ma grâce te suffit, car ma puissance s'accomplit dans la faiblesse. » Toutes les attaques ne disparaissent pas après une prière de délivrance. Parfois Dieu ne retire pas l'épreuve, mais donne la grâce de la traverser."
+        },
+        {
+          "verset": "2 Co 12:7-9"
+        }
+      ]
     },
     {
-     "verset": "1 P 5:8"
+      "numero": "6",
+      "titre": "Le combat spirituel dans notre contexte",
+      "references": [
+        "Dt 18:10-12",
+        "Ac 16:16-18",
+        "Ep 6:11"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "La peur des sorciers"
+        },
+        {
+          "texte": "Dans beaucoup de familles, on attribue toute maladie, tout échec, tout accident à un sorcier, souvent un parent âgé ou une belle-mère. On consulte des « prophètes » qui désignent un coupable. Des familles se déchirent, des vieillards sont chassés ou maltraités. Le chrétien sait que la sorcellerie existe ; mais il sait aussi que celui qui est en lui est plus grand, et il ne vit pas dans la peur ni dans l'accusation. Il prie, il se soumet à Dieu, il soigne la maladie, et il refuse d'accuser sans preuve."
+        },
+        {
+          "sous_titre": "Les pratiques à abandonner"
+        },
+        {
+          "texte": "Dieu a dit : qu'on ne trouve chez toi personne qui exerce le métier de devin, d'astrologue, d'augure, de magicien, d'enchanteur, personne qui consulte ceux qui évoquent les esprits ou disent la bonne aventure, personne qui interroge les morts. Les bains de protection, les scarifications, les pactes, les sacrifices aux ancêtres, les objets qu'un marabout a « préparés », n'ont pas leur place dans la vie d'un chrétien."
+        },
+        {
+          "verset": "Dt 18:10-12"
+        },
+        {
+          "sous_titre": "Paul et la servante devineresse"
+        },
+        {
+          "texte": "À Philippes, une servante qui avait un esprit de divination suivait Paul en criant des choses vraies : « Ces hommes sont les serviteurs du Dieu Très-Haut. » Paul, fatigué, s'est retourné et a dit à l'esprit : « Je t'ordonne, au nom de Jésus-Christ, de sortir d'elle. » Il sortit à l'heure même. Le diable peut dire des choses vraies pour gagner la confiance ; le discernement est nécessaire. Et l'autorité est dans le nom de Jésus, pas dans les cris ni les gestes."
+        },
+        {
+          "verset": "Ac 16:16-18"
+        }
+      ]
     },
     {
-     "sous_titre": "Voler, égorger, détruire"
+      "numero": "7",
+      "titre": "Josué devant le chef de l'armée de l'Éternel",
+      "references": [
+        "Jos 5:13-15"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "La nuit avant la bataille"
+        },
+        {
+          "texte": "Israël venait de traverser le Jourdain. Devant eux se dressait Jéricho, une ville fortifiée, aux murailles épaisses. Josué, le nouveau chef du peuple, s'était approché de la ville, sans doute pour l'observer et préparer son plan de bataille."
+        },
+        {
+          "texte": "Il leva les yeux, et regarda. Voici, un homme se tenait debout devant lui, son épée nue dans la main. Josué alla vers lui, et lui dit : es-tu des nôtres ou de nos ennemis ?"
+        },
+        {
+          "verset": "Jos 5:13-15"
+        },
+        {
+          "sous_titre": "« Non »"
+        },
+        {
+          "texte": "La réponse est étonnante. Il répondit : non, mais je suis le chef de l'armée de l'Éternel, j'arrive maintenant. Josué voulait savoir de quel côté était cet homme. Et le chef de l'armée céleste lui fait comprendre : la question n'est pas de savoir si je suis de ton côté. La question est de savoir si toi, tu es du côté de Dieu."
+        },
+        {
+          "texte": "Josué tomba le visage contre terre, se prosterna, et lui dit : qu'est-ce que mon seigneur dit à son serviteur ? Et le chef de l'armée de l'Éternel dit à Josué : ôte tes souliers de tes pieds, car le lieu sur lequel tu te tiens est saint. Et Josué fit ainsi."
+        },
+        {
+          "sous_titre": "Avant la stratégie, l'adoration"
+        },
+        {
+          "texte": "Dans le combat spirituel, beaucoup de chrétiens veulent d'abord des techniques : quelles prières dire, quelles paroles prononcer, combien de jours jeûner. Josué a appris que la première chose n'est pas la stratégie, mais la soumission. Avant de recevoir le plan de bataille, il a dû ôter ses souliers et adorer."
+        },
+        {
+          "texte": "Ensuite seulement, l'Éternel lui a dit : vois, je livre entre tes mains Jéricho et son roi, ses vaillants soldats."
+        },
+        {
+          "sous_titre": "Le combat appartient à Dieu"
+        },
+        {
+          "texte": "Le chef de l'armée n'est pas venu se mettre sous les ordres de Josué. C'est Josué qui s'est mis sous ses ordres. Nous ne combattons pas le diable avec nos forces, en demandant à Dieu de venir nous aider. Nous suivons le Seigneur, qui a déjà vaincu, et nous marchons derrière lui."
+        },
+        {
+          "texte": "Avant chaque combat, demande-toi : suis-je vraiment du côté de Dieu dans cette affaire ? Est-ce que je cherche sa volonté, ou est-ce que je veux seulement qu'il bénisse mes plans ? Quand tu es soumis à lui, tu n'as rien à craindre des murailles de Jéricho."
+        },
+        {
+          "texte": "On raconte l'histoire d'un groupe de prière qui, pendant des mois, s'était réuni chaque semaine pour « attaquer » les puissances d'un quartier connu pour la violence et la drogue. Ils criaient, ils marchaient autour des maisons, ils proclamaient la victoire. Mais rien ne changeait, et le groupe se divisait par des disputes et des jalousies. Un soir, le responsable a proposé autre chose : « Avant de combattre l'ennemi, ôtons nos souliers. » Pendant un mois, ils ont simplement adoré, confessé leurs péchés les uns aux autres et réglé leurs conflits. Puis ils ont commencé à visiter les familles du quartier, à aider les jeunes à faire leurs devoirs, à prier pour les malades. Un an plus tard, plusieurs jeunes de ce quartier étaient dans l'église. Le responsable disait : « Nous voulions que Dieu soit de notre côté. Nous avons appris à nous mettre du sien. »"
+        }
+      ]
     },
     {
-     "texte": "Jésus a résumé le programme du diable : le voleur ne vient que pour dérober, égorger et détruire. Il veut voler ta joie, ta paix, ton mariage, ta pureté, ta foi. Jésus, lui, est venu pour que tu aies la vie en abondance."
+      "numero": "8",
+      "titre": "Josué le grand prêtre : l'accusateur réduit au silence",
+      "references": [
+        "Za 3:1-5",
+        "Rm 8:33-34"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une scène de tribunal"
+        },
+        {
+          "texte": "Le prophète Zacharie a reçu une vision. Il vit Josué, le souverain sacrificateur de son temps, debout devant l'ange de l'Éternel, et Satan qui se tenait à sa droite pour l'accuser."
+        },
+        {
+          "verset": "Za 3:1-5"
+        },
+        {
+          "texte": "Imagine la scène. Le représentant du peuple devant Dieu, et à côté de lui l'accusateur, prêt à énumérer toutes ses fautes. Et le pire, c'est que Josué était couvert de vêtements sales. L'accusateur n'avait même pas besoin de mentir : les taches étaient visibles."
+        },
+        {
+          "sous_titre": "« Que l'Éternel te réprime »"
+        },
+        {
+          "texte": "Mais l'Éternel dit à Satan : que l'Éternel te réprime, Satan ! que l'Éternel te réprime, lui qui a choisi Jérusalem ! N'est-ce pas là un tison arraché du feu ?"
+        },
+        {
+          "texte": "Dieu ne nie pas que Josué est sale. Mais il dit : c'est un tison arraché du feu. C'est quelqu'un que j'ai sauvé, que j'ai choisi. Tu n'as pas de droit sur lui."
+        },
+        {
+          "sous_titre": "Des vêtements changés"
+        },
+        {
+          "texte": "Puis l'ange prit la parole et dit à ceux qui étaient devant lui : ôtez-lui les vêtements sales ! Puis il dit à Josué : vois, je t'enlève ton iniquité, et je te revêts d'habits de fête. On mit sur sa tête un turban pur, et on lui mit des vêtements."
+        },
+        {
+          "texte": "Josué n'a rien fait. Il ne s'est pas défendu. Il n'a pas lavé ses vêtements lui-même. C'est Dieu qui a ordonné qu'on les lui enlève, et qui l'a habillé de neuf."
+        },
+        {
+          "sous_titre": "Ta réponse à l'accusateur"
+        },
+        {
+          "texte": "L'une des armes favorites du diable, c'est l'accusation. Il te rappelle tes péchés, il te dit que tu es trop sale pour prier, pour servir, pour t'approcher de Dieu. Et souvent, ce qu'il dit sur ton passé est vrai. Mais il oublie une chose : Dieu t'a arraché du feu, et il t'a revêtu de la justice de Christ."
+        },
+        {
+          "texte": "Paul écrit : qui accusera les élus de Dieu ? C'est Dieu qui justifie ! Qui les condamnera ? Christ est mort ; bien plus, il est ressuscité, il est à la droite de Dieu, et il intercède pour nous !"
+        },
+        {
+          "verset": "Rm 8:33-34"
+        },
+        {
+          "texte": "Quand l'accusateur parle, ne discute pas avec lui sur tes fautes. Regarde à Jésus, et dis : mes vêtements sales m'ont été ôtés. Que le Seigneur te réprime."
+        }
+      ]
     },
     {
-     "verset": "Jn 10:10"
+      "numero": "9",
+      "titre": "Paul face au magicien Élymas",
+      "references": [
+        "Ac 13:6-12",
+        "2 Co 10:4"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un gouverneur qui veut entendre"
+        },
+        {
+          "texte": "Pendant leur premier voyage missionnaire, Paul et Barnabas traversèrent l'île de Chypre jusqu'à Paphos. Là, le proconsul romain, Sergius Paulus, un homme intelligent, les fit appeler, car il désirait entendre la parole de Dieu."
+        },
+        {
+          "verset": "Ac 13:6-12"
+        },
+        {
+          "texte": "Mais auprès du gouverneur se trouvait un magicien, un faux prophète juif nommé Bar-Jésus, ou Élymas. Il faisait partie de l'entourage du gouverneur, comme un conseiller spirituel. Et il s'opposait à Paul et Barnabas, cherchant à détourner de la foi le proconsul."
+        },
+        {
+          "sous_titre": "Le marabout du palais"
+        },
+        {
+          "texte": "Cette situation ressemble beaucoup à ce que nous voyons en Afrique. Combien de dirigeants, de chefs d'entreprise, de personnalités ont auprès d'eux un marabout, un voyant, un « conseiller spirituel » qui leur dit quoi faire, et qui les éloigne de Jésus. Quand l'Évangile s'approche de ces personnes, ce genre d'homme fait tout pour l'en empêcher, car il risque de perdre son influence et son argent."
+        },
+        {
+          "sous_titre": "Paul rempli du Saint-Esprit"
+        },
+        {
+          "texte": "Alors Saul, appelé aussi Paul, rempli du Saint-Esprit, fixa les regards sur lui, et dit : homme plein de toute espèce de ruse et de fraude, fils du diable, ennemi de toute justice, ne cesseras-tu point de pervertir les voies droites du Seigneur ? Maintenant voici, la main du Seigneur est sur toi, tu seras aveugle, et pour un temps tu ne verras pas le soleil."
+        },
+        {
+          "texte": "Aussitôt l'obscurité et les ténèbres tombèrent sur lui, et il cherchait, en tâtonnant, des personnes pour le guider. Alors le proconsul, voyant ce qui était arrivé, crut, étant frappé de la doctrine du Seigneur."
+        },
+        {
+          "sous_titre": "Ce que cela nous enseigne"
+        },
+        {
+          "texte": "Remarque plusieurs choses. D'abord, Paul a agi rempli du Saint-Esprit, et non par colère personnelle. Il n'a pas organisé un concours de pouvoirs pour montrer qu'il était plus fort. Ensuite, le jugement d'Élymas était temporaire : « pour un temps », ce qui laissait une porte à la repentance. Enfin, et surtout, le but était le salut du gouverneur : il crut, frappé non par le miracle seulement, mais par la doctrine du Seigneur."
+        },
+        {
+          "texte": "Paul écrit : les armes avec lesquelles nous combattons ne sont pas charnelles ; mais elles sont puissantes, par la vertu de Dieu, pour renverser des forteresses."
+        },
+        {
+          "verset": "2 Co 10:4"
+        },
+        {
+          "texte": "Ne crains pas les marabouts et les puissances occultes qui s'opposent à l'Évangile. Celui qui est en toi est plus grand. Mais ne combats pas avec leurs armes. Combats avec la Parole, la prière, la vérité et l'amour, et laisse Dieu agir."
+        }
+      ]
+    },
+    {
+      "numero": "10",
+      "titre": "Michel l'archange : combattre sans insulter",
+      "references": [
+        "Jud 8-10"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une petite phrase dans une petite lettre"
+        },
+        {
+          "texte": "Dans la courte lettre de Jude, il y a un verset surprenant. Jude parle de faux docteurs qui méprisent l'autorité et injurient les gloires. Et il donne un contre-exemple : or, l'archange Michel, lorsqu'il contestait avec le diable et lui disputait le corps de Moïse, n'osa pas porter contre lui un jugement injurieux, mais il dit : que le Seigneur te réprime !"
+        },
+        {
+          "verset": "Jud 8-10"
+        },
+        {
+          "texte": "Michel est l'un des plus puissants anges de Dieu, le chef de l'armée céleste. Et pourtant, face au diable lui-même, il n'a pas lancé d'insultes. Il n'a pas crié des menaces. Il a remis l'affaire à Dieu : que le Seigneur te réprime."
+        },
+        {
+          "sous_titre": "Les excès dans le combat spirituel"
+        },
+        {
+          "texte": "Dans certaines églises, le combat spirituel est devenu un spectacle. On crie très fort, on insulte le diable, on le provoque, on prétend avoir lié tous les démons de la ville, on passe plus de temps à parler du diable qu'à parler de Jésus. Certains se croient très puissants, et quelques semaines plus tard, ils tombent dans de graves péchés."
+        },
+        {
+          "texte": "Ce que Jude nous apprend, c'est que la puissance du croyant ne vient pas de sa voix, ni de ses insultes, ni de ses formules. Elle vient du Seigneur. Le diable n'est pas impressionné par nos cris. Il est vaincu par le nom de Jésus et par le sang de la croix."
+        },
+        {
+          "sous_titre": "La douceur, une arme"
+        },
+        {
+          "texte": "Paul écrit à Timothée : il ne faut pas qu'un serviteur du Seigneur ait des querelles ; il doit, au contraire, être affable pour tous, propre à enseigner, doué de patience ; il doit redresser avec douceur les adversaires, dans l'espérance que Dieu leur donnera la repentance pour arriver à la connaissance de la vérité, et que, revenus à leur bon sens, ils se dégageront des pièges du diable."
+        },
+        {
+          "texte": "Remarque : ceux qui sont pris dans les pièges du diable ne sont pas libérés par la violence, mais par la vérité dite avec douceur et patience. Le combat spirituel le plus efficace se passe souvent dans le calme : une prière fervente dans sa chambre, une vérité biblique enseignée avec amour, une vie sainte qui ne donne aucune prise à l'ennemi."
+        },
+        {
+          "texte": "On raconte l'histoire d'une jeune femme tourmentée depuis des années, qu'on avait emmenée dans plusieurs églises où l'on criait sur elle pendant des heures, la secouait, et l'accusait d'être une sorcière. Elle en sortait chaque fois plus brisée. Un jour, une vieille sœur l'a accueillie chez elle. Elle n'a pas crié. Elle lui a lu les Évangiles chaque soir, lui a expliqué ce que Jésus avait fait à la croix, et a prié avec elle calmement. Au bout de quelques semaines, la jeune femme a renoncé à des objets et à des pactes qu'elle avait cachés, elle a confessé ses péchés, et elle a reçu Jésus. Elle disait : « On criait sur moi, et je tremblais. Cette maman m'a montré Jésus, et j'ai été libre. »"
+        }
+      ]
+    },
+    {
+      "numero": "11",
+      "titre": "Conclusion",
+      "references": [
+        "Rm 8:37"
+      ],
+      "blocs": [
+        {
+          "texte": "Le combat spirituel n'est pas une affaire de cris, de huile répandue partout ou de peur des sorciers. C'est une vie soumise à Dieu, nourrie de sa Parole, protégée par le sang de Jésus. Dans toutes ces choses, nous sommes plus que vainqueurs par celui qui nous a aimés."
+        },
+        {
+          "verset": "Rm 8:37"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "Les terrains d'attaque de l'ennemi",
-   "references": [
-    "2 Co 11:3",
-    "Ep 4:26-27",
-    "Ap 12:10",
-    "1 Jn 2:16"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "Tes pensées"
+      "question": "Contre qui avons-nous à lutter selon Éphésiens 6:12 ?",
+      "choix": [
+        "Contre nos ennemis humains",
+        "Contre les puissances spirituelles des ténèbres",
+        "Contre nous-mêmes seulement"
+      ],
+      "reponse": 1,
+      "explication": "(Éphésiens 6:12)",
+      "section": "1"
     },
     {
-     "texte": "Paul craignait que les pensées des Corinthiens se corrompent, comme le serpent séduisit Ève par sa ruse. Le diable n'a pas d'abord attaqué Ève avec la force, mais avec une question : Dieu a-t-il réellement dit ? Il attaque encore de la même manière : il met en doute la Parole de Dieu."
+      "question": "Qu'est-ce qui donne accès au diable selon Éphésiens 4:27 ?",
+      "choix": [
+        "Prier trop",
+        "La colère gardée et les portes ouvertes au péché",
+        "Lire l'Ancien Testament"
+      ],
+      "reponse": 1,
+      "explication": "(Éphésiens 4:26-27)",
+      "section": "2"
     },
     {
-     "verset": "2 Co 11:3"
+      "question": "Quel est l'ordre donné par Jacques 4:7 ?",
+      "choix": [
+        "Résister au diable puis se soumettre",
+        "Se soumettre à Dieu, puis résister au diable",
+        "Fuir le diable"
+      ],
+      "reponse": 1,
+      "explication": "(Jacques 4:7)",
+      "section": "4"
     },
     {
-     "sous_titre": "Les portes que tu ouvres"
+      "question": "Que montre l'histoire de Job sur le pouvoir de Satan ?",
+      "choix": [
+        "Il peut tout faire",
+        "Il ne peut agir que dans la limite que Dieu permet",
+        "Il est égal à Dieu"
+      ],
+      "reponse": 1,
+      "explication": "(Job 1:12)",
+      "section": "5"
     },
     {
-     "texte": "Paul dit : que le soleil ne se couche pas sur votre colère, et ne donnez pas accès au diable. La colère gardée, l'amertume, le péché sexuel, l'occultisme, les fétiches gardés à la maison, les pactes, les objets consacrés aux idoles : ce sont des portes. Le diable n'entre pas où il veut, il entre là où on lui ouvre."
+      "question": "Qu'a répondu Dieu à Paul au sujet de son écharde ?",
+      "choix": [
+        "Je vais l'ôter",
+        "Ma grâce te suffit",
+        "Prie davantage"
+      ],
+      "reponse": 1,
+      "explication": "(2 Corinthiens 12:9)",
+      "section": "5"
     },
     {
-     "verset": "Ep 4:26-27"
+      "question": "Au nom de qui Paul a-t-il chassé l'esprit de divination ?",
+      "choix": [
+        "En son propre nom",
+        "Au nom de Jésus-Christ",
+        "Au nom de l'église"
+      ],
+      "reponse": 1,
+      "explication": "(Actes 16:18)",
+      "section": "6"
     },
     {
-     "sous_titre": "L'accusation"
+      "question": "Qu'a répondu le chef de l'armée de l'Éternel quand Josué lui a demandé « es-tu des nôtres ? »",
+      "choix": [
+        "« Oui, je suis avec toi »",
+        "« Non, mais je suis le chef de l'armée de l'Éternel »",
+        "« Je suis ton ennemi »"
+      ],
+      "reponse": 1,
+      "explication": "Josué 5:14. La question est de savoir si nous sommes du côté de Dieu.",
+      "section": "7"
     },
     {
-     "texte": "L'Apocalypse appelle le diable l'accusateur de nos frères, celui qui les accusait jour et nuit devant Dieu. Il te tente pour te faire tomber, puis il t'accuse pour te faire rester par terre. Reconnais sa voix : le Saint-Esprit convainc pour te ramener à Dieu, le diable accuse pour t'éloigner de Dieu."
+      "question": "Qu'a fait Dieu des vêtements sales du grand prêtre Josué ?",
+      "choix": [
+        "Il les a laissés",
+        "Il les a fait ôter et l'a revêtu d'habits de fête",
+        "Il les a donnés à Satan"
+      ],
+      "reponse": 1,
+      "explication": "Zacharie 3:4.",
+      "section": "8"
     },
     {
-     "verset": "Ap 12:10"
+      "question": "Qu'a fait le proconsul après qu'Élymas fut frappé d'aveuglement ?",
+      "choix": [
+        "Il a chassé Paul",
+        "Il a cru, frappé de la doctrine du Seigneur",
+        "Il a consulté un autre magicien"
+      ],
+      "reponse": 1,
+      "explication": "Actes 13:12.",
+      "section": "9"
     },
     {
-     "sous_titre": "Le monde et ses convoitises"
-    },
-    {
-     "texte": "Jean parle de la convoitise de la chair, de la convoitise des yeux, et de l'orgueil de la vie. L'ennemi utilise ce que le monde offre : l'argent facile, la sexualité sans limite, la recherche de gloire. Beaucoup de chrétiens tombent non par des attaques spectaculaires, mais par des compromis ordinaires."
-    },
-    {
-     "verset": "1 Jn 2:16"
+      "question": "Qu'a dit l'archange Michel en contestant avec le diable ?",
+      "choix": [
+        "Il l'a insulté",
+        "« Que le Seigneur te réprime ! »",
+        "Il s'est tu"
+      ],
+      "reponse": 1,
+      "explication": "Jude 9.",
+      "section": "10"
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "Jésus a déjà vaincu",
-   "references": [
-    "Col 2:15",
-    "1 Jn 3:8",
-    "1 Jn 4:4"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Le triomphe de la croix"
-    },
-    {
-     "texte": "Paul dit que Jésus a dépouillé les dominations et les autorités, les a livrées publiquement en spectacle, en triomphant d'elles par la croix. Nous ne combattons pas pour obtenir la victoire. Nous combattons à partir de la victoire de Jésus. Le diable est un ennemi vaincu."
-    },
-    {
-     "verset": "Col 2:15"
-    },
-    {
-     "sous_titre": "Il est venu détruire les œuvres du diable"
-    },
-    {
-     "texte": "Le Fils de Dieu a paru afin de détruire les œuvres du diable. Ta peur des sorciers, des malédictions et des mauvais sorts n'a pas sa place dans le cœur d'un enfant de Dieu."
-    },
-    {
-     "verset": "1 Jn 3:8"
-    },
-    {
-     "sous_titre": "Plus grand est celui qui est en toi"
-    },
-    {
-     "texte": "Jean le dit simplement : celui qui est en vous est plus grand que celui qui est dans le monde. Ce n'est pas le diable qui doit te faire peur. C'est toi, enfant de Dieu, qui fais peur au diable quand tu marches dans l'obéissance."
-    },
-    {
-     "verset": "1 Jn 4:4"
-    }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "Comment résister",
-   "references": [
-    "Jc 4:7",
-    "Mt 4:4",
-    "Ap 12:11",
-    "Ac 19:18-19"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Se soumettre d'abord"
-    },
-    {
-     "texte": "Jacques dit : soumettez-vous donc à Dieu ; résistez au diable, et il fuira loin de vous. L'ordre compte. On ne peut pas résister au diable en vivant dans la désobéissance à Dieu. Beaucoup crient contre le diable à minuit, mais lui ouvrent la porte le jour."
-    },
-    {
-     "verset": "Jc 4:7"
-    },
-    {
-     "sous_titre": "Répondre avec la Parole"
-    },
-    {
-     "texte": "Quand Jésus a été tenté dans le désert, il n'a pas crié, il n'a pas fait de spectacle. Il a répondu trois fois : il est écrit. La Parole de Dieu est l'épée de l'Esprit."
-    },
-    {
-     "verset": "Mt 4:4"
-    },
-    {
-     "sous_titre": "Le sang et le témoignage"
-    },
-    {
-     "texte": "Les croyants ont vaincu l'accusateur à cause du sang de l'Agneau et à cause de la parole de leur témoignage, et ils n'ont pas aimé leur vie jusqu'à craindre la mort."
-    },
-    {
-     "verset": "Ap 12:11"
-    },
-    {
-     "sous_titre": "Fermer les portes"
-    },
-    {
-     "texte": "À Éphèse, ceux qui avaient pratiqué la magie ont apporté leurs livres et les ont brûlés devant tout le monde. Si tu as des fétiches, des amulettes, des objets reçus d'un marabout ou d'un féticheur, des bagues ou des pommades de protection, ne les garde pas. Détruis-les. On ne garde pas un pied dans le camp de l'ennemi."
-    },
-    {
-     "verset": "Ac 19:18-19"
-    }
-   ]
-  },
-  {
-   "numero": "5",
-   "titre": "Des combats dans la Bible",
-   "references": [
-    "Jb 1:9-12",
-    "Lc 22:31-32",
-    "2 Co 12:7-9"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Job : l'ennemi a des limites"
-    },
-    {
-     "texte": "Satan a accusé Job devant Dieu : « Est-ce d'une manière désintéressée que Job craint Dieu ? » Dieu lui a permis d'éprouver Job, mais avec une limite : « Seulement, ne porte pas la main sur lui. » Le diable n'est pas tout-puissant. Il ne peut rien faire à un enfant de Dieu sans la permission de Dieu, et jamais au-delà de la limite que Dieu fixe."
-    },
-    {
-     "verset": "Jb 1:9-12"
-    },
-    {
-     "sous_titre": "Pierre : Jésus prie pour nous"
-    },
-    {
-     "texte": "Jésus a dit à Pierre : « Simon, Simon, Satan vous a réclamés, pour vous cribler comme le froment. Mais j'ai prié pour toi, afin que ta foi ne défaille point. » Pierre est tombé ; mais sa foi n'a pas défailli, et il s'est relevé. Dans ton combat, tu n'es pas seul : Jésus intercède pour toi."
-    },
-    {
-     "verset": "Lc 22:31-32"
-    },
-    {
-     "sous_titre": "Paul : l'écharde qui ne part pas"
-    },
-    {
-     "texte": "Paul avait une écharde dans la chair, un ange de Satan pour le souffleter. Il a prié trois fois pour qu'elle s'en aille. Dieu a répondu : « Ma grâce te suffit, car ma puissance s'accomplit dans la faiblesse. » Toutes les attaques ne disparaissent pas après une prière de délivrance. Parfois Dieu ne retire pas l'épreuve, mais donne la grâce de la traverser."
-    },
-    {
-     "verset": "2 Co 12:7-9"
-    }
-   ]
-  },
-  {
-   "numero": "6",
-   "titre": "Le combat spirituel dans notre contexte",
-   "references": [
-    "Dt 18:10-12",
-    "Ac 16:16-18",
-    "Ep 6:11"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "La peur des sorciers"
-    },
-    {
-     "texte": "Dans beaucoup de familles, on attribue toute maladie, tout échec, tout accident à un sorcier, souvent un parent âgé ou une belle-mère. On consulte des « prophètes » qui désignent un coupable. Des familles se déchirent, des vieillards sont chassés ou maltraités. Le chrétien sait que la sorcellerie existe ; mais il sait aussi que celui qui est en lui est plus grand, et il ne vit pas dans la peur ni dans l'accusation. Il prie, il se soumet à Dieu, il soigne la maladie, et il refuse d'accuser sans preuve."
-    },
-    {
-     "sous_titre": "Les pratiques à abandonner"
-    },
-    {
-     "texte": "Dieu a dit : qu'on ne trouve chez toi personne qui exerce le métier de devin, d'astrologue, d'augure, de magicien, d'enchanteur, personne qui consulte ceux qui évoquent les esprits ou disent la bonne aventure, personne qui interroge les morts. Les bains de protection, les scarifications, les pactes, les sacrifices aux ancêtres, les objets qu'un marabout a « préparés », n'ont pas leur place dans la vie d'un chrétien."
-    },
-    {
-     "verset": "Dt 18:10-12"
-    },
-    {
-     "sous_titre": "Paul et la servante devineresse"
-    },
-    {
-     "texte": "À Philippes, une servante qui avait un esprit de divination suivait Paul en criant des choses vraies : « Ces hommes sont les serviteurs du Dieu Très-Haut. » Paul, fatigué, s'est retourné et a dit à l'esprit : « Je t'ordonne, au nom de Jésus-Christ, de sortir d'elle. » Il sortit à l'heure même. Le diable peut dire des choses vraies pour gagner la confiance ; le discernement est nécessaire. Et l'autorité est dans le nom de Jésus, pas dans les cris ni les gestes."
-    },
-    {
-     "verset": "Ac 16:16-18"
-    }
-   ]
-  },
-  {
-   "numero": "7",
-   "titre": "Conclusion",
-   "references": [
-    "Rm 8:37"
-   ],
-   "blocs": [
-    {
-     "texte": "Le combat spirituel n'est pas une affaire de cris, de huile répandue partout ou de peur des sorciers. C'est une vie soumise à Dieu, nourrie de sa Parole, protégée par le sang de Jésus. Dans toutes ces choses, nous sommes plus que vainqueurs par celui qui nous a aimés."
-    },
-    {
-     "verset": "Rm 8:37"
-    }
-   ]
-  }
- ],
- "questions": [
-  {
-   "question": "Contre qui avons-nous à lutter selon Éphésiens 6:12 ?",
-   "choix": [
-    "Contre nos ennemis humains",
-    "Contre les puissances spirituelles des ténèbres",
-    "Contre nous-mêmes seulement"
-   ],
-   "reponse": 1,
-   "explication": "(Éphésiens 6:12)",
-   "section": "1"
-  },
-  {
-   "question": "Qu'est-ce qui donne accès au diable selon Éphésiens 4:27 ?",
-   "choix": [
-    "Prier trop",
-    "La colère gardée et les portes ouvertes au péché",
-    "Lire l'Ancien Testament"
-   ],
-   "reponse": 1,
-   "explication": "(Éphésiens 4:26-27)",
-   "section": "2"
-  },
-  {
-   "question": "Quel est l'ordre donné par Jacques 4:7 ?",
-   "choix": [
-    "Résister au diable puis se soumettre",
-    "Se soumettre à Dieu, puis résister au diable",
-    "Fuir le diable"
-   ],
-   "reponse": 1,
-   "explication": "(Jacques 4:7)",
-   "section": "4"
-  },
-  {
-   "question": "Que montre l'histoire de Job sur le pouvoir de Satan ?",
-   "choix": [
-    "Il peut tout faire",
-    "Il ne peut agir que dans la limite que Dieu permet",
-    "Il est égal à Dieu"
-   ],
-   "reponse": 1,
-   "explication": "(Job 1:12)",
-   "section": "5"
-  },
-  {
-   "question": "Qu'a répondu Dieu à Paul au sujet de son écharde ?",
-   "choix": [
-    "Je vais l'ôter",
-    "Ma grâce te suffit",
-    "Prie davantage"
-   ],
-   "reponse": 1,
-   "explication": "(2 Corinthiens 12:9)",
-   "section": "5"
-  },
-  {
-   "question": "Au nom de qui Paul a-t-il chassé l'esprit de divination ?",
-   "choix": [
-    "En son propre nom",
-    "Au nom de Jésus-Christ",
-    "Au nom de l'église"
-   ],
-   "reponse": 1,
-   "explication": "(Actes 16:18)",
-   "section": "6"
-  }
- ],
- "devoir": [
-  "Fais le tour de ta maison et de tes affaires : y a-t-il des objets liés à l'occultisme ? Débarrasse-t'en avec l'aide d'un responsable si besoin.",
-  "Écris un domaine où l'ennemi t'attaque souvent et trouve trois versets pour lui répondre.",
-  "Mémorise Jacques 4:7."
- ],
- "prieres_liees": [
-  "theme:priere-occultisme",
-  "theme:priere-sang-de-jesus"
- ],
- "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-14",
- "relu": false
+  ],
+  "devoir": [
+    "Fais le tour de ta maison et de tes affaires : y a-t-il des objets liés à l'occultisme ? Débarrasse-t'en avec l'aide d'un responsable si besoin.",
+    "Écris un domaine où l'ennemi t'attaque souvent et trouve trois versets pour lui répondre.",
+    "Mémorise Jacques 4:7."
+  ],
+  "prieres_liees": [
+    "theme:priere-occultisme",
+    "theme:priere-sang-de-jesus"
+  ],
+  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-14",
+  "relu": false
 }
