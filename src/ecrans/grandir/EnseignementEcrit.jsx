@@ -10,6 +10,7 @@ import { chargerEnseignement } from '../../donnees/contenu.js';
 import { partager } from '../../outils/partage.js';
 import { SujetsACocher, blocsSujets } from '../priere/Veille.jsx';
 import { compter } from '../../donnees/mesure.js';
+import { marquerOuvert, marquerLu } from '../../donnees/lectures.js';
 import { PRIERES, COMBAT, VEILLES, ENSEIGNEMENTS } from '../../donnees/contenu.js';
 
 // Liste ordonnée de tout ce qui se lit à voix haute ; l'index sert aussi au surlignage.
@@ -37,6 +38,14 @@ export function EnseignementEcrit({ id, ecouter }) {
     chargerEnseignement(id).then((e) => actif && setEtat({ e })).catch(() => actif && setEtat({ erreur: true }));
     return () => { actif = false; };
   }, [id]);
+  // Ouvert : pour « Reprendre ». Lu : quand on arrive presque en bas de la page.
+  useEffect(() => {
+    if (!etat.e) return;
+    marquerOuvert(id);
+    const f = () => { const d = document.documentElement; if (d.scrollTop + innerHeight >= d.scrollHeight * 0.9) { marquerLu(id); removeEventListener('scroll', f); } };
+    addEventListener('scroll', f, { passive: true });
+    return () => removeEventListener('scroll', f);
+  }, [etat.e, id]);
   const va = useVoixActive(id);
   const lance = useRef(false);
   const e = etat.e;
@@ -103,7 +112,7 @@ export function Questions({ e }) {
   const [rep, setRep] = useState({});
   const [verifie, setVerifie] = useState(false);
   const qs = e.questions, bonnes = qs.filter((q, i) => rep[i] === q.reponse).length;
-  const verifier = () => { setVerifie(true); compter('enseignement-fini', e.id); if (bonnes === qs.length) compter('questions-reussies', e.id); };
+  const verifier = () => { setVerifie(true); marquerLu(e.id); compter('enseignement-fini', e.id); if (bonnes === qs.length) compter('questions-reussies', e.id); };
   return (
     <section class="carte bloc questions-ens">
       <h3><span class="ligne__icone"><Icone nom="cible" /></span> As-tu bien compris ?</h3>

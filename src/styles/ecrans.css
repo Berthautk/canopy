@@ -926,3 +926,18 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .rappel-parcours__ligne .bouton { flex: 1 1 180px; }
 .rappel-parcours--ok { display: flex; align-items: center; gap: 6px; margin: 10px 4px; }
 .demande-accueil { border-left: 4px solid var(--or); }
+
+/* Grandir : séries en cartes visibles, « Par où commencer ? », coches de lecture */
+.series-grille { display: grid; gap: 10px; }
+.serie-carte { display: flex; align-items: center; gap: 12px; padding: 10px 12px 10px 10px; border-left: 4px solid var(--or); }
+.serie-carte img { width: 72px; height: 72px; object-fit: cover; border-radius: 12px; flex: none; }
+.serie-carte__corps { flex: 1; display: grid; gap: 4px; min-width: 0; }
+.serie-carte__corps b { font-family: var(--police-titre); font-size: 1rem; color: var(--titre); line-height: 1.25; }
+.serie-carte__nb { font-size: .82rem; color: var(--or-fonce, #8a6a1c); font-weight: 600; }
+.par-ou { margin-top: 12px; }
+.par-ou__choix { width: 100%; display: grid; grid-template-columns: 1fr auto; text-align: left; gap: 2px 8px; padding: 10px 12px; margin-top: 8px; border-radius: 12px; border: 1.5px solid var(--bord); background: var(--surface); color: var(--titre); }
+.par-ou__choix b { font-size: .95rem; }
+.par-ou__choix span { grid-column: 1; font-size: .8rem; color: var(--texte-doux); }
+.par-ou__choix svg { grid-row: 1 / span 2; grid-column: 2; align-self: center; }
+.niveau-onglet__nb { font-family: var(--police-texte, inherit); font-size: .72rem; font-weight: 700; background: rgba(0,0,0,.08); border-radius: 999px; padding: 1px 7px; margin-left: 4px; vertical-align: middle; }
+.enseignement__num--lu { background: #2e7d5b; color: #fff; display: inline-grid; place-items: center; }

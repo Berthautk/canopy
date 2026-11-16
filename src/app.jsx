@@ -23,7 +23,7 @@ import { Journal } from './ecrans/priere/Journal.jsx';
 import { Veille } from './ecrans/priere/Veille.jsx';
 import { FicheCombat } from './ecrans/priere/Priere.jsx';
 import { EnseignementEcrit } from './ecrans/grandir/EnseignementEcrit.jsx';
-import { Grandir } from './ecrans/grandir/Grandir.jsx';
+import { Grandir, SerieEnseignements } from './ecrans/grandir/Grandir.jsx';
 import { Parcours, PARCOURS } from './ecrans/grandir/NouveauConverti.jsx';
 import { Evangeliser, Article } from './ecrans/evangeliser/Evangeliser.jsx';
 import { Dialogue } from './ecrans/evangeliser/Dialogue.jsx';
@@ -56,7 +56,7 @@ import { Ordre } from './ecrans/jeux/Ordre.jsx';
 import { Duel } from './ecrans/jeux/Duel.jsx';
 import { Badges } from './ecrans/jeux/Badges.jsx';
 import { QUIZ } from './donnees/contenu.js';
-import { PRIERES, EVANGELISATION, DIALOGUES, VEILLES, COMBAT, ENSEIGNEMENTS, OUTILS, APPROCHES, CONVERSATIONS, veilleDuMoment } from './donnees/contenu.js';
+import { PRIERES, EVANGELISATION, DIALOGUES, VEILLES, COMBAT, ENSEIGNEMENTS, NIVEAUX, OUTILS, APPROCHES, CONVERSATIONS, veilleDuMoment } from './donnees/contenu.js';
 import { lecteur } from './audio/lecteur.js';
 import { route, ONGLET_DE } from './outils/routeur.js';
 import { useSignal } from './outils/signal.js';
@@ -93,6 +93,7 @@ function titre([a, b, c]) {
   if (a === 'priere' && b === 'theme') return PRIERES.find((x) => x.id === c)?.nom_court ?? PRIERES.find((x) => x.id === c)?.titre ?? 'Prière';
   if (a === 'priere' && b === 'veille') return VEILLES.find((x) => x.id === 'veille-' + c)?.titre ?? 'Prier';
   if (a === 'priere' && b === 'combat') return 'Combat spirituel';
+  if (a === 'grandir' && b === 'serie') return NIVEAUX.find((x) => x.id === c)?.nom ?? 'Série';
   if (a === 'grandir' && b === 'enseignement') return ENSEIGNEMENTS.find((x) => x.id === c)?.titre ?? 'Enseignement';
   if (a === 'grandir' && b === 'nouveau-converti') return c ? `Nouveau converti : jour ${c}` : 'Parcours Nouveau converti';
   if (a === 'grandir' && b === 'decouvrir-jesus') return c ? `Découvrir Jésus : leçon ${c}` : 'Découvrir Jésus';
@@ -126,7 +127,7 @@ function Ecran({ r }) {
     'qui-suis-je': <QuiSuisJe />, ordre: <Ordre id={c} />, duel: <Duel />, badges: <Badges />, chemin: c ? <NiveauChemin id={c} /> : <CheminFoi />, defi: <DefiDuJour />, memoriser: <Memoriser />,
     petits: c === 'alphabet' ? <Alphabet /> : c === 'compter' ? <Compter /> : c === 'trouver' ? <Trouver /> : c === 'mot' ? <CompleteMot /> : <PetitsAccueil />, course: <Course />, tribunal: <Tribunal />, pelerin: <Pelerin />, bloc: <BlocJeux id={c} /> })[b] ?? <Jouer />;
   if (a === 'priere') return b === 'demander' ? <DemanderPriere /> : b === 'journal' ? <Journal nouveau={r.params.nouveau} /> : b === 'theme' ? <ThemePriere id={c} guide={r.params.guide === '1'} /> : b === 'veille' ? <Veille id={c} guide={r.params.guide === '1'} /> : b === 'combat' ? <FicheCombat id={c} guide={r.params.guide === '1'} /> : b === 'pour-quelqu-un' ? <PourQuelquun jour={c === 'jour' ? r.segments[3] : null} /> : b === 'sommeil' ? <Sommeil /> : b === 'maintenant' ? <Veille id={(veilleDuMoment() || VEILLES[0]).id.replace('veille-', '')} /> : <Priere />;
-  if (a === 'grandir') return PARCOURS[b] ? <Parcours id={b} jour={c} /> : b === 'enseignement' ? <EnseignementEcrit id={c} ecouter={r.params.ecouter === '1'} /> : b === 'formation' ? <Formation /> : <Grandir />;
+  if (a === 'grandir') return PARCOURS[b] ? <Parcours id={b} jour={c} /> : b === 'enseignement' ? <EnseignementEcrit id={c} ecouter={r.params.ecouter === '1'} /> : b === 'formation' ? <Formation /> : b === 'serie' ? <SerieEnseignements niv={c} gi={d} /> : <Grandir />;
   if (a === 'evangeliser') return b === 'article' ? <Article id={c} /> : b === 'dialogue' ? <Dialogue id={c} /> : b === 'outil' ? <Outil id={c} /> : b === 'conversation' ? <Conversation id={c} /> : b === 'temoignage' ? <MonTemoignage /> : b === 'approche' ? <Approche id={c} /> : <Evangeliser />;
   if (a === 'ecouter') return <Ecouter id={b} />;
   if (a === 'bible') {
