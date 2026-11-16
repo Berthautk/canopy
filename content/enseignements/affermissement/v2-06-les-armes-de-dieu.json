@@ -1,321 +1,574 @@
 {
- "id": "disciple-v2-06-les-armes-de-dieu",
- "titre": "Les armes que Dieu me donne",
- "serie": "Affermissement",
- "theme": "Affermissement",
- "auteur": "Yeshaya",
- "resume": "Sixième leçon du volume 2 : Dieu ne t'envoie pas au combat sans équipement. Les pièces de l'armure d'Éphésiens 6, une par une, et comment les porter concrètement chaque jour.",
- "image": "/assets/vie-chretienne/mains-en-priere-sur-bible.webp",
- "verset_de_base": "Ep 6:13",
- "lecture_minutes": 13,
- "objectifs": [
-  "Connaître les six pièces de l'armure de Dieu.",
-  "Comprendre ce que chacune représente dans la vie pratique.",
-  "Apprendre à prier en tout temps par l'Esprit."
- ],
- "introduction": "Un soldat qui va à la guerre sans casque, sans gilet et sans arme ne revient pas. Beaucoup de chrétiens font exactement cela. Ils savent qu'il y a un combat, mais ils sortent chaque matin sans aucune protection spirituelle. Puis ils s'étonnent d'être blessés.\n\nPaul écrivait en prison, enchaîné à un soldat romain. Il regardait son armure, et le Saint-Esprit lui a montré l'équipement que Dieu donne à ses enfants. C'est pourquoi, prenez toutes les armes de Dieu, afin de pouvoir résister dans le mauvais jour (Éphésiens 6:13). Voyons chaque pièce.",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "Se fortifier dans le Seigneur",
-   "references": [
-    "Ep 6:10-11",
-    "Ep 6:13"
-   ],
-   "blocs": [
+  "id": "disciple-v2-06-les-armes-de-dieu",
+  "titre": "Les armes que Dieu me donne",
+  "serie": "Affermissement",
+  "theme": "Affermissement",
+  "auteur": "Yeshaya",
+  "resume": "Sixième leçon du volume 2 : Dieu ne t'envoie pas au combat sans équipement. Les pièces de l'armure d'Éphésiens 6, une par une, et comment les porter concrètement chaque jour.",
+  "image": "/assets/vie-chretienne/mains-en-priere-sur-bible.webp",
+  "verset_de_base": "Ep 6:13",
+  "lecture_minutes": 32,
+  "objectifs": [
+    "Connaître les six pièces de l'armure de Dieu.",
+    "Comprendre ce que chacune représente dans la vie pratique.",
+    "Apprendre à prier en tout temps par l'Esprit."
+  ],
+  "introduction": "Un soldat qui va à la guerre sans casque, sans gilet et sans arme ne revient pas. Beaucoup de chrétiens font exactement cela. Ils savent qu'il y a un combat, mais ils sortent chaque matin sans aucune protection spirituelle. Puis ils s'étonnent d'être blessés.\n\nPaul écrivait en prison, enchaîné à un soldat romain. Il regardait son armure, et le Saint-Esprit lui a montré l'équipement que Dieu donne à ses enfants. C'est pourquoi, prenez toutes les armes de Dieu, afin de pouvoir résister dans le mauvais jour (Éphésiens 6:13). Voyons chaque pièce.",
+  "sections": [
     {
-     "sous_titre": "La force vient de lui"
+      "numero": "1",
+      "titre": "Se fortifier dans le Seigneur",
+      "references": [
+        "Ep 6:10-11",
+        "Ep 6:13"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "La force vient de lui"
+        },
+        {
+          "texte": "Paul commence par : fortifiez-vous dans le Seigneur, et par sa force toute-puissante. Ce n'est pas ta force, ta volonté ou ton expérience qui te fera tenir. C'est la sienne. L'armure est appelée l'armure de Dieu : c'est lui qui la fournit."
+        },
+        {
+          "verset": "Ep 6:10-11"
+        },
+        {
+          "sous_titre": "Toutes les armes"
+        },
+        {
+          "texte": "Il ne dit pas : prends quelques armes. Il dit : toutes. Le soldat qui a un bon bouclier mais pas de casque sera touché à la tête. Le chrétien qui prie beaucoup mais ne connaît pas la Parole, ou qui connaît la Parole mais vit dans le mensonge, a des trous dans son armure."
+        },
+        {
+          "verset": "Ep 6:13"
+        }
+      ]
     },
     {
-     "texte": "Paul commence par : fortifiez-vous dans le Seigneur, et par sa force toute-puissante. Ce n'est pas ta force, ta volonté ou ton expérience qui te fera tenir. C'est la sienne. L'armure est appelée l'armure de Dieu : c'est lui qui la fournit."
+      "numero": "2",
+      "titre": "La ceinture de la vérité et la cuirasse de la justice",
+      "references": [
+        "Ep 6:14",
+        "Jn 8:32",
+        "Pr 4:23"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "La ceinture de la vérité"
+        },
+        {
+          "texte": "La ceinture tenait tout l'équipement du soldat romain en place. La vérité, c'est d'abord la vérité de la Parole de Dieu, et ensuite une vie vraie, sans double vie. Le mensonge, même petit, desserre la ceinture. Celui qui ment au travail, à son conjoint ou à son pasteur, combat avec une armure qui tombe."
+        },
+        {
+          "verset": "Jn 8:32"
+        },
+        {
+          "sous_titre": "La cuirasse de la justice"
+        },
+        {
+          "texte": "La cuirasse protégeait le cœur et les organes vitaux. La justice, c'est d'abord la justice de Christ qui t'est donnée : tu es déclaré juste devant Dieu. C'est aussi une vie droite. Le péché volontaire est une brèche dans la cuirasse, par où les flèches de l'accusation entrent."
+        },
+        {
+          "verset": "Pr 4:23"
+        }
+      ]
     },
     {
-     "verset": "Ep 6:10-11"
+      "numero": "3",
+      "titre": "Les chaussures du zèle et le bouclier de la foi",
+      "references": [
+        "Ep 6:15-16",
+        "Rm 10:15",
+        "He 11:6"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Prêt à annoncer l'Évangile"
+        },
+        {
+          "texte": "Le soldat romain avait des sandales cloutées qui lui permettaient de tenir debout sur tous les terrains et d'avancer. Le chrétien doit être prêt à annoncer l'Évangile de paix. Un chrétien qui ne fait que se défendre recule. Le chrétien qui annonce l'Évangile avance sur le terrain de l'ennemi."
+        },
+        {
+          "verset": "Rm 10:15"
+        },
+        {
+          "sous_titre": "Éteindre les traits enflammés"
+        },
+        {
+          "texte": "Le bouclier romain était grand et couvert de cuir mouillé, pour éteindre les flèches enflammées. Les traits du malin, ce sont les doutes, les peurs, les accusations, les tentations soudaines. La foi, c'est faire confiance à ce que Dieu a dit plutôt qu'à ce que tu ressens. Quand une flèche de peur arrive, tu lèves le bouclier : Dieu a dit, et je le crois."
+        },
+        {
+          "verset": "Ep 6:16"
+        }
+      ]
     },
     {
-     "sous_titre": "Toutes les armes"
+      "numero": "4",
+      "titre": "Le casque du salut et l'épée de l'Esprit",
+      "references": [
+        "Ep 6:17",
+        "He 4:12",
+        "Ps 119:11"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Le casque du salut"
+        },
+        {
+          "texte": "Le casque protège la tête, c'est-à-dire les pensées. L'assurance du salut protège ton esprit contre le doute et le désespoir. Celui qui ne sait pas s'il est sauvé est un soldat sans casque."
+        },
+        {
+          "verset": "Ep 6:17"
+        },
+        {
+          "sous_titre": "L'épée de l'Esprit, la Parole de Dieu"
+        },
+        {
+          "texte": "C'est la seule arme d'attaque. La Parole de Dieu est vivante et efficace, plus tranchante qu'une épée quelconque. Mais une épée laissée dans le fourreau ne sert à rien. Une Bible fermée sur l'étagère non plus. Tu dois lire, méditer et mémoriser la Parole pour pouvoir la sortir au moment du combat."
+        },
+        {
+          "verset": "He 4:12"
+        },
+        {
+          "sous_titre": "Cacher la Parole dans son cœur"
+        },
+        {
+          "texte": "Le psalmiste dit : je serre ta parole dans mon cœur, afin de ne pas pécher contre toi. Les versets que tu as mémorisés sont des armes toujours disponibles, même sans téléphone, même dans la nuit."
+        },
+        {
+          "verset": "Ps 119:11"
+        }
+      ]
     },
     {
-     "texte": "Il ne dit pas : prends quelques armes. Il dit : toutes. Le soldat qui a un bon bouclier mais pas de casque sera touché à la tête. Le chrétien qui prie beaucoup mais ne connaît pas la Parole, ou qui connaît la Parole mais vit dans le mensonge, a des trous dans son armure."
+      "numero": "5",
+      "titre": "Prier en tout temps",
+      "references": [
+        "Ep 6:18",
+        "1 Th 5:17"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "La prière qui active tout"
+        },
+        {
+          "texte": "Paul termine : faites en tout temps par l'Esprit toutes sortes de prières et de supplications. La prière n'est pas une pièce de l'armure, c'est ce qui permet de la porter. Le soldat le mieux équipé perd s'il ne reste pas en contact avec son commandant."
+        },
+        {
+          "verset": "Ep 6:18"
+        },
+        {
+          "sous_titre": "Pour tous les saints"
+        },
+        {
+          "texte": "Paul demande de prier avec persévérance pour tous les saints, et pour lui aussi. On ne combat pas seul. Un chrétien isolé est un soldat isolé. Prie pour tes frères, et demande-leur de prier pour toi."
+        },
+        {
+          "verset": "1 Th 5:17"
+        }
+      ]
     },
     {
-     "verset": "Ep 6:13"
+      "numero": "6",
+      "titre": "Des hommes qui ont porté l'armure",
+      "references": [
+        "1 S 17:38-47",
+        "Dn 6:10",
+        "Mt 4:1-11"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "David refuse l'armure de Saül"
+        },
+        {
+          "texte": "Saül voulut revêtir David de son armure : casque d'airain, cuirasse, épée. David essaya de marcher, puis l'ôta : « Je ne puis marcher avec cette armure, je n'y suis pas accoutumé. » Il alla contre Goliath avec sa fronde et cinq pierres, en disant : « Je marche contre toi au nom de l'Éternel des armées. » Les armes de Dieu ne sont pas celles des hommes. On ne gagne pas les combats spirituels avec des méthodes humaines, des fétiches de protection, des relations influentes ou des slogans criés."
+        },
+        {
+          "verset": "1 S 17:45-47"
+        },
+        {
+          "sous_titre": "Daniel et la prière"
+        },
+        {
+          "texte": "Quand Daniel apprit que le décret interdisant de prier avait été signé, il entra dans sa maison, ouvrit ses fenêtres vers Jérusalem, et trois fois par jour il se mit à genoux, il pria et loua son Dieu, comme il le faisait auparavant. Sa victoire dans la fosse aux lions a commencé dans sa chambre, des années avant. On ne revêt pas l'armure le jour de la bataille ; on la porte chaque jour."
+        },
+        {
+          "verset": "Dn 6:10"
+        },
+        {
+          "sous_titre": "Jésus dans le désert"
+        },
+        {
+          "texte": "Pendant quarante jours, le diable a tenté Jésus par la faim, par l'orgueil spirituel et par la puissance. Trois fois, Jésus a répondu avec l'épée de l'Esprit : « Il est écrit. » Il n'a pas débattu avec le diable, il n'a pas cherché à prouver qui il était ; il a cité la Parole. C'est le modèle de tout combat spirituel."
+        },
+        {
+          "verset": "Mt 4:1-11"
+        }
+      ]
+    },
+    {
+      "numero": "7",
+      "titre": "Revêtir l'armure chaque matin",
+      "references": [
+        "Ps 5:4",
+        "Rm 13:12-14"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une prière du matin"
+        },
+        {
+          "texte": "On peut, chaque matin, prendre une minute pour revêtir l'armure dans la prière. « Seigneur, je prends la ceinture de la vérité : garde-moi de tout mensonge aujourd'hui. Je revêts la cuirasse de la justice : je suis juste par le sang de Jésus, garde-moi pur. Je mets les chaussures de l'Évangile : donne-moi une occasion de parler de toi. Je lève le bouclier de la foi contre la peur et le doute. Je prends le casque du salut : je sais que je t'appartiens. Je prends l'épée de l'Esprit : rappelle-moi ta Parole au moment de la tentation. Et je prie pour mes frères. » Ce n'est pas une formule magique ; c'est une manière de se placer consciemment sous la protection de Dieu."
+        },
+        {
+          "verset": "Ps 5:4"
+        },
+        {
+          "sous_titre": "Revêtir Christ"
+        },
+        {
+          "texte": "Paul dit ailleurs : revêtez-vous du Seigneur Jésus-Christ, et n'ayez pas soin de la chair pour en satisfaire les convoitises. Au fond, l'armure de Dieu, c'est Christ lui-même : il est la vérité, notre justice, notre paix, l'objet de notre foi, notre salut, la Parole vivante. Revêtir l'armure, c'est se revêtir de Christ."
+        },
+        {
+          "verset": "Rm 13:12-14"
+        }
+      ]
+    },
+    {
+      "numero": "8",
+      "titre": "Guéhazi : un mensonge qui ouvre la porte à l'ennemi",
+      "references": [
+        "2 R 5:15-16",
+        "2 R 5:20-27"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un prophète qui refuse l'argent"
+        },
+        {
+          "texte": "Naaman, le chef de l'armée syrienne, venait d'être guéri de sa lèpre après s'être plongé sept fois dans le Jourdain, comme Élisée le lui avait dit. Rempli de reconnaissance, il est revenu vers le prophète avec de l'argent, de l'or et des vêtements de fête. Mais Élisée a refusé : l'Éternel, dont je suis le serviteur, est vivant ! je n'accepterai pas. Naaman le pressa d'accepter, mais il refusa."
+        },
+        {
+          "verset": "2 R 5:15-16"
+        },
+        {
+          "texte": "Élisée voulait que Naaman comprenne que la grâce de Dieu ne s'achète pas."
+        },
+        {
+          "sous_titre": "Le plan de Guéhazi"
+        },
+        {
+          "texte": "Mais Guéhazi, le serviteur d'Élisée, a pensé : voici, mon maître a ménagé Naaman, ce Syrien, en n'acceptant pas de sa main ce qu'il avait apporté ; l'Éternel est vivant ! je vais courir après lui, et j'en obtiendrai quelque chose. Il a couru, rattrapé Naaman, et il a inventé une histoire : mon maître m'envoie te dire que deux jeunes prophètes viennent d'arriver ; donne-leur, je te prie, un talent d'argent et deux vêtements de rechange."
+        },
+        {
+          "verset": "2 R 5:20-27"
+        },
+        {
+          "texte": "Naaman lui a donné deux talents au lieu d'un. Guéhazi a caché le tout dans la maison. Puis il est revenu se tenir devant son maître, comme si de rien n'était."
+        },
+        {
+          "sous_titre": "« D'où viens-tu, Guéhazi ? »"
+        },
+        {
+          "texte": "Élisée lui demanda : d'où viens-tu, Guéhazi ? Et il répondit : ton serviteur n'est allé ni d'un côté ni d'un autre. Un deuxième mensonge pour couvrir le premier. Mais Élisée lui dit : mon esprit n'était pas absent, lorsque cet homme a quitté son char pour venir au-devant de toi. Est-ce le temps de prendre de l'argent et de prendre des vêtements ? La lèpre de Naaman s'attachera à toi et à ta postérité pour toujours. Et Guéhazi sortit de la présence d'Élisée avec une lèpre comme la neige."
+        },
+        {
+          "sous_titre": "Pourquoi la vérité est une ceinture"
+        },
+        {
+          "texte": "Dans l'armure du soldat romain, la ceinture tenait tout le reste en place : la tunique, l'épée, la cuirasse. Sans ceinture, le soldat trébuchait dans ses propres vêtements. Ainsi, le mensonge défait tout le reste de la vie spirituelle. Guéhazi vivait près d'un grand prophète, il avait vu des miracles extraordinaires. Mais un seul mensonge, suivi d'un autre, l'a fait tomber."
+        },
+        {
+          "texte": "Le diable est le père du mensonge. Chaque fois que tu mens, tu parles sa langue, et tu lui donnes une prise sur ta vie. Un petit mensonge au travail, une excuse inventée, une facture gonflée, un « je suis en route » alors que tu n'es pas encore sorti : ce sont des fissures dans ta ceinture. Le soldat de Christ s'attache à la vérité, même quand elle lui coûte."
+        }
+      ]
+    },
+    {
+      "numero": "9",
+      "titre": "Samuel : une vie que personne ne peut accuser",
+      "references": [
+        "1 S 12:1-5",
+        "2 Co 8:21"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Le vieux juge devant le peuple"
+        },
+        {
+          "texte": "Samuel avait servi Israël depuis son enfance. Maintenant, il était vieux, et le peuple avait demandé un roi. Avant de laisser la place à Saül, Samuel a réuni tout Israël, et il a fait une chose étonnante. Il a ouvert sa vie devant tout le monde."
+        },
+        {
+          "verset": "1 S 12:1-5"
+        },
+        {
+          "texte": "Il a dit : me voici ! Rendez témoignage contre moi, en présence de l'Éternel et en présence de son oint : de qui ai-je pris le bœuf et de qui ai-je pris l'âne ? Qui ai-je opprimé, et qui ai-je traité durement ? De qui ai-je reçu un présent, pour fermer les yeux sur lui ? Je vous le rendrai."
+        },
+        {
+          "texte": "Et tout le peuple a répondu : tu ne nous as point opprimés, et tu ne nous as point traités durement, et tu n'as rien reçu de la main de personne."
+        },
+        {
+          "sous_titre": "La cuirasse de la justice"
+        },
+        {
+          "texte": "La cuirasse protégeait le cœur et les organes vitaux du soldat. Une vie juste protège ton cœur contre les accusations de l'ennemi. Le diable est appelé l'accusateur de nos frères. Il cherche une faille pour te faire honte, pour détruire ton témoignage, pour paralyser ton service."
+        },
+        {
+          "texte": "Samuel pouvait se tenir devant tout un peuple sans peur, parce qu'il n'avait rien à cacher. Il y a deux sortes de justice dans la vie chrétienne. D'abord, la justice de Christ qui nous est donnée par la foi : c'est elle qui nous rend acceptables devant Dieu. Ensuite, une vie juste, qui vient de cette grâce : honnêteté, fidélité, intégrité. Les deux ensemble forment une cuirasse solide."
+        },
+        {
+          "sous_titre": "Veiller à son intégrité devant les hommes"
+        },
+        {
+          "texte": "Paul écrivait au sujet de l'argent collecté pour les pauvres : nous recherchons ce qui est bien, non seulement devant le Seigneur, mais aussi devant les hommes."
+        },
+        {
+          "verset": "2 Co 8:21"
+        },
+        {
+          "texte": "Serviteur de Dieu, trésorier d'église, père de famille, commerçant : vis de telle manière qu'à la fin de ta vie, tu puisses dire comme Samuel : de qui ai-je pris quelque chose injustement ? Ce n'est pas de l'orgueil. C'est une protection. L'ennemi n'a aucune flèche contre l'homme qui n'a rien à cacher."
+        },
+        {
+          "texte": "On raconte l'histoire d'un trésorier d'église qui, pendant trente ans, a tenu les comptes de l'assemblée avec une rigueur extrême. Chaque franc était noté, chaque dépense justifiée, et le cahier était ouvert à tous ceux qui voulaient le voir. Un jour, un nouveau membre l'a accusé publiquement d'avoir détourné l'argent de la construction. Le vieil homme n'a pas crié. Il a simplement posé ses cahiers sur la table et a dit : « Vérifiez. » Une commission a tout examiné pendant un mois, et n'a trouvé aucune erreur. L'accusateur est venu lui demander pardon. La cuirasse avait tenu."
+        }
+      ]
+    },
+    {
+      "numero": "10",
+      "titre": "La Cananéenne : une foi qui ne lâche pas",
+      "references": [
+        "Mt 15:21-28",
+        "1 Jn 5:4"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une mère étrangère"
+        },
+        {
+          "texte": "Jésus s'était retiré dans la région de Tyr et de Sidon, en territoire païen. Une femme cananéenne est venue vers lui en criant : aie pitié de moi, Seigneur, Fils de David ! Ma fille est cruellement tourmentée par le démon."
+        },
+        {
+          "verset": "Mt 15:21-28"
+        },
+        {
+          "texte": "Cette femme n'était pas juive. Elle appartenait à un peuple que les Juifs méprisaient. Mais elle avait une fille tourmentée, et elle avait entendu parler de Jésus."
+        },
+        {
+          "sous_titre": "Trois obstacles"
+        },
+        {
+          "texte": "Le premier obstacle : Jésus ne lui répondit pas un mot. Le silence. Combien de fois nous prions, et le ciel semble fermé !"
+        },
+        {
+          "texte": "Le deuxième obstacle : les disciples lui dirent de la renvoyer, car elle criait derrière eux. Le rejet des autres, même des gens religieux."
+        },
+        {
+          "texte": "Le troisième obstacle : Jésus lui-même lui dit : je n'ai été envoyé qu'aux brebis perdues de la maison d'Israël. Puis : il n'est pas bien de prendre le pain des enfants, et de le jeter aux petits chiens. Une parole qui semblait la repousser."
+        },
+        {
+          "sous_titre": "Le bouclier qui éteint les flèches"
+        },
+        {
+          "texte": "Chacun de ces obstacles était comme une flèche enflammée lancée contre sa foi : « Dieu ne t'écoute pas. » « Tu déranges tout le monde. » « Tu n'as pas le droit. » Elle aurait pu partir en pleurant, blessée et découragée. Mais elle a levé le bouclier de la foi."
+        },
+        {
+          "texte": "Elle s'est prosternée devant Jésus et elle a dit : Seigneur, secours-moi ! Et à la dernière parole, elle a répondu avec une humilité et une intelligence magnifiques : oui, Seigneur, mais les petits chiens mangent les miettes qui tombent de la table de leurs maîtres."
+        },
+        {
+          "texte": "Elle ne discute pas avec Jésus. Elle accepte de n'avoir aucun droit. Mais elle s'accroche à sa bonté : même une miette de ta grâce suffit pour ma fille."
+        },
+        {
+          "texte": "Alors Jésus lui dit : femme, ta foi est grande ; qu'il te soit fait comme tu veux. Et, à l'heure même, sa fille fut guérie."
+        },
+        {
+          "sous_titre": "Lever le bouclier"
+        },
+        {
+          "texte": "La foi n'est pas l'absence de difficultés. C'est le refus de laisser les difficultés avoir le dernier mot sur le caractère de Dieu. Jean écrit : la victoire qui triomphe du monde, c'est notre foi."
+        },
+        {
+          "verset": "1 Jn 5:4"
+        },
+        {
+          "texte": "Quand le diable te lance ses flèches : « Dieu t'a oublié », « tu n'es pas digne », « il ne fera rien pour toi », réponds comme cette femme : oui, Seigneur, je ne mérite rien ; mais tu es bon, et ta bonté me suffit."
+        }
+      ]
+    },
+    {
+      "numero": "11",
+      "titre": "Jérémie achète un champ pendant le siège : le casque de l'espérance",
+      "references": [
+        "Jr 32:6-15",
+        "Jr 32:24-27",
+        "1 Th 5:8"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Le pire moment pour acheter une terre"
+        },
+        {
+          "texte": "Jérusalem était assiégée par l'armée de Babylone. Jérémie était en prison dans la cour du palais, parce qu'il avait annoncé que la ville tomberait. La famine régnait, la mort était partout. C'est à ce moment que Dieu lui a dit : ton cousin Hanameel va venir te proposer d'acheter son champ à Anathoth. Achète-le."
+        },
+        {
+          "verset": "Jr 32:6-15"
+        },
+        {
+          "texte": "Acheter un champ dans un pays qui va être conquis, c'est comme acheter une maison dans un quartier qui sera rasé demain. Mais Jérémie a obéi. Il a pesé l'argent, signé le contrat devant témoins, et fait mettre l'acte dans un vase de terre, pour qu'il se conserve longtemps. Car ainsi parle l'Éternel des armées : on achètera encore des maisons, des champs et des vignes, dans ce pays."
+        },
+        {
+          "sous_titre": "La prière d'un homme qui ne comprend pas"
+        },
+        {
+          "texte": "Ensuite, Jérémie a prié. Il a commencé par adorer : ah ! Seigneur Éternel, voici, tu as fait les cieux et la terre par ta grande puissance ; rien n'est étonnant de ta part. Puis il a exprimé son trouble : voici, les terrasses s'élèvent contre la ville, et toi, tu me dis : achète-toi ce champ !"
+        },
+        {
+          "texte": "Et Dieu lui a répondu : voici, je suis l'Éternel, le Dieu de toute chair. Y a-t-il rien qui soit étonnant de ma part ?"
+        },
+        {
+          "verset": "Jr 32:24-27"
+        },
+        {
+          "sous_titre": "Le casque protège la tête"
+        },
+        {
+          "texte": "Le casque protégeait la tête du soldat, le siège des pensées. Paul l'appelle ailleurs le casque de l'espérance du salut."
+        },
+        {
+          "verset": "1 Th 5:8"
+        },
+        {
+          "texte": "Le diable aime attaquer nos pensées : il n'y a pas d'avenir, tout est fini, Dieu ne peut plus rien faire. Le désespoir est une de ses armes favorites. Le casque de l'espérance, c'est la certitude que Dieu a le dernier mot, sur notre vie et sur l'histoire. Même quand tout s'écroule autour de nous, notre salut est assuré, et notre avenir est entre ses mains."
+        },
+        {
+          "texte": "Acheter un champ pendant le siège, c'est continuer à planter, à étudier, à se marier, à élever des enfants dans la foi, à bâtir pour Dieu, même quand les nouvelles sont mauvaises. Ce n'est pas de la naïveté. C'est l'espérance de quelqu'un qui connaît la fin de l'histoire. Soixante-dix ans plus tard, le peuple est revenu dans le pays, exactement comme Dieu l'avait promis."
+        }
+      ]
+    },
+    {
+      "numero": "12",
+      "titre": "Conclusion",
+      "references": [
+        "Rm 13:12"
+      ],
+      "blocs": [
+        {
+          "texte": "Chaque matin, avant de sortir, prends un moment pour revêtir l'armure. Non comme une formule magique, mais en vérité : je choisis la vérité, je marche dans la justice de Christ, je suis prêt à témoigner, je crois Dieu, je sais que je suis sauvé, je prends la Parole, je prie. Revêtons les armes de la lumière."
+        },
+        {
+          "verset": "Rm 13:12"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "La ceinture de la vérité et la cuirasse de la justice",
-   "references": [
-    "Ep 6:14",
-    "Jn 8:32",
-    "Pr 4:23"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "La ceinture de la vérité"
+      "question": "Quelle est la seule arme d'attaque de l'armure ?",
+      "choix": [
+        "Le bouclier de la foi",
+        "L'épée de l'Esprit, la Parole de Dieu",
+        "Le casque du salut"
+      ],
+      "reponse": 1,
+      "explication": "(Éphésiens 6:17)",
+      "section": "4"
     },
     {
-     "texte": "La ceinture tenait tout l'équipement du soldat romain en place. La vérité, c'est d'abord la vérité de la Parole de Dieu, et ensuite une vie vraie, sans double vie. Le mensonge, même petit, desserre la ceinture. Celui qui ment au travail, à son conjoint ou à son pasteur, combat avec une armure qui tombe."
+      "question": "À quoi sert le bouclier de la foi ?",
+      "choix": [
+        "À annoncer l'Évangile",
+        "À éteindre les traits enflammés du malin",
+        "À protéger les pieds"
+      ],
+      "reponse": 1,
+      "explication": "(Éphésiens 6:16)",
+      "section": "3"
     },
     {
-     "verset": "Jn 8:32"
+      "question": "Pourquoi le mensonge est-il dangereux pour le chrétien ?",
+      "choix": [
+        "Il n'est pas dangereux s'il est petit",
+        "Il desserre la ceinture de la vérité et affaiblit toute l'armure",
+        "Il ne concerne que les non-croyants"
+      ],
+      "reponse": 1,
+      "explication": "(Éphésiens 6:14)",
+      "section": "2"
     },
     {
-     "sous_titre": "La cuirasse de la justice"
+      "question": "Pourquoi David a-t-il refusé l'armure de Saül ?",
+      "choix": [
+        "Elle était trop belle",
+        "Il n'y était pas habitué et marchait au nom de l'Éternel",
+        "Il avait peur"
+      ],
+      "reponse": 1,
+      "explication": "(1 Samuel 17:39, 45)",
+      "section": "6"
     },
     {
-     "texte": "La cuirasse protégeait le cœur et les organes vitaux. La justice, c'est d'abord la justice de Christ qui t'est donnée : tu es déclaré juste devant Dieu. C'est aussi une vie droite. Le péché volontaire est une brèche dans la cuirasse, par où les flèches de l'accusation entrent."
+      "question": "Qu'a répondu Jésus trois fois au diable dans le désert ?",
+      "choix": [
+        "Va-t'en",
+        "Il est écrit",
+        "Je suis le Fils de Dieu"
+      ],
+      "reponse": 1,
+      "explication": "(Matthieu 4:4, 7, 10)",
+      "section": "6"
     },
     {
-     "verset": "Pr 4:23"
+      "question": "Combien de mensonges Guéhazi a-t-il dits, et quelle en a été la conséquence ?",
+      "choix": [
+        "Aucun, il a été récompensé",
+        "Deux : à Naaman et à Élisée ; la lèpre de Naaman s'est attachée à lui",
+        "Un seul, sans conséquence"
+      ],
+      "reponse": 1,
+      "explication": "2 Rois 5:22-27. Le mensonge défait la ceinture de la vérité.",
+      "section": "8"
+    },
+    {
+      "question": "Qu'a demandé Samuel au peuple avant de laisser la place à Saül ?",
+      "choix": [
+        "Une récompense",
+        "De témoigner s'il avait pris quelque chose injustement à quelqu'un",
+        "Un palais"
+      ],
+      "reponse": 1,
+      "explication": "1 Samuel 12:3-5. Une vie intègre est une cuirasse.",
+      "section": "9"
+    },
+    {
+      "question": "Comment la Cananéenne a-t-elle répondu à la parole sur les petits chiens ?",
+      "choix": [
+        "Elle s'est fâchée",
+        "« Oui, Seigneur, mais les petits chiens mangent les miettes »",
+        "Elle est partie"
+      ],
+      "reponse": 1,
+      "explication": "Matthieu 15:27-28.",
+      "section": "10"
+    },
+    {
+      "question": "Pourquoi Jérémie a-t-il acheté un champ pendant le siège ?",
+      "choix": [
+        "Pour faire un bon placement",
+        "Parce que Dieu le lui a demandé, signe que le peuple reviendrait dans le pays",
+        "Pour fuir la ville"
+      ],
+      "reponse": 1,
+      "explication": "Jérémie 32:15. Le casque de l'espérance.",
+      "section": "11"
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "Les chaussures du zèle et le bouclier de la foi",
-   "references": [
-    "Ep 6:15-16",
-    "Rm 10:15",
-    "He 11:6"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Prêt à annoncer l'Évangile"
-    },
-    {
-     "texte": "Le soldat romain avait des sandales cloutées qui lui permettaient de tenir debout sur tous les terrains et d'avancer. Le chrétien doit être prêt à annoncer l'Évangile de paix. Un chrétien qui ne fait que se défendre recule. Le chrétien qui annonce l'Évangile avance sur le terrain de l'ennemi."
-    },
-    {
-     "verset": "Rm 10:15"
-    },
-    {
-     "sous_titre": "Éteindre les traits enflammés"
-    },
-    {
-     "texte": "Le bouclier romain était grand et couvert de cuir mouillé, pour éteindre les flèches enflammées. Les traits du malin, ce sont les doutes, les peurs, les accusations, les tentations soudaines. La foi, c'est faire confiance à ce que Dieu a dit plutôt qu'à ce que tu ressens. Quand une flèche de peur arrive, tu lèves le bouclier : Dieu a dit, et je le crois."
-    },
-    {
-     "verset": "Ep 6:16"
-    }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "Le casque du salut et l'épée de l'Esprit",
-   "references": [
-    "Ep 6:17",
-    "He 4:12",
-    "Ps 119:11"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Le casque du salut"
-    },
-    {
-     "texte": "Le casque protège la tête, c'est-à-dire les pensées. L'assurance du salut protège ton esprit contre le doute et le désespoir. Celui qui ne sait pas s'il est sauvé est un soldat sans casque."
-    },
-    {
-     "verset": "Ep 6:17"
-    },
-    {
-     "sous_titre": "L'épée de l'Esprit, la Parole de Dieu"
-    },
-    {
-     "texte": "C'est la seule arme d'attaque. La Parole de Dieu est vivante et efficace, plus tranchante qu'une épée quelconque. Mais une épée laissée dans le fourreau ne sert à rien. Une Bible fermée sur l'étagère non plus. Tu dois lire, méditer et mémoriser la Parole pour pouvoir la sortir au moment du combat."
-    },
-    {
-     "verset": "He 4:12"
-    },
-    {
-     "sous_titre": "Cacher la Parole dans son cœur"
-    },
-    {
-     "texte": "Le psalmiste dit : je serre ta parole dans mon cœur, afin de ne pas pécher contre toi. Les versets que tu as mémorisés sont des armes toujours disponibles, même sans téléphone, même dans la nuit."
-    },
-    {
-     "verset": "Ps 119:11"
-    }
-   ]
-  },
-  {
-   "numero": "5",
-   "titre": "Prier en tout temps",
-   "references": [
-    "Ep 6:18",
-    "1 Th 5:17"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "La prière qui active tout"
-    },
-    {
-     "texte": "Paul termine : faites en tout temps par l'Esprit toutes sortes de prières et de supplications. La prière n'est pas une pièce de l'armure, c'est ce qui permet de la porter. Le soldat le mieux équipé perd s'il ne reste pas en contact avec son commandant."
-    },
-    {
-     "verset": "Ep 6:18"
-    },
-    {
-     "sous_titre": "Pour tous les saints"
-    },
-    {
-     "texte": "Paul demande de prier avec persévérance pour tous les saints, et pour lui aussi. On ne combat pas seul. Un chrétien isolé est un soldat isolé. Prie pour tes frères, et demande-leur de prier pour toi."
-    },
-    {
-     "verset": "1 Th 5:17"
-    }
-   ]
-  },
-  {
-   "numero": "6",
-   "titre": "Des hommes qui ont porté l'armure",
-   "references": [
-    "1 S 17:38-47",
-    "Dn 6:10",
-    "Mt 4:1-11"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "David refuse l'armure de Saül"
-    },
-    {
-     "texte": "Saül voulut revêtir David de son armure : casque d'airain, cuirasse, épée. David essaya de marcher, puis l'ôta : « Je ne puis marcher avec cette armure, je n'y suis pas accoutumé. » Il alla contre Goliath avec sa fronde et cinq pierres, en disant : « Je marche contre toi au nom de l'Éternel des armées. » Les armes de Dieu ne sont pas celles des hommes. On ne gagne pas les combats spirituels avec des méthodes humaines, des fétiches de protection, des relations influentes ou des slogans criés."
-    },
-    {
-     "verset": "1 S 17:45-47"
-    },
-    {
-     "sous_titre": "Daniel et la prière"
-    },
-    {
-     "texte": "Quand Daniel apprit que le décret interdisant de prier avait été signé, il entra dans sa maison, ouvrit ses fenêtres vers Jérusalem, et trois fois par jour il se mit à genoux, il pria et loua son Dieu, comme il le faisait auparavant. Sa victoire dans la fosse aux lions a commencé dans sa chambre, des années avant. On ne revêt pas l'armure le jour de la bataille ; on la porte chaque jour."
-    },
-    {
-     "verset": "Dn 6:10"
-    },
-    {
-     "sous_titre": "Jésus dans le désert"
-    },
-    {
-     "texte": "Pendant quarante jours, le diable a tenté Jésus par la faim, par l'orgueil spirituel et par la puissance. Trois fois, Jésus a répondu avec l'épée de l'Esprit : « Il est écrit. » Il n'a pas débattu avec le diable, il n'a pas cherché à prouver qui il était ; il a cité la Parole. C'est le modèle de tout combat spirituel."
-    },
-    {
-     "verset": "Mt 4:1-11"
-    }
-   ]
-  },
-  {
-   "numero": "7",
-   "titre": "Revêtir l'armure chaque matin",
-   "references": [
-    "Ps 5:4",
-    "Rm 13:12-14"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Une prière du matin"
-    },
-    {
-     "texte": "On peut, chaque matin, prendre une minute pour revêtir l'armure dans la prière. « Seigneur, je prends la ceinture de la vérité : garde-moi de tout mensonge aujourd'hui. Je revêts la cuirasse de la justice : je suis juste par le sang de Jésus, garde-moi pur. Je mets les chaussures de l'Évangile : donne-moi une occasion de parler de toi. Je lève le bouclier de la foi contre la peur et le doute. Je prends le casque du salut : je sais que je t'appartiens. Je prends l'épée de l'Esprit : rappelle-moi ta Parole au moment de la tentation. Et je prie pour mes frères. » Ce n'est pas une formule magique ; c'est une manière de se placer consciemment sous la protection de Dieu."
-    },
-    {
-     "verset": "Ps 5:4"
-    },
-    {
-     "sous_titre": "Revêtir Christ"
-    },
-    {
-     "texte": "Paul dit ailleurs : revêtez-vous du Seigneur Jésus-Christ, et n'ayez pas soin de la chair pour en satisfaire les convoitises. Au fond, l'armure de Dieu, c'est Christ lui-même : il est la vérité, notre justice, notre paix, l'objet de notre foi, notre salut, la Parole vivante. Revêtir l'armure, c'est se revêtir de Christ."
-    },
-    {
-     "verset": "Rm 13:12-14"
-    }
-   ]
-  },
-  {
-   "numero": "8",
-   "titre": "Conclusion",
-   "references": [
-    "Rm 13:12"
-   ],
-   "blocs": [
-    {
-     "texte": "Chaque matin, avant de sortir, prends un moment pour revêtir l'armure. Non comme une formule magique, mais en vérité : je choisis la vérité, je marche dans la justice de Christ, je suis prêt à témoigner, je crois Dieu, je sais que je suis sauvé, je prends la Parole, je prie. Revêtons les armes de la lumière."
-    },
-    {
-     "verset": "Rm 13:12"
-    }
-   ]
-  }
- ],
- "questions": [
-  {
-   "question": "Quelle est la seule arme d'attaque de l'armure ?",
-   "choix": [
-    "Le bouclier de la foi",
-    "L'épée de l'Esprit, la Parole de Dieu",
-    "Le casque du salut"
-   ],
-   "reponse": 1,
-   "explication": "(Éphésiens 6:17)",
-   "section": "4"
-  },
-  {
-   "question": "À quoi sert le bouclier de la foi ?",
-   "choix": [
-    "À annoncer l'Évangile",
-    "À éteindre les traits enflammés du malin",
-    "À protéger les pieds"
-   ],
-   "reponse": 1,
-   "explication": "(Éphésiens 6:16)",
-   "section": "3"
-  },
-  {
-   "question": "Pourquoi le mensonge est-il dangereux pour le chrétien ?",
-   "choix": [
-    "Il n'est pas dangereux s'il est petit",
-    "Il desserre la ceinture de la vérité et affaiblit toute l'armure",
-    "Il ne concerne que les non-croyants"
-   ],
-   "reponse": 1,
-   "explication": "(Éphésiens 6:14)",
-   "section": "2"
-  },
-  {
-   "question": "Pourquoi David a-t-il refusé l'armure de Saül ?",
-   "choix": [
-    "Elle était trop belle",
-    "Il n'y était pas habitué et marchait au nom de l'Éternel",
-    "Il avait peur"
-   ],
-   "reponse": 1,
-   "explication": "(1 Samuel 17:39, 45)",
-   "section": "6"
-  },
-  {
-   "question": "Qu'a répondu Jésus trois fois au diable dans le désert ?",
-   "choix": [
-    "Va-t'en",
-    "Il est écrit",
-    "Je suis le Fils de Dieu"
-   ],
-   "reponse": 1,
-   "explication": "(Matthieu 4:4, 7, 10)",
-   "section": "6"
-  }
- ],
- "devoir": [
-  "Écris chaque pièce de l'armure et, à côté, une action concrète pour la porter cette semaine.",
-  "Mémorise trois versets que tu pourras utiliser comme épée contre ta tentation la plus fréquente.",
-  "Trouve un frère ou une sœur avec qui prier une fois par semaine."
- ],
- "prieres_liees": [
-  "theme:priere-aimer-la-parole",
-  "theme:priere-prier-sans-cesse"
- ],
- "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-14",
- "relu": false
+  ],
+  "devoir": [
+    "Écris chaque pièce de l'armure et, à côté, une action concrète pour la porter cette semaine.",
+    "Mémorise trois versets que tu pourras utiliser comme épée contre ta tentation la plus fréquente.",
+    "Trouve un frère ou une sœur avec qui prier une fois par semaine."
+  ],
+  "prieres_liees": [
+    "theme:priere-aimer-la-parole",
+    "theme:priere-prier-sans-cesse"
+  ],
+  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-14",
+  "relu": false
 }
