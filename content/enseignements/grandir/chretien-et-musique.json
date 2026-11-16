@@ -1,297 +1,536 @@
 {
- "id": "enseignement-chretien-et-musique",
- "titre": "Le chrétien et la musique",
- "serie": "Grandir",
- "theme": "Sanctification",
- "auteur": "Yeshaya",
- "resume": "La musique n'est pas neutre. D'où vient-elle, qui l'a reçue en premier, et pourquoi le chrétien ne doit pas nourrir son âme de musique mondaine. La différence entre louange et adoration, et la place de la musique inspirée par le Saint-Esprit.",
- "image": "/assets/eglise/louange-assemblee.webp",
- "verset_de_base": "Ép 5:19",
- "lecture_minutes": 17,
- "objectifs": [
-  "Comprendre que la musique a une puissance réelle sur l'âme et l'esprit.",
-  "Découvrir l'origine et l'histoire de la musique dans la Bible.",
-  "Comprendre pourquoi la musique mondaine est un danger pour le chrétien.",
-  "Faire la différence entre la louange et l'adoration, et apprendre à adorer."
- ],
- "introduction": "Beaucoup de chrétiens pensent que la musique est une question de goût. « Moi, j'aime le rap. Moi, j'aime le coupé-décalé. Moi, j'aime la rumba. Ce n'est que de la musique, ce n'est pas grave. » Ils vont au culte le dimanche, ils chantent les cantiques, puis ils remettent leurs écouteurs dans la voiture et ils écoutent pendant toute la semaine des chansons qui parlent de sexe, d'argent, de vengeance, de drogue et de fête.\n\nJe vais te dire la vérité, simplement : la musique n'est jamais neutre. Elle n'entre pas seulement dans tes oreilles ; elle entre dans ton âme. Elle porte des paroles, un rythme et un esprit. Dans cet enseignement, nous allons voir d'où vient la musique, ce qu'elle est devenue, pourquoi la musique mondaine est un danger pour le chrétien, et quelle musique le chrétien doit nourrir dans sa vie.",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "La musique a une puissance",
-   "references": [
-    "1 S 16:23",
-    "2 R 3:15",
-    "2 Ch 5:13-14"
-   ],
-   "blocs": [
+  "id": "enseignement-chretien-et-musique",
+  "titre": "Le chrétien et la musique",
+  "serie": "Grandir",
+  "theme": "Sanctification",
+  "auteur": "Yeshaya",
+  "resume": "La musique n'est pas neutre. D'où vient-elle, qui l'a reçue en premier, et pourquoi le chrétien ne doit pas nourrir son âme de musique mondaine. La différence entre louange et adoration, et la place de la musique inspirée par le Saint-Esprit.",
+  "image": "/assets/eglise/louange-assemblee.webp",
+  "verset_de_base": "Ép 5:19",
+  "lecture_minutes": 33,
+  "objectifs": [
+    "Comprendre que la musique a une puissance réelle sur l'âme et l'esprit.",
+    "Découvrir l'origine et l'histoire de la musique dans la Bible.",
+    "Comprendre pourquoi la musique mondaine est un danger pour le chrétien.",
+    "Faire la différence entre la louange et l'adoration, et apprendre à adorer."
+  ],
+  "introduction": "Beaucoup de chrétiens pensent que la musique est une question de goût. « Moi, j'aime le rap. Moi, j'aime le coupé-décalé. Moi, j'aime la rumba. Ce n'est que de la musique, ce n'est pas grave. » Ils vont au culte le dimanche, ils chantent les cantiques, puis ils remettent leurs écouteurs dans la voiture et ils écoutent pendant toute la semaine des chansons qui parlent de sexe, d'argent, de vengeance, de drogue et de fête.\n\nJe vais te dire la vérité, simplement : la musique n'est jamais neutre. Elle n'entre pas seulement dans tes oreilles ; elle entre dans ton âme. Elle porte des paroles, un rythme et un esprit. Dans cet enseignement, nous allons voir d'où vient la musique, ce qu'elle est devenue, pourquoi la musique mondaine est un danger pour le chrétien, et quelle musique le chrétien doit nourrir dans sa vie.",
+  "sections": [
     {
-     "sous_titre": "Une puissance sur l'esprit"
+      "numero": "1",
+      "titre": "La musique a une puissance",
+      "references": [
+        "1 S 16:23",
+        "2 R 3:15",
+        "2 Ch 5:13-14"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une puissance sur l'esprit"
+        },
+        {
+          "texte": "La Bible montre que la musique agit sur l'invisible. Quand un esprit mauvais tourmentait le roi Saül, David prenait la harpe et jouait de sa main ; Saül respirait alors plus à l'aise et se trouvait soulagé, et le mauvais esprit se retirait de lui. La musique de David, un homme selon le cœur de Dieu, chassait l'esprit mauvais."
+        },
+        {
+          "verset": "1 S 16:23"
+        },
+        {
+          "texte": "Quand le prophète Élisée a eu besoin d'entendre Dieu, il a dit : maintenant, amenez-moi un joueur de harpe. Et comme le joueur de harpe jouait, la main de l'Éternel fut sur Élisée. La musique a préparé l'atmosphère pour que la parole prophétique vienne."
+        },
+        {
+          "verset": "2 R 3:15"
+        },
+        {
+          "texte": "Et lors de la dédicace du temple, quand les trompettes et les chantres se sont unis d'un même accord pour louer l'Éternel, la maison fut remplie d'une nuée, et les sacrificateurs ne pouvaient plus faire le service, car la gloire de l'Éternel remplissait la maison de Dieu."
+        },
+        {
+          "verset": "2 Ch 5:13-14"
+        },
+        {
+          "sous_titre": "Une puissance qui peut aussi détruire"
+        },
+        {
+          "texte": "Si la musique peut attirer la présence de Dieu, elle peut aussi attirer d'autres présences. Si elle peut chasser un esprit mauvais, une autre musique peut en inviter. Même dans la création, on constate que la musique agit : des expériences souvent citées montrent que des plantes réagissent différemment selon la musique qu'on leur fait entendre. Si la musique influence une plante, combien plus elle influence ton cœur, tes pensées, tes désirs et tes décisions."
+        }
+      ]
     },
     {
-     "texte": "La Bible montre que la musique agit sur l'invisible. Quand un esprit mauvais tourmentait le roi Saül, David prenait la harpe et jouait de sa main ; Saül respirait alors plus à l'aise et se trouvait soulagé, et le mauvais esprit se retirait de lui. La musique de David, un homme selon le cœur de Dieu, chassait l'esprit mauvais."
+      "numero": "2",
+      "titre": "L'origine de la musique",
+      "references": [
+        "Éz 28:13-14",
+        "Gn 4:21",
+        "És 14:11"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un don fait à Lucifer"
+        },
+        {
+          "texte": "Le prophète Ézéchiel, en parlant du roi de Tyr, décrit derrière lui un être qui était en Éden, le jardin de Dieu, un chérubin protecteur placé sur la sainte montagne de Dieu. Beaucoup de serviteurs de Dieu y voient la description de Lucifer avant sa chute. Et le texte dit : tes tambourins et tes flûtes étaient à ton service, préparés pour le jour où tu fus créé."
+        },
+        {
+          "verset": "Éz 28:13-14"
+        },
+        {
+          "texte": "Retiens bien cela : la musique a été confiée à cet être pour servir l'adoration de Dieu. Mais quand il s'est élevé dans son orgueil, il a été précipité. Ésaïe dit de sa chute : ta magnificence est descendue dans le séjour des morts, avec le son de tes luths. Il est tombé, mais il n'a pas perdu sa connaissance de la musique. Depuis, il s'en sert pour attirer vers lui l'adoration qu'il a toujours voulu voler à Dieu."
+        },
+        {
+          "verset": "És 14:11"
+        },
+        {
+          "sous_titre": "La première musique sur la terre"
+        },
+        {
+          "texte": "La Bible mentionne le premier musicien de l'humanité : Jubal, le père de tous ceux qui jouent de la harpe et du chalumeau. Il était de la descendance de Caïn, la lignée de ceux qui s'étaient éloignés de la face de l'Éternel. Dès le début, la musique s'est développée dans une civilisation qui vivait sans Dieu, à côté de l'élevage, des métaux et de la violence de Lémec."
+        },
+        {
+          "verset": "Gn 4:21"
+        },
+        {
+          "sous_titre": "La musique rachetée pour Dieu"
+        },
+        {
+          "texte": "Mais Dieu reprend toujours ce que l'ennemi a volé. Sous David, la musique a été organisée pour le service de Dieu : des chantres, des musiciens consacrés, qui prophétisaient en s'accompagnant de la harpe, du luth et des cymbales. La musique n'est donc pas mauvaise en elle-même. La question est : à qui sert-elle ? Qui en reçoit l'adoration ?"
+        },
+        {
+          "verset": "1 Ch 25:1"
+        }
+      ]
     },
     {
-     "verset": "1 S 16:23"
+      "numero": "3",
+      "titre": "Pourquoi la musique mondaine est un danger",
+      "references": [
+        "Dn 3:5-7",
+        "1 Co 10:21",
+        "2 Co 6:14-17",
+        "1 Jn 2:15-16"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Elle conduit à adorer autre chose que Dieu"
+        },
+        {
+          "texte": "Au temps de Daniel, le roi Nebucadnetsar a dressé une statue d'or. Et comment a-t-il fait pour que tout le peuple se prosterne ? Avec la musique : au moment où vous entendrez le son de la trompette, du chalumeau, de la guitare et de toutes sortes d'instruments de musique, vous vous prosternerez. La musique a été l'outil pour faire plier les genoux de tout un peuple devant une idole. Aujourd'hui encore, la musique du monde fait plier des millions de jeunes devant les idoles de ce siècle : le sexe, l'argent, la célébrité, la révolte."
+        },
+        {
+          "verset": "Dn 3:5-7"
+        },
+        {
+          "sous_titre": "Elle véhicule une idéologie et un esprit"
+        },
+        {
+          "texte": "Écoute les paroles des chansons qui passent à la radio et dans les boîtes de nuit. Elles enseignent l'immoralité, l'adultère, l'argent facile, la vengeance, la drogue, le mépris des parents et de Dieu. Ce que tu chantes, tu finis par le croire, et ce que tu crois, tu finis par le vivre. Beaucoup d'artistes eux-mêmes ont raconté avoir conclu des pactes ou consacré leurs œuvres à des puissances occultes pour réussir. Des témoignages parlent de jeunes poussés au suicide, de concerts où des foules tombent en transe, de personnes attaquées spirituellement dans leur chambre après avoir écouté certaines musiques. Derrière la musique, il y a un esprit."
+        },
+        {
+          "sous_titre": "On ne peut pas avoir les deux tables"
+        },
+        {
+          "texte": "Paul est très clair : vous ne pouvez boire la coupe du Seigneur, et la coupe des démons ; vous ne pouvez participer à la table du Seigneur, et à la table des démons. On ne peut pas adorer Jésus le dimanche et nourrir son âme toute la semaine de chansons qui glorifient le péché. Quel rapport y a-t-il entre la lumière et les ténèbres ? Quel accord y a-t-il entre Christ et Bélial ? C'est pourquoi, sortez du milieu d'eux, et séparez-vous, dit le Seigneur."
+        },
+        {
+          "verset": "1 Co 10:21"
+        },
+        {
+          "verset": "2 Co 6:14-17"
+        },
+        {
+          "sous_titre": "N'aimez pas le monde"
+        },
+        {
+          "texte": "Jean ajoute : n'aimez point le monde, ni les choses qui sont dans le monde. Car tout ce qui est dans le monde, la convoitise de la chair, la convoitise des yeux, et l'orgueil de la vie, ne vient point du Père. La plupart des musiques mondaines sont construites exactement sur ces trois choses."
+        },
+        {
+          "verset": "1 Jn 2:15-16"
+        },
+        {
+          "sous_titre": "Et la musique « chrétienne » ?"
+        },
+        {
+          "texte": "Attention aussi : tout ce qui porte l'étiquette « chrétien » n'est pas inspiré par le Saint-Esprit. Certains chantent Jésus seulement pour gagner de l'argent ou pour avoir une carrière, avec les mêmes rythmes, les mêmes danses et le même esprit que le monde. Le critère n'est pas le nom de Jésus dans la chanson, mais l'esprit qui la porte et le fruit qu'elle produit en toi : est-ce qu'elle t'approche de Dieu, ou est-ce qu'elle réveille ta chair ?"
+        }
+      ]
     },
     {
-     "texte": "Quand le prophète Élisée a eu besoin d'entendre Dieu, il a dit : maintenant, amenez-moi un joueur de harpe. Et comme le joueur de harpe jouait, la main de l'Éternel fut sur Élisée. La musique a préparé l'atmosphère pour que la parole prophétique vienne."
+      "numero": "4",
+      "titre": "Le bruit autour du veau d'or",
+      "references": [
+        "Ex 32:1-6",
+        "Ex 32:15-19"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une fête religieuse sans Dieu"
+        },
+        {
+          "texte": "Moïse était sur la montagne depuis quarante jours, pour recevoir la loi de Dieu. En bas, le peuple s'impatientait. Ils dirent à Aaron : allons ! fais-nous un dieu qui marche devant nous. Aaron leur demanda leurs boucles d'oreilles en or, les fondit, et en fit un veau. Et le peuple dit : Israël ! voici ton dieu, qui t'a fait sortir du pays d'Égypte."
+        },
+        {
+          "verset": "Ex 32:1-6"
+        },
+        {
+          "texte": "Aaron bâtit un autel devant le veau, et il cria : demain, il y aura fête en l'honneur de l'Éternel ! Remarque : ils appelaient cela une fête pour l'Éternel. Ils utilisaient le nom de Dieu. Le lendemain, ils offrirent des sacrifices, puis le peuple s'assit pour manger et pour boire ; puis ils se levèrent pour se divertir."
+        },
+        {
+          "sous_titre": "Ce que Josué a entendu"
+        },
+        {
+          "texte": "Moïse redescendait de la montagne, avec les deux tables de la loi dans ses mains. Josué, qui l'accompagnait, entendit la voix du peuple, qui poussait des cris, et il dit à Moïse : il y a un cri de guerre dans le camp. Moïse répondit : ce n'est ni un cri de vainqueurs, ni un cri de vaincus ; ce que j'entends, c'est la voix de gens qui chantent."
+        },
+        {
+          "verset": "Ex 32:15-19"
+        },
+        {
+          "texte": "Lorsqu'il approcha du camp, il vit le veau et les danses. La colère de Moïse s'enflamma ; il jeta de ses mains les tables, et les brisa au pied de la montagne."
+        },
+        {
+          "sous_titre": "Une musique qui accompagne l'idolâtrie"
+        },
+        {
+          "texte": "Le peuple chantait, dansait, faisait la fête. De loin, cela ressemblait à de la joie. Mais c'était une musique au service d'une idole, une louange déformée, un culte où le nom de Dieu était utilisé pour couvrir ce que Dieu déteste. Le texte ajoute que le peuple était livré au désordre."
+        },
+        {
+          "texte": "Ce n'est pas parce qu'une musique est forte, joyeuse, et qu'elle utilise le mot « Dieu », qu'elle plaît à Dieu. La question est : vers qui cette musique tourne-t-elle les cœurs ? Vers Dieu tel qu'il s'est révélé, ou vers une image que l'homme s'est fabriquée ? Est-ce qu'elle conduit à l'obéissance, ou au désordre ?"
+        },
+        {
+          "sous_titre": "Dans nos cultes"
+        },
+        {
+          "texte": "Il arrive que, dans certaines églises, l'ambiance musicale devienne le centre du culte. On danse, on crie, on transpire, mais la Parole est à peine lue, la repentance n'est jamais prêchée, et la vie des gens ne change pas. On appelle cela « une fête pour l'Éternel », mais c'est parfois une fête pour notre plaisir. La vraie louange ne remplace pas l'obéissance. Elle en découle."
+        }
+      ]
     },
     {
-     "verset": "2 R 3:15"
+      "numero": "5",
+      "titre": "« Éloigne de moi le bruit de tes cantiques »",
+      "references": [
+        "Am 5:21-24",
+        "Am 6:4-6"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un culte que Dieu refuse"
+        },
+        {
+          "texte": "Au temps du prophète Amos, le royaume d'Israël était prospère. Les temples étaient pleins, les fêtes religieuses étaient nombreuses, la musique était riche. Mais dans le même pays, les riches écrasaient les pauvres, les juges acceptaient des pots-de-vin, et on vendait le juste pour de l'argent."
+        },
+        {
+          "texte": "Et Dieu dit par Amos : je hais, je méprise vos fêtes, je ne puis sentir vos assemblées. Quand vous me présentez des holocaustes et des offrandes, je n'y prends aucun plaisir. Éloigne de moi le bruit de tes cantiques ; je n'écoute pas le son de tes luths. Mais que la droiture soit comme un courant d'eau, et la justice comme un torrent qui jamais ne tarit."
+        },
+        {
+          "verset": "Am 5:21-24"
+        },
+        {
+          "sous_titre": "Pourquoi Dieu refuse-t-il ces chants ?"
+        },
+        {
+          "texte": "Ce n'est pas la musique en elle-même que Dieu rejette. C'est la musique qui sort d'une vie injuste. Des gens qui chantaient au temple le matin, et qui trompaient leurs clients au marché l'après-midi. Des gens qui jouaient de beaux instruments, mais qui ne payaient pas leurs ouvriers."
+        },
+        {
+          "texte": "Dieu appelle leurs cantiques « du bruit ». Une louange sans justice, sans amour du prochain, sans sainteté, n'est qu'un bruit pour Dieu, même si elle est bien jouée et bien chantée."
+        },
+        {
+          "sous_titre": "La musique de l'insouciance"
+        },
+        {
+          "texte": "Amos décrit aussi la vie des riches de son temps : ils sont couchés sur des lits d'ivoire, ils mangent les agneaux du troupeau. Ils chantent au son du luth, ils se croient habiles comme David sur les instruments de musique. Ils boivent le vin dans de larges coupes, ils s'oignent avec la meilleure huile, et ils ne s'attristent pas sur la ruine de Joseph."
+        },
+        {
+          "verset": "Am 6:4-6"
+        },
+        {
+          "texte": "La musique remplissait leurs soirées, mais elle servait à oublier la souffrance de leur peuple. Elle anesthésiait leur conscience."
+        },
+        {
+          "sous_titre": "Une question pour nous"
+        },
+        {
+          "texte": "Les chantres et les musiciens de l'église ont une grande responsabilité. Ils ne sont pas des artistes qui donnent un spectacle, mais des serviteurs qui conduisent le peuple vers Dieu. Leur vie doit correspondre à ce qu'ils chantent. Et chacun de nous peut se demander : est-ce que ma louange du dimanche est confirmée par ma justice du lundi ? Est-ce que je chante « Dieu est bon » le matin, et je maltraite ma servante, mon apprenti, ma femme ou mon mari le soir ?"
+        }
+      ]
     },
     {
-     "texte": "Et lors de la dédicace du temple, quand les trompettes et les chantres se sont unis d'un même accord pour louer l'Éternel, la maison fut remplie d'une nuée, et les sacrificateurs ne pouvaient plus faire le service, car la gloire de l'Éternel remplissait la maison de Dieu."
+      "numero": "6",
+      "titre": "Le chant qui a réveillé la jalousie : les paroles comptent",
+      "references": [
+        "1 S 18:6-9"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un chant de victoire"
+        },
+        {
+          "texte": "David venait de tuer Goliath. Quand l'armée revint après la victoire sur les Philistins, les femmes sortirent de toutes les villes d'Israël au-devant du roi Saül, en chantant et en dansant, au son des tambourins et des triangles, et en poussant des cris de joie."
+        },
+        {
+          "verset": "1 S 18:6-9"
+        },
+        {
+          "texte": "C'était une scène de fête, une musique de célébration, comme nous en connaissons dans nos villages quand on accueille un champion ou un héros."
+        },
+        {
+          "sous_titre": "Une phrase de trop"
+        },
+        {
+          "texte": "Mais les femmes chantaient en se répondant les unes aux autres : Saül a frappé ses mille, et David ses dix mille."
+        },
+        {
+          "texte": "Une simple phrase, répétée en chantant, de ville en ville. Elle était peut-être même vraie. Mais Saül fut très irrité, et cela lui déplut. Il dit : on en donne dix mille à David, et c'est à moi que l'on donne les mille ! Il ne lui manque plus que la royauté. Et à partir de ce jour, Saül regarda David d'un mauvais œil."
+        },
+        {
+          "texte": "Cette chanson a été le début d'une jalousie qui a duré des années, et qui a poussé Saül à chercher à tuer David à plusieurs reprises."
+        },
+        {
+          "sous_titre": "La puissance des paroles chantées"
+        },
+        {
+          "texte": "Les paroles chantées entrent plus profondément que les paroles parlées. On les répète sans réfléchir, elles restent dans la tête pendant des jours, elles façonnent nos pensées. C'est pourquoi il est si important de faire attention aux paroles des chansons que nous écoutons et que nous chantons."
+        },
+        {
+          "texte": "Les Proverbes disent : la mort et la vie sont au pouvoir de la langue."
+        },
+        {
+          "texte": "Beaucoup de chansons populaires répètent sans fin des paroles de vengeance, de jalousie, d'orgueil, d'impureté, de désespoir ou de moquerie. D'autres chantent l'argent facile, la sorcellerie, la séduction. Même sur une belle mélodie, ces paroles finissent par semer dans le cœur ce qu'elles disent. À l'inverse, un cantique plein de la Parole de Dieu semé dans le cœur d'un enfant peut le garder toute sa vie."
+        },
+        {
+          "texte": "On raconte l'histoire d'un homme âgé, atteint d'une maladie qui lui avait fait perdre presque toute sa mémoire. Il ne reconnaissait plus ses enfants. Mais quand sa fille chantait près de son lit un vieux cantique qu'il avait appris à l'école du dimanche, il se mettait à chanter avec elle, mot pour mot, les yeux pleins de larmes sur le sang de Jésus qui lave le péché. Les paroles chantées dans l'enfance étaient restées quand tout le reste était parti."
+        }
+      ]
     },
     {
-     "verset": "2 Ch 5:13-14"
+      "numero": "7",
+      "titre": "« Comment chanterions-nous ? »",
+      "references": [
+        "Ps 137:1-6",
+        "Mt 26:30"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Des harpes suspendues"
+        },
+        {
+          "texte": "Le psaume 137 a été écrit par des Juifs emmenés en exil à Babylone. Leur ville était détruite, leur temple brûlé, beaucoup de leurs proches tués. Ils écrivent :"
+        },
+        {
+          "verset": "Ps 137:1-6"
+        },
+        {
+          "texte": "Sur les bords des fleuves de Babylone, nous étions assis et nous pleurions, en nous souvenant de Sion. Aux saules de la contrée nous avions suspendu nos harpes. Là, nos vainqueurs nous demandaient des chants, et nos oppresseurs de la joie : chantez-nous quelques-uns des cantiques de Sion ! Comment chanterions-nous les cantiques de l'Éternel sur une terre étrangère ?"
+        },
+        {
+          "sous_titre": "Refuser de faire de la louange un divertissement"
+        },
+        {
+          "texte": "Les Babyloniens voulaient se divertir. Ils avaient entendu parler des beaux chants du temple de Jérusalem, et ils voulaient les écouter comme un spectacle exotique. Mais les exilés ont refusé. Les cantiques de l'Éternel n'étaient pas des chansons pour amuser leurs oppresseurs. Ils étaient sacrés."
+        },
+        {
+          "texte": "Cela nous rappelle que la louange n'est pas un divertissement. On ne prend pas les chants de l'église pour les mélanger dans une ambiance de bar ou de fête mondaine, juste pour faire danser les gens. Les chants qui parlent de la croix, du sang de Jésus, de la sainteté de Dieu méritent le respect."
+        },
+        {
+          "sous_titre": "Jésus chante avant la croix"
+        },
+        {
+          "texte": "Pourtant, il y a des moments où le chrétien chante malgré la douleur. Après le dernier repas avec ses disciples, quelques heures avant son arrestation, Jésus a chanté. L'évangile dit : après avoir chanté les psaumes, ils se rendirent à la montagne des Oliviers."
+        },
+        {
+          "verset": "Mt 26:30"
+        },
+        {
+          "texte": "Selon la coutume de la Pâque, ils chantaient les psaumes de louange, les psaumes 113 à 118. Imagine Jésus, sachant qu'il allait être trahi, abandonné, torturé et crucifié, chanter avec ses disciples : l'Éternel est pour moi, je ne crains rien. Ceci est la journée que l'Éternel a faite : qu'elle soit pour nous un sujet d'allégresse et de joie !"
+        },
+        {
+          "sous_titre": "Deux attitudes, une même racine"
+        },
+        {
+          "texte": "Les exilés ont suspendu leurs harpes pour ne pas profaner les chants de Dieu devant des moqueurs. Jésus a chanté au seuil de la souffrance pour honorer son Père. Les deux attitudes viennent du même respect : la louange appartient à Dieu. On ne la prostitue pas pour amuser le monde, mais on peut l'offrir à Dieu même au milieu des larmes. Le chrétien chante non pas parce que tout va bien, mais parce que Dieu est digne, même quand tout va mal."
+        }
+      ]
     },
     {
-     "sous_titre": "Une puissance qui peut aussi détruire"
-    },
-    {
-     "texte": "Si la musique peut attirer la présence de Dieu, elle peut aussi attirer d'autres présences. Si elle peut chasser un esprit mauvais, une autre musique peut en inviter. Même dans la création, on constate que la musique agit : des expériences souvent citées montrent que des plantes réagissent différemment selon la musique qu'on leur fait entendre. Si la musique influence une plante, combien plus elle influence ton cœur, tes pensées, tes désirs et tes décisions."
+      "numero": "8",
+      "titre": "La musique que le chrétien doit nourrir",
+      "references": [
+        "Ép 5:19",
+        "Col 3:16",
+        "Jc 5:13",
+        "Ps 40:4"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Des psaumes, des hymnes et des cantiques spirituels"
+        },
+        {
+          "texte": "Paul dit : soyez remplis de l'Esprit ; entretenez-vous par des psaumes, par des hymnes, et par des cantiques spirituels, chantant et célébrant de tout votre cœur les louanges du Seigneur. Remarque le lien : être rempli de l'Esprit et chanter des cantiques spirituels vont ensemble. La musique inspirée par le Saint-Esprit te connecte à Dieu."
+        },
+        {
+          "verset": "Ép 5:19"
+        },
+        {
+          "verset": "Col 3:16"
+        },
+        {
+          "texte": "La musique chrétienne inspirée t'aide à prier, à méditer la Parole, à passer des temps de retraite avec Dieu, à combattre dans la prière, et à garder ton cœur dans la paix. Elle met dans ta bouche un cantique nouveau. Quelqu'un parmi vous est-il dans la joie ? Qu'il chante des cantiques."
+        },
+        {
+          "verset": "Ps 40:4"
+        },
+        {
+          "verset": "Jc 5:13"
+        },
+        {
+          "sous_titre": "Louange et adoration : la différence"
+        },
+        {
+          "texte": "La louange, c'est dire à Dieu ce qu'il a fait. « Merci Seigneur, tu m'as sauvé, tu m'as guéri, tu as pourvu, tu m'as délivré. » Le psalmiste dit : mon âme, bénis l'Éternel, et n'oublie aucun de ses bienfaits."
+        },
+        {
+          "verset": "Ps 103:2"
+        },
+        {
+          "texte": "L'adoration, c'est dire à Dieu qui il est, même s'il n'avait rien fait pour moi. « Tu es saint, tu es digne, tu es le Tout-Puissant, tu es l'Éternel. » Dans le ciel, les êtres vivants ne cessent de dire jour et nuit : Saint, saint, saint est le Seigneur Dieu, le Tout-Puissant. Et les anciens disent : tu es digne, notre Seigneur et notre Dieu, de recevoir la gloire et l'honneur et la puissance."
+        },
+        {
+          "verset": "Ap 4:8"
+        },
+        {
+          "verset": "Ap 4:11"
+        },
+        {
+          "texte": "La louange regarde les bienfaits ; l'adoration regarde la Personne. Le chrétien mûr apprend à aller au-delà de la louange, jusqu'à l'adoration. Jésus a dit que le Père cherche des adorateurs qui l'adorent en esprit et en vérité."
+        },
+        {
+          "verset": "Jn 4:24"
+        },
+        {
+          "sous_titre": "Comment se former dans l'adoration"
+        },
+        {
+          "texte": "Lis les Psaumes à haute voix : c'est le recueil de chants inspirés de la Bible. Apprends des cantiques spirituels et chante-les dans ta chambre, sans public. Remplace dans ton téléphone les playlists du monde par des chants qui t'élèvent. Fais le test de Philippiens : que tout ce qui est vrai, honorable, juste, pur, aimable, soit l'objet de tes pensées. Et prends la décision de David : je ne mettrai rien de mauvais devant mes yeux, ni devant mes oreilles."
+        },
+        {
+          "verset": "Ph 4:8"
+        },
+        {
+          "verset": "Ps 101:3"
+        },
+        {
+          "texte": "Aujourd'hui, ouvre ton téléphone et regarde honnêtement ce que tu écoutes. Si le Saint-Esprit te montre des chansons, des artistes ou des playlists qui ne glorifient pas Dieu, supprime-les. Ce n'est pas une perte : c'est une libération. Et remplis ce vide par des chants qui t'amènent devant le trône."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "L'origine de la musique",
-   "references": [
-    "Éz 28:13-14",
-    "Gn 4:21",
-    "És 14:11"
-   ],
-   "blocs": [
+  ],
+  "sujets": [
     {
-     "sous_titre": "Un don fait à Lucifer"
+      "titre": "Purifier mes oreilles",
+      "texte": "Demandons pardon à Dieu pour les musiques qui ont nourri notre chair, et prions afin d'avoir le courage de les supprimer. (2 Corinthiens 6:17)"
     },
     {
-     "texte": "Le prophète Ézéchiel, en parlant du roi de Tyr, décrit derrière lui un être qui était en Éden, le jardin de Dieu, un chérubin protecteur placé sur la sainte montagne de Dieu. Beaucoup de serviteurs de Dieu y voient la description de Lucifer avant sa chute. Et le texte dit : tes tambourins et tes flûtes étaient à ton service, préparés pour le jour où tu fus créé."
+      "titre": "Un cœur d'adorateur",
+      "texte": "Prions afin que Dieu fasse de nous des adorateurs en esprit et en vérité. (Jean 4:24)"
     },
     {
-     "verset": "Éz 28:13-14"
+      "titre": "Les jeunes",
+      "texte": "Intercédons pour les jeunes de nos familles et de nos églises, afin qu'ils soient délivrés de l'emprise de la musique mondaine. (1 Jean 2:15-16)"
     },
     {
-     "texte": "Retiens bien cela : la musique a été confiée à cet être pour servir l'adoration de Dieu. Mais quand il s'est élevé dans son orgueil, il a été précipité. Ésaïe dit de sa chute : ta magnificence est descendue dans le séjour des morts, avec le son de tes luths. Il est tombé, mais il n'a pas perdu sa connaissance de la musique. Depuis, il s'en sert pour attirer vers lui l'adoration qu'il a toujours voulu voler à Dieu."
+      "titre": "Les chantres",
+      "texte": "Prions pour les musiciens et les chantres de nos églises, afin que leur musique soit inspirée par le Saint-Esprit et non par l'argent ou la gloire. (1 Chroniques 25:1)"
     },
     {
-     "verset": "És 14:11"
-    },
-    {
-     "sous_titre": "La première musique sur la terre"
-    },
-    {
-     "texte": "La Bible mentionne le premier musicien de l'humanité : Jubal, le père de tous ceux qui jouent de la harpe et du chalumeau. Il était de la descendance de Caïn, la lignée de ceux qui s'étaient éloignés de la face de l'Éternel. Dès le début, la musique s'est développée dans une civilisation qui vivait sans Dieu, à côté de l'élevage, des métaux et de la violence de Lémec."
-    },
-    {
-     "verset": "Gn 4:21"
-    },
-    {
-     "sous_titre": "La musique rachetée pour Dieu"
-    },
-    {
-     "texte": "Mais Dieu reprend toujours ce que l'ennemi a volé. Sous David, la musique a été organisée pour le service de Dieu : des chantres, des musiciens consacrés, qui prophétisaient en s'accompagnant de la harpe, du luth et des cymbales. La musique n'est donc pas mauvaise en elle-même. La question est : à qui sert-elle ? Qui en reçoit l'adoration ?"
-    },
-    {
-     "verset": "1 Ch 25:1"
+      "titre": "Un cantique nouveau",
+      "texte": "Demandons à Dieu de mettre dans notre bouche un cantique nouveau, une louange à notre Dieu. (Psaume 40:4)"
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "Pourquoi la musique mondaine est un danger",
-   "references": [
-    "Dn 3:5-7",
-    "1 Co 10:21",
-    "2 Co 6:14-17",
-    "1 Jn 2:15-16"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "Elle conduit à adorer autre chose que Dieu"
+      "question": "Que faisait la musique de David quand il jouait devant Saül ?",
+      "choix": [
+        "Elle endormait le roi",
+        "Elle soulageait Saül et l'esprit mauvais se retirait",
+        "Rien de particulier"
+      ],
+      "reponse": 1,
+      "explication": "(1 Samuel 16:23)",
+      "section": "1"
     },
     {
-     "texte": "Au temps de Daniel, le roi Nebucadnetsar a dressé une statue d'or. Et comment a-t-il fait pour que tout le peuple se prosterne ? Avec la musique : au moment où vous entendrez le son de la trompette, du chalumeau, de la guitare et de toutes sortes d'instruments de musique, vous vous prosternerez. La musique a été l'outil pour faire plier les genoux de tout un peuple devant une idole. Aujourd'hui encore, la musique du monde fait plier des millions de jeunes devant les idoles de ce siècle : le sexe, l'argent, la célébrité, la révolte."
+      "question": "Comment Nebucadnetsar a-t-il fait plier le peuple devant la statue ?",
+      "choix": [
+        "Par la force des soldats",
+        "Par le son des instruments de musique",
+        "Par un discours"
+      ],
+      "reponse": 1,
+      "explication": "« Au moment où vous entendrez le son de la trompette… vous vous prosternerez. » (Daniel 3:5)",
+      "section": "3"
     },
     {
-     "verset": "Dn 3:5-7"
+      "question": "Quelle est la différence entre la louange et l'adoration ?",
+      "choix": [
+        "Aucune",
+        "La louange dit ce que Dieu a fait ; l'adoration dit qui il est",
+        "L'adoration se fait seulement avec des instruments"
+      ],
+      "reponse": 1,
+      "explication": "(Psaume 103:2 ; Apocalypse 4:8-11)",
+      "section": "8"
     },
     {
-     "sous_titre": "Elle véhicule une idéologie et un esprit"
+      "question": "Qu'a entendu Moïse en descendant de la montagne ?",
+      "choix": [
+        "Un cri de guerre",
+        "La voix de gens qui chantaient autour du veau d'or",
+        "Le silence"
+      ],
+      "reponse": 1,
+      "explication": "Exode 32:18. Une musique peut accompagner l'idolâtrie même en utilisant le nom de Dieu.",
+      "section": "4"
     },
     {
-     "texte": "Écoute les paroles des chansons qui passent à la radio et dans les boîtes de nuit. Elles enseignent l'immoralité, l'adultère, l'argent facile, la vengeance, la drogue, le mépris des parents et de Dieu. Ce que tu chantes, tu finis par le croire, et ce que tu crois, tu finis par le vivre. Beaucoup d'artistes eux-mêmes ont raconté avoir conclu des pactes ou consacré leurs œuvres à des puissances occultes pour réussir. Des témoignages parlent de jeunes poussés au suicide, de concerts où des foules tombent en transe, de personnes attaquées spirituellement dans leur chambre après avoir écouté certaines musiques. Derrière la musique, il y a un esprit."
+      "question": "Pourquoi Dieu dit-il « éloigne de moi le bruit de tes cantiques » ?",
+      "choix": [
+        "Parce que les instruments étaient mauvais",
+        "Parce que leur louange sortait d'une vie d'injustice",
+        "Parce qu'ils chantaient trop longtemps"
+      ],
+      "reponse": 1,
+      "explication": "Amos 5:23-24.",
+      "section": "5"
     },
     {
-     "sous_titre": "On ne peut pas avoir les deux tables"
+      "question": "Quelle phrase chantée a provoqué la jalousie de Saül ?",
+      "choix": [
+        "« Vive le roi Saül »",
+        "« Saül a frappé ses mille, et David ses dix mille »",
+        "« Goliath est mort »"
+      ],
+      "reponse": 1,
+      "explication": "1 Samuel 18:7-8. Les paroles chantées sont puissantes.",
+      "section": "6"
     },
     {
-     "texte": "Paul est très clair : vous ne pouvez boire la coupe du Seigneur, et la coupe des démons ; vous ne pouvez participer à la table du Seigneur, et à la table des démons. On ne peut pas adorer Jésus le dimanche et nourrir son âme toute la semaine de chansons qui glorifient le péché. Quel rapport y a-t-il entre la lumière et les ténèbres ? Quel accord y a-t-il entre Christ et Bélial ? C'est pourquoi, sortez du milieu d'eux, et séparez-vous, dit le Seigneur."
-    },
-    {
-     "verset": "1 Co 10:21"
-    },
-    {
-     "verset": "2 Co 6:14-17"
-    },
-    {
-     "sous_titre": "N'aimez pas le monde"
-    },
-    {
-     "texte": "Jean ajoute : n'aimez point le monde, ni les choses qui sont dans le monde. Car tout ce qui est dans le monde, la convoitise de la chair, la convoitise des yeux, et l'orgueil de la vie, ne vient point du Père. La plupart des musiques mondaines sont construites exactement sur ces trois choses."
-    },
-    {
-     "verset": "1 Jn 2:15-16"
-    },
-    {
-     "sous_titre": "Et la musique « chrétienne » ?"
-    },
-    {
-     "texte": "Attention aussi : tout ce qui porte l'étiquette « chrétien » n'est pas inspiré par le Saint-Esprit. Certains chantent Jésus seulement pour gagner de l'argent ou pour avoir une carrière, avec les mêmes rythmes, les mêmes danses et le même esprit que le monde. Le critère n'est pas le nom de Jésus dans la chanson, mais l'esprit qui la porte et le fruit qu'elle produit en toi : est-ce qu'elle t'approche de Dieu, ou est-ce qu'elle réveille ta chair ?"
+      "question": "Qu'a fait Jésus avec ses disciples avant d'aller à la montagne des Oliviers ?",
+      "choix": [
+        "Il a pleuré seul",
+        "Il a chanté les psaumes",
+        "Il a dormi"
+      ],
+      "reponse": 1,
+      "explication": "Matthieu 26:30.",
+      "section": "7"
     }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "La musique que le chrétien doit nourrir",
-   "references": [
-    "Ép 5:19",
-    "Col 3:16",
-    "Jc 5:13",
-    "Ps 40:4"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Des psaumes, des hymnes et des cantiques spirituels"
-    },
-    {
-     "texte": "Paul dit : soyez remplis de l'Esprit ; entretenez-vous par des psaumes, par des hymnes, et par des cantiques spirituels, chantant et célébrant de tout votre cœur les louanges du Seigneur. Remarque le lien : être rempli de l'Esprit et chanter des cantiques spirituels vont ensemble. La musique inspirée par le Saint-Esprit te connecte à Dieu."
-    },
-    {
-     "verset": "Ép 5:19"
-    },
-    {
-     "verset": "Col 3:16"
-    },
-    {
-     "texte": "La musique chrétienne inspirée t'aide à prier, à méditer la Parole, à passer des temps de retraite avec Dieu, à combattre dans la prière, et à garder ton cœur dans la paix. Elle met dans ta bouche un cantique nouveau. Quelqu'un parmi vous est-il dans la joie ? Qu'il chante des cantiques."
-    },
-    {
-     "verset": "Ps 40:4"
-    },
-    {
-     "verset": "Jc 5:13"
-    },
-    {
-     "sous_titre": "Louange et adoration : la différence"
-    },
-    {
-     "texte": "La louange, c'est dire à Dieu ce qu'il a fait. « Merci Seigneur, tu m'as sauvé, tu m'as guéri, tu as pourvu, tu m'as délivré. » Le psalmiste dit : mon âme, bénis l'Éternel, et n'oublie aucun de ses bienfaits."
-    },
-    {
-     "verset": "Ps 103:2"
-    },
-    {
-     "texte": "L'adoration, c'est dire à Dieu qui il est, même s'il n'avait rien fait pour moi. « Tu es saint, tu es digne, tu es le Tout-Puissant, tu es l'Éternel. » Dans le ciel, les êtres vivants ne cessent de dire jour et nuit : Saint, saint, saint est le Seigneur Dieu, le Tout-Puissant. Et les anciens disent : tu es digne, notre Seigneur et notre Dieu, de recevoir la gloire et l'honneur et la puissance."
-    },
-    {
-     "verset": "Ap 4:8"
-    },
-    {
-     "verset": "Ap 4:11"
-    },
-    {
-     "texte": "La louange regarde les bienfaits ; l'adoration regarde la Personne. Le chrétien mûr apprend à aller au-delà de la louange, jusqu'à l'adoration. Jésus a dit que le Père cherche des adorateurs qui l'adorent en esprit et en vérité."
-    },
-    {
-     "verset": "Jn 4:24"
-    },
-    {
-     "sous_titre": "Comment se former dans l'adoration"
-    },
-    {
-     "texte": "Lis les Psaumes à haute voix : c'est le recueil de chants inspirés de la Bible. Apprends des cantiques spirituels et chante-les dans ta chambre, sans public. Remplace dans ton téléphone les playlists du monde par des chants qui t'élèvent. Fais le test de Philippiens : que tout ce qui est vrai, honorable, juste, pur, aimable, soit l'objet de tes pensées. Et prends la décision de David : je ne mettrai rien de mauvais devant mes yeux, ni devant mes oreilles."
-    },
-    {
-     "verset": "Ph 4:8"
-    },
-    {
-     "verset": "Ps 101:3"
-    },
-    {
-     "texte": "Aujourd'hui, ouvre ton téléphone et regarde honnêtement ce que tu écoutes. Si le Saint-Esprit te montre des chansons, des artistes ou des playlists qui ne glorifient pas Dieu, supprime-les. Ce n'est pas une perte : c'est une libération. Et remplis ce vide par des chants qui t'amènent devant le trône."
-    }
-   ]
-  }
- ],
- "sujets": [
-  {
-   "titre": "Purifier mes oreilles",
-   "texte": "Demandons pardon à Dieu pour les musiques qui ont nourri notre chair, et prions afin d'avoir le courage de les supprimer. (2 Corinthiens 6:17)"
-  },
-  {
-   "titre": "Un cœur d'adorateur",
-   "texte": "Prions afin que Dieu fasse de nous des adorateurs en esprit et en vérité. (Jean 4:24)"
-  },
-  {
-   "titre": "Les jeunes",
-   "texte": "Intercédons pour les jeunes de nos familles et de nos églises, afin qu'ils soient délivrés de l'emprise de la musique mondaine. (1 Jean 2:15-16)"
-  },
-  {
-   "titre": "Les chantres",
-   "texte": "Prions pour les musiciens et les chantres de nos églises, afin que leur musique soit inspirée par le Saint-Esprit et non par l'argent ou la gloire. (1 Chroniques 25:1)"
-  },
-  {
-   "titre": "Un cantique nouveau",
-   "texte": "Demandons à Dieu de mettre dans notre bouche un cantique nouveau, une louange à notre Dieu. (Psaume 40:4)"
-  }
- ],
- "questions": [
-  {
-   "question": "Que faisait la musique de David quand il jouait devant Saül ?",
-   "choix": [
-    "Elle endormait le roi",
-    "Elle soulageait Saül et l'esprit mauvais se retirait",
-    "Rien de particulier"
-   ],
-   "reponse": 1,
-   "explication": "(1 Samuel 16:23)",
-   "section": "1"
-  },
-  {
-   "question": "Comment Nebucadnetsar a-t-il fait plier le peuple devant la statue ?",
-   "choix": [
-    "Par la force des soldats",
-    "Par le son des instruments de musique",
-    "Par un discours"
-   ],
-   "reponse": 1,
-   "explication": "« Au moment où vous entendrez le son de la trompette… vous vous prosternerez. » (Daniel 3:5)",
-   "section": "3"
-  },
-  {
-   "question": "Quelle est la différence entre la louange et l'adoration ?",
-   "choix": [
-    "Aucune",
-    "La louange dit ce que Dieu a fait ; l'adoration dit qui il est",
-    "L'adoration se fait seulement avec des instruments"
-   ],
-   "reponse": 1,
-   "explication": "(Psaume 103:2 ; Apocalypse 4:8-11)",
-   "section": "4"
-  }
- ],
- "devoir": [
-  "Fais l'inventaire de la musique de ton téléphone. Supprime tout ce qui ne glorifie pas Dieu.",
-  "Chaque jour cette semaine, lis un psaume à voix haute comme un chant d'adoration.",
-  "Passe un temps d'adoration de quinze minutes : ne demande rien, dis seulement à Dieu qui il est."
- ],
- "prieres_liees": [
-  "theme:priere-saintete",
-  "theme:priere-garder-son-coeur"
- ],
- "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-14",
- "relu": false
+  ],
+  "devoir": [
+    "Fais l'inventaire de la musique de ton téléphone. Supprime tout ce qui ne glorifie pas Dieu.",
+    "Chaque jour cette semaine, lis un psaume à voix haute comme un chant d'adoration.",
+    "Passe un temps d'adoration de quinze minutes : ne demande rien, dis seulement à Dieu qui il est."
+  ],
+  "prieres_liees": [
+    "theme:priere-saintete",
+    "theme:priere-garder-son-coeur"
+  ],
+  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-14",
+  "relu": false
 }
