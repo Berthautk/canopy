@@ -1,303 +1,562 @@
 {
- "id": "affermissement-12-foyer-chretien",
- "titre": "Le foyer chrétien",
- "serie": "Affermissement",
- "theme": "Affermissement",
- "auteur": "Yeshaya",
- "resume": "Douzième leçon de « Former le disciple » : Jésus au centre de la maison. Le mariage selon Dieu, le rôle du mari et de la femme, l'éducation des enfants, le culte de famille, et comment vivre sa foi quand on est le seul chrétien de la maison.",
- "image": "/assets/vie-chretienne/famille-et-bible.webp",
- "verset_de_base": "Jos 24:15",
- "lecture_minutes": 12,
- "objectifs": [
-  "Comprendre que Dieu veut être le fondement de la maison.",
-  "Découvrir le plan de Dieu pour le mariage, le mari et la femme.",
-  "Apprendre à transmettre la foi aux enfants.",
-  "Savoir vivre sa foi à la maison, même seul chrétien."
- ],
- "introduction": "Un homme peut être un lion à l'église et un tyran à la maison. Une femme peut prier avec puissance dans le groupe de prière et être amère, méprisante et dure avec son mari. Des enfants peuvent grandir dans une maison où l'on va au culte chaque dimanche, sans jamais avoir vu leurs parents prier ensemble. Le vrai test de notre foi, ce n'est pas l'église : c'est la maison.\n\nJosué, à la fin de sa vie, a lancé un défi au peuple d'Israël : choisissez aujourd'hui qui vous voulez servir. Et il a ajouté une phrase que beaucoup de familles chrétiennes ont accrochée dans leur salon : moi et ma maison, nous servirons l'Éternel. Dans cette leçon, nous verrons comment Jésus peut devenir le fondement de la maison, ce que la Bible dit du mariage, des parents et des enfants, et comment vivre sa foi quand on est seul chrétien de la famille.",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "Dieu, le bâtisseur de la maison",
-   "references": [
-    "Ps 127:1",
-    "Pr 24:3",
-    "Jos 24:15"
-   ],
-   "blocs": [
+  "id": "affermissement-12-foyer-chretien",
+  "titre": "Le foyer chrétien",
+  "serie": "Affermissement",
+  "theme": "Affermissement",
+  "auteur": "Yeshaya",
+  "resume": "Douzième leçon de « Former le disciple » : Jésus au centre de la maison. Le mariage selon Dieu, le rôle du mari et de la femme, l'éducation des enfants, le culte de famille, et comment vivre sa foi quand on est le seul chrétien de la maison.",
+  "image": "/assets/vie-chretienne/famille-et-bible.webp",
+  "verset_de_base": "Jos 24:15",
+  "lecture_minutes": 31,
+  "objectifs": [
+    "Comprendre que Dieu veut être le fondement de la maison.",
+    "Découvrir le plan de Dieu pour le mariage, le mari et la femme.",
+    "Apprendre à transmettre la foi aux enfants.",
+    "Savoir vivre sa foi à la maison, même seul chrétien."
+  ],
+  "introduction": "Un homme peut être un lion à l'église et un tyran à la maison. Une femme peut prier avec puissance dans le groupe de prière et être amère, méprisante et dure avec son mari. Des enfants peuvent grandir dans une maison où l'on va au culte chaque dimanche, sans jamais avoir vu leurs parents prier ensemble. Le vrai test de notre foi, ce n'est pas l'église : c'est la maison.\n\nJosué, à la fin de sa vie, a lancé un défi au peuple d'Israël : choisissez aujourd'hui qui vous voulez servir. Et il a ajouté une phrase que beaucoup de familles chrétiennes ont accrochée dans leur salon : moi et ma maison, nous servirons l'Éternel. Dans cette leçon, nous verrons comment Jésus peut devenir le fondement de la maison, ce que la Bible dit du mariage, des parents et des enfants, et comment vivre sa foi quand on est seul chrétien de la famille.",
+  "sections": [
     {
-     "sous_titre": "Si l'Éternel ne bâtit la maison"
+      "numero": "1",
+      "titre": "Dieu, le bâtisseur de la maison",
+      "references": [
+        "Ps 127:1",
+        "Pr 24:3",
+        "Jos 24:15"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Si l'Éternel ne bâtit la maison"
+        },
+        {
+          "texte": "Si l'Éternel ne bâtit la maison, ceux qui la bâtissent travaillent en vain. On peut avoir une belle maison, un bon salaire, des enfants bien habillés, et pourtant vivre dans un foyer vide, plein de disputes et de silences. Le foyer chrétien n'est pas un foyer parfait ; c'est un foyer où l'on a invité Jésus à être le chef."
+        },
+        {
+          "verset": "Ps 127:1"
+        },
+        {
+          "sous_titre": "Une décision"
+        },
+        {
+          "texte": "« Moi et ma maison, nous servirons l'Éternel. » C'est une décision. Josué ne dit pas : « Nous servirons l'Éternel si tout va bien. » Il décide. Chaque famille chrétienne doit prendre cette décision : Dieu passera avant la télévision, avant le travail, avant les traditions qui le contredisent, avant les avis de la belle-famille."
+        },
+        {
+          "verset": "Jos 24:15"
+        },
+        {
+          "sous_titre": "La sagesse qui affermit"
+        },
+        {
+          "texte": "C'est par la sagesse qu'une maison s'élève, et par l'intelligence qu'elle s'affermit. Une maison chrétienne se construit jour après jour, avec des briques simples : une parole douce, un pardon, une prière ensemble, un repas partagé, un temps donné aux enfants."
+        },
+        {
+          "verset": "Pr 24:3"
+        }
+      ]
     },
     {
-     "texte": "Si l'Éternel ne bâtit la maison, ceux qui la bâtissent travaillent en vain. On peut avoir une belle maison, un bon salaire, des enfants bien habillés, et pourtant vivre dans un foyer vide, plein de disputes et de silences. Le foyer chrétien n'est pas un foyer parfait ; c'est un foyer où l'on a invité Jésus à être le chef."
+      "numero": "2",
+      "titre": "Le mariage selon Dieu",
+      "references": [
+        "Gn 2:24",
+        "Hé 13:4",
+        "2 Co 6:14"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Une seule chair"
+        },
+        {
+          "texte": "Le mariage n'est pas une invention humaine ni un simple contrat. C'est Dieu qui l'a institué au commencement : c'est pourquoi l'homme quittera son père et sa mère, et s'attachera à sa femme, et ils deviendront une seule chair. Trois verbes : quitter, s'attacher, devenir un. Quitter : le couple forme une nouvelle famille, qui n'est plus sous l'autorité des parents. S'attacher : un engagement fidèle, pour la vie. Devenir un : une union de corps, d'âme et de projets."
+        },
+        {
+          "verset": "Gn 2:24"
+        },
+        {
+          "sous_titre": "Honoré de tous"
+        },
+        {
+          "texte": "Que le mariage soit honoré de tous, et le lit conjugal exempt de souillure. La sexualité appartient au mariage. Le chrétien ne vit pas en concubinage, même si c'est « en attendant d'avoir les moyens pour la dot ». Si c'est ta situation, parles-en avec ton pasteur pour régulariser devant Dieu et devant les hommes."
+        },
+        {
+          "sous_titre": "Pour les célibataires : se marier dans le Seigneur"
+        },
+        {
+          "texte": "Si tu n'es pas marié, retiens ce principe : ne vous mettez pas avec les infidèles sous un joug étranger. Le chrétien épouse un chrétien, né de nouveau, et pas seulement quelqu'un qui va à l'église. Beaucoup de souffrances viennent de mariages où l'on a pensé : « Je vais le convertir après. »"
+        },
+        {
+          "verset": "2 Co 6:14"
+        }
+      ]
     },
     {
-     "verset": "Ps 127:1"
+      "numero": "3",
+      "titre": "Le mari et la femme",
+      "references": [
+        "Ép 5:21-25",
+        "Col 3:19",
+        "1 P 3:7"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "La soumission mutuelle"
+        },
+        {
+          "texte": "Avant de parler aux maris et aux femmes, Paul dit à tous : vous soumettant les uns aux autres dans la crainte de Christ. Le foyer chrétien n'est pas un champ de bataille pour savoir qui commande. C'est un lieu où chacun cherche à servir l'autre."
+        },
+        {
+          "verset": "Ép 5:21"
+        },
+        {
+          "sous_titre": "Le mari : aimer comme Christ"
+        },
+        {
+          "texte": "Maris, aimez vos femmes, comme Christ a aimé l'Église, et s'est livré lui-même pour elle. Le modèle du mari n'est pas le chef de village qui donne des ordres, mais Jésus qui lave les pieds et donne sa vie. Être le chef du foyer, c'est être le premier à servir, le premier à prier, le premier à demander pardon, le premier à porter les responsabilités. Paul ajoute : ne vous aigrissez pas contre elles. Et Pierre : honorez-les, afin que rien ne vienne faire obstacle à vos prières. Un homme qui maltraite sa femme ne peut pas prier efficacement."
+        },
+        {
+          "verset": "Ép 5:25"
+        },
+        {
+          "verset": "1 P 3:7"
+        },
+        {
+          "sous_titre": "La femme : respecter et soutenir"
+        },
+        {
+          "texte": "Femmes, soyez soumises à vos maris, comme au Seigneur. La soumission biblique n'est pas l'infériorité ni l'esclavage : Jésus était soumis au Père, et il est égal au Père. C'est le choix libre de soutenir, d'encourager et de respecter le mari dans sa responsabilité. Paul conclut : que la femme respecte son mari. Beaucoup d'hommes se transforment quand ils se sentent respectés à la maison."
+        },
+        {
+          "verset": "Ép 5:22"
+        },
+        {
+          "sous_titre": "Les conflits"
+        },
+        {
+          "texte": "Tous les couples connaissent des désaccords. La Bible donne des clés : une réponse douce calme la fureur. Si vous vous mettez en colère, ne péchez point ; que le soleil ne se couche pas sur votre colère. Ne dormez pas fâchés. Parlez, demandez pardon, pardonnez, priez ensemble."
+        },
+        {
+          "verset": "Pr 15:1"
+        },
+        {
+          "verset": "Ép 4:26"
+        }
+      ]
     },
     {
-     "sous_titre": "Une décision"
+      "numero": "4",
+      "titre": "Parents et enfants",
+      "references": [
+        "Dt 6:6-7",
+        "Pr 22:6",
+        "Ép 6:1-4"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Transmettre la foi"
+        },
+        {
+          "texte": "Dieu a confié aux parents, et pas d'abord à l'école du dimanche, la responsabilité d'enseigner la foi aux enfants : ces commandements seront dans ton cœur. Tu les inculqueras à tes enfants, et tu en parleras quand tu seras dans ta maison, quand tu iras en voyage, quand tu te coucheras et quand tu te lèveras. La foi se transmet d'abord par l'exemple, puis par la parole, dans les moments ordinaires de la vie."
+        },
+        {
+          "verset": "Dt 6:6-7"
+        },
+        {
+          "sous_titre": "Le culte de famille"
+        },
+        {
+          "texte": "Un moyen simple : le culte de famille. Pas besoin d'un long programme. Dix à quinze minutes, le soir ou le matin : un chant, un passage de la Bible lu à haute voix, une question pour les enfants, et une prière où chacun peut parler. L'application peut lire la Bible à voix haute pour ceux qui ne lisent pas encore. Les enfants oublieront beaucoup de sermons, mais ils n'oublieront pas leurs parents à genoux."
+        },
+        {
+          "sous_titre": "Éduquer et corriger avec amour"
+        },
+        {
+          "texte": "Instruis l'enfant selon la voie qu'il doit suivre ; et quand il sera vieux, il ne s'en détournera pas. Paul dit aux pères : n'irritez pas vos enfants, mais élevez-les en les corrigeant et en les instruisant selon le Seigneur. La correction est nécessaire, mais elle doit être juste, mesurée, jamais dans la colère ni l'humiliation. Un enfant doit savoir qu'il est aimé même quand il est corrigé."
+        },
+        {
+          "verset": "Pr 22:6"
+        },
+        {
+          "verset": "Ép 6:4"
+        },
+        {
+          "sous_titre": "Enfants : honorer ses parents"
+        },
+        {
+          "texte": "Enfants, obéissez à vos parents, selon le Seigneur, car cela est juste. Honore ton père et ta mère : c'est le premier commandement avec une promesse. Cela vaut aussi pour les adultes : honorer ses parents âgés, prendre soin d'eux, leur parler avec respect, même s'ils ne sont pas chrétiens. Si quelqu'un n'a pas soin des siens, et principalement de ceux de sa famille, il a renié la foi."
+        },
+        {
+          "verset": "Ép 6:1-2"
+        },
+        {
+          "verset": "1 Tm 5:8"
+        }
+      ]
     },
     {
-     "texte": "« Moi et ma maison, nous servirons l'Éternel. » C'est une décision. Josué ne dit pas : « Nous servirons l'Éternel si tout va bien. » Il décide. Chaque famille chrétienne doit prendre cette décision : Dieu passera avant la télévision, avant le travail, avant les traditions qui le contredisent, avant les avis de la belle-famille."
+      "numero": "5",
+      "titre": "« Ce que Dieu a joint » : la fidélité jusqu'au bout",
+      "references": [
+        "Mt 19:3-8",
+        "Ml 2:14-16",
+        "Pr 5:18-19"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "La question piège"
+        },
+        {
+          "texte": "Des pharisiens sont venus vers Jésus pour l'éprouver. Ils lui ont demandé : est-il permis à un homme de répudier sa femme pour un motif quelconque ? À cette époque, certains maîtres enseignaient qu'un homme pouvait renvoyer sa femme pour presque rien : un plat mal préparé, ou parce qu'il avait trouvé une autre femme plus belle."
+        },
+        {
+          "texte": "Jésus n'est pas entré dans leurs débats. Il est retourné au commencement : n'avez-vous pas lu que le Créateur, au commencement, fit l'homme et la femme ? Ainsi ils ne sont plus deux, mais ils sont une seule chair. Que l'homme donc ne sépare pas ce que Dieu a joint."
+        },
+        {
+          "verset": "Mt 19:3-8"
+        },
+        {
+          "texte": "Ils ont insisté : pourquoi donc Moïse a-t-il prescrit de donner à la femme une lettre de divorce ? Jésus a répondu : c'est à cause de la dureté de votre cœur que Moïse vous a permis de répudier vos femmes ; au commencement, il n'en était pas ainsi."
+        },
+        {
+          "sous_titre": "Le mariage n'est pas un contrat qu'on jette"
+        },
+        {
+          "texte": "Le mariage n'est pas un simple accord entre deux familles, qu'on peut annuler quand on n'est plus content. C'est Dieu lui-même qui joint l'homme et la femme. Dans beaucoup de nos sociétés, on entend : « Si ça ne marche pas, chacun reprend sa route. » Ou : « Si elle ne te donne pas d'enfant, prends-en une autre. » Ce n'est pas la pensée de Dieu."
+        },
+        {
+          "sous_titre": "Le témoin de ton alliance"
+        },
+        {
+          "texte": "Au temps du prophète Malachie, des hommes d'Israël venaient pleurer à l'autel, et ils ne comprenaient pas pourquoi Dieu ne recevait plus leurs offrandes. Dieu leur a répondu par le prophète : parce que l'Éternel a été témoin entre toi et la femme de ta jeunesse, à laquelle tu es infidèle, bien qu'elle soit ta compagne et la femme de ton alliance. Prenez donc garde en votre esprit, et qu'aucun ne soit infidèle à la femme de sa jeunesse. Car je hais la répudiation, dit l'Éternel."
+        },
+        {
+          "verset": "Ml 2:14-16"
+        },
+        {
+          "texte": "Remarque que Dieu lie la vie de prière de l'homme à la façon dont il traite sa femme. Pierre dira la même chose : afin que rien ne vienne faire obstacle à vos prières."
+        },
+        {
+          "sous_titre": "Se réjouir de la femme de sa jeunesse"
+        },
+        {
+          "texte": "La fidélité n'est pas seulement de ne pas aller ailleurs. C'est de continuer à aimer, à se réjouir l'un de l'autre, même quand les années passent, quand le corps change, quand les difficultés s'accumulent. Les Proverbes disent : que ta source soit bénie, et fais ta joie de la femme de ta jeunesse."
+        },
+        {
+          "verset": "Pr 5:18-19"
+        },
+        {
+          "texte": "On raconte l'histoire d'un vieil homme qui allait chaque matin à l'hôpital prendre le petit-déjeuner avec sa femme. Elle avait perdu la mémoire, et elle ne le reconnaissait plus. Une infirmière lui a demandé : « Pourquoi venez-vous chaque jour, puisqu'elle ne sait même plus qui vous êtes ? » Il a souri et répondu : « Elle ne sait plus qui je suis. Mais moi, je sais encore qui elle est. » C'est cela, l'amour d'alliance : il ne dépend pas de ce que l'autre me donne, mais de la promesse que j'ai faite devant Dieu."
+        }
+      ]
     },
     {
-     "verset": "Jos 24:15"
+      "numero": "6",
+      "titre": "Manoah et sa femme : « enseigne-nous ce que nous ferons à l'enfant »",
+      "references": [
+        "Jg 13:2-14",
+        "Jg 14:1-3",
+        "Ps 127:3"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un couple sans enfant"
+        },
+        {
+          "texte": "Au temps des juges, un homme de la tribu de Dan, nommé Manoah, avait une femme stérile. Dans notre culture, une femme sans enfant porte souvent une grande honte, et on accuse souvent la femme seule. Mais un jour, l'ange de l'Éternel apparut à la femme et lui dit : voici, tu es stérile, tu n'as point d'enfants ; tu deviendras enceinte, et tu enfanteras un fils. Ce fils devait être consacré à Dieu dès le sein de sa mère."
+        },
+        {
+          "verset": "Jg 13:2-14"
+        },
+        {
+          "sous_titre": "Une femme qui partage avec son mari"
+        },
+        {
+          "texte": "La femme ne garde pas cela pour elle. Elle court raconter tout à son mari. Ils ne sont pas deux personnes qui vivent chacune leur vie spirituelle de leur côté ; ils partagent ce que Dieu dit."
+        },
+        {
+          "sous_titre": "Un mari qui prie pour savoir éduquer"
+        },
+        {
+          "texte": "Et voici la réaction magnifique de Manoah. Il ne fait pas la fête, il ne commence pas à se vanter. Il prie : ah ! Seigneur, que l'homme de Dieu que tu as envoyé vienne encore vers nous, et qu'il nous enseigne ce que nous devons faire pour l'enfant qui naîtra !"
+        },
+        {
+          "texte": "Puis, quand l'ange revient, Manoah lui demande : quelle sera la règle de vie de l'enfant, et que faudra-t-il faire ?"
+        },
+        {
+          "texte": "Combien de parents prient pour avoir un enfant, et ne prient plus jamais pour savoir comment l'élever ! Manoah savait qu'un enfant est un don de Dieu, et qu'on ne peut pas l'élever pour Dieu sans la sagesse de Dieu. Le psalmiste dit : voici, des fils sont un héritage de l'Éternel, le fruit des entrailles est une récompense."
+        },
+        {
+          "verset": "Ps 127:3"
+        },
+        {
+          "sous_titre": "Quand le cadeau n'est pas suivi jusqu'au bout"
+        },
+        {
+          "texte": "Cet enfant, c'est Samson. Il a grandi, et l'Éternel l'a béni. Mais plus tard, Samson a suivi ses yeux au lieu de suivre Dieu. Quand il a voulu épouser une Philistine, ses parents lui ont dit : n'y a-t-il point de femme parmi les filles de tes frères ? Mais il a insisté, et ils ont cédé."
+        },
+        {
+          "verset": "Jg 14:1-3"
+        },
+        {
+          "texte": "Cette histoire nous enseigne deux choses. Premièrement, les parents doivent prier et chercher la sagesse de Dieu pour éduquer. Deuxièmement, même des parents pieux ne peuvent pas décider à la place de leurs enfants devenus grands. Chaque enfant devra un jour choisir lui-même de suivre Dieu. C'est pourquoi on prie pour ses enfants toute sa vie, même quand ils ont quitté la maison."
+        }
+      ]
     },
     {
-     "sous_titre": "La sagesse qui affermit"
+      "numero": "7",
+      "titre": "Le poison du favoritisme",
+      "references": [
+        "Gn 25:27-28",
+        "Gn 37:3-4",
+        "Ac 10:34"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Isaac et Rébecca : chacun son préféré"
+        },
+        {
+          "texte": "Isaac et Rébecca ont eu des jumeaux, Ésaü et Jacob. Les enfants grandirent. Ésaü devint un habile chasseur, un homme des champs ; mais Jacob fut un homme tranquille, qui restait sous les tentes. Isaac aimait Ésaü, parce qu'il mangeait du gibier ; et Rébecca aimait Jacob."
+        },
+        {
+          "verset": "Gn 25:27-28"
+        },
+        {
+          "texte": "Une seule phrase, et toute la tragédie est annoncée. Le père a son préféré, la mère a le sien. La famille se divise en deux camps. Plus tard, Rébecca aidera Jacob à tromper son père aveugle pour voler la bénédiction de son frère. Ésaü voudra tuer Jacob. Jacob devra fuir, et Rébecca ne reverra jamais son fils bien-aimé."
+        },
+        {
+          "sous_titre": "Jacob répète l'erreur"
+        },
+        {
+          "texte": "Le plus triste, c'est que Jacob, devenu père, a répété exactement la même faute. Israël aimait Joseph plus que tous ses autres fils, parce qu'il l'avait eu dans sa vieillesse ; et il lui fit une tunique de plusieurs couleurs. Ses frères virent que leur père l'aimait plus qu'eux tous, et ils le prirent en haine. Ils ne pouvaient lui parler avec amitié."
+        },
+        {
+          "verset": "Gn 37:3-4"
+        },
+        {
+          "texte": "La suite, tu la connais : les frères ont vendu Joseph comme esclave, et ils ont menti à leur père pendant plus de vingt ans. Ce que l'on subit enfant, on risque de le reproduire adulte, si Dieu ne nous en délivre pas."
+        },
+        {
+          "sous_titre": "Dans nos familles"
+        },
+        {
+          "texte": "Le favoritisme prend beaucoup de formes chez nous. Le garçon qu'on envoie à l'école pendant que la fille reste à la maison. L'enfant brillant qu'on félicite, et l'enfant lent qu'on traite d'imbécile. L'enfant de la première femme et celui de la deuxième. L'enfant qu'on a eu avec le mari actuel, et celui qu'on a eu avant. Ces blessures durent toute une vie."
+        },
+        {
+          "texte": "Dieu, lui, ne fait point acception de personnes. Moïse dit que l'Éternel est le Dieu grand, fort et terrible, qui ne fait point acception des personnes."
+        },
+        {
+          "verset": "Dt 10:17"
+        },
+        {
+          "texte": "Parents, aimez chaque enfant pour lui-même. Vous pouvez reconnaître leurs différences, mais ne les comparez pas, et ne les opposez pas les uns aux autres. Et si toi, tu as été l'enfant non préféré, sache que ton Père céleste ne t'aime pas moins qu'un autre. Demande-lui de guérir cette blessure, pour ne pas la transmettre à tes propres enfants."
+        },
+        {
+          "texte": "On raconte l'histoire d'un homme qui, à cinquante ans, pleurait encore en parlant de son père. Il disait : « Mon père ne m'a jamais dit qu'il était fier de moi. Il le disait à mon grand frère, devant moi, chaque fois qu'il ramenait de bonnes notes. Moi, il m'appelait « l'âne de la famille ». » Cet homme avait réussi dans la vie, il avait une maison, une famille, un bon travail. Mais une phrase de son père, répétée pendant son enfance, le blessait encore. Le jour où il a compris que Dieu l'avait choisi et aimé personnellement, il a pu pardonner à son père, et il a décidé de dire chaque semaine à chacun de ses enfants : « Je t'aime, et je suis fier de toi. »"
+        }
+      ]
     },
     {
-     "texte": "C'est par la sagesse qu'une maison s'élève, et par l'intelligence qu'elle s'affermit. Une maison chrétienne se construit jour après jour, avec des briques simples : une parole douce, un pardon, une prière ensemble, un repas partagé, un temps donné aux enfants."
+      "numero": "8",
+      "titre": "Loïs et Eunice : la foi d'une grand-mère et d'une mère",
+      "references": [
+        "2 Tm 1:5",
+        "2 Tm 3:14-15",
+        "Ac 16:1-3"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un foyer divisé"
+        },
+        {
+          "texte": "Timothée, le fidèle compagnon de Paul, a grandi dans un foyer partagé. Le livre des Actes nous dit qu'il était fils d'une femme juive croyante et d'un père grec."
+        },
+        {
+          "verset": "Ac 16:1-3"
+        },
+        {
+          "texte": "Son père ne partageait pas la foi de sa mère. Nous ne savons pas tout de leur vie, mais nous savons que Timothée n'avait même pas été circoncis, ce qui montre que la mère n'avait pas pu tout faire selon sa religion."
+        },
+        {
+          "sous_titre": "Ce que la mère et la grand-mère ont semé"
+        },
+        {
+          "texte": "Pourtant, Paul écrit à Timothée : je garde le souvenir de la foi sincère qui est en toi, qui habita d'abord dans ton aïeule Loïs et dans ta mère Eunice, et qui, j'en suis persuadé, habite aussi en toi."
+        },
+        {
+          "verset": "2 Tm 1:5"
+        },
+        {
+          "texte": "Et encore : toi, demeure dans les choses que tu as apprises, sachant de qui tu les as apprises ; dès ton enfance, tu connais les saintes lettres, qui peuvent te rendre sage à salut par la foi en Jésus-Christ."
+        },
+        {
+          "verset": "2 Tm 3:14-15"
+        },
+        {
+          "texte": "Une grand-mère et une mère, dans une maison où le père ne croyait pas, ont fidèlement enseigné les Écritures à un petit garçon. Elles n'ont sans doute jamais imaginé que cet enfant deviendrait le compagnon de l'apôtre Paul, ni que deux lettres de la Bible porteraient son nom."
+        },
+        {
+          "sous_titre": "Une espérance pour les grands-parents"
+        },
+        {
+          "texte": "Dans nos familles africaines, beaucoup d'enfants sont élevés en grande partie par leurs grands-parents. Grand-mère, grand-père, ne pense pas que ton rôle est fini. Les histoires bibliques que tu racontes le soir, la prière que tu fais avec tes petits-enfants, ton exemple de foi, tout cela peut porter du fruit pendant des générations."
+        },
+        {
+          "sous_titre": "Une espérance pour la mère seule dans la foi"
+        },
+        {
+          "texte": "Et toi, la femme dont le mari n'est pas croyant, ou qui élève seule ses enfants : regarde Eunice. Tu ne peux peut-être pas organiser toute la maison comme tu le voudrais. Mais tu peux mettre la Parole dans le cœur de tes enfants. La foi sincère n'a pas besoin de conditions parfaites pour être transmise."
+        }
+      ]
     },
     {
-     "verset": "Pr 24:3"
+      "numero": "9",
+      "titre": "Seul chrétien à la maison",
+      "references": [
+        "1 P 3:1-2",
+        "Ac 16:31",
+        "Col 3:13"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Gagner par la conduite"
+        },
+        {
+          "texte": "Beaucoup de nouveaux convertis sont seuls chrétiens dans leur famille : un mari incroyant, des parents hostiles, des frères qui se moquent. Pierre écrit aux femmes dont le mari n'obéit pas à la Parole : qu'ils soient gagnés sans parole par la conduite de leurs femmes, en voyant votre manière de vivre chaste et réservée. Ne prêche pas tout le temps. Vis. Sers. Aime. Ta transformation sera ton meilleur sermon."
+        },
+        {
+          "verset": "1 P 3:1-2"
+        },
+        {
+          "sous_titre": "Respecter sans renier"
+        },
+        {
+          "texte": "Respecte ta famille, aide aux tâches, honore tes parents. Mais ne renie pas ta foi : tu peux refuser avec respect de participer à des pratiques qui contredisent la Parole, comme des sacrifices aux ancêtres ou la consultation de devins. Fais-le avec douceur, explique simplement, et reste aimable."
+        },
+        {
+          "sous_titre": "Prier avec foi pour sa maison"
+        },
+        {
+          "texte": "Le geôlier de Philippes a entendu cette promesse : crois au Seigneur Jésus, et tu seras sauvé, toi et ta famille. Ce n'est pas une garantie automatique, mais c'est une promesse sur laquelle tu peux t'appuyer dans la prière. Prie chaque jour pour chaque membre de ta famille, par son nom. Dieu a commencé par toi ; il veut continuer."
+        },
+        {
+          "verset": "Ac 16:31"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "Le mariage selon Dieu",
-   "references": [
-    "Gn 2:24",
-    "Hé 13:4",
-    "2 Co 6:14"
-   ],
-   "blocs": [
+  ],
+  "sujets": [
     {
-     "sous_titre": "Une seule chair"
+      "titre": "Jésus au centre",
+      "texte": "Prions afin que Jésus soit le chef et le fondement de notre maison, et que nous puissions dire : moi et ma maison, nous servirons l'Éternel. (Josué 24:15)"
     },
     {
-     "texte": "Le mariage n'est pas une invention humaine ni un simple contrat. C'est Dieu qui l'a institué au commencement : c'est pourquoi l'homme quittera son père et sa mère, et s'attachera à sa femme, et ils deviendront une seule chair. Trois verbes : quitter, s'attacher, devenir un. Quitter : le couple forme une nouvelle famille, qui n'est plus sous l'autorité des parents. S'attacher : un engagement fidèle, pour la vie. Devenir un : une union de corps, d'âme et de projets."
+      "titre": "Les couples",
+      "texte": "Demandons à Dieu de fortifier les couples chrétiens : que les maris aiment leur femme comme Christ, et que les femmes respectent leur mari. (Éphésiens 5:25, 33)"
     },
     {
-     "verset": "Gn 2:24"
+      "titre": "Les enfants",
+      "texte": "Prions afin que nos enfants connaissent Jésus personnellement et marchent dans ses voies toute leur vie. (Proverbes 22:6)"
     },
     {
-     "sous_titre": "Honoré de tous"
+      "titre": "Le culte de famille",
+      "texte": "Implorons la grâce de Dieu afin d'établir dans notre maison un temps régulier de prière et de lecture de la Parole. (Deutéronome 6:6-7)"
     },
     {
-     "texte": "Que le mariage soit honoré de tous, et le lit conjugal exempt de souillure. La sexualité appartient au mariage. Le chrétien ne vit pas en concubinage, même si c'est « en attendant d'avoir les moyens pour la dot ». Si c'est ta situation, parles-en avec ton pasteur pour régulariser devant Dieu et devant les hommes."
+      "titre": "Les familles divisées",
+      "texte": "Prions pour ceux qui sont seuls chrétiens dans leur famille, afin que leur conduite gagne les leurs à Jésus. (1 Pierre 3:1)"
     },
     {
-     "sous_titre": "Pour les célibataires : se marier dans le Seigneur"
-    },
-    {
-     "texte": "Si tu n'es pas marié, retiens ce principe : ne vous mettez pas avec les infidèles sous un joug étranger. Le chrétien épouse un chrétien, né de nouveau, et pas seulement quelqu'un qui va à l'église. Beaucoup de souffrances viennent de mariages où l'on a pensé : « Je vais le convertir après. »"
-    },
-    {
-     "verset": "2 Co 6:14"
+      "titre": "Le salut de ma maison",
+      "texte": "Prions avec foi pour le salut de chaque membre de notre famille, en les nommant devant Dieu. (Actes 16:31)"
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "Le mari et la femme",
-   "references": [
-    "Ép 5:21-25",
-    "Col 3:19",
-    "1 P 3:7"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "La soumission mutuelle"
+      "question": "Quels sont les trois verbes du mariage selon Genèse 2:24 ?",
+      "choix": [
+        "Travailler, épargner, construire",
+        "Quitter, s'attacher, devenir une seule chair",
+        "Fiancer, doter, célébrer"
+      ],
+      "reponse": 1,
+      "explication": "« L'homme quittera son père et sa mère, et s'attachera à sa femme, et ils deviendront une seule chair. » (Genèse 2:24)",
+      "section": "2"
     },
     {
-     "texte": "Avant de parler aux maris et aux femmes, Paul dit à tous : vous soumettant les uns aux autres dans la crainte de Christ. Le foyer chrétien n'est pas un champ de bataille pour savoir qui commande. C'est un lieu où chacun cherche à servir l'autre."
+      "question": "Quel est le modèle du mari selon Éphésiens 5 ?",
+      "choix": [
+        "Un chef qui donne des ordres",
+        "Christ, qui a aimé l'Église et s'est livré pour elle",
+        "Son propre père"
+      ],
+      "reponse": 1,
+      "explication": "« Maris, aimez vos femmes, comme Christ a aimé l'Église. » (Éphésiens 5:25)",
+      "section": "3"
     },
     {
-     "verset": "Ép 5:21"
+      "question": "Qui Dieu a-t-il d'abord chargé de transmettre la foi aux enfants ?",
+      "choix": [
+        "L'école",
+        "Les parents",
+        "Le pasteur seul"
+      ],
+      "reponse": 1,
+      "explication": "« Tu les inculqueras à tes enfants, et tu en parleras quand tu seras dans ta maison. » (Deutéronome 6:7)",
+      "section": "4"
     },
     {
-     "sous_titre": "Le mari : aimer comme Christ"
+      "question": "Que répond Jésus quand on lui demande si on peut répudier sa femme pour un motif quelconque ?",
+      "choix": [
+        "Que c'est permis si on donne une lettre",
+        "Que l'homme ne doit pas séparer ce que Dieu a joint",
+        "Que c'est une question de coutume"
+      ],
+      "reponse": 1,
+      "explication": "Matthieu 19:6.",
+      "section": "5"
     },
     {
-     "texte": "Maris, aimez vos femmes, comme Christ a aimé l'Église, et s'est livré lui-même pour elle. Le modèle du mari n'est pas le chef de village qui donne des ordres, mais Jésus qui lave les pieds et donne sa vie. Être le chef du foyer, c'est être le premier à servir, le premier à prier, le premier à demander pardon, le premier à porter les responsabilités. Paul ajoute : ne vous aigrissez pas contre elles. Et Pierre : honorez-les, afin que rien ne vienne faire obstacle à vos prières. Un homme qui maltraite sa femme ne peut pas prier efficacement."
+      "question": "Qu'a demandé Manoah quand il a su qu'un fils allait naître ?",
+      "choix": [
+        "Une grande fête",
+        "Que Dieu leur enseigne ce qu'ils devaient faire pour l'enfant",
+        "Un nom glorieux pour lui"
+      ],
+      "reponse": 1,
+      "explication": "Juges 13:8.",
+      "section": "6"
     },
     {
-     "verset": "Ép 5:25"
+      "question": "Quelle faute Jacob a-t-il répétée après ses parents ?",
+      "choix": [
+        "L'avarice",
+        "Le favoritisme : il aimait Joseph plus que ses autres fils",
+        "Le mensonge à son père"
+      ],
+      "reponse": 1,
+      "explication": "Genèse 25:28 et 37:3-4.",
+      "section": "7"
     },
     {
-     "verset": "1 P 3:7"
-    },
-    {
-     "sous_titre": "La femme : respecter et soutenir"
-    },
-    {
-     "texte": "Femmes, soyez soumises à vos maris, comme au Seigneur. La soumission biblique n'est pas l'infériorité ni l'esclavage : Jésus était soumis au Père, et il est égal au Père. C'est le choix libre de soutenir, d'encourager et de respecter le mari dans sa responsabilité. Paul conclut : que la femme respecte son mari. Beaucoup d'hommes se transforment quand ils se sentent respectés à la maison."
-    },
-    {
-     "verset": "Ép 5:22"
-    },
-    {
-     "sous_titre": "Les conflits"
-    },
-    {
-     "texte": "Tous les couples connaissent des désaccords. La Bible donne des clés : une réponse douce calme la fureur. Si vous vous mettez en colère, ne péchez point ; que le soleil ne se couche pas sur votre colère. Ne dormez pas fâchés. Parlez, demandez pardon, pardonnez, priez ensemble."
-    },
-    {
-     "verset": "Pr 15:1"
-    },
-    {
-     "verset": "Ép 4:26"
+      "question": "De qui Timothée a-t-il reçu sa foi sincère ?",
+      "choix": [
+        "De son père grec",
+        "De sa grand-mère Loïs et de sa mère Eunice",
+        "Seulement de Paul"
+      ],
+      "reponse": 1,
+      "explication": "2 Timothée 1:5.",
+      "section": "8"
     }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "Parents et enfants",
-   "references": [
-    "Dt 6:6-7",
-    "Pr 22:6",
-    "Ép 6:1-4"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Transmettre la foi"
-    },
-    {
-     "texte": "Dieu a confié aux parents, et pas d'abord à l'école du dimanche, la responsabilité d'enseigner la foi aux enfants : ces commandements seront dans ton cœur. Tu les inculqueras à tes enfants, et tu en parleras quand tu seras dans ta maison, quand tu iras en voyage, quand tu te coucheras et quand tu te lèveras. La foi se transmet d'abord par l'exemple, puis par la parole, dans les moments ordinaires de la vie."
-    },
-    {
-     "verset": "Dt 6:6-7"
-    },
-    {
-     "sous_titre": "Le culte de famille"
-    },
-    {
-     "texte": "Un moyen simple : le culte de famille. Pas besoin d'un long programme. Dix à quinze minutes, le soir ou le matin : un chant, un passage de la Bible lu à haute voix, une question pour les enfants, et une prière où chacun peut parler. L'application peut lire la Bible à voix haute pour ceux qui ne lisent pas encore. Les enfants oublieront beaucoup de sermons, mais ils n'oublieront pas leurs parents à genoux."
-    },
-    {
-     "sous_titre": "Éduquer et corriger avec amour"
-    },
-    {
-     "texte": "Instruis l'enfant selon la voie qu'il doit suivre ; et quand il sera vieux, il ne s'en détournera pas. Paul dit aux pères : n'irritez pas vos enfants, mais élevez-les en les corrigeant et en les instruisant selon le Seigneur. La correction est nécessaire, mais elle doit être juste, mesurée, jamais dans la colère ni l'humiliation. Un enfant doit savoir qu'il est aimé même quand il est corrigé."
-    },
-    {
-     "verset": "Pr 22:6"
-    },
-    {
-     "verset": "Ép 6:4"
-    },
-    {
-     "sous_titre": "Enfants : honorer ses parents"
-    },
-    {
-     "texte": "Enfants, obéissez à vos parents, selon le Seigneur, car cela est juste. Honore ton père et ta mère : c'est le premier commandement avec une promesse. Cela vaut aussi pour les adultes : honorer ses parents âgés, prendre soin d'eux, leur parler avec respect, même s'ils ne sont pas chrétiens. Si quelqu'un n'a pas soin des siens, et principalement de ceux de sa famille, il a renié la foi."
-    },
-    {
-     "verset": "Ép 6:1-2"
-    },
-    {
-     "verset": "1 Tm 5:8"
-    }
-   ]
-  },
-  {
-   "numero": "5",
-   "titre": "Seul chrétien à la maison",
-   "references": [
-    "1 P 3:1-2",
-    "Ac 16:31",
-    "Col 3:13"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Gagner par la conduite"
-    },
-    {
-     "texte": "Beaucoup de nouveaux convertis sont seuls chrétiens dans leur famille : un mari incroyant, des parents hostiles, des frères qui se moquent. Pierre écrit aux femmes dont le mari n'obéit pas à la Parole : qu'ils soient gagnés sans parole par la conduite de leurs femmes, en voyant votre manière de vivre chaste et réservée. Ne prêche pas tout le temps. Vis. Sers. Aime. Ta transformation sera ton meilleur sermon."
-    },
-    {
-     "verset": "1 P 3:1-2"
-    },
-    {
-     "sous_titre": "Respecter sans renier"
-    },
-    {
-     "texte": "Respecte ta famille, aide aux tâches, honore tes parents. Mais ne renie pas ta foi : tu peux refuser avec respect de participer à des pratiques qui contredisent la Parole, comme des sacrifices aux ancêtres ou la consultation de devins. Fais-le avec douceur, explique simplement, et reste aimable."
-    },
-    {
-     "sous_titre": "Prier avec foi pour sa maison"
-    },
-    {
-     "texte": "Le geôlier de Philippes a entendu cette promesse : crois au Seigneur Jésus, et tu seras sauvé, toi et ta famille. Ce n'est pas une garantie automatique, mais c'est une promesse sur laquelle tu peux t'appuyer dans la prière. Prie chaque jour pour chaque membre de ta famille, par son nom. Dieu a commencé par toi ; il veut continuer."
-    },
-    {
-     "verset": "Ac 16:31"
-    }
-   ]
-  }
- ],
- "sujets": [
-  {
-   "titre": "Jésus au centre",
-   "texte": "Prions afin que Jésus soit le chef et le fondement de notre maison, et que nous puissions dire : moi et ma maison, nous servirons l'Éternel. (Josué 24:15)"
-  },
-  {
-   "titre": "Les couples",
-   "texte": "Demandons à Dieu de fortifier les couples chrétiens : que les maris aiment leur femme comme Christ, et que les femmes respectent leur mari. (Éphésiens 5:25, 33)"
-  },
-  {
-   "titre": "Les enfants",
-   "texte": "Prions afin que nos enfants connaissent Jésus personnellement et marchent dans ses voies toute leur vie. (Proverbes 22:6)"
-  },
-  {
-   "titre": "Le culte de famille",
-   "texte": "Implorons la grâce de Dieu afin d'établir dans notre maison un temps régulier de prière et de lecture de la Parole. (Deutéronome 6:6-7)"
-  },
-  {
-   "titre": "Les familles divisées",
-   "texte": "Prions pour ceux qui sont seuls chrétiens dans leur famille, afin que leur conduite gagne les leurs à Jésus. (1 Pierre 3:1)"
-  },
-  {
-   "titre": "Le salut de ma maison",
-   "texte": "Prions avec foi pour le salut de chaque membre de notre famille, en les nommant devant Dieu. (Actes 16:31)"
-  }
- ],
- "questions": [
-  {
-   "question": "Quels sont les trois verbes du mariage selon Genèse 2:24 ?",
-   "choix": [
-    "Travailler, épargner, construire",
-    "Quitter, s'attacher, devenir une seule chair",
-    "Fiancer, doter, célébrer"
-   ],
-   "reponse": 1,
-   "explication": "« L'homme quittera son père et sa mère, et s'attachera à sa femme, et ils deviendront une seule chair. » (Genèse 2:24)",
-   "section": "2"
-  },
-  {
-   "question": "Quel est le modèle du mari selon Éphésiens 5 ?",
-   "choix": [
-    "Un chef qui donne des ordres",
-    "Christ, qui a aimé l'Église et s'est livré pour elle",
-    "Son propre père"
-   ],
-   "reponse": 1,
-   "explication": "« Maris, aimez vos femmes, comme Christ a aimé l'Église. » (Éphésiens 5:25)",
-   "section": "3"
-  },
-  {
-   "question": "Qui Dieu a-t-il d'abord chargé de transmettre la foi aux enfants ?",
-   "choix": [
-    "L'école",
-    "Les parents",
-    "Le pasteur seul"
-   ],
-   "reponse": 1,
-   "explication": "« Tu les inculqueras à tes enfants, et tu en parleras quand tu seras dans ta maison. » (Deutéronome 6:7)",
-   "section": "4"
-  }
- ],
- "devoir": [
-  "Organise cette semaine au moins trois cultes de famille de quinze minutes (ou un temps de prière seul pour ta famille si tu es seul chrétien).",
-  "Si tu es marié, demande à ton conjoint : « Qu'est-ce que je pourrais faire pour que tu te sentes plus aimé et respecté ? » Écoute sans te défendre.",
-  "Écris le nom de chaque membre de ta famille et un sujet de prière pour chacun. Prie pour eux chaque jour."
- ],
- "prieres_liees": [
-  "theme:priere-ma-famille"
- ],
- "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-14",
- "relu": false
+  ],
+  "devoir": [
+    "Organise cette semaine au moins trois cultes de famille de quinze minutes (ou un temps de prière seul pour ta famille si tu es seul chrétien).",
+    "Si tu es marié, demande à ton conjoint : « Qu'est-ce que je pourrais faire pour que tu te sentes plus aimé et respecté ? » Écoute sans te défendre.",
+    "Écris le nom de chaque membre de ta famille et un sujet de prière pour chacun. Prie pour eux chaque jour."
+  ],
+  "prieres_liees": [
+    "theme:priere-ma-famille"
+  ],
+  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-14",
+  "relu": false
 }
