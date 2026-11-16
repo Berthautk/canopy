@@ -1,363 +1,561 @@
 {
- "id": "disciple-v2-12-parler-de-christ",
- "titre": "Parler de Christ autour de moi",
- "serie": "Affermissement",
- "theme": "Affermissement",
- "auteur": "Yeshaya",
- "resume": "Douzième leçon du volume 2 : après avoir appris à témoigner dans le volume 1, il s'agit maintenant de faire de l'évangélisation une manière de vivre. Ta famille, ton travail, ton quartier, tes amis : un champ que Dieu t'a confié.",
- "image": "/assets/vie-chretienne/evangelisation-dans-la-rue.webp",
- "verset_de_base": "Ac 1:8",
- "lecture_minutes": 14,
- "objectifs": [
-  "Voir son entourage comme un champ de mission.",
-  "Dépasser la peur et la honte.",
-  "Savoir présenter l'Évangile simplement.",
-  "Suivre ceux qui s'intéressent à Jésus."
- ],
- "introduction": "Beaucoup de chrétiens pensent que l'évangélisation, c'est la campagne de l'église une fois par an, avec la sonorisation et les tracts. Mais la plupart des gens qui viennent à Jésus y viennent par un proche : un ami, un collègue, un frère, un voisin qui leur a parlé.\n\nJésus a dit : vous serez mes témoins à Jérusalem, dans toute la Judée, dans la Samarie, et jusqu'aux extrémités de la terre (Actes 1:8). Jérusalem, c'était chez eux. Ton Jérusalem, c'est ta maison, ta rue, ton lieu de travail. Voyons comment parler de Christ autour de toi.",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "Ton entourage est ton champ",
-   "references": [
-    "Jn 4:35",
-    "Mc 5:19",
-    "Jn 1:41-42"
-   ],
-   "blocs": [
+  "id": "disciple-v2-12-parler-de-christ",
+  "titre": "Parler de Christ autour de moi",
+  "serie": "Affermissement",
+  "theme": "Affermissement",
+  "auteur": "Yeshaya",
+  "resume": "Douzième leçon du volume 2 : après avoir appris à témoigner dans le volume 1, il s'agit maintenant de faire de l'évangélisation une manière de vivre. Ta famille, ton travail, ton quartier, tes amis : un champ que Dieu t'a confié.",
+  "image": "/assets/vie-chretienne/evangelisation-dans-la-rue.webp",
+  "verset_de_base": "Ac 1:8",
+  "lecture_minutes": 30,
+  "objectifs": [
+    "Voir son entourage comme un champ de mission.",
+    "Dépasser la peur et la honte.",
+    "Savoir présenter l'Évangile simplement.",
+    "Suivre ceux qui s'intéressent à Jésus."
+  ],
+  "introduction": "Beaucoup de chrétiens pensent que l'évangélisation, c'est la campagne de l'église une fois par an, avec la sonorisation et les tracts. Mais la plupart des gens qui viennent à Jésus y viennent par un proche : un ami, un collègue, un frère, un voisin qui leur a parlé.\n\nJésus a dit : vous serez mes témoins à Jérusalem, dans toute la Judée, dans la Samarie, et jusqu'aux extrémités de la terre (Actes 1:8). Jérusalem, c'était chez eux. Ton Jérusalem, c'est ta maison, ta rue, ton lieu de travail. Voyons comment parler de Christ autour de toi.",
+  "sections": [
     {
-     "sous_titre": "Les champs sont blancs"
+      "numero": "1",
+      "titre": "Ton entourage est ton champ",
+      "references": [
+        "Jn 4:35",
+        "Mc 5:19",
+        "Jn 1:41-42"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Les champs sont blancs"
+        },
+        {
+          "texte": "Jésus a dit à ses disciples : levez les yeux, et regardez les champs qui déjà blanchissent pour la moisson. Ils voyaient une ville de Samaritains. Jésus voyait des âmes prêtes à être récoltées. Tes collègues, tes voisins, ta famille : Dieu te les a placés autour de toi."
+        },
+        {
+          "verset": "Jn 4:35"
+        },
+        {
+          "sous_titre": "Va chez toi"
+        },
+        {
+          "texte": "Le démoniaque délivré voulait suivre Jésus. Jésus lui a dit : va dans ta maison, vers les tiens, et raconte-leur tout ce que le Seigneur t'a fait. Ta première mission, c'est chez toi."
+        },
+        {
+          "verset": "Mc 5:19"
+        },
+        {
+          "sous_titre": "André et son frère"
+        },
+        {
+          "texte": "André, après avoir rencontré Jésus, a d'abord trouvé son frère Simon et lui a dit : nous avons trouvé le Messie. Et il l'a conduit à Jésus. Ce Simon est devenu l'apôtre Pierre. Tu ne sais pas ce que Dieu fera de la personne que tu amènes à lui."
+        },
+        {
+          "verset": "Jn 1:41-42"
+        }
+      ]
     },
     {
-     "texte": "Jésus a dit à ses disciples : levez les yeux, et regardez les champs qui déjà blanchissent pour la moisson. Ils voyaient une ville de Samaritains. Jésus voyait des âmes prêtes à être récoltées. Tes collègues, tes voisins, ta famille : Dieu te les a placés autour de toi."
+      "numero": "2",
+      "titre": "Dépasser la peur et la honte",
+      "references": [
+        "Rm 1:16",
+        "2 Tm 1:7-8",
+        "Ac 4:29-31"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Je n'ai point honte"
+        },
+        {
+          "texte": "Paul a dit : je n'ai point honte de l'Évangile : c'est une puissance de Dieu pour le salut de quiconque croit. La puissance n'est pas dans ton éloquence. Elle est dans l'Évangile lui-même."
+        },
+        {
+          "verset": "Rm 1:16"
+        },
+        {
+          "sous_titre": "Un esprit de force"
+        },
+        {
+          "texte": "Dieu ne nous a pas donné un esprit de timidité, mais un esprit de force, d'amour et de sagesse. N'aie donc point honte du témoignage à rendre à notre Seigneur. La peur de ce que les gens vont penser est réelle. Mais pense plutôt à ce qui arrivera s'ils meurent sans avoir entendu."
+        },
+        {
+          "verset": "2 Tm 1:7-8"
+        },
+        {
+          "sous_titre": "Prier pour l'assurance"
+        },
+        {
+          "texte": "Quand les apôtres ont été menacés, ils n'ont pas prié pour que les menaces cessent. Ils ont prié : accorde à tes serviteurs d'annoncer ta parole avec une pleine assurance. Et ils ont été remplis du Saint-Esprit."
+        },
+        {
+          "verset": "Ac 4:29-31"
+        }
+      ]
     },
     {
-     "verset": "Jn 4:35"
+      "numero": "3",
+      "titre": "Une vie qui parle",
+      "references": [
+        "Mt 5:16",
+        "1 P 3:15",
+        "Col 4:5-6"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Votre lumière"
+        },
+        {
+          "texte": "Que votre lumière luise ainsi devant les hommes, afin qu'ils voient vos bonnes œuvres, et qu'ils glorifient votre Père. Ta vie ouvre ou ferme les portes. Un chrétien qui ment, qui triche, qui crie sur ses enfants et qui parle de Jésus au travail fait plus de mal que de bien."
+        },
+        {
+          "verset": "Mt 5:16"
+        },
+        {
+          "sous_titre": "Toujours prêts"
+        },
+        {
+          "texte": "Pierre dit : soyez toujours prêts à vous défendre, avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous. Quand ta vie est différente, les gens posent des questions. Sois prêt."
+        },
+        {
+          "verset": "1 P 3:15"
+        },
+        {
+          "sous_titre": "Une parole assaisonnée de sel"
+        },
+        {
+          "texte": "Que votre parole soit toujours accompagnée de grâce, assaisonnée de sel, afin que vous sachiez comment il faut répondre à chacun. Ne force pas, n'attaque pas, ne te moque pas de la religion des autres. Écoute, pose des questions, puis parle de Jésus."
+        },
+        {
+          "verset": "Col 4:5-6"
+        }
+      ]
     },
     {
-     "sous_titre": "Va chez toi"
+      "numero": "4",
+      "titre": "Présenter l'Évangile simplement",
+      "references": [
+        "1 Co 15:3-4",
+        "Rm 3:23",
+        "Rm 6:23",
+        "Rm 10:9"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Le cœur du message"
+        },
+        {
+          "texte": "Paul résume l'Évangile : Christ est mort pour nos péchés, selon les Écritures ; il a été enseveli, et il est ressuscité le troisième jour. Tout le reste découle de cela."
+        },
+        {
+          "verset": "1 Co 15:3-4"
+        },
+        {
+          "sous_titre": "En quatre points"
+        },
+        {
+          "texte": "Apprends à expliquer en deux minutes : Dieu nous a créés pour le connaître. Nous avons tous péché et nous sommes séparés de lui (Romains 3:23). Le salaire du péché, c'est la mort, mais Jésus est mort à notre place et il est ressuscité (Romains 6:23). Il faut se repentir et croire en lui pour être sauvé (Romains 10:9). Dans Yeshaya, la section Évangéliser te donne plusieurs outils pour le faire : le pont, le livre sans mots, le témoignage en trois minutes."
+        },
+        {
+          "verset": "Rm 10:9"
+        }
+      ]
     },
     {
-     "texte": "Le démoniaque délivré voulait suivre Jésus. Jésus lui a dit : va dans ta maison, vers les tiens, et raconte-leur tout ce que le Seigneur t'a fait. Ta première mission, c'est chez toi."
+      "numero": "5",
+      "titre": "Suivre ceux qui s'intéressent",
+      "references": [
+        "Mt 28:19-20",
+        "2 Tm 2:2"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Faire des disciples"
+        },
+        {
+          "texte": "Jésus n'a pas dit : faites des décisions. Il a dit : faites de toutes les nations des disciples, et enseignez-leur à observer tout ce que je vous ai prescrit. Quand quelqu'un accepte Jésus, ne le laisse pas seul. Invite-le à l'église, lis la Bible avec lui, commence avec lui les leçons de « Former le disciple »."
+        },
+        {
+          "verset": "Mt 28:19-20"
+        },
+        {
+          "sous_titre": "Transmettre"
+        },
+        {
+          "texte": "Paul dit à Timothée : ce que tu as entendu de moi, confie-le à des hommes fidèles, qui soient capables de l'enseigner aussi à d'autres. Quatre générations dans un verset. C'est ainsi que l'Évangile se répand."
+        },
+        {
+          "verset": "2 Tm 2:2"
+        }
+      ]
     },
     {
-     "verset": "Mc 5:19"
+      "numero": "6",
+      "titre": "Des témoins ordinaires dans la Bible",
+      "references": [
+        "2 R 5:2-4",
+        "Jn 4:28-30",
+        "Ac 8:4"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "La petite fille captive"
+        },
+        {
+          "texte": "Une petite fille d'Israël avait été enlevée et servait la femme de Naaman, chef de l'armée syrienne. Elle aurait pu se taire, ou haïr ses maîtres. Elle a dit à sa maîtresse : « Oh ! si mon seigneur était auprès du prophète qui est à Samarie, le prophète le guérirait de sa lèpre ! » Grâce à une phrase d'une esclave, un général païen a été guéri et a reconnu le vrai Dieu. Tu n'as pas besoin d'être pasteur pour témoigner ; tu as besoin d'une phrase au bon moment."
+        },
+        {
+          "verset": "2 R 5:2-4"
+        },
+        {
+          "sous_titre": "La Samaritaine"
+        },
+        {
+          "texte": "Après sa rencontre avec Jésus, la femme samaritaine a laissé sa cruche, est allée dans la ville et a dit aux gens : « Venez voir un homme qui m'a dit tout ce que j'ai fait. » Elle n'avait aucune formation, une mauvaise réputation, et une seule rencontre avec Jésus. Pourtant beaucoup de Samaritains de cette ville crurent en Jésus à cause de la parole de cette femme."
+        },
+        {
+          "verset": "Jn 4:28-30"
+        },
+        {
+          "sous_titre": "Les chrétiens dispersés"
+        },
+        {
+          "texte": "Après la mort d'Étienne, une grande persécution dispersa les chrétiens de Jérusalem. La Bible dit : « Ceux qui avaient été dispersés allaient de lieu en lieu, annonçant la bonne nouvelle de la parole. » Ce ne sont pas les apôtres, restés à Jérusalem, mais des chrétiens ordinaires, déplacés, qui ont porté l'Évangile plus loin. Ton déménagement, ton nouveau travail, ton exil peuvent devenir une mission."
+        },
+        {
+          "verset": "Ac 8:4"
+        }
+      ]
     },
     {
-     "sous_titre": "André et son frère"
+      "numero": "7",
+      "titre": "Témoigner dans les lieux de notre vie",
+      "references": [
+        "Ac 16:31-34",
+        "1 P 3:1",
+        "Col 3:23"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Dans la famille"
+        },
+        {
+          "texte": "Les membres de la famille sont souvent les plus difficiles à atteindre, car ils connaissent nos défauts. Ici, la vie parle avant les mots. Pierre dit aux femmes dont le mari n'obéit pas à la Parole qu'il peut être gagné sans parole, par la conduite de sa femme. Sois patient, respectueux, serviable ; prie pour eux par leur nom ; et quand une porte s'ouvre (une maladie, un deuil, une question), parle simplement de ce que Jésus a fait pour toi."
+        },
+        {
+          "verset": "1 P 3:1"
+        },
+        {
+          "sous_titre": "Au travail et à l'école"
+        },
+        {
+          "texte": "Ton collègue remarque que tu ne voles pas, que tu ne participes pas aux commérages, que tu travailles bien même quand le chef n'est pas là. Un jour il demandera pourquoi. Ton camarade de classe voit que tu ne triches pas à l'examen. Ces moments sont des portes. Tout ce que vous faites, faites-le de bon cœur, comme pour le Seigneur."
+        },
+        {
+          "verset": "Col 3:23"
+        },
+        {
+          "sous_titre": "Dans les moments de crise"
+        },
+        {
+          "texte": "Les gens sont souvent plus ouverts à Dieu dans les moments difficiles : maladie, deuil, chômage, divorce, prison. Le geôlier de Philippes a demandé : « Que faut-il que je fasse pour être sauvé ? » au milieu d'un tremblement de terre. Visite les malades, assiste aux enterrements, aide les familles en difficulté : ce sont souvent les meilleures occasions de parler de Jésus, avec douceur."
+        },
+        {
+          "verset": "Ac 16:31-34"
+        }
+      ]
     },
     {
-     "texte": "André, après avoir rencontré Jésus, a d'abord trouvé son frère Simon et lui a dit : nous avons trouvé le Messie. Et il l'a conduit à Jésus. Ce Simon est devenu l'apôtre Pierre. Tu ne sais pas ce que Dieu fera de la personne que tu amènes à lui."
+      "numero": "8",
+      "titre": "Les bergers de Bethléem : raconter ce qu'on a vu",
+      "references": [
+        "Lc 2:8-12",
+        "Lc 2:15-20"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Les premiers à entendre"
+        },
+        {
+          "texte": "La nuit où Jésus est né, Dieu n'a pas envoyé ses anges au palais du roi Hérode, ni chez les grands prêtres, ni chez les savants de Jérusalem. Il les a envoyés à des bergers qui gardaient leurs troupeaux dans les champs, la nuit."
+        },
+        {
+          "verset": "Lc 2:8-12"
+        },
+        {
+          "texte": "À cette époque, les bergers étaient des gens méprisés. On les considérait comme sales, peu fiables, et leur témoignage n'était même pas accepté devant un tribunal. Ce sont pourtant eux qui ont reçu en premier la plus grande nouvelle de l'histoire : aujourd'hui, dans la ville de David, il vous est né un Sauveur, qui est le Christ, le Seigneur."
+        },
+        {
+          "sous_titre": "Ils sont allés voir"
+        },
+        {
+          "texte": "Quand les anges les eurent quittés, les bergers se dirent les uns aux autres : allons jusqu'à Bethléem, et voyons ce qui est arrivé, ce que le Seigneur nous a fait connaître."
+        },
+        {
+          "verset": "Lc 2:15-20"
+        },
+        {
+          "texte": "Ils y allèrent en hâte, et ils trouvèrent Marie et Joseph, et le petit enfant couché dans la crèche. Ils n'ont pas seulement écouté un beau message. Ils sont allés voir par eux-mêmes. Avant de parler de Jésus, il faut l'avoir rencontré."
+        },
+        {
+          "sous_titre": "Ils l'ont raconté"
+        },
+        {
+          "texte": "Après l'avoir vu, ils racontèrent ce qui leur avait été dit au sujet de ce petit enfant. Tous ceux qui les entendirent furent dans l'étonnement de ce que leur disaient les bergers."
+        },
+        {
+          "texte": "Les bergers n'avaient pas fait d'études. Ils ne connaissaient sans doute pas toutes les prophéties. Ils ne savaient pas expliquer la doctrine de l'incarnation. Mais ils pouvaient dire : voici ce que nous avons entendu, et voici ce que nous avons vu. Et cela a suffi pour étonner ceux qui les écoutaient."
+        },
+        {
+          "texte": "Remarque aussi ce que fait Marie pendant ce temps : elle gardait toutes ces choses, et les repassait dans son cœur. Le témoignage des bergers a nourri la foi de la mère de Jésus elle-même. Quand tu racontes ce que Dieu a fait, tu ne sais pas qui en sera fortifié. Parfois, c'est un incroyant qui est touché. Parfois, c'est un chrétien découragé qui en avait besoin. Les bergers ne savaient pas que leurs paroles seraient gardées dans le cœur de Marie, et écrites des années plus tard par Luc pour des millions de lecteurs. Ton témoignage simple peut porter beaucoup plus loin que tu ne l'imagines. Ne le garde pas pour toi par peur qu'il soit trop petit."
+        },
+        {
+          "sous_titre": "Ils sont retournés à leur travail"
+        },
+        {
+          "texte": "Et ensuite, les bergers s'en retournèrent, glorifiant et louant Dieu pour tout ce qu'ils avaient entendu et vu. Ils ne sont pas devenus prêtres. Ils ne sont pas restés à Bethléem. Ils sont retournés à leurs troupeaux, à leur travail ordinaire, mais avec un cœur transformé, plein de louange."
+        },
+        {
+          "texte": "C'est le modèle du témoin ordinaire. Tu n'as pas besoin de quitter ton travail ou ton quartier pour parler de Jésus. Retourne à tes champs, à ta boutique, à ton bureau, à ta salle de classe, et raconte simplement ce que tu as vu et entendu. Ta joie elle-même sera un message."
+        },
+        {
+          "texte": "On raconte l'histoire d'une vendeuse de beignets au bord d'une route, qui s'était convertie pendant une croisade. Elle ne savait pas prêcher. Mais chaque matin, pendant qu'elle servait ses clients, elle chantait doucement des cantiques. Quand on lui demandait pourquoi elle était si joyeuse malgré la pauvreté, elle répondait : « Jésus m'a trouvée. » Et elle racontait en deux minutes comment sa vie avait changé. Au bout de quelques années, une petite cellule de prière se réunissait le dimanche après-midi sous son abri de tôle, avec des clients qui avaient été touchés par ses beignets et par son témoignage."
+        }
+      ]
     },
     {
-     "verset": "Jn 1:41-42"
+      "numero": "9",
+      "titre": "Paul à Lystre : parler à ceux qui ne connaissent pas la Bible",
+      "references": [
+        "Ac 14:8-18"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un miracle mal compris"
+        },
+        {
+          "texte": "À Lystre, en Asie Mineure, Paul prêchait devant une population païenne. Il y avait là un homme impotent des pieds, boiteux de naissance, qui n'avait jamais marché. Il écoutait Paul. Paul, fixant les regards sur lui et voyant qu'il avait la foi pour être guéri, dit d'une voix forte : lève-toi droit sur tes pieds. Et il se leva d'un bond et marcha."
+        },
+        {
+          "verset": "Ac 14:8-18"
+        },
+        {
+          "texte": "La foule, voyant cela, s'écria en langue lycaonienne : les dieux sous une forme humaine sont descendus vers nous ! Ils appelèrent Barnabas Jupiter, et Paul Mercure. Le prêtre de Jupiter amena des taureaux avec des couronnes, et voulut, ainsi que la foule, offrir un sacrifice."
+        },
+        {
+          "sous_titre": "Refuser la gloire"
+        },
+        {
+          "texte": "Paul et Barnabas, ayant appris cela, déchirèrent leurs vêtements, et se précipitèrent au milieu de la foule en criant : ô hommes, pourquoi agissez-vous de la sorte ? Nous aussi, nous sommes des hommes de la même nature que vous."
+        },
+        {
+          "texte": "Quand on témoigne, il y a toujours un danger que les gens s'attachent à nous plutôt qu'à Jésus. Dans nos pays, certains font du serviteur de Dieu une sorte de féticheur, à qui l'on attribue des pouvoirs. Le vrai témoin refuse cette gloire et dirige les regards vers Dieu seul."
+        },
+        {
+          "sous_titre": "Commencer par ce qu'ils connaissent"
+        },
+        {
+          "texte": "Écoute comment Paul a parlé à ces gens qui ne connaissaient pas la Bible. Il n'a pas commencé par citer Moïse ou les prophètes. Il a commencé par ce qu'ils voyaient chaque jour : nous vous apportons une bonne nouvelle, en vous exhortant à renoncer à ces choses vaines, pour vous tourner vers le Dieu vivant, qui a fait le ciel, la terre, la mer, et tout ce qui s'y trouve. Il n'a cessé de rendre témoignage de ce qu'il est, en faisant du bien, en vous dispensant du ciel les pluies et les saisons fertiles, en vous donnant la nourriture avec abondance et en remplissant vos cœurs de joie."
+        },
+        {
+          "texte": "La pluie, les récoltes, la nourriture, la joie : Paul part de la création pour parler du Créateur. Le psalmiste dit : les cieux racontent la gloire de Dieu, et l'étendue manifeste l'œuvre de ses mains. Ce n'est pas un langage dont la voix ne soit pas entendue."
+        },
+        {
+          "sous_titre": "Pour nos villages"
+        },
+        {
+          "texte": "Quand tu parles de Jésus à une grand-mère du village qui pratique la religion traditionnelle, ou à un cultivateur qui n'a jamais ouvert une Bible, ne commence pas par des mots compliqués. Commence par ce qu'il connaît : qui fait tomber la pluie sur ton champ ? Qui fait pousser le manioc et le maïs ? Qui a créé le soleil ? Beaucoup de nos peuples connaissaient déjà un Dieu créateur, lointain, qu'on n'osait pas approcher. La bonne nouvelle, c'est que ce Dieu créateur s'est approché de nous en Jésus-Christ."
+        },
+        {
+          "sous_titre": "Le prix du témoignage"
+        },
+        {
+          "texte": "L'histoire de Lystre ne s'arrête pas là. Peu de temps après, des Juifs venus d'autres villes ont retourné la foule contre Paul. Ceux qui voulaient l'adorer comme un dieu l'ont lapidé, et l'ont traîné hors de la ville, le croyant mort. Mais les disciples l'ont entouré, et il s'est relevé. Le lendemain, il partait pour la ville suivante. Le témoignage coûte parfois cher. Mais aucune semence n'est perdue. Tu ne sais pas qui, dans la foule, est en train de regarder ta fidélité."
+        },
+        {
+          "texte": "On raconte l'histoire d'un évangéliste qui allait dans les villages de brousse. Dans un village, le chef lui a dit : « Nous connaissons déjà Dieu. Nous l'appelons le Grand Ancien qui est au ciel. Mais il est trop loin pour nous écouter. C'est pourquoi nous passons par les ancêtres. » L'évangéliste a répondu : « Tu as raison, Dieu est grand et il est au ciel. Mais je viens t'annoncer qu'il n'est pas resté loin. Il est venu lui-même vers nous, en son Fils Jésus, pour que nous puissions lui parler directement. Tu n'as plus besoin d'intermédiaire. » Le vieux chef est resté silencieux longtemps, puis il a dit : « Reviens demain, et raconte-moi tout depuis le début. »"
+        }
+      ]
+    },
+    {
+      "numero": "10",
+      "titre": "« Priez pour moi » : la prière qui ouvre les portes",
+      "references": [
+        "Col 4:3-4",
+        "Ép 6:19-20",
+        "Mt 9:37-38"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Le grand apôtre demande de l'aide"
+        },
+        {
+          "texte": "Paul avait prêché dans des dizaines de villes. Il avait fondé des églises dans toute l'Asie et la Grèce. Il avait parlé devant des philosophes, des gouverneurs et des rois. Et pourtant, à la fin de ses lettres, il demande sans cesse : priez pour moi."
+        },
+        {
+          "texte": "Aux Colossiens, il écrit : persévérez dans la prière, veillez-y avec actions de grâces. Priez en même temps pour nous, afin que Dieu nous ouvre une porte pour la parole, en sorte que je puisse annoncer le mystère de Christ, pour lequel je suis dans les chaînes, et le faire connaître comme je dois en parler."
+        },
+        {
+          "verset": "Col 4:3-4"
+        },
+        {
+          "sous_titre": "Deux demandes"
+        },
+        {
+          "texte": "Remarque ce que Paul demande. D'abord, une porte ouverte : une occasion, une rencontre, un cœur prêt à écouter. Il savait que c'est Dieu qui ouvre les cœurs et les occasions. Ensuite, la bonne manière de parler : « comme je dois en parler ». Il voulait les bons mots, au bon moment, avec le bon ton."
+        },
+        {
+          "texte": "Aux Éphésiens, il ajoute : priez pour moi, afin qu'il me soit donné, quand j'ouvre la bouche, de faire connaître hardiment et librement le mystère de l'Évangile, pour lequel je suis ambassadeur dans les chaînes, et que j'en parle avec assurance comme je dois en parler."
+        },
+        {
+          "verset": "Ép 6:19-20"
+        },
+        {
+          "texte": "Même Paul avait besoin de courage. Même Paul avait peur parfois. Et il savait que la hardiesse vient de Dieu, en réponse à la prière."
+        },
+        {
+          "sous_titre": "Prier avant de parler"
+        },
+        {
+          "texte": "Jésus lui-même a dit à ses disciples : la moisson est grande, mais il y a peu d'ouvriers. Priez donc le maître de la moisson d'envoyer des ouvriers dans sa moisson."
+        },
+        {
+          "verset": "Mt 9:37-38"
+        },
+        {
+          "texte": "Le témoignage commence par la prière. Avant de parler de Dieu aux gens, parle des gens à Dieu. Fais une liste de cinq personnes de ton entourage qui ne connaissent pas Jésus : un membre de ta famille, un voisin, un collègue, un camarade de classe, un ami. Prie pour eux chaque jour, par leur nom. Demande à Dieu d'ouvrir une porte, et de te donner les bons mots. Puis reste attentif : la réponse viendra souvent sous la forme d'une question inattendue, d'une crise, d'une conversation."
+        },
+        {
+          "texte": "On raconte l'histoire d'un jeune étudiant qui avait écrit sur un petit papier, collé dans sa Bible, le nom de son père, un homme dur et moqueur qui ne voulait pas entendre parler de Dieu. Chaque soir, pendant quatre ans, il a prié pour lui. Il n'osait pas lui parler directement, car son père se fâchait. Un jour, son père a été hospitalisé après un malaise. Une nuit, dans sa chambre d'hôpital, c'est lui qui a demandé à son fils : « Toi qui pries tout le temps, qu'est-ce que tu dis à ton Dieu ? » Le jeune homme a répondu : « Je lui parle de toi, papa, chaque soir depuis quatre ans. » Le père s'est mis à pleurer. Cette nuit-là, la porte s'est ouverte, et le fils a pu lui expliquer l'Évangile."
+        }
+      ]
+    },
+    {
+      "numero": "11",
+      "titre": "Conclusion",
+      "references": [
+        "Rm 10:14"
+      ],
+      "blocs": [
+        {
+          "texte": "Comment croiront-ils en celui dont ils n'ont pas entendu parler ? Et comment en entendront-ils parler, s'il n'y a personne qui prêche ? Quelqu'un t'a parlé de Jésus un jour. Maintenant c'est ton tour."
+        },
+        {
+          "verset": "Rm 10:14"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "Dépasser la peur et la honte",
-   "references": [
-    "Rm 1:16",
-    "2 Tm 1:7-8",
-    "Ac 4:29-31"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "Je n'ai point honte"
+      "question": "Selon Actes 1:8, où les disciples devaient-ils d'abord témoigner ?",
+      "choix": [
+        "Aux extrémités de la terre",
+        "À Jérusalem, c'est-à-dire chez eux",
+        "Seulement à Rome"
+      ],
+      "reponse": 1,
+      "explication": "(Actes 1:8)",
+      "section": "1"
     },
     {
-     "texte": "Paul a dit : je n'ai point honte de l'Évangile : c'est une puissance de Dieu pour le salut de quiconque croit. La puissance n'est pas dans ton éloquence. Elle est dans l'Évangile lui-même."
+      "question": "Qu'ont demandé les apôtres quand ils ont été menacés ?",
+      "choix": [
+        "Que les menaces cessent",
+        "D'annoncer la Parole avec pleine assurance",
+        "De pouvoir fuir"
+      ],
+      "reponse": 1,
+      "explication": "(Actes 4:29)",
+      "section": "2"
     },
     {
-     "verset": "Rm 1:16"
+      "question": "Qu'a dit Jésus dans le grand ordre missionnaire ?",
+      "choix": [
+        "Faites des décisions",
+        "Faites des disciples et enseignez-leur",
+        "Construisez des églises"
+      ],
+      "reponse": 1,
+      "explication": "(Matthieu 28:19-20)",
+      "section": "5"
     },
     {
-     "sous_titre": "Un esprit de force"
+      "question": "Qu'a dit la petite fille captive à sa maîtresse ?",
+      "choix": [
+        "Rien",
+        "Que le prophète de Samarie pourrait guérir Naaman",
+        "Qu'elle voulait rentrer chez elle"
+      ],
+      "reponse": 1,
+      "explication": "(2 Rois 5:3)",
+      "section": "6"
     },
     {
-     "texte": "Dieu ne nous a pas donné un esprit de timidité, mais un esprit de force, d'amour et de sagesse. N'aie donc point honte du témoignage à rendre à notre Seigneur. La peur de ce que les gens vont penser est réelle. Mais pense plutôt à ce qui arrivera s'ils meurent sans avoir entendu."
+      "question": "Qui a porté l'Évangile plus loin après la mort d'Étienne ?",
+      "choix": [
+        "Seulement les apôtres",
+        "Les chrétiens dispersés par la persécution",
+        "Les pharisiens"
+      ],
+      "reponse": 1,
+      "explication": "(Actes 8:4)",
+      "section": "6"
     },
     {
-     "verset": "2 Tm 1:7-8"
+      "question": "Comment un mari non croyant peut-il être gagné selon 1 Pierre 3:1 ?",
+      "choix": [
+        "Par des disputes",
+        "Par la conduite de sa femme",
+        "Par la menace"
+      ],
+      "reponse": 1,
+      "explication": "(1 Pierre 3:1)",
+      "section": "7"
     },
     {
-     "sous_titre": "Prier pour l'assurance"
+      "question": "Qu'ont fait les bergers après avoir vu l'enfant Jésus ?",
+      "choix": [
+        "Ils sont restés à Bethléem",
+        "Ils ont raconté ce qu'ils avaient vu, puis sont retournés à leur travail en louant Dieu",
+        "Ils ont gardé le secret"
+      ],
+      "reponse": 1,
+      "explication": "Luc 2:17-20.",
+      "section": "8"
     },
     {
-     "texte": "Quand les apôtres ont été menacés, ils n'ont pas prié pour que les menaces cessent. Ils ont prié : accorde à tes serviteurs d'annoncer ta parole avec une pleine assurance. Et ils ont été remplis du Saint-Esprit."
+      "question": "Par quoi Paul a-t-il commencé pour parler aux païens de Lystre ?",
+      "choix": [
+        "Par les prophéties de Moïse",
+        "Par la création : le Dieu qui donne la pluie, les saisons et la nourriture",
+        "Par des menaces"
+      ],
+      "reponse": 1,
+      "explication": "Actes 14:15-17.",
+      "section": "9"
     },
     {
-     "verset": "Ac 4:29-31"
+      "question": "Quelles sont les deux choses que Paul demande dans la prière pour son témoignage ?",
+      "choix": [
+        "De l'argent et une maison",
+        "Une porte ouverte pour la parole, et la capacité d'en parler comme il faut",
+        "La fin des persécutions"
+      ],
+      "reponse": 1,
+      "explication": "Colossiens 4:3-4.",
+      "section": "10"
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "Une vie qui parle",
-   "references": [
-    "Mt 5:16",
-    "1 P 3:15",
-    "Col 4:5-6"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Votre lumière"
-    },
-    {
-     "texte": "Que votre lumière luise ainsi devant les hommes, afin qu'ils voient vos bonnes œuvres, et qu'ils glorifient votre Père. Ta vie ouvre ou ferme les portes. Un chrétien qui ment, qui triche, qui crie sur ses enfants et qui parle de Jésus au travail fait plus de mal que de bien."
-    },
-    {
-     "verset": "Mt 5:16"
-    },
-    {
-     "sous_titre": "Toujours prêts"
-    },
-    {
-     "texte": "Pierre dit : soyez toujours prêts à vous défendre, avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous. Quand ta vie est différente, les gens posent des questions. Sois prêt."
-    },
-    {
-     "verset": "1 P 3:15"
-    },
-    {
-     "sous_titre": "Une parole assaisonnée de sel"
-    },
-    {
-     "texte": "Que votre parole soit toujours accompagnée de grâce, assaisonnée de sel, afin que vous sachiez comment il faut répondre à chacun. Ne force pas, n'attaque pas, ne te moque pas de la religion des autres. Écoute, pose des questions, puis parle de Jésus."
-    },
-    {
-     "verset": "Col 4:5-6"
-    }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "Présenter l'Évangile simplement",
-   "references": [
-    "1 Co 15:3-4",
-    "Rm 3:23",
-    "Rm 6:23",
-    "Rm 10:9"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Le cœur du message"
-    },
-    {
-     "texte": "Paul résume l'Évangile : Christ est mort pour nos péchés, selon les Écritures ; il a été enseveli, et il est ressuscité le troisième jour. Tout le reste découle de cela."
-    },
-    {
-     "verset": "1 Co 15:3-4"
-    },
-    {
-     "sous_titre": "En quatre points"
-    },
-    {
-     "texte": "Apprends à expliquer en deux minutes : Dieu nous a créés pour le connaître. Nous avons tous péché et nous sommes séparés de lui (Romains 3:23). Le salaire du péché, c'est la mort, mais Jésus est mort à notre place et il est ressuscité (Romains 6:23). Il faut se repentir et croire en lui pour être sauvé (Romains 10:9). Dans Yeshaya, la section Évangéliser te donne plusieurs outils pour le faire : le pont, le livre sans mots, le témoignage en trois minutes."
-    },
-    {
-     "verset": "Rm 10:9"
-    }
-   ]
-  },
-  {
-   "numero": "5",
-   "titre": "Suivre ceux qui s'intéressent",
-   "references": [
-    "Mt 28:19-20",
-    "2 Tm 2:2"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Faire des disciples"
-    },
-    {
-     "texte": "Jésus n'a pas dit : faites des décisions. Il a dit : faites de toutes les nations des disciples, et enseignez-leur à observer tout ce que je vous ai prescrit. Quand quelqu'un accepte Jésus, ne le laisse pas seul. Invite-le à l'église, lis la Bible avec lui, commence avec lui les leçons de « Former le disciple »."
-    },
-    {
-     "verset": "Mt 28:19-20"
-    },
-    {
-     "sous_titre": "Transmettre"
-    },
-    {
-     "texte": "Paul dit à Timothée : ce que tu as entendu de moi, confie-le à des hommes fidèles, qui soient capables de l'enseigner aussi à d'autres. Quatre générations dans un verset. C'est ainsi que l'Évangile se répand."
-    },
-    {
-     "verset": "2 Tm 2:2"
-    }
-   ]
-  },
-  {
-   "numero": "6",
-   "titre": "Des témoins ordinaires dans la Bible",
-   "references": [
-    "2 R 5:2-4",
-    "Jn 4:28-30",
-    "Ac 8:4"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "La petite fille captive"
-    },
-    {
-     "texte": "Une petite fille d'Israël avait été enlevée et servait la femme de Naaman, chef de l'armée syrienne. Elle aurait pu se taire, ou haïr ses maîtres. Elle a dit à sa maîtresse : « Oh ! si mon seigneur était auprès du prophète qui est à Samarie, le prophète le guérirait de sa lèpre ! » Grâce à une phrase d'une esclave, un général païen a été guéri et a reconnu le vrai Dieu. Tu n'as pas besoin d'être pasteur pour témoigner ; tu as besoin d'une phrase au bon moment."
-    },
-    {
-     "verset": "2 R 5:2-4"
-    },
-    {
-     "sous_titre": "La Samaritaine"
-    },
-    {
-     "texte": "Après sa rencontre avec Jésus, la femme samaritaine a laissé sa cruche, est allée dans la ville et a dit aux gens : « Venez voir un homme qui m'a dit tout ce que j'ai fait. » Elle n'avait aucune formation, une mauvaise réputation, et une seule rencontre avec Jésus. Pourtant beaucoup de Samaritains de cette ville crurent en Jésus à cause de la parole de cette femme."
-    },
-    {
-     "verset": "Jn 4:28-30"
-    },
-    {
-     "sous_titre": "Les chrétiens dispersés"
-    },
-    {
-     "texte": "Après la mort d'Étienne, une grande persécution dispersa les chrétiens de Jérusalem. La Bible dit : « Ceux qui avaient été dispersés allaient de lieu en lieu, annonçant la bonne nouvelle de la parole. » Ce ne sont pas les apôtres, restés à Jérusalem, mais des chrétiens ordinaires, déplacés, qui ont porté l'Évangile plus loin. Ton déménagement, ton nouveau travail, ton exil peuvent devenir une mission."
-    },
-    {
-     "verset": "Ac 8:4"
-    }
-   ]
-  },
-  {
-   "numero": "7",
-   "titre": "Témoigner dans les lieux de notre vie",
-   "references": [
-    "Ac 16:31-34",
-    "1 P 3:1",
-    "Col 3:23"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Dans la famille"
-    },
-    {
-     "texte": "Les membres de la famille sont souvent les plus difficiles à atteindre, car ils connaissent nos défauts. Ici, la vie parle avant les mots. Pierre dit aux femmes dont le mari n'obéit pas à la Parole qu'il peut être gagné sans parole, par la conduite de sa femme. Sois patient, respectueux, serviable ; prie pour eux par leur nom ; et quand une porte s'ouvre (une maladie, un deuil, une question), parle simplement de ce que Jésus a fait pour toi."
-    },
-    {
-     "verset": "1 P 3:1"
-    },
-    {
-     "sous_titre": "Au travail et à l'école"
-    },
-    {
-     "texte": "Ton collègue remarque que tu ne voles pas, que tu ne participes pas aux commérages, que tu travailles bien même quand le chef n'est pas là. Un jour il demandera pourquoi. Ton camarade de classe voit que tu ne triches pas à l'examen. Ces moments sont des portes. Tout ce que vous faites, faites-le de bon cœur, comme pour le Seigneur."
-    },
-    {
-     "verset": "Col 3:23"
-    },
-    {
-     "sous_titre": "Dans les moments de crise"
-    },
-    {
-     "texte": "Les gens sont souvent plus ouverts à Dieu dans les moments difficiles : maladie, deuil, chômage, divorce, prison. Le geôlier de Philippes a demandé : « Que faut-il que je fasse pour être sauvé ? » au milieu d'un tremblement de terre. Visite les malades, assiste aux enterrements, aide les familles en difficulté : ce sont souvent les meilleures occasions de parler de Jésus, avec douceur."
-    },
-    {
-     "verset": "Ac 16:31-34"
-    }
-   ]
-  },
-  {
-   "numero": "8",
-   "titre": "Conclusion",
-   "references": [
-    "Rm 10:14"
-   ],
-   "blocs": [
-    {
-     "texte": "Comment croiront-ils en celui dont ils n'ont pas entendu parler ? Et comment en entendront-ils parler, s'il n'y a personne qui prêche ? Quelqu'un t'a parlé de Jésus un jour. Maintenant c'est ton tour."
-    },
-    {
-     "verset": "Rm 10:14"
-    }
-   ]
-  }
- ],
- "questions": [
-  {
-   "question": "Selon Actes 1:8, où les disciples devaient-ils d'abord témoigner ?",
-   "choix": [
-    "Aux extrémités de la terre",
-    "À Jérusalem, c'est-à-dire chez eux",
-    "Seulement à Rome"
-   ],
-   "reponse": 1,
-   "explication": "(Actes 1:8)",
-   "section": "1"
-  },
-  {
-   "question": "Qu'ont demandé les apôtres quand ils ont été menacés ?",
-   "choix": [
-    "Que les menaces cessent",
-    "D'annoncer la Parole avec pleine assurance",
-    "De pouvoir fuir"
-   ],
-   "reponse": 1,
-   "explication": "(Actes 4:29)",
-   "section": "2"
-  },
-  {
-   "question": "Qu'a dit Jésus dans le grand ordre missionnaire ?",
-   "choix": [
-    "Faites des décisions",
-    "Faites des disciples et enseignez-leur",
-    "Construisez des églises"
-   ],
-   "reponse": 1,
-   "explication": "(Matthieu 28:19-20)",
-   "section": "5"
-  },
-  {
-   "question": "Qu'a dit la petite fille captive à sa maîtresse ?",
-   "choix": [
-    "Rien",
-    "Que le prophète de Samarie pourrait guérir Naaman",
-    "Qu'elle voulait rentrer chez elle"
-   ],
-   "reponse": 1,
-   "explication": "(2 Rois 5:3)",
-   "section": "5"
-  },
-  {
-   "question": "Qui a porté l'Évangile plus loin après la mort d'Étienne ?",
-   "choix": [
-    "Seulement les apôtres",
-    "Les chrétiens dispersés par la persécution",
-    "Les pharisiens"
-   ],
-   "reponse": 1,
-   "explication": "(Actes 8:4)",
-   "section": "5"
-  },
-  {
-   "question": "Comment un mari non croyant peut-il être gagné selon 1 Pierre 3:1 ?",
-   "choix": [
-    "Par des disputes",
-    "Par la conduite de sa femme",
-    "Par la menace"
-   ],
-   "reponse": 1,
-   "explication": "(1 Pierre 3:1)",
-   "section": "6"
-  }
- ],
- "devoir": [
-  "Écris les noms de cinq personnes de ton entourage qui ne connaissent pas Jésus. Prie pour elles chaque jour.",
-  "Exerce-toi à présenter l'Évangile en deux minutes devant un frère ou une sœur.",
-  "Cette semaine, parle de Jésus à au moins une de ces cinq personnes."
- ],
- "prieres_liees": [
-  "theme:priere-temoigner",
-  "theme:priere-ames"
- ],
- "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-14",
- "relu": false
+  ],
+  "devoir": [
+    "Écris les noms de cinq personnes de ton entourage qui ne connaissent pas Jésus. Prie pour elles chaque jour.",
+    "Exerce-toi à présenter l'Évangile en deux minutes devant un frère ou une sœur.",
+    "Cette semaine, parle de Jésus à au moins une de ces cinq personnes."
+  ],
+  "prieres_liees": [
+    "theme:priere-temoigner",
+    "theme:priere-ames"
+  ],
+  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-14",
+  "relu": false
 }
