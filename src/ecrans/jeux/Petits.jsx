@@ -8,10 +8,10 @@ const dire = (t, id = 'petits') => lireAVoixHaute(id, [{ texte: t }]);
 const J = '/assets/jeux/personnage-', O = '/assets/objets-bibliques/', L = '/assets/lieux-bibliques/', S = '/assets/scenes-bibliques/';
 
 export const ALPHABET = [
-  ['A', 'Abraham', J + 'abraham.webp'], ['B', 'Brebis', S + 'brebis-perdue.webp'], ['C', 'Colombe', O + 'colombe.webp'], ['D', 'Daniel', J + 'daniel.webp'],
-  ['E', 'Esther', J + 'esther.webp'], ['F', 'Feu', '🔥'], ['G', 'Grotte', L + 'grotte.webp'], ['H', 'Harpe', '🎶'], ['I', 'Île', '🏝️'],
-  ['J', 'Joseph', J + 'joseph.webp'], ['K', 'Kérith, le torrent', L + 'riviere.webp'], ['L', 'Lampe', O + 'lampe-a-huile.webp'], ['M', 'Moïse', J + 'moise.webp'],
-  ['N', 'Noé', '🚢'], ['O', 'Olivier', L + 'oliveraie.webp'], ['P', 'Paul', J + 'paul.webp'], ['Q', 'Quarante jours au désert', '🏜️'], ['R', 'Ruth', J + 'ruth.webp'],
+  ['A', 'Abraham', J + 'abraham-sans-nom.webp'], ['B', 'Brebis', S + 'brebis-perdue.webp'], ['C', 'Colombe', O + 'colombe.webp'], ['D', 'Daniel', J + 'daniel-sans-nom.webp'],
+  ['E', 'Esther', J + 'esther-sans-nom.webp'], ['F', 'Feu', '🔥'], ['G', 'Grotte', L + 'grotte.webp'], ['H', 'Harpe', '🎶'], ['I', 'Île', '🏝️'],
+  ['J', 'Joseph', J + 'joseph-sans-nom.webp'], ['K', 'Kérith, le torrent', L + 'riviere.webp'], ['L', 'Lampe', O + 'lampe-a-huile.webp'], ['M', 'Moïse', J + 'moise-sans-nom.webp'],
+  ['N', 'Noé', '🚢'], ['O', 'Olivier', L + 'oliveraie.webp'], ['P', 'Paul', J + 'paul-sans-nom.webp'], ['Q', 'Quarante jours au désert', '🏜️'], ['R', 'Ruth', J + 'ruth-sans-nom.webp'],
   ['S', 'Shofar', O + 'shofar.webp'], ['T', 'Temple', L + 'temple.webp'], ['U', 'Ur, la ville d\'Abraham', L + 'ruines-antiques.webp'], ['V', 'Vigne', O + 'pain-et-raisin.webp'],
   ['W', 'Wagon', '🚃'], ['X', 'Xerxès, le roi', '/assets/personnages/roi-biblique.webp'], ['Y', 'Yeshoua, c\'est Jésus', S + 'jesus-ressuscite-et-disciples.webp'], ['Z', 'Zachée', '🌳'],
 ];

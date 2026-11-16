@@ -5,7 +5,7 @@
   {
    "id": "moise",
    "nom": "Moïse",
-   "image": "/assets/jeux/personnage-moise.webp",
+   "image": "/assets/jeux/personnage-moise-sans-nom.webp",
    "indices": [
     {
      "texte": "J'ai été sauvé des eaux quand j'étais bébé, et la fille de Pharaon m'a adopté.",
@@ -32,7 +32,7 @@
   {
    "id": "abraham",
    "nom": "Abraham",
-   "image": "/assets/jeux/personnage-abraham.webp",
+   "image": "/assets/jeux/personnage-abraham-sans-nom.webp",
    "indices": [
     {
      "texte": "Dieu m'a demandé de quitter mon pays et ma famille.",
@@ -59,7 +59,7 @@
   {
    "id": "david",
    "nom": "David",
-   "image": "/assets/jeux/personnage-david.webp",
+   "image": "/assets/jeux/personnage-david-sans-nom.webp",
    "indices": [
     {
      "texte": "Je gardais les brebis de mon père.",
@@ -86,7 +86,7 @@
   {
    "id": "daniel",
    "nom": "Daniel",
-   "image": "/assets/jeux/personnage-daniel.webp",
+   "image": "/assets/jeux/personnage-daniel-sans-nom.webp",
    "indices": [
     {
      "texte": "J'ai été emmené captif à Babylone quand j'étais jeune.",
@@ -113,7 +113,7 @@
   {
    "id": "esther",
    "nom": "Esther",
-   "image": "/assets/jeux/personnage-esther.webp",
+   "image": "/assets/jeux/personnage-esther-sans-nom.webp",
    "indices": [
     {
      "texte": "J'ai été élevée par mon cousin Mardochée.",
@@ -140,7 +140,7 @@
   {
    "id": "joseph",
    "nom": "Joseph",
-   "image": "/assets/jeux/personnage-joseph.webp",
+   "image": "/assets/jeux/personnage-joseph-sans-nom.webp",
    "indices": [
     {
      "texte": "Mon père m'aimait et m'a fait une tunique de plusieurs couleurs.",
@@ -167,7 +167,7 @@
   {
    "id": "ruth",
    "nom": "Ruth",
-   "image": "/assets/jeux/personnage-ruth.webp",
+   "image": "/assets/jeux/personnage-ruth-sans-nom.webp",
    "indices": [
     {
      "texte": "Je suis moabite, et j'ai épousé un fils d'une famille de Bethléhem.",
@@ -194,7 +194,7 @@
   {
    "id": "paul",
    "nom": "Paul",
-   "image": "/assets/jeux/personnage-paul.webp",
+   "image": "/assets/jeux/personnage-paul-sans-nom.webp",
    "indices": [
     {
      "texte": "Je ravageais l'Église et je jetais les croyants en prison.",
