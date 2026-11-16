@@ -1,41 +1,222 @@
 {
  "id": "decouvrir-jesus-02",
  "jour": 2,
- "titre": "D'où vient le mal dans le monde ?",
  "image": "/assets/paysages/coucher-soleil-montagnes.webp",
+ "auteur": "Équipe Yeshaya",
+ "autorisation": "oui",
+ "date_ajout": "2026-11-14",
+ "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
+ "titre": "D'où vient le mal dans le monde ?",
+ "objectifs": [
+  "Ce que veut dire être créé à l'image de Dieu",
+  "Pourquoi Dieu a donné un commandement en Éden",
+  "Qui est le tentateur et comment il agit",
+  "Ce qui s'est passé lors de la chute, et ses conséquences",
+  "Pourquoi il y a tant de souffrance, et ce que la Bible répond",
+  "La première promesse d'un Sauveur"
+ ],
+ "introduction": [
+  "Il suffit d'allumer la radio ou de marcher dans un quartier pour voir le mal : la guerre, la maladie, la corruption, les enfants abandonnés, les familles déchirées, la mort. Beaucoup se posent la question : si Dieu est bon et tout-puissant, pourquoi le monde est-il dans cet état ? Est-ce Dieu qui a fait le mal ? Est-ce le destin ? Est-ce toujours la faute des sorciers ?",
+  "La Bible répond à cette question dès ses premières pages, dans le livre de la Genèse. Elle ne raconte pas un conte pour enfants : elle explique la racine du problème de l'humanité. Si on ne comprend pas d'où vient le mal, on ne comprendra jamais pourquoi Jésus est venu. Dans cette leçon, lis avec ta Bible ouverte les chapitres 1 à 3 de la Genèse."
+ ],
  "sections": [
   {
-   "titre": "Créés par Dieu et pour Dieu",
+   "titre": "Créés à l'image de Dieu",
    "texte": [
-    "Au commencement, Dieu créa l'homme à son image : homme et femme, il les créa (Genèse 1:27). Être à l'image de Dieu, c'est avoir une valeur immense. Tu n'es pas un animal évolué ni un accident : tu as été voulu, pensé et façonné par Dieu.",
-    "Et quand Dieu a regardé tout ce qu'il avait fait, voici, cela était très bon (Genèse 1:31). Il n'y avait ni maladie, ni mort, ni haine. L'homme vivait dans la communion avec Dieu, dans un jardin préparé pour lui. Il était fait pour connaître Dieu, l'aimer, lui obéir et vivre avec lui pour toujours."
+    "### Tout était très bon",
+    "Quand Dieu a créé le monde, il n'a pas créé le mal. Après chaque jour de la création, la Bible répète : Dieu vit que cela était bon. Et à la fin, quand il a créé l'homme, elle dit : Dieu vit tout ce qu'il avait fait et voici, cela était très bon (Genèse 1:31). Il n'y avait ni maladie, ni mort, ni haine, ni injustice. Le mal n'était pas dans le plan de départ de Dieu.",
+    "### L'homme, le chef-d'œuvre de la création",
+    "> Gn 1:26-27",
+    "Parmi toutes les créatures, une seule a été faite à l'image de Dieu : l'être humain. Cela ne veut pas dire que nous ressemblons à Dieu par notre corps, car Dieu est Esprit. Cela veut dire que l'homme peut penser, aimer, choisir, parler, créer, connaître Dieu et entrer en relation avec lui. Les animaux ne prient pas ; l'homme, lui, a été créé pour connaître son Créateur.",
+    "### Homme et femme, avec la même valeur",
+    "Le texte précise : il créa l'homme et la femme. Les deux sont à l'image de Dieu, les deux ont la même dignité. Dans beaucoup de cultures, on traite la femme comme inférieure, ou l'enfant handicapé comme une malédiction, ou l'albinos comme un objet. La Bible dit le contraire : chaque être humain, quel que soit son sexe, sa tribu, sa couleur ou son état, porte l'image de Dieu. C'est la base du respect de toute vie humaine.",
+    "### Une mission",
+    "Dieu a aussi donné une mission à l'homme : remplir la terre, la cultiver et la garder (Genèse 1:28 ; 2:15). Le travail n'est pas une punition : c'était déjà le plan de Dieu avant le péché. L'homme devait gouverner la création comme un bon intendant, au nom de Dieu."
    ]
   },
   {
-   "titre": "Le choix de désobéir",
+   "titre": "Le jardin et le commandement",
    "texte": [
-    "Dieu a donné à l'homme une liberté réelle. Il lui a dit : tu pourras manger de tous les arbres du jardin ; mais tu ne mangeras pas de l'arbre de la connaissance du bien et du mal, car le jour où tu en mangeras, tu mourras (Genèse 2:16-17). Ce commandement était simple. Il demandait seulement à l'homme de faire confiance à Dieu.",
-    "Mais le serpent, le diable, est venu semer le doute : « Dieu a-t-il réellement dit ? Vous ne mourrez point ; vous serez comme des dieux. » Et l'homme a choisi de croire le mensonge plutôt que Dieu. Il a désobéi. Ce n'était pas un petit fruit : c'était une révolte. L'homme a voulu décider lui-même du bien et du mal, sans Dieu.",
-    "C'est encore le cœur du péché aujourd'hui : vivre comme si Dieu n'avait rien à nous dire, faire ce que nous voulons, et nous mettre nous-mêmes à la place de Dieu."
+    "### Une liberté immense",
+    "Dieu a placé l'homme dans un jardin magnifique, en Éden. Il lui a dit : tu pourras manger de tous les arbres du jardin.",
+    "> Gn 2:15-17",
+    "Remarque que la permission vient d'abord : de tous les arbres. Une seule limite : l'arbre de la connaissance du bien et du mal. Dieu n'est pas un maître qui interdit tout. Il donne beaucoup, et il pose une limite pour notre bien.",
+    "### Pourquoi un arbre interdit ?",
+    "On demande souvent : pourquoi Dieu a-t-il mis cet arbre ? Pour que l'homme puisse aimer librement. Un robot obéit parce qu'il est programmé. Un enfant aime son père parce qu'il le choisit. Dieu ne voulait pas des robots, mais des fils et des filles qui lui font confiance. L'arbre était le lieu où l'homme pouvait dire : je te fais confiance, Seigneur, même si je ne comprends pas tout.",
+    "### Le bien et le mal décidés par qui ?",
+    "« Connaître le bien et le mal », dans la Bible, veut dire aussi : décider soi-même ce qui est bien et mal. L'homme pouvait laisser Dieu définir le bien, ou prendre la place de Dieu et décider seul. Tout le drame de l'humanité est là."
    ]
   },
   {
-   "titre": "Les conséquences",
+   "titre": "Le tentateur",
    "texte": [
-    "La mort est entrée dans le monde. La Bible dit : par un seul homme le péché est entré dans le monde, et par le péché la mort, et ainsi la mort s'est étendue sur tous les hommes, parce que tous ont péché (Romains 5:12). La mort spirituelle d'abord : l'homme a été séparé de Dieu et chassé du jardin. Puis la mort physique, la maladie, la souffrance.",
-    "Et depuis, chaque être humain naît avec cette nature tournée vers le mal. Nous étions tous errants comme des brebis, chacun suivait sa propre voie (Ésaïe 53:6). Le mal que tu vois dans le monde, tu le trouves aussi dans ton propre cœur : l'égoïsme, la colère, le mensonge, la convoitise.",
-    "Mais le même verset d'Ésaïe ajoute une promesse : l'Éternel a fait retomber sur lui l'iniquité de nous tous. Dès la chute, Dieu avait déjà prévu un Sauveur."
+    "### Un serpent qui parle",
+    "> Gn 3:1-5",
+    "Le serpent n'était pas un simple animal. Le dernier livre de la Bible l'appelle le grand dragon, le serpent ancien, appelé le diable et Satan, celui qui séduit toute la terre (Apocalypse 12:9). Il y avait donc, avant la chute de l'homme, une autre rébellion : celle d'un ange qui s'est élevé contre Dieu par orgueil, et qui a entraîné d'autres anges avec lui. Jésus dit de lui qu'il a été meurtrier dès le commencement, et qu'il est menteur et le père du mensonge (Jean 8:44).",
+    "### Sa méthode : faire douter de Dieu",
+    "Écoute bien sa première phrase : Dieu a-t-il réellement dit : vous ne mangerez pas de tous les arbres du jardin ? Il ne commence pas par dire : désobéis. Il commence par une question qui fait douter de la Parole de Dieu. Et il déforme cette Parole : Dieu avait dit « de tous les arbres, sauf un » ; le serpent dit « pas de tous les arbres », comme si Dieu était avare.",
+    "Puis il contredit directement Dieu : vous ne mourrez point. Enfin, il accuse Dieu de mauvaises intentions : Dieu sait que le jour où vous en mangerez, vos yeux s'ouvriront, et que vous serez comme des dieux. Autrement dit : Dieu vous cache quelque chose de bon, il ne veut pas votre bonheur.",
+    "### La même méthode aujourd'hui",
+    "Le diable n'a pas changé de méthode. Il dit encore : est-ce vraiment Dieu qui a dit que le sexe hors mariage est mal ? La Bible, c'est vieux. Tu ne vas pas mourir pour un petit mensonge. Dieu veut t'empêcher de profiter de la vie. Chaque tentation commence par un doute sur la bonté de Dieu et sur la vérité de sa Parole."
+   ]
+  },
+  {
+   "titre": "La chute",
+   "texte": [
+    "### Ce que la femme a vu",
+    "> Gn 3:6-7",
+    "La femme vit que l'arbre était bon à manger, agréable à la vue, et précieux pour ouvrir l'intelligence. Trois attraits : le plaisir du corps, le plaisir des yeux, et l'orgueil de devenir plus grand. L'apôtre Jean décrit exactement les mêmes trois portes du péché : la convoitise de la chair, la convoitise des yeux, et l'orgueil de la vie (1 Jean 2:16).",
+    "### Elle prit, elle mangea, elle donna",
+    "Elle prit de son fruit, et en mangea ; elle en donna aussi à son mari, qui était auprès d'elle, et il en mangea. Remarque qu'Adam était là. Il n'a rien dit, il n'a pas protégé sa femme, il n'a pas rappelé la Parole de Dieu. Et c'est à lui que Dieu avait donné le commandement. C'est pourquoi la Bible dit que le péché est entré dans le monde par un seul homme (Romains 5:12).",
+    "### Des yeux ouverts sur la honte",
+    "Le serpent avait promis : vos yeux s'ouvriront. C'est vrai, leurs yeux se sont ouverts. Mais ils n'ont pas vu la gloire de Dieu : ils ont vu leur nudité et ils ont eu honte. Le péché promet toujours plus qu'il ne donne. Il promet la liberté, et il donne la honte. Il promet le plaisir, et il laisse le vide."
+   ]
+  },
+  {
+   "titre": "Se cacher et accuser",
+   "texte": [
+    "### La peur entre dans le cœur",
+    "> Gn 3:8-10",
+    "Au moment où Dieu venait dans le jardin, comme il le faisait sans doute souvent pour parler avec eux, l'homme et sa femme se cachèrent au milieu des arbres. Avant, ils couraient vers Dieu. Maintenant, ils fuyaient sa présence. Le péché a mis la peur à la place de l'amitié.",
+    "### Où es-tu ?",
+    "Et Dieu appela l'homme : où es-tu ? Dieu savait très bien où il était. Mais par cette question, il invitait Adam à sortir, à reconnaître sa faute. C'est la première fois que Dieu cherche l'homme perdu. Toute la suite de la Bible sera l'histoire de ce Dieu qui cherche.",
+    "### Ce n'est pas moi",
+    "Quand Dieu demanda : as-tu mangé de l'arbre ? Adam répondit : la femme que tu as mise auprès de moi m'a donné de l'arbre, et j'en ai mangé. Il accuse sa femme, et même Dieu : la femme que tu m'as donnée. La femme, à son tour, accuse le serpent (Genèse 3:12-13).",
+    "Personne ne dit simplement : j'ai péché. C'est encore ainsi aujourd'hui. On accuse ses parents, sa femme, son mari, son patron, la société, le diable, les sorciers. Mais le premier pas vers la guérison, c'est de dire comme le fils prodigue : j'ai péché."
+   ]
+  },
+  {
+   "titre": "Les conséquences du péché",
+   "texte": [
+    "### La mort",
+    "Dieu avait dit : le jour où tu en mangeras, tu mourras. Adam n'est pas tombé mort tout de suite, mais à ce moment-là, la mort est entrée dans sa vie. D'abord une mort spirituelle : la relation avec Dieu a été brisée. Ensuite une mort physique : son corps a commencé à vieillir, et un jour il est retourné à la poussière (Genèse 3:19). Paul résume : par un seul homme le péché est entré dans le monde, et par le péché la mort, et ainsi la mort s'est étendue sur tous les hommes, parce que tous ont péché (Romains 5:12).",
+    "### Des relations blessées",
+    "Le péché a blessé toutes les relations. Entre l'homme et Dieu : la peur et la séparation. Entre l'homme et la femme : l'accusation, la domination, les conflits (Genèse 3:16). Entre l'homme et lui-même : la honte. Entre l'homme et la création : le travail devient pénible, la terre produit des épines (Genèse 3:17-18). Et quelques pages plus loin, le premier meurtre : Caïn tue son frère Abel. Le péché n'est jamais une affaire privée : il détruit tout autour de lui.",
+    "### Chassés du jardin",
+    "> Gn 3:23-24",
+    "Dieu chassa l'homme du jardin d'Éden, et plaça des chérubins pour garder le chemin de l'arbre de vie. Ce n'était pas seulement une punition, c'était aussi une protection : l'homme ne devait pas vivre éternellement dans son état de péché. Mais depuis ce jour, l'humanité vit loin du jardin, et cherche le chemin du retour.",
+    "### Une création qui gémit",
+    "Paul explique que toute la création a été atteinte : la création a été soumise à la vanité, et jusqu'à ce jour elle soupire et souffre les douleurs de l'enfantement (Romains 8:20-22). Les maladies, les catastrophes naturelles, les sécheresses font partie de ce monde blessé par la chute."
+   ]
+  },
+  {
+   "titre": "Pourquoi tant de mal aujourd'hui ?",
+   "texte": [
+    "### Le mal vient du cœur de l'homme",
+    "Une grande partie du mal dans le monde vient directement des choix des hommes : la guerre, le vol, la corruption, le meurtre, l'injustice, l'adultère qui détruit les familles. Dieu n'est pas l'auteur de ce mal. C'est l'homme qui l'a choisi, et qui continue de le choisir.",
+    "### Tout malheur n'est pas une attaque de sorcier",
+    "Dans nos sociétés, quand un malheur arrive, on cherche souvent tout de suite un coupable invisible : qui m'a fait ça ? quel sorcier ? quel oncle ? Ces accusations détruisent des familles, et parfois on maltraite des vieilles femmes ou des enfants accusés de sorcellerie. Bien sûr, le monde spirituel existe, et la Bible parle de combat spirituel. Mais beaucoup de malheurs viennent simplement du fait que nous vivons dans un monde abîmé par le péché : les microbes, les accidents, la vieillesse, les mauvaises décisions.",
+    "Quand les disciples ont vu un aveugle de naissance, ils ont demandé à Jésus : qui a péché, cet homme ou ses parents ? Jésus a répondu : ce n'est pas que lui ou ses parents aient péché ; mais c'est afin que les œuvres de Dieu soient manifestées en lui (Jean 9:2-3). Jésus refuse de chercher un coupable : il cherche la gloire de Dieu.",
+    "### Pourquoi Dieu ne détruit-il pas tout le mal tout de suite ?",
+    "> 2 P 3:9",
+    "Si Dieu détruisait tout le mal aujourd'hui, il devrait détruire aussi tous les pécheurs, c'est-à-dire nous tous. Sa patience est une chance : il ne veut pas qu'aucun périsse, mais que tous arrivent à la repentance. Un jour, il jugera le monde et fera disparaître tout mal. En attendant, il nous donne le temps de revenir à lui."
+   ]
+  },
+  {
+   "titre": "La première promesse d'un Sauveur",
+   "texte": [
+    "### Au milieu du jugement, une promesse",
+    "Juste après la chute, avant même de parler des conséquences pour l'homme et la femme, Dieu prononce une parole au serpent.",
+    "> Gn 3:15",
+    "Je mettrai inimitié entre toi et la femme, entre ta postérité et sa postérité : celle-ci t'écrasera la tête, et tu lui blesseras le talon. Les chrétiens ont toujours vu dans cette parole la première annonce de Jésus. Un descendant de la femme viendrait. Le serpent le blesserait au talon, c'est-à-dire qu'il le ferait souffrir, et ce fut la croix. Mais lui, il écraserait la tête du serpent, c'est-à-dire qu'il le vaincrait définitivement, et ce fut la résurrection.",
+    "### Des vêtements de peau",
+    "> Gn 3:21",
+    "Adam et Ève avaient essayé de se couvrir avec des feuilles de figuier. Mais leurs feuilles ne suffisaient pas. Dieu leur fit des habits de peau, et les en revêtit. Pour cela, un animal a dû mourir. Dès le début, Dieu montre que le péché ne se couvre pas par nos efforts, mais par un sacrifice que lui-même prépare. Ce sera tout le message de la Bible, jusqu'à la croix.",
+    "On raconte qu'un jour, un enfant demanda à sa grand-mère pourquoi son grand frère, qui était parti en ville, ne revenait plus à la maison. Elle répondit : « Il a fait quelque chose de mal, il a eu honte, et il se cache. Mais chaque soir, je laisse la porte ouverte et une lampe allumée, au cas où il reviendrait. » C'est ainsi que Dieu a agi après la chute : il a dû fermer le jardin, mais il a laissé une lampe allumée, une promesse. Et cette lampe, c'est Jésus."
    ]
   }
  ],
+ "conclusion": [
+  "Dieu a créé un monde très bon, et l'homme à son image. Le mal est entré par la désobéissance de l'homme, poussé par le mensonge du diable. Le péché a apporté la mort, la honte, la peur, et il a blessé toutes nos relations et même la création. Mais au moment même du jugement, Dieu a promis un Sauveur qui écraserait la tête du serpent.",
+  "Dans la prochaine leçon, nous verrons que ce problème du péché ne concerne pas seulement Adam et Ève : il nous concerne tous, et il est plus profond qu'on ne le pense."
+ ],
+ "retenir": [
+  "Dieu a créé un monde très bon ; le mal n'était pas dans son plan (Genèse 1:31).",
+  "Chaque être humain, homme ou femme, est créé à l'image de Dieu et a une grande valeur.",
+  "Le diable fait douter de la Parole et de la bonté de Dieu ; c'est ainsi que commence toute tentation.",
+  "Le péché a apporté la mort, la honte, la séparation d'avec Dieu, et il a blessé toute la création (Romains 5:12).",
+  "Tout malheur n'est pas une sorcellerie : nous vivons dans un monde abîmé par le péché.",
+  "Dès la chute, Dieu a promis un Sauveur qui vaincrait le serpent (Genèse 3:15)."
+ ],
+ "memoriser": "Rm 5:12",
+ "quiz": [
+  {
+   "question": "Comment Dieu a-t-il jugé sa création à la fin du sixième jour ?",
+   "choix": [
+    "Bonne en partie",
+    "Très bonne",
+    "Pleine de dangers"
+   ],
+   "reponse": 1,
+   "explication": "Genèse 1:31. Le mal n'était pas dans le plan de Dieu.",
+   "section": "1"
+  },
+  {
+   "question": "Pourquoi Dieu a-t-il placé un arbre interdit dans le jardin ?",
+   "choix": [
+    "Pour piéger l'homme",
+    "Pour que l'homme puisse l'aimer et lui faire confiance librement",
+    "Parce que l'arbre était empoisonné"
+   ],
+   "reponse": 1,
+   "explication": "L'amour véritable suppose un choix.",
+   "section": "2"
+  },
+  {
+   "question": "Par quoi le serpent a-t-il commencé ?",
+   "choix": [
+    "Par une menace",
+    "Par une question qui faisait douter de la Parole de Dieu",
+    "Par un cadeau"
+   ],
+   "reponse": 1,
+   "explication": "« Dieu a-t-il réellement dit… ? » (Genèse 3:1).",
+   "section": "3"
+  },
+  {
+   "question": "Qu'ont fait Adam et Ève quand Dieu les a interrogés ?",
+   "choix": [
+    "Ils ont reconnu leur faute",
+    "Ils se sont accusés l'un l'autre et ont accusé le serpent",
+    "Ils se sont enfuis du jardin"
+   ],
+   "reponse": 1,
+   "explication": "Genèse 3:12-13.",
+   "section": "5"
+  },
+  {
+   "question": "Selon Jean 9:2-3, comment Jésus répond-il à la question « qui a péché ? » pour l'aveugle de naissance ?",
+   "choix": [
+    "Il accuse les parents",
+    "Il refuse de chercher un coupable et parle de la gloire de Dieu",
+    "Il accuse un sorcier"
+   ],
+   "reponse": 1,
+   "explication": "Tout malheur n'est pas la punition d'un péché précis.",
+   "section": "7"
+  },
+  {
+   "question": "Que promet Dieu en Genèse 3:15 ?",
+   "choix": [
+    "Que le serpent gagnera",
+    "Qu'un descendant de la femme écrasera la tête du serpent",
+    "Qu'il détruira l'homme"
+   ],
+   "reponse": 1,
+   "explication": "C'est la première annonce de Jésus.",
+   "section": "8"
+  }
+ ],
+ "pratique": "Cette semaine, chaque fois que tu vas accuser quelqu'un d'autre pour une faute, arrête-toi et demande-toi : quelle est ma part de responsabilité ? Si tu as fait du tort à quelqu'un, dis simplement : « j'ai mal agi, pardonne-moi ».",
+ "partage": "Demande à un chrétien mûr comment il explique la souffrance dans le monde, et comment sa foi l'a aidé dans un moment de malheur.",
  "versets": [
   "Gn 1:27",
   "Gn 1:31",
-  "Gn 2:17",
+  "Gn 3:6",
   "Rm 5:12",
-  "És 53:6"
+  "Gn 3:15"
  ],
- "question": "Reconnais-tu, dans ta propre vie, cette tendance à suivre ta voie plutôt que celle de Dieu ?",
+ "question": "Te reconnais-tu dans l'attitude d'Adam et Ève, qui se cachent et accusent les autres ? Dans quel domaine de ta vie as-tu tendance à te cacher de Dieu ?",
  "sujets": [
   {
    "titre": "La vérité sur moi-même",
@@ -46,18 +227,6 @@
    "texte": "Présente à Dieu la souffrance que tu vois autour de toi, et demande-lui d'y apporter sa lumière. (Romains 8:22)"
   }
  ],
- "priere": "Seigneur, je reconnais que, comme tout le monde, j'ai souvent préféré ma voie à la tienne. Montre-moi la vérité. Amen.",
- "auteur": "Équipe Yeshaya",
- "autorisation": "oui",
- "date_ajout": "2026-11-14",
- "relu": false,
- "inspiration": "Plan inspiré de « La vie nouvelle en Jésus-Christ, cours 1 » (ubdavid.org) ; texte original.",
- "introduction": [
-  "Si Dieu est bon et saint, pourquoi y a-t-il tant de mal dans le monde ? Pourquoi la maladie, la guerre, la sorcellerie, la trahison, la mort ? C'est la question que beaucoup se posent, et certains accusent Dieu. La Bible répond clairement : le mal ne vient pas de Dieu. Il est entré dans le monde par la désobéissance de l'homme.",
-  "Dans cette leçon, nous allons voir comment Dieu a créé l'homme, comment l'homme a choisi de désobéir, et quelles en ont été les conséquences, pour lui et pour nous."
- ],
- "conclusion": [
-  "Le mal dans le monde n'est pas la faute de Dieu : c'est le fruit de la révolte de l'homme. Mais Dieu n'a pas abandonné l'homme. Avant même de les chasser du jardin, il a revêtu Adam et Ève d'habits de peau : un animal est mort pour couvrir leur honte. C'était l'annonce du sacrifice de Jésus.",
-  "Ne mets pas toute la faute sur Adam : demande-toi plutôt comment toi aussi, tu as choisi ton propre chemin. C'est le sujet de la prochaine leçon."
- ]
+ "priere": "Seigneur, je reconnais que le mal n'est pas seulement autour de moi : il est aussi en moi. Je ne veux plus me cacher ni accuser les autres. Merci d'être le Dieu qui cherche l'homme perdu, et merci pour ta promesse d'un Sauveur. Amen.",
+ "relu": false
 }
