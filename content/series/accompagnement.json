@@ -1,0 +1,198 @@
+{
+ "id": "accompagnement",
+ "titre": "Former le chrétien",
+ "sous_titre": "Accompagner un nouveau converti, pas à pas",
+ "presentation": [
+  "Un parcours d'affermissement à faire à deux : le disciple travaille un « pas » chez lui pendant une semaine (lecture de la Bible chaque jour, questions, verset à mémoriser), puis retrouve son accompagnateur pour une rencontre d'environ deux heures.",
+  "Pendant la rencontre, ils reprennent ensemble chaque réponse, récitent les versets, prient, et l'accompagnateur remet le pas suivant. Le parcours complet dure un an et demi à deux ans.",
+  "Le pas 1 comprend un bilan de vie confidentiel, pour apporter à la croix ce qui vient de la lignée, des pratiques passées et des blessures, comme on le vit en Afrique."
+ ],
+ "source": "Méthode et plan des pas inspirés de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global). Questions, explications, bilan de vie et guides de l'accompagnateur rédigés par Yeshaya. Le manuel original est disponible gratuitement en plusieurs langues.",
+ "lien_source": "https://www.newlifediscipleship.com",
+ "volumes": [
+  {
+   "numero": 1,
+   "titre": "Volume 1 · Les pas de base",
+   "sous_titre": "Les fondements de la vie chrétienne",
+   "pas": [
+    {
+     "numero": 1,
+     "titre": "Le salut",
+     "id": "pas-01-le-salut"
+    },
+    {
+     "numero": 2,
+     "titre": "L'assurance du salut",
+     "id": "pas-02-assurance-du-salut"
+    },
+    {
+     "numero": 3,
+     "titre": "La tentation et la victoire",
+     "id": "pas-03-la-tentation"
+    },
+    {
+     "numero": 4,
+     "titre": "Christ, Seigneur de tout"
+    },
+    {
+     "numero": 5,
+     "titre": "Vivre par l'Esprit"
+    },
+    {
+     "numero": 6,
+     "titre": "Dieu me parle : la Bible"
+    },
+    {
+     "numero": 7,
+     "titre": "Je parle à Dieu : la prière"
+    },
+    {
+     "numero": 8,
+     "titre": "Mon rendez-vous quotidien avec Dieu"
+    },
+    {
+     "numero": 9,
+     "titre": "Mon église locale"
+    },
+    {
+     "numero": 10,
+     "titre": "Le témoignage"
+    },
+    {
+     "numero": 11,
+     "titre": "Le baptême et le repas du Seigneur"
+    },
+    {
+     "numero": 12,
+     "titre": "Le foyer chrétien"
+    },
+    {
+     "numero": 13,
+     "titre": "Suivre Jésus"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Volume 2 · Autres pas fondamentaux",
+   "sous_titre": "Connaître Dieu, le combat, la sainteté, l'avenir",
+   "pas": [
+    {
+     "numero": 1,
+     "titre": "Connaître Dieu"
+    },
+    {
+     "numero": 2,
+     "titre": "Christ, mon modèle"
+    },
+    {
+     "numero": 3,
+     "titre": "Appelé pour servir"
+    },
+    {
+     "numero": 4,
+     "titre": "Qui suis-je en Christ ?"
+    },
+    {
+     "numero": 5,
+     "titre": "Le combat spirituel"
+    },
+    {
+     "numero": 6,
+     "titre": "Les armes de Dieu"
+    },
+    {
+     "numero": 7,
+     "titre": "Pardonner pour être libre"
+    },
+    {
+     "numero": 8,
+     "titre": "Demander pardon et réparer"
+    },
+    {
+     "numero": 9,
+     "titre": "Appelé à être saint"
+    },
+    {
+     "numero": 10,
+     "titre": "Le chrétien et son argent"
+    },
+    {
+     "numero": 11,
+     "titre": "Permis, mais est-ce utile ?"
+    },
+    {
+     "numero": 12,
+     "titre": "Le discernement"
+    },
+    {
+     "numero": 13,
+     "titre": "Parler de Christ"
+    },
+    {
+     "numero": 14,
+     "titre": "L'avenir"
+    },
+    {
+     "numero": 15,
+     "titre": "Le retour de Jésus et l'éternité"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Volume 3 · Vivre ensemble",
+   "sous_titre": "Les relations dans le corps de Christ",
+   "pas": [
+    {
+     "numero": 1,
+     "titre": "Les uns les autres"
+    },
+    {
+     "numero": 2,
+     "titre": "S'aimer les uns les autres"
+    },
+    {
+     "numero": 3,
+     "titre": "L'amour en actes"
+    },
+    {
+     "numero": 4,
+     "titre": "S'encourager les uns les autres"
+    },
+    {
+     "numero": 5,
+     "titre": "Se servir les uns les autres"
+    },
+    {
+     "numero": 6,
+     "titre": "Se supporter les uns les autres"
+    },
+    {
+     "numero": 7,
+     "titre": "Se pardonner les uns les autres"
+    },
+    {
+     "numero": 8,
+     "titre": "S'accepter les uns les autres"
+    },
+    {
+     "numero": 9,
+     "titre": "S'exhorter les uns les autres"
+    },
+    {
+     "numero": 10,
+     "titre": "Se reprendre avec douceur"
+    },
+    {
+     "numero": 11,
+     "titre": "Se saluer et s'accueillir"
+    },
+    {
+     "numero": 12,
+     "titre": "L'hospitalité"
+    }
+   ]
+  }
+ ]
+}

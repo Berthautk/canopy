@@ -941,3 +941,72 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .par-ou__choix svg { grid-row: 1 / span 2; grid-column: 2; align-self: center; }
 .niveau-onglet__nb { font-family: var(--police-texte, inherit); font-size: .72rem; font-weight: 700; background: rgba(0,0,0,.08); border-radius: 999px; padding: 1px 7px; margin-left: 4px; vertical-align: middle; }
 .enseignement__num--lu { background: #2e7d5b; color: #fff; display: inline-grid; place-items: center; }
+
+/* ---------- Former le chrétien : accompagnement ---------- */
+.acc-roles { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
+.acc-role { display: grid; gap: 4px; padding: 14px 12px; border: 2px solid var(--or); text-align: left; }
+.acc-role svg { color: var(--or-fonce, #8a6a1c); }
+.acc-role b { font-family: var(--police-titre); color: var(--titre); }
+.acc-role span { font-size: .8rem; color: var(--texte-doux); line-height: 1.3; }
+.acc-bascule { margin-top: 12px; }
+.acc-duree { display: flex; align-items: center; gap: 6px; }
+.acc-liste { margin: 6px 0; padding-left: 20px; display: grid; gap: 6px; }
+.acc-minutes { font-family: var(--police-texte, inherit); font-size: .72rem; font-weight: 700; background: var(--or); color: #142340; border-radius: 999px; padding: 2px 8px; vertical-align: middle; }
+.acc-refs { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+.acc-lectures { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 8px; margin-top: 8px; }
+.acc-lecture { display: flex; align-items: center; gap: 8px; padding: 6px 8px; border: 1.5px solid var(--bord); border-radius: 12px; }
+.acc-lecture button { width: 30px; height: 30px; border-radius: 50%; border: 1.5px solid var(--or); background: var(--surface); color: var(--titre); font-weight: 700; display: grid; place-items: center; flex: none; }
+.acc-lecture--faite { border-color: #2e7d5b; }
+.acc-lecture--faite button { background: #2e7d5b; border-color: #2e7d5b; color: #fff; }
+.acc-lecture a { font-weight: 600; color: var(--titre); }
+.acc-question { margin-bottom: 10px; }
+.acc-question__texte { font-weight: 600; color: var(--titre); margin: 0 0 4px; }
+.acc-question .champ--zone, .acc-encadre .champ--zone { margin-top: 6px; }
+.acc-reponse-disciple { background: rgba(46,125,91,.1); border-left: 4px solid #2e7d5b; padding: 8px 10px; border-radius: 8px; margin: 8px 0; white-space: pre-wrap; }
+.acc-reponse-disciple ul { margin: 4px 0 0; padding-left: 18px; }
+.acc-attendu { background: rgba(201,154,46,.14); border-left: 4px solid var(--or); padding: 8px 10px; border-radius: 8px; margin-top: 8px; }
+.acc-attendu p, .acc-note p { margin: 4px 0 0; }
+.acc-note { padding: 8px 10px; border-radius: 8px; margin-top: 8px; background: var(--fond-doux, rgba(0,0,0,.04)); }
+.acc-note ul { margin: 4px 0 0; padding-left: 18px; display: grid; gap: 4px; }
+.acc-note--erreur { border-left: 4px solid #b3261e; }
+.acc-note--relance { border-left: 4px solid #3a6ea5; }
+.acc-vf { padding: 8px 0; border-bottom: 1px solid var(--bord); }
+.acc-vf:last-of-type { border-bottom: 0; }
+.acc-vf p { margin: 0 0 6px; }
+.acc-vf__rep { font-size: .9rem; margin-top: 6px !important; padding: 6px 8px; border-radius: 8px; background: var(--fond-doux, rgba(0,0,0,.04)); }
+.acc-vf__rep--ok { background: rgba(46,125,91,.12); }
+.acc-vf__rep--non { background: rgba(179,38,30,.1); }
+.acc-encadre { border-left: 5px solid var(--or); }
+.acc-encadre--decision { border-left-color: #2e7d5b; }
+.acc-encadre--meditation { border-left-color: #3a6ea5; }
+.acc-encadre--bilan { border: 2px solid var(--or); }
+.acc-guide { border: 2px solid #3a6ea5; }
+.acc-guide h4, .acc-axe h4 { margin: 12px 0 4px; font-family: var(--police-titre); color: var(--titre); }
+.acc-deroule { padding-left: 20px; display: grid; gap: 8px; }
+.acc-deroule ul { padding-left: 18px; margin: 4px 0 0; display: grid; gap: 3px; font-size: .92rem; }
+.acc-vigilance, .acc-confidentiel { border-left: 5px solid #b3261e; }
+.acc-actions { display: grid; gap: 8px; margin-top: 14px; }
+.acc-section summary { cursor: pointer; padding: 4px 0; font-family: var(--police-titre); color: var(--titre); }
+.acc-cases__grille { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 4px 10px; }
+.acc-cases, .acc-choix, .acc-ouinon { margin: 10px 0; }
+.acc-ouinon__ligne { padding: 8px 0; border-bottom: 1px solid var(--bord); }
+.acc-ouinon__ligne p { margin: 0 0 6px; }
+.acc-ouinon__ligne .segments { max-width: 220px; }
+.acc-ouinon__ligne .champ--zone { margin-top: 6px; }
+.acc-urgent { border: 2px solid #b3261e; background: rgba(179,38,30,.06); }
+.acc-ajout { display: flex; gap: 8px; }
+.acc-ajout .champ { flex: 1; }
+.acc-disciple__tete { width: 100%; display: flex; align-items: center; gap: 8px; text-align: left; background: none; border: 0; color: inherit; padding: 0; }
+.acc-disciple__tete .ligne__corps { display: grid; gap: 2px; }
+.acc-disciple__corps { display: grid; gap: 6px; margin-top: 10px; }
+.acc-imprime { display: none; }
+
+/* Impression : la fiche seule, avec des lignes pour écrire à la main */
+@media print {
+  .entete, .onglets, .bandeau-installer, .mini-lecteur, .acc-bascule, .acc-actions, .source-mention a, .acc-encadre--bilan .bouton { display: none !important; }
+  body, .page { background: #fff !important; color: #000 !important; }
+  .carte { box-shadow: none !important; border: 1px solid #999 !important; break-inside: avoid; }
+  .acc-pas:not(.acc-pas--acc) .champ--zone { display: none; }
+  .acc-pas:not(.acc-pas--acc) .acc-imprime { display: block; height: 70px; background: repeating-linear-gradient(transparent 0 22px, #bbb 22px 23px); }
+  a { color: #000 !important; text-decoration: none !important; }
+}

@@ -1,0 +1,410 @@
+{
+ "id": "pas-03-la-tentation",
+ "volume": 1,
+ "numero": 3,
+ "titre": "La tentation et la victoire",
+ "sous_titre": "Comprendre la tentation, connaître ses portes, et vaincre",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "affermissement-3-la-tentation",
+ "verset_memoire": "1 Corinthiens 10:13",
+ "lecture": {
+  "titre": "Cette semaine, lis Jean 15 à 21, un chapitre par jour",
+  "conseil": "Note ce que Jésus dit de ses disciples face au monde.",
+  "jours": [
+   "Jean 15",
+   "Jean 16",
+   "Jean 17",
+   "Jean 18",
+   "Jean 19",
+   "Jean 20",
+   "Jean 21"
+  ]
+ },
+ "introduction": [
+  "Être sauvé ne veut pas dire ne plus être tenté. Jésus lui-même a été tenté. Mais tu n'es plus un esclave sans défense : tu as reçu des armes.",
+  "Cette semaine, tu vas apprendre d'où vient la tentation, comment elle fonctionne, quelles sont tes portes d'entrée personnelles, et comment Dieu donne la victoire. Sois honnête : le combat se gagne mieux quand on connaît ses points faibles."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Être tenté, c'est déjà pécher.",
+       "reponse": false,
+       "explication": "Jésus a été tenté en tout point, sans commettre de péché (Hébreux 4:15). Le péché commence quand on accueille et qu'on consent."
+      },
+      {
+       "id": "vf2",
+       "texte": "Dieu tente parfois les hommes pour les faire tomber.",
+       "reponse": false,
+       "explication": "Jacques 1:13 : Dieu ne tente personne. Il éprouve pour fortifier ; le diable tente pour faire tomber."
+      },
+      {
+       "id": "vf3",
+       "texte": "Il existe toujours une issue dans la tentation.",
+       "reponse": true,
+       "explication": "1 Corinthiens 10:13."
+      },
+      {
+       "id": "vf4",
+       "texte": "Un chrétien solide n'a pas besoin de fuir : il peut rester près de la tentation.",
+       "reponse": false,
+       "explication": "2 Timothée 2:22 : « Fuis les passions de la jeunesse. » Joseph a fui (Genèse 39:12)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. D'où vient la tentation ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Jacques 1:13-15. D'où vient la tentation ? Décris les étapes jusqu'à la mort.",
+     "refs": [
+      "Jacques 1:13-15"
+     ],
+     "accompagnateur": {
+      "attendu": "Chacun est tenté par sa propre convoitise qui l'attire et l'amorce ; la convoitise conçoit et enfante le péché ; le péché consommé produit la mort.",
+      "expliquer": [
+       "Image de la pêche : l'appât cache l'hameçon.",
+       "Il y a un moment où l'on peut encore dire non : avant que la convoitise « conçoive ». Plus on attend, plus c'est difficile."
+      ],
+      "erreurs": [
+       "Accuser uniquement le diable (« c'est Satan qui m'a fait faire ») et oublier sa propre responsabilité."
+      ],
+      "relance": "Dans ta dernière chute, à quel moment aurais-tu pu dire non ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "D'après 1 Jean 2:15-17, quelles sont les trois grandes portes de la tentation ?",
+     "refs": [
+      "1 Jean 2:15-17"
+     ],
+     "accompagnateur": {
+      "attendu": "La convoitise de la chair, la convoitise des yeux, l'orgueil de la vie.",
+      "expliquer": [
+       "Ce sont les trois portes utilisées en Éden (Genèse 3:6) et contre Jésus au désert (Matthieu 4).",
+       "Exemples d'aujourd'hui : chair (impudicité, alcool, gourmandise), yeux (pornographie, envie, argent facile, « feymania »), orgueil (paraître, réussir à tout prix, recourir au marabout pour réussir)."
+      ],
+      "relance": "Laquelle des trois portes est la plus ouverte chez toi ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis 1 Pierre 5:8-9. Comment est décrit le diable ? Que devons-nous faire ?",
+     "refs": [
+      "1 Pierre 5:8-9"
+     ],
+     "accompagnateur": {
+      "attendu": "Comme un lion rugissant qui cherche qui il dévorera. Être sobres, veiller, lui résister avec une foi ferme.",
+      "expliquer": [
+       "Le lion attaque l'animal isolé et fatigué : d'où l'importance de la communion fraternelle et du repos."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "D'après Éphésiens 4:26-27, comment pouvons-nous « donner accès » au diable ?",
+     "refs": [
+      "Éphésiens 4:26-27"
+     ],
+     "accompagnateur": {
+      "attendu": "En gardant la colère, en laissant le soleil se coucher sur notre colère.",
+      "expliquer": [
+       "La colère gardée, l'amertume, le manque de pardon, les objets occultes gardés, les pactes non rejetés, les fréquentations : autant de portes ouvertes. On revoit ici le bilan de vie."
+      ],
+      "relance": "Y a-t-il une porte que tu laisses encore ouverte ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Jésus a vaincu la tentation",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Matthieu 4:1-11. Quelles étaient les trois tentations de Jésus ? Comment a-t-il répondu chaque fois ?",
+     "refs": [
+      "Matthieu 4:1-11"
+     ],
+     "accompagnateur": {
+      "attendu": "Changer les pierres en pain, se jeter du haut du temple, adorer Satan pour recevoir les royaumes. Chaque fois, il a répondu : « Il est écrit », en citant la Parole (Deutéronome).",
+      "expliquer": [
+       "Jésus n'a pas discuté avec le diable ; il a cité la Parole.",
+       "Le diable aussi cite la Bible (v. 6), mais en la tordant : il faut connaître toute la Parole."
+      ],
+      "relance": "Quel verset pourrais-tu répondre à ta tentation la plus fréquente ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "D'après Hébreux 2:18 et 4:15-16, en quoi Jésus peut-il nous aider ?",
+     "refs": [
+      "Hébreux 2:18",
+      "Hébreux 4:15-16"
+     ],
+     "accompagnateur": {
+      "attendu": "Ayant été tenté lui-même, il peut secourir ceux qui sont tentés ; il compatit à nos faiblesses ; nous pouvons nous approcher avec assurance du trône de la grâce pour être secourus au bon moment.",
+      "expliquer": [
+       "Dans la tentation, le premier réflexe est de courir vers Jésus, pas de se cacher de lui."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Les armes de la victoire",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Lis 1 Corinthiens 10:13. Quelles sont les quatre vérités de ce verset ?",
+     "refs": [
+      "1 Corinthiens 10:13"
+     ],
+     "accompagnateur": {
+      "attendu": "1) Ta tentation est humaine, d'autres l'ont connue ; 2) Dieu est fidèle ; 3) il ne permet pas que tu sois tenté au-delà de tes forces ; 4) il prépare le moyen d'en sortir.",
+      "expliquer": [
+       "L'issue est souvent très simple : partir, éteindre le téléphone, appeler un frère, refuser le premier verre."
+      ],
+      "relance": "Quelle est ton « issue » habituelle ? Laquelle pourrais-tu préparer à l'avance ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "D'après le Psaume 119:9-11, comment un jeune homme rendra-t-il pur son sentier ?",
+     "refs": [
+      "Psaume 119:9-11"
+     ],
+     "accompagnateur": {
+      "attendu": "En se dirigeant d'après la Parole ; en serrant la Parole dans son cœur pour ne pas pécher.",
+      "expliquer": [
+       "C'est pourquoi on mémorise des versets : on ne peut pas sortir la Bible au moment de l'attaque, mais on peut sortir le verset du cœur."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q9",
+     "texte": "Lis Jacques 4:7-8. Quel est l'ordre des actions ? Que promet Dieu ?",
+     "refs": [
+      "Jacques 4:7-8"
+     ],
+     "accompagnateur": {
+      "attendu": "D'abord se soumettre à Dieu, ensuite résister au diable : il fuira. S'approcher de Dieu : il s'approchera.",
+      "expliquer": [
+       "On ne peut pas résister au diable sans s'être soumis à Dieu : résister en gardant un péché caché ne marche pas."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q10",
+     "texte": "D'après 2 Timothée 2:22 et Genèse 39:7-12, que faut-il faire face à certaines tentations ?",
+     "refs": [
+      "2 Timothée 2:22",
+      "Genèse 39:7-12"
+     ],
+     "accompagnateur": {
+      "attendu": "Fuir. Joseph a fui en laissant son vêtement.",
+      "expliquer": [
+       "Certaines tentations se combattent en résistant ; d'autres (sexuelles surtout) se combattent en fuyant.",
+       "Joseph a dit : « Comment pourrais-je pécher contre Dieu ? » (v. 9) : sa force venait de sa relation avec Dieu."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q11",
+     "texte": "Lis Matthieu 26:41 et Ecclésiaste 4:9-12. Quelles autres armes trouves-tu ?",
+     "refs": [
+      "Matthieu 26:41",
+      "Ecclésiaste 4:9-12"
+     ],
+     "accompagnateur": {
+      "attendu": "Veiller et prier ; ne pas rester seul : deux valent mieux qu'un, la corde à trois brins ne se rompt pas facilement.",
+      "expliquer": [
+       "Un partenaire de redevabilité (même sexe) qu'on peut appeler au moment de la tentation."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q12",
+     "texte": "D'après Romains 13:14 et Proverbes 4:23, que pouvons-nous faire AVANT la tentation ?",
+     "refs": [
+      "Romains 13:14",
+      "Proverbes 4:23"
+     ],
+     "accompagnateur": {
+      "attendu": "Ne pas avoir soin de la chair pour en satisfaire les convoitises (ne pas préparer les occasions) ; garder son cœur plus que toute autre chose.",
+      "expliquer": [
+       "Concrètement : supprimer certains contacts, certaines applications, certains lieux ; mettre des filtres ; ne pas rester seul à seul dans une chambre avec son ami(e)."
+      ],
+      "relance": "Quelle occasion vas-tu supprimer cette semaine ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Si je tombe",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q13",
+     "texte": "Lis Proverbes 24:16 et Michée 7:8. Que fait le juste quand il tombe ?",
+     "refs": [
+      "Proverbes 24:16",
+      "Michée 7:8"
+     ],
+     "accompagnateur": {
+      "attendu": "Il tombe sept fois et se relève. « Si je suis tombé, je me relève. »",
+      "expliquer": [
+       "La différence entre un juste et un méchant n'est pas qu'il ne tombe jamais, c'est qu'il se relève."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q14",
+     "texte": "Compare Pierre (Luc 22:61-62 ; Jean 21:15-17) et Judas (Matthieu 27:3-5). Qu'est-ce qui les sépare ?",
+     "refs": [
+      "Luc 22:61-62",
+      "Jean 21:15-17",
+      "Matthieu 27:3-5"
+     ],
+     "accompagnateur": {
+      "attendu": "Les deux ont gravement péché. Pierre a pleuré, est revenu et a été restauré ; Judas a eu des remords mais n'est pas revenu à Jésus, et s'est détruit.",
+      "expliquer": [
+       "La tristesse selon Dieu produit la repentance et la vie ; la tristesse du monde produit la mort (2 Corinthiens 7:10).",
+       "Si la personne a des pensées de mort après ses chutes, en parler immédiatement."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan de victoire",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mes portes et mes issues",
+     "texte": [
+      "1. Ma tentation la plus fréquente :",
+      "2. Quand et où elle vient le plus souvent :",
+      "3. Ce qui la prépare (fatigue, solitude, téléphone, certaines personnes) :",
+      "4. Mon verset pour répondre :",
+      "5. Mon issue préparée à l'avance :",
+      "6. La personne que je peux appeler :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-victoire"
+    },
+    {
+     "type": "question",
+     "id": "q15",
+     "texte": "Écris 1 Corinthiens 10:13 de mémoire.",
+     "refs": [
+      "1 Corinthiens 10:13"
+     ],
+     "accompagnateur": {
+      "attendu": "« Aucune tentation ne vous est survenue qui n'ait été humaine, et Dieu, qui est fidèle, ne permettra pas que vous soyez tentés au-delà de vos forces ; mais avec la tentation il préparera aussi le moyen d'en sortir, afin que vous puissiez la supporter. »",
+      "expliquer": [
+       "Faire réciter aussi les versets des pas 1 et 2."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne le mécanisme de la tentation et ses propres portes d'entrée.",
+   "Qu'elle reparte avec un plan concret, un verset, une issue, et une personne à appeler.",
+   "Qu'elle sache se relever après une chute, sans désespoir."
+  ],
+  "preparation": [
+   "Relire tes notes des pas 1 et 2, et les points du bilan de vie liés aux dépendances, à la sexualité et aux péchés qui résistent.",
+   "Prévoir, si besoin, de présenter le parcours de 90 jours de Yeshaya (masturbation et pornographie)."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de Jean 15 à 21 : qu'a-t-elle retenu ?",
+     "Points encore ouverts des pas précédents."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "D'où vient la tentation",
+    "minutes": 25,
+    "conseils": [
+     "Questions 1 à 4. Faire identifier honnêtement la porte la plus ouverte."
+    ]
+   },
+   {
+    "titre": "Jésus vainqueur et les armes",
+    "minutes": 35,
+    "conseils": [
+     "Questions 5 à 12. Travailler les armes une à une avec des exemples de sa vie."
+    ]
+   },
+   {
+    "titre": "Si je tombe",
+    "minutes": 15,
+    "conseils": [
+     "Questions 13 et 14. Être attentif à la culpabilité excessive."
+    ]
+   },
+   {
+    "titre": "Plan de victoire",
+    "minutes": 15,
+    "conseils": [
+     "Relire ensemble son plan, l'améliorer, proposer d'être (ou de trouver) son partenaire de redevabilité.",
+     "Prier contre les tentations nommées, et pour la fermeture des portes ouvertes."
+    ]
+   },
+   {
+    "titre": "Versets et remise du pas 4",
+    "minutes": 10,
+    "conseils": [
+     "Réciter 1 Corinthiens 10:13 et les versets précédents.",
+     "Remettre le pas 4 « Jésus, Seigneur de toute ma vie » ; fixer la prochaine rencontre."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Les confessions sexuelles : écouter sans curiosité, avec un accompagnateur du même sexe.",
+   "Une tentation qui revient sans cesse malgré la prière peut avoir une racine dans le bilan de vie (pacte, objet, lien d'âme, blessure) : y revenir.",
+   "Une dépendance lourde (alcool, drogue) peut demander une aide médicale."
+  ]
+ }
+}

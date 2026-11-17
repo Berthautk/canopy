@@ -37,6 +37,7 @@ import { Approche } from './ecrans/evangeliser/Approche.jsx';
 import { Admin } from './ecrans/Admin.jsx';
 import { Equilibre, Rappels } from './ecrans/Equilibre.jsx';
 import { Formation } from './ecrans/grandir/Formation.jsx';
+import { AccompagnerAccueil, RencontreAccueil, Pas, Bilan, BilanSynthese, MesDisciples } from './ecrans/accompagner/Accompagner.jsx';
 import { Disciple, DefiJour, VersetSemaine, Temoignages, ListeCinq } from './ecrans/grandir/Disciple.jsx';
 import { OrizonAccueil, OrizonDoc, OrizonJour } from './ecrans/orizon/Orizon.jsx';
 import { suivreRubrique } from './donnees/rythme.js';
@@ -93,6 +94,7 @@ function titre([a, b, c]) {
   if (a === 'priere' && b === 'theme') return PRIERES.find((x) => x.id === c)?.nom_court ?? PRIERES.find((x) => x.id === c)?.titre ?? 'Prière';
   if (a === 'priere' && b === 'veille') return VEILLES.find((x) => x.id === 'veille-' + c)?.titre ?? 'Prier';
   if (a === 'priere' && b === 'combat') return 'Combat spirituel';
+  if (a === 'accompagner') return b === 'pas' ? (route.valeur.params?.role === 'accompagnateur' ? 'Fiche de l\'accompagnateur' : 'Mon carnet') : b === 'bilan' ? (c === 'synthese' ? 'Synthèse du bilan' : 'Mon bilan de vie') : b === 'disciples' ? 'Mes disciples' : b === 'accueil' ? 'Rencontre d\'accueil' : 'Former le chrétien';
   if (a === 'grandir' && b === 'serie') return NIVEAUX.find((x) => x.id === c)?.nom ?? 'Série';
   if (a === 'grandir' && b === 'enseignement') return ENSEIGNEMENTS.find((x) => x.id === c)?.titre ?? 'Enseignement';
   if (a === 'grandir' && b === 'nouveau-converti') return c ? `Nouveau converti : jour ${c}` : 'Parcours Nouveau converti';
@@ -118,6 +120,7 @@ function Ecran({ r }) {
   if (a === 'parametres') return <Parametres />;
   if (a === 'admin') return <Admin />;
   if (a === 'equilibre') return b === 'rappels' ? <Rappels /> : <Equilibre modifier={b === 'modifier'} />;
+  if (a === 'accompagner') return b === 'pas' ? <Pas id={c} role={r.params.role} /> : b === 'bilan' ? (c === 'synthese' ? <BilanSynthese /> : <Bilan />) : b === 'disciples' ? <MesDisciples /> : b === 'accueil' ? <RencontreAccueil /> : <AccompagnerAccueil />;
   if (a === 'disciple') return b === 'defi' ? <DefiJour id={c} /> : b === 'verset' ? <VersetSemaine /> : b === 'temoignages' ? <Temoignages /> : b === 'cinq' ? <ListeCinq /> : <Disciple />;
   if (a === 'orizon') return b === 'jour' ? <OrizonJour j={c} /> : b === 'doc' ? <OrizonDoc id={c} /> : <OrizonAccueil />;
   if (a === 'confidentialite') return <Confidentialite />;
