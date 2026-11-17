@@ -120,7 +120,7 @@ function Ecran({ r }) {
   if (a === 'parametres') return <Parametres />;
   if (a === 'admin') return <Admin />;
   if (a === 'equilibre') return b === 'rappels' ? <Rappels /> : <Equilibre modifier={b === 'modifier'} />;
-  if (a === 'accompagner') return b === 'pas' ? <Pas id={c} role={r.params.role} /> : b === 'bilan' ? (c === 'synthese' ? <BilanSynthese /> : <Bilan />) : b === 'disciples' ? <MesDisciples /> : b === 'accueil' ? <RencontreAccueil /> : <AccompagnerAccueil />;
+  if (a === 'accompagner') return b === 'pas' ? <Pas id={c} role={r.params.role} imprimer={r.params.imprimer} disciple={r.params.disciple} /> : b === 'bilan' ? (c === 'synthese' ? <BilanSynthese /> : <Bilan />) : b === 'disciples' ? <MesDisciples /> : b === 'accueil' ? <RencontreAccueil /> : <AccompagnerAccueil />;
   if (a === 'disciple') return b === 'defi' ? <DefiJour id={c} /> : b === 'verset' ? <VersetSemaine /> : b === 'temoignages' ? <Temoignages /> : b === 'cinq' ? <ListeCinq /> : <Disciple />;
   if (a === 'orizon') return b === 'jour' ? <OrizonJour j={c} /> : b === 'doc' ? <OrizonDoc id={c} /> : <OrizonAccueil />;
   if (a === 'confidentialite') return <Confidentialite />;

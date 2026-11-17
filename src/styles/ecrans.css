@@ -999,15 +999,24 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .acc-disciple__tete { width: 100%; display: flex; align-items: center; gap: 8px; text-align: left; background: none; border: 0; color: inherit; padding: 0; }
 .acc-disciple__tete .ligne__corps { display: grid; gap: 2px; }
 .acc-disciple__corps { display: grid; gap: 6px; margin-top: 10px; }
-.acc-imprime { display: none; }
+.acc-lignes, .acc-reponse-imprimee { display: none; }
+.acc-lignes--visible { display: block; height: 92px; margin-top: 6px; background: repeating-linear-gradient(transparent 0 22px, #bbb 22px 23px); }
+.acc-lignes--grand.acc-lignes--visible { height: 160px; }
+.acc-pas--vierge .acc-vf .segments button { background: transparent; }
 
-/* Impression : la fiche seule, avec des lignes pour écrire à la main */
+/* Impression : la fiche seule. Fiche vierge : des lignes pour écrire à la main ; carnet rempli : les réponses. */
 @media print {
-  .entete, .onglets, .bandeau-installer, .mini-lecteur, .acc-bascule, .acc-actions, .source-mention a, .acc-encadre--bilan .bouton { display: none !important; }
-  body, .page { background: #fff !important; color: #000 !important; }
-  .carte { box-shadow: none !important; border: 1px solid #999 !important; break-inside: avoid; }
-  .acc-pas:not(.acc-pas--acc) .champ--zone { display: none; }
-  .acc-pas:not(.acc-pas--acc) .acc-imprime { display: block; height: 70px; background: repeating-linear-gradient(transparent 0 22px, #bbb 22px 23px); }
+  @page { margin: 14mm 12mm; }
+  .entete, .onglets, .bandeau-installer, .mini-lecteur, .acc-bascule, .acc-actions, .acc-sans-impression, .maj-voile, .verset__actions, .source-mention a, .acc-encadre--bilan .bouton, .acc-lecture a::after { display: none !important; }
+  html, body, .page { background: #fff !important; color: #000 !important; }
+  .page { padding: 0 !important; max-width: none !important; }
+  .carte { box-shadow: none !important; border: 1px solid #999 !important; break-inside: auto; margin-bottom: 8px; }
+  .acc-question, .acc-vf, .acc-lecture { break-inside: avoid; }
+  h2, h3, .titre-section { break-after: avoid; }
+  .acc-pas:not(.acc-pas--acc) .champ--zone { display: none !important; }
+  .acc-pas:not(.acc-pas--acc) .acc-lignes { display: block; height: 92px; margin-top: 6px; background: repeating-linear-gradient(transparent 0 22px, #bbb 22px 23px); }
+  .acc-pas:not(.acc-pas--acc) .acc-lignes--grand { height: 160px; }
+  .acc-reponse-imprimee { display: block; white-space: pre-wrap; border-left: 3px solid #555; padding: 4px 8px; margin-top: 6px; }
   a { color: #000 !important; text-decoration: none !important; }
 }
 .suivi-carte { display: flex; align-items: center; gap: 12px; margin-top: 12px; padding: 14px 12px; background: linear-gradient(135deg, var(--bleu-nuit, #142340), #2a4a7a); color: #fff; border: 2px solid var(--or); }
@@ -1022,3 +1031,5 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .suivi-accueil__boutons { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; }
 .suivi-accueil__boutons .bouton { font-size: .85rem; padding-left: 8px; padding-right: 8px; }
 .suivi-accueil__boutons .bouton--contour { color: #fff; border-color: #fff; background: transparent; }
+.acc-reponse-disciple--vide { background: var(--fond-doux, rgba(0,0,0,.04)); border-left-color: #999; color: var(--texte-doux); }
+.acc-choix-disciple { border: 2px solid #2e7d5b; }
