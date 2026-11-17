@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'preact/hooks';
 import { Entete, BarreOnglets, Tiroir, useTiroir, Bientot } from './composants/Structure.jsx';
-import { Notification } from './composants/Notification.jsx';
+import { Notification, FenetreMiseAJour } from './composants/Notification.jsx';
 import { Demarrage } from './ecrans/Demarrage.jsx';
 import { Accueil } from './ecrans/Accueil.jsx';
 import { Parametres } from './ecrans/Parametres.jsx';
@@ -186,6 +186,7 @@ export function App() {
       <BarreOnglets actif={ONGLET_DE[r.segments[0]] ?? 'accueil'} />
       <Tiroir ouvert={tiroir.ouvert} fermer={tiroir.fermer} />
       <Notification />
+      <FenetreMiseAJour />
     </div>
   );
 }

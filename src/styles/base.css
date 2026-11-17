@@ -138,3 +138,10 @@ a { color: inherit; text-decoration: none; }
 .bandeau-installer__btn { flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 40px; font-weight: 700; font-size: .92rem; color: inherit; background: none; border: 0; }
 .bandeau-installer__fermer { width: 36px; height: 36px; display: grid; place-items: center; border-radius: 50%; color: inherit; background: none; border: 0; }
 .bandeau-installer__fermer:active, .bandeau-installer__btn:active { background: rgba(0,0,0,.08); }
+
+/* Fenêtre « Nouvelle mise à jour » */
+.maj-voile { position: fixed; inset: 0; z-index: 100; background: rgba(10,19,34,.6); display: grid; place-items: center; padding: 16px; }
+.maj-fenetre { width: min(340px, 100%); background: var(--surface, #fff); color: var(--texte); border-radius: 20px; padding: 22px 18px 16px; text-align: center; box-shadow: 0 12px 40px rgba(0,0,0,.35); border-top: 5px solid var(--or); }
+.maj-fenetre img { border-radius: 16px; margin: 0 auto 8px; display: block; }
+.maj-fenetre h2 { margin: 4px 0 6px; font-family: var(--police-titre); color: var(--titre); }
+.maj-fenetre p { margin: 0 0 14px; color: var(--texte-doux); }

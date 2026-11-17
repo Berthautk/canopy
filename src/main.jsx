@@ -1,3 +1,4 @@
+import { surveillerMisesAJour } from './outils/miseAJour.js';
 import { render } from 'preact';
 import './styles/polices.css';
 import './styles/theme.css';
@@ -43,5 +44,5 @@ render(<App />, document.getElementById('app'));
 
 // Service worker : hors ligne après la première ouverture (uniquement dans la version construite).
 if ('serviceWorker' in navigator && import.meta.env.PROD) {
-  addEventListener('load', () => navigator.serviceWorker.register('/sw.js').catch(() => {}));
+  addEventListener('load', () => surveillerMisesAJour());
 }
