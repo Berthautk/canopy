@@ -90,6 +90,7 @@ export function BarreOnglets({ actif }) {
 }
 
 const MENU = [
+  ['accompagner', 'Suivi des nouveaux convertis', 'groupe'],
   ['telechargements', 'Installer et télécharger', 'telecharger'],
   ['parametres', 'Paramètres', 'reglages'],
   ['a-propos', 'À propos de Yeshaya', 'info'],
