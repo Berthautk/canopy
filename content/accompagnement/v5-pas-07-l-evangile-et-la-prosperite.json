@@ -1,0 +1,232 @@
+{
+ "id": "v5-pas-07-l-evangile-et-la-prosperite",
+ "volume": 2,
+ "numero": 7,
+ "titre": "L'Évangile et la prospérité",
+ "sous_titre": "Dieu veut-il que tous les croyants soient riches ?",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-19-l-evangile-et-la-prosperite",
+ "verset_memoire": "Luc 12:15",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que Jésus dit des richesses.",
+  "jours": [
+   "Luc 12:13-34",
+   "Matthieu 6:19-34",
+   "Matthieu 8:18-22",
+   "Luc 16:19-31",
+   "1 Timothée 6:3-19",
+   "2 Corinthiens 8:1-15",
+   "Hébreux 13:1-8"
+  ]
+ },
+ "introduction": [
+  "Certains prédicateurs disent : « Dieu veut que tu sois riche et en bonne santé ; donne pour recevoir cent fois plus. »",
+  "Cette semaine, tu vas examiner cet enseignement à la lumière de la Bible."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "La volonté de Dieu pour chaque croyant est la prospérité et la santé.",
+       "reponse": false,
+       "explication": "Jésus n'avait pas où reposer sa tête (Matthieu 8:20). Paul a connu la privation (Philippiens 4:12)."
+      },
+      {
+       "id": "vf2",
+       "texte": "La pauvreté est un signe de manque de foi.",
+       "reponse": false,
+       "explication": "Jacques 2:5 : Dieu a choisi les pauvres selon le monde pour être riches en la foi."
+      },
+      {
+       "id": "vf3",
+       "texte": "Dieu nous avertit de nous garder de la cupidité.",
+       "reponse": true,
+       "explication": "Luc 12:15."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Ce que dit l'enseignement de la prospérité",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Que disent ceux qui enseignent que la richesse et la santé sont des droits du croyant ? Quels versets utilisent-ils (par exemple Marc 10:30) ?",
+     "refs": [
+      "Marc 10:29-30"
+     ],
+     "accompagnateur": {
+      "attendu": "Ils disent qu'en donnant on reçoit le centuple, que la maladie et la pauvreté sont des signes de manque de foi. Mais Marc 10:30 parle aussi de persécutions et du siècle à venir.",
+      "expliquer": [
+       "Écouter ce que la personne a déjà entendu. Ne pas s'attaquer à des personnes, mais à des idées."
+      ],
+      "relance": "As-tu déjà entendu cet enseignement ? Qu'en as-tu pensé ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Luc 12:13-21 et Matthieu 6:19-21. Que dit Jésus de la richesse ?",
+     "refs": [
+      "Luc 12:13-21",
+      "Matthieu 6:19-21"
+     ],
+     "accompagnateur": {
+      "attendu": "La vie ne dépend pas de l'abondance des biens. Ne pas amasser des trésors sur la terre mais dans le ciel.",
+      "expliquer": [
+       "Jésus met en garde contre l'avidité plus qu'il ne promet des richesses."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Jésus, ses disciples et les pauvres",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Matthieu 8:19-20 et 2 Corinthiens 8:9. Comment Jésus a-t-il vécu ?",
+     "refs": [
+      "Matthieu 8:19-20",
+      "2 Corinthiens 8:9"
+     ],
+     "accompagnateur": {
+      "attendu": "Il n'avait pas où reposer sa tête. Il s'est fait pauvre pour nous enrichir spirituellement.",
+      "expliquer": [
+       "La richesse promise par l'Évangile est spirituelle : le pardon, la vie éternelle, la communion."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis 1 Timothée 6:3-10 et Philippiens 4:11-13. Que dit Paul de ceux qui voient la piété comme un moyen de gain ?",
+     "refs": [
+      "1 Timothée 6:3-10",
+      "Philippiens 4:11-13"
+     ],
+     "accompagnateur": {
+      "attendu": "Ils sont orgueilleux et ne comprennent rien. La piété avec le contentement est un grand gain. Ceux qui veulent s'enrichir tombent dans des pièges.",
+      "expliquer": [
+       "Le contentement est un secret appris, pas un échec."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Luc 16:19-31 et Jacques 2:5. Que montre-t-on sur la richesse et la pauvreté ?",
+     "refs": [
+      "Luc 16:19-31",
+      "Jacques 2:5"
+     ],
+     "accompagnateur": {
+      "attendu": "Le riche est condamné pour son indifférence, le pauvre Lazare est consolé. Dieu a choisi les pauvres pour être riches en la foi.",
+      "expliquer": [
+       "La Bible demande de partager avec les pauvres, pas de mépriser ceux qui ont peu."
+      ],
+      "relance": "Comment réagis-tu devant les pauvres ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Ce que j'ai entendu sur la prospérité :",
+      "2. Ce que dit la Bible :",
+      "3. Ma vraie richesse :",
+      "4. Un geste de générosité :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v5-pas-07-l-evangile-et-la-prosperite"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Luc 12:15 de mémoire.",
+     "refs": [
+      "Luc 12:15"
+     ],
+     "accompagnateur": {
+      "attendu": "« Puis il leur dit : Gardez-vous avec soin de toute avarice ; car la vie d'un homme ne dépend pas de ses biens, fût-il dans l'abondance. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Ce que dit l'enseignement de la prospérité",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Jésus, ses disciples et les pauvres",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Luc 12:15. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Écouter avant de répondre : derrière une objection il y a souvent une blessure.",
+   "Pour les sujets sensibles (couple, église, argent), ne pas prendre parti contre une personne : s'en tenir à ce que dit la Bible.",
+   "Si la personne vit une situation grave (violence, abus, détresse), chercher de l'aide avec le pasteur."
+  ]
+ }
+}

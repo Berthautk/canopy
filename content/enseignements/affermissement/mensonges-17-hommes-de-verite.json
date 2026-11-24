@@ -1,0 +1,133 @@
+{
+ "id": "mensonges-17-hommes-de-verite",
+ "titre": "Hommes de vérité",
+ "serie": "Réponses bibliques aux mensonges (suite)",
+ "theme": "Vérité et mensonge",
+ "auteur": "Yeshaya",
+ "resume": "Comment un mari aime, honore et écoute sa femme selon la Bible.",
+ "image": "/assets/personnages/famille-lit-la-bible.webp",
+ "verset_de_base": "1 Pierre 3:7",
+ "lecture_minutes": 6,
+ "objectifs": [
+  "Comprendre le thème : Hommes de vérité.",
+  "Trouver dans la Bible la réponse à ce thème.",
+  "Mettre en pratique une décision précise cette semaine."
+ ],
+ "introduction": "On entend souvent : « La femme doit obéir. L'homme décide. » Ou : « Ce qu'une femme veut, c'est de beaux habits. » La Bible dit autre chose. Un homme de vérité est celui qui reconnaît la valeur de sa femme et la traite avec amour et honneur.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Aimer et ne pas s'aigrir",
+   "references": [
+    "Colossiens 3:19",
+    "Éphésiens 5:28-29"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Colossiens 3:19. Aimez vos femmes et ne vous aigrissez pas contre elles. L'amertume, la dureté et la colère s'installent facilement dans un foyer."
+    },
+    {
+     "texte": "Les cris, les coups, le silence méprisant, la jalousie : l'amour ne s'aigrit pas."
+    },
+    {
+     "texte": "Lisons Éphésiens 5:28-29. Une liste concrète : écouter, aider à la maison, parler avec respect, passer du temps, être fidèle, prier ensemble, consulter pour les décisions."
+    },
+    {
+     "texte": "Aider la personne à passer des idées aux actes. Faire choisir une chose pour cette semaine."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Honorer sa femme",
+   "references": [
+    "1 Pierre 3:7",
+    "Proverbes 12:4",
+    "Proverbes 31:28-30",
+    "Malachie 2:13-16",
+    "Proverbes 5:15-20"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons 1 Pierre 3:7. Avec connaissance, la traitant avec honneur comme le vase le plus faible et cohéritière de la grâce de la vie, afin que ses prières ne soient pas empêchées."
+    },
+    {
+     "texte": "Un mari qui méprise sa femme gêne sa propre prière. L'honneur se voit dans les actes."
+    },
+    {
+     "texte": "Lisons Proverbes 12:4 et Proverbes 31:28-30. Elle est la couronne de son mari. Ses enfants et son mari la louent. La grâce est trompeuse, la beauté vaine, mais la femme qui craint l'Éternel sera louée."
+    },
+    {
+     "texte": "Reconnaître et dire en public la valeur de sa femme."
+    },
+    {
+     "texte": "Lisons Malachie 2:13-16 et Proverbes 5:15-20. Dieu hait la répudiation et la trahison de l'épouse de sa jeunesse. Se réjouir de la femme de sa jeunesse."
+    },
+    {
+     "texte": "Parler franchement de l'infidélité, de la polygamie, des maîtresses : ce que Dieu dit ne change pas."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Ce que nous retenons",
+   "references": [],
+   "blocs": [
+    {
+     "texte": "Aimer, honorer, écouter, rester fidèle : c'est cela, un mari selon le cœur de Dieu. Quand on méprise sa femme, on se ferme la porte de la prière. Quand on l'honore, la maison est bénie."
+    },
+    {
+     "verset": "1 Pierre 3:7"
+    }
+   ]
+  }
+ ],
+ "sujets": [
+  {
+   "titre": "Des hommes de vérité",
+   "texte": "Prions pour les maris, afin qu'ils aiment leurs femmes avec honneur et que leurs prières ne soient pas empêchées (1 Pierre 3:7)."
+  }
+ ],
+ "questions": [
+  {
+   "question": "La femme est plus fragile et doit être traitée avec considération : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "1 Pierre 3:7 : le vase le plus faible.",
+   "section": "1"
+  },
+  {
+   "question": "Ce qui compte le plus pour une femme, ce sont les beaux habits et les relations sexuelles : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "Elle a besoin d'amour, de respect, de dialogue, de sécurité.",
+   "section": "1"
+  },
+  {
+   "question": "Un homme sage écoute sa femme : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Proverbes 12:15 ; 1 Pierre 3:7.",
+   "section": "1"
+  }
+ ],
+ "devoir": [
+  "Relis les passages de cette leçon et note ce qui te touche le plus.",
+  "Complète ton plan : Mon plan.",
+  "Apprends par cœur 1 Pierre 3:7.",
+  "Parle de ce que tu as découvert à une personne de confiance."
+ ],
+ "prieres_liees": [],
+ "source": "Parcours inspiré de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), manuel gratuit : les thèmes, le plan et les passages bibliques sont repris ; les questions, les explications, les enseignements et les guides de l'encadreur sont rédigés par Yeshaya.",
+ "date_ajout": "2026-11-24",
+ "relu": false
+}

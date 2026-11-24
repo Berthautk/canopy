@@ -1,0 +1,233 @@
+{
+ "id": "v5-pas-04-le-machisme",
+ "volume": 2,
+ "numero": 4,
+ "titre": "Le machisme",
+ "sous_titre": "Le vrai homme selon Dieu",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-16-le-machisme",
+ "verset_memoire": "Éphésiens 5:25",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que Jésus montre d'un vrai homme.",
+  "jours": [
+   "Éphésiens 5:21-33",
+   "Colossiens 3:12-21",
+   "Philippiens 2:1-11",
+   "1 Thessaloniciens 2:1-12",
+   "Proverbes 31:10-31",
+   "Jean 13:1-17",
+   "1 Pierre 3:1-12"
+  ]
+ },
+ "introduction": [
+  "Dans beaucoup de cultures, l'homme se croit supérieur : il décide de tout, ne pleure pas, ne demande jamais d'aide.",
+  "Cette semaine, tu vas comparer cette image avec celle du vrai homme selon la Bible."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Le rôle de l'homme est de dominer la femme.",
+       "reponse": false,
+       "explication": "Éphésiens 5:25 : maris, aimez vos femmes comme Christ a aimé l'Église."
+      },
+      {
+       "id": "vf2",
+       "texte": "Être un homme est une responsabilité, pas un privilège.",
+       "reponse": true,
+       "explication": "Éphésiens 5:23-25."
+      },
+      {
+       "id": "vf3",
+       "texte": "La première responsabilité du mari est d'aimer sa femme.",
+       "reponse": true,
+       "explication": "Éphésiens 5:25, 28, 33."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Qui est le vrai homme ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Compare ces deux images : l'homme dur qui ne pleure pas et ne demande jamais d'aide, et l'homme fort mais tendre. Lequel ressemble à Jésus ? Lis Jean 11:35 et Philippiens 2:5-8.",
+     "refs": [
+      "Jean 11:35",
+      "Philippiens 2:5-8"
+     ],
+     "accompagnateur": {
+      "attendu": "Jésus a pleuré, s'est abaissé, a servi. Le vrai homme est fort et tendre, humble, capable de demander de l'aide.",
+      "expliquer": [
+       "Pleurer n'est pas une faiblesse. La vraie force est de servir."
+      ],
+      "relance": "Quel exemple d'homme as-tu eu dans ta famille ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis 2 Corinthiens 11:23-27 et 1 Thessaloniciens 2:7-8. Quelle sorte de force Paul montre-t-il ?",
+     "refs": [
+      "2 Corinthiens 11:23-27",
+      "1 Thessaloniciens 2:7-8"
+     ],
+     "accompagnateur": {
+      "attendu": "Il endure beaucoup pour l'Évangile, mais il est doux avec ceux qu'il sert, comme une mère qui soigne ses enfants.",
+      "expliquer": [
+       "Force et douceur vont ensemble."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Le chef qui aime et qui sert",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Éphésiens 5:21-28, 33. Comment le mari doit-il être « chef » ?",
+     "refs": [
+      "Éphésiens 5:21-28",
+      "Éphésiens 5:33"
+     ],
+     "accompagnateur": {
+      "attendu": "Comme Christ pour l'Église : en se livrant lui-même pour elle, en l'aimant comme son propre corps, en la nourrissant et en prenant soin d'elle. Tous se soumettent les uns aux autres dans la crainte de Christ.",
+      "expliquer": [
+       "Chef, ce n'est pas dominer : c'est servir, porter la responsabilité."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Colossiens 3:19, Philippiens 2:3-4 et Proverbes 31:10-31. Comment l'homme doit-il traiter sa femme ?",
+     "refs": [
+      "Colossiens 3:19",
+      "Philippiens 2:3-4",
+      "Proverbes 31:10-31"
+     ],
+     "accompagnateur": {
+      "attendu": "Ne pas s'aigrir contre elle, la respecter, la considérer comme plus importante que soi, reconnaître sa valeur et ses talents.",
+      "expliquer": [
+       "Le machisme prend : la violence, les cris, l'infidélité, le mépris, l'exclusion des décisions."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Fais honnêtement la liste des comportements « machos » qui sont présents chez toi ou autour de toi. Lesquels veux-tu changer ?",
+     "refs": [
+      "Éphésiens 5:25"
+     ],
+     "accompagnateur": {
+      "attendu": "Une liste honnête et un engagement précis.",
+      "expliquer": [
+       "Pour une femme : nommer ce qui blesse, sans haine, et chercher de l'aide si la violence est présente."
+      ],
+      "relance": "Quel premier changement ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Ce que je veux changer dans ma manière d'être homme ou de traiter les hommes :",
+      "2. Un geste d'amour concret :",
+      "3. Ce que je dois demander pardon :",
+      "4. Mon verset :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v5-pas-04-le-machisme"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Éphésiens 5:25 de mémoire.",
+     "refs": [
+      "Éphésiens 5:25"
+     ],
+     "accompagnateur": {
+      "attendu": "« Maris, aimez vos femmes, comme Christ a aimé l'Église, et s'est livré lui-même pour elle. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Qui est le vrai homme ?",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Le chef qui aime et qui sert",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Éphésiens 5:25. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Écouter avant de répondre : derrière une objection il y a souvent une blessure.",
+   "Pour les sujets sensibles (couple, église, argent), ne pas prendre parti contre une personne : s'en tenir à ce que dit la Bible.",
+   "Si la personne vit une situation grave (violence, abus, détresse), chercher de l'aide avec le pasteur."
+  ]
+ }
+}

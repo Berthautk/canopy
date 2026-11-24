@@ -1,0 +1,233 @@
+{
+ "id": "v5-pas-08-la-prosperite-2",
+ "volume": 2,
+ "numero": 8,
+ "titre": "La prospérité (deuxième partie)",
+ "sous_titre": "La foi, la souffrance, les faux enseignants",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-20-la-prosperite-2",
+ "verset_memoire": "Romains 4:20-21",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que le texte dit sur la foi.",
+  "jours": [
+   "Romains 4:1-25",
+   "Hébreux 11:1-40",
+   "2 Corinthiens 12:1-10",
+   "2 Timothée 4:1-8",
+   "1 Pierre 5:1-4",
+   "Tite 1:5-16",
+   "Matthieu 7:15-23"
+  ]
+ },
+ "introduction": [
+  "La foi est-elle une force qui nous donne tout ce que nous demandons ? Faut-il toujours être guéri ? Que penser de certains ministères ?",
+  "Cette semaine, tu vas apprendre ce qu'est la vraie foi et comment éprouver les enseignants."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "La foi est une force qui peut changer ma réalité.",
+       "reponse": false,
+       "explication": "La foi est la confiance en Dieu, pas une force dont je dispose (Romains 4:20-21)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Certains programmes de télévision chrétiens devraient inquiéter un croyant qui connaît sa Bible.",
+       "reponse": true,
+       "explication": "2 Timothée 4:3-4 ; 1 Timothée 6:5."
+      },
+      {
+       "id": "vf3",
+       "texte": "La puissance de Dieu s'accomplit dans la faiblesse.",
+       "reponse": true,
+       "explication": "2 Corinthiens 12:9."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Qu'est-ce que la vraie foi ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Romains 4:18-22 et Romains 10:17. Quelle était la foi d'Abraham ? D'où vient la foi ?",
+     "refs": [
+      "Romains 4:18-22",
+      "Romains 10:17"
+     ],
+     "accompagnateur": {
+      "attendu": "Il était pleinement convaincu que Dieu pouvait accomplir sa promesse. La foi vient de ce qu'on entend, et ce qu'on entend vient de la parole de Christ.",
+      "expliquer": [
+       "La foi se fonde sur la promesse de Dieu, pas sur mes désirs."
+      ],
+      "relance": "Quelle promesse de Dieu t'est précieuse ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Hébreux 11:35-39 et 1 Jean 5:14. Que dit-on des croyants qui n'ont pas reçu ce qu'ils attendaient ?",
+     "refs": [
+      "Hébreux 11:35-39",
+      "1 Jean 5:14"
+     ],
+     "accompagnateur": {
+      "attendu": "Certains ont été délivrés, d'autres torturés et mis à mort : tous ont reçu un bon témoignage par la foi. Nous demandons selon la volonté de Dieu.",
+      "expliquer": [
+       "La foi n'est pas un moyen d'obtenir ce que l'on veut."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Souffrance, guérison et faux enseignants",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis 2 Corinthiens 12:7-9 et 1 Timothée 5:23. Dieu guérit-il toujours ?",
+     "refs": [
+      "2 Corinthiens 12:7-9",
+      "1 Timothée 5:23"
+     ],
+     "accompagnateur": {
+      "attendu": "Paul a prié trois fois et Dieu lui a répondu « ma grâce te suffit ». Timothée avait des maux d'estomac fréquents. Dieu peut guérir, mais il ne guérit pas toujours.",
+      "expliquer": [
+       "Ne pas dire à un malade qu'il manque de foi."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis 1 Pierre 5:2-3, 1 Timothée 3:2-4 et Tite 1:7. Comment un responsable doit-il se comporter ?",
+     "refs": [
+      "1 Pierre 5:2-3",
+      "1 Timothée 3:2-4",
+      "Tite 1:7"
+     ],
+     "accompagnateur": {
+      "attendu": "Paître le troupeau avec dévouement, sans cupidité, sans dominer, en modèle. Irréprochable, non attaché à un gain malhonnête.",
+      "expliquer": [
+       "Observer la vie de celui qui enseigne : humble, honnête, simple ?"
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Matthieu 7:15-23. Comment reconnaître les faux enseignants ?",
+     "refs": [
+      "Matthieu 7:15-23"
+     ],
+     "accompagnateur": {
+      "attendu": "À leurs fruits. Certains font des miracles mais Jésus ne les a jamais connus. Éprouver avec la Parole.",
+      "expliquer": [
+       "Ne pas juger tout le monde, mais éprouver."
+      ],
+      "relance": "Quels enseignements de ton entourage veux-tu mieux examiner ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Un enseignement que je dois examiner :",
+      "2. Ce que la Bible en dit :",
+      "3. Ce que je veux croire et pratiquer :",
+      "4. Ma promesse :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v5-pas-08-la-prosperite-2"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Romains 4:20-21 de mémoire.",
+     "refs": [
+      "Romains 4:20-21"
+     ],
+     "accompagnateur": {
+      "attendu": "« Il ne douta point, par incrédulité, au sujet de la promesse de Dieu, mais il fut fortifié par la foi, donnant gloire à Dieu, et ayant la pleine conviction que ce qu'il promet, il peut aussi l'accomplir. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Qu'est-ce que la vraie foi ?",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Souffrance, guérison et faux enseignants",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Romains 4:20-21. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Écouter avant de répondre : derrière une objection il y a souvent une blessure.",
+   "Pour les sujets sensibles (couple, église, argent), ne pas prendre parti contre une personne : s'en tenir à ce que dit la Bible.",
+   "Si la personne vit une situation grave (violence, abus, détresse), chercher de l'aide avec le pasteur."
+  ]
+ }
+}

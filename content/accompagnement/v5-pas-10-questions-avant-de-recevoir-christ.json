@@ -1,0 +1,235 @@
+{
+ "id": "v5-pas-10-questions-avant-de-recevoir-christ",
+ "volume": 2,
+ "numero": 10,
+ "titre": "J'ai des questions avant de recevoir Christ",
+ "sous_titre": "Répondre aux hésitations de ceux qui ne sont pas encore décidés",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-22-questions-avant-de-recevoir-christ",
+ "verset_memoire": "Marc 8:36",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour une question et la réponse que la Bible donne.",
+  "jours": [
+   "Marc 8:34-38",
+   "Psaume 27",
+   "Hébreux 13:5-6",
+   "Philippiens 4:10-20",
+   "1 Jean 1",
+   "Jean 10:1-18",
+   "Apocalypse 3:14-22"
+  ]
+ },
+ "introduction": [
+  "Beaucoup de gens se retiennent : « J'ai peur de ce que diront mes amis. Je ne suis pas prêt. Je vais d'abord mettre ma vie en ordre. »",
+  "Cette semaine, tu vas apprendre à répondre à ces hésitations, pour toi et pour les autres."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Il vaut mieux attendre d'avoir ma vie en ordre pour m'approcher de Dieu.",
+       "reponse": false,
+       "explication": "Dieu t'accueille tel que tu es, puis te change (Romains 5:8)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Si j'accepte Christ, ma vie sera bonne mais ennuyeuse.",
+       "reponse": false,
+       "explication": "Jean 10:10 : je suis venu afin que les brebis aient la vie, et qu'elles l'aient en abondance."
+      },
+      {
+       "id": "vf3",
+       "texte": "Il y a beaucoup de temps pour recevoir Christ.",
+       "reponse": false,
+       "explication": "Proverbes 27:1 ; 2 Corinthiens 6:2 : aujourd'hui est le jour du salut."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Les hésitations courantes",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "« J'ai peur de ce que diront mes amis. » Lis Marc 8:36-38 et Psaume 27:10. Que répondre ?",
+     "refs": [
+      "Marc 8:36-38",
+      "Psaume 27:10"
+     ],
+     "accompagnateur": {
+      "attendu": "Que sert-il de gagner le monde et perdre son âme ? Même si mon père et ma mère m'abandonnent, l'Éternel me recueillera. Je trouve en Christ une famille.",
+      "expliquer": [
+       "Le prix est réel, mais Dieu donne une nouvelle famille."
+      ],
+      "relance": "Quelle hésitation as-tu entendue autour de toi ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "« Je ne pourrai pas tenir, je suis trop faible. » Lis Philippiens 4:13, 1 Corinthiens 10:13 et 1 Jean 4:4. Que répondre ?",
+     "refs": [
+      "Philippiens 4:13",
+      "1 Corinthiens 10:13",
+      "1 Jean 4:4"
+     ],
+     "accompagnateur": {
+      "attendu": "Je peux tout par Christ qui me fortifie. Dieu donne toujours une issue. Celui qui est en vous est plus grand que celui qui est dans le monde.",
+      "expliquer": [
+       "On ne reçoit pas Christ avec ses propres forces, mais avec les siennes."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "« Ma vie sera ennuyeuse. » Lis Jean 10:10 et 1 Jean 1:4. Que répondre ?",
+     "refs": [
+      "Jean 10:10",
+      "1 Jean 1:4"
+     ],
+     "accompagnateur": {
+      "attendu": "Jésus donne la vie en abondance. Il nous écrit pour que notre joie soit complète.",
+      "expliquer": [
+       "Beaucoup de témoignages parlent d'une joie nouvelle."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Ne pas attendre",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "« Je vais d'abord changer, ensuite je viendrai. » Lis Romains 5:8 et Matthieu 6:33. Que répondre ?",
+     "refs": [
+      "Romains 5:8",
+      "Matthieu 6:33"
+     ],
+     "accompagnateur": {
+      "attendu": "Christ est mort pour nous alors que nous étions pécheurs. Cherchons d'abord le royaume : le reste suivra.",
+      "expliquer": [
+       "On ne se nettoie pas avant de se laver : on vient à Jésus tel qu'on est."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "« Rien ne presse. » Lis Proverbes 27:1, 2 Corinthiens 6:2 et Apocalypse 3:20. Que répondre ?",
+     "refs": [
+      "Proverbes 27:1",
+      "2 Corinthiens 6:2",
+      "Apocalypse 3:20"
+     ],
+     "accompagnateur": {
+      "attendu": "On ne sait pas ce que demain apportera. Aujourd'hui est le jour du salut. Jésus se tient à la porte et frappe.",
+      "expliquer": [
+       "Si la personne est prête, prier avec elle maintenant."
+      ],
+      "relance": "Es-tu prêt à répondre à Jésus aujourd'hui ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. La question que j'entends le plus souvent :",
+      "2. La réponse biblique :",
+      "3. Une personne à qui je vais la dire :",
+      "4. Ma décision :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v5-pas-10-questions-avant-de-recevoir-christ"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Marc 8:36 de mémoire.",
+     "refs": [
+      "Marc 8:36"
+     ],
+     "accompagnateur": {
+      "attendu": "« Et que servirait-il à un homme de gagner tout le monde, s'il perdait son âme ? »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Les hésitations courantes",
+    "minutes": 23,
+    "conseils": [
+     "Questions 1 à 3."
+    ]
+   },
+   {
+    "titre": "II. Ne pas attendre",
+    "minutes": 17,
+    "conseils": [
+     "Questions 4 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Marc 8:36. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Écouter avant de répondre : derrière une objection il y a souvent une blessure.",
+   "Pour les sujets sensibles, s'en tenir à ce que dit la Bible et ne pas prendre parti contre une personne.",
+   "Si la personne vit une situation grave (violence, abus, détresse), chercher de l'aide avec le pasteur."
+  ]
+ }
+}

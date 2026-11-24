@@ -1,0 +1,233 @@
+{
+ "id": "v5-pas-01-ne-juge-pas-sois-tolerant",
+ "volume": 2,
+ "numero": 1,
+ "titre": "Ne juge pas ! Sois tolérant !",
+ "sous_titre": "Juger, tolérer et reprendre : ce que la Bible dit vraiment",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-13-ne-juge-pas-sois-tolerant",
+ "verset_memoire": "2 Timothée 4:2",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que le texte dit de la vérité et de l'amour.",
+  "jours": [
+   "Matthieu 7:1-6",
+   "Matthieu 18:15-20",
+   "Galates 6:1-5",
+   "Éphésiens 4:1-16",
+   "2 Timothée 4:1-5",
+   "Tite 1:5-16",
+   "Matthieu 23:1-28"
+  ]
+ },
+ "introduction": [
+  "« Jésus a dit : ne juge pas. Donc je ne dis jamais à personne qu'il se trompe. »",
+  "Cette semaine, tu vas voir qu'il y a une mauvaise façon de juger et une bonne façon de reprendre."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Je n'ai pas le droit de dire aux autres ce qui est bien ou mal.",
+       "reponse": false,
+       "explication": "Galates 6:1 : redressez avec douceur celui qui est en faute."
+      },
+      {
+       "id": "vf2",
+       "texte": "La chose la plus importante est de tout tolérer.",
+       "reponse": false,
+       "explication": "Dieu ne tolère pas le péché (Apocalypse 2:20) : il pardonne le pécheur."
+      },
+      {
+       "id": "vf3",
+       "texte": "Juger les autres avec orgueil est un péché.",
+       "reponse": true,
+       "explication": "Matthieu 7:1-5."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Le jugement qui détruit",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Matthieu 7:1-5. Quel jugement Jésus condamne-t-il ?",
+     "refs": [
+      "Matthieu 7:1-5"
+     ],
+     "accompagnateur": {
+      "attendu": "Le jugement hypocrite de celui qui regarde la paille dans l'œil d'autrui sans voir la poutre dans le sien. Il demande de s'examiner d'abord.",
+      "expliquer": [
+       "Ce verset ne dit pas qu'il ne faut jamais discerner : le verset 6 parle de discerner, et le verset 15 d'éprouver les faux prophètes."
+      ],
+      "relance": "As-tu déjà été jugé injustement ? As-tu déjà jugé injustement ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Matthieu 23:25-27. Quel est le problème des pharisiens ?",
+     "refs": [
+      "Matthieu 23:25-27"
+     ],
+     "accompagnateur": {
+      "attendu": "Ils nettoient le dehors de la coupe et sont pleins d'avidité à l'intérieur : de l'hypocrisie, avec une belle apparence.",
+      "expliquer": [
+       "La poutre est souvent la même chose que ce que l'on reproche aux autres."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Reprendre avec amour",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Galates 6:1-2 et Matthieu 18:15-17. Comment reprendre quelqu'un ?",
+     "refs": [
+      "Galates 6:1-2",
+      "Matthieu 18:15-17"
+     ],
+     "accompagnateur": {
+      "attendu": "Avec douceur, en veillant sur soi-même, en portant les fardeaux les uns des autres. D'abord en privé, puis avec un ou deux témoins, puis devant l'Église.",
+      "expliquer": [
+       "Le but est la restauration, pas l'humiliation."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Éphésiens 4:2, 15, 25 et 2 Timothée 4:2-4. Que faut-il dire, et comment ?",
+     "refs": [
+      "Éphésiens 4:2",
+      "Éphésiens 4:15",
+      "Éphésiens 4:25",
+      "2 Timothée 4:2-4"
+     ],
+     "accompagnateur": {
+      "attendu": "Dire la vérité dans l'amour, avec humilité, douceur, patience. Prêcher la parole, insister, convaincre, reprendre, exhorter, avec patience, car beaucoup n'enduriront pas la saine doctrine.",
+      "expliquer": [
+       "Aimer sans dire la vérité trompe. Dire la vérité sans amour blesse."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Tite 1:5, 9-13. Que doivent faire les responsables de l'Église face à l'erreur ?",
+     "refs": [
+      "Tite 1:5",
+      "Tite 1:9-13"
+     ],
+     "accompagnateur": {
+      "attendu": "S'attacher à la saine doctrine, convaincre ceux qui contredisent, reprendre sévèrement certains pour qu'ils soient sains dans la foi.",
+      "expliquer": [
+       "L'Église a la responsabilité de protéger la vérité."
+      ],
+      "relance": "À qui dois-tu dire une vérité, avec amour ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Une personne que j'ai jugée trop vite :",
+      "2. Ma poutre à enlever :",
+      "3. Une personne que je dois reprendre avec amour :",
+      "4. Ce que je lui dirai :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v5-pas-01-ne-juge-pas-sois-tolerant"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris 2 Timothée 4:2 de mémoire.",
+     "refs": [
+      "2 Timothée 4:2"
+     ],
+     "accompagnateur": {
+      "attendu": "« Prêche la parole, insiste en toute occasion, favorable ou non, reprends, censure, exhorte, avec toute patience et en instruisant. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Le jugement qui détruit",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Reprendre avec amour",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter 2 Timothée 4:2. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Écouter avant de répondre : derrière une objection il y a souvent une blessure.",
+   "Pour les sujets sensibles (couple, église, argent), ne pas prendre parti contre une personne : s'en tenir à ce que dit la Bible.",
+   "Si la personne vit une situation grave (violence, abus, détresse), chercher de l'aide avec le pasteur."
+  ]
+ }
+}

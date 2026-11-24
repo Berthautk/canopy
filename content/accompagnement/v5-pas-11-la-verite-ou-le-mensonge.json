@@ -1,0 +1,232 @@
+{
+ "id": "v5-pas-11-la-verite-ou-le-mensonge",
+ "volume": 2,
+ "numero": 11,
+ "titre": "Et maintenant ? La vérité ou le mensonge ?",
+ "sous_titre": "Faire le bilan : choisir la vérité chaque jour",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-23-la-verite-ou-le-mensonge",
+ "verset_memoire": "Jean 8:32",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Relis chaque jour une des leçons de ces deux volumes.",
+  "jours": [
+   "Jean 8:31-36",
+   "Psaume 119:9-24",
+   "Psaume 119:25-40",
+   "Romains 1:18-32",
+   "2 Corinthiens 11:1-15",
+   "Éphésiens 4:17-32",
+   "2 Timothée 4:1-8"
+  ]
+ },
+ "introduction": [
+  "Tu as découvert plusieurs mensonges et leurs réponses bibliques. Maintenant, que faire ?",
+  "Cette semaine, tu vas faire le bilan, et décider de vivre chaque jour dans la vérité."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Il est difficile de trouver la vérité ; il faut des années d'étude.",
+       "reponse": false,
+       "explication": "La vérité est dans la Parole, accessible à tous (Psaume 119:130)."
+      },
+      {
+       "id": "vf2",
+       "texte": "La vérité est ma défense contre les forces du mal.",
+       "reponse": true,
+       "explication": "Éphésiens 6:14."
+      },
+      {
+       "id": "vf3",
+       "texte": "Étudier la Parole est ennuyeux et peu utile.",
+       "reponse": false,
+       "explication": "Psaume 119:103 : tes paroles sont douces à mon palais."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. La vérité et le monde",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis 1 Corinthiens 1:18-19 et Romains 1:21-25. Comment le monde réagit-il à la vérité ?",
+     "refs": [
+      "1 Corinthiens 1:18-19",
+      "Romains 1:21-25"
+     ],
+     "accompagnateur": {
+      "attendu": "La croix paraît une folie à ceux qui périssent. Ceux qui connaissent Dieu ne l'ont pas glorifié : ils ont changé la vérité de Dieu en mensonge.",
+      "expliquer": [
+       "Le monde appelle vérité ce qui mène à la perdition."
+      ],
+      "relance": "Quel mensonge du monde t'attire le plus ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis 1 Timothée 4:1-3 et 2 Corinthiens 11:13-15. À quoi nous attendre ?",
+     "refs": [
+      "1 Timothée 4:1-3",
+      "2 Corinthiens 11:13-15"
+     ],
+     "accompagnateur": {
+      "attendu": "Dans les derniers temps, certains abandonneront la foi pour des doctrines de démons. Satan se déguise en ange de lumière.",
+      "expliquer": [
+       "Rester vigilants, examiner."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Choisir la vérité chaque jour",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Psaume 119:18, 28-30. Que demande le psalmiste ? Quel choix fait-il ?",
+     "refs": [
+      "Psaume 119:18",
+      "Psaume 119:28-30"
+     ],
+     "accompagnateur": {
+      "attendu": "Ouvre mes yeux. Éloigne de moi la voie du mensonge. J'ai choisi la voie de la vérité.",
+      "expliquer": [
+       "La vérité se choisit chaque jour."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Éphésiens 5:25-27 et Marc 8:36. Ce que tu as vu dans ces deux volumes, comment cela change-t-il ta vie ?",
+     "refs": [
+      "Éphésiens 5:25-27",
+      "Marc 8:36"
+     ],
+     "accompagnateur": {
+      "attendu": "Une réponse personnelle : sur la solitude, la peur, l'argent, le pardon, le couple, l'église.",
+      "expliquer": [
+       "Laisser la personne parler longuement."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Quels sont les trois mensonges les plus dangereux pour toi ? Quelle vérité de la Bible leur répond ?",
+     "refs": [
+      "Jean 8:32"
+     ],
+     "accompagnateur": {
+      "attendu": "Trois mensonges personnels et trois versets. Un plan pour rester dans la vérité.",
+      "expliquer": [
+       "Aider à écrire une affirmation vraie à lire chaque matin."
+      ],
+      "relance": "Quelle est ta décision finale ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon bilan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon bilan",
+     "texte": [
+      "1. Les mensonges que j'ai découverts :",
+      "2. Les vérités qui me libèrent :",
+      "3. Mes trois versets :",
+      "4. Ma décision :"
+     ],
+     "champ": "Mon bilan",
+     "id": "plan-v5-pas-11-la-verite-ou-le-mensonge"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Jean 8:32 de mémoire.",
+     "refs": [
+      "Jean 8:32"
+     ],
+     "accompagnateur": {
+      "attendu": "« Vous connaîtrez la vérité, et la vérité vous affranchira. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. La vérité et le monde",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Choisir la vérité chaque jour",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Jean 8:32. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Écouter avant de répondre : derrière une objection il y a souvent une blessure.",
+   "Pour les sujets sensibles, s'en tenir à ce que dit la Bible et ne pas prendre parti contre une personne.",
+   "Si la personne vit une situation grave (violence, abus, détresse), chercher de l'aide avec le pasteur."
+  ]
+ }
+}

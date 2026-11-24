@@ -1,0 +1,232 @@
+{
+ "id": "v5-pas-03-hypocrisie-dans-l-eglise",
+ "volume": 2,
+ "numero": 3,
+ "titre": "L'hypocrisie dans l'église",
+ "sous_titre": "Les hypocrites dans l'église : ce que Jésus en dit, et ma part",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-15-hypocrisie-dans-l-eglise",
+ "verset_memoire": "Matthieu 6:1",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour une chose vraie sur toi-même.",
+  "jours": [
+   "Matthieu 23",
+   "Matthieu 7:15-23",
+   "Actes 2:42-47",
+   "Galates 2:11-21",
+   "1 Jean 1:5-10",
+   "Jean 13:31-35",
+   "Jean 3:16-21"
+  ]
+ },
+ "introduction": [
+  "« Les chrétiens sont tous des hypocrites. » Ce reproche empêche beaucoup de gens de croire.",
+  "Cette semaine, tu vas voir ce que Jésus en pense, et comment ne pas devenir un hypocrite toi-même."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Tous les chrétiens sont des hypocrites.",
+       "reponse": false,
+       "explication": "Beaucoup de vrais chrétiens luttent sincèrement contre leur péché."
+      },
+      {
+       "id": "vf2",
+       "texte": "Il n'existe pas d'église parfaite.",
+       "reponse": true,
+       "explication": "1 Corinthiens 1:2 : même Corinthe est appelée sanctifiée, malgré ses défauts."
+      },
+      {
+       "id": "vf3",
+       "texte": "Il y a des personnes dans l'église qui ne sont pas de vrais croyants.",
+       "reponse": true,
+       "explication": "Matthieu 7:21-23 ; 13:24-30."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Jésus et les hypocrites",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Matthieu 23:13-28. Quels sont les péchés des pharisiens ? Que dit Jésus ?",
+     "refs": [
+      "Matthieu 23:13-28"
+     ],
+     "accompagnateur": {
+      "attendu": "Ils fermaient le royaume aux autres, voulaient être vus, tenaient à des détails et négligeaient la justice, la miséricorde et la fidélité. Jésus dit sept fois « Malheur à vous ».",
+      "expliquer": [
+       "Jésus est très dur contre l'hypocrisie, parce qu'elle éloigne les gens de Dieu."
+      ],
+      "relance": "As-tu déjà été blessé par l'hypocrisie ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Matthieu 7:21-23 et Galates 2:11-14. Peut-on être religieux sans être sauvé ? Même un apôtre peut-il se montrer hypocrite ?",
+     "refs": [
+      "Matthieu 7:21-23",
+      "Galates 2:11-14"
+     ],
+     "accompagnateur": {
+      "attendu": "Oui : certains prophétisent et font des miracles, mais Jésus dit « Je ne vous ai jamais connus ». Pierre a agi par peur des hommes et Paul l'a repris.",
+      "expliquer": [
+       "Chacun est exposé à l'hypocrisie."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Ma part et la réponse",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Matthieu 6:1-6 et Jean 3:19-20. Pourquoi cachons-nous la vérité ?",
+     "refs": [
+      "Matthieu 6:1-6",
+      "Jean 3:19-20"
+     ],
+     "accompagnateur": {
+      "attendu": "Pour être vus des hommes, ou par peur de la lumière qui montre nos actes. Dieu voit en secret.",
+      "expliquer": [
+       "On devient hypocrite quand on vit pour l'image, pas pour Dieu."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis 1 Jean 1:5-10. Comment marcher dans la lumière ?",
+     "refs": [
+      "1 Jean 1:5-10"
+     ],
+     "accompagnateur": {
+      "attendu": "Ne pas mentir ni cacher le péché, mais le confesser. Le sang de Jésus purifie de tout péché. Celui qui dit n'avoir pas de péché se trompe.",
+      "expliquer": [
+       "Un chrétien sincère dit : « Je suis pécheur, sauvé par grâce. »"
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Actes 2:42-47, Hébreux 10:24-25 et Jean 13:34-35. Pourquoi rester dans l'Église malgré les hypocrites ?",
+     "refs": [
+      "Actes 2:42-47",
+      "Hébreux 10:24-25",
+      "Jean 13:34-35"
+     ],
+     "accompagnateur": {
+      "attendu": "Parce que Dieu veut que nous soyons ensemble, que nous nous encouragions, et que l'amour mutuel est notre témoignage.",
+      "expliquer": [
+       "Ne pas faire des défauts des autres une excuse pour s'éloigner de Dieu."
+      ],
+      "relance": "Y a-t-il quelque chose en toi que tu cachais ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Un domaine où je fais semblant :",
+      "2. Ce que je veux confesser à Dieu :",
+      "3. Une personne de confiance à qui le dire :",
+      "4. Mon changement :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v5-pas-03-hypocrisie-dans-l-eglise"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Matthieu 6:1 de mémoire.",
+     "refs": [
+      "Matthieu 6:1"
+     ],
+     "accompagnateur": {
+      "attendu": "« Gardez-vous de pratiquer votre justice devant les hommes, pour en être vus ; autrement, vous n'aurez point de récompense auprès de votre Père qui est dans les cieux. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Jésus et les hypocrites",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Ma part et la réponse",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Matthieu 6:1. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Écouter avant de répondre : derrière une objection il y a souvent une blessure.",
+   "Pour les sujets sensibles (couple, église, argent), ne pas prendre parti contre une personne : s'en tenir à ce que dit la Bible.",
+   "Si la personne vit une situation grave (violence, abus, détresse), chercher de l'aide avec le pasteur."
+  ]
+ }
+}

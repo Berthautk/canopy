@@ -297,6 +297,68 @@
      "id": "v4-pas-12-toutes-les-religions"
     }
    ]
+  },
+  {
+   "numero": 5,
+   "titre": "Volume 5 · Plus de réponses bibliques aux mensonges",
+   "sous_titre": "Couple, église, prospérité, assurance du salut",
+   "pas": [
+    {
+     "numero": 1,
+     "titre": "Ne juge pas ! Sois tolérant !",
+     "id": "v5-pas-01-ne-juge-pas-sois-tolerant"
+    },
+    {
+     "numero": 2,
+     "titre": "Je ne me sens pas une nouvelle créature",
+     "id": "v5-pas-02-je-ne-me-sens-pas-nouvelle-creature"
+    },
+    {
+     "numero": 3,
+     "titre": "L'hypocrisie dans l'église",
+     "id": "v5-pas-03-hypocrisie-dans-l-eglise"
+    },
+    {
+     "numero": 4,
+     "titre": "Le machisme",
+     "id": "v5-pas-04-le-machisme"
+    },
+    {
+     "numero": 5,
+     "titre": "Hommes de vérité",
+     "id": "v5-pas-05-hommes-de-verite"
+    },
+    {
+     "numero": 6,
+     "titre": "La femme moderne",
+     "id": "v5-pas-06-la-femme-moderne"
+    },
+    {
+     "numero": 7,
+     "titre": "L'Évangile et la prospérité",
+     "id": "v5-pas-07-l-evangile-et-la-prosperite"
+    },
+    {
+     "numero": 8,
+     "titre": "La prospérité (deuxième partie)",
+     "id": "v5-pas-08-la-prosperite-2"
+    },
+    {
+     "numero": 9,
+     "titre": "Suis-je encore sauvé ?",
+     "id": "v5-pas-09-suis-je-encore-sauve"
+    },
+    {
+     "numero": 10,
+     "titre": "J'ai des questions avant de recevoir Christ",
+     "id": "v5-pas-10-questions-avant-de-recevoir-christ"
+    },
+    {
+     "numero": 11,
+     "titre": "Et maintenant ? La vérité ou le mensonge ?",
+     "id": "v5-pas-11-la-verite-ou-le-mensonge"
+    }
+   ]
   }
  ]
 }

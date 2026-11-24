@@ -1,0 +1,233 @@
+{
+ "id": "v5-pas-06-la-femme-moderne",
+ "volume": 2,
+ "numero": 6,
+ "titre": "La femme moderne",
+ "sous_titre": "Partenaires, pas concurrents : soumission et dignité",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-18-la-femme-moderne",
+ "verset_memoire": "Proverbes 31:30",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour une qualité de la femme de Proverbes 31.",
+  "jours": [
+   "Proverbes 31:10-31",
+   "1 Pierre 3:1-6",
+   "Éphésiens 5:21-24",
+   "Tite 2:3-5",
+   "Genèse 1:26-28",
+   "Genèse 2:18-24",
+   "Proverbes 14:1"
+  ]
+ },
+ "introduction": [
+  "Deux images s'opposent : la femme traditionnelle, soumise et sacrifiée ; la femme moderne, indépendante et revendicative.",
+  "Cette semaine, tu vas voir ce que dit la Bible : la femme est un partenaire, avec sa dignité."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Une femme qui se soumet à son mari perd son identité.",
+       "reponse": false,
+       "explication": "Elle suit l'exemple de Christ, égal au Père mais soumis par amour (Philippiens 2:6-8)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Soumission veut dire obéir sans jamais donner son avis.",
+       "reponse": false,
+       "explication": "Proverbes 31:26 : elle ouvre la bouche avec sagesse."
+      },
+      {
+       "id": "vf3",
+       "texte": "Mari et femme sont des partenaires, pas des concurrents.",
+       "reponse": true,
+       "explication": "Genèse 2:18 : une aide qui lui corresponde."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Créés égaux, complémentaires",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Genèse 1:26-28 et Genèse 2:18-24. Que dit la Bible de l'homme et de la femme ?",
+     "refs": [
+      "Genèse 1:26-28",
+      "Genèse 2:18-24"
+     ],
+     "accompagnateur": {
+      "attendu": "Tous deux sont créés à l'image de Dieu. La femme est une aide qui correspond à l'homme, os de ses os, chair de sa chair.",
+      "expliquer": [
+       "Égalité de valeur, différence de rôle."
+      ],
+      "relance": "Quelle image de la femme as-tu reçue ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Proverbes 31:10-31. Quelles qualités la femme de valeur a-t-elle ?",
+     "refs": [
+      "Proverbes 31:10-31"
+     ],
+     "accompagnateur": {
+      "attendu": "Elle est sage, travailleuse, entreprenante, bonne pour les pauvres, respectée de son mari, prépare l'avenir, craint l'Éternel.",
+      "expliquer": [
+       "Elle gère, achète, commerce, enseigne : ce n'est pas une femme passive."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Se soumettre sans perdre sa valeur",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Éphésiens 5:21-24 et 1 Pierre 3:1-6. Que signifie « soumission » ?",
+     "refs": [
+      "Éphésiens 5:21-24",
+      "1 Pierre 3:1-6"
+     ],
+     "accompagnateur": {
+      "attendu": "Se soumettre les uns aux autres, et la femme à son mari comme au Seigneur : un choix libre d'amour et de respect, pas une servilité. Une vie pure et douce peut gagner son mari.",
+      "expliquer": [
+       "La soumission n'est jamais d'obéir au péché ou de subir la violence."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Philippiens 2:3-8 et Matthieu 7:12. Quelle règle s'applique aux deux ?",
+     "refs": [
+      "Philippiens 2:3-8",
+      "Matthieu 7:12"
+     ],
+     "accompagnateur": {
+      "attendu": "Chacun regarde aux intérêts de l'autre, avec humilité, comme Christ. Traiter les autres comme on voudrait être traité.",
+      "expliquer": [
+       "Partenaires : on décide ensemble, on se respecte."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Proverbes 14:1, 21:9 et Éphésiens 4:29-32. Comment une femme peut-elle bâtir ou détruire sa maison ?",
+     "refs": [
+      "Proverbes 14:1",
+      "Proverbes 21:9",
+      "Éphésiens 4:29-32"
+     ],
+     "accompagnateur": {
+      "attendu": "La sagesse bâtit, la folie détruit. Les disputes, l'amertume et les paroles dures détruisent. Les paroles bonnes et la bonté bâtissent.",
+      "expliquer": [
+       "Dire les choses franchement mais avec respect."
+      ],
+      "relance": "Que peux-tu faire pour bâtir ton foyer ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Ce que je veux apprendre de la femme de Proverbes 31 :",
+      "2. Une habitude qui bâtit mon foyer :",
+      "3. Une parole ou une attitude à changer :",
+      "4. Mon verset :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v5-pas-06-la-femme-moderne"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Proverbes 31:30 de mémoire.",
+     "refs": [
+      "Proverbes 31:30"
+     ],
+     "accompagnateur": {
+      "attendu": "« La grâce est trompeuse, et la beauté est vaine ; la femme qui craint l'Éternel est celle qui sera louée. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Créés égaux, complémentaires",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Se soumettre sans perdre sa valeur",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Proverbes 31:30. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Écouter avant de répondre : derrière une objection il y a souvent une blessure.",
+   "Pour les sujets sensibles (couple, église, argent), ne pas prendre parti contre une personne : s'en tenir à ce que dit la Bible.",
+   "Si la personne vit une situation grave (violence, abus, détresse), chercher de l'aide avec le pasteur."
+  ]
+ }
+}

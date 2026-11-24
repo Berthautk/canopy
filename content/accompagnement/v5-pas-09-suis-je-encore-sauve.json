@@ -1,0 +1,233 @@
+{
+ "id": "v5-pas-09-suis-je-encore-sauve",
+ "volume": 2,
+ "numero": 9,
+ "titre": "Suis-je encore sauvé ?",
+ "sous_titre": "L'assurance du salut face au doute et à la chute",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-21-suis-je-encore-sauve",
+ "verset_memoire": "Jean 5:24",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour une promesse de salut.",
+  "jours": [
+   "Jean 5:19-29",
+   "Jean 10:22-30",
+   "Romains 8:28-39",
+   "Éphésiens 1:3-14",
+   "Hébreux 6:1-12",
+   "1 Jean 5:1-13",
+   "Philippiens 1:3-11"
+  ]
+ },
+ "introduction": [
+  "« J'ai fait ma confession de foi, mais je suis retombé. Ai-je perdu mon salut ? »",
+  "Cette semaine, tu vas voir ce que la Bible dit de l'assurance du salut, et ce qu'on appelle « vrais croyants »."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "L'assurance de la vie éternelle dépend de ma fidélité à Dieu.",
+       "reponse": false,
+       "explication": "Elle dépend de la fidélité de Dieu et de l'œuvre de Christ (Jean 10:28-29)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Croire que le salut ne se perd pas donne le droit de pécher.",
+       "reponse": false,
+       "explication": "Romains 6:1-2 : continuerions-nous à pécher afin que la grâce abonde ? Loin de là !"
+      },
+      {
+       "id": "vf3",
+       "texte": "Certains « chrétiens » qui vivent mal n'ont jamais été vraiment sauvés.",
+       "reponse": true,
+       "explication": "Matthieu 7:21-23 ; 1 Jean 2:19."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Le salut est sûr",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Jean 5:24 et Jean 10:27-30. Que dit Jésus de ceux qui croient ?",
+     "refs": [
+      "Jean 5:24",
+      "Jean 10:27-30"
+     ],
+     "accompagnateur": {
+      "attendu": "Ils ont la vie éternelle et ne viennent pas en jugement. Personne ne peut les arracher de la main de Jésus ni de celle du Père.",
+      "expliquer": [
+       "Le salut tient à la main de Dieu, pas à la mienne."
+      ],
+      "relance": "Qu'est-ce qui te fait douter ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Éphésiens 1:13-14 et Romains 8:38-39. Qu'est-ce qui garantit notre salut ?",
+     "refs": [
+      "Éphésiens 1:13-14",
+      "Romains 8:38-39"
+     ],
+     "accompagnateur": {
+      "attendu": "Le Saint-Esprit est le sceau et le gage de notre héritage. Rien ne peut nous séparer de l'amour de Dieu en Christ.",
+      "expliquer": [
+       "Voir aussi le pas 2 du volume 1."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Foi vraie et vie qui change",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Romains 6:1-6 et Matthieu 7:21-23. Comment distinguer un vrai croyant de quelqu'un qui dit seulement croire ?",
+     "refs": [
+      "Romains 6:1-6",
+      "Matthieu 7:21-23"
+     ],
+     "accompagnateur": {
+      "attendu": "Le vrai croyant est uni à Christ, il hait le péché et cherche à obéir. Celui qui dit « Seigneur, Seigneur » sans faire la volonté du Père n'est pas connu de Jésus.",
+      "expliquer": [
+       "La foi vraie produit une vie qui change, même imparfaite."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Hébreux 12:5-11 et 1 Corinthiens 3:11-15. Que fait Dieu quand un croyant s'égare ?",
+     "refs": [
+      "Hébreux 12:5-11",
+      "1 Corinthiens 3:11-15"
+     ],
+     "accompagnateur": {
+      "attendu": "Il le corrige comme un père. Les œuvres sont éprouvées : certaines brûlent, mais le croyant est sauvé, comme au travers du feu.",
+      "expliquer": [
+       "Le péché d'un croyant a des conséquences, mais n'annule pas sa naissance."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Philippiens 1:6 et 1 Jean 5:13. Pourquoi Dieu veut-il que nous sachions ?",
+     "refs": [
+      "Philippiens 1:6",
+      "1 Jean 5:13"
+     ],
+     "accompagnateur": {
+      "attendu": "Pour que nous sachions que nous avons la vie éternelle. Celui qui a commencé en nous une bonne œuvre la rendra parfaite.",
+      "expliquer": [
+       "Prier ensemble pour celui qui doute, et lui proposer de remettre sa vie à Christ s'il n'est pas sûr d'avoir vraiment cru."
+      ],
+      "relance": "Es-tu sûr d'avoir remis ta vie à Jésus ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Mon doute :",
+      "2. La promesse qui y répond :",
+      "3. Si je ne suis pas sûr, je remets ma vie à Jésus maintenant :",
+      "4. Ce que je change dans ma vie :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v5-pas-09-suis-je-encore-sauve"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Jean 5:24 de mémoire.",
+     "refs": [
+      "Jean 5:24"
+     ],
+     "accompagnateur": {
+      "attendu": "« En vérité, en vérité, je vous le dis, celui qui écoute ma parole, et qui croit à celui qui m'a envoyé, a la vie éternelle et ne vient point en jugement, mais il est passé de la mort à la vie. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Le salut est sûr",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Foi vraie et vie qui change",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Jean 5:24. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Écouter avant de répondre : derrière une objection il y a souvent une blessure.",
+   "Pour les sujets sensibles, s'en tenir à ce que dit la Bible et ne pas prendre parti contre une personne.",
+   "Si la personne vit une situation grave (violence, abus, détresse), chercher de l'aide avec le pasteur."
+  ]
+ }
+}
