@@ -4,6 +4,7 @@ import { positionLecture } from '../../donnees/annotations.js';
 import { PAR_CODE } from '../../bible/references.js';
 import { useSignal } from '../../outils/signal.js';
 import { aller } from '../../outils/routeur.js';
+import { CartePlanJour } from './Plan.jsx';
 
 const CARTES = [
   ['bible/livres', 'Lire la Bible', 'Tous les livres, chapitre par chapitre.', 'bible', '/assets/objets-bibliques/bible-ouverte.webp'],
@@ -34,6 +35,7 @@ export function BibleAccueil() {
           placeholder="Mot ou référence (Jn 3 16)" aria-label="Rechercher dans la Bible" enterkeyhint="search" />
       </form>
 
+      <CartePlanJour style="margin-top:12px" />
       {pos && (
         <a class="carte reprendre" href={`#/bible/lire/${pos.code}/${pos.c}${pos.v ? '/' + pos.v : ''}`}>
           <span class="reprendre__icone"><Icone nom="lecture" taille={20} /></span>

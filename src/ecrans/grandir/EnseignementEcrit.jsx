@@ -11,7 +11,19 @@ import { partager } from '../../outils/partage.js';
 import { SujetsACocher, blocsSujets } from '../priere/Veille.jsx';
 import { compter } from '../../donnees/mesure.js';
 import { marquerOuvert, marquerLu } from '../../donnees/lectures.js';
-import { PRIERES, COMBAT, VEILLES, ENSEIGNEMENTS } from '../../donnees/contenu.js';
+import { PRIERES, COMBAT, VEILLES, ENSEIGNEMENTS, NIVEAUX } from '../../donnees/contenu.js';
+
+// Série (niveau + groupe) qui contient cet enseignement, et l'enseignement suivant dans cette série.
+function placeDans(id) {
+  for (const n of NIVEAUX) {
+    const series = n.groupes?.length ? n.groupes : [{ titre: n.nom, enseignements: n.enseignements }];
+    for (let gi = 0; gi < series.length; gi++) {
+      const l = series[gi].enseignements.filter((x) => ENSEIGNEMENTS.some((e) => e.id === x)), i = l.indexOf(id);
+      if (i >= 0) return { niv: n.id, gi, serie: series[gi].titre, suivant: ENSEIGNEMENTS.find((e) => e.id === l[i + 1]) || null, rang: i + 1, total: l.length };
+    }
+  }
+  return null;
+}
 
 // Liste ordonnée de tout ce qui se lit à voix haute ; l'index sert aussi au surlignage.
 function plan(e) {
@@ -98,6 +110,12 @@ export function EnseignementEcrit({ id, ecouter }) {
       )}
       {e.prieres_liees?.length > 0 && <PrieresLiees liens={e.prieres_liees} />}
       <LienVideo url={e.video} duree={e.video_duree} auteur={e.auteur} />
+      {(() => { const pl = placeDans(e.id); return pl && (
+        <section class="carte bloc suite-ens">
+          <p class="ligne__desc" style="margin-top:0">Série « {pl.serie} » · enseignement {pl.rang} sur {pl.total}</p>
+          {pl.suivant && <a class="bouton bouton--or" style="width:100%" href={'#/grandir/enseignement/' + pl.suivant.id}>Enseignement suivant : {pl.suivant.titre} <Icone nom="chevron" taille={18} /></a>}
+          <a class="bouton bouton--contour" style="width:100%;margin-top:8px" href={`#/grandir/serie/${pl.niv}/${pl.gi}`}>Voir toute la série</a>
+        </section>); })()}
       <button class="bouton bouton--contour" style="width:100%;margin-top:16px" onClick={() => partager({ titre: e.titre, texte: `${e.titre}\n${e.resume}${e.video ? '\nVidéo : ' + e.video : ''}`, chemin: 'grandir/enseignement/' + e.id })}>
         <Icone nom="partager" taille={18} /> Partager cet enseignement</button>
       {e.titre_original && <p class="source-mention"><b>Titre original :</b> {e.titre_original}</p>}

@@ -2,6 +2,8 @@ import { Icone } from '../composants/Icone.jsx';
 import { usePassage, TextePassage, cheminMontrer } from '../composants/Verset.jsx';
 import { BandeauTelephone } from '../composants/BandeauTelephone.jsx';
 import { CarteParcoursAccueil } from './grandir/NouveauConverti.jsx';
+import { pasEnCours } from '../donnees/carnet.js';
+import { CartePlanJour } from './bible/Plan.jsx';
 import { versetDuJour, enseignementDuJour, veilleDuMoment, meditationDuJour } from '../donnees/contenu.js';
 import { orizon, jourCourant } from '../donnees/orizon.js';
 import { BoutonLecture } from '../composants/Audio.jsx';
@@ -37,11 +39,12 @@ export function Accueil() {
 
         <h2 class="titre-section sous-rubrique">Pour aujourd'hui</h2>
         <CarteParcoursAccueil />
+        <CartePlanJour style="margin-bottom:12px" />
         <section class="carte suivi-accueil">
           <div class="suivi-accueil__tete"><Icone nom="groupe" taille={24} /><div><b>Suivi des nouveaux convertis</b><span>Former le chrétien, pas à pas</span></div></div>
           <div class="suivi-accueil__boutons">
             <a class="bouton bouton--or" href="#/accompagner/disciples">J'accompagne quelqu'un</a>
-            <a class="bouton bouton--contour" href="#/accompagner">Je suis accompagné</a>
+            <a class="bouton bouton--contour" href={'#/accompagner/pas/' + (pasEnCours() || 'pas-01-le-salut')}>Je suis accompagné</a>
           </div>
         </section>
         <a class="carte accueil-priere" href={'#/priere/veille/' + v.id.replace('veille-', '')}>
@@ -50,7 +53,7 @@ export function Accueil() {
         </a>
         <div class="aujourdhui">
           <a class="carte aujourdhui__carte" href="#/bible/meditation"><Icone nom="ampoule" taille={22} /><b>Méditation du jour</b><span>{m?.titre || 'Un verset à méditer'}</span></a>
-          <a class="carte aujourdhui__carte" href={o.faits.length ? '#/orizon/jour/' + jourCourant() : '#/grandir/formation'}><Icone nom="grandir" taille={22} /><b>{o.faits.length ? 'Mon parcours' : 'Former le disciple'}</b><span>{o.faits.length ? 'Vaincre en 90 jours · jour ' + jourCourant() : '38 leçons pour grandir'}</span></a>
+          <a class="carte aujourdhui__carte" href={o.faits.length ? '#/orizon/jour/' + jourCourant() : '#/grandir/formation'}><Icone nom="grandir" taille={22} /><b>{o.faits.length ? 'Mon parcours' : 'Leçons d\'affermissement'}</b><span>{o.faits.length ? 'Vaincre en 90 jours · jour ' + jourCourant() : '38 leçons pour grandir'}</span></a>
         </div>
 
         {ens && (

@@ -111,8 +111,8 @@ function Partie({ n, k, rejouer }) {
   const p = route.valeur.params, defi = p.defi ? { score: +p.defi, nom: p.nom } : null;
   const q = qs[i];
   useEffect(() => () => arreterVoix(), []);
-  const ecouterBlocs = ([{ texte: (q.type === 'vf' ? 'Vrai ou faux ? ' : '') + q.question }, ...(q.type === 'qcm' ? ordre.map((c, j) => ({ texte: `Réponse ${'ABCD'[j]} : ${q.choix[c]}.` })) : [])]);
   const ordre = useMemo(() => (q?.type === 'qcm' ? melanger(q.choix.map((_, j) => j)) : [true, false]), [i]);
+  const ecouterBlocs = ([{ texte: (q.type === 'vf' ? 'Vrai ou faux ? ' : '') + q.question }, ...(q.type === 'qcm' ? ordre.map((c, j) => ({ texte: `Réponse ${'ABCD'[j]} : ${q.choix[c]}.` })) : [])]);
 
   function repondre(choix) {
     if (rep) return;

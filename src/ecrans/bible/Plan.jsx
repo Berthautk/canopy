@@ -109,3 +109,20 @@ export function Plan() {
     </div>
   );
 }
+
+// Carte « Ma lecture de la Bible » (accueil et page Bible) : la lecture du jour en un toucher.
+export function CartePlanJour({ style }) {
+  const p = useSignal(plan);
+  if (!p) return null;
+  const b = bilan(p), etapes = etapesDuJour(p), prochaine = etapes.find((x) => !x.lu);
+  const libelle = grouper(b.aujourdhui).map((g) => g.libelle).join(', ');
+  return (
+    <a class="carte ligne carte-plan-jour" style={style} href={prochaine ? `#/bible/lire/${prochaine.code}/${prochaine.c}${prochaine.v ? '/' + prochaine.v : ''}?plan=1` : '#/bible/plan'}>
+      <span class="ligne__icone"><Icone nom={prochaine ? 'bible' : 'verifie'} /></span>
+      <span class="ligne__corps"><span class="pastille pastille--or pastille--mini">Ma Bible en un an · jour {b.jour}</span>
+        <span class="ligne__titre" style="display:block">{prochaine ? (etapes.some((x) => x.lu) ? 'Continuer : ' : 'Lire : ') + prochaine.libelle : 'Lecture du jour terminée'}</span>
+        <span class="ligne__desc">{libelle || 'Rien de prévu aujourd\'hui'}</span></span>
+      <Icone nom="chevron" taille={20} />
+    </a>
+  );
+}

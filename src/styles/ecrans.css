@@ -1047,3 +1047,7 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .niveau-titre__marche { display: inline-flex; align-items: flex-end; gap: 2px; }
 .niveau-titre__marche i { width: 6px; height: 8px; background: #142340; border-radius: 2px; }
 .niveau-titre__marche i:nth-child(2) { height: 11px; } .niveau-titre__marche i:nth-child(3) { height: 14px; } .niveau-titre__marche i:nth-child(4) { height: 17px; } .niveau-titre__marche i:nth-child(5) { height: 20px; }
+.sommaire { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 12px 0 2px; }
+.sommaire__titre { font-size: .8rem; font-weight: 700; color: var(--texte-doux); margin-right: 2px; }
+.sommaire .puce { font-size: .82rem; }
+.suite-ens { margin-top: 18px; border: 2px solid var(--or); }

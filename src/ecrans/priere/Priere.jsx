@@ -1,3 +1,4 @@
+import { Sommaire } from '../../composants/Sommaire.jsx';
 import { useState } from 'preact/hooks';
 import { Icone } from '../../composants/Icone.jsx';
 import { CarteVerset } from '../../composants/Verset.jsx';
@@ -38,7 +39,8 @@ export function Priere() {
         </a>
       )}
 
-      <h2 class="titre-section">{v ? 'Les autres veilles du jour' : 'Les trois veilles du jour'}</h2>
+      <Sommaire parties={[['p-veilles', 'Veilles'], ['p-proche', 'Pour un proche'], ['p-themes', 'Prier pour…'], ['p-journal', 'Journal et demandes'], ['p-combat', 'Combat spirituel']]} />
+      <h2 class="titre-section" id="p-veilles">{v ? 'Les autres veilles du jour' : 'Les trois veilles du jour'}</h2>
       <div class="liste">
         {VEILLES.filter((x) => x.id !== v?.id).map((x) => (
           <a class={'carte ligne veille-ligne' + (x.id === v?.id ? ' veille-ligne--active' : '')} href={'#/priere/veille/' + x.id.replace('veille-', '')}>
@@ -56,7 +58,7 @@ export function Priere() {
         <span class="veille-ligne__ouvrir">Ouvrir <Icone nom="chevron" taille={18} /></span>
       </a>
 
-      <h2 class="titre-section">Prier pour un proche</h2>
+      <h2 class="titre-section" id="p-proche">Prier pour un proche</h2>
       <a class="carte theme pq-carte" href="#/priere/pour-quelqu-un">
         <img src="/assets/priere/priere-en-famille.webp" alt="" loading="lazy" />
         <span class="ligne__corps"><span class="ligne__titre" style="display:block">Programmes pour les familles et les couples</span>
@@ -70,7 +72,7 @@ export function Priere() {
         <Icone nom="chevron" taille={20} />
       </a>
 
-      <h2 class="titre-section">Prier pour…</h2>
+      <h2 class="titre-section" id="p-themes">Prier pour…</h2>
       <p class="ligne__desc" style="margin:-4px 4px 8px">Touche un thème pour voir ses sujets de prière.</p>
       {categories.map((c) => {
         const liste = PRIERES.filter((p) => p.categorie === c), deplie = ouvert === c || liste.length <= 2;
@@ -85,7 +87,7 @@ export function Priere() {
         );
       })}
 
-      <h2 class="titre-section">Mon journal et mes demandes</h2>
+      <h2 class="titre-section" id="p-journal">Mon journal et mes demandes</h2>
       <a class="carte ligne journal-lien" href="#/priere/journal">
         <span class="ligne__icone"><Icone nom="note" /></span>
         <span class="ligne__corps"><span class="ligne__titre" style="display:block">Mon journal de prière</span>
@@ -99,7 +101,7 @@ export function Priere() {
         <Icone nom="chevron" taille={20} />
       </a>
 
-      <h2 class="titre-section">Combat spirituel</h2>
+      <h2 class="titre-section" id="p-combat">Combat spirituel</h2>
       <p class="ligne__desc" style="margin:-4px 4px 8px">Des fiches de prière à prier avec persévérance. Rédigées par l'évangéliste Sophonie Blaise, ministère AJ (Amoureux de Jésus), et publiées avec son autorisation.</p>
       <div class="grille-combat">
         {COMBAT.map((c) => (

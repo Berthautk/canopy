@@ -215,3 +215,5 @@ button.selecteur { font: inherit; cursor: pointer; }
 .plan-bandeau { display: flex; align-items: center; gap: 6px; margin: 4px 0 8px; padding: 6px 10px; border-radius: 10px; background: rgba(201,154,46,.16); color: var(--titre); font-size: .85rem; font-weight: 600; }
 .plan-suite { margin-top: 18px; border: 2px solid var(--or); text-align: center; }
 .lecture__options { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+.carte-plan-jour { border: 2px solid var(--or); }
+.carte-plan-jour .pastille { margin-bottom: 4px; }

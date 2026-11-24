@@ -1,5 +1,5 @@
 import { Icone } from '../../composants/Icone.jsx';
-import { FORMATION, ENSEIGNEMENTS } from '../../donnees/contenu.js';
+import { FORMATION, ENSEIGNEMENTS, ACCOMPAGNEMENT } from '../../donnees/contenu.js';
 import { stats } from '../../jeux/stats.js';
 
 // « Former le disciple » : 38 leçons en 3 volumes ; chaque leçon rédigée ouvre un enseignement complet.
@@ -9,6 +9,12 @@ export function Formation() {
   return (
     <div class="page">
       <div class="chemin-hero"><h2>{FORMATION.titre}</h2><p>{FORMATION.resume}</p></div>
+      <a class="carte ligne" href="#/accompagner" style="margin:0 0 10px;border:2px solid var(--or)">
+        <span class="ligne__icone"><Icone nom="groupe" /></span>
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">À faire avec un accompagnateur ?</span>
+          <span class="ligne__desc">Le « Suivi des nouveaux convertis » reprend ces leçons pas à pas : carnet, questions, rencontre chaque semaine.</span></span>
+        <Icone nom="chevron" taille={20} />
+      </a>
       <p class="ligne__desc" style="margin:0 4px 8px">{ecrites} leçon{ecrites > 1 ? 's' : ''} disponible{ecrites > 1 ? 's' : ''} sur {FORMATION.volumes.flatMap((v) => v.lecons).length}{ecrites < FORMATION.volumes.flatMap((v) => v.lecons).length ? " · les suivantes arrivent au fil des mises à jour." : "."}</p>
       {FORMATION.volumes.map((v) => (
         <section class="carte bloc">
