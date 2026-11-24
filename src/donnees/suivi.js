@@ -1,7 +1,7 @@
 // Lien encadreur ↔ disciple (serveur : /api/suivi). Les réponses du carnet sont envoyées automatiquement
 // à l'encadreur quand le disciple est relié. Le bilan de vie n'est jamais envoyé.
 import { signal } from '../outils/signal.js';
-import { lireCarnet, lireDisciples, ecrireDisciples, quandCarnetChange } from './carnet.js';
+import { lireCarnet, lireDisciples, ecrireDisciples, quandCarnetChange, effacerBilan } from './carnet.js';
 
 const lire = (cle, defaut) => { try { const v = localStorage.getItem(cle); return v ? JSON.parse(v) : defaut; } catch { return defaut; } };
 const ecrire = (cle, v) => { try { v == null ? localStorage.removeItem(cle) : localStorage.setItem(cle, JSON.stringify(v)); } catch {} };
@@ -65,6 +65,22 @@ export async function creerDisciple(prenom) {
   const nouveau = { id: 'd' + Date.now().toString(36), prenom: prenom.trim(), code: d.code, cle: d.cle, pas: 'pas-01-le-salut', versets: [], notes: '', rdv: '', accueil: false };
   ecrireDisciples([...lireDisciples(), nouveau]);
   return nouveau;
+}
+export async function renommerDisciple(dsc, prenom) {
+  const p = String(prenom || '').trim();
+  if (p.length < 2) throw new Error('Le prénom est trop court.');
+  if (dsc.code) await api('renommer', { code: dsc.code, cle: dsc.cle, prenom: p });
+  ecrireDisciples(lireDisciples().map((x) => (x.id === dsc.id ? { ...x, prenom: p } : x)));
+  return p;
+}
+// Côté converti : tout effacer de ce téléphone (lien, prénom, réponses, bilan de vie).
+export async function effacerMesDonnees() {
+  const l = lienDisciple.valeur;
+  if (l?.mode === 'relie') { try { await api('supprimer', { code: l.code, cle: l.cle }); } catch {} }
+  garderLien(null);
+  try { Object.keys(localStorage).filter((k) => k.startsWith('yeshaya:carnet:') || k === 'yeshaya:suivi-a-envoyer').forEach((k) => localStorage.removeItem(k)); } catch {}
+  aEnvoyer.clear();
+  effacerBilan();
 }
 export async function etatDuDisciple(dsc) { return api('etat', { code: dsc.code, cle: dsc.cle }); }
 export async function avancerDisciple(dsc, pas) {

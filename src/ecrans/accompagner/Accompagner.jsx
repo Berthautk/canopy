@@ -15,7 +15,7 @@ import {
 } from '../../donnees/carnet.js';
 import {
   lienDisciple, rejoindre, travaillerSeul, quitterLien, actualiserDisciple, etatEnvoi, formaterCode,
-  creerDisciple, etatDuDisciple, avancerDisciple, retirerDisciple,
+  creerDisciple, etatDuDisciple, avancerDisciple, retirerDisciple, renommerDisciple, effacerMesDonnees,
 } from '../../donnees/suivi.js';
 
 // Suivi des nouveaux convertis (« Former le chrétien ») : méthode inspirée de La Nouvelle Vie en Christ.
@@ -122,6 +122,8 @@ export function EspaceDisciple() {
       <details class="carte bloc acc-plus"><summary><b>Mon lien avec mon encadreur</b></summary>
         {l.mode === 'relie' ? <p>Code : <b>{l.code}</b>. Ton encadreur voit les réponses de ton carnet ; il te remet le pas suivant après votre rencontre.</p> : <p>Quand tu auras un encadreur, il te donnera un code.</p>}
         <button class="bouton bouton--contour" style="width:100%" onClick={async () => { if (l.mode === 'relie' && !confirm('Arrêter le lien avec ton encadreur ? Il ne verra plus tes réponses.')) return; await quitterLien(l.mode === 'relie'); }}>{l.mode === 'relie' ? 'Arrêter le lien' : 'J\'ai reçu un code de mon encadreur'}</button>
+        <p class="ligne__desc" style="margin-top:12px">Pour repartir à zéro (par exemple après un essai), efface ton prénom, tes réponses et ton bilan de vie de ce téléphone.</p>
+        <button class="lien" style="color:var(--rouge, #b3261e)" onClick={async () => { if (confirm('Tout effacer de ce téléphone : ton prénom, tes réponses, ton bilan de vie et le lien avec ton encadreur ? Cela ne peut pas être annulé.')) { await effacerMesDonnees(); notifier('Tout a été effacé'); aller('accompagner'); } }}>Tout effacer de ce téléphone</button>
       </details>
     </div>
   );
@@ -233,7 +235,7 @@ export function FicheDisciple({ id }) {
         <label class="etiquette-champ">Mes notes (points à reprendre, sujets de prière)</label>
         <textarea class="champ champ--zone" rows={4} value={d.notes} onInput={(e) => maj('notes', e.currentTarget.value)} />
       </section>
-      <details class="carte bloc acc-plus"><summary><b>Plus d'options</b></summary>
+      <details class="carte bloc acc-plus"><summary><b>Plus d'options : changer le prénom, arrêter le suivi</b></summary>
         {d.code && <p>Code de {d.prenom} : <b>{d.code}</b></p>}
         {d.accueil && <a class="lien" href={'#/accompagner/encadreur/' + d.id + '/accueil'}>Revoir la rencontre d'accueil</a>}
         <label class="etiquette-champ">Changer le pas en cours</label>
@@ -241,6 +243,12 @@ export function FicheDisciple({ id }) {
           {tousLesPas().filter((x) => x.id).map((x) => <option value={x.id}>Pas {x.numero} · {x.titre}</option>)}
         </select>
         <button class="bouton bouton--contour" style="width:100%;margin-top:10px" onClick={() => aller(`accompagner/pas/${p.id}?imprimer=vierge`)}>Fiche vierge du pas {p.numero} (papier ou PDF)</button>
+        <label class="etiquette-champ">Corriger le prénom</label>
+        <form style="display:flex;gap:8px" onSubmit={async (e) => { e.preventDefault(); const v = e.currentTarget.elements.nouveau.value; try { await renommerDisciple(d, v); setL(lireDisciples()); notifier('Prénom changé'); } catch (err) { notifier(err.message); } }}>
+          <input name="nouveau" class="champ" defaultValue={d.prenom} style="flex:1" />
+          <button class="bouton bouton--contour">Changer</button>
+        </form>
+        {d.code && <p class="ligne__desc">Si {d.prenom} a déjà son code, il garde son lien : seul le prénom affiché change.</p>}
         <button class="lien" style="margin-top:10px;color:var(--rouge, #b3261e)" onClick={async () => { if (confirm('Arrêter le suivi de ' + d.prenom + ' ? Ses réponses seront effacées du serveur.')) { await retirerDisciple(d); revenirOuRemplacer('accompagner/encadreur'); } }}>Arrêter le suivi de {d.prenom}</button>
       </details>
     </div>

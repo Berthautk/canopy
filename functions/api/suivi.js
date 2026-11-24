@@ -85,6 +85,14 @@ export async function onRequestPost({ request, env }) {
     return json({ ok: true, pas: c.pas });
   }
 
+  // Corriger le prénom : seul l'encadreur.
+  if (c.action === 'renommer' && encadreur) {
+    const prenom = String(c.prenom || '').trim().slice(0, 40);
+    if (propre(prenom).length < 2) return json({ ok: false, erreur: 'prénom trop court' }, 400);
+    await db.prepare('UPDATE suivis SET prenom = ?, maj = ? WHERE code = ?').bind(prenom, maintenant(), code).run();
+    return json({ ok: true, prenom });
+  }
+
   // Arrêter le suivi : tout est effacé du serveur (par l'un ou l'autre).
   if (c.action === 'supprimer') {
     await db.prepare('DELETE FROM carnets WHERE code = ?').bind(code).run();
