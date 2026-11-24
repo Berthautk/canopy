@@ -1,463 +1,362 @@
 {
  "id": "islam-05-revelation",
- "titre": "Comment la « révélation » venait à Mahomet, et comment la vérifier",
+ "titre": "Comment la « révélation » venait à Mahomet",
  "serie": "L'islam de A à Z",
  "theme": "Islam",
  "auteur": "Yeshaya",
- "resume": "Le son d'une cloche, la sueur par un jour de grand froid, un ange qui prend la forme d'un homme, des révélations reçues sous la couverture d'Aïcha, des versets qui arrivent juste au bon moment pour régler une affaire de famille, et l'ange Gabriel qui dit le contraire de ce qu'il a dit à Marie. Cet enseignement raconte ce que disent les hadiths sur la manière dont Mahomet recevait le Coran. Et il donne les critères de la Bible pour vérifier si un prophète vient de Dieu.",
+ "resume": "Pour un musulman, le Coran est la parole même d'Allah, descendue sur Mahomet par l'ange Gabriel pendant vingt-trois ans. Mais comment exactement ? Qu'est-ce que la « Table gardée » ? Pourquoi le Coran est-il descendu morceau par morceau ? Comment l'ange apparaissait-il ? Que se passait-il dans le corps de Mahomet au moment de la révélation ? Quelle différence y a-t-il entre le Coran, le hadith divin et le hadith du prophète ? Pourquoi tant de versets répondent-ils à des événements de sa vie, même à des affaires de famille ? Qu'est-ce que l'abrogation, et que dire des versets oubliés ? Tout ce que disent le Coran et les hadiths sur la révélation.",
  "image": "/assets/objets-bibliques/rouleau-parchemin.webp",
  "verset_de_base": "Nb 23:19",
- "lecture_minutes": 31,
+ "lecture_minutes": 30,
  "objectifs": [
-  "Connaître les différentes manières dont la révélation venait à Mahomet, selon les hadiths.",
-  "Savoir ce que disent les livres sur les révélations reçues chez Aïcha, et sur les révélations liées à la vie privée du prophète.",
-  "Comparer le Gabriel du Coran et le Gabriel de l'Évangile.",
-  "Connaître les critères de la Bible pour vérifier un prophète.",
-  "Apprendre à poser ces questions avec respect à un ami musulman."
+  "Comprendre ce que les musulmans croient de la révélation : la Table gardée, la descente du Coran.",
+  "Connaître l'ange Gabriel tel que l'islam le présente.",
+  "Connaître les différentes manières dont la révélation venait, et ce qu'elle faisait au corps de Mahomet.",
+  "Distinguer le Coran, le hadith divin et le hadith du prophète.",
+  "Connaître les « circonstances de la révélation », avec des exemples précis.",
+  "Comprendre l'abrogation, l'oubli de certains versets et le travail des scribes."
  ],
- "introduction": "Pour un musulman, le Coran n'est pas un livre écrit par Mahomet. C'est la Parole même d'Allah. Elle est éternelle. Elle est écrite sur une « Table gardée », dans le ciel. Et elle est descendue mot à mot sur le cœur du prophète, par l'ange Gabriel, en langue arabe, pendant vingt-trois ans.\n\nSelon cette croyance, Mahomet n'a rien ajouté et rien enlevé. Il était seulement le tuyau par où passait la parole. Il récitait ce qu'il entendait. C'est pour cela que le musulman ne touche pas le Coran s'il n'est pas en état de pureté. C'est pour cela qu'il ne le pose jamais par terre. Et c'est pour cela qu'il l'apprend par cœur en arabe, même s'il ne comprend pas cette langue.\n\nCette croyance est au centre de l'islam. Tout le reste en dépend. Si le Coran vient vraiment de Dieu, mot à mot, alors il a le dernier mot sur tout, y compris sur Jésus. Mais si ce n'est pas le cas, alors toute la maison tremble.\n\nIl est donc juste de poser ces questions. Comment ces paroles venaient-elles à Mahomet ? Que disent les livres des musulmans eux-mêmes ? Et quels critères Dieu nous a-t-il donnés pour savoir si un message vient vraiment de lui ?\n\nNous allons répondre à ces questions avec précision. Encore une fois, notre but n'est pas de blesser. Notre but est de comprendre et d'aider. Le musulman sincère mérite qu'on lui parle avec vérité, comme on parlerait à un frère qui risque de se tromper de chemin.",
+ "introduction": "Pour un musulman, le Coran n'est pas un livre écrit par Mahomet. Ce n'est pas non plus un livre inspiré, comme les chrétiens disent que la Bible est inspirée, écrite par des hommes poussés par l'Esprit de Dieu. Pour le musulman, le Coran est la parole même d'Allah, mot à mot, lettre à lettre. Mahomet n'a rien inventé, rien ajouté, rien enlevé. Il était seulement le canal par où la parole passait. Il entendait, il retenait, il récitait.\n\nC'est pourquoi le musulman traite le Coran avec un très grand respect. Il ne le touche pas s'il n'a pas fait ses ablutions. Il ne le pose jamais par terre. Il le garde en hauteur dans la maison. Il l'apprend par cœur en arabe, même s'il ne comprend pas cette langue. Pour lui, réciter le Coran, c'est faire résonner la voix même de Dieu.\n\nMais comment cette parole est-elle arrivée jusqu'à Mahomet ? Qu'est-ce qui se passait exactement au moment de la révélation ? Le Coran et les hadiths en parlent beaucoup. Dans cet enseignement, nous allons rassembler tout ce qu'ils disent. Nous allons voir ce que le musulman croit, et ce que racontent les compagnons qui ont vu Mahomet recevoir la révélation.",
  "sections": [
   {
    "numero": "1",
-   "titre": "Le son de la cloche et la sueur",
-   "references": [
-    "Dn 10:8",
-    "Ap 1:17"
-   ],
+   "titre": "Ce que croient les musulmans : la Table gardée",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Comment est-ce que la révélation venait ?"
+     "sous_titre": "Le Coran éternel"
     },
     {
-     "texte": "Au tout début de son recueil, Boukhari a placé un hadith qui répond à cette question. Un compagnon, Al-Harith ibn Hicham, a demandé à Mahomet : « Ô messager d'Allah, comment la révélation te vient-elle ? »"
+     "texte": "Pour la plupart des musulmans, le Coran est éternel. Il n'a pas été créé. Il existe depuis toujours auprès d'Allah, parce qu'il est sa parole, et qu'Allah a toujours parlé. Au neuvième siècle, il y a eu une grande dispute entre les savants musulmans sur cette question. Certains disaient que le Coran avait été créé. Un calife a même fait emprisonner et frapper les savants qui disaient qu'il était éternel. Mais à la fin, c'est l'idée d'un Coran éternel, non créé, qui a gagné chez les sunnites."
     },
     {
-     "texte": "Mahomet a répondu : « Parfois, elle vient à moi comme le tintement d'une cloche. C'est la forme la plus pénible pour moi. Puis cela me quitte, et j'ai retenu ce qui a été dit. Parfois, l'ange prend pour moi la forme d'un homme. Il me parle, et je retiens ce qu'il dit. »"
+     "sous_titre": "La Table gardée"
     },
     {
-     "texte": "Et Aïcha ajoute : « Je l'ai vu recevoir la révélation par un jour de très grand froid. Quand la révélation le quittait, son front coulait de sueur. » On lit cela dans Boukhari, au hadith 2."
+     "texte": "Le Coran parle d'un livre céleste, qu'il appelle « la Table gardée ». Il dit : c'est plutôt un Coran glorifié, sur une Table gardée (sourate 85, versets 21 et 22). Il parle aussi de « la mère du Livre » (sourate 43, verset 4). Pour les musulmans, cela veut dire que le texte original du Coran est écrit dans le ciel, auprès d'Allah. Ce qui est descendu sur Mahomet est une copie exacte de ce livre céleste."
     },
     {
-     "sous_titre": "D'autres signes dans le corps"
+     "sous_titre": "Deux descentes"
     },
     {
-     "texte": "D'autres hadiths décrivent ce qui arrivait à Mahomet au moment de la révélation."
+     "texte": "Selon une tradition rapportée d'Ibn Abbas, un cousin de Mahomet, le Coran est descendu en deux étapes. D'abord, en une seule fois, de la Table gardée jusqu'au ciel le plus proche de la terre, pendant une nuit du mois de ramadan. Cette nuit s'appelle « la nuit du destin ». Le Coran dit : nous l'avons fait descendre pendant la nuit du destin. La nuit du destin est meilleure que mille mois (sourate 97, versets 1 à 3). Ensuite, depuis ce ciel, Gabriel l'a apporté à Mahomet morceau par morceau, pendant vingt-trois ans, selon les événements."
     },
     {
-     "texte": "Mouslim raconte que Mahomet était accablé, et que la couleur de son visage changeait (Mouslim, hadith 2334)."
+     "texte": "C'est pour cela que les musulmans prient beaucoup pendant les dix dernières nuits du ramadan. Ils cherchent la nuit du destin, que beaucoup placent la vingt-septième nuit. Ils pensent que les prières de cette nuit valent plus que celles de mille mois."
     },
     {
-     "texte": "Un compagnon l'a observé un jour à ce moment-là. Il raconte que son visage était rouge, et qu'il respirait bruyamment, comme un homme qui ronfle. Puis cela est passé (Boukhari, hadith 1789). Pendant ce temps, on le couvrait d'un drap."
+     "sous_titre": "Pourquoi morceau par morceau ?"
     },
     {
-     "texte": "Un autre compagnon raconte que la cuisse de Mahomet était posée sur la sienne au moment où une révélation est descendue. Elle est devenue si lourde qu'il a cru que sa propre cuisse allait se casser (Boukhari, hadith 2832)."
-    },
-    {
-     "sous_titre": "La Bible aussi parle de crainte"
-    },
-    {
-     "texte": "Le chrétien doit être honnête. Dans la Bible aussi, rencontrer Dieu ou un ange peut bouleverser un homme. Le prophète Daniel, devant la vision d'un homme habillé de lin, perd ses forces et tombe face contre terre (Daniel 10:8-9). L'apôtre Jean, devant Jésus dans sa gloire, tombe à ses pieds comme mort (Apocalypse 1:17). La sainteté de Dieu écrase l'homme pécheur."
-    },
-    {
-     "texte": "Mais regarde bien ce qui se passe ensuite dans ces deux récits. À Daniel, l'ange dit : « Daniel, homme bien-aimé, ne crains rien », et il lui rend ses forces. À Jean, Jésus pose sa main droite sur lui et lui dit : « Ne crains point. »"
-    },
-    {
-     "texte": "En d'autres termes, dans la Bible, la rencontre avec Dieu commence parfois par la peur, mais elle conduit à la paix. Dieu se penche vers l'homme, le relève et le rassure. Dans les récits de la révélation du Coran, on voit la souffrance, la sueur et le poids. Mais on ne voit pas cette main qui relève, ni ce « ne crains point » qui rassure."
+     "texte": "Les gens de La Mecque demandaient à Mahomet : « Pourquoi le Coran n'est-il pas descendu sur toi en une seule fois, comme un livre complet ? » Le Coran répond : c'est pour raffermir ton cœur. Et nous l'avons récité soigneusement (sourate 25, verset 32). En d'autres termes, le Coran est venu petit à petit, pour encourager Mahomet au fil des difficultés, et pour répondre aux questions et aux événements de chaque moment."
     }
    ]
   },
   {
    "numero": "2",
-   "titre": "« La révélation ne m'est venue sous la couverture d'aucune femme, sauf Aïcha »",
-   "references": [
-    "1 Th 4:3-4",
-    "He 13:4"
-   ],
+   "titre": "L'ange de la révélation",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le hadith"
+     "sous_titre": "Gabriel, ou Jibril"
     },
     {
-     "texte": "Voici un hadith que nous devons citer exactement, sans rien ajouter."
+     "texte": "Selon l'islam, celui qui apportait le Coran à Mahomet est l'ange Gabriel, en arabe « Jibril ». Le Coran dit : dis : quiconque est ennemi de Gabriel, c'est lui qui, avec la permission d'Allah, a fait descendre sur ton cœur cette révélation (sourate 2, verset 97). Le Coran l'appelle aussi « l'Esprit fidèle » (sourate 26, verset 193) et « l'Esprit de sainteté » (sourate 16, verset 102)."
     },
     {
-     "texte": "Les autres femmes de Mahomet se plaignaient. Elles trouvaient qu'il préférait Aïcha. Elles ont envoyé l'une d'entre elles, Oumm Salama, pour lui en parler. Mahomet lui a répondu : « Ô Oumm Salama, ne me fais pas de peine au sujet d'Aïcha. Car, par Allah, la révélation ne m'est jamais venue alors que j'étais sous la couverture d'aucune de vous, sauf elle. » On lit cela dans Boukhari, au hadith 3775, et aussi au hadith 2581."
+     "texte": "Il est important de bien comprendre ce dernier nom. Quand un musulman parle de « l'Esprit saint », il ne pense pas à Dieu lui-même. Il pense à un ange, Gabriel. Pour l'islam, Gabriel est une créature, un serviteur d'Allah, le plus grand des anges."
     },
     {
-     "sous_titre": "Ce que cela veut dire"
+     "sous_titre": "Gabriel dans sa vraie forme"
     },
     {
-     "texte": "Ce hadith dit donc clairement une chose. Mahomet recevait parfois la révélation alors qu'il était couché sous la même couverture qu'Aïcha. Et il présentait cela comme un honneur spécial pour elle. Il l'a dit au moment même où il réglait une affaire de jalousie entre ses femmes."
+     "texte": "Selon les hadiths, Mahomet n'a vu Gabriel dans sa vraie forme que deux fois. La première fois, c'est après le silence qui a suivi la grotte de Hira. Il a vu l'ange assis sur un trône entre le ciel et la terre, remplissant tout l'horizon. La deuxième fois, c'est pendant la montée au ciel, près de l'arbre appelé « le jujubier de la limite ». Le Coran parle de ces deux visions dans la sourate 53."
     },
     {
-     "texte": "Nous ne voulons pas faire de ce récit un sujet de moquerie. Mais le chrétien peut remarquer une chose étrange. Le lieu où Dieu parle est utilisé comme argument dans une dispute entre épouses."
+     "texte": "Ibn Massoud, un compagnon, a expliqué ces versets ainsi : Mahomet a vu Gabriel avec six cents ailes (Boukhari, hadith 4857). D'autres récits disent que ces ailes couvraient tout l'horizon, et que des perles et des pierres précieuses tombaient de ses ailes."
     },
     {
-     "texte": "Dans la Bible, les révélations les plus solennelles sont souvent données dans des lieux mis à part pour Dieu. Moïse doit enlever ses sandales devant le buisson ardent. Avant que Dieu parle au mont Sinaï, le peuple doit se préparer pendant trois jours, et les maris et les femmes doivent s'abstenir de relations (Exode 19:15)."
+     "sous_titre": "Gabriel sous la forme d'un homme"
     },
     {
-     "texte": "Attention, cela ne veut pas dire que le mariage est sale. Au contraire, la Bible dit que le lit conjugal doit être honoré et sans souillure (Hébreux 13:4). Mais la Parole de Dieu n'est jamais utilisée pour donner l'avantage à une épouse dans une dispute."
+     "texte": "Le plus souvent, selon les hadiths, Gabriel venait sous la forme d'un homme. Il prenait souvent l'apparence d'un compagnon très beau, appelé Dihya al-Kalbi. Les gens présents voyaient parfois cet homme, sans savoir que c'était un ange. Nous avons vu le célèbre hadith de Gabriel, où un homme aux vêtements très blancs est venu poser des questions au prophète devant ses compagnons. Après son départ, Mahomet a dit : « C'était Gabriel. »"
+    },
+    {
+     "sous_titre": "La révision du Coran"
+    },
+    {
+     "texte": "Selon un hadith rapporté par Boukhari, chaque année, pendant le mois de ramadan, Gabriel venait réciter avec Mahomet tout ce qui était déjà descendu du Coran. Ils le révisaient ensemble. Et l'année de sa mort, ils l'ont révisé deux fois. Ibn Abbas dit aussi que, pendant le ramadan, quand Gabriel le rencontrait chaque nuit, Mahomet devenait plus généreux que le vent (Boukhari, hadith 6)."
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "Des révélations qui arrivent juste au bon moment",
-   "references": [
-    "Nb 23:19",
-    "Ml 3:6"
-   ],
+   "titre": "Les manières dont la révélation venait",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le mariage avec Zaynab"
+     "sous_titre": "Le hadith de la cloche"
     },
     {
-     "texte": "Dans l'enseignement précédent, nous avons vu une révélation du Coran qui autorise Mahomet à épouser Zaynab, l'ancienne femme de son fils adoptif. Cette même révélation supprime l'adoption (sourate 33, verset 37)."
+     "texte": "Boukhari a placé au tout début de son recueil un hadith qui répond à cette question. Un compagnon, al-Harith ibn Hicham, a demandé à Mahomet : « Ô messager d'Allah, comment la révélation te vient-elle ? »"
     },
     {
-     "texte": "Nous avons vu aussi les versets qui donnent au prophète des privilèges que les autres croyants n'ont pas. Il peut avoir plus de quatre femmes. Il peut épouser une femme qui « se donne » à lui. Et il peut choisir librement chez laquelle de ses femmes il passe la nuit (sourate 33, versets 50 et 51)."
+     "texte": "Mahomet a répondu : « Parfois, elle vient à moi comme le tintement d'une cloche. C'est la forme la plus pénible pour moi. Puis cela me quitte, et j'ai retenu ce qui a été dit. Parfois, l'ange prend pour moi la forme d'un homme. Il me parle, et je retiens ce qu'il dit » (Boukhari, hadith 2)."
     },
     {
-     "texte": "C'est après ces versets qu'Aïcha a dit cette phrase, que Boukhari a gardée : « Je vois que ton Seigneur se dépêche de satisfaire tes désirs » (Boukhari, hadith 4788)."
+     "sous_titre": "Les autres manières"
     },
     {
-     "texte": "Fais bien attention à qui parle ici. Ce n'est pas un ennemi de l'islam. C'est la femme préférée du prophète, celle que les musulmans appellent « la mère des croyants »."
+     "texte": "Les savants musulmans ont rassemblé tous les récits, et ils comptent plusieurs manières dont la révélation venait."
     },
     {
-     "sous_titre": "L'affaire du miel"
+     "texte": "Première manière : les rêves vrais. Aïcha dit que la révélation a commencé par des rêves qui se réalisaient, clairs comme la lumière du matin (Boukhari, hadith 3). Pour les musulmans, les rêves des prophètes sont une révélation."
     },
     {
-     "texte": "Boukhari raconte une autre histoire. Mahomet aimait passer chez une de ses femmes, Zaynab, qui lui offrait du miel. Aïcha et Hafsa étaient jalouses. Alors elles se sont mises d'accord pour lui dire, chacune à son tour, qu'il sentait mauvais, comme une certaine gomme. Mahomet a alors juré de ne plus boire ce miel."
+     "texte": "Deuxième manière : une inspiration dans le cœur, sans voir l'ange. Un hadith dit que l'Esprit de sainteté a soufflé dans le cœur du prophète."
     },
     {
-     "texte": "Et une révélation est descendue : « Ô prophète, pourquoi t'interdis-tu ce qu'Allah t'a rendu licite, cherchant à plaire à tes épouses ? » La suite de la sourate menace les deux femmes complices. Elle dit que si le prophète les répudie, son Seigneur lui donnera à leur place des épouses meilleures qu'elles (sourate 66, versets 1 à 5 ; Boukhari, hadith 4912)."
+     "texte": "Troisième manière : le son de la cloche, le plus difficile."
     },
     {
-     "texte": "D'autres commentateurs relient ces versets à une autre affaire, avec Maria la Copte. Mais dans les deux cas, une histoire de famille est réglée par une révélation qui est censée être éternelle."
+     "texte": "Quatrième manière : l'ange sous la forme d'un homme, qui parle."
     },
     {
-     "sous_titre": "L'affaire du collier"
+     "texte": "Cinquième manière : l'ange dans sa vraie forme."
     },
     {
-     "texte": "En l'an 627, au retour d'une expédition, Aïcha est restée en arrière pour chercher un collier perdu. Un jeune homme l'a trouvée et l'a ramenée au camp sur son chameau. Des rumeurs ont commencé : on a accusé Aïcha d'avoir trompé son mari."
+     "texte": "Sixième manière : Allah qui parle directement, sans intermédiaire, comme il a parlé à Moïse. Selon les musulmans, cela est arrivé pendant la montée au ciel, quand les cinquante prières ont été réduites à cinq."
     },
     {
-     "texte": "Pendant environ un mois, aucune révélation n'est venue pour dire la vérité. Mahomet a demandé conseil à ses proches. Ali lui a même conseillé : « Les femmes ne manquent pas. » Puis une révélation est descendue. Elle a déclaré qu'Aïcha était innocente, et elle a puni ceux qui l'avaient accusée (sourate 24, versets 11 à 20 ; Boukhari, hadith 4750)."
+     "sous_titre": "Le Coran à Mahomet seulement"
     },
     {
-     "texte": "Les musulmans voient dans cette histoire la preuve qu'Allah prenait soin d'Aïcha. Mais on peut poser une question. Pourquoi est-ce que Dieu, qui sait tout, a laissé son prophète dans le doute pendant un mois au sujet de sa propre femme ?"
-    },
-    {
-     "sous_titre": "« Omar a été d'accord avec son Seigneur »"
-    },
-    {
-     "texte": "Voici quelque chose de plus surprenant encore. Boukhari raconte qu'Omar disait : « J'ai été d'accord avec mon Seigneur sur trois choses. »"
-    },
-    {
-     "texte": "Première chose : Omar avait proposé de prier à un endroit près de la Kaaba appelé la station d'Abraham. Ensuite, un verset est descendu dans ce sens."
-    },
-    {
-     "texte": "Deuxième chose : Omar avait proposé que les femmes du prophète se voilent devant les visiteurs. Ensuite, le verset du voile est descendu."
-    },
-    {
-     "texte": "Troisième chose : Omar avait dit aux femmes jalouses que le prophète pourrait en trouver de meilleures. Ensuite, un verset est descendu avec presque les mêmes mots (Boukhari, hadith 402)."
-    },
-    {
-     "texte": "Tu vois ce qui se passe ? Dans ces cas, ce n'est pas Dieu qui parle d'abord, et Omar qui obéit ensuite. C'est Omar qui propose d'abord, et la révélation qui suit."
-    },
-    {
-     "sous_titre": "Le Dieu qui ne change pas"
-    },
-    {
-     "texte": "La Bible dit de Dieu : Dieu n'est point un homme pour mentir, ni fils d'un homme pour se repentir (Nombres 23:19). Et encore : je suis l'Éternel, je ne change pas (Malachie 3:6)."
-    },
-    {
-     "verset": "Nb 23:19"
-    },
-    {
-     "verset": "Ml 3:6"
-    },
-    {
-     "texte": "Cela veut dire que les commandements de Dieu ne s'adaptent pas aux désirs d'un homme, même du plus grand. Quand le roi David a désiré la femme d'un autre, Dieu ne lui a pas envoyé une révélation pour l'autoriser. Il lui a envoyé un prophète pour le reprendre."
-    },
-    {
-     "texte": "Prenons un exemple de chez nous. Imagine un chef de quartier qui change le règlement chaque fois que cela l'arrange. Un jour, il interdit de garer les voitures devant sa maison. Le lendemain, quand il a besoin de garer la sienne, il change la règle. Est-ce qu'on va dire que ce règlement vient de Dieu ? Non. On va dire qu'il vient des besoins du chef."
-    },
-    {
-     "texte": "Voilà une question sérieuse que nous pouvons poser, avec douceur : une parole qui arrange si souvent les affaires de celui qui la reçoit, est-ce vraiment la voix du Dieu saint ?"
+     "texte": "Une chose est importante. Pour les musulmans, seul Mahomet entendait la révélation. Les compagnons voyaient ce qui se passait dans son corps, mais ils n'entendaient pas l'ange. Ils recevaient la parole de la bouche de Mahomet, quand il récitait après la révélation."
     }
    ]
   },
   {
    "numero": "4",
-   "titre": "Le scribe qui changeait les versets",
-   "references": [
-    "Ap 22:18",
-    "Jr 36:27-28"
-   ],
+   "titre": "Ce qui se passait dans le corps de Mahomet",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Abdallah ibn Abi Sarh"
+     "sous_titre": "La sueur par grand froid"
     },
     {
-     "texte": "Pendant les années de Médine, Mahomet dictait les révélations à des secrétaires, qu'on appelait des scribes. L'un d'eux s'appelait Abdallah ibn Saad ibn Abi Sarh."
+     "texte": "Aïcha, sa femme, a décrit ce qu'elle voyait. Elle dit : « Je l'ai vu recevoir la révélation par un jour de très grand froid. Quand la révélation le quittait, son front coulait de sueur » (Boukhari, hadith 2)."
     },
     {
-     "texte": "Des commentateurs anciens du Coran, comme al-Qurtubi et Tabari, racontent qu'il lui arrivait de proposer une autre fin à un verset que Mahomet dictait. Par exemple, il proposait d'écrire « Allah est puissant et sage », au lieu de « Allah est pardonneur et miséricordieux ». Et Mahomet acceptait."
+     "sous_titre": "Le visage et la respiration"
     },
     {
-     "texte": "Alors ce scribe a commencé à douter. Il se disait : « Si le prophète accepte mes changements, est-ce que ces paroles viennent vraiment de Dieu ? » Il a quitté l'islam, il est retourné à La Mecque, et il disait qu'il pouvait, lui aussi, produire des révélations."
+     "texte": "Mouslim rapporte que, quand la révélation descendait sur lui, Mahomet était accablé, et la couleur de son visage changeait (Mouslim, hadith 2334). Un autre récit dit qu'il baissait la tête, et que ses compagnons baissaient la tête aussi."
     },
     {
-     "texte": "Nous avons vu qu'au moment de la prise de La Mecque, il était sur la liste des personnes à tuer. Il a été sauvé de justesse grâce à Othman, son frère de lait (Abou Daoud, hadith 4358). Beaucoup de commentateurs relient à son histoire ce verset : qui est plus injuste que celui qui dit : « je vais faire descendre quelque chose de semblable à ce qu'Allah a fait descendre » ? (sourate 6, verset 93)."
+     "texte": "Boukhari raconte l'histoire d'un compagnon, appelé Yala, qui voulait voir le prophète au moment de la révélation. Un jour, un homme est venu poser une question sur le pèlerinage. La révélation est descendue. On avait couvert Mahomet d'un drap. Omar a fait signe à Yala de venir. Yala a passé la tête sous le drap. Il a vu le visage de Mahomet tout rouge. Il respirait bruyamment, comme un homme qui ronfle. Puis cela est passé, et Mahomet a répondu à la question de l'homme (Boukhari, hadith 1789)."
     },
     {
-     "sous_titre": "Comment en parler"
+     "sous_titre": "Le poids de la révélation"
     },
     {
-     "texte": "Attention : ce récit vient de commentaires anciens, et non du Coran lui-même. Certains savants musulmans le contestent. Il faut donc le présenter ainsi, honnêtement. Mais ce récit montre une chose : dès le temps de Mahomet, des personnes proches de lui se sont posé la même question que nous posons aujourd'hui."
+     "texte": "La révélation était aussi très lourde. Le Coran dit : nous allons te révéler des paroles lourdes (sourate 73, verset 5). Les compagnons racontent que, si la révélation descendait quand Mahomet était sur sa chamelle, la chamelle s'agenouillait sous le poids."
+    },
+    {
+     "texte": "Zayd ibn Thabit, le principal secrétaire de Mahomet, a raconté une histoire étonnante. Un jour, il était assis à côté du prophète, et la cuisse de Mahomet était posée sur la sienne. La révélation est descendue. Zayd dit que la cuisse du prophète est devenue si lourde qu'il a cru que sa propre cuisse allait se briser (Boukhari, hadith 2832). Nous verrons plus loin quel verset est descendu ce jour-là."
+    },
+    {
+     "sous_titre": "On le couvrait"
+    },
+    {
+     "texte": "Pendant ces moments, on couvrait souvent Mahomet d'un drap ou d'un manteau. Puis, quand c'était fini, il se découvrait, il essuyait la sueur de son front, et il récitait ce qu'il avait reçu. Ensuite, il appelait un de ses secrétaires pour l'écrire."
     }
    ]
   },
   {
    "numero": "5",
-   "titre": "Est-ce que Gabriel dit la même chose dans le Coran et dans la Bible ?",
-   "references": [
-    "Lc 1:30-35",
-    "Ga 1:8"
-   ],
+   "titre": "Le Coran, le hadith divin et le hadith du prophète",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le Gabriel de l'islam"
+     "sous_titre": "Trois sortes de paroles"
     },
     {
-     "texte": "Pour les musulmans, celui qui a apporté le Coran est l'ange Gabriel, qu'ils appellent « Jibril ». Le Coran dit que c'est Gabriel qui, avec la permission d'Allah, a fait descendre cette révélation sur le cœur de Mahomet (sourate 2, verset 97)."
+     "texte": "Les musulmans distinguent trois sortes de paroles venues par Mahomet. C'est important de les connaître."
     },
     {
-     "texte": "Le Coran appelle aussi Gabriel « l'Esprit saint » (sourate 16, verset 102). Il faut bien le savoir. Quand un musulman parle de « l'Esprit saint », il pense à un ange, Gabriel. Il ne pense pas à Dieu lui-même, comme le chrétien."
+     "texte": "La première, c'est le Coran. Pour les musulmans, c'est la parole d'Allah, avec le sens et avec les mots, exactement. On la récite dans la prière. On ne peut pas la toucher sans être pur. Personne ne peut produire un texte semblable."
     },
     {
-     "sous_titre": "Le Gabriel de la Bible"
+     "texte": "La deuxième, c'est le « hadith qoudsi », ce qui veut dire le hadith saint, ou divin. Ce sont des paroles d'Allah rapportées par Mahomet, mais qui ne font pas partie du Coran. Le sens vient d'Allah, mais les mots sont ceux de Mahomet. Par exemple, ce hadith célèbre : Allah dit : « Ô mes serviteurs, je me suis interdit l'injustice, et je l'ai interdite entre vous » (Mouslim, hadith 2577). On ne récite pas ces paroles dans la prière, comme le Coran."
     },
     {
-     "texte": "La Bible connaît aussi l'ange Gabriel. Il apparaît au prophète Daniel, pour lui annoncer le temps du Messie (Daniel 9:21-26). Il apparaît au prêtre Zacharie, pour lui annoncer la naissance de Jean-Baptiste."
-    },
-    {
-     "texte": "Puis il apparaît à Marie, à Nazareth. Et voici ce qu'il lui dit : tu deviendras enceinte, et tu enfanteras un fils, et tu lui donneras le nom de Jésus. Il sera grand et sera appelé Fils du Très-Haut… Le Saint-Esprit viendra sur toi, et la puissance du Très-Haut te couvrira de son ombre. C'est pourquoi le saint enfant qui naîtra de toi sera appelé Fils de Dieu (Luc 1:31-35)."
-    },
-    {
-     "sous_titre": "Deux messages opposés"
-    },
-    {
-     "texte": "Le Gabriel de l'Évangile annonce que Jésus sera appelé « Fils de Dieu »."
-    },
-    {
-     "texte": "Le Gabriel du Coran fait descendre des versets qui disent le contraire. Le Coran dit : il ne convient pas à Allah de s'attribuer un fils (sourate 19, verset 35). Et encore : ils ont dit : « Le Tout Miséricordieux s'est attribué un enfant. » Vous avancez là une chose abominable ! Peu s'en faut que les cieux ne s'entrouvrent à ces mots, que la terre ne se fende et que les montagnes ne s'écroulent (sourate 19, versets 88 à 90)."
-    },
-    {
-     "texte": "Alors, réfléchissons. Ils ne peuvent pas avoir raison tous les deux. Soit le Gabriel de l'Évangile a menti. Soit celui de la grotte de Hira n'est pas le même Gabriel."
-    },
-    {
-     "texte": "Or le message de l'Évangile de Luc a été écrit pendant que les témoins de Jésus étaient encore vivants, six cents ans avant le Coran. Et Paul avait prévenu les chrétiens de Galatie : quand nous-mêmes, quand un ange du ciel annoncerait un autre Évangile que celui que nous vous avons prêché, qu'il soit maudit (Galates 1:8)."
-    },
-    {
-     "texte": "Paul ne connaissait pas Mahomet. Et pourtant, il avait prévu exactement ce cas : un ange qui viendrait contredire l'Évangile."
+     "texte": "La troisième, c'est le hadith du prophète. Ce sont les paroles et les actes de Mahomet lui-même. Pour les musulmans, ses paroles sur la religion sont aussi guidées par Allah. Le Coran dit : il ne prononce rien sous l'effet de la passion ; ce n'est rien d'autre qu'une révélation inspirée (sourate 53, versets 3 et 4). C'est pourquoi les hadiths ont une si grande autorité dans l'islam."
     }
    ]
   },
   {
    "numero": "6",
-   "titre": "Les critères de la Bible pour vérifier un prophète",
-   "references": [
-    "Dt 18:20-22",
-    "Jr 23:28"
-   ],
+   "titre": "Les circonstances de la révélation",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Premier critère : il ne doit pas conduire vers un autre Dieu"
+     "sous_titre": "Des versets qui répondent aux événements"
     },
     {
-     "texte": "Moïse dit : s'il s'élève au milieu de toi un prophète ou un songeur qui t'annonce un signe ou un prodige, et que ce signe ou ce prodige s'accomplisse, mais qu'il te dise : allons après d'autres dieux, tu n'écouteras pas les paroles de ce prophète (Deutéronome 13:1-3)."
+     "texte": "Le Coran n'est pas descendu comme un livre suivi, chapitre après chapitre. Beaucoup de versets sont descendus pour répondre à une question, à un problème, à une dispute, à un événement de la vie de Mahomet ou de la communauté. Les savants musulmans ont écrit des livres entiers pour raconter ces circonstances. On les appelle « les causes de la descente ». Pour comprendre beaucoup de versets, il faut connaître ces histoires. Voici plusieurs exemples, tous rapportés par les livres musulmans."
     },
     {
-     "texte": "Le musulman dira : « Mais Mahomet appelle au Dieu unique d'Abraham ! » C'est vrai qu'il rejette les idoles. Mais le Dieu qu'il présente n'est pas le Père qui a un Fils. Et ce n'est pas le Dieu qui se fait homme pour nous sauver. En d'autres termes, ce n'est pas le Dieu qui s'est fait connaître dans la Bible. Nous verrons cela en détail dans l'enseignement sur Allah et le Dieu de la Bible."
+     "sous_titre": "L'aveugle qui voulait combattre"
     },
     {
-     "sous_titre": "Deuxième critère : ce qu'il annonce doit se réaliser"
+     "texte": "Revenons à l'histoire de Zayd et de la cuisse lourde. Boukhari raconte que ce jour-là, Mahomet dictait à Zayd un verset qui disait : ne sont pas égaux ceux des croyants qui restent chez eux, et ceux qui luttent dans le sentier d'Allah. Un aveugle, appelé Ibn Oumm Maktoum, est arrivé. Il a dit : « Ô messager d'Allah, si je pouvais combattre, je combattrais. » Alors la révélation est descendue de nouveau, avec la cuisse lourde, et a ajouté quelques mots au verset : « sauf ceux qui ont une infirmité » (sourate 4, verset 95 ; Boukhari, hadith 2832). Le verset a été complété pour répondre à la remarque de l'aveugle."
     },
     {
-     "texte": "Moïse ajoute : quand ce que dira le prophète n'aura pas lieu et n'arrivera pas, ce sera une parole que l'Éternel n'aura pas dite (Deutéronome 18:22)."
+     "sous_titre": "Le prophète qui a froncé les sourcils"
     },
     {
-     "texte": "Le chrétien peut demander : « Quelles annonces précises de Mahomet sur l'avenir se sont réalisées ? » Les musulmans citent la victoire des Byzantins sur les Perses (sourate 30, versets 2 à 4), mais elle est annoncée en termes assez vagues."
+     "texte": "Le même aveugle est à l'origine d'une autre sourate. Un jour, Mahomet parlait à des chefs importants de La Mecque, qu'il espérait convaincre. L'aveugle Ibn Oumm Maktoum est venu lui poser une question. Mahomet a froncé les sourcils et s'est détourné de lui. Alors est descendue la sourate 80, qui commence ainsi : il a froncé les sourcils et il s'est détourné, parce que l'aveugle est venu à lui (sourate 80, versets 1 et 2). Le Coran reproche ici à Mahomet d'avoir négligé un pauvre aveugle pour des riches. Les musulmans citent souvent cette sourate pour montrer l'honnêteté du Coran, qui corrige même le prophète."
     },
     {
-     "texte": "Comparons avec les centaines d'annonces précises sur le Messie dans l'Ancien Testament. Elles ont été écrites des siècles avant sa naissance, et elles se sont réalisées en Jésus : le lieu de sa naissance, sa famille, ses souffrances, sa mort avec des malfaiteurs, sa tombe chez un homme riche, sa résurrection."
+     "sous_titre": "Le mariage avec Zaynab"
     },
     {
-     "sous_titre": "Troisième critère : il doit être d'accord avec ce que Dieu a déjà dit"
+     "texte": "Nous avons vu, dans l'enseignement précédent, l'histoire de Zaynab, l'ancienne femme de Zayd, le fils adoptif de Mahomet. Un verset est descendu pour permettre ce mariage : nous te la fîmes épouser (sourate 33, verset 37). Et d'autres versets ont supprimé l'adoption complète."
     },
     {
-     "texte": "Dieu ne se contredit pas. Le prophète Jérémie dit : que le prophète qui a eu un songe raconte ce songe, et que celui qui a entendu ma parole rapporte fidèlement ma parole. Pourquoi mêler la paille au froment ? (Jérémie 23:28). Et le prophète Ézéchiel condamne ceux qui prophétisent selon leur propre cœur, qui suivent leur propre esprit, et qui ne voient rien (Ézéchiel 13:2-3)."
+     "sous_titre": "Les privilèges du prophète"
     },
     {
-     "verset": "Jr 23:28"
+     "texte": "Nous avons vu aussi les versets qui donnent à Mahomet des privilèges pour le mariage : plus de quatre femmes, la permission d'épouser une femme qui se donne à lui, la liberté de choisir chez laquelle de ses femmes il passe la nuit (sourate 33, versets 50 et 51). C'est après ces versets qu'Aïcha lui a dit : « Je vois que ton Seigneur se dépêche de satisfaire tes désirs » (Boukhari, hadith 4788)."
     },
     {
-     "verset": "Ez 13:2-3"
+     "sous_titre": "L'affaire du miel"
     },
     {
-     "texte": "Or le Coran contredit la Bible sur des points centraux : la mort de Jésus sur la croix, le fait que Jésus est Dieu, et le fait qu'il est le Fils. Le musulman répond : « C'est parce que la Bible a été falsifiée. » Nous étudierons cette question à part. Mais retiens dès maintenant une chose : le Coran lui-même demande aux chrétiens de juger d'après l'Évangile qu'ils ont entre les mains."
+     "texte": "Boukhari raconte une autre histoire. Mahomet aimait passer du temps chez une de ses femmes, Zaynab, qui lui offrait du miel. Aïcha et Hafsa étaient jalouses. Elles se sont mises d'accord : chacune, quand il viendrait chez elle, lui dirait qu'il sentait mauvais, l'odeur d'une certaine gomme appelée « maghafir ». Mahomet, qui détestait les mauvaises odeurs, a juré de ne plus boire ce miel."
     },
     {
-     "sous_titre": "Quatrième critère : il doit reconnaître Jésus-Christ venu dans un corps d'homme"
+     "texte": "Alors une révélation est descendue : ô prophète, pourquoi t'interdis-tu ce qu'Allah t'a rendu licite, cherchant à plaire à tes épouses ? (sourate 66, verset 1). La suite de la sourate parle aux deux femmes complices : si vous vous repentez devant Allah, c'est que vos cœurs ont dévié… S'il vous répudie, il se peut que son Seigneur lui donne en échange des épouses meilleures que vous (sourate 66, versets 4 et 5 ; Boukhari, hadith 4912)."
     },
     {
-     "texte": "Dans la nouvelle alliance, l'apôtre Jean donne le critère le plus important : tout esprit qui confesse Jésus-Christ venu en chair est de Dieu ; et tout esprit qui ne confesse pas Jésus n'est pas de Dieu, c'est celui de l'antichrist (1 Jean 4:2-3). Et encore : qui est menteur, sinon celui qui nie que Jésus est le Christ ? Celui-là est l'antichrist, qui nie le Père et le Fils (1 Jean 2:22)."
+     "texte": "D'autres commentateurs rattachent ces versets à une autre histoire : Mahomet aurait passé du temps avec Maria la Copte, son esclave, dans la chambre de Hafsa, pendant le jour réservé à Hafsa. Hafsa s'en est plainte, et Mahomet a juré de ne plus toucher Maria. Puis le verset est descendu pour le délier de ce serment. Dans les deux cas, une affaire de la maison du prophète est réglée par un verset du Coran."
     },
     {
-     "texte": "Le musulman dit que Jésus est le Messie. Mais il refuse qu'il soit le Fils. Il refuse qu'il soit mort et ressuscité. Et il refuse que Dieu soit Père."
+     "sous_titre": "L'affaire du collier"
     },
     {
-     "texte": "Ce critère est très sérieux. Il faut l'expliquer avec beaucoup d'amour. Nous ne traitons pas notre ami d'antichrist. Nous lui montrons simplement ce que dit la Parole de Dieu sur le message qu'il a reçu."
+     "texte": "En l'an 627, au retour d'une expédition, Aïcha est sortie du camp pendant la nuit pour un besoin. Elle a perdu son collier et elle est restée en arrière pour le chercher. L'armée est repartie sans s'apercevoir qu'elle n'était pas dans sa litière, sur le chameau. Le matin, un jeune homme qui suivait l'armée l'a trouvée endormie. Il l'a fait monter sur son chameau, et il l'a ramenée."
+    },
+    {
+     "texte": "Des rumeurs ont commencé. Des gens ont accusé Aïcha d'avoir eu une relation avec ce jeune homme. La rumeur s'est répandue dans tout Médine. Pendant environ un mois, aucune révélation n'est venue. Mahomet était troublé. Il a demandé conseil à ses proches. Ali lui a dit : « Les femmes ne manquent pas, et tu peux en prendre une autre. » Aïcha est tombée malade de chagrin."
+    },
+    {
+     "texte": "Puis, un jour, chez les parents d'Aïcha, la révélation est descendue. Quand elle l'a quitté, Mahomet souriait. Il a dit : « Réjouis-toi, Aïcha, Allah a déclaré ton innocence. » Ce sont les versets de la sourate 24, versets 11 à 20. Ceux qui avaient répandu la rumeur ont été punis de quatre-vingts coups de fouet. Et le Coran a fixé une règle : pour accuser une femme d'adultère, il faut quatre témoins (Boukhari, hadith 4750)."
+    },
+    {
+     "sous_titre": "« Omar a été d'accord avec son Seigneur »"
+    },
+    {
+     "texte": "Voici une dernière série d'exemples, peut-être les plus étonnants. Boukhari rapporte qu'Omar disait : « J'ai été d'accord avec mon Seigneur sur trois choses. »"
+    },
+    {
+     "texte": "Première chose : Omar avait dit à Mahomet : « Est-ce que nous ne pourrions pas prendre la station d'Abraham, près de la Kaaba, comme lieu de prière ? » Alors un verset est descendu : prenez la station d'Abraham comme lieu de prière (sourate 2, verset 125)."
+    },
+    {
+     "texte": "Deuxième chose : Omar avait dit : « Ô messager d'Allah, des gens bons et des gens mauvais entrent chez tes femmes. Si tu leur ordonnais de se voiler ! » Alors le verset du voile est descendu."
+    },
+    {
+     "texte": "Troisième chose : quand les femmes du prophète se sont liguées contre lui par jalousie, Omar leur a dit : « S'il vous répudie, il se peut que son Seigneur lui donne en échange des épouses meilleures que vous. » Et un verset est descendu avec presque exactement les mêmes mots (Boukhari, hadith 402)."
+    },
+    {
+     "texte": "Les musulmans voient dans ces récits l'honneur d'Omar, dont la sagesse était en accord avec la volonté d'Allah. D'autres lecteurs remarquent que, dans ces cas, ce n'est pas la révélation qui vient d'abord : c'est Omar qui propose, et la révélation qui suit."
+    },
+    {
+     "sous_titre": "La révélation sous la couverture d'Aïcha"
+    },
+    {
+     "texte": "Un dernier hadith montre la place particulière d'Aïcha. Les autres femmes de Mahomet se plaignaient qu'il préférait Aïcha. Elles ont envoyé Oumm Salama lui en parler. Mahomet a répondu : « Ô Oumm Salama, ne me fais pas de peine au sujet d'Aïcha. Car, par Allah, la révélation ne m'est jamais venue alors que j'étais sous la couverture d'aucune de vous, sauf elle » (Boukhari, hadith 3775)."
     }
    ]
   },
   {
    "numero": "7",
-   "titre": "Est-ce qu'un esprit de mensonge peut parler par un prophète ?",
-   "references": [
-    "1 R 22:22-23",
-    "2 Th 2:9-11"
-   ],
+   "titre": "L'abrogation : quand un verset en remplace un autre",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "L'histoire de Michée"
+     "sous_titre": "Ce que dit le Coran"
     },
     {
-     "texte": "La Bible raconte une histoire qui fait réfléchir. Le roi Achab avait quatre cents prophètes. Ils lui promettaient tous la victoire. Un seul prophète, Michée, a osé dire le contraire."
+     "texte": "Le Coran contient des versets qui semblent dire des choses différentes sur le même sujet. Comment les musulmans expliquent-ils cela ? Par une règle que le Coran donne lui-même : si nous abrogeons un verset quelconque ou le faisons oublier, nous en apportons un meilleur, ou un semblable (sourate 2, verset 106). Et encore : quand nous remplaçons un verset par un autre, et Allah sait mieux ce qu'il fait descendre, ils disent : tu n'es qu'un inventeur (sourate 16, verset 101)."
     },
     {
-     "texte": "Michée a expliqué qu'il avait vu, dans une vision, un esprit se présenter devant l'Éternel et dire : je sortirai, et je serai un esprit de mensonge dans la bouche de tous ses prophètes (1 Rois 22:22)."
+     "texte": "Cette règle s'appelle « l'abrogation », en arabe « naskh ». Elle veut dire qu'un verset plus récent peut annuler un verset plus ancien."
     },
     {
-     "verset": "1 R 22:22"
+     "sous_titre": "Un exemple : le vin"
     },
     {
-     "texte": "Ces quatre cents prophètes étaient peut-être sincères. Ils croyaient peut-être vraiment parler de la part de Dieu. Mais un esprit trompeur parlait par leur bouche."
+     "texte": "L'exemple le plus connu est celui du vin. Au début, un verset dit que dans le vin et les jeux de hasard, il y a un grand péché et quelques avantages, mais que le péché est plus grand (sourate 2, verset 219). Plus tard, un autre verset dit : n'approchez pas de la prière quand vous êtes ivres (sourate 4, verset 43). Enfin, un dernier verset interdit complètement le vin : le vin, les jeux de hasard, les pierres dressées et les flèches du sort ne sont qu'une souillure, œuvre du diable. Écartez-vous-en (sourate 5, verset 90). Pour les musulmans, c'est le dernier verset qui compte."
     },
     {
-     "sous_titre": "La sincérité ne suffit pas"
+     "sous_titre": "Les grandes questions"
     },
     {
-     "texte": "Qu'est-ce que cela nous apprend ? Cela nous apprend qu'on peut être sincère, et pourtant être trompé."
+     "texte": "Les savants ont beaucoup discuté pour savoir quels versets étaient abrogés. Certains en comptaient plus de deux cents. D'autres seulement quelques-uns. Cette question est très importante pour la question de la guerre. Beaucoup de savants anciens ont enseigné que les versets de patience envers les non-musulmans, venus de La Mecque, avaient été remplacés par les versets de combat, venus plus tard à Médine. Nous étudierons cela dans l'enseignement sur le djihad."
     },
     {
-     "texte": "Le chrétien n'a donc pas besoin de dire que Mahomet était un menteur qui savait qu'il mentait. Il a peut-être été sincère. Il était peut-être convaincu de recevoir la parole de Dieu. Et pourtant, il a pu être trompé par un esprit qui ne venait pas de Dieu."
+     "sous_titre": "Les versets oubliés"
     },
     {
-     "texte": "Paul parle d'une puissance d'égarement qui fait croire au mensonge ceux qui n'ont pas reçu l'amour de la vérité (2 Thessaloniciens 2:9-11)."
+     "texte": "Le Coran parle aussi de versets « oubliés ». Il dit à Mahomet : nous te ferons réciter, de sorte que tu n'oublieras pas, sauf ce qu'Allah veut (sourate 87, versets 6 et 7). Boukhari rapporte une histoire. Un soir, Mahomet a entendu un homme réciter le Coran dans la mosquée. Il a dit : « Qu'Allah lui fasse miséricorde. Il m'a rappelé tel et tel verset, que j'avais oubliés de telle et telle sourate » (Boukhari, hadith 5038)."
     },
     {
-     "verset": "2 Th 2:9-11"
-    },
-    {
-     "texte": "C'est pour cela que nous devons prier pour nos amis musulmans, et pas seulement discuter avec eux. Le voile qui couvre leurs yeux ne se lève que par l'Esprit de Dieu (2 Corinthiens 3:16)."
+     "texte": "Il y a aussi des versets dont les compagnons se souvenaient, mais qui ne sont pas dans le Coran que nous avons aujourd'hui. Le plus connu est le verset de la lapidation des adultères. Le calife Omar a dit qu'il faisait partie de ce qu'Allah avait fait descendre, et qu'on le récitait, mais qu'il n'a pas été mis dans le Coran écrit. Nous en reparlerons dans l'enseignement sur la mise par écrit du Coran."
     }
    ]
   },
   {
    "numero": "8",
-   "titre": "Comment la Bible a été donnée",
-   "references": [
-    "2 P 1:16",
-    "1 Jn 1:1-3"
-   ],
+   "titre": "Les secrétaires de la révélation",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Beaucoup de témoins, un seul message"
+     "sous_titre": "Ceux qui écrivaient"
     },
     {
-     "texte": "Comparons maintenant avec la manière dont Dieu a donné la Bible. La Bible n'a pas été donnée à un seul homme, dans une grotte, sans témoin. Elle a été écrite par une quarantaine d'auteurs, pendant environ quinze siècles, dans des lieux et des situations très différents. Parmi ces auteurs, il y a un berger, des rois, un médecin, des pêcheurs, un collecteur d'impôts et un savant juif."
+     "texte": "Quand une révélation était descendue, Mahomet appelait un de ses secrétaires, qu'on appelle des « scribes ». Il leur dictait les versets. Les scribes les écrivaient sur ce qu'ils avaient : des feuilles de palmier, des pierres plates, des os d'épaule de chameau, des morceaux de cuir. Le plus connu des scribes s'appelait Zayd ibn Thabit, un jeune homme de Médine. Il y avait aussi Ali, Othman, Oubayy ibn Kab, et d'autres. On compte plus de quarante personnes qui ont écrit pour Mahomet à un moment ou à un autre."
     },
     {
-     "texte": "Et pourtant, la Bible raconte une seule histoire. Dieu crée le monde. L'homme tombe dans le péché. Dieu promet un Sauveur. Il prépare un peuple. Le Messie vient. Il meurt et il ressuscite. Et un jour, Dieu fera toutes choses nouvelles."
+     "sous_titre": "Le scribe qui a quitté l'islam"
     },
     {
-     "sous_titre": "Des témoins qui ont vu de leurs yeux"
+     "texte": "L'un de ces scribes s'appelait Abdallah ibn Saad ibn Abi Sarh. Des commentateurs anciens du Coran, comme Tabari et al-Qurtubi, racontent son histoire. Quand Mahomet lui dictait un verset, il lui arrivait de proposer une autre fin. Par exemple, au lieu de « Allah est pardonneur et miséricordieux », il proposait « Allah est puissant et sage ». Et selon ces récits, Mahomet disait : « Écris-le ainsi, c'est pareil. »"
     },
     {
-     "texte": "Les apôtres insistent sur ce point. Pierre dit : ce ne sont pas des fables habilement conçues que nous vous avons fait connaître, mais nous avons vu sa majesté de nos propres yeux (2 Pierre 1:16). Et Jean écrit : ce que nous avons entendu, ce que nous avons vu de nos yeux, ce que nous avons contemplé et que nos mains ont touché, concernant la parole de vie, nous vous l'annonçons (1 Jean 1:1-3)."
+     "texte": "Abdallah a commencé à douter. Il s'est dit : « Si ce que j'écris est accepté comme révélation, alors je reçois la révélation moi aussi. » Il a quitté l'islam et il est retourné à La Mecque. Il racontait aux gens qu'il changeait les versets et que Mahomet acceptait. Beaucoup de commentateurs relient à lui ce verset : qui est plus injuste que celui qui dit : « je vais faire descendre quelque chose de semblable à ce qu'Allah a fait descendre » ? (sourate 6, verset 93). Nous avons vu que, lors de la prise de La Mecque, il était sur la liste des personnes à tuer, et qu'il a été sauvé par Othman."
     },
     {
-     "texte": "Les événements de l'Évangile se sont passés en public. Devant des foules. Devant des ennemis. Sous l'autorité des Romains."
-    },
-    {
-     "texte": "La révélation du Coran, au contraire, repose entièrement sur le témoignage d'un seul homme. Personne d'autre n'a vu l'ange. Personne d'autre ne l'a entendu. Même Khadija et Waraqa ont seulement cru ce que Mahomet leur racontait."
-    },
-    {
-     "texte": "Je le redis, car c'est une différence capitale. Dans la Bible, beaucoup de témoins ont vu. Dans le Coran, un seul homme dit avoir vu."
+     "texte": "Il faut être honnête : ce récit vient de commentaires anciens, et non du Coran ni des grands recueils de hadiths. Certains savants musulmans le contestent. Il faut le présenter ainsi."
     }
    ]
   },
   {
    "numero": "9",
-   "titre": "Comment en parler avec un ami musulman",
-   "references": [
-    "2 Tm 2:24-26",
-    "Jc 1:17"
-   ],
+   "titre": "Ce que disaient les gens de La Mecque",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Poser des questions plutôt qu'accuser"
+     "sous_titre": "« Ce sont des contes des anciens »"
     },
     {
-     "texte": "Avec un ami musulman, il vaut mieux poser des questions que lancer des affirmations. Voici quelques exemples de questions."
+     "texte": "Les adversaires de Mahomet à La Mecque n'acceptaient pas que ses paroles viennent de Dieu. Le Coran garde la trace de leurs accusations. Ils disaient : ce ne sont que des contes des anciens, qu'il se fait écrire ; on les lui dicte matin et soir (sourate 25, verset 5). Ils disaient aussi qu'un homme l'aidait."
     },
     {
-     "texte": "Première question : « Comment est-ce que tu sais que l'ange de la grotte de Hira était Gabriel ? Qui d'autre l'a vu ? »"
+     "sous_titre": "Le défi du Coran"
     },
     {
-     "texte": "Deuxième question : « Gabriel a dit à Marie que son fils serait appelé Fils de Dieu. Pourquoi est-ce qu'il dirait le contraire six cents ans plus tard ? »"
-    },
-    {
-     "texte": "Troisième question : « Aïcha elle-même disait que le Seigneur de Mahomet se dépêchait de satisfaire ses désirs. Qu'est-ce que tu en penses ? »"
-    },
-    {
-     "texte": "Quatrième question : « Est-ce que Dieu change d'avis ? »"
-    },
-    {
-     "sous_titre": "L'attitude du serviteur de Dieu"
-    },
-    {
-     "texte": "Paul nous donne la bonne attitude. Il dit : il ne faut pas qu'un serviteur du Seigneur ait des querelles ; il doit au contraire avoir de la condescendance pour tous, être propre à enseigner, doué de patience ; il doit redresser avec douceur les adversaires, dans l'espérance que Dieu leur donnera la repentance pour arriver à la connaissance de la vérité (2 Timothée 2:24-25)."
-    },
-    {
-     "texte": "Autrement dit, le but n'est pas de faire honte à ton ami. Le but est de planter une question dans son cœur, et de laisser Dieu la faire grandir."
-    },
-    {
-     "sous_titre": "L'étudiante de Ngaoundéré"
-    },
-    {
-     "texte": "Voici une histoire. À Ngaoundéré, une étudiante musulmane, qui apprenait le métier d'infirmière, a posé un jour une question piège à sa collègue chrétienne. Elle lui a dit : « Votre Bible a été changée. La preuve, vous avez quatre Évangiles différents. »"
-    },
-    {
-     "texte": "La collègue chrétienne n'a pas répondu en attaquant le Coran. Elle lui a proposé de lire avec elle le premier chapitre de l'Évangile de Luc. Quand elles sont arrivées au passage où l'ange Gabriel parle à Marie, la jeune musulmane s'est arrêtée. Elle a dit : « Est-ce que Gabriel a vraiment dit ça ? Est-ce qu'il a dit : Fils de Dieu ? » Elle a relu trois fois. Puis elle a dit : « Mais alors, ce n'est pas le même message… »"
-    },
-    {
-     "texte": "Ce soir-là, elle n'a pas changé d'avis. Mais elle a emporté l'Évangile de Luc. C'est souvent comme cela que Dieu travaille : par sa Parole, lentement, mais profondément."
-    },
-    {
-     "sous_titre": "Tout don parfait vient d'en haut"
-    },
-    {
-     "texte": "Jacques écrit : toute grâce excellente et tout don parfait descendent d'en haut, du Père des lumières, chez lequel il n'y a ni changement ni ombre de variation (Jacques 1:17)."
-    },
-    {
-     "verset": "Jc 1:17"
-    },
-    {
-     "texte": "Voilà ce que nous voulons offrir à nos amis musulmans. Nous ne leur offrons pas une révélation qui change selon les circonstances. Nous leur offrons le Père des lumières, qui ne change pas, et qui s'est fait connaître en son Fils."
+     "texte": "Le Coran leur répond en lançant un défi : si vous avez un doute sur ce que nous avons fait descendre sur notre serviteur, apportez donc une sourate semblable, et appelez vos témoins, si vous êtes véridiques (sourate 2, verset 23). Pour les musulmans, personne n'a jamais pu relever ce défi. Ils voient dans la beauté de la langue du Coran le plus grand miracle de Mahomet. Nous étudierons ce défi dans l'enseignement sur le Coran."
     }
    ]
   },
@@ -465,126 +364,144 @@
    "numero": "10",
    "titre": "Ce que nous retenons",
    "references": [
-    "Jn 1:18",
-    "Jn 14:9"
+    "Nb 23:19"
    ],
    "blocs": [
     {
      "sous_titre": "Résumons"
     },
     {
-     "texte": "Selon les hadiths, la révélation venait à Mahomet de plusieurs manières. Parfois comme le son d'une cloche, de façon pénible, avec de la sueur, un visage rouge et une respiration bruyante. Parfois par un ange qui prenait la forme d'un homme. Et parfois sous la couverture d'Aïcha."
+     "texte": "Pour les musulmans, le Coran est la parole éternelle d'Allah, écrite sur la Table gardée. Il est descendu d'abord en une fois pendant la nuit du destin, puis morceau par morceau sur Mahomet, pendant vingt-trois ans, par l'ange Gabriel, que le Coran appelle aussi l'Esprit de sainteté. Selon les hadiths, Mahomet n'a vu Gabriel dans sa vraie forme, avec six cents ailes, que deux fois. Le plus souvent, l'ange venait sous la forme d'un homme. Chaque ramadan, ils révisaient le Coran ensemble."
     },
     {
-     "texte": "Plusieurs révélations ont réglé des affaires privées du prophète. C'est pourquoi Aïcha a dit que son Seigneur se dépêchait de satisfaire ses désirs. Et Omar disait qu'il avait été « d'accord avec son Seigneur »."
+     "texte": "La révélation venait de plusieurs manières : rêves, inspiration dans le cœur, son de cloche, ange sous forme humaine. Elle était pénible et lourde : sueur par grand froid, visage rouge, respiration bruyante, cuisse si lourde qu'elle semblait écraser celle de Zayd. Les musulmans distinguent le Coran, le hadith divin et le hadith du prophète."
     },
     {
-     "texte": "Le Gabriel du Coran refuse que Dieu ait un fils, alors que le Gabriel de l'Évangile l'a annoncé à Marie."
+     "texte": "Beaucoup de versets sont descendus en réponse à des événements : l'aveugle qui voulait combattre, l'aveugle négligé, le mariage avec Zaynab, les privilèges matrimoniaux, l'affaire du miel, l'affaire du collier, les suggestions d'Omar. Le Coran connaît l'abrogation, par laquelle un verset en remplace un autre, et parle de versets oubliés. Des scribes écrivaient les versets, et l'un d'eux, selon des commentaires anciens, a quitté l'islam en disant qu'il changeait les versets."
     },
     {
-     "texte": "Les critères de la Bible demandent quatre choses à un prophète. Il ne doit pas conduire vers un autre Dieu. Ce qu'il annonce doit se réaliser. Il doit être d'accord avec ce que Dieu a déjà dit. Et il doit reconnaître Jésus-Christ venu dans un corps d'homme."
+     "sous_titre": "Ce que le chrétien retient"
     },
     {
-     "sous_titre": "Dieu s'est fait connaître en Jésus"
+     "texte": "Le chrétien comprend maintenant pourquoi le musulman a un si grand respect pour chaque mot du Coran. Il connaît aussi les récits que les livres musulmans rapportent sur la manière dont la révélation venait. Ces récits posent des questions, et la Bible nous donne des critères pour éprouver tout message qui se dit venu de Dieu. Elle dit par exemple : Dieu n'est point un homme pour mentir, ni fils d'un homme pour se repentir (Nombres 23:19). Nous examinerons ces questions à la fin de la série, dans la partie « Face à face »."
     },
     {
-     "texte": "Jean dit : personne n'a jamais vu Dieu ; le Dieu Fils unique, qui est dans le sein du Père, est celui qui l'a fait connaître (Jean 1:18). Et Jésus a dit : celui qui m'a vu a vu le Père (Jean 14:9)."
+     "verset": "Nb 23:19"
     },
     {
-     "texte": "Retenons cette grande différence. Le Coran dit être une parole descendue sur un homme. L'Évangile annonce que la Parole elle-même est devenue un homme. C'est toute la différence entre l'islam et la foi chrétienne."
-    },
-    {
-     "texte": "Dans le prochain enseignement, nous allons ouvrir le Coran lui-même. Nous verrons comment il est construit, ce qu'il dit de lui-même, et ce que les musulmans en croient."
+     "texte": "Avec cet enseignement se termine la première série, « Les origines et le prophète ». Dans la série suivante, nous ouvrirons le Coran lui-même : comment il est construit, ce qu'il contient, et comment il a été mis par écrit."
     }
    ]
   }
  ],
  "sujets": [
   {
-   "titre": "Pour que le voile se lève",
-   "texte": "Prions afin que le voile qui couvre le cœur de nos amis musulmans soit enlevé, et qu'ils se tournent vers le Seigneur (2 Corinthiens 3:16)."
+   "titre": "Pour les musulmans pendant la nuit du destin",
+   "texte": "Prions pour les musulmans qui cherchent Dieu pendant les nuits du ramadan, afin que Dieu se révèle à eux (Jérémie 29:13)."
   },
   {
-   "titre": "Pour les musulmans qui lisent l'Évangile",
-   "texte": "Prions pour ceux qui lisent en ce moment l'Évangile en secret, afin que le Saint-Esprit leur fasse comprendre que Jésus est le Fils de Dieu (Luc 1:35)."
+   "titre": "Pour ceux qui récitent sans comprendre",
+   "texte": "Prions pour ceux qui récitent des paroles dans une langue qu'ils ne comprennent pas, afin qu'ils entendent un jour la Parole de Dieu dans leur langue (Romains 10:17)."
   },
   {
-   "titre": "Pour notre patience",
-   "texte": "Prions afin d'avoir la patience et la douceur du serviteur du Seigneur quand nous parlons avec nos amis musulmans (2 Timothée 2:24-25)."
+   "titre": "Pour notre discernement",
+   "texte": "Prions afin que Dieu nous apprenne à éprouver tout message par sa Parole (1 Jean 4:1)."
   }
  ],
  "questions": [
+  {
+   "question": "Qu'est-ce que la « Table gardée » ?",
+   "choix": [
+    "La table où mangeait Mahomet",
+    "Le livre céleste où, selon les musulmans, le Coran original est écrit auprès d'Allah",
+    "Une pierre de la Kaaba"
+   ],
+   "reponse": 1,
+   "explication": "Sourate 85, versets 21 et 22.",
+   "section": "1"
+  },
+  {
+   "question": "Selon l'islam, qui est « l'Esprit de sainteté » ?",
+   "choix": [
+    "Dieu lui-même",
+    "L'ange Gabriel",
+    "Mahomet"
+   ],
+   "reponse": 1,
+   "explication": "Le musulman ne pense pas à Dieu quand il parle de l'Esprit saint.",
+   "section": "2"
+  },
   {
    "question": "Selon Boukhari, quelle forme de révélation était la plus pénible pour Mahomet ?",
    "choix": [
     "Les rêves",
     "Le tintement d'une cloche",
-    "La lecture d'un livre"
+    "Les visites d'un homme"
    ],
    "reponse": 1,
    "explication": "Boukhari, hadith 2.",
-   "section": "1"
-  },
-  {
-   "question": "Qu'est-ce que Mahomet a dit à Oumm Salama au sujet d'Aïcha ?",
-   "choix": [
-    "Qu'elle était la plus âgée",
-    "Que la révélation ne lui était venue sous la couverture d'aucune autre femme qu'elle",
-    "Qu'elle savait lire"
-   ],
-   "reponse": 1,
-   "explication": "Boukhari, hadith 3775.",
-   "section": "2"
-  },
-  {
-   "question": "Quelle phrase est-ce qu'Aïcha a dite après les versets qui donnaient des privilèges de mariage au prophète ?",
-   "choix": [
-    "« Gloire à Allah »",
-    "« Je vois que ton Seigneur se dépêche de satisfaire tes désirs »",
-    "« C'est injuste »"
-   ],
-   "reponse": 1,
-   "explication": "Boukhari, hadith 4788.",
    "section": "3"
   },
   {
-   "question": "Qu'est-ce que l'ange Gabriel a dit à Marie, selon l'Évangile de Luc ?",
+   "question": "Qu'a ressenti Zayd ibn Thabit quand la révélation est descendue alors que la cuisse du prophète était sur la sienne ?",
    "choix": [
-    "Que Jésus serait un simple prophète",
-    "Que Jésus serait appelé Fils du Très-Haut et Fils de Dieu",
-    "Que Dieu n'a pas de fils"
+    "Une grande chaleur",
+    "Un poids si lourd qu'il a cru que sa cuisse allait se briser",
+    "Rien"
    ],
    "reponse": 1,
-   "explication": "Luc 1:32-35.",
+   "explication": "Boukhari, hadith 2832.",
+   "section": "4"
+  },
+  {
+   "question": "Quelle est la différence entre le Coran et le hadith divin ?",
+   "choix": [
+    "Il n'y en a pas",
+    "Le Coran est la parole d'Allah avec ses mots ; le hadith divin est une parole d'Allah rapportée avec les mots de Mahomet",
+    "Le hadith divin est plus important"
+   ],
+   "reponse": 1,
+   "explication": "On ne récite pas le hadith divin dans la prière.",
    "section": "5"
   },
   {
-   "question": "Selon 1 Jean 4:2-3, quel est le critère pour vérifier un esprit ?",
+   "question": "Pourquoi la sourate 80 commence-t-elle par « Il a froncé les sourcils » ?",
    "choix": [
-    "Sa beauté",
-    "Reconnaître Jésus-Christ venu dans un corps d'homme",
-    "Le nombre de ses disciples"
+    "À cause d'un ennemi",
+    "Parce que Mahomet s'était détourné d'un aveugle pauvre pour parler à des riches",
+    "À cause d'une maladie"
    ],
    "reponse": 1,
-   "explication": "1 Jean 4:2-3.",
+   "explication": "L'aveugle s'appelait Ibn Oumm Maktoum.",
    "section": "6"
   },
   {
-   "question": "Qu'est-ce que l'histoire de Michée et des quatre cents prophètes nous apprend ?",
+   "question": "Selon Boukhari 402, sur combien de choses Omar a-t-il été « d'accord avec son Seigneur » ?",
    "choix": [
-    "Que la majorité a toujours raison",
-    "Qu'on peut être sincère, et pourtant être trompé par un esprit de mensonge",
-    "Que les prophètes ne se trompent jamais"
+    "Une",
+    "Deux",
+    "Trois"
+   ],
+   "reponse": 2,
+   "explication": "Le lieu de prière, le voile, et les épouses meilleures.",
+   "section": "6"
+  },
+  {
+   "question": "Qu'est-ce que l'abrogation ?",
+   "choix": [
+    "La destruction du Coran",
+    "La règle selon laquelle un verset plus récent peut annuler un verset plus ancien",
+    "La prière de la nuit"
    ],
    "reponse": 1,
-   "explication": "1 Rois 22:22.",
+   "explication": "Sourate 2, verset 106.",
    "section": "7"
   }
  ],
  "devoir": [
-  "Lis Luc 1:26-38 et Galates 1:6-9. Écris en deux phrases pourquoi le message du Gabriel de l'Évangile et celui du Coran ne peuvent pas venir de la même source.",
-  "Lis Deutéronome 18:15-22, et note les critères d'un vrai prophète.",
-  "Prépare trois questions respectueuses que tu pourrais poser à un ami musulman sur la révélation."
+  "Écris avec tes mots les six manières dont la révélation venait, selon les savants musulmans.",
+  "Choisis deux exemples de « circonstances de la révélation » et raconte-les à quelqu'un de ta famille.",
+  "Prie pour les musulmans pendant le prochain mois de ramadan."
  ],
  "prieres_liees": [],
  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
