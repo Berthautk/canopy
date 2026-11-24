@@ -142,6 +142,10 @@ export function EspaceEncadreur() {
         </a>); })}
       <a class="bouton bouton--or" style="width:100%;margin-top:12px" href="#/accompagner/encadreur/nouveau">+ Inscrire un nouveau converti</a>
       {!l.length && <p class="ligne__desc" style="margin:12px 4px">Commence par inscrire la personne que tu accompagnes : tu recevras un code à lui donner.</p>}
+      <a class="carte ligne" style="margin-top:16px" href="#/grandir/enseignement/islam-25-suivi">
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Tu accompagnes un ancien musulman ?</span><span class="ligne__desc">Méthode, précautions, thèmes à aborder pas à pas, et outils adaptés.</span></span>
+        <Icone nom="chevron" taille={20} />
+      </a>
     </div>
   );
 }

@@ -523,6 +523,18 @@
   "Demande à ton Église si elle a un plan pour accueillir un ancien musulman en danger. Si non, prie et réfléchis avec tes responsables.",
   "Relis les titres des vingt et un enseignements de cette série, et choisis un ami musulman pour qui tu prieras chaque jour."
  ],
+ "ressources": [
+  {
+   "titre": "Suivre et affermir un ancien musulman",
+   "desc": "La méthode, les thèmes pas à pas et les outils",
+   "lien": "#/grandir/enseignement/islam-25-suivi"
+  },
+  {
+   "titre": "Suivi des nouveaux convertis",
+   "desc": "Inscrire la personne que tu accompagnes et suivre ses pas",
+   "lien": "#/accompagner"
+  }
+ ],
  "prieres_liees": [],
  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
  "date_ajout": "2026-11-14",
