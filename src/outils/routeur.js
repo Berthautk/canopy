@@ -35,15 +35,21 @@ let pile = []; try { pile = JSON.parse(sessionStorage.getItem('yeshaya:pile-page
 const garderPile = () => { try { sessionStorage.setItem('yeshaya:pile-pages', JSON.stringify(pile.slice(-40))); } catch {} };
 if (!pile.length || pile[pile.length - 1] !== (location.hash || '#/accueil')) { pile.push(location.hash || '#/accueil'); garderPile(); }
 
+// Un onglet de la barre du bas ou du menu : c'est un nouveau départ, pas un détour vers la Bible.
+let parOnglet = false;
+export const viaOnglet = () => { parOnglet = true; fixerProvenance(null); };
+
 addEventListener('hashchange', () => {
   const avant = route.valeur, titre = titrePage();
+  const onglet = parOnglet; parOnglet = false;
   route.valeur = lire();
   const apres = route.valeur;
   const estRetour = pile.length > 1 && pile[pile.length - 2] === apres.hash;
   if (estRetour) pile.pop(); else pile.push(apres.hash);
   garderPile();
   if (estRetour) restaurerAuProchain = true;
-  if (estBible(apres.segments) && !estBible(avant.segments)) fixerProvenance({ hash: avant.hash, y: positions[avant.hash] || 0, titre });
+  if (onglet) fixerProvenance(null);
+  else if (estBible(apres.segments) && !estBible(avant.segments)) fixerProvenance({ hash: avant.hash, y: positions[avant.hash] || 0, titre });
   else if (!estBible(apres.segments) && provenance.valeur && apres.hash !== provenance.valeur.hash) fixerProvenance(null);
   if (restaurerAuProchain || (provenance.valeur && apres.hash === provenance.valeur.hash)) {
     const y = provenance.valeur && apres.hash === provenance.valeur.hash ? provenance.valeur.y : positions[apres.hash] || 0;

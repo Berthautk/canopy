@@ -10,7 +10,7 @@ import { parcours, terminerJour, noterDecision } from '../../donnees/priere.js';
 import { Questions } from './EnseignementEcrit.jsx';
 import { lireReference, ecrireReference } from '../../bible/references.js';
 import { useSignal } from '../../outils/signal.js';
-import { aller } from '../../outils/routeur.js';
+import { aller, retourVers } from '../../outils/routeur.js';
 import { rythme, chargerRythme, rappelParcours, aRappelParcours } from '../../donnees/rythme.js';
 import { useEffect, useState } from 'preact/hooks';
 import { compter } from '../../donnees/mesure.js';
@@ -156,7 +156,8 @@ function Etape({ cfg, id, n, faits, decision }) {
   const blocs = [{ texte: `${cfg.unite} ${n}. ${j.titre}.` }, ...corps, ...plus, ...j.versets.map((r) => ({ reference: r })), { texte: 'Pour réfléchir. ' + j.question },
     ...(j.sujets?.length ? [{ texte: 'Sujets de prière.' }, ...blocsSujets(j.sujets)] : []), ...(j.priere ? [{ texte: (j.decision ? 'Prière pour recevoir Jésus. ' : 'Prière. ') + j.priere }] : [])];
   const iPlus = 1 + corps.length, iV = iPlus + plus.length, iQ = iV + j.versets.length, iS = iQ + 1, iP = iS + (j.sujets?.length ? j.sujets.length + 1 : 0);
-  const terminer = () => { terminerJour(n, cfg.cle); notifier(`Bravo, ${cfg.unite.toLowerCase()} ${n} terminé${cfg.unite === 'Leçon' ? 'e' : ''} !`); aller('grandir/' + id); };
+  const terminer = () => { terminerJour(n, cfg.cle); notifier(`Bravo, ${cfg.unite.toLowerCase()} ${n} terminé${cfg.unite === 'Leçon' ? 'e' : ''} !`); };
+  const suivante = cfg.liste().find((x) => x.jour === n + 1);
   return (
     <div class="page">
       <div class="theme-hero"><img src={j.image} alt="" />
@@ -191,8 +192,13 @@ function Etape({ cfg, id, n, faits, decision }) {
         ? <p class="hors-ligne-ok" style="justify-content:center;margin-top:12px"><Icone nom="verifie" taille={18} /> Tu as donné ta vie à Jésus le {new Date(decision).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}. Bienvenue dans la famille de Dieu !</p>
         : <button class="bouton bouton--plein" style="width:100%;margin-top:12px" onClick={() => { noterDecision('parcours'); notifier('Bienvenue dans la famille de Dieu !'); }}>
             <Icone nom="coeur" taille={18} /> J'ai donné ma vie à Jésus</button>)}
-      {fait ? <p class="hors-ligne-ok" style="justify-content:center;margin-top:14px"><Icone nom="verifie" taille={18} /> Terminé</p>
-        : <button class="bouton bouton--or" style="width:100%;margin-top:14px" onClick={terminer}><Icone nom="verifie" taille={18} /> J'ai terminé {cfg.unite === 'Leçon' ? 'cette leçon' : 'ce jour'}</button>}
+      <section class="carte bloc suite-ens">
+        {fait ? <p class="hors-ligne-ok" style="justify-content:center;margin:0 0 10px"><Icone nom="verifie" taille={18} /> {cfg.unite === 'Leçon' ? 'Leçon terminée' : 'Jour terminé'}</p>
+          : <button class="bouton bouton--or" style="width:100%;margin-bottom:8px" onClick={terminer}><Icone nom="verifie" taille={18} /> J'ai terminé {cfg.unite === 'Leçon' ? 'cette leçon' : 'ce jour'}</button>}
+        {suivante && <button class={'bouton ' + (fait ? 'bouton--or' : 'bouton--contour')} style="width:100%" onClick={() => { if (!fait) terminer(); aller(`grandir/${id}/${n + 1}`); }}>{cfg.unite} suivant{cfg.unite === 'Leçon' ? 'e' : ''} : {suivante.titre} <Icone nom="chevron" taille={18} /></button>}
+        {!suivante && cfg.suite && fait && <a class="bouton bouton--or" style="width:100%" href={'#/' + cfg.suite.lien}>{cfg.suite.texte}</a>}
+        <button class="lien" style="margin-top:10px" onClick={() => retourVers('grandir/' + id)}>Revenir à la liste des {cfg.unite === 'Leçon' ? 'leçons' : 'jours'}</button>
+      </section>
       {j.inspiration && <p class="source-mention">{j.inspiration}</p>}
     </div>
   );

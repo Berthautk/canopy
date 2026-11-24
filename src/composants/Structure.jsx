@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'preact/hooks';
 import { Icone, Embleme } from './Icone.jsx';
-import { aller, retour, revenir, provenance, route } from '../outils/routeur.js';
+import { aller, retour, revenir, provenance, route, viaOnglet } from '../outils/routeur.js';
 import { Avatar } from './Avatar.jsx';
 import { profil } from '../donnees/profil.js';
 import { useSignal } from '../outils/signal.js';
@@ -88,7 +88,7 @@ export function BarreOnglets({ actif }) {
   return (
     <nav class="onglets" aria-label="Navigation principale">
       {ONGLETS.map(([id, libelle, icone]) => (
-        <a class="onglet" href={'#/' + id} aria-current={actif === id ? 'page' : undefined}>
+        <a class="onglet" href={'#/' + id} onClick={viaOnglet} aria-current={actif === id ? 'page' : undefined}>
           <Icone nom={icone} />
           <span>{libelle}</span>
         </a>
@@ -124,7 +124,7 @@ export function Tiroir({ ouvert, fermer }) {
         </div>
         <div class="liste">
           {MENU.map(([id, libelle, icone]) => (
-            <a class="carte ligne" href={'#/' + id} onClick={fermer}>
+            <a class="carte ligne" href={'#/' + id} onClick={() => { viaOnglet(); fermer(); }}>
               <span class="ligne__icone"><Icone nom={icone} /></span>
               <span class="ligne__corps"><span class="ligne__titre">{libelle}</span></span>
               <span class="ligne__fin"><Icone nom="chevron" taille={20} /></span>
