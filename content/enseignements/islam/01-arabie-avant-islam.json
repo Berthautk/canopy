@@ -7,7 +7,7 @@
  "resume": "Pour comprendre l'islam, il faut d'abord comprendre le monde où il est né. L'Arabie du VIe siècle : des tribus, des caravanes, une ville sainte remplie d'idoles, un dieu appelé Allah déjà connu, des juifs et des chrétiens divisés, et des récits bibliques déformés qui circulaient de bouche à oreille. Premier enseignement de la série « L'islam de A à Z ».",
  "image": "/assets/lieux-bibliques/tente.webp",
  "verset_de_base": "Ac 2:11",
- "lecture_minutes": 31,
+ "lecture_minutes": 27,
  "objectifs": [
   "Situer l'Arabie du VIe siècle : ses tribus, son commerce, ses croyances.",
   "Connaître La Mecque, la Kaaba et ses idoles avant l'islam.",
@@ -51,6 +51,9 @@
     },
     {
      "texte": "L'Arabie est aussi une route de commerce. Des caravanes de chameaux transportent l'encens, la myrrhe, les épices, les tissus, entre le Yémen au sud et la Syrie au nord. La Bible elle-même parle de ces caravanes : des chameaux viendront de Séba, ils porteront de l'or et de l'encens (Ésaïe 60:6)."
+    },
+    {
+     "verset": "Es 60:6"
     },
     {
      "texte": "Sur cette route, à mi-chemin, se trouve une petite ville dans une vallée sèche et chaude : La Mecque. Elle n'a ni rivière ni champs. Mais elle a un puits, le puits de Zamzam, et surtout un sanctuaire, la Kaaba, qui attire les pèlerins de toute l'Arabie. Une tribu contrôle la ville et le sanctuaire : la tribu de Quraych. C'est dans cette tribu que Mahomet naîtra."
@@ -146,9 +149,6 @@
      "texte": "Le jour de la Pentecôte, à Jérusalem, il y avait des Arabes parmi la foule. Ils entendirent les apôtres annoncer dans leur langue les merveilles de Dieu (Actes 2:11). L'apôtre Paul lui-même, après sa conversion, partit en Arabie avant de revenir à Damas (Galates 1:17). L'Évangile a donc touché le monde arabe dès les premières années de l'Église."
     },
     {
-     "verset": "Ac 2:11"
-    },
-    {
      "texte": "Six siècles plus tard, au temps de Mahomet, il y avait des chrétiens en Arabie. Au nord, des tribus arabes entières étaient chrétiennes, alliées de l'empire byzantin. Au sud, la ville de Najran, au Yémen, avait une grande communauté chrétienne. En 523, un roi converti au judaïsme, Dhu Nuwas, y fit massacrer des chrétiens qui refusaient de renier Christ ; beaucoup furent brûlés. De l'autre côté de la mer Rouge, le royaume d'Éthiopie (Aksoum) était chrétien depuis le IVe siècle. Nous verrons que les premiers musulmans persécutés trouveront refuge chez ce roi chrétien."
     },
     {
@@ -193,9 +193,6 @@
     },
     {
      "texte": "Paul avait prévenu : il viendra un temps où les hommes ne supporteront pas la saine doctrine ; ils détourneront l'oreille de la vérité et se tourneront vers les fables (2 Timothée 4:3-4). Il avait aussi dit aux Galates : si quelqu'un, même un ange du ciel, vous annonce un autre Évangile que celui que nous vous avons annoncé, qu'il soit anathème (Galates 1:8). Gardons ce verset en mémoire : il sera très important quand nous parlerons de l'ange qui, selon l'islam, apparut à Mahomet."
-    },
-    {
-     "verset": "Ga 1:8"
     }
    ]
   },
@@ -243,9 +240,6 @@
     },
     {
      "texte": "Nous ne pouvons pas réécrire l'histoire, mais nous pouvons en tirer une leçon sérieuse. Paul demande : comment invoqueront-ils celui en qui ils n'ont pas cru ? Et comment croiront-ils en celui dont ils n'ont pas entendu parler ? Et comment en entendront-ils parler, s'il n'y a personne qui prêche ? (Romains 10:14). Quand l'Église se dispute, quand elle ne traduit pas la Parole, quand elle ne va pas vers les autres peuples, d'autres messages viennent remplir le vide."
-    },
-    {
-     "verset": "Rm 10:14"
     },
     {
      "sous_titre": "On raconte…"
@@ -320,9 +314,6 @@
     },
     {
      "texte": "Le chrétien n'a pas à vivre dans la peur de ces esprits. La Bible reconnaît qu'il y a des puissances des ténèbres : nous n'avons pas à lutter contre la chair et le sang, mais contre les dominations, contre les autorités, contre les esprits méchants (Éphésiens 6:12). Mais elle proclame aussi que Christ les a dépouillées à la croix et les a livrées publiquement en spectacle (Colossiens 2:15). Le musulman qui vit dans la peur des djinns et du mauvais œil a besoin d'entendre cette bonne nouvelle : il y a quelqu'un de plus fort que tous les esprits, et il s'appelle Jésus."
-    },
-    {
-     "verset": "Col 2:15"
     }
    ]
   },
@@ -345,9 +336,6 @@
     },
     {
      "texte": "Pierre nous donne l'attitude juste : soyez toujours prêts à vous défendre, avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous (1 Pierre 3:15). Paul ajoute : que votre parole soit toujours accompagnée de grâce, assaisonnée de sel (Colossiens 4:6). La vérité et la grâce. Pas l'une sans l'autre."
-    },
-    {
-     "verset": "1 P 3:15"
     },
     {
      "texte": "Dans le prochain enseignement, nous suivrons la vie de Mahomet depuis sa naissance jusqu'à l'expérience de la grotte de Hira, qui va tout changer pour lui et, plus tard, pour une grande partie du monde."
