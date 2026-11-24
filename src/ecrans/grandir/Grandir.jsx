@@ -52,6 +52,7 @@ const seriesDe = (N) => N.groupes?.length ? N.groupes : [{ titre: N.nom + ' · '
 // Carte d'une série : grande, visible, avec le nombre d'enseignements et la progression.
 function CarteSerie({ niv, gi, g, parId, lus }) {
   const l = g.enseignements.filter((id) => parId[id]), faits = l.filter((id) => lus.includes(id)).length, img = parId[l[0]]?.image;
+  if (!l.length) return null;   // série encore en préparation
   return (
     <a class="carte serie-carte" href={`#/grandir/serie/${niv}/${gi}`}>
       {img && <img src={img} alt="" loading="lazy" />}
@@ -142,7 +143,7 @@ export function Grandir() {
         <p class="ligne__desc" style="margin:0 0 8px">{ENSEIGNEMENTS.length} enseignements t'attendent, rangés en {NIVEAUX.length} niveaux. Choisis ce qui te ressemble :</p>
         <button class="par-ou__choix" onClick={() => aller('grandir/decouvrir-jesus')}><b>Je viens de donner ma vie à Jésus</b><span>Commence par « Découvrir Jésus », 10 leçons</span><Icone nom="chevron" taille={18} /></button>
         <button class="par-ou__choix" onClick={() => { choisir('fondations'); allerA('niveau-contenu'); }}><b>Je suis chrétien depuis peu</b><span>Les Fondations : salut, affermissement, Bible</span><Icone nom="chevron" taille={18} /></button>
-        <button class="par-ou__choix" onClick={() => { choisir('maturite-1'); allerA('niveau-contenu'); }}><b>Je veux aller plus loin</b><span>Maturité 1 à 4 : prière, caractère, sainteté, enseignement des apôtres</span><Icone nom="chevron" taille={18} /></button>
+        <button class="par-ou__choix" onClick={() => { choisir('maturite-1'); allerA('niveau-contenu'); }}><b>Je veux aller plus loin</b><span>Maturité 1 à 5 : prière, caractère, sainteté, apôtres, l'islam de A à Z</span><Icone nom="chevron" taille={18} /></button>
       </section>
 
       <a class="carte suivi-carte" href="#/accompagner">
@@ -157,7 +158,7 @@ export function Grandir() {
         {NIVEAUX.map((n, i) => (
           <button role="tab" aria-selected={niv === n.id} class={'niveau-onglet niveau-onglet--' + i} onClick={() => { choisir(n.id); allerA('niveau-contenu'); }}>
             <span class="niveau-onglet__marche" aria-hidden="true">{Array.from({ length: i + 1 }, () => <i />)}</span>
-            <b>{n.nom} <small class="niveau-onglet__nb">{n.enseignements.length}</small></b><span>{n.sous_titre}</span>
+            <b>{n.nom} <small class="niveau-onglet__nb">{n.enseignements.filter((id) => parId[id]).length}</small></b><span>{n.sous_titre}</span>
           </button>
         ))}
         <button role="tab" aria-selected={niv === 'tout'} class="niveau-onglet niveau-onglet--tout" onClick={() => { choisir('tout'); allerA('niveau-contenu'); }}>
@@ -172,7 +173,7 @@ export function Grandir() {
         <p class="niveau-description">{N.description}</p>
         {N.parcours.length > 0 && <h2 class="titre-section">{N.id === 'fondations' ? 'Commence ici : les parcours guidés' : 'Parcours guidé'}</h2>}
         {N.parcours.map((id) => <CarteParcours id={id} p={p} />)}
-        <h2 class="titre-section" id="series">{N.nom} : {N.enseignements.length} enseignements en {seriesDe(N).length} série{seriesDe(N).length > 1 ? 's' : ''}</h2>
+        <h2 class="titre-section" id="series">{N.nom} : {N.enseignements.filter((id) => parId[id]).length} enseignements en {seriesDe(N).length} série{seriesDe(N).length > 1 ? 's' : ''}</h2>
         <p class="ligne__desc" style="margin:-4px 4px 10px">Touche une série pour voir tous ses enseignements.</p>
         <div class="series-grille">{seriesDe(N).map((g, gi) => <CarteSerie niv={N.id} gi={gi} g={g} parId={parId} lus={lus} />)}</div>
         {NIVEAUX[NIVEAUX.indexOf(N) + 1] && <button class="bouton bouton--contour" style="width:100%;margin-top:12px" onClick={() => { choisir(NIVEAUX[NIVEAUX.indexOf(N) + 1].id); allerA('niveau-contenu'); }}>
