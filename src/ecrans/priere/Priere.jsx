@@ -76,7 +76,13 @@ export function Priere() {
       <p class="ligne__desc" style="margin:-4px 4px 8px">Touche un thème pour voir ses sujets de prière.</p>
       {categories.map((c) => {
         const liste = PRIERES.filter((p) => p.categorie === c), deplie = ouvert === c || liste.length <= 2;
-        if (liste.length === 1) return <section class="categorie-priere"><div class="liste"><CarteTheme p={liste[0]} lien={'#/priere/theme/' + liste[0].id} /></div></section>;
+        if (liste.length === 1) return (
+          <section class="categorie-priere">
+            <a class="categorie-priere__tete" href={'#/priere/theme/' + liste[0].id}>
+              <span>{c}</span><span class="onglets-internes__nb">1</span><span class="categorie-priere__voir">Ouvrir</span><Icone nom="chevron" taille={18} />
+            </a>
+          </section>
+        );
         return (
           <section class="categorie-priere">
             <button class="categorie-priere__tete" aria-expanded={deplie} onClick={() => setOuvert(ouvert === c ? null : c)}>

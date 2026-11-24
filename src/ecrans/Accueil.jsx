@@ -2,7 +2,6 @@ import { Icone } from '../composants/Icone.jsx';
 import { usePassage, TextePassage, cheminMontrer } from '../composants/Verset.jsx';
 import { BandeauTelephone } from '../composants/BandeauTelephone.jsx';
 import { CarteParcoursAccueil } from './grandir/NouveauConverti.jsx';
-import { pasEnCours } from '../donnees/carnet.js';
 import { CartePlanJour } from './bible/Plan.jsx';
 import { versetDuJour, enseignementDuJour, veilleDuMoment, meditationDuJour } from '../donnees/contenu.js';
 import { orizon, jourCourant } from '../donnees/orizon.js';
@@ -43,8 +42,8 @@ export function Accueil() {
         <section class="carte suivi-accueil">
           <div class="suivi-accueil__tete"><Icone nom="groupe" taille={24} /><div><b>Suivi des nouveaux convertis</b><span>Former le chrétien, pas à pas</span></div></div>
           <div class="suivi-accueil__boutons">
-            <a class="bouton bouton--or" href="#/accompagner/disciples">J'accompagne quelqu'un</a>
-            <a class="bouton bouton--contour" href={'#/accompagner/pas/' + (pasEnCours() || 'pas-01-le-salut')}>Je suis accompagné</a>
+            <a class="bouton bouton--contour" href="#/accompagner/disciple">Je suis nouveau converti</a>
+            <a class="bouton bouton--or" href="#/accompagner/encadreur">Je suis encadreur</a>
           </div>
         </section>
         <a class="carte accueil-priere" href={'#/priere/veille/' + v.id.replace('veille-', '')}>

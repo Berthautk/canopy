@@ -142,7 +142,6 @@ export function Grandir() {
         <p class="ligne__desc" style="margin:0 0 8px">{ENSEIGNEMENTS.length} enseignements t'attendent, rangés en {NIVEAUX.length} niveaux. Choisis ce qui te ressemble :</p>
         <button class="par-ou__choix" onClick={() => aller('grandir/decouvrir-jesus')}><b>Je viens de donner ma vie à Jésus</b><span>Commence par « Découvrir Jésus », 10 leçons</span><Icone nom="chevron" taille={18} /></button>
         <button class="par-ou__choix" onClick={() => { choisir('fondations'); allerA('niveau-contenu'); }}><b>Je suis chrétien depuis peu</b><span>Les Fondations : salut, affermissement, Bible</span><Icone nom="chevron" taille={18} /></button>
-        <button class="par-ou__choix" onClick={() => aller('accompagner')}><b>J'accompagne un nouveau converti</b><span>Le suivi pas à pas, avec les fiches de l'accompagnateur</span><Icone nom="chevron" taille={18} /></button>
         <button class="par-ou__choix" onClick={() => { choisir('maturite-1'); allerA('niveau-contenu'); }}><b>Je veux aller plus loin</b><span>Maturité 1 à 4 : prière, caractère, sainteté, enseignement des apôtres</span><Icone nom="chevron" taille={18} /></button>
       </section>
 

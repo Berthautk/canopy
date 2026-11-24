@@ -5,7 +5,9 @@ const ecrire = (cle, v) => { try { localStorage.setItem(cle, JSON.stringify(v));
 
 // Carnet d'un pas : réponses écrites, vrai/faux, lectures cochées.
 export const lireCarnet = (id) => lire('yeshaya:carnet:' + id, { r: {}, vf: {}, lect: [] });
-export const ecrireCarnet = (id, c) => ecrire('yeshaya:carnet:' + id, c);
+let surChangement = null;   // branché par le module de suivi (envoi automatique à l'encadreur)
+export const quandCarnetChange = (f) => { surChangement = f; };
+export const ecrireCarnet = (id, c) => { ecrire('yeshaya:carnet:' + id, c); surChangement?.(id); };
 export const pasEnCours = () => lire('yeshaya:carnet:en-cours', null);
 export const marquerEnCours = (id) => ecrire('yeshaya:carnet:en-cours', id);
 

@@ -1047,7 +1047,37 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .niveau-titre__marche { display: inline-flex; align-items: flex-end; gap: 2px; }
 .niveau-titre__marche i { width: 6px; height: 8px; background: #142340; border-radius: 2px; }
 .niveau-titre__marche i:nth-child(2) { height: 11px; } .niveau-titre__marche i:nth-child(3) { height: 14px; } .niveau-titre__marche i:nth-child(4) { height: 17px; } .niveau-titre__marche i:nth-child(5) { height: 20px; }
-.sommaire { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 12px 0 2px; }
-.sommaire__titre { font-size: .8rem; font-weight: 700; color: var(--texte-doux); margin-right: 2px; }
-.sommaire .puce { font-size: .82rem; }
+.sommaire { display: block; margin: 12px 0 2px; }
+.sommaire__liste { width: 100%; font-weight: 600; color: var(--titre); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .suite-ens { margin-top: 18px; border: 2px solid var(--or); }
+
+/* ---------- Suivi : chemins séparés, étapes, code ---------- */
+.acc-question-role { margin: 16px 4px 8px; font-family: var(--police-titre); font-size: 1.15rem; color: var(--titre); }
+.acc-chemin { display: flex; align-items: center; gap: 12px; padding: 14px 12px; margin-top: 10px; border: 2px solid var(--bord); }
+.acc-chemin b { display: block; font-family: var(--police-titre); font-size: 1.05rem; color: var(--titre); }
+.acc-chemin .ligne__corps > span:not(.pastille) { display: block; font-size: .84rem; color: var(--texte-doux); line-height: 1.35; margin-top: 2px; }
+.acc-chemin .pastille { margin-bottom: 4px; }
+.acc-chemin__icone { width: 52px; height: 52px; border-radius: 50%; background: var(--or); color: #142340; display: grid; place-items: center; flex: none; }
+.acc-chemin__icone--lettre { font-family: var(--police-titre); font-size: 1.3rem; font-weight: 700; }
+.acc-chemin--fort { border-color: var(--or); background: linear-gradient(135deg, rgba(201,154,46,.14), transparent); }
+.acc-plus { margin-top: 12px; }
+.acc-plus summary { cursor: pointer; font-family: var(--police-titre); color: var(--titre); padding: 2px 0; }
+.acc-plus[open] summary { margin-bottom: 8px; }
+.acc-liste-pas { margin: 0; padding-left: 22px; display: grid; gap: 3px; font-size: .92rem; }
+.acc-liste-pas .a-venir { color: var(--texte-doux); }
+.acc-etapes { display: flex; align-items: center; gap: 6px; margin: 14px 4px 0; font-size: .8rem; font-weight: 700; color: var(--texte-doux); }
+.acc-etapes i { width: 28px; height: 6px; border-radius: 3px; background: var(--bord); }
+.acc-etapes i.fait { background: var(--or); }
+.acc-etapes span { margin-left: 4px; }
+.acc-statut { display: flex; align-items: flex-start; gap: 6px; margin: 4px 4px 10px; font-size: .86rem; color: var(--texte-doux); }
+.acc-statut svg { flex: none; margin-top: 2px; }
+.acc-statut--ok { color: #2e7d5b; font-weight: 600; }
+.acc-form .champ { width: 100%; }
+.acc-code { font-size: 1.4rem; letter-spacing: .12em; text-transform: uppercase; text-align: center; font-weight: 700; }
+.acc-accord { display: flex; gap: 6px; align-items: flex-start; margin: 10px 0; }
+.acc-accord svg { flex: none; margin-top: 2px; }
+.acc-code-carte { border: 2px solid var(--or); text-align: center; }
+.acc-code-grand { font-family: var(--police-titre); font-size: 2.1rem; letter-spacing: .14em; font-weight: 800; color: var(--titre); margin: 8px 0; }
+.acc-suivi-direct { border: 2px solid #2e7d5b; }
+.acc-suivi-direct p { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; }

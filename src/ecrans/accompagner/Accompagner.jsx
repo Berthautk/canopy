@@ -5,16 +5,24 @@ import { CarteVerset } from '../../composants/Verset.jsx';
 import { notifier } from '../../composants/Notification.jsx';
 import { ACCOMPAGNEMENT, ENSEIGNEMENTS, chargerFiche } from '../../donnees/contenu.js';
 import { lireReference, ecrireReference } from '../../bible/references.js';
-import { aller } from '../../outils/routeur.js';
+import { aller, remplacer, retourVers } from '../../outils/routeur.js';
+import { useSignal } from '../../outils/signal.js';
 import { compter } from '../../donnees/mesure.js';
 import {
-  lireCarnet, ecrireCarnet, pasEnCours, marquerEnCours, lireBilan, ecrireBilan, effacerBilan,
+  lireCarnet, ecrireCarnet, marquerEnCours, lireBilan, ecrireBilan, effacerBilan,
   aUnCode, definirCode, verifierCode, bilanOuvert, ouvrirBilan, lireDisciples, ecrireDisciples,
 } from '../../donnees/carnet.js';
+import {
+  lienDisciple, rejoindre, travaillerSeul, quitterLien, actualiserDisciple, etatEnvoi, formaterCode,
+  creerDisciple, etatDuDisciple, avancerDisciple, retirerDisciple,
+} from '../../donnees/suivi.js';
 
-// « Former le chrétien » : accompagnement d'un nouveau converti, pas à pas (méthode inspirée de La Nouvelle Vie en Christ).
+// Suivi des nouveaux convertis (« Former le chrétien ») : méthode inspirée de La Nouvelle Vie en Christ.
+// Deux chemins séparés : le nouveau converti (son carnet) et l'encadreur (ses disciples, ses fiches).
 
 const tousLesPas = () => ACCOMPAGNEMENT.volumes.flatMap((v) => v.pas.map((p) => ({ ...p, volume: v.numero })));
+const pasDe = (id) => tousLesPas().find((p) => p.id === id);
+const pasSuivant = (id) => { const l = tousLesPas(), i = l.findIndex((p) => p.id === id); return l.slice(i + 1).find((p) => p.id) || null; };
 const lienRef = (t) => { const r = lireReference(t); return r ? `#/bible/lire/${r.code}/${r.c}${r.v ? '/' + r.v : ''}` : null; };
 function Refs({ refs }) {
   if (!refs?.length) return null;
@@ -27,73 +35,214 @@ function useFiche(id) {
 }
 const Attente = ({ etat }) => etat.chargement ? <div class="page"><p class="verset__attente" style="margin-top:16px">Chargement…</p></div>
   : <div class="page"><p class="verset__erreur" style="margin-top:16px">Cette fiche n'est pas encore sur ton téléphone. Connecte-toi une fois pour l'ouvrir.</p></div>;
+const ilYA = (iso) => { if (!iso) return ''; const m = Math.round((Date.now() - Date.parse(iso)) / 60000); return m < 1 ? "à l'instant" : m < 60 ? `il y a ${m} min` : m < 1440 ? `il y a ${Math.round(m / 60)} h` : `le ${new Date(iso).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' })}`; };
+const Etapes = ({ n, total }) => <p class="acc-etapes">{Array.from({ length: total }, (_, k) => <i class={k < n ? 'fait' : ''} />)}<span>Étape {n} sur {total}</span></p>;
 
-// ---------- Accueil du parcours ----------
+// ---------- Choisir son chemin ----------
 export function AccompagnerAccueil() {
-  const enCours = pasEnCours(), liste = tousLesPas(), suivant = liste.find((p) => p.id === enCours) || liste.find((p) => p.id);
   return (
     <div class="page">
       <div class="bandeau-titre">
         <img src="/assets/nouveau-converti/etude-de-la-bible.webp" alt="" />
-        <div><h2>{ACCOMPAGNEMENT.titre}</h2><p>{ACCOMPAGNEMENT.sous_titre}</p></div>
+        <div><h2>Suivi des nouveaux convertis</h2><p>Former le chrétien, pas à pas</p></div>
       </div>
-      <section class="carte bloc">
+      <p class="acc-question-role">Qui es-tu ?</p>
+      <a class="carte acc-chemin" href="#/accompagner/disciple">
+        <span class="acc-chemin__icone"><Icone nom="note" taille={28} /></span>
+        <span class="ligne__corps"><b>Je suis nouveau converti</b><span>Un encadreur m'accompagne. Chaque semaine, je travaille un pas dans mon carnet.</span></span>
+        <Icone nom="chevron" taille={22} />
+      </a>
+      <a class="carte acc-chemin" href="#/accompagner/encadreur">
+        <span class="acc-chemin__icone"><Icone nom="groupe" taille={28} /></span>
+        <span class="ligne__corps"><b>Je suis encadreur</b><span>J'accompagne un nouveau converti, comme Paul avec Timothée (2 Timothée 2:2).</span></span>
+        <Icone nom="chevron" taille={22} />
+      </a>
+      <details class="carte bloc acc-plus">
+        <summary><b>Comment se passe le suivi ?</b></summary>
         {ACCOMPAGNEMENT.presentation.map((t) => <p>{t}</p>)}
-      </section>
-      <div class="acc-roles">
-        <a class="carte acc-role" href={'#/accompagner/pas/' + suivant.id}>
-          <Icone nom="note" taille={26} /><b>Je suis accompagné</b><span>Mon carnet : {enCours ? 'reprendre le pas ' + suivant.numero : 'commencer le pas 1'}</span>
-        </a>
-        <a class="carte acc-role" href="#/accompagner/disciples">
-          <Icone nom="groupe" taille={26} /><b>J'accompagne</b><span>Mes disciples, fiches de l'accompagnateur</span>
-        </a>
-      </div>
-      <details class="carte bloc acc-comment" style="margin-top:12px">
-        <summary><b>Comment ça marche à deux ?</b></summary>
-        <p>Les deux téléphones ne sont pas reliés : chacun a sa propre fiche. Rien ne passe par Internet, sauf ce que vous envoyez vous-mêmes par WhatsApp.</p>
-        <ul class="acc-liste">
-          <li><b>Le disciple a un smartphone :</b> l'accompagnateur lui envoie le lien du pas (bouton « Envoyer ce pas au disciple »). Le disciple remplit son carnet pendant la semaine, puis touche « Envoyer mes réponses ». L'accompagnateur ouvre la rencontre depuis « Mes disciples », choisit son nom et colle le message : les réponses s'affichent sous chaque question, séparées pour chaque disciple.</li>
-          <li><b>Ils se voient avec leurs deux téléphones :</b> le disciple garde son carnet ouvert, l'accompagnateur sa fiche, et ils avancent question par question.</li>
-          <li><b>Le disciple n'a pas de smartphone :</b> l'accompagnateur imprime la « Fiche vierge pour le disciple » (ou l'envoie en PDF). Le disciple écrit à la main, et apporte sa feuille à la rencontre.</li>
-          <li><b>Le bilan de vie</b> se remplit sur le téléphone du disciple (ou sur papier) et ne s'envoie jamais : on le regarde ensemble pendant la rencontre.</li>
-        </ul>
+        <p>L'encadreur inscrit son disciple et reçoit un <b>code</b>. Le disciple entre ce code avec son prénom : leurs deux applications sont alors reliées. Les réponses que le disciple écrit dans son carnet apparaissent directement chez son encadreur, sans rien envoyer. Le bilan de vie, lui, reste toujours sur le téléphone du disciple.</p>
       </details>
-      <a class="carte ligne" href="#/accompagner/accueil" style="margin-top:12px">
-        <span class="ligne__icone"><Icone nom="coeur" /></span>
-        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Avant de commencer : la rencontre d'accueil</span>
-          <span class="ligne__desc">Pour l'accompagnateur : accueillir, encourager, présenter le parcours et engager le nouveau converti.</span></span>
-        <Icone nom="chevron" taille={20} />
-      </a>
-      <a class="carte ligne" href="#/accompagner/bilan" style="margin-top:8px">
-        <span class="ligne__icone"><Icone nom="cadenas" /></span>
-        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Mon bilan de vie (confidentiel)</span>
-          <span class="ligne__desc">À remplir pendant la semaine du pas 1. Il reste sur ce téléphone.</span></span>
-        <Icone nom="chevron" taille={20} />
-      </a>
-      {ACCOMPAGNEMENT.volumes.map((v) => (
-        <section class="carte bloc">
-          <h3 style="margin-top:0">{v.titre}</h3>
-          <p class="ligne__desc" style="margin-top:-4px">{v.sous_titre} · {v.pas.length} pas</p>
-          <ol class="formation">
-            {v.pas.map((p) => <li class={'formation__lecon' + (p.id ? '' : ' formation__lecon--a-venir')}>
-              {p.id ? <a href={'#/accompagner/pas/' + p.id}><span class="formation__num">{p.numero}</span><span class="ligne__corps"><span class="ligne__titre">{p.titre}</span><span class="ligne__desc" style="display:block">{p.id === enCours ? 'En cours' : 'Fiche disponible'}</span></span><Icone nom="chevron" taille={18} /></a>
-                : <span><span class="formation__num">{p.numero}</span><span class="ligne__corps"><span class="ligne__titre">{p.titre}</span><span class="ligne__desc" style="display:block">En préparation</span></span></span>}
-            </li>)}
-          </ol>
-        </section>
-      ))}
+      <details class="carte bloc acc-plus">
+        <summary><b>Les pas du parcours</b></summary>
+        {ACCOMPAGNEMENT.volumes.map((v) => <><h4 style="margin:10px 0 4px">{v.titre}</h4><ol class="acc-liste-pas">{v.pas.map((p) => <li class={p.id ? '' : 'a-venir'}>{p.titre}{p.id ? '' : ' (en préparation)'}</li>)}</ol></>)}
+      </details>
       <p class="source-mention">{ACCOMPAGNEMENT.source} <a class="lien" href={ACCOMPAGNEMENT.lien_source} target="_blank" rel="noopener">Manuel original</a></p>
     </div>
   );
 }
 
-// ---------- Rencontre d'accueil ----------
-export function RencontreAccueil() {
-  const etat = useFiche('rencontre-accueil'), f = etat.f;
-  if (!f) return <Attente etat={etat} />;
+// ---------- Chemin du nouveau converti ----------
+export function EspaceDisciple() {
+  const l = useSignal(lienDisciple), env = useSignal(etatEnvoi);
+  const [code, setCode] = useState(''), [prenom, setPrenom] = useState(''), [etat, setEtat] = useState({});
+  useEffect(() => { actualiserDisciple(); }, []);
+  if (!l) return (
+    <div class="page">
+      <h2 style="margin:16px 4px 4px">Bienvenue !</h2>
+      <p class="ligne__desc" style="margin:0 4px 12px">Ton encadreur t'a donné un <b>code</b> de 7 signes (comme ABC-1234). Entre-le avec ton prénom, écrit comme il l'a noté.</p>
+      <form class="carte bloc acc-form" onSubmit={async (e) => { e.preventDefault(); setEtat({ envoi: true }); try { await rejoindre(code, prenom); compter('suivi-rejoint'); notifier('Tu es relié à ton encadreur'); setEtat({}); } catch (err) { setEtat({ erreur: err.message }); } }}>
+        <label class="etiquette-champ" for="acc-code">Le code de ton encadreur</label>
+        <input id="acc-code" class="champ acc-code" value={code} onInput={(e) => setCode(formaterCode(e.currentTarget.value))} placeholder="_ _ _ - _ _ _ _" autocapitalize="characters" autocomplete="off" inputmode="text" />
+        <label class="etiquette-champ" for="acc-prenom">Ton prénom</label>
+        <input id="acc-prenom" class="champ" value={prenom} onInput={(e) => setPrenom(e.currentTarget.value)} autocomplete="given-name" />
+        <p class="ligne__desc acc-accord"><Icone nom="info" taille={16} /> En validant, tu acceptes que ton encadreur voie les réponses que tu écris dans ton carnet. Ton bilan de vie, lui, n'est jamais envoyé : il reste sur ton téléphone.</p>
+        {etat.erreur && <p class="verset__erreur">{etat.erreur}</p>}
+        <button class="bouton bouton--or" style="width:100%" disabled={code.replace('-', '').length < 7 || prenom.trim().length < 2 || etat.envoi}>{etat.envoi ? 'Vérification…' : 'Valider'}</button>
+      </form>
+      <button class="lien" style="margin:14px auto;display:block" onClick={() => { const p = prompt('Ton prénom :') || ''; travaillerSeul(p); }}>Je n'ai pas encore d'encadreur : commencer seul</button>
+    </div>
+  );
+  const p = pasDe(l.pas) || pasDe('pas-01-le-salut');
+  const faits = tousLesPas().filter((x) => x.id && tousLesPas().findIndex((y) => y.id === x.id) < tousLesPas().findIndex((y) => y.id === p.id));
   return (
     <div class="page">
-      <h2 style="margin:14px 4px 2px">{f.titre}</h2>
+      <h2 style="margin:16px 4px 2px">Bonjour {l.prenom || ''} !</h2>
+      <p class={'acc-statut' + (l.mode === 'relie' ? ' acc-statut--ok' : '')}>
+        <Icone nom={l.mode === 'relie' ? 'verifie' : 'info'} taille={16} />
+        {l.mode === 'relie' ? <span>Relié à ton encadreur : il voit les réponses de ton carnet{env.statut === 'attente' ? ' (envoi en attente de réseau)' : ''}</span> : <span>Tu travailles seul pour l'instant</span>}
+      </p>
+      <a class="carte acc-chemin acc-chemin--fort" href={'#/accompagner/pas/' + p.id}>
+        <span class="acc-chemin__icone"><Icone nom="note" taille={28} /></span>
+        <span class="ligne__corps"><span class="pastille pastille--or pastille--mini">Mon pas de la semaine</span><b>Pas {p.numero} · {p.titre}</b><span>Ouvrir mon carnet et travailler</span></span>
+        <Icone nom="chevron" taille={22} />
+      </a>
+      {p.id === 'pas-01-le-salut' && <a class="carte ligne" href="#/accompagner/bilan" style="margin-top:10px">
+        <span class="ligne__icone"><Icone nom="cadenas" /></span>
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Mon bilan de vie (confidentiel)</span><span class="ligne__desc">À remplir cette semaine. Il reste sur ton téléphone.</span></span>
+        <Icone nom="chevron" taille={20} />
+      </a>}
+      {faits.length > 0 && <details class="carte bloc acc-plus"><summary><b>Mes pas déjà faits ({faits.length})</b></summary>
+        {faits.map((x) => <a class="carte ligne" href={'#/accompagner/pas/' + x.id} style="margin-top:6px"><span class="enseignement__num enseignement__num--lu"><Icone nom="verifie" taille={13} /></span><span class="ligne__corps"><span class="ligne__titre">Pas {x.numero} · {x.titre}</span></span><Icone nom="chevron" taille={18} /></a>)}</details>}
+      <details class="carte bloc acc-plus"><summary><b>Mon lien avec mon encadreur</b></summary>
+        {l.mode === 'relie' ? <p>Code : <b>{l.code}</b>. Ton encadreur voit les réponses de ton carnet ; il te remet le pas suivant après votre rencontre.</p> : <p>Quand tu auras un encadreur, il te donnera un code.</p>}
+        <button class="bouton bouton--contour" style="width:100%" onClick={async () => { if (!confirm(l.mode === 'relie' ? 'Arrêter le lien avec ton encadreur ? Il ne verra plus tes réponses.' : 'Entrer un code d\'encadreur ?')) return; await quitterLien(l.mode === 'relie'); }}>{l.mode === 'relie' ? 'Arrêter le lien' : 'J\'ai reçu un code'}</button>
+      </details>
+    </div>
+  );
+}
+
+// ---------- Chemin de l'encadreur ----------
+export function EspaceEncadreur() {
+  const [l, setL] = useState(lireDisciples);
+  useEffect(() => { setL(lireDisciples()); }, []);
+  return (
+    <div class="page">
+      <h2 style="margin:16px 4px 2px">Mes disciples</h2>
+      <p class="ligne__desc" style="margin:0 4px 12px">Les nouveaux convertis que tu accompagnes. Touche un nom pour ouvrir son suivi.</p>
+      {l.map((d) => { const p = pasDe(d.pas); return (
+        <a class="carte acc-chemin" href={'#/accompagner/encadreur/' + d.id}>
+          <span class="acc-chemin__icone acc-chemin__icone--lettre">{(d.prenom[0] || '?').toUpperCase()}</span>
+          <span class="ligne__corps"><b>{d.prenom}</b><span>{!d.accueil ? 'Rencontre d\'accueil à faire' : p ? `Pas ${p.numero} · ${p.titre}` : ''}{d.rdv ? ' · rencontre le ' + new Date(d.rdv).toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' }) : ''}</span></span>
+          <Icone nom="chevron" taille={22} />
+        </a>); })}
+      <a class="bouton bouton--or" style="width:100%;margin-top:12px" href="#/accompagner/encadreur/nouveau">+ Inscrire un nouveau converti</a>
+      {!l.length && <p class="ligne__desc" style="margin:12px 4px">Commence par inscrire la personne que tu accompagnes : tu recevras un code à lui donner.</p>}
+    </div>
+  );
+}
+
+// Inscrire un nouveau converti : une chose à la fois (prénom → code → rencontre d'accueil).
+export function NouveauDisciple() {
+  const [prenom, setPrenom] = useState(''), [d, setD] = useState(null), [etat, setEtat] = useState({});
+  const valider = async (e) => {
+    e.preventDefault(); setEtat({ envoi: true });
+    try { setD(await creerDisciple(prenom)); compter('suivi-disciple-inscrit'); setEtat({}); }
+    catch (err) { setEtat({ erreur: err.message }); }
+  };
+  const sansCode = () => { const n = { id: 'd' + Date.now().toString(36), prenom: prenom.trim(), pas: 'pas-01-le-salut', versets: [], notes: '', rdv: '', accueil: false }; ecrireDisciples([...lireDisciples(), n]); remplacer('accompagner/encadreur/' + n.id + '/accueil'); };
+  const partagerCode = () => {
+    const texte = `Bonjour ${d.prenom} ! Pour notre suivi dans l'application Yeshaya :\n1. Ouvre Yeshaya (${location.origin})\n2. Touche « Suivi des nouveaux convertis », puis « Je suis nouveau converti »\n3. Entre ce code : ${d.code}\net ton prénom : ${d.prenom}`;
+    if (navigator.share) navigator.share({ text: texte }).catch(() => {}); else open('https://wa.me/?text=' + encodeURIComponent(texte), '_blank');
+  };
+  if (!d) return (
+    <div class="page">
+      <Etapes n={1} total={3} />
+      <h2 style="margin:6px 4px 4px">Qui accompagnes-tu ?</h2>
+      <p class="ligne__desc" style="margin:0 4px 12px">Écris le prénom du nouveau converti. Il devra l'écrire de la même façon avec le code.</p>
+      <form class="carte bloc acc-form" onSubmit={valider}>
+        <label class="etiquette-champ" for="acc-prenom-d">Prénom du nouveau converti</label>
+        <input id="acc-prenom-d" class="champ" value={prenom} onInput={(e) => setPrenom(e.currentTarget.value)} autofocus />
+        {etat.erreur && <><p class="verset__erreur">{etat.erreur}</p>
+          <button type="button" class="lien" onClick={sansCode}>Continuer sans code (le disciple n'a pas de smartphone)</button></>}
+        <button class="bouton bouton--or" style="width:100%;margin-top:10px" disabled={prenom.trim().length < 2 || etat.envoi}>{etat.envoi ? 'Création du code…' : 'Valider'}</button>
+      </form>
+    </div>
+  );
+  return (
+    <div class="page">
+      <Etapes n={2} total={3} />
+      <h2 style="margin:6px 4px 4px">Le code de {d.prenom}</h2>
+      <section class="carte bloc acc-code-carte">
+        <p class="ligne__desc" style="margin-top:0">Donne ce code à {d.prenom}. Dans Yeshaya, il touche « Suivi des nouveaux convertis », puis « Je suis nouveau converti », et l'entre avec son prénom.</p>
+        <p class="acc-code-grand">{d.code}</p>
+        <p class="ligne__desc">Prénom à écrire : <b>{d.prenom}</b></p>
+        <button class="bouton bouton--contour" style="width:100%" onClick={partagerCode}><Icone nom="partager" taille={18} /> Envoyer le code par WhatsApp</button>
+        <p class="ligne__desc" style="margin-bottom:0">Dès qu'il l'aura entré, ses réponses apparaîtront directement dans ta fiche. Tu retrouves ce code à tout moment dans sa page.</p>
+      </section>
+      <button class="bouton bouton--or" style="width:100%;margin-top:12px" onClick={() => remplacer('accompagner/encadreur/' + d.id + '/accueil')}>Suivant : la rencontre d'accueil <Icone nom="chevron" taille={18} /></button>
+    </div>
+  );
+}
+
+// Page d'un disciple : tout son suivi au même endroit.
+export function FicheDisciple({ id }) {
+  const [l, setL] = useState(lireDisciples), [serveur, setServeur] = useState(null);
+  const d = l.find((x) => x.id === id);
+  const maj = (k, v) => { const n = l.map((x) => (x.id === id ? { ...x, [k]: v } : x)); setL(n); ecrireDisciples(n); };
+  useEffect(() => { if (d?.code) etatDuDisciple(d).then((s) => { setServeur(s); if (s.pas && s.pas !== d.pas) maj('pas', s.pas); }).catch(() => setServeur({ horsLigne: true })); }, [id]);
+  if (!d) return <div class="page"><p class="ligne__desc" style="margin-top:16px">Disciple introuvable. <a class="lien" href="#/accompagner/encadreur">Mes disciples</a></p></div>;
+  const p = pasDe(d.pas) || pasDe('pas-01-le-salut');
+  const aRepondu = serveur?.carnets?.[p.id] ? Object.values(serveur.carnets[p.id].r || {}).filter((x) => String(x).trim()).length : 0;
+  return (
+    <div class="page">
+      <h2 style="margin:16px 4px 2px">{d.prenom}</h2>
+      {d.code ? <p class={'acc-statut' + (serveur?.rejoint ? ' acc-statut--ok' : '')}><Icone nom={serveur?.rejoint ? 'verifie' : 'info'} taille={16} />
+        <span>{serveur?.horsLigne ? 'Pas de réseau : les réponses s\'afficheront plus tard.' : serveur?.rejoint ? `${d.prenom} est relié · ${aRepondu} réponse${aRepondu > 1 ? 's' : ''} écrite${aRepondu > 1 ? 's' : ''} pour le pas ${p.numero}` : `${d.prenom} n'a pas encore entré son code : ${d.code}`}</span></p>
+        : <p class="acc-statut"><Icone nom="info" taille={16} /><span>Sans code : {d.prenom} travaille sur papier (fiche vierge).</span></p>}
+      {!d.accueil ? (
+        <a class="carte acc-chemin acc-chemin--fort" href={'#/accompagner/encadreur/' + d.id + '/accueil'}>
+          <span class="acc-chemin__icone"><Icone nom="coeur" taille={28} /></span>
+          <span class="ligne__corps"><span class="pastille pastille--or pastille--mini">À faire d'abord</span><b>La rencontre d'accueil</b><span>Accueillir, encourager, présenter le parcours</span></span>
+          <Icone nom="chevron" taille={22} />
+        </a>
+      ) : (
+        <a class="carte acc-chemin acc-chemin--fort" href={`#/accompagner/pas/${p.id}?role=encadreur&disciple=${d.id}`}>
+          <span class="acc-chemin__icone"><Icone nom="groupe" taille={28} /></span>
+          <span class="ligne__corps"><span class="pastille pastille--or pastille--mini">Prochaine rencontre</span><b>Pas {p.numero} · {p.titre}</b><span>Questions, réponses de {d.prenom} et réponses attendues</span></span>
+          <Icone nom="chevron" taille={22} />
+        </a>
+      )}
+      <section class="carte bloc" style="margin-top:12px">
+        <label class="etiquette-champ" style="margin-top:0">Prochaine rencontre</label>
+        <input class="champ" type="datetime-local" value={d.rdv} onInput={(e) => maj('rdv', e.currentTarget.value)} />
+        {d.rdv && <button class="lien" onClick={() => agenda(d, p)}>Ajouter ce rendez-vous à mon agenda</button>}
+        <label class="etiquette-champ">Mes notes (points à reprendre, sujets de prière)</label>
+        <textarea class="champ champ--zone" rows={4} value={d.notes} onInput={(e) => maj('notes', e.currentTarget.value)} />
+      </section>
+      <details class="carte bloc acc-plus"><summary><b>Plus d'options</b></summary>
+        {d.code && <p>Code de {d.prenom} : <b>{d.code}</b></p>}
+        {d.accueil && <a class="lien" href={'#/accompagner/encadreur/' + d.id + '/accueil'}>Revoir la rencontre d'accueil</a>}
+        <label class="etiquette-champ">Changer le pas en cours</label>
+        <select class="champ" value={d.pas} onChange={async (e) => { try { await avancerDisciple(d, e.currentTarget.value); setL(lireDisciples()); } catch (err) { notifier(err.message); } }}>
+          {tousLesPas().filter((x) => x.id).map((x) => <option value={x.id}>Pas {x.numero} · {x.titre}</option>)}
+        </select>
+        <button class="bouton bouton--contour" style="width:100%;margin-top:10px" onClick={() => aller(`accompagner/pas/${p.id}?imprimer=vierge`)}>Fiche vierge du pas {p.numero} (papier ou PDF)</button>
+        <button class="lien" style="margin-top:10px;color:var(--rouge, #b3261e)" onClick={async () => { if (confirm('Arrêter le suivi de ' + d.prenom + ' ? Ses réponses seront effacées du serveur.')) { await retirerDisciple(d); remplacer('accompagner/encadreur'); } }}>Arrêter le suivi de {d.prenom}</button>
+      </details>
+    </div>
+  );
+}
+
+// ---------- Rencontre d'accueil (étape 3 de l'inscription, ou relecture) ----------
+export function RencontreAccueil({ disciple }) {
+  const etat = useFiche('rencontre-accueil'), f = etat.f;
+  const d = disciple ? lireDisciples().find((x) => x.id === disciple) : null;
+  if (!f) return <Attente etat={etat} />;
+  const fini = () => { if (d) { ecrireDisciples(lireDisciples().map((x) => (x.id === d.id ? { ...x, accueil: true } : x))); remplacer('accompagner/encadreur/' + d.id); } else retourVers('accompagner/encadreur'); };
+  return (
+    <div class="page">
+      {d && !d.accueil && <Etapes n={3} total={3} />}
+      <h2 style="margin:10px 4px 2px">{f.titre}{d ? ' avec ' + d.prenom : ''}</h2>
       <p class="ligne__desc" style="margin:0 4px 10px">{f.sous_titre} · {f.duree}</p>
       <section class="carte bloc"><h3 style="margin-top:0">Le but</h3><ul class="acc-liste">{f.but.map((t) => <li>{t}</li>)}</ul></section>
       {f.etapes.map((e) => (
@@ -104,66 +253,70 @@ export function RencontreAccueil() {
         </section>
       ))}
       <section class="carte bloc acc-vigilance"><h3 style="margin-top:0">Conseils</h3><ul class="acc-liste">{f.conseils.map((t) => <li><TexteRefs texte={t} /></li>)}</ul></section>
-      <a class="bouton bouton--or" style="width:100%;margin-top:12px" href="#/accompagner/pas/pas-01-le-salut">Ouvrir le pas 1 « Le salut »</a>
+      <button class="bouton bouton--or" style="width:100%;margin-top:12px" onClick={fini}>{d ? 'Rencontre d\'accueil faite · Suivant' : 'Terminer'} <Icone nom="chevron" taille={18} /></button>
     </div>
   );
 }
 
-// ---------- Un pas : carnet du disciple, ou fiche de l'accompagnateur ----------
+// ---------- Un pas : carnet du nouveau converti, ou fiche de l'encadreur ----------
 export function Pas({ id, role, imprimer, disciple }) {
   const etat = useFiche(id), f = etat.f;
   const [c, setC] = useState(() => lireCarnet(id));
-  const vierge = imprimer === 'vierge', acc = role === 'accompagnateur' && !vierge;
-  const [disciples, setDisciples] = useState(lireDisciples);
-  const d = acc ? disciples.find((x) => x.id === disciple) : null;
+  const vierge = imprimer === 'vierge', acc = (role === 'encadreur' || role === 'accompagnateur') && !vierge;
+  const lien = useSignal(lienDisciple), env = useSignal(etatEnvoi);
+  const d = acc ? lireDisciples().find((x) => x.id === disciple) : null;
+  const [serveur, setServeur] = useState(null);
+  const charger = () => { if (d?.code) etatDuDisciple(d).then(setServeur).catch(() => setServeur({ horsLigne: true })); };
   useEffect(() => { setC(lireCarnet(id)); if (!acc && !vierge) marquerEnCours(id); }, [id]);
-  useEffect(() => { setDisciples(lireDisciples()); }, [id, disciple, role]);
+  useEffect(() => { if (!d?.code) return; charger(); const t = setInterval(charger, 30000); return () => clearInterval(t); }, [id, disciple]);
   useEffect(() => { if (vierge && f) { const t = setTimeout(() => print(), 900); return () => clearTimeout(t); } }, [vierge, !!f]);
   if (!f) return <Attente etat={etat} />;
-  const cv = vierge ? { r: {}, vf: {}, lect: [] } : c;   // fiche vierge : aucune réponse
-  const maj = (k, v) => { if (vierge) return; const n = { ...c, [k]: v }; setC(n); ecrireCarnet(id, n); };
+  const cv = vierge ? { r: {}, vf: {}, lect: [] } : acc ? (serveur?.carnets?.[id] || { r: {}, vf: {}, lect: [] }) : c;
+  const maj = (k, v) => { if (vierge || acc) return; const n = { ...c, [k]: v }; setC(n); ecrireCarnet(id, n); };
   const repondre = (qid, v) => maj('r', { ...c.r, [qid]: v });
   const ens = ENSEIGNEMENTS.find((e) => e.id === f.enseignement);
-  const liste = tousLesPas(), i = liste.findIndex((p) => p.id === id), suivant = liste.slice(i + 1).find((p) => p.id);
+  const suivant = pasSuivant(id);
   const questions = f.parties.flatMap((p) => p.elements.filter((e) => e.type === 'question'));
   const faites = questions.filter((q) => (cv.r[q.id] || '').trim()).length;
-  const recues = d?.reponses?.[id] || null;   // réponses du disciple collées depuis WhatsApp
-  const importer = (texte) => {
-    const r = lireMessageReponses(texte, f);
-    if (!Object.keys(r.q).length && !Object.keys(r.e).length) { notifier('Aucune réponse reconnue dans ce message.'); return; }
-    const n = disciples.map((x) => (x.id === d.id ? { ...x, reponses: { ...(x.reponses || {}), [id]: r } } : x));
-    setDisciples(n); ecrireDisciples(n); notifier(Object.keys(r.q).length + ' réponses enregistrées pour ' + d.prenom);
+  const terminerRencontre = async () => {
+    if (!d) return;
+    if (!confirm(suivant ? `Rencontre terminée ? ${d.prenom} recevra le pas ${suivant.numero} « ${suivant.titre} ».` : 'Rencontre terminée ?')) return;
+    try { if (suivant) await avancerDisciple(d, suivant.id); compter('suivi-pas-fini', id); notifier(suivant ? `Pas ${suivant.numero} remis à ${d.prenom}` : 'Parcours terminé !'); remplacer('accompagner/encadreur/' + d.id); }
+    catch (err) { notifier(err.message); }
   };
   return (
     <div class={'page acc-pas' + (acc ? ' acc-pas--acc' : '') + (vierge ? ' acc-pas--vierge' : '')}>
       {vierge && <section class="carte bloc acc-sans-impression"><b>Fiche vierge à imprimer</b><p class="ligne__desc">Sans aucune réponse, avec des lignes pour écrire à la main. Choisis « Enregistrer en PDF » pour l'envoyer, ou imprime-la directement.</p>
         <div class="acc-actions"><button class="bouton bouton--or" onClick={() => print()}>Imprimer ou enregistrer en PDF</button><button class="bouton bouton--contour" onClick={() => history.back()}>Retour</button></div></section>}
-      {!vierge && <div class="segments acc-bascule" role="group" aria-label="Version">
-        <button aria-pressed={!acc} onClick={() => aller('accompagner/pas/' + id)}>Mon carnet</button>
-        <button aria-pressed={acc} onClick={() => aller('accompagner/pas/' + id + '?role=accompagnateur')}>Accompagnateur</button>
-      </div>}
-      <p class="pastille pastille--or" style="display:inline-block;margin-top:10px">Volume {f.volume} · Pas {f.numero}</p>
+      <p class="pastille pastille--or" style="display:inline-block;margin-top:10px">{acc && d ? `Rencontre avec ${d.prenom} · ` : ''}Pas {f.numero}</p>
       <h2 style="margin:6px 4px 2px">{f.titre}</h2>
       <p class="ligne__desc" style="margin:0 4px 6px">{f.sous_titre}</p>
-      <p class="ligne__desc acc-duree" style="margin:0 4px 10px"><Icone nom="calendrier" taille={14} /> {f.duree}</p>
 
-      {acc && <ChoixDisciple id={id} d={d} disciples={disciples} recues={recues} importer={importer} />}
+      {acc && d && <section class="carte bloc acc-sans-impression acc-suivi-direct">
+        {d.code ? (serveur?.horsLigne ? <p style="margin:0">Pas de réseau : les réponses de {d.prenom} s'afficheront dès que possible.</p>
+          : !serveur ? <p style="margin:0">Chargement des réponses de {d.prenom}…</p>
+          : !serveur.rejoint ? <p style="margin:0">{d.prenom} n'a pas encore entré son code (<b>{d.code}</b>). Ses réponses apparaîtront ici dès qu'il l'aura fait.</p>
+          : <p style="margin:0"><Icone nom="verifie" taille={16} /> Réponses de {d.prenom} : <b>{faites} sur {questions.length}</b>{serveur.carnets?.[id]?.maj ? ` · mises à jour ${ilYA(serveur.carnets[id].maj)}` : ''}. <button class="lien" onClick={charger}>Actualiser</button></p>)
+          : <p style="margin:0">{d.prenom} travaille sur papier : demande-lui ses réponses de vive voix.</p>}
+      </section>}
       {acc && <GuideAccompagnateur a={f.accompagnateur} />}
       {!acc && <section class="carte bloc">{f.introduction.map((t) => <p><TexteRefs texte={t} /></p>)}
-        {!vierge && <p class="ligne__desc acc-sans-impression">{faites} réponse{faites > 1 ? 's' : ''} écrite{faites > 1 ? 's' : ''} sur {questions.length}. Tes réponses sont enregistrées sur ce téléphone.</p>}</section>}
+        {!vierge && <p class={'ligne__desc acc-sans-impression acc-statut' + (lien?.mode === 'relie' ? ' acc-statut--ok' : '')}>
+          {lien?.mode === 'relie' ? <><Icone nom="verifie" taille={16} /><span>{faites} réponse{faites > 1 ? 's' : ''} sur {questions.length} · {env.statut === 'envoi' ? 'envoi…' : env.statut === 'attente' ? 'envoi en attente de réseau' : 'ton encadreur les voit'}</span></>
+            : <span>{faites} réponse{faites > 1 ? 's' : ''} sur {questions.length}, enregistrées sur ce téléphone.</span>}</p>}</section>}
 
       <section class="carte bloc">
         <h3 style="margin-top:0">Verset à mémoriser</h3>
         <CarteVerset reference={f.verset_memoire} />
-        <a class="lien" href="#/jouer/memoriser" style="display:inline-block;margin-top:6px">S'entraîner avec le jeu « Mémoriser »</a>
+        {!acc && <a class="lien" href="#/jouer/memoriser" style="display:inline-block;margin-top:6px">S'entraîner avec le jeu « Mémoriser »</a>}
       </section>
 
       <section class="carte bloc">
         <h3 style="margin-top:0">{f.lecture.titre}</h3>
-        <p class="ligne__desc">{f.lecture.conseil}</p>
-        <div class="acc-lectures">{f.lecture.jours.map((j, k) => { const fait = cv.lect.includes(k); const l = lienRef(j); return (
+        {!acc && <p class="ligne__desc">{f.lecture.conseil}</p>}
+        <div class="acc-lectures">{f.lecture.jours.map((j, k) => { const fait = (cv.lect || []).includes(k); const l = lienRef(j); return (
           <div class={'acc-lecture' + (fait ? ' acc-lecture--faite' : '')}>
-            <button aria-pressed={fait} onClick={() => maj('lect', fait ? c.lect.filter((x) => x !== k) : [...c.lect, k])} aria-label={'Jour ' + (k + 1) + ' lu'}>{fait ? <Icone nom="verifie" taille={16} /> : k + 1}</button>
+            <button aria-pressed={fait} disabled={acc} onClick={() => maj('lect', fait ? c.lect.filter((x) => x !== k) : [...c.lect, k])} aria-label={'Jour ' + (k + 1) + ' lu'}>{fait ? <Icone nom="verifie" taille={16} /> : k + 1}</button>
             {l ? <a href={l}>{j}</a> : <span>{j}</span>}
           </div>); })}</div>
       </section>
@@ -172,27 +325,24 @@ export function Pas({ id, role, imprimer, disciple }) {
         <section class="acc-partie">
           <h2 class="titre-section">{p.titre}</h2>
           {p.intro && <p class="ligne__desc" style="margin:-4px 4px 10px"><TexteRefs texte={p.intro} /></p>}
-          {p.elements.map((e) => e.type === 'question' ? <Question q={e} n={questions.indexOf(e) + 1} valeur={cv.r[e.id] || ''} repondre={repondre} acc={acc} vierge={vierge} recue={recues?.q?.[questions.indexOf(e) + 1]} qui={d?.prenom} />
+          {p.elements.map((e) => e.type === 'question' ? <Question q={e} n={questions.indexOf(e) + 1} valeur={cv.r[e.id] || ''} repondre={repondre} acc={acc} vierge={vierge} qui={d?.prenom} relie={!!d?.code} />
             : e.type === 'vf' ? <VraiFaux e={e} c={cv} maj={maj} acc={acc} />
-            : e.type === 'encadre' ? <Encadre e={e} valeur={e.id ? cv.r[e.id] || '' : ''} repondre={repondre} acc={acc} vierge={vierge} recue={e.champ ? recues?.e?.[e.champ] : null} qui={d?.prenom} />
-            : e.type === 'bilan' ? <BlocBilan e={e} acc={acc} /> : null)}
+            : e.type === 'encadre' ? <Encadre e={e} valeur={e.id ? cv.r[e.id] || '' : ''} repondre={repondre} acc={acc} vierge={vierge} qui={d?.prenom} />
+            : e.type === 'bilan' ? <BlocBilan e={e} acc={acc} qui={d?.prenom} /> : null)}
         </section>
       ))}
 
-      {ens && <a class="carte ligne" href={'#/grandir/enseignement/' + ens.id} style="margin-top:12px">
+      {ens && !acc && <a class="carte ligne" href={'#/grandir/enseignement/' + ens.id} style="margin-top:12px">
         <span class="ligne__icone"><Icone nom="musique" /></span>
         <span class="ligne__corps"><span class="ligne__titre" style="display:block">Pour approfondir : {ens.titre}</span><span class="ligne__desc">L'enseignement de Yeshaya sur ce thème · {ens.lecture_minutes} min, à lire ou écouter</span></span>
         <Icone nom="chevron" taille={20} />
       </a>}
 
       {!vierge && <div class="acc-actions">
-        {!acc && <button class="bouton bouton--or" onClick={() => envoyerReponses(f, c)}><Icone nom="partager" taille={18} /> Envoyer mes réponses à mon accompagnateur</button>}
-        {acc && <button class="bouton bouton--or" onClick={() => aller('accompagner/pas/' + id + '?imprimer=vierge')}><Icone nom="telecharger" taille={18} /> Fiche vierge pour le disciple (PDF ou papier)</button>}
-        {acc && <button class="bouton bouton--contour" onClick={() => envoyerLien(f)}><Icone nom="partager" taille={18} /> Envoyer ce pas au disciple (lien WhatsApp)</button>}
-        <button class="bouton bouton--contour" onClick={() => { compter('fiche-imprimee', id); print(); }}><Icone nom="telecharger" taille={18} /> {acc ? 'Imprimer la fiche de l\'accompagnateur' : 'Imprimer mes réponses'}</button>
-        {!acc && <button class="bouton bouton--contour" onClick={() => aller('accompagner/pas/' + id + '?imprimer=vierge')}><Icone nom="telecharger" taille={18} /> Fiche vierge à imprimer</button>}
-        {suivant ? <a class="bouton bouton--contour" href={'#/accompagner/pas/' + suivant.id + (acc ? '?role=accompagnateur' + (d ? '&disciple=' + d.id : '') : '')}>Pas suivant : {suivant.titre} <Icone nom="chevron" taille={18} /></a>
-          : <a class="bouton bouton--contour" href="#/accompagner">Tous les pas</a>}
+        {acc && d && <button class="bouton bouton--or" onClick={terminerRencontre}><Icone nom="verifie" taille={18} /> Rencontre terminée{suivant ? ` · remettre le pas ${suivant.numero}` : ''}</button>}
+        {!acc && lien?.mode === 'relie' && <p class="ligne__desc" style="text-align:center;margin:0">Ton encadreur te remettra le pas suivant à la fin de votre rencontre.</p>}
+        {!acc && lien?.mode !== 'relie' && suivant && <a class="bouton bouton--contour" href={'#/accompagner/pas/' + suivant.id}>Pas suivant : {suivant.titre} <Icone nom="chevron" taille={18} /></a>}
+        <button class="bouton bouton--contour" onClick={() => { compter('fiche-imprimee', id); print(); }}><Icone nom="telecharger" taille={18} /> {acc ? 'Imprimer ma fiche' : 'Imprimer mes réponses'}</button>
       </div>}
       <p class="source-mention">{ACCOMPAGNEMENT.source}</p>
     </div>
@@ -202,19 +352,19 @@ export function Pas({ id, role, imprimer, disciple }) {
 function GuideAccompagnateur({ a }) {
   const total = a.deroulement.reduce((t, x) => t + x.minutes, 0);
   return (
-    <section class="carte bloc acc-guide">
-      <h3 style="margin-top:0"><Icone nom="groupe" taille={18} /> Fiche de l'accompagnateur</h3>
+    <details class="carte bloc acc-guide acc-plus">
+      <summary><b><Icone nom="groupe" taille={18} /> Préparer et mener la rencontre (environ {Math.round(total / 60 * 10) / 10} h)</b></summary>
       <h4>Le but de la rencontre</h4><ul class="acc-liste">{a.but.map((t) => <li><TexteRefs texte={t} /></li>)}</ul>
       <h4>Avant la rencontre</h4><ul class="acc-liste">{a.preparation.map((t) => <li><TexteRefs texte={t} /></li>)}</ul>
-      <h4>Déroulé (environ {Math.round(total / 60 * 10) / 10} h)</h4>
+      <h4>Déroulé</h4>
       <ol class="acc-deroule">{a.deroulement.map((d) => <li><b>{d.titre}</b> <small class="acc-minutes">{d.minutes} min</small><ul>{d.conseils.map((t) => <li><TexteRefs texte={t} /></li>)}</ul></li>)}</ol>
       <h4>Points de vigilance</h4><ul class="acc-liste">{a.vigilance.map((t) => <li><TexteRefs texte={t} /></li>)}</ul>
-      <p class="ligne__desc">Pendant la rencontre, demande pour chaque question : « Qu'as-tu répondu ? Pourquoi ? », puis explique. Si le disciple a rempli son carnet sur ce téléphone, ses réponses s'affichent sous chaque question.</p>
-    </section>
+      <p class="ligne__desc">Pour chaque question : « Qu'as-tu répondu ? Pourquoi ? », puis explique avec les notes ci-dessous.</p>
+    </details>
   );
 }
 
-function Question({ q, n, valeur, repondre, acc, vierge, recue, qui }) {
+function Question({ q, n, valeur, repondre, acc, vierge, qui, relie }) {
   const a = q.accompagnateur;
   return (
     <div class="carte bloc acc-question">
@@ -223,8 +373,7 @@ function Question({ q, n, valeur, repondre, acc, vierge, recue, qui }) {
       {!acc && !vierge && <textarea class="champ champ--zone" rows={3} value={valeur} placeholder="Ta réponse, avec tes propres mots…" onInput={(e) => repondre(q.id, e.currentTarget.value)} />}
       {!acc && (valeur && !vierge ? <div class="acc-reponse-imprimee">{valeur}</div> : <div class={'acc-lignes' + (vierge ? ' acc-lignes--visible' : '')} aria-hidden="true" />)}
       {acc && <>
-        {qui ? <p class={'acc-reponse-disciple' + (recue ? '' : ' acc-reponse-disciple--vide')}><b>Réponse de {qui} :</b> {recue || 'pas reçue (fais-la dire de vive voix)'}</p>
-          : valeur ? <p class="acc-reponse-disciple"><b>Écrite sur ce téléphone :</b> {valeur}</p> : null}
+        {qui && relie && <p class={'acc-reponse-disciple' + (valeur ? '' : ' acc-reponse-disciple--vide')}><b>Réponse de {qui} :</b> {valeur || 'pas encore écrite'}</p>}
         <div class="acc-attendu"><b>Réponse attendue</b><p><TexteRefs texte={a.attendu} /></p></div>
         {a.expliquer && <div class="acc-note"><b>À expliquer</b><ul>{a.expliquer.map((t) => <li><TexteRefs texte={t} /></li>)}</ul></div>}
         {a.erreurs && <div class="acc-note acc-note--erreur"><b>Erreurs fréquentes</b><ul>{a.erreurs.map((t) => <li><TexteRefs texte={t} /></li>)}</ul></div>}
@@ -234,107 +383,65 @@ function Question({ q, n, valeur, repondre, acc, vierge, recue, qui }) {
   );
 }
 
-// En mode accompagnateur : pour quel disciple ? Les réponses de chacun restent séparées.
-function ChoixDisciple({ id, d, disciples, recues, importer }) {
-  const [texte, setTexte] = useState('');
-  return (
-    <section class="carte bloc acc-choix-disciple acc-sans-impression">
-      <h3 style="margin-top:0"><Icone nom="groupe" taille={18} /> {d ? 'Rencontre avec ' + d.prenom : 'Pour quel disciple ?'}</h3>
-      <select class="champ" value={d?.id || ''} onChange={(e) => aller('accompagner/pas/' + id + '?role=accompagnateur' + (e.currentTarget.value ? '&disciple=' + e.currentTarget.value : ''))}>
-        <option value="">Aucun : le disciple me montre son téléphone</option>
-        {disciples.map((x) => <option value={x.id}>{x.prenom}</option>)}
-      </select>
-      {!disciples.length && <p class="ligne__desc">Ajoute tes disciples dans <a class="lien" href="#/accompagner/disciples">Mes disciples</a> pour garder les réponses de chacun séparées.</p>}
-      {d ? <>
-        <p class="ligne__desc">{recues ? `Réponses de ${d.prenom} enregistrées : elles s'affichent sous chaque question.` : `${d.prenom} t'a envoyé ses réponses par WhatsApp ? Copie son message et colle-le ici.`}</p>
-        <textarea class="champ champ--zone" rows={3} placeholder="Colle ici le message de réponses reçu" value={texte} onInput={(e) => setTexte(e.currentTarget.value)} />
-        <button class="bouton bouton--contour" style="width:100%;margin-top:8px" disabled={!texte.trim()} onClick={() => { importer(texte); setTexte(''); }}>{recues ? 'Remplacer les réponses' : 'Enregistrer ces réponses'}</button>
-      </> : <p class="ligne__desc">Sans disciple choisi, cette fiche montre seulement les réponses écrites sur ce téléphone. Si le disciple a rempli son carnet sur son propre téléphone, regardez-le ensemble, ou choisis son nom et colle ses réponses.</p>}
-    </section>
-  );
-}
-
 function VraiFaux({ e, c, maj, acc }) {
   return (
     <div class="carte bloc">
-      {e.items.map((it) => { const v = c.vf[it.id]; return (
+      {e.items.map((it) => { const v = (c.vf || {})[it.id]; return (
         <div class="acc-vf">
           <p>{it.texte}</p>
           <div class="segments" role="group">
-            <button aria-pressed={v === true} onClick={() => maj('vf', { ...c.vf, [it.id]: true })}>Vrai</button>
-            <button aria-pressed={v === false} onClick={() => maj('vf', { ...c.vf, [it.id]: false })}>Faux</button>
+            <button aria-pressed={v === true} disabled={acc} onClick={() => maj('vf', { ...c.vf, [it.id]: true })}>Vrai</button>
+            <button aria-pressed={v === false} disabled={acc} onClick={() => maj('vf', { ...c.vf, [it.id]: false })}>Faux</button>
           </div>
           {acc && <p class={'acc-vf__rep' + (v === undefined ? '' : v === it.reponse ? ' acc-vf__rep--ok' : ' acc-vf__rep--non')}><b>{it.reponse ? 'Vrai' : 'Faux'}.</b> <TexteRefs texte={it.explication} /></p>}
         </div>); })}
-      {!acc && <p class="ligne__desc" style="margin-bottom:0">Les réponses seront reprises avec ton accompagnateur.</p>}
+      {!acc && <p class="ligne__desc" style="margin-bottom:0">Les réponses seront reprises avec ton encadreur.</p>}
     </div>
   );
 }
 
-function Encadre({ e, valeur, repondre, acc, vierge, recue, qui }) {
+function Encadre({ e, valeur, repondre, acc, vierge, qui }) {
   return (
     <div class={'carte bloc acc-encadre acc-encadre--' + e.style}>
       <h3 style="margin-top:0">{e.titre}</h3>
       {e.texte.map((t) => <p><TexteRefs texte={t} /></p>)}
-      {e.champ && (acc ? ((qui ? recue : valeur) ? <p class="acc-reponse-disciple"><b>{e.champ} :</b> {qui ? recue : valeur}</p> : null)
+      {e.champ && (acc ? (valeur ? <p class="acc-reponse-disciple"><b>{qui ? qui + ' · ' : ''}{e.champ} :</b> {valeur}</p> : null)
         : vierge ? <><label class="etiquette-champ">{e.champ}</label><div class="acc-lignes acc-lignes--visible acc-lignes--grand" /></>
         : <><label class="etiquette-champ">{e.champ}</label><textarea class="champ champ--zone" rows={5} value={valeur} onInput={(ev) => repondre(e.id, ev.currentTarget.value)} />{valeur ? <div class="acc-reponse-imprimee">{valeur}</div> : <div class="acc-lignes acc-lignes--grand" aria-hidden="true" />}</>)}
     </div>
   );
 }
 
-function BlocBilan({ e, acc }) {
+function BlocBilan({ e, acc, qui }) {
   return (
     <div class="carte bloc acc-encadre acc-encadre--bilan">
       <h3 style="margin-top:0"><Icone nom="cadenas" taille={18} /> {e.titre}</h3>
-      {e.texte.map((t) => <p>{t}</p>)}
-      <a class="bouton bouton--or" style="width:100%" href={acc ? '#/accompagner/bilan/synthese' : '#/accompagner/bilan'}>{acc ? 'Voir la synthèse et les orientations' : 'Remplir mon bilan de vie'}</a>
-      {acc && <p class="ligne__desc" style="margin-bottom:0">La synthèse lit le bilan rempli sur ce téléphone. Demande toujours l'accord du disciple avant de l'ouvrir.</p>}
+      {acc ? <>
+        <p>Le bilan de vie reste sur le téléphone de {qui || 'ton disciple'} : il n'est jamais envoyé. Pendant la rencontre, demande-lui de l'ouvrir (« Mon bilan de vie », puis « Voir la synthèse ») et parcourez-le ensemble.</p>
+        <a class="bouton bouton--contour" style="width:100%" href="#/accompagner/orientations">Les orientations par domaine (pour te préparer)</a>
+      </> : <>
+        {e.texte.map((t) => <p>{t}</p>)}
+        <a class="bouton bouton--or" style="width:100%" href="#/accompagner/bilan">Remplir mon bilan de vie</a>
+      </>}
     </div>
   );
 }
 
-// Message prêt à envoyer (WhatsApp ou autre) : réponses du carnet, sans le bilan de vie.
-function envoyerReponses(f, c) {
-  const qs = f.parties.flatMap((p) => p.elements.filter((e) => e.type === 'question' || (e.type === 'encadre' && e.champ)));
-  let n = 0;
-  const lignes = [`*Yeshaya · ${f.titre} (pas ${f.numero})*`, `Lecture : ${c.lect.length} jour(s) sur ${f.lecture.jours.length}`, ''];
-  for (const q of qs) {
-    const v = (c.r[q.id] || '').trim();
-    if (q.type === 'question') { n++; lignes.push(`${n}. ${q.texte}`, v ? '→ ' + v : '→ (pas encore répondu)', ''); }
-    else if (v) lignes.push(`*${q.champ}*`, v, '');
-  }
-  lignes.push('(Mon bilan de vie n\'est pas inclus : nous en parlerons de vive voix.)');
-  const texte = lignes.join('\n');
-  compter('reponses-envoyees', f.id);
-  if (navigator.share) navigator.share({ title: f.titre, text: texte }).catch(() => {});
-  else open('https://wa.me/?text=' + encodeURIComponent(texte), '_blank');
-}
-
-// Lien du pas à envoyer au disciple (il ouvre son carnet sur son propre téléphone).
-function envoyerLien(f) {
-  const lien = location.origin + '/#/accompagner/pas/' + f.id;
-  const texte = `Yeshaya · Pas ${f.numero} : ${f.titre}\nTravaille ce pas cette semaine : lis le chapitre du jour, réponds aux questions avec tes mots et apprends le verset. Quand tu as fini, touche « Envoyer mes réponses à mon accompagnateur ».\n${lien}`;
-  if (navigator.share) navigator.share({ title: f.titre, text: texte }).catch(() => {});
-  else open('https://wa.me/?text=' + encodeURIComponent(texte), '_blank');
-}
-
-// Relit le message envoyé par « Envoyer mes réponses » : numéro de question → réponse ; encadrés → texte.
-export function lireMessageReponses(texte, f) {
-  const q = {}, e = {}, champs = f.parties.flatMap((p) => p.elements.filter((x) => x.type === 'encadre' && x.champ).map((x) => x.champ));
-  const lignes = texte.replace(/\r/g, '').split('\n');
-  let num = null, champ = null, buf = [];
-  const vider = () => { const v = buf.join('\n').trim(); if (v && !/^\(pas encore répondu\)$/.test(v)) { if (num) q[num] = v; else if (champ) e[champ] = v; } buf = []; num = null; champ = null; };
-  for (const l of lignes) {
-    const mq = l.match(/^(\d{1,2})\.\s/), mc = l.match(/^\*(.+)\*$/);
-    if (mq) { vider(); num = +mq[1]; continue; }
-    if (mc && champs.includes(mc[1])) { vider(); champ = mc[1]; continue; }
-    if (/^\(Mon bilan de vie/.test(l)) { vider(); continue; }
-    if (num && !buf.length && !l.startsWith('→')) continue;   // suite du texte de la question
-    if (num || champ) buf.push(l.replace(/^→\s?/, ''));
-  }
-  vider();
-  return { q, e };
+// Toutes les orientations, sans données personnelles : pour que l'encadreur se prépare.
+export function Orientations() {
+  const etat = useFiche('bilan-de-vie'), f = etat.f;
+  if (!f) return <Attente etat={etat} />;
+  return (
+    <div class="page">
+      <h2 style="margin:14px 4px 2px">Orientations par domaine</h2>
+      <p class="ligne__desc" style="margin:0 4px 10px">Ce ne sont pas des prières à réciter : ce sont des directions. Laissez le Saint-Esprit vous conduire dans les mots.</p>
+      <section class="carte bloc acc-guide"><h3 style="margin-top:0">Règles de l'encadreur</h3><ul class="acc-liste">{f.regles_accompagnateur.map((t) => <li>{t}</li>)}</ul></section>
+      {Object.values(f.orientations).map((o) => (
+        <details class="carte bloc acc-plus"><summary><b>{o.titre}</b></summary>
+          <ul class="acc-liste">{o.orientations.map((t) => <li><TexteRefs texte={t} /></li>)}</ul><Refs refs={o.versets} /></details>
+      ))}
+    </div>
+  );
 }
 
 // ---------- Bilan de vie ----------
@@ -433,48 +540,6 @@ export function BilanSynthese() {
           <Refs refs={o.versets} />
         </section>); })}
       <a class="bouton bouton--contour" style="width:100%;margin-top:10px" href="#/accompagner/bilan">Revenir au bilan</a>
-    </div>
-  );
-}
-
-// ---------- Mes disciples (accompagnateur) ----------
-export function MesDisciples() {
-  const [l, setL] = useState(lireDisciples), [nom, setNom] = useState(''), [ouvert, setOuvert] = useState(null);
-  const pas = tousLesPas();
-  const sauver = (n) => { setL(n); ecrireDisciples(n); };
-  const majD = (id, k, v) => sauver(l.map((d) => (d.id === id ? { ...d, [k]: v } : d)));
-  return (
-    <div class="page">
-      <h2 style="margin:14px 4px 2px">Mes disciples</h2>
-      <p class="ligne__desc" style="margin:0 4px 10px">Ceux que tu accompagnes. Ces notes restent sur ton téléphone.</p>
-      <form class="acc-ajout" onSubmit={(e) => { e.preventDefault(); if (!nom.trim()) return; sauver([...l, { id: 'd' + Date.now().toString(36), prenom: nom.trim(), pas: 'accueil', versets: [], notes: '', rdv: '' }]); setNom(''); compter('disciple-ajoute'); }}>
-        <input class="champ" placeholder="Prénom du nouveau converti" value={nom} onInput={(e) => setNom(e.currentTarget.value)} />
-        <button class="bouton bouton--or">Ajouter</button>
-      </form>
-      {!l.length && <p class="ligne__desc" style="margin:10px 4px">Commence par la <a class="lien" href="#/accompagner/accueil">rencontre d'accueil</a>, puis ajoute ici la personne.</p>}
-      {l.map((d) => { const p = pas.find((x) => x.id === d.pas); const ouv = ouvert === d.id; return (
-        <section class="carte bloc acc-disciple">
-          <button class="acc-disciple__tete" onClick={() => setOuvert(ouv ? null : d.id)}>
-            <span class="ligne__corps"><b>{d.prenom}</b><span class="ligne__desc">{d.pas === 'accueil' ? 'Rencontre d\'accueil' : p ? `Pas ${p.numero} · ${p.titre}` : ''}{d.rdv ? ' · prochaine rencontre le ' + new Date(d.rdv).toLocaleString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' }) : ''}</span></span>
-            <Icone nom="chevron" taille={18} />
-          </button>
-          {ouv && <div class="acc-disciple__corps">
-            <label class="etiquette-champ">Où il en est</label>
-            <select class="champ" value={d.pas} onChange={(e) => majD(d.id, 'pas', e.currentTarget.value)}>
-              <option value="accueil">Rencontre d'accueil</option>
-              {pas.map((x) => <option value={x.id || 'v' + x.volume + '-' + x.numero} disabled={!x.id}>Vol. {x.volume} · Pas {x.numero} · {x.titre}{x.id ? '' : ' (en préparation)'}</option>)}
-            </select>
-            {p && <div class="acc-actions"><a class="bouton bouton--or" href={'#/accompagner/pas/' + p.id + '?role=accompagnateur&disciple=' + d.id}>Ouvrir la rencontre avec {d.prenom}</a></div>}
-            <label class="etiquette-champ">Prochaine rencontre</label>
-            <input class="champ" type="datetime-local" value={d.rdv} onInput={(e) => majD(d.id, 'rdv', e.currentTarget.value)} />
-            {d.rdv && <button class="lien" onClick={() => agenda(d, p)}>Ajouter ce rendez-vous à mon agenda</button>}
-            <label class="etiquette-champ">Versets récités</label>
-            <div class="puces">{pas.filter((x) => x.id).map((x) => <button aria-pressed={d.versets.includes(x.id)} onClick={() => majD(d.id, 'versets', d.versets.includes(x.id) ? d.versets.filter((v) => v !== x.id) : [...d.versets, x.id])}>Pas {x.numero}</button>)}</div>
-            <label class="etiquette-champ">Notes (points à reprendre, sujets de prière)</label>
-            <textarea class="champ champ--zone" rows={5} value={d.notes} onInput={(e) => majD(d.id, 'notes', e.currentTarget.value)} />
-            <button class="lien" style="color:var(--rouge, #b3261e)" onClick={() => confirm('Retirer ' + d.prenom + ' de la liste ?') && sauver(l.filter((x) => x.id !== d.id))}>Retirer de la liste</button>
-          </div>}
-        </section>); })}
     </div>
   );
 }
