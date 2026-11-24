@@ -4,479 +4,671 @@
  "serie": "L'islam de A à Z",
  "theme": "Islam",
  "auteur": "Yeshaya",
- "resume": "Le Coran ne dit pas combien de fois prier, ni comment, ni ce qu'il faut dire en entrant aux toilettes. Tout cela vient des hadiths : des dizaines de milliers de récits sur les paroles et les gestes de Mahomet, rassemblés deux siècles après sa mort. Qu'est-ce qu'un hadith ? Comment les musulmans les trient-ils ? Qui sont Boukhari et Mouslim ? Pourquoi tant de hadiths ont-ils été inventés ? Et pourquoi la Bible met-elle en garde contre les traditions des hommes ?",
+ "resume": "Le Coran ne dit pas combien de fois il faut prier, ni comment, ni ce qu'il faut dire en entrant dans les toilettes. Tout cela vient des hadiths : des dizaines de milliers de récits sur les paroles et les gestes de Mahomet. Qu'est-ce qu'un hadith, et qu'est-ce que la sunna ? Qui a transmis ces récits, et que savons-nous d'Abou Hourayra ? Comment ont-ils été mis par écrit ? Qui sont Boukhari et Mouslim, et comment ont-ils travaillé ? Comment les musulmans vérifient-ils un hadith, et comment reconnaissent-ils un faux ? Que contiennent les recueils ? Que sont le hadith divin, les hadiths sur la médecine du prophète et sur la fin des temps ? Et que pensent les chiites et ceux qui rejettent les hadiths ?",
  "image": "/assets/objets-bibliques/livres-et-diplome.webp",
  "verset_de_base": "1 Jn 1:1",
- "lecture_minutes": 26,
+ "lecture_minutes": 39,
  "objectifs": [
-  "Savoir ce qu'est un hadith et ce qu'est la sunna.",
-  "Comprendre pourquoi les hadiths sont indispensables à la pratique musulmane.",
-  "Connaître les grands recueils et la manière dont les musulmans classent les hadiths.",
-  "Savoir quand et comment les hadiths ont été rassemblés.",
-  "Comparer avec la manière dont les Évangiles ont été transmis."
+  "Savoir ce qu'est un hadith, sa structure, et la différence avec la sunna.",
+  "Connaître les sortes de hadiths et la place des compagnons comme transmetteurs.",
+  "Connaître l'histoire de la mise par écrit des hadiths, les grands recueils et leurs auteurs.",
+  "Comprendre comment les musulmans classent et vérifient un hadith, et comment ils combattent les faux.",
+  "Connaître les grands thèmes des recueils et quelques hadiths célèbres.",
+  "Connaître le hadith divin, les hadiths sur la médecine et sur la fin des temps, et la position des chiites et des coranistes."
  ],
- "introduction": "Beaucoup de chrétiens pensent que l'islam, c'est le Coran. En réalité, si tu ne connaissais que le Coran, tu ne saurais pas faire la prière musulmane. Le Coran ordonne de prier, mais il ne dit pas qu'il faut prier cinq fois par jour, ni combien de prosternations faire, ni quels mots dire. Il ordonne de faire l'aumône, mais il ne fixe pas clairement son taux. Il parle du pèlerinage, mais il ne décrit pas tous les rites. Tous ces détails, et des milliers d'autres sur la vie quotidienne, viennent d'une autre source : les hadiths.\n\nPour comprendre nos amis musulmans, il faut donc connaître cette deuxième source. C'est elle qui façonne leur vie de chaque jour : comment manger, comment se laver, comment saluer, comment s'habiller, comment entrer aux toilettes, comment dormir. C'est aussi dans les hadiths que se trouvent la plupart des récits sur la vie de Mahomet que nous avons étudiés jusqu'ici.",
+ "introduction": "Beaucoup de gens pensent que l'islam, c'est le Coran. En réalité, si tu ne connaissais que le Coran, tu ne saurais même pas faire la prière musulmane. Le Coran ordonne de prier, mais il ne dit pas qu'il faut prier cinq fois par jour. Il ne dit pas à quelle heure. Il ne dit pas combien de fois on se prosterne, ni quels mots il faut dire. Le Coran ordonne de jeûner, mais il ne dit pas comment on décide du début du mois. Il ordonne de donner l'aumône, mais il ne fixe pas le montant. Il ordonne le pèlerinage, mais il ne décrit pas les gestes.\n\nAlors, où le musulman trouve-t-il tout cela ? Dans les hadiths. Ce sont des récits qui racontent ce que Mahomet a dit, ce qu'il a fait, et ce qu'il a approuvé. Ils sont la deuxième source de l'islam, juste après le Coran. Sans eux, la pratique musulmane s'effondrerait.\n\nDans cet enseignement, nous allons voir ce qu'est un hadith, qui les a transmis, comment on les a mis par écrit, comment on les vérifie, et ce qu'ils contiennent. C'est un monde immense : des dizaines de milliers de récits, des centaines de savants, des siècles de travail. Prends le temps de bien comprendre. Tout ce que nous verrons ensuite sur la vie quotidienne du musulman, sur la femme, sur le paradis, sur le djihad, s'appuie sur les hadiths.",
  "sections": [
   {
    "numero": "1",
    "titre": "Qu'est-ce qu'un hadith ?",
-   "references": [
-    "1 Jn 1:1",
-    "Lc 1:2"
-   ],
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Un récit avec une chaîne"
+     "sous_titre": "Le mot"
     },
     {
-     "texte": "Un hadith est un court récit qui rapporte une parole, un acte ou une approbation silencieuse de Mahomet. Chaque hadith a deux parties. La première s'appelle « l'isnad », la chaîne de transmission : « Untel m'a rapporté qu'il a entendu Untel, qui l'a entendu de Untel, qui a dit : j'ai entendu le messager d'Allah dire… » La seconde s'appelle le « matn », le contenu lui-même."
+     "texte": "Le mot « hadith » veut dire « parole », « récit », « nouvelle ». Un hadith est un court récit qui rapporte quelque chose de Mahomet. Le pluriel est « ahadith ». Ce récit peut être très court, une seule phrase, ou long, comme une histoire."
     },
     {
-     "texte": "Par exemple, voici le tout premier hadith du recueil de Boukhari : « Al-Houmaydi nous a rapporté, d'après Soufyan, d'après Yahya ibn Saïd, d'après Mohammed ibn Ibrahim, d'après Alqama, qu'il a entendu Omar ibn al-Khattab dire du haut de la chaire : j'ai entendu le messager d'Allah dire : les actes ne valent que par les intentions » (Boukhari, hadith 1)."
+     "sous_titre": "Les deux parties"
+    },
+    {
+     "texte": "Chaque hadith a deux parties. La première s'appelle « l'isnad », ce qui veut dire « l'appui ». C'est la chaîne des personnes qui ont transmis le récit, l'une à l'autre. La seconde s'appelle le « matn », le texte, c'est-à-dire ce que le récit raconte."
+    },
+    {
+     "texte": "Voici le tout premier hadith du recueil de Boukhari. L'isnad : « Al-Houmaydi nous a rapporté, d'après Soufyan, d'après Yahya ibn Saïd, d'après Mohammed ibn Ibrahim, d'après Alqama ibn Waqqas, qu'il a entendu Omar ibn al-Khattab dire du haut de la chaire : j'ai entendu le messager d'Allah dire… » Et le matn : « Les actes ne valent que par les intentions, et chacun n'aura que ce qu'il a eu l'intention de faire » (Boukhari, hadith 1)."
+    },
+    {
+     "texte": "Tu vois la structure. Boukhari ne dit pas : « Le prophète a dit ceci. » Il dit : « Untel m'a dit, qui l'a entendu de untel, qui l'a entendu de untel, qui l'a entendu d'Omar, qui l'a entendu du prophète. » Cette chaîne est la preuve que le récit est authentique. Plus elle est solide, plus le hadith est fiable."
+    },
+    {
+     "sous_titre": "Trois sortes de hadiths"
+    },
+    {
+     "texte": "Les savants distinguent trois sortes de hadiths, selon ce qu'ils rapportent."
+    },
+    {
+     "texte": "Premièrement, les hadiths de paroles. Mahomet a dit quelque chose. Par exemple : « Les actes ne valent que par les intentions. »"
+    },
+    {
+     "texte": "Deuxièmement, les hadiths d'actes. Mahomet a fait quelque chose. Par exemple, comment il faisait ses ablutions, comment il priait, comment il faisait le pèlerinage. Ses femmes et ses compagnons ont raconté ces actes avec beaucoup de détails."
+    },
+    {
+     "texte": "Troisièmement, les hadiths d'approbation silencieuse. Un compagnon a fait quelque chose devant Mahomet, et Mahomet n'a rien dit. On en conclut qu'il l'a permis. Par exemple, des compagnons ont mangé de la viande de lézard devant lui, et il ne l'a pas interdite."
+    },
+    {
+     "texte": "Il y a aussi des hadiths qui décrivent le corps et le caractère de Mahomet : sa taille, son visage, sa démarche, sa manière de rire, de parler, de dormir."
     },
     {
      "sous_titre": "La sunna"
     },
     {
-     "texte": "L'ensemble des paroles et des actes de Mahomet qui servent de modèle s'appelle la « sunna », la coutume, la voie. Les sunnites, qui forment la grande majorité des musulmans, tirent leur nom de ce mot : ce sont « les gens de la sunna ». Pour eux, suivre la sunna, c'est imiter le prophète en tout."
-    },
-    {
-     "sous_titre": "Témoins de seconde main"
-    },
-    {
-     "texte": "Le chrétien remarque tout de suite une chose. Les hadiths ne sont pas écrits par Mahomet, ni par ceux qui l'ont vu. Ils sont rapportés par des chaînes de cinq, six, sept personnes, et mis par écrit dans de grands recueils environ deux cents ans après sa mort. L'apôtre Jean, lui, écrit : ce qui était dès le commencement, ce que nous avons entendu, ce que nous avons vu de nos yeux, ce que nous avons contemplé et que nos mains ont touché, concernant la parole de vie, nous vous l'annonçons (1 Jean 1:1-3). Les Évangiles ont été écrits par des témoins ou à partir de témoins, quelques décennies après les faits."
-    },
-    {
-     "verset": "1 Jn 1:1"
+     "texte": "L'ensemble de ce que Mahomet a dit, fait et approuvé s'appelle la « sunna », ce qui veut dire « la coutume », « la voie suivie ». On connaît la sunna par les hadiths. Les sunnites, c'est-à-dire la grande majorité des musulmans, tirent leur nom de ce mot : ce sont « les gens de la sunna et de la communauté ». Pour eux, suivre la sunna, c'est imiter le prophète le plus possible."
     }
    ]
   },
   {
    "numero": "2",
    "titre": "Pourquoi les hadiths sont indispensables",
-   "references": [
-    "Mt 23:4",
-    "Rm 14:17"
-   ],
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le Coran renvoie au prophète"
+     "sous_titre": "Ce que dit le Coran"
     },
     {
-     "texte": "Le Coran lui-même ordonne d'obéir au prophète et de suivre son exemple. Il dit : vous avez dans le messager d'Allah un excellent modèle (sourate 33, verset 21), et : quiconque obéit au messager obéit à Allah (sourate 4, verset 80), et encore : prenez ce que le messager vous donne, et abstenez-vous de ce qu'il vous interdit (sourate 59, verset 7). Pour savoir ce que le messager a dit et fait, il faut donc les hadiths."
+     "texte": "Le Coran lui-même ordonne de suivre le prophète. Il dit : vous avez dans le messager d'Allah un excellent modèle (sourate 33, verset 21). Il dit : quiconque obéit au messager obéit à Allah (sourate 4, verset 80). Il dit : prenez ce que le messager vous donne, et abstenez-vous de ce qu'il vous interdit (sourate 59, verset 7). Et il dit aussi : dis : si vous aimez Allah, suivez-moi, Allah vous aimera (sourate 3, verset 31). Pour savoir ce que le messager a donné, ce qu'il a interdit, comment il a vécu, les musulmans ont donc besoin des hadiths."
+    },
+    {
+     "sous_titre": "Trois rôles de la sunna"
+    },
+    {
+     "texte": "Les savants disent que la sunna a trois rôles par rapport au Coran."
+    },
+    {
+     "texte": "Premier rôle : elle confirme. Elle répète ce que le Coran dit déjà, comme l'interdiction de tuer ou de voler."
+    },
+    {
+     "texte": "Deuxième rôle : elle explique. Le Coran dit : faites la prière. La sunna explique comment. Le Coran dit : faites le pèlerinage. La sunna montre les gestes, les uns après les autres. Mahomet a dit lui-même, pendant son pèlerinage d'adieu : « Prenez de moi vos rites du pèlerinage » (Mouslim, hadith 1297). Et il a dit : « Priez comme vous m'avez vu prier » (Boukhari, hadith 631)."
+    },
+    {
+     "texte": "Troisième rôle : elle ajoute. Elle donne des règles que le Coran ne mentionne pas du tout. Par exemple : l'interdiction de porter de l'or et de la soie pour les hommes, l'interdiction de manger les animaux qui ont des griffes ou des crocs, la lapidation des adultères mariés, la peine de mort pour celui qui quitte l'islam. Boukhari rapporte que Mahomet a dit : « Celui qui change de religion, tuez-le » (Boukhari, hadith 6922)."
     },
     {
      "sous_titre": "Ce qu'on ne trouve que dans les hadiths"
     },
     {
-     "texte": "Voici quelques exemples de pratiques musulmanes qui ne viennent pas du Coran, mais des hadiths : Les cinq prières par jour, leurs heures et le nombre de leurs unités. Les mots et les gestes précis de la prière. Le taux de l'aumône légale, deux et demi pour cent de certains biens. La circoncision. La lapidation des adultères mariés, comme nous l'avons vu. La peine de mort pour l'apostat : Boukhari rapporte que Mahomet a dit : « Celui qui change de religion, tuez-le » (Boukhari, hadith 6922). L'interdiction pour les hommes de porter de l'or et de la soie. De nombreuses règles sur la pureté, la nourriture, le sommeil, les toilettes, l'habillement, la barbe."
+     "texte": "Voici d'autres exemples de pratiques qui viennent des hadiths et non du Coran : le nombre de cinq prières par jour et leurs heures ; le nombre d'unités de chaque prière ; les paroles que l'on dit pendant la prière ; la quantité d'aumône légale, deux et demi pour cent de certains biens ; l'aumône de la rupture du jeûne ; la circoncision ; les règles de la pureté et de la nourriture ; la prière du vendredi ; la prière des funérailles ; la manière de laver et d'enterrer un mort ; le calcul de l'héritage dans plusieurs cas ; beaucoup de règles de la vie en famille."
     },
     {
-     "sous_titre": "Une vie réglée dans les moindres détails"
+     "sous_titre": "Une vie réglée dans les détails"
     },
     {
-     "texte": "Un musulman pieux essaie donc de suivre des centaines de règles pour chaque moment de la journée : entrer aux toilettes du pied gauche et en sortir du pied droit, manger de la main droite, dormir sur le côté droit, dire certaines paroles en éternuant, en baillant, en entrant dans sa maison. Nous verrons cela en détail dans l'enseignement sur la vie quotidienne."
-    },
-    {
-     "texte": "Le chrétien peut ressentir de la compassion pour cette vie pleine d'efforts et de scrupules. Jésus reprochait aux docteurs de la loi de son temps : ils lient des fardeaux pesants, et les mettent sur les épaules des hommes, mais ils ne veulent pas les remuer du doigt (Matthieu 23:4). Paul écrit : le royaume de Dieu, ce n'est pas le manger et le boire, mais la justice, la paix et la joie, par le Saint-Esprit (Romains 14:17)."
-    },
-    {
-     "verset": "Mt 23:4"
-    },
-    {
-     "verset": "Rm 14:17"
+     "texte": "C'est pourquoi un musulman pieux essaie de suivre des centaines de règles pour chaque moment de la journée : entrer dans les toilettes du pied gauche et en sortir du pied droit, manger de la main droite, dormir sur le côté droit, dire certaines paroles en éternuant, en entrant dans sa maison, en montant dans un véhicule. Nous verrons cela en détail dans l'enseignement sur la vie quotidienne."
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "Quand les hadiths ont-ils été écrits ?",
-   "references": [
-    "Jn 21:25",
-    "Tt 1:14"
-   ],
+   "titre": "Les compagnons, premiers transmetteurs",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "D'abord une interdiction"
+     "sous_titre": "Ceux qui ont vu et entendu"
     },
     {
-     "texte": "Il est intéressant de savoir que, selon certains hadiths, Mahomet aurait d'abord interdit d'écrire autre chose que le Coran : « N'écrivez rien de moi, sauf le Coran ; et que celui qui a écrit de moi autre chose que le Coran l'efface » (Mouslim, hadith 3004). D'autres hadiths, au contraire, rapportent qu'il a permis à certains d'écrire. Les savants musulmans essaient de concilier ces récits. Mais dans les faits, pendant le premier siècle de l'islam, les hadiths ont surtout circulé oralement, et des collections écrites ne sont apparues que progressivement."
+     "texte": "Les premiers transmetteurs des hadiths s'appellent « les compagnons », en arabe « sahaba ». Un compagnon est quelqu'un qui a rencontré Mahomet, qui a cru en lui, et qui est mort musulman. On en compte plus de cent mille, selon les estimations de certains savants. Les musulmans honorent tous les compagnons, et ils disent après leurs noms : « qu'Allah soit satisfait de lui »."
     },
     {
-     "sous_titre": "Les grands recueils"
+     "sous_titre": "Les grands transmetteurs"
     },
     {
-     "texte": "Le premier grand recueil qui nous soit parvenu est « le Mouwatta » de l'imam Malik, mort en 795. Mais les deux recueils les plus respectés par les sunnites sont : Le « Sahih » de Mohammed al-Boukhari, mort en 870, c'est-à-dire environ deux cent quarante ans après Mahomet. Le « Sahih » de Mouslim ibn al-Hajjaj, mort en 875. Avec quatre autres recueils, ceux d'Abou Daoud, de Tirmidhi, de Nasa'i et d'Ibn Maja, ils forment « les six livres » de référence des sunnites. Les chiites ont leurs propres recueils, fondés sur les récits transmis par la famille d'Ali."
+     "texte": "Tous les compagnons n'ont pas transmis le même nombre de hadiths. Les plus grands transmetteurs sont :"
     },
     {
-     "sous_titre": "Six cent mille récits"
+     "texte": "Abou Hourayra, qui a rapporté environ cinq mille trois cent soixante-quatorze hadiths, selon le décompte d'un ancien savant. Nous allons parler de lui."
     },
     {
-     "texte": "La tradition rapporte que Boukhari aurait examiné environ six cent mille récits circulant à son époque, et qu'il n'en aurait retenu qu'environ sept mille cinq cents, avec les répétitions, soit environ deux mille six cents récits différents. Autrement dit, selon le jugement de Boukhari lui-même, l'immense majorité des récits qui circulaient sur le prophète n'étaient pas fiables. Cela montre l'ampleur des inventions qui s'étaient répandues en deux siècles."
+     "texte": "Abdallah ibn Omar, le fils du deuxième calife, qui en a transmis environ deux mille six cents."
     },
     {
-     "sous_titre": "Des inventions nombreuses"
+     "texte": "Anas ibn Malik, qui a servi Mahomet pendant dix ans, depuis qu'il était petit garçon, et qui en a transmis plus de deux mille deux cents."
     },
     {
-     "texte": "Les savants musulmans reconnaissent eux-mêmes qu'un très grand nombre de hadiths ont été inventés : pour soutenir un calife contre un autre, pour défendre un parti politique, pour justifier une école juridique, pour encourager la piété, ou même pour des raisons commerciales. Ils ont développé toute une science pour trier les récits, dont nous allons parler. Paul mettait déjà en garde Tite contre ceux qui s'attachent à des fables et à des commandements d'hommes qui se détournent de la vérité (Tite 1:14)."
+     "texte": "Aïcha, la femme de Mahomet, environ deux mille deux cents. Elle a donné des informations sur la vie privée du prophète, que personne d'autre ne pouvait connaître, et sur les règles qui concernent les femmes."
     },
     {
-     "verset": "Tt 1:14"
+     "texte": "Abdallah ibn Abbas, le cousin de Mahomet, environ mille sept cents. Jabir ibn Abdallah, environ mille cinq cents. Abou Saïd al-Khoudri, environ mille cent."
     },
     {
-     "sous_titre": "Les Évangiles, eux…"
+     "sous_titre": "Abou Hourayra"
     },
     {
-     "texte": "Les Évangiles ont été écrits beaucoup plus tôt : la plupart des spécialistes datent Marc, Matthieu et Luc entre les années 50 et 80, et Jean vers la fin du Ier siècle, soit vingt à soixante ans après la mort et la résurrection de Jésus, du vivant de nombreux témoins. Jean dit même qu'il n'a pas tout écrit : Jésus a fait encore beaucoup d'autres choses ; si on les écrivait en détail, je ne pense pas que le monde même pût contenir les livres qu'on écrirait (Jean 21:25). L'Église n'a jamais eu besoin d'aller chercher, deux siècles plus tard, parmi six cent mille récits, pour savoir ce que Jésus avait dit et fait."
+     "texte": "Le cas d'Abou Hourayra est particulier. Il est devenu musulman très tard, en l'an 628, trois ans avant la mort de Mahomet, à l'occasion de la conquête de Khaybar. Il était pauvre, et il vivait dans la mosquée, parmi « les gens de la banquette ». Son surnom veut dire « le père du petit chat », parce qu'il aimait un petit chat. Il n'a donc passé avec Mahomet qu'environ trois ans, mais il a rapporté beaucoup plus de hadiths que ceux qui l'avaient connu pendant vingt ans."
     },
     {
-     "verset": "Jn 21:25"
+     "texte": "Comment cela est-il possible ? Il l'a expliqué lui-même. Il disait : « Les émigrés étaient occupés par le commerce dans les marchés. Les auxiliaires étaient occupés par leurs champs. Moi, j'étais un homme pauvre, et je restais toujours auprès du messager d'Allah pour avoir de quoi manger. J'étais présent quand ils étaient absents, et je retenais quand ils oubliaient » (Boukhari, hadith 118). Il raconte aussi que Mahomet lui a demandé d'étendre son manteau, a murmuré quelque chose, puis lui a demandé de le serrer contre lui, et que depuis ce jour, il n'a plus rien oublié."
+    },
+    {
+     "texte": "Dès son époque, certains compagnons s'étonnaient qu'il rapporte autant. Omar, dit-on, l'avait mis en garde de ne pas trop en transmettre. Aïcha l'a plusieurs fois corrigé. Mais les grands recueils contiennent beaucoup de ses récits, et les sunnites le respectent beaucoup. Les chiites, eux, ne lui font pas confiance."
+    },
+    {
+     "sous_titre": "Aïcha, maîtresse de science"
+    },
+    {
+     "texte": "Aïcha a joué un rôle très important. Après la mort de Mahomet, pendant près de cinquante ans, elle a enseigné à Médine. Des hommes venaient lui poser des questions, derrière un rideau. Elle corrigeait ce que d'autres compagnons avaient rapporté. Par exemple, elle disait qu'un compagnon avait mal compris une phrase de Mahomet, et elle donnait le contexte. On l'appelle parfois « la mère des croyants et la savante »."
+    },
+    {
+     "sous_titre": "Comment se transmettait un hadith"
+    },
+    {
+     "texte": "Au début, les compagnons racontaient ce qu'ils avaient vu et entendu à leurs élèves, que l'on appelle « les suivants », en arabe « tabi'oun ». Ceux-ci le racontaient à leurs propres élèves. Les gens s'asseyaient en cercle autour du maître. Le maître disait le hadith, les élèves le répétaient. Beaucoup apprenaient par cœur des milliers de hadiths. Certains voyageaient pendant des mois pour entendre un seul hadith de la bouche du dernier survivant d'une chaîne."
     }
    ]
   },
   {
    "numero": "4",
-   "titre": "Comment les musulmans trient les hadiths",
-   "references": [
-    "1 Th 5:21",
-    "Pr 14:15"
-   ],
+   "titre": "Comment les hadiths ont été mis par écrit",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "La science de la chaîne"
+     "sous_titre": "Est-ce que Mahomet a permis d'écrire les hadiths ?"
     },
     {
-     "texte": "Pour savoir si un hadith est fiable, les savants musulmans examinent d'abord la chaîne de transmission. Chaque transmetteur était-il honnête ? Avait-il bonne mémoire ? A-t-il vraiment pu rencontrer la personne dont il dit avoir entendu le récit ? Pour répondre, ils ont rédigé d'immenses dictionnaires biographiques des transmetteurs. C'est un travail considérable, qu'il faut respecter."
+     "texte": "Voici une question intéressante. Mahomet a-t-il permis d'écrire les hadiths ? Les récits sont partagés."
     },
     {
-     "sous_titre": "Les catégories"
+     "texte": "D'un côté, Mouslim rapporte que Mahomet a dit : « N'écrivez rien de moi, sauf le Coran ; et que celui qui a écrit de moi autre chose que le Coran l'efface » (Mouslim, hadith 3004). Pourquoi cette interdiction ? On craignait que les gens mélangent le Coran et les paroles du prophète."
     },
     {
-     "texte": "Selon le résultat, un hadith est classé : « Sahih » : authentique, avec une chaîne solide. « Hassan » : bon, acceptable. « Daïf » : faible, douteux. « Mawdou » : inventé. Les hadiths de Boukhari et de Mouslim sont considérés par la grande majorité des sunnites comme authentiques. C'est pourquoi, dans cette série, nous citons surtout ces deux recueils : ce sont ceux que tes amis musulmans ne peuvent pas facilement rejeter."
+     "texte": "D'un autre côté, d'autres hadiths disent qu'il a permis d'écrire. Un compagnon, Abdallah ibn Amr ibn al-As, a obtenu la permission d'écrire ce qu'il entendait. Il a rassemblé ses notes dans un petit livre qu'il appelait « la feuille véridique ». Un jour, un homme de la tribu de Yémen a demandé qu'on écrive pour lui un discours du prophète, et Mahomet a dit : « Écrivez pour Abou Chah » (Boukhari, hadith 112)."
     },
     {
-     "sous_titre": "Une limite importante"
+     "texte": "Les savants essaient de concilier ces récits. Certains disent que l'interdiction est venue d'abord, et que la permission est venue ensuite. D'autres disent que l'interdiction concernait l'écriture sur la même feuille que le Coran. Dans la pratique, pendant le premier siècle de l'islam, les hadiths ont surtout circulé par la mémoire."
     },
     {
-     "texte": "Cette méthode examine surtout la chaîne des transmetteurs, beaucoup moins le contenu lui-même. Or une chaîne peut être fabriquée aussi facilement qu'un récit. Des chercheurs, y compris certains musulmans, ont remarqué que les chaînes semblent parfois devenir plus complètes avec le temps, comme si on les avait améliorées après coup."
+     "sous_titre": "Les premières collections"
     },
     {
-     "sous_titre": "Un conseil pour toi"
+     "texte": "Des écrits ont tout de même existé très tôt. Un élève d'Abou Hourayra, appelé Hammam ibn Mounabbih, a écrit un petit livre d'environ cent quarante hadiths, vers l'an 700. Il existe encore."
     },
     {
-     "texte": "Quand tu parles avec un musulman, ne cite jamais un hadith sans savoir d'où il vient et comment il est classé. Beaucoup de chrétiens répètent des récits trouvés sur internet, que les musulmans eux-mêmes considèrent comme faibles ou inventés. Ton ami te le fera remarquer, et tu perdras sa confiance. Paul dit : examinez toutes choses ; retenez ce qui est bon (1 Thessaloniciens 5:21). L'homme simple croit tout ce qu'on dit, mais l'homme prudent est attentif à ses pas (Proverbes 14:15)."
+     "texte": "Puis, vers l'an 717, le calife Omar ibn Abd al-Aziz a ordonné de mettre par écrit les hadiths. Il craignait que la science disparaisse avec la mort des savants. Il a écrit aux gouverneurs : « Regardez ce qui existe des hadiths du messager d'Allah, et écrivez-le, car je crains la disparition de la science et le départ des savants. » Un grand savant de Médine, Ibn Chihab al-Zouhri, a été l'un des premiers à les rassembler, à la demande du calife."
+    },
+    {
+     "sous_titre": "Les premiers grands livres"
+    },
+    {
+     "texte": "Au huitième siècle, plusieurs savants ont composé les premiers grands livres. Le plus ancien qui nous soit parvenu complet est « le Mouwatta » de l'imam Malik, mort en 795 à Médine. Il mélange des hadiths du prophète, des paroles des compagnons et des règles de droit de Médine. C'est pour cela que l'école malikite, la plus répandue en Afrique de l'Ouest et au Cameroun, lui est très attachée."
+    },
+    {
+     "texte": "Au neuvième siècle, les savants ont écrit de nouveaux livres, classés par compagnon : on appelle cela un « mousnad ». Le plus célèbre est celui d'Ahmad ibn Hanbal, qui contient environ trente mille hadiths. Mais il est très difficile à utiliser, car les sujets sont mélangés."
     }
    ]
   },
   {
    "numero": "5",
-   "titre": "La sîra : la biographie du prophète",
-   "references": [
-    "Lc 1:3",
-    "1 Tm 1:4"
-   ],
+   "titre": "L'âge d'or : Boukhari, Mouslim et les autres",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Ibn Ishaq"
+     "sous_titre": "Boukhari"
     },
     {
-     "texte": "À côté des hadiths, il existe des biographies de Mahomet, appelées « sîra ». La plus ancienne est celle d'Ibn Ishaq, mort vers 767, soit environ cent trente ans après Mahomet. Son œuvre originale est perdue ; nous la connaissons surtout par la version qu'en a faite Ibn Hicham, mort vers 833. Ibn Hicham dit lui-même, dans son introduction, qu'il a retiré certains passages qu'il jugeait « honteux à raconter » ou capables de choquer les gens. D'autres passages d'Ibn Ishaq ont été conservés par Tabari, mort en 923."
+     "texte": "Mohammed ibn Ismaïl al-Boukhari est né en l'an 810 à Boukhara, une ville d'Asie centrale, dans l'Ouzbékistan d'aujourd'hui. Il a perdu son père très jeune. Il avait, dit-on, une mémoire extraordinaire. À seize ans, il avait déjà appris par cœur beaucoup de livres de hadiths. Il a voyagé pendant seize ans dans les grandes villes du monde musulman : La Mecque, Médine, Bassora, Koufa, Bagdad, Damas, l'Égypte. Il a rencontré, selon la tradition, plus de mille maîtres. Il est mort en l'an 870, près de Samarcande."
     },
     {
-     "sous_titre": "D'autres historiens"
+     "texte": "La tradition raconte qu'il a examiné environ six cent mille récits qui circulaient. Il n'en a gardé qu'environ sept mille cinq cents, avec les répétitions, et environ deux mille six cents sans les répétitions. On dit qu'avant d'écrire chaque hadith, il faisait ses ablutions et priait deux unités de prière. Il a passé seize ans à composer son livre, qu'il a appelé « le Sahih », c'est-à-dire « l'authentique »."
     },
     {
-     "texte": "D'autres auteurs anciens ont écrit sur la vie de Mahomet et ses expéditions : Al-Waqidi, mort en 823, et son secrétaire Ibn Saad, mort en 845. C'est chez ces historiens que l'on trouve, par exemple, le récit des « versets sataniques » dont nous avons parlé."
+     "texte": "Le recueil de Boukhari est divisé en livres, puis en chapitres. Il commence par « le livre de la révélation », puis « le livre de la foi », « le livre de la science », « le livre de la purification », « le livre de la prière ». Il continue avec l'aumône, le jeûne, le pèlerinage, les ventes, les prêts, le mariage, le divorce, les guerres, les biographies des prophètes, les qualités des compagnons, le tafsir, la médecine, les rêves, les épreuves, la fin des temps, et se termine par « le livre de l'unicité de Dieu ». Il contient quatre-vingt-dix-sept livres environ."
     },
     {
-     "sous_titre": "Ce que cela signifie"
+     "sous_titre": "Mouslim"
     },
     {
-     "texte": "Toute la connaissance que nous avons de la vie de Mahomet, en dehors des allusions du Coran, vient donc de récits écrits entre cent trente et trois cents ans après lui, par des croyants musulmans, qui ont parfois retiré ce qui les gênait. Il faut le savoir, non pour tout rejeter, mais pour comprendre que les musulmans eux-mêmes acceptent des récits sur leur prophète qui sont souvent beaucoup plus tardifs que les Évangiles. Paul mettait en garde contre ceux qui s'attachent à des généalogies et à des fables sans fin, qui produisent des discussions plutôt que l'œuvre de Dieu (1 Timothée 1:4)."
+     "texte": "Mouslim ibn al-Hajjaj est né vers l'an 817 à Nichapour, en Iran actuel, et il est mort en l'an 875. Il était un élève de Boukhari, qui l'a beaucoup respecté. Il a lui aussi sélectionné les hadiths avec une très grande rigueur parmi trois cent mille. Son recueil, « le Sahih », contient environ trois à quatre mille hadiths sans les répétitions. Il est célèbre pour sa très belle organisation : il regroupe tous les récits d'un même sujet au même endroit, avec toutes les versions, et c'est plus facile à consulter que celui de Boukhari."
     },
     {
-     "verset": "1 Tm 1:4"
+     "sous_titre": "Les deux Sahih"
+    },
+    {
+     "texte": "Les musulmans sunnites appellent Boukhari et Mouslim « les deux Sahih », « les deux authentiques ». Un hadith qui se trouve dans les deux est considéré comme d'une fiabilité maximale. La majorité des savants disent que tout ce qui est dans ces deux livres est authentique, et que la communauté l'a accepté. C'est pour cette raison que, dans cette série, nous citons surtout ces deux recueils : ce sont ceux que tes amis musulmans ne peuvent pas facilement rejeter."
+    },
+    {
+     "sous_titre": "Les quatre autres"
+    },
+    {
+     "texte": "À côté d'eux, quatre autres recueils sont aussi très respectés. Les « Sunan » d'Abou Daoud, mort en 889. Le « Jami' » de Tirmidhi, mort en 892. Les « Sunan » de Nasa'i, mort en 915. Les « Sunan » d'Ibn Maja, mort en 887. Ces quatre livres, avec Boukhari et Mouslim, forment « les six livres », en arabe « al-kutub as-sitta », qui sont la grande référence des sunnites. Les quatre derniers contiennent des hadiths de qualités variées. Ils sont surtout utilisés pour le droit."
+    },
+    {
+     "sous_titre": "Les commentaires"
+    },
+    {
+     "texte": "Les grands recueils ont fait l'objet de commentaires immenses. Le plus célèbre pour Boukhari s'appelle « Fath al-Bari », écrit par Ibn Hajar al-Asqalani, mort en 1449. Il compte des dizaines de volumes. Pour Mouslim, le commentaire le plus connu est celui de Nawawi, mort en 1277. Nawawi a aussi composé un petit livre appelé « Les Quarante Hadiths », que des millions de musulmans apprennent par cœur."
     }
    ]
   },
   {
    "numero": "6",
-   "titre": "Des hadiths difficiles à recevoir comme venant de Dieu",
-   "references": [
-    "1 Tm 4:7",
-    "Jn 7:17"
-   ],
+   "titre": "Comment on vérifie un hadith",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Quelques exemples"
+     "sous_titre": "Examiner la chaîne"
     },
     {
-     "texte": "Les hadiths contiennent beaucoup de paroles sages et belles. Mais ils contiennent aussi des récits que même beaucoup de musulmans modernes trouvent difficiles. Voici quelques exemples, tous tirés de Boukhari, le recueil réputé le plus authentique : « Si une mouche tombe dans la boisson de l'un de vous, qu'il la plonge entièrement, puis qu'il la retire, car dans l'une de ses ailes il y a une maladie, et dans l'autre le remède » (Boukhari, hadith 3320). « La nigelle (la graine noire) est un remède contre toute maladie, sauf la mort » (Boukhari, hadith 5688). Des gens malades reçurent l'ordre de boire du lait et de l'urine de chamelle, et guérirent (Boukhari, hadith 233). On parla devant le prophète d'un homme qui avait dormi jusqu'au matin sans se lever pour la prière ; il dit : « C'est un homme dans les oreilles duquel Satan a uriné » (Boukhari, hadith 1144). « Le bâillement vient de Satan ; si l'un de vous baille, qu'il le retienne autant qu'il peut » (Boukhari, hadith 3289)."
+     "texte": "Comment les savants savaient-ils si un hadith était fiable ? Ils examinaient d'abord la chaîne de transmission, l'isnad. Pour chaque personne de la chaîne, ils se posaient des questions. Cette personne était-elle honnête ? Était-elle pieuse ? Avait-elle une bonne mémoire, ou écrivait-elle correctement ? Avait-elle vraiment rencontré la personne dont elle dit avoir reçu le hadith ? Vivaient-elles à la même époque, dans la même ville ?"
     },
     {
-     "sous_titre": "Comment en parler"
+     "sous_titre": "Une science immense"
     },
     {
-     "texte": "Il ne s'agit pas de se moquer. Les musulmans répondent souvent que la science moderne confirme certains de ces conseils. Mais le chrétien peut poser cette question sérieuse : si ces récits sont authentiques, peut-on dire que tout ce que le prophète disait, même en matière de médecine, venait de Dieu ? Et s'ils ne le sont pas, que vaut la garantie d'authenticité du recueil le plus respecté de l'islam ? Paul conseille Timothée : rejette les contes profanes et absurdes ; exerce-toi à la piété (1 Timothée 4:7)."
+     "texte": "Pour répondre à ces questions, les savants ont créé une science entière, qu'on appelle « la science des hommes », en arabe « ilm al-rijal ». Ils ont écrit d'énormes dictionnaires qui donnent la biographie de chaque transmetteur : sa date de naissance, sa date de mort, ses maîtres, ses élèves, et le jugement des savants sur son honnêteté et sa mémoire. Certains de ces dictionnaires contiennent des dizaines de milliers de noms. On les appelle « dictionnaires de critique et d'éloge ». Un transmetteur pouvait être jugé « digne de confiance », « de bonne mémoire », « faible », « menteur » ou « abandonné »."
     },
     {
-     "verset": "1 Tm 4:7"
+     "sous_titre": "Les voyages pour les hadiths"
+    },
+    {
+     "texte": "Pour vérifier un hadith, les savants voyageaient très loin. Ils allaient voir le dernier maître d'une chaîne, pour l'entendre eux-mêmes. Ils comparaient les versions entre elles. Par exemple, ils comparaient les hadiths racontés à Bagdad, à Damas, à Bassora et en Égypte, pour voir s'ils étaient identiques. Ce travail demandait des années."
+    },
+    {
+     "sous_titre": "Les catégories"
+    },
+    {
+     "texte": "Selon le résultat, un hadith est classé dans une catégorie."
+    },
+    {
+     "texte": "Le hadith « sahih » est authentique : chaîne continue, transmetteurs honnêtes et de bonne mémoire, pas de contradiction avec un hadith plus fiable, pas de défaut caché."
+    },
+    {
+     "texte": "Le hadith « hasan » est bon, acceptable : il est presque aussi solide, mais la mémoire d'un transmetteur est un peu moins bonne."
+    },
+    {
+     "texte": "Le hadith « da'if » est faible : la chaîne est cassée, ou un transmetteur est douteux."
+    },
+    {
+     "texte": "Le hadith « mawdou' » est inventé : il a été fabriqué."
+    },
+    {
+     "sous_titre": "Mutawatir et ahad"
+    },
+    {
+     "texte": "Les savants distinguent aussi les hadiths selon le nombre de chaînes. Un hadith « mutawatir » est rapporté par tant de personnes, dans toutes les générations, qu'il est impossible qu'ils se soient mis d'accord pour mentir. Il y en a très peu. Un hadith « ahad » est rapporté par une ou quelques personnes seulement. La plupart des hadiths sont de cette sorte. Les savants discutent pour savoir si un hadith « ahad », même authentique, peut établir une doctrine de foi, ou seulement une règle pratique."
+    },
+    {
+     "sous_titre": "Une question de méthode"
+    },
+    {
+     "texte": "Il faut dire que cette méthode examine surtout la chaîne des transmetteurs, plus que le contenu du récit. Certains savants, et aussi des chercheurs modernes, y compris des musulmans, remarquent que la chaîne peut être fabriquée aussi facilement que le récit. Ils remarquent que, d'une génération à l'autre, les chaînes semblent parfois devenir plus complètes. Cette question est très débattue."
     }
    ]
   },
   {
    "numero": "7",
-   "titre": "Ceux qui rejettent les hadiths",
-   "references": [
-    "Mc 7:7-8",
-    "Jn 7:17"
-   ],
+   "titre": "Les faux hadiths",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Les « coranistes »"
+     "sous_titre": "Un problème reconnu par tous"
     },
     {
-     "texte": "Il existe aujourd'hui des musulmans, appelés « coranistes », qui rejettent les hadiths et veulent suivre le Coran seul. Ils disent : les hadiths ont été écrits trop tard, ils se contredisent, ils contiennent des inventions. Ils ne prient donc pas toujours cinq fois par jour, ils refusent la lapidation et la peine de mort pour l'apostasie. Ils restent très minoritaires, et les autres musulmans les considèrent souvent comme des hérétiques."
+     "texte": "Les savants musulmans eux-mêmes disent depuis le début qu'un très grand nombre de hadiths ont été inventés. On les appelle « les hadiths fabriqués ». Boukhari a rejeté environ quatre-vingt-dix-huit pour cent des récits qu'il a examinés. Cela montre l'ampleur du problème."
     },
     {
-     "sous_titre": "Un dilemme"
+     "sous_titre": "Pourquoi inventait-on des hadiths ?"
     },
     {
-     "texte": "Leur existence montre un dilemme profond. Sans les hadiths, l'islam tel qu'il est pratiqué par la grande majorité des musulmans s'effondre : plus de prières détaillées, plus de loi islamique complète, plus de biographie du prophète. Mais avec les hadiths, l'islam repose sur des récits mis par écrit deux siècles plus tard, triés parmi des centaines de milliers d'inventions. Le chrétien peut aider son ami à voir ce dilemme avec douceur."
+     "texte": "On inventait des hadiths pour plusieurs raisons."
     },
     {
-     "sous_titre": "La tradition et la Parole"
+     "texte": "Pour des raisons politiques. Après la mort de Mahomet, les musulmans se sont divisés en partis. Chaque parti inventait des hadiths pour soutenir son candidat. Les partisans d'Ali en inventaient pour lui. Les partisans de Moawiya en inventaient pour lui."
     },
     {
-     "texte": "Jésus reprochait aux pharisiens : c'est en vain qu'ils m'honorent, en donnant des préceptes qui sont des commandements d'hommes. Vous abandonnez le commandement de Dieu, et vous observez la tradition des hommes (Marc 7:7-8). Les chrétiens aussi peuvent tomber dans ce piège, en mettant leurs traditions d'Église au-dessus de la Bible. La Parole de Dieu doit toujours juger nos traditions, et non l'inverse."
+     "texte": "Pour des raisons de doctrine. Chaque école de pensée voulait un hadith pour appuyer ses idées."
     },
     {
-     "texte": "Jésus a aussi donné un chemin simple pour connaître la vérité : si quelqu'un veut faire la volonté de Dieu, il connaîtra si ma doctrine est de Dieu, ou si je parle de mon chef (Jean 7:17). Celui qui cherche sincèrement Dieu sera conduit vers la vérité."
+     "texte": "Pour encourager la piété. Certains prédicateurs inventaient des hadiths pour pousser les gens à prier ou à jeûner, en promettant de grandes récompenses. Ils disaient : « C'est pour la bonne cause. » Les savants ont dénoncé cette attitude."
+    },
+    {
+     "texte": "Pour de l'argent ou de la célébrité. Des conteurs de rue inventaient des histoires. Des gens racontaient des chaînes très rares pour paraître savants."
+    },
+    {
+     "texte": "Par fierté de peuple, de ville, de tribu."
+    },
+    {
+     "sous_titre": "Quelques exemples"
+    },
+    {
+     "texte": "Un hadith très connu dit : « Cherchez la science, même en Chine. » Les savants disent qu'il n'est pas authentique. Un autre dit : « L'amour de la patrie fait partie de la foi. » Les savants disent aussi qu'il est inventé. Mais les gens le répètent encore."
+    },
+    {
+     "texte": "La tradition rapporte qu'un faussaire, appelé Ibn Abi al-Awja, condamné à mort vers l'an 772, aurait avoué avoir inventé quatre mille hadiths, où il avait rendu permis ce qui était interdit, et interdit ce qui était permis."
+    },
+    {
+     "sous_titre": "Comment reconnaître un faux"
+    },
+    {
+     "texte": "Les savants ont mis au point des signes pour reconnaître un faux hadith. Le transmetteur est un menteur connu. Le récit contredit le Coran ou un fait certain de l'histoire. Il promet une récompense énorme pour un petit acte. Il est rédigé dans un style qui n'est pas celui du prophète. Il ne se trouve dans aucun recueil ancien. Ils ont aussi écrit des livres entiers qui rassemblent les faux hadiths connus, pour que les gens ne les répètent pas."
     }
    ]
   },
   {
    "numero": "8",
-   "titre": "Les « paroles divines » des hadiths",
-   "references": [
-    "Jr 31:3",
-    "Os 11:8"
-   ],
+   "titre": "Ce que contiennent les recueils",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le hadith qudsi"
+     "sous_titre": "Des sujets très variés"
     },
     {
-     "texte": "Il existe une catégorie particulière de hadiths, appelée « hadith qudsi », c'est-à-dire « hadith saint ». Ce sont des récits où Mahomet rapporte une parole d'Allah, mais qui ne font pas partie du Coran. Par exemple, Boukhari rapporte qu'Allah a dit : « Ma miséricorde l'emporte sur ma colère » (Boukhari, hadith 7404). Un autre hadith qudsi dit : « Ô mes serviteurs, vous péchez nuit et jour, et moi je pardonne tous les péchés ; demandez-moi pardon, je vous pardonnerai » (Mouslim, hadith 2577)."
+     "texte": "Les hadiths parlent de tout. Voici les grands thèmes."
     },
     {
-     "sous_titre": "Une soif de miséricorde"
+     "texte": "La foi et les croyances : les anges, les prophètes, la mort, la tombe, la résurrection, le paradis et l'enfer, le destin."
     },
     {
-     "texte": "Ces paroles montrent que beaucoup de musulmans ont une vraie soif de la miséricorde de Dieu. Le chrétien peut s'en réjouir et s'en servir comme d'un pont. Mais il peut aussi poser la question : comment Dieu peut-il pardonner sans cesser d'être juste ? Si un juge humain relâchait tous les coupables simplement parce qu'il est gentil, nous dirions qu'il est injuste. L'Évangile répond à cette question : Dieu pardonne parce que Jésus a porté la peine du péché. Dieu est à la fois juste et justifiant celui qui a la foi en Jésus (Romains 3:26). Sa miséricorde ne s'oppose pas à sa justice : elles se rencontrent à la croix."
+     "texte": "Le culte : la purification, la prière sous toutes ses formes, l'aumône, le jeûne, le pèlerinage."
     },
     {
-     "texte": "Dieu dit par Jérémie : je t'aime d'un amour éternel ; c'est pourquoi je te conserve ma bonté (Jérémie 31:3). Et par Osée, quand Israël s'égare : comment te traiterais-je, Éphraïm ? Mon cœur s'agite au-dedans de moi, toutes mes compassions sont émues (Osée 11:8). Voilà le cœur du Père que nous voulons faire connaître."
+     "texte": "La vie sociale : le mariage, le divorce, l'allaitement, les relations entre époux, l'éducation des enfants, le commerce, les prêts, les dettes, les contrats."
     },
     {
-     "verset": "Os 11:8"
+     "texte": "Le droit pénal : les punitions, le talion, les procès, les témoignages."
+    },
+    {
+     "texte": "La guerre et la paix : les expéditions de Mahomet, les règles de la guerre, le butin, les traités, les prisonniers."
+    },
+    {
+     "texte": "La vie de Mahomet : sa naissance, sa mission, ses voyages, ses miracles, ses épouses, sa maladie et sa mort."
+    },
+    {
+     "texte": "Les compagnons : leur mérite, leurs combats, leurs paroles."
+    },
+    {
+     "texte": "La médecine, les remèdes, les songes, les bonnes manières, la politesse, la nourriture, les vêtements, les animaux."
+    },
+    {
+     "texte": "Les événements de la fin des temps."
+    },
+    {
+     "sous_titre": "Quelques hadiths célèbres"
+    },
+    {
+     "texte": "Voici quelques hadiths que presque tous les musulmans connaissent."
+    },
+    {
+     "texte": "« Les actes ne valent que par les intentions » (Boukhari, hadith 1). C'est le premier hadith du recueil de Boukhari."
+    },
+    {
+     "texte": "Le hadith de Gabriel, où un homme inconnu vient poser à Mahomet des questions sur l'islam, la foi et l'excellence (Mouslim, hadith 8), que nous avons vu dans le premier enseignement."
+    },
+    {
+     "texte": "« Aucun de vous ne croit vraiment tant qu'il n'aime pas pour son frère ce qu'il aime pour lui-même » (Boukhari, hadith 13)."
+    },
+    {
+     "texte": "« Le musulman est celui dont les autres musulmans sont à l'abri de la langue et de la main » (Boukhari, hadith 10)."
+    },
+    {
+     "texte": "« La religion, c'est le conseil sincère. » On demanda : « Pour qui ? » Il répondit : « Pour Allah, pour son Livre, pour son messager, pour les chefs des musulmans et pour tous les musulmans » (Mouslim, hadith 55)."
+    },
+    {
+     "texte": "« Le paradis se trouve sous les pieds des mères », selon une tradition populaire que les savants discutent. Mais un hadith authentique rapporte qu'un homme demanda : « Qui mérite le mieux mon amitié ? » Mahomet répondit trois fois : « Ta mère », puis : « Ton père » (Boukhari, hadith 5971)."
+    },
+    {
+     "sous_titre": "Le livre des remèdes"
+    },
+    {
+     "texte": "Les recueils contiennent un chapitre sur la médecine, appelé « la médecine du prophète ». On y trouve des conseils de santé : le miel, la nigelle, les dattes, les ventouses, certaines plantes. Par exemple : « La nigelle est un remède contre toute maladie, sauf la mort » (Boukhari, hadith 5688). « Si une mouche tombe dans la boisson de l'un de vous, qu'il la plonge entièrement, puis qu'il la retire, car dans l'une de ses ailes il y a une maladie, et dans l'autre le remède » (Boukhari, hadith 3320). Il y a aussi le récit de gens malades qui ont reçu l'ordre de boire du lait et de l'urine de chamelle, et qui ont guéri (Boukhari, hadith 233). Les musulmans en discutent beaucoup : certains y voient des conseils de santé valables, d'autres disent que Mahomet parlait là comme un homme de son époque, et non comme prophète."
+    },
+    {
+     "sous_titre": "Les rêves"
+    },
+    {
+     "texte": "Un chapitre entier de Boukhari est consacré aux rêves. Mahomet a dit que le bon rêve est une des quarante-six parties de la prophétie (Boukhari, hadith 6989). Il distinguait trois sortes de rêves : le bon rêve, qui vient d'Allah ; le mauvais rêve, qui vient de Satan ; et le rêve qui vient des pensées de l'homme. Il conseillait, après un mauvais rêve, de cracher légèrement trois fois à gauche, de demander à Allah la protection contre Satan, et de ne le raconter à personne."
     }
    ]
   },
   {
    "numero": "9",
-   "titre": "La fin des temps dans les hadiths",
-   "references": [
-    "1 Jn 2:18",
-    "Ac 1:11"
-   ],
+   "titre": "Les « paroles divines » : le hadith qudsi",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Les signes de l'Heure"
+     "sous_titre": "Qu'est-ce que c'est ?"
     },
     {
-     "texte": "Les hadiths contiennent beaucoup de récits sur la fin du monde, que l'on appelle « l'Heure ». Parmi les signes annoncés : la multiplication de l'ignorance et de l'immoralité, des bergers qui rivalisent en construisant de hautes tours, le soleil qui se lèvera à l'ouest, une bête qui sortira de la terre, une fumée qui couvrira le monde. Beaucoup de musulmans d'aujourd'hui, en voyant les gratte-ciels du Golfe ou les guerres du Moyen-Orient, pensent que ces signes s'accomplissent sous leurs yeux."
+     "texte": "Il existe une catégorie particulière de hadiths, appelée « hadith qudsi », ce qui veut dire « hadith saint », ou « hadith divin ». Ce sont des récits où Mahomet rapporte une parole d'Allah, mais qui ne font pas partie du Coran. Le sens vient d'Allah, mais les mots sont de Mahomet. On n'a pas le droit de les réciter pendant la prière à la place du Coran. On en compte environ deux cents."
     },
     {
-     "sous_titre": "Le Mahdi"
+     "sous_titre": "Quelques exemples"
     },
     {
-     "texte": "Beaucoup de hadiths, surtout chez les chiites, mais aussi chez les sunnites, annoncent la venue d'un chef appelé « le Mahdi », c'est-à-dire « le bien-guidé », descendant de Mahomet, qui remplira la terre de justice comme elle était remplie d'injustice. Les chiites duodécimains croient que le Mahdi est leur douzième imam, caché depuis le IXe siècle, et qui reviendra. Au cours de l'histoire, et en Afrique aussi, plusieurs hommes se sont proclamés Mahdi et ont levé des armées, comme le célèbre Mahdi du Soudan à la fin du XIXe siècle."
+     "texte": "Boukhari rapporte qu'Allah a dit : « Ma miséricorde l'emporte sur ma colère » (Boukhari, hadith 7404)."
     },
     {
-     "sous_titre": "Le Dajjal, l'imposteur"
+     "texte": "Mouslim rapporte un hadith qudsi très connu : « Ô mes serviteurs, je me suis interdit l'injustice, et je l'ai interdite entre vous. Ne vous opprimez donc pas les uns les autres. Ô mes serviteurs, vous péchez nuit et jour, et moi je pardonne tous les péchés. Demandez-moi pardon, je vous pardonnerai » (Mouslim, hadith 2577)."
     },
     {
-     "texte": "Les hadiths annoncent aussi la venue du « Dajjal », le grand imposteur, une sorte d'antéchrist borgne qui trompera les hommes par de faux miracles. Mahomet aurait dit qu'il est borgne de l'œil droit et que le mot « mécréant » sera écrit entre ses yeux (Boukhari, hadith 7131)."
+     "texte": "Un autre dit : « Je suis auprès de ce que mon serviteur pense de moi. Si mon serviteur se rapproche de moi d'un empan, je me rapproche de lui d'une coudée. S'il se rapproche de moi d'une coudée, je me rapproche de lui d'une brasse. S'il vient vers moi en marchant, je viens vers lui en courant » (Boukhari, hadith 7405)."
     },
     {
-     "sous_titre": "Le retour de Jésus"
-    },
-    {
-     "texte": "Et voici le plus important pour nous : selon les hadiths, c'est Jésus qui reviendra. Boukhari rapporte que Mahomet a dit : « Par celui qui tient mon âme en sa main, le fils de Marie descendra bientôt parmi vous comme un juge juste ; il brisera la croix, tuera le porc et abolira l'impôt » (Boukhari, hadith 3448). Mouslim précise qu'il descendra près du minaret blanc à l'est de Damas, et qu'il tuera le Dajjal à la porte de Lod, en Palestine (Mouslim, hadith 2937)."
-    },
-    {
-     "sous_titre": "Une question décisive"
-    },
-    {
-     "texte": "Dans la pensée musulmane, ces récits signifient que Jésus reviendra comme musulman, pour détruire le christianisme (« briser la croix ») et établir l'islam. Mais le chrétien peut poser une question décisive à son ami : « Pourquoi est-ce Jésus qui revient pour juger le monde et vaincre l'antéchrist, et non Mahomet ? Mahomet est dans sa tombe à Médine. Jésus est vivant auprès de Dieu, ton propre livre le dit. Celui qui va juger le monde, ne devrais-tu pas le connaître maintenant ? »"
-    },
-    {
-     "texte": "La Bible annonce, elle aussi, que des antichrists viendront (1 Jean 2:18), et que Jésus reviendra. Les anges l'ont dit aux disciples le jour de l'ascension : ce Jésus, qui a été enlevé au ciel du milieu de vous, viendra de la même manière que vous l'avez vu allant au ciel (Actes 1:11). Mais il ne reviendra pas pour briser la croix : il reviendra avec les marques de la croix dans ses mains, comme le Seigneur ressuscité (Zacharie 12:10 ; Apocalypse 1:7). La croix n'est pas sa défaite, c'est sa victoire."
+     "texte": "Ces paroles montrent que beaucoup de musulmans ont une vraie soif de la miséricorde de Dieu."
     }
    ]
   },
   {
    "numero": "10",
-   "titre": "Comment se servir des hadiths dans la conversation",
-   "references": [
-    "1 Co 9:22",
-    "Ac 17:28"
-   ],
+   "titre": "La fin des temps dans les hadiths",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Connaître les références"
+     "sous_titre": "Les signes de l'Heure"
     },
     {
-     "texte": "Les hadiths sont une arme à double tranchant. Mal utilisés, ils blessent et ferment la conversation. Bien utilisés, avec précision et respect, ils permettent de poser des questions que ton ami ne s'est jamais posées. Paul, à Athènes, a cité les poètes grecs de ses auditeurs : nous sommes de sa race, comme l'ont dit quelques-uns de vos poètes (Actes 17:28). Il savait s'appuyer sur ce que ses auditeurs connaissaient pour les conduire à Christ."
+     "texte": "Les hadiths contiennent beaucoup de récits sur la fin du monde, qu'on appelle « l'Heure ». Les signes mineurs sont nombreux : la multiplication de l'ignorance et de l'immoralité, les meurtres de plus en plus fréquents, des bergers sans importance qui se feront concurrence pour construire de hautes tours, le temps qui se raccourcit, les tremblements de terre. Les signes majeurs sont dix : la fumée, le Dajjal, la bête de la terre, le lever du soleil à l'ouest, la descente de Jésus, la sortie de Gog et Magog, trois grands enfoncements de terre, et un feu qui chassera les gens vers leur lieu de rassemblement. Beaucoup de musulmans, en voyant les gratte-ciels du Golfe ou les guerres du Moyen-Orient, pensent que ces signes s'accomplissent sous leurs yeux."
     },
     {
-     "sous_titre": "Des hadiths qui ouvrent sur Jésus"
+     "sous_titre": "Le Mahdi"
     },
     {
-     "texte": "Il existe aussi des hadiths qui peuvent ouvrir sur Jésus. Par exemple, Boukhari et Mouslim rapportent que Mahomet a dit que tout enfant d'Adam est touché par Satan à sa naissance, et qu'il crie à cause de ce toucher, sauf Marie et son fils (Boukhari, hadith 3431). Les hadiths annoncent aussi que Jésus redescendra à la fin des temps comme juge juste (Boukhari, hadith 3448). Tu peux demander : « Pourquoi Jésus seul a-t-il été protégé du toucher de Satan ? Pourquoi est-ce lui qui revient pour juger ? Qui est-il vraiment ? »"
+     "texte": "Beaucoup de hadiths annoncent la venue d'un chef appelé « le Mahdi », ce qui veut dire « le bien-guidé ». Il serait un descendant de Mahomet, qui remplirait la terre de justice comme elle était remplie d'injustice. Les chiites duodécimains croient que le Mahdi est leur douzième imam, caché depuis le neuvième siècle, et qui reviendra. Chez les sunnites, ce sujet est plus discuté, car il n'apparaît pas dans Boukhari ni dans Mouslim. Au cours de l'histoire, et en Afrique aussi, plusieurs hommes se sont proclamés Mahdi et ont levé des armées, comme le célèbre Mahdi du Soudan à la fin du dix-neuvième siècle."
     },
     {
-     "sous_titre": "On raconte…"
+     "sous_titre": "Le Dajjal"
     },
     {
-     "texte": "On raconte qu'un jeune imam d'un quartier de Yaoundé, invité à un débat dans une université, cita un hadith pour accuser les chrétiens. Un étudiant chrétien lui demanda humblement : « Dans quel recueil ce hadith se trouve-t-il, et comment est-il classé ? » L'imam dut reconnaître qu'il était faible. Puis l'étudiant cita le hadith de Boukhari sur Jésus, protégé du toucher de Satan à sa naissance. Après le débat, l'imam vint lui parler à part : « Tu connais nos livres mieux que beaucoup de mes élèves. Pourquoi lis-tu tout cela ? » L'étudiant répondit : « Parce que je t'aime, et je veux que tu connaisses celui que même tes livres placent au-dessus de tous. »"
+     "texte": "Les hadiths annoncent aussi la venue du « Dajjal », le grand imposteur, qui trompera les hommes par de faux miracles. Mahomet aurait dit qu'il est borgne de l'œil droit, et que le mot « mécréant » sera écrit entre ses yeux (Boukhari, hadith 7131). Il fera tomber la pluie, sortira les trésors de la terre et fera revivre un mort. Il restera quarante jours sur terre, le premier jour aussi long qu'une année."
+    },
+    {
+     "sous_titre": "Le retour de Jésus"
+    },
+    {
+     "texte": "Et voici le plus important : selon les hadiths, c'est Jésus qui reviendra. Boukhari rapporte que Mahomet a dit : « Par celui qui tient mon âme en sa main, le fils de Marie descendra bientôt parmi vous comme un juge juste. Il brisera la croix, tuera le porc et abolira l'impôt » (Boukhari, hadith 3448). Mouslim précise qu'il descendra près du minaret blanc à l'est de Damas, et qu'il tuera le Dajjal à la porte de Lod, en Palestine (Mouslim, hadith 2937). Ensuite, selon les hadiths, il vivra environ quarante ans sur la terre, se mariera, aura des enfants, mourra et sera enterré. Nous reparlerons de cela dans la série « Face à face »."
     }
    ]
   },
   {
    "numero": "11",
+   "titre": "Les chiites, les coranistes et les autres",
+   "references": [],
+   "blocs": [
+    {
+     "sous_titre": "Les hadiths chez les chiites"
+    },
+    {
+     "texte": "Les chiites ont leurs propres recueils de hadiths, fondés sur les récits transmis par la famille d'Ali et par les imams. Les quatre principaux s'appellent « les quatre livres ». Le plus important est « al-Kafi », composé au dixième siècle par al-Kulayni, et qui contient plus de seize mille hadiths. Ils n'acceptent pas tous les hadiths de Boukhari et de Mouslim, car ils ne font pas confiance à beaucoup de compagnons, comme Abou Hourayra, qui n'ont pas soutenu Ali."
+    },
+    {
+     "sous_titre": "Les coranistes"
+    },
+    {
+     "texte": "Il existe aussi des musulmans, appelés « coranistes », qui rejettent les hadiths et veulent suivre le Coran seul. Ils disent : le Coran dit qu'il est complet, clair et détaillé (sourate 6, versets 38 et 114). Ils disent que les hadiths ont été écrits trop tard, qu'ils se contredisent, et qu'ils ont servi à des intérêts politiques. Ils sont minoritaires. Ils ont existé dès le neuvième siècle, ont été très critiqués, et ils se sont développés surtout au vingtième siècle, en Égypte, en Inde et en Amérique. La grande majorité des musulmans les considère comme égarés, car sans les hadiths, on ne peut même pas faire la prière."
+    },
+    {
+     "sous_titre": "Les chercheurs non musulmans"
+    },
+    {
+     "texte": "Depuis la fin du dix-neuvième siècle, des chercheurs occidentaux, comme Ignaz Goldziher et Joseph Schacht, ont étudié les hadiths avec les méthodes de l'histoire. Ils ont soutenu que beaucoup de hadiths avaient été fabriqués après Mahomet, pour répondre à des questions de droit et de politique de leur époque. D'autres chercheurs ont répondu que les hadiths contiennent beaucoup de matériel ancien et fiable. Les musulmans, en général, rejettent les conclusions les plus critiques. Cette discussion est encore ouverte."
+    },
+    {
+     "sous_titre": "Les musulmans modernes"
+    },
+    {
+     "texte": "Aujourd'hui, beaucoup de musulmans instruits, en particulier des étudiants et des chercheurs, posent des questions sur certains hadiths. Ils disent qu'on doit toujours vérifier le contenu et pas seulement la chaîne. Certains rejettent des hadiths qui leur semblent contraires à la raison ou aux valeurs modernes, même s'ils se trouvent dans Boukhari. Ces questions provoquent de grands débats dans le monde musulman."
+    }
+   ]
+  },
+  {
+   "numero": "12",
    "titre": "Ce que nous retenons",
-   "references": [
-    "Jn 20:31",
-    "2 Tm 3:15"
-   ],
+   "references": [],
    "blocs": [
     {
      "sous_titre": "Résumons"
     },
     {
-     "texte": "Les hadiths sont des récits des paroles et des actes de Mahomet, transmis par des chaînes de transmetteurs, et rassemblés dans de grands recueils environ deux cents ans après sa mort. Les plus respectés sont ceux de Boukhari et de Mouslim. Ils sont indispensables à la pratique musulmane : la prière, l'aumône, la loi, la vie quotidienne en dépendent. Les savants musulmans reconnaissent que d'innombrables hadiths ont été inventés, et ils ont développé une science pour les trier, qui examine surtout la chaîne des transmetteurs. Les biographies de Mahomet sont, elles aussi, tardives. Certains hadiths, même dans Boukhari, sont difficiles à recevoir comme venant de Dieu. Une minorité de musulmans rejette les hadiths, mais cela fragilise toute la pratique de l'islam."
+     "texte": "Un hadith est un récit rapportant une parole, un acte ou une approbation de Mahomet, avec une chaîne de transmetteurs. L'ensemble forme la sunna, deuxième source de l'islam. Les hadiths expliquent le Coran, le précisent, et ajoutent des règles. Les premiers transmetteurs sont les compagnons, dont Abou Hourayra et Aïcha. Pendant le premier siècle, les hadiths ont surtout circulé par la mémoire. Le calife Omar ibn Abd al-Aziz a ordonné de les écrire vers l'an 717. Les grands recueils ont été composés au neuvième siècle : Boukhari, Mouslim, et quatre autres, ce qui fait « les six livres »."
     },
     {
-     "sous_titre": "Les saintes lettres qui rendent sage"
+     "texte": "Les savants vérifient d'abord la chaîne, en utilisant d'immenses dictionnaires de transmetteurs. Ils classent les hadiths en authentiques, bons, faibles et inventés. Ils reconnaissent qu'un très grand nombre de hadiths ont été fabriqués pour des raisons politiques, religieuses et personnelles. Les recueils parlent de tout, de la prière à la médecine et à la fin des temps. Le hadith divin rapporte des paroles d'Allah en dehors du Coran. Les chiites ont leurs propres recueils. Les coranistes rejettent les hadiths. Les chercheurs et les musulmans modernes continuent à débattre de leur fiabilité."
     },
     {
-     "texte": "Paul rappelle à Timothée : dès ton enfance, tu connais les saintes lettres, qui peuvent te rendre sage à salut par la foi en Jésus-Christ (2 Timothée 3:15). Les hadiths règlent la vie extérieure, du lever au coucher. Les Écritures, elles, conduisent au salut, par la foi en Jésus. C'est cela que nous voulons offrir."
+     "sous_titre": "Ce que le chrétien retient"
     },
     {
-     "texte": "Dans le prochain enseignement, nous verrons les cinq piliers de l'islam et les six articles de foi : ce que croit et pratique chaque musulman."
+     "texte": "Le chrétien qui connaît les hadiths comprend un point essentiel : pour la grande majorité des musulmans, l'islam n'est pas seulement le Coran. C'est le Coran et la sunna ensemble. Tout ce que ton voisin musulman fait dans la journée, sa manière de prier, de manger, de s'habiller, de saluer, vient largement des hadiths. Quand nous parlerons de la vie quotidienne, de la femme, du djihad et du paradis, nous citerons souvent Boukhari et Mouslim. Tu sauras alors d'où viennent ces récits, et pourquoi ils pèsent si lourd."
+    },
+    {
+     "texte": "Jean écrit, au sujet de Jésus : ce qui était dès le commencement, ce que nous avons entendu, ce que nous avons vu de nos yeux, ce que nous avons contemplé et que nos mains ont touché, concernant la parole de vie, nous vous l'annonçons (1 Jean 1:1). Nous comparerons plus tard les deux manières dont ces deux religions conservent le souvenir de leur fondateur."
+    },
+    {
+     "verset": "1 Jn 1:1"
+    },
+    {
+     "texte": "Cet enseignement termine la deuxième série, « Le Coran et les hadiths ». Dans la série suivante, « La foi et la vie du musulman », nous étudierons les six articles de foi et les cinq piliers, puis la vie de tous les jours."
     }
    ]
   }
  ],
  "sujets": [
   {
-   "titre": "Pour ceux qui vivent sous le poids des règles",
-   "texte": "Prions pour les musulmans qui s'épuisent à suivre des centaines de règles pour plaire à Dieu, afin qu'ils trouvent le repos et la liberté en Christ (Matthieu 11:28-30)."
+   "titre": "Pour les savants et les étudiants musulmans",
+   "texte": "Prions pour les musulmans qui étudient, avec sincérité, les sources de leur religion, afin que Dieu les conduise à la vérité (Jean 7:17)."
   },
   {
-   "titre": "Pour les imams et les maîtres coraniques",
-   "texte": "Prions pour les imams, les oustaz et les maîtres coraniques de nos villes, afin que Dieu leur révèle Jésus et qu'ils deviennent ses témoins (Actes 9:15)."
+   "titre": "Pour ceux qui cherchent le pardon",
+   "texte": "Prions pour les musulmans qui lisent dans les hadiths que Dieu pardonne à ceux qui reviennent à lui, afin qu'ils découvrent comment Dieu pardonne vraiment (Ésaïe 55:7)."
   },
   {
-   "titre": "Pour notre exactitude",
-   "texte": "Prions afin que nous ne répétions jamais de fausses informations, mais que nous parlions avec exactitude et amour (Éphésiens 4:15)."
+   "titre": "Pour nous-mêmes",
+   "texte": "Prions afin de ne jamais citer un hadith sans avoir vérifié sa source et son niveau de fiabilité (Proverbes 14:15)."
   }
  ],
  "questions": [
   {
-   "question": "Quelles sont les deux parties d'un hadith ?",
+   "question": "Que veut dire le mot « sunna » ?",
    "choix": [
-    "Le titre et la date",
-    "La chaîne de transmission (isnad) et le contenu (matn)",
-    "La question et la réponse"
+    "La loi de Moïse",
+    "La coutume du prophète, sa manière de vivre",
+    "Le pèlerinage"
    ],
    "reponse": 1,
-   "explication": "Chaque hadith a une chaîne de transmetteurs et un contenu.",
+   "explication": "Les sunnites sont « les gens de la sunna ».",
    "section": "1"
   },
   {
-   "question": "D'où viennent les cinq prières quotidiennes et leurs détails ?",
+   "question": "De quelles deux parties est composé un hadith ?",
    "choix": [
-    "Du Coran seul",
-    "Des hadiths",
-    "De la Bible"
+    "Le titre et la fin",
+    "L'isnad, la chaîne de transmetteurs, et le matn, le texte",
+    "Le Coran et le commentaire"
    ],
    "reponse": 1,
-   "explication": "Le Coran ordonne de prier, mais les détails viennent des hadiths.",
+   "explication": "Boukhari, hadith 1 en est un exemple.",
+   "section": "1"
+  },
+  {
+   "question": "Pourquoi les hadiths sont-ils indispensables aux musulmans ?",
+   "choix": [
+    "Parce qu'ils sont plus beaux que le Coran",
+    "Parce que le Coran ne dit pas comment prier, jeûner ou faire le pèlerinage, et que les hadiths l'expliquent",
+    "Parce que le Coran est perdu"
+   ],
+   "reponse": 1,
+   "explication": "La sunna confirme, explique et ajoute.",
    "section": "2"
   },
   {
-   "question": "Quand Boukhari est-il mort ?",
+   "question": "Quel compagnon a transmis le plus de hadiths ?",
    "choix": [
-    "En 632",
-    "En 870, environ deux cent quarante ans après Mahomet",
-    "En 1924"
+    "Aïcha",
+    "Omar",
+    "Abou Hourayra"
+   ],
+   "reponse": 2,
+   "explication": "Environ cinq mille trois cent soixante-quatorze.",
+   "section": "3"
+  },
+  {
+   "question": "Qui a ordonné vers l'an 717 de mettre les hadiths par écrit ?",
+   "choix": [
+    "Mahomet",
+    "Le calife Omar ibn Abd al-Aziz",
+    "Le calife Othman"
    ],
    "reponse": 1,
-   "explication": "Les grands recueils datent du IXe siècle.",
-   "section": "3"
-  },
-  {
-   "question": "Combien de récits Boukhari aurait-il examinés selon la tradition ?",
-   "choix": [
-    "Environ 100",
-    "Environ 7 500",
-    "Environ 600 000"
-   ],
-   "reponse": 2,
-   "explication": "Il n'en aurait retenu qu'environ 7 500 avec répétitions.",
-   "section": "3"
-  },
-  {
-   "question": "Que signifie un hadith classé « daïf » ?",
-   "choix": [
-    "Authentique",
-    "Bon",
-    "Faible, douteux"
-   ],
-   "reponse": 2,
-   "explication": "Il ne faut jamais citer un hadith faible comme s'il était sûr.",
+   "explication": "Il craignait la disparition de la science.",
    "section": "4"
   },
   {
-   "question": "Selon Boukhari, qui descendra à la fin des temps comme juge juste ?",
+   "question": "Combien de récits Boukhari aurait-il examinés pour n'en garder qu'environ deux mille six cents sans répétitions ?",
    "choix": [
-    "Mahomet",
-    "Le Mahdi seulement",
-    "Jésus, fils de Marie"
+    "Mille",
+    "Environ six cent mille",
+    "Dix mille"
+   ],
+   "reponse": 1,
+   "explication": "Il a passé seize ans à composer son livre, « le Sahih ».",
+   "section": "5"
+  },
+  {
+   "question": "Comment appelle-t-on un hadith inventé ?",
+   "choix": [
+    "Sahih",
+    "Hasan",
+    "Mawdou'"
    ],
    "reponse": 2,
-   "explication": "Boukhari, hadith 3448 ; Mouslim 2937. Pourquoi Jésus, et non Mahomet ?",
+   "explication": "Les savants reconnaissent eux-mêmes qu'un très grand nombre de hadiths ont été fabriqués.",
+   "section": "7"
+  },
+  {
+   "question": "Que veut dire « hadith qudsi » ?",
+   "choix": [
+    "Un hadith faible",
+    "Un hadith où Mahomet rapporte une parole d'Allah qui ne fait pas partie du Coran",
+    "Un hadith sur la prière"
+   ],
+   "reponse": 1,
+   "explication": "Par exemple : « Ma miséricorde l'emporte sur ma colère » (Boukhari, hadith 7404).",
    "section": "9"
   },
   {
-   "question": "Que reprochait Jésus aux pharisiens dans Marc 7:7-8 ?",
+   "question": "Qui sont les « coranistes » ?",
    "choix": [
-    "De lire trop la Bible",
-    "D'abandonner le commandement de Dieu pour observer la tradition des hommes",
-    "De prier trop longtemps"
+    "Ceux qui apprennent le Coran par cœur",
+    "Des musulmans qui rejettent les hadiths et suivent le Coran seul",
+    "Les chiites"
    ],
    "reponse": 1,
-   "explication": "Les traditions humaines ne doivent jamais remplacer la Parole de Dieu.",
-   "section": "7"
+   "explication": "Ils sont très minoritaires.",
+   "section": "11"
   }
  ],
  "devoir": [
-  "Lis Marc 7:1-23 et note ce que Jésus dit de la pureté et des traditions.",
-  "Recherche (dans un recueil en ligne fiable) le hadith Boukhari 3431 sur la naissance de Jésus et note ce qu'il dit.",
-  "Prie pour un musulman que tu connais qui vit sous le poids des règles religieuses."
+  "Fais la liste des six livres de hadiths, avec le nom de leur auteur et sa date de mort.",
+  "Choisis un hadith célèbre et recopie-le avec son isnad et son matn.",
+  "Prie pour un ami musulman qui étudie les sources de sa religion."
  ],
  "prieres_liees": [],
  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
