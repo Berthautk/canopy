@@ -4,331 +4,295 @@
  "serie": "L'islam de A à Z",
  "theme": "Islam",
  "auteur": "Yeshaya",
- "resume": "Le Coran parle de Jésus plus souvent que de Mahomet lui-même. Il l'appelle le Messie, la Parole d'Allah, un Esprit venant de lui. Il dit qu'il est né d'une vierge, qu'il est pur, qu'il a ressuscité des morts, qu'il est vivant au ciel et qu'il reviendra. Mais il nie sa divinité et sa croix. D'où viennent certains récits du Coran sur Jésus ? Et comment utiliser ces versets comme un pont, avec respect, pour conduire notre ami musulman vers l'Évangile ?",
+ "resume": "Que dit le Coran de Jésus, qu'il appelle Issa ? Pourquoi le nomme-t-il le Messie, la Parole d'Allah et un Esprit venant de lui ? Que raconte-t-il de Marie, de sa famille, de la naissance sous le palmier, du bébé qui parle, des oiseaux d'argile, de la table descendue du ciel ? D'où viennent certains de ces récits ? Qu'est-ce qu'il nie, entre la divinité, la filiation et la croix ? Que veut dire le mot « mutawaffika » ? Qu'est-ce que le retour de Jésus ? Et comment utiliser ces versets comme un pont, sans tromper personne ?",
  "image": "/assets/jesus/jesus-portrait-serein.webp",
  "verset_de_base": "Jn 1:1",
- "lecture_minutes": 29,
+ "lecture_minutes": 30,
  "objectifs": [
-  "Connaître les titres que le Coran donne à Jésus et leur portée.",
-  "Connaître ce que le Coran dit de Marie, de la naissance et des miracles de Jésus.",
+  "Connaître ce que le Coran dit de Jésus, de Marie et de leur famille.",
   "Savoir d'où viennent certains récits coraniques sur l'enfance de Jésus.",
-  "Comprendre ce que le Coran nie : la divinité, la filiation, la croix.",
-  "Connaître la croyance musulmane au retour de Jésus.",
-  "Savoir utiliser ces versets comme un pont, sans tromper ni brusquer."
+  "Connaître ce que le Coran nie et ce que les musulmans en tirent.",
+  "Connaître ce que les hadiths disent du retour de Jésus.",
+  "Savoir utiliser ces versets comme un pont, avec honnêteté."
  ],
- "introduction": "Beaucoup de chrétiens sont surpris d'apprendre que le Coran parle de Jésus. Il le mentionne par son nom, « Issa », environ vingt-cinq fois, alors que le nom de Mahomet n'y apparaît que quatre fois. Marie, la mère de Jésus, est la seule femme appelée par son nom dans tout le Coran, et une sourate entière, la dix-neuvième, porte son nom : « Maryam ».\n\nTon voisin musulman respecte donc Jésus. Il ne supporte pas qu'on se moque de lui. Il croit qu'il est né d'une vierge, qu'il a fait des miracles, et qu'il reviendra. Mais le Jésus qu'il connaît n'est pas tout à fait le Jésus de l'Évangile. En d'autres termes, il porte le même nom, mais il lui manque l'essentiel : sa divinité, sa mort pour nos péchés, et sa résurrection.\n\nDans cet enseignement, nous allons regarder de près ce que le Coran dit de Jésus, ce qu'il nie, et comment ces versets peuvent devenir un pont pour annoncer l'Évangile. Un pont n'est pas une maison : on ne s'arrête pas dessus, on le traverse.",
+ "introduction": "Beaucoup de chrétiens sont surpris quand ils apprennent que le Coran parle de Jésus. Il le nomme par son nom arabe, « Issa », environ vingt-cinq fois. Le nom de Mahomet, lui, n'apparaît que quatre fois. Marie, la mère de Jésus, est la seule femme appelée par son nom dans tout le Coran, et une sourate entière, la dix-neuvième, porte son nom. Ton voisin musulman respecte donc Jésus. Il ne supporte pas qu'on se moque de lui. Il croit qu'il est né d'une vierge, qu'il a fait des miracles, et qu'il reviendra.\n\nMais voici le point important. Le Jésus du Coran n'est pas tout à fait le Jésus de l'Évangile. Il porte le même nom, mais il lui manque l'essentiel : sa divinité, sa mort pour nos péchés, et sa résurrection. Dans cet enseignement, nous allons lire de près ce que le Coran dit, verset par verset. Nous dirons aussi d'où viennent certains récits. Ensuite nous verrons ce que le Coran nie, et comment ces versets peuvent servir de pont. Un pont, ce n'est pas une maison : on ne s'arrête pas dessus, on le traverse.",
  "sections": [
   {
    "numero": "1",
-   "titre": "Les titres de Jésus dans le Coran",
-   "references": [
-    "Jn 1:1",
-    "Mt 1:23"
-   ],
+   "titre": "Les titres que le Coran donne à Jésus",
+   "references": [],
    "blocs": [
     {
      "sous_titre": "Le Messie"
     },
     {
-     "texte": "Le Coran appelle Jésus « al-Masih », le Messie, onze fois. C'est un titre qu'il ne donne à personne d'autre, ni à Abraham, ni à Moïse, ni à Mahomet. Pourtant, le Coran n'explique jamais ce que veut dire ce mot. Pour lui, c'est presque un nom propre. Dans la Bible, le Messie, le Christ, est l'oint, le roi promis, le Sauveur annoncé par les prophètes. Demander à ton ami : « Que veut dire le mot Messie ? Pourquoi seul Jésus porte-t-il ce titre ? » ouvre souvent une belle conversation."
+     "texte": "Le Coran appelle Jésus « al-Masih », le Messie, onze fois. C'est un titre qu'il ne donne à personne d'autre : ni à Abraham, ni à Moïse, ni à Mahomet. Pourtant, il n'explique jamais ce que veut dire ce mot. Pour lui, c'est presque un nom propre. Dans la Bible, le Messie, le Christ, c'est l'oint, le roi promis, le Sauveur annoncé par les prophètes. Les commentateurs musulmans ont donné plusieurs explications du mot, sans accord entre eux : celui qui a été oint de bénédiction, celui qui voyage beaucoup, celui qui guérissait en touchant. C'est un mot dont le sens s'est perdu dans l'islam."
     },
     {
-     "sous_titre": "La Parole d'Allah"
+     "sous_titre": "La Parole d'Allah et un esprit venant de lui"
     },
     {
-     "texte": "Le Coran dit : ô Marie, Allah t'annonce une parole de sa part : son nom sera le Messie, Jésus, fils de Marie, illustre ici-bas comme dans l'au-delà, et l'un des rapprochés d'Allah (sourate 3, verset 45). Et encore : le Messie, Jésus, fils de Marie, n'est qu'un messager d'Allah, sa parole qu'il envoya à Marie, et un esprit venant de lui (sourate 4, verset 171). « Kalimatullah », la Parole d'Allah, et « ruhun minhu », un esprit venant de lui."
+     "texte": "Le Coran dit : ô Marie, Allah t'annonce une parole de sa part : son nom sera le Messie, Jésus, fils de Marie, illustre ici-bas comme dans l'au-delà, et l'un des rapprochés d'Allah (sourate 3, verset 45). Et encore : le Messie, Jésus, fils de Marie, n'est qu'un messager d'Allah, sa parole qu'il envoya à Marie, et un esprit venant de lui (sourate 4, verset 171). Les mots arabes sont « kalimatou-llah », la Parole d'Allah, et « rouhoun minhou », un esprit venant de lui."
     },
     {
-     "texte": "Les commentateurs musulmans expliquent que Jésus est appelé « Parole » parce qu'il a été créé par la parole « Sois ! », comme Adam (sourate 3, verset 59). Mais la question demeure : quel autre prophète est appelé Parole d'Allah et Esprit venant de lui ? L'Évangile de Jean, écrit plus de cinq cents ans avant le Coran, dit : au commencement était la Parole, et la Parole était avec Dieu, et la Parole était Dieu (Jean 1:1). En d'autres termes, la Parole de Dieu n'est pas une créature à côté de Dieu : elle est en Dieu, depuis toujours. Les théologiens musulmans eux-mêmes ont longtemps débattu pour savoir si le Coran, parole d'Allah, était créé ou incréé, et la majorité a conclu qu'il était incréé, éternel. Si la parole d'Allah est éternelle, que dire de celui que le Coran appelle « sa Parole » ?"
+     "texte": "Les commentateurs musulmans expliquent que Jésus est appelé « Parole » parce qu'il a été créé par la parole « Sois ! » (sourate 3, verset 59). Mais le titre est unique. Aucun autre prophète n'est appelé Parole d'Allah, ni esprit venant de lui. Jean, dans son Évangile, écrit : au commencement était la Parole, et la Parole était avec Dieu, et la Parole était Dieu (Jean 1:1). Autrement dit, pour la Bible, la Parole de Dieu n'est pas une créature à côté de Dieu : elle est en Dieu, depuis toujours."
     },
     {
-     "verset": "Jn 1:1"
+     "texte": "Un détail aide à comprendre. Les théologiens musulmans ont débattu pendant des siècles pour savoir si le Coran, la parole d'Allah, a été créé ou non. La grande majorité a conclu qu'il est incréé, éternel. Alors la question est simple : si la parole d'Allah est éternelle, que dire de celui que le Coran appelle « sa Parole » ?"
     },
     {
-     "sous_titre": "Un signe et une miséricorde"
+     "sous_titre": "D'autres titres"
     },
     {
-     "texte": "Le Coran dit encore qu'Allah a fait de Jésus et de sa mère « un signe pour les mondes » (sourate 21, verset 91), et de Jésus « une miséricorde de notre part » (sourate 19, verset 21). Il le dit « béni où qu'il soit » (sourate 19, verset 31). La Bible annonce qu'il serait appelé Emmanuel, ce qui signifie Dieu avec nous (Matthieu 1:23)."
-    },
-    {
-     "verset": "Mt 1:23"
+     "texte": "Le Coran dit aussi que Jésus est « un signe pour les mondes » avec sa mère (sourate 21, verset 91), « une miséricorde de notre part » (sourate 19, verset 21), « béni où qu'il soit » (sourate 19, verset 31), « un des plus proches d'Allah » (sourate 3, verset 45), « honoré dans ce monde et dans l'autre » (même verset). Il l'appelle « abd », serviteur d'Allah (sourate 19, verset 30), et « rasoul », messager (sourate 4, verset 171). Il est un des cinq plus grands messagers, avec Noé, Abraham, Moïse et Mahomet."
     }
    ]
   },
   {
    "numero": "2",
-   "titre": "Marie et la naissance de Jésus",
-   "references": [
-    "Lc 1:26-28"
-   ],
+   "titre": "Marie et sa famille",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Choisie au-dessus des femmes"
+     "sous_titre": "La famille d'Imran"
     },
     {
-     "texte": "Le Coran honore beaucoup Marie : ô Marie, Allah t'a élue et purifiée ; il t'a élue au-dessus des femmes des mondes (sourate 3, verset 42). Il raconte qu'elle a été consacrée au temple dès sa naissance et nourrie miraculeusement par Allah (sourate 3, versets 35 à 37)."
+     "texte": "Le Coran commence l'histoire de Jésus bien avant sa naissance, dans la troisième sourate, qui s'appelle « la famille d'Imran ». La femme d'Imran, enceinte, fait un vœu : Seigneur, je t'ai consacré ce qui est dans mon ventre, en toute liberté. Quand elle accouche d'une fille, elle dit : Seigneur, j'ai accouché d'une fille — Allah savait mieux ce qu'elle avait mis au monde —, et le garçon n'est pas comme la fille. Je l'ai appelée Marie (sourate 3, versets 35 et 36). Allah agrée la petite fille. Zacharie, le père de Jean-Baptiste, en devient le tuteur. À chaque fois qu'il entre dans la chambre où elle prie, il trouve de la nourriture près d'elle. Il dit : ô Marie, d'où te vient cela ? Elle répond : cela vient d'Allah (sourate 3, verset 37)."
     },
     {
-     "sous_titre": "L'annonce de l'ange"
+     "texte": "Remarque une chose. Dans le Coran, le père de Marie est Imran (sourate 3, verset 33 ; sourate 66, verset 12). Or, dans la Bible, Amram, ou Imran en arabe, est le père de Moïse, d'Aaron et de Myriam, qui vivaient plus de mille ans avant Marie, la mère de Jésus. En arabe, Myriam et Marie se disent de la même manière : Maryam. Le Coran semble avoir mélangé les deux familles."
     },
     {
-     "texte": "Le Coran raconte aussi l'annonciation, d'une manière proche de l'Évangile de Luc : l'ange vient vers Marie, elle s'étonne : comment aurais-je un fils, alors qu'aucun homme ne m'a touchée ? L'ange répond : c'est ainsi ; Allah crée ce qu'il veut (sourate 3, verset 47 ; sourate 19, versets 16 à 21). Le musulman croit donc fermement à la naissance virginale de Jésus. C'est un point commun précieux."
+     "sous_titre": "« Sœur d'Aaron »"
     },
     {
-     "sous_titre": "Sous un palmier"
+     "texte": "Voici une autre difficulté. Quand Marie revient chez elle avec le bébé, les gens lui disent : ô sœur d'Aaron, ton père n'était pas un homme mauvais, et ta mère n'était pas une prostituée (sourate 19, verset 28). Marie, mère de Jésus, était-elle la sœur d'Aaron ? Aaron vivait des siècles plus tôt."
     },
     {
-     "texte": "Mais le Coran raconte la naissance d'une manière différente : Marie, seule, saisie par les douleurs, s'appuie sur le tronc d'un palmier. Une voix lui dit de secouer le palmier, des dattes fraîches tombent, et un ruisseau coule à ses pieds (sourate 19, versets 22 à 26). Cette histoire ne vient pas de la Bible. Elle ressemble beaucoup à un récit d'un livre apocryphe, c'est-à-dire non reconnu par l'Église, appelé l'Évangile du pseudo-Matthieu, où un palmier se penche pour nourrir Marie et où une source jaillit, pendant la fuite en Égypte."
-    },
-    {
-     "sous_titre": "« Ô sœur d'Aaron »"
-    },
-    {
-     "texte": "Quand Marie revient vers son peuple avec l'enfant, les gens lui disent : ô sœur d'Aaron, ton père n'était pas un homme mauvais, et ta mère n'était pas une prostituée (sourate 19, verset 28). Or Aaron était le frère de Moïse et de Myriam, qui vivaient plus de mille ans avant Marie, mère de Jésus. En arabe, Marie et Myriam se disent de la même manière : Maryam. Le Coran appelle aussi le père de Marie « Imran » (sourate 66, verset 12), qui est le nom du père de Moïse, Aaron et Myriam, appelé Amram dans la Bible. Des commentateurs musulmans répondent que « sœur d'Aaron » veut dire « descendante d'Aaron », ou qu'il y avait un autre Aaron. Un hadith rapporte que des chrétiens de Najran avaient déjà posé cette question, et que Mahomet aurait répondu qu'on donnait aux gens le nom des prophètes et des saints d'autrefois (Mouslim, hadith 2135). Le chrétien peut poser la question honnêtement, sans moquerie."
+     "texte": "Les musulmans répondent de plusieurs manières. Certains disent que « sœur d'Aaron » veut dire « descendante d'Aaron ». D'autres disent qu'il y avait un autre Aaron, un homme pieux de son époque. Un hadith rapporte que Mouguira ibn Chouba, envoyé à Najran, s'est vu poser cette question par des chrétiens, et qu'il a demandé à Mahomet, qui a répondu : « Ils donnaient à leurs enfants les noms des prophètes et des justes qui les avaient précédés » (Mouslim, hadith 2135). La question reste posée honnêtement : est-ce une erreur ou une façon de parler ? Les chrétiens la posent depuis des siècles."
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "Les miracles de Jésus",
-   "references": [
-    "Mc 2:5-7",
-    "Jn 5:21"
-   ],
+   "titre": "L'annonce et la naissance",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Ce que le Coran rapporte"
+     "sous_titre": "L'ange vient vers Marie"
     },
     {
-     "texte": "Le Coran fait dire à Jésus : je vais créer pour vous, d'argile, comme la forme d'un oiseau, puis je souffle dedans, et il devient oiseau, par la permission d'Allah. Je guéris l'aveugle-né et le lépreux, et je ressuscite les morts, par la permission d'Allah (sourate 3, verset 49). Il raconte aussi que Jésus a parlé dans son berceau, juste après sa naissance, pour défendre sa mère : je suis le serviteur d'Allah. Il m'a donné le Livre et m'a désigné prophète… Et que la paix soit sur moi le jour où je naquis, le jour où je mourrai, et le jour où je serai ressuscité vivant (sourate 19, versets 30 à 33)."
+     "texte": "Le Coran raconte l'annonciation, d'une manière proche de l'Évangile de Luc. Marie s'est retirée dans un lieu à l'est. Allah lui envoie « notre esprit », que les musulmans comprennent comme l'ange Gabriel, qui prend la forme d'un homme parfait. Elle dit : je cherche refuge auprès du Tout Miséricordieux contre toi, si tu crains Allah. L'ange répond : je suis seulement le messager de ton Seigneur, pour te faire don d'un fils pur. Elle dit : comment aurais-je un fils, alors qu'aucun homme ne m'a touchée, et que je ne suis pas une débauchée ? Il dit : c'est ainsi. Ton Seigneur dit : cela est facile pour moi (sourate 19, versets 16 à 21 ; sourate 3, versets 45 à 47)."
     },
     {
-     "sous_titre": "D'où viennent ces récits ?"
+     "texte": "Le musulman croit donc fermement à la naissance virginale de Jésus. C'est un vrai point commun. Il n'est pas permis, chez lui, de douter de la virginité de Marie, et celui qui l'insulte est puni."
     },
     {
-     "texte": "Les oiseaux d'argile ne se trouvent pas dans les quatre Évangiles. On les trouve dans un écrit apocryphe du IIe siècle, appelé l'Évangile de l'enfance selon Thomas, où l'enfant Jésus façonne des moineaux en argile un jour de sabbat, frappe des mains, et les oiseaux s'envolent. L'enfant qui parle au berceau se trouve dans un autre apocryphe, l'Évangile arabe de l'enfance. Ces livres, légendaires, circulaient parmi certains chrétiens d'Orient au temps de Mahomet. En d'autres termes, le Coran a puisé une partie de ce qu'il dit de Jésus dans des récits populaires de son époque, et non dans les témoins oculaires."
+     "sous_titre": "Sous le palmier"
     },
     {
-     "sous_titre": "Un seul créateur de vie"
+     "texte": "Mais le récit de la naissance est très différent de celui de l'Évangile. Dans l'Évangile, Marie et Joseph vont à Bethléem pour le recensement, et Jésus naît dans une étable. Dans le Coran, Marie est seule. Elle est prise par les douleurs de l'enfantement près du tronc d'un palmier. Elle dit : ô, si seulement j'étais morte avant cela, et que je fusse totalement oubliée ! Une voix lui parle de dessous elle : ne t'attriste pas, ton Seigneur a placé un ruisseau à tes pieds. Secoue vers toi le tronc du palmier, il fera tomber sur toi des dattes fraîches et mûres. Mange, bois, et réjouis-toi (sourate 19, versets 22 à 26)."
     },
     {
-     "texte": "Remarque cependant une chose étonnante : le Coran attribue à Jésus des actes que la Bible réserve à Dieu, comme souffler la vie dans une créature, ou ressusciter les morts. Le Coran ajoute « par la permission d'Allah ». Mais Jésus, dans l'Évangile, ne dit pas « par la permission » : il dit : comme le Père ressuscite les morts et donne la vie, ainsi le Fils donne la vie à qui il veut (Jean 5:21)."
+     "texte": "Cette histoire ne vient pas de la Bible. Elle ressemble à un récit d'un livre appelé « l'Évangile du pseudo-Matthieu », écrit plusieurs siècles après Jésus, que l'Église n'a jamais reconnu comme Écriture. Dans ce livre, pendant la fuite vers l'Égypte, un palmier se penche pour nourrir la famille, et une source jaillit à ses racines. Ce livre circulait chez des chrétiens d'Orient au temps de Mahomet."
     },
     {
-     "verset": "Jn 5:21"
+     "sous_titre": "Le bébé qui parle"
     },
     {
-     "sous_titre": "Pardonner les péchés"
+     "texte": "Marie revient chez les siens avec l'enfant. Ils sont scandalisés. Elle leur fait signe de parler à l'enfant. Ils disent : comment parlerions-nous à un bébé au berceau ? L'enfant dit : je suis le serviteur d'Allah. Il m'a donné le Livre et m'a fait prophète. Il m'a rendu béni où que je sois, et il m'a recommandé la prière et l'aumône tant que je vivrai. Il m'a fait bon envers ma mère, et ne m'a pas rendu violent ni malheureux. Que la paix soit sur moi le jour où je naquis, le jour où je mourrai, et le jour où je serai ressuscité vivant (sourate 19, versets 29 à 33)."
     },
     {
-     "texte": "Il y a un miracle que le Coran ne mentionne jamais : Jésus qui pardonne les péchés. Dans l'Évangile, quand on lui amène un paralysé, Jésus lui dit d'abord : mon enfant, tes péchés sont pardonnés. Les scribes pensent : comment cet homme parle-t-il ainsi ? Il blasphème. Qui peut pardonner les péchés, si ce n'est Dieu seul ? (Marc 2:5-7). Puis Jésus guérit le paralysé pour prouver qu'il a ce pouvoir. Voilà le vrai miracle dont ton ami a besoin : pas un oiseau d'argile, mais le pardon de ses péchés."
-    },
-    {
-     "verset": "Mc 2:5-7"
+     "texte": "Un enfant qui parle au berceau pour défendre sa mère se trouve dans un autre livre apocryphe, appelé « l'Évangile arabe de l'enfance ». Il ne se trouve pas dans les quatre Évangiles."
     }
    ]
   },
   {
    "numero": "4",
-   "titre": "Jésus, le seul sans péché",
-   "references": [
-    "Jn 8:46",
-    "1 Jn 3:5"
-   ],
+   "titre": "Jésus, sa mission et ses miracles",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Un fils pur"
+     "sous_titre": "Ce que Jésus prêche dans le Coran"
     },
     {
-     "texte": "Quand l'ange annonce la naissance à Marie, le Coran lui fait dire : je suis le messager de ton Seigneur, pour te faire don d'un fils pur (sourate 19, verset 19). Le mot arabe, « zakiyya », veut dire pur, sans tache. Le Coran ne raconte aucun péché de Jésus, et ne lui fait jamais demander pardon."
+     "texte": "Voici le message de Jésus, selon le Coran. Il vient confirmer la Torah, et rendre permises certaines choses qui étaient interdites (sourate 3, verset 50). Il dit : Allah est mon Seigneur et votre Seigneur, adorez-le, voilà le droit chemin (sourate 3, verset 51). Il annonce à l'avance un messager qui viendra après lui (sourate 61, verset 6), et nous y reviendrons. En d'autres termes, selon le Coran, Jésus est un prophète comme les autres, qui répète le même message : il n'y a qu'un seul Dieu, adorez-le. Il ne dit jamais « je suis le chemin, la vérité et la vie »."
     },
     {
-     "sous_titre": "Le toucher de Satan"
+     "sous_titre": "Les miracles"
     },
     {
-     "texte": "Boukhari rapporte que Mahomet a dit : « Il n'est pas un enfant d'Adam qui naisse sans que Satan le touche au moment de sa naissance, et il crie à cause de ce toucher de Satan, sauf Marie et son fils » (Boukhari, hadith 3431). En d'autres termes, selon un des recueils les plus sûrs de l'islam, seul Jésus et sa mère ont été préservés du toucher de Satan."
+     "texte": "Le Coran fait dire à Jésus : je viens à vous avec un signe de votre Seigneur. Je vais créer pour vous, avec de l'argile, la forme d'un oiseau, puis je souffle en elle et elle devient un oiseau, avec la permission d'Allah. Je guéris l'aveugle de naissance et le lépreux, et je ressuscite les morts, avec la permission d'Allah. Je vous informe de ce que vous mangez et de ce que vous conservez dans vos maisons (sourate 3, verset 49)."
     },
     {
-     "sous_titre": "Et les autres prophètes ?"
+     "texte": "D'où viennent ces miracles ? L'oiseau d'argile ne se trouve pas dans les quatre Évangiles. On le trouve dans un livre du deuxième siècle, « l'Évangile de l'enfance selon Thomas », où l'enfant Jésus modèle douze moineaux en argile un jour de sabbat, tape des mains, et les oiseaux s'envolent. Les guérisons et les résurrections, elles, sont bien dans les Évangiles."
     },
     {
-     "texte": "Or le Coran parle des fautes des autres prophètes. Adam désobéit et demande pardon (sourate 7, verset 23). Moïse tue un homme et dit : Seigneur, je me suis fait du tort à moi-même, pardonne-moi (sourate 28, verset 16). Le Coran dit même à Mahomet : demande pardon pour ton péché (sourate 47, verset 19), et : afin qu'Allah te pardonne tes péchés, passés et futurs (sourate 48, verset 2). Boukhari rapporte qu'il disait : « Par Allah, je demande pardon à Allah et je me repens à lui plus de soixante-dix fois par jour » (Boukhari, hadith 6307)."
+     "texte": "Retiens bien une chose. Le Coran attribue à Jésus des actes que la Bible réserve à Dieu : souffler la vie, ressusciter les morts. Il ajoute « avec la permission d'Allah ». Mais Jésus, dans l'Évangile, ne dit pas « avec la permission ». Il dit : comme le Père ressuscite les morts et donne la vie, ainsi le Fils donne la vie à qui il veut (Jean 5:21)."
     },
     {
-     "sous_titre": "La question qui touche"
+     "sous_titre": "Les disciples"
     },
     {
-     "texte": "Voilà une question simple et respectueuse que tu peux poser : « Selon le Coran et les hadiths, lequel de tous les prophètes est sans péché ? » Ton ami sera peut-être obligé de répondre : Jésus. Alors tu peux ajouter : « Seul celui qui n'a pas de dette peut payer la dette des autres. » Jésus a dit lui-même à ses adversaires : qui de vous me convaincra de péché ? (Jean 8:46). Et Jean écrit : vous le savez, Jésus a paru pour ôter les péchés, et il n'y a point en lui de péché (1 Jean 3:5)."
+     "texte": "Le Coran parle des disciples de Jésus, qu'il appelle les « hawariyyoun ». Quand Jésus sent leur incrédulité, il dit : qui sont mes aides vers Allah ? Les disciples répondent : nous sommes les aides d'Allah. Nous croyons en Allah, et sois témoin que nous sommes soumis (sourate 3, verset 52). Le Coran présente donc les disciples de Jésus comme des musulmans, avant l'heure. Il ne dit jamais leurs noms. Il ne dit pas combien ils étaient."
     },
     {
-     "verset": "Jn 8:46"
+     "sous_titre": "La table descendue du ciel"
     },
     {
-     "verset": "1 Jn 3:5"
+     "texte": "Le Coran a même une sourate qui porte le nom d'un miracle de Jésus : la sourate 5, « la Table ». Les disciples demandent : ô Jésus, ton Seigneur peut-il faire descendre sur nous une table du ciel ? Il répond : craignez Allah. Ils disent : nous voulons en manger, que nos cœurs se rassurent. Jésus prie : ô Allah, notre Seigneur, fais descendre sur nous une table du ciel, qui sera une fête pour nous. Allah dit : je la ferai descendre sur vous, mais celui d'entre vous qui sera incrédule après cela, je le châtierai d'un châtiment tel que je n'en ai infligé à personne d'autre (sourate 5, versets 112 à 115). Ce récit ressemble à la multiplication des pains, ou à la cène. Mais dans le Coran, il n'est plus un repas de communion."
+    },
+    {
+     "sous_titre": "Une scène troublante : « Est-ce toi qui as dit aux gens de m'adorer ? »"
+    },
+    {
+     "texte": "À la fin de la sourate 5, le Coran décrit une scène du jour du jugement. Allah dit : ô Jésus, fils de Marie, est-ce toi qui as dit aux gens : « Prenez-moi, ainsi que ma mère, pour deux divinités en dehors d'Allah » ? Jésus répond : gloire à toi, il ne m'appartient pas de dire ce que je n'ai pas le droit de dire. Si je l'avais dit, tu l'aurais su (sourate 5, versets 116 et 117). Cela montre ce que le Coran croit que les chrétiens adorent : Dieu, Jésus et Marie. C'est une erreur historique. Aucune Église chrétienne n'a jamais enseigné cela. Nous y reviendrons dans l'enseignement sur la Trinité."
     }
    ]
   },
   {
    "numero": "5",
-   "titre": "Ce que le Coran nie",
-   "references": [
-    "Jn 10:17-18",
-    "Mt 26:63-64"
-   ],
+   "titre": "Jésus, le seul sans péché",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Il nie sa divinité"
+     "sous_titre": "Un fils pur"
     },
     {
-     "texte": "Le Coran déclare : ils sont mécréants, ceux qui disent qu'Allah c'est le Messie, fils de Marie (sourate 5, verset 72). Et encore : le Messie, fils de Marie, n'était qu'un messager ; des messagers sont passés avant lui. Sa mère était une véridique, et tous deux consommaient de la nourriture (sourate 5, verset 75). L'argument est : celui qui mange ne peut pas être Dieu. Le chrétien répond que c'est justement l'Évangile : Dieu s'est fait homme, vraiment homme, il a eu faim, il a mangé, il a pleuré, sans cesser d'être Dieu."
+     "texte": "L'ange dit à Marie : je suis le messager de ton Seigneur pour te donner un fils pur (sourate 19, verset 19). Le mot arabe, « zakiyyan », veut dire pur, sans tache. Le Coran ne raconte jamais un péché de Jésus. Il ne le fait jamais demander pardon."
     },
     {
-     "sous_titre": "Il nie la filiation"
+     "sous_titre": "Le toucher de Satan"
     },
     {
-     "texte": "La sourate 112, très courte, que les musulmans récitent souvent, dit : dis : il est Allah, unique. Allah, le seul à être imploré. Il n'a jamais engendré, il n'a pas été engendré, et nul n'est égal à lui. Et la sourate 19 : il ne convient pas à Allah de s'attribuer un fils (verset 35). Pour le musulman, dire que Jésus est « Fils de Dieu », c'est dire qu'Allah aurait eu une relation avec une femme. Nous verrons dans le prochain enseignement que ce n'est pas du tout ce que veut dire la Bible."
+     "texte": "Boukhari rapporte que Mahomet a dit : « Il n'est pas un enfant d'Adam que Satan ne touche au moment de sa naissance, et il crie à cause de ce toucher de Satan, sauf Marie et son fils » (Boukhari, hadith 3431). Autrement dit, selon un des recueils les plus sûrs de l'islam, seuls Jésus et sa mère ont été protégés du toucher de Satan."
     },
     {
-     "sous_titre": "Il nie la croix"
+     "sous_titre": "Qu'en est-il des autres prophètes ?"
     },
     {
-     "texte": "Enfin, le Coran dit au sujet des Juifs : … et à cause de leur parole : nous avons vraiment tué le Messie, Jésus, fils de Marie, le messager d'Allah. Or, ils ne l'ont ni tué ni crucifié, mais ce n'était qu'un faux-semblant. … Ils ne l'ont certainement pas tué, mais Allah l'a élevé vers lui (sourate 4, versets 157 et 158). Les commentateurs musulmans ont proposé plusieurs explications : Allah aurait donné le visage de Jésus à quelqu'un d'autre, peut-être Judas, ou un disciple volontaire, ou Simon de Cyrène, qui aurait été crucifié à sa place. Le Coran lui-même ne précise pas."
+     "texte": "Or le Coran parle des fautes des autres prophètes. Adam a désobéi et demande pardon (sourate 7, verset 23). Moïse tue un homme et dit : Seigneur, je me suis fait du tort, pardonne-moi (sourate 28, verset 16). Le Coran dit à Mahomet : demande pardon pour ton péché (sourate 47, verset 19), et : afin qu'Allah te pardonne tes péchés passés et futurs (sourate 48, verset 2). Mahomet disait lui-même : « Par Allah, je demande pardon à Allah et je me repens à lui plus de soixante-dix fois par jour » (Boukhari, hadith 6307)."
     },
     {
-     "sous_titre": "Un mot qui dérange"
-    },
-    {
-     "texte": "Il y a un autre verset intéressant. Dans la sourate 3, verset 55, Allah dit : ô Jésus, je vais te « mutawaffika » et t'élever vers moi. Ce mot arabe, « mutawaffika », vient du verbe « tawaffa », qui, ailleurs dans le Coran, désigne presque toujours le fait de reprendre l'âme à la mort, par exemple : Allah reçoit les âmes au moment de leur mort (sourate 39, verset 42). Beaucoup de traducteurs musulmans traduisent pourtant ici par « je vais te rappeler » ou « mettre fin à ta vie terrestre », pour éviter de dire que Jésus est mort. Des commentateurs anciens, comme Ibn Abbas, cité par Boukhari, auraient expliqué ce mot par « je vais te faire mourir ». En d'autres termes, même à l'intérieur de l'islam, la question de la mort de Jésus n'est pas aussi simple qu'on le dit. Tu peux la poser à ton ami, avec douceur : « Que veut dire ce mot dans les autres versets du Coran ? »"
-    },
-    {
-     "sous_titre": "Une question à poser"
-    },
-    {
-     "texte": "Nous avons vu dans un autre enseignement les témoins historiques de la croix. Ajoutons une question. Si Allah a donné le visage de Jésus à un autre, alors Allah a trompé les disciples, Marie au pied de la croix, et des millions de chrétiens pendant six siècles. Est-ce digne de Dieu ? De plus, le Coran fait dire à Jésus au berceau : la paix soit sur moi le jour où je mourrai, et le jour où je serai ressuscité vivant (sourate 19, verset 33). Il parle donc de sa mort et de sa résurrection."
-    },
-    {
-     "sous_titre": "La croix voulue par Jésus"
-    },
-    {
-     "texte": "La Bible montre que la croix n'était pas un accident ni un échec que Dieu aurait dû empêcher. Jésus a dit : je donne ma vie, pour la reprendre. Personne ne me l'ôte, mais je la donne de moi-même ; j'ai le pouvoir de la donner, et j'ai le pouvoir de la reprendre (Jean 10:17-18). L'islam pense qu'Allah a sauvé l'honneur de son prophète en lui évitant la croix. L'Évangile dit que Dieu a sauvé le monde par la croix."
-    },
-    {
-     "verset": "Jn 10:17-18"
+     "texte": "Voilà un fait que ton ami musulman doit reconnaître. Parmi tous les prophètes, d'après les textes de l'islam eux-mêmes, un seul est sans péché : Jésus. Il a lui-même demandé à ses adversaires : qui de vous me convaincra de péché ? (Jean 8:46). Et Jean écrit : vous savez que Jésus a paru pour ôter les péchés, et il n'y a point en lui de péché (1 Jean 3:5)."
     }
    ]
   },
   {
    "numero": "6",
-   "titre": "Jésus élevé et son retour",
-   "references": [
-    "Ac 1:11",
-    "1 Th 4:16-17"
-   ],
+   "titre": "Ce que le Coran nie",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Vivant au ciel"
+     "sous_titre": "Il nie sa divinité"
     },
     {
-     "texte": "Pour la plupart des musulmans, Jésus n'est pas mort : Allah l'a élevé vivant au ciel (sourate 4, verset 158). Il y est encore. Mahomet, lui, est mort et enterré à Médine. Nous l'avons vu dans l'enseignement sur sa mort."
+     "texte": "Le Coran dit : ils sont mécréants, ceux qui disent : « Allah, c'est le Messie, fils de Marie » (sourate 5, verset 72). Et encore : le Messie, fils de Marie, n'était qu'un messager ; des messagers sont passés avant lui. Sa mère était une véridique, et tous deux mangeaient de la nourriture (sourate 5, verset 75). L'argument est simple : celui qui mange n'est pas Dieu. Il dit aussi : ne dites pas « trois ». Cessez, ce sera meilleur pour vous. Allah n'est qu'un Dieu unique (sourate 4, verset 171). Et : ils sont mécréants, ceux qui disent qu'Allah est le troisième de trois (sourate 5, verset 73)."
     },
     {
-     "sous_titre": "Il reviendra"
+     "sous_titre": "Il nie la filiation"
     },
     {
-     "texte": "Les hadiths annoncent le retour de Jésus à la fin des temps. Boukhari rapporte : « Par celui qui tient mon âme dans sa main, le fils de Marie descendra bientôt parmi vous comme juge équitable. Il brisera la croix, tuera le porc, abolira l'impôt de capitation, et l'argent abondera au point que personne ne l'acceptera plus » (Boukhari, hadith 3448). Selon d'autres hadiths, il tuera l'Antéchrist, appelé « al-Dajjal », près d'une porte de la ville de Lod, en Palestine (Mouslim, hadith 2937), puis il vivra, se mariera, mourra et sera enterré à Médine."
+     "texte": "La sourate 112, que les musulmans récitent tout le temps, dit : dis : il est Allah, unique. Allah, le Seul à être imploré. Il n'a jamais engendré, il n'a pas été engendré, et nul n'est égal à lui. La sourate 19 dit : il ne convient pas à Allah de se donner un fils (verset 35). Pour le musulman, dire que Jésus est le Fils de Dieu, c'est dire qu'Allah a eu un enfant avec une femme, comme un homme. C'est pour lui un blasphème terrible. Nous verrons dans le prochain enseignement que ce n'est pas du tout ce que veut dire la Bible."
     },
     {
-     "sous_titre": "« Il brisera la croix »"
+     "sous_titre": "Il nie la croix"
     },
     {
-     "texte": "En d'autres termes, l'islam enseigne que Jésus reviendra pour détruire le christianisme et faire de tous des musulmans. C'est important de le savoir. Mais remarque aussi : dans l'islam, ce n'est pas Mahomet qui reviendra pour juger le monde, c'est Jésus. La Bible le dit aussi, mais autrement : ce Jésus, qui a été enlevé au ciel du milieu de vous, viendra de la même manière que vous l'avez vu allant au ciel (Actes 1:11). Et il viendra non pas pour briser la croix, mais avec les marques de la croix dans ses mains."
+     "texte": "Enfin, le Coran dit, à propos des juifs : ils ont dit : « Nous avons tué le Messie, Jésus, fils de Marie, le messager d'Allah. » Or ils ne l'ont ni tué ni crucifié, mais cela leur est apparu ainsi. Et ceux qui divergent à son sujet sont dans le doute. Ils n'en ont aucune connaissance, ils ne suivent que des conjectures. Ils ne l'ont certainement pas tué. Allah l'a élevé vers lui (sourate 4, versets 157 et 158)."
+    },
+    {
+     "texte": "Que s'est-il passé alors ? Le Coran ne le dit pas. Les commentateurs ont proposé plusieurs explications. Selon la plus répandue, Allah a donné le visage de Jésus à quelqu'un d'autre, qui a été crucifié à sa place. Certains disent que c'était Judas. D'autres disent que c'était un disciple volontaire. D'autres, Simon de Cyrène. D'autres, un des soldats. Le Coran lui-même ne précise rien. Voilà ce qu'on appelle la théorie de la substitution."
+    },
+    {
+     "sous_titre": "Que veut dire « mutawaffika » ?"
+    },
+    {
+     "texte": "Il y a un autre verset à regarder de près. Dans la sourate 3, verset 55, Allah dit à Jésus : ô Jésus, je vais te « mutawaffika » et t'élever vers moi. Le mot arabe « tawaffa » désigne, partout ailleurs dans le Coran, le fait de reprendre l'âme à la mort : Allah reçoit les âmes au moment de leur mort (sourate 39, verset 42). Beaucoup de traducteurs musulmans traduisent ici par « je vais te rappeler » ou « mettre fin à ta mission sur terre », pour éviter de dire que Jésus est mort. Mais Boukhari rapporte une explication d'Ibn Abbas, un compagnon de Mahomet, qui expliquait le mot par « je vais te faire mourir ». Et dans la sourate 5, verset 117, Jésus dit à Allah : depuis que tu m'as repris à toi, c'est toi qui les observais. Le même verbe. Même à l'intérieur de l'islam, la question de la mort de Jésus n'est donc pas aussi claire qu'on le dit. Le mouvement ahmadiyya, par exemple, enseigne que Jésus est mort de vieillesse au Cachemire."
+    },
+    {
+     "sous_titre": "Une question à poser"
+    },
+    {
+     "texte": "Voici une question importante. Si Allah a donné le visage de Jésus à un autre, alors Allah a trompé les disciples, Marie au pied de la croix, et des millions de chrétiens pendant plus de six siècles. Est-ce digne de Dieu ? Et nous l'avons vu : le Coran lui-même, au berceau, fait dire à Jésus : la paix sur moi le jour où je mourrai et le jour où je serai ressuscité vivant (sourate 19, verset 33). Il parle donc de sa mort et de sa résurrection."
+    },
+    {
+     "sous_titre": "La croix voulue par Jésus"
+    },
+    {
+     "texte": "La Bible montre que la croix n'était pas un accident. Jésus a dit : je donne ma vie, pour la reprendre. Personne ne me l'ôte, mais je la donne de moi-même ; j'ai le pouvoir de la donner, et j'ai le pouvoir de la reprendre (Jean 10:17-18). L'islam pense qu'Allah a sauvé l'honneur de son prophète en lui évitant la croix. L'Évangile dit que Dieu a sauvé le monde par la croix."
     }
    ]
   },
   {
    "numero": "7",
-   "titre": "« Ahmad », le Paraclet ?",
-   "references": [
-    "Jn 14:26",
-    "Jn 16:13-14"
-   ],
+   "titre": "L'élévation et le retour de Jésus",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "La prophétie revendiquée"
+     "sous_titre": "Vivant au ciel"
     },
     {
-     "texte": "Le Coran fait dire à Jésus : ô enfants d'Israël, je suis le messager d'Allah envoyé vers vous, confirmant ce qui, de la Torah, est antérieur à moi, et annonciateur d'un messager à venir après moi, dont le nom sera « Ahmad » (sourate 61, verset 6). « Ahmad » vient de la même racine que « Muhammad » et veut dire « le très loué ». Beaucoup de prédicateurs musulmans disent que Jésus a annoncé Mahomet dans l'Évangile de Jean, quand il parle du « Paraclet », le Consolateur. Ils disent que le mot grec « parakletos », consolateur, aurait été changé à partir de « periklutos », qui veut dire « très célèbre », proche du sens d'Ahmad."
+     "texte": "Pour la plupart des musulmans, Jésus n'est pas mort : Allah l'a élevé vivant au ciel (sourate 4, verset 158). Il y est encore. Mahomet, lui, est mort et enterré à Médine."
     },
     {
-     "sous_titre": "Ce que dit le texte"
+     "sous_titre": "Il reviendra"
     },
     {
-     "texte": "Il n'existe aucun manuscrit grec de l'Évangile de Jean qui porte « periklutos ». Tous les manuscrits portent « parakletos », y compris ceux écrits des siècles avant Mahomet. Et surtout, Jésus dit clairement qui est le Consolateur : le Consolateur, l'Esprit Saint, que le Père enverra en mon nom, vous enseignera toutes choses (Jean 14:26). Il dit que le Consolateur demeurera avec les disciples éternellement, qu'il sera en eux, et qu'il viendra peu de temps après le départ de Jésus, ce qui s'est accompli à la Pentecôte. Et il ajoute : il me glorifiera, parce qu'il prendra de ce qui est à moi, et vous l'annoncera (Jean 16:14). Le Saint-Esprit ne vient pas annoncer un autre prophète : il glorifie Jésus."
+     "texte": "Le Coran dit de Jésus qu'il est un signe de l'heure : il est un savoir de l'heure, n'en doutez pas (sourate 43, verset 61). Les hadiths expliquent. Boukhari rapporte : « Par celui qui tient mon âme dans sa main, le fils de Marie descendra bientôt parmi vous comme un juge équitable. Il brisera la croix, tuera le porc, abolira la jizya, et la richesse sera telle que personne n'en voudra plus » (Boukhari, hadiths 2222 et 3448). Selon d'autres hadiths, il tuera le Dajjal, le faux messie, à la porte de Lod, puis il vivra quarante ans, se mariera, aura des enfants, mourra et sera enterré à Médine (Mouslim, hadith 2937)."
+    },
+    {
+     "sous_titre": "Il brisera la croix"
+    },
+    {
+     "texte": "Autrement dit, l'islam enseigne que Jésus reviendra pour détruire le christianisme et faire de tous des musulmans. Il est important de le savoir. Mais remarque une autre chose : ce n'est pas Mahomet qui reviendra pour juger le monde. C'est Jésus."
     }
    ]
   },
   {
    "numero": "8",
-   "titre": "Le pont : utiliser les versets du Coran avec sagesse",
-   "references": [
-    "Ac 17:28",
-    "1 Co 9:20"
-   ],
+   "titre": "Un Évangile qui annonce Mahomet ?",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Partir de ce qu'il connaît"
+     "sous_titre": "La prophétie revendiquée"
     },
     {
-     "texte": "Paul, à Athènes, a cité les poètes grecs pour annoncer Jésus : en lui nous avons la vie, le mouvement et l'être. C'est ce qu'ont dit aussi quelques-uns de vos poètes (Actes 17:28)."
+     "texte": "Le Coran fait dire à Jésus : ô enfants d'Israël, je suis l'envoyé d'Allah vers vous, confirmant ce qui, de la Torah, est avant moi, et annonçant un messager qui viendra après moi, dont le nom sera « Ahmad » (sourate 61, verset 6). « Ahmad » vient de la même racine que « Mohammad », le très loué. Beaucoup de prédicateurs musulmans disent que Jésus a annoncé Mahomet dans l'Évangile de Jean, quand il parle du « Paraclet », le Consolateur. Ils disent que le mot grec « parakletos » aurait été changé à partir de « periklutos », qui veut dire très célèbre, proche du sens d'Ahmad."
     },
     {
-     "verset": "Ac 17:28"
+     "sous_titre": "Ce que dit le texte"
     },
     {
-     "texte": "Il ne disait pas que ces poètes étaient inspirés : il partait de ce que ses auditeurs connaissaient pour les conduire plus loin. De la même manière, beaucoup de chrétiens partent des versets du Coran sur Jésus pour ouvrir la conversation."
-    },
-    {
-     "sous_titre": "Une méthode simple, à partir de la sourate 3"
-    },
-    {
-     "texte": "Une méthode utilisée par des évangélistes parmi les musulmans part de la sourate 3, versets 42 à 55. On lit avec son ami musulman, dans son propre Coran, trois choses : Jésus est saint, puisque Marie, sa mère, est choisie et purifiée, et que lui-même est annoncé comme « parole » d'Allah ; Jésus a du pouvoir, puisqu'il donne la vie et ressuscite les morts ; Jésus connaît le chemin du ciel, puisqu'Allah l'a élevé vers lui. Puis on pose une question : « Si tu voulais aller au paradis, et que tu ne connaissais pas le chemin, qui suivrais-tu : un prophète qui est mort, ou celui qui est vivant auprès de Dieu et qui connaît le chemin ? »"
-    },
-    {
-     "sous_titre": "Les limites du pont"
-    },
-    {
-     "texte": "Il faut être honnête : le Jésus du Coran n'est pas le Jésus de la Bible. Le pont ne sert qu'à éveiller la curiosité. Le but est toujours de conduire ton ami à lire l'Évangile lui-même. Le Coran dit d'ailleurs aux musulmans : si tu es dans le doute au sujet de ce que nous t'avons fait descendre, interroge alors ceux qui lisent le Livre révélé avant toi (sourate 10, verset 94). Tu peux dire à ton ami : « Le Coran te demande d'interroger ceux qui lisent le Livre. Je lis l'Injil. Veux-tu que nous le lisions ensemble ? »"
-    },
-    {
-     "sous_titre": "Ne jamais tromper"
-    },
-    {
-     "texte": "Ne fais jamais croire que tu es musulman, ni que le Coran enseigne l'Évangile. Ne dis pas que Mahomet a annoncé Jésus comme Fils de Dieu. Le Saint-Esprit n'a pas besoin de mensonge. Reste toujours vrai : « Le Coran dit de belles choses sur Jésus, mais il ne dit pas tout. Pour connaître Jésus vraiment, il faut écouter ceux qui l'ont vu. »"
+     "texte": "Il n'existe aucun manuscrit grec de l'Évangile de Jean qui porte « periklutos ». Tous les manuscrits portent « parakletos », y compris ceux qui ont été écrits des siècles avant Mahomet. Et surtout, Jésus dit clairement qui est le Consolateur : l'Esprit Saint, que le Père enverra en mon nom, vous enseignera toutes choses (Jean 14:26). Il dit qu'il demeurera avec les disciples pour toujours, qu'il sera en eux, et qu'il viendrait peu de temps après son départ, ce qui s'est accompli à la Pentecôte. Et il ajoute : il me glorifiera, parce qu'il prendra de ce qui est à moi, et vous l'annoncera (Jean 16:14). Le Saint-Esprit ne vient pas annoncer un autre prophète. Il glorifie Jésus."
     }
    ]
   },
   {
    "numero": "9",
-   "titre": "Des questions qui ouvrent le cœur",
-   "references": [
-    "Mt 16:15",
-    "Lc 24:17"
-   ],
+   "titre": "Le pont : utiliser ces versets avec sagesse",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Jésus posait des questions"
+     "sous_titre": "Partir de ce qu'il connaît"
     },
     {
-     "texte": "Jésus ne faisait pas que des discours : il posait des questions. « Et vous, qui dites-vous que je suis ? » (Matthieu 16:15). Aux disciples d'Emmaüs, il demanda simplement : « De quoi vous entretenez-vous en marchant ? » (Luc 24:17). Une bonne question fait réfléchir sans humilier. Avec un ami musulman, elle vaut souvent mieux qu'un long argument. Voici quelques questions que tu peux poser, une à la fois, au fil des rencontres, jamais toutes en même temps."
+     "texte": "Paul, à Athènes, a cité les poètes grecs pour annoncer Jésus : en lui nous avons la vie, le mouvement et l'être. C'est ce qu'ont dit aussi quelques-uns de vos poètes (Actes 17:28). Il ne disait pas que ces poètes étaient inspirés. Il partait de ce que ses auditeurs connaissaient pour les conduire plus loin. De la même façon, beaucoup de chrétiens partent des versets du Coran sur Jésus pour ouvrir la conversation."
     },
     {
-     "sous_titre": "Six questions"
+     "sous_titre": "Une méthode simple, à partir de la sourate 3"
     },
     {
-     "texte": "Première question : « Le Coran appelle Jésus la Parole d'Allah. Peut-on séparer Allah de sa parole ? La parole d'Allah a-t-elle un commencement ? » Cette question conduit vers Jean 1:1."
+     "texte": "On lit avec son ami musulman, dans son propre Coran, trois choses. Jésus est saint, puisqu'il est un fils pur et appelé « Parole » d'Allah. Jésus a du pouvoir, puisqu'il donne la vie et ressuscite les morts. Jésus connaît le chemin du ciel, puisqu'Allah l'a élevé vers lui. Puis on pose une question : « Si tu voulais aller au paradis, et que tu ne connaissais pas le chemin, qui suivrais-tu : un prophète qui est mort et enterré, ou celui qui est vivant auprès de Dieu et qui connaît le chemin ? »"
     },
     {
-     "texte": "Deuxième question : « Le Coran dit que Jésus créait des oiseaux et ressuscitait des morts. Qui, dans le Coran, donne la vie, à part Allah et Jésus ? » Cette question conduit vers la puissance divine de Jésus."
+     "sous_titre": "Six questions, une à la fois"
+    },
+    {
+     "texte": "Première question : « Le Coran appelle Jésus la Parole d'Allah. Est-ce qu'on peut séparer Allah de sa parole ? » Elle conduit vers Jean 1:1."
+    },
+    {
+     "texte": "Deuxième question : « Le Coran dit que Jésus ressuscitait des morts. Qui, dans le Coran, donne la vie, à part Allah et Jésus ? » Elle conduit vers la puissance divine de Jésus."
     },
     {
      "texte": "Troisième question : « Selon le Coran et Boukhari, lequel des prophètes est sans péché ? » Elle conduit vers la croix : seul celui qui n'a pas de dette peut payer la dette des autres."
@@ -337,52 +301,38 @@
      "texte": "Quatrième question : « Où est Mahomet aujourd'hui ? Où est Jésus ? » Elle conduit vers la résurrection et l'ascension."
     },
     {
-     "texte": "Cinquième question : « Selon les hadiths, qui reviendra pour juger le monde à la fin des temps ? » Elle conduit vers le jugement dernier et la seconde venue du Christ."
+     "texte": "Cinquième question : « Selon les hadiths, qui reviendra pour juger le monde ? » Elle conduit vers le retour du Christ."
     },
     {
-     "texte": "Sixième question : « Le Coran dit que l'Injil a été donné par Allah comme guide et lumière (sourate 5, verset 46). As-tu déjà lu l'Injil ? » Elle conduit vers la lecture de l'Évangile, qui est le but de tout."
+     "texte": "Sixième question : « Le Coran dit que l'Injil a été donné par Allah comme guide et lumière (sourate 5, verset 46). Est-ce que tu as déjà lu l'Injil ? » Elle conduit vers la lecture de l'Évangile, qui est le but de tout."
     },
     {
-     "sous_titre": "Écouter les réponses"
+     "texte": "Après chaque question, tais-toi et écoute. Ne te précipite pas pour donner la bonne réponse. Laisse ton ami y réfléchir, et même repartir avec la question. Pose-la en tête-à-tête, jamais en public."
     },
     {
-     "texte": "Après chaque question, tais-toi et écoute. Ne te précipite pas pour donner la bonne réponse. Laisse ton ami réfléchir, et même repartir avec la question. Beaucoup de musulmans qui ont trouvé Christ racontent qu'une seule question les a poursuivis pendant des semaines. Le Saint-Esprit travaille dans ce silence."
+     "sous_titre": "Les limites du pont"
     },
     {
-     "sous_titre": "Ce qu'il ne faut pas faire"
+     "texte": "Soyons honnêtes. Le Jésus du Coran n'est pas le Jésus de la Bible. Le pont sert à éveiller la curiosité. Le but est de conduire ton ami à lire l'Évangile lui-même. Le Coran dit d'ailleurs : si tu es dans le doute au sujet de ce que nous t'avons fait descendre, interroge ceux qui lisent le Livre avant toi (sourate 10, verset 94). Tu peux dire à ton ami : « Le Coran demande d'interroger ceux qui lisent le Livre. Je lis l'Injil. Est-ce que tu veux qu'on le lise ensemble ? »"
     },
     {
-     "texte": "Ne pose pas ces questions comme des pièges, avec un sourire de vainqueur. Ne te moque jamais de Mahomet ni du Coran devant lui. Ne pose pas plusieurs questions d'affilée comme un interrogatoire. Et ne pose pas ces questions en public, devant d'autres musulmans, où il serait obligé de défendre son honneur. La bonne question se pose en tête-à-tête, autour d'un thé, quand l'amitié est là."
+     "sous_titre": "Ne jamais tromper"
+    },
+    {
+     "texte": "Ne fais jamais croire que tu es musulman, ni que le Coran enseigne l'Évangile. Ne dis pas que Mahomet a annoncé Jésus comme Fils de Dieu. Le Saint-Esprit n'a pas besoin de mensonge. Dis plutôt : « Le Coran dit de belles choses sur Jésus, mais il ne dit pas tout. Pour connaître Jésus vraiment, il faut écouter ceux qui l'ont vu. »"
     }
    ]
   },
   {
    "numero": "10",
-   "titre": "On raconte…",
-   "references": [
-    "Jn 20:31"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "L'homme qui cherchait le vivant"
-    },
-    {
-     "texte": "On raconte qu'un jeune commerçant musulman de Ngaoundéré, très pieux, récitait chaque jour la sourate Maryam. Un ami chrétien lui demanda un jour : « Dans ton Coran, qui est vivant aujourd'hui auprès de Dieu, Mahomet ou Jésus ? » Il répondit : « Jésus, bien sûr. » « Et qui est appelé la Parole d'Allah ? » « Jésus. » « Et qui n'a jamais péché ? » Il réfléchit longtemps et dit : « Jésus. » Alors son ami lui offrit un Évangile de Jean en fulfulde. Il le lut en cachette pendant des mois. Arrivé au chapitre 20, il lut : ces choses ont été écrites afin que vous croyiez que Jésus est le Christ, le Fils de Dieu, et qu'en croyant vous ayez la vie en son nom. Cette nuit-là, il pria pour la première fois en disant : « Jésus, si tu es vivant, montre-toi à moi. » Quelques semaines plus tard, il disait à son ami : « J'ai cherché le prophète, j'ai trouvé le Sauveur. »"
-    }
-   ]
-  },
-  {
-   "numero": "11",
    "titre": "Ce que nous retenons",
-   "references": [
-    "Jn 1:1"
-   ],
+   "references": [],
    "blocs": [
     {
      "sous_titre": "Résumons"
     },
     {
-     "texte": "Le Coran parle de Jésus avec respect. Il l'appelle le Messie, la Parole d'Allah, un Esprit venant de lui, un signe, une miséricorde. Il honore Marie et affirme la naissance virginale. Il rapporte des miracles, dont certains viennent de livres apocryphes comme l'Évangile de l'enfance selon Thomas. Il présente Jésus comme pur, et un hadith de Boukhari dit que seul lui et sa mère n'ont pas été touchés par Satan, alors que le Coran demande à Mahomet de demander pardon pour ses péchés. Mais le Coran nie sa divinité, sa filiation et sa croix. Il enseigne que Jésus est vivant au ciel et qu'il reviendra. La revendication selon laquelle Jésus aurait annoncé Mahomet sous le nom de Paraclet ne tient pas devant les manuscrits ni devant le texte. Ces versets peuvent servir de pont, avec honnêteté, pour conduire notre ami à l'Évangile."
+     "texte": "Le Coran parle de Jésus avec respect. Il l'appelle le Messie, la Parole d'Allah, un esprit venant de lui, un signe, une miséricorde. Il honore Marie et affirme la naissance virginale. Il rapporte des miracles, dont certains viennent de livres apocryphes comme l'Évangile de l'enfance selon Thomas et l'Évangile du pseudo-Matthieu. Il présente Jésus comme pur, et un hadith de Boukhari dit que seul lui et sa mère ont été préservés du toucher de Satan. Mais le Coran nie sa divinité, sa filiation et sa croix. Il enseigne que Jésus est vivant au ciel et qu'il reviendra, selon les hadiths, pour briser la croix. La revendication selon laquelle Jésus aurait annoncé Mahomet sous le nom de Paraclet ne tient devant aucun manuscrit."
     },
     {
      "sous_titre": "Le nom au-dessus de tout nom"
@@ -391,7 +341,7 @@
      "texte": "Le Jésus du Coran est un grand prophète. Le Jésus de l'Évangile est la Parole éternelle faite chair, mort pour nos péchés et ressuscité. C'est lui que nous voulons faire connaître."
     },
     {
-     "texte": "Dans le prochain enseignement, nous répondrons à une question souvent posée : Allah est-il le Dieu de la Bible ? Et nous expliquerons la Trinité et le titre de Fils de Dieu de manière simple, pour pouvoir en parler avec un musulman."
+     "texte": "Dans le prochain enseignement, nous mettrons les deux Jésus côte à côte, point par point. Puis nous répondrons à la question : est-ce qu'Allah est le Dieu de la Bible ?"
     }
    ]
   }
@@ -434,8 +384,19 @@
     "L'ami d'Allah"
    ],
    "reponse": 1,
-   "explication": "Il l'appelle aussi la Parole d'Allah et un Esprit venant de lui.",
+   "explication": "Il l'appelle aussi la Parole d'Allah et un esprit venant de lui.",
    "section": "1"
+  },
+  {
+   "question": "D'où vient l'histoire du palmier qui nourrit Marie ?",
+   "choix": [
+    "De l'Évangile de Luc",
+    "D'un livre apocryphe, l'Évangile du pseudo-Matthieu",
+    "De la Torah"
+   ],
+   "reponse": 1,
+   "explication": "Elle ne se trouve pas dans les quatre Évangiles.",
+   "section": "3"
   },
   {
    "question": "D'où vient l'histoire des oiseaux d'argile ?",
@@ -446,7 +407,7 @@
    ],
    "reponse": 1,
    "explication": "Elle ne se trouve pas dans les quatre Évangiles.",
-   "section": "3"
+   "section": "4"
   },
   {
    "question": "Selon Boukhari, hadith 3431, qui n'a pas été touché par Satan à sa naissance ?",
@@ -456,11 +417,11 @@
     "Abraham"
    ],
    "reponse": 1,
-   "explication": "Le Coran, lui, demande à Mahomet de demander pardon pour ses péchés.",
-   "section": "4"
+   "explication": "Le Coran demande à Mahomet de demander pardon pour ses péchés.",
+   "section": "5"
   },
   {
-   "question": "Que dit la sourate 4, versets 157-158, sur la croix ?",
+   "question": "Que dit la sourate 4, versets 157 et 158, sur la croix ?",
    "choix": [
     "Que Jésus est mort pour nos péchés",
     "Qu'on ne l'a ni tué ni crucifié, mais qu'Allah l'a élevé vers lui",
@@ -468,7 +429,18 @@
    ],
    "reponse": 1,
    "explication": "Les commentateurs pensent souvent qu'un autre a été crucifié à sa place.",
-   "section": "5"
+   "section": "6"
+  },
+  {
+   "question": "Que fera Jésus à son retour, selon Boukhari 3448 ?",
+   "choix": [
+    "Il prêchera l'Évangile à tous",
+    "Il brisera la croix, tuera le porc et abolira la jizya",
+    "Il fondera une nouvelle religion"
+   ],
+   "reponse": 1,
+   "explication": "Il reviendra comme juge équitable selon la loi de Mahomet.",
+   "section": "7"
   },
   {
    "question": "Qui est le Consolateur annoncé par Jésus en Jean 14:26 ?",
@@ -479,7 +451,7 @@
    ],
    "reponse": 1,
    "explication": "Aucun manuscrit grec ne porte « periklutos » à la place de « parakletos ».",
-   "section": "7"
+   "section": "8"
   }
  ],
  "devoir": [
