@@ -1,22 +1,22 @@
 {
  "id": "islam-22-symboles",
- "titre": "Le croissant, la pierre noire et le nom d'Allah : symboles, idoles et la question du Dieu unique",
+ "titre": "Le croissant, la pierre noire et le nom d'Allah : les symboles de l'islam, les idoles, et la question du Dieu unique",
  "serie": "L'islam de A à Z",
  "theme": "Islam",
  "auteur": "Yeshaya",
- "resume": "D'où vient le croissant de lune que l'on voit sur les mosquées et les drapeaux ? Allah était-il un dieu-lune ? Que reste-t-il dans l'islam des dieux et des rites de l'Arabie païenne : la pierre noire, les tours de la Kaaba, Safa et Marwa, les « filles d'Allah » ? Que s'est-il passé avec l'épisode des « versets sataniques » ? Et que signifient le chapelet, la main de Fatima, la couleur verte ou l'interdiction des images ? Enfin : y a-t-il un seul Dieu, ou plusieurs ? Le vrai, le faux, et ce qu'il est sage de dire à un musulman.",
+ "resume": "D'où vient le croissant de lune que l'on voit sur les mosquées et sur les drapeaux ? Est-ce qu'Allah était un dieu-lune ? Qu'est-ce qui reste, dans l'islam, des dieux et des gestes de l'Arabie qui adorait les idoles ? Qu'est-ce que l'épisode des « versets sataniques » ? Que veulent dire le chapelet, la main de Fatima, la couleur verte et l'interdiction des images ? Et enfin, est-ce qu'il y a un seul Dieu, ou plusieurs ? Cet enseignement sépare le vrai du faux, et montre ce qu'il est sage de dire à un musulman.",
  "image": "/assets/paysages/coucher-soleil-montagnes.webp",
  "verset_de_base": "Es 45:5",
- "lecture_minutes": 29,
+ "lecture_minutes": 35,
  "objectifs": [
-  "Connaître l'origine réelle du croissant et de l'étoile, et savoir pourquoi la théorie du « dieu-lune » est fragile.",
-  "Comprendre comment le nom d'Allah était utilisé par les païens, les juifs et les chrétiens arabes.",
-  "Connaître les rites païens que l'islam a gardés en les expliquant autrement.",
-  "Connaître l'épisode des « versets sataniques » et le débat qui l'entoure.",
-  "Comprendre les autres symboles : chapelet, main de Fatima, vert, calligraphie, refus des images.",
-  "Savoir répondre à la question : un seul Dieu, ou plusieurs ?"
+  "Savoir d'où vient vraiment le croissant, et comprendre pourquoi l'idée du « dieu-lune » n'est pas prouvée.",
+  "Comprendre comment le nom d'Allah était utilisé par les païens et par les chrétiens arabes.",
+  "Connaître les gestes des païens que l'islam a gardés en leur donnant une autre explication.",
+  "Connaître l'épisode des « versets sataniques » et le débat à son sujet.",
+  "Comprendre les autres symboles : le chapelet, la main de Fatima, le vert, l'écriture décorée, le refus des images.",
+  "Savoir répondre à la question : est-ce qu'il y a un seul Dieu, ou plusieurs ?"
  ],
- "introduction": "Quand on passe devant une mosquée, on voit souvent, en haut du minaret ou du dôme, un croissant de lune, parfois avec une étoile. On le retrouve sur les drapeaux de la Turquie, de l'Algérie, de la Tunisie, de la Mauritanie, du Pakistan, et même sur les ambulances du Croissant-Rouge. Beaucoup de chrétiens ont entendu dire : « C'est la preuve qu'Allah était un dieu-lune, une idole de l'Arabie. » D'autres disent : « Allah, c'est le diable. » D'autres encore : « Allah, c'est le même Dieu que le nôtre, il n'y a pas de différence. »\n\nDans l'enseignement sur l'Arabie avant l'islam, nous avons déjà vu que le nom d'Allah était connu avant Mahomet, et que la Kaaba était remplie d'idoles. Ici, nous allons aller plus loin. Nous allons regarder les symboles de l'islam, les traces du paganisme arabe, et la grande question : y a-t-il un seul Dieu, ou plusieurs ? Nous chercherons la vérité, même quand elle ne nous arrange pas. Car une demi-vérité, utilisée contre un musulman, finit toujours par se retourner contre celui qui l'utilise.",
+ "introduction": "Quand on passe devant une mosquée, on voit souvent un croissant de lune tout en haut, sur la tour ou sur le toit rond. Parfois, il y a aussi une étoile. On voit ce croissant sur les drapeaux de la Turquie, de l'Algérie, de la Tunisie, de la Mauritanie et du Pakistan. On le voit même sur les ambulances du Croissant-Rouge.\n\nBeaucoup de chrétiens ont entendu dire : « Ce croissant, c'est la preuve qu'Allah était un dieu-lune, une idole de l'Arabie. » D'autres disent : « Allah, c'est le diable. » D'autres encore disent : « Allah, c'est le même Dieu que le nôtre, il n'y a aucune différence. » Alors, qui a raison ?\n\nDans l'enseignement sur l'Arabie avant l'islam, nous avons déjà vu deux choses. Le nom d'Allah était connu avant Mahomet. Et la Kaaba était remplie d'idoles. Ici, nous allons aller plus loin. Nous allons regarder les symboles de l'islam. Nous allons voir ce qui reste, dans l'islam, de l'ancienne religion des idoles. Et nous allons répondre à la grande question : est-ce qu'il y a un seul Dieu, ou plusieurs ?\n\nNous allons chercher la vérité, même quand elle ne nous arrange pas. Pourquoi ? Parce qu'une demi-vérité que l'on utilise contre un musulman finit toujours par se retourner contre celui qui l'utilise. En d'autres termes, si tu dis une chose fausse, même pour défendre Jésus, c'est toi qui perds la confiance de ton ami.",
  "sections": [
   {
    "numero": "1",
@@ -27,31 +27,43 @@
    ],
    "blocs": [
     {
-     "sous_titre": "Pas au temps de Mahomet"
+     "sous_titre": "Il n'existait pas au temps de Mahomet"
     },
     {
-     "texte": "Il faut d'abord savoir une chose simple : ni Mahomet, ni ses compagnons, ni les premiers califes n'ont utilisé le croissant comme symbole de l'islam. Les premières mosquées n'en avaient pas. Les drapeaux des premières armées musulmanes étaient des étendards de couleur unie, souvent noirs ou blancs, parfois portant une inscription. Le Coran ne parle jamais du croissant comme d'un signe de l'islam."
+     "texte": "Commençons par une chose simple. Mahomet n'a pas utilisé le croissant comme symbole de l'islam. Ses compagnons non plus. Les premiers chefs des musulmans non plus. Les premières mosquées n'avaient pas de croissant. Les drapeaux des premières armées musulmanes étaient d'une seule couleur, souvent noirs ou blancs, parfois avec une phrase écrite dessus. Et le Coran ne parle jamais du croissant comme d'un signe de l'islam."
     },
     {
-     "sous_titre": "Une ville avant une religion"
+     "sous_titre": "D'abord le symbole d'une ville"
     },
     {
-     "texte": "Le croissant et l'étoile étaient déjà utilisés bien avant l'islam, par de nombreux peuples. La ville de Byzance, devenue Constantinople, la capitale de l'empire romain chrétien d'Orient, l'avait sur ses monnaies depuis l'Antiquité. Quand les Turcs ottomans prirent Constantinople en 1453, ils reprirent peu à peu ce symbole, qui devint celui de leur empire. Comme l'empire ottoman fut pendant des siècles la plus grande puissance musulmane, le croissant finit par être associé à l'islam dans le monde entier, surtout au XIXe et au XXe siècle, quand de nouveaux pays musulmans le mirent sur leurs drapeaux. En d'autres termes, le croissant est d'abord un symbole politique turc devenu un symbole culturel musulman, et non un symbole religieux voulu par l'islam des origines."
+     "texte": "Le croissant et l'étoile existaient bien avant l'islam. Beaucoup de peuples les utilisaient. La ville de Byzance, qui s'est appelée ensuite Constantinople, l'avait sur ses pièces de monnaie depuis très longtemps. C'était la capitale de l'empire romain chrétien de l'Est."
     },
     {
-     "sous_titre": "Pourquoi la lune est importante"
+     "texte": "En l'an 1453, les Turcs ont pris la ville de Constantinople. Peu à peu, ils ont repris ce symbole, qui est devenu celui de leur empire, l'empire ottoman. Or cet empire a été, pendant des siècles, la plus grande puissance musulmane du monde. Alors, petit à petit, les gens ont associé le croissant à l'islam. Et aux dix-neuvième et vingtième siècles, beaucoup de pays musulmans l'ont mis sur leurs drapeaux."
     },
     {
-     "texte": "Il y a cependant une raison pour laquelle la lune compte beaucoup pour les musulmans : leur calendrier est lunaire. Les mois commencent à l'apparition du premier croissant de lune. Le ramadan commence et se termine quand on aperçoit la nouvelle lune. Le Coran dit : ils t'interrogent sur les nouvelles lunes. Dis : elles servent aux gens pour compter le temps, et aussi pour le pèlerinage (sourate 2, verset 189). La lune est donc un repère du temps religieux, comme elle l'était aussi en Israël pour les fêtes."
+     "texte": "Je le redis plus simplement. Le croissant est d'abord le symbole d'une ville, puis d'un empire turc. Ensuite, il est devenu une sorte de marque des pays musulmans. Ce n'est pas un symbole religieux voulu par l'islam du début."
+    },
+    {
+     "sous_titre": "Pourquoi la lune compte pour les musulmans"
+    },
+    {
+     "texte": "Il y a quand même une raison pour laquelle la lune compte beaucoup pour les musulmans : leur calendrier suit la lune. Chaque mois commence quand on voit le premier petit croissant de la nouvelle lune. C'est pour cela qu'on attend de « voir la lune » pour commencer et pour finir le ramadan."
+    },
+    {
+     "texte": "Le Coran dit : ils t'interrogent sur les nouvelles lunes. Dis : elles servent aux gens pour compter le temps, et aussi pour le pèlerinage (sourate 2, verset 189). La lune sert donc à compter le temps des fêtes. C'était un peu la même chose en Israël, dans la Bible, pour certaines fêtes."
     },
     {
      "sous_titre": "Ce que dit la Bible"
     },
     {
-     "texte": "La Bible dit que Dieu a fait les deux grands luminaires, le plus grand pour présider au jour, et le plus petit pour présider à la nuit (Genèse 1:16). La lune est une créature, utile, belle, mais une créature. Et Dieu avertit : veille sur ton âme, de peur que, levant tes yeux vers le ciel, et voyant le soleil, la lune et les étoiles, toute l'armée des cieux, tu ne sois entraîné à te prosterner en leur présence et à leur rendre un culte (Deutéronome 4:19)."
+     "texte": "La Bible dit que Dieu a fait les deux grands luminaires : le plus grand pour présider au jour, et le plus petit pour présider à la nuit (Genèse 1:16)."
     },
     {
      "verset": "Gn 1:16"
+    },
+    {
+     "texte": "Cela veut dire que la lune est une créature. Elle est utile, elle est belle, mais c'est une créature. Et Dieu avertit son peuple : quand tu lèves les yeux vers le ciel et que tu vois le soleil, la lune et les étoiles, fais attention de ne pas te laisser entraîner à te prosterner devant eux et à les adorer (Deutéronome 4:19)."
     },
     {
      "verset": "Dt 4:19"
@@ -60,71 +72,98 @@
   },
   {
    "numero": "2",
-   "titre": "« Allah était un dieu-lune » : vrai ou faux ?",
+   "titre": "Est-ce qu'Allah était un dieu-lune ?",
    "references": [
     "Jb 31:26-28"
    ],
    "blocs": [
     {
-     "sous_titre": "La théorie"
+     "sous_titre": "D'où vient cette idée ?"
     },
     {
-     "texte": "Dans les années 1990, certains auteurs chrétiens, surtout aux États-Unis, ont diffusé l'idée qu'Allah était à l'origine un dieu-lune arabe, et que le croissant en était la preuve. On trouve encore cette idée dans des brochures, des vidéos et des prédications en Afrique."
+     "texte": "Dans les années 1990, quelques auteurs chrétiens, surtout aux États-Unis, ont répandu une idée. Ils disaient qu'Allah était au départ un dieu-lune des Arabes, et que le croissant en était la preuve. Aujourd'hui encore, on trouve cette idée dans des brochures, dans des vidéos et dans certaines prédications en Afrique."
     },
     {
      "sous_titre": "Ce que l'on sait vraiment"
     },
     {
-     "texte": "Il est vrai que, dans le sud de l'Arabie, au Yémen actuel, des royaumes anciens adoraient des divinités liées à la lune, comme Almaqah à Saba, ou Sin. Il est vrai aussi que les Arabes du nord adoraient des astres. Mais aucune preuve sérieuse ne montre que le dieu appelé Allah à La Mecque était un dieu-lune. Le Coran lui-même condamne le culte de la lune : ne vous prosternez ni devant le soleil, ni devant la lune, mais prosternez-vous devant Allah qui les a créés (sourate 41, verset 37). Et les chrétiens arabes appelaient leur Dieu « Allah » avant l'islam, sans jamais penser à la lune."
+     "texte": "Il est vrai que, dans le sud de l'Arabie, dans le pays qu'on appelle aujourd'hui le Yémen, d'anciens royaumes adoraient des dieux liés à la lune. Il est vrai aussi que des Arabes du nord adoraient les astres. Mais il n'existe aucune preuve sérieuse que le dieu appelé Allah à La Mecque était un dieu-lune."
     },
     {
-     "sous_titre": "Pourquoi ne pas utiliser cet argument"
+     "texte": "Et surtout, le Coran lui-même interdit d'adorer la lune. Il dit : ne vous prosternez ni devant le soleil, ni devant la lune, mais prosternez-vous devant Allah qui les a créés (sourate 41, verset 37). De plus, les chrétiens arabes appelaient déjà leur Dieu « Allah » avant l'islam, et ils ne pensaient pas du tout à la lune."
     },
     {
-     "texte": "Le chrétien ne doit pas utiliser l'argument du « dieu-lune ». D'abord, parce qu'il n'est pas prouvé : celui qui affirme une chose fausse perd sa crédibilité, et ton ami musulman ne t'écoutera plus quand tu lui diras des choses vraies. Ensuite, parce qu'il blesse profondément le musulman, qui rejette lui-même tout culte des astres. Enfin, parce que ce n'est pas la vraie question. Job disait déjà : si j'ai regardé le soleil quand il brillait, la lune quand elle s'avançait majestueuse, et si mon cœur s'est laissé séduire en secret… j'aurais renié le Dieu d'en haut (Job 31:26-28). Le musulman serait d'accord avec Job. La vraie différence n'est pas là : elle est dans ce que Dieu a révélé de lui-même en Jésus."
+     "sous_titre": "Pourquoi il ne faut pas utiliser cet argument"
+    },
+    {
+     "texte": "Alors, est-ce que le chrétien doit dire à un musulman : « Ton Dieu est un dieu-lune » ? Non. Et voici trois raisons."
+    },
+    {
+     "texte": "Première raison : ce n'est pas prouvé. Celui qui dit une chose fausse perd la confiance des autres. Ensuite, quand il dira des choses vraies, on ne l'écoutera plus."
+    },
+    {
+     "texte": "Deuxième raison : cela blesse profondément le musulman, car lui-même refuse d'adorer les astres."
+    },
+    {
+     "texte": "Troisième raison : ce n'est pas la vraie question. Job disait déjà : si j'ai regardé le soleil quand il brillait, la lune quand elle s'avançait majestueuse, et si mon cœur s'est laissé séduire en secret, j'aurais renié le Dieu d'en haut (Job 31:26-28)."
     },
     {
      "verset": "Jb 31:26-28"
+    },
+    {
+     "texte": "Le musulman serait d'accord avec Job. En d'autres termes, la vraie différence entre le chrétien et le musulman ne se trouve pas dans la lune. Elle se trouve dans Jésus. Elle se trouve dans ce que Dieu a montré de lui-même en Jésus-Christ."
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "Le nom d'Allah chez les païens, les juifs et les chrétiens",
+   "titre": "Le nom d'Allah chez les païens et chez les chrétiens",
    "references": [
     "Gn 31:13",
     "1 Co 8:5-6"
    ],
    "blocs": [
     {
-     "sous_titre": "Un dieu suprême lointain"
+     "sous_titre": "Un dieu supérieur, mais lointain"
     },
     {
-     "texte": "Nous l'avons vu : les Arabes païens connaissaient Allah comme un dieu supérieur, créateur, mais lointain. Ils s'adressaient surtout à d'autres divinités, qu'ils considéraient comme des intermédiaires. Le Coran rapporte leur excuse : nous ne les adorons que pour qu'ils nous rapprochent davantage d'Allah (sourate 39, verset 3)."
+     "texte": "Nous l'avons vu : les Arabes qui adoraient les idoles connaissaient Allah comme un dieu supérieur, créateur, mais lointain. Pour leurs besoins de tous les jours, ils s'adressaient surtout à d'autres dieux, qu'ils voyaient comme des intermédiaires. Le Coran rapporte leur excuse. Ils disaient : nous ne les adorons que pour qu'ils nous rapprochent davantage d'Allah (sourate 39, verset 3)."
     },
     {
-     "sous_titre": "La prière du pèlerinage païen"
+     "texte": "Chez nous aussi, on entend parfois des gens dire : « Dieu est trop loin. Alors je passe par les ancêtres, ou par le féticheur, pour qu'ils parlent à Dieu pour moi. » C'était exactement la pensée des Arabes de La Mecque."
     },
     {
-     "texte": "Un hadith de Mouslim nous donne une précieuse indication. Les païens, pendant le pèlerinage, disaient : « Me voici, ô Allah, me voici. Tu n'as pas d'associé, sauf un associé qui t'appartient ; tu le possèdes, lui et ce qu'il possède. » Quand ils disaient « Tu n'as pas d'associé », Mahomet leur disait : « Malheur à vous ! Arrêtez-vous là ! » (Mouslim, hadith 1185). En d'autres termes, les païens de La Mecque croyaient en Allah, mais ils lui associaient d'autres dieux. Le grand combat de Mahomet n'a pas été de faire connaître un dieu nouveau, mais de supprimer les « associés »."
+     "sous_titre": "La prière du pèlerinage des païens"
     },
     {
-     "sous_titre": "Un mot de la famille d'El"
+     "texte": "Un hadith du recueil de Mouslim nous donne un renseignement précieux. Pendant le pèlerinage, les païens disaient : « Me voici, ô Allah, me voici. Tu n'as pas d'associé, sauf un associé qui t'appartient ; tu le possèdes, lui et ce qu'il possède. » Quand ils disaient : « Tu n'as pas d'associé », Mahomet les arrêtait et leur disait : « Malheur à vous ! Arrêtez-vous là ! » Ce récit se trouve dans Mouslim, au hadith 1185."
     },
     {
-     "texte": "Le mot « Allah » est de la même famille que le mot hébreu « El », qui désigne Dieu dans la Bible : El Shaddaï, le Dieu tout-puissant ; El Elyon, le Dieu Très-Haut ; Béthel, la maison de Dieu. Dieu dit à Jacob : je suis le Dieu de Béthel, où tu as oint un monument (Genèse 31:13). On trouve aussi « Elah » en araméen, et « Alaha » dans la langue de Jésus. Des inscriptions chrétiennes en langue arabe, datant du VIe siècle, avant la naissance de l'islam, utilisent déjà ce nom pour le Dieu des chrétiens."
+     "texte": "Qu'est-ce que cela veut dire ? Cela veut dire que les païens de La Mecque croyaient déjà en Allah. Mais ils lui ajoutaient d'autres dieux. Le grand combat de Mahomet n'a donc pas été de faire connaître un dieu nouveau. Son combat a été d'enlever les autres dieux qu'on mettait à côté d'Allah."
+    },
+    {
+     "sous_titre": "Un mot de la même famille que « El »"
+    },
+    {
+     "texte": "Le mot « Allah » appartient à la même famille que le mot hébreu « El ». Dans la Bible, « El » veut dire Dieu. On le trouve dans El Shaddaï, qui veut dire le Dieu tout-puissant. On le trouve dans El Elyon, qui veut dire le Dieu Très-Haut. On le trouve dans Béthel, qui veut dire la maison de Dieu. Dieu dit à Jacob : je suis le Dieu de Béthel (Genèse 31:13)."
     },
     {
      "verset": "Gn 31:13"
     },
     {
-     "sous_titre": "Beaucoup de dieux, un seul Dieu"
+     "texte": "En araméen, la langue que parlait Jésus, on dit « Alaha ». Et des inscriptions chrétiennes en langue arabe, datant du sixième siècle, avant l'islam, utilisent déjà ce nom pour le Dieu des chrétiens. Je le redis donc : le mot n'est pas le problème. Le problème, c'est la personne que l'on décrit avec ce mot."
     },
     {
-     "texte": "Paul, qui vivait au milieu des idoles grecques et romaines, a écrit : il y a des êtres qui sont appelés dieux, soit dans le ciel, soit sur la terre, comme il existe réellement plusieurs dieux et plusieurs seigneurs ; néanmoins pour nous il n'y a qu'un seul Dieu, le Père, de qui viennent toutes choses et pour qui nous sommes, et un seul Seigneur, Jésus-Christ, par qui sont toutes choses et par qui nous sommes (1 Corinthiens 8:5-6). Remarque que, dans la même phrase où il affirme qu'il n'y a qu'un seul Dieu, Paul place Jésus-Christ comme celui par qui toutes choses existent."
+     "sous_titre": "Beaucoup de prétendus dieux, un seul vrai Dieu"
+    },
+    {
+     "texte": "Paul vivait au milieu des idoles des Grecs et des Romains. Il a écrit : il y a des êtres qui sont appelés dieux, soit dans le ciel, soit sur la terre ; néanmoins pour nous il n'y a qu'un seul Dieu, le Père, de qui viennent toutes choses et pour qui nous sommes, et un seul Seigneur, Jésus-Christ, par qui sont toutes choses et par qui nous sommes (1 Corinthiens 8:5-6)."
     },
     {
      "verset": "1 Co 8:5-6"
+    },
+    {
+     "texte": "Remarque bien ceci. Dans la même phrase où Paul dit qu'il n'y a qu'un seul Dieu, il place Jésus-Christ comme celui par qui toutes choses existent. Pour Paul, croire en un seul Dieu, et croire en Jésus-Christ comme Seigneur, cela va ensemble."
     }
    ]
   },
@@ -136,28 +175,37 @@
    ],
    "blocs": [
     {
-     "sous_titre": "Al-Lat, al-Ouzza et Manat"
+     "sous_titre": "Les trois déesses"
     },
     {
-     "texte": "Le Coran nomme les trois déesses les plus aimées de La Mecque : avez-vous vu al-Lat et al-Ouzza, ainsi que Manat, la troisième autre ? Sera-ce à vous le garçon, et à lui la fille ? Que voilà donc un partage injuste ! (sourate 53, versets 19 à 22). Le Coran se moque ici des païens : vous, vous préférez avoir des fils, et vous attribuez des filles à Allah ?"
+     "texte": "Le Coran nomme les trois déesses les plus aimées à La Mecque. Il dit : avez-vous vu al-Lat et al-Ouzza, ainsi que Manat, la troisième autre ? Sera-ce à vous le garçon, et à lui la fille ? Que voilà donc un partage injuste ! (sourate 53, versets 19 à 22). Ici, le Coran se moque des païens. Il leur dit en quelque sorte : « Vous, vous préférez avoir des fils, et vous donnez des filles à Allah ? »"
     },
     {
-     "sous_titre": "Ce que racontent les premiers historiens"
+     "sous_titre": "Ce que racontent les premiers historiens musulmans"
     },
     {
-     "texte": "Or plusieurs historiens musulmans anciens, comme Ibn Saad, al-Tabari et, selon des citations, Ibn Ishaq, racontent un épisode étonnant. Mahomet, désirant se rapprocher de son peuple, récitait la sourate 53. Après la mention des trois déesses, Satan aurait mis sur sa langue ces paroles : « Ce sont les grues sublimes, dont l'intercession est espérée. » Les païens, ravis, se prosternèrent avec les musulmans. Puis l'ange Gabriel serait venu corriger Mahomet, et les paroles auraient été remplacées par celles que nous lisons aujourd'hui. Le Coran dirait, pour consoler Mahomet : nous n'avons envoyé avant toi ni messager ni prophète sans que Satan ne jette une suggestion dans son souhait ; mais Allah abroge ce que Satan suggère (sourate 22, verset 52)."
+     "texte": "Plusieurs historiens musulmans anciens racontent un épisode étonnant. Parmi eux, il y a Ibn Saad et al-Tabari. Voici ce qu'ils racontent. Mahomet voulait se rapprocher de son peuple. Un jour, il récitait la sourate 53. Après avoir nommé les trois déesses, Satan aurait mis sur sa langue ces paroles : « Ce sont les grues sublimes, dont l'intercession est espérée. » Cela voulait dire que ces déesses pouvaient prier pour les hommes. Les païens étaient très contents, et ils se sont prosternés avec les musulmans."
+    },
+    {
+     "texte": "Ensuite, toujours selon ces historiens, l'ange Gabriel serait venu corriger Mahomet. Les paroles auraient été enlevées et remplacées par celles que nous lisons aujourd'hui. Et le Coran aurait consolé Mahomet en disant : nous n'avons envoyé avant toi ni messager ni prophète sans que Satan ne jette une suggestion dans son souhait ; mais Allah abroge ce que Satan suggère (sourate 22, verset 52). On appelle cet épisode « les versets sataniques »."
     },
     {
      "sous_titre": "Le débat"
     },
     {
-     "texte": "Beaucoup de savants musulmans, surtout plus tardifs, ont rejeté ce récit comme une invention, parce qu'il mettrait en doute la protection du prophète. D'autres, anciens, l'ont rapporté sans gêne. Un fait, en tout cas, se trouve dans Boukhari : quand Mahomet récita la sourate 53 à La Mecque, les musulmans et les païens se prosternèrent tous ensemble avec lui (Boukhari, hadith 4862). Pourquoi les païens se seraient-ils prosternés au milieu d'une sourate qui se moque de leurs déesses ? La question reste posée. Le chrétien peut la mentionner honnêtement, sans en faire une arme : « Des historiens musulmans anciens rapportent cet épisode. Qu'en penses-tu ? »"
+     "texte": "Beaucoup de savants musulmans, surtout plus tard, ont rejeté ce récit. Ils disent que c'est une invention, parce que ce récit mettrait en doute la protection du prophète. D'autres savants, plus anciens, l'ont raconté sans être gênés."
+    },
+    {
+     "texte": "Une chose, en tout cas, se trouve dans le recueil de Boukhari, au hadith 4862. Quand Mahomet a récité la sourate 53 à La Mecque, les musulmans et les païens se sont tous prosternés ensemble avec lui. Alors, voici la question : pourquoi est-ce que les païens se seraient prosternés au milieu d'une sourate qui se moque de leurs déesses ? Cette question reste posée."
+    },
+    {
+     "texte": "Le chrétien peut en parler honnêtement, mais sans s'en servir comme d'une arme. Il peut dire simplement : « Des historiens musulmans anciens racontent cet épisode. Qu'est-ce que tu en penses ? »"
     },
     {
      "sous_titre": "Les dieux des peuples"
     },
     {
-     "texte": "La Bible, elle, est sans ambiguïté : tous les dieux des peuples sont des idoles, et l'Éternel a fait les cieux (Psaume 96:5)."
+     "texte": "La Bible, elle, est très claire. Elle dit : tous les dieux des peuples sont des idoles, et l'Éternel a fait les cieux (Psaume 96:5)."
     },
     {
      "verset": "Ps 96:5"
@@ -166,7 +214,7 @@
   },
   {
    "numero": "5",
-   "titre": "La pierre noire, les tours et les courses : des rites plus anciens",
+   "titre": "La pierre noire, les tours et la course : des gestes plus anciens que l'islam",
    "references": [
     "Ex 20:3-4",
     "Ac 19:35"
@@ -176,22 +224,28 @@
      "sous_titre": "La pierre que l'on embrasse"
     },
     {
-     "texte": "Dans un angle de la Kaaba est enchâssée une pierre noire, entourée d'argent. Les pèlerins cherchent à la toucher ou à l'embrasser, et, quand la foule est trop nombreuse, ils la saluent de la main à distance. Selon une tradition musulmane, elle serait descendue du paradis, blanche, et aurait noirci à cause des péchés des hommes (Tirmidhi, hadith 877). Les Arabes païens la vénéraient déjà avant l'islam."
+     "texte": "Dans un coin de la Kaaba, il y a une pierre noire, entourée d'argent. Les pèlerins essaient de la toucher ou de l'embrasser. Quand il y a trop de monde, ils la saluent de loin, avec la main. Selon une tradition musulmane, cette pierre serait descendue du paradis. Elle aurait été blanche au début, et elle serait devenue noire à cause des péchés des hommes. On lit cela chez Tirmidhi, au hadith 877. Mais les Arabes qui adoraient les idoles vénéraient déjà cette pierre avant l'islam."
     },
     {
      "sous_titre": "Ce que disait Omar"
     },
     {
-     "texte": "Boukhari rapporte une parole célèbre du calife Omar. S'approchant de la pierre noire, il l'embrassa et dit : « Je sais que tu n'es qu'une pierre, que tu ne peux ni nuire ni être utile. Si je n'avais pas vu le prophète t'embrasser, je ne t'aurais pas embrassée » (Boukhari, hadith 1597). Omar lui-même sentait le danger de ce geste, et il ne le justifiait que par l'exemple du prophète."
+     "texte": "Boukhari rapporte une parole célèbre du calife Omar. Un jour, Omar s'est approché de la pierre noire et l'a embrassée. Puis il a dit : « Je sais que tu n'es qu'une pierre, que tu ne peux ni nuire ni être utile. Si je n'avais pas vu le prophète t'embrasser, je ne t'aurais pas embrassée. » On lit cela dans Boukhari, au hadith 1597."
+    },
+    {
+     "texte": "Qu'est-ce que cela montre ? Cela montre qu'Omar lui-même sentait que ce geste était dangereux. Il ne le faisait que parce que Mahomet l'avait fait."
     },
     {
      "sous_titre": "Des pierres tombées du ciel"
     },
     {
-     "texte": "Dans l'Antiquité, beaucoup de peuples vénéraient des pierres qu'ils croyaient tombées du ciel. La Bible en parle : à Éphèse, le secrétaire de la ville disait que la ville était la gardienne du temple de la grande Diane et de son simulacre tombé du ciel (Actes 19:35). Dieu avait dit à Israël : tu n'auras pas d'autres dieux devant ma face. Tu ne te feras point d'image taillée, ni de représentation quelconque des choses qui sont en haut dans les cieux, qui sont en bas sur la terre (Exode 20:3-4)."
+     "texte": "Autrefois, beaucoup de peuples adoraient des pierres qu'ils croyaient tombées du ciel. La Bible en parle. À Éphèse, le secrétaire de la ville a dit que la ville était la gardienne du temple de la grande déesse Diane et de sa statue tombée du ciel (Actes 19:35)."
     },
     {
      "verset": "Ac 19:35"
+    },
+    {
+     "texte": "Or Dieu avait dit à son peuple Israël : tu n'auras pas d'autres dieux devant ma face. Tu ne te feras point d'image taillée, ni de représentation quelconque des choses qui sont en haut dans les cieux, qui sont en bas sur la terre (Exode 20:3-4)."
     },
     {
      "verset": "Ex 20:3-4"
@@ -200,19 +254,28 @@
      "sous_titre": "Safa et Marwa"
     },
     {
-     "texte": "Pendant le pèlerinage, les musulmans courent sept fois entre deux petites collines, Safa et Marwa, en souvenir d'Agar cherchant de l'eau pour Ismaël. Or Boukhari rapporte que certains des premiers musulmans hésitaient à le faire, parce que c'était un rite des païens, lié à leurs idoles. Le Coran leur répondit : Safa et Marwa sont vraiment parmi les lieux sacrés d'Allah ; quiconque fait le pèlerinage ne commet pas de péché en faisant le va-et-vient entre ces deux monts (sourate 2, verset 158 ; Boukhari, hadith 1643). En d'autres termes, l'islam a gardé plusieurs rites anciens en leur donnant un sens nouveau, rattaché à Abraham et à Ismaël."
+     "texte": "Pendant le pèlerinage, les musulmans courent sept fois entre deux petites collines, Safa et Marwa. Ils le font en souvenir d'Agar, qui cherchait de l'eau pour son fils Ismaël. Mais Boukhari raconte que certains des premiers musulmans hésitaient à faire ce geste. Pourquoi ? Parce que c'était un geste des païens, lié à leurs idoles. Le Coran leur a répondu : Safa et Marwa sont vraiment parmi les lieux sacrés d'Allah ; quiconque fait le pèlerinage ne commet pas de péché en faisant le va-et-vient entre ces deux monts. On lit cela dans la sourate 2, au verset 158, et dans Boukhari, au hadith 1643."
+    },
+    {
+     "texte": "En d'autres termes, l'islam a gardé plusieurs gestes anciens. Mais il leur a donné une nouvelle explication, en les reliant à Abraham et à Ismaël."
     },
     {
      "sous_titre": "L'eau de Zamzam et le titre d'Alhadji"
     },
     {
-     "texte": "Près de la Kaaba se trouve le puits de Zamzam. Selon la tradition, c'est la source que Dieu fit jaillir pour Agar et Ismaël dans le désert. Les pèlerins en boivent et en rapportent dans des bidons à leur famille. Beaucoup de musulmans la considèrent comme une eau de guérison et de bénédiction, et en donnent aux malades. Celui qui revient du pèlerinage reçoit, en Afrique, le titre d'« Alhadji », et la femme celui d'« Hadja ». Ce titre donne un grand prestige social, surtout dans le nord du Cameroun. Le chrétien peut honorer la sincérité de cette quête, et parler de l'eau que Jésus a promise à la Samaritaine, auprès d'un autre puits : celui qui boira de l'eau que je lui donnerai n'aura jamais soif."
+     "texte": "Près de la Kaaba, il y a le puits de Zamzam. Selon la tradition musulmane, c'est la source que Dieu a fait jaillir pour Agar et Ismaël dans le désert. Les pèlerins boivent cette eau, et ils en rapportent dans des bidons pour leur famille. Beaucoup de musulmans pensent que cette eau guérit et apporte la bénédiction. Ils en donnent aux malades."
+    },
+    {
+     "texte": "Chez nous, celui qui revient du pèlerinage reçoit le titre d'« Alhadji ». La femme reçoit le titre d'« Hadja ». Ce titre donne beaucoup de respect dans la société, surtout dans le nord du Cameroun. Le chrétien peut respecter la sincérité de cette recherche. Et il peut parler de l'eau que Jésus a promise à la femme samaritaine, près d'un autre puits. Jésus lui a dit : celui qui boira de l'eau que je lui donnerai n'aura jamais soif."
     },
     {
      "sous_titre": "Une réflexion honnête"
     },
     {
-     "texte": "Le chrétien ne doit pas se moquer de ces rites. Il peut simplement poser une question : « Pourquoi Dieu demanderait-il aujourd'hui de faire des gestes que les idolâtres faisaient déjà autour des mêmes pierres ? » Et il peut parler du vrai sanctuaire : Jésus a dit que l'heure vient où ce ne sera ni sur cette montagne ni à Jérusalem que l'on adorera le Père, mais en esprit et en vérité. Le Dieu qui a fait le monde et tout ce qui s'y trouve, étant le Seigneur du ciel et de la terre, n'habite point dans des temples faits de main d'homme (Actes 17:24)."
+     "texte": "Le chrétien ne doit pas se moquer de ces gestes. Mais il peut poser une question simple : « Pourquoi est-ce que Dieu demanderait aujourd'hui de faire les mêmes gestes que faisaient ceux qui adoraient les idoles, autour des mêmes pierres ? »"
+    },
+    {
+     "texte": "Et il peut parler du vrai lieu de rencontre avec Dieu. Jésus a dit que le moment vient où l'on n'adorera plus Dieu sur une montagne ou dans une ville, mais en esprit et en vérité. Paul dit : le Dieu qui a fait le monde et tout ce qui s'y trouve, étant le Seigneur du ciel et de la terre, n'habite point dans des temples faits de main d'homme (Actes 17:24)."
     },
     {
      "verset": "Ac 17:24"
@@ -231,13 +294,19 @@
      "sous_titre": "Le chapelet"
     },
     {
-     "texte": "Beaucoup de musulmans tiennent un chapelet, appelé « subha » ou « tasbih », de trente-trois ou de quatre-vingt-dix-neuf grains. Ils l'égrènent en répétant « Gloire à Allah », « Louange à Allah », « Allah est le plus grand », ou en récitant les quatre-vingt-dix-neuf « beaux noms ». Ce n'est pas une idole : c'est une aide pour compter. Mais Jésus a mis en garde contre les prières faites de répétitions mécaniques, comme si l'on devait être exaucé à force de paroles."
+     "texte": "Beaucoup de musulmans tiennent un chapelet, qu'ils appellent « tasbih ». Il a trente-trois ou quatre-vingt-dix-neuf perles. Ils font passer les perles une à une en répétant : « Gloire à Allah », « Louange à Allah », « Allah est le plus grand ». Ou bien ils récitent les quatre-vingt-dix-neuf « beaux noms » d'Allah. Ce chapelet n'est pas une idole. C'est simplement une aide pour compter. Mais Jésus a mis en garde contre les prières faites de répétitions sans fin, comme si Dieu allait nous exaucer parce que nous parlons beaucoup."
     },
     {
      "sous_titre": "La main de Fatima et le mauvais œil"
     },
     {
-     "texte": "Dans l'islam populaire, on voit souvent la « main de Fatima », appelée « khamsa », une main ouverte à cinq doigts, parfois avec un œil au milieu, accrochée dans les maisons, les voitures ou portée en bijou pour se protéger du mauvais œil. Elle porte le nom de Fatima, fille de Mahomet, mais elle est bien plus ancienne que l'islam, et beaucoup de savants musulmans la condamnent comme une superstition. Il en est de même des amulettes avec des versets du Coran dont nous avons parlé. Jean écrit : petits enfants, gardez-vous des idoles (1 Jean 5:21). Ésaïe se moquait de ceux qui fabriquent eux-mêmes ce qui doit les protéger : ceux qui fabriquent des idoles ne sont tous que vanité, et leurs plus belles œuvres ne servent à rien (Ésaïe 44:9)."
+     "texte": "Dans l'islam populaire, on voit souvent une main ouverte avec cinq doigts. Parfois, il y a un œil au milieu de la main. On l'appelle la « main de Fatima ». On l'accroche dans les maisons, dans les voitures, ou on la porte comme un bijou. Pourquoi ? Pour se protéger du mauvais œil, c'est-à-dire du malheur que le regard jaloux des autres pourrait envoyer."
+    },
+    {
+     "texte": "Cette main porte le nom de Fatima, la fille de Mahomet. Mais elle est beaucoup plus ancienne que l'islam. Et beaucoup de savants musulmans la condamnent, car pour eux c'est une superstition. C'est la même chose pour les amulettes avec des versets du Coran."
+    },
+    {
+     "texte": "Jean écrit : petits enfants, gardez-vous des idoles (1 Jean 5:21). Et le prophète Ésaïe se moquait de ceux qui fabriquent eux-mêmes ce qui doit les protéger. Il disait : ceux qui fabriquent des idoles ne sont tous que vanité, et leurs plus belles œuvres ne servent à rien (Ésaïe 44:9)."
     },
     {
      "verset": "1 Jn 5:21"
@@ -246,44 +315,59 @@
      "verset": "Es 44:9-10"
     },
     {
+     "texte": "Prenons un exemple de chez nous. Un homme accroche quelque chose au rétroviseur de son taxi pour être protégé des accidents. Mais il roule trop vite et il ne respecte pas le code de la route. Qu'est-ce qui le protège vraiment ? Pas l'objet accroché. Le chrétien, lui, met sa confiance en Dieu, et non dans un objet."
+    },
+    {
      "sous_titre": "La couleur verte"
     },
     {
-     "texte": "Le vert est souvent associé à l'islam : sur les drapeaux, les mosquées, les couvertures du Coran. Il rappelle le paradis, décrit dans le Coran comme un jardin, où les élus porteront des vêtements verts de soie fine (sourate 18, verset 31). Une tradition dit aussi que c'était la couleur préférée du prophète. Le vert dit donc le désir du paradis, dans des pays de désert."
+     "texte": "On voit souvent la couleur verte avec l'islam : sur les drapeaux, sur les mosquées, sur les couvertures du Coran. Pourquoi ? Parce que le vert rappelle le paradis. Le Coran décrit le paradis comme un jardin, où les élus porteront des vêtements verts de soie fine (sourate 18, verset 31). Une tradition dit aussi que c'était la couleur préférée de Mahomet. Le vert exprime donc le désir du paradis, chez des gens qui vivaient dans le désert."
     },
     {
      "sous_titre": "Pas d'images"
     },
     {
-     "texte": "Les mosquées n'ont ni statues ni peintures de personnes. On y voit des motifs géométriques, des arabesques et de la calligraphie : le nom d'Allah, le nom de Mahomet, des versets du Coran. C'est parce que les hadiths interdisent sévèrement de représenter des êtres vivants : « Ceux qui recevront le plus terrible châtiment auprès d'Allah, au jour de la résurrection, ce sont les faiseurs d'images » (Boukhari, hadith 5950). C'est pourquoi beaucoup de musulmans sont choqués par les statues et les images de Jésus dans certaines églises, et nous accusent d'idolâtrie. Le chrétien biblique peut leur répondre qu'il n'adore aucune image, mais le Dieu vivant, et qu'il n'a pas besoin de statue pour prier."
+     "texte": "Dans les mosquées, il n'y a ni statues ni peintures de personnes. On voit des dessins géométriques, des formes qui s'entrelacent, et des phrases écrites en arabe de manière très décorée : le nom d'Allah, le nom de Mahomet, des versets du Coran."
+    },
+    {
+     "texte": "Pourquoi ? Parce que les hadiths interdisent sévèrement de représenter des êtres vivants. Un hadith dit : « Ceux qui recevront le plus terrible châtiment auprès d'Allah, au jour de la résurrection, ce sont les faiseurs d'images. » On le lit dans Boukhari, au hadith 5950."
+    },
+    {
+     "texte": "C'est pour cela que beaucoup de musulmans sont choqués quand ils voient des statues et des images de Jésus dans certaines églises. Ils nous accusent d'adorer des idoles. Le chrétien qui suit la Bible peut leur répondre : « Je n'adore aucune image. J'adore le Dieu vivant. Je n'ai pas besoin d'une statue pour prier. »"
     },
     {
      "sous_titre": "Le minaret, la direction et le vendredi"
     },
     {
-     "texte": "Le minaret, d'où l'on appelle à la prière cinq fois par jour ; le « mihrab », la niche qui indique la direction de La Mecque ; le vendredi, jour de la grande prière en commun ; le « hijab » des femmes ; le drapeau noir des groupes djihadistes, avec la profession de foi en blanc : tous ces signes disent l'identité musulmane. Ils ne sont pas tous religieux au même degré. Certains sont des pratiques, d'autres des coutumes, d'autres des marques politiques."
+     "texte": "Il y a d'autres signes de l'islam. Le minaret, la grande tour d'où l'on appelle à la prière cinq fois par jour. Le « mihrab », un creux dans le mur de la mosquée, qui montre la direction de La Mecque. Le vendredi, jour de la grande prière ensemble. Le voile des femmes. Et aussi le drapeau noir des groupes armés, avec la profession de foi écrite en blanc."
+    },
+    {
+     "texte": "Tous ces signes montrent l'identité musulmane. Mais ils n'ont pas tous la même valeur. Certains sont des pratiques religieuses. D'autres sont des coutumes. D'autres sont des signes politiques."
     }
    ]
   },
   {
    "numero": "7",
-   "titre": "Un seul Dieu, ou plusieurs ?",
+   "titre": "Est-ce qu'il y a un seul Dieu, ou plusieurs ?",
    "references": [
     "Es 45:5",
     "Es 43:10"
    ],
    "blocs": [
     {
-     "sous_titre": "Le paganisme arabe"
+     "sous_titre": "L'Arabie avait beaucoup de dieux"
     },
     {
-     "texte": "Avant l'islam, l'Arabie était polythéiste : elle croyait en un dieu suprême, Allah, mais aussi en de nombreux dieux, déesses, esprits et ancêtres. L'islam a renversé ce système et affirmé avec force qu'il n'y a qu'un seul Dieu. Il faut le reconnaître : sur ce point, l'islam a combattu l'idolâtrie, et il a raison de dire que les idoles ne sont rien."
+     "texte": "Avant l'islam, l'Arabie croyait en plusieurs dieux. On appelle cela le polythéisme. Les Arabes croyaient en un dieu supérieur, Allah. Mais ils croyaient aussi à beaucoup d'autres dieux, à des déesses, à des esprits et aux ancêtres."
+    },
+    {
+     "texte": "L'islam a renversé ce système. Il a dit avec force qu'il n'y a qu'un seul Dieu. Il faut le reconnaître : sur ce point, l'islam a combattu les idoles, et il a raison de dire que les idoles ne sont rien."
     },
     {
      "sous_titre": "Ce que dit la Bible"
     },
     {
-     "texte": "La Bible le dit aussi, et elle le disait des siècles avant l'islam : je suis l'Éternel, et il n'y en a point d'autre, hors moi il n'y a point de Dieu (Ésaïe 45:5). Et encore : vous êtes mes témoins, dit l'Éternel, vous, et mon serviteur que j'ai choisi, afin que vous le sachiez, que vous me croyiez et compreniez que c'est moi : avant moi il n'a point été formé de Dieu, et après moi il n'y en aura point (Ésaïe 43:10)."
+     "texte": "La Bible le dit aussi. Et elle le disait des siècles avant l'islam. Dieu dit : je suis l'Éternel, et il n'y en a point d'autre, hors moi il n'y a point de Dieu (Ésaïe 45:5). Et encore : avant moi il n'a point été formé de Dieu, et après moi il n'y en aura point (Ésaïe 43:10)."
     },
     {
      "verset": "Es 45:5"
@@ -292,19 +376,37 @@
      "verset": "Es 43:10"
     },
     {
-     "sous_titre": "Chrétiens et musulmans, deux monothéismes"
+     "texte": "Alors, voici la réponse claire à notre question. Il n'y a qu'un seul vrai Dieu. Tous les autres prétendus dieux sont des idoles, ou des esprits trompeurs."
     },
     {
-     "texte": "Chrétiens, juifs et musulmans sont donc tous monothéistes : ils croient en un seul Dieu. Quand le musulman dit que les chrétiens sont des « associateurs », comme les païens de La Mecque, il se trompe. Les chrétiens n'associent pas un deuxième dieu à Dieu. Ils croient que le Dieu unique s'est révélé comme Père, Fils et Saint-Esprit, et que Jésus n'est pas un homme devenu dieu, mais la Parole éternelle de Dieu devenue homme. Nous l'avons expliqué dans l'enseignement sur Allah et le Dieu de la Bible."
+     "sous_titre": "Les chrétiens n'adorent pas trois dieux"
     },
     {
-     "sous_titre": "Les « dieux » qui restent"
+     "texte": "Les chrétiens, les juifs et les musulmans disent tous qu'il y a un seul Dieu. Quand le musulman dit que les chrétiens sont comme les païens de La Mecque, parce qu'ils mettraient un autre dieu à côté de Dieu, il se trompe. Les chrétiens ne mettent pas un deuxième dieu à côté de Dieu. Ils croient que le Dieu unique s'est fait connaître comme Père, Fils et Saint-Esprit. Et ils croient que Jésus n'est pas un homme devenu dieu, mais la Parole éternelle de Dieu devenue homme."
     },
     {
-     "texte": "Mais il faut aussi être honnête avec nos propres Églises. En Afrique, beaucoup de chrétiens, comme beaucoup de musulmans, continuent en secret à servir d'autres « dieux » : les ancêtres, les fétiches, les esprits des eaux, les marabouts, les féticheurs, l'argent. Le prophète Jérémie se plaignait de son peuple : les enfants ramassent du bois, les pères allument le feu, et les femmes pétrissent la pâte, pour préparer des gâteaux à la reine du ciel (Jérémie 7:18). Avant de reprocher à l'islam les traces du paganisme, demandons-nous si nos propres maisons en sont libres."
+     "sous_titre": "Mais ce n'est pas le même Dieu"
+    },
+    {
+     "texte": "Est-ce que cela veut dire que le chrétien et le musulman adorent le même Dieu ? Non. Les deux disent : « Il n'y a qu'un seul Dieu. » Mais ils ne décrivent pas le même Dieu. Le Dieu de la Bible est Père, Fils et Saint-Esprit. Il s'est fait homme en Jésus. Il est mort sur la croix pour nous et il est ressuscité. Le Dieu du Coran refuse tout cela."
+    },
+    {
+     "texte": "Les musulmans eux-mêmes le disent. Demande à un musulman : « Moi, j'adore Jésus comme Dieu. Est-ce que nous avons le même Dieu ? » Il te répondra : « Non. » Et sur ce point, il a raison. Nous l'expliquons plus en détail dans l'enseignement sur Allah et le Dieu de la Bible, et dans celui sur le mariage entre chrétien et musulman."
+    },
+    {
+     "sous_titre": "Les autres « dieux » que nous gardons"
+    },
+    {
+     "texte": "Mais soyons honnêtes aussi avec nos propres Églises. En Afrique, beaucoup de chrétiens, comme beaucoup de musulmans, continuent en secret à servir d'autres « dieux ». Ils servent les ancêtres, les fétiches, les esprits des eaux. Ils vont chez les marabouts et chez les féticheurs. Ils servent l'argent."
+    },
+    {
+     "texte": "Le prophète Jérémie se plaignait de son peuple. Il disait : les enfants ramassent du bois, les pères allument le feu, et les femmes pétrissent la pâte, pour préparer des gâteaux à la reine du ciel (Jérémie 7:18)."
     },
     {
      "verset": "Jr 7:18"
+    },
+    {
+     "texte": "Toute la famille travaillait ensemble pour servir une idole. Alors, avant de reprocher à l'islam les restes de l'ancienne religion des idoles, demandons-nous : est-ce que nos maisons à nous en sont libres ?"
     }
    ]
   },
@@ -319,25 +421,37 @@
      "sous_titre": "Ce qu'il ne faut pas dire"
     },
     {
-     "texte": "Ne dis pas : « Allah est un dieu-lune. » Ne dis pas : « Allah est Satan. » Ne te moque pas de la pierre noire ni du croissant. Ces phrases ferment les cœurs et ne sont pas exactes. Le musulman sincère cherche à adorer le Dieu unique, créateur du ciel et de la terre. Il se trompe sur qui est ce Dieu, mais il ne cherche pas à adorer une idole."
+     "texte": "Ne dis pas : « Ton Allah est un dieu-lune. » Ne dis pas : « Ton Allah est Satan. » Ne te moque pas de la pierre noire ni du croissant. Ces phrases ferment les cœurs, et elles ne sont pas exactes. Le musulman sincère veut adorer le Dieu unique, le créateur du ciel et de la terre. Il se trompe sur qui est ce Dieu, mais il ne cherche pas à adorer une idole."
     },
     {
      "sous_titre": "Ce que tu peux dire"
     },
     {
-     "texte": "Tu peux dire : « Nous croyons tous les deux qu'il n'y a qu'un seul Dieu, et que les idoles ne sont rien. Mais la question est : comment ce Dieu unique s'est-il fait connaître ? Par un livre seulement, ou en venant lui-même parmi nous ? » Tu peux poser des questions sur les rites anciens, avec respect. Tu peux parler du vrai temple, Jésus, et du vrai sacrifice. Paul dit : conduisez-vous avec sagesse envers ceux du dehors, et rachetez le temps. Que votre parole soit toujours accompagnée de grâce, assaisonnée de sel (Colossiens 4:5-6)."
+     "texte": "Tu peux dire : « Nous croyons tous les deux qu'il n'y a qu'un seul Dieu, et que les idoles ne sont rien. Mais voici la vraie question : comment est-ce que ce Dieu unique s'est fait connaître ? Seulement par un livre ? Ou bien en venant lui-même parmi nous, en Jésus ? »"
+    },
+    {
+     "texte": "Tu peux poser des questions sur les gestes anciens, avec respect. Tu peux parler du vrai lieu de rencontre avec Dieu, qui est Jésus, et du vrai sacrifice, qui est la croix. Paul dit : conduisez-vous avec sagesse envers ceux du dehors, et rachetez le temps. Que votre parole soit toujours accompagnée de grâce, assaisonnée de sel (Colossiens 4:5-6)."
     }
    ]
   },
   {
    "numero": "9",
-   "titre": "On raconte…",
+   "titre": "L'histoire d'un jeune chrétien trop pressé",
    "references": [
     "Ps 115:4-8"
    ],
    "blocs": [
     {
-     "texte": "On raconte qu'un jeune chrétien zélé de Garoua, qui avait regardé une vidéo sur internet, alla trouver son voisin, un maître coranique respecté, et lui dit fièrement : « Ton Allah est un dieu-lune ! La preuve, c'est le croissant sur ta mosquée ! » Le vieil homme sourit, ouvrit son Coran à la sourate 41, et lui lut : ne vous prosternez ni devant le soleil ni devant la lune. Puis il dit : « Mon fils, tu as parlé sans savoir. Ton Dieu t'a-t-il appris à mentir ? » Le jeune homme rentra chez lui, honteux. Son pasteur, à qui il raconta l'histoire, lui dit : « Va lui demander pardon. » Le jeune homme y alla. Le vieil homme fut si surpris qu'un chrétien vienne s'excuser qu'il l'invita à boire le thé. Ce jour-là, ils parlèrent longtemps, et pour la première fois, le maître coranique écouta un chrétien lui parler de Jésus, la Parole de Dieu. Le jeune homme apprit ce jour-là qu'une vérité dite avec humilité ouvre plus de portes qu'un argument faux lancé avec orgueil."
+     "texte": "Voici une histoire. Un jeune chrétien de Garoua, plein de zèle, avait regardé une vidéo sur internet. Il est allé voir son voisin, un maître coranique respecté, et il lui a dit avec fierté : « Ton Allah est un dieu-lune ! La preuve, c'est le croissant sur ta mosquée ! »"
+    },
+    {
+     "texte": "Le vieil homme a souri. Il a ouvert son Coran à la sourate 41, et il lui a lu : ne vous prosternez ni devant le soleil ni devant la lune. Puis il a dit : « Mon fils, tu as parlé sans savoir. Est-ce que ton Dieu t'a appris à mentir ? »"
+    },
+    {
+     "texte": "Le jeune homme est rentré chez lui avec la honte. Il a raconté l'histoire à son pasteur. Le pasteur lui a dit : « Va lui demander pardon. » Le jeune homme y est allé. Le vieil homme a été tellement surpris qu'un chrétien vienne s'excuser qu'il l'a invité à boire le thé. Ce jour-là, ils ont parlé longtemps. Et pour la première fois, le maître coranique a écouté un chrétien lui parler de Jésus, la Parole de Dieu."
+    },
+    {
+     "texte": "Qu'est-ce que le jeune homme a appris ce jour-là ? Il a appris qu'une vérité dite avec humilité ouvre plus de portes qu'un faux argument lancé avec orgueil."
     }
    ]
   },
@@ -352,13 +466,22 @@
      "sous_titre": "Résumons"
     },
     {
-     "texte": "Le croissant n'a pas été un symbole de l'islam au temps de Mahomet : c'est un ancien symbole, repris par les Turcs ottomans après la prise de Constantinople, puis devenu une marque culturelle de l'islam. La lune compte pour les musulmans parce que leur calendrier est lunaire. La théorie d'un Allah « dieu-lune » n'est pas prouvée, et le Coran condamne lui-même le culte de la lune. Le nom d'Allah, de la famille du mot hébreu « El », était utilisé par les païens, qui lui associaient d'autres dieux, et par les chrétiens arabes. Le Coran se moque des « filles d'Allah » ; des historiens musulmans anciens rapportent l'épisode des « versets sataniques », que beaucoup de savants rejettent. L'islam a gardé des rites plus anciens, comme la pierre noire, les tours de la Kaaba et la course entre Safa et Marwa, en leur donnant un sens nouveau. Le chapelet, la main de Fatima, le vert, le refus des images, le minaret sont des signes d'identité de valeur très diverse. Chrétiens et musulmans sont monothéistes : la différence n'est pas le nombre de dieux, mais la manière dont le Dieu unique s'est révélé."
+     "texte": "Le croissant n'était pas un symbole de l'islam au temps de Mahomet. C'est un ancien symbole, repris par les Turcs après la prise de Constantinople, puis devenu une marque des pays musulmans. La lune compte pour les musulmans parce que leur calendrier suit la lune."
+    },
+    {
+     "texte": "L'idée qu'Allah serait un dieu-lune n'est pas prouvée, et le Coran lui-même interdit d'adorer la lune. Le nom d'Allah est de la même famille que le mot hébreu « El ». Il était utilisé par les païens, qui ajoutaient d'autres dieux à côté de lui, et par les chrétiens arabes."
+    },
+    {
+     "texte": "Le Coran se moque des « filles d'Allah ». Des historiens musulmans anciens racontent l'épisode des « versets sataniques », mais beaucoup de savants le refusent. L'islam a gardé des gestes plus anciens, comme la pierre noire, les tours de la Kaaba et la course entre Safa et Marwa, en leur donnant une nouvelle explication. Le chapelet, la main de Fatima, le vert, le refus des images et le minaret sont des signes d'identité, de valeur très différente."
+    },
+    {
+     "texte": "Il n'y a qu'un seul vrai Dieu. Les chrétiens et les musulmans disent tous les deux qu'il y a un seul Dieu. Mais ils ne décrivent pas le même Dieu, car le Dieu de la Bible s'est fait connaître en Jésus."
     },
     {
      "sous_titre": "Le seul Dieu"
     },
     {
-     "texte": "Je suis l'Éternel, et il n'y en a point d'autre (Ésaïe 45:5). Ce Dieu unique ne s'est pas fait connaître par un astre ni par une pierre, mais par son Fils."
+     "texte": "Je suis l'Éternel, et il n'y en a point d'autre (Ésaïe 45:5). Ce Dieu unique ne s'est pas fait connaître par un astre ni par une pierre. Il s'est fait connaître par son Fils, Jésus-Christ."
     }
    ]
   }
@@ -370,31 +493,31 @@
   },
   {
    "titre": "Pour ceux qui portent des amulettes",
-   "texte": "Prions pour les musulmans et les chrétiens qui mettent leur confiance dans des objets de protection, afin qu'ils découvrent la protection de Jésus (1 Jean 5:21)."
+   "texte": "Prions pour les musulmans et pour les chrétiens qui mettent leur confiance dans des objets de protection, afin qu'ils découvrent la protection de Jésus (1 Jean 5:21)."
   },
   {
    "titre": "Pour les pèlerins",
-   "texte": "Prions pour les musulmans qui font le pèlerinage à La Mecque, afin que leur soif de Dieu les conduise au vrai sanctuaire, Jésus (Jean 2:19-21)."
+   "texte": "Prions pour les musulmans qui font le pèlerinage à La Mecque, afin que leur soif de Dieu les conduise vers Jésus, le vrai lieu de rencontre avec Dieu (Jean 2:19-21)."
   },
   {
    "titre": "Pour nos Églises",
-   "texte": "Prions afin que nos Églises soient libérées de tout ce qui ressemble aux idoles des peuples (Ésaïe 45:5)."
+   "texte": "Prions afin que nos Églises et nos familles soient libérées de tout ce qui ressemble aux idoles (Ésaïe 45:5)."
   }
  ],
  "questions": [
   {
-   "question": "Le croissant était-il un symbole de l'islam au temps de Mahomet ?",
+   "question": "Est-ce que le croissant était un symbole de l'islam au temps de Mahomet ?",
    "choix": [
     "Oui, il l'a choisi lui-même",
-    "Non, il a été repris plus tard, surtout par les Turcs ottomans",
-    "Oui, il est ordonné par le Coran"
+    "Non, il a été repris plus tard, surtout par les Turcs",
+    "Oui, le Coran l'ordonne"
    ],
    "reponse": 1,
-   "explication": "Constantinople l'utilisait déjà sur ses monnaies dans l'Antiquité.",
+   "explication": "La ville de Constantinople l'utilisait déjà sur ses pièces de monnaie.",
    "section": "1"
   },
   {
-   "question": "Que dit le Coran en sourate 41, verset 37 ?",
+   "question": "Que dit le Coran dans la sourate 41, au verset 37 ?",
    "choix": [
     "Prosternez-vous devant la lune",
     "Ne vous prosternez ni devant le soleil ni devant la lune",
@@ -405,29 +528,29 @@
    "section": "2"
   },
   {
-   "question": "Que disaient les païens pendant le pèlerinage, selon Mouslim 1185 ?",
+   "question": "Selon Mouslim 1185, que disaient les païens pendant le pèlerinage ?",
    "choix": [
     "Allah n'existe pas",
     "Tu n'as pas d'associé, sauf un associé qui t'appartient",
     "Nous adorons la lune"
    ],
    "reponse": 1,
-   "explication": "Ils croyaient en Allah, mais lui associaient d'autres dieux.",
+   "explication": "Ils croyaient en Allah, mais ils lui ajoutaient d'autres dieux.",
    "section": "3"
   },
   {
-   "question": "Que dit Omar en embrassant la pierre noire, selon Boukhari 1597 ?",
+   "question": "Selon Boukhari 1597, qu'a dit Omar en embrassant la pierre noire ?",
    "choix": [
-    "Qu'elle a sauvé son âme",
+    "Qu'elle avait sauvé son âme",
     "Qu'elle n'est qu'une pierre qui ne peut ni nuire ni être utile",
     "Qu'elle est Allah"
    ],
    "reponse": 1,
-   "explication": "Il ne la touchait que parce qu'il avait vu le prophète le faire.",
+   "explication": "Il ne l'embrassait que parce qu'il avait vu Mahomet le faire.",
    "section": "5"
   },
   {
-   "question": "Pourquoi les mosquées n'ont-elles pas de statues ni d'images de personnes ?",
+   "question": "Pourquoi est-ce qu'il n'y a pas de statues ni d'images de personnes dans les mosquées ?",
    "choix": [
     "Par manque d'argent",
     "Parce que les hadiths interdisent de représenter les êtres vivants",
@@ -438,21 +561,21 @@
    "section": "6"
   },
   {
-   "question": "Les chrétiens sont-ils des « associateurs », comme les païens de La Mecque ?",
+   "question": "Est-ce que le chrétien et le musulman adorent le même Dieu ?",
    "choix": [
-    "Oui",
-    "Non : ils croient en un seul Dieu, révélé comme Père, Fils et Saint-Esprit",
-    "Ils ne savent pas"
+    "Oui, c'est exactement le même",
+    "Non : les deux disent qu'il y a un seul Dieu, mais ils ne le décrivent pas de la même façon, car le Dieu de la Bible s'est fait connaître en Jésus",
+    "Personne ne peut le savoir"
    ],
    "reponse": 1,
-   "explication": "Jésus n'est pas un homme devenu dieu, mais la Parole éternelle devenue homme.",
+   "explication": "Les musulmans eux-mêmes disent que si l'on adore Jésus comme Dieu, on n'a pas le même Dieu qu'eux.",
    "section": "7"
   }
  ],
  "devoir": [
-  "Lis Ésaïe 44:9-20 et Actes 17:16-31. Note comment la Bible parle des idoles, et comment Paul parle aux idolâtres.",
-  "Fais l'inventaire de ta maison : y a-t-il des objets de « protection » qui n'ont rien à voir avec Jésus ?",
-  "Si tu as déjà dit à un musulman que son Dieu était un dieu-lune ou Satan, prie pour lui, et si possible, va lui demander pardon."
+  "Lis Ésaïe 44:9-20 et Actes 17:16-31. Note comment la Bible parle des idoles, et comment Paul parle à ceux qui adorent des idoles.",
+  "Fais le tour de ta maison. Est-ce qu'il y a des objets de « protection » qui n'ont rien à voir avec Jésus ?",
+  "Si tu as déjà dit à un musulman que son Dieu était un dieu-lune ou Satan, prie pour lui. Et si c'est possible, va lui demander pardon."
  ],
  "prieres_liees": [],
  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
