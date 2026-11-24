@@ -108,6 +108,7 @@ export function EnseignementEcrit({ id, ecouter }) {
           <a class="bouton bouton--contour bouton--petit" href="#/priere/journal?nouveau=1">Noter mes réponses dans mon journal</a>
         </section>
       )}
+      {e.ressources?.length > 0 && <Ressources items={e.ressources} />}
       {e.prieres_liees?.length > 0 && <PrieresLiees liens={e.prieres_liees} />}
       <LienVideo url={e.video} duree={e.video_duree} auteur={e.auteur} />
       {(() => { const pl = placeDans(e.id); return pl && (
@@ -158,6 +159,24 @@ export function Questions({ e }) {
             <p class="score-ens">{bonnes} bonne{bonnes > 1 ? 's' : ''} réponse{bonnes > 1 ? 's' : ''} sur {qs.length}. {bonnes === qs.length ? 'Bravo, tu as compris l\'essentiel !' : 'Relis les points indiqués, puis réessaie.'}</p>
             <button class="bouton bouton--contour" style="width:100%" onClick={() => { setRep({}); setVerifie(false); }}>Recommencer</button>
           </>}
+    </section>
+  );
+}
+
+// Fin d'enseignement : outils de l'application à utiliser ensuite (parcours, leçons, pas).
+function Ressources({ items }) {
+  return (
+    <section class="carte bloc prieres-liees">
+      <h3><span class="ligne__icone"><Icone nom="note" /></span> Les outils pour le suivi</h3>
+      <p class="ligne__desc">Tout ce qu'il te faut est déjà dans l'application :</p>
+      <div class="liste">
+        {items.map((it) => (
+          <a class="carte ligne" href={it.lien}>
+            <span class="ligne__corps"><span class="ligne__titre" style="display:block">{it.titre}</span>{it.desc && <span class="ligne__desc">{it.desc}</span>}</span>
+            <Icone nom="chevron" taille={20} />
+          </a>
+        ))}
+      </div>
     </section>
   );
 }
