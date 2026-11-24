@@ -1,0 +1,231 @@
+{
+ "id": "v0-pas-03-jesus-bon-berger",
+ "volume": 0,
+ "numero": 3,
+ "titre": "Jésus, le Bon Berger",
+ "sous_titre": "Quelqu'un se soucie-t-il de moi ?",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "jesus-03-bon-berger",
+ "verset_memoire": "Jean 10:11",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que tu découvres de Jésus.",
+  "jours": [
+   "Jean 10:1-18",
+   "Jean 10:22-30",
+   "Matthieu 9:35-38",
+   "Psaume 23",
+   "Ézéchiel 34:11-16",
+   "1 Pierre 5:6-11",
+   "Luc 15:1-7"
+  ]
+ },
+ "introduction": [
+  "Beaucoup se sentent seuls, abandonnés, ou maltraités. Jésus se présente comme un berger qui connaît ses brebis.",
+  "Cette semaine, tu vas découvrir le Berger qui donne sa vie pour toi."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Tous ceux qui disent être disciples de Christ finiront par me décevoir.",
+       "reponse": false,
+       "explication": "Les hommes peuvent décevoir, mais Christ ne déçoit jamais (Hébreux 13:5)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Personne ne s'intéresse vraiment à moi.",
+       "reponse": false,
+       "explication": "1 Pierre 5:7 : il prend soin de vous."
+      },
+      {
+       "id": "vf3",
+       "texte": "Christ prendra soin de moi pour l'éternité.",
+       "reponse": true,
+       "explication": "Jean 10:28-29."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Le bon berger",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Matthieu 9:36 et Jean 10:1-6. Comment Jésus voit-il les foules ? Que fait un vrai berger ?",
+     "refs": [
+      "Matthieu 9:36",
+      "Jean 10:1-6"
+     ],
+     "accompagnateur": {
+      "attendu": "Il a compassion : elles sont comme des brebis sans berger. Le berger entre par la porte, appelle chaque brebis par son nom, marche devant elle.",
+      "expliquer": [
+       "Jésus connaît ton nom, ta vie, ta douleur."
+      ],
+      "relance": "Te sens-tu comme une brebis sans berger ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Jean 10:11-15. Quelle différence y a-t-il entre le bon berger et le mercenaire ?",
+     "refs": [
+      "Jean 10:11-15"
+     ],
+     "accompagnateur": {
+      "attendu": "Le bon berger donne sa vie pour ses brebis. Le mercenaire s'enfuit quand le loup vient, car il ne s'intéresse qu'à son salaire.",
+      "expliquer": [
+       "Beaucoup de personnes autour de nous s'enfuient quand les difficultés viennent. Jésus reste."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Ce que le berger donne",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Jean 10:9-10 et 10:27-28. Qu'offre Jésus à ses brebis ?",
+     "refs": [
+      "Jean 10:9-10",
+      "Jean 10:27-28"
+     ],
+     "accompagnateur": {
+      "attendu": "Le salut, la liberté, la vie en abondance, la vie éternelle. Personne ne peut les arracher de sa main.",
+      "expliquer": [
+       "Sécurité et vie."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Psaume 23. Comment le berger prend-il soin de nous ?",
+     "refs": [
+      "Psaume 23"
+     ],
+     "accompagnateur": {
+      "attendu": "Il conduit, restaure, guide, protège dans la vallée de l'ombre de la mort, prépare une table, accompagne toute la vie.",
+      "expliquer": [
+       "Faire lire à voix haute lentement."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Luc 15:1-7 et 1 Pierre 5:7. Que fait le berger de la brebis perdue ? Que veut-il que je lui remette ?",
+     "refs": [
+      "Luc 15:1-7",
+      "1 Pierre 5:7"
+     ],
+     "accompagnateur": {
+      "attendu": "Il va la chercher jusqu'à la trouver, la met sur ses épaules avec joie. Il veut que nous lui remettions toutes nos inquiétudes.",
+      "expliquer": [
+       "Chaque personne compte pour lui."
+      ],
+      "relance": "Qu'as-tu besoin de lui remettre ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Ma réflexion",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Ma réflexion",
+     "texte": [
+      "1. Ce qui me fait me sentir abandonné :",
+      "2. Ce que le Bon Berger me dit :",
+      "3. Ce que je lui confie :",
+      "4. Ma prière :"
+     ],
+     "champ": "Ma réflexion",
+     "id": "plan-v0-pas-03-jesus-bon-berger"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Jean 10:11 de mémoire.",
+     "refs": [
+      "Jean 10:11"
+     ],
+     "accompagnateur": {
+      "attendu": "« Je suis le bon berger. Le bon berger donne sa vie pour ses brebis. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Le bon berger",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Ce que le berger donne",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Jean 10:11. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ce parcours est pour quelqu'un qui cherche : ne pas le presser ni lui faire dire une prière avant qu'il soit prêt.",
+   "Écouter ses questions avant de répondre. Ne jamais se moquer de sa religion ou de sa famille.",
+   "Si la personne décide de suivre Jésus, passer au volume 1 « Les pas de base » et au bilan de vie, en protégeant sa sécurité."
+  ]
+ }
+}

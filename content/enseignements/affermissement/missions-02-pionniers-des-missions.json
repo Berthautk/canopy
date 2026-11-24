@@ -1,0 +1,132 @@
+{
+ "id": "missions-02-pionniers-des-missions",
+ "titre": "Pionniers des missions",
+ "serie": "Les missions mondiales",
+ "theme": "Missions",
+ "auteur": "Yeshaya",
+ "resume": "Paul, Barnabas et l'Église d'Antioche : le modèle de l'envoi missionnaire.",
+ "image": "/assets/lieux-bibliques/marche-de-village.webp",
+ "verset_de_base": "Actes 13:2",
+ "lecture_minutes": 6,
+ "objectifs": [
+  "Comprendre le thème : Pionniers des missions.",
+  "Trouver dans la Bible la réponse à ce thème.",
+  "Mettre en pratique une décision précise cette semaine."
+ ],
+ "introduction": "Le livre des Actes est un manuel de missions. Il raconte comment l'Évangile est allé de Jérusalem à Rome. Au centre, l'Église d'Antioche qui a prié, jeûné et envoyé Paul et Barnabas.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Appelés et envoyés",
+   "references": [
+    "Actes 13:1-3",
+    "Actes 26:12-18"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Actes 13:1-3. Pendant que l'Église servait le Seigneur et jeûnait, l'Esprit a demandé de mettre Barnabas et Saul à part. L'Église a jeûné, prié, imposé les mains et les a envoyés."
+    },
+    {
+     "texte": "Un appel est confirmé par l'Église. L'Église prie et envoie."
+    },
+    {
+     "texte": "Lisons Actes 26:12-18. Ouvrir les yeux des hommes, les faire passer des ténèbres à la lumière, de la puissance de Satan à Dieu, pour recevoir le pardon des péchés."
+    },
+    {
+     "texte": "C'est le but de toute mission : conduire à la lumière."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Sur les pas de Paul",
+   "references": [
+    "Actes 14:1-7",
+    "Actes 14:19-23",
+    "2 Corinthiens 11:23-28",
+    "Romains 15:20-21"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Actes 14:1-7 et Actes 14:19-23. Il prêchait, des gens croyaient, il y avait de l'opposition, il était même lapidé. Il revenait, fortifiait les disciples, établissait des anciens."
+    },
+    {
+     "texte": "Le but n'est pas seulement de convertir, mais de fonder des églises solides."
+    },
+    {
+     "texte": "Lisons 2 Corinthiens 11:23-28. Prisons, coups, danger de mort, naufrages, dangers sur les routes, faim, froid, soucis pour les églises."
+    },
+    {
+     "texte": "Ne pas minimiser le prix. Dieu a donné à Paul la force de tenir."
+    },
+    {
+     "texte": "Lisons Romains 15:20-21. Annoncer l'Évangile là où Christ n'avait pas encore été nommé."
+    },
+    {
+     "texte": "On parle de missions « pionnières » : aller vers ceux qui n'ont pas entendu."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Ce que nous retenons",
+   "references": [],
+   "blocs": [
+    {
+     "texte": "Une mission commence par l'appel de Dieu, la prière de l'Église et l'envoi. Elle coûte cher. Elle vise à établir des Églises solides. Dieu cherche encore des pionniers."
+    },
+    {
+     "verset": "Actes 13:2"
+    }
+   ]
+  }
+ ],
+ "sujets": [
+  {
+   "titre": "Envoyés",
+   "texte": "Prions pour que les Églises sachent discerner et envoyer ceux que Dieu appelle (Actes 13:2-3)."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Le livre des Actes est un manuel de missions : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Il raconte comment l'Évangile est allé jusqu'à Rome.",
+   "section": "1"
+  },
+  {
+   "question": "Paul est devenu missionnaire de lui-même, sans appel : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "Il a été appelé par Jésus (Actes 26:16-18) et envoyé par l'Église d'Antioche (Actes 13:1-3).",
+   "section": "1"
+  },
+  {
+   "question": "Les missionnaires n'ont pas souffert : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "Paul a connu prison, coups, naufrages (2 Corinthiens 11:23-27).",
+   "section": "1"
+  }
+ ],
+ "devoir": [
+  "Relis les passages de cette leçon et note ce qui te touche le plus.",
+  "Complète ton plan : Mon plan.",
+  "Apprends par cœur Actes 13:2.",
+  "Parle de ce que tu as découvert à une personne de confiance."
+ ],
+ "prieres_liees": [],
+ "source": "Parcours inspiré de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), manuel gratuit : les thèmes, le plan et les passages bibliques sont repris ; les questions, les explications, les enseignements et les guides de l'encadreur sont rédigés par Yeshaya.",
+ "date_ajout": "2026-11-24",
+ "relu": false
+}

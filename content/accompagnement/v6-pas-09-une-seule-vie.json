@@ -1,0 +1,231 @@
+{
+ "id": "v6-pas-09-une-seule-vie",
+ "volume": 6,
+ "numero": 9,
+ "titre": "Une seule vie",
+ "sous_titre": "Que faire de la seule vie que j'ai ?",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "missions-09-une-seule-vie",
+ "verset_memoire": "2 Corinthiens 4:17-18",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que Dieu dit de sa mission.",
+  "jours": [
+   "2 Corinthiens 4:7-18",
+   "Philippiens 3:7-14",
+   "Psaume 90",
+   "Matthieu 6:19-21",
+   "Luc 9:23-27",
+   "Actes 20:17-24",
+   "Romains 12:1-2"
+  ]
+ },
+ "introduction": [
+  "Nous n'avons qu'une seule vie. Que voulons-nous en faire ?",
+  "Cette semaine, tu vas réfléchir à la valeur de ta vie et à ce qui durera pour toujours."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Je peux emporter mes richesses après la mort.",
+       "reponse": false,
+       "explication": "1 Timothée 6:7 : nous n'avons rien apporté et nous ne pouvons rien emporter."
+      },
+      {
+       "id": "vf2",
+       "texte": "Ce qui est fait pour Christ durera.",
+       "reponse": true,
+       "explication": "1 Corinthiens 15:58."
+      },
+      {
+       "id": "vf3",
+       "texte": "Il est trop tôt pour réfléchir à ce que je ferai de ma vie.",
+       "reponse": false,
+       "explication": "Psaume 90:12 : enseigne-nous à bien compter nos jours."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Ce qui dure",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Psaume 90:10-12 et Matthieu 6:19-21. Que dit la Bible de la brièveté de la vie et des trésors ?",
+     "refs": [
+      "Psaume 90:10-12",
+      "Matthieu 6:19-21"
+     ],
+     "accompagnateur": {
+      "attendu": "Nos jours sont courts : apprendre à les compter pour avoir un cœur sage. Amasser des trésors dans le ciel, pas sur la terre.",
+      "expliquer": [
+       "Beaucoup de gens construisent pour ce qui passe."
+      ],
+      "relance": "Qu'est-ce que tu construis ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis 2 Corinthiens 4:16-18. Qu'est-ce qui est visible et passager ? Qu'est-ce qui est invisible et éternel ?",
+     "refs": [
+      "2 Corinthiens 4:16-18"
+     ],
+     "accompagnateur": {
+      "attendu": "Le visible passe : l'argent, le confort, l'apparence. L'invisible demeure : les âmes, la vie avec Dieu, ce qui est fait pour Christ.",
+      "expliquer": [
+       "Les missionnaires ont dit : « Une seule vie, bientôt passée ; seul ce qui est fait pour Christ restera. »"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Offrir sa vie",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Philippiens 3:7-10 et Luc 9:23-25. Comment Paul regarde-t-il sa vie ?",
+     "refs": [
+      "Philippiens 3:7-10",
+      "Luc 9:23-25"
+     ],
+     "accompagnateur": {
+      "attendu": "Il a tout regardé comme une perte à cause de l'excellence de connaître Christ. Qui perd sa vie à cause de Jésus la sauvera.",
+      "expliquer": [
+       "Donner sa vie, ce n'est pas la perdre : c'est la gagner."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Actes 20:22-24 et Romains 12:1. Quelle est l'attitude de Paul devant l'avenir ?",
+     "refs": [
+      "Actes 20:22-24",
+      "Romains 12:1"
+     ],
+     "accompagnateur": {
+      "attendu": "Il ne tient pas sa vie pour précieuse, pourvu qu'il achève sa course et le ministère reçu du Seigneur. Il s'offre à Dieu comme sacrifice vivant.",
+      "expliquer": [
+       "Chacun peut s'offrir à Dieu dans son travail, sa famille, sa communauté."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Qu'est-ce que tu veux que Dieu dise de toi à la fin de ta vie ? Quelle décision prends-tu aujourd'hui ?",
+     "refs": [
+      "Matthieu 25:21"
+     ],
+     "accompagnateur": {
+      "attendu": "Une phrase personnelle et une décision.",
+      "expliquer": [
+       "Prier avec la personne pour lui remettre sa vie."
+      ],
+      "relance": "Quelle est ta décision ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Ma vie",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Ma vie",
+     "texte": [
+      "1. Ce que je construis pour ce monde :",
+      "2. Ce que je veux construire pour l'éternité :",
+      "3. Ce que je lui remets :",
+      "4. Ma décision :"
+     ],
+     "champ": "Ma vie",
+     "id": "plan-v6-pas-09-une-seule-vie"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris 2 Corinthiens 4:17-18 de mémoire.",
+     "refs": [
+      "2 Corinthiens 4:17-18"
+     ],
+     "accompagnateur": {
+      "attendu": "« Car nos légères afflictions du moment présent produisent pour nous, au-delà de toute mesure, un poids éternel de gloire, parce que nous regardons, non point aux choses visibles, mais à celles qui sont invisibles ; car les choses visibles sont passagères, et les invisibles sont éternelles. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Ce qui dure",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Offrir sa vie",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter 2 Corinthiens 4:17-18. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas décourager ceux qui ne se sentent pas appelés à partir : toute la vie chrétienne est une mission.",
+   "Si la personne est tentée de s'engager trop vite, l'aider à chercher conseil auprès de l'Église et de responsables.",
+   "Prier ensemble pour des missionnaires précis, par leur nom."
+  ]
+ }
+}

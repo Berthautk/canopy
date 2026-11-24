@@ -1,0 +1,233 @@
+{
+ "id": "v0-pas-05-christ-mon-avocat",
+ "volume": 0,
+ "numero": 5,
+ "titre": "Christ, mon Avocat",
+ "sous_titre": "Qui parlera pour moi devant Dieu ?",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "jesus-05-christ-mon-avocat",
+ "verset_memoire": "1 Jean 2:1",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que tu découvres de Jésus.",
+  "jours": [
+   "1 Jean 1:5-2:2",
+   "Romains 3:9-26",
+   "1 Timothée 2:1-7",
+   "Hébreux 7:23-28",
+   "Hébreux 4:14-16",
+   "Romains 8:31-39",
+   "Apocalypse 12:7-12"
+  ]
+ },
+ "introduction": [
+  "Quand nous comparaîtrons devant Dieu, qui parlera pour nous ?",
+  "Cette semaine, tu vas découvrir l'Avocat que Dieu nous a donné."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Au jugement de Dieu, nous aurons besoin de quelqu'un pour nous défendre.",
+       "reponse": true,
+       "explication": "Romains 3:19-20 : personne n'est justifié par ses propres œuvres."
+      },
+      {
+       "id": "vf2",
+       "texte": "Jésus défend seulement ceux qui sont coupables.",
+       "reponse": false,
+       "explication": "Tous sont coupables ; Jésus défend ceux qui viennent à lui (1 Jean 2:1)."
+      },
+      {
+       "id": "vf3",
+       "texte": "Il y a plusieurs intermédiaires entre Dieu et les hommes.",
+       "reponse": false,
+       "explication": "1 Timothée 2:5 : un seul médiateur, Jésus-Christ."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Pourquoi un avocat ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Romains 3:10-12, 23 et Ésaïe 64:5-6. Que dit Dieu de nos justices personnelles ?",
+     "refs": [
+      "Romains 3:10-12",
+      "Romains 3:23",
+      "Ésaïe 64:5-6"
+     ],
+     "accompagnateur": {
+      "attendu": "Personne n'est juste. Tous ont péché. Même nos belles actions sont comme un vêtement souillé.",
+      "expliquer": [
+       "Nous ne pourrions pas nous défendre seuls."
+      ],
+      "relance": "Si Dieu te demandait de te justifier, que dirais-tu ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Apocalypse 12:10 et Hébreux 9:27. Qui nous accuse ? Qu'est-ce qui nous attend ?",
+     "refs": [
+      "Apocalypse 12:10",
+      "Hébreux 9:27"
+     ],
+     "accompagnateur": {
+      "attendu": "Le diable, l'accusateur, nous accuse devant Dieu jour et nuit. Chaque homme meurt une fois, puis vient le jugement.",
+      "expliquer": [
+       "Un avocat est nécessaire."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Mon avocat, mon médiateur",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis 1 Jean 2:1-2 et 1 Timothée 2:5-6. Qui est notre avocat ? Pourquoi peut-il nous défendre ?",
+     "refs": [
+      "1 Jean 2:1-2",
+      "1 Timothée 2:5-6"
+     ],
+     "accompagnateur": {
+      "attendu": "Jésus-Christ le juste. Il est la victime expiatoire pour nos péchés. Il est le seul médiateur entre Dieu et les hommes : il s'est donné en rançon.",
+      "expliquer": [
+       "Il ne plaide pas notre innocence : il montre qu'il a payé la dette."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Hébreux 7:25 et Romains 8:33-34. Que fait-il aujourd'hui pour nous ?",
+     "refs": [
+      "Hébreux 7:25",
+      "Romains 8:33-34"
+     ],
+     "accompagnateur": {
+      "attendu": "Il est toujours vivant pour intercéder pour nous. Qui accusera ceux que Dieu a choisis ? Christ est mort, il est ressuscité, il intercède.",
+      "expliquer": [
+       "Il prie pour nous maintenant."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Hébreux 4:14-16. Comment pouvons-nous nous approcher de Dieu ?",
+     "refs": [
+      "Hébreux 4:14-16"
+     ],
+     "accompagnateur": {
+      "attendu": "Avec assurance, auprès du trône de la grâce, pour recevoir miséricorde et secours au bon moment, car Jésus compatit à nos faiblesses.",
+      "expliquer": [
+       "Nous n'avons pas besoin d'autres intermédiaires."
+      ],
+      "relance": "Veux-tu lui confier ta cause ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Ma réflexion",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Ma réflexion",
+     "texte": [
+      "1. Ce que je crains au jugement :",
+      "2. Ce que mon Avocat fait pour moi :",
+      "3. Ce que je lui dis :",
+      "4. Ma prière :"
+     ],
+     "champ": "Ma réflexion",
+     "id": "plan-v0-pas-05-christ-mon-avocat"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris 1 Jean 2:1 de mémoire.",
+     "refs": [
+      "1 Jean 2:1"
+     ],
+     "accompagnateur": {
+      "attendu": "« Mes petits enfants, je vous écris ces choses, afin que vous ne péchiez point. Et si quelqu'un a péché, nous avons un avocat auprès du Père, Jésus-Christ le juste. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Pourquoi un avocat ?",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Mon avocat, mon médiateur",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter 1 Jean 2:1. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ce parcours est pour quelqu'un qui cherche : ne pas le presser ni lui faire dire une prière avant qu'il soit prêt.",
+   "Écouter ses questions avant de répondre. Ne jamais se moquer de sa religion ou de sa famille.",
+   "Si la personne décide de suivre Jésus, passer au volume 1 « Les pas de base » et au bilan de vie, en protégeant sa sécurité."
+  ]
+ }
+}

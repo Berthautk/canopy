@@ -23,7 +23,7 @@ import {
 
 const tousLesPas = () => ACCOMPAGNEMENT.volumes.flatMap((v) => v.pas.map((p) => ({ ...p, volume: v.numero })));
 const pasDe = (id) => tousLesPas().find((p) => p.id === id);
-const pasSuivant = (id) => { const l = tousLesPas(), i = l.findIndex((p) => p.id === id); return l.slice(i + 1).find((p) => p.id) || null; };
+const pasSuivant = (id) => { const l = tousLesPas(), i = l.findIndex((p) => p.id === id); const v0 = l[i]?.volume === 0; return l.slice(i + 1).find((p) => p.id && (v0 ? p.volume === 0 : p.volume !== 0)) || null; };
 const lienRef = (t) => { const r = lireReference(t); return r ? `#/bible/lire/${r.code}/${r.c}${r.v ? '/' + r.v : ''}` : null; };
 function Refs({ refs }) {
   if (!refs?.length) return null;

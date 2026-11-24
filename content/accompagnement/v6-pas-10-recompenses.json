@@ -1,0 +1,232 @@
+{
+ "id": "v6-pas-10-recompenses",
+ "volume": 6,
+ "numero": 10,
+ "titre": "Les récompenses",
+ "sous_titre": "La joie et la récompense du serviteur",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "missions-10-recompenses",
+ "verset_memoire": "Habacuc 2:14",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que Dieu dit de sa mission.",
+  "jours": [
+   "Habacuc 2:1-14",
+   "Matthieu 25:14-30",
+   "Philippiens 1:3-11",
+   "1 Thessaloniciens 2:17-20",
+   "Daniel 12:1-4",
+   "Apocalypse 21:1-8",
+   "Apocalypse 22:1-5"
+  ]
+ },
+ "introduction": [
+  "Servir Dieu coûte, mais il apporte aussi une grande joie et une récompense.",
+  "Cette semaine, tu vas voir ce que Dieu prépare pour ceux qui lui sont fidèles."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Servir Dieu est seulement un sacrifice.",
+       "reponse": false,
+       "explication": "Il y a de la joie à voir des vies changées (3 Jean 4)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Dieu récompense la fidélité.",
+       "reponse": true,
+       "explication": "Matthieu 25:21, 23."
+      },
+      {
+       "id": "vf3",
+       "texte": "L'Évangile change vraiment ceux qui l'entendent.",
+       "reponse": true,
+       "explication": "Actes 26:18."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. La joie du serviteur",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Actes 26:17-18 et Romains 8:1. Que fait l'Évangile dans la vie de ceux qui l'entendent ?",
+     "refs": [
+      "Actes 26:17-18",
+      "Romains 8:1"
+     ],
+     "accompagnateur": {
+      "attendu": "Il ouvre les yeux, tire des ténèbres, délivre de la puissance de Satan, donne le pardon et un héritage. Plus de condamnation.",
+      "expliquer": [
+       "Voir la vie des gens changée est une grande joie."
+      ],
+      "relance": "As-tu déjà vu quelqu'un changer grâce à l'Évangile ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis 1 Thessaloniciens 1:8 et 2:17-20. Quelle joie Paul trouve-t-il dans les convertis ?",
+     "refs": [
+      "1 Thessaloniciens 1:8",
+      "1 Thessaloniciens 2:17-20"
+     ],
+     "accompagnateur": {
+      "attendu": "Il les appelle sa gloire et sa joie. L'Évangile se répand à partir d'eux.",
+      "expliquer": [
+       "Les convertis sont la plus grande récompense du missionnaire."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. La récompense de Dieu",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Matthieu 25:14-23. Que dit le maître aux serviteurs fidèles ?",
+     "refs": [
+      "Matthieu 25:14-23"
+     ],
+     "accompagnateur": {
+      "attendu": "« C'est bien, bon et fidèle serviteur ; entre dans la joie de ton maître. »",
+      "expliquer": [
+       "Dieu ne demande pas de grandes réussites mais la fidélité."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Daniel 12:3 et Habacuc 2:14. Que promet Dieu à ceux qui conduisent d'autres à la justice ?",
+     "refs": [
+      "Daniel 12:3",
+      "Habacuc 2:14"
+     ],
+     "accompagnateur": {
+      "attendu": "Ils brilleront comme les étoiles à toujours. La terre sera remplie de la connaissance de la gloire de l'Éternel.",
+      "expliquer": [
+       "La mission se terminera par la victoire du Christ."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Apocalypse 21:1-4 et 22:3-5. Quelle est la fin de l'histoire ?",
+     "refs": [
+      "Apocalypse 21:1-4",
+      "Apocalypse 22:3-5"
+     ],
+     "accompagnateur": {
+      "attendu": "Dieu habite avec les hommes, plus de larmes, plus de mort. Ses serviteurs le serviront et le verront face à face.",
+      "expliquer": [
+       "Rappeler que notre travail n'est pas vain."
+      ],
+      "relance": "Comment cela te donne-t-il du courage ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon engagement final",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon engagement final",
+     "texte": [
+      "1. Ce que j'ai appris sur la mission :",
+      "2. Ce que Dieu me demande :",
+      "3. Mon engagement pour cette année :",
+      "4. Ma prière :"
+     ],
+     "champ": "Mon engagement",
+     "id": "plan-v6-pas-10-recompenses"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Habacuc 2:14 de mémoire.",
+     "refs": [
+      "Habacuc 2:14"
+     ],
+     "accompagnateur": {
+      "attendu": "« Car la terre sera remplie de la connaissance de la gloire de l'Éternel, comme le fond de la mer par les eaux qui le couvrent. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. La joie du serviteur",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. La récompense de Dieu",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Habacuc 2:14. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas décourager ceux qui ne se sentent pas appelés à partir : toute la vie chrétienne est une mission.",
+   "Si la personne est tentée de s'engager trop vite, l'aider à chercher conseil auprès de l'Église et de responsables.",
+   "Prier ensemble pour des missionnaires précis, par leur nom."
+  ]
+ }
+}

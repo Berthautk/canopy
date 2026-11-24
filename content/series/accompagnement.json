@@ -359,6 +359,100 @@
      "id": "v5-pas-11-la-verite-ou-le-mensonge"
     }
    ]
+  },
+  {
+   "numero": 6,
+   "titre": "Volume 6 · Les missions mondiales",
+   "sous_titre": "Atteindre le monde pour Christ",
+   "pas": [
+    {
+     "numero": 1,
+     "titre": "Le défi des missions mondiales",
+     "id": "v6-pas-01-le-defi-des-missions"
+    },
+    {
+     "numero": 2,
+     "titre": "Pionniers des missions",
+     "id": "v6-pas-02-pionniers-des-missions"
+    },
+    {
+     "numero": 3,
+     "titre": "Le père des missions modernes",
+     "id": "v6-pas-03-le-pere-des-missions-modernes"
+    },
+    {
+     "numero": 4,
+     "titre": "Comment entendront-ils ?",
+     "id": "v6-pas-04-comment-entendront-ils"
+    },
+    {
+     "numero": 5,
+     "titre": "Pourquoi n'y a-t-il pas plus de missionnaires ?",
+     "id": "v6-pas-05-pourquoi-pas-plus-de-missionnaires"
+    },
+    {
+     "numero": 6,
+     "titre": "Possible ou impossible ?",
+     "id": "v6-pas-06-possible-ou-impossible"
+    },
+    {
+     "numero": 7,
+     "titre": "Le défi des peuples non atteints",
+     "id": "v6-pas-07-peuples-non-atteints"
+    },
+    {
+     "numero": 8,
+     "titre": "Comment commencer ?",
+     "id": "v6-pas-08-comment-commencer"
+    },
+    {
+     "numero": 9,
+     "titre": "Une seule vie",
+     "id": "v6-pas-09-une-seule-vie"
+    },
+    {
+     "numero": 10,
+     "titre": "Les récompenses",
+     "id": "v6-pas-10-recompenses"
+    }
+   ]
+  },
+  {
+   "numero": 0,
+   "titre": "Volume 0 · Qui est Jésus-Christ ?",
+   "sous_titre": "Pour celui qui cherche : découvrir Jésus avant de décider",
+   "pas": [
+    {
+     "numero": 1,
+     "titre": "Jésus, l'auteur de la vie",
+     "id": "v0-pas-01-jesus-auteur-de-la-vie"
+    },
+    {
+     "numero": 2,
+     "titre": "Jésus, l'Agneau de Dieu",
+     "id": "v0-pas-02-jesus-agneau-de-dieu"
+    },
+    {
+     "numero": 3,
+     "titre": "Jésus, le Bon Berger",
+     "id": "v0-pas-03-jesus-bon-berger"
+    },
+    {
+     "numero": 4,
+     "titre": "Il est vivant !",
+     "id": "v0-pas-04-il-est-vivant"
+    },
+    {
+     "numero": 5,
+     "titre": "Christ, mon Avocat",
+     "id": "v0-pas-05-christ-mon-avocat"
+    },
+    {
+     "numero": 6,
+     "titre": "Christ, mon Roi",
+     "id": "v0-pas-06-christ-mon-roi"
+    }
+   ]
   }
  ]
 }

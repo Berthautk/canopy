@@ -1,0 +1,136 @@
+{
+ "id": "missions-06-possible-ou-impossible",
+ "titre": "Possible ou impossible ?",
+ "serie": "Les missions mondiales",
+ "theme": "Missions",
+ "auteur": "Yeshaya",
+ "resume": "La mission est-elle trop difficile ? Ce que les apôtres ont fait et ce que Dieu promet.",
+ "image": "/assets/lieux-bibliques/marche-de-village.webp",
+ "verset_de_base": "Actes 5:29",
+ "lecture_minutes": 6,
+ "objectifs": [
+  "Comprendre le thème : Possible ou impossible ?.",
+  "Trouver dans la Bible la réponse à ce thème.",
+  "Mettre en pratique une décision précise cette semaine."
+ ],
+ "introduction": "Beaucoup pensent que la mission est trop difficile : les peuples sont fermés, la persécution est forte, les conditions sont dures. Paul et les apôtres n'aimaient sans doute pas les épreuves, mais ils ont continué. Pourquoi ?",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Obéir malgré l'opposition",
+   "references": [
+    "Actes 5:27-32",
+    "Actes 5:40-42",
+    "2 Timothée 1:7-8",
+    "2 Timothée 1:12",
+    "2 Timothée 2:9-10"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Actes 5:27-32 et Actes 5:40-42. Ils répondent qu'il faut obéir à Dieu plutôt qu'aux hommes. Après avoir été battus, ils se réjouissent d'avoir été jugés dignes de souffrir pour le nom, et ils continuent d'enseigner chaque jour."
+    },
+    {
+     "texte": "Dans certains pays, prêcher est interdit : les chrétiens continuent avec sagesse et courage."
+    },
+    {
+     "texte": "Lisons 2 Timothée 1:7-8, 2 Timothée 1:12 et 2 Timothée 2:9-10. Dieu ne donne pas un esprit de timidité. Ne pas avoir honte du témoignage. Il sait en qui il a cru. La parole de Dieu n'est pas liée."
+    },
+    {
+     "texte": "Paul est en prison, mais la Parole ne l'est pas."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "La puissance de Dieu",
+   "references": [
+    "Éphésiens 3:20-21",
+    "Psaume 46:2-8",
+    "Matthieu 5:10-12",
+    "Actes 14:22",
+    "Luc 1:37"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Éphésiens 3:20-21 et Psaume 46:2-8. Infiniment plus que tout ce que nous demandons ou pensons, par la puissance qui agit en nous. Il est notre refuge. L'Éternel des armées est avec nous."
+    },
+    {
+     "texte": "Beaucoup de peuples ont été atteints alors que tout paraissait impossible."
+    },
+    {
+     "texte": "Lisons Matthieu 5:10-12 et Actes 14:22. À la persécution. Heureux ceux qui sont persécutés. C'est par beaucoup de tribulations qu'il faut entrer dans le royaume de Dieu."
+    },
+    {
+     "texte": "Ne pas promettre une vie facile."
+    },
+    {
+     "texte": "Lisons Luc 1:37. Un obstacle précis (peuple fermé, famille hostile, peur) et une promesse."
+    },
+    {
+     "texte": "Prier ensemble pour cet obstacle."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Ce que nous retenons",
+   "references": [],
+   "blocs": [
+    {
+     "texte": "Il faut obéir à Dieu plutôt qu'aux hommes. Dieu est capable de faire infiniment plus que ce que nous pensons. Ce qui est impossible pour nous est possible pour lui."
+    },
+    {
+     "verset": "Actes 5:29"
+    }
+   ]
+  }
+ ],
+ "sujets": [
+  {
+   "titre": "Obéir à Dieu",
+   "texte": "Prions pour les chrétiens qui annoncent l'Évangile dans des endroits dangereux, afin qu'ils soient courageux et protégés (Actes 4:29)."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Il faut toujours obéir aux autorités, même quand elles interdisent de prêcher : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "Actes 5:29 : il faut obéir à Dieu plutôt qu'aux hommes.",
+   "section": "1"
+  },
+  {
+   "question": "Dieu est capable de faire infiniment plus que nous ne demandons : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Éphésiens 3:20.",
+   "section": "1"
+  },
+  {
+   "question": "Les apôtres se sont réjouis d'être maltraités pour le nom de Jésus : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Actes 5:41.",
+   "section": "1"
+  }
+ ],
+ "devoir": [
+  "Relis les passages de cette leçon et note ce qui te touche le plus.",
+  "Complète ton plan : Mon plan.",
+  "Apprends par cœur Actes 5:29.",
+  "Parle de ce que tu as découvert à une personne de confiance."
+ ],
+ "prieres_liees": [],
+ "source": "Parcours inspiré de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), manuel gratuit : les thèmes, le plan et les passages bibliques sont repris ; les questions, les explications, les enseignements et les guides de l'encadreur sont rédigés par Yeshaya.",
+ "date_ajout": "2026-11-24",
+ "relu": false
+}

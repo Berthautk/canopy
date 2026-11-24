@@ -1,0 +1,135 @@
+{
+ "id": "missions-08-comment-commencer",
+ "titre": "Comment commencer ?",
+ "serie": "Les missions mondiales",
+ "theme": "Missions",
+ "auteur": "Yeshaya",
+ "resume": "Prier, être informé, donner, soutenir, aider, aller : premiers pas dans la mission mondiale.",
+ "image": "/assets/lieux-bibliques/marche-de-village.webp",
+ "verset_de_base": "Luc 24:47",
+ "lecture_minutes": 6,
+ "objectifs": [
+  "Comprendre le thème : Comment commencer ?.",
+  "Trouver dans la Bible la réponse à ce thème.",
+  "Mettre en pratique une décision précise cette semaine."
+ ],
+ "introduction": "Peut-on participer à la mission mondiale sans partir ? Oui. Il y a beaucoup de façons de commencer : prier pour les missionnaires, apprendre, donner, écrire, accueillir, parler de la mission à l'église.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Des gestes pour commencer",
+   "references": [
+    "Luc 24:46-48",
+    "Actes 1:8",
+    "Matthieu 9:38",
+    "Éphésiens 6:18-20",
+    "Philippiens 1:3-5",
+    "3 Jean 5-8"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Luc 24:46-48 et Actes 1:8. Par Jérusalem, c'est-à-dire là où l'on est, puis vers tous les peuples."
+    },
+    {
+     "texte": "Commencer par témoigner autour de soi, tout en gardant le cœur ouvert au monde."
+    },
+    {
+     "texte": "Lisons Matthieu 9:38 et Éphésiens 6:18-20. Prier pour que Dieu envoie des ouvriers, pour leur hardiesse, leur protection, leurs besoins, leur famille."
+    },
+    {
+     "texte": "Choisir un missionnaire connu et prier chaque semaine."
+    },
+    {
+     "texte": "Lisons Philippiens 1:3-5 et 3 Jean 5-8. Par la communion dans l'Évangile : donner, écrire, encourager, accueillir. Ceux qui soutiennent sont collaborateurs de la vérité."
+    },
+    {
+     "texte": "Un petit don régulier est un partenariat."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Se préparer",
+   "references": [
+    "Romains 12:1-8",
+    "Actes 13:1-3",
+    "Actes 14:26-27"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Romains 12:1-8 et Actes 13:1-3. Se donner entièrement à Dieu, connaître ses dons, prier et jeûner, demander l'avis des responsables, laisser l'Église confirmer."
+    },
+    {
+     "texte": "Ne pas partir seul, sans l'accord de l'Église."
+    },
+    {
+     "texte": "Lisons Actes 14:26-27. Quelques idées concrètes, une personne à contacter."
+    },
+    {
+     "texte": "Proposer à l'accompagnateur d'en parler au pasteur."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Ce que nous retenons",
+   "references": [],
+   "blocs": [
+    {
+     "texte": "Chaque croyant a une part. Commençons là où nous sommes, avec ce que nous avons, et laissons Dieu nous conduire plus loin."
+    },
+    {
+     "verset": "Luc 24:47"
+    }
+   ]
+  }
+ ],
+ "sujets": [
+  {
+   "titre": "Premiers pas",
+   "texte": "Prions pour que chaque croyant trouve sa place dans la mission mondiale, par la prière, le don et l'engagement (Philippiens 1:5)."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Seuls ceux qui partent participent à la mission : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "Ceux qui prient, donnent et accueillent y participent aussi (Philippiens 1:5).",
+   "section": "1"
+  },
+  {
+   "question": "Prier pour les missionnaires est une vraie œuvre : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Colossiens 4:3 ; Éphésiens 6:19.",
+   "section": "1"
+  },
+  {
+   "question": "Je peux commencer chez moi : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Luc 24:47 : à commencer par Jérusalem.",
+   "section": "1"
+  }
+ ],
+ "devoir": [
+  "Relis les passages de cette leçon et note ce qui te touche le plus.",
+  "Complète ton plan : Mon plan.",
+  "Apprends par cœur Luc 24:47.",
+  "Parle de ce que tu as découvert à une personne de confiance."
+ ],
+ "prieres_liees": [],
+ "source": "Parcours inspiré de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), manuel gratuit : les thèmes, le plan et les passages bibliques sont repris ; les questions, les explications, les enseignements et les guides de l'encadreur sont rédigés par Yeshaya.",
+ "date_ajout": "2026-11-24",
+ "relu": false
+}

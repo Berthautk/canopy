@@ -1,0 +1,230 @@
+{
+ "id": "v6-pas-04-comment-entendront-ils",
+ "volume": 6,
+ "numero": 4,
+ "titre": "Comment entendront-ils ?",
+ "sous_titre": "Du besoin de salut à l'envoi des messagers",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "missions-04-comment-entendront-ils",
+ "verset_memoire": "Romains 10:14-15",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que Dieu dit de sa mission.",
+  "jours": [
+   "Romains 10:1-17",
+   "Matthieu 9:35-38",
+   "Actes 8:26-40",
+   "Actes 10:1-48",
+   "Éphésiens 6:15-20",
+   "Ésaïe 52:7-10",
+   "Luc 10:1-12"
+  ]
+ },
+ "introduction": [
+  "Pour qu'un homme soit sauvé, il faut qu'il entende. Pour qu'il entende, il faut quelqu'un qui parle. Pour que quelqu'un parle, il faut qu'il soit envoyé.",
+  "Cette semaine, tu vas suivre cette chaîne et trouver ta place."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Quelqu'un peut être sauvé sans entendre l'Évangile.",
+       "reponse": false,
+       "explication": "Romains 10:14-17 : la foi vient de ce qu'on entend."
+      },
+      {
+       "id": "vf2",
+       "texte": "Jésus avait compassion des foules sans berger.",
+       "reponse": true,
+       "explication": "Matthieu 9:36."
+      },
+      {
+       "id": "vf3",
+       "texte": "Seuls les pasteurs peuvent annoncer l'Évangile.",
+       "reponse": false,
+       "explication": "Tout croyant peut en parler (Actes 8:4)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. La chaîne du salut",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Romains 10:13-17. Quelles sont les étapes qui conduisent au salut ?",
+     "refs": [
+      "Romains 10:13-17"
+     ],
+     "accompagnateur": {
+      "attendu": "Envoyer, prêcher, entendre, croire, invoquer, être sauvé. Quiconque invoque le nom du Seigneur sera sauvé.",
+      "expliquer": [
+       "Chaque maillon est nécessaire : si l'un manque, la chaîne est brisée."
+      ],
+      "relance": "Où te situes-tu dans cette chaîne ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Matthieu 9:36-38. Comment Jésus voit-il les foules ? Que demande-t-il ?",
+     "refs": [
+      "Matthieu 9:36-38"
+     ],
+     "accompagnateur": {
+      "attendu": "Avec compassion : comme des brebis sans berger. La moisson est grande, les ouvriers sont peu nombreux : prier le Maître de la moisson d'envoyer des ouvriers.",
+      "expliquer": [
+       "Prier d'abord, puis être prêt à être envoyé soi-même."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Annoncer et soutenir",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Actes 8:26-39. Comment Philippe annonce-t-il l'Évangile à l'Éthiopien ?",
+     "refs": [
+      "Actes 8:26-39"
+     ],
+     "accompagnateur": {
+      "attendu": "Il écoute l'Esprit, s'approche, pose une question, explique l'Écriture, annonce Jésus, baptise.",
+      "expliquer": [
+       "Un exemple de témoignage personnel simple."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Éphésiens 6:15, 19-20 et Ésaïe 52:7. Quelle est la beauté du messager ?",
+     "refs": [
+      "Éphésiens 6:15",
+      "Éphésiens 6:19-20",
+      "Ésaïe 52:7"
+     ],
+     "accompagnateur": {
+      "attendu": "Ses pieds, chaussés de l'Évangile de paix, sont beaux. Paul demande la prière pour annoncer l'Évangile avec hardiesse.",
+      "expliquer": [
+       "Le missionnaire a besoin de prière et de soutien."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Comment peux-tu faire partie de cette chaîne : prier, donner, envoyer, aller ? Lis Luc 10:1-2.",
+     "refs": [
+      "Luc 10:1-2"
+     ],
+     "accompagnateur": {
+      "attendu": "Chacun a une part : certains vont, d'autres prient, donnent, accueillent, encouragent.",
+      "expliquer": [
+       "Choisir un rôle concret."
+      ],
+      "relance": "Quel rôle prends-tu ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Ma place dans la chaîne :",
+      "2. Un missionnaire que je soutiens ou soutiendrai :",
+      "3. Une personne qui n'a pas entendu :",
+      "4. Mon engagement :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v6-pas-04-comment-entendront-ils"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Romains 10:14-15 de mémoire.",
+     "refs": [
+      "Romains 10:14-15"
+     ],
+     "accompagnateur": {
+      "attendu": "« Comment donc invoqueront-ils celui en qui ils n'ont pas cru ? Et comment croiront-ils en celui dont ils n'ont pas entendu parler ? Et comment en entendront-ils parler, s'il n'y a personne qui prêche ? Et comment prêchera-t-on, si l'on n'est pas envoyé ? »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. La chaîne du salut",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Annoncer et soutenir",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Romains 10:14-15. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas décourager ceux qui ne se sentent pas appelés à partir : toute la vie chrétienne est une mission.",
+   "Si la personne est tentée de s'engager trop vite, l'aider à chercher conseil auprès de l'Église et de responsables.",
+   "Prier ensemble pour des missionnaires précis, par leur nom."
+  ]
+ }
+}

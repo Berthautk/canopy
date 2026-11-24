@@ -1,0 +1,230 @@
+{
+ "id": "v6-pas-03-le-pere-des-missions-modernes",
+ "volume": 6,
+ "numero": 3,
+ "titre": "Le père des missions modernes",
+ "sous_titre": "William Carey, un cordonnier devenu missionnaire",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "missions-03-le-pere-des-missions-modernes",
+ "verset_memoire": "Actes 1:8",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que Dieu dit de sa mission.",
+  "jours": [
+   "Actes 1:1-11",
+   "Ésaïe 54:1-5",
+   "Psaume 126",
+   "Matthieu 9:35-38",
+   "Philippiens 3:7-14",
+   "Hébreux 11:32-40",
+   "2 Corinthiens 4:7-18"
+  ]
+ },
+ "introduction": [
+  "William Carey était un simple cordonnier anglais. Dieu l'a utilisé pour réveiller l'Église à la mission.",
+  "Cette semaine, tu vas voir ce que Dieu peut faire avec un homme ordinaire qui lui obéit."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "William Carey était un homme riche et instruit.",
+       "reponse": false,
+       "explication": "Il était cordonnier d'origine modeste, né en 1761."
+      },
+      {
+       "id": "vf2",
+       "texte": "Carey a traduit la Bible ou des parties de la Bible en environ quarante langues.",
+       "reponse": true,
+       "explication": "Il a aussi fondé une imprimerie en Inde."
+      },
+      {
+       "id": "vf3",
+       "texte": "Dieu utilise seulement les personnes très instruites.",
+       "reponse": false,
+       "explication": "1 Corinthiens 1:26-27."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Un homme ordinaire",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis 1 Corinthiens 1:26-29. Qui Dieu choisit-il ?",
+     "refs": [
+      "1 Corinthiens 1:26-29"
+     ],
+     "accompagnateur": {
+      "attendu": "Ce qui est folie, faible, méprisé selon le monde, pour confondre les sages et les forts.",
+      "expliquer": [
+       "Carey était cordonnier. Il étudiait les langues pendant qu'il travaillait."
+      ],
+      "relance": "Qu'est-ce que tu penses ne pas avoir pour servir Dieu ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Actes 1:8 et Matthieu 28:19. Quelle conviction avait Carey ?",
+     "refs": [
+      "Actes 1:8",
+      "Matthieu 28:19"
+     ],
+     "accompagnateur": {
+      "attendu": "Que chaque croyant a l'obligation de porter l'Évangile aux nations. Il est parti en Inde en 1793.",
+      "expliquer": [
+       "On lui disait : « Si Dieu veut convertir les païens, il le fera sans toi. » Il a obéi."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Persévérer",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis 2 Corinthiens 4:8-9, 16-18. Comment tenir dans les épreuves ?",
+     "refs": [
+      "2 Corinthiens 4:8-9",
+      "2 Corinthiens 4:16-18"
+     ],
+     "accompagnateur": {
+      "attendu": "Affligés mais non réduits à l'extrémité, persécutés mais non abandonnés, abattus mais non perdus. Regarder aux choses invisibles et éternelles.",
+      "expliquer": [
+       "Carey a perdu des traductions dans un incendie : il a recommencé. Il a attendu sept ans avant le premier converti."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Philippiens 3:12-14. Que dit Paul de la persévérance ?",
+     "refs": [
+      "Philippiens 3:12-14"
+     ],
+     "accompagnateur": {
+      "attendu": "J'oublie ce qui est en arrière et je cours vers le but pour remporter le prix.",
+      "expliquer": [
+       "Carey disait : « Attendez de grandes choses de Dieu ; entreprenez de grandes choses pour Dieu. »"
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Qu'est-ce que Dieu pourrait faire par une vie simple comme la tienne ? Lis Psaume 126:5-6.",
+     "refs": [
+      "Psaume 126:5-6"
+     ],
+     "accompagnateur": {
+      "attendu": "Ceux qui sèment avec larmes moissonnent avec chants de joie.",
+      "expliquer": [
+       "Chaque petit pas compte : prière, don, témoignage, service."
+      ],
+      "relance": "Quel petit pas peux-tu faire cette semaine ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Ce que je croyais ne pas pouvoir faire :",
+      "2. Ce que Dieu peut faire avec ma vie :",
+      "3. Ma première action :",
+      "4. Ma persévérance :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v6-pas-03-le-pere-des-missions-modernes"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Actes 1:8 de mémoire.",
+     "refs": [
+      "Actes 1:8"
+     ],
+     "accompagnateur": {
+      "attendu": "« Mais vous recevrez une puissance, le Saint-Esprit survenant sur vous, et vous serez mes témoins à Jérusalem, dans toute la Judée, dans la Samarie, et jusqu'aux extrémités de la terre. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Un homme ordinaire",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Persévérer",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Actes 1:8. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas décourager ceux qui ne se sentent pas appelés à partir : toute la vie chrétienne est une mission.",
+   "Si la personne est tentée de s'engager trop vite, l'aider à chercher conseil auprès de l'Église et de responsables.",
+   "Prier ensemble pour des missionnaires précis, par leur nom."
+  ]
+ }
+}

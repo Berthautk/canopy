@@ -1,0 +1,231 @@
+{
+ "id": "v0-pas-04-il-est-vivant",
+ "volume": 0,
+ "numero": 4,
+ "titre": "Il est vivant !",
+ "sous_titre": "La résurrection de Jésus et la vie après la mort",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "jesus-04-il-est-vivant",
+ "verset_memoire": "Jean 11:25-26",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que tu découvres de Jésus.",
+  "jours": [
+   "Matthieu 28:1-10",
+   "1 Corinthiens 15:1-28",
+   "Jean 20:1-31",
+   "Jean 11:17-44",
+   "Actes 1:1-11",
+   "Romains 6:1-11",
+   "Philippiens 1:19-26"
+  ]
+ },
+ "introduction": [
+  "La mort fait peur à tout le monde. Que se passe-t-il après ?",
+  "Cette semaine, tu vas voir que Jésus est ressuscité et ce que cela change pour toi."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Peu importe la manière dont je vis, la mort est la fin de tout.",
+       "reponse": false,
+       "explication": "Hébreux 9:27 : après la mort vient le jugement."
+      },
+      {
+       "id": "vf2",
+       "texte": "Tout le monde ressuscitera après la mort.",
+       "reponse": true,
+       "explication": "Jean 5:28-29."
+      },
+      {
+       "id": "vf3",
+       "texte": "On peut affronter la mort sans crainte et avec assurance.",
+       "reponse": true,
+       "explication": "Jean 11:25-26 ; 1 Corinthiens 15:55-57."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Il est ressuscité",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Matthieu 28:1-8. Que s'est-il passé le dimanche matin ? Que dit l'ange ?",
+     "refs": [
+      "Matthieu 28:1-8"
+     ],
+     "accompagnateur": {
+      "attendu": "Un tremblement de terre, un ange descend et roule la pierre. Il dit : « Il n'est point ici, car il est ressuscité, comme il l'avait dit. »",
+      "expliquer": [
+       "Jésus avait annoncé sa mort et sa résurrection (Matthieu 16:21)."
+      ],
+      "relance": "Que penses-tu de la résurrection de Jésus ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis 1 Corinthiens 15:3-8 et 15:12-17. Que dit Paul sur la résurrection ? Que se passerait-il si elle n'avait pas eu lieu ?",
+     "refs": [
+      "1 Corinthiens 15:3-8",
+      "1 Corinthiens 15:12-17"
+     ],
+     "accompagnateur": {
+      "attendu": "Christ est mort, a été enseveli, est ressuscité le troisième jour, et a été vu par plus de cinq cents personnes. Sans résurrection, notre foi est vaine et nous sommes encore dans nos péchés.",
+      "expliquer": [
+       "La résurrection est le fondement de la foi chrétienne."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Ce que cela change",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Jean 11:25-26 et Jean 5:28-29. Que promet Jésus à ceux qui croient ?",
+     "refs": [
+      "Jean 11:25-26",
+      "Jean 5:28-29"
+     ],
+     "accompagnateur": {
+      "attendu": "Celui qui croit vivra, même s'il meurt. Tous ressusciteront : certains pour la vie, d'autres pour le jugement.",
+      "expliquer": [
+       "Pour le croyant, la mort n'est pas la fin, mais le passage vers la vie avec Christ."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis 1 Corinthiens 15:54-57 et 2 Corinthiens 4:14. Comment le croyant peut-il regarder la mort ?",
+     "refs": [
+      "1 Corinthiens 15:54-57",
+      "2 Corinthiens 4:14"
+     ],
+     "accompagnateur": {
+      "attendu": "La mort est engloutie dans la victoire. Celui qui a ressuscité Jésus nous ressuscitera aussi.",
+      "expliquer": [
+       "On peut pleurer, mais avec espérance."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Actes 17:30-32. Quelles sont les réactions à la résurrection ? Que fais-tu ?",
+     "refs": [
+      "Actes 17:30-32"
+     ],
+     "accompagnateur": {
+      "attendu": "Certains se moquent, d'autres veulent en savoir plus, d'autres croient.",
+      "expliquer": [
+       "Respecter la liberté, inviter à lire Jean 20."
+      ],
+      "relance": "Quelle est ta réaction ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Ma réflexion",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Ma réflexion",
+     "texte": [
+      "1. Ce que je crois de la mort :",
+      "2. Ce que la résurrection de Jésus change :",
+      "3. Mes questions :",
+      "4. Ma prière :"
+     ],
+     "champ": "Ma réflexion",
+     "id": "plan-v0-pas-04-il-est-vivant"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Jean 11:25-26 de mémoire.",
+     "refs": [
+      "Jean 11:25-26"
+     ],
+     "accompagnateur": {
+      "attendu": "« Jésus lui dit : Je suis la résurrection et la vie. Celui qui croit en moi vivra, quand même il serait mort ; et quiconque vit et croit en moi ne mourra jamais. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Il est ressuscité",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Ce que cela change",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Jean 11:25-26. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ce parcours est pour quelqu'un qui cherche : ne pas le presser ni lui faire dire une prière avant qu'il soit prêt.",
+   "Écouter ses questions avant de répondre. Ne jamais se moquer de sa religion ou de sa famille.",
+   "Si la personne décide de suivre Jésus, passer au volume 1 « Les pas de base » et au bilan de vie, en protégeant sa sécurité."
+  ]
+ }
+}

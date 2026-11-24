@@ -1,0 +1,136 @@
+{
+ "id": "jesus-05-christ-mon-avocat",
+ "titre": "Christ, mon Avocat",
+ "serie": "Qui est Jésus-Christ ?",
+ "theme": "Découvrir Jésus",
+ "auteur": "Yeshaya",
+ "resume": "Qui défendra ma cause devant Dieu ? Jésus, notre Avocat et seul médiateur.",
+ "image": "/assets/jesus/jesus-portrait-serein.webp",
+ "verset_de_base": "1 Jean 2:1",
+ "lecture_minutes": 6,
+ "objectifs": [
+  "Comprendre le thème : Christ, mon Avocat.",
+  "Trouver dans la Bible la réponse à ce thème.",
+  "Mettre en pratique une décision précise cette semaine."
+ ],
+ "introduction": "Imaginons le jour du jugement. Chacun devra rendre compte de sa vie. Qui nous défendra ? Nos bonnes actions ne suffisent pas. Nos parents, nos chefs religieux, nos amis non plus. Il nous faut un avocat parfait.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Pourquoi un avocat ?",
+   "references": [
+    "Romains 3:10-12",
+    "Romains 3:23",
+    "Ésaïe 64:5-6",
+    "Apocalypse 12:10",
+    "Hébreux 9:27"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Romains 3:10-12, Romains 3:23 et Ésaïe 64:5-6. Personne n'est juste. Tous ont péché. Même nos belles actions sont comme un vêtement souillé."
+    },
+    {
+     "texte": "Nous ne pourrions pas nous défendre seuls."
+    },
+    {
+     "texte": "Lisons Apocalypse 12:10 et Hébreux 9:27. Le diable, l'accusateur, nous accuse devant Dieu jour et nuit. Chaque homme meurt une fois, puis vient le jugement."
+    },
+    {
+     "texte": "Un avocat est nécessaire."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Mon avocat, mon médiateur",
+   "references": [
+    "1 Jean 2:1-2",
+    "1 Timothée 2:5-6",
+    "Hébreux 7:25",
+    "Romains 8:33-34",
+    "Hébreux 4:14-16"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons 1 Jean 2:1-2 et 1 Timothée 2:5-6. Jésus-Christ le juste. Il est la victime expiatoire pour nos péchés. Il est le seul médiateur entre Dieu et les hommes : il s'est donné en rançon."
+    },
+    {
+     "texte": "Il ne plaide pas notre innocence : il montre qu'il a payé la dette."
+    },
+    {
+     "texte": "Lisons Hébreux 7:25 et Romains 8:33-34. Il est toujours vivant pour intercéder pour nous. Qui accusera ceux que Dieu a choisis ? Christ est mort, il est ressuscité, il intercède."
+    },
+    {
+     "texte": "Il prie pour nous maintenant."
+    },
+    {
+     "texte": "Lisons Hébreux 4:14-16. Avec assurance, auprès du trône de la grâce, pour recevoir miséricorde et secours au bon moment, car Jésus compatit à nos faiblesses."
+    },
+    {
+     "texte": "Nous n'avons pas besoin d'autres intermédiaires."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Ce que nous retenons",
+   "references": [],
+   "blocs": [
+    {
+     "texte": "Jésus est notre Avocat : il a payé la dette. Il intercède pour nous. Nous pouvons nous approcher de Dieu avec assurance, sans autre intermédiaire."
+    },
+    {
+     "verset": "1 Jean 2:1"
+    }
+   ]
+  }
+ ],
+ "sujets": [
+  {
+   "titre": "Notre Avocat",
+   "texte": "Prions afin que chacun confie sa cause à Jésus, l'Avocat qui plaide pour ceux qui croient (1 Jean 2:1)."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Au jugement de Dieu, nous aurons besoin de quelqu'un pour nous défendre : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Romains 3:19-20 : personne n'est justifié par ses propres œuvres.",
+   "section": "1"
+  },
+  {
+   "question": "Jésus défend seulement ceux qui sont coupables : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "Tous sont coupables ; Jésus défend ceux qui viennent à lui (1 Jean 2:1).",
+   "section": "1"
+  },
+  {
+   "question": "Il y a plusieurs intermédiaires entre Dieu et les hommes : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "1 Timothée 2:5 : un seul médiateur, Jésus-Christ.",
+   "section": "1"
+  }
+ ],
+ "devoir": [
+  "Relis les passages de cette leçon et note ce qui te touche le plus.",
+  "Complète ton plan : Ma réflexion.",
+  "Apprends par cœur 1 Jean 2:1.",
+  "Parle de ce que tu as découvert à une personne de confiance."
+ ],
+ "prieres_liees": [],
+ "source": "Parcours inspiré de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), manuel gratuit : les thèmes, le plan et les passages bibliques sont repris ; les questions, les explications, les enseignements et les guides de l'encadreur sont rédigés par Yeshaya.",
+ "date_ajout": "2026-11-24",
+ "relu": false
+}

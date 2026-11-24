@@ -1,0 +1,134 @@
+{
+ "id": "jesus-04-il-est-vivant",
+ "titre": "Il est vivant !",
+ "serie": "Qui est Jésus-Christ ?",
+ "theme": "Découvrir Jésus",
+ "auteur": "Yeshaya",
+ "resume": "La résurrection de Jésus, preuve de sa victoire, et espérance pour ceux qui croient.",
+ "image": "/assets/jesus/jesus-portrait-serein.webp",
+ "verset_de_base": "Jean 11:25-26",
+ "lecture_minutes": 6,
+ "objectifs": [
+  "Comprendre le thème : Il est vivant !.",
+  "Trouver dans la Bible la réponse à ce thème.",
+  "Mettre en pratique une décision précise cette semaine."
+ ],
+ "introduction": "Le dimanche matin qui a suivi la crucifixion, le calme fut brisé : un tremblement de terre, un ange, une pierre roulée, un tombeau vide. Jésus était ressuscité. Cet événement est unique dans l'histoire du monde.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Il est ressuscité",
+   "references": [
+    "Matthieu 28:1-8",
+    "1 Corinthiens 15:3-8",
+    "1 Corinthiens 15:12-17"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Matthieu 28:1-8. Un tremblement de terre, un ange descend et roule la pierre. Il dit : « Il n'est point ici, car il est ressuscité, comme il l'avait dit. »"
+    },
+    {
+     "texte": "Jésus avait annoncé sa mort et sa résurrection (Matthieu 16:21)."
+    },
+    {
+     "texte": "Lisons 1 Corinthiens 15:3-8 et 1 Corinthiens 15:12-17. Christ est mort, a été enseveli, est ressuscité le troisième jour, et a été vu par plus de cinq cents personnes. Sans résurrection, notre foi est vaine et nous sommes encore dans nos péchés."
+    },
+    {
+     "texte": "La résurrection est le fondement de la foi chrétienne."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Ce que cela change",
+   "references": [
+    "Jean 11:25-26",
+    "Jean 5:28-29",
+    "1 Corinthiens 15:54-57",
+    "2 Corinthiens 4:14",
+    "Actes 17:30-32"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Jean 11:25-26 et Jean 5:28-29. Celui qui croit vivra, même s'il meurt. Tous ressusciteront : certains pour la vie, d'autres pour le jugement."
+    },
+    {
+     "texte": "Pour le croyant, la mort n'est pas la fin, mais le passage vers la vie avec Christ."
+    },
+    {
+     "texte": "Lisons 1 Corinthiens 15:54-57 et 2 Corinthiens 4:14. La mort est engloutie dans la victoire. Celui qui a ressuscité Jésus nous ressuscitera aussi."
+    },
+    {
+     "texte": "On peut pleurer, mais avec espérance."
+    },
+    {
+     "texte": "Lisons Actes 17:30-32. Certains se moquent, d'autres veulent en savoir plus, d'autres croient."
+    },
+    {
+     "texte": "Respecter la liberté, inviter à lire Jean 20."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Ce que nous retenons",
+   "references": [],
+   "blocs": [
+    {
+     "texte": "Jésus est vivant. Il a vaincu la mort. Celui qui croit en lui vivra, même s'il meurt. La mort n'est pas la fin pour le croyant."
+    },
+    {
+     "verset": "Jean 11:25-26"
+    }
+   ]
+  }
+ ],
+ "sujets": [
+  {
+   "titre": "Il est vivant",
+   "texte": "Prions pour ceux qui ont peur de la mort, afin qu'ils trouvent la vie en Jésus ressuscité (Jean 11:25)."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Peu importe la manière dont je vis, la mort est la fin de tout : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "Hébreux 9:27 : après la mort vient le jugement.",
+   "section": "1"
+  },
+  {
+   "question": "Tout le monde ressuscitera après la mort : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Jean 5:28-29.",
+   "section": "1"
+  },
+  {
+   "question": "On peut affronter la mort sans crainte et avec assurance : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Jean 11:25-26 ; 1 Corinthiens 15:55-57.",
+   "section": "1"
+  }
+ ],
+ "devoir": [
+  "Relis les passages de cette leçon et note ce qui te touche le plus.",
+  "Complète ton plan : Ma réflexion.",
+  "Apprends par cœur Jean 11:25-26.",
+  "Parle de ce que tu as découvert à une personne de confiance."
+ ],
+ "prieres_liees": [],
+ "source": "Parcours inspiré de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), manuel gratuit : les thèmes, le plan et les passages bibliques sont repris ; les questions, les explications, les enseignements et les guides de l'encadreur sont rédigés par Yeshaya.",
+ "date_ajout": "2026-11-24",
+ "relu": false
+}

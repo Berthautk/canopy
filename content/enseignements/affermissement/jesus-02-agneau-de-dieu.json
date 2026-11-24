@@ -1,0 +1,134 @@
+{
+ "id": "jesus-02-agneau-de-dieu",
+ "titre": "Jésus, l'Agneau de Dieu",
+ "serie": "Qui est Jésus-Christ ?",
+ "theme": "Découvrir Jésus",
+ "auteur": "Yeshaya",
+ "resume": "Pourquoi Jésus est mort : l'Agneau qui ôte le péché du monde.",
+ "image": "/assets/jesus/jesus-portrait-serein.webp",
+ "verset_de_base": "Jean 1:29",
+ "lecture_minutes": 6,
+ "objectifs": [
+  "Comprendre le thème : Jésus, l'Agneau de Dieu.",
+  "Trouver dans la Bible la réponse à ce thème.",
+  "Mettre en pratique une décision précise cette semaine."
+ ],
+ "introduction": "Un petit garçon a donné son sang pour sauver sa sœur malade. Il pensait qu'il allait mourir. Quand le docteur a dit « tout va bien », il a été soulagé : il avait donné son sang pour elle, et il vivait. Jésus, lui, a vraiment donné sa vie pour nous.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "L'agneau",
+   "references": [
+    "Exode 12:1-13",
+    "Jean 1:29",
+    "1 Pierre 1:18-19"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Exode 12:1-13. Immoler un agneau sans défaut et mettre son sang sur les poteaux des portes. Quand l'Éternel voyait le sang, il passait par-dessus la maison et le jugement ne l'atteignait pas."
+    },
+    {
+     "texte": "L'agneau mourait à la place de la famille."
+    },
+    {
+     "texte": "Lisons Jean 1:29 et 1 Pierre 1:18-19. Parce qu'il ôte le péché du monde. Nous avons été rachetés par le sang précieux de Christ, comme d'un agneau sans défaut et sans tache."
+    },
+    {
+     "texte": "Jésus est le vrai sacrifice : il n'y en aura plus d'autre."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Ce qu'il a porté",
+   "references": [
+    "Ésaïe 53:3-7",
+    "Ésaïe 53:5-6",
+    "1 Pierre 2:24",
+    "Apocalypse 5:12",
+    "Apocalypse 21:27"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Ésaïe 53:3-7. Méprisé, rejeté, homme de douleur. Il a porté nos souffrances et nos péchés. Il a été blessé pour nos péchés. Comme un agneau, il n'a pas ouvert la bouche."
+    },
+    {
+     "texte": "Cette prophétie décrit Jésus sur la croix."
+    },
+    {
+     "texte": "Lisons Ésaïe 53:5-6 et 1 Pierre 2:24. Il a été frappé à cause de nos péchés ; par ses meurtrissures nous sommes guéris. L'Éternel a fait retomber sur lui nos fautes à tous."
+    },
+    {
+     "texte": "Il a pris à ma place ce que je méritais."
+    },
+    {
+     "texte": "Lisons Apocalypse 5:12 et Apocalypse 21:27. L'Agneau est digne de recevoir puissance et gloire. Ceux dont le nom est dans le livre de vie de l'Agneau entreront."
+    },
+    {
+     "texte": "Est-ce que mon nom y est ? On le sait par la foi en Jésus."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Ce que nous retenons",
+   "references": [],
+   "blocs": [
+    {
+     "texte": "Jésus est l'Agneau de Dieu : il a pris à notre place ce que nous méritions. Il est le dernier et vrai sacrifice. Celui qui croit en lui est pardonné."
+    },
+    {
+     "verset": "Jean 1:29"
+    }
+   ]
+  }
+ ],
+ "sujets": [
+  {
+   "titre": "L'Agneau de Dieu",
+   "texte": "Prions afin que chacun comprenne que Jésus est mort à sa place, et qu'il l'accepte comme son Sauveur (Jean 1:29)."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Dans les temps bibliques, on sacrifiait des agneaux pour le péché : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Exode 12 ; Lévitique 4.",
+   "section": "1"
+  },
+  {
+   "question": "La Bible dit que Christ a été conduit comme un agneau à la boucherie : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Ésaïe 53:7.",
+   "section": "1"
+  },
+  {
+   "question": "Pour entrer dans le ciel, il faut que mon nom soit écrit dans le livre de vie de l'Agneau : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Apocalypse 21:27.",
+   "section": "1"
+  }
+ ],
+ "devoir": [
+  "Relis les passages de cette leçon et note ce qui te touche le plus.",
+  "Complète ton plan : Ma réflexion.",
+  "Apprends par cœur Jean 1:29.",
+  "Parle de ce que tu as découvert à une personne de confiance."
+ ],
+ "prieres_liees": [],
+ "source": "Parcours inspiré de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), manuel gratuit : les thèmes, le plan et les passages bibliques sont repris ; les questions, les explications, les enseignements et les guides de l'encadreur sont rédigés par Yeshaya.",
+ "date_ajout": "2026-11-24",
+ "relu": false
+}

@@ -1,0 +1,233 @@
+{
+ "id": "v0-pas-06-christ-mon-roi",
+ "volume": 0,
+ "numero": 6,
+ "titre": "Christ, mon Roi",
+ "sous_titre": "Jésus règne : le Roi qui vient",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "jesus-06-christ-mon-roi",
+ "verset_memoire": "Philippiens 2:10-11",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que tu découvres de Jésus.",
+  "jours": [
+   "Ésaïe 9:1-7",
+   "Luc 1:26-38",
+   "Philippiens 2:5-11",
+   "Matthieu 13:31-46",
+   "Apocalypse 19:11-16",
+   "Matthieu 28:16-20",
+   "Jean 3:1-8"
+  ]
+ },
+ "introduction": [
+  "Un jour, Jésus régnera sur toute la terre. La paix que le monde cherche viendra par lui.",
+  "Cette semaine, tu vas découvrir le Roi, et ce que veut dire le laisser régner dans ta vie."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Un jour, Christ régnera et apportera la paix.",
+       "reponse": true,
+       "explication": "Ésaïe 9:6-7."
+      },
+      {
+       "id": "vf2",
+       "texte": "Pour beaucoup, le retour de Christ sera un jour de larmes.",
+       "reponse": true,
+       "explication": "Apocalypse 1:7."
+      },
+      {
+       "id": "vf3",
+       "texte": "Le monde est perdu et il n'y a rien à espérer.",
+       "reponse": false,
+       "explication": "Jésus est le Roi qui vient (Apocalypse 19:16)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Le Roi promis",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Ésaïe 9:6-7 et Luc 1:31-33. Quelles prophéties sont faites au sujet du Roi ?",
+     "refs": [
+      "Ésaïe 9:6-7",
+      "Luc 1:31-33"
+     ],
+     "accompagnateur": {
+      "attendu": "Un enfant nous est né ; on l'appellera Admirable, Conseiller, Dieu puissant, Père éternel, Prince de la paix. Il régnera sur le trône de David pour toujours.",
+      "expliquer": [
+       "Jésus est né dans une famille modeste, mais il est le Roi."
+      ],
+      "relance": "Quelle sorte de roi attends-tu ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Philippiens 2:7-11. Comment Jésus est-il passé de l'humilité à la gloire ?",
+     "refs": [
+      "Philippiens 2:7-11"
+     ],
+     "accompagnateur": {
+      "attendu": "Il s'est dépouillé, a pris la forme d'un serviteur, s'est humilié jusqu'à la mort de la croix. Dieu l'a élevé et lui a donné le nom au-dessus de tout nom.",
+      "expliquer": [
+       "Un roi qui sert et qui meurt pour ses sujets."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Entrer dans son royaume",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Jean 3:3, 5 et Matthieu 6:33. Comment entre-t-on dans le royaume ?",
+     "refs": [
+      "Jean 3:3",
+      "Jean 3:5",
+      "Matthieu 6:33"
+     ],
+     "accompagnateur": {
+      "attendu": "Il faut naître de nouveau. Chercher d'abord le royaume de Dieu et sa justice.",
+      "expliquer": [
+       "On ne naît pas dans le royaume par sa famille ou son ethnie."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Matthieu 13:31-32, 44-46. À quoi ressemble le royaume ?",
+     "refs": [
+      "Matthieu 13:31-32",
+      "Matthieu 13:44-46"
+     ],
+     "accompagnateur": {
+      "attendu": "À une petite graine qui devient un grand arbre. À un trésor et à une perle pour lesquels on donne tout.",
+      "expliquer": [
+       "Il vaut plus que tout."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Apocalypse 19:11-16 et Matthieu 7:21. Que se passera-t-il à son retour ? Que dois-je faire dès maintenant ?",
+     "refs": [
+      "Apocalypse 19:11-16",
+      "Matthieu 7:21"
+     ],
+     "accompagnateur": {
+      "attendu": "Il viendra comme Roi des rois pour juger avec justice. Il faut faire la volonté du Père, lui obéir et se soumettre à lui dès aujourd'hui.",
+      "expliquer": [
+       "Inviter la personne à lui donner le trône de sa vie."
+      ],
+      "relance": "Veux-tu lui donner la première place ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Ma décision",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Ma décision",
+     "texte": [
+      "1. Qui règne dans ma vie aujourd'hui ?",
+      "2. Ce que je veux lui remettre :",
+      "3. Ma décision :",
+      "4. Ma prière :"
+     ],
+     "champ": "Ma décision",
+     "id": "plan-v0-pas-06-christ-mon-roi"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Philippiens 2:10-11 de mémoire.",
+     "refs": [
+      "Philippiens 2:10-11"
+     ],
+     "accompagnateur": {
+      "attendu": "« Afin qu'au nom de Jésus tout genou fléchisse dans les cieux, sur la terre et sous la terre, et que toute langue confesse que Jésus-Christ est Seigneur, à la gloire de Dieu le Père. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Le Roi promis",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Entrer dans son royaume",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Philippiens 2:10-11. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ce parcours est pour quelqu'un qui cherche : ne pas le presser ni lui faire dire une prière avant qu'il soit prêt.",
+   "Écouter ses questions avant de répondre. Ne jamais se moquer de sa religion ou de sa famille.",
+   "Si la personne décide de suivre Jésus, passer au volume 1 « Les pas de base » et au bilan de vie, en protégeant sa sécurité."
+  ]
+ }
+}

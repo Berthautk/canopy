@@ -1,0 +1,135 @@
+{
+ "id": "missions-10-recompenses",
+ "titre": "Les récompenses",
+ "serie": "Les missions mondiales",
+ "theme": "Missions",
+ "auteur": "Yeshaya",
+ "resume": "La joie et la récompense du serviteur de Dieu, et la victoire finale de l'Évangile.",
+ "image": "/assets/lieux-bibliques/marche-de-village.webp",
+ "verset_de_base": "Habacuc 2:14",
+ "lecture_minutes": 6,
+ "objectifs": [
+  "Comprendre le thème : Les récompenses.",
+  "Trouver dans la Bible la réponse à ce thème.",
+  "Mettre en pratique une décision précise cette semaine."
+ ],
+ "introduction": "Être missionnaire, ce n'est pas seulement un sacrifice : cela apporte aussi de la joie. Les grands missionnaires, comme Hudson Taylor, Jim Elliot, David Livingstone, William Carey, diraient aujourd'hui que cela valait la peine.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "La joie du serviteur",
+   "references": [
+    "Actes 26:17-18",
+    "Romains 8:1",
+    "1 Thessaloniciens 1:8",
+    "1 Thessaloniciens 2:17-20"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Actes 26:17-18 et Romains 8:1. Il ouvre les yeux, tire des ténèbres, délivre de la puissance de Satan, donne le pardon et un héritage. Plus de condamnation."
+    },
+    {
+     "texte": "Voir la vie des gens changée est une grande joie."
+    },
+    {
+     "texte": "Lisons 1 Thessaloniciens 1:8 et 1 Thessaloniciens 2:17-20. Il les appelle sa gloire et sa joie. L'Évangile se répand à partir d'eux."
+    },
+    {
+     "texte": "Les convertis sont la plus grande récompense du missionnaire."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "La récompense de Dieu",
+   "references": [
+    "Matthieu 25:14-23",
+    "Daniel 12:3",
+    "Habacuc 2:14",
+    "Apocalypse 21:1-4",
+    "Apocalypse 22:3-5"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Matthieu 25:14-23. « C'est bien, bon et fidèle serviteur ; entre dans la joie de ton maître. »"
+    },
+    {
+     "texte": "Dieu ne demande pas de grandes réussites mais la fidélité."
+    },
+    {
+     "texte": "Lisons Daniel 12:3 et Habacuc 2:14. Ils brilleront comme les étoiles à toujours. La terre sera remplie de la connaissance de la gloire de l'Éternel."
+    },
+    {
+     "texte": "La mission se terminera par la victoire du Christ."
+    },
+    {
+     "texte": "Lisons Apocalypse 21:1-4 et Apocalypse 22:3-5. Dieu habite avec les hommes, plus de larmes, plus de mort. Ses serviteurs le serviront et le verront face à face."
+    },
+    {
+     "texte": "Rappeler que notre travail n'est pas vain."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Ce que nous retenons",
+   "references": [],
+   "blocs": [
+    {
+     "texte": "Annoncer l'Évangile en vaut la peine : des vies changées, la joie du service, la récompense de Dieu et la victoire finale. Que Dieu nous donne de lui être fidèles jusqu'au bout."
+    },
+    {
+     "verset": "Habacuc 2:14"
+    }
+   ]
+  }
+ ],
+ "sujets": [
+  {
+   "titre": "Fidèles jusqu'au bout",
+   "texte": "Prions afin que nous soyons fidèles jusqu'au retour de Jésus, et que la terre soit remplie de la connaissance de sa gloire (Habacuc 2:14)."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Servir Dieu est seulement un sacrifice : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "Il y a de la joie à voir des vies changées (3 Jean 4).",
+   "section": "1"
+  },
+  {
+   "question": "Dieu récompense la fidélité : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Matthieu 25:21, 23.",
+   "section": "1"
+  },
+  {
+   "question": "L'Évangile change vraiment ceux qui l'entendent : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Actes 26:18.",
+   "section": "1"
+  }
+ ],
+ "devoir": [
+  "Relis les passages de cette leçon et note ce qui te touche le plus.",
+  "Complète ton plan : Mon engagement final.",
+  "Apprends par cœur Habacuc 2:14.",
+  "Parle de ce que tu as découvert à une personne de confiance."
+ ],
+ "prieres_liees": [],
+ "source": "Parcours inspiré de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), manuel gratuit : les thèmes, le plan et les passages bibliques sont repris ; les questions, les explications, les enseignements et les guides de l'encadreur sont rédigés par Yeshaya.",
+ "date_ajout": "2026-11-24",
+ "relu": false
+}

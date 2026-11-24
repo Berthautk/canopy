@@ -1,0 +1,229 @@
+{
+ "id": "v6-pas-02-pionniers-des-missions",
+ "volume": 6,
+ "numero": 2,
+ "titre": "Pionniers des missions",
+ "sous_titre": "Paul et les premiers missionnaires",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "missions-02-pionniers-des-missions",
+ "verset_memoire": "Actes 13:2",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que Dieu dit de sa mission.",
+  "jours": [
+   "Actes 13:1-12",
+   "Actes 14:1-28",
+   "Actes 16:6-15",
+   "Actes 26:12-23",
+   "Actes 20:17-38",
+   "2 Corinthiens 11:21-33",
+   "Romains 15:14-24"
+  ]
+ },
+ "introduction": [
+  "Les missions mondiales n'ont pas commencé hier : elles ont commencé avec Paul et Barnabas, envoyés par l'Église d'Antioche.",
+  "Cette semaine, tu vas suivre les pas de Paul et apprendre comment l'Église envoie."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Le livre des Actes est un manuel de missions.",
+       "reponse": true,
+       "explication": "Il raconte comment l'Évangile est allé jusqu'à Rome."
+      },
+      {
+       "id": "vf2",
+       "texte": "Paul est devenu missionnaire de lui-même, sans appel.",
+       "reponse": false,
+       "explication": "Il a été appelé par Jésus (Actes 26:16-18) et envoyé par l'Église d'Antioche (Actes 13:1-3)."
+      },
+      {
+       "id": "vf3",
+       "texte": "Les missionnaires n'ont pas souffert.",
+       "reponse": false,
+       "explication": "Paul a connu prison, coups, naufrages (2 Corinthiens 11:23-27)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Appelés et envoyés",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Actes 13:1-3. Comment Paul et Barnabas ont-ils été appelés ? Que fait l'Église ?",
+     "refs": [
+      "Actes 13:1-3"
+     ],
+     "accompagnateur": {
+      "attendu": "Pendant que l'Église servait le Seigneur et jeûnait, l'Esprit a demandé de mettre Barnabas et Saul à part. L'Église a jeûné, prié, imposé les mains et les a envoyés.",
+      "expliquer": [
+       "Un appel est confirmé par l'Église. L'Église prie et envoie."
+      ],
+      "relance": "Quel rôle ton église joue-t-elle dans l'envoi de missionnaires ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Actes 26:12-18. Comment Paul décrit-il sa mission ?",
+     "refs": [
+      "Actes 26:12-18"
+     ],
+     "accompagnateur": {
+      "attendu": "Ouvrir les yeux des hommes, les faire passer des ténèbres à la lumière, de la puissance de Satan à Dieu, pour recevoir le pardon des péchés.",
+      "expliquer": [
+       "C'est le but de toute mission : conduire à la lumière."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Sur les pas de Paul",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Actes 14:1-7, 19-23. Comment Paul agissait-il dans les villes ? Que faisait-il à la fin ?",
+     "refs": [
+      "Actes 14:1-7",
+      "Actes 14:19-23"
+     ],
+     "accompagnateur": {
+      "attendu": "Il prêchait, des gens croyaient, il y avait de l'opposition, il était même lapidé. Il revenait, fortifiait les disciples, établissait des anciens.",
+      "expliquer": [
+       "Le but n'est pas seulement de convertir, mais de fonder des églises solides."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis 2 Corinthiens 11:23-28. Qu'a coûté la mission à Paul ?",
+     "refs": [
+      "2 Corinthiens 11:23-28"
+     ],
+     "accompagnateur": {
+      "attendu": "Prisons, coups, danger de mort, naufrages, dangers sur les routes, faim, froid, soucis pour les églises.",
+      "expliquer": [
+       "Ne pas minimiser le prix. Dieu a donné à Paul la force de tenir."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Romains 15:20-21. Quelle était l'ambition de Paul ?",
+     "refs": [
+      "Romains 15:20-21"
+     ],
+     "accompagnateur": {
+      "attendu": "Annoncer l'Évangile là où Christ n'avait pas encore été nommé.",
+      "expliquer": [
+       "On parle de missions « pionnières » : aller vers ceux qui n'ont pas entendu."
+      ],
+      "relance": "Quel peuple n'a pas encore entendu l'Évangile près de chez toi ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Ce que Dieu me montre en voyant Paul :",
+      "2. Ce qui me retient :",
+      "3. Comment mon église peut envoyer :",
+      "4. Ma prière pour un missionnaire :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v6-pas-02-pionniers-des-missions"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Actes 13:2 de mémoire.",
+     "refs": [
+      "Actes 13:2"
+     ],
+     "accompagnateur": {
+      "attendu": "« Pendant qu'ils servaient le Seigneur dans l'adoration et le jeûne, le Saint-Esprit dit : Mettez-moi à part Barnabas et Saul pour l'œuvre à laquelle je les ai appelés. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Appelés et envoyés",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Sur les pas de Paul",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Actes 13:2. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas décourager ceux qui ne se sentent pas appelés à partir : toute la vie chrétienne est une mission.",
+   "Si la personne est tentée de s'engager trop vite, l'aider à chercher conseil auprès de l'Église et de responsables.",
+   "Prier ensemble pour des missionnaires précis, par leur nom."
+  ]
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "id": "missions-03-le-pere-des-missions-modernes",
+ "titre": "William Carey, le père des missions modernes",
+ "serie": "Les missions mondiales",
+ "theme": "Missions",
+ "auteur": "Yeshaya",
+ "resume": "Un cordonnier anglais que Dieu a utilisé pour réveiller l'Église à la mission.",
+ "image": "/assets/lieux-bibliques/marche-de-village.webp",
+ "verset_de_base": "Actes 1:8",
+ "lecture_minutes": 6,
+ "objectifs": [
+  "Comprendre le thème : Le père des missions modernes.",
+  "Trouver dans la Bible la réponse à ce thème.",
+  "Mettre en pratique une décision précise cette semaine."
+ ],
+ "introduction": "William Carey est né en 1761 en Angleterre, dans une famille modeste. Cordonnier, il a étudié la Bible et les langues. Il était convaincu que tout croyant doit porter l'Évangile aux nations. En 1793, il part en Inde.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Un homme ordinaire",
+   "references": [
+    "1 Corinthiens 1:26-29",
+    "Actes 1:8",
+    "Matthieu 28:19"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons 1 Corinthiens 1:26-29. Ce qui est folie, faible, méprisé selon le monde, pour confondre les sages et les forts."
+    },
+    {
+     "texte": "Carey était cordonnier. Il étudiait les langues pendant qu'il travaillait."
+    },
+    {
+     "texte": "Lisons Actes 1:8 et Matthieu 28:19. Que chaque croyant a l'obligation de porter l'Évangile aux nations. Il est parti en Inde en 1793."
+    },
+    {
+     "texte": "On lui disait : « Si Dieu veut convertir les païens, il le fera sans toi. » Il a obéi."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Persévérer",
+   "references": [
+    "2 Corinthiens 4:8-9",
+    "2 Corinthiens 4:16-18",
+    "Philippiens 3:12-14",
+    "Psaume 126:5-6"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons 2 Corinthiens 4:8-9 et 2 Corinthiens 4:16-18. Affligés mais non réduits à l'extrémité, persécutés mais non abandonnés, abattus mais non perdus. Regarder aux choses invisibles et éternelles."
+    },
+    {
+     "texte": "Carey a perdu des traductions dans un incendie : il a recommencé. Il a attendu sept ans avant le premier converti."
+    },
+    {
+     "texte": "Lisons Philippiens 3:12-14. J'oublie ce qui est en arrière et je cours vers le but pour remporter le prix."
+    },
+    {
+     "texte": "Carey disait : « Attendez de grandes choses de Dieu ; entreprenez de grandes choses pour Dieu. »"
+    },
+    {
+     "texte": "Lisons Psaume 126:5-6. Ceux qui sèment avec larmes moissonnent avec chants de joie."
+    },
+    {
+     "texte": "Chaque petit pas compte : prière, don, témoignage, service."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Ce que nous retenons",
+   "references": [],
+   "blocs": [
+    {
+     "texte": "Dieu utilise des gens ordinaires qui lui obéissent. Carey a traduit la Bible, ou des parties de la Bible, en une quarantaine de langues, a fondé une imprimerie, et n'a pas abandonné malgré les épreuves."
+    },
+    {
+     "verset": "Actes 1:8"
+    }
+   ]
+  }
+ ],
+ "sujets": [
+  {
+   "titre": "Des ouvriers",
+   "texte": "Prions afin que Dieu suscite des ouvriers ordinaires prêts à tout quitter pour l'Évangile (Matthieu 9:38)."
+  }
+ ],
+ "questions": [
+  {
+   "question": "William Carey était un homme riche et instruit : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "Il était cordonnier d'origine modeste, né en 1761.",
+   "section": "1"
+  },
+  {
+   "question": "Carey a traduit la Bible ou des parties de la Bible en environ quarante langues : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Il a aussi fondé une imprimerie en Inde.",
+   "section": "1"
+  },
+  {
+   "question": "Dieu utilise seulement les personnes très instruites : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "1 Corinthiens 1:26-27.",
+   "section": "1"
+  }
+ ],
+ "devoir": [
+  "Relis les passages de cette leçon et note ce qui te touche le plus.",
+  "Complète ton plan : Mon plan.",
+  "Apprends par cœur Actes 1:8.",
+  "Parle de ce que tu as découvert à une personne de confiance."
+ ],
+ "prieres_liees": [],
+ "source": "Parcours inspiré de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), manuel gratuit : les thèmes, le plan et les passages bibliques sont repris ; les questions, les explications, les enseignements et les guides de l'encadreur sont rédigés par Yeshaya.",
+ "date_ajout": "2026-11-24",
+ "relu": false
+}

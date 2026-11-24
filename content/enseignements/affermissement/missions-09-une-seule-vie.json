@@ -1,0 +1,134 @@
+{
+ "id": "missions-09-une-seule-vie",
+ "titre": "Une seule vie",
+ "serie": "Les missions mondiales",
+ "theme": "Missions",
+ "auteur": "Yeshaya",
+ "resume": "Que ferons-nous de la seule vie que nous avons ? Le visible passe, l'invisible demeure.",
+ "image": "/assets/lieux-bibliques/marche-de-village.webp",
+ "verset_de_base": "2 Corinthiens 4:17-18",
+ "lecture_minutes": 6,
+ "objectifs": [
+  "Comprendre le thème : Une seule vie.",
+  "Trouver dans la Bible la réponse à ce thème.",
+  "Mettre en pratique une décision précise cette semaine."
+ ],
+ "introduction": "« Une seule vie, bientôt passée ; seul ce qui est fait pour Christ restera. » Cette phrase d'un missionnaire résume bien la question. Nous n'avons qu'une seule vie. Qu'en faisons-nous ?",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Ce qui dure",
+   "references": [
+    "Psaume 90:10-12",
+    "Matthieu 6:19-21",
+    "2 Corinthiens 4:16-18"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Psaume 90:10-12 et Matthieu 6:19-21. Nos jours sont courts : apprendre à les compter pour avoir un cœur sage. Amasser des trésors dans le ciel, pas sur la terre."
+    },
+    {
+     "texte": "Beaucoup de gens construisent pour ce qui passe."
+    },
+    {
+     "texte": "Lisons 2 Corinthiens 4:16-18. Le visible passe : l'argent, le confort, l'apparence. L'invisible demeure : les âmes, la vie avec Dieu, ce qui est fait pour Christ."
+    },
+    {
+     "texte": "Les missionnaires ont dit : « Une seule vie, bientôt passée ; seul ce qui est fait pour Christ restera. »"
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Offrir sa vie",
+   "references": [
+    "Philippiens 3:7-10",
+    "Luc 9:23-25",
+    "Actes 20:22-24",
+    "Romains 12:1",
+    "Matthieu 25:21"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Philippiens 3:7-10 et Luc 9:23-25. Il a tout regardé comme une perte à cause de l'excellence de connaître Christ. Qui perd sa vie à cause de Jésus la sauvera."
+    },
+    {
+     "texte": "Donner sa vie, ce n'est pas la perdre : c'est la gagner."
+    },
+    {
+     "texte": "Lisons Actes 20:22-24 et Romains 12:1. Il ne tient pas sa vie pour précieuse, pourvu qu'il achève sa course et le ministère reçu du Seigneur. Il s'offre à Dieu comme sacrifice vivant."
+    },
+    {
+     "texte": "Chacun peut s'offrir à Dieu dans son travail, sa famille, sa communauté."
+    },
+    {
+     "texte": "Lisons Matthieu 25:21. Une phrase personnelle et une décision."
+    },
+    {
+     "texte": "Prier avec la personne pour lui remettre sa vie."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Ce que nous retenons",
+   "references": [],
+   "blocs": [
+    {
+     "texte": "Offrons notre vie à Dieu. Ce que nous faisons pour lui dure éternellement. Cela donne un grand sens à nos journées, même les plus ordinaires."
+    },
+    {
+     "verset": "2 Corinthiens 4:17-18"
+    }
+   ]
+  }
+ ],
+ "sujets": [
+  {
+   "titre": "Une seule vie",
+   "texte": "Prions afin que nous utilisions notre seule vie pour ce qui dure éternellement (2 Corinthiens 4:18)."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Je peux emporter mes richesses après la mort : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "1 Timothée 6:7 : nous n'avons rien apporté et nous ne pouvons rien emporter.",
+   "section": "1"
+  },
+  {
+   "question": "Ce qui est fait pour Christ durera : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "1 Corinthiens 15:58.",
+   "section": "1"
+  },
+  {
+   "question": "Il est trop tôt pour réfléchir à ce que je ferai de ma vie : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "Psaume 90:12 : enseigne-nous à bien compter nos jours.",
+   "section": "1"
+  }
+ ],
+ "devoir": [
+  "Relis les passages de cette leçon et note ce qui te touche le plus.",
+  "Complète ton plan : Ma vie.",
+  "Apprends par cœur 2 Corinthiens 4:17-18.",
+  "Parle de ce que tu as découvert à une personne de confiance."
+ ],
+ "prieres_liees": [],
+ "source": "Parcours inspiré de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), manuel gratuit : les thèmes, le plan et les passages bibliques sont repris ; les questions, les explications, les enseignements et les guides de l'encadreur sont rédigés par Yeshaya.",
+ "date_ajout": "2026-11-24",
+ "relu": false
+}

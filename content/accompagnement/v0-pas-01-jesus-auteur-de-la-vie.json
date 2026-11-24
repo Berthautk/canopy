@@ -1,0 +1,233 @@
+{
+ "id": "v0-pas-01-jesus-auteur-de-la-vie",
+ "volume": 0,
+ "numero": 1,
+ "titre": "Jésus, l'auteur de la vie",
+ "sous_titre": "Qui est Jésus ? La Parole qui s'est faite chair",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "jesus-01-auteur-de-la-vie",
+ "verset_memoire": "Jean 1:12",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que tu découvres de Jésus.",
+  "jours": [
+   "Jean 1:1-18",
+   "Jean 3:1-21",
+   "Éphésiens 2:1-10",
+   "Jean 14:1-6",
+   "Jean 5:19-30",
+   "Jean 10:7-10",
+   "1 Jean 5:11-13"
+  ]
+ },
+ "introduction": [
+  "Si on demande à dix personnes qui est Jésus, on obtient dix réponses. Pour certains, un grand maître ; pour d'autres, le Fils de Dieu.",
+  "Aujourd'hui, nous regardons ce que la Bible dit de lui et du don de la vie éternelle."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "La plupart des gens cherchent une vie meilleure.",
+       "reponse": true,
+       "explication": "Jean 10:10."
+      },
+      {
+       "id": "vf2",
+       "texte": "Toutes les religions mènent au ciel.",
+       "reponse": false,
+       "explication": "Jean 14:6 : nul ne vient au Père que par moi."
+      },
+      {
+       "id": "vf3",
+       "texte": "Si je fais de mon mieux, je pourrai gagner la vie éternelle.",
+       "reponse": false,
+       "explication": "Éphésiens 2:8-9 : par la grâce, non par les œuvres."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Qui est Jésus ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Jean 1:1-4 et 1:14. Que dit Jean de Jésus ?",
+     "refs": [
+      "Jean 1:1-4",
+      "Jean 1:14"
+     ],
+     "accompagnateur": {
+      "attendu": "Au commencement était la Parole, elle était avec Dieu et elle était Dieu. Tout a été fait par elle. En elle était la vie. La Parole est devenue chair et a habité parmi nous.",
+      "expliquer": [
+       "Jésus n'est pas un simple prophète : il est Dieu fait homme."
+      ],
+      "relance": "Qui dis-tu que Jésus est ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Éphésiens 2:1-5 et Jean 3:3, 16. Pourquoi avons-nous besoin de la vie qu'il donne ?",
+     "refs": [
+      "Éphésiens 2:1-5",
+      "Jean 3:3",
+      "Jean 3:16"
+     ],
+     "accompagnateur": {
+      "attendu": "Nous étions morts dans nos péchés. Dieu, riche en miséricorde, nous a rendus vivants avec Christ. Il faut naître de nouveau. Dieu a tant aimé le monde qu'il a donné son Fils.",
+      "expliquer": [
+       "La vie éternelle est un don, pas une récompense."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Recevoir la vie",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Jean 1:11-13 et Jean 5:24. Que reçoit celui qui croit ?",
+     "refs": [
+      "Jean 1:11-13",
+      "Jean 5:24"
+     ],
+     "accompagnateur": {
+      "attendu": "Le pouvoir de devenir enfant de Dieu. Il a la vie éternelle, ne vient pas en jugement, mais passe de la mort à la vie.",
+      "expliquer": [
+       "Recevoir Jésus est un choix personnel."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Jean 14:6 et Jean 10:10. Que dit Jésus de lui-même ?",
+     "refs": [
+      "Jean 14:6",
+      "Jean 10:10"
+     ],
+     "accompagnateur": {
+      "attendu": "Je suis le chemin, la vérité et la vie. Je suis venu pour que les brebis aient la vie en abondance.",
+      "expliquer": [
+       "Ne pas presser la personne : la laisser réfléchir."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Qu'est-ce que tu cherches dans la vie ? Qu'est-ce que Jésus offre ?",
+     "refs": [
+      "Jean 4:13-14"
+     ],
+     "accompagnateur": {
+      "attendu": "Une réponse personnelle : paix, pardon, sens, famille, espérance.",
+      "expliquer": [
+       "Écouter sans interrompre."
+      ],
+      "relance": "Qu'est-ce qui t'empêche de recevoir Jésus ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Ma réflexion",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Ma réflexion",
+     "texte": [
+      "1. Ce que je pensais de Jésus avant :",
+      "2. Ce que je découvre :",
+      "3. Mes questions :",
+      "4. Ma prière :"
+     ],
+     "champ": "Ma réflexion",
+     "id": "plan-v0-pas-01-jesus-auteur-de-la-vie"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Jean 1:12 de mémoire.",
+     "refs": [
+      "Jean 1:12"
+     ],
+     "accompagnateur": {
+      "attendu": "« Mais à tous ceux qui l'ont reçue, à ceux qui croient en son nom, elle a donné le pouvoir de devenir enfants de Dieu. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Qui est Jésus ?",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Recevoir la vie",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Jean 1:12. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ce parcours est pour quelqu'un qui cherche : ne pas le presser ni lui faire dire une prière avant qu'il soit prêt.",
+   "Écouter ses questions avant de répondre. Ne jamais se moquer de sa religion ou de sa famille.",
+   "Si la personne décide de suivre Jésus, passer au volume 1 « Les pas de base » et au bilan de vie, en protégeant sa sécurité."
+  ]
+ }
+}

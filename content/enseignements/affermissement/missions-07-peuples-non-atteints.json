@@ -1,0 +1,133 @@
+{
+ "id": "missions-07-peuples-non-atteints",
+ "titre": "Le défi des peuples non atteints",
+ "serie": "Les missions mondiales",
+ "theme": "Missions",
+ "auteur": "Yeshaya",
+ "resume": "Qui n'a pas encore entendu l'Évangile ? La fenêtre 10/40 et le cœur de Dieu pour toutes les nations.",
+ "image": "/assets/lieux-bibliques/marche-de-village.webp",
+ "verset_de_base": "Psaume 96:3",
+ "lecture_minutes": 6,
+ "objectifs": [
+  "Comprendre le thème : Le défi des peuples non atteints.",
+  "Trouver dans la Bible la réponse à ce thème.",
+  "Mettre en pratique une décision précise cette semaine."
+ ],
+ "introduction": "Une grande partie de la population mondiale se dit chrétienne, mais seule une petite part a une relation vraie avec Christ. Des milliers de peuples n'ont presque pas de témoignage chrétien. Beaucoup vivent dans la zone appelée « fenêtre 10/40 », où l'on trouve la majorité des musulmans, hindous et bouddhistes.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Le cœur de Dieu pour les nations",
+   "references": [
+    "Psaume 67",
+    "Psaume 96:1-10",
+    "Apocalypse 5:9-10",
+    "Matthieu 24:14"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Psaume 67 et Psaume 96:1-10. Que toutes les nations le connaissent, le louent et se réjouissent. Que sa gloire soit racontée parmi tous les peuples."
+    },
+    {
+     "texte": "La mission est une adoration : que Dieu reçoive la louange de tous."
+    },
+    {
+     "texte": "Lisons Apocalypse 5:9-10 et Matthieu 24:14. Des gens de toute tribu, langue, peuple et nation rachetés par le sang de l'Agneau. L'Évangile sera prêché dans le monde entier, puis viendra la fin."
+    },
+    {
+     "texte": "Nous pouvons hâter ce jour par la mission (2 Pierre 3:12)."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Ceux qui sont encore loin",
+   "references": [
+    "Romains 15:20-21",
+    "2 Timothée 2:2",
+    "Matthieu 9:36-38"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Romains 15:20-21. Le nom d'un peuple, sa religion, sa région, ses besoins. Une recherche simple."
+    },
+    {
+     "texte": "La « fenêtre 10/40 » désigne une zone où vivent la majorité des musulmans, hindous et bouddhistes, avec beaucoup de pauvreté."
+    },
+    {
+     "texte": "Lisons Romains 15:20-21 et 2 Timothée 2:2. En allant vers ceux qui n'ont pas entendu, et en formant des croyants fidèles qui enseigneront à d'autres."
+    },
+    {
+     "texte": "On ne vient pas seulement évangéliser : on forme des disciples qui forment d'autres."
+    },
+    {
+     "texte": "Lisons Matthieu 9:36-38. Choisir un peuple et prier chaque jour, soutenir un missionnaire, en parler à l'église."
+    },
+    {
+     "texte": "Faire un petit engagement."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Ce que nous retenons",
+   "references": [],
+   "blocs": [
+    {
+     "texte": "Dieu veut que toutes les nations le connaissent. Nous pouvons prier, donner, parler, aller. Choisissons un peuple et portons-le devant Dieu."
+    },
+    {
+     "verset": "Psaume 96:3"
+    }
+   ]
+  }
+ ],
+ "sujets": [
+  {
+   "titre": "Les peuples non atteints",
+   "texte": "Prions pour les peuples qui n'ont pas encore entendu l'Évangile, afin que Dieu suscite des ouvriers pour eux (Matthieu 9:38)."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Il n'y a plus de peuples qui n'ont jamais entendu l'Évangile : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "Des milliers de peuples n'ont pas encore de témoignage suffisant.",
+   "section": "1"
+  },
+  {
+   "question": "Dieu veut que toutes les nations le louent : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Psaume 67:4-6.",
+   "section": "1"
+  },
+  {
+   "question": "Mon pays n'a pas besoin de missionnaires : il est déjà évangélisé : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "Même dans nos pays, il y a des régions et des peuples peu atteints.",
+   "section": "1"
+  }
+ ],
+ "devoir": [
+  "Relis les passages de cette leçon et note ce qui te touche le plus.",
+  "Complète ton plan : Mon plan.",
+  "Apprends par cœur Psaume 96:3.",
+  "Parle de ce que tu as découvert à une personne de confiance."
+ ],
+ "prieres_liees": [],
+ "source": "Parcours inspiré de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), manuel gratuit : les thèmes, le plan et les passages bibliques sont repris ; les questions, les explications, les enseignements et les guides de l'encadreur sont rédigés par Yeshaya.",
+ "date_ajout": "2026-11-24",
+ "relu": false
+}

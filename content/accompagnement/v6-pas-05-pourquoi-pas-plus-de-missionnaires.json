@@ -1,0 +1,231 @@
+{
+ "id": "v6-pas-05-pourquoi-pas-plus-de-missionnaires",
+ "volume": 6,
+ "numero": 5,
+ "titre": "Pourquoi n'y a-t-il pas plus de missionnaires ?",
+ "sous_titre": "Les excuses courantes et les réponses de la Bible",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "missions-05-pourquoi-pas-plus-de-missionnaires",
+ "verset_memoire": "Matthieu 9:37-38",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que Dieu dit de sa mission.",
+  "jours": [
+   "Exode 3:1-15",
+   "Exode 4:1-17",
+   "Jérémie 1:4-10",
+   "Ésaïe 6:1-8",
+   "Philippiens 4:10-20",
+   "2 Corinthiens 4:1-7",
+   "Actes 11:19-26"
+  ]
+ },
+ "introduction": [
+  "« Les autres le feront. » « Il n'y a pas d'argent. » « Je ne suis pas qualifié. » Voici les excuses les plus fréquentes.",
+  "Cette semaine, tu vas les regarder honnêtement, et voir ce que Dieu répond."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Si je suis une personne simple et timide, Dieu ne peut pas m'utiliser.",
+       "reponse": false,
+       "explication": "Moïse a dit « Qui suis-je ? » et Dieu a répondu « Je serai avec toi » (Exode 3:11-12)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Les missionnaires ne manquent jamais d'argent.",
+       "reponse": false,
+       "explication": "Les missionnaires dépendent du soutien des Églises. Paul a été soutenu par les Philippiens (Philippiens 4:15-18)."
+      },
+      {
+       "id": "vf3",
+       "texte": "Il y a assez à faire chez nous, donc nous n'avons pas besoin d'envoyer.",
+       "reponse": false,
+       "explication": "L'Église d'Antioche a envoyé ses meilleurs ouvriers (Actes 13:1-3)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Les excuses",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Fais la liste des excuses que tu as entendues ou que tu t'es données pour ne pas partir ou ne pas soutenir un missionnaire. Lesquelles te concernent ?",
+     "refs": [
+      "Luc 9:57-62"
+     ],
+     "accompagnateur": {
+      "attendu": "Une liste honnête : manque d'argent, peur, timidité, famille, confort, langue, maladies. Jésus répond à ceux qui font des excuses.",
+      "expliquer": [
+       "Ne pas se justifier : regarder honnêtement."
+      ],
+      "relance": "Laquelle est la tienne ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Exode 3:11-12 et 4:10-12. Comment Dieu répond-il aux excuses de Moïse ?",
+     "refs": [
+      "Exode 3:11-12",
+      "Exode 4:10-12"
+     ],
+     "accompagnateur": {
+      "attendu": "Il dit : « Je serai avec toi. » Il rappelle qu'il a fait la bouche de l'homme et promet de l'enseigner.",
+      "expliquer": [
+       "Dieu connaît nos faiblesses. Il ne demande pas d'être capables, mais d'être disponibles."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Les réponses",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis 2 Corinthiens 4:7 et 1 Corinthiens 1:27. Pourquoi Dieu choisit-il des gens faibles ?",
+     "refs": [
+      "2 Corinthiens 4:7",
+      "1 Corinthiens 1:27"
+     ],
+     "accompagnateur": {
+      "attendu": "Pour que la puissance vienne de Dieu et non de nous. Nous portons le trésor dans des vases de terre.",
+      "expliquer": [
+       "Les missionnaires ne sont pas des surhommes."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Philippiens 4:15-19. Comment l'argent de la mission est-il fourni ?",
+     "refs": [
+      "Philippiens 4:15-19"
+     ],
+     "accompagnateur": {
+      "attendu": "Les Philippiens ont soutenu Paul. Dieu pourvoit à tous les besoins selon sa richesse. Chaque croyant peut donner.",
+      "expliquer": [
+       "Soutenir un missionnaire est une œuvre de foi : ce n'est pas une aumône, mais un partenariat."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Ésaïe 6:8 et Actes 11:19-21. Comment les premiers chrétiens ont-ils répondu ?",
+     "refs": [
+      "Ésaïe 6:8",
+      "Actes 11:19-21"
+     ],
+     "accompagnateur": {
+      "attendu": "« Me voici, envoie-moi. » Les chrétiens dispersés par la persécution annonçaient la parole : des Grecs ont cru.",
+      "expliquer": [
+       "Des gens simples ont fondé l'Église d'Antioche."
+      ],
+      "relance": "Quelle excuse veux-tu déposer aujourd'hui ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Mon excuse principale :",
+      "2. Ce que Dieu lui répond :",
+      "3. Ma réponse à Dieu :",
+      "4. Un pas concret :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v6-pas-05-pourquoi-pas-plus-de-missionnaires"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Matthieu 9:37-38 de mémoire.",
+     "refs": [
+      "Matthieu 9:37-38"
+     ],
+     "accompagnateur": {
+      "attendu": "« Alors il dit à ses disciples : La moisson est grande, mais il y a peu d'ouvriers. Priez donc le maître de la moisson d'envoyer des ouvriers dans sa moisson. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Les excuses",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Les réponses",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Matthieu 9:37-38. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas décourager ceux qui ne se sentent pas appelés à partir : toute la vie chrétienne est une mission.",
+   "Si la personne est tentée de s'engager trop vite, l'aider à chercher conseil auprès de l'Église et de responsables.",
+   "Prier ensemble pour des missionnaires précis, par leur nom."
+  ]
+ }
+}

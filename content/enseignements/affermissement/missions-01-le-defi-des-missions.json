@@ -1,0 +1,133 @@
+{
+ "id": "missions-01-le-defi-des-missions",
+ "titre": "Le défi des missions mondiales",
+ "serie": "Les missions mondiales",
+ "theme": "Missions",
+ "auteur": "Yeshaya",
+ "resume": "L'ordre de Jésus d'aller vers toutes les nations : ce qu'il commande, avec quelle autorité et quelle promesse.",
+ "image": "/assets/lieux-bibliques/marche-de-village.webp",
+ "verset_de_base": "Matthieu 28:19-20",
+ "lecture_minutes": 6,
+ "objectifs": [
+  "Comprendre le thème : Le défi des missions mondiales.",
+  "Trouver dans la Bible la réponse à ce thème.",
+  "Mettre en pratique une décision précise cette semaine."
+ ],
+ "introduction": "Il y a encore des millions de personnes qui n'ont jamais entendu parler de Jésus. Le missionnaire Robert Moffat racontait avoir vu, dans une grande plaine d'Afrique, la fumée de mille villages où aucun missionnaire n'était jamais allé. Que demande Jésus à son Église ?",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Ce que Jésus commande",
+   "references": [
+    "Matthieu 28:18-20",
+    "Actes 1:8"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Matthieu 28:18-20. Aller, faire des disciples, baptiser, enseigner à observer ses commandements. Toute autorité lui a été donnée. Il promet d'être avec nous."
+    },
+    {
+     "texte": "Le verbe principal est « faire des disciples ». Aller, baptiser et enseigner en sont les moyens."
+    },
+    {
+     "texte": "Lisons Actes 1:8. À Jérusalem, dans toute la Judée, en Samarie, et jusqu'aux extrémités de la terre, avec la puissance du Saint-Esprit."
+    },
+    {
+     "texte": "Jérusalem : ma ville. Judée : mon pays. Samarie : ceux qui sont différents de moi. Extrémités : le monde."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Un plan depuis le commencement",
+   "references": [
+    "Genèse 12:1-3",
+    "Apocalypse 7:9-10",
+    "Romains 1:16",
+    "Éphésiens 2:1-2",
+    "Matthieu 9:36-38"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Genèse 12:1-3 et Apocalypse 7:9-10. Bénir toutes les familles de la terre par Abraham. À la fin, une foule de toutes nations, tribus, peuples et langues devant le trône."
+    },
+    {
+     "texte": "La mission n'est pas une idée de l'Église : c'est le cœur de Dieu depuis le début."
+    },
+    {
+     "texte": "Lisons Romains 1:16 et Éphésiens 2:1-2. L'Évangile est la puissance de Dieu pour le salut de tous ceux qui croient. Sans Christ, les hommes sont morts dans leurs péchés et suivent le prince de ce monde."
+    },
+    {
+     "texte": "Des millions n'ont jamais entendu parler de Jésus."
+    },
+    {
+     "texte": "Lisons Matthieu 9:36-38. De la compassion, comme Jésus. Une invitation à prier le Maître de la moisson d'envoyer des ouvriers."
+    },
+    {
+     "texte": "Commencer par prier. Dieu appelle souvent ceux qui prient."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Ce que nous retenons",
+   "references": [],
+   "blocs": [
+    {
+     "texte": "La Grande Mission est pour tous les disciples. Jésus a toute autorité, et il est avec nous. Commençons par prier, puis faisons un premier pas là où nous sommes."
+    },
+    {
+     "verset": "Matthieu 28:19-20"
+    }
+   ]
+  }
+ ],
+ "sujets": [
+  {
+   "titre": "La Grande Mission",
+   "texte": "Prions afin que l'Église obéisse à l'ordre de Jésus et que des ouvriers soient envoyés vers toutes les nations (Matthieu 9:38)."
+  }
+ ],
+ "questions": [
+  {
+   "question": "La Grande Mission est pour quelques chrétiens seulement : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "« Faites de toutes les nations des disciples » : l'ordre est donné à toute l'Église (Matthieu 28:19).",
+   "section": "1"
+  },
+  {
+   "question": "Jésus a toute autorité dans le ciel et sur la terre : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Matthieu 28:18.",
+   "section": "1"
+  },
+  {
+   "question": "Jésus promet d'être avec nous jusqu'à la fin du monde : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Matthieu 28:20.",
+   "section": "1"
+  }
+ ],
+ "devoir": [
+  "Relis les passages de cette leçon et note ce qui te touche le plus.",
+  "Complète ton plan : Mon plan.",
+  "Apprends par cœur Matthieu 28:19-20.",
+  "Parle de ce que tu as découvert à une personne de confiance."
+ ],
+ "prieres_liees": [],
+ "source": "Parcours inspiré de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), manuel gratuit : les thèmes, le plan et les passages bibliques sont repris ; les questions, les explications, les enseignements et les guides de l'encadreur sont rédigés par Yeshaya.",
+ "date_ajout": "2026-11-24",
+ "relu": false
+}

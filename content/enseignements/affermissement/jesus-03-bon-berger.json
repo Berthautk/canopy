@@ -1,0 +1,134 @@
+{
+ "id": "jesus-03-bon-berger",
+ "titre": "Jésus, le Bon Berger",
+ "serie": "Qui est Jésus-Christ ?",
+ "theme": "Découvrir Jésus",
+ "auteur": "Yeshaya",
+ "resume": "Quelqu'un se soucie-t-il de moi ? Jésus, le berger qui donne sa vie pour ses brebis.",
+ "image": "/assets/jesus/jesus-portrait-serein.webp",
+ "verset_de_base": "Jean 10:11",
+ "lecture_minutes": 6,
+ "objectifs": [
+  "Comprendre le thème : Jésus, le Bon Berger.",
+  "Trouver dans la Bible la réponse à ce thème.",
+  "Mettre en pratique une décision précise cette semaine."
+ ],
+ "introduction": "Il y a des moments où nous avons perdu le contrôle de notre vie. Nous nous sentons seuls, menacés, maltraités, éloignés de Dieu et des autres. Jésus décrit les foules comme des brebis sans berger. Il se présente comme celui qui prend soin.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Le bon berger",
+   "references": [
+    "Matthieu 9:36",
+    "Jean 10:1-6",
+    "Jean 10:11-15"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Matthieu 9:36 et Jean 10:1-6. Il a compassion : elles sont comme des brebis sans berger. Le berger entre par la porte, appelle chaque brebis par son nom, marche devant elle."
+    },
+    {
+     "texte": "Jésus connaît ton nom, ta vie, ta douleur."
+    },
+    {
+     "texte": "Lisons Jean 10:11-15. Le bon berger donne sa vie pour ses brebis. Le mercenaire s'enfuit quand le loup vient, car il ne s'intéresse qu'à son salaire."
+    },
+    {
+     "texte": "Beaucoup de personnes autour de nous s'enfuient quand les difficultés viennent. Jésus reste."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Ce que le berger donne",
+   "references": [
+    "Jean 10:9-10",
+    "Jean 10:27-28",
+    "Psaume 23",
+    "Luc 15:1-7",
+    "1 Pierre 5:7"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Jean 10:9-10 et Jean 10:27-28. Le salut, la liberté, la vie en abondance, la vie éternelle. Personne ne peut les arracher de sa main."
+    },
+    {
+     "texte": "Sécurité et vie."
+    },
+    {
+     "texte": "Lisons Psaume 23. Il conduit, restaure, guide, protège dans la vallée de l'ombre de la mort, prépare une table, accompagne toute la vie."
+    },
+    {
+     "texte": "Faire lire à voix haute lentement."
+    },
+    {
+     "texte": "Lisons Luc 15:1-7 et 1 Pierre 5:7. Il va la chercher jusqu'à la trouver, la met sur ses épaules avec joie. Il veut que nous lui remettions toutes nos inquiétudes."
+    },
+    {
+     "texte": "Chaque personne compte pour lui."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Ce que nous retenons",
+   "references": [],
+   "blocs": [
+    {
+     "texte": "Jésus est le Bon Berger qui donne sa vie pour ses brebis. Il les connaît par leur nom, les protège et leur donne la vie éternelle. Personne ne peut les arracher de sa main."
+    },
+    {
+     "verset": "Jean 10:11"
+    }
+   ]
+  }
+ ],
+ "sujets": [
+  {
+   "titre": "Le Bon Berger",
+   "texte": "Prions pour ceux qui se sentent seuls, afin qu'ils entendent la voix du Bon Berger (Jean 10:27)."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Tous ceux qui disent être disciples de Christ finiront par me décevoir : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "Les hommes peuvent décevoir, mais Christ ne déçoit jamais (Hébreux 13:5).",
+   "section": "1"
+  },
+  {
+   "question": "Personne ne s'intéresse vraiment à moi : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "1 Pierre 5:7 : il prend soin de vous.",
+   "section": "1"
+  },
+  {
+   "question": "Christ prendra soin de moi pour l'éternité : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Jean 10:28-29.",
+   "section": "1"
+  }
+ ],
+ "devoir": [
+  "Relis les passages de cette leçon et note ce qui te touche le plus.",
+  "Complète ton plan : Ma réflexion.",
+  "Apprends par cœur Jean 10:11.",
+  "Parle de ce que tu as découvert à une personne de confiance."
+ ],
+ "prieres_liees": [],
+ "source": "Parcours inspiré de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), manuel gratuit : les thèmes, le plan et les passages bibliques sont repris ; les questions, les explications, les enseignements et les guides de l'encadreur sont rédigés par Yeshaya.",
+ "date_ajout": "2026-11-24",
+ "relu": false
+}

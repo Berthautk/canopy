@@ -1,0 +1,136 @@
+{
+ "id": "jesus-06-christ-mon-roi",
+ "titre": "Christ, mon Roi",
+ "serie": "Qui est Jésus-Christ ?",
+ "theme": "Découvrir Jésus",
+ "auteur": "Yeshaya",
+ "resume": "Jésus, le Roi qui vient : son royaume, son règne, et ce qu'il demande à ceux qui l'attendent.",
+ "image": "/assets/jesus/jesus-portrait-serein.webp",
+ "verset_de_base": "Philippiens 2:10-11",
+ "lecture_minutes": 6,
+ "objectifs": [
+  "Comprendre le thème : Christ, mon Roi.",
+  "Trouver dans la Bible la réponse à ce thème.",
+  "Mettre en pratique une décision précise cette semaine."
+ ],
+ "introduction": "Isaïe avait annoncé qu'un enfant naîtrait, qu'on l'appellerait Prince de la paix, et qu'il régnerait pour toujours. Jésus est né dans une famille modeste, il a travaillé comme charpentier, et il règne déjà dans les cœurs de ceux qui croient.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Le Roi promis",
+   "references": [
+    "Ésaïe 9:6-7",
+    "Luc 1:31-33",
+    "Philippiens 2:7-11"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Ésaïe 9:6-7 et Luc 1:31-33. Un enfant nous est né ; on l'appellera Admirable, Conseiller, Dieu puissant, Père éternel, Prince de la paix. Il régnera sur le trône de David pour toujours."
+    },
+    {
+     "texte": "Jésus est né dans une famille modeste, mais il est le Roi."
+    },
+    {
+     "texte": "Lisons Philippiens 2:7-11. Il s'est dépouillé, a pris la forme d'un serviteur, s'est humilié jusqu'à la mort de la croix. Dieu l'a élevé et lui a donné le nom au-dessus de tout nom."
+    },
+    {
+     "texte": "Un roi qui sert et qui meurt pour ses sujets."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Entrer dans son royaume",
+   "references": [
+    "Jean 3:3",
+    "Jean 3:5",
+    "Matthieu 6:33",
+    "Matthieu 13:31-32",
+    "Matthieu 13:44-46",
+    "Apocalypse 19:11-16",
+    "Matthieu 7:21"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Jean 3:3, Jean 3:5 et Matthieu 6:33. Il faut naître de nouveau. Chercher d'abord le royaume de Dieu et sa justice."
+    },
+    {
+     "texte": "On ne naît pas dans le royaume par sa famille ou son ethnie."
+    },
+    {
+     "texte": "Lisons Matthieu 13:31-32 et Matthieu 13:44-46. À une petite graine qui devient un grand arbre. À un trésor et à une perle pour lesquels on donne tout."
+    },
+    {
+     "texte": "Il vaut plus que tout."
+    },
+    {
+     "texte": "Lisons Apocalypse 19:11-16 et Matthieu 7:21. Il viendra comme Roi des rois pour juger avec justice. Il faut faire la volonté du Père, lui obéir et se soumettre à lui dès aujourd'hui."
+    },
+    {
+     "texte": "Inviter la personne à lui donner le trône de sa vie."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Ce que nous retenons",
+   "references": [],
+   "blocs": [
+    {
+     "texte": "Un jour, tout genou fléchira devant lui. Dès maintenant, nous pouvons lui ouvrir notre vie, lui obéir et l'attendre avec joie."
+    },
+    {
+     "verset": "Philippiens 2:10-11"
+    }
+   ]
+  }
+ ],
+ "sujets": [
+  {
+   "titre": "Christ le Roi",
+   "texte": "Prions afin que chacun reconnaisse Jésus comme Roi et le laisse régner dans sa vie (Philippiens 2:11)."
+  }
+ ],
+ "questions": [
+  {
+   "question": "Un jour, Christ régnera et apportera la paix : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Ésaïe 9:6-7.",
+   "section": "1"
+  },
+  {
+   "question": "Pour beaucoup, le retour de Christ sera un jour de larmes : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Apocalypse 1:7.",
+   "section": "1"
+  },
+  {
+   "question": "Le monde est perdu et il n'y a rien à espérer : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "Jésus est le Roi qui vient (Apocalypse 19:16).",
+   "section": "1"
+  }
+ ],
+ "devoir": [
+  "Relis les passages de cette leçon et note ce qui te touche le plus.",
+  "Complète ton plan : Ma décision.",
+  "Apprends par cœur Philippiens 2:10-11.",
+  "Parle de ce que tu as découvert à une personne de confiance."
+ ],
+ "prieres_liees": [],
+ "source": "Parcours inspiré de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), manuel gratuit : les thèmes, le plan et les passages bibliques sont repris ; les questions, les explications, les enseignements et les guides de l'encadreur sont rédigés par Yeshaya.",
+ "date_ajout": "2026-11-24",
+ "relu": false
+}
