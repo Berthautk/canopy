@@ -1,563 +1,782 @@
 {
-  "id": "enseignement-mariage-chretien-musulman",
-  "titre": "Épouser un musulman, renier sa foi : ce que dit la Bible",
-  "serie": "Grandir",
-  "theme": "Fondations",
-  "auteur": "Yeshaya",
-  "resume": "« Je l'aime, on s'arrangera pour la religion. » « Je dis juste la chahada pour avoir le poste. » Ce que la Bible dit du mariage avec un non-croyant, ce qu'un mariage avec un musulman demande souvent en réalité, le danger de renier Christ pour un amour ou un emploi, et le chemin de retour pour celui qui est tombé.",
-  "image": "/assets/famille-quotidien/mariage.webp",
-  "verset_de_base": "Mt 10:32-33",
-  "lecture_minutes": 31,
-  "objectifs": [
-    "Connaître l'enseignement biblique sur le mariage avec un non-croyant.",
-    "Savoir ce qu'un mariage avec un musulman demande souvent, sans illusions.",
-    "Comprendre la gravité de renier Christ, pour un mariage ou pour un emploi.",
-    "Savoir quoi faire si on est déjà marié à un non-croyant.",
-    "Connaître le chemin de restauration pour celui qui a renié."
-  ],
-  "introduction": "Elle a trente ans, elle est chrétienne, elle prie depuis des années pour un mari. Un homme musulman, respectueux, travailleur, la demande en mariage. Sa famille à lui exige qu'elle se convertisse, ou au moins que les enfants soient élevés dans l'islam. Lui, il dit : « Ce n'est pas grave, tu peux garder ta foi en privé. » Elle se dit : « Dieu comprendra. »\n\nLui, il est chrétien, diplômé, au chômage depuis deux ans. On lui propose un très bon poste, mais on lui fait comprendre qu'il faudra « rejoindre la communauté ». Il se dit : « Je réciterai la chahada pour la forme, mais dans mon cœur je reste chrétien. »\n\nCes situations sont réelles et fréquentes. Elles touchent au cœur, à la famille, à l'argent. Cet enseignement ne veut pas condamner, mais dire la vérité avant qu'il soit trop tard, et ouvrir un chemin de retour à ceux qui sont déjà tombés. Jésus a dit : quiconque me confessera devant les hommes, je le confesserai aussi devant mon Père qui est dans les cieux ; mais quiconque me reniera devant les hommes, je le renierai aussi devant mon Père qui est dans les cieux (Matthieu 10:32-33).",
-  "sections": [
+ "id": "enseignement-mariage-chretien-musulman",
+ "titre": "Est-ce qu'un chrétien peut épouser un musulman ? Ce que dit la Bible, et les pièges à connaître",
+ "serie": "Grandir",
+ "theme": "Fondations",
+ "auteur": "Yeshaya",
+ "resume": "« Je l'aime, on va s'arranger pour la religion. » « Je dis juste la chahada pour avoir le poste. » « Il m'a promis une boutique. » Est-ce qu'un chrétien peut épouser un musulman ? Est-ce que nous avons le même Dieu ? Cet enseignement dit clairement ce que dit la Bible. Il montre ce qu'un mariage avec un musulman demande en réalité, les pièges que l'on tend aux jeunes chrétiens, le danger de renier Jésus pour un amour ou pour un emploi, et comment attendre de Dieu le bon conjoint. Il ouvre aussi un chemin de retour pour celui qui est déjà tombé.",
+ "image": "/assets/famille-quotidien/mariage.webp",
+ "verset_de_base": "Mt 10:32-33",
+ "lecture_minutes": 48,
+ "objectifs": [
+  "Savoir ce que la Bible dit du mariage avec quelqu'un qui ne croit pas en Jésus.",
+  "Comprendre pourquoi le chrétien et le musulman n'ont pas le même Dieu, et ce que cela change pour le mariage.",
+  "Reconnaître les pièges : promesses d'argent, de boutique, de travail, et conversion exigée avant le mariage.",
+  "Comprendre la gravité de renier Jésus, pour un mariage ou pour un emploi.",
+  "Savoir attendre de Dieu le bon conjoint.",
+  "Savoir quoi faire si l'on est déjà marié à un musulman, ou si l'on a déjà renié."
+ ],
+ "introduction": "Voici une jeune femme. Elle a trente ans. Elle est chrétienne. Depuis des années, elle prie pour avoir un mari. Un jour, un homme musulman la demande en mariage. Il est respectueux, il travaille, il a un peu d'argent. Mais sa famille à lui pose une condition : elle doit devenir musulmane, ou au moins accepter que les enfants soient élevés dans l'islam. Lui, il lui dit doucement : « Ce n'est pas grave. Tu pourras garder ta foi dans ton cœur. » Et elle se dit : « Dieu va comprendre. »\n\nVoici maintenant un jeune homme. Il est chrétien. Il a son diplôme, mais il est au chômage depuis deux ans. Un commerçant du quartier lui propose de l'aider : une petite boutique, ou une place dans son magasin. Mais on lui fait comprendre qu'il faudra « venir avec nous à la mosquée ». Il se dit : « Je vais dire la chahada pour la forme. Mais dans mon cœur, je reste chrétien. »\n\nCes histoires ne sont pas inventées. Elles arrivent tous les jours, dans nos quartiers, dans nos villes et dans nos villages. Elles touchent au cœur, à la famille et à l'argent. C'est pour cela qu'elles sont si dangereuses.\n\nCet enseignement ne veut condamner personne. Il veut dire la vérité avant qu'il ne soit trop tard. Et il veut ouvrir un chemin de retour à ceux qui sont déjà tombés. Jésus a dit : quiconque me confessera devant les hommes, je le confesserai aussi devant mon Père qui est dans les cieux ; mais quiconque me reniera devant les hommes, je le renierai aussi devant mon Père qui est dans les cieux (Matthieu 10:32-33).",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Ce que la Bible dit du mariage avec quelqu'un qui ne croit pas en Jésus",
+   "references": [
+    "2 Co 6:14-16",
+    "1 Co 7:39",
+    "Dt 7:3-4"
+   ],
+   "blocs": [
     {
-      "numero": "1",
-      "titre": "Ce que la Bible dit du mariage avec un non-croyant",
-      "references": [
-        "2 Co 6:14-16",
-        "1 Co 7:39",
-        "Dt 7:3-4"
-      ],
-      "blocs": [
-        {
-          "sous_titre": "Pas sous un joug étranger"
-        },
-        {
-          "texte": "Paul écrit : ne vous mettez pas avec les infidèles sous un joug étranger. Car quel rapport y a-t-il entre la justice et l'iniquité ? Quel accord y a-t-il entre Christ et Bélial ? Le joug, c'est la pièce de bois qui attache deux bœufs pour labourer ensemble. Si l'un tire à droite et l'autre à gauche, le champ n'est jamais labouré, et les deux s'épuisent. Le mariage est le joug le plus étroit qui existe."
-        },
-        {
-          "verset": "2 Co 6:14-16"
-        },
-        {
-          "sous_titre": "Seulement dans le Seigneur"
-        },
-        {
-          "texte": "Paul dit aussi à la veuve qu'elle est libre de se remarier avec qui elle veut, mais il ajoute : seulement, que ce soit dans le Seigneur. Ce n'est pas une règle de l'église, c'est une parole de Dieu. Pour un chrétien, épouser un non-chrétien, que ce soit un musulman, un animiste ou un homme qui ne croit en rien, n'est pas un choix permis."
-        },
-        {
-          "verset": "1 Co 7:39"
-        },
-        {
-          "sous_titre": "Ils détourneraient ton cœur"
-        },
-        {
-          "texte": "Dieu avait déjà dit à Israël de ne pas s'allier par le mariage avec les peuples qui servaient d'autres dieux, car ils détourneraient tes fils de moi. Salomon, l'homme le plus sage, a épousé des femmes étrangères. Et la Bible dit : à l'époque de sa vieillesse, ses femmes inclinèrent son cœur vers d'autres dieux (1 Rois 11:4). Si Salomon n'a pas résisté, ne crois pas que toi, tu résisteras."
-        },
-        {
-          "verset": "Dt 7:3-4"
-        }
-      ]
+     "sous_titre": "Ne pas se mettre sous le même joug"
     },
     {
-      "numero": "2",
-      "titre": "Ce que le mariage avec un musulman demande souvent",
-      "references": [
-        "Lc 14:28",
-        "Pr 22:3"
-      ],
-      "blocs": [
-        {
-          "sous_titre": "Ce que dit la loi islamique classique"
-        },
-        {
-          "texte": "Il faut être honnête et informé. Selon la loi islamique classique, un homme musulman peut épouser une femme chrétienne sans qu'elle se convertisse, mais les enfants doivent être élevés comme musulmans. Une femme musulmane, elle, ne peut pas épouser un homme non musulman : il est demandé à l'homme de se convertir. Les pratiques varient selon les pays et les familles, et certains couples vivent autrement. Mais c'est la règle générale, et la famille la rappelle souvent au moment du mariage, de la naissance des enfants, ou d'un décès."
-        },
-        {
-          "sous_titre": "La promesse « tu garderas ta foi »"
-        },
-        {
-          "texte": "Beaucoup de femmes chrétiennes ont entendu : « Tu pourras continuer à aller à l'église. » Au début, c'est vrai. Puis vient la pression de la belle-famille, le baptême musulman des enfants, l'interdiction d'emmener les enfants à l'église, la question de l'héritage, et parfois la peur. Au moment de mourir ou d'enterrer, la question revient encore. Jésus dit de s'asseoir et de calculer avant de bâtir. Calcule aujourd'hui ce que coûtera ce mariage dans dix ans, pour toi et pour tes enfants."
-        },
-        {
-          "verset": "Lc 14:28"
-        },
-        {
-          "sous_titre": "La question des enfants"
-        },
-        {
-          "texte": "Le plus grave, ce sont les enfants. Le chrétien qui épouse un non-croyant accepte souvent, dès le départ, que ses enfants soient élevés dans une autre foi. Est-ce que tu peux regarder ton futur enfant et lui dire : j'ai accepté qu'on t'apprenne que Jésus n'est pas mort pour toi ?"
-        },
-        {
-          "verset": "Pr 22:3"
-        }
-      ]
+     "texte": "Paul écrit : ne vous mettez pas avec les infidèles sous un joug étranger. Car quel rapport y a-t-il entre la justice et l'iniquité ? Ou qu'y a-t-il de commun entre la lumière et les ténèbres ? Quel accord y a-t-il entre Christ et Bélial ?"
     },
     {
-      "numero": "3",
-      "titre": "Renier Christ par amour",
-      "references": [
-        "Mt 10:32-39",
-        "Mc 8:34-38",
-        "Lc 14:26"
-      ],
-      "blocs": [
-        {
-          "sous_titre": "Ce que veut dire renier"
-        },
-        {
-          "texte": "Renier Christ, c'est déclarer publiquement qu'on ne lui appartient pas. Prononcer la chahada, c'est déclarer qu'il n'y a de dieu que Dieu et que Mahomet est son messager, ce qui implique d'accepter un message qui nie la croix et la divinité de Jésus. Ce n'est pas une formule culturelle ou une politesse. C'est une profession de foi."
-        },
-        {
-          "verset": "Mt 10:32-39"
-        },
-        {
-          "sous_titre": "Aimer plus que Jésus"
-        },
-        {
-          "texte": "Jésus a dit : celui qui aime son père ou sa mère plus que moi n'est pas digne de moi. Si quelqu'un vient à moi, et s'il ne hait pas son père, sa mère, sa femme, ses enfants, et même sa propre vie, il ne peut être mon disciple. Haïr, ici, veut dire aimer moins. Aucun amour humain, ni celui d'un fiancé, ni celui d'une famille, ne peut passer avant Jésus."
-        },
-        {
-          "verset": "Lc 14:26"
-        },
-        {
-          "sous_titre": "Gagner le monde, perdre son âme"
-        },
-        {
-          "texte": "Que sert-il à un homme de gagner tout le monde, s'il perd son âme ? Car quiconque aura honte de moi et de mes paroles au milieu de cette génération adultère et pécheresse, le Fils de l'homme aura aussi honte de lui. Un mariage, même heureux, ne vaut pas ton âme."
-        },
-        {
-          "verset": "Mc 8:34-38"
-        },
-        {
-          "sous_titre": "« Je reste chrétien dans mon cœur »"
-        },
-        {
-          "texte": "Certains disent : « Je dirai la chahada avec ma bouche, mais dans mon cœur je reste chrétien. » La Bible dit le contraire : si tu confesses de ta bouche le Seigneur Jésus, et si tu crois dans ton cœur, tu seras sauvé (Romains 10:9). La bouche et le cœur vont ensemble. Jésus a dit : que votre parole soit oui, oui, non, non (Matthieu 5:37). On ne joue pas avec une profession de foi."
-        }
-      ]
+     "verset": "2 Co 6:14-16"
     },
     {
-      "numero": "4",
-      "titre": "Renier Christ pour un emploi",
-      "references": [
-        "Dn 1:8",
-        "Dn 3:16-18",
-        "He 11:24-26",
-        "Mt 6:33"
-      ],
-      "blocs": [
-        {
-          "sous_titre": "Daniel à Babylone"
-        },
-        {
-          "texte": "Daniel était un jeune déporté dans une cour étrangère. On lui offrait une carrière brillante, à condition de manger les mets du roi, consacrés aux idoles. Daniel résolut dans son cœur de ne pas se souiller. Dieu lui a donné la faveur, et il est devenu l'un des plus hauts responsables de l'empire, sans renier son Dieu."
-        },
-        {
-          "verset": "Dn 1:8"
-        },
-        {
-          "sous_titre": "Même s'il ne nous délivre pas"
-        },
-        {
-          "texte": "Les trois amis de Daniel ont refusé de se prosterner devant la statue du roi, même sous la menace de la fournaise. Ils ont dit : notre Dieu peut nous délivrer. Sinon, sache, ô roi, que nous ne servirons pas tes dieux. Leur fidélité ne dépendait pas du résultat."
-        },
-        {
-          "verset": "Dn 3:16-18"
-        },
-        {
-          "sous_titre": "Moïse a refusé"
-        },
-        {
-          "texte": "Moïse avait tout : la cour d'Égypte, l'éducation, la richesse. Par la foi, il a refusé d'être appelé fils de la fille de Pharaon, aimant mieux être maltraité avec le peuple de Dieu que d'avoir pour un temps la jouissance du péché, regardant l'opprobre de Christ comme une richesse plus grande que les trésors de l'Égypte."
-        },
-        {
-          "verset": "He 11:24-26"
-        },
-        {
-          "sous_titre": "Cherche premièrement"
-        },
-        {
-          "texte": "Le chômage est une épreuve réelle et dure. Mais Jésus dit : cherchez premièrement le royaume et la justice de Dieu, et toutes ces choses vous seront données par-dessus. Un poste obtenu en reniant Christ est un poste payé avec ton âme. Prie, cherche, accepte un travail plus modeste, demande l'aide de l'église, mais ne vends pas ton Seigneur."
-        },
-        {
-          "verset": "Mt 6:33"
-        }
-      ]
+     "texte": "Qu'est-ce que c'est, un joug ? C'est la pièce de bois que l'on met sur le cou de deux bœufs pour qu'ils tirent la charrue ensemble. Imagine maintenant que l'un des bœufs tire à droite et que l'autre tire à gauche. Que va-t-il se passer ? Le champ ne sera jamais labouré, et les deux bœufs vont s'épuiser. Le mariage, c'est le joug le plus serré qui existe entre deux personnes. Si l'un marche avec Jésus et l'autre non, ils tirent dans deux directions différentes."
     },
     {
-      "numero": "5",
-      "titre": "Si tu es déjà marié à un musulman",
-      "references": [
-        "1 Co 7:12-16",
-        "1 P 3:1-2"
-      ],
-      "blocs": [
-        {
-          "sous_titre": "Ne pas partir pour cela"
-        },
-        {
-          "texte": "Si tu t'es converti après ton mariage, ou si tu t'es marié avant de comprendre, la Bible ne te demande pas de divorcer. Paul dit : si un frère a une femme non croyante, et qu'elle consente à habiter avec lui, qu'il ne la répudie point. Et la femme ne doit pas quitter son mari non croyant s'il consent à habiter avec elle. Ta présence sanctifie ta maison."
-        },
-        {
-          "verset": "1 Co 7:12-16"
-        },
-        {
-          "sous_titre": "Gagné sans parole"
-        },
-        {
-          "texte": "Pierre écrit aux femmes dont le mari n'obéit pas à la Parole qu'ils peuvent être gagnés sans parole, par la conduite de leur femme, en voyant leur manière de vivre chaste et réservée. Sois une épouse ou un époux exemplaire. Prie chaque jour pour ton conjoint. Apprends la Bible à tes enfants autant que tu le peux, avec sagesse."
-        },
-        {
-          "verset": "1 P 3:1-2"
-        },
-        {
-          "sous_titre": "Ta sécurité"
-        },
-        {
-          "texte": "Si tu es menacé, frappé ou séquestré à cause de ta foi, ce n'est plus seulement une question spirituelle. Parles-en à ton pasteur et cherche de l'aide pour te protéger, toi et tes enfants. Paul dit que si le non-croyant se sépare, le frère ou la sœur ne sont pas liés dans ces cas-là."
-        }
-      ]
+     "texte": "Paul pose la question : qu'y a-t-il de commun entre la lumière et les ténèbres ? La réponse est : rien. On ne peut pas mélanger la lumière et la nuit. Quand la lumière entre, la nuit s'en va. Quand la nuit vient, la lumière disparaît."
     },
     {
-      "numero": "6",
-      "titre": "Si tu as déjà renié",
-      "references": [
-        "Lc 22:31-32",
-        "Lc 22:61-62",
-        "Jn 21:15-17",
-        "1 Jn 1:9"
-      ],
-      "blocs": [
-        {
-          "sous_titre": "Pierre aussi a renié"
-        },
-        {
-          "texte": "La nuit où Jésus a été arrêté, Pierre, qui avait juré de mourir pour lui, a dit trois fois : je ne le connais pas. Jésus le savait d'avance, et il lui avait dit : j'ai prié pour toi, afin que ta foi ne défaille point ; et toi, quand tu seras converti, affermis tes frères."
-        },
-        {
-          "verset": "Lc 22:31-32"
-        },
-        {
-          "sous_titre": "Il pleura amèrement"
-        },
-        {
-          "texte": "Quand le coq a chanté, le Seigneur s'est retourné et a regardé Pierre. Et Pierre est sorti, et il a pleuré amèrement. Si tu as renié Christ pour un mariage, un poste ou par peur, tu sais peut-être ce que sont ces larmes."
-        },
-        {
-          "verset": "Lc 22:61-62"
-        },
-        {
-          "sous_titre": "Restauré trois fois"
-        },
-        {
-          "texte": "Après sa résurrection, Jésus a demandé trois fois à Pierre : m'aimes-tu ? Une fois pour chaque reniement. Et trois fois il lui a confié ses brebis. Jésus n'a pas jeté Pierre. Il l'a restauré et en a fait un pilier de l'Église. Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner. Reviens. Parle à un pasteur, confesse, et reprends ta place dans la famille de Dieu."
-        },
-        {
-          "verset": "Jn 21:15-17"
-        }
-      ]
+     "sous_titre": "Seulement dans le Seigneur"
     },
     {
-      "numero": "7",
-      "titre": "Pour les parents et l'église",
-      "references": [
-        "Pr 19:14",
-        "Ga 6:2"
-      ],
-      "blocs": [
-        {
-          "sous_titre": "Ne pas pousser au mauvais mariage"
-        },
-        {
-          "texte": "Beaucoup de jeunes femmes acceptent un mariage avec un non-croyant à cause de la pression : « Tu as trente ans, qu'est-ce que tu attends ? » Parents, oncles, tantes, pasteurs : ne poussez pas vos enfants vers un mariage qui les éloignera de Christ. La maison et les richesses sont un héritage des pères, mais une femme intelligente est un don de l'Éternel. C'est aussi vrai pour un mari pieux."
-        },
-        {
-          "verset": "Pr 19:14"
-        },
-        {
-          "sous_titre": "Porter les fardeaux"
-        },
-        {
-          "texte": "L'église doit soutenir les célibataires qui attendent, aider les chômeurs qui refusent de renier leur foi, protéger les convertis venus de l'islam, et accueillir sans mépris ceux qui reviennent après être tombés. Portez les fardeaux les uns des autres."
-        },
-        {
-          "verset": "Ga 6:2"
-        }
-      ]
+     "texte": "Paul parle aussi de la femme dont le mari est mort. Il dit qu'elle est libre de se remarier avec qui elle veut, mais il ajoute : seulement, que ce soit dans le Seigneur (1 Corinthiens 7:39)."
     },
     {
-      "numero": "8",
-      "titre": "Josaphat : une alliance par mariage qui a coûté trois générations",
-      "references": [
-        "2 Ch 18:1",
-        "2 Ch 21:5-7",
-        "2 Ch 22:2-4"
-      ],
-      "blocs": [
-        {
-          "sous_titre": "Un roi pieux qui fait un calcul"
-        },
-        {
-          "texte": "Josaphat, roi de Juda, était un homme qui aimait Dieu. Il avait enlevé les idoles du pays, envoyé des enseignants pour instruire le peuple dans la loi de Dieu, et Dieu l'avait béni. La Bible dit : Josaphat eut en abondance des richesses et de la gloire, et il s'allia par mariage avec Achab."
-        },
-        {
-          "verset": "2 Ch 18:1"
-        },
-        {
-          "texte": "Achab était le roi d'Israël, le royaume du nord, et il était l'un des rois les plus méchants de la Bible. Sa femme, Jézabel, avait fait tuer les prophètes de Dieu et répandu le culte de Baal. Josaphat a pourtant marié son fils Joram avec Athalie, la fille d'Achab et de Jézabel. Pourquoi ? Sans doute pour des raisons politiques : faire la paix entre les deux royaumes, renforcer son armée, unir les familles. Un calcul qui paraissait sage."
-        },
-        {
-          "sous_titre": "La première génération"
-        },
-        {
-          "texte": "Josaphat lui-même est resté fidèle à Dieu. Mais regarde ce qui s'est passé ensuite. Joram, son fils, devint roi. Il marcha dans la voie des rois d'Israël, comme avait fait la maison d'Achab, car il avait pour femme une fille d'Achab, et il fit ce qui est mal aux yeux de l'Éternel."
-        },
-        {
-          "verset": "2 Ch 21:5-7"
-        },
-        {
-          "texte": "Remarque la raison donnée : car il avait pour femme une fille d'Achab. Le fils d'un roi pieux est devenu un roi méchant, à cause de sa femme. Il a même fait tuer tous ses frères."
-        },
-        {
-          "sous_titre": "La deuxième génération"
-        },
-        {
-          "texte": "Puis vint Achazia, le petit-fils de Josaphat. Il marcha dans les voies de la maison d'Achab, car sa mère lui donnait des conseils impies. Il fit ce qui est mal aux yeux de l'Éternel, comme la maison d'Achab, où il eut après la mort de son père des conseillers pour sa perte."
-        },
-        {
-          "verset": "2 Ch 22:2-4"
-        },
-        {
-          "texte": "« Sa mère lui donnait des conseils impies. » La femme que Josaphat avait fait entrer dans sa famille est devenue la conseillère de son petit-fils."
-        },
-        {
-          "sous_titre": "La troisième génération"
-        },
-        {
-          "texte": "Et quand Achazia mourut, sa mère Athalie fit mourir toute la descendance royale de la maison de Juda, c'est-à-dire ses propres petits-enfants, pour prendre le pouvoir. Il s'en est fallu de peu que la lignée de David, celle d'où devait venir le Messie, soit complètement détruite. Un seul bébé, Joas, fut caché et sauvé par sa tante."
-        },
-        {
-          "sous_titre": "Ce que cela nous apprend"
-        },
-        {
-          "texte": "Josaphat est resté fidèle toute sa vie. Mais la décision d'unir sa famille à une famille qui ne servait pas Dieu a eu des conséquences sur trois générations. C'est souvent ainsi. Le chrétien qui épouse un non-croyant pense : moi, je resterai fidèle. Et peut-être qu'il le restera. Mais ses enfants grandiront entre deux maîtres, et ses petits-enfants risquent de ne plus connaître le Dieu de leurs grands-parents. Un mariage n'est jamais une décision qui concerne seulement deux personnes."
-        }
-      ]
+     "verset": "1 Co 7:39"
     },
     {
-      "numero": "9",
-      "titre": "Les enfants qui ne savaient plus parler la langue de Juda",
-      "references": [
-        "Ne 13:23-25",
-        "Dt 6:20-21"
-      ],
-      "blocs": [
-        {
-          "sous_titre": "Ce que Néhémie a vu"
-        },
-        {
-          "texte": "Après le retour de l'exil, Néhémie avait aidé à rebâtir les murailles de Jérusalem. Il était parti quelque temps, puis il est revenu. Et il raconte ce qu'il a découvert : à cette même époque, je vis des Juifs qui avaient pris des femmes asdodiennes, ammonites, moabites. La moitié de leurs fils parlaient l'asdodien, et ne savaient pas parler le juif ; ils ne connaissaient que la langue de tel ou tel peuple."
-        },
-        {
-          "verset": "Ne 13:23-25"
-        },
-        {
-          "sous_titre": "Une perte silencieuse"
-        },
-        {
-          "texte": "Ce détail est très parlant. Dans la maison, la mère parlait sa propre langue aux enfants. Le père, souvent absent pour le travail, ne parlait pas beaucoup avec eux. Et peu à peu, les enfants ont grandi sans pouvoir comprendre la lecture de la loi de Dieu à la synagogue, sans comprendre les psaumes, sans connaître les histoires de leur peuple. Ils ne s'étaient pas révoltés contre Dieu. Ils avaient simplement grandi dans une autre langue, une autre culture, une autre religion."
-        },
-        {
-          "texte": "Dieu avait ordonné à Israël : lorsque ton fils te demandera un jour : que signifient ces préceptes, ces lois et ces ordonnances que l'Éternel, notre Dieu, vous a prescrits ? tu diras à ton fils : nous étions esclaves de Pharaon en Égypte, et l'Éternel nous a fait sortir de l'Égypte par sa main puissante."
-        },
-        {
-          "verset": "Dt 6:20-21"
-        },
-        {
-          "texte": "Mais comment répondre aux questions d'un enfant qui ne parle plus ta langue spirituelle ?"
-        },
-        {
-          "sous_titre": "Ce qui se passe souvent aujourd'hui"
-        },
-        {
-          "texte": "C'est exactement ce que vivent beaucoup de familles où un chrétien a épousé un musulman. Au début, on dit : nos enfants choisiront plus tard. Mais dans la pratique, les enfants apprennent la prière musulmane, fréquentent l'école coranique, célèbrent les fêtes de la famille du père ou de la mère musulmane, et reçoivent souvent un nom musulman. Le parent chrétien n'a parfois pas le droit de les emmener à l'église ou de leur lire la Bible. À l'adolescence, ils ne connaissent plus la langue de la foi chrétienne."
-        },
-        {
-          "texte": "Ce n'est pas une question de mépris pour l'autre culture. C'est une question de transmission. Celui qui veut que ses enfants connaissent Jésus doit réfléchir avant de se marier à la langue spirituelle que parlera sa maison."
-        }
-      ]
+     "texte": "« Dans le Seigneur », qu'est-ce que cela veut dire ? Cela veut dire avec quelqu'un qui est en Christ. Avec quelqu'un qui est né de nouveau, qui a reçu Jésus comme son Seigneur et son Sauveur. Je le redis simplement : pour un chrétien, le mariage se fait avec un chrétien. Ce n'est pas une règle inventée par l'Église. C'est une parole de Dieu. Épouser quelqu'un qui ne croit pas en Jésus, que ce soit un musulman, un adepte des religions traditionnelles, ou quelqu'un qui ne croit en rien, ce n'est pas un choix que Dieu permet au chrétien."
     },
     {
-      "numero": "10",
-      "titre": "Quand on est déjà amoureux : que faire ?",
-      "references": [
-        "Ps 37:4"
-      ],
-      "blocs": [
-        {
-          "sous_titre": "La vérité des sentiments"
-        },
-        {
-          "texte": "Beaucoup de jeunes chrétiens qui lisent cet enseignement sont déjà amoureux d'un musulman ou d'une musulmane. Ils pensent : c'est facile à dire pour les autres, mais moi, je l'aime vraiment, et c'est quelqu'un de bien. C'est souvent vrai. Beaucoup de musulmans sont des personnes honnêtes, généreuses, fidèles, plus respectueuses même que certains chrétiens. La question n'est pas de savoir si cette personne est bonne. La question est : Jésus est-il le Seigneur de ma vie et de mon mariage ?"
-        },
-        {
-          "sous_titre": "Quelques étapes honnêtes"
-        },
-        {
-          "texte": "Premièrement, sois honnête devant Dieu. Ne fais pas semblant que tes sentiments n'existent pas. Dis-lui ta douleur, ton amour, ta peur de rester seul. Le psalmiste dit : fais de l'Éternel tes délices, et il te donnera ce que ton cœur désire."
-        },
-        {
-          "verset": "Ps 37:4"
-        },
-        {
-          "texte": "Remarque l'ordre : d'abord faire de Dieu ses délices. Quand Dieu devient notre plus grand désir, nos autres désirs sont transformés."
-        },
-        {
-          "texte": "Deuxièmement, parle clairement avec la personne. Dis-lui avec respect que ta foi en Jésus n'est pas négociable, que tu ne prononceras pas la chahada, que tes enfants seront élevés dans la connaissance de Jésus. Sa réaction te montrera beaucoup de choses."
-        },
-        {
-          "texte": "Troisièmement, ne te contente pas d'une promesse vague comme : « Je te laisserai pratiquer ta religion. » Une conversion sincère à Jésus peut arriver, et Dieu en fait. Mais une conversion faite seulement pour pouvoir épouser quelqu'un n'est pas une vraie conversion, et elle s'effondre souvent après le mariage."
-        },
-        {
-          "texte": "Quatrièmement, parle avec des chrétiens mûrs, un pasteur, des parents spirituels, qui t'aimeront assez pour te dire la vérité."
-        },
-        {
-          "sous_titre": "Un renoncement qui coûte"
-        },
-        {
-          "texte": "Si Dieu te demande de renoncer à cette relation, c'est l'un des sacrifices les plus douloureux qu'un jeune chrétien puisse faire. Ne le minimise pas, et ne laisse personne le minimiser. Pleurer n'est pas un manque de foi. Mais souviens-toi que Dieu ne demande jamais un sacrifice pour te faire du mal. Il voit plus loin que toi : il voit les enfants que tu n'as pas encore, les années que tu n'as pas encore vécues, et la paix qu'il veut te garder. Ce qu'on remet à Dieu n'est jamais perdu."
-        },
-        {
-          "texte": "On raconte l'histoire d'une jeune femme qui était fiancée depuis deux ans à un homme musulman, gentil et respectueux. Le jour où il a dit clairement que leurs enfants seraient musulmans, et qu'elle devrait cesser d'aller à l'église après le mariage, elle a pleuré pendant des semaines. Avec l'aide de sa pasteure et de ses amies, elle a rompu les fiançailles. Ce fut la période la plus difficile de sa vie. Trois ans plus tard, elle a épousé un homme qui aimait le Seigneur. Elle a dit à des jeunes filles de son église : « Je ne vous dirai pas que ce n'était pas douloureux. Mais aujourd'hui, quand je prie le soir avec mon mari et nos enfants, je sais que Dieu ne m'a rien pris. Il m'a protégée. »"
-        }
-      ]
+     "sous_titre": "Ils détourneraient ton cœur"
     },
     {
-      "numero": "11",
-      "titre": "Conclusion",
-      "references": [
-        "Ap 2:10",
-        "He 12:2-3"
-      ],
-      "blocs": [
-        {
-          "texte": "Jésus dit à l'église de Smyrne : sois fidèle jusqu'à la mort, et je te donnerai la couronne de vie. Il ne te demande rien qu'il n'ait pas vécu lui-même : il a enduré la croix, méprisé l'ignominie, et il est assis à la droite du trône de Dieu. Considère celui qui a supporté contre sa personne une telle opposition, afin que tu ne te lasses point, l'âme découragée."
-        },
-        {
-          "verset": "Ap 2:10"
-        }
-      ]
+     "texte": "Bien avant Paul, Dieu avait déjà dit à son peuple Israël de ne pas se marier avec les peuples qui servaient d'autres dieux. Pourquoi ? Dieu donne lui-même la raison : car ils détourneraient tes fils de moi."
+    },
+    {
+     "verset": "Dt 7:3-4"
+    },
+    {
+     "texte": "Salomon était l'homme le plus sage de son temps. Il a épousé des femmes étrangères qui servaient d'autres dieux. Et la Bible raconte : à l'époque de sa vieillesse, ses femmes inclinèrent son cœur vers d'autres dieux (1 Rois 11:4). Réfléchis bien. Si Salomon, le plus sage des hommes, n'a pas résisté, ne pense pas que toi, tu vas résister plus facilement."
+    },
+    {
+     "sous_titre": "Abraham cherche une femme pour son fils"
+    },
+    {
+     "texte": "Quand Abraham voulut marier son fils Isaac, il appela son serviteur et lui dit : je te ferai jurer par l'Éternel, le Dieu du ciel et le Dieu de la terre, de ne pas prendre pour mon fils une femme parmi les filles des Cananéens au milieu desquels j'habite, mais d'aller dans mon pays et dans ma patrie prendre une femme pour mon fils Isaac (Genèse 24:3-4)."
+    },
+    {
+     "verset": "Gn 24:3-4"
+    },
+    {
+     "texte": "Abraham habitait au milieu des Cananéens. Il était leur voisin. Il commerçait avec eux. Il vivait en paix avec eux. Mais pour le mariage de son fils, il a dit non. Pourquoi ? Parce que le mariage n'est pas seulement une affaire de deux personnes. C'est une affaire de foi, de famille, et des générations qui vont venir. Être bon voisin avec les musulmans, oui. Travailler avec eux, oui. Les aimer, oui. Leur annoncer Jésus, oui. Mais se marier avec eux, non."
     }
-  ],
-  "questions": [
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Est-ce que nous avons le même Dieu ?",
+   "references": [
+    "1 Jn 2:22-23",
+    "Am 3:3"
+   ],
+   "blocs": [
     {
-      "question": "Que dit 1 Corinthiens 7:39 sur le remariage de la veuve ?",
-      "choix": [
-        "Elle peut épouser qui elle veut sans condition",
-        "Elle peut se remarier, mais seulement dans le Seigneur",
-        "Elle ne doit jamais se remarier"
-      ],
-      "reponse": 1,
-      "explication": "(1 Corinthiens 7:39)",
-      "section": "1"
+     "sous_titre": "Ce que disent les musulmans eux-mêmes"
     },
     {
-      "question": "Selon la loi islamique classique, une femme musulmane peut-elle épouser un chrétien sans qu'il se convertisse ?",
-      "choix": [
-        "Oui, toujours",
-        "Non, il est demandé à l'homme de se convertir",
-        "Cela n'a jamais été abordé"
-      ],
-      "reponse": 1,
-      "explication": "Les pratiques varient, mais c'est la règle générale.",
-      "section": "2"
+     "texte": "Beaucoup de gens disent : « Le chrétien et le musulman, c'est le même Dieu. Alors pourquoi ne pas se marier ? » Posons la question aux musulmans eux-mêmes. Un enseignant chrétien a posé cette question à ses élèves musulmans, en classe. Il leur a demandé : « Est-ce que les chrétiens et les musulmans ont le même Dieu ? » Et les élèves ont répondu : « Non. Vous, les chrétiens, vous dites que Jésus-Christ est Dieu. Nous, nous refusons cela. Donc nous n'avons pas le même Dieu. »"
     },
     {
-      "question": "Réciter la chahada « pour la forme » est-il sans conséquence ?",
-      "choix": [
-        "Oui, si le cœur reste chrétien",
-        "Non, c'est une profession de foi qui renie la croix et la divinité de Jésus",
-        "Oui, pour un bon emploi"
-      ],
-      "reponse": 1,
-      "explication": "(Matthieu 10:33 ; Romains 10:9)",
-      "section": "3"
+     "texte": "Ces élèves ont raison. Le chrétien adore Jésus-Christ comme Dieu, venu dans un corps d'homme. Pour le musulman, adorer Jésus est le plus grand de tous les péchés, celui que Dieu ne pardonne pas. Le Coran dit : ils sont mécréants, ceux qui disent qu'Allah, c'est le Messie, fils de Marie (sourate 5, verset 72). En d'autres termes, ce que le chrétien adore, le musulman le condamne. Et ce que le musulman confesse, que Mahomet est le messager de Dieu et que Jésus n'est pas mort sur la croix, le chrétien ne peut pas le confesser."
     },
     {
-      "question": "Qu'ont dit les amis de Daniel devant la fournaise ?",
-      "choix": [
-        "Nous allons obéir",
-        "Notre Dieu peut nous délivrer ; sinon, nous ne servirons pas tes dieux",
-        "Nous allons fuir"
-      ],
-      "reponse": 1,
-      "explication": "(Daniel 3:17-18)",
-      "section": "4"
+     "sous_titre": "Ce que dit la Bible"
     },
     {
-      "question": "Si un chrétien est déjà marié à un non-croyant qui veut rester, que dit Paul ?",
-      "choix": [
-        "Il doit divorcer",
-        "Il ne doit pas le répudier",
-        "Il doit changer de religion"
-      ],
-      "reponse": 1,
-      "explication": "(1 Corinthiens 7:12-13)",
-      "section": "5"
+     "texte": "La Bible le dit clairement : quiconque nie le Fils n'a pas non plus le Père ; quiconque confesse le Fils a aussi le Père (1 Jean 2:23). Celui qui refuse Jésus comme Fils de Dieu ne connaît pas le Père. Ce n'est pas une question de mot. Les deux religions utilisent parfois le même mot, « Dieu » ou « Allah ». Mais elles ne décrivent pas le même Dieu. Le Dieu de la Bible est Père, Fils et Saint-Esprit. Il s'est fait homme en Jésus. Il est mort sur la croix pour nous et il est ressuscité. Le Dieu du Coran refuse tout cela."
     },
     {
-      "question": "Comment Jésus a-t-il traité Pierre après son reniement ?",
-      "choix": [
-        "Il l'a rejeté",
-        "Il l'a restauré et lui a confié ses brebis",
-        "Il l'a ignoré"
-      ],
-      "reponse": 1,
-      "explication": "(Jean 21:15-17)",
-      "section": "6"
+     "verset": "1 Jn 2:22-23"
     },
     {
-      "question": "Quelles ont été les conséquences du mariage arrangé par Josaphat avec la famille d'Achab ?",
-      "choix": [
-        "Aucune",
-        "Son fils, son petit-fils et sa famille ont été entraînés dans le mal pendant trois générations",
-        "Il est devenu plus riche"
-      ],
-      "reponse": 1,
-      "explication": "2 Chroniques 21:6 ; 22:3.",
-      "section": "8"
+     "texte": "Certains disent aussi que le dieu des musulmans serait un dieu-lune, à cause du croissant sur les mosquées. Ce n'est pas la bonne raison, et ce n'est pas prouvé. Nous l'avons expliqué dans l'enseignement sur les symboles de l'islam. La vraie raison est beaucoup plus simple et plus forte : c'est Jésus. On ne peut pas adorer Jésus comme Dieu et, en même temps, prier avec quelqu'un qui dit que c'est un grand péché d'adorer Jésus."
     },
     {
-      "question": "Qu'a découvert Néhémie chez les enfants des mariages mixtes ?",
-      "choix": [
-        "Qu'ils étaient très instruits",
-        "Que beaucoup ne savaient plus parler la langue de Juda et ne pouvaient plus comprendre la loi de Dieu",
-        "Qu'ils étaient tous devenus prêtres"
-      ],
-      "reponse": 1,
-      "explication": "Néhémie 13:23-24.",
-      "section": "9"
+     "sous_titre": "Deux personnes qui ne marchent pas vers le même endroit"
     },
     {
-      "question": "Selon le psaume 37:4, que faut-il faire en premier ?",
-      "choix": [
-        "Se marier vite",
-        "Faire de l'Éternel ses délices",
-        "Écouter ses sentiments"
-      ],
-      "reponse": 1,
-      "explication": "Psaume 37:4.",
-      "section": "10"
+     "texte": "Le prophète Amos pose une question simple : deux hommes marchent-ils ensemble, sans en être convenus ? (Amos 3:3)."
+    },
+    {
+     "verset": "Am 3:3"
+    },
+    {
+     "texte": "Prenons un exemple de chez nous. Deux personnes montent dans le même taxi. L'une veut aller au marché central. L'autre veut aller à l'aéroport. Combien de temps vont-elles rester ensemble ? Au premier carrefour, il faudra choisir. C'est pareil pour le mariage. Le chrétien veut aller vers Jésus, et il veut que ses enfants y aillent aussi. Le musulman veut aller vers l'islam, et il veut que ses enfants y aillent aussi. Au premier enfant, à la première fête, au premier décès, il faudra choisir. Et souvent, c'est le chrétien qui cède."
     }
-  ],
-  "devoir": [
-    "Si tu es célibataire, écris devant Dieu ta décision : « Je n'épouserai qu'un croyant. » Demande à quelqu'un de prier avec toi pour cela.",
-    "Si tu es déjà marié à un non-croyant, écris trois manières concrètes de le gagner par ta conduite cette semaine.",
-    "Si tu as renié Christ, lis Jean 21:1-19, et va parler à un pasteur cette semaine."
-  ],
-  "prieres_liees": [
-    "theme:priere-fiances",
-    "theme:priere-celibataires",
-    "theme:priere-professionnels"
-  ],
-  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
-  "date_ajout": "2026-11-14",
-  "relu": false
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Ce que le mariage avec un musulman demande en réalité",
+   "references": [
+    "Lc 14:28",
+    "Pr 22:3"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Ce que dit la loi islamique"
+    },
+    {
+     "texte": "Il faut être honnête et bien informé. Selon la loi islamique classique, un homme musulman a le droit d'épouser une femme chrétienne. Mais les enfants doivent être élevés comme musulmans. Dans la pratique, dans beaucoup de familles de chez nous, on demande en plus à la femme chrétienne de devenir musulmane avant le mariage, ou peu de temps après."
+    },
+    {
+     "texte": "Et dans l'autre sens ? Une femme musulmane n'a pas le droit d'épouser un homme qui n'est pas musulman. Le Coran le dit dans la sourate 2, au verset 221, et dans la sourate 60, au verset 10. Si un chrétien veut épouser une musulmane, sa famille exigera presque toujours qu'il devienne musulman d'abord."
+    },
+    {
+     "sous_titre": "Une règle qui ne va que dans un sens"
+    },
+    {
+     "texte": "Remarque bien cette différence. Quand un musulman veut épouser une fille chrétienne, la famille chrétienne ne lui demande presque jamais de devenir chrétien. On le reçoit, on le laisse garder sa religion. Mais quand un chrétien veut entrer dans une famille musulmane, on lui demande souvent de se convertir. En d'autres termes, la porte est ouverte dans un seul sens. Les chrétiens perdent leurs enfants, et l'islam les gagne. C'est un fait que l'on voit dans beaucoup de quartiers."
+    },
+    {
+     "sous_titre": "La promesse « tu garderas ta foi »"
+    },
+    {
+     "texte": "Beaucoup de femmes chrétiennes ont entendu cette phrase : « Tu pourras continuer à aller à l'église. » Au début, c'est parfois vrai. Mais ensuite vient la pression de la belle-famille. On donne un nom musulman aux enfants. On les envoie à l'école coranique. On interdit à la mère de les emmener à l'église. Puis il y a les questions d'héritage. Et quand quelqu'un meurt, la question de la religion revient encore, avec force : où sera-t-il enterré, et selon quel rite ?"
+    },
+    {
+     "texte": "Jésus dit qu'avant de construire une maison, il faut s'asseoir et calculer la dépense."
+    },
+    {
+     "verset": "Lc 14:28"
+    },
+    {
+     "texte": "Alors calcule aujourd'hui. Calcule ce que ce mariage va te coûter dans dix ans, à toi et à tes enfants. Ne regarde pas seulement le jour de la fête. Regarde les vingt années qui viennent après."
+    },
+    {
+     "sous_titre": "Et les enfants ?"
+    },
+    {
+     "texte": "Le plus grave, ce sont les enfants. Le chrétien qui épouse un musulman accepte souvent, dès le premier jour, que ses enfants soient élevés dans une autre religion. Alors je te pose une question, et réfléchis bien avant de répondre : est-ce que tu pourras regarder ton enfant dans les yeux et lui dire : « J'ai accepté qu'on t'apprenne que Jésus n'est pas mort pour toi » ?"
+    },
+    {
+     "verset": "Pr 22:3"
+    }
+   ]
+  },
+  {
+   "numero": "4",
+   "titre": "Les pièges que l'on tend aux jeunes chrétiens",
+   "references": [
+    "1 Tm 6:9-10",
+    "Pr 23:23"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "L'argent, la boutique et le petit travail"
+    },
+    {
+     "texte": "Aujourd'hui, beaucoup de jeunes n'ont pas de travail. Les familles souffrent. Et certains utilisent cette souffrance pour attirer les jeunes chrétiens vers l'islam. On promet à un jeune homme de lui ouvrir une petite boutique dans le quartier. On lui propose une place dans un magasin. On lui offre une moto pour faire le taxi. On l'aide à payer son loyer. Puis, un jour, on lui dit : « Viens prier avec nous. » Et s'il refuse, l'aide s'arrête."
+    },
+    {
+     "texte": "Paul avertit : ceux qui veulent s'enrichir tombent dans la tentation, dans le piège, et dans beaucoup de désirs insensés et pernicieux qui plongent les hommes dans la ruine et la perdition. Car l'amour de l'argent est une racine de tous les maux."
+    },
+    {
+     "sous_titre": "Les belles jeunes filles et les promesses de mariage"
+    },
+    {
+     "texte": "Les jeunes filles chrétiennes sont aussi visées, surtout quand elles sont belles et que leur famille est pauvre. On leur fait des cadeaux. On leur promet une vie facile, une belle maison, un mari qui prendra soin d'elles et de leurs parents. Puis, quand elles sont attachées, ou parfois quand elles sont déjà enceintes, on leur dit : « Pour le mariage, il faut d'abord que tu deviennes musulmane. » Beaucoup acceptent, parce qu'elles ne voient plus d'autre chemin."
+    },
+    {
+     "sous_titre": "Ne vends pas la vérité"
+    },
+    {
+     "texte": "Le livre des Proverbes dit : acquiers la vérité, et ne la vends pas, la sagesse, l'instruction et l'intelligence (Proverbes 23:23)."
+    },
+    {
+     "verset": "Pr 23:23"
+    },
+    {
+     "texte": "Je le dis avec des mots simples : ta foi n'est pas une marchandise. Elle n'est pas à vendre contre une boutique, contre un travail, contre une moto ou contre un mariage. Ésaü a vendu son droit d'aîné pour un plat de lentilles, parce qu'il avait faim ce jour-là. Ensuite, il l'a regretté toute sa vie, avec des larmes, mais il était trop tard. Ne fais pas comme Ésaü."
+    }
+   ]
+  },
+  {
+   "numero": "5",
+   "titre": "Renier Jésus par amour",
+   "references": [
+    "Mt 10:32-39",
+    "Mc 8:34-38",
+    "Lc 14:26"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Qu'est-ce que renier Jésus ?"
+    },
+    {
+     "texte": "Renier Jésus, c'est dire devant les hommes qu'on ne lui appartient pas. Or que dit la chahada, la profession de foi musulmane ? Elle dit : « Il n'y a de dieu que Dieu, et Mahomet est son messager. » Dire cela, c'est accepter un message qui refuse la croix de Jésus et qui refuse que Jésus soit Dieu. Ce n'est pas une formule de politesse. Ce n'est pas une simple coutume. C'est une profession de foi."
+    },
+    {
+     "verset": "Mt 10:32-39"
+    },
+    {
+     "sous_titre": "Aimer quelqu'un plus que Jésus"
+    },
+    {
+     "texte": "Jésus a dit : celui qui aime son père ou sa mère plus que moi n'est pas digne de moi. Et il a dit aussi : si quelqu'un vient à moi, et s'il ne hait pas son père, sa mère, sa femme, ses enfants, ses frères et ses sœurs, et même sa propre vie, il ne peut être mon disciple."
+    },
+    {
+     "verset": "Lc 14:26"
+    },
+    {
+     "texte": "Attention, ici, le mot « haïr » ne veut pas dire détester. Il veut dire aimer moins. En d'autres termes, aucun amour humain ne peut passer avant Jésus : ni l'amour d'un fiancé, ni l'amour d'une fiancée, ni l'amour d'une famille."
+    },
+    {
+     "sous_titre": "Gagner le monde et perdre son âme"
+    },
+    {
+     "texte": "Jésus a dit : que sert-il à un homme de gagner tout le monde, s'il perd son âme ? Car quiconque aura honte de moi et de mes paroles, le Fils de l'homme aura aussi honte de lui."
+    },
+    {
+     "verset": "Mc 8:34-38"
+    },
+    {
+     "texte": "Je le redis : un mariage, même heureux, même riche, ne vaut pas ton âme."
+    },
+    {
+     "sous_titre": "« Je reste chrétien dans mon cœur »"
+    },
+    {
+     "texte": "Certains disent : « Avec ma bouche, je dirai la chahada. Mais dans mon cœur, je reste chrétien. » La Bible dit le contraire. Elle dit : si tu confesses de ta bouche le Seigneur Jésus, et si tu crois dans ton cœur que Dieu l'a ressuscité des morts, tu seras sauvé (Romains 10:9). La bouche et le cœur marchent ensemble. Jésus a dit aussi : que votre parole soit oui, oui, non, non. On ne joue pas avec une profession de foi."
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Renier Jésus pour un emploi",
+   "references": [
+    "Dn 1:8",
+    "Dn 3:16-18",
+    "He 11:24-26",
+    "Mt 6:33"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Daniel à Babylone"
+    },
+    {
+     "texte": "Daniel était un jeune homme emmené de force dans un pays étranger, à la cour du roi de Babylone. On lui offrait une très belle carrière. Mais il devait manger la nourriture du roi, qui avait été offerte aux idoles. Daniel a décidé dans son cœur de ne pas se souiller."
+    },
+    {
+     "verset": "Dn 1:8"
+    },
+    {
+     "texte": "Et que s'est-il passé ? Dieu lui a donné la faveur. Daniel est devenu un des plus grands chefs de l'empire, sans jamais renier son Dieu."
+    },
+    {
+     "sous_titre": "Même si Dieu ne nous délivre pas"
+    },
+    {
+     "texte": "Les trois amis de Daniel ont refusé de se prosterner devant la statue du roi. On les menaçait de les jeter dans une fournaise de feu. Ils ont répondu : notre Dieu peut nous délivrer. Sinon, sache, ô roi, que nous ne servirons pas tes dieux."
+    },
+    {
+     "verset": "Dn 3:16-18"
+    },
+    {
+     "texte": "Écoute bien leur réponse. Ils ne disent pas : « Nous resterons fidèles si Dieu nous sauve. » Ils disent : « Même si Dieu ne nous sauve pas, nous resterons fidèles. » Leur fidélité ne dépendait pas du résultat."
+    },
+    {
+     "sous_titre": "Moïse a refusé la richesse"
+    },
+    {
+     "texte": "Moïse avait tout : le palais du roi d'Égypte, l'éducation, la richesse. Mais il a refusé d'être appelé le fils de la fille du roi. Il a préféré être maltraité avec le peuple de Dieu plutôt que de profiter du péché pour un peu de temps."
+    },
+    {
+     "verset": "He 11:24-26"
+    },
+    {
+     "sous_titre": "Cherche d'abord le royaume de Dieu"
+    },
+    {
+     "texte": "Le chômage est une épreuve réelle et dure. Je ne le cache pas. Mais Jésus dit : cherchez premièrement le royaume et la justice de Dieu, et toutes ces choses vous seront données par-dessus."
+    },
+    {
+     "verset": "Mt 6:33"
+    },
+    {
+     "texte": "Un travail obtenu en reniant Jésus, c'est un travail payé avec ton âme. Alors prie. Cherche. Accepte un travail plus modeste s'il le faut. Demande l'aide de ton Église. Mais ne vends pas ton Seigneur."
+    }
+   ]
+  },
+  {
+   "numero": "7",
+   "titre": "Attendre de Dieu le bon conjoint",
+   "references": [
+    "Ps 37:4",
+    "Lm 3:25-26",
+    "Ps 84:12"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Remettre son mariage entre les mains de Dieu"
+    },
+    {
+     "texte": "Une jeune fille qui a besoin d'un mari, un jeune homme qui a besoin d'une femme, que doivent-ils faire ? La Bible répond : s'attendre à Dieu, et traiter cette question avec lui. Le psalmiste dit : fais de l'Éternel tes délices, et il te donnera ce que ton cœur désire."
+    },
+    {
+     "verset": "Ps 37:4"
+    },
+    {
+     "texte": "Remarque l'ordre. D'abord, faire de Dieu sa plus grande joie. Ensuite, Dieu répond aux désirs du cœur. Quand Dieu devient ton plus grand désir, tes autres désirs changent, et ils se mettent à leur place."
+    },
+    {
+     "sous_titre": "Attendre en silence"
+    },
+    {
+     "texte": "Le livre des Lamentations dit : l'Éternel a de la bonté pour qui espère en lui, pour l'âme qui le cherche. Il est bon d'attendre en silence le secours de l'Éternel (Lamentations 3:25-26)."
+    },
+    {
+     "verset": "Lm 3:25-26"
+    },
+    {
+     "texte": "Attendre, ce n'est pas rester assis à ne rien faire. C'est prier, se préparer, grandir dans la foi, servir dans l'Église, travailler, et faire confiance. Dieu sait ce dont tu as besoin, et il connaît la personne qu'il prépare pour toi."
+    },
+    {
+     "sous_titre": "Dieu ne refuse aucun bien"
+    },
+    {
+     "texte": "Le psaume dit : l'Éternel ne refuse aucun bien à ceux qui marchent dans l'intégrité (Psaume 84:12)."
+    },
+    {
+     "verset": "Ps 84:12"
+    },
+    {
+     "texte": "Cela veut dire que si tu marches droit devant Dieu, il ne va pas te priver de ce qui est bon pour toi. Dieu est capable de te donner un conjoint qui l'aime. Il n'est pas nécessaire d'aller chercher là où Dieu a dit de ne pas aller."
+    }
+   ]
+  },
+  {
+   "numero": "8",
+   "titre": "Ce qui est en jeu pour l'éternité",
+   "references": [
+    "Jn 14:6"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Une question de vie éternelle"
+    },
+    {
+     "texte": "Il y a une dernière raison, et c'est la plus sérieuse. La Bible dit que le salut se trouve seulement en Jésus. Jésus a dit : je suis le chemin, la vérité, et la vie. Nul ne vient au Père que par moi. Cela veut dire que celui qui meurt en refusant Jésus comme Sauveur n'entre pas dans la vie éternelle avec Dieu. Le dire fait mal. Mais le cacher serait pire."
+    },
+    {
+     "texte": "Alors réfléchis. Si tu épouses quelqu'un qui refuse Jésus, tu passes ta vie à côté d'une personne que tu aimes, et qui marche vers la mort éternelle. Et si tu la suis dans sa religion, tu marches toi-même dans la même direction, et tu y entraînes tes enfants. Le chrétien qui se marie dans l'islam ne sait pas toujours ce qu'il fait. Il ne sait pas où il va."
+    },
+    {
+     "sous_titre": "Aimer sans se marier"
+    },
+    {
+     "texte": "Cela ne veut pas dire qu'il faut détester les musulmans. Au contraire. Nous devons les aimer, prier pour eux, et leur annoncer Jésus, parce qu'ils ont besoin de lui. Mais on ne sauve pas quelqu'un en l'épousant. Beaucoup de chrétiennes ont pensé : « Je vais l'épouser, et ensuite je vais le gagner à Jésus. » Dans la grande majorité des cas, c'est le contraire qui arrive. Annonce-lui Jésus maintenant, comme ami, sans mariage. S'il se convertit vraiment, de tout son cœur, et s'il le montre dans la durée, alors la situation sera différente."
+    }
+   ]
+  },
+  {
+   "numero": "9",
+   "titre": "Si tu es déjà marié à un musulman",
+   "references": [
+    "1 Co 7:12-16",
+    "1 P 3:1-2"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Ne pas partir pour cela"
+    },
+    {
+     "texte": "Peut-être que tu es devenu chrétien après ton mariage. Ou peut-être que tu t'es marié avant de comprendre tout cela. Dans ce cas, la Bible ne te demande pas de divorcer. Paul dit : si un frère a une femme non croyante, et qu'elle consente à habiter avec lui, qu'il ne la répudie point. Et la femme ne doit pas quitter son mari non croyant, s'il consent à habiter avec elle."
+    },
+    {
+     "verset": "1 Co 7:12-16"
+    },
+    {
+     "texte": "Ta présence dans la maison est une lumière. Elle met ta maison à part pour Dieu."
+    },
+    {
+     "sous_titre": "Gagner son conjoint sans paroles"
+    },
+    {
+     "texte": "Pierre écrit aux femmes dont le mari ne croit pas. Il leur dit que leur mari peut être gagné sans paroles, en voyant leur manière de vivre, pure et respectueuse."
+    },
+    {
+     "verset": "1 P 3:1-2"
+    },
+    {
+     "texte": "Alors sois un époux ou une épouse exemplaire. Prie chaque jour pour ton conjoint. Et enseigne la Bible à tes enfants, autant que tu le peux, avec sagesse."
+    },
+    {
+     "sous_titre": "Ta sécurité"
+    },
+    {
+     "texte": "Si on te menace, si on te frappe, ou si on t'enferme à cause de ta foi, ce n'est plus seulement une question spirituelle. Parles-en à ton pasteur. Cherche de l'aide pour te protéger, toi et tes enfants. Paul dit que si le non-croyant se sépare, le frère ou la sœur n'est pas lié dans ces cas-là."
+    }
+   ]
+  },
+  {
+   "numero": "10",
+   "titre": "Si tu as déjà renié Jésus",
+   "references": [
+    "Lc 22:31-32",
+    "Lc 22:61-62",
+    "Jn 21:15-17",
+    "1 Jn 1:9"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Pierre aussi a renié"
+    },
+    {
+     "texte": "La nuit où Jésus a été arrêté, Pierre, qui avait juré de mourir pour lui, a dit trois fois : « Je ne le connais pas. » Jésus le savait d'avance. Il lui avait dit : j'ai prié pour toi, afin que ta foi ne défaille point ; et toi, quand tu seras converti, affermis tes frères."
+    },
+    {
+     "verset": "Lc 22:31-32"
+    },
+    {
+     "sous_titre": "Il a pleuré amèrement"
+    },
+    {
+     "texte": "Quand le coq a chanté, le Seigneur s'est retourné et a regardé Pierre. Et Pierre est sorti, et il a pleuré amèrement."
+    },
+    {
+     "verset": "Lc 22:61-62"
+    },
+    {
+     "texte": "Si tu as renié Jésus pour un mariage, pour un travail, ou parce que tu avais peur, tu connais peut-être ces larmes."
+    },
+    {
+     "sous_titre": "Jésus a relevé Pierre"
+    },
+    {
+     "texte": "Après sa résurrection, Jésus a demandé trois fois à Pierre : « M'aimes-tu ? » Une fois pour chaque fois que Pierre l'avait renié. Et trois fois, Jésus lui a confié ses brebis."
+    },
+    {
+     "verset": "Jn 21:15-17"
+    },
+    {
+     "texte": "Jésus n'a pas jeté Pierre. Il l'a relevé, et il en a fait un pilier de l'Église. La Bible dit : si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner. Alors reviens. Va parler à un pasteur. Confesse ton péché. Et reprends ta place dans la famille de Dieu."
+    }
+   ]
+  },
+  {
+   "numero": "11",
+   "titre": "Pour les parents et pour l'Église",
+   "references": [
+    "Pr 19:14",
+    "Ga 6:2"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Ne pas pousser les enfants vers un mauvais mariage"
+    },
+    {
+     "texte": "Beaucoup de jeunes femmes acceptent d'épouser un non-croyant à cause de la pression. On leur dit : « Tu as déjà trente ans, qu'est-ce que tu attends ? » Parents, oncles, tantes, pasteurs : ne poussez pas vos enfants vers un mariage qui va les éloigner de Jésus. Le livre des Proverbes dit : on peut hériter de ses pères une maison et des richesses, mais une femme intelligente est un don de l'Éternel. C'est vrai aussi pour un mari pieux."
+    },
+    {
+     "verset": "Pr 19:14"
+    },
+    {
+     "sous_titre": "Protéger nos jeunes"
+    },
+    {
+     "texte": "L'Église doit protéger ses jeunes. Elle doit leur enseigner clairement ces vérités, avant qu'ils ne tombent amoureux. Elle doit soutenir les célibataires qui attendent. Elle doit aider les jeunes sans travail à trouver un métier, pour qu'ils ne soient pas obligés d'accepter l'aide de ceux qui veulent les faire changer de religion. Elle doit protéger ceux qui viennent de l'islam. Et elle doit accueillir sans mépris ceux qui reviennent après être tombés. Portez les fardeaux les uns des autres."
+    },
+    {
+     "verset": "Ga 6:2"
+    }
+   ]
+  },
+  {
+   "numero": "12",
+   "titre": "Josaphat : un mariage qui a coûté trois générations",
+   "references": [
+    "2 Ch 18:1",
+    "2 Ch 21:5-7",
+    "2 Ch 22:2-4"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Un roi pieux fait un calcul"
+    },
+    {
+     "texte": "Josaphat, roi de Juda, aimait Dieu. Il avait enlevé les idoles du pays. Il avait envoyé des enseignants pour instruire le peuple dans la loi de Dieu. Et Dieu l'avait béni. La Bible dit : Josaphat eut en abondance des richesses et de la gloire, et il s'allia par mariage avec Achab."
+    },
+    {
+     "verset": "2 Ch 18:1"
+    },
+    {
+     "texte": "Qui était Achab ? C'était le roi du royaume du nord, et l'un des rois les plus méchants de la Bible. Sa femme, Jézabel, avait fait tuer les prophètes de Dieu et répandu le culte de l'idole Baal. Pourtant, Josaphat a marié son fils Joram avec Athalie, la fille d'Achab et de Jézabel. Pourquoi ? Sans doute pour faire la paix entre les deux royaumes, pour avoir une armée plus forte, pour unir les familles. C'était un calcul qui semblait intelligent."
+    },
+    {
+     "sous_titre": "Première génération : le fils"
+    },
+    {
+     "texte": "Josaphat lui-même est resté fidèle à Dieu. Mais regarde ce qui est arrivé ensuite. Son fils Joram devint roi. La Bible dit : il marcha dans la voie des rois d'Israël, comme avait fait la maison d'Achab, car il avait pour femme une fille d'Achab, et il fit ce qui est mal aux yeux de l'Éternel."
+    },
+    {
+     "verset": "2 Ch 21:5-7"
+    },
+    {
+     "texte": "Remarque la raison : « car il avait pour femme une fille d'Achab ». Le fils d'un roi qui aimait Dieu est devenu un roi méchant à cause de sa femme. Il a même fait tuer tous ses frères."
+    },
+    {
+     "sous_titre": "Deuxième génération : le petit-fils"
+    },
+    {
+     "texte": "Puis vint Achazia, le petit-fils de Josaphat. La Bible dit : il marcha dans les voies de la maison d'Achab, car sa mère lui donnait des conseils impies."
+    },
+    {
+     "verset": "2 Ch 22:2-4"
+    },
+    {
+     "texte": "« Sa mère lui donnait des conseils impies. » La femme que Josaphat avait fait entrer dans sa famille est devenue la conseillère de son petit-fils, et elle l'a conduit au mal."
+    },
+    {
+     "sous_titre": "Troisième génération : les arrière-petits-enfants"
+    },
+    {
+     "texte": "Quand Achazia mourut, sa mère Athalie fit tuer toute la famille royale, c'est-à-dire ses propres petits-enfants, pour prendre le pouvoir. Un seul bébé, Joas, a été caché par sa tante, et il a échappé à la mort. Il s'en est fallu de très peu que la famille de David, celle d'où devait venir le Messie, soit complètement détruite."
+    },
+    {
+     "sous_titre": "Ce que cela nous apprend"
+    },
+    {
+     "texte": "Josaphat est resté fidèle toute sa vie. Mais sa décision d'unir sa famille à une famille qui ne servait pas Dieu a eu des conséquences sur trois générations. C'est souvent ainsi. Le chrétien qui épouse un non-croyant se dit : « Moi, je resterai fidèle. » Et c'est peut-être vrai. Mais ses enfants vont grandir entre deux maîtres. Et ses petits-enfants risquent de ne plus du tout connaître le Dieu de leurs grands-parents. Je le redis : un mariage n'est jamais une décision qui concerne seulement deux personnes."
+    }
+   ]
+  },
+  {
+   "numero": "13",
+   "titre": "Les enfants qui ne savaient plus parler la langue de Juda",
+   "references": [
+    "Ne 13:23-25",
+    "Dt 6:20-21"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Ce que Néhémie a vu"
+    },
+    {
+     "texte": "Après le retour de l'exil, Néhémie avait aidé à reconstruire les murs de Jérusalem. Il était parti quelque temps, puis il est revenu. Et il raconte ce qu'il a trouvé : je vis des Juifs qui avaient pris des femmes asdodiennes, ammonites, moabites. La moitié de leurs fils parlaient l'asdodien, et ne savaient pas parler le juif."
+    },
+    {
+     "verset": "Ne 13:23-25"
+    },
+    {
+     "sous_titre": "Une perte sans bruit"
+    },
+    {
+     "texte": "Ce détail est très parlant. À la maison, la mère parlait sa propre langue aux enfants. Le père était souvent absent pour le travail. Et peu à peu, les enfants ont grandi sans comprendre la lecture de la loi de Dieu, sans comprendre les psaumes, sans connaître les histoires de leur peuple. Ils ne s'étaient pas révoltés contre Dieu. Ils avaient simplement grandi dans une autre langue, une autre culture, une autre religion."
+    },
+    {
+     "texte": "Dieu avait pourtant dit à Israël : lorsque ton fils te demandera un jour ce que signifient ces lois, tu lui diras : nous étions esclaves de Pharaon en Égypte, et l'Éternel nous a fait sortir de l'Égypte par sa main puissante."
+    },
+    {
+     "verset": "Dt 6:20-21"
+    },
+    {
+     "texte": "Mais comment répondre aux questions d'un enfant qui ne parle plus la langue de ta foi ?"
+    },
+    {
+     "sous_titre": "Ce que l'on voit aujourd'hui"
+    },
+    {
+     "texte": "C'est exactement ce que vivent beaucoup de familles où un chrétien a épousé un musulman. Au début, on dit : « Nos enfants choisiront plus tard. » Mais dans la vie de tous les jours, les enfants apprennent la prière musulmane. Ils vont à l'école coranique. Ils fêtent la Tabaski et le ramadan avec la famille musulmane. Ils reçoivent un nom musulman. Et le parent chrétien n'a souvent pas le droit de les emmener à l'église, ni de leur lire la Bible. Quand ils arrivent à l'adolescence, ils ne connaissent plus la langue de la foi chrétienne."
+    },
+    {
+     "texte": "Ce n'est pas une question de mépris pour l'autre. C'est une question de transmission. Celui qui veut que ses enfants connaissent Jésus doit réfléchir, avant de se marier, à la langue spirituelle que l'on parlera dans sa maison."
+    }
+   ]
+  },
+  {
+   "numero": "14",
+   "titre": "Je suis déjà amoureux : que faire ?",
+   "references": [
+    "Ps 37:4"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Être vrai avec ses sentiments"
+    },
+    {
+     "texte": "Peut-être que tu lis cet enseignement, et que tu es déjà amoureux d'un musulman ou d'une musulmane. Tu te dis : « C'est facile à dire pour les autres. Mais moi, je l'aime vraiment, et c'est une personne bien. » C'est souvent vrai. Beaucoup de musulmans sont honnêtes, généreux, fidèles, parfois plus respectueux que certains chrétiens. Mais la question n'est pas de savoir si cette personne est gentille. La question est : est-ce que Jésus est le Seigneur de ma vie, et le Seigneur de mon mariage ?"
+    },
+    {
+     "sous_titre": "Quatre étapes honnêtes"
+    },
+    {
+     "texte": "Première étape : sois honnête devant Dieu. Ne fais pas semblant de ne rien ressentir. Dis à Dieu ta douleur, ton amour, ta peur de rester seul."
+    },
+    {
+     "texte": "Deuxième étape : parle clairement avec la personne. Dis-lui avec respect que ta foi en Jésus ne se négocie pas. Dis-lui que tu ne prononceras pas la chahada, et que tes enfants seront élevés dans la connaissance de Jésus. Sa réaction te montrera beaucoup de choses."
+    },
+    {
+     "texte": "Troisième étape : ne te contente pas d'une promesse vague, comme : « Je te laisserai pratiquer ta religion. » Une vraie conversion à Jésus peut arriver, et Dieu en fait. Mais une conversion faite seulement pour pouvoir épouser quelqu'un n'est pas une vraie conversion. Elle s'écroule souvent après le mariage."
+    },
+    {
+     "texte": "Quatrième étape : parle avec des chrétiens mûrs, avec un pasteur, avec des parents dans la foi. Choisis des personnes qui t'aiment assez pour te dire la vérité."
+    },
+    {
+     "sous_titre": "Un renoncement qui fait mal"
+    },
+    {
+     "texte": "Si Dieu te demande de laisser cette relation, ce sera un des sacrifices les plus douloureux de ta vie. Ne le minimise pas, et ne laisse personne le minimiser. Pleurer, ce n'est pas manquer de foi. Mais souviens-toi : Dieu ne te demande jamais un sacrifice pour te faire du mal. Il voit plus loin que toi. Il voit les enfants que tu n'as pas encore. Il voit les années que tu n'as pas encore vécues. Il voit la paix qu'il veut te garder. Ce que l'on remet à Dieu n'est jamais perdu."
+    },
+    {
+     "texte": "Voici l'exemple d'une jeune femme. Elle était fiancée depuis deux ans à un homme musulman, gentil et respectueux. Un jour, il lui a dit clairement que leurs enfants seraient musulmans, et qu'après le mariage elle devrait arrêter d'aller à l'église. Elle a pleuré pendant des semaines. Avec l'aide de sa pasteure et de ses amies, elle a rompu les fiançailles. Ce fut le moment le plus dur de sa vie. Trois ans plus tard, elle a épousé un homme qui aimait le Seigneur. Elle a dit ensuite aux jeunes filles de son église : « Je ne vous dirai pas que ce n'était pas douloureux. Mais aujourd'hui, quand je prie le soir avec mon mari et nos enfants, je sais que Dieu ne m'a rien pris. Il m'a protégée. »"
+    }
+   ]
+  },
+  {
+   "numero": "15",
+   "titre": "Ce que nous retenons",
+   "references": [
+    "Ap 2:10",
+    "He 12:2-3"
+   ],
+   "blocs": [
+    {
+     "texte": "Retenons l'essentiel. La Bible demande au chrétien de se marier seulement dans le Seigneur, c'est-à-dire avec quelqu'un qui a reçu Jésus comme Seigneur et Sauveur. Le chrétien et le musulman n'ont pas le même Dieu : les musulmans eux-mêmes le disent, puisque le chrétien adore Jésus comme Dieu. Le mariage avec un musulman demande presque toujours d'abandonner les enfants à l'islam, et souvent de renier sa propre foi. Il y a des pièges : l'argent, la boutique, le travail, les promesses de mariage. Ne vends pas ta foi. Attends de Dieu le bon conjoint. Et si tu es tombé, reviens : Jésus relève ceux qui reviennent à lui."
+    },
+    {
+     "texte": "Jésus dit à l'Église de Smyrne : sois fidèle jusqu'à la mort, et je te donnerai la couronne de vie."
+    },
+    {
+     "verset": "Ap 2:10"
+    },
+    {
+     "texte": "Il ne te demande rien qu'il n'ait pas vécu lui-même. Il a enduré la croix, il a méprisé la honte, et il est assis à la droite du trône de Dieu. Regarde à lui, afin que tu ne te fatigues pas et que ton âme ne se décourage pas."
+    }
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "question": "Que dit 1 Corinthiens 7:39 sur le remariage de la veuve ?",
+   "choix": [
+    "Elle peut épouser qui elle veut, sans condition",
+    "Elle peut se remarier, mais seulement dans le Seigneur",
+    "Elle ne doit jamais se remarier"
+   ],
+   "reponse": 1,
+   "explication": "« Dans le Seigneur » veut dire avec quelqu'un qui est en Christ.",
+   "section": "1"
+  },
+  {
+   "question": "Pourquoi est-ce que les élèves musulmans ont répondu que nous n'avons pas le même Dieu ?",
+   "choix": [
+    "Parce que les chrétiens ne prient pas",
+    "Parce que les chrétiens adorent Jésus-Christ comme Dieu, ce que les musulmans refusent",
+    "Parce que les chrétiens mangent du porc"
+   ],
+   "reponse": 1,
+   "explication": "1 Jean 2:23 : celui qui refuse le Fils n'a pas le Père.",
+   "section": "2"
+  },
+  {
+   "question": "Selon la loi islamique, est-ce qu'une femme musulmane peut épouser un chrétien sans qu'il devienne musulman ?",
+   "choix": [
+    "Oui, toujours",
+    "Non, il est demandé à l'homme de devenir musulman",
+    "Cela n'a jamais été abordé"
+   ],
+   "reponse": 1,
+   "explication": "Voir la sourate 2, verset 221, et la sourate 60, verset 10.",
+   "section": "3"
+  },
+  {
+   "question": "Quel est le piège que l'on tend souvent aux jeunes chrétiens sans travail ?",
+   "choix": [
+    "Les inviter à l'église",
+    "Leur promettre une boutique, un travail ou de l'argent, puis leur demander de devenir musulmans",
+    "Leur donner une Bible"
+   ],
+   "reponse": 1,
+   "explication": "Proverbes 23:23 : acquiers la vérité, et ne la vends pas.",
+   "section": "4"
+  },
+  {
+   "question": "Est-ce que réciter la chahada « pour la forme » est sans conséquence ?",
+   "choix": [
+    "Oui, si le cœur reste chrétien",
+    "Non, c'est une profession de foi qui refuse la croix et la divinité de Jésus",
+    "Oui, pour un bon emploi"
+   ],
+   "reponse": 1,
+   "explication": "Voir Matthieu 10:33 et Romains 10:9.",
+   "section": "5"
+  },
+  {
+   "question": "Selon le Psaume 37:4, qu'est-ce qu'il faut faire en premier ?",
+   "choix": [
+    "Se marier vite",
+    "Faire de l'Éternel ses délices",
+    "Écouter ses sentiments"
+   ],
+   "reponse": 1,
+   "explication": "Ensuite, Dieu donne ce que le cœur désire.",
+   "section": "7"
+  },
+  {
+   "question": "Si un chrétien est déjà marié à un non-croyant qui veut rester avec lui, que dit Paul ?",
+   "choix": [
+    "Il doit divorcer",
+    "Il ne doit pas le répudier",
+    "Il doit changer de religion"
+   ],
+   "reponse": 1,
+   "explication": "Voir 1 Corinthiens 7:12-13.",
+   "section": "9"
+  },
+  {
+   "question": "Comment est-ce que Jésus a traité Pierre après son reniement ?",
+   "choix": [
+    "Il l'a rejeté",
+    "Il l'a relevé et lui a confié ses brebis",
+    "Il l'a ignoré"
+   ],
+   "reponse": 1,
+   "explication": "Voir Jean 21:15-17.",
+   "section": "10"
+  },
+  {
+   "question": "Quelles ont été les conséquences du mariage arrangé par Josaphat avec la famille d'Achab ?",
+   "choix": [
+    "Aucune",
+    "Son fils, son petit-fils et sa famille ont été entraînés dans le mal pendant trois générations",
+    "Il est devenu plus riche"
+   ],
+   "reponse": 1,
+   "explication": "Voir 2 Chroniques 21:6 et 22:3.",
+   "section": "12"
+  }
+ ],
+ "devoir": [
+  "Si tu es célibataire, écris devant Dieu ta décision : « Je n'épouserai qu'un croyant en Jésus. » Demande à quelqu'un de prier avec toi pour cela.",
+  "Si tu es déjà marié à un non-croyant, écris trois choses concrètes que tu peux faire cette semaine pour le gagner par ta conduite.",
+  "Si tu as renié Jésus, lis Jean 21:1-19, et va parler à un pasteur cette semaine.",
+  "Parents et responsables : parlez de cet enseignement avec les jeunes de votre famille ou de votre Église."
+ ],
+ "prieres_liees": [
+  "theme:priere-fiances",
+  "theme:priere-celibataires",
+  "theme:priere-professionnels"
+ ],
+ "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+ "date_ajout": "2026-11-14",
+ "relu": false
 }
