@@ -4,342 +4,324 @@
  "serie": "L'islam de A à Z",
  "theme": "Islam",
  "auteur": "Yeshaya",
- "resume": "Que dit l'islam de la femme ? Le Coran lui donne une dot et une part d'héritage, interdit d'enterrer les filles vivantes et honore Marie. Mais il donne aussi à la fille la moitié de la part de son frère, demande deux femmes pour un témoin homme, permet au mari d'avoir quatre épouses et de frapper sa femme désobéissante, et les hadiths disent que la plupart des habitants de l'enfer sont des femmes. Les textes exacts, les explications des musulmans, et le regard de Jésus sur la femme.",
+ "resume": "Que disent exactement le Coran et les hadiths sur la femme ? Qu'est-ce qui a changé pour elle par rapport à l'Arabie d'avant ? Quelle part reçoit-elle en héritage, quelle valeur a son témoignage ? Pourquoi un homme peut-il avoir quatre épouses, et des captives en plus ? Que dit la sourate 4, verset 34, sur les coups ? Comment se passe la répudiation ? Que dit le Coran sur le voile ? Qui sont les épouses de Mahomet, et que dit-on d'Aïcha ? Un enseignement franc, avec les textes exacts.",
  "image": "/assets/personnages/femme-foulard-en-priere.webp",
  "verset_de_base": "Gn 2:23",
- "lecture_minutes": 24,
+ "lecture_minutes": 30,
  "objectifs": [
-  "Connaître ce que le Coran donne à la femme et ce qu'il lui demande.",
-  "Connaître les textes sur le voile, le mariage, la polygamie, le divorce, l'héritage et le témoignage.",
-  "Connaître les hadiths les plus cités sur les femmes.",
-  "Comprendre comment les musulmans expliquent ces textes.",
-  "Voir comment Jésus a traité les femmes et ce que la Bible dit du mari et de la femme."
+  "Connaître ce que le Coran a changé pour la femme.",
+  "Connaître les textes sur l'héritage, le témoignage et l'autorité du mari.",
+  "Connaître les textes sur la polygamie, les captives et la répudiation.",
+  "Connaître les textes et les pratiques sur le voile.",
+  "Connaître les épouses de Mahomet et le mariage d'Aïcha, avec les sources."
  ],
- "introduction": "Ce sujet est l'un des plus sensibles de toute la série. Beaucoup de femmes musulmanes aiment leur foi, portent le voile par conviction, et se sentent respectées dans leur famille. D'autres souffrent en silence. Beaucoup de chrétiens, eux, répètent des idées toutes faites sur « la femme opprimée dans l'islam », sans connaître les textes ni les femmes musulmanes réelles. Notre but est de dire exactement ce que disent les textes, de rapporter honnêtement la manière dont les musulmans les expliquent, puis de regarder la femme comme Jésus l'a regardée.\n\nRappelons aussi que l'Église n'a pas toujours bien traité les femmes, et que beaucoup de femmes chrétiennes en Afrique souffrent de violences, de mépris, d'injustice dans l'héritage, parfois de la part de maris qui vont à l'église. Nous ne parlons donc pas de l'islam pour nous croire supérieurs, mais pour comprendre, et pour proclamer ce que Dieu veut pour la femme, qu'elle soit musulmane ou chrétienne.",
+ "introduction": "Voici un sujet qui touche presque toutes les familles. Beaucoup de femmes musulmanes aiment leur foi, portent le voile par conviction, et se sentent respectées. D'autres souffrent en silence. Et beaucoup de chrétiens répètent des phrases toutes faites sans connaître les textes. Dans cet enseignement, nous allons donc faire une chose simple : lire ce que le Coran et les hadiths disent de la femme, avec les références exactes. Nous allons rapporter aussi la manière dont les musulmans expliquent ces textes. Nous ne cacherons rien, et nous n'exagérerons rien.",
  "sections": [
   {
    "numero": "1",
-   "titre": "Ce que l'islam a apporté à la femme",
-   "references": [
-    "Ps 68:6",
-    "Jc 1:27"
-   ],
+   "titre": "Ce que l'islam a changé pour la femme",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Un progrès par rapport à l'Arabie païenne"
+     "sous_titre": "L'Arabie d'avant"
     },
     {
-     "texte": "Il faut être juste. Dans l'Arabie d'avant l'islam, nous l'avons vu, certaines familles enterraient vivantes leurs petites filles. Les femmes n'héritaient souvent de rien ; elles pouvaient même faire partie de l'héritage d'un homme. Le Coran a condamné l'infanticide des filles (sourate 81, versets 8 et 9). Il a donné à la femme une part d'héritage (sourate 4, verset 7), une dot qui lui appartient personnellement (sourate 4, verset 4), le droit de posséder des biens. Il a interdit d'hériter des femmes contre leur gré (sourate 4, verset 19). Pour l'époque, ce sont de réels progrès, et les musulmans en sont fiers à juste titre."
+     "texte": "Pour comprendre, il faut se rappeler la situation avant l'islam, que nous avons vue au début de la série. Dans certaines tribus arabes, on enterrait vivantes des petites filles, par honte ou par peur de la pauvreté. Le Coran le condamne : quand on demandera à la fille enterrée vivante pour quel péché elle a été tuée (sourate 81, versets 8 et 9). Les femmes pouvaient faire partie de l'héritage d'un homme : à la mort du père, le fils aîné pouvait « hériter » de la veuve de son père. Le Coran l'interdit : il ne vous est pas permis d'hériter des femmes contre leur gré (sourate 4, verset 19). Il n'y avait pas de limite au nombre d'épouses : des hommes en avaient dix ou plus."
     },
     {
-     "sous_titre": "Marie, honorée"
+     "sous_titre": "Les droits donnés par le Coran"
     },
     {
-     "texte": "Le Coran honore aussi Marie, mère de Jésus. Elle est la seule femme nommée dans tout le Coran, une sourate entière porte son nom (sourate 19), et les anges lui disent : ô Marie, Allah t'a élue, t'a purifiée et t'a élue au-dessus des femmes des mondes (sourate 3, verset 42). C'est une très belle porte vers l'Évangile, comme nous le verrons dans l'enseignement sur Jésus dans le Coran."
+     "texte": "Le Coran donne à la femme plusieurs droits. Une part d'héritage (sourate 4, versets 7, 11 et 12). Une dot, le « mahr », qui lui appartient à elle personnellement et non à sa famille : donnez aux femmes leur dot comme un cadeau (sourate 4, verset 4). Le droit de posséder et de gérer ses biens. Un nombre limité d'épouses : quatre au plus. Et une procédure pour le divorce. Pour l'époque, ce sont des progrès réels, et les musulmans en sont fiers. Il faut le dire pour être juste."
     },
     {
-     "sous_titre": "Le paradis aux pieds des mères"
+     "sous_titre": "Les femmes dans le Coran"
     },
     {
-     "texte": "Un hadith connu dit que le paradis est sous les pieds des mères, et un autre que la personne qui mérite le plus la bonne compagnie est « ta mère, puis ta mère, puis ta mère, puis ton père » (Boukhari, hadith 5971). Le respect des mères est très fort dans les familles musulmanes. Le chrétien peut s'en réjouir : la Bible commande aussi d'honorer son père et sa mère."
+     "texte": "Le Coran mentionne beaucoup de femmes. La plus honorée est Marie, mère de Jésus : c'est la seule femme nommée dans tout le Coran, et une sourate entière porte son nom (sourate 19). Mais il parle aussi de la reine de Saba, de la femme de Pharaon, de la femme de Lot, de la mère de Moïse. Et il y a un fait qu'on oublie : la première personne à croire en Mahomet fut une femme, sa première épouse Khadija, une riche commerçante, de quinze ans son aînée, qui l'a soutenu quand il doutait de lui-même."
+    },
+    {
+     "sous_titre": "Le respect de la mère"
+    },
+    {
+     "texte": "Un hadith rapporte qu'un homme a demandé à Mahomet : « Qui mérite le plus ma bonne compagnie ? » Il a répondu : « Ta mère. » « Qui vient ensuite ? » « Ta mère. » « Qui vient ensuite ? » « Ta mère. » « Qui vient ensuite ? » « Ton père » (Boukhari, hadith 5971). Dans les familles musulmanes, le respect pour la mère est très fort. Voilà ce qui est vrai. Maintenant, voyons le reste."
     }
    ]
   },
   {
    "numero": "2",
-   "titre": "L'héritage et le témoignage",
-   "references": [
-    "Nb 27:7",
-    "Dt 19:15"
-   ],
+   "titre": "L'héritage",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "La moitié de la part du frère"
+     "sous_titre": "Les parts"
     },
     {
-     "texte": "Le Coran fixe les parts d'héritage. Il dit : Allah vous ordonne, au sujet de vos enfants : au fils, une part équivalente à celle de deux filles (sourate 4, verset 11). Une fille reçoit donc la moitié de ce que reçoit son frère. Les musulmans expliquent que l'homme a l'obligation d'entretenir sa femme, ses enfants et parfois ses sœurs, alors que la femme garde ses biens pour elle ; la différence serait donc juste. Mais dans la réalité, beaucoup de femmes divorcées, veuves ou pauvres ne sont entretenues par personne."
+     "texte": "Le Coran a fixé des parts précises d'héritage. Voici la règle centrale : Allah vous recommande, au sujet de vos enfants : au fils, une part équivalente à celle de deux filles (sourate 4, verset 11). Autrement dit : si un père meurt et laisse un fils et une fille, le fils reçoit les deux tiers, et la fille un tiers. Je le redis plus simplement : la fille hérite la moitié de la part de son frère."
     },
     {
-     "sous_titre": "Deux femmes pour un homme"
+     "texte": "Le verset donne d'autres règles. Si le père laisse seulement des filles, deux ou plus, elles ont les deux tiers. Si une seule fille, la moitié. Les parents du mort ont chacun un sixième s'il laisse un enfant. La veuve reçoit un quart si le mari n'a pas laissé d'enfant, et un huitième s'il en a laissé. Le veuf reçoit la moitié si la femme n'a pas laissé d'enfant, et un quart s'il en a laissé (sourate 4, versets 11 et 12). On voit que l'homme hérite toujours deux fois plus que la femme dans une même situation. Si le mort n'a pas d'enfant, les frères et sœurs héritent, avec la même règle de deux pour un (sourate 4, verset 176)."
     },
     {
-     "texte": "Pour un contrat de dette, le Coran demande deux témoins hommes, ou, à défaut, un homme et deux femmes, « afin que si l'une d'elles s'égare, l'autre puisse lui rappeler » (sourate 2, verset 282). Boukhari rapporte que Mahomet expliqua ce verset à des femmes : « Le témoignage d'une femme n'est-il pas la moitié de celui d'un homme ? » Elles dirent oui. Il dit : « C'est à cause du manque d'intelligence de la femme » (Boukhari, hadith 2658)."
+     "sous_titre": "L'explication des musulmans"
     },
     {
-     "sous_titre": "Ce que la Bible dit"
+     "texte": "Comment les musulmans expliquent-ils cette règle ? Ils disent : l'homme a le devoir de nourrir sa femme, ses enfants et parfois ses sœurs, alors que la femme garde son argent pour elle, sans devoir dépenser pour la famille. La différence serait donc juste. Cet argument a du poids dans une famille où le mari assume réellement ses devoirs. Mais dans la vie réelle, beaucoup de veuves, de divorcées, de femmes dont le mari est malade ou absent entretiennent toute la famille avec la moitié de la part. Autrement dit, la règle suppose un monde que la réalité ne respecte pas toujours."
     },
     {
-     "texte": "Dans la Bible aussi, à l'époque de Moïse, l'héritage passait d'abord aux fils. Mais quand les filles de Tselophchad vinrent demander leur part, parce que leur père n'avait pas de fils, Dieu dit à Moïse : les filles de Tselophchad ont raison ; tu leur donneras en héritage une possession (Nombres 27:7). Et dans l'Évangile, Dieu choisit des femmes comme premiers témoins de la résurrection, l'événement le plus important de l'histoire, à une époque où le témoignage des femmes était peu considéré. Marie de Magdala est la première à voir le Seigneur ressuscité et à annoncer : j'ai vu le Seigneur (Jean 20:18)."
+     "sous_titre": "Un point pratique en Afrique"
     },
     {
-     "verset": "Jn 20:16-18"
+     "texte": "Dans beaucoup de familles musulmanes du Nord Cameroun et du Sahel, les femmes n'obtiennent même pas leur demi-part : la famille du mari ou les frères gardent tout. Cela montre que la coutume peut être plus dure que le texte. Il y a des musulmans qui se battent pour que la femme reçoive au moins ce que le Coran lui donne."
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "« Manquant d'intelligence et de religion »",
-   "references": [
-    "Gn 1:27",
-    "Pr 31:26"
-   ],
+   "titre": "Le témoignage",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le hadith"
+     "sous_titre": "Deux femmes pour un homme"
     },
     {
-     "texte": "Boukhari rapporte qu'un jour de fête, Mahomet passa devant des femmes et leur dit : « Ô femmes, faites l'aumône, car j'ai vu que vous formez la majorité des gens de l'enfer. » Elles demandèrent pourquoi. Il répondit : « Vous maudissez beaucoup et vous êtes ingrates envers vos maris. Je n'ai pas vu d'êtres plus manquants d'intelligence et de religion que vous, capables de faire perdre la tête à l'homme le plus sage. » Elles demandèrent : « En quoi manquons-nous d'intelligence et de religion ? » Il dit : « Le témoignage d'une femme n'est-il pas la moitié de celui d'un homme ? C'est le manque de son intelligence. Et quand elle a ses règles, ne cesse-t-elle pas de prier et de jeûner ? C'est le manque de sa religion » (Boukhari, hadith 304)."
+     "texte": "Dans le chapitre le plus long du Coran, il y a le verset sur les contrats de dette. Il dit : faites témoigner deux témoins parmi vos hommes. Si deux hommes ne sont pas disponibles, alors un homme et deux femmes parmi ceux que vous agréez comme témoins, de sorte que si l'une d'elles s'égare, l'autre puisse lui rappeler (sourate 2, verset 282). Le texte parle ici des dettes. Mais les juristes ont étendu cette règle à beaucoup de cas : le témoignage de deux femmes vaut celui d'un homme."
     },
     {
-     "sous_titre": "Comment les musulmans l'expliquent"
+     "sous_titre": "Le hadith de Boukhari"
     },
     {
-     "texte": "Beaucoup de musulmans aujourd'hui sont gênés par ce hadith. Certains disent qu'il s'agissait d'une plaisanterie affectueuse, ou d'un avertissement pour encourager l'aumône ; d'autres disent que le « manque » est seulement juridique, non une infériorité réelle. Mais il est dans le recueil le plus authentique, et il a nourri, pendant des siècles, l'idée que la femme est inférieure."
+     "texte": "Boukhari rapporte une scène. Un jour de fête, Mahomet est passé devant des femmes. Il leur a dit : « Ô femmes, faites l'aumône, car j'ai vu que vous formez la majorité des habitants de l'enfer. » Elles ont demandé : « Pourquoi, ô messager d'Allah ? » Il a répondu : « Vous maudissez beaucoup et vous êtes ingrates envers votre mari. Je n'ai vu personne de plus déficient en intelligence et en religion qui puisse faire perdre la tête à un homme sage que l'une de vous. » Elles ont demandé : « Quel est le défaut de notre intelligence et de notre religion ? » Il a dit : « Le témoignage de la femme n'est-il pas la moitié du témoignage de l'homme ? » Elles ont dit : « Si. » Il a dit : « C'est le défaut de son intelligence. Et quand elle a ses règles, ne cesse-t-elle pas de prier et de jeûner ? » Elles ont dit : « Si. » Il a dit : « C'est le défaut de sa religion » (Boukhari, hadith 304)."
     },
     {
-     "texte": "Un autre hadith rapporté par Boukhari dit : « Je n'ai pas laissé après moi d'épreuve plus nuisible pour les hommes que les femmes » (Boukhari, hadith 5096)."
+     "sous_titre": "Comment les musulmans réagissent"
     },
     {
-     "sous_titre": "Créée à l'image de Dieu"
-    },
-    {
-     "texte": "La Bible commence par une déclaration magnifique : Dieu créa l'homme à son image, il le créa à l'image de Dieu, il créa l'homme et la femme (Genèse 1:27). L'homme et la femme portent ensemble, de manière égale, l'image de Dieu. Quand Adam voit Ève, il ne dit pas « voici une créature inférieure », il s'écrie : voici cette fois celle qui est os de mes os et chair de ma chair (Genèse 2:23). Le livre des Proverbes célèbre la femme sage : elle ouvre la bouche avec sagesse, et des instructions aimables sont sur sa langue (Proverbes 31:26)."
-    },
-    {
-     "verset": "Pr 31:26-28"
+     "texte": "Aujourd'hui, beaucoup de musulmans sont gênés par ce hadith. Certains disent qu'il s'agit d'une plaisanterie affectueuse. D'autres disent que le « défaut » est seulement juridique et non une infériorité. D'autres encore disent que c'est un avertissement pour que les femmes donnent l'aumône. Mais le texte est dans le recueil le plus respecté de l'islam. Il a nourri pendant des siècles l'idée que la femme est inférieure. Et il y a d'autres hadiths dans le même sens. Boukhari rapporte que Mahomet a dit : « Je n'ai pas laissé après moi d'épreuve plus nuisible pour les hommes que les femmes » (Boukhari, hadith 5096). Et quand on lui a dit que les Perses avaient mis une femme à la tête de leur royaume, il a dit : « Un peuple qui confie ses affaires à une femme ne prospérera jamais » (Boukhari, hadith 4425). Cette phrase est encore citée pour s'opposer à ce qu'une femme dirige un pays."
     }
    ]
   },
   {
    "numero": "4",
-   "titre": "Le mariage et la polygamie",
-   "references": [
-    "Mt 19:4-6",
-    "Ml 2:14"
-   ],
+   "titre": "Le mari et son autorité",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Jusqu'à quatre épouses"
+     "sous_titre": "Le verset de l'autorité"
     },
     {
-     "texte": "Le Coran permet à l'homme d'épouser jusqu'à quatre femmes : épousez, comme il vous plaira, deux, trois ou quatre parmi les femmes. Mais si vous craignez de n'être pas justes avec celles-ci, alors une seule, ou des esclaves que vous possédez (sourate 4, verset 3). Un autre verset reconnaît : vous ne pourrez jamais être équitables entre vos femmes, même si vous en êtes soucieux (sourate 4, verset 129). Certains musulmans modernes en concluent que le Coran recommande la monogamie ; mais la grande majorité des savants considèrent la polygamie comme permise."
+     "texte": "Le verset le plus discuté sur la place de la femme est le suivant : les hommes ont autorité sur les femmes, en raison de la préférence qu'Allah accorde aux uns sur les autres, et en raison des dépenses qu'ils font sur leurs biens. Les femmes vertueuses sont obéissantes et gardent, en l'absence de leur mari, ce qu'Allah a ordonné de garder. Et quant à celles dont vous craignez l'insoumission, exhortez-les, éloignez-vous d'elles dans les lits, et frappez-les. Si elles vous obéissent, ne cherchez plus de voie contre elles (sourate 4, verset 34)."
     },
     {
-     "sous_titre": "Les esclaves et les captives"
+     "texte": "Le mot arabe pour « autorité » est « qawwamoun », ceux qui ont la charge, ceux qui se tiennent au-dessus. Et le dernier mot est « idribouhounna », « frappez-les ». Le verbe est à l'impératif. Il y a trois étapes : exhorter, éloigner du lit, frapper."
     },
     {
-     "texte": "Ces versets mentionnent aussi les femmes « que possède la main droite », c'est-à-dire les esclaves et captives de guerre, avec qui le maître pouvait avoir des relations sexuelles sans mariage (sourate 4, verset 24 ; sourate 23, versets 5 et 6). L'esclavage a été aboli dans les pays musulmans au XXe siècle, mais des groupes extrémistes, comme l'État islamique ou Boko Haram avec les lycéennes de Chibok, enlevées en 2014, se sont appuyés sur ces textes pour réduire des femmes en esclavage. Les musulmans dans leur immense majorité condamnent ces crimes ; mais les textes existent, et les extrémistes ne les inventent pas."
+     "sous_titre": "Comment les savants l'expliquent"
     },
     {
-     "sous_titre": "Le plan de Dieu"
+     "texte": "Les savants classiques expliquent que ce coup doit être léger. Tabari dit qu'il doit être « sans violence », qu'on ne doit pas blesser ni laisser de trace. Certains disent qu'il faut utiliser un « siwak », un petit bâton qui sert de brosse à dents. Le dernier sermon de Mahomet, à La Mecque, aurait dit à propos des femmes : « Si elles commettent une faute évidente, vous pouvez les laisser seules dans les lits et les frapper sans violence » (Mouslim, hadith 1218). Des musulmans modernes proposent de traduire le verbe « daraba » par « s'éloigner » ou « se séparer », et non « frapper ». Mais la grande majorité des savants et des traductions le comprennent comme frapper."
     },
     {
-     "texte": "Nous avons étudié ailleurs la polygamie dans la Bible. Retenons que Jésus a ramené le mariage au plan du commencement : les deux deviendront une seule chair (Matthieu 19:5). Malachie parle de « la femme de ta jeunesse », « ta compagne et la femme de ton alliance » (Malachie 2:14). Le Cantique des cantiques chante un amour exclusif : l'amour est fort comme la mort, la jalousie est inflexible comme le séjour des morts (Cantique 8:6)."
+     "sous_titre": "Les autres textes"
     },
     {
-     "verset": "Ct 8:6"
+     "texte": "Plusieurs hadiths vont dans le même sens. Un hadith dit : « Si je devais ordonner à quelqu'un de se prosterner devant quelqu'un d'autre, j'ordonnerais à la femme de se prosterner devant son mari » (Tirmidhi, hadith 1159). Un autre dit : « Si un homme appelle sa femme à son lit et qu'elle refuse, et qu'il passe la nuit en colère contre elle, les anges la maudissent jusqu'au matin » (Boukhari, hadith 3237). Beaucoup de femmes lisent ce hadith comme une obligation de se donner même quand elles sont fatiguées, malades ou blessées."
+    },
+    {
+     "sous_titre": "Une plainte"
+    },
+    {
+     "texte": "Boukhari rapporte aussi qu'une femme est venue voir les femmes croyantes avec une marque verte sur la peau, à cause de coups de son mari. Aïcha a dit : « Je n'ai jamais vu une femme souffrir comme les femmes croyantes ! Sa peau est plus verte que son vêtement » (Boukhari, hadith 5825). Cela montre que la violence conjugale était une réalité du temps, et qu'elle choquait déjà Aïcha."
+    },
+    {
+     "sous_titre": "Ce que cela donne"
+    },
+    {
+     "texte": "Dans les foyers, le résultat dépend des hommes. Il y a des maris musulmans doux et respectueux, qui n'ont jamais levé la main. Il y a aussi des maris qui frappent et qui disent : « Le Coran me le permet. » Voilà le fait. Le texte donne aux seconds un argument religieux, et cela a des conséquences dans nos quartiers."
     }
    ]
   },
   {
    "numero": "5",
-   "titre": "Le verset qui permet de frapper",
-   "references": [
-    "Ep 5:28-29",
-    "Col 3:19"
-   ],
+   "titre": "Les épouses et les captives",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le texte"
+     "sous_titre": "Jusqu'à quatre"
     },
     {
-     "texte": "Le verset le plus discuté est celui-ci : les hommes ont autorité sur les femmes, en raison des faveurs qu'Allah accorde à ceux-là sur celles-ci, et aussi à cause des dépenses qu'ils font de leurs biens. Les femmes vertueuses sont obéissantes… Et quant à celles dont vous craignez la désobéissance, exhortez-les, éloignez-vous d'elles dans leurs lits et frappez-les. Si elles vous obéissent, ne cherchez plus de voie contre elles (sourate 4, verset 34)."
+     "texte": "Le Coran permet à l'homme d'avoir plusieurs épouses : épousez ce qui vous plaît parmi les femmes, deux, trois ou quatre. Mais si vous craignez de ne pas être équitables, alors une seule, ou ce que votre main droite possède (sourate 4, verset 3). Un autre verset dit : vous ne pourrez jamais être équitables entre vos femmes, même si vous y tenez (sourate 4, verset 129). Certains musulmans modernes en tirent que le Coran recommande en fait la monogamie. Mais la grande majorité des savants considère la polygamie comme permise, et dans des pays comme le Cameroun, beaucoup d'hommes musulmans ont deux, trois ou quatre épouses."
     },
     {
-     "sous_titre": "Les explications"
+     "texte": "Dans la vie réelle, cela cause souvent de la jalousie, des enfants qui se disputent l'héritage, des femmes qui ne reçoivent pas l'égalité promise. Il y a aussi des femmes musulmanes qui acceptent, qui s'entendent bien, qui y voient une protection pour les veuves. Il faut le reconnaître."
     },
     {
-     "texte": "Les musulmans expliquent ce verset de plusieurs manières. Beaucoup de savants classiques disent qu'il s'agit d'une étape ultime, après l'exhortation et l'éloignement, et que le coup ne doit pas blesser, ni laisser de trace, ni toucher le visage ; certains disent qu'il faut frapper avec un « siwak », un petit bâton qui sert de brosse à dents. D'autres musulmans modernes proposent de traduire le verbe autrement, par « s'éloigner » ou « se séparer ». Mais dans beaucoup de foyers, ce verset est compris comme une permission de battre sa femme."
+     "sous_titre": "Ce que « la main droite possède »"
     },
     {
-     "sous_titre": "Une plainte rapportée par Aïcha"
+     "texte": "Cette expression revient souvent dans le Coran. Elle désigne les esclaves, et surtout les femmes captives de guerre. Le Coran permet à l'homme d'avoir des relations avec elles, sans mariage : (les croyants) qui gardent leur chasteté, sauf avec leurs épouses ou ce que leur main droite possède, car alors ils ne sont pas blâmables (sourate 23, versets 5 et 6 ; sourate 70, versets 29 et 30 ; sourate 4, verset 24)."
     },
     {
-     "texte": "Boukhari rapporte qu'une femme vint se plaindre à Mahomet, portant une marque verte sur la peau à cause des coups de son mari. Aïcha dit alors : « Je n'ai jamais vu une femme souffrir autant que les femmes croyantes ! Sa peau est plus verte que son vêtement » (Boukhari, hadith 5825). Le récit montre que la violence conjugale était une réalité, et qu'elle choquait déjà Aïcha."
+     "texte": "Nous avons vu comment cela s'est passé du temps de Mahomet. Après la victoire sur la tribu des Banou Moustaliq, des captives furent partagées entre les combattants. Des hommes demandèrent à Mahomet s'ils pouvaient pratiquer le « azl », le retrait avant l'éjaculation, pour ne pas les rendre enceintes, car ils voulaient les vendre contre rançon (Boukhari, hadith 4138 ; Mouslim, hadith 1438). Cela montre bien de quoi il s'agit. Je ne le dis pas pour choquer, mais parce que c'est dans le recueil de Boukhari, et que c'est important pour comprendre ce que font aujourd'hui certains groupes. L'État islamique, en 2014, a réduit en esclavage des milliers de femmes yézidies en Irak, en citant ces textes. Boko Haram a enlevé les lycéennes de Chibok au Nigeria la même année, et Abubakar Shekau avait dit dans une vidéo qu'il allait les vendre « sur le marché », en s'appuyant sur ce qu'Allah permet. L'immense majorité des musulmans condamne ces crimes. Mais ces groupes ne l'ont pas inventé de leur tête : ils citent des textes. Il faut donc que les savants musulmans disent clairement que ces textes appartiennent au passé. Certains le disent, d'autres refusent."
     },
     {
-     "sous_titre": "Le refus du lit"
+     "sous_titre": "Le mariage temporaire"
     },
     {
-     "texte": "Un hadith dit encore : « Si un homme appelle sa femme à son lit et qu'elle refuse, et qu'il passe la nuit en colère contre elle, les anges la maudissent jusqu'au matin » (Boukhari, hadith 3237). Beaucoup de femmes vivent ce hadith comme une obligation de se soumettre même quand elles sont épuisées, malades ou blessées."
-    },
-    {
-     "sous_titre": "Le mari selon la Bible"
-    },
-    {
-     "texte": "La Bible donne au mari une responsabilité de chef de famille, mais elle la définit d'une manière qui exclut toute violence : maris, aimez vos femmes, comme Christ a aimé l'Église, et s'est livré lui-même pour elle (Éphésiens 5:25). Les maris doivent aimer leurs femmes comme leur propre corps ; celui qui aime sa femme s'aime lui-même ; car jamais personne n'a haï sa propre chair, mais il la nourrit et en prend soin (Éphésiens 5:28-29). Maris, aimez vos femmes, et ne vous aigrissez pas contre elles (Colossiens 3:19). Pierre ajoute que le mari doit honorer sa femme comme cohéritière de la grâce de la vie, afin que rien ne vienne faire obstacle à ses prières (1 Pierre 3:7). Un chrétien qui bat sa femme pèche gravement contre Dieu."
+     "texte": "Chez les chiites, il existe aussi le mariage temporaire, la « moutaa », un contrat de mariage pour une durée fixée, parfois quelques heures, avec une somme d'argent. Les sunnites disent que Mahomet l'a permis puis interdit. Les chiites disent qu'il n'a jamais été interdit. Cela montre un autre aspect : le mariage dans l'islam est d'abord un contrat."
     }
    ]
   },
   {
    "numero": "6",
-   "titre": "Le divorce",
-   "references": [
-    "Mt 19:8-9",
-    "Ml 2:16"
-   ],
+   "titre": "Les épouses de Mahomet et Aïcha",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "La répudiation"
+     "sous_titre": "Les épouses"
     },
     {
-     "texte": "Dans l'islam, le mari peut divorcer de sa femme par une simple déclaration, appelée « talaq », la répudiation. Il peut le faire trois fois. Après une première et une deuxième répudiation, il peut reprendre sa femme pendant la période d'attente. Mais après la troisième, elle lui devient interdite, et il ne peut l'épouser de nouveau qu'après qu'elle a épousé un autre homme, consommé ce mariage, puis divorcé (sourate 2, verset 230). Boukhari rapporte que Mahomet dit à une femme qui voulait revenir à son premier mari : « Non, pas avant que tu aies goûté son miel et qu'il ait goûté le tien » (Boukhari, hadith 5260). Cette règle a donné naissance, dans certaines régions, à des « mariages arrangés » d'une nuit pour permettre au couple de se remarier, pratique que beaucoup de savants condamnent mais qui existe."
+     "texte": "Le Coran a donné à Mahomet un privilège que les autres croyants n'ont pas : il peut avoir plus de quatre épouses (sourate 33, verset 50). À sa mort, il en avait neuf. En tout, onze ont été ses épouses. Voici les noms : Khadija, qui est morte avant l'hégire, et qui fut son unique épouse pendant vingt-cinq ans ; Sawda ; Aïcha ; Hafsa, fille d'Omar ; Zaynab bint Khouzayma ; Oumm Salama ; Zaynab bint Jahch ; Joweiriyya ; Oumm Habiba, fille d'Abou Soufyan ; Safiyya ; et Maymouna. Il eut aussi une concubine, Maria la Copte, qui lui donna un fils, Ibrahim, mort en bas âge."
     },
     {
-     "texte": "La femme, elle, ne peut pas répudier son mari. Elle peut demander le divorce à un juge, ou obtenir une séparation en rendant sa dot (« khoul »). En cas de divorce, les enfants sont souvent confiés au père après un certain âge."
+     "texte": "Plusieurs de ces mariages avaient une raison politique. Joweiriyya était la fille du chef des Banou Moustaliq. Safiyya, juive, fut prise après la victoire de Khaybar, où son mari et son père avaient été tués. Oumm Habiba était la fille de son principal ennemi, Abou Soufyan. Et un mariage a fait scandale : celui de Zaynab bint Jahch, qui avait été l'épouse de Zayd, le fils adoptif de Mahomet. Le Coran justifie ce mariage en disant qu'Allah l'a lui-même marié avec elle, pour montrer qu'il n'y a pas de faute à épouser la femme d'un fils adoptif (sourate 33, verset 37). C'est pourquoi l'islam interdit l'adoption au sens où nous l'entendons. Les épouses de Mahomet reçurent le titre de « mères des croyants », et personne n'avait le droit de les épouser après lui (sourate 33, verset 53)."
     },
     {
-     "sous_titre": "Ce que la Bible dit du divorce"
+     "sous_titre": "Aïcha"
     },
     {
-     "texte": "Jésus a dit : c'est à cause de la dureté de votre cœur que Moïse vous a permis de répudier vos femmes ; au commencement, il n'en était pas ainsi (Matthieu 19:8). Dieu dit par Malachie : je hais la répudiation (Malachie 2:16). Le mariage chrétien est une alliance pour la vie, qui protège la femme et les enfants."
+     "texte": "Aïcha, fille d'Abou Bakr, est la plus connue. Voici ce que rapporte Boukhari : « Le prophète l'a épousée quand elle avait six ans, et il a consommé le mariage avec elle quand elle avait neuf ans » (Boukhari, hadith 5133 ; Mouslim, hadith 1422). Elle jouait encore avec ses poupées. Mahomet avait alors cinquante-trois ans environ."
+    },
+    {
+     "texte": "Cette histoire est pour le musulman un sujet délicat. Il y a trois réactions. Certains disent : c'est la coutume de l'époque, et l'Arabie était ainsi. D'autres disent que l'âge d'Aïcha a été mal calculé et qu'elle était plus âgée, mais les recueils les plus respectés sont clairs, et les savants anciens n'ont jamais contesté ce chiffre. Et d'autres disent : le texte est authentique, donc cet âge est permis pour le mariage. C'est cette dernière lecture qui est utilisée aujourd'hui pour justifier le mariage de petites filles en Arabie, au Yémen, en Iran, et dans certaines régions du Sahel. Retiens bien ceci : Mahomet est pour le musulman le modèle parfait, « le beau modèle » (sourate 33, verset 21). Donc, ce qu'il a fait, beaucoup de gens se sentent le droit de le faire."
     }
    ]
   },
   {
    "numero": "7",
-   "titre": "Le voile",
-   "references": [
-    "1 P 3:3-4",
-    "1 S 16:7"
-   ],
+   "titre": "La répudiation et le divorce",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Les textes"
+     "sous_titre": "Le « talaq »"
     },
     {
-     "texte": "Le Coran demande aux croyantes de baisser leurs regards, de garder leur chasteté, de ne montrer de leurs atours que ce qui en paraît, et de rabattre leur voile (« khimar ») sur leur poitrine (sourate 24, verset 31). Il demande aux épouses et aux filles du prophète, et aux femmes des croyants, de ramener sur elles leurs grands voiles (« jalabib ») afin d'être reconnues et de ne pas être offensées (sourate 33, verset 59). Un autre verset demande de parler aux épouses du prophète derrière un rideau (sourate 33, verset 53)."
+     "texte": "Dans l'islam, le mari peut divorcer d'un seul mot. On l'appelle le « talaq », la répudiation. Il dit « tu es répudiée ». Il peut le faire trois fois. Après la première et la deuxième, il peut la reprendre pendant la période d'attente, la « idda », qui dure trois cycles (sourate 2, verset 228). Après la troisième, elle lui est interdite : il ne pourra la reprendre que si elle a épousé un autre homme, que ce mariage a été consommé, puis que cet homme l'a répudiée (sourate 2, verset 230). Boukhari rapporte que Mahomet a dit à une femme qui voulait retourner à son premier mari : « Non, pas avant que tu aies goûté son miel et qu'il ait goûté le tien » (Boukhari, hadith 5260). Il y a des pays où cette règle a donné naissance à des « mariages de complaisance » : un homme répudie sa femme trois fois dans un mouvement de colère, puis il regrette, et on paie un autre homme pour l'épouser une nuit."
     },
     {
-     "sous_titre": "Des pratiques très différentes"
+     "texte": "Dans certains pays, des hommes ont répudié leur femme en disant « talaq » trois fois d'un coup, et même par message. L'Inde l'a déclarée invalide en 2017, puis punie par la loi en 2019."
     },
     {
-     "texte": "Selon les pays et les écoles, le voile va du simple foulard sur les cheveux jusqu'au voile intégral qui cache le visage, avec des gants. En Afrique, beaucoup de femmes musulmanes portent un foulard ou un grand voile, d'autres ne se voilent qu'à la mosquée. Dans certains pays, le voile est imposé par la loi ; dans d'autres, des femmes le portent par conviction personnelle et le vivent comme une protection et une marque d'identité."
+     "sous_titre": "Pour la femme"
     },
     {
-     "sous_titre": "La vraie parure"
-    },
-    {
-     "texte": "Le chrétien ne doit pas faire du voile le centre de la discussion. La Bible aussi demande la modestie dans l'habillement. Mais elle dit que la vraie parure est intérieure : ayez, non cette parure extérieure qui consiste dans les cheveux tressés, les ornements d'or ou les habits qu'on revêt, mais la parure intérieure et cachée dans le cœur, la pureté incorruptible d'un esprit doux et paisible, qui est d'un grand prix devant Dieu (1 Pierre 3:3-4). L'homme regarde à ce qui frappe les yeux, mais l'Éternel regarde au cœur (1 Samuel 16:7)."
+     "texte": "La femme, elle, ne peut pas répudier son mari. Elle peut demander le divorce devant un juge pour certains motifs graves. Ou elle peut demander une séparation en rendant sa dot : c'est le « khoul ». Boukhari rapporte l'histoire d'une femme qui a dit à Mahomet qu'elle n'avait rien à reprocher à son mari, mais qu'elle ne pouvait plus le supporter. Il lui a dit : « Lui rendras-tu son jardin ? » Elle a dit oui. Il a dit au mari : « Reprends ton jardin et répudie-la » (Boukhari, hadith 5273). Après le divorce, les enfants sont souvent confiés au père à partir d'un certain âge, et la mère perd leur garde si elle se remarie."
     }
    ]
   },
   {
    "numero": "8",
-   "titre": "Questions difficiles en Afrique",
-   "references": [
-    "Mc 10:14",
-    "Ps 82:3-4"
-   ],
+   "titre": "Le voile",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le mariage précoce"
+     "sous_titre": "Les textes"
     },
     {
-     "texte": "Nous avons vu, à propos d'Aïcha, que certains s'appuient sur l'exemple du prophète pour justifier le mariage de très jeunes filles. Au nord du Cameroun, au Tchad, au Niger, au Nigeria, beaucoup de filles sont encore mariées très jeunes, avant de terminer leur scolarité. Des musulmans courageux luttent contre cette pratique. Le chrétien doit les soutenir et protéger ces filles, quelle que soit leur religion."
+     "texte": "Le Coran parle du voile à plusieurs endroits. D'abord, la sourate 24, verset 31 : dis aux croyantes de baisser leurs regards, de garder leur chasteté, de ne montrer de leurs atours que ce qui en paraît, et de rabattre leur voile, le « khimar », sur leur poitrine. Ensuite, la sourate 33, verset 59 : ô prophète, dis à tes épouses, à tes filles et aux femmes des croyants de ramener sur elles leurs grands voiles, les « jalabib ». Cela leur permettra d'être reconnues et de ne pas être offensées. Enfin la sourate 33, verset 53, qui demande de parler aux épouses du prophète derrière un rideau, le « hijab ». À l'origine, le mot « hijab » veut dire rideau, et il concernait les épouses de Mahomet."
     },
     {
-     "sous_titre": "L'excision"
+     "sous_titre": "Les pratiques"
     },
     {
-     "texte": "Dans plusieurs pays du Sahel, l'excision des filles est encore pratiquée, chez des musulmans comme chez des non-musulmans. Cette pratique est plus ancienne que l'islam et n'est pas dans le Coran. Certains savants, notamment de l'école chaféite, l'ont considérée comme recommandée en s'appuyant sur des hadiths faibles ; beaucoup d'autres, aujourd'hui, la condamnent comme une mutilation. Le chrétien doit être clair : Dieu a créé le corps de la femme bon, et cette pratique blesse gravement des fillettes. Défendez le faible et l'orphelin, faites droit au malheureux et au pauvre (Psaume 82:3)."
+     "texte": "Les savants ne sont pas d'accord sur ce qu'il faut couvrir. Tous disent que la femme doit couvrir ses cheveux, son cou et son corps. Pour le visage et les mains, certains disent qu'ils peuvent rester visibles, d'autres que le visage doit être couvert, c'est le « niqab ». Il y a des pays où le voile est imposé par la loi, comme l'Iran et l'Arabie saoudite. Il y a des pays où il est interdit à certains endroits. Et il y a des femmes qui le portent par conviction personnelle, qui y voient une protection, une dignité, une marque d'identité. Il faut le reconnaître : ce n'est pas toujours une contrainte."
+    },
+    {
+     "sous_titre": "Une règle pour la sortie"
+    },
+    {
+     "texte": "D'autres règles accompagnent le voile. Un hadith dit que la femme ne doit pas voyager plus d'une journée sans un « mahram », un proche parent qu'elle ne peut pas épouser (Boukhari, hadith 1086). Un hadith dit aussi qu'un homme et une femme qui ne sont pas parents ne doivent pas rester seuls ensemble, car le troisième est Satan (Tirmidhi, hadith 1171). Voilà pourquoi, dans beaucoup de familles, les hommes et les femmes sont séparés dans les fêtes, et pourquoi on évite de serrer la main de quelqu'un de l'autre sexe."
+    },
+    {
+     "sous_titre": "À la mosquée et dans la prière"
+    },
+    {
+     "texte": "Les femmes peuvent aller à la mosquée, mais elles prient séparées des hommes, derrière eux ou dans une salle à part. Un hadith dit que « la prière de la femme dans sa maison est meilleure pour elle que dans la mosquée » (Abou Daoud, hadith 567). Et plusieurs écoles disent que la femme ne peut pas diriger la prière quand il y a des hommes."
     }
    ]
   },
   {
    "numero": "9",
-   "titre": "Jésus et les femmes",
-   "references": [
-    "Lc 13:12-13",
-    "Mt 28:9-10"
-   ],
+   "titre": "Les devoirs dans le couple",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Un regard nouveau"
+     "sous_titre": "Des femmes de savoir"
     },
     {
-     "texte": "Dans une société où les femmes étaient souvent méprisées, Jésus les a regardées d'une manière révolutionnaire. Il a parlé seul à seule avec une femme samaritaine, de mauvaise réputation, au point que ses disciples s'en étonnèrent (Jean 4:27), et il lui a révélé qu'il était le Messie. Il a laissé Marie de Béthanie s'asseoir à ses pieds pour l'écouter comme un disciple. Il a accepté que des femmes le suivent et l'assistent de leurs biens. Il a défendu une femme pécheresse contre ceux qui la méprisaient."
+     "texte": "Soyons justes aussi sur un autre point. L'histoire musulmane a connu des femmes de savoir. Aïcha elle-même a transmis plus de deux mille hadiths, et les grands compagnons venaient lui poser des questions sur la religion. Oumm Salama, une autre épouse de Mahomet, était consultée pour sa sagesse. Au neuvième siècle, une femme appelée Fatima al-Fihri a fondé à Fès, au Maroc, la mosquée-université d'al-Qarawiyyin, qui existe encore. Des femmes ont enseigné le hadith à des savants. Cela prouve qu'il y a eu des moments où les femmes ont étudié et enseigné. Mais ces cas restent des exceptions, et la tendance dominante a plutôt gardé la femme à la maison."
     },
     {
-     "sous_titre": "Il les a relevées"
+     "sous_titre": "Ce que le mari doit"
     },
     {
-     "texte": "Un jour de sabbat, il vit dans la synagogue une femme courbée depuis dix-huit ans. Il l'appela et lui dit : femme, tu es délivrée de ton infirmité. Il posa les mains sur elle ; à l'instant, elle se redressa, et glorifia Dieu (Luc 13:12-13). Il l'appela « fille d'Abraham ». C'est ce que Jésus fait encore aujourd'hui avec les femmes courbées par le poids de la honte, de la violence, du mépris."
+     "texte": "Le mari a des devoirs, et il faut les dire. Il doit nourrir sa femme, la loger, l'habiller : c'est la « nafaqa », l'entretien. Il doit lui verser la dot. Si plusieurs épouses, il doit les traiter avec équité, par exemple en partageant les nuits. Mahomet a dit : « Le meilleur d'entre vous est le meilleur envers sa famille, et moi je suis le meilleur envers ma famille » (Tirmidhi, hadith 3895). Selon un récit, il faisait la course avec Aïcha, et un jour elle l'a battu (Abou Daoud, hadith 2578). Il aidait aux travaux de la maison, selon Aïcha, et quand l'heure de la prière venait, il sortait (Boukhari, hadith 676). Ces récits sont très aimés des musulmans, et ils montrent une tendresse réelle."
     },
     {
-     "verset": "Lc 13:12-13"
+     "sous_titre": "Ce que la femme doit"
     },
     {
-     "sous_titre": "Les premières messagères de la résurrection"
+     "texte": "La femme, elle, doit l'obéissance à son mari dans ce qui est permis, elle ne doit pas faire entrer chez lui quelqu'un qu'il n'aime pas, elle ne doit pas sortir sans sa permission selon la plupart des écoles. Un hadith dit qu'elle ne peut pas faire un jeûne volontaire quand son mari est présent, sans son accord (Boukhari, hadith 5192). Mais elle garde ses biens pour elle. Son mari n'a pas le droit d'y toucher sans son accord. Elle n'est pas obligée de cuisiner ni de faire le ménage selon une partie des savants anciens, mais, dans la pratique, la coutume impose ces travaux."
     },
     {
-     "texte": "Le matin de Pâques, ce sont des femmes qui vont au tombeau, ce sont elles qui voient les premières le Seigneur ressuscité, et c'est à elles qu'il confie le message pour les apôtres : allez dire à mes frères (Matthieu 28:9-10). Dans le royaume de Dieu, il n'y a plus ni Juif ni Grec, ni esclave ni libre, ni homme ni femme ; car tous vous êtes un en Jésus-Christ (Galates 3:28)."
+     "sous_titre": "Le risque de la double lecture"
     },
     {
-     "verset": "Mt 28:9-10"
-    },
-    {
-     "sous_titre": "On raconte…"
-    },
-    {
-     "texte": "On raconte qu'une jeune femme musulmane de Kousseri, mariée à seize ans, souvent battue par son mari, vint un jour dans un centre de santé tenu par des chrétiens. L'infirmière la soigna, puis, avant de la laisser partir, lui demanda doucement si elle pouvait prier pour elle. Elle pria simplement, au nom de Jésus, pour sa guérison et sa protection. La jeune femme pleura. Elle dit : « Personne n'a jamais prié pour moi. » Elle revint plusieurs fois, d'abord pour des soins, puis pour écouter les histoires de Jésus et des femmes. Elle découvrit qu'aux yeux de Jésus, elle n'était pas « manquante d'intelligence et de religion », mais une fille aimée de Dieu."
+     "texte": "Voilà donc deux images. Dans la première, le mari doux et juste, qui nourrit, qui respecte, qui joue avec ses enfants. Dans la seconde, le mari qui se sert de la loi pour commander, frapper, répudier, prendre une seconde épouse sans prévenir. Les deux existent. Tout dépend de la personne. Mais la loi elle-même n'impose aucune limite sérieuse au pouvoir du mari, sauf sa conscience et la crainte d'Allah."
     }
    ]
   },
   {
    "numero": "10",
-   "titre": "Comment en parler avec une amie musulmane",
-   "references": [
-    "Pr 31:10",
-    "Rm 12:10"
-   ],
+   "titre": "Ce que cela donne en Afrique",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Ne pas commencer par critiquer"
+     "sous_titre": "Le mariage des jeunes filles"
     },
     {
-     "texte": "Si tu parles avec une femme musulmane, ne commence pas par critiquer son voile ou sa religion. Beaucoup de femmes musulmanes défendent leur foi avec ardeur, et se sentent humiliées quand des chrétiens les présentent comme des victimes. Commence par l'écouter : sa vie, sa famille, ses joies, ses peines. Honore-la. Paul dit : par honneur, usez de prévenances réciproques (Romains 12:10)."
+     "texte": "Dans le nord du Cameroun, au Tchad, au Niger, au Nigeria, beaucoup de filles sont mariées très jeunes, parfois à douze ou treize ans, avant de finir l'école. Les parents disent que c'est pour les protéger, ou parce qu'ils n'ont plus les moyens de payer l'école. Le prétexte religieux vient souvent de l'exemple d'Aïcha. Des musulmans courageux luttent contre cette pratique, et il faut le dire."
     },
     {
-     "sous_titre": "Laisser parler Jésus"
+     "sous_titre": "L'excision"
     },
     {
-     "texte": "Puis, quand la confiance est là, raconte-lui comment Jésus a traité les femmes : la Samaritaine, la femme courbée, Marie de Magdala. Lis avec elle Proverbes 31 : une femme vertueuse, qui la trouvera ? Elle a bien plus de valeur que les perles (Proverbes 31:10). Laisse-la découvrir, par elle-même, le regard de Dieu sur elle."
+     "texte": "Dans plusieurs pays du Sahel, l'excision est pratiquée. Elle est plus ancienne que l'islam et n'est pas dans le Coran. Certains savants, surtout de l'école chaféite, l'ont jugée recommandée en s'appuyant sur un hadith faible (Abou Daoud, hadith 5271). D'autres savants, aujourd'hui, la condamnent. C'est une mutilation qui blesse gravement beaucoup de petites filles, et cela doit être dit clairement."
     },
     {
-     "verset": "Pr 31:10"
+     "sous_titre": "L'héritage et la veuve"
+    },
+    {
+     "texte": "Quand le mari meurt, la veuve se retrouve souvent sans rien. Dans beaucoup de familles, la belle-famille garde les biens, et la veuve et les enfants sont mis dehors. Voilà un problème qui touche les femmes musulmanes comme les femmes chrétiennes, et sur lequel il faudra parler dans les églises."
     }
    ]
   },
   {
    "numero": "11",
    "titre": "Ce que nous retenons",
-   "references": [
-    "Gn 1:27",
-    "Ga 3:28"
-   ],
+   "references": [],
    "blocs": [
     {
      "sous_titre": "Résumons"
     },
     {
-     "texte": "Le Coran a apporté à la femme arabe de réels progrès : l'interdiction de tuer les filles, une dot et une part d'héritage. Il honore Marie. Mais il donne à la fille la moitié de la part du fils, compte le témoignage de deux femmes pour celui d'un homme, permet la polygamie jusqu'à quatre épouses et les relations avec les captives, autorise le mari à frapper sa femme désobéissante, et donne au mari seul le droit de répudier. Des hadiths authentiques disent que les femmes forment la majorité de l'enfer et qu'elles manquent d'intelligence et de religion. Les musulmans expliquent ces textes de diverses manières, et beaucoup de femmes musulmanes vivent leur foi avec conviction."
+     "texte": "Le Coran a donné à la femme arabe des droits réels : fin de l'enterrement des filles, une dot, une part d'héritage, un nombre limité d'épouses. Il honore Marie. Mais il donne à la fille la moitié de la part du fils, il compte le témoignage de deux femmes pour celui d'un homme, il permet au mari d'avoir quatre épouses et des captives, il permet de frapper la femme qui désobéit, et il donne au mari seul le pouvoir de répudier. Des hadiths authentiques disent que les femmes forment la majorité des habitants de l'enfer, qu'elles manquent d'intelligence et de religion, et qu'elles ne peuvent pas diriger un peuple. Aïcha a été mariée à six ans et le mariage a été consommé à neuf. Le voile est demandé, avec des pratiques très variées."
     },
     {
-     "sous_titre": "L'image de Dieu"
+     "sous_titre": "Ce que le chrétien retient"
     },
     {
-     "texte": "La Bible proclame que l'homme et la femme sont créés ensemble à l'image de Dieu (Genèse 1:27), et qu'en Christ, ils sont un (Galates 3:28). Jésus a relevé les femmes, les a enseignées, les a choisies comme premiers témoins de sa résurrection. C'est ce Jésus que nous voulons présenter à nos amies musulmanes, et dont nous voulons que nos propres foyers chrétiens soient le reflet."
+     "texte": "Le chrétien retient trois choses. D'abord, il écoute les femmes musulmanes, dont beaucoup aiment leur foi et dont d'autres souffrent en silence. Il ne les méprise pas. Ensuite, il ne se croit pas meilleur : beaucoup de foyers chrétiens, eux aussi, ont des maris violents et des veuves chassées. Enfin, il se prépare pour la série « Face à face », où nous verrons comment Jésus a traité les femmes : la Samaritaine, la femme courbée, Marie de Magdala, premier témoin de la résurrection. La Bible commence par ces mots : Dieu créa l'homme à son image, il le créa à l'image de Dieu, il créa l'homme et la femme (Genèse 1:27)."
     },
     {
      "texte": "Dans le prochain enseignement, nous regarderons ce que l'islam enseigne sur le paradis et l'enfer."
@@ -363,7 +345,7 @@
  ],
  "questions": [
   {
-   "question": "Selon la sourate 4, verset 11, quelle part reçoit une fille par rapport à son frère ?",
+   "question": "Quelle part d'héritage reçoit une fille par rapport à son frère, selon la sourate 4, verset 11 ?",
    "choix": [
     "La même",
     "La moitié",
@@ -374,65 +356,87 @@
    "section": "2"
   },
   {
-   "question": "Selon Boukhari 304, pourquoi Mahomet dit-il que les femmes manquent de religion ?",
+   "question": "Que dit la sourate 2, verset 282, sur le témoignage dans les contrats de dette ?",
+   "choix": [
+    "Une femme vaut un homme",
+    "Un homme, ou à défaut un homme et deux femmes",
+    "Seules les femmes témoignent"
+   ],
+   "reponse": 1,
+   "explication": "Les juristes ont étendu cette règle à beaucoup de cas.",
+   "section": "3"
+  },
+  {
+   "question": "Pourquoi Mahomet dit-il que les femmes manquent de religion, selon Boukhari 304 ?",
    "choix": [
     "Parce qu'elles ne lisent pas",
     "Parce qu'elles ne prient pas et ne jeûnent pas pendant leurs règles",
     "Parce qu'elles parlent trop"
    ],
    "reponse": 1,
-   "explication": "Le même hadith parle du témoignage pour le « manque d'intelligence ».",
+   "explication": "Le même hadith parle du témoignage pour le défaut d'intelligence.",
    "section": "3"
   },
   {
-   "question": "Que permet la sourate 4, verset 34, au mari dont la femme est désobéissante ?",
+   "question": "Que permet la sourate 4, verset 34, au mari dont la femme est insoumise ?",
    "choix": [
-    "Seulement de lui parler",
-    "De l'exhorter, de s'éloigner d'elle dans le lit, et de la frapper",
-    "De la chasser de la maison"
+    "Seulement lui parler",
+    "L'exhorter, s'éloigner d'elle dans le lit et la frapper",
+    "La chasser de la maison"
    ],
    "reponse": 1,
-   "explication": "Les savants l'expliquent diversement, mais le texte dit « frappez-les ».",
+   "explication": "Les savants l'expliquent diversement, mais le verbe est « frappez-les ».",
+   "section": "4"
+  },
+  {
+   "question": "Que veut dire « ce que votre main droite possède » dans le Coran ?",
+   "choix": [
+    "Les biens du mari",
+    "Les esclaves et les captives de guerre",
+    "Les enfants"
+   ],
+   "reponse": 1,
+   "explication": "Sourate 4, verset 3 ; sourate 23, versets 5 et 6.",
    "section": "5"
   },
   {
-   "question": "Après une troisième répudiation, que faut-il pour que le couple se remarie ?",
+   "question": "Quel âge avait Aïcha au mariage et à sa consommation, selon Boukhari 5133 ?",
+   "choix": [
+    "Dix et quatorze ans",
+    "Six ans et neuf ans",
+    "Seize et dix-huit ans"
+   ],
+   "reponse": 1,
+   "explication": "Boukhari 5133 ; Mouslim 1422.",
+   "section": "6"
+  },
+  {
+   "question": "Que faut-il, après une troisième répudiation, pour que le couple se remarie ?",
    "choix": [
     "Payer une amende",
-    "Que la femme épouse un autre homme, consomme ce mariage, puis divorce",
+    "Que la femme épouse un autre homme, consomme ce mariage et soit répudiée",
     "Faire le pèlerinage"
    ],
    "reponse": 1,
    "explication": "Sourate 2, verset 230 ; Boukhari 5260.",
-   "section": "6"
+   "section": "7"
   },
   {
-   "question": "Qui fut la première à voir Jésus ressuscité, selon Jean 20 ?",
+   "question": "Comment s'appelle le voile qui couvre la poitrine, dans la sourate 24, verset 31 ?",
    "choix": [
-    "Pierre",
-    "Marie de Magdala",
-    "Jean"
+    "Jalabib",
+    "Khimar",
+    "Niqab"
    ],
    "reponse": 1,
-   "explication": "Dieu a choisi une femme comme premier témoin de la résurrection.",
-   "section": "2"
-  },
-  {
-   "question": "Comment Paul demande-t-il aux maris d'aimer leurs femmes ?",
-   "choix": [
-    "Avec sévérité",
-    "Comme Christ a aimé l'Église et s'est livré pour elle",
-    "Selon leur obéissance"
-   ],
-   "reponse": 1,
-   "explication": "Éphésiens 5:25.",
-   "section": "5"
+   "explication": "Les « jalabib » sont les grands voiles de la sourate 33, verset 59.",
+   "section": "8"
   }
  ],
  "devoir": [
-  "Lis Jean 4:1-42 et Luc 13:10-17. Note comment Jésus traite ces deux femmes.",
+  "Lis Genèse 1:26-28 et Jean 4:1-42. Note comment Dieu et Jésus regardent la femme.",
   "Lis Éphésiens 5:21-33 et examine ton propre foyer : reflète-t-il l'amour de Christ ?",
-  "Si tu connais une femme musulmane, prie pour elle cette semaine, et cherche une occasion de lui montrer de la bonté."
+  "Si tu connais une femme musulmane, prie pour elle cette semaine et cherche une occasion de lui montrer de la bonté."
  ],
  "prieres_liees": [],
  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
