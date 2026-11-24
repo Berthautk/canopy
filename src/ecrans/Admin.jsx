@@ -4,12 +4,6 @@ import { ENSEIGNEMENTS, PRIERES, VEILLES, COMBAT, OUTILS, APPROCHES, EVANGELISAT
 
 // Espace administrateur : lecture des statistiques anonymes (mot de passe défini dans Cloudflare).
 const SECTIONS = { accueil: 'Accueil', priere: 'Prière', grandir: 'Grandir', evangeliser: 'Évangéliser', bible: 'Bible', jouer: 'Jeux', ecouter: 'Écoute' };
-const TYPES = [
-  ['enseignement', 'Enseignements', ENSEIGNEMENTS], ['veille', 'Veilles de prière', VEILLES.map((v) => ({ ...v, id: v.id.replace('veille-', '') }))],
-  ['theme-priere', 'Thèmes de prière', PRIERES], ['combat', 'Combat spirituel', COMBAT], ['outil', 'Présenter l\'Évangile', OUTILS],
-  ['approche', 'Approches d\'évangélisation', APPROCHES], ['article', 'Articles (évangéliser)', EVANGELISATION], ['dialogue', 'Dialogues', DIALOGUES],
-  ['parcours', 'Parcours (jours suivis)', []], ['j-ai-prie', '« J\'ai prié » (moments terminés)', [...PRIERES, ...VEILLES, ...COMBAT]], ['jeu', 'Jeux', NOMS_JEUX], ['questions-reussies', 'Enseignements compris (questions réussies)', ENSEIGNEMENTS],
-];
 const NOMS_JEUX = [['petits', 'Petits enfants'], ['bloc', 'Blocs de jeux (choix par âge)'], ['themes', 'Quiz par thème'], ['course', 'La course de la vie'],
   ['chemin', 'Le Chemin de la foi'], ['qui-suis-je', 'Qui suis-je ?'], ['ordre', 'Remets dans l\'ordre'], ['complete', 'Complète le verset'],
   ['memoriser', 'Mémoriser un verset'], ['duel', 'Duel à deux'], ['pelerin', 'Le Pèlerin'], ['badges', 'Badges'], ['defi', 'Défi biblique du jour'],
@@ -18,8 +12,14 @@ const nomParcours = (k) => {
   const m = k.match(/^(decouvrir-jesus|nouveau-converti)(?:-(\d+))?$/); if (!m) return k;
   return (m[1] === 'decouvrir-jesus' ? 'Découvrir Jésus' : 'Nouveau converti') + (m[2] ? ' · jour ' + m[2] : ' · page d\'accueil');
 };
+const TYPES = [
+  ['enseignement', 'Enseignements', ENSEIGNEMENTS], ['veille', 'Veilles de prière', VEILLES.map((v) => ({ ...v, id: v.id.replace('veille-', '') }))],
+  ['theme-priere', 'Thèmes de prière', PRIERES], ['combat', 'Combat spirituel', COMBAT], ['outil', 'Présenter l\'Évangile', OUTILS],
+  ['approche', 'Approches d\'évangélisation', APPROCHES], ['article', 'Articles (évangéliser)', EVANGELISATION], ['dialogue', 'Dialogues', DIALOGUES],
+  ['parcours', 'Parcours (jours suivis)', []], ['j-ai-prie', '« J\'ai prié » (moments terminés)', [...PRIERES, ...VEILLES, ...COMBAT]], ['jeu', 'Jeux', NOMS_JEUX], ['questions-reussies', 'Enseignements compris (questions réussies)', ENSEIGNEMENTS],
+];
 const propre = (s) => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9-]+/g, '-').replace(/^-+|-+$/g, '');
-const nomDe = (liste, id) => liste.find((x) => propre(x.id) === id)?.titre || id;
+const nomDe = (liste, id) => (liste || []).find((x) => propre(x.id) === id)?.titre || id;
 const nombre = (n) => n.toLocaleString('fr-FR');
 
 export function Admin() {
@@ -30,13 +30,13 @@ export function Admin() {
   async function charger(m = mdp) {
     setEtat({ charge: true });
     try {
-      const r = await fetch('/api/stats?jours=' + jours, { headers: { authorization: 'Bearer ' + m }, cache: 'no-store' });
+      const r = await fetch('/api/stats?jours=' + jours, { headers: { authorization: 'Bearer ' + m }, cache: 'no-store', signal: AbortSignal.timeout?.(20000) });
       const d = await r.json().catch(() => ({}));
       if (!r.ok || !d.ok) { setEtat({ erreur: d.erreur || 'Service indisponible (' + r.status + ').' }); return; }
       try { sessionStorage.setItem('yeshaya:admin', m); } catch {}
-      const q = await fetch('/api/priere', { headers: { authorization: 'Bearer ' + m }, cache: 'no-store' }).then((x) => x.json()).catch(() => ({}));
+      const q = await fetch('/api/priere', { headers: { authorization: 'Bearer ' + m }, cache: 'no-store', signal: AbortSignal.timeout?.(20000) }).then((x) => x.json()).catch(() => ({}));
       setEtat({ lignes: d.lignes, depuis: d.depuis, requetes: q.requetes || [] });
-    } catch { setEtat({ erreur: 'Pas de connexion internet.' }); }
+    } catch (e) { setEtat({ erreur: e?.name === 'TimeoutError' ? 'Le serveur ne répond pas (20 s). Réessaie dans un moment.' : 'Pas de connexion internet.' }); }
   }
   useEffect(() => { if (mdp && etat.lignes) charger(); }, [jours]);
 
