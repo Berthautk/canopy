@@ -1,0 +1,231 @@
+{
+ "id": "v4-pas-08-pas-de-justice",
+ "volume": 1,
+ "numero": 8,
+ "titre": "Mensonge : il n'y a pas de justice",
+ "sous_titre": "Dieu est juste : les méchants ne l'emporteront pas",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-08-pas-de-justice",
+ "verset_memoire": "Psaume 37:9",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que le texte dit sur la justice de Dieu.",
+  "jours": [
+   "Psaume 37",
+   "Psaume 73",
+   "Romains 12:14-21",
+   "Apocalypse 19:11-16",
+   "Habacuc 1:1-4; 2:1-4",
+   "Luc 16:19-31",
+   "Jacques 5:1-11"
+  ]
+ },
+ "introduction": [
+  "Autour de nous : corruption, injustices, pauvres écrasés. On est tenté de dire : « La justice n'existe pas. »",
+  "Cette semaine, tu vas voir ce que dit la Bible de la justice de Dieu et comment attendre."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Parfois les méchants prospèrent plus que les justes.",
+       "reponse": true,
+       "explication": "Psaume 73:3."
+      },
+      {
+       "id": "vf2",
+       "texte": "Un jour les injustes devront rendre des comptes.",
+       "reponse": true,
+       "explication": "Psaume 37:9-10 ; Apocalypse 20:12."
+      },
+      {
+       "id": "vf3",
+       "texte": "Être juste n'en vaut pas la peine si le mal rapporte plus.",
+       "reponse": false,
+       "explication": "Psaume 37:3-4 : confie-toi en l'Éternel, fais le bien."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Ce que je vois, ce que Dieu voit",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Psaume 73:1-17. Qu'est-ce qui troublait le psalmiste ? Quand a-t-il compris ?",
+     "refs": [
+      "Psaume 73:1-17"
+     ],
+     "accompagnateur": {
+      "attendu": "La prospérité des méchants. Il a compris en entrant dans le sanctuaire de Dieu : il a vu leur fin.",
+      "expliquer": [
+       "Quand on regarde seulement les apparences, on s'égare. Dans la présence de Dieu, on voit plus loin."
+      ],
+      "relance": "Qui te semble avoir trop de chance, injustement ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Psaume 37:1-2, 9-10, 20. Que va-t-il arriver aux méchants ? Aux justes ?",
+     "refs": [
+      "Psaume 37:1-2",
+      "Psaume 37:9-10",
+      "Psaume 37:20"
+     ],
+     "accompagnateur": {
+      "attendu": "Les méchants seront retranchés, ils disparaîtront comme l'herbe. Ceux qui espèrent en l'Éternel hériteront la terre.",
+      "expliquer": [
+       "Le temps de Dieu n'est pas le nôtre, mais sa justice vient."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Attendre la justice de Dieu",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Romains 12:17-21. Que dois-je faire quand on me fait du tort ?",
+     "refs": [
+      "Romains 12:17-21"
+     ],
+     "accompagnateur": {
+      "attendu": "Ne pas rendre le mal pour le mal, ne pas me venger, laisser agir la colère de Dieu, vaincre le mal par le bien.",
+      "expliquer": [
+       "On peut chercher la justice par les voies légitimes sans haine. Dieu juge en dernier."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Apocalypse 19:11-16 et 20:11-15. Comment Jésus viendra-t-il, et que fera-t-il ?",
+     "refs": [
+      "Apocalypse 19:11-16",
+      "Apocalypse 20:11-15"
+     ],
+     "accompagnateur": {
+      "attendu": "Il vient avec justice juger et combattre. Il est Roi des rois. Tous les morts sont jugés selon leurs œuvres devant le grand trône blanc.",
+      "expliquer": [
+       "Aucune injustice n'échappera à Dieu."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Psaume 37:3-7. Que dois-je faire en attendant ?",
+     "refs": [
+      "Psaume 37:3-7"
+     ],
+     "accompagnateur": {
+      "attendu": "Me confier en l'Éternel, faire le bien, me réjouir en lui, remettre ma voie à lui, me tenir tranquille devant lui.",
+      "expliquer": [
+       "Ne pas s'irriter contre ceux qui réussissent par le mal."
+      ],
+      "relance": "Quel bien peux-tu faire cette semaine malgré l'injustice ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Une injustice qui me pèse :",
+      "2. Ce que je confie à Dieu :",
+      "3. Un bien que je fais malgré tout :",
+      "4. Comment je vais attendre sans m'irriter :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v4-pas-08-pas-de-justice"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Psaume 37:9 de mémoire.",
+     "refs": [
+      "Psaume 37:9"
+     ],
+     "accompagnateur": {
+      "attendu": "« Car ceux qui font le mal seront retranchés, mais ceux qui espèrent en l'Éternel hériteront le pays. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Ce que je vois, ce que Dieu voit",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Attendre la justice de Dieu",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Psaume 37:9. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Si la personne se sent très découragée ou parle de mort, en parler tout de suite avec le pasteur.",
+   "Ne pas se moquer des croyances populaires de la personne : l'aider à les examiner à la lumière de la Bible.",
+   "Chaque mensonge a une histoire. Écouter avant de répondre."
+  ]
+ }
+}

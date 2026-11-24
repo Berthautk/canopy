@@ -1,0 +1,248 @@
+{
+ "id": "v4-pas-06-j-ai-peur",
+ "volume": 1,
+ "numero": 6,
+ "titre": "Mensonge : j'ai peur",
+ "sous_titre": "Dieu est mon refuge : vaincre la peur",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-06-j-ai-peur",
+ "verset_memoire": "Psaume 34:7",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour une peur que tu remets à Dieu.",
+  "jours": [
+   "Psaume 46",
+   "Psaume 18:1-19",
+   "Psaume 34",
+   "Romains 8:28-39",
+   "Proverbes 29:25",
+   "Jean 16:25-33",
+   "1 Chroniques 28:20"
+  ]
+ },
+ "introduction": [
+  "La peur nous paralyse : peur de la mort, du futur, du rejet, des sorciers, des dettes.",
+  "Cette semaine, tu vas apprendre que Dieu est ton refuge, et comment réagir à la peur."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "La peur de Dieu veut dire avoir peur de lui.",
+       "reponse": false,
+       "explication": "La crainte de Dieu, c'est le respect et l'amour qui conduit à l'obéissance (Proverbes 9:10)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Parfois la réalité est autre chose que ce qu'on voit.",
+       "reponse": true,
+       "explication": "2 Rois 6:16-17 : il y a plus avec nous qu'avec eux."
+      },
+      {
+       "id": "vf3",
+       "texte": "Quand j'ai peur, c'est que Dieu est loin.",
+       "reponse": false,
+       "explication": "Psaume 34:5 : j'ai cherché l'Éternel, il m'a exaucé et m'a délivré de toutes mes frayeurs."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Dieu, mon refuge",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Psaume 46:2-4 et Psaume 18:2-3. Comment Dieu est-il décrit ?",
+     "refs": [
+      "Psaume 46:2-4",
+      "Psaume 18:2-3"
+     ],
+     "accompagnateur": {
+      "attendu": "Refuge, force, secours dans la détresse, rocher, forteresse, bouclier, libérateur. Même quand la terre tremble, nous ne craignons pas.",
+      "expliquer": [
+       "On peut écrire un nom que l'on donne à Dieu en fonction de sa peur : mon rocher, mon bouclier."
+      ],
+      "relance": "De quoi as-tu le plus peur ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Proverbes 29:25 et Jean 16:33. Quels sont les pièges de la peur ? Que promet Jésus ?",
+     "refs": [
+      "Proverbes 29:25",
+      "Jean 16:33"
+     ],
+     "accompagnateur": {
+      "attendu": "La crainte des hommes tend un piège. Jésus avertit qu'il y aura des tribulations, mais dit : « Prenez courage, j'ai vaincu le monde. »",
+      "expliquer": [
+       "La peur du regard des autres empêche d'obéir à Dieu."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Romains 8:28-39. Qu'est-ce qui peut nous séparer de l'amour de Dieu ?",
+     "refs": [
+      "Romains 8:28-39"
+     ],
+     "accompagnateur": {
+      "attendu": "Rien : ni la tribulation, ni l'angoisse, ni la persécution, ni la mort, ni les puissances. Dieu fait tout concourir au bien de ceux qui l'aiment.",
+      "expliquer": [
+       "Faire lire à voix haute les versets 38-39."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Que faire quand j'ai peur ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Psaume 34:5-8, 18. Qu'a fait le psalmiste ? Que fait Dieu ?",
+     "refs": [
+      "Psaume 34:5-8",
+      "Psaume 34:18"
+     ],
+     "accompagnateur": {
+      "attendu": "Il a cherché l'Éternel qui l'a délivré de toutes ses frayeurs. L'ange de l'Éternel campe autour de ceux qui le craignent. L'Éternel est près de ceux qui ont le cœur brisé.",
+      "expliquer": [
+       "Chercher Dieu : prier, lire, se tenir avec des frères."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis 2 Rois 6:15-17 et 1 Chroniques 28:20. Que dit-on à celui qui a peur ?",
+     "refs": [
+      "2 Rois 6:15-17",
+      "1 Chroniques 28:20"
+     ],
+     "accompagnateur": {
+      "attendu": "Il y a plus avec nous qu'avec eux : une armée céleste. David dit à Salomon : sois fort, ne crains pas, l'Éternel ton Dieu sera avec toi.",
+      "expliquer": [
+       "Dieu ouvre nos yeux sur ce qu'il fait."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Choisis dans la liste de peurs celles qui te concernent : rejet, mort, futur, échec, jugement de Dieu, ennemis, sorciers, santé, dettes. Quelle promesse de la Bible leur répond ?",
+     "refs": [
+      "Psaume 46:2",
+      "Psaume 34:5"
+     ],
+     "accompagnateur": {
+      "attendu": "Une liste de peurs personnelles et une promesse pour chacune.",
+      "expliquer": [
+       "Prier avec la personne pour chaque peur.",
+       "Si la peur vient de la sorcellerie ou d'objets, revenir au bilan de vie."
+      ],
+      "relance": "Laquelle de ces peurs te contrôle le plus ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Mes trois plus grandes peurs :",
+      "2. Une promesse pour chacune :",
+      "3. Ce que je fais quand la peur monte :",
+      "4. Une personne à qui en parler :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v4-pas-06-j-ai-peur"
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Écris Psaume 34:7 de mémoire.",
+     "refs": [
+      "Psaume 34:7"
+     ],
+     "accompagnateur": {
+      "attendu": "« L'ange de l'Éternel campe autour de ceux qui le craignent, et il les délivre. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Dieu, mon refuge",
+    "minutes": 23,
+    "conseils": [
+     "Questions 1 à 3."
+    ]
+   },
+   {
+    "titre": "II. Que faire quand j'ai peur ?",
+    "minutes": 23,
+    "conseils": [
+     "Questions 4 à 6."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Psaume 34:7. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Si la personne se sent très découragée ou parle de mort, en parler tout de suite avec le pasteur.",
+   "Ne pas se moquer des croyances populaires de la personne : l'aider à les examiner à la lumière de la Bible.",
+   "Chaque mensonge a une histoire. Écouter avant de répondre."
+  ]
+ }
+}

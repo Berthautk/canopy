@@ -1,0 +1,243 @@
+{
+ "id": "v4-pas-04-c-est-impossible",
+ "volume": 1,
+ "numero": 4,
+ "titre": "Mensonge : c'est impossible",
+ "sous_titre": "Ce qui est impossible pour moi ne l'est pas pour Dieu",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-04-c-est-impossible",
+ "verset_memoire": "2 Corinthiens 12:9",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour une chose que Dieu a rendue possible.",
+  "jours": [
+   "Daniel 3",
+   "Luc 1:26-38",
+   "Matthieu 6:25-34",
+   "2 Corinthiens 12:1-10",
+   "Philippiens 4:10-19",
+   "Hébreux 11",
+   "Ésaïe 41:8-14"
+  ]
+ },
+ "introduction": [
+  "Il y a des moments où l'on dit : « Je n'en peux plus, il n'y a pas de sortie. »",
+  "Cette semaine, tu vas voir que ce qui est impossible pour toi est possible pour Dieu."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Il y a des moments où personne ne peut m'aider.",
+       "reponse": false,
+       "explication": "Luc 1:37 : rien n'est impossible à Dieu."
+      },
+      {
+       "id": "vf2",
+       "texte": "Me sentir seul responsable de vaincre mes problèmes me condamne à l'échec.",
+       "reponse": true,
+       "explication": "Jean 15:5 : sans moi vous ne pouvez rien faire."
+      },
+      {
+       "id": "vf3",
+       "texte": "La puissance de Dieu se montre quand je reconnais ma faiblesse.",
+       "reponse": true,
+       "explication": "2 Corinthiens 12:9."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Dieu fait l'impossible",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Daniel 3:16-27. Pourquoi les trois jeunes hébreux ont-ils refusé de plier le genou ? Que s'est-il passé ?",
+     "refs": [
+      "Daniel 3:16-27"
+     ],
+     "accompagnateur": {
+      "attendu": "Ils ont fait confiance à Dieu, même s'il ne les délivrait pas. Dieu les a gardés dans le feu : ils n'avaient même pas l'odeur du feu.",
+      "expliquer": [
+       "Dieu est avec nous dans le feu, pas seulement avant ou après."
+      ],
+      "relance": "Quel « feu » traverses-tu ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Luc 1:34-38. Qu'est-ce qui paraissait impossible pour Marie ? Que répond-elle ?",
+     "refs": [
+      "Luc 1:34-38"
+     ],
+     "accompagnateur": {
+      "attendu": "Qu'une vierge enfante. L'ange dit : « Rien n'est impossible à Dieu. » Marie répond : « Voici la servante du Seigneur ; qu'il me soit fait selon ta parole. »",
+      "expliquer": [
+       "Quand on dit « impossible », on regarde le problème. Marie a regardé Dieu."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Romains 8:31-37. Que dit Paul de ceux qui sont pour Dieu ?",
+     "refs": [
+      "Romains 8:31-37"
+     ],
+     "accompagnateur": {
+      "attendu": "Si Dieu est pour nous, qui sera contre nous ? Nous sommes plus que vainqueurs par celui qui nous a aimés.",
+      "expliquer": [
+       "Écrire la liste de ses « impossibles » et la remettre à Dieu en priant."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Quand je suis faible, je suis fort",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis 1 Pierre 5:6-7 et Matthieu 6:25-33. Que doit faire celui qui est anxieux ?",
+     "refs": [
+      "1 Pierre 5:6-7",
+      "Matthieu 6:25-33"
+     ],
+     "accompagnateur": {
+      "attendu": "S'humilier sous la main puissante de Dieu et lui confier ses inquiétudes, car il prend soin de nous. Chercher d'abord le royaume et sa justice ; le reste est donné par-dessus.",
+      "expliquer": [
+       "Les oiseaux et les fleurs sont nourris. Dieu s'occupe de ses enfants."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis 2 Corinthiens 12:7-10. Que répond Dieu à Paul ? Pourquoi Paul se réjouit-il dans ses faiblesses ?",
+     "refs": [
+      "2 Corinthiens 12:7-10"
+     ],
+     "accompagnateur": {
+      "attendu": "« Ma grâce te suffit, car ma puissance s'accomplit dans la faiblesse. » Paul se réjouit afin que la puissance de Christ repose sur lui : quand je suis faible, alors je suis fort.",
+      "expliquer": [
+       "On ne vainc pas par ses propres efforts. Vivre dans la grâce, c'est dépendre de Dieu."
+      ],
+      "relance": "Quelle faiblesse peux-tu remettre à Dieu ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Philippiens 4:11-13. Que signifie « Je puis tout par celui qui me fortifie » dans son contexte ?",
+     "refs": [
+      "Philippiens 4:11-13"
+     ],
+     "accompagnateur": {
+      "attendu": "Paul a appris à être content avec peu ou avec beaucoup. Dans toute situation, Christ lui donne la force de la supporter.",
+      "expliquer": [
+       "Ce n'est pas une promesse de réussir tout ce que je veux, mais de tenir en toute situation."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Une situation qui me paraît impossible :",
+      "2. Ce que je remets à Dieu :",
+      "3. Une promesse pour cette situation :",
+      "4. Ce que je ferai en attendant :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v4-pas-04-c-est-impossible"
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Écris 2 Corinthiens 12:9 de mémoire.",
+     "refs": [
+      "2 Corinthiens 12:9"
+     ],
+     "accompagnateur": {
+      "attendu": "« Et il m'a dit : Ma grâce te suffit, car ma puissance s'accomplit dans la faiblesse. Je me glorifierai donc bien plus volontiers de mes faiblesses, afin que la puissance de Christ repose sur moi. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Dieu fait l'impossible",
+    "minutes": 23,
+    "conseils": [
+     "Questions 1 à 3."
+    ]
+   },
+   {
+    "titre": "II. Quand je suis faible, je suis fort",
+    "minutes": 23,
+    "conseils": [
+     "Questions 4 à 6."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter 2 Corinthiens 12:9. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Si la personne se sent très découragée ou parle de mort, en parler tout de suite avec le pasteur.",
+   "Ne pas se moquer des croyances populaires de la personne : l'aider à les examiner à la lumière de la Bible.",
+   "Chaque mensonge a une histoire. Écouter avant de répondre."
+  ]
+ }
+}

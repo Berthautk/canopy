@@ -1,0 +1,245 @@
+{
+ "id": "v4-pas-02-la-verite-qui-libere",
+ "volume": 1,
+ "numero": 2,
+ "titre": "La vérité qui nous libère",
+ "sous_titre": "La Parole de Dieu, la vérité qui affranchit",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-02-la-verite-qui-libere",
+ "verset_memoire": "Jean 8:31-32",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Après chaque lecture, écris une vérité que tu retiens.",
+  "jours": [
+   "Jean 8:31-36",
+   "Éphésiens 6:10-18",
+   "Psaume 119:97-112",
+   "Actes 17:10-12",
+   "Jacques 1:19-27",
+   "Proverbes 3:1-6",
+   "2 Timothée 3:14-17"
+  ]
+ },
+ "introduction": [
+  "Jésus a dit : « Vous connaîtrez la vérité, et la vérité vous affranchira. » Mais comment la connaître ?",
+  "Cette semaine, tu vas voir que la Parole de Dieu est ta lampe, ton arme et ta liberté."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "La plupart des chrétiens sont assez mûrs pour ne jamais être trompés.",
+       "reponse": false,
+       "explication": "Même dans l'Église il y a des enseignements qui égarent (Actes 20:29-30)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Celui qui pratique le péché est esclave du péché.",
+       "reponse": true,
+       "explication": "Jean 8:34."
+      },
+      {
+       "id": "vf3",
+       "texte": "Lire la Bible sans la mettre en pratique suffit.",
+       "reponse": false,
+       "explication": "Jacques 1:22 : mettez la parole en pratique."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Demeurer dans la Parole",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Jean 8:31-36. Qu'est-ce qui rend libre ? Qui est vraiment libre ?",
+     "refs": [
+      "Jean 8:31-36"
+     ],
+     "accompagnateur": {
+      "attendu": "Demeurer dans la parole de Jésus et connaître la vérité. Celui que le Fils affranchit est réellement libre ; celui qui pratique le péché est esclave du péché.",
+      "expliquer": [
+       "On peut se croire libre et être prisonnier du péché, des habitudes, de la peur."
+      ],
+      "relance": "En quoi te sens-tu encore esclave ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Psaume 119:104-105 et 119:11. Comment la Parole nous aide-t-elle contre le mensonge ?",
+     "refs": [
+      "Psaume 119:104-105",
+      "Psaume 119:11"
+     ],
+     "accompagnateur": {
+      "attendu": "Elle donne l'intelligence pour haïr tout chemin de mensonge, éclaire notre sentier, et gardée dans le cœur, empêche de pécher.",
+      "expliquer": [
+       "Une lampe : on voit le prochain pas. On voit aussi les pièges."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Actes 17:10-11. Que faisaient les Béréens ? Comment les imiter ?",
+     "refs": [
+      "Actes 17:10-11"
+     ],
+     "accompagnateur": {
+      "attendu": "Ils recevaient la Parole avec empressement et examinaient chaque jour les Écritures pour voir si ce qu'on leur disait était exact.",
+      "expliquer": [
+       "Vérifier tout enseignement avec la Bible, même quand il vient d'un pasteur respecté."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. L'armure de la vérité",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Éphésiens 6:14, 17. Quelle est la première pièce de l'armure ? Quelle est l'arme d'attaque ?",
+     "refs": [
+      "Éphésiens 6:14",
+      "Éphésiens 6:17"
+     ],
+     "accompagnateur": {
+      "attendu": "La ceinture de la vérité. L'épée de l'Esprit, qui est la Parole de Dieu.",
+      "expliquer": [
+       "La vérité protège contre les mensonges et sert à les détruire."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Éphésiens 4:24-25 et 1 Jean 1:9. Comment vivre dans la vérité ?",
+     "refs": [
+      "Éphésiens 4:24-25",
+      "1 Jean 1:9"
+     ],
+     "accompagnateur": {
+      "attendu": "Revêtir l'homme nouveau, renoncer au mensonge et parler selon la vérité. Confesser ses péchés : dire la vérité sur soi-même.",
+      "expliquer": [
+       "Cacher le péché garde dans le mensonge. Le confesser fait entrer la lumière."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Jacques 1:22-25. Que faut-il faire après avoir lu ?",
+     "refs": [
+      "Jacques 1:22-25"
+     ],
+     "accompagnateur": {
+      "attendu": "Mettre la Parole en pratique. Celui qui écoute sans pratiquer se trompe lui-même.",
+      "expliquer": [
+       "À la fin d'une lecture, demander à Dieu : « Que dois-je faire maintenant ? »"
+      ],
+      "relance": "Qu'as-tu fait de la dernière vérité que tu as lue ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Ma décision",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Ma décision",
+     "texte": [
+      "1. Comment je vais rester dans la Parole cette semaine :",
+      "2. Mon moment de lecture :",
+      "3. Le verset que je mets en pratique :",
+      "4. La personne qui m'aide à vérifier ce que j'entends :"
+     ],
+     "champ": "Ma décision",
+     "id": "plan-v4-pas-02-la-verite-qui-libere"
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Écris Jean 8:31-32 de mémoire.",
+     "refs": [
+      "Jean 8:31-32"
+     ],
+     "accompagnateur": {
+      "attendu": "« Si vous demeurez dans ma parole, vous êtes vraiment mes disciples ; vous connaîtrez la vérité, et la vérité vous affranchira. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Demeurer dans la Parole",
+    "minutes": 23,
+    "conseils": [
+     "Questions 1 à 3."
+    ]
+   },
+   {
+    "titre": "II. L'armure de la vérité",
+    "minutes": 23,
+    "conseils": [
+     "Questions 4 à 6."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Jean 8:31-32. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Si la personne se sent très découragée ou parle de mort, en parler tout de suite avec le pasteur.",
+   "Ne pas se moquer des croyances populaires de la personne : l'aider à les examiner à la lumière de la Bible.",
+   "Chaque mensonge a une histoire. Écouter avant de répondre."
+  ]
+ }
+}

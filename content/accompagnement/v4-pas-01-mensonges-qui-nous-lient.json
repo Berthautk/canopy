@@ -1,0 +1,229 @@
+{
+ "id": "v4-pas-01-mensonges-qui-nous-lient",
+ "volume": 1,
+ "numero": 1,
+ "titre": "Les mensonges qui nous lient",
+ "sous_titre": "Comprendre comment l'ennemi nous trompe, et d'où vient la liberté",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-01-mensonges-qui-nous-lient",
+ "verset_memoire": "Jean 8:44",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour une chose vraie que Dieu dit de toi.",
+  "jours": [
+   "Genèse 3",
+   "Jean 8:31-47",
+   "Psaume 119:9-16",
+   "Proverbes 14:12",
+   "2 Corinthiens 11:1-15",
+   "Éphésiens 6:10-18",
+   "1 Jean 2:15-17"
+  ]
+ },
+ "introduction": [
+  "Beaucoup de chrétiens vivent dans la défaite, non parce que Dieu est faible, mais parce qu'ils croient des choses fausses.",
+  "Ce parcours t'apprend à reconnaître les mensonges les plus courants et à y répondre par la Parole de Dieu. Aujourd'hui, la source de tout : comment l'ennemi trompe."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "La principale arme du diable est le mensonge.",
+       "reponse": true,
+       "explication": "Jean 8:44 : il est menteur et père du mensonge."
+      },
+      {
+       "id": "vf2",
+       "texte": "Tout péché vient de la sorcellerie.",
+       "reponse": false,
+       "explication": "Beaucoup de péchés commencent par un simple mensonge cru (Genèse 3)."
+      },
+      {
+       "id": "vf3",
+       "texte": "Les non-croyants comprennent facilement l'Évangile.",
+       "reponse": false,
+       "explication": "1 Corinthiens 2:14 : l'homme naturel ne reçoit pas les choses de l'Esprit."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Comment tout a commencé",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Genèse 3:1-7. Quels mensonges le serpent a-t-il dits à Ève ? Qu'a-t-elle découvert après ?",
+     "refs": [
+      "Genèse 3:1-7"
+     ],
+     "accompagnateur": {
+      "attendu": "Il a mis en doute la parole de Dieu (« Dieu a-t-il réellement dit ? »), puis l'a niée (« vous ne mourrez point »), puis a promis une fausse sagesse. Après avoir mangé, ils ont découvert leur nudité et la honte.",
+      "expliquer": [
+       "Le mensonge promet le meilleur et paie avec le pire. Il commence toujours par douter de ce que Dieu a dit."
+      ],
+      "relance": "Quel mensonge de ce genre as-tu déjà cru ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Adam est-il plus innocent qu'Ève ? Lis Genèse 3:6, 12.",
+     "refs": [
+      "Genèse 3:6",
+      "Genèse 3:12"
+     ],
+     "accompagnateur": {
+      "attendu": "Non. Il était avec elle, il a mangé, puis il a rejeté la faute sur sa femme et sur Dieu.",
+      "expliquer": [
+       "On se justifie en disant « tout le monde le fait », « ce n'est pas ma faute »."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. L'arme de l'ennemi",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "D'après Jean 8:44-47, comment Jésus décrit-il le diable ? Pourquoi certains n'écoutent-ils pas la vérité ?",
+     "refs": [
+      "Jean 8:44-47"
+     ],
+     "accompagnateur": {
+      "attendu": "Meurtrier dès le commencement, il ne se tient pas dans la vérité, il est menteur et père du mensonge. Celui qui est de Dieu écoute les paroles de Dieu ; les autres ne veulent pas les entendre.",
+      "expliquer": [
+       "Quand on se bouche les oreilles, le mensonge entraîne vers le mal."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "D'après 1 Corinthiens 2:14-15, comment l'homme naturel et l'homme spirituel voient-ils les choses de Dieu ?",
+     "refs": [
+      "1 Corinthiens 2:14-15"
+     ],
+     "accompagnateur": {
+      "attendu": "L'homme naturel ne les accepte pas : elles lui paraissent une folie. L'homme spirituel juge de tout.",
+      "expliquer": [
+       "Notre culture dit que chacun fait sa vérité. La Bible dit qu'il y a une vérité de Dieu."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Écris trois mensonges que tu as crus dans le passé. D'où venaient-ils : de ta famille, de tes amis, de la culture, de toi-même ?",
+     "refs": [
+      "Proverbes 14:12"
+     ],
+     "accompagnateur": {
+      "attendu": "Une liste honnête de trois mensonges personnels, par exemple « je suis un raté », « tout le monde fait ça », « Dieu ne m'aime pas ».",
+      "expliquer": [
+       "Ne pas minimiser. Chacun en a. Nommer les mensonges est le premier pas vers la liberté."
+      ],
+      "relance": "Lequel te fait le plus de mal aujourd'hui ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Un mensonge que j'ai cru :",
+      "2. D'où il venait :",
+      "3. Ce qu'il m'a coûté :",
+      "4. Ce que Dieu dit de la vérité :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v4-pas-01-mensonges-qui-nous-lient"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Jean 8:44 de mémoire.",
+     "refs": [
+      "Jean 8:44"
+     ],
+     "accompagnateur": {
+      "attendu": "« Vous avez pour père le diable, et vous voulez accomplir les désirs de votre père. Il a été meurtrier dès le commencement, et il ne se tient pas dans la vérité, parce qu'il n'y a pas de vérité en lui. Lorsqu'il profère le mensonge, il parle de son propre fonds ; car il est menteur et le père du mensonge. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Comment tout a commencé",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. L'arme de l'ennemi",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Jean 8:44. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Si la personne se sent très découragée ou parle de mort, en parler tout de suite avec le pasteur.",
+   "Ne pas se moquer des croyances populaires de la personne : l'aider à les examiner à la lumière de la Bible.",
+   "Chaque mensonge a une histoire. Écouter avant de répondre."
+  ]
+ }
+}

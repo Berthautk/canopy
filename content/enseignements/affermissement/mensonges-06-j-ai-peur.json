@@ -1,0 +1,146 @@
+{
+ "id": "mensonges-06-j-ai-peur",
+ "titre": "Mensonge : « J'ai peur »",
+ "serie": "Réponses bibliques aux mensonges",
+ "theme": "Vérité et mensonge",
+ "auteur": "Yeshaya",
+ "resume": "La peur de la mort, du futur, du rejet, des sorciers : comment Dieu, notre refuge, nous en délivre.",
+ "image": "/assets/priere/mains-levees.webp",
+ "verset_de_base": "Psaume 34:7",
+ "lecture_minutes": 6,
+ "objectifs": [
+  "Comprendre le thème : Mensonge : j'ai peur.",
+  "Trouver dans la Bible la réponse à ce thème.",
+  "Mettre en pratique une décision précise cette semaine."
+ ],
+ "introduction": "Le monde est plein de peurs : peur de la mort, de l'avenir, du rejet, de la maladie, des dettes, des sorciers, de ce que disent les autres. Beaucoup vivent comme paralysés. Le mensonge dit : « Tu es seul face à ces dangers, et tu es incapable de t'en sortir. » La Bible répond autrement.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Dieu, mon refuge",
+   "references": [
+    "Psaume 46:2-4",
+    "Psaume 18:2-3",
+    "Proverbes 29:25",
+    "Jean 16:33",
+    "Romains 8:28-39"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Psaume 46:2-4 et Psaume 18:2-3. Refuge, force, secours dans la détresse, rocher, forteresse, bouclier, libérateur. Même quand la terre tremble, nous ne craignons pas."
+    },
+    {
+     "texte": "On peut écrire un nom que l'on donne à Dieu en fonction de sa peur : mon rocher, mon bouclier."
+    },
+    {
+     "texte": "Lisons Proverbes 29:25 et Jean 16:33. La crainte des hommes tend un piège. Jésus avertit qu'il y aura des tribulations, mais dit : « Prenez courage, j'ai vaincu le monde. »"
+    },
+    {
+     "texte": "La peur du regard des autres empêche d'obéir à Dieu."
+    },
+    {
+     "texte": "Lisons Romains 8:28-39. Rien : ni la tribulation, ni l'angoisse, ni la persécution, ni la mort, ni les puissances. Dieu fait tout concourir au bien de ceux qui l'aiment."
+    },
+    {
+     "texte": "Faire lire à voix haute les versets 38-39."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Que faire quand j'ai peur ?",
+   "references": [
+    "Psaume 34:5-8",
+    "Psaume 34:18",
+    "2 Rois 6:15-17",
+    "1 Chroniques 28:20",
+    "Psaume 46:2",
+    "Psaume 34:5"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Psaume 34:5-8 et Psaume 34:18. Il a cherché l'Éternel qui l'a délivré de toutes ses frayeurs. L'ange de l'Éternel campe autour de ceux qui le craignent. L'Éternel est près de ceux qui ont le cœur brisé."
+    },
+    {
+     "texte": "Chercher Dieu : prier, lire, se tenir avec des frères."
+    },
+    {
+     "texte": "Lisons 2 Rois 6:15-17 et 1 Chroniques 28:20. Il y a plus avec nous qu'avec eux : une armée céleste. David dit à Salomon : sois fort, ne crains pas, l'Éternel ton Dieu sera avec toi."
+    },
+    {
+     "texte": "Dieu ouvre nos yeux sur ce qu'il fait."
+    },
+    {
+     "texte": "Lisons Psaume 46:2 et Psaume 34:5. Une liste de peurs personnelles et une promesse pour chacune."
+    },
+    {
+     "texte": "Prier avec la personne pour chaque peur."
+    },
+    {
+     "texte": "Si la peur vient de la sorcellerie ou d'objets, revenir au bilan de vie."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Ce que nous retenons",
+   "references": [],
+   "blocs": [
+    {
+     "texte": "Dieu est notre refuge. L'ange de l'Éternel campe autour de ceux qui le craignent. Quand la peur vient, nous cherchons Dieu, nous nous rappelons ses promesses, et nous ne nous laissons pas diriger par elle."
+    },
+    {
+     "verset": "Psaume 34:7"
+    }
+   ]
+  }
+ ],
+ "sujets": [
+  {
+   "titre": "Vaincre la peur",
+   "texte": "Prions pour ceux qui vivent dans la peur, afin que l'ange de l'Éternel campe autour d'eux et qu'ils trouvent la paix de Christ (Psaume 34:8)."
+  }
+ ],
+ "questions": [
+  {
+   "question": "La peur de Dieu veut dire avoir peur de lui : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "La crainte de Dieu, c'est le respect et l'amour qui conduit à l'obéissance (Proverbes 9:10).",
+   "section": "1"
+  },
+  {
+   "question": "Parfois la réalité est autre chose que ce qu'on voit : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "2 Rois 6:16-17 : il y a plus avec nous qu'avec eux.",
+   "section": "1"
+  },
+  {
+   "question": "Quand j'ai peur, c'est que Dieu est loin : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "Psaume 34:5 : j'ai cherché l'Éternel, il m'a exaucé et m'a délivré de toutes mes frayeurs.",
+   "section": "1"
+  }
+ ],
+ "devoir": [
+  "Relis les passages de cette leçon et note ce qui te touche le plus.",
+  "Complète ton plan : Mon plan.",
+  "Apprends par cœur Psaume 34:7.",
+  "Parle de ce que tu as découvert à une personne de confiance."
+ ],
+ "prieres_liees": [],
+ "source": "Parcours inspiré de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), manuel gratuit : les thèmes, le plan et les passages bibliques sont repris ; les questions, les explications, les enseignements et les guides de l'encadreur sont rédigés par Yeshaya.",
+ "date_ajout": "2026-11-24",
+ "relu": false
+}

@@ -1,0 +1,232 @@
+{
+ "id": "v4-pas-09-dieu-ne-pardonnera-pas",
+ "volume": 1,
+ "numero": 9,
+ "titre": "Mensonge : Dieu ne pardonnera pas quelqu'un comme moi",
+ "sous_titre": "Le pardon et la justification par la foi",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-09-dieu-ne-pardonnera-pas",
+ "verset_memoire": "Romains 5:1",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour une preuve du pardon de Dieu.",
+  "jours": [
+   "Psaume 103",
+   "Luc 15:11-32",
+   "Romains 3:21-26",
+   "Romains 5:1-11",
+   "Romains 8:1-4",
+   "1 Jean 1:5-2:2",
+   "Apocalypse 12:7-12"
+  ]
+ },
+ "introduction": [
+  "« Ce que j'ai fait est trop grave. » « Dieu ne peut pas m'aimer. » Beaucoup portent un lourd poids de culpabilité.",
+  "Cette semaine, tu vas voir ce que Dieu a fait pour te pardonner pleinement."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Il y a des péchés que Dieu ne veut pas pardonner.",
+       "reponse": false,
+       "explication": "1 Jean 1:9 : il purifie de toute iniquité ceux qui confessent."
+      },
+      {
+       "id": "vf2",
+       "texte": "Même après avoir confessé, je dois me sentir coupable.",
+       "reponse": false,
+       "explication": "Romains 8:1 : plus de condamnation pour ceux qui sont en Christ."
+      },
+      {
+       "id": "vf3",
+       "texte": "Je ne mérite pas le pardon de Dieu.",
+       "reponse": true,
+       "explication": "Personne ne le mérite : c'est une grâce (Éphésiens 2:4-5)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Qui m'accuse ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Apocalypse 12:9-10. Qui est l'accusateur ? Que fait-il ?",
+     "refs": [
+      "Apocalypse 12:9-10"
+     ],
+     "accompagnateur": {
+      "attendu": "Le diable, l'accusateur de nos frères, qui les accuse jour et nuit devant Dieu.",
+      "expliquer": [
+       "Distinguer l'accusation du diable (vague, qui écrase) de la conviction du Saint-Esprit (précise, qui conduit à Jésus)."
+      ],
+      "relance": "Quelle voix t'accuse le plus souvent ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Éphésiens 2:4-5 et Romains 5:8. Pourquoi Dieu nous a-t-il sauvés ?",
+     "refs": [
+      "Éphésiens 2:4-5",
+      "Romains 5:8"
+     ],
+     "accompagnateur": {
+      "attendu": "À cause de sa grande miséricorde et de son amour : alors que nous étions encore pécheurs, Christ est mort pour nous.",
+      "expliquer": [
+       "Dieu n'a pas attendu que nous soyons meilleurs."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Déclaré juste",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Romains 3:23-26 et Romains 5:1. Que veut dire « justifié par la foi » ?",
+     "refs": [
+      "Romains 3:23-26",
+      "Romains 5:1"
+     ],
+     "accompagnateur": {
+      "attendu": "Dieu nous déclare justes sur la base de l'œuvre de Christ à la croix, quand nous croyons. Nous avons la paix avec Dieu.",
+      "expliquer": [
+       "Comme un tribunal : le juge déclare innocent celui pour qui un autre a payé la dette."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Romains 8:1, 31-34. Qui peut condamner ceux qui sont en Christ ?",
+     "refs": [
+      "Romains 8:1",
+      "Romains 8:31-34"
+     ],
+     "accompagnateur": {
+      "attendu": "Personne : Dieu les justifie, Christ est mort, est ressuscité et intercède pour eux.",
+      "expliquer": [
+       "Le sentiment de culpabilité peut rester, mais il ne dit pas la vérité."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis 1 Jean 1:9 et Luc 15:20-24. Que fait Dieu quand je reviens à lui ?",
+     "refs": [
+      "1 Jean 1:9",
+      "Luc 15:20-24"
+     ],
+     "accompagnateur": {
+      "attendu": "Il pardonne et purifie. Le père court vers son fils, l'embrasse, lui rend sa place.",
+      "expliquer": [
+       "Revenir sans tarder, sans se cacher. Confesser, recevoir, avancer."
+      ],
+      "relance": "Y a-t-il un péché que tu n'oses pas confesser ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Ce que je n'arrive pas à me pardonner :",
+      "2. Ce que Dieu dit de moi :",
+      "3. Je confesse devant Dieu :",
+      "4. Je reçois son pardon et je remercie :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v4-pas-09-dieu-ne-pardonnera-pas"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Romains 5:1 de mémoire.",
+     "refs": [
+      "Romains 5:1"
+     ],
+     "accompagnateur": {
+      "attendu": "« Étant donc justifiés par la foi, nous avons la paix avec Dieu par notre Seigneur Jésus-Christ. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Qui m'accuse ?",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Déclaré juste",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Romains 5:1. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Si la personne se sent très découragée ou parle de mort, en parler tout de suite avec le pasteur.",
+   "Ne pas se moquer des croyances populaires de la personne : l'aider à les examiner à la lumière de la Bible.",
+   "Chaque mensonge a une histoire. Écouter avant de répondre."
+  ]
+ }
+}

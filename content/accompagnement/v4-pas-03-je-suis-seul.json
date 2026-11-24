@@ -1,0 +1,247 @@
+{
+ "id": "v4-pas-03-je-suis-seul",
+ "volume": 1,
+ "numero": 3,
+ "titre": "Mensonge : je suis seul",
+ "sous_titre": "Dieu est avec moi, même quand je me sens abandonné",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-03-je-suis-seul",
+ "verset_memoire": "Ésaïe 41:10",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour une promesse de la présence de Dieu.",
+  "jours": [
+   "Ésaïe 41",
+   "Psaume 23",
+   "Psaume 139",
+   "Psaume 46",
+   "Psaume 145",
+   "Josué 1",
+   "2 Rois 6:8-23"
+  ]
+ },
+ "introduction": [
+  "La solitude fait très mal. On peut être entouré de monde et se sentir seul.",
+  "Cette semaine, tu vas découvrir que le mensonge « je suis seul » est faux, et que Dieu a donné une famille à chaque croyant."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Dieu n'est pas intéressé par ceux qui ne lui sont pas fidèles.",
+       "reponse": false,
+       "explication": "Dieu a dit « ne crains rien » même à un peuple rebelle (Ésaïe 41:10)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Pour avancer, je dois le faire seul car personne ne s'intéresse à moi.",
+       "reponse": false,
+       "explication": "Dieu est avec moi et il m'a donné une famille (Éphésiens 2:18-19)."
+      },
+      {
+       "id": "vf3",
+       "texte": "Il y a toujours de l'espoir, même quand tout paraît sombre.",
+       "reponse": true,
+       "explication": "Psaume 46:2 ; Josué 1:9."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Dieu est avec moi",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Ésaïe 41:10. Quelles promesses Dieu fait-il à celui qui se sent seul et abandonné ?",
+     "refs": [
+      "Ésaïe 41:10"
+     ],
+     "accompagnateur": {
+      "attendu": "Ne crains rien, car je suis avec toi ; ne t'effraie pas, car je suis ton Dieu ; je te fortifie, je viens à ton secours, je te soutiens.",
+      "expliquer": [
+       "Chaque promesse répond à une peur : la présence, la force, l'aide, le soutien.",
+       "Ce que Dieu dit ne dépend pas de ce que je sens."
+      ],
+      "relance": "Quelle promesse as-tu le plus besoin d'entendre ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Psaume 23. Comment le berger prend-il soin de ses brebis ?",
+     "refs": [
+      "Psaume 23"
+     ],
+     "accompagnateur": {
+      "attendu": "Il conduit, fait reposer, restaure, guide, protège dans la vallée de l'ombre de la mort, prépare une table, accompagne toute la vie.",
+      "expliquer": [
+       "Un berger ne laisse pas ses brebis seules. Même dans les moments les plus sombres, il est avec elles."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Psaume 139:1-12. Que connaît Dieu de ma vie ? Puis-je lui échapper ?",
+     "refs": [
+      "Psaume 139:1-12"
+     ],
+     "accompagnateur": {
+      "attendu": "Il connaît tout de moi : quand je m'assieds, ce que je pense. Je ne peux pas m'éloigner de sa présence, même dans les ténèbres.",
+      "expliquer": [
+       "Parfois cela fait peur, parfois cela rassure. Ici, cela rassure : je ne suis jamais seul."
+      ],
+      "relance": "Que ressens-tu en lisant ce psaume ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Appeler Dieu, et accepter sa famille",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Psaume 145:18-19 et Psaume 46:2. Qu'obtient celui qui invoque Dieu ?",
+     "refs": [
+      "Psaume 145:18-19",
+      "Psaume 46:2"
+     ],
+     "accompagnateur": {
+      "attendu": "L'Éternel est près de tous ceux qui l'invoquent avec sincérité. Il accomplit leur désir et les sauve. Il est un refuge et un appui dans la détresse.",
+      "expliquer": [
+       "Dieu est près, mais celui qui ne l'appelle jamais vit comme s'il était seul."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Josué 1:9 et Deutéronome 31:8. Que dit Dieu à celui qui entre dans l'inconnu ?",
+     "refs": [
+      "Josué 1:9",
+      "Deutéronome 31:8"
+     ],
+     "accompagnateur": {
+      "attendu": "Sois fort et courageux, ne t'effraie pas : l'Éternel ton Dieu est avec toi dans tout ce que tu entreprendras. Il marche devant toi et ne t'abandonnera pas.",
+      "expliquer": [
+       "Dans l'incertitude (avenir, travail, mariage), Dieu marche devant."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis 2 Rois 6:15-17 et Éphésiens 2:18-19. Que ne voyait pas le serviteur d'Élisée ? Quelle famille Dieu nous donne-t-il ?",
+     "refs": [
+      "2 Rois 6:15-17",
+      "Éphésiens 2:18-19"
+     ],
+     "accompagnateur": {
+      "attendu": "Une armée céleste l'entourait : il y a plus avec nous qu'avec eux. Nous ne sommes plus des étrangers : nous sommes de la famille de Dieu.",
+      "expliquer": [
+       "Le croyant a un Père, des frères et sœurs. L'Église est sa nouvelle famille."
+      ],
+      "relance": "Quelle personne de ton église pourrais-tu appeler cette semaine ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Un moment où je me sens seul :",
+      "2. Une promesse que je prends pour moi :",
+      "3. Ce que je fais quand la solitude vient :",
+      "4. Une personne de l'église à appeler :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v4-pas-03-je-suis-seul"
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Écris Ésaïe 41:10 de mémoire.",
+     "refs": [
+      "Ésaïe 41:10"
+     ],
+     "accompagnateur": {
+      "attendu": "« Ne crains rien, car je suis avec toi ; ne promène pas des regards inquiets, car je suis ton Dieu ; je te fortifie, je viens à ton secours, je te soutiens de ma droite triomphante. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Dieu est avec moi",
+    "minutes": 23,
+    "conseils": [
+     "Questions 1 à 3."
+    ]
+   },
+   {
+    "titre": "II. Appeler Dieu, et accepter sa famille",
+    "minutes": 23,
+    "conseils": [
+     "Questions 4 à 6."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Ésaïe 41:10. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Si la personne se sent très découragée ou parle de mort, en parler tout de suite avec le pasteur.",
+   "Ne pas se moquer des croyances populaires de la personne : l'aider à les examiner à la lumière de la Bible.",
+   "Chaque mensonge a une histoire. Écouter avant de répondre."
+  ]
+ }
+}

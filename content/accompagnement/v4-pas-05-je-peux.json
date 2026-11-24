@@ -1,0 +1,233 @@
+{
+ "id": "v4-pas-05-je-peux",
+ "volume": 1,
+ "numero": 5,
+ "titre": "Mensonge : je peux",
+ "sous_titre": "Le salut et la vie chrétienne sont par la grâce, pas par mes efforts",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-05-je-peux",
+ "verset_memoire": "Jean 15:5",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour une chose que Christ fait pour toi.",
+  "jours": [
+   "Romains 3:9-28",
+   "Éphésiens 2",
+   "Galates 2:15-21",
+   "Galates 3:1-14",
+   "Jean 15:1-17",
+   "2 Corinthiens 3:1-6",
+   "Philippiens 2:12-13"
+  ]
+ },
+ "introduction": [
+  "Beaucoup de gens pensent : « Si je fais assez d'efforts, je serai sauvé et je réussirai. »",
+  "Cette semaine, tu vas découvrir pourquoi ce mensonge est dangereux, et ce que Dieu fait vraiment."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Si je fais assez d'efforts, je peux être sauvé.",
+       "reponse": false,
+       "explication": "Éphésiens 2:8-9 : par la grâce, non par les œuvres."
+      },
+      {
+       "id": "vf2",
+       "texte": "Si je fais assez d'efforts, je peux être un chrétien victorieux.",
+       "reponse": false,
+       "explication": "Jean 15:5 : sans moi vous ne pouvez rien faire."
+      },
+      {
+       "id": "vf3",
+       "texte": "Certains ministères reposent plus sur la volonté de l'homme que sur la puissance de Dieu.",
+       "reponse": true,
+       "explication": "Galates 3:3 : après avoir commencé par l'Esprit, finirez-vous par la chair ?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Le salut ne s'achète pas",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Romains 3:10, 20, 23-24. Que peut faire l'homme pour son salut ?",
+     "refs": [
+      "Romains 3:10",
+      "Romains 3:20",
+      "Romains 3:23-24"
+     ],
+     "accompagnateur": {
+      "attendu": "Rien : tous ont péché, personne n'est justifié par les œuvres de la loi. Nous sommes justifiés gratuitement par la grâce, par la rédemption en Jésus-Christ.",
+      "expliquer": [
+       "Toutes les religions du monde reposent sur « je peux ». L'Évangile dit « Christ a fait »."
+      ],
+      "relance": "Sur quoi comptais-tu avant de connaître Jésus ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Éphésiens 2:8-10 et Galates 3:10-11. Quelle place ont les bonnes œuvres ?",
+     "refs": [
+      "Éphésiens 2:8-10",
+      "Galates 3:10-11"
+     ],
+     "accompagnateur": {
+      "attendu": "Le salut est un don de Dieu, pas le fruit des œuvres. Mais nous sommes créés pour de bonnes œuvres. Celui qui veut être justifié par la loi est sous la malédiction, car personne ne la garde entièrement.",
+      "expliquer": [
+       "Les bonnes œuvres sont le fruit du salut, jamais son prix."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Je ne peux rien sans lui",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Jean 15:1-8. Que peut faire le sarment sans la vigne ? Que produit-il en demeurant en elle ?",
+     "refs": [
+      "Jean 15:1-8"
+     ],
+     "accompagnateur": {
+      "attendu": "Rien. En demeurant en Christ, il porte beaucoup de fruit. Séparé de la vigne, il sèche.",
+      "expliquer": [
+       "Les efforts sans Christ épuisent. Le fruit naît de la communion avec lui."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Galates 3:1-3 et 2 Corinthiens 3:4-6. Quel danger y a-t-il après avoir commencé par l'Esprit ?",
+     "refs": [
+      "Galates 3:1-3",
+      "2 Corinthiens 3:4-6"
+     ],
+     "accompagnateur": {
+      "attendu": "Vouloir terminer par la chair, c'est-à-dire par ses propres efforts. Notre capacité vient de Dieu.",
+      "expliquer": [
+       "Danger du legalisme : empiler les règles pour mériter l'amour de Dieu."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Philippiens 2:12-13 et Jacques 4:6-7. Comment s'articulent l'effort et la grâce ?",
+     "refs": [
+      "Philippiens 2:12-13",
+      "Jacques 4:6-7"
+     ],
+     "accompagnateur": {
+      "attendu": "Je travaille à mon salut avec crainte parce que c'est Dieu qui produit en moi le vouloir et le faire. Dieu donne sa grâce aux humbles : je me soumets à lui.",
+      "expliquer": [
+       "L'effort du chrétien est une réponse à la grâce, pas un moyen de la gagner."
+      ],
+      "relance": "Dans quel domaine essaies-tu encore de réussir seul ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Une chose que j'essaie de faire seul :",
+      "2. Ce que je remets à Christ :",
+      "3. Comment je vais demeurer en lui cette semaine :",
+      "4. Un fruit que j'attends de lui :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v4-pas-05-je-peux"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Jean 15:5 de mémoire.",
+     "refs": [
+      "Jean 15:5"
+     ],
+     "accompagnateur": {
+      "attendu": "« Je suis le cep, vous êtes les sarments. Celui qui demeure en moi et en qui je demeure porte beaucoup de fruit, car sans moi vous ne pouvez rien faire. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Le salut ne s'achète pas",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Je ne peux rien sans lui",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Jean 15:5. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Si la personne se sent très découragée ou parle de mort, en parler tout de suite avec le pasteur.",
+   "Ne pas se moquer des croyances populaires de la personne : l'aider à les examiner à la lumière de la Bible.",
+   "Chaque mensonge a une histoire. Écouter avant de répondre."
+  ]
+ }
+}

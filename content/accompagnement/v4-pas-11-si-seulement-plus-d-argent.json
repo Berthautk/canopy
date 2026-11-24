@@ -1,0 +1,247 @@
+{
+ "id": "v4-pas-11-si-seulement-plus-d-argent",
+ "volume": 1,
+ "numero": 11,
+ "titre": "Si seulement j'avais plus d'argent…",
+ "sous_titre": "L'argent ne donne ni le bonheur ni la sécurité",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-11-si-seulement-plus-d-argent",
+ "verset_memoire": "Marc 8:36",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce qui compte vraiment pour toi.",
+  "jours": [
+   "Luc 12:13-34",
+   "Matthieu 6:19-34",
+   "Philippiens 4:10-20",
+   "1 Timothée 6:6-19",
+   "Ecclésiaste 5:9-19",
+   "Marc 8:34-38",
+   "Colossiens 3:1-4"
+  ]
+ },
+ "introduction": [
+  "« Si seulement j'avais plus d'argent… » Beaucoup pensent que l'argent règlera tous leurs problèmes.",
+  "Cette semaine, tu vas voir ce qui compte vraiment et apprendre à être content."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Il est impossible d'être heureux sans argent.",
+       "reponse": false,
+       "explication": "Philippiens 4:11-12 : j'ai appris à être content de l'état où je me trouve."
+      },
+      {
+       "id": "vf2",
+       "texte": "Il y a des choses plus importantes que l'argent.",
+       "reponse": true,
+       "explication": "Luc 12:15 ; Marc 8:36."
+      },
+      {
+       "id": "vf3",
+       "texte": "On peut apprendre à se contenter de peu comme de beaucoup.",
+       "reponse": true,
+       "explication": "Philippiens 4:12."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Ce que l'argent ne donne pas",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Luc 12:13-21. Que dit Jésus de la richesse ? Pourquoi l'homme riche est-il appelé insensé ?",
+     "refs": [
+      "Luc 12:13-21"
+     ],
+     "accompagnateur": {
+      "attendu": "La vie d'un homme ne dépend pas de l'abondance de ses biens. Il a planifié pour lui seul et il est mort cette nuit-là : il n'était pas riche pour Dieu.",
+      "expliquer": [
+       "On peut avoir beaucoup et ne rien avoir de ce qui compte."
+      ],
+      "relance": "Qu'est-ce que tu espères de l'argent ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Marc 8:36 et Matthieu 6:19-21. Que vaut le monde entier comparé à l'âme ?",
+     "refs": [
+      "Marc 8:36",
+      "Matthieu 6:19-21"
+     ],
+     "accompagnateur": {
+      "attendu": "Que sert-il à l'homme de gagner le monde entier, s'il perd son âme ? Là où est ton trésor, là aussi sera ton cœur.",
+      "expliquer": [
+       "Les trésors de la terre pourrissent ou sont volés ; ceux du ciel demeurent."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Matthieu 6:24 et 1 Timothée 6:9-10. Quel danger y a-t-il à aimer l'argent ?",
+     "refs": [
+      "Matthieu 6:24",
+      "1 Timothée 6:9-10"
+     ],
+     "accompagnateur": {
+      "attendu": "On ne peut pas servir Dieu et l'argent. L'amour de l'argent est une racine de tous les maux ; certains se sont égarés de la foi.",
+      "expliquer": [
+       "Le danger ne vient pas de l'argent mais de la place qu'on lui donne."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Apprendre à être content",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Philippiens 4:11-13, 19. Quel est le secret de Paul ?",
+     "refs": [
+      "Philippiens 4:11-13",
+      "Philippiens 4:19"
+     ],
+     "accompagnateur": {
+      "attendu": "Il a appris à être content dans l'abondance comme dans la privation, par Christ qui le fortifie. Dieu pourvoira à tous nos besoins.",
+      "expliquer": [
+       "Besoins et désirs : Dieu promet de pourvoir aux besoins."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis 1 Timothée 6:6-8 et Hébreux 13:5. Qu'est-ce qui est un grand gain ?",
+     "refs": [
+      "1 Timothée 6:6-8",
+      "Hébreux 13:5"
+     ],
+     "accompagnateur": {
+      "attendu": "La piété avec le contentement. Avoir de quoi manger et se vêtir. Se contenter de ce qu'on a, car Dieu ne nous abandonne pas.",
+      "expliquer": [
+       "Éviter la comparaison avec les autres."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis 2 Corinthiens 4:18 et Colossiens 3:1-2. Où regarder ?",
+     "refs": [
+      "2 Corinthiens 4:18",
+      "Colossiens 3:1-2"
+     ],
+     "accompagnateur": {
+      "attendu": "Vers les choses invisibles et éternelles, vers les choses d'en haut.",
+      "expliquer": [
+       "Ce qui est visible passe ; ce qui est invisible demeure."
+      ],
+      "relance": "Qu'est-ce que tu cherches plus que Dieu ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Ce que je désire le plus :",
+      "2. Ce qui compte vraiment :",
+      "3. Un domaine où je dois apprendre à être content :",
+      "4. Une décision pour ma façon d'utiliser l'argent :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v4-pas-11-si-seulement-plus-d-argent"
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Écris Marc 8:36 de mémoire.",
+     "refs": [
+      "Marc 8:36"
+     ],
+     "accompagnateur": {
+      "attendu": "« Et que servirait-il à un homme de gagner tout le monde, s'il perdait son âme ? »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Ce que l'argent ne donne pas",
+    "minutes": 23,
+    "conseils": [
+     "Questions 1 à 3."
+    ]
+   },
+   {
+    "titre": "II. Apprendre à être content",
+    "minutes": 23,
+    "conseils": [
+     "Questions 4 à 6."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Marc 8:36. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Si la personne se sent très découragée ou parle de mort, en parler tout de suite avec le pasteur.",
+   "Ne pas se moquer des croyances populaires de la personne : l'aider à les examiner à la lumière de la Bible.",
+   "Chaque mensonge a une histoire. Écouter avant de répondre."
+  ]
+ }
+}

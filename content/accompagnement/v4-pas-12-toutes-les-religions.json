@@ -1,0 +1,247 @@
+{
+ "id": "v4-pas-12-toutes-les-religions",
+ "volume": 1,
+ "numero": 12,
+ "titre": "Toutes les religions conduisent à Dieu ?",
+ "sous_titre": "Jésus, le seul chemin",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-12-toutes-les-religions",
+ "verset_memoire": "Actes 4:12",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que Jésus dit de lui-même.",
+  "jours": [
+   "Jean 14:1-14",
+   "Actes 4:1-12",
+   "1 Timothée 2:1-7",
+   "Matthieu 7:13-23",
+   "Jean 3:1-21",
+   "Colossiens 2:1-10",
+   "1 Pierre 3:13-18"
+  ]
+ },
+ "introduction": [
+  "« Toutes les religions mènent à Dieu. Le plus important est d'être sincère. » C'est le mensonge le plus populaire de notre temps.",
+  "Cette semaine, tu vas voir ce que dit Jésus, et comment répondre avec amour et vérité."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Le plus important n'est pas ce que je crois mais ma sincérité.",
+       "reponse": false,
+       "explication": "On peut être sincèrement dans l'erreur (Proverbes 14:12)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Ce serait trahir ma famille de ne pas suivre ses traditions.",
+       "reponse": false,
+       "explication": "Jésus passe avant la famille (Matthieu 10:37). Mais on honore ses parents."
+      },
+      {
+       "id": "vf3",
+       "texte": "Il y a plusieurs chemins pour aller au ciel.",
+       "reponse": false,
+       "explication": "Jean 14:6 : nul ne vient au Père que par moi."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Ce que dit Jésus",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Jean 14:6 et Actes 4:12. Que dit Jésus de lui-même ? Que dit Pierre ?",
+     "refs": [
+      "Jean 14:6",
+      "Actes 4:12"
+     ],
+     "accompagnateur": {
+      "attendu": "Jésus : « Je suis le chemin, la vérité et la vie. Nul ne vient au Père que par moi. » Pierre : il n'y a de salut en aucun autre ; aucun autre nom n'a été donné parmi les hommes.",
+      "expliquer": [
+       "Ces paroles sont étroites, mais elles viennent de Celui qui est mort pour nous. Les dire avec amour, pas avec orgueil."
+      ],
+      "relance": "Qu'est-ce que cela te fait de lire ces paroles ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis 1 Timothée 2:5-6 et Jean 3:3. Qu'est-ce qui nous est nécessaire ?",
+     "refs": [
+      "1 Timothée 2:5-6",
+      "Jean 3:3"
+     ],
+     "accompagnateur": {
+      "attendu": "Un seul médiateur entre Dieu et les hommes : Jésus-Christ, qui s'est donné en rançon. Il faut naître de nouveau.",
+      "expliquer": [
+       "Aucune religion ne peut effacer nos péchés : Jésus l'a fait."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Matthieu 7:13-14 et Galates 1:8. Pourquoi la voie est-elle étroite ? Que dire de ceux qui annoncent un autre évangile ?",
+     "refs": [
+      "Matthieu 7:13-14",
+      "Galates 1:8"
+     ],
+     "accompagnateur": {
+      "attendu": "Le chemin qui mène à la vie est étroit. Même un ange qui annoncerait un autre évangile serait maudit.",
+      "expliquer": [
+       "La vérité n'est pas ce qui est populaire."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Répondre avec amour",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Marc 7:8-9 et Colossiens 2:8. Quel danger y a-t-il dans les traditions des hommes ?",
+     "refs": [
+      "Marc 7:8-9",
+      "Colossiens 2:8"
+     ],
+     "accompagnateur": {
+      "attendu": "Les traditions humaines peuvent remplacer le commandement de Dieu. Il faut se garder des philosophies et traditions qui éloignent du Christ.",
+      "expliquer": [
+       "Aimer sa culture ne veut pas dire tout garder. Examiner ce qui est conforme à la Bible."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis 1 Pierre 3:15-16 et Matthieu 9:36-38. Comment répondre à ceux qui pensent autrement ?",
+     "refs": [
+      "1 Pierre 3:15-16",
+      "Matthieu 9:36-38"
+     ],
+     "accompagnateur": {
+      "attendu": "Avec douceur et respect, en rendant compte de notre espérance. Avec compassion, comme Jésus devant les foules sans berger.",
+      "expliquer": [
+       "On respecte la personne sans cacher la vérité."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Choisis une personne de ton entourage qui pense que toutes les religions se valent. Que lui diras-tu ? Comment la serviras-tu ?",
+     "refs": [
+      "Jean 14:6"
+     ],
+     "accompagnateur": {
+      "attendu": "Un nom, une phrase simple, un geste d'amitié.",
+      "expliquer": [
+       "Proposer de s'exercer à voix haute."
+      ],
+      "relance": "Quelle est la première chose que tu feras ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Une personne à qui je veux parler :",
+      "2. Ce que je lui dirai :",
+      "3. Ce que je ferai pour elle :",
+      "4. Ma prière :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v4-pas-12-toutes-les-religions"
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Écris Actes 4:12 de mémoire.",
+     "refs": [
+      "Actes 4:12"
+     ],
+     "accompagnateur": {
+      "attendu": "« Il n'y a de salut en aucun autre ; car il n'y a sous le ciel aucun autre nom qui ait été donné parmi les hommes, par lequel nous devions être sauvés. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Ce que dit Jésus",
+    "minutes": 23,
+    "conseils": [
+     "Questions 1 à 3."
+    ]
+   },
+   {
+    "titre": "II. Répondre avec amour",
+    "minutes": 23,
+    "conseils": [
+     "Questions 4 à 6."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Actes 4:12. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Si la personne se sent très découragée ou parle de mort, en parler tout de suite avec le pasteur.",
+   "Ne pas se moquer des croyances populaires de la personne : l'aider à les examiner à la lumière de la Bible.",
+   "Chaque mensonge a une histoire. Écouter avant de répondre."
+  ]
+ }
+}

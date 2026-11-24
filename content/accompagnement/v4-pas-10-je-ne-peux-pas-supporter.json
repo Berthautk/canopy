@@ -1,0 +1,233 @@
+{
+ "id": "v4-pas-10-je-ne-peux-pas-supporter",
+ "volume": 1,
+ "numero": 10,
+ "titre": "Je ne peux pas supporter : pourquoi souffrons-nous ?",
+ "sous_titre": "Ce que la Bible dit de la souffrance",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "mensonges-10-je-ne-peux-pas-supporter",
+ "verset_memoire": "Jean 16:33",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que Dieu dit à celui qui souffre.",
+  "jours": [
+   "Job 1-2",
+   "Psaume 22",
+   "Romains 8:18-30",
+   "2 Corinthiens 4:7-18",
+   "1 Pierre 4:12-19",
+   "Hébreux 12:1-13",
+   "Jacques 1:1-12"
+  ]
+ },
+ "introduction": [
+  "Quand la souffrance vient, tout le monde demande : « Pourquoi ? Où est Dieu ? »",
+  "Cette semaine, tu vas voir que la Bible ne donne pas toujours de réponse facile, mais donne des raisons de tenir."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Si Dieu était avec nous, nous n'aurions pas de problèmes.",
+       "reponse": false,
+       "explication": "Jean 16:33 : dans le monde vous aurez des tribulations."
+      },
+      {
+       "id": "vf2",
+       "texte": "Toute souffrance vient de mon péché ou de mon manque de foi.",
+       "reponse": false,
+       "explication": "Job et l'aveugle de naissance (Jean 9:2-3) : ce n'est pas toujours le cas."
+      },
+      {
+       "id": "vf3",
+       "texte": "Dieu peut utiliser la souffrance pour me faire grandir.",
+       "reponse": true,
+       "explication": "Romains 5:3-5 ; Jacques 1:2-4."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Dieu ne m'abandonne pas dans la souffrance",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Hébreux 13:5-6 et Jean 16:33. Que promet Dieu à celui qui souffre ?",
+     "refs": [
+      "Hébreux 13:5-6",
+      "Jean 16:33"
+     ],
+     "accompagnateur": {
+      "attendu": "Je ne te délaisserai point, je ne t'abandonnerai point. Jésus a vaincu le monde : en lui nous avons la paix.",
+      "expliquer": [
+       "Il a promis d'être avec nous, pas de nous éviter les épreuves."
+      ],
+      "relance": "Où ressens-tu une souffrance en ce moment ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis 2 Corinthiens 11:23-28 et 1 Pierre 4:12-14. Que dit la Bible des souffrances des croyants ?",
+     "refs": [
+      "2 Corinthiens 11:23-28",
+      "1 Pierre 4:12-14"
+     ],
+     "accompagnateur": {
+      "attendu": "Paul a connu prison, coups, naufrages, faim, dangers. Pierre dit de ne pas s'étonner de l'épreuve de feu, mais de se réjouir de participer aux souffrances de Christ.",
+      "expliquer": [
+       "La souffrance n'est pas un signe d'abandon."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Pourquoi Dieu permet l'épreuve",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Romains 8:28-29 et Romains 5:3-5. Que produit l'épreuve ?",
+     "refs": [
+      "Romains 8:28-29",
+      "Romains 5:3-5"
+     ],
+     "accompagnateur": {
+      "attendu": "Dieu fait tout concourir au bien de ceux qui l'aiment, pour les rendre conformes à l'image de son Fils. La tribulation produit la patience, l'épreuve, l'espérance.",
+      "expliquer": [
+       "Dieu ne cause pas tout, mais il utilise tout."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Hébreux 12:5-11 et Jacques 1:2-4. Pourquoi Dieu nous corrige-t-il et nous éprouve-t-il ?",
+     "refs": [
+      "Hébreux 12:5-11",
+      "Jacques 1:2-4"
+     ],
+     "accompagnateur": {
+      "attendu": "Parce qu'il nous aime comme ses enfants, pour notre bien, pour nous rendre participants de sa sainteté. L'épreuve produit la persévérance, et la persévérance rend parfait.",
+      "expliquer": [
+       "Ne pas confondre discipline et punition : le Père corrige pour guérir."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis 2 Corinthiens 4:7-12, 16-18. Qu'est-ce que Paul regarde au milieu de l'épreuve ?",
+     "refs": [
+      "2 Corinthiens 4:7-12",
+      "2 Corinthiens 4:16-18"
+     ],
+     "accompagnateur": {
+      "attendu": "Nous portons ce trésor dans des vases de terre pour que la puissance vienne de Dieu. Nous ne regardons pas aux choses visibles, mais aux invisibles et éternelles.",
+      "expliquer": [
+       "Un poids éternel de gloire, bien plus grand que l'épreuve."
+      ],
+      "relance": "Qu'est-ce que Dieu t'apprend dans cette épreuve ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan",
+     "texte": [
+      "1. Mon épreuve actuelle :",
+      "2. Une promesse pour cette épreuve :",
+      "3. Ce que Dieu m'apprend :",
+      "4. Qui peut m'accompagner :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-v4-pas-10-je-ne-peux-pas-supporter"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Écris Jean 16:33 de mémoire.",
+     "refs": [
+      "Jean 16:33"
+     ],
+     "accompagnateur": {
+      "attendu": "« Je vous ai dit ces choses, afin que vous ayez la paix en moi. Vous aurez des tribulations dans le monde ; mais prenez courage, j'ai vaincu le monde. »",
+      "expliquer": [
+       "Réviser aussi le verset du pas précédent."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+   "Qu'elle reparte avec un verset, une décision et un plan précis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas précédent.",
+   "Lire les passages du pas et faire toi-même l'exercice du plan.",
+   "Prier pour la personne et pour ce qu'elle va découvrir."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "I. Dieu ne m'abandonne pas dans la souffrance",
+    "minutes": 17,
+    "conseils": [
+     "Questions 1 à 2."
+    ]
+   },
+   {
+    "titre": "II. Pourquoi Dieu permet l'épreuve",
+    "minutes": 23,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Mon plan, verset et remise du pas suivant",
+    "minutes": 15,
+    "conseils": [
+     "Relire le plan, prier ensemble. Réciter Jean 16:33. Remettre le pas suivant."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Si la personne se sent très découragée ou parle de mort, en parler tout de suite avec le pasteur.",
+   "Ne pas se moquer des croyances populaires de la personne : l'aider à les examiner à la lumière de la Bible.",
+   "Chaque mensonge a une histoire. Écouter avant de répondre."
+  ]
+ }
+}

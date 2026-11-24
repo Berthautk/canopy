@@ -7,7 +7,7 @@
   "Pendant la rencontre, ils reprennent ensemble chaque réponse, récitent les versets, prient, et l'accompagnateur remet le pas suivant. Le parcours complet dure un an et demi à deux ans.",
   "Le pas 1 comprend un bilan de vie confidentiel, pour apporter à la croix ce qui vient de la lignée, des pratiques passées et des blessures, comme on le vit en Afrique."
  ],
- "source": "Méthode et plan des pas inspirés de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global). Questions, explications, bilan de vie et guides de l'accompagnateur rédigés par Yeshaya. Le manuel original est disponible gratuitement en plusieurs langues.",
+ "source": "Méthode et plan des pas inspirés de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), volumes 1 à 6 et « Qui est Jésus-Christ ? ». Questions, explications, bilan de vie, enseignements et guides de l'accompagnateur rédigés par Yeshaya. Les manuels originaux sont disponibles gratuitement en plusieurs langues.",
  "lien_source": "https://www.newlifediscipleship.com",
  "volumes": [
   {
@@ -228,6 +228,73 @@
      "numero": 12,
      "titre": "L'hospitalité",
      "id": "v3-pas-12-hospitalite"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Volume 4 · Réponses bibliques aux mensonges",
+   "sous_titre": "Vivre libre en connaissant la vérité",
+   "pas": [
+    {
+     "numero": 1,
+     "titre": "Les mensonges qui nous lient",
+     "id": "v4-pas-01-mensonges-qui-nous-lient"
+    },
+    {
+     "numero": 2,
+     "titre": "La vérité qui nous libère",
+     "id": "v4-pas-02-la-verite-qui-libere"
+    },
+    {
+     "numero": 3,
+     "titre": "Mensonge : je suis seul",
+     "id": "v4-pas-03-je-suis-seul"
+    },
+    {
+     "numero": 4,
+     "titre": "Mensonge : c'est impossible",
+     "id": "v4-pas-04-c-est-impossible"
+    },
+    {
+     "numero": 5,
+     "titre": "Mensonge : je peux",
+     "id": "v4-pas-05-je-peux"
+    },
+    {
+     "numero": 6,
+     "titre": "Mensonge : j'ai peur",
+     "id": "v4-pas-06-j-ai-peur"
+    },
+    {
+     "numero": 7,
+     "titre": "Mais… tout le monde le fait",
+     "id": "v4-pas-07-tout-le-monde-le-fait"
+    },
+    {
+     "numero": 8,
+     "titre": "Mensonge : il n'y a pas de justice",
+     "id": "v4-pas-08-pas-de-justice"
+    },
+    {
+     "numero": 9,
+     "titre": "Mensonge : Dieu ne pardonnera pas quelqu'un comme moi",
+     "id": "v4-pas-09-dieu-ne-pardonnera-pas"
+    },
+    {
+     "numero": 10,
+     "titre": "Je ne peux pas supporter : pourquoi souffrons-nous ?",
+     "id": "v4-pas-10-je-ne-peux-pas-supporter"
+    },
+    {
+     "numero": 11,
+     "titre": "Si seulement j'avais plus d'argent…",
+     "id": "v4-pas-11-si-seulement-plus-d-argent"
+    },
+    {
+     "numero": 12,
+     "titre": "Toutes les religions conduisent à Dieu ?",
+     "id": "v4-pas-12-toutes-les-religions"
     }
    ]
   }

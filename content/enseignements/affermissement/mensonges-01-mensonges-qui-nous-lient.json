@@ -1,0 +1,132 @@
+{
+ "id": "mensonges-01-mensonges-qui-nous-lient",
+ "titre": "Les mensonges qui nous lient",
+ "serie": "Réponses bibliques aux mensonges",
+ "theme": "Vérité et mensonge",
+ "auteur": "Yeshaya",
+ "resume": "Beaucoup de chrétiens vivent dans la défaite à cause des mensonges qu'ils croient. D'où viennent ces mensonges, comment l'ennemi trompe, et comment en sortir.",
+ "image": "/assets/personnages/homme-lunettes-reflexion.webp",
+ "verset_de_base": "Jean 8:44",
+ "lecture_minutes": 6,
+ "objectifs": [
+  "Comprendre le thème : Les mensonges qui nous lient.",
+  "Trouver dans la Bible la réponse à ce thème.",
+  "Mettre en pratique une décision précise cette semaine."
+ ],
+ "introduction": "Pourquoi y a-t-il tant de chrétiens qui vivent dans la défaite ou le découragement ? Certains sont prisonniers de leur passé, d'autres de leurs faiblesses. La Bible donne une réponse simple : une grande partie de nos défaites vient de mensonges que nous croyons, souvent sans le savoir. Dans ce premier enseignement, nous allons voir comment tout a commencé, comment le diable trompe, et ce que nous pouvons faire.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "Comment tout a commencé",
+   "references": [
+    "Genèse 3:1-7",
+    "Genèse 3:6",
+    "Genèse 3:12"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Genèse 3:1-7. Il a mis en doute la parole de Dieu (« Dieu a-t-il réellement dit ? »), puis l'a niée (« vous ne mourrez point »), puis a promis une fausse sagesse. Après avoir mangé, ils ont découvert leur nudité et la honte."
+    },
+    {
+     "texte": "Le mensonge promet le meilleur et paie avec le pire. Il commence toujours par douter de ce que Dieu a dit."
+    },
+    {
+     "texte": "Lisons Genèse 3:6 et Genèse 3:12. Non. Il était avec elle, il a mangé, puis il a rejeté la faute sur sa femme et sur Dieu."
+    },
+    {
+     "texte": "On se justifie en disant « tout le monde le fait », « ce n'est pas ma faute »."
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "L'arme de l'ennemi",
+   "references": [
+    "Jean 8:44-47",
+    "1 Corinthiens 2:14-15",
+    "Proverbes 14:12"
+   ],
+   "blocs": [
+    {
+     "texte": "Lisons Jean 8:44-47. Meurtrier dès le commencement, il ne se tient pas dans la vérité, il est menteur et père du mensonge. Celui qui est de Dieu écoute les paroles de Dieu ; les autres ne veulent pas les entendre."
+    },
+    {
+     "texte": "Quand on se bouche les oreilles, le mensonge entraîne vers le mal."
+    },
+    {
+     "texte": "Lisons 1 Corinthiens 2:14-15. L'homme naturel ne les accepte pas : elles lui paraissent une folie. L'homme spirituel juge de tout."
+    },
+    {
+     "texte": "Notre culture dit que chacun fait sa vérité. La Bible dit qu'il y a une vérité de Dieu."
+    },
+    {
+     "texte": "Lisons Proverbes 14:12. Une liste honnête de trois mensonges personnels, par exemple « je suis un raté », « tout le monde fait ça », « Dieu ne m'aime pas »."
+    },
+    {
+     "texte": "Ne pas minimiser. Chacun en a. Nommer les mensonges est le premier pas vers la liberté."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Ce que nous retenons",
+   "references": [],
+   "blocs": [
+    {
+     "texte": "Le mensonge est l'arme principale de l'ennemi. Il promet le meilleur et paie avec le pire. Si nous apprenons à reconnaître ces mensonges et à y répondre par la Parole de Dieu, nous marcherons dans la liberté. C'est le but de cette série."
+    },
+    {
+     "verset": "Jean 8:44"
+    }
+   ]
+  }
+ ],
+ "sujets": [
+  {
+   "titre": "Le mensonge et la vérité",
+   "texte": "Prions afin que Dieu nous ouvre les yeux sur les mensonges que nous avons crus et nous rende libres par sa vérité (Jean 8:32)."
+  }
+ ],
+ "questions": [
+  {
+   "question": "La principale arme du diable est le mensonge : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 0,
+   "explication": "Jean 8:44 : il est menteur et père du mensonge.",
+   "section": "1"
+  },
+  {
+   "question": "Tout péché vient de la sorcellerie : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "Beaucoup de péchés commencent par un simple mensonge cru (Genèse 3).",
+   "section": "1"
+  },
+  {
+   "question": "Les non-croyants comprennent facilement l'Évangile : vrai ou faux ?",
+   "choix": [
+    "Vrai",
+    "Faux"
+   ],
+   "reponse": 1,
+   "explication": "1 Corinthiens 2:14 : l'homme naturel ne reçoit pas les choses de l'Esprit.",
+   "section": "1"
+  }
+ ],
+ "devoir": [
+  "Relis les passages de cette leçon et note ce qui te touche le plus.",
+  "Complète ton plan : Mon plan.",
+  "Apprends par cœur Jean 8:44.",
+  "Parle de ce que tu as découvert à une personne de confiance."
+ ],
+ "prieres_liees": [],
+ "source": "Parcours inspiré de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), manuel gratuit : les thèmes, le plan et les passages bibliques sont repris ; les questions, les explications, les enseignements et les guides de l'encadreur sont rédigés par Yeshaya.",
+ "date_ajout": "2026-11-24",
+ "relu": false
+}
