@@ -4,328 +4,361 @@
  "serie": "L'islam de A à Z",
  "theme": "Islam",
  "auteur": "Yeshaya",
- "resume": "Pourquoi le musulman ne mange-t-il pas de porc ? Pourquoi refuse-t-il d'entrer chez toi s'il y a un chien ? Pourquoi entre-t-il aux toilettes du pied gauche, se nettoie-t-il avec de l'eau ou avec trois pierres et jamais de la main droite ? Pourquoi se lave-t-il avant de prier ? Tout cela vient de la charia, la loi islamique, qui règle chaque détail de la vie. Ce qu'elle demande, d'où cela vient, et ce que Jésus a dit de la vraie pureté.",
+ "resume": "Qu'est-ce que la charia, la loi islamique ? Comment les quatre grandes écoles de droit sont-elles nées ? Quelles sont les cinq catégories d'actes ? Que sont les règles de pureté, des toilettes, de la nourriture, de l'alcool, du chien, des images, de la musique, de l'intérêt d'argent ? Comment un musulman salue-t-il, mange-t-il, dort-il ? Quelles sont les peines fixées par la loi : main coupée, fouet, lapidation, mort de l'apostat ? Et quel est le calendrier musulman ? Un enseignement détaillé sur la vie de tous les jours dans l'islam.",
  "image": "/assets/objets-quotidien/gourde-et-tapis.webp",
  "verset_de_base": "Ps 24:3-4",
- "lecture_minutes": 25,
+ "lecture_minutes": 32,
  "objectifs": [
-  "Comprendre ce qu'est la charia et d'où viennent ses règles.",
-  "Connaître les cinq catégories d'actes : obligatoire, recommandé, permis, déconseillé, interdit.",
-  "Connaître les règles de pureté, y compris celles des toilettes, et leur raison.",
-  "Connaître les principales règles sur la nourriture, l'alcool, les chiens, les images.",
-  "Comprendre l'enseignement de Jésus sur la pureté du cœur et la liberté en Christ."
+  "Comprendre ce qu'est la charia et comment elle est née.",
+  "Connaître les quatre écoles et les cinq catégories d'actes.",
+  "Connaître les règles de pureté, des toilettes, de la nourriture et de l'alcool.",
+  "Connaître les règles du quotidien : salutations, repas, sommeil, argent, vêtements.",
+  "Connaître les peines prévues par la loi et où elles sont appliquées aujourd'hui."
  ],
- "introduction": "Un ami chrétien raconte qu'il invita un jour un collègue musulman à manger chez lui. Le collègue arriva, salua poliment, mais refusa d'entrer : il y avait un chien dans la cour. Une fois le chien attaché, il entra, mais il demanda discrètement comment la viande avait été abattue, et refusa de toucher au plat de porc préparé pour d'autres invités. Puis, au moment de la prière, il demanda où il pouvait se laver, et pria dans un coin du salon, sur un pagne propre. Mon ami fut surpris, un peu vexé, puis curieux : « Pourquoi tant de règles ? »\n\nCes règles viennent de la charia, la loi islamique. Pour le musulman, l'islam n'est pas seulement une foi ou une prière : c'est une manière de vivre complète, qui touche la nourriture, l'habillement, l'hygiène, le mariage, le commerce, la politique, la guerre. Comprendre ces règles t'évitera de blesser tes voisins musulmans sans le vouloir, et t'aidera à comprendre pourquoi l'Évangile de la grâce est une si grande libération.",
+ "introduction": "Un jour, un jeune chrétien invite un collègue musulman à manger chez lui. Le collègue arrive, salue poliment, puis il s'arrête à la porte. Il y a un chien dans la cour. Il ne rentre pas avant que le chien soit attaché. À table, il demande comment la viande a été abattue. Il refuse le plat de porc préparé pour d'autres invités. Quand l'heure de la prière arrive, il demande où il peut se laver, puis il prie dans un coin du salon, sur un pagne propre. Le jeune chrétien est surpris, un peu vexé, mais surtout curieux. Il se demande : pourquoi autant de règles ?\n\nLa réponse tient en un mot : la charia. Pour le musulman, l'islam n'est pas seulement une foi ou une prière. C'est une manière de vivre complète. Elle règle la nourriture, l'habillement, les toilettes, le mariage, l'argent, la justice, la guerre. Je le redis plus simplement : chez le musulman pieux, il n'y a pas un coin de la vie qui échappe à la religion. Dans cet enseignement, nous allons entrer dans ce monde, un règlement après l'autre.",
  "sections": [
   {
    "numero": "1",
    "titre": "Qu'est-ce que la charia ?",
-   "references": [
-    "Ga 3:24",
-    "Rm 8:3-4"
-   ],
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Un chemin vers l'eau"
+     "sous_titre": "Le mot et son sens"
     },
     {
-     "texte": "Le mot « charia » veut dire, à l'origine, « le chemin qui mène au point d'eau ». C'est la loi divine telle que les savants musulmans l'ont comprise à partir de quatre sources : le Coran, la sunna du prophète (les hadiths), le consensus des savants (« ijma ») et le raisonnement par analogie (« qiyas »). La science qui en tire les règles concrètes s'appelle le « fiqh »."
+     "texte": "Le mot « charia » veut dire, à l'origine, « le chemin qui mène au point d'eau ». Dans le désert, le point d'eau, c'est la vie. Un chemin qui y mène est donc un chemin de vie. Dans la religion, la charia est la loi de Dieu pour l'homme, telle que les savants l'ont comprise. Ce n'est pas un livre. Ce n'est pas une seule loi. C'est l'ensemble des règles que les savants ont tirées du Coran et des hadiths."
     },
     {
-     "sous_titre": "Les écoles"
+     "texte": "La science qui étudie ces règles s'appelle le « fiqh », qui veut dire « compréhension ». Un spécialiste du fiqh s'appelle un « faqih », un juriste. Et celui qui donne un avis juridique sur une question précise s'appelle un « mufti ». Son avis s'appelle une « fatwa »."
     },
     {
-     "texte": "Chez les sunnites, il existe quatre grandes écoles juridiques, du nom de leurs fondateurs : l'école hanafite (en Turquie, en Asie centrale, en Inde), l'école malikite (en Afrique du Nord et en Afrique de l'Ouest, y compris au nord du Cameroun et au Tchad), l'école chaféite (en Égypte, en Afrique de l'Est, en Indonésie) et l'école hanbalite (en Arabie saoudite). Elles sont d'accord sur l'essentiel, mais diffèrent sur beaucoup de détails : la manière de placer les mains pendant la prière, ce qui annule les ablutions, certaines règles du mariage."
+     "sous_titre": "Les quatre sources"
     },
     {
-     "sous_titre": "Cinq catégories"
+     "texte": "Selon les sunnites, la loi se tire de quatre sources. La première est le Coran. La deuxième est la sunna, c'est-à-dire les hadiths : les paroles et les actes de Mahomet. La troisième est l'« ijma », le consensus des savants : quand tous les grands savants d'une époque sont d'accord sur un point, il est tenu pour vrai. La quatrième est le « qiyas », le raisonnement par analogie : si le Coran interdit le vin, on peut en conclure que toute boisson qui enivre est interdite."
     },
     {
-     "texte": "Pour la charia, tout acte humain entre dans l'une de ces cinq catégories : Obligatoire (« fard » ou « wajib ») : le faire est récompensé, le négliger est puni. Par exemple, les cinq prières. Recommandé (« moustahabb ») : le faire est récompensé, le négliger n'est pas puni. Par exemple, des prières supplémentaires. Permis (« moubah ») : neutre. Déconseillé (« makrouh ») : s'abstenir est récompensé, le faire n'est pas puni. Interdit (« haram ») : le faire est puni. Par exemple, manger du porc, boire de l'alcool. Le mot « halal », que tu entends souvent, veut dire « permis », surtout pour la nourriture."
+     "texte": "Voici un exemple pour comprendre le qiyas. Le Coran interdit de vendre quand l'appel à la prière du vendredi retentit (sourate 62, verset 9). Les savants en ont tiré que toute activité qui détourne de la prière du vendredi est interdite pendant ce moment. Voilà comment on étend une règle."
     },
     {
-     "sous_titre": "La loi et la grâce"
+     "sous_titre": "Comment la loi est née"
     },
     {
-     "texte": "La Bible connaît aussi la loi. Dieu a donné à Israël, par Moïse, des lois morales, rituelles et civiles. Mais Paul explique que la loi a été comme un pédagogue pour nous conduire à Christ, afin que nous soyons justifiés par la foi (Galates 3:24). La loi montre le péché, mais elle ne peut pas changer le cœur. Ce qui était impossible à la loi, parce que la chair la rendait sans force, Dieu l'a fait en envoyant son propre Fils (Romains 8:3)."
+     "texte": "Du temps de Mahomet, c'était simple : on lui posait la question, il répondait. Après sa mort, en 632, il a fallu continuer. Les premiers califes jugeaient avec le Coran et le souvenir de ce que Mahomet avait dit. Quand l'empire s'est agrandi, on a rencontré des peuples avec d'autres coutumes : les Perses, les Égyptiens, les Berbères. Il a fallu beaucoup de nouvelles réponses. Des savants se sont mis à classer les cas. Au huitième et neuvième siècles, quatre grands juristes ont fondé les quatre écoles qui existent encore."
+    },
+    {
+     "texte": "Voici leurs noms et leurs dates. Abou Hanifa, mort en 767 à Bagdad, a fondé l'école hanafite. Malik ibn Anas, mort en 795 à Médine, a fondé l'école malikite. Chafii, mort en 820 en Égypte, a fondé l'école chaféite. Ahmad ibn Hanbal, mort en 855 à Bagdad, a fondé l'école hanbalite. Il fut même fouetté et emprisonné par le calife, pour avoir refusé de dire que le Coran avait été créé."
+    },
+    {
+     "sous_titre": "Où se trouve chaque école"
+    },
+    {
+     "texte": "L'école hanafite domine en Turquie, en Asie centrale, en Inde et au Pakistan. C'est la plus répandue. L'école malikite domine en Afrique du Nord, en Afrique de l'Ouest, donc au Sénégal, au Mali, au Niger, au nord du Cameroun, au Tchad et au nord du Nigeria. L'école chaféite domine en Égypte, en Afrique de l'Est, en Malaisie et en Indonésie. L'école hanbalite est la plus stricte : c'est celle de l'Arabie saoudite. Les quatre sont d'accord sur l'essentiel. Mais elles diffèrent sur beaucoup de détails : par exemple, ce qui annule les ablutions, la manière de poser les mains en priant, ou l'âge où une fille peut se marier."
+    },
+    {
+     "sous_titre": "Les cinq catégories d'actes"
+    },
+    {
+     "texte": "Pour la charia, chaque acte humain entre dans l'une de cinq catégories. Retiens-les, car on les entend souvent."
+    },
+    {
+     "texte": "La première est le « fard » ou « wajib », l'obligatoire. Le faire est récompensé, le négliger est puni. Par exemple, les cinq prières."
+    },
+    {
+     "texte": "La deuxième est le « moustahabb », le recommandé. Le faire est récompensé, mais ne pas le faire n'est pas puni. Par exemple, des prières supplémentaires."
+    },
+    {
+     "texte": "La troisième est le « moubah », le permis, neutre. Ni récompense, ni punition."
+    },
+    {
+     "texte": "La quatrième est le « makrouh », le déconseillé. S'en abstenir est récompensé, mais le faire n'est pas puni."
+    },
+    {
+     "texte": "La cinquième est le « haram », l'interdit. Le faire est puni. Par exemple, manger du porc, boire de l'alcool, voler. Et le mot « halal » veut dire « permis », surtout pour la nourriture."
+    },
+    {
+     "sous_titre": "Une loi sans frontière entre religion et État"
+    },
+    {
+     "texte": "Voici un point très important, que beaucoup de chrétiens ne comprennent pas. Dans l'islam classique, il n'y a pas de séparation entre religion et État. La charia est à la fois la loi religieuse et la loi civile. Le même texte dit comment prier, comment hériter, comment juger un voleur. Voilà pourquoi beaucoup de musulmans pieux disent que la vraie société musulmane est celle où la charia est la loi du pays. Dans nos pays, qui sont laïcs, certains musulmans acceptent la séparation, d'autres la rejettent. Nous y reviendrons dans l'enseignement sur le djihad et sur les courants."
     }
    ]
   },
   {
    "numero": "2",
    "titre": "La pureté rituelle",
-   "references": [
-    "Ps 24:3-4",
-    "Lv 11:44"
-   ],
+   "references": [],
    "blocs": [
     {
      "sous_titre": "Pur ou impur"
     },
     {
-     "texte": "Pour prier, toucher le Coran, faire le tour de la Kaaba, le musulman doit être en état de pureté rituelle. Il y a deux sortes d'impureté. La petite impureté vient d'aller aux toilettes, d'émettre un gaz, de dormir profondément, de toucher certaines choses selon les écoles ; elle se lave par les petites ablutions. La grande impureté vient des relations sexuelles, d'une émission de sperme, des règles et des suites de l'accouchement ; elle se lave par le bain complet."
+     "texte": "Pour prier, pour toucher le Coran, pour faire le tour de la Kaaba, le musulman doit être pur. Cette pureté n'est pas la propreté. On peut être sale mais pur, ou propre mais impur. Il y a deux niveaux d'impureté."
+    },
+    {
+     "texte": "La petite impureté, « hadath asghar », vient d'actes de la vie ordinaire : aller aux toilettes, émettre un gaz, dormir profondément. Elle se lave par les petites ablutions, le « woudou », que nous avons décrit."
+    },
+    {
+     "texte": "La grande impureté, « hadath akbar » ou « janaba », vient des relations sexuelles, de l'émission de sperme, des règles et des suites de l'accouchement. Elle se lave par le bain complet, le « ghousl », où on lave tout le corps, avec l'intention de se purifier."
+    },
+    {
+     "sous_titre": "Les règles des femmes"
+    },
+    {
+     "texte": "Pendant ses règles, la femme ne prie pas, ne jeûne pas, ne touche pas le Coran selon la majorité des savants, n'entre pas dans la mosquée selon plusieurs écoles, et n'a pas de relations avec son mari (sourate 2, verset 222). Elle rattrape les jours de jeûne manqués, mais pas les prières (Boukhari, hadith 321). Quarante jours après l'accouchement, ou moins quand le saignement s'arrête, elle fait le bain complet et reprend la prière. Ces règles pèsent beaucoup sur la femme, car pendant ces jours, selon certaines coutumes, elle est considérée comme impure et tenue à l'écart."
     },
     {
      "sous_titre": "Ce qui est impur"
     },
     {
-     "texte": "Certaines choses sont considérées comme impures (« najas ») : l'urine, les excréments, le sang, l'alcool selon beaucoup de savants, le porc, et le chien, en particulier sa salive. Mouslim rapporte que Mahomet a dit : si un chien lèche le récipient de l'un de vous, qu'il le lave sept fois, la première fois avec de la terre (Mouslim, hadith 279). Un autre hadith dit que les anges n'entrent pas dans une maison où il y a un chien ou des images (Boukhari, hadith 3322). C'est pourquoi beaucoup de musulmans évitent les chiens."
+     "texte": "Certaines choses sont « najas », impures. L'urine, les excréments, le sang qui coule, le vomi, le sperme selon certaines écoles, le porc, et le chien selon plusieurs écoles. Mouslim rapporte que Mahomet a dit : « Si un chien lèche le récipient de l'un de vous, qu'il le lave sept fois, la première avec de la terre » (Mouslim, hadith 279). Et Boukhari rapporte que les anges n'entrent pas dans une maison où il y a un chien ou des images (Boukhari, hadith 3322). Voilà pourquoi beaucoup de musulmans refusent d'entrer là où il y a un chien, et pourquoi ils ne caressent pas les chiens."
     },
     {
-     "sous_titre": "Le désir d'être pur"
-    },
-    {
-     "texte": "Derrière toutes ces règles, il y a un désir juste : on ne s'approche pas de Dieu n'importe comment. La Bible le dit aussi : qui pourra monter à la montagne de l'Éternel ? Qui s'élèvera jusqu'à son lieu saint ? Celui qui a les mains innocentes et le cœur pur (Psaume 24:3-4). Et Dieu a dit à Israël : vous serez saints, car je suis saint (Lévitique 11:44). La question n'est donc pas de savoir si la pureté est importante. Elle l'est. La question est : de quelle pureté Dieu parle-t-il, et comment l'obtenir ?"
-    },
-    {
-     "verset": "Lv 11:44"
+     "texte": "Mais attention : les écoles ne sont pas d'accord. L'école malikite, celle de nos régions, considère que le chien n'est pas impur en lui-même, et qu'on peut manger la viande tuée par un chien de chasse. Les autres écoles sont plus sévères. C'est pourquoi tu trouveras des voisins musulmans qui élèvent des chiens de garde, et d'autres qui refusent d'en voir un."
     }
    ]
   },
   {
    "numero": "3",
    "titre": "Les règles des toilettes",
-   "references": [
-    "Mc 7:20-23",
-    "Ac 10:15"
-   ],
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Pourquoi en parler ?"
+     "sous_titre": "Pourquoi en parler"
     },
     {
-     "texte": "Il peut sembler étrange de parler des toilettes dans un enseignement biblique. Mais pour le musulman, ce sujet fait partie de la religion. Les hadiths donnent des règles très précises, parce que la moindre trace d'urine ou d'excrément sur le corps ou les vêtements peut rendre la prière invalide. Un hadith raconte que Mahomet, passant près de deux tombes, dit que leurs occupants étaient tourmentés, et que l'un d'eux l'était parce qu'il ne se protégeait pas de son urine (Boukhari, hadith 216). Pour un musulman pieux, l'hygiène intime est donc une affaire de salut."
+     "texte": "Il peut sembler étrange de parler de toilettes dans un enseignement sur une religion. Mais pour le musulman, c'est un sujet sérieux. La moindre trace d'urine sur le corps ou sur les habits peut rendre la prière invalide. Mahomet est passé près de deux tombes. Il a dit que les deux morts étaient punis. L'un d'eux, parce qu'il ne se protégeait pas de son urine (Boukhari, hadith 216). Voilà pourquoi un musulman pieux fait très attention. Pour lui, l'hygiène intime touche le salut."
     },
     {
-     "sous_titre": "En entrant"
+     "sous_titre": "En entrant et en sortant"
     },
     {
-     "texte": "En entrant dans les toilettes, on entre du pied gauche et on dit une prière de protection : « Ô Allah, je cherche refuge auprès de toi contre les démons mâles et femelles » (Boukhari, hadith 142). Les toilettes sont considérées comme un lieu où se tiennent les esprits impurs. On n'y entre pas avec un objet portant le nom d'Allah. On en sort du pied droit en demandant pardon."
+     "texte": "On entre dans les toilettes du pied gauche, en disant : « Ô Allah, je cherche refuge auprès de toi contre les démons mâles et femelles » (Boukhari, hadith 142). On croit que les toilettes sont un endroit où les démons rôdent. On n'y entre pas avec un papier qui porte le nom d'Allah. On en sort du pied droit, en disant : « Je demande ton pardon » (Abou Daoud, hadith 30)."
     },
     {
      "sous_titre": "La position"
     },
     {
-     "texte": "On ne doit ni faire face à La Mecque, ni lui tourner le dos, quand on fait ses besoins en plein air (Boukhari, hadith 144). C'est pourquoi, dans certaines maisons, les toilettes sont construites dans une orientation particulière. Beaucoup préfèrent aussi être accroupis plutôt qu'assis, comme le faisait le prophète selon les récits."
+     "texte": "On ne doit pas faire face à La Mecque, ni lui tourner le dos, en faisant ses besoins en plein air (Boukhari, hadith 144). Beaucoup préfèrent être accroupis plutôt qu'assis. Et on ne parle pas pendant ce moment."
     },
     {
-     "sous_titre": "L'eau ou les pierres"
+     "sous_titre": "Eau ou pierres"
     },
     {
-     "texte": "Après avoir fait ses besoins, le musulman doit se nettoyer : c'est « l'istinja ». Il le fait de préférence avec de l'eau, d'où la petite bouilloire en plastique que l'on voit souvent dans les toilettes des maisons musulmanes et des mosquées, ou les jets d'eau dans les toilettes modernes. S'il n'y a pas d'eau, il peut se nettoyer avec des pierres, ou avec d'autres choses solides et propres : c'est « l'istijmar ». Mouslim rapporte que Mahomet a interdit de se nettoyer avec moins de trois pierres, avec la main droite, avec du crottin ou avec un os (Mouslim, hadith 262). Un autre hadith précise que les os sont la nourriture des djinns (Mouslim, hadith 450). Les savants recommandent un nombre impair de pierres."
+     "texte": "Après, on se nettoie. On l'appelle l'« istinja ». On le fait de préférence avec de l'eau. C'est pourquoi tu vois souvent, dans les toilettes des maisons musulmanes, une petite bouilloire en plastique ou un jet d'eau. S'il n'y a pas d'eau, on utilise des pierres, pour le nettoyage sec : c'est l'« istijmar ». Mouslim rapporte que Mahomet a interdit de se nettoyer avec moins de trois pierres, ou avec la main droite, ou avec de la bouse ou un os (Mouslim, hadith 262). Un hadith interdit aussi de faire ses besoins sur le chemin des gens, dans l'ombre où ils se reposent, ou dans l'eau stagnante (Mouslim, hadith 269)."
     },
     {
-     "sous_titre": "Et le papier ?"
-    },
-    {
-     "texte": "Pourquoi des pierres plutôt que du papier ? Simplement parce que le papier hygiénique n'existait pas en Arabie au VIIe siècle. Aujourd'hui, la plupart des savants musulmans considèrent que le papier peut remplacer les pierres, mais beaucoup estiment que l'eau reste meilleure, et certains jugent que le papier seul ne suffit pas. Il ne s'agit donc pas d'un mystère spirituel, mais de règles d'hygiène du désert devenues des obligations religieuses."
+     "texte": "Aujourd'hui, les savants disent que le papier peut remplacer les pierres. Pourquoi trois pierres ? Simplement parce que le papier n'existait pas dans le désert arabe du septième siècle. Autrement dit, ce sont des règles d'hygiène du désert, devenues des règles religieuses."
     },
     {
      "sous_titre": "Jamais la main droite"
     },
     {
-     "texte": "La main gauche est réservée au nettoyage intime ; la main droite sert à manger, à boire, à saluer, à donner. Mahomet a interdit de toucher son sexe de la main droite en urinant et de se nettoyer avec elle (Boukhari, hadith 153). Il a aussi dit : que personne ne mange de la main gauche, car Satan mange de la main gauche (Mouslim, hadith 2020). C'est pourquoi tendre un objet ou de la nourriture de la main gauche à un musulman peut le choquer. En Afrique, beaucoup de nos cultures ont la même habitude, même chez les non-musulmans."
+     "texte": "La main droite sert à manger, à boire, à saluer, à donner. La main gauche sert au nettoyage intime. Mahomet a interdit de toucher son sexe de la main droite en urinant et de se nettoyer avec elle (Boukhari, hadith 153). Il a dit aussi : « Que personne ne mange de la main gauche, car Satan mange de la main gauche » (Mouslim, hadith 2020). Voilà pourquoi tendre un objet ou un plat de la main gauche à un musulman peut le choquer. Dans beaucoup de nos cultures africaines, c'est la même chose, même chez les non-musulmans."
     },
     {
-     "sous_titre": "Les autres règles du corps"
+     "sous_titre": "Les gestes de la « fitra »"
     },
     {
-     "texte": "Les hadiths parlent aussi de ce qu'ils appellent la « fitra », la nature originelle : la circoncision, le rasage des poils du pubis, la coupe de la moustache, la coupe des ongles et l'épilation des aisselles (Boukhari, hadith 5889). Les hommes doivent laisser pousser leur barbe, selon beaucoup de savants, et tailler leur moustache."
-    },
-    {
-     "sous_titre": "Ce que Jésus a dit"
-    },
-    {
-     "texte": "Ces règles peuvent avoir une utilité pratique pour la santé. Mais Jésus a enseigné une chose révolutionnaire sur la pureté. Les pharisiens étaient choqués que ses disciples mangent sans se laver les mains selon la tradition. Jésus appela la foule et dit : il n'est hors de l'homme rien qui, entrant en lui, puisse le souiller ; mais ce qui sort de l'homme, c'est ce qui le souille. Car c'est du dedans, c'est du cœur des hommes, que sortent les mauvaises pensées, les adultères, les impudicités, les meurtres, les vols, la cupidité, la méchanceté, la fraude, le dérèglement, le regard envieux, la calomnie, l'orgueil, la folie (Marc 7:15, 21-22). Marc ajoute : il déclarait ainsi purs tous les aliments."
-    },
-    {
-     "texte": "Un musulman peut être parfaitement propre selon toutes les règles, après s'être lavé avec soin, et avoir le cœur plein de colère, d'orgueil, de convoitise. Un chrétien aussi, d'ailleurs. Le problème n'est pas l'eau ou les pierres : c'est le cœur. Et aucune eau ne lave le cœur."
+     "texte": "Les hadiths parlent de cinq choses de la « fitra », la nature naturelle : la circoncision, le rasage des poils du pubis, la coupe des moustaches, la coupe des ongles, et l'épilation des aisselles (Boukhari, hadith 5889). Un autre hadith ordonne de tailler la moustache et de laisser pousser la barbe (Boukhari, hadith 5892). C'est pourquoi beaucoup d'hommes musulmans pieux portent la barbe, souvent sans moustache. Ces règles s'appliquent aussi aux femmes pour la circoncision selon certaines écoles, ce qui est très contesté. Nous y reviendrons dans l'enseignement sur la femme."
     }
    ]
   },
   {
    "numero": "4",
-   "titre": "Le permis et l'interdit dans l'assiette",
-   "references": [
-    "Ac 10:13-15",
-    "1 Tm 4:4-5"
-   ],
+   "titre": "La nourriture et la boisson",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le porc et le sang"
+     "sous_titre": "Le halal et le haram"
     },
     {
-     "texte": "Le Coran interdit la viande d'animal mort sans avoir été égorgé, le sang, la viande de porc, et ce qui a été sacrifié à un autre qu'Allah (sourate 2, verset 173 ; sourate 5, verset 3). Pour qu'une viande soit halal, l'animal doit être égorgé en prononçant le nom d'Allah, et vidé de son sang. Les hadiths interdisent aussi les animaux carnassiers qui ont des crocs et les oiseaux qui ont des serres (Mouslim, hadith 1934). La viande des gens du Livre, juifs et chrétiens, est permise selon le Coran (sourate 5, verset 5), mais beaucoup de musulmans préfèrent ne manger que de la viande abattue par un musulman."
+     "texte": "Le Coran interdit quatre choses : la bête morte non égorgée, le sang, la chair de porc, et ce qui a été offert à un autre qu'Allah (sourate 2, verset 173 ; sourate 5, verset 3). Les hadiths y ajoutent les animaux carnassiers qui ont des crocs et les oiseaux de proie qui ont des serres (Mouslim, hadith 1934), et la viande d'âne domestique (Boukhari, hadith 4219)."
+    },
+    {
+     "sous_titre": "L'abattage"
+    },
+    {
+     "texte": "Pour qu'une viande soit halal, l'animal doit être vivant, en bonne santé, et égorgé par un musulman, ou par un juif ou un chrétien selon le Coran (sourate 5, verset 5). La personne qui égorge dit « bismillah, Allahou akbar », « au nom d'Allah, Allah est le plus grand », elle coupe la gorge d'un coup, et on laisse le sang s'écouler. L'animal ne doit pas souffrir plus que nécessaire. Pour les petits animaux sauvages tués à la chasse, il faut dire « bismillah » en envoyant l'arme."
+    },
+    {
+     "texte": "Beaucoup de musulmans préfèrent ne manger que la viande préparée par des musulmans. C'est pourquoi, dans les quartiers, il y a des boucheries marquées « halal ». Et c'est pourquoi un musulman pieux se demande toujours : « Qui a tué cet animal ? »"
+    },
+    {
+     "sous_titre": "Le porc"
+    },
+    {
+     "texte": "Le porc est interdit sans exception. Le mot « haram » est très fort pour lui. Beaucoup de musulmans éprouvent du dégoût à l'idée d'en toucher. Dans certaines régions, le mot « porc » est même un insulte. Quand tu invites un musulman, ne mets jamais de porc dans le plat sans le dire, et ne le sers pas à la même table sans prévenir."
     },
     {
      "sous_titre": "L'alcool"
     },
     {
-     "texte": "L'interdiction de l'alcool est venue progressivement. Un premier verset reconnaît qu'il y a dans le vin un grand péché et quelques avantages (sourate 2, verset 219). Un deuxième demande de ne pas s'approcher de la prière en état d'ivresse (sourate 4, verset 43). Un troisième déclare que le vin, les jeux de hasard, les pierres dressées et les flèches divinatoires sont une souillure, œuvre du diable (sourate 5, verset 90). C'est encore un exemple d'abrogation."
+     "texte": "L'interdiction du vin est venue en trois temps, ou même quatre. D'abord, un verset dit que dans le vin et le jeu de hasard il y a un grand péché et quelques avantages pour les hommes (sourate 2, verset 219). Ensuite, un autre dit : ne vous approchez pas de la prière quand vous êtes ivres (sourate 4, verset 43). Enfin, le dernier dit que le vin, les jeux de hasard, les pierres dressées et les flèches divinatoires sont une souillure, une œuvre du diable. Évitez-les (sourate 5, verset 90). Selon le hadith de Mouslim, Mahomet a maudit dix personnes pour le vin, entre autres celui qui le fait, celui qui le vend et celui qui le boit (Tirmidhi, hadith 1295). Les savants disent : tout ce qui enivre est interdit, même en petite quantité (Mouslim, hadith 2003)."
     },
     {
-     "sous_titre": "Ce que Dieu a montré à Pierre"
+     "texte": "C'est un exemple de ce que les savants appellent l'abrogation : un verset plus récent remplace un verset plus ancien. Les musulmans eux-mêmes reconnaissent que le premier verset n'est plus valable. Nous en reparlerons à propos du Coran."
     },
     {
-     "texte": "Dans l'ancienne alliance, Dieu avait aussi donné à Israël des règles alimentaires : le porc était impur pour les juifs (Lévitique 11:7). Mais dans la nouvelle alliance, Dieu a montré à Pierre, dans une vision, une nappe pleine d'animaux purs et impurs, et une voix lui dit : lève-toi, Pierre, tue et mange. Pierre refusa, disant qu'il n'avait jamais rien mangé d'impur. La voix répondit : ce que Dieu a déclaré pur, ne le regarde pas comme souillé (Actes 10:13-15). Cette vision préparait Pierre à aller chez un païen, Corneille, pour lui annoncer l'Évangile. Les barrières de nourriture qui séparaient les peuples tombaient."
+     "sous_titre": "L'argent qui rapporte de l'argent"
     },
     {
-     "verset": "Ac 10:13-15"
-    },
-    {
-     "texte": "Paul dit : tout ce que Dieu a créé est bon, et rien ne doit être rejeté, pourvu qu'on le prenne avec actions de grâces, parce que tout est sanctifié par la parole de Dieu et par la prière (1 Timothée 4:4-5). Le chrétien est libre de manger du porc ; mais il est aussi libre de ne pas en manger, par amour pour son voisin musulman."
-    },
-    {
-     "verset": "1 Tm 4:4-5"
-    },
-    {
-     "sous_titre": "L'amour avant la liberté"
-    },
-    {
-     "texte": "Paul dit encore : ce n'est pas un aliment qui nous rapproche de Dieu (1 Corinthiens 8:8). Et ailleurs : si pour un aliment ton frère est attristé, tu ne marches plus selon l'amour (Romains 14:15). Quand tu invites un musulman, ne lui sers pas de porc, ne pose pas d'alcool sur la table, achète si possible de la viande halal, et éloigne ton chien. Tu ne renies pas ta liberté : tu la mets au service de l'amour, pour qu'il puisse entendre l'Évangile sans être choqué."
+     "texte": "Il y a une autre interdiction qui touche la vie quotidienne : le « riba », l'intérêt. Le Coran dit : Allah a permis la vente et a interdit l'intérêt (sourate 2, verset 275). Et il menace de guerre contre Allah et son messager ceux qui continuent à prendre l'intérêt (sourate 2, versets 278 et 279). C'est pourquoi on trouve aujourd'hui des banques dites « islamiques », qui ne prêtent pas contre intérêt, mais fonctionnent par partage de profit, par achat et revente. Beaucoup de musulmans ordinaires utilisent quand même des banques normales, en disant que c'est une nécessité. Les jeux de hasard, comme les loteries et les paris, sont aussi interdits."
     }
    ]
   },
   {
    "numero": "5",
-   "titre": "Les images, la musique, l'or et la soie",
-   "references": [
-    "Ex 20:4-5",
-    "Ps 150:3-6"
-   ],
+   "titre": "Les petites règles de chaque jour",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Les images"
+     "sous_titre": "La salutation"
     },
     {
-     "texte": "Beaucoup de savants musulmans interdisent de dessiner ou de sculpter des êtres vivants, hommes ou animaux. Boukhari rapporte que ceux qui seront le plus sévèrement châtiés au jour de la résurrection seront ceux qui font des images (Boukhari, hadith 5950). C'est pourquoi les mosquées ne sont décorées que de calligraphies et de motifs géométriques. Aujourd'hui, beaucoup de musulmans utilisent pourtant des photos, la télévision, les téléphones ; les avis sont partagés."
+     "texte": "Le musulman salue en disant : « as-salamou alaykoum », « que la paix soit sur vous ». On répond : « wa alaykoum as-salam », « et sur vous la paix ». Mahomet a dit : « Vous n'entrerez pas au paradis tant que vous n'aurez pas cru, et vous ne croirez pas tant que vous ne vous serez pas aimés. Voulez-vous que je vous indique une chose qui vous fera vous aimer ? Répandez le salut entre vous » (Mouslim, hadith 54). Mais attention. Pour les non-musulmans, il y a une règle spéciale. Un hadith dit : « Ne commencez pas à saluer les juifs et les chrétiens. Si vous en rencontrez un sur la route, poussez-le vers le bord » (Mouslim, hadith 2167). Les savants se divisent : certains disent que c'est valable seulement pour le temps de la guerre, d'autres que la règle reste. Si ton voisin musulman te salue avec chaleur, il le fait par bonté, et non parce que la règle le dit."
     },
     {
-     "sous_titre": "La musique"
+     "sous_titre": "Le repas"
     },
     {
-     "texte": "Il y a aussi un débat sur la musique. Un hadith rapporté par Boukhari parle de gens qui, à la fin des temps, considéreront comme permis la fornication, la soie, le vin et les instruments de musique (Boukhari, hadith 5590). Les salafistes interdisent les instruments, sauf parfois le tambourin. D'autres musulmans, notamment les soufis, chantent et jouent de la musique dans leurs cérémonies. En Afrique, la musique accompagne souvent les fêtes religieuses."
+     "texte": "On commence le repas en disant « bismillah ». On mange de la main droite, de ce qui est devant soi. On ne mange pas à pleine panse : un hadith dit que le fils d'Adam ne remplit aucun récipient pire que son ventre, et qu'il lui suffit de quelques bouchées, ou alors un tiers pour la nourriture, un tiers pour la boisson, un tiers pour le souffle (Tirmidhi, hadith 2380). On finit en disant « al-hamdou lillah », « louange à Allah ». On lèche ses doigts avant de les laver. On ne boit pas en soufflant dans le récipient. Voilà pourquoi chez un musulman, tu verras souvent des gestes précis à table."
     },
     {
-     "texte": "La Bible, elle, invite à louer Dieu avec des instruments : louez-le au son de la trompette, louez-le avec le luth et la harpe, louez-le avec le tambourin et avec des danses (Psaume 150:3-4). Le chrétien peut s'en réjouir, sans mépriser son voisin qui pense autrement."
+     "sous_titre": "Le sommeil"
     },
     {
-     "sous_titre": "L'or et la soie"
+     "texte": "On dort sur le côté droit, avec la main droite sous la joue. Avant de dormir, on récite certains versets, comme le verset du Trône, et on dit une prière. Un hadith dit que celui qui récite le verset du Trône avant de dormir est protégé jusqu'au matin (Boukhari, hadith 2311). Le soir, on ferme les portes et on éteint le feu."
     },
     {
-     "texte": "Les hommes musulmans ne doivent pas porter d'or ni de soie, que les hadiths réservent aux femmes. On voit donc rarement un musulman pieux avec une alliance en or."
+     "sous_titre": "Les éternuements et les bâillements"
+    },
+    {
+     "texte": "Quand on éternue, on dit « al-hamdou lillah ». Celui qui entend répond « yarhamouka Allah », « qu'Allah te fasse miséricorde ». Et on essaie de bâiller la bouche fermée, car Satan rit dans la bouche ouverte (Boukhari, hadith 6223)."
+    },
+    {
+     "sous_titre": "La maison"
+    },
+    {
+     "texte": "On entre chez les gens en demandant la permission trois fois : si on ne reçoit pas de réponse, on s'en va (sourate 24, verset 27 ; Boukhari, hadith 6245). C'est pourquoi, dans un quartier musulman, on entend souvent un visiteur dire « as-salamou alaykoum » en restant à la porte. Un homme musulman ne reste pas seul dans une pièce fermée avec une femme qui n'est pas de sa famille. On sépare les hommes et les femmes dans beaucoup de réunions. Nous y reviendrons."
+    },
+    {
+     "sous_titre": "L'habillement"
+    },
+    {
+     "texte": "La règle pour l'homme est de couvrir au moins de la taille jusqu'aux genoux. La règle pour la femme est de couvrir tout le corps, sauf, selon les écoles, le visage et les mains. Nous en parlerons dans l'enseignement sur la femme. Les hommes ne doivent pas porter de soie ni d'or (Boukhari, hadith 5863). Ils ne doivent pas non plus laisser leurs vêtements traîner sous les chevilles (Boukhari, hadith 5787). Voilà pourquoi tu vois des hommes musulmans pieux avec des pantalons courts, au-dessus des chevilles."
+    },
+    {
+     "sous_titre": "Les images et la musique"
+    },
+    {
+     "texte": "Beaucoup de savants interdisent de dessiner ou de sculpter des êtres vivants. Boukhari rapporte que ceux qui seront le plus durement punis le jour de la résurrection sont ceux qui imitent la création d'Allah (Boukhari, hadith 5950). Voilà pourquoi les mosquées sont décorées seulement avec de la calligraphie et des motifs géométriques. Aujourd'hui, la plupart des musulmans utilisent des photos et la télévision, mais les savants stricts les déconseillent."
+    },
+    {
+     "texte": "Pour la musique, il y a un vrai débat. Un hadith de Boukhari parle de gens qui, à la fin des temps, permettront la fornication, la soie, le vin et les instruments de musique (Boukhari, hadith 5590). Les salafistes interdisent les instruments, sauf le tambourin pour les mariages. D'autres musulmans, comme les soufis, chantent et jouent en l'honneur d'Allah. Chez nous, la musique accompagne souvent les fêtes musulmanes, et tu verras que le sujet divise les familles."
     }
    ]
   },
   {
    "numero": "6",
-   "titre": "Les peines de la loi",
-   "references": [
-    "Jn 8:7-11",
-    "Rm 13:4"
-   ],
+   "titre": "Les peines prévues par la loi",
+   "references": [],
    "blocs": [
     {
      "sous_titre": "Les « houdoud »"
     },
     {
-     "texte": "La charia prévoit des peines fixes pour certains crimes, appelées « houdoud », les limites. Le Coran ordonne de couper la main du voleur et de la voleuse (sourate 5, verset 38), et de donner cent coups de fouet à la fornicatrice et au fornicateur (sourate 24, verset 2). Les hadiths ajoutent la lapidation pour les personnes mariées qui commettent l'adultère, des coups de fouet pour la consommation d'alcool, et la mort pour l'apostat. Ces peines ne sont appliquées que dans un petit nombre de pays, et souvent avec des conditions de preuve très strictes. Mais dans certaines régions du nord du Nigeria, des tribunaux islamiques ont prononcé des condamnations à la lapidation ou à l'amputation au début des années 2000, et des groupes extrémistes de la région les appliquent sans procès."
+     "texte": "La charia prévoit des peines fixes, que le juge ne peut pas changer, pour certains crimes. On les appelle les « houdoud », les limites. Voici les principales."
     },
     {
-     "sous_titre": "Jésus et la femme adultère"
+     "texte": "Pour le vol, on coupe la main (sourate 5, verset 38). Les savants précisent des conditions : la chose volée doit avoir une valeur minimale, avoir été gardée en lieu sûr, le voleur ne doit pas avoir volé par faim. Pour la fornication, c'est-à-dire des relations sexuelles hors mariage entre deux personnes non mariées, cent coups de fouet (sourate 24, verset 2). Pour l'adultère d'une personne mariée, selon les hadiths, c'est la lapidation, c'est-à-dire la mort à coups de pierres (Boukhari, hadith 6812 ; Mouslim, hadith 1691). Pour la fausse accusation d'adultère, quatre-vingts coups de fouet (sourate 24, verset 4). Pour l'alcool, des coups de fouet selon la tradition. Pour le brigandage, la mort, ou la main et le pied coupés (sourate 5, verset 33). Et pour l'apostasie, c'est-à-dire quitter l'islam, la mort : Mahomet aurait dit : « Celui qui change de religion, tuez-le » (Boukhari, hadith 3017)."
     },
     {
-     "texte": "L'Évangile raconte qu'on amena à Jésus une femme surprise en adultère, en lui rappelant que la loi de Moïse ordonnait de la lapider. Jésus dit : que celui de vous qui est sans péché jette le premier la pierre contre elle. Un à un, les accusateurs s'en allèrent. Jésus dit à la femme : moi non plus, je ne te condamne pas ; va, et ne pèche plus (Jean 8:7-11). Jésus n'a pas dit que l'adultère était sans importance ; il a dit « ne pèche plus ». Mais il a montré que tous sont pécheurs devant Dieu, et qu'il est venu pour sauver, non pour condamner."
+     "sous_titre": "Ce qu'il faut bien comprendre"
     },
     {
-     "texte": "La Bible reconnaît le rôle des autorités civiles pour punir le mal (Romains 13:4). Mais le chrétien ne cherche pas à imposer une loi religieuse par la force de l'État : il cherche à changer les cœurs par l'Évangile."
+     "texte": "Il faut être exact. Ces peines ne sont pas appliquées dans tous les pays musulmans. Beaucoup de pays n'appliquent presque rien. Les savants mettent des conditions de preuve très dures : pour la lapidation, il faut par exemple quatre témoins qui ont vu l'acte, ou un aveu répété. Mais ces peines existent dans le droit : elles ne sont pas des inventions des extrémistes. Elles viennent du Coran et des hadiths. Et dans certains endroits, elles sont appliquées. En Arabie saoudite, en Iran, au Soudan, en Mauritanie, dans le nord du Nigeria, dans douze États qui ont adopté la charia pénale depuis 1999 et 2000, des gens ont été condamnés au fouet, à l'amputation, ou à la lapidation, même si les exécutions de lapidation sont rares. Des groupes comme Boko Haram, qui ont fait tant de mal au nord du Cameroun, au Tchad, au Niger et au Nigeria, justifient leurs actes par ces textes."
+    },
+    {
+     "texte": "Sois bien précis : au Cameroun, la loi civile s'applique, et pas la charia pénale. Mais les chefs traditionnels musulmans, les lamibés du Nord, jugent encore selon la loi coutumière et religieuse pour certaines affaires de famille."
+    },
+    {
+     "sous_titre": "Pourquoi c'est important"
+    },
+    {
+     "texte": "Ces peines montrent une chose : dans la loi islamique, le péché est aussi un crime. Il n'y a pas, comme dans la vie du chrétien, une frontière entre ce que Dieu juge et ce que l'État juge. Voilà pourquoi les musulmans qui se convertissent à Jésus prennent un grand risque. Dans de nombreux pays, un musulman qui change de religion peut être renié, chassé de sa famille, emprisonné, ou tué. Dans d'autres pays comme le Cameroun, les menaces viennent surtout de la famille et du quartier. Nous y reviendrons dans l'enseignement sur le suivi."
     }
    ]
   },
   {
    "numero": "7",
-   "titre": "Une loi qui enferme, une grâce qui libère",
-   "references": [
-    "Ga 4:9",
-    "Jn 8:31-32"
-   ],
+   "titre": "Le calendrier et les jours spéciaux",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le poids des règles"
+     "sous_titre": "Une année qui compte depuis l'Hégire"
     },
     {
-     "texte": "Imagine la vie d'un musulman très pieux. Dès son réveil, il doit penser à la manière de se lever, de se laver, de prier ; à manger de la main droite, à entrer aux toilettes du pied gauche, à ne pas faire face à La Mecque, à vérifier que la viande est halal, que ses vêtements ne portent aucune trace d'impureté, que sa femme n'est pas en période de règles. Chaque erreur peut rendre sa prière invalide et alourdir le plateau des mauvaises actions. Beaucoup vivent cela avec ferveur, d'autres avec angoisse, d'autres encore laissent tomber la plupart des règles et se sentent coupables."
+     "texte": "Le musulman ne compte pas les années comme nous. Son calendrier commence en 622, l'année où Mahomet est parti de La Mecque pour Médine. Ce départ s'appelle l'« hégire ». Voilà pourquoi on écrit « année 1447 de l'Hégire » et non 2025. L'année compte douze mois lunaires, d'environ trente jours, soit trois cent cinquante-quatre jours. Elle est donc plus courte que la nôtre d'une dizaine de jours. Les mois sont : mouharram, safar, rabi al-awal, rabi ath-thani, joumada al-oula, joumada ath-thania, rajab, chaabane, ramadan, chawwal, dhou al-qida et dhou al-hijja."
     },
     {
-     "sous_titre": "Revenir à de faibles rudiments ?"
+     "sous_titre": "Les quatre mois sacrés"
     },
     {
-     "texte": "Paul écrivait aux Galates, des chrétiens qui voulaient revenir aux règles religieuses après avoir connu la grâce : maintenant que vous avez connu Dieu, ou plutôt que vous avez été connus de Dieu, comment retournez-vous à ces faibles et pauvres rudiments, auxquels de nouveau vous voulez vous asservir encore ? (Galates 4:9). Il ne parlait pas de l'islam, mais de toute religion qui croit plaire à Dieu par l'observation de rites extérieurs."
+     "texte": "Quatre mois sont dits « sacrés » : dhou al-qida, dhou al-hijja, mouharram et rajab. Le Coran dit qu'on ne doit pas y faire la guerre (sourate 9, verset 36). Cette règle vient des Arabes d'avant l'islam, qui respectaient ces mois pour pouvoir faire le commerce et le pèlerinage en paix. Mahomet l'a gardée, mais nous avons vu qu'il y a fait aussi des opérations militaires."
     },
     {
-     "verset": "Ga 4:9"
+     "sous_titre": "Le vendredi"
     },
     {
-     "sous_titre": "La vraie liberté"
+     "texte": "Le vendredi est le jour spécial de la semaine. Ce n'est pas un jour de repos obligatoire, comme le sabbat des juifs ou le dimanche des chrétiens. Le Coran dit : quand on appelle à la prière du vendredi, hâtez-vous vers le rappel d'Allah et laissez le commerce. Puis, la prière finie, dispersez-vous sur la terre et cherchez la faveur d'Allah (sourate 62, versets 9 et 10). On se lave, on met ses plus beaux habits, on se parfume, on va à la mosquée écouter le sermon. Mahomet a dit que le vendredi est le meilleur jour sur lequel le soleil se lève (Mouslim, hadith 854). Dans nos villes, tu vois les rues remplies d'hommes en habits clairs le vendredi à midi."
     },
     {
-     "texte": "Jésus a dit : si vous demeurez dans ma parole, vous êtes vraiment mes disciples ; vous connaîtrez la vérité, et la vérité vous affranchira (Jean 8:31-32). La liberté chrétienne n'est pas une permission de faire n'importe quoi : c'est la liberté d'un enfant qui obéit à son Père par amour, et non par peur. Ezéchiel avait annoncé cette œuvre : je répandrai sur vous une eau pure, et vous serez purifiés ; je vous purifierai de toutes vos souillures… je vous donnerai un cœur nouveau (Ézéchiel 36:25-26). Voilà la seule eau qui lave vraiment."
+     "sous_titre": "Les autres dates"
     },
     {
-     "verset": "Ez 36:25"
+     "texte": "Le premier jour de mouharram est le nouvel an de l'Hégire. Le dixième jour, l'« achoura », est un jour de jeûne volontaire. Selon la tradition sunnite, c'est le jour où Moïse a été sauvé de Pharaon. Chez les chiites, c'est le jour du deuil de Hussein, petit-fils de Mahomet, tué à Kerbala en 680, avec des processions et des gens qui se frappent. Le douzième jour de rabi al-awal, on fête le Mawlid, la naissance de Mahomet. Le vingt-septième de rajab, certains fêtent le voyage nocturne. Et le quinzième de chaabane, certains passent la nuit en prière. Les musulmans stricts rejettent ces fêtes comme des innovations."
     }
    ]
   },
   {
    "numero": "8",
-   "titre": "Comment vivre avec nos voisins musulmans",
-   "references": [
-    "1 Co 10:32-33",
-    "Lc 11:39-41"
-   ],
+   "titre": "Comment le musulman vit tout cela",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Des gestes de respect"
+     "sous_titre": "Le poids des règles"
     },
     {
-     "texte": "Voici quelques gestes simples qui montrent ton respect et ouvrent les cœurs : Ne sers jamais de porc ni d'alcool à un musulman, et préviens-le si un plat en contient. Tends les objets et la nourriture de la main droite. Tiens ton chien à l'écart quand tu reçois un musulman. Propose-lui un endroit propre et calme s'il veut prier chez toi. Respecte son jeûne pendant le ramadan : ne mange pas devant lui avec ostentation, et invite-le plutôt à rompre le jeûne chez toi. Ne te moque jamais de ses règles d'hygiène ou de pureté. Paul disait : ne soyez en scandale ni aux Grecs, ni aux Juifs, ni à l'Église de Dieu, de la même manière que moi aussi je m'efforce en toutes choses de complaire à tous (1 Corinthiens 10:32-33)."
+     "texte": "Imagine la vie d'un musulman très pieux. Dès le réveil, il doit penser à beaucoup de choses. Il se lève du bon côté. Il fait ses ablutions. Il prie. Il entre aux toilettes du pied gauche et en ressort du pied droit. Il mange de la main droite. Il vérifie que la viande est halal. Il fait attention à ses vêtements. Il pense à la direction de La Mecque. Il pense à ses règles de pureté. Chaque erreur peut rendre sa prière invalide."
     },
     {
-     "sous_titre": "Une conversation sur le cœur"
+     "texte": "Je le redis simplement. La vie d'un musulman pieux est comme une longue liste de choses à faire et à ne pas faire. Beaucoup vivent cela avec joie et fierté. Ils disent : « C'est la loi d'Allah, c'est beau, ça me protège. » D'autres vivent cela avec angoisse. Il y a des gens qui ont une obsession de la pureté, et qui répètent leurs ablutions dix fois par peur d'avoir oublié une goutte. Et d'autres, la grande majorité dans nos villes, vivent un islam à moitié : ils prient quand ils peuvent, ils jeûnent le ramadan, et ils laissent tomber le reste. Ils se sentent un peu coupables, mais ils continuent."
     },
     {
-     "texte": "Ces gestes ouvrent la porte à une conversation. Un jour, ton ami te demandera peut-être pourquoi tu ne te laves pas avant de prier. Tu pourras lui raconter comment Jésus a parlé aux pharisiens : vous nettoyez le dehors de la coupe et du plat, et à l'intérieur vous êtes pleins de rapine et de méchanceté. Insensés ! celui qui a fait le dehors n'a-t-il pas fait aussi le dedans ? (Luc 11:39-40). Puis tu pourras lui demander : « Comment fais-tu pour laver ton cœur ? »"
+     "sous_titre": "Ce qui plaît dans cette loi"
     },
     {
-     "verset": "Lc 11:39-41"
-    },
-    {
-     "sous_titre": "On raconte…"
-    },
-    {
-     "texte": "On raconte qu'un jeune musulman de Maroua, très scrupuleux, passait parfois une heure à refaire ses ablutions parce qu'il avait toujours peur qu'une goutte d'eau n'ait pas atteint une partie de son corps, ou qu'une trace d'urine ne rende sa prière invalide. Un camarade chrétien, qui le voyait épuisé, lui lut un jour Hébreux 10:22 : approchons-nous avec un cœur sincère, dans la plénitude de la foi, les cœurs purifiés d'une mauvaise conscience, et le corps lavé d'une eau pure. Le jeune homme dit : « Une conscience purifiée ? Moi, ma conscience n'est jamais tranquille. » Ce fut le début de longues conversations, et, quelques années plus tard, de sa foi en Jésus, qui l'a libéré de cette angoisse."
+     "texte": "Soyons justes. Cette loi donne de la discipline. Elle donne un sentiment d'appartenance. Elle protège contre l'alcool et contre beaucoup de désordres. Elle donne un cadre aux familles. Voilà pourquoi tant de gens y tiennent, et pourquoi, dans nos quartiers, l'islam attire des jeunes qui cherchent un cadre."
     }
    ]
   },
   {
    "numero": "9",
    "titre": "Ce que nous retenons",
-   "references": [
-    "Mc 7:15",
-    "Ez 36:26"
-   ],
+   "references": [],
    "blocs": [
     {
      "sous_titre": "Résumons"
     },
     {
-     "texte": "La charia est la loi islamique, tirée du Coran, des hadiths, du consensus et de l'analogie. Chez les sunnites, quatre écoles l'interprètent ; en Afrique de l'Ouest et au nord du Cameroun, c'est surtout l'école malikite. Chaque acte est classé obligatoire, recommandé, permis, déconseillé ou interdit. La pureté rituelle est nécessaire pour prier ; les règles des toilettes sont précises : entrer du pied gauche, ne pas faire face à La Mecque, se nettoyer avec de l'eau ou au moins trois pierres, jamais de la main droite, parce que la moindre impureté peut invalider la prière. La viande doit être halal, le porc, le sang et l'alcool sont interdits, le chien est impur. Beaucoup de savants interdisent les images et les instruments de musique. Des peines sévères sont prévues pour certains crimes."
+     "texte": "La charia est la loi islamique, tirée du Coran, de la sunna, du consensus et de l'analogie. Quatre écoles l'interprètent chez les sunnites ; chez nous, c'est surtout l'école malikite. Chaque acte est classé obligatoire, recommandé, permis, déconseillé ou interdit. La pureté rituelle est nécessaire pour prier. Les règles des toilettes, de la main droite, de la nourriture halal, de l'alcool, de l'intérêt, du chien, des images, de la salutation et du repas règlent chaque instant de la vie. La loi prévoit aussi des peines fixes, comme la main coupée pour le vol, le fouet, la lapidation, et la mort pour l'apostat."
     },
     {
-     "sous_titre": "Le cœur, toujours le cœur"
+     "sous_titre": "Ce que le chrétien retient"
     },
     {
-     "texte": "Jésus nous enseigne que ce qui souille l'homme, c'est ce qui sort de son cœur (Marc 7:15). Aucune règle extérieure ne peut changer le cœur ; seul Dieu le peut. C'est la promesse de la nouvelle alliance, accomplie en Christ : je vous donnerai un cœur nouveau, et je mettrai en vous un esprit nouveau (Ézéchiel 36:26). Voilà ce que nous voulons offrir à nos amis musulmans qui s'efforcent si fort d'être purs."
+     "texte": "Le chrétien retient deux choses. D'abord, il comprend pourquoi son voisin musulman réagit comme il le fait devant un chien, un plat de porc ou un verre de vin : ce n'est pas de l'orgueil, c'est sa religion. Il fait donc attention : il ne sert jamais de porc ni d'alcool, il tend la main droite, il attache son chien. Ensuite, il garde à l'esprit une question que nous reprendrons dans la série « Face à face » : si la loi est si lourde, comment est-ce qu'un homme peut être sûr d'être pur devant Dieu ? Jésus répond à cette question : ce n'est pas ce qui entre dans l'homme qui le souille, mais ce qui sort de son cœur (Marc 7:15). Et le psalmiste demande : qui pourra monter à la montagne de l'Éternel ? Celui qui a les mains innocentes et le cœur pur (Psaume 24:3-4)."
     },
     {
      "texte": "Dans le prochain enseignement, nous regarderons ce que le Coran et les hadiths disent de la femme : son voile, son mariage, son héritage, son témoignage, et la manière dont son mari peut la traiter."
@@ -356,7 +389,7 @@
     "Les rêves, les marabouts, les imams, les rois"
    ],
    "reponse": 1,
-   "explication": "Ce sont les quatre « racines » du droit islamique.",
+   "explication": "Ce sont les quatre racines du droit islamique.",
    "section": "1"
   },
   {
@@ -367,18 +400,40 @@
     "Hanafite"
    ],
    "reponse": 1,
-   "explication": "L'école malikite domine au Maghreb et en Afrique de l'Ouest.",
+   "explication": "Malik ibn Anas est mort en 795 à Médine.",
    "section": "1"
   },
   {
-   "question": "Selon Mouslim, avec combien de pierres au minimum faut-il se nettoyer s'il n'y a pas d'eau ?",
+   "question": "Qu'est-ce que le « haram » ?",
+   "choix": [
+    "Ce qui est permis",
+    "Ce qui est interdit et puni",
+    "Ce qui est recommandé"
+   ],
+   "reponse": 1,
+   "explication": "C'est la cinquième catégorie.",
+   "section": "1"
+  },
+  {
+   "question": "Quelle est la différence entre la petite et la grande impureté ?",
+   "choix": [
+    "Il n'y en a pas",
+    "La petite se lave par les ablutions, la grande par le bain complet",
+    "La petite vient du chien, la grande du porc"
+   ],
+   "reponse": 1,
+   "explication": "Woudou et ghousl.",
+   "section": "2"
+  },
+  {
+   "question": "Selon Mouslim 262, avec combien de pierres au minimum se nettoie-t-on s'il n'y a pas d'eau ?",
    "choix": [
     "Une",
     "Deux",
     "Trois"
    ],
    "reponse": 2,
-   "explication": "Mouslim, hadith 262 : pas moins de trois pierres, ni avec la main droite, ni avec du crottin ou un os.",
+   "explication": "Pas moins de trois pierres, ni avec la main droite.",
    "section": "3"
   },
   {
@@ -393,31 +448,42 @@
    "section": "3"
   },
   {
-   "question": "Selon Jésus, qu'est-ce qui souille l'homme ?",
+   "question": "Que dit le Coran sur l'intérêt, le « riba » ?",
    "choix": [
-    "Ce qu'il mange",
-    "Ce qu'il touche",
-    "Ce qui sort de son cœur"
-   ],
-   "reponse": 2,
-   "explication": "Marc 7:15, 21-22.",
-   "section": "3"
-  },
-  {
-   "question": "Que dit la voix à Pierre dans sa vision ?",
-   "choix": [
-    "Ne mange rien d'impur",
-    "Ce que Dieu a déclaré pur, ne le regarde pas comme souillé",
-    "Lave-toi sept fois"
+    "Il est permis",
+    "Il est interdit : Allah a permis la vente et interdit l'intérêt",
+    "Il est recommandé"
    ],
    "reponse": 1,
-   "explication": "Actes 10:15.",
+   "explication": "Sourate 2, verset 275.",
    "section": "4"
+  },
+  {
+   "question": "Quelle est la peine de l'apostat selon le hadith de Boukhari 3017 ?",
+   "choix": [
+    "Une amende",
+    "La mort",
+    "La prison à vie"
+   ],
+   "reponse": 1,
+   "explication": "« Celui qui change de religion, tuez-le. »",
+   "section": "6"
+  },
+  {
+   "question": "Quelle est la peine du voleur selon la sourate 5, verset 38 ?",
+   "choix": [
+    "Une amende",
+    "La main coupée",
+    "L'exil"
+   ],
+   "reponse": 1,
+   "explication": "Avec des conditions strictes.",
+   "section": "6"
   }
  ],
  "devoir": [
-  "Lis Marc 7:1-23 et Actes 10:1-48. Note comment Dieu fait tomber les barrières de pureté pour que l'Évangile atteigne tous les peuples.",
   "Fais la liste des gestes concrets que tu peux adopter pour recevoir un voisin musulman avec respect.",
+  "Lis Marc 7:1-23 et Actes 10:1-48. Note comment Dieu fait tomber les barrières de pureté.",
   "Prie pour un musulman que tu connais, afin qu'il découvre la purification du cœur."
  ],
  "prieres_liees": [],
