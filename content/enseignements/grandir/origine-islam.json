@@ -1,714 +1,573 @@
 {
  "id": "enseignement-origine-islam",
- "titre": "L'islam : d'où vient-il, et que dit-il de Jésus ?",
+ "titre": "L'islam : qu'est-ce que c'est, et d'où vient-il ?",
  "serie": "Grandir",
  "theme": "Fondations",
  "auteur": "Yeshaya",
- "resume": "Beaucoup de chrétiens vivent à côté de musulmans, mais ils ne savent pas ce qu'est l'islam, et ils ne savent pas répondre à leurs questions. Cet enseignement raconte d'où vient l'islam, explique ce que croient les musulmans, et montre ce que le Coran dit de Jésus. Il répond aussi à trois grandes questions. Est-ce que l'islam existe depuis Adam ? Est-ce que les chrétiens et les musulmans ont le même Dieu ? Est-ce que Dieu a donné une nouvelle révélation après Jésus ? Le but est simple : connaître la vérité, et aimer nos voisins musulmans.",
+ "resume": "Avant d'entrer dans l'histoire de Mahomet et du Coran, il faut savoir de quoi on parle. Que veut dire le mot « islam » ? Qu'est-ce qu'un musulman ? Comment devient-on musulman ? Sur quoi repose la foi musulmane ? Qu'est-ce que la charia ? Comment le musulman sait-il ce qui est permis et ce qui est interdit ? Que se passe-t-il dans une mosquée ? Quel est le calendrier des musulmans, et quelles sont leurs fêtes ? Que veulent dire les mots que l'on entend tous les jours : inch'Allah, bismillah, Alhadji ? Et comment l'islam est-il arrivé jusqu'au Cameroun ? Cet enseignement ouvre la série « L'islam de A à Z ».",
  "image": "/assets/personnages/femme-voilee-regard-ciel.webp",
  "verset_de_base": "Jn 14:6",
- "lecture_minutes": 42,
+ "lecture_minutes": 35,
  "objectifs": [
-  "Connaître l'histoire des débuts de l'islam.",
-  "Savoir ce que croient les musulmans.",
-  "Comparer ce que le Coran dit de Jésus et ce que la Bible dit de Jésus.",
-  "Savoir répondre avec vérité à deux questions : est-ce que l'islam existe depuis Adam, et est-ce que nous avons le même Dieu ?",
-  "Aimer les musulmans et leur présenter Jésus avec respect."
+  "Comprendre le sens des mots islam, musulman, Allah, oumma, charia.",
+  "Savoir comment on devient musulman, et ce que dit la profession de foi.",
+  "Connaître les trois niveaux de la religion musulmane : l'islam, la foi et l'excellence.",
+  "Connaître les sources de l'autorité en islam et les cinq catégories des actes.",
+  "Connaître la mosquée, ses responsables, le calendrier musulman et les fêtes.",
+  "Connaître les grandes étapes de l'histoire de l'islam jusqu'au Cameroun."
  ],
- "introduction": "Dans beaucoup de pays, les chrétiens et les musulmans vivent ensemble. Ils vivent dans la même famille, dans le même quartier, dans le même bureau. On mange ensemble pendant les fêtes. On travaille ensemble. Parfois, les familles se marient entre elles. Et pourtant, beaucoup de chrétiens ne savent presque rien de l'islam.\n\nAlors, que se passe-t-il ? Un jour, un ami musulman dit au chrétien : « Ta Bible a été changée. » Ou bien il dit : « Jésus n'est pas mort sur la croix. » Ou encore : « Abraham était musulman. » Ou : « Nous avons le même Dieu, il n'y a pas de différence. » Et le chrétien ne sait pas quoi répondre. Il reste sans voix, ou bien il se fâche. En d'autres termes, il n'est pas préparé.\n\nCet enseignement n'est pas écrit contre les musulmans. Je le dis clairement : les musulmans sont nos prochains. Dieu les aime. Beaucoup d'entre eux cherchent Dieu sincèrement. Mais l'amour ne peut pas marcher sans la vérité. Jésus a dit : je suis le chemin, la vérité, et la vie. Nul ne vient au Père que par moi (Jean 14:6).\n\nVoici donc ce que nous allons faire. D'abord, nous allons voir d'où vient l'islam. Ensuite, nous allons voir ce qu'il enseigne, et ce qu'il dit de Jésus. Enfin, nous allons répondre honnêtement aux grandes questions que posent nos amis musulmans.",
+ "introduction": "Dans nos villes et dans nos villages, nous entendons chaque jour l'appel à la prière qui descend du minaret. Nous voyons des hommes en grand boubou qui se lavent les pieds avant d'entrer à la mosquée. Nous voyons des femmes voilées, des chapelets entre les doigts, des moutons attachés devant les maisons à la veille de la Tabaski. Nous entendons des mots : « inch'Allah », « bismillah », « Alhadji ». Nos voisins, nos collègues, parfois des membres de notre propre famille sont musulmans.\n\nEt pourtant, beaucoup de chrétiens ne savent presque rien de l'islam. Ils ne savent pas ce que veut dire ce mot. Ils ne savent pas ce que croit leur voisin. Ils ne savent pas pourquoi il prie cinq fois par jour, pourquoi il jeûne un mois entier, pourquoi il ne mange pas de porc. En d'autres termes, ils vivent à côté de l'islam, mais ils ne le connaissent pas.\n\nCette série veut combler ce vide. Elle s'appelle « L'islam de A à Z ». Nous allons avancer pas à pas. Dans ce premier enseignement, nous n'allons pas encore raconter l'histoire de Mahomet. Nous allons d'abord apprendre à connaître l'islam lui-même : ses mots, sa foi, sa loi, sa mosquée, son calendrier, sa communauté, et la manière dont il s'est répandu jusqu'à chez nous. C'est un peu comme quand on arrive dans un nouveau pays : avant de lire son histoire, on apprend d'abord sa langue, ses coutumes et ses lieux.\n\nNous allons nous appuyer sur ce que disent les musulmans eux-mêmes, dans leurs livres. Nous voulons décrire l'islam tel qu'il est, honnêtement. Le regard de la Bible viendra plus tard dans la série. Pour l'instant, écoutons et apprenons.",
  "sections": [
   {
    "numero": "1",
-   "titre": "Comment l'islam a commencé",
-   "references": [
-    "Ga 1:8",
-    "1 Jn 4:1"
-   ],
+   "titre": "Que veut dire le mot « islam » ?",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Qui était Mahomet ?"
+     "sous_titre": "Un mot qui veut dire « soumission »"
     },
     {
-     "texte": "L'islam est né en Arabie, au septième siècle après Jésus-Christ. Cela veut dire environ six cents ans après Jésus. Son fondateur s'appelle Mahomet. En arabe, on dit Muhammad. Il est né dans la ville de La Mecque, vers l'an 570."
+     "texte": "Le mot « islam » est un mot arabe. Il vient d'une racine de trois lettres, S, L, M, que l'on retrouve aussi dans le mot « salam », qui veut dire « paix ». Le mot « islam » veut dire « soumission », ou « abandon ». Plus précisément, il veut dire : se soumettre à Dieu, se remettre entièrement à lui."
     },
     {
-     "texte": "Mahomet a perdu ses parents quand il était petit. Il a donc grandi orphelin. Plus tard, il est devenu commerçant, et il a épousé une femme riche, une veuve, qui s'appelait Khadija. À cette époque, La Mecque était une ville où l'on adorait beaucoup de dieux et beaucoup d'idoles. Il y avait aussi des juifs et des chrétiens qui vivaient en Arabie."
+     "texte": "Le mot « musulman » vient de la même racine. En arabe, on dit « muslim ». Il veut dire : « celui qui est soumis », celui qui s'est remis à Dieu. Je le redis simplement : l'islam, c'est la soumission ; le musulman, c'est celui qui se soumet."
     },
     {
-     "sous_titre": "Comment ont commencé les révélations ?"
+     "texte": "Le Coran dit : certes, la religion auprès d'Allah, c'est l'islam (sourate 3, verset 19). Pour le musulman, l'islam n'est donc pas une religion parmi d'autres. C'est la seule vraie religion, celle que Dieu veut pour tous les hommes."
     },
     {
-     "texte": "Selon ce que disent les musulmans, vers l'an 610, Mahomet allait souvent prier et réfléchir seul dans une grotte, sur une montagne. Cette grotte s'appelle Hira. Un jour, dans cette grotte, il dit avoir reçu un message. Il a dit que ce message venait de l'ange Gabriel. Ensuite, il a continué à recevoir des messages pendant environ vingt-deux ans."
+     "sous_titre": "Pourquoi on ne dit pas « mahométan »"
     },
     {
-     "texte": "Que disait-il dans ses prédications ? Il disait qu'il n'y a qu'un seul Dieu. Il disait qu'il y aura un jugement. Il disait qu'il faut abandonner les idoles. Ses compagnons ont appris ces messages par cœur, et certains les ont écrits sur ce qu'ils trouvaient. Plus tard, tous ces messages ont été rassemblés : c'est le livre que l'on appelle le Coran."
+     "texte": "Autrefois, en français, on appelait les musulmans des « mahométans », et l'islam le « mahométisme ». Les musulmans n'aiment pas ces mots. Pourquoi ? Parce qu'ils disent qu'ils n'adorent pas Mahomet. Ils adorent Allah seul. Mahomet est pour eux un prophète, le dernier et le plus grand, mais il n'est pas Dieu. Quand tu parles avec un musulman, dis donc « l'islam » et « les musulmans ». C'est une marque de respect."
     },
     {
-     "sous_titre": "Le départ pour Médine"
+     "sous_titre": "Le mot « Allah »"
     },
     {
-     "texte": "En l'an 622, les gens de La Mecque menaçaient Mahomet. Alors il est parti, avec ses fidèles, vers une autre ville qui s'appelle Médine. Ce départ s'appelle l'hégire. C'est à partir de ce jour que commence le calendrier des musulmans."
-    },
-    {
-     "texte": "À Médine, Mahomet n'est plus seulement un prédicateur. Il devient aussi le chef de la ville, le chef de la politique et le chef de l'armée. En l'an 630, il revient à La Mecque avec une armée, et il prend la ville. Il meurt deux ans plus tard, en 632."
-    },
-    {
-     "texte": "Après sa mort, les chefs qui l'ont remplacé ont conquis beaucoup de pays avec leurs armées : la Syrie, l'Égypte, la Perse, l'Afrique du Nord. Plus tard, l'islam est arrivé en Afrique de l'Ouest. Il est arrivé surtout par les commerçants qui traversaient le désert du Sahara, et parfois aussi par la guerre."
-    },
-    {
-     "sous_titre": "Comment le Coran a été rassemblé"
-    },
-    {
-     "texte": "Voici une chose que beaucoup de gens ignorent. Ce sont les livres des musulmans eux-mêmes qui la racontent. Pendant la vie de Mahomet, le Coran n'était pas encore un livre complet. Il a été rassemblé après sa mort. Ensuite, vers l'an 650, le troisième chef des musulmans, le calife Othman, a fait préparer une version officielle. Et il a donné l'ordre de détruire les autres copies qui circulaient."
-    },
-    {
-     "texte": "Pourquoi est-ce important de le savoir ? Parce que certains disent que le Coran n'a jamais eu aucune différence entre ses copies. Or l'histoire montre qu'il y avait plusieurs copies différentes, et qu'on a brûlé les autres pour n'en garder qu'une."
-    },
-    {
-     "sous_titre": "Pourquoi tout cela compte pour nous"
-    },
-    {
-     "texte": "Voici le point le plus important. Retiens-le bien. L'islam est venu environ six cents ans après Jésus. Et il dit qu'il apporte la dernière révélation, celle qui corrige ce que les chrétiens croient sur Jésus."
-    },
-    {
-     "texte": "Mais l'apôtre Paul avait déjà averti les chrétiens : quand nous-mêmes, quand un ange du ciel annoncerait un autre Évangile que celui que nous vous avons prêché, qu'il soit anathème (Galates 1:8). Et l'apôtre Jean demande d'éprouver les esprits, c'est-à-dire de vérifier d'où ils viennent."
-    },
-    {
-     "verset": "Ga 1:8"
-    },
-    {
-     "texte": "En d'autres termes, un message n'est pas vrai simplement parce qu'on dit qu'il vient d'un ange. Il est vrai s'il est d'accord avec ce que Dieu a déjà dit en Jésus. Si un message contredit Jésus, il ne vient pas de Dieu, même si celui qui l'apporte est très sincère."
+     "texte": "Le mot « Allah » veut simplement dire « Dieu » en arabe. Il vient probablement de « al-ilah », « le dieu ». Les chrétiens qui parlent arabe disent eux aussi « Allah » quand ils parlent de Dieu. Mais pour le musulman, Allah est le Dieu unique tel que le Coran le présente : un seul, sans associé, sans fils, sans égal. Nous étudierons plus tard qui est Allah dans le Coran."
     }
    ]
   },
   {
    "numero": "2",
-   "titre": "Ce que croient les musulmans",
-   "references": [
-    "Ep 2:8-9",
-    "Tt 3:5"
-   ],
+   "titre": "Comment devient-on musulman ?",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Leurs croyances"
+     "sous_titre": "La profession de foi"
     },
     {
-     "texte": "Les musulmans croient en un seul Dieu, qu'ils appellent Allah. Ils croient aux anges. Ils croient à des livres envoyés par Dieu : la Torah de Moïse, les Psaumes de David, l'Évangile de Jésus, et le Coran. Ils croient aux prophètes : Adam, Noé, Abraham, Moïse, Jésus, et Mahomet, qu'ils considèrent comme le dernier prophète. Ils croient au jour du jugement. Et ils croient que tout ce qui arrive a été décidé par Dieu."
+     "texte": "On devient musulman en prononçant, sincèrement, une phrase appelée la « chahada », ce qui veut dire « le témoignage ». Voici cette phrase, en arabe puis en français : « Achhadou an lâ ilâha illâ Allah, wa achhadou anna Mouhammadan rassoûl Allah. » Cela veut dire : « Je témoigne qu'il n'y a pas de divinité en dehors d'Allah, et je témoigne que Muhammad est le messager d'Allah. »"
     },
     {
-     "sous_titre": "Les cinq piliers"
+     "texte": "Retiens bien les deux parties de cette phrase. La première partie dit qu'il n'y a qu'un seul Dieu. La deuxième partie dit que Mahomet est son messager. Les deux vont ensemble. Celui qui croit en un seul Dieu, mais qui ne reconnaît pas Mahomet comme messager, n'est pas musulman."
     },
     {
-     "texte": "La vie religieuse du musulman repose sur cinq obligations. On les appelle les cinq piliers, comme les piliers qui tiennent une maison."
+     "sous_titre": "Comment cela se passe"
     },
     {
-     "texte": "Le premier pilier, c'est la profession de foi, qu'on appelle la chahada. Le musulman dit : « Il n'y a de dieu que Dieu, et Mahomet est son messager. »"
+     "texte": "Pour devenir musulman, il suffit de dire cette phrase avec conviction, de préférence devant des témoins, souvent devant un imam à la mosquée. Beaucoup prennent d'abord un bain rituel complet. Ensuite, on apprend à prier. Il n'y a pas de longue préparation, pas de baptême, pas de période d'essai. En quelques minutes, une personne peut devenir musulmane."
     },
     {
-     "texte": "Le deuxième pilier, ce sont les cinq prières de chaque jour."
+     "texte": "Prenons un exemple de chez nous. Un jeune homme veut épouser une jeune fille musulmane. La famille lui dit : « Viens à la mosquée vendredi. » Il y va, l'imam lui fait répéter la chahada, on lui donne un nom musulman, et à partir de ce jour-là, la communauté le considère comme musulman."
     },
     {
-     "texte": "Le troisième pilier, c'est l'aumône obligatoire, c'est-à-dire l'argent donné aux pauvres."
+     "sous_titre": "On naît musulman"
     },
     {
-     "texte": "Le quatrième pilier, c'est le jeûne pendant le mois de ramadan."
+     "texte": "Il faut savoir aussi une autre chose. Selon un hadith, chaque enfant naît dans la « fitra », c'est-à-dire dans la nature première, soumise à Dieu ; ce sont ses parents qui en font un juif, un chrétien ou un adepte d'une autre religion (Boukhari, hadith 1385). Pour beaucoup de musulmans, tout homme naît donc musulman. Celui qui devient musulman ne « se convertit » pas : il « revient » à la religion naturelle. C'est pourquoi certains disent « un revenu » au lieu de dire « un converti »."
     },
     {
-     "texte": "Le cinquième pilier, c'est le pèlerinage à La Mecque, pour celui qui en a les moyens."
+     "texte": "L'enfant né dans une famille musulmane est musulman dès sa naissance. Au septième jour, on lui donne un nom, et souvent on sacrifie un mouton : c'est la cérémonie qu'on appelle « l'aqiqa ». On lui murmure aussi l'appel à la prière à l'oreille, pour que la première parole qu'il entende soit le nom d'Allah. Les garçons sont circoncis."
     },
     {
-     "sous_titre": "Comment est-ce qu'un musulman est sauvé ?"
+     "sous_titre": "Et celui qui veut quitter l'islam ?"
     },
     {
-     "texte": "Pour l'islam, l'homme ne naît pas pécheur. Il doit simplement se soumettre à Dieu et faire ce qui est demandé. Au jour du jugement, Dieu mettra sur une balance les bonnes actions et les mauvaises actions. Et Dieu pardonnera à qui il voudra."
-    },
-    {
-     "texte": "Cela veut dire une chose très lourde : le musulman ne peut jamais être sûr d'être sauvé. Il espère, il fait des efforts, mais il ne sait pas. Il vit avec cette question : « Est-ce que ma balance va pencher du bon côté ? »"
-    },
-    {
-     "texte": "La Bible enseigne tout autre chose. Paul dit : c'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres, afin que personne ne se glorifie (Éphésiens 2:8-9)."
-    },
-    {
-     "verset": "Ep 2:8-9"
-    },
-    {
-     "texte": "Autrement dit, dans la Bible, le salut n'est pas un salaire que l'on gagne. C'est un cadeau que l'on reçoit. Prenons un exemple. Un salaire, tu ne sais jamais si tu as assez travaillé pour le mériter. Mais un cadeau, quand on te le donne, tu le reçois, et il est à toi. C'est ainsi que Dieu nous sauve en Jésus."
+     "texte": "Si entrer dans l'islam est très facile, en sortir est très difficile. La loi islamique classique considère celui qui quitte l'islam comme un « apostat », et elle prévoit pour lui des peines très lourdes, jusqu'à la mort. Nous en reparlerons dans la série. Pour l'instant, retiens ceci : dans l'islam, la porte d'entrée est large, mais la porte de sortie est presque fermée."
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "Ce que le Coran dit de Jésus, et ce que la Bible dit de Jésus",
-   "references": [
-    "Lc 1:34-35",
-    "Mc 10:45",
-    "1 Co 15:3-4"
-   ],
+   "titre": "Les trois étages de la religion : l'islam, la foi et l'excellence",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Ce que le Coran dit de juste"
+     "sous_titre": "Le hadith de Gabriel"
     },
     {
-     "texte": "Le Coran parle de Jésus avec beaucoup de respect. Il l'appelle Issa. Le Coran dit que Jésus est né d'une vierge, Marie. Il dit que Jésus est le Messie. Il dit qu'il est une parole venant de Dieu et un esprit venant de Dieu. Il dit que Jésus a fait des miracles : il a guéri des aveugles et des lépreux, et il a ressuscité des morts. Et il dit que Jésus reviendra."
+     "texte": "Pour comprendre comment le musulman voit sa religion, il faut connaître un hadith très célèbre, qu'on appelle « le hadith de Gabriel ». Il se trouve au début du recueil de Mouslim, au hadith 8."
     },
     {
-     "texte": "Ces points sont très précieux. Ce sont des ponts pour la conversation avec un musulman. La Bible aussi dit que Jésus est né de la vierge Marie, par la puissance du Saint-Esprit."
+     "texte": "Le calife Omar raconte : un jour, nous étions assis avec le prophète. Un homme est arrivé, avec des vêtements très blancs et des cheveux très noirs. On ne voyait sur lui aucune trace de voyage, et personne parmi nous ne le connaissait. Il s'est assis tout près du prophète, genou contre genou, et il lui a posé quatre questions."
     },
     {
-     "verset": "Lc 1:34-35"
+     "texte": "Première question : « Qu'est-ce que l'islam ? » Le prophète a répondu : c'est de témoigner qu'il n'y a de dieu qu'Allah et que Muhammad est son messager, d'accomplir la prière, de donner l'aumône, de jeûner le mois de ramadan, et de faire le pèlerinage à la Maison si tu en as les moyens."
     },
     {
-     "sous_titre": "Ce que le Coran refuse"
+     "texte": "Deuxième question : « Qu'est-ce que la foi ? » Le prophète a répondu : c'est de croire en Allah, en ses anges, en ses livres, en ses messagers, au jour dernier, et de croire au destin, au bien comme au mal."
     },
     {
-     "texte": "Mais le Coran refuse trois choses qui sont au cœur de l'Évangile. Écoute bien ces trois choses."
+     "texte": "Troisième question : « Qu'est-ce que l'excellence ? » Le prophète a répondu : c'est d'adorer Allah comme si tu le voyais ; car si tu ne le vois pas, lui te voit."
     },
     {
-     "texte": "Premièrement, le Coran refuse que Jésus soit le Fils de Dieu, Dieu venu dans un corps d'homme. Pour le Coran, Jésus est seulement un messager."
+     "texte": "Quatrième question : il a demandé quand viendrait l'Heure, c'est-à-dire la fin du monde. Le prophète a répondu que celui qui était interrogé n'en savait pas plus que celui qui posait la question."
     },
     {
-     "texte": "Deuxièmement, le Coran refuse que Jésus soit mort sur la croix. Dans la sourate 4, au verset 157, il dit qu'on ne l'a ni tué ni crucifié, mais que cela a seulement semblé ainsi aux gens."
+     "texte": "Puis l'homme est parti. Le prophète a dit à Omar : « C'était Gabriel. Il est venu vous enseigner votre religion. »"
     },
     {
-     "texte": "Troisièmement, puisque Jésus ne serait pas mort, le Coran refuse aussi que Jésus soit mort pour nos péchés et qu'il soit ressuscité."
+     "sous_titre": "Trois étages"
     },
     {
-     "sous_titre": "Ce que dit la Bible"
+     "texte": "Ce hadith montre que la religion musulmane a trois étages, comme une maison à trois niveaux."
     },
     {
-     "texte": "Or c'est justement cela, l'Évangile. Jésus a dit qu'il était venu pour donner sa vie comme le prix de la libération de beaucoup de gens. Et Paul résume l'Évangile ainsi : Christ est mort pour nos péchés, selon les Écritures ; il a été enseveli, et il est ressuscité le troisième jour, selon les Écritures (1 Corinthiens 15:3-4)."
+     "texte": "Le premier étage, c'est l'islam au sens strict : ce sont les actes extérieurs, les cinq piliers. La profession de foi, la prière, l'aumône, le jeûne et le pèlerinage."
     },
     {
-     "verset": "1 Co 15:3-4"
+     "texte": "Le deuxième étage, c'est la foi, qu'on appelle « iman » : ce sont les croyances du cœur, les six articles de foi. Croire en Allah, en ses anges, en ses livres, en ses prophètes, au jour du jugement, et au destin."
     },
     {
-     "texte": "Je le redis plus simplement. Sans la croix, il n'y a pas de pardon. Sans la résurrection, il n'y a pas d'espérance. Le Jésus du Coran est un grand prophète. Le Jésus de la Bible est le Sauveur. On ne peut pas prendre les deux en même temps, car ils ne disent pas la même chose."
+     "texte": "Le troisième étage, c'est l'excellence, qu'on appelle « ihsan » : c'est adorer Dieu comme si on le voyait. C'est la vie intérieure, la recherche d'une piété profonde. Les soufis, les mystiques de l'islam, insistent beaucoup sur ce troisième étage."
     },
     {
-     "sous_titre": "Le Coran a mal compris la Trinité"
-    },
-    {
-     "texte": "Le Coran semble croire que les chrétiens adorent trois dieux : Dieu, Jésus et Marie. On le voit dans la sourate 5, au verset 116. Mais aucun chrétien qui suit la Bible ne croit cela. Nous croyons en un seul Dieu, qui est Père, Fils et Saint-Esprit. Et Marie est une servante de Dieu. Elle est bénie, mais elle n'est pas Dieu. Quand ton ami musulman parle ainsi, corrige ce malentendu avec douceur."
+     "texte": "Nous étudierons en détail les cinq piliers et les six articles de foi dans un enseignement à part. Pour l'instant, retiens cette image de la maison à trois étages : les actes, la foi, et l'excellence."
     }
    ]
   },
   {
    "numero": "4",
-   "titre": "Est-ce que l'islam existe depuis Adam ?",
-   "references": [
-    "Gn 3:15",
-    "Gn 15:6",
-    "Gn 22:13-14",
-    "Jn 8:56"
-   ],
+   "titre": "Sur quoi repose l'autorité dans l'islam ?",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Ce que disent les musulmans"
+     "sous_titre": "Le Coran"
     },
     {
-     "texte": "Les musulmans enseignent que l'islam n'a pas commencé avec Mahomet. Ils disent que l'islam est la religion de tous les prophètes, depuis Adam. Ils disent donc qu'Abraham, Moïse et Jésus étaient musulmans."
+     "texte": "La première autorité, c'est le Coran. Pour le musulman, c'est la parole éternelle d'Allah, descendue sur Mahomet en arabe, mot à mot. Il compte cent quatorze chapitres, appelés « sourates », et environ six mille deux cents versets, appelés « ayat », ce qui veut dire « signes ». Nous lui consacrerons deux enseignements."
     },
     {
-     "texte": "Pourquoi disent-ils cela ? Parce que le mot « islam » veut dire « soumission ». Et ils pensent : Abraham était soumis à Dieu, donc il était musulman. Moïse était soumis à Dieu, donc il était musulman."
+     "sous_titre": "La sunna et les hadiths"
     },
     {
-     "sous_titre": "Ce que montre l'histoire"
+     "texte": "La deuxième autorité, c'est la « sunna », ce qui veut dire « la coutume », « la voie tracée ». C'est la manière de vivre de Mahomet : ce qu'il a dit, ce qu'il a fait, et ce qu'il a approuvé en silence. On connaît la sunna par les « hadiths », qui sont des récits sur Mahomet, transmis de bouche à oreille par une chaîne de témoins, puis mis par écrit dans de grands recueils. Les plus respectés chez les sunnites sont ceux de Boukhari et de Mouslim."
     },
     {
-     "texte": "Mais regardons les faits. L'islam, comme religion, avec son livre, le Coran, avec son prophète, Mahomet, avec sa profession de foi et ses cinq piliers, commence au septième siècle. Pas avant."
+     "texte": "Pourquoi la sunna est-elle si importante ? Parce que le Coran ne dit pas tout. Par exemple, le Coran ordonne de prier, mais il ne dit pas combien de fois par jour, ni comment faire les gestes. C'est la sunna qui le dit. Sans la sunna, le musulman ne saurait pas comment prier, comment jeûner, comment faire le pèlerinage."
     },
     {
-     "texte": "Adam, Abraham, Moïse, David et Jésus n'ont jamais prononcé la chahada. Ils n'ont jamais dit : « Mahomet est le messager de Dieu. » Ils n'ont jamais prié en direction de La Mecque. Ils n'ont jamais lu le Coran, qui n'existait pas encore. En d'autres termes, dire qu'ils étaient musulmans, c'est réécrire leur histoire des centaines d'années après leur mort."
+     "sous_titre": "Le consensus et le raisonnement"
     },
     {
-     "texte": "Prenons un exemple de chez nous. Imagine que quelqu'un crée aujourd'hui une nouvelle association dans ton quartier. Et il dit : « Ton grand-père, mort il y a cinquante ans, était déjà membre de notre association, parce qu'il était un homme honnête. » Tu vas lui répondre : « Mon grand-père était honnête, c'est vrai. Mais il n'a jamais été membre de ton association, puisqu'elle n'existait pas de son vivant. »"
+     "texte": "La troisième autorité, c'est le « consensus » des savants, qu'on appelle « ijma ». Quand les grands savants d'une époque sont tous d'accord sur une question, leur accord fait autorité. Un hadith dit que la communauté de Mahomet ne s'accordera jamais sur une erreur."
     },
     {
-     "sous_titre": "Ce que Dieu a montré depuis Adam"
+     "texte": "La quatrième autorité, c'est le raisonnement par comparaison, qu'on appelle « qiyas ». Quand une situation nouvelle n'est pas prévue par le Coran ni par la sunna, les savants la comparent à une situation connue. Par exemple, le Coran interdit le vin parce qu'il enivre. Les savants en ont conclu que toutes les boissons et toutes les drogues qui enivrent sont interdites, même si elles ne sont pas nommées."
     },
     {
-     "texte": "Alors, quelle était la vraie foi des prophètes ? Pour le savoir, il faut lire ce qu'ils ont eux-mêmes reçu de Dieu."
-    },
-    {
-     "texte": "Dès la chute d'Adam et Ève, Dieu promet qu'un descendant de la femme écrasera la tête du serpent. Plus tard, Abraham crut à l'Éternel, et Dieu le considéra comme juste à cause de sa foi. Ensuite, sur le mont Morija, au moment où Abraham allait offrir son fils, Dieu lui donna un bélier pour le remplacer. Abraham appela ce lieu « l'Éternel pourvoira », ce qui veut dire : Dieu va fournir lui-même."
-    },
-    {
-     "verset": "Gn 22:13-14"
-    },
-    {
-     "texte": "Retiens bien ceci. Le fil qui traverse la Bible depuis Adam, ce n'est pas une liste de règles. C'est un Sauveur promis, et un sacrifice qui prend la place du coupable."
-    },
-    {
-     "sous_titre": "Abraham a vu le jour de Jésus"
-    },
-    {
-     "texte": "Jésus a dit lui-même : Abraham, votre père, a tressailli de joie de ce qu'il verrait mon jour : il l'a vu, et il s'est réjoui (Jean 8:56). Cela veut dire qu'Abraham n'attendait pas un nouveau livre. Il attendait le Christ."
-    },
-    {
-     "verset": "Jn 8:56"
+     "texte": "Retiens ces quatre fondations : le Coran, la sunna, le consensus et le raisonnement par comparaison."
     }
    ]
   },
   {
    "numero": "5",
-   "titre": "Est-ce que les chrétiens et les musulmans ont le même Dieu ?",
-   "references": [
-    "Jn 14:9",
-    "1 Jn 2:22-23",
-    "Rm 8:15",
-    "Ac 17:23"
-   ],
+   "titre": "La charia : la loi de l'islam",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le nom ne suffit pas"
+     "sous_titre": "Le chemin vers le point d'eau"
     },
     {
-     "texte": "Les chrétiens arabes appellent Dieu « Allah ». Leur Bible aussi dit « Allah », et cela depuis bien avant l'islam. Le problème n'est donc pas le mot. Le problème, c'est la personne que l'on décrit avec ce mot."
+     "texte": "Le mot « charia » fait peur à beaucoup de gens, car ils pensent tout de suite aux mains coupées et aux lapidations. Mais à l'origine, ce mot veut dire « le chemin qui mène au point d'eau ». Dans le désert, celui qui trouve le chemin du point d'eau trouve la vie. Pour le musulman, la charia est le chemin tracé par Dieu pour toute la vie de l'homme."
     },
     {
-     "texte": "Prenons un exemple. Deux personnes parlent de « mon ami Paul ». La première dit : « Paul est grand, il est marié, il vend des pagnes au marché. » La deuxième dit : « Paul est petit, il est célibataire, il est enseignant. » Est-ce qu'elles parlent du même Paul ? Non. Le nom est le même, mais la personne est différente. C'est la même chose pour Dieu."
+     "texte": "La charia ne concerne donc pas seulement les punitions. Elle règle tout : la prière, la propreté, la nourriture, l'habillement, le mariage, le divorce, l'héritage, le commerce, les prêts d'argent, les relations entre voisins, la guerre et la paix. En d'autres termes, dans l'islam, il n'y a pas de domaine de la vie qui échappe à la religion."
     },
     {
-     "sous_titre": "Ce que nous avons en commun"
+     "sous_titre": "La charia et le fiqh"
     },
     {
-     "texte": "Les chrétiens et les musulmans croient tous qu'il y a un seul Dieu. Ils croient qu'il a créé le ciel et la terre, qu'il est tout-puissant, qu'il a parlé par des prophètes, et qu'il jugera le monde. Ce sont de bons points de départ pour parler avec un ami musulman. Paul, à Athènes, a commencé ainsi : il est parti de ce que les gens connaissaient déjà."
+     "texte": "Il faut distinguer deux mots. La charia, c'est la loi de Dieu elle-même, parfaite, telle que Dieu la voit. Le « fiqh », qui veut dire « la compréhension », c'est le travail des savants pour comprendre cette loi et l'appliquer aux situations concrètes. C'est un peu comme la différence entre la Constitution d'un pays et les décisions des juges qui l'appliquent."
     },
     {
-     "verset": "Ac 17:23"
+     "sous_titre": "Les cinq catégories des actes"
     },
     {
-     "sous_titre": "Ce qui est différent, et qui est essentiel"
+     "texte": "Comment le musulman sait-il ce qu'il doit faire ? Les savants ont classé tous les actes humains en cinq catégories. C'est très important à connaître, car cela explique la manière de penser de ton voisin musulman."
     },
     {
-     "texte": "Mais écoute bien la suite. La Bible dit que Dieu est Père, Fils et Saint-Esprit. Le Coran le refuse. La Bible dit que Dieu s'est fait homme en Jésus. Le Coran le refuse. La Bible dit que Dieu nous aime au point de donner son Fils pour nous sur la croix. Le Coran le refuse. La Bible dit que le croyant peut appeler Dieu « Papa, Père ». L'islam ne connaît pas Dieu comme Père."
+     "texte": "La première catégorie, ce sont les actes obligatoires, qu'on appelle « fard » ou « wajib ». Celui qui les fait est récompensé. Celui qui ne les fait pas est puni. Par exemple : les cinq prières, le jeûne du ramadan."
     },
     {
-     "verset": "Rm 8:15"
+     "texte": "La deuxième catégorie, ce sont les actes recommandés, qu'on appelle « mustahabb » ou « sunna ». Celui qui les fait est récompensé. Celui qui ne les fait pas n'est pas puni. Par exemple : prier la nuit, jeûner certains jours en dehors du ramadan, se brosser les dents avant la prière."
     },
     {
-     "texte": "Ce ne sont pas de petits détails. C'est le cœur même de qui est Dieu."
+     "texte": "La troisième catégorie, ce sont les actes permis, qu'on appelle « moubah ». Ils sont neutres. On n'est ni récompensé ni puni. Par exemple : manger du riz ou du couscous, se promener."
     },
     {
-     "sous_titre": "Les musulmans eux-mêmes le disent"
+     "texte": "La quatrième catégorie, ce sont les actes déconseillés, qu'on appelle « makrouh ». Celui qui les évite est récompensé. Celui qui les fait n'est pas puni, mais ce n'est pas bien. Par exemple, selon certains savants, manger de l'ail avant d'aller à la mosquée."
     },
     {
-     "texte": "Pose la question à un musulman instruit : « Est-ce que mon Dieu est ton Dieu ? Moi, j'adore Jésus comme Dieu. » Il te répondra presque toujours : « Non. Si tu adores Jésus comme Dieu, alors nous n'adorons pas le même Dieu. » Lui-même le dit. Et il a raison sur ce point."
+     "texte": "La cinquième catégorie, ce sont les actes interdits, qu'on appelle « haram ». Celui qui les fait est puni. Par exemple : boire de l'alcool, manger du porc, voler, commettre l'adultère."
     },
     {
-     "sous_titre": "Ce que répond la Bible"
+     "texte": "Tu entends souvent deux mots : « halal » et « haram ». « Halal » veut dire permis. « Haram » veut dire interdit. Quand ton voisin musulman demande si la viande est « halal », il veut savoir si l'animal a été abattu selon les règles, en prononçant le nom d'Allah, et en laissant couler le sang."
     },
     {
-     "texte": "Jésus a dit : celui qui m'a vu a vu le Père. Et l'apôtre Jean écrit : quiconque nie le Fils n'a pas non plus le Père (1 Jean 2:23)."
+     "sous_titre": "Les écoles de droit"
     },
     {
-     "verset": "1 Jn 2:22-23"
+     "texte": "Pour appliquer la charia, les musulmans sunnites suivent quatre grandes écoles de droit, fondées par quatre savants du huitième et du neuvième siècle : l'école hanafite, l'école malikite, l'école chaféite et l'école hanbalite. Au Cameroun et dans toute l'Afrique de l'Ouest et du Centre, la plupart des musulmans suivent l'école malikite. Nous en reparlerons dans l'enseignement sur les différents courants de l'islam."
     },
     {
-     "texte": "Je le dis donc simplement. On ne peut pas dire : « C'est le même Dieu, adoré de deux façons différentes. » Le musulman sincère cherche le Dieu unique. Mais ce Dieu unique s'est fait connaître complètement en Jésus. Et c'est en Jésus qu'il veut être connu. Voilà le message que nous apportons à nos amis musulmans : « Le Dieu que tu cherches s'est approché de toi en Jésus. »"
+     "sous_titre": "Le mufti et la fatwa"
+    },
+    {
+     "texte": "Quand un musulman ne sait pas si une chose est permise ou interdite, il peut demander l'avis d'un savant. Ce savant s'appelle un « mufti », et son avis s'appelle une « fatwa ». Beaucoup de gens pensent qu'une fatwa est forcément une condamnation à mort. Ce n'est pas vrai. Une fatwa, c'est simplement une réponse juridique à une question. Par exemple : « Est-ce que je peux prier assis si je suis malade ? » La réponse du savant est une fatwa."
     }
    ]
   },
   {
    "numero": "6",
-   "titre": "Est-ce que Dieu a donné une nouvelle révélation après Jésus ?",
-   "references": [
-    "He 1:1-2",
-    "Jude 3",
-    "Ap 22:18"
-   ],
+   "titre": "La mosquée et ses responsables",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le Fils, la dernière parole de Dieu"
+     "sous_titre": "Le lieu de la prosternation"
     },
     {
-     "texte": "L'épître aux Hébreux dit : après avoir autrefois, à plusieurs reprises et de plusieurs manières, parlé à nos pères par les prophètes, Dieu, dans ces derniers temps, nous a parlé par le Fils."
+     "texte": "Le mot « mosquée » vient de l'arabe « masjid », qui veut dire « le lieu où l'on se prosterne ». La mosquée n'est pas la maison de Dieu au sens où Dieu y habiterait. C'est le lieu où les croyants se rassemblent pour prier ensemble."
     },
     {
-     "verset": "He 1:1-2"
+     "texte": "Dans une mosquée, il n'y a ni statues, ni images, ni chaises, en général. Le sol est couvert de tapis ou de nattes. Avant d'entrer, on enlève ses chaussures. À l'entrée, il y a un endroit avec de l'eau, des robinets ou des bouilloires, pour faire les ablutions, c'est-à-dire se laver le visage, les mains, les bras et les pieds avant la prière."
     },
     {
-     "texte": "Qu'est-ce que cela veut dire ? Cela veut dire que Jésus n'est pas un prophète de plus dans une longue liste. Il est la dernière parole de Dieu, et la plus haute. Après le Fils, il n'y a rien à ajouter. Prenons un exemple. Un chef envoie d'abord des messagers dans un village. Puis, à la fin, il vient lui-même. Quand le chef lui-même est venu et a parlé, on n'attend plus un autre messager pour corriger ce qu'il a dit."
+     "sous_titre": "Ce que l'on voit à l'intérieur"
     },
     {
-     "sous_titre": "La foi donnée une fois pour toutes"
+     "texte": "Dans le mur du fond, il y a une niche, un creux en forme d'arc. On l'appelle le « mihrab ». Il indique la direction de La Mecque, la « qibla », vers laquelle tous les musulmans du monde se tournent pour prier. À côté, il y a une sorte d'escalier surmonté d'une petite plate-forme. On l'appelle le « minbar ». C'est de là que l'imam prononce le sermon du vendredi. Et dehors, il y a le minaret, la tour d'où l'on appelle à la prière."
     },
     {
-     "texte": "Jude demande aux chrétiens de combattre pour la foi qui a été transmise aux saints une fois pour toutes."
+     "sous_titre": "L'appel à la prière"
     },
     {
-     "verset": "Jude 3"
+     "texte": "Cinq fois par jour, on entend l'appel à la prière, qu'on appelle « l'adhan ». Voici ce qu'il dit, en français : « Allah est le plus grand » (quatre fois). « Je témoigne qu'il n'y a de dieu qu'Allah » (deux fois). « Je témoigne que Muhammad est le messager d'Allah » (deux fois). « Venez à la prière » (deux fois). « Venez au succès » (deux fois). « Allah est le plus grand » (deux fois). « Il n'y a de dieu qu'Allah. » À l'appel du matin, on ajoute : « La prière est meilleure que le sommeil. »"
     },
     {
-     "texte": "Cela veut dire que si un message vient plus tard pour changer ce que les apôtres ont dit de Jésus, il faut le refuser. Peu importe qui l'apporte : un fondateur de religion, un prophète moderne, ou même quelqu'un qui dit avoir vu un ange."
+     "texte": "Celui qui lance cet appel s'appelle le « muezzin ». Le premier muezzin de l'islam était un ancien esclave noir appelé Bilal, que nous retrouverons dans l'histoire de Mahomet."
     },
     {
-     "sous_titre": "Le Coran lui-même renvoie à l'Évangile"
+     "sous_titre": "L'imam"
     },
     {
-     "texte": "Il y a une chose étonnante. Le Coran dit que la Torah et l'Évangile sont une lumière et un guide. On le lit dans la sourate 5, au verset 46. Et dans le verset suivant, le Coran dit aux chrétiens de juger d'après ce que contient l'Évangile."
+     "texte": "Celui qui dirige la prière s'appelle « l'imam ». Le mot veut dire « celui qui se tient devant ». Il se place devant les fidèles, et tous font les mêmes gestes en même temps que lui. Dans l'islam sunnite, l'imam n'est pas un prêtre. Il n'a pas de pouvoir spécial. N'importe quel homme qui connaît bien le Coran et les règles de la prière peut diriger la prière. Dans les grandes mosquées, il y a souvent un imam principal, nommé par la communauté."
     },
     {
-     "texte": "Or l'Évangile que lisaient les chrétiens au temps de Mahomet, c'est le même que nous lisons aujourd'hui. Nous avons des manuscrits de l'Évangile beaucoup plus anciens que Mahomet. Si l'Évangile était digne de confiance au temps de Mahomet, alors il est digne de confiance aujourd'hui. Et cet Évangile dit clairement que Jésus est mort et qu'il est ressuscité."
+     "texte": "Il y a aussi d'autres titres que tu entends souvent. Le « cheikh » est un savant respecté ou le maître d'une confrérie. Le « marabout », chez nous, est un maître religieux, parfois enseignant du Coran, parfois guérisseur ou faiseur d'amulettes. Les « oulémas » sont les savants en religion. Le « cadi » est un juge qui applique la loi islamique."
+    },
+    {
+     "sous_titre": "La grande prière du vendredi"
+    },
+    {
+     "texte": "Le vendredi est le jour de la grande prière en commun, qu'on appelle la « joumou'a ». Elle a lieu au milieu de la journée. Les hommes doivent y aller. L'imam fait un sermon, qu'on appelle la « khoutba ». Ce n'est pas un jour de repos comme le dimanche pour les chrétiens : après la prière, on peut reprendre le travail. Mais c'est le moment le plus important de la semaine pour la communauté."
     }
    ]
   },
   {
    "numero": "7",
-   "titre": "Aimer et témoigner",
-   "references": [
-    "1 P 3:15",
-    "Lc 6:31",
-    "Mt 10:16",
-    "Ac 4:12"
-   ],
+   "titre": "Le calendrier et les fêtes",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Avec douceur et respect"
+     "sous_titre": "Un calendrier qui suit la lune"
     },
     {
-     "texte": "Pierre dit : soyez toujours prêts à vous défendre, avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous."
+     "texte": "Les musulmans ont leur propre calendrier. Il commence en l'an 622 de notre calendrier, l'année où Mahomet a quitté La Mecque pour Médine. Ce départ s'appelle « l'Hégire ». C'est pourquoi on dit que nous sommes en l'an 1448 « de l'Hégire », par exemple."
     },
     {
-     "verset": "1 P 3:15"
+     "texte": "Ce calendrier suit la lune. Chaque mois commence quand on voit le premier petit croissant de la nouvelle lune. Une année musulmane compte douze mois de vingt-neuf ou trente jours, soit environ trois cent cinquante-quatre jours. Elle est donc onze jours plus courte que notre année. C'est pourquoi le ramadan ne tombe jamais à la même date : chaque année, il commence environ onze jours plus tôt que l'année précédente. Une fois, il tombe en pleine saison sèche ; quelques années plus tard, il tombe pendant les pluies."
     },
     {
-     "texte": "Voici ce que cela veut dire dans la vie de tous les jours. On ne gagne pas un ami musulman en insultant son prophète. On ne le gagne pas en se moquant de sa prière. On ne le gagne pas en mangeant du porc devant lui pour le provoquer. On le gagne en l'aimant, en vivant une vie propre, en priant pour lui, et en lui ouvrant la Bible."
+     "sous_titre": "Les mois importants"
     },
     {
-     "sous_titre": "Prudents et simples"
+     "texte": "Le premier mois s'appelle « Mouharram ». Le neuvième mois s'appelle « Ramadan » : c'est le mois du jeûne. Le dixième s'appelle « Chawwal ». Le douzième s'appelle « Dhoul-Hijja » : c'est le mois du pèlerinage à La Mecque."
     },
     {
-     "texte": "Jésus a dit : soyez prudents comme les serpents, et simples comme les colombes."
+     "sous_titre": "Les deux grandes fêtes"
     },
     {
-     "verset": "Mt 10:16"
+     "texte": "Il y a deux grandes fêtes dans l'islam."
     },
     {
-     "texte": "Dans certains pays et dans certaines familles, un musulman qui devient chrétien peut le payer très cher. Il peut être chassé, frappé, ou même menacé de mort. Alors sois sage. Ne mets pas en danger celui qui s'intéresse à Jésus. Ne raconte pas son secret à tout le monde. Et prépare ton Église à accueillir et à protéger ceux qui viennent de l'islam."
+     "texte": "La première s'appelle « l'Aïd el-Fitr », la fête de la rupture du jeûne. Chez nous, on l'appelle aussi la « petite fête », ou la Korité dans certains pays. Elle a lieu le premier jour du mois qui suit le ramadan. On prie ensemble le matin, on donne une aumône spéciale aux pauvres, on met de beaux habits neufs, on se rend visite et on se demande pardon."
     },
     {
-     "sous_titre": "Il n'y a pas d'autre nom"
+     "texte": "La deuxième s'appelle « l'Aïd al-Adha », la fête du sacrifice. Chez nous, on l'appelle la Tabaski, ou la « grande fête ». Elle a lieu pendant le mois du pèlerinage. Chaque famille qui en a les moyens sacrifie un mouton, en souvenir du sacrifice d'Abraham, à qui Dieu a donné un bélier pour remplacer son fils. La viande est partagée en trois parts : une pour la famille, une pour les amis et les voisins, une pour les pauvres. C'est pour cela que tes voisins musulmans t'apportent souvent de la viande ce jour-là."
     },
     {
-     "texte": "Mais ne cache pas la vérité parce que tu as peur. Pierre a dit : il n'y a de salut en aucun autre ; car il n'y a sous le ciel aucun autre nom qui ait été donné parmi les hommes, par lequel nous devions être sauvés."
+     "sous_titre": "Les autres fêtes"
     },
     {
-     "verset": "Ac 4:12"
-    },
-    {
-     "texte": "Je le redis avec des mots simples. Ton ami musulman a besoin de Jésus, exactement comme toi. Ni plus, ni moins."
+     "texte": "Il y a aussi d'autres jours importants. Le « Maouloud », c'est l'anniversaire de la naissance de Mahomet. Beaucoup de musulmans d'Afrique le fêtent avec des chants et des prières, mais certains courants, comme les salafistes, refusent de le fêter, car ils disent que Mahomet ne l'a jamais fait. « L'Achoura » est le dixième jour du premier mois. Les sunnites jeûnent souvent ce jour-là. Les chiites, eux, y pleurent la mort de Hussein, le petit-fils de Mahomet."
     }
    ]
   },
   {
    "numero": "8",
-   "titre": "Ce que Jésus a dit de lui-même",
-   "references": [
-    "Jn 8:57-59",
-    "Jn 10:30-33",
-    "Mc 14:61-64"
-   ],
+   "titre": "Les mots de tous les jours",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Est-ce que Jésus était seulement un prophète ?"
+     "sous_titre": "Des mots qui disent la foi"
     },
     {
-     "texte": "Beaucoup de musulmans sincères disent : « Nous respectons Jésus comme un grand prophète. Mais il n'a jamais dit qu'il était Dieu. » C'est une question importante. Il faut y répondre avec la Bible ouverte. Alors posons la question : qu'est-ce que Jésus a dit de lui-même ?"
+     "texte": "Le musulman parle de Dieu à chaque instant de sa vie. Voici les expressions que tu entends le plus souvent, et ce qu'elles veulent dire."
     },
     {
-     "sous_titre": "« Avant qu'Abraham fût, je suis »"
+     "texte": "« Bismillah » veut dire : « au nom d'Allah ». On le dit avant de manger, avant de boire, avant de commencer un travail, avant de monter dans une voiture. C'est le début de la phrase « Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux », qui commence presque toutes les sourates du Coran."
     },
     {
-     "texte": "Un jour, des Juifs discutaient avec Jésus au sujet d'Abraham. Jésus leur dit qu'Abraham avait vu son jour et s'en était réjoui. Ils lui répondirent : tu n'as pas encore cinquante ans, et tu as vu Abraham ! Jésus leur dit : en vérité, en vérité, je vous le dis, avant qu'Abraham fût, je suis."
+     "texte": "« Inch'Allah » veut dire : « si Allah le veut ». On le dit chaque fois qu'on parle de l'avenir : « Je viendrai demain, inch'Allah. » Le Coran demande de le dire (sourate 18, versets 23 et 24)."
     },
     {
-     "verset": "Jn 8:57-59"
+     "texte": "« Al-hamdoulillah » veut dire : « louange à Allah ». On le dit quand quelque chose de bien arrive, ou quand on répond à la question « comment ça va ? »."
     },
     {
-     "texte": "Fais bien attention à ces mots. Jésus ne dit pas : « Avant Abraham, j'étais là. » Il dit : « Avant Abraham, je suis. » Or « Je suis » est le nom que Dieu s'est donné quand il a parlé à Moïse dans le buisson ardent. Et les gens qui écoutaient Jésus ont bien compris. Le texte dit qu'ils ont pris des pierres pour le tuer. Pourquoi ? Parce que, chez eux, on tuait à coups de pierres celui qui se faisait l'égal de Dieu."
+     "texte": "« Mach'Allah » veut dire : « c'est ce qu'Allah a voulu ». On le dit pour admirer quelque chose, par exemple un bel enfant, sans attirer le mauvais œil."
     },
     {
-     "sous_titre": "« Moi et le Père nous sommes un »"
+     "texte": "« Soubhan Allah » veut dire : « gloire à Allah ». On le dit quand on est étonné."
     },
     {
-     "texte": "Une autre fois, dans le temple, Jésus dit : moi et le Père nous sommes un. Et encore une fois, les Juifs prirent des pierres pour le tuer. Jésus leur demanda : je vous ai fait voir plusieurs bonnes œuvres venant de mon Père : pour laquelle me lapidez-vous ? Ils répondirent : ce n'est point pour une bonne œuvre que nous te lapidons, mais pour un blasphème, et parce que toi, qui es un homme, tu te fais Dieu."
+     "texte": "« Astaghfiroullah » veut dire : « je demande pardon à Allah ». On le dit quand on a fait une faute, ou quand on entend quelque chose de choquant."
     },
     {
-     "verset": "Jn 10:30-33"
+     "texte": "« Allahou akbar » veut dire : « Allah est le plus grand ». C'est la phrase qui ouvre la prière."
     },
     {
-     "texte": "Est-ce que tu vois ? Même ses ennemis ont compris qu'il disait être Dieu. Et Jésus ne les a pas corrigés. Il ne leur a pas dit : « Vous avez mal compris, je suis seulement un prophète. »"
+     "texte": "« As-salâmou aleykoum » veut dire : « la paix soit sur vous ». C'est la salutation musulmane. On y répond par « wa aleykoum as-salâm » : « et sur vous la paix »."
     },
     {
-     "sous_titre": "Devant le tribunal"
+     "texte": "Quand un musulman prononce le nom de Mahomet, il ajoute : « sallallahou aleyhi wa sallam », ce qui veut dire : « qu'Allah prie sur lui et lui accorde la paix ». C'est un signe de très grand respect."
     },
     {
-     "texte": "La nuit où Jésus a été arrêté, le grand chef des prêtres juifs lui a posé une question solennelle : es-tu le Christ, le Fils du Dieu béni ? Jésus a répondu : je le suis. Et vous verrez le Fils de l'homme assis à la droite de la puissance de Dieu, et venant sur les nuées du ciel. Alors le chef des prêtres a déchiré ses vêtements et a dit : vous avez entendu le blasphème."
+     "sous_titre": "Les titres"
     },
     {
-     "verset": "Mc 14:61-64"
-    },
-    {
-     "texte": "C'est pour cette réponse que Jésus a été condamné à mort. Réfléchis bien. S'il était seulement un prophète, il aurait pu sauver sa vie en disant : « Je suis seulement un homme envoyé par Dieu. » Mais il a maintenu qu'il était le Fils de Dieu, jusqu'à la croix."
-    },
-    {
-     "sous_titre": "Le choix devant chacun"
-    },
-    {
-     "texte": "Alors, voici la conclusion. Un homme qui dit de telles choses ne peut pas être seulement un bon prophète. Soit il disait la vérité, et alors il est vraiment le Fils de Dieu, Dieu venu dans un corps d'homme. Soit il ne disait pas la vérité, et alors il ne pouvait pas être un prophète honnête."
-    },
-    {
-     "texte": "On ne peut pas dire en même temps : « Jésus est un vrai prophète », et : « Ce qu'il a dit de lui-même est faux. » C'est une question que tu peux poser avec douceur à ton ami musulman : « Si Jésus est un vrai prophète, est-ce qu'il ne faut pas croire ce qu'il a dit de lui-même ? »"
+     "texte": "Le titre « Alhadji », pour un homme, ou « Hadja », pour une femme, est donné à celui qui a fait le pèlerinage à La Mecque. Dans le nord du Cameroun, c'est un titre très respecté, souvent porté par les grands commerçants. Le titre « Malam » désigne un maître qui enseigne le Coran. Le « lamido » est le chef traditionnel peul, à la fois chef politique et chef religieux."
     }
    ]
   },
   {
    "numero": "9",
-   "titre": "La croix est un fait de l'histoire",
+   "titre": "L'oumma : la grande famille des croyants",
    "references": [],
    "blocs": [
     {
-     "sous_titre": "Ce que dit le Coran"
+     "sous_titre": "Un seul peuple"
     },
     {
-     "texte": "Le Coran dit, dans la sourate 4, au verset 157, que les Juifs n'ont ni tué ni crucifié Jésus, mais que cela leur a seulement semblé ainsi. Beaucoup de musulmans pensent donc que Dieu a enlevé Jésus au ciel avant la croix, et que quelqu'un d'autre a été crucifié à sa place."
+     "texte": "Le mot « oumma » veut dire « la communauté », la grande famille des croyants. Pour le musulman, tous les musulmans du monde forment une seule communauté, au-delà des pays, des langues et des races. Quand il prie, il se tourne vers La Mecque en même temps que des millions d'autres. Quand il jeûne, des millions d'autres jeûnent avec lui. Quand il va en pèlerinage, il se retrouve avec des musulmans de tous les pays, tous habillés du même vêtement blanc."
     },
     {
-     "texte": "Pourquoi est-ce un point si important ? Parce que si Jésus n'est pas mort, alors il n'y a pas eu de sacrifice pour nos péchés. Et s'il n'est pas mort, alors il n'est pas non plus ressuscité."
+     "texte": "Ce sentiment d'appartenir à un grand peuple est très fort. C'est pourquoi un musulman du Cameroun peut souffrir quand il voit à la télévision des musulmans souffrir en Palestine ou ailleurs. C'est aussi pourquoi quitter l'islam est si difficile : on ne quitte pas seulement une croyance, on quitte une famille."
     },
     {
-     "sous_titre": "Ce que disent les témoins"
+     "sous_titre": "Combien sont-ils ?"
     },
     {
-     "texte": "Les quatre Évangiles ont été écrits au premier siècle, par des disciples de Jésus ou par des proches de ces témoins. Ils racontent sa crucifixion avec beaucoup de détails : lorsqu'ils furent arrivés au lieu appelé Crâne, ils le crucifièrent là, ainsi que les deux malfaiteurs, l'un à droite, l'autre à gauche."
+     "texte": "Il y a aujourd'hui environ un milliard huit cents millions à un milliard neuf cents millions de musulmans dans le monde. Cela fait environ un habitant de la terre sur quatre. Contrairement à ce que beaucoup pensent, la plupart des musulmans ne sont pas arabes. Les Arabes ne représentent qu'environ un musulman sur cinq. Le pays qui compte le plus de musulmans est l'Indonésie, en Asie. Ensuite viennent le Pakistan, l'Inde, le Bangladesh, puis le Nigeria et l'Égypte."
     },
     {
-     "texte": "Paul a écrit ses lettres environ vingt ans seulement après ces événements. Il dit que Jésus ressuscité est apparu à Pierre, puis aux douze apôtres. Ensuite il est apparu à plus de cinq cents frères en même temps, dont la plupart sont encore vivants. Ensuite à Jacques, puis à tous les apôtres, et enfin à Paul lui-même."
-    },
-    {
-     "texte": "Quand Paul écrit « dont la plupart sont encore vivants », c'est comme s'il disait : « Si vous ne me croyez pas, allez leur demander. Ils sont encore là. »"
-    },
-    {
-     "sous_titre": "Ce que disent même ceux qui n'étaient pas chrétiens"
-    },
-    {
-     "texte": "La mort de Jésus sur la croix est aussi racontée par des écrivains qui n'étaient pas chrétiens. L'historien romain Tacite, au début du deuxième siècle, écrit que le nom de « chrétiens » vient du Christ, qui a été mis à mort sous l'empereur Tibère par le gouverneur Ponce Pilate. L'historien juif Flavius Josèphe, au premier siècle, parle lui aussi de Jésus condamné par Pilate. Aujourd'hui, presque tous les historiens, même ceux qui ne croient pas en Dieu, disent que la crucifixion de Jésus est un des faits les plus sûrs de cette époque."
-    },
-    {
-     "sous_titre": "Six cents ans plus tard"
-    },
-    {
-     "texte": "Le Coran a été donné environ six cents ans après ces événements, et loin de Jérusalem. Les témoins, eux, étaient sur place. Alors voici la question : quand un témoignage du premier siècle, confirmé par des amis et par des ennemis, contredit une affirmation faite six cents ans plus tard, lequel faut-il croire ?"
-    },
-    {
-     "texte": "Prenons un exemple simple. Un accident a eu lieu au carrefour, devant toute la foule. Six cents ans plus tard, quelqu'un qui n'était pas là dit : « Il n'y a jamais eu d'accident. » Qui vas-tu croire ? Ceux qui étaient là, bien sûr."
-    },
-    {
-     "texte": "Ce n'est pas pour gagner une dispute que nous disons cela. C'est parce que la croix est la bonne nouvelle. Si Jésus est mort pour nos péchés et s'il est ressuscité, alors le pardon est offert gratuitement. Et le croyant peut être sûr d'être sauvé, au lieu de vivre dans la peur de la balance."
+     "texte": "En Afrique, plus de quatre cents millions de personnes sont musulmanes. Dans plusieurs pays, comme le Sénégal, le Mali, le Niger ou la Mauritanie, presque toute la population est musulmane. Au Cameroun, les musulmans représentent environ un cinquième à un quart de la population, selon les estimations."
     }
    ]
   },
   {
    "numero": "10",
-   "titre": "Les questions que nos amis musulmans posent souvent",
-   "references": [
-    "Lc 1:35"
-   ],
+   "titre": "Les grandes étapes de l'histoire de l'islam",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "« La Bible a été changée »"
+     "sous_titre": "Les débuts"
     },
     {
-     "texte": "Beaucoup de musulmans ont appris que les juifs et les chrétiens ont changé la Torah et l'Évangile. Mais deux faits simples aident à réfléchir."
+     "texte": "Voici les grandes étapes, en résumé. Nous les étudierons en détail dans les enseignements suivants."
     },
     {
-     "texte": "Le premier fait : le Coran lui-même dit que la Torah et l'Évangile sont une lumière. Et il demande aux chrétiens de juger d'après ce que contient l'Évangile. Alors posons la question : est-ce que Dieu demanderait de juger d'après un livre déjà falsifié ? Non."
+     "texte": "Vers l'an 570, Mahomet naît à La Mecque, en Arabie. Vers l'an 610, il dit recevoir ses premières révélations, dans une grotte appelée Hira. Pendant treize ans, il prêche à La Mecque. En l'an 622, il part pour Médine : c'est l'Hégire. À Médine, il devient le chef d'une communauté, d'un État et d'une armée. En l'an 630, il prend La Mecque. En l'an 632, il meurt à Médine. À ce moment-là, presque toute l'Arabie est soumise à lui."
     },
     {
-     "texte": "Le deuxième fait : nous avons aujourd'hui des Bibles complètes copiées à la main au quatrième siècle. On les appelle le Codex Sinaïticus et le Codex Vaticanus. Elles ont été copiées environ deux cent cinquante ans avant la naissance de Mahomet. Et elles contiennent le même Évangile que nous lisons aujourd'hui, avec la mort et la résurrection de Jésus."
+     "sous_titre": "Les califes et les empires"
     },
     {
-     "texte": "En d'autres termes, si quelqu'un avait changé la Bible après l'islam, ces anciennes Bibles le montreraient. Or elles disent la même chose que nos Bibles."
+     "texte": "Après sa mort, les musulmans choisissent des chefs qu'on appelle « califes », ce qui veut dire « successeurs ». Les quatre premiers s'appellent Abou Bakr, Omar, Othman et Ali. En moins de cent ans, les armées musulmanes conquièrent un immense territoire : la Syrie, la Palestine, l'Égypte, l'Irak, la Perse, l'Afrique du Nord, l'Espagne, jusqu'aux portes de l'Inde."
     },
     {
-     "sous_titre": "« Comment est-ce que Dieu peut avoir un fils ? Il n'a pas de femme. »"
+     "texte": "Ensuite, de grandes familles se succèdent à la tête de l'empire musulman. La famille des Omeyyades règne depuis Damas, en Syrie, de l'an 661 à l'an 750. Puis la famille des Abbassides règne depuis Bagdad, en Irak, à partir de l'an 750. Beaucoup plus tard, les Turcs ottomans fondent un empire qui durera jusqu'en 1924. Cette année-là, le dernier calife est supprimé."
     },
     {
-     "texte": "Cette question vient souvent d'un malentendu. Les chrétiens ne croient pas que Dieu a eu un enfant avec une femme, comme un homme. Pour nous aussi, ce serait un blasphème. Quand la Bible appelle Jésus « Fils de Dieu », elle ne parle pas d'une naissance comme les nôtres. Elle parle d'une relation qui a toujours existé."
+     "sous_titre": "L'arrivée en Afrique noire"
     },
     {
-     "texte": "L'ange a dit à Marie : le Saint-Esprit viendra sur toi, et la puissance du Très-Haut te couvrira de son ombre. C'est pourquoi le saint enfant qui naîtra de toi sera appelé Fils de Dieu."
+     "texte": "L'islam est arrivé en Afrique au sud du Sahara de deux manières. D'abord par le commerce. À partir du huitième siècle, des commerçants arabes et berbères traversent le désert avec leurs caravanes de chameaux, pour échanger du sel contre de l'or et des esclaves. Ils apportent avec eux leur religion. Des rois d'Afrique de l'Ouest, au Ghana, au Mali, au Songhaï, et le royaume du Bornou près du lac Tchad, deviennent musulmans."
     },
     {
-     "verset": "Lc 1:35"
+     "texte": "Ensuite, aux dix-huitième et dix-neuvième siècles, par des guerres saintes, des « djihads ». Le plus important pour nous est celui d'Ousmane dan Fodio, un prédicateur peul, qui fonde en 1804 un grand État dans le nord du Nigeria actuel. Un de ses disciples, Modibo Adama, porte ce djihad vers le sud-est. Il fonde l'émirat de l'Adamaoua, qui porte son nom, et ses lieutenants fondent les lamidats de Garoua, de Maroua, de Ngaoundéré, de Rey Bouba et d'autres. C'est ainsi que l'islam peul s'est installé dans le nord du Cameroun."
     },
     {
-     "texte": "Dans nos langues aussi, on dit d'un homme qu'il est « fils du pays ». Cela ne veut pas dire que le pays a accouché de lui. Cela veut dire qu'il appartient au pays, qu'il lui ressemble. De la même façon, « Fils de Dieu » veut dire que Jésus a la même nature que Dieu, qu'il vient de Dieu, qu'il est la Parole éternelle de Dieu."
+     "sous_titre": "L'islam au Cameroun aujourd'hui"
     },
     {
-     "sous_titre": "« La Parole de Dieu »"
-    },
-    {
-     "texte": "Le Coran lui-même appelle Jésus « une parole venant de Dieu ». Et l'Évangile de Jean commence ainsi : au commencement était la Parole, et la Parole était avec Dieu, et la Parole était Dieu. Et la Parole a été faite chair, et elle a habité parmi nous."
-    },
-    {
-     "texte": "Réfléchissons ensemble. Quand je parle, ma parole sort de moi. Elle dit ce qui est dans mon cœur. Pourtant, je ne deviens pas deux personnes. La Parole de Dieu est éternelle comme Dieu, car Dieu n'a jamais été sans sa Parole. Et c'est cette Parole qui est devenue un homme en Jésus. Ce point, le Coran et la Bible le partagent en partie. Il peut ouvrir une très belle conversation."
+     "texte": "Aujourd'hui, au Cameroun, les musulmans vivent surtout dans les trois régions du Nord, l'Adamaoua, le Nord et l'Extrême-Nord, ainsi que dans le pays bamoun, à l'Ouest, où le sultan Ibrahim Njoya avait choisi l'islam au début du vingtième siècle. Dans les grandes villes du Sud, comme Yaoundé et Douala, il y a aussi des quartiers où vivent depuis longtemps des commerçants musulmans venus du Nord ou du Nigeria. La langue la plus parlée par les musulmans du Nord est le fulfulde, la langue des Peuls."
     }
    ]
   },
   {
    "numero": "11",
-   "titre": "Accueillir ceux qui ont tout quitté pour Jésus",
-   "references": [
-    "Mc 10:28-30"
-   ],
+   "titre": "Les grandes familles de l'islam",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Ce que paie un musulman qui devient chrétien"
+     "sous_titre": "Sunnites et chiites"
     },
     {
-     "texte": "Dans beaucoup de familles, un musulman qui devient chrétien paie un prix très lourd. Ses parents peuvent le rejeter. On peut le chasser de la maison. On peut lui retirer son héritage. On peut annuler son mariage. Il peut perdre son travail. Il peut même être menacé de mort. Certains doivent quitter leur ville, ou même leur pays."
+     "texte": "Les musulmans ne forment pas un seul bloc. Ils se sont divisés très tôt, après la mort de Mahomet, sur la question de savoir qui devait lui succéder."
     },
     {
-     "texte": "Pierre a dit un jour à Jésus : voici, nous avons tout quitté, et nous t'avons suivi. Jésus lui a répondu que celui qui a quitté sa maison, ses frères, ses sœurs, sa mère, son père, ses enfants ou ses terres à cause de lui, recevra cent fois plus dès maintenant, des maisons, des frères, des sœurs, des mères, des enfants et des terres, avec des persécutions, et, dans le monde à venir, la vie éternelle."
+     "texte": "Les sunnites sont la grande majorité, environ neuf musulmans sur dix. Leur nom vient de la « sunna », la coutume du prophète. Ils reconnaissent les quatre premiers califes. Presque tous les musulmans du Cameroun sont sunnites."
     },
     {
-     "verset": "Mc 10:28-30"
+     "texte": "Les chiites sont environ un musulman sur dix. Leur nom vient de « chi'at Ali », le parti d'Ali. Ils pensent que le pouvoir devait revenir à Ali, le cousin et le gendre de Mahomet, et à ses descendants. On les trouve surtout en Iran et en Irak."
     },
     {
-     "sous_titre": "L'Église est sa nouvelle famille"
+     "sous_titre": "Les autres visages"
     },
     {
-     "texte": "Comment est-ce que Jésus donne cent fois plus de frères, de sœurs et de mères ? Par son Église. Ce sont les chrétiens qui doivent devenir la nouvelle famille de celui qui a tout perdu. Paul écrit : accueillez-vous donc les uns les autres, comme Christ vous a accueillis."
-    },
-    {
-     "texte": "Malheureusement, il arrive que l'on regarde ces nouveaux convertis avec méfiance dans nos Églises. On se demande : « Est-ce qu'il est sincère ? Est-ce que c'est un espion ? Est-ce qu'il va repartir ? » Un peu de prudence est parfois nécessaire, surtout là où il y a du danger. Mais si on se méfie de lui tout le temps, on brise quelqu'un qui a déjà tout perdu."
-    },
-    {
-     "sous_titre": "Ce que nous pouvons faire"
-    },
-    {
-     "texte": "Voici ce que nous pouvons faire, très concrètement. Ouvrir notre maison et notre table. Lire la Bible avec lui, avec patience, car il a souvent beaucoup de questions. L'aider à trouver un travail ou un logement si sa famille l'a chassé. Ne pas l'exhiber comme un trophée dans les réunions, car cela peut le mettre en danger. Et prier avec lui pour sa famille, sans haine."
-    },
-    {
-     "texte": "Voici un exemple. Un jeune homme a été chassé de chez lui par son père, le jour où il a dit qu'il croyait en Jésus. Il est arrivé un soir chez le pasteur d'une petite église, avec un sac et ses papiers. Une famille de l'église l'a accueilli pendant deux ans comme un fils. Elle a payé ses études, et elle l'a accompagné le jour de son mariage. Des années plus tard, sa propre mère, malade et abandonnée, est venue chercher refuge chez lui. Il l'a accueillie, et elle a vu la différence. Il disait : « J'ai perdu une famille pour Jésus, et Jésus m'en a donné deux. »"
+     "texte": "Il y a aussi les soufis, qui cherchent une relation plus intérieure avec Dieu et se rassemblent en confréries, comme la Tidjaniyya ou la Qadiriyya, très présentes en Afrique. Il y a les salafistes, qui veulent revenir à l'islam des premiers temps et rejettent ce qu'ils appellent les « innovations ». Et il y a l'islam populaire, celui des marabouts et des amulettes, très répandu chez nous. Nous consacrerons un enseignement entier à ces différents visages de l'islam."
     }
    ]
   },
   {
    "numero": "12",
-   "titre": "Ce que nous retenons",
+   "titre": "Ce que le chrétien retient",
    "references": [
     "Jn 14:6"
    ],
    "blocs": [
     {
-     "texte": "L'islam respecte Jésus comme un prophète. Mais il refuse ce qui fait de Jésus le Sauveur : sa divinité, sa mort sur la croix et sa résurrection. Le chrétien n'a pas besoin d'avoir peur. Il n'a pas non plus besoin de mépriser. Il a besoin de connaître sa foi, d'aimer ses voisins, et de leur présenter Jésus tel que la Bible le montre : le chemin, la vérité et la vie."
+     "texte": "Dans cet enseignement, nous avons appris à connaître l'islam de l'intérieur. Nous savons maintenant ce que veut dire le mot « islam » : la soumission à Dieu. Nous savons comment on devient musulman : en prononçant la chahada, qui dit qu'il n'y a de dieu qu'Allah et que Mahomet est son messager. Nous connaissons les trois étages de la religion : les actes, la foi et l'excellence. Nous connaissons les sources de l'autorité : le Coran, la sunna, le consensus et le raisonnement. Nous savons ce qu'est la charia, et comment le musulman classe tous les actes en cinq catégories. Nous connaissons la mosquée, l'appel à la prière, le calendrier lunaire, les fêtes, les mots de tous les jours, l'oumma, et les grandes étapes de l'histoire jusqu'au Cameroun."
+    },
+    {
+     "texte": "Le chrétien qui sait tout cela ne regarde plus son voisin musulman de la même façon. Il comprend ce qu'il vit et ce qu'il entend. Il peut l'écouter et le respecter. Et quand le moment viendra, il pourra lui parler de celui qui a dit : je suis le chemin, la vérité, et la vie (Jean 14:6)."
     },
     {
      "verset": "Jn 14:6"
     },
     {
-     "texte": "Si tu veux aller plus loin, toute la série « L'islam de A à Z » est dans ce même niveau, Maturité 5. Et dans l'onglet Évangéliser, l'approche « Musulmans » te donne des réponses courtes aux questions les plus fréquentes."
+     "texte": "Dans la suite de la série, nous allons entrer dans l'histoire. Nous commencerons par le monde où l'islam est né : l'Arabie d'avant Mahomet."
     }
    ]
   }
  ],
  "questions": [
   {
-   "question": "Quand est-ce que l'islam est apparu ?",
+   "question": "Que veut dire le mot « islam » ?",
    "choix": [
-    "Au temps d'Abraham",
-    "Au septième siècle après Jésus-Christ, en Arabie",
-    "Au premier siècle"
+    "La paix",
+    "La soumission à Dieu",
+    "La prière"
    ],
    "reponse": 1,
-   "explication": "Mahomet a commencé à prêcher vers l'an 610.",
+   "explication": "Le musulman est « celui qui se soumet ».",
    "section": "1"
   },
   {
-   "question": "Qu'est-ce que le Coran refuse au sujet de Jésus ?",
+   "question": "Comment est-ce qu'on devient musulman ?",
    "choix": [
-    "Sa naissance d'une vierge",
-    "Qu'il soit le Fils de Dieu, qu'il soit mort sur la croix et qu'il soit ressuscité",
-    "Ses miracles"
+    "Par le baptême",
+    "En prononçant sincèrement la chahada",
+    "Après trois ans d'étude"
    ],
    "reponse": 1,
-   "explication": "Voir la sourate 4, verset 157.",
+   "explication": "« Je témoigne qu'il n'y a pas de divinité en dehors d'Allah, et je témoigne que Muhammad est le messager d'Allah. »",
+   "section": "2"
+  },
+  {
+   "question": "Selon le hadith de Gabriel, quels sont les trois étages de la religion ?",
+   "choix": [
+    "La prière, le jeûne et l'aumône",
+    "L'islam, la foi et l'excellence",
+    "La mosquée, le Coran et La Mecque"
+   ],
+   "reponse": 1,
+   "explication": "Mouslim, hadith 8.",
    "section": "3"
   },
   {
-   "question": "Selon la Bible, qu'est-ce qui relie la foi des prophètes depuis Adam ?",
+   "question": "Quelles sont les quatre sources de l'autorité dans l'islam sunnite ?",
    "choix": [
-    "Les cinq piliers",
-    "La promesse d'un Sauveur et le sacrifice qui prend la place du coupable",
-    "Le pèlerinage"
+    "Le Coran, la Bible, la Torah et les Psaumes",
+    "Le Coran, la sunna, le consensus et le raisonnement par comparaison",
+    "L'imam, le cheikh, le marabout et le cadi"
    ],
    "reponse": 1,
-   "explication": "Voir Genèse 3:15 et Genèse 22:13-14.",
+   "explication": "La sunna est connue par les hadiths.",
    "section": "4"
   },
   {
-   "question": "Selon 1 Jean 2:23, est-ce que celui qui refuse le Fils a le Père ?",
+   "question": "Que veut dire le mot « haram » ?",
    "choix": [
-    "Oui, s'il est sincère",
-    "Non",
-    "Cela dépend de ses œuvres"
+    "Permis",
+    "Recommandé",
+    "Interdit"
    ],
-   "reponse": 1,
-   "explication": "Le Dieu unique s'est fait connaître en Jésus.",
+   "reponse": 2,
+   "explication": "« Halal » veut dire permis, « haram » veut dire interdit.",
    "section": "5"
   },
   {
-   "question": "Selon Hébreux 1:2, par qui est-ce que Dieu a parlé dans ces derniers temps ?",
+   "question": "Que veut dire le mot « mosquée » ?",
    "choix": [
-    "Par un nouveau prophète",
-    "Par le Fils",
-    "Par les anges"
+    "La maison de Dieu",
+    "Le lieu où l'on se prosterne",
+    "La grande maison"
    ],
    "reponse": 1,
-   "explication": "Après le Fils, il n'y a rien à ajouter.",
+   "explication": "Il vient de l'arabe « masjid ».",
    "section": "6"
   },
   {
-   "question": "Pourquoi est-ce que les Juifs voulaient tuer Jésus quand il a dit : « Avant qu'Abraham fût, je suis » ?",
+   "question": "Pourquoi est-ce que le ramadan ne tombe jamais à la même date ?",
    "choix": [
-    "Parce qu'il avait menti sur son âge",
-    "Parce qu'il prenait le nom de Dieu et se faisait l'égal de Dieu",
-    "Parce qu'il avait insulté Abraham"
+    "Parce que les imams changent la date",
+    "Parce que le calendrier musulman suit la lune et compte environ onze jours de moins que notre année",
+    "Parce qu'on le tire au sort"
    ],
    "reponse": 1,
-   "explication": "Voir Jean 8:58-59 et Jean 10:33.",
-   "section": "8"
+   "explication": "Le calendrier commence en l'an 622, avec l'Hégire.",
+   "section": "7"
   },
   {
-   "question": "Que montrent les Bibles complètes copiées au quatrième siècle ?",
+   "question": "Qui a fondé les lamidats du nord du Cameroun ?",
    "choix": [
-    "Que la Bible a changé après l'islam",
-    "Que, bien avant Mahomet, la Bible contenait déjà le même Évangile, avec la mort et la résurrection de Jésus",
-    "Qu'il n'existait pas d'Évangile"
+    "Mahomet",
+    "Modibo Adama, disciple d'Ousmane dan Fodio",
+    "Le sultan Njoya"
    ],
    "reponse": 1,
-   "explication": "Ce sont le Codex Sinaïticus et le Codex Vaticanus.",
+   "explication": "Le djihad peul du dix-neuvième siècle.",
    "section": "10"
-  },
-  {
-   "question": "Selon Marc 10:29-30, que reçoit celui qui a tout quitté pour Jésus ?",
-   "choix": [
-    "Rien sur la terre",
-    "Cent fois plus de maisons, de frères, de sœurs et de mères, avec des persécutions, et la vie éternelle",
-    "Seulement des richesses"
-   ],
-   "reponse": 1,
-   "explication": "L'Église doit devenir sa nouvelle famille.",
-   "section": "11"
   }
  ],
  "devoir": [
-  "Lis Jean 1 et Hébreux 1. Note tout ce qui montre que Jésus est plus qu'un prophète.",
-  "Écris le nom d'un musulman que tu connais. Prie pour lui chaque jour, et cherche une occasion de l'inviter ou de l'aider.",
-  "Dans l'onglet Évangéliser, lis l'approche « Musulmans » et ses réponses aux objections."
+  "Écoute l'appel à la prière d'une mosquée près de chez toi, et essaie de reconnaître les phrases que tu as apprises.",
+  "Note les mots arabes que tu entends souvent autour de toi, et vérifie leur sens dans cet enseignement.",
+  "Prie chaque jour cette semaine pour un musulman que tu connais, en l'appelant par son nom."
  ],
  "prieres_liees": [
   "theme:priere-ames",
