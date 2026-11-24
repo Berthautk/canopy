@@ -4,390 +4,465 @@
  "serie": "L'islam de A à Z",
  "theme": "Islam",
  "auteur": "Yeshaya",
- "resume": "Islam veut dire « soumission ». Le musulman croit en Allah, aux anges, aux livres, aux prophètes, au jour dernier et au destin. Il témoigne, prie cinq fois par jour, donne l'aumône, jeûne pendant le ramadan et, s'il le peut, va à La Mecque. Ce que signifie chacun de ces piliers, comment ils sont vécus en Afrique, la balance des œuvres, l'absence d'assurance du salut, et le sacrifice de l'Aïd qui ouvre une porte merveilleuse vers la croix.",
+ "resume": "Que veut dire le mot islam ? Qu'est-ce que le hadith de Gabriel ? Quelles sont les six choses que le musulman doit croire ? Quels sont les cinq piliers : la profession de foi, la prière avec ses ablutions, l'aumône, le jeûne du ramadan et le pèlerinage de La Mecque ? Comment se déroule chaque geste, avec les noms et les récits qui les expliquent ? Pourquoi le musulman n'a-t-il jamais l'assurance d'être sauvé ? Un enseignement complet sur la foi et les pratiques de base de l'islam.",
  "image": "/assets/vie-chretienne/mains-en-priere-sur-bible.webp",
  "verset_de_base": "Rm 4:4-5",
- "lecture_minutes": 27,
+ "lecture_minutes": 44,
  "objectifs": [
-  "Connaître les six articles de foi de l'islam.",
-  "Connaître les cinq piliers et la manière dont ils sont pratiqués.",
+  "Connaître le sens du mot islam et le hadith de Gabriel.",
+  "Connaître les six articles de foi avec leurs détails.",
+  "Connaître chacun des cinq piliers : paroles, gestes, dates, histoires.",
   "Comprendre la logique de la balance des œuvres.",
-  "Voir pourquoi le musulman n'a pas d'assurance du salut.",
-  "Utiliser le ramadan et la fête du sacrifice comme ponts vers l'Évangile."
+  "Comprendre pourquoi le musulman n'a pas l'assurance du salut."
  ],
- "introduction": "Si tu as des voisins musulmans, tu connais déjà certains gestes : l'appel du muezzin à l'aube, les hommes qui se lavent les pieds et le visage avant d'entrer à la mosquée, les tapis de prière déroulés au bord de la route ou au marché, le jeûne du ramadan et la rupture du jeûne au coucher du soleil, le mouton que l'on égorge à la Tabaski. Derrière ces gestes, il y a une foi et une logique.\n\nLe mot « islam » veut dire « soumission ». Un « musulman » (« muslim ») est « celui qui se soumet » à Allah. Toute la vie du musulman est pensée comme une obéissance à la volonté d'Allah, telle qu'elle est exprimée dans le Coran et dans la sunna du prophète. Un hadith célèbre, appelé « hadith de Gabriel », résume la religion en trois niveaux : l'islam, c'est-à-dire les cinq piliers ; la foi (« iman »), c'est-à-dire les six articles de croyance ; et l'excellence (« ihsan »), c'est-à-dire adorer Allah comme si on le voyait (Mouslim, hadith 8).\n\nDans cet enseignement, nous allons décrire ces croyances et ces pratiques avec exactitude et respect, puis les regarder à la lumière de l'Évangile.",
+ "introduction": "Si tu as des voisins musulmans, tu connais déjà plusieurs de leurs gestes. Tu entends l'appel du muezzin avant le lever du soleil. Tu vois les hommes qui se lavent les pieds et le visage devant la mosquée. Tu vois les tapis de prière déroulés au bord de la route ou au marché. Tu sais que pendant un mois, ils ne mangent pas la journée. Et tu connais la fête du mouton. Mais est-ce que tu sais ce qu'il y a derrière chacun de ces gestes ?\n\nDans cet enseignement, nous allons prendre le temps de tout comprendre. Nous allons voir ce que le musulman croit, et ce qu'il fait, pas à pas. Nous ne sommes pas pressés. Je vais dire les choses, puis les redire plus simplement. Et nous garderons les comparaisons avec la Bible pour la fin de la série.",
  "sections": [
   {
    "numero": "1",
-   "titre": "Les six articles de foi",
-   "references": [
-    "He 11:6",
-    "Jc 2:19"
-   ],
+   "titre": "Le mot « islam » et le hadith de Gabriel",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Croire en Allah"
+     "sous_titre": "Un mot qui veut dire « soumission »"
     },
     {
-     "texte": "Le premier article est la foi en Allah, unique, sans associé. C'est le « tawhid », l'unicité. Le plus grand péché, impardonnable s'il n'est pas abandonné avant la mort, est le « shirk » : associer quelque chose ou quelqu'un à Allah (sourate 4, verset 48). Pour le musulman, dire que Jésus est Fils de Dieu ou que Dieu est Père, Fils et Saint-Esprit, c'est commettre ce péché."
+     "texte": "Le mot « islam » vient d'une racine arabe, « salama ». Cette racine donne deux idées : la paix et la soumission. Dans la religion, c'est la soumission qui domine. Le mot « islam » veut donc dire se soumettre à Allah, obéir à Allah sans discuter. Et un « musulman », c'est celui qui s'est soumis."
     },
     {
-     "sous_titre": "Croire aux anges"
+     "texte": "Je le redis plus simplement. Dans l'islam, la relation avec Dieu est celle d'un serviteur avec son maître. Le maître commande, le serviteur obéit. Le mot que le Coran utilise pour le croyant est souvent « abd », qui veut dire « esclave » ou « serviteur » d'Allah. Retiens bien ceci : c'est la relation de base."
     },
     {
-     "texte": "Le musulman croit aux anges, créés de lumière, qui obéissent toujours à Allah. Les plus connus sont Gabriel (Jibril), l'ange de la révélation ; Michel (Mikaïl), chargé de la pluie et de la nourriture ; Israfil, qui soufflera dans la trompette ; l'ange de la mort. Il croit aussi que deux anges notent chaque acte de chaque personne (sourate 82, versets 10 à 12), et que deux anges, Munkar et Nakir, interrogent le mort dans la tombe dès qu'il est enterré. Il croit aussi aux djinns, comme nous l'avons vu."
+     "sous_titre": "Le hadith de Gabriel"
     },
     {
-     "sous_titre": "Croire aux livres"
+     "texte": "Il existe un hadith très célèbre, que presque tous les musulmans connaissent. On l'appelle le « hadith de Gabriel ». Il se trouve dans le recueil de Mouslim, au numéro 8, et aussi dans Boukhari, au numéro 50. Voici l'histoire. Un jour, un homme inconnu, vêtu de blanc, aux cheveux très noirs, est venu s'asseoir devant Mahomet, genou contre genou. Il lui a posé des questions : « Qu'est-ce que l'islam ? Qu'est-ce que la foi ? Qu'est-ce que l'excellence ? » Puis il est parti. Mahomet a dit ensuite à ses compagnons : c'était Gabriel, qui est venu vous enseigner votre religion."
     },
     {
-     "texte": "Le musulman croit que Dieu a fait descendre des livres : la Torah (« Tawrat ») à Moïse, les Psaumes (« Zabour ») à David, l'Évangile (« Injil ») à Jésus, et le Coran à Mahomet. Il croit aussi à des « feuillets » d'Abraham. Mais pour lui, l'Évangile était un livre descendu sur Jésus, comme le Coran sur Mahomet, et non le récit de la vie, de la mort et de la résurrection de Jésus écrit par ses témoins. C'est une grande différence, qu'il faut expliquer patiemment."
-    },
-    {
-     "sous_titre": "Croire aux prophètes"
-    },
-    {
-     "texte": "Le musulman croit à tous les prophètes envoyés par Dieu ; un hadith parle de cent vingt-quatre mille prophètes. Le Coran en nomme vingt-cinq. Pour lui, tous les prophètes étaient musulmans, c'est-à-dire soumis à Dieu, et ils ont tous prêché le même message que Mahomet. Mahomet est le dernier, « le sceau des prophètes » (sourate 33, verset 40)."
-    },
-    {
-     "sous_titre": "Croire au jour dernier"
-    },
-    {
-     "texte": "Le musulman croit à la mort, à l'interrogatoire dans la tombe, à la résurrection de tous les hommes, au jugement, à la balance qui pèsera les actes, au pont étroit au-dessus de l'enfer, au paradis et à l'enfer. Nous y consacrerons un enseignement entier."
-    },
-    {
-     "sous_titre": "Croire au destin"
-    },
-    {
-     "texte": "Enfin, le musulman croit au « qadar », le décret divin : tout ce qui arrive, le bien comme le mal, a été écrit d'avance par Allah. Un hadith dit qu'un ange est envoyé à l'embryon dans le ventre de sa mère pour écrire sa subsistance, la durée de sa vie, ses actes, et s'il sera heureux ou malheureux (Boukhari, hadith 6594). C'est pourquoi on entend si souvent « inch'Allah », « si Allah le veut », et « mektoub », « c'était écrit ». Cette croyance peut aider à accepter les épreuves, mais elle peut aussi conduire au fatalisme."
-    },
-    {
-     "sous_titre": "Une foi sincère, mais…"
-    },
-    {
-     "texte": "Le chrétien peut reconnaître que plusieurs de ces croyances ressemblent à celles de la Bible : un Dieu créateur, des anges, des prophètes, un jugement. Mais Jacques nous rappelle : tu crois qu'il y a un seul Dieu, tu fais bien ; les démons le croient aussi, et ils tremblent (Jacques 2:19). Croire des choses justes sur Dieu ne suffit pas pour être sauvé. Il faut le connaître et être réconcilié avec lui."
+     "texte": "Les trois réponses sont devenues le plan de toute la religion. L'islam, ce sont les cinq piliers, c'est-à-dire ce que l'on fait. La foi, qu'on appelle « iman », ce sont les six articles, c'est-à-dire ce que l'on croit. Et l'excellence, qu'on appelle « ihsan », c'est adorer Allah comme si on le voyait, car même si on ne le voit pas, lui nous voit. Nous allons suivre ce plan : d'abord ce que l'on croit, ensuite ce que l'on fait."
     }
    ]
   },
   {
    "numero": "2",
-   "titre": "Premier pilier : le témoignage",
-   "references": [
-    "Rm 10:9-10",
-    "Mt 10:32"
-   ],
+   "titre": "Ce que le musulman croit : les six articles de foi",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "La chahada"
+     "sous_titre": "Premier article : croire en Allah"
     },
     {
-     "texte": "Le premier pilier est la « chahada », la profession de foi : « J'atteste qu'il n'y a de dieu qu'Allah, et j'atteste que Muhammad est le messager d'Allah. » Pour devenir musulman, il suffit de prononcer sincèrement cette phrase en arabe, devant des témoins. Elle est murmurée à l'oreille du nouveau-né, répétée dans chaque prière, et on souhaite la prononcer au moment de mourir."
+     "texte": "Le premier article est de croire en Allah, un seul, sans partenaire. On appelle cela le « tawhid », l'unicité. C'est le cœur de l'islam. Tout le reste est construit dessus. Et le contraire du tawhid s'appelle le « shirk » : associer quelqu'un ou quelque chose à Allah. Le Coran dit : Allah ne pardonne pas qu'on lui associe quoi que ce soit, mais il pardonne ce qui est moindre à qui il veut (sourate 4, verset 48). Retiens bien ceci : pour le musulman, le shirk est le seul péché qui n'est pas pardonné si on meurt sans l'avoir abandonné. Un voleur, un menteur, un buveur peuvent espérer le pardon. Mais celui qui meurt dans le shirk, non."
     },
     {
-     "sous_titre": "Ce que dit la Bible"
+     "texte": "Que veut dire « associer » ? Cela veut dire adorer une autre personne avec Allah, prier un autre que lui, croire qu'un autre a une part de sa divinité. Pour le musulman, dire que Jésus est Fils de Dieu, ou que Jésus est Dieu, ou que Dieu est trois personnes, c'est du shirk. Le Coran le dit : ceux qui disent « Allah est le troisième de trois » ont blasphémé (sourate 5, verset 73). Nous reviendrons sur ce sujet dans la série « Face à face ». Pour l'instant, retiens seulement que pour le musulman, c'est le plus grand crime qu'on puisse commettre contre Dieu."
     },
     {
-     "texte": "La Bible aussi parle d'une confession de la bouche : si tu confesses de ta bouche le Seigneur Jésus, et si tu crois dans ton cœur que Dieu l'a ressuscité des morts, tu seras sauvé (Romains 10:9). La différence est dans le contenu. La chahada confesse que Mahomet est le messager de Dieu. L'Évangile confesse que Jésus est Seigneur, et qu'il est ressuscité. Pour le musulman qui devient chrétien, confesser « Jésus est Seigneur » est un acte d'un très grand courage, qui peut lui coûter sa famille, et parfois sa vie."
+     "texte": "Un hadith dit qu'Allah a quatre-vingt-dix-neuf noms (Boukhari, hadith 6410). Voici quelques-uns de ces noms : « ar-Rahman », le Tout Miséricordieux ; « ar-Rahim », le Très Miséricordieux ; « al-Malik », le Roi ; « al-Qahhar », le Dominateur ; « al-Jabbar », le Contraignant ; « al-Mutakabbir », le Superbe ; « al-Muntaqim », celui qui se venge. Tu vois que les noms parlent beaucoup de puissance et de domination. Dans les noms d'Allah, tu ne trouves pas le nom « Père ». Le musulman ne dit jamais qu'Allah est son père. Il dit qu'il est son Seigneur et son maître."
+    },
+    {
+     "sous_titre": "Deuxième article : croire aux anges"
+    },
+    {
+     "texte": "Les anges sont des créatures faites de lumière, selon un hadith (Mouslim, hadith 2996). Ils n'ont pas de volonté propre. Ils obéissent à Allah sans jamais désobéir. Le musulman connaît quelques noms. Jibril, que nous appelons Gabriel, est l'ange de la révélation. Mikail, Michel, s'occupe de la pluie. Israfil soufflera dans la trompette le jour de la fin. Malik garde l'enfer. Et l'ange de la mort s'appelle Azraïl dans la tradition, mais ce nom n'est pas dans le Coran."
+    },
+    {
+     "texte": "Chaque personne a aussi deux anges qui l'accompagnent et qui écrivent tout : un à droite pour les bonnes actions, un à gauche pour les mauvaises (sourate 50, versets 17 et 18). Autrement dit, tout est noté. Quand quelqu'un meurt et qu'il est enterré, deux autres anges, Mounkar et Nakir, viennent dans la tombe. Ils posent trois questions : « Qui est ton Seigneur ? Quelle est ta religion ? Qui est cet homme qui a été envoyé parmi vous ? » Celui qui répond bien est à l'aise dans la tombe. Celui qui répond mal est frappé (Boukhari, hadith 1374). Voilà pourquoi, à la fin d'un enterrement, on reste un moment près de la tombe pour demander à Allah d'aider le mort à bien répondre."
+    },
+    {
+     "texte": "Le musulman croit aussi aux djinns, des êtres faits de feu, que nous avons déjà vus. Ils ne sont pas des anges. Les uns sont croyants, les autres non."
+    },
+    {
+     "sous_titre": "Troisième article : croire aux livres"
+    },
+    {
+     "texte": "Le musulman croit qu'Allah a envoyé des livres. Il en nomme quatre : la Torah, que l'on appelle « Tawrat », donnée à Moïse ; les Psaumes, « Zabour », donnés à David ; l'Évangile, « Injil », donné à Jésus ; et le Coran, donné à Mahomet. Il parle aussi de feuillets, les « souhouf », donnés à Abraham."
+    },
+    {
+     "texte": "Mais fais attention. Quand le musulman dit « l'Évangile », il ne pense pas aux quatre évangiles de Matthieu, Marc, Luc et Jean. Il pense à un livre qui serait descendu du ciel sur Jésus, comme le Coran est descendu sur Mahomet. Il croit que ce livre a été perdu ou modifié. Et il croit que le Coran est le dernier, qu'il corrige les livres précédents et qu'il les remplace (sourate 5, verset 48). Autrement dit, il croit aux livres des chrétiens et des juifs en théorie, mais en pratique, il ne les lit pas. Il dit qu'ils sont falsifiés. Nous en parlerons dans l'enseignement sur le Coran et la Bible."
+    },
+    {
+     "sous_titre": "Quatrième article : croire aux prophètes"
+    },
+    {
+     "texte": "Le musulman croit que Dieu a envoyé des prophètes à tous les peuples. Un hadith parle de cent vingt-quatre mille prophètes, dont trois cent quinze ou trois cent treize messagers (hadith d'Ahmad, jugé de faible à acceptable selon les savants). Le Coran en nomme vingt-cinq. Parmi eux : Adam, Noé, Abraham, Ismaël, Isaac, Jacob, Joseph, Job, Moïse, Aaron, David, Salomon, Jonas, Jean-Baptiste, Jésus. Il y a aussi des prophètes arabes que la Bible ne connaît pas : Houd, Salih, Chouayb."
+    },
+    {
+     "texte": "Pour le musulman, tous ces prophètes étaient musulmans, c'est-à-dire soumis à Allah. Ils ont tous prêché le même message : « Il n'y a de dieu que Allah. » Retiens bien ceci : pour le musulman, Abraham, Moïse et Jésus étaient des musulmans, et non des juifs ou des chrétiens. Le Coran dit clairement : Abraham n'était ni juif ni chrétien, il était un croyant sincère, un soumis (sourate 3, verset 67). Et le dernier de tous, c'est Mahomet, « le sceau des prophètes » (sourate 33, verset 40). Après lui, plus personne. Et si quelqu'un dit qu'il est prophète après lui, il est un faux prophète. C'est pourquoi, par exemple, les musulmans rejettent le mouvement ahmadiyya, qui reconnaît un prophète après Mahomet."
+    },
+    {
+     "texte": "Le musulman ne fait pas de différence entre les prophètes dans la foi, mais il les classe quand même. Le plus élevé, c'est Mahomet. Ensuite viennent cinq grands messagers, qu'on appelle « ulu al-azm » : Noé, Abraham, Moïse, Jésus et Mahomet."
+    },
+    {
+     "sous_titre": "Cinquième article : croire au jour dernier"
+    },
+    {
+     "texte": "Le musulman croit que ce monde finira. Israfil soufflera dans la trompette. Tous mourront, puis tous seront ressuscités. Ensuite viendra le jugement, la balance, le pont au-dessus de l'enfer, le paradis ou l'enfer pour toujours. Nous aurons un enseignement entier sur ce sujet, car il est très riche. Pour l'instant, retiens que cette croyance est très forte chez le musulman et qu'elle lui fait peur : il sait qu'il va être jugé."
+    },
+    {
+     "sous_titre": "Sixième article : croire au destin"
+    },
+    {
+     "texte": "Le sixième article est la foi au « qadar », le décret divin. Cela veut dire que tout ce qui arrive a été écrit d'avance par Allah, le bien comme le mal. Le Coran dit : nous avons créé toute chose avec mesure (sourate 54, verset 49). Un hadith dit qu'Allah a écrit les destins de toutes les créatures cinquante mille ans avant de créer les cieux et la terre (Mouslim, hadith 2653). Un autre raconte qu'un ange est envoyé au bébé dans le ventre de sa mère, à cent vingt jours, pour écrire quatre choses : sa nourriture, la durée de sa vie, ses actions, et s'il sera malheureux ou heureux (Boukhari, hadith 3208 ; Mouslim, hadith 2643)."
+    },
+    {
+     "texte": "Je le redis simplement. Pour le musulman, avant même que tu naisses, Allah a déjà écrit si tu iras au paradis ou en enfer. Voilà pourquoi on entend souvent « inch'Allah », « si Allah le veut ». Voilà aussi pourquoi on entend « mektoub », « c'était écrit ». Cette croyance peut donner de la paix dans les épreuves. Mais elle peut aussi rendre fataliste : « Que puis-je faire ? C'était écrit. » Et elle pose une question que les savants musulmans discutent depuis douze siècles : si tout est écrit, pourquoi Allah punit-il celui qui fait le mal ? Les savants répondent que l'homme « acquiert » ses actes, mais cette réponse laisse beaucoup de gens perplexes."
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "Deuxième pilier : la prière rituelle",
-   "references": [
-    "Jn 4:23-24",
-    "Mt 6:6"
-   ],
+   "titre": "Premier pilier : la chahada, le témoignage",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Cinq fois par jour"
+     "sous_titre": "Les paroles"
     },
     {
-     "texte": "Le deuxième pilier est la « salat », la prière rituelle, cinq fois par jour : à l'aube (« fajr » ou « soubh »), à midi (« zouhr »), l'après-midi (« asr »), au coucher du soleil (« maghrib ») et la nuit (« icha »). Chaque prière comprend un nombre fixe d'unités (deux, quatre, quatre, trois et quatre), faites de gestes précis : debout, incliné, prosterné le front contre le sol, assis. Les paroles sont dites en arabe, et la Fatiha est récitée dans chaque unité. On prie tourné vers La Mecque, la « qibla »."
+     "texte": "Le premier pilier s'appelle la « chahada », le témoignage. Voici les paroles, en arabe : « Ash-hadu an la ilaha illa Allah, wa ash-hadu anna Muhammadan rasul Allah. » En français : « J'atteste qu'il n'y a pas de dieu sauf Allah, et j'atteste que Mahomet est le messager d'Allah. » Deux phrases. La première parle d'Allah. La seconde parle de Mahomet. Ensemble, elles font le musulman."
     },
     {
-     "sous_titre": "Les ablutions"
+     "sous_titre": "Comment on devient musulman"
     },
     {
-     "texte": "Avant chaque prière, le musulman doit être en état de pureté. Il fait les petites ablutions (« woudou ») : se laver les mains, la bouche, le nez, le visage, les avant-bras, passer les mains mouillées sur la tête et les oreilles, et se laver les pieds. Après une relation sexuelle, les règles ou l'accouchement, il faut faire les grandes ablutions (« ghousl »), en se lavant tout le corps. Certaines choses annulent la pureté : aller aux toilettes, dormir, émettre un gaz, saigner selon certaines écoles. Sans eau, on peut faire les ablutions avec de la terre propre ou une pierre."
+     "texte": "Pour devenir musulman, il n'y a ni baptême, ni examen, ni cérémonie obligatoire. Il suffit de dire la chahada, en arabe, sincèrement. Souvent, on la dit devant un imam ou devant deux témoins, pour que ce soit connu. C'est tout. Et en sens inverse, celui qui dit qu'il ne croit plus en Allah ou en Mahomet quitte l'islam. On appelle cela l'apostasie, la « ridda ». Nous en reparlerons."
     },
     {
-     "sous_titre": "La prière du vendredi"
+     "sous_titre": "Où on entend la chahada"
     },
     {
-     "texte": "Le vendredi à midi, les hommes doivent se rassembler à la mosquée pour la prière commune, précédée d'un sermon. Les femmes peuvent y aller, mais elles prient en général séparées des hommes, derrière eux ou dans une salle à part."
-    },
-    {
-     "sous_titre": "Un hadith difficile"
-    },
-    {
-     "texte": "Mouslim rapporte un hadith selon lequel la prière d'un homme est interrompue si passent devant lui une femme, un âne ou un chien noir (Mouslim, hadith 511). Aïcha, quand on lui rapporta cette parole, protesta : « Vous nous avez comparées aux ânes et aux chiens ! » (Boukhari, hadith 514). Nous reviendrons sur la place de la femme dans un enseignement à part."
-    },
-    {
-     "sous_titre": "Le regard de l'Évangile"
-    },
-    {
-     "texte": "La fidélité des musulmans à la prière peut faire honte à beaucoup de chrétiens qui prient peu. Mais la prière musulmane est surtout un rite d'adoration, accompli en arabe, à heures fixes, avec des gestes précis, plus qu'une conversation personnelle avec Dieu comme avec un Père. Jésus a dit à la Samaritaine : l'heure vient, et elle est déjà venue, où les vrais adorateurs adoreront le Père en esprit et en vérité (Jean 4:23). Il a appris à ses disciples à entrer dans leur chambre, à fermer la porte et à prier leur Père qui est là dans le lieu secret (Matthieu 6:6). Le chrétien peut prier à toute heure, dans toute langue, dans toute position, parce qu'il a accès au Père par le Fils."
+     "texte": "La chahada est partout dans la vie du musulman. Elle est dite dans l'appel à la prière, cinq fois par jour. Elle est dite dans chaque prière. Elle est murmurée à l'oreille du bébé qui vient de naître. On souhaite la dire au moment de mourir : un hadith dit que celui dont les dernières paroles sont « il n'y a de dieu qu'Allah » entrera au paradis (Abou Daoud, hadith 3116). Voilà pourquoi, quand quelqu'un est mourant, on l'entoure et on lui murmure la chahada."
     }
    ]
   },
   {
    "numero": "4",
-   "titre": "Troisième pilier : l'aumône légale",
-   "references": [
-    "2 Co 9:7",
-    "Ac 20:35"
-   ],
+   "titre": "Deuxième pilier : la salat, la prière rituelle",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "La zakat"
+     "sous_titre": "Les cinq heures"
     },
     {
-     "texte": "Le troisième pilier est la « zakat », l'aumône obligatoire. Chaque année, le musulman qui possède un certain minimum de biens doit donner environ deux et demi pour cent de son épargne, et une part fixée de ses récoltes et de son bétail. Cette aumône est destinée aux pauvres, aux nécessiteux, aux voyageurs, et à d'autres catégories précisées par le Coran (sourate 9, verset 60). À côté de la zakat, il y a l'aumône volontaire, la « sadaqa », que le Coran et les hadiths encouragent beaucoup. À la fin du ramadan, chaque famille donne aussi une aumône spéciale, la « zakat al-fitr »."
+     "texte": "Le deuxième pilier est la prière, qu'on appelle « salat ». Elle se fait cinq fois par jour, à des heures qui dépendent du soleil. La première est le « fajr », entre l'aube et le lever du soleil. La deuxième est le « zouhr », quand le soleil a passé le milieu du ciel. La troisième est l'« asr », dans l'après-midi. La quatrième est le « maghrib », juste après le coucher du soleil. La cinquième est l'« icha », quand la nuit est tombée. Le muezzin appelle à chaque heure du haut du minaret, ou aujourd'hui avec un haut-parleur. Cet appel s'appelle l'« adhan ». Il commence par « Allahou akbar », « Allah est le plus grand »."
     },
     {
-     "sous_titre": "Le regard de l'Évangile"
+     "sous_titre": "L'histoire des cinq prières"
     },
     {
-     "texte": "Le souci des pauvres est une belle chose, que la Bible demande aussi. Mais l'Évangile donne une autre motivation : non pas une obligation pour gagner des mérites, mais la reconnaissance pour la grâce reçue. Dieu aime celui qui donne avec joie (2 Corinthiens 9:7). Jésus a dit : il y a plus de bonheur à donner qu'à recevoir (Actes 20:35). Le chrétien ne donne pas pour être sauvé : il donne parce qu'il a été sauvé."
+     "texte": "Comment les cinq prières ont-elles été fixées ? Selon la tradition, c'est pendant le voyage nocturne, l'« isra », dont nous avons parlé. Mahomet raconte que Allah lui a d'abord prescrit cinquante prières par jour. En redescendant, il a rencontré Moïse, qui lui a dit : « Ton peuple ne pourra pas. Retourne demander une réduction. » Il est remonté plusieurs fois, et le nombre est tombé à cinq. Moïse a encore dit : « Retourne. » Mais Mahomet a répondu : « J'ai honte de retourner vers mon Seigneur. » Allah a dit alors : « Ce sont cinq prières, mais elles valent cinquante » (Boukhari, hadith 349). Voilà l'histoire que chaque musulman connaît."
+    },
+    {
+     "sous_titre": "Les ablutions"
+    },
+    {
+     "texte": "Avant de prier, le musulman doit être pur. Il fait les ablutions, qu'on appelle « woudou ». Voici l'ordre. Il dit « au nom d'Allah ». Il se lave les mains, puis rince la bouche, puis le nez. Il lave le visage, puis les bras jusqu'aux coudes, en commençant par le droit. Il passe la main mouillée sur la tête et sur les oreilles. Enfin, il lave les pieds jusqu'aux chevilles. Chaque partie, trois fois en général (Boukhari, hadith 159)."
+    },
+    {
+     "texte": "Qu'est-ce qui annule les ablutions ? Aller aux toilettes, émettre un gaz, dormir profondément, perdre connaissance. Selon certaines écoles, toucher son sexe ou toucher une femme annule aussi. Une école, la malikite, répandue en Afrique de l'Ouest et du Nord, a des règles un peu différentes d'une école à l'autre, et c'est pourquoi les voisins musulmans ne font pas toujours exactement pareil."
+    },
+    {
+     "texte": "Après une relation sexuelle, après les règles ou après l'accouchement, il faut le « ghousl », le grand lavage : tout le corps. S'il n'y a pas d'eau, on utilise la terre propre : c'est le « tayammoum » (sourate 5, verset 6). Un détail utile : tu verras souvent des musulmans, dans le désert ou en voyage, se frotter les mains sur la terre et passer les mains sur le visage. C'est cela."
+    },
+    {
+     "sous_titre": "Les gestes de la prière"
+    },
+    {
+     "texte": "Chaque prière se compose d'unités, qu'on appelle « rak'a ». Voici les gestes d'une unité, dans l'ordre. Le musulman se tient debout, tourné vers La Mecque, la « qibla ». Il lève les mains aux oreilles et dit « Allahou akbar ». Il récite la première sourate, la Fatiha, puis un autre passage du Coran. Il s'incline, les mains sur les genoux. Il se redresse. Il se prosterne, le front, le nez, les paumes, les genoux et les orteils sur le sol. Il s'assoit un instant. Il se prosterne une deuxième fois. Voilà une rak'a. Le matin, on fait deux unités. À midi, quatre. L'après-midi, quatre. Au coucher du soleil, trois. La nuit, quatre. Au total, dix-sept unités obligatoires par jour, donc la Fatiha est récitée dix-sept fois par jour au minimum."
+    },
+    {
+     "texte": "À la fin, il s'assoit et récite une formule appelée « tachahhoud » : on y répète la chahada et on demande la bénédiction sur Mahomet. Puis il tourne la tête à droite et à gauche en disant « que la paix soit sur vous ». C'est fini."
+    },
+    {
+     "sous_titre": "Le détail qui compte"
+    },
+    {
+     "texte": "Voici un point très important, et qu'on oublie souvent. La prière doit être dite en arabe. Même le musulman qui ne parle pas arabe, comme la grande majorité des musulmans au Cameroun, au Tchad, au Niger, au Nigeria, doit réciter en arabe. Il l'a appris par cœur, souvent sans comprendre. Un enfant de sept ou huit ans qui récite la Fatiha en arabe ne comprend pas ce qu'il dit. Beaucoup d'adultes non plus. Voilà un fait que ton ami musulman reconnaîtra si tu lui demandes. Les prières personnelles, les « dou'a », peuvent être dites dans sa propre langue. Mais la salat, la prière rituelle, c'est en arabe, avec des mots fixes."
+    },
+    {
+     "sous_titre": "Ce qu'on ne doit pas faire"
+    },
+    {
+     "texte": "Pendant la prière, on ne parle pas, on ne mange pas, on ne rit pas. Si on rit à haute voix, la prière est annulée selon la plupart des écoles. Et il y a des règles sur ce qui passe devant celui qui prie. Un hadith de Mouslim dit que la prière d'un homme est coupée si une femme, un âne ou un chien noir passe devant lui (Mouslim, hadith 510). Quand on a rapporté cela à Aïcha, la femme de Mahomet, elle s'est fâchée : « Vous nous avez comparées aux ânes et aux chiens ! » (Boukhari, hadith 514). Elle a ajouté qu'elle dormait devant Mahomet pendant qu'il priait. C'est une des nombreuses discussions parmi les savants musulmans."
+    },
+    {
+     "sous_titre": "La prière du vendredi et les fêtes"
+    },
+    {
+     "texte": "Le vendredi, à midi, les hommes doivent aller à la mosquée pour la prière commune, qu'on appelle « joumou'a ». Avant la prière, l'imam fait un sermon, la « khoutba ». Les femmes peuvent y aller, mais elles prient séparées des hommes, derrière eux. Pour les deux grandes fêtes, on fait aussi une prière commune, souvent en plein air."
+    },
+    {
+     "sous_titre": "Les règles pour les femmes et les voyageurs"
+    },
+    {
+     "texte": "La femme qui a ses règles ne prie pas, et ne jeûne pas. Elle devra rattraper les jours de jeûne manqués, mais pas les prières. Le voyageur peut raccourcir ses prières de quatre unités à deux, et regrouper deux prières en une. Le malade peut prier assis ou couché."
+    },
+    {
+     "sous_titre": "Ce que le musulman en attend"
+    },
+    {
+     "texte": "Le musulman croit que chaque prière efface des péchés. Un hadith dit : « Si une rivière coulait devant la porte de l'un de vous et qu'il s'y baignât cinq fois par jour, resterait-il quelque saleté sur lui ? » Ils dirent : « Non. » Il dit : « C'est l'image des cinq prières : par elles, Allah efface les péchés » (Boukhari, hadith 528). Un autre hadith dit que la première chose dont le serviteur sera jugé le jour de la résurrection, c'est la prière (Tirmidhi, hadith 413). Et celui qui abandonne la prière ? Un hadith dit : « Entre l'homme et le shirk et le kufr, il y a l'abandon de la prière » (Mouslim, hadith 82). Les savants se divisent : certains disent que celui qui abandonne la prière par paresse est un pécheur grave, d'autres qu'il sort de l'islam. Voilà pourquoi les musulmans pratiquants prennent la prière très au sérieux."
     }
    ]
   },
   {
    "numero": "5",
-   "titre": "Quatrième pilier : le jeûne du ramadan",
-   "references": [
-    "Es 58:6-7",
-    "Mt 6:16-18"
-   ],
+   "titre": "Troisième pilier : la zakat, l'aumône légale",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le mois sacré"
+     "sous_titre": "Un impôt religieux"
     },
     {
-     "texte": "Le quatrième pilier est le « sawm », le jeûne pendant le mois de ramadan, le neuvième mois du calendrier lunaire musulman. Pendant tout ce mois, de l'aube jusqu'au coucher du soleil, le musulman adulte et en bonne santé ne mange pas, ne boit pas, même pas une gorgée d'eau, et n'a pas de relations sexuelles. Les malades, les voyageurs, les femmes enceintes ou qui allaitent, les femmes pendant leurs règles, peuvent remettre leur jeûne à plus tard. Avant l'aube, on prend un repas (« sahour ») ; au coucher du soleil, on rompt le jeûne, souvent avec des dattes et de l'eau, puis un repas familial (« iftar »). Les nuits sont consacrées à des prières supplémentaires et à la récitation du Coran. La fin du ramadan est célébrée par la grande fête de l'Aïd al-Fitr, appelée en Afrique de l'Ouest la Korité."
+     "texte": "Le troisième pilier est la « zakat ». Le mot veut dire « purification » et « croissance ». C'est une aumône obligatoire. Elle n'est pas un cadeau : c'est une dette envers les pauvres, que le riche doit payer. Le Coran la mentionne près de trente fois, presque toujours à côté de la prière. Il dit : « Accomplissez la prière et acquittez la zakat » (sourate 2, verset 43)."
     },
     {
-     "sous_titre": "Les promesses"
+     "sous_titre": "Combien ?"
     },
     {
-     "texte": "Boukhari rapporte que Mahomet a dit : « Celui qui jeûne le ramadan avec foi et en espérant la récompense, ses péchés passés lui sont pardonnés » (Boukhari, hadith 38). Il dit aussi que l'haleine de celui qui jeûne est, auprès d'Allah, plus agréable que l'odeur du musc (Boukhari, hadith 1894). La nuit du destin, pendant les dix dernières nuits du ramadan, est dite « meilleure que mille mois » (sourate 97, verset 3)."
+     "texte": "Quand un musulman possède, depuis un an, une somme au-dessus d'un certain minimum, il doit en donner deux et demi pour cent. Ce minimum s'appelle le « nissab ». Il correspond à la valeur d'environ quatre-vingt-cinq grammes d'or. Pour les récoltes, on donne le dixième si elles sont arrosées par la pluie, et le vingtième si elles sont arrosées à la main. Pour le bétail, il y a un barème précis, par exemple une chèvre pour quarante bêtes."
     },
     {
-     "sous_titre": "Un temps de recherche de Dieu"
+     "texte": "Prenons un exemple. Un commerçant du marché a mis de côté dix millions de francs pendant un an. Il doit donner deux cent cinquante mille francs. C'est le calcul. Cela n'a pas besoin d'être annoncé au public : l'aumône peut être donnée en secret."
     },
     {
-     "texte": "Le ramadan est un temps où beaucoup de musulmans sont plus ouverts aux choses de Dieu. Ils prient plus, réfléchissent davantage à leur vie, à leurs péchés. C'est un temps privilégié pour prier pour eux. Beaucoup d'églises organisent, pendant le ramadan, trente jours de prière pour le monde musulman. Beaucoup de témoignages d'ex-musulmans racontent que c'est pendant un ramadan, en cherchant Dieu, qu'ils ont rencontré Jésus."
+     "sous_titre": "Qui reçoit ?"
     },
     {
-     "sous_titre": "Le jeûne que Dieu aime"
+     "texte": "Le Coran donne la liste exacte, en huit catégories (sourate 9, verset 60) : les pauvres, les nécessiteux, ceux qui travaillent à la collecter, ceux dont les cœurs sont à gagner, les esclaves à libérer, les endettés, ceux qui sont « dans la voie d'Allah » et le voyageur en détresse."
     },
     {
-     "texte": "Dieu avait dit par Ésaïe : voici le jeûne auquel je prends plaisir : détache les chaînes de la méchanceté, dénoue les liens de la servitude, renvoie libres les opprimés ; partage ton pain avec celui qui a faim (Ésaïe 58:6-7). Jésus a enseigné à jeûner en secret, pour le Père, et non pour être vu (Matthieu 6:16-18). Le jeûne chrétien n'achète pas le pardon : il exprime la faim de Dieu."
+     "texte": "Prends une de ces catégories : « ceux dont les cœurs sont à gagner ». Les savants expliquent que cela désigne des gens qu'on veut rapprocher de l'islam, par exemple de nouveaux convertis ou des chefs dont on veut l'amitié. Autrement dit, l'aumône peut servir à gagner des gens à l'islam. Une autre catégorie, « dans la voie d'Allah », est comprise par beaucoup de savants comme le combat pour l'islam, c'est-à-dire le djihad. Voilà ce que dit le texte. Aujourd'hui, selon les pays, l'argent de la zakat sert aussi à construire des mosquées et à financer des écoles coraniques."
+    },
+    {
+     "sous_titre": "Les autres aumônes"
+    },
+    {
+     "texte": "À côté de la zakat obligatoire, il y a la « sadaqa », l'aumône volontaire, que le musulman donne quand il veut. Et à la fin du ramadan, chaque personne, même un bébé, donne la « zakat al-fitr », une mesure de nourriture, pour que les pauvres puissent aussi fêter. Elle vaut en général le prix d'un repas."
     }
    ]
   },
   {
    "numero": "6",
-   "titre": "Cinquième pilier : le pèlerinage",
-   "references": [
-    "He 10:4",
-    "He 9:12"
-   ],
+   "titre": "Quatrième pilier : le jeûne du ramadan",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le hajj"
+     "sous_titre": "Le mois"
     },
     {
-     "texte": "Le cinquième pilier est le « hajj », le pèlerinage à La Mecque, obligatoire une fois dans la vie pour celui qui en a les moyens physiques et financiers. Il a lieu pendant le dernier mois de l'année musulmane. Les pèlerins, hommes vêtus de deux pièces de tissu blanc sans couture, font sept fois le tour de la Kaaba, courent entre les collines de Safa et Marwa, se tiennent debout sur la plaine d'Arafat, lancent des cailloux contre des piliers qui représentent Satan, et offrent un sacrifice. Beaucoup visitent aussi la mosquée du prophète à Médine. Celui qui revient du pèlerinage reçoit, en Afrique, le titre respecté d'« El Hadj » ou d'« Alhadji »."
+     "texte": "Le quatrième pilier est le jeûne, le « sawm », pendant le mois de « ramadan ». C'est le neuvième mois du calendrier musulman. Ce calendrier est lunaire : il compte douze mois de vingt-neuf ou trente jours, soit environ trois cent cinquante-quatre jours dans l'année. Cela veut dire que chaque année, le ramadan arrive environ dix jours plus tôt que l'année précédente, et traverse toutes les saisons. Le début du mois est annoncé quand on a vu la nouvelle lune."
+    },
+    {
+     "texte": "Pourquoi ce mois ? Parce que, selon le Coran, c'est le mois où le Coran a commencé à descendre : le mois de ramadan, dans lequel le Coran a été révélé comme guide pour les hommes (sourate 2, verset 185). C'est aussi dans ce verset que le jeûne est ordonné. Pour le musulman, ce mois est donc d'abord le mois du Coran."
+    },
+    {
+     "sous_titre": "Ce que le jeûne interdit"
+    },
+    {
+     "texte": "Du lever de l'aube jusqu'au coucher du soleil, le musulman adulte ne mange pas, ne boit pas, même pas une gorgée d'eau, ne fume pas, et n'a pas de relations sexuelles. Si quelqu'un mange ou boit par erreur, son jeûne n'est pas annulé. Si quelqu'un a des relations volontaires pendant le jour, il doit une grande expiation : libérer un esclave, ou jeûner deux mois de suite, ou nourrir soixante pauvres (Boukhari, hadith 1936)."
+    },
+    {
+     "texte": "Qui est dispensé ? Les malades, les voyageurs, les femmes enceintes ou qui allaitent si cela leur fait mal, les femmes qui ont leurs règles, les vieillards trop faibles. Ils rattrapent les jours manqués ou nourrissent un pauvre pour chaque jour."
+    },
+    {
+     "sous_titre": "Le rythme du mois"
+    },
+    {
+     "texte": "Avant l'aube, on prend un repas, le « sahour ». Un hadith dit qu'il y a une bénédiction dans le sahour (Boukhari, hadith 1923). Au coucher du soleil, quand le muezzin appelle, on rompt le jeûne, souvent avec des dattes et de l'eau, comme faisait Mahomet. Puis vient le grand repas, l'« iftar ». Dans nos quartiers, ce moment est un temps de partage : on se rassemble, on invite le voisin, on donne un plat au pauvre. La nuit, les mosquées se remplissent pour une longue prière appelée « tarawih ». Pendant ce mois, on essaie de lire le Coran en entier."
+    },
+    {
+     "sous_titre": "La nuit du destin"
+    },
+    {
+     "texte": "Dans les dix dernières nuits du ramadan se trouve la « Laylat al-Qadr », la nuit du destin ou nuit de la puissance. Le Coran dit : la nuit du destin vaut mieux que mille mois (sourate 97, verset 3). C'est la nuit où le Coran serait descendu pour la première fois. Beaucoup de musulmans restent éveillés toute la nuit pour prier, car ils croient que les péchés pardonnés cette nuit-là sont très nombreux. Les dix derniers jours, certains font aussi la retraite à la mosquée, l'« i'tikaf »."
     },
     {
      "sous_titre": "Les promesses"
     },
     {
-     "texte": "Boukhari rapporte que Mahomet a dit : « Celui qui accomplit le pèlerinage sans commettre d'obscénité ni de péché revient comme le jour où sa mère l'a enfanté » (Boukhari, hadith 1521), et que « le pèlerinage accepté n'a pas d'autre récompense que le paradis » (Boukhari, hadith 1773). Beaucoup de musulmans pauvres épargnent toute leur vie pour ce voyage, dans l'espoir d'être purifiés de leurs péchés."
+     "texte": "Mahomet aurait dit : « Celui qui jeûne le ramadan avec foi et en espérant la récompense, ses péchés passés lui sont pardonnés » (Boukhari, hadith 38). Il aurait dit aussi que les portes du paradis sont ouvertes pendant ce mois, que les portes de l'enfer sont fermées, et que les démons sont enchaînés (Boukhari, hadith 1899). Voilà pourquoi tant de musulmans, même ceux qui prient peu, jeûnent le ramadan. Dans beaucoup de quartiers, celui qui ne jeûne pas en public est mal vu, et dans certains pays, il est puni par la loi."
     },
     {
-     "sous_titre": "Ce que la Bible dit"
+     "sous_titre": "La Korité"
     },
     {
-     "texte": "Le chrétien comprend cette soif de purification. Mais la Bible dit clairement que les rites et les sacrifices d'animaux ne peuvent pas ôter le péché : il est impossible que le sang des taureaux et des boucs ôte les péchés (Hébreux 10:4). Seul Christ, entré une fois pour toutes dans le lieu très saint avec son propre sang, a obtenu une rédemption éternelle (Hébreux 9:12). Aucun pèlerinage ne peut faire ce que la croix a déjà fait."
-    },
-    {
-     "verset": "He 9:12"
-    },
-    {
-     "verset": "He 10:4"
+     "texte": "Le premier jour du mois suivant, on fête la fin du jeûne : c'est l'« Aïd al-Fitr », que nous appelons au Cameroun et en Afrique de l'Ouest la Korité. On fait une prière en commun, on met de beaux habits, on se rend visite, on mange, on donne des cadeaux aux enfants."
     }
    ]
   },
   {
    "numero": "7",
-   "titre": "La fête du sacrifice : une porte vers la croix",
-   "references": [
-    "Gn 22:13-14",
-    "Jn 1:29"
-   ],
+   "titre": "Cinquième pilier : le hajj, le pèlerinage à La Mecque",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "La Tabaski"
+     "sous_titre": "Une fois dans la vie"
     },
     {
-     "texte": "Le jour du sacrifice, pendant le pèlerinage, tous les musulmans du monde qui le peuvent égorgent un mouton, une chèvre, une vache ou un chameau. C'est la grande fête de l'Aïd al-Adha, appelée en Afrique de l'Ouest et au Cameroun la Tabaski ou la fête du mouton. Elle rappelle le moment où Abraham s'apprêtait à sacrifier son fils, et où Dieu le remplaça par un bélier. Pour la plupart des musulmans, le fils était Ismaël ; le Coran ne donne pas son nom."
+     "texte": "Le cinquième pilier est le « hajj », le pèlerinage à La Mecque. Il est obligatoire une fois dans la vie, pour celui qui en a la possibilité : la santé et les moyens (sourate 3, verset 97). Il a lieu une fois par an, pendant un temps fixe, dans le douzième mois du calendrier, qu'on appelle « dhoul-hijja ». Il y a aussi la « omra », un petit pèlerinage qu'on peut faire toute l'année, mais il ne remplace pas le hajj."
     },
     {
-     "sous_titre": "« Nous le rachetâmes par une immolation immense »"
+     "texte": "Chaque année, entre deux et trois millions de pèlerins se retrouvent à La Mecque. La ville est interdite aux non-musulmans. Un panneau, sur la route, l'annonce."
     },
     {
-     "texte": "Voici une porte merveilleuse pour l'Évangile. Le Coran dit, en racontant cette histoire : et nous le rachetâmes par une immolation immense (sourate 37, verset 107). Le fils d'Abraham fut donc « racheté » : un autre mourut à sa place. Et ce sacrifice est appelé « immense », « grandiose ». Tu peux demander à ton ami musulman : « Pourquoi Dieu a-t-il appelé ce sacrifice \"immense\" ? Un simple mouton est-il un sacrifice immense ? Et pourquoi chaque année, depuis des siècles, sacrifions-nous des animaux, si un seul sacrifice suffisait ? »"
+     "sous_titre": "Les gestes, jour après jour"
     },
     {
-     "sous_titre": "L'Agneau de Dieu"
+     "texte": "Voici les étapes principales. D'abord, avant d'entrer dans la zone sacrée, le pèlerin entre dans l'état de sacralisation, qu'on appelle « ihram ». Les hommes mettent deux pièces de tissu blanc sans couture. Les femmes portent des vêtements simples. Il est alors interdit de se couper les cheveux ou les ongles, de se parfumer, d'avoir des relations sexuelles, de chasser, de se disputer. Le pèlerin répète la « talbiya » : « Me voici, ô Allah, me voici. »"
     },
     {
-     "texte": "La Bible raconte qu'Abraham appela ce lieu « l'Éternel pourvoira », et que l'on dit encore : à la montagne de l'Éternel il sera pourvu (Genèse 22:14). Deux mille ans plus tard, sur la même région de Morija, à Jérusalem, Dieu a pourvu : Jean-Baptiste, voyant venir Jésus, dit : voici l'Agneau de Dieu, qui ôte le péché du monde (Jean 1:29). Le sacrifice immense, c'est lui. Il n'y a plus besoin d'égorger un mouton chaque année : le vrai Agneau a été immolé une fois pour toutes."
+     "texte": "À La Mecque, il fait sept fois le tour de la Kaaba, dans le sens contraire des aiguilles d'une montre. On appelle cela le « tawaf ». Si possible, il touche ou embrasse la Pierre noire, un rocher noir encastré dans un angle de la Kaaba. Si la foule est trop grande, il la salue de la main. Le deuxième calife, Omar, a dit en l'embrassant : « Je sais que tu n'es qu'une pierre, qui ne fait ni mal ni bien. Si je n'avais pas vu le Prophète t'embrasser, je ne t'embrasserais pas » (Boukhari, hadith 1597). Le geste est donc fait par obéissance, pas parce que la pierre a un pouvoir."
+    },
+    {
+     "texte": "Ensuite, il fait sept fois le trajet entre deux petites collines, Safa et Marwa. Cela rappelle l'histoire d'Agar, la servante d'Abraham. Selon un hadith long, Abraham a laissé Agar et son bébé Ismaël dans la vallée de La Mecque, avec un peu d'eau et de dattes. Quand l'eau a manqué, Agar a couru sept fois entre ces deux collines pour chercher de l'aide. L'ange est venu, a frappé le sol, et l'eau est sortie : c'est le puits de Zamzam (Boukhari, hadith 3364). Les pèlerins boivent l'eau de Zamzam et en rapportent chez eux."
+    },
+    {
+     "texte": "Le neuvième jour, le jour le plus important, tous les pèlerins se rassemblent sur la plaine d'Arafat, à une vingtaine de kilomètres de La Mecque. Ils se tiennent debout, depuis midi jusqu'au coucher du soleil, en priant et en demandant pardon. Un hadith dit : « Le hajj, c'est Arafat. » Si on manque Arafat, le pèlerinage n'est pas valable. Le soir, ils vont dormir à Mouzdalifa, où ils ramassent des petits cailloux."
+    },
+    {
+     "texte": "Le dixième jour, à Mina, ils lancent sept cailloux contre un pilier qui représente Satan. Les jours suivants, ils en lancent contre trois piliers. Cela rappelle, selon la tradition, qu'Abraham a chassé Satan à coups de cailloux quand il voulait l'empêcher de sacrifier son fils. Le même jour, ils offrent un sacrifice d'animal, se rasent la tête (les hommes) ou coupent une mèche de cheveux (les femmes), et retirent l'habit de sacralisation. Ils retournent faire un dernier tour de la Kaaba. Et beaucoup vont visiter la mosquée de Mahomet à Médine, où il est enterré."
+    },
+    {
+     "sous_titre": "Le titre de Hadj"
+    },
+    {
+     "texte": "Celui qui revient du pèlerinage reçoit un titre, « El Hadj », ou « Alhadji » en Afrique de l'Ouest, et sa femme « Hadja ». Dans nos villes, ce titre donne du respect. On le voit sur les cartes de visite, sur les enseignes des boutiques. Le retour du pèlerin est une grande fête dans le quartier. Beaucoup de musulmans pauvres économisent pendant dix, vingt ans pour ce voyage. Certains vendent un champ ou des bêtes."
+    },
+    {
+     "sous_titre": "Les promesses"
+    },
+    {
+     "texte": "Mahomet aurait dit : « Celui qui fait le pèlerinage sans mauvaise parole et sans péché, il revient comme au jour où sa mère l'a enfanté » (Boukhari, hadith 1521). Et : « Le pèlerinage accepté n'a d'autre récompense que le paradis » (Boukhari, hadith 1773). Voilà pourquoi le pèlerin espère un « nouveau départ ». Mais cela dépend de si son pèlerinage est « accepté », et personne ne sait si le sien l'est. Nous y reviendrons."
     }
    ]
   },
   {
    "numero": "8",
-   "titre": "La balance : une religion de mérites",
-   "references": [
-    "Jc 2:10",
-    "Ps 130:3-4"
-   ],
+   "titre": "Les deux grandes fêtes",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Peser les bonnes et les mauvaises actions"
+     "sous_titre": "L'Aïd al-Fitr"
     },
     {
-     "texte": "Au jour du jugement, selon le Coran, les actions seront pesées : celui dont la balance sera lourde de bonnes actions sera dans une vie agréable ; celui dont la balance sera légère aura pour demeure un abîme (sourate 101, versets 6 à 9). Toute la vie religieuse du musulman, prières, jeûne, aumône, pèlerinage, sert à remplir le plateau des bonnes actions. Il existe même des hadiths qui calculent les récompenses : une prière faite en commun vaut vingt-sept fois une prière faite seul (Boukhari, hadith 645), une lettre du Coran récitée vaut dix récompenses."
+     "texte": "Nous avons parlé de la Korité, qui vient après le ramadan. C'est une fête de joie et de partage, avec une prière en commun."
     },
     {
-     "sous_titre": "Pas d'assurance"
+     "sous_titre": "L'Aïd al-Adha, la Tabaski"
     },
     {
-     "texte": "C'est pourquoi le musulman sincère ne peut jamais être sûr de son salut. Il espère que ses bonnes actions l'emporteront, et que la miséricorde d'Allah fera le reste. Même Mahomet a dit : « Par Allah, bien que je sois le messager d'Allah, je ne sais pas ce qu'on fera de moi » (Boukhari, hadith 1243). Et le Coran lui fait dire : je ne sais pas ce que l'on fera de moi ni de vous (sourate 46, verset 9)."
+     "texte": "La deuxième fête est l'« Aïd al-Adha », la fête du sacrifice, qu'on appelle Tabaski ou fête du mouton. Elle a lieu le dixième jour du mois du pèlerinage, le même jour que le sacrifice des pèlerins à Mina. Tous les musulmans qui en ont les moyens égorgent un animal : un mouton, une chèvre, une vache ou un chameau. L'animal doit être sans défaut, avoir l'âge requis. La viande est divisée en trois parts, en général : une pour la famille, une pour les voisins et les amis, une pour les pauvres."
     },
     {
-     "sous_titre": "Ce que dit la Bible"
+     "texte": "Pourquoi ce sacrifice ? Parce que, selon le Coran, Abraham a vu en rêve qu'il devait sacrifier son fils. Il l'a dit à son fils. Le fils a répondu : « Père, fais ce qui t'est ordonné. Tu me trouveras, si Allah le veut, parmi les patients. » Quand ils se furent soumis, et qu'Abraham eut couché son fils sur le front, nous l'appelâmes : « Ô Abraham, tu as confirmé la vision. » Et nous le rachetâmes par une immolation immense (sourate 37, versets 102 à 107). Retiens bien ceci : le Coran ne dit pas le nom du fils. La plupart des musulmans disent que c'est Ismaël. Quelques anciens savants disaient que c'était Isaac. Aujourd'hui, la grande majorité dit Ismaël. Et l'immolation immense est expliquée comme le bélier envoyé par Allah."
     },
     {
-     "texte": "La Bible dit que ce système ne peut pas fonctionner, pour une raison simple : quiconque observe toute la loi, mais pèche contre un seul commandement, devient coupable de tous (Jacques 2:10). Un seul péché suffit à nous séparer du Dieu saint. Le psalmiste dit : si tu gardais le souvenir des iniquités, Éternel, Seigneur, qui pourrait subsister ? Mais le pardon se trouve auprès de toi (Psaume 130:3-4)."
-    },
-    {
-     "verset": "Ps 130:3-4"
-    },
-    {
-     "texte": "Paul explique la différence entre un salaire et une grâce : à celui qui fait une œuvre, le salaire est imputé, non comme une grâce, mais comme une chose due ; et à celui qui ne fait point d'œuvre, mais qui croit en celui qui justifie l'impie, sa foi lui est imputée à justice (Romains 4:4-5). Le salut n'est pas un salaire, c'est un cadeau."
+     "texte": "La Tabaski, dans la ville, est une grande fête. Des moutons sont vendus partout dans les rues dans les jours qui précèdent. Les prix montent. Beaucoup de familles s'endettent pour acheter un mouton convenable. Le jour de la fête, l'imam fait la prière, puis chaque famille égorge l'animal, en disant « Bismillah, Allahou akbar ». Les enfants sont heureux. On partage la viande avec les voisins, y compris les non-musulmans."
     }
    ]
   },
   {
    "numero": "9",
-   "titre": "Les grands moments de la vie",
-   "references": [
-    "Rm 12:15",
-    "1 Th 4:13-14"
-   ],
+   "titre": "La logique de tout cela : la balance",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "La naissance"
+     "sous_titre": "Peser les actions"
     },
     {
-     "texte": "À la naissance d'un enfant, le père ou un proche murmure l'appel à la prière à l'oreille droite du bébé, pour que les premiers mots qu'il entende soient ceux de la foi musulmane. Le septième jour, on donne le nom, on rase souvent la tête de l'enfant, et l'on sacrifie un ou deux moutons : c'est l'« aqiqa », que beaucoup appellent chez nous le « baptême musulman ». Les garçons sont circoncis, à un âge qui varie selon les régions."
+     "texte": "Voici le plus important de tout. Pourquoi le musulman fait-il tout cela ? Parce que, selon le Coran, au jour du jugement, Allah mettra les actions dans une balance : celui dont la balance sera lourde aura une vie agréable, et celui dont la balance sera légère aura pour demeure un abîme (sourate 101, versets 6 à 9). Une autre sourate dit : nous établirons les balances de la justice, au jour de la résurrection, et nulle âme ne sera lésée en rien, même du poids d'un grain de moutarde (sourate 21, verset 47)."
     },
     {
-     "sous_titre": "Le mariage"
+     "texte": "En d'autres termes : tu as deux plateaux. D'un côté les bonnes actions, de l'autre les mauvaises. Si le plateau des bonnes est plus lourd, tu es sauvé. Sinon, tu es perdu. Prends l'exemple du marché : le vendeur met l'oignon d'un côté de la balance et le poids de l'autre. Si ce n'est pas assez lourd, il rajoute. La logique est la même. Les prières, le jeûne, l'aumône, le pèlerinage servent à rajouter du poids."
     },
     {
-     "texte": "Le mariage musulman est un contrat entre deux familles. Il comprend le consentement, la présence d'un tuteur pour la femme, des témoins, et une dot (« mahr ») versée à l'épouse. La cérémonie religieuse, souvent célébrée à la mosquée ou à la maison par un imam, est courte ; les festivités qui suivent peuvent durer plusieurs jours. Un musulman peut épouser une chrétienne ou une juive sans qu'elle se convertisse, mais une musulmane ne peut pas épouser un non-musulman. C'est pourquoi tant de jeunes chrétiennes, en Afrique, sont poussées à quitter leur foi quand elles épousent un musulman, comme nous l'avons vu dans l'enseignement sur le mariage entre chrétien et musulman."
+     "texte": "C'est pourquoi les hadiths parlent des récompenses comme d'un compte. La prière en commun vaut vingt-sept fois la prière seul (Boukhari, hadith 645). Une lettre du Coran lue vaut dix bonnes actions (Tirmidhi, hadith 2910). Et plus tu fais, plus tu pèses."
     },
     {
-     "sous_titre": "La mort et les funérailles"
+     "sous_titre": "Pas d'assurance"
     },
     {
-     "texte": "Quand un musulman meurt, on lui ferme les yeux, on le lave selon un rite précis, on l'enveloppe dans un linceul blanc, et on l'enterre le plus vite possible, souvent le jour même, sans cercueil dans beaucoup de régions, couché sur le côté droit, le visage tourné vers La Mecque. Une prière funéraire est dite debout, sans prosternation. On croit que, dès que les gens s'éloignent de la tombe, les deux anges viennent interroger le mort : « Qui est ton Seigneur ? Quelle est ta religion ? Qui est ton prophète ? » Pendant les jours qui suivent, on récite le Coran et on fait des aumônes au nom du défunt, au troisième, au septième et au quarantième jour selon les coutumes."
+     "texte": "Voici la conséquence, terrible. Le musulman ne peut jamais savoir si la balance sera assez lourde. Il ne peut pas être sûr de son salut. Il espère, il craint. Il dit : « Inch'Allah, j'irai au paradis. » Il ne dit pas : « Je suis sûr d'y aller. »"
     },
     {
-     "sous_titre": "Le Mawlid"
+     "texte": "Même Mahomet n'avait pas d'assurance. Boukhari rapporte qu'il a dit, à propos d'un compagnon mort : « Par Allah, je suis le messager d'Allah, et je ne sais pas ce qu'on fera de moi » (Boukhari, hadith 1243). Le Coran lui fait dire la même chose : je ne sais pas ce qu'on fera de moi ni de vous (sourate 46, verset 9)."
     },
     {
-     "texte": "Dans beaucoup de pays africains, on fête aussi le Mawlid, l'anniversaire de la naissance du prophète, avec des chants, des processions et des récitations. Les salafistes condamnent cette fête comme une innovation non autorisée ; les confréries soufies l'aiment beaucoup. Nous reparlerons de ces divisions."
+     "texte": "Même le deuxième calife Omar, un des plus grands compagnons, a dit, sur son lit de mort, qu'il aurait voulu que sa mère ne l'ait pas enfanté, ou qu'il sorte du jugement « à égalité, sans rien contre moi ni pour moi ». Voilà l'état d'esprit du musulman : une crainte constante."
     },
     {
-     "sous_titre": "Comment se comporter en chrétien"
+     "sous_titre": "Les seules exceptions"
     },
     {
-     "texte": "Ces moments sont des occasions d'aimer. Paul dit : réjouissez-vous avec ceux qui se réjouissent ; pleurez avec ceux qui pleurent (Romains 12:15). Le chrétien peut rendre visite à ses voisins musulmans à une naissance, offrir un cadeau, assister à un deuil, présenter ses condoléances, aider à préparer une fête, sans participer aux rites religieux eux-mêmes. Lors d'un deuil, il peut prier en silence, et plus tard, dire une parole d'espérance. Paul écrivait aux Thessaloniciens : nous ne voulons pas que vous soyez dans l'ignorance au sujet de ceux qui dorment, afin que vous ne vous affligiez pas comme les autres qui n'ont point d'espérance ; car si nous croyons que Jésus est mort et qu'il est ressuscité, croyons aussi que Dieu ramènera par Jésus ceux qui sont morts (1 Thessaloniciens 4:13-14). Beaucoup de musulmans ont été touchés par l'espérance tranquille des chrétiens devant la mort."
+     "texte": "Il y a une exception. Selon un hadith, dix compagnons auraient reçu l'annonce qu'ils iraient au paradis (Tirmidhi, hadith 3747). On les appelle « les dix bénis ». Et celui qui meurt en martyr, tué au combat pour Allah, est assuré du paradis. Mais le musulman ordinaire, lui, n'a rien de semblable."
+    },
+    {
+     "sous_titre": "Le pont, l'intercession, la miséricorde"
+    },
+    {
+     "texte": "Pour finir, une précision de justice. Le musulman croit aussi à la miséricorde d'Allah et à l'intercession de Mahomet pour certains pécheurs. Ces idées lui donnent de l'espoir. Mais l'espoir n'est pas l'assurance. Retiens bien cela : il espère, il ne sait pas."
     }
    ]
   },
   {
    "numero": "10",
-   "titre": "Comment parler de tout cela",
-   "references": [
-    "Jn 6:28-29",
-    "1 Jn 5:13"
-   ],
+   "titre": "Les grands moments de la vie",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Une question simple"
+     "sous_titre": "La naissance"
     },
     {
-     "texte": "Avec un ami musulman, une des meilleures questions est simple : « Si tu mourais aujourd'hui, es-tu sûr d'aller au paradis ? » Presque toujours, il répondra : « Seul Allah le sait. J'espère. » Tu peux alors lui dire avec douceur : « Moi, je le sais. Non parce que je suis meilleur que toi, je suis un pécheur comme toi. Mais parce que quelqu'un a payé pour moi. » Jean a écrit : je vous ai écrit ces choses, afin que vous sachiez que vous avez la vie éternelle, vous qui croyez au nom du Fils de Dieu (1 Jean 5:13)."
+     "texte": "Quand un bébé naît, le père ou un proche murmure l'appel à la prière à son oreille droite, et la deuxième formule de l'appel dans l'oreille gauche. On croit que les premières paroles que l'enfant entend doivent être celles de la foi. On met un peu de datte mâchée sur son palais : c'est le « tahnik », comme faisait Mahomet. Le septième jour, on donne le nom, on rase la tête de l'enfant, et on sacrifie un ou deux moutons : c'est l'« aqiqa ». Les garçons sont circoncis, à un âge qui varie selon les régions."
     },
     {
-     "sous_titre": "L'œuvre de Dieu"
+     "sous_titre": "Le mariage"
     },
     {
-     "texte": "Un jour, des gens demandèrent à Jésus : que devons-nous faire, pour faire les œuvres de Dieu ? Jésus leur répondit : l'œuvre de Dieu, c'est que vous croyiez en celui qu'il a envoyé (Jean 6:28-29). Ils demandaient une liste d'œuvres ; Jésus leur a montré une personne."
+     "texte": "Le mariage musulman est un contrat entre deux familles, avec le consentement, un tuteur pour la femme, des témoins, et une dot, le « mahr », donnée à la mariée. La cérémonie à la mosquée ou à la maison par un imam est courte, et les fêtes qui suivent durent souvent plusieurs jours. Un homme musulman peut épouser une chrétienne ou une juive sans qu'elle se convertisse. Mais la musulmane ne peut pas épouser un non-musulman. Le Coran permet à l'homme jusqu'à quatre épouses (sourate 4, verset 3). Nous y reviendrons dans l'enseignement sur la femme."
     },
     {
-     "verset": "Jn 6:28-29"
+     "sous_titre": "La mort"
     },
     {
-     "sous_titre": "On raconte…"
+     "texte": "Quand un musulman est mourant, on lui murmure la chahada. Après sa mort, on lui ferme les yeux. On le lave selon un rite précis, et on l'enveloppe dans un linceul blanc de trois pièces. On l'enterre le plus vite possible, souvent le jour même, sans cercueil dans beaucoup de régions, couché sur le côté droit, le visage tourné vers La Mecque. On fait une prière funéraire debout, sans prosternation. Les gens jettent un peu de terre. Puis, comme nous l'avons dit, les deux anges viennent interroger. Les jours suivants, on lit le Coran, on fait des aumônes au nom du mort, souvent le troisième, le septième, et le quarantième jour, selon les coutumes. Les savants stricts disent que ces dates ne sont pas dans le hadith."
     },
     {
-     "texte": "On raconte qu'une commerçante musulmane du marché de Ngaoundéré, très pieuse, qui n'avait jamais manqué une prière ni un jour de ramadan, tomba gravement malade. Une voisine chrétienne vint la visiter à l'hôpital. La malade lui confia en pleurant : « J'ai peur. Je ne sais pas si mes bonnes actions sont assez lourdes. » La voisine lui lut lentement les paroles de Jésus au brigand sur la croix : aujourd'hui tu seras avec moi dans le paradis (Luc 23:43). La malade demanda : « Ce brigand, il n'avait rien fait de bon, et il est allé au paradis ? » « Oui, parce que Jésus a payé pour lui. » La commerçante guérit. Quelques mois plus tard, elle demanda à la voisine de lui parler encore de ce Jésus qui donne le paradis à ceux qui n'ont rien à peser dans la balance."
+     "sous_titre": "Le Mawlid"
+    },
+    {
+     "texte": "On fête aussi, dans beaucoup de pays africains, le Mawlid, la naissance de Mahomet, avec des chants, des poèmes et des repas. Les confréries soufies l'aiment beaucoup. Les salafistes disent que c'est une innovation, une « bid'a », donc interdite. Nous reparlerons de ces désaccords."
     }
    ]
   },
   {
    "numero": "11",
    "titre": "Ce que nous retenons",
-   "references": [
-    "Ep 2:8-10",
-    "Tt 3:4-5"
-   ],
+   "references": [],
    "blocs": [
     {
      "sous_titre": "Résumons"
     },
     {
-     "texte": "Le musulman croit en six articles de foi : Allah unique, les anges, les livres, les prophètes, le jour dernier et le destin. Il pratique cinq piliers : le témoignage, la prière cinq fois par jour avec les ablutions, l'aumône légale, le jeûne du ramadan et le pèlerinage à La Mecque. Ces pratiques sont vécues avec sérieux et ferveur. Mais elles s'inscrivent dans une logique de balance où les bonnes actions doivent l'emporter sur les mauvaises, sans assurance du salut. Le sacrifice de la Tabaski, appelé par le Coran « une immolation immense », ouvre une porte merveilleuse vers l'Agneau de Dieu."
+     "texte": "Le musulman croit six choses : Allah unique, les anges, les livres, les prophètes, le jour dernier, le destin. Il pratique cinq piliers : la chahada, la prière cinq fois par jour avec les ablutions, la zakat, le jeûne du ramadan et le pèlerinage à La Mecque. Ces pratiques sont vécues avec un sérieux admirable. Mais tout repose sur la balance des œuvres. Personne ne sait si sa balance sera assez lourde. Voilà pourquoi la crainte est si grande."
     },
     {
-     "sous_titre": "Sauvés pour les bonnes œuvres"
+     "sous_titre": "Ce que le chrétien retient"
     },
     {
-     "texte": "Le chrétien ne méprise pas la prière, le jeûne, l'aumône. Il les pratique aussi. Mais il sait que c'est par la grâce qu'il est sauvé, par le moyen de la foi, et qu'il est créé en Jésus-Christ pour de bonnes œuvres (Éphésiens 2:8-10). Lorsque la bonté de Dieu notre Sauveur et son amour pour les hommes ont été manifestés, il nous a sauvés, non à cause des œuvres de justice que nous aurions faites, mais selon sa miséricorde (Tite 3:4-5)."
-    },
-    {
-     "texte": "Dans le prochain enseignement, nous entrerons dans la vie quotidienne du musulman : la loi islamique, le permis et l'interdit, la pureté rituelle, jusqu'aux règles sur les toilettes."
+     "texte": "Le chrétien retient trois choses. Premièrement, la fidélité des musulmans doit nous faire réfléchir : ils prient, jeûnent, donnent, avec une constance que beaucoup de chrétiens n'ont pas. Deuxièmement, derrière tout cela, il y a une question qui reste sans réponse : « Est-ce que je suis sauvé ? » Et c'est précisément à cette question que l'Évangile répond. Paul écrit : à celui qui fait une œuvre, le salaire est imputé non comme une grâce, mais comme une chose due ; et à celui qui ne fait point d'œuvre, mais qui croit en celui qui justifie l'impie, sa foi lui est imputée à justice (Romains 4:4-5). Troisièmement, tu pourras, dans la série « Face à face », répondre à ces choses. Mais d'abord, comprends. Dans le prochain enseignement, nous entrerons dans la vie quotidienne du musulman : la loi, le permis et l'interdit, la pureté, le halal et le haram."
     }
    ]
   }
  ],
  "sujets": [
   {
-   "titre": "Pendant le ramadan",
-   "texte": "Prions afin que, pendant le ramadan, les musulmans qui jeûnent et cherchent Dieu reçoivent des rêves, des Bibles et des amis chrétiens qui leur révèlent Jésus (Jérémie 29:13)."
+   "titre": "Pour la crainte du jugement",
+   "texte": "Prions pour les musulmans sincères qui ne savent pas s'ils iront au paradis, afin qu'ils entendent que Jésus donne l'assurance du salut (1 Jean 5:13)."
   },
   {
-   "titre": "Pour ceux qui ont peur de la mort",
-   "texte": "Prions pour les musulmans malades ou âgés qui ont peur du jugement, afin qu'ils entendent que Jésus donne le paradis par grâce (Luc 23:43)."
+   "titre": "Pendant le ramadan",
+   "texte": "Prions afin que, pendant le ramadan, les musulmans qui cherchent Dieu reçoivent des rêves, des Bibles et des amis chrétiens (Jérémie 29:13)."
   },
   {
    "titre": "Pour la Tabaski",
@@ -403,7 +478,18 @@
     "Prière"
    ],
    "reponse": 1,
-   "explication": "Le musulman est « celui qui se soumet » à Allah.",
+   "explication": "Le musulman est celui qui s'est soumis à Allah.",
+   "section": "1"
+  },
+  {
+   "question": "Que sont, selon le hadith de Gabriel, les trois niveaux de la religion ?",
+   "choix": [
+    "Prière, jeûne, aumône",
+    "Islam, foi et excellence",
+    "Coran, hadith et consensus"
+   ],
+   "reponse": 1,
+   "explication": "Mouslim, hadith 8.",
    "section": "1"
   },
   {
@@ -414,69 +500,102 @@
     "Le mensonge"
    ],
    "reponse": 1,
-   "explication": "Coran 4:48. Dire que Jésus est Fils de Dieu est vu comme du shirk.",
-   "section": "1"
+   "explication": "Sourate 4, verset 48.",
+   "section": "2"
   },
   {
-   "question": "Combien de prières rituelles le musulman fait-il par jour ?",
+   "question": "Que veut dire la foi au « qadar » ?",
    "choix": [
-    "Trois",
-    "Cinq",
-    "Sept"
+    "La foi aux anges",
+    "La foi que tout est écrit d'avance par Allah",
+    "La foi au pèlerinage"
    ],
    "reponse": 1,
-   "explication": "À l'aube, à midi, l'après-midi, au coucher du soleil et la nuit.",
+   "explication": "Boukhari 3208.",
+   "section": "2"
+  },
+  {
+   "question": "Que dit la chahada ?",
+   "choix": [
+    "Allah est le plus grand",
+    "Il n'y a de dieu sauf Allah, et Mahomet est son messager",
+    "Allah est miséricordieux"
+   ],
+   "reponse": 1,
+   "explication": "Deux phrases.",
    "section": "3"
   },
   {
-   "question": "Comment le Coran appelle-t-il le sacrifice qui racheta le fils d'Abraham ?",
+   "question": "Combien d'unités de prière obligatoires un musulman fait-il par jour ?",
    "choix": [
-    "Un sacrifice ordinaire",
-    "Une immolation immense",
-    "Un sacrifice inutile"
+    "Cinq",
+    "Dix-sept",
+    "Cinquante"
    ],
    "reponse": 1,
-   "explication": "Coran 37:107 : une porte vers l'Agneau de Dieu.",
+   "explication": "Deux, quatre, quatre, trois et quatre.",
+   "section": "4"
+  },
+  {
+   "question": "Quelle part de son épargne annuelle le musulman donne-t-il pour la zakat ?",
+   "choix": [
+    "Dix pour cent",
+    "Deux et demi pour cent",
+    "Un tiers"
+   ],
+   "reponse": 1,
+   "explication": "Après un an, au-dessus du nissab.",
+   "section": "5"
+  },
+  {
+   "question": "Pourquoi le ramadan se déplace-t-il dans les saisons ?",
+   "choix": [
+    "Parce que le calendrier est solaire",
+    "Parce que le calendrier est lunaire, plus court d'environ dix jours",
+    "Parce que les imams le décident"
+   ],
+   "reponse": 1,
+   "explication": "Environ trois cent cinquante-quatre jours.",
+   "section": "6"
+  },
+  {
+   "question": "Que fait le pèlerin à Arafat, le neuvième jour ?",
+   "choix": [
+    "Il lance des cailloux",
+    "Il se tient debout en priant jusqu'au coucher du soleil",
+    "Il sacrifie un mouton"
+   ],
+   "reponse": 1,
+   "explication": "Sans Arafat, le pèlerinage n'est pas valable.",
    "section": "7"
   },
   {
-   "question": "Que dit Mahomet de son propre sort, selon Boukhari 1243 ?",
+   "question": "Que veut dire « une immolation immense » dans la sourate 37, verset 107 ?",
+   "choix": [
+    "Une victime humaine",
+    "Le sacrifice qui rachète le fils d'Abraham",
+    "La prière du vendredi"
+   ],
+   "reponse": 1,
+   "explication": "Le bélier envoyé par Allah.",
+   "section": "8"
+  },
+  {
+   "question": "Selon Boukhari 1243, que dit Mahomet de son propre sort ?",
    "choix": [
     "Qu'il est sûr du paradis",
     "Qu'il ne sait pas ce qu'on fera de lui",
     "Qu'il reviendra"
    ],
    "reponse": 1,
-   "explication": "Même Mahomet n'avait pas d'assurance du salut.",
-   "section": "8"
-  },
-  {
-   "question": "Qu'est-ce qu'un musulman croit qu'il arrive dans la tombe juste après l'enterrement ?",
-   "choix": [
-    "Rien jusqu'au jugement",
-    "Deux anges interrogent le mort sur son Seigneur, sa religion et son prophète",
-    "Il est réincarné"
-   ],
-   "reponse": 1,
-   "explication": "Ce sont les anges Munkar et Nakir.",
+   "explication": "Même Mahomet n'avait pas d'assurance.",
    "section": "9"
-  },
-  {
-   "question": "Selon Jacques 2:10, que se passe-t-il si l'on pèche contre un seul commandement ?",
-   "choix": [
-    "Rien de grave",
-    "On devient coupable de tous",
-    "On peut compenser par une aumône"
-   ],
-   "reponse": 1,
-   "explication": "Un seul péché nous sépare du Dieu saint.",
-   "section": "8"
   }
  ],
  "devoir": [
-  "Lis Genèse 22:1-19 et Jean 1:29-36. Écris comment la fête du mouton peut devenir une porte vers Jésus.",
-  "Pendant le prochain ramadan, prie chaque jour pour un musulman que tu connais.",
-  "Prépare ta réponse à la question : « Comment peux-tu être sûr d'aller au paradis ? »"
+  "Demande à un voisin musulman de te raconter l'histoire de la Tabaski. Écoute sans l'interrompre.",
+  "Lis Genèse 22:1-19 et Jean 1:29-36. Note ce que tu remarques.",
+  "Écris ce que tu as appris sur la balance des œuvres, avec tes mots."
  ],
  "prieres_liees": [],
  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
