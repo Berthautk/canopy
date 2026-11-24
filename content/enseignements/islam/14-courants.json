@@ -1,0 +1,525 @@
+{
+ "id": "islam-14-courants",
+ "titre": "Sunnites, chiites, soufis, salafistes et marabouts : les visages de l'islam",
+ "serie": "L'islam de A à Z",
+ "theme": "Islam",
+ "auteur": "Yeshaya",
+ "resume": "On parle de « l'islam » comme d'un seul bloc. En réalité, il y a des sunnites et des chiites qui se disputent depuis la mort de Mahomet, des écoles de droit, des confréries soufies comme la Tidjaniyya et la Qadiriyya, des salafistes et des wahhabites, l'Izala au Nigeria et au Cameroun, les Frères musulmans, et l'islam populaire des marabouts et des gris-gris. Savoir à quel musulman tu parles change tout dans le témoignage.",
+ "image": "/assets/lieux-bibliques/marche-de-village.webp",
+ "verset_de_base": "Lc 11:21-22",
+ "lecture_minutes": 30,
+ "objectifs": [
+  "Comprendre la grande division entre sunnites et chiites, et son origine.",
+  "Connaître les quatre écoles de droit sunnite, et savoir laquelle domine en Afrique de l'Ouest et centrale.",
+  "Comprendre le soufisme et les confréries, très présentes en Afrique.",
+  "Comprendre le salafisme, le wahhabisme, l'Izala et les Frères musulmans.",
+  "Comprendre l'islam populaire des marabouts, des amulettes et des esprits.",
+  "Savoir adapter son témoignage selon le type de musulman rencontré."
+ ],
+ "introduction": "Quand on dit « les musulmans », on imagine souvent un seul groupe, qui pense et vit partout de la même façon. C'est faux. Il y a plus d'un milliard huit cents millions de musulmans dans le monde, de l'Indonésie au Sénégal, de l'Iran au Cameroun. Entre un professeur d'université à Istanbul, un berger peul dans l'Adamaoua, un chiite d'Iran, un membre d'une confrérie soufie à Kaolack et un salafiste de Kano, il y a des différences énormes. Certains se considèrent même mutuellement comme de mauvais musulmans, ou comme des mécréants.\n\nLe chrétien qui veut témoigner doit connaître ces différences. En d'autres termes, avant de parler, il faut savoir à qui l'on parle. Paul faisait ainsi : il ne parlait pas aux Juifs de la synagogue comme aux philosophes d'Athènes. Dans cet enseignement, nous allons faire le tour des grands visages de l'islam.",
+ "sections": [
+  {
+   "numero": "1",
+   "titre": "La grande fracture : qui doit succéder au prophète ?",
+   "references": [
+    "Rm 10:2-3"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Une dispute de famille"
+    },
+    {
+     "texte": "Nous l'avons vu : Mahomet meurt en 632 sans avoir clairement désigné de successeur, et sans fils vivant. Ses compagnons choisissent Abou Bakr, son ami et son beau-père, comme premier calife, c'est-à-dire « successeur ». Puis viennent Omar, Othman et Ali. Mais un groupe pense dès le début que le successeur légitime devait être Ali, cousin de Mahomet et mari de sa fille Fatima, donc le père de ses seuls petits-fils. Ce groupe s'appelle « shi'at Ali », « le parti d'Ali ». C'est de là que vient le mot « chiite »."
+    },
+    {
+     "sous_titre": "Le sang qui sépare"
+    },
+    {
+     "texte": "Les trois premiers successeurs ne meurent pas tous en paix. Omar est assassiné en 644. Othman est assassiné en 656 par des musulmans révoltés. Ali devient calife, mais une guerre civile éclate : Aïcha, la veuve du prophète, combat contre lui à la bataille du Chameau, puis le gouverneur de Syrie, Muawiya, lui dispute le pouvoir. Ali est assassiné en 661. En 680, son fils Hussein, petit-fils de Mahomet, est massacré avec sa famille à Kerbala, en Irak, par l'armée du calife Yazid, fils de Muawiya. Chaque année, lors de la fête d'Achoura, les chiites pleurent la mort de Hussein, certains jusqu'à se frapper la poitrine ou se blesser."
+    },
+    {
+     "sous_titre": "Une leçon pour nous"
+    },
+    {
+     "texte": "Il faut retenir ceci : la plus grande division de l'islam ne vient pas d'abord d'une question de doctrine, mais d'une question de pouvoir et de succession, et elle est née dans le sang, entre les proches mêmes du prophète, une génération après sa mort. Ce n'est pas pour nous moquer, car les chrétiens aussi se sont divisés. Mais cela montre que la communauté musulmane des débuts n'était pas ce modèle d'unité parfaite que l'on présente parfois. Paul disait des Juifs de son temps : ils ont du zèle pour Dieu, mais sans intelligence ; ne connaissant pas la justice de Dieu, et cherchant à établir leur propre justice, ils ne se sont pas soumis à la justice de Dieu (Romains 10:2-3). Ce zèle sincère mais sans la connaissance du Christ se retrouve chez beaucoup de nos amis musulmans."
+    },
+    {
+     "verset": "Rm 10:2-3"
+    }
+   ]
+  },
+  {
+   "numero": "2",
+   "titre": "Les sunnites",
+   "references": [
+    "Mt 15:9"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La majorité"
+    },
+    {
+     "texte": "Les sunnites représentent environ 85 à 90 % des musulmans. Leur nom vient de la « sunna », la tradition du prophète. Ils reconnaissent les quatre premiers califes comme « bien guidés ». Au Cameroun, au Nigeria, au Tchad, au Sénégal, au Mali, presque tous les musulmans sont sunnites."
+    },
+    {
+     "sous_titre": "Les quatre écoles de droit"
+    },
+    {
+     "texte": "Chez les sunnites, il y a quatre grandes écoles de droit, appelées « madhhab », du nom de leurs fondateurs, des savants des VIIIe et IXe siècles :"
+    },
+    {
+     "texte": "– l'école hanafite, d'Abou Hanifa, la plus répandue dans le monde, en Turquie, en Asie centrale, en Inde, au Pakistan ;"
+    },
+    {
+     "texte": "– l'école malikite, de Malik ibn Anas, qui domine en Afrique du Nord et en Afrique de l'Ouest et centrale, donc aussi au Cameroun ;"
+    },
+    {
+     "texte": "– l'école chaféite, d'al-Shafi'i, en Égypte, en Afrique de l'Est, en Indonésie ;"
+    },
+    {
+     "texte": "– l'école hanbalite, d'Ahmad ibn Hanbal, la plus stricte, qui domine en Arabie saoudite."
+    },
+    {
+     "texte": "Ces écoles se reconnaissent mutuellement. Elles diffèrent sur des détails : la manière de placer les mains pendant la prière, certaines règles de pureté, de mariage, d'héritage. En d'autres termes, quand ton voisin musulman prie les bras le long du corps, et un autre les mains croisées sur la poitrine, ce n'est pas qu'il se trompe : ils suivent des écoles différentes. Au Cameroun, les malikites prient souvent les bras le long du corps."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Les chiites",
+   "references": [
+    "Hé 7:24-25"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Les imams"
+    },
+    {
+     "texte": "Les chiites représentent environ 10 à 15 % des musulmans. Ils sont majoritaires en Iran, en Irak, en Azerbaïdjan et à Bahreïn, et nombreux au Liban, au Yémen, au Pakistan. Pour eux, la direction de la communauté revient à des « imams », descendants d'Ali et de Fatima, considérés comme guidés et protégés de l'erreur."
+    },
+    {
+     "sous_titre": "L'imam caché"
+    },
+    {
+     "texte": "Le groupe le plus nombreux, celui de l'Iran, croit en douze imams. Le douzième, Muhammad al-Mahdi, aurait disparu enfant en 874, et serait caché depuis, vivant, en attendant de revenir à la fin des temps comme le « Mahdi », le guide, pour établir la justice. En attendant, les grands savants religieux, les ayatollahs, guident la communauté. Depuis la révolution de 1979, l'Iran est gouverné par un « guide suprême » religieux."
+    },
+    {
+     "sous_titre": "D'autres branches"
+    },
+    {
+     "texte": "Il existe d'autres branches chiites : les ismaéliens, dont le chef actuel porte le titre d'Aga Khan ; les zaydites du Yémen, dont viennent les Houthis. Il y a aussi des groupes nés du chiisme que la plupart des musulmans considèrent comme hors de l'islam, comme les alaouites de Syrie ou les druzes du Liban."
+    },
+    {
+     "sous_titre": "Une attente qui ouvre une porte"
+    },
+    {
+     "texte": "Le chiite attend un guide caché. Le chrétien peut lui parler de celui qui n'est pas caché mais ressuscité, vivant pour toujours. Jésus, parce qu'il demeure éternellement, possède un sacerdoce qui n'est pas transmissible. C'est aussi pour cela qu'il peut sauver parfaitement ceux qui s'approchent de Dieu par lui, étant toujours vivant pour intercéder en leur faveur (Hébreux 7:24-25). Les chiites ont aussi une grande sensibilité à la souffrance du juste, à cause de Hussein, mort injustement : c'est un pont vers la croix."
+    },
+    {
+     "sous_titre": "Chiites et sunnites aujourd'hui"
+    },
+    {
+     "texte": "Les tensions entre sunnites et chiites restent fortes, surtout au Moyen-Orient : guerres en Irak, en Syrie, au Yémen, rivalité entre l'Arabie saoudite sunnite et l'Iran chiite. Des groupes extrémistes sunnites comme l'État islamique ont massacré des chiites, qu'ils considèrent comme des apostats."
+    }
+   ]
+  },
+  {
+   "numero": "4",
+   "titre": "Les kharidjites et le « takfir »",
+   "references": [
+    "Mt 7:1-2"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Ceux qui sont sortis"
+    },
+    {
+     "texte": "Pendant la guerre entre Ali et Muawiya, un groupe de partisans d'Ali le quitte, parce qu'il a accepté un arbitrage humain. Ils disent : « Le jugement n'appartient qu'à Allah. » On les appelle les kharidjites, « ceux qui sont sortis ». Ils déclarent que tout musulman qui commet un grand péché devient un mécréant, et qu'on peut le tuer. C'est un kharidjite qui assassine Ali en 661."
+    },
+    {
+     "sous_titre": "Une idée qui revient"
+    },
+    {
+     "texte": "Cette pratique de déclarer d'autres musulmans mécréants s'appelle le « takfir ». Elle est revenue avec force chez les groupes djihadistes modernes, qui tuent des musulmans en les déclarant apostats. Beaucoup de musulmans traitent d'ailleurs ces groupes de « nouveaux kharidjites ». Jésus nous met en garde contre cet esprit : ne jugez point, afin que vous ne soyez point jugés (Matthieu 7:1)."
+    }
+   ]
+  },
+  {
+   "numero": "5",
+   "titre": "Le soufisme et les confréries",
+   "references": [
+    "Jn 14:6",
+    "Jr 29:13"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "La recherche mystique"
+    },
+    {
+     "texte": "Le soufisme est le courant mystique de l'islam. Les soufis cherchent à aimer Dieu, à s'approcher de lui, à vivre une expérience intérieure, pas seulement à obéir à des règles. Le mot viendrait du mot arabe « suf », la laine, à cause des manteaux de laine grossière que portaient les premiers ascètes. Des poètes soufis comme Rabia al-Adawiyya, une femme du VIIIe siècle, ou Rumi, au XIIIe siècle, ont écrit des textes sur l'amour de Dieu qui touchent encore beaucoup de gens. On raconte que Rabia marchait dans Bassora avec une torche dans une main et un seau d'eau dans l'autre. On lui demanda pourquoi. Elle répondit : « Je veux brûler le paradis et éteindre l'enfer, pour que les gens aiment Dieu pour lui-même, et non par peur ou par intérêt. »"
+    },
+    {
+     "sous_titre": "Les confréries"
+    },
+    {
+     "texte": "Avec le temps, les soufis se sont organisés en confréries, appelées « tariqa », la voie. Chaque confrérie a un maître, le « cheikh », une chaîne de maîtres qui remonte jusqu'au prophète, et des prières répétées, le « dhikr », la répétition des noms d'Allah, souvent avec un chapelet. En Afrique, les confréries ont joué un rôle immense :"
+    },
+    {
+     "texte": "– la Qadiriyya, fondée par Abd al-Qadir al-Jilani, au XIIe siècle à Bagdad, la plus ancienne ; Ousmane dan Fodio en faisait partie ;"
+    },
+    {
+     "texte": "– la Tidjaniyya, fondée par Ahmad al-Tijani au XVIIIe siècle en Algérie et au Maroc, très présente au Sénégal, au Nigeria, au Niger et au nord du Cameroun ; une de ses branches, celle d'Ibrahim Niasse, compte des millions de fidèles ;"
+    },
+    {
+     "texte": "– la Mouridiyya, fondée au Sénégal par Cheikh Amadou Bamba au XIXe siècle, avec sa ville sainte de Touba."
+    },
+    {
+     "sous_titre": "Les enfants des écoles coraniques"
+    },
+    {
+     "texte": "Liées souvent aux confréries, il y a les écoles coraniques traditionnelles. Des parents, surtout dans les villages, confient leur jeune garçon à un maître coranique, parfois loin de la maison, pour qu'il apprenne à réciter le Coran. Au Sénégal, on appelle ces enfants les « talibés » ; au Nigeria et au nord du Cameroun, les « almajiri ». Beaucoup de ces maîtres sont sérieux. Mais dans de nombreux cas, les enfants, pieds nus, une boîte de conserve à la main, passent leurs journées à mendier dans les rues pour nourrir le maître et se nourrir eux-mêmes. Ils apprennent par cœur des versets dans une langue qu'ils ne comprennent pas, et n'apprennent ni à lire le français ni un métier. Au Nigeria, on compte des millions d'almajiri, et les groupes armés comme Boko Haram ont recruté parmi ces garçons sans famille ni avenir. Quand tu vois un de ces enfants à un carrefour, ne détourne pas les yeux. Il est un enfant que Dieu aime. Un repas, une parole de bonté, une prière, peuvent être le début de quelque chose."
+    },
+    {
+     "sous_titre": "Une soif réelle"
+    },
+    {
+     "texte": "Les soufis montrent que beaucoup de musulmans ont soif d'une relation personnelle avec Dieu, et pas seulement de règles. C'est une porte ouverte. Dieu dit : vous me chercherez, et vous me trouverez, si vous me cherchez de tout votre cœur (Jérémie 29:13). Mais le soufisme développe aussi la vénération des saints, le culte des tombeaux, l'obéissance totale au cheikh, l'achat de bénédictions (« baraka »). Le chrétien peut dire au soufi : la proximité avec Dieu que tu cherches à travers des maîtres et des répétitions, Jésus te l'offre directement : je suis le chemin, la vérité et la vie ; nul ne vient au Père que par moi (Jean 14:6)."
+    }
+   ]
+  },
+  {
+   "numero": "6",
+   "titre": "Le salafisme et le wahhabisme",
+   "references": [
+    "Mc 7:6-8"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Revenir aux « pieux ancêtres »"
+    },
+    {
+     "texte": "Le mot « salafisme » vient de « salaf », les ancêtres, c'est-à-dire les trois premières générations de musulmans. Les salafistes veulent revenir à l'islam pur des origines, en suivant le Coran et les hadiths à la lettre, et en rejetant tout ce qui a été ajouté ensuite, qu'ils appellent « bid'a », innovation. Ils s'appuient sur des savants comme Ibn Taymiyya, au XIVe siècle."
+    },
+    {
+     "sous_titre": "Le wahhabisme"
+    },
+    {
+     "texte": "Au XVIIIe siècle, en Arabie, un prédicateur, Muhammad ibn Abd al-Wahhab, s'allie avec un chef de tribu, Muhammad ibn Saoud. Ensemble, ils combattent le culte des saints, détruisent des tombeaux, imposent une pratique très stricte. Cette alliance a donné naissance à l'Arabie saoudite moderne. Grâce à l'argent du pétrole, depuis les années 1970, l'Arabie saoudite a financé dans le monde entier des mosquées, des écoles, des bourses d'études et des livres qui répandent cette lecture rigoriste. Beaucoup de jeunes imams africains ont étudié à Médine ou à Riyad."
+    },
+    {
+     "sous_titre": "Trois sortes de salafistes"
+    },
+    {
+     "texte": "Il faut distinguer trois sortes de salafistes : les quiétistes, qui vivent une pratique très stricte mais refusent la politique et la violence ; les politiques, qui veulent imposer la charia par les élections et la pression sociale ; et les djihadistes, qui veulent l'imposer par les armes, comme Al-Qaïda, l'État islamique ou Boko Haram. Tous les salafistes ne sont pas violents, mais presque tous les djihadistes d'aujourd'hui sont salafistes."
+    },
+    {
+     "sous_titre": "Comment les reconnaître"
+    },
+    {
+     "texte": "Dans nos quartiers, on reconnaît souvent les jeunes salafistes à la barbe longue sans moustache, au pantalon coupé au-dessus de la cheville, et pour les femmes, au voile intégral noir. Ils critiquent les fêtes du Maouloud (la naissance du prophète), les confréries, les marabouts et les amulettes."
+    },
+    {
+     "sous_titre": "Ce que dit Jésus"
+    },
+    {
+     "texte": "Le salafiste cherche la pureté par l'imitation exacte des règles et des gestes. Jésus a parlé à des religieux semblables : ce peuple m'honore des lèvres, mais son cœur est éloigné de moi. C'est en vain qu'ils m'honorent, en enseignant des préceptes qui sont des commandements d'hommes. Vous abandonnez le commandement de Dieu, et vous observez la tradition des hommes (Marc 7:6-8). La vraie pureté ne vient pas de l'extérieur, mais d'un cœur nouveau."
+    }
+   ]
+  },
+  {
+   "numero": "7",
+   "titre": "L'Izala et les Frères musulmans",
+   "references": [
+    "Ac 8:9-13"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "L'Izala"
+    },
+    {
+     "texte": "En 1978, à Jos, au Nigeria, un prédicateur, le cheikh Ismaila Idris, fonde un mouvement appelé « Jama'at Izalat al-Bid'a wa Iqamat al-Sunna », c'est-à-dire « la société pour l'élimination de l'innovation et l'établissement de la sunna ». On l'appelle simplement « Izala ». Inspiré du salafisme saoudien, il combat les confréries soufies, le culte des saints, les marabouts. Il s'est répandu au Nigeria, au Niger, au Tchad et au nord du Cameroun, souvent auprès des jeunes et des commerçants. C'est dans ce milieu religieux qu'a grandi Mohammed Yusuf, le fondateur de Boko Haram, avant qu'il ne s'en sépare et n'aille beaucoup plus loin. L'Izala, en tant que tel, n'est pas un groupe armé, et ses responsables ont condamné Boko Haram."
+    },
+    {
+     "sous_titre": "Les Frères musulmans"
+    },
+    {
+     "texte": "En 1928, en Égypte, un instituteur, Hassan al-Banna, fonde les Frères musulmans. Leur but : réislamiser la société et l'État, en commençant par l'éducation, les œuvres sociales, puis la politique. Leur devise dit : « Allah est notre but, le prophète notre modèle, le Coran notre constitution, le djihad notre voie, la mort dans le sentier d'Allah notre plus haut espoir. » Un de leurs penseurs, Sayyid Qutb, a inspiré les mouvements djihadistes. Les Frères ont des branches et des héritiers dans de nombreux pays."
+    }
+   ]
+  },
+  {
+   "numero": "8",
+   "titre": "L'ahmadiyya et les autres",
+   "references": [
+    "Ga 1:8"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "L'ahmadiyya"
+    },
+    {
+     "texte": "À la fin du XIXe siècle, en Inde, Mirza Ghulam Ahmad se présente comme le Messie promis et le Mahdi. Ses disciples, les ahmadis, sont actifs en Afrique de l'Ouest, avec des écoles et des hôpitaux. Ils enseignent que Jésus n'est pas mort sur la croix, qu'il en a été descendu vivant, évanoui, puis qu'il est allé mourir au Cachemire, où l'on montrerait sa tombe. La plupart des musulmans les considèrent comme hors de l'islam, et ils sont persécutés au Pakistan. Si tu rencontres un ahmadi, sache qu'il connaît souvent bien la Bible et qu'il aime débattre."
+    },
+    {
+     "sous_titre": "D'autres visages"
+    },
+    {
+     "texte": "Il existe aussi des musulmans qui rejettent les hadiths et ne gardent que le Coran, les « coranistes » ; des musulmans libéraux qui lisent le Coran de manière très symbolique ; et beaucoup de musulmans « culturels », qui ne prient presque jamais, mais restent attachés à l'islam comme à leur identité familiale. Au Cameroun, beaucoup de musulmans se disent musulmans parce que leur famille l'est, sans connaître grand-chose du Coran."
+    }
+   ]
+  },
+  {
+   "numero": "9",
+   "titre": "L'islam populaire : marabouts, gris-gris et esprits",
+   "references": [
+    "Lc 11:21-22",
+    "Es 8:19"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Ce que l'on voit dans la rue"
+    },
+    {
+     "texte": "Dans beaucoup de pays africains, l'islam vécu au quotidien est très différent de l'islam des livres. Le marabout est consulté pour tout : trouver du travail, réussir un examen, avoir un enfant, garder un mari, gagner un procès, se protéger d'un ennemi, réussir un commerce. Il prépare des amulettes, appelées « gris-gris » ou « tira », avec des versets du Coran écrits sur un papier, enfermés dans du cuir et attachés au bras, à la taille ou au cou. Il écrit des versets sur une planchette de bois, lave l'encre avec de l'eau, et fait boire cette eau, appelée « nassi » ou « eau de planchette ». Il fait de la divination dans le sable, des sacrifices de coqs ou de moutons, et parfois il travaille avec les djinns."
+    },
+    {
+     "sous_titre": "Le mélange"
+    },
+    {
+     "texte": "Ces pratiques mélangent l'islam et les religions traditionnelles africaines. Les salafistes et l'Izala les condamnent comme du « shirk », l'association. Le Coran lui-même parle de la sorcellerie et des djinns (sourate 2, verset 102 ; sourate 72), et les deux dernières sourates, 113 et 114, sont récitées comme formules de protection contre le mal, le mauvais œil et les sorciers. Boukhari rapporte même que Mahomet aurait été ensorcelé par un homme qui lui a fait croire qu'il avait fait des choses qu'il n'avait pas faites (Boukhari, hadith 5765). En d'autres termes, la peur des esprits est profondément présente dans l'islam vécu."
+    },
+    {
+     "sous_titre": "Un monde de peur"
+    },
+    {
+     "texte": "Le musulman de l'islam populaire vit souvent dans la peur : peur du mauvais œil, peur des djinns, peur des sorciers, peur de l'ennemi qui « travaille » contre lui. Les amulettes et les marabouts ne le libèrent pas : ils le rendent dépendant. Le prophète Ésaïe disait déjà : si l'on vous dit : consultez ceux qui évoquent les morts et ceux qui prédisent l'avenir, qui poussent des sifflements et des soupirs, répondez : un peuple ne consultera-t-il pas son Dieu ? (Ésaïe 8:19)."
+    },
+    {
+     "verset": "Es 8:19"
+    },
+    {
+     "sous_titre": "Jésus, le plus fort"
+    },
+    {
+     "texte": "À ce musulman-là, le chrétien n'apporte pas d'abord un débat sur l'authenticité du Coran. Il apporte la nouvelle que Jésus est plus fort que tous les esprits. Jésus a dit : lorsqu'un homme fort et bien armé garde sa maison, ses biens sont en sûreté. Mais si un plus fort que lui survient et le dompte, il lui enlève toutes les armes dans lesquelles il se confiait, et il distribue ses dépouilles (Luc 11:21-22). Beaucoup de musulmans en Afrique sont venus à Christ après avoir vu une délivrance, une guérison, ou une prière exaucée au nom de Jésus. Le Psaume dit : l'Éternel est celui qui te garde… l'Éternel te gardera de tout mal, il gardera ton âme (Psaume 121:5-7)."
+    },
+    {
+     "verset": "Lc 11:21-22"
+    },
+    {
+     "verset": "Ps 121:5-7"
+    },
+    {
+     "sous_titre": "Le cas de Simon le magicien"
+    },
+    {
+     "texte": "Le livre des Actes raconte qu'à Samarie, un homme nommé Simon exerçait la magie et étonnait tout le peuple. Mais quand ils crurent à Philippe, qui leur annonçait la bonne nouvelle du royaume de Dieu et du nom de Jésus-Christ, hommes et femmes se firent baptiser. Simon lui-même crut (Actes 8:9-13). La puissance de l'Évangile fait tomber les puissances occultes."
+    },
+    {
+     "verset": "Ac 8:9-13"
+    }
+   ]
+  },
+  {
+   "numero": "10",
+   "titre": "L'islam au Cameroun",
+   "references": [
+    "Ps 87:4-6",
+    "Mt 9:37-38"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Trois portes d'entrée"
+    },
+    {
+     "texte": "Au Cameroun, les musulmans représentent environ un cinquième à un quart de la population, selon les estimations. L'islam y est entré par trois portes principales."
+    },
+    {
+     "texte": "La première porte est le commerce. Bien avant le XIXe siècle, des commerçants haoussas et kanouris venus du Bornou et du nord du Nigeria traversaient la région avec leurs caravanes. Le royaume du Bornou, autour du lac Tchad, était musulman depuis le XIe siècle, et son influence touchait déjà l'actuel Extrême-Nord."
+    },
+    {
+     "texte": "La deuxième porte est le djihad peul de Modibo Adama, que nous avons vu dans l'enseignement précédent. Au XIXe siècle, il a installé les lamidats de Garoua, Maroua, Ngaoundéré, Rey Bouba, Tibati, Banyo et d'autres. Le lamido est à la fois chef politique et chef religieux. Encore aujourd'hui, dans le Septentrion, être peul, parler le fulfulde et être musulman vont souvent ensemble, et beaucoup de membres d'autres peuples qui deviennent musulmans adoptent aussi la langue et les habits peuls."
+    },
+    {
+     "texte": "La troisième porte est celle du royaume bamoun, à l'Ouest. Au début du XXe siècle, le sultan Ibrahim Njoya, un roi d'une grande intelligence, qui avait inventé une écriture pour sa langue, s'intéressa au christianisme puis à l'islam. Il finit par choisir l'islam, et il tenta même de créer une religion nouvelle, mélange d'islam, de christianisme et de traditions bamoun. Aujourd'hui, une grande partie des Bamoun sont musulmans, et Foumban est un centre important de l'islam au Cameroun."
+    },
+    {
+     "sous_titre": "Les quartiers haoussas"
+    },
+    {
+     "texte": "Dans les villes du Sud, à Yaoundé, Douala, Bertoua, Ebolowa, on trouve des quartiers où vivent depuis longtemps des commerçants musulmans venus du Nord ou du Nigeria, souvent appelés « quartiers haoussas ». À Yaoundé, la Briqueterie en est un exemple connu. Beaucoup de chrétiens du Sud vivent à côté de musulmans sans jamais leur avoir parlé de Jésus."
+    },
+    {
+     "sous_titre": "Une cohabitation à préserver"
+    },
+    {
+     "texte": "Le Cameroun a longtemps été un pays où chrétiens et musulmans vivent ensemble, se marient parfois, travaillent ensemble, et participent aux fêtes les uns des autres. Cette paix est un trésor. Elle est menacée par l'extrémisme venu du Nigeria et du Sahel, et par l'ignorance réciproque. Le chrétien camerounais a une responsabilité : être le meilleur voisin possible pour son voisin musulman, et le premier à lui montrer Jésus."
+    },
+    {
+     "sous_titre": "Un champ immense"
+    },
+    {
+     "texte": "Il y a aussi des peuples entiers du nord du Cameroun, du Tchad et du Nigeria où l'Évangile est encore peu connu. Le Psaume annonce que Dieu inscrira parmi ceux qui le connaissent des gens de Rahab et de Babylone, des Philistins, de Tyr et d'Éthiopie : c'est dans Sion qu'ils sont nés (Psaume 87:4-6). En d'autres termes, Dieu a prévu de faire naître des enfants à lui parmi tous les peuples, même ceux qui semblent les plus fermés. Jésus a dit : la moisson est grande, mais il y a peu d'ouvriers. Priez donc le maître de la moisson d'envoyer des ouvriers dans sa moisson (Matthieu 9:37-38)."
+    },
+    {
+     "verset": "Ps 87:4-6"
+    }
+   ]
+  },
+  {
+   "numero": "11",
+   "titre": "Adapter son témoignage",
+   "references": [
+    "1 P 3:15"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Savoir à qui l'on parle"
+    },
+    {
+     "texte": "Ce tour d'horizon a un but pratique. Devant un musulman, pose d'abord des questions : « Tu pries souvent ? Tu appartiens à une confrérie ? Qui est ton cheikh ? Que penses-tu des marabouts ? » Ses réponses te diront à qui tu parles."
+    },
+    {
+     "texte": "– Au musulman culturel, qui pratique peu, parle simplement de Jésus, de sa vie, de son amour, de la certitude du salut. Il ne connaît souvent pas bien le Coran, et il n'a pas besoin d'un débat."
+    },
+    {
+     "texte": "– Au soufi, parle de l'amour de Dieu, de la relation personnelle avec lui, de Jésus qui nous fait connaître le Père."
+    },
+    {
+     "texte": "– Au salafiste, qui connaît bien les textes, sois prêt à parler des textes, avec patience, et à montrer que la pureté du cœur ne vient pas des règles."
+    },
+    {
+     "texte": "– Au chiite, parle du juste qui souffre et de celui qui est vivant pour toujours."
+    },
+    {
+     "texte": "– Au musulman de l'islam populaire, parle de la puissance de Jésus sur les esprits, prie pour lui, et ne le juge pas pour ses gris-gris."
+    },
+    {
+     "sous_titre": "Toujours avec douceur"
+    },
+    {
+     "texte": "Pierre écrit : soyez toujours prêts à vous défendre, avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous (1 Pierre 3:15). Quel que soit le visage de l'islam que tu rencontres, derrière ce visage il y a un homme ou une femme que Dieu aime et pour qui Christ est mort."
+    }
+   ]
+  },
+  {
+   "numero": "12",
+   "titre": "Ce que nous retenons",
+   "references": [
+    "Jn 14:6"
+   ],
+   "blocs": [
+    {
+     "sous_titre": "Résumons"
+    },
+    {
+     "texte": "L'islam n'est pas un bloc. La grande division entre sunnites et chiites est née d'une dispute sur la succession de Mahomet, dans le sang, une génération après sa mort. Les sunnites, majoritaires, suivent quatre écoles de droit ; au Cameroun et en Afrique de l'Ouest, c'est l'école malikite. Les chiites attendent le retour d'un imam caché. Les kharidjites ont inventé le « takfir », repris par les djihadistes. Les soufis cherchent l'amour de Dieu et se sont organisés en confréries comme la Qadiriyya, la Tidjaniyya et la Mouridiyya. Les salafistes et les wahhabites veulent revenir à l'islam des origines ; certains seulement sont violents. L'Izala a répandu cette lecture au Nigeria et au Cameroun, et les Frères musulmans ont voulu islamiser les États. Enfin, l'islam populaire des marabouts et des gris-gris mélange l'islam et les pratiques traditionnelles, et vit dans la peur des esprits. Au Cameroun, l'islam est arrivé par le commerce, par le djihad peul et par le royaume bamoun."
+    },
+    {
+     "sous_titre": "Un seul chemin"
+    },
+    {
+     "texte": "À tous, le chrétien annonce le même Jésus, de la manière qui touche chacun. Il n'y a qu'un seul chemin : je suis le chemin, la vérité et la vie (Jean 14:6)."
+    },
+    {
+     "texte": "Dans le prochain enseignement, nous regarderons ce que le Coran dit de Jésus, et nous verrons comment ces versets peuvent devenir un pont pour l'Évangile."
+    }
+   ]
+  }
+ ],
+ "sujets": [
+  {
+   "titre": "Pour les musulmans en recherche",
+   "texte": "Prions pour les musulmans qui, comme les soufis, ont soif de connaître Dieu personnellement, afin qu'ils le trouvent en Jésus (Jérémie 29:13)."
+  },
+  {
+   "titre": "Pour ceux qui vivent dans la peur des esprits",
+   "texte": "Prions pour les musulmans attachés aux marabouts et aux amulettes, afin qu'ils découvrent la puissance libératrice de Jésus (Luc 11:21-22)."
+  },
+  {
+   "titre": "Pour les jeunes tentés par l'extrémisme",
+   "texte": "Prions pour les jeunes attirés par les discours salafistes violents, afin que Dieu les arrête comme il a arrêté Saul (Actes 9:3-6)."
+  },
+  {
+   "titre": "Pour la sagesse des témoins",
+   "texte": "Prions pour savoir adapter notre témoignage à chaque personne, avec douceur et respect (1 Pierre 3:15)."
+  }
+ ],
+ "questions": [
+  {
+   "question": "D'où vient la division entre sunnites et chiites ?",
+   "choix": [
+    "D'une dispute sur le jeûne",
+    "D'une dispute sur la succession de Mahomet",
+    "D'une dispute sur La Mecque"
+   ],
+   "reponse": 1,
+   "explication": "Les chiites pensaient qu'Ali, cousin et gendre de Mahomet, devait lui succéder.",
+   "section": "1"
+  },
+  {
+   "question": "Quelle école de droit sunnite domine au Cameroun et en Afrique de l'Ouest ?",
+   "choix": [
+    "Hanbalite",
+    "Malikite",
+    "Hanafite"
+   ],
+   "reponse": 1,
+   "explication": "Elle porte le nom de Malik ibn Anas.",
+   "section": "2"
+  },
+  {
+   "question": "Qu'attendent les chiites duodécimains ?",
+   "choix": [
+    "Le retour de Mahomet",
+    "Le retour du douzième imam caché, le Mahdi",
+    "La fin du jeûne"
+   ],
+   "reponse": 1,
+   "explication": "Il aurait disparu en 874.",
+   "section": "3"
+  },
+  {
+   "question": "Laquelle de ces confréries soufies est très présente au Sénégal, au Nigeria et au nord du Cameroun ?",
+   "choix": [
+    "Les Frères musulmans",
+    "La Tidjaniyya",
+    "L'Izala"
+   ],
+   "reponse": 1,
+   "explication": "Elle a été fondée par Ahmad al-Tijani au XVIIIe siècle.",
+   "section": "5"
+  },
+  {
+   "question": "Que veulent les salafistes ?",
+   "choix": [
+    "Développer les confréries",
+    "Revenir à l'islam des « pieux ancêtres » en rejetant les innovations",
+    "Suivre l'imam caché"
+   ],
+   "reponse": 1,
+   "explication": "Tous ne sont pas violents, mais presque tous les djihadistes d'aujourd'hui sont salafistes.",
+   "section": "6"
+  },
+  {
+   "question": "Que faut-il apporter d'abord au musulman de l'islam populaire, qui vit dans la peur des esprits ?",
+   "choix": [
+    "Un débat sur les manuscrits",
+    "La puissance de Jésus, plus fort que tous les esprits",
+    "Une amulette chrétienne"
+   ],
+   "reponse": 1,
+   "explication": "Luc 11:21-22 : un plus fort survient et le dompte.",
+   "section": "9"
+  }
+ ],
+ "devoir": [
+  "Lis Luc 11:14-26 et Actes 8:4-13. Note ce que ces textes disent de la puissance de Jésus sur les esprits.",
+  "Pense à un musulman que tu connais. À quel visage de l'islam appartient-il ? Comment adapter ton témoignage ?",
+  "Prie chaque jour de cette semaine pour lui, par son prénom."
+ ],
+ "prieres_liees": [],
+ "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+ "date_ajout": "2026-11-14",
+ "relu": false
+}
