@@ -1,0 +1,349 @@
+{
+ "id": "pas-09-mon-eglise-locale",
+ "volume": 1,
+ "numero": 9,
+ "titre": "Mon église locale",
+ "sous_titre": "Trouver ma place dans le corps de Christ, servir et persévérer",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "affermissement-9-mon-eglise-locale",
+ "verset_memoire": "Hébreux 10:24-25",
+ "lecture": {
+  "titre": "Cette semaine, lis Actes 8 à 14, un chapitre par jour",
+  "conseil": "Note ce que font les croyants ensemble.",
+  "jours": [
+   "Actes 8",
+   "Actes 9",
+   "Actes 10",
+   "Actes 11",
+   "Actes 12",
+   "Actes 13",
+   "Actes 14"
+  ]
+ },
+ "introduction": [
+  "Jésus n'a pas fait de toi un chrétien solitaire. Il t'a fait membre de son corps, avec d'autres croyants qui ont besoin de toi et dont tu as besoin.",
+  "Cette semaine, tu vas comprendre ce qu'est l'Église selon la Bible, pourquoi tu ne peux pas grandir seul, et quelle place tu peux prendre."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Je peux être un bon chrétien sans appartenir à une église.",
+       "reponse": false,
+       "explication": "Hébreux 10:24-25 : ne pas abandonner nos assemblées. Le charbon seul s'éteint ; avec les autres, il brûle."
+      },
+      {
+       "id": "vf2",
+       "texte": "L'Église, c'est un bâtiment.",
+       "reponse": false,
+       "explication": "L'Église, ce sont les personnes qui appartiennent à Jésus (1 Pierre 2:5, Éphésiens 2:19-22)."
+      },
+      {
+       "id": "vf3",
+       "texte": "Une église n'est valable que si elle est parfaite.",
+       "reponse": false,
+       "explication": "Même Corinthe avait de graves problèmes, et Paul l'appelle « sanctifiée en Jésus-Christ » (1 Corinthiens 1:2). On cherche une église fidèle à la Bible, pas une église parfaite."
+      },
+      {
+       "id": "vf4",
+       "texte": "Chaque chrétien a une place et un service dans l'Église.",
+       "reponse": true,
+       "explication": "Romains 12:4-8 ; 1 Corinthiens 12."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Qu'est-ce que l'Église ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "D'après Matthieu 16:18, Éphésiens 5:25-27 et 1 Pierre 2:9-10, qu'est-ce que l'Église ?",
+     "refs": [
+      "Matthieu 16:18",
+      "Éphésiens 5:25-27",
+      "1 Pierre 2:9-10"
+     ],
+     "accompagnateur": {
+      "attendu": "Jésus bâtit son Église. Elle est son épouse, qu'il a aimée et pour laquelle il s'est livré. Elle est un peuple choisi, une nation sainte, un sacerdoce royal.",
+      "expliquer": [
+       "Bâtiment ou personnes ? Le mot grec « ekklesia » veut dire « assemblée ». L'Église existe là où des croyants se réunissent."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis 1 Corinthiens 12:12-27. Quelle image Paul utilise-t-il ? Que dit-il de chaque membre ?",
+     "refs": [
+      "1 Corinthiens 12:12-27"
+     ],
+     "accompagnateur": {
+      "attendu": "Le corps. Chaque membre est nécessaire, même ceux qui paraissent faibles. S'il y en a un qui souffre, tous souffrent. Personne ne peut dire « je n'ai pas besoin de toi ».",
+      "expliquer": [
+       "Une main coupée du corps meurt. Un chrétien isolé est faible."
+      ],
+      "relance": "Quel membre du corps te ressemble le plus ? Que peux-tu apporter ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Pourquoi je ne peux pas grandir seul",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Hébreux 10:24-25 et Ecclésiaste 4:9-12. Que nous apportent les autres ?",
+     "refs": [
+      "Hébreux 10:24-25",
+      "Ecclésiaste 4:9-12"
+     ],
+     "accompagnateur": {
+      "attendu": "Ils nous excitent à l'amour et aux bonnes œuvres, nous encouragent, nous relèvent quand nous tombons. Deux valent mieux qu'un ; la corde à trois brins ne se rompt pas vite.",
+      "expliquer": [
+       "Rappel du lion qui attaque l'animal isolé (pas 3)."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Actes 2:42-47. Que faisaient les premiers chrétiens ?",
+     "refs": [
+      "Actes 2:42-47"
+     ],
+     "accompagnateur": {
+      "attendu": "Ils persévéraient dans l'enseignement des apôtres, la communion fraternelle, la fraction du pain et les prières. Ils partageaient leurs biens, louaient Dieu, et le Seigneur ajoutait chaque jour des sauvés.",
+      "expliquer": [
+       "Quatre piliers : la Parole, la communion, la cène, la prière.",
+       "Pour celui qui a perdu sa famille à cause de Jésus : l'Église devient sa nouvelle famille (Marc 10:29-30)."
+      ],
+      "relance": "Qu'est-ce qui, dans cette description, te manque aujourd'hui ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Ce que je reçois, ce que j'apporte",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "D'après Éphésiens 4:11-16, pourquoi Dieu a-t-il donné des responsables ? Quel est le but ?",
+     "refs": [
+      "Éphésiens 4:11-16"
+     ],
+     "accompagnateur": {
+      "attendu": "Pour équiper les saints en vue de l'œuvre du ministère et de l'édification du corps, jusqu'à la maturité. Chaque membre agit selon sa mesure.",
+      "expliquer": [
+       "Les pasteurs ne font pas tout ; chaque croyant sert."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "D'après Romains 12:4-8 et 1 Pierre 4:10, quel service pourrais-tu rendre ?",
+     "refs": [
+      "Romains 12:4-8",
+      "1 Pierre 4:10"
+     ],
+     "accompagnateur": {
+      "attendu": "Servir, enseigner, exhorter, donner, diriger, faire preuve de miséricorde. Chacun doit mettre au service des autres le don qu'il a reçu.",
+      "expliquer": [
+       "Idées concrètes : accueillir, chanter, nettoyer, visiter les malades, s'occuper des enfants, aider au son, prier.",
+       "Un nouveau converti peut déjà servir simplement."
+      ],
+      "relance": "Quel service t'attire ? Qui peux-tu demander pour commencer ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Lis Hébreux 13:7, 17 et 1 Timothée 5:17. Comment traiter ses responsables ?",
+     "refs": [
+      "Hébreux 13:7",
+      "Hébreux 13:17",
+      "1 Timothée 5:17"
+     ],
+     "accompagnateur": {
+      "attendu": "Se souvenir d'eux, imiter leur foi, leur obéir et se soumettre : ils veillent sur les âmes. Les honorer, en particulier ceux qui enseignent.",
+      "expliquer": [
+       "Obéir ne veut pas dire tout accepter : si un responsable enseigne contre la Bible, on le dit avec respect.",
+       "Parler du don : donner à l'Église et aux pauvres fait partie du culte (2 Corinthiens 9:7). Pas de manipulation."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Choisir et rester",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "D'après Actes 17:11, 1 Jean 4:1-3 et Matthieu 7:15-16, que doit-on vérifier dans une église ?",
+     "refs": [
+      "Actes 17:11",
+      "1 Jean 4:1-3",
+      "Matthieu 7:15-16"
+     ],
+     "accompagnateur": {
+      "attendu": "Qu'elle enseigne la Bible, qu'elle reconnaît Jésus comme Seigneur, et qu'on y voit de bons fruits dans la vie des gens.",
+      "expliquer": [
+       "Prudence : certaines « églises » enseignent l'argent ou la sorcellerie. Une église ne vend pas la guérison ni la bénédiction.",
+       "Aider la personne à comparer, sans critiquer les autres églises sans cesse."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q9",
+     "texte": "Quelles sont les mauvaises raisons de quitter son église ? Lis Romains 14:19 et Éphésiens 4:1-3.",
+     "refs": [
+      "Romains 14:19",
+      "Éphésiens 4:1-3"
+     ],
+     "accompagnateur": {
+      "attendu": "Une offense, une préférence de musique, un chef qui déplaît, un conflit non réglé. Les bonnes raisons existent seulement quand l'église enseigne contre la Bible ou vit dans le péché sans repentir.",
+      "expliquer": [
+       "On commence par parler à la personne concernée (Matthieu 18:15). Fuir un conflit ne règle rien : il suivra dans la nouvelle église."
+      ],
+      "relance": "As-tu déjà été blessé dans une église ? Parle-m'en."
+     }
+    },
+    {
+     "type": "question",
+     "id": "q10",
+     "texte": "Lis Psaume 122:1 et Psaume 84:2-5, 11. Que ressent le psalmiste à l'idée de la maison de Dieu ?",
+     "refs": [
+      "Psaume 122:1",
+      "Psaume 84:2-5",
+      "Psaume 84:11"
+     ],
+     "accompagnateur": {
+      "attendu": "La joie : « Je me suis réjoui quand on m'a dit : allons à la maison de l'Éternel. » Un jour dans ses parvis vaut mieux que mille ailleurs.",
+      "expliquer": [
+       "La joie d'aller à l'église : un cœur qui a soif de Dieu, pas une corvée."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon engagement",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Ma place dans l'église",
+     "texte": [
+      "1. Mon église (nom et lieu) :",
+      "2. Les réunions auxquelles je m'engage à venir :",
+      "3. Un service que je peux rendre :",
+      "4. Une personne que je voudrais mieux connaître dans l'église :",
+      "5. Un conflit ou une blessure à régler :"
+     ],
+     "champ": "Mon engagement",
+     "id": "plan-eglise"
+    },
+    {
+     "type": "question",
+     "id": "q11",
+     "texte": "Écris Hébreux 10:24-25 de mémoire.",
+     "refs": [
+      "Hébreux 10:24-25"
+     ],
+     "accompagnateur": {
+      "attendu": "« Veillons les uns sur les autres, pour nous exciter à l'amour et aux bonnes œuvres. N'abandonnons pas notre assemblée, comme c'est la coutume de quelques-uns ; mais exhortons-nous réciproquement, et cela d'autant plus que vous voyez s'approcher le jour. »",
+      "expliquer": [
+       "Faire réciter aussi Marc 1:35."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne l'Église, s'engage dans une église locale, et identifie un service.",
+   "Régler les blessures anciennes liées à l'église ou aux pasteurs.",
+   "L'aider à se faire des amis dans l'église."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 8.",
+   "Connaître l'église où la personne va, ses réunions, ses responsables. Savoir qui l'accueille.",
+   "Prier pour l'unité entre la personne et son église."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture d'Actes 8 à 14. Retour sur le rendez-vous quotidien."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Qu'est-ce que l'Église ?",
+    "minutes": 20,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Pourquoi je ne peux pas grandir seul",
+    "minutes": 20,
+    "conseils": [
+     "Questions 3 et 4. Nouvelle famille pour ceux qui ont perdu la leur."
+    ]
+   },
+   {
+    "titre": "Ce que je reçois, ce que j'apporte",
+    "minutes": 30,
+    "conseils": [
+     "Questions 5 à 7. Aider à identifier un service."
+    ]
+   },
+   {
+    "titre": "Choisir et rester",
+    "minutes": 30,
+    "conseils": [
+     "Questions 8 à 10. Écouter les blessures sans accuser personne."
+    ]
+   },
+   {
+    "titre": "Engagement, verset et remise du pas 10",
+    "minutes": 15,
+    "conseils": [
+     "Relire l'engagement, présenter la personne à un responsable ou un frère. Réciter Hébreux 10:24-25. Remettre le pas 10 « Le témoignage »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Une personne blessée par une église (ou par une famille chrétienne) a besoin d'écoute avant de conseils.",
+   "Pour un ancien musulman, l'église peut être dangereuse : la présence visible peut attirer des problèmes. Discuter du lieu, de l'heure et de la discrétion.",
+   "Ne pas isoler la personne autour d'un seul homme : l'ouvrir à plusieurs frères et sœurs."
+  ]
+ }
+}

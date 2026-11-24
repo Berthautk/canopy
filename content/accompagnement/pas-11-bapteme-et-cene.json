@@ -1,0 +1,326 @@
+{
+ "id": "pas-11-bapteme-et-cene",
+ "volume": 1,
+ "numero": 11,
+ "titre": "Le baptême et le repas du Seigneur",
+ "sous_titre": "Comprendre le baptême et la cène, et y répondre avec foi",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "affermissement-11-bapteme-et-cene",
+ "verset_memoire": "Romains 6:4",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note ce qui est dit sur le baptême ou sur la cène.",
+  "jours": [
+   "Matthieu 3",
+   "Matthieu 28",
+   "Actes 2:37-47",
+   "Actes 8:26-40",
+   "Romains 6",
+   "Luc 22:7-23",
+   "1 Corinthiens 11:17-34"
+  ]
+ },
+ "introduction": [
+  "Jésus nous a laissé deux signes pour notre foi : le baptême, qu'on reçoit une fois, et le repas du Seigneur, qu'on prend souvent. Ils ne sont pas des rites magiques, mais des gestes pleins de sens.",
+  "Cette semaine, tu vas découvrir ce qu'ils signifient et comment y répondre."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Le baptême me sauve.",
+       "reponse": false,
+       "explication": "Nous sommes sauvés par la grâce, par la foi (Éphésiens 2:8-9). Le baptême est la réponse du croyant, qui montre publiquement qu'il appartient à Jésus."
+      },
+      {
+       "id": "vf2",
+       "texte": "Jésus a commandé de baptiser ceux qui deviennent disciples.",
+       "reponse": true,
+       "explication": "Matthieu 28:19."
+      },
+      {
+       "id": "vf3",
+       "texte": "La sainte cène est un simple repas ordinaire.",
+       "reponse": false,
+       "explication": "C'est un repas de souvenir de la mort de Jésus, avec le pain et la coupe (1 Corinthiens 11:23-26)."
+      },
+      {
+       "id": "vf4",
+       "texte": "Je peux prendre la cène sans réfléchir à ma vie.",
+       "reponse": false,
+       "explication": "« Que chacun s'examine soi-même » (1 Corinthiens 11:28)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Le baptême : un commandement de Jésus",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Matthieu 28:19-20 et Marc 16:16. Que demande Jésus ?",
+     "refs": [
+      "Matthieu 28:19-20",
+      "Marc 16:16"
+     ],
+     "accompagnateur": {
+      "attendu": "Faire des disciples, les baptiser au nom du Père, du Fils et du Saint-Esprit, et leur enseigner à garder tout ce qu'il a commandé. Celui qui croit et qui est baptisé sera sauvé.",
+      "expliquer": [
+       "L'ordre : croire d'abord, ensuite être baptisé. Le baptême est une obéissance de foi.",
+       "Jésus lui-même a été baptisé (Matthieu 3:13-17) pour donner l'exemple."
+      ],
+      "relance": "As-tu déjà été baptisé ? Quand, et comment ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Actes 2:37-41 et Actes 8:35-38. Qui a été baptisé ? Dans quel ordre ?",
+     "refs": [
+      "Actes 2:37-41",
+      "Actes 8:35-38"
+     ],
+     "accompagnateur": {
+      "attendu": "Ceux qui avaient entendu la Parole, s'étaient repentis et avaient cru. L'eunuque éthiopien est baptisé tout de suite après avoir cru.",
+      "expliquer": [
+       "Dans le Nouveau Testament, le baptême suit la foi, et c'est vite après.",
+       "Respecter les traditions de l'Église concernée sur le mode (immersion ou autre), sans en faire un sujet de dispute."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Ce que signifie le baptême",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Romains 6:3-11. Que représente l'immersion dans l'eau ?",
+     "refs": [
+      "Romains 6:3-11"
+     ],
+     "accompagnateur": {
+      "attendu": "Être baptisé, c'est être uni à Christ dans sa mort, enseveli avec lui et ressuscité pour marcher en nouveauté de vie. Le vieil homme est crucifié.",
+      "expliquer": [
+       "Descendre dans l'eau : mourir avec Christ. Remonter : vivre avec lui.",
+       "Pour ceux qui ont des liens occultes ou familiaux : le baptême est aussi une rupture publique avec l'ancienne vie."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Galates 3:26-28 et Colossiens 2:11-12. Qu'est-ce que le baptême ne fait pas, et que montre-t-il ?",
+     "refs": [
+      "Galates 3:26-28",
+      "Colossiens 2:11-12"
+     ],
+     "accompagnateur": {
+      "attendu": "Il ne sauve pas par lui-même, mais montre publiquement que j'ai revêtu Christ, et que je suis uni à tous les croyants, sans distinction.",
+      "expliquer": [
+       "Le salut vient de la foi dans l'œuvre de Jésus (pas 1). Le baptême est le signe visible."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Pourquoi est-ce important d'être baptisé publiquement ? Que risques-tu ?",
+     "refs": [
+      "Matthieu 10:32-33",
+      "Romains 10:9-10"
+     ],
+     "accompagnateur": {
+      "attendu": "Parce que Jésus demande de le confesser devant les hommes. La confession publique glorifie Dieu et fortifie la foi.",
+      "expliquer": [
+       "Pour une personne qui risque sa famille, sa vie ou son travail (ancien musulman, famille traditionnelle, société secrète), parler franchement : quand, où, avec qui. Ne pas forcer ni retarder sans raison.",
+       "Le baptême peut se faire dans la discrétion, avec peu de témoins, dans un lieu sûr, sans nuire à la personne. Demander conseil aux responsables."
+      ],
+      "relance": "Quelle peur ou quelle difficulté ressens-tu à l'idée d'être baptisé ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. La sainte cène",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Luc 22:14-20 et 1 Corinthiens 11:23-26. Que fait Jésus avec le pain et la coupe ? Que devons-nous faire ?",
+     "refs": [
+      "Luc 22:14-20",
+      "1 Corinthiens 11:23-26"
+     ],
+     "accompagnateur": {
+      "attendu": "Il rompt le pain (mon corps donné pour vous) et prend la coupe (la nouvelle alliance en mon sang). Il dit : « Faites ceci en mémoire de moi. » Nous annonçons la mort du Seigneur jusqu'à ce qu'il vienne.",
+      "expliquer": [
+       "Un repas qui regarde le passé (sa mort), le présent (la communion avec lui et les frères) et l'avenir (son retour).",
+       "Selon l'Église, les mots et la pratique peuvent varier. L'essentiel : la foi en Jésus mort pour nous."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Lis 1 Corinthiens 11:27-32. Qu'est-ce que « s'examiner soi-même » ? Pourquoi est-ce sérieux ?",
+     "refs": [
+      "1 Corinthiens 11:27-32"
+     ],
+     "accompagnateur": {
+      "attendu": "Regarder sa vie avant de prendre la cène : péchés non confessés, divisions, mépris des frères. Prendre la cène indignement attire un jugement. On se repent et on se réconcilie d'abord.",
+      "expliquer": [
+       "Ce n'est pas être parfait, c'est être sincère et repentant.",
+       "Vérifier : conflit non réglé, péché caché, rancune."
+      ],
+      "relance": "Y a-t-il une réconciliation à faire avant la prochaine cène ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "D'après 1 Corinthiens 10:16-17, que montre la cène sur les croyants ?",
+     "refs": [
+      "1 Corinthiens 10:16-17"
+     ],
+     "accompagnateur": {
+      "attendu": "Qu'il y a un seul pain, un seul corps : nous qui sommes plusieurs, nous sommes un seul corps. La cène est une communion avec Christ et entre nous.",
+      "expliquer": [
+       "Lien avec le pas 9 : l'unité dans l'Église.",
+       "Rappeler que le repas se prend avec l'assemblée, pas seul, et pas à la maison pour quelqu'un d'autre."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Mon engagement",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q9",
+     "texte": "Quelle est ta réponse au commandement du baptême ? As-tu des questions ou des obstacles ? (Ta réponse est confidentielle.)",
+     "refs": [
+      "Actes 22:16"
+     ],
+     "accompagnateur": {
+      "attendu": "Soit un oui (« je veux être baptisé »), soit un « pas encore » avec une raison honnête (peur, famille, manque de compréhension).",
+      "expliquer": [
+       "Écouter sans pression. Si oui : expliquer la préparation, la date, la personne qui baptise. Si non : revenir au sujet à la prochaine rencontre.",
+       "Si la personne est déjà baptisée dans une autre église : demander ce qu'elle a compris de son baptême, et si elle a eu une vraie foi à ce moment-là."
+      ],
+      "relance": "Quand voudrais-tu qu'on en parle avec le pasteur ?"
+     }
+    },
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Ma décision",
+     "texte": [
+      "1. Je veux être baptisé : oui, non, pas encore.",
+      "2. Ce qui m'inquiète :",
+      "3. Les personnes que je voudrais inviter :",
+      "4. Le témoignage que je dirai à mon baptême :"
+     ],
+     "champ": "Ma décision",
+     "id": "decision-bapteme"
+    },
+    {
+     "type": "question",
+     "id": "q10",
+     "texte": "Écris Romains 6:4 de mémoire.",
+     "refs": [
+      "Romains 6:4"
+     ],
+     "accompagnateur": {
+      "attendu": "« Nous avons donc été ensevelis avec lui par le baptême en sa mort, afin que, comme Christ est ressuscité des morts par la gloire du Père, de même nous aussi nous marchions en nouveauté de vie. »",
+      "expliquer": [
+       "Faire réciter aussi 1 Pierre 3:15."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne le sens du baptême et de la cène, et réponde au commandement de Jésus.",
+   "Préparer le baptême, avec sagesse si la personne risque beaucoup.",
+   "L'inviter à prendre la cène avec un cœur préparé."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 10.",
+   "Parler avec le pasteur pour savoir comment l'église baptise (date, préparation, lieu).",
+   "Prévoir la sécurité si la personne risque sa vie ou sa famille."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur le témoignage (pas 10) : a-t-elle parlé à quelqu'un ?"
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Le baptême : un commandement",
+    "minutes": 20,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Le sens du baptême",
+    "minutes": 25,
+    "conseils": [
+     "Questions 3 à 5. Parler franchement des risques."
+    ]
+   },
+   {
+    "titre": "La sainte cène",
+    "minutes": 30,
+    "conseils": [
+     "Questions 6 à 8. Lien avec le pardon et la réconciliation."
+    ]
+   },
+   {
+    "titre": "Mon engagement",
+    "minutes": 20,
+    "conseils": [
+     "Question 9 et tableau. Écouter la décision, ne pas presser."
+    ]
+   },
+   {
+    "titre": "Verset et remise du pas 12",
+    "minutes": 10,
+    "conseils": [
+     "Réciter Romains 6:4. Prier. Remettre le pas 12 « Le foyer chrétien »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas baptiser trop vite quelqu'un qui n'a pas vraiment cru : s'assurer d'abord de la foi (pas 1 et 2).",
+   "Pour une personne qui risque sa vie, décider avec le pasteur du moment, du lieu et du nombre de témoins. Ne publier aucune photo.",
+   "Si la personne a déjà été baptisée enfant dans une autre tradition, ne pas disputer : lui laisser le temps d'étudier la Bible, et en parler avec le pasteur."
+  ]
+ }
+}

@@ -1,0 +1,315 @@
+{
+ "id": "pas-12-foyer-chretien",
+ "volume": 1,
+ "numero": 12,
+ "titre": "Le foyer chrétien",
+ "sous_titre": "Le plan de Dieu pour le mariage, les parents et les enfants",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "affermissement-12-foyer-chretien",
+ "verset_memoire": "Josué 24:15",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes sur la famille, un par jour",
+  "conseil": "Note ce qui t'interpelle dans ta propre famille.",
+  "jours": [
+   "Genèse 2",
+   "Psaume 127",
+   "Proverbes 31",
+   "Éphésiens 5:21-33",
+   "Éphésiens 6:1-4",
+   "Deutéronome 6",
+   "1 Pierre 3:1-12"
+  ]
+ },
+ "introduction": [
+  "La famille est le premier endroit où Dieu veut te former. C'est aussi le premier endroit où ton témoignage est mis à l'épreuve.",
+  "Cette semaine, tu vas découvrir le plan de Dieu pour le mariage, les parents et les enfants, même si tu es seul chrétien chez toi."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Dieu s'intéresse à ma vie de famille.",
+       "reponse": true,
+       "explication": "Dieu a institué le mariage dès le commencement (Genèse 2:18-24). Il dit : « Si l'Éternel ne bâtit la maison, ceux qui la bâtissent travaillent en vain » (Psaume 127:1)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Dans le mariage, le mari a le droit de dominer et de frapper sa femme.",
+       "reponse": false,
+       "explication": "Éphésiens 5:25 : « Maris, aimez vos femmes comme Christ a aimé l'Église. » Colossiens 3:19 : « Ne vous aigrissez pas contre elles. »"
+      },
+      {
+       "id": "vf3",
+       "texte": "La femme n'a pas de valeur devant Dieu comme l'homme.",
+       "reponse": false,
+       "explication": "Genèse 1:27 ; Galates 3:28 ; 1 Pierre 3:7 : cohéritières de la grâce de la vie."
+      },
+      {
+       "id": "vf4",
+       "texte": "Un chrétien seul dans sa famille ne peut rien faire pour elle.",
+       "reponse": false,
+       "explication": "1 Pierre 3:1-2 ; 1 Corinthiens 7:12-16 : la vie du croyant peut gagner les siens."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Dieu, le bâtisseur de la maison",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Psaume 127:1-3 et Josué 24:15. Qui doit bâtir la maison ? Que décide Josué ?",
+     "refs": [
+      "Psaume 127:1-3",
+      "Josué 24:15"
+     ],
+     "accompagnateur": {
+      "attendu": "L'Éternel. Josué dit : « Moi et ma maison, nous servirons l'Éternel. »",
+      "expliquer": [
+       "Bâtir sa maison sur Dieu : lire la Bible, prier, avoir des principes clairs, choisir ses amis.",
+       "Josué a décidé pour lui-même, puis il a conduit les siens."
+      ],
+      "relance": "Quel est le fondement actuel de ta maison ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Le mariage selon Dieu",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Genèse 2:18-25 et Matthieu 19:4-6. Quel est le plan de Dieu pour le mariage ?",
+     "refs": [
+      "Genèse 2:18-25",
+      "Matthieu 19:4-6"
+     ],
+     "accompagnateur": {
+      "attendu": "Dieu a créé l'homme et la femme, pour être une seule chair : un homme et une femme, pour la vie. Ce que Dieu a uni, l'homme ne doit pas le séparer.",
+      "expliquer": [
+       "Un homme, une femme. Beaucoup de coutumes africaines (polygamie, lévirat, mariages arrangés) posent question : être clair avec amour et patience.",
+       "Si la personne est déjà dans une situation polygame, ne pas imposer de décision rapide : en parler avec le pasteur, protéger les femmes et les enfants, chercher la volonté de Dieu étape par étape."
+      ],
+      "relance": "Que penses-tu du mariage ? D'où viennent tes idées ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Éphésiens 5:21-33. Comment le mari doit-il aimer sa femme ? Comment la femme doit-elle se comporter ?",
+     "refs": [
+      "Éphésiens 5:21-33"
+     ],
+     "accompagnateur": {
+      "attendu": "Le mari aime sa femme comme Christ a aimé l'Église, et s'est livré pour elle ; il la nourrit et en prend soin comme son propre corps. La femme respecte et se soumet à son mari, comme à Christ. Tous deux se soumettent les uns aux autres dans la crainte de Christ.",
+      "expliquer": [
+       "Ce n'est pas un pouvoir pour le mari, c'est un service. La domination et la violence sont étrangères à l'Évangile.",
+       "Aborder les violences sans détour : si elles existent, les nommer et chercher de l'aide."
+      ],
+      "relance": "Où te vois-tu dans cette description : comme mari, comme femme, comme futur(e) conjoint(e) ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis 1 Pierre 3:1-7 et Proverbes 31:10-12, 26-31. Que dit-on de la femme et de l'homme ?",
+     "refs": [
+      "1 Pierre 3:1-7",
+      "Proverbes 31:10-12",
+      "Proverbes 31:26-31"
+     ],
+     "accompagnateur": {
+      "attendu": "La femme a une valeur plus grande que les perles ; elle est sage, travailleuse, honorée. Le mari doit honorer sa femme comme cohéritière de la grâce de la vie, afin que ses prières ne soient pas empêchées.",
+      "expliquer": [
+       "Un mari qui méprise sa femme gêne sa propre prière.",
+       "Pour les célibataires : se préparer au mariage par la pureté, la prière, le choix d'un conjoint croyant (2 Corinthiens 6:14)."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Parents et enfants",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Deutéronome 6:4-9 et Éphésiens 6:1-4. Que doivent faire les parents ? Les enfants ?",
+     "refs": [
+      "Deutéronome 6:4-9",
+      "Éphésiens 6:1-4"
+     ],
+     "accompagnateur": {
+      "attendu": "Les parents enseignent la Parole à leurs enfants chaque jour, à la maison et en chemin, sans les irriter, mais en les élevant dans la discipline et les avertissements du Seigneur. Les enfants obéissent et honorent leurs parents.",
+      "expliquer": [
+       "Éduquer, ce n'est pas frapper sans raison. La discipline corrige avec amour.",
+       "Les enfants apprennent surtout en regardant leurs parents."
+      ],
+      "relance": "Quel exemple donnes-tu à tes enfants, ou donnais-tu à tes frères et sœurs ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Proverbes 22:6, Genèse 37:3-4 et 2 Timothée 1:5. Que montre-t-on sur l'éducation et la foi transmise ?",
+     "refs": [
+      "Proverbes 22:6",
+      "Genèse 37:3-4",
+      "2 Timothée 1:5"
+     ],
+     "accompagnateur": {
+      "attendu": "Instruis l'enfant selon la voie qu'il doit suivre. Le favoritisme de Jacob pour Joseph a causé de la jalousie et de la haine. La foi de Loïs, de sa fille Eunice, a été transmise à Timothée.",
+      "expliquer": [
+       "Éviter de préférer un enfant. Transmettre la foi par l'exemple, la prière, les histoires bibliques."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Seul chrétien à la maison",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Lis 1 Pierre 3:1-2, 1 Corinthiens 7:12-16 et Matthieu 10:34-39. Que faire quand on est le seul croyant dans sa famille ?",
+     "refs": [
+      "1 Pierre 3:1-2",
+      "1 Corinthiens 7:12-16",
+      "Matthieu 10:34-39"
+     ],
+     "accompagnateur": {
+      "attendu": "Vivre sa foi avec respect, douceur et bonne conduite : la vie parle plus fort que les mots. Ne pas quitter son conjoint non croyant s'il accepte de rester. Mais aimer Jésus plus que sa famille : sa fidélité peut apporter des divisions.",
+      "expliquer": [
+       "Ne pas chercher le conflit : prier, servir, aimer, attendre l'occasion.",
+       "Si l'opposition devient dangereuse, revenir au conseil de l'Église (voir le suivi)."
+      ],
+      "relance": "Qui est le seul croyant dans ta famille ? Comment peux-tu l'aimer ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Lis Matthieu 18:15 et Éphésiens 4:26-32. Comment régler les conflits dans le foyer ?",
+     "refs": [
+      "Matthieu 18:15",
+      "Éphésiens 4:26-32"
+     ],
+     "accompagnateur": {
+      "attendu": "Parler directement, avec calme. Ne pas laisser le soleil se coucher sur sa colère. Supprimer l'amertume, la colère, les cris, les injures. Être bon, compatissant, pardonner.",
+      "expliquer": [
+       "La plupart des foyers explosent à cause de petites choses gardées trop longtemps."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon engagement",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon foyer devant Dieu",
+     "texte": [
+      "1. Ma situation familiale (célibataire, marié, parent, enfant à la maison…) :",
+      "2. Ce que Dieu me montre de changer dans ma manière d'aimer :",
+      "3. Un moment de prière ou de lecture avec ma famille cette semaine :",
+      "4. Une réconciliation à faire :"
+     ],
+     "champ": "Mon engagement",
+     "id": "plan-foyer"
+    },
+    {
+     "type": "question",
+     "id": "q9",
+     "texte": "Écris Josué 24:15 de mémoire.",
+     "refs": [
+      "Josué 24:15"
+     ],
+     "accompagnateur": {
+      "attendu": "« Moi et ma maison, nous servirons l'Éternel. »",
+      "expliquer": [
+       "Faire réciter aussi Romains 6:4."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne le plan de Dieu pour le foyer, et s'engage à un changement concret.",
+   "Dénouer des blessures, des violences ou des coutumes qui contredisent l'Évangile.",
+   "Encourager le seul chrétien d'une famille à tenir avec patience."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 11.",
+   "Connaître la situation familiale de la personne (célibataire, mariée, polygame, orphelin…).",
+   "Prier pour la personne et son foyer, et savoir qui consulter (pasteur, conseiller) en cas de violence."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur le baptême (pas 11) : où en est la personne ?"
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Dieu, le bâtisseur et le mariage",
+    "minutes": 30,
+    "conseils": [
+     "Questions 1 à 4. Adapter à la situation : célibataire, marié, parent, enfant."
+    ]
+   },
+   {
+    "titre": "Parents et enfants",
+    "minutes": 25,
+    "conseils": [
+     "Questions 5 et 6."
+    ]
+   },
+   {
+    "titre": "Seul chrétien à la maison",
+    "minutes": 25,
+    "conseils": [
+     "Questions 7 et 8. Écouter l'histoire de la personne avec compassion."
+    ]
+   },
+   {
+    "titre": "Engagement et remise du pas 13",
+    "minutes": 15,
+    "conseils": [
+     "Relire l'engagement. Réciter Josué 24:15 et Romains 6:4. Remettre le pas 13 « Suivre Jésus »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Violence conjugale ou envers les enfants : ne pas minimiser. Chercher la protection de la personne, impliquer le pasteur ou des conseillers.",
+   "Polygamie, divorce, remariage, enfants hors mariage : ne pas imposer de solution rapide. Écouter, prier, chercher conseil avec le pasteur.",
+   "Pour les célibataires : pas de pression pour se marier, ni pour attendre un conjoint précis. Prier avec patience."
+  ]
+ }
+}

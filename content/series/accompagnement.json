@@ -32,43 +32,53 @@
     },
     {
      "numero": 4,
-     "titre": "Christ, Seigneur de tout"
+     "titre": "Christ, Seigneur de tout",
+     "id": "pas-04-jesus-seigneur"
     },
     {
      "numero": 5,
-     "titre": "Vivre par l'Esprit"
+     "titre": "Vivre par l'Esprit",
+     "id": "pas-05-vivre-par-l-esprit"
     },
     {
      "numero": 6,
-     "titre": "Dieu me parle : la Bible"
+     "titre": "Dieu me parle : la Bible",
+     "id": "pas-06-dieu-me-parle"
     },
     {
      "numero": 7,
-     "titre": "Je parle à Dieu : la prière"
+     "titre": "Je parle à Dieu : la prière",
+     "id": "pas-07-je-parle-a-dieu"
     },
     {
      "numero": 8,
-     "titre": "Mon rendez-vous quotidien avec Dieu"
+     "titre": "Mon rendez-vous quotidien avec Dieu",
+     "id": "pas-08-rendez-vous-quotidien"
     },
     {
      "numero": 9,
-     "titre": "Mon église locale"
+     "titre": "Mon église locale",
+     "id": "pas-09-mon-eglise-locale"
     },
     {
      "numero": 10,
-     "titre": "Le témoignage"
+     "titre": "Le témoignage",
+     "id": "pas-10-temoigner"
     },
     {
      "numero": 11,
-     "titre": "Le baptême et le repas du Seigneur"
+     "titre": "Le baptême et le repas du Seigneur",
+     "id": "pas-11-bapteme-et-cene"
     },
     {
      "numero": 12,
-     "titre": "Le foyer chrétien"
+     "titre": "Le foyer chrétien",
+     "id": "pas-12-foyer-chretien"
     },
     {
      "numero": 13,
-     "titre": "Suivre Jésus"
+     "titre": "Suivre Jésus",
+     "id": "pas-13-suivre-jesus"
     }
    ]
   },

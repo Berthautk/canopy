@@ -1,0 +1,362 @@
+{
+ "id": "pas-05-vivre-par-l-esprit",
+ "volume": 1,
+ "numero": 5,
+ "titre": "Vivre par l'Esprit",
+ "sous_titre": "Connaître le Saint-Esprit, être rempli et marcher chaque jour",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "affermissement-5-vivre-par-l-esprit",
+ "verset_memoire": "Galates 5:16",
+ "lecture": {
+  "titre": "Cette semaine, lis Actes 1 à 7, un chapitre par jour",
+  "conseil": "Note ce que fait le Saint-Esprit dans chaque chapitre.",
+  "jours": [
+   "Actes 1",
+   "Actes 2",
+   "Actes 3",
+   "Actes 4",
+   "Actes 5",
+   "Actes 6",
+   "Actes 7"
+  ]
+ },
+ "introduction": [
+  "Jésus a dit à ses disciples : « Il est avantageux pour vous que je m'en aille. » Pourquoi ? Parce que le Saint-Esprit vient habiter en chaque croyant.",
+  "Cette semaine, tu vas apprendre qui est le Saint-Esprit, ce qu'il fait pour toi, comment vivre dans sa puissance, et comment ne pas être trompé par de faux esprits."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Le Saint-Esprit est une force impersonnelle, comme un courant.",
+       "reponse": false,
+       "explication": "L'Esprit est une personne : il parle (Actes 13:2), il enseigne (Jean 14:26), il peut être attristé (Éphésiens 4:30)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Tout croyant reçoit le Saint-Esprit au moment où il croit.",
+       "reponse": true,
+       "explication": "Éphésiens 1:13 : « Après avoir cru, vous avez été scellés du Saint-Esprit. » Romains 8:9 : celui qui n'a pas l'Esprit de Christ ne lui appartient pas."
+      },
+      {
+       "id": "vf3",
+       "texte": "Être rempli de l'Esprit, c'est avoir une expérience exceptionnelle une seule fois.",
+       "reponse": false,
+       "explication": "Éphésiens 5:18 est au présent continu : « Soyez continuellement remplis de l'Esprit »."
+      },
+      {
+       "id": "vf4",
+       "texte": "Tout ce qui est « spirituel » vient de Dieu.",
+       "reponse": false,
+       "explication": "1 Jean 4:1 : « Éprouvez les esprits, pour voir s'ils sont de Dieu. » Il y a de faux esprits."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Qui est le Saint-Esprit ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "D'après Jean 14:16-17 et 14:26, comment Jésus appelle-t-il le Saint-Esprit ? Que fait-il ?",
+     "refs": [
+      "Jean 14:16-17",
+      "Jean 14:26"
+     ],
+     "accompagnateur": {
+      "attendu": "Le Consolateur, l'Esprit de vérité. Il demeure avec nous et en nous pour toujours. Il enseigne toutes choses et rappelle ce que Jésus a dit.",
+      "expliquer": [
+       "Un autre Consolateur : Jésus lui-même est le premier. L'Esprit continue son œuvre."
+      ],
+      "relance": "As-tu déjà senti que Dieu te rappelait un verset ou te reprenait doucement ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Actes 5:3-4 et Matthieu 28:19. Que montre-t-on sur l'Esprit ?",
+     "refs": [
+      "Actes 5:3-4",
+      "Matthieu 28:19"
+     ],
+     "accompagnateur": {
+      "attendu": "Mentir au Saint-Esprit, c'est mentir à Dieu : il est Dieu. Il est nommé avec le Père et le Fils dans le baptême.",
+      "expliquer": [
+       "Rappel : un seul Dieu en trois personnes. L'Esprit n'est pas un ange ni une énergie."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Ce que l'Esprit fait pour moi",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "D'après Éphésiens 1:13-14 et Romains 8:15-16, que fait l'Esprit quand je crois ?",
+     "refs": [
+      "Éphésiens 1:13-14",
+      "Romains 8:15-16"
+     ],
+     "accompagnateur": {
+      "attendu": "Il me scelle, il est un gage de mon héritage. Il me fait crier « Abba, Père » et témoigne avec mon esprit que je suis enfant de Dieu.",
+      "expliquer": [
+       "Sceau : comme le tampon sur un document, qui dit « ceci appartient à Dieu ».",
+       "Lien avec le pas 2 : l'assurance du salut."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Jean 16:8-11 et 16:13-14. Que fait l'Esprit dans le monde et dans le croyant ?",
+     "refs": [
+      "Jean 16:8-11",
+      "Jean 16:13-14"
+     ],
+     "accompagnateur": {
+      "attendu": "Il convainc le monde de péché, de justice et de jugement. Il guide dans toute la vérité et glorifie Jésus.",
+      "expliquer": [
+       "Distinguer la conviction de l'Esprit (précise, qui conduit à Jésus) et l'accusation du diable (floue, qui écrase)."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "D'après 1 Corinthiens 12:4-11 et 12:12-13, que donne l'Esprit à chacun ?",
+     "refs": [
+      "1 Corinthiens 12:4-11",
+      "1 Corinthiens 12:12-13"
+     ],
+     "accompagnateur": {
+      "attendu": "Des dons différents, pour l'utilité commune, comme il veut. Tous baptisés dans un seul corps.",
+      "expliquer": [
+       "Personne n'a tous les dons ; personne n'est sans don. Les dons servent le corps, pas l'orgueil.",
+       "Rester sobre sur les sujets où les Églises divergent (langues, miracles) : lire la Bible et prier ensemble, sans disputer."
+      ],
+      "relance": "Quel service pourrais-tu rendre à l'Église, selon ce que tu sens que Dieu t'a donné ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. La chair et l'Esprit",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Galates 5:16-17. Quelle lutte décrit Paul ? Quelle promesse donne-t-il ?",
+     "refs": [
+      "Galates 5:16-17"
+     ],
+     "accompagnateur": {
+      "attendu": "La chair et l'Esprit se combattent. Si je marche selon l'Esprit, je n'accomplirai pas les désirs de la chair.",
+      "expliquer": [
+       "La victoire ne vient pas de la volonté seule, mais de la marche avec l'Esprit.",
+       "Lien avec la tentation (pas 3)."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Compare Galates 5:19-21 et 5:22-23. Quelles sont les œuvres de la chair ? Quel est le fruit de l'Esprit ?",
+     "refs": [
+      "Galates 5:19-21",
+      "Galates 5:22-23"
+     ],
+     "accompagnateur": {
+      "attendu": "Œuvres de la chair : impudicité, idolâtrie, magie, haines, disputes, jalousies, colères, rivalités, ivrognerie… Fruit de l'Esprit : amour, joie, paix, patience, bonté, bénignité, fidélité, douceur, maîtrise de soi.",
+      "expliquer": [
+       "Le fruit se voit dans la durée, pas dans les émotions du dimanche.",
+       "On demande : quel fruit manque le plus ? Lequel Dieu a-t-il déjà fait pousser ?"
+      ],
+      "relance": "Quel fruit voudrais-tu que Dieu fasse croître le plus en toi ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Être rempli et marcher par l'Esprit",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Lis Éphésiens 5:18. Qu'est-ce qui est comparé ? Que demande Dieu ?",
+     "refs": [
+      "Éphésiens 5:18"
+     ],
+     "accompagnateur": {
+      "attendu": "Ne vous enivrez pas de vin, mais soyez remplis de l'Esprit, continuellement.",
+      "expliquer": [
+       "Comparaison : le vin prend le contrôle de la personne ; l'Esprit aussi, mais pour la libérer."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q9",
+     "texte": "D'après Éphésiens 4:30 et 1 Thessaloniciens 5:19, qu'est-ce qu'on ne doit pas faire à l'Esprit ?",
+     "refs": [
+      "Éphésiens 4:30",
+      "1 Thessaloniciens 5:19"
+     ],
+     "accompagnateur": {
+      "attendu": "Ne pas l'attrister (par l'amertume, la colère, le mensonge, l'impureté). Ne pas l'éteindre (en refusant ce qu'il dit).",
+      "expliquer": [
+       "Un péché non confessé attriste l'Esprit. On le confesse et on revient."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q10",
+     "texte": "D'après Luc 11:13 et Romains 8:14, comment être rempli et conduit par l'Esprit ?",
+     "refs": [
+      "Luc 11:13",
+      "Romains 8:14"
+     ],
+     "accompagnateur": {
+      "attendu": "On le demande au Père, qui le donne à ceux qui le lui demandent. Ceux qui sont conduits par l'Esprit sont fils de Dieu.",
+      "expliquer": [
+       "Se laisser conduire : lire la Bible chaque jour, prier, obéir tout de suite à ce que l'on comprend."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q11",
+     "texte": "Lis 1 Jean 4:1-3 et Actes 17:11. Comment éprouver ce qui se dit « venir de l'Esprit » ?",
+     "refs": [
+      "1 Jean 4:1-3",
+      "Actes 17:11"
+     ],
+     "accompagnateur": {
+      "attendu": "En vérifiant que cela reconnaît Jésus venu dans la chair, et en examinant les Écritures.",
+      "expliquer": [
+       "Très important en Afrique : visions, prophéties, songes et prophètes proclamés. Tout ce qui contredit la Bible n'est pas de l'Esprit.",
+       "Les « esprits » des marabouts, des ancêtres ou des guérisseurs ne sont pas le Saint-Esprit."
+      ],
+      "relance": "As-tu déjà suivi une parole « venant de Dieu » qui contredisait la Bible ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Marcher selon l'Esprit",
+     "texte": [
+      "1. Chaque matin, je dis : « Saint-Esprit, remplis-moi, conduis-moi aujourd'hui. »",
+      "2. Le péché que je dois confesser pour ne plus attrister l'Esprit :",
+      "3. Le fruit que je demande :",
+      "4. Le service que je peux rendre à l'Église :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-esprit"
+    },
+    {
+     "type": "question",
+     "id": "q12",
+     "texte": "Écris Galates 5:16 de mémoire.",
+     "refs": [
+      "Galates 5:16"
+     ],
+     "accompagnateur": {
+      "attendu": "« Je dis donc : Marchez selon l'Esprit, et vous n'accomplirez pas les désirs de la chair. »",
+      "expliquer": [
+       "Faire réciter aussi Romains 12:1."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne connaisse le Saint-Esprit comme une personne qui habite en elle.",
+   "Qu'elle apprenne à marcher selon l'Esprit, à confesser ce qui l'attriste, et à éprouver les esprits.",
+   "Éviter les disputes sur les dons : rester sur la Bible."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 4.",
+   "Lire Actes 1 à 7 et Galates 5.",
+   "Prier pour la personne, et pour le discernement."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture d'Actes 1 à 7 : qu'a-t-elle remarqué de l'Esprit ?",
+     "Retour sur la consécration du pas 4."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Qui est le Saint-Esprit ?",
+    "minutes": 15,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Ce que l'Esprit fait pour moi",
+    "minutes": 25,
+    "conseils": [
+     "Questions 3 à 5. Insister sur l'assurance et l'usage des dons pour servir."
+    ]
+   },
+   {
+    "titre": "La chair et l'Esprit",
+    "minutes": 20,
+    "conseils": [
+     "Questions 6 et 7. Faire nommer le fruit qui manque."
+    ]
+   },
+   {
+    "titre": "Être rempli et éprouver les esprits",
+    "minutes": 25,
+    "conseils": [
+     "Questions 8 à 11. Écouter les expériences vécues sans juger, puis les confronter à la Bible."
+    ]
+   },
+   {
+    "titre": "Plan, verset et remise du pas 6",
+    "minutes": 10,
+    "conseils": [
+     "Relire le plan, prier. Réciter Galates 5:16 et Romains 12:1. Remettre le pas 6 « Dieu me parle : la Bible »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Éviter les débats sur les langues ou les miracles : renvoyer à la Bible et à l'Église locale.",
+   "Si la personne est troublée par des visions ou des voix qui ne viennent pas de la Bible, les examiner ensemble sans moquerie, et en parler au pasteur.",
+   "Si la personne a un passé occulte (marabout, sorcellerie, société secrète), revenir au bilan de vie et prier pour la libération."
+  ]
+ }
+}

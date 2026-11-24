@@ -1,0 +1,321 @@
+{
+ "id": "pas-08-rendez-vous-quotidien",
+ "volume": 1,
+ "numero": 8,
+ "titre": "Mon rendez-vous quotidien avec Dieu",
+ "sous_titre": "Choisir un moment, un lieu et un plan, et persévérer",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "affermissement-8-rendez-vous-quotidien",
+ "verset_memoire": "Marc 1:35",
+ "lecture": {
+  "titre": "Cette semaine, essaie chaque jour ton rendez-vous. Lis ces psaumes",
+  "conseil": "Chaque jour, note en deux lignes ce que tu as retenu.",
+  "jours": [
+   "Psaume 5",
+   "Psaume 16",
+   "Psaume 27",
+   "Psaume 42",
+   "Psaume 90",
+   "Psaume 121",
+   "Psaume 143"
+  ]
+ },
+ "introduction": [
+  "Avec les pas précédents, tu as appris à connaître Jésus comme Sauveur et Seigneur, à lire la Bible, à prier. Maintenant, il faut en faire une habitude : un rendez-vous chaque jour avec Dieu.",
+  "Cette semaine, tu vas essayer de le vivre, même court, et noter honnêtement ce qui t'aide et ce qui t'empêche."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Un rendez-vous quotidien avec Dieu est réservé aux pasteurs.",
+       "reponse": false,
+       "explication": "Tout disciple est invité à être « assis aux pieds de Jésus » comme Marie (Luc 10:39)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Il faut au moins une heure chaque matin pour que cela compte.",
+       "reponse": false,
+       "explication": "Quinze à vingt minutes de qualité valent mieux qu'une heure rare. Le plus important, c'est la régularité."
+      },
+      {
+       "id": "vf3",
+       "texte": "Si j'ai manqué un jour, j'ai tout perdu.",
+       "reponse": false,
+       "explication": "La grâce de Dieu est nouvelle chaque matin (Lamentations 3:22-23). On reprend, sans culpabilité."
+      },
+      {
+       "id": "vf4",
+       "texte": "Jésus lui-même avait des temps seuls avec son Père.",
+       "reponse": true,
+       "explication": "Marc 1:35 ; Luc 5:16."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Jésus avait un rendez-vous",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Marc 1:35 et Luc 5:15-16. À quel moment et dans quel lieu Jésus priait-il ?",
+     "refs": [
+      "Marc 1:35",
+      "Luc 5:15-16"
+     ],
+     "accompagnateur": {
+      "attendu": "De très bonne heure, quand il faisait encore nuit, dans un lieu désert. Il se retirait souvent pour prier, même quand la foule le cherchait.",
+      "expliquer": [
+       "Plus Jésus avait de travail, plus il cherchait à rester avec son Père.",
+       "Si Jésus en avait besoin, nous aussi."
+      ],
+      "relance": "Quand serait pour toi le meilleur moment ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Luc 10:38-42. Que choisit Marie ? Que reproche Marthe ? Que répond Jésus ?",
+     "refs": [
+      "Luc 10:38-42"
+     ],
+     "accompagnateur": {
+      "attendu": "Marie s'assied aux pieds de Jésus et écoute. Marthe est accablée de service. Jésus dit que Marie a choisi la bonne part, qui ne lui sera pas ôtée.",
+      "expliquer": [
+       "Marthe n'est pas condamnée pour son service, mais pour son agitation. Le service sans la présence de Jésus épuise.",
+       "Chacun a des occupations : famille, travail, église, mais la bonne part passe d'abord."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Préparer mon rendez-vous",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Réponds par écrit : à quelle heure ? Où ? Combien de temps ? Avec quoi (Bible, cahier, stylo, téléphone en mode avion) ?",
+     "refs": [
+      "Marc 1:35"
+     ],
+     "accompagnateur": {
+      "attendu": "Un plan réaliste, adapté à sa vie : une heure fixe, un endroit calme, un temps raisonnable, le matériel prêt.",
+      "expliquer": [
+       "Aider à anticiper les obstacles : enfants, travail de nuit, électricité, promiscuité.",
+       "Proposer : commencer petit (10-15 minutes), puis augmenter."
+      ],
+      "relance": "Quel est ton plus grand obstacle ? Comment le vaincre ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "D'après Psaume 5:4 et Psaume 63:2-3, quelle est l'attitude du psalmiste le matin ?",
+     "refs": [
+      "Psaume 5:4",
+      "Psaume 63:2-3"
+     ],
+     "accompagnateur": {
+      "attendu": "Il cherche Dieu dès l'aube : « Dès le matin, je t'expose mes requêtes et j'attends. » Son âme a soif de Dieu.",
+      "expliquer": [
+       "Le matin n'est pas obligatoire pour tous : un travailleur de nuit peut choisir un autre moment. Le plus important est la régularité."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Vivre mon rendez-vous en quatre temps",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "meditation",
+     "titre": "Un modèle en quatre temps",
+     "texte": [
+      "1. Je me calme et je m'adresse à Dieu : « Seigneur, me voici. »",
+      "2. Je lis un passage (méthode LOCAP) et je choisis un verset.",
+      "3. Je prie : adoration, confession, remerciement, demandes.",
+      "4. J'écoute, puis je note ce que je ferai aujourd'hui."
+     ],
+     "champ": "Mon essai du modèle",
+     "id": "modele-4-temps"
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Fais cet essai avec Psaume 63. Note ce que tu as lu, ce que tu comprends, ce que tu appliques et ta prière.",
+     "refs": [
+      "Psaume 63"
+     ],
+     "accompagnateur": {
+      "attendu": "Un petit compte rendu des quatre temps. Observer : l'âme a soif de Dieu. Appliquer : chercher Dieu avant les affaires du jour.",
+      "expliquer": [
+       "Faire l'exercice pendant la rencontre, à voix haute, pour que la personne voie que c'est simple."
+      ],
+      "relance": "Qu'as-tu appris sur Dieu en faisant cet exercice ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "D'après Psaume 1:1-3 et Josué 1:8, quel résultat a la méditation quotidienne de la Parole ?",
+     "refs": [
+      "Psaume 1:1-3",
+      "Josué 1:8"
+     ],
+     "accompagnateur": {
+      "attendu": "Il est comme un arbre planté près d'un cours d'eau, qui porte du fruit en son temps. Il réussit.",
+      "expliquer": [
+       "Le fruit se voit avec les années : caractère, paix, discernement."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Quand c'est difficile",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Quels sont les obstacles possibles : fatigue, sommeil, oubli, distraction, découragement, attaques ? Comment réagir à chacun ?",
+     "refs": [
+      "Matthieu 26:41",
+      "Galates 6:9"
+     ],
+     "accompagnateur": {
+      "attendu": "Fatigue : se coucher plus tôt, changer l'heure. Distraction : noter ce qui vient en tête, éteindre le téléphone. Découragement : reprendre sans culpabilité. Attaques : les confier au Seigneur. Veiller et prier.",
+      "expliquer": [
+       "Si les attaques sont fortes (cauchemars, peurs, voix), revenir au bilan de vie.",
+       "Un jour raté n'est pas un échec : reprendre."
+      ],
+      "relance": "Quel obstacle ressens-tu le plus ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Lis Lamentations 3:22-24 et Hébreux 10:24-25. Qu'est-ce qui m'aide à persévérer ?",
+     "refs": [
+      "Lamentations 3:22-24",
+      "Hébreux 10:24-25"
+     ],
+     "accompagnateur": {
+      "attendu": "Les bontés de l'Éternel se renouvellent chaque matin. S'encourager mutuellement au lieu de s'isoler.",
+      "expliquer": [
+       "Proposer un partenaire de rendez-vous : un frère ou une sœur à qui l'on dit simplement « j'ai lu ceci aujourd'hui »."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "Mon engagement",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon engagement",
+     "texte": [
+      "1. Mon heure et mon lieu :",
+      "2. Ma durée de départ :",
+      "3. Mon premier livre de la Bible à lire :",
+      "4. Mon partenaire pour m'encourager :",
+      "5. Ce qui pourrait m'empêcher, et ce que je ferai alors :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-rdv"
+    },
+    {
+     "type": "question",
+     "id": "q9",
+     "texte": "Écris Marc 1:35 de mémoire.",
+     "refs": [
+      "Marc 1:35"
+     ],
+     "accompagnateur": {
+      "attendu": "« Vers le matin, pendant qu'il faisait encore très sombre, il se leva et sortit pour aller dans un lieu désert, où il pria. »",
+      "expliquer": [
+       "Faire réciter aussi Philippiens 4:6-7."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne ait un rendez-vous réaliste et l'ait déjà essayé une semaine.",
+   "Qu'elle sache quoi faire quand elle manque des jours, sans culpabilité.",
+   "Trouver un partenaire d'encouragement."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 7.",
+   "Réfléchir à ton propre rendez-vous : conseils concrets, difficultés rencontrées, comment tu y reviens.",
+   "Prier pour la personne et pour sa persévérance."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 20,
+    "conseils": [
+     "Combien de jours a-t-elle tenu son rendez-vous ? Ce qui a aidé, ce qui a empêché. Féliciter avant de corriger."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Jésus avait un rendez-vous",
+    "minutes": 20,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Préparer et vivre le rendez-vous",
+    "minutes": 35,
+    "conseils": [
+     "Questions 3 à 6 et essai en direct du modèle en quatre temps."
+    ]
+   },
+   {
+    "titre": "Quand c'est difficile",
+    "minutes": 25,
+    "conseils": [
+     "Questions 7 et 8. Chercher des solutions pratiques avec la personne."
+    ]
+   },
+   {
+    "titre": "Engagement, verset et remise du pas 9",
+    "minutes": 10,
+    "conseils": [
+     "Relire l'engagement. Réciter Marc 1:35 et Philippiens 4:6-7. Remettre le pas 9 « Mon église locale »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas écraser sous une règle trop dure : mieux vaut 10 minutes chaque jour qu'une heure qu'on abandonne.",
+   "Si la personne vit dans une maison très bruyante, très étroite ou hostile, chercher un moment et un lieu discrets (marche, champ, avant l'aube).",
+   "Attention aux dépendances du téléphone : proposer d'écouter la Bible en audio, hors réseaux sociaux."
+  ]
+ }
+}

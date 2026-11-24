@@ -1,0 +1,337 @@
+{
+ "id": "pas-13-suivre-jesus",
+ "volume": 1,
+ "numero": 13,
+ "titre": "Suivre Jésus",
+ "sous_titre": "Le prix du disciple, le secret pour tenir, et la persévérance",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "affermissement-13-suivre-jesus",
+ "verset_memoire": "Luc 9:23",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note ce que Jésus demande à ses disciples.",
+  "jours": [
+   "Luc 9:23-62",
+   "Luc 14:25-35",
+   "Philippiens 3",
+   "Hébreux 11",
+   "Hébreux 12",
+   "2 Timothée 4",
+   "Apocalypse 2"
+  ]
+ },
+ "introduction": [
+  "Tu as parcouru douze pas. Tu connais maintenant les bases de la vie chrétienne. Le dernier pas de ce volume est un appel à la persévérance : suivre Jésus, un jour après l'autre, jusqu'à la fin.",
+  "Cette semaine, tu vas regarder le prix et la joie du disciple, faire le point de ton chemin, et choisir les habitudes qui te feront tenir."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Suivre Jésus ne coûte rien.",
+       "reponse": false,
+       "explication": "Luc 9:23 ; Luc 14:25-33 : renoncer à soi-même, porter sa croix. Il faut compter la dépense."
+      },
+      {
+       "id": "vf2",
+       "texte": "Si je suis Jésus, tout ira bien dans ma vie.",
+       "reponse": false,
+       "explication": "Jean 16:33 : « Vous aurez des tribulations dans le monde. Mais prenez courage, j'ai vaincu le monde. »"
+      },
+      {
+       "id": "vf3",
+       "texte": "Pour persévérer, il faut demeurer en Jésus, comme le sarment dans la vigne.",
+       "reponse": true,
+       "explication": "Jean 15:4-5."
+      },
+      {
+       "id": "vf4",
+       "texte": "Après avoir commencé à suivre Jésus, on peut tout arrêter sans conséquence.",
+       "reponse": false,
+       "explication": "Luc 9:62 ; Hébreux 10:38-39."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Un disciple suit son maître",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Matthieu 4:18-22 et Jean 1:35-39. Que signifie « suivre Jésus » ? Qu'ont fait les premiers disciples ?",
+     "refs": [
+      "Matthieu 4:18-22",
+      "Jean 1:35-39"
+     ],
+     "accompagnateur": {
+      "attendu": "Ils ont laissé leurs filets et sont allés avec lui. Suivre, c'est être avec Jésus, apprendre de lui, lui obéir.",
+      "expliquer": [
+       "Un disciple (talmid) est d'abord un apprenant : il vit avec son maître.",
+       "Suivre Jésus, c'est un chemin de chaque jour, pas un événement unique."
+      ],
+      "relance": "Qu'est-ce que tu as laissé pour suivre Jésus ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Jean 8:31-32 et Jean 10:27. Quelle est la marque d'un vrai disciple ?",
+     "refs": [
+      "Jean 8:31-32",
+      "Jean 10:27"
+     ],
+     "accompagnateur": {
+      "attendu": "Demeurer dans sa parole. Écouter sa voix et le suivre.",
+      "expliquer": [
+       "Lien avec les pas 6 à 8 : Parole, prière, rendez-vous."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Le prix à payer",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Luc 14:25-33. Quelles conditions Jésus pose-t-il ? Pourquoi parle-t-il de la tour et du roi ?",
+     "refs": [
+      "Luc 14:25-33"
+     ],
+     "accompagnateur": {
+      "attendu": "Aimer Jésus plus que sa famille et sa propre vie, porter sa croix, renoncer à tout ce qu'on possède. Il faut calculer la dépense avant de bâtir une tour ou de faire la guerre.",
+      "expliquer": [
+       "Jésus n'est pas dur : il est honnête. Il ne veut pas de disciples qui abandonnent à la première difficulté.",
+       "Pour le nouveau converti : famille, travail, héritage, amitié. Écouter ce qu'il a déjà perdu."
+      ],
+      "relance": "Qu'est-ce que suivre Jésus t'a déjà coûté ? Qu'est-ce que tu as peur de perdre ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Matthieu 5:10-12 et 2 Timothée 3:12. Que promet Jésus à ceux qui souffrent pour lui ?",
+     "refs": [
+      "Matthieu 5:10-12",
+      "2 Timothée 3:12"
+     ],
+     "accompagnateur": {
+      "attendu": "Heureux ceux qui sont persécutés à cause de la justice : le royaume des cieux est à eux. Tous ceux qui veulent vivre pieusement en Jésus-Christ seront persécutés.",
+      "expliquer": [
+       "La persécution peut être légère (moqueries) ou grave (rejet, violence). Dieu donne la force et une famille dans l'Église.",
+       "Ne pas promettre une vie sans difficulté."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Compare Luc 9:57-62 et Genèse 19:26. Pourquoi Jésus parle-t-il de ceux qui regardent en arrière ?",
+     "refs": [
+      "Luc 9:57-62",
+      "Genèse 19:26"
+     ],
+     "accompagnateur": {
+      "attendu": "Celui qui met la main à la charrue et regarde en arrière n'est pas propre au royaume de Dieu. La femme de Lot a regardé en arrière et est devenue une statue de sel.",
+      "expliquer": [
+       "Regarder en arrière : regretter l'ancienne vie, être tenté de retourner. Ce n'est pas un échec de sentir cela, mais il faut le dire à quelqu'un.",
+       "Rappeler Jean 6:66-68 : certains sont partis, Pierre a dit « À qui irions-nous ? »"
+      ],
+      "relance": "Y a-t-il une chose de ton passé qui t'attire encore ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Le secret pour tenir",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Jean 15:1-11. Qu'est-ce que le sarment peut faire sans la vigne ? Que doit faire le disciple ?",
+     "refs": [
+      "Jean 15:1-11"
+     ],
+     "accompagnateur": {
+      "attendu": "Rien : il faut demeurer en Jésus. Demeurer en lui, c'est garder ses commandements, rester dans son amour. Il porte alors beaucoup de fruit, et sa joie est complète.",
+      "expliquer": [
+       "Revoir en un mot les pas précédents : Parole, prière, rendez-vous, église. Ce sont les moyens de demeurer.",
+       "Le fruit vient du lien avec la vigne, pas des efforts du sarment."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Lis Hébreux 12:1-3 et Philippiens 3:12-14. Que doit faire celui qui court ?",
+     "refs": [
+      "Hébreux 12:1-3",
+      "Philippiens 3:12-14"
+     ],
+     "accompagnateur": {
+      "attendu": "Se débarrasser de tout fardeau et du péché qui l'enveloppe, courir avec persévérance, fixer les regards sur Jésus. Oublier ce qui est en arrière, se porter vers ce qui est en avant.",
+      "expliquer": [
+       "Image du coureur : léger, concentré, tourné vers le but."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Lis Galates 6:9, 1 Corinthiens 15:58 et Apocalypse 2:10. Quelle est la promesse pour celui qui persévère ?",
+     "refs": [
+      "Galates 6:9",
+      "1 Corinthiens 15:58",
+      "Apocalypse 2:10"
+     ],
+     "accompagnateur": {
+      "attendu": "On moissonnera, si on ne se lasse pas. Notre travail n'est pas vain. « Sois fidèle jusqu'à la mort, et je te donnerai la couronne de vie. »",
+      "expliquer": [
+       "Jésus tient ses promesses. La fin de la course est avec lui."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Faire le point : mon chemin",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "meditation",
+     "titre": "Mon chemin depuis le début",
+     "texte": [
+      "Reprends tes réponses des pas précédents : le salut, l'assurance, la tentation, Jésus Seigneur, l'Esprit, la Bible, la prière, le rendez-vous quotidien, l'église, le témoignage, le baptême, le foyer.",
+      "Qu'est-ce que Dieu a changé en toi ? Pour quoi veux-tu le remercier ? Quel est le prochain pas ? Que veux-tu approfondir ?"
+     ],
+     "champ": "Mon bilan avec Dieu",
+     "id": "bilan-volume-1"
+    },
+    {
+     "type": "question",
+     "id": "q9",
+     "texte": "Écris, avec tes mots, ce que Jésus a changé dans ta vie depuis le premier pas.",
+     "refs": [
+      "Jean 10:10"
+     ],
+     "accompagnateur": {
+      "attendu": "Un témoignage de croissance : un caractère changé, une paix, une habitude nouvelle, des relations restaurées.",
+      "expliquer": [
+       "Écouter avec joie. Féliciter. Noter aussi les domaines où le combat continue."
+      ],
+      "relance": "Quel est le plus grand changement ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q10",
+     "texte": "Quelles sont les trois habitudes que tu vas garder toute ta vie pour tenir ?",
+     "refs": [
+      "Actes 2:42"
+     ],
+     "accompagnateur": {
+      "attendu": "Par exemple : le rendez-vous quotidien, l'église et les frères, le service ou le témoignage.",
+      "expliquer": [
+       "Aider à choisir des habitudes réalistes."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q11",
+     "texte": "Écris Luc 9:23 de mémoire.",
+     "refs": [
+      "Luc 9:23"
+     ],
+     "accompagnateur": {
+      "attendu": "« Il dit à tous : Si quelqu'un veut venir après moi, qu'il renonce à lui-même, qu'il prenne chaque jour sa croix, et qu'il me suive. »",
+      "expliquer": [
+       "Faire réciter aussi Josué 24:15."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne le prix du disciple et choisisse de persévérer.",
+   "Faire le bilan du volume 1 : ce qui a changé, ce qui reste à travailler.",
+   "Célébrer, puis lui présenter le volume 2."
+  ],
+  "preparation": [
+   "Relire tes notes de tous les pas du volume 1.",
+   "Préparer un petit temps de remerciement et de prière pour célébrer la fin du volume 1.",
+   "Réfléchir à la suite : volume 2, un temps de repos, ou un service."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur le foyer (pas 12)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Un disciple suit son maître",
+    "minutes": 15,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Le prix à payer",
+    "minutes": 30,
+    "conseils": [
+     "Questions 3 à 5. Écouter ce que la personne a déjà perdu et ce qu'elle redoute."
+    ]
+   },
+   {
+    "titre": "Le secret pour tenir",
+    "minutes": 20,
+    "conseils": [
+     "Questions 6 à 8."
+    ]
+   },
+   {
+    "titre": "Mon chemin depuis le début",
+    "minutes": 25,
+    "conseils": [
+     "Questions 9 et 10. Reprendre ensemble les réponses de chaque pas."
+    ]
+   },
+   {
+    "titre": "Célébration, verset et prochaine étape",
+    "minutes": 15,
+    "conseils": [
+     "Réciter Luc 9:23, Josué 24:15 et les versets des pas précédents. Prier, remercier. Présenter le volume 2."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas minimiser le prix : être honnête sur les difficultés, avec espérance.",
+   "Si la personne traverse une crise (doute, chute, persécution), ne pas passer au volume 2 tout de suite : prendre le temps de la soutenir.",
+   "Célébrer vraiment la fin du volume 1 : un repas, un petit mot, une bénédiction."
+  ]
+ }
+}

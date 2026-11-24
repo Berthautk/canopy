@@ -1,0 +1,325 @@
+{
+ "id": "pas-10-temoigner",
+ "volume": 1,
+ "numero": 10,
+ "titre": "Le témoignage",
+ "sous_titre": "Raconter ce que Jésus a fait, sans honte et sans peur",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "affermissement-10-temoigner",
+ "verset_memoire": "1 Pierre 3:15",
+ "lecture": {
+  "titre": "Cette semaine, lis Marc 8 à 14, un chapitre par jour",
+  "conseil": "Note comment Jésus s'adresse aux personnes qu'il rencontre.",
+  "jours": [
+   "Marc 8",
+   "Marc 9",
+   "Marc 10",
+   "Marc 11",
+   "Marc 12",
+   "Marc 13",
+   "Marc 14"
+  ]
+ },
+ "introduction": [
+  "Jésus a dit : « Vous serez mes témoins. » Un témoin, c'est quelqu'un qui dit ce qu'il a vu et vécu. Tu n'as pas besoin d'être savant pour cela.",
+  "Cette semaine, tu vas préparer ton témoignage en trois temps, et décider avec qui tu vas le partager."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Seuls les pasteurs et les évangélistes sont appelés à témoigner.",
+       "reponse": false,
+       "explication": "Actes 1:8 : « Vous serez mes témoins. » Tout chrétien l'est, là où il vit."
+      },
+      {
+       "id": "vf2",
+       "texte": "Pour témoigner, il faut tout savoir sur la Bible.",
+       "reponse": false,
+       "explication": "L'aveugle guéri n'avait pas de théologie : « Je sais une chose : j'étais aveugle, et maintenant je vois » (Jean 9:25)."
+      },
+      {
+       "id": "vf3",
+       "texte": "Mon témoignage, ce sont d'abord mes paroles.",
+       "reponse": false,
+       "explication": "C'est aussi ma vie : « Que votre lumière luise devant les hommes » (Matthieu 5:16). Les deux vont ensemble."
+      },
+      {
+       "id": "vf4",
+       "texte": "Je dois forcer les gens à croire.",
+       "reponse": false,
+       "explication": "Je témoigne, et le Saint-Esprit convainc (Jean 16:8). Je respecte la liberté de chacun."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Tout chrétien est un témoin",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Actes 1:8 et Matthieu 28:19-20. Que demande Jésus ? Quelle promesse accompagne cet ordre ?",
+     "refs": [
+      "Actes 1:8",
+      "Matthieu 28:19-20"
+     ],
+     "accompagnateur": {
+      "attendu": "Être ses témoins à Jérusalem, en Judée, en Samarie et jusqu'aux extrémités de la terre ; faire des disciples. Il promet la puissance du Saint-Esprit et sa présence jusqu'à la fin du monde.",
+      "expliquer": [
+       "« Jérusalem » : ma famille et mon quartier. « Judée et Samarie » : mon village, ma région, ceux qui ne me ressemblent pas. « Extrémités » : les nations.",
+       "Lien avec le pas 5 : ce n'est pas par mes forces."
+      ],
+      "relance": "Où est ta « Jérusalem » ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "D'après 1 Pierre 3:15 et Marc 5:18-20, comment et à qui témoigner ?",
+     "refs": [
+      "1 Pierre 3:15",
+      "Marc 5:18-20"
+     ],
+     "accompagnateur": {
+      "attendu": "Être toujours prêt à rendre compte de son espérance, avec douceur et respect. Jésus dit à l'homme délivré : « Va dans ta maison, vers les tiens, et raconte-leur tout ce que le Seigneur t'a fait. »",
+      "expliquer": [
+       "On commence par ceux qui nous connaissent déjà : la famille, les voisins, les collègues.",
+       "Dans certains contextes (famille hostile), la sagesse demande de commencer par d'autres personnes et d'attendre le bon moment."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Mon témoignage : ma vie et mes paroles",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Jean 9:24-34. Que dit l'aveugle guéri ? Pourquoi son témoignage est-il fort ?",
+     "refs": [
+      "Jean 9:24-34"
+     ],
+     "accompagnateur": {
+      "attendu": "Il dit simplement ce qu'il a vécu : « Je sais une chose, j'étais aveugle, et maintenant je vois. » On ne peut pas le contredire, car c'est son expérience.",
+      "expliquer": [
+       "Un témoignage n'est pas un cours de théologie. C'est raconter ce que Jésus a fait pour moi."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "D'après Matthieu 5:14-16 et 1 Pierre 2:12, que doit voir le monde dans ma vie ?",
+     "refs": [
+      "Matthieu 5:14-16",
+      "1 Pierre 2:12"
+     ],
+     "accompagnateur": {
+      "attendu": "De bonnes œuvres, une bonne conduite, pour que les gens glorifient le Père. Une lumière qu'on ne cache pas.",
+      "expliquer": [
+       "En Afrique, on regarde d'abord la vie. Un chrétien qui ment, vole ou frappe sa femme détruit son témoignage."
+      ],
+      "relance": "Qu'est-ce que tes voisins voient de Jésus dans ta vie ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Préparer mon témoignage en trois temps",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "meditation",
+     "titre": "Les trois temps",
+     "texte": [
+      "1. Ma vie avant Jésus : qui j'étais, ce que je cherchais, ce qui me faisait peur ou honte.",
+      "2. Comment j'ai rencontré Jésus : ce qui s'est passé, les personnes, les paroles.",
+      "3. Ma vie depuis : ce qui a changé, ce que j'ai maintenant."
+     ],
+     "champ": "Je prépare mon témoignage (trois ou quatre phrases par temps)",
+     "id": "temoignage-3-temps"
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Écris ton témoignage en moins de trois minutes, avec les trois temps. Lis-le à voix haute.",
+     "refs": [
+      "Marc 5:19"
+     ],
+     "accompagnateur": {
+      "attendu": "Un récit simple, vrai, personnel, sans jargon religieux. Il dit ce que Jésus a fait, pas seulement ce qu'il était.",
+      "expliquer": [
+       "Aider à enlever les mots compliqués. Enlever aussi les attaques contre les autres religions ou les accusations contre la famille.",
+       "Si le passé est lourd (sexe, violence), rester sobre : « J'ai fait des choses mauvaises. »",
+       "Faire dire le témoignage à voix haute : c'est un exercice pour vaincre la peur."
+      ],
+      "relance": "Qui voudrais-tu qu'il écoute en premier ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Actes 26:1-23. Comment Paul raconte-t-il son témoignage devant le roi Agrippa ?",
+     "refs": [
+      "Actes 26:1-23"
+     ],
+     "accompagnateur": {
+      "attendu": "Il raconte sa vie avant (persécuteur), sa rencontre avec Jésus sur le chemin, sa vie depuis (obéissant, annonçant Christ). Les trois temps.",
+      "expliquer": [
+       "Paul adapte son témoignage au public, mais le fond reste le même.",
+       "Il ajoute à la fin une invitation : « Veux-tu croire ? »"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Vaincre la peur et la honte",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "D'après Romains 1:16, 2 Timothée 1:7-8 et Proverbes 29:25, comment vaincre la peur de témoigner ?",
+     "refs": [
+      "Romains 1:16",
+      "2 Timothée 1:7-8",
+      "Proverbes 29:25"
+     ],
+     "accompagnateur": {
+      "attendu": "Ne pas avoir honte de l'Évangile, qui est la puissance de Dieu pour le salut. Dieu nous a donné un esprit de force, d'amour et de sagesse. La crainte des hommes est un piège.",
+      "expliquer": [
+       "Nommer les peurs : être rejeté, moqué, ne pas savoir répondre, perdre un ami, être battu.",
+       "Rassurer : on n'a pas à convaincre, seulement à raconter. Le Saint-Esprit fait le reste."
+      ],
+      "relance": "De quoi as-tu le plus peur quand tu penses à témoigner ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Lis 2 Rois 7:3-9 (les quatre lépreux). Pourquoi se sont-ils décidés à parler ?",
+     "refs": [
+      "2 Rois 7:3-9"
+     ],
+     "accompagnateur": {
+      "attendu": "Ils ont trouvé le camp abandonné rempli de nourriture. Ils se sont dit : « Nous ne faisons pas bien. Ce jour est un jour de bonne nouvelle, et nous nous taisons. » Ils sont allés prévenir la ville affamée.",
+      "expliquer": [
+       "Quand on a trouvé le pain, on ne le garde pas pour soi. Notre ville est affamée."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q9",
+     "texte": "Écris les noms de cinq personnes pour lesquelles tu vas prier chaque jour afin qu'elles connaissent Jésus.",
+     "refs": [
+      "Colossiens 4:2-4"
+     ],
+     "accompagnateur": {
+      "attendu": "Cinq noms précis, de personnes que la personne peut approcher (famille, collègue, voisin, ami).",
+      "expliquer": [
+       "Prier d'abord pour elles, puis demander à Dieu une ouverture. Les relations d'abord, le message ensuite.",
+       "Pour un ancien musulman, choisir avec prudence et sagesse : certains ne sont pas encore prêts à entendre."
+      ],
+      "relance": "À qui vas-tu parler en premier cette semaine ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q10",
+     "texte": "Écris 1 Pierre 3:15 de mémoire.",
+     "refs": [
+      "1 Pierre 3:15"
+     ],
+     "accompagnateur": {
+      "attendu": "« Mais sanctifiez dans vos cœurs Christ le Seigneur. Soyez toujours prêts à vous défendre, avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous. »",
+      "expliquer": [
+       "Faire réciter aussi Hébreux 10:24-25."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne ait écrit et dit son témoignage, et nomme cinq personnes pour lesquelles prier.",
+   "Qu'elle ose parler de Jésus avec simplicité.",
+   "Prier pour sa hardiesse et sa sagesse."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 9.",
+   "Préparer ton propre témoignage en trois temps, pour le donner en exemple.",
+   "Prier pour la personne et pour ses cinq amis."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture de Marc 8 à 14. Retour sur le pas 9 : a-t-elle trouvé sa place dans l'église ?"
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Tout chrétien est un témoin",
+    "minutes": 20,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Ma vie et mes paroles",
+    "minutes": 20,
+    "conseils": [
+     "Questions 3 et 4."
+    ]
+   },
+   {
+    "titre": "Mon témoignage en trois temps",
+    "minutes": 35,
+    "conseils": [
+     "Questions 5 et 6. Écouter son témoignage en entier, sans l'interrompre, puis l'aider à le simplifier. Donner le tien en exemple."
+    ]
+   },
+   {
+    "titre": "Vaincre la peur",
+    "minutes": 20,
+    "conseils": [
+     "Questions 7 à 10. Prier pour la hardiesse."
+    ]
+   },
+   {
+    "titre": "Engagement et remise du pas 11",
+    "minutes": 20,
+    "conseils": [
+     "Réciter 1 Pierre 3:15. Prier pour les cinq noms. Remettre le pas 11 « Le baptême et le repas du Seigneur »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas pousser à témoigner trop vite si la personne est fragile ou menacée.",
+   "Pour un ancien musulman, rappeler que témoigner en public peut mettre sa vie en danger : choisir les personnes avec sagesse, avec l'aide de l'accompagnateur.",
+   "Attention à l'orgueil : le but est de rendre gloire à Jésus, pas de se mettre en avant."
+  ]
+ }
+}

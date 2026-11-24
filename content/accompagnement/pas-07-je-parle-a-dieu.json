@@ -1,0 +1,351 @@
+{
+ "id": "pas-07-je-parle-a-dieu",
+ "volume": 1,
+ "numero": 7,
+ "titre": "Je parle à Dieu : la prière",
+ "sous_titre": "Apprendre à prier : comment, pour quoi, et ce qui empêche",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "affermissement-7-je-parle-a-dieu",
+ "verset_memoire": "Philippiens 4:6-7",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes sur la prière, un par jour",
+  "conseil": "Après chaque lecture, prie à haute voix avec tes mots.",
+  "jours": [
+   "Luc 11:1-13",
+   "Matthieu 6:5-15",
+   "Psaume 51",
+   "Néhémie 1",
+   "1 Samuel 1",
+   "Philippiens 4:4-9",
+   "Luc 18:1-14"
+  ]
+ },
+ "introduction": [
+  "La prière est le souffle de la vie chrétienne : elle nous met en relation avec notre Père. On peut tout apprendre sur la prière et ne pas prier ; c'est en priant qu'on apprend à prier.",
+  "Cette semaine, tu vas apprendre à prier comme Jésus l'a enseigné, découvrir plusieurs formes de prière, comprendre ce qui peut empêcher la prière, et accueillir les réponses de Dieu."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Dieu n'écoute que les prières faites en bon français ou dans une langue religieuse.",
+       "reponse": false,
+       "explication": "Dieu écoute le cœur. Jésus dit : « Quand vous priez, ne multipliez pas de vaines paroles » (Matthieu 6:7). On peut prier dans sa propre langue."
+      },
+      {
+       "id": "vf2",
+       "texte": "La prière sert à changer la volonté de Dieu.",
+       "reponse": false,
+       "explication": "La prière nous met en accord avec sa volonté (1 Jean 5:14). Dieu nous invite à demander, mais il reste sage."
+      },
+      {
+       "id": "vf3",
+       "texte": "Dieu répond parfois « non » ou « attends ».",
+       "reponse": true,
+       "explication": "Paul a demandé trois fois d'être délivré de l'écharde : Dieu a répondu « ma grâce te suffit » (2 Corinthiens 12:7-9)."
+      },
+      {
+       "id": "vf4",
+       "texte": "Un péché caché peut empêcher mes prières.",
+       "reponse": true,
+       "explication": "Psaume 66:18 : « Si j'avais conservé l'iniquité dans mon cœur, le Seigneur ne m'aurait pas écouté. »"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Prier : parler à notre Père",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Matthieu 6:5-8. Comment Jésus veut-il que nous priions ? Comment ne faut-il pas prier ?",
+     "refs": [
+      "Matthieu 6:5-8"
+     ],
+     "accompagnateur": {
+      "attendu": "Dans le secret, en fermant la porte, sans chercher à être vu. Sans multiplier les vaines paroles : le Père sait ce dont on a besoin avant qu'on le lui demande.",
+      "expliquer": [
+       "Prier en public a sa place (réunions, prière commune), mais la prière secrète est la base.",
+       "La famille africaine est souvent très proche : on peut chercher un coin tranquille, un moment avant que la maison s'éveille, ou marcher dehors."
+      ],
+      "relance": "Où et quand pourrais-tu prier seul chaque jour ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "D'après Romains 8:15 et Matthieu 6:9, comment Jésus nous apprend-il à appeler Dieu ?",
+     "refs": [
+      "Romains 8:15",
+      "Matthieu 6:9"
+     ],
+     "accompagnateur": {
+      "attendu": "« Abba, Père » : « Notre Père qui es aux cieux ». Nous sommes ses enfants.",
+      "expliquer": [
+       "Pour un ancien musulman : appeler Dieu « Père » est une vraie révolution. Prendre le temps.",
+       "Pour celui dont le père terrestre a été absent ou violent : écouter sa blessure."
+      ],
+      "relance": "Quel mot te vient quand tu penses à Dieu : maître, juge, ou Père ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Comment prier",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Matthieu 6:9-13. Quelles sont les parties du « Notre Père » ?",
+     "refs": [
+      "Matthieu 6:9-13"
+     ],
+     "accompagnateur": {
+      "attendu": "Adoration (que ton nom soit sanctifié), royaume et volonté (que ton règne vienne), besoins (le pain de ce jour), pardon (pardonne-nous comme nous pardonnons), protection (ne nous induis pas en tentation, délivre-nous du malin).",
+      "expliquer": [
+       "C'est un modèle, pas seulement des mots à répéter. On peut le prier lentement, phrase par phrase, en disant avec ses mots ce que chaque phrase veut dire."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "D'après Jean 14:13-14 et 1 Jean 5:14-15, comment prier ?",
+     "refs": [
+      "Jean 14:13-14",
+      "1 Jean 5:14-15"
+     ],
+     "accompagnateur": {
+      "attendu": "Au nom de Jésus, c'est-à-dire en venant par lui et selon son caractère. Selon sa volonté. Avec assurance qu'il nous écoute.",
+      "expliquer": [
+       "« Au nom de Jésus » n'est pas une formule magique : c'est reconnaître que nous venons grâce à lui."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Marc 11:22-25. Quelle condition Jésus met-il avant de prier ?",
+     "refs": [
+      "Marc 11:22-25"
+     ],
+     "accompagnateur": {
+      "attendu": "Avoir la foi en Dieu, et pardonner à ceux contre qui on a quelque chose.",
+      "expliquer": [
+       "Le manque de pardon est l'un des plus grands obstacles à la prière.",
+       "Si la personne a un conflit non réglé, le nommer et le remettre à Dieu."
+      ],
+      "relance": "Y a-t-il quelqu'un à qui tu dois pardonner avant de prier ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Les formes de prière",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Fais l'exercice ACAD avec Psaume 100, Psaume 51, Psaume 136 et Philippiens 4:6. Quelles formes de prière trouves-tu ?",
+     "refs": [
+      "Psaume 100",
+      "Psaume 51",
+      "Psaume 136",
+      "Philippiens 4:6"
+     ],
+     "accompagnateur": {
+      "attendu": "Adoration (louer Dieu pour ce qu'il est), Confession (reconnaître ses péchés), Action de grâce (remercier pour ce qu'il a fait), Demande (pour soi et pour les autres, l'intercession).",
+      "expliquer": [
+       "Souvent on commence directement par les demandes. Commencer par l'adoration change le cœur.",
+       "L'intercession : prier pour les autres. Jésus lui-même intercède pour nous (Romains 8:34)."
+      ],
+      "relance": "Quelle forme de prière te manque le plus ?"
+     }
+    },
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Ma prière ACAD",
+     "texte": [
+      "Adoration : je loue Dieu pour…",
+      "Confession : je reconnais devant Dieu…",
+      "Action de grâce : je remercie Dieu pour…",
+      "Demande : je demande à Dieu pour moi… et pour les autres…"
+     ],
+     "champ": "Ma prière du jour",
+     "id": "prière-acad"
+    }
+   ]
+  },
+  {
+   "titre": "IV. Ce qui empêche la prière",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Lis Psaume 66:18, Jacques 4:3 et 1 Pierre 3:7. Qu'est-ce qui peut empêcher les prières ?",
+     "refs": [
+      "Psaume 66:18",
+      "Jacques 4:3",
+      "1 Pierre 3:7"
+     ],
+     "accompagnateur": {
+      "attendu": "Le péché gardé dans le cœur. Les mauvaises motivations (demander pour satisfaire ses plaisirs). Le manque de respect envers son épouse.",
+      "expliquer": [
+       "Ajouter : le doute (Jacques 1:6-7), le manque de pardon (Marc 11:25), le manque de persévérance.",
+       "Aider la personne à voir ce qui la concerne, sans accuser."
+      ],
+      "relance": "Qu'est-ce qui, chez toi, peut parfois refroidir ta prière ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Lis Luc 18:1-8 et Luc 11:5-10. Que nous apprennent ces deux paraboles ?",
+     "refs": [
+      "Luc 18:1-8",
+      "Luc 11:5-10"
+     ],
+     "accompagnateur": {
+      "attendu": "Il faut toujours prier, sans se lasser. Dieu est bien meilleur que le juge injuste et que l'ami endormi.",
+      "expliquer": [
+       "Persévérer ne veut pas dire harceler Dieu : c'est rester fidèle dans la confiance."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "V. Comment Dieu répond",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q9",
+     "texte": "D'après 2 Corinthiens 12:7-9 et Matthieu 7:7-11, quelles réponses Dieu peut-il donner ?",
+     "refs": [
+      "2 Corinthiens 12:7-9",
+      "Matthieu 7:7-11"
+     ],
+     "accompagnateur": {
+      "attendu": "Oui, non, ou attends. Il donne ce qui est bon, souvent mieux que ce qu'on demandait. Sa grâce suffit.",
+      "expliquer": [
+       "Un parent qui aime ne donne pas tout ce que l'enfant réclame. Dieu non plus.",
+       "Aider à tenir un petit carnet : « ce que j'ai demandé » et « comment Dieu a répondu »."
+      ],
+      "relance": "Peux-tu raconter une prière que Dieu a exaucée récemment ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q10",
+     "texte": "Lis Philippiens 4:6-7. Que promet Dieu à celui qui prie au lieu de s'inquiéter ?",
+     "refs": [
+      "Philippiens 4:6-7"
+     ],
+     "accompagnateur": {
+      "attendu": "La paix de Dieu, qui surpasse toute intelligence, gardera son cœur et ses pensées en Jésus-Christ.",
+      "expliquer": [
+       "La première réponse de Dieu est souvent la paix, avant même que la situation change."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q11",
+     "texte": "Écris Philippiens 4:6-7 de mémoire.",
+     "refs": [
+      "Philippiens 4:6-7"
+     ],
+     "accompagnateur": {
+      "attendu": "« Ne vous inquiétez de rien ; mais en toute chose faites connaître vos besoins à Dieu par des prières et des supplications, avec des actions de grâces. Et la paix de Dieu, qui surpasse toute intelligence, gardera vos cœurs et vos pensées en Jésus-Christ. »",
+      "expliquer": [
+       "Faire réciter 2 Timothée 3:16-17."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne apprenne à parler à Dieu comme à un Père, avec ses mots.",
+   "Qu'elle connaisse les formes de prière et identifie ce qui freine la sienne.",
+   "Prier avec elle à voix haute, pour qu'elle ose."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 6.",
+   "Revoir les formes de prière (ACAD), et un exemple personnel de prière exaucée.",
+   "Prier toi-même chaque jour pour la personne avant la rencontre."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture : quelle prière l'a touchée ?",
+     "Retour sur la lecture de la Bible (pas 6) : a-t-elle tenu ?"
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Prier : parler à notre Père",
+    "minutes": 20,
+    "conseils": [
+     "Questions 1 et 2. Écouter la relation au père terrestre."
+    ]
+   },
+   {
+    "titre": "Comment prier",
+    "minutes": 25,
+    "conseils": [
+     "Questions 3 à 5. Faire prier le Notre Père lentement."
+    ]
+   },
+   {
+    "titre": "Les formes de prière",
+    "minutes": 25,
+    "conseils": [
+     "Question 6 et tableau ACAD : prier ensemble en suivant les quatre temps."
+    ]
+   },
+   {
+    "titre": "Ce qui empêche la prière",
+    "minutes": 20,
+    "conseils": [
+     "Questions 7 et 8. Pardon et péché non confessé."
+    ]
+   },
+   {
+    "titre": "Réponses de Dieu, verset et remise du pas 8",
+    "minutes": 20,
+    "conseils": [
+     "Questions 9 à 11. Réciter Philippiens 4:6-7. Remettre le pas 8 « Mon rendez-vous quotidien avec Dieu »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas se limiter à parler de la prière : prier réellement ensemble, à voix haute.",
+   "Une personne qui a honte de prier à voix haute : commencer par des phrases courtes et simples.",
+   "Rester attentif à ceux qui reçoivent des « réponses » étranges : si une voix dit des choses contraires à la Bible, retourner à la Parole (pas 5)."
+  ]
+ }
+}
