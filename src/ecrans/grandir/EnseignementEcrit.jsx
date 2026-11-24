@@ -167,7 +167,7 @@ export function Questions({ e }) {
 function Ressources({ items }) {
   return (
     <section class="carte bloc prieres-liees">
-      <h3><span class="ligne__icone"><Icone nom="note" /></span> Les outils pour le suivi</h3>
+      <h3><span class="ligne__icone"><Icone nom="note" /></span> Pour aller plus loin</h3>
       <p class="ligne__desc">Tout ce qu'il te faut est déjà dans l'application :</p>
       <div class="liste">
         {items.map((it) => (
