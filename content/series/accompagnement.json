@@ -89,63 +89,78 @@
    "pas": [
     {
      "numero": 1,
-     "titre": "Connaître Dieu"
+     "titre": "Connaître Dieu",
+     "id": "v2-pas-01-connaitre-dieu"
     },
     {
      "numero": 2,
-     "titre": "Christ, mon modèle"
+     "titre": "Christ, mon modèle",
+     "id": "v2-pas-02-jesus-mon-modele"
     },
     {
      "numero": 3,
-     "titre": "Appelé pour servir"
+     "titre": "Appelé pour servir",
+     "id": "v2-pas-03-appele-a-servir"
     },
     {
      "numero": 4,
-     "titre": "Qui suis-je en Christ ?"
+     "titre": "Qui suis-je en Christ ?",
+     "id": "v2-pas-04-qui-je-suis-en-christ"
     },
     {
      "numero": 5,
-     "titre": "Le combat spirituel"
+     "titre": "Le combat spirituel",
+     "id": "v2-pas-05-le-combat-spirituel"
     },
     {
      "numero": 6,
-     "titre": "Les armes de Dieu"
+     "titre": "Les armes de Dieu",
+     "id": "v2-pas-06-les-armes-de-dieu"
     },
     {
      "numero": 7,
-     "titre": "Pardonner pour être libre"
+     "titre": "Pardonner pour être libre",
+     "id": "v2-pas-07-pardonner"
     },
     {
      "numero": 8,
-     "titre": "Demander pardon et réparer"
+     "titre": "Demander pardon et réparer",
+     "id": "v2-pas-08-demander-pardon-reparer"
     },
     {
      "numero": 9,
-     "titre": "Appelé à être saint"
+     "titre": "Appelé à être saint",
+     "id": "v2-pas-09-appele-a-etre-saint"
     },
     {
      "numero": 10,
-     "titre": "Le chrétien et son argent"
+     "titre": "Le chrétien et son argent",
+     "id": "v2-pas-10-chretien-et-argent"
     },
     {
      "numero": 11,
-     "titre": "Permis, mais est-ce utile ?"
+     "titre": "Permis, mais est-ce utile ?",
+     "id": "v2-pas-11-permis-mais-utile"
     },
     {
      "numero": 12,
-     "titre": "Le discernement"
+     "titre": "Le discernement",
+     "id": "v2-pas-12-discernement"
     },
     {
      "numero": 13,
-     "titre": "Parler de Christ"
+     "titre": "Parler de Christ",
+     "id": "v2-pas-13-parler-de-christ"
     },
     {
      "numero": 14,
-     "titre": "L'avenir"
+     "titre": "L'avenir",
+     "id": "v2-pas-14-l-avenir"
     },
     {
      "numero": 15,
-     "titre": "Le retour de Jésus et l'éternité"
+     "titre": "Le retour de Jésus et l'éternité",
+     "id": "v2-pas-15-retour-et-eternite"
     }
    ]
   },

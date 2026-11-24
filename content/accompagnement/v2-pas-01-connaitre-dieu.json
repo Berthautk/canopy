@@ -1,0 +1,293 @@
+{
+ "id": "v2-pas-01-connaitre-dieu",
+ "volume": 2,
+ "numero": 1,
+ "titre": "Connaître Dieu",
+ "sous_titre": "Qui est Dieu, comment il s'est révélé, comment grandir dans sa connaissance",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v2-01-connaitre-dieu",
+ "verset_memoire": "Jérémie 9:23-24",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour une chose que tu découvres sur Dieu.",
+  "jours": [
+   "Psaume 103",
+   "Ésaïe 6",
+   "Ésaïe 40",
+   "Psaume 139",
+   "Exode 34:1-9",
+   "Job 38",
+   "Jean 17"
+  ]
+ },
+ "introduction": [
+  "Tu as terminé le volume 1 : tu connais les bases de la vie chrétienne. Dans le volume 2, tu vas approfondir ta foi.",
+  "Cette semaine, tu vas regarder Dieu lui-même : qui il est, ce qu'il aime, et comment connaître sa personne."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Connaître Dieu, c'est savoir des choses sur lui.",
+       "reponse": false,
+       "explication": "Jésus dit : « La vie éternelle, c'est qu'ils te connaissent, toi le seul vrai Dieu » (Jean 17:3). Connaître, c'est être en relation."
+      },
+      {
+       "id": "vf2",
+       "texte": "Dieu est trop grand pour qu'on puisse le connaître.",
+       "reponse": false,
+       "explication": "Il s'est révélé par la création, par sa Parole et par Jésus (Psaume 19:2 ; Hébreux 1:1-2)."
+      },
+      {
+       "id": "vf3",
+       "texte": "Dieu est amour, donc il ne juge pas le péché.",
+       "reponse": false,
+       "explication": "Dieu est amour ET saint et juste (1 Jean 4:8 ; Ésaïe 6:3). Les deux ensemble se rencontrent à la croix."
+      },
+      {
+       "id": "vf4",
+       "texte": "Plus je connais Dieu, plus je lui fais confiance.",
+       "reponse": true,
+       "explication": "Psaume 9:11 : « Ceux qui connaissent ton nom se confient en toi. »"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Dieu se fait connaître",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Psaume 19:2-5 et Romains 1:19-20. Que montre la création ? Qu'est-ce que cela ne suffit pas à faire connaître ?",
+     "refs": [
+      "Psaume 19:2-5",
+      "Romains 1:19-20"
+     ],
+     "accompagnateur": {
+      "attendu": "Les cieux racontent la gloire de Dieu ; sa puissance et sa divinité se voient dans les choses créées. Mais la création ne dit pas comment être pardonné ni qui est Jésus.",
+      "expliquer": [
+       "La création dit « il y a un Dieu ». La Bible dit « voici qui il est et ce qu'il veut »."
+      ],
+      "relance": "Quand as-tu senti la grandeur de Dieu pour la première fois ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Hébreux 1:1-3 et Jean 14:8-9. Comment Dieu s'est-il révélé de la manière la plus claire ?",
+     "refs": [
+      "Hébreux 1:1-3",
+      "Jean 14:8-9"
+     ],
+     "accompagnateur": {
+      "attendu": "En son Fils : « Celui qui m'a vu a vu le Père. » Jésus est l'empreinte de la personne de Dieu.",
+      "expliquer": [
+       "Pour connaître Dieu, il faut regarder Jésus : sa bonté, sa vérité, son autorité, sa compassion."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Qui est Dieu ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Ésaïe 6:1-8. Qu'est-ce qu'Isaïe voit de Dieu ? Comment réagit-il ?",
+     "refs": [
+      "Ésaïe 6:1-8"
+     ],
+     "accompagnateur": {
+      "attendu": "Le Seigneur sur un trône élevé, les séraphins crient « Saint, saint, saint ». Isaïe se sent perdu, homme aux lèvres impures. Un charbon ardent le purifie et il répond : « Me voici, envoie-moi. »",
+      "expliquer": [
+       "La sainteté de Dieu fait voir notre péché. Le pardon nous remet debout pour servir."
+      ],
+      "relance": "Qu'est-ce qui te frappe le plus dans cette scène ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Exode 34:5-7. Comment Dieu se décrit-il à Moïse ?",
+     "refs": [
+      "Exode 34:5-7"
+     ],
+     "accompagnateur": {
+      "attendu": "Miséricordieux, compatissant, lent à la colère, riche en bonté et en fidélité, pardonnant la faute, mais ne tenant pas le coupable pour innocent.",
+      "expliquer": [
+       "Il tient ensemble la bonté et la justice. Ne pas retenir seulement un aspect."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Psaume 139:1-12 et Ésaïe 40:12-14, 28. Que montrent ces textes sur la connaissance et la puissance de Dieu ?",
+     "refs": [
+      "Psaume 139:1-12",
+      "Ésaïe 40:12-14",
+      "Ésaïe 40:28"
+     ],
+     "accompagnateur": {
+      "attendu": "Il connaît tout de moi, il est partout. Il a créé et mesure l'univers. Il ne se fatigue pas.",
+      "expliquer": [
+       "Son omniprésence rassure ou fait peur : on ne peut pas se cacher, mais on n'est jamais seul."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Matthieu 6:9 et Romains 8:15. Comment Dieu veut-il être appelé par ses enfants ?",
+     "refs": [
+      "Matthieu 6:9",
+      "Romains 8:15"
+     ],
+     "accompagnateur": {
+      "attendu": "« Notre Père », « Abba, Père ». Il est Père en même temps que Roi et Juge.",
+      "expliquer": [
+       "Revenir sur la blessure du père terrestre, si elle existe (voir le pas 7 du volume 1)."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Une relation qui grandit",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Lis Jérémie 9:23-24 et Philippiens 3:8-10. Qu'est-ce qui compte vraiment ?",
+     "refs": [
+      "Jérémie 9:23-24",
+      "Philippiens 3:8-10"
+     ],
+     "accompagnateur": {
+      "attendu": "Se glorifier de connaître Dieu, non de sa sagesse, de sa force ou de sa richesse. Paul a tout regardé comme une perte à cause de l'excellence de la connaissance de Christ.",
+      "expliquer": [
+       "Dans notre culture, on se glorifie souvent de son nom, de sa famille, de son argent. Dieu invite à se glorifier de le connaître."
+      ],
+      "relance": "De quoi te glorifies-tu le plus ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Lis Psaume 9:11, Daniel 11:32 et Jean 10:14-15. Quel fruit produit la connaissance de Dieu ?",
+     "refs": [
+      "Psaume 9:11",
+      "Daniel 11:32",
+      "Jean 10:14-15"
+     ],
+     "accompagnateur": {
+      "attendu": "La confiance, la force pour agir, l'intimité comme celle du berger et de ses brebis.",
+      "expliquer": [
+       "Connaître Dieu apporte la paix dans les épreuves."
+      ]
+     }
+    },
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Ce que je sais de Dieu",
+     "texte": [
+      "1. Trois mots qui décrivent Dieu pour moi aujourd'hui :",
+      "2. Une chose que j'ai découverte de lui pendant ces pas :",
+      "3. Une question que je voudrais lui poser :",
+      "4. Ce que je veux faire cette semaine pour mieux le connaître :"
+     ],
+     "champ": "Ce que je sais de Dieu",
+     "id": "connaitre-dieu"
+    },
+    {
+     "type": "question",
+     "id": "q9",
+     "texte": "Écris Jérémie 9:23-24 de mémoire.",
+     "refs": [
+      "Jérémie 9:23-24"
+     ],
+     "accompagnateur": {
+      "attendu": "« Que le sage ne se glorifie pas de sa sagesse, que le fort ne se glorifie pas de sa force, que le riche ne se glorifie pas de sa richesse. Mais que celui qui veut se glorifier se glorifie de ceci : d'avoir de l'intelligence et de me connaître. »",
+      "expliquer": [
+       "Réviser aussi les versets du volume 1."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne connaisse Dieu comme saint, juste, aimant et Père.",
+   "Qu'elle grandisse en confiance envers lui.",
+   "Introduire le volume 2 : pourquoi le faire et à quel rythme."
+  ],
+  "preparation": [
+   "Relire tes notes de fin de volume 1 et le bilan du pas 13.",
+   "Revoir les attributs de Dieu et préparer un exemple personnel.",
+   "Choisir avec la personne le rythme du volume 2 (une rencontre toutes les deux semaines, par exemple)."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 20,
+    "conseils": [
+     "Retour sur la fin du volume 1. Lecture de la semaine. Fixer le rythme du volume 2."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Dieu se fait connaître",
+    "minutes": 20,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Qui est Dieu ?",
+    "minutes": 35,
+    "conseils": [
+     "Questions 3 à 6. Parler franchement de sa sainteté et de son amour."
+    ]
+   },
+   {
+    "titre": "Une relation qui grandit",
+    "minutes": 25,
+    "conseils": [
+     "Questions 7 à 9 et le tableau."
+    ]
+   },
+   {
+    "titre": "Verset et remise du pas 2",
+    "minutes": 10,
+    "conseils": [
+     "Réciter Jérémie 9:23-24. Prier. Remettre le pas 2 « Christ, mon modèle »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Une personne qui a peur de Dieu (juge sévère) a besoin de voir d'abord le Père. Une personne qui le prend à la légère a besoin de voir sa sainteté.",
+   "Pour un ancien musulman : insister sur l'amour du Père et la relation, sans minimiser la sainteté.",
+   "Ne pas surcharger : le volume 2 demande plus de lecture que le volume 1. Adapter au temps de la personne."
+  ]
+ }
+}

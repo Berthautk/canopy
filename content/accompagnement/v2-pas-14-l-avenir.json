@@ -1,0 +1,277 @@
+{
+ "id": "v2-pas-14-l-avenir",
+ "volume": 2,
+ "numero": 14,
+ "titre": "L'avenir",
+ "sous_titre": "Dieu tient l'avenir : ce que la Bible annonce, et comment vivre",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v2-13-l-avenir",
+ "verset_memoire": "Jean 14:1-3",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que le texte dit de l'avenir.",
+  "jours": [
+   "Matthieu 24",
+   "Matthieu 25",
+   "Daniel 2",
+   "Jean 14",
+   "1 Thessaloniciens 4",
+   "1 Thessaloniciens 5",
+   "2 Pierre 3"
+  ]
+ },
+ "introduction": [
+  "Beaucoup de gens ont peur de l'avenir ou cherchent à le connaître par des marabouts et des voyants. Dieu a révélé l'essentiel.",
+  "Cette semaine, tu vas regarder ce que la Bible dit de l'avenir et comment attendre avec espérance."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Personne ne peut rien savoir de l'avenir, même à partir de la Bible.",
+       "reponse": false,
+       "explication": "Dieu a révélé l'essentiel : Jésus reviendra, il y aura un jugement, une nouvelle création (Matthieu 24-25 ; Apocalypse 21)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Je dois calculer la date du retour de Jésus.",
+       "reponse": false,
+       "explication": "« Quant à ce jour-là et à l'heure, personne ne le sait » (Matthieu 24:36)."
+      },
+      {
+       "id": "vf3",
+       "texte": "L'espérance chrétienne m'aide à tenir dans les difficultés.",
+       "reponse": true,
+       "explication": "1 Thessaloniciens 4:13-18 ; Romains 8:18."
+      },
+      {
+       "id": "vf4",
+       "texte": "Le chrétien doit avoir peur de l'avenir.",
+       "reponse": false,
+       "explication": "« Ne crains point, car je suis avec toi » (Ésaïe 41:10). Jésus tient l'avenir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Dieu tient l'avenir",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Ésaïe 46:9-10 et Jérémie 29:11. Que dit Dieu de l'avenir ?",
+     "refs": [
+      "Ésaïe 46:9-10",
+      "Jérémie 29:11"
+     ],
+     "accompagnateur": {
+      "attendu": "Dieu annonce dès le commencement ce qui sera. Il a des projets de paix, pour donner un avenir plein d'espérance.",
+      "expliquer": [
+       "L'avenir n'est pas le hasard ni le destin aveugle : Dieu est Roi."
+      ],
+      "relance": "Quelle est ta plus grande peur de l'avenir ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Daniel 2:20-22 et Psaume 31:16. Qui détient le temps et les événements ?",
+     "refs": [
+      "Daniel 2:20-22",
+      "Psaume 31:16"
+     ],
+     "accompagnateur": {
+      "attendu": "Dieu change les temps et les circonstances, il renverse les rois et en établit. Mes temps sont dans sa main.",
+      "expliquer": [
+       "Confier ses projets (études, mariage, travail, voyage) à Dieu."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Ce que la Bible annonce",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Matthieu 24:3-14 et 2 Timothée 3:1-5. Quels signes de la fin sont annoncés ? Comment y réagir ?",
+     "refs": [
+      "Matthieu 24:3-14",
+      "2 Timothée 3:1-5"
+     ],
+     "accompagnateur": {
+      "attendu": "Séductions, guerres, famines, tremblements de terre, persécutions, amour qui se refroidit. L'Évangile du royaume prêché dans le monde entier. Tenir ferme jusqu'à la fin.",
+      "expliquer": [
+       "Ne pas céder à la peur ni à la curiosité : veiller, tenir, annoncer."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Matthieu 24:36-44 et 25:1-13. Comment se préparer ?",
+     "refs": [
+      "Matthieu 24:36-44",
+      "Matthieu 25:1-13"
+     ],
+     "accompagnateur": {
+      "attendu": "Veiller, être prêt, car on ne connaît ni le jour ni l'heure. Les vierges sages avaient de l'huile en réserve.",
+      "expliquer": [
+       "Être prêt veut dire vivre dans la sainteté, la prière et le service."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Jean 14:1-3 et Hébreux 9:27-28. Que promet Jésus à ses disciples ? Que se passe-t-il après la mort ?",
+     "refs": [
+      "Jean 14:1-3",
+      "Hébreux 9:27-28"
+     ],
+     "accompagnateur": {
+      "attendu": "Il prépare une place et reviendra nous prendre avec lui. Chaque homme meurt une fois, puis vient le jugement ; Christ reviendra pour ceux qui l'attendent.",
+      "expliquer": [
+       "Pour ceux qui ont peur de la mort ou qui ont perdu un proche : la parole est un grand réconfort."
+      ],
+      "relance": "Qu'est-ce que cette promesse change pour toi ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Vivre dans l'espérance",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis 1 Thessaloniciens 4:13-18 et 1 Corinthiens 15:51-58. Qu'est-ce qui se passera au retour du Seigneur ?",
+     "refs": [
+      "1 Thessaloniciens 4:13-18",
+      "1 Corinthiens 15:51-58"
+     ],
+     "accompagnateur": {
+      "attendu": "Les morts en Christ ressusciteront, les vivants seront transformés, et tous seront enlevés à la rencontre du Seigneur. La mort est engloutie dans la victoire.",
+      "expliquer": [
+       "Réconfort pour les deuils. Ne pas se perdre dans les discussions sur l'ordre exact des événements."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Lis 2 Pierre 3:10-14 et Tite 2:11-14. Comment vivre en attendant ?",
+     "refs": [
+      "2 Pierre 3:10-14",
+      "Tite 2:11-14"
+     ],
+     "accompagnateur": {
+      "attendu": "Dans la sainteté et la piété, attendant la bienheureuse espérance. Le chrétien se purifie, reste zélé pour les bonnes œuvres.",
+      "expliquer": [
+       "L'espérance ne rend pas passif, elle transforme la vie."
+      ]
+     }
+    },
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Ma façon de vivre en attendant",
+     "texte": [
+      "1. Ce que je veux faire si Jésus revenait demain :",
+      "2. Une chose à régler tout de suite :",
+      "3. Une personne à prévenir de son retour :",
+      "4. Ce que je confie à Dieu pour l'avenir :"
+     ],
+     "champ": "Ma préparation",
+     "id": "preparation-avenir"
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Écris Jean 14:1-3 de mémoire.",
+     "refs": [
+      "Jean 14:1-3"
+     ],
+     "accompagnateur": {
+      "attendu": "« Que votre cœur ne se trouble point. Croyez en Dieu, croyez aussi en moi. Il y a plusieurs demeures dans la maison de mon Père. Si cela n'était pas, je vous l'aurais dit. Je vais vous préparer une place. Et, lorsque je m'en serai allé, et que je vous aurai préparé une place, je reviendrai, et je vous prendrai avec moi, afin que là où je suis vous y soyez aussi. »",
+      "expliquer": [
+       "Réviser Actes 1:8."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne ait confiance en Dieu pour l'avenir, sans peur.",
+   "Qu'elle comprenne l'essentiel : retour de Jésus, résurrection, jugement.",
+   "Rester simple, sans spéculations."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 13.",
+   "Préparer des réponses aux questions du genre « Quand ? » et « Comment ? ».",
+   "Penser aux peurs de la personne (mort, maladie, pauvreté, sorcellerie)."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur ses cinq noms (pas 13)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Dieu tient l'avenir",
+    "minutes": 20,
+    "conseils": [
+     "Questions 1 et 2. Écouter ses peurs."
+    ]
+   },
+   {
+    "titre": "Ce que la Bible annonce",
+    "minutes": 35,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Vivre dans l'espérance",
+    "minutes": 30,
+    "conseils": [
+     "Questions 6 à 8 et tableau."
+    ]
+   },
+   {
+    "titre": "Verset et remise du pas 15",
+    "minutes": 10,
+    "conseils": [
+     "Réciter Jean 14:1-3. Remettre le pas 15 « Le retour de Jésus et l'éternité »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Éviter les calculs de dates et les débats sur l'ordre des événements : se concentrer sur l'essentiel.",
+   "Si la personne consulte encore des voyants ou des marabouts, en parler avec amour et revenir au pas 5.",
+   "Écouter avec compassion ceux qui ont perdu un proche."
+  ]
+ }
+}

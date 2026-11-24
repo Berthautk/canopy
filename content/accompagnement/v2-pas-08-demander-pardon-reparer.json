@@ -1,0 +1,260 @@
+{
+ "id": "v2-pas-08-demander-pardon-reparer",
+ "volume": 2,
+ "numero": 8,
+ "titre": "Demander pardon et réparer",
+ "sous_titre": "Se réconcilier et réparer le mal que j'ai fait",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v2-07-le-pardon",
+ "verset_memoire": "Matthieu 5:23-24",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour une personne à qui tu dois peut-être demander pardon.",
+  "jours": [
+   "Luc 19:1-10",
+   "Luc 15:11-32",
+   "Psaume 51",
+   "Matthieu 5:21-26",
+   "Exode 22:1-15",
+   "2 Corinthiens 7",
+   "Philémon"
+  ]
+ },
+ "introduction": [
+  "Après avoir pardonné aux autres, il faut aussi regarder le mal que tu as fait.",
+  "Cette semaine, tu vas dresser la liste des personnes à qui tu dois demander pardon et décider de réparer ce qui peut l'être."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Il suffit de demander pardon à Dieu, pas aux gens que j'ai blessés.",
+       "reponse": false,
+       "explication": "Matthieu 5:23-24 : se réconcilier d'abord avec son frère."
+      },
+      {
+       "id": "vf2",
+       "texte": "Réparer, c'est rendre ce que j'ai pris ou abîmé.",
+       "reponse": true,
+       "explication": "Zachée a rendu quatre fois (Luc 19:8)."
+      },
+      {
+       "id": "vf3",
+       "texte": "Demander pardon, c'est se justifier et expliquer pourquoi j'ai mal agi.",
+       "reponse": false,
+       "explication": "Demander pardon reconnaît sa faute, sans excuses ni accusations."
+      },
+      {
+       "id": "vf4",
+       "texte": "Si l'autre refuse de me pardonner, j'ai échoué.",
+       "reponse": false,
+       "explication": "Je fais ma part : « S'il est possible, autant que cela dépend de vous, soyez en paix avec tous » (Romains 12:18)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Le besoin de réconciliation",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Matthieu 5:23-24 et Proverbes 28:13. Que doit-on faire avant d'offrir à Dieu ? Que promet Dieu à celui qui avoue ?",
+     "refs": [
+      "Matthieu 5:23-24",
+      "Proverbes 28:13"
+     ],
+     "accompagnateur": {
+      "attendu": "Aller se réconcilier avec son frère, puis offrir. Celui qui avoue et délaisse ses péchés obtient miséricorde.",
+      "expliquer": [
+       "Un culte avec un cœur qui garde une rancune ou une faute non réglée est vain."
+      ],
+      "relance": "À qui dois-tu demander pardon ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Luc 19:1-10. Que fait Zachée ? Que dit Jésus ?",
+     "refs": [
+      "Luc 19:1-10"
+     ],
+     "accompagnateur": {
+      "attendu": "Il donne la moitié de ses biens aux pauvres et rend quatre fois ce qu'il a volé. Jésus dit : « Le salut est entré dans cette maison. »",
+      "expliquer": [
+       "La repentance véritable se voit dans les actes."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Comment demander pardon",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Luc 15:17-21 et Psaume 51:3-6. Quels sont les éléments d'une vraie confession ?",
+     "refs": [
+      "Luc 15:17-21",
+      "Psaume 51:3-6"
+     ],
+     "accompagnateur": {
+      "attendu": "Reconnaître son péché sans excuse, se repentir, revenir. « J'ai péché contre le ciel et contre toi. »",
+      "expliquer": [
+       "Simple : « J'ai fait ceci. C'était mal. Je te demande pardon. »"
+      ]
+     }
+    },
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Ma liste de réconciliation",
+     "texte": [
+      "1. Personnes à qui j'ai fait du tort (famille, voisins, employeur, ancien conjoint, créanciers) :",
+      "2. Ce que j'ai fait :",
+      "3. Ce que je peux réparer (rendre, rembourser, rétablir la vérité) :",
+      "4. Quand et comment je vais le faire :"
+     ],
+     "champ": "Ma liste",
+     "id": "liste-reconciliation"
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis 2 Corinthiens 7:9-11. Quelle est la différence entre la tristesse selon Dieu et la tristesse du monde ?",
+     "refs": [
+      "2 Corinthiens 7:9-11"
+     ],
+     "accompagnateur": {
+      "attendu": "La tristesse selon Dieu produit la repentance, le zèle, le désir de réparer. La tristesse du monde produit la mort.",
+      "expliquer": [
+       "Celui qui regrette sans changer ne se repent pas."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Réparer avec sagesse",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Exode 22:1-4 et Nombres 5:6-7. Que demande la Loi à celui qui a volé ou fait du tort ?",
+     "refs": [
+      "Exode 22:1-4",
+      "Nombres 5:6-7"
+     ],
+     "accompagnateur": {
+      "attendu": "Rendre avec un supplément et reconnaître sa faute. La loi de Dieu prend la réparation au sérieux.",
+      "expliquer": [
+       "Dettes, objets volés, mensonges, héritage pris : lister et chercher à rembourser. Si on ne peut pas, demander conseil au pasteur et à la personne lésée."
+      ],
+      "relance": "Y a-t-il une dette à régler ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Quand il y a un danger (violence, menace, ancien lien dangereux), comment réparer avec sagesse ? Lis Matthieu 10:16 et Proverbes 22:3.",
+     "refs": [
+      "Matthieu 10:16",
+      "Proverbes 22:3"
+     ],
+     "accompagnateur": {
+      "attendu": "Être prudent comme les serpents, simple comme les colombes. L'homme prudent voit le mal et se cache. On peut demander pardon par un intermédiaire ou par écrit.",
+      "expliquer": [
+       "Ne pas se mettre en danger : demander conseil. Pour une ancienne relation sexuelle ou sentimentale : ne pas reprendre contact seul."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Écris Matthieu 5:23-24 de mémoire.",
+     "refs": [
+      "Matthieu 5:23-24"
+     ],
+     "accompagnateur": {
+      "attendu": "« Si donc tu présentes ton offrande à l'autel, et que là tu te souviennes que ton frère a quelque chose contre toi, laisse là ton offrande devant l'autel, va d'abord te réconcilier avec ton frère, puis viens présenter ton offrande. »",
+      "expliquer": [
+       "Réviser Éphésiens 4:32."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne demande pardon aux personnes qu'elle a blessées et répare ce qui peut l'être.",
+   "L'aider à le faire avec sagesse, sans se mettre en danger.",
+   "Rappeler que le pardon de Dieu est acquis."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 7 et le bilan de vie.",
+   "Préparer des exemples de demande de pardon simple.",
+   "Penser aux situations délicates (anciennes relations, dettes, héritages)."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur ses pardons (pas 7)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Le besoin de réconciliation",
+    "minutes": 20,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Comment demander pardon",
+    "minutes": 35,
+    "conseils": [
+     "Tableau et questions 3 et 4. Faire répéter une demande de pardon à voix haute."
+    ]
+   },
+   {
+    "titre": "Réparer avec sagesse",
+    "minutes": 30,
+    "conseils": [
+     "Questions 5 à 7. Chercher des solutions concrètes."
+    ]
+   },
+   {
+    "titre": "Verset et remise du pas 9",
+    "minutes": 10,
+    "conseils": [
+     "Réciter Matthieu 5:23-24. Prier. Remettre le pas 9 « Appelé à être saint »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas pousser une personne à avouer des choses qui la mettraient en danger : décider avec sagesse.",
+   "Pour les dettes impossibles à rembourser tout de suite : un plan par étapes avec le pasteur.",
+   "Ne pas conseiller d'avouer un crime sans réfléchir : en parler au pasteur."
+  ]
+ }
+}

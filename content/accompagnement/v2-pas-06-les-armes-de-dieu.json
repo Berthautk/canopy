@@ -1,0 +1,299 @@
+{
+ "id": "v2-pas-06-les-armes-de-dieu",
+ "volume": 2,
+ "numero": 6,
+ "titre": "Les armes de Dieu",
+ "sous_titre": "S'équiper chaque jour pour tenir ferme",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v2-06-les-armes-de-dieu",
+ "verset_memoire": "Éphésiens 6:10-11",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Chaque matin, revêts l'armure en priant.",
+  "jours": [
+   "Éphésiens 6:10-20",
+   "2 Corinthiens 10:1-6",
+   "2 Chroniques 20",
+   "Actes 16:16-40",
+   "Matthieu 4:1-11",
+   "Apocalypse 12",
+   "Psaume 91"
+  ]
+ },
+ "introduction": [
+  "Dieu ne nous laisse pas sans armes. Il nous donne une armure complète.",
+  "Cette semaine, tu vas apprendre à revêtir l'armure chaque jour et à utiliser la Parole, la prière, la louange et le nom de Jésus."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Les armes de Dieu sont des armes physiques ou des cris puissants.",
+       "reponse": false,
+       "explication": "« Les armes avec lesquelles nous combattons ne sont pas charnelles » (2 Corinthiens 10:4)."
+      },
+      {
+       "id": "vf2",
+       "texte": "La Parole de Dieu est l'arme offensive du chrétien.",
+       "reponse": true,
+       "explication": "Éphésiens 6:17 : l'épée de l'Esprit, la parole de Dieu."
+      },
+      {
+       "id": "vf3",
+       "texte": "Je peux me battre seul sans prier.",
+       "reponse": false,
+       "explication": "Éphésiens 6:18 : prier en tout temps, par l'Esprit."
+      },
+      {
+       "id": "vf4",
+       "texte": "Je dois mettre l'armure de Dieu chaque jour.",
+       "reponse": true,
+       "explication": "Éphésiens 6:11, 13 : revêtez, prenez toutes les armes."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. L'armure de Dieu",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Éphésiens 6:10-17. Quelles sont les six pièces de l'armure ? À quoi sert chacune ?",
+     "refs": [
+      "Éphésiens 6:10-17"
+     ],
+     "accompagnateur": {
+      "attendu": "La ceinture de la vérité, la cuirasse de la justice, les chaussures de l'Évangile de paix, le bouclier de la foi, le casque du salut, l'épée de l'Esprit.",
+      "expliquer": [
+       "Vérité : ne pas mentir ni se mentir. Justice : vivre droit, avec la justice de Christ. Évangile de paix : être prêt à avancer. Foi : confiance qui éteint les traits. Salut : certitude, casque qui protège la pensée. Épée : la Parole."
+      ],
+      "relance": "Quelle pièce de l'armure te manque le plus ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis 2 Corinthiens 10:3-5. Qu'est-ce qui est détruit par les armes de Dieu ?",
+     "refs": [
+      "2 Corinthiens 10:3-5"
+     ],
+     "accompagnateur": {
+      "attendu": "Les forteresses, les raisonnements et toute hauteur qui s'élève contre la connaissance de Dieu. On amène toute pensée captive à l'obéissance de Christ.",
+      "expliquer": [
+       "Le combat se joue beaucoup dans les pensées : peur, mensonge, accusation."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. La Parole, la prière et la louange",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Matthieu 4:1-11 et Hébreux 4:12. Comment Jésus a-t-il utilisé la Parole ?",
+     "refs": [
+      "Matthieu 4:1-11",
+      "Hébreux 4:12"
+     ],
+     "accompagnateur": {
+      "attendu": "Il a répondu à chaque tentation par « il est écrit ». La Parole est vivante et plus tranchante qu'une épée à deux tranchants.",
+      "expliquer": [
+       "On ne peut utiliser que la Parole que l'on connaît : d'où l'importance de la mémorisation."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Éphésiens 6:18 et Matthieu 26:41. Quelle place la prière occupe-t-elle dans le combat ?",
+     "refs": [
+      "Éphésiens 6:18",
+      "Matthieu 26:41"
+     ],
+     "accompagnateur": {
+      "attendu": "Prier en tout temps par l'Esprit, veiller. Veillez et priez afin de ne pas tomber en tentation.",
+      "expliquer": [
+       "La prière n'est pas une arme parmi d'autres : c'est ce qui tient l'armure."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Actes 16:22-26 et 2 Chroniques 20:15-22. Que fait la louange dans le combat ?",
+     "refs": [
+      "Actes 16:22-26",
+      "2 Chroniques 20:15-22"
+     ],
+     "accompagnateur": {
+      "attendu": "Paul et Silas louent Dieu en prison et les portes s'ouvrent. Josaphat met les chantres devant l'armée, et Dieu donne la victoire.",
+      "expliquer": [
+       "La louange déplace le regard de l'ennemi vers Dieu."
+      ],
+      "relance": "Que peux-tu chanter ou dire à Dieu dans ta difficulté actuelle ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. La foi, le sang de Jésus et le nom de Jésus",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Apocalypse 12:10-11. Comment les frères ont-ils vaincu l'accusateur ?",
+     "refs": [
+      "Apocalypse 12:10-11"
+     ],
+     "accompagnateur": {
+      "attendu": "Par le sang de l'Agneau, par la parole de leur témoignage, et en n'aimant pas leur vie jusqu'à craindre la mort.",
+      "expliquer": [
+       "Le sang de Jésus : la valeur de sa mort pour moi. Le témoignage : dire ce que Jésus a fait. Le courage."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Lis Philippiens 2:9-11 et Actes 3:6, 16. Que peut-on faire au nom de Jésus ?",
+     "refs": [
+      "Philippiens 2:9-11",
+      "Actes 3:6",
+      "Actes 3:16"
+     ],
+     "accompagnateur": {
+      "attendu": "Prier, chasser les démons, guérir, parler. Tout genou fléchit devant ce nom. Ce n'est pas une formule magique, mais l'autorité de Jésus.",
+      "expliquer": [
+       "Rappeler : on agit sous l'autorité de Jésus, pas par notre force."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Lis Matthieu 18:19-20 et Ecclésiaste 4:12. Pourquoi ne pas combattre seul ?",
+     "refs": [
+      "Matthieu 18:19-20",
+      "Ecclésiaste 4:12"
+     ],
+     "accompagnateur": {
+      "attendu": "Là où deux ou trois sont réunis en son nom, Jésus est au milieu d'eux. La corde à trois brins ne se rompt pas vite.",
+      "expliquer": [
+       "Avoir un partenaire de prière et l'appui de l'Église."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Mon armure",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Chaque matin, je revêts mon armure",
+     "texte": [
+      "Ceinture : je choisis la vérité aujourd'hui.",
+      "Cuirasse : je me tiens dans la justice de Jésus.",
+      "Chaussures : je suis prêt à parler de lui.",
+      "Bouclier : je fais confiance à Dieu.",
+      "Casque : j'ai l'assurance de mon salut.",
+      "Épée : mon verset du jour est…",
+      "Prière : je prie pour… "
+     ],
+     "champ": "Mon armure",
+     "id": "armure-matin"
+    },
+    {
+     "type": "question",
+     "id": "q9",
+     "texte": "Écris Éphésiens 6:10-11 de mémoire.",
+     "refs": [
+      "Éphésiens 6:10-11"
+     ],
+     "accompagnateur": {
+      "attendu": "« Au reste, fortifiez-vous dans le Seigneur, et par sa force toute-puissante. Revêtez-vous de toutes les armes de Dieu, afin de pouvoir tenir ferme contre les ruses du diable. »",
+      "expliquer": [
+       "Réviser Éphésiens 6:12."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne connaisse l'armure de Dieu et en fasse une habitude.",
+   "Qu'elle apprenne à répondre à l'ennemi par la Parole.",
+   "L'inviter à avoir un partenaire de prière."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 5.",
+   "Apprendre toi-même un verset de réponse pour chaque pièce de l'armure.",
+   "Prier pour la personne."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur son plan de combat (pas 5)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "L'armure de Dieu",
+    "minutes": 25,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Parole, prière, louange",
+    "minutes": 30,
+    "conseils": [
+     "Questions 3 à 5. Prier ensemble, louer ensemble."
+    ]
+   },
+   {
+    "titre": "Sang, nom de Jésus, communion",
+    "minutes": 25,
+    "conseils": [
+     "Questions 6 à 8."
+    ]
+   },
+   {
+    "titre": "Mon armure et remise du pas 7",
+    "minutes": 15,
+    "conseils": [
+     "Tableau et question 9. Réciter Éphésiens 6:10-11. Remettre le pas 7 « Pardonner pour être libre »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas transformer l'armure en rituel magique : tout repose sur Jésus.",
+   "Si la personne vit sous une forte pression, la soutenir plus souvent (appels, messages).",
+   "Faire attention aux interprétations extrêmes (démons partout)."
+  ]
+ }
+}

@@ -1,0 +1,302 @@
+{
+ "id": "v2-pas-10-chretien-et-argent",
+ "volume": 2,
+ "numero": 10,
+ "titre": "Le chrétien et son argent",
+ "sous_titre": "Gérer, travailler, donner et faire confiance à Dieu",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v2-09-chretien-et-argent",
+ "verset_memoire": "Matthieu 6:33",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que le texte dit de l'argent.",
+  "jours": [
+   "Matthieu 6:19-34",
+   "Proverbes 3",
+   "Luc 12:13-34",
+   "2 Corinthiens 8",
+   "2 Corinthiens 9",
+   "1 Timothée 6",
+   "Luc 21:1-4"
+  ]
+ },
+ "introduction": [
+  "L'argent est un des plus grands tests de la foi. Dieu veut que tu le gères avec sagesse, sans l'adorer.",
+  "Cette semaine, tu vas regarder honnêtement ton rapport à l'argent, et faire un plan simple."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "L'argent est mauvais en lui-même.",
+       "reponse": false,
+       "explication": "C'est l'amour de l'argent qui est une racine de tous les maux (1 Timothée 6:10)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Tout ce que j'ai appartient à Dieu : je suis un gérant.",
+       "reponse": true,
+       "explication": "Psaume 24:1 ; 1 Corinthiens 4:2."
+      },
+      {
+       "id": "vf3",
+       "texte": "Donner à Dieu est réservé aux riches.",
+       "reponse": false,
+       "explication": "La veuve qui a donné deux pièces a donné plus que tous (Luc 21:1-4)."
+      },
+      {
+       "id": "vf4",
+       "texte": "Dieu bénit toujours le chrétien en le rendant riche.",
+       "reponse": false,
+       "explication": "Dieu promet de pourvoir à nos besoins (Philippiens 4:19), pas la richesse. Attention à l'évangile de la prospérité."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Tout vient de Dieu",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Psaume 24:1 et Deutéronome 8:17-18. À qui appartient tout ce que j'ai ? Qui me donne la force de gagner ?",
+     "refs": [
+      "Psaume 24:1",
+      "Deutéronome 8:17-18"
+     ],
+     "accompagnateur": {
+      "attendu": "À l'Éternel. C'est lui qui donne la force d'acquérir des richesses.",
+      "expliquer": [
+       "Je ne suis pas propriétaire, mais gérant."
+      ],
+      "relance": "Qu'est-ce que tu possèdes qui est difficile à confier à Dieu ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Matthieu 6:19-34. Quels sont les deux maîtres ? Que doit-on chercher en premier ?",
+     "refs": [
+      "Matthieu 6:19-34"
+     ],
+     "accompagnateur": {
+      "attendu": "Dieu et l'argent. Chercher d'abord le royaume de Dieu et sa justice. Dieu prend soin de ses enfants comme des oiseaux et des lis.",
+      "expliquer": [
+       "Ne pas confondre prévoyance (Proverbes 6:6-8) et inquiétude."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Travailler, épargner, éviter le piège",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Proverbes 6:6-11, 2 Thessaloniciens 3:10-12 et Éphésiens 4:28. Que dit Dieu du travail ?",
+     "refs": [
+      "Proverbes 6:6-11",
+      "2 Thessaloniciens 3:10-12",
+      "Éphésiens 4:28"
+     ],
+     "accompagnateur": {
+      "attendu": "Dieu honore le travail et condamne la paresse. Celui qui ne veut pas travailler ne doit pas manger. Travailler pour avoir de quoi donner.",
+      "expliquer": [
+       "Travail honnête, sans corruption. Aussi : ne pas attendre que l'église ou la famille fasse tout."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Proverbes 22:7, Proverbes 3:27-28 et Romains 13:8. Que dit Dieu des dettes ?",
+     "refs": [
+      "Proverbes 22:7",
+      "Proverbes 3:27-28",
+      "Romains 13:8"
+     ],
+     "accompagnateur": {
+      "attendu": "L'emprunteur est esclave du prêteur. Ne pas retenir son dû. Ne rien devoir à personne, sinon l'amour.",
+      "expliquer": [
+       "Prudence avec les tontines, les crédits, les prêts à intérêt. Payer ses dettes."
+      ],
+      "relance": "As-tu des dettes ? Comment les gérer ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis 1 Timothée 6:6-10 et 17-19. Quel danger guette ceux qui veulent s'enrichir ?",
+     "refs": [
+      "1 Timothée 6:6-10",
+      "1 Timothée 6:17-19"
+     ],
+     "accompagnateur": {
+      "attendu": "Beaucoup de désirs insensés et funestes ; l'amour de l'argent est une racine de tous les maux. Les riches doivent être riches en bonnes œuvres.",
+      "expliquer": [
+       "Contentement. Les piliers : piété, contentement, générosité."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Donner",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Malachie 3:10, Proverbes 3:9-10 et 2 Corinthiens 9:6-8. Que dit Dieu du don ?",
+     "refs": [
+      "Malachie 3:10",
+      "Proverbes 3:9-10",
+      "2 Corinthiens 9:6-8"
+     ],
+     "accompagnateur": {
+      "attendu": "Apporter les prémices, les dîmes ; donner avec joie. Dieu aime celui qui donne avec joie. Qui sème abondamment moissonnera abondamment.",
+      "expliquer": [
+       "Donner d'abord à Dieu, par l'Église : un pourcentage régulier. Pas par contrainte ni par marchandage : pas « donne pour recevoir »."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Lis Luc 21:1-4 et Actes 4:32-35. Comment Dieu regarde-t-il le don ?",
+     "refs": [
+      "Luc 21:1-4",
+      "Actes 4:32-35"
+     ],
+     "accompagnateur": {
+      "attendu": "Il regarde le cœur et le sacrifice. L'Église primitive partageait pour que personne ne manque.",
+      "expliquer": [
+       "Aider les pauvres, les veuves, les orphelins. Éviter le piège de l'aumône pour se faire voir."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Lis Matthieu 6:2-4 et 1 Timothée 5:8. Comment donner ? À qui d'abord ?",
+     "refs": [
+      "Matthieu 6:2-4",
+      "1 Timothée 5:8"
+     ],
+     "accompagnateur": {
+      "attendu": "Discrètement. D'abord pour sa propre famille : celui qui ne pourvoit pas aux siens a renié la foi.",
+      "expliquer": [
+       "Faire un petit budget : famille, Église, aide, épargne. Éviter l'endettement pour impressionner (funérailles, dot, fêtes)."
+      ],
+      "relance": "Comment pourrais-tu mettre cela en pratique ce mois-ci ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Mon engagement",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan pour l'argent",
+     "texte": [
+      "1. Mes revenus approximatifs :",
+      "2. Ce que je veux donner à Dieu et à l'Église (en pourcentage) :",
+      "3. Mes dettes et mon plan pour les payer :",
+      "4. Une dépense que je vais réduire :",
+      "5. Une personne à aider :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-argent"
+    },
+    {
+     "type": "question",
+     "id": "q9",
+     "texte": "Écris Matthieu 6:33 de mémoire.",
+     "refs": [
+      "Matthieu 6:33"
+     ],
+     "accompagnateur": {
+      "attendu": "« Cherchez premièrement le royaume et la justice de Dieu ; et toutes ces choses vous seront données par-dessus. »",
+      "expliquer": [
+       "Réviser 1 Pierre 1:15-16."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne qu'elle est gérante, travaille honnêtement, donne avec joie et évite l'endettement.",
+   "Qu'elle ait un petit plan écrit.",
+   "Mettre en garde contre l'évangile de la prospérité."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 9.",
+   "Parler honnêtement de ta propre gestion de l'argent.",
+   "Se renseigner sur les tontines et crédits locaux."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur la sainteté (pas 9)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Tout vient de Dieu",
+    "minutes": 20,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Travailler, épargner, éviter le piège",
+    "minutes": 30,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Donner",
+    "minutes": 30,
+    "conseils": [
+     "Questions 6 à 8."
+    ]
+   },
+   {
+    "titre": "Mon engagement et remise du pas 11",
+    "minutes": 15,
+    "conseils": [
+     "Tableau et question 9. Remettre le pas 11 « Permis, mais est-ce utile ? »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas juger une personne pauvre qui ne peut presque rien donner.",
+   "Pas de pression pour donner : jamais de manipulation.",
+   "Attention aux enseignements qui promettent la richesse à ceux qui donnent."
+  ]
+ }
+}

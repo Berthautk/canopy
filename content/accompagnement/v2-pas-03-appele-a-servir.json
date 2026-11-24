@@ -1,0 +1,286 @@
+{
+ "id": "v2-pas-03-appele-a-servir",
+ "volume": 2,
+ "numero": 3,
+ "titre": "Appelé pour servir",
+ "sous_titre": "Découvrir mon service et le vivre avec humilité",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v2-03-appele-a-servir",
+ "verset_memoire": "Marc 10:45",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note ce que chaque personnage fait pour Dieu.",
+  "jours": [
+   "Exode 3",
+   "Juges 6",
+   "1 Samuel 16",
+   "Actes 6",
+   "Romains 12",
+   "1 Corinthiens 12",
+   "1 Pierre 4"
+  ]
+ },
+ "introduction": [
+  "Dieu ne t'a pas sauvé pour que tu restes spectateur. Il t'a appelé à servir.",
+  "Cette semaine, tu vas chercher quel service Dieu t'a confié et comment commencer."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Servir Dieu, c'est seulement être pasteur ou missionnaire.",
+       "reponse": false,
+       "explication": "Tout croyant est appelé à servir (1 Pierre 4:10). Dieu utilise des marchands (Lydie), des soldats, des enfants, des femmes."
+      },
+      {
+       "id": "vf2",
+       "texte": "Je suis sauvé par mon service.",
+       "reponse": false,
+       "explication": "Nous sommes sauvés par grâce, pour de bonnes œuvres (Éphésiens 2:8-10). Le service est le fruit du salut, pas son prix."
+      },
+      {
+       "id": "vf3",
+       "texte": "Dieu m'a donné un ou plusieurs dons pour servir les autres.",
+       "reponse": true,
+       "explication": "1 Pierre 4:10 ; Romains 12:6."
+      },
+      {
+       "id": "vf4",
+       "texte": "Si je ne sais rien faire de spécial, Dieu ne peut pas m'utiliser.",
+       "reponse": false,
+       "explication": "Moïse bégayait, Gédéon était le plus petit, David le dernier de sa famille. Dieu utilise les faibles (1 Corinthiens 1:27)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Appelé par grâce",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Éphésiens 2:8-10 et Marc 10:43-45. Pourquoi Dieu nous a-t-il sauvés ? Quel est le modèle du service ?",
+     "refs": [
+      "Éphésiens 2:8-10",
+      "Marc 10:43-45"
+     ],
+     "accompagnateur": {
+      "attendu": "Pour de bonnes œuvres préparées d'avance. Jésus n'est pas venu pour être servi, mais pour servir et donner sa vie.",
+      "expliquer": [
+       "Le premier service est de rester dans la grâce, non de gagner son salut."
+      ],
+      "relance": "Qu'est-ce que Dieu a déjà fait pour toi qui te donne envie de servir ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis 1 Pierre 4:10-11 et Romains 12:4-8. Que dit-on des dons ?",
+     "refs": [
+      "1 Pierre 4:10-11",
+      "Romains 12:4-8"
+     ],
+     "accompagnateur": {
+      "attendu": "Chacun a reçu un don et doit le mettre au service des autres, comme un bon gérant. Les dons sont différents : enseigner, exhorter, donner, diriger, faire preuve de miséricorde.",
+      "expliquer": [
+       "Les dons ne sont pas pour se mettre en avant, mais pour édifier."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Découvrir mon service",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Exode 4:10-12, Juges 6:14-16 et 1 Samuel 16:10-13. Comment Dieu appelle-t-il ?",
+     "refs": [
+      "Exode 4:10-12",
+      "Juges 6:14-16",
+      "1 Samuel 16:10-13"
+     ],
+     "accompagnateur": {
+      "attendu": "Moïse se croit incapable, Gédéon se croit le plus petit, David est le dernier. Dieu répond : « Je serai avec toi. » Dieu regarde au cœur.",
+      "expliquer": [
+       "Les excuses de la personne : timidité, honte du passé, manque d'instruction. Dieu n'en tient pas compte."
+      ],
+      "relance": "Quelle est ton excuse la plus fréquente ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Comment découvrir son service ? Réponds en cherchant dans Romains 12:1-3, Proverbes 11:14 et Actes 13:1-3.",
+     "refs": [
+      "Romains 12:1-3",
+      "Proverbes 11:14",
+      "Actes 13:1-3"
+     ],
+     "accompagnateur": {
+      "attendu": "Se donner entièrement à Dieu, se juger avec sagesse, demander conseil aux responsables, prier et jeûner, laisser l'Église confirmer.",
+      "expliquer": [
+       "Quatre questions : qu'est-ce que j'aime faire ? Qu'est-ce que je fais bien ? Qu'est-ce que les autres me disent ? Qu'est-ce que l'Église a besoin ?"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Servir avec le bon cœur",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Colossiens 3:23-24 et Matthieu 6:1-4. Avec quelle attitude servir ?",
+     "refs": [
+      "Colossiens 3:23-24",
+      "Matthieu 6:1-4"
+     ],
+     "accompagnateur": {
+      "attendu": "De bon cœur, comme pour le Seigneur, non pour les hommes. Sans chercher à être vu, sans publicité.",
+      "expliquer": [
+       "Piège du service par orgueil ou pour avoir une position."
+      ],
+      "relance": "Pourquoi veux-tu servir : par amour ou pour être vu ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Luc 10:38-42 et Jean 15:5. Quel danger y a-t-il dans le service ?",
+     "refs": [
+      "Luc 10:38-42",
+      "Jean 15:5"
+     ],
+     "accompagnateur": {
+      "attendu": "S'épuiser en négligeant le rendez-vous avec Jésus. Sans lui, nous ne pouvons rien faire.",
+      "expliquer": [
+       "Équilibre : être avec Jésus et servir pour lui."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Lis Actes 6:1-7 et Philippiens 2:3-4. Comment servir avec les autres ?",
+     "refs": [
+      "Actes 6:1-7",
+      "Philippiens 2:3-4"
+     ],
+     "accompagnateur": {
+      "attendu": "En équipe, sans orgueil, en regardant aux intérêts des autres. L'Église choisit des hommes pleins de sagesse pour les tâches pratiques.",
+      "expliquer": [
+       "Les « petits » services (table, balayer, accueillir) sont aussi spirituels."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Mon service",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon service pour l'Église",
+     "texte": [
+      "1. Ce que j'aime faire :",
+      "2. Ce que les autres disent que je fais bien :",
+      "3. Un besoin que je vois dans mon église :",
+      "4. Mon premier pas pour servir (à qui en parler ?) :"
+     ],
+     "champ": "Mon service",
+     "id": "mon-service"
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Écris Marc 10:45 de mémoire.",
+     "refs": [
+      "Marc 10:45"
+     ],
+     "accompagnateur": {
+      "attendu": "« Car le Fils de l'homme est venu, non pour être servi, mais pour servir et donner sa vie en rançon pour beaucoup. »",
+      "expliquer": [
+       "Réviser 1 Pierre 2:21."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne découvre ses dons et identifie un service concret.",
+   "Qu'elle serve avec un bon cœur, sans orgueil.",
+   "L'orienter vers un responsable de l'église."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 2.",
+   "Parler avec le pasteur des besoins de l'église.",
+   "Prier pour la personne et son service."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur le trait de Jésus choisi au pas 2."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Appelé par grâce",
+    "minutes": 20,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Découvrir mon service",
+    "minutes": 30,
+    "conseils": [
+     "Questions 3 et 4."
+    ]
+   },
+   {
+    "titre": "Servir avec le bon cœur",
+    "minutes": 30,
+    "conseils": [
+     "Questions 5 à 7."
+    ]
+   },
+   {
+    "titre": "Mon service et remise du pas 4",
+    "minutes": 15,
+    "conseils": [
+     "Tableau et question 8. Présenter la personne à un responsable. Remettre le pas 4 « Qui suis-je en Christ ? »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Attention à celui qui veut une position ou un titre : l'accompagner pour que ce soit un service.",
+   "Attention à celui qui s'épuise : rappeler le repos et le rendez-vous quotidien.",
+   "Pour une femme ou un jeune : encourager aussi, selon la pratique de l'église."
+  ]
+ }
+}

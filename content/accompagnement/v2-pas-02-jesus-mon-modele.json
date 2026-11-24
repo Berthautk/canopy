@@ -1,0 +1,306 @@
+{
+ "id": "v2-pas-02-jesus-mon-modele",
+ "volume": 2,
+ "numero": 2,
+ "titre": "Christ, mon modèle",
+ "sous_titre": "Regarder Jésus pour lui ressembler : humilité, obéissance, amour",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v2-02-jesus-mon-modele",
+ "verset_memoire": "1 Pierre 2:21",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que Jésus fait et ce que tu peux imiter.",
+  "jours": [
+   "Jean 13",
+   "Philippiens 2",
+   "Luc 22:39-46",
+   "Luc 23:26-46",
+   "Matthieu 9:35-38",
+   "Marc 10:13-31",
+   "1 Pierre 2:11-25"
+  ]
+ },
+ "introduction": [
+  "Tu connais Dieu comme Père. Maintenant, regarde le Fils : Jésus a vécu parmi nous pour nous montrer comment vivre.",
+  "Cette semaine, tu vas choisir un trait de Jésus à imiter et le mettre en pratique dans une situation précise."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Jésus est seulement un modèle à imiter.",
+       "reponse": false,
+       "explication": "Il est d'abord Sauveur et Seigneur. Mais il est aussi un exemple (1 Pierre 2:21)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Je peux ressembler à Jésus par mes propres efforts.",
+       "reponse": false,
+       "explication": "Philippiens 2:13 : « C'est Dieu qui produit en vous le vouloir et le faire. » L'Esprit nous transforme (2 Corinthiens 3:18)."
+      },
+      {
+       "id": "vf3",
+       "texte": "Jésus s'est humilié et a servi.",
+       "reponse": true,
+       "explication": "Philippiens 2:5-8 ; Jean 13:1-17."
+      },
+      {
+       "id": "vf4",
+       "texte": "Jésus ne s'est jamais mis en colère.",
+       "reponse": false,
+       "explication": "Il a chassé les vendeurs du temple (Jean 2:13-17) : une colère juste, contre l'injustice, sans péché."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. L'humilité et le service",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Philippiens 2:5-8. Que montre l'exemple de Jésus ?",
+     "refs": [
+      "Philippiens 2:5-8"
+     ],
+     "accompagnateur": {
+      "attendu": "Il a renoncé à ses droits, s'est dépouillé, a pris la forme d'un serviteur, s'est humilié jusqu'à la mort de la croix.",
+      "expliquer": [
+       "L'humilité n'est pas se rabaisser : c'est servir sans se mettre en avant.",
+       "Pour nos cultures qui respectent l'âge et le rang : Jésus a lavé les pieds de ses disciples."
+      ],
+      "relance": "Où as-tu du mal à t'abaisser ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Jean 13:1-17. Que fait Jésus ? Que demande-t-il à ses disciples ?",
+     "refs": [
+      "Jean 13:1-17"
+     ],
+     "accompagnateur": {
+      "attendu": "Il lave les pieds de ses disciples, tâche de l'esclave, et dit : « Je vous ai donné un exemple, afin que vous fassiez comme je vous ai fait. »",
+      "expliquer": [
+       "Quel service concret peut-on rendre : aider, nettoyer, accompagner."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. L'obéissance et la prière",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Luc 22:39-44 et Jean 4:34. Que voit-on de l'obéissance de Jésus au Père ?",
+     "refs": [
+      "Luc 22:39-44",
+      "Jean 4:34"
+     ],
+     "accompagnateur": {
+      "attendu": "Son aliment est de faire la volonté du Père. À Gethsémané : « Non pas ma volonté, mais la tienne. »",
+      "expliquer": [
+       "Même Jésus a lutté, a prié, a été fortifié par un ange."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Marc 1:35, Luc 5:16 et Luc 6:12. Quelle place la prière avait-elle dans sa vie ?",
+     "refs": [
+      "Marc 1:35",
+      "Luc 5:16",
+      "Luc 6:12"
+     ],
+     "accompagnateur": {
+      "attendu": "Il se retirait souvent pour prier, tôt le matin ou toute la nuit, avant les grandes décisions.",
+      "expliquer": [
+       "Lien avec le rendez-vous quotidien du volume 1."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. L'amour et le pardon",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Luc 23:34 et Jean 13:34-35. Comment Jésus a-t-il aimé ?",
+     "refs": [
+      "Luc 23:34",
+      "Jean 13:34-35"
+     ],
+     "accompagnateur": {
+      "attendu": "Jusqu'à pardonner à ceux qui le crucifiaient : « Père, pardonne-leur. » Il commande d'aimer comme il nous a aimés.",
+      "expliquer": [
+       "L'amour de Jésus ne dépend pas de la réponse de l'autre."
+      ],
+      "relance": "À qui as-tu du mal à pardonner ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Matthieu 9:35-36 et Marc 10:13-16. Comment Jésus regarde-t-il les foules, les malades, les enfants ?",
+     "refs": [
+      "Matthieu 9:35-36",
+      "Marc 10:13-16"
+     ],
+     "accompagnateur": {
+      "attendu": "Avec compassion. Il touche, il guérit, il bénit les enfants et se fâche contre ceux qui les écartent.",
+      "expliquer": [
+       "Regarder les autres comme Jésus : les pauvres, les orphelins, les veuves, les étrangers."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Suivre ses traces",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Lis 1 Pierre 2:21-23 et 1 Jean 2:6. Que veut dire « marcher comme Jésus a marché » ?",
+     "refs": [
+      "1 Pierre 2:21-23",
+      "1 Jean 2:6"
+     ],
+     "accompagnateur": {
+      "attendu": "Souffrir sans rendre l'injure, s'en remettre à Dieu qui juge justement ; vivre comme il a vécu.",
+      "expliquer": [
+       "Face à l'insulte, à l'injustice, à la menace : ne pas se venger."
+      ],
+      "relance": "Dans quelle situation as-tu envie de rendre le mal pour le mal ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Lis 2 Corinthiens 3:18 et Philippiens 2:12-13. Qui nous transforme à l'image de Jésus ?",
+     "refs": [
+      "2 Corinthiens 3:18",
+      "Philippiens 2:12-13"
+     ],
+     "accompagnateur": {
+      "attendu": "Le Seigneur, par l'Esprit, en contemplant sa gloire. Dieu produit en nous le vouloir et le faire.",
+      "expliquer": [
+       "On ne devient pas comme lui par la force, mais en le regardant (Parole, prière) et en obéissant."
+      ]
+     }
+    },
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Un trait de Jésus à imiter",
+     "texte": [
+      "1. Le trait de Jésus que je veux imiter cette semaine (humilité, patience, compassion…) :",
+      "2. La situation où je le mettrai en pratique :",
+      "3. Ce qui m'en empêche :",
+      "4. Ma prière :"
+     ],
+     "champ": "Mon trait",
+     "id": "trait-jesus"
+    },
+    {
+     "type": "question",
+     "id": "q9",
+     "texte": "Écris 1 Pierre 2:21 de mémoire.",
+     "refs": [
+      "1 Pierre 2:21"
+     ],
+     "accompagnateur": {
+      "attendu": "« Et c'est à cela que vous avez été appelés, parce que Christ aussi a souffert pour vous, vous laissant un exemple, afin que vous suiviez ses traces. »",
+      "expliquer": [
+       "Réviser Jérémie 9:23-24."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne regarde Jésus comme modèle, sans oublier qu'il est d'abord Sauveur.",
+   "Qu'elle choisisse un trait précis et un geste concret à vivre.",
+   "L'aider à ne pas imiter par ses forces."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 1.",
+   "Préparer un exemple de ta vie où tu as pardonné ou servi.",
+   "Prier pour la personne."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur la connaissance de Dieu (pas 1)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Humilité et service",
+    "minutes": 25,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Obéissance et prière",
+    "minutes": 20,
+    "conseils": [
+     "Questions 3 et 4."
+    ]
+   },
+   {
+    "titre": "Amour et pardon",
+    "minutes": 20,
+    "conseils": [
+     "Questions 5 et 6."
+    ]
+   },
+   {
+    "titre": "Suivre ses traces",
+    "minutes": 25,
+    "conseils": [
+     "Questions 7 à 9 et tableau."
+    ]
+   },
+   {
+    "titre": "Verset et remise du pas 3",
+    "minutes": 5,
+    "conseils": [
+     "Réciter 1 Pierre 2:21. Remettre le pas 3 « Appelé pour servir »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas culpabiliser quand la personne n'arrive pas à imiter : rappeler la grâce et l'œuvre de l'Esprit.",
+   "Si la personne a vécu une grande injustice, ne pas lui demander de pardonner tout de suite : écouter, puis avancer avec le pas sur le pardon.",
+   "Ne pas présenter Jésus comme un simple prophète : revenir au salut (pas 1)."
+  ]
+ }
+}

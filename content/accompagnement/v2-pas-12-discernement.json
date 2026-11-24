@@ -1,0 +1,301 @@
+{
+ "id": "v2-pas-12-discernement",
+ "volume": 2,
+ "numero": 12,
+ "titre": "Le discernement",
+ "sous_titre": "Éprouver les enseignements, les prophéties et les voix",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v2-11-le-discernement",
+ "verset_memoire": "1 Thessaloniciens 5:21",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Compare chaque texte avec ce que tu entends autour de toi.",
+  "jours": [
+   "Actes 17:1-15",
+   "Matthieu 7:15-29",
+   "1 Jean 4",
+   "2 Pierre 2",
+   "Galates 1",
+   "2 Timothée 3",
+   "Jacques 3"
+  ]
+ },
+ "introduction": [
+  "Beaucoup de voix demandent ton attention. Dieu t'appelle à discerner avec sagesse.",
+  "Cette semaine, tu vas apprendre à éprouver les enseignements et les messages que tu reçois."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Tout ce qui est « spirituel » vient de Dieu.",
+       "reponse": false,
+       "explication": "1 Jean 4:1 : éprouvez les esprits. Satan se déguise en ange de lumière (2 Corinthiens 11:14)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Un prédicateur qui fait des miracles est forcément de Dieu.",
+       "reponse": false,
+       "explication": "Matthieu 7:21-23 : certains prophétisent et font des miracles, et Jésus dit « je ne vous ai jamais connus »."
+      },
+      {
+       "id": "vf3",
+       "texte": "La Bible est le test final de tout enseignement.",
+       "reponse": true,
+       "explication": "Actes 17:11 ; Ésaïe 8:20."
+      },
+      {
+       "id": "vf4",
+       "texte": "Si je ne sais pas discerner, je dois me méfier de tout.",
+       "reponse": false,
+       "explication": "Je demande la sagesse à Dieu (Jacques 1:5) et je m'appuie sur la Parole et les frères mûrs."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Pourquoi discerner ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Matthieu 7:15-20 et 2 Corinthiens 11:13-15. Comment sont les faux prophètes ? Comment les reconnaître ?",
+     "refs": [
+      "Matthieu 7:15-20",
+      "2 Corinthiens 11:13-15"
+     ],
+     "accompagnateur": {
+      "attendu": "Ils viennent en habits de brebis, mais ce sont des loups. On les reconnaît à leurs fruits. Satan se déguise en ange de lumière, ses serviteurs en ministres de justice.",
+      "expliquer": [
+       "Beaucoup d'églises et de prédicateurs en Afrique promettent argent, guérison, protection. Discerner les fruits : humilité, vérité, sainteté, fidélité à la Bible."
+      ],
+      "relance": "As-tu déjà entendu un enseignement qui t'a troublé ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis 1 Jean 4:1-6 et Galates 1:6-9. Quels sont les tests ?",
+     "refs": [
+      "1 Jean 4:1-6",
+      "Galates 1:6-9"
+     ],
+     "accompagnateur": {
+      "attendu": "Reconnaître que Jésus-Christ est venu en chair. Écouter ceux qui sont de Dieu. Même un ange qui annoncerait un autre évangile serait maudit.",
+      "expliquer": [
+       "Un test simple : que dit-il de Jésus ? Est-ce que cela s'accorde avec ce qu'on a appris dans la Bible ?"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Les tests du discernement",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Actes 17:11 et 2 Timothée 3:14-17. Quel est le premier test d'un enseignement ?",
+     "refs": [
+      "Actes 17:11",
+      "2 Timothée 3:14-17"
+     ],
+     "accompagnateur": {
+      "attendu": "Examiner les Écritures chaque jour pour voir si ce qu'on dit est exact. Les Écritures instruisent pour le salut.",
+      "expliquer": [
+       "Faire confiance à la Bible plutôt qu'aux impressions."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Deutéronome 13:1-5 et 18:20-22. Que dire d'un prophète dont les signes se réalisent mais qui détourne de Dieu ? D'un prophète dont la parole ne se réalise pas ?",
+     "refs": [
+      "Deutéronome 13:1-5",
+      "Deutéronome 18:20-22"
+     ],
+     "accompagnateur": {
+      "attendu": "Même si le signe se réalise, s'il pousse à suivre d'autres dieux, il ne faut pas l'écouter. Si sa parole ne se réalise pas, il a parlé de lui-même.",
+      "expliquer": [
+       "Les signes ne suffisent pas. Le contenu doit être conforme à Dieu."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Galates 5:22-23 et Jacques 3:13-18. Quels sont les fruits qui montrent la vraie sagesse ?",
+     "refs": [
+      "Galates 5:22-23",
+      "Jacques 3:13-18"
+     ],
+     "accompagnateur": {
+      "attendu": "L'amour, la joie, la paix, la patience… La sagesse d'en haut est pure, paisible, modérée, conciliante, pleine de miséricorde. Pas de jalousie ni d'esprit de dispute.",
+      "expliquer": [
+       "Observer la vie du prédicateur : humble, honnête, généreux ou avide ?"
+      ],
+      "relance": "Quels fruits vois-tu chez les responsables autour de toi ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Les situations concrètes",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Actes 16:16-18 et Matthieu 4:5-7. Une parole peut sembler vraie et venir d'un mauvais esprit. Que fait Paul ? Que fait Jésus ?",
+     "refs": [
+      "Actes 16:16-18",
+      "Matthieu 4:5-7"
+     ],
+     "accompagnateur": {
+      "attendu": "Une servante possédée dit des choses vraies, mais Paul la délivre. Le diable cite la Bible, mais Jésus répond par la Parole complète.",
+      "expliquer": [
+       "Une chose vraie peut venir d'une mauvaise source. Test : d'où cela vient-il ? Où cela mène-t-il ?"
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Dans ton entourage (voisins, amis, famille, médias), quelles voix influencent ta foi ? Comment les éprouver ?",
+     "refs": [
+      "Proverbes 14:12",
+      "1 Thessaloniciens 5:19-22"
+     ],
+     "accompagnateur": {
+      "attendu": "Une liste d'influences : prédicateurs, chaînes, réseaux sociaux, marabouts, amis. Éprouver tout, retenir ce qui est bon, s'abstenir de toute apparence de mal.",
+      "expliquer": [
+       "Ne pas se couper de tout, mais filtrer. Proposer 2 ou 3 sources fiables (église, pasteur, livres)."
+      ],
+      "relance": "Quelle voix devrais-tu moins écouter ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Lis Jacques 1:5 et Proverbes 11:14. Que faire quand on ne sait pas ?",
+     "refs": [
+      "Jacques 1:5",
+      "Proverbes 11:14"
+     ],
+     "accompagnateur": {
+      "attendu": "Demander la sagesse à Dieu, qui donne à tous simplement. Prendre conseil auprès de plusieurs responsables mûrs.",
+      "expliquer": [
+       "Ne pas décider seul sur les grandes questions (mariage, voyage, travail, église)."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Mon engagement",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mes critères de discernement",
+     "texte": [
+      "Avant d'accepter un enseignement, je pose ces questions :",
+      "1. Est-ce que cela s'accorde avec la Bible ?",
+      "2. Que dit-il de Jésus ?",
+      "3. Quels fruits voit-on dans la vie de celui qui l'enseigne ?",
+      "4. Cela me rapproche-t-il de Dieu et des autres ?",
+      "5. Qu'en disent mon pasteur et mes frères mûrs ?"
+     ],
+     "champ": "Mes critères",
+     "id": "criteres-discernement"
+    },
+    {
+     "type": "question",
+     "id": "q9",
+     "texte": "Écris 1 Thessaloniciens 5:21 de mémoire.",
+     "refs": [
+      "1 Thessaloniciens 5:21"
+     ],
+     "accompagnateur": {
+      "attendu": "« Mais examinez toutes choses ; retenez ce qui est bon. »",
+      "expliquer": [
+       "Réviser 1 Corinthiens 10:23."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne apprenne à éprouver les enseignements par la Bible, les fruits et les conseils.",
+   "Qu'elle sache protéger sa foi contre les faux enseignements.",
+   "Rester humble et sans paranoïa."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 11.",
+   "Connaître les enseignements courants dans le milieu de la personne (prospérité, faux prophètes, nouvelles révélations).",
+   "Préparer des exemples."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur ses choix (pas 11)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Pourquoi discerner ?",
+    "minutes": 20,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Les tests du discernement",
+    "minutes": 30,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Les situations concrètes",
+    "minutes": 35,
+    "conseils": [
+     "Questions 6 à 8. Écouter les influences de la personne."
+    ]
+   },
+   {
+    "titre": "Mes critères et remise du pas 13",
+    "minutes": 15,
+    "conseils": [
+     "Tableau et question 9. Remettre le pas 13 « Parler de Christ »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas dénigrer d'autres églises : donner des critères, non des étiquettes.",
+   "Si la personne est troublée par une secte, un enseignement dangereux ou un marabout, en parler avec le pasteur.",
+   "Ne pas tomber dans la suspicion de tout."
+  ]
+ }
+}

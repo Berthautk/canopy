@@ -1,0 +1,285 @@
+{
+ "id": "v2-pas-05-le-combat-spirituel",
+ "volume": 2,
+ "numero": 5,
+ "titre": "Le combat spirituel",
+ "sous_titre": "Reconnaître l'ennemi, la victoire de Jésus et les portes à fermer",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v2-05-le-combat-spirituel",
+ "verset_memoire": "Éphésiens 6:12",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que tu apprends sur l'ennemi et sur la victoire de Jésus.",
+  "jours": [
+   "Éphésiens 6:10-20",
+   "Luc 4:1-13",
+   "Colossiens 2",
+   "Jacques 4",
+   "1 Pierre 5",
+   "Apocalypse 12",
+   "Luc 10"
+  ]
+ },
+ "introduction": [
+  "Être chrétien ne met pas à l'abri des attaques. Mais le chrétien n'est jamais seul, et Jésus a déjà vaincu.",
+  "Cette semaine, tu vas apprendre à reconnaître l'ennemi, à te tenir dans la victoire de Jésus, et à fermer les portes qu'il utilise."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Le diable existe réellement et agit contre les croyants.",
+       "reponse": true,
+       "explication": "1 Pierre 5:8 ; Éphésiens 6:12."
+      },
+      {
+       "id": "vf2",
+       "texte": "Un chrétien ne peut pas être tenté ni attaqué par les puissances des ténèbres.",
+       "reponse": false,
+       "explication": "Jésus a été tenté. Les attaques viennent, mais le diable est vaincu (Colossiens 2:15)."
+      },
+      {
+       "id": "vf3",
+       "texte": "Pour vaincre, il faut être plus fort que le diable.",
+       "reponse": false,
+       "explication": "« Celui qui est en vous est plus grand que celui qui est dans le monde » (1 Jean 4:4)."
+      },
+      {
+       "id": "vf4",
+       "texte": "Tout problème vient du diable.",
+       "reponse": false,
+       "explication": "Beaucoup de problèmes viennent de nos choix, de la chair, du monde. Il faut discerner."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Un vrai combat",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Éphésiens 6:10-12 et 1 Pierre 5:8. Contre qui est le combat ? Comment le diable agit-il ?",
+     "refs": [
+      "Éphésiens 6:10-12",
+      "1 Pierre 5:8"
+     ],
+     "accompagnateur": {
+      "attendu": "Non contre la chair et le sang, mais contre les dominations, les autorités, les puissances spirituelles. Le diable rôde comme un lion qui rugit, cherchant qui dévorer.",
+      "expliquer": [
+       "Ne pas voir un ennemi dans les personnes : voisins, famille, collègues. L'ennemi est spirituel."
+      ],
+      "relance": "Quelles attaques as-tu déjà senties ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Jean 10:10 et 2 Corinthiens 4:4. Quels sont les buts de l'ennemi ? Quelle est la mission de Jésus ?",
+     "refs": [
+      "Jean 10:10",
+      "2 Corinthiens 4:4"
+     ],
+     "accompagnateur": {
+      "attendu": "Le voleur vient pour voler, tuer, détruire. Jésus vient pour donner la vie en abondance. Le dieu de ce siècle aveugle l'intelligence des incrédules.",
+      "expliquer": [
+       "Voler la paix, la foi, la joie ; tuer par le péché ; détruire les foyers."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. La victoire de Jésus",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Colossiens 2:13-15 et Hébreux 2:14-15. Qu'a fait Jésus à la croix ?",
+     "refs": [
+      "Colossiens 2:13-15",
+      "Hébreux 2:14-15"
+     ],
+     "accompagnateur": {
+      "attendu": "Il a effacé l'acte accusateur, désarmé les dominations, les a données en spectacle. Il a détruit celui qui a la puissance de la mort et délivré ceux que la crainte de la mort tenait en esclavage.",
+      "expliquer": [
+       "Le combat du chrétien est un combat de victoire déjà acquise : nous combattons à partir de la victoire."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Luc 10:17-20 et Marc 16:17. Quelle autorité Jésus donne-t-il à ses disciples ? Qu'est-ce qui est plus important que cette autorité ?",
+     "refs": [
+      "Luc 10:17-20",
+      "Marc 16:17"
+     ],
+     "accompagnateur": {
+      "attendu": "Autorité sur toute la puissance de l'ennemi. Mais il faut se réjouir surtout que nos noms soient écrits dans les cieux.",
+      "expliquer": [
+       "Éviter la course aux « délivrances » spectaculaires."
+      ],
+      "relance": "Y a-t-il une peur que tu veux confier à Jésus aujourd'hui ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Les portes ouvertes",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Éphésiens 4:26-27 et 2 Corinthiens 2:10-11. Comment donne-t-on accès au diable ?",
+     "refs": [
+      "Éphésiens 4:26-27",
+      "2 Corinthiens 2:10-11"
+     ],
+     "accompagnateur": {
+      "attendu": "Par la colère gardée, le manque de pardon, le péché non confessé. Pour que Satan n'ait pas l'avantage sur nous, nous n'ignorons pas ses desseins.",
+      "expliquer": [
+       "Revoir le bilan de vie : objets, pactes, pratiques, amertumes."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Actes 19:18-20 et Deutéronome 18:10-12. Que doit-on faire des objets et pratiques liés aux esprits ?",
+     "refs": [
+      "Actes 19:18-20",
+      "Deutéronome 18:10-12"
+     ],
+     "accompagnateur": {
+      "attendu": "Les croyants d'Éphèse ont apporté leurs livres de magie et les ont brûlés. Dieu condamne la divination, la sorcellerie, la consultation des morts.",
+      "expliquer": [
+       "Gris-gris, amulettes, objets de marabout ou de féticheur, statues, sceaux : ne pas les laisser à la maison. Le faire avec l'accord de la personne et avec prière."
+      ],
+      "relance": "Y a-t-il dans ta maison un objet à retirer ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Lis Jacques 4:7 et 1 Jean 5:18. Que promet Dieu à celui qui se soumet à lui ?",
+     "refs": [
+      "Jacques 4:7",
+      "1 Jean 5:18"
+     ],
+     "accompagnateur": {
+      "attendu": "Résistez au diable, et il fuira loin de vous. Celui qui est né de Dieu se garde, et le malin ne le touche pas.",
+      "expliquer": [
+       "Se soumettre à Dieu d'abord (pas 4 du volume 1)."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Mon plan",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon plan de combat",
+     "texte": [
+      "1. Une attaque que je reconnais en moi :",
+      "2. Une porte à fermer :",
+      "3. Un objet ou une habitude à retirer :",
+      "4. Une vérité de la Parole pour répondre :",
+      "5. Une personne de confiance avec qui prier :"
+     ],
+     "champ": "Mon plan",
+     "id": "plan-combat"
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Écris Éphésiens 6:12 de mémoire.",
+     "refs": [
+      "Éphésiens 6:12"
+     ],
+     "accompagnateur": {
+      "attendu": "« Car nous n'avons pas à lutter contre la chair et le sang, mais contre les dominations, contre les autorités, contre les princes de ce monde de ténèbres, contre les esprits méchants dans les lieux célestes. »",
+      "expliquer": [
+       "Réviser 2 Corinthiens 5:17."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne la réalité du combat, s'appuie sur la victoire de Jésus et ferme les portes ouvertes.",
+   "Prier avec elle contre les peurs, les attaques et les objets liés aux esprits.",
+   "Éviter les excès et la peur."
+  ],
+  "preparation": [
+   "Relire le bilan de vie, surtout les points liés aux pratiques, objets et peurs.",
+   "Lire le pas 5 en entier et prier la veille.",
+   "Prévoir une autre personne pour prier avec toi si besoin."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur son identité en Christ (pas 4)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Un vrai combat",
+    "minutes": 20,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "La victoire de Jésus",
+    "minutes": 20,
+    "conseils": [
+     "Questions 3 et 4."
+    ]
+   },
+   {
+    "titre": "Les portes ouvertes",
+    "minutes": 35,
+    "conseils": [
+     "Questions 5 à 7. Prier ensemble pour retirer ce qui doit l'être."
+    ]
+   },
+   {
+    "titre": "Mon plan et remise du pas 6",
+    "minutes": 20,
+    "conseils": [
+     "Tableau et question 8. Réciter Éphésiens 6:12. Remettre le pas 6 « Les armes de Dieu »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas tomber dans la peur du diable : toujours revenir à Jésus.",
+   "Ne pas attribuer au diable les problèmes qui viennent des péchés ou de la santé. Discerner avec sagesse.",
+   "En cas de manifestations fortes (voix, convulsions, violence), ne pas rester seul : appeler le pasteur et d'autres frères mûrs."
+  ]
+ }
+}

@@ -1,0 +1,278 @@
+{
+ "id": "v2-pas-13-parler-de-christ",
+ "volume": 2,
+ "numero": 13,
+ "titre": "Parler de Christ",
+ "sous_titre": "Annoncer l'Évangile simplement, avec amour et sagesse",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v2-12-parler-de-christ",
+ "verset_memoire": "Actes 1:8",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Prie chaque jour pour tes cinq noms.",
+  "jours": [
+   "Jean 4:1-42",
+   "Actes 8:26-40",
+   "Actes 10",
+   "Actes 16:25-34",
+   "Actes 17:16-34",
+   "Romains 10:1-17",
+   "Colossiens 4"
+  ]
+ },
+ "introduction": [
+  "Tu as déjà préparé ton témoignage au volume 1. Maintenant, tu vas apprendre à présenter l'Évangile lui-même, dans une conversation.",
+  "Cette semaine, tu vas préparer un chemin simple et prier pour les personnes que Dieu te met sur le cœur."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Parler de Christ, c'est gagner des débats.",
+       "reponse": false,
+       "explication": "2 Timothée 2:24-25 : le serviteur du Seigneur ne doit pas disputer, mais instruire avec douceur."
+      },
+      {
+       "id": "vf2",
+       "texte": "L'amitié et la vie sont la meilleure porte pour l'Évangile.",
+       "reponse": true,
+       "explication": "Jean 1:39 ; Actes 10:24."
+      },
+      {
+       "id": "vf3",
+       "texte": "Il faut insister jusqu'à ce que la personne dise oui.",
+       "reponse": false,
+       "explication": "Nous semons, le Saint-Esprit convainc (1 Corinthiens 3:6-7)."
+      },
+      {
+       "id": "vf4",
+       "texte": "Je peux utiliser un chemin simple pour présenter l'Évangile.",
+       "reponse": true,
+       "explication": "Par exemple : Dieu, l'homme, Jésus, ma réponse."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Une conversation naturelle",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Jean 4:5-26. Comment Jésus engage-t-il la conversation avec la Samaritaine ?",
+     "refs": [
+      "Jean 4:5-26"
+     ],
+     "accompagnateur": {
+      "attendu": "Il part d'une demande ordinaire (donne-moi à boire), pose des questions, parle de ce qu'elle vit, puis se révèle.",
+      "expliquer": [
+       "Poser des questions, écouter, parler de sa vie, puis de Jésus. Ne pas faire un discours."
+      ],
+      "relance": "À qui voudrais-tu parler de Jésus ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Colossiens 4:2-6 et 1 Pierre 3:15-16. Comment parler et prier pour une ouverture ?",
+     "refs": [
+      "Colossiens 4:2-6",
+      "1 Pierre 3:15-16"
+     ],
+     "accompagnateur": {
+      "attendu": "Prier pour que Dieu ouvre une porte. Parler avec grâce, assaisonnée de sel. Être prêt à rendre compte de l'espérance, avec douceur et respect.",
+      "expliquer": [
+       "Prier pour des noms précis avant de parler."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Un message simple",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Romains 3:23, Romains 6:23, Romains 5:8 et Jean 14:6. Quel chemin simple présentent ces versets ?",
+     "refs": [
+      "Romains 3:23",
+      "Romains 6:23",
+      "Romains 5:8",
+      "Jean 14:6"
+     ],
+     "accompagnateur": {
+      "attendu": "Tous ont péché ; le salaire du péché est la mort ; Dieu a prouvé son amour en Christ mort pour nous ; Jésus est le chemin.",
+      "expliquer": [
+       "Refaire avec la personne : Dieu nous aime, le péché nous sépare, Jésus a payé, je dois croire et recevoir (voir le pas 1 du volume 1)."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Jean 3:16-17 et Actes 16:30-31. Comment répondre quand quelqu'un demande « Que dois-je faire pour être sauvé ? »",
+     "refs": [
+      "Jean 3:16-17",
+      "Actes 16:30-31"
+     ],
+     "accompagnateur": {
+      "attendu": "Croire au Seigneur Jésus. Dieu a tant aimé le monde qu'il a donné son Fils.",
+      "expliquer": [
+       "Savoir prier avec quelqu'un qui veut croire : repentir, foi, invitation à Jésus."
+      ]
+     }
+    },
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon chemin en quelques phrases",
+     "texte": [
+      "Écris le chemin du salut en quatre phrases simples, comme tu l'expliquerais à un ami :",
+      "1. Dieu…",
+      "2. L'homme…",
+      "3. Jésus…",
+      "4. Ma réponse…"
+     ],
+     "champ": "Mon chemin",
+     "id": "mon-chemin"
+    }
+   ]
+  },
+  {
+   "titre": "III. Les objections et les blessures",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis 2 Timothée 2:23-26 et Proverbes 15:1. Que faire quand la conversation devient tendue ?",
+     "refs": [
+      "2 Timothée 2:23-26",
+      "Proverbes 15:1"
+     ],
+     "accompagnateur": {
+      "attendu": "Éviter les disputes. Être doux envers tous, instruire avec douceur ceux qui s'opposent. Une réponse douce calme la fureur.",
+      "expliquer": [
+       "Répondre simplement, reconnaître ce qu'on ne sait pas, ne pas insulter."
+      ],
+      "relance": "Comment réagis-tu quand on se moque de ta foi ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Actes 17:22-34. Comment Paul s'adresse-t-il aux Athéniens ? Quelles sont les réactions ?",
+     "refs": [
+      "Actes 17:22-34"
+     ],
+     "accompagnateur": {
+      "attendu": "Il part de ce qu'ils connaissent (l'autel au dieu inconnu, leurs poètes), annonce Dieu créateur, la résurrection. Les uns se moquent, d'autres veulent l'entendre encore, quelques-uns croient.",
+      "expliquer": [
+       "Les réactions sont diverses. On n'est pas responsable du résultat."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Écris les noms de cinq personnes à qui tu veux parler de Jésus et prie pour elles chaque jour. Quelle est la première étape ?",
+     "refs": [
+      "Luc 10:2"
+     ],
+     "accompagnateur": {
+      "attendu": "Une liste de cinq noms, une prière régulière, un premier geste concret (invitation, visite, service).",
+      "expliquer": [
+       "Reprendre la liste du pas 10 du volume 1."
+      ],
+      "relance": "Quel est le premier geste que tu feras cette semaine ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Écris Actes 1:8 de mémoire.",
+     "refs": [
+      "Actes 1:8"
+     ],
+     "accompagnateur": {
+      "attendu": "« Mais vous recevrez une puissance, le Saint-Esprit survenant sur vous, et vous serez mes témoins à Jérusalem, dans toute la Judée, dans la Samarie, et jusqu'aux extrémités de la terre. »",
+      "expliquer": [
+       "Réviser 1 Thessaloniciens 5:21."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne sache présenter l'Évangile en quelques phrases.",
+   "Qu'elle reste douce et patiente devant les objections.",
+   "Qu'elle ait cinq noms et un premier pas concret."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 12 et du pas 10 du volume 1.",
+   "Réviser le pas 1 (le salut) pour t'en servir comme modèle.",
+   "Prier pour les noms de la personne."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur le discernement (pas 12). Retour sur les cinq noms du volume 1."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Une conversation naturelle",
+    "minutes": 20,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Un message simple",
+    "minutes": 35,
+    "conseils": [
+     "Questions 3 et 4 et tableau. Faire dire le chemin à voix haute, puis un jeu de rôle."
+    ]
+   },
+   {
+    "titre": "Objections et blessures",
+    "minutes": 30,
+    "conseils": [
+     "Questions 5 à 8."
+    ]
+   },
+   {
+    "titre": "Verset et remise du pas 14",
+    "minutes": 10,
+    "conseils": [
+     "Réciter Actes 1:8. Remettre le pas 14 « L'avenir »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas pousser la personne à témoigner devant des gens dangereux. Prudence pour un ancien musulman (voir la page de suivi).",
+   "Si la personne a peur ou honte, rappeler le Saint-Esprit et commencer par la prière.",
+   "Garder l'humilité : ce n'est pas nous qui convertissons."
+  ]
+ }
+}

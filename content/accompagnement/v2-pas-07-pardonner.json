@@ -1,0 +1,276 @@
+{
+ "id": "v2-pas-07-pardonner",
+ "volume": 2,
+ "numero": 7,
+ "titre": "Pardonner pour être libre",
+ "sous_titre": "Pardonner à ceux qui m'ont blessé, avec l'aide de Dieu",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v2-07-le-pardon",
+ "verset_memoire": "Éphésiens 4:32",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Prie chaque jour pour une personne de ta liste de pardon.",
+  "jours": [
+   "Matthieu 18",
+   "Luc 15:11-32",
+   "Luc 23:32-43",
+   "Actes 7:54-60",
+   "Genèse 45",
+   "Romains 12",
+   "Psaume 103"
+  ]
+ },
+ "introduction": [
+  "Une personne qui n'a pas pardonné porte un lourd fardeau. Jésus veut te libérer.",
+  "Cette semaine, tu vas faire ta liste de ceux à qui tu dois pardonner, et décider devant Dieu de pardonner."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Pardonner, c'est dire que ce qui m'a été fait n'était pas grave.",
+       "reponse": false,
+       "explication": "Pardonner reconnaît la gravité du mal, mais choisit de ne pas se venger et de le confier à Dieu."
+      },
+      {
+       "id": "vf2",
+       "texte": "Si je n'arrive pas à pardonner, Dieu ne me pardonne pas.",
+       "reponse": false,
+       "explication": "Dieu m'a pardonné en Christ. Mais refuser de pardonner abîme ma relation avec lui (Matthieu 6:14-15)."
+      },
+      {
+       "id": "vf3",
+       "texte": "Pardonner, c'est faire confiance tout de suite à celui qui m'a blessé.",
+       "reponse": false,
+       "explication": "Le pardon est immédiat à donner ; la confiance se reconstruit avec le temps."
+      },
+      {
+       "id": "vf4",
+       "texte": "Le manque de pardon me rend esclave de celui qui m'a blessé.",
+       "reponse": true,
+       "explication": "Hébreux 12:15 : racine d'amertume."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Pourquoi pardonner ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Matthieu 18:21-35. Quelle dette le premier serviteur devait-il ? Quelle dette son compagnon lui devait-il ? Que montre la parabole ?",
+     "refs": [
+      "Matthieu 18:21-35"
+     ],
+     "accompagnateur": {
+      "attendu": "Dix mille talents (une dette impossible à rembourser) contre cent deniers. Dieu nous a pardonné une énorme dette : nous devons pardonner les petites dettes des autres. Celui qui ne pardonne pas est livré aux tourmenteurs.",
+      "expliquer": [
+       "Le pardon de Dieu pour nous est la raison de notre pardon."
+      ],
+      "relance": "À qui dois-tu pardonner en ce moment ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Éphésiens 4:31-32 et Colossiens 3:13. Que demande Dieu ?",
+     "refs": [
+      "Éphésiens 4:31-32",
+      "Colossiens 3:13"
+     ],
+     "accompagnateur": {
+      "attendu": "Bannir amertume, colère, cris, injures. Être bon, compatissant, se pardonnant mutuellement, comme Dieu nous a pardonné en Christ.",
+      "expliquer": [
+       "Le modèle : « comme Dieu nous a pardonné. »"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Ce que pardonner veut dire, et ne veut pas dire",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Romains 12:17-21. Qu'est-ce que je ne dois pas faire ? Que dois-je faire ?",
+     "refs": [
+      "Romains 12:17-21"
+     ],
+     "accompagnateur": {
+      "attendu": "Ne pas rendre le mal pour le mal ni me venger. Laisser Dieu juger. Nourrir mon ennemi, vaincre le mal par le bien.",
+      "expliquer": [
+       "Pardonner n'est pas nier la justice : on peut aller devant le chef, le juge, quand il y a un crime. Mais sans haine."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Luc 23:34 et Actes 7:59-60. Comment Jésus et Étienne ont-ils pardonné ?",
+     "refs": [
+      "Luc 23:34",
+      "Actes 7:59-60"
+     ],
+     "accompagnateur": {
+      "attendu": "En priant pour ceux qui les tuaient : « Père, pardonne-leur » ; « Seigneur, ne leur impute pas ce péché. »",
+      "expliquer": [
+       "Prier pour celui qui m'a blessé est un grand pas vers le pardon."
+      ],
+      "relance": "Peux-tu prier pour cette personne ce soir ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Hébreux 12:14-15 et Marc 11:25. Que produit le manque de pardon ?",
+     "refs": [
+      "Hébreux 12:14-15",
+      "Marc 11:25"
+     ],
+     "accompagnateur": {
+      "attendu": "Une racine d'amertume qui trouble et corrompt beaucoup de gens. Elle empêche la prière.",
+      "expliquer": [
+       "L'amertume garde la personne prisonnière du passé."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Comment pardonner",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Ma liste de pardon",
+     "texte": [
+      "Avec l'aide du Saint-Esprit, écris les noms de ceux qui t'ont blessé :",
+      "1. Qui ? Qu'a-t-il fait ? Ce que j'ai ressenti :",
+      "2. Ma décision : « Je choisis de pardonner à… »",
+      "3. Je confie à Dieu la justice et la vengeance.",
+      "4. Je demande à Dieu de bénir cette personne."
+     ],
+     "champ": "Ma liste",
+     "id": "liste-pardon"
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Pour chaque personne de ta liste, lis à voix haute : « Seigneur, je pardonne à ___ pour ___. Je renonce à la vengeance. Je te confie cette personne. » Qu'as-tu ressenti ?",
+     "refs": [
+      "Matthieu 6:12"
+     ],
+     "accompagnateur": {
+      "attendu": "Un temps de prière sincère, avec des noms. Pas forcément de grands sentiments : le pardon est d'abord une décision.",
+      "expliquer": [
+       "Prier avec la personne pour chaque nom. Ne pas la presser."
+      ],
+      "relance": "Y a-t-il un nom que tu as du mal à écrire ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Dans ta liste, y a-t-il quelqu'un à qui tu en veux à cause d'abus, de violence ou de trahison profonde ? Que décides-tu avec l'aide de ton accompagnateur ?",
+     "refs": [
+      "Psaume 34:19",
+      "Psaume 147:3"
+     ],
+     "accompagnateur": {
+      "attendu": "Une décision de pardon à son rythme, avec soutien. Dieu est près de ceux qui ont le cœur brisé, il guérit les cœurs brisés.",
+      "expliquer": [
+       "Accompagner avec patience. Ne pas minimiser. Envisager une aide spécialisée si nécessaire."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Écris Éphésiens 4:32 de mémoire.",
+     "refs": [
+      "Éphésiens 4:32"
+     ],
+     "accompagnateur": {
+      "attendu": "« Soyez bons les uns envers les autres, compatissants, vous pardonnant réciproquement, comme Dieu vous a pardonné en Christ. »",
+      "expliquer": [
+       "Réviser Éphésiens 6:10-11."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne le pardon et pardonne concrètement à des personnes précises.",
+   "Qu'elle soit libérée de l'amertume.",
+   "L'accompagner sans la presser dans les cas lourds."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 6 et le bilan de vie (blessures, abus, rejet).",
+   "Prévoir du temps et un lieu calme. Prier d'avance.",
+   "Prévoir qui appeler si des révélations graves apparaissent."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur son armure (pas 6)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Pourquoi pardonner ?",
+    "minutes": 20,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Ce que pardonner veut dire",
+    "minutes": 25,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Comment pardonner",
+    "minutes": 45,
+    "conseils": [
+     "Tableau et questions 6 à 8. Prier pour chaque nom, doucement."
+    ]
+   },
+   {
+    "titre": "Verset et remise du pas 8",
+    "minutes": 5,
+    "conseils": [
+     "Réciter Éphésiens 4:32. Remettre le pas 8 « Demander pardon et réparer »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne jamais forcer un pardon superficiel. Pour les abus graves : écouter, ne pas minimiser, ne pas demander de se réconcilier avec l'abuseur.",
+   "Si la personne veut un procès ou une plainte, la soutenir : pardonner n'exclut pas la justice.",
+   "Si des pensées suicidaires ou des souffrances graves apparaissent, chercher de l'aide sans attendre."
+  ]
+ }
+}

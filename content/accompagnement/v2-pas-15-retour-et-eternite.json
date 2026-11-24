@@ -1,0 +1,279 @@
+{
+ "id": "v2-pas-15-retour-et-eternite",
+ "volume": 2,
+ "numero": 15,
+ "titre": "Le retour de Jésus et l'éternité",
+ "sous_titre": "Le jugement, la nouvelle création et l'attente du Seigneur",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v2-14-retour-et-eternite",
+ "verset_memoire": "Tite 2:13",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour ce que le texte dit de l'éternité.",
+  "jours": [
+   "Actes 1:1-11",
+   "Matthieu 25:31-46",
+   "1 Corinthiens 15",
+   "2 Corinthiens 5",
+   "Apocalypse 20",
+   "Apocalypse 21",
+   "Apocalypse 22"
+  ]
+ },
+ "introduction": [
+  "Le dernier pas de ce volume regarde le but : le retour de Jésus, le jugement, et la vie éternelle avec Dieu.",
+  "Cette semaine, tu vas regarder ce que Dieu a préparé pour ceux qui l'aiment, et comment vivre en vue de ce jour."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Le retour de Jésus sera visible par tous.",
+       "reponse": true,
+       "explication": "Actes 1:11 ; Apocalypse 1:7 : « Tout œil le verra. »"
+      },
+      {
+       "id": "vf2",
+       "texte": "Tous les hommes iront au même endroit après la mort.",
+       "reponse": false,
+       "explication": "Matthieu 25:31-46 : la vie éternelle ou le châtiment éternel."
+      },
+      {
+       "id": "vf3",
+       "texte": "Le ciel est seulement un lieu de repos.",
+       "reponse": false,
+       "explication": "C'est la présence de Dieu, la louange et le service dans la nouvelle création (Apocalypse 21-22)."
+      },
+      {
+       "id": "vf4",
+       "texte": "Le jugement dernier concerne les croyants et les non-croyants.",
+       "reponse": true,
+       "explication": "Hébreux 9:27 ; Romains 14:10 ; 2 Corinthiens 5:10. Les croyants sont jugés pour leurs œuvres, non pour leur salut."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Jésus revient",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Actes 1:9-11 et Apocalypse 1:7. Comment Jésus reviendra-t-il ?",
+     "refs": [
+      "Actes 1:9-11",
+      "Apocalypse 1:7"
+     ],
+     "accompagnateur": {
+      "attendu": "De la même manière qu'il est monté : visiblement, sur les nuées. Tout œil le verra.",
+      "expliquer": [
+       "Contraste avec l'idée qu'il reviendra comme simple prophète."
+      ],
+      "relance": "Comment imagines-tu ce jour ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Matthieu 25:31-46 et Apocalypse 20:11-15. Quel est le jugement ? Qui est jugé ?",
+     "refs": [
+      "Matthieu 25:31-46",
+      "Apocalypse 20:11-15"
+     ],
+     "accompagnateur": {
+      "attendu": "Le Fils de l'homme sépare les brebis des boucs. Les morts sont jugés selon leurs œuvres devant le grand trône blanc, et ceux dont le nom n'est pas dans le livre de vie sont jetés dans l'étang de feu.",
+      "expliquer": [
+       "Dire clairement la réalité de l'enfer, avec sérieux et compassion. Lien avec le pas 2 : le livre de vie."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. L'éternité des croyants",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis 2 Corinthiens 5:1-10 et Philippiens 1:21-23. Que se passe-t-il quand un chrétien meurt ?",
+     "refs": [
+      "2 Corinthiens 5:1-10",
+      "Philippiens 1:21-23"
+     ],
+     "accompagnateur": {
+      "attendu": "Être absent du corps, c'est être présent auprès du Seigneur. Mourir est un gain, partir pour être avec Christ est bien meilleur.",
+      "expliquer": [
+       "Réconfort pour ceux qui perdent un proche croyant."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Apocalypse 21:1-8 et 22:1-5. Comment est la nouvelle création ?",
+     "refs": [
+      "Apocalypse 21:1-8",
+      "Apocalypse 22:1-5"
+     ],
+     "accompagnateur": {
+      "attendu": "Un nouveau ciel, une nouvelle terre. Dieu habite avec les hommes, il essuie toute larme, plus de mort, ni de deuil, ni de cri, ni de douleur. Ses serviteurs le serviront et verront sa face.",
+      "expliquer": [
+       "Pas seulement « aller au ciel » : une nouvelle terre où Dieu règne."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis 1 Corinthiens 3:11-15 et 2 Corinthiens 5:10. Que se passe-t-il pour les œuvres des croyants ?",
+     "refs": [
+      "1 Corinthiens 3:11-15",
+      "2 Corinthiens 5:10"
+     ],
+     "accompagnateur": {
+      "attendu": "Elles seront éprouvées par le feu. Il y a des récompenses pour la fidélité. Le salut n'est pas en jeu, car le fondement est Christ.",
+      "expliquer": [
+       "Pas de peur, mais un encouragement à servir avec fidélité."
+      ],
+      "relance": "Qu'est-ce que tu voudrais que le Seigneur trouve dans ta vie à son retour ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Vivre en vue de l'éternité",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Matthieu 6:19-21 et Colossiens 3:1-4. Où doit être mon trésor ? Où doivent être mes pensées ?",
+     "refs": [
+      "Matthieu 6:19-21",
+      "Colossiens 3:1-4"
+     ],
+     "accompagnateur": {
+      "attendu": "Dans le ciel, là où est Christ assis à la droite de Dieu. Chercher les choses d'en haut.",
+      "expliquer": [
+       "Cela change la manière d'utiliser le temps, l'argent et les relations."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Lis Tite 2:11-14 et Apocalypse 22:12, 17, 20. Quelle est la prière de l'Église ?",
+     "refs": [
+      "Tite 2:11-14",
+      "Apocalypse 22:12",
+      "Apocalypse 22:17",
+      "Apocalypse 22:20"
+     ],
+     "accompagnateur": {
+      "attendu": "« Viens, Seigneur Jésus ! » L'Esprit et l'épouse disent : Viens. Que celui qui a soif vienne.",
+      "expliquer": [
+       "Attendre son retour avec joie et pousser les autres à venir à lui."
+      ]
+     }
+    },
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Ma décision",
+     "texte": [
+      "1. Si Jésus revenait aujourd'hui, je serais prêt(e) : oui, non, pas sûr(e).",
+      "2. Ce qui me retient :",
+      "3. Une personne que je veux inviter à venir à Jésus avant son retour :",
+      "4. Ma prière :"
+     ],
+     "champ": "Ma décision",
+     "id": "decision-eternite"
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Écris Tite 2:13 de mémoire.",
+     "refs": [
+      "Tite 2:13"
+     ],
+     "accompagnateur": {
+      "attendu": "« En attendant la bienheureuse espérance, et l'apparition de la gloire de notre grand Dieu et Sauveur Jésus-Christ. »",
+      "expliquer": [
+       "Réviser Jean 14:1-3."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne attende le retour de Jésus avec espérance, et vive en vue de l'éternité.",
+   "Qu'elle soit certaine de son salut et de sa place.",
+   "Célébrer la fin du volume 2."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 14 et le bilan du volume 2.",
+   "Préparer un temps de célébration.",
+   "Réfléchir à la suite : volume 3 (vie ensemble)."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur l'avenir (pas 14)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Jésus revient",
+    "minutes": 25,
+    "conseils": [
+     "Questions 1 et 2. Parler avec sérieux du jugement."
+    ]
+   },
+   {
+    "titre": "L'éternité des croyants",
+    "minutes": 30,
+    "conseils": [
+     "Questions 3 à 5."
+    ]
+   },
+   {
+    "titre": "Vivre en vue de l'éternité",
+    "minutes": 30,
+    "conseils": [
+     "Questions 6 à 8 et tableau."
+    ]
+   },
+   {
+    "titre": "Célébration et remise du volume 3",
+    "minutes": 10,
+    "conseils": [
+     "Réciter Tite 2:13 et Jean 14:1-3. Prier, remercier. Présenter le volume 3 « Vivre ensemble »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas utiliser la peur du jugement pour manipuler.",
+   "Si la personne a un doute sur son salut, revenir au pas 2 du volume 1.",
+   "Prendre le temps de célébrer : un repas, une prière, un petit mot."
+  ]
+ }
+}
