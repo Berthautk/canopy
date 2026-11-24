@@ -1,0 +1,284 @@
+{
+ "id": "v3-pas-09-s-exhorter",
+ "volume": 3,
+ "numero": 9,
+ "titre": "S'exhorter les uns les autres",
+ "sous_titre": "Se dire la vérité dans l'amour pour grandir ensemble",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v3-08-s-exhorter",
+ "verset_memoire": "Hébreux 3:13",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour une exhortation que tu reçois ou que tu donnes.",
+  "jours": [
+   "Hébreux 3",
+   "Hébreux 10:19-25",
+   "Proverbes 27",
+   "Colossiens 3",
+   "2 Timothée 4",
+   "Tite 2",
+   "2 Samuel 12"
+  ]
+ },
+ "introduction": [
+  "Parfois, la plus grande preuve d'amour est de dire la vérité à quelqu'un. Mais il faut apprendre à le faire.",
+  "Cette semaine, tu vas apprendre à t'exhorter les uns les autres, et à recevoir une exhortation."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Exhorter, c'est la même chose que critiquer.",
+       "reponse": false,
+       "explication": "Exhorter, c'est encourager, avertir et pousser vers le bien, avec amour (Hébreux 3:13)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Tous les chrétiens peuvent s'exhorter, pas seulement les pasteurs.",
+       "reponse": true,
+       "explication": "Romains 15:14 ; Colossiens 3:16."
+      },
+      {
+       "id": "vf3",
+       "texte": "On peut exhorter quelqu'un sans le connaître ni l'aimer.",
+       "reponse": false,
+       "explication": "L'exhortation vient d'une relation d'amour et de confiance."
+      },
+      {
+       "id": "vf4",
+       "texte": "La Parole de Dieu est la base de toute exhortation.",
+       "reponse": true,
+       "explication": "Colossiens 3:16 ; 2 Timothée 3:16-17."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Pourquoi s'exhorter",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Hébreux 3:12-13 et Romains 15:14. Que dit-on de l'exhortation mutuelle ?",
+     "refs": [
+      "Hébreux 3:12-13",
+      "Romains 15:14"
+     ],
+     "accompagnateur": {
+      "attendu": "S'exhorter chaque jour pour ne pas s'endurcir. Les croyants sont pleins de bonté, de connaissance, capables de s'avertir les uns les autres.",
+      "expliquer": [
+       "Le péché trompe. Les frères aident à voir."
+      ],
+      "relance": "As-tu des frères qui peuvent te dire la vérité ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Colossiens 3:16 et 1 Thessaloniciens 5:14. Comment s'exhorte-t-on ?",
+     "refs": [
+      "Colossiens 3:16",
+      "1 Thessaloniciens 5:14"
+     ],
+     "accompagnateur": {
+      "attendu": "Que la parole de Christ habite en vous richement, en vous enseignant et en vous exhortant par des psaumes, des hymnes et des cantiques. Avertir les indisciplinés, consoler les découragés, soutenir les faibles.",
+      "expliquer": [
+       "Les chants, les études bibliques, les conversations simples."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Comment exhorter",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Éphésiens 4:15 et Proverbes 27:5-6, 17. Comment dire la vérité ?",
+     "refs": [
+      "Éphésiens 4:15",
+      "Proverbes 27:5-6",
+      "Proverbes 27:17"
+     ],
+     "accompagnateur": {
+      "attendu": "En aimant, pour grandir en Christ. Les blessures d'un ami valent mieux que les baisers d'un ennemi. Le fer aiguise le fer.",
+      "expliquer": [
+       "Dire la vérité sans amour blesse ; aimer sans vérité trompe."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis 2 Timothée 4:2 et Tite 2:1-8. Quels sont les différents types d'exhortation ?",
+     "refs": [
+      "2 Timothée 4:2",
+      "Tite 2:1-8"
+     ],
+     "accompagnateur": {
+      "attendu": "Prêcher la parole, insister en toute occasion, convaincre, reprendre, exhorter avec patience. Les anciens, les jeunes, les femmes, les hommes ont chacun des exhortations adaptées.",
+      "expliquer": [
+       "Les jeunes ont besoin de sagesse, les aînés de respect, les couples d'amour."
+      ],
+      "relance": "Quelle exhortation te servirait en ce moment ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Recevoir une exhortation",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Proverbes 9:8-9 et 12:1. Comment le sage et l'insensé reçoivent-ils la correction ?",
+     "refs": [
+      "Proverbes 9:8-9",
+      "Proverbes 12:1"
+     ],
+     "accompagnateur": {
+      "attendu": "Le sage aime la correction et devient plus sage ; l'insensé la déteste. Celui qui aime la correction aime la science.",
+      "expliquer": [
+       "Recevoir une exhortation avec humilité, sans se justifier."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis 2 Samuel 12:1-13 et Galates 2:11-14. Comment David et Pierre ont-ils reçu la correction ?",
+     "refs": [
+      "2 Samuel 12:1-13",
+      "Galates 2:11-14"
+     ],
+     "accompagnateur": {
+      "attendu": "David a dit : « J'ai péché contre l'Éternel. » Pierre a reçu l'avertissement de Paul. Un homme peut tomber, mais il peut aussi se repentir.",
+      "expliquer": [
+       "Nathan a eu du courage ; David de l'humilité."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "À qui as-tu donné la permission de te dire la vérité ? À qui peux-tu parler ainsi ?",
+     "refs": [
+      "Proverbes 27:17"
+     ],
+     "accompagnateur": {
+      "attendu": "Un ou deux partenaires de confiance, avec lesquels il y a une relation d'amour et de vérité.",
+      "expliquer": [
+       "Proposer de former des binômes ou petits groupes de croissance."
+      ],
+      "relance": "Comment lui proposer d'en parler ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Mon engagement",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon engagement",
+     "texte": [
+      "1. Une personne qui peut m'exhorter :",
+      "2. Un domaine où j'ai besoin d'être repris :",
+      "3. Une personne que je peux exhorter avec amour :",
+      "4. Ce que je veux lui dire :"
+     ],
+     "champ": "Mon engagement",
+     "id": "exhorter"
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Écris Hébreux 3:13 de mémoire.",
+     "refs": [
+      "Hébreux 3:13"
+     ],
+     "accompagnateur": {
+      "attendu": "« Mais exhortez-vous les uns les autres chaque jour, aussi longtemps qu'on peut dire : Aujourd'hui, afin qu'aucun de vous ne s'endurcisse par la séduction du péché. »",
+      "expliquer": [
+       "Réviser Romains 15:7."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne apprenne à exhorter avec amour et à recevoir l'exhortation.",
+   "Qu'elle ait un partenaire de confiance.",
+   "Éviter le jugement et l'orgueil."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 8.",
+   "Réfléchir à ta propre manière de recevoir la correction.",
+   "Prier pour des relations de vérité."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur l'accueil (pas 8)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Pourquoi s'exhorter",
+    "minutes": 25,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Comment exhorter",
+    "minutes": 25,
+    "conseils": [
+     "Questions 3 et 4."
+    ]
+   },
+   {
+    "titre": "Recevoir une exhortation",
+    "minutes": 30,
+    "conseils": [
+     "Questions 5 à 7."
+    ]
+   },
+   {
+    "titre": "Mon engagement et remise du pas 10",
+    "minutes": 15,
+    "conseils": [
+     "Tableau et question 8. Remettre le pas 10 « Se reprendre avec douceur »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Une personne blessée par la critique peut mal recevoir : commencer par l'écouter.",
+   "Ne pas laisser la personne exhorter publiquement, humilier.",
+   "Si la personne reçoit des exhortations dures dans son église, l'écouter et l'aider à discerner."
+  ]
+ }
+}

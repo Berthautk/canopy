@@ -1,0 +1,283 @@
+{
+ "id": "v3-pas-06-se-supporter",
+ "volume": 3,
+ "numero": 6,
+ "titre": "Se supporter les uns les autres",
+ "sous_titre": "Patience, humilité et amour face aux défauts des autres",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v3-06-se-supporter",
+ "verset_memoire": "Colossiens 3:13",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour une personne que tu dois supporter ou prier.",
+  "jours": [
+   "Éphésiens 4",
+   "Colossiens 3",
+   "Romains 14",
+   "Romains 15:1-13",
+   "Matthieu 7:1-5",
+   "Proverbes 10",
+   "Jacques 3"
+  ]
+ },
+ "introduction": [
+  "Aimer des frères parfaits serait facile. La vie de l'Église, c'est aussi aimer des gens imparfaits comme nous.",
+  "Cette semaine, tu vas apprendre à supporter les autres, et à regarder tes propres défauts."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Dans l'Église, tout le monde sera facile à vivre.",
+       "reponse": false,
+       "explication": "Nous avons des caractères, des passés, des cultures différents. Paul demande de se supporter (Éphésiens 4:2)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Se supporter, c'est tout accepter sans jamais parler.",
+       "reponse": false,
+       "explication": "Se supporter, c'est être patient avec les défauts, tout en cherchant la vérité dans l'amour (Éphésiens 4:15)."
+      },
+      {
+       "id": "vf3",
+       "texte": "Je suis aussi une personne difficile à supporter pour quelqu'un.",
+       "reponse": true,
+       "explication": "Romains 3:23 ; Jacques 3:2."
+      },
+      {
+       "id": "vf4",
+       "texte": "L'amour couvre une multitude de péchés.",
+       "reponse": true,
+       "explication": "1 Pierre 4:8 ; Proverbes 10:12."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Pourquoi se supporter",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Éphésiens 4:2-3 et Colossiens 3:12-13. Quelles qualités permettent de se supporter ?",
+     "refs": [
+      "Éphésiens 4:2-3",
+      "Colossiens 3:12-13"
+     ],
+     "accompagnateur": {
+      "attendu": "L'humilité, la douceur, la patience, la compassion, la bonté. On se supporte et on se pardonne.",
+      "expliquer": [
+       "On ne choisit pas ses frères et sœurs dans la foi comme ses amis. C'est un entraînement à l'amour."
+      ],
+      "relance": "Qui est difficile à supporter pour toi ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Romains 15:1-3 et Galates 6:2. Que doivent faire les forts ?",
+     "refs": [
+      "Romains 15:1-3",
+      "Galates 6:2"
+     ],
+     "accompagnateur": {
+      "attendu": "Supporter les faiblesses de ceux qui ne sont pas forts, ne pas chercher leur propre plaisir. Porter les fardeaux. Christ non plus ne s'est pas complu en lui-même.",
+      "expliquer": [
+       "Faiblesses : manque de maturité, caractère, culture, maladresses."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Les défauts des autres, et les miens",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Matthieu 7:1-5. Que dit Jésus de la paille et de la poutre ?",
+     "refs": [
+      "Matthieu 7:1-5"
+     ],
+     "accompagnateur": {
+      "attendu": "Ne juge pas ; commence par ôter la poutre de ton œil avant de voir la paille dans l'œil de ton frère.",
+      "expliquer": [
+       "Voir mes propres défauts d'abord."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Proverbes 17:9, 19:11 et 1 Pierre 4:8. Que fait l'amour des offenses ?",
+     "refs": [
+      "Proverbes 17:9",
+      "Proverbes 19:11",
+      "1 Pierre 4:8"
+     ],
+     "accompagnateur": {
+      "attendu": "Il couvre la faute au lieu de la raconter. La sagesse de l'homme le rend lent à la colère, et sa gloire est d'oublier les offenses. L'amour couvre une multitude de péchés.",
+      "expliquer": [
+       "Ne pas colporter. La médisance détruit les églises."
+      ],
+      "relance": "Y a-t-il une histoire que tu devrais cesser de raconter ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Quand c'est dur",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Jacques 5:9, Philippiens 2:14 et Romains 14:1-4. Que dit-on de la plainte et des jugements ?",
+     "refs": [
+      "Jacques 5:9",
+      "Philippiens 2:14",
+      "Romains 14:1-4"
+     ],
+     "accompagnateur": {
+      "attendu": "Ne pas se plaindre les uns des autres. Faire tout sans murmures. Ne pas mépriser ni juger celui dont la conscience est différente.",
+      "expliquer": [
+       "Murmures sur le pasteur, les musiciens, les offrandes… à éviter."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Matthieu 18:15 et Proverbes 27:5-6. Quand faut-il parler ?",
+     "refs": [
+      "Matthieu 18:15",
+      "Proverbes 27:5-6"
+     ],
+     "accompagnateur": {
+      "attendu": "Quand le péché est réel et que la relation est en danger : parler seul à seul. Mieux vaut une réprimande ouverte qu'un amour caché. Les blessures d'un ami sont fidèles.",
+      "expliquer": [
+       "Distinguer entre un défaut (à supporter) et un péché (à corriger avec amour)."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Quelle personne de ton église vas-tu prendre l'engagement de supporter avec patience ? Pourquoi ?",
+     "refs": [
+      "Colossiens 3:13"
+     ],
+     "accompagnateur": {
+      "attendu": "Un nom, une raison, un geste concret.",
+      "expliquer": [
+       "Prier pour cette personne chaque jour."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Mon engagement",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon engagement",
+     "texte": [
+      "1. La personne que je veux supporter avec patience :",
+      "2. Ce qui m'agace chez elle :",
+      "3. Ce que Dieu veut peut-être me montrer à travers elle :",
+      "4. Ma prière :"
+     ],
+     "champ": "Mon engagement",
+     "id": "supporter"
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Écris Colossiens 3:13 de mémoire.",
+     "refs": [
+      "Colossiens 3:13"
+     ],
+     "accompagnateur": {
+      "attendu": "« Supportez-vous les uns les autres, et, si l'un de vous a sujet de se plaindre de l'autre, pardonnez-vous réciproquement. De même que Christ vous a pardonné, pardonnez-vous aussi. »",
+      "expliquer": [
+       "Réviser Galates 5:13."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne apprenne la patience, l'humilité et la discrétion.",
+   "Qu'elle ne médise pas.",
+   "Qu'elle sache parler quand c'est nécessaire."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 5.",
+   "Réfléchir à une personne difficile dans ta propre vie.",
+   "Prier pour la patience."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur son service (pas 5)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Pourquoi se supporter",
+    "minutes": 25,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Mes défauts et ceux des autres",
+    "minutes": 25,
+    "conseils": [
+     "Questions 3 et 4."
+    ]
+   },
+   {
+    "titre": "Quand c'est dur",
+    "minutes": 30,
+    "conseils": [
+     "Questions 5 à 7."
+    ]
+   },
+   {
+    "titre": "Mon engagement et remise du pas 7",
+    "minutes": 15,
+    "conseils": [
+     "Tableau et question 8. Remettre le pas 7 « Se pardonner les uns les autres »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas laisser quelqu'un supporter la violence ou l'abus : distinguer défaut et mal.",
+   "Si la personne se plaint beaucoup d'un responsable, écouter, puis l'orienter vers un dialogue respectueux.",
+   "Rappeler que le médisant détruit l'unité."
+  ]
+ }
+}

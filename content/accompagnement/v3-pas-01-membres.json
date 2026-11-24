@@ -1,0 +1,265 @@
+{
+ "id": "v3-pas-01-membres",
+ "volume": 3,
+ "numero": 1,
+ "titre": "Les uns les autres",
+ "sous_titre": "Nous sommes membres du même corps",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v3-01-membres",
+ "verset_memoire": "1 Corinthiens 12:27",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note ce que chaque texte dit des relations dans l'Église.",
+  "jours": [
+   "1 Corinthiens 12",
+   "Romains 12",
+   "Éphésiens 4",
+   "Jean 17",
+   "Galates 3",
+   "Actes 2:41-47",
+   "Jacques 2"
+  ]
+ },
+ "introduction": [
+  "Tu as appris à connaître Dieu, à grandir, à servir. Le volume 3 parle de la vie ensemble : comment vivre avec les autres croyants.",
+  "Cette semaine, tu vas découvrir que tu es membre du corps de Christ, avec des frères et des sœurs de toutes origines."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Je peux vivre ma foi chrétienne seul, sans les autres croyants.",
+       "reponse": false,
+       "explication": "Nous sommes membres d'un même corps (1 Corinthiens 12:12-27). Un membre isolé ne vit pas."
+      },
+      {
+       "id": "vf2",
+       "texte": "Dans l'Église, il y a des membres plus importants que d'autres.",
+       "reponse": false,
+       "explication": "Dieu donne plus d'honneur à ceux qui en manquent (1 Corinthiens 12:22-25)."
+      },
+      {
+       "id": "vf3",
+       "texte": "L'unité de l'Église est un don à garder avec soin.",
+       "reponse": true,
+       "explication": "Éphésiens 4:3."
+      },
+      {
+       "id": "vf4",
+       "texte": "Les différences de tribu, de langue ou de classe ne comptent pas devant Dieu.",
+       "reponse": true,
+       "explication": "Galates 3:28 ; Apocalypse 7:9."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Un seul corps",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Romains 12:4-5 et 1 Corinthiens 12:12-14. Quelle image Paul utilise-t-il pour l'Église ?",
+     "refs": [
+      "Romains 12:4-5",
+      "1 Corinthiens 12:12-14"
+     ],
+     "accompagnateur": {
+      "attendu": "Le corps : plusieurs membres, un seul corps. Nous sommes membres les uns des autres.",
+      "expliquer": [
+       "Pas de membre inutile. Nous avons besoin les uns des autres."
+      ],
+      "relance": "Quel membre du corps es-tu dans ton église ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis 1 Corinthiens 12:21-26. Que dit Paul de la manière de traiter les membres ?",
+     "refs": [
+      "1 Corinthiens 12:21-26"
+     ],
+     "accompagnateur": {
+      "attendu": "L'œil ne peut pas dire à la main « je n'ai pas besoin de toi ». Ceux qui paraissent les plus faibles sont nécessaires. Si un membre souffre, tous souffrent ; si un est honoré, tous se réjouissent.",
+      "expliquer": [
+       "Ne pas mépriser les petits, les pauvres, les jeunes, les nouveaux. Partager les peines et les joies."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. L'unité qui vient de l'Esprit",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Éphésiens 4:1-6. Quels sont les sept « un » ? Que faut-il faire pour garder l'unité ?",
+     "refs": [
+      "Éphésiens 4:1-6"
+     ],
+     "accompagnateur": {
+      "attendu": "Un seul corps, un seul Esprit, une seule espérance, un seul Seigneur, une seule foi, un seul baptême, un seul Dieu. Marcher avec humilité, douceur, patience, support mutuel, soin de garder l'unité de l'Esprit par le lien de la paix.",
+      "expliquer": [
+       "L'unité n'est pas l'uniformité : c'est la paix entre des personnes différentes."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Jean 17:20-23. Pour quoi Jésus prie-t-il ? Pourquoi est-ce important ?",
+     "refs": [
+      "Jean 17:20-23"
+     ],
+     "accompagnateur": {
+      "attendu": "Que tous soient un, afin que le monde croie. L'unité des chrétiens est un témoignage au monde.",
+      "expliquer": [
+       "Les divisions, les rivalités entre églises ou personnes, affaiblissent le témoignage."
+      ],
+      "relance": "Y a-t-il une division dans ton église ou ta famille chrétienne ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Toutes les tribus et toutes les langues",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Galates 3:26-28 et Apocalypse 7:9. Qui est dans l'Église ?",
+     "refs": [
+      "Galates 3:26-28",
+      "Apocalypse 7:9"
+     ],
+     "accompagnateur": {
+      "attendu": "Il n'y a plus ni Juif ni Grec, ni esclave ni libre, ni homme ni femme : tous un en Christ. Une foule de toute nation, tribu, peuple et langue devant le trône.",
+      "expliquer": [
+       "Parler franchement du tribalisme et du favoritisme ethnique dans les églises."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Jacques 2:1-9. Quel péché Jacques condamne-t-il ?",
+     "refs": [
+      "Jacques 2:1-9"
+     ],
+     "accompagnateur": {
+      "attendu": "Faire des différences entre le riche et le pauvre dans l'assemblée : le favoritisme est un péché.",
+      "expliquer": [
+       "Accueillir de la même manière le pauvre, le riche, l'étranger, celui d'une autre ethnie."
+      ],
+      "relance": "As-tu déjà été mal accueilli ? As-tu déjà mal accueilli quelqu'un ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Mon engagement",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Les uns des autres",
+     "texte": [
+      "1. Ma place dans le corps (mon don, mon service) :",
+      "2. Quelqu'un que je néglige dans l'église :",
+      "3. Une division que je veux aider à guérir :",
+      "4. Une personne dont j'ai besoin :"
+     ],
+     "champ": "Mon engagement",
+     "id": "membres-engagement"
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Écris 1 Corinthiens 12:27 de mémoire.",
+     "refs": [
+      "1 Corinthiens 12:27"
+     ],
+     "accompagnateur": {
+      "attendu": "« Vous êtes le corps de Christ, et chacun de vous en particulier est un de ses membres. »",
+      "expliquer": [
+       "Réviser Tite 2:13."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne qu'elle est membre d'un corps et a besoin des autres.",
+   "Parler du tribalisme et du favoritisme.",
+   "Introduire le volume 3 : « les uns les autres »."
+  ],
+  "preparation": [
+   "Relire tes notes de fin de volume 2.",
+   "Connaître la composition de l'église de la personne (ethnies, âges, milieux).",
+   "Prier pour l'unité."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 20,
+    "conseils": [
+     "Fin du volume 2. Présenter le volume 3."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Un seul corps",
+    "minutes": 25,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "L'unité qui vient de l'Esprit",
+    "minutes": 25,
+    "conseils": [
+     "Questions 3 et 4."
+    ]
+   },
+   {
+    "titre": "Toutes les tribus et toutes les langues",
+    "minutes": 30,
+    "conseils": [
+     "Questions 5 et 6. Parler honnêtement du tribalisme."
+    ]
+   },
+   {
+    "titre": "Mon engagement et remise du pas 2",
+    "minutes": 10,
+    "conseils": [
+     "Tableau et question 7. Remettre le pas 2 « S'aimer les uns les autres »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Le tribalisme est un sujet sensible : écouter, ne pas accuser, reconnaître que chacun peut en porter une part.",
+   "Si la personne a été blessée dans l'église par discrimination, écouter longuement.",
+   "Ne pas se limiter à l'église locale : parler aussi de l'Église dans le monde."
+  ]
+ }
+}

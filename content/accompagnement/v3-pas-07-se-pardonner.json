@@ -1,0 +1,281 @@
+{
+ "id": "v3-pas-07-se-pardonner",
+ "volume": 3,
+ "numero": 7,
+ "titre": "Se pardonner les uns les autres",
+ "sous_titre": "Pardonner et se réconcilier dans l'Église",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v2-07-le-pardon",
+ "verset_memoire": "Matthieu 18:21-22",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Prie chaque jour pour la personne avec qui tu as un conflit.",
+  "jours": [
+   "Matthieu 18",
+   "Genèse 33",
+   "Genèse 45",
+   "Luc 17:1-10",
+   "Actes 15:36-41",
+   "Philémon",
+   "2 Timothée 4"
+  ]
+ },
+ "introduction": [
+  "Dans toute église, il y a des conflits. Ce qui compte, c'est comment on les traite.",
+  "Cette semaine, tu vas apprendre à pardonner et à régler les conflits comme Jésus l'enseigne."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Dans l'Église, il n'y a pas de conflits.",
+       "reponse": false,
+       "explication": "Même les apôtres ont eu des désaccords (Actes 15:36-41)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Il faut pardonner même si l'autre ne demande pas pardon.",
+       "reponse": true,
+       "explication": "Marc 11:25 ; Luc 23:34."
+      },
+      {
+       "id": "vf3",
+       "texte": "La réconciliation est toujours possible si l'autre est de bonne foi.",
+       "reponse": false,
+       "explication": "Romains 12:18 : « autant que cela dépend de vous. »"
+      },
+      {
+       "id": "vf4",
+       "texte": "Dieu prend au sérieux les relations brisées entre chrétiens.",
+       "reponse": true,
+       "explication": "Matthieu 5:23-24 ; 1 Jean 4:20."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Pardonner dans l'Église",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Matthieu 18:21-22 et Luc 17:3-4. Combien de fois faut-il pardonner ?",
+     "refs": [
+      "Matthieu 18:21-22",
+      "Luc 17:3-4"
+     ],
+     "accompagnateur": {
+      "attendu": "Soixante-dix fois sept fois : sans compter. Si ton frère se repent, pardonne-lui, même sept fois par jour.",
+      "expliquer": [
+       "Rappel du pas 7 du volume 2 (pardonner pour être libre)."
+      ],
+      "relance": "Pardonnes-tu facilement ou difficilement ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Éphésiens 4:31-32 et Colossiens 3:13. Quel est le modèle du pardon ?",
+     "refs": [
+      "Éphésiens 4:31-32",
+      "Colossiens 3:13"
+     ],
+     "accompagnateur": {
+      "attendu": "Comme Dieu nous a pardonné en Christ.",
+      "expliquer": [
+       "Un pardon qui ne se limite pas aux mots."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Quand le conflit est là",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Matthieu 18:15-17. Quelles sont les étapes pour régler un conflit ?",
+     "refs": [
+      "Matthieu 18:15-17"
+     ],
+     "accompagnateur": {
+      "attendu": "1) Aller seul voir son frère. 2) Prendre un ou deux témoins. 3) Le dire à l'Église. 4) Si le frère n'écoute pas, le traiter comme un païen.",
+      "expliquer": [
+       "Ne pas aller d'abord se plaindre aux autres. Respecter l'ordre."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Actes 15:36-41 et 2 Timothée 4:11. Que s'est-il passé entre Paul et Barnabas ? Comment finit l'histoire ?",
+     "refs": [
+      "Actes 15:36-41",
+      "2 Timothée 4:11"
+     ],
+     "accompagnateur": {
+      "attendu": "Désaccord sur Jean-Marc : ils se séparent. Plus tard, Paul demande : « Prends Marc et amène-le avec toi, car il m'est utile pour le ministère. »",
+      "expliquer": [
+       "Les conflits ne détruisent pas forcément l'œuvre de Dieu ; la grâce peut restaurer."
+      ],
+      "relance": "Une relation est-elle brisée dans ta vie ? Que peux-tu faire pour la restaurer ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. La réconciliation",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Genèse 33:1-11 et Genèse 45:1-15. Comment Ésaü et Joseph réagissent-ils ?",
+     "refs": [
+      "Genèse 33:1-11",
+      "Genèse 45:1-15"
+     ],
+     "accompagnateur": {
+      "attendu": "Ésaü court au-devant de Jacob et l'embrasse. Joseph pleure, pardonne, voit la main de Dieu dans ce qui est arrivé.",
+      "expliquer": [
+       "Le pardon libère et rapproche."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Matthieu 5:23-24 et Romains 12:18. Que faire quand une relation est brisée ?",
+     "refs": [
+      "Matthieu 5:23-24",
+      "Romains 12:18"
+     ],
+     "accompagnateur": {
+      "attendu": "Aller se réconcilier, avant d'offrir son don. Autant que cela dépend de moi, être en paix avec tous.",
+      "expliquer": [
+       "Toujours chercher la paix, mais sans se mettre en danger. Si l'autre refuse, laisser à Dieu."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Y a-t-il quelqu'un dans ton église avec qui tu es en conflit ? Quelle est ta première étape ?",
+     "refs": [
+      "Matthieu 18:15"
+     ],
+     "accompagnateur": {
+      "attendu": "Un nom, une démarche : prier, écrire, rencontrer.",
+      "expliquer": [
+       "Proposer d'accompagner la rencontre ou d'aider à la préparer."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Mon engagement",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon engagement",
+     "texte": [
+      "1. Une relation à restaurer :",
+      "2. Ce que j'ai à reconnaître :",
+      "3. Ce que je dois pardonner :",
+      "4. Ma première démarche :"
+     ],
+     "champ": "Mon engagement",
+     "id": "reconcilier"
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Écris Matthieu 18:21-22 de mémoire.",
+     "refs": [
+      "Matthieu 18:21-22"
+     ],
+     "accompagnateur": {
+      "attendu": "« Alors Pierre s'approcha de lui, et dit : Seigneur, combien de fois mon frère péchera-t-il contre moi, et je lui pardonnerai ? Sera-ce jusqu'à sept fois ? Jésus lui dit : Je ne te dis pas jusqu'à sept fois, mais jusqu'à soixante-dix fois sept fois. »",
+      "expliquer": [
+       "Réviser Colossiens 3:13."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne sache pardonner et régler un conflit selon Matthieu 18.",
+   "Qu'elle ait une première démarche concrète.",
+   "Éviter la médisance."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 6.",
+   "Connaître les conflits éventuels de la personne.",
+   "Prier pour sa paix."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur le support mutuel (pas 6)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Pardonner dans l'Église",
+    "minutes": 20,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Quand le conflit est là",
+    "minutes": 30,
+    "conseils": [
+     "Questions 3 et 4."
+    ]
+   },
+   {
+    "titre": "La réconciliation",
+    "minutes": 35,
+    "conseils": [
+     "Questions 5 à 7."
+    ]
+   },
+   {
+    "titre": "Mon engagement et remise du pas 8",
+    "minutes": 10,
+    "conseils": [
+     "Tableau et question 8. Remettre le pas 8 « S'accepter les uns les autres »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas pousser la personne à rencontrer quelqu'un qui est violent ou dangereux.",
+   "En cas d'abus, impliquer des responsables.",
+   "Ne pas conseiller de silence qui protège l'agresseur."
+  ]
+ }
+}

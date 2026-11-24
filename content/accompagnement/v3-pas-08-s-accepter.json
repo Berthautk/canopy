@@ -1,0 +1,284 @@
+{
+ "id": "v3-pas-08-s-accepter",
+ "volume": 3,
+ "numero": 8,
+ "titre": "S'accepter les uns les autres",
+ "sous_titre": "Accueillir comme Christ nous a accueillis, sans barrières",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v3-07-s-accepter",
+ "verset_memoire": "Romains 15:7",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour une barrière que Dieu abat.",
+  "jours": [
+   "Actes 10",
+   "Galates 2",
+   "Éphésiens 2",
+   "Jacques 2",
+   "Philémon",
+   "Romains 14",
+   "Romains 15:1-13"
+  ]
+ },
+ "introduction": [
+  "Dieu accueille tout le monde. Mais nous mettons parfois des barrières entre nous : tribu, classe, passé, religion.",
+  "Cette semaine, tu vas regarder honnêtement tes barrières, et décider d'accueillir comme Christ t'a accueilli."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Dieu fait des différences entre les personnes selon leur tribu ou leur richesse.",
+       "reponse": false,
+       "explication": "Actes 10:34-35 : Dieu ne fait pas acception de personnes."
+      },
+      {
+       "id": "vf2",
+       "texte": "Christ m'a accepté tel que j'étais pour que j'accepte les autres.",
+       "reponse": true,
+       "explication": "Romains 15:7."
+      },
+      {
+       "id": "vf3",
+       "texte": "Je peux refuser quelqu'un à cause de son passé.",
+       "reponse": false,
+       "explication": "Dieu accueille ceux que les hommes rejettent (Luc 15:1-2 ; Actes 9:26-27)."
+      },
+      {
+       "id": "vf4",
+       "texte": "Accepter quelqu'un, c'est approuver son péché.",
+       "reponse": false,
+       "explication": "Jésus a accueilli les pécheurs sans approuver leur péché : « Va, et ne pèche plus » (Jean 8:11)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Christ m'a accepté",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Romains 15:7 et Éphésiens 2:11-19. Comment Christ nous a-t-il accueillis ?",
+     "refs": [
+      "Romains 15:7",
+      "Éphésiens 2:11-19"
+     ],
+     "accompagnateur": {
+      "attendu": "Il nous a accueillis pour la gloire de Dieu, nous qui étions loin. Il a fait tomber le mur de séparation et fait de deux peuples un seul.",
+      "expliquer": [
+       "Nous ne sommes pas acceptés par nos mérites, mais par grâce."
+      ],
+      "relance": "Qu'est-ce que cela change pour toi de savoir que Christ t'a accepté ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Luc 15:1-2 et Jean 4:7-9. Qui Jésus accueille-t-il ? Comment les gens réagissent-ils ?",
+     "refs": [
+      "Luc 15:1-2",
+      "Jean 4:7-9"
+     ],
+     "accompagnateur": {
+      "attendu": "Les pécheurs et les collecteurs d'impôts, une Samaritaine. Les pharisiens murmurent.",
+      "expliquer": [
+       "Jésus franchit les barrières : ethnie, sexe, réputation."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Sans acception de personnes",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Actes 10:28, 34-35 et Jacques 2:1-9. Quelles sont les barrières que Dieu abat ?",
+     "refs": [
+      "Actes 10:28",
+      "Actes 10:34-35",
+      "Jacques 2:1-9"
+     ],
+     "accompagnateur": {
+      "attendu": "Pierre comprend qu'il ne doit appeler aucun homme impur ou souillé. Dieu ne fait pas acception de personnes. Le favoritisme envers le riche est un péché.",
+      "expliquer": [
+       "Barrières chez nous : tribu, région, langue, classe sociale, niveau d'instruction, genre, religion d'origine (ancien musulman), passé (prison, prostitution, sorcellerie)."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Galates 2:11-16 et Colossiens 3:11. Que dit Paul à Pierre ? Qu'est-ce qui change en Christ ?",
+     "refs": [
+      "Galates 2:11-16",
+      "Colossiens 3:11"
+     ],
+     "accompagnateur": {
+      "attendu": "Pierre se séparait des païens par peur ; Paul le reprend publiquement. En Christ, il n'y a ni Grec ni Juif, ni barbare ni Scythe, ni esclave ni libre : Christ est tout et en tous.",
+      "expliquer": [
+       "Même un grand apôtre peut tomber dans le favoritisme par peur."
+      ],
+      "relance": "As-tu déjà été rejeté à cause de ton origine ? As-tu déjà rejeté quelqu'un ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Accueillir ceux que l'on rejette",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Actes 9:26-28 et Philémon 1:15-17. Comment l'Église a-t-elle accueilli Saul et Onésime ?",
+     "refs": [
+      "Actes 9:26-28",
+      "Philémon 1:15-17"
+     ],
+     "accompagnateur": {
+      "attendu": "Les disciples avaient peur de Paul, mais Barnabas l'a pris avec lui. Paul demande à Philémon de recevoir Onésime non plus comme esclave, mais comme un frère bien-aimé.",
+      "expliquer": [
+       "Un ancien voleur, un ancien musulman, un ancien sorcier, une ancienne prostituée, un ancien détenu : Dieu les accueille. L'Église aussi."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Romains 14:1-4 et 15:5-7. Comment accepter celui dont la conscience est différente ?",
+     "refs": [
+      "Romains 14:1-4",
+      "Romains 15:5-7"
+     ],
+     "accompagnateur": {
+      "attendu": "Ne pas mépriser, ne pas juger. Avoir un même sentiment selon Jésus-Christ, accueillir comme Christ nous a accueillis.",
+      "expliquer": [
+       "Les différences de pratique (jeûne, musique, tenue) ne doivent pas diviser."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Y a-t-il une personne ou un groupe que tu as du mal à accepter ? Que décides-tu ?",
+     "refs": [
+      "Romains 15:7"
+     ],
+     "accompagnateur": {
+      "attendu": "Un nom ou un groupe, une raison honnête, un pas : saluer, inviter, s'asseoir à côté de lui.",
+      "expliquer": [
+       "Ne pas culpabiliser, mais encourager un premier geste concret."
+      ],
+      "relance": "Quel est le premier geste ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Mon engagement",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon engagement",
+     "texte": [
+      "1. Une barrière dans mon cœur (tribu, classe, passé, religion) :",
+      "2. Une personne que je veux accueillir :",
+      "3. Mon geste :",
+      "4. Ma prière :"
+     ],
+     "champ": "Mon engagement",
+     "id": "accepter"
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Écris Romains 15:7 de mémoire.",
+     "refs": [
+      "Romains 15:7"
+     ],
+     "accompagnateur": {
+      "attendu": "« Accueillez-vous donc les uns les autres, comme Christ vous a accueillis, pour la gloire de Dieu. »",
+      "expliquer": [
+       "Réviser Matthieu 18:21-22."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne examine ses préjugés et décide d'accueillir.",
+   "Soutenir ceux qui se sentent rejetés.",
+   "Parler franchement du tribalisme et du racisme."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 7.",
+   "Réfléchir à tes propres barrières.",
+   "Prier pour l'unité."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur le pardon (pas 7)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Christ m'a accepté",
+    "minutes": 25,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Sans acception de personnes",
+    "minutes": 30,
+    "conseils": [
+     "Questions 3 et 4."
+    ]
+   },
+   {
+    "titre": "Accueillir ceux que l'on rejette",
+    "minutes": 30,
+    "conseils": [
+     "Questions 5 à 7."
+    ]
+   },
+   {
+    "titre": "Mon engagement et remise du pas 9",
+    "minutes": 10,
+    "conseils": [
+     "Tableau et question 8. Remettre le pas 9 « S'exhorter les uns les autres »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas dire « nous n'avons pas de préjugés » : chacun en a.",
+   "Si la personne a elle-même été rejetée, écouter avant d'appeler à accueillir.",
+   "Pour un ancien musulman, ancien prisonnier ou autre : veiller à ce qu'il soit vraiment accueilli."
+  ]
+ }
+}

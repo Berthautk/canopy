@@ -1,0 +1,268 @@
+{
+ "id": "v3-pas-03-amour-en-actes",
+ "volume": 3,
+ "numero": 3,
+ "titre": "L'amour en actes",
+ "sous_titre": "Aimer avec des gestes concrets, pas seulement des paroles",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v3-03-amour-en-actes",
+ "verset_memoire": "1 Jean 3:18",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour une occasion de faire du bien.",
+  "jours": [
+   "1 Jean 3",
+   "Jacques 2",
+   "Luc 10:25-37",
+   "Galates 6",
+   "Actes 4:32-37",
+   "2 Corinthiens 8",
+   "Matthieu 25:31-46"
+  ]
+ },
+ "introduction": [
+  "L'amour n'est pas seulement un sentiment. Il se voit dans les gestes.",
+  "Cette semaine, tu vas chercher un acte concret d'amour à faire pour un frère ou une sœur."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Dire « je t'aime » suffit.",
+       "reponse": false,
+       "explication": "1 Jean 3:18 : n'aimons pas en paroles seulement, mais en actions et en vérité."
+      },
+      {
+       "id": "vf2",
+       "texte": "La foi sans les œuvres est vivante.",
+       "reponse": false,
+       "explication": "Jacques 2:17 : la foi sans les œuvres est morte."
+      },
+      {
+       "id": "vf3",
+       "texte": "Aider quelqu'un dans le besoin, c'est servir Jésus lui-même.",
+       "reponse": true,
+       "explication": "Matthieu 25:40."
+      },
+      {
+       "id": "vf4",
+       "texte": "L'Église doit prendre soin de ses membres pauvres, veuves et orphelins.",
+       "reponse": true,
+       "explication": "Jacques 1:27 ; Actes 6:1-7."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Aimer en actions et en vérité",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis 1 Jean 3:16-18 et Jacques 2:14-17. Comment l'amour se prouve-t-il ?",
+     "refs": [
+      "1 Jean 3:16-18",
+      "Jacques 2:14-17"
+     ],
+     "accompagnateur": {
+      "attendu": "En donnant sa vie, en aidant celui qui est dans le besoin. Dire « allez en paix » sans donner ce qui est nécessaire ne sert à rien.",
+      "expliquer": [
+       "Exemples concrets : un frère malade, un veuf, un étudiant sans frais de scolarité, une famille en deuil."
+      ],
+      "relance": "Qui, autour de toi, a besoin d'aide ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Luc 10:25-37. Pourquoi le Samaritain a-t-il aidé ? Que dit Jésus ?",
+     "refs": [
+      "Luc 10:25-37"
+     ],
+     "accompagnateur": {
+      "attendu": "Il a eu compassion, il s'est approché, a soigné, a payé. Jésus dit : « Va, et toi, fais de même. »",
+      "expliquer": [
+       "Le prêtre et le lévite sont passés. Le prochain est celui que je rencontre, même d'une autre ethnie ou religion."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Porter les fardeaux",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Galates 6:2, 9-10 et Romains 12:15. Que doit-on porter ensemble ?",
+     "refs": [
+      "Galates 6:2",
+      "Galates 6:9-10",
+      "Romains 12:15"
+     ],
+     "accompagnateur": {
+      "attendu": "Les fardeaux les uns des autres. Faire du bien à tous, surtout aux frères en la foi. Se réjouir avec ceux qui se réjouissent, pleurer avec ceux qui pleurent.",
+      "expliquer": [
+       "Être présent aux deuils, aux naissances, aux mariages, aux hôpitaux."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Actes 2:44-45, 4:32-35 et 2 Corinthiens 8:13-15. Comment l'Église primitive partageait-elle ?",
+     "refs": [
+      "Actes 2:44-45",
+      "Actes 4:32-35",
+      "2 Corinthiens 8:13-15"
+     ],
+     "accompagnateur": {
+      "attendu": "Ils mettaient tout en commun, vendaient des biens pour aider. Il y avait égalité : celui qui avait beaucoup n'avait rien de trop, celui qui avait peu ne manquait de rien.",
+      "expliquer": [
+       "Les tontines, les caisses de solidarité, l'entraide dans l'église : des moyens concrets."
+      ],
+      "relance": "Que pourrais-tu donner ou partager ce mois-ci ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Une église qui prend soin",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Jacques 1:27 et 1 Timothée 5:3-8. Qui sont les personnes à aider en premier ?",
+     "refs": [
+      "Jacques 1:27",
+      "1 Timothée 5:3-8"
+     ],
+     "accompagnateur": {
+      "attendu": "Les orphelins et les veuves dans leur détresse. Les veuves qui n'ont personne. La famille d'abord.",
+      "expliquer": [
+       "Aider avec sagesse : ne pas créer de dépendance, ne pas humilier."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Matthieu 25:34-40. Que dit Jésus de ceux qui donnent à manger, boire, vêtir, visiter ?",
+     "refs": [
+      "Matthieu 25:34-40"
+     ],
+     "accompagnateur": {
+      "attendu": "Ce que vous avez fait au plus petit de mes frères, c'est à moi que vous l'avez fait.",
+      "expliquer": [
+       "Chaque geste d'amour est rendu à Jésus."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Mon engagement",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Un acte concret",
+     "texte": [
+      "1. La personne que je veux aider :",
+      "2. Ce que je peux donner (temps, argent, visite, compétence) :",
+      "3. Quand je le ferai :",
+      "4. Avec qui :"
+     ],
+     "champ": "Mon engagement",
+     "id": "acte-concret"
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Écris 1 Jean 3:18 de mémoire.",
+     "refs": [
+      "1 Jean 3:18"
+     ],
+     "accompagnateur": {
+      "attendu": "« Petits enfants, n'aimons pas en paroles et avec la langue, mais en actions et avec vérité. »",
+      "expliquer": [
+       "Réviser Jean 13:34-35."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne soit attentive aux besoins concrets des frères et des sœurs.",
+   "Qu'elle fasse un acte précis cette semaine.",
+   "Éviter les aides qui créent de la dépendance."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 2.",
+   "Connaître les besoins de l'église de la personne.",
+   "Prier pour sa générosité."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur son choix d'aimer (pas 2)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Aimer en actions et en vérité",
+    "minutes": 25,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Porter les fardeaux",
+    "minutes": 25,
+    "conseils": [
+     "Questions 3 et 4."
+    ]
+   },
+   {
+    "titre": "Une église qui prend soin",
+    "minutes": 25,
+    "conseils": [
+     "Questions 5 et 6."
+    ]
+   },
+   {
+    "titre": "Mon engagement et remise du pas 4",
+    "minutes": 20,
+    "conseils": [
+     "Tableau et question 7. Remettre le pas 4 « S'encourager les uns les autres »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Une personne très pauvre ne doit pas être culpabilisée : elle peut donner son temps, sa prière, sa présence.",
+   "Si la personne est elle-même dans le besoin, l'église doit l'aider aussi.",
+   "Ne pas aider par obligation ni pour être vu."
+  ]
+ }
+}

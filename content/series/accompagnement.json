@@ -171,51 +171,63 @@
    "pas": [
     {
      "numero": 1,
-     "titre": "Les uns les autres"
+     "titre": "Les uns les autres",
+     "id": "v3-pas-01-membres"
     },
     {
      "numero": 2,
-     "titre": "S'aimer les uns les autres"
+     "titre": "S'aimer les uns les autres",
+     "id": "v3-pas-02-s-aimer"
     },
     {
      "numero": 3,
-     "titre": "L'amour en actes"
+     "titre": "L'amour en actes",
+     "id": "v3-pas-03-amour-en-actes"
     },
     {
      "numero": 4,
-     "titre": "S'encourager les uns les autres"
+     "titre": "S'encourager les uns les autres",
+     "id": "v3-pas-04-s-encourager"
     },
     {
      "numero": 5,
-     "titre": "Se servir les uns les autres"
+     "titre": "Se servir les uns les autres",
+     "id": "v3-pas-05-se-servir"
     },
     {
      "numero": 6,
-     "titre": "Se supporter les uns les autres"
+     "titre": "Se supporter les uns les autres",
+     "id": "v3-pas-06-se-supporter"
     },
     {
      "numero": 7,
-     "titre": "Se pardonner les uns les autres"
+     "titre": "Se pardonner les uns les autres",
+     "id": "v3-pas-07-se-pardonner"
     },
     {
      "numero": 8,
-     "titre": "S'accepter les uns les autres"
+     "titre": "S'accepter les uns les autres",
+     "id": "v3-pas-08-s-accepter"
     },
     {
      "numero": 9,
-     "titre": "S'exhorter les uns les autres"
+     "titre": "S'exhorter les uns les autres",
+     "id": "v3-pas-09-s-exhorter"
     },
     {
      "numero": 10,
-     "titre": "Se reprendre avec douceur"
+     "titre": "Se reprendre avec douceur",
+     "id": "v3-pas-10-reprendre-avec-douceur"
     },
     {
      "numero": 11,
-     "titre": "Se saluer et s'accueillir"
+     "titre": "Se saluer et s'accueillir",
+     "id": "v3-pas-11-saluer-accueillir"
     },
     {
      "numero": 12,
-     "titre": "L'hospitalité"
+     "titre": "L'hospitalité",
+     "id": "v3-pas-12-hospitalite"
     }
    ]
   }

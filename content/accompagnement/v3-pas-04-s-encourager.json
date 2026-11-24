@@ -1,0 +1,269 @@
+{
+ "id": "v3-pas-04-s-encourager",
+ "volume": 3,
+ "numero": 4,
+ "titre": "S'encourager les uns les autres",
+ "sous_titre": "Fortifier et relever mes frères et mes sœurs",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v3-04-s-encourager",
+ "verset_memoire": "1 Thessaloniciens 5:11",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Écris chaque jour un mot d'encouragement à quelqu'un.",
+  "jours": [
+   "Actes 4:32-37",
+   "Actes 9:19-30",
+   "Actes 11:19-30",
+   "Hébreux 3",
+   "Hébreux 10:19-39",
+   "2 Corinthiens 1",
+   "1 Thessaloniciens 5"
+  ]
+ },
+ "introduction": [
+  "Il y a des jours où chacun a envie d'abandonner. Un mot juste, au bon moment, peut tout changer.",
+  "Cette semaine, tu vas apprendre à encourager comme Barnabas, et choisir trois personnes à fortifier."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Encourager, c'est dire des mots gentils sans importance.",
+       "reponse": false,
+       "explication": "Les paroles d'encouragement fortifient et relèvent (Proverbes 12:25 ; 1 Thessaloniciens 5:11)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Il y a des moments où chaque chrétien a besoin d'être encouragé.",
+       "reponse": true,
+       "explication": "Même Paul a été consolé par l'arrivée de Tite (2 Corinthiens 7:6)."
+      },
+      {
+       "id": "vf3",
+       "texte": "Barnabas est un modèle d'encouragement.",
+       "reponse": true,
+       "explication": "Actes 4:36 : « fils d'encouragement »."
+      },
+      {
+       "id": "vf4",
+       "texte": "Critiquer est plus facile et plus utile qu'encourager.",
+       "reponse": false,
+       "explication": "Éphésiens 4:29 : que les paroles servent à l'édification."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Pourquoi s'encourager",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Hébreux 3:12-13 et Hébreux 10:24-25. Pourquoi s'encourager tous les jours ?",
+     "refs": [
+      "Hébreux 3:12-13",
+      "Hébreux 10:24-25"
+     ],
+     "accompagnateur": {
+      "attendu": "Pour que personne ne s'endurcisse par la séduction du péché. Pour s'exciter à l'amour et aux bonnes œuvres, d'autant plus que le jour approche.",
+      "expliquer": [
+       "Beaucoup abandonnent faute d'encouragement. Une parole au bon moment peut sauver."
+      ],
+      "relance": "Qui t'a encouragé récemment ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis 1 Thessaloniciens 5:11-14. Que demande Paul ? Comment traiter chaque type de personne ?",
+     "refs": [
+      "1 Thessaloniciens 5:11-14"
+     ],
+     "accompagnateur": {
+      "attendu": "S'exhorter et s'édifier mutuellement. Avertir les indisciplinés, consoler ceux qui sont abattus, soutenir les faibles, être patient envers tous.",
+      "expliquer": [
+       "Chaque personne a besoin d'un type d'encouragement différent."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Des modèles d'encouragement",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Actes 4:36-37, 9:26-27 et 11:22-26. Que fait Barnabas ?",
+     "refs": [
+      "Actes 4:36-37",
+      "Actes 9:26-27",
+      "Actes 11:22-26"
+     ],
+     "accompagnateur": {
+      "attendu": "Il donne ses biens, il présente Paul aux apôtres quand tous le craignaient, il va chercher Paul pour l'aider à enseigner. Il voit la grâce de Dieu et encourage.",
+      "expliquer": [
+       "Barnabas croit en ceux que les autres rejettent. Pour un nouveau converti ou quelqu'un au passé lourd : quelle chance d'avoir un Barnabas !"
+      ],
+      "relance": "Quel Barnabas Dieu a-t-il mis près de toi ? Peux-tu en devenir un ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Proverbes 12:25, 15:23 et 25:11. Que fait une bonne parole ?",
+     "refs": [
+      "Proverbes 12:25",
+      "Proverbes 15:23",
+      "Proverbes 25:11"
+     ],
+     "accompagnateur": {
+      "attendu": "Elle réjouit un cœur inquiet. Une parole dite à propos est comme des pommes d'or. Il y a de la joie dans une réponse donnée au bon moment.",
+      "expliquer": [
+       "Encourager, c'est bien choisir ses mots et le moment."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Comment encourager",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Éphésiens 4:29 et Colossiens 4:6. Comment doit être notre parole ?",
+     "refs": [
+      "Éphésiens 4:29",
+      "Colossiens 4:6"
+     ],
+     "accompagnateur": {
+      "attendu": "Bonne, pour l'édification, selon le besoin, pour communiquer la grâce à ceux qui l'entendent. Toujours accompagnée de grâce, assaisonnée de sel.",
+      "expliquer": [
+       "Éviter la flatterie, la moquerie, la comparaison. Dire des choses vraies et précises."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis 1 Thessaloniciens 4:18 et 2 Corinthiens 1:3-4. Pourquoi Dieu nous console-t-il ?",
+     "refs": [
+      "1 Thessaloniciens 4:18",
+      "2 Corinthiens 1:3-4"
+     ],
+     "accompagnateur": {
+      "attendu": "Pour que nous puissions consoler à notre tour ceux qui sont dans l'affliction, avec la consolation que nous avons reçue de Dieu.",
+      "expliquer": [
+       "Notre propre souffrance, quand Dieu nous a consolés, devient un moyen d'encourager."
+      ],
+      "relance": "De quelle épreuve Dieu t'a-t-il consolé ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Mon engagement",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mes encouragements",
+     "texte": [
+      "1. Trois personnes que je veux encourager cette semaine :",
+      "2. Ce que je vais leur dire ou faire :",
+      "3. Une personne qui m'encourage et que je dois remercier :"
+     ],
+     "champ": "Mon engagement",
+     "id": "encouragements"
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Écris 1 Thessaloniciens 5:11 de mémoire.",
+     "refs": [
+      "1 Thessaloniciens 5:11"
+     ],
+     "accompagnateur": {
+      "attendu": "« C'est pourquoi exhortez-vous réciproquement, et édifiez-vous les uns les autres, comme en réalité vous le faites. »",
+      "expliquer": [
+       "Réviser 1 Jean 3:18."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne apprenne à encourager sincèrement et avec précision.",
+   "Qu'elle passe à l'action cette semaine.",
+   "Soutenir ceux qui ont besoin d'être encouragés eux-mêmes."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 3.",
+   "Penser à quelqu'un qui t'a encouragé.",
+   "Prier pour la personne et ses amis."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur son acte concret (pas 3)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Pourquoi s'encourager",
+    "minutes": 25,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Des modèles d'encouragement",
+    "minutes": 25,
+    "conseils": [
+     "Questions 3 et 4."
+    ]
+   },
+   {
+    "titre": "Comment encourager",
+    "minutes": 30,
+    "conseils": [
+     "Questions 5 et 6. Faire un exercice : écrire un message d'encouragement."
+    ]
+   },
+   {
+    "titre": "Mon engagement et remise du pas 5",
+    "minutes": 15,
+    "conseils": [
+     "Tableau et question 7. Remettre le pas 5 « Se servir les uns les autres »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Encourager n'est pas flatter : la sincérité compte.",
+   "Si la personne se sent elle-même découragée, l'encourager d'abord avant de lui demander d'encourager les autres.",
+   "Penser aux isolés de l'église (veuves, nouveaux, malades)."
+  ]
+ }
+}

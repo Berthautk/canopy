@@ -1,0 +1,270 @@
+{
+ "id": "v3-pas-05-se-servir",
+ "volume": 3,
+ "numero": 5,
+ "titre": "Se servir les uns les autres",
+ "sous_titre": "Servir comme Jésus, par amour et avec humilité",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v3-05-se-servir",
+ "verset_memoire": "Galates 5:13",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour un service à rendre.",
+  "jours": [
+   "Jean 13",
+   "Marc 10:35-45",
+   "Philippiens 2",
+   "Romains 12",
+   "Actes 6",
+   "Galates 5:13-26",
+   "1 Pierre 4"
+  ]
+ },
+ "introduction": [
+  "Le Seigneur du ciel a lavé les pieds de ses disciples. Le disciple n'est pas plus grand que son maître.",
+  "Cette semaine, tu vas apprendre à servir tes frères et sœurs, avec humilité."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Servir les autres, c'est se rabaisser.",
+       "reponse": false,
+       "explication": "Jésus, le Seigneur, a lavé les pieds de ses disciples (Jean 13:14-15)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Dans l'Église, les responsables sont là pour être servis.",
+       "reponse": false,
+       "explication": "Marc 10:42-45 : le plus grand parmi vous sera votre serviteur."
+      },
+      {
+       "id": "vf3",
+       "texte": "La liberté chrétienne est une occasion de se servir par amour.",
+       "reponse": true,
+       "explication": "Galates 5:13."
+      },
+      {
+       "id": "vf4",
+       "texte": "Je ne peux servir que si on me demande.",
+       "reponse": false,
+       "explication": "Je peux prendre l'initiative en voyant un besoin (Actes 6:1-7 ; Romains 12:13)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Le modèle du Serviteur",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Jean 13:3-17 et Marc 10:42-45. Que fait Jésus ? Que dit-il aux disciples ?",
+     "refs": [
+      "Jean 13:3-17",
+      "Marc 10:42-45"
+     ],
+     "accompagnateur": {
+      "attendu": "Il lave les pieds de ses disciples, tâche de l'esclave. « Vous devez aussi vous laver les pieds les uns aux autres. » Le Fils de l'homme est venu pour servir.",
+      "expliquer": [
+       "Dans nos cultures, les chefs sont servis. Jésus renverse l'ordre."
+      ],
+      "relance": "Quelle tâche humble as-tu du mal à faire ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Galates 5:13 et 1 Pierre 4:10. Comment utiliser sa liberté et ses dons ?",
+     "refs": [
+      "Galates 5:13",
+      "1 Pierre 4:10"
+     ],
+     "accompagnateur": {
+      "attendu": "Par amour, servir les uns les autres. Chacun met au service des autres le don qu'il a reçu, comme bon gérant de la grâce de Dieu.",
+      "expliquer": [
+       "Lien avec le pas 3 du volume 2 (appelé à servir)."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Servir dans la vie de l'Église",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Romains 12:6-8, 13 et Actes 6:1-4. Quels services sont mentionnés ? Qui les fait ?",
+     "refs": [
+      "Romains 12:6-8",
+      "Romains 12:13",
+      "Actes 6:1-4"
+     ],
+     "accompagnateur": {
+      "attendu": "Enseigner, exhorter, donner, diriger, faire preuve de miséricorde ; subvenir aux besoins des saints, exercer l'hospitalité ; servir aux tables. Des hommes pleins de sagesse sont choisis.",
+      "expliquer": [
+       "Tous les services sont importants : le balai, la porte, le son, l'accueil, les enfants, les visites, la prière."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Philippiens 2:3-8 et Matthieu 20:25-28. Quelle attitude est demandée ?",
+     "refs": [
+      "Philippiens 2:3-8",
+      "Matthieu 20:25-28"
+     ],
+     "accompagnateur": {
+      "attendu": "Ne rien faire par rivalité ni vaine gloire, regarder aux intérêts des autres, avoir la même pensée que Christ. Servir comme lui.",
+      "expliquer": [
+       "Piège : servir pour une position, pour être vu, ou pour dominer."
+      ],
+      "relance": "Pourquoi veux-tu servir ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Servir avec persévérance",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Galates 6:9-10 et 1 Corinthiens 15:58. Que dit Paul à celui qui est fatigué de servir ?",
+     "refs": [
+      "Galates 6:9-10",
+      "1 Corinthiens 15:58"
+     ],
+     "accompagnateur": {
+      "attendu": "Ne pas se lasser de faire le bien : on moissonnera au temps convenable. Votre travail n'est pas vain dans le Seigneur.",
+      "expliquer": [
+       "Prévenir l'épuisement : repos, équipe, rendez-vous avec Dieu."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Matthieu 6:1-4 et Colossiens 3:23-24. Comment servir ?",
+     "refs": [
+      "Matthieu 6:1-4",
+      "Colossiens 3:23-24"
+     ],
+     "accompagnateur": {
+      "attendu": "Sans publicité, de bon cœur, comme pour le Seigneur. La récompense vient de lui.",
+      "expliquer": [
+       "Éviter d'attendre des remerciements."
+      ],
+      "relance": "Qui sert dans l'ombre dans ton église ? Comment l'honorer ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Mon engagement",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mes services",
+     "texte": [
+      "1. Un service régulier que je peux rendre dans l'église :",
+      "2. Un service discret que je peux rendre à quelqu'un :",
+      "3. Ce qui m'empêche :",
+      "4. Avec qui je peux servir :"
+     ],
+     "champ": "Mon engagement",
+     "id": "services"
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Écris Galates 5:13 de mémoire.",
+     "refs": [
+      "Galates 5:13"
+     ],
+     "accompagnateur": {
+      "attendu": "« Frères, vous avez été appelés à la liberté, seulement ne faites pas de cette liberté un prétexte de vivre selon la chair, mais rendez-vous, par amour, serviteurs les uns des autres. »",
+      "expliquer": [
+       "Réviser 1 Thessaloniciens 5:11."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne serve avec humilité et persévérance.",
+   "Qu'elle trouve un service régulier et un service discret.",
+   "Mettre en garde contre l'orgueil et l'épuisement."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 4.",
+   "Connaître les besoins de service de l'église.",
+   "Prier pour l'humilité de la personne."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur ses encouragements (pas 4)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Le modèle du Serviteur",
+    "minutes": 25,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Servir dans la vie de l'Église",
+    "minutes": 25,
+    "conseils": [
+     "Questions 3 et 4."
+    ]
+   },
+   {
+    "titre": "Servir avec persévérance",
+    "minutes": 30,
+    "conseils": [
+     "Questions 5 et 6."
+    ]
+   },
+   {
+    "titre": "Mon engagement et remise du pas 6",
+    "minutes": 15,
+    "conseils": [
+     "Tableau et question 7. Remettre le pas 6 « Se supporter les uns les autres »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Attention à celui qui veut un titre ou un pouvoir.",
+   "Attention à celui qui se surcharge : l'aider à dire non.",
+   "Encourager aussi les femmes et les jeunes dans leurs services."
+  ]
+ }
+}

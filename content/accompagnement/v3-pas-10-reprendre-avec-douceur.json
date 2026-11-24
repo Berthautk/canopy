@@ -1,0 +1,283 @@
+{
+ "id": "v3-pas-10-reprendre-avec-douceur",
+ "volume": 3,
+ "numero": 10,
+ "titre": "Se reprendre avec douceur",
+ "sous_titre": "Corriger avec amour, pour restaurer",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v3-09-reprendre-avec-douceur",
+ "verset_memoire": "Galates 6:1",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour une leçon sur la manière de corriger.",
+  "jours": [
+   "Galates 6",
+   "Matthieu 18",
+   "2 Samuel 12",
+   "1 Corinthiens 5",
+   "2 Corinthiens 2",
+   "2 Timothée 2:14-26",
+   "Jacques 5"
+  ]
+ },
+ "introduction": [
+  "Reprendre quelqu'un est une chose délicate. Mal faite, elle blesse. Bien faite, elle sauve.",
+  "Cette semaine, tu vas apprendre à reprendre avec douceur, et à t'examiner d'abord."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Reprendre un frère, c'est montrer qu'on est meilleur que lui.",
+       "reponse": false,
+       "explication": "Galates 6:1 : reprendre avec un esprit de douceur, en prenant garde à soi-même."
+      },
+      {
+       "id": "vf2",
+       "texte": "Il faut reprendre publiquement pour que ce soit efficace.",
+       "reponse": false,
+       "explication": "Matthieu 18:15 : d'abord seul à seul."
+      },
+      {
+       "id": "vf3",
+       "texte": "Reprendre est un acte d'amour.",
+       "reponse": true,
+       "explication": "Proverbes 27:5-6 ; Hébreux 12:6."
+      },
+      {
+       "id": "vf4",
+       "texte": "Si je n'ai pas de péché, je peux reprendre sans m'examiner.",
+       "reponse": false,
+       "explication": "Matthieu 7:3-5 : d'abord la poutre dans mon œil."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. Pourquoi et quand reprendre",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Galates 6:1 et Jacques 5:19-20. Pourquoi reprendre ? Comment ?",
+     "refs": [
+      "Galates 6:1",
+      "Jacques 5:19-20"
+     ],
+     "accompagnateur": {
+      "attendu": "Pour relever celui qui est surpris en faute, avec douceur, en veillant sur soi-même. Celui qui ramène un pécheur de son égarement sauvera une âme de la mort.",
+      "expliquer": [
+       "L'objectif est la restauration, pas la punition."
+      ],
+      "relance": "As-tu déjà été repris avec douceur ? Qu'est-ce que cela t'a apporté ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Matthieu 7:1-5 et 1 Corinthiens 11:28. Que dois-je faire avant de reprendre ?",
+     "refs": [
+      "Matthieu 7:1-5",
+      "1 Corinthiens 11:28"
+     ],
+     "accompagnateur": {
+      "attendu": "M'examiner moi-même : ôter la poutre de mon œil. S'éprouver soi-même.",
+      "expliquer": [
+       "Reconnaître ses propres fautes donne l'humilité nécessaire."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Comment reprendre",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Matthieu 18:15-17 et Proverbes 15:1. Quelles sont les étapes et le ton ?",
+     "refs": [
+      "Matthieu 18:15-17",
+      "Proverbes 15:1"
+     ],
+     "accompagnateur": {
+      "attendu": "En privé d'abord, puis avec témoins, puis devant l'Église. Une réponse douce calme la fureur ; une parole dure excite la colère.",
+      "expliquer": [
+       "Choisir le moment, le lieu, les mots. Éviter la colère."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Éphésiens 4:15 et 2 Timothée 2:24-26. Quelle attitude doit avoir celui qui reprend ?",
+     "refs": [
+      "Éphésiens 4:15",
+      "2 Timothée 2:24-26"
+     ],
+     "accompagnateur": {
+      "attendu": "Dire la vérité dans l'amour. Être doux envers tous, instruire avec douceur, dans l'espoir que Dieu donne la repentance.",
+      "expliquer": [
+       "Prier avant de parler. Écouter la version de l'autre."
+      ],
+      "relance": "Quelle est ta réaction quand on te dit que tu as tort ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Les situations difficiles",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis 1 Timothée 5:19-20 et Tite 3:10-11. Comment traiter les péchés graves ou répétés ?",
+     "refs": [
+      "1 Timothée 5:19-20",
+      "Tite 3:10-11"
+     ],
+     "accompagnateur": {
+      "attendu": "Ne pas accepter une accusation contre un ancien sans deux ou trois témoins. Reprendre devant tous ceux qui pèchent, afin que les autres craignent. Éviter l'homme qui divise après un ou deux avertissements.",
+      "expliquer": [
+       "Dans les cas graves (adultère, violence, détournement), les responsables de l'Église doivent intervenir."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis 1 Corinthiens 5:1-5 et 2 Corinthiens 2:5-8. Quel est le but de la discipline ? Comment accueillir celui qui se repent ?",
+     "refs": [
+      "1 Corinthiens 5:1-5",
+      "2 Corinthiens 2:5-8"
+     ],
+     "accompagnateur": {
+      "attendu": "Que l'esprit soit sauvé, que celui qui a péché se repente. Quand il se repent, lui pardonner, le consoler, lui confirmer son amour.",
+      "expliquer": [
+       "La discipline vise la restauration. Elle n'est pas une punition."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Y a-t-il quelqu'un à qui tu dois dire une vérité difficile avec amour ? Qui t'aidera à bien le faire ?",
+     "refs": [
+      "Galates 6:1"
+     ],
+     "accompagnateur": {
+      "attendu": "Un nom, une préparation, un lieu, un conseiller.",
+      "expliquer": [
+       "Proposer de s'exercer : dire à voix haute ce qu'on va dire."
+      ],
+      "relance": "Que lui diras-tu, et comment ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Mon engagement",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon engagement",
+     "texte": [
+      "1. La situation où je dois parler :",
+      "2. Ma poutre à enlever d'abord :",
+      "3. Ce que je veux dire avec douceur :",
+      "4. Qui peut prier avec moi :"
+     ],
+     "champ": "Mon engagement",
+     "id": "reprendre"
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Écris Galates 6:1 de mémoire.",
+     "refs": [
+      "Galates 6:1"
+     ],
+     "accompagnateur": {
+      "attendu": "« Frères, si un homme vient à être surpris en faute, vous qui êtes spirituels, redressez-le avec un esprit de douceur. Prends garde à toi-même, de crainte que tu ne sois aussi tenté. »",
+      "expliquer": [
+       "Réviser Hébreux 3:13."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne apprenne à reprendre sans orgueil, avec douceur.",
+   "Qu'elle s'examine d'abord.",
+   "Éviter de reprendre dans la colère."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 9.",
+   "Réfléchir à des cas où tu as bien ou mal repris.",
+   "Prier pour la sagesse."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur l'exhortation (pas 9)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "Pourquoi et quand reprendre",
+    "minutes": 25,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Comment reprendre",
+    "minutes": 25,
+    "conseils": [
+     "Questions 3 et 4."
+    ]
+   },
+   {
+    "titre": "Les situations difficiles",
+    "minutes": 35,
+    "conseils": [
+     "Questions 5 à 7. Faire un jeu de rôle."
+    ]
+   },
+   {
+    "titre": "Mon engagement et remise du pas 11",
+    "minutes": 10,
+    "conseils": [
+     "Tableau et question 8. Remettre le pas 11 « Se saluer et s'accueillir »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne jamais reprendre dans la colère ni devant d'autres.",
+   "En cas d'abus ou de violence, ne pas laisser la victime face à l'abuseur : impliquer les responsables.",
+   "Si la personne a été durement reprise dans son église, la soutenir."
+  ]
+ }
+}

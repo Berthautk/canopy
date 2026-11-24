@@ -1,0 +1,267 @@
+{
+ "id": "v3-pas-02-s-aimer",
+ "volume": 3,
+ "numero": 2,
+ "titre": "S'aimer les uns les autres",
+ "sous_titre": "L'amour que Jésus nous commande et que Dieu répand en nous",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v3-02-s-aimer",
+ "verset_memoire": "Jean 13:34-35",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour comment aimer concrètement.",
+  "jours": [
+   "1 Corinthiens 13",
+   "1 Jean 4",
+   "Jean 13",
+   "Romains 12",
+   "Luc 6:27-38",
+   "1 Pierre 1:13-25",
+   "Philippiens 2:1-11"
+  ]
+ },
+ "introduction": [
+  "Jésus a dit que le monde reconnaîtrait ses disciples à leur amour mutuel.",
+  "Cette semaine, tu vas regarder ce qu'est l'amour, d'où il vient, et comment le vivre."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Aimer, c'est d'abord un sentiment agréable.",
+       "reponse": false,
+       "explication": "L'amour biblique est un choix et une action (1 Corinthiens 13 ; 1 Jean 3:18)."
+      },
+      {
+       "id": "vf2",
+       "texte": "Jésus donne un commandement nouveau : s'aimer comme il nous a aimés.",
+       "reponse": true,
+       "explication": "Jean 13:34-35."
+      },
+      {
+       "id": "vf3",
+       "texte": "Je peux dire que j'aime Dieu en détestant mon frère.",
+       "reponse": false,
+       "explication": "1 Jean 4:20 : celui qui n'aime pas son frère ne peut pas aimer Dieu."
+      },
+      {
+       "id": "vf4",
+       "texte": "L'amour fraternel se voit dans la manière dont les chrétiens se traitent.",
+       "reponse": true,
+       "explication": "Jean 13:35."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. L'amour qui vient de Dieu",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis 1 Jean 4:7-12 et Jean 13:34-35. D'où vient l'amour ? Quel est le modèle ?",
+     "refs": [
+      "1 Jean 4:7-12",
+      "Jean 13:34-35"
+     ],
+     "accompagnateur": {
+      "attendu": "Dieu est amour, il nous a aimés le premier en donnant son Fils. Nous devons nous aimer comme Jésus nous a aimés. C'est à cela que tous reconnaîtront que nous sommes ses disciples.",
+      "expliquer": [
+       "Je ne peux aimer que parce qu'il m'a aimé le premier."
+      ],
+      "relance": "Comment Jésus t'a-t-il aimé ? Quelle différence cela fait-il dans ta manière d'aimer ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis Romains 5:5 et 1 Pierre 1:22. Que fait l'Esprit ? Quel genre d'amour Pierre demande-t-il ?",
+     "refs": [
+      "Romains 5:5",
+      "1 Pierre 1:22"
+     ],
+     "accompagnateur": {
+      "attendu": "L'amour de Dieu est répandu dans nos cœurs par le Saint-Esprit. Un amour fraternel sincère, ardent, d'un cœur pur.",
+      "expliquer": [
+       "On demande à Dieu la capacité d'aimer ceux que l'on trouve difficiles."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. À quoi ressemble l'amour",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis 1 Corinthiens 13:1-8. Quelles sont les qualités de l'amour ? Quelle phrase te touche le plus ?",
+     "refs": [
+      "1 Corinthiens 13:1-8"
+     ],
+     "accompagnateur": {
+      "attendu": "Patient, plein de bonté, sans envie, sans vantardise, sans orgueil, sans malice, ne s'irrite pas, ne soupçonne pas le mal, se réjouit de la vérité, supporte tout, croit tout, espère tout, endure tout.",
+      "expliquer": [
+       "Faire lire à voix haute en remplaçant « l'amour » par son prénom : « Je suis patient… »"
+      ],
+      "relance": "Quelle qualité te manque le plus ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Romains 12:9-10 et Philippiens 2:3-4. Comment s'aimer dans la vie de tous les jours ?",
+     "refs": [
+      "Romains 12:9-10",
+      "Philippiens 2:3-4"
+     ],
+     "accompagnateur": {
+      "attendu": "Aimer sans hypocrisie, s'honorer mutuellement, regarder aux intérêts des autres, avec humilité.",
+      "expliquer": [
+       "Les petits gestes : saluer, demander des nouvelles, aider, visiter."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Les obstacles à l'amour",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis 1 Jean 2:9-11 et 1 Jean 3:14-15. Que dit Jean de la haine ?",
+     "refs": [
+      "1 Jean 2:9-11",
+      "1 Jean 3:14-15"
+     ],
+     "accompagnateur": {
+      "attendu": "Celui qui hait son frère est dans les ténèbres. Celui qui n'aime pas demeure dans la mort. Celui qui hait son frère est un meurtrier.",
+      "expliquer": [
+       "Jalousie, rancune, rivalité, mépris. Le dire sans détour avec amour."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Luc 6:27-36. Comment aimer ceux qui ne nous aiment pas ?",
+     "refs": [
+      "Luc 6:27-36"
+     ],
+     "accompagnateur": {
+      "attendu": "Aimer ses ennemis, bénir ceux qui nous maudissent, prier pour ceux qui nous maltraitent. Être miséricordieux comme le Père.",
+      "expliquer": [
+       "Si je n'aime que ceux qui m'aiment, quelle est ma différence avec les autres ?"
+      ],
+      "relance": "Quelqu'un dans l'église t'est difficile à aimer. Qui ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Mon engagement",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Aimer cette semaine",
+     "texte": [
+      "1. La personne que je choisis d'aimer concrètement :",
+      "2. Ce que je vais faire pour elle :",
+      "3. Ce que je dois laisser (rancune, jugement) :",
+      "4. Ma prière :"
+     ],
+     "champ": "Mon engagement",
+     "id": "aimer-engagement"
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Écris Jean 13:34-35 de mémoire.",
+     "refs": [
+      "Jean 13:34-35"
+     ],
+     "accompagnateur": {
+      "attendu": "« Je vous donne un commandement nouveau : Aimez-vous les uns les autres ; comme je vous ai aimés, vous aussi, aimez-vous les uns les autres. À ceci tous connaîtront que vous êtes mes disciples, si vous avez de l'amour les uns pour les autres. »",
+      "expliquer": [
+       "Réviser 1 Corinthiens 12:27."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne comprenne l'amour fraternel et choisisse d'aimer une personne précise.",
+   "Aborder les rancunes et les jalousies.",
+   "Éviter le sentimentalisme."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 1.",
+   "Réfléchir à une relation difficile dans ta propre vie.",
+   "Prier pour la personne et son église."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur les relations dans l'église (pas 1)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "L'amour qui vient de Dieu",
+    "minutes": 25,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "À quoi ressemble l'amour",
+    "minutes": 25,
+    "conseils": [
+     "Questions 3 et 4."
+    ]
+   },
+   {
+    "titre": "Les obstacles à l'amour",
+    "minutes": 30,
+    "conseils": [
+     "Questions 5 et 6."
+    ]
+   },
+   {
+    "titre": "Mon engagement et remise du pas 3",
+    "minutes": 15,
+    "conseils": [
+     "Tableau et question 7. Remettre le pas 3 « L'amour en actes »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Attention aux relations conflictuelles : ne pas obliger à une réconciliation immédiate.",
+   "Écouter avant de conseiller.",
+   "Ne pas confondre amour et tolérance du mal."
+  ]
+ }
+}

@@ -1,0 +1,295 @@
+{
+ "id": "v3-pas-12-hospitalite",
+ "volume": 3,
+ "numero": 12,
+ "titre": "L'hospitalité",
+ "sous_titre": "Ouvrir sa maison et son cœur, et célébrer la fin du parcours",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v3-11-hospitalite",
+ "verset_memoire": "Hébreux 13:2",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour un exemple d'hospitalité.",
+  "jours": [
+   "Genèse 18",
+   "1 Rois 17:8-24",
+   "Luc 14:1-24",
+   "Actes 16:11-15",
+   "Romains 12",
+   "Hébreux 13",
+   "3 Jean"
+  ]
+ },
+ "introduction": [
+  "Le dernier pas du parcours est un appel à ouvrir sa maison et son cœur.",
+  "Cette semaine, tu vas regarder l'hospitalité dans la Bible, choisir qui inviter, et faire le bilan de ton chemin."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "L'hospitalité, c'est inviter ceux qui peuvent nous rendre la pareille.",
+       "reponse": false,
+       "explication": "Luc 14:12-14 : inviter les pauvres, les estropiés, ceux qui ne peuvent pas rendre."
+      },
+      {
+       "id": "vf2",
+       "texte": "Il faut avoir beaucoup d'argent pour être hospitalier.",
+       "reponse": false,
+       "explication": "Abraham, la veuve de Sarepta, Lydie : ils ont donné ce qu'ils avaient (Genèse 18 ; 1 Rois 17:10-16 ; Actes 16:15)."
+      },
+      {
+       "id": "vf3",
+       "texte": "L'hospitalité est un commandement pour tous les chrétiens.",
+       "reponse": true,
+       "explication": "Romains 12:13 ; 1 Pierre 4:9 ; Hébreux 13:2."
+      },
+      {
+       "id": "vf4",
+       "texte": "Accueillir un inconnu peut être accueillir Jésus.",
+       "reponse": true,
+       "explication": "Matthieu 25:35, 40."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. L'hospitalité dans la Bible",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Genèse 18:1-8 et Hébreux 13:2. Que fait Abraham ? Que dit l'épître aux Hébreux ?",
+     "refs": [
+      "Genèse 18:1-8",
+      "Hébreux 13:2"
+     ],
+     "accompagnateur": {
+      "attendu": "Abraham court au-devant des trois visiteurs, les fait asseoir, prépare un repas. Certains ont reçu des anges sans le savoir.",
+      "expliquer": [
+       "Abraham ne savait pas qui ils étaient. L'hospitalité se donne avant de savoir."
+      ],
+      "relance": "Quand as-tu été bien accueilli quelque part ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis 1 Rois 17:8-16 et Actes 16:13-15. Que donnent la veuve et Lydie ?",
+     "refs": [
+      "1 Rois 17:8-16",
+      "Actes 16:13-15"
+     ],
+     "accompagnateur": {
+      "attendu": "La veuve donne le peu de farine et d'huile qu'elle a ; Dieu pourvoit. Lydie ouvre sa maison à Paul et ses compagnons après son baptême.",
+      "expliquer": [
+       "On donne ce qu'on a : une natte, un repas simple, un thé."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. L'hospitalité chrétienne",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Romains 12:13 et 1 Pierre 4:9. Comment pratiquer l'hospitalité ?",
+     "refs": [
+      "Romains 12:13",
+      "1 Pierre 4:9"
+     ],
+     "accompagnateur": {
+      "attendu": "Subvenir aux besoins des saints, exercer l'hospitalité avec empressement. Être hospitaliers les uns envers les autres sans murmures.",
+      "expliquer": [
+       "Sans murmure : de bon cœur, sans se plaindre."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Luc 14:12-14 et Matthieu 25:34-40. Qui devons-nous inviter ?",
+     "refs": [
+      "Luc 14:12-14",
+      "Matthieu 25:34-40"
+     ],
+     "accompagnateur": {
+      "attendu": "Les pauvres, les estropiés, les boiteux, les aveugles : ceux qui ne peuvent pas nous rendre. L'étranger, l'affamé, le malade, le prisonnier.",
+      "expliquer": [
+       "Dans nos cultures, on invite souvent par obligation sociale : mariage, deuil, fête. Jésus demande d'inviter par grâce."
+      ],
+      "relance": "Qui pourrais-tu inviter que personne n'invite ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Hospitalité et sagesse",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Tite 1:8, 1 Timothée 3:2 et 3 Jean 5-8. Que dit-on de l'hospitalité des responsables et des serviteurs itinérants ?",
+     "refs": [
+      "Tite 1:8",
+      "1 Timothée 3:2",
+      "3 Jean 5-8"
+     ],
+     "accompagnateur": {
+      "attendu": "Les responsables doivent être hospitaliers. Jean félicite Gaïus d'avoir accueilli les frères itinérants. Il faut les soutenir pour devenir collaborateurs de la vérité.",
+      "expliquer": [
+       "Soutenir les évangélistes, les orphelins, les nouveaux venus."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Lis Proverbes 22:3 et 2 Jean 10-11. Quelles limites ou précautions faut-il avoir ?",
+     "refs": [
+      "Proverbes 22:3",
+      "2 Jean 10-11"
+     ],
+     "accompagnateur": {
+      "attendu": "Être prudent. Ne pas accueillir ceux qui enseignent une fausse doctrine. L'homme prudent voit le mal et se cache.",
+      "expliquer": [
+       "Prudence pour la sécurité du foyer, surtout des enfants. Aider sans mettre en danger."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Quelle personne ou famille vas-tu inviter dans les deux prochaines semaines ? Que vas-tu préparer ?",
+     "refs": [
+      "Romains 12:13"
+     ],
+     "accompagnateur": {
+      "attendu": "Un nom, une date, un repas simple. Avec le conjoint si marié.",
+      "expliquer": [
+       "Proposer d'inviter l'accompagnateur et d'autres personnes de l'église."
+      ],
+      "relance": "Quand le feras-tu ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "IV. Mon engagement et la suite",
+   "intro": null,
+   "elements": [
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon hospitalité",
+     "texte": [
+      "1. Qui j'invite :",
+      "2. Quand :",
+      "3. Ce que je prépare :",
+      "4. Ma prière pour cette rencontre :"
+     ],
+     "champ": "Mon engagement",
+     "id": "hospitalite"
+    },
+    {
+     "type": "encadre",
+     "style": "meditation",
+     "titre": "Mon bilan du volume 3",
+     "texte": [
+      "Reprends tes réponses des douze pas : membres, amour, actes, encouragement, service, patience, pardon, acceptation, exhortation, reprise, salutation, hospitalité.",
+      "Qu'est-ce que Dieu a changé dans tes relations ? Quelle relation veux-tu encore restaurer ? Comment veux-tu poursuivre ?"
+     ],
+     "champ": "Mon bilan",
+     "id": "bilan-volume-3"
+    },
+    {
+     "type": "question",
+     "id": "q8",
+     "texte": "Écris Hébreux 13:2 de mémoire.",
+     "refs": [
+      "Hébreux 13:2"
+     ],
+     "accompagnateur": {
+      "attendu": "« N'oubliez pas l'hospitalité ; car en l'exerçant, quelques-uns ont logé des anges, sans le savoir. »",
+      "expliquer": [
+       "Réviser Romains 16:16."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne pratique l'hospitalité avec simplicité et sagesse.",
+   "Faire le bilan du parcours complet.",
+   "Célébrer, remercier, envoyer."
+  ],
+  "preparation": [
+   "Relire tes notes de tout le volume 3.",
+   "Préparer une vraie célébration de fin de parcours : un repas, un temps de louange, une prière de bénédiction.",
+   "Réfléchir à la suite : accompagner à son tour quelqu'un, servir, se former."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur l'accueil (pas 11)."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "L'hospitalité dans la Bible",
+    "minutes": 25,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "L'hospitalité chrétienne",
+    "minutes": 25,
+    "conseils": [
+     "Questions 3 et 4."
+    ]
+   },
+   {
+    "titre": "Hospitalité et sagesse",
+    "minutes": 25,
+    "conseils": [
+     "Questions 5 à 7."
+    ]
+   },
+   {
+    "titre": "Bilan et célébration",
+    "minutes": 20,
+    "conseils": [
+     "Tableaux, question 8. Reprendre le chemin de tout le parcours. Prier et bénir."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Ne pas minimiser les risques : prudence pour la sécurité du foyer.",
+   "Si la personne est très pauvre, l'hospitalité peut être un simple thé ou un temps ensemble.",
+   "Célébrer vraiment la fin du parcours : c'est un moment important."
+  ]
+ }
+}

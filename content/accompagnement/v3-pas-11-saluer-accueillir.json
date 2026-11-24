@@ -1,0 +1,260 @@
+{
+ "id": "v3-pas-11-saluer-accueillir",
+ "volume": 3,
+ "numero": 11,
+ "titre": "Se saluer et s'accueillir",
+ "sous_titre": "Une salutation chaleureuse et un accueil qui fait sentir chez soi",
+ "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+ "enseignement": "disciple-v3-10-saluer-accueillir",
+ "verset_memoire": "Romains 16:16",
+ "lecture": {
+  "titre": "Cette semaine, lis ces textes, un par jour",
+  "conseil": "Note chaque jour une salutation ou un accueil.",
+  "jours": [
+   "Romains 16",
+   "1 Pierre 5",
+   "Luc 19:1-10",
+   "Jean 4:27-42",
+   "Hébreux 13",
+   "Jacques 2",
+   "Matthieu 25:31-46"
+  ]
+ },
+ "introduction": [
+  "Une simple salutation peut changer la vie de quelqu'un. Beaucoup de nouveaux ne reviennent pas parce que personne ne leur a parlé.",
+  "Cette semaine, tu vas apprendre à saluer et accueillir comme Jésus et Paul."
+ ],
+ "parties": [
+  {
+   "titre": "Pour commencer : vrai ou faux ?",
+   "intro": null,
+   "elements": [
+    {
+     "type": "vf",
+     "items": [
+      {
+       "id": "vf1",
+       "texte": "Saluer est une simple politesse sans importance spirituelle.",
+       "reponse": false,
+       "explication": "Le Nouveau Testament demande de se saluer avec un saint baiser (Romains 16:16). Une salutation exprime l'amour."
+      },
+      {
+       "id": "vf2",
+       "texte": "Le dimanche, je peux entrer à l'église sans saluer personne.",
+       "reponse": false,
+       "explication": "Romains 12:10 ; 1 Pierre 5:14 : s'accueillir avec amour."
+      },
+      {
+       "id": "vf3",
+       "texte": "Les nouveaux venus se sentent accueillis quand on leur parle.",
+       "reponse": true,
+       "explication": "Matthieu 25:35 : « J'étais étranger, et vous m'avez recueilli. »"
+      },
+      {
+       "id": "vf4",
+       "texte": "Dans nos cultures, la salutation est importante.",
+       "reponse": true,
+       "explication": "Saluer prend du temps, c'est un signe de respect et d'amour. Il faut le vivre dans l'Église aussi."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "I. La salutation chrétienne",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q1",
+     "texte": "Lis Romains 16:1-16. Que fait Paul au chapitre 16 ? Combien de personnes salue-t-il ?",
+     "refs": [
+      "Romains 16:1-16"
+     ],
+     "accompagnateur": {
+      "attendu": "Il salue vingt-six personnes, par leur nom, avec des mots personnels : « mon cher ami », « mon compagnon de captivité », « sa mère qui est aussi la mienne ».",
+      "expliquer": [
+       "Paul ne salue pas en groupe : il nomme, honore, remercie. Chaque personne compte."
+      ],
+      "relance": "Quelles personnes salues-tu toujours ? Lesquelles oublies-tu ?"
+     }
+    },
+    {
+     "type": "question",
+     "id": "q2",
+     "texte": "Lis 1 Pierre 5:14 et 2 Corinthiens 13:11-13. Comment les chrétiens se saluaient-ils ?",
+     "refs": [
+      "1 Pierre 5:14",
+      "2 Corinthiens 13:11-13"
+     ],
+     "accompagnateur": {
+      "attendu": "Avec un baiser d'amour, un saint baiser. Dans nos cultures, ce peut être une poignée de main chaleureuse ou une accolade, entre hommes ou entre femmes, avec pureté et respect.",
+      "expliquer": [
+       "Adapter les gestes à la culture, sans ambiguïté ni malaise."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "titre": "II. Accueillir le nouveau venu",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q3",
+     "texte": "Lis Matthieu 25:35-40 et Hébreux 13:2. Que dit Jésus de l'accueil de l'étranger ?",
+     "refs": [
+      "Matthieu 25:35-40",
+      "Hébreux 13:2"
+     ],
+     "accompagnateur": {
+      "attendu": "« J'étais étranger, et vous m'avez recueilli. » Ce que vous faites au plus petit, c'est à moi que vous le faites. Certains ont reçu des anges sans le savoir.",
+      "expliquer": [
+       "Un nouveau venu décide souvent en quelques minutes s'il revient ou pas."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q4",
+     "texte": "Lis Luc 19:5-6 et Jean 4:39-42. Comment Jésus accueille-t-il Zachée et les Samaritains ?",
+     "refs": [
+      "Luc 19:5-6",
+      "Jean 4:39-42"
+     ],
+     "accompagnateur": {
+      "attendu": "Il appelle Zachée par son nom et va chez lui. Il reste deux jours chez les Samaritains qui l'invitent.",
+      "expliquer": [
+       "Appeler par le prénom, s'asseoir près de lui, l'inviter à manger, lui présenter d'autres."
+      ],
+      "relance": "Qui est le dernier arrivé dans ton église ? Que peux-tu faire pour lui ?"
+     }
+    }
+   ]
+  },
+  {
+   "titre": "III. Une église accueillante",
+   "intro": null,
+   "elements": [
+    {
+     "type": "question",
+     "id": "q5",
+     "texte": "Lis Jacques 2:1-4 et Romains 15:7. Quels sont les pièges de l'accueil ?",
+     "refs": [
+      "Jacques 2:1-4",
+      "Romains 15:7"
+     ],
+     "accompagnateur": {
+      "attendu": "Accueillir mieux le riche que le pauvre, l'instruit que l'illettré, celui de sa tribu que l'étranger. Christ nous a tous accueillis.",
+      "expliquer": [
+       "Vérifier l'accueil des personnes handicapées, des jeunes mères, des veuves, des anciens musulmans, des étrangers."
+      ]
+     }
+    },
+    {
+     "type": "question",
+     "id": "q6",
+     "texte": "Que peut faire chaque membre pour que son église soit accueillante ? Fais une liste de cinq gestes concrets.",
+     "refs": [
+      "Romains 12:10"
+     ],
+     "accompagnateur": {
+      "attendu": "Par exemple : arriver tôt, saluer par le prénom, s'asseoir près d'un nouveau, proposer de l'aide pour trouver sa place, inviter à manger, appeler dans la semaine.",
+      "expliquer": [
+       "Faire un petit plan avec la personne : équipe d'accueil, suivi des nouveaux."
+      ]
+     }
+    },
+    {
+     "type": "encadre",
+     "style": "application",
+     "titre": "Mon accueil",
+     "texte": [
+      "1. Quelqu'un que je veux saluer plus chaleureusement :",
+      "2. Un nouveau que je veux accueillir dimanche :",
+      "3. Mes cinq gestes d'accueil :",
+      "4. Ma prière :"
+     ],
+     "champ": "Mon engagement",
+     "id": "accueil"
+    },
+    {
+     "type": "question",
+     "id": "q7",
+     "texte": "Écris Romains 16:16 de mémoire.",
+     "refs": [
+      "Romains 16:16"
+     ],
+     "accompagnateur": {
+      "attendu": "« Saluez-vous les uns les autres par un saint baiser. Toutes les Églises de Christ vous saluent. »",
+      "expliquer": [
+       "Réviser Galates 6:1."
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "accompagnateur": {
+  "but": [
+   "Que la personne apprenne l'importance de la salutation et de l'accueil.",
+   "Qu'elle ait un plan concret pour accueillir les nouveaux.",
+   "Rester naturelle et sincère."
+  ],
+  "preparation": [
+   "Relire tes notes du pas 10.",
+   "Penser à la manière dont ton église accueille.",
+   "Prier pour des cœurs accueillants."
+  ],
+  "deroulement": [
+   {
+    "titre": "Accueil, prière, retour sur la semaine",
+    "minutes": 15,
+    "conseils": [
+     "Lecture. Retour sur son engagement du pas 10."
+    ]
+   },
+   {
+    "titre": "Vrai ou faux",
+    "minutes": 10,
+    "conseils": [
+     "Reprendre chaque affirmation."
+    ]
+   },
+   {
+    "titre": "La salutation chrétienne",
+    "minutes": 25,
+    "conseils": [
+     "Questions 1 et 2."
+    ]
+   },
+   {
+    "titre": "Accueillir le nouveau venu",
+    "minutes": 30,
+    "conseils": [
+     "Questions 3 et 4."
+    ]
+   },
+   {
+    "titre": "Une église accueillante",
+    "minutes": 30,
+    "conseils": [
+     "Questions 5 et 6 et tableau."
+    ]
+   },
+   {
+    "titre": "Verset et remise du pas 12",
+    "minutes": 10,
+    "conseils": [
+     "Réciter Romains 16:16. Remettre le pas 12 « L'hospitalité »."
+    ]
+   }
+  ],
+  "vigilance": [
+   "Attention aux gestes qui pourraient mal passer (hommes et femmes, selon les cultures).",
+   "Penser à ceux qui sont timides ou qui ont honte.",
+   "Ne pas accueillir pour se faire remarquer ni recruter pour son groupe."
+  ]
+ }
+}
