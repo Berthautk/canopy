@@ -4,19 +4,19 @@
  "serie": "L'islam de A à Z",
  "theme": "Islam",
  "auteur": "Yeshaya",
- "resume": "« Votre Bible a été falsifiée. » C'est l'objection que tout chrétien entend un jour. Quand, par qui, où, et pourquoi ? Que dit le Coran lui-même ? Puis nous comparerons les récits que le Coran et la Bible ont en commun : Caïn et le corbeau, Abraham dans le feu, Haman en Égypte, le Samiri et le veau d'or, les dormants de la caverne. D'où viennent ces différences ? Et l'« Évangile de Barnabé » dont parlent tant de prédicateurs ?",
+ "resume": "« Votre Bible a été falsifiée. » C'est l'objection que tout chrétien entend un jour. Quand, par qui, où, et pourquoi ? Que dit le Coran lui-même ? Puis nous comparerons les récits que le Coran et la Bible ont en commun : Caïn et le corbeau, Abraham dans le feu, Haman en Égypte, le Samiri et le veau d'or, les dormants de la caverne. D'où viennent ces différences ? Et qu'est-ce que l'« Évangile de Barnabé » dont parlent tant de prédicateurs ?",
  "image": "/assets/objets-quotidien/bible-ouverte-sur-table.webp",
  "verset_de_base": "Ps 119:160",
- "lecture_minutes": 29,
+ "lecture_minutes": 34,
  "objectifs": [
   "Comprendre l'accusation de falsification et ses deux formes.",
   "Savoir répondre par le Coran lui-même et par les manuscrits.",
   "Connaître la vérité sur l'« Évangile de Barnabé ».",
   "Comparer plusieurs récits communs au Coran et à la Bible.",
   "Comprendre d'où viennent certains récits du Coran : traditions juives et chrétiennes populaires.",
-  "Savoir en parler avec un musulman sans mépris."
+  "Savoir en parler avec un musulman, avec vérité et sans mépris."
  ],
- "introduction": "Tôt ou tard, quand tu parles de la Bible avec un musulman, tu entendras cette phrase : « Votre Bible a été falsifiée. Les juifs et les chrétiens ont changé les textes. C'est pour cela qu'Allah a envoyé le Coran, pour corriger. » Beaucoup de chrétiens se taisent alors, parce qu'ils ne savent pas quoi répondre. Certains même commencent à douter.\n\nDans cet enseignement, nous allons regarder cette accusation calmement. Nous verrons qu'elle pose plus de problèmes au musulman qu'au chrétien. Puis nous mettrons côte à côte quelques récits que l'on trouve à la fois dans la Bible et dans le Coran, pour voir ce qu'ils nous apprennent. Le but n'est pas de gagner une dispute, mais d'avoir confiance dans la Parole de Dieu et de pouvoir en rendre compte avec douceur.",
+ "introduction": "Tôt ou tard, quand tu parles de la Bible avec un musulman, tu entendras cette phrase : « Votre Bible a été falsifiée. Les juifs et les chrétiens ont changé les textes. C'est pour cela qu'Allah a envoyé le Coran, pour corriger. » Beaucoup de chrétiens se taisent alors, parce qu'ils ne savent pas quoi répondre. Certains même commencent à douter.\n\nDans cet enseignement, nous allons regarder cette accusation calmement. Nous verrons qu'elle pose plus de problèmes au musulman qu'au chrétien. Puis nous mettrons côte à côte quelques récits que l'on trouve à la fois dans la Bible et dans le Coran, pour voir ce qu'ils nous apprennent. Le but n'est pas de gagner une dispute, mais d'avoir confiance dans la Parole de Dieu et de pouvoir en rendre compte calmement.",
  "sections": [
   {
    "numero": "1",
@@ -56,17 +56,39 @@
   },
   {
    "numero": "2",
-   "titre": "Quatre questions : quand, qui, où, pourquoi ?",
+   "titre": "Ce que le Coran dit de la Bible",
+   "references": [],
+   "blocs": [
+    {
+     "sous_titre": "Dix versets à connaître"
+    },
+    {
+     "texte": "Avant de parler des manuscrits, regardons ce que le Coran lui-même dit de la Torah et de l'Évangile. Voici dix passages. Tu peux les noter et les montrer à ton ami dans son propre Coran."
+    },
+    {
+     "texte": "Premier : Allah a fait descendre sur toi le Livre avec la vérité, confirmant ce qui existait avant lui. Il a fait descendre la Torah et l'Évangile auparavant, comme guide pour les gens (sourate 3, versets 3 et 4). Deuxième : nous avons donné à Jésus l'Évangile, dans lequel il y a guide et lumière, confirmant ce qui existait avant lui dans la Torah (sourate 5, verset 46). Troisième : que les gens de l'Évangile jugent d'après ce qu'Allah y a fait descendre (sourate 5, verset 47). Quatrième : ô gens du Livre, vous ne reposez sur rien tant que vous n'appliquez pas la Torah et l'Évangile et ce qui est descendu sur vous de la part de votre Seigneur (sourate 5, verset 68). Cinquième : comment te prendraient-ils pour juge, alors qu'ils ont la Torah, dans laquelle il y a le jugement d'Allah ? (sourate 5, verset 43). Sixième : si tu es dans le doute au sujet de ce que nous t'avons révélé, interroge ceux qui lisent le Livre avant toi (sourate 10, verset 94). Septième : ne discutez avec les gens du Livre que de la meilleure manière, et dites : nous croyons à ce qui est descendu sur nous et à ce qui est descendu sur vous. Notre Dieu et votre Dieu est un (sourate 29, verset 46). Huitième : le Coran se présente comme « muçaddiq », qui confirme les livres d'avant (sourate 2, verset 41). Neuvième : interrogez les gens du rappel, si vous ne savez pas (sourate 16, verset 43 ; sourate 21, verset 7). Dixième : la parole d'Allah ne change pas (sourate 10, verset 64)."
+    },
+    {
+     "sous_titre": "Ce que cela montre"
+    },
+    {
+     "texte": "Autrement dit, au septième siècle, le Coran traite la Torah et l'Évangile des chrétiens et des juifs comme des livres fiables, qu'on peut consulter et qui servent de règle de jugement. Il ne dit jamais : « Jetez votre Bible, elle est falsifiée. » Il dit : « Appliquez-la. » Je le redis plus simplement : le Coran lui-même ne dit pas que la Bible de son temps était falsifiée. C'est plus tard que des musulmans l'ont dit."
+    }
+   ]
+  },
+  {
+   "numero": "3",
+   "titre": "Les quatre questions : quand, qui, où, pourquoi ?",
    "references": [
     "Ps 33:11",
     "Ps 119:160"
    ],
    "blocs": [
     {
-     "sous_titre": "Quand ?"
+     "sous_titre": "Première question : quand est-ce que la Bible aurait été falsifiée ?"
     },
     {
-     "texte": "La première question à poser avec douceur est : « Quand la Bible a-t-elle été falsifiée ? Avant Mahomet, ou après Mahomet ? »"
+     "texte": "La première question à poser calmement est : « Quand est-ce que la Bible a été falsifiée ? Est-ce avant Mahomet, ou après Mahomet ? »"
     },
     {
      "texte": "Si c'est après Mahomet, c'est impossible à prouver, car nous avons des manuscrits complets de la Bible écrits avant lui. Le Codex Sinaiticus et le Codex Vaticanus, deux Bibles grecques complètes, datent du IVe siècle, trois cents ans avant Mahomet. Des milliers de manuscrits et de fragments du Nouveau Testament sont plus anciens que le Coran. Les manuscrits de la mer Morte, découverts à Qumrân en 1947, contiennent des livres de l'Ancien Testament copiés avant Jésus. Or ces manuscrits disent exactement ce que nos Bibles disent sur la mort et la résurrection de Jésus, et sur sa divinité. La Bible que nous lisons aujourd'hui est la même que celle des chrétiens au temps de Mahomet."
@@ -75,16 +97,25 @@
      "texte": "Si c'est avant Mahomet, alors pourquoi le Coran dit-il aux chrétiens de son époque : que les gens de l'Évangile jugent d'après ce qu'Allah y a fait descendre (sourate 5, verset 47) ? Comment Allah pourrait-il leur demander de juger d'après un livre falsifié ? Et comment le Coran pourrait-il dire à Mahomet lui-même : si tu es dans le doute, interroge ceux qui lisent le Livre révélé avant toi (sourate 10, verset 94) ?"
     },
     {
-     "sous_titre": "Qui et où ?"
+     "sous_titre": "Deuxième question : qui l'aurait falsifiée, et où ?"
     },
     {
-     "texte": "La deuxième question : « Qui l'a falsifiée, et où ? » Au VIIe siècle, la Bible était copiée et lue dans des dizaines de langues : grec, latin, syriaque, copte, arménien, guèze en Éthiopie, géorgien. Elle était entre les mains des juifs et des chrétiens, qui étaient en désaccord sur beaucoup de choses, et de nombreuses Églises chrétiennes rivales, en Égypte, en Syrie, à Rome, à Constantinople, en Éthiopie. Il aurait fallu que tous ces gens, qui ne s'entendaient pas, se mettent d'accord pour changer les mêmes passages, de la même manière, dans toutes les langues, sur trois continents, sans laisser aucune trace dans l'histoire. Personne ne pouvait faire cela."
+     "texte": "La deuxième question est : « Qui l'a falsifiée, et où est-ce que cela s'est passé ? » Au VIIe siècle, la Bible était copiée et lue dans des dizaines de langues : grec, latin, syriaque, copte, arménien, guèze en Éthiopie, géorgien. Elle était entre les mains des juifs et des chrétiens, qui étaient en désaccord sur beaucoup de choses, et de nombreuses Églises chrétiennes rivales, en Égypte, en Syrie, à Rome, à Constantinople, en Éthiopie. Il aurait fallu que tous ces gens, qui ne s'entendaient pas, se mettent d'accord pour changer les mêmes passages, de la même manière, dans toutes les langues, sur trois continents, sans laisser aucune trace dans l'histoire. Personne ne pouvait faire cela."
     },
     {
-     "sous_titre": "Pourquoi ?"
+     "sous_titre": "Troisième question : pourquoi l'auraient-ils fait ?"
     },
     {
-     "texte": "La troisième question : « Pourquoi l'auraient-ils fait ? » Les apôtres sont morts pour ce qu'ils annonçaient. Les chrétiens des premiers siècles ont été persécutés, jetés aux bêtes, brûlés pour leur foi en Jésus mort et ressuscité. Qui meurt pour un mensonge qu'il a lui-même inventé ?"
+     "texte": "La troisième question est : « Pourquoi est-ce qu'ils l'auraient fait ? » Les apôtres sont morts pour ce qu'ils annonçaient. Les chrétiens des premiers siècles ont été persécutés, jetés aux bêtes, brûlés pour leur foi en Jésus mort et ressuscité. Qui meurt pour un mensonge qu'il a lui-même inventé ?"
+    },
+    {
+     "sous_titre": "Les manuscrits : les chiffres"
+    },
+    {
+     "texte": "Voici quelques chiffres, pour que tu parles sans peur. Pour le Nouveau Testament, nous avons environ cinq mille huit cents manuscrits en grec, et plus de vingt mille en d'autres langues anciennes : latin, syriaque, copte, arménien. Le plus ancien fragment de l'Évangile de Jean, le papyrus Rylands, date d'environ l'an 125, soit moins d'un siècle après les événements. Les grands manuscrits complets, le Sinaiticus et le Vaticanus, datent du quatrième siècle, trois cents ans avant Mahomet. Pour l'Ancien Testament, les manuscrits de Qumrân, découverts en 1947, contiennent le livre d'Ésaïe en entier, copié vers l'an 125 avant Jésus-Christ. Quand on le compare avec nos Bibles d'aujourd'hui, le texte est presque identique : les différences portent sur l'orthographe ou sur de petits détails, et non sur la doctrine."
+    },
+    {
+     "texte": "Les petites différences existent, bien sûr : quand on copie à la main cinq mille textes, il y a des fautes de copie. Mais comme nous avons des milliers de manuscrits, on peut les comparer et retrouver le texte d'origine. Autrement dit, c'est justement parce que nous avons beaucoup de manuscrits que nous pouvons être sûrs du texte."
     },
     {
      "sous_titre": "Le dessein de Dieu"
@@ -94,15 +125,12 @@
     },
     {
      "verset": "Ps 33:11"
-    },
-    {
-     "verset": "Ps 119:160"
     }
    ]
   },
   {
-   "numero": "3",
-   "titre": "Le Coran dit que les paroles d'Allah ne changent pas",
+   "numero": "4",
+   "titre": "Le Coran dit que personne ne peut changer les paroles d'Allah",
    "references": [
     "Mt 24:35"
    ],
@@ -114,7 +142,7 @@
      "texte": "Il y a un argument encore plus fort, tiré du Coran lui-même. Le Coran dit plusieurs fois que personne ne peut changer les paroles d'Allah : et la parole de ton Seigneur s'est accomplie en toute vérité et équité. Nul ne peut modifier ses paroles (sourate 6, verset 115). Il n'y a pas de changement aux paroles d'Allah (sourate 10, verset 64). Nul ne peut changer ses paroles (sourate 18, verset 27)."
     },
     {
-     "sous_titre": "Le dilemme"
+     "sous_titre": "Le piège dans lequel tombe l'accusation"
     },
     {
      "texte": "Or le Coran dit que la Torah et l'Évangile ont été descendus par Allah. Ce sont donc des paroles d'Allah. Si personne ne peut changer les paroles d'Allah, alors personne n'a pu changer la Torah et l'Évangile. Et si quelqu'un a pu les changer, alors les paroles d'Allah peuvent être changées, et qu'est-ce qui garantit que le Coran, lui, n'a pas été changé ? En d'autres termes, l'accusation de falsification se retourne contre le Coran lui-même. Celui qui dit « la Bible a été falsifiée » dit en même temps « Allah n'a pas su protéger sa parole »."
@@ -128,7 +156,7 @@
    ]
   },
   {
-   "numero": "4",
+   "numero": "5",
    "titre": "L'« Évangile de Barnabé »",
    "references": [
     "Ga 1:6-7"
@@ -161,14 +189,14 @@
    ]
   },
   {
-   "numero": "5",
+   "numero": "6",
    "titre": "Les récits communs : Caïn et Abel",
    "references": [
     "Gn 4:9-10"
    ],
    "blocs": [
     {
-     "sous_titre": "Le corbeau"
+     "sous_titre": "Le corbeau de Caïn"
     },
     {
      "texte": "La Bible raconte que Caïn tua son frère Abel, puis que Dieu lui dit : qu'as-tu fait ? La voix du sang de ton frère crie de la terre jusqu'à moi (Genèse 4:10)."
@@ -188,7 +216,7 @@
    ]
   },
   {
-   "numero": "6",
+   "numero": "7",
    "titre": "Abraham, Noé et Joseph",
    "references": [
     "Gn 6:9",
@@ -225,7 +253,7 @@
    ]
   },
   {
-   "numero": "7",
+   "numero": "8",
    "titre": "Moïse, Haman et le Samiri",
    "references": [
     "Est 3:1"
@@ -249,7 +277,7 @@
    ]
   },
   {
-   "numero": "8",
+   "numero": "9",
    "titre": "Salomon, la reine de Saba et les dormants de la caverne",
    "references": [
     "1 R 10:1"
@@ -279,8 +307,8 @@
    ]
   },
   {
-   "numero": "9",
-   "titre": "Mahomet annoncé dans la Bible ?",
+   "numero": "10",
+   "titre": "Est-ce que Mahomet est annoncé dans la Bible ?",
    "references": [
     "Dt 18:18",
     "Dt 34:10"
@@ -311,7 +339,7 @@
      "verset": "Dt 34:10"
     },
     {
-     "sous_titre": "Le Cantique des cantiques"
+     "sous_titre": "Est-ce que le Cantique des cantiques annonce Mahomet ?"
     },
     {
      "texte": "Un autre passage souvent cité est le Cantique des cantiques, où la jeune femme dit de son bien-aimé : il est tout entier plein de charme (Cantique 5:16). Le mot hébreu traduit par « plein de charme » est « mahamaddim ». Le prédicateur dit : « Voyez, c'est le nom de Muhammad ! » Mais ce mot hébreu est un adjectif au pluriel, qui veut dire « choses désirables ». On le trouve ailleurs dans la Bible, par exemple pour parler des objets précieux du temple. Dans le Cantique, il s'agit d'un poème d'amour entre un homme et une femme. En d'autres termes, un mot qui sonne un peu comme un nom ne fait pas une prophétie."
@@ -320,7 +348,7 @@
      "verset": "Ct 5:16"
     },
     {
-     "sous_titre": "Le Paraclet et les autres"
+     "sous_titre": "Qu'en est-il du Paraclet et des autres passages ?"
     },
     {
      "texte": "Nous avons vu, dans l'enseignement sur Jésus dans le Coran, le cas du Paraclet. D'autres passages sont cités, comme Ésaïe 42 ou Ésaïe 21. Chaque fois, la meilleure réponse est la même : lire le passage entier, avec son contexte, avec ton ami. La Bible s'explique très bien elle-même."
@@ -328,7 +356,7 @@
    ]
   },
   {
-   "numero": "10",
+   "numero": "11",
    "titre": "Que conclure ?",
    "references": [
     "2 Tm 3:16-17",
@@ -362,7 +390,7 @@
    ]
   },
   {
-   "numero": "11",
+   "numero": "12",
    "titre": "Comment en parler avec un ami musulman",
    "references": [
     "1 P 3:15-16"
@@ -381,15 +409,15 @@
      "texte": "Le meilleur moyen de répondre à l'accusation de falsification n'est pas d'abord un long débat sur les manuscrits, mais d'inviter ton ami à lire lui-même l'Évangile. Beaucoup de musulmans n'ont jamais ouvert une Bible. Quand ils lisent Jésus parler dans l'Évangile de Jean ou de Luc, ils sont souvent touchés par une voix qu'ils n'avaient jamais entendue. Dis-lui : « Lis-le toi-même, et dis-moi si un homme aurait pu inventer cela. »"
     },
     {
-     "sous_titre": "On raconte…"
+     "sous_titre": "Un exemple de conversation"
     },
     {
-     "texte": "On raconte qu'un jeune étudiant musulman de Maroua, qui préparait un concours, avait appris par cœur la phrase : « La Bible a été falsifiée. » Un jour, un camarade chrétien lui posa simplement la question : « Quand ? » Il répondit : « Je ne sais pas, mais c'est sûr. » « Si c'était avant Mahomet, pourquoi le Coran dit-il aux chrétiens de juger d'après l'Évangile ? Et si c'était après, pourquoi nos manuscrits plus anciens que Mahomet disent-ils la même chose que nos Bibles ? » L'étudiant ne répondit rien. Il rentra chez lui troublé. Quelques semaines plus tard, il revint demander : « Peux-tu me prêter ce livre que personne n'a pu changer ? »"
+     "texte": "Voici comment la conversation peut se passer. Ton ami dit : « La Bible a été falsifiée. » Tu réponds, calmement : « Quand est-ce que cela est arrivé ? » Il dit : « Je ne sais pas, mais c'est sûr. » Tu continues : « Si c'était avant Mahomet, pourquoi est-ce que le Coran dit aux chrétiens de juger d'après l'Évangile ? Et si c'était après, pourquoi est-ce que nos manuscrits plus anciens que Mahomet disent la même chose que nos Bibles ? » Ne dis pas plus. Laisse-le repartir avec la question. Il y a des musulmans qui, des semaines plus tard, sont revenus et ont dit : « Peux-tu me prêter ce livre que personne n'a pu changer ? »"
     }
    ]
   },
   {
-   "numero": "12",
+   "numero": "13",
    "titre": "Ce que nous retenons",
    "references": [
     "Ps 119:160"
@@ -428,7 +456,7 @@
   },
   {
    "titre": "Pour la douceur des témoins",
-   "texte": "Prions pour savoir répondre sans moquerie ni orgueil, avec douceur et respect (1 Pierre 3:15-16)."
+   "texte": "Prions pour savoir répondre sans moquerie ni orgueil, avec vérité et respect (1 Pierre 3:15-16)."
   }
  ],
  "questions": [
@@ -455,6 +483,17 @@
    "section": "2"
   },
   {
+   "question": "Quel est le plus ancien fragment connu de l'Évangile de Jean, et de quand date-t-il ?",
+   "choix": [
+    "Le Codex de Mahomet, du VIIe siècle",
+    "Le papyrus Rylands, d'environ l'an 125",
+    "Un manuscrit du Moyen Âge"
+   ],
+   "reponse": 1,
+   "explication": "Moins d'un siècle après les événements.",
+   "section": "3"
+  },
+  {
    "question": "Que dit le Coran des paroles d'Allah en sourate 6, verset 115 ?",
    "choix": [
     "Qu'elles changent avec le temps",
@@ -463,7 +502,7 @@
    ],
    "reponse": 1,
    "explication": "Si la Torah et l'Évangile sont paroles d'Allah, personne n'a pu les changer.",
-   "section": "3"
+   "section": "4"
   },
   {
    "question": "De quand datent les manuscrits connus de l'« Évangile de Barnabé » ?",
@@ -474,7 +513,7 @@
    ],
    "reponse": 1,
    "explication": "C'est un faux médiéval qui contredit même le Coran.",
-   "section": "4"
+   "section": "5"
   },
   {
    "question": "D'où vient la phrase de la sourate 5, verset 32 : « comme s'il avait tué tous les hommes » ?",
@@ -485,7 +524,7 @@
    ],
    "reponse": 1,
    "explication": "Le Coran la présente comme une prescription aux enfants d'Israël.",
-   "section": "5"
+   "section": "6"
   },
   {
    "question": "Dans la Bible, où et quand vit Haman ?",
@@ -496,7 +535,18 @@
    ],
    "reponse": 1,
    "explication": "Le Coran en fait le ministre de Pharaon.",
-   "section": "7"
+   "section": "8"
+  },
+  {
+   "question": "Selon Deutéronome 34:10, qu'est-ce qui rendait Moïse unique ?",
+   "choix": [
+    "Il écrivait des lois",
+    "Il connaissait Dieu face à face",
+    "Il était arabe"
+   ],
+   "reponse": 1,
+   "explication": "Le prophète « comme Moïse » devait donc connaître Dieu face à face.",
+   "section": "10"
   }
  ],
  "devoir": [
