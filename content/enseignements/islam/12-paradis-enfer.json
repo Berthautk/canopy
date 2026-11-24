@@ -4,344 +4,331 @@
  "serie": "L'islam de A à Z",
  "theme": "Islam",
  "auteur": "Yeshaya",
- "resume": "Des jardins où coulent des rivières de lait, de miel et de vin, des lits de soie, des fruits à portée de main, de jeunes serviteurs comme des perles, et des houris aux grands yeux promises aux croyants. Un enfer de feu où les peaux brûlées sont remplacées. Un pont plus fin qu'un cheveu, une balance, et une promesse particulière pour celui qui meurt au combat. Ce que disent le Coran et les hadiths, pourquoi le musulman n'a pas d'assurance, et ce que la Bible annonce : être pour toujours avec Dieu.",
+ "resume": "Que croit le musulman sur la fin du monde ? Quels sont les signes de l'heure, comme le Mahdi, le Dajjal, le retour de Jésus et Gog et Magog ? Que se passe-t-il dans la tombe, à la résurrection, devant la balance et sur le pont ? Comment est décrit le paradis, avec ses jardins, ses degrés, ses houris, et la vision d'Allah ? Comment est décrit l'enfer, avec ses sept niveaux et ses tourments ? Qui intercède ? Que promet-on au martyr ? Un enseignement complet, avec les textes exacts.",
  "image": "/assets/paysages/riviere.webp",
  "verset_de_base": "Ps 17:15",
- "lecture_minutes": 24,
+ "lecture_minutes": 30,
  "objectifs": [
-  "Connaître la description du paradis dans le Coran et les hadiths, y compris les houris.",
-  "Connaître la description de l'enfer, du pont et de la balance.",
-  "Comprendre l'enseignement « tous y passeront » et l'intercession du prophète.",
-  "Comprendre la promesse faite aux martyrs et son lien avec la violence de certains groupes.",
-  "Découvrir ce que la Bible dit du ciel et de l'assurance du salut."
+  "Connaître les signes de la fin du monde selon l'islam.",
+  "Connaître le déroulement : tombe, résurrection, livre, balance, pont.",
+  "Connaître la description du paradis, des degrés et des houris.",
+  "Connaître la description de l'enfer et de ses habitants.",
+  "Connaître l'intercession et la promesse faite au martyr."
  ],
- "introduction": "Tout être humain se pose un jour la question : que se passera-t-il après ma mort ? Pour le musulman, cette question est au centre de sa foi. Le Coran parle sans cesse du jour du jugement, du paradis et de l'enfer. Une grande partie des sourates de La Mecque décrit ces réalités avec des images fortes, pour avertir les incroyants et encourager les croyants. Toute la vie religieuse du musulman, nous l'avons vu, est tendue vers ce jour où ses actes seront pesés.\n\nPour parler à un musulman de l'espérance chrétienne, il faut connaître l'espérance musulmane. Elle est souvent très concrète, très matérielle, et elle explique bien des choses, y compris, tristement, pourquoi certains jeunes acceptent de mourir en tuant d'autres personnes. Dans cet enseignement, nous allons décrire ce que disent le Coran et les hadiths, avec exactitude, puis montrer l'espérance merveilleuse que la Bible offre.",
+ "introduction": "Tout être humain se pose un jour la question : que se passera-t-il après ma mort ? Pour le musulman, cette question est au centre de la foi. Le Coran parle sans cesse du jour du jugement, du paradis et de l'enfer. Les sourates de La Mecque, surtout, décrivent ces réalités avec des images très fortes, pour avertir et pour encourager. Dans cet enseignement, nous allons suivre l'ordre du déroulement : les signes de la fin, la mort, la tombe, la résurrection, le jugement, le pont, puis le paradis et l'enfer. Nous donnerons les textes exacts, et nous dirons aussi ce que disent les savants quand ils ne sont pas d'accord.",
  "sections": [
   {
    "numero": "1",
-   "titre": "Les jardins du paradis",
-   "references": [
-    "Ps 16:11",
-    "Ps 17:15"
-   ],
+   "titre": "Les signes de la fin du monde",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Des jardins sous lesquels coulent des rivières"
+     "sous_titre": "L'heure"
     },
     {
-     "texte": "Le paradis, dans le Coran, s'appelle « al-janna », le jardin. Il est décrit comme des jardins sous lesquels coulent des rivières, ce qui, pour des habitants du désert, était l'image même du bonheur. Le Coran précise : voici la description du paradis promis aux pieux : il y aura des rivières d'une eau jamais malodorante, des rivières de lait au goût inaltérable, des rivières d'un vin délicieux à boire, et des rivières d'un miel purifié (sourate 47, verset 15). Le vin du paradis, dit le Coran, ne provoquera ni maux de tête ni ivresse (sourate 56, verset 19)."
+     "texte": "Le Coran parle de « l'heure », « as-saa », c'est-à-dire la fin du monde. Seul Allah en connaît le moment (sourate 7, verset 187). Mais la tradition musulmane connaît beaucoup de signes qui l'annoncent. On les range en deux familles : les petits signes, qui se produisent déjà, et les grands signes, qui viendront juste avant la fin."
     },
     {
-     "sous_titre": "Le luxe et les festins"
+     "sous_titre": "Les petits signes"
     },
     {
-     "texte": "Les croyants seront parés de bracelets d'or et de perles, vêtus de soie fine et de brocart, accoudés sur des lits ornés (sourate 18, verset 31 ; sourate 76, versets 12 à 21). Ils auront des fruits de leur choix et de la chair d'oiseaux de leur désir (sourate 56, versets 20 et 21). Des jeunes garçons éternellement jeunes circuleront parmi eux avec des coupes ; quand tu les verras, tu les prendras pour des perles éparpillées (sourate 76, verset 19)."
+     "texte": "Un hadith célèbre, celui de Gabriel que nous avons cité, mentionne des signes. Quand on demande à Mahomet : « Quand viendra l'heure ? », il répond : « Celui qu'on interroge n'en sait pas plus que celui qui interroge. Mais je te dirai ses signes : quand la servante enfantera sa maîtresse, et quand tu verras les bergers pieds nus, mal vêtus, rivaliser pour construire de hauts bâtiments » (Mouslim, hadith 8). Beaucoup de musulmans voient dans cette dernière phrase les gratte-ciel du Golfe. D'autres signes sont : la disparition du savoir, la multiplication des tremblements de terre, le temps qui passe plus vite, les meurtres qui augmentent, le commerce qui se développe, des gens qui trouvent permis la fornication et le vin."
     },
     {
-     "sous_titre": "Des degrés"
+     "sous_titre": "Les grands signes"
     },
     {
-     "texte": "Boukhari rapporte qu'il y a au paradis cent degrés, que la distance entre deux degrés est comme entre le ciel et la terre, et que le plus élevé s'appelle « al-Firdaws » (Boukhari, hadith 2790). Le plus haut honneur promis aux croyants est de voir Allah : Boukhari rapporte que Mahomet a dit : « Vous verrez votre Seigneur comme vous voyez cette lune » (Boukhari, hadith 554). C'est la plus belle promesse du paradis musulman, et elle peut ouvrir une conversation profonde sur le désir de voir Dieu."
+     "texte": "Il y a dix grands signes, selon un hadith de Mouslim, au numéro 2901 : la fumée, le Dajjal, la bête de la terre, le lever du soleil à l'ouest, la descente de Jésus, Gog et Magog, trois grands effondrements du sol à l'est, à l'ouest et en Arabie, et un feu qui chassera les gens vers leur lieu de rassemblement. Regardons les plus importants."
     },
     {
-     "sous_titre": "Le désir de Dieu"
+     "texte": "Le Mahdi. Les hadiths annoncent un homme, descendant de Mahomet, qui viendra à la fin des temps remplir la terre de justice après qu'elle a été remplie d'injustice (Abou Daoud, hadith 4282). Chez les chiites, c'est le douzième imam, caché depuis le neuvième siècle, qui reviendra. Chez les sunnites, c'est un chef qui apparaîtra. Beaucoup de groupes armés, et des faux mahdis, en ont profité : en 1979, des hommes ont occupé la Grande Mosquée de La Mecque en disant que l'un d'eux était le Mahdi."
     },
     {
-     "texte": "Le psalmiste aussi parle de délices : il y a d'abondantes joies devant ta face, des délices éternelles à ta droite (Psaume 16:11). Mais le cœur de sa joie, ce ne sont pas les fruits et les rivières : c'est Dieu lui-même. Pour moi, dans mon innocence, je verrai ta face ; dès le réveil, je me rassasierai de ton image (Psaume 17:15). Jésus a dit : heureux ceux qui ont le cœur pur, car ils verront Dieu (Matthieu 5:8)."
+     "texte": "Le Dajjal. C'est un faux messie, un imposteur borgne, qui apparaîtra, qui fera des prodiges, qui prétendra être Dieu. Mahomet disait : « Il n'y a pas eu de prophète qui n'ait averti son peuple du Dajjal, le borgne menteur. Il est borgne, et votre Seigneur n'est pas borgne » (Boukhari, hadith 3057). Il y a, dit le hadith, écrit entre ses yeux le mot « kafir », mécréant, que tout croyant peut lire. Il se promènera sur toute la terre sauf La Mecque et Médine. Beaucoup de musulmans l'identifient avec l'Antichrist des chrétiens."
     },
     {
-     "verset": "Mt 5:8"
+     "texte": "Le retour de Jésus. C'est un point très important que nous reverrons plus tard. Selon les hadiths, Jésus, fils de Marie, descendra du ciel près de Damas, sur une tour blanche, prendra le Dajjal et le tuera. Mahomet dit : « Par celui qui tient mon âme, le fils de Marie descendra parmi vous comme juge équitable. Il brisera la croix, tuera le porc, et supprimera la jizya, l'impôt des non-musulmans » (Boukhari, hadith 2222 ; Mouslim, hadith 155). Autrement dit, Jésus reviendra non comme Sauveur, mais comme musulman qui appliquera la loi de Mahomet. Il se mariera, aura des enfants, vivra quarante ans, puis mourra et sera enterré à Médine, à côté de Mahomet, selon un hadith (Tirmidhi). Voilà ce que croit le musulman sur le retour de Jésus."
+    },
+    {
+     "texte": "Gog et Magog, en arabe « Yajouj et Majouj ». Ce sont des peuples nombreux, enfermés derrière un mur de fer construit par Dhoul-Qarnayn (sourate 18, versets 94 à 98). À la fin des temps, ils se répandront sur la terre et boiront les lacs. Allah les détruira grâce aux prières de Jésus."
+    },
+    {
+     "texte": "La bête. Le Coran dit : quand la parole se réalisera contre eux, nous ferons sortir de la terre une bête qui leur dira que les gens ne croyaient pas à nos signes (sourate 27, verset 82)."
+    },
+    {
+     "texte": "Le soleil de l'ouest. Mahomet a dit : « L'heure ne viendra pas avant que le soleil se lève de l'ouest. Quand il se lèvera et que les gens le verront, ils croiront tous. Mais ce jour-là, la foi ne servira plus à celui qui n'avait pas cru auparavant » (Boukhari, hadith 4635 ; Mouslim, hadith 157)."
+    },
+    {
+     "sous_titre": "Le souffle de la trompette"
+    },
+    {
+     "texte": "Puis l'ange Israfil soufflera dans la trompette, « as-sour ». Le premier souffle fera mourir tout ce qui est dans les cieux et sur la terre, sauf ceux qu'Allah veut. Le second souffle les ressuscitera, et ils se lèveront, regardant (sourate 39, verset 68). Un hadith dit qu'il y aura quarante entre les deux souffles (quarante jours, mois ou années : le narrateur ne savait pas), et que Allah fera descendre une pluie qui fera pousser les corps comme les plantes. Chaque corps pourrira, sauf un petit os à la base de la colonne vertébrale, d'où il sera reconstruit (Boukhari, hadith 4935)."
     }
    ]
   },
   {
    "numero": "2",
-   "titre": "Les houris",
-   "references": [
-    "Mt 22:30",
-    "1 Jn 2:16-17"
-   ],
+   "titre": "La mort et la tombe",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Ce que dit le Coran"
+     "sous_titre": "La mort"
     },
     {
-     "texte": "Le Coran promet aux croyants des compagnes appelées « houris », ce qui veut dire à peu près « aux yeux noirs et blancs », « aux grands yeux ». Il dit : nous les marierons à des houris aux grands yeux (sourate 44, verset 54 ; sourate 52, verset 20). Elles sont décrites comme des vierges qu'aucun homme ni djinn n'a touchées avant eux (sourate 55, verset 56), cloîtrées dans des tentes (sourate 55, verset 72), semblables à des perles bien gardées (sourate 56, versets 22 et 23), « aux seins arrondis, d'une égale jeunesse » (sourate 78, verset 33)."
+     "texte": "Selon le Coran, c'est l'ange de la mort qui prend l'âme au moment fixé (sourate 32, verset 11). Les hadiths décrivent la scène. Pour le croyant, des anges au visage lumineux viennent avec un linceul du paradis, et son âme sort doucement, « comme une goutte d'eau coule d'une outre ». Pour l'incroyant, des anges au visage noir viennent avec un linceul de l'enfer, et l'âme est arrachée avec violence, comme on arrache une broche pleine de laine mouillée (Ahmad, long hadith de Al-Bara ibn Azib). C'est une scène que beaucoup de musulmans connaissent par cœur."
     },
     {
-     "sous_titre": "Ce que disent les hadiths"
+     "sous_titre": "Le barzakh"
     },
     {
-     "texte": "Boukhari rapporte que chaque homme au paradis aura deux épouses d'une telle beauté que l'on verra la moelle de leurs jambes à travers la chair (Boukhari, hadith 3245). Un hadith rapporté par Tirmidhi dit que le croyant recevra au paradis la force de cent hommes pour les relations (Tirmidhi, hadith 2536). Le célèbre chiffre de soixante-douze houris vient de hadiths de Tirmidhi, dont l'un concerne le martyr (Tirmidhi, hadith 1663) ; plusieurs savants discutent l'authenticité de certains de ces récits."
+     "texte": "Après la mort et l'enterrement, l'âme entre dans le « barzakh », l'attente. Le mot veut dire « barrière » : c'est le temps entre la mort et la résurrection. Le Coran dit que derrière les morts il y a une barrière jusqu'au jour où ils seront ressuscités (sourate 23, verset 100). Pendant ce temps, l'âme n'est pas inconsciente. Elle goûte déjà un avant-goût de son destin."
     },
     {
-     "sous_titre": "Et les femmes ?"
+     "sous_titre": "L'interrogatoire et le châtiment de la tombe"
     },
     {
-     "texte": "Beaucoup de femmes musulmanes demandent : et nous, qu'aurons-nous au paradis ? Les savants répondent que la femme croyante sera avec son mari, si elle et lui y entrent, qu'elle sera plus belle que les houris, et qu'elle sera satisfaite. Mais le Coran parle beaucoup plus des récompenses des hommes que de celles des femmes."
+     "texte": "Dans la tombe, deux anges, Mounkar et Nakir, interrogent le mort. Ils posent trois questions : « Qui est ton Seigneur ? Quelle est ta religion ? Qui est cet homme qui a été envoyé parmi vous ? » Le croyant répond : « Mon Seigneur est Allah, ma religion est l'islam, et cet homme est le messager d'Allah. » Alors sa tombe est élargie, un espace s'ouvre vers le paradis. Mais l'incroyant ou l'hypocrite répond : « Je ne sais pas, j'ai entendu les gens dire quelque chose, et je l'ai dit. » Alors il reçoit un coup de masse de fer qui le fait crier, et tout ce qui l'entoure l'entend, sauf les hommes et les djinns (Boukhari, hadith 1374). Mahomet demandait souvent à Allah, dans sa prière, la protection contre le châtiment de la tombe (Boukhari, hadith 1377). C'est pourquoi, dans la prière, beaucoup de musulmans récitent cette demande."
     },
     {
-     "sous_titre": "Comment en parler"
-    },
-    {
-     "texte": "Ce sujet doit être abordé avec délicatesse. Beaucoup de musulmans comprennent ces descriptions de manière symbolique ; d'autres de manière très littérale. Le chrétien peut simplement remarquer que ce paradis ressemble beaucoup à ce que désire un homme de la terre : de l'eau, du vin, de la soie, de l'or, des femmes. Jean écrit : tout ce qui est dans le monde, la convoitise de la chair, la convoitise des yeux et l'orgueil de la vie, ne vient point du Père ; le monde passe, et sa convoitise aussi (1 Jean 2:16-17)."
-    },
-    {
-     "texte": "Jésus, interrogé par des gens qui se moquaient de la résurrection avec une histoire de femme mariée sept fois, répondit : à la résurrection, les hommes ne prendront point de femmes, ni les femmes de maris, mais ils seront comme les anges de Dieu dans le ciel (Matthieu 22:30). Le ciel n'est pas la prolongation des plaisirs terrestres : c'est une vie nouvelle, transformée, dont le centre est Dieu."
-    },
-    {
-     "verset": "Mt 22:30"
+     "texte": "Voici un point important à retenir : cet enseignement sur la tombe ne se trouve pas dans le Coran de manière claire. Il vient des hadiths. Certains savants modernes le contestent. Mais la grande majorité des musulmans y croient."
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "L'enfer",
-   "references": [
-    "Mt 10:28",
-    "Ap 21:8"
-   ],
+   "titre": "La résurrection et le jugement",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Un feu terrible"
+     "sous_titre": "Le rassemblement"
     },
     {
-     "texte": "L'enfer, « jahannam », est décrit avec une grande précision dans le Coran. Il a sept portes (sourate 15, verset 44). Ses habitants boiront une eau bouillante qui leur déchirera les entrailles (sourate 47, verset 15), mangeront les fruits de l'arbre « zaqqoum », semblables à des têtes de démons, qui bouilliront dans leur ventre comme du métal fondu (sourate 37, versets 62 à 66 ; sourate 44, versets 43 à 46). Chaque fois que leur peau sera consumée, elle sera remplacée par une autre, afin qu'ils goûtent le châtiment (sourate 4, verset 56)."
+     "texte": "Au jour de la résurrection, tous les êtres humains, depuis Adam, seront rassemblés sur une immense plaine, le « hashr ». Ils seront nus, pieds nus, non circoncis, dit un hadith (Boukhari, hadith 6527). Le soleil sera très proche, à environ la distance d'un mille, selon un hadith (Mouslim, hadith 2864). Les gens suent selon leurs actions : certains jusqu'aux chevilles, d'autres jusqu'aux genoux, d'autres jusqu'à la bouche. Le Coran dit : le jour où l'homme fuira son frère, sa mère et son père, sa compagne et ses enfants (sourate 80, versets 34 à 36). Chacun ne pense qu'à soi. C'est un jour de cinquante mille ans (sourate 70, verset 4)."
     },
     {
-     "sous_titre": "Les habitants de l'enfer"
+     "sous_titre": "Le bassin de Mahomet"
     },
     {
-     "texte": "Le Coran annonce l'enfer aux incroyants, aux hypocrites, à ceux qui associent quelque chose à Allah. Selon l'interprétation de la plupart des savants, cela inclut les chrétiens qui disent que Jésus est Dieu ou Fils de Dieu : ils sont certes mécréants, ceux qui disent : « Allah, c'est le Messie, fils de Marie » (sourate 5, verset 72). Nous avons vu aussi le hadith selon lequel la majorité des habitants de l'enfer sont des femmes."
+     "texte": "Chaque prophète a un bassin, mais celui de Mahomet est le plus grand. C'est le « hawd ». Son eau est plus blanche que le lait et plus douce que le miel. Celui qui en boit n'aura plus jamais soif. Seuls y viennent les vrais membres de sa communauté. Certains seront chassés du bassin, car ils ont changé la religion après lui (Boukhari, hadith 6579)."
     },
     {
-     "sous_titre": "Ce que dit la Bible"
+     "sous_titre": "Le livre et les témoins"
     },
     {
-     "texte": "La Bible aussi enseigne la réalité de l'enfer et du jugement. Jésus lui-même en a parlé plus que tout autre : ne craignez pas ceux qui tuent le corps et qui ne peuvent tuer l'âme ; craignez plutôt celui qui peut faire périr l'âme et le corps dans la géhenne (Matthieu 10:28). L'Apocalypse dit : pour les lâches, les incrédules, les abominables, les meurtriers, les impudiques, les enchanteurs, les idolâtres, et tous les menteurs, leur part sera dans l'étang ardent de feu et de soufre (Apocalypse 21:8). Le chrétien ne doit donc pas se moquer de la peur de l'enfer qu'éprouvent les musulmans : cette peur est juste. La question est : comment y échapper ?"
+     "texte": "Chacun reçoit le livre de ses actions, écrit par les deux anges. Le Coran dit : quant à celui à qui on remettra son livre dans sa main droite, il dira : « Tenez, lisez mon livre ! » Il sera dans une vie agréable. Quant à celui à qui on remettra son livre dans sa main gauche, il dira : « Hélas, que n'ai-je jamais reçu mon livre ! » (sourate 69, versets 19 à 29). Puis les mains, les pieds et la peau témoigneront contre les pécheurs (sourate 41, versets 20 et 21)."
     },
-    {
-     "verset": "Ap 21:8"
-    }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "La tombe et le jour du rassemblement",
-   "references": [
-    "Lc 16:22-23",
-    "Ap 20:12"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "L'interrogatoire et le châtiment de la tombe"
-    },
-    {
-     "texte": "Pour le musulman, le jugement commence dès l'enterrement. Nous avons vu que deux anges, Munkar et Nakir, viennent interroger le mort : « Qui est ton Seigneur ? Quelle est ta religion ? Qui est cet homme qui a été envoyé parmi vous ? » Celui qui répond bien voit sa tombe s'élargir et s'illuminer ; celui qui répond mal est frappé, et sa tombe se resserre sur lui. C'est ce qu'on appelle « le châtiment de la tombe ». Mahomet demandait souvent, dans ses prières, à être protégé du châtiment de la tombe (Boukhari, hadith 1377). Beaucoup de musulmans vivent avec cette crainte, et c'est pourquoi on récite le Coran et on fait des aumônes pour les morts, pour alléger leur sort."
-    },
-    {
-     "sous_titre": "Le jour de la résurrection"
-    },
-    {
-     "texte": "À la fin des temps, l'ange Israfil soufflera dans la trompette, tous les êtres mourront, puis il soufflera une seconde fois et tous ressusciteront. Les hommes seront rassemblés sur une immense plaine, sous un soleil brûlant, nus, dans l'angoisse, chacun pensant à lui-même. Le Coran dit : le jour où l'homme fuira son frère, sa mère et son père, sa compagne et ses enfants ; car chacun d'eux, ce jour-là, aura une affaire qui l'occupera assez (sourate 80, versets 34 à 37)."
-    },
-    {
-     "sous_titre": "Le livre dans la main droite ou gauche"
-    },
-    {
-     "texte": "Chacun recevra alors le livre de ses actions, écrit par les anges pendant sa vie. Le Coran dit : quant à celui à qui on remettra son livre dans sa main droite, il dira : « Tenez, lisez mon livre ! » Il aura une vie agréable dans un jardin élevé. Quant à celui à qui on remettra son livre dans sa main gauche, il dira : « Hélas pour moi ! J'aurais souhaité qu'on ne m'ait pas remis mon livre » (sourate 69, versets 19 à 26). Puis viendra la balance, puis le pont."
-    },
-    {
-     "sous_titre": "Ce que dit la Bible"
-    },
-    {
-     "texte": "La Bible aussi parle de livres ouverts au jugement : les morts furent jugés selon leurs œuvres, d'après ce qui était écrit dans ces livres (Apocalypse 20:12). Si nous étions jugés seulement sur ces livres-là, personne ne serait sauvé. Mais le même verset parle d'un autre livre : « un autre livre fut ouvert, celui qui est le livre de vie ». Ceux dont le nom y est inscrit sont sauvés, non à cause de leurs œuvres, mais à cause de l'Agneau. La Bible ne connaît pas de châtiment de la tombe pour le croyant : Jésus a raconté que le pauvre Lazare, à sa mort, fut porté par les anges dans le sein d'Abraham (Luc 16:22). Pour le chrétien, mourir, c'est être avec le Seigneur."
-    }
-   ]
-  },
-  {
-   "numero": "5",
-   "titre": "Le pont, la balance et « tous y passeront »",
-   "references": [
-    "Ps 130:3",
-    "Jn 3:36"
-   ],
-   "blocs": [
     {
      "sous_titre": "La balance"
     },
     {
-     "texte": "Nous l'avons vu : au jour du jugement, les actions de chacun seront pesées. Celui dont la balance sera lourde de bonnes actions sera sauvé ; celui dont la balance sera légère ira en enfer (sourate 101, versets 6 à 11)."
+     "texte": "Puis vient la balance, le « mizan ». Nous l'avons vue : celui dont les bonnes actions pèsent lourd est sauvé, celui dont elles sont légères est perdu (sourate 101, versets 6 à 9). Un hadith dit que des péchés grands comme des registres à perte de vue seront mis dans un plateau, et qu'une petite carte portant la profession de foi, mise dans l'autre plateau, sera plus lourde. Mais ce récit, rapporté par Tirmidhi (hadith 2639), est une exception, et il n'est pas applicable à tous. La règle générale reste celle du poids des actions."
     },
     {
-     "sous_titre": "Le pont plus fin qu'un cheveu"
+     "sous_titre": "Le pont"
     },
     {
-     "texte": "Les hadiths parlent aussi d'un pont, le « sirat », jeté au-dessus de l'enfer, que tous devront traverser. Mouslim rapporte qu'il est glissant, avec des crochets et des épines ; certains le traversent comme un éclair, d'autres comme le vent, d'autres comme un cheval rapide, d'autres en rampant, et d'autres tombent dans le feu (Mouslim, hadith 183). La tradition populaire dit qu'il est plus fin qu'un cheveu et plus tranchant qu'une épée."
-    },
-    {
-     "sous_titre": "« Il n'y a personne parmi vous qui n'y passera »"
-    },
-    {
-     "texte": "Un verset du Coran inquiète beaucoup de musulmans : il n'y a personne parmi vous qui n'y passera ; c'est pour ton Seigneur une sentence irrévocable. Ensuite, nous délivrerons ceux qui étaient pieux, et nous y laisserons les injustes agenouillés (sourate 19, versets 71 et 72). Les commentateurs l'expliquent de différentes manières : passer au-dessus de l'enfer sur le pont, ou y entrer pour un temps. Plusieurs hadiths enseignent en effet que des musulmans pécheurs entreront en enfer pour être purifiés, puis en sortiront par l'intercession du prophète ou par la miséricorde d'Allah."
+     "texte": "Ensuite, tous doivent traverser le « sirat », un pont jeté au-dessus de l'enfer. Mouslim rapporte qu'il est glissant, avec des crochets et des épines. Les gens passent selon leurs œuvres : comme l'éclair, comme le vent, comme un cheval rapide, en courant, en rampant. Certains sont retenus par les crochets et jetés dans le feu (Mouslim, hadith 183). La tradition populaire dit qu'il est plus fin qu'un cheveu et plus tranchant qu'une épée. Le Coran dit : il n'y a personne parmi vous qui n'y passera (sourate 19, verset 71). Ce verset est compris par beaucoup comme le passage sur le pont, par d'autres comme l'entrée en enfer pour un temps."
     },
     {
      "sous_titre": "Aucune assurance"
     },
     {
-     "texte": "C'est pourquoi le musulman, même très pieux, vit dans l'incertitude. Les grands compagnons du prophète eux-mêmes exprimaient leur crainte. On rapporte qu'Abou Bakr, le premier calife, aurait dit qu'il ne se sentirait pas en sécurité contre la ruse d'Allah, même s'il avait un pied au paradis. Comment le serait-on, si le salut dépend du poids de ses propres actions ?"
+     "texte": "Voici ce qui est vraiment terrible. Même après tout cela, le musulman ne sait pas. Même le deuxième calife, Omar, pleurait de crainte du jugement. On rapporte qu'il a dit : « Si un appel venait du ciel disant que tous les hommes entreront au paradis sauf un, j'aurais peur que ce soit moi. » Voilà le niveau de crainte de ceux qui ont connu le prophète."
     },
     {
-     "texte": "La Bible dit : si tu gardais le souvenir des iniquités, Éternel, Seigneur, qui pourrait subsister ? (Psaume 130:3). Et Jésus a dit : celui qui croit au Fils a la vie éternelle ; celui qui ne croit pas au Fils ne verra point la vie, mais la colère de Dieu demeure sur lui (Jean 3:36). Le salut ne dépend pas d'une balance, mais d'une relation avec le Fils."
+     "sous_titre": "Que devient celui qui n'a jamais entendu parler de l'islam ?"
     },
     {
-     "verset": "Jn 3:36"
+     "texte": "Beaucoup de gens posent cette question. Que deviennent les petits enfants qui meurent avant l'âge de raison, et ceux qui n'ont jamais entendu le message ? Le Coran dit : nous n'avons jamais châtié sans avoir envoyé un messager (sourate 17, verset 15). Sur cette base, la plupart des savants disent que les enfants des musulmans qui meurent petits vont au paradis. Pour les enfants des non-musulmans, les avis sont partagés : certains disent qu'ils vont aussi au paradis, d'autres qu'ils seront mis à l'épreuve le jour du jugement. Pour les adultes qui n'ont jamais entendu parler de l'islam, les savants discutent. Mais pour celui qui l'a entendu et l'a refusé, ils sont tous d'accord : il est perdu. Un hadith dit : « Par celui qui tient l'âme de Mahomet, personne dans cette communauté, juif ou chrétien, n'entend parler de moi puis meurt sans croire à ce avec quoi j'ai été envoyé, sans être des gens de l'enfer » (Mouslim, hadith 153). Retiens bien cela : pour le musulman, un chrétien qui a entendu le message de Mahomet et qui le rejette est destiné à l'enfer. Ce n'est pas un détail. C'est une conviction très forte, qui explique l'ardeur de certains à convertir."
+    }
+   ]
+  },
+  {
+   "numero": "4",
+   "titre": "Le paradis",
+   "references": [],
+   "blocs": [
+    {
+     "sous_titre": "Le jardin"
+    },
+    {
+     "texte": "Le paradis s'appelle « al-janna », le jardin. Il est décrit comme des jardins sous lesquels coulent des rivières. Pour des gens du désert, c'est l'image même du bonheur. Le Coran dit : voici la description du paradis promis aux pieux : des rivières d'eau jamais croupie, des rivières de lait au goût inaltérable, des rivières de vin délicieux pour ceux qui en boivent, et des rivières de miel purifié (sourate 47, verset 15). Le vin du paradis ne rend pas ivre (sourate 37, verset 47)."
+    },
+    {
+     "sous_titre": "Le luxe"
+    },
+    {
+     "texte": "Les croyants porteront des bracelets d'or et de perles, des habits de soie verte et de brocart. Ils seront accoudés sur des lits (sourate 18, verset 31 ; sourate 76, versets 12 à 21). Ils auront les fruits qu'ils aiment, et la chair d'oiseaux qu'ils désirent (sourate 56, versets 20 et 21). Des jeunes garçons éternellement jeunes les serviront avec des coupes ; quand tu les vois, tu les prendrais pour des perles éparpillées (sourate 76, verset 19). Il n'y aura ni soleil brûlant, ni froid glacial. Il n'y aura pas de paroles futiles."
+    },
+    {
+     "sous_titre": "Les degrés"
+    },
+    {
+     "texte": "Boukhari rapporte qu'il y a cent degrés au paradis, et que la distance entre deux degrés est comme celle du ciel à la terre. Le plus élevé s'appelle « al-Firdaws », au-dessus duquel est le trône d'Allah (Boukhari, hadith 2790). Les degrés dépendent des œuvres : ceux qui ont le plus lutté dans le chemin d'Allah, ceux qui ont le plus prié, jeûné, donné."
+    },
+    {
+     "sous_titre": "La vision d'Allah"
+    },
+    {
+     "texte": "La plus grande récompense est de voir Allah. Mahomet a dit : « Vous verrez votre Seigneur comme vous voyez cette lune, sans vous presser pour le voir » (Boukhari, hadith 554). Les savants sunnites disent que les croyants verront Allah de leurs yeux au paradis, et qu'il se montrera à eux chaque vendredi. Mais selon les mutazilites, une école ancienne, c'est impossible. La plupart des musulmans croient que la vision est la plus belle récompense."
+    },
+    {
+     "sous_titre": "Les houris"
+    },
+    {
+     "texte": "Le Coran promet aux croyants des compagnes appelées « houris ». Le mot veut dire « aux yeux très noirs et très blancs ». Il dit : nous les marierons à des houris aux grands yeux (sourate 44, verset 54 ; sourate 52, verset 20). Elles sont décrites comme des vierges que ni homme ni djinn n'a touchées avant eux (sourate 55, verset 56), cloîtrées dans des tentes (sourate 55, verset 72), comparées à des perles bien gardées (sourate 56, versets 22 et 23), et aux seins fermes, de même âge (sourate 78, verset 33)."
+    },
+    {
+     "texte": "Les hadiths précisent. Boukhari rapporte que chaque homme du paradis aura deux épouses, si belles qu'on verra la moelle de leurs jambes à travers la chair (Boukhari, hadith 3245). Tirmidhi rapporte que le croyant recevra la force de cent hommes pour les relations (Tirmidhi, hadith 2536). Le chiffre de soixante-douze épouses pour le martyr vient d'un hadith de Tirmidhi (hadith 1663), que certains savants jugent faible. Tout cela est dit, dans les livres, en toute simplicité."
+    },
+    {
+     "sous_titre": "Qu'en est-il de la femme ?"
+    },
+    {
+     "texte": "Beaucoup de femmes musulmanes se demandent ce qu'elles auront. Les savants répondent que la femme croyante sera avec son mari, si lui aussi y entre, qu'elle sera plus belle que les houris, et qu'elle sera comblée. Le Coran dit aussi que chacun aura ce que son âme désire (sourate 43, verset 71). Mais le Coran décrit beaucoup plus en détail les récompenses des hommes que celles des femmes. C'est un fait."
+    },
+    {
+     "sous_titre": "Est-ce que tout cela est littéral ou symbolique ?"
+    },
+    {
+     "texte": "Beaucoup de savants et de musulmans modernes disent que ces descriptions sont symboliques. D'autres, très nombreux, insistent que tout est réel et physique. Un hadith dit qu'un homme au paradis aura des relations avec ses épouses sans jamais se fatiguer, et qu'il mangera et boira sans besoin. Autrement dit, ce paradis ressemble beaucoup à ce que désire un homme de la terre. Voilà ce qui est enseigné."
+    },
+    {
+     "sous_titre": "Qui entre au paradis ?"
+    },
+    {
+     "texte": "Les musulmans croient que le paradis est réservé à ceux qui sont morts dans la foi. Mais même les musulmans y entrent selon leur mérite, ou selon la miséricorde d'Allah. Un hadith dit : « Nul d'entre vous n'entrera au paradis par ses œuvres. » On lui demanda : « Est-ce que même toi, ô messager d'Allah, tu n'y entres pas par tes œuvres ? » Il dit : « Pas même moi, à moins qu'Allah ne m'enveloppe de sa miséricorde » (Boukhari, hadith 5673). Voilà pourquoi le musulman espère dans la miséricorde, mais sans savoir."
+    }
+   ]
+  },
+  {
+   "numero": "5",
+   "titre": "L'enfer",
+   "references": [],
+   "blocs": [
+    {
+     "sous_titre": "Les noms et les niveaux"
+    },
+    {
+     "texte": "L'enfer s'appelle « jahannam », ou « an-nar », le feu. Le Coran parle de sept portes (sourate 15, verset 44). Les commentateurs ont donné des noms à sept niveaux : « jahannam » pour les musulmans pécheurs, « laza », « houtama », « saïr », « saqar », « jahim » et « hawiya » pour les autres, en bas pour les hypocrites. C'est le plus bas niveau qui est réservé aux hypocrites : les hypocrites seront dans le plus bas fond du feu (sourate 4, verset 145)."
+    },
+    {
+     "sous_titre": "Les tourments"
+    },
+    {
+     "texte": "Le Coran décrit l'enfer avec une extrême précision. Les habitants boiront une eau bouillante qui déchirera leurs entrailles (sourate 47, verset 15). Ils mangeront les fruits de l'arbre « zaqqoum », semblables à des têtes de démons, qui bouillent dans le ventre comme du métal fondu (sourate 37, versets 62 à 66 ; sourate 44, versets 43 à 46). Chaque fois que leur peau sera consumée, nous leur donnerons une autre peau, afin qu'ils goûtent le châtiment (sourate 4, verset 56). Des vêtements de feu seront coupés pour eux (sourate 22, versets 19 à 22). Ils seront battus avec des massues de fer."
+    },
+    {
+     "texte": "Les hadiths ajoutent. Mahomet a dit que notre feu est un soixante-dixième du feu de l'enfer (Boukhari, hadith 3265). Le moindre châtiment est celui d'un homme à qui on met aux pieds deux sandales de feu, dont la chaleur fait bouillir son cerveau (Boukhari, hadith 6562). Un hadith dit que la mort sera amenée sous la forme d'un bélier entre le paradis et l'enfer, et sera égorgée : alors on dira aux gens du paradis : éternité, plus de mort ; et aux gens de l'enfer : éternité, plus de mort (Boukhari, hadith 4730)."
+    },
+    {
+     "sous_titre": "Qui y va ?"
+    },
+    {
+     "texte": "Le Coran annonce l'enfer aux incroyants, aux hypocrites, à ceux qui associent quelque chose à Allah. Parmi eux, le Coran nomme ceux qui disent que le Messie est Dieu : ils sont mécréants, ceux qui disent « Allah, c'est le Messie, fils de Marie » (sourate 5, verset 72). Et ceux qui disent « Allah est le troisième de trois » (sourate 5, verset 73). Il dit même que ceux des gens du Livre qui ont mécru, et les polythéistes, iront dans le feu de l'enfer, pour y demeurer éternellement : ce sont eux les pires des créatures (sourate 98, verset 6). Cela concerne les juifs et les chrétiens. Voilà ce que dit le Coran, et il faut le dire à ceux qui pensent que tout le monde sera sauvé dans l'islam."
+    },
+    {
+     "texte": "Un hadith de Mouslim dit que, le jour de la résurrection, Allah donnera à chaque musulman un juif ou un chrétien et lui dira : « Voici ta rançon contre le feu » (Mouslim, hadith 2767). Les femmes forment la majorité des habitants de l'enfer, d'après Boukhari 304, comme nous l'avons vu."
+    },
+    {
+     "sous_titre": "Les musulmans pécheurs"
+    },
+    {
+     "texte": "Les musulmans pécheurs peuvent aussi entrer en enfer. Les hadiths enseignent qu'ils en sortiront un jour, après avoir été purifiés, grâce à l'intercession ou à la miséricorde (Boukhari, hadith 6560). Autrement dit, pour eux, l'enfer est un lieu de passage. Pour les incroyants, il est éternel."
     }
    ]
   },
   {
    "numero": "6",
-   "titre": "L'intercession du prophète",
-   "references": [
-    "1 Tm 2:5",
-    "He 7:25"
-   ],
+   "titre": "L'intercession",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "La grande intercession"
+     "sous_titre": "L'intercession de Mahomet"
     },
     {
-     "texte": "Selon les hadiths, au jour du jugement, les hommes angoissés iront chercher un intercesseur. Ils iront d'abord voir Adam, puis Noé, puis Abraham, puis Moïse, puis Jésus ; chacun s'excusera en rappelant une faute ou en renvoyant à un autre. Puis ils iront voir Mahomet, qui se prosternera devant Allah et recevra la permission d'intercéder pour sa communauté (Boukhari, hadith 7510). Il fera sortir de l'enfer des musulmans qui avaient dans le cœur la foi, même du poids d'un grain de moutarde."
+     "texte": "Selon les hadiths, au jour du jugement, les gens angoissés iront chercher quelqu'un qui plaide pour eux. Ils iront voir Adam, qui dira : « Je suis occupé de moi-même, j'ai mangé de l'arbre. » Puis Noé, Abraham, Moïse, chacun s'excusant à cause d'une faute. Puis Jésus, qui dira : « Allez voir Mahomet. » Mahomet se prosternera devant Allah, et Allah lui dira : « Relève la tête, demande, on t'exaucera, intercède, on t'écoutera » (Boukhari, hadith 7510). Il intercédera pour que les croyants sortent de l'enfer. Il fera sortir ceux qui ont dans le cœur la foi du poids d'un grain de moutarde."
     },
     {
-     "sous_titre": "Une remarque importante"
+     "texte": "Beaucoup de musulmans y voient leur espoir. Ils demandent des bénédictions sur Mahomet à chaque prière, en espérant son intercession. C'est pourquoi, dans la prière, on répète « Allahouma salli ala Mouhammad ». Mais cette intercession n'est pour personne d'autre qu'un musulman."
     },
     {
-     "texte": "Dans ce récit, il est intéressant de noter que Jésus est le seul prophète qui ne mentionne aucun péché personnel pour s'excuser. Il renvoie simplement à Mahomet. Le chrétien peut demander : pourquoi Jésus, que le Coran présente sans péché, aurait-il besoin de renvoyer à un autre ?"
+     "sous_titre": "Les autres intercesseurs"
     },
     {
-     "sous_titre": "Le seul médiateur"
-    },
-    {
-     "texte": "La Bible dit : il y a un seul Dieu, et aussi un seul médiateur entre Dieu et les hommes, Jésus-Christ homme, qui s'est donné lui-même en rançon pour tous (1 Timothée 2:5-6). Et encore : c'est pour cela aussi qu'il peut sauver parfaitement ceux qui s'approchent de Dieu par lui, étant toujours vivant pour intercéder en leur faveur (Hébreux 7:25). Jésus n'attend pas le jour du jugement pour intercéder : il intercède aujourd'hui, et il ne peut intercéder que parce qu'il a déjà payé la dette."
+     "texte": "Les hadiths disent aussi que les martyrs, les savants, les enfants morts jeunes, et le Coran lui-même peuvent intercéder. Le Coran dit : qui peut intercéder auprès de lui sans sa permission ? (sourate 2, verset 255). L'intercession est donc possible seulement avec la permission d'Allah."
     }
    ]
   },
   {
    "numero": "7",
-   "titre": "La promesse faite aux martyrs",
-   "references": [
-    "Jn 16:2",
-    "2 Co 5:8"
-   ],
+   "titre": "La promesse faite au martyr",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le paradis garanti pour celui qui meurt au combat"
+     "sous_titre": "Un paradis garanti"
     },
     {
-     "texte": "Le Coran fait une promesse particulière à ceux qui meurent en combattant dans le chemin d'Allah : Allah a acheté des croyants leurs personnes et leurs biens en échange du paradis ; ils combattent dans le chemin d'Allah, ils tuent et ils sont tués (sourate 9, verset 111). Et encore : ne pense pas que ceux qui ont été tués dans le chemin d'Allah soient morts ; ils sont vivants auprès de leur Seigneur, bien pourvus (sourate 3, verset 169)."
+     "texte": "Le Coran fait une promesse particulière à ceux qui meurent en combattant. Allah a acheté aux croyants leurs personnes et leurs biens, en échange du paradis. Ils combattent dans le chemin d'Allah, ils tuent et ils sont tués (sourate 9, verset 111). Il dit aussi : ne pense pas que ceux qui ont été tués dans le chemin d'Allah soient morts. Ils sont vivants auprès de leur Seigneur, ils sont pourvus (sourate 3, verset 169)."
     },
     {
-     "texte": "Un hadith rapporté par Tirmidhi énumère les privilèges du martyr : ses péchés lui sont pardonnés dès la première goutte de son sang, il voit sa place au paradis, il est préservé du châtiment de la tombe, il est marié à soixante-douze houris, et il peut intercéder pour soixante-dix membres de sa famille (Tirmidhi, hadith 1663)."
+     "texte": "Les hadiths précisent les privilèges du martyr. Tirmidhi rapporte six faveurs : ses péchés sont pardonnés dès la première goutte de son sang ; il voit sa place au paradis ; il est protégé du châtiment de la tombe ; il est à l'abri de la grande terreur ; il porte une couronne de dignité ; et il est marié à soixante-douze houris, et peut intercéder pour soixante-dix de ses proches (Tirmidhi, hadith 1663). Un autre hadith dit que le martyr n'éprouve de la mort que la douleur d'une piqûre de fourmi (Tirmidhi, hadith 1668)."
     },
     {
-     "sous_titre": "Pourquoi c'est si important"
+     "sous_titre": "Les conséquences"
     },
     {
-     "texte": "Ces textes aident à comprendre un drame terrible de notre temps. Pour un jeune musulman qui ne peut jamais être sûr que ses bonnes actions suffiront, mourir en martyr apparaît comme le seul chemin garanti vers le paradis. Des recruteurs de groupes extrémistes, comme ceux qui ont endeuillé le nord du Cameroun, du Nigeria et le Sahel, utilisent ces promesses pour convaincre des jeunes, parfois des enfants, et même des jeunes filles, de se faire exploser au milieu d'une foule. Il faut redire que la grande majorité des musulmans condamnent ces attentats, et que beaucoup de savants refusent d'appeler « martyr » celui qui tue des innocents. Mais les promesses existent, et les recruteurs les utilisent."
-    },
-    {
-     "sous_titre": "Le martyre chrétien"
-    },
-    {
-     "texte": "Jésus avait prévenu ses disciples : l'heure vient où quiconque vous fera mourir croira rendre un culte à Dieu (Jean 16:2). Le christianisme aussi a ses martyrs, mais d'une tout autre manière : le martyr chrétien est celui qui est tué parce qu'il refuse de renier Christ, et qui meurt en pardonnant, comme Étienne qui priait : Seigneur, ne leur impute pas ce péché (Actes 7:60). Il ne meurt pas pour gagner le paradis, puisqu'il l'a déjà reçu par grâce. Paul disait : nous aimons mieux quitter ce corps et demeurer auprès du Seigneur (2 Corinthiens 5:8)."
-    },
-    {
-     "verset": "2 Co 5:8"
+     "texte": "Pour un jeune musulman qui ne peut jamais être sûr de son salut, mourir en martyr apparaît comme le seul chemin garanti. C'est pourquoi des recruteurs de groupes comme Boko Haram, qui a fait tant de mal au nord du Cameroun, au Nigeria, au Tchad et au Niger, ou comme Daech, utilisent ces promesses pour convaincre des jeunes, et même des enfants, de se faire exploser dans des marchés et des mosquées. Il faut le dire clairement. La grande majorité des musulmans condamnent ces actes et disent qu'ils ne sont pas le vrai martyre. Mais ces recruteurs ne citent pas des textes inventés. Ils lisent les mêmes versets et les mêmes hadiths."
     }
    ]
   },
   {
    "numero": "8",
-   "titre": "Ce que la Bible annonce",
-   "references": [
-    "Ap 21:27",
-    "Jn 14:2-3"
-   ],
+   "titre": "Ce que le musulman en retire",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Être avec Dieu"
+     "sous_titre": "La crainte et l'espoir"
     },
     {
-     "texte": "Le ciel, dans la Bible, n'est pas d'abord un jardin de plaisirs : c'est la présence de Dieu. Jean entend une voix qui dit : voici le tabernacle de Dieu avec les hommes ! Il habitera avec eux, et ils seront son peuple, et Dieu lui-même sera avec eux. Il essuiera toute larme de leurs yeux, et la mort ne sera plus, et il n'y aura plus ni deuil, ni cri, ni douleur (Apocalypse 21:3-4). Ses serviteurs le serviront et verront sa face (Apocalypse 22:3-4)."
+     "texte": "Que ressent le musulman quand il pense à tout cela ? Il ressent à la fois la crainte et l'espoir. Le mot qui revient sans cesse est « khawf » et « raja' » : la crainte et l'espérance. Les savants disent que le croyant est comme un oiseau avec deux ailes : la crainte et l'espoir. Il faut les deux pour voler. Si l'une dépasse l'autre, il tombe."
     },
     {
-     "sous_titre": "Rien d'impur"
+     "sous_titre": "Une vie tendue vers ce jour"
     },
     {
-     "texte": "L'Apocalypse dit aussi : il n'entrera chez elle rien de souillé, ni personne qui se livre à l'abomination et au mensonge ; il n'entrera que ceux qui sont écrits dans le livre de vie de l'agneau (Apocalypse 21:27). C'est la grande différence : on n'entre pas au ciel parce que sa balance est assez lourde, mais parce que son nom est écrit dans le livre de l'Agneau, celui qui a donné sa vie."
+     "texte": "Beaucoup de musulmans pieux vivent chaque jour en pensant au jugement. Ils pleurent en écoutant le Coran. Ils évitent des péchés par peur de la tombe. Certains se lèvent la nuit pour prier. C'est un fait respectable. Mais je le redis simplement : chez eux, l'espoir n'a pas de certitude. Même après toute une vie de fidélité, ils ne savent pas."
     },
     {
-     "verset": "Ap 21:27"
+     "sous_titre": "Les derniers moments et le deuil"
     },
     {
-     "sous_titre": "Une place préparée"
+     "texte": "Voici comment cela se vit autour du mourant. On visite le malade : Mahomet a dit que le musulman a six droits sur le musulman, dont celui d'être visité quand il est malade (Mouslim, hadith 2162). Quand la mort approche, on rappelle au mourant la chahada, pour que ce soient ses dernières paroles. Après le décès, on dit « nous appartenons à Allah et nous retournons à lui » (sourate 2, verset 156). On interdit de pleurer en criant, de déchirer ses vêtements, de se frapper les joues : Mahomet a dit que celui qui fait cela n'est pas des nôtres (Boukhari, hadith 1294). Les larmes silencieuses sont permises. Le deuil dure trois jours pour la famille. Pour la veuve, il dure quatre mois et dix jours, pendant lesquels elle reste chez elle, sans parfum ni bijoux (sourate 2, verset 234)."
     },
     {
-     "texte": "Jésus a dit : il y a plusieurs demeures dans la maison de mon Père. Si cela n'était pas, je vous l'aurais dit. Je vais vous préparer une place… je reviendrai, et je vous prendrai avec moi, afin que là où je suis vous y soyez aussi (Jean 14:2-3). Le chrétien sait où il va, non parce qu'il est meilleur, mais parce que quelqu'un lui a préparé la place."
+     "texte": "Pour un voisin chrétien, c'est utile à savoir. Tu peux visiter la famille en deuil, apporter à manger, dire quelques mots de compassion. Tu n'as pas à crier ni à te lamenter. Et tu ne te mêles pas des rites, mais ta présence compte beaucoup."
     }
    ]
   },
   {
    "numero": "9",
-   "titre": "Comment en parler avec un ami musulman",
-   "references": [
-    "1 P 3:15",
-    "Ac 16:30-31"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Deux questions"
-    },
-    {
-     "texte": "Avec un ami musulman, tu peux poser deux questions simples, avec amour : « Quand tu mourras, es-tu sûr d'aller au paradis ? » « Au paradis, qu'est-ce qui te rendra le plus heureux : les rivières et les jardins, ou voir Dieu ? » Ces questions touchent le cœur. Beaucoup de musulmans n'ont jamais entendu quelqu'un dire avec assurance qu'il allait au ciel, sans orgueil, parce que quelqu'un avait payé pour lui."
-    },
-    {
-     "sous_titre": "La réponse de Paul au geôlier"
-    },
-    {
-     "texte": "Quand le geôlier de Philippes demanda : que faut-il que je fasse pour être sauvé ? Paul et Silas répondirent : crois au Seigneur Jésus, et tu seras sauvé, toi et ta famille (Actes 16:30-31). Pas de balance, pas de pont, pas de martyre. Une personne en qui croire."
-    },
-    {
-     "sous_titre": "On raconte…"
-    },
-    {
-     "texte": "On raconte qu'un jeune homme du nord du Nigeria, recruté par un groupe armé, avait accepté de porter une ceinture d'explosifs, convaincu d'aller directement au paradis. La veille de l'attentat, il fit un rêve : un homme vêtu de blanc lui disait « Je suis le chemin. Ne fais pas cela. » Bouleversé, il s'enfuit et se rendit aux autorités. En prison, un aumônier chrétien lui donna un Nouveau Testament. Arrivé à Jean 14:6, il pleura longtemps : « C'est la phrase de mon rêve. » Des témoignages semblables, de rêves de Jésus chez des musulmans, sont nombreux aujourd'hui. Nous en parlerons dans l'enseignement sur l'évangélisation."
-    }
-   ]
-  },
-  {
-   "numero": "10",
    "titre": "Ce que nous retenons",
-   "references": [
-    "Jn 14:6",
-    "1 Jn 5:11-12"
-   ],
+   "references": [],
    "blocs": [
     {
      "sous_titre": "Résumons"
     },
     {
-     "texte": "Le paradis musulman est décrit comme des jardins où coulent des rivières d'eau, de lait, de vin et de miel, avec de la soie, de l'or, des festins, de jeunes serviteurs et des houris promises aux hommes. Le plus grand bonheur est de voir Allah. L'enfer est un feu terrible où les peaux sont remplacées. Au jugement, les actions sont pesées sur une balance, et chacun doit traverser un pont au-dessus de l'enfer ; le Coran dit que « tous y passeront ». Le musulman n'a donc pas d'assurance du salut, sauf, selon certains textes, s'il meurt en martyr au combat, ce qu'exploitent les groupes extrémistes. Mahomet est présenté comme l'intercesseur du jugement."
+     "texte": "Le musulman croit que la fin du monde sera annoncée par des signes : le Mahdi, le Dajjal, le retour de Jésus qui brisera la croix, Gog et Magog, le soleil de l'ouest. Après la mort, il y a l'interrogatoire de la tombe, la résurrection, le livre, la balance et le pont. Le paradis a cent degrés, avec des jardins, des rivières de lait, de vin et de miel, des houris, et la vision d'Allah. L'enfer a sept niveaux, avec une eau bouillante, un arbre de zaqqoum et des peaux renouvelées ; selon le Coran, les chrétiens qui disent que Jésus est Dieu sont destinés à l'enfer. Mahomet intercédera pour les croyants pécheurs, et le martyr est assuré du paradis. Mais personne, même le prophète, ne sait avec certitude ce qui l'attend."
     },
     {
-     "sous_titre": "La vie éternelle, maintenant"
+     "sous_titre": "Ce que le chrétien retient"
     },
     {
-     "texte": "La Bible annonce un ciel dont le centre est Dieu, sans larmes ni mort, où entrent ceux dont le nom est écrit dans le livre de l'Agneau. Elle offre une assurance qui ne repose pas sur nos œuvres : Dieu nous a donné la vie éternelle, et cette vie est dans son Fils ; celui qui a le Fils a la vie (1 Jean 5:11-12). Voilà la bonne nouvelle que nous devons annoncer à nos amis musulmans, avant qu'il ne soit trop tard."
+     "texte": "Le chrétien retient que le musulman sincère vit dans la crainte, qu'il n'a pas de réponse sûre à la question de sa mort, et que beaucoup de ses espoirs sont très matériels. Il ne se moque pas. Il se prépare à répondre, dans la série « Face à face », avec cette promesse : celui qui croit au Fils a la vie éternelle (Jean 3:36), et le désir qu'exprime le psaume : pour moi, dans mon innocence, je verrai ta face ; dès le réveil, je me rassasierai de ton image (Psaume 17:15)."
     },
     {
-     "texte": "Dans le prochain enseignement, nous aborderons une question que tous se posent : le djihad, la violence et le terrorisme. Que disent vraiment les textes ? Pourquoi certains musulmans deviennent-ils violents, et d'autres non ?"
+     "texte": "Dans le prochain enseignement, nous parlerons du djihad, l'effort dans le chemin d'Allah, ce que disent les textes, et comment les musulmans le comprennent."
     }
    ]
   }
@@ -349,89 +336,111 @@
  "sujets": [
   {
    "titre": "Pour ceux qui ont peur de la mort",
-   "texte": "Prions afin que nos amis musulmans qui craignent le jugement entendent que Jésus donne la vie éternelle à ceux qui croient en lui (Jean 3:36)."
+   "texte": "Prions pour les musulmans sincères qui craignent le jugement, afin qu'ils entendent que Jésus donne la vie éternelle par grâce (Jean 3:36)."
   },
   {
-   "titre": "Pour les jeunes tentés par la violence",
-   "texte": "Prions pour les jeunes recrutés par des groupes armés dans le nord du Cameroun, du Nigeria et au Sahel, afin que Jésus se révèle à eux et les arrache à la mort (Jean 14:6)."
+   "titre": "Pour les jeunes recrutés par les groupes armés",
+   "texte": "Prions afin que les jeunes séduits par la promesse du martyre rencontrent Jésus dans des rêves et des témoignages, comme Paul sur le chemin de Damas (Actes 9:3-6)."
   },
   {
-   "titre": "Pour les victimes",
-   "texte": "Prions pour les familles endeuillées par les attentats et les attaques, afin qu'elles soient consolées et qu'elles connaissent celui qui essuiera toute larme (Apocalypse 21:4)."
+   "titre": "Pour les familles en deuil",
+   "texte": "Prions pour les familles musulmanes en deuil, afin qu'elles entendent parler de l'espérance de la résurrection en Jésus (1 Thessaloniciens 4:13-14)."
   }
  ],
  "questions": [
   {
-   "question": "Selon la sourate 47, verset 15, de quoi sont faites les rivières du paradis ?",
+   "question": "Selon le hadith de Boukhari 2222, que fera Jésus quand il descendra à la fin des temps ?",
    "choix": [
-    "D'or et d'argent",
-    "D'eau, de lait, de vin et de miel",
-    "De sang et de feu"
+    "Il fondera une nouvelle religion",
+    "Il brisera la croix, tuera le porc et supprimera la jizya",
+    "Il prêchera l'Évangile à tous les peuples"
    ],
    "reponse": 1,
-   "explication": "Le paradis est décrit comme des jardins avec des rivières de délices.",
+   "explication": "Jésus reviendra comme juge équitable selon la loi de Mahomet.",
    "section": "1"
   },
   {
-   "question": "Que dit la sourate 19, verset 71, qui inquiète beaucoup de musulmans ?",
+   "question": "Quelles questions posent Mounkar et Nakir dans la tombe ?",
    "choix": [
-    "Que personne n'ira en enfer",
-    "Qu'il n'y a personne qui n'y passera",
-    "Que tous iront au paradis"
+    "Combien de prières, de jeûnes, d'aumônes",
+    "Qui est ton Seigneur, quelle est ta religion, qui est ton prophète",
+    "Quels sont tes péchés"
    ],
    "reponse": 1,
-   "explication": "Les commentateurs l'expliquent de différentes manières, mais il crée une grande incertitude.",
-   "section": "5"
-  },
-  {
-   "question": "Que dit Jésus à propos du mariage à la résurrection ?",
-   "choix": [
-    "Que chacun aura plusieurs épouses",
-    "Qu'on ne prendra ni femme ni mari, mais qu'on sera comme les anges",
-    "Que le mariage continue"
-   ],
-   "reponse": 1,
-   "explication": "Matthieu 22:30.",
+   "explication": "Boukhari 1374.",
    "section": "2"
   },
   {
-   "question": "Que promet la sourate 9, verset 111 ?",
+   "question": "Comment s'appelle le pont jeté au-dessus de l'enfer ?",
    "choix": [
-    "Le paradis à ceux qui prient",
-    "Le paradis en échange de leurs personnes et de leurs biens à ceux qui combattent, tuent et sont tués",
-    "Le paradis à tous les hommes"
+    "Hawd",
+    "Mizan",
+    "Sirat"
+   ],
+   "reponse": 2,
+   "explication": "Mouslim 183.",
+   "section": "3"
+  },
+  {
+   "question": "Combien de degrés compte le paradis, selon Boukhari 2790 ?",
+   "choix": [
+    "Sept",
+    "Dix",
+    "Cent"
+   ],
+   "reponse": 2,
+   "explication": "Le plus élevé est al-Firdaws.",
+   "section": "4"
+  },
+  {
+   "question": "Quelle est la plus grande récompense du paradis ?",
+   "choix": [
+    "Les houris",
+    "Voir Allah",
+    "Les rivières de lait"
    ],
    "reponse": 1,
-   "explication": "Ces promesses sont utilisées par les recruteurs extrémistes.",
+   "explication": "Boukhari 554.",
+   "section": "4"
+  },
+  {
+   "question": "Selon le Coran, qui est destiné à l'enfer pour y demeurer éternellement ?",
+   "choix": [
+    "Seulement les voleurs",
+    "Les gens du Livre qui ont mécru et les polythéistes",
+    "Tous les hommes"
+   ],
+   "reponse": 1,
+   "explication": "Sourate 98, verset 6.",
+   "section": "5"
+  },
+  {
+   "question": "Quelle promesse particulière le martyr reçoit-il ?",
+   "choix": [
+    "Une grande fortune",
+    "Le paradis garanti, le pardon dès la première goutte de sang",
+    "La résurrection avant les autres"
+   ],
+   "reponse": 1,
+   "explication": "Tirmidhi 1663.",
    "section": "7"
   },
   {
-   "question": "Selon 1 Timothée 2:5, combien y a-t-il de médiateurs entre Dieu et les hommes ?",
+   "question": "Que dit Mahomet de son propre salut, selon Boukhari 5673 ?",
    "choix": [
-    "Plusieurs prophètes",
-    "Un seul, Jésus-Christ",
-    "Aucun"
+    "Qu'il est sûr d'y aller par ses œuvres",
+    "Que nul n'entre au paradis par ses œuvres, pas même lui, sans la miséricorde d'Allah",
+    "Qu'il n'ira pas"
    ],
    "reponse": 1,
-   "explication": "Jésus s'est donné lui-même en rançon pour tous.",
-   "section": "6"
-  },
-  {
-   "question": "Qui entre dans la nouvelle Jérusalem selon Apocalypse 21:27 ?",
-   "choix": [
-    "Ceux dont la balance est lourde",
-    "Ceux qui sont écrits dans le livre de vie de l'Agneau",
-    "Ceux qui sont morts au combat"
-   ],
-   "reponse": 1,
-   "explication": "Le salut est un don de l'Agneau, non un salaire.",
-   "section": "8"
+   "explication": "Autrement dit, même le prophète ne se dit pas sûr.",
+   "section": "3"
   }
  ],
  "devoir": [
-  "Lis Apocalypse 21 et 22. Note ce qui rend le ciel merveilleux.",
-  "Lis Jean 14:1-6 et apprends Jean 14:6 par cœur.",
-  "Prépare ta réponse, avec tes mots, à la question : « Comment peux-tu être sûr d'aller au paradis ? »"
+  "Lis Jean 14:1-6 et Apocalypse 21:1-8. Note ce que Dieu promet à ceux qui croient.",
+  "Prépare ta réponse à la question : « Quand tu mourras, es-tu sûr d'aller au paradis ? »",
+  "Prie pour un jeune musulman de ton quartier, afin qu'il rencontre le Dieu vivant."
  ],
  "prieres_liees": [],
  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
