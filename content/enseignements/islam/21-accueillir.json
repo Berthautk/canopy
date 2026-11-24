@@ -7,7 +7,7 @@
  "resume": "Quand un musulman choisit de suivre Jésus, le plus difficile commence souvent. Il peut perdre sa famille, son travail, son mariage, sa sécurité. L'Église est-elle prête à l'accueillir ? Comment le protéger sans l'enfermer, le faire grandir sans le juger, répondre à ses questions sur son nom, la nourriture, la prière, le ramadan en famille, le mariage, le baptême ? Comment l'aider à aimer sa famille malgré le rejet, et à devenir à son tour un témoin ? La dernière étape de la série, et peut-être la plus importante.",
  "image": "/assets/eglise/accueil-a-la-porte.webp",
  "verset_de_base": "Ps 68:7",
- "lecture_minutes": 29,
+ "lecture_minutes": 31,
  "objectifs": [
   "Comprendre ce que vit un musulman qui devient disciple de Jésus.",
   "Savoir protéger un nouveau converti avec sagesse et discrétion.",
@@ -66,7 +66,7 @@
      "sous_titre": "Ce qu'il ressent"
     },
     {
-     "texte": "Pendant tout ce temps, il vit des sentiments mêlés : la joie de connaître Jésus, la paix du pardon, mais aussi la peur, la culpabilité d'avoir « trahi » sa famille, la tristesse de voir sa mère pleurer, la solitude, et parfois des doutes : « Ai-je eu raison ? Et si l'islam était vrai ? » Les cauchemars, les attaques spirituelles, les menaces de marabouts sont fréquents. Paul avait prévenu : tous ceux qui veulent vivre pieusement en Jésus-Christ seront persécutés (2 Timothée 3:12)."
+     "texte": "Pendant tout ce temps, il vit des sentiments mêlés : la joie de connaître Jésus, la paix du pardon, mais aussi la peur, la culpabilité d'avoir « trahi » sa famille, la tristesse de voir sa mère pleurer, la solitude, et parfois des doutes : « Est-ce que j'ai eu raison ? Et si l'islam était vrai, est-ce que je me suis trompé ? » Les cauchemars, les attaques spirituelles, les menaces de marabouts sont fréquents. Paul avait prévenu : tous ceux qui veulent vivre pieusement en Jésus-Christ seront persécutés (2 Timothée 3:12)."
     },
     {
      "verset": "2 Tm 3:12"
@@ -253,13 +253,13 @@
      "texte": "Le converti a souvent l'habitude de prier à heures fixes, de se laver avant la prière, de se prosterner. Ces habitudes ne sont pas mauvaises en elles-mêmes. Il peut continuer à prier à des moments fixes de la journée, mais désormais au nom de Jésus, comme un enfant qui parle à son Père, et non pour accumuler des mérites. Daniel priait trois fois par jour, à genoux. La différence n'est pas dans les gestes, mais dans le cœur."
     },
     {
-     "sous_titre": "Et le ramadan, en famille ?"
+     "sous_titre": "Que faire pour le ramadan, en famille ?"
     },
     {
      "texte": "S'il vit encore dans sa famille, que doit-il faire pendant le ramadan ? Il n'y a pas de réponse unique. Certains choisissent de jeûner avec leur famille, mais en offrant ce jeûne à Jésus, en priant pour les leurs. D'autres ne le peuvent pas en conscience. Il peut participer aux repas de rupture du jeûne, qui sont des moments de famille. Ce qu'il ne doit pas faire, c'est réciter la chahada, la confession que Mahomet est le messager d'Allah, ni renier Jésus. Aide-le à chercher, dans la prière, ce que Dieu lui demande."
     },
     {
-     "sous_titre": "Et le mariage ?"
+     "sous_titre": "Qu'en est-il du mariage ?"
     },
     {
      "texte": "Le mariage est l'une des questions les plus douloureuses. La jeune femme convertie risque d'être mariée de force à un musulman. Le jeune homme peut être pressé d'épouser une cousine musulmane. La Bible demande au croyant de ne pas s'unir à un non-croyant, et nous avons consacré un enseignement entier au mariage entre chrétien et musulman. Mais si le converti est déjà marié à un musulman ou une musulmane, la Bible lui demande de ne pas quitter son conjoint si celui-ci accepte de rester : le mari non croyant est sanctifié par la femme, et la femme non croyante est sanctifiée par le mari (1 Corinthiens 7:14). Son témoignage patient pourra gagner son conjoint."
@@ -400,18 +400,49 @@
   },
   {
    "numero": "13",
-   "titre": "On raconte…",
-   "references": [
-    "Ps 27:10"
-   ],
+   "titre": "Quand la famille, le chef ou la loi s'en mêlent",
+   "references": [],
    "blocs": [
     {
-     "texte": "On raconte qu'une jeune fille de seize ans, à Kousséri, découvrit Jésus grâce à une camarade de classe. Quand son père l'apprit, il la battit et décida de la marier de force, la semaine suivante, à un homme de cinquante ans. Sa camarade alerta discrètement les femmes de son église. Une nuit, deux mamans de l'église l'accompagnèrent jusqu'à Yaoundé, chez une famille chrétienne qui l'accueillit comme sa fille. Elle y termina ses études, et devint infirmière. Pendant six ans, elle écrivit chaque mois à sa mère, sans recevoir de réponse. Un jour, sa mère tomba malade. La jeune infirmière revint à Kousséri pour la soigner, nuit et jour, pendant des semaines. Un soir, sa mère lui prit la main et dit : « Ton Issa t'a appris à aimer comme je n'ai jamais été aimée. Parle-moi de lui. » Le psalmiste avait raison : car mon père et ma mère m'abandonnent, mais l'Éternel me recueillera (Psaume 27:10)."
+     "sous_titre": "Un problème qui peut arriver très vite"
+    },
+    {
+     "texte": "Parfois, l'affaire sort de la maison. Le père va voir l'imam. L'imam parle au chef. Le chef envoie quelqu'un. Ou bien un jeune est enfermé, ou une jeune fille est mariée de force. Que faire ?"
+    },
+    {
+     "sous_titre": "Ce qu'il faut préparer à l'avance"
+    },
+    {
+     "texte": "Avant qu'un problème arrive, prépare trois choses. Premièrement, une liste de personnes de confiance : un pasteur, deux anciens, un avocat chrétien ou un juriste de l'Église, une personne qui peut héberger quelqu'un pour quelques nuits. Deuxièmement, un lieu sûr, connu de très peu de gens. Troisièmement, des documents copiés : une pièce d'identité, un acte de naissance, qu'on peut retrouver."
+    },
+    {
+     "sous_titre": "Ce que dit la loi"
+    },
+    {
+     "texte": "Au Cameroun, la Constitution garantit la liberté de conscience et de religion. Le mariage forcé est interdit par la loi, et un adulte a le droit de choisir sa religion. Dans la pratique, la loi est parfois mal appliquée, surtout dans les villages où le chef et la famille ont beaucoup de poids. Renseigne-toi auprès d'un juriste de l'Église sur les règles qui s'appliquent à la situation, surtout pour les mineurs. Ne promets jamais à quelqu'un une protection que tu ne peux pas donner."
+    },
+    {
+     "sous_titre": "Ce qu'on ne fait pas"
+    },
+    {
+     "texte": "On n'enlève pas un mineur à sa famille sans conseil. On ne cache pas une personne en la coupant de tout. On ne publie rien sur les réseaux sociaux. On ne parle pas de la situation à des gens qui ne sont pas du cercle de confiance. Et on garde toujours la porte ouverte à la réconciliation, quand elle est possible. Jésus a dit : soyez prudents comme les serpents, et simples comme les colombes (Matthieu 10:16)."
     }
    ]
   },
   {
    "numero": "14",
+   "titre": "Un exemple de la vie",
+   "references": [
+    "Ps 27:10"
+   ],
+   "blocs": [
+    {
+     "texte": "Voici un exemple imaginé, mais proche de la réalité. Une jeune fille de seize ans, à Kousséri, découvrit Jésus grâce à une camarade de classe. Quand son père l'apprit, il la battit et décida de la marier de force, la semaine suivante, à un homme de cinquante ans. Sa camarade alerta discrètement les femmes de son église. Une nuit, deux mamans de l'église l'accompagnèrent jusqu'à Yaoundé, chez une famille chrétienne qui l'accueillit comme sa fille. Elle y termina ses études, et devint infirmière. Pendant six ans, elle écrivit chaque mois à sa mère, sans recevoir de réponse. Un jour, sa mère tomba malade. La jeune infirmière revint à Kousséri pour la soigner, nuit et jour, pendant des semaines. Un soir, sa mère lui prit la main et dit : « Ton Issa t'a appris à aimer comme je n'ai jamais été aimée. Parle-moi de lui. » Le psalmiste avait raison : car mon père et ma mère m'abandonnent, mais l'Éternel me recueillera (Psaume 27:10)."
+    }
+   ]
+  },
+  {
+   "numero": "15",
    "titre": "Ce que nous retenons, et la fin de la série",
    "references": [
     "Ps 68:7"

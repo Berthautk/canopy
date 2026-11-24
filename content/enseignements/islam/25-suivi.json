@@ -7,7 +7,7 @@
  "resume": "Un musulman a choisi de suivre Jésus. Qui doit l'accompagner, et comment ? Quel rythme, quel lieu, quelles précautions avec le téléphone ? Quels thèmes aborder, dans quel ordre, pour passer d'une religion de règles et de peur à la vie d'enfant de Dieu ? Comment répondre à ses doutes, traverser ses crises, et l'aider à devenir à son tour un témoin ? Avec le programme pas à pas, et les liens vers le parcours « Former le chrétien », le bilan de vie et les leçons d'affermissement de l'application.",
  "image": "/assets/famille-quotidien/mentorat-jeune.webp",
  "verset_de_base": "1 Th 2:11-12",
- "lecture_minutes": 28,
+ "lecture_minutes": 30,
  "objectifs": [
   "Comprendre pourquoi un ancien musulman a besoin d'un suivi adapté.",
   "Savoir qui peut l'accompagner, et comment organiser les rencontres en sécurité.",
@@ -127,7 +127,7 @@
      "texte": "Ensuite, la prière d'ouverture, simple et courte, faite par toi les premières semaines, puis par lui quand il ose."
     },
     {
-     "texte": "Puis la reprise du pas de la semaine, environ une heure : les lectures de chaque jour, les réponses aux questions, une par une. Laisse-le expliquer avec ses mots. Corrige avec douceur ce qui est faux. Note les questions qui reviennent."
+     "texte": "Puis la reprise du pas de la semaine, environ une heure : les lectures de chaque jour, les réponses aux questions, une par une. Laisse-le expliquer avec ses mots. Corrige calmement ce qui est faux. Note les questions qui reviennent."
     },
     {
      "texte": "Puis le verset de la semaine, qu'il récite par cœur. Pour quelqu'un qui a appris des sourates entières par cœur, mémoriser la Parole de Dieu est souvent facile et précieux. Le psalmiste disait : je serre ta parole dans mon cœur, afin de ne pas pécher contre toi (Psaume 119:11)."
@@ -166,7 +166,7 @@
      "sous_titre": "Le bilan de vie"
     },
     {
-     "texte": "Le pas 1 comprend un bilan de vie confidentiel : ce qui vient de la lignée, les pratiques passées, les blessures. Pour un ancien musulman, il faut y aborder avec douceur : les amulettes et gris-gris portés ou cachés dans la maison, l'eau de planchette bue, les consultations de marabouts, les sacrifices offerts pour obtenir une faveur ou une protection, les pactes faits par la famille à sa naissance, les « protections » mises sur lui, les rêves et les visites d'esprits. On n'y propose pas de prières toutes faites à réciter : on apporte ces choses à la croix, on y renonce, on détruit les objets, et l'accompagnateur prie avec lui, librement, selon ce que l'Esprit conduit."
+     "texte": "Le pas 1 comprend un bilan de vie confidentiel : ce qui vient de la lignée, les pratiques passées, les blessures. Pour un ancien musulman, il faut y aborder avec délicatesse et clarté : les amulettes et gris-gris portés ou cachés dans la maison, l'eau de planchette bue, les consultations de marabouts, les sacrifices offerts pour obtenir une faveur ou une protection, les pactes faits par la famille à sa naissance, les « protections » mises sur lui, les rêves et les visites d'esprits. On n'y propose pas de prières toutes faites à réciter : on apporte ces choses à la croix, on y renonce, on détruit les objets, et l'accompagnateur prie avec lui, librement, selon ce que l'Esprit conduit."
     },
     {
      "sous_titre": "Le pas 2 : l'assurance du salut"
@@ -364,7 +364,7 @@
    ],
    "blocs": [
     {
-     "sous_titre": "« Et si l'islam était vrai ? »"
+     "sous_titre": "« Et si l'islam était vrai, est-ce que j'ai fait une erreur ? »"
     },
     {
      "texte": "Les doutes sont normaux. Ils reviennent surtout dans les moments de souffrance, quand sa mère pleure, quand il est seul, ou après avoir vu une vidéo de débat. Ne le condamne pas. Écoute la question, cherchez ensemble la réponse dans la Bible, et utilise les enseignements de la série sur la falsification, la Trinité, Issa et Jésus, les objections. Rappelle-lui surtout ce que Jésus a fait dans sa vie."
@@ -418,18 +418,43 @@
   },
   {
    "numero": "13",
-   "titre": "On raconte…",
-   "references": [
-    "Ac 15:36"
-   ],
+   "titre": "L'argent, l'aide matérielle et la dépendance",
+   "references": [],
    "blocs": [
     {
-     "texte": "On raconte qu'à Bertoua, un jeune commerçant, ancien musulman, fut accompagné pendant deux ans par un vieux diacre de son Église. Chaque mardi soir, ils se retrouvaient dans la boutique du diacre, après la fermeture, pour lire la Bible, reprendre ses réponses et prier. Les premiers mois, le jeune homme arrivait souvent en pleurant : son père l'avait chassé, sa fiancée l'avait quitté, il faisait des cauchemars. Le diacre ne disait pas grand-chose. Il écoutait, priait, et le mardi suivant, il était là. Un soir, au bout d'un an, le jeune homme arriva en souriant et dit : « Cette semaine, j'ai prié pour mon père, et pour la première fois, je n'avais plus de colère. » Trois ans plus tard, ce jeune homme accompagnait lui-même, chaque jeudi soir, deux jeunes Peuls qui venaient de rencontrer Jésus. Quand on lui demandait comment il faisait, il répondait : « Comme mon diacre : je suis là le jeudi suivant. »"
+     "sous_titre": "Un piège à éviter"
+    },
+    {
+     "texte": "Quand un musulman devient chrétien, il perd souvent son travail, sa famille et son soutien. Le chrétien est tenté de l'aider avec de l'argent, un emploi, un logement. C'est un geste d'amour. Mais cela comporte un piège. Si l'aide est liée à la foi, d'autres diront : « Il s'est converti pour l'argent. » Et le nouveau croyant peut devenir dépendant de l'aide et perdre le goût de travailler. Dans certains pays, on appelle cela des « chrétiens du riz » : des gens qui viennent à l'église pour recevoir à manger, et qui partent quand l'aide s'arrête."
+    },
+    {
+     "sous_titre": "Des règles simples"
+    },
+    {
+     "texte": "Voici quelques règles. Premièrement, aide d'abord dans les urgences : un logement pour quelques nuits, de la nourriture, un conseil juridique. Deuxièmement, aide ensuite à retrouver l'autonomie : une formation, un petit commerce, un travail. Un dicton dit : ne donne pas un poisson, apprends à pêcher. Troisièmement, que l'aide ne soit jamais une condition ni une promesse avant la conversion. Quatrièmement, que l'aide vienne de plusieurs personnes de l'Église, pas d'une seule, pour éviter la dépendance envers un homme. Cinquièmement, garde des comptes clairs : qui a donné quoi, pour quoi."
+    },
+    {
+     "sous_titre": "Ce que dit la Bible"
+    },
+    {
+     "texte": "Paul demande à l'Église de soutenir les veuves qui n'ont personne (1 Timothée 5:3-5), mais il dit aussi : si quelqu'un ne veut pas travailler, qu'il ne mange pas non plus (2 Thessaloniciens 3:10). Jacques dit que la foi sans les œuvres est morte. L'Église est la famille du nouveau croyant, et une famille aide, mais elle fait aussi grandir."
     }
    ]
   },
   {
    "numero": "14",
+   "titre": "Un exemple de la vie",
+   "references": [
+    "Ac 15:36"
+   ],
+   "blocs": [
+    {
+     "texte": "Voici un exemple imaginé, mais proche de la réalité. À Bertoua, un jeune commerçant, ancien musulman, fut accompagné pendant deux ans par un vieux diacre de son Église. Chaque mardi soir, ils se retrouvaient dans la boutique du diacre, après la fermeture, pour lire la Bible, reprendre ses réponses et prier. Les premiers mois, le jeune homme arrivait souvent en pleurant : son père l'avait chassé, sa fiancée l'avait quitté, il faisait des cauchemars. Le diacre ne disait pas grand-chose. Il écoutait, priait, et le mardi suivant, il était là. Un soir, au bout d'un an, le jeune homme arriva en souriant et dit : « Cette semaine, j'ai prié pour mon père, et pour la première fois, je n'avais plus de colère. » Trois ans plus tard, ce jeune homme accompagnait lui-même, chaque jeudi soir, deux jeunes Peuls qui venaient de rencontrer Jésus. Quand on lui demandait comment il faisait, il répondait : « Comme mon diacre : je suis là le jeudi suivant. »"
+    }
+   ]
+  },
+  {
+   "numero": "15",
    "titre": "Ce que nous retenons",
    "references": [
     "1 Th 2:11-12"

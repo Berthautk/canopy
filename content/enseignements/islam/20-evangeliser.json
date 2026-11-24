@@ -7,7 +7,7 @@
  "resume": "Maintenant que nous connaissons l'islam et le cœur de nos amis musulmans, comment faire concrètement ? Prier d'abord, devenir un vrai ami, parler de Dieu naturellement, raconter les histoires de la Bible de la création à la croix, lire l'Évangile ensemble en famille, prier pour les malades, partager son témoignage, utiliser les fêtes comme le ramadan et la Tabaski, et inviter à suivre Jésus sans pousser. Avec les erreurs à éviter et les outils disponibles en fulfulde, en haoussa et en arabe.",
  "image": "/assets/evangelisation/partage-bible-dans-la-rue.webp",
  "verset_de_base": "Mc 4:26-29",
- "lecture_minutes": 28,
+ "lecture_minutes": 31,
  "objectifs": [
   "Comprendre que l'évangélisation d'un musulman est un chemin, souvent long, et non un événement.",
   "Savoir prier de manière ciblée pour ses amis musulmans.",
@@ -171,7 +171,7 @@
      "sous_titre": "Les histoires qu'il connaît déjà"
     },
     {
-     "texte": "Commence par les histoires que ton ami connaît par le Coran : Adam et Ève, Caïn et Abel, Noé, Abraham, Joseph, Moïse, David. Raconte-les telles que la Bible les raconte, puis pose des questions : « Qu'est-ce que cette histoire nous apprend sur Dieu ? Sur l'homme ? » Il découvrira des détails qu'il ne connaissait pas, et surtout le fil rouge : le péché qui sépare de Dieu, et le sacrifice que Dieu fournit."
+     "texte": "Commence par les histoires que ton ami connaît par le Coran : Adam et Ève, Caïn et Abel, Noé, Abraham, Joseph, Moïse, David. Raconte-les telles que la Bible les raconte, puis pose des questions : « Qu'est-ce que cette histoire nous apprend sur Dieu ? Qu'est-ce qu'elle nous apprend sur l'homme ? » Il découvrira des détails qu'il ne connaissait pas, et surtout le fil rouge : le péché qui sépare de Dieu, et le sacrifice que Dieu fournit."
     },
     {
      "sous_titre": "Le fil du sacrifice"
@@ -255,7 +255,7 @@
      "sous_titre": "L'assurance du salut"
     },
     {
-     "texte": "Un des points les plus forts est l'assurance du salut. Demande à ton ami : « Si tu mourais cette nuit, sais-tu où tu irais ? » Il répondra presque toujours : « Seul Allah le sait. » Tu peux alors dire avec douceur : « Moi, je le sais. Non parce que je suis meilleur que toi, mais parce que Jésus a payé pour mes péchés. Veux-tu que je te montre où la Bible le dit ? »"
+     "texte": "Un des points les plus forts est l'assurance du salut. Demande à ton ami : « Si tu mourais cette nuit, sais-tu où tu irais ? » Il répondra presque toujours : « Seul Allah le sait. » Tu peux alors dire : « Moi, je le sais. Non parce que je suis meilleur que toi, mais parce que Jésus a payé pour mes péchés. Veux-tu que je te montre où la Bible le dit ? »"
     }
    ]
   },
@@ -340,7 +340,7 @@
      "texte": "Moussa : « Paul, tu as l'air fatigué aujourd'hui. »"
     },
     {
-     "texte": "Paul : « Oui, ma mère est malade au village. Mais je prie pour elle, et Dieu me donne la paix. Et toi, ta femme va mieux ? »"
+     "texte": "Paul : « Oui, ma mère est malade au village. Mais je prie pour elle, et Dieu me donne la paix. Et toi, est-ce que ta femme va mieux ? »"
     },
     {
      "texte": "Moussa : « Al-hamdoulillah, elle va mieux. »"
@@ -460,18 +460,52 @@
   },
   {
    "numero": "15",
-   "titre": "On raconte…",
-   "references": [
-    "Jn 4:39"
-   ],
+   "titre": "Quand la conversation devient tendue",
+   "references": [],
    "blocs": [
     {
-     "texte": "On raconte qu'une commerçante chrétienne du grand marché de Maroua, Mama Rachel, vendait des pagnes à côté d'une commerçante musulmane, Hadja Fadimatou. Pendant des années, elles se disputèrent les clients. Un jour, le fils de Fadimatou tomba gravement malade. Rachel ferma sa boutique pour l'accompagner à l'hôpital, paya une partie des médicaments, et, au chevet de l'enfant, demanda timidement : « Puis-je prier pour lui au nom d'Issa ? » Fadimatou accepta. L'enfant guérit. Les deux femmes devinrent amies. Rachel commença à raconter à Fadimatou les histoires de la Bible, une par semaine, dans la boutique, entre deux clientes. Au bout d'un an, Fadimatou demanda à les raconter elle-même à ses sœurs et à ses belles-filles. Aujourd'hui, dans une cour de Maroua, une dizaine de femmes écoutent chaque semaine une histoire de l'Évangile. Personne ne leur a fait de sermon. Une femme a simplement aimé, prié et raconté."
+     "sous_titre": "Cinq situations difficiles"
+    },
+    {
+     "texte": "Tôt ou tard, une conversation avec un musulman peut devenir tendue. Voici cinq situations, et ce qu'il faut faire."
+    },
+    {
+     "texte": "Première situation : il s'énerve. Baisse la voix, au lieu de la monter. Dis : « Je ne veux pas te blesser. Si tu veux, on s'arrête là, et on reprend plus tard. » Un homme en colère n'écoute pas. Reviens quelques jours après avec un petit geste : un thé, un message. Proverbes 15:1 dit : une réponse douce calme la fureur."
+    },
+    {
+     "texte": "Deuxième situation : il t'insulte, ou il insulte Jésus. Ne réponds pas par une insulte. Dis simplement : « Je comprends que tu ne sois pas d'accord. Mais je te demande de ne pas parler ainsi de celui que j'aime. » Pierre dit que Jésus, injurié, ne rendait point d'injures (1 Pierre 2:23)."
+    },
+    {
+     "texte": "Troisième situation : il te menace. Si la menace est sérieuse, ne reste pas seul. Préviens ton pasteur et les anciens. Jésus a dit : quand on vous persécutera dans une ville, fuyez dans une autre (Matthieu 10:23). Fuir n'est pas lâche quand c'est sage."
+    },
+    {
+     "texte": "Quatrième situation : un groupe arrive, et le ton monte devant la foule. Ne débats pas en public. Dis : « Je vous salue. Je préfère parler avec chacun en privé. » Dans un débat public, personne ne gagne : l'honneur de chacun est en jeu."
+    },
+    {
+     "texte": "Cinquième situation : il se tait. Un long silence n'est pas un refus. Chez le Peul, par exemple, le silence veut souvent dire : « Je réfléchis. » Ne comble pas le silence par des arguments. Prie, et attends."
+    },
+    {
+     "sous_titre": "Ce qu'il ne faut jamais faire"
+    },
+    {
+     "texte": "Ne mens jamais pour calmer une situation. Ne cache pas ta foi par peur. Ne dis pas du mal de Mahomet ou du Coran. Ne force pas la conversation. Et ne promets jamais d'argent, de travail ou d'aide en échange d'une conversion : ce serait acheter une personne, pas la gagner."
     }
    ]
   },
   {
    "numero": "16",
+   "titre": "Un exemple de la vie",
+   "references": [
+    "Jn 4:39"
+   ],
+   "blocs": [
+    {
+     "texte": "Voici un exemple imaginé, mais proche de la réalité. Une commerçante chrétienne du grand marché de Maroua, Mama Rachel, vendait des pagnes à côté d'une commerçante musulmane, Hadja Fadimatou. Pendant des années, elles se disputèrent les clients. Un jour, le fils de Fadimatou tomba gravement malade. Rachel ferma sa boutique pour l'accompagner à l'hôpital, paya une partie des médicaments, et, au chevet de l'enfant, demanda timidement : « Puis-je prier pour lui au nom d'Issa ? » Fadimatou accepta. L'enfant guérit. Les deux femmes devinrent amies. Rachel commença à raconter à Fadimatou les histoires de la Bible, une par semaine, dans la boutique, entre deux clientes. Au bout d'un an, Fadimatou demanda à les raconter elle-même à ses sœurs et à ses belles-filles. Aujourd'hui, dans une cour de Maroua, une dizaine de femmes écoutent chaque semaine une histoire de l'Évangile. Personne ne leur a fait de sermon. Une femme a simplement aimé, prié et raconté."
+    }
+   ]
+  },
+  {
+   "numero": "17",
    "titre": "Ce que nous retenons",
    "references": [
     "Mc 4:26-29"
