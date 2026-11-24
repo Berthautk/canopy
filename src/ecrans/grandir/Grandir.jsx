@@ -148,7 +148,7 @@ export function Grandir() {
       <a class="carte suivi-carte" href="#/accompagner">
         <span class="suivi-carte__icone"><Icone nom="groupe" taille={28} /></span>
         <span class="ligne__corps"><b>Suivi des nouveaux convertis</b>
-          <span>Former le chrétien, pas à pas : le carnet du disciple, les fiches de l'accompagnateur, le bilan de vie.</span></span>
+          <span>Tu es nouveau converti, ou tu en accompagnes un ? Commence ici.</span></span>
         <Icone nom="chevron" taille={20} />
       </a>
 

@@ -39,13 +39,12 @@ export function Accueil() {
         <h2 class="titre-section sous-rubrique">Pour aujourd'hui</h2>
         <CarteParcoursAccueil />
         <CartePlanJour style="margin-bottom:12px" />
-        <section class="carte suivi-accueil">
-          <div class="suivi-accueil__tete"><Icone nom="groupe" taille={24} /><div><b>Suivi des nouveaux convertis</b><span>Former le chrétien, pas à pas</span></div></div>
-          <div class="suivi-accueil__boutons">
-            <a class="bouton bouton--contour" href="#/accompagner/disciple">Je suis nouveau converti</a>
-            <a class="bouton bouton--or" href="#/accompagner/encadreur">Je suis encadreur</a>
-          </div>
-        </section>
+        <a class="carte suivi-carte" href="#/accompagner" style="margin:0 0 12px">
+          <span class="suivi-carte__icone"><Icone nom="groupe" taille={28} /></span>
+          <span class="ligne__corps"><b>Suivi des nouveaux convertis</b>
+            <span>Tu es nouveau converti, ou tu en accompagnes un ? Commence ici.</span></span>
+          <Icone nom="chevron" taille={20} />
+        </a>
         <a class="carte accueil-priere" href={'#/priere/veille/' + v.id.replace('veille-', '')}>
           <img src={v.image} alt="" loading="lazy" />
           <span class="accueil-priere__texte"><span class="pastille pastille--or">Prier maintenant · {v.heures}</span><b>{v.titre}</b><span>{v.theme}</span></span>

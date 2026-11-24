@@ -138,6 +138,8 @@ export function Tiroir({ ouvert, fermer }) {
 
 export function useTiroir() {
   const [ouvert, setOuvert] = useState(false);
+  const r = useSignal(route);
+  useEffect(() => { setOuvert(false); }, [r.hash]);   // toute navigation (lien, retour du téléphone) ferme le menu
   return { ouvert, ouvrir: () => setOuvert(true), fermer: () => setOuvert(false) };
 }
 

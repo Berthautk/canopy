@@ -5,7 +5,7 @@ import { CarteVerset } from '../../composants/Verset.jsx';
 import { notifier } from '../../composants/Notification.jsx';
 import { ACCOMPAGNEMENT, ENSEIGNEMENTS, chargerFiche } from '../../donnees/contenu.js';
 import { lireReference, ecrireReference } from '../../bible/references.js';
-import { aller, remplacer, retourVers } from '../../outils/routeur.js';
+import { aller, remplacer, retourVers, revenirOuRemplacer } from '../../outils/routeur.js';
 import { useSignal } from '../../outils/signal.js';
 import { compter } from '../../donnees/mesure.js';
 import {
@@ -40,6 +40,8 @@ const Etapes = ({ n, total }) => <p class="acc-etapes">{Array.from({ length: tot
 
 // ---------- Choisir son chemin ----------
 export function AccompagnerAccueil() {
+  const l = useSignal(lienDisciple), dsc = lireDisciples();
+  const pasDisciple = l ? pasDe(l.pas) || pasDe('pas-01-le-salut') : null;
   return (
     <div class="page">
       <div class="bandeau-titre">
@@ -49,12 +51,12 @@ export function AccompagnerAccueil() {
       <p class="acc-question-role">Qui es-tu ?</p>
       <a class="carte acc-chemin" href="#/accompagner/disciple">
         <span class="acc-chemin__icone"><Icone nom="note" taille={28} /></span>
-        <span class="ligne__corps"><b>Je suis nouveau converti</b><span>Un encadreur m'accompagne. Chaque semaine, je travaille un pas dans mon carnet.</span></span>
+        <span class="ligne__corps"><b>Je suis nouveau converti</b><span>{pasDisciple ? `Continuer : pas ${pasDisciple.numero} · ${pasDisciple.titre}` : 'Un encadreur m\'accompagne. Chaque semaine, je travaille un pas dans mon carnet.'}</span></span>
         <Icone nom="chevron" taille={22} />
       </a>
       <a class="carte acc-chemin" href="#/accompagner/encadreur">
         <span class="acc-chemin__icone"><Icone nom="groupe" taille={28} /></span>
-        <span class="ligne__corps"><b>Je suis encadreur</b><span>J'accompagne un nouveau converti, comme Paul avec Timothée (2 Timothée 2:2).</span></span>
+        <span class="ligne__corps"><b>Je suis encadreur</b><span>{dsc.length ? `Mes disciples : ${dsc.map((x) => x.prenom).join(', ')}` : 'J\'accompagne un nouveau converti, comme Paul avec Timothée (2 Timothée 2:2).'}</span></span>
         <Icone nom="chevron" taille={22} />
       </a>
       <details class="carte bloc acc-plus">
@@ -89,7 +91,10 @@ export function EspaceDisciple() {
         {etat.erreur && <p class="verset__erreur">{etat.erreur}</p>}
         <button class="bouton bouton--or" style="width:100%" disabled={code.replace('-', '').length < 7 || prenom.trim().length < 2 || etat.envoi}>{etat.envoi ? 'Vérification…' : 'Valider'}</button>
       </form>
-      <button class="lien" style="margin:14px auto;display:block" onClick={() => { const p = prompt('Ton prénom :') || ''; travaillerSeul(p); }}>Je n'ai pas encore d'encadreur : commencer seul</button>
+      <section class="carte bloc" style="margin-top:12px">
+        <p class="ligne__desc" style="margin-top:0">Tu n'as pas encore d'encadreur ? Tu peux commencer seul : écris ton prénom ci-dessus, puis touche ce bouton. Tu pourras entrer un code plus tard.</p>
+        <button class="bouton bouton--contour" style="width:100%" disabled={prenom.trim().length < 2} onClick={() => travaillerSeul(prenom)}>Commencer seul</button>
+      </section>
     </div>
   );
   const p = pasDe(l.pas) || pasDe('pas-01-le-salut');
@@ -115,7 +120,7 @@ export function EspaceDisciple() {
         {faits.map((x) => <a class="carte ligne" href={'#/accompagner/pas/' + x.id} style="margin-top:6px"><span class="enseignement__num enseignement__num--lu"><Icone nom="verifie" taille={13} /></span><span class="ligne__corps"><span class="ligne__titre">Pas {x.numero} · {x.titre}</span></span><Icone nom="chevron" taille={18} /></a>)}</details>}
       <details class="carte bloc acc-plus"><summary><b>Mon lien avec mon encadreur</b></summary>
         {l.mode === 'relie' ? <p>Code : <b>{l.code}</b>. Ton encadreur voit les réponses de ton carnet ; il te remet le pas suivant après votre rencontre.</p> : <p>Quand tu auras un encadreur, il te donnera un code.</p>}
-        <button class="bouton bouton--contour" style="width:100%" onClick={async () => { if (!confirm(l.mode === 'relie' ? 'Arrêter le lien avec ton encadreur ? Il ne verra plus tes réponses.' : 'Entrer un code d\'encadreur ?')) return; await quitterLien(l.mode === 'relie'); }}>{l.mode === 'relie' ? 'Arrêter le lien' : 'J\'ai reçu un code'}</button>
+        <button class="bouton bouton--contour" style="width:100%" onClick={async () => { if (l.mode === 'relie' && !confirm('Arrêter le lien avec ton encadreur ? Il ne verra plus tes réponses.')) return; await quitterLien(l.mode === 'relie'); }}>{l.mode === 'relie' ? 'Arrêter le lien' : 'J\'ai reçu un code de mon encadreur'}</button>
       </details>
     </div>
   );
@@ -128,7 +133,7 @@ export function EspaceEncadreur() {
   return (
     <div class="page">
       <h2 style="margin:16px 4px 2px">Mes disciples</h2>
-      <p class="ligne__desc" style="margin:0 4px 12px">Les nouveaux convertis que tu accompagnes. Touche un nom pour ouvrir son suivi.</p>
+      <p class="ligne__desc" style="margin:0 4px 12px">{'Les nouveaux convertis que tu accompagnes. Touche un nom pour ouvrir son suivi.'}</p>
       {l.map((d) => { const p = pasDe(d.pas); return (
         <a class="carte acc-chemin" href={'#/accompagner/encadreur/' + d.id}>
           <span class="acc-chemin__icone acc-chemin__icone--lettre">{(d.prenom[0] || '?').toUpperCase()}</span>
@@ -227,7 +232,7 @@ export function FicheDisciple({ id }) {
           {tousLesPas().filter((x) => x.id).map((x) => <option value={x.id}>Pas {x.numero} · {x.titre}</option>)}
         </select>
         <button class="bouton bouton--contour" style="width:100%;margin-top:10px" onClick={() => aller(`accompagner/pas/${p.id}?imprimer=vierge`)}>Fiche vierge du pas {p.numero} (papier ou PDF)</button>
-        <button class="lien" style="margin-top:10px;color:var(--rouge, #b3261e)" onClick={async () => { if (confirm('Arrêter le suivi de ' + d.prenom + ' ? Ses réponses seront effacées du serveur.')) { await retirerDisciple(d); remplacer('accompagner/encadreur'); } }}>Arrêter le suivi de {d.prenom}</button>
+        <button class="lien" style="margin-top:10px;color:var(--rouge, #b3261e)" onClick={async () => { if (confirm('Arrêter le suivi de ' + d.prenom + ' ? Ses réponses seront effacées du serveur.')) { await retirerDisciple(d); revenirOuRemplacer('accompagner/encadreur'); } }}>Arrêter le suivi de {d.prenom}</button>
       </details>
     </div>
   );
@@ -238,7 +243,7 @@ export function RencontreAccueil({ disciple }) {
   const etat = useFiche('rencontre-accueil'), f = etat.f;
   const d = disciple ? lireDisciples().find((x) => x.id === disciple) : null;
   if (!f) return <Attente etat={etat} />;
-  const fini = () => { if (d) { ecrireDisciples(lireDisciples().map((x) => (x.id === d.id ? { ...x, accueil: true } : x))); remplacer('accompagner/encadreur/' + d.id); } else retourVers('accompagner/encadreur'); };
+  const fini = () => { if (d) { ecrireDisciples(lireDisciples().map((x) => (x.id === d.id ? { ...x, accueil: true } : x))); revenirOuRemplacer('accompagner/encadreur/' + d.id); } else retourVers('accompagner/encadreur'); };
   return (
     <div class="page">
       {d && !d.accueil && <Etapes n={3} total={3} />}
@@ -281,7 +286,7 @@ export function Pas({ id, role, imprimer, disciple }) {
   const terminerRencontre = async () => {
     if (!d) return;
     if (!confirm(suivant ? `Rencontre terminée ? ${d.prenom} recevra le pas ${suivant.numero} « ${suivant.titre} ».` : 'Rencontre terminée ?')) return;
-    try { if (suivant) await avancerDisciple(d, suivant.id); compter('suivi-pas-fini', id); notifier(suivant ? `Pas ${suivant.numero} remis à ${d.prenom}` : 'Parcours terminé !'); remplacer('accompagner/encadreur/' + d.id); }
+    try { if (suivant) await avancerDisciple(d, suivant.id); compter('suivi-pas-fini', id); notifier(suivant ? `Pas ${suivant.numero} remis à ${d.prenom}` : 'Parcours terminé !'); revenirOuRemplacer('accompagner/encadreur/' + d.id); }
     catch (err) { notifier(err.message); }
   };
   return (
@@ -353,7 +358,7 @@ function GuideAccompagnateur({ a }) {
   const total = a.deroulement.reduce((t, x) => t + x.minutes, 0);
   return (
     <details class="carte bloc acc-guide acc-plus">
-      <summary><b><Icone nom="groupe" taille={18} /> Préparer et mener la rencontre (environ {Math.round(total / 60 * 10) / 10} h)</b></summary>
+      <summary><b><Icone nom="groupe" taille={18} /> Préparer et mener la rencontre (environ {Math.floor(total / 60)} h{total % 60 ? ' ' + String(total % 60).padStart(2, '0') : ''})</b></summary>
       <h4>Le but de la rencontre</h4><ul class="acc-liste">{a.but.map((t) => <li><TexteRefs texte={t} /></li>)}</ul>
       <h4>Avant la rencontre</h4><ul class="acc-liste">{a.preparation.map((t) => <li><TexteRefs texte={t} /></li>)}</ul>
       <h4>Déroulé</h4>

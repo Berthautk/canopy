@@ -74,6 +74,11 @@ export const aller = (chemin) => {
   location.hash = '#/' + chemin;
 };
 export const remplacer = (chemin) => { history.replaceState(null, '', '#/' + chemin); route.valeur = lire(); pile[pile.length - 1] = route.valeur.hash; garderPile(); scrollTo(0, 0); };
+// Fin d'une étape : revenir à la page d'avant si c'est la bonne, sinon la remplacer (jamais deux fois la même page dans l'historique).
+export const revenirOuRemplacer = (chemin) => {
+  const h = '#/' + chemin;
+  if (pile.length > 1 && pile[pile.length - 2] === h) { restaurerAuProchain = true; history.back(); } else remplacer(chemin);
+};
 // Revenir à une page précise : par l'historique si elle est juste avant (on retrouve sa place), sinon en y allant.
 export const retourVers = (chemin) => {
   const h = '#/' + chemin;
