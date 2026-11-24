@@ -1,378 +1,436 @@
 {
  "id": "islam-06-coran",
- "titre": "Le Coran : ce qu'il est, comment il est construit, ce qu'il dit de lui-même",
+ "titre": "Le Coran (1) : le livre des musulmans, sa structure, son contenu et sa place dans la vie",
  "serie": "L'islam de A à Z",
  "theme": "Islam",
  "auteur": "Yeshaya",
- "resume": "Pour le musulman, le Coran est la Parole éternelle d'Allah, descendue en arabe, intraduisible, qu'on récite même sans la comprendre. Combien de sourates ? Pourquoi les plus longues au début ? Que contient-il vraiment ? Qu'est-ce que la Fatiha, récitée dix-sept fois par jour ? Que vaut le « défi » de produire une sourate semblable ? Que dit le Coran de la Torah et de l'Évangile ? Et pourquoi, en Afrique, tant d'enfants récitent-ils un livre dont ils ne comprennent pas un mot ?",
+ "resume": "Qu'est-ce que le Coran pour un musulman ? Pourquoi dit-on qu'il est « récité » et non « lu » ? Combien de sourates, de versets, de mots ? Pourquoi les sourates sont-elles rangées de la plus longue à la plus courte ? Qu'est-ce qu'une sourate de La Mecque et une sourate de Médine ? Que contient-il ? On y trouve les prophètes, les lois, le jugement, le paradis, l'enfer et des histoires. Quelles sont les sourates les plus connues, comme la Vache, la Caverne, Joseph, Marie, la Pureté ? Comment apprend-on le Coran par cœur, et que se passe-t-il à l'école coranique ? Quelles sont les règles pour le toucher et le réciter ? Les différentes lectures, les commentaires, les traductions : tout ce qu'il faut savoir sur le livre le plus récité du monde.",
  "image": "/assets/objets-bibliques/lampe-a-huile.webp",
  "verset_de_base": "Ps 138:2",
- "lecture_minutes": 28,
+ "lecture_minutes": 38,
  "objectifs": [
-  "Savoir ce que les musulmans croient du Coran : éternel, descendu, arabe.",
-  "Connaître sa structure : sourates, versets, ordre, sourates mecquoises et médinoises.",
-  "Comprendre la Fatiha et sa place dans la prière.",
-  "Évaluer le « défi » du Coran.",
-  "Savoir ce que le Coran dit de la Torah et de l'Évangile.",
-  "Comprendre la différence entre un livre qu'on récite et une Parole qui se laisse traduire et comprendre."
+  "Savoir ce que les musulmans croient de leur livre et comment ils le nomment.",
+  "Connaître sa structure : sourates, versets, parties, ordre, sourates de La Mecque et de Médine.",
+  "Connaître les grands thèmes et les sourates les plus connues, avec le contenu de la Fatiha.",
+  "Comprendre la récitation, la mémorisation, les règles de respect et les lectures différentes.",
+  "Connaître les commentaires et les traductions.",
+  "Comprendre la place du Coran dans la vie de tous les jours, et l'école coranique en Afrique."
  ],
- "introduction": "Si tu entres dans une maison musulmane, tu verras souvent le Coran posé en hauteur, sur une étagère, enveloppé dans un tissu. Personne ne le pose par terre. On ne le touche pas sans s'être lavé. Pendant le mois de ramadan, on le récite en entier. Les enfants apprennent à en réciter des passages avant même de savoir lire. Les plus doués l'apprennent tout entier par cœur et reçoivent le titre de « hafiz », celui qui garde. Dans les cérémonies de deuil, de mariage, de naissance, on récite le Coran.\n\nPour comprendre nos amis musulmans, il faut comprendre ce livre et ce qu'il représente pour eux. Le chrétien qui a lu au moins quelques sourates parlera avec beaucoup plus de respect et de pertinence. Et il découvrira que le Coran, sans le vouloir, ouvre souvent des portes vers l'Évangile.\n\nDans cet enseignement, nous allons voir ce que les musulmans croient du Coran, comment il est construit, ce qu'il contient, ce qu'il dit de lui-même et de la Bible. Dans l'enseignement suivant, nous verrons comment il a été mis par écrit, et ce que les sources musulmanes disent de cette histoire.",
+ "introduction": "Si tu entres dans une maison musulmane, tu verras souvent le Coran posé en hauteur, sur une étagère, enveloppé dans un beau tissu. Personne ne le pose par terre. On ne le touche pas avec des mains sales. Pendant le mois de ramadan, on le récite en entier. Les enfants apprennent à en réciter des passages avant même de savoir lire. Les plus doués l'apprennent tout entier par cœur, et on les appelle « hafiz », ce qui veut dire « celui qui garde ». Dans les mariages, les deuils, les naissances, les inaugurations, on récite le Coran.\n\nPour comprendre nos amis musulmans, il faut connaître ce livre. Il est au centre de leur vie. Dans cet enseignement, nous allons le regarder de près, comme on regarde un pays qu'on visite : sa carte, ses grandes régions, ses lieux célèbres. Dans l'enseignement suivant, nous verrons l'histoire de sa mise par écrit. Ensuite, nous étudierons les hadiths, la deuxième source de l'islam.\n\nNous allons parler du Coran comme les musulmans en parlent, avec ce qu'ils croient et ce qu'ils font. Le regard de la Bible viendra plus tard dans la série.",
  "sections": [
   {
    "numero": "1",
-   "titre": "Ce que le musulman croit du Coran",
-   "references": [
-    "Ps 138:2",
-    "Jn 1:1"
-   ],
+   "titre": "Un livre qu'on récite",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "La parole éternelle d'Allah"
+     "sous_titre": "Le mot « Coran »"
     },
     {
-     "texte": "Le mot « Coran » (« Qur'an ») veut dire « récitation ». Pour la grande majorité des musulmans sunnites, le Coran est la parole incréée d'Allah. Il existait de toute éternité, écrit sur une « Table gardée » dans le ciel : c'est plutôt un Coran glorieux, sur une Table gardée (sourate 85, versets 21 et 22). Le Coran parle aussi de la « Mère du Livre » auprès d'Allah (sourate 43, verset 4). Il est descendu pendant la « Nuit du destin », au mois de ramadan (sourate 97, verset 1 ; sourate 2, verset 185), puis a été révélé peu à peu à Mahomet pendant vingt-trois ans."
+     "texte": "Le mot « Coran » vient de l'arabe « Qur'an ». Il vient d'un verbe qui veut dire « réciter », « lire à haute voix ». Le Coran est donc, d'abord, « la récitation ». Le premier mot que l'ange aurait dit à Mahomet, dans la grotte de Hira, était justement « Lis ! », ou « Récite ! ». Pour un musulman, le Coran est un livre qui se dit et qui s'écoute, pas seulement un livre qui se lit des yeux."
     },
     {
-     "texte": "Il faut savoir que cette idée d'un Coran incréé a fait l'objet de grandes disputes entre musulmans. Au IXe siècle, un courant de théologiens, les mutazilites, soutenait que le Coran était créé, car seul Dieu est éternel. Le calife Al-Mamoun imposa même cette doctrine par la force, et fit persécuter ceux qui la refusaient, comme le grand juriste Ibn Hanbal. Finalement, la doctrine du Coran incréé l'emporta."
+     "sous_titre": "Les autres noms du Coran"
     },
     {
-     "sous_titre": "Une parole éternelle à côté de Dieu ?"
+     "texte": "Le Coran se donne lui-même plusieurs noms. Il s'appelle « al-Kitab », le Livre. Il s'appelle « al-Furqan », le Discernement, parce qu'il sépare le vrai du faux. Il s'appelle « adh-Dhikr », le Rappel. Il s'appelle « at-Tanzil », la Descente. Il s'appelle « al-Houda », la Guidance. Il s'appelle « an-Nour », la Lumière. Et il s'appelle « ar-Rahma », la Miséricorde. Chacun de ces noms dit une manière de voir le Coran."
     },
     {
-     "texte": "Remarque une chose intéressante. Le musulman refuse que Jésus soit la Parole éternelle de Dieu devenue homme. Mais il croit lui-même que la parole de Dieu, le Coran, est éternelle, incréée, et qu'elle est « descendue » dans le monde sous la forme d'un livre. Les chrétiens disent quelque chose de comparable, mais à propos d'une personne : au commencement était la Parole, et la Parole était avec Dieu, et la Parole était Dieu… et la Parole a été faite chair (Jean 1:1, 14). Pour le musulman, la Parole éternelle est devenue un livre ; pour le chrétien, la Parole éternelle est devenue un homme. Cette comparaison peut ouvrir une belle conversation."
+     "sous_titre": "Ce que croit le musulman"
     },
     {
-     "texte": "Le Psalmiste dit à Dieu : tu as magnifié ta parole au-dessus de toute ta renommée (Psaume 138:2). Le chrétien aussi aime et honore la Parole de Dieu. Mais il sait que cette Parole a un visage : celui de Jésus."
+     "texte": "Pour la grande majorité des musulmans sunnites, le Coran est la parole même d'Allah. Elle est éternelle, et elle n'a pas été créée. Elle est descendue sur Mahomet en arabe, mot pour mot, par l'ange Gabriel, pendant vingt-trois ans. C'est ce que nous avons vu dans l'enseignement sur la révélation. Mahomet n'en est pas l'auteur. Il n'est que celui qui reçoit et qui transmet."
     },
     {
-     "verset": "Ps 138:2"
+     "sous_titre": "La grande dispute du neuvième siècle"
     },
     {
-     "sous_titre": "Un Coran arabe"
+     "texte": "Cette croyance au Coran éternel a provoqué, au neuvième siècle, une des plus grandes crises de l'histoire de l'islam. Un groupe de théologiens, qu'on appelle les mutazilites, disait : « Seul Dieu est éternel. Si le Coran est éternel, il y aurait deux éternels. Donc le Coran a été créé. » Le calife al-Mamoun a adopté cette idée en l'an 833, et il l'a imposée par la force. Il a interrogé les savants, un par un, pour leur demander : « Le Coran est-il créé ? » Ceux qui refusaient de dire oui étaient emprisonnés et frappés. Le plus célèbre est Ahmad ibn Hanbal, fondateur d'une des quatre écoles de droit. On l'a fouetté, et il a tenu bon. Finalement, quelques années plus tard, un autre calife a mis fin à cette persécution. Depuis, chez les sunnites, c'est la croyance au Coran incréé qui l'a emporté."
     },
     {
-     "texte": "Le Coran insiste sur sa langue : nous l'avons fait descendre en un Coran arabe, afin que vous raisonniez (sourate 12, verset 2). Pour les musulmans, seul le texte arabe est le Coran. Une traduction n'est pas le Coran : c'est une « traduction du sens ». C'est pourquoi on fait la prière en arabe, même au fond de l'Afrique ou en Indonésie, même si on ne comprend pas cette langue. Un musulman peut ainsi réciter chaque jour des paroles dont il ne comprend pas le sens. Nous y reviendrons."
+     "sous_titre": "Le Coran n'est pas traduit, il est « expliqué »"
+    },
+    {
+     "texte": "Le Coran dit de lui-même : nous l'avons fait descendre en un Coran arabe, afin que vous raisonniez (sourate 12, verset 2). Pour les musulmans, seul le texte arabe est le Coran. Une traduction n'est pas le Coran. On l'appelle « la traduction du sens », ou « l'interprétation du sens ». C'est pourquoi toutes les prières se font en arabe, partout dans le monde, même en Indonésie, au Mali ou au Cameroun, même si on ne comprend pas cette langue."
     }
    ]
   },
   {
    "numero": "2",
-   "titre": "Comment le Coran est construit",
-   "references": [
-    "1 Co 14:9",
-    "1 Co 14:19"
-   ],
+   "titre": "Les chiffres du Coran",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "114 sourates"
+     "sous_titre": "Des sourates et des versets"
     },
     {
-     "texte": "Le Coran est divisé en 114 chapitres appelés sourates, de longueurs très différentes. La plus longue, la sourate 2, « la Vache », compte 286 versets. Les plus courtes, à la fin, n'en ont que trois. Au total, il y a environ 6 236 versets, selon la manière de compter la plus courante. Chaque sourate porte un nom tiré d'un mot qu'elle contient : la Vache, la Famille d'Imran, les Femmes, la Table servie, Marie, la Caverne, l'Éléphant… Toutes les sourates sauf une (la sourate 9) commencent par la formule : « Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux »."
+     "texte": "Le Coran est divisé en cent quatorze chapitres, qu'on appelle des « sourates ». Le mot « sourate » vient d'un mot qui veut dire « rang » ou « muraille ». Chaque sourate est divisée en versets, qu'on appelle des « ayat », ce qui veut dire « signes ». Le mot « aya » est le même que celui qu'on utilise pour parler des miracles de Dieu. Pour le musulman, chaque verset est un signe de Dieu."
     },
     {
-     "sous_titre": "Un ordre surprenant"
+     "texte": "Il y a environ six mille deux cent trente-six versets, selon la manière de compter la plus courante. Ce nombre varie un peu selon les écoles, car on ne coupe pas toujours les versets au même endroit. On compte environ soixante-dix-sept mille mots dans le Coran. C'est un livre de la taille du Nouveau Testament, un peu plus court."
     },
     {
-     "texte": "Les sourates ne sont pas classées dans l'ordre où elles auraient été révélées, ni par sujet. Après la courte sourate d'ouverture, la Fatiha, elles sont rangées à peu près de la plus longue à la plus courte. Ainsi, les premières sourates de la révélation, révélées à La Mecque, se trouvent pour la plupart à la fin du livre, et les longues sourates juridiques de Médine se trouvent au début. Une même sourate peut aussi mélanger des passages de périodes différentes."
+     "sous_titre": "Des sourates très inégales"
     },
     {
-     "texte": "C'est pourquoi beaucoup de lecteurs, même musulmans, trouvent le Coran difficile à lire du début à la fin. On passe d'un sujet à l'autre : une loi sur l'héritage, puis un rappel sur Moïse, puis une menace de l'enfer, puis une règle sur la prière. Il n'y a, à part l'histoire de Joseph (sourate 12), presque aucun récit suivi."
+     "texte": "La plus longue sourate est la deuxième, appelée « la Vache ». Elle a deux cent quatre-vingt-six versets, et elle occupe à elle seule environ la moitié d'une des trente parties du Coran. La plus courte, la sourate 108, appelée « l'Abondance », n'a que trois versets. Les sourates 103 et 110 en ont trois aussi."
+    },
+    {
+     "sous_titre": "Le nom des sourates"
+    },
+    {
+     "texte": "Chaque sourate porte un nom, tiré d'un mot ou d'une histoire qu'elle contient. Il y a la Vache, la Famille d'Imran, les Femmes, la Table servie, les Bestiaux, le Butin, le Repentir, Jonas, Joseph, le Tonnerre, Abraham, les Abeilles, la Caverne, Marie, Ta-Ha, les Prophètes, la Lumière, les Fourmis, l'Araignée, Luqman, les Coalisés, Ya-Sin, le Charbon, l'Éléphant, la Foi pure. Ces noms ne résument pas toujours le contenu de la sourate, mais aident à la retrouver. Les musulmans ne disent pas « chapitre 2, verset 255 », mais « sourate de la Vache, verset 255 »."
+    },
+    {
+     "sous_titre": "La formule qui ouvre"
+    },
+    {
+     "texte": "Toutes les sourates, sauf une, commencent par la même phrase : « Bismillah ar-Rahman ar-Rahim », c'est-à-dire « Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux ». C'est la sourate 9, « le Repentir », qui n'a pas cette formule. Les savants donnent plusieurs raisons à cela, que nous verrons dans l'enseignement sur la mise par écrit du Coran. Dans la sourate 27, cette phrase se trouve même dans le texte, au verset 30."
     },
     {
      "sous_titre": "Les lettres mystérieuses"
     },
     {
-     "texte": "Vingt-neuf sourates commencent par des lettres isolées, comme « Alif, Lam, Mim » ou « Ta, Ha », dont personne ne connaît le sens avec certitude. Les commentateurs disent généralement : « Allah seul sait ce qu'il a voulu dire ». C'est un autre exemple de ce que Paul disait des paroles qu'on prononce sans qu'elles soient comprises : si par la langue vous ne donnez pas une parole distincte, comment saura-t-on ce que vous dites ? (1 Corinthiens 14:9)."
-    },
-    {
-     "verset": "1 Co 14:9"
-    },
-    {
-     "sous_titre": "Les divisions pour la récitation"
-    },
-    {
-     "texte": "Pour faciliter la récitation, le Coran est aussi divisé en trente parties égales, les « juz ». Ainsi, pendant les trente nuits du mois de ramadan, on peut le réciter en entier, une partie par nuit, dans les mosquées."
+     "texte": "Vingt-neuf sourates commencent par des lettres isolées de l'alphabet arabe, qu'on prononce une à une. Par exemple : « Alif, Lam, Mim » au début de la sourate 2. Ou « Ya, Sin » au début de la sourate 36. Ou « Ha, Mim » au début de plusieurs sourates. On les appelle « les lettres détachées ». Personne ne sait avec certitude ce qu'elles veulent dire. Certains savants disent que ce sont des signes, dont Allah seul connaît le sens. D'autres pensent que c'étaient des abréviations, ou un moyen d'attirer l'attention des auditeurs. Aujourd'hui encore, c'est un des grands mystères du Coran."
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "Ce que contient le Coran",
-   "references": [
-    "Lc 8:11",
-    "Jn 6:63"
-   ],
+   "titre": "Comment le Coran est rangé",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Dieu, le jugement, les prophètes"
+     "sous_titre": "Pas dans l'ordre où il est descendu"
     },
     {
-     "texte": "Les grands thèmes du Coran sont : l'unicité absolue de Dieu (le « tawhid ») ; sa puissance de créateur ; le jour de la résurrection et du jugement ; le paradis et l'enfer, décrits avec beaucoup d'images ; les prophètes envoyés avant Mahomet. Le Coran nomme vingt-cinq prophètes, dont beaucoup sont bibliques : Adam, Noé, Abraham, Ismaël, Isaac, Jacob, Joseph, Moïse, Aaron, David, Salomon, Élie, Élisée, Jonas, Job, Zacharie, Jean-Baptiste, Jésus. Il en ajoute d'autres, arabes, comme Houd, Salih et Chouaïb."
+     "texte": "Voici un fait qui surprend beaucoup de gens. Le Coran n'est pas rangé dans l'ordre où il est descendu. Il n'est pas non plus rangé par sujet. Après la première sourate, la Fatiha, qui est très courte, les sourates sont rangées à peu près de la plus longue à la plus courte. Ainsi, les longues sourates de Médine, pleines de lois, se trouvent au début du livre. Les petites sourates de La Mecque, les premières descendues, se trouvent à la fin."
     },
     {
-     "sous_titre": "Des récits allusifs"
+     "texte": "Prenons un exemple. La toute première sourate descendue, selon la tradition, est la sourate 96, « l'Adhérence ». Elle se trouve presque à la fin du Coran. Et la sourate 2, « la Vache », qui est l'une des dernières descendues, est tout au début. C'est comme si on avait rangé les chapitres d'un livre d'histoire en commençant par les plus longs, sans suivre les dates."
     },
     {
-     "texte": "Mais les récits bibliques y sont souvent racontés par allusions, comme si l'auditeur connaissait déjà l'histoire. Les détails changent, des éléments s'ajoutent, souvent tirés de traditions juives et de légendes chrétiennes de l'époque, comme nous le verrons dans l'enseignement qui compare le Coran et la Bible. Pour comprendre ces passages, le musulman doit souvent recourir aux commentaires (« tafsir ») et aux hadiths."
+     "sous_titre": "Les sourates de La Mecque et de Médine"
     },
     {
-     "sous_titre": "Des lois et des polémiques"
+     "texte": "Les savants musulmans partagent les sourates en deux groupes. On compte environ quatre-vingt-six sourates dites « mecquoises », descendues avant le départ pour Médine, en l'an 622. Et environ vingt-huit sourates dites « médinoises », descendues après. Une même sourate peut contenir des versets des deux périodes, car Mahomet indiquait où placer chaque nouveau verset."
     },
     {
-     "texte": "Les sourates de Médine contiennent de nombreuses lois : la prière, le jeûne, le pèlerinage, l'aumône, le mariage, le divorce, l'héritage, le butin, les punitions (couper la main du voleur, flageller l'adultère), la guerre. Elles contiennent aussi beaucoup de polémiques contre les juifs et les chrétiens : contre la Trinité, contre la filiation divine de Jésus, contre sa crucifixion."
+     "texte": "Les sourates de La Mecque sont souvent courtes, rythmées, avec des rimes. Elles parlent de Dieu, de la création, du jugement, des prophètes anciens. Elles commencent souvent par des serments : « Par le soleil et par sa clarté », « Par la nuit quand elle enveloppe ». Les sourates de Médine sont plus longues, plus régulières, et elles parlent de lois, de guerre, de la vie de la communauté, des juifs, des chrétiens et des hypocrites."
     },
     {
-     "sous_titre": "Le grand absent"
+     "sous_titre": "Les trente parties et les soixante groupes"
     },
     {
-     "texte": "Si tu lis le Coran en entier, tu y trouveras beaucoup de choses sur Dieu, le jugement, la loi. Mais tu n'y trouveras pas ce qui fait le cœur de la Bible : un Dieu qui cherche l'homme perdu, un Père qui court vers le fils prodigue, un berger qui donne sa vie pour ses brebis, un sacrifice qui ôte le péché une fois pour toutes, une assurance du salut. Jésus a dit : les paroles que je vous ai dites sont esprit et vie (Jean 6:63). Dans la parabole du semeur, la semence est la parole de Dieu (Luc 8:11) : elle porte en elle la vie de Dieu, et cette vie, c'est Christ."
+     "texte": "Pour faciliter la lecture, le Coran est aussi divisé en trente parties à peu près égales, qu'on appelle des « juz ». Chaque partie est ensuite divisée en deux groupes, appelés « hizb », soit soixante hizb au total, et ces groupes sont eux-mêmes découpés en quarts. Dans les éditions du Coran, ces divisions sont marquées sur les côtés des pages. Pourquoi trente ? Pour qu'on puisse réciter tout le Coran pendant les trente nuits du mois de ramadan, une partie par nuit."
     },
     {
-     "verset": "Jn 6:63"
+     "sous_titre": "Les sept « manzil »"
+    },
+    {
+     "texte": "Il existe aussi une division en sept parties, qu'on appelle « manzil », pour réciter tout le Coran en une semaine. Certains pieux musulmans le font chaque semaine, en lisant une partie chaque jour."
+    },
+    {
+     "sous_titre": "Le lieu des prosternations"
+    },
+    {
+     "texte": "À quinze endroits du Coran, selon la plupart des savants, il y a un verset qui demande de se prosterner. Quand on récite ce verset, on se prosterne. Ces endroits sont marqués dans les éditions. Cela fait partie de la manière dont le musulman vit le Coran avec son corps."
     }
    ]
   },
   {
    "numero": "4",
-   "titre": "La Fatiha, prière de chaque jour",
-   "references": [
-    "Mt 6:9-13",
-    "Lc 18:13"
-   ],
+   "titre": "Ce que contient le Coran",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le texte"
+     "sous_titre": "Un seul Dieu"
     },
     {
-     "texte": "La première sourate, « al-Fatiha », « l'Ouverture », est la plus récitée de toutes. Elle fait partie de chaque unité de prière : un musulman qui accomplit ses cinq prières quotidiennes la récite au moins dix-sept fois par jour. Voici son sens : « Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux. Louange à Allah, Seigneur des mondes, le Tout Miséricordieux, le Très Miséricordieux, Maître du jour du jugement. C'est toi que nous adorons, et c'est toi dont nous implorons le secours. Guide-nous dans le droit chemin, le chemin de ceux que tu as comblés de faveurs, non pas de ceux qui ont encouru ta colère, ni des égarés. »"
+     "texte": "Le premier thème du Coran, et le plus important, c'est l'unicité de Dieu. Le mot arabe est « tawhid ». Allah est unique. Il est le créateur de tout. Il est tout-puissant. Il sait tout. Il voit tout. Il n'a besoin de personne. Il n'a ni père, ni fils, ni associé. Le Coran répète cela de mille manières, avec des images : il fait lever le soleil, il fait tomber la pluie, il fait pousser les plantes, il donne la vie et la reprend."
     },
     {
-     "sous_titre": "Qui sont « ceux qui ont encouru la colère » et « les égarés » ?"
+     "sous_titre": "Les prophètes"
     },
     {
-     "texte": "Cette prière est belle sur bien des points. Mais il faut savoir comment la tradition musulmane comprend sa fin. Selon un hadith rapporté par Tirmidhi, Mahomet a expliqué que « ceux qui ont encouru la colère » sont les juifs, et que « les égarés » sont les chrétiens (Tirmidhi, hadith 2954). La plupart des grands commentaires classiques, comme celui de Tabari ou d'Ibn Kathir, donnent la même explication. Ainsi, plusieurs fois par jour, le musulman pieux demande à Dieu de ne pas le conduire sur le chemin des chrétiens."
+     "texte": "Le deuxième thème, ce sont les prophètes. Le Coran en nomme vingt-cinq. Beaucoup sont bien connus de ceux qui lisent la Bible : Adam, Noé, Abraham, Ismaël, Isaac, Jacob, Joseph, Job, Moïse, Aaron, David, Salomon, Élie, Élisée, Jonas, Zacharie, Jean-Baptiste, Jésus. Il y en a aussi qui viennent d'Arabie : Houd, Salih et Chouaïb. Chaque prophète est envoyé à son peuple pour dire la même chose : adorez Dieu seul. Ceux qui l'écoutent sont sauvés. Ceux qui refusent sont détruits. Le Coran raconte comment le peuple de Noé a été noyé, le peuple de Houd a été détruit par un vent, le peuple de Salih par un cri, le peuple de Loth par une pluie de pierres."
     },
     {
-     "texte": "Beaucoup de musulmans ne le savent pas, et récitent la Fatiha sans penser aux chrétiens. Il ne faut pas en faire une accusation. Mais cela aide à comprendre pourquoi, dans l'esprit de beaucoup, les chrétiens sont « ceux qui se sont égarés »."
+     "sous_titre": "Les histoires"
     },
     {
-     "sous_titre": "« Guide-nous dans le droit chemin »"
+     "texte": "Le Coran contient de nombreuses histoires, souvent racontées en morceaux, à différents endroits. La plus longue et la plus suivie est celle de Joseph, dans la sourate 12. Elle est racontée d'un seul tenant, avec le rêve de Joseph, la jalousie de ses frères, le puits, la vente en Égypte, la femme du maître, la prison, l'interprétation des rêves, la famine, les retrouvailles. Le Coran dit lui-même que c'est « le plus beau des récits » (sourate 12, verset 3)."
     },
     {
-     "texte": "Le chrétien peut aimer cette demande : « Guide-nous dans le droit chemin ». C'est une prière sincère que beaucoup de musulmans font avec ferveur. Et Dieu répond aux prières sincères. Jésus a dit : je suis le chemin, la vérité et la vie (Jean 14:6). On raconte de nombreux musulmans qui disent avoir prié précisément ainsi : « Ô Dieu, montre-moi le droit chemin », et qui ont ensuite rencontré Jésus, par un rêve, une Bible, ou un ami chrétien."
+     "texte": "Dans la sourate 18, « la Caverne », on trouve quatre grands récits : des jeunes gens qui s'endorment dans une caverne pendant des siècles ; un homme riche et son jardin détruit ; Moïse qui voyage avec un serviteur mystérieux ; et Dhoul-Qarnayn, un grand roi qui voyage jusqu'aux extrémités de la terre. Cette sourate est très aimée. Beaucoup de musulmans la lisent chaque vendredi."
     },
     {
-     "sous_titre": "Comparer avec la prière de Jésus"
+     "sous_titre": "Le jour du jugement"
     },
     {
-     "texte": "Compare avec la prière que Jésus a enseignée : « Notre Père qui es aux cieux… » (Matthieu 6:9). Le chrétien appelle Dieu « Père ». Il demande le pardon de ses offenses comme un enfant, et non comme un esclave qui tremble devant un maître. Le publicain de la parabole priait : « Ô Dieu, sois apaisé envers moi, qui suis un pécheur », et il redescendit justifié (Luc 18:13-14). Ce mot, « justifié », la Fatiha ne peut pas le promettre."
+     "texte": "Le troisième thème, ce sont les fins dernières. Le Coran parle sans cesse du jour du jugement, qu'il appelle « l'Heure », « le Jour de la résurrection », « le Jour de la rétribution ». Il décrit ce jour avec des images terribles : le soleil sera plié, les étoiles tomberont, les montagnes seront comme de la laine cardée, les tombes seront retournées, chacun recevra son livre dans la main droite ou dans la main gauche. Il décrit le paradis, un jardin avec des fleuves, des fruits, des vêtements de soie, des compagnes. Il décrit l'enfer, le feu, la nourriture amère, la boisson bouillante. Nous consacrerons un enseignement entier au paradis et à l'enfer."
+    },
+    {
+     "sous_titre": "Les lois"
+    },
+    {
+     "texte": "Le quatrième thème, ce sont les lois. Elles sont surtout dans les sourates de Médine. Le Coran donne des règles pour la prière, l'aumône, le jeûne et le pèlerinage. Il donne des règles pour le mariage et le divorce, pour l'héritage (sourate 4, versets 11 et 12), pour le commerce, pour les dettes. Il interdit le vin, les jeux de hasard, la viande de porc, le sang, la viande des bêtes mortes. Il interdit l'intérêt sur les prêts (sourate 2, verset 275). Il fixe des punitions : la main du voleur coupée (sourate 5, verset 38), cent coups de fouet pour l'adultère (sourate 24, verset 2), la loi du talion (sourate 2, verset 178). Il donne des règles pour la guerre et pour la répartition du butin. Les juristes ont compté environ cinq cents versets qui contiennent des règles de droit."
+    },
+    {
+     "sous_titre": "La morale et les conseils"
+    },
+    {
+     "texte": "Le Coran contient aussi des conseils de vie. Il demande d'être bon envers ses parents (sourate 17, versets 23 et 24), de ne pas gaspiller, de ne pas être avare, de ne pas marcher avec orgueil sur la terre, d'être juste dans les mesures et les poids, de dire la vérité, de pardonner, de nourrir le pauvre, de prendre soin de l'orphelin. La sourate 31 contient les conseils d'un sage appelé Luqman à son fils : ne donne pas d'associé à Dieu, sois reconnaissant, fais la prière, ordonne le bien, interdis le mal, supporte avec patience, ne tourne pas ton visage avec mépris vers les gens, ne marche pas avec arrogance, baisse ta voix."
+    },
+    {
+     "sous_titre": "Les paraboles et les images"
+    },
+    {
+     "texte": "Enfin, le Coran utilise beaucoup d'images. Les mécréants sont comme celui qui crie à des bêtes qui n'entendent que des sons. Celui qui donne par ostentation est comme un rocher couvert de terre, que la pluie met à nu. Une bonne parole est comme un bon arbre, dont la racine est ferme et dont la branche est dans le ciel. La vie d'ici-bas est comme une pluie qui fait pousser des plantes, puis tout devient sec et le vent les disperse."
     }
    ]
   },
   {
    "numero": "5",
-   "titre": "Le défi du Coran",
-   "references": [
-    "1 Co 2:4",
-    "2 Co 4:2"
-   ],
+   "titre": "Les sourates les plus connues",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "« Produisez une sourate semblable »"
+     "sous_titre": "La Fatiha"
     },
     {
-     "texte": "Le Coran lance plusieurs fois un défi à ceux qui doutent : si vous avez un doute sur ce que nous avons fait descendre sur notre serviteur, tâchez donc de produire une sourate semblable (sourate 2, verset 23 ; voir aussi sourate 10, verset 38 et sourate 17, verset 88). Pour les musulmans, personne n'a jamais pu relever ce défi, et c'est la preuve que le Coran vient de Dieu. C'est ce qu'ils appellent « l'inimitabilité » du Coran."
+     "texte": "La première sourate s'appelle « al-Fatiha », « l'Ouverture ». C'est la plus récitée du monde. Elle fait partie de chaque unité de prière, appelée « rak'a ». Un musulman qui fait ses cinq prières obligatoires la récite au moins dix-sept fois par jour. Voici son sens : « Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux. Louange à Allah, Seigneur des mondes, le Tout Miséricordieux, le Très Miséricordieux, Maître du jour de la rétribution. C'est toi que nous adorons, et c'est toi dont nous implorons le secours. Guide-nous dans le droit chemin, le chemin de ceux que tu as comblés de tes bienfaits, non pas celui de ceux qui ont encouru ta colère, ni celui des égarés. »"
     },
     {
-     "sous_titre": "Que vaut cet argument ?"
+     "texte": "Un hadith dit qu'Allah a dit : « J'ai partagé la prière entre moi et mon serviteur en deux moitiés. » Quand le serviteur dit « Louange à Allah, Seigneur des mondes », Allah dit : « Mon serviteur m'a loué. » Et ainsi de suite, verset après verset (Mouslim, hadith 395). On dit « amin » à la fin de la Fatiha."
     },
     {
-     "texte": "Il faut répondre avec respect, car les musulmans sont sincèrement émus par la beauté de la récitation coranique. Mais plusieurs remarques s'imposent."
+     "texte": "La tradition donne aussi une explication de la dernière phrase. Selon un hadith rapporté par Tirmidhi, Mahomet a dit que « ceux qui ont encouru la colère » sont les juifs, et que « les égarés » sont les chrétiens (Tirmidhi, hadith 2954). C'est ce que disent les grands commentaires classiques, comme ceux de Tabari et d'Ibn Kathir. Beaucoup de musulmans le savent peu, et récitent la Fatiha sans penser à personne."
     },
     {
-     "texte": "D'abord, qui juge ? Qui décide si une sourate est « semblable » ? Les juges sont les croyants eux-mêmes, qui ont déjà décidé que rien ne peut égaler le Coran. Un tel concours ne peut pas être perdu."
+     "sous_titre": "La Vache"
     },
     {
-     "texte": "Ensuite, la beauté d'un texte ne prouve pas son origine divine. Il existe dans toutes les langues des chefs-d'œuvre que personne n'a jamais égalés exactement : les poèmes d'Homère en grec, les pièces de Shakespeare en anglais, les grandes épopées orales d'Afrique. Personne n'en conclut que ces auteurs étaient des prophètes."
+     "texte": "La sourate 2, « la Vache », est la plus longue. Elle porte le nom d'une histoire de vache que Moïse demande aux fils d'Israël de sacrifier. Elle contient énormément de choses : l'histoire d'Adam, des fils d'Israël, d'Abraham et de la Kaaba, le changement de direction de la prière, le jeûne du ramadan, le pèlerinage, le vin, les orphelins, le divorce, l'allaitement, l'intérêt, les dettes. Elle contient aussi le célèbre « verset du Trône », le verset 255. Il dit : Allah ! Il n'y a de dieu que lui, le Vivant, celui qui subsiste par lui-même. Ni somnolence ni sommeil ne le saisissent. À lui ce qui est dans les cieux et sur la terre. Qui peut intercéder auprès de lui sans sa permission ? Son Trône embrasse les cieux et la terre. Il est le Très-Haut, le Très-Grand. Les musulmans le récitent chaque soir avant de dormir, et après chaque prière."
     },
     {
-     "texte": "Enfin, l'histoire rapporte que plusieurs contemporains de Mahomet ont prétendu produire des révélations semblables, comme Mousaylima, appelé « le menteur » par les musulmans. Ils ont été combattus par les armes. On ne prouve pas l'inimitabilité d'un texte en tuant ceux qui prétendent l'imiter."
+     "texte": "Un hadith dit que le diable fuit de la maison où l'on récite la sourate de la Vache (Mouslim, hadith 780). Un autre dit que les deux derniers versets de cette sourate suffisent à celui qui les récite la nuit (Boukhari, hadith 5009)."
     },
     {
-     "sous_titre": "La preuve que donne l'Évangile"
+     "sous_titre": "La Famille d'Imran, les Femmes, la Table servie"
     },
     {
-     "texte": "Paul ne fondait pas sa prédication sur la beauté des mots : ma parole et ma prédication ne reposaient pas sur les discours persuasifs de la sagesse, mais sur une démonstration d'Esprit et de puissance (1 Corinthiens 2:4). Il écrivait aussi : nous rejetons les choses honteuses qui se font en secret, nous n'avons point une conduite astucieuse, et nous n'altérons point la parole de Dieu ; mais, en publiant la vérité, nous nous recommandons à toute conscience d'homme devant Dieu (2 Corinthiens 4:2). La preuve de l'Évangile n'est pas qu'il est beau : c'est qu'il est vrai, qu'il a été annoncé d'avance par les prophètes, qu'il s'est accompli dans l'histoire devant des témoins, et qu'il transforme les vies."
+     "texte": "La sourate 3, « la Famille d'Imran », parle de Marie, de la naissance de Jean-Baptiste, de Jésus, de la bataille d'Ouhoud. La sourate 4, « les Femmes », contient les règles sur le mariage, l'héritage, la prière en voyage, le divorce. La sourate 5, « la Table servie », contient les règles sur la nourriture permise, les punitions du voleur et du bandit, et le récit de la table envoyée à Jésus et à ses disciples."
     },
     {
-     "verset": "2 Co 4:2"
+     "sous_titre": "Joseph, Marie, la Caverne"
+    },
+    {
+     "texte": "Nous avons parlé de Joseph, sourate 12, et de la Caverne, sourate 18. La sourate 19, « Marie », raconte l'annonce de la naissance de Jean-Baptiste, la naissance de Jésus, l'histoire d'Abraham et de son père, de Moïse, d'Ismaël, d'Idris. C'est la sourate qui a été récitée devant le roi chrétien d'Éthiopie."
+    },
+    {
+     "sous_titre": "Ya-Sin"
+    },
+    {
+     "texte": "La sourate 36, « Ya-Sin », est très connue. Un hadith la décrit comme « le cœur du Coran ». Beaucoup de musulmans la récitent pour les malades et les mourants, et dans les enterrements. Elle parle de la résurrection, des signes de Dieu dans la nature, de l'histoire d'une ville où des envoyés sont venus."
+    },
+    {
+     "sous_titre": "La Lumière"
+    },
+    {
+     "texte": "La sourate 24, « la Lumière », contient le verset de la lumière : Allah est la lumière des cieux et de la terre. Sa lumière est comparable à une niche où se trouve une lampe… (sourate 24, verset 35). Elle contient aussi des règles sur la vie familiale et la pudeur."
+    },
+    {
+     "sous_titre": "Les trois dernières sourates"
+    },
+    {
+     "texte": "À la fin du Coran se trouvent trois petites sourates que tous les musulmans connaissent par cœur. La sourate 112, « la Foi pure », dit : dis : il est Allah, unique. Allah, le seul à être imploré. Il n'a jamais engendré, il n'a pas été engendré, et nul n'est égal à lui. Un hadith dit qu'elle équivaut au tiers du Coran (Boukhari, hadith 5013). Les sourates 113 et 114, « l'Aube naissante » et « les Hommes », sont des demandes de protection. On les appelle « les deux protectrices ». On les récite le matin et le soir, avant de dormir, et pour protéger les enfants et les malades. Elles demandent la protection contre le mal des créatures, de la nuit, des sorciers qui soufflent sur les nœuds, de l'envieux, et du murmure du tentateur."
     }
    ]
   },
   {
    "numero": "6",
-   "titre": "Ce que le Coran dit de la Torah et de l'Évangile",
-   "references": [
-    "Es 8:20",
-    "Dt 4:2"
-   ],
+   "titre": "La récitation",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Il confirme les Écritures précédentes"
+     "sous_titre": "Réciter lentement"
     },
     {
-     "texte": "Voici un point très important pour l'évangélisation. Le Coran ne rejette pas la Bible : il dit qu'il vient la confirmer. Il a fait descendre sur toi le Livre avec la vérité, confirmant ce qui était avant lui ; et il a fait descendre la Torah et l'Évangile auparavant, comme guide pour les gens (sourate 3, versets 3 et 4). Il appelle les juifs et les chrétiens « les gens du Livre ». Il dit même que l'Évangile contient « guide et lumière » (sourate 5, verset 46)."
+     "texte": "Le Coran dit : et récite le Coran lentement, d'une récitation posée (sourate 73, verset 4). On appelle cette manière de réciter « le tartil ». Un bon récitant s'appelle un « qari ». Il apprend à prononcer chaque lettre depuis la bonne place dans la bouche et dans la gorge, à allonger certains sons, à faire des pauses aux bons endroits. L'ensemble de ces règles s'appelle « le tajwid ». Dans beaucoup de mosquées, on apprend le tajwid avec un maître, pendant des années."
     },
     {
-     "sous_titre": "« Que les gens de l'Évangile jugent d'après ce qu'Allah y a fait descendre »"
+     "sous_titre": "Une musique sans instrument"
     },
     {
-     "texte": "Plus fort encore, le Coran demande aux chrétiens de son époque de juger selon leur Évangile : que les gens de l'Évangile jugent d'après ce qu'Allah y a fait descendre (sourate 5, verset 47). Il dit à Mahomet lui-même : si tu es dans le doute au sujet de ce que nous avons fait descendre vers toi, interroge ceux qui lisaient le Livre avant toi (sourate 10, verset 94). Et il affirme : nul ne peut changer les paroles d'Allah (sourate 6, verset 34 ; sourate 10, verset 64)."
+     "texte": "La récitation du Coran est un art. Les grands récitants sont célèbres dans le monde entier. Leur voix est enregistrée, diffusée à la radio, à la télévision et sur les téléphones. On organise des concours internationaux de récitation. Le Coran ne se chante pas comme une chanson, mais sa récitation suit des mélodies, avec des montées et des descentes. Beaucoup de musulmans disent qu'ils pleurent en l'entendant bien réciter."
     },
     {
-     "sous_titre": "Une contradiction pour le musulman"
+     "texte": "Un hadith dit : « Celui qui récite le Coran avec habileté est avec les anges nobles et pieux. Et celui qui le récite en butant, avec difficulté, aura deux récompenses » (Boukhari, hadith 4937)."
     },
     {
-     "texte": "Or, aujourd'hui, la plupart des musulmans disent que la Bible a été falsifiée par les juifs et les chrétiens. Mais si elle avait été falsifiée avant Mahomet, pourquoi le Coran demanderait-il aux chrétiens de juger selon elle, et à Mahomet de les interroger ? Et si elle a été falsifiée après Mahomet, comment l'expliquer, alors que nous possédons des milliers de manuscrits de la Bible bien plus anciens que Mahomet, qui contiennent le même texte que nos Bibles d'aujourd'hui ? Nous développerons cette question dans l'enseignement sur les objections. Retiens déjà ceci : le Coran lui-même t'autorise à ouvrir l'Évangile avec ton ami musulman."
+     "sous_titre": "Les différentes lectures"
     },
     {
-     "sous_titre": "Le témoignage de la Loi"
-    },
-    {
-     "texte": "Ésaïe disait déjà : à la loi et au témoignage ! Si l'on ne parle pas ainsi, il n'y aura point d'aurore pour le peuple (Ésaïe 8:20). Et Moïse avait averti : vous n'ajouterez rien à ce que je vous prescris, et vous n'en retrancherez rien (Deutéronome 4:2). Tout message qui prétend venir après la Bible doit être examiné à la lumière de la Bible, et non l'inverse."
-    },
-    {
-     "verset": "Es 8:20"
-    },
-    {
-     "verset": "Dt 4:2"
+     "texte": "Il existe plusieurs manières de lire le Coran, appelées « qira'at », c'est-à-dire « lectures ». Elles diffèrent par de petits détails de prononciation, de voyelles, parfois de mots. Les savants en retiennent sept, ou dix. Aujourd'hui, la plus répandue dans le monde est la lecture dite de Hafs, transmise par un lecteur de Koufa. Elle est utilisée presque partout, y compris en Arabie, en Égypte, au Moyen-Orient et dans une grande partie de l'Afrique de l'Est. En Afrique du Nord et en Afrique de l'Ouest, une autre lecture est très utilisée : celle de Warsh. Si tu as un Coran imprimé au Maroc et un autre imprimé en Arabie saoudite, tu pourras trouver de petites différences. Nous verrons dans l'enseignement suivant ce que cela veut dire."
     }
    ]
   },
   {
    "numero": "7",
-   "titre": "Le Coran en Afrique",
-   "references": [
-    "Ps 33:4",
-    "Mc 10:14"
-   ],
+   "titre": "L'apprentissage et la mémorisation",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "L'école coranique"
+     "sous_titre": "Hafiz, celui qui garde"
     },
     {
-     "texte": "Dans beaucoup de régions d'Afrique de l'Ouest et du Centre, notamment au nord du Cameroun, au Tchad, au Niger, au Nigeria, au Sénégal, des enfants sont confiés très jeunes à un maître coranique. Ils apprennent à recopier les lettres arabes sur une tablette en bois, puis à réciter par cœur des sourates, souvent sans les comprendre. Certains maîtres sont dévoués et respectés. Mais dans beaucoup d'endroits, ces enfants, appelés selon les pays talibés, almajiris ou mahadjirines, sont envoyés mendier dans les rues pour nourrir leur maître, pieds nus, avec une boîte de conserve à la main. Des organisations humanitaires ont dénoncé les mauvais traitements subis par une partie d'entre eux."
+     "texte": "Dans le monde musulman, apprendre le Coran par cœur est un très grand honneur. Celui qui le sait en entier s'appelle « hafiz », celui qui garde. Il y a des millions de hafiz dans le monde. Ils sont souvent très respectés. Dans de nombreuses mosquées, ce sont eux qui dirigent la longue prière de nuit du ramadan, où l'on récite chaque nuit une trentième partie du Coran."
     },
     {
-     "texte": "Le chrétien ne doit pas regarder ces enfants avec mépris. Jésus a dit : laissez venir à moi les petits enfants (Marc 10:14). Combien d'églises, dans nos villes, passent chaque jour devant ces enfants sans jamais leur offrir un repas, un sourire, une parole de Jésus ?"
+     "texte": "Un hadith dit : « Les meilleurs d'entre vous sont ceux qui apprennent le Coran et l'enseignent » (Boukhari, hadith 5027). Un autre dit que celui qui récite une lettre du Coran obtient une bonne action, et que chaque bonne action est multipliée par dix (Tirmidhi, hadith 2910). C'est pourquoi beaucoup de musulmans récitent le Coran dès qu'ils ont un moment libre."
     },
     {
-     "sous_titre": "L'usage magique du Coran"
+     "sous_titre": "Comment on apprend"
     },
     {
-     "texte": "En Afrique, le Coran est aussi utilisé de manière magique. Des marabouts écrivent des versets sur des tablettes, lavent l'encre et font boire cette eau aux malades ou aux candidats à un examen. D'autres cousent des versets dans des amulettes en cuir que l'on porte autour du cou, de la taille ou du bras. D'autres encore récitent certaines sourates un nombre précis de fois pour obtenir l'amour, la richesse ou la protection contre un ennemi."
+     "texte": "La mémorisation se fait par la répétition. Le maître récite une ligne, l'enfant la répète, encore et encore, jusqu'à la savoir parfaitement. Le lendemain, on révise ce qu'on a appris, avant d'ajouter une nouvelle ligne. On apprend d'abord les petites sourates de la fin, puis on remonte. Il faut souvent de trois à cinq ans pour apprendre tout le Coran. L'enfant doit aussi apprendre à écrire les lettres arabes, mais surtout à répéter sans erreur. Si le maître entend une faute, il corrige tout de suite. Dans plusieurs pays, on remet un certificat de transmission, qui indique la chaîne des maîtres qui ont enseigné le Coran de maître à élève, depuis Mahomet."
     },
     {
-     "texte": "Les savants musulmans sérieux condamnent souvent une partie de ces pratiques, mais elles restent très répandues, et beaucoup de chrétiens y ont eu recours en cachette. Pour le chrétien, il ne s'agit pas d'une question de livre, mais de puissance spirituelle : utiliser des paroles comme des formules magiques, c'est de la sorcellerie, quelle que soit la langue. La parole de l'Éternel est droite, et toutes ses œuvres s'accomplissent avec fidélité (Psaume 33:4) ; elle ne se manipule pas comme un charme."
+     "sous_titre": "L'école coranique en Afrique"
     },
     {
-     "verset": "Ps 33:4"
+     "texte": "Dans beaucoup de régions d'Afrique de l'Ouest et du Centre, comme le nord du Cameroun, le Tchad, le Niger, le Nigeria et le Sénégal, les enfants commencent très jeunes l'école coranique, auprès d'un maître qu'on appelle « malam » en haoussa, « marabout » ou « karamoko » ailleurs. Les enfants s'assoient par terre, souvent à l'ombre d'un arbre. Chaque enfant tient une planchette en bois, sur laquelle le maître a écrit quelques versets avec un roseau taillé, trempé dans de l'encre faite avec de la suie. L'enfant récite à haute voix, en se balançant d'avant en arrière, jusqu'à ce qu'il sache le texte par cœur. Puis on lave la planchette, et on écrit autre chose."
+    },
+    {
+     "texte": "Certains maîtres sont très dévoués, et leurs élèves apprennent beaucoup. Mais il faut aussi savoir que, dans plusieurs pays, beaucoup d'enfants sont envoyés loin de leur famille et vivent chez le maître. Ils sont appelés « talibés » au Sénégal, « almajiri » au Nigeria et au nord du Cameroun. Ils sont souvent obligés de mendier dans les rues pour nourrir leur maître et eux-mêmes. Ils sont pieds nus, avec une boîte à la main. Des organisations de défense des enfants dénoncent les mauvais traitements subis par une partie d'entre eux. Au Nigeria, on compte des millions d'almajiri."
+    },
+    {
+     "sous_titre": "Ramadan et fin d'apprentissage"
+    },
+    {
+     "texte": "Le mois de ramadan est le grand moment du Coran. Dans les mosquées, on lit tout le Coran pendant les prières de nuit, une partie par jour. Beaucoup de musulmans pieux font aussi un tour complet de lecture à la maison, au moins une fois dans le mois, parfois plusieurs fois. Quand un enfant a terminé le Coran ou un certain niveau, la famille organise souvent une fête, avec des chants et des repas, pour honorer son achèvement."
     }
    ]
   },
   {
    "numero": "8",
-   "titre": "Un livre qu'on récite, une Parole qu'on comprend",
-   "references": [
-    "Ne 8:8",
-    "Ac 2:6-8"
-   ],
+   "titre": "Le respect dû au livre",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Réciter sans comprendre"
+     "sous_titre": "Pur pour le toucher"
     },
     {
-     "texte": "Pour beaucoup de musulmans non arabes, la relation au Coran est d'abord une relation de récitation : on récite pour la bénédiction, pour la récompense, même sans comprendre. Un hadith promet dix récompenses pour chaque lettre récitée (Tirmidhi, hadith 2910). Paul disait au contraire : j'aime mieux dire cinq paroles avec mon intelligence, afin d'instruire aussi les autres, que dix mille paroles en langue (1 Corinthiens 14:19)."
+     "texte": "Le Coran dit : nul ne le touche, sauf ceux qui sont purifiés (sourate 56, verset 79). Pour beaucoup de savants, cela veut dire qu'on ne doit toucher le Coran qu'en état de pureté, c'est-à-dire après avoir fait ses ablutions. Pour cela, beaucoup de musulmans se lavent les mains, le visage et les pieds avant de prendre le Coran. Les enfants apprennent très tôt à le faire."
     },
     {
-     "verset": "1 Co 14:19"
+     "sous_titre": "Ne pas le poser par terre"
     },
     {
-     "sous_titre": "Une Bible dans toutes les langues"
+     "texte": "On ne pose jamais le Coran par terre. On ne le met pas dans un endroit sale ou bas. On ne le pose pas dans des toilettes. On ne met pas d'autres livres au-dessus. On le range sur une étagère haute, souvent enveloppé dans un tissu. On ne tourne pas le dos au Coran quand il est ouvert. Quand un Coran est trop abîmé pour être lu, on ne le jette pas à la poubelle : on l'enterre dans un endroit propre, ou on le met dans de l'eau courante, ou on le brûle avec précaution, selon les pays. Cela explique la fureur des musulmans quand un Coran est jeté ou brûlé en public, comme cela s'est produit dans certains pays."
     },
     {
-     "texte": "La Bible a été écrite en hébreu, en araméen et en grec, mais elle n'a jamais été enfermée dans ces langues. Déjà, au temps d'Esdras, quand le peuple ne comprenait plus bien l'hébreu, les lévites lisaient le livre de la loi de Dieu, l'expliquaient et en donnaient le sens, pour faire comprendre ce qu'on avait lu (Néhémie 8:8). Le jour de la Pentecôte, le Saint-Esprit fit entendre les merveilles de Dieu à chacun « dans sa propre langue » (Actes 2:6-8). Aujourd'hui, la Bible entière ou une partie de la Bible existe dans plus de trois mille cinq cents langues, dont le fulfulde, le haoussa, le kanouri, l'arabe tchadien, le mafa, le toupouri. Dieu veut que chacun l'entende dans la langue de son cœur."
+     "sous_titre": "Le Coran dans le quotidien"
     },
     {
-     "sous_titre": "Une question à poser"
+     "texte": "Le Coran est présent à tous les moments de la vie. À la naissance, on murmure à l'oreille du bébé l'appel à la prière, et souvent quelques versets. Pour les malades, on récite la sourate de la Vache, la sourate Ya-Sin, les deux sourates de protection. Pour les mourants, on récite Ya-Sin. Pour les morts, on récite des sourates à l'enterrement. On récite le verset du Trône chaque soir. Dans les voitures, dans les boutiques, on laisse jouer la récitation du Coran. Sur les murs des maisons, on accroche des tableaux avec des versets calligraphiés. Dans les familles, on cite des versets dans les conversations."
     },
     {
-     "texte": "Avec un ami musulman, tu peux demander avec douceur : « Est-ce que Dieu ne comprend que l'arabe ? Est-ce qu'il ne veut pas que tu comprennes ce qu'il te dit ? » Puis tu peux lui offrir un Évangile dans sa langue maternelle. Beaucoup de musulmans sont bouleversés d'entendre pour la première fois Dieu leur parler en fulfulde, en haoussa ou en wolof."
+     "sous_titre": "Le serment sur le Coran"
+    },
+    {
+     "texte": "Dans la vie sociale, on jure souvent sur le Coran. Quand quelqu'un doit prouver qu'il dit vrai, il pose la main sur le Coran et jure. Cette parole a un très grand poids."
     }
    ]
   },
   {
    "numero": "9",
-   "titre": "Comment parler du Coran avec un musulman",
-   "references": [
-    "1 Co 9:20-22",
-    "Jn 12:48"
-   ],
+   "titre": "Ce que le Coran dit de lui-même",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Respecter le livre physique"
+     "sous_titre": "Un livre sans doute"
     },
     {
-     "texte": "Si tu as un Coran, ne le pose pas par terre, ne le mets pas sous d'autres objets, ne le touche pas avec des mains sales devant un musulman. Ce n'est pas le livre qui est sacré pour toi, mais ton ami le considère ainsi, et tu le blesserais inutilement. Paul disait : je me suis fait tout à tous, afin d'en sauver de toute manière quelques-uns (1 Corinthiens 9:22). Ne brûle jamais un Coran, même pour « faire un geste » : cela provoque la colère et ferme les cœurs."
+     "texte": "Au début de la sourate 2, le Coran dit : ceci est le Livre, il n'y a pas de doute en lui, c'est un guide pour les pieux (sourate 2, verset 2). Il dit aussi qu'il est « clair » (sourate 12, verset 1), qu'il est « glorieux » (sourate 85, verset 21), qu'il est « une guérison et une miséricorde pour les croyants » (sourate 17, verset 82)."
     },
     {
-     "sous_titre": "Utiliser les ponts"
+     "sous_titre": "Un livre protégé"
     },
     {
-     "texte": "Le Coran contient des passages qui peuvent servir de ponts : la naissance virginale de Jésus (sourate 19), ses miracles (sourate 3), son titre de « Messie » et de « Parole d'Allah » (sourate 4, verset 171), son retour, l'ordre de croire à l'Évangile. Le chrétien peut partir de ces passages pour poser des questions : « Pourquoi Jésus est-il le seul né d'une vierge ? Pourquoi est-il appelé la Parole de Dieu ? Pourquoi revient-il à la fin des temps, et pas Mahomet ? » Puis il ouvre l'Évangile pour montrer ce que la Bible dit de lui."
+     "texte": "Le Coran dit : c'est nous qui avons fait descendre le Rappel, et c'est nous qui en sommes les gardiens (sourate 15, verset 9). Pour les musulmans, c'est la promesse d'Allah que le Coran ne sera jamais changé. Ils ajoutent que le texte que nous avons aujourd'hui est exactement celui que Mahomet a reçu."
     },
     {
-     "sous_titre": "La Parole qui jugera"
+     "sous_titre": "Un livre qui défie"
     },
     {
-     "texte": "Jésus a dit : celui qui me rejette et qui ne reçoit pas mes paroles a son juge ; la parole que j'ai annoncée, c'est elle qui le jugera au dernier jour (Jean 12:48). Ce n'est pas le Coran qui jugera le monde, ni nos arguments, mais la parole de Jésus. C'est elle que nous voulons faire entendre."
+     "texte": "Le Coran lance plusieurs fois un défi à ceux qui doutent qu'il vienne de Dieu : si vous avez un doute sur ce que nous avons fait descendre sur notre serviteur, apportez donc une sourate semblable (sourate 2, verset 23). Il dit aussi : dis : si les hommes et les djinns s'unissaient pour produire quelque chose de semblable à ce Coran, ils n'en produiraient pas de semblable, même s'ils s'entraidaient (sourate 17, verset 88). Les musulmans appellent cela « l'inimitabilité » du Coran, en arabe « i'jaz ». Pour eux, la beauté de sa langue est le plus grand miracle de Mahomet. Beaucoup de savants ont écrit des livres sur ce sujet."
     },
     {
-     "verset": "Jn 12:48"
+     "sous_titre": "Un livre qui confirme les livres précédents"
     },
     {
-     "sous_titre": "On raconte…"
+     "texte": "Le Coran dit aussi qu'il confirme les livres envoyés avant lui. Il dit : il a fait descendre sur toi le Livre avec la vérité, confirmant ce qui existait avant lui ; et il a fait descendre la Torah et l'Évangile auparavant, comme guide pour les gens (sourate 3, versets 3 et 4). Les musulmans croient que ces livres étaient vrais au départ. Nous verrons dans la série « Face à face » ce que cela implique."
     },
     {
-     "texte": "On raconte qu'un vieux marabout de l'Adamaoua, qui enseignait le Coran depuis quarante ans, reçut un jour la visite d'un jeune évangéliste qui lui apporta une Bible en fulfulde. Le vieil homme l'ouvrit au hasard et lut à haute voix un passage du Psaume 23 : « L'Éternel est mon berger ». Il s'arrêta, les larmes aux yeux : « En quarante ans, je n'ai jamais entendu Dieu me parler dans ma langue. J'ai récité, récité. Mais lui, il me parle. » Il demanda à garder la Bible. Ce n'est pas la beauté de l'arabe qui l'avait touché, mais un Dieu qui lui parlait comme un berger."
+     "sous_titre": "Un livre universel"
+    },
+    {
+     "texte": "Enfin, le Coran dit qu'il est pour toute l'humanité : nous ne t'avons envoyé que comme une miséricorde pour l'univers (sourate 21, verset 107). C'est pourquoi les musulmans ont toujours cherché à le faire connaître dans le monde entier."
     }
    ]
   },
   {
    "numero": "10",
-   "titre": "Ce que nous retenons",
-   "references": [
-    "Ps 12:7",
-    "Jn 1:14"
-   ],
+   "titre": "Les commentaires et les traductions",
+   "references": [],
+   "blocs": [
+    {
+     "sous_titre": "Le tafsir"
+    },
+    {
+     "texte": "Beaucoup de passages du Coran sont allusifs. Pour les comprendre, les musulmans ont besoin de commentaires, qu'on appelle « tafsir ». Les plus célèbres sont ceux de Tabari, un savant du neuvième siècle, qui a écrit un énorme commentaire en trente volumes ; d'Ibn Kathir, du quatorzième siècle ; de Qurtubi, qui s'intéresse aux lois ; et celui de deux savants appelés « Jalalayn », très court et très utilisé dans les écoles, en particulier en Afrique. Ces commentaires s'appuient sur les hadiths, sur les paroles des compagnons et sur la langue arabe. Un musulman qui veut comprendre un verset difficile va souvent chercher ce que disent ces commentateurs."
+    },
+    {
+     "sous_titre": "Des traductions du sens"
+    },
+    {
+     "texte": "Les premières traductions du Coran ont été faites très tôt. Selon la tradition, un compagnon d'origine perse, Salman, aurait traduit la Fatiha en persan, pour que des Perses puissent faire leur prière. En l'an 1143, le Coran a été traduit en latin pour la première fois, sur ordre d'un abbé français appelé Pierre le Vénérable. La première traduction française date de 1647, par un Français nommé André du Ryer. Aujourd'hui, on utilise surtout les traductions de Kasimirski, de Régis Blachère, de Muhammad Hamidullah, et de Denise Masson, qui était une spécialiste de l'islam. Le Coran est traduit dans plus de cent langues, dont le fulfulde et le haoussa."
+    },
+    {
+     "texte": "La plupart de ces traductions précisent « traduction du sens », car pour les musulmans, seule la version arabe est le Coran. Les musulmans qui ne comprennent pas l'arabe lisent donc souvent une traduction à côté du texte arabe, pour comprendre."
+    },
+    {
+     "sous_titre": "Imprimer le Coran"
+    },
+    {
+     "texte": "Le Coran a d'abord été copié à la main pendant des siècles, par des calligraphes qui y consacraient des années. Les premières impressions en arabe datent de la Renaissance, à Venise, au seizième siècle, mais elles ont été rejetées par les musulmans. L'imprimerie n'a été largement acceptée dans le monde musulman qu'au dix-neuvième siècle. Aujourd'hui, un énorme complexe d'impression de l'Arabie saoudite, à Médine, produit des millions d'exemplaires par an, qui sont offerts gratuitement aux pèlerins et envoyés dans le monde entier."
+    }
+   ]
+  },
+  {
+   "numero": "11",
+   "titre": "Ce que le chrétien retient",
+   "references": [],
    "blocs": [
     {
      "sous_titre": "Résumons"
     },
     {
-     "texte": "Pour le musulman, le Coran est la parole incréée d'Allah, venue de la Table gardée, descendue en arabe. Il compte 114 sourates, rangées à peu près de la plus longue à la plus courte, et environ 6 236 versets. Il parle de l'unicité de Dieu, du jugement, des prophètes, de lois et de polémiques contre juifs et chrétiens. La Fatiha, récitée au moins dix-sept fois par jour, demande à Dieu de ne pas suivre le chemin des « égarés », que la tradition identifie aux chrétiens. Le Coran lance le défi de produire une sourate semblable, ce qui ne prouve pas son origine divine. Il affirme confirmer la Torah et l'Évangile, et demande aux chrétiens de juger selon l'Évangile. En Afrique, il est souvent récité sans être compris, et parfois utilisé de façon magique."
+     "texte": "Le Coran est le livre central de l'islam. Les musulmans croient qu'il est la parole éternelle d'Allah, descendue en arabe. Il compte cent quatorze sourates et environ six mille deux cent trente-six versets, rangés de la plus longue à la plus courte. Il se partage en trente parties, pour être récité pendant les trente nuits du ramadan. Il contient l'unicité de Dieu, les prophètes, des histoires comme celle de Joseph, le jugement, le paradis et l'enfer, des lois et des conseils. Les sourates les plus connues sont la Fatiha, la Vache avec le verset du Trône, Ya-Sin, la Caverne, Marie, et les trois dernières. Le Coran est récité avec un art, le tajwid, selon plusieurs lectures, dont celles de Hafs et de Warsh. Les enfants l'apprennent par cœur à l'école coranique. On le traite avec un très grand respect, et il accompagne la vie de la naissance à la mort. Il se présente comme un livre sans doute, protégé, inimitable, qui confirme les livres précédents. Les commentaires et les traductions aident à le comprendre."
     },
     {
-     "sous_titre": "Une Parole pure, et une Parole faite chair"
+     "sous_titre": "Le regard du chrétien"
     },
     {
-     "texte": "Les paroles de l'Éternel sont des paroles pures, un argent éprouvé sur terre au creuset (Psaume 12:7). Le chrétien n'a pas peur du Coran. Il peut le lire, le comprendre, l'utiliser pour ouvrir le dialogue. Mais il sait que la Parole définitive de Dieu n'est pas un livre descendu, c'est un homme né à Bethléem : la Parole a été faite chair, et elle a habité parmi nous, pleine de grâce et de vérité (Jean 1:14)."
+     "texte": "Le chrétien qui connaît ce livre parle à son voisin musulman avec beaucoup plus de respect et de justesse. Il sait ce que représente pour lui chaque page, chaque lettre, chaque récitation. Il évite les gestes qui le blessent. Il peut aussi dire, comme le psalmiste, que lui aussi honore la Parole de Dieu : tu as magnifié ta parole au-dessus de toute ta renommée (Psaume 138:2)."
     },
     {
-     "verset": "Ps 12:7"
+     "verset": "Ps 138:2"
     },
     {
-     "texte": "Dans le prochain enseignement, nous verrons comment le Coran a été rassemblé et mis par écrit, et ce que les sources musulmanes disent des différentes versions, des versets perdus et des copies brûlées."
+     "texte": "Dans le prochain enseignement, nous raconterons l'histoire de la mise par écrit du Coran : les compagnons qui l'ont appris, les os et les feuilles de palmier, le calife Abou Bakr, la version d'Othman, et ce que les livres musulmans disent des autres versions."
     }
    ]
   }
@@ -380,15 +438,15 @@
  "sujets": [
   {
    "titre": "Pour les enfants des écoles coraniques",
-   "texte": "Prions pour les talibés et les almajiris qui mendient dans nos rues, afin qu'ils soient protégés, nourris, et qu'ils entendent parler de Jésus qui aime les enfants (Marc 10:14)."
+   "texte": "Prions pour les talibés et les almajiris qui mendient dans nos rues, afin qu'ils soient protégés, nourris et aimés, et qu'ils entendent parler de Jésus qui aime les enfants (Marc 10:14)."
+  },
+  {
+   "titre": "Pour ceux qui récitent sans comprendre",
+   "texte": "Prions pour les musulmans qui récitent chaque jour des paroles qu'ils ne comprennent pas, afin qu'ils entendent un jour la Parole de Dieu dans la langue de leur cœur (Actes 2:8)."
   },
   {
    "titre": "Pour la traduction de la Bible",
-   "texte": "Prions pour les traducteurs de la Bible en fulfulde, haoussa, kanouri, arabe tchadien et dans toutes les langues des peuples musulmans, afin que chacun entende Dieu dans sa langue (Actes 2:8)."
-  },
-  {
-   "titre": "Pour ceux qui prient la Fatiha",
-   "texte": "Prions afin que chaque musulman qui demande « Guide-nous dans le droit chemin » rencontre Jésus, le chemin, la vérité et la vie (Jean 14:6)."
+   "texte": "Prions pour les traducteurs de la Bible en fulfulde, haoussa, kanouri, arabe tchadien et dans toutes les langues des peuples musulmans (Romains 10:17)."
   }
  ],
  "questions": [
@@ -400,69 +458,91 @@
     "La loi"
    ],
    "reponse": 1,
-   "explication": "Le mot Qur'an veut dire « récitation ».",
+   "explication": "Le mot Qur'an vient d'un verbe qui veut dire « réciter ».",
    "section": "1"
+  },
+  {
+   "question": "Combien de sourates le Coran compte-t-il ?",
+   "choix": [
+    "Soixante",
+    "Cent quatorze",
+    "Trois cents"
+   ],
+   "reponse": 1,
+   "explication": "Il compte environ six mille deux cent trente-six versets.",
+   "section": "2"
   },
   {
    "question": "Comment les sourates du Coran sont-elles rangées ?",
    "choix": [
-    "Dans l'ordre chronologique",
+    "Dans l'ordre où elles sont descendues",
     "Par sujet",
     "À peu près de la plus longue à la plus courte"
    ],
    "reponse": 2,
-   "explication": "Après la Fatiha, les sourates sont rangées à peu près par longueur décroissante.",
-   "section": "2"
+   "explication": "La toute première sourate descendue, la sourate 96, se trouve presque à la fin.",
+   "section": "3"
   },
   {
-   "question": "Selon le hadith de Tirmidhi, qui sont « les égarés » dont parle la Fatiha ?",
+   "question": "Pourquoi le Coran est-il divisé en trente parties ?",
    "choix": [
-    "Les païens",
-    "Les chrétiens",
-    "Les hypocrites"
+    "Parce qu'il y a trente prophètes",
+    "Pour pouvoir le réciter pendant les trente nuits du ramadan",
+    "Parce qu'il y a trente lettres"
    ],
    "reponse": 1,
-   "explication": "Tirmidhi, hadith 2954 : « ceux qui ont encouru la colère » sont les juifs, « les égarés » sont les chrétiens.",
-   "section": "4"
+   "explication": "Ces parties s'appellent des « juz ».",
+   "section": "3"
   },
   {
-   "question": "Que demande le Coran aux gens de l'Évangile, selon la sourate 5, verset 47 ?",
+   "question": "Quelle sourate est la plus récitée chaque jour ?",
    "choix": [
-    "D'abandonner l'Évangile",
-    "De juger d'après ce qu'Allah y a fait descendre",
-    "De lire le Coran en arabe"
+    "La Vache",
+    "Ya-Sin",
+    "La Fatiha, au moins dix-sept fois par jour"
    ],
-   "reponse": 1,
-   "explication": "Le Coran demande aux chrétiens de juger selon l'Évangile qu'ils ont.",
-   "section": "6"
-  },
-  {
-   "question": "Pourquoi l'argument du « défi » ne prouve-t-il pas que le Coran vient de Dieu ?",
-   "choix": [
-    "Parce que personne n'a jamais lu le Coran",
-    "Parce que la beauté d'un texte ne prouve pas son origine divine, et que les juges sont les croyants eux-mêmes",
-    "Parce que le Coran est trop court"
-   ],
-   "reponse": 1,
-   "explication": "La preuve de l'Évangile, elle, repose sur la vérité historique et les prophéties accomplies.",
+   "reponse": 2,
+   "explication": "Elle fait partie de chaque unité de prière.",
    "section": "5"
   },
   {
-   "question": "Que faisaient les lévites au temps de Néhémie quand le peuple lisait la loi ?",
+   "question": "Que veut dire « hafiz » ?",
    "choix": [
-    "Ils récitaient sans expliquer",
-    "Ils en donnaient le sens pour faire comprendre",
-    "Ils la traduisaient en arabe"
+    "Un juge",
+    "Celui qui garde le Coran par cœur",
+    "Un guide du pèlerinage"
    ],
    "reponse": 1,
-   "explication": "Néhémie 8:8 : Dieu veut que sa Parole soit comprise.",
-   "section": "8"
+   "explication": "Il y a des millions de hafiz dans le monde.",
+   "section": "7"
+  },
+  {
+   "question": "Comment s'appellent les enfants de l'école coranique qui mendient, au nord du Cameroun et au Nigeria ?",
+   "choix": [
+    "Les mouridi",
+    "Les almajiri",
+    "Les muezzins"
+   ],
+   "reponse": 1,
+   "explication": "Au Sénégal, on les appelle les talibés.",
+   "section": "7"
+  },
+  {
+   "question": "Que dit le Coran sur sa protection, en sourate 15, verset 9 ?",
+   "choix": [
+    "Qu'il sera perdu",
+    "Que c'est Allah qui le garde",
+    "Que les hommes le garderont"
+   ],
+   "reponse": 1,
+   "explication": "Les musulmans croient que son texte ne sera jamais changé.",
+   "section": "9"
   }
  ],
  "devoir": [
-  "Lis la sourate 19 (Marie) dans une traduction française, puis Luc 1 et 2. Note trois ressemblances et trois différences.",
-  "Apprends à expliquer, en tes propres mots, pourquoi le Coran lui-même t'autorise à ouvrir l'Évangile avec un musulman (sourate 5, verset 47 ; sourate 10, verset 94).",
-  "Cette semaine, si tu croises un enfant talibé ou almajiri, offre-lui à manger et prie pour lui."
+  "Observe un enfant de l'école coranique, ou écoute la récitation d'un Coran enregistré. Écris ce que tu remarques.",
+  "Apprends à reconnaître les noms de cinq sourates : la Fatiha, la Vache, Joseph, Marie, la Foi pure.",
+  "Prie pour les enfants talibés ou almajiri de ta ville, et si tu en croises un, offre-lui à manger."
  ],
  "prieres_liees": [],
  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
