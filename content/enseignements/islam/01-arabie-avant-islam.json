@@ -4,59 +4,62 @@
  "serie": "L'islam de A à Z",
  "theme": "Islam",
  "auteur": "Yeshaya",
- "resume": "Pour comprendre l'islam, il faut d'abord comprendre le monde où il est né. L'Arabie du VIe siècle : des tribus, des caravanes, une ville sainte remplie d'idoles, un dieu appelé Allah déjà connu, des juifs et des chrétiens divisés, et des récits bibliques déformés qui circulaient de bouche à oreille. Premier enseignement de la série « L'islam de A à Z ».",
+ "resume": "Pour comprendre l'islam, il faut d'abord comprendre le monde où il est né. Comment était l'Arabie au sixième siècle ? C'était un pays de tribus et de caravanes, avec une ville sainte remplie d'idoles. On y connaissait déjà un dieu appelé Allah. Des juifs et des chrétiens y vivaient, mais les chrétiens étaient divisés, et les histoires de la Bible circulaient de bouche à oreille, mélangées à des légendes. C'est le premier enseignement de la série « L'islam de A à Z ».",
  "image": "/assets/lieux-bibliques/tente.webp",
  "verset_de_base": "Ac 2:11",
- "lecture_minutes": 27,
+ "lecture_minutes": 32,
  "objectifs": [
-  "Situer l'Arabie du VIe siècle : ses tribus, son commerce, ses croyances.",
+  "Savoir comment vivaient les Arabes au sixième siècle : leurs tribus, leur commerce, leurs croyances.",
   "Connaître La Mecque, la Kaaba et ses idoles avant l'islam.",
-  "Savoir que le nom « Allah » était déjà utilisé avant Mahomet, et ce que cela implique.",
-  "Découvrir la présence des juifs et des chrétiens en Arabie, et les récits qui circulaient.",
-  "Comprendre pourquoi l'Évangile n'a pas pris racine chez les Arabes à cette époque, et ce que cela nous enseigne."
+  "Savoir que le nom « Allah » était déjà utilisé avant Mahomet, et comprendre ce que cela veut dire.",
+  "Découvrir que des juifs et des chrétiens vivaient en Arabie, et quelles histoires circulaient.",
+  "Comprendre pourquoi l'Évangile n'a pas pris racine chez les Arabes à cette époque, et ce que cela nous apprend aujourd'hui."
  ],
- "introduction": "Beaucoup de chrétiens parlent de l'islam sans le connaître. Certains en ont peur. D'autres le méprisent. D'autres encore pensent que « toutes les religions se valent » et que l'islam n'est qu'une autre façon de prier le même Dieu. Aucune de ces attitudes n'aide un musulman à rencontrer Jésus-Christ. Pour aimer vraiment un musulman et lui annoncer l'Évangile avec assurance, il faut d'abord comprendre ce qu'il croit, d'où viennent ses croyances, et pourquoi il y tient tant.\n\nCette série s'appelle « L'islam de A à Z ». Nous allons avancer pas à pas, dans l'ordre de l'histoire : d'abord le monde où l'islam est né, puis la vie de son prophète, puis le Coran et les hadiths, puis la foi et la vie quotidienne du musulman, puis les grandes questions qui fâchent, et enfin la manière d'annoncer Jésus à nos amis musulmans. Nous citerons les sources musulmanes elles-mêmes : le Coran, les recueils de hadiths de Boukhari et de Mouslim, la plus ancienne biographie du prophète écrite par Ibn Ishaq. Nous ne voulons rien inventer ni rien exagérer. La vérité suffit.\n\nNotre but n'est pas de gagner des disputes. Notre but est que le chrétien n'ait plus peur, qu'il comprenne, et qu'il puisse parler avec amour et avec vérité. Le musulman n'est pas notre ennemi : il est une personne pour qui Christ est mort, et qui a besoin, comme chacun de nous, de recevoir le pardon et la vie que seul Jésus donne.",
+ "introduction": "Beaucoup de chrétiens parlent de l'islam sans le connaître. Certains en ont peur. D'autres le méprisent. D'autres encore disent : « Toutes les religions se valent. L'islam, c'est juste une autre manière de prier le même Dieu. » Aucune de ces trois attitudes n'aide un musulman à rencontrer Jésus-Christ.\n\nAlors, que faut-il faire ? Pour aimer vraiment un musulman, et pour lui annoncer l'Évangile avec assurance, il faut d'abord comprendre ce qu'il croit. Il faut savoir d'où viennent ses croyances, et pourquoi il y tient tellement. En d'autres termes, avant de parler, il faut connaître.\n\nCette série s'appelle « L'islam de A à Z ». Nous allons avancer pas à pas, dans l'ordre de l'histoire. D'abord, nous verrons le monde où l'islam est né. Ensuite, la vie de son prophète, Mahomet. Ensuite, le Coran et les hadiths, c'est-à-dire les livres de l'islam. Ensuite, la foi et la vie de tous les jours du musulman. Ensuite, les grandes questions difficiles. Et enfin, la manière d'annoncer Jésus à nos amis musulmans.\n\nNous allons citer les livres des musulmans eux-mêmes. Nous citerons le Coran. Nous citerons les grands recueils de hadiths, ceux de Boukhari et de Mouslim. Nous citerons aussi la plus ancienne histoire de la vie de Mahomet, écrite par un savant musulman appelé Ibn Ishaq. Nous ne voulons rien inventer, et nous ne voulons rien exagérer. La vérité suffit.\n\nNotre but n'est pas de gagner des disputes. Notre but, c'est que le chrétien n'ait plus peur, qu'il comprenne, et qu'il puisse parler avec amour et avec vérité. Je le redis clairement : le musulman n'est pas notre ennemi. C'est une personne pour qui Jésus-Christ est mort. Et comme chacun de nous, il a besoin de recevoir le pardon et la vie que seul Jésus donne.",
  "sections": [
   {
    "numero": "1",
-   "titre": "Une terre de déserts, de tribus et de caravanes",
+   "titre": "Un pays de déserts, de tribus et de caravanes",
    "references": [
     "Ga 1:17",
     "Es 60:6-7"
    ],
    "blocs": [
     {
-     "sous_titre": "L'Arabie : un immense désert"
+     "sous_titre": "L'Arabie, un immense désert"
     },
     {
-     "texte": "Prends une carte. Entre la mer Rouge à l'ouest et le golfe Persique à l'est, il y a une immense presqu'île : l'Arabie. C'est un pays de sable, de roches et de montagnes, avec très peu de pluie. Il y a quelques oasis, ces endroits où l'eau sort de terre et où poussent des palmiers. Autour de ces points d'eau, des villes sont nées. Le reste du pays appartient aux nomades, les Bédouins, qui vivent sous la tente et se déplacent avec leurs chameaux et leurs troupeaux."
+     "texte": "Prends une carte du monde. Entre la mer Rouge, à l'ouest, et le golfe Persique, à l'est, il y a une très grande terre entourée d'eau sur trois côtés. C'est l'Arabie. C'est un pays de sable, de rochers et de montagnes. Il pleut très peu."
     },
     {
-     "texte": "Au sud, dans ce qui est aujourd'hui le Yémen, la terre est plus verte. C'est là que se trouvait autrefois le royaume de Saba, dont la reine vint rendre visite au roi Salomon. Au nord, l'Arabie touche la Syrie et la Palestine. À l'époque qui nous intéresse, au VIe siècle après Jésus-Christ, deux grands empires entourent l'Arabie : l'empire byzantin (l'empire romain d'Orient, chrétien, avec sa capitale à Constantinople) et l'empire perse, dont la religion officielle est le zoroastrisme. Ces deux empires se font la guerre depuis des siècles et s'épuisent mutuellement."
+     "texte": "Il y a quand même quelques oasis. Une oasis, c'est un endroit du désert où l'eau sort de la terre, et où poussent des palmiers. Autour de ces points d'eau, des villes sont nées. Le reste du pays appartient aux nomades. Les nomades, ce sont des gens qui n'habitent pas dans une maison fixe. Ils vivent sous la tente et ils se déplacent avec leurs chameaux et leurs troupeaux. En Arabie, on les appelle les Bédouins. Chez nous, on pourrait les comparer aux éleveurs peuls qui se déplacent avec leurs bœufs pour chercher de l'herbe et de l'eau."
+    },
+    {
+     "texte": "Au sud de l'Arabie, dans le pays qu'on appelle aujourd'hui le Yémen, la terre est plus verte. C'est là que se trouvait autrefois le royaume de Saba. La reine de ce royaume est venue rendre visite au roi Salomon, comme le raconte la Bible. Au nord, l'Arabie touche la Syrie et la Palestine."
+    },
+    {
+     "texte": "À l'époque dont nous parlons, au sixième siècle après Jésus-Christ, il y avait deux grands empires autour de l'Arabie. Le premier, c'était l'empire byzantin. C'était l'empire romain de l'Est. Il était chrétien, et sa capitale s'appelait Constantinople. Le deuxième, c'était l'empire perse, dans le pays qu'on appelle aujourd'hui l'Iran. Sa religion s'appelait le zoroastrisme. Ces deux empires se faisaient la guerre depuis des siècles, et ils étaient tous les deux très fatigués."
     },
     {
      "sous_titre": "La tribu avant tout"
     },
     {
-     "texte": "En Arabie, l'individu n'existe presque pas seul. Ce qui compte, c'est la tribu. On appartient à un clan, et le clan appartient à une tribu. La tribu te protège, te nourrit, te venge si quelqu'un te tue. Si tu n'as pas de tribu, tu n'as pas de protection : n'importe qui peut te tuer sans que personne ne demande compte de ton sang."
+     "texte": "En Arabie, une personne seule ne compte presque pas. Ce qui compte, c'est la tribu. Chaque personne appartient à un clan, c'est-à-dire à une grande famille, et ce clan appartient à une tribu. La tribu te protège. Elle te nourrit. Et si quelqu'un te tue, c'est ta tribu qui va te venger. Mais si tu n'as pas de tribu, tu n'as pas de protection. N'importe qui peut te tuer, et personne ne demandera de comptes."
     },
     {
-     "texte": "C'est un monde où l'honneur est tout. On se vante de sa généalogie, de son courage, de sa générosité. Les poètes chantent les exploits de leur tribu et se moquent des autres. Les razzias, ces attaques rapides pour voler les troupeaux d'une autre tribu, font partie de la vie normale. La vengeance peut durer des générations. En d'autres termes, la paix n'est jamais acquise : elle dépend des alliances, des mariages et des trêves."
+     "texte": "C'est un monde où l'honneur est la chose la plus importante. On est fier de ses ancêtres, de son courage, de sa générosité. Les poètes chantent les exploits de leur tribu et se moquent des autres tribus. On attaque souvent une autre tribu pour lui voler ses chameaux et ses moutons : ces attaques s'appellent des razzias. Et la vengeance peut durer pendant plusieurs générations. En d'autres termes, la paix n'est jamais sûre. Elle dépend des alliances, des mariages entre familles, et des accords de paix pour un temps."
     },
     {
-     "texte": "Pour nous, Africains, ce monde n'est pas si étranger. Nous connaissons la force du clan, de la famille élargie, l'importance du nom, la honte qui touche tout le monde quand un membre fait le mal. Cela nous aide à comprendre pourquoi, aujourd'hui encore, quitter l'islam est si difficile pour un musulman : ce n'est pas seulement changer d'idées, c'est souvent être rejeté par toute sa famille."
+     "texte": "Pour nous, Africains, ce monde n'est pas si étranger. Nous connaissons la force du clan et de la grande famille. Nous savons combien le nom de famille est important. Nous savons que, quand un membre de la famille fait quelque chose de mal, c'est toute la famille qui a honte. Cela nous aide à comprendre une chose importante : aujourd'hui encore, quitter l'islam est très difficile pour un musulman. Pourquoi ? Parce que ce n'est pas seulement changer d'idées. C'est souvent être rejeté par toute sa famille."
     },
     {
      "sous_titre": "Les caravanes et La Mecque"
     },
     {
-     "texte": "L'Arabie est aussi une route de commerce. Des caravanes de chameaux transportent l'encens, la myrrhe, les épices, les tissus, entre le Yémen au sud et la Syrie au nord. La Bible elle-même parle de ces caravanes : des chameaux viendront de Séba, ils porteront de l'or et de l'encens (Ésaïe 60:6)."
+     "texte": "L'Arabie, c'est aussi une grande route de commerce. Des caravanes de chameaux transportent de l'encens, de la myrrhe, des épices et des tissus. Elles vont du Yémen, au sud, jusqu'à la Syrie, au nord. Une caravane, c'est un long groupe de chameaux chargés de marchandises, qui voyagent ensemble pour être plus en sécurité. La Bible parle elle-même de ces caravanes : des chameaux viendront de Séba, ils porteront de l'or et de l'encens (Ésaïe 60:6)."
     },
     {
-     "verset": "Es 60:6"
-    },
-    {
-     "texte": "Sur cette route, à mi-chemin, se trouve une petite ville dans une vallée sèche et chaude : La Mecque. Elle n'a ni rivière ni champs. Mais elle a un puits, le puits de Zamzam, et surtout un sanctuaire, la Kaaba, qui attire les pèlerins de toute l'Arabie. Une tribu contrôle la ville et le sanctuaire : la tribu de Quraych. C'est dans cette tribu que Mahomet naîtra."
+     "texte": "Sur cette route, à peu près au milieu, il y a une petite ville dans une vallée sèche et chaude. C'est La Mecque. Elle n'a pas de rivière. Elle n'a pas de champs. Mais elle a un puits, le puits de Zamzam. Et surtout, elle a un sanctuaire, c'est-à-dire un lieu de culte, qui s'appelle la Kaaba. Ce sanctuaire attire des pèlerins de toute l'Arabie. Une tribu contrôle la ville et le sanctuaire : c'est la tribu de Quraych. C'est dans cette tribu que Mahomet va naître."
     }
    ]
   },
@@ -69,40 +72,49 @@
    ],
    "blocs": [
     {
-     "sous_titre": "Un cube de pierre rempli de dieux"
+     "sous_titre": "Une maison carrée remplie de dieux"
     },
     {
-     "texte": "Kaaba veut dire « cube ». C'est une construction en pierre, à peu près carrée, avec dans un angle une pierre noire que les gens touchent et embrassent. Avant l'islam, la Kaaba n'était pas consacrée à un seul Dieu. Elle était entourée et remplie d'idoles. Les sources musulmanes elles-mêmes le disent : le jour où Mahomet entra en vainqueur à La Mecque, il y avait trois cent soixante idoles autour de la Kaaba, et il les fit tomber avec un bâton (Boukhari, hadith 2478)."
+     "texte": "Le mot « Kaaba » veut dire « cube ». C'est une construction en pierre, presque carrée. Dans un coin, il y a une pierre noire que les gens touchent et embrassent."
     },
     {
-     "texte": "Chaque tribu avait ses dieux. Le plus important à La Mecque s'appelait Houbal, une statue de pierre rouge à laquelle on demandait des oracles en tirant au sort avec des flèches. Il y avait aussi trois déesses très populaires : Al-Lat, Al-Ouzza et Manat. Le Coran les nomme d'ailleurs (sourate 53, versets 19 et 20). Les Arabes les appelaient parfois les « filles d'Allah »."
+     "texte": "Avant l'islam, est-ce que la Kaaba était consacrée à un seul Dieu ? Non. Elle était entourée et remplie d'idoles. Ce sont les livres des musulmans eux-mêmes qui le disent. Le jour où Mahomet est entré en vainqueur à La Mecque, il y avait trois cent soixante idoles autour de la Kaaba. Et il les a fait tomber avec un bâton. Ce récit se trouve dans le recueil de Boukhari, au hadith 2478."
+    },
+    {
+     "texte": "Chaque tribu avait ses propres dieux. Le dieu le plus important à La Mecque s'appelait Houbal. C'était une statue de pierre rouge. Pour prendre une décision, on lui demandait conseil en tirant au sort avec des flèches. Il y avait aussi trois déesses très aimées : Al-Lat, Al-Ouzza et Manat. Le Coran lui-même les nomme, dans la sourate 53, aux versets 19 et 20. Les Arabes les appelaient parfois « les filles d'Allah »."
     },
     {
      "sous_titre": "Le pèlerinage existait déjà"
     },
     {
-     "texte": "Beaucoup de musulmans pensent que tous les rites du pèlerinage ont été donnés par Dieu à Mahomet. Mais la plupart existaient déjà avant lui : faire sept fois le tour de la Kaaba, toucher la pierre noire, courir entre les deux petites collines de Safa et Marwa, se rendre à Arafat, lapider des piliers avec des cailloux, offrir des sacrifices. Les tribus païennes venaient chaque année à La Mecque pendant des « mois sacrés » où la guerre était interdite. Ce pèlerinage faisait aussi vivre le commerce de la ville."
+     "texte": "Beaucoup de musulmans pensent que tous les gestes du pèlerinage ont été donnés par Dieu à Mahomet. Mais en réalité, la plupart de ces gestes existaient déjà avant lui. Faire sept fois le tour de la Kaaba. Toucher la pierre noire. Courir entre deux petites collines, Safa et Marwa. Aller sur la colline d'Arafat. Jeter des cailloux sur des piliers. Offrir des sacrifices d'animaux. Tout cela, les tribus qui adoraient les idoles le faisaient déjà."
     },
     {
-     "texte": "L'islam a gardé l'essentiel de ces rites en les expliquant autrement : il dit que la Kaaba a été construite par Abraham et son fils Ismaël. La Bible, elle, ne dit nulle part qu'Abraham soit allé en Arabie ni qu'il y ait construit un sanctuaire. Abraham vivait à Canaan, à Hébron, à Beer-Schéba ; c'est Agar et Ismaël qui partirent dans le désert de Paran, au sud de Canaan (Genèse 21:21)."
+     "texte": "Chaque année, ces tribus venaient à La Mecque pendant des « mois sacrés ». Pendant ces mois, il était interdit de faire la guerre. Et ce pèlerinage faisait aussi vivre le commerce de la ville, un peu comme une grande foire."
+    },
+    {
+     "texte": "L'islam a gardé l'essentiel de ces gestes. Mais il leur a donné une autre explication. Il dit que la Kaaba a été construite par Abraham et par son fils Ismaël. Or la Bible ne dit nulle part qu'Abraham est allé en Arabie. Elle ne dit pas non plus qu'il y a construit un sanctuaire. Abraham vivait au pays de Canaan, à Hébron, à Beer-Schéba. Ce sont Agar et son fils Ismaël qui sont partis dans le désert de Paran, au sud de Canaan, comme le dit Genèse 21:21."
     },
     {
      "sous_titre": "Ce que la Bible dit des idoles"
     },
     {
-     "texte": "La Bible ne prend pas les idoles à la légère. Le psalmiste dit : leurs idoles sont de l'argent et de l'or, elles sont l'ouvrage de la main des hommes ; elles ont une bouche et ne parlent point, elles ont des yeux et ne voient point (Psaume 115:4-5). Mais Paul ajoute quelque chose d'important : l'idole n'est rien en elle-même, mais derrière les sacrifices offerts aux idoles, il y a des démons (1 Corinthiens 10:19-20). En d'autres termes, l'idolâtrie n'est pas seulement une erreur de l'esprit : c'est aussi une porte ouverte aux puissances des ténèbres."
+     "texte": "La Bible ne prend pas les idoles à la légère. Le psaume dit : leurs idoles sont de l'argent et de l'or, elles sont l'ouvrage de la main des hommes ; elles ont une bouche et ne parlent point, elles ont des yeux et ne voient point (Psaume 115:4-5)."
+    },
+    {
+     "texte": "Mais Paul ajoute une chose très importante. Il dit que l'idole elle-même n'est rien. Mais derrière les sacrifices offerts aux idoles, il y a des démons (1 Corinthiens 10:19-20)."
     },
     {
      "verset": "1 Co 10:20"
     },
     {
-     "texte": "Retiens bien cela, car nous y reviendrons quand nous parlerons de l'islam populaire en Afrique, des marabouts et des talismans faits avec des versets du Coran."
+     "texte": "En d'autres termes, adorer des idoles, ce n'est pas seulement une erreur de la pensée. C'est aussi une porte ouverte aux puissances des ténèbres. Retiens bien cela. Nous y reviendrons quand nous parlerons de l'islam populaire en Afrique, des marabouts, et des gris-gris faits avec des versets du Coran."
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "« Allah » avant l'islam",
+   "titre": "Le nom « Allah » existait avant l'islam",
    "references": [
     "Ac 17:23",
     "Jn 4:22"
@@ -112,25 +124,34 @@
      "sous_titre": "Un nom déjà connu"
     },
     {
-     "texte": "Voici un fait que beaucoup ignorent : le nom « Allah » n'a pas été inventé par Mahomet. Le mot vient de « al-ilah », « le dieu ». Les Arabes païens connaissaient un dieu qu'ils appelaient Allah, et qu'ils considéraient comme un dieu supérieur, créateur, mais lointain. On s'adressait plutôt aux idoles pour les besoins de tous les jours."
+     "texte": "Voici une chose que beaucoup de gens ne savent pas. Le nom « Allah » n'a pas été inventé par Mahomet. Ce mot vient de « al-ilah », qui veut dire « le dieu ». Les Arabes qui adoraient les idoles connaissaient déjà un dieu qu'ils appelaient Allah. Pour eux, c'était un dieu supérieur, qui avait créé le monde, mais qui était loin. Pour les besoins de tous les jours, on s'adressait plutôt aux idoles."
     },
     {
-     "texte": "Le Coran lui-même le reconnaît. Il dit aux païens de La Mecque : si tu leur demandes qui a créé les cieux et la terre, ils diront certainement : « Allah » (sourate 29, verset 61). Le propre père de Mahomet, mort avant sa naissance, s'appelait Abdallah, ce qui veut dire « serviteur d'Allah ». Il est donc certain qu'Allah était un nom divin utilisé avant l'islam."
+     "texte": "Le Coran lui-même le reconnaît. Il dit en parlant des païens de La Mecque : si tu leur demandes qui a créé les cieux et la terre, ils diront certainement : « Allah » (sourate 29, verset 61). Et le père de Mahomet, qui est mort avant la naissance de son fils, s'appelait Abdallah. Ce nom veut dire « serviteur d'Allah ». Cela prouve que le nom d'Allah était utilisé avant l'islam."
     },
     {
      "sous_titre": "Les chrétiens arabes aussi disent « Allah »"
     },
     {
-     "texte": "Il faut aussi savoir que les chrétiens arabes, avant l'islam et jusqu'à aujourd'hui, appellent Dieu « Allah ». C'est simplement le mot arabe pour « Dieu ». Dans une Bible arabe, Jean 3:16 commence par « Car Allah a tant aimé le monde ». Il ne faut donc pas tomber dans le piège de dire : « Allah est un démon » ou « Allah est un dieu lune ». Ce genre d'affirmation choque le musulman, ferme la discussion, et n'est pas exact."
+     "texte": "Il faut savoir aussi que les chrétiens arabes appellent Dieu « Allah ». Ils le faisaient avant l'islam, et ils le font encore aujourd'hui. C'est tout simplement le mot arabe pour dire « Dieu ». Dans une Bible en arabe, le verset de Jean 3:16 commence ainsi : « Car Allah a tant aimé le monde. »"
     },
     {
-     "texte": "La vraie question n'est pas le nom, mais la personne. Quand Paul arriva à Athènes, il trouva un autel avec cette inscription : « À un dieu inconnu ». Il ne commença pas par se moquer. Il dit : ce que vous révérez sans le connaître, c'est ce que je vous annonce (Actes 17:23). Puis il leur parla du Dieu créateur, de la repentance et de Jésus ressuscité. Nous ferons de même : nous ne nous battrons pas sur le mot « Allah », nous parlerons de qui est Dieu. Est-il un Père ? A-t-il un Fils ? S'est-il fait homme ? Peut-on le connaître personnellement ? C'est là que la Bible et le Coran se séparent profondément, comme nous le verrons dans l'enseignement sur Allah et le Dieu de la Bible."
+     "texte": "Alors, il ne faut pas tomber dans le piège de dire : « Allah, c'est un démon », ou bien : « Allah, c'est un dieu-lune. » Ces phrases choquent le musulman, elles ferment la conversation, et elles ne sont pas exactes."
     },
     {
-     "sous_titre": "Les hanifs, chercheurs de Dieu"
+     "texte": "La vraie question n'est pas le nom. La vraie question, c'est la personne. Quand Paul est arrivé à Athènes, il a trouvé un autel avec cette inscription : « À un dieu inconnu. » Est-ce qu'il s'est moqué ? Non. Il a dit : ce que vous révérez sans le connaître, c'est ce que je vous annonce (Actes 17:23). Ensuite, il leur a parlé du Dieu créateur, de la repentance, et de Jésus ressuscité."
     },
     {
-     "texte": "Les sources musulmanes parlent aussi de quelques Arabes, avant Mahomet, qui avaient rejeté les idoles et cherchaient le Dieu unique d'Abraham. On les appelait les « hanifs ». L'un d'eux, Zayd ibn Amr, refusait de manger la viande sacrifiée aux idoles. Un autre, Waraqa ibn Nawfal, cousin de la première femme de Mahomet, était devenu chrétien et lisait les Écritures. Nous le retrouverons au moment de la première « révélation ». Cela montre qu'à La Mecque même, certains savaient que les idoles ne pouvaient pas sauver, et que la vérité se trouvait chez les « gens du Livre »."
+     "texte": "Nous allons faire comme Paul. Nous n'allons pas nous battre pour un mot. Nous allons parler de qui est Dieu. Voici les vraies questions. Est-ce que Dieu est un Père ? Est-ce qu'il a un Fils ? Est-ce qu'il s'est fait homme ? Est-ce qu'on peut le connaître personnellement ? C'est sur ces questions que la Bible et le Coran se séparent profondément. Et c'est pourquoi, au bout du compte, le chrétien et le musulman n'adorent pas le même Dieu. Nous le verrons en détail dans l'enseignement sur Allah et le Dieu de la Bible."
+    },
+    {
+     "sous_titre": "Les hanifs, des chercheurs de Dieu"
+    },
+    {
+     "texte": "Les livres musulmans parlent aussi de quelques Arabes qui, avant Mahomet, avaient abandonné les idoles. Ils cherchaient le Dieu unique d'Abraham. On les appelait les « hanifs ». L'un d'eux, Zayd ibn Amr, refusait de manger la viande offerte aux idoles. Un autre, Waraqa ibn Nawfal, était le cousin de la première femme de Mahomet. Il était devenu chrétien, et il lisait les Écritures. Nous le retrouverons au moment de la première « révélation » de Mahomet."
+    },
+    {
+     "texte": "Qu'est-ce que cela nous montre ? Cela montre qu'à La Mecque même, certaines personnes savaient que les idoles ne pouvaient pas sauver. Et elles savaient que la vérité se trouvait chez ceux qu'on appelait « les gens du Livre », c'est-à-dire chez les juifs et les chrétiens."
     }
    ]
   },
@@ -146,53 +167,65 @@
      "sous_titre": "L'Évangile était arrivé très tôt"
     },
     {
-     "texte": "Le jour de la Pentecôte, à Jérusalem, il y avait des Arabes parmi la foule. Ils entendirent les apôtres annoncer dans leur langue les merveilles de Dieu (Actes 2:11). L'apôtre Paul lui-même, après sa conversion, partit en Arabie avant de revenir à Damas (Galates 1:17). L'Évangile a donc touché le monde arabe dès les premières années de l'Église."
+     "texte": "Le jour de la Pentecôte, à Jérusalem, il y avait des Arabes dans la foule. Ils ont entendu les apôtres annoncer dans leur langue les merveilles de Dieu (Actes 2:11). Et l'apôtre Paul lui-même, après sa conversion, est parti en Arabie avant de revenir à Damas (Galates 1:17). Cela veut dire que l'Évangile a touché le monde arabe dès les premières années de l'Église."
     },
     {
-     "texte": "Six siècles plus tard, au temps de Mahomet, il y avait des chrétiens en Arabie. Au nord, des tribus arabes entières étaient chrétiennes, alliées de l'empire byzantin. Au sud, la ville de Najran, au Yémen, avait une grande communauté chrétienne. En 523, un roi converti au judaïsme, Dhu Nuwas, y fit massacrer des chrétiens qui refusaient de renier Christ ; beaucoup furent brûlés. De l'autre côté de la mer Rouge, le royaume d'Éthiopie (Aksoum) était chrétien depuis le IVe siècle. Nous verrons que les premiers musulmans persécutés trouveront refuge chez ce roi chrétien."
+     "texte": "Six cents ans plus tard, au temps de Mahomet, il y avait donc des chrétiens en Arabie. Au nord, des tribus arabes entières étaient chrétiennes. Au sud, dans la ville de Najran, au Yémen, il y avait une grande communauté chrétienne. En l'an 523, un roi de cette région, qui était devenu juif, s'appelait Dhu Nuwas. Il a fait massacrer des chrétiens qui refusaient de renier le Christ. Beaucoup ont été brûlés vivants."
+    },
+    {
+     "texte": "De l'autre côté de la mer Rouge, en Éthiopie, le royaume d'Aksoum était chrétien depuis le quatrième siècle. Nous verrons plus tard que les premiers musulmans persécutés iront se réfugier chez ce roi chrétien."
     },
     {
      "sous_titre": "L'année de l'éléphant"
     },
     {
-     "texte": "Vers 570, l'année où, selon la tradition, Mahomet est né, un général chrétien éthiopien qui gouvernait le Yémen, Abraha, aurait marché sur La Mecque avec une armée et au moins un éléphant, pour détruire la Kaaba et attirer les pèlerins vers une grande église qu'il avait bâtie à Sanaa. Son expédition échoua. Le Coran y fait allusion dans la sourate 105, « l'éléphant ». Cet épisode est resté dans la mémoire des Mecquois comme la preuve que leur sanctuaire était protégé. Il montre aussi que, pour eux, le christianisme était la religion d'étrangers puissants, souvent ennemis."
+     "texte": "Vers l'an 570, c'est l'année où Mahomet est né selon la tradition. Cette année-là, un général chrétien venu d'Éthiopie, appelé Abraha, gouvernait le Yémen. Il aurait marché sur La Mecque avec une armée et au moins un éléphant. Il voulait détruire la Kaaba, pour que les pèlerins viennent plutôt dans une grande église qu'il avait construite à Sanaa. Mais son expédition a échoué. Le Coran en parle dans la sourate 105, qui s'appelle « l'éléphant »."
+    },
+    {
+     "texte": "Les gens de La Mecque se sont souvenus de cet événement comme d'une preuve que leur sanctuaire était protégé. Cela nous montre aussi autre chose : pour eux, le christianisme était la religion d'étrangers puissants, souvent des ennemis."
     },
     {
      "sous_titre": "Les juifs de Médine et de Khaybar"
     },
     {
-     "texte": "Il y avait aussi des tribus juives en Arabie, surtout dans l'oasis de Yathrib (qui deviendra Médine) : les Banou Qaynouqa, les Banou Nadir et les Banou Qurayza. Plus au nord se trouvait l'oasis de Khaybar, également juive. Ces juifs parlaient arabe, mais gardaient la loi de Moïse, le sabbat et l'espérance du Messie. Mahomet vivra au milieu d'eux à Médine, et ses relations avec eux finiront très mal, comme nous le verrons."
+     "texte": "Il y avait aussi des tribus juives en Arabie. Elles vivaient surtout dans l'oasis de Yathrib, la ville qui s'appellera plus tard Médine. Elles s'appelaient les Banou Qaynouqa, les Banou Nadir et les Banou Qurayza. Plus au nord, il y avait l'oasis de Khaybar, elle aussi juive. Ces juifs parlaient arabe, mais ils gardaient la loi de Moïse, le sabbat, et l'espérance du Messie. Mahomet va vivre au milieu d'eux à Médine. Et ses relations avec eux vont très mal finir, comme nous le verrons."
     }
    ]
   },
   {
    "numero": "5",
-   "titre": "Des récits bibliques entendus de bouche à oreille",
+   "titre": "Des histoires de la Bible racontées de bouche à oreille",
    "references": [
     "2 Tm 4:3-4",
     "Ga 1:8"
    ],
    "blocs": [
     {
-     "sous_titre": "Un christianisme divisé"
+     "sous_titre": "Des chrétiens divisés"
     },
     {
-     "texte": "Le christianisme que les Arabes rencontraient était souvent divisé et affaibli par des disputes. Depuis les grands conciles du Ve siècle, les chrétiens d'Orient se querellaient sur la manière d'exprimer que Jésus est à la fois Dieu et homme. Il y avait des Églises dites « nestoriennes », d'autres « monophysites », d'autres liées à Byzance, et elles se condamnaient les unes les autres. Certaines vénéraient beaucoup Marie, au point que des Arabes pouvaient penser que les chrétiens adoraient trois dieux : le Père, Jésus et Marie. Le Coran semble refléter cette confusion : il présente la Trinité chrétienne comme si elle comprenait Marie (sourate 5, verset 116). Or aucun chrétien biblique n'a jamais cru cela."
+     "texte": "Les chrétiens que les Arabes rencontraient étaient souvent divisés et affaiblis par des disputes. Depuis le cinquième siècle, les Églises d'Orient se disputaient sur une question : comment dire que Jésus est à la fois vraiment Dieu et vraiment homme ? Il y avait plusieurs Églises, qui portaient des noms compliqués, et elles se condamnaient les unes les autres."
+    },
+    {
+     "texte": "Certaines de ces Églises vénéraient beaucoup Marie. Elles l'honoraient tellement que des Arabes pouvaient penser que les chrétiens adoraient trois dieux : le Père, Jésus et Marie. Le Coran semble avoir cette confusion. Il présente la Trinité des chrétiens comme si Marie en faisait partie, dans la sourate 5, au verset 116. Or aucun chrétien qui suit la Bible n'a jamais cru cela."
     },
     {
      "sous_titre": "Pas de Bible en arabe"
     },
     {
-     "texte": "Il y a un fait triste et important : au temps de Mahomet, il n'existait apparemment pas de traduction complète de la Bible en arabe. Les plus anciennes traductions arabes connues des Évangiles datent d'après l'islam. Les Arabes connaissaient donc les histoires de la Bible surtout par ce qu'ils entendaient raconter par des marchands, des moines, des esclaves, des voisins juifs ou chrétiens."
+     "texte": "Voici un fait triste, mais très important. Au temps de Mahomet, il n'y avait apparemment pas de Bible complète en langue arabe. Les plus anciennes traductions des Évangiles en arabe que nous connaissons datent d'après l'islam. Alors, comment les Arabes connaissaient-ils les histoires de la Bible ? Surtout par ce qu'ils entendaient raconter. Des marchands, des moines, des esclaves, des voisins juifs ou chrétiens leur racontaient ces histoires."
     },
     {
-     "texte": "Et ce qu'ils entendaient n'était pas toujours la Bible. Il circulait aussi des récits légendaires, venus d'écrits apocryphes, c'est-à-dire de livres que l'Église n'a jamais reçus comme Parole de Dieu. Par exemple, un écrit appelé « l'Évangile de l'enfance selon Thomas » raconte que Jésus enfant façonnait des oiseaux en argile et leur donnait la vie. Un autre récit, « l'Évangile arabe de l'enfance », fait parler Jésus dans son berceau. Or ces deux histoires se retrouvent dans le Coran (sourate 3, verset 49 ; sourate 19, versets 29 à 33). Nous en reparlerons en comparant le Coran et la Bible."
+     "texte": "Et ce qu'ils entendaient, ce n'était pas toujours la Bible. Il circulait aussi des légendes, tirées de livres que l'Église n'a jamais reçus comme Parole de Dieu. On appelle ces livres des « apocryphes ». Par exemple, un livre appelé « l'Évangile de l'enfance selon Thomas » raconte que Jésus enfant faisait des oiseaux en argile, et qu'il leur donnait la vie. Un autre livre, « l'Évangile arabe de l'enfance », fait parler Jésus dans son berceau, quand il était bébé. Or ces deux histoires se trouvent dans le Coran, dans la sourate 3 au verset 49, et dans la sourate 19, aux versets 29 à 33. Nous en reparlerons quand nous comparerons le Coran et la Bible."
     },
     {
      "sous_titre": "Un avertissement pour nous"
     },
     {
-     "texte": "Paul avait prévenu : il viendra un temps où les hommes ne supporteront pas la saine doctrine ; ils détourneront l'oreille de la vérité et se tourneront vers les fables (2 Timothée 4:3-4). Il avait aussi dit aux Galates : si quelqu'un, même un ange du ciel, vous annonce un autre Évangile que celui que nous vous avons annoncé, qu'il soit anathème (Galates 1:8). Gardons ce verset en mémoire : il sera très important quand nous parlerons de l'ange qui, selon l'islam, apparut à Mahomet."
+     "texte": "Paul avait prévenu : il viendra un temps où les hommes ne supporteront pas la saine doctrine ; ils détourneront l'oreille de la vérité et se tourneront vers les fables (2 Timothée 4:3-4). Il avait aussi dit aux chrétiens de Galatie : si quelqu'un, même un ange du ciel, vous annonce un autre Évangile que celui que nous vous avons annoncé, qu'il soit maudit (Galates 1:8)."
+    },
+    {
+     "texte": "Garde ce verset dans ta mémoire. Il sera très important quand nous parlerons de l'ange qui, selon l'islam, est apparu à Mahomet."
     }
    ]
   },
@@ -205,22 +238,25 @@
    ],
    "blocs": [
     {
-     "sous_titre": "Les filles enterrées vivantes"
+     "sous_titre": "Les petites filles enterrées vivantes"
     },
     {
-     "texte": "Il faut aussi être honnête sur les bonnes choses que l'islam a dénoncées. L'Arabie païenne était dure pour les faibles. Certaines familles, qui voulaient des garçons, enterraient vivantes leurs petites filles à la naissance. Le Coran condamne cette pratique : il annonce qu'au jour du jugement, on demandera à la fillette enterrée vivante pour quel crime on l'a tuée (sourate 81, versets 8 et 9). C'est une bonne chose que cette coutume ait été combattue."
+     "texte": "Il faut aussi être honnête et reconnaître les mauvaises choses que l'islam a combattues. L'Arabie qui adorait les idoles était dure pour les faibles. Certaines familles voulaient seulement des garçons. Alors, quand une petite fille naissait, elles l'enterraient vivante. Le Coran condamne cette pratique. Il annonce qu'au jour du jugement, on demandera à la petite fille enterrée vivante pour quel crime on l'a tuée (sourate 81, versets 8 et 9). C'est une bonne chose que cette coutume ait été combattue."
     },
     {
-     "texte": "Les orphelins et les veuves étaient souvent dépouillés. L'alcool, les jeux de hasard et les razzias faisaient des ravages. Le Coran parle souvent du soin des orphelins, de l'aumône aux pauvres, de l'honnêteté dans le commerce. Le chrétien doit reconnaître ce qui est juste : la Bible enseignait déjà tout cela des siècles plus tôt. La religion pure, dit Jacques, consiste à visiter les orphelins et les veuves dans leurs afflictions, et à se préserver des souillures du monde (Jacques 1:27)."
+     "texte": "Les orphelins et les veuves étaient souvent dépouillés de leurs biens. L'alcool, les jeux d'argent et les attaques entre tribus faisaient beaucoup de dégâts. Le Coran parle souvent du soin des orphelins, de l'aide aux pauvres et de l'honnêteté dans le commerce."
     },
     {
-     "sous_titre": "Reconnaître le bien sans fermer les yeux"
+     "texte": "Le chrétien doit reconnaître ce qui est juste. Mais il doit aussi savoir que la Bible enseignait déjà tout cela, des siècles plus tôt. Jacques dit : la religion pure et sans tache, devant Dieu notre Père, consiste à visiter les orphelins et les veuves dans leurs afflictions, et à se préserver des souillures du monde (Jacques 1:27)."
     },
     {
-     "texte": "Quand tu parleras avec un musulman, ne commence pas par dire que tout est mauvais dans sa religion. Il sait que l'islam a interdit l'idolâtrie, demandé la prière, l'aumône, le jeûne. Il en est fier. Reconnaître ce qui est vrai ne veut pas dire tout accepter. Cela montre seulement que tu es honnête, et ton ami t'écoutera mieux quand tu parleras de ce qui ne l'est pas."
+     "sous_titre": "Reconnaître le bien, sans fermer les yeux"
     },
     {
-     "texte": "En d'autres termes : on peut dire « oui, tu as raison, il n'y a qu'un seul Dieu et les idoles ne sont rien », et ensuite demander : « mais comment un homme pécheur peut-il être déclaré juste devant ce Dieu saint ? » C'est souvent là que la conversation devient vraiment intéressante."
+     "texte": "Quand tu parles avec un musulman, ne commence pas en disant que tout est mauvais dans sa religion. Il sait que l'islam a interdit les idoles et qu'il demande la prière, l'aumône et le jeûne. Il en est fier. Reconnaître ce qui est vrai, ce n'est pas tout accepter. C'est simplement montrer que tu es honnête. Et alors ton ami t'écoutera mieux quand tu parleras de ce qui n'est pas vrai."
+    },
+    {
+     "texte": "Voici comment on peut faire. Tu peux dire : « Oui, tu as raison. Il n'y a qu'un seul Dieu, et les idoles ne sont rien. » Et ensuite, tu peux poser cette question : « Mais comment est-ce qu'un homme pécheur peut être déclaré juste devant ce Dieu saint ? » C'est souvent à ce moment-là que la conversation devient vraiment intéressante."
     }
    ]
   },
@@ -236,22 +272,28 @@
      "sous_titre": "Une occasion manquée"
     },
     {
-     "texte": "Pendant six siècles, des chrétiens ont vécu à côté des Arabes. Il y avait des évêques, des moines, des marchands chrétiens. Pourtant, La Mecque est restée païenne, et quand un homme de La Mecque a cherché le Dieu unique, il ne l'a pas trouvé dans une Église vivante qui lui expliquait l'Évangile dans sa langue."
+     "texte": "Pendant six cents ans, des chrétiens ont vécu à côté des Arabes. Il y avait des évêques, des moines et des marchands chrétiens. Pourtant, La Mecque est restée une ville d'idoles. Et quand un homme de La Mecque a cherché le Dieu unique, il ne l'a pas trouvé dans une Église vivante qui lui expliquait l'Évangile dans sa langue."
     },
     {
-     "texte": "Nous ne pouvons pas réécrire l'histoire, mais nous pouvons en tirer une leçon sérieuse. Paul demande : comment invoqueront-ils celui en qui ils n'ont pas cru ? Et comment croiront-ils en celui dont ils n'ont pas entendu parler ? Et comment en entendront-ils parler, s'il n'y a personne qui prêche ? (Romains 10:14). Quand l'Église se dispute, quand elle ne traduit pas la Parole, quand elle ne va pas vers les autres peuples, d'autres messages viennent remplir le vide."
+     "texte": "Nous ne pouvons pas changer l'histoire. Mais nous pouvons en tirer une leçon sérieuse. Paul pose ces questions : comment invoqueront-ils celui en qui ils n'ont pas cru ? Et comment croiront-ils en celui dont ils n'ont pas entendu parler ? Et comment en entendront-ils parler, s'il n'y a personne qui prêche ? (Romains 10:14)."
     },
     {
-     "sous_titre": "On raconte…"
+     "texte": "Je le dis plus simplement. Quand l'Église se dispute, quand elle ne traduit pas la Parole de Dieu dans la langue des gens, quand elle ne va pas vers les autres peuples, alors d'autres messages viennent remplir le vide."
     },
     {
-     "texte": "On raconte l'histoire d'un pasteur du nord du Cameroun qui avait, depuis vingt ans, un voisin musulman. Ils se saluaient chaque matin, se rendaient visite aux deuils et aux mariages. Un jour, le voisin tomba gravement malade. Le pasteur alla le voir et, pour la première fois, lui proposa de prier pour lui au nom de Jésus. Le vieil homme le regarda longuement et dit : « Vingt ans que nous sommes voisins, et c'est aujourd'hui que tu me parles de ton prophète ? Tu pensais qu'il n'était pas pour moi ? » Le pasteur raconta plus tard que cette phrase l'avait brisé. Ce n'est pas la dureté du musulman qui avait fermé la porte : c'est son propre silence."
+     "sous_titre": "Le silence d'un voisin"
+    },
+    {
+     "texte": "Voici une histoire. Un pasteur du nord du Cameroun avait un voisin musulman depuis vingt ans. Ils se saluaient chaque matin. Ils allaient aux deuils et aux mariages l'un de l'autre. Un jour, le voisin est tombé gravement malade. Le pasteur est allé le voir, et pour la première fois, il lui a proposé de prier pour lui au nom de Jésus. Le vieil homme l'a regardé longtemps, puis il a dit : « Cela fait vingt ans que nous sommes voisins, et c'est aujourd'hui que tu me parles de ton prophète ? Est-ce que tu pensais qu'il n'était pas pour moi ? »"
+    },
+    {
+     "texte": "Le pasteur a raconté plus tard que cette phrase l'avait brisé. Ce n'était pas la dureté du musulman qui avait fermé la porte. C'était son propre silence."
     },
     {
      "sous_titre": "Notre appel aujourd'hui"
     },
     {
-     "texte": "Jésus a dit : allez, faites de toutes les nations des disciples (Matthieu 28:19). « Toutes les nations », cela inclut les Peuls, les Haoussas, les Kanouris, les Arabes Choa, les Wolofs, les Arabes, les Turcs, les Iraniens, et ton voisin du quartier. Cette série veut te préparer à ne plus te taire."
+     "texte": "Jésus a dit : allez, faites de toutes les nations des disciples (Matthieu 28:19). « Toutes les nations », cela veut dire les Peuls, les Haoussas, les Kanouris, les Arabes Choa, les Wolofs, les Arabes, les Turcs, les Iraniens. Et cela veut dire aussi ton voisin du quartier. Cette série veut te préparer à ne plus te taire."
     }
    ]
   },
@@ -264,25 +306,31 @@
    ],
    "blocs": [
     {
-     "sous_titre": "La poésie, trésor des Arabes"
+     "sous_titre": "La poésie, le trésor des Arabes"
     },
     {
-     "texte": "Les Arabes de cette époque écrivaient peu. Très peu de gens savaient lire et écrire, et l'écriture arabe elle-même était encore simple, sans les points et les signes qui permettent aujourd'hui de distinguer certaines lettres. Mais ces gens avaient une mémoire extraordinaire. Leur grande fierté, c'était la poésie. Chaque tribu avait ses poètes. Lors des foires annuelles, comme celle d'Oukaz près de La Mecque, les poètes s'affrontaient en déclamant des vers devant la foule. On raconte que les poèmes les plus admirés étaient suspendus à la Kaaba ; on les appelle les « Mouallaqât », les « suspendues »."
+     "texte": "À cette époque, les Arabes écrivaient peu. Très peu de gens savaient lire et écrire. Et l'écriture arabe elle-même était encore simple : il manquait les petits points et les signes qui permettent aujourd'hui de distinguer certaines lettres. Mais ces gens avaient une mémoire extraordinaire."
     },
     {
-     "texte": "Un bon poème pouvait élever une tribu ou la couvrir de honte. On croyait d'ailleurs que les grands poètes étaient inspirés par un esprit, un djinn, qui leur soufflait leurs vers. Retiens ce détail : quand Mahomet commencera à réciter des paroles rythmées, les gens de La Mecque diront : « c'est un poète », « c'est un possédé ». Et Mahomet lui-même, au début, aura peur d'être l'un ou l'autre."
+     "texte": "Leur grande fierté, c'était la poésie. Chaque tribu avait ses poètes. Pendant les grandes foires de chaque année, comme celle d'Oukaz près de La Mecque, les poètes s'affrontaient. Ils récitaient leurs poèmes devant la foule, et la foule jugeait. On raconte que les poèmes les plus admirés étaient accrochés à la Kaaba. On les appelle les « Mouallaqât », ce qui veut dire « les suspendues »."
+    },
+    {
+     "texte": "Un bon poème pouvait rendre une tribu célèbre, ou la couvrir de honte. On croyait aussi que les grands poètes étaient inspirés par un esprit, un djinn, qui leur soufflait leurs vers. Retiens ce détail. Quand Mahomet commencera à réciter des paroles rythmées, les gens de La Mecque diront : « C'est un poète », ou bien : « C'est un possédé. » Et au début, Mahomet lui-même aura peur d'être l'un ou l'autre."
     },
     {
      "sous_titre": "Réciter plutôt qu'écrire"
     },
     {
-     "texte": "Dans une telle culture, un texte vit d'abord dans la bouche et dans la mémoire. On apprend par cœur, on récite, on transmet. Le mot « Coran » lui-même veut dire « récitation ». Cela explique beaucoup de choses que nous verrons plus loin : le Coran a d'abord été récité, mémorisé par des compagnons, noté par morceaux sur des supports variés, et il n'a été rassemblé en un seul livre qu'après la mort de Mahomet. Nous verrons aussi que cette transmission orale a laissé des différences, des passages oubliés, des lectures multiples, et que l'un des califes a fini par imposer une seule version et faire brûler les autres."
+     "texte": "Dans une telle culture, un texte vit d'abord dans la bouche et dans la mémoire. On apprend par cœur, on récite, et on transmet aux autres. C'est un peu comme chez nous, où les griots et les anciens transmettent l'histoire de la famille et du village par la parole."
     },
     {
-     "sous_titre": "Ce que la Bible dit de la parole"
+     "texte": "Le mot « Coran » lui-même veut dire « récitation ». Cela explique beaucoup de choses que nous verrons plus tard. Le Coran a d'abord été récité. Il a été appris par cœur par des compagnons de Mahomet. Il a été écrit par morceaux, sur ce qu'on trouvait. Et il n'a été rassemblé en un seul livre qu'après la mort de Mahomet. Nous verrons aussi que cette transmission par la bouche a laissé des différences, des passages oubliés, plusieurs façons de lire. Et nous verrons qu'un des chefs des musulmans a fini par imposer une seule version, et a fait brûler les autres."
     },
     {
-     "texte": "La Bible aussi a été transmise avec un très grand soin, mais d'une manière différente : dès Moïse, Dieu ordonne d'écrire. L'Éternel dit à Moïse : écris ces choses dans le livre, pour que le souvenir s'en conserve (Exode 17:14). Les prophètes écrivent, les rois font copier la loi, les apôtres écrivent des lettres aux églises du vivant même des témoins. Nous comparerons plus tard ces deux histoires, celle de la Bible et celle du Coran, avec des faits précis."
+     "sous_titre": "Ce que la Bible dit de la parole écrite"
+    },
+    {
+     "texte": "La Bible aussi a été transmise avec un très grand soin. Mais d'une autre manière. Dès le temps de Moïse, Dieu ordonne d'écrire. L'Éternel dit à Moïse : écris cela dans le livre, pour que le souvenir s'en conserve (Exode 17:14). Les prophètes écrivent. Les rois font copier la loi. Les apôtres écrivent des lettres aux Églises pendant que les témoins de Jésus sont encore vivants. Nous comparerons plus tard ces deux histoires, celle de la Bible et celle du Coran, avec des faits précis."
     }
    ]
   },
@@ -298,28 +346,34 @@
      "sous_titre": "Les djinns"
     },
     {
-     "texte": "Les Arabes païens croyaient à l'existence de nombreux esprits, les djinns. Selon eux, ils habitaient les déserts, les ruines, les puits, les lieux sombres. Ils pouvaient aider ou nuire, posséder une personne, rendre fou, inspirer les devins et les poètes. On portait des amulettes pour s'en protéger, on consultait des devins (les « kâhin ») qui parlaient en phrases courtes et rimées, et on faisait des sacrifices pour les apaiser."
+     "texte": "Les Arabes qui adoraient les idoles croyaient à beaucoup d'esprits, qu'ils appelaient les djinns. Selon eux, les djinns habitaient dans les déserts, les ruines, les puits et les endroits sombres. Ils pouvaient aider ou faire du mal. Ils pouvaient entrer dans une personne, la rendre folle, ou inspirer les devins et les poètes. Pour se protéger, on portait des amulettes. On consultait des devins, qui parlaient avec des phrases courtes qui riment. Et on offrait des sacrifices pour calmer ces esprits."
     },
     {
-     "texte": "L'islam n'a pas supprimé cette croyance : il l'a gardée. Le Coran parle beaucoup des djinns. Une sourate entière porte leur nom (sourate 72). Il dit que les djinns ont été créés d'un feu sans fumée, que certains sont musulmans et d'autres non, et que Mahomet a été envoyé aussi à eux. Les hadiths enseignent des formules pour se protéger des djinns, par exemple en entrant dans les toilettes."
+     "texte": "Est-ce que l'islam a supprimé cette croyance ? Non. Il l'a gardée. Le Coran parle beaucoup des djinns. Une sourate entière porte leur nom, c'est la sourate 72. Le Coran dit que les djinns ont été créés à partir d'un feu sans fumée, que certains sont musulmans et d'autres non, et que Mahomet a été envoyé aussi vers eux. Les hadiths enseignent des prières pour se protéger des djinns, par exemple au moment d'entrer dans les toilettes."
     },
     {
      "sous_titre": "Pourquoi c'est important pour nous en Afrique"
     },
     {
-     "texte": "En Afrique, nous connaissons très bien ce monde d'esprits, de protections, de charmes. Beaucoup de marabouts, aujourd'hui encore, mélangent l'islam et les pratiques anciennes : ils écrivent des versets du Coran sur des tablettes, lavent l'encre et font boire l'eau, cousent des versets dans des gris-gris, invoquent des djinns pour la réussite, l'amour ou la vengeance. Beaucoup de chrétiens qui ont consulté des marabouts ne savaient pas qu'ils ouvraient une porte spirituelle. C'est pourquoi le bilan de vie du suivi des nouveaux convertis pose ces questions avec soin."
+     "texte": "En Afrique, nous connaissons très bien ce monde d'esprits, de protections et de charmes. Aujourd'hui encore, beaucoup de marabouts mélangent l'islam et les anciennes pratiques. Ils écrivent des versets du Coran sur des planchettes de bois, ils lavent l'encre et ils font boire cette eau. Ils cousent des versets dans des gris-gris. Ils appellent des djinns pour aider quelqu'un à réussir, à se faire aimer, ou à se venger."
+    },
+    {
+     "texte": "Beaucoup de chrétiens sont allés voir des marabouts sans savoir qu'ils ouvraient une porte spirituelle. Ils ont été chercher un travail, un mari, la guérison, la réussite à un examen. C'est pourquoi le bilan de vie, dans le suivi des nouveaux convertis, pose ces questions avec soin."
     },
     {
      "sous_titre": "Christ a vaincu les puissances"
     },
     {
-     "texte": "Le chrétien n'a pas à vivre dans la peur de ces esprits. La Bible reconnaît qu'il y a des puissances des ténèbres : nous n'avons pas à lutter contre la chair et le sang, mais contre les dominations, contre les autorités, contre les esprits méchants (Éphésiens 6:12). Mais elle proclame aussi que Christ les a dépouillées à la croix et les a livrées publiquement en spectacle (Colossiens 2:15). Le musulman qui vit dans la peur des djinns et du mauvais œil a besoin d'entendre cette bonne nouvelle : il y a quelqu'un de plus fort que tous les esprits, et il s'appelle Jésus."
+     "texte": "Le chrétien n'a pas besoin de vivre dans la peur de ces esprits. La Bible reconnaît qu'il existe des puissances des ténèbres. Paul dit : nous n'avons pas à lutter contre la chair et le sang, mais contre les dominations, contre les autorités, contre les esprits méchants (Éphésiens 6:12). Mais la Bible proclame aussi que Jésus les a dépouillées à la croix et les a livrées publiquement en spectacle (Colossiens 2:15)."
+    },
+    {
+     "texte": "En d'autres termes, Jésus a déjà gagné le combat. Le musulman qui vit dans la peur des djinns et du mauvais œil a besoin d'entendre cette bonne nouvelle : il y a quelqu'un de plus fort que tous les esprits. Et ce quelqu'un s'appelle Jésus."
     }
    ]
   },
   {
    "numero": "10",
-   "titre": "Ce que tout cela nous apprend",
+   "titre": "Ce que nous retenons",
    "references": [
     "1 P 3:15",
     "Col 4:5-6"
@@ -329,32 +383,32 @@
      "sous_titre": "Résumons"
     },
     {
-     "texte": "L'islam est né au VIIe siècle dans une Arabie de tribus et de caravanes. À La Mecque, la Kaaba était un sanctuaire rempli d'idoles, et le pèlerinage existait déjà. Le nom « Allah » était connu, à la fois des païens, qui le voyaient comme un dieu suprême lointain, et des chrétiens arabes, pour qui c'est simplement le mot « Dieu ». Des juifs et des chrétiens vivaient en Arabie, mais le christianisme était divisé, et la Bible n'était pas disponible en arabe. Des récits bibliques circulaient, mêlés à des légendes. Mahomet va grandir dans ce monde-là."
+     "texte": "L'islam est né au septième siècle, en Arabie, dans un pays de tribus et de caravanes. À La Mecque, la Kaaba était un lieu de culte rempli d'idoles, et le pèlerinage existait déjà. Le nom « Allah » était connu : les païens l'utilisaient pour un dieu supérieur et lointain, et les chrétiens arabes l'utilisaient simplement pour dire « Dieu ». Des juifs et des chrétiens vivaient en Arabie. Mais les chrétiens étaient divisés, et il n'y avait pas de Bible en arabe. Les histoires de la Bible circulaient de bouche à oreille, mélangées à des légendes. C'est dans ce monde-là que Mahomet va grandir."
     },
     {
-     "sous_titre": "Une attitude pour la suite"
+     "sous_titre": "L'attitude à garder pour la suite"
     },
     {
-     "texte": "Pierre nous donne l'attitude juste : soyez toujours prêts à vous défendre, avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous (1 Pierre 3:15). Paul ajoute : que votre parole soit toujours accompagnée de grâce, assaisonnée de sel (Colossiens 4:6). La vérité et la grâce. Pas l'une sans l'autre."
+     "texte": "Pierre nous donne la bonne attitude : soyez toujours prêts à vous défendre, avec douceur et respect, devant quiconque vous demande raison de l'espérance qui est en vous (1 Pierre 3:15). Et Paul ajoute : que votre parole soit toujours accompagnée de grâce, assaisonnée de sel (Colossiens 4:6). Je le résume en deux mots : la vérité et la grâce. Jamais l'une sans l'autre."
     },
     {
-     "texte": "Dans le prochain enseignement, nous suivrons la vie de Mahomet depuis sa naissance jusqu'à l'expérience de la grotte de Hira, qui va tout changer pour lui et, plus tard, pour une grande partie du monde."
+     "texte": "Dans le prochain enseignement, nous allons suivre la vie de Mahomet, depuis sa naissance jusqu'à ce qui s'est passé dans la grotte de Hira. Cet événement a tout changé pour lui, et plus tard pour une grande partie du monde."
     }
    ]
   }
  ],
  "sujets": [
   {
-   "titre": "Pour les musulmans de mon entourage",
-   "texte": "Prions afin que Dieu ouvre les yeux de nos voisins, collègues et amis musulmans, et qu'ils rencontrent Jésus, le Chemin, la Vérité et la Vie (Jean 14:6)."
+   "titre": "Pour les musulmans autour de moi",
+   "texte": "Prions afin que Dieu ouvre les yeux de nos voisins, de nos collègues et de nos amis musulmans, et qu'ils rencontrent Jésus, le chemin, la vérité et la vie (Jean 14:6)."
   },
   {
    "titre": "Pour l'Église",
-   "texte": "Prions afin que l'Église ne soit plus silencieuse ni divisée devant les musulmans, mais qu'elle annonce l'Évangile avec unité et amour (Jean 17:21)."
+   "texte": "Prions afin que l'Église ne soit plus silencieuse ni divisée devant les musulmans, mais qu'elle annonce l'Évangile avec unité et avec amour (Jean 17:21)."
   },
   {
    "titre": "Pour moi",
-   "texte": "Prions afin que Dieu ôte de mon cœur la peur et le mépris, et me donne l'amour et l'assurance pour parler de Jésus (2 Timothée 1:7)."
+   "texte": "Prions afin que Dieu enlève de mon cœur la peur et le mépris, et qu'il me donne l'amour et l'assurance pour parler de Jésus (2 Timothée 1:7)."
   }
  ],
  "questions": [
@@ -366,7 +420,7 @@
     "La loi"
    ],
    "reponse": 1,
-   "explication": "Le mot Coran veut dire « récitation » : le texte a d'abord vécu dans la mémoire et dans la bouche.",
+   "explication": "Le Coran a d'abord vécu dans la mémoire et dans la bouche des gens.",
    "section": "8"
   },
   {
@@ -377,11 +431,11 @@
     "Les Himyarites"
    ],
    "reponse": 1,
-   "explication": "La tribu de Quraych gardait le sanctuaire ; Mahomet était de cette tribu.",
+   "explication": "Mahomet était de la tribu de Quraych.",
    "section": "1"
   },
   {
-   "question": "Combien d'idoles les sources musulmanes comptent-elles autour de la Kaaba au moment de la conquête de La Mecque ?",
+   "question": "Combien d'idoles y avait-il autour de la Kaaba quand Mahomet a pris La Mecque, selon les livres musulmans ?",
    "choix": [
     "12",
     "70",
@@ -392,29 +446,29 @@
    "section": "2"
   },
   {
-   "question": "Le nom « Allah » était-il connu avant Mahomet ?",
+   "question": "Est-ce que le nom « Allah » était connu avant Mahomet ?",
    "choix": [
     "Oui, chez les païens et chez les chrétiens arabes",
     "Non, Mahomet l'a inventé",
     "Seulement chez les juifs"
    ],
    "reponse": 0,
-   "explication": "Le père de Mahomet s'appelait Abdallah, « serviteur d'Allah », et les chrétiens arabes disent Allah pour « Dieu ».",
+   "explication": "Le père de Mahomet s'appelait Abdallah, ce qui veut dire « serviteur d'Allah ».",
    "section": "3"
   },
   {
-   "question": "Pourquoi beaucoup d'Arabes connaissaient-ils mal la Bible ?",
+   "question": "Pourquoi est-ce que beaucoup d'Arabes connaissaient mal la Bible ?",
    "choix": [
     "Parce qu'ils refusaient de lire",
-    "Parce qu'il n'y avait pas de Bible en arabe et que des légendes circulaient",
+    "Parce qu'il n'y avait pas de Bible en arabe, et que des légendes circulaient",
     "Parce que la Bible était interdite"
    ],
    "reponse": 1,
-   "explication": "Les histoires bibliques circulaient oralement, mêlées à des récits apocryphes.",
+   "explication": "Les histoires de la Bible circulaient de bouche à oreille, mélangées à des récits apocryphes.",
    "section": "5"
   },
   {
-   "question": "Quelle attitude Pierre demande-t-il pour répondre de notre espérance ?",
+   "question": "Quelle attitude est-ce que Pierre demande quand nous parlons de notre espérance ?",
    "choix": [
     "La colère",
     "Le silence",
@@ -426,9 +480,9 @@
   }
  ],
  "devoir": [
-  "Lis Actes 17:16-34 et note comment Paul parle à des gens qui adorent des idoles.",
+  "Lis Actes 17:16-34. Note comment Paul parle à des gens qui adorent des idoles.",
   "Écris les noms de trois musulmans que tu connais, et prie pour eux chaque jour de cette semaine.",
-  "Demande-toi honnêtement : ai-je déjà parlé de Jésus à un musulman ? Si non, qu'est-ce qui m'en a empêché ?"
+  "Pose-toi honnêtement cette question : est-ce que j'ai déjà parlé de Jésus à un musulman ? Si ce n'est pas le cas, qu'est-ce qui m'en a empêché ?"
  ],
  "prieres_liees": [],
  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
