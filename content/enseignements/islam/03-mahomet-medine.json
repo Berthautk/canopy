@@ -4,18 +4,18 @@
  "serie": "L'islam de A à Z",
  "theme": "Islam",
  "auteur": "Yeshaya",
- "resume": "Treize ans de prédication à La Mecque, les moqueries et la persécution, la fuite des premiers musulmans chez un roi chrétien, l'épisode des « versets sataniques », le voyage nocturne, puis l'Hégire vers Médine en 622. À Médine, le prédicateur devient chef d'État et chef de guerre : attaques de caravanes, batailles de Badr, d'Ouhoud et du Fossé, et le sort tragique des tribus juives. Les faits, d'après les sources musulmanes, et le regard de l'Évangile.",
+ "resume": "Mahomet a prêché treize ans à La Mecque. Il a connu les moqueries et la persécution. Ses premiers fidèles se sont réfugiés chez un roi chrétien. Puis il y a eu le voyage de nuit, et le grand départ vers Médine, en l'an 622. À Médine, le prédicateur devient chef de la ville et chef de guerre : attaques de caravanes, batailles de Badr, d'Ouhoud et du Fossé, et le sort tragique des tribus juives. Cet enseignement raconte les faits, d'après les livres des musulmans, et les regarde à la lumière de l'Évangile.",
  "image": "/assets/lieux-bibliques/ruines-antiques.webp",
  "verset_de_base": "Mt 26:52",
- "lecture_minutes": 27,
+ "lecture_minutes": 31,
  "objectifs": [
-  "Connaître la prédication de Mahomet à La Mecque et la persécution des premiers musulmans.",
-  "Savoir ce que rapportent les sources anciennes sur les « versets sataniques ».",
-  "Comprendre l'importance de l'Hégire et du changement qui se produit à Médine.",
+  "Connaître la prédication de Mahomet à La Mecque, et la persécution des premiers musulmans.",
+  "Savoir ce que racontent les livres anciens sur les « versets sataniques ».",
+  "Comprendre pourquoi le départ vers Médine est si important, et ce qui change là-bas.",
   "Connaître les grandes batailles et le sort des tribus juives de Médine.",
-  "Comparer le chemin de Mahomet avec celui de Jésus face à ses ennemis."
+  "Comparer le chemin de Mahomet avec le chemin de Jésus face à leurs ennemis."
  ],
- "introduction": "Il y a deux grandes périodes dans la vie publique de Mahomet. La première, à La Mecque, dure environ treize ans : il est un prédicateur persécuté, entouré d'une petite communauté souvent méprisée. La seconde, à Médine, dure environ dix ans : il devient chef d'une communauté, législateur, juge et chef de guerre. Le ton du Coran lui-même change entre ces deux périodes. Les sourates dites « mecquoises » parlent surtout de Dieu, du jugement et des prophètes. Les sourates dites « médinoises » contiennent des lois, des règles de guerre, des instructions sur le butin, le mariage, l'héritage.\n\nComprendre ce passage de La Mecque à Médine est essentiel. Il explique pourquoi deux musulmans peuvent citer le Coran pour défendre des positions opposées : l'un cite les versets de patience de La Mecque, l'autre les versets de combat de Médine. Il explique aussi une grande différence avec Jésus, qui n'a jamais pris l'épée et qui a refusé de devenir roi selon le monde.",
+ "introduction": "La vie publique de Mahomet se divise en deux grandes périodes. Retiens bien ces deux périodes, car elles expliquent beaucoup de choses.\n\nLa première période se passe à La Mecque. Elle dure environ treize ans. Mahomet est un prédicateur persécuté. Il est entouré d'une petite communauté, souvent méprisée.\n\nLa deuxième période se passe à Médine. Elle dure environ dix ans. Là, Mahomet devient le chef d'une communauté. Il fait les lois, il juge, et il dirige l'armée.\n\nLe ton du Coran lui-même change entre ces deux périodes. Les sourates de La Mecque parlent surtout de Dieu, du jugement et des prophètes d'autrefois. Les sourates de Médine contiennent des lois, des règles pour la guerre, des instructions sur le partage des biens pris à l'ennemi, sur le mariage et sur l'héritage.\n\nPourquoi est-ce si important de comprendre ce passage de La Mecque à Médine ? Parce que cela explique une chose que beaucoup de gens ne comprennent pas. Deux musulmans peuvent citer le Coran pour défendre deux idées opposées. L'un cite les versets de patience, venus de La Mecque. L'autre cite les versets de combat, venus de Médine. Et les deux citent le même livre.\n\nCela montre aussi une grande différence avec Jésus. Jésus n'a jamais pris l'épée. Et il a refusé de devenir un roi selon la manière du monde.",
  "sections": [
   {
    "numero": "1",
@@ -26,28 +26,34 @@
    ],
    "blocs": [
     {
-     "sous_titre": "La prédication publique"
+     "sous_titre": "La prédication en public"
     },
     {
-     "texte": "Après environ trois ans de prédication discrète, Mahomet commence à prêcher publiquement, vers 613. Il monte sur la colline de Safa et appelle les clans de Quraych pour les avertir d'un châtiment terrible s'ils continuent d'adorer les idoles. Son propre oncle, Abou Lahab, lui répond avec colère : « Que tu périsses ! Est-ce pour cela que tu nous as rassemblés ? » Le Coran réplique par une sourate entière qui maudit Abou Lahab et sa femme (sourate 111)."
+     "texte": "Pendant environ trois ans, Mahomet a prêché discrètement. Puis, vers l'an 613, il a commencé à prêcher en public. Il est monté sur une colline, la colline de Safa, et il a appelé toutes les familles de la tribu de Quraych. Il les a averties qu'un châtiment terrible viendrait, si elles continuaient à adorer les idoles."
     },
     {
-     "texte": "Au début, les chefs de La Mecque se moquent de lui. Mais quand il commence à attaquer leurs dieux et leurs ancêtres, ils prennent peur : si les idoles sont fausses, que deviendra le pèlerinage, et donc le commerce de la ville ? Ils traitent Mahomet de poète, de sorcier, de possédé, de menteur. Le Coran garde la trace de toutes ces accusations."
+     "texte": "Son propre oncle, Abou Lahab, lui a répondu avec colère : « Que tu périsses ! Est-ce pour cela que tu nous as rassemblés ? » Le Coran a répondu par une sourate entière qui maudit Abou Lahab et sa femme : c'est la sourate 111."
     },
     {
-     "sous_titre": "La persécution des faibles"
+     "texte": "Au début, les chefs de La Mecque se moquaient de lui. Mais quand il a commencé à attaquer leurs dieux et leurs ancêtres, ils ont eu peur. Pourquoi ? Parce qu'ils pensaient : « Si nos idoles sont fausses, que va devenir le pèlerinage ? Et que va devenir notre commerce ? » Alors ils l'ont traité de poète, de sorcier, de possédé et de menteur. Le Coran garde la trace de toutes ces accusations."
     },
     {
-     "texte": "Tant que son oncle Abou Talib le protège, Mahomet lui-même est relativement en sécurité, car toucher à lui serait déclencher une guerre de clans. Mais les musulmans pauvres, et surtout les esclaves, souffrent beaucoup. Le plus célèbre est Bilal, un esclave d'origine africaine, que son maître couchait sous le soleil brûlant avec une grosse pierre sur la poitrine pour le forcer à renier. Il répétait seulement : « Un, un » (Dieu est un). Abou Bakr l'acheta et l'affranchit. Bilal deviendra le premier muezzin de l'islam, celui qui appelle à la prière."
+     "sous_titre": "Les faibles sont persécutés"
     },
     {
-     "texte": "Ces souffrances étaient réelles, et le chrétien n'a pas à les mépriser. Jésus avait dit à ses disciples : si le monde vous hait, sachez qu'il m'a haï avant vous (Jean 15:18). Mais nous verrons comment chacun a répondu à la persécution une fois devenu fort."
+     "texte": "Tant que son oncle Abou Talib le protégeait, Mahomet lui-même était assez en sécurité. Pourquoi ? Parce que toucher à lui aurait provoqué une guerre entre les familles. Mais les musulmans pauvres, et surtout les esclaves, ont beaucoup souffert."
+    },
+    {
+     "texte": "Le plus connu s'appelle Bilal. C'était un esclave d'origine africaine. Son maître le couchait sous le soleil brûlant, avec une grosse pierre sur la poitrine, pour l'obliger à abandonner sa nouvelle foi. Mais Bilal répétait seulement : « Un, un », ce qui voulait dire : Dieu est un. Abou Bakr l'a acheté et l'a libéré. Bilal est devenu le premier muezzin de l'islam, c'est-à-dire celui qui appelle les gens à la prière."
+    },
+    {
+     "texte": "Ces souffrances étaient réelles. Le chrétien ne doit pas les mépriser. Jésus avait dit à ses disciples : si le monde vous hait, sachez qu'il m'a haï avant vous (Jean 15:18). Mais nous allons voir quelque chose d'important : comment chacun a réagi à la persécution, une fois devenu fort."
     },
     {
      "sous_titre": "Le boycott"
     },
     {
-     "texte": "Vers 616, les clans de Quraych décident de boycotter tout le clan de Mahomet, les Banou Hachim : on ne commerce plus avec eux, on ne se marie plus avec eux. Pendant environ trois ans, ils vivent à l'écart, dans une vallée, dans la pauvreté et parfois la faim. Le boycott finit par être levé, mais il a épuisé tout le monde."
+     "texte": "Vers l'an 616, les familles de Quraych ont décidé de boycotter toute la famille de Mahomet, les Banou Hachim. Qu'est-ce que cela veut dire, boycotter ? Cela veut dire qu'on ne faisait plus de commerce avec eux, et qu'on ne se mariait plus avec eux. Pendant environ trois ans, ils ont vécu à l'écart, dans une vallée, dans la pauvreté, et parfois dans la faim. Le boycott a fini par être levé, mais il avait épuisé tout le monde."
     }
    ]
   },
@@ -60,59 +66,71 @@
    ],
    "blocs": [
     {
-     "sous_titre": "L'Abyssinie"
+     "sous_titre": "L'Éthiopie"
     },
     {
-     "texte": "Vers 615, pour protéger ses fidèles les plus menacés, Mahomet leur conseille de partir en Abyssinie, l'Éthiopie d'aujourd'hui, de l'autre côté de la mer Rouge. Il dit, selon Ibn Ishaq, qu'il y règne un roi chez qui personne n'est opprimé. Ce roi, le Négus, était chrétien. Une centaine de musulmans y trouvent refuge, parmi lesquels Othman, futur troisième calife, et sa femme Ruqayya, fille de Mahomet."
+     "texte": "Vers l'an 615, pour protéger ses fidèles les plus menacés, Mahomet leur a conseillé de partir en Abyssinie, c'est-à-dire l'Éthiopie d'aujourd'hui, de l'autre côté de la mer Rouge. Selon Ibn Ishaq, il a dit : « Là-bas règne un roi chez qui personne n'est opprimé. » Ce roi, qu'on appelait le Négus, était chrétien. Une centaine de musulmans ont trouvé refuge chez lui. Parmi eux, il y avait Othman, qui deviendra plus tard le troisième chef des musulmans, et sa femme Ruqayya, la fille de Mahomet."
     },
     {
-     "sous_titre": "Les paroles sur Marie"
+     "sous_titre": "Ce qu'ils ont dit de Marie"
     },
     {
-     "texte": "Ibn Ishaq rapporte que les gens de La Mecque envoyèrent des ambassadeurs pour demander au Négus de leur livrer les réfugiés. Le roi convoqua les musulmans et leur demanda ce qu'ils disaient de Jésus. Leur porte-parole récita le début de la sourate 19, qui raconte la naissance de Jean-Baptiste et la naissance miraculeuse de Jésus de la vierge Marie. Le Négus, ému, dit que cela venait de la même source que l'Évangile, et refusa de livrer les réfugiés."
+     "texte": "Ibn Ishaq raconte la suite. Les gens de La Mecque ont envoyé des messagers au Négus pour lui demander de leur rendre les réfugiés. Le roi a appelé les musulmans, et il leur a demandé : « Que dites-vous de Jésus ? » Leur porte-parole a récité le début de la sourate 19. Cette sourate raconte la naissance de Jean-Baptiste, et la naissance miraculeuse de Jésus de la vierge Marie. Le Négus a été touché. Il a dit que cela venait de la même source que l'Évangile, et il a refusé de rendre les réfugiés."
     },
     {
-     "texte": "Ce récit montre deux choses. D'abord, l'hospitalité d'un roi chrétien a sauvé les premiers musulmans : c'est un beau témoignage de ce que la Bible demande, accueillir l'étranger (Matthieu 25:35). Ensuite, les musulmans ont choisi, devant un chrétien, de réciter ce qui, dans leur message, était le plus proche de l'Évangile : la naissance virginale de Jésus. Ils n'ont pas récité ce que le Coran dira plus tard contre la divinité de Jésus et contre sa crucifixion."
+     "texte": "Ce récit nous montre deux choses."
+    },
+    {
+     "texte": "Première chose : c'est l'hospitalité d'un roi chrétien qui a sauvé les premiers musulmans. C'est un beau témoignage de ce que la Bible demande : accueillir l'étranger (Matthieu 25:35)."
+    },
+    {
+     "texte": "Deuxième chose : devant ce roi chrétien, les musulmans ont choisi de réciter ce qui, dans leur message, était le plus proche de l'Évangile : la naissance de Jésus d'une vierge. Ils n'ont pas récité ce que le Coran dira plus tard contre la divinité de Jésus et contre sa mort sur la croix. En d'autres termes, ils ont montré au roi la partie qui lui plairait."
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "L'épisode des « versets sataniques »",
+   "titre": "Les « versets sataniques »",
    "references": [
     "2 Co 11:14",
     "Ga 1:8"
    ],
    "blocs": [
     {
-     "sous_titre": "Ce que rapportent les historiens anciens"
+     "sous_titre": "Ce que racontent les historiens anciens"
     },
     {
-     "texte": "Voici un épisode que les musulmans d'aujourd'hui rejettent souvent, mais qui est rapporté par plusieurs des plus anciens historiens musulmans : Ibn Ishaq (dans la partie de son œuvre conservée par Tabari), Ibn Saad, Al-Waqidi et Tabari lui-même. Ces auteurs étaient des musulmans croyants ; ils n'avaient aucun intérêt à inventer une histoire gênante pour leur prophète."
+     "texte": "Nous avons déjà parlé de cet épisode dans l'enseignement sur les symboles de l'islam. Rappelons-le brièvement, car il se place à cette période de La Mecque."
     },
     {
-     "texte": "Selon ce récit, Mahomet désirait ardemment que son peuple se rapproche de lui. Un jour, alors qu'il récitait devant les gens de Quraych la sourate 53, qui mentionne les trois déesses Al-Lat, Al-Ouzza et Manat (versets 19 et 20), il ajouta des paroles disant à peu près : « Ce sont les sublimes déesses, et leur intercession est espérée ». Les païens furent ravis et se prosternèrent avec les musulmans. Puis, toujours selon ce récit, Gabriel vint reprocher à Mahomet d'avoir récité des paroles qu'il ne lui avait pas apportées : c'était Satan qui les avait placées sur sa langue. Ces paroles furent retirées et remplacées par le texte actuel, qui se moque de ces déesses."
+     "texte": "Plusieurs des plus anciens historiens musulmans racontent que Mahomet désirait beaucoup que son peuple se rapproche de lui. Ces historiens s'appellent Ibn Ishaq, Ibn Saad, al-Waqidi et Tabari. C'étaient des musulmans croyants. Ils n'avaient aucun intérêt à inventer une histoire gênante pour leur prophète."
     },
     {
-     "sous_titre": "Un verset qui semble y faire écho"
+     "texte": "Voici ce qu'ils racontent. Un jour, Mahomet récitait la sourate 53, qui nomme les trois déesses de La Mecque. Et il aurait ajouté des paroles qui disaient à peu près : « Ce sont les sublimes déesses, et on peut espérer qu'elles prient pour nous. » Les païens étaient ravis, et ils se sont prosternés avec les musulmans. Ensuite, Gabriel serait venu reprocher à Mahomet d'avoir récité des paroles qu'il ne lui avait pas apportées. C'est Satan qui les avait mises sur sa langue. Alors ces paroles ont été retirées, et remplacées par le texte que nous lisons aujourd'hui."
     },
     {
-     "texte": "Le Coran contient un verset qui semble répondre à cet épisode : « Nous n'avons envoyé avant toi ni messager ni prophète sans que Satan n'intervienne dans sa récitation lorsqu'il récitait ; mais Allah abroge ce que Satan suggère, puis Allah consolide ses versets » (sourate 22, verset 52)."
+     "sous_titre": "Un verset qui semble en parler"
     },
     {
-     "sous_titre": "Comment en parler"
+     "texte": "Le Coran contient un verset qui semble répondre à cet épisode. Il dit : nous n'avons envoyé avant toi ni messager ni prophète sans que Satan n'intervienne dans sa récitation lorsqu'il récitait ; mais Allah abroge ce que Satan suggère, puis Allah consolide ses versets (sourate 22, verset 52)."
     },
     {
-     "texte": "Beaucoup de savants musulmans, surtout à partir du Moyen Âge, ont rejeté cette histoire comme non authentique, parce qu'elle leur paraît impossible : un prophète ne peut pas confondre la parole de Satan avec celle de Dieu. D'autres, parmi les anciens, l'ont acceptée. Le chrétien doit donc être honnête : il peut dire que ce récit est rapporté par des sources musulmanes anciennes et sérieuses, et que le Coran lui-même reconnaît que Satan peut intervenir dans la récitation d'un prophète. Mais il ne doit pas présenter cette histoire comme si tous les musulmans l'acceptaient."
+     "sous_titre": "Comment en parler honnêtement"
     },
     {
-     "texte": "La question qui reste est grave : si Satan a pu, ne serait-ce qu'une fois, glisser ses paroles dans la récitation de Mahomet sans qu'il s'en aperçoive sur le moment, comment être sûr que d'autres paroles ne sont pas venues de la même source ? La Bible nous rappelle que Satan se déguise en ange de lumière (2 Corinthiens 11:14), et que tout message qui contredit l'Évangile reçu doit être rejeté, même s'il vient d'un ange (Galates 1:8)."
+     "texte": "Beaucoup de savants musulmans, surtout à partir du Moyen Âge, ont rejeté cette histoire. Ils disent qu'elle est impossible, parce qu'un prophète ne peut pas confondre la parole de Satan avec la parole de Dieu. Mais d'autres savants, parmi les anciens, l'ont acceptée."
+    },
+    {
+     "texte": "Le chrétien doit donc être honnête. Il peut dire : « Ce récit se trouve chez des historiens musulmans anciens et sérieux. Et le Coran lui-même reconnaît que Satan peut intervenir dans la récitation d'un prophète. » Mais il ne doit pas dire que tous les musulmans acceptent cette histoire."
+    },
+    {
+     "texte": "Il reste une question grave. Si Satan a pu, même une seule fois, mettre ses paroles dans la bouche de Mahomet, sans que Mahomet s'en rende compte sur le moment, comment être sûr que d'autres paroles ne sont pas venues de la même source ? La Bible nous rappelle que Satan se déguise en ange de lumière (2 Corinthiens 11:14). Et elle dit que tout message qui contredit l'Évangile doit être rejeté, même s'il vient d'un ange (Galates 1:8)."
     }
    ]
   },
   {
    "numero": "4",
-   "titre": "L'année de la tristesse et le voyage nocturne",
+   "titre": "L'année de la tristesse et le voyage de nuit",
    "references": [
     "Ps 34:19",
     "2 Co 12:2-4"
@@ -122,31 +140,43 @@
      "sous_titre": "Deux morts"
     },
     {
-     "texte": "Vers 619, deux grands malheurs frappent Mahomet. Khadija, sa femme et sa première croyante, meurt. Puis Abou Talib, son oncle protecteur, meurt aussi, sans s'être converti. Les musulmans appellent cette année « l'année de la tristesse ». Sans la protection de son oncle, Mahomet devient vulnérable. Il tente de prêcher dans la ville voisine de Taïf, mais il en est chassé à coups de pierres par les enfants et les esclaves de la ville."
+     "texte": "Vers l'an 619, deux grands malheurs frappent Mahomet. Khadija, sa femme, la première à avoir cru en lui, meurt. Ensuite, Abou Talib, son oncle protecteur, meurt aussi, sans être devenu musulman. Les musulmans appellent cette année « l'année de la tristesse »."
     },
     {
-     "sous_titre": "Le voyage nocturne"
+     "texte": "Sans la protection de son oncle, Mahomet devient fragile. Il essaie de prêcher dans une ville voisine, Taïf. Mais là, les enfants et les esclaves de la ville le chassent en lui jetant des pierres."
     },
     {
-     "texte": "C'est à cette période que la tradition place un événement très important pour les musulmans : le voyage nocturne et l'ascension. Le Coran y fait allusion en une seule phrase : gloire à celui qui a fait voyager de nuit son serviteur de la Mosquée sacrée à la Mosquée lointaine (sourate 17, verset 1). Les hadiths racontent les détails : une nuit, Mahomet est transporté de La Mecque à Jérusalem sur une monture blanche ailée appelée Bouraq, plus grande qu'un âne et plus petite qu'un mulet. Là, il prie avec les prophètes. Puis il monte à travers les sept cieux, rencontrant Adam, Jésus et Jean, Joseph, Idris, Aaron, Moïse et Abraham."
+     "sous_titre": "Le voyage de nuit"
     },
     {
-     "texte": "Selon Boukhari, Allah lui impose d'abord cinquante prières par jour. En redescendant, Moïse lui conseille de demander une réduction, car son peuple ne pourra pas supporter cela. Mahomet remonte plusieurs fois, et le nombre est réduit à cinq (Boukhari, hadith 349). C'est l'origine des cinq prières quotidiennes."
+     "texte": "C'est à cette période que la tradition place un événement très important pour les musulmans : le voyage de nuit, et la montée au ciel. Le Coran en parle en une seule phrase : gloire à celui qui a fait voyager de nuit son serviteur de la Mosquée sacrée à la Mosquée lointaine (sourate 17, verset 1)."
+    },
+    {
+     "texte": "Les hadiths racontent les détails. Une nuit, Mahomet aurait été transporté de La Mecque à Jérusalem, sur un animal blanc avec des ailes, appelé Bouraq. Il était plus grand qu'un âne et plus petit qu'un mulet. À Jérusalem, Mahomet aurait prié avec les prophètes. Puis il serait monté à travers sept cieux. Il y aurait rencontré Adam, Jésus et Jean-Baptiste, Joseph, Idris, Aaron, Moïse et Abraham."
+    },
+    {
+     "texte": "Selon Boukhari, Allah lui a d'abord demandé cinquante prières par jour. En redescendant, Mahomet a rencontré Moïse. Moïse lui a conseillé de demander une réduction, parce que son peuple ne pourrait pas supporter autant de prières. Mahomet est remonté plusieurs fois, et le nombre a été réduit jusqu'à cinq (Boukhari, hadith 349). C'est l'origine des cinq prières de chaque jour."
     },
     {
      "sous_titre": "Quelques remarques"
     },
     {
-     "texte": "Il faut savoir qu'au moment où se situe ce voyage, il n'y avait pas de mosquée à Jérusalem : le temple juif avait été détruit par les Romains en l'an 70, et la mosquée Al-Aqsa ne sera construite que des décennies après la mort de Mahomet. Les musulmans expliquent que « la Mosquée lointaine » désigne le lieu du temple. Notons aussi qu'Aïcha, selon certaines traditions, disait que le corps du prophète n'avait pas quitté la maison cette nuit-là, ce qui fait de ce voyage une vision plutôt qu'un déplacement physique ; la majorité des musulmans croient pourtant à un voyage corporel."
+     "texte": "Il faut savoir une chose. Au moment où se place ce voyage, il n'y avait pas de mosquée à Jérusalem. Le temple juif avait été détruit par les Romains en l'an 70. Et la mosquée Al-Aqsa n'a été construite que des dizaines d'années après la mort de Mahomet. Les musulmans expliquent que « la Mosquée lointaine » désigne l'endroit où se trouvait le temple."
     },
     {
-     "texte": "Le chrétien peut aussi remarquer, sans moquerie, qu'il est étrange que ce soit Moïse, le prophète d'une autre alliance, qui doive négocier avec Dieu pour alléger la charge des musulmans. Paul aussi a été ravi jusqu'au troisième ciel (2 Corinthiens 12:2-4), mais il en a gardé le silence et n'en a pas fait le fondement de sa foi. Le fondement de la foi chrétienne, ce n'est pas un voyage céleste, c'est un tombeau vide."
+     "texte": "Il faut savoir aussi que, selon certaines traditions, Aïcha disait que le corps de Mahomet n'avait pas quitté la maison cette nuit-là. Si c'est vrai, ce voyage serait une vision, et non un vrai déplacement. Mais la plupart des musulmans croient qu'il s'agit d'un vrai voyage, avec le corps."
+    },
+    {
+     "texte": "Le chrétien peut aussi remarquer une chose, sans se moquer. N'est-il pas étrange que ce soit Moïse, le prophète d'une autre alliance, qui doive négocier avec Dieu pour alléger la charge des musulmans ?"
+    },
+    {
+     "texte": "L'apôtre Paul, lui aussi, a été enlevé jusqu'au troisième ciel (2 Corinthiens 12:2-4). Mais il en a très peu parlé, et il n'a pas fait de cette expérience le fondement de sa foi. Je le redis clairement : le fondement de la foi chrétienne, ce n'est pas un voyage au ciel. C'est une tombe vide."
     }
    ]
   },
   {
    "numero": "5",
-   "titre": "L'Hégire : le grand tournant de 622",
+   "titre": "Le départ vers Médine : le grand tournant de l'an 622",
    "references": [
     "Lc 9:51-56",
     "Jn 18:36"
@@ -156,22 +186,31 @@
      "sous_titre": "Les gens de Yathrib"
     },
     {
-     "texte": "Pendant les pèlerinages, Mahomet rencontre des hommes venus de Yathrib, une oasis à environ quatre cents kilomètres au nord. Yathrib est déchirée par des guerres entre deux tribus arabes, les Aws et les Khazraj, et compte aussi trois tribus juives. Ces hommes ont entendu leurs voisins juifs parler d'un prophète à venir. Ils voient en Mahomet un arbitre possible et un envoyé de Dieu. En 621 et 622, lors de deux rencontres à Aqaba, près de La Mecque, ils lui prêtent serment. Lors du second serment, ils s'engagent à le défendre comme ils défendraient leurs femmes et leurs enfants, c'est-à-dire par les armes."
+     "texte": "Pendant les pèlerinages, Mahomet a rencontré des hommes venus de Yathrib. C'est une oasis à environ quatre cents kilomètres au nord de La Mecque. Yathrib était déchirée par des guerres entre deux tribus arabes. Il y avait aussi trois tribus juives. Ces hommes avaient entendu leurs voisins juifs parler d'un prophète qui devait venir. Ils ont vu en Mahomet un juge qui pourrait ramener la paix, et un envoyé de Dieu."
+    },
+    {
+     "texte": "En 621 et en 622, ils l'ont rencontré deux fois, en secret, près de La Mecque. Ils lui ont fait un serment. La deuxième fois, ils ont promis de le défendre comme ils défendraient leurs femmes et leurs enfants. En d'autres termes, ils ont promis de le défendre avec les armes."
     },
     {
      "sous_titre": "La fuite"
     },
     {
-     "texte": "Les musulmans de La Mecque partent discrètement, par petits groupes, vers Yathrib. Mahomet part le dernier avec Abou Bakr, en septembre 622, en se cachant trois jours dans une grotte pour échapper à ceux qui le poursuivent. Cette migration s'appelle l'Hégire (« hijra »). Elle est si importante que le calendrier musulman commence avec elle : l'an 1 de l'Hégire correspond à l'an 622 de notre ère. Yathrib prend le nom de « Madinat an-Nabi », la ville du prophète, d'où vient « Médine »."
+     "texte": "Les musulmans de La Mecque sont partis discrètement, par petits groupes, vers Yathrib. Mahomet est parti le dernier, avec Abou Bakr, en septembre 622. Ils se sont cachés trois jours dans une grotte pour échapper à ceux qui les poursuivaient."
+    },
+    {
+     "texte": "Ce départ s'appelle l'Hégire. Il est si important que le calendrier musulman commence avec lui. L'an 1 des musulmans correspond à l'an 622 de notre calendrier. Et la ville de Yathrib a pris un nouveau nom : « la ville du prophète », en arabe « Madinat an-Nabi ». C'est de là que vient le nom de Médine."
     },
     {
      "sous_titre": "Pourquoi c'est un tournant"
     },
     {
-     "texte": "Pourquoi l'islam ne commence-t-il pas son calendrier avec la naissance de Mahomet, ni avec la première révélation, mais avec l'Hégire ? Parce que c'est à Médine que l'islam devient une communauté organisée, avec un territoire, un chef, des lois et une armée. En d'autres termes, l'islam se comprend lui-même, dès le départ, comme une foi et un pouvoir politique à la fois."
+     "texte": "Posons-nous une question. Pourquoi est-ce que le calendrier musulman ne commence pas à la naissance de Mahomet ? Pourquoi ne commence-t-il pas à sa première révélation ? Pourquoi commence-t-il au départ vers Médine ?"
     },
     {
-     "texte": "Jésus a fait le chemin inverse. Quand la foule voulut le faire roi, il se retira seul sur la montagne (Jean 6:15). Devant Pilate, il déclara : mon royaume n'est pas de ce monde ; si mon royaume était de ce monde, mes serviteurs auraient combattu pour moi (Jean 18:36). Quand ses disciples voulurent faire descendre le feu du ciel sur un village samaritain qui ne les recevait pas, Jésus se retourna et les réprimanda (Luc 9:54-55)."
+     "texte": "La réponse est simple. C'est à Médine que l'islam devient une communauté organisée, avec un territoire, un chef, des lois et une armée. Autrement dit, dès le départ, l'islam se comprend lui-même comme une foi et comme un pouvoir politique en même temps."
+    },
+    {
+     "texte": "Jésus a fait le chemin inverse. Quand la foule a voulu le faire roi, il s'est retiré seul sur la montagne (Jean 6:15). Devant le gouverneur Pilate, il a dit : mon royaume n'est pas de ce monde ; si mon royaume était de ce monde, mes serviteurs auraient combattu pour moi (Jean 18:36). Et quand ses disciples ont voulu faire descendre le feu du ciel sur un village qui ne voulait pas les recevoir, Jésus s'est retourné et les a réprimandés (Luc 9:54-55)."
     },
     {
      "verset": "Jn 18:36"
@@ -180,7 +219,7 @@
   },
   {
    "numero": "6",
-   "titre": "Médine : le prophète devient chef",
+   "titre": "À Médine, le prophète devient chef",
    "references": [
     "Jn 6:15",
     "Mc 10:42-45"
@@ -190,19 +229,22 @@
      "sous_titre": "Une ville organisée autour de lui"
     },
     {
-     "texte": "À Médine, Mahomet construit une mosquée, qui est aussi sa maison et le centre du pouvoir. Il établit un pacte entre les musulmans venus de La Mecque, les musulmans de Médine et les tribus juives, que l'on appelle souvent « la constitution de Médine ». Les juifs y gardent leur religion, mais doivent rester loyaux et participer à la défense de la ville. Mahomet devient l'arbitre suprême de tous les conflits."
+     "texte": "À Médine, Mahomet construit une mosquée. Cette mosquée est aussi sa maison, et le centre du pouvoir. Il établit un accord entre les musulmans venus de La Mecque, les musulmans de Médine et les tribus juives. On appelle souvent cet accord « la constitution de Médine ». Les juifs peuvent garder leur religion, mais ils doivent rester fidèles et participer à la défense de la ville. Et Mahomet devient le juge suprême de tous les conflits."
     },
     {
      "sous_titre": "Le changement de direction de la prière"
     },
     {
-     "texte": "Au début, les musulmans priaient tournés vers Jérusalem, comme les juifs. Mahomet espérait que les juifs de Médine le reconnaîtraient comme prophète. Mais les juifs, qui connaissaient leurs Écritures, refusèrent : pour eux, le Messie et les prophètes devaient venir d'Israël, et le message de Mahomet ne correspondait pas à la Loi et aux Prophètes. Environ seize ou dix-sept mois après l'Hégire, une révélation ordonna de prier désormais en direction de la Kaaba de La Mecque (sourate 2, versets 142 à 144 ; Boukhari, hadith 40). À partir de là, le Coran devient de plus en plus sévère envers les juifs."
+     "texte": "Au début, les musulmans priaient tournés vers Jérusalem, comme les juifs. Mahomet espérait que les juifs de Médine le reconnaîtraient comme prophète. Mais les juifs connaissaient leurs Écritures, et ils ont refusé. Pour eux, les prophètes devaient venir d'Israël, et le message de Mahomet ne correspondait pas à la Loi et aux Prophètes."
+    },
+    {
+     "texte": "Environ seize ou dix-sept mois après l'arrivée à Médine, une nouvelle révélation a ordonné de prier désormais en direction de la Kaaba, à La Mecque (sourate 2, versets 142 à 144 ; Boukhari, hadith 40). À partir de ce moment, le Coran devient de plus en plus sévère envers les juifs."
     }
    ]
   },
   {
    "numero": "7",
-   "titre": "Les razzias et les batailles",
+   "titre": "Les attaques et les batailles",
    "references": [
     "Mt 26:52",
     "Rm 12:17-21"
@@ -212,37 +254,49 @@
      "sous_titre": "Les attaques de caravanes"
     },
     {
-     "texte": "Les musulmans de La Mecque arrivés à Médine sont pauvres : ils ont tout laissé derrière eux. Mahomet organise alors des expéditions pour attaquer les caravanes de Quraych qui passent près de Médine sur la route de la Syrie. C'est la pratique arabe de la razzia, mais menée désormais au nom de la religion. Lors de l'une de ces attaques, à Nakhla, des musulmans tuent un homme et prennent du butin pendant un des mois sacrés, où la guerre était interdite chez les Arabes. Cela fait scandale. Un verset vient alors justifier le combat : combattre pendant le mois sacré est grave, mais faire obstacle au chemin d'Allah et chasser les croyants est plus grave encore (sourate 2, verset 217)."
+     "texte": "Les musulmans venus de La Mecque étaient pauvres à Médine, parce qu'ils avaient tout laissé derrière eux. Alors Mahomet a organisé des expéditions pour attaquer les caravanes de Quraych, qui passaient près de Médine sur la route de la Syrie. C'était la vieille pratique arabe des razzias, ces attaques pour voler les biens des autres. Mais maintenant, on les faisait au nom de la religion."
+    },
+    {
+     "texte": "Pendant une de ces attaques, à un endroit appelé Nakhla, des musulmans ont tué un homme et pris des biens pendant un des mois sacrés. Or, chez les Arabes, la guerre était interdite pendant ces mois. Cela a fait scandale. Alors un verset est venu justifier ce combat. Il dit : combattre pendant le mois sacré est grave, mais faire obstacle au chemin d'Allah et chasser les croyants est plus grave encore (sourate 2, verset 217)."
     },
     {
      "sous_titre": "Badr, la victoire"
     },
     {
-     "texte": "En 624, Mahomet part attaquer une grande caravane. Les Mecquois envoient une armée pour la protéger. Les deux troupes se rencontrent aux puits de Badr. Les musulmans, environ trois cents, battent les Mecquois, trois fois plus nombreux. Pour les musulmans, cette victoire est un signe divin : le Coran dit que des anges ont combattu avec eux (sourate 8, versets 9 à 12). Le butin est partagé ; une sourate entière, « le butin » (sourate 8), règle ces questions. Des prisonniers sont rançonnés ; quelques-uns, parmi les ennemis les plus acharnés de Mahomet, sont exécutés."
+     "texte": "En 624, Mahomet est parti attaquer une grande caravane. Les gens de La Mecque ont envoyé une armée pour la protéger. Les deux groupes se sont rencontrés près des puits de Badr. Les musulmans, environ trois cents, ont battu les Mecquois, qui étaient trois fois plus nombreux."
+    },
+    {
+     "texte": "Pour les musulmans, cette victoire est un signe de Dieu. Le Coran dit que des anges ont combattu avec eux (sourate 8, versets 9 à 12). Les biens pris à l'ennemi ont été partagés. Une sourate entière, la sourate 8, qui s'appelle « le butin », règle ces questions. Des prisonniers ont été libérés contre de l'argent. Quelques-uns, parmi les pires ennemis de Mahomet, ont été exécutés."
     },
     {
      "sous_titre": "Ouhoud, la défaite"
     },
     {
-     "texte": "En 625, les Mecquois reviennent avec une armée de trois mille hommes. La bataille a lieu au pied du mont Ouhoud, près de Médine. Les archers musulmans quittent leur poste pour ramasser le butin, et la victoire se change en défaite. Mahomet est blessé, une dent cassée, et beaucoup de musulmans meurent, dont son oncle Hamza."
+     "texte": "En 625, les gens de La Mecque sont revenus avec une armée de trois mille hommes. La bataille a eu lieu au pied du mont Ouhoud, près de Médine. Les archers musulmans ont quitté leur poste pour ramasser les biens de l'ennemi. Et la victoire s'est transformée en défaite. Mahomet a été blessé, il a eu une dent cassée. Beaucoup de musulmans sont morts, dont son oncle Hamza."
     },
     {
      "sous_titre": "Le Fossé"
     },
     {
-     "texte": "En 627, une grande coalition de dix mille hommes vient assiéger Médine. Sur le conseil d'un Persan converti, Salman, les musulmans creusent un fossé autour de la partie ouverte de la ville. Les assaillants ne parviennent pas à le franchir et, après plusieurs semaines, découragés par le mauvais temps et les divisions, ils repartent."
+     "texte": "En 627, une grande alliance de dix mille hommes est venue encercler Médine. Un Persan devenu musulman, qui s'appelait Salman, a donné un conseil : creuser un fossé autour de la partie de la ville qui n'était pas protégée. Les attaquants n'ont pas réussi à le traverser. Après plusieurs semaines, fatigués par le mauvais temps et par leurs disputes, ils sont repartis."
     },
     {
      "sous_titre": "Ce que Jésus a dit de l'épée"
     },
     {
-     "texte": "Il ne s'agit pas ici de juger toutes les guerres de l'histoire. Mais le chrétien ne peut pas ne pas comparer. Le jour où on vint arrêter Jésus, Pierre tira l'épée pour le défendre. Jésus lui dit : remets ton épée à sa place ; car tous ceux qui prendront l'épée périront par l'épée (Matthieu 26:52). Et il guérit l'oreille du serviteur blessé (Luc 22:51). Les apôtres, persécutés, n'ont jamais lancé d'expédition contre leurs persécuteurs. Paul écrit : ne vous vengez point vous-mêmes ; si ton ennemi a faim, donne-lui à manger (Romains 12:19-20)."
+     "texte": "Nous ne voulons pas ici juger toutes les guerres de l'histoire. Mais le chrétien ne peut pas s'empêcher de comparer."
+    },
+    {
+     "texte": "Le jour où on est venu arrêter Jésus, Pierre a sorti son épée pour le défendre. Il a coupé l'oreille d'un serviteur. Jésus lui a dit : remets ton épée à sa place ; car tous ceux qui prendront l'épée périront par l'épée (Matthieu 26:52). Et Jésus a guéri l'oreille du serviteur blessé (Luc 22:51)."
     },
     {
      "verset": "Lc 22:51"
     },
     {
      "verset": "Mt 26:52"
+    },
+    {
+     "texte": "Les apôtres ont été persécutés. Mais ils n'ont jamais lancé d'attaque contre ceux qui les persécutaient. Paul écrit : ne vous vengez point vous-mêmes ; si ton ennemi a faim, donne-lui à manger (Romains 12:19-20)."
     }
    ]
   },
@@ -255,28 +309,46 @@
    ],
    "blocs": [
     {
-     "sous_titre": "Les Banou Qaynouqa et les Banou Nadir"
+     "sous_titre": "Deux tribus chassées"
     },
     {
-     "texte": "Après Badr, une querelle éclate avec la tribu juive des Banou Qaynouqa. Mahomet les assiège ; ils se rendent et sont expulsés de Médine, en laissant leurs biens. Après Ouhoud, la tribu des Banou Nadir est accusée d'avoir voulu tuer Mahomet. Assiégés à leur tour, ils sont aussi expulsés ; une partie d'entre eux s'installe à Khaybar. Leurs palmiers sont abattus et leurs terres deviennent la propriété du prophète (sourate 59)."
+     "texte": "Après la victoire de Badr, une dispute a éclaté avec une tribu juive, les Banou Qaynouqa. Mahomet les a encerclés. Ils se sont rendus, et ils ont été chassés de Médine en laissant leurs biens."
     },
     {
-     "sous_titre": "Les poètes assassinés"
+     "texte": "Après la défaite d'Ouhoud, une autre tribu juive, les Banou Nadir, a été accusée d'avoir voulu tuer Mahomet. Ils ont été encerclés à leur tour, et chassés aussi. Une partie d'entre eux est allée s'installer à Khaybar. Leurs palmiers ont été coupés, et leurs terres sont devenues la propriété du prophète (sourate 59)."
     },
     {
-     "texte": "Il faut aussi mentionner que des opposants qui se moquaient de Mahomet dans leurs poèmes furent tués. Boukhari rapporte que Mahomet demanda : « Qui se chargera de Ka'b ibn al-Achraf, car il a offensé Allah et son messager ? » Un compagnon se proposa, obtint la permission de dire des mensonges pour l'approcher, et le tua la nuit (Boukhari, hadith 4037). Ibn Ishaq rapporte aussi l'assassinat d'une femme poète, Asma bint Marwan, et d'un vieil homme poète, Abou Afak. Ces récits expliquent pourquoi, aujourd'hui encore, certains musulmans considèrent que celui qui insulte le prophète mérite la mort."
+     "sous_titre": "Les poètes tués"
+    },
+    {
+     "texte": "Il faut aussi dire que des opposants qui se moquaient de Mahomet dans leurs poèmes ont été tués."
+    },
+    {
+     "texte": "Boukhari raconte que Mahomet a demandé : « Qui va s'occuper de Ka'b ibn al-Achraf, car il a offensé Allah et son messager ? » Un compagnon s'est proposé. Il a obtenu la permission de dire des mensonges pour s'approcher de cet homme. Puis il l'a tué pendant la nuit (Boukhari, hadith 4037). Ibn Ishaq raconte aussi l'assassinat d'une femme poète, Asma bint Marwan, et d'un vieil homme poète, Abou Afak."
+    },
+    {
+     "texte": "Ces récits expliquent pourquoi, aujourd'hui encore, certains musulmans pensent que celui qui insulte le prophète mérite la mort."
     },
     {
      "sous_titre": "Les Banou Qurayza"
     },
     {
-     "texte": "Le drame le plus grave arrive après la bataille du Fossé, en 627. La dernière tribu juive de Médine, les Banou Qurayza, est accusée d'avoir négocié avec les assiégeants. Mahomet assiège leur quartier pendant vingt-cinq jours. Ils se rendent. Mahomet confie le jugement à Saad ibn Mouadh, chef d'une tribu alliée autrefois aux Qurayza. Saad décide que les hommes seront tués et que les femmes et les enfants seront réduits en captivité. Mahomet approuve : « Tu as jugé selon le jugement d'Allah » (Boukhari, hadith 4122). Selon Ibn Ishaq, on creusa des fossés dans le marché de Médine et l'on y décapita les hommes, entre six cents et neuf cents selon les sources. Les garçons qui avaient atteint la puberté furent comptés parmi les hommes. Les femmes et les enfants furent partagés ou vendus."
+     "texte": "Le drame le plus grave est arrivé après la bataille du Fossé, en 627. La dernière tribu juive de Médine s'appelait les Banou Qurayza. On l'a accusée d'avoir discuté avec les ennemis pendant le siège. Mahomet a encerclé leur quartier pendant vingt-cinq jours. Ils se sont rendus."
+    },
+    {
+     "texte": "Mahomet a confié le jugement à un homme appelé Saad ibn Mouadh. Saad a décidé que les hommes seraient tués, et que les femmes et les enfants deviendraient esclaves. Mahomet a approuvé, en disant : « Tu as jugé selon le jugement d'Allah » (Boukhari, hadith 4122)."
+    },
+    {
+     "texte": "Selon Ibn Ishaq, on a creusé des fossés dans le marché de Médine, et on y a coupé la tête des hommes. Ils étaient entre six cents et neuf cents, selon les livres. Les garçons qui avaient déjà atteint la puberté étaient comptés parmi les hommes. Les femmes et les enfants ont été partagés ou vendus."
     },
     {
      "sous_titre": "Le regard de l'Évangile"
     },
     {
-     "texte": "Comment en parler ? Avec tristesse, sans haine. Le chrétien ne cite pas ces faits pour humilier les musulmans d'aujourd'hui, dont la plupart ne connaissent pas ces récits ou les comprennent autrement. Il les cite parce qu'ils posent une question simple : qui est le modèle parfait ? Pour l'islam, c'est Mahomet, dans tous ses actes. Pour le chrétien, c'est Jésus, qui, cloué sur la croix par ses ennemis, a prié : Père, pardonne-leur, car ils ne savent ce qu'ils font (Luc 23:34). Paul, de son côté, aimait tellement son peuple juif, même quand il le persécutait, qu'il aurait voulu être maudit à sa place (Romains 9:3)."
+     "texte": "Comment en parler ? Avec tristesse, mais sans haine. Le chrétien ne cite pas ces faits pour humilier les musulmans d'aujourd'hui. La plupart d'entre eux ne connaissent pas ces récits, ou les comprennent autrement."
+    },
+    {
+     "texte": "Le chrétien cite ces faits parce qu'ils posent une question simple : qui est le modèle parfait ? Pour l'islam, c'est Mahomet, dans tout ce qu'il a fait. Pour le chrétien, c'est Jésus. Jésus, cloué sur la croix par ses ennemis, a prié : Père, pardonne-leur, car ils ne savent ce qu'ils font (Luc 23:34). Et Paul aimait tellement son peuple juif, même quand ce peuple le persécutait, qu'il aurait voulu être maudit à sa place (Romains 9:3)."
     }
    ]
   },
@@ -292,34 +364,49 @@
      "sous_titre": "Les sourates de La Mecque"
     },
     {
-     "texte": "Les sourates révélées à La Mecque sont souvent courtes, poétiques, pleines d'images. Elles parlent de la création, de la puissance de Dieu, des prophètes d'autrefois, du jour du jugement, du paradis et de l'enfer. Elles appellent à la patience devant les moqueries. Par exemple, le Coran dit à Mahomet : endure ce qu'ils disent, et écarte-toi d'eux d'une belle manière (sourate 73, verset 10). Une courte sourate mecquoise se termine par cette phrase célèbre adressée aux païens : à vous votre religion, et à moi ma religion (sourate 109, verset 6). Beaucoup de musulmans pacifiques citent ces versets avec sincérité."
+     "texte": "Les sourates venues de La Mecque sont souvent courtes et poétiques, avec beaucoup d'images. Elles parlent de la création, de la puissance de Dieu, des prophètes d'autrefois, du jour du jugement, du paradis et de l'enfer. Elles appellent à la patience devant les moqueries. Par exemple, le Coran dit à Mahomet : endure ce qu'ils disent, et écarte-toi d'eux d'une belle manière (sourate 73, verset 10). Une petite sourate de La Mecque se termine par cette phrase célèbre, adressée aux païens : à vous votre religion, et à moi ma religion (sourate 109, verset 6). Beaucoup de musulmans pacifiques citent ces versets, et ils sont sincères."
     },
     {
      "sous_titre": "Les sourates de Médine"
     },
     {
-     "texte": "À Médine, le ton change. Les sourates sont plus longues, plus juridiques. Elles règlent la prière, le jeûne, l'aumône, le mariage, le divorce, l'héritage, le butin, la guerre. Elles ordonnent de combattre « jusqu'à ce qu'il n'y ait plus d'association et que la religion soit entièrement à Allah » (sourate 8, verset 39). Elles donnent des instructions de bataille : lorsque vous rencontrez les mécréants, frappez-les au cou (sourate 47, verset 4). Elles parlent durement des juifs et des chrétiens qui ne croient pas au prophète."
+     "texte": "À Médine, le ton change. Les sourates deviennent plus longues, et elles parlent surtout de lois. Elles règlent la prière, le jeûne, l'aumône, le mariage, le divorce, l'héritage, les biens pris à l'ennemi, et la guerre."
+    },
+    {
+     "texte": "Elles ordonnent de combattre « jusqu'à ce qu'il n'y ait plus d'association et que la religion soit entièrement à Allah » (sourate 8, verset 39). Elles donnent des instructions de bataille : lorsque vous rencontrez les mécréants, frappez-les au cou (sourate 47, verset 4). Et elles parlent durement des juifs et des chrétiens qui ne croient pas au prophète."
     },
     {
      "sous_titre": "La règle de l'abrogation"
     },
     {
-     "texte": "Comment les musulmans font-ils quand deux versets semblent se contredire ? Ils ont une règle, fondée sur le Coran lui-même : si nous abrogeons un verset ou le faisons oublier, nous en apportons un meilleur ou un semblable (sourate 2, verset 106). Cela s'appelle l'abrogation (« naskh ») : un verset plus récent peut annuler un verset plus ancien. Or, dans l'ordre chronologique, ce sont souvent les versets de Médine qui sont les plus récents. Beaucoup de savants classiques ont donc enseigné que les versets de patience de La Mecque avaient été remplacés, pour ce qui est des relations avec les non-musulmans, par les versets de combat de Médine. D'autres savants, surtout modernes, refusent cette lecture et insistent sur le contexte de chaque verset. Nous étudierons cela en détail dans l'enseignement sur le djihad."
+     "texte": "Alors, que font les musulmans quand deux versets semblent dire le contraire ? Ils ont une règle, qui vient du Coran lui-même. Le Coran dit : si nous abrogeons un verset ou le faisons oublier, nous en apportons un meilleur ou un semblable (sourate 2, verset 106)."
     },
     {
-     "texte": "Retiens pour l'instant ceci : quand un ami musulman te cite un verset de paix, il est sincère, et tu dois le respecter. Mais quand un groupe extrémiste cite un verset de combat, il ne l'invente pas non plus : il s'appuie sur une autre partie du même livre et sur une règle ancienne d'interprétation. C'est pourquoi le débat sur la violence traverse l'islam lui-même."
+     "texte": "Cette règle s'appelle l'abrogation. Elle veut dire qu'un verset plus récent peut annuler un verset plus ancien. Prenons un exemple simple. Le directeur d'une école affiche une note au tableau : « Les cours commencent à huit heures. » Le lendemain, il affiche une autre note : « Les cours commencent à sept heures. » Quelle note faut-il suivre ? La plus récente."
+    },
+    {
+     "texte": "Or, dans l'ordre du temps, ce sont souvent les versets de Médine qui sont les plus récents. Beaucoup de savants musulmans anciens ont donc enseigné que les versets de patience de La Mecque avaient été remplacés, pour les relations avec les non-musulmans, par les versets de combat de Médine. D'autres savants, surtout aujourd'hui, refusent cette lecture et demandent de regarder le contexte de chaque verset. Nous étudierons cela en détail dans l'enseignement sur le djihad."
+    },
+    {
+     "texte": "Pour l'instant, retiens ceci. Quand un ami musulman te cite un verset de paix, il est sincère, et tu dois le respecter. Mais quand un groupe armé cite un verset de combat, il ne l'invente pas non plus. Il s'appuie sur une autre partie du même livre, et sur une ancienne règle de lecture. C'est pour cela que le débat sur la violence existe à l'intérieur même de l'islam."
     },
     {
      "sous_titre": "La Parole de Dieu ne change pas"
     },
     {
-     "texte": "Le chrétien remarque ici une grande différence. Dans la Bible aussi, il y a une progression : l'ancienne alliance prépare la nouvelle, et certaines lois rituelles de Moïse, comme les sacrifices ou les règles alimentaires, sont accomplies en Christ. Mais cette progression va toujours dans le même sens, vers plus de grâce, et elle est annoncée d'avance par les prophètes (Jérémie 31:31-34). Dieu ne change pas d'avis selon les circonstances de la vie de son messager. Jésus-Christ est le même hier, aujourd'hui, et éternellement (Hébreux 13:8). Toute l'Écriture est inspirée de Dieu, et utile pour enseigner (2 Timothée 3:16)."
+     "texte": "Le chrétien remarque ici une grande différence. Dans la Bible aussi, il y a un chemin, une progression. L'ancienne alliance prépare la nouvelle. Certaines lois de Moïse, comme les sacrifices d'animaux ou les règles sur la nourriture, trouvent leur accomplissement en Jésus."
+    },
+    {
+     "texte": "Mais cette progression va toujours dans le même sens : vers plus de grâce. Et elle a été annoncée longtemps à l'avance par les prophètes (Jérémie 31:31-34). Dieu ne change pas d'avis selon ce qui arrive dans la vie de son messager. La Bible dit : Jésus-Christ est le même hier, aujourd'hui, et éternellement (Hébreux 13:8). Et toute l'Écriture est inspirée de Dieu, et utile pour enseigner (2 Timothée 3:16)."
     },
     {
      "sous_titre": "Les « hypocrites »"
     },
     {
-     "texte": "Un dernier mot sur Médine. Le Coran y parle beaucoup des « hypocrites » (« mounafiqoun »), une sourate entière porte leur nom (sourate 63). Ce sont des habitants de Médine qui se disaient musulmans mais n'étaient pas loyaux : ils refusaient de partir en expédition, critiquaient le prophète, gardaient des liens avec ses ennemis. Le Coran les menace du plus profond de l'enfer. Cela montre combien, à Médine, l'appartenance à la communauté et la loyauté envers son chef sont devenues inséparables de la foi. Aujourd'hui encore, celui qui quitte l'islam est souvent vu non seulement comme quelqu'un qui change de croyance, mais comme un traître envers la communauté. Nous verrons ce que cela signifie pour l'accueil des convertis."
+     "texte": "Un dernier mot sur Médine. Le Coran y parle beaucoup des « hypocrites ». Une sourate entière porte leur nom : la sourate 63. Ce sont des habitants de Médine qui se disaient musulmans, mais qui n'étaient pas fidèles. Ils refusaient de partir en expédition, ils critiquaient le prophète, et ils gardaient des liens avec ses ennemis. Le Coran les menace du fond de l'enfer."
+    },
+    {
+     "texte": "Qu'est-ce que cela nous montre ? Cela montre qu'à Médine, appartenir à la communauté et être fidèle à son chef sont devenus inséparables de la foi. Aujourd'hui encore, celui qui quitte l'islam est souvent vu non seulement comme quelqu'un qui change de croyance, mais comme un traître envers la communauté. Nous verrons ce que cela veut dire pour l'accueil de ceux qui se convertissent à Jésus."
     }
    ]
   },
@@ -335,19 +422,31 @@
      "sous_titre": "Comparons calmement"
     },
     {
-     "texte": "Mettons côte à côte les deux chemins. Mahomet commence persécuté, puis devient fort, puis combat ses ennemis et triomphe par les armes. Jésus est fort dès le début, puisqu'il est le Fils de Dieu, mais il choisit la faiblesse, refuse l'épée, se laisse crucifier, et triomphe par la résurrection. Pierre écrit : Christ aussi a souffert pour vous, vous laissant un exemple ; lui qui, injurié, ne rendait point d'injures, maltraité, ne faisait point de menaces (1 Pierre 2:21-23)."
+     "texte": "Mettons les deux chemins côte à côte."
     },
     {
-     "sous_titre": "On raconte…"
+     "texte": "Mahomet commence persécuté. Ensuite, il devient fort. Ensuite, il combat ses ennemis et il gagne par les armes."
     },
     {
-     "texte": "On raconte qu'un jeune musulman de Kousseri, qui lisait pour la première fois les Évangiles, s'arrêta longtemps sur le passage où Jésus guérit l'oreille du serviteur venu l'arrêter. Il dit à l'ami chrétien qui lui avait donné le livre : « Chez nous, on m'a appris que la force prouve que Dieu est avec toi. Mais cet homme est plus fort que nous tous : il guérit celui qui vient le prendre. » Ce fut le début de son chemin vers Christ. La douceur de Jésus n'est pas une faiblesse : c'est la force de Dieu."
+     "texte": "Jésus, lui, est fort dès le début, puisqu'il est le Fils de Dieu. Mais il choisit la faiblesse. Il refuse l'épée. Il se laisse crucifier. Et il gagne par la résurrection."
+    },
+    {
+     "texte": "Pierre écrit : Christ aussi a souffert pour vous, vous laissant un exemple ; lui qui, injurié, ne rendait point d'injures, maltraité, ne faisait point de menaces (1 Pierre 2:21-23)."
+    },
+    {
+     "sous_titre": "Le jeune homme de Kousseri"
+    },
+    {
+     "texte": "Voici une histoire. Un jeune musulman de Kousseri lisait les Évangiles pour la première fois. Il s'est arrêté longtemps sur le passage où Jésus guérit l'oreille du serviteur venu l'arrêter. Il a dit à l'ami chrétien qui lui avait donné le livre : « Chez nous, on m'a appris que la force prouve que Dieu est avec toi. Mais cet homme est plus fort que nous tous : il guérit celui qui vient le prendre. »"
+    },
+    {
+     "texte": "Ce fut le début de son chemin vers Jésus. Retiens bien ceci : la douceur de Jésus n'est pas une faiblesse. C'est la force de Dieu."
     },
     {
      "sous_titre": "Pour la suite"
     },
     {
-     "texte": "Dans le prochain enseignement, nous verrons la fin de la vie de Mahomet : le traité avec La Mecque, la conquête de Khaybar et l'empoisonnement, la prise de La Mecque, ses nombreuses épouses, dont Aïcha, et sa mort à Médine en 632."
+     "texte": "Dans le prochain enseignement, nous verrons la fin de la vie de Mahomet : l'accord de paix avec La Mecque, la conquête de Khaybar et l'empoisonnement, la prise de La Mecque, ses nombreuses femmes, dont Aïcha, et sa mort à Médine en l'an 632."
     }
    ]
   }
@@ -355,53 +454,53 @@
  "sujets": [
   {
    "titre": "Pour les persécutés",
-   "texte": "Prions pour les chrétiens persécutés dans les pays musulmans et dans le nord du Cameroun et du Nigeria, afin qu'ils tiennent ferme et répondent au mal par le bien (Romains 12:21)."
+   "texte": "Prions pour les chrétiens persécutés dans les pays musulmans, et dans le nord du Cameroun et du Nigeria, afin qu'ils tiennent ferme et qu'ils répondent au mal par le bien (Romains 12:21)."
   },
   {
-   "titre": "Pour les musulmans de Médine et de La Mecque",
-   "texte": "Prions afin que l'Évangile atteigne l'Arabie, les villes de La Mecque et de Médine, et que des Arabes y confessent Jésus comme Seigneur (Ésaïe 60:6-7)."
+   "titre": "Pour l'Arabie",
+   "texte": "Prions afin que l'Évangile atteigne l'Arabie, les villes de La Mecque et de Médine, et que des Arabes y reconnaissent Jésus comme Seigneur (Ésaïe 60:6-7)."
   },
   {
    "titre": "Pour notre cœur",
-   "texte": "Prions afin que nous suivions l'exemple de Jésus, qui n'a pas rendu injure pour injure, quand on nous moque à cause de notre foi (1 Pierre 2:23)."
+   "texte": "Prions afin de suivre l'exemple de Jésus, qui n'a pas rendu injure pour injure, quand on se moque de nous à cause de notre foi (1 Pierre 2:23)."
   }
  ],
  "questions": [
   {
-   "question": "Pourquoi le calendrier musulman commence-t-il en 622 ?",
+   "question": "Pourquoi est-ce que le calendrier musulman commence en l'an 622 ?",
    "choix": [
     "C'est l'année de la naissance de Mahomet",
-    "C'est l'année de l'Hégire, quand l'islam devient une communauté organisée à Médine",
+    "C'est l'année du départ vers Médine, quand l'islam devient une communauté organisée",
     "C'est l'année de la première révélation"
    ],
    "reponse": 1,
-   "explication": "L'Hégire marque le début de l'islam comme communauté avec un chef, des lois et une armée.",
+   "explication": "À Médine, l'islam a un chef, des lois et une armée.",
    "section": "5"
   },
   {
-   "question": "Chez qui les premiers musulmans persécutés trouvèrent-ils refuge ?",
+   "question": "Chez qui est-ce que les premiers musulmans persécutés ont trouvé refuge ?",
    "choix": [
     "Chez l'empereur perse",
-    "Chez le Négus, roi chrétien d'Abyssinie",
+    "Chez le Négus, le roi chrétien d'Éthiopie",
     "Chez les juifs de Khaybar"
    ],
    "reponse": 1,
-   "explication": "Un roi chrétien les accueillit et refusa de les livrer.",
+   "explication": "Un roi chrétien les a accueillis et a refusé de les livrer.",
    "section": "2"
   },
   {
-   "question": "Que rapportent plusieurs historiens musulmans anciens à propos des « versets sataniques » ?",
+   "question": "Que racontent plusieurs historiens musulmans anciens au sujet des « versets sataniques » ?",
    "choix": [
     "Que Mahomet a écrit un livre sur Satan",
-    "Que Satan aurait placé sur sa langue des paroles louant trois déesses, ensuite retirées",
-    "Que les Mecquois ont brûlé le Coran"
+    "Que Satan aurait mis sur sa langue des paroles qui louaient trois déesses, paroles retirées ensuite",
+    "Que les gens de La Mecque ont brûlé le Coran"
    ],
    "reponse": 1,
-   "explication": "Ibn Ishaq, Tabari, Ibn Saad et Waqidi le rapportent ; beaucoup de savants plus tardifs l'ont rejeté.",
+   "explication": "Ibn Ishaq, Tabari, Ibn Saad et Waqidi le racontent ; beaucoup de savants plus tardifs l'ont rejeté.",
    "section": "3"
   },
   {
-   "question": "Que dit Jésus à Pierre quand celui-ci tire l'épée ?",
+   "question": "Qu'est-ce que Jésus a dit à Pierre quand Pierre a sorti son épée ?",
    "choix": [
     "Frappe plus fort",
     "Remets ton épée à sa place",
@@ -412,29 +511,29 @@
    "section": "7"
   },
   {
-   "question": "Selon Boukhari, comment fut jugée la tribu juive des Banou Qurayza ?",
+   "question": "Selon Boukhari, comment est-ce que la tribu juive des Banou Qurayza a été jugée ?",
    "choix": [
-    "Elle fut pardonnée",
-    "Elle fut expulsée",
-    "Les hommes furent tués, les femmes et les enfants réduits en captivité"
+    "Elle a été pardonnée",
+    "Elle a été chassée",
+    "Les hommes ont été tués, les femmes et les enfants sont devenus esclaves"
    ],
    "reponse": 2,
-   "explication": "Boukhari, hadith 4122 : le jugement de Saad fut approuvé par Mahomet.",
+   "explication": "Boukhari, hadith 4122.",
    "section": "8"
   },
   {
-   "question": "Quelle règle permet à un verset plus récent d'annuler un verset plus ancien ?",
+   "question": "Comment s'appelle la règle qui permet à un verset plus récent d'annuler un verset plus ancien ?",
    "choix": [
-    "L'abrogation (naskh)",
+    "L'abrogation",
     "La récitation",
     "Le consensus"
    ],
    "reponse": 0,
-   "explication": "Coran 2:106 ; beaucoup de savants classiques ont appliqué cette règle aux versets de combat de Médine.",
+   "explication": "Voir la sourate 2, verset 106.",
    "section": "9"
   },
   {
-   "question": "Que dit Jésus de son royaume devant Pilate ?",
+   "question": "Qu'est-ce que Jésus a dit de son royaume devant Pilate ?",
    "choix": [
     "Qu'il le prendrait par la force",
     "Qu'il n'est pas de ce monde",
@@ -446,8 +545,8 @@
   }
  ],
  "devoir": [
-  "Lis Luc 9:51-56 et Luc 22:47-53. Note comment Jésus réagit quand on le rejette et quand on vient l'arrêter.",
-  "Lis Romains 12:14-21 et écris une situation où tu peux répondre au mal par le bien cette semaine.",
+  "Lis Luc 9:51-56 et Luc 22:47-53. Note comment Jésus réagit quand on le rejette, et quand on vient l'arrêter.",
+  "Lis Romains 12:14-21. Écris une situation de cette semaine où tu peux répondre au mal par le bien.",
   "Prie pour une personne qui se moque de ta foi."
  ],
  "prieres_liees": [],
