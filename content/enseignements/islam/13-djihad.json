@@ -4,448 +4,345 @@
  "serie": "L'islam de A à Z",
  "theme": "Islam",
  "auteur": "Yeshaya",
- "resume": "L'islam est-il une religion de paix ou de guerre ? Pourquoi la plupart des musulmans sont-ils paisibles, et pourquoi certains tuent-ils au nom d'Allah ? Le sens du mot djihad, les versets de paix et les versets de combat, l'impôt des non-musulmans, les conquêtes, le djihad peul qui a fondé les lamidats du nord du Cameroun, puis Boko Haram. Les textes, l'histoire, et la réponse de Jésus, qui a dit à Pierre de remettre son épée au fourreau.",
+ "resume": "Que veut dire le mot djihad ? Que disent les versets de patience, de permission et de combat ? Qu'est-ce que le verset de l'épée ? Comment les savants ont-ils classé le monde en maison de l'islam et maison de la guerre ? Que fait la jizya aux chrétiens ? Comment sont nés l'empire musulman, le djihad peul du XIXe siècle qui a fondé les lamidats du nord du Cameroun, puis Boko Haram ? Un enseignement franc, avec les textes exacts, l'histoire, et ce que disent les musulmans qui condamnent la violence.",
  "image": "/assets/temoignage/chaines-brisees.webp",
  "verset_de_base": "Mt 5:9",
- "lecture_minutes": 31,
+ "lecture_minutes": 30,
  "objectifs": [
-  "Comprendre le sens du mot djihad et le débat entre djihad « intérieur » et djihad armé.",
-  "Connaître les versets de paix et les versets de combat, et la règle de l'abrogation.",
-  "Connaître le statut des chrétiens et des juifs sous domination musulmane : la dhimma et l'impôt.",
-  "Connaître l'histoire des conquêtes, et en particulier du djihad peul au nord du Cameroun.",
-  "Comprendre l'origine de Boko Haram et des groupes armés du Sahel.",
-  "Savoir comment le chrétien répond : ni peur, ni haine, mais l'amour et la vérité."
+  "Comprendre le sens du mot djihad et ses deux usages.",
+  "Connaître l'évolution des versets : patience, permission, défense, offensive.",
+  "Connaître la doctrine classique : dar al-islam, dar al-harb, jizya, dhimma.",
+  "Connaître l'histoire des conquêtes et du djihad peul au nord du Cameroun.",
+  "Comprendre d'où viennent Boko Haram et les groupes armés, et ce que disent les musulmans pacifiques."
  ],
- "introduction": "Au nord du Cameroun, au Nigeria, au Tchad, au Niger, au Mali, au Burkina Faso, des milliers de personnes ont été tuées ces dernières années par des groupes qui se réclament de l'islam. Des villages ont été brûlés, des églises détruites, des jeunes filles enlevées, des enfants transformés en bombes humaines. Beaucoup de victimes étaient chrétiennes, mais beaucoup étaient aussi musulmanes. En même temps, la plupart de nos voisins musulmans sont des gens paisibles, qui condamnent ces violences et en souffrent.\n\nAlors, que penser ? Faut-il dire que « l'islam est une religion de paix » et que les terroristes n'ont rien à voir avec l'islam ? Ou faut-il dire que tout musulman est un terroriste en puissance ? Les deux affirmations sont fausses. La vérité est plus complexe, et le chrétien doit la connaître pour ne pas tomber dans la naïveté, ni dans la peur, ni dans la haine. Dans cet enseignement, nous regarderons les textes, l'histoire, et la manière dont Jésus nous appelle à répondre.",
+ "introduction": "Au nord du Cameroun, au Nigeria, au Tchad, au Niger, au Mali, au Burkina Faso, des milliers de personnes ont été tuées par des groupes qui disent agir au nom de l'islam. Des villages ont été brûlés. Des églises ont été détruites. Des jeunes filles ont été enlevées. Des enfants ont été transformés en bombes humaines. Beaucoup de victimes étaient chrétiennes, mais beaucoup étaient aussi musulmanes. Et en même temps, la plupart de nos voisins musulmans sont des gens paisibles, qui n'ont jamais fait de mal à personne.\n\nAlors, que faut-il penser ? Est-ce que l'islam est une religion de paix ? Est-ce que ces groupes n'ont rien à voir avec l'islam ? Ou est-ce que tout musulman est un danger ? Les deux réponses faciles sont fausses. Pour comprendre, il faut regarder les textes, un par un, dans l'ordre où ils sont venus. Il faut regarder ce que les savants classiques en ont tiré. Et il faut regarder l'histoire, qui est très proche de nous. C'est ce que nous allons faire. Je vais dire les choses simplement, puis les redire encore plus simplement.",
  "sections": [
   {
    "numero": "1",
    "titre": "Le mot « djihad »",
-   "references": [
-    "Ep 6:12",
-    "2 Co 10:3-4"
-   ],
+   "references": [],
    "blocs": [
     {
      "sous_titre": "Un effort"
     },
     {
-     "texte": "Le mot arabe « djihad » veut dire « effort », « lutte ». Il peut désigner tout effort fait dans le chemin d'Allah : lutter contre ses mauvais penchants, s'efforcer de prier, d'apprendre, de faire le bien. Beaucoup de musulmans, surtout en Occident et dans les milieux soufis, insistent sur ce sens spirituel. Ils citent un récit selon lequel Mahomet, revenant d'une bataille, aurait dit : « Nous revenons du petit djihad vers le grand djihad », c'est-à-dire la lutte contre soi-même."
+     "texte": "Le mot arabe « djihad » vient d'une racine qui veut dire faire un effort, lutter, se donner de la peine. Il peut désigner tout effort fait dans le chemin d'Allah : lutter contre ses mauvais désirs, s'efforcer de prier, d'apprendre, d'élever ses enfants dans la foi. Beaucoup de musulmans, surtout en Occident et chez les soufis, insistent sur ce sens spirituel. Ils citent une parole attribuée à Mahomet quand il revenait d'une bataille : « Nous revenons du petit djihad vers le grand djihad », c'est-à-dire la lutte contre soi-même."
     },
     {
-     "sous_titre": "Mais aussi la guerre"
+     "sous_titre": "Mais le même mot désigne la guerre"
     },
     {
-     "texte": "Il faut savoir que ce récit est considéré comme faible, voire sans fondement, par beaucoup de savants musulmans eux-mêmes. Dans les grands recueils de hadiths et les traités de droit islamique classique, le mot djihad désigne surtout le combat armé dans le chemin d'Allah. Le « livre du djihad » du recueil de Boukhari parle des batailles, des armes, des chevaux, du butin, des martyrs. Il faut donc reconnaître les deux sens, sans cacher le second."
+     "texte": "Voici ce qu'il faut savoir pour être exact. Cette parole sur le « petit » et le « grand » djihad est jugée faible, ou même sans fondement, par beaucoup de savants musulmans eux-mêmes. Et surtout, dans les livres de droit islamique, le mot « djihad » désigne en premier lieu le combat armé. Il y a un chapitre du djihad dans le recueil de Boukhari, qu'on appelle « le livre du djihad et des expéditions ». Ce chapitre parle des armes, des chevaux, du butin, des prisonniers, des martyrs. Il y a aussi un mot plus précis pour le combat armé : le « qital », qui veut dire tuer, combattre."
     },
     {
-     "sous_titre": "Le combat du chrétien"
+     "texte": "Je le redis plus simplement. Il y a deux sens. Le sens de la lutte intérieure existe. Mais le sens du combat armé existe aussi, et il est le plus répandu dans les textes anciens. Si quelqu'un te dit que djihad veut seulement dire « effort spirituel », il ne dit pas toute la vérité. Si quelqu'un te dit que djihad veut seulement dire « guerre sainte », il ne dit pas toute la vérité non plus."
     },
     {
-     "texte": "La Bible aussi parle d'un combat. Mais Paul précise : nous n'avons pas à lutter contre la chair et le sang, mais contre les dominations, contre les autorités, contre les princes de ce monde de ténèbres (Éphésiens 6:12). Et encore : si nous marchons dans la chair, nous ne combattons pas selon la chair. Car les armes avec lesquelles nous combattons ne sont pas charnelles ; mais elles sont puissantes, par la vertu de Dieu, pour renverser des forteresses (2 Corinthiens 10:3-4). Le combat chrétien se mène avec la prière, la Parole, la foi, la vérité, l'amour, jamais avec l'épée contre les hommes."
+     "sous_titre": "Ce que Mahomet a dit"
+    },
+    {
+     "texte": "Un homme a demandé à Mahomet : « L'un combat par courage, l'autre par esprit de clan, l'autre pour se faire voir. Lequel est dans le chemin d'Allah ? » Il a répondu : « Celui qui combat pour que la parole d'Allah soit la plus haute est dans le chemin d'Allah » (Boukhari, hadith 123). Et quand on lui a demandé quelle est la meilleure action, il a mis la foi en premier, puis le djihad dans le chemin d'Allah (Boukhari, hadith 26)."
     }
    ]
   },
   {
    "numero": "2",
-   "titre": "Les versets de paix",
-   "references": [
-    "Ps 11:5",
-    "Es 2:4"
-   ],
+   "titre": "Les versets du Coran, dans l'ordre",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Pas de contrainte"
+     "texte": "Pour comprendre ce que dit le Coran sur la guerre, il faut suivre l'ordre où les versets sont venus. Les musulmans eux-mêmes le font. Il y a quatre étapes."
     },
     {
-     "texte": "Le Coran contient des versets qui appellent à la paix et à la tolérance. Le plus cité est : nulle contrainte en religion (sourate 2, verset 256). Il y a aussi : à vous votre religion, et à moi ma religion (sourate 109, verset 6). Le Coran demande de ne combattre que ceux qui combattent, sans transgresser : combattez dans le sentier d'Allah ceux qui vous combattent, et ne transgressez pas ; Allah n'aime pas les transgresseurs (sourate 2, verset 190). Et s'ils inclinent vers la paix, incline vers elle toi aussi (sourate 8, verset 61). Il dit aussi que quiconque tue une personne non coupable d'un meurtre ou de corruption sur la terre, c'est comme s'il avait tué tous les hommes (sourate 5, verset 32)."
+     "sous_titre": "Première étape : la patience, à La Mecque"
     },
     {
-     "sous_titre": "Les musulmans pacifiques sont sincères"
+     "texte": "Pendant treize ans à La Mecque, Mahomet était faible. Il n'avait pas d'armée. Les versets de cette époque disent d'être patient. Le Coran dit : pardonne avec un beau pardon (sourate 15, verset 85). Et : à vous votre religion, et à moi ma religion (sourate 109, verset 6). Il dit aussi : nulle contrainte en religion (sourate 2, verset 256), mais ce verset est de Médine. Quand ton voisin musulman te cite ces versets, il est sincère. Ce sont de vrais versets, et ils sont dans le Coran."
     },
     {
-     "texte": "Quand ton voisin musulman te cite ces versets en disant que l'islam est une religion de paix, il est sincère. Il faut le respecter et le croire quand il dit qu'il rejette la violence. Beaucoup de savants musulmans ont condamné publiquement le terrorisme, et des musulmans ont risqué leur vie pour protéger des chrétiens lors d'attaques, au Nigeria comme au Cameroun."
+     "sous_titre": "Deuxième étape : la permission, au début de Médine"
     },
     {
-     "sous_titre": "La paix que Dieu promet"
+     "texte": "Après l'hégire, en 622, Mahomet commence à avoir des partisans armés. Le premier verset qui permet le combat est celui-ci : l'autorisation est donnée à ceux qu'on combat, parce qu'ils ont été lésés, et Allah est certes capable de les secourir. Ceux qui ont été expulsés de leurs maisons sans droit, seulement parce qu'ils disaient : « Notre Seigneur est Allah » (sourate 22, versets 39 et 40). C'est une permission défensive, pour des gens persécutés."
     },
     {
-     "texte": "La Bible annonce un jour où les peuples forgeront de leurs glaives des hoyaux, et de leurs lances des serpes ; une nation ne tirera plus l'épée contre une autre (Ésaïe 2:4). Dieu hait celui qui aime la violence (Psaume 11:5). Et Jésus a dit : heureux ceux qui procurent la paix, car ils seront appelés fils de Dieu (Matthieu 5:9)."
+     "sous_titre": "Troisième étape : le combat contre ceux qui combattent"
     },
     {
-     "verset": "Es 2:4"
+     "texte": "Ensuite vient l'ordre de combattre, mais seulement ceux qui vous combattent. Le Coran dit : combattez dans le sentier d'Allah ceux qui vous combattent, et ne transgressez pas. Allah n'aime pas les transgresseurs. Tuez-les où que vous les rencontriez, et chassez-les d'où ils vous ont chassés. La persécution est pire que le meurtre (sourate 2, versets 190 et 191). Et encore : le combat vous a été prescrit, alors que vous le détestez (sourate 2, verset 216)."
+    },
+    {
+     "sous_titre": "Quatrième étape : l'offensive"
+    },
+    {
+     "texte": "Dans les dernières années de Mahomet, après la conquête de La Mecque en 630, la sourate 9 est descendue. C'est la dernière grande sourate. Elle contient les versets les plus durs. Le premier est appelé « le verset de l'épée » : quand les mois sacrés seront écoulés, tuez les associateurs où que vous les trouviez. Capturez-les, assiégez-les, guettez-les dans toute embuscade. S'ils se repentent, s'ils accomplissent la prière et s'acquittent de l'aumône, alors laissez-leur le chemin libre (sourate 9, verset 5)."
+    },
+    {
+     "texte": "Le deuxième concerne les juifs et les chrétiens : combattez ceux qui ne croient ni en Allah, ni au jour dernier, qui n'interdisent pas ce qu'Allah et son messager ont interdit, et qui ne suivent pas la religion de la vérité, parmi ceux qui ont reçu le Livre, jusqu'à ce qu'ils paient la capitation de leurs propres mains, en étant humiliés (sourate 9, verset 29). Le mot « capitation » veut dire l'impôt par tête : la jizya. Le mot « humiliés » est le mot arabe « saghirun », qui veut dire rabaissés, petits."
+    },
+    {
+     "texte": "Et il y a aussi : le jour où je jetterai l'effroi dans le cœur des mécréants. Frappez-les au-dessus des cous, frappez-les sur tous les bouts des doigts (sourate 8, verset 12). Et : préparez contre eux tout ce que vous pouvez comme force et comme chevaux, afin d'effrayer l'ennemi d'Allah et le vôtre (sourate 8, verset 60). Et : ô Prophète, incite les croyants au combat (sourate 8, verset 65). Et : combattez les associateurs tous ensemble, comme ils vous combattent tous ensemble (sourate 9, verset 36)."
+    },
+    {
+     "sous_titre": "La règle de l'abrogation"
+    },
+    {
+     "texte": "Comment relier les versets de patience et les versets de l'épée ? C'est ici que revient la règle de l'abrogation, le « naskh », que nous avons vue. Beaucoup de grands commentateurs anciens, comme Tabari et Ibn Kathir, ont enseigné que le verset de l'épée a abrogé les versets plus anciens de patience et de pardon. Certains ont même compté plus d'une centaine de versets abrogés par lui. D'autres savants, surtout modernes, refusent cette lecture. Ils disent que les versets de combat ne concernent que les ennemis qui attaquaient les musulmans à cette époque. Les deux positions existent. Mais il faut savoir que la première, celle d'une abrogation par le verset de l'épée, est la position classique, enseignée pendant des siècles dans les grandes écoles."
+    },
+    {
+     "sous_titre": "Ce que dit Mahomet"
+    },
+    {
+     "texte": "Les hadiths vont dans le même sens. Boukhari rapporte : « Il m'a été ordonné de combattre les gens jusqu'à ce qu'ils témoignent qu'il n'y a de dieu qu'Allah et que Mahomet est le messager d'Allah, qu'ils accomplissent la prière et qu'ils donnent l'aumône. S'ils le font, ils m'ont protégé leur sang et leurs biens, sauf pour un droit de l'islam, et leur compte est auprès d'Allah » (Boukhari, hadith 25 ; Mouslim, hadith 22). Et encore : « J'ai été rendu victorieux par l'effroi » (Boukhari, hadith 2977). Et : « Sachez que le paradis est à l'ombre des épées » (Boukhari, hadith 2818)."
+    },
+    {
+     "texte": "Pour être juste, d'autres hadiths limitent la guerre. Un hadith interdit de tuer les femmes et les enfants (Boukhari, hadith 3014). Les premiers califes ont donné à leurs armées des consignes : ne pas tuer les vieillards, les femmes, les enfants, ne pas couper les arbres fruitiers, ne pas mutiler. Voilà ce que les musulmans cités ci-dessous rappellent."
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "Les versets de combat",
-   "references": [
-    "Mt 26:52-53",
-    "Jn 18:11"
-   ],
+   "titre": "Ce que les savants classiques en ont fait",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le verset de l'épée"
+     "sous_titre": "Un monde divisé en deux"
     },
     {
-     "texte": "Mais le Coran contient aussi des versets de combat, surtout dans les sourates de Médine. Le plus connu est appelé « le verset de l'épée » : après que les mois sacrés expirent, tuez les associateurs où que vous les trouviez. Capturez-les, assiégez-les et guettez-les dans toute embuscade. Si ensuite ils se repentent, accomplissent la prière et acquittent l'aumône, alors laissez-leur la voie libre (sourate 9, verset 5)."
+     "texte": "Les juristes des premiers siècles, ceux de l'époque des califes de Damas et de Bagdad, ont mis en ordre ces textes. Ils ont divisé le monde en deux zones. La première est la « dar al-islam », la maison de l'islam : là où la loi musulmane règne. La deuxième est la « dar al-harb », la maison de la guerre : tout le reste. Une troisième zone, plus tardive, est la « dar al-ahd », la maison du traité, pour ceux avec qui on a signé une paix temporaire."
     },
     {
-     "sous_titre": "Combattre les gens du Livre"
+     "texte": "Je le redis simplement. Dans la pensée classique, il y a deux camps : là où l'islam gouverne, et là où il ne gouverne pas encore. Et la mission de la communauté est d'étendre la première zone."
     },
     {
-     "texte": "Un autre verset concerne directement les juifs et les chrétiens : combattez ceux qui ne croient ni en Allah ni au jour dernier, qui n'interdisent pas ce qu'Allah et son messager ont interdit, et qui ne professent pas la religion de la vérité, parmi ceux qui ont reçu le Livre, jusqu'à ce qu'ils versent l'impôt de capitation par leurs propres mains, après s'être humiliés (sourate 9, verset 29)."
+     "sous_titre": "Le djihad offensif"
     },
     {
-     "sous_titre": "D'autres versets"
+     "texte": "Les quatre écoles ont enseigné que le djihad est une obligation collective, appelée « fard kifaya ». Cela veut dire que si une partie de la communauté le fait, les autres sont déchargés. Mais si l'ennemi envahit une terre musulmane, alors le djihad devient une obligation individuelle, « fard ayn », pour chacun."
     },
     {
-     "texte": "Le Coran dit encore : le combat vous a été prescrit alors qu'il vous est désagréable (sourate 2, verset 216). Je vais jeter l'effroi dans les cœurs des mécréants. Frappez donc au-dessus des cous et frappez-les sur tous les bouts des doigts (sourate 8, verset 12). Préparez contre eux tout ce que vous pouvez comme force… afin d'effrayer l'ennemi d'Allah et le vôtre (sourate 8, verset 60). La sourate 9 est la dernière grande sourate révélée, et c'est la seule qui ne commence pas par « Au nom d'Allah, le Tout Miséricordieux »."
+     "texte": "Un grand savant, Ibn Taymiyya, mort en 1328, a écrit que « le djihad est la meilleure action volontaire que l'homme puisse faire ». Et Ibn Khaldoun, au XIVe siècle, a écrit que dans la communauté musulmane, le djihad est un devoir religieux à cause de l'universalité de la mission : l'islam doit être porté à tous, de gré ou de force. Retiens bien ceci : ce n'est pas une idée inventée par les extrémistes d'aujourd'hui. C'est ce que les grands livres de droit ont enseigné pendant plus de mille ans. Les musulmans modernes, eux, disent que cette doctrine ne s'applique plus, ou qu'elle ne concerne que les guerres défensives. Mais les livres anciens sont toujours étudiés."
     },
     {
-     "sous_titre": "Les hadiths"
+     "sous_titre": "Le butin et les captifs"
     },
     {
-     "texte": "Boukhari rapporte que Mahomet a dit : « Il m'a été ordonné de combattre les gens jusqu'à ce qu'ils témoignent qu'il n'y a de dieu qu'Allah et que Muhammad est le messager d'Allah, qu'ils accomplissent la prière et acquittent l'aumône » (Boukhari, hadith 25). Et encore : « J'ai été rendu victorieux par l'effroi » (Boukhari, hadith 2977). Il faut aussi dire, pour être juste, que d'autres hadiths interdisent de tuer les femmes et les enfants pendant la guerre (Boukhari, hadith 3015), et que le droit islamique classique a fixé des règles à la guerre."
-    },
-    {
-     "sous_titre": "L'abrogation, encore"
-    },
-    {
-     "texte": "Comment concilier « pas de contrainte en religion » et « tuez les associateurs où que vous les trouviez » ? Nous avons vu la règle de l'abrogation. Beaucoup de savants classiques ont enseigné que le verset de l'épée, révélé tard, avait abrogé de nombreux versets de patience et de tolérance plus anciens. D'autres savants, surtout modernes, refusent cette lecture et disent que les versets de combat ne concernaient que les ennemis de l'époque. Ce débat traverse l'islam lui-même. Les groupes extrémistes choisissent la lecture la plus dure ; ils ne l'inventent pas."
-    },
-    {
-     "sous_titre": "Jésus et l'épée"
-    },
-    {
-     "texte": "Comparons avec Jésus. Quand Pierre tira l'épée, Jésus lui dit : remets ton épée dans le fourreau ; ne boirai-je pas la coupe que le Père m'a donnée à boire ? (Jean 18:11). Et encore : penses-tu que je ne puisse pas invoquer mon Père, qui me donnerait à l'instant plus de douze légions d'anges ? (Matthieu 26:53). Jésus avait le pouvoir de détruire ses ennemis. Il a choisi de mourir pour eux."
-    },
-    {
-     "verset": "Jn 18:11"
-    },
-    {
-     "verset": "Mt 26:53"
+     "texte": "Le Coran règle le partage du butin : un cinquième pour Allah, le messager, les proches, les orphelins, les pauvres et le voyageur, et le reste aux combattants (sourate 8, verset 41). Il règle le sort des prisonniers : quand vous rencontrez ceux qui ont mécru, frappez-les au cou. Quand vous les avez abattus, serrez les liens. Ensuite, soit la libération gratuite, soit la rançon, jusqu'à ce que la guerre dépose ses fardeaux (sourate 47, verset 4). Les captives devenaient des servantes dont le maître pouvait user. Et les captifs pouvaient être réduits en esclavage."
     }
    ]
   },
   {
    "numero": "4",
-   "titre": "Le statut des chrétiens sous l'islam : la dhimma",
-   "references": [
-    "Jr 29:7",
-    "1 P 2:13-15"
-   ],
+   "titre": "Les chrétiens sous la loi islamique : la dhimma",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le monde partagé en deux"
+     "sous_titre": "Trois choix"
     },
     {
-     "texte": "Le droit islamique classique divise le monde en deux : la « maison de l'islam » (« dar al-islam »), où règne la loi musulmane, et la « maison de la guerre » (« dar al-harb »), le reste du monde. Dans la maison de l'islam, les juifs et les chrétiens qui acceptent la domination musulmane reçoivent un statut de « protégés », les « dhimmis »."
+     "texte": "La loi classique offrait trois choix à ceux qu'on combattait. Premier choix : devenir musulman. Deuxième choix : pour les gens du Livre, juifs et chrétiens, et plus tard d'autres, payer l'impôt, la jizya, et vivre sous la domination musulmane. Troisième choix : le combat. Le hadith est clair : Mahomet donnait cette consigne à ses chefs d'armée (Mouslim, hadith 1731)."
     },
     {
-     "sous_titre": "L'impôt et les conditions"
+     "sous_titre": "Le statut de dhimmi"
     },
     {
-     "texte": "Les dhimmis peuvent garder leur religion et leurs églises, mais ils doivent payer un impôt spécial, la « jizya », et accepter une position inférieure. Un texte ancien attribué au calife Omar, appelé « le pacte d'Omar », énumère des conditions : ne pas construire de nouvelles églises ni réparer les anciennes, ne pas sonner les cloches fort, ne pas montrer de croix en public, ne pas chercher à convertir des musulmans, ne pas empêcher un des leurs de devenir musulman, céder la place aux musulmans, ne pas monter à cheval, porter des vêtements distinctifs. Ces conditions ont été appliquées plus ou moins sévèrement selon les époques et les lieux. Il y a eu des périodes de relative tolérance, et des périodes de persécution."
+     "texte": "Le chrétien qui vit sous la domination musulmane et paie l'impôt reçoit le statut de « dhimmi », protégé. Il garde le droit de pratiquer sa religion, mais avec des limites. Un texte appelé « le pacte d'Omar », dont l'authenticité est discutée, énumère des conditions : ne pas construire de nouvelles églises ni réparer les anciennes, ne pas faire sonner les cloches, ne pas montrer de croix, ne pas chercher à convertir un musulman, ne pas monter à cheval, s'habiller d'une manière différente, se lever devant les musulmans, ne pas porter d'armes. Les juristes l'ont appliqué avec plus ou moins de sévérité selon les époques."
     },
     {
-     "sous_titre": "Pourquoi c'est important aujourd'hui"
+     "texte": "À cela s'ajoutent des règles de droit : le témoignage d'un chrétien contre un musulman n'est pas accepté. Un musulman qui tue un chrétien n'est pas puni de mort selon plusieurs écoles. Un chrétien ne peut pas épouser une musulmane. Une règle dit : « Je ferai sortir les juifs et les chrétiens de la péninsule arabique, et je ne laisserai que des musulmans » (Mouslim, hadith 1767). Voilà pourquoi il n'y a pas d'église en Arabie saoudite."
     },
     {
-     "texte": "Certains groupes extrémistes, comme l'État islamique en Irak et en Syrie, ont voulu rétablir ce système en exigeant des chrétiens qu'ils se convertissent, paient la jizya ou partent, sous peine de mort. Des milliers de chrétiens d'Irak, présents dans le pays depuis presque deux mille ans, ont dû fuir. Le chrétien doit connaître cette histoire."
+     "sous_titre": "Ce qui reste aujourd'hui"
     },
     {
-     "sous_titre": "Chercher le bien de la ville"
-    },
-    {
-     "texte": "La Bible demande aux croyants de respecter les autorités et de chercher le bien de la ville où ils vivent, même quand ils y sont en exil : recherchez le bien de la ville où je vous ai menés en captivité, et priez l'Éternel en sa faveur (Jérémie 29:7). Des générations de chrétiens d'Orient ont vécu ainsi, fidèlement, sous des pouvoirs musulmans, et leur témoignage mérite notre respect et notre prière."
+     "texte": "Cette ancienne règle est encore utilisée. Les groupes qui ont voulu rétablir le califat, comme l'État islamique en Irak et en Syrie, ont de nouveau exigé des chrétiens qu'ils se convertissent, paient la jizya, ou meurent. En 2014, à Mossoul, ils ont marqué les maisons des chrétiens de la lettre « n » pour « nasara », nazaréens, et les chrétiens, qui vivaient là depuis presque deux mille ans, ont dû s'enfuir. Dans la plupart des pays, la jizya n'existe plus. Mais l'idée que le chrétien est un citoyen de seconde catégorie existe encore dans la loi et dans les mentalités de beaucoup d'endroits."
     }
    ]
   },
   {
    "numero": "5",
    "titre": "Les conquêtes",
-   "references": [
-    "Ps 46:9-10",
-    "Pr 21:31"
-   ],
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Un empire en un siècle"
+     "sous_titre": "Un empire en cent ans"
     },
     {
-     "texte": "Dans les cent ans qui ont suivi la mort de Mahomet, les armées musulmanes ont conquis un immense territoire : la Syrie, la Palestine, l'Égypte, l'Irak, la Perse, l'Afrique du Nord, l'Espagne, une partie de l'Asie centrale. Jérusalem tombe en 638, Alexandrie en 642. Les Églises d'Afrique du Nord, celles d'Augustin et de Tertullien, disparaissent peu à peu dans les siècles suivants. Ces conquêtes ne forçaient pas toujours les populations à se convertir immédiatement, mais elles installaient la domination de l'islam, et la pression sociale, fiscale et juridique a progressivement fait de ces régions des pays musulmans."
+     "texte": "Mahomet est mort en 632. Dans les cent ans qui suivent, les armées musulmanes conquièrent un empire plus grand que celui de Rome. En 634, la Syrie. En 636, la grande victoire du Yarmouk contre l'armée byzantine. En 638, Jérusalem. En 642, Alexandrie et l'Égypte. En 651, la Perse entière. Vers 700, l'Afrique du Nord. En 711, l'Espagne. En 732, les armées musulmanes sont arrêtées à Poitiers, en France. Plus tard, en 1453, Constantinople tombe. En 1529 et 1683, les Turcs atteignent Vienne."
     },
     {
-     "sous_titre": "En Afrique de l'Ouest"
+     "sous_titre": "Ce qui est arrivé aux Églises"
     },
     {
-     "texte": "En Afrique de l'Ouest, l'islam est d'abord arrivé de manière souvent pacifique, par les commerçants qui traversaient le Sahara, à partir du VIIIe siècle. Des rois du Ghana, du Mali, du Songhaï ont adopté l'islam, tout en gardant longtemps des pratiques traditionnelles. Mais aux XVIIIe et XIXe siècles, plusieurs mouvements de djihad armé ont transformé la région."
+     "texte": "Dans les pays conquis, la grande majorité des gens étaient chrétiens, juifs ou zoroastriens. Beaucoup n'ont pas été forcés au début, car les conquérants avaient besoin de leurs impôts. Mais avec les siècles, à cause de la jizya, des interdits, de la pression sociale, des persécutions de temps à autre, la majorité est devenue musulmane. En Afrique du Nord, des Églises très anciennes, celles de Tertullien, de Cyprien et d'Augustin, ont disparu. Il n'en reste presque rien. En Égypte, l'Église copte est restée, mais comme minorité. Voilà ce que nous apprend l'histoire : l'islam s'est répandu par la guerre et par l'impôt, autant que par la prédication."
+    },
+    {
+     "sous_titre": "L'esclavage"
+    },
+    {
+     "texte": "Les conquêtes ont aussi alimenté l'esclavage. Pendant plus de mille ans, il y a eu un commerce d'esclaves africains vers le monde musulman, par le Sahara, par la mer Rouge, par la côte est. Les historiens estiment que des millions d'Africains y furent pris. Les captifs étaient souvent des peuples « païens », que l'on pouvait légalement capturer. Cette traite, moins connue que la traite atlantique, a duré jusqu'au XXe siècle. Voilà pourquoi il faut dire cette histoire aussi, quand on parle de l'esclavage."
     }
    ]
   },
   {
    "numero": "6",
-   "titre": "Le djihad peul et le nord du Cameroun",
-   "references": [
-    "Ex 3:7",
-    "Ps 9:10"
-   ],
+   "titre": "L'Afrique de l'Ouest et le djihad peul",
+   "references": [],
    "blocs": [
+    {
+     "sous_titre": "L'arrivée de l'islam"
+    },
+    {
+     "texte": "Dans l'Afrique de l'Ouest, l'islam est arrivé d'abord de manière pacifique, avec des commerçants qui traversaient le Sahara à partir du VIIIe siècle. Des rois du Ghana, du Mali, du Songhaï ont adopté l'islam, tout en gardant longtemps des pratiques traditionnelles. Mais aux XVIIIe et XIXe siècles, plusieurs mouvements de djihad armé ont transformé la région."
+    },
     {
      "sous_titre": "Ousmane dan Fodio"
     },
     {
-     "texte": "En 1804, un prédicateur peul du pays haoussa, Ousmane dan Fodio, déclare le djihad contre les rois haoussas qu'il accuse d'être de mauvais musulmans. Ses armées l'emportent et fondent un immense État, le califat de Sokoto, dans le nord de l'actuel Nigeria."
+     "texte": "En 1804, un prédicateur peul du pays haoussa, Ousmane dan Fodio, lance le djihad. Il accuse les rois haoussas d'être de mauvais musulmans, qui mélangent l'islam avec les coutumes païennes. Il gagne. Ses armées fondent un immense État, le califat de Sokoto, qui couvre le nord du Nigeria actuel et qui durera jusqu'en 1903. Dans la même période, d'autres chefs, comme El Hadj Omar Tall dans l'ouest et Samori Touré, ont fait des mouvements semblables."
     },
     {
      "sous_titre": "Modibo Adama et les lamidats"
     },
     {
-     "texte": "Ousmane dan Fodio confie à un de ses disciples, Modibo Adama, la mission d'étendre le djihad vers le sud-est. Adama fonde l'émirat de l'Adamaoua, dont le nom vient de lui, avec pour capitale Yola. Ses lieutenants fondent des chefferies peules, les lamidats, à Garoua, Maroua, Ngaoundéré, Rey Bouba et ailleurs. C'est ainsi que l'islam peul s'est installé dans le nord du Cameroun au XIXe siècle. Les peuples qui refusaient l'islam, que les conquérants appelaient avec mépris « kirdi » (païens), furent repoussés dans les montagnes, et beaucoup furent capturés et réduits en esclavage lors de razzias."
+     "texte": "Ousmane dan Fodio confie à un de ses disciples, Modibo Adama, la mission d'étendre le djihad vers le sud-est. Modibo Adama reçoit un drapeau et fonde l'émirat de l'Adamaoua, qui porte son nom, avec Yola comme capitale. Ses lieutenants fondent des chefferies peules : les lamidats. Il y a Ngaoundéré vers 1835, Tibati, Banyo, Rey Bouba, Garoua, et Maroua. C'est ainsi que l'islam peul s'installe dans le nord du Cameroun au XIXe siècle."
     },
     {
-     "sous_titre": "Une histoire qui marque encore"
+     "sous_titre": "Les « païens » et les razzias"
     },
     {
-     "texte": "Cette histoire explique beaucoup de choses dans le nord du Cameroun aujourd'hui : la puissance des lamibés, la langue peule comme langue commune, les tensions entre peuples islamisés et peuples des montagnes, souvent christianisés au XXe siècle. Le chrétien de ces régions doit connaître cette histoire, non pour entretenir la rancune, mais pour comprendre les blessures et prier pour la guérison et la réconciliation. Dieu a dit à Moïse : j'ai vu la souffrance de mon peuple, j'ai entendu les cris (Exode 3:7). L'Éternel est un refuge pour l'opprimé (Psaume 9:10)."
+     "texte": "Les peuples qui refusaient l'islam, que les Peuls appelaient « kirdi », les « païens », étaient attaqués. Des razzias étaient faites chaque année pour capturer des gens. Des milliers de personnes, parmi les Mafa, les Kapsiki, les Guiziga, les Moundang, les Toupouri, les Fali, et d'autres, furent faites esclaves, vendues ou gardées comme travailleurs. Beaucoup se réfugièrent dans les montagnes, où ils vivent encore. Les lamidats ont durablement dominé les peuples voisins. À l'arrivée des Allemands en 1902, puis des Français et des Anglais, ce système a été arrêté, mais ses traces restent."
+    },
+    {
+     "sous_titre": "Une histoire qui reste"
+    },
+    {
+     "texte": "Cette histoire explique beaucoup de choses au nord du Cameroun d'aujourd'hui : la puissance des lamidos, la langue peule comme langue de pouvoir, la méfiance entre les peuples islamisés et les peuples des montagnes, qui sont devenus pour une grande partie chrétiens au XXe siècle. Il faut la connaître pour comprendre pourquoi certains frères du Nord portent encore des blessures."
     }
    ]
   },
   {
    "numero": "7",
-   "titre": "Boko Haram et les groupes du Sahel",
-   "references": [
-    "Jn 16:2-3",
-    "Mt 5:44"
-   ],
+   "titre": "Les mouvements modernes",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Une idéologie moderne"
+     "sous_titre": "Des penseurs"
     },
     {
-     "texte": "Au XXe siècle, des penseurs comme l'Égyptien Sayyid Qutb ont développé une idéologie qui appelle à renverser les gouvernements jugés non islamiques et à imposer la charia par la force. Cette idéologie, mêlée au salafisme, a inspiré Al-Qaïda, puis l'État islamique, et des groupes en Afrique."
+     "texte": "Au XXe siècle, des penseurs musulmans ont repris l'idée du djihad pour répondre à la colonisation et à la sécularisation. Abou al-Ala Maoudoudi, un Indien, né en 1903, a écrit que l'islam doit gouverner l'État. Sayyid Qutb, un Égyptien, a écrit en prison « Jalons sur la route », vers 1964, où il affirme que les sociétés qui ne sont pas gouvernées par la charia sont dans l'ignorance, et qu'il faut les combattre. Il a été pendu en 1966. Abdallah Azzam, un Palestinien, a appelé en 1984 au djihad armé comme devoir individuel contre l'Union soviétique en Afghanistan. Ces idées ont nourri Al-Qaïda, fondée vers 1988 par Oussama ben Laden, puis l'État islamique, qui a proclamé un califat en 2014."
     },
     {
      "sous_titre": "Boko Haram"
     },
     {
-     "texte": "Boko Haram est né à Maiduguri, au nord-est du Nigeria, au début des années 2000, autour d'un prédicateur, Mohammed Yusuf. Son nom officiel signifie à peu près « les gens de la sunna pour la prédication et le djihad ». Le surnom « Boko Haram » vient du haoussa et veut dire « l'éducation occidentale est interdite ». Après la mort de Yusuf en 2009, le groupe, dirigé par Abubakar Shekau, s'est lancé dans une violence extrême : attaques d'écoles, d'églises, de mosquées, de marchés, enlèvements de masse comme celui des lycéennes de Chibok en 2014, attentats-suicides commis par des enfants et des jeunes filles. À partir de 2013 et 2014, il a frappé l'Extrême-Nord du Cameroun : Kolofata, Fotokol, Mora, Mokolo, et beaucoup d'autres localités. Des dizaines de milliers de personnes ont été tuées dans la région du lac Tchad, et des millions ont dû fuir. Une partie du groupe a ensuite rejoint l'État islamique sous le nom d'État islamique en Afrique de l'Ouest."
+     "texte": "Boko Haram est né à Maiduguri, dans le nord-est du Nigeria, au début des années 2000, autour d'un prédicateur, Mohammed Yusuf. Son nom officiel signifie à peu près « les gens de la sunna pour la prédication et le djihad ». « Boko Haram » est le surnom donné en haoussa, qui veut dire « l'éducation occidentale est interdite ». Ce groupe refuse l'école occidentale, l'État laïc, le vote. En 2009, après une révolte, des centaines de ses membres sont tués et Yusuf meurt en détention. Son lieutenant, Abubakar Shekau, prend la tête et lance une violence extrême : attaques de villages, d'églises, de mosquées, de marchés, d'écoles, de casernes. En avril 2014, ils enlèvent plus de deux cents lycéennes à Chibok. Shekau dit dans une vidéo qu'il va les vendre, et qu'Allah ordonne de prendre des esclaves. Le groupe a étendu ses attaques au nord du Cameroun, au Tchad et au Niger. Il s'est ensuite divisé : une branche a rejoint l'État islamique en 2015, sous le nom d'ISWAP. Le bilan se compte en dizaines de milliers de morts et en millions de déplacés."
     },
     {
      "sous_titre": "Au Sahel"
     },
     {
-     "texte": "Au Mali, au Burkina Faso, au Niger, d'autres groupes liés à Al-Qaïda ou à l'État islamique ont aussi tué des milliers de civils, chrétiens et musulmans, et fermé des milliers d'écoles et d'églises."
+     "texte": "Au Mali, au Burkina Faso, au Niger, d'autres groupes liés à Al-Qaïda ou à l'État islamique ont tué des milliers de civils, chrétiens et musulmans, détruit des églises, fermé des écoles. Ils s'appuient sur les mêmes textes."
     },
     {
      "sous_titre": "Des victimes musulmanes"
     },
     {
-     "texte": "Il faut le répéter : ces groupes tuent aussi beaucoup de musulmans, qu'ils considèrent comme de mauvais musulmans ou des apostats. Des imams qui les condamnaient ont été assassinés. Dans le nord du Cameroun, des musulmans et des chrétiens ont souffert ensemble, et ont parfois résisté ensemble."
-    },
-    {
-     "sous_titre": "Pourquoi certains deviennent-ils violents ?"
-    },
-    {
-     "texte": "Plusieurs choses se mêlent. Il y a les textes que nous avons vus, lus d'une certaine manière, avec la règle de l'abrogation. Il y a la promesse du paradis pour les martyrs. Il y a la pauvreté, le chômage, la corruption, l'injustice, qui rendent les jeunes amers et faciles à recruter. Il y a parfois l'argent, la drogue, la peur, ou l'enlèvement pur et simple. Le chrétien ne doit pas réduire ce problème à une seule cause."
+     "texte": "Il faut le répéter : ces groupes tuent aussi beaucoup de musulmans, qu'ils jugent mauvais musulmans ou apostats. Des imams qui les condamnaient ont été assassinés. Au nord du Cameroun, musulmans et chrétiens ont souffert ensemble, et ont parfois résisté ensemble."
     }
    ]
   },
   {
    "numero": "8",
-   "titre": "L'exemple du fondateur",
-   "references": [
-    "1 P 2:21-23",
-    "Ph 2:5-8"
-   ],
+   "titre": "Ce que disent les musulmans qui condamnent la violence",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Ce que fait le chef, les disciples le font"
+     "sous_titre": "Des condamnations claires"
     },
     {
-     "texte": "Dans toute religion, les disciples regardent leur fondateur. Les musulmans considèrent Mahomet comme « le beau modèle » (sourate 33, verset 21). Or les biographies musulmanes les plus anciennes, celle d'Ibn Ishaq et celle d'al-Waqidi, rapportent qu'à Médine, Mahomet a personnellement conduit environ vingt-sept expéditions militaires, appelées « ghazwa », et en a envoyé des dizaines d'autres. Nous avons vu Badr, Uhud, la Tranchée, Khaybar. Nous avons vu aussi le sort des Banou Qurayza et l'exécution de certains poètes qui se moquaient de lui. En d'autres termes, l'homme que le musulman prend pour modèle a été à la fois prédicateur, chef d'État et chef de guerre."
+     "texte": "Il est juste de dire que des savants musulmans de très haut niveau ont condamné ces groupes. En 2004 et 2005, à Amman, en Jordanie, des centaines de savants de toutes les écoles ont signé un message qui reconnaît la validité des huit écoles et interdit de déclarer « mécréant » un musulman. En 2010, à Mardin, en Turquie, un groupe de savants a déclaré que la fatwa d'Ibn Taymiyya, utilisée par les extrémistes, ne s'applique pas aujourd'hui. En 2014, plus de cent vingt savants ont écrit une lettre ouverte au chef de l'État islamique, pour dire qu'il avait déformé l'islam. Au Nigeria et au Cameroun, des imams et des chefs musulmans ont condamné Boko Haram."
     },
     {
-     "sous_titre": "Ce que fait Jésus"
+     "sous_titre": "Leur argument"
     },
     {
-     "texte": "Jésus n'a jamais levé une armée, jamais pris une ville, jamais fait exécuter un opposant. Quand on l'a frappé, il n'a pas rendu les coups. Pierre écrit : Christ aussi a souffert pour vous, vous laissant un exemple, afin que vous suiviez ses traces… lui qui, injurié, ne rendait point d'injures, maltraité, ne faisait point de menaces, mais s'en remettait à celui qui juge justement (1 Pierre 2:21-23). Voilà pourquoi un chrétien qui tue au nom de Jésus trahit Jésus, tandis qu'un djihadiste qui tue au nom de l'islam peut, hélas, trouver des exemples dans la vie de son fondateur. C'est une différence de fond, pas de détail. Il faut la dire avec douceur, mais il faut la dire."
+     "texte": "Leur argument est le suivant. Les versets de combat ont été donnés pour une guerre précise, avec des conditions précises. Le djihad armé ne peut être déclaré que par une autorité légitime, jamais par un groupe privé. Le Coran dit que tuer une personne est comme tuer toute l'humanité (sourate 5, verset 32). Le suicide est interdit. Et les guerres de conquête appartiennent au passé. Ces arguments sont réels, et ces musulmans sont sincères. Il faut les reconnaître et les remercier."
+    },
+    {
+     "sous_titre": "Mais il faut aussi dire ceci"
+    },
+    {
+     "texte": "Voici le point délicat. Les extrémistes, eux, citent les mêmes textes, et ils ont des arguments dans les livres classiques. Ce que dit un Boko Haram n'est pas inventé : les versets, les hadiths, les opinions d'Ibn Taymiyya, la distinction entre dar al-islam et dar al-harb, tout cela existe. C'est pourquoi le débat entre musulmans est un débat entre deux lectures d'un même héritage. Le chrétien n'a pas à trancher. Mais il doit savoir que la violence a des racines dans les textes, et que dire le contraire ne règle pas le problème."
     }
    ]
   },
   {
    "numero": "9",
-   "titre": "Le martyr et le paradis",
-   "references": [
-    "Hé 11:35-36",
-    "Ps 34:19"
-   ],
+   "titre": "Le martyr et la promesse du paradis",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "La promesse faite au combattant"
+     "sous_titre": "Pourquoi un jeune accepte de mourir"
     },
     {
-     "texte": "Pourquoi un jeune homme accepte-t-il de mourir dans un attentat ? En grande partie à cause de la promesse faite au martyr. Le Coran dit : Allah a acheté des croyants leurs personnes et leurs biens en échange du paradis. Ils combattent dans le sentier d'Allah : ils tuent et ils se font tuer (sourate 9, verset 111). Et encore : ne pense pas que ceux qui ont été tués dans le sentier d'Allah soient morts. Au contraire, ils sont vivants auprès de leur Seigneur, bien pourvus (sourate 3, verset 169). Boukhari rapporte que le paradis a cent degrés qu'Allah a préparés pour ceux qui combattent dans son sentier (Boukhari, hadith 2790). Tirmidhi rapporte que le martyr est pardonné dès la première goutte de son sang, et qu'il reçoit des épouses parmi les houris (Tirmidhi, hadith 1663). Nous avons vu, dans l'enseignement sur le paradis, que c'est le seul chemin de certitude qu'offre l'islam : tous les autres musulmans ignorent s'ils seront sauvés."
+     "texte": "Pourquoi un jeune accepte-t-il de se faire exploser ? Il y a plusieurs raisons : la pauvreté, le chômage, la corruption, la peur, la drogue, l'enlèvement. Mais une raison est religieuse. Le Coran dit : Allah a acheté aux croyants leurs personnes et leurs biens en échange du paradis. Ils combattent dans le sentier d'Allah, ils tuent et ils se font tuer (sourate 9, verset 111). Et : ne pense pas que ceux qui ont été tués dans le sentier d'Allah soient morts. Au contraire, ils sont vivants auprès de leur Seigneur (sourate 3, verset 169). Le martyr est pardonné dès la première goutte de son sang, et il reçoit soixante-douze houris, selon un hadith (Tirmidhi, hadith 1663)."
     },
     {
-     "sous_titre": "Le mensonge exploité"
+     "sous_titre": "Le calcul du recruteur"
     },
     {
-     "texte": "Les recruteurs exploitent cette angoisse. Ils disent au jeune : « Tu as péché, tu ne sais pas où tu iras. Mais si tu meurs en martyr, tes péchés seront effacés et tu entreras au paradis. » Pour un jeune sans espoir, sans travail, sans avenir, c'est une offre terrible. Le chrétien, lui, a une meilleure nouvelle à annoncer : le pardon et la certitude du salut ne s'achètent pas avec du sang humain, ils ont été acquis une fois pour toutes par le sang de Jésus."
-    },
-    {
-     "sous_titre": "Le martyr chrétien"
-    },
-    {
-     "texte": "La Bible aussi parle des martyrs, mais d'une tout autre manière. Les héros de la foi d'Hébreux 11 sont ceux qui ont été torturés et n'ont pas accepté de délivrance, afin d'obtenir une meilleure résurrection ; d'autres subirent les moqueries et le fouet, les chaînes et la prison (Hébreux 11:35-36). Ils n'ont tué personne : ils ont été tués. Le malheur atteint souvent le juste, mais l'Éternel l'en délivre toujours (Psaume 34:19)."
-    },
-    {
-     "verset": "Ps 34:19"
+     "texte": "Les recruteurs savent que le musulman ordinaire ne sait jamais s'il ira au paradis. Alors ils lui disent : « Toi, tu as péché. Tu ne sais pas où tu iras. Mais si tu meurs en martyr, tout est effacé, et tu entres directement. » Pour un jeune sans travail, sans avenir, sans espoir, cette offre est terrible. Nous avons vu pourquoi : la balance des œuvres ne donne jamais de certitude, et le martyre apparaît comme le seul chemin sûr."
     }
    ]
   },
   {
    "numero": "10",
    "titre": "L'apostasie et le blasphème",
-   "references": [
-    "Ga 1:13-14",
-    "1 Tm 1:13"
-   ],
+   "references": [],
    "blocs": [
     {
      "sous_titre": "Quitter l'islam"
     },
     {
-     "texte": "Un autre aspect de la violence touche directement l'évangélisation : le sort de celui qui quitte l'islam. Boukhari rapporte : « Celui qui change de religion, tuez-le » (Boukhari, hadith 6922). Les quatre grandes écoles de droit sunnite et le droit chiite classique ont prévu la peine de mort pour l'apostat, homme adulte, souvent après un délai pour qu'il se repente. Aujourd'hui, une dizaine de pays prévoient encore la peine de mort pour l'apostasie ou le blasphème dans leurs lois, et dans beaucoup d'autres, l'apostat risque la prison, la perte de son mariage, de ses enfants, de son héritage, ou la mort de la main de sa propre famille."
+     "texte": "Il y a un dernier point qui touche directement notre sujet. Que devient celui qui quitte l'islam ? Boukhari rapporte : « Celui qui change de religion, tuez-le » (Boukhari, hadith 6922). Les quatre grandes écoles sunnites et le droit chiite classique prévoient la peine de mort pour l'apostat adulte, le plus souvent après une période pour qu'il se repente. Abou Bakr, le premier calife, a mené des guerres contre les tribus qui avaient abandonné l'islam après la mort de Mahomet : on les appelle les guerres de la « ridda », en 632 et 633."
+    },
+    {
+     "texte": "Aujourd'hui, une dizaine de pays prévoient encore la peine de mort contre l'apostasie, comme l'Arabie saoudite, le Yémen, l'Iran, la Mauritanie, le Soudan. Dans d'autres pays comme le Cameroun, la loi ne punit pas, mais la famille, le quartier, le chef peuvent exercer une pression terrible, qui va du rejet à la violence."
     },
     {
      "sous_titre": "Le blasphème"
     },
     {
-     "texte": "Dans certains pays, une simple accusation de blasphème contre le prophète suffit à provoquer un lynchage. Au Pakistan, Asia Bibi, une mère chrétienne, a passé plus de huit ans en prison, condamnée à mort pour blasphème après une dispute autour d'un verre d'eau, avant d'être acquittée en 2018 et de devoir quitter son pays. Au Nigeria, en 2022, une étudiante chrétienne, Deborah Samuel, a été lapidée et brûlée par ses camarades à Sokoto pour un message jugé blasphématoire."
+     "texte": "Dans certains pays, une simple accusation de blasphème contre Mahomet suffit pour un lynchage. Au Pakistan, Asia Bibi, une mère de famille chrétienne, est restée presque neuf ans en prison, condamnée à mort pour blasphème après une dispute autour d'un seau d'eau. Elle a été acquittée en 2018. Au Nigeria, en 2022, une étudiante chrétienne, Deborah Samuel, a été lapidée, puis brûlée, par ses camarades, après avoir été accusée de blasphème."
     },
     {
      "sous_titre": "Pourquoi c'est important pour nous"
     },
     {
-     "texte": "Cela nous apprend deux choses. D'abord, quand un musulman hésite à suivre Jésus, ce n'est pas toujours qu'il n'est pas convaincu : c'est souvent qu'il a peur, pour sa vie ou pour sa famille. Il faut le comprendre, le protéger, ne jamais l'exposer publiquement sans son accord. Ensuite, Dieu peut atteindre les persécuteurs eux-mêmes. Paul raconte : je persécutais à outrance l'Église de Dieu… j'étais animé d'un zèle excessif pour les traditions de mes pères (Galates 1:13-14). Et encore : moi qui étais auparavant un blasphémateur, un persécuteur, un homme violent. Mais j'ai obtenu miséricorde, parce que j'agissais par ignorance (1 Timothée 1:13). Le plus grand persécuteur de l'Église primitive est devenu son plus grand missionnaire."
-    },
-    {
-     "verset": "Ga 1:13-14"
-    },
-    {
-     "verset": "1 Tm 1:13"
+     "texte": "Cela nous apprend deux choses. D'abord, quand un musulman hésite à suivre Jésus, ce n'est pas toujours parce qu'il n'est pas convaincu. C'est souvent parce qu'il a peur, pour sa vie ou pour sa famille. Il faut le comprendre, le protéger, ne jamais l'exposer publiquement sans son accord. Ensuite, nous comprenons mieux le courage de ceux qui deviennent chrétiens."
     }
    ]
   },
   {
    "numero": "11",
-   "titre": "Et les croisades ?",
-   "references": [
-    "Mt 7:21-23",
-    "Jc 3:17"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Être honnête sur notre histoire"
-    },
-    {
-     "texte": "Ton ami musulman te dira peut-être : « Et vous, les chrétiens ? Les croisades, la colonisation, l'esclavage ? » Il faut répondre honnêtement. Oui, des peuples qui se disaient chrétiens ont fait la guerre au nom de la croix. Les croisades, du XIe au XIIIe siècle, ont été d'abord une réponse aux conquêtes musulmanes et à la fermeture des pèlerinages vers Jérusalem, mais elles ont aussi été marquées par des massacres terribles, comme celui de Jérusalem en 1099, et même par le pillage d'une ville chrétienne, Constantinople, en 1204. La traite atlantique, la colonisation, ont été couvertes trop souvent par des hommes d'Église. Nous devons le reconnaître sans détour, et même en demander pardon."
-    },
-    {
-     "sous_titre": "Mais la différence demeure"
-    },
-    {
-     "texte": "Il y a cependant une différence décisive. Quand un chrétien tue au nom du Christ, il désobéit aux paroles et à l'exemple du Christ. Aucun verset du Nouveau Testament ne commande aux disciples de combattre les incroyants ou de les soumettre à un impôt. Jésus a dit : ceux qui me disent « Seigneur, Seigneur » n'entreront pas tous dans le royaume des cieux (Matthieu 7:21). Le vrai disciple se reconnaît à la sagesse d'en haut, qui est d'abord pure, ensuite pacifique, modérée, conciliante, pleine de miséricorde et de bons fruits (Jacques 3:17). Il faut aussi rappeler, pour être complet, que la traite des esclaves africains vers le monde arabe et musulman, à travers le Sahara et l'océan Indien, a duré plus de mille ans, et qu'elle est peu enseignée. Aucune histoire humaine n'est innocente. C'est pourquoi nous ne prêchons pas une civilisation, mais un Sauveur."
-    }
-   ]
-  },
-  {
-   "numero": "12",
-   "titre": "La réponse du chrétien",
-   "references": [
-    "Pr 25:21-22",
-    "Jn 15:13"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Ni peur"
-    },
-    {
-     "texte": "Jésus avait prévenu : l'heure vient où quiconque vous fera mourir croira rendre un culte à Dieu. Et ils agiront ainsi, parce qu'ils n'ont connu ni le Père ni moi (Jean 16:2-3). Le chrétien n'a pas à vivre dans la peur. Il peut prendre des précautions sages, mais il sait que sa vie est entre les mains de Dieu."
-    },
-    {
-     "sous_titre": "Ni haine"
-    },
-    {
-     "texte": "Jésus a dit : aimez vos ennemis, bénissez ceux qui vous maudissent, faites du bien à ceux qui vous haïssent, et priez pour ceux qui vous maltraitent et qui vous persécutent (Matthieu 5:44). Le livre des Proverbes dit : si ton ennemi a faim, donne-lui à manger ; s'il a soif, donne-lui à boire. Car ce sont des charbons ardents que tu amasses sur sa tête, et l'Éternel te récompensera (Proverbes 25:21-22). Ces paroles sont difficiles pour ceux qui ont perdu des proches. Mais elles sont la seule réponse qui brise le cycle de la vengeance."
-    },
-    {
-     "verset": "Pr 25:21-22"
-    },
-    {
-     "sous_titre": "L'amour qui donne sa vie"
-    },
-    {
-     "texte": "Jésus a dit : il n'y a pas de plus grand amour que de donner sa vie pour ses amis (Jean 15:13). Le martyr chrétien ne tue pas : il donne sa vie. Dans le nord du Nigeria et du Cameroun, des pasteurs, des catéchistes, des fidèles ont été tués parce qu'ils refusaient de renier Christ. Leur sang est une semence. Et des membres de groupes armés se sont convertis à Christ, touchés par le pardon de ceux qu'ils avaient fait souffrir."
-    },
-    {
-     "verset": "Jn 15:13"
-    },
-    {
-     "sous_titre": "On raconte…"
-    },
-    {
-     "texte": "On raconte qu'une veuve de l'Extrême-Nord, dont le mari, catéchiste, avait été tué lors d'une attaque, reçut des années plus tard la visite d'un jeune homme repenti, ancien combattant, qui avait participé à cette attaque. Il tremblait. Elle le regarda longtemps, puis dit : « Mon mari priait pour vous. Il disait que Jésus aime même ceux qui nous tuent. Je ne peux pas oublier, mais au nom de Jésus, je te pardonne. » Le jeune homme tomba à genoux et pleura. Ce pardon-là, aucune bombe ne peut le produire."
-    }
-   ]
-  },
-  {
-   "numero": "13",
-   "titre": "Comment en parler avec un ami musulman",
-   "references": [
-    "Rm 12:18",
-    "Col 4:6"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Ne pas accuser"
-    },
-    {
-     "texte": "Ne dis jamais à un ami musulman : « Ta religion est une religion de terroristes. » Il se sentira insulté, et il aura en partie raison, car lui-même n'est pas un terroriste. Commence plutôt par partager votre douleur commune devant les violences, et par reconnaître ceux qui, parmi les musulmans, ont protégé des chrétiens."
-    },
-    {
-     "sous_titre": "Poser les vraies questions"
-    },
-    {
-     "texte": "Quand la confiance est là, tu peux poser des questions honnêtes : « Comment comprends-tu le verset 5 et le verset 29 de la sourate 9 ? Comment réponds-tu à ceux qui disent qu'ils ont abrogé les versets de paix ? » Puis tu peux lui montrer le contraste avec Jésus, qui a guéri l'oreille de celui qui venait l'arrêter et qui a prié pour ceux qui le crucifiaient."
-    }
-   ]
-  },
-  {
-   "numero": "14",
    "titre": "Ce que nous retenons",
-   "references": [
-    "Mt 5:9",
-    "Rm 12:21"
-   ],
+   "references": [],
    "blocs": [
     {
      "sous_titre": "Résumons"
     },
     {
-     "texte": "Le mot djihad veut dire « effort ». Il peut désigner une lutte spirituelle, mais dans les textes classiques il désigne surtout le combat armé. Le Coran contient des versets de paix, comme « nulle contrainte en religion », et des versets de combat, comme le verset de l'épée et l'ordre de combattre les gens du Livre jusqu'à ce qu'ils paient l'impôt en étant humiliés. La règle de l'abrogation a conduit beaucoup de savants classiques à privilégier les versets de combat. Le droit classique a établi le statut de dhimmi pour les chrétiens et les juifs. L'islam s'est étendu par des conquêtes, et, au nord du Cameroun, par le djihad peul de Modibo Adama au XIXe siècle. Aujourd'hui, des groupes comme Boko Haram s'appuient sur ces textes et sur la promesse faite aux martyrs pour tuer, y compris des musulmans. Le fondateur de l'islam a été un chef de guerre, et la promesse du paradis au martyr reste le grand levier des recruteurs. La loi classique punit de mort l'apostat. La plupart des musulmans rejettent pourtant ces violences, et nous devons aussi reconnaître les fautes commises au nom du Christ."
+     "texte": "Le mot djihad veut dire « effort ». Il peut désigner la lutte spirituelle, mais dans les textes classiques il désigne surtout le combat armé. Le Coran contient des versets de patience, de permission, de défense, puis d'offensive, dont le verset de l'épée et l'ordre de combattre les gens du Livre jusqu'à la jizya. Beaucoup de savants anciens ont enseigné que ces derniers abrogent les premiers. Le droit classique divise le monde en maison de l'islam et maison de la guerre, et fait du djihad une obligation collective. Les conquêtes ont fait disparaître beaucoup d'Églises. Au nord du Cameroun, le djihad peul du XIXe siècle a fondé les lamidats. Boko Haram est né dans la même région, avec les mêmes textes. Des savants musulmans condamnent fermement ces groupes. Mais les textes existent, et il ne faut pas faire semblant."
     },
     {
-     "sous_titre": "Vaincre le mal par le bien"
+     "sous_titre": "Ce que le chrétien retient"
     },
     {
-     "texte": "Le chrétien répond par la vérité, sans naïveté, et par l'amour, sans peur ni haine. Il suit le Prince de la paix. Ne te laisse pas vaincre par le mal, mais surmonte le mal par le bien (Romains 12:21)."
+     "texte": "Le chrétien retient qu'il ne faut ni naïveté, ni haine. Il est sincère de croire un voisin qui dit « je suis contre la violence ». Mais il est aussi honnête de savoir ce que disent les livres. Il se prépare pour la série « Face à face », où nous regarderons ce que Jésus a dit et fait : quand Pierre tira l'épée, Jésus lui dit de remettre son épée dans le fourreau (Jean 18:11). Et Jésus a dit : heureux ceux qui procurent la paix, car ils seront appelés fils de Dieu (Matthieu 5:9)."
     },
     {
-     "texte": "Dans le prochain enseignement, nous découvrirons les grands courants de l'islam : sunnites, chiites, soufis et confréries, salafistes, et l'islam populaire des marabouts en Afrique."
+     "texte": "Dans le prochain enseignement, nous parlerons du mensonge permis. Puis nous étudierons les grands courants de l'islam."
     }
    ]
   }
@@ -473,12 +370,23 @@
    "question": "Que veut dire le mot djihad ?",
    "choix": [
     "Guerre sainte uniquement",
-    "Effort, lutte",
+    "Effort, lutte, et aussi combat armé",
     "Prière"
    ],
    "reponse": 1,
-   "explication": "Il peut désigner un effort spirituel, mais dans les textes classiques il désigne surtout le combat armé.",
+   "explication": "Il a un sens spirituel et un sens armé.",
    "section": "1"
+  },
+  {
+   "question": "Quel est le premier verset qui permet le combat à Médine ?",
+   "choix": [
+    "Le verset de l'épée",
+    "Celui qui permet de combattre ceux qui ont été lésés (sourate 22, verset 39)",
+    "Le verset du trône"
+   ],
+   "reponse": 1,
+   "explication": "C'est une permission défensive.",
+   "section": "2"
   },
   {
    "question": "Comment s'appelle le verset qui ordonne de tuer les associateurs où qu'on les trouve ?",
@@ -488,8 +396,8 @@
     "Le verset de la lumière"
    ],
    "reponse": 1,
-   "explication": "Beaucoup de savants classiques ont considéré qu'il abrogeait des versets de tolérance.",
-   "section": "3"
+   "explication": "Beaucoup de savants classiques l'ont dit abrogeant les versets de patience.",
+   "section": "2"
   },
   {
    "question": "Que demande la sourate 9, verset 29, aux gens du Livre ?",
@@ -499,8 +407,30 @@
     "De quitter l'Arabie"
    ],
    "reponse": 1,
-   "explication": "C'est le fondement du statut de dhimmi et de la jizya.",
+   "explication": "C'est le fondement de la jizya.",
+   "section": "2"
+  },
+  {
+   "question": "Que sont la « dar al-islam » et la « dar al-harb » ?",
+   "choix": [
+    "Deux écoles de droit",
+    "La maison de l'islam et la maison de la guerre",
+    "Deux sourates"
+   ],
+   "reponse": 1,
+   "explication": "Le droit classique divise le monde ainsi.",
    "section": "3"
+  },
+  {
+   "question": "Quel statut reçoit le chrétien qui paie l'impôt sous la domination musulmane ?",
+   "choix": [
+    "Citoyen égal",
+    "Dhimmi, protégé de seconde catégorie",
+    "Musulman honoraire"
+   ],
+   "reponse": 1,
+   "explication": "Le pacte d'Omar énumère des conditions.",
+   "section": "4"
   },
   {
    "question": "Qui a fondé l'émirat de l'Adamaoua et les lamidats du nord du Cameroun ?",
@@ -510,7 +440,7 @@
     "Abou Bakr"
    ],
    "reponse": 1,
-   "explication": "Le djihad peul du XIXe siècle a installé l'islam peul au nord du Cameroun.",
+   "explication": "Le djihad peul du XIXe siècle.",
    "section": "6"
   },
   {
@@ -521,24 +451,24 @@
     "Les gens du Livre"
    ],
    "reponse": 1,
-   "explication": "Le groupe est né à Maiduguri au début des années 2000.",
+   "explication": "Le groupe est né à Maiduguri.",
    "section": "7"
   },
   {
-   "question": "Que dit Jésus à Pierre quand il tire l'épée, selon Jean 18:11 ?",
+   "question": "Quelle peine prévoit le hadith de Boukhari 6922 pour celui qui change de religion ?",
    "choix": [
-    "Frappe-les",
-    "Remets ton épée dans le fourreau ; ne boirai-je pas la coupe que le Père m'a donnée ?",
-    "Fuis"
+    "Une amende",
+    "La mort",
+    "La prison"
    ],
    "reponse": 1,
-   "explication": "Jésus avait le pouvoir de détruire ses ennemis ; il a choisi de mourir pour eux.",
-   "section": "3"
+   "explication": "Il fonde la peine de l'apostat.",
+   "section": "10"
   }
  ],
  "devoir": [
-  "Lis Matthieu 5:38-48 et Romains 12:14-21. Écris comment ces textes s'appliquent à ta situation.",
   "Renseigne-toi sur l'histoire de ta propre région : comment l'islam y est-il arrivé ?",
+  "Lis Matthieu 5:38-48 et Romains 12:14-21. Écris comment ces textes s'appliquent à ta situation.",
   "Prie cette semaine pour un membre d'un groupe armé, afin qu'il rencontre Jésus."
  ],
  "prieres_liees": [],
