@@ -1,0 +1,93 @@
+{
+ "id": "essai-encadreur",
+ "titre": "Fiche d'essai de l'encadreur",
+ "introduction": [
+  "Tu fais partie de l'essai. Pendant six semaines, accompagne une ou deux personnes avec l'application, et note honnêtement ce qui marche et ce qui ne marche pas. Ce que tu écris servira à corriger l'application avant de la donner à d'autres encadreurs.",
+  "Coche chaque chose quand tu l'as testée. Écris une remarque quand quelque chose t'a gêné, surpris ou aidé. Ensuite, touche « Envoyer mon compte rendu » : le texte se prépare tout seul pour WhatsApp.",
+  "Ne mets jamais le nom complet d'un converti, ni son village, ni des détails qui permettraient de le reconnaître. Écris seulement son prénom, ou une lettre."
+ ],
+ "sections": [
+  {
+   "id": "a",
+   "titre": "A. Pour commencer",
+   "items": [
+    "J'ai installé l'application sur mon téléphone et je l'ai ouverte sans réseau, pour voir ce qui marche.",
+    "J'ai lu la page « Former le chrétien » et la rencontre d'accueil avant de voir le converti.",
+    "J'ai ouvert « Mes disciples » et inscrit mon premier converti, avec son prénom seulement.",
+    "J'ai noté le code à donner au converti et je lui ai expliqué à quoi il sert."
+   ]
+  },
+  {
+   "id": "b",
+   "titre": "B. Le téléphone du converti",
+   "items": [
+    "Le converti a ouvert l'application et entré son code sans mon aide, ou avec peu d'aide.",
+    "Il a réussi à lire la fiche du pas 1 sur son écran (taille des lettres, couleurs, défilement).",
+    "Il a pu écrire ses réponses, fermer l'application, la rouvrir, et retrouver ce qu'il avait écrit.",
+    "Je l'ai testé quand il n'y avait plus de réseau : ses réponses ne se sont pas perdues.",
+    "Si le converti lit mal ou n'a pas de smartphone, j'ai essayé la fiche vierge à imprimer ou à copier à la main."
+   ]
+  },
+  {
+   "id": "c",
+   "titre": "C. Le suivi à distance",
+   "items": [
+    "J'ai vu sur mon téléphone que le converti avait répondu (le nombre de réponses a changé).",
+    "J'ai vu ses réponses en entier avant la rencontre.",
+    "Après la rencontre, j'ai remis le pas suivant, et il est apparu sur son téléphone.",
+    "Je sais retrouver où il en est sans me tromper, et retrouver mes notes."
+   ]
+  },
+  {
+   "id": "d",
+   "titre": "D. La rencontre",
+   "items": [
+    "J'ai suivi le guide de l'encadreur pendant une vraie rencontre.",
+    "Le temps annoncé (environ deux heures) était juste, trop long ou trop court. J'ai noté le temps réel.",
+    "Les questions étaient claires pour le converti, sans mots trop difficiles.",
+    "Les réponses attendues et les explications m'ont aidé, ou m'ont gêné parce qu'elles étaient trop courtes ou trop longues.",
+    "J'ai prié avec lui et récité le verset à mémoriser.",
+    "J'ai fait un bilan de vie (pas 1) avec lui, avec son accord, et j'ai su quoi faire des points difficiles."
+   ]
+  },
+  {
+   "id": "e",
+   "titre": "E. Le contenu",
+   "items": [
+    "J'ai trouvé au moins une question qui n'est pas claire (je l'ai écrite dans les remarques).",
+    "J'ai trouvé au moins une explication ou une réponse attendue qui me semble fausse ou incomplète.",
+    "Le vocabulaire convient à mon converti (pas de mot trop savant).",
+    "Les exemples (marché, famille, village) parlent à mon converti.",
+    "Les passages de la Bible proposés pour la lecture de la semaine étaient réalistes."
+   ]
+  },
+  {
+   "id": "f",
+   "titre": "F. Sécurité et discrétion",
+   "items": [
+    "J'ai vérifié que le bilan de vie est protégé par un code, et que personne d'autre ne peut l'ouvrir.",
+    "J'ai demandé à mon converti s'il se sent en sécurité chez lui avec l'application sur son téléphone.",
+    "Si c'est un ancien musulman, j'ai lu la page « Tu accompagnes un ancien musulman ? » avant la première rencontre.",
+    "J'ai vérifié que rien d'important n'apparaît sur l'écran verrouillé (messages, notifications).",
+    "J'ai su où s'arrêter et à qui demander conseil pour les cas graves (violence, menace, pensées de mort)."
+   ]
+  },
+  {
+   "id": "g",
+   "titre": "G. À la fin de la sixième semaine",
+   "items": [
+    "Je peux dire combien de pas mon converti a terminés, et combien de temps cela m'a pris.",
+    "J'ai demandé au converti ce qui l'a aidé et ce qui l'a gêné.",
+    "J'ai noté ce qui m'a le plus manqué comme encadreur (rappels, résumé, formation, autre).",
+    "Je sais si je pourrais accompagner trois ou quatre personnes en même temps. J'ai écrit pourquoi oui ou pourquoi non."
+   ]
+  }
+ ],
+ "questions_finales": [
+  "Qu'est-ce qui marche très bien et qu'il ne faut surtout pas changer ?",
+  "Qu'est-ce qui t'a le plus agacé ou fait perdre du temps ?",
+  "Qu'est-ce qui manque pour que tu accompagnes plus de monde ?",
+  "Qu'est-ce que le converti a le plus aimé ?"
+ ],
+ "conseil": "Si quelque chose est dangereux pour un converti, ne le mets pas dans le compte rendu : appelle directement la personne responsable de l'essai."
+}

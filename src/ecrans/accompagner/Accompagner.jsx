@@ -8,6 +8,7 @@ import { lireReference, ecrireReference } from '../../bible/references.js';
 import { aller, remplacer, retourVers, revenirOuRemplacer } from '../../outils/routeur.js';
 import { useSignal } from '../../outils/signal.js';
 import { compter } from '../../donnees/mesure.js';
+import { partager, copier } from '../../outils/partage.js';
 import {
   lireCarnet, ecrireCarnet, marquerEnCours, lireBilan, ecrireBilan, effacerBilan,
   aUnCode, definirCode, verifierCode, bilanOuvert, ouvrirBilan, lireDisciples, ecrireDisciples,
@@ -142,7 +143,11 @@ export function EspaceEncadreur() {
         </a>); })}
       <a class="bouton bouton--or" style="width:100%;margin-top:12px" href="#/accompagner/encadreur/nouveau">+ Inscrire un nouveau converti</a>
       {!l.length && <p class="ligne__desc" style="margin:12px 4px">Commence par inscrire la personne que tu accompagnes : tu recevras un code à lui donner.</p>}
-      <a class="carte ligne" style="margin-top:16px" href="#/grandir/enseignement/islam-25-suivi">
+      <a class="carte ligne" style="margin-top:16px" href="#/accompagner/essai">
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Tu fais partie de l'essai ?</span><span class="ligne__desc">La liste de ce que tu dois tester, et ton compte rendu à envoyer.</span></span>
+        <Icone nom="chevron" taille={20} />
+      </a>
+      <a class="carte ligne" style="margin-top:10px" href="#/grandir/enseignement/islam-25-suivi">
         <span class="ligne__corps"><span class="ligne__titre" style="display:block">Tu accompagnes un ancien musulman ?</span><span class="ligne__desc">Méthode, précautions, thèmes à aborder pas à pas, et outils adaptés.</span></span>
         <Icone nom="chevron" taille={20} />
       </a>
@@ -449,6 +454,45 @@ export function Orientations() {
         <details class="carte bloc acc-plus"><summary><b>{o.titre}</b></summary>
           <ul class="acc-liste">{o.orientations.map((t) => <li><TexteRefs texte={t} /></li>)}</ul><Refs refs={o.versets} /></details>
       ))}
+    </div>
+  );
+}
+
+
+// ---------- Fiche d'essai de l'encadreur ----------
+const cleEssai = 'yeshaya:essai';
+const lireEssai = () => { try { return JSON.parse(localStorage.getItem(cleEssai)) || { c: {}, r: {}, f: {} }; } catch { return { c: {}, r: {}, f: {} }; } };
+export function Essai() {
+  const etat = useFiche('essai-encadreur'), f = etat.f;
+  const [e, setE] = useState(lireEssai);
+  if (!f) return <Attente etat={etat} />;
+  const maj = (cle, sous, v) => { const n = { ...e, [cle]: { ...e[cle], [sous]: v } }; setE(n); try { localStorage.setItem(cleEssai, JSON.stringify(n)); } catch {} };
+  const total = f.sections.reduce((s, x) => s + x.items.length, 0), faits = f.sections.reduce((s, x) => s + x.items.filter((_, k) => e.c[x.id + k]).length, 0);
+  const texte = () => {
+    let s = "Compte rendu de l'essai (Former le chrétien)\n" + faits + ' points testés sur ' + total + '\n';
+    f.sections.forEach((x) => { s += '\n' + x.titre + '\n'; x.items.forEach((it, k) => { s += (e.c[x.id + k] ? '[x] ' : '[ ] ') + it + '\n'; }); if ((e.r[x.id] || '').trim()) s += 'Remarques : ' + e.r[x.id].trim() + '\n'; });
+    s += '\nBilan\n'; f.questions_finales.forEach((q, k) => { s += q + '\n' + ((e.f[k] || '').trim() || '(sans réponse)') + '\n'; });
+    return s;
+  };
+  const envoyer = async () => { const r = await partager({ titre: "Compte rendu de l'essai", texte: texte() }); if (r === 'whatsapp') notifier('WhatsApp ouvert'); };
+  const copierTout = async () => notifier((await copier(texte())) ? 'Compte rendu copié' : 'Copie impossible');
+  const zone = { width: '100%', minHeight: '64px', marginTop: '6px', padding: '8px', borderRadius: '10px', border: '1px solid var(--bord, #ccc)', font: 'inherit', background: 'transparent', color: 'inherit' };
+  return (
+    <div class="page">
+      <h2 style="margin:14px 4px 2px">{f.titre}</h2>
+      {f.introduction.map((t) => <p class="ligne__desc" style="margin:0 4px 8px">{t}</p>)}
+      <p class="pastille pastille--or" style="display:inline-block;margin:4px">{faits} sur {total} points testés</p>
+      {f.sections.map((x) => (
+        <section class="carte bloc"><h3 style="margin-top:0">{x.titre}</h3>
+          {x.items.map((it, k) => <label style="display:flex;gap:10px;align-items:flex-start;margin:8px 0;line-height:1.35"><input type="checkbox" checked={!!e.c[x.id + k]} onChange={(ev) => maj('c', x.id + k, ev.target.checked)} style="margin-top:3px;width:20px;height:20px;flex:none" /><span>{it}</span></label>)}
+          <label class="ligne__desc">Mes remarques</label>
+          <textarea style={zone} value={e.r[x.id] || ''} onInput={(ev) => maj('r', x.id, ev.target.value)} placeholder="Ce qui a marché, ce qui a gêné, ce que je changerais" />
+        </section>))}
+      <section class="carte bloc"><h3 style="margin-top:0">Mon bilan</h3>
+        {f.questions_finales.map((q, k) => <div style="margin-bottom:10px"><b>{q}</b><textarea style={zone} value={e.f[k] || ''} onInput={(ev) => maj('f', k, ev.target.value)} /></div>)}
+        <p class="ligne__desc">{f.conseil}</p>
+        <div class="acc-actions"><button class="bouton bouton--or" onClick={envoyer}>Envoyer mon compte rendu</button><button class="bouton bouton--contour" onClick={copierTout}>Copier le texte</button></div>
+      </section>
     </div>
   );
 }
