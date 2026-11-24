@@ -4,412 +4,419 @@
  "serie": "L'islam de A à Z",
  "theme": "Islam",
  "auteur": "Yeshaya",
- "resume": "Qui était Mahomet avant de devenir le prophète de l'islam ? Il a été un enfant orphelin, un berger, un commerçant honnête, le mari de Khadija, et un homme qui allait réfléchir seul dans une grotte. Puis, à quarante ans, il a vécu une expérience qui l'a terrifié : un être l'a saisi, l'a serré jusqu'à l'étouffer, et lui a ordonné : « Lis ! ». Cet enseignement raconte ce que disent les livres des musulmans, et montre comment la Bible nous aide à discerner.",
+ "resume": "Qui était Mahomet avant de devenir le prophète de l'islam ? D'où venait sa famille ? Pourquoi son père a-t-il failli être sacrifié par son propre grand-père ? Comment s'est passée sa naissance, son enfance dans le désert chez la nourrice Halima, la mort de sa mère sur la route, sa vie chez son grand-père puis chez son oncle ? Comment est-il devenu berger, puis commerçant, puis le mari de la riche Khadija ? Et que s'est-il passé, une nuit de ramadan, dans la grotte de Hira ? La première partie de la vie de Mahomet, racontée en détail d'après les livres des musulmans.",
  "image": "/assets/lieux-bibliques/grotte.webp",
  "verset_de_base": "1 Jn 4:1",
- "lecture_minutes": 32,
+ "lecture_minutes": 39,
  "objectifs": [
-  "Connaître l'enfance et la jeunesse de Mahomet, selon les livres des musulmans.",
-  "Comprendre la place de Khadija dans sa vie.",
-  "Connaître le récit de la première « révélation » dans la grotte de Hira, tel que le raconte Boukhari.",
-  "Voir les doutes et la grande tristesse de Mahomet après cette expérience.",
-  "Apprendre à discerner les esprits avec la Bible, avec vérité et avec respect."
+  "Connaître la famille et les ancêtres de Mahomet.",
+  "Connaître l'histoire de sa naissance et de son enfance, selon la tradition musulmane.",
+  "Connaître sa jeunesse : berger, la guerre sacrilège, le pacte des vertueux, le commerçant honnête.",
+  "Connaître son mariage avec Khadija, sa famille, Zayd et Ali.",
+  "Connaître en détail le récit de la grotte de Hira et du silence qui a suivi.",
+  "Connaître les premiers croyants."
  ],
- "introduction": "Pour un musulman, Mahomet n'est pas un homme comme les autres. Il est « le sceau des prophètes », c'est-à-dire le dernier envoyé de Dieu. Il est le modèle parfait que chaque croyant doit imiter, même dans les plus petits gestes : la manière de manger, de dormir, de se laver, de saluer. Quand un musulman prononce son nom, il ajoute toujours : « que la paix et la bénédiction d'Allah soient sur lui ». Et une parole contre lui peut provoquer une très grande colère.\n\nIl faut donc parler de lui avec sérieux. Il faut respecter les personnes, même si nous ne partageons pas leur foi.\n\nMais le chrétien a le droit, et même le devoir, de connaître les faits. Pourquoi ? Parce que la Bible nous demande d'éprouver les esprits, pour savoir s'ils viennent de Dieu (1 Jean 4:1). Et pour vérifier un message, il faut savoir d'où il vient et comment il est arrivé.\n\nDans cet enseignement, nous allons suivre la vie de Mahomet jusqu'à sa première expérience dans la grotte de Hira. Nous allons nous appuyer sur les livres que les musulmans eux-mêmes considèrent comme les plus sûrs : le Coran, le recueil de Boukhari, le recueil de Mouslim, et l'histoire de sa vie écrite par Ibn Ishaq.\n\nUn petit mot sur son nom. En arabe, il s'appelle Muhammad, ce qui veut dire « celui qui est loué ». En français, on dit traditionnellement Mahomet. Les deux noms désignent la même personne. Quand tu parles avec un ami musulman, il vaut mieux dire Muhammad. Il le prendra comme une marque de respect.",
+ "introduction": "Pour un musulman, Mahomet n'est pas un homme comme les autres. Il est « le sceau des prophètes », le dernier envoyé de Dieu. Il est le modèle parfait, que chaque croyant doit imiter jusque dans les plus petits gestes : la manière de manger, de dormir, de se laver, de saluer, d'entrer dans une maison. Quand un musulman prononce son nom, il ajoute toujours une bénédiction. Et une parole contre lui peut provoquer une très grande colère.\n\nIl faut donc connaître sa vie. Sans cela, on ne comprend rien à l'islam. Dans cet enseignement et dans les deux suivants, nous allons raconter cette vie en détail, d'après les livres que les musulmans eux-mêmes considèrent comme les plus sûrs. D'abord, la plus ancienne histoire de sa vie, écrite par un savant de Médine appelé Ibn Ishaq, environ cent vingt ans après sa mort. Ensuite, les grands recueils de hadiths, surtout ceux de Boukhari et de Mouslim. Et bien sûr, le Coran.\n\nUne remarque sur son nom. En arabe, il s'appelle Muhammad, ce qui veut dire « celui qui est loué ». En français, on dit traditionnellement Mahomet. Les deux noms désignent la même personne. Quand tu parles avec un ami musulman, il vaut mieux dire Muhammad. Il le prendra comme une marque de respect.\n\nUne deuxième remarque. Beaucoup de détails de son enfance sont racontés par la tradition, mais les historiens ne peuvent pas tous les vérifier. Quand un récit ressemble à une légende pieuse, nous le dirons. Écoutons maintenant cette histoire depuis le début.",
  "sections": [
   {
    "numero": "1",
-   "titre": "Un enfant né orphelin",
-   "references": [
-    "Ps 68:6",
-    "Ps 27:10"
-   ],
+   "titre": "La famille de Mahomet",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Sa naissance"
+     "sous_titre": "Une longue généalogie"
     },
     {
-     "texte": "Selon la tradition, Mahomet est né à La Mecque vers l'an 570. C'est l'année de l'éléphant, dont nous avons parlé dans l'enseignement précédent. Il appartient à la tribu de Quraych, et à une famille de cette tribu qui s'appelle les Banou Hachim. C'est une famille respectée, mais pas très riche."
+     "texte": "Comme tous les Arabes, Mahomet connaissait la liste de ses ancêtres. La voici : Muhammad, fils d'Abdallah, fils d'Abd al-Mouttalib, fils de Hachim, fils d'Abd Manaf, fils de Qusayy. Tu te souviens de Qusayy ? Nous l'avons rencontré dans le premier enseignement de l'histoire : c'est l'ancêtre qui avait organisé La Mecque et pris le contrôle de la Kaaba pour la tribu de Quraych. Mahomet appartenait donc à une famille noble de cette tribu."
     },
     {
-     "texte": "Son père s'appelait Abdallah. Il est mort pendant un voyage, avant la naissance de son fils. L'enfant est donc né orphelin de père."
+     "texte": "La famille de Mahomet s'appelle le clan des Banou Hachim, du nom de son arrière-grand-père. C'était un clan respecté, mais au temps de Mahomet, il n'était plus le plus riche ni le plus puissant de La Mecque. Un autre clan, celui des Banou Oumayya, était plus riche. Cette rivalité entre les deux clans va durer longtemps, et même après la mort de Mahomet."
     },
     {
-     "texte": "À cette époque, les familles de La Mecque avaient une coutume. Elles confiaient leurs bébés à une nourrice du désert. On pensait que l'air du désert rendait les enfants plus forts, et qu'ils y apprenaient un arabe plus pur. Mahomet a donc été confié à une nourrice appelée Halima. Il a passé ses premières années sous la tente, dans le désert."
+     "sous_titre": "Hachim, l'homme qui émiettait le pain"
     },
     {
-     "sous_titre": "L'enfant à qui on aurait ouvert la poitrine"
+     "texte": "L'arrière-grand-père de Mahomet s'appelait en réalité Amr. Selon la tradition, une année de grande famine, il est allé chercher de la farine en Syrie. De retour à La Mecque, il a fait cuire du pain, il l'a émietté dans un grand bouillon de viande, et il a nourri toute la ville. Depuis ce jour, on l'a appelé « Hachim », ce qui veut dire « celui qui émiette ». On dit aussi que c'est lui qui a organisé les deux grandes caravanes de l'année : celle de l'hiver vers le Yémen, et celle de l'été vers la Syrie. Il est mort pendant un voyage, à Gaza."
     },
     {
-     "texte": "Les livres musulmans racontent un épisode étrange de cette période. Mouslim le raconte ainsi. L'enfant jouait avec d'autres enfants. L'ange Gabriel est venu. Il l'a saisi, l'a couché par terre, et lui a ouvert la poitrine. Il a retiré son cœur, puis il a enlevé du cœur un caillot de sang, en disant : « Ceci était la part de Satan en toi. » Ensuite, il a lavé le cœur dans un bassin en or avec l'eau de Zamzam, et il l'a remis à sa place. Les autres enfants ont couru dire à la nourrice : « Muhammad a été tué ! » On lit ce récit dans Mouslim, au hadith 162."
+     "sous_titre": "Abd al-Mouttalib et le puits de Zamzam"
     },
     {
-     "texte": "Selon Ibn Ishaq, la nourrice Halima a eu très peur. Elle a ramené l'enfant chez sa mère, parce qu'elle craignait qu'il soit touché par un esprit."
+     "texte": "Le grand-père de Mahomet s'appelait Chayba, mais on l'appelait Abd al-Mouttalib. C'était un chef respecté de La Mecque. La tradition raconte qu'avec le temps, le puits de Zamzam avait été rempli de terre et oublié. Personne ne savait plus où il se trouvait. Une nuit, Abd al-Mouttalib a vu en rêve une voix qui lui disait de creuser à un certain endroit. Il a creusé avec son seul fils de l'époque, et il a retrouvé le puits. Depuis ce jour, c'est sa famille qui avait l'honneur de donner l'eau de Zamzam aux pèlerins."
     },
     {
-     "texte": "Pour le musulman, ce récit montre que Mahomet a été purifié dès son enfance. Le chrétien remarque simplement deux choses."
+     "sous_titre": "Le vœu terrible"
     },
     {
-     "texte": "La première chose : ce récit reconnaît qu'il y avait en Mahomet, comme en tout homme, « une part de Satan »."
+     "texte": "Pendant qu'il creusait, les autres familles de Quraych se moquaient de lui, parce qu'il n'avait qu'un seul fils pour l'aider. Alors, selon Ibn Ishaq, Abd al-Mouttalib a fait un vœu terrible. Il a juré que si Dieu lui donnait dix fils, et qu'ils grandissaient assez pour le protéger, il en sacrifierait un à Dieu, devant la Kaaba."
     },
     {
-     "texte": "La deuxième chose : la Bible ne connaît pas de purification du cœur par une opération sur le corps. Dieu promet de changer le cœur par son Esprit. Il dit : je vous donnerai un cœur nouveau, et je mettrai en vous un esprit nouveau (Ézéchiel 36:26). C'est ce que Jésus appelle « naître de nouveau » (Jean 3:3-6). En d'autres termes, Dieu ne lave pas notre cœur avec de l'eau dans un bassin. Il nous donne un cœur nouveau quand nous croyons en Jésus."
+     "texte": "Les années ont passé, et il a eu dix fils. Il a dû tenir sa promesse. Il les a conduits devant l'idole Houbal, à l'intérieur de la Kaaba. Le gardien a tiré les flèches du sort pour savoir lequel serait sacrifié. La flèche est tombée sur le plus jeune, celui qu'il aimait le plus : Abdallah, le futur père de Mahomet."
     },
     {
-     "sous_titre": "Orphelin de mère, puis de grand-père"
+     "texte": "Abd al-Mouttalib a pris son couteau et il a conduit son fils vers le lieu du sacrifice. Mais les gens de Quraych l'en ont empêché. Ils lui ont dit : « Si tu fais cela, tous les pères feront de même avec leurs fils. » Ils sont allés consulter une devineresse. Elle a dit : mettez d'un côté dix chameaux, le prix du sang d'un homme, et de l'autre côté le jeune homme, et tirez les flèches. Si la flèche tombe sur le jeune homme, ajoutez dix chameaux, et recommencez, jusqu'à ce que la flèche tombe sur les chameaux. On a recommencé encore et encore. La flèche est tombée sur Abdallah dix fois de suite. À la dixième fois, avec cent chameaux, elle est enfin tombée sur les chameaux. Les cent chameaux ont été sacrifiés à la place d'Abdallah, et sa vie a été sauvée."
     },
     {
-     "texte": "Quand Mahomet a six ans, sa mère, Amina, meurt à son tour. Son grand-père, Abd al-Mouttalib, un chef respecté, le prend chez lui. Mais le grand-père meurt deux ans plus tard. L'enfant est alors confié à son oncle, Abou Talib. C'est un commerçant qui va l'aimer et le protéger toute sa vie. Mais Abou Talib ne deviendra jamais musulman."
+     "texte": "C'est pourquoi, dans la tradition musulmane, on appelle Mahomet « le fils des deux sacrifiés » : Ismaël, son lointain ancêtre, qui selon les musulmans fut remplacé par un bélier, et Abdallah, son père, remplacé par cent chameaux."
     },
     {
-     "texte": "On peut imaginer la blessure de cet enfant. Il n'a jamais connu son père. Il a perdu sa mère à six ans. Il a perdu son grand-père à huit ans. Le Coran garde le souvenir de cette enfance. Il dit à Mahomet : ne t'a-t-il pas trouvé orphelin, et il t'a donné un refuge ? (sourate 93, verset 6). Cela explique peut-être pourquoi le Coran parle tellement du respect des orphelins."
+     "sous_titre": "Abdallah et Amina"
     },
     {
-     "texte": "Le chrétien peut avoir de la compassion pour cet enfant. Le psaume dit : si mon père et ma mère m'abandonnent, l'Éternel me recueillera (Psaume 27:10). Et la Bible dit que Dieu est le père des orphelins (Psaume 68:6)."
+     "texte": "Quelque temps après, Abdallah a épousé une jeune femme d'un autre clan de Quraych, appelée Amina, fille de Wahb. Peu après le mariage, Abdallah est parti avec une caravane vers la Syrie. Au retour, il est tombé malade à Yathrib, la future Médine, où vivaient des parents de sa mère. Il y est mort, à environ vingt-cinq ans. Amina était enceinte. Son fils ne connaîtrait jamais son père."
     }
    ]
   },
   {
    "numero": "2",
-   "titre": "Le jeune homme : berger, puis commerçant",
-   "references": [
-    "Pr 22:29",
-    "Pr 20:6"
-   ],
+   "titre": "La naissance et la nourrice du désert",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le moine Bahira"
+     "sous_titre": "L'année de l'éléphant"
     },
     {
-     "texte": "Ibn Ishaq raconte que, vers l'âge de douze ans, Mahomet a accompagné son oncle Abou Talib dans une caravane vers la Syrie. Dans une ville appelée Bosra, un moine chrétien nommé Bahira aurait remarqué l'enfant. Il aurait vu, sur son dos, entre les épaules, une marque qu'il a appelée « le sceau de la prophétie ». Et il aurait dit à l'oncle de bien protéger l'enfant contre les juifs."
+     "texte": "Selon la tradition, Mahomet est né à La Mecque l'année de l'éléphant, vers l'an 570. C'est l'année où le général Abraha était venu du Yémen pour détruire la Kaaba. La tradition fixe sa naissance un lundi, dans le troisième mois de l'année lunaire, qu'on appelle Rabi al-Awwal. Beaucoup de musulmans fêtent ce jour sous le nom de Maouloud."
     },
     {
-     "texte": "Beaucoup d'historiens, et même certains musulmans, pensent que cette histoire est une légende. Mais elle montre une chose : très tôt, les musulmans ont voulu que des chrétiens reconnaissent leur prophète. Nous allons retrouver cette même idée un peu plus loin, avec un homme appelé Waraqa."
+     "texte": "Ibn Ishaq raconte que, pendant sa grossesse, Amina a vu en rêve une lumière sortir d'elle, si forte qu'elle éclairait les palais de la Syrie. Il raconte aussi qu'elle a entendu une voix lui dire : « Tu portes le seigneur de ce peuple. » Ce sont des récits pieux de la tradition."
     },
     {
-     "sous_titre": "Le berger"
+     "texte": "Le grand-père, Abd al-Mouttalib, a pris le bébé dans ses bras, l'a porté à la Kaaba pour remercier Dieu, et lui a donné son nom : Muhammad. À l'époque, ce nom était rare chez les Arabes."
     },
     {
-     "texte": "Comme beaucoup de jeunes gens pauvres, Mahomet a gardé des moutons. Plus tard, il dira : il n'y a pas de prophète qui n'ait été berger (Boukhari, hadith 2262). C'est vrai pour plusieurs hommes de la Bible : Abel, Abraham, Jacob, Moïse, David."
+     "sous_titre": "Halima, la nourrice des Banou Saad"
     },
     {
-     "texte": "Mais rappelons-nous une chose. Celui que la Bible appelle « le bon berger », c'est Jésus lui-même. Et il a dit : le bon berger donne sa vie pour ses brebis (Jean 10:11)."
+     "texte": "À La Mecque, les familles nobles avaient une coutume. Elles confiaient leurs bébés à des nourrices bédouines, qui les emmenaient vivre quelques années dans le désert. On pensait que l'air du désert était plus sain que celui de la ville, et que les enfants y apprenaient un arabe plus pur. Les nourrices venaient à La Mecque chercher des enfants, et elles étaient payées par les familles."
     },
     {
-     "sous_titre": "Le commerçant honnête"
+     "texte": "Cette année-là, des femmes de la tribu des Banou Saad sont venues. Parmi elles, il y avait une femme pauvre appelée Halima. Ibn Ishaq raconte qu'elle-même l'a raconté ainsi plus tard. C'était une année de sécheresse. Son ânesse était si maigre qu'elle avançait à peine. Elle n'avait presque plus de lait pour son propre bébé, qui pleurait toute la nuit. Arrivées à La Mecque, toutes les nourrices ont refusé de prendre le petit Muhammad. Pourquoi ? Parce qu'il était orphelin de père. Elles se disaient : « Que peut nous donner une veuve ? C'est le père qui paie bien la nourrice. »"
     },
     {
-     "texte": "Devenu adulte, Mahomet a travaillé dans le commerce des caravanes. Il avait la réputation d'être honnête. On l'appelait « al-Amin », ce qui veut dire « celui à qui l'on peut faire confiance »."
+     "texte": "Halima non plus n'en voulait pas au début. Mais toutes ses compagnes avaient trouvé un enfant, sauf elle. Elle a dit à son mari : « Je n'aime pas rentrer sans enfant. Je vais prendre cet orphelin. » Et selon son récit, dès qu'elle a pris l'enfant, sa poitrine s'est remplie de lait. Son ânesse est devenue si rapide qu'elle dépassait toutes les autres. Et dans le désert, leurs chèvres revenaient le soir avec les mamelles pleines, alors que celles des voisins étaient vides. Pour la tradition musulmane, c'était la bénédiction qui accompagnait l'enfant."
     },
     {
-     "texte": "Ibn Ishaq raconte une histoire. Quand Mahomet avait trente-cinq ans, la tribu de Quraych a reconstruit la Kaaba. Au moment de remettre la pierre noire à sa place, les familles se sont disputées. Chacune voulait avoir cet honneur. Ils ont failli se battre. Alors ils ont décidé que le premier homme qui entrerait dans la cour serait le juge. Et ce fut Mahomet. Il a demandé qu'on apporte un grand manteau. Il a posé la pierre au milieu du manteau. Il a demandé à un représentant de chaque famille de tenir un coin du manteau, pour soulever la pierre ensemble. Puis il a placé la pierre lui-même. Tout le monde était content."
+     "sous_titre": "L'ouverture de la poitrine"
     },
     {
-     "texte": "Il ne faut pas avoir peur de reconnaître ces qualités humaines. Le livre des Proverbes dit : beaucoup de gens proclament leur bonté ; mais un homme fidèle, qui le trouvera ? (Proverbes 20:6)."
+     "texte": "L'enfant a grandi chez Halima pendant environ quatre ou cinq ans. C'est pendant cette période que la tradition place un épisode très connu. Mouslim le raconte ainsi. L'enfant jouait avec d'autres enfants. L'ange Gabriel est venu. Il l'a saisi, l'a couché par terre, lui a ouvert la poitrine, et il a retiré son cœur. Puis il a enlevé du cœur un caillot de sang, en disant : « Ceci était la part de Satan en toi. » Ensuite, il a lavé le cœur dans un bassin en or avec l'eau de Zamzam, et il l'a remis à sa place. Les autres enfants ont couru dire à la nourrice : « Muhammad a été tué ! » Ils l'ont trouvé debout, le visage pâle (Mouslim, hadith 162)."
     },
     {
-     "texte": "Mais retiens bien ceci. Un homme peut être honnête, intelligent et respecté, et pourtant ne pas être envoyé par Dieu. Ce ne sont pas les qualités d'un homme qui font de lui un prophète. C'est la source de son message. Prenons un exemple simple. Un chauffeur peut être très gentil, très poli, très honnête. Mais s'il prend la mauvaise route, il ne t'amènera pas à la bonne destination. Sa gentillesse ne change pas la route."
+     "texte": "Selon Ibn Ishaq, Halima et son mari ont eu très peur. Ils ont pensé que l'enfant était peut-être touché par un esprit. Alors ils l'ont ramené à sa mère, à La Mecque. Pour les musulmans, cet épisode montre que Mahomet a été purifié dès son enfance."
     }
    ]
   },
   {
    "numero": "3",
-   "titre": "Khadija",
-   "references": [
-    "Pr 31:10-11",
-    "Gn 2:18"
-   ],
+   "titre": "Orphelin de mère, puis de grand-père",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Une veuve riche"
+     "sous_titre": "La mort d'Amina sur la route"
     },
     {
-     "texte": "À La Mecque vivait une veuve riche et respectée, qui s'appelait Khadija. Elle a engagé Mahomet pour conduire ses caravanes de marchandises en Syrie. Elle a été impressionnée par son honnêteté et par sa réussite. Alors c'est elle qui lui a proposé le mariage. Selon la tradition, il avait vingt-cinq ans, et elle en avait environ quarante. Certains auteurs musulmans pensent qu'elle était plus jeune, mais la différence d'âge reste grande."
+     "texte": "Quand Mahomet avait six ans, sa mère Amina a voulu aller à Yathrib, pour visiter la famille de son grand-père, et sans doute aussi la tombe de son mari. Elle a emmené l'enfant, avec une servante éthiopienne appelée Baraka. Au retour, dans un lieu appelé al-Abwa, entre Médine et La Mecque, Amina est tombée malade, et elle est morte. On l'a enterrée là, au bord de la route."
     },
     {
-     "texte": "Ce mariage a changé sa vie. Mahomet, l'orphelin pauvre, est devenu un homme à l'aise, qui avait du temps libre. Khadija lui a donné plusieurs enfants. Il y a eu deux garçons, Qasim et Abdallah, qui sont morts petits. Et il y a eu quatre filles : Zaynab, Ruqayya, Oumm Koulthoum et Fatima. Fatima épousera plus tard Ali, le cousin de Mahomet. Et c'est d'elle que descendent tous ceux qui disent aujourd'hui être de la famille du prophète."
+     "texte": "Imagine la scène. Un petit garçon de six ans, au milieu du désert, qui voit enterrer sa mère, loin de chez lui. C'est la servante Baraka qui l'a ramené à La Mecque. Baraka, qu'on appellera plus tard Oumm Ayman, est restée près de lui toute sa vie. Mahomet dira d'elle : « C'est ma mère, après ma mère. »"
     },
     {
-     "sous_titre": "Vingt-cinq ans avec une seule femme"
+     "texte": "Des années plus tard, selon Mouslim, Mahomet est passé près de la tombe de sa mère. Il a pleuré, et il a fait pleurer ceux qui étaient avec lui. Il a dit qu'il avait demandé à son Seigneur la permission de demander pardon pour elle, et que cela lui avait été refusé ; mais qu'il avait reçu la permission de visiter sa tombe."
     },
     {
-     "texte": "Il faut noter un fait important. Tant que Khadija a vécu, Mahomet n'a pas pris d'autre femme. Ils sont restés mariés environ vingt-cinq ans. Mais après la mort de Khadija, il épousera beaucoup de femmes. Nous le verrons dans un autre enseignement de cette série."
+     "sous_titre": "Chez le grand-père"
     },
     {
-     "texte": "Khadija a aussi été la première personne à croire en lui. Elle l'a soutenu, rassuré et encouragé au moment le plus difficile de sa vie. C'est ce moment que nous allons maintenant raconter. Mahomet dira plus tard qu'elle avait cru en lui quand les autres le traitaient de menteur. Et des années plus tard, Aïcha, sa jeune épouse, avouera qu'elle était jalouse de Khadija, morte depuis longtemps, parce qu'il parlait souvent d'elle (Boukhari, hadith 3818)."
+     "texte": "L'enfant a été pris en charge par son grand-père, Abd al-Mouttalib, qui avait alors plus de quatre-vingts ans. Ibn Ishaq raconte que le vieux chef avait un tapis à l'ombre de la Kaaba, où personne n'avait le droit de s'asseoir, pas même ses propres fils, par respect. Mais le petit Muhammad venait s'y asseoir. Quand ses oncles voulaient l'en chasser, le grand-père disait : « Laissez mon petit-fils. Il aura un grand destin. » Et il lui caressait le dos."
+    },
+    {
+     "texte": "Mais deux ans plus tard, quand l'enfant avait huit ans, Abd al-Mouttalib est mort à son tour. Selon la tradition, le petit Muhammad pleurait en suivant le corps de son grand-père."
+    },
+    {
+     "sous_titre": "Chez l'oncle Abou Talib"
+    },
+    {
+     "texte": "Avant de mourir, Abd al-Mouttalib avait confié l'enfant à l'un de ses fils, Abou Talib. C'était le frère du père de Mahomet, de la même mère. Abou Talib était un homme respecté, et il a hérité de la charge de donner l'eau aux pèlerins. Mais il n'était pas riche, et il avait beaucoup d'enfants."
+    },
+    {
+     "texte": "Abou Talib a aimé Mahomet comme son propre fils. Il l'a élevé, il l'a protégé, et plus tard, quand Mahomet sera persécuté, il le défendra au risque de sa vie. Pourtant, il ne deviendra jamais musulman. Il mourra fidèle à la religion de ses pères. C'est un des grands mystères de cette histoire."
+    },
+    {
+     "texte": "Le Coran garde le souvenir de cette enfance. Il dit à Mahomet : ne t'a-t-il pas trouvé orphelin, et il t'a donné un refuge ? Ne t'a-t-il pas trouvé égaré, et il t'a guidé ? Ne t'a-t-il pas trouvé pauvre, et il t'a enrichi ? Quant à l'orphelin, donc, ne le maltraite pas (sourate 93, versets 6 à 9)."
     }
    ]
   },
   {
    "numero": "4",
-   "titre": "La grotte de Hira",
-   "references": [
-    "Mt 4:1-2",
-    "Lc 6:12"
-   ],
+   "titre": "Le jeune berger et le voyage en Syrie",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le besoin d'être seul"
+     "sous_titre": "Berger pour quelques pièces"
     },
     {
-     "texte": "Vers l'âge de quarante ans, Mahomet prend une habitude. Il part seul, pendant plusieurs nuits, dans une petite grotte sur une montagne près de La Mecque. Cette montagne s'appelle le mont Hira. Il emporte de la nourriture, il réfléchit, il prie à la manière des chercheurs de Dieu de son époque. Puis il revient chez Khadija pour reprendre de la nourriture, et il repart."
+     "texte": "Comme beaucoup de garçons pauvres, le jeune Muhammad a gardé des moutons pour aider sa famille. Plus tard, il racontera lui-même : « Il n'y a pas de prophète qui n'ait gardé des moutons. » Ses compagnons lui ont demandé : « Et toi ? » Il a répondu : « Oui. Je les gardais pour les gens de La Mecque, pour quelques pièces » (Boukhari, hadith 2262)."
     },
     {
-     "texte": "Aïcha raconte que, pendant cette période, il a d'abord eu des rêves qui se réalisaient, clairs « comme la lumière du matin ». Ensuite, il a aimé de plus en plus être seul (Boukhari, hadith 3)."
+     "sous_titre": "Le moine Bahira"
     },
     {
-     "texte": "Ce désir d'être seul pour chercher Dieu n'est pas mauvais en soi. Dans la Bible aussi, les hommes de Dieu se retiraient pour prier. Jésus lui-même a passé quarante jours dans le désert (Matthieu 4:1-2), et il a passé des nuits entières à prier sur la montagne (Luc 6:12)."
+     "texte": "Ibn Ishaq raconte que, vers l'âge de neuf ou douze ans, Mahomet a supplié son oncle Abou Talib de l'emmener avec la caravane qui partait en Syrie. Abou Talib a accepté. La caravane s'est arrêtée près de Bosra, dans le sud de la Syrie, près d'une cellule où vivait un moine chrétien appelé Bahira."
     },
     {
-     "texte": "Mais la Bible nous avertit aussi d'une chose. Dans le désert, Jésus a été tenté par le diable, qui lui a proposé des choses qui semblaient glorieuses. Cela veut dire que ni l'endroit, ni la sincérité de celui qui cherche, ne garantissent que la réponse vient de Dieu. Le prophète Jérémie avertissait déjà le peuple contre ceux qui annoncent les visions de leur propre cœur, et non ce qui vient de la bouche de l'Éternel (Jérémie 23:16)."
+     "texte": "D'habitude, ce moine ne s'occupait pas des caravanes. Mais cette fois, il les a invitées à manger. Selon le récit, il avait vu un nuage qui protégeait de son ombre un enfant de la caravane, et un arbre dont les branches s'étaient penchées sur lui. Il a interrogé l'enfant, il a regardé son dos, et il a vu entre ses épaules une marque qu'il a appelée « le sceau de la prophétie ». Il a dit à Abou Talib : « Retourne vite avec ton neveu dans ton pays, et protège-le des juifs. S'ils le reconnaissent, ils lui feront du mal. Ton neveu aura un grand destin. »"
     },
     {
-     "verset": "Jr 23:16"
+     "texte": "Beaucoup d'historiens, et même certains savants musulmans, pensent que cette histoire est une légende pieuse. Mais elle était très connue, et elle montre une chose : très tôt, les musulmans ont aimé raconter que des chrétiens avaient reconnu leur prophète."
     },
     {
-     "sous_titre": "« Lis ! »"
+     "sous_titre": "La guerre sacrilège"
     },
     {
-     "texte": "Voici maintenant le récit de la première « révélation », tel que Boukhari le raconte d'après Aïcha. C'est le troisième hadith de tout son recueil, ce qui montre combien il est important pour les musulmans."
+     "texte": "Quand Mahomet était adolescent, entre quatorze et vingt ans selon les récits, une guerre a éclaté entre la tribu de Quraych et une tribu voisine. Elle a commencé par un meurtre commis pendant un mois sacré, alors que la guerre était interdite. C'est pour cela qu'on l'a appelée « la guerre sacrilège ». Elle a duré plusieurs années, par épisodes. Le jeune Mahomet y a participé. Il a raconté plus tard qu'il ramassait les flèches de l'ennemi pour les donner à ses oncles."
     },
     {
-     "texte": "Un jour, Mahomet était dans la grotte. L'ange est venu vers lui et lui a dit : « Lis ! » On peut aussi traduire : « Récite ! » Mahomet a répondu : « Je ne sais pas lire. »"
+     "sous_titre": "Le pacte des vertueux"
     },
     {
-     "texte": "Mahomet raconte la suite ainsi : « Alors il m'a saisi et il m'a serré si fort que je n'en pouvais plus. Puis il m'a lâché et il a dit : Lis ! J'ai répondu : Je ne sais pas lire. Il m'a saisi une deuxième fois et il m'a serré jusqu'à l'épuisement. Puis il m'a lâché et il a dit : Lis ! J'ai répondu : Je ne sais pas lire. Il m'a saisi une troisième fois, il m'a serré, puis il m'a lâché et il a dit : Lis, au nom de ton Seigneur qui a créé, qui a créé l'homme d'une adhérence. Lis ! Ton Seigneur est le Très Noble. » On lit ce récit dans Boukhari, au hadith 3. Ces paroles forment le début de la sourate 96 du Coran."
+     "texte": "Après cette guerre, il s'est passé une chose que Mahomet n'a jamais oubliée. Un commerçant venu du Yémen avait vendu des marchandises à un notable de La Mecque. Le notable a refusé de le payer. Le commerçant n'avait pas de tribu à La Mecque pour le défendre. Alors il est monté sur une colline et il a crié son injustice devant tout le monde."
     },
     {
-     "texte": "Remarque bien ce qui s'est passé. L'être de la grotte a serré Mahomet trois fois, si fort qu'il n'en pouvait plus."
+     "texte": "Plusieurs clans de Quraych ont été touchés. Ils se sont réunis chez un homme riche, appelé Ibn Joudan. Ils ont fait un serment : à partir de ce jour, ils défendraient toute personne victime d'injustice à La Mecque, qu'elle soit de la ville ou étrangère, jusqu'à ce que justice lui soit rendue. On a appelé cet accord « le pacte des vertueux ». Puis ils sont allés chez le notable, et ils l'ont obligé à payer."
     },
     {
-     "sous_titre": "Il tremblait de peur"
+     "texte": "Mahomet, qui avait environ vingt ans, était présent. Des années plus tard, devenu prophète, il a dit : « J'ai assisté chez Ibn Joudan à un pacte que je n'échangerais pas contre un troupeau de chameaux rouges. Si l'on m'y appelait aujourd'hui, en islam, je répondrais. »"
     },
     {
-     "texte": "Le récit continue. Mahomet est rentré chez Khadija, le cœur tremblant. Il lui a dit : « Couvrez-moi ! Couvrez-moi ! » On l'a couvert jusqu'à ce que sa peur passe. Puis il a raconté à Khadija ce qui s'était passé, et il lui a dit : « J'ai eu peur pour moi-même. »"
+     "sous_titre": "Al-Amin, l'homme de confiance"
     },
     {
-     "texte": "Khadija l'a rassuré. Elle lui a dit : « Non, par Allah, Allah ne t'humiliera jamais. Tu gardes de bonnes relations avec ta famille, tu portes les charges des faibles, tu aides les pauvres, tu honores tes invités, et tu secours ceux qui sont frappés par le malheur. » On lit cela aussi dans Boukhari, au hadith 3."
-    },
-    {
-     "texte": "Fais bien attention. Ce n'est pas Mahomet qui est sûr que cette expérience vient de Dieu. C'est Khadija qui le rassure. Et sur quoi est-ce qu'elle s'appuie ? Elle s'appuie sur les bonnes qualités de son mari. Elle ne s'appuie pas sur la Parole de Dieu."
+     "texte": "En grandissant, Mahomet s'est fait une réputation d'honnêteté. On l'appelait « al-Amin », ce qui veut dire « celui à qui l'on peut faire confiance ». Les gens lui confiaient leurs biens à garder. On le décrit comme un homme calme, réservé, qui ne participait pas aux fêtes bruyantes, qui parlait peu et réfléchissait beaucoup."
     }
    ]
   },
   {
    "numero": "5",
-   "titre": "Waraqa le chrétien",
-   "references": [
-    "1 Jn 4:2-3",
-    "Ga 1:8"
-   ],
+   "titre": "Khadija",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Le cousin de Khadija"
+     "sous_titre": "Une veuve riche qui faisait du commerce"
     },
     {
-     "texte": "Ensuite, Khadija a emmené son mari chez son cousin, qui s'appelait Waraqa ibn Nawfal. Boukhari dit que cet homme était devenu chrétien avant l'islam. Il écrivait l'hébreu et il copiait des passages de l'Évangile. Il était très âgé et il était devenu aveugle."
+     "texte": "À La Mecque vivait une femme riche et respectée, appelée Khadija, fille de Khouwaylid. Elle avait déjà été mariée deux fois, et ses deux maris étaient morts. Elle avait des enfants de ces mariages. Elle dirigeait elle-même un commerce important : elle confiait ses marchandises à des hommes qu'elle payait pour les vendre en Syrie avec les caravanes."
     },
     {
-     "texte": "Mahomet lui a raconté ce qu'il avait vu. Waraqa lui a dit : « C'est le Namous qu'Allah avait envoyé à Moïse. » Le mot « Namous » veut ici dire le messager de Dieu, l'ange. Puis Waraqa a ajouté : « Si seulement j'étais jeune ! Si seulement je pouvais être vivant quand ton peuple te chassera ! » Mahomet a demandé : « Est-ce qu'ils vont me chasser ? » Waraqa a répondu : « Oui. Jamais un homme n'est venu avec ce que tu apportes sans être combattu. » Et Waraqa est mort peu de temps après. Tout cela se trouve dans Boukhari, au hadith 3."
+     "texte": "Elle a entendu parler de l'honnêteté de Mahomet. Elle lui a proposé de conduire ses marchandises en Syrie, en lui donnant le double de ce qu'elle donnait aux autres. Elle a envoyé avec lui un de ses serviteurs, appelé Maysara."
     },
     {
-     "sous_titre": "Ce que ce récit nous dit"
+     "sous_titre": "Le voyage et le rapport de Maysara"
     },
     {
-     "texte": "Pour le musulman, la parole de Waraqa est une confirmation. Il dit : « Un chrétien savant a reconnu que Mahomet était un prophète comme Moïse. » Mais réfléchissons calmement."
+     "texte": "Le voyage s'est très bien passé. Mahomet a vendu les marchandises, il en a acheté d'autres, et il est revenu avec un bénéfice deux fois plus grand que d'habitude. Ibn Ishaq raconte qu'en Syrie, ils se sont arrêtés près de la cellule d'un autre moine, appelé Nestor. Le moine aurait dit à Maysara que l'homme assis sous un certain arbre ne pouvait être qu'un prophète. Maysara a raconté aussi à Khadija que, pendant les heures de grande chaleur, il voyait deux anges qui faisaient de l'ombre à Mahomet."
     },
     {
-     "texte": "Première remarque : Waraqa n'a pas entendu le message de l'islam, puisqu'il n'existait pas encore. Il a seulement entendu le récit d'une expérience et quelques phrases. Et il est mort peu après. Il n'a jamais su que ce message allait nier la mort de Jésus sur la croix et nier que Jésus est Dieu. Or un chrétien qui connaît l'Évangile ne peut pas approuver un message qui nie ce que les apôtres ont vu de leurs propres yeux."
+     "sous_titre": "Le mariage"
     },
     {
-     "texte": "Deuxième remarque : la Bible nous donne un critère très clair pour éprouver un esprit. Elle dit : tout esprit qui confesse Jésus-Christ venu en chair est de Dieu ; et tout esprit qui ne confesse pas Jésus n'est pas de Dieu (1 Jean 4:2-3). Et Paul ajoute que même si un ange du ciel annonce un autre Évangile, il faut le rejeter (Galates 1:8)."
+     "texte": "Khadija a été impressionnée par l'honnêteté, l'intelligence et le caractère de cet homme. Selon la tradition, elle a envoyé une amie, appelée Nafissa, pour lui demander discrètement : « Pourquoi ne te maries-tu pas ? » Il a répondu qu'il n'avait pas les moyens. L'amie lui a dit : « Et si une femme belle, riche et noble te le proposait ? » C'est ainsi que Khadija lui a proposé le mariage."
     },
     {
-     "texte": "En d'autres termes, ce n'est pas la parole d'un vieil homme qui décide si l'esprit de la grotte de Hira venait de Dieu. C'est la Parole de Dieu déjà donnée qui décide."
+     "texte": "Mahomet en a parlé à ses oncles, qui ont accepté. Selon la tradition, il avait vingt-cinq ans, et Khadija en avait quarante. Certains savants musulmans pensent qu'elle était plus jeune, peut-être vingt-huit ans, mais la tradition la plus connue dit quarante. La dot a été de vingt jeunes chamelles."
+    },
+    {
+     "sous_titre": "Une vie nouvelle"
+    },
+    {
+     "texte": "Ce mariage a changé la vie de Mahomet. L'orphelin pauvre est devenu un homme aisé, avec une maison, des serviteurs, et du temps libre. Il a continué à faire du commerce, mais il n'était plus obligé de travailler sans arrêt."
+    },
+    {
+     "texte": "Ils ont vécu ensemble environ vingt-cinq ans. Pendant tout ce temps, Mahomet n'a pas pris d'autre femme. C'est un fait important, que les musulmans aiment rappeler."
+    },
+    {
+     "sous_titre": "Les enfants"
+    },
+    {
+     "texte": "Khadija a donné à Mahomet plusieurs enfants. Le premier fils s'appelait Qasim. C'est pour cela qu'on appelait Mahomet « Abou al-Qasim », ce qui veut dire « le père de Qasim ». Chez les Arabes, on appelle souvent un homme par le nom de son premier fils. Mais Qasim est mort très petit. Un autre fils, Abdallah, est mort petit lui aussi."
+    },
+    {
+     "texte": "Quatre filles ont grandi : Zaynab, Ruqayya, Oumm Koulthoum et Fatima. Ruqayya et Oumm Koulthoum épouseront l'une après l'autre Othman, qui deviendra le troisième calife. Fatima, la plus jeune, épousera Ali, le cousin de Mahomet. C'est de Fatima et d'Ali que descendent tous ceux qui se disent aujourd'hui de la famille du prophète."
+    },
+    {
+     "texte": "Plus tard, Aïcha, une autre femme de Mahomet, avouera qu'elle était jalouse de Khadija, morte depuis longtemps, parce que Mahomet parlait d'elle si souvent, et qu'il envoyait des cadeaux aux amies de Khadija (Boukhari, hadith 3818)."
+    },
+    {
+     "sous_titre": "Zayd, l'esclave devenu fils"
+    },
+    {
+     "texte": "Dans la maison de Khadija, il y avait un jeune esclave appelé Zayd, fils de Haritha. Il avait été enlevé tout petit à sa famille lors d'une razzia, puis vendu au marché. Un neveu de Khadija l'avait acheté et le lui avait offert. Khadija l'a donné à Mahomet."
+    },
+    {
+     "texte": "Des années plus tard, le père de Zayd a appris où se trouvait son fils. Il est venu à La Mecque avec de l'argent pour le racheter. Mahomet a dit : « Laissez Zayd choisir. S'il veut partir avec vous, il est libre, sans rien payer. » Et Zayd a choisi de rester avec Mahomet. Alors Mahomet l'a emmené devant la Kaaba, et il a déclaré devant tout le monde : « Soyez témoins : Zayd est mon fils. Il héritera de moi, et j'hériterai de lui. » Depuis ce jour, on l'appelait « Zayd, fils de Muhammad ». Nous retrouverons Zayd plus tard, dans une histoire qui a changé la loi de l'islam sur l'adoption."
+    },
+    {
+     "sous_titre": "Ali, le petit cousin"
+    },
+    {
+     "texte": "Une année de grande famine, l'oncle Abou Talib avait du mal à nourrir ses nombreux enfants. Pour l'aider, Mahomet a pris chez lui un des fils d'Abou Talib, un petit garçon appelé Ali. Ali a grandi dans la maison de Mahomet et de Khadija. Il deviendra plus tard le gendre de Mahomet, le quatrième calife, et le grand personnage des chiites."
     }
    ]
   },
   {
    "numero": "6",
-   "titre": "Le silence, et l'envie de mourir",
-   "references": [
-    "1 R 19:4",
-    "Mt 11:28"
-   ],
+   "titre": "La reconstruction de la Kaaba",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Les messages s'arrêtent"
+     "sous_titre": "Une inondation"
     },
     {
-     "texte": "Après cette première expérience, les « révélations » se sont arrêtées pendant un temps. Les livres parlent de plusieurs mois, peut-être plus. Mahomet était profondément troublé."
+     "texte": "Quand Mahomet avait environ trente-cinq ans, une forte pluie a provoqué une inondation à La Mecque. Les murs de la Kaaba, déjà abîmés, ont été fissurés. Les gens de Quraych ont décidé de la reconstruire. Mais ils avaient peur : toucher à la maison des dieux pouvait attirer un malheur. Un homme a pris son courage et a commencé à démolir. Comme rien ne lui est arrivé, les autres l'ont suivi. Ils ont utilisé le bois d'un bateau qui avait fait naufrage sur la côte de la mer Rouge pour faire le toit."
     },
     {
-     "texte": "Boukhari rapporte un récit terrible. Pendant cette période, Mahomet était si triste que, plusieurs fois, il est parti vers le sommet des montagnes pour s'en jeter. Et chaque fois qu'il arrivait au sommet pour se jeter en bas, Gabriel lui apparaissait et lui disait : « Ô Muhammad, tu es vraiment l'envoyé d'Allah. » Et cela le calmait. On lit cela dans Boukhari, au hadith 6982."
+     "sous_titre": "La dispute de la pierre noire"
     },
     {
-     "texte": "Ibn Ishaq, lui, raconte que Mahomet avait peur d'être devenu un poète inspiré par un djinn, ou un possédé. Et il disait qu'il préférait se jeter du haut de la montagne plutôt que d'être cela."
+     "texte": "Quand les murs ont atteint la hauteur de la pierre noire, une grande dispute a éclaté. Chaque clan voulait avoir l'honneur de remettre la pierre à sa place. La dispute est devenue si violente que certains clans ont plongé leurs mains dans un bol de sang et ont juré de se battre jusqu'à la mort."
     },
     {
-     "sous_titre": "Une souffrance qui nous touche"
+     "texte": "Pendant quatre ou cinq jours, personne ne cédait. Enfin, le plus vieux d'entre eux a proposé : « Le premier homme qui entrera par cette porte décidera entre nous. » Le premier qui est entré, c'était Mahomet. Tout le monde a été content : « C'est al-Amin, l'homme de confiance. Nous acceptons son jugement. »"
     },
     {
-     "texte": "Ces récits ne doivent pas nous faire rire. Ils décrivent un homme qui souffre beaucoup. Le chrétien sait que de grands hommes de Dieu ont aussi connu le désespoir. Le prophète Élie, assis sous un arbre dans le désert, a demandé à Dieu de mourir (1 Rois 19:4)."
-    },
-    {
-     "texte": "Mais regardons la différence. Comment Dieu a-t-il répondu à Élie ? Il l'a nourri. Il l'a laissé dormir. Puis il lui a parlé par un murmure doux et léger. Il ne l'a pas serré jusqu'à l'étouffer."
-    },
-    {
-     "texte": "Regardons aussi comment, dans la Bible, les anges apparaissent aux hommes. Quand l'ange Gabriel apparaît à Zacharie, puis à Marie, sa première parole est : « Ne crains point » (Luc 1:13 et Luc 1:30). Quand le prophète Ésaïe voit la gloire de Dieu, il a très peur devant la sainteté de Dieu. Mais un ange vient le purifier et le consoler (Ésaïe 6:5-7). Et quand Jésus appelle les gens, il leur dit : venez à moi, vous tous qui êtes fatigués et chargés, et je vous donnerai du repos (Matthieu 11:28)."
-    },
-    {
-     "verset": "Lc 1:30"
-    },
-    {
-     "sous_titre": "Une question à poser avec douceur"
-    },
-    {
-     "texte": "Le chrétien peut poser ces questions avec respect. Pourquoi est-ce que celui qui allait devenir le prophète de l'islam n'était pas sûr lui-même de la source de son expérience ? Pourquoi a-t-il eu peur d'être possédé ? Pourquoi a-t-il pensé à se tuer ?"
-    },
-    {
-     "texte": "La Bible nous avertit que Satan lui-même se déguise en ange de lumière (2 Corinthiens 11:14). Nous ne disons pas cela pour insulter. Nous le disons parce que la question est honnête, et parce que les livres des musulmans eux-mêmes la posent."
+     "texte": "Mahomet a demandé qu'on apporte un grand manteau. Il a posé la pierre noire au milieu. Il a demandé à un représentant de chaque clan de prendre un coin du manteau, et de soulever tous ensemble. Quand la pierre est arrivée à la bonne hauteur, il l'a prise lui-même et l'a mise à sa place. Ainsi, chaque clan avait eu sa part d'honneur, et la guerre a été évitée."
     }
    ]
   },
   {
    "numero": "7",
-   "titre": "« Ô toi, l'enveloppé »",
-   "references": [
-    "Ez 2:6-7",
-    "Jr 1:7-8"
-   ],
+   "titre": "La grotte de Hira",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Les messages reprennent"
+     "sous_titre": "Le besoin d'être seul"
     },
     {
-     "texte": "Après ce temps de silence, Mahomet raconte qu'il a revu l'ange. L'ange était assis sur un trône, entre le ciel et la terre. Mahomet a eu peur. Il est rentré chez lui et il a encore dit : « Enveloppez-moi ! » Alors sont venus les premiers versets de la sourate 74 : « Ô toi, l'enveloppé ! Lève-toi et avertis ! Et ton Seigneur, magnifie-le ! Et tes vêtements, purifie-les ! Et l'abomination, fuis-la ! » (Boukhari, hadith 4). Boukhari dit qu'à partir de ce moment, les révélations sont devenues fréquentes et continues."
+     "texte": "Quand Mahomet a approché l'âge de quarante ans, il a commencé à changer. Il aimait de plus en plus être seul. Près de La Mecque, il y a une montagne, qu'on appelle aujourd'hui la montagne de la Lumière. Près du sommet, il y a une petite grotte, à peine assez grande pour qu'un homme s'y allonge. On l'appelle la grotte de Hira. De là, on peut voir au loin la vallée de La Mecque."
     },
     {
-     "sous_titre": "Les premiers croyants"
+     "texte": "Selon Aïcha, Mahomet allait dans cette grotte et y restait plusieurs nuits de suite, pour prier et réfléchir. Elle utilise un mot arabe, « tahannouth », qui désigne une pratique de dévotion, de retraite. Il emportait de la nourriture. Quand il n'en avait plus, il revenait chez Khadija pour en prendre, puis il repartait. Selon Ibn Ishaq, il faisait cette retraite chaque année pendant un mois, le mois de ramadan. Il nourrissait aussi les pauvres qui venaient le voir."
     },
     {
-     "texte": "Pendant environ trois ans, Mahomet n'a prêché qu'à ses proches. Les premiers à croire sont : Khadija, sa femme ; Ali, son jeune cousin, le fils d'Abou Talib, qui vivait chez lui ; Zayd ibn Haritha, un ancien esclave qu'il avait libéré et adopté comme fils ; et Abou Bakr, un ami commerçant, qui deviendra le premier chef des musulmans après la mort de Mahomet. Ensuite, quelques jeunes gens, quelques esclaves et quelques personnes faibles les ont rejoints."
+     "sous_titre": "Les rêves qui se réalisent"
     },
     {
-     "texte": "Quel était le message de cette première période, à La Mecque ? Il était simple. Il n'y a qu'un seul Dieu, le créateur. Les idoles ne servent à rien. Il y aura un jour du jugement, où chacun recevra selon ses œuvres. Il faut prier, donner aux pauvres, et prendre soin des orphelins."
+     "texte": "Aïcha raconte : « La révélation a commencé pour le messager d'Allah par des rêves vrais pendant son sommeil. Chaque rêve qu'il voyait se réalisait, clair comme la lumière du matin. Puis la solitude lui est devenue chère » (Boukhari, hadith 3)."
     },
     {
-     "texte": "Ce message ressemble beaucoup à ce que disaient les prophètes de la Bible contre les idoles. C'est pour cela que beaucoup de musulmans sont sincèrement convaincus que Mahomet continue le travail de Moïse et de Jésus."
+     "sous_titre": "La nuit de la première révélation"
     },
     {
-     "sous_titre": "Ce qui manque déjà"
+     "texte": "Voici maintenant le récit le plus important de toute la vie de Mahomet. Boukhari l'a placé au troisième hadith de son recueil. C'est Aïcha qui le raconte, d'après ce que Mahomet lui a dit."
     },
     {
-     "texte": "Mais déjà, il manque une chose essentielle. Il manque la réponse au problème du péché. Le prophète de La Mecque annonce le jugement. Mais il n'annonce pas l'Agneau de Dieu qui ôte le péché du monde (Jean 1:29). Il annonce une balance où l'on pèsera les bonnes et les mauvaises actions."
+     "texte": "Un jour, dans la grotte de Hira, l'ange est venu à lui et lui a dit : « Lis ! » On peut aussi traduire : « Récite ! » Mahomet a répondu : « Je ne suis pas de ceux qui lisent. »"
     },
     {
-     "texte": "Or la Bible dit : nul ne sera justifié devant lui par les œuvres de la loi, puisque c'est par la loi que vient la connaissance du péché (Romains 3:20). Autrement dit, personne ne peut devenir juste devant Dieu en accumulant de bonnes actions, car la loi nous montre seulement que nous sommes pécheurs. Nous verrons, tout au long de cette série, que c'est là le cœur de la différence entre l'islam et l'Évangile."
+     "texte": "Mahomet raconte la suite : « Alors il m'a saisi et il m'a serré si fort que je n'en pouvais plus. Puis il m'a lâché et il a dit : Lis ! J'ai répondu : Je ne suis pas de ceux qui lisent. Il m'a saisi une deuxième fois, et il m'a serré jusqu'à l'épuisement. Puis il m'a lâché et il a dit : Lis ! J'ai répondu : Je ne suis pas de ceux qui lisent. Il m'a saisi une troisième fois, il m'a serré, puis il m'a lâché et il a dit : Lis, au nom de ton Seigneur qui a créé, qui a créé l'homme d'une adhérence. Lis ! Ton Seigneur est le Très Noble, qui a enseigné par la plume, a enseigné à l'homme ce qu'il ne savait pas. »"
+    },
+    {
+     "texte": "Ces paroles sont le début de la sourate 96 du Coran. Pour les musulmans, ce sont les premiers mots du Coran descendus sur Mahomet. Ils placent cette nuit dans le mois de ramadan, et ils l'appellent « la nuit du destin ». Le Coran lui consacre une petite sourate, la sourate 97, qui dit que cette nuit est meilleure que mille mois."
+    },
+    {
+     "sous_titre": "« Couvrez-moi ! »"
+    },
+    {
+     "texte": "Le récit continue. Mahomet est rentré chez Khadija, le cœur tremblant. Il lui a dit : « Couvrez-moi ! Couvrez-moi ! » On l'a couvert d'un manteau, jusqu'à ce que sa peur passe. Puis il a raconté à Khadija ce qui s'était passé, et il lui a dit : « J'ai eu peur pour moi-même. »"
+    },
+    {
+     "texte": "Selon Ibn Ishaq, il a dit aussi : « Personne n'était plus haïssable pour moi qu'un poète ou un possédé. Je me suis dit : malheur à moi, je suis devenu un poète ou un possédé ! » Souviens-toi de ce que nous avons vu : à cette époque, on pensait que les poètes et les devins étaient inspirés par des djinns. Mahomet avait peur que ce qui lui était arrivé vienne d'un djinn."
+    },
+    {
+     "sous_titre": "Les paroles de Khadija"
+    },
+    {
+     "texte": "Khadija l'a rassuré. Elle lui a dit : « Non, par Allah, Allah ne t'humiliera jamais. Tu gardes de bonnes relations avec ta famille, tu portes les charges des faibles, tu aides les pauvres, tu honores tes invités, et tu secours ceux qui sont frappés par le malheur » (Boukhari, hadith 3)."
+    },
+    {
+     "texte": "Remarque bien sur quoi elle s'appuie : sur le bon caractère de son mari. Pour elle, un homme si bon ne pouvait pas être visité par un mauvais esprit."
+    },
+    {
+     "sous_titre": "Waraqa, le cousin chrétien"
+    },
+    {
+     "texte": "Ensuite, Khadija a emmené son mari chez son cousin, Waraqa ibn Nawfal. Nous l'avons rencontré parmi les hanifs. Boukhari précise qu'il était devenu chrétien, qu'il écrivait l'écriture hébraïque, et qu'il copiait l'Évangile. Il était très âgé et il était devenu aveugle."
+    },
+    {
+     "texte": "Khadija lui a dit : « Mon cousin, écoute ce que dit le fils de ton frère. » Waraqa a demandé : « Mon neveu, qu'as-tu vu ? » Mahomet lui a raconté. Waraqa a dit : « C'est le Namous qu'Allah a envoyé à Moïse. » Le mot « Namous » est discuté. Il peut vouloir dire le messager divin, l'ange, ou bien la loi révélée. Puis Waraqa a ajouté : « Si seulement j'étais jeune ! Si seulement j'étais encore vivant quand ton peuple te chassera ! » Mahomet a demandé : « Est-ce qu'ils vont me chasser ? » Waraqa a répondu : « Oui. Jamais un homme n'est venu avec ce que tu apportes sans être combattu. Si je suis encore vivant ce jour-là, je t'aiderai de toutes mes forces. » Mais peu de temps après, Waraqa est mort (Boukhari, hadith 3)."
     }
    ]
   },
   {
    "numero": "8",
-   "titre": "Est-ce qu'il savait lire ? Est-ce qu'il faisait des miracles ?",
-   "references": [
-    "Jn 10:37-38",
-    "Jn 20:30-31"
-   ],
+   "titre": "Le silence et le désespoir",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "« Le prophète illettré »"
+     "sous_titre": "La révélation s'arrête"
     },
     {
-     "texte": "Le Coran appelle Mahomet « an-nabi al-oummi » (sourate 7, verset 157). La plupart des musulmans traduisent : « le prophète illettré », c'est-à-dire qui ne savait ni lire ni écrire. Pour eux, c'est une preuve. Ils disent : « Comment un homme qui ne savait ni lire ni écrire aurait-il pu produire un texte aussi beau que le Coran ? » Pour eux, le Coran est donc le grand miracle de Mahomet."
+     "texte": "Après cette première expérience, les révélations se sont arrêtées pendant un temps. Les musulmans appellent cette période « la pause ». Les livres parlent de quelques semaines, de plusieurs mois, ou même de deux ou trois ans, selon les traditions. Mahomet était profondément troublé. Il ne comprenait pas pourquoi l'ange ne revenait plus."
     },
     {
-     "texte": "Il faut savoir que le sens de ce mot « oummi » est discuté. Certains savants pensent qu'il veut plutôt dire : « quelqu'un qui n'avait pas reçu de livre de Dieu avant ». Cela désignerait un Arabe païen, par opposition aux juifs et aux chrétiens, qui avaient un livre."
+     "sous_titre": "La tentation de se jeter des montagnes"
     },
     {
-     "texte": "D'autre part, Mahomet a dirigé pendant des années un commerce de caravanes. Cela demandait au moins de savoir compter et de reconnaître des écrits. Et Boukhari raconte qu'au moment d'écrire un accord de paix, Mahomet a pris lui-même le document et a écrit (Boukhari, hadith 4251). D'autres versions disent qu'il l'a fait écrire par Ali."
+     "texte": "Boukhari rapporte un récit très dur. Pendant cette période, Mahomet était tellement triste que, plusieurs fois, il est parti vers le sommet des montagnes pour s'en jeter. Et chaque fois qu'il arrivait au sommet pour se jeter en bas, Gabriel lui apparaissait et lui disait : « Ô Muhammad, tu es vraiment le messager d'Allah. » Alors son cœur se calmait, et il revenait. Puis, quand la pause durait encore, il repartait vers les montagnes, et la même chose se reproduisait (Boukhari, hadith 6982)."
     },
     {
-     "texte": "Nous n'avons pas besoin de trancher cette question. Retenons simplement ceci : la beauté d'un texte ne prouve pas qu'il vient de Dieu. Dans beaucoup de cultures, des poètes qui ne savaient pas lire ont composé de très beaux textes. Chez nous en Afrique aussi, les griots et les conteurs récitent de très belles paroles sans jamais avoir été à l'école."
+     "texte": "Ce récit est rapporté dans le recueil de Boukhari, mais certains savants musulmans disent que cette partie du hadith n'est pas sûre, parce qu'elle a été ajoutée par un transmetteur plus tardif. Il faut le savoir."
     },
     {
-     "sous_titre": "Le Coran refuse les miracles"
+     "sous_titre": "« Ô toi, l'enveloppé ! »"
     },
     {
-     "texte": "Voici une chose qui surprend beaucoup de chrétiens, et même beaucoup de musulmans. Dans le Coran, les gens de La Mecque demandent plusieurs fois à Mahomet de faire un miracle pour prouver qu'il est envoyé par Dieu. Ils lui demandent de faire sortir une source d'eau, d'avoir un jardin de palmiers, de faire tomber le ciel, ou de monter au ciel et d'en rapporter un livre. Et le Coran répond : « Gloire à mon Seigneur ! Ne suis-je qu'un homme, un messager ? » (sourate 17, versets 90 à 93)."
-    },
-    {
-     "texte": "Ailleurs, le Coran dit encore : ils disent : pourquoi n'a-t-on pas fait descendre sur lui des prodiges de la part de son Seigneur ? Dis : les prodiges sont auprès d'Allah ; moi, je ne suis qu'un avertisseur clair (sourate 29, verset 50)."
-    },
-    {
-     "texte": "Plus tard, les hadiths et les livres sur sa vie ont attribué à Mahomet beaucoup de miracles : de l'eau qui coule de ses doigts, de la nourriture multipliée, et surtout la lune fendue en deux. Mais dans le Coran lui-même, Mahomet se présente comme quelqu'un qui avertit, et non comme quelqu'un qui fait des miracles."
-    },
-    {
-     "sous_titre": "La différence avec Jésus"
-    },
-    {
-     "texte": "Or ce même Coran attribue à Jésus des miracles extraordinaires. Il dit que Jésus a guéri l'aveugle de naissance et le lépreux, qu'il a ressuscité des morts, et qu'il a fait un oiseau en argile et lui a donné la vie (sourate 3, verset 49 ; sourate 5, verset 110)."
-    },
-    {
-     "texte": "C'est une porte magnifique pour la conversation. Le chrétien peut demander à son ami : « Selon ton propre livre, qui a ressuscité des morts ? Est-ce Mahomet, ou est-ce Jésus ? Qui a donné la vie ? »"
-    },
-    {
-     "texte": "Jésus lui-même s'appuyait sur ses œuvres. Il disait : si je ne fais pas les œuvres de mon Père, ne me croyez pas ; mais si je les fais, quand même vous ne me croyez point, croyez à ces œuvres (Jean 10:37-38)."
-    },
-    {
-     "verset": "Jn 10:37-38"
-    },
-    {
-     "texte": "Et Jean termine son Évangile ainsi : ces choses ont été écrites afin que vous croyiez que Jésus est le Christ, le Fils de Dieu, et qu'en croyant vous ayez la vie en son nom (Jean 20:31). Le plus grand de tous les signes, c'est la résurrection. Jésus n'est pas resté dans la tombe. Nous verrons, dans l'enseignement sur la mort de Mahomet, que sa tombe à lui est toujours occupée, à Médine."
+     "texte": "Puis les révélations ont repris. Mahomet a raconté : « Je marchais, quand j'ai entendu une voix venant du ciel. J'ai levé la tête, et j'ai vu l'ange qui était venu à moi à Hira, assis sur un trône entre le ciel et la terre. J'ai eu peur de lui. Je suis rentré et j'ai dit : Enveloppez-moi ! Enveloppez-moi ! » Alors sont descendus ces versets : « Ô toi, l'enveloppé ! Lève-toi et avertis ! Et ton Seigneur, magnifie-le ! Et tes vêtements, purifie-les ! Et l'abomination, fuis-la ! » (sourate 74, versets 1 à 5 ; Boukhari, hadith 4). Boukhari ajoute qu'à partir de ce moment, la révélation est devenue fréquente et continue."
     }
    ]
   },
   {
    "numero": "9",
-   "titre": "Comment vérifier, comme les gens de Bérée",
-   "references": [
-    "Ac 17:11",
-    "Dt 18:21-22"
-   ],
+   "titre": "Les premiers croyants",
+   "references": [],
    "blocs": [
     {
-     "sous_titre": "Les gens de Bérée"
+     "sous_titre": "Khadija, la première"
     },
     {
-     "texte": "Quand Paul a prêché dans la ville de Bérée, les Juifs de cette ville l'ont écouté avec beaucoup d'intérêt. Et chaque jour, ils examinaient les Écritures pour voir si ce que Paul disait était exact (Actes 17:11). Est-ce que tu vois ? Même l'apôtre Paul devait être vérifié avec les Écritures. Le chrétien a donc le droit de vérifier tout message qui dit venir de Dieu, y compris celui de Mahomet."
+     "texte": "La première personne à croire en Mahomet a été sa femme, Khadija. Elle l'a cru dès le premier jour, quand il est rentré tremblant de la grotte. Elle l'a soutenu de tout son cœur, de tout son argent et de toute sa réputation. Les musulmans l'appellent « la mère des croyants », et ils la considèrent comme l'une des meilleures femmes de toute l'histoire."
     },
     {
-     "sous_titre": "Les critères de la Bible"
+     "sous_titre": "Ali, Zayd et Abou Bakr"
     },
     {
-     "texte": "La Bible donne plusieurs critères pour reconnaître un vrai prophète."
+     "texte": "Les premiers hommes à croire ont été ceux de sa maison. Ali, le jeune cousin, qui avait environ dix ans. Zayd, le fils adoptif. Puis un ami de Mahomet, un commerçant respecté appelé Abou Bakr. Abou Bakr était riche, aimé de tous, et il connaissait très bien l'histoire des familles de La Mecque. Il deviendra le premier calife après la mort de Mahomet."
     },
     {
-     "texte": "Premier critère : ce qu'il annonce doit se réaliser (Deutéronome 18:21-22)."
+     "sous_titre": "Les amis d'Abou Bakr"
     },
     {
-     "texte": "Deuxième critère : même s'il fait des signes, il ne doit pas conduire le peuple vers un autre Dieu que celui qui s'est déjà fait connaître (Deutéronome 13:1-4)."
+     "texte": "Abou Bakr a parlé de la nouvelle foi à ses amis. Plusieurs ont cru grâce à lui : Othman ibn Affan, un jeune homme riche et élégant ; Zoubayr ibn al-Awwam, un cousin de Mahomet ; Abd al-Rahman ibn Awf, un commerçant ; Saad ibn Abi Waqqas, un jeune homme courageux ; et Talha ibn Oubaydallah. Ces hommes deviendront plus tard des chefs très importants de la communauté musulmane."
     },
     {
-     "texte": "Troisième critère : dans la nouvelle alliance, il doit reconnaître Jésus-Christ venu dans un corps d'homme, mort et ressuscité selon les Écritures (1 Jean 4:2 ; 1 Corinthiens 15:3-4)."
+     "sous_titre": "Les faibles et les esclaves"
     },
     {
-     "texte": "Nous allons appliquer ces critères calmement, tout au long de la série."
+     "texte": "À côté de ces hommes de bonnes familles, beaucoup des premiers croyants étaient des gens faibles : des jeunes, des pauvres, des esclaves, des étrangers sans protection. Parmi eux, il y avait Bilal, un esclave d'origine éthiopienne, et Ammar ibn Yasir, avec son père et sa mère. Nous allons voir dans le prochain enseignement combien ils ont souffert."
     },
     {
-     "sous_titre": "L'étudiant qui parlait sans vérifier"
+     "sous_titre": "En secret"
     },
     {
-     "texte": "Voici une histoire. Un étudiant chrétien de Maroua discutait avec un camarade musulman. Il voulait prouver que Mahomet était un faux prophète. Il a répété des choses entendues sur internet, mais plusieurs étaient fausses. Son camarade, qui connaissait bien les hadiths, l'a corrigé point par point. L'étudiant chrétien est reparti humilié."
+     "texte": "Pendant environ trois ans, Mahomet a prêché discrètement, seulement à ses proches et à ceux en qui il avait confiance. Les premiers musulmans priaient en cachette, dans les vallées autour de La Mecque. Plus tard, ils se sont réunis dans la maison d'un jeune homme appelé al-Arqam, près de la colline de Safa. Cette maison est devenue le premier lieu de rencontre des musulmans."
     },
     {
-     "texte": "Le lendemain, un pasteur lui a donné ce conseil : « Ne dis jamais rien que tu n'as pas vérifié dans les livres. Et commence par lui montrer Jésus, pas par attaquer son prophète. » Quelques mois plus tard, les deux jeunes gens ont commencé à lire ensemble l'Évangile de Luc, et de vraies conversations sont nées."
-    },
-    {
-     "texte": "Cette série est faite pour que tu ne fasses pas la même erreur. C'est pour cela que nous citons les livres avec précision."
+     "texte": "Le message de ces premières années était simple. Il n'y a qu'un seul Dieu, le créateur. Les idoles ne servent à rien. Un jour, tous les morts ressusciteront, et Dieu jugera chacun selon ses actes. Il faut prier, être généreux avec les pauvres, et prendre soin des orphelins."
     }
    ]
   },
@@ -417,131 +424,144 @@
    "numero": "10",
    "titre": "Ce que nous retenons",
    "references": [
-    "Jn 14:6",
-    "He 1:1-2"
+    "1 Jn 4:1"
    ],
    "blocs": [
     {
      "sous_titre": "Résumons"
     },
     {
-     "texte": "Mahomet est né vers l'an 570 à La Mecque. Il était orphelin. Il a grandi chez son grand-père, puis chez son oncle Abou Talib. Il a été berger, puis commerçant honnête. Il a épousé Khadija, beaucoup plus âgée que lui selon la tradition, et il lui est resté fidèle pendant vingt-cinq ans."
+     "texte": "Mahomet est né vers l'an 570, à La Mecque, dans le clan des Banou Hachim, de la tribu de Quraych. Son père Abdallah, qui avait failli être sacrifié par son propre père, est mort avant sa naissance. Il a passé ses premières années dans le désert chez la nourrice Halima. Sa mère Amina est morte quand il avait six ans, et son grand-père Abd al-Mouttalib quand il en avait huit. Il a été élevé par son oncle Abou Talib, qui l'a protégé toute sa vie sans devenir musulman."
     },
     {
-     "texte": "Vers quarante ans, dans la grotte de Hira, il a vécu une expérience qu'il a comprise plus tard comme la visite de l'ange Gabriel. Un être l'a saisi, l'a serré jusqu'à l'épuisement, et lui a ordonné de réciter. Il en est sorti terrifié, avec peur pour lui-même. Khadija et son cousin chrétien Waraqa l'ont rassuré. Pendant le silence qui a suivi, il était si désespéré qu'il a voulu se jeter du haut des montagnes. Puis les « révélations » ont repris, et elles sont devenues continues."
+     "texte": "Il a été berger, puis commerçant. Il a participé à la guerre sacrilège et au pacte des vertueux. On l'appelait l'homme de confiance. À vingt-cinq ans, il a épousé la riche Khadija, avec qui il a vécu vingt-cinq ans et eu six enfants. Il a adopté Zayd et pris chez lui son cousin Ali. Il a évité une guerre lors de la reconstruction de la Kaaba."
     },
     {
-     "sous_titre": "La dernière parole de Dieu"
+     "texte": "Vers quarante ans, il a commencé à se retirer dans la grotte de Hira. Une nuit de ramadan, un être l'a saisi, l'a serré trois fois jusqu'à l'épuisement, et lui a ordonné de réciter. Il est rentré terrifié, craignant d'être possédé. Khadija et son cousin chrétien Waraqa l'ont rassuré. Puis est venu un long silence, pendant lequel il a voulu se jeter du haut des montagnes. Enfin, les révélations ont repris, et les premiers croyants l'ont suivi."
     },
     {
-     "texte": "Le musulman croit que Mahomet est le dernier messager de Dieu. Le chrétien croit ce que dit l'épître aux Hébreux : après avoir autrefois, à plusieurs reprises et de plusieurs manières, parlé à nos pères par les prophètes, Dieu, dans ces derniers temps, nous a parlé par le Fils (Hébreux 1:1-2)."
+     "sous_titre": "Ce que le chrétien retient"
     },
     {
-     "texte": "Je le redis avec des mots simples. La dernière parole de Dieu n'est pas un livre récité dans une grotte. C'est une personne : Jésus, la Parole devenue homme. Et Jésus a dit : je suis le chemin, la vérité et la vie (Jean 14:6)."
+     "texte": "Le chrétien qui connaît cette histoire comprend mieux pourquoi son voisin musulman aime tant Mahomet : un orphelin, un homme honnête, un mari fidèle, un homme qui cherchait Dieu. Il remarque aussi les questions que pose le récit de la grotte : la peur, la violence de l'être qui l'a serré, le doute de Mahomet lui-même sur la source de son expérience. La Bible nous demande d'éprouver les esprits pour savoir s'ils viennent de Dieu (1 Jean 4:1). Nous le ferons à la fin de cette série, quand nous aurons tout vu."
     },
     {
-     "texte": "Dans le prochain enseignement, nous allons suivre Mahomet à La Mecque, puis à Médine. Nous verrons la persécution, le départ vers Médine, et le moment où le prédicateur devient chef de guerre."
+     "verset": "1 Jn 4:1"
+    },
+    {
+     "texte": "Dans le prochain enseignement, nous suivrons Mahomet pendant ses treize années de prédication à La Mecque, puis son départ pour Médine, où tout va changer."
     }
    ]
   }
  ],
  "sujets": [
   {
-   "titre": "Pour les musulmans qui cherchent Dieu",
-   "texte": "Prions afin que les musulmans sincères, qui cherchent Dieu par la prière et le jeûne, rencontrent Jésus, qui se fait connaître à ceux qui le cherchent de tout leur cœur (Jérémie 29:13)."
+   "titre": "Pour les orphelins",
+   "texte": "Prions pour les enfants orphelins de nos quartiers, musulmans et chrétiens, afin qu'ils trouvent un refuge et qu'ils connaissent Dieu comme Père (Psaume 68:6)."
   },
   {
-   "titre": "Pour ceux qui sont angoissés",
-   "texte": "Prions pour les musulmans qui ont peur du jugement et qui n'ont aucune assurance, afin qu'ils entendent l'appel de Jésus : venez à moi, et je vous donnerai du repos (Matthieu 11:28)."
+   "titre": "Pour ceux qui cherchent Dieu dans la solitude",
+   "texte": "Prions pour les musulmans qui cherchent Dieu dans la prière et le jeûne, afin que Dieu se révèle à eux (Jérémie 29:13)."
   },
   {
-   "titre": "Pour notre discernement",
-   "texte": "Prions afin que Dieu nous apprenne à discerner les esprits avec sa Parole, et à parler toujours avec vérité, sans exagérer et sans mépriser (1 Jean 4:1)."
+   "titre": "Pour notre connaissance",
+   "texte": "Prions afin de bien connaître l'histoire de nos voisins musulmans, pour les comprendre et les aimer (Proverbes 18:15)."
   }
  ],
  "questions": [
   {
-   "question": "Qui a élevé Mahomet après la mort de sa mère et de son grand-père ?",
+   "question": "Pourquoi appelle-t-on Mahomet « le fils des deux sacrifiés » ?",
    "choix": [
-    "Khadija",
-    "Son oncle Abou Talib",
-    "Le moine Bahira"
+    "Parce qu'il a fait deux sacrifices",
+    "Parce que son ancêtre Ismaël et son père Abdallah auraient tous deux été remplacés par un sacrifice",
+    "Parce qu'il avait deux pères"
    ],
    "reponse": 1,
-   "explication": "Abou Talib l'a élevé et protégé toute sa vie, sans devenir musulman.",
+   "explication": "Abdallah a été racheté par cent chameaux.",
    "section": "1"
   },
   {
-   "question": "Combien de temps est-ce que Mahomet est resté marié à Khadija, sa seule femme tant qu'elle était vivante ?",
+   "question": "Pourquoi les nourrices refusaient-elles de prendre le petit Muhammad ?",
    "choix": [
-    "Cinq ans",
-    "Environ vingt-cinq ans",
-    "Quarante ans"
+    "Parce qu'il était malade",
+    "Parce qu'il était orphelin de père, et qu'une veuve ne pouvait pas bien payer",
+    "Parce qu'il pleurait"
    ],
    "reponse": 1,
-   "explication": "Pendant ce temps, il n'a pas eu d'autre femme.",
+   "explication": "Halima l'a pris quand même.",
+   "section": "2"
+  },
+  {
+   "question": "Où est morte Amina, la mère de Mahomet ?",
+   "choix": [
+    "À La Mecque",
+    "À al-Abwa, sur la route entre Médine et La Mecque",
+    "En Éthiopie"
+   ],
+   "reponse": 1,
+   "explication": "C'est la servante Baraka, Oumm Ayman, qui a ramené l'enfant.",
    "section": "3"
   },
   {
-   "question": "Selon Boukhari, qu'a fait l'être de la grotte quand Mahomet a dit : « Je ne sais pas lire » ?",
+   "question": "Qu'est-ce que le pacte des vertueux ?",
    "choix": [
-    "Il l'a consolé",
-    "Il l'a serré jusqu'à l'épuisement, trois fois",
-    "Il lui a donné un livre"
+    "Un accord pour faire la guerre",
+    "Un serment de défendre toute personne victime d'injustice à La Mecque",
+    "Un mariage"
    ],
    "reponse": 1,
-   "explication": "Boukhari le raconte au hadith 3.",
+   "explication": "Mahomet a dit qu'il y répondrait encore s'il était appelé.",
    "section": "4"
   },
   {
-   "question": "Quel critère de la Bible permet d'éprouver un esprit ?",
+   "question": "Comment s'appelait le serviteur que Khadija a envoyé avec Mahomet en Syrie ?",
    "choix": [
-    "Le fait qu'il fasse peur",
-    "Le fait qu'il reconnaisse Jésus-Christ venu dans un corps d'homme",
-    "Le fait qu'un vieil homme l'approuve"
+    "Zayd",
+    "Maysara",
+    "Bilal"
    ],
    "reponse": 1,
-   "explication": "1 Jean 4:2-3.",
+   "explication": "Il a raconté à Khadija ce qu'il avait vu pendant le voyage.",
    "section": "5"
   },
   {
-   "question": "Selon Boukhari, qu'a fait Mahomet pendant le silence qui a suivi la première révélation ?",
+   "question": "Selon Boukhari, que s'est-il passé quand Mahomet a dit à l'ange : « Je ne suis pas de ceux qui lisent » ?",
    "choix": [
-    "Il a voyagé en Syrie",
-    "Il a voulu plusieurs fois se jeter du haut des montagnes",
-    "Il a écrit le Coran"
+    "L'ange l'a consolé",
+    "L'ange l'a serré trois fois jusqu'à l'épuisement",
+    "L'ange est parti"
    ],
    "reponse": 1,
-   "explication": "Boukhari le raconte au hadith 6982.",
-   "section": "6"
+   "explication": "Boukhari, hadith 3.",
+   "section": "7"
   },
   {
-   "question": "Selon le Coran, qui a ressuscité des morts ?",
+   "question": "Qu'a dit Mahomet à Khadija en rentrant de la grotte ?",
    "choix": [
-    "Mahomet",
-    "Jésus",
-    "Abraham"
+    "« J'ai trouvé un trésor »",
+    "« Couvrez-moi ! J'ai eu peur pour moi-même »",
+    "« Je suis le roi des Arabes »"
    ],
    "reponse": 1,
-   "explication": "Le Coran l'attribue à Jésus, dans la sourate 3, au verset 49.",
-   "section": "8"
+   "explication": "Il craignait d'être devenu un poète ou un possédé.",
+   "section": "7"
   },
   {
-   "question": "Qu'ont fait les Juifs de Bérée quand ils ont écouté Paul ?",
+   "question": "Qui étaient les quatre premiers à croire en Mahomet ?",
    "choix": [
-    "Ils l'ont chassé",
-    "Ils examinaient chaque jour les Écritures",
-    "Ils ont cru sans vérifier"
+    "Omar, Othman, Ali et Hamza",
+    "Khadija, Ali, Zayd et Abou Bakr",
+    "Bilal, Ammar, Saad et Talha"
    ],
    "reponse": 1,
-   "explication": "Actes 17:11.",
+   "explication": "Les amis d'Abou Bakr ont suivi.",
    "section": "9"
   }
  ],
  "devoir": [
-  "Lis Luc 1:5-38. Comment est-ce que l'ange Gabriel parle à Zacharie et à Marie ? Note ses premières paroles.",
-  "Compare avec le récit de la grotte de Hira, dans la section 4. Écris ce que tu remarques.",
-  "Lis 1 Jean 4:1-6, et apprends par cœur 1 Jean 4:1."
+  "Fais l'arbre généalogique de Mahomet, de Qusayy jusqu'à lui, en y plaçant aussi Abou Talib et Ali.",
+  "Raconte avec tes propres mots, en cinq minutes, l'histoire de la nuit de la grotte de Hira.",
+  "Prie pour un musulman de ton entourage qui porte le nom Muhammad, Mouhamadou ou Mamadou."
  ],
  "prieres_liees": [],
  "source": "Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
