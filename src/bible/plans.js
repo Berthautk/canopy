@@ -82,3 +82,25 @@ export function grouper(chapitres) {
   }
   return g.map((x) => (x.theme ? x : { ...x, libelle: `${PAR_CODE[x.code].nom} ${x.debut}${x.fin > x.debut ? '-' + x.fin : ''}` }));
 }
+
+// Étapes de lecture d'aujourd'hui, chapitre par chapitre (pour lire le plan d'un trait, sans revenir en arrière).
+// Chaque étape : { code, c, v, fin, cle, libelle }.
+export function etapesDuJour(p) {
+  const b = bilan(p), lus = new Set(p.lus), etapes = [];
+  for (const k of b.aujourdhui) {
+    if (k.startsWith('T.')) {
+      const j = PLAN_THEMATIQUE.jours[+k.slice(2)], r = lireReference(j.reference);
+      if (r) etapes.push({ code: r.code, c: r.c, v: r.v || null, fin: r.fin || null, cle: k, libelle: j.reference, theme: j.theme, lu: lus.has(k) });
+    } else { const [code, c] = k.split('.'); etapes.push({ code, c: +c, v: null, cle: k, libelle: `${PAR_CODE[code].nom} ${c}`, lu: lus.has(k) }); }
+  }
+  return etapes;
+}
+// Clés du plan qui correspondent à un chapitre (pour le noter comme lu depuis la lecture).
+export function clesDuChapitre(p, code, c) {
+  if (!p) return [];
+  const prog = programme(p).flat();
+  if (p.id !== 'thematique') { const k = `${code}.${c}`; return prog.includes(k) ? [k] : []; }
+  const aujourdhui = new Set(bilan(p).aujourdhui);
+  const l = prog.filter((k) => { const r = lireReference(PLAN_THEMATIQUE.jours[+k.slice(2)]?.reference || ''); return r && r.code === code && r.c === c; });
+  return l.filter((k) => aujourdhui.has(k)).length ? l.filter((k) => aujourdhui.has(k)) : l.slice(0, 1);
+}

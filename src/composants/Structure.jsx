@@ -1,4 +1,4 @@
-import { useState } from 'preact/hooks';
+import { useState, useEffect, useRef } from 'preact/hooks';
 import { Icone, Embleme } from './Icone.jsx';
 import { aller, retour, revenir, provenance, route } from '../outils/routeur.js';
 import { Avatar } from './Avatar.jsx';
@@ -37,8 +37,16 @@ export function Logo() {
 
 // En-tête commun. `titre` ajoute la barre secondaire avec le bouton retour (écrans de détail).
 export function Entete({ titre, surMenu }) {
+  // Hauteur réelle de l'en-tête (elle varie avec le bandeau « Installer » et le titre) : les barres collantes se placent dessous.
+  const ref = useRef(null);
+  useEffect(() => {
+    const el = ref.current; if (!el) return;
+    const maj = () => document.documentElement.style.setProperty('--haut-entete', el.getBoundingClientRect().height + 'px');
+    maj(); if (typeof ResizeObserver === 'undefined') return;
+    const o = new ResizeObserver(maj); o.observe(el); return () => o.disconnect();
+  }, []);
   return (
-    <header class="entete">
+    <header class="entete" ref={ref}>
       <div class="entete__ligne">
         <button class="entete__btn" onClick={surMenu} aria-label="Ouvrir le menu"><Icone nom="menu" /></button>
         <a href="#/accueil" aria-label="Yeshaya, accueil"><Logo /></a>

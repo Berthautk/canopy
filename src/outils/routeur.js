@@ -30,10 +30,19 @@ const restaurer = (y) => {
   requestAnimationFrame(essai);
 };
 
+// Pile des pages visitées : un retour (bouton de l'app OU touche retour du téléphone) ramène à l'endroit exact de la page.
+let pile = []; try { pile = JSON.parse(sessionStorage.getItem('yeshaya:pile-pages') || '[]'); } catch {}
+const garderPile = () => { try { sessionStorage.setItem('yeshaya:pile-pages', JSON.stringify(pile.slice(-40))); } catch {} };
+if (!pile.length || pile[pile.length - 1] !== (location.hash || '#/accueil')) { pile.push(location.hash || '#/accueil'); garderPile(); }
+
 addEventListener('hashchange', () => {
   const avant = route.valeur, titre = titrePage();
   route.valeur = lire();
   const apres = route.valeur;
+  const estRetour = pile.length > 1 && pile[pile.length - 2] === apres.hash;
+  if (estRetour) pile.pop(); else pile.push(apres.hash);
+  garderPile();
+  if (estRetour) restaurerAuProchain = true;
   if (estBible(apres.segments) && !estBible(avant.segments)) fixerProvenance({ hash: avant.hash, y: positions[avant.hash] || 0, titre });
   else if (!estBible(apres.segments) && provenance.valeur && apres.hash !== provenance.valeur.hash) fixerProvenance(null);
   if (restaurerAuProchain || (provenance.valeur && apres.hash === provenance.valeur.hash)) {
@@ -55,10 +64,15 @@ export const revenir = () => {
 // de l'historique : « Retour » ramène alors à la page d'avant, pas au chapitre précédent.
 export const aller = (chemin) => {
   const a = route.valeur.segments, b = chemin.split('?')[0].split('/').filter(Boolean);
-  if (a.length >= 3 && a.length === b.length && a[0] === b[0] && a[1] === b[1]) { history.replaceState(null, '', '#/' + chemin); route.valeur = lire(); scrollTo(0, 0); return; }
+  if (a.length >= 3 && a.length === b.length && a[0] === b[0] && a[1] === b[1]) { history.replaceState(null, '', '#/' + chemin); route.valeur = lire(); pile[pile.length - 1] = route.valeur.hash; garderPile(); scrollTo(0, 0); return; }
   location.hash = '#/' + chemin;
 };
-export const remplacer = (chemin) => { history.replaceState(null, '', '#/' + chemin); route.valeur = lire(); };
+export const remplacer = (chemin) => { history.replaceState(null, '', '#/' + chemin); route.valeur = lire(); pile[pile.length - 1] = route.valeur.hash; garderPile(); scrollTo(0, 0); };
+// Revenir à une page précise : par l'historique si elle est juste avant (on retrouve sa place), sinon en y allant.
+export const retourVers = (chemin) => {
+  const h = '#/' + chemin;
+  if (pile.length > 1 && pile[pile.length - 2] === h) { restaurerAuProchain = true; history.back(); } else location.hash = h;
+};
 export const retour = (defaut = 'accueil') => {
   if (estBible(route.valeur.segments) && revenir()) return;
   restaurerAuProchain = true;

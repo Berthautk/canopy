@@ -32,4 +32,4 @@ export const ecrireNote = (cle, note) => modifier(cle, { note: note.trim().slice
 const CLE_LECTURE = 'yeshaya:lecture';
 export const positionLecture = signal(null);
 export async function chargerPosition() { try { positionLecture.valeur = (await get(CLE_LECTURE)) || null; } catch {} }
-export async function memoriserPosition(code, c) { positionLecture.valeur = { code, c }; try { await set(CLE_LECTURE, { code, c }); } catch {} }
+export async function memoriserPosition(code, c, v = null) { const p = positionLecture.valeur; if (p && p.code === code && p.c === c && p.v === v) return; positionLecture.valeur = { code, c, v }; try { await set(CLE_LECTURE, { code, c, v }); } catch {} }

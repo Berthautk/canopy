@@ -2,7 +2,7 @@ import { useState } from 'preact/hooks';
 import { Icone } from '../../composants/Icone.jsx';
 import { notifier } from '../../composants/Notification.jsx';
 import { PLANS } from '../../donnees/contenu.js';
-import { plan, commencerPlan, arreterPlan, bilan, basculerLu, rattraper, grouper, programme, JOURS } from '../../bible/plans.js';
+import { plan, commencerPlan, arreterPlan, bilan, basculerLu, rattraper, grouper, programme, JOURS, etapesDuJour } from '../../bible/plans.js';
 import { useSignal } from '../../outils/signal.js';
 
 function Choix() {
@@ -40,6 +40,8 @@ export function Plan() {
   const groupes = grouper(b.aujourdhui);
   const nomPlan = PLANS.find((x) => x.id === p.id)?.titre ?? p.id;
   const fin = new Date(); fin.setDate(fin.getDate() + b.joursRestants - 1);
+  const etapes = etapesDuJour(p), prochaine = etapes.find((x) => !x.lu);
+  const lien = (x, ecoute) => `#/bible/lire/${x.code}/${x.c}${x.v ? '/' + x.v : ''}?plan=1${ecoute ? '&ecouter=1' : ''}`;
 
   return (
     <div class="page">
@@ -48,9 +50,9 @@ export function Plan() {
         <div class="ligne__corps">
           <span class="ligne__titre">Mon plan : {nomPlan}</span>
           <span class="ligne__desc" style="display:block">Jour {b.jour} sur {JOURS}</span>
-          <div class="progression progression--fine"><span style={{ width: b.pourcentage + '%' }} /></div>
+          <div class="progression progression--fine"><span style={{ width: Math.max(b.lus ? 1 : 0, (b.lus / b.total) * 100) + '%' }} /></div>
         </div>
-        <b class="plan-tete__pct">{b.pourcentage} %</b>
+        <b class="plan-tete__pct">{b.lus && b.lus / b.total < 0.1 ? String(Math.max(0.1, Math.round((b.lus / b.total) * 1000) / 10)).replace('.', ',') : b.pourcentage} %</b>
       </section>
 
       {b.retard.length > 0 && (
@@ -65,6 +67,11 @@ export function Plan() {
         <div class="ligne__corps">
           <h3>Lecture d'aujourd'hui</h3>
           {groupes.length === 0 && <p class="ligne__desc">Rien de prévu aujourd'hui : profitez-en pour relire un passage.</p>}
+          {prochaine ? <div class="plan-actions">
+            <a class="bouton bouton--or" href={lien(prochaine)}><Icone nom="bible" taille={18} /> {etapes.some((x) => x.lu) ? 'Continuer' : 'Commencer'} : {prochaine.libelle}</a>
+            <a class="bouton bouton--contour" href={lien(prochaine, true)}><Icone nom="musique" taille={18} /> Écouter la lecture du jour</a>
+            <p class="ligne__desc" style="margin:0">Tu passes d'un chapitre au suivant sans revenir ici ; chaque chapitre lu jusqu'en bas est coché tout seul.</p>
+          </div> : etapes.length > 0 && <p class="plan-fait"><Icone nom="verifie" taille={18} /> Lecture du jour terminée. Bravo !</p>}
           <ul class="cases">
             {groupes.map((g) => {
               const fait = g.cles.every((k) => lus.has(k));
@@ -74,8 +81,8 @@ export function Plan() {
                     <input type="checkbox" checked={fait} onChange={(e) => basculerLu(p, g.cles, e.currentTarget.checked)} />
                     <span class={fait ? 'barre' : ''}>{g.libelle}{g.theme && <small class="plan-theme">{g.theme}</small>}</span>
                   </label>
-                  <a class="lien" href={`#/bible/lire/${g.code}/${g.debut}${g.verset ? '/' + g.verset : ''}`}>Lire</a>
-                  <a class="lien" style="margin-left:10px" href={`#/bible/lire/${g.code}/${g.debut}?ecouter=1`}>🔊 Écouter</a>
+                  <a class="lien" href={`#/bible/lire/${g.code}/${g.debut}${g.verset ? '/' + g.verset : ''}?plan=1`}>Lire</a>
+                  <a class="lien" style="margin-left:10px" href={`#/bible/lire/${g.code}/${g.debut}${g.verset ? '/' + g.verset : ''}?plan=1&ecouter=1`}>🔊 Écouter</a>
                 </li>
               );
             })}

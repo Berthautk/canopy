@@ -61,13 +61,25 @@ async function preparerBloc(i) {
   return decouper(pourLaVoix(b.texte));
 }
 
-async function lireBloc(i, g) {
+// Position d'écoute gardée pour chaque contenu (passage + phrase), pour reprendre là où l'on s'était arrêté,
+// même après avoir quitté la page ou fermé l'application.
+const CLE_POS = 'yeshaya:voix-positions';
+const lirePos = () => { try { return JSON.parse(localStorage.getItem(CLE_POS) || '{}'); } catch { return {}; } };
+export function positionVoix(id) { const p = lirePos()[id]; return p && p.index > 0 ? p : null; }
+function garderPos(id, index, phrase) {
+  if (!id) return; const t = lirePos();
+  if (index == null) delete t[id]; else t[id] = { index, phrase: phrase || 0, total: blocs.length, quand: Date.now() };
+  const cles = Object.keys(t).sort((a, b) => t[b].quand - t[a].quand).slice(0, 60);   // on garde les 60 plus récents
+  try { localStorage.setItem(CLE_POS, JSON.stringify(Object.fromEntries(cles.map((k) => [k, t[k]])))); } catch {}
+}
+
+async function lireBloc(i, g, debutPhrase = 0) {
   if (g !== generation) return;
-  if (i >= blocs.length) { maj({ lecture: false, index: 0, termine: true }); relacherEveil(); return; }
+  if (i >= blocs.length) { garderPos(voix.valeur.id, null); maj({ lecture: false, index: 0, termine: true }); relacherEveil(); return; }
   maj({ index: i, lecture: true });
-  phrases = await preparerBloc(i); iPhrase = 0;
+  phrases = await preparerBloc(i); iPhrase = Math.max(0, Math.min(debutPhrase, phrases.length - 1));
   if (g !== generation) return;
-  maj({ phrases, iPhrase: 0, mot: null });
+  maj({ phrases, iPhrase, mot: null });
   direPhrase(i, g);
 }
 
@@ -97,6 +109,7 @@ function direPhrase(i, g) {
   if (iPhrase >= phrases.length) { lireBloc(i + 1, g); return; }
   const u = new SpeechSynthesisUtterance(phrases[iPhrase]);
   maj({ iPhrase, mot: null });
+  garderPos(voix.valeur.id, i, iPhrase);
   const suivi = suivreMot(phrases[iPhrase], g);
   u.onstart = () => suivi.debut();
   // Mot prononcé (si la voix du téléphone le signale) : sert à colorer le texte au rythme de la voix.
@@ -107,19 +120,22 @@ function direPhrase(i, g) {
   speechSynthesis.speak(u);
 }
 
-export function lireAVoixHaute(id, listeBlocs, depuis = 0) {
+export function lireAVoixHaute(id, listeBlocs, depuis = 0, depuisPhrase = 0) {
   if (!voix.valeur.disponible) return;
   pauseAudio();                                   // pas deux sons en même temps
   speechSynthesis.cancel(); generation++;
   blocs = listeBlocs.map((b) => b || {});   // les blocs vides sont sautés à la lecture, sans décaler la numérotation
   garderEveille();
   maj({ id, total: blocs.length, termine: false, aucuneVoixFr: speechSynthesis.getVoices().length > 0 && !voixFrancaise() });
-  lireBloc(depuis, generation);
+  lireBloc(depuis, generation, depuisPhrase);
 }
-// « Pause » = arrêt en gardant la position (la vraie pause est peu fiable sur Android).
-export function pauseVoix() { generation++; speechSynthesis.cancel(); maj({ lecture: false }); relacherEveil(); }
-export function reprendreVoix() { if (voix.valeur.id) { garderEveille(); speechSynthesis.cancel(); generation++; lireBloc(voix.valeur.index, generation); } }
+// Reprendre un contenu là où on l'avait laissé (même après avoir quitté la page).
+export function reprendreDepuisMemoire(id, listeBlocs) { const p = positionVoix(id); lireAVoixHaute(id, listeBlocs, p ? Math.min(p.index, listeBlocs.length - 1) : 0, p ? p.phrase : 0); }
+// « Pause » = arrêt en gardant la position exacte (passage et phrase) ; la vraie pause est peu fiable sur Android.
+let pausePhrase = 0;
+export function pauseVoix() { pausePhrase = iPhrase; generation++; speechSynthesis.cancel(); maj({ lecture: false }); relacherEveil(); }
+export function reprendreVoix() { if (voix.valeur.id) { garderEveille(); speechSynthesis.cancel(); generation++; lireBloc(voix.valeur.index, generation, pausePhrase); pausePhrase = 0; } }
 export function arreterVoix() { relacherEveil(); generation++; if (voix.valeur.disponible) speechSynthesis.cancel(); maj({ id: null, lecture: false, index: 0, total: 0 }); }
-export function sauterVoix(sens) { const i = Math.max(0, Math.min(blocs.length - 1, voix.valeur.index + sens)); speechSynthesis.cancel(); generation++; lireBloc(i, generation); }
-export function vitesseVoix(v) { maj({ vitesse: v }); if (voix.valeur.lecture) reprendreVoix(); }
+export function sauterVoix(sens) { pausePhrase = 0; const i = Math.max(0, Math.min(blocs.length - 1, voix.valeur.index + sens)); speechSynthesis.cancel(); generation++; lireBloc(i, generation); }
+export function vitesseVoix(v) { maj({ vitesse: v }); if (voix.valeur.lecture) { pausePhrase = iPhrase; reprendreVoix(); } }
 if (typeof speechSynthesis !== 'undefined') speechSynthesis.onvoiceschanged = () => {};   // charge la liste des voix

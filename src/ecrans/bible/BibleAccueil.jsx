@@ -35,11 +35,11 @@ export function BibleAccueil() {
       </form>
 
       {pos && (
-        <a class="carte reprendre" href={`#/bible/lire/${pos.code}/${pos.c}`}>
+        <a class="carte reprendre" href={`#/bible/lire/${pos.code}/${pos.c}${pos.v ? '/' + pos.v : ''}`}>
           <span class="reprendre__icone"><Icone nom="lecture" taille={20} /></span>
           <span class="ligne__corps">
             <span class="ligne__desc" style="display:block">Reprendre ma lecture</span>
-            <span class="ligne__titre">{PAR_CODE[pos.code].nom} {pos.c}</span>
+            <span class="ligne__titre">{PAR_CODE[pos.code].nom} {pos.c}{pos.v ? ', verset ' + pos.v : ''}</span>
           </span>
           <Icone nom="chevron" taille={20} />
         </a>

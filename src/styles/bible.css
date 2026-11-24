@@ -64,7 +64,7 @@
 .pastille-chapitre { min-height: 52px; display: grid; place-items: center; font-family: var(--police-titre); font-weight: 600; color: var(--titre); }
 
 /* ===== Écran 16 : lecture ===== */
-.lecture__barre { position: sticky; top: calc(106px + env(safe-area-inset-top)); z-index: 15; display: flex; gap: 6px; align-items: center;
+.lecture__barre { position: sticky; top: var(--haut-entete, 106px); z-index: 15; display: flex; gap: 6px; align-items: center;
   padding: 8px 12px; background: var(--fond); border-bottom: 1px solid var(--bord); }
 .selecteur { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 0 12px; border-radius: 10px; background: var(--surface);
   border: 1px solid var(--bord); font-family: var(--police-titre); font-weight: 600; color: var(--titre); font-size: .88rem; white-space: nowrap;
@@ -75,7 +75,7 @@
 .rond:disabled { opacity: .35; }
 .lecture__texte { padding-top: 6px; }
 .lecture__titre { font-family: Georgia, 'Times New Roman', serif; font-size: 1.6rem; margin: 10px 4px 8px; }
-.v { scroll-margin-top: 180px; margin: 0; padding: 5px 6px; border-radius: 8px; font-family: Georgia, 'Times New Roman', serif; font-size: 1.12rem; line-height: 1.6;
+.v { scroll-margin-top: calc(var(--haut-entete, 108px) + 80px); margin: 0; padding: 5px 6px; border-radius: 8px; font-family: Georgia, 'Times New Roman', serif; font-size: 1.12rem; line-height: 1.6;
   color: var(--texte); cursor: pointer; -webkit-user-select: none; user-select: none; transition: background .2s; }
 :root[data-theme='sombre'] .v[style] { color: #1E2733; }
 .v__n { font-family: var(--police-titre); font-size: .7em; font-weight: 700; color: var(--or-fonce); margin-right: 4px; vertical-align: .45em; }
@@ -210,3 +210,8 @@ button.selecteur { font: inherit; cursor: pointer; }
 .theme-recherche { margin-top: 14px; }
 .lecture__boucle { display: block; margin: 0 0 10px; } .puce--active { border-color: var(--or); background: #FFF3D1; color: #6b4f0a; }
 :root[data-theme='sombre'] .puce--active { background: #2E2818; color: #ffd86b; }
+.plan-actions { display: grid; gap: 8px; margin: 8px 0 12px; }
+.plan-fait { display: flex; align-items: center; gap: 6px; color: #2e7d5b; font-weight: 700; margin: 6px 0 10px; }
+.plan-bandeau { display: flex; align-items: center; gap: 6px; margin: 4px 0 8px; padding: 6px 10px; border-radius: 10px; background: rgba(201,154,46,.16); color: var(--titre); font-size: .85rem; font-weight: 600; }
+.plan-suite { margin-top: 18px; border: 2px solid var(--or); text-align: center; }
+.lecture__options { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }

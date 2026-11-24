@@ -6,10 +6,10 @@ import { PAR_CODE, LIVRES, cleVerset, ecrireReference, lireReference } from '../
 import { annotations, COULEURS, surligner, basculerFavori, ecrireNote, memoriserPosition } from '../../donnees/annotations.js';
 import { useSignal } from '../../outils/signal.js';
 import { partager, copier, partagerImageVerset } from '../../outils/partage.js';
-import { aller, remplacer } from '../../outils/routeur.js';
+import { aller, remplacer, retourVers } from '../../outils/routeur.js';
 import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 import { lireAVoixHaute, voix } from '../../audio/voix.js';
-import { plan, basculerLu } from '../../bible/plans.js';
+import { plan, basculerLu, etapesDuJour, clesDuChapitre, bilan as bilanPlan } from '../../bible/plans.js';
 import { reglages, modifierReglages } from '../../donnees/reglages.js';
 
 // Pile des passages quittés (pour « Revenir à… ») : on peut aller voir une autre référence, puis revenir où l'on était.
@@ -80,7 +80,7 @@ function voisin(code, c, sens) {
 }
 
 // Écran 16 : lecture libre. Toucher (ou appui long) sur un verset ouvre les actions.
-export function Lecture({ code, c, vise, ecouter }) {
+export function Lecture({ code, c, vise, ecouter, depuisPlan }) {
   const livre = PAR_CODE[code];
   const [chap, setChap] = useState(null);
   const [erreur, setErreur] = useState(null);
@@ -98,7 +98,7 @@ export function Lecture({ code, c, vise, ecouter }) {
 
   useEffect(() => {
     let actif = true; setChap(null); setErreur(null); setSels([]); setNote(null); setPile(lirePile());
-    chargerLivre(code).then((l) => { if (!actif) return; setChap(l.chapitres[c - 1]); memoriserPosition(code, c); })
+    chargerLivre(code).then((l) => { if (!actif) return; setChap(l.chapitres[c - 1]); memoriserPosition(code, c, vise || null); })
       .catch(() => actif && setErreur('Ce livre n\'est pas encore sur votre téléphone. Connectez-vous une fois ou téléchargez la Bible.'));
     return () => { actif = false; };
   }, [code, c]);
@@ -112,13 +112,37 @@ export function Lecture({ code, c, vise, ecouter }) {
     }
   }, [chap, vise]);
 
-  // Fin de l'écoute : le chapitre est noté comme lu dans le plan ; « Lire en boucle » le relance.
+  // Plan de lecture : clés du plan pour ce chapitre, étapes du jour, étape suivante.
   const vx = useSignal(voix), pl = useSignal(plan), rg = useSignal(reglages);
-  const cleChap = `${code}.${c}`, dejaLu = !!pl?.lus?.includes(cleChap);
+  const clesPlan = clesDuChapitre(pl, code, c), dejaLu = clesPlan.length > 0 && clesPlan.every((k) => pl.lus.includes(k));
+  const etapes = pl && depuisPlan ? etapesDuJour(pl) : [];
+  const iEtape = etapes.findIndex((x) => x.code === code && x.c === c);
+  const etapeSuivante = iEtape >= 0 ? etapes.slice(iEtape + 1).find((x) => !x.lu) || etapes[iEtape + 1] : null;
+  const lienEtape = (x, ecoute) => `bible/lire/${x.code}/${x.c}${x.v ? '/' + x.v : ''}?plan=1${ecoute ? '&ecouter=1' : ''}`;
+  const noterLu = (silence) => { if (pl && clesPlan.length && !dejaLu) { basculerLu(pl, clesPlan, true); if (!silence) notifier(`${ecrireReference({ code, c })} noté comme lu dans ton plan`); } };
+  const finDuPlan = () => { notifier('Lecture du jour terminée. Bravo !'); retourVers('bible/plan'); };
+  const continuerPlan = (ecoute) => { noterLu(true); if (etapeSuivante) remplacer(lienEtape(etapeSuivante, ecoute)); else finDuPlan(); };
+
+  // Arrivé en bas du chapitre : il est noté comme lu dans le plan, sans avoir à revenir cocher.
+  useEffect(() => {
+    if (!chap || !clesPlan.length || dejaLu) return;
+    const f = () => { const d = document.documentElement; if (d.scrollTop + innerHeight >= d.scrollHeight - 140) { noterLu(); removeEventListener('scroll', f); } };
+    addEventListener('scroll', f, { passive: true }); return () => removeEventListener('scroll', f);
+  }, [chap, code, c, dejaLu]);
+  // Garder le verset où l'on est arrivé : « Reprendre ma lecture » y ramène.
+  useEffect(() => {
+    if (!chap) return; let t;
+    const f = () => { clearTimeout(t); t = setTimeout(() => { const v = versetVisible(); if (v) memoriserPosition(code, c, v); }, 700); };
+    addEventListener('scroll', f, { passive: true }); return () => { clearTimeout(t); removeEventListener('scroll', f); };
+  }, [chap, code, c]);
+
+  // Fin de l'écoute : le chapitre est noté comme lu ; on enchaîne (plan : lecture suivante du jour ; sinon chapitre suivant), ou on relit en boucle.
   useEffect(() => {
     if (!(vx.id === `bible-${code}-${c}` && vx.termine)) return;
-    if (pl && !pl.lus.includes(cleChap)) { basculerLu(pl, [cleChap], true); notifier(`${ecrireReference({ code, c })} noté comme lu dans ton plan`); }
-    if (reglages.valeur.boucleBible) setTimeout(() => lireAVoixHaute(`bible-${code}-${c}`, blocsLecture), 1200);
+    noterLu();
+    if (reglages.valeur.boucleBible) { setTimeout(() => lireAVoixHaute(`bible-${code}-${c}`, blocsLecture), 1200); return; }
+    if (depuisPlan && iEtape >= 0) { if (etapeSuivante) { notifier('Lecture suivante : ' + etapeSuivante.libelle); setTimeout(() => continuerPlan(true), 1500); } else finDuPlan(); return; }
+    if (reglages.valeur.enchainerBible !== false && suiv) { notifier('Chapitre suivant : ' + PAR_CODE[suiv[0]].nom + ' ' + suiv[1]); setTimeout(() => aller(`bible/lire/${suiv[0]}/${suiv[1]}?ecouter=1`), 1500); }
   }, [vx.termine, vx.id]);
   const blocsLecture = chap ? [{ texte: (code === 'PSA' ? ecrireReference({ code, c }) : ecrireReference({ code, c }).replace(/ (\d+)$/, ', chapitre $1')) + '.' }, ...chap.map((t) => ({ texte: (t || '').replace(/\n/g, ' ') }))] : [];
   if (!livre) return <div class="page"><p>Livre inconnu.</p></div>;
@@ -150,9 +174,12 @@ export function Lecture({ code, c, vise, ecouter }) {
         <button class="revenir-passage" onClick={revenir}><Icone nom="precedent" taille={16} /> Revenir à {ecrireReference({ code: retourA.code, c: retourA.c, v: retourA.v || undefined })}</button>
       )}
       <article class="page lecture__texte" lang="fr">
+        {depuisPlan && iEtape >= 0 && <div class="plan-bandeau"><Icone nom="calendrier" taille={16} /> Plan de lecture · jour {bilanPlan(pl).jour} · lecture {iEtape + 1} sur {etapes.length}{etapes[iEtape].theme ? ' · ' + etapes[iEtape].theme : ''}</div>}
         {chap && <BarreEcoute id={`bible-${code}-${c}`} titre={'Écouter ' + ecrireReference({ code, c })} blocs={blocsLecture} />}
-        {chap && <button class={'puce lecture__boucle' + (rg.boucleBible ? ' puce--active' : '')} aria-pressed={!!rg.boucleBible} onClick={() => modifierReglages({ boucleBible: !rg.boucleBible })}>
-          🔁 Lire en boucle : {rg.boucleBible ? 'oui' : 'non'}</button>}
+        {chap && <div class="lecture__options">
+          <button class={'puce' + (rg.enchainerBible !== false ? ' puce--active' : '')} aria-pressed={rg.enchainerBible !== false} onClick={() => modifierReglages({ enchainerBible: rg.enchainerBible === false })}>⏭ Enchaîner les chapitres : {rg.enchainerBible !== false ? 'oui' : 'non'}</button>
+          <button class={'puce' + (rg.boucleBible ? ' puce--active' : '')} aria-pressed={!!rg.boucleBible} onClick={() => modifierReglages({ boucleBible: !rg.boucleBible })}>🔁 En boucle : {rg.boucleBible ? 'oui' : 'non'}</button>
+        </div>}
         <h2 class="lecture__titre">{ecrireReference({ code, c })}</h2>
         {erreur && <p class="verset__erreur">{erreur}</p>}
         {!chap && !erreur && <p class="verset__attente">Chargement…</p>}
@@ -171,13 +198,23 @@ export function Lecture({ code, c, vise, ecouter }) {
             </p>
           );
         })}
-        {chap && pl && <button class={'bouton lecture__suivant ' + (dejaLu ? 'bouton--contour' : 'bouton--or')} onClick={() => basculerLu(pl, [cleChap], !dejaLu)}>
-          <Icone nom="verifie" taille={18} /> {dejaLu ? 'Lu (plan de lecture)' : 'J\'ai lu ce chapitre'}</button>}
-        {chap && suiv && (
-          <button class="bouton bouton--contour lecture__suivant" onClick={() => aller(`bible/lire/${suiv[0]}/${suiv[1]}`)}>
-            Chapitre suivant : {PAR_CODE[suiv[0]].nom} {suiv[1]} <Icone nom="chevron" taille={18} />
-          </button>
-        )}
+        {chap && depuisPlan && iEtape >= 0 ? (
+          <section class="carte bloc plan-suite">
+            <p class="ligne__desc" style="margin-top:0">{dejaLu ? '✓ Noté comme lu dans ton plan.' : 'En arrivant en bas du chapitre, il est noté comme lu.'}</p>
+            {etapeSuivante
+              ? <button class="bouton bouton--or" style="width:100%" onClick={() => continuerPlan(false)}><Icone nom="verifie" taille={18} /> J'ai lu · Suivant : {etapeSuivante.libelle}</button>
+              : <button class="bouton bouton--or" style="width:100%" onClick={() => { noterLu(true); finDuPlan(); }}><Icone nom="verifie" taille={18} /> J'ai lu · Terminer la lecture du jour</button>}
+            <button class="lien" style="margin-top:8px" onClick={() => retourVers('bible/plan')}>Revenir à mon plan</button>
+          </section>
+        ) : <>
+          {chap && clesPlan.length > 0 && <button class={'bouton lecture__suivant ' + (dejaLu ? 'bouton--contour' : 'bouton--or')} onClick={() => basculerLu(pl, clesPlan, !dejaLu)}>
+            <Icone nom="verifie" taille={18} /> {dejaLu ? 'Lu (plan de lecture)' : 'J\'ai lu ce chapitre'}</button>}
+          {chap && suiv && (
+            <button class="bouton bouton--contour lecture__suivant" onClick={() => aller(`bible/lire/${suiv[0]}/${suiv[1]}`)}>
+              Chapitre suivant : {PAR_CODE[suiv[0]].nom} {suiv[1]} <Icone nom="chevron" taille={18} />
+            </button>
+          )}
+        </>}
       </article>
 
       {sel && note === null && (

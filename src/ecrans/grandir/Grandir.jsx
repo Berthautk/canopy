@@ -84,6 +84,13 @@ export function SerieEnseignements({ niv, gi }) {
   );
 }
 
+// Faire descendre l'écran jusqu'à un endroit, sous l'en-tête (après que le contenu a changé).
+const allerA = (id) => setTimeout(() => {
+  const el = document.getElementById(id); if (!el) return;
+  const haut = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--haut-entete')) || 110;
+  scrollTo({ top: el.getBoundingClientRect().top + scrollY - haut - 8, behavior: 'smooth' });
+}, 60);
+
 const lireNiveau = () => { try { return localStorage.getItem('yeshaya:niveau-grandir') || 'fondations'; } catch { return 'fondations'; } };
 const simple = (t) => (t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
@@ -134,9 +141,9 @@ export function Grandir() {
         <h3 style="margin:0 0 4px">Par où commencer ?</h3>
         <p class="ligne__desc" style="margin:0 0 8px">{ENSEIGNEMENTS.length} enseignements t'attendent, rangés en {NIVEAUX.length} niveaux. Choisis ce qui te ressemble :</p>
         <button class="par-ou__choix" onClick={() => aller('grandir/decouvrir-jesus')}><b>Je viens de donner ma vie à Jésus</b><span>Commence par « Découvrir Jésus », 10 leçons</span><Icone nom="chevron" taille={18} /></button>
-        <button class="par-ou__choix" onClick={() => { choisir('fondations'); document.getElementById('series')?.scrollIntoView({ behavior: 'smooth' }); }}><b>Je suis chrétien depuis peu</b><span>Les Fondations : salut, affermissement, Bible</span><Icone nom="chevron" taille={18} /></button>
+        <button class="par-ou__choix" onClick={() => { choisir('fondations'); allerA('niveau-contenu'); }}><b>Je suis chrétien depuis peu</b><span>Les Fondations : salut, affermissement, Bible</span><Icone nom="chevron" taille={18} /></button>
         <button class="par-ou__choix" onClick={() => aller('accompagner')}><b>J'accompagne un nouveau converti</b><span>Le suivi pas à pas, avec les fiches de l'accompagnateur</span><Icone nom="chevron" taille={18} /></button>
-        <button class="par-ou__choix" onClick={() => { choisir('maturite-1'); document.getElementById('series')?.scrollIntoView({ behavior: 'smooth' }); }}><b>Je veux aller plus loin</b><span>Maturité 1 à 4 : prière, caractère, sainteté, enseignement des apôtres</span><Icone nom="chevron" taille={18} /></button>
+        <button class="par-ou__choix" onClick={() => { choisir('maturite-1'); allerA('niveau-contenu'); }}><b>Je veux aller plus loin</b><span>Maturité 1 à 4 : prière, caractère, sainteté, enseignement des apôtres</span><Icone nom="chevron" taille={18} /></button>
       </section>
 
       <a class="carte suivi-carte" href="#/accompagner">
@@ -149,29 +156,32 @@ export function Grandir() {
       <h2 class="titre-section">Les niveaux</h2>
       <div class="niveaux" role="tablist" aria-label="Niveaux">
         {NIVEAUX.map((n, i) => (
-          <button role="tab" aria-selected={niv === n.id} class={'niveau-onglet niveau-onglet--' + i} onClick={() => choisir(n.id)}>
+          <button role="tab" aria-selected={niv === n.id} class={'niveau-onglet niveau-onglet--' + i} onClick={() => { choisir(n.id); allerA('niveau-contenu'); }}>
             <span class="niveau-onglet__marche" aria-hidden="true">{Array.from({ length: i + 1 }, () => <i />)}</span>
             <b>{n.nom} <small class="niveau-onglet__nb">{n.enseignements.length}</small></b><span>{n.sous_titre}</span>
           </button>
         ))}
-        <button role="tab" aria-selected={niv === 'tout'} class="niveau-onglet niveau-onglet--tout" onClick={() => choisir('tout')}>
+        <button role="tab" aria-selected={niv === 'tout'} class="niveau-onglet niveau-onglet--tout" onClick={() => { choisir('tout'); allerA('niveau-contenu'); }}>
           <span class="niveau-onglet__marche" aria-hidden="true"><Icone nom="liste" taille={16} /></span>
           <b>Tout voir <small class="niveau-onglet__nb">{ENSEIGNEMENTS.length}</small></b><span>Par thème, par auteur, ou la liste complète</span>
         </button>
       </div>
 
+      <div id="niveau-contenu" />
       {N && <>
+        <h2 class="niveau-titre"><span class="niveau-titre__marche" aria-hidden="true">{Array.from({ length: NIVEAUX.indexOf(N) + 1 }, () => <i />)}</span>{N.nom} <small>{N.sous_titre}</small></h2>
         <p class="niveau-description">{N.description}</p>
         {N.parcours.length > 0 && <h2 class="titre-section">{N.id === 'fondations' ? 'Commence ici : les parcours guidés' : 'Parcours guidé'}</h2>}
         {N.parcours.map((id) => <CarteParcours id={id} p={p} />)}
         <h2 class="titre-section" id="series">{N.nom} : {N.enseignements.length} enseignements en {seriesDe(N).length} série{seriesDe(N).length > 1 ? 's' : ''}</h2>
         <p class="ligne__desc" style="margin:-4px 4px 10px">Touche une série pour voir tous ses enseignements.</p>
         <div class="series-grille">{seriesDe(N).map((g, gi) => <CarteSerie niv={N.id} gi={gi} g={g} parId={parId} lus={lus} />)}</div>
-        {NIVEAUX[NIVEAUX.indexOf(N) + 1] && <button class="bouton bouton--contour" style="width:100%;margin-top:12px" onClick={() => { choisir(NIVEAUX[NIVEAUX.indexOf(N) + 1].id); document.getElementById('series')?.scrollIntoView({ behavior: 'smooth' }); }}>
+        {NIVEAUX[NIVEAUX.indexOf(N) + 1] && <button class="bouton bouton--contour" style="width:100%;margin-top:12px" onClick={() => { choisir(NIVEAUX[NIVEAUX.indexOf(N) + 1].id); allerA('niveau-contenu'); }}>
           Niveau suivant : {NIVEAUX[NIVEAUX.indexOf(N) + 1].nom} <Icone nom="chevron" taille={18} /></button>}
       </>}
 
       {niv === 'tout' && <>
+          <h2 class="niveau-titre">Tous les enseignements <small>par thème, par auteur, ou la liste complète</small></h2>
           <div class="onglets-internes" role="tablist" style="margin-top:12px">
             <button role="tab" aria-selected={vue === 'themes'} onClick={() => setVue('themes')}>Par thème</button>
             <button role="tab" aria-selected={vue === 'series'} onClick={() => setVue('series')}>Auteurs</button>

@@ -407,14 +407,14 @@
 
 /* ===== Lecture à voix haute ===== */
 .barre-ecoute { margin-top: 12px; padding: 10px 12px; display: grid; gap: 8px; }
-.barre-ecoute--active { position: sticky; top: calc(108px + env(safe-area-inset-top)); z-index: 12; border-color: var(--or); box-shadow: 0 6px 18px rgba(0,0,0,.15); }
+.barre-ecoute--active { position: sticky; top: calc(var(--haut-entete, 108px) + 4px); z-index: 12; border-color: var(--or); box-shadow: 0 6px 18px rgba(0,0,0,.15); }
 .barre-ecoute__lancer { display: flex; align-items: center; gap: 12px; width: 100%; text-align: left; color: var(--titre); }
 .barre-ecoute__commandes { display: flex; align-items: center; justify-content: center; gap: 14px; }
 .barre-ecoute__pied { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .segments--mini { grid-auto-columns: 46px; padding: 2px; }
 .segments--mini button { min-height: 32px; font-size: .78rem; padding: 0; }
 [data-voix-actif='oui'] { outline: 3px solid var(--or); outline-offset: 3px; border-radius: 12px; }
-.lecture .barre-ecoute--active { top: calc(164px + env(safe-area-inset-top)); }
+.lecture .barre-ecoute--active { top: calc(var(--haut-entete, 108px) + 60px); }
 .lecture .barre-ecoute { margin: 10px 0 4px; }
 .lien-video { margin-top: 10px; display: flex; align-items: center; gap: 12px; padding: 10px 12px; color: var(--titre); }
 .lien-video__icone { width: 44px; height: 44px; flex: none; border-radius: 12px; display: grid; place-items: center; background: #C4302B; color: #fff; }
@@ -1033,3 +1033,17 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .suivi-accueil__boutons .bouton--contour { color: #fff; border-color: #fff; background: transparent; }
 .acc-reponse-disciple--vide { background: var(--fond-doux, rgba(0,0,0,.04)); border-left-color: #999; color: var(--texte-doux); }
 .acc-choix-disciple { border: 2px solid #2e7d5b; }
+
+/* Écoute : reprise mémorisée et commande flottante quand la barre est sortie de l'écran */
+.barre-ecoute__memoire { display: grid; gap: 4px; }
+.barre-ecoute__memoire .lien { justify-self: start; margin-left: 56px; font-size: .88rem; }
+.ecoute-flottante { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(76px + env(safe-area-inset-bottom)); z-index: 40; width: min(360px, calc(100% - 24px));
+  display: flex; align-items: center; gap: 8px; padding: 8px 10px; border-radius: 999px; background: var(--bleu-nuit, #142340); color: #fff; box-shadow: 0 6px 20px rgba(0,0,0,.3); border: 2px solid var(--or); }
+.ecoute-flottante .btn-lecture { width: 42px; height: 42px; flex: none; }
+.ecoute-flottante__texte { flex: 1; font-size: .85rem; font-weight: 600; }
+.ecoute-flottante .rond { color: #fff; background: rgba(255,255,255,.12); width: 36px; height: 36px; }
+.niveau-titre { margin: 18px 4px 4px; padding: 10px 12px; border-radius: 14px; background: var(--or); color: #142340; font-family: var(--police-titre); font-size: 1.15rem; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
+.niveau-titre small { font-family: var(--police-texte, inherit); font-size: .8rem; font-weight: 600; opacity: .85; flex-basis: 100%; }
+.niveau-titre__marche { display: inline-flex; align-items: flex-end; gap: 2px; }
+.niveau-titre__marche i { width: 6px; height: 8px; background: #142340; border-radius: 2px; }
+.niveau-titre__marche i:nth-child(2) { height: 11px; } .niveau-titre__marche i:nth-child(3) { height: 14px; } .niveau-titre__marche i:nth-child(4) { height: 17px; } .niveau-titre__marche i:nth-child(5) { height: 20px; }
