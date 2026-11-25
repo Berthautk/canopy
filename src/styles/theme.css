@@ -11,7 +11,7 @@
   --gris: #454B55;
 
   /* Rôles (mode clair) */
-  --fond: var(--ivoire);
+  --fond: #FAF8F3;
   --surface: var(--blanc);
   --surface-2: #FBF8F1;
   --texte: #1E2733;

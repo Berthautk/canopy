@@ -4,7 +4,7 @@ import { usePassage, cheminLire } from '../../composants/Verset.jsx';
 import { ecrireReference, cleVerset, PAR_CODE } from '../../bible/references.js';
 import { annotations, basculerFavori } from '../../donnees/annotations.js';
 import { useSignal } from '../../outils/signal.js';
-import { partager, copier } from '../../outils/partage.js';
+import { partager, copier, partagerImageVerset } from '../../outils/partage.js';
 import { retour } from '../../outils/routeur.js';
 
 // Écran 23 : mode « Montrer », verset en plein écran pour le faire lire à quelqu'un.
@@ -37,6 +37,7 @@ export function Montrer({ code, c, v }) {
           <button onClick={async () => notifier((await copier(`« ${etat.texte} » — ${ref} (LSG)`)) ? 'Verset copié' : 'Copie impossible')}><Icone nom="copier" /><span>Copier</span></button>
           <button onClick={() => basculerFavori(cle)} class={notes[cle]?.favori ? 'actif' : ''}><Icone nom="coeur" /><span>Favori</span></button>
           <button onClick={() => partager({ titre: ref, texte: `« ${etat.texte} » — ${ref} (LSG)`, chemin: cheminLire(r) })}><Icone nom="partager" /><span>Partager</span></button>
+          <button onClick={() => partagerImageVerset({ texte: etat.texte, reference: ref })}><Icone nom="agrandir" /><span>En image</span></button>
         </div>
       )}
     </div>

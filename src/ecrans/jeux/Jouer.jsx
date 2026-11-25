@@ -34,9 +34,9 @@ export function Jouer() {
   return (
     <div class="page">
       <Banniere image="/assets/photos/banniere-jeux.webp" titre="Jouer et apprendre" sous="Des jeux pour tous les âges : on s'amuse et on retient la Parole." />
-      <nav class="tuiles-accueil" aria-label="Choisis ton âge">
+      <nav class="tuiles" aria-label="Choisis ton âge">
         {BLOCS.map((b) => (
-          <a class="tuile-accueil" style={{ '--c': b.couleur }} href={'#/' + (b.lien || 'jouer/bloc/' + b.id)} onPointerDown={() => lireAVoixHaute('bloc', [{ texte: b.titre }])}>
+          <a class="tuile" style={{ '--c': b.couleur }} href={'#/' + (b.lien || 'jouer/bloc/' + b.id)} onPointerDown={() => lireAVoixHaute('bloc', [{ texte: b.titre }])}>
             <img src={'/assets/photos/' + b.photo + '.webp'} alt="" loading="lazy" /><b>{b.titre}</b><span>{b.age}</span></a>
         ))}
       </nav>
