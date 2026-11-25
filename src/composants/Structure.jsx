@@ -6,19 +6,20 @@ import { profil } from '../donnees/profil.js';
 import { useSignal } from '../outils/signal.js';
 import { reglages, modifierReglages } from '../donnees/reglages.js';
 import { installation, installer } from '../outils/telephone.js';
+import { aDuNouveau, dernierVu } from '../ecrans/Nouveautes.jsx';
 
 // Bandeau « Installer » sous l'en-tête, sur toutes les pages, tant que l'app n'est pas installée.
 // Un toucher : la fenêtre d'installation du téléphone s'ouvre. Sinon, on montre comment faire.
 function BandeauInstaller() {
   const i = useSignal(installation), r = useSignal(route);
-  const [cache, setCache] = useState(() => { try { return sessionStorage.getItem('yeshaya:installer-cache') === '1'; } catch { return false; } });
-  if (i.installee || cache || r.segments[0] === 'telechargements') return null;
+  const [cache, setCache] = useState(() => { try { return Date.now() - Number(localStorage.getItem('yeshaya:installer-cache') || 0) < 7 * 864e5; } catch { return false; } });
+  if (i.installee || cache || !['accueil', 'plus'].includes(r.segments[0]) || r.segments[0] === 'telechargements') return null;
   const toucher = async () => { if (i.pret) { await installer(); } else aller('telechargements'); };
   return (
     <div class="bandeau-installer">
       <button class="bandeau-installer__btn" onClick={toucher}><Icone nom="telecharger" taille={18} /><span>Installer Yeshaya sur mon téléphone</span></button>
-      <button class="bandeau-installer__fermer" aria-label="Masquer pour aujourd'hui"
-        onClick={() => { setCache(true); try { sessionStorage.setItem('yeshaya:installer-cache', '1'); } catch {} }}><Icone nom="fermer" taille={16} /></button>
+      <button class="bandeau-installer__fermer" aria-label="Masquer pendant une semaine"
+        onClick={() => { setCache(true); try { localStorage.setItem('yeshaya:installer-cache', String(Date.now())); } catch {} }}><Icone nom="fermer" taille={16} /></button>
     </div>
   );
 }
@@ -36,7 +37,8 @@ export function Logo() {
 }
 
 // En-tête commun. `titre` ajoute la barre secondaire avec le bouton retour (écrans de détail).
-export function Entete({ titre, surMenu }) {
+export function Entete({ titre }) {
+  useSignal(dernierVu);
   // Hauteur réelle de l'en-tête (elle varie avec le bandeau « Installer » et le titre) : les barres collantes se placent dessous.
   const ref = useRef(null);
   useEffect(() => {
@@ -48,7 +50,7 @@ export function Entete({ titre, surMenu }) {
   return (
     <header class="entete" ref={ref}>
       <div class="entete__ligne">
-        <button class="entete__btn" onClick={surMenu} aria-label="Ouvrir le menu"><Icone nom="menu" /></button>
+        <a class="entete__btn entete__cloche" href="#/nouveautes" aria-label={aDuNouveau() ? 'Nouveautés : il y a du nouveau' : 'Nouveautés'}><Icone nom="cloche" />{aDuNouveau() && <i class="entete__pastille" aria-hidden="true" />}</a>
         <a href="#/accueil" aria-label="Yeshaya, accueil"><Logo /></a>
         <button class="entete__btn" onClick={() => aller('parametres')} aria-label="Paramètres"><Icone nom="reglages" /></button>
       </div>
@@ -94,53 +96,6 @@ export function BarreOnglets({ actif }) {
       ))}
     </nav>
   );
-}
-
-const MENU = [
-  ['plus', 'Tout le menu : Plus', 'plus'],
-  ['accompagner', 'Suivi des nouveaux convertis', 'groupe'],
-  ['telechargements', 'Installer et télécharger', 'telecharger'],
-  ['parametres', 'Paramètres', 'reglages'],
-  ['a-propos', 'À propos de Yeshaya', 'info'],
-];
-
-export function Tiroir({ ouvert, fermer }) {
-  const p = useSignal(profil), r = useSignal(reglages);
-  if (!ouvert) return null;
-  return (
-    <>
-      <div class="voile" onClick={fermer} />
-      <aside class="tiroir" role="dialog" aria-label="Menu">
-        <a class="tiroir__tete" href="#/parametres" onClick={fermer} aria-label="Modifier mon profil">
-          <Avatar taille={52} />
-          <div>
-            <h2 style="font-size:1.1rem">{p.prenom ? `Bonjour ${p.prenom}` : 'Mon profil'}</h2>
-            <p style="font-size:.8rem;color:var(--or-fonce);font-weight:600">Modifier ma photo et mon prénom ›</p>
-          </div>
-        </a>
-        <p class="ligne__desc" style="margin:4px 4px 6px">Affichage</p>
-        <div class="segments" role="group" aria-label="Thème" style="margin-bottom:12px">
-          {[['clair', 'Clair'], ['sombre', 'Sombre'], ['auto', 'Auto']].map(([v, t]) => <button aria-pressed={r.theme === v} onClick={() => modifierReglages({ theme: v })}>{t}</button>)}
-        </div>
-        <div class="liste">
-          {MENU.map(([id, libelle, icone]) => (
-            <a class="carte ligne" href={'#/' + id} onClick={() => { viaOnglet(); fermer(); }}>
-              <span class="ligne__icone"><Icone nom={icone} /></span>
-              <span class="ligne__corps"><span class="ligne__titre">{libelle}</span></span>
-              <span class="ligne__fin"><Icone nom="chevron" taille={20} /></span>
-            </a>
-          ))}
-        </div>
-      </aside>
-    </>
-  );
-}
-
-export function useTiroir() {
-  const [ouvert, setOuvert] = useState(false);
-  const r = useSignal(route);
-  useEffect(() => { setOuvert(false); }, [r.hash]);   // toute navigation (lien, retour du téléphone) ferme le menu
-  return { ouvert, ouvrir: () => setOuvert(true), fermer: () => setOuvert(false) };
 }
 
 // Carte pour les sections qui arrivent dans les phases suivantes.

@@ -92,6 +92,6 @@ export const retour = (defaut = 'accueil') => {
 
 // Onglet principal auquel appartient chaque écran (premier segment de la route).
 export const ONGLET_DE = {
-  accueil: 'accueil', plus: 'plus', jouer: 'plus', evangeliser: 'plus', equilibre: 'plus', parametres: 'plus', 'a-propos': 'plus', telechargements: 'plus', confidentialite: 'plus', admin: 'plus', ecouter: 'accueil',
+  accueil: 'accueil', plus: 'plus', nouveautes: 'plus', jouer: 'plus', evangeliser: 'plus', equilibre: 'plus', parametres: 'plus', 'a-propos': 'plus', telechargements: 'plus', confidentialite: 'plus', admin: 'plus', ecouter: 'accueil',
   priere: 'priere', grandir: 'grandir', orizon: 'grandir', disciple: 'grandir', accompagner: 'grandir', bible: 'bible', montrer: 'bible',
 };

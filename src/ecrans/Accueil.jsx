@@ -17,7 +17,7 @@ import { partagerImageVerset } from '../outils/partage.js';
 
 // Six grandes portes, avec des mots simples : on sait où aller sans connaître l'application.
 const TUILES = [
-  ['#/priere', 'prier-femme-bible-matin', 'Prier', 'Veilles, prières et combat spirituel', '#6a4fc4'],
+  ['#/priere', 'prier-femme-bible-matin', 'Prier', () => { const v = veilleDuMoment(); return v ? `${v.titre} · ${v.heures}` : 'Veilles, prières et combat spirituel'; }, '#6a4fc4'],
   ['#/priere/demander', 'fardeau-consolation', 'Un fardeau ?', 'Nous prions pour toi', '#c4553b'],
   ['#/grandir', 'grandir-groupe-manguier', 'Grandir', 'Enseignements, parcours, accompagnement', '#3fa66b'],
   ['#/bible', 'bible-ouverte-table', 'La Bible', 'Lire, chercher, méditer', '#3b6fc4'],
@@ -92,7 +92,7 @@ export function Accueil() {
           {TUILES.map(([lien, photo, titre, desc, couleur]) => (
             <a class="tuile-accueil" href={lien} style={{ '--c': couleur }}>
               <img src={'/assets/photos/' + photo + '.webp'} alt="" loading="lazy" />
-              <b>{titre}</b><span>{desc}</span>
+              <b>{titre}</b><span>{typeof desc === 'function' ? desc() : desc}</span>
             </a>
           ))}
         </nav>

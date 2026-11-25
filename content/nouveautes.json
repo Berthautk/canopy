@@ -1,0 +1,11 @@
+{
+  "elements": [
+    { "id": "2026-11-25-disposition", "date": "2026-11-25", "titre": "Yeshaya fait peau neuve", "texte": "Cinq onglets seulement, un accueil plus simple, de vraies photos, et l'onglet Plus qui range tout le reste.", "lien": "#/accueil", "image": "/assets/photos/banniere-accueil.webp" },
+    { "id": "2026-11-25-reprendre", "date": "2026-11-25", "titre": "Reprends où tu t'es arrêté", "texte": "Dans un long enseignement, tu vois maintenant la partie où tu es, le temps qui reste, et tu peux revenir à ta dernière partie.", "lien": "#/grandir/enseignements", "image": "/assets/photos/grandir-etude-bureau.webp" },
+    { "id": "2026-11-24-mensonges", "date": "2026-11-24", "titre": "Réponses bibliques aux mensonges", "texte": "Des enseignements pour sortir de la peur, de la solitude, de l'amertume et des idées fausses, avec chaque fois un chemin pratique.", "lien": "#/grandir/serie/maturite-2/4", "image": "/assets/photos/fardeau-paix-retrouvee.webp" },
+    { "id": "2026-11-24-missions", "date": "2026-11-24", "titre": "Les missions mondiales", "texte": "Dix enseignements pour comprendre l'appel de Dieu à toutes les nations, et ta place dedans.", "lien": "#/grandir/serie/maturite-2/6", "image": "/assets/photos/partager-marche-village.webp" },
+    { "id": "2026-11-22-suivi", "date": "2026-11-22", "titre": "Suivi des nouveaux convertis, volumes 1 à 6", "texte": "Un pas par semaine, avec un accompagnateur : plus de soixante pas, un carnet et un bilan de vie.", "lien": "#/accompagner", "image": "/assets/photos/grandir-accompagnement.webp" },
+    { "id": "2026-11-20-jesus", "date": "2026-11-20", "titre": "Qui est Jésus-Christ ?", "texte": "Six enseignements pour connaître Jésus tel que la Bible le présente.", "lien": "#/grandir/serie/fondations/3", "image": "/assets/jesus/jesus-main-tendue.webp" },
+    { "id": "2026-11-16-islam", "date": "2026-11-16", "titre": "L'islam de A à Z", "texte": "Comprendre l'islam, aimer les musulmans et leur parler de Jésus, avec vérité et respect.", "lien": "#/grandir/serie/maturite-5/3", "image": "/assets/photos/partager-conversation-boutique.webp" }
+  ]
+}

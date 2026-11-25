@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'preact/hooks';
-import { Entete, BarreOnglets, Tiroir, useTiroir, Bientot } from './composants/Structure.jsx';
+import { Entete, BarreOnglets, Bientot } from './composants/Structure.jsx';
 import { Notification, FenetreMiseAJour } from './composants/Notification.jsx';
 import { Demarrage } from './ecrans/Demarrage.jsx';
 import { Accueil } from './ecrans/Accueil.jsx';
 import { Plus } from './ecrans/Plus.jsx';
+import { Nouveautes } from './ecrans/Nouveautes.jsx';
 import { Parametres } from './ecrans/Parametres.jsx';
 import { APropos } from './ecrans/APropos.jsx';
 import { BibleAccueil } from './ecrans/bible/BibleAccueil.jsx';
@@ -75,12 +76,14 @@ const A_VENIR = {
 function titre([a, b, c, d]) {
   if (a === 'parametres') return "Paramètres de l'application";
   if (a === 'a-propos') return 'À propos de Yeshaya';
+  if (a === 'nouveautes') return 'Nouveautés';
   if (a === 'admin') return 'Espace administrateur';
   if (a === 'equilibre') return b === 'rappels' ? 'Mes rappels' : 'Mon équilibre avec Dieu';
   if (a === 'disciple') return { defi: 'Défi de 21 jours', verset: 'Le verset de la semaine', temoignages: 'Mes témoignages', cinq: 'Ma liste des 5' }[b] || 'Mes outils de disciple';
   if (a === 'orizon') return b === 'jour' ? 'Vaincre en 90 jours · Jour ' + c : 'Vaincre en 90 jours';
   if (a === 'confidentialite') return 'Confidentialité';
   if (a === 'priere' && b === 'demander') return 'Demander la prière';
+  if (a === 'priere' && b === 'section') return { veilles: 'Les veilles du jour', proche: 'Prier pour un proche', themes: 'Prier pour…', journal: 'Journal et demandes', combat: 'Combat spirituel' }[c] || 'Prière';
   if (a === 'jouer') return {
     'quiz-du-jour': 'Quiz du jour', themes: c ? (QUIZ.find((q) => q.id === 'quiz-' + c)?.theme ?? 'Quiz') : 'Quiz par thème', complete: 'Complète le verset',
     petits: 'Petits enfants', course: 'La course de la vie', tribunal: 'Le Tribunal de la Parole', pelerin: 'Le Pèlerin', bloc: BLOCS.find((x) => x.id === c)?.titre ?? 'Jeux',
@@ -121,6 +124,7 @@ function Ecran({ r }) {
   const pos = useSignal(positionLecture);
   if (a === 'accueil') return <Accueil />;
   if (a === 'plus') return <Plus />;
+  if (a === 'nouveautes') return <Nouveautes />;
   if (a === 'parametres') return <Parametres />;
   if (a === 'admin') return <Admin />;
   if (a === 'equilibre') return b === 'rappels' ? <Rappels /> : <Equilibre modifier={b === 'modifier'} />;
@@ -135,7 +139,7 @@ function Ecran({ r }) {
   if (a === 'jouer') return ({ 'quiz-du-jour': <QuizDuJour />, themes: <QuizThemes theme={c} niveau={d} />, complete: <CompleteVerset />,
     'qui-suis-je': <QuiSuisJe />, ordre: <Ordre id={c} />, duel: <Duel />, badges: <Badges />, chemin: c ? <NiveauChemin id={c} /> : <CheminFoi />, defi: <DefiDuJour />, memoriser: <Memoriser />,
     petits: c === 'alphabet' ? <Alphabet /> : c === 'compter' ? <Compter /> : c === 'trouver' ? <Trouver /> : c === 'mot' ? <CompleteMot /> : <PetitsAccueil />, course: <Course />, tribunal: <Tribunal />, pelerin: <Pelerin />, bloc: <BlocJeux id={c} /> })[b] ?? <Jouer />;
-  if (a === 'priere') return b === 'demander' ? <DemanderPriere /> : b === 'journal' ? <Journal nouveau={r.params.nouveau} /> : b === 'theme' ? <ThemePriere id={c} guide={r.params.guide === '1'} /> : b === 'veille' ? <Veille id={c} guide={r.params.guide === '1'} /> : b === 'combat' ? <FicheCombat id={c} guide={r.params.guide === '1'} /> : b === 'pour-quelqu-un' ? <PourQuelquun jour={c === 'jour' ? r.segments[3] : null} /> : b === 'sommeil' ? <Sommeil /> : b === 'maintenant' ? <Veille id={(veilleDuMoment() || VEILLES[0]).id.replace('veille-', '')} /> : <Priere />;
+  if (a === 'priere') return b === 'section' ? <Priere section={c} /> : b === 'demander' ? <DemanderPriere /> : b === 'journal' ? <Journal nouveau={r.params.nouveau} /> : b === 'theme' ? <ThemePriere id={c} guide={r.params.guide === '1'} /> : b === 'veille' ? <Veille id={c} guide={r.params.guide === '1'} /> : b === 'combat' ? <FicheCombat id={c} guide={r.params.guide === '1'} /> : b === 'pour-quelqu-un' ? <PourQuelquun jour={c === 'jour' ? r.segments[3] : null} /> : b === 'sommeil' ? <Sommeil /> : b === 'maintenant' ? <Veille id={(veilleDuMoment() || VEILLES[0]).id.replace('veille-', '')} /> : <Priere />;
   if (a === 'grandir') return PARCOURS[b] ? <Parcours id={b} jour={c} /> : b === 'enseignement' ? <EnseignementEcrit id={c} ecouter={r.params.ecouter === '1'} /> : b === 'formation' ? <Formation /> : b === 'serie' ? <SerieEnseignements niv={c} gi={d} /> : b === 'enseignements' ? <Enseignements /> : <Grandir />;
   if (a === 'evangeliser') return b === 'article' ? <Article id={c} /> : b === 'dialogue' ? <Dialogue id={c} /> : b === 'outil' ? <Outil id={c} /> : b === 'conversation' ? <Conversation id={c} /> : b === 'temoignage' ? <MonTemoignage /> : b === 'approche' ? <Approche id={c} /> : <Evangeliser />;
   if (a === 'ecouter') return <Ecouter id={b} />;
@@ -161,7 +165,6 @@ export function App() {
   useEffect(() => { compterPage(r.segments); suivreRubrique(r.segments); }, [cleRoute]);
   const reg = useSignal(reglages);
   const l = useSignal(lecteur);
-  const tiroir = useTiroir();
   const [demarrage, setDemarrage] = useState(true);
   const accepte = reg.premierLancementVu && (reg.politiqueAcceptee || 0) >= VERSION_POLITIQUE;
 
@@ -185,12 +188,11 @@ export function App() {
 
   return (
     <div class={'app' + (l.piste && r.segments[0] !== 'ecouter' ? ' app--mini' : '')}>
-      <Entete titre={titre(r.segments)} surMenu={tiroir.ouvrir} />
+      <Entete titre={titre(r.segments)} />
       <main id="contenu"><Ecran r={r} /></main>
       <ProtectionYeux actif={r.segments[0] === 'jouer'} />
       <MiniLecteur />
       <BarreOnglets actif={ONGLET_DE[r.segments[0]] ?? 'accueil'} />
-      <Tiroir ouvert={tiroir.ouvert} fermer={tiroir.fermer} />
       <Notification />
       <FenetreMiseAJour />
     </div>

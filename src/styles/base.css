@@ -145,3 +145,6 @@ a { color: inherit; text-decoration: none; }
 .maj-fenetre img { border-radius: 16px; margin: 0 auto 8px; display: block; }
 .maj-fenetre h2 { margin: 4px 0 6px; font-family: var(--police-titre); color: var(--titre); }
 .maj-fenetre p { margin: 0 0 14px; color: var(--texte-doux); }
+
+.entete__cloche { position: relative; }
+.entete__pastille { position: absolute; top: 8px; right: 8px; width: 11px; height: 11px; border-radius: 50%; background: #e3241b; border: 2px solid var(--bleu-nuit); }

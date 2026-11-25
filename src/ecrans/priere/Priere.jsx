@@ -1,4 +1,3 @@
-import { Sommaire } from '../../composants/Sommaire.jsx';
 import { Banniere } from '../../composants/Banniere.jsx';
 import { useState } from 'preact/hooks';
 import { Icone } from '../../composants/Icone.jsx';
@@ -14,8 +13,16 @@ import { aiPrie, noterPriere, journal } from '../../donnees/priere.js';
 import { useSignal, useMemoire } from '../../outils/signal.js';
 import { partager } from '../../outils/partage.js';
 
+const ENTREES = [
+  ['veilles', 'prier-colline-soleil', 'Les veilles du jour', 'Aube, midi et soir, et prier pour s\'endormir.'],
+  ['proche', 'prier-pour-un-ami', 'Prier pour un proche', 'Maladie, foyer, enfant, salut d\'un proche : un programme jour après jour.'],
+  ['themes', 'prier-famille-repas', 'Prier pour…', 'Ma famille, mon pays, mon église, la repentance, les malades…'],
+  ['journal', 'plus-bible-cahier', 'Mon journal et mes demandes', 'Mes requêtes, les réponses de Dieu, et demander la prière.'],
+  ['combat', 'prier-eglise-genoux', 'Combat spirituel', 'Des prières à prier avec persévérance, par l\'évangéliste Sophonie Blaise.'],
+];
+
 // Écran 3 : prier maintenant, thèmes par catégorie, combat spirituel.
-export function Priere() {
+export function Priere({ section = null }) {
   const j = useSignal(journal);
   const [ouvert, setOuvert] = useMemoire('categorie', null);       // catégorie dépliée
   const v = veilleDuMoment();
@@ -23,9 +30,9 @@ export function Priere() {
   const enPriere = j.filter((r) => !r.exaucee).length, exaucees = j.length - enPriere;
   return (
     <div class="page">
-      <Banniere image="/assets/photos/banniere-priere.webp" titre="Prière" sous="Approche-toi de Dieu, parle-lui et intercède pour les autres." />
+      {!section && <Banniere image="/assets/photos/banniere-priere.webp" titre="Prière" sous="Approche-toi de Dieu, parle-lui et intercède pour les autres." />}
 
-      {v && (
+      {v && !section && (
         <a class="carte prier-maintenant" href={'#/priere/veille/' + v.id.replace('veille-', '')}>
           <img src={v.image} alt="" />
           <span class="prier-maintenant__voile" />
@@ -37,7 +44,14 @@ export function Priere() {
         </a>
       )}
 
-      <Sommaire parties={[['p-veilles', 'Veilles'], ['p-proche', 'Pour un proche'], ['p-themes', 'Prier pour…'], ['p-journal', 'Journal et demandes'], ['p-combat', 'Combat spirituel']]} />
+      {!section && <h2 class="titre-section">Que veux-tu faire ?</h2>}
+      {!section && <div class="liste">{ENTREES.map(([id, photo, titre, desc]) => (
+        <a class="carte theme" href={'#/priere/section/' + id}>
+          <img src={'/assets/photos/' + photo + '.webp'} alt="" loading="lazy" />
+          <span class="ligne__corps"><span class="ligne__titre" style="display:block">{titre}</span><span class="ligne__desc">{desc}</span></span>
+          <Icone nom="chevron" taille={20} />
+        </a>))}</div>}
+      {section === 'veilles' && <>
       <h2 class="titre-section" id="p-veilles">{v ? 'Les autres veilles du jour' : 'Les trois veilles du jour'}</h2>
       <div class="liste">
         {VEILLES.filter((x) => x.id !== v?.id).map((x) => (
@@ -56,6 +70,8 @@ export function Priere() {
         <span class="veille-ligne__ouvrir">Ouvrir <Icone nom="chevron" taille={18} /></span>
       </a>
 
+      </>}
+      {section === 'proche' && <>
       <h2 class="titre-section" id="p-proche">Prier pour un proche</h2>
       <a class="carte theme pq-carte" href="#/priere/pour-quelqu-un">
         <img src="/assets/priere/priere-en-famille.webp" alt="" loading="lazy" />
@@ -70,6 +86,8 @@ export function Priere() {
         <Icone nom="chevron" taille={20} />
       </a>
 
+      </>}
+      {section === 'themes' && <>
       <h2 class="titre-section" id="p-themes">Prier pour…</h2>
       <p class="ligne__desc" style="margin:-4px 4px 8px">Touche un thème pour voir ses sujets de prière.</p>
       {categories.map((c) => {
@@ -91,6 +109,8 @@ export function Priere() {
         );
       })}
 
+      </>}
+      {section === 'journal' && <>
       <h2 class="titre-section" id="p-journal">Mon journal et mes demandes</h2>
       <a class="carte ligne journal-lien" href="#/priere/journal">
         <span class="ligne__icone"><Icone nom="note" /></span>
@@ -105,6 +125,8 @@ export function Priere() {
         <Icone nom="chevron" taille={20} />
       </a>
 
+      </>}
+      {section === 'combat' && <>
       <h2 class="titre-section" id="p-combat">Combat spirituel</h2>
       <p class="ligne__desc" style="margin:-4px 4px 8px">Des fiches de prière à prier avec persévérance. Rédigées par l'évangéliste Sophonie Blaise, ministère AJ (Amoureux de Jésus), et publiées avec son autorisation.</p>
       <div class="grille-combat">
@@ -112,6 +134,7 @@ export function Priere() {
           <a class="carte combat-tuile" href={'#/priere/combat/' + c.id}><span class="combat-tuile__emoji" aria-hidden="true">{c.emoji}</span><span>{c.titre}</span></a>
         ))}
       </div>
+      </>}
     </div>
   );
 }
