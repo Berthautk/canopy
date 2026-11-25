@@ -24,6 +24,8 @@ import {
 const tousLesPas = () => ACCOMPAGNEMENT.volumes.flatMap((v) => v.pas.map((p) => ({ ...p, volume: v.numero })));
 const pasDe = (id) => tousLesPas().find((p) => p.id === id);
 const pasSuivant = (id) => { const l = tousLesPas(), i = l.findIndex((p) => p.id === id); const v0 = l[i]?.volume === 0; return l.slice(i + 1).find((p) => p.id && (v0 ? p.volume === 0 : p.volume !== 0)) || null; };
+// Les numéros de pas recommencent à 1 dans chaque volume : on dit toujours le volume, sauf pour le volume 1.
+const nomPas = (p) => (!p ? '' : (p.volume != null && p.volume !== 1 ? `Volume ${p.volume} · ` : '') + `Pas ${p.numero} · ${p.titre}`);
 const lienRef = (t) => { const r = lireReference(t); return r ? `#/bible/lire/${r.code}/${r.c}${r.v ? '/' + r.v : ''}` : null; };
 function Refs({ refs }) {
   if (!refs?.length) return null;
@@ -99,32 +101,51 @@ export function EspaceDisciple() {
     </div>
   );
   const p = pasDe(l.pas) || pasDe('pas-01-le-salut');
-  const faits = tousLesPas().filter((x) => x.id && tousLesPas().findIndex((y) => y.id === x.id) < tousLesPas().findIndex((y) => y.id === p.id));
+  // Les pas déjà faits : ceux de SON volume qui viennent avant le sien.
+  // (Les numéros recommencent à 1 dans chaque volume : sans ce filtre, on mélangeait tout.)
+  const liste = tousLesPas().filter((x) => x.id && x.volume === p.volume);
+  const faits = liste.slice(0, liste.findIndex((x) => x.id === p.id));
   return (
     <div class="page">
       <h2 style="margin:16px 4px 2px">Bonjour {l.prenom || ''} !</h2>
       <p class={'acc-statut' + (l.mode === 'relie' ? ' acc-statut--ok' : '')}>
         <Icone nom={l.mode === 'relie' ? 'verifie' : 'info'} taille={16} />
-        {l.mode === 'relie' ? <span>Relié à ton berger : il voit les réponses de ton carnet{env.statut === 'attente' ? ' (envoi en attente de réseau)' : ''}</span> : <span>Tu travailles seul pour l'instant</span>}
+        {l.mode === 'relie' ? <span>Relié à ton berger : il voit ce que tu écris dans ton carnet{env.statut === 'attente' ? ' (envoi en attente de réseau)' : ''}</span> : <span>Tu travailles seul pour l'instant</span>}
       </p>
+
       <a class="carte acc-chemin acc-chemin--fort" href={'#/accompagner/pas/' + p.id}>
         <span class="acc-chemin__icone"><Icone nom="note" taille={28} /></span>
-        <span class="ligne__corps"><span class="pastille pastille--or pastille--mini">Mon pas de la semaine</span><b>Pas {p.numero} · {p.titre}</b><span>Ouvrir mon carnet et travailler</span></span>
+        <span class="ligne__corps"><span class="pastille pastille--or pastille--mini">Mon pas de la semaine</span><b>{nomPas(p)}</b><span>Ouvrir mon carnet et travailler</span></span>
         <Icone nom="chevron" taille={22} />
       </a>
+
       {p.id === 'pas-01-le-salut' && <a class="carte ligne" href="#/accompagner/bilan" style="margin-top:10px">
         <span class="ligne__icone"><Icone nom="coeur" /></span>
         <span class="ligne__corps"><span class="ligne__titre" style="display:block">Mon bilan de vie</span><span class="ligne__desc">À remplir cette semaine, puis à reprendre avec ton berger.</span></span>
         <Icone nom="chevron" taille={20} />
       </a>}
-      {faits.length > 0 && <details class="carte bloc acc-plus"><summary><b>Mes pas déjà faits ({faits.length})</b></summary>
-        {faits.map((x) => <a class="carte ligne" href={'#/accompagner/pas/' + x.id} style="margin-top:6px"><span class="enseignement__num enseignement__num--lu"><Icone nom="verifie" taille={13} /></span><span class="ligne__corps"><span class="ligne__titre">Pas {x.numero} · {x.titre}</span></span><Icone nom="chevron" taille={18} /></a>)}</details>}
-      <details class="carte bloc acc-plus"><summary><b>Mon lien avec mon berger</b></summary>
-        {l.mode === 'relie' ? <p>Code : <b>{l.code}</b>. Ton berger voit les réponses de ton carnet ; il te remet le pas suivant après votre rencontre.</p> : <p>Quand tu auras un berger, il te donnera un code.</p>}
-        <button class="bouton bouton--contour" style="width:100%" onClick={async () => { if (l.mode === 'relie' && !confirm('Arrêter le lien avec ton berger ? Il ne verra plus tes réponses.')) return; await quitterLien(l.mode === 'relie'); }}>{l.mode === 'relie' ? 'Arrêter le lien' : 'J\'ai reçu un code de mon berger'}</button>
-        <p class="ligne__desc" style="margin-top:12px">Pour repartir à zéro (par exemple après un essai), efface ton prénom, tes réponses et ton bilan de vie de ce téléphone.</p>
-        <button class="lien" style="color:var(--rouge, #b3261e)" onClick={async () => { if (confirm('Tout effacer de ce téléphone : ton prénom, tes réponses, ton bilan de vie et le lien avec ton berger ? Cela ne peut pas être annulé.')) { await effacerMesDonnees(); notifier('Tout a été effacé'); aller('accompagner'); } }}>Tout effacer de ce téléphone</button>
-      </details>
+
+      {faits.length > 0 && <>
+        <h2 class="titre-section">Mes pas déjà faits ({faits.length})</h2>
+        <div class="liste">{faits.map((x) => (
+          <a class="carte ligne" href={'#/accompagner/pas/' + x.id}>
+            <span class="enseignement__num enseignement__num--lu"><Icone nom="verifie" taille={13} /></span>
+            <span class="ligne__corps"><span class="ligne__titre">{nomPas(x)}</span></span>
+            <Icone nom="chevron" taille={20} />
+          </a>))}</div>
+      </>}
+
+      <h2 class="titre-section">Mon lien avec mon berger</h2>
+      <section class="carte bloc">
+        {l.mode === 'relie'
+          ? <p style="margin-top:0">Mon code : <b>{l.code}</b>. Ton berger voit ce que tu écris dans ton carnet, et il te remet le pas suivant après votre rencontre.</p>
+          : <p style="margin-top:0">Tu n'as pas encore de berger. Quand tu en auras un, il te donnera un code de 7 signes à entrer ici.</p>}
+        <button class="bouton bouton--contour" style="width:100%" onClick={async () => { if (l.mode === 'relie' && !confirm('Arrêter le lien avec ton berger ? Il ne verra plus tes réponses.')) return; await quitterLien(l.mode === 'relie'); }}>
+          {l.mode === 'relie' ? 'Arrêter le lien avec mon berger' : 'Entrer le code de mon berger'}</button>
+        <p class="ligne__desc" style="margin-top:14px">Pour repartir à zéro (par exemple après un essai), tu peux tout effacer : ton prénom, tes réponses, ton bilan de vie et ton lien.</p>
+        <button class="bouton bouton--contour acc-danger" style="width:100%" onClick={async () => { if (confirm('Tout effacer de ce téléphone : ton prénom, tes réponses, ton bilan de vie et le lien avec ton berger ? Cela ne peut pas être annulé.')) { await effacerMesDonnees(); notifier('Tout a été effacé'); } }}>
+          <Icone nom="corbeille" taille={18} /> Tout effacer de ce téléphone</button>
+      </section>
     </div>
   );
 }
@@ -136,23 +157,55 @@ export function EspaceEncadreur() {
   return (
     <div class="page">
       <h2 style="margin:16px 4px 2px">Mes disciples</h2>
-      <p class="ligne__desc" style="margin:0 4px 12px">{'Les nouveaux convertis que tu accompagnes. Touche un nom pour ouvrir son suivi.'}</p>
-      {l.map((d) => { const p = pasDe(d.pas); return (
+      <p class="ligne__desc" style="margin:0 4px 12px">Les nouveaux convertis que tu accompagnes. Touche un prénom pour ouvrir son suivi : son code, où il en est, tes notes.</p>
+
+      {l.length > 0 && <div class="liste">{l.map((d) => { const p = pasDe(d.pas); return (
         <a class="carte acc-chemin" href={'#/accompagner/encadreur/' + d.id}>
           <span class="acc-chemin__icone acc-chemin__icone--lettre">{(d.prenom[0] || '?').toUpperCase()}</span>
-          <span class="ligne__corps"><b>{d.prenom}</b><span>{!d.accueil ? 'Rencontre d\'accueil à faire' : p ? `Pas ${p.numero} · ${p.titre}` : ''}{d.rdv ? ' · rencontre le ' + new Date(d.rdv).toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' }) : ''}</span></span>
+          <span class="ligne__corps"><b>{d.prenom}</b>
+            <span>{!d.accueil ? "Rencontre d'accueil à faire" : nomPas(p)}</span>
+            <span class="ligne__desc">{d.code ? 'Code : ' + d.code : 'Sur papier, sans code'}{d.rdv ? ' · rendez-vous le ' + new Date(d.rdv).toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' }) : ''}</span></span>
           <Icone nom="chevron" taille={22} />
-        </a>); })}
-      <a class="bouton bouton--or" style="width:100%;margin-top:12px" href="#/accompagner/encadreur/nouveau">+ Inscrire un nouveau converti</a>
-      {!l.length && <p class="ligne__desc" style="margin:12px 4px">Commence par inscrire la personne que tu accompagnes : tu recevras un code à lui donner.</p>}
-      <a class="carte ligne" style="margin-top:16px" href="#/accompagner/essai">
-        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Tu fais partie de l'essai ?</span><span class="ligne__desc">La liste de ce que tu dois tester, et ton compte rendu à envoyer.</span></span>
-        <Icone nom="chevron" taille={20} />
-      </a>
-      <a class="carte ligne" style="margin-top:10px" href="#/grandir/enseignement/islam-25-suivi">
-        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Tu accompagnes un ancien musulman ?</span><span class="ligne__desc">Méthode, précautions, thèmes à aborder pas à pas, et outils adaptés.</span></span>
-        <Icone nom="chevron" taille={20} />
-      </a>
+        </a>); })}</div>}
+
+      <a class="bouton bouton--or" style="width:100%;margin-top:14px" href="#/accompagner/encadreur/nouveau">
+        <Icone nom="groupe" taille={18} /> Inscrire un nouveau converti</a>
+
+      {!l.length && (
+        <section class="carte bloc" style="margin-top:14px">
+          <h3 style="margin-top:0">Comment ça marche, en 3 temps</h3>
+          <ol class="acc-liste-num">
+            <li><b>Tu l'inscris.</b> Tu écris son prénom, et l'application te donne un code de 7 signes.</li>
+            <li><b>Tu lui donnes le code.</b> Il l'entre dans son téléphone avec le même prénom. Vos deux applications sont alors reliées.</li>
+            <li><b>Chaque semaine, vous vous voyez.</b> Il travaille un pas dans son carnet, tu vois ses réponses, puis tu lui remets le pas suivant.</li>
+          </ol>
+          <p class="ligne__desc" style="margin-bottom:0">S'il n'a pas de téléphone, ce n'est pas grave : tu l'inscris quand même et tu lui imprimes les fiches.</p>
+        </section>
+      )}
+
+      <h2 class="titre-section">Pour t'aider</h2>
+      <div class="liste">
+        <a class="carte ligne" href="#/accompagner/orientations">
+          <span class="ligne__icone"><Icone nom="ampoule" /></span>
+          <span class="ligne__corps"><span class="ligne__titre" style="display:block">Les orientations par domaine</span><span class="ligne__desc">Quoi dire et quoi faire selon ce que le bilan de vie révèle.</span></span>
+          <Icone nom="chevron" taille={20} />
+        </a>
+        <a class="carte ligne" href="#/accompagner/accueil">
+          <span class="ligne__icone"><Icone nom="coeur" /></span>
+          <span class="ligne__corps"><span class="ligne__titre" style="display:block">La rencontre d'accueil</span><span class="ligne__desc">Le déroulé de la toute première rencontre, minute par minute.</span></span>
+          <Icone nom="chevron" taille={20} />
+        </a>
+        <a class="carte ligne" href="#/grandir/enseignement/islam-25-suivi">
+          <span class="ligne__icone"><Icone nom="groupe" /></span>
+          <span class="ligne__corps"><span class="ligne__titre" style="display:block">Tu accompagnes un ancien musulman ?</span><span class="ligne__desc">Méthode, précautions, thèmes à aborder pas à pas.</span></span>
+          <Icone nom="chevron" taille={20} />
+        </a>
+        <a class="carte ligne" href="#/accompagner/essai">
+          <span class="ligne__icone"><Icone nom="note" /></span>
+          <span class="ligne__corps"><span class="ligne__titre" style="display:block">Tu fais partie de l'essai ?</span><span class="ligne__desc">La liste de ce que tu dois tester, et ton compte rendu à envoyer.</span></span>
+          <Icone nom="chevron" taille={20} />
+        </a>
+      </div>
     </div>
   );
 }
@@ -178,10 +231,14 @@ export function NouveauDisciple() {
       <form class="carte bloc acc-form" onSubmit={valider}>
         <label class="etiquette-champ" for="acc-prenom-d">Prénom du nouveau converti</label>
         <input id="acc-prenom-d" class="champ" value={prenom} onInput={(e) => setPrenom(e.currentTarget.value)} autofocus />
-        {etat.erreur && <><p class="verset__erreur">{etat.erreur}</p>
-          <button type="button" class="lien" onClick={sansCode}>Continuer sans code (le disciple n'a pas de smartphone)</button></>}
-        <button class="bouton bouton--or" style="width:100%;margin-top:10px" disabled={prenom.trim().length < 2 || etat.envoi}>{etat.envoi ? 'Création du code…' : 'Valider'}</button>
+        {etat.erreur && <p class="verset__erreur">Le code n'a pas pu être créé : {etat.erreur} Tu peux réessayer quand tu auras du réseau, ou continuer sur papier juste en dessous.</p>}
+        <button class="bouton bouton--or" style="width:100%;margin-top:10px" disabled={prenom.trim().length < 2 || etat.envoi}>{etat.envoi ? 'Création du code…' : 'Créer son code'}</button>
       </form>
+      <section class="carte bloc" style="margin-top:12px">
+        <h3 style="margin-top:0">Il n'a pas de téléphone ?</h3>
+        <p class="ligne__desc">Inscris-le quand même : tu suivras son avancée dans ton application, et tu lui imprimeras les fiches de chaque pas.</p>
+        <button type="button" class="bouton bouton--contour" style="width:100%" disabled={prenom.trim().length < 2} onClick={sansCode}>Continuer sur papier, sans code</button>
+      </section>
     </div>
   );
   return (
@@ -209,12 +266,22 @@ export function FicheDisciple({ id }) {
   if (!d) return <div class="page"><p class="ligne__desc" style="margin-top:16px">Disciple introuvable. <a class="lien" href="#/accompagner/encadreur">Mes disciples</a></p></div>;
   const p = pasDe(d.pas) || pasDe('pas-01-le-salut');
   const aRepondu = serveur?.carnets?.[p.id] ? Object.values(serveur.carnets[p.id].r || {}).filter((x) => String(x).trim()).length : 0;
+  const partagerCode = () => {
+    const texte = `Bonjour ${d.prenom} ! Pour notre suivi dans l'application Yeshaya :\n1. Ouvre Yeshaya (${location.origin})\n2. Touche « Suivi des nouveaux convertis », puis « Je suis un nouveau converti »\n3. Entre ce code : ${d.code}\n4. Écris ton prénom exactement ainsi : ${d.prenom}`;
+    if (navigator.share) navigator.share({ text: texte }).catch(() => {}); else open('https://wa.me/?text=' + encodeURIComponent(texte), '_blank');
+  };
   return (
     <div class="page">
       <h2 style="margin:16px 4px 2px">{d.prenom}</h2>
-      {d.code ? <p class={'acc-statut' + (serveur?.rejoint ? ' acc-statut--ok' : '')}><Icone nom={serveur?.rejoint ? 'verifie' : 'info'} taille={16} />
-        <span>{serveur?.horsLigne ? 'Pas de réseau : les réponses s\'afficheront plus tard.' : serveur?.rejoint ? `${d.prenom} est relié · ${aRepondu} réponse${aRepondu > 1 ? 's' : ''} écrite${aRepondu > 1 ? 's' : ''} pour le pas ${p.numero}` : `${d.prenom} n'a pas encore entré son code : ${d.code}`}</span></p>
-        : <p class="acc-statut"><Icone nom="info" taille={16} /><span>Sans code : {d.prenom} travaille sur papier (fiche vierge).</span></p>}
+      {d.code
+        ? <p class={'acc-statut' + (serveur?.rejoint ? ' acc-statut--ok' : '')}><Icone nom={serveur?.rejoint ? 'verifie' : 'info'} taille={16} />
+            <span>{serveur?.horsLigne ? 'Pas de réseau : ses réponses s\'afficheront plus tard.'
+              : !serveur ? 'Chargement de ses réponses…'
+              : serveur.rejoint ? `${d.prenom} est relié · ${aRepondu} réponse${aRepondu > 1 ? 's' : ''} écrite${aRepondu > 1 ? 's' : ''} sur ce pas`
+              : `${d.prenom} n'a pas encore entré son code.`}</span></p>
+        : <p class="acc-statut"><Icone nom="info" taille={16} /><span>Sans code : {d.prenom} travaille sur papier.</span></p>}
+
+      {/* 1. Ce qu'il y a à faire maintenant */}
       {!d.accueil ? (
         <a class="carte acc-chemin acc-chemin--fort" href={'#/accompagner/encadreur/' + d.id + '/accueil'}>
           <span class="acc-chemin__icone"><Icone nom="coeur" taille={28} /></span>
@@ -224,37 +291,59 @@ export function FicheDisciple({ id }) {
       ) : (
         <a class="carte acc-chemin acc-chemin--fort" href={`#/accompagner/pas/${p.id}?role=encadreur&disciple=${d.id}`}>
           <span class="acc-chemin__icone"><Icone nom="groupe" taille={28} /></span>
-          <span class="ligne__corps"><span class="pastille pastille--or pastille--mini">Prochaine rencontre</span><b>Pas {p.numero} · {p.titre}</b><span>Questions, réponses de {d.prenom} et réponses attendues</span></span>
+          <span class="ligne__corps"><span class="pastille pastille--or pastille--mini">Prochaine rencontre</span><b>{nomPas(p)}</b><span>Ses réponses, les réponses attendues, et le guide</span></span>
           <Icone nom="chevron" taille={22} />
         </a>
       )}
-      <section class="carte bloc" style="margin-top:12px">
-        <label class="etiquette-champ" style="margin-top:0">Prochaine rencontre</label>
-        <input class="champ" type="datetime-local" value={d.rdv} onInput={(e) => maj('rdv', e.currentTarget.value)} />
-        {d.rdv && <button class="lien" onClick={() => agenda(d, p)}>Ajouter ce rendez-vous à mon agenda</button>}
-        <label class="etiquette-champ">Mes notes (points à reprendre, sujets de prière)</label>
-        <textarea class="champ champ--zone" rows={4} value={d.notes} onInput={(e) => maj('notes', e.currentTarget.value)} />
-      </section>
-      <details class="carte bloc acc-plus"><summary><b>Plus d'options : changer le prénom, arrêter le suivi</b></summary>
-        {d.code && <p>Code de {d.prenom} : <b>{d.code}</b></p>}
-        {d.code && serveur?.rejoint && (serveur.ouvert
-          ? <p class="ligne__desc"><Icone nom="info" taille={15} /> Le code est ouvert : {d.prenom} peut se relier depuis son nouveau téléphone. Il se refermera tout seul après.</p>
-          : <><p class="ligne__desc">Le code a déjà servi : plus personne ne peut s'en servir pour voir le carnet de {d.prenom}. S'il a changé de téléphone, rouvre-le pour une seule nouvelle liaison.</p>
-            <button class="bouton bouton--contour" style="width:100%" onClick={async () => { try { await rouvrirCode(d); setServeur({ ...serveur, ouvert: true }); notifier('Code rouvert : ' + d.prenom + ' peut se relier une fois. Son ancien téléphone perdra l\'accès.'); } catch (err) { notifier(err.message); } }}>Rouvrir le code pour un nouveau téléphone</button></>)}
-        {d.accueil && <a class="lien" href={'#/accompagner/encadreur/' + d.id + '/accueil'}>Revoir la rencontre d'accueil</a>}
-        <label class="etiquette-champ">Changer le pas en cours</label>
-        <select class="champ" value={d.pas} onChange={async (e) => { try { await avancerDisciple(d, e.currentTarget.value); setL(lireDisciples()); } catch (err) { notifier(err.message); } }}>
-          {tousLesPas().filter((x) => x.id).map((x) => <option value={x.id}>Pas {x.numero} · {x.titre}</option>)}
+
+      {/* 2. Son code : la chose qu'on cherche le plus souvent */}
+      {d.code && (
+        <section class="carte bloc acc-code-carte" style="margin-top:12px">
+          <p class="ligne__desc" style="margin-top:0">Le code de {d.prenom}, à entrer dans son téléphone avec son prénom</p>
+          <p class="acc-code-grand">{d.code}</p>
+          <button class="bouton bouton--contour" style="width:100%" onClick={partagerCode}><Icone nom="partager" taille={18} /> Le lui envoyer par WhatsApp</button>
+          {serveur?.rejoint && (serveur.ouvert
+            ? <p class="ligne__desc" style="margin-bottom:0"><Icone nom="info" taille={15} /> Le code est ouvert : {d.prenom} peut se relier depuis un nouveau téléphone. Il se refermera tout seul après.</p>
+            : <><p class="ligne__desc">Le code a déjà servi : personne d'autre ne peut s'en servir pour voir son carnet. S'il a changé de téléphone, rouvre-le.</p>
+              <button class="bouton bouton--contour" style="width:100%" onClick={async () => { try { await rouvrirCode(d); setServeur({ ...serveur, ouvert: true }); notifier('Code rouvert : ' + d.prenom + ' peut se relier une fois. Son ancien téléphone perdra l\'accès.'); } catch (err) { notifier(err.message); } }}>Rouvrir le code pour un nouveau téléphone</button></>)}
+        </section>
+      )}
+
+      {/* 3. Où il en est */}
+      <h2 class="titre-section">Où en est {d.prenom}</h2>
+      <section class="carte bloc">
+        <label class="etiquette-champ" style="margin-top:0" for="fd-pas">Son pas en cours</label>
+        <select id="fd-pas" class="champ" value={d.pas} onChange={async (e) => { try { await avancerDisciple(d, e.currentTarget.value); setL(lireDisciples()); notifier('Pas changé'); } catch (err) { notifier(err.message); } }}>
+          {tousLesPas().filter((x) => x.id).map((x) => <option value={x.id}>{nomPas(x)}</option>)}
         </select>
-        <button class="bouton bouton--contour" style="width:100%;margin-top:10px" onClick={() => aller(`accompagner/pas/${p.id}?imprimer=vierge`)}>Fiche vierge du pas {p.numero} (papier ou PDF)</button>
-        <label class="etiquette-champ">Corriger le prénom</label>
+        <p class="ligne__desc">En temps normal, tu n'y touches pas : le pas suivant se remet tout seul à la fin de votre rencontre.</p>
+        <button class="bouton bouton--contour" style="width:100%" onClick={() => aller(`accompagner/pas/${p.id}?imprimer=vierge`)}><Icone nom="telecharger" taille={18} /> Imprimer la fiche vierge de ce pas</button>
+        {d.accueil && <a class="lien" style="display:inline-block;margin-top:10px" href={'#/accompagner/encadreur/' + d.id + '/accueil'}>Revoir la rencontre d'accueil</a>}
+      </section>
+
+      {/* 4. Préparer la rencontre */}
+      <h2 class="titre-section">Préparer votre rencontre</h2>
+      <section class="carte bloc">
+        <label class="etiquette-champ" style="margin-top:0" for="fd-rdv">Date et heure du rendez-vous</label>
+        <input id="fd-rdv" class="champ" type="datetime-local" value={d.rdv} onInput={(e) => maj('rdv', e.currentTarget.value)} />
+        {d.rdv && <button class="lien" onClick={() => agenda(d, p)}>Ajouter ce rendez-vous à mon agenda</button>}
+        <label class="etiquette-champ" for="fd-notes">Mes notes : points à reprendre, sujets de prière</label>
+        <textarea id="fd-notes" class="champ champ--zone" rows={4} value={d.notes} onInput={(e) => maj('notes', e.currentTarget.value)} />
+        <p class="ligne__desc" style="margin-bottom:0">Ces notes restent sur ton téléphone. {d.prenom} ne les voit pas.</p>
+      </section>
+
+      {/* 5. Corriger ou arrêter */}
+      <h2 class="titre-section">Corriger ou arrêter</h2>
+      <section class="carte bloc">
+        <label class="etiquette-champ" style="margin-top:0" for="fd-prenom">Corriger son prénom</label>
         <form style="display:flex;gap:8px" onSubmit={async (e) => { e.preventDefault(); const v = e.currentTarget.elements.nouveau.value; try { await renommerDisciple(d, v); setL(lireDisciples()); notifier('Prénom changé'); } catch (err) { notifier(err.message); } }}>
-          <input name="nouveau" class="champ" defaultValue={d.prenom} style="flex:1" />
+          <input id="fd-prenom" name="nouveau" class="champ" defaultValue={d.prenom} style="flex:1" />
           <button class="bouton bouton--contour">Changer</button>
         </form>
-        {d.code && <p class="ligne__desc">Si {d.prenom} a déjà son code, il garde son lien : seul le prénom affiché change.</p>}
-        <button class="lien" style="margin-top:10px;color:var(--rouge, #b3261e)" onClick={async () => { if (confirm('Arrêter le suivi de ' + d.prenom + ' ? Ses réponses seront effacées du serveur.')) { await retirerDisciple(d); revenirOuRemplacer('accompagner/encadreur'); } }}>Arrêter le suivi de {d.prenom}</button>
-      </details>
+        {d.code && <p class="ligne__desc">Son lien ne bouge pas : seul le prénom affiché change.</p>}
+        <button class="bouton bouton--contour acc-danger" style="width:100%;margin-top:12px" onClick={async () => { if (confirm('Arrêter le suivi de ' + d.prenom + ' ? Il disparaîtra de ta liste et ses réponses seront effacées du serveur.')) { await retirerDisciple(d); revenirOuRemplacer('accompagner/encadreur'); } }}>
+          <Icone nom="corbeille" taille={18} /> Arrêter le suivi de {d.prenom}</button>
+      </section>
     </div>
   );
 }
