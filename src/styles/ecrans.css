@@ -1179,3 +1179,8 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .acc-liste-num { margin: 0; padding-left: 22px; display: grid; gap: 8px; font-size: .92rem; line-height: 1.45; }
 .acc-danger { color: #b3261e; border-color: #e7b7b2; }
 :root[data-theme='sombre'] .acc-danger { color: #ff9b91; border-color: #5a2b26; }
+/* Le code : sélectionnable d'un appui long, et copiable d'un toucher. */
+.acc-code-grand { user-select: all; -webkit-user-select: all; cursor: pointer; }
+.acc-selection { user-select: all; -webkit-user-select: all; }
+.acc-code-boutons { display: flex; gap: 8px; margin: 2px 0 6px; }
+.acc-code-boutons .bouton { flex: 1; min-width: 0; }

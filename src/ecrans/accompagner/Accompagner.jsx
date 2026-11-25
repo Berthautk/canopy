@@ -26,6 +26,46 @@ const pasDe = (id) => tousLesPas().find((p) => p.id === id);
 const pasSuivant = (id) => { const l = tousLesPas(), i = l.findIndex((p) => p.id === id); const v0 = l[i]?.volume === 0; return l.slice(i + 1).find((p) => p.id && (v0 ? p.volume === 0 : p.volume !== 0)) || null; };
 // Les numéros de pas recommencent à 1 dans chaque volume : on dit toujours le volume, sauf pour le volume 1.
 const nomPas = (p) => (!p ? '' : (p.volume != null && p.volume !== 1 ? `Volume ${p.volume} · ` : '') + `Pas ${p.numero} · ${p.titre}`);
+// Le message à envoyer au nouveau converti. Le code et le prénom sont seuls sur leur ligne :
+// sur WhatsApp, un appui long sélectionne alors la ligne entière, sans le reste de la phrase.
+const messageCode = (d) => `Bonjour ${d.prenom} !
+
+Pour notre suivi, ouvre l'application Yeshaya :
+${location.origin}
+
+Touche « Suivi des nouveaux convertis », puis « Je suis un nouveau converti ».
+
+Ton code :
+${d.code}
+
+Ton prénom à écrire :
+${d.prenom}`;
+
+// Le bloc du code : on peut le copier, copier le prénom, copier tout le message, ou l'envoyer.
+// Copier est important : sur WhatsApp, recopier un code à la main est pénible et source d'erreurs.
+function CarteCode({ d, titre, apres }) {
+  const envoyer = () => {
+    const texte = messageCode(d);
+    if (navigator.share) navigator.share({ text: texte }).catch(() => {});
+    else open('https://wa.me/?text=' + encodeURIComponent(texte), '_blank');
+  };
+  const copie = async (quoi, texte) => notifier((await copier(texte)) ? quoi + ' copié' : 'Copie impossible sur ce téléphone');
+  return (
+    <section class="carte bloc acc-code-carte">
+      {titre && <p class="ligne__desc" style="margin-top:0">{titre}</p>}
+      <p class="acc-code-grand" onClick={() => copie('Code', d.code)} title="Toucher pour copier">{d.code}</p>
+      <div class="acc-code-boutons">
+        <button class="bouton bouton--contour bouton--petit" onClick={() => copie('Code', d.code)}><Icone nom="copier" taille={16} /> Copier le code</button>
+        <button class="bouton bouton--contour bouton--petit" onClick={() => copie('Prénom', d.prenom)}><Icone nom="copier" taille={16} /> Copier le prénom</button>
+      </div>
+      <p class="ligne__desc">Prénom à écrire : <b class="acc-selection">{d.prenom}</b></p>
+      <button class="bouton bouton--or" style="width:100%" onClick={envoyer}><Icone nom="partager" taille={18} /> Envoyer le code par WhatsApp</button>
+      <button class="bouton bouton--contour" style="width:100%;margin-top:8px" onClick={() => copie('Message', messageCode(d))}><Icone nom="copier" taille={18} /> Copier le message (SMS, Telegram…)</button>
+      {apres}
+    </section>
+  );
+}
+
 const lienRef = (t) => { const r = lireReference(t); return r ? `#/bible/lire/${r.code}/${r.c}${r.v ? '/' + r.v : ''}` : null; };
 function Refs({ refs }) {
   if (!refs?.length) return null;
@@ -219,10 +259,6 @@ export function NouveauDisciple() {
     catch (err) { setEtat({ erreur: err.message }); }
   };
   const sansCode = () => { const n = { id: 'd' + Date.now().toString(36), prenom: prenom.trim(), pas: 'pas-01-le-salut', versets: [], notes: '', rdv: '', accueil: false }; ecrireDisciples([...lireDisciples(), n]); remplacer('accompagner/encadreur/' + n.id + '/accueil'); };
-  const partagerCode = () => {
-    const texte = `Bonjour ${d.prenom} ! Pour notre suivi dans l'application Yeshaya :\n1. Ouvre Yeshaya (${location.origin})\n2. Touche « Suivi des nouveaux convertis », puis « Je suis un nouveau converti »\n3. Entre ce code : ${d.code}\net ton prénom : ${d.prenom}`;
-    if (navigator.share) navigator.share({ text: texte }).catch(() => {}); else open('https://wa.me/?text=' + encodeURIComponent(texte), '_blank');
-  };
   if (!d) return (
     <div class="page">
       <Etapes n={1} total={3} />
@@ -245,13 +281,8 @@ export function NouveauDisciple() {
     <div class="page">
       <Etapes n={2} total={3} />
       <h2 style="margin:6px 4px 4px">Le code de {d.prenom}</h2>
-      <section class="carte bloc acc-code-carte">
-        <p class="ligne__desc" style="margin-top:0">Donne ce code à {d.prenom}. Dans Yeshaya, il touche « Suivi des nouveaux convertis », puis « Je suis un nouveau converti », et l'entre avec son prénom.</p>
-        <p class="acc-code-grand">{d.code}</p>
-        <p class="ligne__desc">Prénom à écrire : <b>{d.prenom}</b></p>
-        <button class="bouton bouton--contour" style="width:100%" onClick={partagerCode}><Icone nom="partager" taille={18} /> Envoyer le code par WhatsApp</button>
-        <p class="ligne__desc" style="margin-bottom:0">Dès qu'il l'aura entré, ses réponses apparaîtront directement dans ta fiche. Tu retrouves ce code à tout moment dans sa page.</p>
-      </section>
+      <CarteCode d={d} titre={`Donne ce code à ${d.prenom}. Dans Yeshaya, il touche « Suivi des nouveaux convertis », puis « Je suis un nouveau converti », et l'entre avec son prénom.`}
+        apres={<p class="ligne__desc" style="margin-bottom:0">Dès qu'il l'aura entré, ses réponses apparaîtront dans ta fiche. Tu retrouves ce code à tout moment dans sa page.</p>} />
       <button class="bouton bouton--or" style="width:100%;margin-top:12px" onClick={() => remplacer('accompagner/encadreur/' + d.id + '/accueil')}>Suivant : la rencontre d'accueil <Icone nom="chevron" taille={18} /></button>
     </div>
   );
@@ -266,10 +297,6 @@ export function FicheDisciple({ id }) {
   if (!d) return <div class="page"><p class="ligne__desc" style="margin-top:16px">Disciple introuvable. <a class="lien" href="#/accompagner/encadreur">Mes disciples</a></p></div>;
   const p = pasDe(d.pas) || pasDe('pas-01-le-salut');
   const aRepondu = serveur?.carnets?.[p.id] ? Object.values(serveur.carnets[p.id].r || {}).filter((x) => String(x).trim()).length : 0;
-  const partagerCode = () => {
-    const texte = `Bonjour ${d.prenom} ! Pour notre suivi dans l'application Yeshaya :\n1. Ouvre Yeshaya (${location.origin})\n2. Touche « Suivi des nouveaux convertis », puis « Je suis un nouveau converti »\n3. Entre ce code : ${d.code}\n4. Écris ton prénom exactement ainsi : ${d.prenom}`;
-    if (navigator.share) navigator.share({ text: texte }).catch(() => {}); else open('https://wa.me/?text=' + encodeURIComponent(texte), '_blank');
-  };
   return (
     <div class="page">
       <h2 style="margin:16px 4px 2px">{d.prenom}</h2>
@@ -297,17 +324,11 @@ export function FicheDisciple({ id }) {
       )}
 
       {/* 2. Son code : la chose qu'on cherche le plus souvent */}
-      {d.code && (
-        <section class="carte bloc acc-code-carte" style="margin-top:12px">
-          <p class="ligne__desc" style="margin-top:0">Le code de {d.prenom}, à entrer dans son téléphone avec son prénom</p>
-          <p class="acc-code-grand">{d.code}</p>
-          <button class="bouton bouton--contour" style="width:100%" onClick={partagerCode}><Icone nom="partager" taille={18} /> Le lui envoyer par WhatsApp</button>
-          {serveur?.rejoint && (serveur.ouvert
-            ? <p class="ligne__desc" style="margin-bottom:0"><Icone nom="info" taille={15} /> Le code est ouvert : {d.prenom} peut se relier depuis un nouveau téléphone. Il se refermera tout seul après.</p>
-            : <><p class="ligne__desc">Le code a déjà servi : personne d'autre ne peut s'en servir pour voir son carnet. S'il a changé de téléphone, rouvre-le.</p>
-              <button class="bouton bouton--contour" style="width:100%" onClick={async () => { try { await rouvrirCode(d); setServeur({ ...serveur, ouvert: true }); notifier('Code rouvert : ' + d.prenom + ' peut se relier une fois. Son ancien téléphone perdra l\'accès.'); } catch (err) { notifier(err.message); } }}>Rouvrir le code pour un nouveau téléphone</button></>)}
-        </section>
-      )}
+      {d.code && <CarteCode d={d} titre={`Le code de ${d.prenom}, à entrer dans son téléphone avec son prénom`}
+        apres={serveur?.rejoint && (serveur.ouvert
+          ? <p class="ligne__desc" style="margin-bottom:0"><Icone nom="info" taille={15} /> Le code est ouvert : {d.prenom} peut se relier depuis un nouveau téléphone. Il se refermera tout seul après.</p>
+          : <><p class="ligne__desc">Le code a déjà servi : personne d'autre ne peut s'en servir pour voir son carnet. S'il a changé de téléphone, rouvre-le.</p>
+            <button class="bouton bouton--contour" style="width:100%" onClick={async () => { try { await rouvrirCode(d); setServeur({ ...serveur, ouvert: true }); notifier('Code rouvert : ' + d.prenom + ' peut se relier une fois. Son ancien téléphone perdra l\'accès.'); } catch (err) { notifier(err.message); } }}>Rouvrir le code pour un nouveau téléphone</button></>)} />}
 
       {/* 3. Où il en est */}
       <h2 class="titre-section">Où en est {d.prenom}</h2>
