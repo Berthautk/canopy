@@ -1,4 +1,5 @@
 import { Sommaire } from '../../composants/Sommaire.jsx';
+import { Banniere } from '../../composants/Banniere.jsx';
 import { useState } from 'preact/hooks';
 import { Icone } from '../../composants/Icone.jsx';
 import { CarteVerset } from '../../composants/Verset.jsx';
@@ -22,10 +23,7 @@ export function Priere() {
   const enPriere = j.filter((r) => !r.exaucee).length, exaucees = j.length - enPriere;
   return (
     <div class="page">
-      <div class="bandeau-titre">
-        <img src="/assets/photos/prier-eglise-genoux.webp" alt="" />
-        <div><h2>Prière</h2><p>Approche-toi de Dieu, parle-lui et intercède pour les autres.</p></div>
-      </div>
+      <Banniere image="/assets/photos/banniere-priere.webp" titre="Prière" sous="Approche-toi de Dieu, parle-lui et intercède pour les autres." />
 
       {v && (
         <a class="carte prier-maintenant" href={'#/priere/veille/' + v.id.replace('veille-', '')}>

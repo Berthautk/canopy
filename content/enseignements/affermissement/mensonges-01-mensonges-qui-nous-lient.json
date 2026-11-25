@@ -1,474 +1,474 @@
 {
- "id": "mensonges-01-mensonges-qui-nous-lient",
- "titre": "Les mensonges qui nous lient : comment l'ennemi nous trompe et comment en sortir",
- "serie": "Réponses bibliques aux mensonges",
- "theme": "Vérité et mensonge",
- "auteur": "Yeshaya",
- "resume": "Pourquoi tant de chrétiens vivent-ils dans la défaite et le découragement ? Pourquoi retombent-ils sans cesse dans les mêmes pièges ? Dans cet enseignement, nous remontons à la source avec Genèse 3 : les trois mouvements du mensonge, la ruse du serpent, la honte et les excuses d'Adam et d'Ève. Puis nous voyons ce que Jésus dit du diable, comment les mensonges entrent dans nos vies aujourd'hui, et surtout un chemin pratique, en six étapes, pour les reconnaître, les renier et les remplacer par la vérité de la Parole.",
- "image": "/assets/personnages/homme-lunettes-reflexion.webp",
- "verset_de_base": "Jn 8:44",
- "lecture_minutes": 29,
- "objectifs": [
-  "Comprendre d'où viennent les mensonges qui nous gardent dans la défaite.",
-  "Reconnaître la manière dont le serpent trompe, en trois mouvements.",
-  "Savoir comment un mensonge entre dans une vie aujourd'hui.",
-  "Repartir avec un chemin pratique pour nommer, renier et remplacer un mensonge par la vérité de la Parole."
- ],
- "introduction": "Imagine un jeune chrétien que j'appellerai Samuel. Il a donné sa vie à Jésus il y a trois ans. Il prie, il va à l'église, il chante dans la chorale. Mais chaque semaine, il retombe dans le même péché, et il se dit : « Je suis un raté. Dieu en a assez de moi. Je ne changerai jamais. » Samuel ne manque pas de foi. Il ne manque pas de bonne volonté. Ce qui l'empêche d'avancer, c'est une phrase qu'il croit sans même s'en rendre compte : « Je ne changerai jamais. »\n\nCette phrase, personne ne l'a trouvée dans la Bible. Elle vient d'ailleurs. Et c'est un mensonge. Dans cette série d'enseignements, nous allons regarder en face les mensonges les plus courants que les chrétiens croient : « je suis seul », « c'est impossible », « j'ai peur », « tout le monde le fait », « Dieu ne me pardonnera pas ». À chacun, nous donnerons des réponses de la Bible, et surtout des solutions concrètes.\n\nAujourd'hui, nous commençons par la base de tout. D'où viennent ces mensonges ? Comment font-ils pour nous tromper ? Et que pouvons-nous faire, dès cette semaine, pour sortir de leurs chaînes ? Je vais dire les choses, puis les redire plus simplement. Prends ton temps. À la fin, nous vérifierons ensemble si les objectifs sont atteints : est-ce que tu repars avec une vraie solution ?",
- "sections": [
-  {
-   "numero": "1",
-   "titre": "Pourquoi tant de chrétiens vivent-ils dans la défaite ?",
-   "references": [
-    "Rm 7:15-24",
-    "Jn 8:31-36"
-   ],
-   "blocs": [
+  "id": "mensonges-01-mensonges-qui-nous-lient",
+  "titre": "Les mensonges qui nous lient : comment l'ennemi nous trompe et comment en sortir",
+  "serie": "Réponses bibliques aux mensonges",
+  "theme": "Vérité et mensonge",
+  "auteur": "Yeshaya",
+  "resume": "Pourquoi retombe-t-on sans cesse dans les mêmes pièges ? Remontons à Genèse 3, et repartons avec six étapes concrètes pour renier un mensonge et le remplacer par la vérité.",
+  "image": "/assets/personnages/homme-lunettes-reflexion.webp",
+  "verset_de_base": "Jn 8:44",
+  "lecture_minutes": 29,
+  "objectifs": [
+    "Comprendre d'où viennent les mensonges qui nous gardent dans la défaite.",
+    "Reconnaître la manière dont le serpent trompe, en trois mouvements.",
+    "Savoir comment un mensonge entre dans une vie aujourd'hui.",
+    "Repartir avec un chemin pratique pour nommer, renier et remplacer un mensonge par la vérité de la Parole."
+  ],
+  "introduction": "Imagine un jeune chrétien que j'appellerai Samuel. Il a donné sa vie à Jésus il y a trois ans. Il prie, il va à l'église, il chante dans la chorale. Mais chaque semaine, il retombe dans le même péché, et il se dit : « Je suis un raté. Dieu en a assez de moi. Je ne changerai jamais. » Samuel ne manque pas de foi. Il ne manque pas de bonne volonté. Ce qui l'empêche d'avancer, c'est une phrase qu'il croit sans même s'en rendre compte : « Je ne changerai jamais. »\n\nCette phrase, personne ne l'a trouvée dans la Bible. Elle vient d'ailleurs. Et c'est un mensonge. Dans cette série d'enseignements, nous allons regarder en face les mensonges les plus courants que les chrétiens croient : « je suis seul », « c'est impossible », « j'ai peur », « tout le monde le fait », « Dieu ne me pardonnera pas ». À chacun, nous donnerons des réponses de la Bible, et surtout des solutions concrètes.\n\nAujourd'hui, nous commençons par la base de tout. D'où viennent ces mensonges ? Comment font-ils pour nous tromper ? Et que pouvons-nous faire, dès cette semaine, pour sortir de leurs chaînes ? Je vais dire les choses, puis les redire plus simplement. Prends ton temps. À la fin, nous vérifierons ensemble si les objectifs sont atteints : est-ce que tu repars avec une vraie solution ?",
+  "sections": [
     {
-     "sous_titre": "La question que se posent tous les croyants"
+      "numero": "1",
+      "titre": "Pourquoi tant de chrétiens vivent-ils dans la défaite ?",
+      "references": [
+        "Rm 7:15-24",
+        "Jn 8:31-36"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "La question que se posent tous les croyants"
+        },
+        {
+          "texte": "Beaucoup de chrétiens sincères se posent la même question. Pourquoi est-ce que je n'arrive pas à vivre la vie que la Bible décrit ? Pourquoi est-ce que je retombe ? Pourquoi est-ce que je me sens si souvent découragé ? L'apôtre Paul lui-même a écrit : je ne comprends pas ce que je fais ; car je ne fais pas ce que je veux, et je fais ce que je hais (Romains 7:15). Même un apôtre a connu cette lutte. Tu n'es donc pas le seul."
+        },
+        {
+          "texte": "Les causes de la défaite sont nombreuses. Certains sont prisonniers de leur passé : les conséquences de leurs propres péchés, ou les blessures que d'autres leur ont faites. D'autres sont incapables de vaincre une faiblesse, comme s'ils étaient pris dans un piège. Mais il y a une cause que l'on oublie très souvent : les mensonges que nous croyons."
+        },
+        {
+          "sous_titre": "Ce que nous croyons détermine ce que nous faisons"
+        },
+        {
+          "texte": "Voici une vérité simple. Tu vis selon ce que tu crois. Si tu crois que ton taxi va te déposer au bon endroit, tu montes dedans. Si tu crois que le pont est cassé, tu changes de route. Si tu crois que le marché est fermé, tu n'y vas pas. Ce que tu crois décide de ce que tu fais, même si ce que tu crois est faux."
+        },
+        {
+          "texte": "Alors, regarde ce qui se passe quand un chrétien croit des choses fausses. S'il croit que Dieu ne le voit pas, il vivra comme s'il pouvait faire n'importe quoi en cachette. S'il croit qu'il est un perdant, il vivra comme un perdant. S'il croit que Dieu ne lui pardonnera jamais, il se cachera de Dieu et ne priera plus. Chaque mensonge produit une conduite. Et la conduite finit par construire une vie de défaite."
+        },
+        {
+          "texte": "En d'autres termes, nos défaites ne viennent pas toujours d'un manque de force. Elles viennent souvent d'une mauvaise information. Quelqu'un nous a menti, et nous l'avons cru. Retiens bien ceci : si tu changes ce que tu crois, tu changes ta manière de vivre."
+        },
+        {
+          "sous_titre": "Pourquoi c'est si dangereux"
+        },
+        {
+          "texte": "Le plus dangereux dans un mensonge, c'est qu'on ne le voit pas. Si quelqu'un te donne un faux billet de dix mille francs, tu ne te plains pas tant que tu ne l'as pas vu comme faux. Tu le gardes dans ta poche, tu l'utilises, tu es content. Et un jour, au marché, la vendeuse le regarde et te dit : « Ce billet est faux. » Tu as vécu longtemps avec une chose fausse en pensant qu'elle était vraie."
+        },
+        {
+          "texte": "C'est exactement ce qui arrive avec les mensonges spirituels. Beaucoup de chrétiens vivent avec des pensées fausses depuis tellement longtemps qu'ils pensent que c'est leur caractère : « Moi, je suis comme ça. » Alors qu'il s'agit d'un mensonge qu'on leur a vendu."
+        }
+      ]
     },
     {
-     "texte": "Beaucoup de chrétiens sincères se posent la même question. Pourquoi est-ce que je n'arrive pas à vivre la vie que la Bible décrit ? Pourquoi est-ce que je retombe ? Pourquoi est-ce que je me sens si souvent découragé ? L'apôtre Paul lui-même a écrit : je ne comprends pas ce que je fais ; car je ne fais pas ce que je veux, et je fais ce que je hais (Romains 7:15). Même un apôtre a connu cette lutte. Tu n'es donc pas le seul."
+      "numero": "2",
+      "titre": "Au jardin d'Éden : comment tout a commencé",
+      "references": [
+        "Gn 3:1-7",
+        "Gn 2:16-17"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Le serpent, rusé et patient"
+        },
+        {
+          "texte": "Pour comprendre la source de nos problèmes, retournons au tout début. Dieu avait créé le jardin d'Éden, et il avait donné à Adam et Ève un seul interdit. Il avait dit à Adam : tu pourras manger de tous les arbres du jardin ; mais tu ne mangeras pas de l'arbre de la connaissance du bien et du mal, car le jour où tu en mangeras, tu mourras (Genèse 2:16-17). Un seul interdit, et des centaines de permissions. Dieu n'était pas un maître dur. Il était généreux."
+        },
+        {
+          "texte": "Puis arrive le serpent. La Bible dit qu'il était le plus rusé de tous les animaux (Genèse 3:1). Le mot « rusé » veut dire habile, qui sait comment s'y prendre. Remarque une chose : le serpent n'a pas attaqué Adam, qui avait reçu directement l'ordre de Dieu. Il est allé vers Ève. Il a choisi le bon moment et la bonne personne. Il a commencé par une question innocente, comme un homme qui sait parler."
+        },
+        {
+          "sous_titre": "Premier mouvement : mettre en doute la parole de Dieu"
+        },
+        {
+          "texte": "Le serpent dit : Le serpent demande si Dieu a vraiment dit de ne manger d'aucun arbre du jardin (Genèse 3:1). Regarde la ruse. Il ne dit pas encore « Dieu ment ». Il pose une question. Et il exagère : il laisse entendre que Dieu a tout interdit. En réalité, Dieu avait tout permis sauf un arbre. Le serpent change l'histoire pour faire apparaître Dieu comme un Dieu avare."
+        },
+        {
+          "texte": "C'est la première étape de tous les mensonges : faire douter de ce que Dieu a dit, ou de ce que Dieu est. « Est-ce que Dieu t'aime vraiment ? » « Est-ce qu'il t'a vraiment pardonné ? » « Est-ce qu'il va vraiment te donner ce dont tu as besoin ? » Chaque fois que le doute apparaît, il faut se demander : qui me pose cette question ?"
+        },
+        {
+          "texte": "Ève répond bien, mais elle ajoute quelque chose. Dieu avait dit « vous n'en mangerez pas ». Elle dit : vous n'en mangerez point et vous n'y toucherez point (Genèse 3:3). Elle a ajouté « n'y touchez pas ». Voilà un autre piège : quand on ne connaît pas exactement ce que Dieu a dit, on mélange la parole de Dieu avec des règles humaines. Et le diable en profite."
+        },
+        {
+          "sous_titre": "Deuxième mouvement : nier les conséquences"
+        },
+        {
+          "texte": "Le serpent dit alors : Vous ne mourrez point (Genèse 3:4). Il contredit directement Dieu. Il dit : « Il n'y aura pas de conséquence. Ne vous inquiétez pas. » C'est la deuxième étape : nier que le péché coûte quelque chose."
+        },
+        {
+          "texte": "Écoute comme cela ressemble à ce qu'on entend aujourd'hui. « Ce n'est pas si grave. » « Personne ne le saura. » « Tout le monde le fait. » « Dieu comprend. » Le serpent promet qu'il n'y aura pas de prix à payer. Mais le prix était réel : la mort, la séparation d'avec Dieu."
+        },
+        {
+          "sous_titre": "Troisième mouvement : donner un faux motif"
+        },
+        {
+          "texte": "Enfin, il dit : Dieu sait que le jour où vous en mangerez, vos yeux s'ouvriront, et que vous serez comme des dieux (Genèse 3:5). Il accuse Dieu d'être jaloux : « Dieu vous cache quelque chose de bon. Il ne veut pas que vous soyez grands. » C'est la troisième étape : faire croire que Dieu veut nous priver du bonheur."
+        },
+        {
+          "texte": "Regarde le résultat. Ève regarde le fruit : il paraît bon à manger, agréable à la vue, et précieux pour ouvrir l'intelligence (Genèse 3:6). Les trois mêmes portes que nous voyons dans 1 Jean 2:16 : la convoitise de la chair, la convoitise des yeux, l'orgueil de la vie. Elle le prend, elle en mange, elle en donne à son mari, et il en mange."
+        },
+        {
+          "texte": "Voici ce qu'il faut retenir : le diable promet le meilleur et paie avec le pire. Il promet la liberté, et donne l'esclavage. Il promet le plaisir, et donne la douleur. Il promet la sagesse, et donne la honte. Il promet la vie, et donne la mort."
+        },
+        {
+          "sous_titre": "Ce que le mensonge a produit"
+        },
+        {
+          "texte": "Alors, qu'est-ce qui s'est passé ? Genèse 3:7 dit que leurs yeux s'ouvrirent, et ils connurent qu'ils étaient nus. Ils n'étaient pas devenus des dieux. Ils étaient devenus honteux. Ils ont cousu des feuilles de figuier pour se cacher, et quand ils ont entendu Dieu marcher dans le jardin, ils se sont cachés. Le mensonge avait promis la proximité avec Dieu, et il a produit la peur de Dieu."
+        },
+        {
+          "texte": "Puis viennent les excuses. Quand Dieu demande à Adam ce qu'il a fait, Adam répond : La femme que tu as mise auprès de moi m'a donné de l'arbre, et j'en ai mangé (Genèse 3:12). Adam accuse la femme, et en même temps Dieu : « La femme que tu m'as donnée. » Ève accuse le serpent. Personne ne dit : « J'ai péché. » Voilà ce que le mensonge fait : il nous fait faire des excuses et rejeter la faute sur les autres."
+        }
+      ]
     },
     {
-     "texte": "Les causes de la défaite sont nombreuses. Certains sont prisonniers de leur passé : les conséquences de leurs propres péchés, ou les blessures que d'autres leur ont faites. D'autres sont incapables de vaincre une faiblesse, comme s'ils étaient pris dans un piège. Mais il y a une cause que l'on oublie très souvent : les mensonges que nous croyons."
+      "numero": "3",
+      "titre": "Ce que Jésus dit du diable",
+      "references": [
+        "Jn 8:44-47",
+        "Ap 12:9",
+        "2 Co 11:3, 14"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Un menteur dès le commencement"
+        },
+        {
+          "texte": "Jésus parle du diable dans l'Évangile de Jean, au chapitre 8. Il discute avec des gens qui refusent de croire. Il leur dit : Vous avez pour père le diable, et vous voulez accomplir les désirs de votre père. Il a été meurtrier dès le commencement, et il ne se tient pas dans la vérité, parce qu'il n'y a pas de vérité en lui. Lorsqu'il profère le mensonge, il parle de son propre fonds ; car il est menteur et le père du mensonge (Jean 8:44)."
+        },
+        {
+          "texte": "Écoute bien chaque mot. « Meurtrier dès le commencement » : le mensonge du jardin a fait entrer la mort dans le monde. « Il ne se tient pas dans la vérité » : il n'y a pas d'endroit où il pourrait rester sincère. « Il parle de son propre fonds » : mentir est sa nature, comme parler est la nature d'un homme. « Père du mensonge » : tous les mensonges viennent de lui."
+        },
+        {
+          "texte": "Autrement dit, quand un mensonge entre dans ta vie, il a un auteur. Il ne vient pas de nulle part. L'Apocalypse l'appelle le serpent ancien, celui qui séduit toute la terre (Apocalypse 12:9). Le mot « séduire » veut dire égarer, tromper."
+        },
+        {
+          "sous_titre": "Il se déguise"
+        },
+        {
+          "texte": "Paul écrit aux Corinthiens : je crains que, comme le serpent séduisit Ève par sa ruse, vos pensées ne se corrompent (2 Corinthiens 11:3). Et plus loin il dit que Satan lui-même se déguise en ange de lumière (2 Corinthiens 11:14). Cela veut dire que le mensonge ne vient pas toujours avec une corne et une fourche. Il vient souvent avec un beau visage : un conseil d'ami, un enseignement populaire, une habitude de ton quartier, une pensée qui paraît raisonnable."
+        },
+        {
+          "texte": "Voici un exemple. Un jeune homme veut épouser une fille qui n'est pas chrétienne. Un ami lui dit : « L'amour est plus fort que la religion. Dieu veut que tu sois heureux. » Cela paraît gentil et sage. Mais c'est un mensonge, qui détourne de la Parole qui dit de ne pas s'associer aux incroyants dans le mariage (2 Corinthiens 6:14). Le mensonge se cache derrière un bon sentiment."
+        },
+        {
+          "sous_titre": "Pourquoi certains refusent la vérité"
+        },
+        {
+          "texte": "Jésus ajoute : Parce que je dis la vérité, vous ne me croyez pas (Jean 8:45). Pourquoi ? Il répond au verset 47 : celui qui est de Dieu écoute les paroles de Dieu ; vous n'écoutez pas, parce que vous n'êtes pas de Dieu. Une personne qui s'est habituée au mensonge n'aime pas la vérité, car la vérité la dérange. Paul dit que l'homme naturel ne reçoit pas les choses de l'Esprit de Dieu : elles sont une folie pour lui (1 Corinthiens 2:14)."
+        },
+        {
+          "texte": "Voilà pourquoi il est difficile de convaincre certaines personnes par des arguments. Elles ne manquent pas d'intelligence. Elles ont un esprit bloqué par le mensonge. Seul le Saint-Esprit peut ouvrir ce blocage."
+        }
+      ]
     },
     {
-     "sous_titre": "Ce que nous croyons détermine ce que nous faisons"
+      "numero": "4",
+      "titre": "Comment un mensonge entre dans une vie aujourd'hui",
+      "references": [
+        "Pr 14:12",
+        "Rm 12:2",
+        "Col 2:8"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "Par la culture et la foule"
+        },
+        {
+          "texte": "Aujourd'hui, beaucoup de mensonges nous arrivent par ce que tout le monde dit autour de nous. « Chacun a sa vérité. » « Si ça te fait du bien, c'est bon. » « Les règles de la Bible sont dépassées. » « Il faut se débrouiller. » Dans beaucoup de cultures, la pensée dominante dit : « Il n'y a pas de vérité absolue. Chacun décide pour soi. »"
+        },
+        {
+          "texte": "Imagine un chauffeur de taxi qui dit : « Si je ne triche pas sur le prix, je ne mange pas. » Il appelle cela « se débrouiller ». Mais ce que la Bible appelle un vol, il l'a renommé pour que ce soit acceptable. Quand on change le nom d'un péché, on croit qu'il n'est plus un péché. Mais la tromperie ne change pas la réalité. Si tu appelles du poison « sirop », il tue quand même."
+        },
+        {
+          "texte": "Proverbes 14:12 dit : Telle voie paraît droite à un homme, mais son issue, c'est la voie de la mort. Ce qui est populaire n'est pas forcément vrai."
+        },
+        {
+          "sous_titre": "Par nos blessures et nos désirs"
+        },
+        {
+          "texte": "D'autres mensonges entrent par la blessure. Un enfant a été rejeté par son père : il croit « personne ne peut m'aimer ». Une jeune fille a été humiliée à l'école : elle croit « je ne vaux rien ». Un homme a échoué plusieurs fois en affaires : il croit « je suis maudit ». Ces pensées paraissent vraies parce qu'elles collent à la douleur. Mais elles sont fausses."
+        },
+        {
+          "texte": "D'autres entrent par nos désirs. Quand nous voulons quelque chose très fort, nous cherchons des raisons de nous convaincre que c'est bon. « Dieu comprend. » « Ce n'est qu'une fois. » Nous nous mentons nous-mêmes. Jérémie dit que le cœur est tortueux par-dessus tout, et il est méchant : qui peut le connaître ? (Jérémie 17:9)."
+        },
+        {
+          "sous_titre": "Par de faux enseignements"
+        },
+        {
+          "texte": "Enfin, certains mensonges entrent par de faux enseignants. Paul avertit les Colossiens : Prenez garde que personne ne fasse de vous sa proie par la philosophie et par de vaines tromperies, s'appuyant sur la tradition des hommes, sur les rudiments du monde, et non sur Christ (Colossiens 2:8). Il y a dans certaines églises des enseignements qui flattent plutôt que d'instruire. Ils disent ce que les gens aiment entendre. Nous verrons plusieurs exemples dans cette série."
+        },
+        {
+          "sous_titre": "Un test simple"
+        },
+        {
+          "texte": "Voici un test simple pour reconnaître un mensonge. Un mensonge produit souvent l'un de ces fruits : la peur, la honte, le découragement, l'orgueil, la confusion. La vérité de Dieu produit la paix, la liberté, la joie, l'humilité. Quand une pensée te remplit de honte et de désespoir, demande-toi : « Est-ce que cette pensée vient de Dieu ? » Le Saint-Esprit convainc de péché pour nous conduire à Jésus ; le diable accuse pour nous écraser."
+        }
+      ]
     },
     {
-     "texte": "Voici une vérité simple. Tu vis selon ce que tu crois. Si tu crois que ton taxi va te déposer au bon endroit, tu montes dedans. Si tu crois que le pont est cassé, tu changes de route. Si tu crois que le marché est fermé, tu n'y vas pas. Ce que tu crois décide de ce que tu fais, même si ce que tu crois est faux."
+      "numero": "5",
+      "titre": "La vérité qui libère",
+      "references": [
+        "Jn 8:31-36",
+        "Ps 119:105",
+        "Ép 6:14, 17"
+      ],
+      "blocs": [
+        {
+          "sous_titre": "La promesse de Jésus"
+        },
+        {
+          "texte": "Jésus ne nous laisse pas seuls. Il dit : Si vous demeurez dans ma parole, vous êtes vraiment mes disciples ; vous connaîtrez la vérité, et la vérité vous affranchira (Jean 8:31-32). Regarde la chaîne : demeurer dans la Parole, être disciple, connaître la vérité, être libre. La liberté vient de la vérité, et la vérité vient de la Parole."
+        },
+        {
+          "texte": "Les gens lui répondent : Nous n'avons jamais été esclaves de personne (Jean 8:33). Ils se croyaient libres. Jésus leur dit : quiconque pratique le péché est esclave du péché (Jean 8:34). On peut se croire libre et être enchaîné. Le fumeur qui ne peut pas arrêter, la personne qui ne peut pas s'empêcher de mentir, le jeune qui n'arrive pas à quitter la pornographie : ils sont en réalité sous une chaîne. Jésus ajoute : Si le Fils vous affranchit, vous serez réellement libres (Jean 8:36)."
+        },
+        {
+          "sous_titre": "La Parole, notre lampe"
+        },
+        {
+          "texte": "Le psaume dit : Ta parole est une lampe à mes pieds, et une lumière sur mon sentier (Psaume 119:105). Imagine marcher la nuit dans un quartier sans électricité. Tu ne vois pas où tu poses le pied : il peut y avoir un trou, une pierre, un fil. Mais avec une lampe, tu vois le prochain pas, et tu évites les pièges. La Parole fait cela : elle éclaire les mensonges et les montre pour ce qu'ils sont."
+        },
+        {
+          "sous_titre": "La ceinture de la vérité et l'épée"
+        },
+        {
+          "texte": "Dans l'armure de Dieu, la première pièce est la ceinture de la vérité (Éphésiens 6:14). Dans le monde de Paul, la ceinture tenait le vêtement et préparait le soldat à l'action. Sans elle, il est gêné, il trébuche. Un chrétien qui ne connaît pas la vérité trébuche à chaque attaque. Et la dernière pièce est l'épée de l'Esprit, qui est la parole de Dieu (Éphésiens 6:17). L'épée sert à se défendre et à attaquer."
+        },
+        {
+          "sous_titre": "Jésus nous a montré comment faire"
+        },
+        {
+          "texte": "Quand le diable a tenté Jésus au désert, il a utilisé les mêmes ruses : douter de ce que Dieu a dit (« Si tu es Fils de Dieu… »), détourner la Parole, promettre un raccourci. Et trois fois Jésus a répondu : Il est écrit (Matthieu 4:4, 7, 10). Il n'a pas discuté. Il n'a pas inventé de belles réponses. Il a cité la Parole de Dieu. Le diable lui-même a cité la Bible (Matthieu 4:6) mais en la tordant, en omettant la moitié. Pour ne pas se faire piéger, il faut connaître toute la Parole."
+        },
+        {
+          "texte": "Retiens bien ceci : tu ne pourras pas répondre à un mensonge avec un verset que tu n'as jamais appris. Voilà pourquoi la lecture quotidienne et la mémorisation ne sont pas un luxe."
+        }
+      ]
     },
     {
-     "texte": "Alors, regarde ce qui se passe quand un chrétien croit des choses fausses. S'il croit que Dieu ne le voit pas, il vivra comme s'il pouvait faire n'importe quoi en cachette. S'il croit qu'il est un perdant, il vivra comme un perdant. S'il croit que Dieu ne lui pardonnera jamais, il se cachera de Dieu et ne priera plus. Chaque mensonge produit une conduite. Et la conduite finit par construire une vie de défaite."
+      "numero": "6",
+      "titre": "Comment détecter un mensonge : sept questions",
+      "references": [
+        "1 Th 5:21",
+        "Ac 17:11",
+        "Jc 1:5"
+      ],
+      "blocs": [
+        {
+          "texte": "Voici sept questions à te poser quand tu ressens de la peur, du découragement, de la tentation ou des doutes. Elles t'aident à examiner ce que tu crois."
+        },
+        {
+          "texte": "La première question : Qu'est-ce que je crois, en ce moment, qui produit ce sentiment ? Derrière chaque émotion forte, il y a une pensée. Écris-la."
+        },
+        {
+          "texte": "La deuxième : Demande-toi d'où vient cette pensée : de Dieu, du diable, de ma culture, de mes parents, de mon passé, ou de moi-même."
+        },
+        {
+          "texte": "La troisième : Que dit la Bible là-dessus ? Cherche un verset, un récit, une promesse."
+        },
+        {
+          "texte": "La quatrième : Est-ce qu'on me pousse à croire ou à faire quelque chose qui est contraire à la Bible ? Celui qui te presse, qui te fait peur, ou qui te dit « personne ne doit savoir » mérite d'être examiné."
+        },
+        {
+          "texte": "La cinquième : Est-ce que je doute de quelque chose que la Bible affirme, simplement parce que je ne le vois pas ?"
+        },
+        {
+          "texte": "La sixième : Qu'est-ce que Jésus ferait dans ma situation ?"
+        },
+        {
+          "texte": "La septième : Quelles seront les conséquences de cette croyance, dans un mois, dans dix ans ?"
+        },
+        {
+          "texte": "Paul dit : Examinez toutes choses ; retenez ce qui est bon (1 Thessaloniciens 5:21). Les chrétiens de Bérée sont loués parce qu'ils examinaient chaque jour les Écritures pour voir si ce qu'on leur disait était exact (Actes 17:11). Et si tu manques de sagesse, Dieu a promis de la donner : si quelqu'un d'entre vous manque de sagesse, qu'il la demande à Dieu, qui donne à tous simplement et sans reproche (Jacques 1:5)."
+        }
+      ]
     },
     {
-     "texte": "En d'autres termes, nos défaites ne viennent pas toujours d'un manque de force. Elles viennent souvent d'une mauvaise information. Quelqu'un nous a menti, et nous l'avons cru. Retiens bien ceci : si tu changes ce que tu crois, tu changes ta manière de vivre."
+      "numero": "7",
+      "titre": "Le chemin pratique : sortir d'un mensonge en six étapes",
+      "references": [
+        "1 Jn 1:9",
+        "Rm 12:2",
+        "Ph 4:8"
+      ],
+      "blocs": [
+        {
+          "texte": "Maintenant, passons à la pratique. Beaucoup d'enseignements s'arrêtent à « il faut croire la vérité ». Mais comment faire concrètement ? Voici six étapes, qui ont aidé beaucoup de chrétiens."
+        },
+        {
+          "sous_titre": "Première étape : nommer le mensonge"
+        },
+        {
+          "texte": "Prends une feuille et écris : « Les mensonges que j'ai crus. » Écris ce que tu te dis quand tu échoues, quand tu as peur, quand tu es seul. « Je suis un raté. » « Personne ne m'aime. » « Je n'y arriverai jamais. » « Dieu en a assez de moi. » Il est impossible de combattre ce qu'on n'a pas nommé. Tu ne peux pas chasser un voleur que tu ne vois pas."
+        },
+        {
+          "sous_titre": "Deuxième étape : reconnaître d'où il vient"
+        },
+        {
+          "texte": "À côté de chaque mensonge, écris d'où il vient : mon père a dit cela, ma tante, mon ancienne église, une expérience d'échec, une moquerie à l'école. Reconnaître l'origine enlève une partie de son pouvoir : ce n'est pas la voix de Dieu, c'est la voix de quelqu'un qui s'est trompé."
+        },
+        {
+          "sous_titre": "Troisième étape : confesser et renoncer"
+        },
+        {
+          "texte": "Dans la prière, dis à Dieu : « Seigneur, j'ai cru ce mensonge. Je reconnais que ce n'est pas ce que tu dis. Je renonce à cette pensée. Pardonne-moi d'y avoir cru. » Si ce mensonge a conduit à des péchés, confesse-les. Jean écrit : Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et pour nous purifier de toute iniquité (1 Jean 1:9). La confession fait entrer la lumière."
+        },
+        {
+          "sous_titre": "Quatrième étape : remplacer par la vérité de Dieu"
+        },
+        {
+          "texte": "C'est l'étape la plus importante. Pour chaque mensonge, trouve un verset qui dit le contraire, et écris-le en face, avec « je ». Par exemple :"
+        },
+        {
+          "texte": "- Mensonge : « Je suis un raté. » Vérité : « Je suis une nouvelle créature en Christ » (2 Corinthiens 5:17). - Mensonge : « Je suis seul. » Vérité : « Je suis avec toi tous les jours » (Matthieu 28:20). - Mensonge : « Je ne changerai jamais. » Vérité : « Celui qui a commencé en vous cette bonne œuvre la rendra parfaite » (Philippiens 1:6). - Mensonge : « Dieu ne peut pas me pardonner. » Vérité : « Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner » (1 Jean 1:9). - Mensonge : « Je ne peux pas. » Vérité : « Je puis tout par celui qui me fortifie » (Philippiens 4:13)."
+        },
+        {
+          "texte": "Paul dit de ne pas nous conformer au siècle présent, mais d'être transformés par le renouvellement de l'intelligence (Romains 12:2). Le renouvellement se fait en remplaçant, jour après jour, une pensée fausse par une pensée vraie."
+        },
+        {
+          "sous_titre": "Cinquième étape : mémoriser et répéter"
+        },
+        {
+          "texte": "Choisis un verset pour chaque mensonge. Écris-le sur un petit papier, ou dans ton téléphone. Lis-le le matin, avant de dormir, et à chaque fois que la pensée revient. Dis-le à voix haute. Quand le mensonge revient, ne discute pas : réponds comme Jésus : « Il est écrit… ». Philippiens 4:8 dit de penser à tout ce qui est vrai, honorable, juste, pur, aimable. Les pensées sont comme les mauvaises herbes : si tu ne plantes pas de bonnes plantes, les mauvaises reviennent."
+        },
+        {
+          "sous_titre": "Sixième étape : ne pas rester seul"
+        },
+        {
+          "texte": "Parle à une personne de confiance : ton accompagnateur, un frère mûr, ta femme ou ton mari, ton pasteur. Le diable travaille dans le secret. Dire le mensonge à voix haute devant quelqu'un lui enlève sa force. Et prie avec cette personne. Jacques dit : Confessez donc vos péchés les uns aux autres, et priez les uns pour les autres, afin que vous soyez guéris (Jacques 5:16)."
+        },
+        {
+          "sous_titre": "Quand le mensonge revient"
+        },
+        {
+          "texte": "Il reviendra. Ne te décourage pas. Un mensonge cru pendant vingt ans ne disparaît pas en un jour. Chaque fois qu'il revient, tu recommences : tu nommes, tu renonces, tu cites la vérité. Avec le temps, la vérité prend la place, et le mensonge perd de sa voix. Pendant un mois, relis tous les jours ta liste. Ne l'abandonne pas à la première défaite."
+        }
+      ]
     },
     {
-     "sous_titre": "Pourquoi c'est si dangereux"
-    },
-    {
-     "texte": "Le plus dangereux dans un mensonge, c'est qu'on ne le voit pas. Si quelqu'un te donne un faux billet de dix mille francs, tu ne te plains pas tant que tu ne l'as pas vu comme faux. Tu le gardes dans ta poche, tu l'utilises, tu es content. Et un jour, au marché, la vendeuse le regarde et te dit : « Ce billet est faux. » Tu as vécu longtemps avec une chose fausse en pensant qu'elle était vraie."
-    },
-    {
-     "texte": "C'est exactement ce qui arrive avec les mensonges spirituels. Beaucoup de chrétiens vivent avec des pensées fausses depuis tellement longtemps qu'ils pensent que c'est leur caractère : « Moi, je suis comme ça. » Alors qu'il s'agit d'un mensonge qu'on leur a vendu."
+      "numero": "8",
+      "titre": "Ce que nous retenons, et vérifions nos objectifs",
+      "references": [],
+      "blocs": [
+        {
+          "sous_titre": "Résumons"
+        },
+        {
+          "texte": "Beaucoup de chrétiens vivent dans la défaite à cause de mensonges qu'ils croient. Au jardin d'Éden, le serpent a trompé Ève en trois mouvements : mettre en doute la parole de Dieu, nier les conséquences, donner un faux motif. Il a promis le meilleur et il a payé avec le pire. Jésus dit que le diable est menteur et père du mensonge. Aujourd'hui, les mensonges entrent par la culture, par nos blessures, par nos désirs, par de faux enseignements. La vérité de la Parole nous libère. Et nous avons un chemin pratique : nommer, reconnaître l'origine, confesser et renoncer, remplacer par un verset, mémoriser, ne pas rester seul."
+        },
+        {
+          "sous_titre": "Les objectifs sont-ils atteints ?"
+        },
+        {
+          "texte": "Nous avions quatre objectifs. Le premier : comprendre d'où viennent les mensonges. Nous l'avons vu avec Genèse 3 et Jean 8:44. Le deuxième : reconnaître comment le serpent trompe, en trois mouvements : le doute, la négation des conséquences, le faux motif. Le troisième : savoir comment un mensonge entre aujourd'hui : par la culture, les blessures, les désirs et les faux enseignements. Le quatrième : repartir avec un chemin pratique. C'est la section 7, avec six étapes. Si tu as suivi, tu peux dès aujourd'hui prendre une feuille et faire la première étape."
+        },
+        {
+          "sous_titre": "Une prière pour terminer"
+        },
+        {
+          "texte": "Seigneur, merci de nous avoir donné ta Parole. Merci que ta vérité nous rende libres. Aujourd'hui, nous reconnaissons que nous avons cru des mensonges. Nous te demandons de nous les montrer. Donne-nous le courage de les nommer et de les renier. Remplis nos pensées de ta vérité. Aide-nous à ne pas rester seuls et à persévérer. Au nom de Jésus, amen."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": "2",
-   "titre": "Au jardin d'Éden : comment tout a commencé",
-   "references": [
-    "Gn 3:1-7",
-    "Gn 2:16-17"
-   ],
-   "blocs": [
+  ],
+  "sujets": [
     {
-     "sous_titre": "Le serpent, rusé et patient"
+      "titre": "Pour que Dieu nous montre nos mensonges",
+      "texte": "Prions afin que le Saint-Esprit nous montre les mensonges que nous avons crus et nous donne le courage de les renier (Jean 16:13)."
     },
     {
-     "texte": "Pour comprendre la source de nos problèmes, retournons au tout début. Dieu avait créé le jardin d'Éden, et il avait donné à Adam et Ève un seul interdit. Il avait dit à Adam : tu pourras manger de tous les arbres du jardin ; mais tu ne mangeras pas de l'arbre de la connaissance du bien et du mal, car le jour où tu en mangeras, tu mourras (Genèse 2:16-17). Un seul interdit, et des centaines de permissions. Dieu n'était pas un maître dur. Il était généreux."
+      "titre": "Pour une pensée renouvelée",
+      "texte": "Prions afin que nos pensées soient transformées par la Parole de Dieu, chaque jour (Romains 12:2)."
     },
     {
-     "texte": "Puis arrive le serpent. La Bible dit qu'il était le plus rusé de tous les animaux (Genèse 3:1). Le mot « rusé » veut dire habile, qui sait comment s'y prendre. Remarque une chose : le serpent n'a pas attaqué Adam, qui avait reçu directement l'ordre de Dieu. Il est allé vers Ève. Il a choisi le bon moment et la bonne personne. Il a commencé par une question innocente, comme un homme qui sait parler."
-    },
-    {
-     "sous_titre": "Premier mouvement : mettre en doute la parole de Dieu"
-    },
-    {
-     "texte": "Le serpent dit : Le serpent demande si Dieu a vraiment dit de ne manger d'aucun arbre du jardin (Genèse 3:1). Regarde la ruse. Il ne dit pas encore « Dieu ment ». Il pose une question. Et il exagère : il laisse entendre que Dieu a tout interdit. En réalité, Dieu avait tout permis sauf un arbre. Le serpent change l'histoire pour faire apparaître Dieu comme un Dieu avare."
-    },
-    {
-     "texte": "C'est la première étape de tous les mensonges : faire douter de ce que Dieu a dit, ou de ce que Dieu est. « Est-ce que Dieu t'aime vraiment ? » « Est-ce qu'il t'a vraiment pardonné ? » « Est-ce qu'il va vraiment te donner ce dont tu as besoin ? » Chaque fois que le doute apparaît, il faut se demander : qui me pose cette question ?"
-    },
-    {
-     "texte": "Ève répond bien, mais elle ajoute quelque chose. Dieu avait dit « vous n'en mangerez pas ». Elle dit : vous n'en mangerez point et vous n'y toucherez point (Genèse 3:3). Elle a ajouté « n'y touchez pas ». Voilà un autre piège : quand on ne connaît pas exactement ce que Dieu a dit, on mélange la parole de Dieu avec des règles humaines. Et le diable en profite."
-    },
-    {
-     "sous_titre": "Deuxième mouvement : nier les conséquences"
-    },
-    {
-     "texte": "Le serpent dit alors : Vous ne mourrez point (Genèse 3:4). Il contredit directement Dieu. Il dit : « Il n'y aura pas de conséquence. Ne vous inquiétez pas. » C'est la deuxième étape : nier que le péché coûte quelque chose."
-    },
-    {
-     "texte": "Écoute comme cela ressemble à ce qu'on entend aujourd'hui. « Ce n'est pas si grave. » « Personne ne le saura. » « Tout le monde le fait. » « Dieu comprend. » Le serpent promet qu'il n'y aura pas de prix à payer. Mais le prix était réel : la mort, la séparation d'avec Dieu."
-    },
-    {
-     "sous_titre": "Troisième mouvement : donner un faux motif"
-    },
-    {
-     "texte": "Enfin, il dit : Dieu sait que le jour où vous en mangerez, vos yeux s'ouvriront, et que vous serez comme des dieux (Genèse 3:5). Il accuse Dieu d'être jaloux : « Dieu vous cache quelque chose de bon. Il ne veut pas que vous soyez grands. » C'est la troisième étape : faire croire que Dieu veut nous priver du bonheur."
-    },
-    {
-     "texte": "Regarde le résultat. Ève regarde le fruit : il paraît bon à manger, agréable à la vue, et précieux pour ouvrir l'intelligence (Genèse 3:6). Les trois mêmes portes que nous voyons dans 1 Jean 2:16 : la convoitise de la chair, la convoitise des yeux, l'orgueil de la vie. Elle le prend, elle en mange, elle en donne à son mari, et il en mange."
-    },
-    {
-     "texte": "Voici ce qu'il faut retenir : le diable promet le meilleur et paie avec le pire. Il promet la liberté, et donne l'esclavage. Il promet le plaisir, et donne la douleur. Il promet la sagesse, et donne la honte. Il promet la vie, et donne la mort."
-    },
-    {
-     "sous_titre": "Ce que le mensonge a produit"
-    },
-    {
-     "texte": "Alors, qu'est-ce qui s'est passé ? Genèse 3:7 dit que leurs yeux s'ouvrirent, et ils connurent qu'ils étaient nus. Ils n'étaient pas devenus des dieux. Ils étaient devenus honteux. Ils ont cousu des feuilles de figuier pour se cacher, et quand ils ont entendu Dieu marcher dans le jardin, ils se sont cachés. Le mensonge avait promis la proximité avec Dieu, et il a produit la peur de Dieu."
-    },
-    {
-     "texte": "Puis viennent les excuses. Quand Dieu demande à Adam ce qu'il a fait, Adam répond : La femme que tu as mise auprès de moi m'a donné de l'arbre, et j'en ai mangé (Genèse 3:12). Adam accuse la femme, et en même temps Dieu : « La femme que tu m'as donnée. » Ève accuse le serpent. Personne ne dit : « J'ai péché. » Voilà ce que le mensonge fait : il nous fait faire des excuses et rejeter la faute sur les autres."
+      "titre": "Pour ceux qui sont enchaînés",
+      "texte": "Prions pour ceux qui sont prisonniers de mensonges et de péchés, afin qu'ils connaissent la vérité qui affranchit (Jean 8:32)."
     }
-   ]
-  },
-  {
-   "numero": "3",
-   "titre": "Ce que Jésus dit du diable",
-   "references": [
-    "Jn 8:44-47",
-    "Ap 12:9",
-    "2 Co 11:3, 14"
-   ],
-   "blocs": [
+  ],
+  "questions": [
     {
-     "sous_titre": "Un menteur dès le commencement"
+      "question": "Qui est « le père du mensonge », selon Jésus ?",
+      "choix": [
+        "Adam",
+        "Le diable",
+        "Les faux prophètes"
+      ],
+      "reponse": 1,
+      "explication": "Jean 8:44.",
+      "section": "3"
     },
     {
-     "texte": "Jésus parle du diable dans l'Évangile de Jean, au chapitre 8. Il discute avec des gens qui refusent de croire. Il leur dit : Vous avez pour père le diable, et vous voulez accomplir les désirs de votre père. Il a été meurtrier dès le commencement, et il ne se tient pas dans la vérité, parce qu'il n'y a pas de vérité en lui. Lorsqu'il profère le mensonge, il parle de son propre fonds ; car il est menteur et le père du mensonge (Jean 8:44)."
+      "question": "Quels sont les trois mouvements du serpent en Genèse 3 ?",
+      "choix": [
+        "Menacer, frapper, fuir",
+        "Mettre en doute la parole de Dieu, nier les conséquences, donner un faux motif",
+        "Prier, jeûner, veiller"
+      ],
+      "reponse": 1,
+      "explication": "Genèse 3:1-5.",
+      "section": "2"
     },
     {
-     "texte": "Écoute bien chaque mot. « Meurtrier dès le commencement » : le mensonge du jardin a fait entrer la mort dans le monde. « Il ne se tient pas dans la vérité » : il n'y a pas d'endroit où il pourrait rester sincère. « Il parle de son propre fonds » : mentir est sa nature, comme parler est la nature d'un homme. « Père du mensonge » : tous les mensonges viennent de lui."
+      "question": "Que fait Adam quand Dieu lui demande ce qu'il a fait ?",
+      "choix": [
+        "Il demande pardon",
+        "Il accuse sa femme et Dieu",
+        "Il se tait"
+      ],
+      "reponse": 1,
+      "explication": "Genèse 3:12.",
+      "section": "2"
     },
     {
-     "texte": "Autrement dit, quand un mensonge entre dans ta vie, il a un auteur. Il ne vient pas de nulle part. L'Apocalypse l'appelle le serpent ancien, celui qui séduit toute la terre (Apocalypse 12:9). Le mot « séduire » veut dire égarer, tromper."
+      "question": "Comment Jésus a-t-il répondu à chaque tentation du diable au désert ?",
+      "choix": [
+        "Par un miracle",
+        "En disant « Il est écrit » et en citant la Parole",
+        "En ne répondant pas"
+      ],
+      "reponse": 1,
+      "explication": "Matthieu 4:4, 7, 10.",
+      "section": "5"
     },
     {
-     "sous_titre": "Il se déguise"
+      "question": "Quelle est la première pièce de l'armure de Dieu ?",
+      "choix": [
+        "Le casque",
+        "L'épée",
+        "La ceinture de la vérité"
+      ],
+      "reponse": 2,
+      "explication": "Éphésiens 6:14.",
+      "section": "5"
     },
     {
-     "texte": "Paul écrit aux Corinthiens : je crains que, comme le serpent séduisit Ève par sa ruse, vos pensées ne se corrompent (2 Corinthiens 11:3). Et plus loin il dit que Satan lui-même se déguise en ange de lumière (2 Corinthiens 11:14). Cela veut dire que le mensonge ne vient pas toujours avec une corne et une fourche. Il vient souvent avec un beau visage : un conseil d'ami, un enseignement populaire, une habitude de ton quartier, une pensée qui paraît raisonnable."
+      "question": "Quelle est l'étape la plus importante pour sortir d'un mensonge ?",
+      "choix": [
+        "Attendre que ça passe",
+        "Le remplacer par une vérité de la Parole, avec un verset mémorisé",
+        "L'ignorer"
+      ],
+      "reponse": 1,
+      "explication": "Romains 12:2.",
+      "section": "7"
     },
     {
-     "texte": "Voici un exemple. Un jeune homme veut épouser une fille qui n'est pas chrétienne. Un ami lui dit : « L'amour est plus fort que la religion. Dieu veut que tu sois heureux. » Cela paraît gentil et sage. Mais c'est un mensonge, qui détourne de la Parole qui dit de ne pas s'associer aux incroyants dans le mariage (2 Corinthiens 6:14). Le mensonge se cache derrière un bon sentiment."
-    },
-    {
-     "sous_titre": "Pourquoi certains refusent la vérité"
-    },
-    {
-     "texte": "Jésus ajoute : Parce que je dis la vérité, vous ne me croyez pas (Jean 8:45). Pourquoi ? Il répond au verset 47 : celui qui est de Dieu écoute les paroles de Dieu ; vous n'écoutez pas, parce que vous n'êtes pas de Dieu. Une personne qui s'est habituée au mensonge n'aime pas la vérité, car la vérité la dérange. Paul dit que l'homme naturel ne reçoit pas les choses de l'Esprit de Dieu : elles sont une folie pour lui (1 Corinthiens 2:14)."
-    },
-    {
-     "texte": "Voilà pourquoi il est difficile de convaincre certaines personnes par des arguments. Elles ne manquent pas d'intelligence. Elles ont un esprit bloqué par le mensonge. Seul le Saint-Esprit peut ouvrir ce blocage."
+      "question": "Si un mensonge revient après quelque temps, que faut-il faire ?",
+      "choix": [
+        "Penser que tout est perdu",
+        "Recommencer : nommer, renoncer, citer la vérité",
+        "Changer d'église"
+      ],
+      "reponse": 1,
+      "explication": "Un mensonge cru pendant des années ne disparaît pas en un jour.",
+      "section": "7"
     }
-   ]
-  },
-  {
-   "numero": "4",
-   "titre": "Comment un mensonge entre dans une vie aujourd'hui",
-   "references": [
-    "Pr 14:12",
-    "Rm 12:2",
-    "Col 2:8"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "Par la culture et la foule"
-    },
-    {
-     "texte": "Aujourd'hui, beaucoup de mensonges nous arrivent par ce que tout le monde dit autour de nous. « Chacun a sa vérité. » « Si ça te fait du bien, c'est bon. » « Les règles de la Bible sont dépassées. » « Il faut se débrouiller. » Dans beaucoup de cultures, la pensée dominante dit : « Il n'y a pas de vérité absolue. Chacun décide pour soi. »"
-    },
-    {
-     "texte": "Imagine un chauffeur de taxi qui dit : « Si je ne triche pas sur le prix, je ne mange pas. » Il appelle cela « se débrouiller ». Mais ce que la Bible appelle un vol, il l'a renommé pour que ce soit acceptable. Quand on change le nom d'un péché, on croit qu'il n'est plus un péché. Mais la tromperie ne change pas la réalité. Si tu appelles du poison « sirop », il tue quand même."
-    },
-    {
-     "texte": "Proverbes 14:12 dit : Telle voie paraît droite à un homme, mais son issue, c'est la voie de la mort. Ce qui est populaire n'est pas forcément vrai."
-    },
-    {
-     "sous_titre": "Par nos blessures et nos désirs"
-    },
-    {
-     "texte": "D'autres mensonges entrent par la blessure. Un enfant a été rejeté par son père : il croit « personne ne peut m'aimer ». Une jeune fille a été humiliée à l'école : elle croit « je ne vaux rien ». Un homme a échoué plusieurs fois en affaires : il croit « je suis maudit ». Ces pensées paraissent vraies parce qu'elles collent à la douleur. Mais elles sont fausses."
-    },
-    {
-     "texte": "D'autres entrent par nos désirs. Quand nous voulons quelque chose très fort, nous cherchons des raisons de nous convaincre que c'est bon. « Dieu comprend. » « Ce n'est qu'une fois. » Nous nous mentons nous-mêmes. Jérémie dit que le cœur est tortueux par-dessus tout, et il est méchant : qui peut le connaître ? (Jérémie 17:9)."
-    },
-    {
-     "sous_titre": "Par de faux enseignements"
-    },
-    {
-     "texte": "Enfin, certains mensonges entrent par de faux enseignants. Paul avertit les Colossiens : Prenez garde que personne ne fasse de vous sa proie par la philosophie et par de vaines tromperies, s'appuyant sur la tradition des hommes, sur les rudiments du monde, et non sur Christ (Colossiens 2:8). Il y a dans certaines églises des enseignements qui flattent plutôt que d'instruire. Ils disent ce que les gens aiment entendre. Nous verrons plusieurs exemples dans cette série."
-    },
-    {
-     "sous_titre": "Un test simple"
-    },
-    {
-     "texte": "Voici un test simple pour reconnaître un mensonge. Un mensonge produit souvent l'un de ces fruits : la peur, la honte, le découragement, l'orgueil, la confusion. La vérité de Dieu produit la paix, la liberté, la joie, l'humilité. Quand une pensée te remplit de honte et de désespoir, demande-toi : « Est-ce que cette pensée vient de Dieu ? » Le Saint-Esprit convainc de péché pour nous conduire à Jésus ; le diable accuse pour nous écraser."
-    }
-   ]
-  },
-  {
-   "numero": "5",
-   "titre": "La vérité qui libère",
-   "references": [
-    "Jn 8:31-36",
-    "Ps 119:105",
-    "Ép 6:14, 17"
-   ],
-   "blocs": [
-    {
-     "sous_titre": "La promesse de Jésus"
-    },
-    {
-     "texte": "Jésus ne nous laisse pas seuls. Il dit : Si vous demeurez dans ma parole, vous êtes vraiment mes disciples ; vous connaîtrez la vérité, et la vérité vous affranchira (Jean 8:31-32). Regarde la chaîne : demeurer dans la Parole, être disciple, connaître la vérité, être libre. La liberté vient de la vérité, et la vérité vient de la Parole."
-    },
-    {
-     "texte": "Les gens lui répondent : Nous n'avons jamais été esclaves de personne (Jean 8:33). Ils se croyaient libres. Jésus leur dit : quiconque pratique le péché est esclave du péché (Jean 8:34). On peut se croire libre et être enchaîné. Le fumeur qui ne peut pas arrêter, la personne qui ne peut pas s'empêcher de mentir, le jeune qui n'arrive pas à quitter la pornographie : ils sont en réalité sous une chaîne. Jésus ajoute : Si le Fils vous affranchit, vous serez réellement libres (Jean 8:36)."
-    },
-    {
-     "sous_titre": "La Parole, notre lampe"
-    },
-    {
-     "texte": "Le psaume dit : Ta parole est une lampe à mes pieds, et une lumière sur mon sentier (Psaume 119:105). Imagine marcher la nuit dans un quartier sans électricité. Tu ne vois pas où tu poses le pied : il peut y avoir un trou, une pierre, un fil. Mais avec une lampe, tu vois le prochain pas, et tu évites les pièges. La Parole fait cela : elle éclaire les mensonges et les montre pour ce qu'ils sont."
-    },
-    {
-     "sous_titre": "La ceinture de la vérité et l'épée"
-    },
-    {
-     "texte": "Dans l'armure de Dieu, la première pièce est la ceinture de la vérité (Éphésiens 6:14). Dans le monde de Paul, la ceinture tenait le vêtement et préparait le soldat à l'action. Sans elle, il est gêné, il trébuche. Un chrétien qui ne connaît pas la vérité trébuche à chaque attaque. Et la dernière pièce est l'épée de l'Esprit, qui est la parole de Dieu (Éphésiens 6:17). L'épée sert à se défendre et à attaquer."
-    },
-    {
-     "sous_titre": "Jésus nous a montré comment faire"
-    },
-    {
-     "texte": "Quand le diable a tenté Jésus au désert, il a utilisé les mêmes ruses : douter de ce que Dieu a dit (« Si tu es Fils de Dieu… »), détourner la Parole, promettre un raccourci. Et trois fois Jésus a répondu : Il est écrit (Matthieu 4:4, 7, 10). Il n'a pas discuté. Il n'a pas inventé de belles réponses. Il a cité la Parole de Dieu. Le diable lui-même a cité la Bible (Matthieu 4:6) mais en la tordant, en omettant la moitié. Pour ne pas se faire piéger, il faut connaître toute la Parole."
-    },
-    {
-     "texte": "Retiens bien ceci : tu ne pourras pas répondre à un mensonge avec un verset que tu n'as jamais appris. Voilà pourquoi la lecture quotidienne et la mémorisation ne sont pas un luxe."
-    }
-   ]
-  },
-  {
-   "numero": "6",
-   "titre": "Comment détecter un mensonge : sept questions",
-   "references": [
-    "1 Th 5:21",
-    "Ac 17:11",
-    "Jc 1:5"
-   ],
-   "blocs": [
-    {
-     "texte": "Voici sept questions à te poser quand tu ressens de la peur, du découragement, de la tentation ou des doutes. Elles t'aident à examiner ce que tu crois."
-    },
-    {
-     "texte": "La première question : Qu'est-ce que je crois, en ce moment, qui produit ce sentiment ? Derrière chaque émotion forte, il y a une pensée. Écris-la."
-    },
-    {
-     "texte": "La deuxième : Demande-toi d'où vient cette pensée : de Dieu, du diable, de ma culture, de mes parents, de mon passé, ou de moi-même."
-    },
-    {
-     "texte": "La troisième : Que dit la Bible là-dessus ? Cherche un verset, un récit, une promesse."
-    },
-    {
-     "texte": "La quatrième : Est-ce qu'on me pousse à croire ou à faire quelque chose qui est contraire à la Bible ? Celui qui te presse, qui te fait peur, ou qui te dit « personne ne doit savoir » mérite d'être examiné."
-    },
-    {
-     "texte": "La cinquième : Est-ce que je doute de quelque chose que la Bible affirme, simplement parce que je ne le vois pas ?"
-    },
-    {
-     "texte": "La sixième : Qu'est-ce que Jésus ferait dans ma situation ?"
-    },
-    {
-     "texte": "La septième : Quelles seront les conséquences de cette croyance, dans un mois, dans dix ans ?"
-    },
-    {
-     "texte": "Paul dit : Examinez toutes choses ; retenez ce qui est bon (1 Thessaloniciens 5:21). Les chrétiens de Bérée sont loués parce qu'ils examinaient chaque jour les Écritures pour voir si ce qu'on leur disait était exact (Actes 17:11). Et si tu manques de sagesse, Dieu a promis de la donner : si quelqu'un d'entre vous manque de sagesse, qu'il la demande à Dieu, qui donne à tous simplement et sans reproche (Jacques 1:5)."
-    }
-   ]
-  },
-  {
-   "numero": "7",
-   "titre": "Le chemin pratique : sortir d'un mensonge en six étapes",
-   "references": [
-    "1 Jn 1:9",
-    "Rm 12:2",
-    "Ph 4:8"
-   ],
-   "blocs": [
-    {
-     "texte": "Maintenant, passons à la pratique. Beaucoup d'enseignements s'arrêtent à « il faut croire la vérité ». Mais comment faire concrètement ? Voici six étapes, qui ont aidé beaucoup de chrétiens."
-    },
-    {
-     "sous_titre": "Première étape : nommer le mensonge"
-    },
-    {
-     "texte": "Prends une feuille et écris : « Les mensonges que j'ai crus. » Écris ce que tu te dis quand tu échoues, quand tu as peur, quand tu es seul. « Je suis un raté. » « Personne ne m'aime. » « Je n'y arriverai jamais. » « Dieu en a assez de moi. » Il est impossible de combattre ce qu'on n'a pas nommé. Tu ne peux pas chasser un voleur que tu ne vois pas."
-    },
-    {
-     "sous_titre": "Deuxième étape : reconnaître d'où il vient"
-    },
-    {
-     "texte": "À côté de chaque mensonge, écris d'où il vient : mon père a dit cela, ma tante, mon ancienne église, une expérience d'échec, une moquerie à l'école. Reconnaître l'origine enlève une partie de son pouvoir : ce n'est pas la voix de Dieu, c'est la voix de quelqu'un qui s'est trompé."
-    },
-    {
-     "sous_titre": "Troisième étape : confesser et renoncer"
-    },
-    {
-     "texte": "Dans la prière, dis à Dieu : « Seigneur, j'ai cru ce mensonge. Je reconnais que ce n'est pas ce que tu dis. Je renonce à cette pensée. Pardonne-moi d'y avoir cru. » Si ce mensonge a conduit à des péchés, confesse-les. Jean écrit : Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et pour nous purifier de toute iniquité (1 Jean 1:9). La confession fait entrer la lumière."
-    },
-    {
-     "sous_titre": "Quatrième étape : remplacer par la vérité de Dieu"
-    },
-    {
-     "texte": "C'est l'étape la plus importante. Pour chaque mensonge, trouve un verset qui dit le contraire, et écris-le en face, avec « je ». Par exemple :"
-    },
-    {
-     "texte": "- Mensonge : « Je suis un raté. » Vérité : « Je suis une nouvelle créature en Christ » (2 Corinthiens 5:17). - Mensonge : « Je suis seul. » Vérité : « Je suis avec toi tous les jours » (Matthieu 28:20). - Mensonge : « Je ne changerai jamais. » Vérité : « Celui qui a commencé en vous cette bonne œuvre la rendra parfaite » (Philippiens 1:6). - Mensonge : « Dieu ne peut pas me pardonner. » Vérité : « Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner » (1 Jean 1:9). - Mensonge : « Je ne peux pas. » Vérité : « Je puis tout par celui qui me fortifie » (Philippiens 4:13)."
-    },
-    {
-     "texte": "Paul dit de ne pas nous conformer au siècle présent, mais d'être transformés par le renouvellement de l'intelligence (Romains 12:2). Le renouvellement se fait en remplaçant, jour après jour, une pensée fausse par une pensée vraie."
-    },
-    {
-     "sous_titre": "Cinquième étape : mémoriser et répéter"
-    },
-    {
-     "texte": "Choisis un verset pour chaque mensonge. Écris-le sur un petit papier, ou dans ton téléphone. Lis-le le matin, avant de dormir, et à chaque fois que la pensée revient. Dis-le à voix haute. Quand le mensonge revient, ne discute pas : réponds comme Jésus : « Il est écrit… ». Philippiens 4:8 dit de penser à tout ce qui est vrai, honorable, juste, pur, aimable. Les pensées sont comme les mauvaises herbes : si tu ne plantes pas de bonnes plantes, les mauvaises reviennent."
-    },
-    {
-     "sous_titre": "Sixième étape : ne pas rester seul"
-    },
-    {
-     "texte": "Parle à une personne de confiance : ton accompagnateur, un frère mûr, ta femme ou ton mari, ton pasteur. Le diable travaille dans le secret. Dire le mensonge à voix haute devant quelqu'un lui enlève sa force. Et prie avec cette personne. Jacques dit : Confessez donc vos péchés les uns aux autres, et priez les uns pour les autres, afin que vous soyez guéris (Jacques 5:16)."
-    },
-    {
-     "sous_titre": "Quand le mensonge revient"
-    },
-    {
-     "texte": "Il reviendra. Ne te décourage pas. Un mensonge cru pendant vingt ans ne disparaît pas en un jour. Chaque fois qu'il revient, tu recommences : tu nommes, tu renonces, tu cites la vérité. Avec le temps, la vérité prend la place, et le mensonge perd de sa voix. Pendant un mois, relis tous les jours ta liste. Ne l'abandonne pas à la première défaite."
-    }
-   ]
-  },
-  {
-   "numero": "8",
-   "titre": "Ce que nous retenons, et vérifions nos objectifs",
-   "references": [],
-   "blocs": [
-    {
-     "sous_titre": "Résumons"
-    },
-    {
-     "texte": "Beaucoup de chrétiens vivent dans la défaite à cause de mensonges qu'ils croient. Au jardin d'Éden, le serpent a trompé Ève en trois mouvements : mettre en doute la parole de Dieu, nier les conséquences, donner un faux motif. Il a promis le meilleur et il a payé avec le pire. Jésus dit que le diable est menteur et père du mensonge. Aujourd'hui, les mensonges entrent par la culture, par nos blessures, par nos désirs, par de faux enseignements. La vérité de la Parole nous libère. Et nous avons un chemin pratique : nommer, reconnaître l'origine, confesser et renoncer, remplacer par un verset, mémoriser, ne pas rester seul."
-    },
-    {
-     "sous_titre": "Les objectifs sont-ils atteints ?"
-    },
-    {
-     "texte": "Nous avions quatre objectifs. Le premier : comprendre d'où viennent les mensonges. Nous l'avons vu avec Genèse 3 et Jean 8:44. Le deuxième : reconnaître comment le serpent trompe, en trois mouvements : le doute, la négation des conséquences, le faux motif. Le troisième : savoir comment un mensonge entre aujourd'hui : par la culture, les blessures, les désirs et les faux enseignements. Le quatrième : repartir avec un chemin pratique. C'est la section 7, avec six étapes. Si tu as suivi, tu peux dès aujourd'hui prendre une feuille et faire la première étape."
-    },
-    {
-     "sous_titre": "Une prière pour terminer"
-    },
-    {
-     "texte": "Seigneur, merci de nous avoir donné ta Parole. Merci que ta vérité nous rende libres. Aujourd'hui, nous reconnaissons que nous avons cru des mensonges. Nous te demandons de nous les montrer. Donne-nous le courage de les nommer et de les renier. Remplis nos pensées de ta vérité. Aide-nous à ne pas rester seuls et à persévérer. Au nom de Jésus, amen."
-    }
-   ]
-  }
- ],
- "sujets": [
-  {
-   "titre": "Pour que Dieu nous montre nos mensonges",
-   "texte": "Prions afin que le Saint-Esprit nous montre les mensonges que nous avons crus et nous donne le courage de les renier (Jean 16:13)."
-  },
-  {
-   "titre": "Pour une pensée renouvelée",
-   "texte": "Prions afin que nos pensées soient transformées par la Parole de Dieu, chaque jour (Romains 12:2)."
-  },
-  {
-   "titre": "Pour ceux qui sont enchaînés",
-   "texte": "Prions pour ceux qui sont prisonniers de mensonges et de péchés, afin qu'ils connaissent la vérité qui affranchit (Jean 8:32)."
-  }
- ],
- "questions": [
-  {
-   "question": "Qui est « le père du mensonge », selon Jésus ?",
-   "choix": [
-    "Adam",
-    "Le diable",
-    "Les faux prophètes"
-   ],
-   "reponse": 1,
-   "explication": "Jean 8:44.",
-   "section": "3"
-  },
-  {
-   "question": "Quels sont les trois mouvements du serpent en Genèse 3 ?",
-   "choix": [
-    "Menacer, frapper, fuir",
-    "Mettre en doute la parole de Dieu, nier les conséquences, donner un faux motif",
-    "Prier, jeûner, veiller"
-   ],
-   "reponse": 1,
-   "explication": "Genèse 3:1-5.",
-   "section": "2"
-  },
-  {
-   "question": "Que fait Adam quand Dieu lui demande ce qu'il a fait ?",
-   "choix": [
-    "Il demande pardon",
-    "Il accuse sa femme et Dieu",
-    "Il se tait"
-   ],
-   "reponse": 1,
-   "explication": "Genèse 3:12.",
-   "section": "2"
-  },
-  {
-   "question": "Comment Jésus a-t-il répondu à chaque tentation du diable au désert ?",
-   "choix": [
-    "Par un miracle",
-    "En disant « Il est écrit » et en citant la Parole",
-    "En ne répondant pas"
-   ],
-   "reponse": 1,
-   "explication": "Matthieu 4:4, 7, 10.",
-   "section": "5"
-  },
-  {
-   "question": "Quelle est la première pièce de l'armure de Dieu ?",
-   "choix": [
-    "Le casque",
-    "L'épée",
-    "La ceinture de la vérité"
-   ],
-   "reponse": 2,
-   "explication": "Éphésiens 6:14.",
-   "section": "5"
-  },
-  {
-   "question": "Quelle est l'étape la plus importante pour sortir d'un mensonge ?",
-   "choix": [
-    "Attendre que ça passe",
-    "Le remplacer par une vérité de la Parole, avec un verset mémorisé",
-    "L'ignorer"
-   ],
-   "reponse": 1,
-   "explication": "Romains 12:2.",
-   "section": "7"
-  },
-  {
-   "question": "Si un mensonge revient après quelque temps, que faut-il faire ?",
-   "choix": [
-    "Penser que tout est perdu",
-    "Recommencer : nommer, renoncer, citer la vérité",
-    "Changer d'église"
-   ],
-   "reponse": 1,
-   "explication": "Un mensonge cru pendant des années ne disparaît pas en un jour.",
-   "section": "7"
-  }
- ],
- "devoir": [
-  "Prends une feuille et fais les étapes 1 à 4 : écris trois mensonges que tu as crus, d'où ils viennent, et un verset pour chacun.",
-  "Lis Genèse 3 et Jean 8:31-47 lentement. Note ce que tu remarques.",
-  "Apprends par cœur un verset de remplacement et dis-le à voix haute chaque matin cette semaine."
- ],
- "prieres_liees": [],
- "source": "Thème et plan inspirés de « La Nouvelle Vie en Christ », volume 4 (Mark Robinson, Camino Global), manuel gratuit. Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
- "date_ajout": "2026-11-24",
- "relu": false
+  ],
+  "devoir": [
+    "Prends une feuille et fais les étapes 1 à 4 : écris trois mensonges que tu as crus, d'où ils viennent, et un verset pour chacun.",
+    "Lis Genèse 3 et Jean 8:31-47 lentement. Note ce que tu remarques.",
+    "Apprends par cœur un verset de remplacement et dis-le à voix haute chaque matin cette semaine."
+  ],
+  "prieres_liees": [],
+  "source": "Thème et plan inspirés de « La Nouvelle Vie en Christ », volume 4 (Mark Robinson, Camino Global), manuel gratuit. Enseignement rédigé pour Yeshaya, à relire par un pasteur.",
+  "date_ajout": "2026-11-24",
+  "relu": false
 }

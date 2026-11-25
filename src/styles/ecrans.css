@@ -1092,5 +1092,51 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .tuile-accueil b { font-family: var(--police-titre); font-size: 1rem; line-height: 1.2; }
 .tuile-accueil > span { font-size: .78rem; color: var(--texte-doux); line-height: 1.3; }
 .tuile-accueil:active { filter: brightness(.94); }
-.ligne__photo { width: 52px; height: 52px; flex: none; border-radius: 14px; object-fit: cover; }
+.ligne__photo { flex: none; object-fit: cover; }
 :root[data-taille='tres-grand'] .tuiles-accueil { grid-template-columns: 1fr; }
+
+/* ===== Bannières photo des rubriques ===== */
+.banniere { position: relative; margin: 10px 0 14px; border-radius: 20px; overflow: hidden; aspect-ratio: 2 / 1; box-shadow: var(--ombre); background: var(--bleu-nuit); }
+.banniere img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.banniere::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(10,22,52,.88) 0%, rgba(10,22,52,.55) 38%, rgba(10,22,52,0) 68%); }
+.banniere__texte { position: absolute; z-index: 1; left: 16px; right: 16px; bottom: 14px; color: #fff; }
+.banniere__texte h2 { font-family: var(--police-serif); font-weight: 700; font-size: 1.6rem; line-height: 1.15; color: #fff; text-shadow: 0 2px 8px rgba(0,0,0,.4); }
+.banniere__texte p { margin-top: 4px; font-size: .86rem; line-height: 1.35; color: #f3e3b6; text-shadow: 0 1px 6px rgba(0,0,0,.5); }
+
+.accueil__hero { height: 230px; }
+.accueil__hero img { object-position: center 30%; }
+.accueil__hero::after { background: linear-gradient(180deg, rgba(10,22,52,.5), transparent 35%, rgba(10,22,52,.2) 70%, var(--fond)); }
+.accueil__salut { position: absolute; z-index: 1; left: 18px; right: 18px; top: 34px; color: #fff; }
+.accueil__salut h2 { font-family: var(--police-serif); font-style: italic; font-weight: 700; font-size: 1.85rem; line-height: 1.15; color: #fff; text-shadow: 0 2px 10px rgba(0,0,0,.55); }
+.accueil__salut p { margin-top: 4px; font-size: .9rem; color: #fff; text-shadow: 0 1px 8px rgba(0,0,0,.7); max-width: 80%; }
+
+/* ===== Cartes de liste « vedette » : grande image, titre en serif, flèche dorée ===== */
+.theme, .enseignement, .carte.ligne:has(.ligne__photo) { padding: 10px 12px 10px 10px; gap: 12px; }
+.theme img { width: 92px; height: 92px; border-radius: 16px; }
+.enseignement > a:first-child img { width: 86px; height: 86px; border-radius: 16px; }
+.ligne__photo { width: 88px; height: 88px; border-radius: 16px; }
+.theme .ligne__titre, .enseignement .ligne__titre, .carte.ligne:has(.ligne__photo) .ligne__titre { font-family: var(--police-serif); font-weight: 700; font-size: 1.04rem; line-height: 1.25; }
+.theme > svg:last-child, .carte.ligne:has(.ligne__photo) > svg:last-child, .carte.ligne:has(.ligne__photo) > .ligne__fin {
+  flex: none; width: 32px; height: 32px; padding: 6px; border-radius: 50%; color: var(--bleu-nuit); background: linear-gradient(145deg, #e3b94c, #c79a2c); }
+.ligne__desc, .theme .ligne__desc { font-size: .86rem; line-height: 1.4; }
+:root[data-theme='sombre'] .ligne__desc { color: #b9c2d4; }
+
+.felicitation { display: grid; gap: 6px; padding: 14px; margin-bottom: 10px; border-radius: 16px; background: linear-gradient(145deg, #FFF3D1, #F7E2A5); border: 1.5px solid var(--or); color: #3a2e0d; }
+.felicitation b { font-family: var(--police-serif); font-size: 1.15rem; }
+:root[data-theme='sombre'] .felicitation { background: #3A3020; color: #f3e3b6; }
+
+/* ===== Suivi de lecture d'un enseignement ===== */
+.suivi-lecture { position: sticky; top: var(--haut-entete, 108px); z-index: 6; display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap;
+  margin: 0 -12px; padding: 7px 12px 9px; background: var(--bleu-nuit); color: #f3e3b6; font-family: var(--police-titre); font-size: .78rem; font-weight: 500; box-shadow: 0 3px 10px rgba(0,0,0,.2); }
+.suivi-lecture__barre { flex-basis: 100%; height: 4px; border-radius: 4px; background: rgba(255,255,255,.18); overflow: hidden; }
+.suivi-lecture__barre i { display: block; height: 100%; background: var(--or); border-radius: 4px; }
+.reprise-lecture { width: 100%; text-align: left; margin-top: 12px; border: 2px solid var(--or); display: flex; align-items: center; gap: 12px; padding: 12px; }
+
+/* ===== Les plus lus : défilement horizontal de grandes vignettes ===== */
+.plus-lus { display: flex; gap: 10px; overflow-x: auto; margin: 0 -12px; padding: 2px 12px 8px; scroll-snap-type: x mandatory; scrollbar-width: none; }
+.plus-lus::-webkit-scrollbar { display: none; }
+.plus-lu { flex: 0 0 150px; scroll-snap-align: start; display: grid; gap: 4px; align-content: start; color: var(--titre); }
+.plus-lu img { width: 150px; height: 110px; object-fit: cover; border-radius: 16px; box-shadow: var(--ombre); }
+.plus-lu b { font-family: var(--police-serif); font-size: .92rem; line-height: 1.25; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.plus-lu span { font-size: .76rem; color: var(--texte-doux); }
+.enseignement-ecrit .veille__theme { font-family: var(--police-texte); font-size: .98rem; font-weight: 400; color: var(--texte); text-align: left; line-height: 1.5; margin: 12px 4px 8px; }

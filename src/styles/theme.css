@@ -36,6 +36,7 @@
   --echelle: 1;                     /* taille du texte (Paramètres) */
 
   --police-titre: 'Poppins', system-ui, sans-serif;
+  --police-serif: 'Playfair Display', Georgia, serif;
   --police-texte: 'Roboto', system-ui, sans-serif;
   color-scheme: light;
 }

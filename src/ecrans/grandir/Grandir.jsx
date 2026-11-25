@@ -1,4 +1,5 @@
 import { useState } from 'preact/hooks';
+import { Banniere } from '../../composants/Banniere.jsx';
 import { Icone } from '../../composants/Icone.jsx';
 import { BoutonLecture, BoutonTelecharger } from '../../composants/Audio.jsx';
 import { ENSEIGNEMENTS, AUDIOS, JOURS_PARCOURS, NIVEAUX } from '../../donnees/contenu.js';
@@ -113,10 +114,7 @@ export function Enseignements() {
   const groupes = [...new Set(ENSEIGNEMENTS.map((e) => e[cle] || 'Autres'))];
   return (
     <div class="page">
-      <div class="bandeau-titre">
-        <img src="/assets/photos/grandir-pasteur-enseigne.webp" alt="" />
-        <div><h2>Les enseignements</h2><p>Rangés par niveaux, du nouveau converti au chrétien mûr.</p></div>
-      </div>
+      <Banniere image="/assets/photos/grandir-pasteur-enseigne.webp" titre="Les enseignements" sous="Rangés par niveaux, du nouveau converti au chrétien mûr." bas="20%" />
 
       <form class="barre-recherche" style="margin-top:12px" onSubmit={(e) => e.preventDefault()} role="search">
         <Icone nom="recherche" taille={18} />
@@ -186,6 +184,9 @@ export function Enseignements() {
   );
 }
 
+// Les sujets que les lecteurs ouvrent le plus (d'après les statistiques anonymes de l'espace administrateur).
+const PLUS_LUS = ['enseignement-origine-islam', 'affermissement-1-le-salut', 'enseignement-religieux-ou-chretien', 'enseignement-chretien-et-copinage'];
+
 const ouvrirNiveau = (n) => { try { localStorage.setItem('yeshaya:niveau-grandir', n); } catch {} aller('grandir/enseignements'); };
 
 // Écran 6 : Grandir, une porte d'entrée claire. Chaque rubrique a sa propre page : on ne se perd plus.
@@ -194,10 +195,7 @@ export function Grandir() {
   const reprise = dernier && !lus.includes(dernier) ? ENSEIGNEMENTS.find((e) => e.id === dernier) : null;
   return (
     <div class="page">
-      <div class="bandeau-titre">
-        <img src="/assets/photos/grandir-etude-bureau.webp" alt="" />
-        <div><h2>Grandir dans la foi</h2><p>Choisis ce dont tu as besoin aujourd'hui.</p></div>
-      </div>
+      <Banniere image="/assets/photos/banniere-grandir.webp" titre="Grandir dans la foi" sous="Choisis ce dont tu as besoin aujourd'hui." />
 
       {reprise && (
         <a class="carte ligne carte-parcours" href={'#/grandir/enseignement/' + reprise.id} style="margin-top:12px">
@@ -215,6 +213,13 @@ export function Grandir() {
         <button class="par-ou__choix" onClick={() => ouvrirNiveau('fondations')}><b>Je suis chrétien depuis peu</b><span>Les Fondations : salut, affermissement, Bible</span><Icone nom="chevron" taille={18} /></button>
         <button class="par-ou__choix" onClick={() => ouvrirNiveau('maturite-1')}><b>Je veux aller plus loin</b><span>Maturité 1 à 5 : prière, caractère, sainteté, l'islam…</span><Icone nom="chevron" taille={18} /></button>
       </section>
+
+      <h2 class="titre-section">Les plus lus en ce moment</h2>
+      <div class="plus-lus">
+        {PLUS_LUS.map((id) => ENSEIGNEMENTS.find((e) => e.id === id)).filter(Boolean).map((e) => (
+          <a class="plus-lu" href={'#/grandir/enseignement/' + e.id}><img src={e.image} alt="" loading="lazy" /><b>{e.titre}</b><span>{e.lecture_minutes} min</span></a>
+        ))}
+      </div>
 
       <h2 class="titre-section">1 · Bien commencer</h2>
       <CarteParcours id="decouvrir-jesus" p={p} />

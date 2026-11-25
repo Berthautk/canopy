@@ -1,4 +1,5 @@
 import { useState } from 'preact/hooks';
+import { Banniere } from '../../composants/Banniere.jsx';
 import { Icone } from '../../composants/Icone.jsx';
 import { CarteVerset } from '../../composants/Verset.jsx';
 import { EVANGELISATION, DIALOGUES, OUTILS, APPROCHES, CONVERSATIONS } from '../../donnees/contenu.js';
@@ -22,11 +23,20 @@ export function Evangeliser() {
   const s = SECTIONS.find((x) => x[0] === vue);
   return (
     <div class="page">
-      <div class="bandeau-titre">
-        <img src="/assets/photos/partager-temoignage-arbre.webp" alt="" />
-        <div><h2>Partager l'espérance</h2><p>Évangéliser, c'est aimer et partager la bonne nouvelle autour de soi.</p></div>
-      </div>
-      <nav class="grille-evang" aria-label="Rubriques">
+      <Banniere image="/assets/photos/banniere-evangeliser.webp" titre="Partager l'espérance" sous="Évangéliser, c'est aimer et partager la bonne nouvelle autour de soi." />
+      <h2 class="titre-section" style="margin-top:4px">Commence ici</h2>
+      <a class="carte theme" href="#/evangeliser/outil/outil-coeur-de-l-homme">
+        <img src={OUTILS.find((o) => o.id === 'outil-coeur-de-l-homme')?.image || '/assets/photos/partager-conversation-boutique.webp'} alt="" loading="lazy" />
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Présenter l'Évangile : « Le cœur de l'homme »</span>
+          <span class="ligne__desc">8 images, une à la fois. L'outil le plus utilisé.</span></span><Icone nom="chevron" taille={20} />
+      </a>
+      <a class="carte theme" href="#/evangeliser" onClick={(e) => { e.preventDefault(); setVue('approches'); document.getElementById('liste-evang')?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }} style="margin-top:8px">
+        <img src="/assets/photos/partager-temoignage-arbre.webp" alt="" loading="lazy" />
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Parler à quelqu'un selon sa religion</span>
+          <span class="ligne__desc">Musulman, athée, religieux, traditionnel, bouddhiste.</span></span><Icone nom="chevron" taille={20} />
+      </a>
+      <h2 class="titre-section">Toutes les rubriques</h2>
+      <nav class="grille-evang" aria-label="Rubriques" id="liste-evang">
         {SECTIONS.map(([id, libelle, icone]) => (
           <button class="carte tuile-evang" aria-pressed={vue === id} onClick={() => setVue(id)}><Icone nom={icone} taille={26} /><span>{libelle}</span></button>
         ))}

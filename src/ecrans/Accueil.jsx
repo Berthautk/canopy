@@ -8,6 +8,7 @@ import { orizon, jourCourant } from '../donnees/orizon.js';
 import { parcours } from '../donnees/priere.js';
 import { lectures } from '../donnees/lectures.js';
 import { plan } from '../bible/plans.js';
+import { profil } from '../donnees/profil.js';
 import { derniereEcoute, jouer, formatTemps, lecteur } from '../audio/lecteur.js';
 import { useSignal } from '../outils/signal.js';
 import { ecrireReference } from '../bible/references.js';
@@ -56,8 +57,14 @@ function ProchaineEtape({ reprendre }) {
   return v ? carte('#/priere/veille/' + v.id.replace('veille-', ''), v.image, 'Ta prochaine étape · ' + v.heures, v.titre, v.theme) : null;
 }
 
+const salutation = (prenom) => {
+  const h = new Date().getHours(), mot = h < 12 ? 'Bonjour' : h < 18 ? 'Bon après-midi' : 'Bonsoir';
+  return prenom ? `${mot}, ${prenom} !` : `${mot} !`;
+};
+
 // Écran 2 : accueil.
 export function Accueil() {
+  const prenom = useSignal(profil).prenom;
   const etat = usePassage(versetDuJour());
   const derniere = useSignal(derniereEcoute);
   const enCours = useSignal(lecteur).piste;
@@ -65,7 +72,8 @@ export function Accueil() {
   return (
     <div class="accueil">
       <div class="accueil__hero">
-        <img src="/assets/vie-chretienne/homme-louange-soleil.webp" alt="" />
+        <img src="/assets/photos/banniere-accueil.webp" alt="" />
+        <div class="accueil__salut"><h2>{salutation(prenom)}</h2><p>Que la paix de Dieu soit avec toi aujourd'hui.</p></div>
       </div>
 
       <div class="page">

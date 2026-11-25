@@ -193,7 +193,11 @@ function Etape({ cfg, id, n, faits, decision }) {
       <section class="carte bloc suite-ens">
         {fait ? <p class="hors-ligne-ok" style="justify-content:center;margin:0 0 10px"><Icone nom="verifie" taille={18} /> {cfg.unite === 'Leçon' ? 'Leçon terminée' : 'Jour terminé'}</p>
           : <button class="bouton bouton--or" style="width:100%;margin-bottom:8px" onClick={terminer}><Icone nom="verifie" taille={18} /> J'ai terminé {cfg.unite === 'Leçon' ? 'cette leçon' : 'ce jour'}</button>}
-        {suivante && <button class={'bouton ' + (fait ? 'bouton--or' : 'bouton--contour')} style="width:100%" onClick={() => { if (!fait) terminer(); aller(`grandir/${id}/${n + 1}`); }}>{cfg.unite} suivant{cfg.unite === 'Leçon' ? 'e' : ''} : {suivante.titre} <Icone nom="chevron" taille={18} /></button>}
+        {suivante && (fait
+          ? <div class="felicitation"><b>Bravo, tu avances !</b><span>{cfg.unite === 'Leçon' ? 'Prochaine leçon' : 'Prochain jour'} : {suivante.titre}</span>
+              <button class="bouton bouton--or" style="width:100%" onClick={() => aller(`grandir/${id}/${n + 1}`)}>Continuer : {cfg.unite.toLowerCase()} {n + 1} <Icone nom="chevron" taille={18} /></button></div>
+          : <button class="bouton bouton--contour" style="width:100%" onClick={() => { terminer(); aller(`grandir/${id}/${n + 1}`); }}>{cfg.unite} suivant{cfg.unite === 'Leçon' ? 'e' : ''} : {suivante.titre} <Icone nom="chevron" taille={18} /></button>)}
+        {fait && suivante && <RappelParcours id={id} />}
         {!suivante && cfg.suite && fait && <a class="bouton bouton--or" style="width:100%" href={'#/' + cfg.suite.lien}>{cfg.suite.texte}</a>}
         <button class="lien" style="margin-top:10px" onClick={() => retourVers('grandir/' + id)}>Revenir à la liste des {cfg.unite === 'Leçon' ? 'leçons' : 'jours'}</button>
       </section>

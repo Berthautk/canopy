@@ -10,7 +10,8 @@ import { chargerEnseignement } from '../../donnees/contenu.js';
 import { partager } from '../../outils/partage.js';
 import { SujetsACocher, blocsSujets } from '../priere/Veille.jsx';
 import { compter } from '../../donnees/mesure.js';
-import { marquerOuvert, marquerLu } from '../../donnees/lectures.js';
+import { marquerOuvert, marquerLu, retenirPartie, lectures } from '../../donnees/lectures.js';
+import { useSignal } from '../../outils/signal.js';
 import { PRIERES, COMBAT, VEILLES, ENSEIGNEMENTS, NIVEAUX } from '../../donnees/contenu.js';
 
 // Série (niveau + groupe) qui contient cet enseignement, et l'enseignement suivant dans cette série.
@@ -42,6 +43,53 @@ function plan(e) {
   return { blocs, pos };
 }
 
+
+// Barre collante : « Partie 3 sur 8 · environ 18 min restantes », et mémoire de la dernière partie atteinte.
+function SuiviLecture({ id, total, minutes }) {
+  const [etat, setEtat] = useState({ partie: 0, ratio: 0 });
+  useEffect(() => {
+    let attente = false;
+    const f = () => {
+      if (attente) return; attente = true;
+      requestAnimationFrame(() => {
+        attente = false;
+        const d = document.documentElement, ratio = Math.min(1, d.scrollTop / Math.max(1, d.scrollHeight - innerHeight));
+        let partie = 0;
+        document.querySelectorAll('.enseignement-ecrit .section-ens').forEach((el, i) => { if (el.getBoundingClientRect().top < innerHeight * 0.4) partie = i + 1; });
+        setEtat((p) => (p.partie === partie && Math.abs(p.ratio - ratio) < 0.004 ? p : { partie, ratio }));
+        if (partie > 1) retenirPartie(id, partie);
+      });
+    };
+    addEventListener('scroll', f, { passive: true });
+    return () => removeEventListener('scroll', f);
+  }, [id]);
+  if (!etat.partie) return null;
+  const reste = Math.max(1, Math.round(minutes * (1 - etat.ratio)));
+  return (
+    <div class="suivi-lecture" aria-label="Avancement de la lecture">
+      <span>Partie {etat.partie} sur {total}</span><span>{etat.ratio > 0.97 ? 'Presque fini' : `environ ${reste} min restantes`}</span>
+      <span class="suivi-lecture__barre"><i style={{ width: etat.ratio * 100 + '%' }} /></span>
+    </div>
+  );
+}
+
+// « Tu étais à la partie 5 » : reprendre là où l'on s'était arrêté.
+function RepriseLecture({ id, total }) {
+  const l = useSignal(lectures), n = l.parties?.[id] || 0;
+  if (n < 2 || n > total || l.lus.includes(id)) return null;
+  const aller = () => {
+    const el = document.getElementById('point-' + n); if (!el) return;
+    const haut = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--haut-entete')) || 110;
+    scrollTo({ top: el.getBoundingClientRect().top + scrollY - haut - 56, behavior: 'smooth' });
+  };
+  return (
+    <button class="carte ligne reprise-lecture" onClick={aller}>
+      <span class="ligne__icone"><Icone nom="lecture" /></span>
+      <span class="ligne__corps"><span class="ligne__titre" style="display:block">Reprendre à la partie {n} sur {total}</span><span class="ligne__desc">Tu t'étais arrêté là. Un toucher et tu y es.</span></span>
+    </button>
+  );
+}
+
 // Enseignement écrit : objectifs, introduction, sections ; versets lus dans la Bible ; écoute à voix haute.
 export function EnseignementEcrit({ id, ecouter }) {
   const [etat, setEtat] = useState({ chargement: true });
@@ -69,12 +117,14 @@ export function EnseignementEcrit({ id, ecouter }) {
   if (ecouter && !lance.current) { lance.current = true; setTimeout(() => lireAVoixHaute(id, blocs), 300); }
   return (
     <div class="page enseignement-ecrit">
+      <SuiviLecture id={e.id} total={e.sections.length} minutes={e.lecture_minutes || 20} />
       <div class="theme-hero"><img src={e.image} alt="" />
         <div class="theme-hero__texte"><span class="pastille pastille--or">{e.theme} · {e.lecture_minutes} min de lecture</span><h2>{e.titre}</h2></div></div>
       <p class="veille__theme" {...va(pos.titre)}>{e.resume}</p>
       {e.auteur && e.auteur !== 'Yeshaya' && <p class="auteur-ens">{e.auteur}{e.autorisation === 'oui' && <span class="ecouter__autorisation"><Icone nom="verifie" taille={14} /> Utilisé avec autorisation</span>}
         {e.autorisation === 'domaine_public' && <span class="ligne__desc">Domaine public · traduit de l'anglais</span>}</p>}
       <BarreEcoute id={id} blocs={blocs} titre="Écouter l'enseignement" />
+      <RepriseLecture id={e.id} total={e.sections.length} />
       <LienVideo url={e.video} duree={e.video_duree} auteur={e.auteur} />
       {e.verset_de_base && <div {...va(pos.base)}><CarteVerset reference={e.verset_de_base} /></div>}
       {e.objectifs?.length > 0 && (

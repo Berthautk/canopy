@@ -1,4 +1,5 @@
 import { useState } from 'preact/hooks';
+import { Banniere } from '../../composants/Banniere.jsx';
 import { Icone } from '../../composants/Icone.jsx';
 import { positionLecture } from '../../donnees/annotations.js';
 import { PAR_CODE } from '../../bible/references.js';
@@ -21,13 +22,7 @@ export function BibleAccueil() {
 
   return (
     <div class="page bible-accueil">
-      <div class="bandeau-titre">
-        <img src="/assets/photos/bible-vieil-homme.webp" alt="" />
-        <div>
-          <h2>La Bible</h2>
-          <p>Louis Segond 1910</p>
-        </div>
-      </div>
+      <Banniere image="/assets/photos/banniere-bible.webp" titre="La Bible" sous="Louis Segond 1910 · à lire et à écouter, même sans internet" />
 
       <form class="barre-recherche" onSubmit={chercher} role="search">
         <Icone nom="recherche" taille={20} />
