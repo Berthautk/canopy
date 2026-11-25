@@ -176,10 +176,10 @@ export function Lecture({ code, c, vise, ecouter, depuisPlan }) {
       <article class="page lecture__texte" lang="fr">
         {depuisPlan && iEtape >= 0 && <div class="plan-bandeau"><Icone nom="calendrier" taille={16} /> Plan de lecture · jour {bilanPlan(pl).jour} · lecture {iEtape + 1} sur {etapes.length}{etapes[iEtape].theme ? ' · ' + etapes[iEtape].theme : ''}</div>}
         {chap && <BarreEcoute id={`bible-${code}-${c}`} titre={'Écouter ' + ecrireReference({ code, c })} blocs={blocsLecture} />}
-        {chap && <div class="lecture__options">
+        {chap && <details class="lecture__options-det"><summary class="lien">Options d'écoute : chapitres enchaînés, en boucle</summary><div class="lecture__options">
           <button class={'puce' + (rg.enchainerBible !== false ? ' puce--active' : '')} aria-pressed={rg.enchainerBible !== false} onClick={() => modifierReglages({ enchainerBible: rg.enchainerBible === false })}>⏭ Enchaîner les chapitres : {rg.enchainerBible !== false ? 'oui' : 'non'}</button>
           <button class={'puce' + (rg.boucleBible ? ' puce--active' : '')} aria-pressed={!!rg.boucleBible} onClick={() => modifierReglages({ boucleBible: !rg.boucleBible })}>🔁 En boucle : {rg.boucleBible ? 'oui' : 'non'}</button>
-        </div>}
+        </div></details>}
         <h2 class="lecture__titre">{ecrireReference({ code, c })}</h2>
         {erreur && <p class="verset__erreur">{erreur}</p>}
         {!chap && !erreur && <p class="verset__attente">Chargement…</p>}

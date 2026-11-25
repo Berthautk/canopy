@@ -1140,3 +1140,8 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .plus-lu b { font-family: var(--police-serif); font-size: .92rem; line-height: 1.25; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .plus-lu span { font-size: .76rem; color: var(--texte-doux); }
 .enseignement-ecrit .veille__theme { font-family: var(--police-texte); font-size: .98rem; font-weight: 400; color: var(--texte); text-align: left; line-height: 1.5; margin: 12px 4px 8px; }
+
+.champ-heure { display: inline-flex; align-items: center; gap: 6px; }
+.champ-heure .champ { width: auto; min-width: 64px; }
+.lecture__options-det { margin: 8px 4px; }
+.lecture__options-det summary { cursor: pointer; font-size: .88rem; }

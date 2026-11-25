@@ -1,4 +1,5 @@
 import { Icone } from '../../composants/Icone.jsx';
+import { ChampHeure } from '../../composants/ChampHeure.jsx';
 import { CarteVerset } from '../../composants/Verset.jsx';
 import { TexteRefs } from '../../composants/TexteRefs.jsx';
 import { BoutonLecture } from '../../composants/Audio.jsx';
@@ -35,7 +36,7 @@ export function RappelParcours({ id }) {
       <p class="ligne__desc">Beaucoup commencent, peu continuent. Un petit rappel chaque jour t'aide à avancer jusqu'au bout.</p>
       <div class="rappel-parcours__ligne">
         <label class="etiquette-champ" for={'h-' + id} style="margin:0">À</label>
-        <input id={'h-' + id} class="champ" type="time" value={heure} onInput={(e) => setHeure(e.currentTarget.value || '19:00')} style="max-width:120px" />
+        <ChampHeure id={'h-' + id} valeur={heure} surChangement={setHeure} />
         <button class="bouton bouton--or" onClick={activer}>Me rappeler chaque jour</button>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import { useState } from 'preact/hooks';
+import { ChampHeure } from '../composants/ChampHeure.jsx';
 import { Icone } from '../composants/Icone.jsx';
 import { useSignal } from '../outils/signal.js';
 import { notifier } from '../composants/Notification.jsx';
@@ -69,7 +70,7 @@ function Questionnaire({ existant }) {
         {e.choixJours && <div class="puces">{JOURS.map(([j, l]) => <button aria-pressed={v.jours.includes(j)} onClick={() => maj({ jours: v.jours.includes(j) ? v.jours.filter((x) => x !== j) : [...v.jours, j] })}>{l}</button>)}</div>}
         <p class="etiquette-champ">Moment</p>
         {e.heureLibre
-          ? <input class="champ" type="time" value={v.heure} onInput={(ev) => maj({ heure: ev.currentTarget.value })} />
+          ? <ChampHeure valeur={v.heure} surChangement={(x) => maj({ heure: x })} />
           : <div class="puces">{MOMENTS.map(([h, l]) => <button aria-pressed={v.heure === h} onClick={() => maj({ heure: h })}>{l}</button>)}</div>}
         <p class="etiquette-champ">Durée</p>
         <div class="puces">{(e.activite === 'communion' ? [[60, '1 h'], [90, '1 h 30'], [120, '2 h'], [180, '3 h']] : DUREES).map(([m, l]) => <button aria-pressed={v.minutes === m} onClick={() => maj({ minutes: m })}>{l}</button>)}</div>
@@ -209,7 +210,7 @@ export function Rappels() {
           <p class="etiquette-champ">Activité</p>
           <div class="puces">{Object.entries(ACTIVITES).map(([k, a]) => <button aria-pressed={edition.activite === k} onClick={() => maj({ activite: k })}>{a.nom}</button>)}</div>
           <label class="etiquette-champ" for="rp-heure">Heure</label>
-          <input id="rp-heure" class="champ" type="time" value={edition.heure} onInput={(e) => maj({ heure: e.currentTarget.value })} />
+          <ChampHeure id="rp-heure" valeur={edition.heure} surChangement={(x) => maj({ heure: x })} />
           <p class="etiquette-champ">Jours</p>
           <div class="puces">
             {JOURS.map(([j, l]) => <button aria-pressed={edition.jours.includes(j)} onClick={() => maj({ jours: edition.jours.includes(j) ? edition.jours.filter((x) => x !== j) : [...edition.jours, j] })}>{l}</button>)}
