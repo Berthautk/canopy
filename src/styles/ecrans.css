@@ -1173,3 +1173,6 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .stat-perso__pc { font-size: .72rem; color: var(--texte-doux); }
 :root[data-theme='sombre'] .stat-perso { background: #1B2435; border-color: #2C3A52; }
 :root[data-taille='tres-grand'] .stats-perso { grid-template-columns: 1fr; }
+.acc-partage { border-left: 5px solid var(--or); }
+.acc-encadre--bilan .acc-section { border: 1px solid var(--bord); border-radius: 12px; padding: 8px 10px; margin-top: 8px; }
+.acc-encadre--bilan .acc-section summary { cursor: pointer; }

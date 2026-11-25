@@ -11,16 +11,24 @@ export const ecrireCarnet = (id, c) => { ecrire('yeshaya:carnet:' + id, c); surC
 export const pasEnCours = () => lire('yeshaya:carnet:en-cours', null);
 export const marquerEnCours = (id) => ecrire('yeshaya:carnet:en-cours', id);
 
-// Bilan de vie (confidentiel), avec code facultatif.
-export const lireBilan = () => lire('yeshaya:bilan', {});
-export const ecrireBilan = (b) => ecrire('yeshaya:bilan', b);
-export const effacerBilan = () => { try { localStorage.removeItem('yeshaya:bilan'); localStorage.removeItem('yeshaya:bilan:code'); sessionStorage.removeItem('yeshaya:bilan:ouvert'); } catch {} };
-const empreinte = (s) => { let h = 5381; for (const c of 'yeshaya:' + s) h = ((h << 5) + h + c.charCodeAt(0)) >>> 0; return h.toString(36); };
-export const aUnCode = () => !!lire('yeshaya:bilan:code', null);
-export const definirCode = (code) => ecrire('yeshaya:bilan:code', code ? empreinte(code) : null);
-export const verifierCode = (code) => lire('yeshaya:bilan:code', null) === empreinte(code);
-export const bilanOuvert = () => { try { return !aUnCode() || sessionStorage.getItem('yeshaya:bilan:ouvert') === '1'; } catch { return !aUnCode(); } };
-export const ouvrirBilan = () => { try { sessionStorage.setItem('yeshaya:bilan:ouvert', '1'); } catch {} };
+// Bilan de vie : il fait partie du carnet du pas 1 (« Le salut »).
+// Il n'est donc plus caché : le berger le voit comme les autres réponses, et il s'imprime avec le pas.
+// « Confessez vos péchés les uns aux autres, et priez les uns pour les autres, afin que vous soyez
+// guéris » (Jacques 5:16) ; « Celui qui cache ses transgressions ne prospère point » (Proverbes 28:13).
+const PAS_BILAN = 'pas-01-le-salut';
+export const lireBilan = () => {
+  const c = lireCarnet(PAS_BILAN);
+  if (c.bilan) return c.bilan;
+  const ancien = lire('yeshaya:bilan', null);        // bilans remplis avant ce changement : repris une fois
+  if (ancien && Object.keys(ancien).length) { ecrireBilan(ancien); return ancien; }
+  return {};
+};
+export const ecrireBilan = (b) => { const c = lireCarnet(PAS_BILAN); ecrireCarnet(PAS_BILAN, { ...c, bilan: b }); };
+export const effacerBilan = () => {
+  const { bilan, ...reste } = lireCarnet(PAS_BILAN);
+  ecrireCarnet(PAS_BILAN, reste);
+  try { localStorage.removeItem('yeshaya:bilan'); localStorage.removeItem('yeshaya:bilan:code'); sessionStorage.removeItem('yeshaya:bilan:ouvert'); } catch { /* stockage indisponible */ }
+};
 
 // Mes disciples (pour l'accompagnateur).
 export const lireDisciples = () => lire('yeshaya:disciples', []);

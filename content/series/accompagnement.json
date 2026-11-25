@@ -1,6 +1,6 @@
 {
   "id": "accompagnement",
-  "titre": "Former le chrétien",
+  "titre": "Suivi des nouveaux convertis",
   "sous_titre": "Accompagner un nouveau converti, pas à pas",
   "presentation": [
     "Un parcours d'affermissement à faire à deux : le disciple travaille un « pas » chez lui pendant une semaine (lecture de la Bible chaque jour, questions, verset à mémoriser), puis retrouve son berger pour une rencontre d'environ deux heures.",
@@ -10,6 +10,43 @@
   "source": "Méthode et plan des pas inspirés de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), volumes 1 à 6 et « Qui est Jésus-Christ ? ». Questions, explications, bilan de vie, enseignements et guides du berger rédigés par Yeshaya. Les manuels originaux sont disponibles gratuitement en plusieurs langues.",
   "lien_source": "https://www.newlifediscipleship.com",
   "volumes": [
+    {
+      "numero": 0,
+      "titre": "Volume 0 · Qui est Jésus-Christ ?",
+      "sous_titre": "Pour celui qui cherche : découvrir Jésus avant de décider",
+      "pas": [
+        {
+          "numero": 1,
+          "titre": "Jésus, l'auteur de la vie",
+          "id": "v0-pas-01-jesus-auteur-de-la-vie"
+        },
+        {
+          "numero": 2,
+          "titre": "Jésus, l'Agneau de Dieu",
+          "id": "v0-pas-02-jesus-agneau-de-dieu"
+        },
+        {
+          "numero": 3,
+          "titre": "Jésus, le Bon Berger",
+          "id": "v0-pas-03-jesus-bon-berger"
+        },
+        {
+          "numero": 4,
+          "titre": "Il est vivant !",
+          "id": "v0-pas-04-il-est-vivant"
+        },
+        {
+          "numero": 5,
+          "titre": "Christ, mon Avocat",
+          "id": "v0-pas-05-christ-mon-avocat"
+        },
+        {
+          "numero": 6,
+          "titre": "Christ, mon Roi",
+          "id": "v0-pas-06-christ-mon-roi"
+        }
+      ]
+    },
     {
       "numero": 1,
       "titre": "Volume 1 · Les pas de base",
@@ -414,43 +451,6 @@
           "numero": 10,
           "titre": "Les récompenses",
           "id": "v6-pas-10-recompenses"
-        }
-      ]
-    },
-    {
-      "numero": 0,
-      "titre": "Volume 0 · Qui est Jésus-Christ ?",
-      "sous_titre": "Pour celui qui cherche : découvrir Jésus avant de décider",
-      "pas": [
-        {
-          "numero": 1,
-          "titre": "Jésus, l'auteur de la vie",
-          "id": "v0-pas-01-jesus-auteur-de-la-vie"
-        },
-        {
-          "numero": 2,
-          "titre": "Jésus, l'Agneau de Dieu",
-          "id": "v0-pas-02-jesus-agneau-de-dieu"
-        },
-        {
-          "numero": 3,
-          "titre": "Jésus, le Bon Berger",
-          "id": "v0-pas-03-jesus-bon-berger"
-        },
-        {
-          "numero": 4,
-          "titre": "Il est vivant !",
-          "id": "v0-pas-04-il-est-vivant"
-        },
-        {
-          "numero": 5,
-          "titre": "Christ, mon Avocat",
-          "id": "v0-pas-05-christ-mon-avocat"
-        },
-        {
-          "numero": 6,
-          "titre": "Christ, mon Roi",
-          "id": "v0-pas-06-christ-mon-roi"
         }
       ]
     }

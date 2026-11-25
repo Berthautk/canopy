@@ -27,7 +27,7 @@ function Enseignement({ e, n }) {
 const PARCOURS = {
   'decouvrir-jesus': { lien: '#/grandir/decouvrir-jesus', image: '/assets/jesus/jesus-main-tendue.webp', titre: 'Découvrir Jésus : 10 leçons', desc: (p) => (p.dj?.length ? `${p.dj.length} leçon${p.dj.length > 1 ? 's' : ''} sur 10 terminée${p.dj.length > 1 ? 's' : ''}` : 'Qui est Jésus ? Comment lui donner ta vie ?'), progres: (p) => (p.dj?.length || 0) / 10 },
   'nouveau-converti': { lien: '#/grandir/nouveau-converti', image: '/assets/nouveau-converti/joie-de-la-rencontre.webp', titre: 'Nouveau converti : 30 jours', desc: (p) => (p.faits.length ? `${p.faits.length} jour${p.faits.length > 1 ? 's' : ''} sur ${JOURS_PARCOURS} terminé${p.faits.length > 1 ? 's' : ''}` : 'Bien commencer sa marche avec Jésus.'), progres: (p) => p.faits.length / JOURS_PARCOURS },
-  accompagner: { lien: '#/accompagner', image: '/assets/nouveau-converti/etude-de-la-bible.webp', titre: 'Former le chrétien · accompagnement', desc: () => 'À deux : un pas par semaine, puis une rencontre avec ton berger. Carnet, bilan de vie, fiches de l\'accompagnateur.' },
+  accompagner: { lien: '#/accompagner', image: '/assets/photos/grandir-accompagnement.webp', titre: 'Suivi des nouveaux convertis', desc: () => 'À deux : un pas par semaine, puis une rencontre avec ton berger. Carnet, bilan de vie, fiches du berger.' },
   formation: { lien: '#/grandir/formation', image: '/assets/symboles/croix-coucher-de-soleil.webp', titre: 'Leçons d\'affermissement · 38 leçons', desc: () => "L'affermissement sur deux ans : enseignements, questions et travail de la semaine." },
   disciple: { lien: '#/disciple', image: '/assets/nouveau-converti/liste-de-progres.webp', titre: 'Mes outils de disciple', desc: () => 'Défis de 21 jours, verset de la semaine, témoignages, ma liste des 5.' },
   orizon: { lien: '#/orizon', image: '/assets/temoignage/chaines-brisees.webp', titre: '90 jours pour se libérer de la masturbation et de la pornographie', desc: () => 'Vaincre en 90 jours : chaque jour, un enseignement et une prière.' },
@@ -208,11 +208,38 @@ export function Grandir() {
       )}
 
       <section class="carte bloc par-ou">
-        <h3 style="margin:0 0 4px">Par où commencer ?</h3>
+        <h3 style="margin:0 0 2px">Par où commencer ?</h3>
+        <p class="ligne__desc" style="margin:0 0 8px">Quatre portes d'entrée. Choisis celle qui te ressemble aujourd'hui : rien n'est verrouillé, tu pourras changer.</p>
+        <button class="par-ou__choix" onClick={() => aller('accompagner')}><b>Je veux être suivi, ou j'accompagne quelqu'un</b><span>Suivi des nouveaux convertis : un pas par semaine, à deux</span><Icone nom="chevron" taille={18} /></button>
         <button class="par-ou__choix" onClick={() => aller('grandir/decouvrir-jesus')}><b>Je viens de donner ma vie à Jésus</b><span>« Découvrir Jésus » : 10 leçons, à ton rythme</span><Icone nom="chevron" taille={18} /></button>
         <button class="par-ou__choix" onClick={() => ouvrirNiveau('fondations')}><b>Je suis chrétien depuis peu</b><span>Les Fondations : salut, affermissement, Bible</span><Icone nom="chevron" taille={18} /></button>
         <button class="par-ou__choix" onClick={() => ouvrirNiveau('maturite-1')}><b>Je veux aller plus loin</b><span>Maturité 1 à 5 : prière, caractère, sainteté, l'islam…</span><Icone nom="chevron" taille={18} /></button>
       </section>
+
+      <h2 class="titre-section">Le suivi avec un berger</h2>
+      <a class="carte suivi-carte" href="#/accompagner">
+        <span class="suivi-carte__icone"><Icone nom="groupe" taille={28} /></span>
+        <span class="ligne__corps"><b>Suivi des nouveaux convertis</b>
+          <span>Je suis un nouveau converti, ou je suis un berger. Un pas par semaine, puis une rencontre à deux.</span></span>
+        <Icone nom="chevron" taille={20} />
+      </a>
+
+      <h2 class="titre-section">Les parcours guidés</h2>
+      <p class="ligne__desc" style="margin:-6px 4px 10px">Jour après jour, ou leçon après leçon : on avance à son rythme, et l'application retient où on en est.</p>
+      <CarteParcours id="decouvrir-jesus" p={p} />
+      <CarteParcours id="nouveau-converti" p={p} />
+      <CarteParcours id="orizon" p={p} />
+      <CarteParcours id="disciple" p={p} />
+
+      <h2 class="titre-section">Les enseignements</h2>
+      <p class="ligne__desc" style="margin:-6px 4px 10px">Des textes à lire ou à écouter, rangés par niveaux. On y entre quand on veut, dans l'ordre qu'on veut.</p>
+      <a class="carte parcours-carte" href="#/grandir/enseignements" style="margin-bottom:10px">
+        <img src="/assets/photos/bible-ouverte-table.webp" alt="" />
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Tous les enseignements</span>
+          <span class="ligne__desc" style="display:block">{ENSEIGNEMENTS.length} enseignements en {NIVEAUX.length} niveaux. Cherche un sujet, un thème ou un auteur.</span></span>
+        <Icone nom="chevron" taille={20} />
+      </a>
+      <CarteParcours id="formation" p={p} />
 
       <h2 class="titre-section">Les plus lus en ce moment</h2>
       <div class="plus-lus">
@@ -221,25 +248,6 @@ export function Grandir() {
         ))}
       </div>
 
-      <h2 class="titre-section">1 · Bien commencer</h2>
-      <CarteParcours id="decouvrir-jesus" p={p} />
-      <CarteParcours id="nouveau-converti" p={p} />
-
-      <h2 class="titre-section">2 · Apprendre la Parole</h2>
-      <a class="carte parcours-carte" href="#/grandir/enseignements" style="margin-bottom:10px">
-        <img src="/assets/objets-quotidien/bible-ouverte-sur-table.webp" alt="" />
-        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Tous les enseignements</span>
-          <span class="ligne__desc" style="display:block">{ENSEIGNEMENTS.length} enseignements en {NIVEAUX.length} niveaux. Cherche un sujet, un thème ou un auteur.</span></span>
-        <Icone nom="chevron" taille={20} />
-      </a>
-      <CarteParcours id="formation" p={p} />
-
-      <h2 class="titre-section">3 · Être accompagné</h2>
-      <CarteParcours id="accompagner" p={p} />
-      <CarteParcours id="disciple" p={p} />
-
-      <h2 class="titre-section">4 · Être libre d'une habitude</h2>
-      <CarteParcours id="orizon" p={p} />
     </div>
   );
 }

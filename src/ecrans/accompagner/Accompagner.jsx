@@ -11,7 +11,7 @@ import { compter } from '../../donnees/mesure.js';
 import { partager, copier } from '../../outils/partage.js';
 import {
   lireCarnet, ecrireCarnet, marquerEnCours, lireBilan, ecrireBilan, effacerBilan,
-  aUnCode, definirCode, verifierCode, bilanOuvert, ouvrirBilan, lireDisciples, ecrireDisciples,
+  lireDisciples, ecrireDisciples,
 } from '../../donnees/carnet.js';
 import {
   lienDisciple, rejoindre, travaillerSeul, quitterLien, actualiserDisciple, etatEnvoi, formaterCode,
@@ -47,7 +47,7 @@ export function AccompagnerAccueil() {
     <div class="page">
       <div class="bandeau-titre">
         <img src="/assets/nouveau-converti/etude-de-la-bible.webp" alt="" />
-        <div><h2>Suivi des nouveaux convertis</h2><p>Former le chrétien, pas à pas</p></div>
+        <div><h2>Suivi des nouveaux convertis</h2><p>Former le chrétien, pas à pas, avec un berger</p></div>
       </div>
       <p class="acc-question-role">Qui es-tu ?</p>
       <a class="carte acc-chemin" href="#/accompagner/disciple">
@@ -63,7 +63,7 @@ export function AccompagnerAccueil() {
       <details class="carte bloc acc-plus">
         <summary><b>Comment se passe le suivi ?</b></summary>
         {ACCOMPAGNEMENT.presentation.map((t) => <p>{t}</p>)}
-        <p>Le berger inscrit son disciple et reçoit un <b>code</b>. Le disciple entre ce code avec son prénom : leurs deux applications sont alors reliées. Les réponses que le disciple écrit dans son carnet apparaissent directement chez son berger, sans rien envoyer. Le bilan de vie, lui, reste toujours sur le téléphone du disciple.</p>
+        <p>Le berger inscrit son disciple et reçoit un <b>code</b>. Le disciple entre ce code avec son prénom : leurs deux applications sont alors reliées. Tout ce que le disciple écrit dans son carnet, bilan de vie compris, apparaît directement chez son berger, sans rien envoyer. Le bilan de vie, lui, reste toujours sur le téléphone du disciple.</p>
       </details>
       <details class="carte bloc acc-plus">
         <summary><b>Les pas du parcours</b></summary>
@@ -88,7 +88,7 @@ export function EspaceDisciple() {
         <input id="acc-code" class="champ acc-code" value={code} onInput={(e) => setCode(formaterCode(e.currentTarget.value))} placeholder="_ _ _ - _ _ _ _" autocapitalize="characters" autocomplete="off" inputmode="text" />
         <label class="etiquette-champ" for="acc-prenom">Ton prénom</label>
         <input id="acc-prenom" class="champ" value={prenom} onInput={(e) => setPrenom(e.currentTarget.value)} autocomplete="given-name" />
-        <p class="ligne__desc acc-accord"><Icone nom="info" taille={16} /> En validant, tu acceptes que ton berger voie les réponses que tu écris dans ton carnet. Ton bilan de vie, lui, n'est jamais envoyé : il reste sur ton téléphone.</p>
+        <p class="ligne__desc acc-accord"><Icone nom="info" taille={16} /> En validant, tu acceptes que ton berger voie ce que tu écris dans ton carnet, bilan de vie compris. C'est à deux qu'on avance : « Confessez vos péchés les uns aux autres… afin que vous soyez guéris » (Jacques 5:16).</p>
         {etat.erreur && <p class="verset__erreur">{etat.erreur}</p>}
         <button class="bouton bouton--or" style="width:100%" disabled={code.replace('-', '').length < 7 || prenom.trim().length < 2 || etat.envoi}>{etat.envoi ? 'Vérification…' : 'Valider'}</button>
       </form>
@@ -113,8 +113,8 @@ export function EspaceDisciple() {
         <Icone nom="chevron" taille={22} />
       </a>
       {p.id === 'pas-01-le-salut' && <a class="carte ligne" href="#/accompagner/bilan" style="margin-top:10px">
-        <span class="ligne__icone"><Icone nom="cadenas" /></span>
-        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Mon bilan de vie (confidentiel)</span><span class="ligne__desc">À remplir cette semaine. Il reste sur ton téléphone.</span></span>
+        <span class="ligne__icone"><Icone nom="coeur" /></span>
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Mon bilan de vie</span><span class="ligne__desc">À remplir cette semaine, puis à reprendre avec ton berger.</span></span>
         <Icone nom="chevron" taille={20} />
       </a>}
       {faits.length > 0 && <details class="carte bloc acc-plus"><summary><b>Mes pas déjà faits ({faits.length})</b></summary>
@@ -354,7 +354,7 @@ export function Pas({ id, role, imprimer, disciple }) {
           {p.elements.map((e) => e.type === 'question' ? <Question q={e} n={questions.indexOf(e) + 1} valeur={cv.r[e.id] || ''} repondre={repondre} acc={acc} vierge={vierge} qui={d?.prenom} relie={!!d?.code} />
             : e.type === 'vf' ? <VraiFaux e={e} c={cv} maj={maj} acc={acc} />
             : e.type === 'encadre' ? <Encadre e={e} valeur={e.id ? cv.r[e.id] || '' : ''} repondre={repondre} acc={acc} vierge={vierge} qui={d?.prenom} />
-            : e.type === 'bilan' ? <BlocBilan e={e} acc={acc} qui={d?.prenom} /> : null)}
+            : e.type === 'bilan' ? <BlocBilan e={e} acc={acc} vierge={vierge} qui={d?.prenom} bilan={cv.bilan || {}} majBilan={(k, v) => maj('bilan', { ...(c.bilan || {}), [k]: v })} /> : null)}
         </section>
       ))}
 
@@ -438,16 +438,26 @@ function Encadre({ e, valeur, repondre, acc, vierge, qui }) {
   );
 }
 
-function BlocBilan({ e, acc, qui }) {
+function BlocBilan({ e, acc, vierge, qui, bilan, majBilan }) {
+  const etat = useFiche('bilan-de-vie'), f = etat.f;
+  const nb = Object.values(bilan || {}).filter((v) => v && (Array.isArray(v) ? v.length : String(v).trim())).length;
   return (
     <div class="carte bloc acc-encadre acc-encadre--bilan">
-      <h3 style="margin-top:0"><Icone nom="cadenas" taille={18} /> {e.titre}</h3>
-      {acc ? <>
-        <p>Le bilan de vie reste sur le téléphone de {qui || 'ton disciple'} : il n'est jamais envoyé. Pendant la rencontre, demande-lui de l'ouvrir (« Mon bilan de vie », puis « Voir la synthèse ») et parcourez-le ensemble.</p>
-        <a class="bouton bouton--contour" style="width:100%" href="#/accompagner/orientations">Les orientations par domaine (pour te préparer)</a>
-      </> : <>
-        {e.texte.map((t) => <p>{t}</p>)}
-        <a class="bouton bouton--or" style="width:100%" href="#/accompagner/bilan">Remplir mon bilan de vie</a>
+      <h3 style="margin-top:0"><Icone nom="coeur" taille={18} /> {e.titre}</h3>
+      {acc
+        ? <p>Ce bilan fait partie du carnet de {qui || 'ton disciple'} : ses réponses arrivent ici comme les autres. Parcourez-le ensemble, sans juger, et priez domaine par domaine.{nb ? ` ${nb} réponse${nb > 1 ? 's' : ''} écrite${nb > 1 ? 's' : ''}.` : ' Rien n\'est encore écrit.'}</p>
+        : e.texte.map((t2) => <p>{t2}</p>)}
+      {!f ? <p class="ligne__desc">Chargement du bilan…</p> : <>
+        <p class="ligne__desc acc-sans-impression">{f.sous_titre} · {f.duree}</p>
+        {f.sections.map((s) => (
+          <details class="acc-section" open={vierge || s.id === 'identite'}>
+            <summary><b>{s.titre}</b></summary>
+            {s.intro && <p class="ligne__desc"><TexteRefs texte={s.intro} /></p>}
+            {s.blocs.map((bl) => <BlocChamp bl={bl} b={bilan || {}} maj={majBilan} lecture={acc || vierge} />)}
+          </details>
+        ))}
+        {acc && <a class="bouton bouton--contour acc-sans-impression" style="width:100%;margin-top:10px" href="#/accompagner/orientations">Les orientations par domaine (pour te préparer)</a>}
+        {!acc && !vierge && <a class="bouton bouton--contour acc-sans-impression" style="width:100%;margin-top:10px" href="#/accompagner/bilan/synthese">Voir la synthèse de mon bilan</a>}
       </>}
     </div>
   );
@@ -481,7 +491,7 @@ export function Essai() {
   const maj = (cle, sous, v) => { const n = { ...e, [cle]: { ...e[cle], [sous]: v } }; setE(n); try { localStorage.setItem(cleEssai, JSON.stringify(n)); } catch {} };
   const total = f.sections.reduce((s, x) => s + x.items.length, 0), faits = f.sections.reduce((s, x) => s + x.items.filter((_, k) => e.c[x.id + k]).length, 0);
   const texte = () => {
-    let s = "Compte rendu de l'essai (Former le chrétien)\n" + faits + ' points testés sur ' + total + '\n';
+    let s = "Compte rendu de l'essai (Suivi des nouveaux convertis)\n" + faits + ' points testés sur ' + total + '\n';
     f.sections.forEach((x) => { s += '\n' + x.titre + '\n'; x.items.forEach((it, k) => { s += (e.c[x.id + k] ? '[x] ' : '[ ] ') + it + '\n'; }); if ((e.r[x.id] || '').trim()) s += 'Remarques : ' + e.r[x.id].trim() + '\n'; });
     s += '\nBilan\n'; f.questions_finales.forEach((q, k) => { s += q + '\n' + ((e.f[k] || '').trim() || '(sans réponse)') + '\n'; });
     return s;
@@ -512,32 +522,19 @@ export function Essai() {
 // ---------- Bilan de vie ----------
 export function Bilan() {
   const etat = useFiche('bilan-de-vie'), f = etat.f;
-  const [ouvert, setOuvert] = useState(bilanOuvert);
   const [b, setB] = useState(lireBilan);
-  const [code, setCode] = useState('');
   if (!f) return <Attente etat={etat} />;
-  if (!ouvert) return (
-    <div class="page"><section class="carte bloc" style="margin-top:14px">
-      <h3 style="margin-top:0"><Icone nom="cadenas" taille={18} /> Bilan protégé</h3>
-      <form onSubmit={(e) => { e.preventDefault(); if (verifierCode(code)) { ouvrirBilan(); setOuvert(true); } else notifier('Code incorrect'); }}>
-        <input class="champ" type="password" inputmode="numeric" placeholder="Ton code" value={code} onInput={(e) => setCode(e.currentTarget.value)} />
-        <button class="bouton bouton--plein" style="width:100%;margin-top:10px">Ouvrir</button>
-      </form>
-      <button class="lien" style="margin-top:10px" onClick={() => { if (confirm('Code oublié : effacer tout le bilan pour recommencer ?')) { effacerBilan(); setB({}); setOuvert(true); } }}>Code oublié ?</button>
-    </section></div>
-  );
   const maj = (k, v) => { const n = { ...b, [k]: v }; setB(n); ecrireBilan(n); };
-  const nb = Object.values(b).filter((v) => v && (Array.isArray(v) ? v.length : true)).length;
+  const nb = Object.values(b).filter((v) => v && (Array.isArray(v) ? v.length : String(v).trim())).length;
   return (
     <div class="page acc-bilan">
       <h2 style="margin:14px 4px 2px">{f.titre}</h2>
       <p class="ligne__desc" style="margin:0 4px 10px">{f.sous_titre} · {f.duree}</p>
       <section class="carte bloc">{f.introduction.map((t) => <p><TexteRefs texte={t} /></p>)}</section>
-      <section class="carte bloc acc-confidentiel"><h3 style="margin-top:0"><Icone nom="cadenas" taille={18} /> Confidentialité</h3><p>{f.confidentialite}</p>
+      <section class="carte bloc acc-partage">
+        <h3 style="margin-top:0"><Icone nom="groupe" taille={18} /> Ce bilan se partage avec ton berger</h3>
+        <p>{f.confidentialite}</p>
         <ul class="acc-liste">{f.consignes.map((t) => <li>{t}</li>)}</ul>
-        <div class="acc-actions">
-          <button class="bouton bouton--contour" onClick={() => { const c = prompt(aUnCode() ? 'Nouveau code (laisser vide pour retirer le code) :' : 'Choisis un code (chiffres ou lettres) :'); if (c === null) return; definirCode(c.trim()); if (c.trim()) ouvrirBilan(); notifier(c.trim() ? 'Code enregistré' : 'Code retiré'); }}>{aUnCode() ? 'Changer le code' : 'Protéger par un code'}</button>
-        </div>
       </section>
       {f.sections.map((s) => (
         <details class="carte bloc acc-section" open={s.id === 'identite'}>
@@ -548,27 +545,27 @@ export function Bilan() {
       ))}
       <div class="acc-actions">
         <a class="bouton bouton--or" href="#/accompagner/bilan/synthese">Voir la synthèse ({nb} réponse{nb > 1 ? 's' : ''})</a>
-        <button class="bouton bouton--contour" onClick={() => { if (confirm('Effacer définitivement tout ton bilan de vie de ce téléphone ?')) { effacerBilan(); setB({}); notifier('Bilan effacé'); } }}><Icone nom="corbeille" taille={18} /> Effacer mon bilan</button>
+        <button class="bouton bouton--contour" onClick={() => { if (confirm('Effacer tout ton bilan de vie ? Il disparaîtra aussi du carnet envoyé à ton berger.')) { effacerBilan(); setB({}); notifier('Bilan effacé'); } }}><Icone nom="corbeille" taille={18} /> Tout effacer</button>
       </div>
       <p class="source-mention">{f.source}</p>
     </div>
   );
 }
 
-function BlocChamp({ bl, b, maj }) {
+function BlocChamp({ bl, b, maj, lecture }) {
   if (bl.type === 'texte') return <><label class="etiquette-champ">{bl.label}</label>{bl.label.length < 60
-    ? <input class="champ" value={b[bl.id] || ''} onInput={(e) => maj(bl.id, e.currentTarget.value)} />
-    : <textarea class="champ champ--zone" rows={2} value={b[bl.id] || ''} onInput={(e) => maj(bl.id, e.currentTarget.value)} />}</>;
-  if (bl.type === 'choix') return <div class="acc-choix"><p class="etiquette-champ">{bl.label}</p><div class="puces">{bl.options.map((o) => <button aria-pressed={b[bl.id] === o} onClick={() => maj(bl.id, b[bl.id] === o ? '' : o)}>{o}</button>)}</div></div>;
+    ? <input class="champ" value={b[bl.id] || ''} disabled={lecture} onInput={(e) => maj(bl.id, e.currentTarget.value)} />
+    : <textarea class="champ champ--zone" rows={2} value={b[bl.id] || ''} disabled={lecture} onInput={(e) => maj(bl.id, e.currentTarget.value)} />}</>;
+  if (bl.type === 'choix') return <div class="acc-choix"><p class="etiquette-champ">{bl.label}</p><div class="puces">{bl.options.map((o) => <button aria-pressed={b[bl.id] === o} disabled={lecture} onClick={() => maj(bl.id, b[bl.id] === o ? '' : o)}>{o}</button>)}</div></div>;
   if (bl.type === 'cases') { const v = b[bl.id] || []; return (
     <div class="acc-cases"><p class="etiquette-champ">{bl.titre}</p>
-      <div class="acc-cases__grille">{bl.options.map((o) => <label class="choix-ens"><input type="checkbox" checked={v.includes(o)} onChange={() => maj(bl.id, v.includes(o) ? v.filter((x) => x !== o) : [...v, o])} /><span>{o}</span></label>)}</div>
+      <div class="acc-cases__grille">{bl.options.map((o) => <label class="choix-ens"><input type="checkbox" checked={v.includes(o)} disabled={lecture} onChange={() => maj(bl.id, v.includes(o) ? v.filter((x) => x !== o) : [...v, o])} /><span>{o}</span></label>)}</div>
     </div>); }
   if (bl.type === 'ouinon') return <div class="acc-ouinon">{bl.items.map((it) => (
     <div class="acc-ouinon__ligne">
       <p>{it.texte}</p>
-      <div class="segments" role="group"><button aria-pressed={b[it.id] === 'oui'} onClick={() => maj(it.id, b[it.id] === 'oui' ? '' : 'oui')}>Oui</button><button aria-pressed={b[it.id] === 'non'} onClick={() => maj(it.id, b[it.id] === 'non' ? '' : 'non')}>Non</button></div>
-      {it.precision && b[it.id] === 'oui' && <textarea class="champ champ--zone" rows={2} placeholder={it.precision} value={b[it.id + ':precision'] || ''} onInput={(e) => maj(it.id + ':precision', e.currentTarget.value)} />}
+      <div class="segments" role="group"><button aria-pressed={b[it.id] === 'oui'} disabled={lecture} onClick={() => maj(it.id, b[it.id] === 'oui' ? '' : 'oui')}>Oui</button><button aria-pressed={b[it.id] === 'non'} disabled={lecture} onClick={() => maj(it.id, b[it.id] === 'non' ? '' : 'non')}>Non</button></div>
+      {it.precision && b[it.id] === 'oui' && <textarea class="champ champ--zone" rows={2} placeholder={it.precision} value={b[it.id + ':precision'] || ''} disabled={lecture} onInput={(e) => maj(it.id + ':precision', e.currentTarget.value)} />}
     </div>))}</div>;
   return null;
 }
@@ -576,9 +573,7 @@ function BlocChamp({ bl, b, maj }) {
 // Synthèse pour le berger : ce qui est coché, regroupé par domaine, avec les orientations.
 export function BilanSynthese() {
   const etat = useFiche('bilan-de-vie'), f = etat.f;
-  const [ouvert] = useState(bilanOuvert);
   if (!f) return <Attente etat={etat} />;
-  if (!ouvert) return <div class="page"><p class="ligne__desc" style="margin-top:16px">Ce bilan est protégé. <a class="lien" href="#/accompagner/bilan">Entrer le code</a></p></div>;
   const b = lireBilan(), parAxe = {}, ajouter = (axe, t) => { if (!axe) return; (parAxe[axe] = parAxe[axe] || []).push(t); };
   const libres = [];
   for (const s of f.sections) for (const bl of s.blocs) {

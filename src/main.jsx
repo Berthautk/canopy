@@ -46,3 +46,12 @@ render(<App />, document.getElementById('app'));
 if ('serviceWorker' in navigator && import.meta.env.PROD) {
   addEventListener('load', () => surveillerMisesAJour());
 }
+
+// À l'impression (fiches, PDF d'un pas), les sections repliées doivent sortir elles aussi :
+// on les ouvre le temps de l'impression, puis on les referme comme elles étaient.
+let repliees = [];
+addEventListener('beforeprint', () => {
+  repliees = [...document.querySelectorAll('details:not([open])')];
+  repliees.forEach((d) => d.setAttribute('open', ''));
+});
+addEventListener('afterprint', () => { repliees.forEach((d) => d.removeAttribute('open')); repliees = []; });
