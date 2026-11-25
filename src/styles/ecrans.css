@@ -1085,10 +1085,12 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 /* ===== Accueil : une carte, six tuiles ===== */
 .prochaine-etape { margin: 14px 0 0; }
 .tuiles-accueil { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
-.tuile-accueil { display: grid; align-content: start; gap: 4px; min-height: 124px; padding: 14px 12px; border-radius: var(--rayon);
-  background: var(--surface); border: 1px solid var(--bord); box-shadow: var(--ombre); color: var(--titre); border-top: 4px solid var(--c, var(--or)); }
-.tuile-accueil__icone { width: 46px; height: 46px; border-radius: 14px; display: grid; place-items: center; color: #fff; background: var(--c, var(--or)); margin-bottom: 4px; }
+.tuile-accueil { display: grid; align-content: start; gap: 3px; padding: 0 0 12px; overflow: hidden; border-radius: var(--rayon);
+  background: var(--surface); border: 1px solid var(--bord); box-shadow: var(--ombre); color: var(--titre); border-bottom: 4px solid var(--c, var(--or)); }
+.tuile-accueil img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; margin-bottom: 6px; }
+.tuile-accueil b, .tuile-accueil > span { padding: 0 12px; }
 .tuile-accueil b { font-family: var(--police-titre); font-size: 1rem; line-height: 1.2; }
-.tuile-accueil > span:last-child { font-size: .78rem; color: var(--texte-doux); line-height: 1.3; }
+.tuile-accueil > span { font-size: .78rem; color: var(--texte-doux); line-height: 1.3; }
 .tuile-accueil:active { filter: brightness(.94); }
+.ligne__photo { width: 52px; height: 52px; flex: none; border-radius: 14px; object-fit: cover; }
 :root[data-taille='tres-grand'] .tuiles-accueil { grid-template-columns: 1fr; }

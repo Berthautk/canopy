@@ -22,7 +22,7 @@ export function BibleAccueil() {
   return (
     <div class="page bible-accueil">
       <div class="bandeau-titre">
-        <img src="/assets/symboles/bible-dans-la-lumiere.webp" alt="" />
+        <img src="/assets/photos/bible-vieil-homme.webp" alt="" />
         <div>
           <h2>La Bible</h2>
           <p>Louis Segond 1910</p>

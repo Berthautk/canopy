@@ -16,12 +16,12 @@ import { partagerImageVerset } from '../outils/partage.js';
 
 // Six grandes portes, avec des mots simples : on sait où aller sans connaître l'application.
 const TUILES = [
-  ['#/priere', 'priere', 'Prier', 'Veilles, prières et combat spirituel', '#6a4fc4'],
-  ['#/priere/demander', 'coeur', 'Un fardeau ?', 'Nous prions pour toi', '#c4553b'],
-  ['#/grandir', 'grandir', 'Grandir', 'Enseignements, parcours, accompagnement', '#3fa66b'],
-  ['#/bible', 'bible', 'La Bible', 'Lire, chercher, méditer', '#3b6fc4'],
-  ['#/evangeliser', 'evangeliser', 'Partager ma foi', 'Parler de Jésus avec amour', '#d69a1c'],
-  ['#/jouer', 'trophee', 'Jouer et apprendre', 'Quiz, défis, jeux pour tous âges', '#2a9db0'],
+  ['#/priere', 'prier-femme-bible-matin', 'Prier', 'Veilles, prières et combat spirituel', '#6a4fc4'],
+  ['#/priere/demander', 'fardeau-consolation', 'Un fardeau ?', 'Nous prions pour toi', '#c4553b'],
+  ['#/grandir', 'grandir-groupe-manguier', 'Grandir', 'Enseignements, parcours, accompagnement', '#3fa66b'],
+  ['#/bible', 'bible-ouverte-table', 'La Bible', 'Lire, chercher, méditer', '#3b6fc4'],
+  ['#/evangeliser', 'partager-conversation-boutique', 'Partager ma foi', 'Parler de Jésus avec amour', '#d69a1c'],
+  ['#/jouer', 'jouer-cartes-enfants', 'Jouer et apprendre', 'Quiz, défis, jeux pour tous âges', '#2a9db0'],
 ];
 
 // Une seule carte : la meilleure prochaine étape pour cette personne, choisie selon ce qu'elle a déjà commencé.
@@ -81,9 +81,9 @@ export function Accueil() {
 
         <h2 class="titre-section sous-rubrique">Que veux-tu faire ?</h2>
         <nav class="tuiles-accueil" aria-label="Rubriques">
-          {TUILES.map(([lien, icone, titre, desc, couleur]) => (
+          {TUILES.map(([lien, photo, titre, desc, couleur]) => (
             <a class="tuile-accueil" href={lien} style={{ '--c': couleur }}>
-              <span class="tuile-accueil__icone"><Icone nom={icone} taille={30} /></span>
+              <img src={'/assets/photos/' + photo + '.webp'} alt="" loading="lazy" />
               <b>{titre}</b><span>{desc}</span>
             </a>
           ))}

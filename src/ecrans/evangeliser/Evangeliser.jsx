@@ -23,7 +23,7 @@ export function Evangeliser() {
   return (
     <div class="page">
       <div class="bandeau-titre">
-        <img src="/assets/evangelisation/partage-bible-dans-la-rue.webp" alt="" />
+        <img src="/assets/photos/partager-temoignage-arbre.webp" alt="" />
         <div><h2>Partager l'espérance</h2><p>Évangéliser, c'est aimer et partager la bonne nouvelle autour de soi.</p></div>
       </div>
       <nav class="grille-evang" aria-label="Rubriques">

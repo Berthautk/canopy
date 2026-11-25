@@ -23,7 +23,7 @@ export function Priere() {
   return (
     <div class="page">
       <div class="bandeau-titre">
-        <img src="/assets/priere/femme-en-priere.webp" alt="" />
+        <img src="/assets/photos/prier-eglise-genoux.webp" alt="" />
         <div><h2>Prière</h2><p>Approche-toi de Dieu, parle-lui et intercède pour les autres.</p></div>
       </div>
 

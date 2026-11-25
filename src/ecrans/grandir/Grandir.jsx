@@ -114,7 +114,7 @@ export function Enseignements() {
   return (
     <div class="page">
       <div class="bandeau-titre">
-        <img src="/assets/nouveau-converti/etude-de-la-bible.webp" alt="" />
+        <img src="/assets/photos/grandir-pasteur-enseigne.webp" alt="" />
         <div><h2>Les enseignements</h2><p>Rangés par niveaux, du nouveau converti au chrétien mûr.</p></div>
       </div>
 
@@ -195,7 +195,7 @@ export function Grandir() {
   return (
     <div class="page">
       <div class="bandeau-titre">
-        <img src="/assets/nouveau-converti/etude-de-la-bible.webp" alt="" />
+        <img src="/assets/photos/grandir-etude-bureau.webp" alt="" />
         <div><h2>Grandir dans la foi</h2><p>Choisis ce dont tu as besoin aujourd'hui.</p></div>
       </div>
 
