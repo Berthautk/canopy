@@ -1,458 +1,458 @@
 {
- "id": "accompagnement",
- "titre": "Former le chrétien",
- "sous_titre": "Accompagner un nouveau converti, pas à pas",
- "presentation": [
-  "Un parcours d'affermissement à faire à deux : le disciple travaille un « pas » chez lui pendant une semaine (lecture de la Bible chaque jour, questions, verset à mémoriser), puis retrouve son accompagnateur pour une rencontre d'environ deux heures.",
-  "Pendant la rencontre, ils reprennent ensemble chaque réponse, récitent les versets, prient, et l'accompagnateur remet le pas suivant. Le parcours complet dure un an et demi à deux ans.",
-  "Le pas 1 comprend un bilan de vie confidentiel, pour apporter à la croix ce qui vient de la lignée, des pratiques passées et des blessures, comme on le vit en Afrique."
- ],
- "source": "Méthode et plan des pas inspirés de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), volumes 1 à 6 et « Qui est Jésus-Christ ? ». Questions, explications, bilan de vie, enseignements et guides de l'accompagnateur rédigés par Yeshaya. Les manuels originaux sont disponibles gratuitement en plusieurs langues.",
- "lien_source": "https://www.newlifediscipleship.com",
- "volumes": [
-  {
-   "numero": 1,
-   "titre": "Volume 1 · Les pas de base",
-   "sous_titre": "Les fondements de la vie chrétienne",
-   "pas": [
+  "id": "accompagnement",
+  "titre": "Former le chrétien",
+  "sous_titre": "Accompagner un nouveau converti, pas à pas",
+  "presentation": [
+    "Un parcours d'affermissement à faire à deux : le disciple travaille un « pas » chez lui pendant une semaine (lecture de la Bible chaque jour, questions, verset à mémoriser), puis retrouve son berger pour une rencontre d'environ deux heures.",
+    "Pendant la rencontre, ils reprennent ensemble chaque réponse, récitent les versets, prient, et le berger remet le pas suivant. Le parcours complet dure un an et demi à deux ans.",
+    "Le pas 1 comprend un bilan de vie confidentiel, pour apporter à la croix ce qui vient de la lignée, des pratiques passées et des blessures, comme on le vit en Afrique."
+  ],
+  "source": "Méthode et plan des pas inspirés de « La Nouvelle Vie en Christ » (Mark Robinson, Camino Global), volumes 1 à 6 et « Qui est Jésus-Christ ? ». Questions, explications, bilan de vie, enseignements et guides du berger rédigés par Yeshaya. Les manuels originaux sont disponibles gratuitement en plusieurs langues.",
+  "lien_source": "https://www.newlifediscipleship.com",
+  "volumes": [
     {
-     "numero": 1,
-     "titre": "Le salut",
-     "id": "pas-01-le-salut"
+      "numero": 1,
+      "titre": "Volume 1 · Les pas de base",
+      "sous_titre": "Les fondements de la vie chrétienne",
+      "pas": [
+        {
+          "numero": 1,
+          "titre": "Le salut",
+          "id": "pas-01-le-salut"
+        },
+        {
+          "numero": 2,
+          "titre": "L'assurance du salut",
+          "id": "pas-02-assurance-du-salut"
+        },
+        {
+          "numero": 3,
+          "titre": "La tentation et la victoire",
+          "id": "pas-03-la-tentation"
+        },
+        {
+          "numero": 4,
+          "titre": "Christ, Seigneur de tout",
+          "id": "pas-04-jesus-seigneur"
+        },
+        {
+          "numero": 5,
+          "titre": "Vivre par l'Esprit",
+          "id": "pas-05-vivre-par-l-esprit"
+        },
+        {
+          "numero": 6,
+          "titre": "Dieu me parle : la Bible",
+          "id": "pas-06-dieu-me-parle"
+        },
+        {
+          "numero": 7,
+          "titre": "Je parle à Dieu : la prière",
+          "id": "pas-07-je-parle-a-dieu"
+        },
+        {
+          "numero": 8,
+          "titre": "Mon rendez-vous quotidien avec Dieu",
+          "id": "pas-08-rendez-vous-quotidien"
+        },
+        {
+          "numero": 9,
+          "titre": "Mon église locale",
+          "id": "pas-09-mon-eglise-locale"
+        },
+        {
+          "numero": 10,
+          "titre": "Le témoignage",
+          "id": "pas-10-temoigner"
+        },
+        {
+          "numero": 11,
+          "titre": "Le baptême et le repas du Seigneur",
+          "id": "pas-11-bapteme-et-cene"
+        },
+        {
+          "numero": 12,
+          "titre": "Le foyer chrétien",
+          "id": "pas-12-foyer-chretien"
+        },
+        {
+          "numero": 13,
+          "titre": "Suivre Jésus",
+          "id": "pas-13-suivre-jesus"
+        }
+      ]
     },
     {
-     "numero": 2,
-     "titre": "L'assurance du salut",
-     "id": "pas-02-assurance-du-salut"
+      "numero": 2,
+      "titre": "Volume 2 · Autres pas fondamentaux",
+      "sous_titre": "Connaître Dieu, le combat, la sainteté, l'avenir",
+      "pas": [
+        {
+          "numero": 1,
+          "titre": "Connaître Dieu",
+          "id": "v2-pas-01-connaitre-dieu"
+        },
+        {
+          "numero": 2,
+          "titre": "Christ, mon modèle",
+          "id": "v2-pas-02-jesus-mon-modele"
+        },
+        {
+          "numero": 3,
+          "titre": "Appelé pour servir",
+          "id": "v2-pas-03-appele-a-servir"
+        },
+        {
+          "numero": 4,
+          "titre": "Qui suis-je en Christ ?",
+          "id": "v2-pas-04-qui-je-suis-en-christ"
+        },
+        {
+          "numero": 5,
+          "titre": "Le combat spirituel",
+          "id": "v2-pas-05-le-combat-spirituel"
+        },
+        {
+          "numero": 6,
+          "titre": "Les armes de Dieu",
+          "id": "v2-pas-06-les-armes-de-dieu"
+        },
+        {
+          "numero": 7,
+          "titre": "Pardonner pour être libre",
+          "id": "v2-pas-07-pardonner"
+        },
+        {
+          "numero": 8,
+          "titre": "Demander pardon et réparer",
+          "id": "v2-pas-08-demander-pardon-reparer"
+        },
+        {
+          "numero": 9,
+          "titre": "Appelé à être saint",
+          "id": "v2-pas-09-appele-a-etre-saint"
+        },
+        {
+          "numero": 10,
+          "titre": "Le chrétien et son argent",
+          "id": "v2-pas-10-chretien-et-argent"
+        },
+        {
+          "numero": 11,
+          "titre": "Permis, mais est-ce utile ?",
+          "id": "v2-pas-11-permis-mais-utile"
+        },
+        {
+          "numero": 12,
+          "titre": "Le discernement",
+          "id": "v2-pas-12-discernement"
+        },
+        {
+          "numero": 13,
+          "titre": "Parler de Christ",
+          "id": "v2-pas-13-parler-de-christ"
+        },
+        {
+          "numero": 14,
+          "titre": "L'avenir",
+          "id": "v2-pas-14-l-avenir"
+        },
+        {
+          "numero": 15,
+          "titre": "Le retour de Jésus et l'éternité",
+          "id": "v2-pas-15-retour-et-eternite"
+        }
+      ]
     },
     {
-     "numero": 3,
-     "titre": "La tentation et la victoire",
-     "id": "pas-03-la-tentation"
+      "numero": 3,
+      "titre": "Volume 3 · Vivre ensemble",
+      "sous_titre": "Les relations dans le corps de Christ",
+      "pas": [
+        {
+          "numero": 1,
+          "titre": "Les uns les autres",
+          "id": "v3-pas-01-membres"
+        },
+        {
+          "numero": 2,
+          "titre": "S'aimer les uns les autres",
+          "id": "v3-pas-02-s-aimer"
+        },
+        {
+          "numero": 3,
+          "titre": "L'amour en actes",
+          "id": "v3-pas-03-amour-en-actes"
+        },
+        {
+          "numero": 4,
+          "titre": "S'encourager les uns les autres",
+          "id": "v3-pas-04-s-encourager"
+        },
+        {
+          "numero": 5,
+          "titre": "Se servir les uns les autres",
+          "id": "v3-pas-05-se-servir"
+        },
+        {
+          "numero": 6,
+          "titre": "Se supporter les uns les autres",
+          "id": "v3-pas-06-se-supporter"
+        },
+        {
+          "numero": 7,
+          "titre": "Se pardonner les uns les autres",
+          "id": "v3-pas-07-se-pardonner"
+        },
+        {
+          "numero": 8,
+          "titre": "S'accepter les uns les autres",
+          "id": "v3-pas-08-s-accepter"
+        },
+        {
+          "numero": 9,
+          "titre": "S'exhorter les uns les autres",
+          "id": "v3-pas-09-s-exhorter"
+        },
+        {
+          "numero": 10,
+          "titre": "Se reprendre avec douceur",
+          "id": "v3-pas-10-reprendre-avec-douceur"
+        },
+        {
+          "numero": 11,
+          "titre": "Se saluer et s'accueillir",
+          "id": "v3-pas-11-saluer-accueillir"
+        },
+        {
+          "numero": 12,
+          "titre": "L'hospitalité",
+          "id": "v3-pas-12-hospitalite"
+        }
+      ]
     },
     {
-     "numero": 4,
-     "titre": "Christ, Seigneur de tout",
-     "id": "pas-04-jesus-seigneur"
+      "numero": 4,
+      "titre": "Volume 4 · Réponses bibliques aux mensonges",
+      "sous_titre": "Vivre libre en connaissant la vérité",
+      "pas": [
+        {
+          "numero": 1,
+          "titre": "Les mensonges qui nous lient",
+          "id": "v4-pas-01-mensonges-qui-nous-lient"
+        },
+        {
+          "numero": 2,
+          "titre": "La vérité qui nous libère",
+          "id": "v4-pas-02-la-verite-qui-libere"
+        },
+        {
+          "numero": 3,
+          "titre": "Mensonge : je suis seul",
+          "id": "v4-pas-03-je-suis-seul"
+        },
+        {
+          "numero": 4,
+          "titre": "Mensonge : c'est impossible",
+          "id": "v4-pas-04-c-est-impossible"
+        },
+        {
+          "numero": 5,
+          "titre": "Mensonge : je peux",
+          "id": "v4-pas-05-je-peux"
+        },
+        {
+          "numero": 6,
+          "titre": "Mensonge : j'ai peur",
+          "id": "v4-pas-06-j-ai-peur"
+        },
+        {
+          "numero": 7,
+          "titre": "Mais… tout le monde le fait",
+          "id": "v4-pas-07-tout-le-monde-le-fait"
+        },
+        {
+          "numero": 8,
+          "titre": "Mensonge : il n'y a pas de justice",
+          "id": "v4-pas-08-pas-de-justice"
+        },
+        {
+          "numero": 9,
+          "titre": "Mensonge : Dieu ne pardonnera pas quelqu'un comme moi",
+          "id": "v4-pas-09-dieu-ne-pardonnera-pas"
+        },
+        {
+          "numero": 10,
+          "titre": "Je ne peux pas supporter : pourquoi souffrons-nous ?",
+          "id": "v4-pas-10-je-ne-peux-pas-supporter"
+        },
+        {
+          "numero": 11,
+          "titre": "Si seulement j'avais plus d'argent…",
+          "id": "v4-pas-11-si-seulement-plus-d-argent"
+        },
+        {
+          "numero": 12,
+          "titre": "Toutes les religions conduisent à Dieu ?",
+          "id": "v4-pas-12-toutes-les-religions"
+        }
+      ]
     },
     {
-     "numero": 5,
-     "titre": "Vivre par l'Esprit",
-     "id": "pas-05-vivre-par-l-esprit"
+      "numero": 5,
+      "titre": "Volume 5 · Plus de réponses bibliques aux mensonges",
+      "sous_titre": "Couple, église, prospérité, assurance du salut",
+      "pas": [
+        {
+          "numero": 1,
+          "titre": "Ne juge pas ! Sois tolérant !",
+          "id": "v5-pas-01-ne-juge-pas-sois-tolerant"
+        },
+        {
+          "numero": 2,
+          "titre": "Je ne me sens pas une nouvelle créature",
+          "id": "v5-pas-02-je-ne-me-sens-pas-nouvelle-creature"
+        },
+        {
+          "numero": 3,
+          "titre": "L'hypocrisie dans l'église",
+          "id": "v5-pas-03-hypocrisie-dans-l-eglise"
+        },
+        {
+          "numero": 4,
+          "titre": "Le machisme",
+          "id": "v5-pas-04-le-machisme"
+        },
+        {
+          "numero": 5,
+          "titre": "Hommes de vérité",
+          "id": "v5-pas-05-hommes-de-verite"
+        },
+        {
+          "numero": 6,
+          "titre": "La femme moderne",
+          "id": "v5-pas-06-la-femme-moderne"
+        },
+        {
+          "numero": 7,
+          "titre": "L'Évangile et la prospérité",
+          "id": "v5-pas-07-l-evangile-et-la-prosperite"
+        },
+        {
+          "numero": 8,
+          "titre": "La prospérité (deuxième partie)",
+          "id": "v5-pas-08-la-prosperite-2"
+        },
+        {
+          "numero": 9,
+          "titre": "Suis-je encore sauvé ?",
+          "id": "v5-pas-09-suis-je-encore-sauve"
+        },
+        {
+          "numero": 10,
+          "titre": "J'ai des questions avant de recevoir Christ",
+          "id": "v5-pas-10-questions-avant-de-recevoir-christ"
+        },
+        {
+          "numero": 11,
+          "titre": "Et maintenant ? La vérité ou le mensonge ?",
+          "id": "v5-pas-11-la-verite-ou-le-mensonge"
+        }
+      ]
     },
     {
-     "numero": 6,
-     "titre": "Dieu me parle : la Bible",
-     "id": "pas-06-dieu-me-parle"
+      "numero": 6,
+      "titre": "Volume 6 · Les missions mondiales",
+      "sous_titre": "Atteindre le monde pour Christ",
+      "pas": [
+        {
+          "numero": 1,
+          "titre": "Le défi des missions mondiales",
+          "id": "v6-pas-01-le-defi-des-missions"
+        },
+        {
+          "numero": 2,
+          "titre": "Pionniers des missions",
+          "id": "v6-pas-02-pionniers-des-missions"
+        },
+        {
+          "numero": 3,
+          "titre": "Le père des missions modernes",
+          "id": "v6-pas-03-le-pere-des-missions-modernes"
+        },
+        {
+          "numero": 4,
+          "titre": "Comment entendront-ils ?",
+          "id": "v6-pas-04-comment-entendront-ils"
+        },
+        {
+          "numero": 5,
+          "titre": "Pourquoi n'y a-t-il pas plus de missionnaires ?",
+          "id": "v6-pas-05-pourquoi-pas-plus-de-missionnaires"
+        },
+        {
+          "numero": 6,
+          "titre": "Possible ou impossible ?",
+          "id": "v6-pas-06-possible-ou-impossible"
+        },
+        {
+          "numero": 7,
+          "titre": "Le défi des peuples non atteints",
+          "id": "v6-pas-07-peuples-non-atteints"
+        },
+        {
+          "numero": 8,
+          "titre": "Comment commencer ?",
+          "id": "v6-pas-08-comment-commencer"
+        },
+        {
+          "numero": 9,
+          "titre": "Une seule vie",
+          "id": "v6-pas-09-une-seule-vie"
+        },
+        {
+          "numero": 10,
+          "titre": "Les récompenses",
+          "id": "v6-pas-10-recompenses"
+        }
+      ]
     },
     {
-     "numero": 7,
-     "titre": "Je parle à Dieu : la prière",
-     "id": "pas-07-je-parle-a-dieu"
-    },
-    {
-     "numero": 8,
-     "titre": "Mon rendez-vous quotidien avec Dieu",
-     "id": "pas-08-rendez-vous-quotidien"
-    },
-    {
-     "numero": 9,
-     "titre": "Mon église locale",
-     "id": "pas-09-mon-eglise-locale"
-    },
-    {
-     "numero": 10,
-     "titre": "Le témoignage",
-     "id": "pas-10-temoigner"
-    },
-    {
-     "numero": 11,
-     "titre": "Le baptême et le repas du Seigneur",
-     "id": "pas-11-bapteme-et-cene"
-    },
-    {
-     "numero": 12,
-     "titre": "Le foyer chrétien",
-     "id": "pas-12-foyer-chretien"
-    },
-    {
-     "numero": 13,
-     "titre": "Suivre Jésus",
-     "id": "pas-13-suivre-jesus"
+      "numero": 0,
+      "titre": "Volume 0 · Qui est Jésus-Christ ?",
+      "sous_titre": "Pour celui qui cherche : découvrir Jésus avant de décider",
+      "pas": [
+        {
+          "numero": 1,
+          "titre": "Jésus, l'auteur de la vie",
+          "id": "v0-pas-01-jesus-auteur-de-la-vie"
+        },
+        {
+          "numero": 2,
+          "titre": "Jésus, l'Agneau de Dieu",
+          "id": "v0-pas-02-jesus-agneau-de-dieu"
+        },
+        {
+          "numero": 3,
+          "titre": "Jésus, le Bon Berger",
+          "id": "v0-pas-03-jesus-bon-berger"
+        },
+        {
+          "numero": 4,
+          "titre": "Il est vivant !",
+          "id": "v0-pas-04-il-est-vivant"
+        },
+        {
+          "numero": 5,
+          "titre": "Christ, mon Avocat",
+          "id": "v0-pas-05-christ-mon-avocat"
+        },
+        {
+          "numero": 6,
+          "titre": "Christ, mon Roi",
+          "id": "v0-pas-06-christ-mon-roi"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "numero": 2,
-   "titre": "Volume 2 · Autres pas fondamentaux",
-   "sous_titre": "Connaître Dieu, le combat, la sainteté, l'avenir",
-   "pas": [
-    {
-     "numero": 1,
-     "titre": "Connaître Dieu",
-     "id": "v2-pas-01-connaitre-dieu"
-    },
-    {
-     "numero": 2,
-     "titre": "Christ, mon modèle",
-     "id": "v2-pas-02-jesus-mon-modele"
-    },
-    {
-     "numero": 3,
-     "titre": "Appelé pour servir",
-     "id": "v2-pas-03-appele-a-servir"
-    },
-    {
-     "numero": 4,
-     "titre": "Qui suis-je en Christ ?",
-     "id": "v2-pas-04-qui-je-suis-en-christ"
-    },
-    {
-     "numero": 5,
-     "titre": "Le combat spirituel",
-     "id": "v2-pas-05-le-combat-spirituel"
-    },
-    {
-     "numero": 6,
-     "titre": "Les armes de Dieu",
-     "id": "v2-pas-06-les-armes-de-dieu"
-    },
-    {
-     "numero": 7,
-     "titre": "Pardonner pour être libre",
-     "id": "v2-pas-07-pardonner"
-    },
-    {
-     "numero": 8,
-     "titre": "Demander pardon et réparer",
-     "id": "v2-pas-08-demander-pardon-reparer"
-    },
-    {
-     "numero": 9,
-     "titre": "Appelé à être saint",
-     "id": "v2-pas-09-appele-a-etre-saint"
-    },
-    {
-     "numero": 10,
-     "titre": "Le chrétien et son argent",
-     "id": "v2-pas-10-chretien-et-argent"
-    },
-    {
-     "numero": 11,
-     "titre": "Permis, mais est-ce utile ?",
-     "id": "v2-pas-11-permis-mais-utile"
-    },
-    {
-     "numero": 12,
-     "titre": "Le discernement",
-     "id": "v2-pas-12-discernement"
-    },
-    {
-     "numero": 13,
-     "titre": "Parler de Christ",
-     "id": "v2-pas-13-parler-de-christ"
-    },
-    {
-     "numero": 14,
-     "titre": "L'avenir",
-     "id": "v2-pas-14-l-avenir"
-    },
-    {
-     "numero": 15,
-     "titre": "Le retour de Jésus et l'éternité",
-     "id": "v2-pas-15-retour-et-eternite"
-    }
-   ]
-  },
-  {
-   "numero": 3,
-   "titre": "Volume 3 · Vivre ensemble",
-   "sous_titre": "Les relations dans le corps de Christ",
-   "pas": [
-    {
-     "numero": 1,
-     "titre": "Les uns les autres",
-     "id": "v3-pas-01-membres"
-    },
-    {
-     "numero": 2,
-     "titre": "S'aimer les uns les autres",
-     "id": "v3-pas-02-s-aimer"
-    },
-    {
-     "numero": 3,
-     "titre": "L'amour en actes",
-     "id": "v3-pas-03-amour-en-actes"
-    },
-    {
-     "numero": 4,
-     "titre": "S'encourager les uns les autres",
-     "id": "v3-pas-04-s-encourager"
-    },
-    {
-     "numero": 5,
-     "titre": "Se servir les uns les autres",
-     "id": "v3-pas-05-se-servir"
-    },
-    {
-     "numero": 6,
-     "titre": "Se supporter les uns les autres",
-     "id": "v3-pas-06-se-supporter"
-    },
-    {
-     "numero": 7,
-     "titre": "Se pardonner les uns les autres",
-     "id": "v3-pas-07-se-pardonner"
-    },
-    {
-     "numero": 8,
-     "titre": "S'accepter les uns les autres",
-     "id": "v3-pas-08-s-accepter"
-    },
-    {
-     "numero": 9,
-     "titre": "S'exhorter les uns les autres",
-     "id": "v3-pas-09-s-exhorter"
-    },
-    {
-     "numero": 10,
-     "titre": "Se reprendre avec douceur",
-     "id": "v3-pas-10-reprendre-avec-douceur"
-    },
-    {
-     "numero": 11,
-     "titre": "Se saluer et s'accueillir",
-     "id": "v3-pas-11-saluer-accueillir"
-    },
-    {
-     "numero": 12,
-     "titre": "L'hospitalité",
-     "id": "v3-pas-12-hospitalite"
-    }
-   ]
-  },
-  {
-   "numero": 4,
-   "titre": "Volume 4 · Réponses bibliques aux mensonges",
-   "sous_titre": "Vivre libre en connaissant la vérité",
-   "pas": [
-    {
-     "numero": 1,
-     "titre": "Les mensonges qui nous lient",
-     "id": "v4-pas-01-mensonges-qui-nous-lient"
-    },
-    {
-     "numero": 2,
-     "titre": "La vérité qui nous libère",
-     "id": "v4-pas-02-la-verite-qui-libere"
-    },
-    {
-     "numero": 3,
-     "titre": "Mensonge : je suis seul",
-     "id": "v4-pas-03-je-suis-seul"
-    },
-    {
-     "numero": 4,
-     "titre": "Mensonge : c'est impossible",
-     "id": "v4-pas-04-c-est-impossible"
-    },
-    {
-     "numero": 5,
-     "titre": "Mensonge : je peux",
-     "id": "v4-pas-05-je-peux"
-    },
-    {
-     "numero": 6,
-     "titre": "Mensonge : j'ai peur",
-     "id": "v4-pas-06-j-ai-peur"
-    },
-    {
-     "numero": 7,
-     "titre": "Mais… tout le monde le fait",
-     "id": "v4-pas-07-tout-le-monde-le-fait"
-    },
-    {
-     "numero": 8,
-     "titre": "Mensonge : il n'y a pas de justice",
-     "id": "v4-pas-08-pas-de-justice"
-    },
-    {
-     "numero": 9,
-     "titre": "Mensonge : Dieu ne pardonnera pas quelqu'un comme moi",
-     "id": "v4-pas-09-dieu-ne-pardonnera-pas"
-    },
-    {
-     "numero": 10,
-     "titre": "Je ne peux pas supporter : pourquoi souffrons-nous ?",
-     "id": "v4-pas-10-je-ne-peux-pas-supporter"
-    },
-    {
-     "numero": 11,
-     "titre": "Si seulement j'avais plus d'argent…",
-     "id": "v4-pas-11-si-seulement-plus-d-argent"
-    },
-    {
-     "numero": 12,
-     "titre": "Toutes les religions conduisent à Dieu ?",
-     "id": "v4-pas-12-toutes-les-religions"
-    }
-   ]
-  },
-  {
-   "numero": 5,
-   "titre": "Volume 5 · Plus de réponses bibliques aux mensonges",
-   "sous_titre": "Couple, église, prospérité, assurance du salut",
-   "pas": [
-    {
-     "numero": 1,
-     "titre": "Ne juge pas ! Sois tolérant !",
-     "id": "v5-pas-01-ne-juge-pas-sois-tolerant"
-    },
-    {
-     "numero": 2,
-     "titre": "Je ne me sens pas une nouvelle créature",
-     "id": "v5-pas-02-je-ne-me-sens-pas-nouvelle-creature"
-    },
-    {
-     "numero": 3,
-     "titre": "L'hypocrisie dans l'église",
-     "id": "v5-pas-03-hypocrisie-dans-l-eglise"
-    },
-    {
-     "numero": 4,
-     "titre": "Le machisme",
-     "id": "v5-pas-04-le-machisme"
-    },
-    {
-     "numero": 5,
-     "titre": "Hommes de vérité",
-     "id": "v5-pas-05-hommes-de-verite"
-    },
-    {
-     "numero": 6,
-     "titre": "La femme moderne",
-     "id": "v5-pas-06-la-femme-moderne"
-    },
-    {
-     "numero": 7,
-     "titre": "L'Évangile et la prospérité",
-     "id": "v5-pas-07-l-evangile-et-la-prosperite"
-    },
-    {
-     "numero": 8,
-     "titre": "La prospérité (deuxième partie)",
-     "id": "v5-pas-08-la-prosperite-2"
-    },
-    {
-     "numero": 9,
-     "titre": "Suis-je encore sauvé ?",
-     "id": "v5-pas-09-suis-je-encore-sauve"
-    },
-    {
-     "numero": 10,
-     "titre": "J'ai des questions avant de recevoir Christ",
-     "id": "v5-pas-10-questions-avant-de-recevoir-christ"
-    },
-    {
-     "numero": 11,
-     "titre": "Et maintenant ? La vérité ou le mensonge ?",
-     "id": "v5-pas-11-la-verite-ou-le-mensonge"
-    }
-   ]
-  },
-  {
-   "numero": 6,
-   "titre": "Volume 6 · Les missions mondiales",
-   "sous_titre": "Atteindre le monde pour Christ",
-   "pas": [
-    {
-     "numero": 1,
-     "titre": "Le défi des missions mondiales",
-     "id": "v6-pas-01-le-defi-des-missions"
-    },
-    {
-     "numero": 2,
-     "titre": "Pionniers des missions",
-     "id": "v6-pas-02-pionniers-des-missions"
-    },
-    {
-     "numero": 3,
-     "titre": "Le père des missions modernes",
-     "id": "v6-pas-03-le-pere-des-missions-modernes"
-    },
-    {
-     "numero": 4,
-     "titre": "Comment entendront-ils ?",
-     "id": "v6-pas-04-comment-entendront-ils"
-    },
-    {
-     "numero": 5,
-     "titre": "Pourquoi n'y a-t-il pas plus de missionnaires ?",
-     "id": "v6-pas-05-pourquoi-pas-plus-de-missionnaires"
-    },
-    {
-     "numero": 6,
-     "titre": "Possible ou impossible ?",
-     "id": "v6-pas-06-possible-ou-impossible"
-    },
-    {
-     "numero": 7,
-     "titre": "Le défi des peuples non atteints",
-     "id": "v6-pas-07-peuples-non-atteints"
-    },
-    {
-     "numero": 8,
-     "titre": "Comment commencer ?",
-     "id": "v6-pas-08-comment-commencer"
-    },
-    {
-     "numero": 9,
-     "titre": "Une seule vie",
-     "id": "v6-pas-09-une-seule-vie"
-    },
-    {
-     "numero": 10,
-     "titre": "Les récompenses",
-     "id": "v6-pas-10-recompenses"
-    }
-   ]
-  },
-  {
-   "numero": 0,
-   "titre": "Volume 0 · Qui est Jésus-Christ ?",
-   "sous_titre": "Pour celui qui cherche : découvrir Jésus avant de décider",
-   "pas": [
-    {
-     "numero": 1,
-     "titre": "Jésus, l'auteur de la vie",
-     "id": "v0-pas-01-jesus-auteur-de-la-vie"
-    },
-    {
-     "numero": 2,
-     "titre": "Jésus, l'Agneau de Dieu",
-     "id": "v0-pas-02-jesus-agneau-de-dieu"
-    },
-    {
-     "numero": 3,
-     "titre": "Jésus, le Bon Berger",
-     "id": "v0-pas-03-jesus-bon-berger"
-    },
-    {
-     "numero": 4,
-     "titre": "Il est vivant !",
-     "id": "v0-pas-04-il-est-vivant"
-    },
-    {
-     "numero": 5,
-     "titre": "Christ, mon Avocat",
-     "id": "v0-pas-05-christ-mon-avocat"
-    },
-    {
-     "numero": 6,
-     "titre": "Christ, mon Roi",
-     "id": "v0-pas-06-christ-mon-roi"
-    }
-   ]
-  }
- ]
+  ]
 }

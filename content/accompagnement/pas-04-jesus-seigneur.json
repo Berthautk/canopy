@@ -1,404 +1,404 @@
 {
- "id": "pas-04-jesus-seigneur",
- "volume": 1,
- "numero": 4,
- "titre": "Christ, Seigneur de toute ma vie",
- "sous_titre": "Remettre à Jésus, un par un, tous les domaines de ma vie",
- "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
- "enseignement": "affermissement-4-jesus-seigneur",
- "verset_memoire": "Romains 12:1",
- "lecture": {
-  "titre": "Cette semaine, lis Marc 1 à 7, un chapitre par jour",
-  "conseil": "Note chaque jour une parole ou un geste par lesquels Jésus montre son autorité.",
-  "jours": [
-   "Marc 1",
-   "Marc 2",
-   "Marc 3",
-   "Marc 4",
-   "Marc 5",
-   "Marc 6",
-   "Marc 7"
-  ]
- },
- "introduction": [
-  "Jésus t'a sauvé. Mais il veut aussi être ton Seigneur : celui qui dirige ta vie, parce qu'il t'aime et qu'il sait ce qui est bon pour toi.",
-  "Cette semaine, tu vas regarder honnêtement chaque domaine de ta vie. Pas pour te condamner, mais pour lui remettre ce que tu tiens encore. Le joug de Jésus est aisé et son fardeau léger."
- ],
- "parties": [
-  {
-   "titre": "Pour commencer : vrai ou faux ?",
-   "intro": null,
-   "elements": [
+  "id": "pas-04-jesus-seigneur",
+  "volume": 1,
+  "numero": 4,
+  "titre": "Christ, Seigneur de toute ma vie",
+  "sous_titre": "Remettre à Jésus, un par un, tous les domaines de ma vie",
+  "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+  "enseignement": "affermissement-4-jesus-seigneur",
+  "verset_memoire": "Romains 12:1",
+  "lecture": {
+    "titre": "Cette semaine, lis Marc 1 à 7, un chapitre par jour",
+    "conseil": "Note chaque jour une parole ou un geste par lesquels Jésus montre son autorité.",
+    "jours": [
+      "Marc 1",
+      "Marc 2",
+      "Marc 3",
+      "Marc 4",
+      "Marc 5",
+      "Marc 6",
+      "Marc 7"
+    ]
+  },
+  "introduction": [
+    "Jésus t'a sauvé. Mais il veut aussi être ton Seigneur : celui qui dirige ta vie, parce qu'il t'aime et qu'il sait ce qui est bon pour toi.",
+    "Cette semaine, tu vas regarder honnêtement chaque domaine de ta vie. Pas pour te condamner, mais pour lui remettre ce que tu tiens encore. Le joug de Jésus est aisé et son fardeau léger."
+  ],
+  "parties": [
     {
-     "type": "vf",
-     "items": [
+      "titre": "Pour commencer : vrai ou faux ?",
+      "intro": null,
+      "elements": [
+        {
+          "type": "vf",
+          "items": [
+            {
+              "id": "vf1",
+              "texte": "On peut accepter Jésus comme Sauveur sans le reconnaître comme Seigneur.",
+              "reponse": false,
+              "explication": "Pierre dit : « Dieu l'a fait Seigneur et Christ » (Actes 2:36). Sauveur et Seigneur vont ensemble. Jésus demande : « Pourquoi m'appelez-vous Seigneur, Seigneur, et ne faites-vous pas ce que je dis ? » (Luc 6:46)."
+            },
+            {
+              "id": "vf2",
+              "texte": "Si Jésus est mon Seigneur, il n'a pas de droit sur mon argent.",
+              "reponse": false,
+              "explication": "Rien n'échappe à sa seigneurie : l'argent, le temps, le mariage, le travail, les amitiés (Matthieu 6:24)."
+            },
+            {
+              "id": "vf3",
+              "texte": "Être sous l'autorité de Jésus, c'est être esclave et malheureux.",
+              "reponse": false,
+              "explication": "Son joug est aisé et son fardeau léger (Matthieu 11:28-30). Celui qui sert Jésus trouve le repos."
+            },
+            {
+              "id": "vf4",
+              "texte": "Je peux garder un petit domaine de ma vie pour moi seul.",
+              "reponse": false,
+              "explication": "Un seul trône dans le cœur : ou Jésus, ou moi, ou une idole. Il n'accepte pas d'être Seigneur d'une partie seulement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "I. Qui est le Seigneur ?",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q1",
+          "texte": "Lis Philippiens 2:9-11. Que dit Dieu de Jésus ? Que devra faire tout genou ?",
+          "refs": [
+            "Philippiens 2:9-11"
+          ],
+          "accompagnateur": {
+            "attendu": "Dieu l'a souverainement élevé et lui a donné le nom au-dessus de tout nom. Tout genou fléchira, toute langue confessera que Jésus-Christ est Seigneur.",
+            "expliquer": [
+              "« Seigneur » (Kurios) est le titre que la Bible grecque donne à Dieu lui-même. Dire « Jésus est Seigneur », c'est dire qu'il est Dieu.",
+              "Pour un ancien musulman ou un ancien pratiquant des religions traditionnelles, cette phrase est un grand pas, et peut coûter cher."
+            ],
+            "relance": "Qui était ton « seigneur » avant Jésus : une personne, un esprit, l'argent, ta famille ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q2",
+          "texte": "D'après Romains 10:9, que faut-il confesser pour être sauvé ?",
+          "refs": [
+            "Romains 10:9"
+          ],
+          "accompagnateur": {
+            "attendu": "Que Jésus est Seigneur, et croire que Dieu l'a ressuscité des morts.",
+            "expliquer": [
+              "Le salut n'est pas seulement « croire des choses sur Jésus » : c'est le reconnaître Seigneur."
+            ],
+            "erreurs": [
+              "Penser qu'on peut être sauvé et continuer à vivre comme avant, en gardant Jésus « en réserve »."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q3",
+          "texte": "Lis Luc 6:46-49. Quelle est la différence entre les deux hommes ? Que représente la maison sur le roc ?",
+          "refs": [
+            "Luc 6:46-49"
+          ],
+          "accompagnateur": {
+            "attendu": "Les deux entendent la Parole. L'un la met en pratique, l'autre non. Quand la tempête vient, la maison bâtie sur le roc tient.",
+            "expliquer": [
+              "Appeler Jésus « Seigneur » avec la bouche sans lui obéir est une foi bâtie sur le sable.",
+              "Les tempêtes viennent pour tous : maladies, deuils, pressions de la famille. C'est là qu'on voit sur quoi on est bâti."
+            ],
+            "relance": "Dans quel domaine as-tu entendu la Parole sans encore la mettre en pratique ?"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "II. Je ne m'appartiens plus",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q4",
+          "texte": "Lis 1 Corinthiens 6:19-20. À qui appartiens-tu ? Quel prix a été payé ?",
+          "refs": [
+            "1 Corinthiens 6:19-20"
+          ],
+          "accompagnateur": {
+            "attendu": "Tu ne t'appartiens pas : tu as été racheté à un grand prix, le sang de Jésus. Ton corps est le temple du Saint-Esprit. Il faut donc glorifier Dieu dans ton corps.",
+            "expliquer": [
+              "Image du marché : un objet acheté appartient à celui qui l'a payé. Jésus nous a achetés avec son sang.",
+              "Cela touche le corps : la sexualité, l'alcool, la drogue, les marques corporelles."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q5",
+          "texte": "D'après Romains 12:1-2, que dois-je offrir à Dieu ? Comment mon esprit change-t-il ?",
+          "refs": [
+            "Romains 12:1-2"
+          ],
+          "accompagnateur": {
+            "attendu": "Offrir son corps en sacrifice vivant, saint, agréable à Dieu. Ne pas se conformer au monde, mais être transformé par le renouvellement de l'intelligence.",
+            "expliquer": [
+              "Un sacrifice vivant : on ne meurt pas, mais on se donne chaque jour.",
+              "Le renouvellement vient de la Parole lue et méditée, pas d'un effort de volonté seul."
+            ],
+            "relance": "Qu'est-ce qui, dans ton comportement de chaque jour, ressemble encore au monde d'avant ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q6",
+          "texte": "Lis Luc 9:23-25. Que veut dire « renoncer à soi-même », « prendre sa croix chaque jour » ?",
+          "refs": [
+            "Luc 9:23-25"
+          ],
+          "accompagnateur": {
+            "attendu": "Dire non à ma volonté quand elle s'oppose à celle de Jésus, accepter la honte et le prix de le suivre, et le faire chaque jour.",
+            "expliquer": [
+              "Ce n'est pas chercher la souffrance, c'est accepter qu'elle puisse venir à cause de Jésus.",
+              "Pour un nouveau converti, la croix peut être le rejet de sa famille ou de son village. Ne pas minimiser."
+            ],
+            "relance": "Qu'est-ce que Jésus te demande de lâcher en ce moment ?"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "III. Les domaines de ma vie",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q7",
+          "texte": "D'après Matthieu 22:37-38 et Colossiens 3:17, sur quelle part de ma vie Jésus règne-t-il ?",
+          "refs": [
+            "Matthieu 22:37-38",
+            "Colossiens 3:17"
+          ],
+          "accompagnateur": {
+            "attendu": "Sur tout : tout le cœur, toute l'âme, toute la pensée ; tout ce que je dis ou fais, au nom du Seigneur Jésus.",
+            "expliquer": [
+              "On passe en revue les domaines : famille, mariage, travail, argent, temps, amitiés, loisirs, santé, projets d'avenir, relation avec les esprits, les marabouts et la lignée."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q8",
+          "texte": "Lis Matthieu 6:19-24. Qui sert-on quand on sert l'argent ? Où est mon trésor ?",
+          "refs": [
+            "Matthieu 6:19-24"
+          ],
+          "accompagnateur": {
+            "attendu": "On ne peut pas servir deux maîtres, Dieu et l'argent. Là où est ton trésor, là aussi sera ton cœur.",
+            "expliquer": [
+              "Les mots clés : confiance, avidité, générosité. L'argent devient un maître quand on ment, vole, triche, ou refuse de donner à cause de lui."
+            ],
+            "relance": "Ton argent est-il au service de Jésus ou ton cœur au service de l'argent ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q9",
+          "texte": "Lis Marc 10:17-22. Qu'est-ce qui empêchait le jeune homme riche de suivre Jésus ?",
+          "refs": [
+            "Marc 10:17-22"
+          ],
+          "accompagnateur": {
+            "attendu": "Il aimait ses richesses plus que Jésus. Il est parti triste.",
+            "expliquer": [
+              "Jésus l'aimait, et pourtant il n'a pas baissé son exigence.",
+              "Chacun a son « jeune homme riche » : un attachement qu'on ne veut pas lâcher (une relation, un statut, une pratique occulte, une dette d'honneur)."
+            ],
+            "relance": "Quel est ton attachement le plus difficile à lâcher ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q10",
+          "texte": "Lis Genèse 22:1-3 et 12. Qu'a offert Abraham ? Qu'a dit Dieu ensuite ?",
+          "refs": [
+            "Genèse 22:1-3",
+            "Genèse 22:12"
+          ],
+          "accompagnateur": {
+            "attendu": "Il a été prêt à offrir son fils unique. Dieu dit : maintenant je sais que tu crains Dieu, tu ne m'as pas refusé ton fils.",
+            "expliquer": [
+              "Abraham a tout remis à Dieu : ce qu'il aimait le plus. Dieu a pourvu."
+            ],
+            "relance": "Quelle personne ou quelle chose as-tu tendance à mettre à la place de Dieu ?"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "IV. Vivre sous son autorité chaque jour",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q11",
+          "texte": "Lis Luc 5:4-6 (« Sur ta parole »). Qu'est-ce que Pierre a dû mettre de côté pour obéir ?",
+          "refs": [
+            "Luc 5:4-6"
+          ],
+          "accompagnateur": {
+            "attendu": "Son expérience de pêcheur, sa fatigue, sa logique. Il a dit : « Sur ta parole, je jetterai le filet. »",
+            "expliquer": [
+              "L'obéissance coûte quand elle contredit notre raisonnement. Les résultats viennent après."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q12",
+          "texte": "D'après Jean 14:15 et 14:21, comment montre-t-on qu'on aime Jésus ?",
+          "refs": [
+            "Jean 14:15",
+            "Jean 14:21"
+          ],
+          "accompagnateur": {
+            "attendu": "En gardant ses commandements.",
+            "expliquer": [
+              "L'amour pour Jésus n'est pas d'abord un sentiment : c'est l'obéissance."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q13",
+          "texte": "Lis Actes 9:1-9 et 22:10. Quelle première question Paul pose-t-il à Jésus après sa rencontre ?",
+          "refs": [
+            "Actes 9:1-9",
+            "Actes 22:10"
+          ],
+          "accompagnateur": {
+            "attendu": "« Que dois-je faire, Seigneur ? » Il a obéi tout de suite.",
+            "expliquer": [
+              "Voilà la prière du disciple chaque matin : « Seigneur, que veux-tu que je fasse aujourd'hui ? »"
+            ],
+            "relance": "Quelle décision attend ton « oui » à Jésus cette semaine ?"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "Ma consécration",
+      "intro": null,
+      "elements": [
+        {
+          "type": "encadre",
+          "style": "application",
+          "titre": "Les domaines de ma vie",
+          "texte": [
+            "Pour chaque domaine, note : « Jésus est Seigneur » ou « il me reste à lui remettre ». Famille. Mariage ou projet de mariage. Argent. Travail ou études. Temps. Amitiés. Sexualité. Loisirs. Santé. Avenir. Peurs et pratiques anciennes."
+          ],
+          "champ": "Mes domaines",
+          "id": "domaines-vie"
+        },
+        {
+          "type": "question",
+          "id": "q14",
+          "texte": "Écris, avec tes mots, une prière de consécration à Jésus Seigneur. Tu la prieras avec ton berger.",
+          "refs": [
+            "Romains 12:1"
+          ],
+          "accompagnateur": {
+            "attendu": "Une prière personnelle et honnête, qui remet à Jésus des domaines précis.",
+            "expliquer": [
+              "Ne pas imposer de formule : écouter la prière de la personne, puis prier avec elle."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q15",
+          "texte": "Écris Romains 12:1 de mémoire.",
+          "refs": [
+            "Romains 12:1"
+          ],
+          "accompagnateur": {
+            "attendu": "« Je vous exhorte donc, frères, par les compassions de Dieu, à offrir vos corps comme un sacrifice vivant, saint, agréable à Dieu, ce qui sera de votre part un culte raisonnable. »",
+            "expliquer": [
+              "Faire réciter aussi les versets des pas 1 à 3."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "accompagnateur": {
+    "but": [
+      "Que la personne comprenne que Jésus est Sauveur et Seigneur, et lui remette consciemment ses domaines.",
+      "Identifier l'attachement principal qui la retient, et le nommer sans honte.",
+      "Prier avec elle une prière de consécration."
+    ],
+    "preparation": [
+      "Relire tes notes des pas 1 à 3.",
+      "Relire le bilan de vie : les domaines non remis y apparaissent souvent.",
+      "Prier pour la personne et pour ce que Jésus va lui demander."
+    ],
+    "deroulement": [
       {
-       "id": "vf1",
-       "texte": "On peut accepter Jésus comme Sauveur sans le reconnaître comme Seigneur.",
-       "reponse": false,
-       "explication": "Pierre dit : « Dieu l'a fait Seigneur et Christ » (Actes 2:36). Sauveur et Seigneur vont ensemble. Jésus demande : « Pourquoi m'appelez-vous Seigneur, Seigneur, et ne faites-vous pas ce que je dis ? » (Luc 6:46)."
+        "titre": "Accueil, prière, retour sur la semaine",
+        "minutes": 15,
+        "conseils": [
+          "Lecture de Marc 1 à 7 : quelle autorité de Jésus l'a frappée ?",
+          "Points encore ouverts des pas précédents."
+        ]
       },
       {
-       "id": "vf2",
-       "texte": "Si Jésus est mon Seigneur, il n'a pas de droit sur mon argent.",
-       "reponse": false,
-       "explication": "Rien n'échappe à sa seigneurie : l'argent, le temps, le mariage, le travail, les amitiés (Matthieu 6:24)."
+        "titre": "Vrai ou faux",
+        "minutes": 10,
+        "conseils": [
+          "Reprendre chaque affirmation."
+        ]
       },
       {
-       "id": "vf3",
-       "texte": "Être sous l'autorité de Jésus, c'est être esclave et malheureux.",
-       "reponse": false,
-       "explication": "Son joug est aisé et son fardeau léger (Matthieu 11:28-30). Celui qui sert Jésus trouve le repos."
+        "titre": "Qui est le Seigneur ?",
+        "minutes": 20,
+        "conseils": [
+          "Questions 1 à 3."
+        ]
       },
       {
-       "id": "vf4",
-       "texte": "Je peux garder un petit domaine de ma vie pour moi seul.",
-       "reponse": false,
-       "explication": "Un seul trône dans le cœur : ou Jésus, ou moi, ou une idole. Il n'accepte pas d'être Seigneur d'une partie seulement."
+        "titre": "Je ne m'appartiens plus",
+        "minutes": 25,
+        "conseils": [
+          "Questions 4 à 6. Attention aux domaines sensibles (corps, argent, mariage)."
+        ]
+      },
+      {
+        "titre": "Les domaines de ma vie",
+        "minutes": 25,
+        "conseils": [
+          "Questions 7 à 10 et le tableau « Mes domaines ». Écouter plus que parler."
+        ]
+      },
+      {
+        "titre": "Vivre sous son autorité",
+        "minutes": 10,
+        "conseils": [
+          "Questions 11 à 13."
+        ]
+      },
+      {
+        "titre": "Consécration et remise du pas 5",
+        "minutes": 15,
+        "conseils": [
+          "Prier avec la personne sa prière de consécration. Réciter Romains 12:1. Remettre le pas 5 « Vivre par l'Esprit »."
+        ]
       }
-     ]
-    }
-   ]
-  },
-  {
-   "titre": "I. Qui est le Seigneur ?",
-   "intro": null,
-   "elements": [
-    {
-     "type": "question",
-     "id": "q1",
-     "texte": "Lis Philippiens 2:9-11. Que dit Dieu de Jésus ? Que devra faire tout genou ?",
-     "refs": [
-      "Philippiens 2:9-11"
-     ],
-     "accompagnateur": {
-      "attendu": "Dieu l'a souverainement élevé et lui a donné le nom au-dessus de tout nom. Tout genou fléchira, toute langue confessera que Jésus-Christ est Seigneur.",
-      "expliquer": [
-       "« Seigneur » (Kurios) est le titre que la Bible grecque donne à Dieu lui-même. Dire « Jésus est Seigneur », c'est dire qu'il est Dieu.",
-       "Pour un ancien musulman ou un ancien pratiquant des religions traditionnelles, cette phrase est un grand pas, et peut coûter cher."
-      ],
-      "relance": "Qui était ton « seigneur » avant Jésus : une personne, un esprit, l'argent, ta famille ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q2",
-     "texte": "D'après Romains 10:9, que faut-il confesser pour être sauvé ?",
-     "refs": [
-      "Romains 10:9"
-     ],
-     "accompagnateur": {
-      "attendu": "Que Jésus est Seigneur, et croire que Dieu l'a ressuscité des morts.",
-      "expliquer": [
-       "Le salut n'est pas seulement « croire des choses sur Jésus » : c'est le reconnaître Seigneur."
-      ],
-      "erreurs": [
-       "Penser qu'on peut être sauvé et continuer à vivre comme avant, en gardant Jésus « en réserve »."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q3",
-     "texte": "Lis Luc 6:46-49. Quelle est la différence entre les deux hommes ? Que représente la maison sur le roc ?",
-     "refs": [
-      "Luc 6:46-49"
-     ],
-     "accompagnateur": {
-      "attendu": "Les deux entendent la Parole. L'un la met en pratique, l'autre non. Quand la tempête vient, la maison bâtie sur le roc tient.",
-      "expliquer": [
-       "Appeler Jésus « Seigneur » avec la bouche sans lui obéir est une foi bâtie sur le sable.",
-       "Les tempêtes viennent pour tous : maladies, deuils, pressions de la famille. C'est là qu'on voit sur quoi on est bâti."
-      ],
-      "relance": "Dans quel domaine as-tu entendu la Parole sans encore la mettre en pratique ?"
-     }
-    }
-   ]
-  },
-  {
-   "titre": "II. Je ne m'appartiens plus",
-   "intro": null,
-   "elements": [
-    {
-     "type": "question",
-     "id": "q4",
-     "texte": "Lis 1 Corinthiens 6:19-20. À qui appartiens-tu ? Quel prix a été payé ?",
-     "refs": [
-      "1 Corinthiens 6:19-20"
-     ],
-     "accompagnateur": {
-      "attendu": "Tu ne t'appartiens pas : tu as été racheté à un grand prix, le sang de Jésus. Ton corps est le temple du Saint-Esprit. Il faut donc glorifier Dieu dans ton corps.",
-      "expliquer": [
-       "Image du marché : un objet acheté appartient à celui qui l'a payé. Jésus nous a achetés avec son sang.",
-       "Cela touche le corps : la sexualité, l'alcool, la drogue, les marques corporelles."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q5",
-     "texte": "D'après Romains 12:1-2, que dois-je offrir à Dieu ? Comment mon esprit change-t-il ?",
-     "refs": [
-      "Romains 12:1-2"
-     ],
-     "accompagnateur": {
-      "attendu": "Offrir son corps en sacrifice vivant, saint, agréable à Dieu. Ne pas se conformer au monde, mais être transformé par le renouvellement de l'intelligence.",
-      "expliquer": [
-       "Un sacrifice vivant : on ne meurt pas, mais on se donne chaque jour.",
-       "Le renouvellement vient de la Parole lue et méditée, pas d'un effort de volonté seul."
-      ],
-      "relance": "Qu'est-ce qui, dans ton comportement de chaque jour, ressemble encore au monde d'avant ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q6",
-     "texte": "Lis Luc 9:23-25. Que veut dire « renoncer à soi-même », « prendre sa croix chaque jour » ?",
-     "refs": [
-      "Luc 9:23-25"
-     ],
-     "accompagnateur": {
-      "attendu": "Dire non à ma volonté quand elle s'oppose à celle de Jésus, accepter la honte et le prix de le suivre, et le faire chaque jour.",
-      "expliquer": [
-       "Ce n'est pas chercher la souffrance, c'est accepter qu'elle puisse venir à cause de Jésus.",
-       "Pour un nouveau converti, la croix peut être le rejet de sa famille ou de son village. Ne pas minimiser."
-      ],
-      "relance": "Qu'est-ce que Jésus te demande de lâcher en ce moment ?"
-     }
-    }
-   ]
-  },
-  {
-   "titre": "III. Les domaines de ma vie",
-   "intro": null,
-   "elements": [
-    {
-     "type": "question",
-     "id": "q7",
-     "texte": "D'après Matthieu 22:37-38 et Colossiens 3:17, sur quelle part de ma vie Jésus règne-t-il ?",
-     "refs": [
-      "Matthieu 22:37-38",
-      "Colossiens 3:17"
-     ],
-     "accompagnateur": {
-      "attendu": "Sur tout : tout le cœur, toute l'âme, toute la pensée ; tout ce que je dis ou fais, au nom du Seigneur Jésus.",
-      "expliquer": [
-       "On passe en revue les domaines : famille, mariage, travail, argent, temps, amitiés, loisirs, santé, projets d'avenir, relation avec les esprits, les marabouts et la lignée."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q8",
-     "texte": "Lis Matthieu 6:19-24. Qui sert-on quand on sert l'argent ? Où est mon trésor ?",
-     "refs": [
-      "Matthieu 6:19-24"
-     ],
-     "accompagnateur": {
-      "attendu": "On ne peut pas servir deux maîtres, Dieu et l'argent. Là où est ton trésor, là aussi sera ton cœur.",
-      "expliquer": [
-       "Les mots clés : confiance, avidité, générosité. L'argent devient un maître quand on ment, vole, triche, ou refuse de donner à cause de lui."
-      ],
-      "relance": "Ton argent est-il au service de Jésus ou ton cœur au service de l'argent ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q9",
-     "texte": "Lis Marc 10:17-22. Qu'est-ce qui empêchait le jeune homme riche de suivre Jésus ?",
-     "refs": [
-      "Marc 10:17-22"
-     ],
-     "accompagnateur": {
-      "attendu": "Il aimait ses richesses plus que Jésus. Il est parti triste.",
-      "expliquer": [
-       "Jésus l'aimait, et pourtant il n'a pas baissé son exigence.",
-       "Chacun a son « jeune homme riche » : un attachement qu'on ne veut pas lâcher (une relation, un statut, une pratique occulte, une dette d'honneur)."
-      ],
-      "relance": "Quel est ton attachement le plus difficile à lâcher ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q10",
-     "texte": "Lis Genèse 22:1-3 et 12. Qu'a offert Abraham ? Qu'a dit Dieu ensuite ?",
-     "refs": [
-      "Genèse 22:1-3",
-      "Genèse 22:12"
-     ],
-     "accompagnateur": {
-      "attendu": "Il a été prêt à offrir son fils unique. Dieu dit : maintenant je sais que tu crains Dieu, tu ne m'as pas refusé ton fils.",
-      "expliquer": [
-       "Abraham a tout remis à Dieu : ce qu'il aimait le plus. Dieu a pourvu."
-      ],
-      "relance": "Quelle personne ou quelle chose as-tu tendance à mettre à la place de Dieu ?"
-     }
-    }
-   ]
-  },
-  {
-   "titre": "IV. Vivre sous son autorité chaque jour",
-   "intro": null,
-   "elements": [
-    {
-     "type": "question",
-     "id": "q11",
-     "texte": "Lis Luc 5:4-6 (« Sur ta parole »). Qu'est-ce que Pierre a dû mettre de côté pour obéir ?",
-     "refs": [
-      "Luc 5:4-6"
-     ],
-     "accompagnateur": {
-      "attendu": "Son expérience de pêcheur, sa fatigue, sa logique. Il a dit : « Sur ta parole, je jetterai le filet. »",
-      "expliquer": [
-       "L'obéissance coûte quand elle contredit notre raisonnement. Les résultats viennent après."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q12",
-     "texte": "D'après Jean 14:15 et 14:21, comment montre-t-on qu'on aime Jésus ?",
-     "refs": [
-      "Jean 14:15",
-      "Jean 14:21"
-     ],
-     "accompagnateur": {
-      "attendu": "En gardant ses commandements.",
-      "expliquer": [
-       "L'amour pour Jésus n'est pas d'abord un sentiment : c'est l'obéissance."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q13",
-     "texte": "Lis Actes 9:1-9 et 22:10. Quelle première question Paul pose-t-il à Jésus après sa rencontre ?",
-     "refs": [
-      "Actes 9:1-9",
-      "Actes 22:10"
-     ],
-     "accompagnateur": {
-      "attendu": "« Que dois-je faire, Seigneur ? » Il a obéi tout de suite.",
-      "expliquer": [
-       "Voilà la prière du disciple chaque matin : « Seigneur, que veux-tu que je fasse aujourd'hui ? »"
-      ],
-      "relance": "Quelle décision attend ton « oui » à Jésus cette semaine ?"
-     }
-    }
-   ]
-  },
-  {
-   "titre": "Ma consécration",
-   "intro": null,
-   "elements": [
-    {
-     "type": "encadre",
-     "style": "application",
-     "titre": "Les domaines de ma vie",
-     "texte": [
-      "Pour chaque domaine, note : « Jésus est Seigneur » ou « il me reste à lui remettre ». Famille. Mariage ou projet de mariage. Argent. Travail ou études. Temps. Amitiés. Sexualité. Loisirs. Santé. Avenir. Peurs et pratiques anciennes."
-     ],
-     "champ": "Mes domaines",
-     "id": "domaines-vie"
-    },
-    {
-     "type": "question",
-     "id": "q14",
-     "texte": "Écris, avec tes mots, une prière de consécration à Jésus Seigneur. Tu la prieras avec ton accompagnateur.",
-     "refs": [
-      "Romains 12:1"
-     ],
-     "accompagnateur": {
-      "attendu": "Une prière personnelle et honnête, qui remet à Jésus des domaines précis.",
-      "expliquer": [
-       "Ne pas imposer de formule : écouter la prière de la personne, puis prier avec elle."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q15",
-     "texte": "Écris Romains 12:1 de mémoire.",
-     "refs": [
-      "Romains 12:1"
-     ],
-     "accompagnateur": {
-      "attendu": "« Je vous exhorte donc, frères, par les compassions de Dieu, à offrir vos corps comme un sacrifice vivant, saint, agréable à Dieu, ce qui sera de votre part un culte raisonnable. »",
-      "expliquer": [
-       "Faire réciter aussi les versets des pas 1 à 3."
-      ]
-     }
-    }
-   ]
+    ],
+    "vigilance": [
+      "Ne pas forcer une consécration que la personne n'est pas prête à faire : mieux vaut un « pas encore » honnête qu'un oui de façade.",
+      "Si un attachement est lié à une pratique occulte, un objet ou une dette de lignée, y revenir à partir du bilan de vie.",
+      "Veiller à ce que « Seigneur » ne devienne pas un joug pesant : toujours revenir à l'amour de Jésus."
+    ]
   }
- ],
- "accompagnateur": {
-  "but": [
-   "Que la personne comprenne que Jésus est Sauveur et Seigneur, et lui remette consciemment ses domaines.",
-   "Identifier l'attachement principal qui la retient, et le nommer sans honte.",
-   "Prier avec elle une prière de consécration."
-  ],
-  "preparation": [
-   "Relire tes notes des pas 1 à 3.",
-   "Relire le bilan de vie : les domaines non remis y apparaissent souvent.",
-   "Prier pour la personne et pour ce que Jésus va lui demander."
-  ],
-  "deroulement": [
-   {
-    "titre": "Accueil, prière, retour sur la semaine",
-    "minutes": 15,
-    "conseils": [
-     "Lecture de Marc 1 à 7 : quelle autorité de Jésus l'a frappée ?",
-     "Points encore ouverts des pas précédents."
-    ]
-   },
-   {
-    "titre": "Vrai ou faux",
-    "minutes": 10,
-    "conseils": [
-     "Reprendre chaque affirmation."
-    ]
-   },
-   {
-    "titre": "Qui est le Seigneur ?",
-    "minutes": 20,
-    "conseils": [
-     "Questions 1 à 3."
-    ]
-   },
-   {
-    "titre": "Je ne m'appartiens plus",
-    "minutes": 25,
-    "conseils": [
-     "Questions 4 à 6. Attention aux domaines sensibles (corps, argent, mariage)."
-    ]
-   },
-   {
-    "titre": "Les domaines de ma vie",
-    "minutes": 25,
-    "conseils": [
-     "Questions 7 à 10 et le tableau « Mes domaines ». Écouter plus que parler."
-    ]
-   },
-   {
-    "titre": "Vivre sous son autorité",
-    "minutes": 10,
-    "conseils": [
-     "Questions 11 à 13."
-    ]
-   },
-   {
-    "titre": "Consécration et remise du pas 5",
-    "minutes": 15,
-    "conseils": [
-     "Prier avec la personne sa prière de consécration. Réciter Romains 12:1. Remettre le pas 5 « Vivre par l'Esprit »."
-    ]
-   }
-  ],
-  "vigilance": [
-   "Ne pas forcer une consécration que la personne n'est pas prête à faire : mieux vaut un « pas encore » honnête qu'un oui de façade.",
-   "Si un attachement est lié à une pratique occulte, un objet ou une dette de lignée, y revenir à partir du bilan de vie.",
-   "Veiller à ce que « Seigneur » ne devienne pas un joug pesant : toujours revenir à l'amour de Jésus."
-  ]
- }
 }

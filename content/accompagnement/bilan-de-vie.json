@@ -1,1287 +1,1287 @@
 {
- "id": "bilan-de-vie",
- "titre": "Mon bilan de vie",
- "sous_titre": "Avant Christ : ce qu'il faut apporter à la croix",
- "auteur": "Yeshaya",
- "duree": "1 à 2 heures pour le remplir, sans se presser",
- "introduction": [
-  "« Nous marchons dans la chair, mais nous ne combattons pas selon la chair. Car les armes avec lesquelles nous combattons ne sont pas charnelles ; mais elles sont puissantes, par la vertu de Dieu, pour renverser des forteresses. » (2 Corinthiens 10:3-4)",
-  "La Bible parle de « forteresses » : des domaines où l'on connaît la défaite, la peur, des blocages qui empêchent d'avancer et de goûter à l'intimité avec Dieu. Leur origine peut venir de ta lignée, de tes parents, ou de toi-même, par ce que tu as vécu, subi ou pratiqué.",
-  "Quand tu as donné ta vie à Jésus, ta dette envers Dieu a été entièrement payée. Mais il reste souvent des portes à fermer, des pactes à rejeter, des blessures à guérir, des torts à réparer. C'est ce que ce bilan t'aide à voir, pour le traiter à la racine avec ton accompagnateur, en t'appuyant sur la victoire de la croix.",
-  "N'aie aucune crainte : « Celui qui est en vous est plus grand que celui qui est dans le monde » (1 Jean 4:4). Ce bilan est là pour t'aider, pas pour te juger."
- ],
- "consignes": [
-  "Réponds avec sincérité, sans peur.",
-  "Coche ce qui te concerne ; laisse vide ce qui ne te concerne pas.",
-  "Rien n'est obligatoire : tu peux garder une réponse pour la dire de vive voix.",
-  "Tes réponses restent sur ce téléphone. Elles ne sont jamais envoyées à Yeshaya.",
-  "Prends ton temps : ce moment est pour toi et pour ta liberté."
- ],
- "sections": [
-  {
-   "id": "identite",
-   "titre": "1. Qui es-tu ?",
-   "intro": "Quelques repères sur toi. Ton nom compte : en Afrique, un nom est souvent une parole prononcée sur la vie d'un enfant, parfois une dédicace.",
-   "blocs": [
+  "id": "bilan-de-vie",
+  "titre": "Mon bilan de vie",
+  "sous_titre": "Avant Christ : ce qu'il faut apporter à la croix",
+  "auteur": "Yeshaya",
+  "duree": "1 à 2 heures pour le remplir, sans se presser",
+  "introduction": [
+    "« Nous marchons dans la chair, mais nous ne combattons pas selon la chair. Car les armes avec lesquelles nous combattons ne sont pas charnelles ; mais elles sont puissantes, par la vertu de Dieu, pour renverser des forteresses. » (2 Corinthiens 10:3-4)",
+    "La Bible parle de « forteresses » : des domaines où l'on connaît la défaite, la peur, des blocages qui empêchent d'avancer et de goûter à l'intimité avec Dieu. Leur origine peut venir de ta lignée, de tes parents, ou de toi-même, par ce que tu as vécu, subi ou pratiqué.",
+    "Quand tu as donné ta vie à Jésus, ta dette envers Dieu a été entièrement payée. Mais il reste souvent des portes à fermer, des pactes à rejeter, des blessures à guérir, des torts à réparer. C'est ce que ce bilan t'aide à voir, pour le traiter à la racine avec ton berger, en t'appuyant sur la victoire de la croix.",
+    "N'aie aucune crainte : « Celui qui est en vous est plus grand que celui qui est dans le monde » (1 Jean 4:4). Ce bilan est là pour t'aider, pas pour te juger."
+  ],
+  "consignes": [
+    "Réponds avec sincérité, sans peur.",
+    "Coche ce qui te concerne ; laisse vide ce qui ne te concerne pas.",
+    "Rien n'est obligatoire : tu peux garder une réponse pour la dire de vive voix.",
+    "Tes réponses restent sur ce téléphone. Elles ne sont jamais envoyées à Yeshaya.",
+    "Prends ton temps : ce moment est pour toi et pour ta liberté."
+  ],
+  "sections": [
     {
-     "type": "texte",
-     "id": "prenom",
-     "label": "Ton prénom (ou tes initiales)"
+      "id": "identite",
+      "titre": "1. Qui es-tu ?",
+      "intro": "Quelques repères sur toi. Ton nom compte : en Afrique, un nom est souvent une parole prononcée sur la vie d'un enfant, parfois une dédicace.",
+      "blocs": [
+        {
+          "type": "texte",
+          "id": "prenom",
+          "label": "Ton prénom (ou tes initiales)"
+        },
+        {
+          "type": "texte",
+          "id": "nom-sens",
+          "label": "Que signifie ton nom ou ton prénom ? Qui te l'a donné, et pourquoi ?",
+          "axe": "lignee"
+        },
+        {
+          "type": "texte",
+          "id": "sobriquet",
+          "label": "As-tu un petit nom ou un surnom ? Que veut-il dire ?"
+        },
+        {
+          "type": "texte",
+          "id": "naissance",
+          "label": "Date et lieu de naissance"
+        },
+        {
+          "type": "texte",
+          "id": "eglise",
+          "label": "Ton église aujourd'hui, et l'église (ou la religion) de ta famille"
+        },
+        {
+          "type": "choix",
+          "id": "situation",
+          "label": "Situation",
+          "options": [
+            "Célibataire",
+            "Fiancé(e)",
+            "Marié(e)",
+            "Divorcé(e) ou séparé(e)",
+            "Veuf (veuve)"
+          ]
+        },
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "ne-de-nouveau",
+              "texte": "As-tu déjà donné ta vie à Jésus ?",
+              "precision": "Depuis quand, et à quelle occasion ?"
+            }
+          ]
+        }
+      ]
     },
     {
-     "type": "texte",
-     "id": "nom-sens",
-     "label": "Que signifie ton nom ou ton prénom ? Qui te l'a donné, et pourquoi ?",
-     "axe": "lignee"
+      "id": "lignee",
+      "titre": "2. Ta famille et ta lignée",
+      "intro": "Certains combats ne commencent pas avec toi. Ce que tes parents, tes grands-parents ou tes ancêtres ont pratiqué, consacré ou promis peut peser sur une famille. On ne cherche pas des coupables : on cherche ce qu'il faut remettre à la croix.",
+      "blocs": [
+        {
+          "type": "texte",
+          "id": "tribu",
+          "label": "Ta tribu, ton village ou ta famille d'origine"
+        },
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "polygamie",
+              "texte": "Viens-tu d'une famille polygame ?",
+              "precision": "Quel rang occupe ta maman ? Combien d'enfants a ton père ?"
+            }
+          ],
+          "axe": "famille"
+        },
+        {
+          "type": "texte",
+          "id": "rang",
+          "label": "Quel rang occupes-tu parmi les enfants ?"
+        },
+        {
+          "type": "texte",
+          "id": "histoire-naissance",
+          "label": "Connais-tu une histoire liée à ta conception, ta naissance ou ton enfance (enfant non désiré, naissance difficile, enfant « donné » par un esprit, jumeaux, enfant né après des consultations…) ?",
+          "axe": "famille"
+        },
+        {
+          "type": "cases",
+          "id": "pratiques-famille",
+          "titre": "Ce que des membres de ta famille ont pratiqué ou pratiquent encore",
+          "options": [
+            "Sacrifices ou fétiches",
+            "Consultation de voyants, charlatans ou horoscope",
+            "Consultation des morts, divination",
+            "Rose-croix",
+            "Franc-maçonnerie",
+            "Eckankar",
+            "Notabilité ou société secrète à la chefferie",
+            "Maraboutage",
+            "Sorcellerie",
+            "Culte des crânes",
+            "Culte des idoles ou des totems",
+            "Rites de lavement",
+            "Témoins de Jéhovah ou autre groupe qui nie la divinité de Jésus"
+          ],
+          "axe": "lignee"
+        },
+        {
+          "type": "texte",
+          "id": "dieu-village",
+          "label": "Quel est le « dieu » ou l'esprit honoré dans ton village ou ton quartier ?",
+          "axe": "lignee"
+        },
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "guerisseur-famille",
+              "texte": "Y a-t-il un voyant, un guérisseur ou un féticheur dans ta famille ?",
+              "precision": null
+            },
+            {
+              "id": "pacte-famille",
+              "texte": "Connais-tu un pacte ou une alliance spirituelle dans ta famille ?",
+              "precision": "Lequel ?"
+            }
+          ],
+          "axe": "lignee"
+        },
+        {
+          "type": "texte",
+          "id": "secrets-famille",
+          "label": "Péchés enracinés ou secrets connus dans ta famille",
+          "axe": "lignee"
+        },
+        {
+          "type": "cases",
+          "id": "rites-subis",
+          "titre": "Rites que TU as subis dans ta famille",
+          "options": [
+            "Don de cheveux, de poils ou d'ongles",
+            "Initiation à la chefferie",
+            "Présentation aux « dieux » de la famille",
+            "Lavement rituel dans une rivière",
+            "Scarifications, incisions ou tatouages rituels",
+            "Consécration ou dédicace à une idole ou à un esprit",
+            "Cérémonie traditionnelle faite par un aîné",
+            "Interdits alimentaires imposés",
+            "Passage d'un guérisseur pour une cérémonie"
+          ],
+          "axe": "lignee"
+        },
+        {
+          "type": "texte",
+          "id": "interdit",
+          "label": "Si tu as un interdit alimentaire ou une consécration, lesquels ?",
+          "axe": "lignee"
+        },
+        {
+          "type": "cases",
+          "id": "repetitions",
+          "titre": "Ce qui se répète dans ta famille",
+          "options": [
+            "Maladies héréditaires, chroniques ou incurables",
+            "Échecs répétés (examens, projets)",
+            "Stérilité",
+            "Pauvreté qui dure",
+            "Célibat prolongé",
+            "Folie",
+            "Morts précoces ou étranges",
+            "Mariages brisés",
+            "Chômage, échecs financiers",
+            "Blocages inexpliqués",
+            "Régression, « malchance »",
+            "Oppressions démoniaques"
+          ],
+          "axe": "repetitions"
+        },
+        {
+          "type": "texte",
+          "id": "paroles-malediction",
+          "label": "Quelqu'un de ta famille a-t-il prononcé des paroles de malédiction contre toi ? Qui, et quoi ?",
+          "axe": "paroles"
+        }
+      ]
     },
     {
-     "type": "texte",
-     "id": "sobriquet",
-     "label": "As-tu un petit nom ou un surnom ? Que veut-il dire ?"
+      "id": "occultisme",
+      "titre": "3. Ce que tu as toi-même vécu ou pratiqué",
+      "intro": "Ici, il s'agit de toi. Ce qui est caché garde sa force ; ce qui est apporté à la lumière perd son emprise (Éphésiens 5:11-13).",
+      "blocs": [
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "consultation",
+              "texte": "As-tu consulté un guérisseur traditionnel, un marabout ou un oracle ?",
+              "precision": "Pourquoi ? Qu'ont-ils dit ou fait ?"
+            },
+            {
+              "id": "animal",
+              "texte": "As-tu donné un animal à un guérisseur ?",
+              "precision": "Lequel, et qu'en a-t-il fait ?"
+            }
+          ],
+          "axe": "occultisme"
+        },
+        {
+          "type": "cases",
+          "id": "donnes",
+          "titre": "Ce que tu as DONNÉ à un guérisseur ou un marabout",
+          "options": [
+            "Cheveux",
+            "Ongles",
+            "Poils",
+            "Cadenas",
+            "Habits",
+            "Sous-vêtements",
+            "Argent",
+            "Poule ou coq",
+            "Chèvre ou mouton",
+            "Encens",
+            "Parfums ou savons",
+            "Sang"
+          ],
+          "axe": "occultisme"
+        },
+        {
+          "type": "cases",
+          "id": "recus",
+          "titre": "Ce que tu as REÇU pour le garder",
+          "options": [
+            "Écorces ou poudres",
+            "Os",
+            "Amulettes ou talismans",
+            "Bagues ou chaînes",
+            "Fétiches",
+            "Gris-gris",
+            "Bouteilles ou cordes",
+            "Huiles spéciales",
+            "Eau « bénite » spéciale",
+            "Pièces de monnaie",
+            "Livres à lire",
+            "Cadenas"
+          ],
+          "axe": "objets"
+        },
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "objets-garde",
+              "texte": "Gardes-tu encore chez toi des objets de ce genre, des livres mystiques, des images pornographiques ou le fruit d'un vol ?",
+              "precision": "Lesquels ?"
+            }
+          ],
+          "axe": "objets"
+        },
+        {
+          "type": "cases",
+          "id": "sectes",
+          "titre": "Ce à quoi tu as adhéré, participé ou que tu as pratiqué",
+          "options": [
+            "Rose-croix",
+            "Franc-maçonnerie",
+            "Eckankar",
+            "Graal",
+            "Hare Krishna",
+            "Christianisme céleste",
+            "Chérubins et Séraphins",
+            "Science chrétienne",
+            "Foi bahaïe",
+            "Nouvel Âge",
+            "Bouddhisme",
+            "Yoga (méditation spirituelle)",
+            "Astrologie",
+            "Divination",
+            "Spiritisme, invocation des morts",
+            "Arts martiaux avec rites spirituels",
+            "Famla",
+            "Kong",
+            "Ngondo (rites)",
+            "Iboga",
+            "Messes noires",
+            "Magie noire ou blanche",
+            "Olumba Olumba"
+          ],
+          "axe": "occultisme"
+        },
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "initiation",
+              "texte": "As-tu subi un rite d'initiation ?",
+              "precision": "Lequel ?"
+            },
+            {
+              "id": "pacte",
+              "texte": "As-tu récité des prières mystiques, ou fait un pacte ou une alliance avec quelqu'un ou un esprit ?",
+              "precision": "Quels étaient les termes ?"
+            },
+            {
+              "id": "offrandes",
+              "texte": "As-tu donné nourriture, boisson ou sacrifices à des esprits ?",
+              "precision": null
+            },
+            {
+              "id": "sang",
+              "texte": "As-tu déjà bu du sang humain ou fait un pacte de sang ?",
+              "precision": "À quelle occasion ?"
+            }
+          ],
+          "axe": "pactes"
+        }
+      ]
     },
     {
-     "type": "texte",
-     "id": "naissance",
-     "label": "Date et lieu de naissance"
+      "id": "reves",
+      "titre": "4. Ta vie de rêves",
+      "intro": "Tous les rêves ne viennent pas de l'esprit : la fatigue, la peur ou un film peuvent en produire. Mais des rêves qui se répètent pendant des mois disent souvent quelque chose. On les note sans peur, pour prier avec discernement.",
+      "blocs": [
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "r-souvenir",
+              "texte": "Te souviens-tu généralement de tes rêves ?",
+              "precision": null
+            },
+            {
+              "id": "r-manger",
+              "texte": "Manges-tu ou bois-tu souvent en rêve ?",
+              "precision": null
+            },
+            {
+              "id": "r-eau",
+              "texte": "Rêves-tu souvent de rivières, de lacs ou de la mer ?",
+              "precision": null
+            },
+            {
+              "id": "r-animaux",
+              "texte": "Vois-tu des serpents, chiens, chats, hommes masqués, soldats ou monstres ?",
+              "precision": null
+            },
+            {
+              "id": "r-attaque",
+              "texte": "Es-tu attaqué(e), poursuivi(e), mordu(e) ou attrapé(e) ?",
+              "precision": null
+            },
+            {
+              "id": "r-sexe",
+              "texte": "As-tu des rapports sexuels en rêve ?",
+              "precision": null
+            },
+            {
+              "id": "r-mariage",
+              "texte": "Rêves-tu que tu es marié(e), enceinte, ou que tu as des enfants ?",
+              "precision": null
+            },
+            {
+              "id": "r-sortie",
+              "texte": "Te vois-tu sortir de ton corps la nuit ?",
+              "precision": null
+            },
+            {
+              "id": "r-voler",
+              "texte": "Voles-tu comme un oiseau, ou te transformes-tu en animal ?",
+              "precision": null
+            },
+            {
+              "id": "r-reveil",
+              "texte": "Te réveilles-tu épuisé(e), « tabassé(e) », avec des marques sur la peau ?",
+              "precision": null
+            },
+            {
+              "id": "r-morts",
+              "texte": "Rêves-tu de tombes, de cercueils, de cadavres, ou de ta propre mort ?",
+              "precision": null
+            },
+            {
+              "id": "r-defunts",
+              "texte": "Parles-tu avec des proches décédés ?",
+              "precision": null
+            },
+            {
+              "id": "r-enchaine",
+              "texte": "Te retrouves-tu enfermé(e), enchaîné(e) ou en prison ?",
+              "precision": null
+            },
+            {
+              "id": "r-chute",
+              "texte": "Tombes-tu dans un trou sans fond ?",
+              "precision": null
+            },
+            {
+              "id": "r-ancien",
+              "texte": "Rêves-tu souvent de ton ancienne maison, école ou village ?",
+              "precision": null
+            },
+            {
+              "id": "r-sale",
+              "texte": "Portes-tu des vêtements sales ?",
+              "precision": null
+            },
+            {
+              "id": "r-fetes",
+              "texte": "Te vois-tu dans de grandes fêtes où l'on mange et boit ?",
+              "precision": null
+            },
+            {
+              "id": "r-mal",
+              "texte": "Te vois-tu préparer du mal contre des gens ?",
+              "precision": null
+            },
+            {
+              "id": "r-avenir",
+              "texte": "Vois-tu en rêve des choses avant qu'elles n'arrivent ?",
+              "precision": null
+            }
+          ],
+          "axe": "reves"
+        },
+        {
+          "type": "choix",
+          "id": "r-reaction",
+          "label": "Quand tu es attaqué(e) en rêve, que fais-tu le plus souvent ?",
+          "options": [
+            "Je me cache",
+            "Je fuis",
+            "Je me défends",
+            "Je prie ou j'invoque le nom de Jésus",
+            "Je me réveille sans rien faire"
+          ],
+          "axe": "reves"
+        },
+        {
+          "type": "texte",
+          "id": "r-autres",
+          "label": "D'autres rêves étranges qui reviennent souvent",
+          "axe": "reves"
+        }
+      ]
     },
     {
-     "type": "texte",
-     "id": "eglise",
-     "label": "Ton église aujourd'hui, et l'église (ou la religion) de ta famille"
+      "id": "sexualite",
+      "titre": "5. Ta vie affective et sexuelle",
+      "intro": "Ces questions sont délicates mais importantes. Si tu as été blessé(e) ou victime, tu n'es pas coupable : le dire permet qu'on t'aide. Tu peux laisser vide ce que tu n'es pas prêt(e) à écrire, et en parler de vive voix.",
+      "blocs": [
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "relation",
+              "texte": "As-tu, ou as-tu eu, une relation amoureuse ?",
+              "precision": null
+            },
+            {
+              "id": "rapports",
+              "texte": "As-tu déjà eu des rapports sexuels ?",
+              "precision": "Avec combien de personnes en tout ? Y avait-il des personnes mariées ?"
+            },
+            {
+              "id": "peur-sexe",
+              "texte": "As-tu peur des rapports sexuels ?",
+              "precision": null
+            }
+          ],
+          "axe": "sexualite"
+        },
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "abus",
+              "texte": "As-tu été victime de viol, d'inceste ou d'attouchements ?",
+              "precision": "À quel âge ? Par qui (si tu le souhaites) ?"
+            },
+            {
+              "id": "abus-parle",
+              "texte": "En as-tu déjà parlé à quelqu'un de confiance ?",
+              "precision": null
+            },
+            {
+              "id": "scene",
+              "texte": "As-tu surpris tes parents ou d'autres pendant un rapport sexuel ?",
+              "precision": null
+            }
+          ],
+          "axe": "abus"
+        },
+        {
+          "type": "cases",
+          "id": "pratiques-sexe",
+          "titre": "Ce qui te concerne, en toute honnêteté",
+          "options": [
+            "Masturbation",
+            "Pornographie",
+            "Relations sexuelles hors mariage",
+            "Adultère",
+            "Relations avec une personne du même sexe",
+            "Sodomie",
+            "Convoitise, fantasmes",
+            "Exhibitionnisme",
+            "Prostitution",
+            "Relations avec un animal",
+            "Inceste",
+            "Rapports avec un « esprit » en rêve"
+          ],
+          "axe": "sexualite"
+        },
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "avortement",
+              "texte": "As-tu fait un avortement, ou en as-tu été complice ?",
+              "precision": null
+            },
+            {
+              "id": "enfant-hors-mariage",
+              "texte": "As-tu un enfant hors mariage ?",
+              "precision": null
+            }
+          ],
+          "axe": "avortement"
+        },
+        {
+          "type": "texte",
+          "id": "liens",
+          "label": "Si tu as eu des relations sexuelles hors mariage : les personnes concernées (initiales seulement), pour couper ces liens dans la prière",
+          "axe": "liens"
+        },
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "gyneco",
+              "texte": "Souffres-tu de problèmes gynécologiques persistants ?",
+              "precision": null
+            },
+            {
+              "id": "ist",
+              "texte": "As-tu déjà eu une infection sexuellement transmissible ?",
+              "precision": null
+            },
+            {
+              "id": "depistage",
+              "texte": "As-tu déjà fait un dépistage du VIH ?",
+              "precision": null
+            }
+          ],
+          "axe": "sante"
+        }
+      ]
     },
     {
-     "type": "choix",
-     "id": "situation",
-     "label": "Situation",
-     "options": [
-      "Célibataire",
-      "Fiancé(e)",
-      "Marié(e)",
-      "Divorcé(e) ou séparé(e)",
-      "Veuf (veuve)"
-     ]
+      "id": "emotions",
+      "titre": "6. Ton cœur : blessures et émotions",
+      "intro": "Le Seigneur « guérit ceux qui ont le cœur brisé et panse leurs blessures » (Psaume 147:3). Les blessures de l'enfance ne disparaissent pas parce qu'on les oublie ; elles guérissent quand on les apporte à Dieu.",
+      "blocs": [
+        {
+          "type": "cases",
+          "id": "sentiments",
+          "titre": "Ce qui te caractérise",
+          "options": [
+            "Pessimisme",
+            "Doute",
+            "Manque de pardon",
+            "Culpabilité",
+            "Colère",
+            "Peur",
+            "Amertume",
+            "Envie de mourir",
+            "Dégoût de la vie",
+            "Soucis",
+            "Jalousie",
+            "Rancune",
+            "Méchanceté",
+            "Haine",
+            "Tristesse",
+            "Désir de vengeance",
+            "Sentiment d'infériorité",
+            "Orgueil, supériorité",
+            "Rejet ou peur du rejet",
+            "Rejet de soi",
+            "Dépression",
+            "Angoisse",
+            "Confusion",
+            "Indécision",
+            "Pertes de mémoire",
+            "Frustration",
+            "Pitié de soi",
+            "Ressentiment"
+          ],
+          "axe": "blessures"
+        },
+        {
+          "type": "choix",
+          "id": "gestion",
+          "label": "Comment gères-tu tes sentiments négatifs ?",
+          "options": [
+            "J'exprime tout",
+            "J'en exprime certains",
+            "Je refoule",
+            "Je nie"
+          ],
+          "axe": "blessures"
+        },
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "rejet-parents",
+              "texte": "T'es-tu senti(e) rejeté(e) ou mal-aimé(e) par ton père ou ta mère ?",
+              "precision": "Raconte, si tu le peux."
+            }
+          ],
+          "axe": "rejet"
+        },
+        {
+          "type": "texte",
+          "id": "enfance",
+          "label": "Quand tu repenses à ton enfance, qu'est-ce qui te fait peur ou te fait mal ?",
+          "axe": "blessures"
+        },
+        {
+          "type": "texte",
+          "id": "enfoui",
+          "label": "Quels sentiments gardes-tu enfouis depuis des années ?",
+          "axe": "blessures"
+        },
+        {
+          "type": "texte",
+          "id": "image-soi",
+          "label": "Quelle image as-tu de toi-même et de ton corps ?",
+          "axe": "blessures"
+        },
+        {
+          "type": "texte",
+          "id": "parole-blessante",
+          "label": "Une parole blessante reste-t-elle gravée en toi ? Laquelle, et par qui ?",
+          "axe": "paroles"
+        },
+        {
+          "type": "texte",
+          "id": "pardon",
+          "label": "Y a-t-il des personnes que tu as du mal à pardonner (initiales) ? Pourquoi ?",
+          "axe": "pardon"
+        },
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "suicide",
+              "texte": "As-tu déjà pensé sérieusement au suicide, ou tenté de mettre fin à ta vie ?",
+              "precision": null
+            }
+          ],
+          "axe": "suicide"
+        }
+      ]
     },
     {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "ne-de-nouveau",
-       "texte": "As-tu déjà donné ta vie à Jésus ?",
-       "precision": "Depuis quand, et à quelle occasion ?"
-      }
-     ]
+      "id": "corps",
+      "titre": "7. Ton corps et ta vie",
+      "intro": "Dieu se soucie aussi de ton corps et de tes besoins. Certaines choses sont médicales, d'autres spirituelles, souvent les deux : on prie, et on n'oublie pas le médecin.",
+      "blocs": [
+        {
+          "type": "cases",
+          "id": "manifestations",
+          "titre": "Ce que tu ressens de façon inhabituelle ou répétée",
+          "options": [
+            "Insomnies",
+            "Agitation",
+            "Démangeaisons anormales",
+            "Chute excessive des cheveux",
+            "Furoncles ou abcès à répétition",
+            "Transpiration excessive",
+            "Crises ou convulsions",
+            "Étouffements",
+            "Palpitations",
+            "Vertiges",
+            "Sensation de « choses » qui bougent dans le corps",
+            "Prise de poids inexpliquée",
+            "Amaigrissement inexpliqué",
+            "Paralysie",
+            "Fatigue chronique au réveil"
+          ],
+          "axe": "corps"
+        },
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "maladie-incurable",
+              "texte": "As-tu une maladie que la médecine n'arrive pas à guérir ?",
+              "precision": "Laquelle ?"
+            },
+            {
+              "id": "blocages",
+              "texte": "Constates-tu des blocages inexpliqués (examens toujours ratés, projets qui échouent au dernier moment…) ?",
+              "precision": "Lesquels ?"
+            },
+            {
+              "id": "pertes-argent",
+              "texte": "Connais-tu des pertes d'argent inexpliquées ou des difficultés financières qui durent ?",
+              "precision": null
+            }
+          ],
+          "axe": "repetitions"
+        }
+      ]
+    },
+    {
+      "id": "dependances",
+      "titre": "8. Dépendances et péchés qui résistent",
+      "intro": null,
+      "blocs": [
+        {
+          "type": "cases",
+          "id": "addictions",
+          "titre": "As-tu un penchant marqué pour…",
+          "options": [
+            "Alcool",
+            "Tabac",
+            "Cannabis",
+            "Autres drogues",
+            "Médicaments",
+            "Nourriture (manger sans pouvoir s'arrêter)",
+            "Jeux d'argent, paris",
+            "Écrans, réseaux sociaux"
+          ],
+          "axe": "dependances"
+        },
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "langue",
+              "texte": "Utilises-tu ta langue sans contrôle (mentir, maudire, insulter, jurer, te moquer) ?",
+              "precision": null
+            }
+          ],
+          "axe": "peches"
+        },
+        {
+          "type": "cases",
+          "id": "peches",
+          "titre": "Les péchés présents dans ta vie",
+          "options": [
+            "Orgueil",
+            "Paresse",
+            "Amertume",
+            "Colère",
+            "Haine",
+            "Jalousie",
+            "Médisance",
+            "Mensonge",
+            "Vol",
+            "Escroquerie",
+            "Avarice",
+            "Égoïsme",
+            "Rébellion",
+            "Désobéissance",
+            "Hypocrisie",
+            "Incrédulité"
+          ],
+          "axe": "peches"
+        },
+        {
+          "type": "texte",
+          "id": "peches-resistent",
+          "label": "Les péchés que tu n'arrives pas à abandonner",
+          "axe": "peches"
+        },
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "dettes",
+              "texte": "Dois-tu de l'argent, ou as-tu pris quelque chose qu'il faudrait rendre ?",
+              "precision": "À qui, et quoi ?"
+            }
+          ],
+          "axe": "restitution"
+        }
+      ]
+    },
+    {
+      "id": "vie-spirituelle",
+      "titre": "9. Ta vie avec Dieu",
+      "intro": null,
+      "blocs": [
+        {
+          "type": "texte",
+          "id": "suivi",
+          "label": "Qui t'a suivi(e) dans la foi jusqu'ici ?"
+        },
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "retrograde",
+              "texte": "As-tu déjà reculé dans la foi ?",
+              "precision": "Quand, et pourquoi ?"
+            }
+          ]
+        },
+        {
+          "type": "texte",
+          "id": "priere-temps",
+          "label": "Combien de temps pries-tu par jour ? Combien de chapitres lis-tu ?"
+        },
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "sommeil-priere",
+              "texte": "Es-tu pris(e) de sommeil, de lourdeur ou de mauvaises pensées dès que tu pries, lis la Bible ou vas à l'église ?",
+              "precision": null
+            },
+            {
+              "id": "voix",
+              "texte": "Entends-tu des voix ou des bruits étranges quand tu es seul(e) ?",
+              "precision": null
+            },
+            {
+              "id": "objets-perdus",
+              "texte": "Perds-tu des objets personnels ou intimes de façon inhabituelle ?",
+              "precision": null
+            }
+          ],
+          "axe": "oppression"
+        },
+        {
+          "type": "cases",
+          "id": "lectures",
+          "titre": "En dehors de la Bible, tu lis…",
+          "options": [
+            "Livres occultes ou « spirituels »",
+            "Livres de magie",
+            "Psaumes « spéciaux » à réciter pour obtenir quelque chose",
+            "Romans érotiques",
+            "Livrets de prières",
+            "Romans, journaux, magazines"
+          ],
+          "axe": "objets"
+        },
+        {
+          "type": "cases",
+          "id": "pensees-dieu",
+          "titre": "Pensées fausses sur Dieu qui te viennent parfois",
+          "options": [
+            "Il ne partage pas ma peine",
+            "Il est injuste",
+            "Il punit durement ceux qui lui désobéissent",
+            "Le diable est plus fort que lui",
+            "Il m'oublie"
+          ],
+          "axe": "salut"
+        },
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "doute-salut",
+              "texte": "Doutes-tu parfois de ton salut ?",
+              "precision": null
+            },
+            {
+              "id": "certitude",
+              "texte": "Si tu mourais cette nuit, es-tu sûr(e) d'aller auprès du Seigneur ?",
+              "precision": null
+            },
+            {
+              "id": "obeir",
+              "texte": "Es-tu prêt(e) à te repentir de tout et à obéir à Jésus sans condition ?",
+              "precision": null
+            }
+          ],
+          "axe": "salut"
+        }
+      ]
+    },
+    {
+      "id": "attentes",
+      "titre": "10. Ton cœur et tes attentes",
+      "intro": null,
+      "blocs": [
+        {
+          "type": "ouinon",
+          "items": [
+            {
+              "id": "cure-avant",
+              "texte": "As-tu déjà été accompagné(e) ainsi ?",
+              "precision": "Par qui ? As-tu vu des changements ?"
+            },
+            {
+              "id": "secrets",
+              "texte": "Gardes-tu des secrets cachés depuis longtemps ?",
+              "precision": null
+            }
+          ]
+        },
+        {
+          "type": "texte",
+          "id": "ajout",
+          "label": "Autre chose d'important que tu veux confier"
+        },
+        {
+          "type": "texte",
+          "id": "attente",
+          "label": "Que veux-tu exactement que le Seigneur Jésus fasse dans ta vie ?"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "lignee",
-   "titre": "2. Ta famille et ta lignée",
-   "intro": "Certains combats ne commencent pas avec toi. Ce que tes parents, tes grands-parents ou tes ancêtres ont pratiqué, consacré ou promis peut peser sur une famille. On ne cherche pas des coupables : on cherche ce qu'il faut remettre à la croix.",
-   "blocs": [
-    {
-     "type": "texte",
-     "id": "tribu",
-     "label": "Ta tribu, ton village ou ta famille d'origine"
+  ],
+  "orientations": {
+    "famille": {
+      "titre": "Histoire familiale et naissance",
+      "versets": [
+        "Psaume 27:10",
+        "Ésaïe 49:15",
+        "Éphésiens 1:5"
+      ],
+      "orientations": [
+        "Écouter l'histoire sans hâte ; laisser la personne nommer ce qui lui a manqué.",
+        "Prier pour la guérison des blessures liées à la naissance et à la place dans la famille (enfant non désiré, rivalités de la polygamie, comparaisons).",
+        "Proclamer l'identité d'enfant de Dieu, désiré et adopté.",
+        "Si une naissance a été « obtenue » par des consultations ou dédiée à un esprit : conduire la personne à renoncer à cette dédicace et à se consacrer à Dieu."
+      ]
     },
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "polygamie",
-       "texte": "Viens-tu d'une famille polygame ?",
-       "precision": "Quel rang occupe ta maman ? Combien d'enfants a ton père ?"
-      }
-     ],
-     "axe": "famille"
+    "lignee": {
+      "titre": "Lignée, pratiques familiales et consécrations",
+      "versets": [
+        "Galates 3:13",
+        "Colossiens 2:14-15",
+        "Néhémie 1:6",
+        "Ézéchiel 18:20",
+        "2 Corinthiens 6:17"
+      ],
+      "orientations": [
+        "Rappeler d'abord la vérité : en Christ, la malédiction est portée et la dette envers Dieu est payée (Galates 3:13). On ne prie pas pour l'obtenir, mais pour l'appliquer.",
+        "Confession par identification des péchés de la lignée, comme Néhémie et Daniel : reconnaître sans accuser ni mépriser ses parents.",
+        "Renoncer nommément aux alliances, dédicaces, sociétés et cultes cochés ; rejeter tout droit que ces pratiques prétendent avoir.",
+        "Se consacrer ouvertement au Seigneur et proclamer son appartenance à Christ seul (Colossiens 1:13).",
+        "Si la personne porte un nom de dédicace à un esprit : en parler avec sagesse ; changer de nom n'est pas obligatoire, mais renoncer à la dédicace l'est.",
+        "Prévoir la suite : comment honorer ses parents sans participer aux rites (Exode 20:12 ; Actes 5:29)."
+      ]
     },
-    {
-     "type": "texte",
-     "id": "rang",
-     "label": "Quel rang occupes-tu parmi les enfants ?"
+    "repetitions": {
+      "titre": "Choses qui se répètent : échecs, blocages, maladies, morts",
+      "versets": [
+        "Galates 3:13-14",
+        "Deutéronome 28:13",
+        "Psaume 118:17",
+        "Jean 10:10"
+      ],
+      "orientations": [
+        "Faire l'inventaire précis : qu'est-ce qui se répète, depuis quand, chez qui ?",
+        "Prier pour briser, au nom de Jésus, les cycles d'échec, de stérilité, de mort précoce ou de pauvreté identifiés, en s'appuyant sur la croix.",
+        "Pour les élèves qui échouent sans raison aux examens officiels : prier pour la rupture de ce cycle, et vérifier aussi le concret (méthode de travail, sommeil, peur de l'examen) ; Dieu agit souvent sur les deux.",
+        "Pour une maladie : prier pour la guérison ET encourager le suivi médical (Jacques 5:14 ; Luc 5:31).",
+        "Proclamer les promesses de vie et de bénédiction, et revenir prier sur ce point lors des rencontres suivantes."
+      ]
     },
-    {
-     "type": "texte",
-     "id": "histoire-naissance",
-     "label": "Connais-tu une histoire liée à ta conception, ta naissance ou ton enfance (enfant non désiré, naissance difficile, enfant « donné » par un esprit, jumeaux, enfant né après des consultations…) ?",
-     "axe": "famille"
+    "paroles": {
+      "titre": "Paroles de malédiction et paroles blessantes",
+      "versets": [
+        "Proverbes 18:21",
+        "Proverbes 26:2",
+        "Romains 12:14",
+        "Nombres 23:8"
+      ],
+      "orientations": [
+        "Pardonner à celui qui a prononcé ces paroles (c'est une décision, pas un sentiment).",
+        "Rejeter et annuler, au nom de Jésus, les paroles de mort ou d'échec prononcées.",
+        "Remplacer chaque parole fausse par ce que Dieu dit (« Tu n'arriveras à rien » → Philippiens 4:13).",
+        "Bénir plutôt que maudire en retour (Romains 12:14)."
+      ]
     },
-    {
-     "type": "cases",
-     "id": "pratiques-famille",
-     "titre": "Ce que des membres de ta famille ont pratiqué ou pratiquent encore",
-     "options": [
-      "Sacrifices ou fétiches",
-      "Consultation de voyants, charlatans ou horoscope",
-      "Consultation des morts, divination",
-      "Rose-croix",
-      "Franc-maçonnerie",
-      "Eckankar",
-      "Notabilité ou société secrète à la chefferie",
-      "Maraboutage",
-      "Sorcellerie",
-      "Culte des crânes",
-      "Culte des idoles ou des totems",
-      "Rites de lavement",
-      "Témoins de Jéhovah ou autre groupe qui nie la divinité de Jésus"
-     ],
-     "axe": "lignee"
+    "occultisme": {
+      "titre": "Consultations, sectes et pratiques occultes personnelles",
+      "versets": [
+        "Deutéronome 18:10-12",
+        "Actes 19:18-19",
+        "2 Corinthiens 6:14-18",
+        "1 Jean 1:9"
+      ],
+      "orientations": [
+        "Conduire à une confession claire, point par point : ce qui a été fait, avec qui, pour quoi.",
+        "Renoncer nommément à chaque pratique, ordre ou groupe, et aux esprits qui y sont liés.",
+        "Rompre au nom de Jésus les liens créés par ce qui a été donné (cheveux, ongles, sang, habits…).",
+        "Annoncer la délivrance avec autorité, dans le calme : c'est Christ qui délivre, pas le bruit.",
+        "Vérifier dans les semaines suivantes que la personne ne retourne pas consulter quand viennent les difficultés."
+      ]
     },
-    {
-     "type": "texte",
-     "id": "dieu-village",
-     "label": "Quel est le « dieu » ou l'esprit honoré dans ton village ou ton quartier ?",
-     "axe": "lignee"
+    "pactes": {
+      "titre": "Initiations, pactes et alliances",
+      "versets": [
+        "Ésaïe 28:18",
+        "Colossiens 2:15",
+        "Hébreux 9:14",
+        "Apocalypse 12:11"
+      ],
+      "orientations": [
+        "Faire nommer chaque pacte, ses termes et ce qui a été promis.",
+        "Renoncer à chaque pacte et le déclarer annulé par le sang de Jésus, qui établit une alliance supérieure.",
+        "Se placer volontairement sous la seule alliance de Christ.",
+        "Si un pacte touche encore une société ou un groupe dont la personne est membre : l'aider à en sortir concrètement (lettre, retrait, objets rendus ou détruits)."
+      ]
     },
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "guerisseur-famille",
-       "texte": "Y a-t-il un voyant, un guérisseur ou un féticheur dans ta famille ?",
-       "precision": null
-      },
-      {
-       "id": "pacte-famille",
-       "texte": "Connais-tu un pacte ou une alliance spirituelle dans ta famille ?",
-       "precision": "Lequel ?"
-      }
-     ],
-     "axe": "lignee"
+    "objets": {
+      "titre": "Objets, livres et choses gardées",
+      "versets": [
+        "Actes 19:19",
+        "Deutéronome 7:25-26",
+        "Josué 7:13"
+      ],
+      "orientations": [
+        "Faire la liste des objets à détruire : fétiches, amulettes, bagues, livres occultes, images pornographiques.",
+        "Organiser leur destruction (les brûler plutôt que les donner ou les vendre), si possible avec un responsable présent.",
+        "Pour le fruit d'un vol : prévoir la restitution.",
+        "Prier pour purifier la chambre ou la maison après la destruction."
+      ]
     },
-    {
-     "type": "texte",
-     "id": "secrets-famille",
-     "label": "Péchés enracinés ou secrets connus dans ta famille",
-     "axe": "lignee"
+    "reves": {
+      "titre": "Vie de rêves",
+      "versets": [
+        "Psaume 4:9",
+        "Psaume 91:5-6",
+        "Job 33:14-18",
+        "Éphésiens 6:10-18"
+      ],
+      "orientations": [
+        "Ne pas semer la peur : tous les rêves n'ont pas un sens spirituel. Retenir ceux qui se répètent.",
+        "Prier pour la rupture des liens avec les « époux de nuit », les repas en rêve, les sorties hors du corps, selon ce qui est coché.",
+        "Enseigner la prière du soir, la Parole avant de dormir et l'invocation du nom de Jésus au réveil ou dans le rêve.",
+        "Si la personne se voit faire du mal aux autres en rêve : conduire à la repentance, au renoncement et à la délivrance avec beaucoup de douceur.",
+        "Si les troubles du sommeil sont lourds (insomnies, cauchemars traumatiques) : penser aussi à une aide médicale."
+      ]
     },
-    {
-     "type": "cases",
-     "id": "rites-subis",
-     "titre": "Rites que TU as subis dans ta famille",
-     "options": [
-      "Don de cheveux, de poils ou d'ongles",
-      "Initiation à la chefferie",
-      "Présentation aux « dieux » de la famille",
-      "Lavement rituel dans une rivière",
-      "Scarifications, incisions ou tatouages rituels",
-      "Consécration ou dédicace à une idole ou à un esprit",
-      "Cérémonie traditionnelle faite par un aîné",
-      "Interdits alimentaires imposés",
-      "Passage d'un guérisseur pour une cérémonie"
-     ],
-     "axe": "lignee"
+    "sexualite": {
+      "titre": "Sexualité",
+      "versets": [
+        "1 Corinthiens 6:15-20",
+        "1 Thessaloniciens 4:3-5",
+        "Psaume 51",
+        "1 Jean 1:9"
+      ],
+      "orientations": [
+        "Accueillir la confession sans choc ni curiosité ; ne demander que ce qui est utile.",
+        "Conduire à la repentance pour chaque pratique cochée, puis à recevoir le pardon complet.",
+        "Prier pour la purification de la pensée et du corps, consacré au Seigneur comme temple.",
+        "Mettre en place un plan concret : éloigner les occasions, filtres sur le téléphone, un partenaire de redevabilité. Proposer le parcours de 90 jours de Yeshaya si la pornographie ou la masturbation sont en jeu.",
+        "Pour l'homosexualité : accompagner avec vérité et amour, sans mépris ; c'est un chemin de sainteté, pas une simple prière."
+      ]
     },
-    {
-     "type": "texte",
-     "id": "interdit",
-     "label": "Si tu as un interdit alimentaire ou une consécration, lesquels ?",
-     "axe": "lignee"
+    "liens": {
+      "titre": "Liens d'âme",
+      "versets": [
+        "1 Corinthiens 6:16-18",
+        "Genèse 2:24",
+        "2 Corinthiens 5:17"
+      ],
+      "orientations": [
+        "Pour chaque personne notée : se repentir de la relation, puis rompre le lien au nom de Jésus.",
+        "Rendre ou détruire les cadeaux et souvenirs qui entretiennent l'attachement, si nécessaire.",
+        "Couper aussi le contact quand la relation est encore active et pécheresse."
+      ]
     },
-    {
-     "type": "cases",
-     "id": "repetitions",
-     "titre": "Ce qui se répète dans ta famille",
-     "options": [
-      "Maladies héréditaires, chroniques ou incurables",
-      "Échecs répétés (examens, projets)",
-      "Stérilité",
-      "Pauvreté qui dure",
-      "Célibat prolongé",
-      "Folie",
-      "Morts précoces ou étranges",
-      "Mariages brisés",
-      "Chômage, échecs financiers",
-      "Blocages inexpliqués",
-      "Régression, « malchance »",
-      "Oppressions démoniaques"
-     ],
-     "axe": "repetitions"
+    "abus": {
+      "titre": "Abus subis",
+      "versets": [
+        "Psaume 34:19",
+        "Ésaïe 61:1-3",
+        "Psaume 147:3"
+      ],
+      "orientations": [
+        "Dire clairement à la personne qu'elle n'est pas coupable de ce qu'elle a subi.",
+        "Prier pour la guérison intérieure : la honte, la peur, le dégoût du corps, la colère.",
+        "Le pardon viendra en son temps ; ne pas l'exiger trop vite, ni le présenter comme une excuse pour l'agresseur.",
+        "Si la personne est mineure, si l'abus continue ou si elle est en danger : avertir le pasteur et orienter vers une aide (médicale, psychologique, juridique). Le secret ne couvre jamais un danger.",
+        "Un berger du même sexe, et si possible une deuxième personne de confiance, pour ce sujet."
+      ]
     },
-    {
-     "type": "texte",
-     "id": "paroles-malediction",
-     "label": "Quelqu'un de ta famille a-t-il prononcé des paroles de malédiction contre toi ? Qui, et quoi ?",
-     "axe": "paroles"
+    "avortement": {
+      "titre": "Avortement et enfant hors mariage",
+      "versets": [
+        "Psaume 51:3-14",
+        "Psaume 103:10-12",
+        "Romains 8:1"
+      ],
+      "orientations": [
+        "Conduire à la repentance devant Dieu, sans écraser : le sang de Jésus purifie aussi ce péché.",
+        "Laisser la place au deuil de l'enfant ; prier pour la guérison de la culpabilité et de la honte.",
+        "Pour un enfant hors mariage : se repentir de la faute, et aider la personne à assumer avec amour ses responsabilités envers l'enfant."
+      ]
+    },
+    "sante": {
+      "titre": "Santé intime",
+      "versets": [
+        "Jacques 5:14-16",
+        "3 Jean 1:2"
+      ],
+      "orientations": [
+        "Prier pour la guérison.",
+        "Encourager une consultation médicale et un dépistage ; c'est sage, pas un manque de foi."
+      ]
+    },
+    "blessures": {
+      "titre": "Blessures et émotions",
+      "versets": [
+        "Psaume 147:3",
+        "Ésaïe 53:4-5",
+        "Éphésiens 4:31-32",
+        "Philippiens 4:6-7"
+      ],
+      "orientations": [
+        "Faire raconter les blessures principales ; écouter longtemps, parler peu.",
+        "Prier pour la guérison intérieure de chaque blessure nommée, en invitant Jésus dans ces souvenirs.",
+        "Pour la colère, l'amertume, la haine : conduire à les reconnaître comme péchés et à les déposer.",
+        "Pour la peur, l'angoisse, la dépression : prier, et ne pas hésiter à orienter vers un professionnel de santé si c'est lourd.",
+        "Remplacer les mensonges sur soi par la vérité de la Parole (Psaume 139:13-16)."
+      ]
+    },
+    "rejet": {
+      "titre": "Rejet d'un parent",
+      "versets": [
+        "Psaume 27:10",
+        "Jean 1:12",
+        "Romains 8:15-16",
+        "Malachie 4:6"
+      ],
+      "orientations": [
+        "Reconnaître la douleur du rejet sans la minimiser.",
+        "Pardonner au parent qui a rejeté ; c'est souvent la clé de nombreux blocages.",
+        "Prier pour briser l'esprit de rejet et recevoir l'amour du Père.",
+        "Si c'est possible et sans danger, réfléchir à une démarche de réconciliation."
+      ]
+    },
+    "pardon": {
+      "titre": "Manque de pardon",
+      "versets": [
+        "Matthieu 6:14-15",
+        "Matthieu 18:21-35",
+        "Éphésiens 4:32",
+        "Romains 12:19"
+      ],
+      "orientations": [
+        "Expliquer ce qu'est le pardon : remettre la dette à Dieu, renoncer à la vengeance ; ce n'est ni oublier ni approuver.",
+        "Pardonner nommément à chaque personne notée.",
+        "Bénir ceux qui ont blessé.",
+        "Revenir sur ce point aux rencontres suivantes : le pardon est parfois un chemin."
+      ]
+    },
+    "suicide": {
+      "titre": "Pensées suicidaires : priorité absolue",
+      "versets": [
+        "Deutéronome 30:19",
+        "Jérémie 29:11",
+        "Psaume 34:19"
+      ],
+      "orientations": [
+        "Prendre ce point au sérieux et en parler tout de suite, avec calme.",
+        "Ne jamais laisser la personne seule si le danger est présent ; alerter le pasteur et la famille de confiance, et chercher une aide médicale.",
+        "Prier contre l'esprit de mort et proclamer la vie.",
+        "Prévoir un suivi rapproché (appel ou visite dans les jours qui suivent)."
+      ]
+    },
+    "corps": {
+      "titre": "Manifestations dans le corps",
+      "versets": [
+        "Luc 13:11-13",
+        "Jacques 5:14-16",
+        "Matthieu 8:16-17"
+      ],
+      "orientations": [
+        "Prier pour la guérison et la délivrance selon ce qui est coché.",
+        "Toujours encourager aussi un examen médical ; certaines manifestations ont une cause physique.",
+        "Observer pendant la prière ; ne pas provoquer de manifestations, rester calme et ferme au nom de Jésus."
+      ]
+    },
+    "dependances": {
+      "titre": "Dépendances",
+      "versets": [
+        "Jean 8:36",
+        "1 Corinthiens 6:12",
+        "Galates 5:1"
+      ],
+      "orientations": [
+        "Se repentir et renoncer à la dépendance ; prier pour la délivrance.",
+        "Mettre en place un plan : éviter les lieux et les amis liés, un partenaire de redevabilité.",
+        "Pour l'alcool ou la drogue installés : une aide médicale est souvent nécessaire (le sevrage peut être dangereux)."
+      ]
+    },
+    "peches": {
+      "titre": "Péchés qui résistent",
+      "versets": [
+        "Romains 6:11-14",
+        "Proverbes 28:13",
+        "Jacques 4:7",
+        "Galates 5:16"
+      ],
+      "orientations": [
+        "Confesser chaque péché nommément et recevoir le pardon.",
+        "Chercher la porte d'entrée : depuis quand, dans quelles circonstances ?",
+        "Établir des disciplines : Parole, prière, redevabilité, fuite des occasions.",
+        "Encourager : la victoire est souvent progressive ; on se relève à chaque chute."
+      ]
+    },
+    "restitution": {
+      "titre": "Restitution",
+      "versets": [
+        "Luc 19:8",
+        "Exode 22:1-4",
+        "Romains 13:8"
+      ],
+      "orientations": [
+        "Faire la liste de ce qu'il faut rendre ou rembourser.",
+        "Préparer la démarche avec sagesse : quand, comment, quoi dire.",
+        "Si la restitution complète est impossible, chercher un arrangement honnête ; l'intention et les actes comptent."
+      ]
+    },
+    "oppression": {
+      "titre": "Oppression dans la vie spirituelle",
+      "versets": [
+        "Jacques 4:7",
+        "Éphésiens 6:10-18",
+        "Luc 10:19"
+      ],
+      "orientations": [
+        "Prier contre le sommeil, la lourdeur et les distractions qui attaquent la prière et la Parole.",
+        "Enseigner à résister : prier debout, à voix haute, lire en marchant, persévérer.",
+        "Rechercher dans le reste de la fiche la porte qui a pu s'ouvrir (occultisme, pactes, objets)."
+      ]
+    },
+    "salut": {
+      "titre": "Assurance du salut et image de Dieu",
+      "versets": [
+        "1 Jean 5:11-13",
+        "Jean 10:27-29",
+        "Romains 8:38-39",
+        "Hébreux 13:5"
+      ],
+      "orientations": [
+        "Reprendre l'Évangile simplement ; s'assurer que la personne a vraiment donné sa vie à Jésus.",
+        "Corriger chaque pensée fausse sur Dieu par un passage précis.",
+        "Inviter à un engagement renouvelé si la personne le souhaite."
+      ]
     }
-   ]
   },
-  {
-   "id": "occultisme",
-   "titre": "3. Ce que tu as toi-même vécu ou pratiqué",
-   "intro": "Ici, il s'agit de toi. Ce qui est caché garde sa force ; ce qui est apporté à la lumière perd son emprise (Éphésiens 5:11-13).",
-   "blocs": [
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "consultation",
-       "texte": "As-tu consulté un guérisseur traditionnel, un marabout ou un oracle ?",
-       "precision": "Pourquoi ? Qu'ont-ils dit ou fait ?"
-      },
-      {
-       "id": "animal",
-       "texte": "As-tu donné un animal à un guérisseur ?",
-       "precision": "Lequel, et qu'en a-t-il fait ?"
-      }
-     ],
-     "axe": "occultisme"
-    },
-    {
-     "type": "cases",
-     "id": "donnes",
-     "titre": "Ce que tu as DONNÉ à un guérisseur ou un marabout",
-     "options": [
-      "Cheveux",
-      "Ongles",
-      "Poils",
-      "Cadenas",
-      "Habits",
-      "Sous-vêtements",
-      "Argent",
-      "Poule ou coq",
-      "Chèvre ou mouton",
-      "Encens",
-      "Parfums ou savons",
-      "Sang"
-     ],
-     "axe": "occultisme"
-    },
-    {
-     "type": "cases",
-     "id": "recus",
-     "titre": "Ce que tu as REÇU pour le garder",
-     "options": [
-      "Écorces ou poudres",
-      "Os",
-      "Amulettes ou talismans",
-      "Bagues ou chaînes",
-      "Fétiches",
-      "Gris-gris",
-      "Bouteilles ou cordes",
-      "Huiles spéciales",
-      "Eau « bénite » spéciale",
-      "Pièces de monnaie",
-      "Livres à lire",
-      "Cadenas"
-     ],
-     "axe": "objets"
-    },
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "objets-garde",
-       "texte": "Gardes-tu encore chez toi des objets de ce genre, des livres mystiques, des images pornographiques ou le fruit d'un vol ?",
-       "precision": "Lesquels ?"
-      }
-     ],
-     "axe": "objets"
-    },
-    {
-     "type": "cases",
-     "id": "sectes",
-     "titre": "Ce à quoi tu as adhéré, participé ou que tu as pratiqué",
-     "options": [
-      "Rose-croix",
-      "Franc-maçonnerie",
-      "Eckankar",
-      "Graal",
-      "Hare Krishna",
-      "Christianisme céleste",
-      "Chérubins et Séraphins",
-      "Science chrétienne",
-      "Foi bahaïe",
-      "Nouvel Âge",
-      "Bouddhisme",
-      "Yoga (méditation spirituelle)",
-      "Astrologie",
-      "Divination",
-      "Spiritisme, invocation des morts",
-      "Arts martiaux avec rites spirituels",
-      "Famla",
-      "Kong",
-      "Ngondo (rites)",
-      "Iboga",
-      "Messes noires",
-      "Magie noire ou blanche",
-      "Olumba Olumba"
-     ],
-     "axe": "occultisme"
-    },
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "initiation",
-       "texte": "As-tu subi un rite d'initiation ?",
-       "precision": "Lequel ?"
-      },
-      {
-       "id": "pacte",
-       "texte": "As-tu récité des prières mystiques, ou fait un pacte ou une alliance avec quelqu'un ou un esprit ?",
-       "precision": "Quels étaient les termes ?"
-      },
-      {
-       "id": "offrandes",
-       "texte": "As-tu donné nourriture, boisson ou sacrifices à des esprits ?",
-       "precision": null
-      },
-      {
-       "id": "sang",
-       "texte": "As-tu déjà bu du sang humain ou fait un pacte de sang ?",
-       "precision": "À quelle occasion ?"
-      }
-     ],
-     "axe": "pactes"
-    }
-   ]
-  },
-  {
-   "id": "reves",
-   "titre": "4. Ta vie de rêves",
-   "intro": "Tous les rêves ne viennent pas de l'esprit : la fatigue, la peur ou un film peuvent en produire. Mais des rêves qui se répètent pendant des mois disent souvent quelque chose. On les note sans peur, pour prier avec discernement.",
-   "blocs": [
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "r-souvenir",
-       "texte": "Te souviens-tu généralement de tes rêves ?",
-       "precision": null
-      },
-      {
-       "id": "r-manger",
-       "texte": "Manges-tu ou bois-tu souvent en rêve ?",
-       "precision": null
-      },
-      {
-       "id": "r-eau",
-       "texte": "Rêves-tu souvent de rivières, de lacs ou de la mer ?",
-       "precision": null
-      },
-      {
-       "id": "r-animaux",
-       "texte": "Vois-tu des serpents, chiens, chats, hommes masqués, soldats ou monstres ?",
-       "precision": null
-      },
-      {
-       "id": "r-attaque",
-       "texte": "Es-tu attaqué(e), poursuivi(e), mordu(e) ou attrapé(e) ?",
-       "precision": null
-      },
-      {
-       "id": "r-sexe",
-       "texte": "As-tu des rapports sexuels en rêve ?",
-       "precision": null
-      },
-      {
-       "id": "r-mariage",
-       "texte": "Rêves-tu que tu es marié(e), enceinte, ou que tu as des enfants ?",
-       "precision": null
-      },
-      {
-       "id": "r-sortie",
-       "texte": "Te vois-tu sortir de ton corps la nuit ?",
-       "precision": null
-      },
-      {
-       "id": "r-voler",
-       "texte": "Voles-tu comme un oiseau, ou te transformes-tu en animal ?",
-       "precision": null
-      },
-      {
-       "id": "r-reveil",
-       "texte": "Te réveilles-tu épuisé(e), « tabassé(e) », avec des marques sur la peau ?",
-       "precision": null
-      },
-      {
-       "id": "r-morts",
-       "texte": "Rêves-tu de tombes, de cercueils, de cadavres, ou de ta propre mort ?",
-       "precision": null
-      },
-      {
-       "id": "r-defunts",
-       "texte": "Parles-tu avec des proches décédés ?",
-       "precision": null
-      },
-      {
-       "id": "r-enchaine",
-       "texte": "Te retrouves-tu enfermé(e), enchaîné(e) ou en prison ?",
-       "precision": null
-      },
-      {
-       "id": "r-chute",
-       "texte": "Tombes-tu dans un trou sans fond ?",
-       "precision": null
-      },
-      {
-       "id": "r-ancien",
-       "texte": "Rêves-tu souvent de ton ancienne maison, école ou village ?",
-       "precision": null
-      },
-      {
-       "id": "r-sale",
-       "texte": "Portes-tu des vêtements sales ?",
-       "precision": null
-      },
-      {
-       "id": "r-fetes",
-       "texte": "Te vois-tu dans de grandes fêtes où l'on mange et boit ?",
-       "precision": null
-      },
-      {
-       "id": "r-mal",
-       "texte": "Te vois-tu préparer du mal contre des gens ?",
-       "precision": null
-      },
-      {
-       "id": "r-avenir",
-       "texte": "Vois-tu en rêve des choses avant qu'elles n'arrivent ?",
-       "precision": null
-      }
-     ],
-     "axe": "reves"
-    },
-    {
-     "type": "choix",
-     "id": "r-reaction",
-     "label": "Quand tu es attaqué(e) en rêve, que fais-tu le plus souvent ?",
-     "options": [
-      "Je me cache",
-      "Je fuis",
-      "Je me défends",
-      "Je prie ou j'invoque le nom de Jésus",
-      "Je me réveille sans rien faire"
-     ],
-     "axe": "reves"
-    },
-    {
-     "type": "texte",
-     "id": "r-autres",
-     "label": "D'autres rêves étranges qui reviennent souvent",
-     "axe": "reves"
-    }
-   ]
-  },
-  {
-   "id": "sexualite",
-   "titre": "5. Ta vie affective et sexuelle",
-   "intro": "Ces questions sont délicates mais importantes. Si tu as été blessé(e) ou victime, tu n'es pas coupable : le dire permet qu'on t'aide. Tu peux laisser vide ce que tu n'es pas prêt(e) à écrire, et en parler de vive voix.",
-   "blocs": [
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "relation",
-       "texte": "As-tu, ou as-tu eu, une relation amoureuse ?",
-       "precision": null
-      },
-      {
-       "id": "rapports",
-       "texte": "As-tu déjà eu des rapports sexuels ?",
-       "precision": "Avec combien de personnes en tout ? Y avait-il des personnes mariées ?"
-      },
-      {
-       "id": "peur-sexe",
-       "texte": "As-tu peur des rapports sexuels ?",
-       "precision": null
-      }
-     ],
-     "axe": "sexualite"
-    },
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "abus",
-       "texte": "As-tu été victime de viol, d'inceste ou d'attouchements ?",
-       "precision": "À quel âge ? Par qui (si tu le souhaites) ?"
-      },
-      {
-       "id": "abus-parle",
-       "texte": "En as-tu déjà parlé à quelqu'un de confiance ?",
-       "precision": null
-      },
-      {
-       "id": "scene",
-       "texte": "As-tu surpris tes parents ou d'autres pendant un rapport sexuel ?",
-       "precision": null
-      }
-     ],
-     "axe": "abus"
-    },
-    {
-     "type": "cases",
-     "id": "pratiques-sexe",
-     "titre": "Ce qui te concerne, en toute honnêteté",
-     "options": [
-      "Masturbation",
-      "Pornographie",
-      "Relations sexuelles hors mariage",
-      "Adultère",
-      "Relations avec une personne du même sexe",
-      "Sodomie",
-      "Convoitise, fantasmes",
-      "Exhibitionnisme",
-      "Prostitution",
-      "Relations avec un animal",
-      "Inceste",
-      "Rapports avec un « esprit » en rêve"
-     ],
-     "axe": "sexualite"
-    },
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "avortement",
-       "texte": "As-tu fait un avortement, ou en as-tu été complice ?",
-       "precision": null
-      },
-      {
-       "id": "enfant-hors-mariage",
-       "texte": "As-tu un enfant hors mariage ?",
-       "precision": null
-      }
-     ],
-     "axe": "avortement"
-    },
-    {
-     "type": "texte",
-     "id": "liens",
-     "label": "Si tu as eu des relations sexuelles hors mariage : les personnes concernées (initiales seulement), pour couper ces liens dans la prière",
-     "axe": "liens"
-    },
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "gyneco",
-       "texte": "Souffres-tu de problèmes gynécologiques persistants ?",
-       "precision": null
-      },
-      {
-       "id": "ist",
-       "texte": "As-tu déjà eu une infection sexuellement transmissible ?",
-       "precision": null
-      },
-      {
-       "id": "depistage",
-       "texte": "As-tu déjà fait un dépistage du VIH ?",
-       "precision": null
-      }
-     ],
-     "axe": "sante"
-    }
-   ]
-  },
-  {
-   "id": "emotions",
-   "titre": "6. Ton cœur : blessures et émotions",
-   "intro": "Le Seigneur « guérit ceux qui ont le cœur brisé et panse leurs blessures » (Psaume 147:3). Les blessures de l'enfance ne disparaissent pas parce qu'on les oublie ; elles guérissent quand on les apporte à Dieu.",
-   "blocs": [
-    {
-     "type": "cases",
-     "id": "sentiments",
-     "titre": "Ce qui te caractérise",
-     "options": [
-      "Pessimisme",
-      "Doute",
-      "Manque de pardon",
-      "Culpabilité",
-      "Colère",
-      "Peur",
-      "Amertume",
-      "Envie de mourir",
-      "Dégoût de la vie",
-      "Soucis",
-      "Jalousie",
-      "Rancune",
-      "Méchanceté",
-      "Haine",
-      "Tristesse",
-      "Désir de vengeance",
-      "Sentiment d'infériorité",
-      "Orgueil, supériorité",
-      "Rejet ou peur du rejet",
-      "Rejet de soi",
-      "Dépression",
-      "Angoisse",
-      "Confusion",
-      "Indécision",
-      "Pertes de mémoire",
-      "Frustration",
-      "Pitié de soi",
-      "Ressentiment"
-     ],
-     "axe": "blessures"
-    },
-    {
-     "type": "choix",
-     "id": "gestion",
-     "label": "Comment gères-tu tes sentiments négatifs ?",
-     "options": [
-      "J'exprime tout",
-      "J'en exprime certains",
-      "Je refoule",
-      "Je nie"
-     ],
-     "axe": "blessures"
-    },
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "rejet-parents",
-       "texte": "T'es-tu senti(e) rejeté(e) ou mal-aimé(e) par ton père ou ta mère ?",
-       "precision": "Raconte, si tu le peux."
-      }
-     ],
-     "axe": "rejet"
-    },
-    {
-     "type": "texte",
-     "id": "enfance",
-     "label": "Quand tu repenses à ton enfance, qu'est-ce qui te fait peur ou te fait mal ?",
-     "axe": "blessures"
-    },
-    {
-     "type": "texte",
-     "id": "enfoui",
-     "label": "Quels sentiments gardes-tu enfouis depuis des années ?",
-     "axe": "blessures"
-    },
-    {
-     "type": "texte",
-     "id": "image-soi",
-     "label": "Quelle image as-tu de toi-même et de ton corps ?",
-     "axe": "blessures"
-    },
-    {
-     "type": "texte",
-     "id": "parole-blessante",
-     "label": "Une parole blessante reste-t-elle gravée en toi ? Laquelle, et par qui ?",
-     "axe": "paroles"
-    },
-    {
-     "type": "texte",
-     "id": "pardon",
-     "label": "Y a-t-il des personnes que tu as du mal à pardonner (initiales) ? Pourquoi ?",
-     "axe": "pardon"
-    },
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "suicide",
-       "texte": "As-tu déjà pensé sérieusement au suicide, ou tenté de mettre fin à ta vie ?",
-       "precision": null
-      }
-     ],
-     "axe": "suicide"
-    }
-   ]
-  },
-  {
-   "id": "corps",
-   "titre": "7. Ton corps et ta vie",
-   "intro": "Dieu se soucie aussi de ton corps et de tes besoins. Certaines choses sont médicales, d'autres spirituelles, souvent les deux : on prie, et on n'oublie pas le médecin.",
-   "blocs": [
-    {
-     "type": "cases",
-     "id": "manifestations",
-     "titre": "Ce que tu ressens de façon inhabituelle ou répétée",
-     "options": [
-      "Insomnies",
-      "Agitation",
-      "Démangeaisons anormales",
-      "Chute excessive des cheveux",
-      "Furoncles ou abcès à répétition",
-      "Transpiration excessive",
-      "Crises ou convulsions",
-      "Étouffements",
-      "Palpitations",
-      "Vertiges",
-      "Sensation de « choses » qui bougent dans le corps",
-      "Prise de poids inexpliquée",
-      "Amaigrissement inexpliqué",
-      "Paralysie",
-      "Fatigue chronique au réveil"
-     ],
-     "axe": "corps"
-    },
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "maladie-incurable",
-       "texte": "As-tu une maladie que la médecine n'arrive pas à guérir ?",
-       "precision": "Laquelle ?"
-      },
-      {
-       "id": "blocages",
-       "texte": "Constates-tu des blocages inexpliqués (examens toujours ratés, projets qui échouent au dernier moment…) ?",
-       "precision": "Lesquels ?"
-      },
-      {
-       "id": "pertes-argent",
-       "texte": "Connais-tu des pertes d'argent inexpliquées ou des difficultés financières qui durent ?",
-       "precision": null
-      }
-     ],
-     "axe": "repetitions"
-    }
-   ]
-  },
-  {
-   "id": "dependances",
-   "titre": "8. Dépendances et péchés qui résistent",
-   "intro": null,
-   "blocs": [
-    {
-     "type": "cases",
-     "id": "addictions",
-     "titre": "As-tu un penchant marqué pour…",
-     "options": [
-      "Alcool",
-      "Tabac",
-      "Cannabis",
-      "Autres drogues",
-      "Médicaments",
-      "Nourriture (manger sans pouvoir s'arrêter)",
-      "Jeux d'argent, paris",
-      "Écrans, réseaux sociaux"
-     ],
-     "axe": "dependances"
-    },
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "langue",
-       "texte": "Utilises-tu ta langue sans contrôle (mentir, maudire, insulter, jurer, te moquer) ?",
-       "precision": null
-      }
-     ],
-     "axe": "peches"
-    },
-    {
-     "type": "cases",
-     "id": "peches",
-     "titre": "Les péchés présents dans ta vie",
-     "options": [
-      "Orgueil",
-      "Paresse",
-      "Amertume",
-      "Colère",
-      "Haine",
-      "Jalousie",
-      "Médisance",
-      "Mensonge",
-      "Vol",
-      "Escroquerie",
-      "Avarice",
-      "Égoïsme",
-      "Rébellion",
-      "Désobéissance",
-      "Hypocrisie",
-      "Incrédulité"
-     ],
-     "axe": "peches"
-    },
-    {
-     "type": "texte",
-     "id": "peches-resistent",
-     "label": "Les péchés que tu n'arrives pas à abandonner",
-     "axe": "peches"
-    },
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "dettes",
-       "texte": "Dois-tu de l'argent, ou as-tu pris quelque chose qu'il faudrait rendre ?",
-       "precision": "À qui, et quoi ?"
-      }
-     ],
-     "axe": "restitution"
-    }
-   ]
-  },
-  {
-   "id": "vie-spirituelle",
-   "titre": "9. Ta vie avec Dieu",
-   "intro": null,
-   "blocs": [
-    {
-     "type": "texte",
-     "id": "suivi",
-     "label": "Qui t'a suivi(e) dans la foi jusqu'ici ?"
-    },
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "retrograde",
-       "texte": "As-tu déjà reculé dans la foi ?",
-       "precision": "Quand, et pourquoi ?"
-      }
-     ]
-    },
-    {
-     "type": "texte",
-     "id": "priere-temps",
-     "label": "Combien de temps pries-tu par jour ? Combien de chapitres lis-tu ?"
-    },
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "sommeil-priere",
-       "texte": "Es-tu pris(e) de sommeil, de lourdeur ou de mauvaises pensées dès que tu pries, lis la Bible ou vas à l'église ?",
-       "precision": null
-      },
-      {
-       "id": "voix",
-       "texte": "Entends-tu des voix ou des bruits étranges quand tu es seul(e) ?",
-       "precision": null
-      },
-      {
-       "id": "objets-perdus",
-       "texte": "Perds-tu des objets personnels ou intimes de façon inhabituelle ?",
-       "precision": null
-      }
-     ],
-     "axe": "oppression"
-    },
-    {
-     "type": "cases",
-     "id": "lectures",
-     "titre": "En dehors de la Bible, tu lis…",
-     "options": [
-      "Livres occultes ou « spirituels »",
-      "Livres de magie",
-      "Psaumes « spéciaux » à réciter pour obtenir quelque chose",
-      "Romans érotiques",
-      "Livrets de prières",
-      "Romans, journaux, magazines"
-     ],
-     "axe": "objets"
-    },
-    {
-     "type": "cases",
-     "id": "pensees-dieu",
-     "titre": "Pensées fausses sur Dieu qui te viennent parfois",
-     "options": [
-      "Il ne partage pas ma peine",
-      "Il est injuste",
-      "Il punit durement ceux qui lui désobéissent",
-      "Le diable est plus fort que lui",
-      "Il m'oublie"
-     ],
-     "axe": "salut"
-    },
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "doute-salut",
-       "texte": "Doutes-tu parfois de ton salut ?",
-       "precision": null
-      },
-      {
-       "id": "certitude",
-       "texte": "Si tu mourais cette nuit, es-tu sûr(e) d'aller auprès du Seigneur ?",
-       "precision": null
-      },
-      {
-       "id": "obeir",
-       "texte": "Es-tu prêt(e) à te repentir de tout et à obéir à Jésus sans condition ?",
-       "precision": null
-      }
-     ],
-     "axe": "salut"
-    }
-   ]
-  },
-  {
-   "id": "attentes",
-   "titre": "10. Ton cœur et tes attentes",
-   "intro": null,
-   "blocs": [
-    {
-     "type": "ouinon",
-     "items": [
-      {
-       "id": "cure-avant",
-       "texte": "As-tu déjà été accompagné(e) ainsi ?",
-       "precision": "Par qui ? As-tu vu des changements ?"
-      },
-      {
-       "id": "secrets",
-       "texte": "Gardes-tu des secrets cachés depuis longtemps ?",
-       "precision": null
-      }
-     ]
-    },
-    {
-     "type": "texte",
-     "id": "ajout",
-     "label": "Autre chose d'important que tu veux confier"
-    },
-    {
-     "type": "texte",
-     "id": "attente",
-     "label": "Que veux-tu exactement que le Seigneur Jésus fasse dans ta vie ?"
-    }
-   ]
-  }
- ],
- "orientations": {
-  "famille": {
-   "titre": "Histoire familiale et naissance",
-   "versets": [
-    "Psaume 27:10",
-    "Ésaïe 49:15",
-    "Éphésiens 1:5"
-   ],
-   "orientations": [
-    "Écouter l'histoire sans hâte ; laisser la personne nommer ce qui lui a manqué.",
-    "Prier pour la guérison des blessures liées à la naissance et à la place dans la famille (enfant non désiré, rivalités de la polygamie, comparaisons).",
-    "Proclamer l'identité d'enfant de Dieu, désiré et adopté.",
-    "Si une naissance a été « obtenue » par des consultations ou dédiée à un esprit : conduire la personne à renoncer à cette dédicace et à se consacrer à Dieu."
-   ]
-  },
-  "lignee": {
-   "titre": "Lignée, pratiques familiales et consécrations",
-   "versets": [
-    "Galates 3:13",
-    "Colossiens 2:14-15",
-    "Néhémie 1:6",
-    "Ézéchiel 18:20",
-    "2 Corinthiens 6:17"
-   ],
-   "orientations": [
-    "Rappeler d'abord la vérité : en Christ, la malédiction est portée et la dette envers Dieu est payée (Galates 3:13). On ne prie pas pour l'obtenir, mais pour l'appliquer.",
-    "Confession par identification des péchés de la lignée, comme Néhémie et Daniel : reconnaître sans accuser ni mépriser ses parents.",
-    "Renoncer nommément aux alliances, dédicaces, sociétés et cultes cochés ; rejeter tout droit que ces pratiques prétendent avoir.",
-    "Se consacrer ouvertement au Seigneur et proclamer son appartenance à Christ seul (Colossiens 1:13).",
-    "Si la personne porte un nom de dédicace à un esprit : en parler avec sagesse ; changer de nom n'est pas obligatoire, mais renoncer à la dédicace l'est.",
-    "Prévoir la suite : comment honorer ses parents sans participer aux rites (Exode 20:12 ; Actes 5:29)."
-   ]
-  },
-  "repetitions": {
-   "titre": "Choses qui se répètent : échecs, blocages, maladies, morts",
-   "versets": [
-    "Galates 3:13-14",
-    "Deutéronome 28:13",
-    "Psaume 118:17",
-    "Jean 10:10"
-   ],
-   "orientations": [
-    "Faire l'inventaire précis : qu'est-ce qui se répète, depuis quand, chez qui ?",
-    "Prier pour briser, au nom de Jésus, les cycles d'échec, de stérilité, de mort précoce ou de pauvreté identifiés, en s'appuyant sur la croix.",
-    "Pour les élèves qui échouent sans raison aux examens officiels : prier pour la rupture de ce cycle, et vérifier aussi le concret (méthode de travail, sommeil, peur de l'examen) ; Dieu agit souvent sur les deux.",
-    "Pour une maladie : prier pour la guérison ET encourager le suivi médical (Jacques 5:14 ; Luc 5:31).",
-    "Proclamer les promesses de vie et de bénédiction, et revenir prier sur ce point lors des rencontres suivantes."
-   ]
-  },
-  "paroles": {
-   "titre": "Paroles de malédiction et paroles blessantes",
-   "versets": [
-    "Proverbes 18:21",
-    "Proverbes 26:2",
-    "Romains 12:14",
-    "Nombres 23:8"
-   ],
-   "orientations": [
-    "Pardonner à celui qui a prononcé ces paroles (c'est une décision, pas un sentiment).",
-    "Rejeter et annuler, au nom de Jésus, les paroles de mort ou d'échec prononcées.",
-    "Remplacer chaque parole fausse par ce que Dieu dit (« Tu n'arriveras à rien » → Philippiens 4:13).",
-    "Bénir plutôt que maudire en retour (Romains 12:14)."
-   ]
-  },
-  "occultisme": {
-   "titre": "Consultations, sectes et pratiques occultes personnelles",
-   "versets": [
-    "Deutéronome 18:10-12",
-    "Actes 19:18-19",
-    "2 Corinthiens 6:14-18",
-    "1 Jean 1:9"
-   ],
-   "orientations": [
-    "Conduire à une confession claire, point par point : ce qui a été fait, avec qui, pour quoi.",
-    "Renoncer nommément à chaque pratique, ordre ou groupe, et aux esprits qui y sont liés.",
-    "Rompre au nom de Jésus les liens créés par ce qui a été donné (cheveux, ongles, sang, habits…).",
-    "Annoncer la délivrance avec autorité, dans le calme : c'est Christ qui délivre, pas le bruit.",
-    "Vérifier dans les semaines suivantes que la personne ne retourne pas consulter quand viennent les difficultés."
-   ]
-  },
-  "pactes": {
-   "titre": "Initiations, pactes et alliances",
-   "versets": [
-    "Ésaïe 28:18",
-    "Colossiens 2:15",
-    "Hébreux 9:14",
-    "Apocalypse 12:11"
-   ],
-   "orientations": [
-    "Faire nommer chaque pacte, ses termes et ce qui a été promis.",
-    "Renoncer à chaque pacte et le déclarer annulé par le sang de Jésus, qui établit une alliance supérieure.",
-    "Se placer volontairement sous la seule alliance de Christ.",
-    "Si un pacte touche encore une société ou un groupe dont la personne est membre : l'aider à en sortir concrètement (lettre, retrait, objets rendus ou détruits)."
-   ]
-  },
-  "objets": {
-   "titre": "Objets, livres et choses gardées",
-   "versets": [
-    "Actes 19:19",
-    "Deutéronome 7:25-26",
-    "Josué 7:13"
-   ],
-   "orientations": [
-    "Faire la liste des objets à détruire : fétiches, amulettes, bagues, livres occultes, images pornographiques.",
-    "Organiser leur destruction (les brûler plutôt que les donner ou les vendre), si possible avec un responsable présent.",
-    "Pour le fruit d'un vol : prévoir la restitution.",
-    "Prier pour purifier la chambre ou la maison après la destruction."
-   ]
-  },
-  "reves": {
-   "titre": "Vie de rêves",
-   "versets": [
-    "Psaume 4:9",
-    "Psaume 91:5-6",
-    "Job 33:14-18",
-    "Éphésiens 6:10-18"
-   ],
-   "orientations": [
-    "Ne pas semer la peur : tous les rêves n'ont pas un sens spirituel. Retenir ceux qui se répètent.",
-    "Prier pour la rupture des liens avec les « époux de nuit », les repas en rêve, les sorties hors du corps, selon ce qui est coché.",
-    "Enseigner la prière du soir, la Parole avant de dormir et l'invocation du nom de Jésus au réveil ou dans le rêve.",
-    "Si la personne se voit faire du mal aux autres en rêve : conduire à la repentance, au renoncement et à la délivrance avec beaucoup de douceur.",
-    "Si les troubles du sommeil sont lourds (insomnies, cauchemars traumatiques) : penser aussi à une aide médicale."
-   ]
-  },
-  "sexualite": {
-   "titre": "Sexualité",
-   "versets": [
-    "1 Corinthiens 6:15-20",
-    "1 Thessaloniciens 4:3-5",
-    "Psaume 51",
-    "1 Jean 1:9"
-   ],
-   "orientations": [
-    "Accueillir la confession sans choc ni curiosité ; ne demander que ce qui est utile.",
-    "Conduire à la repentance pour chaque pratique cochée, puis à recevoir le pardon complet.",
-    "Prier pour la purification de la pensée et du corps, consacré au Seigneur comme temple.",
-    "Mettre en place un plan concret : éloigner les occasions, filtres sur le téléphone, un partenaire de redevabilité. Proposer le parcours de 90 jours de Yeshaya si la pornographie ou la masturbation sont en jeu.",
-    "Pour l'homosexualité : accompagner avec vérité et amour, sans mépris ; c'est un chemin de sainteté, pas une simple prière."
-   ]
-  },
-  "liens": {
-   "titre": "Liens d'âme",
-   "versets": [
-    "1 Corinthiens 6:16-18",
-    "Genèse 2:24",
-    "2 Corinthiens 5:17"
-   ],
-   "orientations": [
-    "Pour chaque personne notée : se repentir de la relation, puis rompre le lien au nom de Jésus.",
-    "Rendre ou détruire les cadeaux et souvenirs qui entretiennent l'attachement, si nécessaire.",
-    "Couper aussi le contact quand la relation est encore active et pécheresse."
-   ]
-  },
-  "abus": {
-   "titre": "Abus subis",
-   "versets": [
-    "Psaume 34:19",
-    "Ésaïe 61:1-3",
-    "Psaume 147:3"
-   ],
-   "orientations": [
-    "Dire clairement à la personne qu'elle n'est pas coupable de ce qu'elle a subi.",
-    "Prier pour la guérison intérieure : la honte, la peur, le dégoût du corps, la colère.",
-    "Le pardon viendra en son temps ; ne pas l'exiger trop vite, ni le présenter comme une excuse pour l'agresseur.",
-    "Si la personne est mineure, si l'abus continue ou si elle est en danger : avertir le pasteur et orienter vers une aide (médicale, psychologique, juridique). Le secret ne couvre jamais un danger.",
-    "Un accompagnateur du même sexe, et si possible une deuxième personne de confiance, pour ce sujet."
-   ]
-  },
-  "avortement": {
-   "titre": "Avortement et enfant hors mariage",
-   "versets": [
-    "Psaume 51:3-14",
-    "Psaume 103:10-12",
-    "Romains 8:1"
-   ],
-   "orientations": [
-    "Conduire à la repentance devant Dieu, sans écraser : le sang de Jésus purifie aussi ce péché.",
-    "Laisser la place au deuil de l'enfant ; prier pour la guérison de la culpabilité et de la honte.",
-    "Pour un enfant hors mariage : se repentir de la faute, et aider la personne à assumer avec amour ses responsabilités envers l'enfant."
-   ]
-  },
-  "sante": {
-   "titre": "Santé intime",
-   "versets": [
-    "Jacques 5:14-16",
-    "3 Jean 1:2"
-   ],
-   "orientations": [
-    "Prier pour la guérison.",
-    "Encourager une consultation médicale et un dépistage ; c'est sage, pas un manque de foi."
-   ]
-  },
-  "blessures": {
-   "titre": "Blessures et émotions",
-   "versets": [
-    "Psaume 147:3",
-    "Ésaïe 53:4-5",
-    "Éphésiens 4:31-32",
-    "Philippiens 4:6-7"
-   ],
-   "orientations": [
-    "Faire raconter les blessures principales ; écouter longtemps, parler peu.",
-    "Prier pour la guérison intérieure de chaque blessure nommée, en invitant Jésus dans ces souvenirs.",
-    "Pour la colère, l'amertume, la haine : conduire à les reconnaître comme péchés et à les déposer.",
-    "Pour la peur, l'angoisse, la dépression : prier, et ne pas hésiter à orienter vers un professionnel de santé si c'est lourd.",
-    "Remplacer les mensonges sur soi par la vérité de la Parole (Psaume 139:13-16)."
-   ]
-  },
-  "rejet": {
-   "titre": "Rejet d'un parent",
-   "versets": [
-    "Psaume 27:10",
-    "Jean 1:12",
-    "Romains 8:15-16",
-    "Malachie 4:6"
-   ],
-   "orientations": [
-    "Reconnaître la douleur du rejet sans la minimiser.",
-    "Pardonner au parent qui a rejeté ; c'est souvent la clé de nombreux blocages.",
-    "Prier pour briser l'esprit de rejet et recevoir l'amour du Père.",
-    "Si c'est possible et sans danger, réfléchir à une démarche de réconciliation."
-   ]
-  },
-  "pardon": {
-   "titre": "Manque de pardon",
-   "versets": [
-    "Matthieu 6:14-15",
-    "Matthieu 18:21-35",
-    "Éphésiens 4:32",
-    "Romains 12:19"
-   ],
-   "orientations": [
-    "Expliquer ce qu'est le pardon : remettre la dette à Dieu, renoncer à la vengeance ; ce n'est ni oublier ni approuver.",
-    "Pardonner nommément à chaque personne notée.",
-    "Bénir ceux qui ont blessé.",
-    "Revenir sur ce point aux rencontres suivantes : le pardon est parfois un chemin."
-   ]
-  },
-  "suicide": {
-   "titre": "Pensées suicidaires : priorité absolue",
-   "versets": [
-    "Deutéronome 30:19",
-    "Jérémie 29:11",
-    "Psaume 34:19"
-   ],
-   "orientations": [
-    "Prendre ce point au sérieux et en parler tout de suite, avec calme.",
-    "Ne jamais laisser la personne seule si le danger est présent ; alerter le pasteur et la famille de confiance, et chercher une aide médicale.",
-    "Prier contre l'esprit de mort et proclamer la vie.",
-    "Prévoir un suivi rapproché (appel ou visite dans les jours qui suivent)."
-   ]
-  },
-  "corps": {
-   "titre": "Manifestations dans le corps",
-   "versets": [
-    "Luc 13:11-13",
-    "Jacques 5:14-16",
-    "Matthieu 8:16-17"
-   ],
-   "orientations": [
-    "Prier pour la guérison et la délivrance selon ce qui est coché.",
-    "Toujours encourager aussi un examen médical ; certaines manifestations ont une cause physique.",
-    "Observer pendant la prière ; ne pas provoquer de manifestations, rester calme et ferme au nom de Jésus."
-   ]
-  },
-  "dependances": {
-   "titre": "Dépendances",
-   "versets": [
-    "Jean 8:36",
-    "1 Corinthiens 6:12",
-    "Galates 5:1"
-   ],
-   "orientations": [
-    "Se repentir et renoncer à la dépendance ; prier pour la délivrance.",
-    "Mettre en place un plan : éviter les lieux et les amis liés, un partenaire de redevabilité.",
-    "Pour l'alcool ou la drogue installés : une aide médicale est souvent nécessaire (le sevrage peut être dangereux)."
-   ]
-  },
-  "peches": {
-   "titre": "Péchés qui résistent",
-   "versets": [
-    "Romains 6:11-14",
-    "Proverbes 28:13",
-    "Jacques 4:7",
-    "Galates 5:16"
-   ],
-   "orientations": [
-    "Confesser chaque péché nommément et recevoir le pardon.",
-    "Chercher la porte d'entrée : depuis quand, dans quelles circonstances ?",
-    "Établir des disciplines : Parole, prière, redevabilité, fuite des occasions.",
-    "Encourager : la victoire est souvent progressive ; on se relève à chaque chute."
-   ]
-  },
-  "restitution": {
-   "titre": "Restitution",
-   "versets": [
-    "Luc 19:8",
-    "Exode 22:1-4",
-    "Romains 13:8"
-   ],
-   "orientations": [
-    "Faire la liste de ce qu'il faut rendre ou rembourser.",
-    "Préparer la démarche avec sagesse : quand, comment, quoi dire.",
-    "Si la restitution complète est impossible, chercher un arrangement honnête ; l'intention et les actes comptent."
-   ]
-  },
-  "oppression": {
-   "titre": "Oppression dans la vie spirituelle",
-   "versets": [
-    "Jacques 4:7",
-    "Éphésiens 6:10-18",
-    "Luc 10:19"
-   ],
-   "orientations": [
-    "Prier contre le sommeil, la lourdeur et les distractions qui attaquent la prière et la Parole.",
-    "Enseigner à résister : prier debout, à voix haute, lire en marchant, persévérer.",
-    "Rechercher dans le reste de la fiche la porte qui a pu s'ouvrir (occultisme, pactes, objets)."
-   ]
-  },
-  "salut": {
-   "titre": "Assurance du salut et image de Dieu",
-   "versets": [
-    "1 Jean 5:11-13",
-    "Jean 10:27-29",
-    "Romains 8:38-39",
-    "Hébreux 13:5"
-   ],
-   "orientations": [
-    "Reprendre l'Évangile simplement ; s'assurer que la personne a vraiment donné sa vie à Jésus.",
-    "Corriger chaque pensée fausse sur Dieu par un passage précis.",
-    "Inviter à un engagement renouvelé si la personne le souhaite."
-   ]
-  }
- },
- "regles_accompagnateur": [
-  "Prépare-toi dans la prière avant la rencontre.",
-  "Parcours la fiche avec la personne dans un climat de confiance ; écoute plus que tu ne parles.",
-  "Ne force aucune révélation. Ce qui n'est pas dit aujourd'hui pourra l'être plus tard.",
-  "Pour les questions sexuelles et les abus : un accompagnateur du même sexe, et si possible une deuxième personne de confiance.",
-  "Le secret est la règle, sauf si quelqu'un est en danger (mineur abusé, risque de suicide) : alors avertis le pasteur et cherche de l'aide.",
-  "Les orientations ci-dessous ne sont pas des prières à réciter : elles indiquent ce qu'il faut faire. Laisse le Saint-Esprit vous conduire dans les mots.",
-  "Ne crée pas la peur des démons : Christ a déjà vaincu. On agit à partir de sa victoire, dans le calme et l'autorité.",
-  "Prévois un suivi : certains points demandent plusieurs rencontres."
- ],
- "confidentialite": "Ce bilan reste uniquement sur ce téléphone. Il n'est jamais envoyé à Yeshaya et n'est pas inclus quand tu envoies tes réponses à ton accompagnateur. Tu peux le protéger par un code et l'effacer à tout moment.",
- "source": "Fiche conçue par l'auteur de Yeshaya pour la cure d'âme, adaptée pour l'accompagnement du nouveau converti."
+  "regles_accompagnateur": [
+    "Prépare-toi dans la prière avant la rencontre.",
+    "Parcours la fiche avec la personne dans un climat de confiance ; écoute plus que tu ne parles.",
+    "Ne force aucune révélation. Ce qui n'est pas dit aujourd'hui pourra l'être plus tard.",
+    "Pour les questions sexuelles et les abus : un berger du même sexe, et si possible une deuxième personne de confiance.",
+    "Le secret est la règle, sauf si quelqu'un est en danger (mineur abusé, risque de suicide) : alors avertis le pasteur et cherche de l'aide.",
+    "Les orientations ci-dessous ne sont pas des prières à réciter : elles indiquent ce qu'il faut faire. Laisse le Saint-Esprit vous conduire dans les mots.",
+    "Ne crée pas la peur des démons : Christ a déjà vaincu. On agit à partir de sa victoire, dans le calme et l'autorité.",
+    "Prévois un suivi : certains points demandent plusieurs rencontres."
+  ],
+  "confidentialite": "Ce bilan reste uniquement sur ce téléphone. Il n'est jamais envoyé à Yeshaya et n'est pas inclus quand tu envoies tes réponses à ton berger. Tu peux le protéger par un code et l'effacer à tout moment.",
+  "source": "Fiche conçue par l'auteur de Yeshaya pour la cure d'âme, adaptée pour l'accompagnement du nouveau converti."
 }

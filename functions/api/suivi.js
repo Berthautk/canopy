@@ -45,11 +45,11 @@ export async function onRequestPost({ request, env }) {
   }
 
   const s = code && await lire(db, code);
-  if (!s) { await new Promise((r) => setTimeout(r, 600)); return json({ ok: false, erreur: 'Ce code n\'existe pas. Vérifie-le avec ton encadreur.' }, 404); }
+  if (!s) { await new Promise((r) => setTimeout(r, 600)); return json({ ok: false, erreur: 'Ce code n\'existe pas. Vérifie-le avec ton berger.' }, 404); }
 
   // Le disciple entre le code et son prénom.
   if (c.action === 'rejoindre') {
-    if (propre(c.prenom) !== propre(s.prenom)) { await new Promise((r) => setTimeout(r, 600)); return json({ ok: false, erreur: 'Le prénom ne correspond pas à ce code. Écris-le comme ton encadreur l\'a noté.' }, 403); }
+    if (propre(c.prenom) !== propre(s.prenom)) { await new Promise((r) => setTimeout(r, 600)); return json({ ok: false, erreur: 'Le prénom ne correspond pas à ce code. Écris-le comme ton berger l\'a noté.' }, 403); }
     const cle = s.cle_disciple || nouvelleCle(), t = maintenant();
     await db.prepare('UPDATE suivis SET cle_disciple = ?, rejoint = COALESCE(rejoint, ?), maj = ? WHERE code = ?').bind(cle, t, t, code).run();
     return json({ ok: true, cle, prenom: s.prenom, pas: s.pas });

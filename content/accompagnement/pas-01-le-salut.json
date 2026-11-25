@@ -1,694 +1,694 @@
 {
- "id": "pas-01-le-salut",
- "volume": 1,
- "numero": 1,
- "titre": "Le salut",
- "sous_titre": "Ma vie avant Christ, ce que Dieu a fait pour moi, ma vie après Christ",
- "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
- "enseignement": "affermissement-1-le-salut",
- "verset_memoire": "Éphésiens 2:8-9",
- "lecture": {
-  "titre": "Cette semaine, lis l'Évangile de Jean, un chapitre par jour",
-  "conseil": "Avant chaque lecture, prie : « Seigneur, parle-moi. » Après la lecture, note une phrase qui t'a touché.",
-  "jours": [
-   "Jean 1",
-   "Jean 2",
-   "Jean 3",
-   "Jean 4",
-   "Jean 5",
-   "Jean 6",
-   "Jean 7"
-  ]
- },
- "introduction": [
-  "Bienvenue dans la famille de Dieu ! Tu as commencé une nouvelle vie. Comme un bébé a besoin de lait chaque jour pour grandir, ton âme a besoin de la Parole de Dieu (1 Pierre 2:2).",
-  "Cette fiche va t'accompagner toute la semaine. Prends ta Bible, cherche chaque passage, et réponds avec tes propres mots : ne recopie pas le verset, dis ce que tu as compris. Il n'y a pas de honte à ne pas savoir : ton accompagnateur reprendra chaque réponse avec toi.",
-  "Le salut est la base de tout. Nous allons regarder trois moments : ta vie avant Christ, ce que Dieu a fait pour toi, et ta vie après Christ. Prends ton temps, surtout pour la première partie : elle touche ta propre histoire."
- ],
- "parties": [
-  {
-   "titre": "Pour commencer : vrai ou faux ?",
-   "intro": "Réponds d'abord avec ce que tu penses aujourd'hui. Tu verras à la fin de la semaine si ton avis a changé.",
-   "elements": [
+  "id": "pas-01-le-salut",
+  "volume": 1,
+  "numero": 1,
+  "titre": "Le salut",
+  "sous_titre": "Ma vie avant Christ, ce que Dieu a fait pour moi, ma vie après Christ",
+  "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+  "enseignement": "affermissement-1-le-salut",
+  "verset_memoire": "Éphésiens 2:8-9",
+  "lecture": {
+    "titre": "Cette semaine, lis l'Évangile de Jean, un chapitre par jour",
+    "conseil": "Avant chaque lecture, prie : « Seigneur, parle-moi. » Après la lecture, note une phrase qui t'a touché.",
+    "jours": [
+      "Jean 1",
+      "Jean 2",
+      "Jean 3",
+      "Jean 4",
+      "Jean 5",
+      "Jean 6",
+      "Jean 7"
+    ]
+  },
+  "introduction": [
+    "Bienvenue dans la famille de Dieu ! Tu as commencé une nouvelle vie. Comme un bébé a besoin de lait chaque jour pour grandir, ton âme a besoin de la Parole de Dieu (1 Pierre 2:2).",
+    "Cette fiche va t'accompagner toute la semaine. Prends ta Bible, cherche chaque passage, et réponds avec tes propres mots : ne recopie pas le verset, dis ce que tu as compris. Il n'y a pas de honte à ne pas savoir : ton berger reprendra chaque réponse avec toi.",
+    "Le salut est la base de tout. Nous allons regarder trois moments : ta vie avant Christ, ce que Dieu a fait pour toi, et ta vie après Christ. Prends ton temps, surtout pour la première partie : elle touche ta propre histoire."
+  ],
+  "parties": [
     {
-     "type": "vf",
-     "items": [
+      "titre": "Pour commencer : vrai ou faux ?",
+      "intro": "Réponds d'abord avec ce que tu penses aujourd'hui. Tu verras à la fin de la semaine si ton avis a changé.",
+      "elements": [
+        {
+          "type": "vf",
+          "items": [
+            {
+              "id": "vf1",
+              "texte": "Pour être sauvé, il suffit de croire que Dieu existe.",
+              "reponse": false,
+              "explication": "Même les démons croient que Dieu existe, et ils tremblent (Jacques 2:19). Être sauvé, c'est se confier personnellement en Jésus-Christ et se donner à lui."
+            },
+            {
+              "id": "vf2",
+              "texte": "Le péché sépare l'homme de Dieu.",
+              "reponse": true,
+              "explication": "Ésaïe 59:2 : « Ce sont vos crimes qui mettent une séparation entre vous et votre Dieu. »"
+            },
+            {
+              "id": "vf3",
+              "texte": "On est sauvé en allant à l'église et en faisant de bonnes œuvres.",
+              "reponse": false,
+              "explication": "Éphésiens 2:8-9 : le salut est un don de Dieu, reçu par la foi, et non le résultat de nos œuvres."
+            },
+            {
+              "id": "vf4",
+              "texte": "Quelqu'un né dans une famille chrétienne est chrétien de naissance.",
+              "reponse": false,
+              "explication": "Jean 1:12-13 et 3:3 : on devient enfant de Dieu par une naissance d'en haut, pas par la naissance de la chair."
+            },
+            {
+              "id": "vf5",
+              "texte": "Quand je donne ma vie à Jésus, tous mes péchés sont pardonnés, même ceux que j'ai oubliés.",
+              "reponse": true,
+              "explication": "1 Jean 1:7 et Colossiens 2:13 : le sang de Jésus purifie de tout péché."
+            },
+            {
+              "id": "vf6",
+              "texte": "Après ma conversion, je n'aurai plus jamais de combat.",
+              "reponse": false,
+              "explication": "Le salut est complet, mais la vie chrétienne est un combat (Éphésiens 6:12). La différence, c'est que nous combattons à partir de la victoire de Jésus."
+            },
+            {
+              "id": "vf7",
+              "texte": "Les pratiques de ma famille (consultations, dédicaces, sociétés) n'ont aucun rapport avec ma nouvelle vie.",
+              "reponse": false,
+              "explication": "La dette envers Dieu est entièrement payée, mais la Bible montre qu'il faut renoncer clairement à ces choses et les brûler (Actes 19:18-19). C'est ce que nous ferons ensemble."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "I. Ma vie avant Christ",
+      "intro": "Avant de regarder ce que Dieu a fait, il faut comprendre d'où il nous a sortis. On ne mesure la grandeur d'un sauvetage qu'en voyant la profondeur du trou.",
+      "elements": [
+        {
+          "type": "question",
+          "id": "q1",
+          "texte": "D'après Éphésiens 2:1, quelle était notre condition avant que Christ nous donne la vie ?",
+          "refs": [
+            "Éphésiens 2:1"
+          ],
+          "accompagnateur": {
+            "attendu": "Nous étions morts par nos offenses et nos péchés.",
+            "expliquer": [
+              "« Mort » ne veut pas dire « un peu malade » : un mort ne peut pas se relever seul. C'est pour cela que le salut vient entièrement de Dieu.",
+              "La mort spirituelle, c'est être séparé de Dieu, la source de la vie, même si le corps vit."
+            ],
+            "erreurs": [
+              "Penser que l'homme est « bon au fond » et qu'il lui manque seulement un peu d'effort."
+            ],
+            "relance": "Si nous étions morts, qu'est-ce que cela change dans la manière dont on est sauvé ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q2",
+          "texte": "Lis Éphésiens 2:2-3. Qui conduisait notre vie, et qu'est-ce qui nous dirigeait ?",
+          "refs": [
+            "Éphésiens 2:2-3"
+          ],
+          "accompagnateur": {
+            "attendu": "Nous suivions le « train de ce monde », le « prince de la puissance de l'air » (Satan) qui agit dans les rebelles, et les désirs de notre chair.",
+            "expliquer": [
+              "Avant Christ, il y avait trois maîtres : le monde (la manière de vivre de tous), le diable, et nos propres désirs.",
+              "En Afrique, ce « prince de la puissance de l'air » se manifeste souvent dans les pratiques traditionnelles, les consultations, les sociétés secrètes : c'est pour cela que la partie « Mon bilan de vie » est importante."
+            ],
+            "erreurs": [
+              "Croire qu'on était « neutre » avant Christ : la Bible dit qu'on était sous une autre autorité."
+            ],
+            "relance": "Dans ta vie avant Christ, lequel de ces trois maîtres était le plus fort ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q3",
+          "texte": "Lis Romains 3:23. Est-ce que tout le monde a péché ? Et toi ?",
+          "refs": [
+            "Romains 3:23"
+          ],
+          "accompagnateur": {
+            "attendu": "Oui : tous ont péché et sont privés de la gloire de Dieu. Personne n'est exclu, ni le religieux, ni le « bon » garçon ou la « bonne » fille.",
+            "expliquer": [
+              "« Privés de la gloire de Dieu » : nous manquons le but pour lequel Dieu nous a créés, comme une flèche qui manque la cible."
+            ],
+            "erreurs": [
+              "Se comparer aux autres (« je ne suis pas un voleur, moi ») : la mesure n'est pas les autres, c'est la sainteté de Dieu."
+            ],
+            "relance": "Peux-tu nommer un péché précis que tu as compris comme péché seulement après ta conversion ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q4",
+          "texte": "D'après Marc 7:21-23, d'où vient le péché ?",
+          "refs": [
+            "Marc 7:21-23"
+          ],
+          "accompagnateur": {
+            "attendu": "Du dedans, du cœur de l'homme. Le problème n'est pas seulement ce que nous faisons, mais ce que nous sommes.",
+            "expliquer": [
+              "C'est pour cela qu'il fallait un cœur nouveau, pas seulement de bonnes résolutions (Ézéchiel 36:26)."
+            ],
+            "relance": "Pourquoi les résolutions du Nouvel An ne suffisent-elles pas à changer quelqu'un ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q5",
+          "texte": "Que produit le péché d'après Romains 6:23 et Ésaïe 59:2 ?",
+          "refs": [
+            "Romains 6:23",
+            "Ésaïe 59:2"
+          ],
+          "accompagnateur": {
+            "attendu": "La mort (le « salaire » du péché) et la séparation d'avec Dieu.",
+            "expliquer": [
+              "Le salaire est ce qu'on mérite ; le don est ce qu'on reçoit gratuitement. Romains 6:23 oppose les deux."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q6",
+          "texte": "Lis Jean 3:18. Pourquoi celui qui ne croit pas est-il déjà condamné ?",
+          "refs": [
+            "Jean 3:18"
+          ],
+          "accompagnateur": {
+            "attendu": "Parce qu'il n'a pas cru au nom du Fils unique de Dieu. La condamnation n'attend pas la fin : elle est déjà là pour celui qui refuse Christ.",
+            "expliquer": [
+              "Dieu ne condamne pas par plaisir (Jean 3:17) ; mais celui qui refuse le seul remède reste dans sa maladie."
+            ],
+            "erreurs": [
+              "Penser que Dieu envoie en enfer « les méchants » seulement : le critère est la foi en Jésus."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q7",
+          "texte": "D'après Colossiens 1:13 et Actes 26:18, sous quelle puissance étions-nous avant notre conversion ?",
+          "refs": [
+            "Colossiens 1:13",
+            "Actes 26:18"
+          ],
+          "accompagnateur": {
+            "attendu": "Sous la puissance des ténèbres, la puissance de Satan.",
+            "expliquer": [
+              "Le salut n'est pas seulement un pardon : c'est un transfert de royaume. Celui qui était sous la puissance des ténèbres passe dans le royaume du Fils.",
+              "Ce passage prépare la suite : ce qui appartenait au royaume des ténèbres (pactes, objets, consécrations) doit être rejeté."
+            ],
+            "relance": "Qu'est-ce que cela change de savoir qu'on a changé de royaume, et pas seulement de religion ?"
+          }
+        },
+        {
+          "type": "encadre",
+          "style": "meditation",
+          "titre": "Mon histoire avant Christ",
+          "texte": [
+            "Maintenant, regarde ta propre vie. Comment vivais-tu avant de connaître Jésus ? Qu'est-ce qui te dominait ? Qu'est-ce qui te faisait peur ? De quoi avais-tu honte ?",
+            "Écris ici avec tes mots. Personne d'autre que ton berger ne le lira, et seulement si tu le veux."
+          ],
+          "champ": "Ma vie avant Christ, en quelques lignes",
+          "id": "ma-vie-avant"
+        },
+        {
+          "type": "bilan",
+          "titre": "Mon bilan de vie (confidentiel)",
+          "texte": [
+            "Ta vie avant Christ, ce n'est pas seulement tes péchés personnels. C'est aussi ta famille, ta lignée, ce que tu as reçu ou subi, ce que tu as donné, ce qui se répète. En Afrique, beaucoup de nouveaux convertis restent bloqués parce que ces choses n'ont jamais été apportées à la croix.",
+            "Prends au moins une heure cette semaine pour remplir ton bilan de vie, au calme, dans la prière. Coche ce qui te concerne. Tu le parcourras avec ton berger pendant la rencontre."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "II. Ce que Dieu a fait pour moi",
+      "intro": "Voici la bonne nouvelle : Dieu n'a pas attendu que nous devenions bons. Il est venu nous chercher là où nous étions.",
+      "elements": [
+        {
+          "type": "question",
+          "id": "q8",
+          "texte": "Dans Éphésiens 2:4-5, comment Dieu est-il décrit ? Qu'a-t-il fait pour nous ?",
+          "refs": [
+            "Éphésiens 2:4-5"
+          ],
+          "accompagnateur": {
+            "attendu": "Dieu est riche en miséricorde et nous aime d'un grand amour. Alors que nous étions morts, il nous a rendus à la vie avec Christ.",
+            "expliquer": [
+              "Remarque le « Mais Dieu » du verset 4 : c'est le tournant de toute l'histoire. Après la mort (v. 1-3), Dieu intervient.",
+              "La miséricorde, c'est ne pas recevoir le châtiment qu'on mérite ; la grâce, c'est recevoir ce qu'on ne mérite pas."
+            ],
+            "relance": "Quand as-tu compris pour la première fois que Dieu t'aimait personnellement ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q9",
+          "texte": "Lis Romains 5:8. Comment Dieu nous a-t-il prouvé son amour ? À quel moment ?",
+          "refs": [
+            "Romains 5:8"
+          ],
+          "accompagnateur": {
+            "attendu": "Christ est mort pour nous lorsque nous étions encore des pécheurs, pas après que nous soyons devenus meilleurs.",
+            "expliquer": [
+              "L'amour de Dieu ne dépend pas de notre mérite ; c'est pour cela qu'il ne disparaît pas quand nous tombons."
+            ],
+            "erreurs": [
+              "Penser que Dieu nous aimera « quand nous serons assez saints »."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q10",
+          "texte": "D'après Ésaïe 53:5-6 et 1 Pierre 2:24, qu'a porté Jésus sur la croix ?",
+          "refs": [
+            "Ésaïe 53:5-6",
+            "1 Pierre 2:24"
+          ],
+          "accompagnateur": {
+            "attendu": "Nos péchés, nos iniquités, le châtiment qui nous donne la paix. Il a pris notre place.",
+            "expliquer": [
+              "C'est l'échange de la croix : il a pris notre péché, nous recevons sa justice (2 Corinthiens 5:21).",
+              "« Par ses meurtrissures nous sommes guéris » : la croix touche aussi nos blessures."
+            ],
+            "relance": "Si Jésus a porté le châtiment, que reste-t-il à payer pour toi devant Dieu ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q11",
+          "texte": "Lis Colossiens 2:13-15. Qu'a fait Jésus de « l'acte » qui était contre nous ? Et des puissances ?",
+          "refs": [
+            "Colossiens 2:13-15"
+          ],
+          "accompagnateur": {
+            "attendu": "Il a effacé l'acte qui nous condamnait et l'a cloué à la croix. Il a dépouillé les dominations et les autorités et les a livrées publiquement en spectacle.",
+            "expliquer": [
+              "Voici le fondement de toute délivrance : à la croix, la dette envers Dieu est entièrement payée, et les puissances des ténèbres sont vaincues.",
+              "Quand nous prierons plus tard pour briser des liens, des pactes ou des malédictions, nous ne prierons pas pour vaincre le diable : il est déjà vaincu. Nous appliquerons dans notre vie la victoire que Jésus a remportée."
+            ],
+            "erreurs": [
+              "Croire que le diable et Jésus sont deux forces égales qui se battent.",
+              "Croire qu'il faut ajouter quelque chose à la croix pour être vraiment libre."
+            ],
+            "relance": "Si tout est payé, pourquoi faut-il encore renoncer à certaines choses ? (Penser à une maison dont on a reçu les clés mais où traînent encore les affaires de l'ancien occupant.)"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q12",
+          "texte": "D'après Galates 3:13, de quoi Christ nous a-t-il rachetés ?",
+          "refs": [
+            "Galates 3:13"
+          ],
+          "accompagnateur": {
+            "attendu": "De la malédiction de la loi, en devenant malédiction pour nous.",
+            "expliquer": [
+              "Jésus a pris sur lui la malédiction, afin que la bénédiction d'Abraham parvienne jusqu'à nous (v. 14).",
+              "Cela répond à la peur des malédictions familiales : elles n'ont plus de droit légal sur celui qui est en Christ. Mais il faut se placer consciemment sous la croix, renoncer et proclamer cette vérité."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q13",
+          "texte": "Lis Éphésiens 2:8-9. Par quoi sommes-nous sauvés ? Par le moyen de quoi ? Qu'est-ce qui est exclu ?",
+          "refs": [
+            "Éphésiens 2:8-9"
+          ],
+          "accompagnateur": {
+            "attendu": "Par la grâce, par le moyen de la foi. Ce n'est pas par les œuvres, afin que personne ne se glorifie.",
+            "expliquer": [
+              "La grâce est un cadeau immérité. La foi est la main qui reçoit le cadeau.",
+              "Les œuvres viennent après, comme fruit du salut, jamais comme prix (v. 10)."
+            ],
+            "relance": "Quelles « œuvres » les gens autour de toi font-ils pour essayer d'être sauvés ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q14",
+          "texte": "Quelles sortes de bonnes œuvres les gens font-ils pour être en règle avec Dieu ? Cite des exemples de ton entourage.",
+          "refs": [],
+          "accompagnateur": {
+            "attendu": "Réponse libre : aller à la messe ou à la mosquée, donner aux pauvres, jeûner, porter une croix ou un chapelet, faire des sacrifices, être baptisé, suivre des règles…",
+            "expliquer": [
+              "Ces choses peuvent être bonnes, mais aucune ne peut payer le péché. Seul le sang de Jésus le peut (Hébreux 9:22)."
+            ],
+            "erreurs": [
+              "Juger les autres ; le but est de voir le piège dans lequel nous pouvons tomber nous aussi."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q15",
+          "texte": "D'après Jean 1:12 et Galates 3:26, comment devient-on enfant de Dieu ?",
+          "refs": [
+            "Jean 1:12",
+            "Galates 3:26"
+          ],
+          "accompagnateur": {
+            "attendu": "En recevant Jésus, en croyant en son nom : par la foi en Christ Jésus.",
+            "expliquer": [
+              "« Recevoir » est un acte personnel : on ne reçoit pas Jésus par ses parents ni par une cérémonie."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q16",
+          "texte": "Dis avec tes propres mots ce que veut dire « avoir foi en Christ ».",
+          "refs": [],
+          "accompagnateur": {
+            "attendu": "Faire confiance à Jésus seul pour son salut, s'appuyer sur lui de tout son poids, et se donner à lui comme Seigneur.",
+            "expliquer": [
+              "Image : s'asseoir sur une chaise. Croire que la chaise est solide ne suffit pas ; il faut s'y asseoir.",
+              "La foi n'est pas seulement savoir (les démons savent), c'est se confier et se soumettre."
+            ]
+          }
+        },
+        {
+          "type": "encadre",
+          "style": "decision",
+          "titre": "Temps de décision",
+          "texte": [
+            "As-tu déjà, personnellement, reconnu ton péché, décidé de t'en détourner, cru que Jésus est mort et ressuscité pour toi, et demandé à Jésus de devenir ton Sauveur et ton Seigneur ?",
+            "Si oui, écris la date (si tu la connais) et les circonstances. Sinon, tu peux le faire aujourd'hui, avec tes propres mots, ou avec ton berger pendant la rencontre."
+          ],
+          "champ": "La date et les circonstances de ma décision",
+          "id": "decision"
+        }
+      ]
+    },
+    {
+      "titre": "III. Ma vie après Christ",
+      "intro": "Le salut n'est pas seulement un billet pour le ciel. C'est une vie nouvelle qui commence maintenant.",
+      "elements": [
+        {
+          "type": "question",
+          "id": "q17",
+          "texte": "Pourquoi Jésus est-il venu, d'après Jean 10:10 ? Et que vient faire le voleur ?",
+          "refs": [
+            "Jean 10:10"
+          ],
+          "accompagnateur": {
+            "attendu": "Le voleur vient dérober, égorger et détruire ; Jésus est venu pour que nous ayons la vie, et la vie en abondance.",
+            "expliquer": [
+              "Deux projets s'opposent sur ta vie. Ce qui vole, tue et détruit (échecs répétés, morts, divisions) ne vient pas de Jésus."
+            ],
+            "relance": "Dans ta vie ou ta famille, vois-tu des choses qui ressemblent au travail du voleur ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q18",
+          "texte": "D'après Jean 5:24, que se passe-t-il pour celui qui écoute la parole de Jésus et croit ?",
+          "refs": [
+            "Jean 5:24"
+          ],
+          "accompagnateur": {
+            "attendu": "Il a la vie éternelle (déjà maintenant), il ne vient pas en jugement, il est passé de la mort à la vie.",
+            "expliquer": [
+              "Les verbes sont au présent et au passé : « a », « est passé ». Le croyant n'attend pas de savoir s'il sera sauvé ; il l'est. (Le pas 2 reviendra sur cette assurance.)"
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q19",
+          "texte": "Lis 2 Corinthiens 5:17. Qu'est-ce qu'une personne devient en Christ ? Explique « les choses anciennes sont passées ».",
+          "refs": [
+            "2 Corinthiens 5:17"
+          ],
+          "accompagnateur": {
+            "attendu": "Une nouvelle créature. L'ancienne identité, l'ancienne condamnation, l'ancienne appartenance sont passées ; tout devient nouveau.",
+            "expliquer": [
+              "« Toutes choses sont devenues nouvelles » parle de notre position devant Dieu : elle est totalement nouvelle.",
+              "Dans la pratique, il faut encore se dépouiller du vieil homme (Éphésiens 4:22-24) : renoncer, réparer, changer d'habitudes. Ce n'est pas une contradiction : on devient dans la pratique ce qu'on est déjà en Christ."
+            ],
+            "erreurs": [
+              "Penser que la nouvelle créature ne connaît plus de tentations.",
+              "Penser à l'inverse que « rien n'a changé » parce qu'on lutte encore."
+            ],
+            "relance": "Qu'est-ce qui est déjà nouveau dans ta vie depuis ta conversion ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q20",
+          "texte": "D'après Éphésiens 2:10, dans quel but Dieu nous a-t-il créés en Christ ?",
+          "refs": [
+            "Éphésiens 2:10"
+          ],
+          "accompagnateur": {
+            "attendu": "Pour de bonnes œuvres, que Dieu a préparées d'avance afin que nous les pratiquions.",
+            "expliquer": [
+              "Nous ne sommes pas sauvés PAR les œuvres (v. 8-9), mais POUR les bonnes œuvres (v. 10)."
+            ],
+            "relance": "Quelle bonne œuvre Dieu t'a-t-il peut-être déjà préparée cette semaine ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q21",
+          "texte": "Lis Romains 6:11-14. Comment le croyant doit-il se considérer face au péché ? Que ne doit-il plus faire ?",
+          "refs": [
+            "Romains 6:11-14"
+          ],
+          "accompagnateur": {
+            "attendu": "Se regarder comme mort au péché et vivant pour Dieu ; ne plus laisser régner le péché, ne plus livrer ses membres au péché, mais les livrer à Dieu.",
+            "expliquer": [
+              "« Que le péché ne règne plus » : il peut encore frapper à la porte, mais il n'est plus le roi.",
+              "Il y a une part de Dieu (il nous a libérés) et une part de l'homme (livrer nos membres à Dieu chaque jour)."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q22",
+          "texte": "D'après Actes 19:18-19, qu'ont fait les nouveaux croyants d'Éphèse après leur conversion ?",
+          "refs": [
+            "Actes 19:18-19"
+          ],
+          "accompagnateur": {
+            "attendu": "Ils sont venus confesser et déclarer ce qu'ils avaient fait ; ceux qui pratiquaient la magie ont apporté leurs livres et les ont brûlés devant tout le monde, malgré leur grande valeur.",
+            "expliquer": [
+              "Ces gens étaient déjà croyants (v. 18). Leur salut était réel ; mais ils ont compris qu'il fallait rompre publiquement avec leurs anciennes pratiques.",
+              "Ils n'ont pas vendu ni donné ces objets : ils les ont détruits. C'est le modèle pour les fétiches, amulettes, livres occultes."
+            ],
+            "erreurs": [
+              "Garder des objets « en souvenir » ou « parce que ça a coûté cher »."
+            ],
+            "relance": "Y a-t-il chez toi des choses que tu devrais apporter et brûler ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q23",
+          "texte": "Lis Luc 19:8-9. Qu'a décidé Zachée après avoir reçu Jésus ? Qu'a répondu Jésus ?",
+          "refs": [
+            "Luc 19:8-9"
+          ],
+          "accompagnateur": {
+            "attendu": "Il a décidé de donner la moitié de ses biens aux pauvres et de rendre le quadruple à ceux qu'il avait volés. Jésus a dit : « Le salut est entré aujourd'hui dans cette maison. »",
+            "expliquer": [
+              "Zachée ne répare pas pour être sauvé ; il répare parce qu'il est sauvé. C'est le fruit d'un vrai changement.",
+              "C'est ici l'image du loyer impayé : ta dette envers Dieu est payée, mais tes dettes envers les hommes, il faut les régler."
+            ],
+            "relance": "Y a-t-il quelqu'un à qui tu dois quelque chose (argent, objet, vérité, excuse) ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q24",
+          "texte": "D'après Jacques 5:16 et 1 Jean 1:9, que devons-nous faire de nos fautes ? Que promet Dieu ?",
+          "refs": [
+            "Jacques 5:16",
+            "1 Jean 1:9"
+          ],
+          "accompagnateur": {
+            "attendu": "Les confesser à Dieu, et les uns aux autres, et prier les uns pour les autres. Dieu est fidèle et juste pour pardonner et purifier.",
+            "expliquer": [
+              "La confession à Dieu donne le pardon ; la confession à un frère de confiance apporte souvent la guérison et la liberté (Jacques 5:16).",
+              "C'est pour cela que la rencontre avec le berger est précieuse : ce qui est dit à la lumière perd sa force."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q25",
+          "texte": "Lis Ézéchiel 18:20 et Galates 3:13-14. Un enfant de Dieu doit-il vivre dans la peur des malédictions de sa famille ?",
+          "refs": [
+            "Ézéchiel 18:20",
+            "Galates 3:13-14"
+          ],
+          "accompagnateur": {
+            "attendu": "Non. Chacun répond de sa propre vie devant Dieu, et Christ a porté la malédiction. Le croyant n'a pas à vivre dans la peur ; il doit se placer consciemment sous la croix et rejeter ce qui ne vient pas de Dieu.",
+            "expliquer": [
+              "Équilibre important : la Bible montre que les choix des parents peuvent avoir des conséquences sur les enfants (Exode 20:5), mais aussi que celui qui se tourne vers Dieu n'est pas condamné pour les fautes de ses pères (Ézéchiel 18:14-17).",
+              "On prie donc contre ces héritages, non par peur, mais avec foi et autorité, à partir de la victoire de la croix."
+            ],
+            "erreurs": [
+              "Tomber dans la peur et voir des malédictions partout.",
+              "Ou au contraire nier tout lien avec l'histoire familiale."
+            ]
+          }
+        },
+        {
+          "type": "encadre",
+          "style": "application",
+          "titre": "Ce qui doit être réglé",
+          "texte": [
+            "En relisant tes réponses et ton bilan de vie, note ce qu'il faudra traiter avec ton berger : un objet à détruire, une personne à pardonner, une restitution à faire, une pratique à abandonner, un pacte à rejeter, une blessure à présenter à Dieu.",
+            "Pendant la rencontre, ton berger priera avec toi sur chaque point. Il ne te donnera pas une prière toute faite : vous prierez ensemble, avec vos mots, comme le Saint-Esprit vous conduira."
+          ],
+          "champ": "Ce que je veux régler",
+          "id": "a-regler"
+        }
+      ]
+    },
+    {
+      "titre": "Affermissement : prendre de bonnes habitudes",
+      "intro": null,
+      "elements": [
+        {
+          "type": "encadre",
+          "style": "affermissement",
+          "titre": "Comme un sportif qui s'entraîne",
+          "texte": [
+            "Le corps se fortifie par l'exercice ; l'âme se fortifie par des disciplines : la lecture de la Bible, la prière, la mémorisation de versets, la communion avec d'autres chrétiens.",
+            "Cette semaine : un chapitre de Jean par jour (coche-le ci-dessous), un moment de prière chaque jour, et le verset Éphésiens 2:8-9 à savoir par cœur pour la rencontre."
+          ]
+        },
+        {
+          "type": "question",
+          "id": "q26",
+          "texte": "Écris Éphésiens 2:8-9 de mémoire (à faire à la fin de la semaine).",
+          "refs": [
+            "Éphésiens 2:8-9"
+          ],
+          "accompagnateur": {
+            "attendu": "« Car c'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres, afin que personne ne se glorifie. »",
+            "expliquer": [
+              "Faire réciter à voix haute ; féliciter l'effort même si la récitation n'est pas parfaite."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q27",
+          "texte": "Dans ta lecture de Jean cette semaine, quel passage t'a le plus touché, et pourquoi ?",
+          "refs": [],
+          "accompagnateur": {
+            "attendu": "Réponse libre.",
+            "expliquer": [
+              "Écouter ; c'est le moment de voir si la personne commence à recevoir de Dieu par sa Parole.",
+              "Souvent cité : Jean 3:16, la Samaritaine (Jean 4), la multiplication des pains (Jean 6)."
+            ],
+            "relance": "Qu'est-ce que ce passage t'a appris sur Jésus ?"
+          }
+        }
+      ]
+    }
+  ],
+  "accompagnateur": {
+    "but": [
+      "Que la personne comprenne clairement l'Évangile : sa condition sans Christ, l'œuvre complète de la croix, et la vie nouvelle.",
+      "Qu'elle ait la certitude d'avoir personnellement reçu Christ (ou qu'elle le fasse).",
+      "Ouvrir, dans la confiance, le travail sur son histoire (bilan de vie) et commencer à prier avec elle sur ce qui doit être réglé.",
+      "Installer les habitudes : lecture quotidienne, prière, mémorisation."
+    ],
+    "preparation": [
+      "Lis toi-même tous les passages de la fiche et l'enseignement « Le salut » de Yeshaya.",
+      "Prie pour la personne durant la semaine, et pour toi : discernement, douceur, autorité.",
+      "Prévois un lieu calme et au moins 2 heures. Pour les sujets intimes, un berger du même sexe.",
+      "Prévois de l'huile si tu as l'habitude d'oindre, une Bible, de quoi noter."
+    ],
+    "deroulement": [
       {
-       "id": "vf1",
-       "texte": "Pour être sauvé, il suffit de croire que Dieu existe.",
-       "reponse": false,
-       "explication": "Même les démons croient que Dieu existe, et ils tremblent (Jacques 2:19). Être sauvé, c'est se confier personnellement en Jésus-Christ et se donner à lui."
+        "titre": "Accueil et prière",
+        "minutes": 10,
+        "conseils": [
+          "Prendre des nouvelles simplement : sa semaine, sa famille, ses difficultés.",
+          "Prier ensemble pour ouvrir la rencontre."
+        ]
       },
       {
-       "id": "vf2",
-       "texte": "Le péché sépare l'homme de Dieu.",
-       "reponse": true,
-       "explication": "Ésaïe 59:2 : « Ce sont vos crimes qui mettent une séparation entre vous et votre Dieu. »"
+        "titre": "Bilan de la semaine",
+        "minutes": 10,
+        "conseils": [
+          "Combien de chapitres de Jean lus ? Ne pas gronder s'il en manque ; encourager.",
+          "Demander la phrase qui l'a touché (question 27)."
+        ]
       },
       {
-       "id": "vf3",
-       "texte": "On est sauvé en allant à l'église et en faisant de bonnes œuvres.",
-       "reponse": false,
-       "explication": "Éphésiens 2:8-9 : le salut est un don de Dieu, reçu par la foi, et non le résultat de nos œuvres."
+        "titre": "Vrai ou faux",
+        "minutes": 10,
+        "conseils": [
+          "Reprendre chaque affirmation ; lire l'explication ; laisser la personne dire si son avis a changé."
+        ]
       },
       {
-       "id": "vf4",
-       "texte": "Quelqu'un né dans une famille chrétienne est chrétien de naissance.",
-       "reponse": false,
-       "explication": "Jean 1:12-13 et 3:3 : on devient enfant de Dieu par une naissance d'en haut, pas par la naissance de la chair."
+        "titre": "I. Ma vie avant Christ",
+        "minutes": 25,
+        "conseils": [
+          "Questions 1 à 7 une par une : « Qu'as-tu répondu ? Pourquoi ? » Puis expliquer avec les notes.",
+          "Lire ensemble son texte « Ma vie avant Christ », s'il le souhaite."
+        ]
       },
       {
-       "id": "vf5",
-       "texte": "Quand je donne ma vie à Jésus, tous mes péchés sont pardonnés, même ceux que j'ai oubliés.",
-       "reponse": true,
-       "explication": "1 Jean 1:7 et Colossiens 2:13 : le sang de Jésus purifie de tout péché."
+        "titre": "Le bilan de vie",
+        "minutes": 35,
+        "conseils": [
+          "Ouvrir la synthèse du bilan sur son téléphone (avec son accord).",
+          "Parcourir les points cochés, écouter, poser des questions douces. Ne pas tout traiter si c'est trop lourd : choisir les urgences (pensées suicidaires, abus, objets occultes, pactes) et prévoir la suite.",
+          "Utiliser les orientations de chaque domaine pour savoir quoi faire. Prier avec la personne : confession, renoncement, rupture, pardon, guérison, selon ce qui a été coché."
+        ]
       },
       {
-       "id": "vf6",
-       "texte": "Après ma conversion, je n'aurai plus jamais de combat.",
-       "reponse": false,
-       "explication": "Le salut est complet, mais la vie chrétienne est un combat (Éphésiens 6:12). La différence, c'est que nous combattons à partir de la victoire de Jésus."
+        "titre": "II. Ce que Dieu a fait pour moi",
+        "minutes": 20,
+        "conseils": [
+          "Questions 8 à 16. Insister sur Colossiens 2:13-15 et Galates 3:13 : c'est le fondement de la prière que vous venez de faire.",
+          "Temps de décision : s'assurer qu'elle a personnellement reçu Christ ; sinon, la conduire à le faire avec ses mots."
+        ]
       },
       {
-       "id": "vf7",
-       "texte": "Les pratiques de ma famille (consultations, dédicaces, sociétés) n'ont aucun rapport avec ma nouvelle vie.",
-       "reponse": false,
-       "explication": "La dette envers Dieu est entièrement payée, mais la Bible montre qu'il faut renoncer clairement à ces choses et les brûler (Actes 19:18-19). C'est ce que nous ferons ensemble."
+        "titre": "III. Ma vie après Christ",
+        "minutes": 20,
+        "conseils": [
+          "Questions 17 à 25. S'arrêter sur Actes 19 et Luc 19 : fixer concrètement ce qui doit être détruit ou réparé, avec une date.",
+          "Lire ensemble « Ce qui doit être réglé » et prier sur chaque point."
+        ]
+      },
+      {
+        "titre": "Verset et prière",
+        "minutes": 10,
+        "conseils": [
+          "Faire réciter Éphésiens 2:8-9.",
+          "Prier pour la personne : bénédiction, protection, croissance."
+        ]
+      },
+      {
+        "titre": "Remise du pas 2",
+        "minutes": 5,
+        "conseils": [
+          "Présenter le pas 2 « L'assurance du salut » et la lecture de la semaine.",
+          "Fixer le jour et l'heure de la prochaine rencontre ; noter dans « Mes disciples »."
+        ]
       }
-     ]
-    }
-   ]
-  },
-  {
-   "titre": "I. Ma vie avant Christ",
-   "intro": "Avant de regarder ce que Dieu a fait, il faut comprendre d'où il nous a sortis. On ne mesure la grandeur d'un sauvetage qu'en voyant la profondeur du trou.",
-   "elements": [
-    {
-     "type": "question",
-     "id": "q1",
-     "texte": "D'après Éphésiens 2:1, quelle était notre condition avant que Christ nous donne la vie ?",
-     "refs": [
-      "Éphésiens 2:1"
-     ],
-     "accompagnateur": {
-      "attendu": "Nous étions morts par nos offenses et nos péchés.",
-      "expliquer": [
-       "« Mort » ne veut pas dire « un peu malade » : un mort ne peut pas se relever seul. C'est pour cela que le salut vient entièrement de Dieu.",
-       "La mort spirituelle, c'est être séparé de Dieu, la source de la vie, même si le corps vit."
-      ],
-      "erreurs": [
-       "Penser que l'homme est « bon au fond » et qu'il lui manque seulement un peu d'effort."
-      ],
-      "relance": "Si nous étions morts, qu'est-ce que cela change dans la manière dont on est sauvé ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q2",
-     "texte": "Lis Éphésiens 2:2-3. Qui conduisait notre vie, et qu'est-ce qui nous dirigeait ?",
-     "refs": [
-      "Éphésiens 2:2-3"
-     ],
-     "accompagnateur": {
-      "attendu": "Nous suivions le « train de ce monde », le « prince de la puissance de l'air » (Satan) qui agit dans les rebelles, et les désirs de notre chair.",
-      "expliquer": [
-       "Avant Christ, il y avait trois maîtres : le monde (la manière de vivre de tous), le diable, et nos propres désirs.",
-       "En Afrique, ce « prince de la puissance de l'air » se manifeste souvent dans les pratiques traditionnelles, les consultations, les sociétés secrètes : c'est pour cela que la partie « Mon bilan de vie » est importante."
-      ],
-      "erreurs": [
-       "Croire qu'on était « neutre » avant Christ : la Bible dit qu'on était sous une autre autorité."
-      ],
-      "relance": "Dans ta vie avant Christ, lequel de ces trois maîtres était le plus fort ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q3",
-     "texte": "Lis Romains 3:23. Est-ce que tout le monde a péché ? Et toi ?",
-     "refs": [
-      "Romains 3:23"
-     ],
-     "accompagnateur": {
-      "attendu": "Oui : tous ont péché et sont privés de la gloire de Dieu. Personne n'est exclu, ni le religieux, ni le « bon » garçon ou la « bonne » fille.",
-      "expliquer": [
-       "« Privés de la gloire de Dieu » : nous manquons le but pour lequel Dieu nous a créés, comme une flèche qui manque la cible."
-      ],
-      "erreurs": [
-       "Se comparer aux autres (« je ne suis pas un voleur, moi ») : la mesure n'est pas les autres, c'est la sainteté de Dieu."
-      ],
-      "relance": "Peux-tu nommer un péché précis que tu as compris comme péché seulement après ta conversion ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q4",
-     "texte": "D'après Marc 7:21-23, d'où vient le péché ?",
-     "refs": [
-      "Marc 7:21-23"
-     ],
-     "accompagnateur": {
-      "attendu": "Du dedans, du cœur de l'homme. Le problème n'est pas seulement ce que nous faisons, mais ce que nous sommes.",
-      "expliquer": [
-       "C'est pour cela qu'il fallait un cœur nouveau, pas seulement de bonnes résolutions (Ézéchiel 36:26)."
-      ],
-      "relance": "Pourquoi les résolutions du Nouvel An ne suffisent-elles pas à changer quelqu'un ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q5",
-     "texte": "Que produit le péché d'après Romains 6:23 et Ésaïe 59:2 ?",
-     "refs": [
-      "Romains 6:23",
-      "Ésaïe 59:2"
-     ],
-     "accompagnateur": {
-      "attendu": "La mort (le « salaire » du péché) et la séparation d'avec Dieu.",
-      "expliquer": [
-       "Le salaire est ce qu'on mérite ; le don est ce qu'on reçoit gratuitement. Romains 6:23 oppose les deux."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q6",
-     "texte": "Lis Jean 3:18. Pourquoi celui qui ne croit pas est-il déjà condamné ?",
-     "refs": [
-      "Jean 3:18"
-     ],
-     "accompagnateur": {
-      "attendu": "Parce qu'il n'a pas cru au nom du Fils unique de Dieu. La condamnation n'attend pas la fin : elle est déjà là pour celui qui refuse Christ.",
-      "expliquer": [
-       "Dieu ne condamne pas par plaisir (Jean 3:17) ; mais celui qui refuse le seul remède reste dans sa maladie."
-      ],
-      "erreurs": [
-       "Penser que Dieu envoie en enfer « les méchants » seulement : le critère est la foi en Jésus."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q7",
-     "texte": "D'après Colossiens 1:13 et Actes 26:18, sous quelle puissance étions-nous avant notre conversion ?",
-     "refs": [
-      "Colossiens 1:13",
-      "Actes 26:18"
-     ],
-     "accompagnateur": {
-      "attendu": "Sous la puissance des ténèbres, la puissance de Satan.",
-      "expliquer": [
-       "Le salut n'est pas seulement un pardon : c'est un transfert de royaume. Celui qui était sous la puissance des ténèbres passe dans le royaume du Fils.",
-       "Ce passage prépare la suite : ce qui appartenait au royaume des ténèbres (pactes, objets, consécrations) doit être rejeté."
-      ],
-      "relance": "Qu'est-ce que cela change de savoir qu'on a changé de royaume, et pas seulement de religion ?"
-     }
-    },
-    {
-     "type": "encadre",
-     "style": "meditation",
-     "titre": "Mon histoire avant Christ",
-     "texte": [
-      "Maintenant, regarde ta propre vie. Comment vivais-tu avant de connaître Jésus ? Qu'est-ce qui te dominait ? Qu'est-ce qui te faisait peur ? De quoi avais-tu honte ?",
-      "Écris ici avec tes mots. Personne d'autre que ton accompagnateur ne le lira, et seulement si tu le veux."
-     ],
-     "champ": "Ma vie avant Christ, en quelques lignes",
-     "id": "ma-vie-avant"
-    },
-    {
-     "type": "bilan",
-     "titre": "Mon bilan de vie (confidentiel)",
-     "texte": [
-      "Ta vie avant Christ, ce n'est pas seulement tes péchés personnels. C'est aussi ta famille, ta lignée, ce que tu as reçu ou subi, ce que tu as donné, ce qui se répète. En Afrique, beaucoup de nouveaux convertis restent bloqués parce que ces choses n'ont jamais été apportées à la croix.",
-      "Prends au moins une heure cette semaine pour remplir ton bilan de vie, au calme, dans la prière. Coche ce qui te concerne. Tu le parcourras avec ton accompagnateur pendant la rencontre."
-     ]
-    }
-   ]
-  },
-  {
-   "titre": "II. Ce que Dieu a fait pour moi",
-   "intro": "Voici la bonne nouvelle : Dieu n'a pas attendu que nous devenions bons. Il est venu nous chercher là où nous étions.",
-   "elements": [
-    {
-     "type": "question",
-     "id": "q8",
-     "texte": "Dans Éphésiens 2:4-5, comment Dieu est-il décrit ? Qu'a-t-il fait pour nous ?",
-     "refs": [
-      "Éphésiens 2:4-5"
-     ],
-     "accompagnateur": {
-      "attendu": "Dieu est riche en miséricorde et nous aime d'un grand amour. Alors que nous étions morts, il nous a rendus à la vie avec Christ.",
-      "expliquer": [
-       "Remarque le « Mais Dieu » du verset 4 : c'est le tournant de toute l'histoire. Après la mort (v. 1-3), Dieu intervient.",
-       "La miséricorde, c'est ne pas recevoir le châtiment qu'on mérite ; la grâce, c'est recevoir ce qu'on ne mérite pas."
-      ],
-      "relance": "Quand as-tu compris pour la première fois que Dieu t'aimait personnellement ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q9",
-     "texte": "Lis Romains 5:8. Comment Dieu nous a-t-il prouvé son amour ? À quel moment ?",
-     "refs": [
-      "Romains 5:8"
-     ],
-     "accompagnateur": {
-      "attendu": "Christ est mort pour nous lorsque nous étions encore des pécheurs, pas après que nous soyons devenus meilleurs.",
-      "expliquer": [
-       "L'amour de Dieu ne dépend pas de notre mérite ; c'est pour cela qu'il ne disparaît pas quand nous tombons."
-      ],
-      "erreurs": [
-       "Penser que Dieu nous aimera « quand nous serons assez saints »."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q10",
-     "texte": "D'après Ésaïe 53:5-6 et 1 Pierre 2:24, qu'a porté Jésus sur la croix ?",
-     "refs": [
-      "Ésaïe 53:5-6",
-      "1 Pierre 2:24"
-     ],
-     "accompagnateur": {
-      "attendu": "Nos péchés, nos iniquités, le châtiment qui nous donne la paix. Il a pris notre place.",
-      "expliquer": [
-       "C'est l'échange de la croix : il a pris notre péché, nous recevons sa justice (2 Corinthiens 5:21).",
-       "« Par ses meurtrissures nous sommes guéris » : la croix touche aussi nos blessures."
-      ],
-      "relance": "Si Jésus a porté le châtiment, que reste-t-il à payer pour toi devant Dieu ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q11",
-     "texte": "Lis Colossiens 2:13-15. Qu'a fait Jésus de « l'acte » qui était contre nous ? Et des puissances ?",
-     "refs": [
-      "Colossiens 2:13-15"
-     ],
-     "accompagnateur": {
-      "attendu": "Il a effacé l'acte qui nous condamnait et l'a cloué à la croix. Il a dépouillé les dominations et les autorités et les a livrées publiquement en spectacle.",
-      "expliquer": [
-       "Voici le fondement de toute délivrance : à la croix, la dette envers Dieu est entièrement payée, et les puissances des ténèbres sont vaincues.",
-       "Quand nous prierons plus tard pour briser des liens, des pactes ou des malédictions, nous ne prierons pas pour vaincre le diable : il est déjà vaincu. Nous appliquerons dans notre vie la victoire que Jésus a remportée."
-      ],
-      "erreurs": [
-       "Croire que le diable et Jésus sont deux forces égales qui se battent.",
-       "Croire qu'il faut ajouter quelque chose à la croix pour être vraiment libre."
-      ],
-      "relance": "Si tout est payé, pourquoi faut-il encore renoncer à certaines choses ? (Penser à une maison dont on a reçu les clés mais où traînent encore les affaires de l'ancien occupant.)"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q12",
-     "texte": "D'après Galates 3:13, de quoi Christ nous a-t-il rachetés ?",
-     "refs": [
-      "Galates 3:13"
-     ],
-     "accompagnateur": {
-      "attendu": "De la malédiction de la loi, en devenant malédiction pour nous.",
-      "expliquer": [
-       "Jésus a pris sur lui la malédiction, afin que la bénédiction d'Abraham parvienne jusqu'à nous (v. 14).",
-       "Cela répond à la peur des malédictions familiales : elles n'ont plus de droit légal sur celui qui est en Christ. Mais il faut se placer consciemment sous la croix, renoncer et proclamer cette vérité."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q13",
-     "texte": "Lis Éphésiens 2:8-9. Par quoi sommes-nous sauvés ? Par le moyen de quoi ? Qu'est-ce qui est exclu ?",
-     "refs": [
-      "Éphésiens 2:8-9"
-     ],
-     "accompagnateur": {
-      "attendu": "Par la grâce, par le moyen de la foi. Ce n'est pas par les œuvres, afin que personne ne se glorifie.",
-      "expliquer": [
-       "La grâce est un cadeau immérité. La foi est la main qui reçoit le cadeau.",
-       "Les œuvres viennent après, comme fruit du salut, jamais comme prix (v. 10)."
-      ],
-      "relance": "Quelles « œuvres » les gens autour de toi font-ils pour essayer d'être sauvés ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q14",
-     "texte": "Quelles sortes de bonnes œuvres les gens font-ils pour être en règle avec Dieu ? Cite des exemples de ton entourage.",
-     "refs": [],
-     "accompagnateur": {
-      "attendu": "Réponse libre : aller à la messe ou à la mosquée, donner aux pauvres, jeûner, porter une croix ou un chapelet, faire des sacrifices, être baptisé, suivre des règles…",
-      "expliquer": [
-       "Ces choses peuvent être bonnes, mais aucune ne peut payer le péché. Seul le sang de Jésus le peut (Hébreux 9:22)."
-      ],
-      "erreurs": [
-       "Juger les autres ; le but est de voir le piège dans lequel nous pouvons tomber nous aussi."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q15",
-     "texte": "D'après Jean 1:12 et Galates 3:26, comment devient-on enfant de Dieu ?",
-     "refs": [
-      "Jean 1:12",
-      "Galates 3:26"
-     ],
-     "accompagnateur": {
-      "attendu": "En recevant Jésus, en croyant en son nom : par la foi en Christ Jésus.",
-      "expliquer": [
-       "« Recevoir » est un acte personnel : on ne reçoit pas Jésus par ses parents ni par une cérémonie."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q16",
-     "texte": "Dis avec tes propres mots ce que veut dire « avoir foi en Christ ».",
-     "refs": [],
-     "accompagnateur": {
-      "attendu": "Faire confiance à Jésus seul pour son salut, s'appuyer sur lui de tout son poids, et se donner à lui comme Seigneur.",
-      "expliquer": [
-       "Image : s'asseoir sur une chaise. Croire que la chaise est solide ne suffit pas ; il faut s'y asseoir.",
-       "La foi n'est pas seulement savoir (les démons savent), c'est se confier et se soumettre."
-      ]
-     }
-    },
-    {
-     "type": "encadre",
-     "style": "decision",
-     "titre": "Temps de décision",
-     "texte": [
-      "As-tu déjà, personnellement, reconnu ton péché, décidé de t'en détourner, cru que Jésus est mort et ressuscité pour toi, et demandé à Jésus de devenir ton Sauveur et ton Seigneur ?",
-      "Si oui, écris la date (si tu la connais) et les circonstances. Sinon, tu peux le faire aujourd'hui, avec tes propres mots, ou avec ton accompagnateur pendant la rencontre."
-     ],
-     "champ": "La date et les circonstances de ma décision",
-     "id": "decision"
-    }
-   ]
-  },
-  {
-   "titre": "III. Ma vie après Christ",
-   "intro": "Le salut n'est pas seulement un billet pour le ciel. C'est une vie nouvelle qui commence maintenant.",
-   "elements": [
-    {
-     "type": "question",
-     "id": "q17",
-     "texte": "Pourquoi Jésus est-il venu, d'après Jean 10:10 ? Et que vient faire le voleur ?",
-     "refs": [
-      "Jean 10:10"
-     ],
-     "accompagnateur": {
-      "attendu": "Le voleur vient dérober, égorger et détruire ; Jésus est venu pour que nous ayons la vie, et la vie en abondance.",
-      "expliquer": [
-       "Deux projets s'opposent sur ta vie. Ce qui vole, tue et détruit (échecs répétés, morts, divisions) ne vient pas de Jésus."
-      ],
-      "relance": "Dans ta vie ou ta famille, vois-tu des choses qui ressemblent au travail du voleur ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q18",
-     "texte": "D'après Jean 5:24, que se passe-t-il pour celui qui écoute la parole de Jésus et croit ?",
-     "refs": [
-      "Jean 5:24"
-     ],
-     "accompagnateur": {
-      "attendu": "Il a la vie éternelle (déjà maintenant), il ne vient pas en jugement, il est passé de la mort à la vie.",
-      "expliquer": [
-       "Les verbes sont au présent et au passé : « a », « est passé ». Le croyant n'attend pas de savoir s'il sera sauvé ; il l'est. (Le pas 2 reviendra sur cette assurance.)"
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q19",
-     "texte": "Lis 2 Corinthiens 5:17. Qu'est-ce qu'une personne devient en Christ ? Explique « les choses anciennes sont passées ».",
-     "refs": [
-      "2 Corinthiens 5:17"
-     ],
-     "accompagnateur": {
-      "attendu": "Une nouvelle créature. L'ancienne identité, l'ancienne condamnation, l'ancienne appartenance sont passées ; tout devient nouveau.",
-      "expliquer": [
-       "« Toutes choses sont devenues nouvelles » parle de notre position devant Dieu : elle est totalement nouvelle.",
-       "Dans la pratique, il faut encore se dépouiller du vieil homme (Éphésiens 4:22-24) : renoncer, réparer, changer d'habitudes. Ce n'est pas une contradiction : on devient dans la pratique ce qu'on est déjà en Christ."
-      ],
-      "erreurs": [
-       "Penser que la nouvelle créature ne connaît plus de tentations.",
-       "Penser à l'inverse que « rien n'a changé » parce qu'on lutte encore."
-      ],
-      "relance": "Qu'est-ce qui est déjà nouveau dans ta vie depuis ta conversion ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q20",
-     "texte": "D'après Éphésiens 2:10, dans quel but Dieu nous a-t-il créés en Christ ?",
-     "refs": [
-      "Éphésiens 2:10"
-     ],
-     "accompagnateur": {
-      "attendu": "Pour de bonnes œuvres, que Dieu a préparées d'avance afin que nous les pratiquions.",
-      "expliquer": [
-       "Nous ne sommes pas sauvés PAR les œuvres (v. 8-9), mais POUR les bonnes œuvres (v. 10)."
-      ],
-      "relance": "Quelle bonne œuvre Dieu t'a-t-il peut-être déjà préparée cette semaine ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q21",
-     "texte": "Lis Romains 6:11-14. Comment le croyant doit-il se considérer face au péché ? Que ne doit-il plus faire ?",
-     "refs": [
-      "Romains 6:11-14"
-     ],
-     "accompagnateur": {
-      "attendu": "Se regarder comme mort au péché et vivant pour Dieu ; ne plus laisser régner le péché, ne plus livrer ses membres au péché, mais les livrer à Dieu.",
-      "expliquer": [
-       "« Que le péché ne règne plus » : il peut encore frapper à la porte, mais il n'est plus le roi.",
-       "Il y a une part de Dieu (il nous a libérés) et une part de l'homme (livrer nos membres à Dieu chaque jour)."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q22",
-     "texte": "D'après Actes 19:18-19, qu'ont fait les nouveaux croyants d'Éphèse après leur conversion ?",
-     "refs": [
-      "Actes 19:18-19"
-     ],
-     "accompagnateur": {
-      "attendu": "Ils sont venus confesser et déclarer ce qu'ils avaient fait ; ceux qui pratiquaient la magie ont apporté leurs livres et les ont brûlés devant tout le monde, malgré leur grande valeur.",
-      "expliquer": [
-       "Ces gens étaient déjà croyants (v. 18). Leur salut était réel ; mais ils ont compris qu'il fallait rompre publiquement avec leurs anciennes pratiques.",
-       "Ils n'ont pas vendu ni donné ces objets : ils les ont détruits. C'est le modèle pour les fétiches, amulettes, livres occultes."
-      ],
-      "erreurs": [
-       "Garder des objets « en souvenir » ou « parce que ça a coûté cher »."
-      ],
-      "relance": "Y a-t-il chez toi des choses que tu devrais apporter et brûler ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q23",
-     "texte": "Lis Luc 19:8-9. Qu'a décidé Zachée après avoir reçu Jésus ? Qu'a répondu Jésus ?",
-     "refs": [
-      "Luc 19:8-9"
-     ],
-     "accompagnateur": {
-      "attendu": "Il a décidé de donner la moitié de ses biens aux pauvres et de rendre le quadruple à ceux qu'il avait volés. Jésus a dit : « Le salut est entré aujourd'hui dans cette maison. »",
-      "expliquer": [
-       "Zachée ne répare pas pour être sauvé ; il répare parce qu'il est sauvé. C'est le fruit d'un vrai changement.",
-       "C'est ici l'image du loyer impayé : ta dette envers Dieu est payée, mais tes dettes envers les hommes, il faut les régler."
-      ],
-      "relance": "Y a-t-il quelqu'un à qui tu dois quelque chose (argent, objet, vérité, excuse) ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q24",
-     "texte": "D'après Jacques 5:16 et 1 Jean 1:9, que devons-nous faire de nos fautes ? Que promet Dieu ?",
-     "refs": [
-      "Jacques 5:16",
-      "1 Jean 1:9"
-     ],
-     "accompagnateur": {
-      "attendu": "Les confesser à Dieu, et les uns aux autres, et prier les uns pour les autres. Dieu est fidèle et juste pour pardonner et purifier.",
-      "expliquer": [
-       "La confession à Dieu donne le pardon ; la confession à un frère de confiance apporte souvent la guérison et la liberté (Jacques 5:16).",
-       "C'est pour cela que la rencontre avec l'accompagnateur est précieuse : ce qui est dit à la lumière perd sa force."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q25",
-     "texte": "Lis Ézéchiel 18:20 et Galates 3:13-14. Un enfant de Dieu doit-il vivre dans la peur des malédictions de sa famille ?",
-     "refs": [
-      "Ézéchiel 18:20",
-      "Galates 3:13-14"
-     ],
-     "accompagnateur": {
-      "attendu": "Non. Chacun répond de sa propre vie devant Dieu, et Christ a porté la malédiction. Le croyant n'a pas à vivre dans la peur ; il doit se placer consciemment sous la croix et rejeter ce qui ne vient pas de Dieu.",
-      "expliquer": [
-       "Équilibre important : la Bible montre que les choix des parents peuvent avoir des conséquences sur les enfants (Exode 20:5), mais aussi que celui qui se tourne vers Dieu n'est pas condamné pour les fautes de ses pères (Ézéchiel 18:14-17).",
-       "On prie donc contre ces héritages, non par peur, mais avec foi et autorité, à partir de la victoire de la croix."
-      ],
-      "erreurs": [
-       "Tomber dans la peur et voir des malédictions partout.",
-       "Ou au contraire nier tout lien avec l'histoire familiale."
-      ]
-     }
-    },
-    {
-     "type": "encadre",
-     "style": "application",
-     "titre": "Ce qui doit être réglé",
-     "texte": [
-      "En relisant tes réponses et ton bilan de vie, note ce qu'il faudra traiter avec ton accompagnateur : un objet à détruire, une personne à pardonner, une restitution à faire, une pratique à abandonner, un pacte à rejeter, une blessure à présenter à Dieu.",
-      "Pendant la rencontre, ton accompagnateur priera avec toi sur chaque point. Il ne te donnera pas une prière toute faite : vous prierez ensemble, avec vos mots, comme le Saint-Esprit vous conduira."
-     ],
-     "champ": "Ce que je veux régler",
-     "id": "a-regler"
-    }
-   ]
-  },
-  {
-   "titre": "Affermissement : prendre de bonnes habitudes",
-   "intro": null,
-   "elements": [
-    {
-     "type": "encadre",
-     "style": "affermissement",
-     "titre": "Comme un sportif qui s'entraîne",
-     "texte": [
-      "Le corps se fortifie par l'exercice ; l'âme se fortifie par des disciplines : la lecture de la Bible, la prière, la mémorisation de versets, la communion avec d'autres chrétiens.",
-      "Cette semaine : un chapitre de Jean par jour (coche-le ci-dessous), un moment de prière chaque jour, et le verset Éphésiens 2:8-9 à savoir par cœur pour la rencontre."
-     ]
-    },
-    {
-     "type": "question",
-     "id": "q26",
-     "texte": "Écris Éphésiens 2:8-9 de mémoire (à faire à la fin de la semaine).",
-     "refs": [
-      "Éphésiens 2:8-9"
-     ],
-     "accompagnateur": {
-      "attendu": "« Car c'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres, afin que personne ne se glorifie. »",
-      "expliquer": [
-       "Faire réciter à voix haute ; féliciter l'effort même si la récitation n'est pas parfaite."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q27",
-     "texte": "Dans ta lecture de Jean cette semaine, quel passage t'a le plus touché, et pourquoi ?",
-     "refs": [],
-     "accompagnateur": {
-      "attendu": "Réponse libre.",
-      "expliquer": [
-       "Écouter ; c'est le moment de voir si la personne commence à recevoir de Dieu par sa Parole.",
-       "Souvent cité : Jean 3:16, la Samaritaine (Jean 4), la multiplication des pains (Jean 6)."
-      ],
-      "relance": "Qu'est-ce que ce passage t'a appris sur Jésus ?"
-     }
-    }
-   ]
+    ],
+    "vigilance": [
+      "Ne pas prêcher : poser des questions et laisser la personne trouver dans la Bible.",
+      "Ne pas forcer les révélations du bilan de vie ; garder le secret absolu (sauf danger).",
+      "Ne pas créer la peur : tout se fait à partir de la victoire de la croix.",
+      "Si la rencontre dépasse le temps, s'arrêter et reprendre la suite la semaine suivante plutôt que de bâcler.",
+      "Noter dans « Mes disciples » les points à reprendre lors des prochaines rencontres."
+    ]
   }
- ],
- "accompagnateur": {
-  "but": [
-   "Que la personne comprenne clairement l'Évangile : sa condition sans Christ, l'œuvre complète de la croix, et la vie nouvelle.",
-   "Qu'elle ait la certitude d'avoir personnellement reçu Christ (ou qu'elle le fasse).",
-   "Ouvrir, dans la confiance, le travail sur son histoire (bilan de vie) et commencer à prier avec elle sur ce qui doit être réglé.",
-   "Installer les habitudes : lecture quotidienne, prière, mémorisation."
-  ],
-  "preparation": [
-   "Lis toi-même tous les passages de la fiche et l'enseignement « Le salut » de Yeshaya.",
-   "Prie pour la personne durant la semaine, et pour toi : discernement, douceur, autorité.",
-   "Prévois un lieu calme et au moins 2 heures. Pour les sujets intimes, un accompagnateur du même sexe.",
-   "Prévois de l'huile si tu as l'habitude d'oindre, une Bible, de quoi noter."
-  ],
-  "deroulement": [
-   {
-    "titre": "Accueil et prière",
-    "minutes": 10,
-    "conseils": [
-     "Prendre des nouvelles simplement : sa semaine, sa famille, ses difficultés.",
-     "Prier ensemble pour ouvrir la rencontre."
-    ]
-   },
-   {
-    "titre": "Bilan de la semaine",
-    "minutes": 10,
-    "conseils": [
-     "Combien de chapitres de Jean lus ? Ne pas gronder s'il en manque ; encourager.",
-     "Demander la phrase qui l'a touché (question 27)."
-    ]
-   },
-   {
-    "titre": "Vrai ou faux",
-    "minutes": 10,
-    "conseils": [
-     "Reprendre chaque affirmation ; lire l'explication ; laisser la personne dire si son avis a changé."
-    ]
-   },
-   {
-    "titre": "I. Ma vie avant Christ",
-    "minutes": 25,
-    "conseils": [
-     "Questions 1 à 7 une par une : « Qu'as-tu répondu ? Pourquoi ? » Puis expliquer avec les notes.",
-     "Lire ensemble son texte « Ma vie avant Christ », s'il le souhaite."
-    ]
-   },
-   {
-    "titre": "Le bilan de vie",
-    "minutes": 35,
-    "conseils": [
-     "Ouvrir la synthèse du bilan sur son téléphone (avec son accord).",
-     "Parcourir les points cochés, écouter, poser des questions douces. Ne pas tout traiter si c'est trop lourd : choisir les urgences (pensées suicidaires, abus, objets occultes, pactes) et prévoir la suite.",
-     "Utiliser les orientations de chaque domaine pour savoir quoi faire. Prier avec la personne : confession, renoncement, rupture, pardon, guérison, selon ce qui a été coché."
-    ]
-   },
-   {
-    "titre": "II. Ce que Dieu a fait pour moi",
-    "minutes": 20,
-    "conseils": [
-     "Questions 8 à 16. Insister sur Colossiens 2:13-15 et Galates 3:13 : c'est le fondement de la prière que vous venez de faire.",
-     "Temps de décision : s'assurer qu'elle a personnellement reçu Christ ; sinon, la conduire à le faire avec ses mots."
-    ]
-   },
-   {
-    "titre": "III. Ma vie après Christ",
-    "minutes": 20,
-    "conseils": [
-     "Questions 17 à 25. S'arrêter sur Actes 19 et Luc 19 : fixer concrètement ce qui doit être détruit ou réparé, avec une date.",
-     "Lire ensemble « Ce qui doit être réglé » et prier sur chaque point."
-    ]
-   },
-   {
-    "titre": "Verset et prière",
-    "minutes": 10,
-    "conseils": [
-     "Faire réciter Éphésiens 2:8-9.",
-     "Prier pour la personne : bénédiction, protection, croissance."
-    ]
-   },
-   {
-    "titre": "Remise du pas 2",
-    "minutes": 5,
-    "conseils": [
-     "Présenter le pas 2 « L'assurance du salut » et la lecture de la semaine.",
-     "Fixer le jour et l'heure de la prochaine rencontre ; noter dans « Mes disciples »."
-    ]
-   }
-  ],
-  "vigilance": [
-   "Ne pas prêcher : poser des questions et laisser la personne trouver dans la Bible.",
-   "Ne pas forcer les révélations du bilan de vie ; garder le secret absolu (sauf danger).",
-   "Ne pas créer la peur : tout se fait à partir de la victoire de la croix.",
-   "Si la rencontre dépasse le temps, s'arrêter et reprendre la suite la semaine suivante plutôt que de bâcler.",
-   "Noter dans « Mes disciples » les points à reprendre lors des prochaines rencontres."
-  ]
- }
 }

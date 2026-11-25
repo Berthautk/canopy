@@ -1,312 +1,312 @@
 {
- "id": "v2-pas-09-appele-a-etre-saint",
- "volume": 2,
- "numero": 9,
- "titre": "Appelé à être saint",
- "sous_titre": "La sainteté : mise à part pour Dieu, et chemin de chaque jour",
- "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
- "enseignement": "enseignement-sanctification",
- "verset_memoire": "1 Pierre 1:15-16",
- "lecture": {
-  "titre": "Cette semaine, lis ces textes, un par jour",
-  "conseil": "Note chaque jour un domaine où Dieu te demande de changer.",
-  "jours": [
-   "Lévitique 19:1-18",
-   "1 Pierre 1",
-   "Hébreux 12",
-   "1 Thessaloniciens 4",
-   "Éphésiens 4:17-32",
-   "Romains 6",
-   "Psaume 15"
-  ]
- },
- "introduction": [
-  "Dieu ne t'a pas seulement pardonné : il veut te transformer. Cela s'appelle la sanctification.",
-  "Cette semaine, tu vas découvrir ce qu'est la sainteté, comment Dieu te sanctifie, et les domaines où il veut te changer."
- ],
- "parties": [
-  {
-   "titre": "Pour commencer : vrai ou faux ?",
-   "intro": null,
-   "elements": [
+  "id": "v2-pas-09-appele-a-etre-saint",
+  "volume": 2,
+  "numero": 9,
+  "titre": "Appelé à être saint",
+  "sous_titre": "La sainteté : mise à part pour Dieu, et chemin de chaque jour",
+  "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+  "enseignement": "enseignement-sanctification",
+  "verset_memoire": "1 Pierre 1:15-16",
+  "lecture": {
+    "titre": "Cette semaine, lis ces textes, un par jour",
+    "conseil": "Note chaque jour un domaine où Dieu te demande de changer.",
+    "jours": [
+      "Lévitique 19:1-18",
+      "1 Pierre 1",
+      "Hébreux 12",
+      "1 Thessaloniciens 4",
+      "Éphésiens 4:17-32",
+      "Romains 6",
+      "Psaume 15"
+    ]
+  },
+  "introduction": [
+    "Dieu ne t'a pas seulement pardonné : il veut te transformer. Cela s'appelle la sanctification.",
+    "Cette semaine, tu vas découvrir ce qu'est la sainteté, comment Dieu te sanctifie, et les domaines où il veut te changer."
+  ],
+  "parties": [
     {
-     "type": "vf",
-     "items": [
+      "titre": "Pour commencer : vrai ou faux ?",
+      "intro": null,
+      "elements": [
+        {
+          "type": "vf",
+          "items": [
+            {
+              "id": "vf1",
+              "texte": "Être saint, c'est être parfait dès maintenant.",
+              "reponse": false,
+              "explication": "La sainteté est un chemin : nous sommes mis à part par Dieu, et il nous transforme (Philippiens 3:12-14)."
+            },
+            {
+              "id": "vf2",
+              "texte": "La sainteté consiste surtout à respecter des règles extérieures.",
+              "reponse": false,
+              "explication": "Jésus a condamné les pharisiens qui nettoyaient le dehors de la coupe (Matthieu 23:25-26). La sainteté touche le cœur."
+            },
+            {
+              "id": "vf3",
+              "texte": "Dieu m'appelle à être saint parce qu'il est saint.",
+              "reponse": true,
+              "explication": "1 Pierre 1:15-16 ; Lévitique 11:44."
+            },
+            {
+              "id": "vf4",
+              "texte": "Je peux être saint par mes propres forces.",
+              "reponse": false,
+              "explication": "Dieu me sanctifie par son Esprit et sa Parole (Jean 17:17 ; 1 Thessaloniciens 5:23)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "I. Ce qu'est la sainteté",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q1",
+          "texte": "Lis 1 Pierre 1:13-16. À quoi Dieu nous appelle-t-il ? Pourquoi ?",
+          "refs": [
+            "1 Pierre 1:13-16"
+          ],
+          "accompagnateur": {
+            "attendu": "Soyez saints dans toute votre conduite, car Dieu est saint. Ne pas se conformer aux convoitises d'autrefois.",
+            "expliquer": [
+              "Saint veut dire « mis à part pour Dieu ». C'est une position (Dieu nous met à part) et un chemin (nous vivons à part)."
+            ],
+            "relance": "Qu'est-ce que « saint » évoque pour toi ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q2",
+          "texte": "Lis Hébreux 12:14 et 1 Thessaloniciens 4:3-8. Pourquoi la sainteté est-elle importante ?",
+          "refs": [
+            "Hébreux 12:14",
+            "1 Thessaloniciens 4:3-8"
+          ],
+          "accompagnateur": {
+            "attendu": "Sans la sainteté, personne ne verra le Seigneur. La volonté de Dieu, c'est notre sanctification : fuir l'impudicité, posséder son corps dans la sainteté, ne pas tromper son frère.",
+            "expliquer": [
+              "Sainteté du corps, des affaires, des paroles. Pas seulement les « grands péchés »."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "titre": "II. Comment Dieu me sanctifie",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q3",
+          "texte": "Lis Jean 17:17 et Romains 12:1-2. Par quoi Dieu sanctifie-t-il ? Quelle est ma part ?",
+          "refs": [
+            "Jean 17:17",
+            "Romains 12:1-2"
+          ],
+          "accompagnateur": {
+            "attendu": "Par la vérité, sa Parole. Ma part : m'offrir à lui, laisser mon intelligence se renouveler.",
+            "expliquer": [
+              "La sainteté grandit par la Parole, la prière, l'obéissance, la communion."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q4",
+          "texte": "Lis Philippiens 2:12-13 et Galates 5:16-25. Qui travaille en moi ?",
+          "refs": [
+            "Philippiens 2:12-13",
+            "Galates 5:16-25"
+          ],
+          "accompagnateur": {
+            "attendu": "Dieu opère en moi le vouloir et le faire. Je marche par l'Esprit, qui produit son fruit.",
+            "expliquer": [
+              "Rappel : pas d'efforts religieux solitaires."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q5",
+          "texte": "Lis Hébreux 12:5-11. Pourquoi Dieu nous corrige-t-il ?",
+          "refs": [
+            "Hébreux 12:5-11"
+          ],
+          "accompagnateur": {
+            "attendu": "Parce qu'il nous aime comme ses enfants. La correction nous fait participer à sa sainteté et produit un fruit paisible de justice.",
+            "expliquer": [
+              "Dieu corrige : par sa Parole, des circonstances, des frères. Ne pas l'interpréter comme un rejet."
+            ],
+            "relance": "Y a-t-il une correction que tu sens en ce moment ?"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "III. Les domaines de la sainteté",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q6",
+          "texte": "Lis 1 Corinthiens 6:18-20 et Éphésiens 5:3-5. Que dit Dieu sur la pureté sexuelle ?",
+          "refs": [
+            "1 Corinthiens 6:18-20",
+            "Éphésiens 5:3-5"
+          ],
+          "accompagnateur": {
+            "attendu": "Fuir l'impudicité : le corps est le temple du Saint-Esprit. Que l'impudicité et toute impureté ne soient même pas nommées parmi vous.",
+            "expliquer": [
+              "Parler franchement : relations avant mariage, pornographie, adultère, concubinage. Renvoyer vers le parcours ORIZON si besoin, et vers le berger du même sexe."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q7",
+          "texte": "Lis Éphésiens 4:25-29 et Colossiens 3:8-9. Que dit Dieu de la bouche ?",
+          "refs": [
+            "Éphésiens 4:25-29",
+            "Colossiens 3:8-9"
+          ],
+          "accompagnateur": {
+            "attendu": "Rejeter le mensonge, ne pas laisser de parole mauvaise sortir de la bouche, mais ce qui édifie. Colère, calomnie, injures, doivent disparaître.",
+            "expliquer": [
+              "Mensonge, médisance, jurons, moqueries : la bouche est un lieu de sainteté."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q8",
+          "texte": "Lis Proverbes 11:1 et Éphésiens 4:28. Que dit Dieu des affaires, du travail et de l'argent ?",
+          "refs": [
+            "Proverbes 11:1",
+            "Éphésiens 4:28"
+          ],
+          "accompagnateur": {
+            "attendu": "Une balance fausse est en horreur à l'Éternel. Que celui qui volait ne vole plus, mais travaille de ses mains pour avoir de quoi donner.",
+            "expliquer": [
+              "Corruption, pots-de-vin, faux prix, tricherie : la sainteté se vit au marché et au bureau."
+            ],
+            "relance": "Dans quel domaine veux-tu que Dieu te change en priorité ?"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "IV. Un chemin avec grâce",
+      "intro": null,
+      "elements": [
+        {
+          "type": "encadre",
+          "style": "application",
+          "titre": "Mon plan de sainteté",
+          "texte": [
+            "1. Un domaine où Dieu me demande de changer :",
+            "2. Un verset pour tenir :",
+            "3. Une habitude à remplacer :",
+            "4. Une personne à qui rendre compte :"
+          ],
+          "champ": "Mon plan",
+          "id": "plan-sainteté"
+        },
+        {
+          "type": "question",
+          "id": "q9",
+          "texte": "Lis 1 Jean 1:9 et Proverbes 24:16. Que faire quand je tombe ?",
+          "refs": [
+            "1 Jean 1:9",
+            "Proverbes 24:16"
+          ],
+          "accompagnateur": {
+            "attendu": "Confesser, et Dieu est fidèle pour pardonner. Le juste tombe sept fois et se relève.",
+            "expliquer": [
+              "Ne pas confondre sainteté et perfection : revenir sans honte."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q10",
+          "texte": "Écris 1 Pierre 1:15-16 de mémoire.",
+          "refs": [
+            "1 Pierre 1:15-16"
+          ],
+          "accompagnateur": {
+            "attendu": "« Mais, puisque celui qui vous a appelés est saint, soyez saints vous-mêmes dans toute votre conduite, selon qu'il est écrit : Vous serez saints, car je suis saint. »",
+            "expliquer": [
+              "Réviser Matthieu 5:23-24."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "accompagnateur": {
+    "but": [
+      "Que la personne comprenne que la sainteté est un chemin de grâce, et non un effort solitaire.",
+      "Qu'elle identifie un domaine concret à changer.",
+      "Soutenir sans condamner."
+    ],
+    "preparation": [
+      "Relire tes notes du pas 8 et le bilan de vie.",
+      "Préparer des exemples de ta propre lutte.",
+      "Prier pour la personne."
+    ],
+    "deroulement": [
       {
-       "id": "vf1",
-       "texte": "Être saint, c'est être parfait dès maintenant.",
-       "reponse": false,
-       "explication": "La sainteté est un chemin : nous sommes mis à part par Dieu, et il nous transforme (Philippiens 3:12-14)."
+        "titre": "Accueil, prière, retour sur la semaine",
+        "minutes": 15,
+        "conseils": [
+          "Lecture. Retour sur la réconciliation (pas 8)."
+        ]
       },
       {
-       "id": "vf2",
-       "texte": "La sainteté consiste surtout à respecter des règles extérieures.",
-       "reponse": false,
-       "explication": "Jésus a condamné les pharisiens qui nettoyaient le dehors de la coupe (Matthieu 23:25-26). La sainteté touche le cœur."
+        "titre": "Vrai ou faux",
+        "minutes": 10,
+        "conseils": [
+          "Reprendre chaque affirmation."
+        ]
       },
       {
-       "id": "vf3",
-       "texte": "Dieu m'appelle à être saint parce qu'il est saint.",
-       "reponse": true,
-       "explication": "1 Pierre 1:15-16 ; Lévitique 11:44."
+        "titre": "Ce qu'est la sainteté",
+        "minutes": 20,
+        "conseils": [
+          "Questions 1 et 2."
+        ]
       },
       {
-       "id": "vf4",
-       "texte": "Je peux être saint par mes propres forces.",
-       "reponse": false,
-       "explication": "Dieu me sanctifie par son Esprit et sa Parole (Jean 17:17 ; 1 Thessaloniciens 5:23)."
+        "titre": "Comment Dieu me sanctifie",
+        "minutes": 25,
+        "conseils": [
+          "Questions 3 à 5."
+        ]
+      },
+      {
+        "titre": "Les domaines de la sainteté",
+        "minutes": 35,
+        "conseils": [
+          "Questions 6 à 8. Écouter sans choquer, sans minimiser."
+        ]
+      },
+      {
+        "titre": "Mon plan et remise du pas 10",
+        "minutes": 15,
+        "conseils": [
+          "Tableau et questions 9 et 10. Remettre le pas 10 « Le chrétien et son argent »."
+        ]
       }
-     ]
-    }
-   ]
-  },
-  {
-   "titre": "I. Ce qu'est la sainteté",
-   "intro": null,
-   "elements": [
-    {
-     "type": "question",
-     "id": "q1",
-     "texte": "Lis 1 Pierre 1:13-16. À quoi Dieu nous appelle-t-il ? Pourquoi ?",
-     "refs": [
-      "1 Pierre 1:13-16"
-     ],
-     "accompagnateur": {
-      "attendu": "Soyez saints dans toute votre conduite, car Dieu est saint. Ne pas se conformer aux convoitises d'autrefois.",
-      "expliquer": [
-       "Saint veut dire « mis à part pour Dieu ». C'est une position (Dieu nous met à part) et un chemin (nous vivons à part)."
-      ],
-      "relance": "Qu'est-ce que « saint » évoque pour toi ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q2",
-     "texte": "Lis Hébreux 12:14 et 1 Thessaloniciens 4:3-8. Pourquoi la sainteté est-elle importante ?",
-     "refs": [
-      "Hébreux 12:14",
-      "1 Thessaloniciens 4:3-8"
-     ],
-     "accompagnateur": {
-      "attendu": "Sans la sainteté, personne ne verra le Seigneur. La volonté de Dieu, c'est notre sanctification : fuir l'impudicité, posséder son corps dans la sainteté, ne pas tromper son frère.",
-      "expliquer": [
-       "Sainteté du corps, des affaires, des paroles. Pas seulement les « grands péchés »."
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "titre": "II. Comment Dieu me sanctifie",
-   "intro": null,
-   "elements": [
-    {
-     "type": "question",
-     "id": "q3",
-     "texte": "Lis Jean 17:17 et Romains 12:1-2. Par quoi Dieu sanctifie-t-il ? Quelle est ma part ?",
-     "refs": [
-      "Jean 17:17",
-      "Romains 12:1-2"
-     ],
-     "accompagnateur": {
-      "attendu": "Par la vérité, sa Parole. Ma part : m'offrir à lui, laisser mon intelligence se renouveler.",
-      "expliquer": [
-       "La sainteté grandit par la Parole, la prière, l'obéissance, la communion."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q4",
-     "texte": "Lis Philippiens 2:12-13 et Galates 5:16-25. Qui travaille en moi ?",
-     "refs": [
-      "Philippiens 2:12-13",
-      "Galates 5:16-25"
-     ],
-     "accompagnateur": {
-      "attendu": "Dieu opère en moi le vouloir et le faire. Je marche par l'Esprit, qui produit son fruit.",
-      "expliquer": [
-       "Rappel : pas d'efforts religieux solitaires."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q5",
-     "texte": "Lis Hébreux 12:5-11. Pourquoi Dieu nous corrige-t-il ?",
-     "refs": [
-      "Hébreux 12:5-11"
-     ],
-     "accompagnateur": {
-      "attendu": "Parce qu'il nous aime comme ses enfants. La correction nous fait participer à sa sainteté et produit un fruit paisible de justice.",
-      "expliquer": [
-       "Dieu corrige : par sa Parole, des circonstances, des frères. Ne pas l'interpréter comme un rejet."
-      ],
-      "relance": "Y a-t-il une correction que tu sens en ce moment ?"
-     }
-    }
-   ]
-  },
-  {
-   "titre": "III. Les domaines de la sainteté",
-   "intro": null,
-   "elements": [
-    {
-     "type": "question",
-     "id": "q6",
-     "texte": "Lis 1 Corinthiens 6:18-20 et Éphésiens 5:3-5. Que dit Dieu sur la pureté sexuelle ?",
-     "refs": [
-      "1 Corinthiens 6:18-20",
-      "Éphésiens 5:3-5"
-     ],
-     "accompagnateur": {
-      "attendu": "Fuir l'impudicité : le corps est le temple du Saint-Esprit. Que l'impudicité et toute impureté ne soient même pas nommées parmi vous.",
-      "expliquer": [
-       "Parler franchement : relations avant mariage, pornographie, adultère, concubinage. Renvoyer vers le parcours ORIZON si besoin, et vers l'accompagnateur du même sexe."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q7",
-     "texte": "Lis Éphésiens 4:25-29 et Colossiens 3:8-9. Que dit Dieu de la bouche ?",
-     "refs": [
-      "Éphésiens 4:25-29",
-      "Colossiens 3:8-9"
-     ],
-     "accompagnateur": {
-      "attendu": "Rejeter le mensonge, ne pas laisser de parole mauvaise sortir de la bouche, mais ce qui édifie. Colère, calomnie, injures, doivent disparaître.",
-      "expliquer": [
-       "Mensonge, médisance, jurons, moqueries : la bouche est un lieu de sainteté."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q8",
-     "texte": "Lis Proverbes 11:1 et Éphésiens 4:28. Que dit Dieu des affaires, du travail et de l'argent ?",
-     "refs": [
-      "Proverbes 11:1",
-      "Éphésiens 4:28"
-     ],
-     "accompagnateur": {
-      "attendu": "Une balance fausse est en horreur à l'Éternel. Que celui qui volait ne vole plus, mais travaille de ses mains pour avoir de quoi donner.",
-      "expliquer": [
-       "Corruption, pots-de-vin, faux prix, tricherie : la sainteté se vit au marché et au bureau."
-      ],
-      "relance": "Dans quel domaine veux-tu que Dieu te change en priorité ?"
-     }
-    }
-   ]
-  },
-  {
-   "titre": "IV. Un chemin avec grâce",
-   "intro": null,
-   "elements": [
-    {
-     "type": "encadre",
-     "style": "application",
-     "titre": "Mon plan de sainteté",
-     "texte": [
-      "1. Un domaine où Dieu me demande de changer :",
-      "2. Un verset pour tenir :",
-      "3. Une habitude à remplacer :",
-      "4. Une personne à qui rendre compte :"
-     ],
-     "champ": "Mon plan",
-     "id": "plan-sainteté"
-    },
-    {
-     "type": "question",
-     "id": "q9",
-     "texte": "Lis 1 Jean 1:9 et Proverbes 24:16. Que faire quand je tombe ?",
-     "refs": [
-      "1 Jean 1:9",
-      "Proverbes 24:16"
-     ],
-     "accompagnateur": {
-      "attendu": "Confesser, et Dieu est fidèle pour pardonner. Le juste tombe sept fois et se relève.",
-      "expliquer": [
-       "Ne pas confondre sainteté et perfection : revenir sans honte."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q10",
-     "texte": "Écris 1 Pierre 1:15-16 de mémoire.",
-     "refs": [
-      "1 Pierre 1:15-16"
-     ],
-     "accompagnateur": {
-      "attendu": "« Mais, puisque celui qui vous a appelés est saint, soyez saints vous-mêmes dans toute votre conduite, selon qu'il est écrit : Vous serez saints, car je suis saint. »",
-      "expliquer": [
-       "Réviser Matthieu 5:23-24."
-      ]
-     }
-    }
-   ]
+    ],
+    "vigilance": [
+      "Pour les péchés sexuels, un berger du même sexe.",
+      "Ne pas faire de la sainteté une liste de règles.",
+      "Rappeler la grâce quand la personne tombe."
+    ]
   }
- ],
- "accompagnateur": {
-  "but": [
-   "Que la personne comprenne que la sainteté est un chemin de grâce, et non un effort solitaire.",
-   "Qu'elle identifie un domaine concret à changer.",
-   "Soutenir sans condamner."
-  ],
-  "preparation": [
-   "Relire tes notes du pas 8 et le bilan de vie.",
-   "Préparer des exemples de ta propre lutte.",
-   "Prier pour la personne."
-  ],
-  "deroulement": [
-   {
-    "titre": "Accueil, prière, retour sur la semaine",
-    "minutes": 15,
-    "conseils": [
-     "Lecture. Retour sur la réconciliation (pas 8)."
-    ]
-   },
-   {
-    "titre": "Vrai ou faux",
-    "minutes": 10,
-    "conseils": [
-     "Reprendre chaque affirmation."
-    ]
-   },
-   {
-    "titre": "Ce qu'est la sainteté",
-    "minutes": 20,
-    "conseils": [
-     "Questions 1 et 2."
-    ]
-   },
-   {
-    "titre": "Comment Dieu me sanctifie",
-    "minutes": 25,
-    "conseils": [
-     "Questions 3 à 5."
-    ]
-   },
-   {
-    "titre": "Les domaines de la sainteté",
-    "minutes": 35,
-    "conseils": [
-     "Questions 6 à 8. Écouter sans choquer, sans minimiser."
-    ]
-   },
-   {
-    "titre": "Mon plan et remise du pas 10",
-    "minutes": 15,
-    "conseils": [
-     "Tableau et questions 9 et 10. Remettre le pas 10 « Le chrétien et son argent »."
-    ]
-   }
-  ],
-  "vigilance": [
-   "Pour les péchés sexuels, un accompagnateur du même sexe.",
-   "Ne pas faire de la sainteté une liste de règles.",
-   "Rappeler la grâce quand la personne tombe."
-  ]
- }
 }

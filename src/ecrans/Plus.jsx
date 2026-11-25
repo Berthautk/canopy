@@ -13,7 +13,7 @@ const GROUPES = [
     ['#/priere/demander', 'fardeau-paix-retrouvee', 'Un fardeau ? Nous prions pour toi', "Écris ton sujet de prière en toute discrétion."],
     ['#/equilibre', 'prier-femme-bible-matin', 'Mon équilibre avec Dieu', 'Mon rythme de prière, de Parole et de méditation, avec rappels.'],
     ['#/priere/journal', 'plus-bible-cahier', 'Mon journal de prière', 'Mes requêtes et mes prières exaucées.'],
-    ['#/accompagner', 'grandir-accompagnement', 'Suivi des nouveaux convertis', 'Tu es nouveau converti, ou tu en accompagnes un ? Commence ici.'],
+    ['#/accompagner', 'grandir-accompagnement', 'Suivi des nouveaux convertis', 'Je suis un nouveau converti, ou je suis un berger : commence ici.'],
   ]],
   ["Mon application", [
     ['#/telechargements', 'plus-telephone', 'Installer et utiliser sans internet', 'Garder Yeshaya sur ton téléphone, avec la Bible et les enseignements.'],

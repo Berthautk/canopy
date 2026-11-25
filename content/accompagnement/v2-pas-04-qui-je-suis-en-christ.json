@@ -1,279 +1,279 @@
 {
- "id": "v2-pas-04-qui-je-suis-en-christ",
- "volume": 2,
- "numero": 4,
- "titre": "Qui suis-je en Christ ?",
- "sous_titre": "Ma nouvelle identité d'enfant de Dieu",
- "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
- "enseignement": "disciple-v2-04-qui-je-suis-en-christ",
- "verset_memoire": "2 Corinthiens 5:17",
- "lecture": {
-  "titre": "Cette semaine, lis ces textes, un par jour",
-  "conseil": "Souligne chaque phrase qui parle de ce que Dieu dit de toi.",
-  "jours": [
-   "Éphésiens 1",
-   "Éphésiens 2",
-   "Colossiens 3:1-17",
-   "Romains 8",
-   "1 Pierre 2:1-10",
-   "Psaume 139",
-   "Ésaïe 43"
-  ]
- },
- "introduction": [
-  "Beaucoup de gens vivent selon ce que les autres disent d'eux : fils d'un tel, pauvre, rejeté. Dieu dit autre chose.",
-  "Cette semaine, tu vas découvrir qui tu es en Christ, et apprendre à répondre aux voix qui t'accusent."
- ],
- "parties": [
-  {
-   "titre": "Pour commencer : vrai ou faux ?",
-   "intro": null,
-   "elements": [
+  "id": "v2-pas-04-qui-je-suis-en-christ",
+  "volume": 2,
+  "numero": 4,
+  "titre": "Qui suis-je en Christ ?",
+  "sous_titre": "Ma nouvelle identité d'enfant de Dieu",
+  "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+  "enseignement": "disciple-v2-04-qui-je-suis-en-christ",
+  "verset_memoire": "2 Corinthiens 5:17",
+  "lecture": {
+    "titre": "Cette semaine, lis ces textes, un par jour",
+    "conseil": "Souligne chaque phrase qui parle de ce que Dieu dit de toi.",
+    "jours": [
+      "Éphésiens 1",
+      "Éphésiens 2",
+      "Colossiens 3:1-17",
+      "Romains 8",
+      "1 Pierre 2:1-10",
+      "Psaume 139",
+      "Ésaïe 43"
+    ]
+  },
+  "introduction": [
+    "Beaucoup de gens vivent selon ce que les autres disent d'eux : fils d'un tel, pauvre, rejeté. Dieu dit autre chose.",
+    "Cette semaine, tu vas découvrir qui tu es en Christ, et apprendre à répondre aux voix qui t'accusent."
+  ],
+  "parties": [
     {
-     "type": "vf",
-     "items": [
+      "titre": "Pour commencer : vrai ou faux ?",
+      "intro": null,
+      "elements": [
+        {
+          "type": "vf",
+          "items": [
+            {
+              "id": "vf1",
+              "texte": "Mon identité dépend de ma famille, de mon passé ou de ce que les gens disent de moi.",
+              "reponse": false,
+              "explication": "En Christ, je suis une nouvelle création (2 Corinthiens 5:17), enfant de Dieu (Jean 1:12)."
+            },
+            {
+              "id": "vf2",
+              "texte": "Quand je pèche, je cesse d'être enfant de Dieu.",
+              "reponse": false,
+              "explication": "Le péché abîme la relation, mais ne change pas la naissance (1 Jean 2:1 ; Luc 15:20)."
+            },
+            {
+              "id": "vf3",
+              "texte": "Dieu m'a pardonné complètement et m'a déclaré juste.",
+              "reponse": true,
+              "explication": "Romains 8:1 ; 2 Corinthiens 5:21."
+            },
+            {
+              "id": "vf4",
+              "texte": "Il faut mériter l'amour de Dieu.",
+              "reponse": false,
+              "explication": "Dieu nous a aimés alors que nous étions encore pécheurs (Romains 5:8)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "I. Une nouvelle identité",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q1",
+          "texte": "Lis 2 Corinthiens 5:17 et Galates 2:20. Que dit Paul de celui qui est en Christ ?",
+          "refs": [
+            "2 Corinthiens 5:17",
+            "Galates 2:20"
+          ],
+          "accompagnateur": {
+            "attendu": "Il est une nouvelle créature : les choses anciennes sont passées. Il a été crucifié avec Christ ; Christ vit en lui.",
+            "expliquer": [
+              "Le passé n'est pas effacé de la mémoire, mais il n'a plus le droit de définir la personne."
+            ],
+            "relance": "Quel mot du passé te colle encore à la peau (orphelin, voleur, rejeté, kirdi, sorcier) ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q2",
+          "texte": "Lis Jean 1:12-13 et Romains 8:14-17. Quels titres Dieu donne-t-il à ceux qui croient ?",
+          "refs": [
+            "Jean 1:12-13",
+            "Romains 8:14-17"
+          ],
+          "accompagnateur": {
+            "attendu": "Enfants de Dieu, héritiers de Dieu et cohéritiers de Christ.",
+            "expliquer": [
+              "Un enfant a accès au Père, un nom, un héritage. Pour celui qui a été renié par sa famille : c'est une grande consolation."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "titre": "II. Ce que Dieu dit de moi",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q3",
+          "texte": "Lis Romains 8:1, 33-34 et Colossiens 1:13-14. Que dit Dieu de ma condamnation et de mon passé ?",
+          "refs": [
+            "Romains 8:1",
+            "Romains 8:33-34",
+            "Colossiens 1:13-14"
+          ],
+          "accompagnateur": {
+            "attendu": "Il n'y a plus de condamnation. Qui accusera ceux que Dieu a justifiés ? Il nous a délivrés de la puissance des ténèbres et transportés dans le royaume de son Fils.",
+            "expliquer": [
+              "Voix de l'accusateur : « Tu ne vaux rien, tu retomberas. » Réponse : ce que Dieu dit."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q4",
+          "texte": "Lis Éphésiens 1:3-8 et 1 Pierre 2:9-10. Quelles bénédictions Dieu me donne-t-il ?",
+          "refs": [
+            "Éphésiens 1:3-8",
+            "1 Pierre 2:9-10"
+          ],
+          "accompagnateur": {
+            "attendu": "Choisi, adopté, racheté, pardonné. Race élue, sacerdoce royal, nation sainte, peuple acquis.",
+            "expliquer": [
+              "Faire lire à voix haute : « Je suis choisi. Je suis aimé. »"
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q5",
+          "texte": "Lis Psaume 139:13-16 et Ésaïe 43:1-4. Que dit Dieu de la valeur de chaque personne ?",
+          "refs": [
+            "Psaume 139:13-16",
+            "Ésaïe 43:1-4"
+          ],
+          "accompagnateur": {
+            "attendu": "Dieu m'a formé dans le ventre de ma mère. Il m'appelle par mon nom : tu as du prix à mes yeux, tu es honoré, et je t'aime.",
+            "expliquer": [
+              "Pour ceux que la honte écrase (naissance illégitime, abus, handicap) : cette parole peut guérir."
+            ],
+            "relance": "Qu'est-ce que tu crois que Dieu pense de toi ?"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "III. Vivre selon ma nouvelle identité",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q6",
+          "texte": "Lis Éphésiens 4:22-24 et Colossiens 3:9-10. Que dois-je « dépouiller » et « revêtir » ?",
+          "refs": [
+            "Éphésiens 4:22-24",
+            "Colossiens 3:9-10"
+          ],
+          "accompagnateur": {
+            "attendu": "Dépouiller le vieil homme (mensonge, convoitise) ; revêtir l'homme nouveau, créé selon Dieu dans la justice et la sainteté.",
+            "expliquer": [
+              "Image de l'habit : on enlève le vieux, on met le nouveau."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q7",
+          "texte": "Lis Matthieu 3:16-17 et 4:1-4. Que dit le Père de Jésus avant l'épreuve ? Comment cela l'aide-t-il dans la tentation ?",
+          "refs": [
+            "Matthieu 3:16-17",
+            "Matthieu 4:1-4"
+          ],
+          "accompagnateur": {
+            "attendu": "« Celui-ci est mon Fils bien-aimé. » Le diable commence par : « Si tu es Fils de Dieu… » Jésus s'appuie sur ce que le Père a dit.",
+            "expliquer": [
+              "Le diable attaque l'identité. La réponse est la Parole."
+            ]
+          }
+        },
+        {
+          "type": "encadre",
+          "style": "application",
+          "titre": "Ce que Dieu dit de moi",
+          "texte": [
+            "Choisis trois vérités sur ton identité (Éphésiens 1, Romains 8, 1 Pierre 2) et écris-les avec « je » :",
+            "1. Je suis…",
+            "2. Je suis…",
+            "3. Je suis…",
+            "Ce que je veux dire à la voix qui m'accuse :"
+          ],
+          "champ": "Mon identité",
+          "id": "identite-christ"
+        },
+        {
+          "type": "question",
+          "id": "q8",
+          "texte": "Écris 2 Corinthiens 5:17 de mémoire.",
+          "refs": [
+            "2 Corinthiens 5:17"
+          ],
+          "accompagnateur": {
+            "attendu": "« Si quelqu'un est en Christ, il est une nouvelle créature ; les choses anciennes sont passées, voici, toutes choses sont devenues nouvelles. »",
+            "expliquer": [
+              "Réviser Marc 10:45."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "accompagnateur": {
+    "but": [
+      "Que la personne reçoive sa nouvelle identité et réponde à l'accusation.",
+      "Guérir des blessures liées au rejet, à la honte, à la lignée.",
+      "L'aider à s'appuyer sur ce que Dieu dit."
+    ],
+    "preparation": [
+      "Relire tes notes du pas 3 et les points du bilan de vie sur la honte et le rejet.",
+      "Choisir une promesse précise pour la personne.",
+      "Prier pour la guérison des blessures d'identité."
+    ],
+    "deroulement": [
       {
-       "id": "vf1",
-       "texte": "Mon identité dépend de ma famille, de mon passé ou de ce que les gens disent de moi.",
-       "reponse": false,
-       "explication": "En Christ, je suis une nouvelle création (2 Corinthiens 5:17), enfant de Dieu (Jean 1:12)."
+        "titre": "Accueil, prière, retour sur la semaine",
+        "minutes": 15,
+        "conseils": [
+          "Lecture. Retour sur son service (pas 3)."
+        ]
       },
       {
-       "id": "vf2",
-       "texte": "Quand je pèche, je cesse d'être enfant de Dieu.",
-       "reponse": false,
-       "explication": "Le péché abîme la relation, mais ne change pas la naissance (1 Jean 2:1 ; Luc 15:20)."
+        "titre": "Vrai ou faux",
+        "minutes": 10,
+        "conseils": [
+          "Reprendre chaque affirmation."
+        ]
       },
       {
-       "id": "vf3",
-       "texte": "Dieu m'a pardonné complètement et m'a déclaré juste.",
-       "reponse": true,
-       "explication": "Romains 8:1 ; 2 Corinthiens 5:21."
+        "titre": "Une nouvelle identité",
+        "minutes": 20,
+        "conseils": [
+          "Questions 1 et 2. Écouter ses « étiquettes »."
+        ]
       },
       {
-       "id": "vf4",
-       "texte": "Il faut mériter l'amour de Dieu.",
-       "reponse": false,
-       "explication": "Dieu nous a aimés alors que nous étions encore pécheurs (Romains 5:8)."
+        "titre": "Ce que Dieu dit de moi",
+        "minutes": 30,
+        "conseils": [
+          "Questions 3 à 5. Lire les versets à voix haute."
+        ]
+      },
+      {
+        "titre": "Vivre selon ma nouvelle identité",
+        "minutes": 35,
+        "conseils": [
+          "Questions 6 à 8 et tableau. Faire dire à voix haute ses trois vérités."
+        ]
+      },
+      {
+        "titre": "Verset et remise du pas 5",
+        "minutes": 10,
+        "conseils": [
+          "Réciter 2 Corinthiens 5:17. Prier. Remettre le pas 5 « Le combat spirituel »."
+        ]
       }
-     ]
-    }
-   ]
-  },
-  {
-   "titre": "I. Une nouvelle identité",
-   "intro": null,
-   "elements": [
-    {
-     "type": "question",
-     "id": "q1",
-     "texte": "Lis 2 Corinthiens 5:17 et Galates 2:20. Que dit Paul de celui qui est en Christ ?",
-     "refs": [
-      "2 Corinthiens 5:17",
-      "Galates 2:20"
-     ],
-     "accompagnateur": {
-      "attendu": "Il est une nouvelle créature : les choses anciennes sont passées. Il a été crucifié avec Christ ; Christ vit en lui.",
-      "expliquer": [
-       "Le passé n'est pas effacé de la mémoire, mais il n'a plus le droit de définir la personne."
-      ],
-      "relance": "Quel mot du passé te colle encore à la peau (orphelin, voleur, rejeté, kirdi, sorcier) ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q2",
-     "texte": "Lis Jean 1:12-13 et Romains 8:14-17. Quels titres Dieu donne-t-il à ceux qui croient ?",
-     "refs": [
-      "Jean 1:12-13",
-      "Romains 8:14-17"
-     ],
-     "accompagnateur": {
-      "attendu": "Enfants de Dieu, héritiers de Dieu et cohéritiers de Christ.",
-      "expliquer": [
-       "Un enfant a accès au Père, un nom, un héritage. Pour celui qui a été renié par sa famille : c'est une grande consolation."
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "titre": "II. Ce que Dieu dit de moi",
-   "intro": null,
-   "elements": [
-    {
-     "type": "question",
-     "id": "q3",
-     "texte": "Lis Romains 8:1, 33-34 et Colossiens 1:13-14. Que dit Dieu de ma condamnation et de mon passé ?",
-     "refs": [
-      "Romains 8:1",
-      "Romains 8:33-34",
-      "Colossiens 1:13-14"
-     ],
-     "accompagnateur": {
-      "attendu": "Il n'y a plus de condamnation. Qui accusera ceux que Dieu a justifiés ? Il nous a délivrés de la puissance des ténèbres et transportés dans le royaume de son Fils.",
-      "expliquer": [
-       "Voix de l'accusateur : « Tu ne vaux rien, tu retomberas. » Réponse : ce que Dieu dit."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q4",
-     "texte": "Lis Éphésiens 1:3-8 et 1 Pierre 2:9-10. Quelles bénédictions Dieu me donne-t-il ?",
-     "refs": [
-      "Éphésiens 1:3-8",
-      "1 Pierre 2:9-10"
-     ],
-     "accompagnateur": {
-      "attendu": "Choisi, adopté, racheté, pardonné. Race élue, sacerdoce royal, nation sainte, peuple acquis.",
-      "expliquer": [
-       "Faire lire à voix haute : « Je suis choisi. Je suis aimé. »"
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q5",
-     "texte": "Lis Psaume 139:13-16 et Ésaïe 43:1-4. Que dit Dieu de la valeur de chaque personne ?",
-     "refs": [
-      "Psaume 139:13-16",
-      "Ésaïe 43:1-4"
-     ],
-     "accompagnateur": {
-      "attendu": "Dieu m'a formé dans le ventre de ma mère. Il m'appelle par mon nom : tu as du prix à mes yeux, tu es honoré, et je t'aime.",
-      "expliquer": [
-       "Pour ceux que la honte écrase (naissance illégitime, abus, handicap) : cette parole peut guérir."
-      ],
-      "relance": "Qu'est-ce que tu crois que Dieu pense de toi ?"
-     }
-    }
-   ]
-  },
-  {
-   "titre": "III. Vivre selon ma nouvelle identité",
-   "intro": null,
-   "elements": [
-    {
-     "type": "question",
-     "id": "q6",
-     "texte": "Lis Éphésiens 4:22-24 et Colossiens 3:9-10. Que dois-je « dépouiller » et « revêtir » ?",
-     "refs": [
-      "Éphésiens 4:22-24",
-      "Colossiens 3:9-10"
-     ],
-     "accompagnateur": {
-      "attendu": "Dépouiller le vieil homme (mensonge, convoitise) ; revêtir l'homme nouveau, créé selon Dieu dans la justice et la sainteté.",
-      "expliquer": [
-       "Image de l'habit : on enlève le vieux, on met le nouveau."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q7",
-     "texte": "Lis Matthieu 3:16-17 et 4:1-4. Que dit le Père de Jésus avant l'épreuve ? Comment cela l'aide-t-il dans la tentation ?",
-     "refs": [
-      "Matthieu 3:16-17",
-      "Matthieu 4:1-4"
-     ],
-     "accompagnateur": {
-      "attendu": "« Celui-ci est mon Fils bien-aimé. » Le diable commence par : « Si tu es Fils de Dieu… » Jésus s'appuie sur ce que le Père a dit.",
-      "expliquer": [
-       "Le diable attaque l'identité. La réponse est la Parole."
-      ]
-     }
-    },
-    {
-     "type": "encadre",
-     "style": "application",
-     "titre": "Ce que Dieu dit de moi",
-     "texte": [
-      "Choisis trois vérités sur ton identité (Éphésiens 1, Romains 8, 1 Pierre 2) et écris-les avec « je » :",
-      "1. Je suis…",
-      "2. Je suis…",
-      "3. Je suis…",
-      "Ce que je veux dire à la voix qui m'accuse :"
-     ],
-     "champ": "Mon identité",
-     "id": "identite-christ"
-    },
-    {
-     "type": "question",
-     "id": "q8",
-     "texte": "Écris 2 Corinthiens 5:17 de mémoire.",
-     "refs": [
-      "2 Corinthiens 5:17"
-     ],
-     "accompagnateur": {
-      "attendu": "« Si quelqu'un est en Christ, il est une nouvelle créature ; les choses anciennes sont passées, voici, toutes choses sont devenues nouvelles. »",
-      "expliquer": [
-       "Réviser Marc 10:45."
-      ]
-     }
-    }
-   ]
+    ],
+    "vigilance": [
+      "Si la personne a subi des abus, du rejet fort ou un grave abandon, y revenir sans hâte et avec un berger du même sexe.",
+      "Ne pas confondre identité en Christ et orgueil : rappeler la grâce.",
+      "En cas de pensées de mort ou de désespoir, chercher une aide immédiate (pasteur, conseiller, médecin)."
+    ]
   }
- ],
- "accompagnateur": {
-  "but": [
-   "Que la personne reçoive sa nouvelle identité et réponde à l'accusation.",
-   "Guérir des blessures liées au rejet, à la honte, à la lignée.",
-   "L'aider à s'appuyer sur ce que Dieu dit."
-  ],
-  "preparation": [
-   "Relire tes notes du pas 3 et les points du bilan de vie sur la honte et le rejet.",
-   "Choisir une promesse précise pour la personne.",
-   "Prier pour la guérison des blessures d'identité."
-  ],
-  "deroulement": [
-   {
-    "titre": "Accueil, prière, retour sur la semaine",
-    "minutes": 15,
-    "conseils": [
-     "Lecture. Retour sur son service (pas 3)."
-    ]
-   },
-   {
-    "titre": "Vrai ou faux",
-    "minutes": 10,
-    "conseils": [
-     "Reprendre chaque affirmation."
-    ]
-   },
-   {
-    "titre": "Une nouvelle identité",
-    "minutes": 20,
-    "conseils": [
-     "Questions 1 et 2. Écouter ses « étiquettes »."
-    ]
-   },
-   {
-    "titre": "Ce que Dieu dit de moi",
-    "minutes": 30,
-    "conseils": [
-     "Questions 3 à 5. Lire les versets à voix haute."
-    ]
-   },
-   {
-    "titre": "Vivre selon ma nouvelle identité",
-    "minutes": 35,
-    "conseils": [
-     "Questions 6 à 8 et tableau. Faire dire à voix haute ses trois vérités."
-    ]
-   },
-   {
-    "titre": "Verset et remise du pas 5",
-    "minutes": 10,
-    "conseils": [
-     "Réciter 2 Corinthiens 5:17. Prier. Remettre le pas 5 « Le combat spirituel »."
-    ]
-   }
-  ],
-  "vigilance": [
-   "Si la personne a subi des abus, du rejet fort ou un grave abandon, y revenir sans hâte et avec un accompagnateur du même sexe.",
-   "Ne pas confondre identité en Christ et orgueil : rappeler la grâce.",
-   "En cas de pensées de mort ou de désespoir, chercher une aide immédiate (pasteur, conseiller, médecin)."
-  ]
- }
 }

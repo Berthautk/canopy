@@ -1,5 +1,5 @@
-// Lien encadreur ↔ disciple (serveur : /api/suivi). Les réponses du carnet sont envoyées automatiquement
-// à l'encadreur quand le disciple est relié. Le bilan de vie n'est jamais envoyé.
+// Lien berger ↔ disciple (serveur : /api/suivi). Les réponses du carnet sont envoyées automatiquement
+// au berger quand le disciple est relié. Le bilan de vie n'est jamais envoyé.
 import { signal } from '../outils/signal.js';
 import { lireCarnet, lireDisciples, ecrireDisciples, quandCarnetChange, effacerBilan } from './carnet.js';
 
@@ -59,7 +59,7 @@ export async function envoyerTout() {
 quandCarnetChange((pas) => planifierEnvoi(pas));
 if (typeof window !== 'undefined') { addEventListener('online', envoyerTout); setTimeout(envoyerTout, 4000); }
 
-// ---------- Côté encadreur ----------
+// ---------- Côté berger ----------
 export async function creerDisciple(prenom) {
   const d = await api('creer', { prenom: prenom.trim() });
   const nouveau = { id: 'd' + Date.now().toString(36), prenom: prenom.trim(), code: d.code, cle: d.cle, pas: 'pas-01-le-salut', versets: [], notes: '', rdv: '', accueil: false };

@@ -1,450 +1,450 @@
 {
- "id": "pas-02-assurance-du-salut",
- "volume": 1,
- "numero": 2,
- "titre": "L'assurance du salut",
- "sous_titre": "Être sûr, sur la base de la Parole et non des sentiments",
- "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
- "enseignement": "affermissement-2-assurance-du-salut",
- "verset_memoire": "1 Jean 5:11-12",
- "lecture": {
-  "titre": "Cette semaine, lis Jean 8 à 14, un chapitre par jour",
-  "conseil": "Note chaque jour une promesse que Jésus fait à ceux qui croient en lui.",
-  "jours": [
-   "Jean 8",
-   "Jean 9",
-   "Jean 10",
-   "Jean 11",
-   "Jean 12",
-   "Jean 13",
-   "Jean 14"
-  ]
- },
- "introduction": [
-  "Beaucoup de nouveaux convertis vivent dans l'incertitude : « Suis-je vraiment sauvé ? » Le moindre péché, la moindre attaque, un rêve, une parole négative, et le doute revient. Le diable aime cette incertitude, car un enfant qui doute d'être enfant n'ose pas s'approcher de son Père.",
-  "Cette semaine, tu vas découvrir que ton assurance ne repose pas sur tes émotions, mais sur trois fondations solides : la Parole de Dieu, l'œuvre de Jésus, et le témoignage du Saint-Esprit. Tu verras aussi les signes qui accompagnent une vraie conversion.",
-  "Reprends ta fiche du pas 1 : as-tu détruit ce qui devait l'être ? Commencé à réparer ? Ton accompagnateur te le demandera avec bienveillance."
- ],
- "parties": [
-  {
-   "titre": "Pour commencer : vrai ou faux ?",
-   "intro": null,
-   "elements": [
+  "id": "pas-02-assurance-du-salut",
+  "volume": 1,
+  "numero": 2,
+  "titre": "L'assurance du salut",
+  "sous_titre": "Être sûr, sur la base de la Parole et non des sentiments",
+  "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+  "enseignement": "affermissement-2-assurance-du-salut",
+  "verset_memoire": "1 Jean 5:11-12",
+  "lecture": {
+    "titre": "Cette semaine, lis Jean 8 à 14, un chapitre par jour",
+    "conseil": "Note chaque jour une promesse que Jésus fait à ceux qui croient en lui.",
+    "jours": [
+      "Jean 8",
+      "Jean 9",
+      "Jean 10",
+      "Jean 11",
+      "Jean 12",
+      "Jean 13",
+      "Jean 14"
+    ]
+  },
+  "introduction": [
+    "Beaucoup de nouveaux convertis vivent dans l'incertitude : « Suis-je vraiment sauvé ? » Le moindre péché, la moindre attaque, un rêve, une parole négative, et le doute revient. Le diable aime cette incertitude, car un enfant qui doute d'être enfant n'ose pas s'approcher de son Père.",
+    "Cette semaine, tu vas découvrir que ton assurance ne repose pas sur tes émotions, mais sur trois fondations solides : la Parole de Dieu, l'œuvre de Jésus, et le témoignage du Saint-Esprit. Tu verras aussi les signes qui accompagnent une vraie conversion.",
+    "Reprends ta fiche du pas 1 : as-tu détruit ce qui devait l'être ? Commencé à réparer ? Ton berger te le demandera avec bienveillance."
+  ],
+  "parties": [
     {
-     "type": "vf",
-     "items": [
+      "titre": "Pour commencer : vrai ou faux ?",
+      "intro": null,
+      "elements": [
+        {
+          "type": "vf",
+          "items": [
+            {
+              "id": "vf1",
+              "texte": "Personne ne peut savoir avec certitude s'il est sauvé avant sa mort.",
+              "reponse": false,
+              "explication": "1 Jean 5:13 : « Je vous ai écrit ces choses, afin que vous sachiez que vous avez la vie éternelle. »"
+            },
+            {
+              "id": "vf2",
+              "texte": "Si je ne ressens rien, c'est que je ne suis pas sauvé.",
+              "reponse": false,
+              "explication": "Les sentiments changent ; la Parole ne change pas. Le salut repose sur ce que Dieu a dit et fait."
+            },
+            {
+              "id": "vf3",
+              "texte": "Quand je pèche, je perds mon salut et je dois me reconvertir.",
+              "reponse": false,
+              "explication": "1 Jean 2:1 : nous avons un avocat auprès du Père. On confesse, on est pardonné, on se relève (1 Jean 1:9)."
+            },
+            {
+              "id": "vf4",
+              "texte": "Celui qui continue à vivre volontairement dans le péché sans aucun regret doit s'examiner.",
+              "reponse": true,
+              "explication": "1 Jean 3:9-10 et 2 Corinthiens 13:5 : une vraie conversion produit un vrai changement de direction."
+            },
+            {
+              "id": "vf5",
+              "texte": "Un mauvais rêve ou une attaque spirituelle prouve que Dieu m'a abandonné.",
+              "reponse": false,
+              "explication": "Jean 10:28-29 : personne ne peut arracher les brebis de la main du Père."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "I. La première fondation : la Parole de Dieu",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q1",
+          "texte": "Lis 1 Jean 5:11-13. Qu'est-ce que Dieu nous a donné ? Où est cette vie ? Pourquoi Jean a-t-il écrit ces choses ?",
+          "refs": [
+            "1 Jean 5:11-13"
+          ],
+          "accompagnateur": {
+            "attendu": "Dieu nous a donné la vie éternelle ; cette vie est dans son Fils. Celui qui a le Fils a la vie. Jean a écrit pour que nous SACHIONS que nous avons la vie éternelle.",
+            "expliquer": [
+              "Le verbe est « savoir », pas « espérer » ni « deviner ».",
+              "Raisonnement simple : As-tu le Fils ? Alors tu as la vie."
+            ],
+            "erreurs": [
+              "Confondre humilité et doute : douter de la promesse de Dieu n'est pas de l'humilité."
+            ],
+            "relance": "Si quelqu'un te demande « Es-tu sûr d'aller au ciel ? », que répondras-tu, et sur quel verset ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q2",
+          "texte": "D'après Jean 5:24, quels sont les trois résultats pour celui qui écoute et croit ?",
+          "refs": [
+            "Jean 5:24"
+          ],
+          "accompagnateur": {
+            "attendu": "Il a la vie éternelle, il ne vient pas en jugement, il est passé de la mort à la vie.",
+            "expliquer": [
+              "Ce sont trois réalités déjà acquises, pas des promesses lointaines."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q3",
+          "texte": "Lis Jean 10:27-29. Que fait le berger pour ses brebis ? Qui peut les arracher de sa main ?",
+          "refs": [
+            "Jean 10:27-29"
+          ],
+          "accompagnateur": {
+            "attendu": "Il les connaît, leur donne la vie éternelle ; elles ne périront jamais ; personne ne peut les arracher de sa main ni de celle du Père.",
+            "expliquer": [
+              "Double main : celle du Fils et celle du Père. Ni la sorcellerie, ni un pacte ancien, ni un ennemi ne peut arracher une brebis de cette main.",
+              "Cela ne veut pas dire qu'on peut vivre n'importe comment : les brebis écoutent la voix du berger et le suivent (v. 27)."
+            ],
+            "relance": "Qu'est-ce qui te faisait le plus peur avant de lire ce passage ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q4",
+          "texte": "D'après Hébreux 13:5, que nous promet Dieu ?",
+          "refs": [
+            "Hébreux 13:5"
+          ],
+          "accompagnateur": {
+            "attendu": "« Je ne te délaisserai point, et je ne t'abandonnerai point. »",
+            "expliquer": [
+              "Promesse personnelle (« te »), sans condition de temps."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "titre": "II. La deuxième fondation : l'œuvre de Jésus",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q5",
+          "texte": "Lis Hébreux 10:10-14. Combien de fois Jésus a-t-il offert son sacrifice ? Pour combien de temps a-t-il rendu parfaits ceux qui sont sanctifiés ?",
+          "refs": [
+            "Hébreux 10:10-14"
+          ],
+          "accompagnateur": {
+            "attendu": "Une seule fois pour toutes ; par une seule offrande, il a amené à la perfection pour toujours ceux qui sont sanctifiés.",
+            "expliquer": [
+              "Les prêtres de l'Ancien Testament restaient debout, car leur travail ne finissait jamais ; Jésus s'est assis : l'œuvre est achevée (v. 12).",
+              "Ton salut ne dépend pas de ta performance du jour, mais d'une œuvre terminée."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q6",
+          "texte": "D'après Jean 19:30, quelle est la dernière parole de Jésus sur la croix ? Qu'est-ce que cela veut dire pour toi ?",
+          "refs": [
+            "Jean 19:30"
+          ],
+          "accompagnateur": {
+            "attendu": "« Tout est accompli. » La dette est payée en entier, il n'y a rien à ajouter.",
+            "expliquer": [
+              "Le mot grec était utilisé sur les reçus : « payé en totalité »."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q7",
+          "texte": "Lis Romains 8:1 et 8:33-34. Qui peut condamner celui qui est en Christ ? Pourquoi ?",
+          "refs": [
+            "Romains 8:1",
+            "Romains 8:33-34"
+          ],
+          "accompagnateur": {
+            "attendu": "Personne : il n'y a aucune condamnation pour ceux qui sont en Jésus-Christ. Dieu justifie, Christ est mort, ressuscité, et il intercède pour nous.",
+            "expliquer": [
+              "Distinguer la conviction du Saint-Esprit (précise, elle conduit à la repentance et à la paix) et l'accusation du diable (vague, elle écrase et éloigne de Dieu)."
+            ],
+            "relance": "Quelles accusations reviennent souvent dans ta tête ? D'où viennent-elles ?"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "III. La troisième fondation : le témoignage de l'Esprit",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q8",
+          "texte": "D'après Romains 8:15-16, que fait l'Esprit dans le cœur du croyant ?",
+          "refs": [
+            "Romains 8:15-16"
+          ],
+          "accompagnateur": {
+            "attendu": "Il nous fait crier « Abba, Père » et rend témoignage à notre esprit que nous sommes enfants de Dieu. Ce n'est pas un esprit de servitude pour retomber dans la crainte.",
+            "expliquer": [
+              "« Abba » est le mot affectueux d'un enfant pour son papa.",
+              "Un esprit de crainte (peur permanente de Dieu, des esprits, de la mort) n'est pas l'Esprit de Dieu."
+            ],
+            "relance": "Arrives-tu à appeler Dieu « Père » ? Si c'est difficile, est-ce lié à ton propre père ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q9",
+          "texte": "Lis Éphésiens 1:13-14. De quoi le croyant est-il marqué ? Qu'est-ce que cela garantit ?",
+          "refs": [
+            "Éphésiens 1:13-14"
+          ],
+          "accompagnateur": {
+            "attendu": "Il est scellé du Saint-Esprit promis, qui est le gage (l'acompte) de notre héritage.",
+            "expliquer": [
+              "Un sceau marque la propriété : tu appartiens à Dieu. Celui qui a été marqué par un esprit, une dédicace ou un pacte dans son passé doit savoir que la marque de Dieu est supérieure, et renoncer aux anciennes marques."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "titre": "IV. Les signes d'une vie nouvelle",
+      "intro": "La Bible donne aussi des signes pour nous examiner (2 Corinthiens 13:5). Ils ne sont pas la cause du salut, mais son fruit.",
+      "elements": [
+        {
+          "type": "question",
+          "id": "q10",
+          "texte": "Lis 1 Jean 2:3-6. Quel est le signe que nous connaissons Dieu ?",
+          "refs": [
+            "1 Jean 2:3-6"
+          ],
+          "accompagnateur": {
+            "attendu": "Si nous gardons ses commandements, si nous marchons comme Jésus a marché.",
+            "expliquer": [
+              "Il ne s'agit pas de perfection, mais de direction : désirer obéir et revenir quand on tombe."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q11",
+          "texte": "D'après 1 Jean 3:14, quel autre signe montre que nous sommes passés de la mort à la vie ?",
+          "refs": [
+            "1 Jean 3:14"
+          ],
+          "accompagnateur": {
+            "attendu": "L'amour des frères.",
+            "relance": "Depuis ta conversion, ton regard sur les autres chrétiens a-t-il changé ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q12",
+          "texte": "Lis 1 Jean 3:9-10 et 1 Jean 2:1. Le croyant peut-il encore pécher ? Quelle est la différence avec avant ?",
+          "refs": [
+            "1 Jean 3:9-10",
+            "1 Jean 2:1"
+          ],
+          "accompagnateur": {
+            "attendu": "Il peut tomber (1 Jean 2:1), mais il ne vit plus dans le péché comme pratique habituelle et voulue ; et quand il pèche, il a un avocat auprès du Père.",
+            "expliquer": [
+              "Le cochon et la brebis : les deux peuvent tomber dans la boue ; le cochon s'y plaît, la brebis veut en sortir."
+            ],
+            "erreurs": [
+              "Tirer de 1 Jean 3:9 que le vrai croyant ne pèche jamais : c'est le désespoir assuré."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q13",
+          "texte": "Fais ta liste : quels changements as-tu observés dans ta vie depuis que tu as reçu Jésus ?",
+          "refs": [],
+          "accompagnateur": {
+            "attendu": "Réponse libre : nouveaux désirs, paix, faim de la Parole, malaise devant le péché, amour pour les frères…",
+            "expliquer": [
+              "Encourager chaque changement, même petit.",
+              "S'il n'y en a aucun, ne pas condamner : reprendre l'Évangile et la décision, avec douceur."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "titre": "V. Quand le doute vient",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q14",
+          "texte": "Lis 1 Jean 1:9. Que faire quand j'ai péché ? Que fait Dieu ?",
+          "refs": [
+            "1 Jean 1:9"
+          ],
+          "accompagnateur": {
+            "attendu": "Confesser son péché ; Dieu est fidèle et juste pour pardonner et purifier de toute iniquité.",
+            "expliquer": [
+              "Se convertir une fois ; se confesser souvent. On ne se « reconvertit » pas à chaque chute."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q15",
+          "texte": "D'après Éphésiens 6:16, quelle arme éteint les « traits enflammés » du malin ? Quels traits enflammés reçois-tu ?",
+          "refs": [
+            "Éphésiens 6:16"
+          ],
+          "accompagnateur": {
+            "attendu": "Le bouclier de la foi.",
+            "expliquer": [
+              "Les traits enflammés : pensées d'accusation, de peur, de doute, rêves troublants, paroles de mort.",
+              "La foi n'est pas un sentiment : c'est s'appuyer sur ce que Dieu a dit, et le déclarer."
+            ],
+            "relance": "Quel verset vas-tu utiliser quand le doute viendra ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q16",
+          "texte": "Lis Philippiens 1:6. Qui a commencé l'œuvre en toi ? Qui va l'achever ?",
+          "refs": [
+            "Philippiens 1:6"
+          ],
+          "accompagnateur": {
+            "attendu": "Dieu l'a commencée et il la rendra parfaite."
+          }
+        },
+        {
+          "type": "encadre",
+          "style": "application",
+          "titre": "Mes promesses pour les jours de doute",
+          "texte": [
+            "Choisis trois versets de cette fiche et écris-les ici. Quand le doute viendra, lis-les à voix haute."
+          ],
+          "champ": "Mes trois versets",
+          "id": "versets-doute"
+        }
+      ]
+    },
+    {
+      "titre": "Retour sur le pas 1",
+      "intro": "Ton berger reprendra avec toi ce qui devait être réglé.",
+      "elements": [
+        {
+          "type": "encadre",
+          "style": "application",
+          "titre": "Ce que j'ai fait depuis la dernière rencontre",
+          "texte": [
+            "Objets détruits, personnes pardonnées, restitutions commencées, pratiques abandonnées : note ce qui est fait et ce qui reste difficile."
+          ],
+          "champ": "Où j'en suis",
+          "id": "retour-pas1"
+        },
+        {
+          "type": "question",
+          "id": "q17",
+          "texte": "Écris 1 Jean 5:11-12 de mémoire, puis Éphésiens 2:8-9 (verset du pas 1).",
+          "refs": [
+            "1 Jean 5:11-12"
+          ],
+          "accompagnateur": {
+            "attendu": "« Et voici ce témoignage, c'est que Dieu nous a donné la vie éternelle, et que cette vie est dans son Fils. Celui qui a le Fils a la vie ; celui qui n'a pas le Fils de Dieu n'a pas la vie. »",
+            "expliquer": [
+              "Faire réciter les deux versets."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "accompagnateur": {
+    "but": [
+      "Que la personne repose son assurance sur la Parole, l'œuvre de Christ et le témoignage de l'Esprit, et non sur ses émotions.",
+      "Qu'elle sache distinguer la conviction de l'Esprit et l'accusation du diable.",
+      "Faire le point sur ce qui devait être réglé au pas 1, et continuer à prier."
+    ],
+    "preparation": [
+      "Relire tes notes du pas 1 dans « Mes disciples ».",
+      "Lire 1 Jean en entier.",
+      "Prier pour la personne, en particulier pour les points du bilan de vie encore ouverts."
+    ],
+    "deroulement": [
       {
-       "id": "vf1",
-       "texte": "Personne ne peut savoir avec certitude s'il est sauvé avant sa mort.",
-       "reponse": false,
-       "explication": "1 Jean 5:13 : « Je vous ai écrit ces choses, afin que vous sachiez que vous avez la vie éternelle. »"
+        "titre": "Accueil et prière",
+        "minutes": 10,
+        "conseils": [
+          "Nouvelles de la semaine, prière."
+        ]
       },
       {
-       "id": "vf2",
-       "texte": "Si je ne ressens rien, c'est que je ne suis pas sauvé.",
-       "reponse": false,
-       "explication": "Les sentiments changent ; la Parole ne change pas. Le salut repose sur ce que Dieu a dit et fait."
+        "titre": "Retour sur le pas 1",
+        "minutes": 25,
+        "conseils": [
+          "Qu'a-t-elle détruit, réparé, pardonné ? Féliciter chaque pas.",
+          "Reprendre les points du bilan de vie non traités ; prier encore si nécessaire.",
+          "Demander comment se sont passées les nuits et la vie spirituelle depuis la prière."
+        ]
       },
       {
-       "id": "vf3",
-       "texte": "Quand je pèche, je perds mon salut et je dois me reconvertir.",
-       "reponse": false,
-       "explication": "1 Jean 2:1 : nous avons un avocat auprès du Père. On confesse, on est pardonné, on se relève (1 Jean 1:9)."
+        "titre": "Lecture de la semaine",
+        "minutes": 10,
+        "conseils": [
+          "Quelles promesses de Jésus a-t-elle notées dans Jean 8 à 14 ?"
+        ]
       },
       {
-       "id": "vf4",
-       "texte": "Celui qui continue à vivre volontairement dans le péché sans aucun regret doit s'examiner.",
-       "reponse": true,
-       "explication": "1 Jean 3:9-10 et 2 Corinthiens 13:5 : une vraie conversion produit un vrai changement de direction."
+        "titre": "Vrai ou faux",
+        "minutes": 10,
+        "conseils": [
+          "Reprendre chaque affirmation."
+        ]
       },
       {
-       "id": "vf5",
-       "texte": "Un mauvais rêve ou une attaque spirituelle prouve que Dieu m'a abandonné.",
-       "reponse": false,
-       "explication": "Jean 10:28-29 : personne ne peut arracher les brebis de la main du Père."
+        "titre": "Les trois fondations",
+        "minutes": 30,
+        "conseils": [
+          "Questions 1 à 9. Insister sur 1 Jean 5:13 (« savoir ») et Jean 10:28-29 (la main du Père)."
+        ]
+      },
+      {
+        "titre": "Les signes et le doute",
+        "minutes": 25,
+        "conseils": [
+          "Questions 10 à 16. Lire sa liste de changements (q13) et s'en réjouir.",
+          "Aider la personne à choisir ses versets contre le doute."
+        ]
+      },
+      {
+        "titre": "Versets, prière et remise du pas 3",
+        "minutes": 15,
+        "conseils": [
+          "Réciter 1 Jean 5:11-12 et Éphésiens 2:8-9.",
+          "Prier pour l'affermissement et la paix.",
+          "Remettre le pas 3 « La tentation et la victoire », fixer la prochaine rencontre."
+        ]
       }
-     ]
-    }
-   ]
-  },
-  {
-   "titre": "I. La première fondation : la Parole de Dieu",
-   "intro": null,
-   "elements": [
-    {
-     "type": "question",
-     "id": "q1",
-     "texte": "Lis 1 Jean 5:11-13. Qu'est-ce que Dieu nous a donné ? Où est cette vie ? Pourquoi Jean a-t-il écrit ces choses ?",
-     "refs": [
-      "1 Jean 5:11-13"
-     ],
-     "accompagnateur": {
-      "attendu": "Dieu nous a donné la vie éternelle ; cette vie est dans son Fils. Celui qui a le Fils a la vie. Jean a écrit pour que nous SACHIONS que nous avons la vie éternelle.",
-      "expliquer": [
-       "Le verbe est « savoir », pas « espérer » ni « deviner ».",
-       "Raisonnement simple : As-tu le Fils ? Alors tu as la vie."
-      ],
-      "erreurs": [
-       "Confondre humilité et doute : douter de la promesse de Dieu n'est pas de l'humilité."
-      ],
-      "relance": "Si quelqu'un te demande « Es-tu sûr d'aller au ciel ? », que répondras-tu, et sur quel verset ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q2",
-     "texte": "D'après Jean 5:24, quels sont les trois résultats pour celui qui écoute et croit ?",
-     "refs": [
-      "Jean 5:24"
-     ],
-     "accompagnateur": {
-      "attendu": "Il a la vie éternelle, il ne vient pas en jugement, il est passé de la mort à la vie.",
-      "expliquer": [
-       "Ce sont trois réalités déjà acquises, pas des promesses lointaines."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q3",
-     "texte": "Lis Jean 10:27-29. Que fait le berger pour ses brebis ? Qui peut les arracher de sa main ?",
-     "refs": [
-      "Jean 10:27-29"
-     ],
-     "accompagnateur": {
-      "attendu": "Il les connaît, leur donne la vie éternelle ; elles ne périront jamais ; personne ne peut les arracher de sa main ni de celle du Père.",
-      "expliquer": [
-       "Double main : celle du Fils et celle du Père. Ni la sorcellerie, ni un pacte ancien, ni un ennemi ne peut arracher une brebis de cette main.",
-       "Cela ne veut pas dire qu'on peut vivre n'importe comment : les brebis écoutent la voix du berger et le suivent (v. 27)."
-      ],
-      "relance": "Qu'est-ce qui te faisait le plus peur avant de lire ce passage ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q4",
-     "texte": "D'après Hébreux 13:5, que nous promet Dieu ?",
-     "refs": [
-      "Hébreux 13:5"
-     ],
-     "accompagnateur": {
-      "attendu": "« Je ne te délaisserai point, et je ne t'abandonnerai point. »",
-      "expliquer": [
-       "Promesse personnelle (« te »), sans condition de temps."
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "titre": "II. La deuxième fondation : l'œuvre de Jésus",
-   "intro": null,
-   "elements": [
-    {
-     "type": "question",
-     "id": "q5",
-     "texte": "Lis Hébreux 10:10-14. Combien de fois Jésus a-t-il offert son sacrifice ? Pour combien de temps a-t-il rendu parfaits ceux qui sont sanctifiés ?",
-     "refs": [
-      "Hébreux 10:10-14"
-     ],
-     "accompagnateur": {
-      "attendu": "Une seule fois pour toutes ; par une seule offrande, il a amené à la perfection pour toujours ceux qui sont sanctifiés.",
-      "expliquer": [
-       "Les prêtres de l'Ancien Testament restaient debout, car leur travail ne finissait jamais ; Jésus s'est assis : l'œuvre est achevée (v. 12).",
-       "Ton salut ne dépend pas de ta performance du jour, mais d'une œuvre terminée."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q6",
-     "texte": "D'après Jean 19:30, quelle est la dernière parole de Jésus sur la croix ? Qu'est-ce que cela veut dire pour toi ?",
-     "refs": [
-      "Jean 19:30"
-     ],
-     "accompagnateur": {
-      "attendu": "« Tout est accompli. » La dette est payée en entier, il n'y a rien à ajouter.",
-      "expliquer": [
-       "Le mot grec était utilisé sur les reçus : « payé en totalité »."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q7",
-     "texte": "Lis Romains 8:1 et 8:33-34. Qui peut condamner celui qui est en Christ ? Pourquoi ?",
-     "refs": [
-      "Romains 8:1",
-      "Romains 8:33-34"
-     ],
-     "accompagnateur": {
-      "attendu": "Personne : il n'y a aucune condamnation pour ceux qui sont en Jésus-Christ. Dieu justifie, Christ est mort, ressuscité, et il intercède pour nous.",
-      "expliquer": [
-       "Distinguer la conviction du Saint-Esprit (précise, elle conduit à la repentance et à la paix) et l'accusation du diable (vague, elle écrase et éloigne de Dieu)."
-      ],
-      "relance": "Quelles accusations reviennent souvent dans ta tête ? D'où viennent-elles ?"
-     }
-    }
-   ]
-  },
-  {
-   "titre": "III. La troisième fondation : le témoignage de l'Esprit",
-   "intro": null,
-   "elements": [
-    {
-     "type": "question",
-     "id": "q8",
-     "texte": "D'après Romains 8:15-16, que fait l'Esprit dans le cœur du croyant ?",
-     "refs": [
-      "Romains 8:15-16"
-     ],
-     "accompagnateur": {
-      "attendu": "Il nous fait crier « Abba, Père » et rend témoignage à notre esprit que nous sommes enfants de Dieu. Ce n'est pas un esprit de servitude pour retomber dans la crainte.",
-      "expliquer": [
-       "« Abba » est le mot affectueux d'un enfant pour son papa.",
-       "Un esprit de crainte (peur permanente de Dieu, des esprits, de la mort) n'est pas l'Esprit de Dieu."
-      ],
-      "relance": "Arrives-tu à appeler Dieu « Père » ? Si c'est difficile, est-ce lié à ton propre père ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q9",
-     "texte": "Lis Éphésiens 1:13-14. De quoi le croyant est-il marqué ? Qu'est-ce que cela garantit ?",
-     "refs": [
-      "Éphésiens 1:13-14"
-     ],
-     "accompagnateur": {
-      "attendu": "Il est scellé du Saint-Esprit promis, qui est le gage (l'acompte) de notre héritage.",
-      "expliquer": [
-       "Un sceau marque la propriété : tu appartiens à Dieu. Celui qui a été marqué par un esprit, une dédicace ou un pacte dans son passé doit savoir que la marque de Dieu est supérieure, et renoncer aux anciennes marques."
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "titre": "IV. Les signes d'une vie nouvelle",
-   "intro": "La Bible donne aussi des signes pour nous examiner (2 Corinthiens 13:5). Ils ne sont pas la cause du salut, mais son fruit.",
-   "elements": [
-    {
-     "type": "question",
-     "id": "q10",
-     "texte": "Lis 1 Jean 2:3-6. Quel est le signe que nous connaissons Dieu ?",
-     "refs": [
-      "1 Jean 2:3-6"
-     ],
-     "accompagnateur": {
-      "attendu": "Si nous gardons ses commandements, si nous marchons comme Jésus a marché.",
-      "expliquer": [
-       "Il ne s'agit pas de perfection, mais de direction : désirer obéir et revenir quand on tombe."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q11",
-     "texte": "D'après 1 Jean 3:14, quel autre signe montre que nous sommes passés de la mort à la vie ?",
-     "refs": [
-      "1 Jean 3:14"
-     ],
-     "accompagnateur": {
-      "attendu": "L'amour des frères.",
-      "relance": "Depuis ta conversion, ton regard sur les autres chrétiens a-t-il changé ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q12",
-     "texte": "Lis 1 Jean 3:9-10 et 1 Jean 2:1. Le croyant peut-il encore pécher ? Quelle est la différence avec avant ?",
-     "refs": [
-      "1 Jean 3:9-10",
-      "1 Jean 2:1"
-     ],
-     "accompagnateur": {
-      "attendu": "Il peut tomber (1 Jean 2:1), mais il ne vit plus dans le péché comme pratique habituelle et voulue ; et quand il pèche, il a un avocat auprès du Père.",
-      "expliquer": [
-       "Le cochon et la brebis : les deux peuvent tomber dans la boue ; le cochon s'y plaît, la brebis veut en sortir."
-      ],
-      "erreurs": [
-       "Tirer de 1 Jean 3:9 que le vrai croyant ne pèche jamais : c'est le désespoir assuré."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q13",
-     "texte": "Fais ta liste : quels changements as-tu observés dans ta vie depuis que tu as reçu Jésus ?",
-     "refs": [],
-     "accompagnateur": {
-      "attendu": "Réponse libre : nouveaux désirs, paix, faim de la Parole, malaise devant le péché, amour pour les frères…",
-      "expliquer": [
-       "Encourager chaque changement, même petit.",
-       "S'il n'y en a aucun, ne pas condamner : reprendre l'Évangile et la décision, avec douceur."
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "titre": "V. Quand le doute vient",
-   "intro": null,
-   "elements": [
-    {
-     "type": "question",
-     "id": "q14",
-     "texte": "Lis 1 Jean 1:9. Que faire quand j'ai péché ? Que fait Dieu ?",
-     "refs": [
-      "1 Jean 1:9"
-     ],
-     "accompagnateur": {
-      "attendu": "Confesser son péché ; Dieu est fidèle et juste pour pardonner et purifier de toute iniquité.",
-      "expliquer": [
-       "Se convertir une fois ; se confesser souvent. On ne se « reconvertit » pas à chaque chute."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q15",
-     "texte": "D'après Éphésiens 6:16, quelle arme éteint les « traits enflammés » du malin ? Quels traits enflammés reçois-tu ?",
-     "refs": [
-      "Éphésiens 6:16"
-     ],
-     "accompagnateur": {
-      "attendu": "Le bouclier de la foi.",
-      "expliquer": [
-       "Les traits enflammés : pensées d'accusation, de peur, de doute, rêves troublants, paroles de mort.",
-       "La foi n'est pas un sentiment : c'est s'appuyer sur ce que Dieu a dit, et le déclarer."
-      ],
-      "relance": "Quel verset vas-tu utiliser quand le doute viendra ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q16",
-     "texte": "Lis Philippiens 1:6. Qui a commencé l'œuvre en toi ? Qui va l'achever ?",
-     "refs": [
-      "Philippiens 1:6"
-     ],
-     "accompagnateur": {
-      "attendu": "Dieu l'a commencée et il la rendra parfaite."
-     }
-    },
-    {
-     "type": "encadre",
-     "style": "application",
-     "titre": "Mes promesses pour les jours de doute",
-     "texte": [
-      "Choisis trois versets de cette fiche et écris-les ici. Quand le doute viendra, lis-les à voix haute."
-     ],
-     "champ": "Mes trois versets",
-     "id": "versets-doute"
-    }
-   ]
-  },
-  {
-   "titre": "Retour sur le pas 1",
-   "intro": "Ton accompagnateur reprendra avec toi ce qui devait être réglé.",
-   "elements": [
-    {
-     "type": "encadre",
-     "style": "application",
-     "titre": "Ce que j'ai fait depuis la dernière rencontre",
-     "texte": [
-      "Objets détruits, personnes pardonnées, restitutions commencées, pratiques abandonnées : note ce qui est fait et ce qui reste difficile."
-     ],
-     "champ": "Où j'en suis",
-     "id": "retour-pas1"
-    },
-    {
-     "type": "question",
-     "id": "q17",
-     "texte": "Écris 1 Jean 5:11-12 de mémoire, puis Éphésiens 2:8-9 (verset du pas 1).",
-     "refs": [
-      "1 Jean 5:11-12"
-     ],
-     "accompagnateur": {
-      "attendu": "« Et voici ce témoignage, c'est que Dieu nous a donné la vie éternelle, et que cette vie est dans son Fils. Celui qui a le Fils a la vie ; celui qui n'a pas le Fils de Dieu n'a pas la vie. »",
-      "expliquer": [
-       "Faire réciter les deux versets."
-      ]
-     }
-    }
-   ]
+    ],
+    "vigilance": [
+      "Si la personne n'a aucune assurance et aucun changement, reprendre simplement l'Évangile : elle n'a peut-être jamais vraiment donné sa vie à Jésus.",
+      "Ne pas confondre assurance et licence : la grâce n'est pas une permission de pécher (Romains 6:1-2).",
+      "Être attentif aux peurs nocturnes et aux accusations : elles sont souvent liées à des points du bilan de vie."
+    ]
   }
- ],
- "accompagnateur": {
-  "but": [
-   "Que la personne repose son assurance sur la Parole, l'œuvre de Christ et le témoignage de l'Esprit, et non sur ses émotions.",
-   "Qu'elle sache distinguer la conviction de l'Esprit et l'accusation du diable.",
-   "Faire le point sur ce qui devait être réglé au pas 1, et continuer à prier."
-  ],
-  "preparation": [
-   "Relire tes notes du pas 1 dans « Mes disciples ».",
-   "Lire 1 Jean en entier.",
-   "Prier pour la personne, en particulier pour les points du bilan de vie encore ouverts."
-  ],
-  "deroulement": [
-   {
-    "titre": "Accueil et prière",
-    "minutes": 10,
-    "conseils": [
-     "Nouvelles de la semaine, prière."
-    ]
-   },
-   {
-    "titre": "Retour sur le pas 1",
-    "minutes": 25,
-    "conseils": [
-     "Qu'a-t-elle détruit, réparé, pardonné ? Féliciter chaque pas.",
-     "Reprendre les points du bilan de vie non traités ; prier encore si nécessaire.",
-     "Demander comment se sont passées les nuits et la vie spirituelle depuis la prière."
-    ]
-   },
-   {
-    "titre": "Lecture de la semaine",
-    "minutes": 10,
-    "conseils": [
-     "Quelles promesses de Jésus a-t-elle notées dans Jean 8 à 14 ?"
-    ]
-   },
-   {
-    "titre": "Vrai ou faux",
-    "minutes": 10,
-    "conseils": [
-     "Reprendre chaque affirmation."
-    ]
-   },
-   {
-    "titre": "Les trois fondations",
-    "minutes": 30,
-    "conseils": [
-     "Questions 1 à 9. Insister sur 1 Jean 5:13 (« savoir ») et Jean 10:28-29 (la main du Père)."
-    ]
-   },
-   {
-    "titre": "Les signes et le doute",
-    "minutes": 25,
-    "conseils": [
-     "Questions 10 à 16. Lire sa liste de changements (q13) et s'en réjouir.",
-     "Aider la personne à choisir ses versets contre le doute."
-    ]
-   },
-   {
-    "titre": "Versets, prière et remise du pas 3",
-    "minutes": 15,
-    "conseils": [
-     "Réciter 1 Jean 5:11-12 et Éphésiens 2:8-9.",
-     "Prier pour l'affermissement et la paix.",
-     "Remettre le pas 3 « La tentation et la victoire », fixer la prochaine rencontre."
-    ]
-   }
-  ],
-  "vigilance": [
-   "Si la personne n'a aucune assurance et aucun changement, reprendre simplement l'Évangile : elle n'a peut-être jamais vraiment donné sa vie à Jésus.",
-   "Ne pas confondre assurance et licence : la grâce n'est pas une permission de pécher (Romains 6:1-2).",
-   "Être attentif aux peurs nocturnes et aux accusations : elles sont souvent liées à des points du bilan de vie."
-  ]
- }
 }

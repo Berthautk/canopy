@@ -18,7 +18,7 @@ import { partagerImageVerset } from '../outils/partage.js';
 // Six grandes portes, avec des mots simples : on sait où aller sans connaître l'application.
 const TUILES = [
   ['#/priere', 'prier-femme-bible-matin', 'Prier', () => { const v = veilleDuMoment(); return v ? `${v.titre} · ${v.heures}` : 'Veilles, prières et combat spirituel'; }, '#6a4fc4'],
-  ['#/priere/demander', 'fardeau-consolation', 'Un fardeau ?', 'Nous prions pour toi', '#c4553b'],
+  ['#/accompagner', 'grandir-accompagnement', 'Nouveaux convertis', 'Je suis un nouveau converti, ou un berger', '#c4553b'],
   ['#/grandir', 'grandir-groupe-manguier', 'Grandir', 'Enseignements, parcours, accompagnement', '#3fa66b'],
   ['#/bible', 'bible-ouverte-table', 'La Bible', 'Lire, chercher, méditer', '#3b6fc4'],
   ['#/evangeliser', 'partager-conversation-boutique', 'Partager ma foi', 'Parler de Jésus avec amour', '#d69a1c'],

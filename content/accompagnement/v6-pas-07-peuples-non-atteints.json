@@ -1,231 +1,231 @@
 {
- "id": "v6-pas-07-peuples-non-atteints",
- "volume": 6,
- "numero": 7,
- "titre": "Le défi des peuples non atteints",
- "sous_titre": "Qui n'a pas encore entendu ?",
- "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
- "enseignement": "missions-07-peuples-non-atteints",
- "verset_memoire": "Psaume 96:3",
- "lecture": {
-  "titre": "Cette semaine, lis ces textes, un par jour",
-  "conseil": "Note chaque jour ce que Dieu dit de sa mission.",
-  "jours": [
-   "Psaume 96",
-   "Psaume 67",
-   "Ésaïe 49:1-6",
-   "Romains 15:14-24",
-   "Apocalypse 5:1-14",
-   "Matthieu 24:9-14",
-   "Luc 24:44-49"
-  ]
- },
- "introduction": [
-  "Dans le monde, des milliers de peuples n'ont pas encore de témoignage chrétien suffisant, souvent dans des régions de grande pauvreté, musulmanes, hindoues ou bouddhistes.",
-  "Cette semaine, tu vas découvrir ces peuples et ce que tu peux faire."
- ],
- "parties": [
-  {
-   "titre": "Pour commencer : vrai ou faux ?",
-   "intro": null,
-   "elements": [
-    {
-     "type": "vf",
-     "items": [
-      {
-       "id": "vf1",
-       "texte": "Il n'y a plus de peuples qui n'ont jamais entendu l'Évangile.",
-       "reponse": false,
-       "explication": "Des milliers de peuples n'ont pas encore de témoignage suffisant."
-      },
-      {
-       "id": "vf2",
-       "texte": "Dieu veut que toutes les nations le louent.",
-       "reponse": true,
-       "explication": "Psaume 67:4-6."
-      },
-      {
-       "id": "vf3",
-       "texte": "Mon pays n'a pas besoin de missionnaires : il est déjà évangélisé.",
-       "reponse": false,
-       "explication": "Même dans nos pays, il y a des régions et des peuples peu atteints."
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "titre": "I. Le cœur de Dieu pour les nations",
-   "intro": null,
-   "elements": [
-    {
-     "type": "question",
-     "id": "q1",
-     "texte": "Lis Psaume 67 et Psaume 96:1-10. Que veut Dieu pour toutes les nations ?",
-     "refs": [
+  "id": "v6-pas-07-peuples-non-atteints",
+  "volume": 6,
+  "numero": 7,
+  "titre": "Le défi des peuples non atteints",
+  "sous_titre": "Qui n'a pas encore entendu ?",
+  "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+  "enseignement": "missions-07-peuples-non-atteints",
+  "verset_memoire": "Psaume 96:3",
+  "lecture": {
+    "titre": "Cette semaine, lis ces textes, un par jour",
+    "conseil": "Note chaque jour ce que Dieu dit de sa mission.",
+    "jours": [
+      "Psaume 96",
       "Psaume 67",
-      "Psaume 96:1-10"
-     ],
-     "accompagnateur": {
-      "attendu": "Que toutes les nations le connaissent, le louent et se réjouissent. Que sa gloire soit racontée parmi tous les peuples.",
-      "expliquer": [
-       "La mission est une adoration : que Dieu reçoive la louange de tous."
-      ],
-      "relance": "Quels peuples sont proches de toi sans connaître Jésus ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q2",
-     "texte": "Lis Apocalypse 5:9-10 et Matthieu 24:14. Que montre l'avenir ?",
-     "refs": [
-      "Apocalypse 5:9-10",
-      "Matthieu 24:14"
-     ],
-     "accompagnateur": {
-      "attendu": "Des gens de toute tribu, langue, peuple et nation rachetés par le sang de l'Agneau. L'Évangile sera prêché dans le monde entier, puis viendra la fin.",
-      "expliquer": [
-       "Nous pouvons hâter ce jour par la mission (2 Pierre 3:12)."
-      ]
-     }
-    }
-   ]
+      "Ésaïe 49:1-6",
+      "Romains 15:14-24",
+      "Apocalypse 5:1-14",
+      "Matthieu 24:9-14",
+      "Luc 24:44-49"
+    ]
   },
-  {
-   "titre": "II. Ceux qui sont encore loin",
-   "intro": null,
-   "elements": [
+  "introduction": [
+    "Dans le monde, des milliers de peuples n'ont pas encore de témoignage chrétien suffisant, souvent dans des régions de grande pauvreté, musulmanes, hindoues ou bouddhistes.",
+    "Cette semaine, tu vas découvrir ces peuples et ce que tu peux faire."
+  ],
+  "parties": [
     {
-     "type": "question",
-     "id": "q3",
-     "texte": "Recherche, avec ton accompagnateur, un peuple non atteint (par exemple dans la fenêtre 10/40, entre l'Afrique du Nord et l'Asie). Quel est son nom ? Que sais-tu de lui ?",
-     "refs": [
-      "Romains 15:20-21"
-     ],
-     "accompagnateur": {
-      "attendu": "Le nom d'un peuple, sa religion, sa région, ses besoins. Une recherche simple.",
-      "expliquer": [
-       "La « fenêtre 10/40 » désigne une zone où vivent la majorité des musulmans, hindous et bouddhistes, avec beaucoup de pauvreté."
+      "titre": "Pour commencer : vrai ou faux ?",
+      "intro": null,
+      "elements": [
+        {
+          "type": "vf",
+          "items": [
+            {
+              "id": "vf1",
+              "texte": "Il n'y a plus de peuples qui n'ont jamais entendu l'Évangile.",
+              "reponse": false,
+              "explication": "Des milliers de peuples n'ont pas encore de témoignage suffisant."
+            },
+            {
+              "id": "vf2",
+              "texte": "Dieu veut que toutes les nations le louent.",
+              "reponse": true,
+              "explication": "Psaume 67:4-6."
+            },
+            {
+              "id": "vf3",
+              "texte": "Mon pays n'a pas besoin de missionnaires : il est déjà évangélisé.",
+              "reponse": false,
+              "explication": "Même dans nos pays, il y a des régions et des peuples peu atteints."
+            }
+          ]
+        }
       ]
-     }
     },
     {
-     "type": "question",
-     "id": "q4",
-     "texte": "Lis Romains 15:20-21 et 2 Timothée 2:2. Comment atteindre ces peuples ?",
-     "refs": [
-      "Romains 15:20-21",
-      "2 Timothée 2:2"
-     ],
-     "accompagnateur": {
-      "attendu": "En allant vers ceux qui n'ont pas entendu, et en formant des croyants fidèles qui enseigneront à d'autres.",
-      "expliquer": [
-       "On ne vient pas seulement évangéliser : on forme des disciples qui forment d'autres."
+      "titre": "I. Le cœur de Dieu pour les nations",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q1",
+          "texte": "Lis Psaume 67 et Psaume 96:1-10. Que veut Dieu pour toutes les nations ?",
+          "refs": [
+            "Psaume 67",
+            "Psaume 96:1-10"
+          ],
+          "accompagnateur": {
+            "attendu": "Que toutes les nations le connaissent, le louent et se réjouissent. Que sa gloire soit racontée parmi tous les peuples.",
+            "expliquer": [
+              "La mission est une adoration : que Dieu reçoive la louange de tous."
+            ],
+            "relance": "Quels peuples sont proches de toi sans connaître Jésus ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q2",
+          "texte": "Lis Apocalypse 5:9-10 et Matthieu 24:14. Que montre l'avenir ?",
+          "refs": [
+            "Apocalypse 5:9-10",
+            "Matthieu 24:14"
+          ],
+          "accompagnateur": {
+            "attendu": "Des gens de toute tribu, langue, peuple et nation rachetés par le sang de l'Agneau. L'Évangile sera prêché dans le monde entier, puis viendra la fin.",
+            "expliquer": [
+              "Nous pouvons hâter ce jour par la mission (2 Pierre 3:12)."
+            ]
+          }
+        }
       ]
-     }
     },
     {
-     "type": "question",
-     "id": "q5",
-     "texte": "Lis Matthieu 9:36-38. Que peux-tu faire concrètement : prier, donner, parler, aller ?",
-     "refs": [
-      "Matthieu 9:36-38"
-     ],
-     "accompagnateur": {
-      "attendu": "Choisir un peuple et prier chaque jour, soutenir un missionnaire, en parler à l'église.",
-      "expliquer": [
-       "Faire un petit engagement."
-      ],
-      "relance": "Quel peuple vas-tu porter dans ta prière ?"
-     }
+      "titre": "II. Ceux qui sont encore loin",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q3",
+          "texte": "Recherche, avec ton berger, un peuple non atteint (par exemple dans la fenêtre 10/40, entre l'Afrique du Nord et l'Asie). Quel est son nom ? Que sais-tu de lui ?",
+          "refs": [
+            "Romains 15:20-21"
+          ],
+          "accompagnateur": {
+            "attendu": "Le nom d'un peuple, sa religion, sa région, ses besoins. Une recherche simple.",
+            "expliquer": [
+              "La « fenêtre 10/40 » désigne une zone où vivent la majorité des musulmans, hindous et bouddhistes, avec beaucoup de pauvreté."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q4",
+          "texte": "Lis Romains 15:20-21 et 2 Timothée 2:2. Comment atteindre ces peuples ?",
+          "refs": [
+            "Romains 15:20-21",
+            "2 Timothée 2:2"
+          ],
+          "accompagnateur": {
+            "attendu": "En allant vers ceux qui n'ont pas entendu, et en formant des croyants fidèles qui enseigneront à d'autres.",
+            "expliquer": [
+              "On ne vient pas seulement évangéliser : on forme des disciples qui forment d'autres."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q5",
+          "texte": "Lis Matthieu 9:36-38. Que peux-tu faire concrètement : prier, donner, parler, aller ?",
+          "refs": [
+            "Matthieu 9:36-38"
+          ],
+          "accompagnateur": {
+            "attendu": "Choisir un peuple et prier chaque jour, soutenir un missionnaire, en parler à l'église.",
+            "expliquer": [
+              "Faire un petit engagement."
+            ],
+            "relance": "Quel peuple vas-tu porter dans ta prière ?"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "Mon plan",
+      "intro": null,
+      "elements": [
+        {
+          "type": "encadre",
+          "style": "application",
+          "titre": "Mon plan",
+          "texte": [
+            "1. Le peuple pour lequel je vais prier :",
+            "2. Ce que je veux apprendre de lui :",
+            "3. Un don ou un soutien :",
+            "4. Une personne à qui j'en parle :"
+          ],
+          "champ": "Mon plan",
+          "id": "plan-v6-pas-07-peuples-non-atteints"
+        },
+        {
+          "type": "question",
+          "id": "q6",
+          "texte": "Écris Psaume 96:3 de mémoire.",
+          "refs": [
+            "Psaume 96:3"
+          ],
+          "accompagnateur": {
+            "attendu": "« Racontez parmi les nations sa gloire, parmi tous les peuples ses merveilles. »",
+            "expliquer": [
+              "Réviser aussi le verset du pas précédent."
+            ]
+          }
+        }
+      ]
     }
-   ]
-  },
-  {
-   "titre": "Mon plan",
-   "intro": null,
-   "elements": [
-    {
-     "type": "encadre",
-     "style": "application",
-     "titre": "Mon plan",
-     "texte": [
-      "1. Le peuple pour lequel je vais prier :",
-      "2. Ce que je veux apprendre de lui :",
-      "3. Un don ou un soutien :",
-      "4. Une personne à qui j'en parle :"
-     ],
-     "champ": "Mon plan",
-     "id": "plan-v6-pas-07-peuples-non-atteints"
-    },
-    {
-     "type": "question",
-     "id": "q6",
-     "texte": "Écris Psaume 96:3 de mémoire.",
-     "refs": [
-      "Psaume 96:3"
-     ],
-     "accompagnateur": {
-      "attendu": "« Racontez parmi les nations sa gloire, parmi tous les peuples ses merveilles. »",
-      "expliquer": [
-       "Réviser aussi le verset du pas précédent."
-      ]
-     }
-    }
-   ]
+  ],
+  "accompagnateur": {
+    "but": [
+      "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
+      "Qu'elle reparte avec un verset, une décision et un plan précis."
+    ],
+    "preparation": [
+      "Relire tes notes du pas précédent.",
+      "Lire les passages du pas et faire toi-même l'exercice du plan.",
+      "Prier pour la personne et pour ce qu'elle va découvrir."
+    ],
+    "deroulement": [
+      {
+        "titre": "Accueil, prière, retour sur la semaine",
+        "minutes": 15,
+        "conseils": [
+          "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
+        ]
+      },
+      {
+        "titre": "Vrai ou faux",
+        "minutes": 10,
+        "conseils": [
+          "Reprendre chaque affirmation."
+        ]
+      },
+      {
+        "titre": "I. Le cœur de Dieu pour les nations",
+        "minutes": 17,
+        "conseils": [
+          "Questions 1 à 2."
+        ]
+      },
+      {
+        "titre": "II. Ceux qui sont encore loin",
+        "minutes": 23,
+        "conseils": [
+          "Questions 3 à 5."
+        ]
+      },
+      {
+        "titre": "Mon plan, verset et remise du pas suivant",
+        "minutes": 15,
+        "conseils": [
+          "Relire le plan, prier ensemble. Réciter Psaume 96:3. Remettre le pas suivant."
+        ]
+      }
+    ],
+    "vigilance": [
+      "Ne pas décourager ceux qui ne se sentent pas appelés à partir : toute la vie chrétienne est une mission.",
+      "Si la personne est tentée de s'engager trop vite, l'aider à chercher conseil auprès de l'Église et de responsables.",
+      "Prier ensemble pour des missionnaires précis, par leur nom."
+    ]
   }
- ],
- "accompagnateur": {
-  "but": [
-   "Que la personne comprenne ce mensonge, y reconnaisse ce qui l'a touchée, et s'appuie sur la vérité de la Parole.",
-   "Qu'elle reparte avec un verset, une décision et un plan précis."
-  ],
-  "preparation": [
-   "Relire tes notes du pas précédent.",
-   "Lire les passages du pas et faire toi-même l'exercice du plan.",
-   "Prier pour la personne et pour ce qu'elle va découvrir."
-  ],
-  "deroulement": [
-   {
-    "titre": "Accueil, prière, retour sur la semaine",
-    "minutes": 15,
-    "conseils": [
-     "Lecture de la semaine : qu'a-t-elle retenu ? Points encore ouverts du pas précédent."
-    ]
-   },
-   {
-    "titre": "Vrai ou faux",
-    "minutes": 10,
-    "conseils": [
-     "Reprendre chaque affirmation."
-    ]
-   },
-   {
-    "titre": "I. Le cœur de Dieu pour les nations",
-    "minutes": 17,
-    "conseils": [
-     "Questions 1 à 2."
-    ]
-   },
-   {
-    "titre": "II. Ceux qui sont encore loin",
-    "minutes": 23,
-    "conseils": [
-     "Questions 3 à 5."
-    ]
-   },
-   {
-    "titre": "Mon plan, verset et remise du pas suivant",
-    "minutes": 15,
-    "conseils": [
-     "Relire le plan, prier ensemble. Réciter Psaume 96:3. Remettre le pas suivant."
-    ]
-   }
-  ],
-  "vigilance": [
-   "Ne pas décourager ceux qui ne se sentent pas appelés à partir : toute la vie chrétienne est une mission.",
-   "Si la personne est tentée de s'engager trop vite, l'aider à chercher conseil auprès de l'Église et de responsables.",
-   "Prier ensemble pour des missionnaires précis, par leur nom."
-  ]
- }
 }

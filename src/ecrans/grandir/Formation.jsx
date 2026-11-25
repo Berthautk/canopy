@@ -11,7 +11,7 @@ export function Formation() {
       <div class="chemin-hero"><h2>{FORMATION.titre}</h2><p>{FORMATION.resume}</p></div>
       <a class="carte ligne" href="#/accompagner" style="margin:0 0 10px;border:2px solid var(--or)">
         <span class="ligne__icone"><Icone nom="groupe" /></span>
-        <span class="ligne__corps"><span class="ligne__titre" style="display:block">À faire avec un accompagnateur ?</span>
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">À faire avec un berger ?</span>
           <span class="ligne__desc">Le « Suivi des nouveaux convertis » reprend ces leçons pas à pas : carnet, questions, rencontre chaque semaine.</span></span>
         <Icone nom="chevron" taille={20} />
       </a>

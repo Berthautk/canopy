@@ -1,282 +1,282 @@
 {
- "id": "v2-pas-11-permis-mais-utile",
- "volume": 2,
- "numero": 11,
- "titre": "Permis, mais est-ce utile ?",
- "sous_titre": "Ma liberté en Christ, ma conscience, et l'amour pour mon frère",
- "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
- "enseignement": "enseignement-peches-subtils",
- "verset_memoire": "1 Corinthiens 10:23",
- "lecture": {
-  "titre": "Cette semaine, lis ces textes, un par jour",
-  "conseil": "Note chaque jour un passage qui parle de liberté ou de conscience.",
-  "jours": [
-   "Galates 5",
-   "Romains 14",
-   "1 Corinthiens 8",
-   "1 Corinthiens 10:14-33",
-   "Actes 15:1-29",
-   "Colossiens 2:8-23",
-   "1 Pierre 2:11-17"
-  ]
- },
- "introduction": [
-  "Il y a des choses claires dans la Bible, mais aussi beaucoup de choix à faire où il n'y a pas d'interdit direct. Comment décider ?",
-  "Cette semaine, tu vas apprendre à poser les bonnes questions pour choisir avec sagesse."
- ],
- "parties": [
-  {
-   "titre": "Pour commencer : vrai ou faux ?",
-   "intro": null,
-   "elements": [
+  "id": "v2-pas-11-permis-mais-utile",
+  "volume": 2,
+  "numero": 11,
+  "titre": "Permis, mais est-ce utile ?",
+  "sous_titre": "Ma liberté en Christ, ma conscience, et l'amour pour mon frère",
+  "duree": "Une semaine de travail personnel, puis une rencontre d'environ 2 heures",
+  "enseignement": "enseignement-peches-subtils",
+  "verset_memoire": "1 Corinthiens 10:23",
+  "lecture": {
+    "titre": "Cette semaine, lis ces textes, un par jour",
+    "conseil": "Note chaque jour un passage qui parle de liberté ou de conscience.",
+    "jours": [
+      "Galates 5",
+      "Romains 14",
+      "1 Corinthiens 8",
+      "1 Corinthiens 10:14-33",
+      "Actes 15:1-29",
+      "Colossiens 2:8-23",
+      "1 Pierre 2:11-17"
+    ]
+  },
+  "introduction": [
+    "Il y a des choses claires dans la Bible, mais aussi beaucoup de choix à faire où il n'y a pas d'interdit direct. Comment décider ?",
+    "Cette semaine, tu vas apprendre à poser les bonnes questions pour choisir avec sagesse."
+  ],
+  "parties": [
     {
-     "type": "vf",
-     "items": [
+      "titre": "Pour commencer : vrai ou faux ?",
+      "intro": null,
+      "elements": [
+        {
+          "type": "vf",
+          "items": [
+            {
+              "id": "vf1",
+              "texte": "Tout ce qui n'est pas explicitement interdit dans la Bible est bon pour moi.",
+              "reponse": false,
+              "explication": "1 Corinthiens 10:23 : « Tout est permis, mais tout n'est pas utile. »"
+            },
+            {
+              "id": "vf2",
+              "texte": "Ma liberté en Christ est sans limites.",
+              "reponse": false,
+              "explication": "Galates 5:13 : ne pas faire de la liberté un prétexte pour la chair, mais se servir par amour."
+            },
+            {
+              "id": "vf3",
+              "texte": "Ma conscience doit toujours être éduquée par la Parole.",
+              "reponse": true,
+              "explication": "Hébreux 5:14 ; Romains 12:2."
+            },
+            {
+              "id": "vf4",
+              "texte": "Je dois tenir compte de mon frère plus faible dans la foi.",
+              "reponse": true,
+              "explication": "Romains 14:13-21 ; 1 Corinthiens 8:9-13."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "I. Quelle est ma liberté ?",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q1",
+          "texte": "Lis Galates 5:1, 13 et 1 Corinthiens 6:12. Que dit Paul de la liberté ?",
+          "refs": [
+            "Galates 5:1",
+            "Galates 5:13",
+            "1 Corinthiens 6:12"
+          ],
+          "accompagnateur": {
+            "attendu": "Christ nous a affranchis ; ne pas retomber sous un joug. Mais ne pas faire de la liberté un prétexte pour la chair. « Tout m'est permis, mais je ne me laisserai pas dominer. »",
+            "expliquer": [
+              "La liberté, c'est de ne plus être esclave, y compris des habitudes."
+            ],
+            "relance": "Qu'est-ce qui te domine encore, même si « ce n'est pas un grand péché » ?"
+          }
+        },
+        {
+          "type": "question",
+          "id": "q2",
+          "texte": "Lis 1 Corinthiens 10:23-24, 31. Quelles questions poser avant de faire une chose permise ?",
+          "refs": [
+            "1 Corinthiens 10:23-24",
+            "1 Corinthiens 10:31"
+          ],
+          "accompagnateur": {
+            "attendu": "Est-ce utile ? Est-ce que cela édifie ? Est-ce que cela cherche le bien des autres ? Est-ce que cela glorifie Dieu ?",
+            "expliquer": [
+              "Liste de questions : est-ce que cela m'éloigne de Dieu ? Est-ce que cela me domine ? Est-ce que cela fait tomber quelqu'un ? Est-ce que cela fait honte à Jésus ?"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "titre": "II. Le frère plus faible",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q3",
+          "texte": "Lis Romains 14:13-21. Pourquoi Paul demande-t-il de ne pas être une occasion de chute pour son frère ?",
+          "refs": [
+            "Romains 14:13-21"
+          ],
+          "accompagnateur": {
+            "attendu": "Le royaume de Dieu n'est pas manger et boire, mais justice, paix et joie. Il vaut mieux ne pas manger de viande ou ne pas boire de vin si cela fait tomber son frère. Poursuivre ce qui contribue à la paix et à l'édification.",
+            "expliquer": [
+              "Exemples locaux : alcool, certains aliments, jeux de hasard, musique, tenue vestimentaire, fêtes de la famille."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q4",
+          "texte": "Lis 1 Corinthiens 8:1-13. Qu'est-ce que la connaissance seule peut produire ? Qu'est-ce qui édifie ?",
+          "refs": [
+            "1 Corinthiens 8:1-13"
+          ],
+          "accompagnateur": {
+            "attendu": "La connaissance enfle d'orgueil ; l'amour édifie. Ne pas blesser la conscience faible d'un frère.",
+            "expliquer": [
+              "Pour un ancien musulman, ou ancien pratiquant de religion traditionnelle : certains aliments, fêtes ou gestes peuvent rappeler son ancienne vie. Respecter."
+            ],
+            "relance": "Y a-t-il quelque chose que tu fais librement et qui pourrait troubler un frère ?"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "III. Ma conscience",
+      "intro": null,
+      "elements": [
+        {
+          "type": "question",
+          "id": "q5",
+          "texte": "Lis Romains 14:22-23 et Hébreux 5:14. Que dit-on de la conscience ?",
+          "refs": [
+            "Romains 14:22-23",
+            "Hébreux 5:14"
+          ],
+          "accompagnateur": {
+            "attendu": "Tout ce qui ne vient pas de la foi est péché. Les adultes spirituels ont les sens exercés par l'usage à discerner le bien et le mal.",
+            "expliquer": [
+              "La conscience s'éduque par la Parole. Elle peut être trop sévère ou trop molle."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q6",
+          "texte": "Lis Actes 24:16 et 1 Timothée 1:19. Comment garder une bonne conscience ?",
+          "refs": [
+            "Actes 24:16",
+            "1 Timothée 1:19"
+          ],
+          "accompagnateur": {
+            "attendu": "S'efforcer d'avoir une conscience sans reproche devant Dieu et devant les hommes. Garder la foi et une bonne conscience.",
+            "expliquer": [
+              "Ne pas étouffer la voix de la conscience."
+            ]
+          }
+        },
+        {
+          "type": "question",
+          "id": "q7",
+          "texte": "Fais l'exercice avec trois sujets : ce que je regarde, ce que j'écoute, ce que je fréquente. Pour chacun, quelle est la réponse aux quatre questions de 1 Corinthiens 10:23-31 ?",
+          "refs": [
+            "1 Corinthiens 10:23-31"
+          ],
+          "accompagnateur": {
+            "attendu": "Une réflexion honnête sur ses loisirs, ses fréquentations, ses écrans, sa musique, ses habitudes.",
+            "expliquer": [
+              "Aider sans imposer. Chaque conscience doit être convaincue par Dieu, non par le berger."
+            ],
+            "relance": "Quelle habitude veux-tu mettre devant Dieu ?"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "IV. Mon choix",
+      "intro": null,
+      "elements": [
+        {
+          "type": "encadre",
+          "style": "application",
+          "titre": "Mes choix",
+          "texte": [
+            "1. Une chose permise que je décide d'arrêter ou de réduire :",
+            "2. Pourquoi :",
+            "3. Une chose utile que je veux commencer :",
+            "4. Une chose que je ne ferai pas par amour pour un frère :"
+          ],
+          "champ": "Mes choix",
+          "id": "mes-choix"
+        },
+        {
+          "type": "question",
+          "id": "q8",
+          "texte": "Écris 1 Corinthiens 10:23 de mémoire.",
+          "refs": [
+            "1 Corinthiens 10:23"
+          ],
+          "accompagnateur": {
+            "attendu": "« Tout est permis, mais tout n'est pas utile ; tout est permis, mais tout n'édifie pas. »",
+            "expliquer": [
+              "Réviser Matthieu 6:33."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "accompagnateur": {
+    "but": [
+      "Que la personne apprenne à choisir par la sagesse et l'amour, pas seulement par la loi.",
+      "Qu'elle éduque sa conscience par la Parole.",
+      "Respecter les frères plus faibles."
+    ],
+    "preparation": [
+      "Relire tes notes du pas 10.",
+      "Préparer des exemples concrets des loisirs, médias, fréquentations du milieu de la personne.",
+      "Prier pour la sagesse."
+    ],
+    "deroulement": [
       {
-       "id": "vf1",
-       "texte": "Tout ce qui n'est pas explicitement interdit dans la Bible est bon pour moi.",
-       "reponse": false,
-       "explication": "1 Corinthiens 10:23 : « Tout est permis, mais tout n'est pas utile. »"
+        "titre": "Accueil, prière, retour sur la semaine",
+        "minutes": 15,
+        "conseils": [
+          "Lecture. Retour sur le plan d'argent (pas 10)."
+        ]
       },
       {
-       "id": "vf2",
-       "texte": "Ma liberté en Christ est sans limites.",
-       "reponse": false,
-       "explication": "Galates 5:13 : ne pas faire de la liberté un prétexte pour la chair, mais se servir par amour."
+        "titre": "Vrai ou faux",
+        "minutes": 10,
+        "conseils": [
+          "Reprendre chaque affirmation."
+        ]
       },
       {
-       "id": "vf3",
-       "texte": "Ma conscience doit toujours être éduquée par la Parole.",
-       "reponse": true,
-       "explication": "Hébreux 5:14 ; Romains 12:2."
+        "titre": "Ma liberté",
+        "minutes": 25,
+        "conseils": [
+          "Questions 1 et 2."
+        ]
       },
       {
-       "id": "vf4",
-       "texte": "Je dois tenir compte de mon frère plus faible dans la foi.",
-       "reponse": true,
-       "explication": "Romains 14:13-21 ; 1 Corinthiens 8:9-13."
+        "titre": "Le frère plus faible",
+        "minutes": 25,
+        "conseils": [
+          "Questions 3 et 4."
+        ]
+      },
+      {
+        "titre": "Ma conscience",
+        "minutes": 30,
+        "conseils": [
+          "Questions 5 à 7. Éviter d'imposer."
+        ]
+      },
+      {
+        "titre": "Mon choix et remise du pas 12",
+        "minutes": 15,
+        "conseils": [
+          "Tableau et question 8. Remettre le pas 12 « Le discernement »."
+        ]
       }
-     ]
-    }
-   ]
-  },
-  {
-   "titre": "I. Quelle est ma liberté ?",
-   "intro": null,
-   "elements": [
-    {
-     "type": "question",
-     "id": "q1",
-     "texte": "Lis Galates 5:1, 13 et 1 Corinthiens 6:12. Que dit Paul de la liberté ?",
-     "refs": [
-      "Galates 5:1",
-      "Galates 5:13",
-      "1 Corinthiens 6:12"
-     ],
-     "accompagnateur": {
-      "attendu": "Christ nous a affranchis ; ne pas retomber sous un joug. Mais ne pas faire de la liberté un prétexte pour la chair. « Tout m'est permis, mais je ne me laisserai pas dominer. »",
-      "expliquer": [
-       "La liberté, c'est de ne plus être esclave, y compris des habitudes."
-      ],
-      "relance": "Qu'est-ce qui te domine encore, même si « ce n'est pas un grand péché » ?"
-     }
-    },
-    {
-     "type": "question",
-     "id": "q2",
-     "texte": "Lis 1 Corinthiens 10:23-24, 31. Quelles questions poser avant de faire une chose permise ?",
-     "refs": [
-      "1 Corinthiens 10:23-24",
-      "1 Corinthiens 10:31"
-     ],
-     "accompagnateur": {
-      "attendu": "Est-ce utile ? Est-ce que cela édifie ? Est-ce que cela cherche le bien des autres ? Est-ce que cela glorifie Dieu ?",
-      "expliquer": [
-       "Liste de questions : est-ce que cela m'éloigne de Dieu ? Est-ce que cela me domine ? Est-ce que cela fait tomber quelqu'un ? Est-ce que cela fait honte à Jésus ?"
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "titre": "II. Le frère plus faible",
-   "intro": null,
-   "elements": [
-    {
-     "type": "question",
-     "id": "q3",
-     "texte": "Lis Romains 14:13-21. Pourquoi Paul demande-t-il de ne pas être une occasion de chute pour son frère ?",
-     "refs": [
-      "Romains 14:13-21"
-     ],
-     "accompagnateur": {
-      "attendu": "Le royaume de Dieu n'est pas manger et boire, mais justice, paix et joie. Il vaut mieux ne pas manger de viande ou ne pas boire de vin si cela fait tomber son frère. Poursuivre ce qui contribue à la paix et à l'édification.",
-      "expliquer": [
-       "Exemples locaux : alcool, certains aliments, jeux de hasard, musique, tenue vestimentaire, fêtes de la famille."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q4",
-     "texte": "Lis 1 Corinthiens 8:1-13. Qu'est-ce que la connaissance seule peut produire ? Qu'est-ce qui édifie ?",
-     "refs": [
-      "1 Corinthiens 8:1-13"
-     ],
-     "accompagnateur": {
-      "attendu": "La connaissance enfle d'orgueil ; l'amour édifie. Ne pas blesser la conscience faible d'un frère.",
-      "expliquer": [
-       "Pour un ancien musulman, ou ancien pratiquant de religion traditionnelle : certains aliments, fêtes ou gestes peuvent rappeler son ancienne vie. Respecter."
-      ],
-      "relance": "Y a-t-il quelque chose que tu fais librement et qui pourrait troubler un frère ?"
-     }
-    }
-   ]
-  },
-  {
-   "titre": "III. Ma conscience",
-   "intro": null,
-   "elements": [
-    {
-     "type": "question",
-     "id": "q5",
-     "texte": "Lis Romains 14:22-23 et Hébreux 5:14. Que dit-on de la conscience ?",
-     "refs": [
-      "Romains 14:22-23",
-      "Hébreux 5:14"
-     ],
-     "accompagnateur": {
-      "attendu": "Tout ce qui ne vient pas de la foi est péché. Les adultes spirituels ont les sens exercés par l'usage à discerner le bien et le mal.",
-      "expliquer": [
-       "La conscience s'éduque par la Parole. Elle peut être trop sévère ou trop molle."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q6",
-     "texte": "Lis Actes 24:16 et 1 Timothée 1:19. Comment garder une bonne conscience ?",
-     "refs": [
-      "Actes 24:16",
-      "1 Timothée 1:19"
-     ],
-     "accompagnateur": {
-      "attendu": "S'efforcer d'avoir une conscience sans reproche devant Dieu et devant les hommes. Garder la foi et une bonne conscience.",
-      "expliquer": [
-       "Ne pas étouffer la voix de la conscience."
-      ]
-     }
-    },
-    {
-     "type": "question",
-     "id": "q7",
-     "texte": "Fais l'exercice avec trois sujets : ce que je regarde, ce que j'écoute, ce que je fréquente. Pour chacun, quelle est la réponse aux quatre questions de 1 Corinthiens 10:23-31 ?",
-     "refs": [
-      "1 Corinthiens 10:23-31"
-     ],
-     "accompagnateur": {
-      "attendu": "Une réflexion honnête sur ses loisirs, ses fréquentations, ses écrans, sa musique, ses habitudes.",
-      "expliquer": [
-       "Aider sans imposer. Chaque conscience doit être convaincue par Dieu, non par l'accompagnateur."
-      ],
-      "relance": "Quelle habitude veux-tu mettre devant Dieu ?"
-     }
-    }
-   ]
-  },
-  {
-   "titre": "IV. Mon choix",
-   "intro": null,
-   "elements": [
-    {
-     "type": "encadre",
-     "style": "application",
-     "titre": "Mes choix",
-     "texte": [
-      "1. Une chose permise que je décide d'arrêter ou de réduire :",
-      "2. Pourquoi :",
-      "3. Une chose utile que je veux commencer :",
-      "4. Une chose que je ne ferai pas par amour pour un frère :"
-     ],
-     "champ": "Mes choix",
-     "id": "mes-choix"
-    },
-    {
-     "type": "question",
-     "id": "q8",
-     "texte": "Écris 1 Corinthiens 10:23 de mémoire.",
-     "refs": [
-      "1 Corinthiens 10:23"
-     ],
-     "accompagnateur": {
-      "attendu": "« Tout est permis, mais tout n'est pas utile ; tout est permis, mais tout n'édifie pas. »",
-      "expliquer": [
-       "Réviser Matthieu 6:33."
-      ]
-     }
-    }
-   ]
+    ],
+    "vigilance": [
+      "Ne pas transformer la conversation en liste d'interdits : chercher des principes.",
+      "Respecter les convictions d'églises et de familles différentes sur les points secondaires.",
+      "Si la personne a une conscience trop sévère (peur, scrupules), insister sur la grâce."
+    ]
   }
- ],
- "accompagnateur": {
-  "but": [
-   "Que la personne apprenne à choisir par la sagesse et l'amour, pas seulement par la loi.",
-   "Qu'elle éduque sa conscience par la Parole.",
-   "Respecter les frères plus faibles."
-  ],
-  "preparation": [
-   "Relire tes notes du pas 10.",
-   "Préparer des exemples concrets des loisirs, médias, fréquentations du milieu de la personne.",
-   "Prier pour la sagesse."
-  ],
-  "deroulement": [
-   {
-    "titre": "Accueil, prière, retour sur la semaine",
-    "minutes": 15,
-    "conseils": [
-     "Lecture. Retour sur le plan d'argent (pas 10)."
-    ]
-   },
-   {
-    "titre": "Vrai ou faux",
-    "minutes": 10,
-    "conseils": [
-     "Reprendre chaque affirmation."
-    ]
-   },
-   {
-    "titre": "Ma liberté",
-    "minutes": 25,
-    "conseils": [
-     "Questions 1 et 2."
-    ]
-   },
-   {
-    "titre": "Le frère plus faible",
-    "minutes": 25,
-    "conseils": [
-     "Questions 3 et 4."
-    ]
-   },
-   {
-    "titre": "Ma conscience",
-    "minutes": 30,
-    "conseils": [
-     "Questions 5 à 7. Éviter d'imposer."
-    ]
-   },
-   {
-    "titre": "Mon choix et remise du pas 12",
-    "minutes": 15,
-    "conseils": [
-     "Tableau et question 8. Remettre le pas 12 « Le discernement »."
-    ]
-   }
-  ],
-  "vigilance": [
-   "Ne pas transformer la conversation en liste d'interdits : chercher des principes.",
-   "Respecter les convictions d'églises et de familles différentes sur les points secondaires.",
-   "Si la personne a une conscience trop sévère (peur, scrupules), insister sur la grâce."
-  ]
- }
 }
