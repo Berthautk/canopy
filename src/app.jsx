@@ -3,6 +3,7 @@ import { Entete, BarreOnglets, Tiroir, useTiroir, Bientot } from './composants/S
 import { Notification, FenetreMiseAJour } from './composants/Notification.jsx';
 import { Demarrage } from './ecrans/Demarrage.jsx';
 import { Accueil } from './ecrans/Accueil.jsx';
+import { Plus } from './ecrans/Plus.jsx';
 import { Parametres } from './ecrans/Parametres.jsx';
 import { APropos } from './ecrans/APropos.jsx';
 import { BibleAccueil } from './ecrans/bible/BibleAccueil.jsx';
@@ -23,7 +24,7 @@ import { Journal } from './ecrans/priere/Journal.jsx';
 import { Veille } from './ecrans/priere/Veille.jsx';
 import { FicheCombat } from './ecrans/priere/Priere.jsx';
 import { EnseignementEcrit } from './ecrans/grandir/EnseignementEcrit.jsx';
-import { Grandir, SerieEnseignements } from './ecrans/grandir/Grandir.jsx';
+import { Grandir, Enseignements, SerieEnseignements } from './ecrans/grandir/Grandir.jsx';
 import { Parcours, PARCOURS } from './ecrans/grandir/NouveauConverti.jsx';
 import { Evangeliser, Article } from './ecrans/evangeliser/Evangeliser.jsx';
 import { Dialogue } from './ecrans/evangeliser/Dialogue.jsx';
@@ -96,6 +97,7 @@ function titre([a, b, c, d]) {
   if (a === 'priere' && b === 'combat') return 'Combat spirituel';
   if (a === 'accompagner') { const p = route.valeur.params || {}; const dsc = b === 'encadreur' && c && c !== 'nouveau' ? (JSON.parse(localStorage.getItem('yeshaya:disciples') || '[]').find((x) => x.id === c)?.prenom || 'Disciple') : null;
     return b === 'pas' ? (p.imprimer === 'vierge' ? 'Fiche vierge' : p.role === 'encadreur' || p.role === 'accompagnateur' ? 'Fiche de l\'encadreur' : 'Mon carnet') : b === 'bilan' ? (c === 'synthese' ? 'Synthèse du bilan' : 'Mon bilan de vie') : b === 'disciple' ? 'Je suis nouveau converti' : b === 'encadreur' ? (c === 'nouveau' ? 'Inscrire un nouveau converti' : d === 'accueil' ? 'Rencontre d\'accueil' : dsc || 'Je suis encadreur') : b === 'disciples' ? 'Je suis encadreur' : b === 'orientations' ? 'Orientations' : b === 'essai' ? 'Fiche d\'essai' : b === 'accueil' ? 'Rencontre d\'accueil' : 'Suivi des nouveaux convertis'; }
+  if (a === 'grandir' && b === 'enseignements') return 'Les enseignements';
   if (a === 'grandir' && b === 'serie') return NIVEAUX.find((x) => x.id === c)?.nom ?? 'Série';
   if (a === 'grandir' && b === 'enseignement') return ENSEIGNEMENTS.find((x) => x.id === c)?.titre ?? 'Enseignement';
   if (a === 'grandir' && b === 'nouveau-converti') return c ? `Nouveau converti : jour ${c}` : 'Parcours Nouveau converti';
@@ -118,6 +120,7 @@ function Ecran({ r }) {
   const [a, b, c, d, e] = r.segments;
   const pos = useSignal(positionLecture);
   if (a === 'accueil') return <Accueil />;
+  if (a === 'plus') return <Plus />;
   if (a === 'parametres') return <Parametres />;
   if (a === 'admin') return <Admin />;
   if (a === 'equilibre') return b === 'rappels' ? <Rappels /> : <Equilibre modifier={b === 'modifier'} />;
@@ -133,7 +136,7 @@ function Ecran({ r }) {
     'qui-suis-je': <QuiSuisJe />, ordre: <Ordre id={c} />, duel: <Duel />, badges: <Badges />, chemin: c ? <NiveauChemin id={c} /> : <CheminFoi />, defi: <DefiDuJour />, memoriser: <Memoriser />,
     petits: c === 'alphabet' ? <Alphabet /> : c === 'compter' ? <Compter /> : c === 'trouver' ? <Trouver /> : c === 'mot' ? <CompleteMot /> : <PetitsAccueil />, course: <Course />, tribunal: <Tribunal />, pelerin: <Pelerin />, bloc: <BlocJeux id={c} /> })[b] ?? <Jouer />;
   if (a === 'priere') return b === 'demander' ? <DemanderPriere /> : b === 'journal' ? <Journal nouveau={r.params.nouveau} /> : b === 'theme' ? <ThemePriere id={c} guide={r.params.guide === '1'} /> : b === 'veille' ? <Veille id={c} guide={r.params.guide === '1'} /> : b === 'combat' ? <FicheCombat id={c} guide={r.params.guide === '1'} /> : b === 'pour-quelqu-un' ? <PourQuelquun jour={c === 'jour' ? r.segments[3] : null} /> : b === 'sommeil' ? <Sommeil /> : b === 'maintenant' ? <Veille id={(veilleDuMoment() || VEILLES[0]).id.replace('veille-', '')} /> : <Priere />;
-  if (a === 'grandir') return PARCOURS[b] ? <Parcours id={b} jour={c} /> : b === 'enseignement' ? <EnseignementEcrit id={c} ecouter={r.params.ecouter === '1'} /> : b === 'formation' ? <Formation /> : b === 'serie' ? <SerieEnseignements niv={c} gi={d} /> : <Grandir />;
+  if (a === 'grandir') return PARCOURS[b] ? <Parcours id={b} jour={c} /> : b === 'enseignement' ? <EnseignementEcrit id={c} ecouter={r.params.ecouter === '1'} /> : b === 'formation' ? <Formation /> : b === 'serie' ? <SerieEnseignements niv={c} gi={d} /> : b === 'enseignements' ? <Enseignements /> : <Grandir />;
   if (a === 'evangeliser') return b === 'article' ? <Article id={c} /> : b === 'dialogue' ? <Dialogue id={c} /> : b === 'outil' ? <Outil id={c} /> : b === 'conversation' ? <Conversation id={c} /> : b === 'temoignage' ? <MonTemoignage /> : b === 'approche' ? <Approche id={c} /> : <Evangeliser />;
   if (a === 'ecouter') return <Ecouter id={b} />;
   if (a === 'bible') {

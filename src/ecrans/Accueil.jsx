@@ -1,23 +1,64 @@
 import { Icone } from '../composants/Icone.jsx';
 import { usePassage, TextePassage, cheminMontrer } from '../composants/Verset.jsx';
 import { BandeauTelephone } from '../composants/BandeauTelephone.jsx';
-import { CarteParcoursAccueil } from './grandir/NouveauConverti.jsx';
+import { prochainParcours } from './grandir/NouveauConverti.jsx';
 import { CartePlanJour } from './bible/Plan.jsx';
-import { versetDuJour, enseignementDuJour, veilleDuMoment, meditationDuJour } from '../donnees/contenu.js';
+import { versetDuJour, veilleDuMoment, ENSEIGNEMENTS } from '../donnees/contenu.js';
 import { orizon, jourCourant } from '../donnees/orizon.js';
-import { BoutonLecture } from '../composants/Audio.jsx';
+import { parcours } from '../donnees/priere.js';
+import { lectures } from '../donnees/lectures.js';
+import { plan } from '../bible/plans.js';
 import { derniereEcoute, jouer, formatTemps, lecteur } from '../audio/lecteur.js';
 import { useSignal } from '../outils/signal.js';
 import { ecrireReference } from '../bible/references.js';
 import { partagerImageVerset } from '../outils/partage.js';
 
 
+// Six grandes portes, avec des mots simples : on sait où aller sans connaître l'application.
+const TUILES = [
+  ['#/priere', 'priere', 'Prier', 'Veilles, prières et combat spirituel', '#6a4fc4'],
+  ['#/priere/demander', 'coeur', 'Un fardeau ?', 'Nous prions pour toi', '#c4553b'],
+  ['#/grandir', 'grandir', 'Grandir', 'Enseignements, parcours, accompagnement', '#3fa66b'],
+  ['#/bible', 'bible', 'La Bible', 'Lire, chercher, méditer', '#3b6fc4'],
+  ['#/evangeliser', 'evangeliser', 'Partager ma foi', 'Parler de Jésus avec amour', '#d69a1c'],
+  ['#/jouer', 'trophee', 'Jouer et apprendre', 'Quiz, défis, jeux pour tous âges', '#2a9db0'],
+];
+
+// Une seule carte : la meilleure prochaine étape pour cette personne, choisie selon ce qu'elle a déjà commencé.
+function ProchaineEtape({ reprendre }) {
+  const p = useSignal(parcours), o = useSignal(orizon), pl = useSignal(plan), { lus, dernier } = useSignal(lectures);
+  const v = veilleDuMoment();
+  const carte = (lien, image, tag, titre, desc, extra) => (
+    <a class="carte ligne carte-parcours prochaine-etape" href={lien} onClick={extra}>
+      {image && <img src={image} alt="" loading="lazy" />}
+      <span class="ligne__corps"><span class="pastille pastille--or pastille--mini">{tag}</span>
+        <span class="ligne__titre" style="display:block">{titre}</span>
+        <span class="ligne__desc">{desc}</span></span>
+      <Icone nom="chevron" taille={20} />
+    </a>
+  );
+  if (reprendre) return (
+    <button class="carte ligne carte-parcours prochaine-etape" onClick={() => jouer(reprendre.piste)} style="width:100%;text-align:left">
+      <span class="continuer__icone"><Icone nom="lecture" taille={22} /></span>
+      <span class="ligne__corps"><span class="pastille pastille--or pastille--mini">Ta prochaine étape</span>
+        <span class="ligne__titre" style="display:block">Continuer l'écoute : {reprendre.piste.titre}</span>
+        <span class="ligne__desc">{formatTemps(reprendre.position)} sur {formatTemps(reprendre.duree)}</span></span>
+      <Icone nom="chevron" taille={20} />
+    </button>
+  );
+  const pc = prochainParcours(p);
+  if (pc) return carte(pc.lien, pc.image, 'Ta prochaine étape · ' + pc.tag, pc.titre, pc.desc);
+  if (o.faits.length && o.faits.length < 90) return carte('#/orizon/jour/' + jourCourant(), '/assets/temoignage/chaines-brisees.webp', 'Ta prochaine étape', 'Vaincre en 90 jours : jour ' + jourCourant(), 'Ta journée t\'attend. Un pas à la fois.');
+  if (pl) return <CartePlanJour style="margin:0" />;
+  const reprise = dernier && !lus.includes(dernier) ? ENSEIGNEMENTS.find((e) => e.id === dernier) : null;
+  if (reprise) return carte('#/grandir/enseignement/' + reprise.id, reprise.image, 'Ta prochaine étape', 'Reprendre : ' + reprise.titre, 'Là où tu t\'es arrêté.');
+  if (!(p.dj || []).length && !p.faits.length) return carte('#/grandir/decouvrir-jesus', '/assets/jesus/jesus-main-tendue.webp', 'Nouveau ici ?', 'Découvrir Jésus', 'Qui est-il vraiment ? Comment lui donner ta vie ? 10 courtes leçons.');
+  return v ? carte('#/priere/veille/' + v.id.replace('veille-', ''), v.image, 'Ta prochaine étape · ' + v.heures, v.titre, v.theme) : null;
+}
+
 // Écran 2 : accueil.
 export function Accueil() {
   const etat = usePassage(versetDuJour());
-  const v = veilleDuMoment(), m = meditationDuJour(new Date());
-  const o = useSignal(orizon);
-  const ens = enseignementDuJour(new Date());
   const derniere = useSignal(derniereEcoute);
   const enCours = useSignal(lecteur).piste;
   const reprendre = derniere && derniere.position > 5 && derniere.position < derniere.duree - 5 && enCours?.id !== derniere.piste.id ? derniere : null;
@@ -36,69 +77,19 @@ export function Accueil() {
           {etat.texte && <button class="lien" style="display:flex;align-items:center;gap:6px;margin:8px auto 0" onClick={() => partagerImageVerset({ texte: etat.texte, reference: ecrireReference(etat.ref) })}><Icone nom="partager" taille={16} /> Partager en image</button>}
         </section>
 
-        <h2 class="titre-section sous-rubrique">Pour aujourd'hui</h2>
-        <CarteParcoursAccueil />
-        <CartePlanJour style="margin-bottom:12px" />
-        <a class="carte suivi-carte" href="#/accompagner" style="margin:0 0 12px">
-          <span class="suivi-carte__icone"><Icone nom="groupe" taille={28} /></span>
-          <span class="ligne__corps"><b>Suivi des nouveaux convertis</b>
-            <span>Tu es nouveau converti, ou tu en accompagnes un ? Commence ici.</span></span>
-          <Icone nom="chevron" taille={20} />
-        </a>
-        <a class="carte accueil-priere" href={'#/priere/veille/' + v.id.replace('veille-', '')}>
-          <img src={v.image} alt="" loading="lazy" />
-          <span class="accueil-priere__texte"><span class="pastille pastille--or">Prier maintenant · {v.heures}</span><b>{v.titre}</b><span>{v.theme}</span></span>
-        </a>
-        <div class="aujourdhui">
-          <a class="carte aujourdhui__carte" href="#/bible/meditation"><Icone nom="ampoule" taille={22} /><b>Méditation du jour</b><span>{m?.titre || 'Un verset à méditer'}</span></a>
-          <a class="carte aujourdhui__carte" href={o.faits.length ? '#/orizon/jour/' + jourCourant() : '#/grandir/formation'}><Icone nom="grandir" taille={22} /><b>{o.faits.length ? 'Mon parcours' : 'Leçons d\'affermissement'}</b><span>{o.faits.length ? 'Vaincre en 90 jours · jour ' + jourCourant() : '38 leçons pour grandir'}</span></a>
-        </div>
+        <ProchaineEtape reprendre={reprendre} />
 
-        {ens && (
-          <section class="carte audio-jour">
-            <a href={'#/grandir/enseignement/' + ens.id} tabindex="-1" aria-hidden="true"><img src={ens.image} alt="" loading="lazy" /></a>
-            <a class="audio-jour__corps" href={'#/grandir/enseignement/' + ens.id}>
-              <h2>Enseignement du jour</h2>
-              <p class="audio-jour__auteur">{ens.lecture_minutes} min · lu à voix haute</p>
-              <p class="audio-jour__titre">{ens.titre}</p>
+        <h2 class="titre-section sous-rubrique">Que veux-tu faire ?</h2>
+        <nav class="tuiles-accueil" aria-label="Rubriques">
+          {TUILES.map(([lien, icone, titre, desc, couleur]) => (
+            <a class="tuile-accueil" href={lien} style={{ '--c': couleur }}>
+              <span class="tuile-accueil__icone"><Icone nom={icone} taille={30} /></span>
+              <b>{titre}</b><span>{desc}</span>
             </a>
-            <a class="btn-lecture" style="width:52px;height:52px" href={'#/grandir/enseignement/' + ens.id + '?ecouter=1'} aria-label={'Écouter ' + ens.titre}><Icone nom="lecture" taille={24} /></a>
-          </section>
-        )}
-        {reprendre && (
-          <button class="carte continuer" onClick={() => jouer(reprendre.piste)}>
-            <span class="continuer__icone"><Icone nom="musique" taille={20} /></span>
-            <span class="ligne__corps">
-              <span class="ligne__desc" style="display:block">Continuer l'écoute · {formatTemps(reprendre.position)} / {formatTemps(reprendre.duree)}</span>
-              <span class="ligne__titre">{reprendre.piste.titre}</span>
-            </span>
-            <Icone nom="lecture" taille={20} />
-          </button>
-        )}
-
+          ))}
+        </nav>
 
         <BandeauTelephone />
-
-        <a class="carte ligne demande-accueil" href="#/priere/demander" style="margin-top:12px">
-          <span class="ligne__icone"><Icone nom="priere" /></span>
-          <span class="ligne__corps"><span class="ligne__titre" style="display:block">Un fardeau ? Nous prions pour toi</span>
-            <span class="ligne__desc">Écris ton sujet de prière en toute discrétion. Ton prénom est facultatif, et seul le responsable de Yeshaya lit ton message.</span></span>
-          <Icone nom="chevron" taille={20} />
-        </a>
-
-        <a class="carte ligne" href="#/equilibre" style="margin-top:12px">
-          <span class="ligne__icone"><Icone nom="calendrier" /></span>
-          <span class="ligne__corps"><span class="ligne__titre" style="display:block">Mon équilibre avec Dieu</span>
-            <span class="ligne__desc">Mon rythme de prière, de Parole et de méditation, avec rappels et courbes.</span></span>
-          <Icone nom="chevron" taille={20} />
-        </a>
-        <a class="carte decouvrir-carte" href="#/grandir/decouvrir-jesus">
-          <img src="/assets/jesus/jesus-main-tendue.webp" alt="" loading="lazy" />
-          <span class="ligne__corps"><span class="ligne__titre" style="display:block">Découvrir Jésus</span>
-            <span class="ligne__desc">Qui est-il vraiment ? Comment lui donner ta vie ? 10 courtes leçons.</span></span>
-          <Icone nom="chevron" taille={20} />
-        </a>
-
       </div>
     </div>
   );

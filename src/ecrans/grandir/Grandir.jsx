@@ -80,7 +80,7 @@ export function SerieEnseignements({ niv, gi }) {
       <div class="liste">{l.map((id, i) => <Enseignement e={parId[id]} n={i + 1} />)}</div>
       {suivante
         ? <a class="bouton bouton--contour" style="width:100%;margin-top:14px" href={`#/grandir/serie/${niv}/${+gi + 1}`}>Série suivante : {suivante.titre} <Icone nom="chevron" taille={18} /></a>
-        : <a class="bouton bouton--contour" style="width:100%;margin-top:14px" href="#/grandir">Voir les autres niveaux</a>}
+        : <a class="bouton bouton--contour" style="width:100%;margin-top:14px" href="#/grandir/enseignements">Voir les autres niveaux</a>}
     </div>
   );
 }
@@ -97,7 +97,7 @@ const simple = (t) => (t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '')
 
 // Écran 6 : Grandir. Les enseignements sont rangés par niveaux qui montent (Fondations, puis Maturité 1, 2, 3).
 // Tout reste libre : on peut ouvrir n'importe quel enseignement, dans n'importe quel ordre.
-export function Grandir() {
+export function Enseignements() {
   const [niv, setNiv] = useState(lireNiveau);
   const [vue, setVue] = useState('themes');
   const [q, setQ] = useState('');
@@ -115,7 +115,7 @@ export function Grandir() {
     <div class="page">
       <div class="bandeau-titre">
         <img src="/assets/nouveau-converti/etude-de-la-bible.webp" alt="" />
-        <div><h2>Grandir dans la foi</h2><p>Des enseignements rangés par niveaux, du nouveau converti au chrétien mûr.</p></div>
+        <div><h2>Les enseignements</h2><p>Rangés par niveaux, du nouveau converti au chrétien mûr.</p></div>
       </div>
 
       <form class="barre-recherche" style="margin-top:12px" onSubmit={(e) => e.preventDefault()} role="search">
@@ -138,22 +138,7 @@ export function Grandir() {
         </a>
       )}
 
-      <section class="carte bloc par-ou">
-        <h3 style="margin:0 0 4px">Par où commencer ?</h3>
-        <p class="ligne__desc" style="margin:0 0 8px">{ENSEIGNEMENTS.length} enseignements t'attendent, rangés en {NIVEAUX.length} niveaux. Choisis ce qui te ressemble :</p>
-        <button class="par-ou__choix" onClick={() => aller('grandir/decouvrir-jesus')}><b>Je viens de donner ma vie à Jésus</b><span>Commence par « Découvrir Jésus », 10 leçons</span><Icone nom="chevron" taille={18} /></button>
-        <button class="par-ou__choix" onClick={() => { choisir('fondations'); allerA('niveau-contenu'); }}><b>Je suis chrétien depuis peu</b><span>Les Fondations : salut, affermissement, Bible</span><Icone nom="chevron" taille={18} /></button>
-        <button class="par-ou__choix" onClick={() => { choisir('maturite-1'); allerA('niveau-contenu'); }}><b>Je veux aller plus loin</b><span>Maturité 1 à 5 : prière, caractère, sainteté, apôtres, l'islam de A à Z</span><Icone nom="chevron" taille={18} /></button>
-      </section>
-
-      <a class="carte suivi-carte" href="#/accompagner">
-        <span class="suivi-carte__icone"><Icone nom="groupe" taille={28} /></span>
-        <span class="ligne__corps"><b>Suivi des nouveaux convertis</b>
-          <span>Tu es nouveau converti, ou tu en accompagnes un ? Commence ici.</span></span>
-        <Icone nom="chevron" taille={20} />
-      </a>
-
-      <h2 class="titre-section">Les niveaux</h2>
+      <h2 class="titre-section">Choisis ton niveau</h2>
       <div class="niveaux" role="tablist" aria-label="Niveaux">
         {NIVEAUX.map((n, i) => (
           <button role="tab" aria-selected={niv === n.id} class={'niveau-onglet niveau-onglet--' + i} onClick={() => { choisir(n.id); allerA('niveau-contenu'); }}>
@@ -197,6 +182,59 @@ export function Grandir() {
             ))}
       </>}
       </>}
+    </div>
+  );
+}
+
+const ouvrirNiveau = (n) => { try { localStorage.setItem('yeshaya:niveau-grandir', n); } catch {} aller('grandir/enseignements'); };
+
+// Écran 6 : Grandir, une porte d'entrée claire. Chaque rubrique a sa propre page : on ne se perd plus.
+export function Grandir() {
+  const p = useSignal(parcours), { lus, dernier } = useSignal(lectures);
+  const reprise = dernier && !lus.includes(dernier) ? ENSEIGNEMENTS.find((e) => e.id === dernier) : null;
+  return (
+    <div class="page">
+      <div class="bandeau-titre">
+        <img src="/assets/nouveau-converti/etude-de-la-bible.webp" alt="" />
+        <div><h2>Grandir dans la foi</h2><p>Choisis ce dont tu as besoin aujourd'hui.</p></div>
+      </div>
+
+      {reprise && (
+        <a class="carte ligne carte-parcours" href={'#/grandir/enseignement/' + reprise.id} style="margin-top:12px">
+          <img src={reprise.image} alt="" loading="lazy" />
+          <span class="ligne__corps"><span class="pastille pastille--or pastille--mini">Reprendre</span>
+            <span class="ligne__titre" style="display:block">{reprise.titre}</span>
+            <span class="ligne__desc">Là où tu t'es arrêté</span></span>
+          <Icone nom="chevron" taille={20} />
+        </a>
+      )}
+
+      <section class="carte bloc par-ou">
+        <h3 style="margin:0 0 4px">Par où commencer ?</h3>
+        <button class="par-ou__choix" onClick={() => aller('grandir/decouvrir-jesus')}><b>Je viens de donner ma vie à Jésus</b><span>« Découvrir Jésus » : 10 leçons, à ton rythme</span><Icone nom="chevron" taille={18} /></button>
+        <button class="par-ou__choix" onClick={() => ouvrirNiveau('fondations')}><b>Je suis chrétien depuis peu</b><span>Les Fondations : salut, affermissement, Bible</span><Icone nom="chevron" taille={18} /></button>
+        <button class="par-ou__choix" onClick={() => ouvrirNiveau('maturite-1')}><b>Je veux aller plus loin</b><span>Maturité 1 à 5 : prière, caractère, sainteté, l'islam…</span><Icone nom="chevron" taille={18} /></button>
+      </section>
+
+      <h2 class="titre-section">1 · Bien commencer</h2>
+      <CarteParcours id="decouvrir-jesus" p={p} />
+      <CarteParcours id="nouveau-converti" p={p} />
+
+      <h2 class="titre-section">2 · Apprendre la Parole</h2>
+      <a class="carte parcours-carte" href="#/grandir/enseignements" style="margin-bottom:10px">
+        <img src="/assets/objets-quotidien/bible-ouverte-sur-table.webp" alt="" />
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Tous les enseignements</span>
+          <span class="ligne__desc" style="display:block">{ENSEIGNEMENTS.length} enseignements en {NIVEAUX.length} niveaux. Cherche un sujet, un thème ou un auteur.</span></span>
+        <Icone nom="chevron" taille={20} />
+      </a>
+      <CarteParcours id="formation" p={p} />
+
+      <h2 class="titre-section">3 · Être accompagné</h2>
+      <CarteParcours id="accompagner" p={p} />
+      <CarteParcours id="disciple" p={p} />
+
+      <h2 class="titre-section">4 · Être libre d'une habitude</h2>
+      <CarteParcours id="orizon" p={p} />
     </div>
   );
 }

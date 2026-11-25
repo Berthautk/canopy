@@ -68,9 +68,8 @@ const ONGLETS = [
   ['accueil', 'Accueil', 'accueil'],
   ['priere', 'Prière', 'priere'],
   ['grandir', 'Grandir', 'grandir'],
-  ['evangeliser', 'Évangéliser', 'evangeliser'],
-  ['jouer', 'Jeux', 'trophee'],
   ['bible', 'Bible', 'bible'],
+  ['plus', 'Plus', 'plus'],
 ];
 
 // Bouton « Revenir » : visible dans la Bible quand on y est arrivé depuis une autre page (un verset dans une prière…).
@@ -98,6 +97,7 @@ export function BarreOnglets({ actif }) {
 }
 
 const MENU = [
+  ['plus', 'Tout le menu : Plus', 'plus'],
   ['accompagner', 'Suivi des nouveaux convertis', 'groupe'],
   ['telechargements', 'Installer et télécharger', 'telecharger'],
   ['parametres', 'Paramètres', 'reglages'],

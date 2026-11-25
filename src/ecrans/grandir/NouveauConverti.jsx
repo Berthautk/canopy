@@ -43,33 +43,31 @@ export function RappelParcours({ id }) {
 }
 
 // Carte d'accueil : reprendre le parcours commencé (ou le commencer après une décision pour Jésus).
-export function CarteParcoursAccueil() {
-  const p = useSignal(parcours);
+// Le parcours commencé (ou à commencer après une décision pour Jésus) : { lien, image, tag, titre, desc } ou null.
+export function prochainParcours(p) {
   for (const id of ['decouvrir-jesus', 'nouveau-converti']) {
     const cfg = PARCOURS[id], faits = p[cfg.cle] || [], total = cfg.total();
     if (!faits.length || faits.length >= total) continue;
     const prochain = Array.from({ length: total }, (_, i) => i + 1).find((n) => !faits.includes(n));
     const j = cfg.liste().find((x) => x.jour === prochain);
-    return (
-      <a class="carte ligne carte-parcours" href={`#/grandir/${id}/${prochain}`}>
-        <img src={cfg.image} alt="" loading="lazy" />
-        <span class="ligne__corps"><span class="pastille pastille--or pastille--mini">{cfg.unite} {prochain} sur {total}</span>
-          <span class="ligne__titre" style="display:block">{j ? j.titre : cfg.titre}</span>
-          <span class="ligne__desc">{cfg.titre} · ta {cfg.unite.toLowerCase()} t'attend</span></span>
-        <Icone nom="chevron" taille={20} />
-      </a>
-    );
+    return { lien: `#/grandir/${id}/${prochain}`, image: cfg.image, tag: `${cfg.unite} ${prochain} sur ${total}`, titre: j ? j.titre : cfg.titre, desc: `${cfg.titre} · ta ${cfg.unite.toLowerCase()} t'attend` };
   }
-  if (p.decision && !(p.dj || []).length) return (
-    <a class="carte ligne carte-parcours" href="#/grandir/decouvrir-jesus/1">
-      <img src={PARCOURS['decouvrir-jesus'].image} alt="" loading="lazy" />
-      <span class="ligne__corps"><span class="pastille pastille--or pastille--mini">Pour toi qui as donné ta vie à Jésus</span>
-        <span class="ligne__titre" style="display:block">Commence « Découvrir Jésus »</span>
-        <span class="ligne__desc">10 leçons pour bâtir ta foi sur le roc.</span></span>
+  if (p.decision && !(p.dj || []).length) return { lien: '#/grandir/decouvrir-jesus/1', image: PARCOURS['decouvrir-jesus'].image, tag: 'Pour toi qui as donné ta vie à Jésus', titre: 'Commence « Découvrir Jésus »', desc: '10 leçons pour bâtir ta foi sur le roc.' };
+  return null;
+}
+
+export function CarteParcoursAccueil() {
+  const x = prochainParcours(useSignal(parcours));
+  if (!x) return null;
+  return (
+    <a class="carte ligne carte-parcours" href={x.lien}>
+      <img src={x.image} alt="" loading="lazy" />
+      <span class="ligne__corps"><span class="pastille pastille--or pastille--mini">{x.tag}</span>
+        <span class="ligne__titre" style="display:block">{x.titre}</span>
+        <span class="ligne__desc">{x.desc}</span></span>
       <Icone nom="chevron" taille={20} />
     </a>
   );
-  return null;
 }
 
 // Deux parcours pour le nouveau converti. Tout est ouvert : l'ordre est conseillé, pas imposé.
