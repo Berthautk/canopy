@@ -21,7 +21,7 @@ const TUILES = [
   ['#/accompagner', 'grandir-accompagnement', 'Nouveaux convertis', 'Je suis un nouveau converti, ou un berger', '#c4553b'],
   ['#/grandir', 'grandir-groupe-manguier', 'Grandir', 'Enseignements, parcours, accompagnement', '#3fa66b'],
   ['#/bible', 'bible-ouverte-table', 'La Bible', 'Lire, chercher, méditer', '#3b6fc4'],
-  ['#/evangeliser', 'partager-conversation-boutique', 'Partager ma foi', 'Parler de Jésus avec amour', '#d69a1c'],
+  ['#/evangeliser', 'partager-conversation-boutique', 'Évangéliser', 'Partager ma foi et parler de Jésus avec amour', '#d69a1c'],
   ['#/jouer', 'jouer-cartes-enfants', 'Jouer et apprendre', 'Quiz, défis, jeux pour tous âges', '#2a9db0'],
 ];
 

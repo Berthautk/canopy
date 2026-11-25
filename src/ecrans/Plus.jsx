@@ -6,7 +6,7 @@ import { useSignal } from '../outils/signal.js';
 // Tout ce qui ne mérite pas un onglet, rangé en trois groupes, avec des mots simples.
 const GROUPES = [
   ['Partager et apprendre en jouant', [
-    ['#/evangeliser', 'partager-marche-village', 'Partager ma foi', "Parler de Jésus avec amour : approches, dialogues, témoignage."],
+    ['#/evangeliser', 'partager-marche-village', 'Évangéliser', "Partager ma foi, parler de Jésus avec amour : approches, dialogues, témoignage."],
     ['#/jouer', 'jouer-duel', 'Jouer et apprendre', 'Quiz, défis et jeux bibliques, pour les petits et les grands.'],
   ]],
   ['Pour moi', [
