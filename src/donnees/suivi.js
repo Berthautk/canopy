@@ -83,6 +83,9 @@ export async function effacerMesDonnees() {
   effacerBilan();
 }
 export async function etatDuDisciple(dsc) { return api('etat', { code: dsc.code, cle: dsc.cle }); }
+// Le code d'invitation ne sert qu'une fois. Si le disciple change de téléphone, le berger le rouvre :
+// la nouvelle liaison remplace l'ancienne, donc l'ancien téléphone perd l'accès au carnet.
+export async function rouvrirCode(dsc) { return api('rouvrir', { code: dsc.code, cle: dsc.cle }); }
 export async function avancerDisciple(dsc, pas) {
   if (dsc.code) await api('avancer', { code: dsc.code, cle: dsc.cle, pas });
   ecrireDisciples(lireDisciples().map((x) => (x.id === dsc.id ? { ...x, pas } : x)));

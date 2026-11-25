@@ -1,8 +1,10 @@
 import POLITIQUE from '../../content/politique-confidentialite.json';
 // Politique de confidentialité (texte dans content/politique-confidentialite.json ; une copie publique est
 // générée dans public/confidentialite.html par tools/generer-politique.mjs, pour le Play Store et les moteurs de recherche).
-// Toute modification importante doit faire monter « version » : le choix est alors redemandé.
-export const VERSION_POLITIQUE = POLITIQUE.version;
+// « version » : numéro du texte affiché, à monter à chaque mise à jour du texte.
+// « version_consentement » : à monter SEULEMENT quand le changement touche ce que la personne a accepté ;
+// le bandeau du premier lancement est alors remontré et le choix sur les statistiques redemandé.
+export const VERSION_POLITIQUE = POLITIQUE.version_consentement || POLITIQUE.version;
 export const RESUME_POLITIQUE = POLITIQUE.resume;
 const remplir = (t) => t.replaceAll('{contact}', POLITIQUE.contact);
 

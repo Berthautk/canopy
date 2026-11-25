@@ -50,3 +50,39 @@ export function memeOrigine(request) {
   const o = request.headers.get('origin'); if (!o) return true;            // applications et outils sans navigateur : pas d'en-tête
   try { return new URL(o).host === new URL(request.url).host; } catch { return false; }
 }
+
+// ---------- Freins contre les attaques par tâtonnement ----------
+// On ne garde jamais l'adresse IP : seulement une empreinte courte et irréversible (SHA-256),
+// qui sert uniquement à compter les essais ratés et s'efface d'elle-même au bout d'un jour.
+export async function cleAnonyme(request, usage) {
+  const ip = request.headers.get('CF-Connecting-IP') || '';
+  if (!ip) return '';
+  const h = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(usage + '|' + ip));
+  return usage + ':' + [...new Uint8Array(h)].slice(0, 10).map((x) => x.toString(16).padStart(2, '0')).join('');
+}
+
+const SCHEMA_ESSAIS = 'CREATE TABLE IF NOT EXISTS essais (cle TEXT PRIMARY KEY, n INTEGER NOT NULL, depuis TEXT NOT NULL)';
+// Compte un essai et dit s'il faut refuser. Fenêtre glissante simple : au-delà de `max` essais, on bloque.
+export async function tropDEssais(db, cle, max, fenetreMs = 36e5) {
+  if (!db || !cle) return false;
+  try {
+    await db.prepare(SCHEMA_ESSAIS).run();
+    const t = Date.now(), debut = new Date(t - fenetreMs).toISOString();
+    const l = await db.prepare('SELECT n, depuis FROM essais WHERE cle = ?').bind(cle).first();
+    if (!l || l.depuis < debut) {
+      await db.prepare('INSERT INTO essais (cle, n, depuis) VALUES (?, 1, ?) ON CONFLICT (cle) DO UPDATE SET n = 1, depuis = excluded.depuis').bind(cle, new Date(t).toISOString()).run();
+      await db.prepare('DELETE FROM essais WHERE depuis < ?').bind(new Date(t - 864e5).toISOString()).run();
+      return false;
+    }
+    await db.prepare('UPDATE essais SET n = n + 1 WHERE cle = ?').bind(cle).run();
+    return l.n + 1 > max;
+  } catch { return false; }
+}
+export const oublierEssais = (db, cle) => (cle ? db.prepare('DELETE FROM essais WHERE cle = ?').bind(cle).run().catch(() => {}) : Promise.resolve());
+
+// Lit le corps d'une requête en vérifiant sa vraie taille (l'en-tête « content-length » peut être absent).
+export async function corpsJson(request, maxOctets) {
+  let brut; try { brut = await request.text(); } catch { return null; }
+  if (brut.length > maxOctets) return 'trop-long';
+  try { const o = JSON.parse(brut); return o && typeof o === 'object' && !Array.isArray(o) ? o : null; } catch { return null; }
+}

@@ -15,7 +15,7 @@ import {
 } from '../../donnees/carnet.js';
 import {
   lienDisciple, rejoindre, travaillerSeul, quitterLien, actualiserDisciple, etatEnvoi, formaterCode,
-  creerDisciple, etatDuDisciple, avancerDisciple, retirerDisciple, renommerDisciple, effacerMesDonnees,
+  creerDisciple, etatDuDisciple, avancerDisciple, retirerDisciple, renommerDisciple, effacerMesDonnees, rouvrirCode,
 } from '../../donnees/suivi.js';
 
 // Suivi des nouveaux convertis (« Former le chrétien ») : méthode inspirée de La Nouvelle Vie en Christ.
@@ -237,6 +237,10 @@ export function FicheDisciple({ id }) {
       </section>
       <details class="carte bloc acc-plus"><summary><b>Plus d'options : changer le prénom, arrêter le suivi</b></summary>
         {d.code && <p>Code de {d.prenom} : <b>{d.code}</b></p>}
+        {d.code && serveur?.rejoint && (serveur.ouvert
+          ? <p class="ligne__desc"><Icone nom="info" taille={15} /> Le code est ouvert : {d.prenom} peut se relier depuis son nouveau téléphone. Il se refermera tout seul après.</p>
+          : <><p class="ligne__desc">Le code a déjà servi : plus personne ne peut s'en servir pour voir le carnet de {d.prenom}. S'il a changé de téléphone, rouvre-le pour une seule nouvelle liaison.</p>
+            <button class="bouton bouton--contour" style="width:100%" onClick={async () => { try { await rouvrirCode(d); setServeur({ ...serveur, ouvert: true }); notifier('Code rouvert : ' + d.prenom + ' peut se relier une fois. Son ancien téléphone perdra l\'accès.'); } catch (err) { notifier(err.message); } }}>Rouvrir le code pour un nouveau téléphone</button></>)}
         {d.accueil && <a class="lien" href={'#/accompagner/encadreur/' + d.id + '/accueil'}>Revoir la rencontre d'accueil</a>}
         <label class="etiquette-champ">Changer le pas en cours</label>
         <select class="champ" value={d.pas} onChange={async (e) => { try { await avancerDisciple(d, e.currentTarget.value); setL(lireDisciples()); } catch (err) { notifier(err.message); } }}>
