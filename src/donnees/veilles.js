@@ -40,7 +40,7 @@ export function melanger(liste, graine) {
 // `n` sujets pour la semaine `w` : un sujet du thème d'abord (tourne chaque semaine), puis les suivants du paquet.
 function tirage(duTheme, autres, n, w, graine, sel) {
   if (n <= 0) return [];
-  const premier = duTheme.length ? duTheme[(w + sel) % duTheme.length] : null;
+  const premier = duTheme.length ? duTheme[(w + sel + (graineDe(graine) % 7)) % duTheme.length] : null;
   const reserve = [...duTheme.filter((s) => s !== premier), ...autres];
   if (!isFinite(n)) return [...(premier ? [premier] : []), ...melanger(reserve, graine + ':' + w + ':' + sel)];      // version complète : tout, dans un ordre qui change
   const k = premier ? n - 1 : n, sortie = [];

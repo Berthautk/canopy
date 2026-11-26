@@ -50,3 +50,22 @@ Un nouveau converti doit prendre ces bases **dès le début** : une vie de priè
   (santé : ne pas jeûner sans précaution en cas de maladie, de grossesse, de traitement).
 - Relier la veille, le jeûne et les enseignements (« Le jeûne, troisième force d'intervention spirituelle », « Par la prière et par le jeûne »).
 - Cantiques : texte exact du recueil + enregistrements.
+
+## À faire plus tard (notes du 27 novembre 2026) — rappeler au responsable dès son feu vert
+
+1. **Banque de sujets de prière à agrandir** : extraire des sujets de prière à partir des 200 et quelques enseignements
+   (« les sujets de prière ne doivent jamais manquer »). Chaque sujet garde sa référence biblique.
+2. **Prière calibrée sur l'enseignement** : à la fin d'un enseignement, proposer un temps de prière tiré de CET enseignement
+   (du début à la fin, tout est lié).
+3. **Prière sur un thème choisi, organisée selon le Notre Père** : quand la personne écrit « enfants », « examen »,
+   « profession »…, les sujets s'affichent en 8 phases : adoration → que ton règne vienne → que ta volonté soit faite →
+   donne-nous notre pain → pardonne-nous → ne nous soumets pas à la tentation → délivre-nous du Malin (ici : prières de
+   **combat**, par ex. « commande à tout esprit qui endurcit le cœur des enfants de les lâcher ») → action de grâce.
+   - Si elle revient le lendemain avec le même thème : **d'autres sujets**, dans la même organisation ; ceux d'hier ne reviennent pas
+     avant épuisement de la réserve (mémoire des sujets déjà priés).
+   - État actuel : la recherche existe (`Mesure.jsx`, `suggestions.js`) mais renvoie une liste à plat de 12 sujets. Les 7 thèmes
+     des veilles (famille, travail, Église, pays, perdus, santé, action de grâce) ont déjà les 8 phases ; les autres thèmes
+     (examen, profession, enfants…) demandent de la banque de sujets structurée par phase.
+4. Rendre plus visible la sauvegarde/restauration de la progression (rappel après 2 semaines d'usage) plutôt qu'une connexion par email.
+5. Brancher « Voici où tu étais » sur l'évangélisation, Orizon et le suivi du nouveau converti.
+6. Choix du thème de la nuit de prière par la personne (aujourd'hui : automatique selon la semaine) ; canevas de nuit de prière du responsable à intégrer.
