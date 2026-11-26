@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "auteur": "Yeshaya",
+  "enseignement": "enseignement-nuit-de-priere",
+  "intro": [
+    {
+      "titre": "Qu'est-ce qu'une nuit de prière ?",
+      "texte": [
+        "Une nuit de prière, c'est un temps long passé avec Dieu pendant que le monde dort. Tu laisses le téléphone, la télévision et le bruit. Tu restes devant Lui, pendant plusieurs heures.",
+        "Ce n'est pas un concours de résistance. On ne cherche pas à rester éveillé pour impressionner quelqu'un. On cherche Dieu Lui-même, et ce qu'Il veut te dire.",
+        "On peut la faire seul, en couple, en famille ou avec un petit groupe. Cette page t'accompagne pas à pas."
+      ]
+    },
+    {
+      "titre": "Pourquoi prier pendant la nuit ?",
+      "texte": [
+        "Jésus l'a fait. Avant de choisir ses douze apôtres, il est monté sur la montagne et il a passé toute la nuit à prier Dieu (Luc 6:12). Le Fils de Dieu avait besoin de longues heures avec son Père.",
+        "La nuit est calme. Personne ne t'appelle. Rien ne te presse. Tu peux rester sur un sujet sans être dérangé. David le dit : « Au milieu de la nuit, je me lève pour te louer » (Psaume 119:62).",
+        "Paul et Silas priaient et chantaient à minuit, et les portes de la prison se sont ouvertes (Actes 16:25-26). Pierre était en prison, et toute l'Église priait pour lui (Actes 12:5). La prière de la nuit a de la force.",
+        "Dieu nous y invite : « Lève-toi, pousse des cris pendant la nuit, au commencement des veilles ! Verse ton cœur comme de l'eau, en face du Seigneur » (Lamentations 2:19). Et Jésus se levait « longtemps avant le jour » pour prier dans un lieu désert (Marc 1:35)."
+      ]
+    },
+    {
+      "titre": "Quand la faire ?",
+      "texte": [
+        "La nuit de prière se fait en fin de semaine. Le moment le plus pratique est la nuit du vendredi au samedi : le lendemain, tu n'as pas à te lever pour le travail ou l'école.",
+        "Elle commence vers 22 h et peut aller jusqu'à 4 h ou 5 h du matin. Si tu débutes, commence par trois heures seulement. Il vaut mieux une courte nuit bien vécue qu'une longue nuit où l'on s'épuise.",
+        "Chaque nuit a le thème de la semaine. Pendant la semaine, tu as prié pour beaucoup de sujets dans les veilles. La nuit les reprend et va plus profond. Elle n'est donc jamais la même d'une semaine à l'autre."
+      ]
+    },
+    {
+      "titre": "Comment te préparer ?",
+      "texte": [
+        "Dors un peu dans l'après-midi si tu peux. Mange léger au repas du soir. Évite le café fort et les boissons qui excitent.",
+        "Choisis un lieu calme où tu peux parler à voix haute sans déranger. Prépare une bouteille d'eau, ta Bible, un cahier, un stylo, une couverture.",
+        "Préviens ta famille. Si tu vis avec des enfants, des personnes âgées ou des malades, assure-toi que quelqu'un veille sur eux.",
+        "Pense à ta santé et à ta sécurité. Si tu es malade, enceinte ou si tu as un traitement, choisis la nuit courte. Ne conduis jamais fatigué après la nuit.",
+        "Ne te mets pas à faire une nuit entière chaque semaine si ton corps ne suit pas : « Le zèle sans connaissance n'est pas bon » (Proverbes 19:2)."
+      ]
+    },
+    {
+      "titre": "Comment la nuit se déroule",
+      "texte": [
+        "La nuit se fait en étapes. D'abord on remercie, puis on se repent. Ensuite on prend un long temps de louange et d'adoration, une heure ou deux. Puis on intercède : pour le thème de la semaine, puis pour les autres sujets. On écoute Dieu. On termine en paix.",
+        "Chaque étape a un temps minimum, par exemple 20 minutes. Tu peux rester plus longtemps si Dieu te retient. Si tu passes avant la fin, l'application te le rappelle, mais tu restes libre.",
+        "Tu peux avancer à ton rythme. Prends le temps. Ne cours pas."
+      ]
+    }
+  ],
+  "phases": {
+    "ouverture": {
+      "titre": "Ouverture",
+      "minutes": 10,
+      "consigne": "Installe-toi. Respire calmement. Tu es devant Dieu, qui t'attend.",
+      "aide": "Commence doucement. Si tu es fatigué ou distrait, dis-le simplement à Dieu. Il ne cherche pas une belle prière : Il cherche toi.",
+      "sujets": [
+        { "titre": "Fais silence", "texte": "Arrête-toi. Respire lentement. Dis à Dieu : « Me voici. » « Arrêtez, et sachez que je suis Dieu » (Psaume 46:11)." },
+        { "titre": "Demande la présence de l'Esprit", "texte": "Demande au Saint-Esprit de te conduire pendant toute la nuit. Jésus a promis qu'Il donnera le Saint-Esprit à ceux qui le Lui demandent (Luc 11:13)." },
+        { "titre": "Remets-lui la nuit", "texte": "Remets à Dieu ta fatigue, ta peur de t'endormir, ton envie d'abandonner. Dis-Lui que cette nuit est pour Lui seul." }
+      ]
+    },
+    "graces": {
+      "titre": "Actions de grâces",
+      "minutes": 25,
+      "consigne": "Remercie Dieu pour ce qu'Il a déjà fait. Une prière commence mieux par un cœur reconnaissant.",
+      "aide": "Ne dis pas seulement « merci pour tout ». Cite des choses précises : un nom, un événement, une réponse reçue. Plus tu es précis, plus ton cœur se réchauffe.",
+      "sujets": [
+        { "titre": "Pour ta vie et ta semaine", "texte": "Remercie Dieu pour le souffle de cette semaine, pour ta protection, pour ta nourriture. « Mon âme, bénis l'Éternel, et n'oublie aucun de ses bienfaits » (Psaume 103:2)." },
+        { "titre": "Pour ta famille", "texte": "Remercie Dieu pour chaque personne de ta famille. Cite leurs noms, un par un." },
+        { "titre": "Pour ton pays", "texte": "Remercie Dieu pour ton pays, pour la paix qui demeure, pour la liberté de te réunir et de prier. La Bible nous demande de prier pour les rois et pour tous ceux qui exercent l'autorité (1 Timothée 2:1-2)." },
+        { "titre": "Pour l'Église", "texte": "Remercie Dieu pour ton Église, pour ton pasteur, pour les frères et sœurs qui te soutiennent, et pour l'Église de Christ dans le monde entier." },
+        { "titre": "Pour les prières exaucées", "texte": "Rappelle-toi ce que Dieu a fait pour toi ou pour d'autres après avoir prié. Remercie-Le pour chaque réponse. « Rendez grâces à l'Éternel, car il est bon, car sa miséricorde dure à toujours » (Psaume 136:1)." }
+      ]
+    },
+    "repentance": {
+      "titre": "Repentance",
+      "minutes": 30,
+      "consigne": "Demande à Dieu de te montrer ce qui doit être nettoyé. Confesse, puis reçois le pardon.",
+      "aide": "La repentance n'est pas se punir. C'est dire la vérité à Dieu, qui pardonne. Prends ton temps : nomme les choses, ne reste pas dans le vague. Un cœur encombré de péchés cachés freine toute la nuit.",
+      "sujets": [
+        { "titre": "Demande à Dieu de te sonder", "texte": "Dis : « Sonde-moi, ô Dieu, et connais mon cœur ; éprouve-moi, et connais mes pensées » (Psaume 139:23-24). Attends en silence. Laisse revenir ce qu'Il te montre." },
+        { "titre": "L'orgueil et l'indépendance", "texte": "Confesse les moments où tu as voulu tout faire sans Dieu, où tu t'es cru meilleur que d'autres. « Dieu résiste aux orgueilleux, mais il fait grâce aux humbles » (Jacques 4:6)." },
+        { "titre": "Le pardon refusé", "texte": "Y a-t-il une personne à qui tu n'as pas pardonné ? Nomme-la devant Dieu et pardonne-lui. Jésus dit : quand tu pries, si tu as quelque chose contre quelqu'un, pardonne (Marc 11:25)." },
+        { "titre": "Les paroles et les pensées", "texte": "Confesse les mensonges, les moqueries, les médisances, les pensées impures. « Qu'il ne sorte de votre bouche aucune parole mauvaise » (Éphésiens 4:29)." },
+        { "titre": "L'argent et les idoles", "texte": "Confesse l'amour de l'argent, l'attachement à ton téléphone, à ton image, à tout ce qui prend la place de Dieu. « L'amour de l'argent est la racine de tous les maux » (1 Timothée 6:10)." },
+        { "titre": "La prière et la Parole négligées", "texte": "Confesse les jours où tu n'as pas cherché Dieu, où tu as laissé refroidir ton premier amour (Apocalypse 2:4). Dis-Lui que tu reviens." },
+        { "titre": "Les péchés de ton pays et de l'Église", "texte": "Comme Daniel, confesse « nous avons péché » pour ton peuple : la corruption, l'injustice, l'occultisme, l'immoralité, l'indifférence des croyants (Daniel 9:4-5). Dieu promet d'exaucer son peuple quand il s'humilie, prie, cherche sa face et abandonne ses mauvaises voies (2 Chroniques 7:14)." },
+        { "titre": "Reçois le pardon", "texte": "Remercie Dieu : Si nous confessons nos péchés, Dieu est fidèle et juste pour nous les pardonner (1 Jean 1:9). Tu es pardonné. Relève-toi dans la joie." }
+      ]
+    },
+    "louange": {
+      "titre": "Louange et adoration",
+      "minutes": 90,
+      "consigne": "C'est le grand temps de la nuit : une à deux heures pour louer et adorer. Chante, parle, proclame, puis fais silence.",
+      "aide": "Louer, c'est dire ce que Dieu a fait. Adorer, c'est dire qui Il est. Si tu te sens sec, lis un psaume à voix haute : ses mots te porteront. Chante tout bas si tu ne veux pas réveiller la maison. Prends le temps : c'est ici que beaucoup de nuits se gagnent.",
+      "debut": [
+        { "titre": "Entre par la reconnaissance", "texte": "« Entrez dans ses portes avec des louanges, dans ses parvis avec des cantiques ! » (Psaume 100:4). Commence par dire : « Seigneur, tu es bon. »" },
+        { "titre": "Proclame qui est Dieu", "texte": "Dis à voix haute ses noms : le Créateur, le Père, le Berger (Psaume 23:1), le Prince de la paix (Ésaïe 9:5), le Roi des rois. Prends ton temps pour chacun." }
+      ],
+      "fin": [
+        { "titre": "Chante", "texte": "Chante les cantiques que tu connais, doucement ou à pleine voix. Choisis des chants qui parlent de la grandeur de Dieu, de la croix, de la victoire. Aucune mélodie n'est imposée : chante ce que tu connais." },
+        { "titre": "Raconte ses œuvres", "texte": "Redis à Dieu ce qu'Il a fait : la création, la croix, la résurrection, ta propre histoire. Une génération raconte tes œuvres à l'autre (Psaume 145:4)." },
+        { "titre": "Adore en silence", "texte": "Garde le silence. Regarde Dieu avec ton cœur. Ne demande rien. Les vingt-quatre anciens disent : tu es digne, Seigneur, de recevoir la gloire, l'honneur et la puissance (Apocalypse 4:11)." }
+      ]
+    },
+    "parole": {
+      "titre": "Prière de la Parole",
+      "minutes": 20,
+      "consigne": "Transforme des promesses de la Bible en prières. Tu pries sur ce que Dieu a déjà dit.",
+      "aide": "Prends la promesse, dis-la à Dieu avec tes mots, puis applique-la à ta situation. Par exemple : « Seigneur, tu as dit de t'appeler et que tu me répondrais. Je t'appelle maintenant. »",
+      "promesses": [
+        { "titre": "Appelle, et je te répondrai", "texte": "Jérémie 33:3 : Dieu promet de répondre à celui qui L'appelle. Appelle-Le pour ce que tu portes cette nuit." },
+        { "titre": "Ne crains pas", "texte": "Ésaïe 41:10 : Dieu promet d'être avec toi et de te soutenir. Dis-Lui tes peurs, puis reçois sa promesse." },
+        { "titre": "Il pourvoira", "texte": "Philippiens 4:19 : Dieu comblera tous tes besoins selon sa richesse. Nomme tes besoins devant Lui." },
+        { "titre": "La paix qui dépasse", "texte": "Philippiens 4:6-7 : prie pour toute chose, et la paix de Dieu gardera ton cœur. Dépose chaque inquiétude." },
+        { "titre": "Il écoute", "texte": "1 Jean 5:14-15 : si nous demandons selon sa volonté, Il nous écoute. Prie pour ce qui est dans sa volonté." },
+        { "titre": "Sa force dans ma faiblesse", "texte": "2 Corinthiens 12:9 : la grâce de Dieu te suffit. Offre-Lui ta faiblesse." },
+        { "titre": "Il combat pour toi", "texte": "Exode 14:14 : l'Éternel combattra pour vous. Remets-lui tes combats." },
+        { "titre": "Il guérit et relève", "texte": "Psaume 103:2-3 : Dieu pardonne toutes tes iniquités et guérit toutes tes maladies. Prie pour la guérison, la tienne et celle des autres." },
+        { "titre": "Il conduit", "texte": "Proverbes 3:5-6 : confie-toi en l'Éternel, et il aplanira tes sentiers. Présente-Lui les décisions à prendre." }
+      ]
+    },
+    "semaine": {
+      "titre": "Ma semaine devant Dieu",
+      "minutes": 20,
+      "consigne": "Reprends ce que tu as vécu cette semaine. Présente-le à Dieu, un point après l'autre.",
+      "aide": "C'est ici que la nuit devient personnelle. Pense aux gens qui t'ont demandé de prier, aux nouvelles reçues, aux choses qui t'ont pesé ou réjoui. Tu peux ouvrir ton cahier et lire.",
+      "sujets": [
+        { "titre": "Ceux qui t'ont demandé de prier", "texte": "Pense aux personnes qui t'ont demandé de prier pour elles cette semaine. Nomme chacune devant Dieu, avec son besoin précis." },
+        { "titre": "Les nouvelles de la semaine", "texte": "Les nouvelles de ton quartier, de ton pays, du monde : ce qui t'a ému, inquiété ou révolté. Présente-les à Dieu." },
+        { "titre": "Ce qui t'a pesé", "texte": "Ce qui t'a blessé, fatigué, découragé cette semaine. Dépose-le. « Déchargez-vous sur lui de tous vos soucis, car lui-même prend soin de vous » (1 Pierre 5:7)." },
+        { "titre": "Ce qui t'a réjoui", "texte": "Les petites victoires, les bonnes nouvelles, les réponses de Dieu. Remercie-Le et demande plus." }
+      ]
+    },
+    "ecoute": {
+      "titre": "Écoute de Dieu",
+      "minutes": 40,
+      "consigne": "Tais-toi devant Dieu. C'est le moment d'écouter, de lire et d'écrire.",
+      "aide": "Dieu parle d'abord par sa Parole écrite. Si une pensée te vient, note-la, mais ne dis pas trop vite « Dieu m'a dit ». Teste-la avec la Bible et avec des frères et sœurs mûrs. Les pensées de la nuit se jugent le matin.",
+      "sujets": [
+        { "titre": "Tiens-toi à ton poste", "texte": "Comme le prophète Habacuc, tiens-toi à ton poste et regarde pour voir ce que Dieu te dira (Habacuc 2:1). Ne parle plus. Attends." },
+        { "titre": "Lis un passage lentement", "texte": "Ouvre ta Bible. Lis un psaume ou un passage de l'Évangile, lentement, deux fois. « Ta parole est une lampe à mes pieds » (Psaume 119:105). Quel mot s'arrête sur ton cœur ?" },
+        { "titre": "Écris ce qui vient", "texte": "Note dans ton cahier ce qui te vient : un verset, un nom, une direction. Écris aussi ce que tu veux changer." },
+        { "titre": "Teste avant de croire", "texte": "« Examinez toutes choses ; retenez ce qui est bon » (1 Thessaloniciens 5:21). Ce que tu as noté doit s'accorder avec la Bible." }
+      ]
+    },
+    "cloture": {
+      "titre": "Clôture et repos",
+      "minutes": 10,
+      "consigne": "Termine en paix. Remets la nuit à Dieu. Puis va te reposer.",
+      "aide": "Si le sommeil est venu plus tôt, ce n'est pas un échec : Élie, épuisé, s'est endormi, et Dieu lui a envoyé un ange avec de la nourriture (1 Rois 19:5-8). Dieu donne le repos à ceux qu'Il aime (Psaume 127:2).",
+      "sujets": [
+        { "titre": "Remets la nuit à Dieu", "texte": "Remets à Dieu tout ce que tu as prié. Dis : « Seigneur, je ne peux rien faire de plus. Tu fais le reste. »" },
+        { "titre": "Reçois la bénédiction", "texte": "Reçois cette bénédiction : « Que l'Éternel te bénisse, et qu'il te garde ! Que l'Éternel fasse luire sa face sur toi, et qu'il t'accorde sa grâce ! Que l'Éternel tourne sa face vers toi, et qu'il te donne la paix ! » (Nombres 6:24-26)." },
+        { "titre": "Va te reposer", "texte": "Remercie Dieu pour cette nuit. Bois de l'eau, repose-toi. « Je me couche et je m'endors en paix » (Psaume 4:9)." }
+      ]
+    }
+  }
+}

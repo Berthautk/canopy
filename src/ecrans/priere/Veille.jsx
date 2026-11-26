@@ -9,6 +9,7 @@ import { lireEnCours, ecrireEnCours, effacerEnCours } from '../../donnees/veille
 import { noterPriere, aiPrie } from '../../donnees/priere.js';
 import { useSignal, useMemoire } from '../../outils/signal.js';
 import { SujetsUnParUn } from './SujetsUnParUn.jsx';
+import { coucherDuJour } from '../../donnees/coucher.js';
 import { Accordeon } from '../../composants/Accordeon.jsx';
 import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 import { PriereGuidee } from '../../composants/PriereGuidee.jsx';
@@ -174,6 +175,7 @@ export function Veille({ id, guide }) {
         e.texte && { id: 'aide', titre: "Pour t'aider dans cette étape", contenu: <p class="phase__texte"><TexteRefs texte={e.texte} /></p> },
         GUIDE_PHASES?.phases?.['p' + e.num] && { id: 'guide', titre: GUIDE_PHASES.phases['p' + e.num].titre, icone: 'info', contenu: <p><TexteRefs texte={GUIDE_PHASES.phases['p' + e.num].texte} /></p> },
         e.num === 'proc' && GUIDE_PHASES?.phases?.proc && { id: 'guide', titre: GUIDE_PHASES.phases.proc.titre, icone: 'info', contenu: <p><TexteRefs texte={GUIDE_PHASES.phases.proc.texte} /></p> },
+        id === 'soir' && derniere && { id: 'coucher', titre: 'Avant de dormir : ' + coucherDuJour().titre, icone: 'lune', contenu: <><p><TexteRefs texte={`Lis lentement ${coucherDuJour().psaume.replace('Ps ', 'Psaume ')}.`} /></p>{coucherDuJour().sujets.map((x) => <p><i>{x}</i></p>)}</> },
         n === 0 && v.verset && { id: 'parole', titre: 'La parole du jour', icone: 'bible', contenu: <CarteVerset reference={v.verset} /> },
       ]} />
       {derniere && <NoteDeFin id={v.id} />}

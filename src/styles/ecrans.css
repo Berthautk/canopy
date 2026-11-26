@@ -1369,3 +1369,22 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .un-par-un__ecoute .chip { min-height: 38px; padding: 6px 4px; }
 .un-par-un__nav { margin: 6px 4px; }
 .quiz__compteur { margin: 4px 0; }
+/* Nuit de prière */
+.nuit__tete { text-align: center; padding: 16px 12px; margin-top: 10px; border-radius: 18px; background: linear-gradient(160deg, #1b2a4a, #2e4272); color: #fff; }
+.nuit__tete h2 { color: #fff; margin: 6px 0 0; font-size: 1.2rem; }
+.nuit__texte { line-height: 1.6; font-size: 1.02rem; }
+.nuit__semaine h2 { font-family: var(--police-titre); margin: 6px 0; font-size: 1.2rem; color: var(--titre); }
+.nuit__semaine p { margin: 4px 0; }
+.nuit__choix { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.nuit__choix .chip { display: flex; flex-direction: column; align-items: center; padding: 10px 4px; border-radius: 14px; }
+.nuit__choix .chip small { font-size: .72rem; opacity: .85; }
+.nuit__etapes { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+.nuit__etapes li { display: flex; gap: 10px; align-items: center; padding: 8px 10px; border-radius: 12px; background: var(--surface); border: 1px solid var(--bord); }
+.nuit__heure { font-weight: 700; color: var(--or-fonce); min-width: 52px; font-variant-numeric: tabular-nums; }
+.nuit__nom { display: flex; flex-direction: column; line-height: 1.25; }
+.nuit__nom small { opacity: .75; }
+.nuit__chrono { padding: 10px 14px; margin: 10px 0; }
+.nuit__temps b { font-size: 1.7rem; font-variant-numeric: tabular-nums; color: var(--titre); }
+.nuit__temps span { font-size: .85rem; opacity: .8; }
+.nuit__reglage { display: flex; gap: 14px; justify-content: flex-end; }
+.nuit__semaine .pastille { display: inline-block; width: auto; }

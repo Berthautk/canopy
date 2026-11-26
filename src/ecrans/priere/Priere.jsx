@@ -80,9 +80,9 @@ export function Priere({ section = null }) {
             </span>
             <Icone nom="chevron" taille={20} />
           </a>))}</div>
-        <a class="carte ligne" href="#/priere/sommeil" style="margin-top:8px">
+        <a class="carte ligne" href="#/priere/nuit" style="margin-top:8px">
           <span class="ligne__icone"><Icone nom="lune" /></span>
-          <span class="ligne__corps"><span class="ligne__titre" style="display:block">Prier pour s'endormir</span><span class="ligne__desc">Un psaume et une courte prière lus doucement.</span></span>
+          <span class="ligne__corps"><span class="ligne__titre" style="display:block">Nuit de prière</span><span class="ligne__desc">Veiller avec Dieu, étape par étape, selon le thème de la semaine.</span></span>
           <Icone nom="chevron" taille={20} />
         </a>
 
@@ -124,10 +124,10 @@ export function Priere({ section = null }) {
         ))}
       </div>
 
-      <a class="carte ligne" href="#/priere/sommeil" style="margin-top:8px">
+      <a class="carte ligne" href="#/priere/nuit" style="margin-top:8px">
         <span class="ligne__icone"><Icone nom="lune" /></span>
-        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Prier pour s'endormir</span>
-          <span class="ligne__desc">Un psaume et une courte prière lus doucement, puis la voix s'arrête toute seule.</span></span>
+        <span class="ligne__corps"><span class="ligne__titre" style="display:block">Nuit de prière</span>
+          <span class="ligne__desc">Veiller avec Dieu, étape par étape, selon le thème de la semaine.</span></span>
         <span class="veille-ligne__ouvrir">Ouvrir <Icone nom="chevron" taille={18} /></span>
       </a>
 
