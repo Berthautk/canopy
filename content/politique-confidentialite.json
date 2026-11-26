@@ -27,6 +27,7 @@
 "Le suivi des nouveaux convertis (seulement si vous l'utilisez)",
 [
 "Quand un encadreur inscrit un nouveau converti, le serveur de Yeshaya garde son prénom et un code. Quand le nouveau converti entre ce code, il accepte que les réponses écrites dans son carnet (questions, vrai ou faux, lectures cochées) soient envoyées au serveur pour être vues par son encadreur, et seulement par lui.",
+"Si l'encadreur fixe un rendez-vous, la date, l'heure et le lieu (s'il les écrit) sont gardés avec le suivi, pour que le nouveau converti les voie. Le responsable de l'application voit seulement des totaux (nombre de suivis, de convertis reliés, de rendez-vous), jamais un prénom ni une réponse.",
 "Le bilan de vie n'est jamais envoyé : il reste uniquement sur le téléphone du nouveau converti.",
 "L'un ou l'autre peut arrêter le suivi à tout moment (« Arrêter le lien » ou « Arrêter le suivi ») : les réponses sont alors effacées du serveur. Un suivi inactif depuis deux ans est effacé automatiquement."
 ]

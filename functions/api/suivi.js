@@ -31,6 +31,8 @@ async function preparer(db) {
     await db.prepare('ALTER TABLE suivis ADD COLUMN ouvert INTEGER NOT NULL DEFAULT 1').run();
     await db.prepare('UPDATE suivis SET ouvert = 0 WHERE cle_disciple IS NOT NULL').run();
   } catch { /* la colonne existe déjà */ }
+  // Rendez-vous fixé par le berger : date-heure locale (AAAA-MM-JJTHH:MM) et lieu.
+  for (const c of ['rdv TEXT', 'rdv_lieu TEXT']) { try { await db.prepare('ALTER TABLE suivis ADD COLUMN ' + c).run(); } catch { /* déjà là */ } }
 }
 const lire = (db, code) => db.prepare('SELECT * FROM suivis WHERE code = ?').bind(code).first();
 
@@ -111,7 +113,7 @@ export async function onRequestPost({ request, env }) {
 
   // État du suivi : pas en cours ; pour le berger, aussi les carnets.
   if (c.action === 'etat') {
-    const r = { ok: true, prenom: s.prenom, pas: s.pas, rejoint: s.rejoint || null };
+    const r = { ok: true, prenom: s.prenom, pas: s.pas, rejoint: s.rejoint || null, rdv: s.rdv || null, lieu: s.rdv_lieu || null };
     if (berger) {
       r.ouvert = !s.cle_disciple || !!s.ouvert;
       const { results } = await db.prepare('SELECT pas, data, maj FROM carnets WHERE code = ?').bind(code).all();
@@ -125,6 +127,15 @@ export async function onRequestPost({ request, env }) {
     if (!PAS.test(c.pas || '')) return json({ ok: false }, 400);
     await db.prepare('UPDATE suivis SET pas = ?, maj = ? WHERE code = ?').bind(c.pas, maintenant(), code).run();
     return json({ ok: true, pas: c.pas });
+  }
+
+  // Le berger fixe (ou annule) le rendez-vous. Le disciple le lira à l'ouverture de l'application.
+  if (c.action === 'rdv' && berger) {
+    const rdv = String(c.rdv || '');
+    if (rdv && !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(rdv)) return json({ ok: false, erreur: 'date invalide' }, 400);
+    const lieu = rdv ? String(c.lieu || '').trim().slice(0, 80) : '';
+    await db.prepare('UPDATE suivis SET rdv = ?, rdv_lieu = ?, maj = ? WHERE code = ?').bind(rdv || null, lieu || null, maintenant(), code).run();
+    return json({ ok: true, rdv: rdv || null, lieu: lieu || null });
   }
 
   // Corriger le prénom : seul le berger.

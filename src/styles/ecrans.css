@@ -1329,3 +1329,9 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .jeune__type small { font-weight: 400; color: var(--or-fonce); }
 .jeune__type p { margin: 0; }
 .jeune__bloc { margin-top: 10px; }
+/* Rendez-vous d'accompagnement (accueil) */
+.rendez-vous { margin: 12px 0; padding: 12px 14px; border-left: 4px solid var(--or); }
+.rendez-vous__titre { display: flex; align-items: center; gap: 8px; font-family: var(--police-titre); font-size: 1.05rem; color: var(--titre); margin: 0 0 8px; }
+.rendez-vous__ligne { display: flex; justify-content: space-between; align-items: flex-end; gap: 10px; flex-wrap: wrap; }
+.rendez-vous__ligne p { margin: 0 0 6px; line-height: 1.45; }
+.rendez-vous__rappel { width: 100%; margin-top: 8px; }

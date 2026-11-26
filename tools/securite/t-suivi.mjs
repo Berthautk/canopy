@@ -35,6 +35,25 @@ ok(!vieux.ok && vieux.statut === 403, "l'ancien téléphone perd l'accès");
 ok((await P({ action: 'supprimer', code, cle: j3.cle })).ok, 'le disciple coupe le lien');
 ok((await P({ action: 'etat', code, cle: cleB })).ok, 'le suivi du berger existe toujours');
 
+// 6b. Rendez-vous : seul le berger le fixe ; le disciple le lit.
+const j4 = await P({ action: 'rouvrir', code, cle: cleB }).then(() => P({ action: 'rejoindre', code, prenom: 'Emmanuel' }, { ip: '9.9.9.3' }));
+ok((await P({ action: 'rdv', code, cle: cleB, rdv: '2099-12-05T16:00', lieu: 'Chez moi' })).ok, 'le berger fixe un rendez-vous');
+ok(!(await P({ action: 'rdv', code, cle: j4.cle, rdv: '2099-01-01T10:00' })).ok, 'le disciple ne peut pas le changer');
+ok(!(await P({ action: 'rdv', code, cle: cleB, rdv: 'demain' })).ok, 'date invalide refusée');
+const vu = await P({ action: 'etat', code, cle: j4.cle });
+ok(vu.rdv === '2099-12-05T16:00' && vu.lieu === 'Chez moi', 'le disciple lit le rendez-vous et le lieu');
+ok((await P({ action: 'rdv', code, cle: cleB, rdv: '' })).ok && (await P({ action: 'etat', code, cle: j4.cle })).rdv === null, 'le berger annule le rendez-vous');
+await P({ action: 'rdv', code, cle: cleB, rdv: '2099-12-05T16:00', lieu: 'Chez moi' });
+
+// 6c. Statistiques du suivi pour l'administrateur : des totaux seulement.
+{
+  const { onRequestGet } = await import('../../functions/api/stats.js');
+  const envA = { DB, ADMIN_MOT_DE_PASSE: 'motdepasse-admin' };
+  const rep = await lireRep(await onRequestGet({ request: req({}, { auth: 'Bearer motdepasse-admin', ip: '5.5.5.5' }), env: envA }));
+  ok(rep.ok && rep.suivi && rep.suivi.crees >= 1 && rep.suivi.rejoints >= 1 && rep.suivi.rdvAVenir >= 1, 'l\'admin voit les totaux du suivi : ' + JSON.stringify(rep.suivi));
+  ok(!JSON.stringify(rep).includes('Emmanuel') && !JSON.stringify(rep).includes(code), 'aucun prénom ni code dans ces statistiques');
+}
+
 // 7. Mauvaise clé = refus, et au bout de 20 essais l'appareil est freiné.
 let bloque = 0;
 for (let i = 0; i < 24; i++) { const r = await P({ action: 'etat', code, cle: 'x'.repeat(32) }, { ip: '7.7.7.7' }); if (r.statut === 429) bloque++; }

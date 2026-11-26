@@ -1,4 +1,6 @@
-import { useEffect } from 'preact/hooks';
+import { useEffect, useState } from 'preact/hooks';
+import { lienDisciple, actualiserDisciple } from '../donnees/suivi.js';
+import { rendezVousAVenir, quand, telechargerAgenda, rappelerSiProche, rappelsPossibles, rappelsEtat, autoriserRappels } from '../donnees/rendezVous.js';
 import { Icone } from '../composants/Icone.jsx';
 import { usePassage, cheminMontrer } from '../composants/Verset.jsx';
 import { Carrousel, Diapo } from '../composants/Carrousel.jsx';
@@ -113,6 +115,28 @@ const salutation = (prenom) => {
 };
 
 // Écran 2 : accueil.
+// Rendez-vous d'accompagnement : visible par le berger et par le disciple, avec rappel.
+function RendezVous() {
+  const lien = useSignal(lienDisciple);
+  const [, force] = useState(0);
+  useEffect(() => { actualiserDisciple().then(() => { force((n) => n + 1); rappelerSiProche(); }); }, []);
+  const liste = rendezVousAVenir(new Date(), lien).slice(0, 2);
+  const [etat, setEtat] = useState(rappelsEtat());
+  if (!liste.length) return null;
+  return (
+    <section class="carte rendez-vous">
+      <h2 class="rendez-vous__titre"><Icone nom="calendrier" taille={20} /> {liste.length > 1 ? 'Tes rendez-vous' : 'Ton rendez-vous'}</h2>
+      {liste.map((r) => (
+        <div class="rendez-vous__ligne">
+          <p><b>{r.role === 'berger' ? 'Rencontre avec ' + r.avec : 'Rencontre avec ton berger'}</b><br />{quand(r.rdv)}{r.lieu ? ' · ' + r.lieu : ''}</p>
+          <button class="lien" onClick={() => telechargerAgenda(r)}>Ajouter à mon agenda</button>
+        </div>
+      ))}
+      {rappelsPossibles() && etat === 'default' && <button class="bouton bouton--contour rendez-vous__rappel" onClick={async () => { await autoriserRappels(); setEtat(rappelsEtat()); rappelerSiProche(); }}>Me rappeler la veille et le jour même</button>}
+    </section>
+  );
+}
+
 export function Accueil() {
   const prenom = useSignal(profil).prenom;
   const derniere = useSignal(derniereEcoute);
@@ -126,6 +150,8 @@ export function Accueil() {
       </header>
 
       <BannieresDuJour />
+
+      <RendezVous />
 
       <ProchaineEtape reprendre={reprendre} />
 

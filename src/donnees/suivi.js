@@ -36,7 +36,7 @@ export async function quitterLien(effacerServeur) {
 }
 export async function actualiserDisciple() {
   const l = lienDisciple.valeur; if (l?.mode !== 'relie') return;
-  try { const d = await api('etat', { code: l.code, cle: l.cle }); if (d.pas !== l.pas) garderLien({ ...l, pas: d.pas }); } catch {}
+  try { const d = await api('etat', { code: l.code, cle: l.cle }); if (d.pas !== l.pas || (d.rdv || '') !== (l.rdv || '') || (d.lieu || '') !== (l.lieu || '')) garderLien({ ...l, pas: d.pas, rdv: d.rdv || '', lieu: d.lieu || '' }); } catch {}
 }
 export const etatEnvoi = signal({ statut: 'ok', quand: null });   // 'ok' | 'envoi' | 'attente'
 const aEnvoyer = new Set(lire('yeshaya:suivi-a-envoyer', []));
@@ -93,4 +93,10 @@ export async function avancerDisciple(dsc, pas) {
 export async function retirerDisciple(dsc) {
   if (dsc.code) { try { await api('supprimer', { code: dsc.code, cle: dsc.cle }); } catch {} }
   ecrireDisciples(lireDisciples().filter((x) => x.id !== dsc.id));
+}
+
+// Le berger fixe le rendez-vous : le disciple le verra à l'ouverture de l'application (accueil + rappel).
+export async function fixerRdv(dsc, rdv, lieu) {
+  if (dsc.code) await api('rdv', { code: dsc.code, cle: dsc.cle, rdv: rdv || '', lieu: lieu || '' });
+  ecrireDisciples(lireDisciples().map((x) => (x.id === dsc.id ? { ...x, rdv: rdv || '', lieu: lieu || '' } : x)));
 }

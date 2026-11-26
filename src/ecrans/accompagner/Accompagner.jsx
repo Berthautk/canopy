@@ -9,13 +9,14 @@ import { aller, remplacer, retourVers, revenirOuRemplacer } from '../../outils/r
 import { useSignal } from '../../outils/signal.js';
 import { compter } from '../../donnees/mesure.js';
 import { partager, copier } from '../../outils/partage.js';
+import { telechargerAgenda, dateDe, messageRdv, quand } from '../../donnees/rendezVous.js';
 import {
   lireCarnet, ecrireCarnet, marquerEnCours, lireBilan, ecrireBilan, effacerBilan,
   lireDisciples, ecrireDisciples,
 } from '../../donnees/carnet.js';
 import {
   lienDisciple, rejoindre, travaillerSeul, quitterLien, actualiserDisciple, etatEnvoi, formaterCode,
-  creerDisciple, etatDuDisciple, avancerDisciple, retirerDisciple, renommerDisciple, effacerMesDonnees, rouvrirCode,
+  creerDisciple, etatDuDisciple, avancerDisciple, retirerDisciple, renommerDisciple, effacerMesDonnees, rouvrirCode, fixerRdv,
 } from '../../donnees/suivi.js';
 
 // Suivi des nouveaux convertis (« Former le chrétien ») : méthode inspirée de La Nouvelle Vie en Christ.
@@ -290,7 +291,7 @@ export function NouveauDisciple() {
 
 // Page d'un disciple : tout son suivi au même endroit.
 export function FicheDisciple({ id }) {
-  const [l, setL] = useState(lireDisciples), [serveur, setServeur] = useState(null);
+  const [l, setL] = useState(lireDisciples), [serveur, setServeur] = useState(null), [enregRdv, setEnregRdv] = useState(false);
   const d = l.find((x) => x.id === id);
   const maj = (k, v) => { const n = l.map((x) => (x.id === id ? { ...x, [k]: v } : x)); setL(n); ecrireDisciples(n); };
   useEffect(() => { if (d?.code) etatDuDisciple(d).then((s) => { setServeur(s); if (s.pas && s.pas !== d.pas) maj('pas', s.pas); }).catch(() => setServeur({ horsLigne: true })); }, [id]);
@@ -347,7 +348,18 @@ export function FicheDisciple({ id }) {
       <section class="carte bloc">
         <label class="etiquette-champ" style="margin-top:0" for="fd-rdv">Date et heure du rendez-vous</label>
         <input id="fd-rdv" class="champ" type="datetime-local" value={d.rdv} onInput={(e) => maj('rdv', e.currentTarget.value)} />
-        {d.rdv && <button class="lien" onClick={() => agenda(d, p)}>Ajouter ce rendez-vous à mon agenda</button>}
+        <label class="etiquette-champ" for="fd-lieu">Lieu (facultatif)</label>
+        <input id="fd-lieu" class="champ" type="text" maxLength={80} placeholder="Chez moi, à l'église, par téléphone…" value={d.lieu || ''} onInput={(e) => maj('lieu', e.currentTarget.value)} />
+        {d.rdv && <>
+          <button class="bouton bouton--plein" style="width:100%;margin-top:10px" disabled={enregRdv} onClick={async () => {
+            setEnregRdv(true);
+            try { await fixerRdv(d, d.rdv, d.lieu || ''); setL(lireDisciples()); notifier(d.code ? `Rendez-vous enregistré. ${d.prenom} le verra à l'ouverture de l'application.` : 'Rendez-vous enregistré.'); }
+            catch (err) { notifier(err.message); } setEnregRdv(false);
+          }}>{enregRdv ? 'Envoi…' : 'Enregistrer ce rendez-vous'}</button>
+          <p class="ligne__desc">{d.code ? `${d.prenom} verra ce rendez-vous sur l'accueil de son application. Toi aussi, avec un rappel la veille et le jour même.` : `Ce rendez-vous apparaît sur ton accueil. ${d.prenom} n'est pas relié par un code : préviens-le toi-même.`}</p>
+          <button class="lien" onClick={() => telechargerAgenda({ role: 'berger', avec: d.prenom, id: d.id, date: dateDe(d.rdv), lieu: d.lieu })}>Ajouter à mon agenda (avec rappel)</button>{' · '}
+          <button class="lien" onClick={() => partager({ titre: 'Rendez-vous', texte: messageRdv(d.prenom, d.rdv, d.lieu) })}>Prévenir {d.prenom} par WhatsApp</button>
+        </>}
         <label class="etiquette-champ" for="fd-notes">Mes notes : points à reprendre, sujets de prière</label>
         <textarea id="fd-notes" class="champ champ--zone" rows={4} value={d.notes} onInput={(e) => maj('notes', e.currentTarget.value)} />
         <p class="ligne__desc" style="margin-bottom:0">Ces notes restent sur ton téléphone. {d.prenom} ne les voit pas.</p>
@@ -714,12 +726,3 @@ export function BilanSynthese() {
   );
 }
 
-function agenda(d, p) {
-  const t = new Date(d.rdv), f = new Date(t.getTime() + 2 * 3600e3);
-  const z = (x) => x.toISOString().replace(/[-:]/g, '').slice(0, 15) + 'Z';
-  const ics = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Yeshaya//Accompagnement//FR', 'BEGIN:VEVENT', `UID:yeshaya-${d.id}-${z(t)}@yeshaya`, `DTSTAMP:${z(new Date())}`, `DTSTART:${z(t)}`, `DTEND:${z(f)}`,
-    `SUMMARY:Rencontre avec ${d.prenom}${p ? ' · pas ' + p.numero : ''}`, 'BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:Rencontre d\'accompagnement', 'TRIGGER:-PT2H', 'END:VALARM', 'END:VEVENT', 'END:VCALENDAR'].join('\r\n');
-  const u = URL.createObjectURL(new Blob([ics], { type: 'text/calendar' })), a = document.createElement('a');
-  a.href = u; a.download = 'rencontre-' + d.prenom.toLowerCase().replace(/[^a-z0-9]+/g, '-') + '.ics'; document.body.appendChild(a); a.click(); a.remove();
-  setTimeout(() => URL.revokeObjectURL(u), 5000); notifier('Ouvre le fichier pour l\'ajouter à ton agenda.');
-}

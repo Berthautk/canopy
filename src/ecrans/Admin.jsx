@@ -35,7 +35,7 @@ export function Admin() {
       if (!r.ok || !d.ok) { setEtat({ erreur: d.erreur || 'Service indisponible (' + r.status + ').' }); return; }
       try { sessionStorage.setItem('yeshaya:admin', m); } catch {}
       const q = await fetch('/api/priere', { headers: { authorization: 'Bearer ' + m }, cache: 'no-store', signal: AbortSignal.timeout?.(20000) }).then((x) => x.json()).catch(() => ({}));
-      setEtat({ lignes: d.lignes, depuis: d.depuis, requetes: q.requetes || [] });
+      setEtat({ lignes: d.lignes, depuis: d.depuis, suivi: d.suivi, requetes: q.requetes || [] });
     } catch (e) { setEtat({ erreur: e?.name === 'TimeoutError' ? 'Le serveur ne répond pas (20 s). Réessaie dans un moment.' : 'Pas de connexion internet.' }); }
   }
   useEffect(() => { if (mdp && etat.lignes) charger(); }, [jours]);
@@ -89,6 +89,18 @@ export function Admin() {
         <div class="carte"><b>{nombre(total((c) => c.startsWith('enseignement:')))}</b><span>enseignements ouverts</span></div>
         <div class="carte"><b>{nombre(total((c) => c.startsWith('enseignement-fini:')))}</b><span>enseignements terminés</span></div>
       </div>
+      {etat.suivi && <section class="carte bloc"><h3>Suivi des nouveaux convertis</h3>
+        <p class="ligne__desc">Totaux exacts, comptés sur le serveur (pas besoin que la personne ait accepté les statistiques). Aucun prénom ni aucune réponse n'apparaît ici.</p>
+        <div class="admin__chiffres">
+          <div class="carte"><b>{nombre(etat.suivi.crees)}</b><span>suivis créés par des bergers</span></div>
+          <div class="carte"><b>{nombre(etat.suivi.rejoints)}</b><span>nouveaux convertis reliés à leur berger</span></div>
+          <div class="carte"><b>{nombre(etat.suivi.nouveaux7)}</b><span>nouveaux suivis ces 7 jours</span></div>
+          <div class="carte"><b>{nombre(etat.suivi.actifs14)}</b><span>suivis actifs ces 14 jours</span></div>
+          <div class="carte"><b>{nombre(etat.suivi.endormis)}</b><span>suivis endormis (rien depuis 30 jours)</span></div>
+          <div class="carte"><b>{nombre(etat.suivi.attenteCode)}</b><span>codes jamais utilisés (plus de 3 jours)</span></div>
+          <div class="carte"><b>{nombre(etat.suivi.rdvAVenir)}</b><span>rendez-vous à venir</span></div>
+          <div class="carte"><b>{nombre(etat.suivi.carnets)}</b><span>pas du carnet remplis par les convertis</span></div>
+        </div></section>}
       {decisions > 0 && <section class="carte bloc"><h3>D'où viennent les décisions</h3>
         {parCle('decision').map(([k, n]) => <p class="admin__ligne"><span>{k === 'parcours' ? 'Parcours Nouveau converti' : k === 'app' ? 'Autre' : nomDe([...OUTILS, ...APPROCHES, ...DIALOGUES], k)}</span><b>{n}</b></p>)}</section>}
       <section class="carte bloc"><h3>Où vont les utilisateurs</h3>
