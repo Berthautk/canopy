@@ -101,6 +101,10 @@ export function Admin() {
           <div class="carte"><b>{nombre(etat.suivi.rdvAVenir)}</b><span>rendez-vous à venir</span></div>
           <div class="carte"><b>{nombre(etat.suivi.carnets)}</b><span>pas du carnet remplis par les convertis</span></div>
         </div></section>}
+      {parCle('commence').length > 0 && <section class="carte bloc"><h3>Commencer et finir</h3>
+        <p class="ligne__desc">Combien de personnes vont jusqu'au bout de ce qu'elles commencent. Un taux bas veut dire que la rubrique est trop longue, trop lourde, ou pas assez fluide.</p>
+        {parCle('commence').map(([k, n]) => { const f = parCle('termine').find(([x]) => x === k)?.[1] || 0; return <p class="admin__ligne"><span>{{ veille: 'Veilles', nuit: 'Nuits de prière', priere: 'Prières sur mesure', enseignement: 'Enseignements', jeune: 'Jeûne' }[k] || k}</span><b>{nombre(f)} sur {nombre(n)} · {Math.round((f / n) * 100)} %</b></p>; })}
+      </section>}
       {decisions > 0 && <section class="carte bloc"><h3>D'où viennent les décisions</h3>
         {parCle('decision').map(([k, n]) => <p class="admin__ligne"><span>{k === 'parcours' ? 'Parcours Nouveau converti' : k === 'app' ? 'Autre' : nomDe([...OUTILS, ...APPROCHES, ...DIALOGUES], k)}</span><b>{n}</b></p>)}</section>}
       <section class="carte bloc"><h3>Où vont les utilisateurs</h3>

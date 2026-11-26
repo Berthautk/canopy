@@ -1415,3 +1415,11 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .fin-priere__amen h2 { margin: 6px 0; font-family: var(--police-titre); }
 .reprises__ligne small { display: block; }
 .reprises__fidelite small { font-size: .82rem; }
+/* Pour quoi veux-tu prier ? */
+.champ-prier { margin: 12px 0; }
+.champ-prier__etiquette { display: block; font-family: var(--police-titre); font-weight: 700; color: var(--titre); margin: 0 0 6px 2px; }
+.champ-prier__ligne { display: flex; gap: 8px; }
+.champ-prier__ligne .champ { flex: 1; min-width: 0; }
+.champ-prier__ligne .bouton { flex: none; width: 52px; padding: 0; }
+.champ-prier__idees { margin-top: 8px; flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
+.champ-prier__idees .chip { flex: none; padding: 6px 12px; font-size: .85rem; }

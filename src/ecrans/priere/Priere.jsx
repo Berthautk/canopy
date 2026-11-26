@@ -7,6 +7,7 @@ import { BoutonLecture, BoutonTelecharger } from '../../composants/Audio.jsx';
 import { notifier } from '../../composants/Notification.jsx';
 import { SujetsACocher, GuidePhase, blocsSujets } from './Veille.jsx';
 import { SujetsUnParUn } from './SujetsUnParUn.jsx';
+import { ChampPrier } from './Mesure.jsx';
 import { Accordeon } from '../../composants/Accordeon.jsx';
 import { PriereGuidee } from '../../composants/PriereGuidee.jsx';
 import { SerieDeVeilles, SemaineDePriere, PrierEnsemble, MesDernieresNotes } from './Veille.jsx';
@@ -47,6 +48,7 @@ export function Priere({ section = null }) {
   return (
     <div class="page">
       {!section && <Banniere image="/assets/photos/banniere-priere.webp" titre="Prière" sous="Approche-toi de Dieu, parle-lui et intercède pour les autres." />}
+      {!section && <ChampPrier />}
 
       {v && !section && (
         <a class="carte prier-maintenant" href={'#/priere/veille/' + v.id.replace('veille-', '')}>
