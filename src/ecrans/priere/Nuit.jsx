@@ -61,8 +61,8 @@ function Plan({ revoir, commencer }) {
       <Banniere image="/assets/photos/banniere-priere.webp" titre="Nuit de prière" sous="Veiller avec Dieu pendant que le monde dort." />
       <section class="carte bloc nuit__semaine">
         <span class="pastille pastille--or pastille--mini">Cette semaine</span>
-        <h2>Thème : {nuit.theme.court}</h2>
-        <p>{nuit.theme.accroche.replace("Aujourd'hui", 'Cette nuit')}</p>
+        <h2>{nuit.phases.find((p) => p.id === 'theme').titre}</h2>
+        <p>{nuit.phases.find((p) => p.id === 'theme').consigne.replace(/^C'est le thème de cette semaine : [^.]*\. /, '')}</p>
         <p class="ligne__desc">Nuit conseillée : <b>{JOURS[v.getDay()]} {v.getDate()} {MOIS[v.getMonth()]}</b>, la nuit du vendredi au samedi.</p>
       </section>
 

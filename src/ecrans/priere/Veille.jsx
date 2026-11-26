@@ -66,7 +66,7 @@ function AfficheDuJour({ v }) {
   return (
     <section class="affiche-jour" aria-label={`Prière du jour : ${j.theme}`}>
       <span class="affiche-jour__etiquette">Prière du jour · jour {j.numero} sur 7</span>
-      <h3>Prière pour {j.court}</h3>
+      <h3>{j.priere.charAt(0).toUpperCase() + j.priere.slice(1)}</h3>
       <p>{j.accroche}</p>
     </section>
   );
@@ -165,11 +165,11 @@ export function Veille({ id, guide }) {
       <div {...vaE(0)}>
         <h2 class="phase__titre">{e.num !== 'proc' && <span class="phase__num">{e.num}</span>}{e.titre}</h2>
         {e.sous_titre && <p class="phase__sous-titre"><TexteRefs texte={e.sous_titre} /></p>}
-        {e.theme && <p class="phase__theme"><Icone nom="priere" taille={15} /> Aujourd'hui : prière pour {e.theme}</p>}
+        {e.theme && <p class="phase__theme"><Icone nom="priere" taille={15} /> Aujourd'hui : {e.theme}</p>}
       </div>
       <p class="phase__consigne">{e.sujets.length > 1 ? e.sujets.length + ' consignes, une à la fois : lis, prie avec tes mots, puis touche la flèche dorée.' : 'Lis cette consigne, puis prie avec tes mots.'}</p>
       <SujetsUnParUn key={n} sujets={e.sujets} voixId={`${cleJour}-${n}`} faits={coches[n] || {}} setFaits={(f) => setCoches({ ...coches, [n]: f })}
-        intro={`${e.titre}. ${e.theme ? "Aujourd'hui : prière pour " + e.theme + '.' : ''}`} />
+        intro={`${e.titre}. ${e.theme ? "Aujourd'hui : " + e.theme + '.' : ''}`} />
       {/* Les explications sont rangées dans des volets : on les ouvre si on en a besoin (un seul à la fois). */}
       <Accordeon key={'a' + n} volets={[
         e.texte && { id: 'aide', titre: "Pour t'aider dans cette étape", contenu: <p class="phase__texte"><TexteRefs texte={e.texte} /></p> },

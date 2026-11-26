@@ -125,7 +125,8 @@
       "texte": "Remercions Dieu d'avance : il agira dans ma famille aujourd'hui. Je le bénirai en tout temps. (Psaume 34:2)"
      }
     ]
-   }
+   },
+   "priere": "prière pour la famille"
   },
   {
    "numero": 2,
@@ -251,7 +252,8 @@
       "texte": "Prions afin que je donne avec joie à l'œuvre de Dieu aujourd'hui, selon ce qu'il m'a mis à cœur. (2 Corinthiens 9:7)"
      }
     ]
-   }
+   },
+   "priere": "prière pour le travail et l'argent"
   },
   {
    "numero": 3,
@@ -377,7 +379,8 @@
       "texte": "Remercions Dieu pour ceux qui m'ont annoncé l'Évangile et m'ont aidé à grandir dans la foi. (1 Corinthiens 4:15)"
      }
     ]
-   }
+   },
+   "priere": "prière pour l'Église"
   },
   {
    "numero": 4,
@@ -503,7 +506,8 @@
       "texte": "Remercions Dieu d'avance : heureuse la nation dont l'Éternel est le Dieu. (Psaume 33:12)"
      }
     ]
-   }
+   },
+   "priere": "prière pour le pays"
   },
   {
    "numero": 5,
@@ -629,7 +633,8 @@
       "texte": "Remercions Dieu d'avance : la terre sera remplie de la connaissance de la gloire de l'Éternel. (Habacuc 2:14)"
      }
     ]
-   }
+   },
+   "priere": "prière pour les perdus et les missions"
   },
   {
    "numero": 6,
@@ -755,7 +760,8 @@
       "texte": "Remercions Dieu : comment lui rendre tous ses bienfaits ? (Psaume 116:12)"
      }
     ]
-   }
+   },
+   "priere": "prière pour la santé et la guérison"
   },
   {
    "numero": 7,
@@ -881,7 +887,8 @@
       "texte": "Remercions Dieu d'avance : l'Éternel agira en ma faveur. (Psaume 138:8)"
      }
     ]
-   }
+   },
+   "priere": "prière d'action de grâce"
   }
  ]
 }

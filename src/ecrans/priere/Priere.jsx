@@ -55,7 +55,7 @@ export function Priere({ section = null }) {
           <span class="prier-maintenant__texte">
             <span class="pastille pastille--or">Prier maintenant · {v.heures}</span>
             <span class="prier-maintenant__titre">{v.titre}</span>
-            {jourC && <span class="prier-maintenant__jour">Aujourd'hui : prière pour {jourC.court}</span>}
+            {jourC && <span class="prier-maintenant__jour">Aujourd'hui : {jourC.priere}</span>}
             <span class="prier-maintenant__bouton"><Icone nom="lecture" taille={18} /> Ouvrir et prier</span>
           </span>
         </a>

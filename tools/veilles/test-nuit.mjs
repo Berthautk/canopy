@@ -7,7 +7,7 @@ const nuit = (d, o = {}) => construireNuit({ cycle, adoration, contenu, d: new D
 ok(semaineISO(new Date(2026, 0, 1)) === 1 && semaineISO(new Date(2026, 11, 28)) === 53, 'semaines ISO (1er janvier, fin décembre 2026)');
 ok(prochaineNuit(new Date(2026, 10, 26)).getDay() === 5 && prochaineNuit(new Date(2026, 10, 27)).getDate() === 27, 'la nuit conseillée est un vendredi');
 const a = nuit('2026-11-26T10:00:00'), b = nuit('2026-12-03T10:00:00');
-ok(a.theme.numero !== b.theme.numero, `le thème change d'une semaine à l'autre (${a.theme.court} → ${b.theme.court})`);
+ok(a.theme.numero !== b.theme.numero, `le thème change d'une semaine à l'autre (${a.theme.priere} → ${b.theme.priere})`);
 const sujA = JSON.stringify(a.phases.map((p) => p.sujets)), sujB = JSON.stringify(b.phases.map((p) => p.sujets));
 ok(sujA !== sujB, 'deux nuits consécutives ne sont pas identiques');
 ok(a.phases[0].id === 'ouverture' && a.phases[1].id === 'graces' && a.phases[2].id === 'repentance' && a.phases[3].id === 'louange', "l'ordre : ouverture, grâces, repentance, louange");
@@ -19,5 +19,9 @@ const c = nuit('2026-11-26T10:00:00', { longueur: 'courte' });
 ok(c.total < a.total * 0.6 && c.total > 120, `nuit courte : ${c.total} min contre ${a.total} min`);
 ok(nuit('2026-11-26T10:00:00', { reglages: { louange: 120 } }).phases[3].minutes === 120, 'la durée d\'une phase se règle');
 ok(nuit('2026-11-26T10:00:00', { notes: ['Prier pour Marie'] }).phases.find((p) => p.id === 'semaine').sujets[0].texte === 'Prier pour Marie', 'les notes de la semaine entrent dans la nuit');
+ok(a.phases[1].titre === 'Action de grâce pour cette nuit' && /nuit/.test(a.phases[1].sujets[0].texte), "la première action de grâce remercie pour ce moment, cette nuit")
+ok(a.theme.numero === 7 && a.phases.find((p) => p.id === 'theme').titre === "Prière d'action de grâce", "le thème 7 s'appelle « Prière d'action de grâce »");
+ok(a.phases.find((p) => p.id === 'theme').sujets.some((s) => /dans ta famille|chez tes proches|dans l'Église/.test(s.titre)), "elle remercie pour ce que Dieu a fait chez les autres");
+ok(!a.phases.some((p) => /Prier pour l'action/.test(p.titre)), "plus de « prier pour l'action de grâce »");
 console.log(`  (nuit complète : ${a.total} min, de ${a.phases[0].debut} à ${a.fin})`);
 console.log(ko ? '>>> ÉCHEC' : '>>> tout passe'); process.exit(ko ? 1 : 0);

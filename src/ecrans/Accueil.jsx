@@ -39,7 +39,7 @@ function BannieresDuJour() {
   if (etat.ref) diapos.push(<Diapo lien={'#/' + cheminMontrer(etat.ref)} image="/assets/photos/banniere-accueil.webp" bas="40%"
     etiquette="Verset du jour" titre={etat.texte ? '« ' + court(etat.texte, 95) + ' »' : 'Le verset de ce jour'} texte={ecrireReference(etat.ref) + ' · toucher pour le lire en grand'} />);
   if (v) diapos.push(<Diapo lien={'#/priere/veille/' + v.id.replace('veille-', '')} image={v.image}
-    etiquette={'Prier maintenant · ' + v.heures} titre={v.titre} texte={(() => { const j = CYCLE_VEILLES.find((x) => x.numero === jourDuCycle()); return j ? `Aujourd'hui : prière pour ${j.court} · jour ${j.numero} sur 7` : v.theme; })()} />);
+    etiquette={'Prier maintenant · ' + v.heures} titre={v.titre} texte={(() => { const j = CYCLE_VEILLES.find((x) => x.numero === jourDuCycle()); return j ? `Aujourd'hui : ${j.priere} · jour ${j.numero} sur 7` : v.theme; })()} />);
   if (ens) diapos.push(<Diapo lien={'#/grandir/enseignement/' + ens.id} image={ens.image}
     etiquette="Enseignement du jour" titre={ens.titre} texte={`${ens.lecture_minutes} min · à lire ou à écouter`} />);
   if (med) diapos.push(<Diapo lien="#/bible/meditation" image="/assets/photos/bible-ouverte-table.webp"

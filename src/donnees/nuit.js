@@ -28,12 +28,18 @@ export function prochaineNuit(d = new Date()) {
 }
 
 const CLES = ['regne', 'volonte', 'pain', 'pardon', 'tentation', 'delivre', 'grace'];   // sans l'adoration : on adore dans la louange
+const accroche = (j) => (j.numero === 7 ? "Remercie Dieu pour ce qu'Il a fait dans la vie des autres, pour ce qu'Il est en train de faire, et pour tout ce qu'Il fera." : j.accroche.replace("Aujourd'hui", 'Cette nuit'));
 const arrondi5 = (m) => Math.max(5, Math.round(m / 5) * 5);
 const hhmm = (min) => { const m = ((min % 1440) + 1440) % 1440; return `${String(Math.floor(m / 60)).padStart(2, '0')}h${String(m % 60).padStart(2, '0')}`; };
 export const minutesDe = (hm) => { const [h, m] = String(hm || '22:00').split(':').map(Number); return (h || 0) * 60 + (m || 0); };
 
 // Les sujets d'un thème, pour la rubrique d'intercession : `n` sujets, qui changent d'une semaine à l'autre.
-export function sujetsDuTheme(jour, semaine, n, principal) {
+export function sujetsDuTheme(jour, semaine, n, principal, graceAutres = []) {
+  // La prière d'action de grâce (thème 7) remercie pour ce que Dieu a fait chez les autres et pour ce qu'Il fait en ce moment.
+  if (jour.numero === 7 && graceAutres.length) {
+    const tour = graceAutres.map((_, i) => graceAutres[(semaine + i) % graceAutres.length]);
+    return n >= graceAutres.length ? [...tour, ...(jour.phases?.grace || [])].slice(0, n) : tour.slice(0, n);
+  }
   const liste = [];
   const debut = semaine % CLES.length;
   for (let i = 0; i < CLES.length && liste.length < n; i++) {
@@ -72,14 +78,15 @@ export function construireNuit({ cycle, adoration, contenu, d = new Date(), long
   ajouter('parole', P.parole.titre, P.parole.minutes, { consigne: P.parole.consigne, aide: P.parole.aide, sujets: [0, 1, 2].map((i) => pr[(w + i * 3) % pr.length]) });
 
   // Intercession : le thème de la semaine d'abord (long), puis les six autres rubriques.
-  ajouter('theme', `Prier pour ${theme.court}`, 50, {
-    theme: theme.court, consigne: `C'est le thème de cette semaine : ${theme.court}. ${theme.accroche.replace("Aujourd'hui", 'Cette nuit')}`,
-    aide: 'Prends ton temps sur chaque sujet. Nomme des personnes, des situations précises. Reviens sur ce que tu as prié cette semaine dans les veilles.', sujets: sujetsDuTheme(theme, w, 12, true),
+  const maj1 = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+  ajouter('theme', maj1(theme.priere), 50, {
+    theme: theme.priere, consigne: `C'est le thème de cette semaine : ${theme.priere}. ${accroche(theme)}`,
+    aide: 'Prends ton temps sur chaque sujet. Nomme des personnes, des situations précises. Reviens sur ce que tu as prié cette semaine dans les veilles.', sujets: sujetsDuTheme(theme, w, 12, true, contenu.graceAutres),
   });
   for (const j of cycle) {
     if (j.numero === theme.numero) continue;
-    ajouter('rubrique-' + j.numero, `Prier pour ${j.court}`, 15, {
-      theme: j.court, consigne: j.accroche.replace("Aujourd'hui", 'Cette nuit'), aide: 'Quinze minutes pour cette rubrique : prie les sujets, puis ajoute les noms que Dieu te met à cœur.', sujets: sujetsDuTheme(j, w, 6, false),
+    ajouter('rubrique-' + j.numero, maj1(j.priere), 15, {
+      theme: j.priere, consigne: accroche(j), aide: 'Quinze minutes pour cette rubrique : prie les sujets, puis ajoute les noms que Dieu te met à cœur.', sujets: sujetsDuTheme(j, w, 6, false, contenu.graceAutres),
     });
   }
 

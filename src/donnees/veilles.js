@@ -42,7 +42,7 @@ export function veilleDuJour(veille, cycle, d = new Date(), taille = 'complet', 
   const phases = veille.phases.map((p) => {
     const cle = clePhase(p.titre), duTheme = (cle && jour?.phases?.[cle]) || [];
     const devant = cle === 'adoration' ? enTete : [];
-    return { ...p, titre: lib[p.titre] || p.titre, theme: duTheme.length ? jour.court : null, sujets: [...devant, ...duTheme, ...p.sujets].slice(0, gardes) };
+    return { ...p, titre: lib[p.titre] || p.titre, theme: duTheme.length ? (jour.priere || 'prière pour ' + jour.court) : null, sujets: [...devant, ...duTheme, ...p.sujets].slice(0, gardes) };
   });
   const proclamations = (veille.proclamations || []).slice(0, PROCLAMATIONS[taille] ?? Infinity);
   return { ...veille, phases, proclamations, verset: jour?.versets?.[veille.id.replace('veille-', '')] || veille.verset, jourCycle: jour, taille };
