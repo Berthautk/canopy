@@ -10,7 +10,7 @@
     "build": "node tools/generer-politique.mjs && node tools/generer-liste-assets.mjs && vite build",
     "preview": "vite preview",
     "securite": "node tools/securite/t-suivi.mjs && node tools/securite/t-divers.mjs",
-    "veilles": "node tools/veilles/test.mjs && node tools/veilles/test-serie.mjs && node tools/veilles/test-ado.mjs && node tools/veilles/test-ensemble.mjs && node tools/veilles/test-jeune.mjs && node tools/veilles/test-nuit.mjs"
+    "veilles": "node tools/veilles/test.mjs && node tools/veilles/test-serie.mjs && node tools/veilles/test-ado.mjs && node tools/veilles/test-ensemble.mjs && node tools/veilles/test-jeune.mjs && node tools/veilles/test-nuit.mjs && node tools/veilles/test-variete.mjs"
   },
   "dependencies": {
     "@fontsource/playfair-display": "^5.3.0",

@@ -19,7 +19,7 @@ for (const k of ['aube', 'midi', 'soir']) {
   const v = lire(k + '.json'), d = new Date('2026-11-23T08:00:00');
   const n = veilleDuJour(v, cycle, d, 'normal', ado);
   const regne = n.phases.find((p) => clePhase(p.titre) === 'regne');
-  ok(regne.sujets[0].titre === 'Ton règne dans ma maison', `${k} · lundi : « Que Ton règne vienne » commence par « Ton règne dans ma maison »`);
+  ok(cycle.find((j) => j.numero === 1).phases.regne.some((s) => s.titre === regne.sujets[0].titre), `${k} · lundi : « Que Ton règne vienne » commence par un sujet de la famille (thème du jour)`);
   const avecTheme = n.phases.filter((p) => p.theme).length;
   ok(avecTheme === 8, `${k} : les 8 phases du Notre Père portent le thème du jour (${avecTheme})`);
   ok(!n.phases.some((p) => /Prière du jour/.test(p.titre)), `${k} : plus de phase « Prière du jour » à part : le thème est DANS chaque phase`);
