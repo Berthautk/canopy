@@ -1258,3 +1258,36 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .prier-ensemble { display: flex; gap: 10px; align-items: flex-start; margin: 0 0 12px; padding: 10px 12px; border-radius: 14px; background: var(--surface-2); border: 1px solid var(--bord); font-size: .88rem; line-height: 1.4; }
 .prier-ensemble svg { flex: none; margin-top: 2px; color: var(--veille-accent, var(--or-fonce)); }
 .prier-ensemble small { display: block; margin-top: 2px; font-size: .7rem; color: var(--texte-doux); }
+
+/* ===== Veille : tout est fait pour prier ===== */
+.veille__demarrer { width: 100%; margin: 4px 0 10px; min-height: 56px; font-size: 1.1rem; }
+.veille__reprise, .veille__fin { display: grid; gap: 6px; margin: 0 0 12px; padding: 14px; border-radius: 16px; border: 2px solid var(--veille-accent, var(--or)); background: var(--surface); }
+.veille__reprise b, .veille__fin b { font-family: var(--police-titre); font-size: 1rem; color: var(--titre); }
+.veille__reprise span, .veille__fin span { font-size: .88rem; color: var(--texte-doux); }
+.veille__fin { justify-items: start; border-color: #2e7d5b; }
+.veille__fin svg { color: #2e7d5b; }
+.deroulement__num--fait { background: #2e7d5b !important; color: #fff !important; }
+.phase__theme { display: inline-flex; align-items: center; gap: 6px; margin: 4px 0 8px; padding: 4px 12px; border-radius: 999px; font-size: .8rem; font-weight: 600; background: color-mix(in srgb, var(--veille-accent, var(--or)) 16%, transparent); color: var(--titre); }
+.phase__consigne { margin: 10px 0; padding: 10px 12px; border-radius: 12px; font-size: .88rem; line-height: 1.45; background: var(--surface-2); border-left: 4px solid var(--veille-accent, var(--or)); color: var(--texte); }
+.affiche-jour { padding-bottom: 12px; }
+.affiche-jour p { margin: 0; }
+/* Rubrique Prière : la semaine, et l'invitation à reprendre */
+.semaine-priere { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; }
+.semaine-priere li { display: grid; justify-items: center; gap: 4px; font-family: var(--police-titre); font-size: .72rem; color: var(--texte-doux); }
+.semaine-priere i { width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; border: 1.5px solid var(--bord); color: var(--bleu-nuit); }
+.semaine-priere .est-prie i { background: var(--or); border-color: var(--or); }
+.semaine-priere .est-aujourdhui { color: var(--titre); font-weight: 700; }
+.semaine-priere .est-aujourdhui i { border-color: var(--bleu-nuit); box-shadow: 0 0 0 3px rgba(23,43,73,.15); }
+.semaine-priere .est-futur { opacity: .55; }
+.veille-reprise { display: flex; align-items: center; gap: 12px; padding: 12px; margin: 12px 0 0; border: 2px solid var(--or); color: var(--titre); }
+.veille-reprise b { display: block; font-family: var(--police-titre); font-size: .98rem; }
+.veille-reprise span span { font-size: .84rem; color: var(--texte-doux); }
+.theme--maintenant { border: 2px solid var(--or); }
+/* Veille : le haut de la page raccourci pour que le bouton « Commencer » se voie sans défiler */
+.veille .theme-hero { height: 150px; }
+.veille__theme { margin: 8px 8px 4px; }
+.phase__aide { margin-top: 12px; }
+.phase__aide .guide-phase { margin: 8px 0 0; }
+.phase__parole { margin: 16px 4px 6px; font-size: .95rem; }
+/* Rubrique Prière : les explications des veilles se lisent en entier */
+.theme .ligne__desc { display: block; -webkit-line-clamp: unset; overflow: visible; }

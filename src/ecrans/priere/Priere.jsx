@@ -7,7 +7,9 @@ import { BoutonLecture, BoutonTelecharger } from '../../composants/Audio.jsx';
 import { notifier } from '../../composants/Notification.jsx';
 import { SujetsACocher, GuidePhase, blocsSujets } from './Veille.jsx';
 import { PriereGuidee } from '../../composants/PriereGuidee.jsx';
-import { SerieDeVeilles } from './Veille.jsx';
+import { SerieDeVeilles, SemaineDePriere, PrierEnsemble, MesDernieresNotes } from './Veille.jsx';
+import { lireEnCours } from '../../donnees/veilleEnCours.js';
+import { statistiques } from '../../donnees/priere.js';
 import { CYCLE_VEILLES } from '../../donnees/contenu.js';
 import { jourDuCycle } from '../../donnees/veilles.js';
 import { BarreEcoute } from '../../composants/Ecouter.jsx';
@@ -17,16 +19,25 @@ import { useSignal, useMemoire } from '../../outils/signal.js';
 import { partager } from '../../outils/partage.js';
 
 const ENTREES = [
-  ['veilles', 'prier-colline-soleil', 'Les veilles du jour', 'Aube, midi et soir, et prier pour s\'endormir.'],
   ['proche', 'prier-pour-un-ami', 'Prier pour un proche', 'Maladie, foyer, enfant, salut d\'un proche : un programme jour après jour.'],
   ['themes', 'prier-famille-repas', 'Prier pour…', 'Ma famille, mon pays, mon église, la repentance, les malades…'],
   ['journal', 'plus-bible-cahier', 'Mon journal et mes demandes', 'Mes requêtes, les réponses de Dieu, et demander la prière.'],
   ['combat', 'prier-eglise-genoux', 'Combat spirituel', 'Des prières à prier avec persévérance, par l\'évangéliste Sophonie Blaise.'],
 ];
 
+// Ce que chaque veille veut dire, en une phrase : on choisit celle qui convient à l'heure.
+const EXPLICATION = {
+  'veille-aube': "À faire au réveil. Tu annules la nuit, tu adores, puis tu pries le Notre Père pour ta journée.",
+  'veille-midi': "Au milieu de la journée. Tu t'arrêtes, tu fais le point, et tu pries pour tenir bon jusqu'au soir.",
+  'veille-soir': "Avant de dormir. Tu fais le bilan, tu pardonnes, tu remercies, et tu déposes ta journée devant Dieu.",
+};
+
+
 // Écran 3 : prier maintenant, thèmes par catégorie, combat spirituel.
 export function Priere({ section = null }) {
   const j = useSignal(journal), priees = useSignal(aiPrie), jourC = CYCLE_VEILLES.find((x) => x.numero === jourDuCycle());
+  const enCours = lireEnCours(), st = useSignal(statistiques);
+  const sujetsSemaine = Array.from({ length: 7 }, (_, i) => { const d = new Date(); d.setDate(d.getDate() - i); return st.sujets?.[d.toISOString().slice(0, 10)] || 0; }).reduce((a, b) => a + b, 0);
   const [ouvert, setOuvert] = useMemoire('categorie', null);       // catégorie dépliée
   const v = veilleDuMoment();
   const categories = [...new Set(PRIERES.map((p) => p.categorie))];
@@ -48,14 +59,57 @@ export function Priere({ section = null }) {
         </a>
       )}
 
-      {!section && <div style="margin-top:12px"><SerieDeVeilles aiPrie={priees} /></div>}
-      {!section && <h2 class="titre-section">Que veux-tu faire ?</h2>}
-      {!section && <div class="liste">{ENTREES.map(([id, photo, titre, desc]) => (
-        <a class="carte theme" href={'#/priere/section/' + id}>
-          <img src={'/assets/photos/' + photo + '.webp'} alt="" loading="lazy" />
-          <span class="ligne__corps"><span class="ligne__titre" style="display:block">{titre}</span><span class="ligne__desc">{desc}</span></span>
+      {!section && enCours && (
+        <a class="carte veille-reprise" href={enCours.lien}>
+          <span class="ligne__icone"><Icone nom="lecture" /></span>
+          <span class="ligne__corps"><b>Tu as laissé ta prière à l'étape {enCours.etape} sur {enCours.total}.</b><span>{enCours.titre} : veux-tu continuer maintenant ?</span></span>
           <Icone nom="chevron" taille={20} />
-        </a>))}</div>}
+        </a>)}
+
+      {!section && <>
+        <h2 class="titre-section">Les trois veilles</h2>
+        <p class="ligne__desc" style="margin:-6px 4px 10px">Chaque jour a son thème de prière. Choisis la veille qui te convient : tu peux prier 7 minutes, 20 minutes ou plus.</p>
+        <div class="liste">{VEILLES.map((x) => (
+          <a class={'carte theme' + (v && x.id === v.id ? ' theme--maintenant' : '')} href={'#/priere/veille/' + x.id.replace('veille-', '')}>
+            <img src={x.image} alt="" loading="lazy" />
+            <span class="ligne__corps">
+              <span class="ligne__titre" style="display:block">{x.titre}{v && x.id === v.id && <span class="pastille pastille--or pastille--mini">Maintenant</span>}</span>
+              <span class="ligne__desc"><b>{x.heures}</b> · {EXPLICATION[x.id]}</span>
+            </span>
+            <Icone nom="chevron" taille={20} />
+          </a>))}</div>
+        <a class="carte ligne" href="#/priere/sommeil" style="margin-top:8px">
+          <span class="ligne__icone"><Icone nom="lune" /></span>
+          <span class="ligne__corps"><span class="ligne__titre" style="display:block">Prier pour s'endormir</span><span class="ligne__desc">Un psaume et une courte prière lus doucement.</span></span>
+          <Icone nom="chevron" taille={20} />
+        </a>
+
+        <h2 class="titre-section">Autres façons de prier</h2>
+        <div class="liste">
+          <a class="carte theme" href="#/grandir/enseignement/jeune-0-troisieme-force">
+            <img src="/assets/photos/grandir-notes-lampe.webp" alt="" loading="lazy" />
+            <span class="ligne__corps"><span class="ligne__titre" style="display:block">Jeûne et prière</span><span class="ligne__desc">Pourquoi la prière et le jeûne vont ensemble : « Cette sorte de démon ne sort que par la prière et par le jeûne » (Marc 9:29).</span></span>
+            <Icone nom="chevron" taille={20} />
+          </a>
+          {ENTREES.map(([id, photo, titre, desc]) => (
+            <a class="carte theme" href={'#/priere/section/' + id}>
+              <img src={'/assets/photos/' + photo + '.webp'} alt="" loading="lazy" />
+              <span class="ligne__corps"><span class="ligne__titre" style="display:block">{titre}</span><span class="ligne__desc">{desc}</span></span>
+              <Icone nom="chevron" taille={20} />
+            </a>))}
+        </div>
+
+        <h2 class="titre-section">Ma vie de prière</h2>
+        <p class="ligne__desc" style="margin:-6px 4px 10px">Ces chiffres sont pour toi seul, sur ton téléphone. Ils ne sont pas là pour t'impressionner, mais pour t'aider à rester fidèle.</p>
+        <SerieDeVeilles aiPrie={priees} />
+        <section class="carte bloc semaine-carte">
+          <h3 style="margin:0 0 8px;font-size:.95rem">Cette semaine</h3>
+          <SemaineDePriere aiPrie={priees} />
+          <p class="ligne__desc" style="margin:8px 0 0">{sujetsSemaine > 0 ? `${sujetsSemaine} sujet${sujetsSemaine > 1 ? 's' : ''} prié${sujetsSemaine > 1 ? 's' : ''} ces 7 derniers jours.` : "Aucun sujet prié ces 7 derniers jours : commence par une veille courte."}</p>
+        </section>
+        {v && <PrierEnsemble id={v.id} />}
+        <MesDernieresNotes />
+      </>}
       {section === 'veilles' && <>
       <h2 class="titre-section" id="p-veilles">{v ? 'Les autres veilles du jour' : 'Les trois veilles du jour'}</h2>
       <div class="liste">

@@ -16,36 +16,36 @@ export const TAILLES = [
 ];
 const PAR_ETAPE = { court: 1, normal: 3, complet: Infinity };
 const PROCLAMATIONS = { court: 2, normal: Infinity, complet: Infinity };
-const SUJETS_DU_THEME = { court: 2, normal: Infinity, complet: Infinity };
 
 // Jour 1 = lundi … jour 7 = dimanche (le dimanche est le 7e jour, pas le 1er).
 export const jourDuCycle = (d = new Date()) => ((d.getDay() + 6) % 7) + 1;
 
-// La veille, telle qu'elle doit s'afficher aujourd'hui :
-//  - une phase « Prière du jour » (le thème de la semaine) insérée juste après l'Adoration,
-//  - le verset du jour pour cette veille,
-//  - le nombre de sujets adapté à la taille choisie.
+// Les huit phases du Notre Père : on reconnaît chaque phase à son titre, quelle que soit la veille.
+const CLES_PHASES = [[/adoration/i, 'adoration'], [/r[èe]gne/i, 'regne'], [/volont/i, 'volonte'], [/pain/i, 'pain'],
+  [/pardon/i, 'pardon'], [/tentation/i, 'tentation'], [/d[ée]livre/i, 'delivre'], [/gr[aâ]ce/i, 'grace']];
+export const clePhase = (titre) => CLES_PHASES.find(([r]) => r.test(titre))?.[1] || null;
+
+// La veille, telle qu'elle doit s'afficher aujourd'hui.
+// Le même squelette (le Notre Père), mais CHAQUE phase prie d'abord pour le thème du jour :
+// « Que ton règne vienne… dans ma famille, dans la vie de mes enfants… » le lundi, dans mon travail le mardi, etc.
+// Le texte d'origine de chaque phase reste à la suite : on le garde pour la version complète.
+//  - court : un sujet par phase ; normal : trois ; complet : tout.
+//  - l'adoration commence toujours par le psaume du jour, puis le cantique s'il y en a un.
 export function veilleDuJour(veille, cycle, d = new Date(), taille = 'complet', adoration = null) {
-  const jour = cycle.find((x) => x.numero === jourDuCycle(d));
-  const cle = veille.id.replace('veille-', '');
+  const jour = cycle.find((x) => x.numero === jourDuCycle(d)) || null;
   const gardes = PAR_ETAPE[taille] ?? Infinity;
-  // L'adoration commence toujours par le psaume du jour : en version courte, c'est tout ce qu'on garde.
-  const ado = adoration ? adorationDuJour(adoration, veille.id, d) : { psaume: null };
-  const sujetPsaume = ado.psaume ? { titre: `Le psaume du jour : ${ado.psaume.titre}`, texte: `Lis à voix haute ${ado.psaume.ref.replace(/^Psaume/, 'le Psaume')}. ${ado.psaume.guide}` } : null;
+  const ado = adoration ? adorationDuJour(adoration, veille.id, d) : { psaume: null, cantique: null };
+  const enTete = [];
+  if (ado.psaume) enTete.push({ titre: `Le psaume du jour : ${ado.psaume.titre}`, texte: `Lis à voix haute ${ado.psaume.ref.replace(/^Psaume/, 'le Psaume')}. ${ado.psaume.guide}` });
+  if (ado.cantique?.refrain) enTete.push({ titre: `À chanter : ${ado.cantique.titre}`, texte: `Chante, ou dis lentement : ${ado.cantique.refrain.join(' ')} (${ado.cantique.auteur})` });
   const lib = LIBELLES[veille.id] || {};
-  let phases = veille.phases.map((p) => ({ ...p, titre: lib[p.titre] || p.titre, sujets: (sujetPsaume && /adoration/i.test(p.titre) ? [sujetPsaume, ...p.sujets] : p.sujets).slice(0, gardes) }));
-  let verset = veille.verset;
-  if (jour?.veilles?.[cle]?.length) {
-    const phaseJour = {
-      num: 'jour', titre: `Prière du jour : ${jour.court}`, sous_titre: `Jour ${jour.numero} sur 7 · ${jour.jour}`,
-      texte: jour.accroche, sujets: jour.veilles[cle].slice(0, SUJETS_DU_THEME[taille] ?? Infinity),
-    };
-    const i = phases.findIndex((p) => /adoration/i.test(p.titre));
-    phases.splice(i >= 0 ? i + 1 : 1, 0, phaseJour);
-    verset = jour.versets?.[cle] || verset;
-  }
+  const phases = veille.phases.map((p) => {
+    const cle = clePhase(p.titre), duTheme = (cle && jour?.phases?.[cle]) || [];
+    const devant = cle === 'adoration' ? enTete : [];
+    return { ...p, titre: lib[p.titre] || p.titre, theme: duTheme.length ? jour.court : null, sujets: [...devant, ...duTheme, ...p.sujets].slice(0, gardes) };
+  });
   const proclamations = (veille.proclamations || []).slice(0, PROCLAMATIONS[taille] ?? Infinity);
-  return { ...veille, phases, proclamations, verset, jourCycle: jour || null, taille };
+  return { ...veille, phases, proclamations, verset: jour?.versets?.[veille.id.replace('veille-', '')] || veille.verset, jourCycle: jour, taille };
 }
 
 // Nombre de sujets d'une veille, pour annoncer la durée avant de commencer.

@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "jours": [
   {
    "numero": 1,
@@ -12,71 +12,117 @@
     "midi": "Proverbes 15:1",
     "soir": "Psaume 127:1"
    },
-   "veilles": {
-    "aube": [
+   "phases": {
+    "adoration": [
      {
-      "titre": "Un foyer sous la garde de Dieu",
-      "texte": "Prions afin que Dieu garde chaque personne de ma famille aujourd'hui, à la maison, à l'école et sur la route. (Psaume 121:7-8)"
+      "titre": "Père de toute famille",
+      "texte": "Adore Dieu : il est le Père de qui toute famille tire son nom, au ciel et sur la terre. (Éphésiens 3:14-15)"
      },
      {
-      "titre": "La paix dans la maison",
-      "texte": "Prions afin que l'accord et la paix règnent chez nous, sans dispute ni division. (Psaume 133:1)"
+      "titre": "Celui qui donne une famille",
+      "texte": "Adore Dieu parce qu'il fait habiter dans une maison ceux qui étaient seuls, et qu'il rassemble ce qui était dispersé. (Psaume 68:7)"
      },
      {
-      "titre": "Mon conjoint",
-      "texte": "Prions pour mon mari ou ma femme, afin que Dieu le fortifie aujourd'hui et que nous nous aimions comme Christ aime son Église. (Éphésiens 5:25)"
-     },
-     {
-      "titre": "Mes enfants",
-      "texte": "Prions afin que mes enfants connaissent Dieu, lui obéissent et marchent dans ses voies. (Proverbes 22:6)"
-     },
-     {
-      "titre": "Mes parents et les anciens",
-      "texte": "Prions pour mes parents et les anciens de ma famille, afin que Dieu leur donne la santé et que je les honore. (Exode 20:12)"
+      "titre": "Fidèle de génération en génération",
+      "texte": "Adore Dieu pour sa fidélité envers ma famille, hier, aujourd'hui, et pour les générations qui viennent. (Psaume 100:5)"
      }
     ],
-    "midi": [
+    "regne": [
      {
-      "titre": "Des paroles qui apaisent",
-      "texte": "Prions afin que, malgré la fatigue de la journée, je ne parle à aucun des miens avec dureté. (Proverbes 15:1)"
+      "titre": "Ton règne dans ma maison",
+      "texte": "Prions afin que le règne de Dieu s'établisse dans ma maison : que Jésus soit le chef invisible de notre foyer. (Josué 24:15)"
      },
      {
-      "titre": "Les enfants à l'école",
-      "texte": "Prions afin que mes enfants soient protégés, bien enseignés, et gardés des mauvaises compagnies. (1 Corinthiens 15:33)"
+      "titre": "Ton règne dans la vie de mes enfants",
+      "texte": "Prions afin que mes enfants se soumettent au Seigneur et grandissent sous son autorité. (Proverbes 22:6)"
      },
      {
-      "titre": "Les couples en difficulté",
-      "texte": "Prions pour les couples qui souffrent, afin que Dieu guérisse ce qui est blessé et rétablisse la confiance. (Ecclésiaste 4:9-10)"
-     },
-     {
-      "titre": "Les besoins de la maison",
-      "texte": "Prions afin que Dieu pourvoie à ce dont ma famille a besoin aujourd'hui : la nourriture, le loyer, les frais d'école. (Philippiens 4:19)"
-     },
-     {
-      "titre": "Ceux qui sont partis loin",
-      "texte": "Prions pour ceux de ma famille qui sont loin de nous ou loin de Dieu, afin qu'ils reviennent à la maison. (Luc 15:20)"
+      "titre": "Ton règne dans mon couple",
+      "texte": "Prions afin que mon conjoint et moi marchions sous le règne de Christ, en nous aimant et en nous respectant. (Éphésiens 5:21)"
      }
     ],
-    "soir": [
+    "volonte": [
      {
-      "titre": "Merci pour les miens",
-      "texte": "Remercions Dieu pour chaque personne de la maison : pour ce qu'elle est et pour ce qu'elle a fait aujourd'hui. (Philippiens 1:3)"
+      "titre": "Ta volonté sur mon foyer",
+      "texte": "Prions afin que la volonté de Dieu se fasse chez nous, plus que mes plans et mes habitudes. (Matthieu 6:10)"
      },
      {
-      "titre": "Pardonner avant de dormir",
-      "texte": "Prions afin que tout mot dur de cette journée soit pardonné, et que nous ne gardions rien contre personne. (Colossiens 3:13)"
+      "titre": "Ta volonté sur l'avenir de mes enfants",
+      "texte": "Prions afin que mes enfants aillent là où Dieu les envoie : études, métier, mariage, appel. (Jérémie 29:11)"
      },
      {
-      "titre": "Bénir les enfants",
-      "texte": "Prions afin que Dieu pose sa bénédiction sur chaque enfant de la maison pendant son sommeil. (Nombres 6:24-26)"
+      "titre": "Faire confiance quand je ne comprends pas",
+      "texte": "Prions afin que je garde confiance en Dieu même quand la situation de ma famille me dépasse. (Proverbes 3:5-6)"
+     }
+    ],
+    "pain": [
+     {
+      "titre": "Le pain de la maison",
+      "texte": "Prions afin que Dieu pourvoie aujourd'hui à la nourriture, au loyer et aux frais d'école de ma famille. (Matthieu 6:11)"
      },
      {
-      "titre": "Une maison gardée la nuit",
-      "texte": "Prions afin que le Seigneur garde notre maison, ses portes et tous ceux qui y dorment. (Psaume 127:1)"
+      "titre": "Celui qui travaille pour nourrir",
+      "texte": "Prions pour celui ou celle qui travaille pour nourrir la maison, afin que son travail soit béni. (Psaume 128:2)"
      },
      {
-      "titre": "Déposer les soucis de famille",
-      "texte": "Prions pour remettre à Dieu chaque souci de famille avant de dormir, car il prend soin de nous. (1 Pierre 5:7)"
+      "titre": "La santé des miens",
+      "texte": "Prions afin que Dieu garde en bonne santé chacun de ceux qui vivent sous mon toit. (3 Jean 1:2)"
+     }
+    ],
+    "pardon": [
+     {
+      "titre": "Pardonner dans la maison",
+      "texte": "Prions afin que je pardonne à chaque membre de ma famille ce qui m'a blessé, comme Dieu m'a pardonné. (Colossiens 3:13)"
+     },
+     {
+      "titre": "Demander pardon",
+      "texte": "Prions afin que je demande pardon à ceux de ma famille envers qui j'ai eu tort : conjoint, enfants, parents. (Matthieu 5:23-24)"
+     },
+     {
+      "titre": "Les fautes de la maison de mon père",
+      "texte": "Prions afin que Dieu pardonne et libère ma famille de tout mal qui se répète de père en fils. (Néhémie 1:6)"
+     }
+    ],
+    "tentation": [
+     {
+      "titre": "La fidélité dans le couple",
+      "texte": "Prions afin que mon couple soit gardé de l'infidélité, du mensonge et des tentations cachées. (Proverbes 5:15-19)"
+     },
+     {
+      "titre": "Les mauvaises influences",
+      "texte": "Prions afin que mes enfants et ma maison soient gardés de ce qui détruit : mauvaises fréquentations, écrans, drogue, alcool. (Psaume 101:3)"
+     },
+     {
+      "titre": "La colère et les paroles dures",
+      "texte": "Prions afin que je résiste à la colère et que je ne blesse pas les miens par mes paroles. (Éphésiens 4:26-27)"
+     }
+    ],
+    "delivre": [
+     {
+      "titre": "Briser ce qui pèse sur ma famille",
+      "texte": "Prions afin que tout lien, tout mauvais sort et toute influence spirituelle sur ma famille soit brisé au nom de Jésus. (Galates 3:13)"
+     },
+     {
+      "titre": "Protéger mes enfants",
+      "texte": "Prions afin que Dieu garde mes enfants du Malin, des accidents, des maladies et des mauvais chemins. (Jean 17:15)"
+     },
+     {
+      "titre": "Une maison où le mal n'entre pas",
+      "texte": "Prions afin que ma maison soit un lieu rempli de la présence de Dieu, où le mal n'a pas de place. (Psaume 91:9-10)"
+     }
+    ],
+    "grace": [
+     {
+      "titre": "Merci pour chaque personne",
+      "texte": "Remercions Dieu pour chaque membre de ma famille, en disant leurs noms un par un. (Philippiens 1:3)"
+     },
+     {
+      "titre": "Merci pour ce qu'il a déjà fait",
+      "texte": "Remercions Dieu pour les protections, les guérisons et les provisions que ma famille a déjà reçues. (Psaume 103:2)"
+     },
+     {
+      "titre": "Sortir avec foi",
+      "texte": "Remercions Dieu d'avance : il agira dans ma famille aujourd'hui. Je le bénirai en tout temps. (Psaume 34:2)"
      }
     ]
    }
@@ -92,71 +138,117 @@
     "midi": "Colossiens 3:23",
     "soir": "Proverbes 10:22"
    },
-   "veilles": {
-    "aube": [
+   "phases": {
+    "adoration": [
      {
-      "titre": "Le travail de mes mains",
-      "texte": "Prions afin que Dieu bénisse le travail de mes mains aujourd'hui et le rende fécond. (Psaume 90:17)"
+      "titre": "Le Dieu qui m'a donné le travail",
+      "texte": "Adore Dieu : dès le commencement, il a placé l'homme pour cultiver et garder. Le travail est un don. (Genèse 2:15)"
      },
      {
-      "titre": "Des portes qui s'ouvrent",
-      "texte": "Prions afin que Dieu ouvre les portes du travail, des clients et des contrats pour moi et pour ceux qui cherchent un emploi. (Apocalypse 3:8)"
+      "titre": "Source de toute richesse",
+      "texte": "Adore Dieu : c'est lui qui te donne la force d'acquérir des richesses. (Deutéronome 8:18)"
      },
      {
-      "titre": "L'honnêteté en tout",
-      "texte": "Prions afin que je ne triche ni sur un prix, ni sur une mesure, ni sur un mot, même quand tout le monde le fait. (Proverbes 11:1)"
-     },
-     {
-      "titre": "La sagesse pour décider",
-      "texte": "Prions afin que Dieu me donne la sagesse pour chaque décision d'argent que je dois prendre aujourd'hui. (Jacques 1:5)"
-     },
-     {
-      "titre": "Mon patron et mes collègues",
-      "texte": "Prions pour ceux avec qui je travaille, afin que je sois pour eux un témoin de Jésus par ma conduite. (Matthieu 5:16)"
+      "titre": "Le Seigneur qui pourvoit",
+      "texte": "Adore Dieu comme celui qui pourvoit : « L'Éternel pourvoira ». (Genèse 22:14)"
      }
     ],
-    "midi": [
+    "regne": [
      {
-      "titre": "Travailler pour le Seigneur",
-      "texte": "Prions afin que je fasse ce que je fais de bon cœur, comme pour le Seigneur et non pour les hommes. (Colossiens 3:23)"
+      "titre": "Ton règne dans mon travail",
+      "texte": "Prions afin que Jésus soit le vrai patron de mon travail, de mon commerce ou de mon champ. (Colossiens 3:23-24)"
      },
      {
-      "titre": "Résister à la tentation de voler",
-      "texte": "Prions afin que je ne prenne rien qui ne m'appartienne pas, même une petite chose. (Éphésiens 4:28)"
+      "titre": "Ton règne sur mon argent",
+      "texte": "Prions afin que Dieu soit le maître de mon argent : ce que je gagne, ce que je dépense, ce que je donne. (Matthieu 6:24)"
      },
      {
-      "titre": "Les dettes et les retards",
-      "texte": "Prions pour ceux qui ont des dettes ou qui attendent un salaire, afin que Dieu leur donne une issue. (2 Rois 4:7)"
-     },
-     {
-      "titre": "L'idée juste",
-      "texte": "Prions afin que Dieu me donne les idées justes pour mon commerce, mon travail ou mon projet. (Proverbes 16:3)"
-     },
-     {
-      "titre": "Ne pas faire de l'argent un dieu",
-      "texte": "Prions afin que mon cœur ne s'attache pas à l'argent, mais à Dieu qui donne tout. (1 Timothée 6:9-10)"
+      "titre": "Ton règne dans les marchés",
+      "texte": "Prions afin que les marchés, les bureaux et les ateliers de mon pays se placent sous la justice de Dieu. (Proverbes 11:1)"
      }
     ],
-    "soir": [
+    "volonte": [
      {
-      "titre": "Merci pour ce qui est entré",
-      "texte": "Remercions Dieu pour tout ce qu'il nous a permis de gagner aujourd'hui, même si c'est peu. (Psaume 103:2)"
+      "titre": "Le travail que Dieu a préparé",
+      "texte": "Prions afin que je fasse le travail que Dieu a préparé pour moi, et non seulement celui que je trouve. (Éphésiens 2:10)"
+     },
+     {
+      "titre": "Mes décisions d'argent",
+      "texte": "Prions afin que chaque décision d'argent de cette semaine soit selon la volonté de Dieu, même le petit achat. (Proverbes 16:3)"
+     },
+     {
+      "titre": "Accepter les saisons",
+      "texte": "Prions afin que j'accepte les saisons de la vie, l'abondance comme le manque, avec confiance. (Philippiens 4:11-12)"
+     }
+    ],
+    "pain": [
+     {
+      "titre": "Le pain de ce jour",
+      "texte": "Prions afin que Dieu me donne aujourd'hui de quoi travailler, manger et payer ce que je dois. (Matthieu 6:11)"
+     },
+     {
+      "titre": "Un emploi, des clients",
+      "texte": "Prions pour ceux qui cherchent du travail ou des clients, afin que Dieu ouvre les portes. (Apocalypse 3:8)"
+     },
+     {
+      "titre": "Un juste salaire",
+      "texte": "Prions afin que le travail soit payé à son juste prix et que personne ne retienne le salaire d'un autre. (Jacques 5:4)"
+     }
+    ],
+    "pardon": [
+     {
+      "titre": "Ma malhonnêteté",
+      "texte": "Prions afin que Dieu me pardonne chaque fois que j'ai triché, menti ou pris ce qui n'était pas à moi. (1 Jean 1:9)"
+     },
+     {
+      "titre": "Mes dettes",
+      "texte": "Prions afin que je paie ce que je dois, et que je pardonne à ceux qui me doivent. (Romains 13:8)"
+     },
+     {
+      "titre": "Les blessures du travail",
+      "texte": "Prions afin que je pardonne à ceux qui m'ont mal payé, trahi ou humilié dans le travail. (Matthieu 6:14)"
+     }
+    ],
+    "tentation": [
+     {
+      "titre": "Tricher",
+      "texte": "Prions afin que je ne triche ni sur un prix, ni sur une mesure, ni sur un papier, ni sur un mot. (Proverbes 20:10)"
+     },
+     {
+      "titre": "L'amour de l'argent",
+      "texte": "Prions afin que mon cœur ne s'attache pas à l'argent, car l'amour de l'argent est une racine de tous les maux. (1 Timothée 6:10)"
+     },
+     {
+      "titre": "La paresse",
+      "texte": "Prions afin que je travaille avec courage, sans paresse et sans jalousie envers ceux qui réussissent. (Proverbes 6:6)"
+     }
+    ],
+    "delivre": [
+     {
+      "titre": "Le manque qui enchaîne",
+      "texte": "Prions afin que Dieu me délivre de tout esprit de manque, de blocage et d'échec dans mes affaires. (Deutéronome 28:12)"
+     },
+     {
+      "titre": "Les dettes qui étouffent",
+      "texte": "Prions afin que Dieu brise le poids des dettes et ouvre une issue, comme pour la veuve et l'huile. (2 Rois 4:1-7)"
+     },
+     {
+      "titre": "Les pièges et les escrocs",
+      "texte": "Prions afin que Dieu me garde des pièges, des fraudeurs et des affaires qui ne viennent pas de lui. (Proverbes 14:15)"
+     }
+    ],
+    "grace": [
+     {
+      "titre": "Merci pour le travail",
+      "texte": "Remercions Dieu pour le travail, la santé et les forces que j'ai : même peu, c'est un don. (1 Thessaloniciens 5:18)"
+     },
+     {
+      "titre": "Merci pour ses provisions",
+      "texte": "Remercions Dieu pour tout ce qu'il a déjà pourvu : il n'a jamais abandonné ses enfants. (Psaume 37:25)"
      },
      {
       "titre": "Donner avec joie",
-      "texte": "Prions afin que j'apprenne à donner avec joie à l'œuvre de Dieu et aux pauvres. (2 Corinthiens 9:7)"
-     },
-     {
-      "titre": "Déposer les soucis d'argent",
-      "texte": "Prions pour remettre à Dieu mes inquiétudes sur les factures et les besoins de demain. (Matthieu 6:31-33)"
-     },
-     {
-      "titre": "Se reposer sans culpabilité",
-      "texte": "Prions afin que je sache me reposer, car Dieu donne le sommeil à ceux qu'il aime. (Psaume 127:2)"
-     },
-     {
-      "titre": "Les chômeurs et ceux qui peinent",
-      "texte": "Prions pour ceux qui n'ont pas de travail, afin que Dieu pourvoie et les relève. (Psaume 113:7)"
+      "texte": "Prions afin que je donne avec joie à l'œuvre de Dieu aujourd'hui, selon ce qu'il m'a mis à cœur. (2 Corinthiens 9:7)"
      }
     ]
    }
@@ -172,71 +264,117 @@
     "midi": "Jean 17:21",
     "soir": "Actes 2:42"
    },
-   "veilles": {
-    "aube": [
+   "phases": {
+    "adoration": [
      {
-      "titre": "Mon assemblée locale",
-      "texte": "Prions pour mon église : pour que ses réunions soient pleines de la présence de Dieu et qu'on y annonce la vérité. (Actes 2:42)"
+      "titre": "La tête de l'Église",
+      "texte": "Adore Jésus : il est la tête du corps, qui est l'Église. (Colossiens 1:18)"
      },
      {
-      "titre": "Les pasteurs et les responsables",
-      "texte": "Prions pour mon pasteur et les responsables, afin que Dieu leur donne force, sagesse et pureté de vie. (Hébreux 13:17)"
+      "titre": "Celui qui est au milieu de nous",
+      "texte": "Adore Dieu : là où deux ou trois sont assemblés en son nom, il est au milieu d'eux. (Matthieu 18:20)"
      },
      {
-      "titre": "L'unité du corps de Christ",
-      "texte": "Prions afin que les chrétiens de toutes les églises s'aiment et avancent ensemble, sans jalousie ni division. (Éphésiens 4:3)"
+      "titre": "L'Église rachetée par son sang",
+      "texte": "Adore Dieu pour son Église, qu'il s'est acquise par son propre sang. (Actes 20:28)"
+     }
+    ],
+    "regne": [
+     {
+      "titre": "Ton règne dans mon assemblée",
+      "texte": "Prions afin que Christ règne vraiment dans mon église locale : le pasteur, les responsables et chaque membre. (Éphésiens 1:22-23)"
      },
      {
-      "titre": "Les frères et sœurs qui souffrent",
-      "texte": "Prions pour les chrétiens persécutés, malades ou pauvres, afin que Dieu les console et les soutienne. (1 Corinthiens 12:26)"
+      "titre": "Ton règne dans le corps de Christ",
+      "texte": "Prions afin que Christ règne dans toutes les églises, de ma ville jusqu'au monde entier. (Éphésiens 4:4-6)"
      },
+     {
+      "titre": "Ton règne d'abord dans mon cœur",
+      "texte": "Prions afin que Christ règne dans ma propre vie avant tout : que ce soit lui qui vive en moi. (Galates 2:20)"
+     }
+    ],
+    "volonte": [
      {
       "titre": "Ma place dans le corps",
-      "texte": "Prions afin que je découvre ma place et mon don au service de l'Église, et que je le mette en pratique. (1 Corinthiens 12:27)"
+      "texte": "Prions afin que je trouve et que j'occupe la place que Dieu m'a donnée dans mon assemblée. (1 Corinthiens 12:18)"
+     },
+     {
+      "titre": "Ce que Dieu veut pour mon église",
+      "texte": "Prions afin que mon église fasse ce que Dieu veut : prier, enseigner, aimer, envoyer. (Actes 13:2)"
+     },
+     {
+      "titre": "Que tous soient un",
+      "texte": "Prions afin que tous les croyants soient un, comme Jésus l'a demandé au Père. (Jean 17:21)"
      }
     ],
-    "midi": [
+    "pain": [
      {
-      "titre": "Garder l'unité",
-      "texte": "Prions afin que Dieu garde ses enfants de la médisance, de la jalousie et des histoires qui divisent l'assemblée. (Éphésiens 4:29)"
+      "titre": "Une Parole qui nourrit",
+      "texte": "Prions afin que le pasteur et tous ceux qui enseignent donnent une Parole vivante qui nourrit vraiment. (Matthieu 4:4)"
      },
      {
-      "titre": "Les nouveaux convertis",
-      "texte": "Prions pour ceux qui viennent de donner leur vie à Jésus, afin qu'ils soient bien accueillis et bien suivis. (Actes 2:47)"
+      "titre": "Les besoins de l'assemblée",
+      "texte": "Prions afin que Dieu pourvoie aux besoins de mon église, et à ceux de ses membres qui manquent. (Actes 4:34-35)"
      },
      {
-      "titre": "Les jeunes de l'église",
-      "texte": "Prions pour les jeunes de nos assemblées, afin qu'ils restent fidèles dans un monde qui les appelle ailleurs. (1 Timothée 4:12)"
-     },
-     {
-      "titre": "L'église qui prie",
-      "texte": "Prions pour que nos églises deviennent des maisons de prière, où l'on s'arrête vraiment pour chercher Dieu. (Matthieu 21:13)"
-     },
-     {
-      "titre": "L'église qui donne",
-      "texte": "Prions afin que les chrétiens soutiennent l'œuvre de Dieu avec fidélité et générosité. (Malachie 3:10)"
+      "titre": "Les frères dans le besoin",
+      "texte": "Prions pour les frères et sœurs dont je connais le besoin, et demandons à Dieu comment les aider. (1 Jean 3:17)"
      }
     ],
-    "soir": [
-     {
-      "titre": "Merci pour mon église",
-      "texte": "Remercions Dieu pour mon assemblée, pour les frères et sœurs que j'y ai trouvés et pour ce que j'y ai reçu. (Philippiens 1:3-5)"
-     },
+    "pardon": [
      {
       "titre": "Pardonner à des frères",
-      "texte": "Prions afin que je pardonne à tout frère ou sœur qui m'a blessé, et que je demande pardon à ceux que j'ai blessés. (Matthieu 5:23-24)"
+      "texte": "Prions afin que je pardonne à tout frère ou toute sœur qui m'a blessé, calomnié ou oublié. (Éphésiens 4:32)"
      },
      {
-      "titre": "Les églises du monde entier",
-      "texte": "Prions pour le corps de Christ dans le monde, afin qu'il soit gardé et qu'il reste fidèle à l'Évangile. (Jean 17:21)"
+      "titre": "La repentance de l'Église",
+      "texte": "Prions afin que les églises se repentent de leur orgueil, de leurs divisions et de leur amour de l'argent. (Apocalypse 2:4-5)"
      },
      {
-      "titre": "Les absents",
-      "texte": "Prions pour ceux qui ont quitté l'église ou qui sont refroidis, afin que Dieu les ramène à lui. (Luc 15:4)"
+      "titre": "Ma part",
+      "texte": "Prions afin que Dieu me pardonne ma critique, ma paresse et mes absences dans mon assemblée. (Jacques 4:17)"
+     }
+    ],
+    "tentation": [
+     {
+      "titre": "La médisance et la jalousie",
+      "texte": "Prions afin que mon église soit gardée de la jalousie, de la médisance et des histoires qui divisent. (Jacques 3:14-16)"
      },
      {
-      "titre": "Se préparer au prochain culte",
-      "texte": "Prions afin que je vienne à la prochaine rencontre avec un cœur prêt à recevoir et à servir. (Hébreux 10:24-25)"
+      "titre": "Les faux enseignements",
+      "texte": "Prions afin que les assemblées soient gardées des faux docteurs et des doctrines qui s'écartent de la Parole. (Galates 1:8)"
+     },
+     {
+      "titre": "L'orgueil et l'argent des responsables",
+      "texte": "Prions afin que les responsables résistent à l'orgueil, à l'argent et à l'immoralité. (1 Pierre 5:2-3)"
+     }
+    ],
+    "delivre": [
+     {
+      "titre": "Les divisions",
+      "texte": "Prions afin que Dieu brise tout esprit de division qui attaque l'unité de mon assemblée. (Matthieu 12:25)"
+     },
+     {
+      "titre": "Les églises persécutées",
+      "texte": "Prions pour les églises persécutées dans le monde, afin que Dieu les délivre et les garde. (Actes 12:5)"
+     },
+     {
+      "titre": "Mon pasteur",
+      "texte": "Prions pour mon pasteur : qu'il soit délivré des hommes méchants et protégé, lui et sa famille. (2 Thessaloniciens 3:1-2)"
+     }
+    ],
+    "grace": [
+     {
+      "titre": "Merci pour mon assemblée",
+      "texte": "Remercions Dieu pour mon église, pour les frères et sœurs que j'y ai trouvés et pour ce que j'y ai reçu. (Philippiens 1:3-5)"
+     },
+     {
+      "titre": "Merci pour l'Église du monde entier",
+      "texte": "Remercions Dieu pour son Église dans toutes les nations : une foule que personne ne peut compter. (Apocalypse 7:9)"
+     },
+     {
+      "titre": "Merci pour ceux qui m'ont conduit à Christ",
+      "texte": "Remercions Dieu pour ceux qui m'ont annoncé l'Évangile et m'ont aidé à grandir dans la foi. (1 Corinthiens 4:15)"
      }
     ]
    }
@@ -252,71 +390,117 @@
     "midi": "Proverbes 14:34",
     "soir": "Psaume 33:12"
    },
-   "veilles": {
-    "aube": [
+   "phases": {
+    "adoration": [
      {
-      "titre": "Ceux qui nous gouvernent",
-      "texte": "Prions pour le président, les ministres et tous ceux qui dirigent, afin que Dieu leur donne sagesse et crainte de lui. (1 Timothée 2:1-2)"
+      "titre": "Le Roi des rois",
+      "texte": "Adore Dieu : c'est lui qui change les temps, qui renverse les rois et qui établit les rois. (Daniel 2:21)"
      },
      {
-      "titre": "Une paix durable",
-      "texte": "Prions afin que la paix règne dans notre pays et que les conflits et la violence s'arrêtent. (Psaume 122:7)"
+      "titre": "Le Dieu des nations",
+      "texte": "Adore Dieu : à l'Éternel appartient le règne, et il domine sur les nations. (Psaume 22:29)"
      },
      {
-      "titre": "La justice pour tous",
-      "texte": "Prions afin que les juges et les policiers rendent une justice juste, sans corruption ni favoritisme. (Proverbes 29:4)"
-     },
-     {
-      "titre": "Les villes et les villages",
-      "texte": "Prions pour ma ville ou mon village, afin que Dieu y ôte le mal et y fasse venir sa bénédiction. (Jérémie 29:7)"
-     },
-     {
-      "titre": "Les écoles et les hôpitaux",
-      "texte": "Prions pour les enseignants, les médecins et les infirmiers, afin qu'ils servent avec honnêteté. (Proverbes 11:11)"
+      "titre": "Un Dieu de justice",
+      "texte": "Adore Dieu : la justice et l'équité sont la base de son trône. (Psaume 89:15)"
      }
     ],
-    "midi": [
+    "regne": [
      {
-      "titre": "Contre la corruption",
-      "texte": "Prions afin que Dieu brise la corruption : les pots-de-vin, les faveurs, les passe-droits. (Exode 23:8)"
+      "titre": "Ton règne sur mon pays",
+      "texte": "Prions afin que Dieu règne sur notre pays : ses lois, ses institutions, ses chefs. (Psaume 47:8)"
      },
      {
-      "titre": "Les routes et les services",
-      "texte": "Prions afin que les routes, l'eau, l'électricité et les services publics soient bien gérés pour tous. (Proverbes 14:34)"
+      "titre": "Ton règne chez ceux qui gouvernent",
+      "texte": "Prions afin que ceux qui nous gouvernent se soumettent à Dieu, car le cœur du roi est dans sa main. (Proverbes 21:1)"
      },
      {
-      "titre": "Les élections et les décisions",
-      "texte": "Prions afin que les décisions importantes du pays soient prises dans la lumière et dans la vérité. (Proverbes 21:1)"
-     },
-     {
-      "titre": "Les jeunes sans avenir",
-      "texte": "Prions pour la jeunesse de notre pays, afin que Dieu lui ouvre des portes et lui donne une espérance. (Jérémie 29:11)"
-     },
-     {
-      "titre": "La repentance du peuple",
-      "texte": "Prions afin que, du plus petit au plus grand, nous nous humiliions devant Dieu et revenions à lui. (2 Chroniques 7:14)"
+      "titre": "Ton règne dans ma ville",
+      "texte": "Prions pour ma ville ou mon village : que Dieu y règne, et qu'on y cherche son bien. (Jérémie 29:7)"
      }
     ],
-    "soir": [
+    "volonte": [
      {
-      "titre": "Merci pour mon pays",
-      "texte": "Remercions Dieu pour tout le bien de notre pays : sa terre, ses peuples, sa paix quand elle existe. (Psaume 85:2)"
+      "titre": "Son plan pour la nation",
+      "texte": "Prions afin que le plan de Dieu pour notre pays s'accomplisse : ses desseins subsistent à toujours. (Psaume 33:11)"
      },
      {
-      "titre": "Les victimes de la violence",
-      "texte": "Prions pour ceux qui ont perdu un proche ou leurs biens à cause de la guerre ou de la violence. (Psaume 34:19)"
+      "titre": "Les décisions de ceux qui dirigent",
+      "texte": "Prions afin que les décisions importantes du pays soient guidées par Dieu, qui dirige les pas. (Proverbes 16:9)"
      },
      {
-      "titre": "Les réfugiés et les déplacés",
-      "texte": "Prions pour ceux qui ont dû fuir leur maison, afin que Dieu leur donne un abri et la paix. (Psaume 146:9)"
+      "titre": "Ma part de citoyen",
+      "texte": "Prions afin que je fasse ma part : respecter la loi, payer ce que je dois, agir avec vérité. (Romains 13:1-7)"
+     }
+    ],
+    "pain": [
+     {
+      "titre": "Une terre qui donne",
+      "texte": "Prions afin que Dieu bénisse les champs, les marchés et l'économie du pays. (Deutéronome 28:8)"
      },
      {
-      "titre": "Les chrétiens dans la vie publique",
-      "texte": "Prions pour les chrétiens qui servent dans l'administration, la politique et la justice, afin qu'ils restent droits. (Daniel 6:4)"
+      "titre": "Les pauvres du pays",
+      "texte": "Prions afin que les pauvres et ceux qui n'ont pas d'appui soient secourus et défendus. (Psaume 72:12-13)"
      },
      {
-      "titre": "Une nation qui reconnaît Dieu",
-      "texte": "Prions afin que notre pays se tourne vers le Seigneur et que son nom y soit honoré. (Proverbes 14:34)"
+      "titre": "Les services pour tous",
+      "texte": "Prions afin que l'eau, l'électricité, les routes, les écoles et les hôpitaux soient bien gérés. (Proverbes 29:4)"
+     }
+    ],
+    "pardon": [
+     {
+      "titre": "Les péchés de la nation",
+      "texte": "Prions afin que Dieu pardonne les péchés de notre nation : corruption, violence, injustice. (Daniel 9:5-6)"
+     },
+     {
+      "titre": "Mes fautes de citoyen",
+      "texte": "Prions afin que Dieu me pardonne si j'ai pris part à la fraude, à la corruption ou à la haine. (Psaume 19:13)"
+     },
+     {
+      "titre": "Ceux qui dirigent mal",
+      "texte": "Prions afin que je pardonne à ceux qui nous dirigent mal, et que je prie pour eux. (Matthieu 5:44)"
+     }
+    ],
+    "tentation": [
+     {
+      "titre": "La haine entre les peuples",
+      "texte": "Prions afin que la haine entre tribus, régions et langues ne nous divise pas, car en Christ il n'y a ni Juif ni Grec. (Galates 3:28)"
+     },
+     {
+      "titre": "La corruption",
+      "texte": "Prions afin que personne ne se laisse acheter par un présent, car il aveugle même les sages. (Exode 23:8)"
+     },
+     {
+      "titre": "Le désespoir",
+      "texte": "Prions afin que notre peuple ne se laisse pas gagner par le découragement, et que Dieu nous remplisse d'espérance. (Romains 15:13)"
+     }
+    ],
+    "delivre": [
+     {
+      "titre": "La violence et la guerre",
+      "texte": "Prions afin que Dieu arrête les armes, les attaques et les guerres. « Arrêtez, et sachez que je suis Dieu. » (Psaume 46:10)"
+     },
+     {
+      "titre": "Les puissances derrière le mal",
+      "texte": "Prions afin que les puissances spirituelles qui poussent à la division et à la mort soient chassées de notre pays. (Éphésiens 6:12)"
+     },
+     {
+      "titre": "L'Afrique et les nations",
+      "texte": "Prions afin que Dieu délivre l'Afrique et toutes les nations de l'oppression, et qu'elles tendent les mains vers lui. (Psaume 68:32)"
+     }
+    ],
+    "grace": [
+     {
+      "titre": "Merci pour la paix qui existe",
+      "texte": "Remercions Dieu pour la paix que nous avons, même fragile, et pour les gens de bien qui font vivre le pays. (Psaume 85:2)"
+     },
+     {
+      "titre": "Merci pour ceux qui servent",
+      "texte": "Remercions Dieu pour les hommes droits dont la bénédiction élève une ville. (Proverbes 11:11)"
+     },
+     {
+      "titre": "Heureux le peuple dont Dieu est le Seigneur",
+      "texte": "Remercions Dieu d'avance : heureuse la nation dont l'Éternel est le Dieu. (Psaume 33:12)"
      }
     ]
    }
@@ -332,71 +516,117 @@
     "midi": "Romains 10:14",
     "soir": "Luc 19:10"
    },
-   "veilles": {
-    "aube": [
+   "phases": {
+    "adoration": [
      {
-      "titre": "Une personne précise",
-      "texte": "Prions pour une personne de mon entourage qui ne connaît pas Jésus. Disons son nom devant Dieu, et demandons qu'elle soit sauvée. (1 Timothée 2:3-4)"
+      "titre": "Un Dieu qui veut sauver",
+      "texte": "Adore Dieu : il veut que tous les hommes soient sauvés et parviennent à la connaissance de la vérité. (1 Timothée 2:4)"
+     },
+     {
+      "titre": "L'Agneau digne de toutes les nations",
+      "texte": "Adore l'Agneau : il a racheté pour Dieu, par son sang, des hommes de toute tribu, langue, peuple et nation. (Apocalypse 5:9)"
+     },
+     {
+      "titre": "Le berger qui cherche",
+      "texte": "Adore Jésus : le Fils de l'homme est venu chercher et sauver ce qui était perdu. (Luc 19:10)"
+     }
+    ],
+    "regne": [
+     {
+      "titre": "Ton règne chez ceux que je connais",
+      "texte": "Prions afin que ceux que je connais soient arrachés à la puissance des ténèbres et transportés dans le royaume du Fils. (Colossiens 1:13)"
+     },
+     {
+      "titre": "Ton règne chez les peuples non atteints",
+      "texte": "Prions afin que l'Évangile du royaume soit prêché à toutes les nations, puis viendra la fin. (Matthieu 24:14)"
+     },
+     {
+      "titre": "Ton règne là où je vis",
+      "texte": "Prions afin que je raconte aux miens tout ce que le Seigneur a fait pour moi. (Marc 5:19)"
+     }
+    ],
+    "volonte": [
+     {
+      "titre": "Ma part dans la mission",
+      "texte": "Prions afin que je fasse ma part : aller, envoyer, donner ou prier pour ceux qui annoncent. (Romains 10:15)"
      },
      {
       "titre": "Des ouvriers pour la moisson",
-      "texte": "Prions afin que le Seigneur envoie des ouvriers dans sa moisson, et que j'en sois un. (Matthieu 9:37-38)"
+      "texte": "Prions afin que le Seigneur envoie des ouvriers dans sa moisson. (Matthieu 9:37-38)"
      },
      {
-      "titre": "Une occasion de parler",
-      "texte": "Prions afin que Dieu m'ouvre une porte aujourd'hui pour parler de Jésus avec douceur et clarté. (Colossiens 4:3-4)"
-     },
-     {
-      "titre": "Les cœurs fermés",
-      "texte": "Prions afin que Dieu ouvre les cœurs et les yeux de ceux que l'ennemi a aveuglés. (2 Corinthiens 4:4)"
-     },
-     {
-      "titre": "Les peuples non atteints",
-      "texte": "Prions pour les peuples qui n'ont presque jamais entendu l'Évangile, afin qu'ils l'entendent. (Matthieu 24:14)"
+      "titre": "Une porte ouverte",
+      "texte": "Prions afin que Dieu m'ouvre une porte pour annoncer Jésus à quelqu'un aujourd'hui. (Colossiens 4:3)"
      }
     ],
-    "midi": [
+    "pain": [
      {
-      "titre": "Le courage de témoigner",
-      "texte": "Prions afin que je n'aie pas honte de l'Évangile, même devant des gens qui se moquent. (Romains 1:16)"
+      "titre": "Les besoins de ceux qui partent",
+      "texte": "Prions afin que Dieu pourvoie aux besoins des missionnaires et des évangélistes. (Philippiens 4:15-17)"
      },
      {
-      "titre": "Ceux qui annoncent",
-      "texte": "Prions pour les évangélistes, les missionnaires et les prédicateurs de rue, afin qu'ils soient gardés et fortifiés. (Romains 10:14-15)"
+      "titre": "La Parole dans toutes les langues",
+      "texte": "Prions afin que la Bible soit traduite et lue dans toutes les langues : l'entrée de ta parole éclaire. (Psaume 119:130)"
      },
      {
-      "titre": "Des amis musulmans, athées, traditionnels",
-      "texte": "Prions pour les personnes de religions et de convictions différentes, afin qu'elles rencontrent Jésus. (Actes 17:27)"
-     },
-     {
-      "titre": "Les enfants et les jeunes",
-      "texte": "Prions pour les enfants et les jeunes qui n'ont jamais entendu parler de Dieu, afin qu'ils le connaissent tôt. (Matthieu 19:14)"
-     },
-     {
-      "titre": "Des vies transformées",
-      "texte": "Prions afin que ceux qui se convertissent tiennent bon et deviennent de vrais disciples. (Colossiens 2:6-7)"
+      "titre": "Ceux qui ont faim",
+      "texte": "Prions afin que nous partagions notre pain avec l'affamé : c'est aussi un témoignage. (Ésaïe 58:7)"
      }
     ],
-    "soir": [
+    "pardon": [
      {
-      "titre": "Merci d'avoir été retrouvé",
-      "texte": "Remercions Dieu parce qu'un jour, quelqu'un nous a parlé de Jésus, et que nous avons été retrouvés. (Luc 19:10)"
+      "titre": "Mon silence",
+      "texte": "Prions afin que Dieu me pardonne tout le temps où j'ai gardé Jésus pour moi seul. (Ézéchiel 33:8)"
      },
      {
-      "titre": "Les prisonniers du péché",
-      "texte": "Prions pour ceux qui sont enchaînés par le péché, l'alcool ou la peur, afin que Jésus les libère. (Luc 4:18)"
+      "titre": "Mes préjugés",
+      "texte": "Prions afin que Dieu me pardonne mes préjugés : Dieu ne fait pas acception de personnes. (Actes 10:34-35)"
      },
      {
-      "titre": "Les églises qui envoient",
-      "texte": "Prions pour que nos assemblées envoient des missionnaires et les soutiennent par la prière et par les dons. (Actes 13:2-3)"
+      "titre": "Ceux qui nous ont persécutés",
+      "texte": "Prions afin que je pardonne à ceux qui m'ont moqué ou persécuté à cause de ma foi. (Luc 23:34)"
+     }
+    ],
+    "tentation": [
+     {
+      "titre": "La peur du regard des autres",
+      "texte": "Prions afin que je n'aie pas honte de l'Évangile : c'est la puissance de Dieu pour le salut. (Romains 1:16)"
      },
      {
-      "titre": "Les persécutés pour l'Évangile",
-      "texte": "Prions pour les chrétiens qui souffrent parce qu'ils parlent de Jésus, afin qu'ils tiennent ferme. (Hébreux 13:3)"
+      "titre": "L'indifférence",
+      "texte": "Prions afin que mon cœur soit ému de compassion pour ceux qui sont fatigués et abattus, comme Jésus. (Matthieu 9:36)"
      },
      {
-      "titre": "Me rendre disponible",
-      "texte": "Prions pour que je réponde « Me voici » quand Dieu me demandera d'aller ou de donner pour la mission. (Ésaïe 6:8)"
+      "titre": "Le découragement",
+      "texte": "Prions afin que je ne me lasse pas de faire le bien, car au temps convenable nous moissonnerons. (Galates 6:9)"
+     }
+    ],
+    "delivre": [
+     {
+      "titre": "Ceux qui sont aveuglés",
+      "texte": "Prions afin que Dieu ôte le voile de ceux dont l'ennemi a aveuglé l'intelligence. (2 Corinthiens 4:4)"
+     },
+     {
+      "titre": "Les prisonniers de la peur et du péché",
+      "texte": "Prions afin que Jésus libère ceux qui sont enchaînés : « Si le Fils vous affranchit, vous serez réellement libres. » (Jean 8:36)"
+     },
+     {
+      "titre": "Les chrétiens persécutés",
+      "texte": "Prions pour ceux qui sont en prison ou persécutés à cause de l'Évangile, comme si nous étions avec eux. (Hébreux 13:3)"
+     }
+    ],
+    "grace": [
+     {
+      "titre": "Merci pour celui qui m'a parlé",
+      "texte": "Remercions Dieu pour la personne qui m'a parlé de Jésus la première fois. (2 Timothée 1:5)"
+     },
+     {
+      "titre": "Merci pour la moisson",
+      "texte": "Remercions Dieu : les champs sont déjà blancs pour la moisson. (Jean 4:35)"
+     },
+     {
+      "titre": "Merci d'avance",
+      "texte": "Remercions Dieu d'avance : la terre sera remplie de la connaissance de la gloire de l'Éternel. (Habacuc 2:14)"
      }
     ]
    }
@@ -412,71 +642,117 @@
     "midi": "Jacques 5:14-15",
     "soir": "Psaume 103:2-3"
    },
-   "veilles": {
-    "aube": [
+   "phases": {
+    "adoration": [
      {
-      "titre": "Un corps gardé",
-      "texte": "Prions afin que Dieu garde mon corps et celui des miens en bonne santé aujourd'hui. (3 Jean 1:2)"
+      "titre": "Celui qui guérit",
+      "texte": "Adore Dieu : « Je suis l'Éternel, qui te guérit. » (Exode 15:26)"
      },
      {
-      "titre": "Les malades que je connais",
-      "texte": "Prions pour chaque malade de mon entourage, en disant son nom devant Dieu, afin qu'il soit guéri. (Jacques 5:14-15)"
+      "titre": "Le Créateur de mon corps",
+      "texte": "Adore Dieu : je suis une créature merveilleuse, formée avec soin. (Psaume 139:14)"
      },
      {
-      "titre": "Les maladies longues et difficiles",
-      "texte": "Prions pour ceux dont la maladie dure depuis longtemps, afin que Dieu leur donne la guérison et la patience. (Psaume 41:4)"
-     },
-     {
-      "titre": "Les enfants malades",
-      "texte": "Prions pour les enfants malades et pour leurs parents épuisés, afin que Dieu les touche. (Marc 10:13-16)"
-     },
-     {
-      "titre": "Les médecins et les soignants",
-      "texte": "Prions pour ceux qui soignent, afin que Dieu leur donne sagesse, honnêteté et compassion. (Jérémie 17:14)"
+      "titre": "Il a porté nos maladies",
+      "texte": "Adore Jésus : il a porté nos souffrances, et par ses meurtrissures nous sommes guéris. (Ésaïe 53:4-5)"
      }
     ],
-    "midi": [
+    "regne": [
      {
-      "titre": "La foi au milieu de la maladie",
-      "texte": "Prions afin que celui qui souffre garde confiance en Dieu, même quand la guérison tarde. (2 Corinthiens 12:9)"
+      "titre": "Ton règne sur mon corps",
+      "texte": "Prions afin que Dieu règne sur mon corps, qui est le temple du Saint-Esprit. (1 Corinthiens 6:19-20)"
      },
      {
-      "titre": "Les blessures du cœur",
-      "texte": "Prions pour ceux dont le cœur est brisé par un deuil, une trahison ou un abandon, afin que Dieu les guérisse. (Psaume 147:3)"
+      "titre": "Ton règne dans les hôpitaux",
+      "texte": "Prions afin que la présence de Dieu soit dans les hôpitaux, les centres de santé et les cases des malades. (Matthieu 4:23)"
      },
      {
-      "titre": "L'angoisse et la dépression",
-      "texte": "Prions pour ceux qui sont accablés de tristesse, afin que Dieu leur rende la joie et la paix. (Psaume 42:6)"
-     },
-     {
-      "titre": "Le courage de se soigner",
-      "texte": "Prions afin que personne ne retarde un soin nécessaire, par peur ou par honte. (Luc 10:34)"
-     },
-     {
-      "titre": "Se reposer",
-      "texte": "Prions afin que je prenne soin de mon corps et que je sache me reposer, car il est le temple de l'Esprit. (1 Corinthiens 6:19)"
+      "titre": "Ton règne sur la maladie",
+      "texte": "Prions afin que le royaume de Dieu s'approche de chaque malade que je connais : les malades guérissent. (Luc 10:9)"
      }
     ],
-    "soir": [
+    "volonte": [
      {
-      "titre": "Merci pour la vie",
-      "texte": "Remercions Dieu pour le souffle de cette journée, pour chaque jour de santé reçu. (Psaume 103:2-3)"
+      "titre": "Sa volonté pour ma santé",
+      "texte": "Prions afin que Dieu veuille ma prospérité et ma bonne santé, comme il le veut pour mon âme. (3 Jean 1:2)"
      },
      {
-      "titre": "Une nuit sans douleur",
-      "texte": "Prions afin que ceux qui souffrent trouvent un vrai repos cette nuit. (Psaume 4:9)"
+      "titre": "Quand la guérison tarde",
+      "texte": "Prions afin que je garde confiance quand la guérison tarde : sa grâce me suffit. (2 Corinthiens 12:9)"
      },
      {
-      "titre": "Ceux qui veillent les malades",
-      "texte": "Prions pour ceux qui passent la nuit au chevet d'un proche, afin que Dieu les soutienne. (Ésaïe 40:29)"
+      "titre": "Les soins que Dieu donne",
+      "texte": "Prions afin que Dieu conduise les médecins et les soignants, et que je ne néglige aucun soin. (Colossiens 4:14)"
+     }
+    ],
+    "pain": [
+     {
+      "titre": "De quoi se soigner",
+      "texte": "Prions afin que Dieu pourvoie à ce dont les malades ont besoin : médicaments, soins, transport. (Philippiens 4:19)"
      },
      {
-      "titre": "Les mourants et les endeuillés",
-      "texte": "Prions pour ceux qui approchent de la mort et pour les familles en deuil, afin que Dieu les console. (Psaume 23:4)"
+      "titre": "La force du jour",
+      "texte": "Prions afin que ceux qui espèrent en l'Éternel retrouvent de nouvelles forces. (Ésaïe 40:31)"
      },
      {
-      "titre": "Je remets mon corps à Dieu",
-      "texte": "Prions pour déposer mon corps entre les mains de Dieu avant de dormir. (Psaume 31:6)"
+      "titre": "Un vrai repos",
+      "texte": "Prions afin que je prenne le repos que Dieu donne à ceux qu'il aime. (Psaume 127:2)"
+     }
+    ],
+    "pardon": [
+     {
+      "titre": "Ce que j'ai fait à mon corps",
+      "texte": "Prions afin que Dieu me pardonne si j'ai négligé ou abîmé mon corps, et que je le lui offre en sacrifice vivant. (Romains 12:1)"
+     },
+     {
+      "titre": "Le pardon qui guérit",
+      "texte": "Prions afin que je pardonne à ceux qui m'ont blessé : la rancune pèse sur le corps. (Marc 11:25)"
+     },
+     {
+      "titre": "Confesser pour être guéri",
+      "texte": "Prions afin que je confesse ce que je cache, car la prière de la foi sauvera le malade. (Jacques 5:15-16)"
+     }
+    ],
+    "tentation": [
+     {
+      "titre": "La peur de la maladie",
+      "texte": "Prions afin que je ne craigne ni la terreur de la nuit, ni la peste qui marche dans les ténèbres. (Psaume 91:5-6)"
+     },
+     {
+      "titre": "Les excès",
+      "texte": "Prions afin que je sois gardé des excès : l'alcool, la nourriture, le tabac, qui détruisent le corps. (Proverbes 23:20)"
+     },
+     {
+      "titre": "L'incrédulité",
+      "texte": "Prions : « Je crois, aide-moi dans mon incrédulité. » (Marc 9:23-24)"
+     }
+    ],
+    "delivre": [
+     {
+      "titre": "Les maladies sans cause connue",
+      "texte": "Prions afin que Dieu guérisse ceux dont les médecins ne trouvent pas la cause. (Matthieu 8:16-17)"
+     },
+     {
+      "titre": "L'angoisse et la tristesse",
+      "texte": "Prions afin que l'Éternel soit près de ceux qui ont le cœur brisé et qu'il les sauve. (Psaume 34:18)"
+     },
+     {
+      "titre": "La mort qui menace",
+      "texte": "Prions afin que Dieu garde les malades en vie : « Je ne mourrai pas, je vivrai. » (Psaume 118:17)"
+     }
+    ],
+    "grace": [
+     {
+      "titre": "Merci pour la santé reçue",
+      "texte": "Remercions Dieu pour chaque jour de santé : c'est lui qui guérit toutes nos maladies. (Psaume 103:2-3)"
+     },
+     {
+      "titre": "Merci pour ceux qui ont été guéris",
+      "texte": "Remercions Dieu pour les guérisons que nous avons vues, comme celui qui est revenu rendre gloire. (Luc 17:15)"
+     },
+     {
+      "titre": "Merci pour ses bienfaits",
+      "texte": "Remercions Dieu : comment lui rendre tous ses bienfaits ? (Psaume 116:12)"
      }
     ]
    }
@@ -492,71 +768,117 @@
     "midi": "Psaume 100:4",
     "soir": "Habacuc 2:2"
    },
-   "veilles": {
-    "aube": [
+   "phases": {
+    "adoration": [
      {
-      "titre": "Le jour du Seigneur",
-      "texte": "Prions afin que ce jour soit mis à part pour Dieu, pour l'adorer et pour me reposer en lui. (Psaume 118:24)"
+      "titre": "Digne de louange",
+      "texte": "Adore Dieu : « Loué soit l'Éternel ! » Il est digne de louange. (Psaume 18:4)"
      },
      {
-      "titre": "Merci pour la semaine",
-      "texte": "Remercions Dieu pour les protections, les provisions et les victoires de cette semaine, petites ou grandes. (Psaume 103:2)"
+      "titre": "Sa bonté dure à toujours",
+      "texte": "Adore Dieu : il est bon, car sa miséricorde dure à toujours. (Psaume 136:1)"
      },
      {
-      "titre": "Les prières exaucées",
-      "texte": "Prions pour nous souvenir de ce que Dieu a déjà fait pour nous, et le raconter à quelqu'un. (Psaume 77:12)"
-     },
-     {
-      "titre": "Ce que Dieu m'a dit",
-      "texte": "Prions afin que je me rappelle ce que Dieu m'a dit cette semaine, et que je le mette en pratique. (Jacques 1:22)"
-     },
-     {
-      "titre": "L'église aujourd'hui",
-      "texte": "Prions pour le culte de ce jour, afin que Dieu y parle et y touche des vies. (Psaume 122:1)"
+      "titre": "Grande est sa fidélité",
+      "texte": "Adore Dieu : ses compassions ne sont pas épuisées, elles se renouvellent chaque matin. (Lamentations 3:22-23)"
      }
     ],
-    "midi": [
+    "regne": [
      {
-      "titre": "Se réjouir devant Dieu",
-      "texte": "Prions afin que nous entrions dans ses portes avec reconnaissance et dans ses parvis avec louange. (Psaume 100:4)"
+      "titre": "Ton règne sur la semaine qui vient",
+      "texte": "Prions afin que Dieu règne sur chacun de mes jours de la semaine : apprends-nous à bien compter nos jours. (Psaume 90:12)"
      },
      {
-      "titre": "La vision de ma vie",
-      "texte": "Prions afin que Dieu me montre ce qu'il attend de moi dans les mois qui viennent. (Proverbes 29:18)"
+      "titre": "Ton règne sur ma vision",
+      "texte": "Prions afin que Dieu me montre sa vision pour ma vie, car sans vision le peuple est sans frein. (Proverbes 29:18)"
      },
      {
-      "titre": "Les objectifs de la semaine",
-      "texte": "Prions pour mes projets et mes décisions de la semaine à venir, afin qu'ils plaisent à Dieu. (Proverbes 16:3)"
-     },
-     {
-      "titre": "Ma famille, ma foi, mon travail",
-      "texte": "Prions afin que ces trois domaines soient en ordre : la maison, la vie avec Dieu, le travail. (Psaume 90:12)"
-     },
-     {
-      "titre": "Les promesses de Dieu",
-      "texte": "Prions afin que je m'appuie sur les promesses de Dieu pour la semaine, et non sur mes craintes. (2 Corinthiens 1:20)"
+      "titre": "Ton règne sur mes projets",
+      "texte": "Prions afin que je remette mes projets à l'Éternel, et qu'ils soient affermis. (Proverbes 16:3)"
      }
     ],
-    "soir": [
+    "volonte": [
      {
-      "titre": "Un bilan honnête",
-      "texte": "Prions afin que Dieu me montre ce qui a été bon et ce que je dois changer cette semaine. (Psaume 139:23-24)"
+      "titre": "Mettre en pratique",
+      "texte": "Prions afin que je mette en pratique ce que Dieu m'a dit cette semaine, sans me tromper moi-même. (Jacques 1:22)"
      },
      {
-      "titre": "Écrire la vision",
-      "texte": "Prions afin que j'écrive ce que Dieu m'a montré, pour que je puisse m'y tenir. (Habacuc 2:2)"
+      "titre": "Ce que je dois changer",
+      "texte": "Prions afin que Dieu transforme mon intelligence pour que je discerne sa volonté. (Romains 12:2)"
      },
      {
-      "titre": "Pardonner pour recommencer",
-      "texte": "Prions afin que je reparte de zéro avec tout le monde, en pardonnant et en demandant pardon. (Éphésiens 4:32)"
+      "titre": "Remettre mes plans",
+      "texte": "Prions afin que je remette ma voie à l'Éternel : il agira. (Psaume 37:5)"
+     }
+    ],
+    "pain": [
+     {
+      "titre": "La provision de la semaine",
+      "texte": "Prions afin que Dieu pourvoie à tous mes besoins pour cette semaine. (Philippiens 4:19)"
      },
      {
-      "titre": "Confier la semaine qui vient",
-      "texte": "Prions pour remettre entre les mains de Dieu tout ce qui m'attend lundi. (Psaume 37:5)"
+      "titre": "La force pour lundi",
+      "texte": "Prions afin que Dieu me fortifie pour lundi : « Ne crains rien, je suis avec toi. » (Ésaïe 41:10)"
      },
      {
-      "titre": "S'endormir en paix",
-      "texte": "Prions afin que je dorme dans la paix de Dieu, assuré que lui veille. (Psaume 121:3-4)"
+      "titre": "Ceux qui m'entourent",
+      "texte": "Prions afin que je porte les fardeaux de ceux qui m'entourent, en accomplissant la loi de Christ. (Galates 6:2)"
+     }
+    ],
+    "pardon": [
+     {
+      "titre": "Repartir de zéro",
+      "texte": "Prions afin que je pardonne et que je recommence la semaine sans rancune, comme Dieu m'a pardonné. (Éphésiens 4:32)"
+     },
+     {
+      "titre": "Les dettes du cœur",
+      "texte": "Prions afin que je pardonne aux hommes leurs offenses, pour que le Père me pardonne aussi. (Matthieu 6:14-15)"
+     },
+     {
+      "titre": "Me pardonner à moi-même",
+      "texte": "Prions afin que mon cœur soit apaisé : Dieu est plus grand que notre cœur. (1 Jean 3:20)"
+     }
+    ],
+    "tentation": [
+     {
+      "titre": "Les tentations de la semaine",
+      "texte": "Prions afin que Dieu me donne l'issue dans chaque tentation : il est fidèle. (1 Corinthiens 10:13)"
+     },
+     {
+      "titre": "Le relâchement",
+      "texte": "Prions afin que je dépose tout fardeau et le péché qui m'enveloppe si facilement, et que je coure avec persévérance. (Hébreux 12:1)"
+     },
+     {
+      "titre": "Les distractions",
+      "texte": "Prions afin que mon cœur s'attache aux choses d'en haut, et non à celles de la terre. (Colossiens 3:2)"
+     }
+    ],
+    "delivre": [
+     {
+      "titre": "Les peurs du lundi",
+      "texte": "Prions afin que Dieu me délivre des craintes qui m'attendent : quand je passerai par les eaux, il sera avec moi. (Ésaïe 43:1-2)"
+     },
+     {
+      "titre": "Ceux qui attaquent ma vision",
+      "texte": "Prions afin que Dieu me garde de ceux qui veulent arrêter ce qu'il m'a confié, comme Néhémie. (Néhémie 4:9)"
+     },
+     {
+      "titre": "L'ennemi du renouveau",
+      "texte": "Prions afin que je me soumette à Dieu et que je résiste au diable : il fuira loin de moi. (Jacques 4:7)"
+     }
+    ],
+    "grace": [
+     {
+      "titre": "Merci pour la semaine passée",
+      "texte": "Remercions Dieu pour les protections, les provisions et les victoires de cette semaine. (Psaume 103:2)"
+     },
+     {
+      "titre": "Merci pour ce que j'ai appris",
+      "texte": "Remercions Dieu pour ce qu'il m'a enseigné cette semaine. Je te louerai avec droiture de cœur. (Psaume 119:7)"
+     },
+     {
+      "titre": "Merci d'avance pour la semaine",
+      "texte": "Remercions Dieu d'avance : l'Éternel agira en ma faveur. (Psaume 138:8)"
      }
     ]
    }
