@@ -1335,3 +1335,37 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .rendez-vous__ligne { display: flex; justify-content: space-between; align-items: flex-end; gap: 10px; flex-wrap: wrap; }
 .rendez-vous__ligne p { margin: 0 0 6px; line-height: 1.45; }
 .rendez-vous__rappel { width: 100%; margin-top: 8px; }
+/* Listes déroulantes : un volet ouvert à la fois, flèche bien visible */
+.accordeon { display: grid; gap: 8px; margin-top: 12px; }
+.accordeon__volet { padding: 0; }
+.accordeon__titre { display: flex; align-items: center; gap: 10px; width: 100%; padding: 10px 12px; background: none; border: 0; font: inherit; text-align: left; color: var(--titre); min-height: 56px; }
+.accordeon__texte { flex: 1; display: flex; flex-direction: column; gap: 1px; }
+.accordeon__texte b { font-family: var(--police-titre); font-size: 1rem; }
+.accordeon__texte small { color: var(--or-fonce); font-size: .8rem; }
+.accordeon__rond { width: 36px; height: 36px; border-radius: 50%; background: var(--or); color: #fff; display: grid; place-items: center; flex: none; transition: transform .2s; box-shadow: 0 1px 3px rgba(0,0,0,.2); }
+.accordeon__rond svg { stroke-width: 3; transform: rotate(90deg); }
+.accordeon__volet--ouvert .accordeon__rond svg { transform: rotate(-90deg); }
+.accordeon__corps { padding: 0 14px 14px; }
+.accordeon__corps p { margin: 0 0 8px; line-height: 1.55; }
+/* Flèches entre les consignes : plus grosses, trait épais */
+.un-par-un__nav .rond { width: 52px; height: 52px; background: var(--or); border-color: var(--or); color: #fff; box-shadow: 0 1px 4px rgba(0,0,0,.25); }
+.un-par-un__nav .rond svg { stroke-width: 3.2; }
+.un-par-un__nav .rond:disabled { background: var(--surface); border-color: var(--bord); color: var(--texte); opacity: .4; box-shadow: none; }
+/* Temps de prière : quatre boutons égaux, bien espacés */
+.un-par-un__ecoute .chips { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.un-par-un__ecoute .chip { padding: 10px 4px; text-align: center; font-size: .82rem; line-height: 1.2; min-height: 44px; }
+.un-par-un__etiq { text-align: center; font-weight: 700; }
+/* Boutons Retour / Suivant : grands, avec le nom de la phase */
+.nav-phase { position: sticky; bottom: calc(78px + env(safe-area-inset-bottom)); z-index: 5; display: grid; grid-template-columns: 1fr 1.25fr; gap: 10px; margin-top: 16px; padding: 8px 0; background: linear-gradient(transparent, var(--fond) 30%); }
+.nav-phase__bouton { display: flex; align-items: center; gap: 8px; border-radius: 16px; padding: 10px 12px; min-height: 64px; font: inherit; text-align: left; border: 2px solid var(--or); background: var(--surface); color: var(--titre); }
+.nav-phase__bouton--suivant { background: var(--bleu-nuit, #172a4a); border-color: var(--bleu-nuit, #172a4a); color: #fff; flex-direction: row-reverse; text-align: right; }
+.nav-phase__bouton svg { flex: none; stroke-width: 3; }
+.nav-phase__bouton span { display: flex; flex-direction: column; flex: 1; line-height: 1.2; }
+.nav-phase__bouton small { font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; opacity: .8; }
+.nav-phase__bouton b { font-size: .9rem; }
+.nav-phase__bouton--fin { background: var(--or); border-color: var(--or); color: var(--bleu-nuit, #172a4a); }
+.un-par-un__ecoute { padding: 8px 10px; }
+.un-par-un__etiq { margin: 8px 0 6px; font-size: .8rem; }
+.un-par-un__ecoute .chip { min-height: 38px; padding: 6px 4px; }
+.un-par-un__nav { margin: 6px 4px; }
+.quiz__compteur { margin: 4px 0; }

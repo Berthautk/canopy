@@ -11,7 +11,9 @@ const PAUSES = [{ s: 0, t: 'À mon rythme' }, { s: 30, t: '30 s' }, { s: 60, t: 
 const lireChoix = () => { try { const n = parseInt(localStorage.getItem('yeshaya:pause-priere') || '60', 10); return PAUSES.some((p) => p.s === n) ? n : 60; } catch { return 60; } };
 const phraseSujet = (s) => `${s.titre ? s.titre + '. ' : ''}${s.texte}`;
 
-export function SujetsUnParUn({ sujets, voixId, intro, faits, setFaits, fin }) {
+export function SujetsUnParUn({ sujets, voixId, intro, faits: faitsExt, setFaits: setFaitsExt }) {
+  const [faitsLocal, setFaitsLocal] = useState({});
+  const faits = faitsExt ?? faitsLocal, setFaits = setFaitsExt ?? setFaitsLocal;
   const [k, setK] = useState(0);
   const [pause, setPause] = useState(lireChoix);
   const [mode, setMode] = useState('off');            // off | dit | prie
@@ -73,10 +75,9 @@ export function SujetsUnParUn({ sujets, voixId, intro, faits, setFaits, fin }) {
           {!enCours
             ? <button class="barre-ecoute__lancer" onClick={() => dire(k, k === 0)}>
                 <span class="btn-lecture" style="width:44px;height:44px"><Icone nom="lecture" taille={20} /></span>
-                <span class="ligne__corps"><span class="ligne__titre" style="display:block">Écouter et prier avec la voix</span>
-                  <span class="ligne__desc">La voix dit le sujet, puis se tait pour te laisser prier.</span></span></button>
+                <span class="ligne__corps"><span class="ligne__titre" style="display:block">Écouter et prier avec la voix</span></span></button>
             : <button class="bouton bouton--contour" onClick={arreter}><Icone nom="pause" taille={18} /> Arrêter l'écoute</button>}
-          <p class="un-par-un__etiq">Temps de prière après chaque sujet :</p>
+          <p class="un-par-un__etiq">Temps pour prier après chaque sujet</p>
           <div class="chips" role="radiogroup">{PAUSES.map((p) => <button role="radio" aria-checked={pause === p.s} class={'chip' + (pause === p.s ? ' chip--actif' : '')} onClick={() => choisir(p.s)}>{p.t}</button>)}</div>
         </section>
       )}

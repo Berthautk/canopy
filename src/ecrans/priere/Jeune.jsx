@@ -1,4 +1,5 @@
 import { useState } from 'preact/hooks';
+import { Accordeon } from '../../composants/Accordeon.jsx';
 import { Banniere } from '../../composants/Banniere.jsx';
 import { Icone } from '../../composants/Icone.jsx';
 import { CarteVerset } from '../../composants/Verset.jsx';
@@ -11,19 +12,6 @@ import { JEUNE_PRIERE as C } from '../../donnees/contenu.js';
 const JOURS = ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'];
 const MOIS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
 const long = (t) => { const [a, m, j] = t.split('-').map(Number); const d = new Date(a, m - 1, j); return `${JOURS[d.getDay()]} ${j} ${MOIS[m - 1]}`; };
-
-function Bloc({ titre, icone = 'ampoule', ouvert, children }) {
-  const [o, setO] = useState(!!ouvert);
-  return (
-    <section class="carte bloc jeune__bloc">
-      <button class="jeune__entete" aria-expanded={o} onClick={() => setO(!o)}>
-        <span class="ligne__icone"><Icone nom={icone} /></span><span class="jeune__titre">{titre}</span>
-        <span class={'jeune__fleche' + (o ? ' jeune__fleche--ouverte' : '')}><Icone nom="chevron" taille={18} /></span>
-      </button>
-      {o && <div class="jeune__corps">{children}</div>}
-    </section>
-  );
-}
 
 export function Jeune() {
   const etat = useSignal(jeune);
@@ -65,12 +53,14 @@ export function Jeune() {
         {semaine && <p class="jeune__merci"><Icone nom="priere" taille={18} /> Du {long(semaine.du)} au {long(semaine.au)} : semaine de jeûne et de prière. Prie plus longtemps (veilles « Complet ») et jeûne un ou plusieurs jours, selon ta santé.</p>}
       </section>
 
-      <Bloc titre="Pourquoi prier et jeûner ?" ouvert>{C.pourquoi.map((t) => <p><TexteRefs texte={t} /></p>)}</Bloc>
-      <Bloc titre="Quel jeûne choisir ?" icone="liste">{C.types.map((t) => <div class="jeune__type"><h4>{t.titre} <small>· {t.pour}</small></h4><p>{t.texte}</p></div>)}</Bloc>
-      <Bloc titre="Attention à ta santé" icone="bouclier"><ul>{C.precautions.map((t) => <li>{t}</li>)}</ul></Bloc>
-      <Bloc titre="Un jour de jeûne, pas à pas" icone="soleil">{C.jour.map((t) => <div class="jeune__type"><h4>{t.moment}</h4><p><TexteRefs texte={t.texte} /></p></div>)}</Bloc>
-      <Bloc titre="Si tu viens de te convertir" icone="coeur"><ol>{C.convertis.map((t) => <li>{t}</li>)}</ol></Bloc>
-      <Bloc titre="Le rythme qui grandit" icone="grandir">{C.paliers.map((p) => <div class="jeune__type"><h4>{p.titre}</h4><p>{p.rythme}</p></div>)}</Bloc>
+      <Accordeon ouvert="pourquoi" volets={[
+        { id: 'pourquoi', titre: 'Pourquoi prier et jeûner ?', contenu: C.pourquoi.map((x) => <p><TexteRefs texte={x} /></p>) },
+        { id: 'types', titre: 'Quel jeûne choisir ?', icone: 'liste', contenu: C.types.map((x) => <div class="jeune__type"><h4>{x.titre} <small>· {x.pour}</small></h4><p>{x.texte}</p></div>) },
+        { id: 'sante', titre: 'Attention à ta santé', icone: 'bouclier', contenu: <ul>{C.precautions.map((x) => <li>{x}</li>)}</ul> },
+        { id: 'jour', titre: 'Un jour de jeûne, pas à pas', icone: 'soleil', contenu: C.jour.map((x) => <div class="jeune__type"><h4>{x.moment}</h4><p><TexteRefs texte={x.texte} /></p></div>) },
+        { id: 'convertis', titre: 'Si tu viens de te convertir', icone: 'coeur', contenu: <ol>{C.convertis.map((x) => <li>{x}</li>)}</ol> },
+        { id: 'rythme', titre: 'Le rythme qui grandit', icone: 'grandir', contenu: C.paliers.map((x) => <div class="jeune__type"><h4>{x.titre}</h4><p>{x.rythme}</p></div>) },
+      ]} />
 
       <h2 class="titre-section">Pour aller plus loin</h2>
       <div class="liste">

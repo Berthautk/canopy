@@ -9,6 +9,7 @@ import { lireEnCours, ecrireEnCours, effacerEnCours } from '../../donnees/veille
 import { noterPriere, aiPrie } from '../../donnees/priere.js';
 import { useSignal, useMemoire } from '../../outils/signal.js';
 import { SujetsUnParUn } from './SujetsUnParUn.jsx';
+import { Accordeon } from '../../composants/Accordeon.jsx';
 import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 import { PriereGuidee } from '../../composants/PriereGuidee.jsx';
 import { priantsDuJour, chargerPriants, phrasePriants } from '../../donnees/ensemble.js';
@@ -165,19 +166,26 @@ export function Veille({ id, guide }) {
         {e.sous_titre && <p class="phase__sous-titre"><TexteRefs texte={e.sous_titre} /></p>}
         {e.theme && <p class="phase__theme"><Icone nom="priere" taille={15} /> Aujourd'hui : prière pour {e.theme}</p>}
       </div>
-      <p class="phase__consigne">{e.sujets.length > 1 ? 'Voici ' + e.sujets.length + ' consignes de prière, une à la fois. Lis-la, prie avec tes mots, puis touche la flèche pour passer à la suivante.' : 'Lis cette consigne, puis prie avec tes mots.'}</p>
+      <p class="phase__consigne">{e.sujets.length > 1 ? e.sujets.length + ' consignes, une à la fois : lis, prie avec tes mots, puis touche la flèche dorée.' : 'Lis cette consigne, puis prie avec tes mots.'}</p>
       <SujetsUnParUn key={n} sujets={e.sujets} voixId={`${cleJour}-${n}`} faits={coches[n] || {}} setFaits={(f) => setCoches({ ...coches, [n]: f })}
         intro={`${e.titre}. ${e.theme ? "Aujourd'hui : prière pour " + e.theme + '.' : ''}`} />
-      {/* Les explications viennent APRÈS les consignes : d'abord prier, ensuite comprendre. */}
-      {e.texte && <section class="carte bloc phase__aide"><h3><span class="ligne__icone"><Icone nom="ampoule" /></span> Pour t'aider dans cette étape</h3><p class="phase__texte"><TexteRefs texte={e.texte} /></p><GuidePhase num={e.num} /></section>}
-      {!e.texte && <GuidePhase num={e.num} />}
-      {n === 0 && v.verset && <><h3 class="phase__parole">Parole du jour</h3><CarteVerset reference={v.verset} /></>}
+      {/* Les explications sont rangées dans des volets : on les ouvre si on en a besoin (un seul à la fois). */}
+      <Accordeon key={'a' + n} volets={[
+        e.texte && { id: 'aide', titre: "Pour t'aider dans cette étape", contenu: <p class="phase__texte"><TexteRefs texte={e.texte} /></p> },
+        GUIDE_PHASES?.phases?.['p' + e.num] && { id: 'guide', titre: GUIDE_PHASES.phases['p' + e.num].titre, icone: 'info', contenu: <p><TexteRefs texte={GUIDE_PHASES.phases['p' + e.num].texte} /></p> },
+        e.num === 'proc' && GUIDE_PHASES?.phases?.proc && { id: 'guide', titre: GUIDE_PHASES.phases.proc.titre, icone: 'info', contenu: <p><TexteRefs texte={GUIDE_PHASES.phases.proc.texte} /></p> },
+        n === 0 && v.verset && { id: 'parole', titre: 'La parole du jour', icone: 'bible', contenu: <CarteVerset reference={v.verset} /> },
+      ]} />
       {derniere && <NoteDeFin id={v.id} />}
-      <div class="chemin-etape__nav">
-        <button class="bouton bouton--contour" onClick={() => aller(n - 1)}><Icone nom="precedent" taille={18} /> {n === 0 ? 'Sommaire' : etapes[n - 1].titre}</button>
-        {derniere ? <button class="bouton bouton--or" onClick={suivant}>J'ai prié <Icone nom="verifie" taille={20} /></button>
-          : <button class="bouton bouton--plein" onClick={suivant}>{etapes[n + 1].titre} <Icone nom="chevron" taille={18} /></button>}
-      </div>
+      <nav class="nav-phase" aria-label="Changer de phase">
+        <button class="nav-phase__bouton" onClick={() => aller(n - 1)}>
+          <Icone nom="precedent" taille={26} />
+          <span><small>Retour à</small><b>{n === 0 ? 'Sommaire' : etapes[n - 1].titre}</b></span>
+        </button>
+        {derniere
+          ? <button class="nav-phase__bouton nav-phase__bouton--suivant nav-phase__bouton--fin" onClick={suivant}><Icone nom="verifie" taille={26} /><span><small>Terminer</small><b>J'ai prié</b></span></button>
+          : <button class="nav-phase__bouton nav-phase__bouton--suivant" onClick={suivant}><Icone nom="chevron" taille={26} /><span><small>Suivant</small><b>{etapes[n + 1].titre}</b></span></button>}
+      </nav>
     </div>
   );
 }

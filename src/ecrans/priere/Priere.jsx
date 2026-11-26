@@ -6,6 +6,8 @@ import { TexteRefs } from '../../composants/TexteRefs.jsx';
 import { BoutonLecture, BoutonTelecharger } from '../../composants/Audio.jsx';
 import { notifier } from '../../composants/Notification.jsx';
 import { SujetsACocher, GuidePhase, blocsSujets } from './Veille.jsx';
+import { SujetsUnParUn } from './SujetsUnParUn.jsx';
+import { Accordeon } from '../../composants/Accordeon.jsx';
 import { PriereGuidee } from '../../composants/PriereGuidee.jsx';
 import { SerieDeVeilles, SemaineDePriere, PrierEnsemble, MesDernieresNotes } from './Veille.jsx';
 import { lireEnCours } from '../../donnees/veilleEnCours.js';
@@ -276,20 +278,12 @@ export function ThemePriere({ id, guide }) {
 
       {p.phases ? (() => { let k = 0; const debuts = p.phases.map((ph) => { const d = k + 1; k += ph.sujets.length + 1; return d; }); return (
         <>
-          <BarreEcoute id={p.id} titre="Écouter les sujets de prière"
-            blocs={p.phases.flatMap((ph) => [{ texte: `${ph.titre}.` }, ...blocsSujets(ph.sujets)])} />
-          <p class="guide-phase" style="margin-top:14px"><Icone nom="info" taille={18} /><span>Prie chaque sujet, puis appuie sur le rond pour le cocher. Les sujets suivent le <b>Notre Père</b> (Matthieu 6:9-13).</span></p>
-          {p.phases.map((ph, j) => (
-            <section class="phase">
-              <h2 class="phase__titre"><span class="phase__num">{ph.num}</span>{ph.titre}</h2>
-              <GuidePhase num={ph.num} />
-              <SujetsACocher sujets={ph.sujets} voixId={p.id} debut={debuts[j]} />
-            </section>
-          ))}
+          <p class="guide-phase" style="margin-top:14px"><Icone nom="info" taille={18} /><span>Touche une phase pour l'ouvrir. Les sujets suivent le <b>Notre Père</b> (Matthieu 6:9-13) : une consigne à la fois, tu pries, puis tu touches la flèche.</span></p>
+          <Accordeon mention="Touche pour prier" volets={p.phases.map((ph, j) => ({ id: j, titre: `${ph.num}. ${ph.titre}`, icone: 'priere',
+            contenu: <><GuidePhase num={ph.num} /><SujetsUnParUn sujets={ph.sujets} voixId={`${p.id}-ph${j}`} intro={ph.titre + '.'} /></> }))} />
         </>); })() : (
         <><h2 class="titre-section">Sujets de prière</h2>
-          <BarreEcoute id={p.id} titre="Écouter les sujets de prière" blocs={blocsSujets(p.sujets)} />
-          <SujetsACocher sujets={p.sujets} voixId={p.id} debut={0} /></>
+          <SujetsUnParUn sujets={p.sujets} voixId={p.id} intro={p.titre + '.'} /></>
       )}
       {p.priere && <section class="carte bloc priere-modele"><h3><span class="ligne__icone"><Icone nom="priere" /></span> Prière</h3><p><em>{p.priere}</em></p></section>}
       <PiedPriere id={p.id} titre={p.titre} chemin={'priere/theme/' + p.id}
@@ -311,8 +305,7 @@ export function FicheCombat({ id, guide }) {
       {c.versets.length > 0 && <><h2 class="titre-section">Versets de base</h2><div class="liste">{c.versets.map((r) => <CarteVerset reference={r} />)}</div></>}
       <h2 class="titre-section">À prier</h2>
       <p class="guide-phase"><Icone nom="info" taille={18} /><span>Prie chaque point avec foi, à voix haute si possible. Remplace « [...] » par les noms des personnes concernées.</span></p>
-      <BarreEcoute id={c.id} titre="Écouter la fiche" blocs={[{ texte: c.titre + '. ' + (c.introduction || '') }, ...blocsSujets(c.sujets, true)]} />
-      <SujetsACocher sujets={c.sujets} numerote voixId={c.id} debut={1} />
+      <SujetsUnParUn sujets={c.sujets} voixId={c.id} intro={c.titre + '.'} />
       <PiedPriere id={c.id} titre={c.titre} chemin={'priere/combat/' + c.id} texte={`${c.titre}\n\n${c.sujets.slice(0, 6).map((s, i) => `${i + 1}. ${s.texte}`).join('\n')}`} />
       <p class="source-mention">{c.source || 'Source : ' + c.auteur}</p>
     </div>
