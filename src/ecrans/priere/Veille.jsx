@@ -1,10 +1,11 @@
 import { useState } from 'preact/hooks';
 import { Icone } from '../../composants/Icone.jsx';
-import { CarteVerset } from '../../composants/Verset.jsx';
+import { CarteVerset, usePassage, TextePassage, cheminMontrer } from '../../composants/Verset.jsx';
+import { ecrireReference } from '../../bible/references.js';
 import { TexteRefs } from '../../composants/TexteRefs.jsx';
 import { notifier } from '../../composants/Notification.jsx';
-import { VEILLES, GUIDE_PHASES, CYCLE_VEILLES } from '../../donnees/contenu.js';
-import { veilleDuJour, nombreDeSujets, semaineEnCours, TAILLES, serieEnCours, meilleureSerie, phraseDeSerie, joursPries } from '../../donnees/veilles.js';
+import { VEILLES, GUIDE_PHASES, CYCLE_VEILLES, ADORATION } from '../../donnees/contenu.js';
+import { veilleDuJour, nombreDeSujets, semaineEnCours, TAILLES, adorationDuJour, serieEnCours, meilleureSerie, phraseDeSerie, joursPries } from '../../donnees/veilles.js';
 import { noterPriere, aiPrie } from '../../donnees/priere.js';
 import { useSignal, useMemoire } from '../../outils/signal.js';
 import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
@@ -86,6 +87,35 @@ export function SerieDeVeilles({ aiPrie, id }) {
   );
 }
 
+// L'adoration : un moment à part. Le psaume du jour (texte de la Bible), et un cantique à chanter.
+// Elle change chaque jour, et elle est choisie pour l'heure (aube, midi, soir) et pour le thème de la journée.
+export function AdorationDuJour({ veilleId, complet }) {
+  const { psaume, cantique } = adorationDuJour(ADORATION, veilleId);
+  const etat = usePassage(psaume?.ref || 'Psaume 100:1');
+  if (!psaume && !cantique) return null;
+  return (
+    <section class="adoration" aria-label="Adoration du jour">
+      <span class="adoration__etiquette"><Icone nom="musique" taille={14} /> Adoration du jour</span>
+      {psaume && <>
+        <h3 class="adoration__titre">{psaume.titre}</h3>
+        <p class="adoration__guide">{psaume.guide}</p>
+        <div class="adoration__verset"><TextePassage etat={etat} grand />
+          {etat.ref && <a class="adoration__ref" href={'#/' + cheminMontrer(etat.ref)}>{ecrireReference(etat.ref)} · lire en grand</a>}</div>
+      </>}
+      {cantique && (
+        <div class="adoration__cantique">
+          <h4><Icone nom="musique" taille={16} /> À chanter : {cantique.titre}</h4>
+          <p class="adoration__air">{cantique.auteur} · sur l'air : {cantique.air}</p>
+          {cantique.refrain && <p class="adoration__paroles adoration__paroles--refrain">{cantique.refrain.map((l) => <span>{l}</span>)}</p>}
+          {complet !== false && cantique.couplets?.map((c) => <p class="adoration__paroles">{c.map((l) => <span>{l}</span>)}</p>)}
+          {cantique.audio && <audio controls preload="none" src={cantique.audio} />}
+          {cantique.note && <p class="adoration__note">{cantique.note}</p>}
+        </div>
+      )}
+    </section>
+  );
+}
+
 // L'endroit où écrire : ce que Dieu a dit (matin, midi) ou ce qu'il a fait aujourd'hui (soir).
 // On y revient pour relire : c'est la mémoire de la veille.
 const QUESTION = {
@@ -140,7 +170,7 @@ export function Veille({ id, guide }) {
   const v0 = VEILLES.find((x) => x.id === 'veille-' + id) || VEILLES[0];
   const [taille, setTaille] = useState(lireTaille);
   const choisir = (x) => { setTaille(x); try { localStorage.setItem('yeshaya:veille-taille', x); } catch { /* stockage indisponible */ } };
-  const v = veilleDuJour(v0, CYCLE_VEILLES, new Date(), taille);
+  const v = veilleDuJour(v0, CYCLE_VEILLES, new Date(), taille, ADORATION);
   const aiPriees = useSignal(aiPrie), semaine = semaineEnCours(aiPriees);
   const etapes = [...v.phases, { num: 'proc', titre: 'Proclamations', texte: 'Termine en déclarant à voix haute ces paroles de foi.', sujets: v.proclamations }];
   // La progression se range par veille, par taille et par jour : un nouveau jour repart du début.
@@ -158,13 +188,14 @@ export function Veille({ id, guide }) {
       <ChoixTaille valeur={taille} surChoix={choisir} v={v} />
       <PriereGuidee auto={guide} id={cleJour} titre={v.titre} introduction={v.introduction} etapes={etapes.map((e) => ({ titre: e.titre, texte: e.num === 'proc' ? e.texte : (e.num === 'jour' ? e.texte : null), sujets: e.sujets }))} idPriere={v.id} />
       {v.verset && <CarteVerset reference={v.verset} />}
+      <AdorationDuJour veilleId={v.id} />
       <MesNotes id={v.id} />
       <section class="carte bloc"><h3><span class="ligne__icone"><Icone nom="info" /></span> Avant de commencer</h3><p><TexteRefs texte={v.introduction} /></p></section>
       <h2 class="titre-section">Le déroulement</h2>
       <ol class="carte deroulement">
-        {etapes.map((e, i) => <li><button onClick={() => setN(i)}><span class="deroulement__num">{e.num === 'proc' ? '✦' : e.num === 'jour' ? '★' : e.num}</span><span>{e.titre}<small class="deroulement__nb">{e.sujets.length} sujet{e.sujets.length > 1 ? 's' : ''}</small></span><Icone nom="chevron" taille={18} /></button></li>)}
+        {etapes.map((e, i) => <li><button onClick={() => { setN(i); scrollTo(0, 0); }}><span class="deroulement__num">{e.num === 'proc' ? '✦' : e.num === 'jour' ? '★' : e.num}</span><span>{e.titre}<small class="deroulement__nb">{e.sujets.length} sujet{e.sujets.length > 1 ? 's' : ''}</small></span><Icone nom="chevron" taille={18} /></button></li>)}
       </ol>
-      <button class="bouton bouton--contour" style="width:100%;margin-top:14px" onClick={() => setN(0)}><Icone nom="priere" taille={20} /> Prier en lisant, étape par étape</button>
+      <button class="bouton bouton--contour" style="width:100%;margin-top:14px" onClick={() => { setN(0); scrollTo(0, 0); }}><Icone nom="priere" taille={20} /> Prier en lisant, étape par étape</button>
       <p class="source-mention">Source : {v.auteur}</p>
     </div>
   );
@@ -181,6 +212,7 @@ export function Veille({ id, guide }) {
         {e.sous_titre && <p class="phase__sous-titre"><TexteRefs texte={e.sous_titre} /></p>}
         {e.texte && <p class="phase__texte"><TexteRefs texte={e.texte} /></p>}
       </div>
+      {/adoration/i.test(e.titre) && <AdorationDuJour veilleId={v.id} />}
       <GuidePhase num={e.num} />
       <SujetsACocher key={n} sujets={e.sujets} voixId={`${cleJour}-${n}`} debut={1} />
       <div class="chemin-etape__nav">

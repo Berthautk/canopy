@@ -1,0 +1,182 @@
+{
+ "version": 1,
+ "psaumes": [
+  {
+   "jour": 1,
+   "veille": "aube",
+   "ref": "Psaume 127:1-3",
+   "titre": "Le Seigneur bâtit la maison",
+   "guide": "Adore Dieu comme le bâtisseur de ton foyer. Sans lui, on travaille pour rien."
+  },
+  {
+   "jour": 1,
+   "veille": "midi",
+   "ref": "Psaume 128:1-4",
+   "titre": "Heureux celui qui craint l'Éternel",
+   "guide": "Adore Dieu pour la famille qu'il t'a donnée, même imparfaite."
+  },
+  {
+   "jour": 1,
+   "veille": "soir",
+   "ref": "Psaume 91:1-4",
+   "titre": "À l'abri sous ses ailes",
+   "guide": "Adore Dieu comme celui qui couvre ta maison pendant la nuit."
+  },
+  {
+   "jour": 2,
+   "veille": "aube",
+   "ref": "Psaume 90:12-17",
+   "titre": "Que la bonté du Seigneur soit sur nous",
+   "guide": "Adore Dieu comme celui qui rend fécond le travail de tes mains."
+  },
+  {
+   "jour": 2,
+   "veille": "midi",
+   "ref": "Psaume 37:3-6",
+   "titre": "Remets ton sort à l'Éternel",
+   "guide": "Adore Dieu comme celui à qui tu peux confier tes affaires."
+  },
+  {
+   "jour": 2,
+   "veille": "soir",
+   "ref": "Psaume 34:9-11",
+   "titre": "Ceux qui le craignent ne manquent de rien",
+   "guide": "Adore Dieu comme celui qui pourvoit, même quand la caisse est vide."
+  },
+  {
+   "jour": 3,
+   "veille": "aube",
+   "ref": "Psaume 122:1-4",
+   "titre": "Allons à la maison de l'Éternel",
+   "guide": "Adore Dieu avec tous ses enfants, ici et dans le monde entier."
+  },
+  {
+   "jour": 3,
+   "veille": "midi",
+   "ref": "Psaume 133:1-3",
+   "titre": "Qu'il est bon de demeurer ensemble",
+   "guide": "Adore Dieu pour l'unité de son peuple, et demande-la."
+  },
+  {
+   "jour": 3,
+   "veille": "soir",
+   "ref": "Psaume 84:2-5",
+   "titre": "Heureux ceux qui habitent ta maison",
+   "guide": "Adore Dieu pour sa maison, et pour le désir de s'y trouver."
+  },
+  {
+   "jour": 4,
+   "veille": "aube",
+   "ref": "Psaume 67:2-6",
+   "titre": "Que tous les peuples te louent",
+   "guide": "Adore Dieu comme le Seigneur de ton pays et de toutes les nations."
+  },
+  {
+   "jour": 4,
+   "veille": "midi",
+   "ref": "Psaume 33:10-12",
+   "titre": "Heureuse la nation dont l'Éternel est le Dieu",
+   "guide": "Adore Dieu comme celui qui dirige les chefs et les peuples."
+  },
+  {
+   "jour": 4,
+   "veille": "soir",
+   "ref": "Psaume 85:9-12",
+   "titre": "La paix et la justice se baisent",
+   "guide": "Adore Dieu comme celui qui peut faire fleurir la paix dans ton pays."
+  },
+  {
+   "jour": 5,
+   "veille": "aube",
+   "ref": "Psaume 96:1-6",
+   "titre": "Racontez sa gloire parmi les nations",
+   "guide": "Adore Dieu en pensant à ceux qui ne le connaissent pas encore."
+  },
+  {
+   "jour": 5,
+   "veille": "midi",
+   "ref": "Psaume 117:1-2",
+   "titre": "Louez l'Éternel, vous toutes les nations",
+   "guide": "C'est le plus court psaume : lis-le doucement, plusieurs fois."
+  },
+  {
+   "jour": 5,
+   "veille": "soir",
+   "ref": "Psaume 98:1-4",
+   "titre": "Chantez à l'Éternel un cantique nouveau",
+   "guide": "Adore Dieu pour ce qu'il a déjà fait voir à toute la terre."
+  },
+  {
+   "jour": 6,
+   "veille": "aube",
+   "ref": "Psaume 103:1-5",
+   "titre": "Bénis l'Éternel, mon âme",
+   "guide": "Adore Dieu pour ses bienfaits : il pardonne, il guérit, il rachète."
+  },
+  {
+   "jour": 6,
+   "veille": "midi",
+   "ref": "Psaume 147:1-5",
+   "titre": "Il guérit ceux qui ont le cœur brisé",
+   "guide": "Adore Dieu comme celui qui panse les blessures du corps et du cœur."
+  },
+  {
+   "jour": 6,
+   "veille": "soir",
+   "ref": "Psaume 23:1-6",
+   "titre": "L'Éternel est mon berger",
+   "guide": "Adore Dieu comme celui qui reste avec toi dans la vallée sombre."
+  },
+  {
+   "jour": 7,
+   "veille": "aube",
+   "ref": "Psaume 100:1-5",
+   "titre": "Entrez dans ses portes avec reconnaissance",
+   "guide": "Adore Dieu avec joie : c'est le jour pour lui dire merci."
+  },
+  {
+   "jour": 7,
+   "veille": "midi",
+   "ref": "Psaume 136:1-4",
+   "titre": "Car sa miséricorde dure à toujours",
+   "guide": "Répète « car sa miséricorde dure à toujours » après chaque ligne."
+  },
+  {
+   "jour": 7,
+   "veille": "soir",
+   "ref": "Psaume 92:2-5",
+   "titre": "Annoncer sa bonté le matin et sa fidélité la nuit",
+   "guide": "Adore Dieu pour sa fidélité : elle a tenu toute cette semaine."
+  }
+ ],
+ "cantiques": [
+  {
+   "id": "a-toi-la-gloire",
+   "titre": "À toi la gloire, ô Ressuscité",
+   "auteur": "Edmond Budry (1884)",
+   "air": "« Judas Maccabaeus », de G. F. Haendel",
+   "veilles": [
+    "aube",
+    "midi",
+    "soir"
+   ],
+   "jours": [
+    7,
+    5
+   ],
+   "domaine_public": true,
+   "refrain": [
+    "À toi la gloire, ô Ressuscité !",
+    "À toi la victoire pour l'éternité !"
+   ],
+   "couplets": [
+    [
+     "Brillant de lumière, l'ange est descendu,",
+     "Il roule la pierre du tombeau vaincu."
+    ]
+   ],
+   "note": "Chante-le sur l'air que tu connais. Le texte complet est dans ton recueil de cantiques.",
+   "audio": null
+  }
+ ]
+}

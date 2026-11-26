@@ -18,11 +18,14 @@ export const jourDuCycle = (d = new Date()) => ((d.getDay() + 6) % 7) + 1;
 //  - une phase « Prière du jour » (le thème de la semaine) insérée juste après l'Adoration,
 //  - le verset du jour pour cette veille,
 //  - le nombre de sujets adapté à la taille choisie.
-export function veilleDuJour(veille, cycle, d = new Date(), taille = 'complet') {
+export function veilleDuJour(veille, cycle, d = new Date(), taille = 'complet', adoration = null) {
   const jour = cycle.find((x) => x.numero === jourDuCycle(d));
   const cle = veille.id.replace('veille-', '');
   const gardes = PAR_ETAPE[taille] ?? Infinity;
-  let phases = veille.phases.map((p) => ({ ...p, sujets: p.sujets.slice(0, gardes) }));
+  // L'adoration commence toujours par le psaume du jour : en version courte, c'est tout ce qu'on garde.
+  const ado = adoration ? adorationDuJour(adoration, veille.id, d) : { psaume: null };
+  const sujetPsaume = ado.psaume ? { titre: `Le psaume du jour : ${ado.psaume.titre}`, texte: `Lis à voix haute ${ado.psaume.ref.replace(/^Psaume/, 'le Psaume')}. ${ado.psaume.guide} (${ado.psaume.ref})` } : null;
+  let phases = veille.phases.map((p) => ({ ...p, sujets: (sujetPsaume && /adoration/i.test(p.titre) ? [sujetPsaume, ...p.sujets] : p.sujets).slice(0, gardes) }));
   let verset = veille.verset;
   if (jour?.veilles?.[cle]?.length) {
     const phaseJour = {
@@ -88,4 +91,16 @@ export function phraseDeSerie({ serie, enDanger }, totalFois) {
   if (serie >= 2) return `${serie} jours de suite. Chaque jour compte.`;
   if (serie === 1) return "Tu as prié aujourd'hui. Reviens demain pour commencer une série.";
   return 'Reprends dès aujourd\'hui : un jour de plus, et la série repart.';
+}
+
+// ----- L'adoration du jour : un psaume (texte pris dans la Bible) et, si on en a un, un cantique -----
+export function adorationDuJour(adoration, veilleId, d = new Date()) {
+  const cle = veilleId.replace('veille-', ''), jour = jourDuCycle(d);
+  const psaume = adoration?.psaumes?.find((x) => x.jour === jour && x.veille === cle) || null;
+  const candidats = (adoration?.cantiques || []).filter((c) => c.veilles?.includes(cle));
+  // Un cantique qui correspond au thème du jour passe d'abord ; sinon on fait tourner les autres selon le jour.
+  const dujour = candidats.filter((c) => c.jours?.includes(jour));
+  const liste = dujour.length ? dujour : candidats;
+  const cantique = liste.length ? liste[jour % liste.length] : null;
+  return { psaume, cantique };
 }
