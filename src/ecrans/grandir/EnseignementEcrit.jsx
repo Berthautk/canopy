@@ -11,6 +11,8 @@ import { partager } from '../../outils/partage.js';
 import { SujetsACocher, blocsSujets } from '../priere/Veille.jsx';
 import { compter } from '../../donnees/mesure.js';
 import { marquerOuvert, marquerLu, retenirPartie, lectures } from '../../donnees/lectures.js';
+import { avancer, terminer } from '../../donnees/activites.js';
+import { useGardeSortie } from '../../composants/SortieAvantFin.jsx';
 import { useSignal } from '../../outils/signal.js';
 import { PRIERES, COMBAT, VEILLES, ENSEIGNEMENTS, NIVEAUX } from '../../donnees/contenu.js';
 
@@ -45,7 +47,7 @@ function plan(e) {
 
 
 // Barre collante : « Partie 3 sur 8 · environ 18 min restantes », et mémoire de la dernière partie atteinte.
-function SuiviLecture({ id, total, minutes }) {
+function SuiviLecture({ id, total, minutes, titre }) {
   const [etat, setEtat] = useState({ partie: 0, ratio: 0 });
   useEffect(() => {
     let attente = false;
@@ -57,7 +59,7 @@ function SuiviLecture({ id, total, minutes }) {
         let partie = 0;
         document.querySelectorAll('.enseignement-ecrit .section-ens').forEach((el, i) => { if (el.getBoundingClientRect().top < innerHeight * 0.4) partie = i + 1; });
         setEtat((p) => (p.partie === partie && Math.abs(p.ratio - ratio) < 0.004 ? p : { partie, ratio }));
-        if (partie > 1) retenirPartie(id, partie);
+        if (partie > 1) { retenirPartie(id, partie); avancer({ cle: 'ens-' + id, type: 'enseignement', titre, lien: '#/grandir/enseignement/' + id, fraction: ratio, libelle: `partie ${partie} sur ${total}` }); }
       });
     };
     addEventListener('scroll', f, { passive: true });
@@ -102,11 +104,15 @@ export function EnseignementEcrit({ id, ecouter }) {
   useEffect(() => {
     if (!etat.e) return;
     marquerOuvert(id);
-    const f = () => { const d = document.documentElement; if (d.scrollTop + innerHeight >= d.scrollHeight * 0.9) { marquerLu(id); removeEventListener('scroll', f); } };
+    const f = () => { const d = document.documentElement; if (d.scrollTop + innerHeight >= d.scrollHeight * 0.9) { marquerLu(id); terminer('ens-' + id); removeEventListener('scroll', f); } };
     addEventListener('scroll', f, { passive: true });
     return () => removeEventListener('scroll', f);
   }, [etat.e, id]);
   const va = useVoixActive(id);
+  useGardeSortie(() => {
+    const l = lectures.valeur, n = l.parties?.[id] || 0;
+    return etat.e && n >= 2 && !l.lus.includes(id) ? { cle: 'ens-' + id, type: 'enseignement', titre: etat.e.titre, libelle: `partie ${n} sur ${etat.e.sections.length}`, lien: '#/grandir/enseignement/' + id } : null;
+  });
   const lance = useRef(false);
   const e = etat.e;
   if (etat.chargement) return <div class="page"><p class="verset__attente" style="margin-top:16px">Chargement de l'enseignement…</p></div>;
@@ -117,7 +123,7 @@ export function EnseignementEcrit({ id, ecouter }) {
   if (ecouter && !lance.current) { lance.current = true; setTimeout(() => lireAVoixHaute(id, blocs), 300); }
   return (
     <div class="page enseignement-ecrit">
-      <SuiviLecture id={e.id} total={e.sections.length} minutes={e.lecture_minutes || 20} />
+      <SuiviLecture id={e.id} total={e.sections.length} minutes={e.lecture_minutes || 20} titre={e.titre} />
       <div class="theme-hero"><img src={e.image} alt="" />
         <div class="theme-hero__texte"><span class="pastille pastille--or">{e.theme} · {e.lecture_minutes} min de lecture</span><h2>{e.titre}</h2></div></div>
       <p class="veille__theme" {...va(pos.titre)}>{e.resume}</p>
@@ -181,7 +187,7 @@ export function Questions({ e }) {
   const [rep, setRep] = useState({});
   const [verifie, setVerifie] = useState(false);
   const qs = e.questions, bonnes = qs.filter((q, i) => rep[i] === q.reponse).length;
-  const verifier = () => { setVerifie(true); marquerLu(e.id); compter('enseignement-fini', e.id); if (bonnes === qs.length) compter('questions-reussies', e.id); };
+  const verifier = () => { setVerifie(true); marquerLu(e.id); terminer('ens-' + e.id); compter('enseignement-fini', e.id); if (bonnes === qs.length) compter('questions-reussies', e.id); };
   return (
     <section class="carte bloc questions-ens">
       <h3><span class="ligne__icone"><Icone nom="cible" /></span> As-tu bien compris ?</h3>

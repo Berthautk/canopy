@@ -1388,3 +1388,30 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .nuit__temps span { font-size: .85rem; opacity: .8; }
 .nuit__reglage { display: flex; gap: 14px; justify-content: flex-end; }
 .nuit__semaine .pastille { display: inline-block; width: auto; }
+/* Quitter avant la fin */
+.sortie { position: fixed; inset: 0; z-index: 60; background: rgba(10, 20, 40, .6); display: grid; place-items: center; padding: 20px; }
+.sortie__boite { background: var(--surface); border-radius: 22px; padding: 22px 18px; max-width: 360px; width: 100%; text-align: center; display: grid; gap: 10px; box-shadow: 0 10px 40px rgba(0,0,0,.35); }
+.sortie__boite h2 { margin: 0; font-family: var(--police-titre); color: var(--titre); }
+.sortie__boite p { margin: 0 0 4px; line-height: 1.5; }
+.sortie__icone { width: 56px; height: 56px; margin: 0 auto; border-radius: 50%; background: var(--or); color: #fff; display: grid; place-items: center; }
+.adieu { position: fixed; z-index: 55; left: 12px; right: 12px; bottom: calc(86px + env(safe-area-inset-bottom)); max-width: 520px; margin: 0 auto; display: flex; gap: 10px; align-items: center; padding: 14px 16px; border-radius: 16px; background: var(--bleu-nuit, #172a4a); color: #fff; line-height: 1.4; box-shadow: 0 6px 24px rgba(0,0,0,.35); animation: apparait .3s ease; }
+.adieu svg { flex: none; color: var(--or); }
+/* Reprendre / Ma fidélité */
+.reprises { margin: 12px 0; padding: 12px 14px; border-left: 4px solid var(--or); }
+.reprises h2 { font-family: var(--police-titre); font-size: 1.05rem; color: var(--titre); margin: 0 0 4px; }
+.reprises__mot { margin: 0 0 8px; font-size: .92rem; line-height: 1.45; }
+.reprises__ligne { display: flex; gap: 10px; align-items: center; padding: 8px 0; border-top: 1px solid var(--bord); color: inherit; text-decoration: none; }
+.reprises__ligne .ligne__icone { flex: none; }
+.reprises__ligne > span:nth-child(2) { flex: 1; display: flex; flex-direction: column; line-height: 1.3; }
+.reprises__ligne small { opacity: .75; }
+.reprises__bouton { background: var(--or); color: #fff; font-weight: 700; padding: 7px 12px; border-radius: 999px; font-size: .85rem; }
+.fidelite__barre { height: 10px; border-radius: 999px; background: var(--surface-2, #eee6d0); overflow: hidden; margin: 8px 0; }
+.fidelite__barre i { display: block; height: 100%; background: var(--sauge); }
+.fidelite__chiffres { display: flex; gap: 14px; }
+.fidelite__chiffres b { font-size: 1.4rem; color: var(--titre); display: block; }
+.fidelite__chiffres span { font-size: .78rem; opacity: .8; }
+.fin-priere__amen { text-align: center; margin-top: 16px; }
+.fin-priere__amen svg { color: var(--sauge); }
+.fin-priere__amen h2 { margin: 6px 0; font-family: var(--police-titre); }
+.reprises__ligne small { display: block; }
+.reprises__fidelite small { font-size: .82rem; }

@@ -4,12 +4,15 @@ import { CarteVerset } from '../../composants/Verset.jsx';
 import { TexteRefs } from '../../composants/TexteRefs.jsx';
 import { notifier } from '../../composants/Notification.jsx';
 import { VEILLES, GUIDE_PHASES, CYCLE_VEILLES, ADORATION } from '../../donnees/contenu.js';
-import { veilleDuJour, nombreDeSujets, semaineEnCours, TAILLES, serieEnCours, meilleureSerie, phraseDeSerie } from '../../donnees/veilles.js';
+import { veilleDuJour, nombreDeSujets, semaineEnCours, TAILLES, jourDuCycle, serieEnCours, meilleureSerie, phraseDeSerie } from '../../donnees/veilles.js';
 import { lireEnCours, ecrireEnCours, effacerEnCours } from '../../donnees/veilleEnCours.js';
 import { noterPriere, aiPrie } from '../../donnees/priere.js';
 import { useSignal, useMemoire } from '../../outils/signal.js';
 import { SujetsUnParUn } from './SujetsUnParUn.jsx';
 import { coucherDuJour } from '../../donnees/coucher.js';
+import { avancer, terminer } from '../../donnees/activites.js';
+import { useGardeSortie } from '../../composants/SortieAvantFin.jsx';
+import { FinDePriere } from './FinDePriere.jsx';
 import { Accordeon } from '../../composants/Accordeon.jsx';
 import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 import { PriereGuidee } from '../../composants/PriereGuidee.jsx';
@@ -121,6 +124,12 @@ export function Veille({ id, guide }) {
   const prochaine = Math.max(0, etapes.findIndex((_, k) => !fait(k)));
   const toutCocher = (k) => setCoches({ ...coches, [k]: Object.fromEntries(etapes[k].sujets.map((_, i) => [i, true])) });
   const aller = (k) => { setN(k); scrollTo(0, 0); };
+  const [fini, setFini] = useState(false);
+  const cleActivite = 'veille-' + cleJour;
+  useEffect(() => {
+    if (n >= 0 && !fini) avancer({ cle: cleActivite, type: 'veille', titre: v0.titre, lien: '#/priere/veille/' + id, fraction: (n + 1) / etapes.length, libelle: `étape ${n + 1} sur ${etapes.length}` });
+  }, [n, fini]);
+  useGardeSortie(() => (n >= 0 && !fini ? { cle: cleActivite, type: 'veille', titre: v0.titre, libelle: `étape ${n + 1} sur ${etapes.length}`, lien: '#/priere/veille/' + id } : null));
   // On garde la trace d'une veille commencée, pour inviter à la reprendre depuis la rubrique Prière.
   useEffect(() => {
     if (n >= 0 && !tout) ecrireEnCours({ id: v0.id, titre: v0.titre, taille, etape: n + 1, total: etapes.length, lien: '#/priere/veille/' + id });
@@ -156,8 +165,12 @@ export function Veille({ id, guide }) {
     </div>
   );
 
+  if (fini) {
+    const j = CYCLE_VEILLES.find((x) => x.numero === jourDuCycle());
+    return <FinDePriere titre={v0.titre} motsCles={(j?.mots || []).join(' ') + ' ' + (j?.court || '')} message="Que Dieu exauce ta prière. Tu l'as terminée : c'est un pas de fidélité." retour="#/priere" />;
+  }
   const e = etapes[n], derniere = n === etapes.length - 1;
-  const suivant = () => { toutCocher(n); if (derniere) { noterPriere(v.id); effacerEnCours(); const s = serieEnCours(aiPrie.valeur); notifier(s.serie > 1 ? `Amen ! ${s.serie} jours de suite : continue.` : 'Amen ! Que Dieu exauce ta prière.'); aller(-1); } else aller(n + 1); };
+  const suivant = () => { toutCocher(n); if (derniere) { noterPriere(v.id); effacerEnCours(); terminer(cleActivite); const s = serieEnCours(aiPrie.valeur); notifier(s.serie > 1 ? `Amen ! ${s.serie} jours de suite : continue.` : 'Amen ! Que Dieu exauce ta prière.'); setFini(true); scrollTo(0, 0); } else aller(n + 1); };
   return (
     <div class={'page veille veille--' + id}>
       <div class="progression progression--fine" style="margin-top:12px"><span style={{ width: ((n + 1) / etapes.length) * 100 + '%' }} /></div>

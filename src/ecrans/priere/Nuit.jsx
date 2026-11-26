@@ -9,6 +9,8 @@ import { NUIT_PRIERE as N, CYCLE_VEILLES, ADORATION } from '../../donnees/conten
 import { construireNuit, LONGUEURS, prochaineNuit } from '../../donnees/nuit.js';
 import { notesVeilles, dernieresNotes } from '../../donnees/notesVeilles.js';
 import { useSignal } from '../../outils/signal.js';
+import { avancer, terminer } from '../../donnees/activites.js';
+import { useGardeSortie } from '../../composants/SortieAvantFin.jsx';
 
 const CLE = 'yeshaya:nuit-en-cours';
 const lire = () => { try { return JSON.parse(localStorage.getItem(CLE)); } catch { return null; } };
@@ -112,11 +114,14 @@ function NuitEnCours({ etat, sauve, fin }) {
   }, []);
   const ecoule = Math.max(0, Math.floor((Date.now() - etat.tPhase) / 1000)), cible = p.minutes * 60;
   const atteint = ecoule >= cible;
+  const cleNuit = 'nuit-' + new Date(etat.depuis).toISOString().slice(0, 10);
+  useEffect(() => { avancer({ cle: cleNuit, type: 'nuit', titre: 'Nuit de prière', lien: '#/priere/nuit', fraction: (n + 1) / nuit.phases.length, libelle: `phase ${n + 1} sur ${nuit.phases.length} : ${p.titre}` }); }, [n]);
+  useGardeSortie(() => ({ cle: cleNuit, type: 'nuit', titre: 'Nuit de prière', libelle: `phase ${n + 1} sur ${nuit.phases.length}`, lien: '#/priere/nuit' }));
   const aller = (i) => sauve({ ...etat, n: i, tPhase: Date.now() });
   const regler = (delta) => sauve({ ...etat, reglages: { ...etat.reglages, [p.id]: Math.max(5, p.minutes + delta) } });
   const suivant = () => {
     if (!atteint && !confirm(`Il reste ${mmss(cible - ecoule)} sur le temps prévu pour cette phase. Passer quand même à la suite ?`)) return;
-    if (derniere) { notifier('Amen. Que Dieu exauce ta prière. Va te reposer.'); fin(); } else aller(n + 1);
+    if (derniere) { terminer(cleNuit); notifier('Amen. Que Dieu exauce ta prière. Va te reposer.'); fin(); } else aller(n + 1);
   };
   return (
     <div class="page nuit">

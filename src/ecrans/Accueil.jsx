@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'preact/hooks';
+import { activites, enCours, fidelite } from '../donnees/activites.js';
+import { LigneReprise } from './Fidelite.jsx';
 import { lienDisciple, actualiserDisciple } from '../donnees/suivi.js';
 import { rendezVousAVenir, quand, telechargerAgenda, rappelerSiProche, rappelsPossibles, rappelsEtat, autoriserRappels } from '../donnees/rendezVous.js';
 import { Icone } from '../composants/Icone.jsx';
@@ -115,6 +117,23 @@ const salutation = (prenom) => {
 };
 
 // Écran 2 : accueil.
+// « Voici où tu étais » : ce qui est commencé et pas fini, avec un mot de bon retour.
+function Reprises() {
+  const v = useSignal(activites);
+  const liste = enCours(v), f = fidelite(v);
+  if (!liste.length && !f.commencees) return null;
+  const h = liste.length ? (Date.now() - new Date(liste[0].maj)) / 36e5 : 0;
+  const mot = !liste.length ? null : h >= 72 ? 'Bon retour ! Ça fait quelques jours : reprends doucement là où tu t\'étais arrêté.' : h >= 6 ? 'Bon retour ! Continue avec ce que tu avais commencé.' : 'Voici où tu étais.';
+  return (
+    <section class="carte reprises">
+      {liste.length > 0 && <><h2>{mot}</h2>{liste.slice(0, 3).map((a) => <LigneReprise a={a} />)}</>}
+      {f.commencees > 0 && <a class="reprises__fidelite" href="#/fidelite" style="display:block;margin-top:8px;color:inherit;text-decoration:none">
+        <small>Ma fidélité : {f.finies} terminé{f.finies > 1 ? 's' : ''} sur {f.commencees} commencé{f.commencees > 1 ? 's' : ''} ces 30 jours</small>
+        <div class="fidelite__barre"><i style={{ width: Math.round(f.taux * 100) + '%' }} /></div></a>}
+    </section>
+  );
+}
+
 // Rendez-vous d'accompagnement : visible par le berger et par le disciple, avec rappel.
 function RendezVous() {
   const lien = useSignal(lienDisciple);
@@ -150,6 +169,8 @@ export function Accueil() {
       </header>
 
       <BannieresDuJour />
+
+      <Reprises />
 
       <RendezVous />
 

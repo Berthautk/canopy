@@ -25,6 +25,8 @@ import { Journal } from './ecrans/priere/Journal.jsx';
 import { Veille } from './ecrans/priere/Veille.jsx';
 import { Jeune } from './ecrans/priere/Jeune.jsx';
 import { Nuit } from './ecrans/priere/Nuit.jsx';
+import { Fidelite } from './ecrans/Fidelite.jsx';
+import { SortieAvantFin } from './composants/SortieAvantFin.jsx';
 import { FicheCombat } from './ecrans/priere/Priere.jsx';
 import { EnseignementEcrit } from './ecrans/grandir/EnseignementEcrit.jsx';
 import { Grandir, Enseignements, SerieEnseignements } from './ecrans/grandir/Grandir.jsx';
@@ -83,6 +85,7 @@ function titre([a, b, c, d]) {
   if (a === 'disciple') return { defi: 'Défi de 21 jours', verset: 'Le verset de la semaine', temoignages: 'Mes témoignages', cinq: 'Ma liste des 5' }[b] || 'Mes outils de disciple';
   if (a === 'orizon') return b === 'jour' ? 'Vaincre en 90 jours · Jour ' + c : 'Vaincre en 90 jours';
   if (a === 'confidentialite') return 'Confidentialité';
+  if (a === 'fidelite') return 'Ma fidélité';
   if (a === 'priere' && b === 'jeune') return 'Jeûne et prière';
   if (a === 'priere' && b === 'demander') return 'Demander la prière';
   if (a === 'priere' && b === 'section') return { veilles: 'Les veilles du jour', proche: 'Prier pour un proche', themes: 'Prier pour…', journal: 'Journal et demandes', combat: 'Combat spirituel' }[c] || 'Prière';
@@ -127,6 +130,7 @@ function Ecran({ r }) {
   if (a === 'accueil') return <Accueil />;
   if (a === 'plus') return <Plus />;
   if (a === 'nouveautes') return <Nouveautes />;
+  if (a === 'fidelite') return <Fidelite />;
   if (a === 'parametres') return <Parametres />;
   if (a === 'admin') return <Admin />;
   if (a === 'equilibre') return b === 'rappels' ? <Rappels /> : <Equilibre modifier={b === 'modifier'} />;
@@ -196,6 +200,7 @@ export function App() {
       <MiniLecteur />
       <BarreOnglets actif={ONGLET_DE[r.segments[0]] ?? 'accueil'} />
       <Notification />
+      <SortieAvantFin />
       <FenetreMiseAJour />
     </div>
   );

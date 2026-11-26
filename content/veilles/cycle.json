@@ -126,7 +126,15 @@
      }
     ]
    },
-   "priere": "prière pour la famille"
+   "priere": "prière pour la famille",
+   "mots": [
+    "famille",
+    "couple",
+    "mariage",
+    "enfants",
+    "foyer",
+    "parents"
+   ]
   },
   {
    "numero": 2,
@@ -253,7 +261,16 @@
      }
     ]
    },
-   "priere": "prière pour le travail et l'argent"
+   "priere": "prière pour le travail et l'argent",
+   "mots": [
+    "travail",
+    "argent",
+    "finances",
+    "emploi",
+    "business",
+    "provision",
+    "pain"
+   ]
   },
   {
    "numero": 3,
@@ -380,7 +397,14 @@
      }
     ]
    },
-   "priere": "prière pour l'Église"
+   "priere": "prière pour l'Église",
+   "mots": [
+    "église",
+    "assemblée",
+    "pasteur",
+    "corps de christ",
+    "frères"
+   ]
   },
   {
    "numero": 4,
@@ -507,7 +531,15 @@
      }
     ]
    },
-   "priere": "prière pour le pays"
+   "priere": "prière pour le pays",
+   "mots": [
+    "pays",
+    "nation",
+    "gouvernement",
+    "dirigeants",
+    "paix",
+    "cameroun"
+   ]
   },
   {
    "numero": 5,
@@ -634,7 +666,15 @@
      }
     ]
    },
-   "priere": "prière pour les perdus et les missions"
+   "priere": "prière pour les perdus et les missions",
+   "mots": [
+    "perdus",
+    "évangélisation",
+    "missions",
+    "salut",
+    "âmes",
+    "témoigner"
+   ]
   },
   {
    "numero": 6,
@@ -761,7 +801,14 @@
      }
     ]
    },
-   "priere": "prière pour la santé et la guérison"
+   "priere": "prière pour la santé et la guérison",
+   "mots": [
+    "santé",
+    "guérison",
+    "maladie",
+    "malades",
+    "soin"
+   ]
   },
   {
    "numero": 7,
@@ -888,7 +935,14 @@
      }
     ]
    },
-   "priere": "prière d'action de grâce"
+   "priere": "prière d'action de grâce",
+   "mots": [
+    "reconnaissance",
+    "action de grâce",
+    "merci",
+    "louange",
+    "vision"
+   ]
   }
  ]
 }
