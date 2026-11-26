@@ -12,7 +12,7 @@ let ko = 0; const ok = (c, m) => { if (!c) { ko++; console.log('  ÉCHEC :', m);
   await DB.prepare('INSERT INTO suivis VALUES (?,?,?,?,?,?,?,?)').bind('ABC-1234', 'Jean', 'cleb', 'cled', 'pas-01-le-salut', t, t, t).run();
   await DB.prepare('INSERT INTO suivis VALUES (?,?,?,?,?,?,?,?)').bind('XYZ-9876', 'Paul', 'cleb2', null, 'pas-01-le-salut', null, t, t).run();
   const r = await lireRep(await suiviPost({ request: req({ action: 'rejoindre', code: 'ABC-1234', prenom: 'jean' }), env }));
-  ok(r.statut === 409, 'un suivi déjà rejoint avant la correction est fermé automatiquement');
+  ok(r.ok && r.cle, 'un suivi déjà rejoint avant la mise à jour : le converti peut se reconnecter avec son code et son prénom');
   const r2 = await lireRep(await suiviPost({ request: req({ action: 'rejoindre', code: 'XYZ-9876', prenom: 'paul' }, { ip: '5.5.5.5' }), env }));
   ok(r2.ok, 'un suivi jamais rejoint reste utilisable après la mise à jour');
 }

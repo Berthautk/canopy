@@ -32,7 +32,7 @@ async function preparer(db) {
     await db.prepare('UPDATE suivis SET ouvert = 0 WHERE cle_disciple IS NOT NULL').run();
   } catch { /* la colonne existe déjà */ }
   // Rendez-vous fixé par le berger : date-heure locale (AAAA-MM-JJTHH:MM) et lieu.
-  for (const c of ['rdv TEXT', 'rdv_lieu TEXT']) { try { await db.prepare('ALTER TABLE suivis ADD COLUMN ' + c).run(); } catch { /* déjà là */ } }
+  for (const c of ['rdv TEXT', 'rdv_lieu TEXT', 'reco_n INTEGER NOT NULL DEFAULT 0', 'reco_dernier TEXT']) { try { await db.prepare('ALTER TABLE suivis ADD COLUMN ' + c).run(); } catch { /* déjà là */ } }
 }
 const lire = (db, code) => db.prepare('SELECT * FROM suivis WHERE code = ?').bind(code).first();
 
@@ -74,16 +74,29 @@ export async function onRequestPost({ request, env }) {
   // Le disciple entre le code et son prénom. Le code ne sert qu'une fois.
   if (c.action === 'rejoindre') {
     if (await tropDEssais(db, frein, 20)) return json({ ok: false, erreur: 'Trop d\'essais depuis cet appareil. Réessaie dans une heure.' }, 429);
-    if (s.cle_disciple && !s.ouvert) {
-      await lenteur();
-      return json({ ok: false, erreur: 'Ce code a déjà servi. Demande à ton berger de le rouvrir depuis ta fiche, puis réessaie.' }, 409);
-    }
     if (propre(c.prenom) !== propre(s.prenom)) { await lenteur(); return json({ ok: false, erreur: 'Le prénom ne correspond pas à ce code. Écris-le comme ton berger l\'a noté.' }, 403); }
+    // Le converti a perdu son lien (autre téléphone, application réinstallée, données effacées) : il peut se reconnecter
+    // avec le MÊME code et le MÊME prénom, jusqu'à 5 fois en 30 jours. Le berger voit ces reconnexions dans sa fiche,
+    // et l'ancien téléphone perd aussitôt l'accès (clé neuve). Au-delà, le berger doit rouvrir le code.
+    let reco = s.reco_n || 0;
+    if (s.reco_dernier && Date.now() - new Date(s.reco_dernier) > 30 * 864e5) reco = 0;
+    const reconnexion = !!s.cle_disciple && !s.ouvert;
+    if (reconnexion && reco >= 5) {
+      await lenteur();
+      return json({ ok: false, erreur: 'Tu t\'es reconnecté plusieurs fois ces derniers jours. Demande à ton berger de rouvrir ton code depuis ta fiche, puis réessaie.' }, 409);
+    }
     // Clé neuve à chaque liaison : un ancien téléphone relié perd aussitôt l'accès.
     const cle = nouvelleCle(), t = maintenant();
-    await db.prepare('UPDATE suivis SET cle_disciple = ?, ouvert = 0, rejoint = COALESCE(rejoint, ?), maj = ? WHERE code = ?').bind(cle, t, t, code).run();
+    await db.prepare('UPDATE suivis SET cle_disciple = ?, ouvert = 0, rejoint = COALESCE(rejoint, ?), maj = ?, reco_n = ?, reco_dernier = ? WHERE code = ?')
+      .bind(cle, t, t, reconnexion ? reco + 1 : reco, reconnexion ? t : s.reco_dernier || null, code).run();
     await oublierEssais(db, frein);
-    return json({ ok: true, cle, prenom: s.prenom, pas: s.pas });
+    // Reconnexion : on lui rend ses propres réponses déjà envoyées, pour qu'elle reparte où elle en était.
+    let carnets = null;
+    if (reconnexion) {
+      const { results } = await db.prepare('SELECT pas, data FROM carnets WHERE code = ?').bind(code).all();
+      carnets = Object.fromEntries(results.map((x) => [x.pas, JSON.parse(x.data)]));
+    }
+    return json({ ok: true, cle, prenom: s.prenom, pas: s.pas, rdv: s.rdv || null, lieu: s.rdv_lieu || null, carnets });
   }
 
   const donnee = typeof c.cle === 'string' ? c.cle : '';
@@ -116,6 +129,7 @@ export async function onRequestPost({ request, env }) {
     const r = { ok: true, prenom: s.prenom, pas: s.pas, rejoint: s.rejoint || null, rdv: s.rdv || null, lieu: s.rdv_lieu || null };
     if (berger) {
       r.ouvert = !s.cle_disciple || !!s.ouvert;
+      r.reconnexions = s.reco_dernier && Date.now() - new Date(s.reco_dernier) <= 30 * 864e5 ? s.reco_n || 0 : 0;
       const { results } = await db.prepare('SELECT pas, data, maj FROM carnets WHERE code = ?').bind(code).all();
       r.carnets = Object.fromEntries(results.map((x) => [x.pas, { ...JSON.parse(x.data), maj: x.maj }]));
     }
@@ -148,7 +162,7 @@ export async function onRequestPost({ request, env }) {
 
   // Le disciple a changé de téléphone : le berger rouvre le code pour une nouvelle liaison.
   if (c.action === 'rouvrir' && berger) {
-    await db.prepare('UPDATE suivis SET ouvert = 1, maj = ? WHERE code = ?').bind(maintenant(), code).run();
+    await db.prepare('UPDATE suivis SET ouvert = 1, reco_n = 0, maj = ? WHERE code = ?').bind(maintenant(), code).run();
     return json({ ok: true, code });
   }
 

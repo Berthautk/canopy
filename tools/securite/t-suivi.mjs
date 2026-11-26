@@ -13,12 +13,26 @@ const { code, cle: cleB } = cr;
 const j1 = await P({ action: 'rejoindre', code, prenom: 'emmanuel' }, { ip: '9.9.9.1' });
 ok(j1.ok && j1.cle, 'le disciple se relie');
 
-// 3. FAILLE CORRIGÉE : un deuxième appareil avec le même code + prénom (message WhatsApp transféré).
+// 3. Le converti perd son lien (autre téléphone, réinstallation) : il se reconnecte avec le MÊME code et le MÊME prénom.
 const j2 = await P({ action: 'rejoindre', code, prenom: 'Emmanuel' }, { ip: '6.6.6.6' });
-ok(!j2.ok && j2.statut === 409, 'un code transféré ne donne plus accès (409)');
+ok(j2.ok && j2.cle && j2.cle !== j1.cle, 'reconnexion avec le même code et le même prénom (clé neuve)');
+ok(!(await P({ action: 'rejoindre', code, prenom: 'Pirate' }, { ip: '6.6.6.7' })).ok, 'un mauvais prénom reste refusé');
+ok(!(await P({ action: 'etat', code, cle: j1.cle })).ok, "l'ancien téléphone perd l'accès après la reconnexion");
+// 5 reconnexions en 30 jours au maximum : ensuite le berger doit rouvrir le code.
+let dernier = j2; for (let i = 0; i < 4; i++) dernier = await P({ action: 'rejoindre', code, prenom: 'Emmanuel' }, { ip: '8.8.8.' + i });
+ok(dernier.ok, 'jusqu\'à 5 reconnexions acceptées');
+const trop = await P({ action: 'rejoindre', code, prenom: 'Emmanuel' }, { ip: '8.8.8.9' });
+ok(!trop.ok && trop.statut === 409, 'la 6e est refusée : le berger doit rouvrir (409)');
+const jr = dernier;
+await P({ action: 'envoyer', code, cle: jr.cle, pas: 'pas-02-essai', data: { r: { q1: 'gardé' } } });
+const re = await P({ action: 'rouvrir', code, cle: cleB }).then(() => P({ action: 'rejoindre', code, prenom: 'Emmanuel' }, { ip: '8.8.7.1' }));
+ok(re.ok && re.carnets === null, 'première liaison : pas de carnet à rendre');
+const re2 = await P({ action: 'rejoindre', code, prenom: 'Emmanuel' }, { ip: '8.8.7.2' });
+ok(re2.ok && re2.carnets?.['pas-02-essai']?.r?.q1 === 'gardé', 'à la reconnexion, ses réponses déjà envoyées lui sont rendues');
+const jr2 = re2;
 
 // 4. L'ancienne clé du disciple marche toujours, et le berger voit le carnet.
-const e1 = await P({ action: 'envoyer', code, cle: j1.cle, pas: 'pas-01-le-salut', data: { r: { q1: 'ma réponse' } } });
+const e1 = await P({ action: 'envoyer', code, cle: jr2.cle, pas: 'pas-01-le-salut', data: { r: { q1: 'ma réponse' } } });
 ok(e1.ok, 'le disciple envoie son carnet');
 const et = await P({ action: 'etat', code, cle: cleB });
 ok(et.ok && et.carnets['pas-01-le-salut'].r.q1 === 'ma réponse', 'le berger lit le carnet');
@@ -27,8 +41,8 @@ ok(et.ouvert === false, 'le berger voit que le code est fermé');
 // 5. Le berger rouvre ; la nouvelle liaison annule l'ancienne clé.
 ok((await P({ action: 'rouvrir', code, cle: cleB })).ok, 'le berger rouvre le code');
 const j3 = await P({ action: 'rejoindre', code, prenom: 'Emmanuel' }, { ip: '9.9.9.2' });
-ok(j3.ok && j3.cle !== j1.cle, 'nouvelle liaison, clé neuve');
-const vieux = await P({ action: 'etat', code, cle: j1.cle });
+ok(j3.ok && j3.cle !== jr2.cle, 'nouvelle liaison, clé neuve');
+const vieux = await P({ action: 'etat', code, cle: jr2.cle });
 ok(!vieux.ok && vieux.statut === 403, "l'ancien téléphone perd l'accès");
 
 // 6. Le disciple ne peut pas détruire le suivi du berger.

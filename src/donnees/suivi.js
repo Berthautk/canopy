@@ -22,7 +22,9 @@ export const lienDisciple = signal(lire('yeshaya:suivi-disciple', null));
 const garderLien = (l) => { lienDisciple.valeur = l; ecrire('yeshaya:suivi-disciple', l); };
 export async function rejoindre(code, prenom) {
   const d = await api('rejoindre', { code: formaterCode(code), prenom });
-  garderLien({ mode: 'relie', code: formaterCode(code), cle: d.cle, prenom: d.prenom, pas: d.pas });
+  garderLien({ mode: 'relie', code: formaterCode(code), cle: d.cle, prenom: d.prenom, pas: d.pas, rdv: d.rdv || '', lieu: d.lieu || '' });
+  // Reconnexion après un changement de téléphone : les réponses déjà envoyées reviennent sur ce téléphone.
+  for (const [pas, data] of Object.entries(d.carnets || {})) { try { if (!localStorage.getItem('yeshaya:carnet:' + pas)) localStorage.setItem('yeshaya:carnet:' + pas, JSON.stringify(data)); } catch {} }
   // ce qui a déjà été écrit est envoyé tout de suite
   Object.keys(localStorage).filter((k) => k.startsWith('yeshaya:carnet:pas-')).forEach((k) => aEnvoyer.add(k.slice('yeshaya:carnet:'.length)));
   envoyerTout();

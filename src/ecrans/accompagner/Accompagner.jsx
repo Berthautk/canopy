@@ -125,7 +125,7 @@ export function EspaceDisciple() {
   if (!l) return (
     <div class="page">
       <h2 style="margin:16px 4px 4px">Bienvenue !</h2>
-      <p class="ligne__desc" style="margin:0 4px 12px">Ton berger t'a donné un <b>code</b> de 7 signes (comme ABC-1234). Entre-le avec ton prénom, écrit comme il l'a noté.</p>
+      <p class="ligne__desc" style="margin:0 4px 12px">Ton berger t'a donné un <b>code</b> de 7 signes (comme ABC-1234). Entre-le avec ton prénom, écrit comme il l'a noté. Tu as déjà été relié et tu as changé de téléphone, ou réinstallé l'application ? Entre le <b>même code</b> et le <b>même prénom</b> : tu seras relié de nouveau, et tes réponses déjà envoyées seront retrouvées par ton berger.</p>
       <form class="carte bloc acc-form" onSubmit={async (e) => { e.preventDefault(); setEtat({ envoi: true }); try { await rejoindre(code, prenom); compter('suivi-rejoint'); notifier('Tu es relié à ton berger'); setEtat({}); } catch (err) { setEtat({ erreur: err.message }); } }}>
         <label class="etiquette-champ" for="acc-code">Le code de ton berger</label>
         <input id="acc-code" class="champ acc-code" value={code} onInput={(e) => setCode(formaterCode(e.currentTarget.value))} placeholder="_ _ _ - _ _ _ _" autocapitalize="characters" autocomplete="off" inputmode="text" />
@@ -328,7 +328,7 @@ export function FicheDisciple({ id }) {
       {d.code && <CarteCode d={d} titre={`Le code de ${d.prenom}, à entrer dans son téléphone avec son prénom`}
         apres={serveur?.rejoint && (serveur.ouvert
           ? <p class="ligne__desc" style="margin-bottom:0"><Icone nom="info" taille={15} /> Le code est ouvert : {d.prenom} peut se relier depuis un nouveau téléphone. Il se refermera tout seul après.</p>
-          : <><p class="ligne__desc">Le code a déjà servi : personne d'autre ne peut s'en servir pour voir son carnet. S'il a changé de téléphone, rouvre-le.</p>
+          : <><p class="ligne__desc">{d.prenom} s'est relié. S'il change de téléphone ou réinstalle l'application, il peut se reconnecter lui-même avec le même code et son prénom{serveur.reconnexions > 0 ? ` (déjà ${serveur.reconnexions} fois ces 30 jours : si ce n'est pas lui, rouvre puis change le code en l'arrêtant)` : ''}.</p>
             <button class="bouton bouton--contour" style="width:100%" onClick={async () => { try { await rouvrirCode(d); setServeur({ ...serveur, ouvert: true }); notifier('Code rouvert : ' + d.prenom + ' peut se relier une fois. Son ancien téléphone perdra l\'accès.'); } catch (err) { notifier(err.message); } }}>Rouvrir le code pour un nouveau téléphone</button></>)} />}
 
       {/* 3. Où il en est */}
