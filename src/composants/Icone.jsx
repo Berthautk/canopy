@@ -37,6 +37,7 @@ const P = {
   agrandir: <><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" /></>,
   recherche: <><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></>,
   precedent: <><path d="m15 6-6 6 6 6" /></>,
+  flamme: <><path d="M12 3c.5 3-2 4.5-3.5 6.5C7 11.5 6.5 13 6.5 14.5a5.5 5.5 0 0 0 11 0c0-2-1-3.5-2-4.7-.4 1-1 1.6-1.8 2 .6-3-.2-6.8-1.7-8.8z" /></>,
   cloche: <><path d="M6 9a6 6 0 0 1 12 0c0 6 2.5 7.5 2.5 7.5h-17S6 15 6 9z" /><path d="M10 20a2 2 0 0 0 4 0" /></>,
   plus: <><rect x="3.5" y="3.5" width="7" height="7" rx="2" /><rect x="13.5" y="3.5" width="7" height="7" rx="2" /><rect x="3.5" y="13.5" width="7" height="7" rx="2" /><rect x="13.5" y="13.5" width="7" height="7" rx="2" /></>,
   liste: <><path d="M8 6h13M8 12h13M8 18h13M3.5 6h.01M3.5 12h.01M3.5 18h.01" /></>,

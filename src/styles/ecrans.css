@@ -1214,3 +1214,16 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .veille .progression span { background: var(--veille-accent, var(--or)); }
 .veille .phase__num { background: var(--veille-accent, var(--or)); color: #fff; }
 .veille .deroulement__num { background: var(--veille-accent, var(--or)); color: #fff; }
+
+/* La série de jours de suite */
+.serie-veilles { display: flex; align-items: center; gap: 12px; margin: 0 0 12px; padding: 12px 14px; border-radius: 16px; background: var(--surface); border: 1px solid var(--bord); box-shadow: var(--ombre); }
+.serie-veilles__flamme { position: relative; flex: none; width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; background: #EEF0F5; color: #9aa3b5; }
+.serie-veilles__flamme b { position: absolute; bottom: -4px; right: -4px; min-width: 22px; height: 22px; padding: 0 5px; border-radius: 11px; display: grid; place-items: center; font-size: .78rem; background: var(--bleu-nuit); color: #fff; border: 2px solid var(--surface); }
+.serie-veilles--vive .serie-veilles__flamme { background: linear-gradient(145deg, #ffb347, #f26b1d); color: #fff; box-shadow: 0 0 14px rgba(242,107,29,.45); }
+.serie-veilles--danger { border-color: #e7b7b2; }
+.serie-veilles--danger .serie-veilles__flamme { background: #fbe3df; color: #c4553b; }
+.serie-veilles__corps { display: grid; gap: 2px; min-width: 0; }
+.serie-veilles__corps > b { font-family: var(--police-titre); font-size: 1rem; color: var(--titre); }
+.serie-veilles__corps > span { font-size: .84rem; line-height: 1.35; color: var(--texte); }
+.serie-veilles__corps small { font-size: .72rem; color: var(--texte-doux); }
+.prier-maintenant__jour { display: block; margin-top: 2px; font-size: .84rem; color: #f3e3b6; text-shadow: 0 1px 6px rgba(0,0,0,.6); }

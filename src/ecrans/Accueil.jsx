@@ -5,7 +5,8 @@ import { Carrousel, Diapo } from '../composants/Carrousel.jsx';
 import { BandeauTelephone } from '../composants/BandeauTelephone.jsx';
 import { prochainParcours } from './grandir/NouveauConverti.jsx';
 import { CartePlanJour } from './bible/Plan.jsx';
-import { versetDuJour, veilleDuMoment, enseignementDuJour, meditationDuJour, ENSEIGNEMENTS } from '../donnees/contenu.js';
+import { versetDuJour, veilleDuMoment, enseignementDuJour, meditationDuJour, ENSEIGNEMENTS, CYCLE_VEILLES } from '../donnees/contenu.js';
+import { jourDuCycle } from '../donnees/veilles.js';
 import { orizon, jourCourant } from '../donnees/orizon.js';
 import { parcours } from '../donnees/priere.js';
 import { lectures } from '../donnees/lectures.js';
@@ -36,7 +37,7 @@ function BannieresDuJour() {
   if (etat.ref) diapos.push(<Diapo lien={'#/' + cheminMontrer(etat.ref)} image="/assets/photos/banniere-accueil.webp" bas="40%"
     etiquette="Verset du jour" titre={etat.texte ? '« ' + court(etat.texte, 95) + ' »' : 'Le verset de ce jour'} texte={ecrireReference(etat.ref) + ' · toucher pour le lire en grand'} />);
   if (v) diapos.push(<Diapo lien={'#/priere/veille/' + v.id.replace('veille-', '')} image={v.image}
-    etiquette={'Prier maintenant · ' + v.heures} titre={v.titre} texte={v.theme} />);
+    etiquette={'Prier maintenant · ' + v.heures} titre={v.titre} texte={(() => { const j = CYCLE_VEILLES.find((x) => x.numero === jourDuCycle()); return j ? `Aujourd'hui : prière pour ${j.court} · jour ${j.numero} sur 7` : v.theme; })()} />);
   if (ens) diapos.push(<Diapo lien={'#/grandir/enseignement/' + ens.id} image={ens.image}
     etiquette="Enseignement du jour" titre={ens.titre} texte={`${ens.lecture_minutes} min · à lire ou à écouter`} />);
   if (med) diapos.push(<Diapo lien="#/bible/meditation" image="/assets/photos/bible-ouverte-table.webp"

@@ -7,6 +7,9 @@ import { BoutonLecture, BoutonTelecharger } from '../../composants/Audio.jsx';
 import { notifier } from '../../composants/Notification.jsx';
 import { SujetsACocher, GuidePhase, blocsSujets } from './Veille.jsx';
 import { PriereGuidee } from '../../composants/PriereGuidee.jsx';
+import { SerieDeVeilles } from './Veille.jsx';
+import { CYCLE_VEILLES } from '../../donnees/contenu.js';
+import { jourDuCycle } from '../../donnees/veilles.js';
 import { BarreEcoute } from '../../composants/Ecouter.jsx';
 import { PRIERES, COMBAT, VEILLES, AUDIOS, veilleDuMoment } from '../../donnees/contenu.js';
 import { aiPrie, noterPriere, journal } from '../../donnees/priere.js';
@@ -23,7 +26,7 @@ const ENTREES = [
 
 // Écran 3 : prier maintenant, thèmes par catégorie, combat spirituel.
 export function Priere({ section = null }) {
-  const j = useSignal(journal);
+  const j = useSignal(journal), priees = useSignal(aiPrie), jourC = CYCLE_VEILLES.find((x) => x.numero === jourDuCycle());
   const [ouvert, setOuvert] = useMemoire('categorie', null);       // catégorie dépliée
   const v = veilleDuMoment();
   const categories = [...new Set(PRIERES.map((p) => p.categorie))];
@@ -39,11 +42,13 @@ export function Priere({ section = null }) {
           <span class="prier-maintenant__texte">
             <span class="pastille pastille--or">Prier maintenant · {v.heures}</span>
             <span class="prier-maintenant__titre">{v.titre}</span>
+            {jourC && <span class="prier-maintenant__jour">Aujourd'hui : prière pour {jourC.court}</span>}
             <span class="prier-maintenant__bouton"><Icone nom="lecture" taille={18} /> Ouvrir et prier</span>
           </span>
         </a>
       )}
 
+      {!section && <div style="margin-top:12px"><SerieDeVeilles aiPrie={priees} /></div>}
       {!section && <h2 class="titre-section">Que veux-tu faire ?</h2>}
       {!section && <div class="liste">{ENTREES.map(([id, photo, titre, desc]) => (
         <a class="carte theme" href={'#/priere/section/' + id}>

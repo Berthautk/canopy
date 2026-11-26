@@ -49,3 +49,43 @@ export function semaineEnCours(aiPrie, d = new Date()) {
     return { numero: i + 1, date: j, prie: cles.has(j.toDateString()), aujourdhui: j.toDateString() === d.toDateString(), futur: j > d && j.toDateString() !== d.toDateString() };
   });
 }
+
+// ----- Combien de fois, et combien de jours de suite -----
+const jourCle = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+
+// Les jours (AAAA-MM-JJ) où la personne a prié au moins une veille, du plus récent au plus ancien.
+export function joursPries(aiPrie) {
+  const s = new Set(Object.entries(aiPrie || {}).filter(([k]) => k.startsWith('veille-')).flatMap(([, ds]) => ds.map((x) => jourCle(new Date(x)))));
+  return [...s].sort().reverse();
+}
+
+// La série en cours : combien de jours de suite, en comptant aujourd'hui s'il est déjà prié.
+// Si aujourd'hui n'est pas encore prié, la série d'hier reste vivante jusqu'à ce soir : on ne punit pas
+// quelqu'un qui n'a pas encore eu le temps de prier aujourd'hui.
+export function serieEnCours(aiPrie, d = new Date()) {
+  const jours = new Set(joursPries(aiPrie));
+  const j = new Date(d); j.setHours(12, 0, 0, 0);
+  let serie = 0, pasEncorePrieAujourdhui = !jours.has(jourCle(j));
+  if (pasEncorePrieAujourdhui) j.setDate(j.getDate() - 1);
+  while (jours.has(jourCle(j))) { serie++; j.setDate(j.getDate() - 1); }
+  return { serie, pasEncorePrieAujourdhui, enDanger: pasEncorePrieAujourdhui && serie > 0 };
+}
+
+// Le meilleur enchaînement de toute la vie de la personne (pour qu'elle voie ce qu'elle a déjà tenu).
+export function meilleureSerie(aiPrie) {
+  const jours = joursPries(aiPrie).reverse().map((x) => new Date(x + 'T12:00:00').getTime());
+  let best = 0, cur = 0, prev = null;
+  for (const t of jours) { cur = prev !== null && Math.round((t - prev) / 864e5) === 1 ? cur + 1 : 1; best = Math.max(best, cur); prev = t; }
+  return best;
+}
+
+// Une phrase d'encouragement qui dit la vérité, sans culpabiliser.
+export function phraseDeSerie({ serie, enDanger }, totalFois) {
+  if (!totalFois) return "Ta première veille t'attend. Un petit pas suffit pour commencer : choisis « Court ».";
+  if (enDanger) return `Tu as prié ${serie} jour${serie > 1 ? 's' : ''} de suite. Prie aujourd'hui pour garder ta série.`;
+  if (serie >= 30) return `${serie} jours de suite. Tu es devenu un veilleur fidèle.`;
+  if (serie >= 7) return `${serie} jours de suite. Une semaine entière : continue.`;
+  if (serie >= 2) return `${serie} jours de suite. Chaque jour compte.`;
+  if (serie === 1) return "Tu as prié aujourd'hui. Reviens demain pour commencer une série.";
+  return 'Reprends dès aujourd\'hui : un jour de plus, et la série repart.';
+}

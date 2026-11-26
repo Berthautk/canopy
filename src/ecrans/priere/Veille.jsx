@@ -4,7 +4,7 @@ import { CarteVerset } from '../../composants/Verset.jsx';
 import { TexteRefs } from '../../composants/TexteRefs.jsx';
 import { notifier } from '../../composants/Notification.jsx';
 import { VEILLES, GUIDE_PHASES, CYCLE_VEILLES } from '../../donnees/contenu.js';
-import { veilleDuJour, nombreDeSujets, semaineEnCours, TAILLES } from '../../donnees/veilles.js';
+import { veilleDuJour, nombreDeSujets, semaineEnCours, TAILLES, serieEnCours, meilleureSerie, phraseDeSerie, joursPries } from '../../donnees/veilles.js';
 import { noterPriere, aiPrie } from '../../donnees/priere.js';
 import { useSignal, useMemoire } from '../../outils/signal.js';
 import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
@@ -69,6 +69,22 @@ function AfficheDuJour({ v, semaine }) {
   );
 }
 
+// La série de jours de suite : la raison de revenir demain.
+export function SerieDeVeilles({ aiPrie, id }) {
+  const s = serieEnCours(aiPrie), total = Object.entries(aiPrie).filter(([k]) => k.startsWith('veille-')).reduce((n, [, d]) => n + d.length, 0);
+  const cetteVeille = id ? (aiPrie[id] || []).length : 0, meilleure = meilleureSerie(aiPrie);
+  return (
+    <section class={'serie-veilles' + (s.enDanger ? ' serie-veilles--danger' : '') + (s.serie >= 2 ? ' serie-veilles--vive' : '')} aria-label="Ma régularité">
+      <span class="serie-veilles__flamme" aria-hidden="true"><Icone nom="flamme" taille={26} /><b>{s.serie}</b></span>
+      <span class="serie-veilles__corps">
+        <b>{s.serie > 0 ? `${s.serie} jour${s.serie > 1 ? 's' : ''} de suite` : 'Pas encore de série'}</b>
+        <span>{phraseDeSerie(s, total)}</span>
+        {total > 0 && <small>{id ? `Cette veille : ${cetteVeille} fois · ` : ''}Toutes les veilles : {total} fois · Meilleure série : {meilleure} jour{meilleure > 1 ? 's' : ''}</small>}
+      </span>
+    </section>
+  );
+}
+
 // Court, normal ou complet : on choisit selon le temps dont on dispose.
 function ChoixTaille({ valeur, surChoix, v0, v }) {
   return (
@@ -89,12 +105,11 @@ export function Veille({ id, guide }) {
   const [taille, setTaille] = useState(lireTaille);
   const choisir = (x) => { setTaille(x); try { localStorage.setItem('yeshaya:veille-taille', x); } catch { /* stockage indisponible */ } };
   const v = veilleDuJour(v0, CYCLE_VEILLES, new Date(), taille);
-  const semaine = semaineEnCours(useSignal(aiPrie));
+  const aiPriees = useSignal(aiPrie), semaine = semaineEnCours(aiPriees);
   const etapes = [...v.phases, { num: 'proc', titre: 'Proclamations', texte: 'Termine en déclarant à voix haute ces paroles de foi.', sujets: v.proclamations }];
   // La progression se range par veille, par taille et par jour : un nouveau jour repart du début.
   const cleJour = `${v.id}-${taille}-${new Date().toISOString().slice(0, 10)}`;
   const [n, setN] = useMemoire('etape-' + cleJour, -1);
-  const fois = useSignal(aiPrie)[v.id] || [];
   const vaE = useVoixActive(`${cleJour}-${n}`);
 
   if (n < 0) return (
@@ -103,6 +118,7 @@ export function Veille({ id, guide }) {
         <div class="theme-hero__texte"><span class="pastille pastille--or">{v.heures}</span><h2>{v.titre}</h2></div></div>
       <p class="veille__theme"><span class="veille__humeur"><Icone nom={HUMEURS[v.id]?.icone || 'soleil'} taille={15} /> {HUMEURS[v.id]?.mot}</span>{v.theme}</p>
       <AfficheDuJour v={v} semaine={semaine} />
+      <SerieDeVeilles aiPrie={aiPriees} id={v.id} />
       <ChoixTaille valeur={taille} surChoix={choisir} v={v} />
       <PriereGuidee auto={guide} id={cleJour} titre={v.titre} introduction={v.introduction} etapes={etapes.map((e) => ({ titre: e.titre, texte: e.num === 'proc' ? e.texte : (e.num === 'jour' ? e.texte : null), sujets: e.sujets }))} idPriere={v.id} />
       {v.verset && <CarteVerset reference={v.verset} />}
@@ -112,7 +128,6 @@ export function Veille({ id, guide }) {
         {etapes.map((e, i) => <li><button onClick={() => setN(i)}><span class="deroulement__num">{e.num === 'proc' ? '✦' : e.num === 'jour' ? '★' : e.num}</span><span>{e.titre}<small class="deroulement__nb">{e.sujets.length} sujet{e.sujets.length > 1 ? 's' : ''}</small></span><Icone nom="chevron" taille={18} /></button></li>)}
       </ol>
       <button class="bouton bouton--contour" style="width:100%;margin-top:14px" onClick={() => setN(0)}><Icone nom="priere" taille={20} /> Prier en lisant, étape par étape</button>
-      {fois.length > 0 && <p class="ligne__desc" style="text-align:center;margin-top:8px">Tu as prié cette veille {fois.length} fois.</p>}
       <p class="source-mention">Source : {v.auteur}</p>
     </div>
   );
@@ -133,7 +148,7 @@ export function Veille({ id, guide }) {
       <SujetsACocher key={n} sujets={e.sujets} voixId={`${cleJour}-${n}`} debut={1} />
       <div class="chemin-etape__nav">
         <button class="bouton bouton--contour" onClick={() => { setN(n - 1); scrollTo(0, 0); }}><Icone nom="precedent" taille={18} /> {n === 0 ? 'Sommaire' : 'Précédent'}</button>
-        {derniere ? <button class="bouton bouton--or" onClick={() => { noterPriere(v.id); notifier('Amen ! Que Dieu exauce ta prière.'); setN(-1); scrollTo(0, 0); }}>J'ai prié <Icone nom="verifie" taille={20} /></button>
+        {derniere ? <button class="bouton bouton--or" onClick={() => { noterPriere(v.id); const s = serieEnCours(aiPrie.valeur); notifier(s.serie > 1 ? `Amen ! ${s.serie} jours de suite : continue.` : 'Amen ! Que Dieu exauce ta prière.'); setN(-1); scrollTo(0, 0); }}>J'ai prié <Icone nom="verifie" taille={20} /></button>
           : <button class="bouton bouton--plein" onClick={() => { setN(n + 1); scrollTo(0, 0); }}>Suivant <Icone nom="chevron" taille={18} /></button>}
       </div>
     </div>
