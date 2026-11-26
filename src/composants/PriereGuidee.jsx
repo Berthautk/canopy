@@ -11,7 +11,7 @@ const CONSIGNE = "Écoute le sujet de prière. Puis prie, avec tes propres mots,
 // Prière guidée à la voix, pour ceux qui ne lisent pas (ou pas facilement) :
 // la voix lit un sujet, la personne prie, puis appuie sur « J'ai prié » pour passer au suivant.
 // etapes = [{ titre, texte?, sujets: [{ titre?, texte }] }]
-export function PriereGuidee({ id, titre, etapes, auto, introduction }) {
+export function PriereGuidee({ id, idPriere, titre, etapes, auto, introduction }) {
   const [ouvert, setOuvert] = useMemoire('guide-ouvert-' + id, !!auto);
   const v = useSignal(voix);
   if (!v.disponible) return null;
@@ -22,12 +22,12 @@ export function PriereGuidee({ id, titre, etapes, auto, introduction }) {
         <span class="ligne__corps"><span class="ligne__titre" style="display:block">Écouter et prier</span>
           <span class="ligne__desc">{introduction ? "L'introduction, puis chaque sujet, un par un. " : 'Chaque sujet, un par un. '}Tu écoutes, tu pries, puis « J'ai prié ».</span></span>
       </button>
-      {ouvert && <Lecteur id={id} titre={titre} etapes={etapes} introduction={introduction} fermer={() => { arreterVoix(); setOuvert(false); try { sessionStorage.removeItem('yeshaya:etat:' + location.hash + ':guide-i-' + id); sessionStorage.removeItem('yeshaya:etat:' + location.hash + ':guide-faits-' + id); } catch {} }} />}
+      {ouvert && <Lecteur id={id} idPriere={idPriere || id} titre={titre} etapes={etapes} introduction={introduction} fermer={() => { arreterVoix(); setOuvert(false); try { sessionStorage.removeItem('yeshaya:etat:' + location.hash + ':guide-i-' + id); sessionStorage.removeItem('yeshaya:etat:' + location.hash + ':guide-faits-' + id); } catch {} }} />}
     </>
   );
 }
 
-function Lecteur({ id, titre, etapes, fermer, introduction }) {
+function Lecteur({ id, idPriere, titre, etapes, fermer, introduction }) {
   // Une seule liste : chaque sujet garde le titre de sa phase.
   const liste = etapes.flatMap((e, k) => e.sujets.map((s, j) => ({ ...s, phase: e.titre, introPhase: j === 0 ? e : null, k })));
   const [i, setI] = useMemoire('guide-i-' + id, -1);         // -1 : consigne de départ ; liste.length : fin
@@ -52,7 +52,7 @@ function Lecteur({ id, titre, etapes, fermer, introduction }) {
 
   const suivant = () => {
     if (i >= 0 && i < liste.length) { setFaits(faits + 1); noterSujetPrie(); }
-    if (i === liste.length - 1) noterPriere(id);
+    if (i === liste.length - 1) noterPriere(idPriere);
     setI(Math.min(i + 1, liste.length));
   };
   const s = liste[i];
