@@ -1255,3 +1255,6 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .adoration__paroles--refrain span { font-weight: 600; }
 .adoration__note { margin: 6px 0 0; font-size: .76rem; color: #cfc6ad; }
 .adoration audio { width: 100%; margin-top: 6px; }
+.prier-ensemble { display: flex; gap: 10px; align-items: flex-start; margin: 0 0 12px; padding: 10px 12px; border-radius: 14px; background: var(--surface-2); border: 1px solid var(--bord); font-size: .88rem; line-height: 1.4; }
+.prier-ensemble svg { flex: none; margin-top: 2px; color: var(--veille-accent, var(--or-fonce)); }
+.prier-ensemble small { display: block; margin-top: 2px; font-size: .7rem; color: var(--texte-doux); }

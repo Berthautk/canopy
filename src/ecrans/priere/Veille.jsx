@@ -1,4 +1,4 @@
-import { useState } from 'preact/hooks';
+import { useState, useEffect } from 'preact/hooks';
 import { Icone } from '../../composants/Icone.jsx';
 import { CarteVerset, usePassage, TextePassage, cheminMontrer } from '../../composants/Verset.jsx';
 import { ecrireReference } from '../../bible/references.js';
@@ -10,6 +10,7 @@ import { noterPriere, aiPrie } from '../../donnees/priere.js';
 import { useSignal, useMemoire } from '../../outils/signal.js';
 import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 import { PriereGuidee } from '../../composants/PriereGuidee.jsx';
+import { priantsDuJour, chargerPriants, phrasePriants } from '../../donnees/ensemble.js';
 import { notesVeilles, noteDuJour, ecrireNote, dernieresNotes, supprimerNote } from '../../donnees/notesVeilles.js';
 
 // Liste de sujets à cocher (« appuie sur chaque point après l'avoir prié »).
@@ -116,6 +117,15 @@ export function AdorationDuJour({ veilleId, complet }) {
   );
 }
 
+// « Tu n'es pas seul » : combien de personnes ont prié cette veille aujourd'hui (rien ne s'affiche hors ligne).
+function PrierEnsemble({ id }) {
+  const d = useSignal(priantsDuJour);
+  useEffect(() => { chargerPriants(); }, []);
+  const phrase = phrasePriants(d, id.replace('veille-', ''));
+  if (!phrase) return null;
+  return <p class="prier-ensemble"><Icone nom="groupe" taille={18} /><span>{phrase}<small>Total des personnes qui partagent des statistiques anonymes : le vrai nombre est plus élevé.</small></span></p>;
+}
+
 // L'endroit où écrire : ce que Dieu a dit (matin, midi) ou ce qu'il a fait aujourd'hui (soir).
 // On y revient pour relire : c'est la mémoire de la veille.
 const QUESTION = {
@@ -185,6 +195,7 @@ export function Veille({ id, guide }) {
       <p class="veille__theme"><span class="veille__humeur"><Icone nom={HUMEURS[v.id]?.icone || 'soleil'} taille={15} /> {HUMEURS[v.id]?.mot}</span>{v.theme}</p>
       <AfficheDuJour v={v} semaine={semaine} />
       <SerieDeVeilles aiPrie={aiPriees} id={v.id} />
+      <PrierEnsemble id={v.id} />
       <ChoixTaille valeur={taille} surChoix={choisir} v={v} />
       <PriereGuidee auto={guide} id={cleJour} titre={v.titre} introduction={v.introduction} etapes={etapes.map((e) => ({ titre: e.titre, texte: e.num === 'proc' ? e.texte : (e.num === 'jour' ? e.texte : null), sujets: e.sujets }))} idPriere={v.id} />
       {v.verset && <CarteVerset reference={v.verset} />}

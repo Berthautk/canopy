@@ -1,0 +1,20 @@
+import { faireDB, req, lireRep } from '../securite/d1.mjs';
+import { onRequestGet } from '../../functions/api/veilles.js';
+import { phrasePriants } from '../../src/donnees/ensemble.js';
+let ko=0; const ok=(c,m)=>{ if(!c){ko++;console.log('  ÉCHEC :',m);} else console.log('  ok :',m); };
+const DB=faireDB(); const jour=new Date().toISOString().slice(0,10);
+await DB.prepare('CREATE TABLE stats (jour TEXT NOT NULL, cle TEXT NOT NULL, n INTEGER NOT NULL DEFAULT 0, PRIMARY KEY (jour, cle))').run();
+for (const [c,n] of [['j-ai-prie:veille-aube',12],['j-ai-prie:veille-midi',3],['j-ai-prie:theme-famille',50]]) await DB.prepare('INSERT INTO stats VALUES (?,?,?)').bind(jour,c,n).run();
+await DB.prepare('INSERT INTO stats VALUES (?,?,?)').bind('2020-01-01','j-ai-prie:veille-soir',99).run();
+const r=await lireRep(await onRequestGet({request:req({}),env:{DB}}));
+ok(r.ok&&r.aube===12&&r.midi===3,'aube 12, midi 3 : les totaux du jour');
+ok(r.soir===0,"le soir vaut 0 : le total d'un ancien jour ne compte pas");
+ok(!('theme-famille' in r)&&Object.keys(r).length===6,'rien d\'autre que les trois totaux n\'est exposé');
+ok((await lireRep(await onRequestGet({request:req({}),env:{}}))).statut===503,'sans base : réponse propre, pas de plantage');
+let bloque=0; for(let i=0;i<130;i++){ if((await lireRep(await onRequestGet({request:req({},{ip:'8.8.4.4'}),env:{DB}}))).statut===429) bloque++; }
+ok(bloque>0,'un appareil qui interroge sans arrêt est freiné ('+bloque+' refus)');
+ok(/12 personnes/.test(phrasePriants({aube:12},'aube')),'phrase : 12 personnes');
+ok(/1 personne a prié/.test(phrasePriants({aube:1},'aube')),'phrase : 1 personne (singulier)');
+ok(/Sois le premier/.test(phrasePriants({aube:0},'aube')),'phrase : personne encore, on invite');
+ok(phrasePriants(null,'aube')===null,'hors ligne : aucune phrase, aucun bruit');
+console.log(ko?'\n>>> '+ko+' ÉCHEC(S)':'\n>>> tout passe'); process.exit(ko?1:0);
