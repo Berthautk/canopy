@@ -8,6 +8,7 @@ import { veilleDuJour, nombreDeSujets, semaineEnCours, TAILLES, serieEnCours, me
 import { lireEnCours, ecrireEnCours, effacerEnCours } from '../../donnees/veilleEnCours.js';
 import { noterPriere, aiPrie } from '../../donnees/priere.js';
 import { useSignal, useMemoire } from '../../outils/signal.js';
+import { SujetsUnParUn } from './SujetsUnParUn.jsx';
 import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 import { PriereGuidee } from '../../composants/PriereGuidee.jsx';
 import { priantsDuJour, chargerPriants, phrasePriants } from '../../donnees/ensemble.js';
@@ -164,19 +165,18 @@ export function Veille({ id, guide }) {
         {e.sous_titre && <p class="phase__sous-titre"><TexteRefs texte={e.sous_titre} /></p>}
         {e.theme && <p class="phase__theme"><Icone nom="priere" taille={15} /> Aujourd'hui : prière pour {e.theme}</p>}
       </div>
-      <p class="phase__consigne">Lis chaque sujet, puis prie avec tes mots, à voix haute ou dans ton cœur. Quand tu as fini, touche « {derniere ? "J'ai prié" : 'Suivant'} ».</p>
-      <SujetsACocher key={n} sujets={e.sujets} voixId={`${cleJour}-${n}`} debut={1} faits={coches[n] || {}} setFaits={(f) => setCoches({ ...coches, [n]: f })} />
-      {/* Les explications viennent APRÈS les sujets : d'abord prier, ensuite comprendre. */}
+      <p class="phase__consigne">{e.sujets.length > 1 ? 'Voici ' + e.sujets.length + ' consignes de prière, une à la fois. Lis-la, prie avec tes mots, puis touche la flèche pour passer à la suivante.' : 'Lis cette consigne, puis prie avec tes mots.'}</p>
+      <SujetsUnParUn key={n} sujets={e.sujets} voixId={`${cleJour}-${n}`} faits={coches[n] || {}} setFaits={(f) => setCoches({ ...coches, [n]: f })}
+        intro={`${e.titre}. ${e.theme ? "Aujourd'hui : prière pour " + e.theme + '.' : ''}`} />
+      {/* Les explications viennent APRÈS les consignes : d'abord prier, ensuite comprendre. */}
       {e.texte && <section class="carte bloc phase__aide"><h3><span class="ligne__icone"><Icone nom="ampoule" /></span> Pour t'aider dans cette étape</h3><p class="phase__texte"><TexteRefs texte={e.texte} /></p><GuidePhase num={e.num} /></section>}
       {!e.texte && <GuidePhase num={e.num} />}
-      <BarreEcoute key={'v' + n} id={`${cleJour}-${n}`} titre="Écouter cette étape"
-        blocs={[{ texte: `${e.titre}. ${e.theme ? "Aujourd'hui : prière pour " + e.theme + '. ' : ''}${e.texte || ''}` }, ...blocsSujets(e.sujets)]} />
       {n === 0 && v.verset && <><h3 class="phase__parole">Parole du jour</h3><CarteVerset reference={v.verset} /></>}
       {derniere && <NoteDeFin id={v.id} />}
       <div class="chemin-etape__nav">
-        <button class="bouton bouton--contour" onClick={() => aller(n - 1)}><Icone nom="precedent" taille={18} /> {n === 0 ? 'Sommaire' : 'Précédent'}</button>
+        <button class="bouton bouton--contour" onClick={() => aller(n - 1)}><Icone nom="precedent" taille={18} /> {n === 0 ? 'Sommaire' : etapes[n - 1].titre}</button>
         {derniere ? <button class="bouton bouton--or" onClick={suivant}>J'ai prié <Icone nom="verifie" taille={20} /></button>
-          : <button class="bouton bouton--plein" onClick={suivant}>Suivant <Icone nom="chevron" taille={18} /></button>}
+          : <button class="bouton bouton--plein" onClick={suivant}>{etapes[n + 1].titre} <Icone nom="chevron" taille={18} /></button>}
       </div>
     </div>
   );

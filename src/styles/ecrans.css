@@ -1291,3 +1291,23 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .phase__parole { margin: 16px 4px 6px; font-size: .95rem; }
 /* Rubrique Prière : les explications des veilles se lisent en entier */
 .theme .ligne__desc { display: block; -webkit-line-clamp: unset; overflow: visible; }
+/* Consignes de prière une par une */
+.un-par-un__carte { position: relative; padding: 14px 14px 16px; min-height: 150px; animation: apparait .25s ease; }
+.un-par-un__carte--fait { border-color: var(--sauge); }
+.un-par-un__carte h4 { font-family: var(--police-titre); font-size: 1.05rem; color: var(--titre); margin: 0 54px 6px 0; }
+.un-par-un__carte p { font-size: 1.02rem; line-height: 1.55; margin: 0; }
+.un-par-un__compte { position: absolute; top: 10px; right: 12px; font-size: .8rem; font-weight: 700; color: var(--or-fonce); background: var(--fond-doux, #f4ecd8); border-radius: 999px; padding: 2px 10px; }
+.un-par-un__pause { margin-top: 12px !important; padding: 8px 10px; border-radius: 10px; background: var(--fond-doux, #f4ecd8); font-size: .92rem !important; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.un-par-un__nav { display: flex; align-items: center; justify-content: space-between; margin: 10px 4px; }
+.un-par-un__nav .rond:disabled { opacity: .3; }
+.un-par-un__points { display: flex; gap: 6px; }
+.un-par-un__points i { width: 9px; height: 9px; border-radius: 50%; background: #d8cdb4; }
+.un-par-un__points i.fait { background: var(--sauge); }
+.un-par-un__points i.actif { background: var(--or); transform: scale(1.35); }
+.un-par-un__ecoute { padding: 10px 12px; }
+.un-par-un__etiq { font-size: .85rem; margin: 10px 0 6px; color: var(--texte-doux, #5b5545); }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip { border: 1.5px solid var(--or); background: transparent; border-radius: 999px; padding: 6px 12px; font: inherit; font-size: .85rem; color: var(--titre); }
+.chip--actif { background: var(--or); color: #fff; font-weight: 700; }
+.chemin-etape__nav .bouton { font-size: .9rem; line-height: 1.2; }
+@keyframes apparait { from { opacity: 0; transform: translateX(10px); } to { opacity: 1; transform: none; } }
