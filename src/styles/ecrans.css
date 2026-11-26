@@ -1227,3 +1227,12 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .serie-veilles__corps > span { font-size: .84rem; line-height: 1.35; color: var(--texte); }
 .serie-veilles__corps small { font-size: .72rem; color: var(--texte-doux); }
 .prier-maintenant__jour { display: block; margin-top: 2px; font-size: .84rem; color: #f3e3b6; text-shadow: 0 1px 6px rgba(0,0,0,.6); }
+
+/* Mes notes de veille */
+.mes-notes .champ--zone { width: 100%; }
+.mes-notes__titre { margin: 14px 0 6px; font-size: .9rem; }
+.mes-notes__liste { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.mes-notes__liste li { padding: 10px 12px; border-radius: 12px; background: var(--surface-2); border: 1px solid var(--bord); }
+.mes-notes__date { font-family: var(--police-titre); font-size: .74rem; font-weight: 600; color: var(--accent-texte); display: block; }
+.mes-notes__date::first-letter { text-transform: uppercase; }
+.mes-notes__liste p { margin: 4px 0; font-size: .9rem; line-height: 1.45; white-space: pre-wrap; }

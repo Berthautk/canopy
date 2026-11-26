@@ -14,6 +14,7 @@ import { chargerPlan } from './bible/plans.js';
 import { chargerLecteur } from './audio/lecteur.js';
 import { chargerTelechargements } from './audio/telechargements.js';
 import { chargerPriere } from './donnees/priere.js';
+import { chargerNotesVeilles } from './donnees/notesVeilles.js';
 import { demarrerMesure } from './donnees/mesure.js';
 import { chargerRythme, verifierRappels } from './donnees/rythme.js';
 import { notifier } from './composants/Notification.jsx';
@@ -32,6 +33,7 @@ chargerPlan();
 chargerLecteur();
 chargerTelechargements();
 chargerPriere();
+chargerNotesVeilles();
 demarrerMesure();
 chargerRythme();
 setInterval(() => verifierRappels(notifier), 30000);   // rappels pendant que l'application est ouverte

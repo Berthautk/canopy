@@ -9,6 +9,7 @@ import { noterPriere, aiPrie } from '../../donnees/priere.js';
 import { useSignal, useMemoire } from '../../outils/signal.js';
 import { BarreEcoute, useVoixActive } from '../../composants/Ecouter.jsx';
 import { PriereGuidee } from '../../composants/PriereGuidee.jsx';
+import { notesVeilles, noteDuJour, ecrireNote, dernieresNotes, supprimerNote } from '../../donnees/notesVeilles.js';
 
 // Liste de sujets à cocher (« appuie sur chaque point après l'avoir prié »).
 export function SujetsACocher({ sujets, cle, numerote, voixId, debut = 0 }) {
@@ -85,6 +86,41 @@ export function SerieDeVeilles({ aiPrie, id }) {
   );
 }
 
+// L'endroit où écrire : ce que Dieu a dit (matin, midi) ou ce qu'il a fait aujourd'hui (soir).
+// On y revient pour relire : c'est la mémoire de la veille.
+const QUESTION = {
+  'veille-aube': { titre: "Ce que Dieu m'a dit ce matin", aide: 'Un mot, une pensée, un verset, un rêve. Écris vite, comme ça vient.' },
+  'veille-midi': { titre: "Ce que Dieu me montre en ce moment", aide: 'Ce qui me pèse, ce qu\'il me dit, ce que je dois changer cet après-midi.' },
+  'veille-soir': { titre: "Ce que Dieu a fait aujourd'hui", aide: 'Une protection, une provision, une réponse. Même une petite chose.' },
+};
+const nomVeille = { 'veille-aube': "l'Aube", 'veille-midi': 'Midi', 'veille-soir': 'le Soir' };
+export function MesNotes({ id }) {
+  const notes = useSignal(notesVeilles), q = QUESTION[id] || QUESTION['veille-aube'];
+  const texte = noteDuJour(id, notes), anciennes = dernieresNotes(notes);
+  const ajd = new Date(), cleAjd = `${ajd.getFullYear()}-${String(ajd.getMonth() + 1).padStart(2, '0')}-${String(ajd.getDate()).padStart(2, '0')}`;
+  const aujourdhui = (d) => d === cleAjd;
+  return (
+    <section class="carte bloc mes-notes">
+      <h3><span class="ligne__icone"><Icone nom="note" /></span> {q.titre}</h3>
+      <p class="ligne__desc">{q.aide}</p>
+      <textarea class="champ champ--zone" rows={4} value={texte} maxLength={2000} placeholder="Écris ici…" aria-label={q.titre}
+        onInput={(e) => ecrireNote(id, e.currentTarget.value)} />
+      {texte && <p class="ligne__desc" style="margin:4px 0 0">Enregistré sur ce téléphone seulement.</p>}
+      {anciennes.length > 0 && <>
+        <h4 class="mes-notes__titre">Mes dernières notes</h4>
+        <ul class="mes-notes__liste">
+          {anciennes.map((x) => (
+            <li>
+              <span class="mes-notes__date">{aujourdhui(x.date) ? "Aujourd'hui" : new Date(x.date + 'T12:00:00').toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' })} · {nomVeille[x.veille] || ''}</span>
+              <p>{x.texte}</p>
+              <button class="lien" onClick={() => { if (confirm('Supprimer cette note ?')) supprimerNote(x.date + '|' + x.veille); }}>Supprimer</button>
+            </li>))}
+        </ul>
+      </>}
+    </section>
+  );
+}
+
 // Court, normal ou complet : on choisit selon le temps dont on dispose.
 function ChoixTaille({ valeur, surChoix, v0, v }) {
   return (
@@ -122,6 +158,7 @@ export function Veille({ id, guide }) {
       <ChoixTaille valeur={taille} surChoix={choisir} v={v} />
       <PriereGuidee auto={guide} id={cleJour} titre={v.titre} introduction={v.introduction} etapes={etapes.map((e) => ({ titre: e.titre, texte: e.num === 'proc' ? e.texte : (e.num === 'jour' ? e.texte : null), sujets: e.sujets }))} idPriere={v.id} />
       {v.verset && <CarteVerset reference={v.verset} />}
+      <MesNotes id={v.id} />
       <section class="carte bloc"><h3><span class="ligne__icone"><Icone nom="info" /></span> Avant de commencer</h3><p><TexteRefs texte={v.introduction} /></p></section>
       <h2 class="titre-section">Le déroulement</h2>
       <ol class="carte deroulement">
