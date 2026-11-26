@@ -1311,3 +1311,21 @@ html.yeux-proteges[data-theme='clair'] body { background: #efe6d2; }
 .chip--actif { background: var(--or); color: #fff; font-weight: 700; }
 .chemin-etape__nav .bouton { font-size: .9rem; line-height: 1.2; }
 @keyframes apparait { from { opacity: 0; transform: translateX(10px); } to { opacity: 1; transform: none; } }
+/* Jeûne et prière */
+.jeune__rythme h2, .jeune__conges h3 { font-family: var(--police-titre); color: var(--titre); margin: 0 0 8px; font-size: 1.1rem; }
+.jeune__palier { margin: 0 0 6px; }
+.jeune__prochain { margin: 10px 0; }
+.jeune__merci { display: flex; gap: 8px; align-items: flex-start; background: var(--fond-doux, #f4ecd8); padding: 10px; border-radius: 10px; margin: 10px 0 0; }
+.jeune__dates { display: flex; gap: 10px; flex-wrap: wrap; margin: 8px 0; }
+.jeune__dates label { display: flex; flex-direction: column; font-size: .85rem; gap: 3px; flex: 1; min-width: 130px; }
+.jeune__dates input { font: inherit; padding: 8px; border: 1.5px solid var(--or); border-radius: 8px; background: #fff; }
+.jeune__entete { display: flex; align-items: center; gap: 10px; width: 100%; background: none; border: 0; font: inherit; padding: 2px 0; text-align: left; color: var(--titre); }
+.jeune__titre { flex: 1; font-weight: 700; font-family: var(--police-titre); }
+.jeune__fleche { transition: transform .2s; display: grid; }
+.jeune__fleche--ouverte { transform: rotate(90deg); }
+.jeune__corps { margin-top: 8px; }
+.jeune__corps p, .jeune__corps li { line-height: 1.55; }
+.jeune__type h4 { margin: 10px 0 2px; font-size: .98rem; color: var(--titre); }
+.jeune__type small { font-weight: 400; color: var(--or-fonce); }
+.jeune__type p { margin: 0; }
+.jeune__bloc { margin-top: 10px; }

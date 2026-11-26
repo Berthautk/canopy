@@ -30,6 +30,7 @@ export const DECOUVRIR_JESUS = dossier('decouvrir-jesus').sort((a, b) => a.jour 
 export const VEILLES = dossier('veilles').filter((v) => Array.isArray(v.phases)).sort((a, b) => a.ordre - b.ordre);
 export const GUIDE_PHASES = fichiers['/content/veilles/guide-des-phases.json'];
 export const ADORATION = fichiers['/content/veilles/adoration.json'] || { psaumes: [], cantiques: [] };
+export const JEUNE_PRIERE = fichiers['/content/jeune-priere.json'] || { paliers: [], types: [], precautions: [], jour: [], convertis: [], pourquoi: [], conges: {} };
 export const CYCLE_VEILLES = fichiers['/content/veilles/cycle.json']?.jours ?? [];   // le thème de chaque jour de la semaine
 export const COMBAT = dossier('combat').sort((a, b) => a.ordre - b.ordre);
 export const PLAN_THEMATIQUE = fichiers['/content/plans/thematique.json'];

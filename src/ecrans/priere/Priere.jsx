@@ -86,9 +86,9 @@ export function Priere({ section = null }) {
 
         <h2 class="titre-section">Autres façons de prier</h2>
         <div class="liste">
-          <a class="carte theme" href="#/grandir/enseignement/jeune-0-troisieme-force">
+          <a class="carte theme" href="#/priere/jeune">
             <img src="/assets/photos/grandir-notes-lampe.webp" alt="" loading="lazy" />
-            <span class="ligne__corps"><span class="ligne__titre" style="display:block">Jeûne et prière</span><span class="ligne__desc">Pourquoi la prière et le jeûne vont ensemble : « Cette sorte de démon ne sort que par la prière et par le jeûne » (Marc 9:29).</span></span>
+            <span class="ligne__corps"><span class="ligne__titre" style="display:block">Jeûne et prière</span><span class="ligne__desc">Pourquoi prier et jeûner ensemble (Matthieu 17:21), ton rythme de jeûne, et par où commencer.</span></span>
             <Icone nom="chevron" taille={20} />
           </a>
           {ENTREES.map(([id, photo, titre, desc]) => (

@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "auteur": "Yeshaya",
+  "verset": "Matthieu 17:21",
+  "pourquoi": [
+    "Les disciples de Jésus n'ont pas pu chasser un démon. Ils Lui demandent pourquoi. Jésus répond : « Cette sorte de démon ne sort que par la prière et par le jeûne » (Matthieu 17:21). Dans Marc 9:29, Jésus dit la même chose ; certaines Bibles y ajoutent « et par le jeûne », d'autres non.",
+    "Le jeûne ne force pas Dieu. Il change celui qui jeûne. Quand tu laisses la nourriture, tu laisses un peu le monde. Tu te détaches de ce qui te remplit, et tu t'attaches à Dieu.",
+    "Un chrétien qui prie et qui jeûne devient plus sensible à la voix de Dieu. Il a plus de force devant la tentation. Il a plus d'autorité dans la prière.",
+    "Le but n'est pas de faire des chiffres, ni d'impressionner quelqu'un. Jésus le dit : « Quand tu jeûnes, ne sois pas triste comme les hypocrites » (Matthieu 6:16-18). Le but, c'est d'être seul avec Dieu et de Le connaître davantage."
+  ],
+  "paliers": [
+    { "mois": 0, "titre": "Je commence : une fois par mois", "rythme": "Un jeûne par mois, le samedi de préférence.", "frequence": "mois", "conseil": "Commence petit. Un jeûne court vaut mieux qu'un grand jeûne abandonné au bout de deux heures." },
+    { "mois": 3, "titre": "Je grandis : deux fois par mois", "rythme": "Un jeûne toutes les deux semaines, le samedi de préférence.", "frequence": "quinzaine", "conseil": "Tu connais maintenant ton corps. Tu peux allonger un peu la durée si ta santé le permet." },
+    { "mois": 6, "titre": "Je suis fidèle : deux fois par semaine", "rythme": "Deux jours de jeûne par semaine, par exemple le mercredi et le samedi (ou le lundi et le jeudi).", "frequence": "semaine", "conseil": "Ce rythme est celui de beaucoup de croyants d'autrefois. Ne le prends que si ton corps et ton travail le permettent. Rien ne t'oblige : c'est un chemin vers Dieu, pas une règle." }
+  ],
+  "types": [
+    { "titre": "Le jeûne jusqu'à midi ou 15 h", "texte": "Tu ne manges rien depuis le réveil jusqu'à midi, ou jusqu'à 15 h. Tu bois de l'eau. C'est le meilleur départ pour un débutant.", "pour": "Pour commencer" },
+    { "titre": "Le jeûne d'une journée", "texte": "Tu ne manges pas du lever au coucher du soleil. Tu bois de l'eau. Le soir, tu romps le jeûne avec un repas léger.", "pour": "Le plus courant" },
+    { "titre": "Le jeûne partiel (comme Daniel)", "texte": "Tu laisses la viande, le sucre et les boissons sucrées pendant plusieurs jours. Tu manges des légumes, des fruits, des céréales (Daniel 10:2-3). Il convient bien aux gens qui ont une faiblesse de santé.", "pour": "Si tu es fragile" },
+    { "titre": "Le jeûne de ce qui te prend le temps", "texte": "Tu laisses les réseaux sociaux, la télévision, le téléphone pour d'autres choses que la prière. Ce n'est pas un jeûne de nourriture, mais il peut aider celui qui ne peut pas jeûner de manger.", "pour": "Santé fragile, enfant, femme enceinte" }
+  ],
+  "precautions": [
+    "Ne jeûne pas de nourriture si tu es malade, si tu prends un traitement (diabète, tension, tuberculose, VIH…), si tu es enceinte ou si tu allaites. Choisis alors le jeûne de ce qui te prend le temps, ou un jeûne partiel.",
+    "Demande l'avis d'un médecin si tu as un doute. Dieu ne te demande pas de te mettre en danger.",
+    "Les enfants, les personnes très âgées et les personnes très maigres ne font pas de jeûne de nourriture.",
+    "Bois de l'eau pendant le jeûne. Un jeûne sans eau ne se fait jamais seul ni longtemps.",
+    "Si tu as des vertiges, des tremblements ou une grande faiblesse, arrête-toi et mange un peu. Ce n'est pas un échec.",
+    "Romps le jeûne doucement : un fruit, un peu de bouillie, puis un repas léger. Ne te jette pas sur un gros repas."
+  ],
+  "jour": [
+    { "moment": "La veille au soir", "texte": "Décide : « Demain, je jeûne pour… » Écris la raison en une phrase : chercher Dieu, lâcher une habitude, intercéder pour quelqu'un. Mange normalement. Annonce-le à une seule personne de confiance si tu veux être soutenu." },
+    { "moment": "Le matin", "texte": "Commence par la veille de l'Aube. Dis à Dieu : « Seigneur, je laisse la nourriture pour être avec Toi. » Lis un passage de l'Évangile lentement." },
+    { "moment": "Au milieu du jour", "texte": "Quand la faim arrive, ne la combats pas : elle devient un rappel de prière. Dis : « Tu es ma vraie nourriture. » (Jean 4:34). Fais la veille de Midi." },
+    { "moment": "Le soir", "texte": "Remercie Dieu pour ce qu'Il t'a montré. Écris une phrase dans ton carnet : ce que j'ai laissé, ce que j'ai reçu. Romps le jeûne avec un repas léger, en remerciant." }
+  ],
+  "convertis": [
+    "Semaine 1 : tu apprends à prier chaque matin, même 5 minutes. Pas de jeûne encore.",
+    "Semaine 2 à 4 : tu pries matin et soir (veille de l'Aube et du Soir).",
+    "Mois 2 : ton premier jeûne, jusqu'à midi seulement, un samedi. Ton berger peut prier avec toi.",
+    "Ensuite, suis le rythme : une fois par mois, puis deux fois, puis deux fois par semaine."
+  ],
+  "conges": {
+    "titre": "Une semaine de jeûne et de prière pendant tes congés",
+    "texte": "Les congés, les vacances et les temps sans école ou sans travail sont une bonne occasion. Pendant une semaine, tu peux prier plus longtemps et jeûner un ou plusieurs jours (selon ta santé). Dis ici quand tu es en congé : l'application te proposera cette semaine-là."
+  }
+}

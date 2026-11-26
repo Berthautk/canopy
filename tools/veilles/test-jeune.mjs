@@ -1,0 +1,13 @@
+import { prochainJeune, palierDe, moisDepuis, semaineDeConges } from '../../src/donnees/jeune.js';
+import { readFileSync } from 'node:fs';
+const C = JSON.parse(readFileSync(new URL('../../content/jeune-priere.json', import.meta.url)));
+let ko = 0; const ok = (c, m) => { console.log((c ? '  ok : ' : '  KO : ') + m); if (!c) ko++; };
+ok(palierDe(C.paliers, '2026-11-01', '2026-11-26').frequence === 'mois', 'mois 0 : une fois par mois');
+ok(palierDe(C.paliers, '2026-08-01', '2026-11-26').frequence === 'quinzaine', 'après 3 mois : deux fois par mois');
+ok(palierDe(C.paliers, '2026-05-01', '2026-11-26').frequence === 'semaine', 'après 6 mois : deux fois par semaine');
+ok(prochainJeune({ debut: '2026-11-26', jeunes: [] }, C.paliers, '2026-11-26').date === '2026-11-28', 'premier jeûne : le samedi suivant');
+ok(prochainJeune({ debut: '2026-11-01', jeunes: ['2026-11-21'] }, C.paliers, '2026-11-26').date === '2026-12-19', 'un mois après le dernier, un samedi');
+ok(prochainJeune({ debut: '2026-05-01', jeunes: ['2026-11-25'] }, C.paliers, '2026-11-26').date === '2026-11-28', 'deux par semaine : mercredi/samedi');
+ok(moisDepuis('2026-01-31', '2026-02-28') === 0, 'mois entiers');
+ok(!!semaineDeConges({ du: '2026-12-20', au: '2026-12-27' }, '2026-11-26') && !semaineDeConges({ du: '2026-12-20', au: '2026-12-21' }, '2026-11-26'), 'congés : au moins 3 jours');
+console.log(ko ? '>>> ÉCHEC' : '>>> tout passe'); process.exit(ko ? 1 : 0);
