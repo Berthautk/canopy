@@ -2,6 +2,13 @@
 // et trois tailles (court, normal, complet). Fonctions pures : elles ne lisent rien toutes seules,
 // ce qui permet de les tester sans navigateur (voir tools/securite/… et les essais de ce chantier).
 
+// Le même squelette (le Notre Père), mais chaque étape dit ce qu'elle veut dire à CETTE heure.
+const LIBELLES = {
+  'veille-aube': { 'Donne-nous notre pain': "Donne-nous notre pain : ce dont j'ai besoin aujourd'hui", 'Pardonne nos offenses': 'Pardonne nos offenses : repartir net', 'Action de grâce': 'Action de grâce : sortir en vainqueur' },
+  'veille-midi': { 'Adoration': 'Adoration : lever les yeux au milieu de la course', 'Pardonne-nous nos offenses': 'Pardonne-nous nos offenses : ce que la matinée a laissé' },
+  'veille-soir': { 'Donne-nous notre pain': 'Donne-nous notre pain : pour la nuit et pour demain', 'Pardonne nos offenses': 'Pardonne nos offenses : ce que je dépose avant de dormir', 'Action de grâce': 'Action de grâce : fermer la journée en vainqueur' },
+};
+
 export const TAILLES = [
   { id: 'court', nom: 'Court', minutes: 8, desc: "Un sujet par étape. Quand on n'a que quelques minutes." },
   { id: 'normal', nom: 'Normal', minutes: 22, desc: 'Trois sujets par étape. Le rythme de chaque jour.' },
@@ -24,8 +31,9 @@ export function veilleDuJour(veille, cycle, d = new Date(), taille = 'complet', 
   const gardes = PAR_ETAPE[taille] ?? Infinity;
   // L'adoration commence toujours par le psaume du jour : en version courte, c'est tout ce qu'on garde.
   const ado = adoration ? adorationDuJour(adoration, veille.id, d) : { psaume: null };
-  const sujetPsaume = ado.psaume ? { titre: `Le psaume du jour : ${ado.psaume.titre}`, texte: `Lis à voix haute ${ado.psaume.ref.replace(/^Psaume/, 'le Psaume')}. ${ado.psaume.guide} (${ado.psaume.ref})` } : null;
-  let phases = veille.phases.map((p) => ({ ...p, sujets: (sujetPsaume && /adoration/i.test(p.titre) ? [sujetPsaume, ...p.sujets] : p.sujets).slice(0, gardes) }));
+  const sujetPsaume = ado.psaume ? { titre: `Le psaume du jour : ${ado.psaume.titre}`, texte: `Lis à voix haute ${ado.psaume.ref.replace(/^Psaume/, 'le Psaume')}. ${ado.psaume.guide}` } : null;
+  const lib = LIBELLES[veille.id] || {};
+  let phases = veille.phases.map((p) => ({ ...p, titre: lib[p.titre] || p.titre, sujets: (sujetPsaume && /adoration/i.test(p.titre) ? [sujetPsaume, ...p.sujets] : p.sujets).slice(0, gardes) }));
   let verset = veille.verset;
   if (jour?.veilles?.[cle]?.length) {
     const phaseJour = {
